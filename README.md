@@ -28,6 +28,7 @@ Het Gemeentelijk Gegevensmodel is beschikbaar in [XMI-vorm](https://www.omg.org/
 
 ![Open Diagram][openDiagram]
 
+9. Succes!
 
 ### Versies en gebruikte tooling
 
@@ -35,15 +36,12 @@ Het XMI-bestand van het Gemeentelijk Gegevensmodel is in theorie te gebruiken in
 
 Het Gemeentelijk Gegevensmodel is beschikbaar in:
 
-* XMI versie 1.1 
+* XMI versie 1.1
 
 Het is Getest en gebruikt in de volgende omgevingen:
 
 * Enterprise Architect versie 14
 * Enterprise Architect versie 15
-
-
-
 
 [importXMI]: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/image/ImportPackage.png "Import XMI via tabblad Publish"
 [selectFilename]: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/image/SelectFilename.png "Select Filename"
