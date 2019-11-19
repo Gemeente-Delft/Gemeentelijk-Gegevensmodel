@@ -11,9 +11,23 @@ Het Gemeentelijk Gegevensmodel is beschikbaar in [XMI-vorm](https://www.omg.org/
 1. Download het bestand 'Gemeentelijk_Gegevensmodel.xml'
 2. Start Enterprise Architect (of andere XMI-Compatible tooling)
 3. (Optioneel) Maak nieuw project
-4. Kies _Import Package from XMI_
+4. Kies _"Import Package from XMI"_
 
-![alt text][logo]
+![Import XMI][importXMI]
+
+5. Selecteer bij ”Filename” het gedownloade bestand “Gemeentelijk Gegevensmodel.xml”
+
+![Select Filename][selectFilename]
+
+6. Laat de instellingen zoals ze staan en druk op _“Import”_
+
+![Import Package][importPackage]
+
+7. Even wachten….
+8. Open het Model en je ziet de verschillende Beleidsdomeinen en de bijbehorende diagrammen
+
+![Open Diagram][openDiagram]
+
 
 ### Versies en gebruikte tooling
 
@@ -31,4 +45,7 @@ Het is Getest en gebruikt in de volgende omgevingen:
 
 
 
-[logo]: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/image/Import%20Package.png "Logo Title Text 2"
+[importXMI]: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/image/ImportPackage.png "Import XMI via tabblad Publish"
+[selectFilename]: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/image/SelectFilename.png "Select Filename"
+[importPackage]: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/image/ImportPackage.png "Import Package"
+[openDiagram]: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/image/OpenDiagram.png "Open Diagram"
