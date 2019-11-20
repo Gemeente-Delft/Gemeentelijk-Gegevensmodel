@@ -48,6 +48,12 @@ Het is Getest en gebruikt in de volgende omgevingen:
 ## Opbouw Gemeentelijk Gegevensmodel
 Het GGM kent een gelaagde opbouw, waarbij verschillende objecttypen over beleidsdomeinen heen zoveel mogelijk zijn ontkoppeld. Alleen objecttypen in de onderste lagen van het model worden gebruikt door de bovenliggende onderdelen.
 
+![Gelaagdheid Domeinen][gelaagdheidDomeinen]
+
+Het gegevensmodel is uitgewerkt in een aantal verticale beleidsdomeinen en 4 horizontale beleidsdomeinen. De horizontale delen (Kern, Financiën, ICT en Dienstverlening) vormen de basis van het gegevensmodel, waarop de verticale delen voortbouwen. De Kern bestaat uit RSGB en RGBZ, die de gegevensdefinities bevatten die zoals die gelden voor de basisregistraties (RSGB) en zaakgericht werken (RGBZ).  
+Er is ontkoppeling tussen de verschillende (sub)domeinen nagestreefd, doordat in de gegevensdefinities van het gegevensmodel (sub)domeinen alleen definities uit onderliggende (sub)domeinen gebruiken. Zo gebruiken alle (sub)domeinen gegevensdefinities uit Kern en kunnen alle verticale (sub)domeinen gegevensdefinities gebruiken uit de 4 horizontale modellen.
+
+
 ### Beleidsterreinen
 Het gegevensmodel omvat de volgende op de gebaseerde [IV3-taakvelden](https://www.rijksoverheid.nl/onderwerpen/financien-gemeenten-en-provincies/uitwisseling-financiele-gegevens-met-sisa-en-iv3/informatie-voor-derden-iv3):
 
@@ -99,9 +105,29 @@ Naast bovengenoemde beleidsterreinen kent het GGM het onderdeel 'Kern', waarin a
 
 ## Totstandkoming Gemeentelijk Gegevensmodel
 
+Het GGM is ontworpen op aan de hand van interviews met domeinexperts, de in Delft gebruikte applicaties en op basis van landelijke informatiestandaarden. Dit om tot een gegevensmodel te komen dat goede verankering kent met de Delftse situatie. Aangezien alle Nederlandse gemeenten in principe dezelfde wettelijke taken hebben gaan we ervanuit dat de onderliggende informatiemodellen sterk op elkaar lijken. 
+
+Uitgangspunt van de inventarisatie waren: 
+
+1. De lijst met Delftse applicaties en de inventarisatie hiervan waarbij onderscheid is gemaakt tussen authentieke bronnen en overige applicaties
+2. De set beleidsdomeinen waar de gemeente haar taakgebied heeft 
+3. Landelijk vastgestelde standaarden voor gegevensuitwisseling en landelijk vastgestelde informatiemodellen  
+
+De inventarisatie in de volgende stappen uitgevoerd:
+
+1. Interviews met experts uit de verschillen de Beleidsdomeinen: per beleidsdomein is er m.b.v. gesprekken met experts van de informatievoorziening binnen de beleidsdomeinen een inventarisatie gemaakt van de gebruikte applicaties, de betrokken gebruikers, de interactie tussen de applicaties en de gebruikers, en welke gegvens daarbij gebruikt worden.
+2. Applicaties en gegevens: door in de gesprekken en uit de analyse de authentieke bronnen  van gegevens te identificeren, door in de gesprekken in te zoomen op de gebruikte gegevens en door de inventarisatie van de applicaties en gegevens te hanteren zijn de gegevens binnen de authentieke bronnen geïdentificeerd.
+3. Gegevensmodel: het gegevensmodel wordt opgebouwd door de in de vorige stap gevonden gegevens te vertalen naar objecttypen (gegevenssoorten). Landelijke standaarden dienen hier zoveel mogelijk als uitgangspunt. Veel van de gebruikte applicaties ondersteunen deze landelijke standaarden, waardoor compatibiliteit zo goed mogelijk wordt gegarandeerd. 
+4. Databaseschema: er is generator gerealiseerd waarmee op basis van de definities in het gegevensmodel met ‘een druk op de knop’ databasetabellen gegenereerd kunnen worden. Hiermee is het mogelijk de basis te leggen voor een datawarehouse en is het mogelijk gegevens uit de applicaties te laden waardoor confrontatie van het model met de data mogelijk is.
+
+![Aanpak GGM][aanpakGGM]
+
+
 ## Work in Progress
 
 [importXMI]: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/image/ImportPackage.png "Import XMI via tabblad Publish"
 [selectFilename]: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/image/SelectFilename.png "Select Filename"
 [importPackage]: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/image/ImportPackage.png "Import Package"
 [openDiagram]: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/image/OpenDiagram.png "Open Diagram"
+[gelaagdheidDomeinen]: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/image/GelaagdheidDomeinen "Gelaagdheid Domeinen"
+[aanpakGGM]: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/image/AanpakGGM "Aanpak GGM"
