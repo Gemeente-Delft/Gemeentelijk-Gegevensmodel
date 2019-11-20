@@ -129,5 +129,5 @@ De inventarisatie in de volgende stappen uitgevoerd:
 [selectFilename]: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/image/SelectFilename.png "Select Filename"
 [importPackage]: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/image/ImportPackage.png "Import Package"
 [openDiagram]: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/image/OpenDiagram.png "Open Diagram"
-[gelaagdheidDomeinen]: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/image/GelaagdheidDomeinen "Gelaagdheid Domeinen"
-[aanpakGGM]: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/image/AanpakGGM "Aanpak GGM"
+[gelaagdheidDomeinen]: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/image/GelaagdheidDomeinen.jpg "Gelaagdheid Domeinen"
+[aanpakGGM]: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/image/AanpakGGM.jpg "Aanpak GGM"
