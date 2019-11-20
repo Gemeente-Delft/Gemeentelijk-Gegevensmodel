@@ -4,11 +4,13 @@ Het Gemeentelijk Gegevensmodel (GGM) is een logisch gegevensmodel met daarin ver
 
 Het GGM omvat alle beleidsterreinen die onder de verantwoordelijkeheid van de gemeente vallen. Dit ongeacht de organisatorische inrichting, zoals de afdelingen die de bijbehorende taken uitvoeren en uitbesteding aan derde partijen. Deze beleidsterreinen zijn afgeleid van de [IV3-taakvelden](https://www.rijksoverheid.nl/onderwerpen/financien-gemeenten-en-provincies/uitwisseling-financiele-gegevens-met-sisa-en-iv3/informatie-voor-derden-iv3). 
 
+Bij het GGM is een set _codegeneratietemplates_ ontwikkeld voor het genereren van fysieke datamodellen op basis van (onderdelen van) het GGM. Hiermee genereer je DDL voor Oracle en in ongeteste vorm voor MySQL. Get gaat hier om templates voor het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html) van Enterprise Architect.
+
 ## Installatie en gebruik
 
 Het Gemeentelijk Gegevensmodel is beschikbaar in [XMI-vorm](https://www.omg.org/spec/XMI/About-XMI/), en is ontwikkeld in, en toegepast met [Enterprise Architect](https://sparxsystems.com).
 
-### Installatie
+### Installatie Gemeentelijk Gegevensmodel
 
 1. Download het bestand 'Gemeentelijk_Gegevensmodel.xml'
 2. Start Enterprise Architect (of andere XMI-Compatible tooling)
@@ -31,6 +33,25 @@ Het Gemeentelijk Gegevensmodel is beschikbaar in [XMI-vorm](https://www.omg.org/
 ![Open Diagram][openDiagram]
 
 9. Succes!
+
+### Installatie Codegeneratietemplates
+
+1. Download het bestand 'CodegeneratieTemplates.xml'
+2. Start Enterprise Architect
+3. (Optioneel) Maak nieuw project
+4. Kies _Import Reference Data_
+
+![Import Reference Data][importRefData]
+
+5. Selecteer het zjuist gedownloade bestand 'CodegeneratieTemplates.xml', selecteer alle templates en druk op _Import_
+
+![Import Templates][kiesTemplates]
+
+6. De templates zijn klaar voor gebruik en je vindt ze onder _Transform_
+
+![Gebruik Templates][gebruikTemplates]
+
+7. Succes!
 
 ### Versies en gebruikte tooling
 
@@ -103,7 +124,9 @@ Het gegevensmodel omvat de volgende op de gebaseerde [IV3-taakvelden](https://ww
 
 Naast bovengenoemde beleidsterreinen kent het GGM het onderdeel 'Kern', waarin alle gedeelde objecttypen zijn te vinden. Kern is afgeleid van het [Informatiemodel Basis- en Kerngegevens (RSGB)](https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_(RSGB)) en [Informatiemodel Zaken (RGBZ)](https://www.gemmaonline.nl/index.php/Informatiemodel_Zaken_(RGBZ)) (beiden onderdeel [GEMMA: Gemeentelijke Modelarchitectuur](https://www.gemmaonline.nl/index.php/Gemeentelijke_Model_Architectuur_(GEMMA))), aangevuld met een aantal generieke objecttypen.  
 
-### Landelijke standaarden
+### Toegepaste Landelijke standaarden
+
+Nederland kent op dit moment een lappendeken aan standaarden voor gegevensuitwisseling en informatiemodellen. Samenhang tussen deze standaarden en is beperkt. Relevante standaarden zijnn zoveel mogelijk in samenhang binnen de afzonderlijke domeinen in het GGM opgenomen. Het stelsel van basisregistraties, en het daarop gerichte RSGB geven hiervoor wel enige houvast. In het GGM heeft het RSGB daarom een centrale plek.
 
 De volgende standaarden zijn gebruikt bij de totstandkoming van het GGM, en maken onderdeel uit van het GGM:
 * [Informatiemodel Basis- en Kerngegevens (RSGB)](https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_(RSGB)) versie 2.0.2. Het RSGB is as-is gebruikt in het onderdeel _Kern_ van het GGM. 
@@ -122,7 +145,7 @@ De volgende standaarden zijn gebruikt bij de totstandkoming van het GGM, en make
 ### Conventies
 
 Binnen het GGM zijn de volgende conventies aangehouden:
-
+todo
 
 ## Totstandkoming Gemeentelijk Gegevensmodel
 
@@ -151,3 +174,6 @@ De inventarisatie in de volgende stappen uitgevoerd:
 [openDiagram]: image/OpenDiagram.png "Open Diagram"
 [gelaagdheidDomeinen]: image/GelaagdheidDomeinen.jpg "Gelaagdheid Domeinen"
 [aanpakGGM]: image/AanpakGGM.jpg "Aanpak GGM"
+[importRefData]: image/ImportRefData.png "Import Referencedata"
+[kiesTemplates]: image/KiesTemplates.png "Kies templates"
+[gebruikTemplates]: image/GebruikTemplates.png "Gebruik templates"
