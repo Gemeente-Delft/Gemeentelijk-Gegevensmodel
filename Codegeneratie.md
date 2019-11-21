@@ -65,6 +65,12 @@ Voor het genereren naar DDL neem je de volgende stappen:
 
 ![Onder _Develop Datamodelling_ kies _Generate_][kiesGenerate]
 
+9. Vul een bestandsnaam en map in en druk op de knop _Generate_
+
+![druk op de knop _Generate_][kiesGenerateDDL]
+
+10. Even wachten en de DDL staat klaar. Succes! 
+
 [tablesAfval]: image/TablesAfval.png "Maak een plek om de tabellen uit te genereren"
 [selecteerInModel]: image/SelecteerInModel.png "Selecteer de map in het model"
 [applyTransformation]: image/ApplyTransformation.png "Kies Apply Transformation"
@@ -76,3 +82,4 @@ Voor het genereren naar DDL neem je de volgende stappen:
 [selecteerDefaultRDBMS]: image/SelecteerDefaultRDBMS.png "Selecteer het default RDBMS dat je als doel hebt"
 [selecteerTabellen]: image/SelecteerTabellen.png "Selecteer de tabellen die je wilt genereren"
 [kiesGenerate]: image/KiesGenerate.png "Kies Generate"
+[kiesGenerateDDL]: image/KiesGenerateDDL.png "Kies Generate"

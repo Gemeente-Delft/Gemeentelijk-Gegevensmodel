@@ -36,6 +36,8 @@ Het Gemeentelijk Gegevensmodel is beschikbaar in [XMI-vorm](https://www.omg.org/
 
 ### Installatie Codegeneratietemplates
 
+Hierna is de installatie beschreven van de codegeneratietemplates, voor gebruik klik [hier](Codegeneratie.md)
+
 1. Download het bestand 'CodegeneratieTemplates.xml'
 2. Start Enterprise Architect
 3. (Optioneel) Maak nieuw project
