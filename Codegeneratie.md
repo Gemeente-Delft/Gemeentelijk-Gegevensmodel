@@ -7,7 +7,7 @@ Bij het GGM is een set codegeneratietemplates die binnen Enterprise Architect ge
 1. Oracle
 2. MySQL (ongetest)
 
-De geleverde codegeneratietemplates zijn uitbreidingen op de standaard templates van Enterprise Architect, als onderdeel van het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html). 
+De geleverde codegeneratietemplates zijn uitbreidingen op de standaard templates van [Enterprise Architect](https://sparxsystems.com), als onderdeel van het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html). 
 
 Enterprise Architect ondersteunt ook andere databases en daarnaast programmeertalen zoals Python, C# en Java. Wij nodigen ontwikkelaars van harte uit deze te gebruiken en verder geschikt te maken voor het GGM. 
 
