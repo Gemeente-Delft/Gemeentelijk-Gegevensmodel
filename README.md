@@ -4,7 +4,7 @@ Het Gemeentelijk Gegevensmodel (GGM) is een logisch gegevensmodel met daarin ver
 
 Het GGM omvat alle beleidsterreinen die onder de verantwoordelijkeheid van de gemeente vallen. Dit ongeacht de organisatorische inrichting, zoals de afdelingen die de bijbehorende taken uitvoeren en uitbesteding aan derde partijen. Deze beleidsterreinen zijn afgeleid van de [IV3-taakvelden](https://www.rijksoverheid.nl/onderwerpen/financien-gemeenten-en-provincies/uitwisseling-financiele-gegevens-met-sisa-en-iv3/informatie-voor-derden-iv3). 
 
-Bij het GGM is een set _codegeneratietemplates_ ontwikkeld voor het genereren van fysieke datamodellen op basis van (onderdelen van) het GGM. Hiermee genereer je DDL voor Oracle en in ongeteste vorm voor MySQL. Get gaat hier om templates voor het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html) van Enterprise Architect.
+Bij het GGM is een set _codegeneratietemplates_ ontwikkeld voor het genereren van fysieke datamodellen op basis van (onderdelen van) het GGM. Hiermee genereer je DDL voor Oracle en in ongeteste vorm voor MySQL. Het gaat hier om templates voor het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html) van Enterprise Architect.
 
 ## Installatie en gebruik
 
@@ -52,6 +52,8 @@ Het Gemeentelijk Gegevensmodel is beschikbaar in [XMI-vorm](https://www.omg.org/
 ![Gebruik Templates][gebruikTemplates]
 
 7. Succes!
+
+Voor verdere uitleg rond het gebruik van de codegeneratietemplates kijk [hier](Codegeneratie.md).
 
 ### Versies en gebruikte tooling
 
