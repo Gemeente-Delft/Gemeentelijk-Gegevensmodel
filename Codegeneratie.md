@@ -25,7 +25,7 @@ Zorg vervolgens dat je in Enterprise Architect het default RDBMS selecteert. Hie
 
 ![Ga naar Preferences om het default RDBMS te selecteren][kiesPreferences]
 
-Kies vervolgens onder _Source Code Engineering/Code Editors_ dew optie _Default Database_. In ons voorbeeld Oracle. 
+Kies vervolgens onder _Source Code Engineering/Code Editors_ de optie _Default Database_. In ons voorbeeld Oracle. 
 
 ![Selecteer het default RDBMS dat je als doel hebt][selecteerDefaultRDBMS]
 
