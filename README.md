@@ -4,7 +4,7 @@ Het Gemeentelijk Gegevensmodel (GGM) is een logisch gegevensmodel met daarin ver
 
 Het GGM omvat alle beleidsterreinen die onder de verantwoordelijkeheid van de gemeente vallen. Dit ongeacht de organisatorische inrichting, zoals de afdelingen die de bijbehorende taken uitvoeren en uitbesteding aan derde partijen. Deze beleidsterreinen zijn afgeleid van de [IV3-taakvelden](https://www.rijksoverheid.nl/onderwerpen/financien-gemeenten-en-provincies/uitwisseling-financiele-gegevens-met-sisa-en-iv3/informatie-voor-derden-iv3). 
 
-Bij het GGM is een set _codegeneratietemplates_ ontwikkeld voor het genereren van fysieke datamodellen op basis van (onderdelen van) het GGM. Hiermee genereer je DDL voor Oracle en in ongeteste vorm voor MySQL. Het gaat hier om templates voor het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html) van Enterprise Architect.
+Bij het GGM is een set _codegeneratietemplates_ ontwikkeld voor het genereren van fysieke datamodellen op basis van (onderdelen van) het GGM. Hiermee genereer je DDL voor Oracle en in ongeteste vorm voor MySQL. Het gaat hier om templates voor het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html) van Enterprise Architect. Hiermee kan ook werkende DDL worden gegenereerd voor andere databases. Er missen dan alleen specifieke datatypes, die worden als VARCHAR(50) uitgegenereerd.
 
 ## Installatie en gebruik
 
@@ -91,7 +91,7 @@ Het gegevensmodel omvat de volgende op de gebaseerde [IV3-taakvelden](https://ww
   * Beheer Openbare Ruimte
   * Omgevingswet
   * Afval 
-* Sport, Cultuur en Recreattie
+* Sport, Cultuur en Recreatie
   * Erfgoed, Archeologie
   * Erfgoed, Archief
   * Erfgoed, Monumenten
@@ -107,8 +107,8 @@ Het gegevensmodel omvat de volgende op de gebaseerde [IV3-taakvelden](https://ww
   * Vastgoed
   * Financien
   * HR
-  * Inkoop (_nog in ontwikkeling_)
-  * Subsidies (_nog in ontwikkeling_)
+  * Inkoop
+  * Subsidies
   * Facilitair (_nog in ontwikkeling_)
   * Communicatie (_nog in ontwikkeling_)
   * Control (_nog in ontwikkeling_)
