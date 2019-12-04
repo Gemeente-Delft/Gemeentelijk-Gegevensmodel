@@ -14,7 +14,7 @@ Het Gemeentelijk Gegevensmodel is beschikbaar in [XMI-vorm](https://www.omg.org/
 
 We bieden het GGM in twee vormen aan:
 
-1. Als [EAPX-bestand](Gemeentelijk_Gegevensmodel.eapx), te gebruiken voor de gratis [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/). En natuurlijk de overige versies van Enterprise Architect. Download hiervoor het bestand _Gemeentelijk_Gegevensmodel.xml_ en open het in (de viewer van) Enterprise Architect.
+1. Als [EAP-bestand](Gemeentelijk_Gegevensmodel.eap), te gebruiken voor de gratis [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/). En natuurlijk de overige versies van Enterprise Architect. Download hiervoor het bestand _Gemeentelijk_Gegevensmodel.xml_ en open het in (de viewer van) Enterprise Architect.
 2. Als [XMI-bestand](Gemeentelijk_Gegevensmodel.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk [hier](InstallerenXMI.md).
 
 ### Installatie Codegeneratietemplates
