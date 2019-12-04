@@ -12,50 +12,14 @@ Het Gemeentelijk Gegevensmodel is beschikbaar in [XMI-vorm](https://www.omg.org/
 
 ### Installatie Gemeentelijk Gegevensmodel
 
-1. Download het bestand 'Gemeentelijk_Gegevensmodel.xml'
-2. Start Enterprise Architect (of andere XMI-Compatible tooling)
-3. (Optioneel) Maak nieuw project
-4. Kies _"Import Package from XMI"_
+We bieden het GGM in twee vormen aan:
 
-![Import XMI][importXMI]
-
-5. Selecteer bij ”Filename” het gedownloade bestand “Gemeentelijk Gegevensmodel.xml”
-
-![Select Filename][selectFilename]
-
-6. Laat de instellingen zoals ze staan en druk op _“Import”_
-
-![Import Package][importPackage]
-
-7. Even wachten….
-8. Open het Model en je ziet de verschillende Beleidsdomeinen en de bijbehorende diagrammen
-
-![Open Diagram][openDiagram]
-
-9. Succes!
+1. Als [EAPX-bestand](Gemeentelijk_Gegevensmodel.eapx), te gebruiken voor de gratis [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/). En natuurlijk de overige versies van Enterprise Architect. Download hiervoor het bestand _Gemeentelijk_Gegevensmodel.xml_ en open het in (de viewer van) Enterprise Architect.
+2. Als [XMI-bestand](Gemeentelijk_Gegevensmodel.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk [hier](InstallerenXMI.md).
 
 ### Installatie Codegeneratietemplates
 
-Hierna is de installatie beschreven van de codegeneratietemplates, voor gebruik klik [hier](Codegeneratie.md)
-
-1. Download het bestand 'CodegeneratieTemplates.xml'
-2. Start Enterprise Architect
-3. (Optioneel) Maak nieuw project
-4. Kies _Import Reference Data_
-
-![Import Reference Data][importRefData]
-
-5. Selecteer het zjuist gedownloade bestand 'CodegeneratieTemplates.xml', selecteer alle templates en druk op _Import_
-
-![Import Templates][kiesTemplates]
-
-6. De templates zijn klaar voor gebruik en je vindt ze onder _Transform_
-
-![Gebruik Templates][gebruikTemplates]
-
-7. Succes!
-
-Voor verdere uitleg rond het gebruik van de codegeneratietemplates kijk [hier](Codegeneratie.md).
+De installatie van de codegeneratietemplates staat [hier](InstallatieCodegeneratietemplates.md) beschreven. Voor verdere uitleg rond het gebruik van de codegeneratietemplates kijk [hier](Codegeneratie.md).
 
 ### Versies en gebruikte tooling
 
@@ -63,14 +27,16 @@ Het XMI-bestand van het Gemeentelijk Gegevensmodel is in theorie te gebruiken in
 
 Het Gemeentelijk Gegevensmodel is beschikbaar in:
 
-* XMI versie 1.1
+* [XMI versie 1.1](https://www.omg.org/spec/XMI/About-XMI/)
 
 Het is Getest en gebruikt in de volgende omgevingen:
 
-* Enterprise Architect versie 14
-* Enterprise Architect versie 15
+* [Enterprise Architect versie 14](https://sparxsystems.com/products/ea/14/index.html)
+* [Enterprise Architect versie 15](https://sparxsystems.com/products/ea/15/index.html)
+* [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/)
 
 ## Opbouw Gemeentelijk Gegevensmodel
+
 Het GGM kent een gelaagde opbouw, waarbij verschillende objecttypen over beleidsdomeinen heen zoveel mogelijk zijn ontkoppeld. Alleen objecttypen in de onderste lagen van het model worden gebruikt door de bovenliggende onderdelen.
 
 ![Gelaagdheid Domeinen][gelaagdheidDomeinen]
@@ -133,6 +99,7 @@ Naast bovengenoemde beleidsterreinen kent het GGM het onderdeel 'Kern', waarin a
 Nederland kent op dit moment een lappendeken aan standaarden voor gegevensuitwisseling en informatiemodellen. Samenhang tussen deze standaarden en is beperkt. Relevante standaarden zijnn zoveel mogelijk in samenhang binnen de afzonderlijke domeinen in het GGM opgenomen. Het stelsel van basisregistraties, en het daarop gerichte RSGB geven hiervoor wel enige houvast. In het GGM heeft het RSGB daarom een centrale plek.
 
 De volgende standaarden zijn gebruikt bij de totstandkoming van het GGM, en maken onderdeel uit van het GGM:
+
 * [Informatiemodel Basis- en Kerngegevens (RSGB)](https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_(RSGB)) versie 2.0.2. Het RSGB is as-is gebruikt in het onderdeel _Kern_ van het GGM. 
 * [Informatiemodel Zaken (RGBZ)](https://www.gemmaonline.nl/index.php/Informatiemodel_Zaken_(RGBZ)) versie 1.0. Het RGBZ is as-is gebruikt in het onderdeel _Kern_ van het GGM.  
 * [iWmo](https://istandaarden.nl/istandaarden/iwmo) versie 2.3. iWmo is een berichtenstandaard voor het uitwisselen van gegevens tussen zorgaanbieders en gemeenten met achterliggend informatiemodel. Dit informatiemodel vormt samen met de iJw-standaard de basis voor het Jeugd- en Wmo-deel van het beleidsdomein _Sociaal Domein_. Deze zijn in de uitwerking aangevuld met diverse objecttypen.
@@ -145,7 +112,6 @@ De volgende standaarden zijn gebruikt bij de totstandkoming van het GGM, en make
 * [Standaard officiële publicaties (STOP/TPOD)](https://aandeslagmetdeomgevingswet.nl/digitaal-stelsel/technisch-aansluiten/koppelvlakken/omgevingsdocumenten/standaard-officiele/) Versie 0.98beta. Voor het valideren en publiceren van omgevingswetbesluiten. Vanwege de beperkte rijkweidte is deze slechts beperkt overgenomen.  
 * [Conceptueel Informatiemodel Omgevingswet CIMOW](https://www.geonovum.nl/over-geonovum/actueel/cimow-en-imow-versie-098-beta-beschikbaar) Versie CIMOW v0.98-kern. Het Conceptueel Informatiemodel voor de Omgevingswet (CIMOW) beschrijft het domein van de Omgevingswet. Dit beperkt zich tot de informatie die in dit domein wordt vastgelegd en vastgesteld en in ketens wordt uitgewisseld ten behoeve van het digitaal stelsel van de Omgevingswet (DSO).
  
-
 ### Conventies
 
 Binnen het GGM zijn de volgende conventies aangehouden:
@@ -171,6 +137,8 @@ De inventarisatie in de volgende stappen uitgevoerd:
 ![Aanpak GGM 1][aanpakGGM]
 
 ## Work in Progress
+
+todo
 
 [importXMI]: image/ImportPackage.png "Import XMI via tabblad Publish"
 [selectFilename]: image/SelectFilename.png "Select Filename"
