@@ -1,0 +1,24 @@
+site_name: Gemeentelijk Gegevensmodel (GGM)
+site_description: Informatiemodel van alle gemeentelijke taakvelden 
+site_author: Arjen Brienen
+date: 2019-05-12
+repo_url: https://github.com/brienen/Gemeentelijk-Gegevensmodel/
+nav:
+ - Home: index.md
+ - Installatie: installatie.md
+ # - Opbouw: opbouw.md
+ # - Gebruik: gebruik.md
+ - Totstandkoming:
+    - 'Uitleg Werkwijze': totstandkoming.md
+    - 'Voorbeeld: Gemeentelijke Monumenten': monumenten.md
+ - Generatie databaseschema's: generatie.md
+ - Overige: 
+    - Over het GGM: about.md
+    - Licentie: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/LICENSE 
+    - Documentatie aanpassen: documentatie.md
+theme: 
+    name: 'material'
+    language: 'nl'
+    palette:
+        primary: 'blue'
+        accent: 'blue'

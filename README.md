@@ -4,7 +4,11 @@ Het Gemeentelijk Gegevensmodel (GGM) is een logisch gegevensmodel met daarin ver
 
 Het GGM omvat alle beleidsterreinen die onder de verantwoordelijkeheid van de gemeente vallen. Dit ongeacht de organisatorische inrichting, zoals de afdelingen die de bijbehorende taken uitvoeren en uitbesteding aan derde partijen. Deze beleidsterreinen zijn afgeleid van de [IV3-taakvelden](https://www.rijksoverheid.nl/onderwerpen/financien-gemeenten-en-provincies/uitwisseling-financiele-gegevens-met-sisa-en-iv3/informatie-voor-derden-iv3). 
 
-Bij het GGM is een set _codegeneratietemplates_ ontwikkeld voor het genereren van fysieke datamodellen op basis van (onderdelen van) het GGM. Hiermee genereer je DDL voor Oracle en in ongeteste vorm voor MySQL. Het gaat hier om templates voor het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html) van Enterprise Architect. Hiermee kan ook werkende DDL worden gegenereerd voor andere databases. Er missen dan alleen specifieke datatypes, die worden als VARCHAR(50) uitgegenereerd.
+Bij het GGM is een set _codegeneratietemplates_ ontwikkeld voor het genereren van fysieke datamodellen op basis van (onderdelen van) het GGM. Hiermee genereer je DDL voor Oracle en in ongeteste vorm voor MySQL. Het gaat hier om templates voor het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html) van Enterprise Architect. Hiermee kan ook werkende DDL worden gegenereerd voor andere databases.
+
+## Handleiding
+
+**Voor gedetailleerde toelichting kijk in de [Handleiding](https://brienen.github.io/Gemeentelijk-Gegevensmodel/).**
 
 ## Installatie en gebruik
 
@@ -15,11 +19,11 @@ Het Gemeentelijk Gegevensmodel is beschikbaar in [XMI-vorm](https://www.omg.org/
 We bieden het GGM in twee vormen aan:
 
 1. Als [EAP-bestand](Gemeentelijk_Gegevensmodel.eap), te gebruiken voor de gratis [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/). En natuurlijk de overige versies van Enterprise Architect. Download hiervoor het bestand _Gemeentelijk_Gegevensmodel.xml_ en open het in (de viewer van) Enterprise Architect.
-2. Als [XMI-bestand](Gemeentelijk_Gegevensmodel.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk [hier](InstallerenXMI.md).
+2. Als [XMI-bestand](Gemeentelijk_Gegevensmodel.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk in de [handleiding](https://brienen.github.io/Gemeentelijk-Gegevensmodel/installatie/).
 
 ### Installatie Codegeneratietemplates
 
-De installatie van de codegeneratietemplates staat [hier](InstallatieCodegeneratietemplates.md) beschreven. Voor verdere uitleg rond het gebruik van de codegeneratietemplates kijk [hier](Codegeneratie.md).
+De installatie van de codegeneratietemplates staat [hier](https://brienen.github.io/Gemeentelijk-Gegevensmodel/generatie#installeren-codegeneratietemplates) beschreven. Voor verdere uitleg rond het gebruik van de codegeneratietemplates kijk [hier](https://brienen.github.io/Gemeentelijk-Gegevensmodel/generatie).
 
 ### Versies en gebruikte tooling
 
@@ -44,8 +48,8 @@ Het GGM kent een gelaagde opbouw, waarbij verschillende objecttypen over beleids
 Het gegevensmodel is uitgewerkt in een aantal verticale beleidsdomeinen en 4 horizontale beleidsdomeinen. De horizontale delen (Kern, Financiën, ICT en Dienstverlening) vormen de basis van het gegevensmodel, waarop de verticale delen voortbouwen. De Kern bestaat uit RSGB en RGBZ, die de gegevensdefinities bevatten die zoals die gelden voor de basisregistraties (RSGB) en zaakgericht werken (RGBZ).  
 Er is ontkoppeling tussen de verschillende (sub)domeinen nagestreefd, doordat in de gegevensdefinities van het gegevensmodel (sub)domeinen alleen definities uit onderliggende (sub)domeinen gebruiken. Zo gebruiken alle (sub)domeinen gegevensdefinities uit Kern en kunnen alle verticale (sub)domeinen gegevensdefinities gebruiken uit de 4 horizontale modellen.
 
-
 ### Beleidsterreinen
+
 Het gegevensmodel omvat de volgende op de gebaseerde [IV3-taakvelden](https://www.rijksoverheid.nl/onderwerpen/financien-gemeenten-en-provincies/uitwisseling-financiele-gegevens-met-sisa-en-iv3/informatie-voor-derden-iv3):
 
 * Burgerzaken
@@ -111,11 +115,6 @@ De volgende standaarden zijn gebruikt bij de totstandkoming van het GGM, en make
 * [Standaard en informatiemodel aanvragen en meldingen (STAM en IMAM)](https://aandeslagmetdeomgevingswet.nl/digitaal-stelsel/technisch-aansluiten/koppelvlakken/vergunningen/standaard/) versie 0.9. De Standaard aanvragen en meldingen (STAM) en het bijbehorende informatiemodel (IMAM) helpen bij het afleveren van een vergunningaanvraag of melding in het kader van de omgevingswet bij overheden.
 * [Standaard officiële publicaties (STOP/TPOD)](https://aandeslagmetdeomgevingswet.nl/digitaal-stelsel/technisch-aansluiten/koppelvlakken/omgevingsdocumenten/standaard-officiele/) Versie 0.98beta. Voor het valideren en publiceren van omgevingswetbesluiten. Vanwege de beperkte rijkweidte is deze slechts beperkt overgenomen.  
 * [Conceptueel Informatiemodel Omgevingswet CIMOW](https://www.geonovum.nl/over-geonovum/actueel/cimow-en-imow-versie-098-beta-beschikbaar) Versie CIMOW v0.98-kern. Het Conceptueel Informatiemodel voor de Omgevingswet (CIMOW) beschrijft het domein van de Omgevingswet. Dit beperkt zich tot de informatie die in dit domein wordt vastgelegd en vastgesteld en in ketens wordt uitgewisseld ten behoeve van het digitaal stelsel van de Omgevingswet (DSO).
- 
-### Conventies
-
-Binnen het GGM zijn de volgende conventies aangehouden:
-todo
 
 ## Totstandkoming Gemeentelijk Gegevensmodel
 
@@ -127,7 +126,7 @@ Uitgangspunt van de inventarisatie waren:
 2. De set beleidsdomeinen waar de gemeente haar taakgebied heeft 
 3. Landelijk vastgestelde standaarden voor gegevensuitwisseling en landelijk vastgestelde informatiemodellen  
 
-De inventarisatie in de volgende stappen uitgevoerd:
+De inventarisatie in de volgende stappen uitgevoerd (voor een gedetailleerde uitleg: kijk in de [handleiding](https://brienen.github.io/Gemeentelijk-Gegevensmodel/totstandkoming/)):
 
 1. Interviews met experts uit de verschillen de Beleidsdomeinen: per beleidsdomein is er m.b.v. gesprekken met experts van de informatievoorziening binnen de beleidsdomeinen een inventarisatie gemaakt van de gebruikte applicaties, de betrokken gebruikers, de interactie tussen de applicaties en de gebruikers, en welke gegvens daarbij gebruikt worden.
 2. Applicaties en gegevens: door in de gesprekken en uit de analyse de authentieke bronnen  van gegevens te identificeren, door in de gesprekken in te zoomen op de gebruikte gegevens en door de inventarisatie van de applicaties en gegevens te hanteren zijn de gegevens binnen de authentieke bronnen geïdentificeerd.
@@ -136,16 +135,12 @@ De inventarisatie in de volgende stappen uitgevoerd:
 
 ![Aanpak GGM 1][aanpakGGM]
 
-## Work in Progress
-
-todo
-
-[importXMI]: image/ImportPackage.png "Import XMI via tabblad Publish"
-[selectFilename]: image/SelectFilename.png "Select Filename"
-[importPackage]: image/ImportPackage.png "Import Package"
-[openDiagram]: image/OpenDiagram.png "Open Diagram"
-[gelaagdheidDomeinen]: image/GelaagdheidDomeinen.jpg "Gelaagdheid Domeinen"
-[aanpakGGM]: image/AanpakGGM.jpg "Aanpak GGM"
-[importRefData]: image/ImportRefData.png "Import Referencedata"
-[kiesTemplates]: image/KiesTemplates.png "Kies templates"
-[gebruikTemplates]: image/GebruikTemplates.png "Gebruik templates"
+[importXMI]: docs/image/ImportPackage.png "Import XMI via tabblad Publish"
+[selectFilename]: docs/image/SelectFilename.png "Select Filename"
+[importPackage]: docs/image/ImportPackage.png "Import Package"
+[openDiagram]: docs/image/OpenDiagram.png "Open Diagram"
+[gelaagdheidDomeinen]: docs/image/GelaagdheidDomeinen.jpg "Gelaagdheid Domeinen"
+[aanpakGGM]: docs/image/AanpakGGM.jpg "Aanpak GGM"
+[importRefData]: docs/image/ImportRefData.png "Import Referencedata"
+[kiesTemplates]: docs/image/KiesTemplates.png "Kies templates"
+[gebruikTemplates]: docs/image/GebruikTemplates.png "Gebruik templates"
