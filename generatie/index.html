@@ -332,8 +332,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#genereren-ddl" class="md-nav__link">
-    Genereren DDL
+  <a href="#gebruiken-codegeneratietemplates" class="md-nav__link">
+    Gebruiken Codegeneratietemplates
   </a>
   
     <nav class="md-nav">
@@ -349,6 +349,33 @@
           <li class="md-nav__item">
   <a href="#stappen-voor-genereren-ddl" class="md-nav__link">
     Stappen voor genereren DDL
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interne-werking-codegeneratietemplates" class="md-nav__link">
+    Interne werking Codegeneratietemplates
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objecttypesclasses" class="md-nav__link">
+    Objecttypes(Classes)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attributen" class="md-nav__link">
+    Attributen
   </a>
   
 </li>
@@ -457,8 +484,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#genereren-ddl" class="md-nav__link">
-    Genereren DDL
+  <a href="#gebruiken-codegeneratietemplates" class="md-nav__link">
+    Gebruiken Codegeneratietemplates
   </a>
   
     <nav class="md-nav">
@@ -474,6 +501,33 @@
           <li class="md-nav__item">
   <a href="#stappen-voor-genereren-ddl" class="md-nav__link">
     Stappen voor genereren DDL
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interne-werking-codegeneratietemplates" class="md-nav__link">
+    Interne werking Codegeneratietemplates
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objecttypesclasses" class="md-nav__link">
+    Objecttypes(Classes)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attributen" class="md-nav__link">
+    Attributen
   </a>
   
 </li>
@@ -503,26 +557,25 @@
                 
                 
                 <h1 id="code-genereren-op-basis-van-het-gemeentelijk-gegevensmodel">Code genereren op basis van het Gemeentelijk Gegevensmodel</h1>
-<p>Bij het GGM is een set codegeneratietemplates die binnen Enterprise Architect gebruikt kunnen worden voor het genereren van <a href="https://nl.wikipedia.org/wiki/Data_definition_language">Data Definition Language (DDL)</a>. Hiermee kunnen direct tabellen in een RDMBS gegenereerd worden. Er zijn diverse templates beschikbaar waarmee tabellen voor databases gegeneerd kunnen worden, en ook programmacode voor bijvoorbeeld: Python, C# en Java. </p>
-<p>In principe werkt codegeneratie voor alle ondersteunde RDBMS'en, op wat specifieke zaken na zoals enumeraties. Deze hebben wij wel ontwikkeld voor: </p>
+<p>Bij het GGM is een set codegeneratietemplates die binnen Enterprise Architect gebruikt kunnen worden voor het genereren van <a href="https://nl.wikipedia.org/wiki/Data_definition_language">Data Definition Language (DDL)</a>. Hiermee kunnen direct tabellen in een RDMBS gegenereerd worden. Er zijn diverse templates beschikbaar waarmee tabellen voor databases gegeneerd kunnen worden, en ook programmacode voor bijvoorbeeld: Python, C# en Java. In principe werkt codegeneratie voor alle ondersteunde RDBMS'en, op wat specifieke zaken na zoals enumeraties. Deze hebben wij wel ontwikkeld voor: </p>
 <ol>
 <li>Oracle</li>
 <li>MySQL (ongetest)</li>
-<li>Wij nodigen ontwikkelaars van harte uit deze te gebruiken en verder geschikt te maken voor het GGM. </li>
+<li>Wij nodigen ontwikkelaars van harte uit deze te gebruiken en verder geschikt te maken voor het GGM.</li>
 </ol>
-<p>De geleverde codegeneratietemplates zijn uitbreidingen op de standaard templates van <a href="https://sparxsystems.com">Enterprise Architect</a>, als onderdeel van het <a href="https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html">Code Template Framework</a>. </p>
+<p>De geleverde codegeneratietemplates zijn uitbreidingen op de standaard templates van <a href="https://sparxsystems.com">Enterprise Architect</a>, als onderdeel van het <a href="https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html">Code Template Framework</a>.</p>
 <h2 id="installeren-codegeneratietemplates">Installeren codegeneratietemplates</h2>
 <p>1. Download het bestand 'CodegeneratieTemplates.xml'
 2. Start Enterprise Architect
 3. (Optioneel) Maak nieuw project
 4. Kies <em>Import Reference Data</em></p>
 <p><img alt="Import Reference Data" src="../image/ImportRefData.png" title="Import Referencedata" /></p>
-<p>5. Selecteer het zjuist gedownloade bestand 'CodegeneratieTemplates.xml', selecteer alle templates en druk op <em>Import</em></p>
+<p>5. Selecteer het zojuist gedownloade bestand 'CodegeneratieTemplates.xml', selecteer alle templates en druk op <em>Import</em></p>
 <p><img alt="Import Templates" src="../image/KiesTemplates.png" title="Kies templates" /></p>
 <p>6. De templates zijn klaar voor gebruik en je vindt ze onder <em>Transform</em></p>
 <p><img alt="Gebruik Templates" src="../image/GebruikTemplates.png" title="Gebruik templates" /></p>
 <p>7. Succes!</p>
-<h2 id="genereren-ddl">Genereren DDL</h2>
+<h2 id="gebruiken-codegeneratietemplates">Gebruiken Codegeneratietemplates</h2>
 <p>Het uitgenereren vanuit het GGM naar DDL bestaat uit twee stappen:</p>
 <ol>
 <li>Transformeren logische model naar logische tabelrepresentatie.</li>
@@ -533,7 +586,7 @@
 <p><img alt="Maak een plek om tabellen uit te genereren" src="../image/TablesAfval.png" title="Maak een plek om de tabellen uit te genereren" /></p>
 <p>Zorg vervolgens dat je in Enterprise Architect het default RDBMS selecteert. Hiervoor ga je naar <em>Preferences</em></p>
 <p><img alt="Ga naar Preferences om het default RDBMS te selecteren" src="../image/KiesPreferences.png" title="Ga naar Preferences om het default RDBMS te selecteren" /></p>
-<p>Kies vervolgens onder <em>Source Code Engineering/Code Editors</em> de optie <em>Default Database</em>. In ons voorbeeld Oracle. </p>
+<p>Kies vervolgens onder <em>Source Code Engineering/Code Editors</em> de optie <em>Default Database</em>. In ons voorbeeld Oracle.</p>
 <p><img alt="Selecteer het default RDBMS dat je als doel hebt" src="../image/SelecteerDefaultRDBMS.png" title="Selecteer het default RDBMS dat je als doel hebt" /></p>
 <h3 id="stappen-voor-genereren-ddl">Stappen voor genereren DDL</h3>
 <p>Voor het genereren naar DDL neem je de volgende stappen:</p>
@@ -541,7 +594,7 @@
 <p><img alt="Selecteer de map in het model" src="../image/SelecteerInModel.png" title="Selecteer de map in het model" /></p>
 <p>2. Voor de eerste stap in de generatie kies <em>Apply Transformation</em></p>
 <p><img alt="Kies Apply Transformation" src="../image/ApplyTransformation.png" title="Kies Apply Transformation" /></p>
-<p>3. Selecteer aan de recchterkant van het popup <em>Tables</em> in het vlak <em>Transformations</em>. Zorg dat aan de linkerkant van de popup alle objecttypen geselecteerd zijn die uitgegenereerd moeten worden.</p>
+<p>3. Selecteer aan de rechterkant van het popup <em>Tables</em> in het vlak <em>Transformations</em>. Zorg dat aan de linkerkant van de popup alle objecttypen geselecteerd zijn die uitgegenereerd moeten worden.</p>
 <p><img alt="Kies Tables onder Transformation" src="../image/KiesTables.png" title="Kies Tables onder Transformation" /></p>
 <p>4. In het nieuwe popup <em>Select Target Package</em> selecteer de plek die je hebt gemaakt om de tabellen heen te schrijven. In ons voorbeeld <code>&lt;&lt;DataModel&gt;&gt; Tables/Ruimte/Afval</code>. </p>
 <p><img alt="Kies Target Package" src="../image/SelectTargetPackage.png" title="Kies Target Package" /></p>
@@ -555,7 +608,58 @@
 <p><img alt="Onder _Develop Datamodelling_ kies _Generate_" src="../image/KiesGenerate.png" title="Kies Generate" /></p>
 <p>9. Vul een bestandsnaam en map in en druk op de knop <em>Generate</em></p>
 <p><img alt="druk op de knop _Generate_" src="../image/KiesGenerateDDL.png" title="Kies Generate" /></p>
-<p>10. Even wachten en de DDL staat klaar. Succes! </p>
+<p>10. Even wachten en de DDL staat klaar. Succes!</p>
+<h2 id="interne-werking-codegeneratietemplates">Interne werking Codegeneratietemplates</h2>
+<h3 id="objecttypesclasses">Objecttypes(Classes)</h3>
+<p>Bij het genereren van de tabelnamen geldt de volgende volgorde:</p>
+<ol>
+<li>Alias</li>
+<li>Naam objecttype</li>
+</ol>
+<p>Als de map waar het objecttype in zit een Alias heeft wordt deze als prefix voor de tabelnaam gebruikt. Daarnaast worden bij iedere tabel twee kolommen toegevoegd:</p>
+<ol>
+<li>M_Bronsysteem</li>
+<li>M_DatumTijdGeladen</li>
+</ol>
+<p>Als een objecttype een Stereotype heeft dan worden deze als volgt gebruikt:</p>
+<ul>
+<li>
+<p>enumeration (Alleen Oracle en MySql): omgezet naar tabel met tabelnaam prefix _ENUM__. Tabel heeft altijd de volgende kolommen: ID, waarde en omschrijving. Daarbij worden de verschillende attributen omgezet naar INSERT-statements, zodat de tabel gevuld wordt. Hierbij worden de velden van de attributen als volgt gemapt:</p>
+<ul>
+<li>ID: Attribuutveld <em>Alias</em></li>
+<li>waarde: Attribuutveld <em>Name</em></li>
+<li>omschrijving: Attribuutveld <em>Comment</em>  </li>
+</ul>
+</li>
+<li>
+<p>referentielijst: tabel met tabelnaam met prefix _LST__ </p>
+</li>
+</ul>
+<h3 id="attributen">Attributen</h3>
+<p>Met behulp codegeneratietemplates worden de verschillende attributen van de objecttypes uit het GGM omgezet op basis van <em>Datatype</em> en op basis van <em>Stereotype</em>. Het gaat hier om aanvullingen boven het <a href="https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html">Code Template Framework</a> van Enterprise Architect. Bij het genereren van de tabelnamen geldt de volgende volgorde:</p>
+<ol>
+<li>Alias</li>
+<li>Naam attribuut</li>
+</ol>
+<p>Attributen worden als volgt op basis van hun datatype omgezet (niet case sensitive):</p>
+<ul>
+<li>Datumtijd of Datetime: attribuut met zowel datum als tijd (Voor Oracle DATE-veld).</li>
+<li>Datum of Date: attribuut met alleen datum.</li>
+<li>Tijd of Time: attribuut met alleen tijdstip.</li>
+<li>ANxxx: Tekstveld (Alphanumeriek) met lengte xxx. Als er geen lengte is weergegeven wordt teruggevallen op lengte 80.
+Integer of Int: numeriek veld met alleen gehele getallen.</li>
+<li>Double: numerieke waarden met komma</li>
+<li>Bedrag: veld waar bedragen in worden bewaard (bedrag met maximaal 10 cijfers, waarvan 2 achter de komma)</li>
+<li>Tekst of Text: tekstveld voor lange memovelden.</li>
+<li>Boolean: Boolean-waarde (voor Oracle numeriek veld: ‘J’=1, ‘N’=2, ‘Overig’=-1, ‘Onbekend’=null)</li>
+<li>GUID: Tekstveld van 40 karakters</li>
+<li>GML of Punt: locatie, veld wordt opgesplitst in twee velden voor <a href="https://nl.wikipedia.org/wiki/WGS_84">WGS84-coördinaten</a> ("veldnaam"_lat en "veldnaam"_long) en in twee velden voor <a href="https://zakelijk.kadaster.nl/rijksdriehoeksstelsel">rijksdriehoekcoördinaten</a> ("veldnaam"_rdx en "veldnaam"_rdy). Alle velden zijn van het datatype double.</li>
+</ul>
+<p>Attributen worden op basis van hun Stereotype omgezet:</p>
+<ul>
+<li>Adresaanduiding: veld wordt vervangen door de volgende velden: Naam Gemeente, Straatnaam, Huisnummer, Huisletter, Huisnummertoevoeging, Postcode en BAGID.</li>
+<li>enum: er wordt een referentie naar de enumeratie opgenomen.</li>
+</ul>
                 
                   
                 
