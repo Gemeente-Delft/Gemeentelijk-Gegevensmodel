@@ -1,6 +1,15 @@
 # Documentatie
 
-Deze documentatie is geschreven in [Markdown](https://www.markdownguide.org) en wordt gepubliceerd met [MkDocs](https://www.mkdocs.org). Voor de vormgeveing wordt gebruik gemaakt van het [Material theme](https://squidfunk.github.io/mkdocs-material/).
+Deze documentatie is geschreven in [Markdown](https://www.markdownguide.org) en wordt gepubliceerd met [MkDocs](https://www.mkdocs.org). Voor de vormgeving wordt gebruik gemaakt van het [Material theme](https://squidfunk.github.io/mkdocs-material/).
+
+## Installatie vooraf
+
+Om mkdocs en het Material theme te gebruiken installeer je eerst de benodigde bibliotheken (Python 3).
+
+```
+pip install mkdocs
+pip install mkdocs-material
+```
 
 ## Gebruik
 
@@ -8,13 +17,4 @@ De documentatie ingechekt en gepubliceerd op GitHub, bij aanpassingen van de doc
 
 ```
 mkdocs gh-deploy
-```
-
-## Installatie vooraf
-
-Om mkdocs en het Material theme te gebruiken installeer je ze eerst (Python 3).
-
-```
-pip install mkdocs
-pip install mkdocs-material
 ```

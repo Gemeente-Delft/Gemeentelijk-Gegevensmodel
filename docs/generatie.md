@@ -12,22 +12,22 @@ De geleverde codegeneratietemplates zijn uitbreidingen op de standaard templates
 
 ## Installeren codegeneratietemplates
 
-1. Download het bestand 'CodegeneratieTemplates.xml'
-2. Start Enterprise Architect
-3. (Optioneel) Maak nieuw project
-4. Kies _Import Reference Data_
+1\. Download het bestand 'CodegeneratieTemplates.xml'
+2\. Start Enterprise Architect
+3\. (Optioneel) Maak nieuw project
+4\. Kies _Import Reference Data_
 
 ![Import Reference Data][importRefData]
 
-5. Selecteer het zjuist gedownloade bestand 'CodegeneratieTemplates.xml', selecteer alle templates en druk op _Import_
+5\. Selecteer het zjuist gedownloade bestand 'CodegeneratieTemplates.xml', selecteer alle templates en druk op _Import_
 
 ![Import Templates][kiesTemplates]
 
-6. De templates zijn klaar voor gebruik en je vindt ze onder _Transform_
+6\. De templates zijn klaar voor gebruik en je vindt ze onder _Transform_
 
 ![Gebruik Templates][gebruikTemplates]
 
-7. Succes!
+7\. Succes!
 
 ## Genereren DDL
 
@@ -54,43 +54,43 @@ Kies vervolgens onder _Source Code Engineering/Code Editors_ de optie _Default D
 
 Voor het genereren naar DDL neem je de volgende stappen:
 
-1. Selecteer het onderdee van het model dat je wilt uitgenereren. In het voorbeeld de map`Gemeentelijk Gegevensmodel/Ruimte/Afval/Model`. je kunt ook in een diagram de gewenste objecttypen selecteren.
+1\. Selecteer het onderdee van het model dat je wilt uitgenereren. In het voorbeeld de map`Gemeentelijk Gegevensmodel/Ruimte/Afval/Model`. je kunt ook in een diagram de gewenste objecttypen selecteren.
 
 ![Selecteer de map in het model][selecteerInModel]
 
-2. Voor de eerste stap in de generatie kies _Apply Transformation_
+2\. Voor de eerste stap in de generatie kies _Apply Transformation_
 
 ![Kies Apply Transformation][applyTransformation]
 
-3. Selecteer aan de recchterkant van het popup _Tables_ in het vlak _Transformations_. Zorg dat aan de linkerkant van de popup alle objecttypen geselecteerd zijn die uitgegenereerd moeten worden.
+3\. Selecteer aan de recchterkant van het popup _Tables_ in het vlak _Transformations_. Zorg dat aan de linkerkant van de popup alle objecttypen geselecteerd zijn die uitgegenereerd moeten worden.
 
 ![Kies Tables onder Transformation][kiesTables]
 
-4. In het nieuwe popup _Select Target Package_ selecteer de plek die je hebt gemaakt om de tabellen heen te schrijven. In ons voorbeeld `<<DataModel>> Tables/Ruimte/Afval`. 
+4\. In het nieuwe popup _Select Target Package_ selecteer de plek die je hebt gemaakt om de tabellen heen te schrijven. In ons voorbeeld `<<DataModel>> Tables/Ruimte/Afval`. 
 
 ![Kies Target Package][selectTargetPackage]
 
-5. Om de eerste stap in de transformatie en generatie te starten click op _Do Transform_
+5\. Om de eerste stap in de transformatie en generatie te starten click op _Do Transform_
 
 ![Kies Do Transform][selectDoTransform]
 
-6. Even wachten, en de eerste stap in de generatie is uitgevoerd: de tabellen in Enterprise Architect zijn aangemaakt. De eerste stap in het generatieproces is nu uitgevoerd. Er is een "logische" en RDBMS-onafhankelijke versie van de tabellen aangemaakt. 
+6\. Even wachten, en de eerste stap in de generatie is uitgevoerd: de tabellen in Enterprise Architect zijn aangemaakt. De eerste stap in het generatieproces is nu uitgevoerd. Er is een "logische" en RDBMS-onafhankelijke versie van de tabellen aangemaakt. 
 
 ![Even wachten... en de tabellen zijn aangemaakt][tabellenAangemaakt]
 
-7. In de volgende stap genereer je vanuit de "logische" en RDBMS-onafhankelijke versie van de tabellen de DDL waarmee je de tabellen in je database kunt maken. Selecteer de map met de tabellen die zojuist is gegenereerd.
+7\. In de volgende stap genereer je vanuit de "logische" en RDBMS-onafhankelijke versie van de tabellen de DDL waarmee je de tabellen in je database kunt maken. Selecteer de map met de tabellen die zojuist is gegenereerd.
 
 ![Selecteer de map met de tabellen die je wilt genereren][selecteerTabellen]
 
-8. Onder _Develop Datamodelling_ kies _Generate_
+8\. Onder _Develop Datamodelling_ kies _Generate_
 
 ![Onder _Develop Datamodelling_ kies _Generate_][kiesGenerate]
 
-9. Vul een bestandsnaam en map in en druk op de knop _Generate_
+9\. Vul een bestandsnaam en map in en druk op de knop _Generate_
 
 ![druk op de knop _Generate_][kiesGenerateDDL]
 
-10. Even wachten en de DDL staat klaar. Succes! 
+10\. Even wachten en de DDL staat klaar. Succes! 
 
 [tablesAfval]: image/TablesAfval.png "Maak een plek om de tabellen uit te genereren"
 [selecteerInModel]: image/SelecteerInModel.png "Selecteer de map in het model"
