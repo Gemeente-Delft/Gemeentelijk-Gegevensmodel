@@ -367,6 +367,27 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#modelleren-applicaties-en-gegevens" class="md-nav__link">
+    Modelleren Applicaties en Gegevens
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uitbreiden-gemeentelijk-gegevensmodel_1" class="md-nav__link">
+    Uitbreiden Gemeentelijk Gegevensmodel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#databaseschema-maken" class="md-nav__link">
+    Databaseschema maken
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -562,6 +583,27 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#modelleren-applicaties-en-gegevens" class="md-nav__link">
+    Modelleren Applicaties en Gegevens
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uitbreiden-gemeentelijk-gegevensmodel_1" class="md-nav__link">
+    Uitbreiden Gemeentelijk Gegevensmodel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#databaseschema-maken" class="md-nav__link">
+    Databaseschema maken
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -627,16 +669,65 @@
 <p>Voorbeeld uitwerking van deze fase is <a href="../monumenten/#applicaties-en-gegevens">hier</a> te vinden, en levert onder andere de volgende uitwerking. </p>
 <p><img alt="Uitwerking objecttypen Monumenten" src="../image/GegevensdefinitiesMonumenten.png" title="Monumenten Gegevensdefinities" /></p>
 <h3 id="genereren-databaseschema">Genereren Databaseschema</h3>
-<p>Om het net uitgebreide deel van het Gemeentelijk Gegevensmodel in een database te gebruiken kun je het genereren naar DDL. Selecteer og kopieer hiervoor het deel van het Gemeentelijk Gegevensmodel dat je naar DDL wilt genereren, en volg <a href="../generatie/">deze</a> handleiding.</p>
+<p>Om het net uitgebreide deel van het Gemeentelijk Gegevensmodel in een database te gebruiken kun je het genereren naar DDL. Selecteer of kopieer hiervoor het deel van het Gemeentelijk Gegevensmodel dat je naar DDL wilt genereren, en volg <a href="../generatie/">deze</a> handleiding.</p>
 <h2 id="uitwerking-informatieanalyse-met-enterprise-architect">Uitwerking informatieanalyse met Enterprise Architect</h2>
 <p>Hoe Enterprise Architect is gebruikt bij de uitwerking van het GGM is hierna te lezen.</p>
 <h3 id="voor-het-modelleren">Voor het modelleren</h3>
-<p>Voordat je start met modelleren moet je een aantal zaken ingericht hebben:</p>
-<ol>
-<li></li>
-</ol>
+<p>Voordat je start met modelleren moet je een Enterprise Architect project hebben waarin je werkt. Hiervoor kun je het voorbeeldbestand (Gemeentelijk_Gegevensmodel.eap) gebruiken dat is meegeleverd.</p>
 <h3 id="modelleren-applicaties-en-beleidsdomeinen">Modelleren Applicaties en Beleidsdomeinen</h3>
-<p>Veel van het resultaat van deze stap is tekst, dat behoeft geen uitleg. </p>
+<p>Veel van het resultaat van deze stap is tekst, dat behoeft geen uitleg. Voor het modelleren in Enterprise Architect doorloop je de volgende stappen:</p>
+<ol>
+<li>Open in Enterprise Architect het project waar je aan wilt werken.</li>
+<li>Maak onder de 'root node' een nieuwe map aan voor de componenten.</li>
+</ol>
+<p><img alt="Modelleren Stap 1a" src="../image/ModellerenStap1a.png" title="Modelleren Stap 1a" /></p>
+<p>3. Kies 'Component Diagram' waarmee je een nieuwe map naast het 'Gemeentelijk Gegevensmodel' toevoegt.</p>
+<p><img alt="Modelleren Stap 1b" src="../image/ModellerenStap1b.png" title="Modelleren Stap 1b" /></p>
+<p>4. Voeg onder de nieuwe map de mappen 'Diagram' en 'Model' toe, en maak onder 'Model' mappen aan voor actoren en applicaties.</p>
+<p><img alt="Modelleren Stap 1c" src="../image/ModellerenStap1c.png" title="Modelleren Stap 1c" /></p>
+<p>4b. Om de diagrammen op hoofdlijnen te houden en het tonen van details van elementen te onderdrukken, kun je deze uitzetten. Dubnelklik hiertoe op het diagram en open de 'Properties'. Hier kun je het tonen van elementdetails uitzetten.</p>
+<p><img alt="Modelleren Stap 1c" src="../image/ModellerenStap1c1.png" title="Modelleren Stap 1c elementdetails onderdrukken" /></p>
+<p>5. Breidt het componentendiagram uit met de modellering die je onderhanden hebt. Hier is een heeeeeeeel eenvoudige uitwerking voor Monumenten toegevoegd. Voeg hiervoor ook een 'Use Case' diagram toe, alhoewel we geen echte use cases uitwerken hier. Al naar gelang de situatie kun natuurlijk meerdere diagrammen maken. </p>
+<p><img alt="Modelleren Stap 1d" src="../image/ModellerenStap1d.png" title="Modelleren Stap 1d" /></p>
+<p>6. Als je klaar bent sleep je de componenten en actoren naar de eerdere gemaakte mappen, zodat je ze kunt hergebruiken voor toekomstige modellen.</p>
+<p><img alt="Modelleren Stap 1e" src="../image/ModellerenStap1e.png" title="Modelleren Stap 1e" /></p>
+<p>7. Klaar! Door naar het modelleren van de gegevens in de applicatie.</p>
+<h3 id="modelleren-applicaties-en-gegevens">Modelleren Applicaties en Gegevens</h3>
+<p>Bij het modelleren van applicaties en gegevens werk je uit welke gegevens er in welke applicatie zitten. Dit doe je door gegevens (in EA in de vorm van objecten) op basis van de resultaten in de analyse in de applicaties te plaatsen (in EA in de vorm van componenten)</p>
+<p>Hiertoe doorloop je de volgende stappen:</p>
+<p>1. Maak een nieuw 'UML Structural Component'-diagram aan.</p>
+<p><img alt="Modelleren Stap 2a" src="../image/ModellerenStap2a.png" title="Modelleren Stap 2a" /></p>
+<p>2. Sleep hier de eerder gemaakte applicatie in. In het voorbeeld de applicatie 'Monumentenadministratie'.</p>
+<p><img alt="Modelleren Stap 2b" src="../image/ModellerenStap2b.png" title="Modelleren Stap 2b" /></p>
+<p>3. Sleep hier voor elk soort gegeven een object in, en geef ze de juiste naam. In het voorbeeld drie soorten gegevens. In de praktijk zul je waarschijnlijk meer gegevenssoorten gebruiken.</p>
+<p><img alt="Modelleren Stap 2c" src="../image/ModellerenStap2c.png" title="Modelleren Stap 2c" /></p>
+<p>4. Als laatste: sleep de gegevensobjecten in het applicatiecomponent. Dit zodat je bij verdere analyse kunt zien welke gegevens uit verschillende domeinen in een applicatie zitten. Verder kun je zo rapportages maken over de applicaties en de gegevens.</p>
+<p><img alt="Modelleren Stap 2d" src="../image/ModellerenStap2d.png" title="Modelleren Stap 2d" /></p>
+<p>5. Klaar! Op naar de volgende stap.</p>
+<h3 id="uitbreiden-gemeentelijk-gegevensmodel_1">Uitbreiden Gemeentelijk Gegevensmodel</h3>
+<p>Nadat alle relevante gegevens gevonden zijn kun je door naar de volgende stap: het aanmaken van nieuwe objecttypen en het relateren van gegevens aan bestaande objecttypen.</p>
+<p>Dit verloopt in een aantal stappen:</p>
+<p>1. Open het 'Gemeentelijk Gegevensmodel' en maak een map aan voor het onderdeel dat je gaat uitwerken. In het voorbeeld is dat 'Erfgoed: Voorbeeld'. MNaak onder die map nog twee mappen aan: 'Diagram' en 'Model Voorbeeld'. Nu heb je de plek aangemaakt waar je de objecttypes gaat aanmaken.</p>
+<p><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3a.png" title="Modelleren Stap 3a" /></p>
+<p>2. Maak voor een van de gevonden gegevenssoorten een classe aan, en sleep deze naar 'Model Voorbeeld'. Dit moet je eenmalig doen, omdat de map 'Model Voorbeeld' in het verdere verloop onzichtbaar blijft.</p>
+<p><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3b.png" title="Modelleren Stap 3b" /></p>
+<p>2b. Om het classediagram overzichtelijk te houden kun je het tonen van classedetails, zoals attributen en methodes, uitzetten. Dubbelklik hiervoor op het diagram en vink in de properties deze opties uit.</p>
+<p><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3b1.png" title="Modelleren Stap 3b1" /></p>
+<p>3. Selecteer het gegevenstype waarvoor je zojuist een objecttype hebt aangemaakt en toets Ctrl-L om een 'Classifier' voor dit gegevenssoort aan te maken. Ga naar de zojuist aangemaakte map en selecteer het objecttype dat je zojuist hebt aangemaakt, en druk op 'OK'.</p>
+<p><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3c.png" title="Modelleren Stap 3c" /></p>
+<p>4a. Nu kun je met het verdere modelleerproces doorgaan. Herhaal hiervoor voor alle de gegevenstypes die je wilt uitwerken. selecteer het gegevenstype en toets Ctrl-L om een 'Classifier' voor het gegevenssoort aan te maken. Ga naar de zojuist aangemaakte map en: selecteer het objecttype dat je wilt gebruiken of toets 'Add New' en type de naam van het nieuwe objecttype, en druk op 'OK'.</p>
+<p><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3d.png" title="Modelleren Stap 3d" /></p>
+<p>4b. Je kunt de gegevenstypes ook een classifier aanmaken naar een reeds bestaand objecttype. In het voorbeeld voor 'Pand'. Toets weer Ctrl-L en navigeer in het Gemeentelijk Gegevensmodel naar het beoogde objecttype. In het voorbeeld naar 'PAND' in het RSGBPlus.</p>
+<p><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3e.png" title="Modelleren Stap 3e" /></p>
+<p>5. Als je alle objecttypes compleet hebt kun je verder met de classdiagram. Sleep hier de verschillende objecttypes op.</p>
+<p><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3f.png" title="Modelleren Stap 3f" /></p>
+<p>6. Maak de relaties aan tussen deze objecttypes.</p>
+<p><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3g.png" title="Modelleren Stap 3g" /></p>
+<p>7. En als laatste voeg je de attributen toe aan de zojuist gecreëerde objecttypes. Gebruik hiervoor de foto's die je van de applicatie hebt gemaakt, reeds bestaande standaarden of het databaseschema van de applicatie.</p>
+<p><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3h.png" title="Modelleren Stap 3h" /></p>
+<p>8. Klaar! Je hebt een hele cyclus voor het uitbreiden van het Gemeentelijk Gegevensmodel doorlopen.</p>
+<h3 id="databaseschema-maken">Databaseschema maken</h3>
+<p>Om het net uitgebreide deel van het Gemeentelijk Gegevensmodel in een database te gebruiken kun je het genereren naar DDL. Selecteer of kopieer hiervoor het deel van het Gemeentelijk Gegevensmodel dat je naar DDL wilt genereren, en volg <a href="../generatie/">deze</a> handleiding.</p>
                 
                   
                 

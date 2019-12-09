@@ -512,24 +512,16 @@
 </ol>
 <p>De geleverde codegeneratietemplates zijn uitbreidingen op de standaard templates van <a href="https://sparxsystems.com">Enterprise Architect</a>, als onderdeel van het <a href="https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html">Code Template Framework</a>. </p>
 <h2 id="installeren-codegeneratietemplates">Installeren codegeneratietemplates</h2>
-<ol>
-<li>Download het bestand 'CodegeneratieTemplates.xml'</li>
-<li>Start Enterprise Architect</li>
-<li>(Optioneel) Maak nieuw project</li>
-<li>Kies <em>Import Reference Data</em></li>
-</ol>
+<p>1. Download het bestand 'CodegeneratieTemplates.xml'
+2. Start Enterprise Architect
+3. (Optioneel) Maak nieuw project
+4. Kies <em>Import Reference Data</em></p>
 <p><img alt="Import Reference Data" src="../image/ImportRefData.png" title="Import Referencedata" /></p>
-<ol>
-<li>Selecteer het zjuist gedownloade bestand 'CodegeneratieTemplates.xml', selecteer alle templates en druk op <em>Import</em></li>
-</ol>
+<p>5. Selecteer het zjuist gedownloade bestand 'CodegeneratieTemplates.xml', selecteer alle templates en druk op <em>Import</em></p>
 <p><img alt="Import Templates" src="../image/KiesTemplates.png" title="Kies templates" /></p>
-<ol>
-<li>De templates zijn klaar voor gebruik en je vindt ze onder <em>Transform</em></li>
-</ol>
+<p>6. De templates zijn klaar voor gebruik en je vindt ze onder <em>Transform</em></p>
 <p><img alt="Gebruik Templates" src="../image/GebruikTemplates.png" title="Gebruik templates" /></p>
-<ol>
-<li>Succes!</li>
-</ol>
+<p>7. Succes!</p>
 <h2 id="genereren-ddl">Genereren DDL</h2>
 <p>Het uitgenereren vanuit het GGM naar DDL bestaat uit twee stappen:</p>
 <ol>
@@ -545,45 +537,25 @@
 <p><img alt="Selecteer het default RDBMS dat je als doel hebt" src="../image/SelecteerDefaultRDBMS.png" title="Selecteer het default RDBMS dat je als doel hebt" /></p>
 <h3 id="stappen-voor-genereren-ddl">Stappen voor genereren DDL</h3>
 <p>Voor het genereren naar DDL neem je de volgende stappen:</p>
-<ol>
-<li>Selecteer het onderdee van het model dat je wilt uitgenereren. In het voorbeeld de map<code>Gemeentelijk Gegevensmodel/Ruimte/Afval/Model</code>. je kunt ook in een diagram de gewenste objecttypen selecteren.</li>
-</ol>
+<p>1. Selecteer het onderdee van het model dat je wilt uitgenereren. In het voorbeeld de map<code>Gemeentelijk Gegevensmodel/Ruimte/Afval/Model</code>. je kunt ook in een diagram de gewenste objecttypen selecteren.</p>
 <p><img alt="Selecteer de map in het model" src="../image/SelecteerInModel.png" title="Selecteer de map in het model" /></p>
-<ol>
-<li>Voor de eerste stap in de generatie kies <em>Apply Transformation</em></li>
-</ol>
+<p>2. Voor de eerste stap in de generatie kies <em>Apply Transformation</em></p>
 <p><img alt="Kies Apply Transformation" src="../image/ApplyTransformation.png" title="Kies Apply Transformation" /></p>
-<ol>
-<li>Selecteer aan de recchterkant van het popup <em>Tables</em> in het vlak <em>Transformations</em>. Zorg dat aan de linkerkant van de popup alle objecttypen geselecteerd zijn die uitgegenereerd moeten worden.</li>
-</ol>
+<p>3. Selecteer aan de recchterkant van het popup <em>Tables</em> in het vlak <em>Transformations</em>. Zorg dat aan de linkerkant van de popup alle objecttypen geselecteerd zijn die uitgegenereerd moeten worden.</p>
 <p><img alt="Kies Tables onder Transformation" src="../image/KiesTables.png" title="Kies Tables onder Transformation" /></p>
-<ol>
-<li>In het nieuwe popup <em>Select Target Package</em> selecteer de plek die je hebt gemaakt om de tabellen heen te schrijven. In ons voorbeeld <code>&lt;&lt;DataModel&gt;&gt; Tables/Ruimte/Afval</code>. </li>
-</ol>
+<p>4. In het nieuwe popup <em>Select Target Package</em> selecteer de plek die je hebt gemaakt om de tabellen heen te schrijven. In ons voorbeeld <code>&lt;&lt;DataModel&gt;&gt; Tables/Ruimte/Afval</code>. </p>
 <p><img alt="Kies Target Package" src="../image/SelectTargetPackage.png" title="Kies Target Package" /></p>
-<ol>
-<li>Om de eerste stap in de transformatie en generatie te starten click op <em>Do Transform</em></li>
-</ol>
+<p>5. Om de eerste stap in de transformatie en generatie te starten click op <em>Do Transform</em></p>
 <p><img alt="Kies Do Transform" src="../image/SelectDoTransform.png" title="Kies Do Transform" /></p>
-<ol>
-<li>Even wachten, en de eerste stap in de generatie is uitgevoerd: de tabellen in Enterprise Architect zijn aangemaakt. De eerste stap in het generatieproces is nu uitgevoerd. Er is een "logische" en RDBMS-onafhankelijke versie van de tabellen aangemaakt. </li>
-</ol>
+<p>6. Even wachten, en de eerste stap in de generatie is uitgevoerd: de tabellen in Enterprise Architect zijn aangemaakt. De eerste stap in het generatieproces is nu uitgevoerd. Er is een "logische" en RDBMS-onafhankelijke versie van de tabellen aangemaakt. </p>
 <p><img alt="Even wachten... en de tabellen zijn aangemaakt" src="../image/TabellenAangemaakt.png" title="Even wachten... en de tabellen zijn aangemaakt" /></p>
-<ol>
-<li>In de volgende stap genereer je vanuit de "logische" en RDBMS-onafhankelijke versie van de tabellen de DDL waarmee je de tabellen in je database kunt maken. Selecteer de map met de tabellen die zojuist is gegenereerd.</li>
-</ol>
+<p>7. In de volgende stap genereer je vanuit de "logische" en RDBMS-onafhankelijke versie van de tabellen de DDL waarmee je de tabellen in je database kunt maken. Selecteer de map met de tabellen die zojuist is gegenereerd.</p>
 <p><img alt="Selecteer de map met de tabellen die je wilt genereren" src="../image/SelecteerTabellen.png" title="Selecteer de tabellen die je wilt genereren" /></p>
-<ol>
-<li>Onder <em>Develop Datamodelling</em> kies <em>Generate</em></li>
-</ol>
+<p>8. Onder <em>Develop Datamodelling</em> kies <em>Generate</em></p>
 <p><img alt="Onder _Develop Datamodelling_ kies _Generate_" src="../image/KiesGenerate.png" title="Kies Generate" /></p>
-<ol>
-<li>Vul een bestandsnaam en map in en druk op de knop <em>Generate</em></li>
-</ol>
+<p>9. Vul een bestandsnaam en map in en druk op de knop <em>Generate</em></p>
 <p><img alt="druk op de knop _Generate_" src="../image/KiesGenerateDDL.png" title="Kies Generate" /></p>
-<ol>
-<li>Even wachten en de DDL staat klaar. Succes! </li>
-</ol>
+<p>10. Even wachten en de DDL staat klaar. Succes! </p>
                 
                   
                 
