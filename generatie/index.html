@@ -359,8 +359,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#interne-werking-codegeneratietemplates" class="md-nav__link">
-    Interne werking Codegeneratietemplates
+  <a href="#interne-werking" class="md-nav__link">
+    Interne werking
   </a>
   
     <nav class="md-nav">
@@ -377,6 +377,40 @@
   <a href="#attributen" class="md-nav__link">
     Attributen
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relaties" class="md-nav__link">
+    Relaties
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#voorbeeld-a" class="md-nav__link">
+    Voorbeeld A
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#voorbeeld-b" class="md-nav__link">
+    Voorbeeld B
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#voorbeeld-c" class="md-nav__link">
+    Voorbeeld C
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -511,8 +545,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#interne-werking-codegeneratietemplates" class="md-nav__link">
-    Interne werking Codegeneratietemplates
+  <a href="#interne-werking" class="md-nav__link">
+    Interne werking
   </a>
   
     <nav class="md-nav">
@@ -529,6 +563,40 @@
   <a href="#attributen" class="md-nav__link">
     Attributen
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relaties" class="md-nav__link">
+    Relaties
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#voorbeeld-a" class="md-nav__link">
+    Voorbeeld A
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#voorbeeld-b" class="md-nav__link">
+    Voorbeeld B
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#voorbeeld-c" class="md-nav__link">
+    Voorbeeld C
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -609,9 +677,10 @@
 <p>9. Vul een bestandsnaam en map in en druk op de knop <em>Generate</em></p>
 <p><img alt="druk op de knop _Generate_" src="../image/KiesGenerateDDL.png" title="Kies Generate" /></p>
 <p>10. Even wachten en de DDL staat klaar. Succes!</p>
-<h2 id="interne-werking-codegeneratietemplates">Interne werking Codegeneratietemplates</h2>
+<h2 id="interne-werking">Interne werking</h2>
+<p>De mogelijkheden die de codegeneratietemplates bieden is beperkend voor de mogelijkheden bij het modelleren in het Gemeentelijk Gegevensmode. Immers datatypes en relaties die niet worden ondersteund door de codegeneratietemplates kun je niet (automatisch) omzetten naar tabellen, en niet goed gebruiken als je het tabel toepast. Daarom is hier beschreven wat je in het logisch model kunt gebruiken en hoe dit transformeert naar tabellen.</p>
 <h3 id="objecttypesclasses">Objecttypes(Classes)</h3>
-<p>Bij het genereren van de tabelnamen geldt de volgende volgorde:</p>
+<p>Bij het genereren van de tabelnamen geldt de volgende volgorde (alle namen worden ingekort tot maximaal 30 karakters):</p>
 <ol>
 <li>Alias</li>
 <li>Naam objecttype</li>
@@ -660,6 +729,60 @@ Integer of Int: numeriek veld met alleen gehele getallen.</li>
 <li>Adresaanduiding: veld wordt vervangen door de volgende velden: Naam Gemeente, Straatnaam, Huisnummer, Huisletter, Huisnummertoevoeging, Postcode en BAGID.</li>
 <li>enum: er wordt een referentie naar de enumeratie opgenomen.</li>
 </ul>
+<h3 id="relaties">Relaties</h3>
+<p>De vertalen van relaties in het logisch model is niet altijd recht-toe-rechtaan. Met name voor de naamgeving van de <a href="https://en.wikipedia.org/wiki/Foreign_key">foreignkeys</a> en de <a href="https://www.w3schools.com/sql/sql_foreignkey.asp">foreignkey-constraints</a>. Hierom is dit hier in 3 voorbeelden beschreven.</p>
+<h4 id="voorbeeld-a">Voorbeeld A</h4>
+<p>In het eerste voorbeeld zijn 4 objecttypes/classes te zien met drie relaties</p>
+<ol>
+<li>Relatie A: 1:N-relatie</li>
+<li>Relatie B: N:M-relatie</li>
+<li>Generalisatie van Class A t.o.v. Child Class A  </li>
+</ol>
+<p><img alt="Voorbeeld A voor uitgeneren naar tabellen" src="../image/EAID_E7F774F3_E0B3_438e_80DC_4B2F2CD3C60B.gif" title="Voorbeeld A voor uitgeneren naar tabellen" /></p>
+<p>Deze relaties vertalen zich na transformeren naar tabellen als volgt:</p>
+<ol>
+<li>Relaties A: kolom <em>ClassAID</em> in tabel <em>ClassB</em> met foreignkey naar tabel <em>ClassA</em></li>
+<li>Relatie B: de koppeltabel KP_classa_classc, met foreignkey-relaties naar tabel <em>ClassA</em> en tabel <em>ClassB</em></li>
+<li>Generalisatie van Class A t.o.v. Child Class A: dit blijven twee aparte tabellen, kolommen worden niet overgenomen in het <em>child</em>. Er wordt een reguliere 1:N-relatie gemaakt, zoals Relatie A.</li>
+</ol>
+<p><img alt="Voorbeeld A na uitgeneren naar tabellen" src="../image/EAID_9259B8B6_DD2F_4632_9CAE_8A0D9F30DF1F.gif" title="Voorbeeld A na uitgeneren tabellen" /></p>
+<h4 id="voorbeeld-b">Voorbeeld B</h4>
+<p>De naamgeving van de foreignkeys, foreignkey-constraints en koppeltabellen kan worden beïnvloed door het gebruik van relatienamen en aliassen. Hiermee zorg je dat er geen dubbele constraints worden gemaakt en er geen onleesbare of te lange namen ontstaan. Voor naamgeving wordt de volgende volgorde gebruikt (in volgorde van prioriteit):</p>
+<ol>
+<li>Alias van Source/Target</li>
+<li>Alias van relatie</li>
+<li>Relatienaam</li>
+<li>Concatenering namen Source en Target</li>
+</ol>
+<p>In het voorbeeld zijn de volgende relaties uitgewerkt:</p>
+<ol>
+<li>Relatie Class A en Class B: relatienaam = "Relatienaam"</li>
+<li>Relatie Class C en Class D: relatie heeft Alias "Aliasnaam"</li>
+<li>Relatie Class E en Class F: zowel Source als Target van relatie hebben eigen alias </li>
+<li>Relatie Class G en Class H: relatie heeft geen naam en geen aliassen</li>
+<li>Relatie Class I en Class J: relatie zonder naam en aliassen, maar Source en Target omgedraaid t.o.v. het vorige voorbeeld.</li>
+</ol>
+<p><img alt="Voorbeeld B voor uitgeneren naar tabellen" src="../image/EAID_6FCF9303_410D_4ff2_A577_C323F426A500.gif" title="Voorbeeld B voor Uitgeneren naar tabellen" /></p>
+<p>Na transformeren naar tabellen als volgt:</p>
+<ol>
+<li>Eerste voorbeeld: tabel ClassA krijgt kolom ClassBID (met index) en foreignkey-constraint (met in de naam relatienaam) op de relatie met tabel ClassB.  </li>
+<li>Tweede voorbeeld: tabel ClassC krijgt kolom ClassCID (met index) en foreignkey-constraint (met in de naam alias) op de relatie met tabel ClassC. </li>
+<li>Derde voorbeeld: tabel ClassE krijgt kolom AliasSourceCID (met index) en foreignkey-constraint (met in de naam de aliassen van source en target) op de relatie met tabel ClassF. </li>
+<li>Vierde voorbeeld: tabel ClassG krijgt kolom ClassHID (met index) en foreignkey-constraint (met in de namen van de tabellen) op de relatie met tabel ClassH.</li>
+<li>Vijfde voorbeeld: tabel ClassI krijgt kolom ClassJID (met index) en foreignkey-constraint (met in de namen van de tabellen) op de relatie met tabel ClassJ (zelfde als 4e voorbeeld).</li>
+</ol>
+<p><img alt="Voorbeeld B na uitgeneren naar tabellen" src="../image/EAID_0435B59E_F272_4227_BE64_F7A8FC9A30EE.gif" title="Voorbeeld B na uitgeneren tabellen" /></p>
+<h4 id="voorbeeld-c">Voorbeeld C</h4>
+<p>Als laatste een voorbeeld met wat voorbeelden die speciale aandacht nodig hebben, omdat het transformatieproces anders fouten oplevert:</p>
+<ol>
+<li><a href="https://www.365dagensuccesvol.nl/nl/nieuws/zeg-hoe-goed-is-de-relatie-met-jezelf-eigenlijk/143/">Relaties met jezelf</a> ;) (Varkensoortje)</li>
+<li>Meervoudige relaties tussen objecttypes.</li>
+</ol>
+<p><img alt="Voorbeeld C voor uitgeneren naar tabellen" src="../image/EAID_135DA4FB_69A6_4191_84A3_3B9F16641289.gif" title="Voorbeeld C voor Uitgeneren naar tabellen" /></p>
+<p>Om deze in het transformatieproces goed te laten werken moet een een Alias opvoeren bij de Source van de betreffende relatie. In het voorbeeld getoond voor het varkensoortje. Deze kun je ook voor meervoudige relaties gebruiken.</p>
+<p><img alt="Voer een alias in in de Source van het varkensoortje" src="../image/Varkensoortje.png" /></p>
+<p>Als je het logisch model hebt getransformeerd naar tabellen zie je dat de Aliasnaam wordt gebruikt voor de foreignkeys en de foreignkey-constraints. Zo kun je zorgen dat er unieke namen worden gebruikt.</p>
+<p><img alt="Voorbeeld C na uitgeneren naar tabellen" src="../image/EAID_15C4CFF6_5DC6_456a_AE2B_0298FA9CDB6F.gif" title="Voorbeeld C na uitgeneren tabellen" /></p>
                 
                   
                 
