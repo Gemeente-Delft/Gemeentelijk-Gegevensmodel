@@ -2,7 +2,7 @@
 
 ## Overview
 
-Het GGM is ontworpen op aan de hand van interviews met domeinexperts, de in Delft gebruikte applicaties en op basis van landelijke informatiestandaarden. Dit om tot een gegevensmodel te komen dat goede verankering kent met de Delftse situatie. De uitwerking van [Gemeentelijke Monumenten](./monumenten.md) is als voorbeeld in de handleiding opgenomen. Aangezien alle Nederlandse gemeenten in principe dezelfde wettelijke taken hebben gaan we ervanuit dat de onderliggende informatiemodellen sterk op elkaar lijken.
+Het GGM is ontworpen op aan de hand van interviews met domeinexperts, de in Delft gebruikte applicaties en op basis van landelijke informatiestandaarden. Dit om tot een gegevensmodel te komen dat goede verankering kent met de Delftse situatie. De uitwerking van [Gemeentelijke Monumenten](./monumenten.md) is als voorbeeld in de handleiding opgenomen. Aangezien alle Nederlandse gemeenten in principe dezelfde wettelijke taken hebben gaan we ervan uit dat de onderliggende informatiemodellen sterk op elkaar lijken.
 
 Uitgangspunt van de inventarisatie waren:
 
@@ -16,7 +16,7 @@ De inventarisatie in de volgende stappen uitgevoerd:
 
 1. **Applicaties en Beleidsdomeinen**: Interviews met experts uit de verschillen de Beleidsdomeinen: per beleidsdomein is er m.b.v. gesprekken met experts van de informatievoorziening binnen de beleidsdomeinen een inventarisatie gemaakt van de gebruikte applicaties, de betrokken gebruikers, de interactie tussen de applicaties en de gebruikers, en welke gegevens daarbij gebruikt worden.
 2. **Applicaties en gegevens**: door in de gesprekken en uit de analyse de authentieke bronnen van gegevens te identificeren, en door in de gesprekken in te zoomen op de gebruikte gegevens en door de inventarisatie van de applicaties en gegevens te hanteren zijn de gegevens binnen de authentieke bronnen geïdentificeerd. Details van de gebruikte gegevens zijn hier geinventariseerd door foto's van de schermen van de gebruikte applicaties te maken en/of analyse van het achterliggende databaseschema.
-3. **Gemeentelijk Gegevensmodel**: het gegevensmodel wordt opgebouwd door de in de vorige stap gevonden gegevens te vertalen naar objecttypen (gegevenssoorten). Landelijke standaarden dienen hier zoveel mogelijk als uitgangspunt, waarbij de nieuw gevonden gegevens woeden ingepast. Veel van de gebruikte applicaties ondersteunen deze landelijke standaarden, waardoor compatibiliteit zo goed mogelijk wordt gegarandeerd. 
+3. **Gemeentelijk Gegevensmodel**: het gegevensmodel wordt opgebouwd door de in de vorige stap gevonden gegevens te vertalen naar objecttypen (gegevenssoorten). Landelijke standaarden dienen hier zoveel mogelijk als uitgangspunt, waarbij de nieuw gevonden gegevens worden ingepast. Veel van de gebruikte applicaties ondersteunen deze landelijke standaarden, waardoor compatibiliteit zo goed mogelijk wordt gegarandeerd. 
 4. **Databaseschema**: er is generator gerealiseerd waarmee op basis van de definities in het gegevensmodel met ‘een druk op de knop’ databasetabellen (DDL) gegenereerd kunnen worden. Hiermee is het mogelijk de basis te leggen voor een datawarehouse en is het mogelijk gegevens uit de applicaties te laden waardoor confrontatie van het model met de data mogelijk is.
 
 ## Informatieanalyse uitgelegd
