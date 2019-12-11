@@ -99,7 +99,7 @@ Bij het genereren van de tabelnamen geldt de volgende volgorde:
 1. Alias
 2. Naam objecttype
 
-Als de map waar het objecttype in zit een Alias heeft wordt deze als prefix voor de tabelnaam gebruikt. Daarnaast worden bij iedere tabel twee kolommen toegevoegd:
+Als de map waar het objecttype in zit een Alias heeft wordt deze als prefix voor de tabelnaam gebruikt. Daarnaast worden bij iedere tabel twee kolommen toegevoegd (bedoeld om van waarden te voorzien tijdens het vullen van het datawarehouse):
 
 1. M_Bronsysteem
 2. M_DatumTijdGeladen
