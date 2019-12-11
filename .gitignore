@@ -2,3 +2,4 @@
 site
 *.ldb
 .DS_Store
+*workspace

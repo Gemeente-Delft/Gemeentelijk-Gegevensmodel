@@ -90,11 +90,13 @@ Voor het genereren naar DDL neem je de volgende stappen:
 
 10\. Even wachten en de DDL staat klaar. Succes!
 
-## Interne werking Codegeneratietemplates
+## Interne werking
+
+De mogelijkheden die de codegeneratietemplates bieden is beperkend voor de mogelijkheden bij het modelleren in het Gemeentelijk Gegevensmode. Immers datatypes en relaties die niet worden ondersteund door de codegeneratietemplates kun je niet (automatisch) omzetten naar tabellen, en niet goed gebruiken als je het tabel toepast. Daarom is hier beschreven wat je in het logisch model kunt gebruiken en hoe dit transformeert naar tabellen.
 
 ### Objecttypes(Classes)
 
-Bij het genereren van de tabelnamen geldt de volgende volgorde:
+Bij het genereren van de tabelnamen geldt de volgende volgorde (alle namen worden ingekort tot maximaal 30 karakters):
 
 1. Alias
 2. Naam objecttype
@@ -140,6 +142,74 @@ Attributen worden op basis van hun Stereotype omgezet:
 * Adresaanduiding: veld wordt vervangen door de volgende velden: Naam Gemeente, Straatnaam, Huisnummer, Huisletter, Huisnummertoevoeging, Postcode en BAGID.
 * enum: er wordt een referentie naar de enumeratie opgenomen.
 
+### Relaties
+
+De vertalen van relaties in het logisch model is niet altijd recht-toe-rechtaan. Met name voor de naamgeving van de [foreignkeys](https://en.wikipedia.org/wiki/Foreign_key) en de [foreignkey-constraints](https://www.w3schools.com/sql/sql_foreignkey.asp). Hierom is dit hier in 3 voorbeelden beschreven.
+
+#### Voorbeeld A
+
+In het eerste voorbeeld zijn 4 objecttypes/classes te zien met drie relaties
+
+1. Relatie A: 1:N-relatie
+2. Relatie B: N:M-relatie
+3. Generalisatie van Class A t.o.v. Child Class A  
+
+![Voorbeeld A voor uitgeneren naar tabellen][voorbeeldA]
+
+Deze relaties vertalen zich na transformeren naar tabellen als volgt:
+
+1. Relaties A: kolom _ClassAID_ in tabel _ClassB_ met foreignkey naar tabel _ClassA_
+2. Relatie B: de koppeltabel KP_classa_classc, met foreignkey-relaties naar tabel _ClassA_ en tabel _ClassB_
+3. Generalisatie van Class A t.o.v. Child Class A: dit blijven twee aparte tabellen, kolommen worden niet overgenomen in het _child_. Er wordt een reguliere 1:N-relatie gemaakt, zoals Relatie A.
+
+![Voorbeeld A na uitgeneren naar tabellen][voorbeeldATabellen]
+
+#### Voorbeeld B
+
+De naamgeving van de foreignkeys, foreignkey-constraints en koppeltabellen kan worden beïnvloed door het gebruik van relatienamen en aliassen. Hiermee zorg je dat er geen dubbele constraints worden gemaakt en er geen onleesbare of te lange namen ontstaan. Voor naamgeving wordt de volgende volgorde gebruikt (in volgorde van prioriteit):
+
+1. Alias van Source/Target
+2. Alias van relatie
+3. Relatienaam
+4. Concatenering namen Source en Target
+
+In het voorbeeld zijn de volgende relaties uitgewerkt:
+
+1. Relatie Class A en Class B: relatienaam = "Relatienaam"
+2. Relatie Class C en Class D: relatie heeft Alias "Aliasnaam"
+3. Relatie Class E en Class F: zowel Source als Target van relatie hebben eigen alias 
+4. Relatie Class G en Class H: relatie heeft geen naam en geen aliassen
+5. Relatie Class I en Class J: relatie zonder naam en aliassen, maar Source en Target omgedraaid t.o.v. het vorige voorbeeld.
+
+![Voorbeeld B voor uitgeneren naar tabellen][voorbeeldB]
+
+Na transformeren naar tabellen als volgt:
+
+1. Eerste voorbeeld: tabel ClassA krijgt kolom ClassBID (met index) en foreignkey-constraint (met in de naam relatienaam) op de relatie met tabel ClassB.  
+2. Tweede voorbeeld: tabel ClassC krijgt kolom ClassCID (met index) en foreignkey-constraint (met in de naam alias) op de relatie met tabel ClassC. 
+3. Derde voorbeeld: tabel ClassE krijgt kolom AliasSourceCID (met index) en foreignkey-constraint (met in de naam de aliassen van source en target) op de relatie met tabel ClassF. 
+4. Vierde voorbeeld: tabel ClassG krijgt kolom ClassHID (met index) en foreignkey-constraint (met in de namen van de tabellen) op de relatie met tabel ClassH.
+5. Vijfde voorbeeld: tabel ClassI krijgt kolom ClassJID (met index) en foreignkey-constraint (met in de namen van de tabellen) op de relatie met tabel ClassJ (zelfde als 4e voorbeeld).
+
+![Voorbeeld B na uitgeneren naar tabellen][voorbeeldBTabellen]
+
+#### Voorbeeld C
+
+Als laatste een voorbeeld met wat voorbeelden die speciale aandacht nodig hebben, omdat het transformatieproces anders fouten oplevert:
+
+1. [Relaties met jezelf](https://www.365dagensuccesvol.nl/nl/nieuws/zeg-hoe-goed-is-de-relatie-met-jezelf-eigenlijk/143/) ;) (Varkensoortje)
+2. Meervoudige relaties tussen objecttypes.
+
+![Voorbeeld C voor uitgeneren naar tabellen][voorbeeldC]
+
+Om deze in het transformatieproces goed te laten werken moet een een Alias opvoeren bij de Source van de betreffende relatie. In het voorbeeld getoond voor het varkensoortje. Deze kun je ook voor meervoudige relaties gebruiken.
+
+![Voer een alias in in de Source van het varkensoortje][varkensoortje]
+
+Als je het logisch model hebt getransformeerd naar tabellen zie je dat de Aliasnaam wordt gebruikt voor de foreignkeys en de foreignkey-constraints. Zo kun je zorgen dat er unieke namen worden gebruikt.
+
+![Voorbeeld C na uitgeneren naar tabellen][voorbeeldCTabellen]
+
 [tablesAfval]: image/TablesAfval.png "Maak een plek om de tabellen uit te genereren"
 [selecteerInModel]: image/SelecteerInModel.png "Selecteer de map in het model"
 [applyTransformation]: image/ApplyTransformation.png "Kies Apply Transformation"
@@ -155,4 +225,10 @@ Attributen worden op basis van hun Stereotype omgezet:
 [importRefData]: image/ImportRefData.png "Import Referencedata"
 [kiesTemplates]: image/KiesTemplates.png "Kies templates"
 [gebruikTemplates]: image/GebruikTemplates.png "Gebruik templates"
-
+[voorbeeldB]: image/EAID_6FCF9303_410D_4ff2_A577_C323F426A500.gif "Voorbeeld B voor Uitgeneren naar tabellen"
+[voorbeeldCTabellen]: image/EAID_15C4CFF6_5DC6_456a_AE2B_0298FA9CDB6F.gif "Voorbeeld C na uitgeneren tabellen"
+[voorbeeldC]: image/EAID_135DA4FB_69A6_4191_84A3_3B9F16641289.gif "Voorbeeld C voor Uitgeneren naar tabellen"
+[voorbeeldBTabellen]: image/EAID_0435B59E_F272_4227_BE64_F7A8FC9A30EE.gif "Voorbeeld B na uitgeneren tabellen"
+[voorbeeldATabellen]: image/EAID_9259B8B6_DD2F_4632_9CAE_8A0D9F30DF1F.gif "Voorbeeld A na uitgeneren tabellen"
+[voorbeeldA]: image/EAID_E7F774F3_E0B3_438e_80DC_4B2F2CD3C60B.gif "Voorbeeld A voor uitgeneren naar tabellen"
+[varkensoortje]: image/Varkensoortje.png

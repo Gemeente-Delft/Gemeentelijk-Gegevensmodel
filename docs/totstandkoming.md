@@ -127,9 +127,9 @@ Hiertoe doorloop je de volgende stappen:
 
 ### Uitbreiden Gemeentelijk Gegevensmodel
 
-Nadat alle relevante gegevens gevonden zijn kun je door naar de volgende stap: het aanmaken van nieuwe objecttypen en het relateren van gegevens aan bestaande objecttypen.
+Nadat alle relevante gegevens gevonden zijn kun je door naar de volgende stap: het aanmaken van nieuwe objecttypen en het relateren van gegevens aan bestaande objecttypen. **Kijk goed naar de mogelijkheden die de [codegeneratietemplates](generatie.md#interne-werking) bieden, zodat je later niet in de knoei komt als je wilt transformeren naar tabellen.**
 
-Dit verloopt in een aantal stappen:
+Het uitbreiden verloopt in een aantal stappen:
 
 1\. Open het 'Gemeentelijk Gegevensmodel' en maak een map aan voor het onderdeel dat je gaat uitwerken. In het voorbeeld is dat 'Erfgoed: Voorbeeld'. MNaak onder die map nog twee mappen aan: 'Diagram' en 'Model Voorbeeld'. Nu heb je de plek aangemaakt waar je de objecttypes gaat aanmaken.
 
