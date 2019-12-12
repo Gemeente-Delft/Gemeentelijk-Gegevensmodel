@@ -1,0 +1,956 @@
+
+
+
+
+<!doctype html>
+<html lang="nl" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Informatiemodel van alle gemeentelijke taakvelden">
+      
+      
+      
+        <meta name="author" content="Arjen Brienen">
+      
+      
+        <meta name="lang:clipboard.copy" content="Kopiëren naar klembord">
+      
+        <meta name="lang:clipboard.copied" content="Gekopieerd naar klembord">
+      
+        <meta name="lang:search.language" content="nl">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Geen overeenkomende documenten">
+      
+        <meta name="lang:search.result.one" content="1 overeenkomende document">
+      
+        <meta name="lang:search.result.other" content="# overeenkomende documenten">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.5.1">
+    
+    
+      
+        <title>Ruimte Algemeen - Gemeentelijk Gegevensmodel (GGM)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.1b62728e.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#2196f3">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-109371818-2", "brienen.github.io/Gemeentelijk-Gegevensmodel/")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#ruimtelijk-domein" tabindex="1" class="md-skip">
+        Ga naar inhoud
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="Gemeentelijk Gegevensmodel (GGM)" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Gemeentelijk Gegevensmodel (GGM)
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Ruimte Algemeen
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Zoeken" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Typ om te beginnen met zoeken
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/brienen/Gemeentelijk-Gegevensmodel/" title="Ga naar repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="Gemeentelijk Gegevensmodel (GGM)" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Gemeentelijk Gegevensmodel (GGM)
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/brienen/Gemeentelijk-Gegevensmodel/" title="Ga naar repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../installatie/" title="Installatie" class="md-nav__link">
+      Installatie
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Opbouw (Under Construction)
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Opbouw (Under Construction)
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1" checked>
+    
+    <label class="md-nav__link" for="nav-3-1">
+      Ruimte
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        Ruimte
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Ruimte Algemeen
+      </label>
+    
+    <a href="./" title="Ruimte Algemeen" class="md-nav__link md-nav__link--active">
+      Ruimte Algemeen
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Inhoudsopgave</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basisobjecttypes" class="md-nav__link">
+    Basisobjecttypes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#standaarden" class="md-nav__link">
+    Standaarden
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geo-objecten" class="md-nav__link">
+    Geo-objecten
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#beheerobjecten" class="md-nav__link">
+    Beheerobjecten
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#beheerobjecten-vs-geo-objecten" class="md-nav__link">
+    Beheerobjecten vs Geo-objecten
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objecttypes-en-gemeentelijke-informatie" class="md-nav__link">
+    Objecttypes en Gemeentelijke Informatie
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#schouwen-en-meldingen" class="md-nav__link">
+    Schouwen en meldingen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#opbrekingen" class="md-nav__link">
+    Opbrekingen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#woningbouwprojecten" class="md-nav__link">
+    Woningbouwprojecten
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basisregistraties" class="md-nav__link">
+    Basisregistraties
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bag-basisregistratie-adressen-en-gebouwen" class="md-nav__link">
+    BAG (Basisregistratie, Adressen en Gebouwen)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kadastrale-objecten-en-beperkingen" class="md-nav__link">
+    Kadastrale objecten en beperkingen
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../afval/" title="Afval" class="md-nav__link">
+      Afval
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
+    
+    <label class="md-nav__link" for="nav-3-2">
+      Bestuur en Ondersteuning
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-2">
+        Bestuur en Ondersteuning
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../hr/" title="HR" class="md-nav__link">
+      HR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vastgoed/" title="Gemeentelijk Vastgoed" class="md-nav__link">
+      Gemeentelijk Vastgoed
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Totstandkoming
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Totstandkoming
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../totstandkoming/" title="Uitleg Werkwijze" class="md-nav__link">
+      Uitleg Werkwijze
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../monumenten/" title="Voorbeeld: Gemeentelijke Monumenten" class="md-nav__link">
+      Voorbeeld: Gemeentelijke Monumenten
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../generatie/" title="Generatie databaseschema's" class="md-nav__link">
+      Generatie databaseschema's
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Overige
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Overige
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../about/" title="Over het GGM" class="md-nav__link">
+      Over het GGM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/LICENSE" title="Licentie" class="md-nav__link">
+      Licentie
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../documentatie/" title="Documentatie aanpassen" class="md-nav__link">
+      Documentatie aanpassen
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Inhoudsopgave</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basisobjecttypes" class="md-nav__link">
+    Basisobjecttypes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#standaarden" class="md-nav__link">
+    Standaarden
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geo-objecten" class="md-nav__link">
+    Geo-objecten
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#beheerobjecten" class="md-nav__link">
+    Beheerobjecten
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#beheerobjecten-vs-geo-objecten" class="md-nav__link">
+    Beheerobjecten vs Geo-objecten
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objecttypes-en-gemeentelijke-informatie" class="md-nav__link">
+    Objecttypes en Gemeentelijke Informatie
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#schouwen-en-meldingen" class="md-nav__link">
+    Schouwen en meldingen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#opbrekingen" class="md-nav__link">
+    Opbrekingen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#woningbouwprojecten" class="md-nav__link">
+    Woningbouwprojecten
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basisregistraties" class="md-nav__link">
+    Basisregistraties
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bag-basisregistratie-adressen-en-gebouwen" class="md-nav__link">
+    BAG (Basisregistratie, Adressen en Gebouwen)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kadastrale-objecten-en-beperkingen" class="md-nav__link">
+    Kadastrale objecten en beperkingen
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/brienen/Gemeentelijk-Gegevensmodel/edit/master/docs/domeinen/ruimteAlgemeen.md" title="Wijzig deze pagina" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="ruimtelijk-domein">Ruimtelijk Domein</h1>
+<h2 id="basisobjecttypes">Basisobjecttypes</h2>
+<h3 id="standaarden">Standaarden</h3>
+<p>In het de uitwerking van ruimtelijk domein komt een aantal landelijke en internationale gegevensstandaarden samen, welke niet naadloos op elkaar aansluiten:</p>
+<ol>
+<li><a href="https://www.geonovum.nl/geo-standaarden/geography-markup-language-gml/gml-encoding-standard-321">GML 3.2.1. (Geography Markup Language)</a>, GML beschrijft hoe geografische locaties, lijnen, vlakken en combinaties daartussen vastgelegd en uitgewisseld dienen te worden. GML 3.2.1 is gestandaardiseerd bij het OGC en, daar OGC en ISO met elkaar samenwerken, tevens gestandaardiseerd als ISO 19136:2007. De ISO variant is opgenomen als nationale standaard in de Pas-toe-of-leg-uit-lijst van het Forum Standaardisatie.</li>
+<li><a href="https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen">NEN3610: 2011 (Basismodel geo-informatie)</a>. Het Basismodel geo-informatie. Het bevat de termen, definities, relaties en algemene regels voor de uitwisseling van informatie over ruimtelijke objecteninformatiemodellen). De standaard NEN3610 staat op de Pas-toe-of-leg-uit-lijst van het Forum Standaardisatie.</li>
+<li><a href="https://www.geonovum.nl/geo-standaarden/bgt-imgeo/gegevenscatalogus-imgeo-versie-211">IMBGT/IMGeo versie 2.1.1: (Informatiemodel Basisregistratie grootschalige Topografie/ Informatiemodel Geo)</a>. De kern van dit model (BGT) definieert informatie zoals die via de BGT beschikbaar is, en als basis/ondergrond dient voor de overige modellen. </li>
+<li><a href="https://www.geonovum.nl/geo-standaarden/informatiemodellen-nen3610-familie/gegevenscatalogus-basisregistratie-adressen-en">IMBAG versie 0.99: (Gegevenscatalogus Basisregistratie Adressen en Gebouwen)</a>. De Basisregistraties Adressen en Gebouwen (BAG) bevatten gegevens van alle adressen en gebouwen in Nederland. In de Gegevenscatalogus BAG zijn de afspraken vastgelegd om digitale uitwisseling mogelijk te maken. Het informatiemodel voor de BAG is geënt op de principes van NEN3610. </li>
+<li><a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=2ahUKEwijyviY2a_mAhWjz4UKHcUOBc8QFjAAegQIBRAB&amp;url=https%3A%2F%2Fwww.gemmaonline.nl%2Findex.php%2FRSGB_3.0_in_ontwikkeling&amp;usg=AOvVaw3O8og-k89BKiugDa4WNsMn">RSGB 3.0</a>: Het Referentiemodel Stelsel van Gemeentelijke Basisgegevens is de semantische standaard voor gemeentelijke basisgegevens. Het RSGB specificeert de basis- en kerngegevens waaraan gemeentebreed behoefte is.</li>
+<li><a href="https://www.crow.nl/thema-s/management-openbare-ruimte/imbor/project-imbor">IMBOR versie 2018-1</a>: In het IMBOR zijn landelijke afspraken gemaakt over de objectgegevens voor het beheer van de openbare ruimte.  </li>
+</ol>
+<p>Voor zover van toepassing op Delft wordt zoveel mogelijk van deze standaarden gebruik gemaakt. Ook is er een aantal objecttypen die (nog) niet in deze modellen voorkomen, zoals het <a href="https://www.geonovum.nl/geo-standaarden/informatiemodellen-nen3610-familie/informatiemodel-kabels-en-leidingen-imkl">IMKL (Informatiemodel kabels en leidingen)</a>, <a href="https://www.crow.nl/thema-s/wegontwerp/imwv-informatiemodel-wegen-en-verkeer">IMWV (Informatiemodel Wegen en verkeer)</a> en het <a href="http://www.aquo.nl/over-aquo/aquo-onderdelen/aquo-modellen/imwa/">IMWA (Informatiemodel Water)</a>. In de figuur hierna is te zien hoe de samenhang van deze standaarden in het Gemeentelijk Gegevensmodel is uitgewerkt.</p>
+<p><img alt="Samenhang Ruimtelijke Standaarden" src="../image/SamenhangRuimtelijkeStandaarden.png" title="Samenhang Ruimtelijke Standaarden" /></p>
+<h3 id="geo-objecten">Geo-objecten</h3>
+<p>Geo-objecten zijn objecttypes die informatie bevatten over objecten in de ruimte, en hoe deze afgebeeld kunnen worden. In IMGeo en het RSGB zijn Geo-objecttypes opgenomen. De RSGB 3.0 bevat weinig tot geen informatie over het beheer van de objecten in de openbare ruimte, dit is opgenomen in IMBOR. 
+Het gemeentelijk gegevensmodel bouwt voort op de RSGB en vult aan met andere standaarden als deze niet in de RSGB zijn opgenomen. Als er geen standaard is wordt het gemeentelijk gegevensmodel aangevuld met nieuwe objecttypen. Om aansluiting met de overige ruimtelijke standaarden te houden worden GML en NEN3610 toegepast.</p>
+<p>Er is gekozen voor RSGB versie 3.0 (nog in concept), omdat daar IMGeo en IMBAG in is verwerkt. Daaraan is een generiek nieuw objecttype toegevoegd, dat niet in RSGB 3.0 is opgenomen: Geo-Object. De benodigde onderdelen uit RSGB 3.0 zijn toegevoegd aan het model <em>Kern</em>.</p>
+<p><img alt="Geo-objecten uit RSGB" src="../image/EAID_4896574A_C4DD_4b27_A3B9_4481F4B29CCB.gif" title="Geo-objecten uit RSGB" /></p>
+<p>In voorgaand figuur is te zien hoe alle Geo-objecten uit de RSGB zijn afgeleid van het objecttype Geo-Object, en hoe deze is gekoppeld aan het objecttype Beheerobject uit IMBOR. De getoonde objecttypen zijn allemaal overgenomen uit IMGeo, waardoor de aansluiting is gemaakt met de BGT.</p>
+<p>In RSGB 3.0 zijn de volgende objecttypen niet overgenomen uit IMGeo: Bak, Bord, Bouwwerk, Installatie, Kast, Mast, OverigeConstructie, Paal, Put, RegistratiefGebied, Sensor, Straatmeubilair, Waterinrichtingselement, Weginrichtingselement. Hier hebben de ontwerpers en goedkeurders van RSGB 3.0 voor gekozen omdat men vond dat deze geen volwaardige representatie ‘verdienden’. Hiervoor in de plaatse is het generieke objecttype ‘Inrichtingselement’ aan het RSGB toegevoegd. Al deze objecttypes dienen te worden gezien als ‘Inrichtingselement’.</p>
+<h3 id="beheerobjecten">Beheerobjecten</h3>
+<p>Beheerobjecten zijn objecttypes uit de openbare ruimte met hun beheeraspecten, dit in tegenstelling tot de Geo-objecten die iets zeggen over het afbeelden van objecten op een kaart. Beheerobjecten zijn afgeleid uit IMBOR, en die objecttypes waar Delft beheer over voert of anderszins een rol spelen zijn overgenomen</p>
+<p><img alt="Beheerobjecten" src="../image/EAID_E3EBD7A0_35C4_4bf4_BD01_6D97AD0B8BF3.gif" title="Beheerobjecten" /></p>
+<p>In voorgaande figuur is te zien welke beheerobjecten uit IMBOR in het gemeentelijk gegevensmodel zijn overgenomen, en hoe deze zich verhouden tot de Geo-objecten. Hier zijn alleen de hoofdobjecten overgenomen, die allemaal afgeleid zijn van beheerobject. Er is ook een set beheerobjecten die weer zijn afgeleid van deze hoofdobjecten. Het betreft de volgende objecttypes: </p>
+<pre><code>Aansluitput, Abri, AED, Afvalbak, Afwateringsgebied, Bank, Bemalingsgebied, Bergingsbassin, Beschoeiing, Boom, Brug, Container, Debietmeter, Dek, Depot, Detectielus, Drainageput, Drinkkraan, Drukknoppaal, Ecoduct, Fietsparkeervoorziening, Filterput, Flyover, Geluidsscherm, Gemaal, Halteplaats, Hondenpoeppaal, Hoogtebegrenzer, Hotspot, Huisnummerbord, Infiltratieput, InklapbarePaal, Inzamelpunt, Kademuur, Keermuur, Kering, Klimplant, Klok, Kolk, Landhoofd, Lichtmast,Ligplaatsstrook, Mottobord, OndergrondseContainer, Onttrekkingsput, OV-kast, Overstortconstructie, Park, Parkeerautomaat, Parkeerbeugel, Parkeerdek, Parkeerverwijssysteem, Picknicktafel, Pijlbak, Plaatsnaambord, Pomp, Putdeksel, Recreatie, Regenmeter, Rioleringsgebied, Rioolkast, Rioolput, Risicogebied, Rooster, Sloof, SolitairePlant, Speelterrein, Speeltoestel, Sportcomplex, Sportterrein, Steiger, Straatnaambord, Stuwgebied, Toilet, Trap, Tunnelbak, Tunnelbuis, Tunnelgang, Tunnelwand, Uitlaatconstructie, Urinoir, Vacuümopslagtank, Veldverlichting, Verkeersbord, Verkeersbordpaal, Verkeersdrempel, Verkeerskast, Verkeerslichtmast, Verkeerslichtportaal, Viaduct, Vlonder, VRI-locatie, VRI-paal, Walstroomkast, Zandkist, Zoutbak en Zuiveringsgebied
+</code></pre>
+
+<p>Deze staan wel in het model opgenomen, maar het voert te ver om deze hier allemaal op te nemen.</p>
+<h3 id="beheerobjecten-vs-geo-objecten">Beheerobjecten vs Geo-objecten</h3>
+<p>In de volgende figuur is de verhouding tussen de Geo-objecten en de beheerobjecten te zien.</p>
+<p><img alt="IMGeo vs IMBOR" src="../image/IMGeoVSIMBOR.png" title="IMGeo vs IMBOR" /></p>
+<p>Er zijn twee perspectieven van een boom afgebeeld. In het BGT/IMGeo (RSGB 3.0) domein worden attributen getoond die te maken hebben met het op de juiste plek kunnen afbeelden van de boom. In het beheerdeel worden attributen bijgehouden die nodig zijn om de boom te kunnen beheren. In de volgende figuur is te zien welke verschillende soorten informatie over hetzelfde objecttype wordt bijgehouden.</p>
+<p><img alt="Objecttypen IMGeo vs IMBOR" src="../image/EAID_B832F543_BBE3_421e_B76D_561E53237684.gif" title="Objecttypen IMGeo vs IMBOR" /></p>
+<h2 id="objecttypes-en-gemeentelijke-informatie">Objecttypes en Gemeentelijke Informatie</h2>
+<h3 id="schouwen-en-meldingen">Schouwen en meldingen</h3>
+<p>Onderhoud aan de beheerobjecten wordt uitgevoerd door middel van schouwen. Hiervoor kent het Gemeentelijk Gegevensmodel een aantal objecttypen naast de beheerobjecten. Deze zijn uitgewerkt in de volgende figuur.</p>
+<p>Een ‘Schouwronde’ kan meerdere meldingen hebben. Ieder van die meldingen heeft betrekking op een ‘beheerobject’, en beheerobjecten hebben een ‘logboek’ waar de meldingen in worden vastgelegd. Een ‘melding’ heeft een melder en een leverancier die de melding gaat verhelpen. 
+Er zijn verschillende soorten meldingen:</p>
+<ol>
+<li>CROW-melding, volgens de CROW-systematiek.</li>
+<li>Melding Ongeval, alleen bij speeltoestellen waar ongevallen per speeltoestel bijgehouden moeten worden.</li>
+<li>Storing, meldingen bij verkeerslichten en straatverlichting, waar storingen in het systeem zelf zichtbaar worden en verholpen worden door een leverancier.</li>
+<li>Inspecties, worden door een inspecteur gedaan en als zodanig gemeld.</li>
+<li>Acties, dit zijn geplande onderhoudsacties.</li>
+</ol>
+<p><img alt="Schouwrondes beheerobjecten" src="../image/EAID_F9907E9B_BD04_439e_A0A9_C6E7BA7F6623.gif" title="Schouwrondes beheerobjecten" /></p>
+<p>Schouwrondes worden uitgevoerd binnen arealen, die vallen binnen 1 of meer wijken of buurten.</p>
+<p><img alt="Schouwrondes in arealen" src="../image/EAID_8BE01DD9_B915_4291_B190_AB69D0252391.gif" title="Schouwrondes in arealen" /></p>
+<h3 id="opbrekingen">Opbrekingen</h3>
+<p>Voor geplande opbrekingen wordt een ‘MOOR-melding’ gedaan (Melding Opbreking Openbare Ruimte). Deze ‘MOOR-melding’ wordt gedaan door de ‘Uitvoerder’ van de graafwerkzaamheden. Een ‘Uitvoerder’ kan een ‘Leverancier’ zijn of een ‘Grondbeheerder’, beiden een ‘Rechtspersoon’.
+Een aangevraagde ‘Omgevingsvergunning’ kan meerdere MOOR-meldingen verplichten. Nadat de graafwerkzaamheden zijn uitgevoerd wordt een inspectie gedaan voor een ‘Medewerker’ van de gemeente, waarvan een ‘proces verbaal’ wordt opgemaakt. Dit ‘proces verbaal’ is vastgelegd in een ‘Document’.</p>
+<p><img alt="Melding Graafwerkzaamheden" src="../image/EAID_1D1CC6D9_472B_4f91_8096_0260E27F641C.gif" title="Melding Graafwerkzaamheden" /></p>
+<h3 id="woningbouwprojecten">Woningbouwprojecten</h3>
+<p>Het woningbouwproject die in het kader van gebiedsbeheer worden uitgevoerd worden los geadministreerd. Woningbouwprojecten kunnen binnen een ‘Programma’ vallen. Ieder ‘woningbouwproject’ levert een aantal woningen op. Deze woningen zijn 1 van 3 soorten: koopwoningen, huurwoningen of studentenwoningen. Een ‘Woningbouwproject’ heeft een of meer projectontwikkelaars en kan een ‘projectleider’ hebben.</p>
+<p><img alt="Woningbouwprojecten" src="../image/EAID_5B2022A2_1DAB_476d_BBCD_CD27F56F169F.gif" title="Woningbouwprojecten" /></p>
+<p>Energielabels en oppervlakten van woningen zijn volgens vooraf gedefinieerde lijsten/enumeraties.</p>
+<h2 id="basisregistraties">Basisregistraties</h2>
+<h3 id="bag-basisregistratie-adressen-en-gebouwen">BAG (Basisregistratie, Adressen en Gebouwen)</h3>
+<p>Het IMBAG (Informatiemodel basisregistratie, adressen en gebouwen) is overgenomen in RSGB 3.0. Om deze reden zijn de objecttypes hiervoor ontleend aan het RSGB 3.0.</p>
+<p>Het betreft allemaal objecttypen die vanuit de BAG adresseerbaar zijn, en dus een BAG-identificatie hebben. Ook hebben alle objecten een reëel adres met postcode en huisnummer. Met het meest generieke objecttype ‘Adresseerbaar Object Aanduiding ’ dat alle onderliggende objecttypen een reëel adres geeft, daaronder twee generieke objecttypes: ‘Nummeraanduiding’ en ‘Overig Adresseerbaar object aanduiding’, waarmee alle objecttypes een BAG-id meekrijgen. Zie hiervoor de volgende Figuur.</p>
+<p><img alt="Adresseerbare objecten" src="../image/EAID_1279615F_663B_4c7f_BDF3_CD1DA37A87BC.gif" title="Adreseerbare objecten" /></p>
+<p>In de volgende figuur zijn alle BAG-objecttypes in samenhang afgebeeld: de drie generieke objecttypes en de vijf concrete objecttypes. </p>
+<p><img alt="Adressen, gebouwen en terreinen" src="../image/EAID_7561B00D_273B_425a_B2FE_1C3AE499ED2E.gif" title="Adressen, gebouwen en terreinen" /></p>
+<p>Alle vijf concrete objecttypes zijn werkelijke adresseerbare objecten die in de BAG terug te vinden zijn. Allemaal “door het bevoegde gemeentelijke orgaan als zodanig formeel aangewezen”.</p>
+<p><strong>Ligplaats</strong>: plaats in het water al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, die bestemd is voor het permanent afmeren van een voor woon-, bedrijfsmatige of recreatieve doeleinden geschikt vaartuig.</p>
+<p><strong>Standplaats</strong>: terrein of gedeelte daarvan dat bestemd is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden en voor woon -, bedrijfsmatige, of recreatieve doeleinden geschikte ruimte.</p>
+<p><strong>Verblijfsobject</strong>: de kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is.</p>
+<p><strong>Overig Gebouwd object</strong>: de kleinste eenheid van gebruik, geen verblijfsobject zijnde, binnen een bij de totstandkoming functioneel en bouwkundig constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden.</p>
+<p><strong>Overig benoemd terrein</strong>: onbebouwd terrein of een gedeelte daarvan, geen standplaats of gedeelte van een ligplaats zijnde, dat bestemd is voor het gedurende langere tijd verrichten van een maatschappelijke activiteit.</p>
+<h3 id="kadastrale-objecten-en-beperkingen">Kadastrale objecten en beperkingen</h3>
+<p>Kadastrale objecten worden gebruikt voor het toepassen van een zakelijk recht op een object. In de RSGB 3.0 kan een perceel of een appartementsrecht zijn. Een zakelijk recht kan zijn: eigendomsrecht, mede-eigendom, appartementsrecht, recht van vruchtgebruik, recht van gebruik en recht van bewoning, erfdienstbaarheden, erfpacht en recht van opstal. Dit zakelijk recht kan een natuurlijk persoon als rechthebbende/subject hebben of een niet-natuurlijk persoon. 
+In de volgende figuur is uitgewerkt hoe een ‘Zakelijk recht’ rust op een ‘Kadastrale Onroerende Zaak’. Zo’n ‘Kadastrale Onroerende Zaak’ kan van het soort ‘Kadastraal Perceel’ zijn of een ‘Appartementsrecht’, of het kan generiek blijven. Een publiek rechtelijke beperking uit de WKPB  wordt gevestigd via een ‘Kadastrale onroerende zaak aantekening’.
+De verbinding met adresseerbare objecten uit de BAG wordt gelegd via de relatie met het meest generieke type ‘Benoemd Object’. Een ‘Rechtspersoon’ (natuurlijk persoon of bedrijf) heeft een ‘zakelijk recht’ en kan zo bijvoorbeeld het eigendom van een perceel hebben.</p>
+<p><img alt="Kadastrale objecten en beperkingen" src="../image/EAID_F9683FD0_4AA1_40c0_A132_4EA8F639B371.gif" title="Kadastrale objecten en beperkingen" /></p>
+<p>Een ‘Kadastrale Mutatie’ kan het vestigen of wijzigen van een zakelijk recht tot gevolg hebben (bijv. eigendomsoverdracht). Een mutatie heeft altijd betrekking op één of meer ‘Kadastrale onroerende zaken’, bij verkoop is het bijv. 1 ‘Kadastrale onroerende zaak’, maar bij splitsing twee of meer.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../installatie/" title="Installatie" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Vorige
+                </span>
+                Installatie
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../afval/" title="Afval" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Volgende
+                </span>
+                Afval
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.8e03edeb.js"></script>
+      
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../../assets/javascripts/lunr/lunr.nl.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>
