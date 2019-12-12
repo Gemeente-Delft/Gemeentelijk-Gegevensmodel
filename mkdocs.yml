@@ -7,7 +7,13 @@ google_analytics: ['UA-109371818-2', 'brienen.github.io/Gemeentelijk-Gegevensmod
 nav:
  - Home: index.md
  - Installatie: installatie.md
- # - Opbouw: opbouw.md
+ - Opbouw (Under Construction): 
+    - 'Ruimte': 
+        - 'Ruimte Algemeen': domeinen/ruimteAlgemeen.md
+        - 'Afval': domeinen/afval.md
+    - 'Bestuur en Ondersteuning':
+        - 'HR': domeinen/hr.md
+        - 'Gemeentelijk Vastgoed': domeinen/vastgoed.md
  # - Gebruik: gebruik.md
  - Totstandkoming:
     - 'Uitleg Werkwijze': totstandkoming.md
@@ -23,3 +29,5 @@ theme:
     palette:
         primary: 'blue'
         accent: 'blue'
+markdown_extensions:
+  - admonition
