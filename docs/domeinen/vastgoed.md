@@ -15,7 +15,7 @@ Het gemeentelijk vastgoed objecttype 'Vastgoedobject' is gekoppeld aan 'Kadastra
 Aan een 'Kadastrale Onroerende Zaak' zijn 'Benoemde Objecten' gekoppeld, dit kunnen: 'Overig Gebouwd Object, Verblijfsobject', 'Standplaats', 'Ligplaats' of 'Overig Benoemd Terrein' zijn. Deze hebben op hun beurt een 'Nummeraanduiding', waarmee het adres kan worden bepaald.
 De koppeling naar de eigenaar van een 'Kadastrale Onroerende Zaak' verloopt via het 'Zakelijk Recht' en de 'Tennaamstelling'. Er bestaan overigens ook andere soorten zakelijkrecht, zoals: recht van vruchtgebruik en recht van overpad.  
 
-De Kadastrale objecttypen zijn overgenomen van de [(RSGB)](https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_(RSGB)), dus ik verwijs hier voor verdere informatie. Conform RSGB 3.0 ligt de 'Tennaamstelling' tussen 'Zakelijk Recht' en 'Rechtspersoon'. Ook is de relatie toegevoegd: 'Gesitueerd op' ([varkensoortje](../generatie.md#voorbeeld-c)) van 'Kadastrale Onroerende Zaak' met zichzelf. Dit om het gemakkelijk mogelijk te maken de bepalen op welk perceel een bepaald appartementsrecht ligt.
+De Kadastrale objecttypen zijn [hier](ruimteAlgemeen.md#bag-basisregistratie-adressen-en-gebouwen) verder uitgewerkt, dus ik verwijs hier voor verdere informatie. Conform RSGB 3.0 ligt de 'Tennaamstelling' tussen 'Zakelijk Recht' en 'Rechtspersoon'. Ook is de relatie toegevoegd: 'Gesitueerd op' ([varkensoortje](../generatie.md#voorbeeld-c)) van 'Kadastrale Onroerende Zaak' met zichzelf. Dit om het gemakkelijk mogelijk te maken de bepalen op welk perceel een bepaald appartementsrecht ligt.
 
 ![Vastgoed Relatie tot RSGB][vastgoedRelatieRSGB]
 

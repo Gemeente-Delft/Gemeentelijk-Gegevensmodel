@@ -8,12 +8,16 @@ nav:
  - Home: index.md
  - Installatie: installatie.md
  - Opbouw (Under Construction): 
+    - 'Griffie': domeinen/griffie.md 
     - 'Ruimte': 
         - 'Ruimte Algemeen': domeinen/ruimteAlgemeen.md
         - 'Afval': domeinen/afval.md
     - 'Bestuur en Ondersteuning':
         - 'HR': domeinen/hr.md
         - 'Gemeentelijk Vastgoed': domeinen/vastgoed.md
+        - 'Financiën': domeinen/financien.md
+        - 'Inkoop': domeinen/inkoop.md
+        - 'ICT': domeinen/ict.md
  # - Gebruik: gebruik.md
  - Totstandkoming:
     - 'Uitleg Werkwijze': totstandkoming.md

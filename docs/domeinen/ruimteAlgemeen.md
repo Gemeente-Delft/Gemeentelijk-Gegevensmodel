@@ -91,7 +91,7 @@ Energielabels en oppervlakten van woningen zijn volgens vooraf gedefinieerde lij
 
 ## Basisregistraties
 
-### BAG (Basisregistratie, Adressen en Gebouwen) 
+### BAG (Basisregistratie, Adressen en Gebouwen)
 
 Het IMBAG (Informatiemodel basisregistratie, adressen en gebouwen) is overgenomen in RSGB 3.0. Om deze reden zijn de objecttypes hiervoor ontleend aan het RSGB 3.0.
 
