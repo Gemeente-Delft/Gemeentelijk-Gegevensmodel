@@ -40,7 +40,7 @@
     
     
       
-        <title>Afval - Gemeentelijk Gegevensmodel (GGM)</title>
+        <title>ICT - Gemeentelijk Gegevensmodel (GGM)</title>
       
     
     
@@ -114,7 +114,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#afval" tabindex="1" class="md-skip">
+      <a href="#ict" tabindex="1" class="md-skip">
         Ga naar inhoud
       </a>
     
@@ -140,7 +140,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Afval
+                ICT
               
             </span>
           
@@ -306,12 +306,10 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
     
     <label class="md-nav__link" for="nav-3-2">
       Ruimte
@@ -339,20 +337,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="Afval" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../afval/" title="Afval" class="md-nav__link">
       Afval
     </a>
-    
   </li>
 
         
@@ -365,10 +354,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3" checked>
     
     <label class="md-nav__link" for="nav-3-3">
       Bestuur en Ondersteuning
@@ -432,11 +423,20 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../ict/" title="ICT" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="ICT" class="md-nav__link md-nav__link--active">
       ICT
     </a>
+    
   </li>
 
         
@@ -597,25 +597,28 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/brienen/Gemeentelijk-Gegevensmodel/edit/master/docs/domeinen/afval.md" title="Wijzig deze pagina" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/brienen/Gemeentelijk-Gegevensmodel/edit/master/docs/domeinen/ict.md" title="Wijzig deze pagina" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="afval">Afval</h1>
-<p>Centraal in het gegevensmodel van afval staan de fracties en de locaties. Een ‘Fractie’ is een type afval dat ingezameld wordt, zoals: PMD (Plastic, Metaal, Drank), OPK (Oud Papier Karton), Glas, of Restafval. Per ‘Fractie’ worden prijsafspraken vastgelegd in een ‘Prijsregel’, waarin staat opgenomen hoeveel in inzamelen van een kg kost of oplevert.</p>
-<p>Om bepaalde fracties in te zamelen zijn er meerdere routes die door vuilniswagens gereden kunnen worden om deze fractie in te zamelen. Zo’n ‘Route’ gaat langs meerdere locaties. Een ‘Locatie’ is opgebouwd uit een adres en/of een X- en Y-coördinaat. Op het moment van schrijven onderkent Avalex hiervoor alleen adressen. De coördinaten zijn bijgevoegd om deze in de toekomst ook te kunnen ondersteunen. Routes die gereden worden om bepaalde fracties vuilnis op te halen. Afhankelijk van de routesoort worden containers, bepaalde plekken of adressen aangedaan:</p>
+                <h1 id="ict">ICT</h1>
+<p>De in de applicaties aanwezige gegevens zijn gestructureerd volgens bepaalde objecttypes. Deze zijn uitgewerkt in de in deze paragraaf uitgewerkte domeinmodellen.</p>
+<p><img alt="Applicaties en Gegevens" src="../image/EAID_A2831A97_91F6_4ed0_896E_3531219E69F0.gif" title="ICT Applicaties en Gegevens" /></p>
+<p>In bovenstaand figuur is te zien hoe objecttypes zijn uitgewerkt. Een objecttype representeert de definitie van een bepaald gegevenstype. Zo’n objecttype kan nul of meer attributen hebben, die ieder volgens een bepaald datatype zijn. Objecttypes kunnen relaties hebben met andere objecttypes, volgens een bepaald relatiesoort. Ook kunnen objecttypes een generalisatie zijn van een ander objecttype. Hiermee wordt aangegeven dat het ene objecttype attributen en relaties overerft van het andere objecttype. Bovenstaande definitie is gebaseerd op <a href="https://www.geonovum.nl/geo-standaarden/metamodel-informatiemodellering-mim">MIM (Metamodel voor Informatiemodellen)</a>. Hieruit zijn alle relevante definities afgeleid.</p>
+<p>Naast de zaken die onderdeel zijn van MIM is er het type Gegeven dat wordt gedefinieerd door een Objecttype. Een Gegeven kan één of meer classificaties hebben. In het huidige model wordt gewerkt met classificatie van persoonsgegevens:</p>
 <ul>
-<li>Routesoort, huis-aan-huis: er worden locaties met adressen aangedaan;</li>
-<li>Routesoort, illegale dumping, grofvuil: er worden locaties aangedaan (evt. met adres);</li>
-<li>Routesoort, containers: er worden locaties met containers aangedaan.</li>
+<li>Geen Persoonsgegevens</li>
+<li>Algemene Persoonsgegevens</li>
+<li>Gevoelige Persoonsgegevens</li>
+<li>Bijzondere Persoonsgegevens</li>
 </ul>
-<p>Containers zijn geschikt voor één ‘Fractie’ (glascontainer, papiercontainer, restafvalcontainer, etc.). Per container kunnen er meerdere vulgraadmetingen zijn waar per tijdstip is vastgelegd hoeveel procent de container vol is en hoeveel kg dat is. Containers zijn van een bepaald type, bijvoorbeeld: onderlossende container, minicontainer of verzamelcontainer.</p>
-<p>Vuilniswagens zijn geschikt voor een bepaald containertype, en rijden ritten. Iedere ‘Rit’ die zo’, wagen rijdt is volgens een bepaalde ‘Route’. Een ‘Rit’ bestaat uit meerdere ophaalmomenten waar een op een bepaalde locatie, op een bepaald tijdstip een bepaalde hoeveelheid afval ingenomen wordt. Hierbij kan een ‘Container’ gelost worden, zo niet dan gaat het om afval (zoals grofvuil of illegale dumpingen) die van een bepaalde ‘Locatie’ gehaald worden.</p>
-<p><img alt="Afval Inzamelen" src="../image/EAID_D98AA96C_2EB0_4b46_9E9C_09D55E02FE38.gif" title="Afval Inzamelen" /></p>
-<p>In de volgende figuur is te zien dat aan een ‘Adres’ een ‘Pas’ gekoppeld is die geldig is voor één of meer milieustraten (in de praktijk slechts één, maar er is rekening gehouden met uitzonderingen). Een ‘Milieustraat’ is inzamelpunt voor meerdere fracties. Met een ‘Pas’ kunnen stortingen gedaan worden bij een ‘Milieustraat’. Iedere ‘Storting’ kan steeds één ‘Fractie’ bevatten en heeft een bepaald gewicht.</p>
-<p><img alt="Milieustraat Afval" src="../image/EAID_A00B8121_71AC_466f_B391_E16881240477.gif" title="Milieustraat afval" /></p>
-<p>In het hierna volgende figuur is het datamodel opgenomen voor de meldingen die bij Avalex afgehandeld worden.</p>
-<p><img alt="Meldingen afval" src="../image/EAID_157F610A_619E_4d1a_BB45_5C1F55178944.gif" title="Meldingen afval" /></p>
-<p>Een ‘Melding’ heeft steeds een hoofdcategorie en een subcategorie. Een ‘Melding’ kan een bepaalde ‘Fractie’ betreffen, en kan een bepaald ‘Containertype’ betreffen. Een ‘Melding’ betreft altijd een bepaalde ‘Locatie’. Meldingen zijn afgeleid van het generieke type ‘AanvraagOfMelding’.</p>
+<p>Gegevens kunnen geclassificeerd zijn conform bovenstaande lijst. Dit voor de gegevens zelf en de relaties met andere gegevens.
+In bovenstaand figuur is ook te zien dat een Gegeven een Applicatie als authentieke bron kan hebben of dat gegevens afkomstig zijn uit een externe bron.</p>
+<p><img alt="ICT Basismodel CMDB" src="../image/EAID_4F14E8D8_5502_4880_9E83_D912BE451EB1.gif" title="ICT Basismodel CMDB" /></p>
+<p>In voorgaande figuur is een uitwerking voor de CMDB-items gemaakt. Iedere CMDB-Item kan meerdere Log-items hebben waarbinnen aantekeningen worden gelogd. ‘Database’, ‘Server’ en ‘Applicatie’ zijn speciale Linkbare CMDB-items, en kunnen dus koppelingen hebben met andere Linkbare CMDB-Items. Applicaties en Servers kunnen een ‘Leverancier’ hebben.
+Een ‘Applicatie’ kan daarnaast diverse medewerkers hebben gekoppeld met een eigen rol, zoals: functioneel beheerder, applicatie-eigenaar en superuser. Een Applicatie heeft één of meer versies en kan meerdere packages hebben. Daarnaast kunnen er documenten en notities zijn gekoppeld aan een ‘Applicatie’.</p>
+<p>Naast de Linkbare CMDB-Items zijn er ook reguliere CMDB-Items (niet linkbaar aan andere CMDB-Items). Deze zijn uitgewerkt in</p>
+<p><img alt="ICT Overige CMDB" src="../image/EAID_A255BB0C_A1DB_43a5_88B1_C638F6E64B0B.gif" title="ICT Overige CMDB" /></p>
+<p>Het model kent naast de Linkbare CMDB-Items de volgende CMDB-Items die direct van CMDB-Item zijn afgeleid: ‘Licentie’, ‘Hardware’, ‘Vervoersmiddel’, ‘Netwerkcomponent’, ‘Toegangsmiddel’, ‘Inventaris’ en ‘Software’.</p>
                 
                   
                 
@@ -636,7 +639,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../ruimteAlgemeen/" title="Ruimte Algemeen" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../inkoop/" title="Inkoop" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -645,19 +648,19 @@
                 <span class="md-footer-nav__direction">
                   Vorige
                 </span>
-                Ruimte Algemeen
+                Inkoop
               </span>
             </div>
           </a>
         
         
-          <a href="../hr/" title="HR" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../totstandkoming/" title="Uitleg Werkwijze" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Volgende
                 </span>
-                HR
+                Uitleg Werkwijze
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

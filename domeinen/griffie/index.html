@@ -40,7 +40,7 @@
     
     
       
-        <title>Afval - Gemeentelijk Gegevensmodel (GGM)</title>
+        <title>Griffie - Gemeentelijk Gegevensmodel (GGM)</title>
       
     
     
@@ -114,7 +114,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#afval" tabindex="1" class="md-skip">
+      <a href="#griffie" tabindex="1" class="md-skip">
         Ga naar inhoud
       </a>
     
@@ -140,7 +140,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Afval
+                Griffie
               
             </span>
           
@@ -294,11 +294,20 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../griffie/" title="Griffie" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Griffie" class="md-nav__link md-nav__link--active">
       Griffie
     </a>
+    
   </li>
 
         
@@ -306,12 +315,10 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
     
     <label class="md-nav__link" for="nav-3-2">
       Ruimte
@@ -339,20 +346,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="Afval" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../afval/" title="Afval" class="md-nav__link">
       Afval
     </a>
-    
   </li>
 
         
@@ -597,25 +595,18 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/brienen/Gemeentelijk-Gegevensmodel/edit/master/docs/domeinen/afval.md" title="Wijzig deze pagina" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/brienen/Gemeentelijk-Gegevensmodel/edit/master/docs/domeinen/griffie.md" title="Wijzig deze pagina" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="afval">Afval</h1>
-<p>Centraal in het gegevensmodel van afval staan de fracties en de locaties. Een ‘Fractie’ is een type afval dat ingezameld wordt, zoals: PMD (Plastic, Metaal, Drank), OPK (Oud Papier Karton), Glas, of Restafval. Per ‘Fractie’ worden prijsafspraken vastgelegd in een ‘Prijsregel’, waarin staat opgenomen hoeveel in inzamelen van een kg kost of oplevert.</p>
-<p>Om bepaalde fracties in te zamelen zijn er meerdere routes die door vuilniswagens gereden kunnen worden om deze fractie in te zamelen. Zo’n ‘Route’ gaat langs meerdere locaties. Een ‘Locatie’ is opgebouwd uit een adres en/of een X- en Y-coördinaat. Op het moment van schrijven onderkent Avalex hiervoor alleen adressen. De coördinaten zijn bijgevoegd om deze in de toekomst ook te kunnen ondersteunen. Routes die gereden worden om bepaalde fracties vuilnis op te halen. Afhankelijk van de routesoort worden containers, bepaalde plekken of adressen aangedaan:</p>
-<ul>
-<li>Routesoort, huis-aan-huis: er worden locaties met adressen aangedaan;</li>
-<li>Routesoort, illegale dumping, grofvuil: er worden locaties aangedaan (evt. met adres);</li>
-<li>Routesoort, containers: er worden locaties met containers aangedaan.</li>
-</ul>
-<p>Containers zijn geschikt voor één ‘Fractie’ (glascontainer, papiercontainer, restafvalcontainer, etc.). Per container kunnen er meerdere vulgraadmetingen zijn waar per tijdstip is vastgelegd hoeveel procent de container vol is en hoeveel kg dat is. Containers zijn van een bepaald type, bijvoorbeeld: onderlossende container, minicontainer of verzamelcontainer.</p>
-<p>Vuilniswagens zijn geschikt voor een bepaald containertype, en rijden ritten. Iedere ‘Rit’ die zo’, wagen rijdt is volgens een bepaalde ‘Route’. Een ‘Rit’ bestaat uit meerdere ophaalmomenten waar een op een bepaalde locatie, op een bepaald tijdstip een bepaalde hoeveelheid afval ingenomen wordt. Hierbij kan een ‘Container’ gelost worden, zo niet dan gaat het om afval (zoals grofvuil of illegale dumpingen) die van een bepaalde ‘Locatie’ gehaald worden.</p>
-<p><img alt="Afval Inzamelen" src="../image/EAID_D98AA96C_2EB0_4b46_9E9C_09D55E02FE38.gif" title="Afval Inzamelen" /></p>
-<p>In de volgende figuur is te zien dat aan een ‘Adres’ een ‘Pas’ gekoppeld is die geldig is voor één of meer milieustraten (in de praktijk slechts één, maar er is rekening gehouden met uitzonderingen). Een ‘Milieustraat’ is inzamelpunt voor meerdere fracties. Met een ‘Pas’ kunnen stortingen gedaan worden bij een ‘Milieustraat’. Iedere ‘Storting’ kan steeds één ‘Fractie’ bevatten en heeft een bepaald gewicht.</p>
-<p><img alt="Milieustraat Afval" src="../image/EAID_A00B8121_71AC_466f_B391_E16881240477.gif" title="Milieustraat afval" /></p>
-<p>In het hierna volgende figuur is het datamodel opgenomen voor de meldingen die bij Avalex afgehandeld worden.</p>
-<p><img alt="Meldingen afval" src="../image/EAID_157F610A_619E_4d1a_BB45_5C1F55178944.gif" title="Meldingen afval" /></p>
-<p>Een ‘Melding’ heeft steeds een hoofdcategorie en een subcategorie. Een ‘Melding’ kan een bepaalde ‘Fractie’ betreffen, en kan een bepaald ‘Containertype’ betreffen. Een ‘Melding’ betreft altijd een bepaalde ‘Locatie’. Meldingen zijn afgeleid van het generieke type ‘AanvraagOfMelding’.</p>
+                <h1 id="griffie">Griffie</h1>
+<p>De definities van de objecttypen zijn afgeleid van de in het RIS opgeslagen informatie. Bovendien is er gebruik gemaakt van het informatiemodel uit de Pilots Open Raadsinformatie  die op het moment van schrijven nog in ontwikkeling is. Er is gekozen de gegevens zoals die nu in het RIS van Delft worden geadministreerd als uitgangspunt te nemen, welke op een aantal punten afwijken van het informatiemodel uit de Pilots Open Raadsinformatie. 
+In onderstaand figuur is het informatiemodel uitgewerkt. Centraal staan ‘Raadsstuk’ en ‘Vergadering’. De raadsstukken zijn alle stukken die door de gemeenteraad behandeld worden, zoals: amendement, motie, voorstel, antwoord, ingekomen stuk en mededeling. Het ‘Raadsstuk’ is afgeleid van het generieke RGBZ-type ‘DOCUMENT’, en kent de attributen van dit type. In een ‘Vergadering’ worden meerdere agendapunten besproken, waarbinnen steeds een aantal raadsstukken behandeld kunnen worden. Ook kan er bij een bepaald ‘Agendapunt’ een ‘Stemming’ plaatsvinden, die weer een bepaald ‘Raadsstuk betreft’. Stemming is overgenomen uit Pilots Open Raadsinformatie, maar wordt op het moment van schrijven niet vanuit het RIS ondersteund. Er kunnen video-opnames zijn van hele vergaderingen, of van individuele agendapunten van vergaderingen.
+Raadsstukken kunnen 0 of meer indieners hebben. Raadstukken met 0 indieners zijn procedurele stukken zoals de agenda en de lijst ingekomen stukken. Een ‘Indiener’ kan een ‘Raadslid’, een ‘Collegelid’ of een generiek ‘RECHTSPERSOON’ zijn. De laatste variant wordt gebruikt als een burger, een bedrijf of een instelling een stuk instuurt. Zowel ‘Raadslid’ als ‘Collegelid’ zijn afgeleid van ‘INGEZETENE’ uit de RSGB. </p>
+<p><img alt="Gegevensmodel Griffie" src="../image/EAID_A9F0B77B_05F3_4c36_96A0_8841BBAE47E0.gif" title="Gegevensmodel Griffie" /></p>
+<p>Vergaderingen hebben meerdere Aanwezige Deelnemers. Een ‘Aanwezige Deelnemer’ kan een ‘Collegelid’, een ‘Raadslid’ en een ander ‘NATUURLIJK PERSOON’ zijn. Een ‘NATUURLIJK PERSOON’ wordt gebruikt als een derde (burger of vertegenwoordiger) inspreekt op een vergadering. Hier wordt geen gebruik gemaakt van ‘RECHTSPERSOON’ omdat alleen natuurlijke personen kunnen spreken. Eventuele bedrijven of organisaties die vertegenwoordigd worden staan opgenomen in ‘Deelnemer’.
+Commissies kunnen meerdere Raadsleden als lid hebben, bovendien hebben Commissies vergaderingen.
+Raadsstukken kennen categorisering om de vindbaarheid te vergroten. Deze is opgenomen in onderstaand figuur. Hierin is te zien dat Raadsstukken bij meerdere dossiers kunnen horen, een ‘Categorie’ kunnen hebben, een ‘Taakveld’ kunnen hebben en kunnen horen bij meerdere Programma’s.</p>
+<p><img alt="Gegevensmodel Raadsstukken" src="../image/EAID_108224FC_E160_417a_AFC5_68A484B3B8AE.gif" title="Gegevensmodel Raadsstukken" /></p>
                 
                   
                 
@@ -636,7 +627,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../ruimteAlgemeen/" title="Ruimte Algemeen" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../installatie/" title="Installatie" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -645,19 +636,19 @@
                 <span class="md-footer-nav__direction">
                   Vorige
                 </span>
-                Ruimte Algemeen
+                Installatie
               </span>
             </div>
           </a>
         
         
-          <a href="../hr/" title="HR" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../ruimteAlgemeen/" title="Ruimte Algemeen" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Volgende
                 </span>
-                HR
+                Ruimte Algemeen
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

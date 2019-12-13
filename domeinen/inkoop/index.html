@@ -40,7 +40,7 @@
     
     
       
-        <title>Afval - Gemeentelijk Gegevensmodel (GGM)</title>
+        <title>Inkoop - Gemeentelijk Gegevensmodel (GGM)</title>
       
     
     
@@ -114,7 +114,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#afval" tabindex="1" class="md-skip">
+      <a href="#inkoop" tabindex="1" class="md-skip">
         Ga naar inhoud
       </a>
     
@@ -140,7 +140,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Afval
+                Inkoop
               
             </span>
           
@@ -306,12 +306,10 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
     
     <label class="md-nav__link" for="nav-3-2">
       Ruimte
@@ -339,20 +337,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="Afval" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../afval/" title="Afval" class="md-nav__link">
       Afval
     </a>
-    
   </li>
 
         
@@ -365,10 +354,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3" checked>
     
     <label class="md-nav__link" for="nav-3-3">
       Bestuur en Ondersteuning
@@ -420,11 +411,20 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../inkoop/" title="Inkoop" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Inkoop" class="md-nav__link md-nav__link--active">
       Inkoop
     </a>
+    
   </li>
 
         
@@ -597,25 +597,26 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/brienen/Gemeentelijk-Gegevensmodel/edit/master/docs/domeinen/afval.md" title="Wijzig deze pagina" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/brienen/Gemeentelijk-Gegevensmodel/edit/master/docs/domeinen/inkoop.md" title="Wijzig deze pagina" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="afval">Afval</h1>
-<p>Centraal in het gegevensmodel van afval staan de fracties en de locaties. Een ‘Fractie’ is een type afval dat ingezameld wordt, zoals: PMD (Plastic, Metaal, Drank), OPK (Oud Papier Karton), Glas, of Restafval. Per ‘Fractie’ worden prijsafspraken vastgelegd in een ‘Prijsregel’, waarin staat opgenomen hoeveel in inzamelen van een kg kost of oplevert.</p>
-<p>Om bepaalde fracties in te zamelen zijn er meerdere routes die door vuilniswagens gereden kunnen worden om deze fractie in te zamelen. Zo’n ‘Route’ gaat langs meerdere locaties. Een ‘Locatie’ is opgebouwd uit een adres en/of een X- en Y-coördinaat. Op het moment van schrijven onderkent Avalex hiervoor alleen adressen. De coördinaten zijn bijgevoegd om deze in de toekomst ook te kunnen ondersteunen. Routes die gereden worden om bepaalde fracties vuilnis op te halen. Afhankelijk van de routesoort worden containers, bepaalde plekken of adressen aangedaan:</p>
-<ul>
-<li>Routesoort, huis-aan-huis: er worden locaties met adressen aangedaan;</li>
-<li>Routesoort, illegale dumping, grofvuil: er worden locaties aangedaan (evt. met adres);</li>
-<li>Routesoort, containers: er worden locaties met containers aangedaan.</li>
-</ul>
-<p>Containers zijn geschikt voor één ‘Fractie’ (glascontainer, papiercontainer, restafvalcontainer, etc.). Per container kunnen er meerdere vulgraadmetingen zijn waar per tijdstip is vastgelegd hoeveel procent de container vol is en hoeveel kg dat is. Containers zijn van een bepaald type, bijvoorbeeld: onderlossende container, minicontainer of verzamelcontainer.</p>
-<p>Vuilniswagens zijn geschikt voor een bepaald containertype, en rijden ritten. Iedere ‘Rit’ die zo’, wagen rijdt is volgens een bepaalde ‘Route’. Een ‘Rit’ bestaat uit meerdere ophaalmomenten waar een op een bepaalde locatie, op een bepaald tijdstip een bepaalde hoeveelheid afval ingenomen wordt. Hierbij kan een ‘Container’ gelost worden, zo niet dan gaat het om afval (zoals grofvuil of illegale dumpingen) die van een bepaalde ‘Locatie’ gehaald worden.</p>
-<p><img alt="Afval Inzamelen" src="../image/EAID_D98AA96C_2EB0_4b46_9E9C_09D55E02FE38.gif" title="Afval Inzamelen" /></p>
-<p>In de volgende figuur is te zien dat aan een ‘Adres’ een ‘Pas’ gekoppeld is die geldig is voor één of meer milieustraten (in de praktijk slechts één, maar er is rekening gehouden met uitzonderingen). Een ‘Milieustraat’ is inzamelpunt voor meerdere fracties. Met een ‘Pas’ kunnen stortingen gedaan worden bij een ‘Milieustraat’. Iedere ‘Storting’ kan steeds één ‘Fractie’ bevatten en heeft een bepaald gewicht.</p>
-<p><img alt="Milieustraat Afval" src="../image/EAID_A00B8121_71AC_466f_B391_E16881240477.gif" title="Milieustraat afval" /></p>
-<p>In het hierna volgende figuur is het datamodel opgenomen voor de meldingen die bij Avalex afgehandeld worden.</p>
-<p><img alt="Meldingen afval" src="../image/EAID_157F610A_619E_4d1a_BB45_5C1F55178944.gif" title="Meldingen afval" /></p>
-<p>Een ‘Melding’ heeft steeds een hoofdcategorie en een subcategorie. Een ‘Melding’ kan een bepaalde ‘Fractie’ betreffen, en kan een bepaald ‘Containertype’ betreffen. Een ‘Melding’ betreft altijd een bepaalde ‘Locatie’. Meldingen zijn afgeleid van het generieke type ‘AanvraagOfMelding’.</p>
+                <h1 id="inkoop">Inkoop</h1>
+<p>Voor de leesbaarheid zijn de gegevensdefinities weergegeven in drie diagrammen. Dit in het verlengde van de manier waarop de diensten van Inkoop aan de gemeente worden aangeboden, via drie formulieren:</p>
+<ol>
+<li>Inhuur Personeel</li>
+<li>Verlengen Personeel</li>
+<li>Inkoop Overige (geen personeel)</li>
+</ol>
+<p>Centraal bij de inhuur van personeel staat de ‘Aanbesteding inhuur’. Deze start in veel gevallen met ‘Formulier Inhuur’. Aan het ‘Formulier Inhuur’ is een ‘Document’ gekoppeld, en het heeft een ‘Kostenplaats’. 
+Een ‘Aanbesteding inhuur’ valt binnen een bepaalde ‘Categorie’ (bijvoorbeeld ‘DAS Categorie / ICT Informatievoorziening’). De leveranciers die zich hebben gekwalificeerd voor deze ‘Categorie’ krijgen een ‘Uitnodiging’ om zich in te schrijven. Deze kunnen ze accepteren of weigeren (of niet reageren). Als de reageren dan doen ze dat met een ‘Kandidaat’, waaraan een ‘Natuurlijk Persoon’ is gekoppeld. In de selectieprocedure kan men een ‘Kandidaat’ kiezen door een ‘Gunning’. Op basis van deze ‘Gunning’ wordt de ‘Kandidaat’ voor een periode een ‘Medewerker’, bij een bepaald ‘Organisatorische Eenheid’. Na gunning wordt er een ‘Inkooporder’ en een ‘Contract’ aangemaakt.</p>
+<p><img alt="Inkoop Inhuur" src="../image/EAID_1172FBF0_04B4_46c7_9FB5_F34730E060FB.gif" title="Inkoop Inhuur" /></p>
+<p>Bij het verlengen van inhuur is er al een ‘Inkooporder’ en een ‘Contract’ met een ‘Leverancier’. De aanvrager vult het ‘Formulier Verlengen Inhuur’ in. Hierna wordt de contractinformatie aangepast. Zie hiervoor het volgende figuur.</p>
+<p><img alt="Inkoop Verlengen Inhuur" src="../image/EAID_21AD192F_EEF1_493b_9BFD_D37EF6C93236.gif" title="Inkoop VerlengenInhuur" /></p>
+<p>Alle overige enkelvoudige en meervoudige onderhandse aanbestedingen, en nationale en Europese aanbestedingen starten met het formulier ‘Startformulier Aanbesteden’. In het geval van onderhandse aanbestedingen wordt een ‘Zaak’ aangemaakt waar alle documenten aan gekoppeld worden (relatie met ‘Document’ hier niet zichtbaar). 
+Het ‘Startformulier Aanbesteden’ kan uitmonden in een ‘Aanbesteding’, waarvoor in het geval van een onderhandse aanbesteding ‘Offerte-uitvragen’ worden gedaan bij ‘Leveranciers’. Deze reageren hierop met een ‘Offerte’, en op basis van de ingediende ‘Offertes’ volgt een ‘Gunning’. In het geval van een nationale of Europese aanbesteding kan eerste een ‘Aankondiging’ worden gepubliceerd. Daarnaast kunnen in het geval van een niet-openbare aanbesteding ‘Leveranciers’ zich kwalificeren en een ‘Kwalificatie’ krijgen. ‘Leveranciers’ schrijven zich in op de ‘Aanbesteding’ via een ‘Inschrijving’. Na het doorlopen van wordt de ‘Aanbesteding’ gegund via een ‘Gunning’ aan een van de inschrijvers. 
+Net als bij de inhuur van personeel wordt er na gunning een ‘Inkooporder’ voor de ‘Leverancier’ en het gegunde aangemaakt, en een ‘Contract’ met de ‘Leverancier’ afgesloten. Gedurende de ‘Aanbesteding’ is een van de ‘Medewerkers’ procesleider.</p>
+<p><img alt="Inkoop Geen Inhuur" src="../image/EAID_6683520C_EE21_4038_A418_D4C957172DF2.gif" title="Inkoop Geen Inhuur" /></p>
+<p>In het geval van kleine aanbestedingen wordt het traject van aanbesteden vaak niet gelopen. Wel worden er dan een ‘Inkooporder’ aangemaakt en een ‘contract’ afgesloten.</p>
                 
                   
                 
@@ -636,7 +637,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../ruimteAlgemeen/" title="Ruimte Algemeen" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../financien/" title="Financiën" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -645,19 +646,19 @@
                 <span class="md-footer-nav__direction">
                   Vorige
                 </span>
-                Ruimte Algemeen
+                Financiën
               </span>
             </div>
           </a>
         
         
-          <a href="../hr/" title="HR" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../ict/" title="ICT" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Volgende
                 </span>
-                HR
+                ICT
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
