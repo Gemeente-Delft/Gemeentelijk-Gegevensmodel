@@ -9,6 +9,9 @@ nav:
  - Installatie: installatie.md
  - Opbouw (Under Construction): 
     - 'Griffie': domeinen/griffie.md 
+    - 'Burgerzaken': domeinen/burgerzaken.md 
+    - 'Onderwijs': domeinen/onderwijs.md 
+    - 'Leerplicht en leerlingenvervoer': domeinen/leerplicht.md 
     - 'Ruimte': 
         - 'Ruimte Algemeen': domeinen/ruimteAlgemeen.md
         - 'Afval': domeinen/afval.md
@@ -18,6 +21,13 @@ nav:
         - 'Financiën': domeinen/financien.md
         - 'Inkoop': domeinen/inkoop.md
         - 'ICT': domeinen/ict.md
+    - 'Sport, Cultuur en Recreatie':
+        - 'Erfgoed: Archeologie': domeinen/archeologie.md
+        - 'Erfgoed: Monumenten': domeinen/monumenten.md
+        - 'Erfgoed: Archief': domeinen/archief.md
+        - 'Erfgoed: Museum': domeinen/museum.md
+        - 'Erfgoed: Generieke objecttypen': domeinen/erfgoedgeneriek.md
+    - 'Vergunningverlening Toezicht en Handhaving': domeinen/vth.md 
  # - Gebruik: gebruik.md
  - Totstandkoming:
     - 'Uitleg Werkwijze': totstandkoming.md
