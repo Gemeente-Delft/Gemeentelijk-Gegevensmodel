@@ -1,7 +1,6 @@
 site_name: Gemeentelijk Gegevensmodel (GGM)
 site_description: Informatiemodel van alle gemeentelijke taakvelden 
 site_author: Arjen Brienen
-date: 2019-05-12
 repo_url: https://github.com/brienen/Gemeentelijk-Gegevensmodel/
 google_analytics:
   - 'UA-109371818-2'
@@ -10,7 +9,7 @@ nav:
  - Home: index.md
  - Installatie: installatie.md
  - Inhoud (Under Construction): 
-    - 'Inleding': domeinen/inleiding.md 
+    - 'Inleiding': domeinen/inleiding.md 
     - 'Bestuur en Ondersteuning':
         - 'HR': domeinen/hr.md
         - 'Gemeentelijk Vastgoed': domeinen/vastgoed.md
@@ -24,6 +23,7 @@ nav:
     - 'Ruimte': 
         - 'Ruimte Algemeen': domeinen/ruimteAlgemeen.md
         - 'Afval': domeinen/afval.md
+        - 'Omgevingswet': domeinen/omgevingswet.md
     - 'Sociaal domein':
         - 'Generieke definities Sociaal Domein': domeinen/socdomeingeneriek.md
         - 'Wmo en Jeugd': domeinen/wmojeugd.md
