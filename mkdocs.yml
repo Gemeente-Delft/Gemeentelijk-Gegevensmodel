@@ -3,7 +3,9 @@ site_description: Informatiemodel van alle gemeentelijke taakvelden
 site_author: Arjen Brienen
 date: 2019-05-12
 repo_url: https://github.com/brienen/Gemeentelijk-Gegevensmodel/
-google_analytics: ['UA-109371818-2', 'brienen.github.io/Gemeentelijk-Gegevensmodel/']
+google_analytics:
+  - 'UA-109371818-2'
+  - 'auto'
 nav:
  - Home: index.md
  - Installatie: installatie.md
