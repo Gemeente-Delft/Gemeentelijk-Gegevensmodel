@@ -7,26 +7,21 @@ google_analytics: ['UA-109371818-2', 'brienen.github.io/Gemeentelijk-Gegevensmod
 nav:
  - Home: index.md
  - Installatie: installatie.md
- - Opbouw (Under Construction): 
-    - 'Griffie': domeinen/griffie.md 
-    - 'Burgerzaken': domeinen/burgerzaken.md 
-    - 'Onderwijs': domeinen/onderwijs.md 
-    - 'Leerplicht en leerlingenvervoer': domeinen/leerplicht.md 
-    - 'Ruimte': 
-        - 'Ruimte Algemeen': domeinen/ruimteAlgemeen.md
-        - 'Afval': domeinen/afval.md
+ - Inhoud (Under Construction): 
+    - 'Inleding': domeinen/inleiding.md 
     - 'Bestuur en Ondersteuning':
         - 'HR': domeinen/hr.md
         - 'Gemeentelijk Vastgoed': domeinen/vastgoed.md
         - 'Financiën': domeinen/financien.md
         - 'Inkoop': domeinen/inkoop.md
         - 'ICT': domeinen/ict.md
-    - 'Sport, Cultuur en Recreatie':
-        - 'Erfgoed: Archeologie': domeinen/archeologie.md
-        - 'Erfgoed: Monumenten': domeinen/monumenten.md
-        - 'Erfgoed: Archief': domeinen/archief.md
-        - 'Erfgoed: Museum': domeinen/museum.md
-        - 'Erfgoed: Generieke objecttypen': domeinen/erfgoedgeneriek.md
+    - 'Burgerzaken': domeinen/burgerzaken.md 
+    - 'Griffie': domeinen/griffie.md 
+    - 'Leerplicht en leerlingenvervoer': domeinen/leerplicht.md 
+    - 'Onderwijs': domeinen/onderwijs.md 
+    - 'Ruimte': 
+        - 'Ruimte Algemeen': domeinen/ruimteAlgemeen.md
+        - 'Afval': domeinen/afval.md
     - 'Sociaal domein':
         - 'Generieke definities Sociaal Domein': domeinen/socdomeingeneriek.md
         - 'Wmo en Jeugd': domeinen/wmojeugd.md
@@ -34,7 +29,16 @@ nav:
         - 'Schuldhulverlening': domeinen/schuldhulp.md
         - 'Sociale Teams': domeinen/socteam.md
         - 'Gemeentebegraven': domeinen/gemeentebegraven.md
+    - 'Sport, Cultuur en Recreatie':
+        - 'Erfgoed: Archeologie': domeinen/archeologie.md
+        - 'Erfgoed: Monumenten': domeinen/monumenten.md
+        - 'Erfgoed: Archief': domeinen/archief.md
+        - 'Erfgoed: Museum': domeinen/museum.md
+        - 'Erfgoed: Generieke objecttypen': domeinen/erfgoedgeneriek.md
     - 'Vergunningverlening Toezicht en Handhaving': domeinen/vth.md 
+    - 'Verkeer en Vervoer':
+        - 'Verkeer': domeinen/verkeer.md
+        - 'Parkeren': domeinen/parkeren.md
  # - Gebruik: gebruik.md
  - Totstandkoming:
     - 'Uitleg Werkwijze': totstandkoming.md
