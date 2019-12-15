@@ -40,7 +40,7 @@
     
     
       
-        <title>Afval - Gemeentelijk Gegevensmodel (GGM)</title>
+        <title>Wmo en Jeugd - Gemeentelijk Gegevensmodel (GGM)</title>
       
     
     
@@ -114,7 +114,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#afval" tabindex="1" class="md-skip">
+      <a href="#gegevensdefinities-wmo-en-jeugd" tabindex="1" class="md-skip">
         Ga naar inhoud
       </a>
     
@@ -140,7 +140,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Afval
+                Wmo en Jeugd
               
             </span>
           
@@ -342,12 +342,10 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-5" type="checkbox" id="nav-3-5" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-5" type="checkbox" id="nav-3-5">
     
     <label class="md-nav__link" for="nav-3-5">
       Ruimte
@@ -375,20 +373,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="Afval" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../afval/" title="Afval" class="md-nav__link">
       Afval
     </a>
-    
   </li>
 
         
@@ -569,10 +558,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-8" type="checkbox" id="nav-3-8">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-8" type="checkbox" id="nav-3-8" checked>
     
     <label class="md-nav__link" for="nav-3-8">
       Sociaal domein
@@ -600,11 +591,20 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../wmojeugd/" title="Wmo en Jeugd" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Wmo en Jeugd" class="md-nav__link md-nav__link--active">
       Wmo en Jeugd
     </a>
+    
   </li>
 
         
@@ -825,25 +825,21 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/brienen/Gemeentelijk-Gegevensmodel/edit/master/docs/domeinen/afval.md" title="Wijzig deze pagina" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/brienen/Gemeentelijk-Gegevensmodel/edit/master/docs/domeinen/wmojeugd.md" title="Wijzig deze pagina" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="afval">Afval</h1>
-<p>Centraal in het gegevensmodel van afval staan de fracties en de locaties. Een ‘Fractie’ is een type afval dat ingezameld wordt, zoals: PMD (Plastic, Metaal, Drank), OPK (Oud Papier Karton), Glas, of Restafval. Per ‘Fractie’ worden prijsafspraken vastgelegd in een ‘Prijsregel’, waarin staat opgenomen hoeveel in inzamelen van een kg kost of oplevert.</p>
-<p>Om bepaalde fracties in te zamelen zijn er meerdere routes die door vuilniswagens gereden kunnen worden om deze fractie in te zamelen. Zo’n ‘Route’ gaat langs meerdere locaties. Een ‘Locatie’ is opgebouwd uit een adres en/of een X- en Y-coördinaat. Op het moment van schrijven onderkent Avalex hiervoor alleen adressen. De coördinaten zijn bijgevoegd om deze in de toekomst ook te kunnen ondersteunen. Routes die gereden worden om bepaalde fracties vuilnis op te halen. Afhankelijk van de routesoort worden containers, bepaalde plekken of adressen aangedaan:</p>
-<ul>
-<li>Routesoort, huis-aan-huis: er worden locaties met adressen aangedaan;</li>
-<li>Routesoort, illegale dumping, grofvuil: er worden locaties aangedaan (evt. met adres);</li>
-<li>Routesoort, containers: er worden locaties met containers aangedaan.</li>
-</ul>
-<p>Containers zijn geschikt voor één ‘Fractie’ (glascontainer, papiercontainer, restafvalcontainer, etc.). Per container kunnen er meerdere vulgraadmetingen zijn waar per tijdstip is vastgelegd hoeveel procent de container vol is en hoeveel kg dat is. Containers zijn van een bepaald type, bijvoorbeeld: onderlossende container, minicontainer of verzamelcontainer.</p>
-<p>Vuilniswagens zijn geschikt voor een bepaald containertype, en rijden ritten. Iedere ‘Rit’ die zo’, wagen rijdt is volgens een bepaalde ‘Route’. Een ‘Rit’ bestaat uit meerdere ophaalmomenten waar een op een bepaalde locatie, op een bepaald tijdstip een bepaalde hoeveelheid afval ingenomen wordt. Hierbij kan een ‘Container’ gelost worden, zo niet dan gaat het om afval (zoals grofvuil of illegale dumpingen) die van een bepaalde ‘Locatie’ gehaald worden.</p>
-<p><img alt="Afval Inzamelen" src="../image/EAID_D98AA96C_2EB0_4b46_9E9C_09D55E02FE38.gif" title="Afval Inzamelen" /></p>
-<p>In de volgende figuur is te zien dat aan een ‘Adres’ een ‘Pas’ gekoppeld is die geldig is voor één of meer milieustraten (in de praktijk slechts één, maar er is rekening gehouden met uitzonderingen). Een ‘Milieustraat’ is inzamelpunt voor meerdere fracties. Met een ‘Pas’ kunnen stortingen gedaan worden bij een ‘Milieustraat’. Iedere ‘Storting’ kan steeds één ‘Fractie’ bevatten en heeft een bepaald gewicht.</p>
-<p><img alt="Milieustraat Afval" src="../image/EAID_A00B8121_71AC_466f_B391_E16881240477.gif" title="Milieustraat afval" /></p>
-<p>In het hierna volgende figuur is het datamodel opgenomen voor de meldingen die bij Avalex afgehandeld worden.</p>
-<p><img alt="Meldingen afval" src="../image/EAID_157F610A_619E_4d1a_BB45_5C1F55178944.gif" title="Meldingen afval" /></p>
-<p>Een ‘Melding’ heeft steeds een hoofdcategorie en een subcategorie. Een ‘Melding’ kan een bepaalde ‘Fractie’ betreffen, en kan een bepaald ‘Containertype’ betreffen. Een ‘Melding’ betreft altijd een bepaalde ‘Locatie’. Meldingen zijn afgeleid van het generieke type ‘AanvraagOfMelding’.</p>
+                <h1 id="gegevensdefinities-wmo-en-jeugd">Gegevensdefinities Wmo en Jeugd</h1>
+<p>Aangezien de gegevensdefinities van Wmo en de jeugdwet sterk op elkaar lijken wordt uitgegaan van een generiek gegevensmodel waar zowel in het kader van de jeugdwet als in het kader van de Wmo vanuit wordt gegaan. Het gegevensmodel voor Wmo en Jeugd is net als de andere modellen binnen het sociaal domein opgebouwd rond het <a href="../socdomeingeneriek/">gegevenstype ‘Client’</a>.</p>
+<p>In de volgende figuur is dit generieke gegevensmodel uitgewerkt. Er wordt onderscheid gemaakt in de van toepassing zijnde wet via het attribuut wet, deze is in de volgende entiteiten opgenomen: Beschikking, Voorziening, Toewijzing, Voorzieningssoort, Voorzieningscategorie, Prijs, Leveringsvorm, Beperking, Beperkingsscore, Beperkingssoort en Beperkingsscoresoort.</p>
+<p><img alt="Beschikkingenen voorzieningen Wmo en Jeugd" src="../image/EAID_5AE29494_3572_4924_B2B8_3206E55D71BB.gif" title="Beschikkingenen voorzieningen Wmo en Jeugd" /></p>
+<p>In de ‘Beschikking’ samen met de daaraan gekoppelde ‘Beschikte Voorzieningen’ geeft de gemeente aan van welke voorzieningen de client gebruik kan maken. Via de Toewijzing wordt de beschikte zorg toegewezen aan een ‘Leverancier’, die op basis van die ‘Toewijzing’ doet de leverancier ‘Leveringen’, en dient hij ‘Declaraties’ in. ‘Beschikte Voorzieningen’ zijn van een bepaalde ‘Voorziening’ (zoals hulp en de huishouding, een scootmobiel of een woningaanpassing), waarover met de ‘Leverancier’ prijsafspraken worden gemaakt, welke in ‘Tarief’ zijn terug te vinden.
+De gemeente stuurt een ‘Melding Eigenbijdrage’ aan het CAK, zodat het CAK de maandelijkse eigen bijdrage gaat innen. Dit is gebaseerd op het systeem wat vanaf 2019 is ingevoerd waar een vierwekelijkse eigen bijdrage verschuldigd is van maximaal €17,50 per maand in 2019 (wordt €19,00), dus geen eigen bijdrage gekoppeld aan de voorziening meer. </p>
+<p>Een ‘Beschikte Voorziening’ heeft een bepaalde leveringsvorm: ZIN (Zorg in Natura) of PGB (PersoonsGebonden Budget). Als de zorg wordt geleverd in de vorm van een PGB, dan krijgt de Client een budget (opgenomen in de entiteit ‘Beschikte Voorziening’: eenheid in Euro’s). Voor de afhandeling stuurt de gemeente een TBK-bericht aan het SVB voor verdere afhandeling. Deze informatie wordt opgenomen in ‘PGB-Toekenning’ waarbij periodiek een ‘Budgetuitputting’ hoort.</p>
+<p><img alt="Beperkingen bij Wmo en Jeugd" src="../image/EAID_9B278A50_862A_4085_B362_C41392101916.gif" title="Beperkingen bij Wmo en Jeugd" /></p>
+<p>Een ‘Client’ kan meerdere ‘Beschikkingen’ hebben op basis van 1 of meer beperkingen die gescoord zijn met een ‘Beperkingscore’. Zowel ‘Beperking’ als de score komen voor een en referentietabel. In de ‘Wmo-beschikkingen’ worden 1 of meer voorzieningen toegekend, die voorkomen in de lijst voorzieningen die de gemeente Delft ondersteunt.</p>
+<p>Op het moment van schrijven gebruikt Delft de beperkingen niet, omdat ze wel formeel onderdeel uitmaken van de onderliggende standaarden zijn de definities wel opgenomen.</p>
+<p>Het domeinmodel voor de Wmo en de Jeugdwet bouwt voort op het generieke datamodel van het sociaal domein. Het model steunt op de gegevensdefinities uit de <a href="https://istandaarden.nl/istandaarden/iwmo">iWmo</a>, <a href="https://istandaarden.nl/istandaarden/ijw">iJw</a> en <a href="https://istandaarden.nl/istandaarden/ipgb">iPgb</a>  waarin het berichtenverkeer tussen gemeenten en zorgaanbieders staat beschreven.</p>
+<p><img alt="Beperkingen bij Wmo en Jeugd" src="../image/EAID_9B278A50_862A_4085_B362_C41392101916.gif" title="Beperkingen bij Wmo en Jeugd" /></p>
                 
                   
                 
@@ -864,7 +860,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../ruimteAlgemeen/" title="Ruimte Algemeen" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../socdomeingeneriek/" title="Generieke definities Sociaal Domein" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -873,19 +869,19 @@
                 <span class="md-footer-nav__direction">
                   Vorige
                 </span>
-                Ruimte Algemeen
+                Generieke definities Sociaal Domein
               </span>
             </div>
           </a>
         
         
-          <a href="../hr/" title="HR" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../participatie/" title="Participatie" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Volgende
                 </span>
-                HR
+                Participatie
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
