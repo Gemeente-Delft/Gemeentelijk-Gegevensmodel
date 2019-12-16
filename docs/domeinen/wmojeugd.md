@@ -19,13 +19,8 @@ Op het moment van schrijven gebruikt Delft de beperkingen niet, omdat ze wel for
 
 Het domeinmodel voor de Wmo en de Jeugdwet bouwt voort op het generieke datamodel van het sociaal domein. Het model steunt op de gegevensdefinities uit de [iWmo](https://istandaarden.nl/istandaarden/iwmo), [iJw](https://istandaarden.nl/istandaarden/ijw) en [iPgb](https://istandaarden.nl/istandaarden/ipgb)  waarin het berichtenverkeer tussen gemeenten en zorgaanbieders staat beschreven.
 
-
-
 ![Beperkingen bij Wmo en Jeugd][sociaalBeperkingen]
 
 [sociaalBeperkingen]: image/EAID_9B278A50_862A_4085_B362_C41392101916.gif "Beperkingen bij Wmo en Jeugd"
-
-
 [sociaalBeperkingen]: image/EAID_9B278A50_862A_4085_B362_C41392101916.gif "Beperkingen bij Wmo en Jeugd"
-
 [sociaalBeschikkingenEnVoorzieningen]: image/EAID_5AE29494_3572_4924_B2B8_3206E55D71BB.gif "Beschikkingenen voorzieningen Wmo en Jeugd"

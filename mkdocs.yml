@@ -16,7 +16,9 @@ nav:
         - 'Financiën': domeinen/financien.md
         - 'Inkoop': domeinen/inkoop.md
         - 'ICT': domeinen/ict.md
+        - 'Subsidies': domeinen/subsidies.md
     - 'Burgerzaken': domeinen/burgerzaken.md 
+    - 'Dienstverlening': domeinen/dienstverlening.md 
     - 'Griffie': domeinen/griffie.md 
     - 'Leerplicht en leerlingenvervoer': domeinen/leerplicht.md 
     - 'Onderwijs': domeinen/onderwijs.md 
@@ -56,5 +58,7 @@ theme:
     palette:
         primary: 'blue'
         accent: 'blue'
+    logo:
+        icon: 'thumb_up'
 markdown_extensions:
   - admonition
