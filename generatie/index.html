@@ -279,11 +279,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
     
     <label class="md-nav__link" for="nav-3">
-      Inhoud (Under Construction)
+      Inhoud
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-3">
-        Inhoud (Under Construction)
+        Inhoud
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -1216,8 +1216,10 @@
 </ol>
 <p>Als de map waar het objecttype in zit een Alias heeft wordt deze als prefix voor de tabelnaam gebruikt. Daarnaast worden bij iedere tabel twee kolommen toegevoegd (bedoeld om van waarden te voorzien tijdens het vullen van het datawarehouse):</p>
 <ol>
-<li>M_Bronsysteem</li>
-<li>M_DatumTijdGeladen</li>
+<li>DWH_Bronsysteem (Naam van het bronsysteem waarvandaan data is geladen)</li>
+<li>DWH_DatumTijdGeladen (Systeemdatum(tijd) waarop data is geladen)</li>
+<li>DWH_DatumTijdGeldigVanaf (Voor opbouw van historie: datum en tijd <strong>vanaf</strong> welke record geldig is)</li>
+<li>DWH_DatumTijdGeldigTotMet (Voor opbouw van historie: datum en tijd <strong>tot en met</strong> welke record geldig is)</li>
 </ol>
 <p>Als een objecttype een Stereotype heeft dan worden deze als volgt gebruikt:</p>
 <ul>
