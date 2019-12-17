@@ -8,7 +8,7 @@ google_analytics:
 nav:
  - Home: index.md
  - Installatie: installatie.md
- - Inhoud (Under Construction): 
+ - Inhoud: 
     - 'Inleiding': domeinen/inleiding.md 
     - 'Bestuur en Ondersteuning':
         - 'HR': domeinen/hr.md

@@ -103,8 +103,10 @@ Bij het genereren van de tabelnamen geldt de volgende volgorde (alle namen worde
 
 Als de map waar het objecttype in zit een Alias heeft wordt deze als prefix voor de tabelnaam gebruikt. Daarnaast worden bij iedere tabel twee kolommen toegevoegd (bedoeld om van waarden te voorzien tijdens het vullen van het datawarehouse):
 
-1. M_Bronsysteem
-2. M_DatumTijdGeladen
+1. DWH_Bronsysteem (Naam van het bronsysteem waarvandaan data is geladen)
+2. DWH_DatumTijdGeladen (Systeemdatum(tijd) waarop data is geladen)
+3. DWH_DatumTijdGeldigVanaf (Voor opbouw van historie: datum en tijd **vanaf** welke record geldig is)
+4. DWH_DatumTijdGeldigTotMet (Voor opbouw van historie: datum en tijd **tot en met** welke record geldig is)
 
 Als een objecttype een Stereotype heeft dan worden deze als volgt gebruikt:
 
