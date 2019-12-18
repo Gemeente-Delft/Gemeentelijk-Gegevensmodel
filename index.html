@@ -36,7 +36,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.5.1">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
     
     
       
@@ -60,7 +60,7 @@
     
       
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
@@ -125,7 +125,7 @@
       <div class="md-flex__cell md-flex__cell--shrink">
         <a href="." title="Gemeentelijk Gegevensmodel (GGM)" class="md-header-nav__button md-logo">
           
-            <i class="md-icon">thumb_up</i>
+            <img src="image/logo.png" width="24" height="24">
           
         </a>
       </div>
@@ -217,7 +217,7 @@
   <label class="md-nav__title md-nav__title--site" for="__drawer">
     <a href="." title="Gemeentelijk Gegevensmodel (GGM)" class="md-nav__button md-logo">
       
-        <i class="md-icon">thumb_up</i>
+        <img src="image/logo.png" width="48" height="48">
       
     </a>
     Gemeentelijk Gegevensmodel (GGM)
@@ -1142,7 +1142,7 @@
 <h3 id="installatie-codegeneratietemplates">Installatie Codegeneratietemplates</h3>
 <p>De installatie en gebruik van de codegeneratietemplates staat <a href="generatie/">hier</a> beschreven.</p>
 <h3 id="versies-en-gebruikte-tooling">Versies en gebruikte tooling</h3>
-<p>Het XMI-bestand van het Gemeentelijk Gegevensmodel is in theorie te gebruiken in andere tools naast Enterprise Architect, maar daar is geen ervaring mee. Ervaringen hierin zijn welkom! </p>
+<p>Het XMI-bestand van het Gemeentelijk Gegevensmodel is in theorie te gebruiken in andere tools naast Enterprise Architect, maar daar is geen ervaring mee. Ervaringen hierin zijn welkom!</p>
 <p>Het Gemeentelijk Gegevensmodel is beschikbaar in:</p>
 <ul>
 <li><a href="https://www.omg.org/spec/XMI/About-XMI/">XMI versie 1.1</a></li>
@@ -1156,8 +1156,8 @@
 <h2 id="opbouw-gemeentelijk-gegevensmodel">Opbouw Gemeentelijk Gegevensmodel</h2>
 <p>Het GGM kent een gelaagde opbouw, waarbij verschillende objecttypen over beleidsdomeinen heen zoveel mogelijk zijn ontkoppeld. Alleen objecttypen in de onderste lagen van het model worden gebruikt door de bovenliggende onderdelen.</p>
 <p><img alt="Gelaagdheid Domeinen" src="image/GelaagdheidDomeinen.jpg" title="Gelaagdheid Domeinen" /></p>
-<p>Het gegevensmodel is uitgewerkt in een aantal verticale beleidsdomeinen en 4 horizontale beleidsdomeinen. De horizontale delen (Kern, Financiën, ICT en Dienstverlening) vormen de basis van het gegevensmodel, waarop de verticale delen voortbouwen. De Kern bestaat uit RSGB en RGBZ, die de gegevensdefinities bevatten die zoals die gelden voor de basisregistraties (RSGB) en zaakgericht werken (RGBZ).<br />
-Er is ontkoppeling tussen de verschillende (sub)domeinen nagestreefd, doordat in de gegevensdefinities van het gegevensmodel (sub)domeinen alleen definities uit onderliggende (sub)domeinen gebruiken. Zo gebruiken alle (sub)domeinen gegevensdefinities uit Kern en kunnen alle verticale (sub)domeinen gegevensdefinities gebruiken uit de 4 horizontale modellen.</p>
+<p>Het gegevensmodel is uitgewerkt in een aantal verticale beleidsdomeinen en 4 horizontale beleidsdomeinen. De horizontale delen (Kern, Financiën, ICT en Dienstverlening) vormen de basis van het gegevensmodel, waarop de verticale delen voortbouwen. De Kern bestaat uit RSGB en RGBZ, die de gegevensdefinities bevatten die zoals die gelden voor de basisregistraties (RSGB) en zaakgericht werken (RGBZ).  </p>
+<p>Er is ontkoppeling tussen de verschillende (sub)domeinen nagestreefd, doordat in de gegevensdefinities van het gegevensmodel (sub)domeinen alleen definities uit onderliggende (sub)domeinen gebruiken. Zo gebruiken alle (sub)domeinen gegevensdefinities uit Kern en kunnen alle verticale (sub)domeinen gegevensdefinities gebruiken uit de 4 horizontale modellen.</p>
 <h3 id="beleidsdomeinen">Beleidsdomeinen</h3>
 <p>Het gegevensmodel omvat de volgende op de gebaseerde <a href="https://www.rijksoverheid.nl/onderwerpen/financien-gemeenten-en-provincies/uitwisseling-financiele-gegevens-met-sisa-en-iv3/informatie-voor-derden-iv3">IV3-taakvelden</a>:</p>
 <ul>
@@ -1169,7 +1169,7 @@ Er is ontkoppeling tussen de verschillende (sub)domeinen nagestreefd, doordat in
 <li>Ruimte<ul>
 <li>Beheer Openbare Ruimte</li>
 <li>Omgevingswet</li>
-<li>Afval </li>
+<li>Afval</li>
 </ul>
 </li>
 <li>Sport, Cultuur en Recreatie<ul>
@@ -1235,29 +1235,30 @@ Er is ontkoppeling tussen de verschillende (sub)domeinen nagestreefd, doordat in
 <li><a href="https://www.geonovum.nl/over-geonovum/actueel/cimow-en-imow-versie-098-beta-beschikbaar">Conceptueel Informatiemodel Omgevingswet CIMOW</a> Versie CIMOW v0.98-kern. Het Conceptueel Informatiemodel voor de Omgevingswet (CIMOW) beschrijft het domein van de Omgevingswet. Dit beperkt zich tot de informatie die in dit domein wordt vastgelegd en vastgesteld en in ketens wordt uitgewisseld ten behoeve van het digitaal stelsel van de Omgevingswet (DSO).</li>
 <li><a href="https://www.geonovum.nl/geo-standaarden/geography-markup-language-gml/gml-encoding-standard-321">GML 3.2.1. (Geography Markup Language)</a>, GML beschrijft hoe geografische locaties, lijnen, vlakken en combinaties daartussen vastgelegd en uitgewisseld dienen te worden. GML 3.2.1 is gestandaardiseerd bij het OGC en, daar OGC en ISO met elkaar samenwerken, tevens gestandaardiseerd als ISO 19136:2007. De ISO variant is opgenomen als nationale standaard in de Pas-toe-of-leg-uit-lijst van het Forum Standaardisatie.</li>
 <li><a href="https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen">NEN3610: 2011 (Basismodel geo-informatie)</a>. Het Basismodel geo-informatie. Het bevat de termen, definities, relaties en algemene regels voor de uitwisseling van informatie over ruimtelijke objecteninformatiemodellen). De standaard NEN3610 staat op de Pas-toe-of-leg-uit-lijst van het Forum Standaardisatie.</li>
-<li><a href="https://www.geonovum.nl/geo-standaarden/bgt-imgeo/gegevenscatalogus-imgeo-versie-211">IMBGT/IMGeo versie 2.1.1: (Informatiemodel Basisregistratie grootschalige Topografie/ Informatiemodel Geo)</a>. De kern van dit model (BGT) definieert informatie zoals die via de BGT beschikbaar is, en als basis/ondergrond dient voor de overige modellen. </li>
+<li><a href="https://www.geonovum.nl/geo-standaarden/bgt-imgeo/gegevenscatalogus-imgeo-versie-211">IMBGT/IMGeo versie 2.1.1: (Informatiemodel Basisregistratie grootschalige Topografie/ Informatiemodel Geo)</a>. De kern van dit model (BGT) definieert informatie zoals die via de BGT beschikbaar is, en als basis/ondergrond dient voor de overige modellen.</li>
 <li><a href="https://www.geonovum.nl/geo-standaarden/informatiemodellen-nen3610-familie/gegevenscatalogus-basisregistratie-adressen-en">IMBAG versie 0.99: (Gegevenscatalogus Basisregistratie Adressen en Gebouwen)</a>. De Basisregistraties Adressen en Gebouwen (BAG) bevatten gegevens van alle adressen en gebouwen in Nederland. In de Gegevenscatalogus BAG zijn de afspraken vastgelegd om digitale uitwisseling mogelijk te maken. Het informatiemodel voor de BAG is geënt op de principes van NEN3610.</li>
 <li><a href="https://www.geonovum.nl/geo-standaarden/metamodel-informatiemodellering-mim">MIM (Metamodel voor Informatiemodellen)</a>. Deze is toegepast in de uitwerking van het ICT-deel. Het GGM is echter (nog) niet MIM-compliant.</li>
 <li><a href="https://www.pleio.nl/pages/view/52755822/riha-referentieinformatiemodel-handhaving">RiHA 2.0 (Gegevensmodel toezicht en handhaven)</a>. Toegepast in de uitwerking van Vergunningverlening, toezicht en handhaving.</li>
 </ul>
 <h2 id="totstandkoming-gemeentelijk-gegevensmodel">Totstandkoming Gemeentelijk Gegevensmodel</h2>
-<p>Het GGM is ontworpen op aan de hand van interviews met domeinexperts, de in Delft gebruikte applicaties en op basis van landelijke informatiestandaarden. Dit om tot een gegevensmodel te komen dat goede verankering kent met de Delftse situatie. Aangezien alle Nederlandse gemeenten in principe dezelfde wettelijke taken hebben gaan we ervanuit dat de onderliggende informatiemodellen sterk op elkaar lijken. </p>
-<p>Uitgangspunt van de inventarisatie waren: </p>
+<p>Het GGM is ontworpen op aan de hand van interviews met domeinexperts, de in Delft gebruikte applicaties en op basis van landelijke informatiestandaarden. Dit om tot een gegevensmodel te komen dat goede verankering kent met de Delftse situatie. Aangezien alle Nederlandse gemeenten in principe dezelfde wettelijke taken hebben gaan we ervanuit dat de onderliggende informatiemodellen sterk op elkaar lijken.</p>
+<p>Uitgangspunt van de inventarisatie waren:</p>
 <ol>
 <li>De lijst met Delftse applicaties en de inventarisatie hiervan waarbij onderscheid is gemaakt tussen authentieke bronnen en overige applicaties</li>
-<li>De set beleidsdomeinen waar de gemeente haar taakgebied heeft </li>
+<li>De set beleidsdomeinen waar de gemeente haar taakgebied heeft</li>
 <li>Landelijk vastgestelde standaarden voor gegevensuitwisseling en landelijk vastgestelde informatiemodellen  </li>
 </ol>
 <p>De inventarisatie is op hoofdlijnen in de volgende stappen uitgevoerd (kijk voor een volledig overzicht <a href="totstandkoming/">hier</a>):</p>
 <ol>
 <li>Interviews met experts uit de verschillen de Beleidsdomeinen: per beleidsdomein is er m.b.v. gesprekken met experts van de informatievoorziening binnen de beleidsdomeinen een inventarisatie gemaakt van de gebruikte applicaties, de betrokken gebruikers, de interactie tussen de applicaties en de gebruikers, en welke gegevens daarbij gebruikt worden.</li>
 <li>Applicaties en gegevens: door in de gesprekken en uit de analyse de authentieke bronnen  van gegevens te identificeren, door in de gesprekken in te zoomen op de gebruikte gegevens en door de inventarisatie van de applicaties en gegevens te hanteren zijn de gegevens binnen de authentieke bronnen geïdentificeerd.</li>
-<li>Gegevensmodel: het gegevensmodel wordt opgebouwd door de in de vorige stap gevonden gegevens te vertalen naar objecttypen (gegevenssoorten). Landelijke standaarden dienen hier zoveel mogelijk als uitgangspunt. Veel van de gebruikte applicaties ondersteunen deze landelijke standaarden, waardoor compatibiliteit zo goed mogelijk wordt gegarandeerd. </li>
+<li>Gegevensmodel: het gegevensmodel wordt opgebouwd door de in de vorige stap gevonden gegevens te vertalen naar objecttypen (gegevenssoorten). Landelijke standaarden dienen hier zoveel mogelijk als uitgangspunt. Veel van de gebruikte applicaties ondersteunen deze landelijke standaarden, waardoor compatibiliteit zo goed mogelijk wordt gegarandeerd.</li>
 <li>Databaseschema: er is generator gerealiseerd waarmee op basis van de definities in het gegevensmodel met ‘een druk op de knop’ databasetabellen gegenereerd kunnen worden. Hiermee is het mogelijk de basis te leggen voor een datawarehouse en is het mogelijk gegevens uit de applicaties te laden waardoor confrontatie van het model met de data mogelijk is.</li>
 </ol>
 <p><img alt="Aanpak GGM 1" src="image/AanpakGGM.jpg" title="Aanpak GGM" /></p>
                 
                   
+                
                 
               
               
@@ -1311,7 +1312,7 @@ Er is ontkoppeling tussen de verschillende (sub)domeinen nagestreefd, doordat in
       
     </div>
     
-      <script src="assets/javascripts/application.8e03edeb.js"></script>
+      <script src="assets/javascripts/application.808e90bb.js"></script>
       
         
         
