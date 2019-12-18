@@ -40,7 +40,7 @@
     
     
       
-        <title>Financiën - Gemeentelijk Gegevensmodel (GGM)</title>
+        <title>Economie en Bedrijvigheid - Gemeentelijk Gegevensmodel (GGM)</title>
       
     
     
@@ -114,7 +114,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#financien" tabindex="1" class="md-skip">
+      <a href="#economie-en-bedrijvigheid" tabindex="1" class="md-skip">
         Ga naar inhoud
       </a>
     
@@ -140,7 +140,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Financiën
+                Economie en Bedrijvigheid
               
             </span>
           
@@ -273,12 +273,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
     
     <label class="md-nav__link" for="nav-3">
       Inhoud
@@ -306,12 +304,10 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
     
     <label class="md-nav__link" for="nav-3-2">
       Bestuur en Ondersteuning
@@ -351,20 +347,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="Financiën" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../financien/" title="Financiën" class="md-nav__link">
       Financiën
     </a>
-    
   </li>
 
         
@@ -933,37 +920,19 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/edit/master/docs/domeinen/financien.md" title="Wijzig deze pagina" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/edit/master/docs/domeinen/economie.md" title="Wijzig deze pagina" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="financien">Financiën</h1>
-<p>De gegevensdefinities voor financiën zijn opgedeeld in:</p>
-<ol>
-<li>gegevens voor budgetverantwoordelijkheid en begroting;</li>
-<li>gegevens over verplichtingen en facturen;</li>
-<li>gegevens over batchverwerking en mutaties.</li>
-</ol>
-<p>In onderstaand figuur is uitgewerkt hoe de begroting is opgebouwd, en welke verantwoordelijken er bij de begroting zijn.</p>
-<p><img alt="Begroting en Budget Financiën" src="../image/EAID_42C2960F_FED7_467e_AAB1_5195BED59A39.gif" title="Begroting en Budget Financiën" /></p>
-<p>De entiteit ‘Begroting’ is hiërarchisch opgebouwd uit: hoofdstukken, doelstellingen, producten en kostenplaatsen. Ieder van deze begrotingsonderdelen hebben begrotingsregels die optellen tot een sluitende ‘Begroting’. Met andere woorden: de som van alle begrotingsregels van de hoofdstukken van een ‘Begroting’ tellen op tot de ‘Begrotingsregel’ van de ‘Begroting’ binnen een bepaalde ‘Periode’. Hetzelfde geldt voor doelstellingen t.o.v. een ‘Hoofdstuk’, producten t.o.v. een ‘Doelstelling’ en kostenplaatsen t.o.v. een ‘Product’.
-Kostenplaatsen kunnen meerdere hoofdrekeningen hebben om verschillende soorten kosten van elkaar te kunnen onderscheiden. Voorbeelden van verschillende soorten kostenplaatsen zijn: investeringskostenplaats, afdelingskostenplaats, projectkostenplaats en kostenplaatsen bij gemeentelijk vastgoed.<br />
-Opdrachtgevers kunnen opdrachtgever zijn naar doelstellingen of producten. Opdrachtnemers zijn budgetverantwoordelijk voor producten of kostenplaatsen. Opdrachtgevers zijn in de meeste gevallen programmanagers en opdrachtnemers hoofden van afdelingen.
-In onderstaande figuur is weergegeven hoe verplichtingen en facturen zijn gestructureerd.</p>
-<p><img alt="Verplichtingen en Facturen Financiën" src="../image/EAID_0723EB5C_4A2C_44d4_B15B_37AC71B5D711.gif" title="Verplichtingen en Facturen Financiën" /></p>
-<p>Om een verplichting aan een ‘Crediteur’ (vaak leverancier) aan te gaan is een ‘inkooporder’ nodig. Inkooporders kunnen meerdere kostenplaatsen hebben, die weer verschillende hoofdrekeningen kunnen hebben. Vanuit een ‘Inkooporder’ wordt er geschreven op 1 of meer hoofdrekeningen, zodat verschillende kostensoorten zijn te onderscheiden.  Inkomende facturen worden gekoppeld aan de ‘Inkooporder’ en zijn zo gekoppeld aan de ‘Kostenplaats’. In het figuur is ook te zien hoe ‘Activa’ zijn gekoppeld aan hoofdrekeningen.
-In de volgende figuur zijn mutaties uitgewerkt. Mutaties zijn wijzigingen van 1 hoofdrekening naar een andere hoofdrekening. Zoals voor begroting en uitgaven van ‘Begroot’ naar ‘Inkooporder’ of van ‘Inkooporder’ naar ‘Werkelijk’, of voor inkomsten van “Betaling onderweg" naar  “Liquide”.
-Mutaties vinden plaats op basis van diverse gebeurtenissen, zoals: verwerken van een binnenkomende ‘Batch’, het verwerken van een factuur of een bankafschrift. Batches, facturen en bankafschriften hebben ieder meerdere regels, en per regel wordt een ‘Mutatie’ aangemaakt en middelen van een hoofdrekening naar de ander geschreven, zoals hiervoor beschreven.</p>
-<p><img alt="Verwerken Mutaties Financiën" src="../image/EAID_B758018F_CB22_420e_B4E4_E17EB5F71EDA.gif" title="Verwerken Mutaties Financiën" /></p>
-<p>Mutaties hebben altijd betrekking op een ‘Kostenplaats’, en kunnen op een ‘Werkorder’ (niet hard afdwingbaar) of ‘Subrekening’ (gekoppeld aan kostenplaats vanwege BTW) worden geschreven. 
-Naast de gemodelleerde mutaties zijn er nog diverse mutaties die handmatig of binnen GFS automatisch worden aangemaakt en geboekt, zoals:</p>
-<ul>
-<li>Verkoop tot ontvangst.</li>
-<li>Inkoop tot betaling.</li>
-<li>BTW-compensatie.</li>
-<li>Vaste activa.</li>
-</ul>
-<p>Debiteuren en crediteuren zijn afgeleid van ‘Rechtspersoon’. Het kunnen immers natuurlijke en niet-natuurlijke personen betreffen. Opdrachtgevers en opdrachtnemers zijn gekoppeld aan de Functie, en niet aan de persoon. Zo is zijn deze verantwoordelijkheden losgekoppeld van de persoon die de functie feitelijk invult. Zie hiervoor de volgende figuur.</p>
-<p><img alt="Personen en Financiën" src="../image/EAID_CB1E27F6_9539_4037_8A93_07CC937D5D2E.gif" title="Personen en Financiën" /></p>
+                <h1 id="economie-en-bedrijvigheid">Economie en Bedrijvigheid</h1>
+<p>De gegevensdefinities van Economie en bedrijvigheid concentreren zich ‘Vestigingen’ van bedrijven. Deze hebben een locatie in de stad en bepalen voor een belangrijk deel hoe er naar de lokale economie wordt aangekeken.</p>
+<p><img alt="Datamodel Economie en bedrijvigheid" src="../image/EAID_21D78104_E6EA_4d5c_9DBE_AB71F7DC99E7.gif" title="Datamodel Economie en bedrijvigheid" /></p>
+<p>Centraal staat ‘Vestiging’, wat een specialisatie kan hebben als ‘Verkooppunt’ (Winkel), of als ‘Hotel’. Van meer soorten bedrijven wordt er op dit geen specifieke informatie bijgehouden (generieke informatie wel). Een ‘Hotel’ kan ‘Hotelbezoeken’ (overnachtingen) hebben. Een ‘Vestiging’ voert een ‘Maatschappelijke Activiteit’ uit (bovenste relatie), en kan vanuit de ‘Maatschappelijke Activiteit’ een hoofdvestiging hebben. </p>
+<p>Per ‘Vestiging’ kan ‘Werkgelegenheid’ worden bijgehouden, zoals het aantal mannen en vrouwen wat er werkzaam is.</p>
+<p>Een ‘Vestiging’ is verbonden aan een ‘Niet-Natuurlijk Persoon’: het bedrijf (of anderszins) waar de ‘Vestiging’ toe behoort. Van het bedrijf (of anderszins) worden de ‘Contactpersonen’ geadministreerd.</p>
+<p><img alt="Datamodel Economie en locaties" src="../image/EAID_50085E67_46AC_4f54_B204_436786266EE2.gif" title="Economie en locaties" /></p>
+<p>Het adres van een ‘Vestiging’ is vastgelegd via de ‘Adresseerbaar Object Aanduiding’, hiermee wordt de koppeling met de BAG gelegd. Een specialisatie van de ‘Adresseerbaar Object Aanduiding’ is de ‘Nummeraanduiding’. Veelal zal een ‘Vestiging’ voor het adres een ‘Nummeraanduiding’ hebben. Alleen in het geval van bijvoorbeeld een ‘Ligplaats’ is dit anders. Dit komt zo weinig voor dat het hier niet is gemodelleerd.</p>
+<p>Van een ‘Gebouwd Object’ wordt het ‘Winkelvloeroppervlak’ bijgehouden. Deze informatie komt uit specifiek onderzoek. Ook wordt hier bijgehouden over er leegstand is. In het ‘Gebouwd Object’ wordt het aantal vierkante meters vloeroppervlak bijgehouden (Informatie uit de BAG). Op deze manier kunnen onderzoeksinformatie voor winkels en BAG-informatie vergeleken worden. Een ‘Gebouwd Object’ is een specialisatie van een ‘Verblijfsobject’, waaraan de ‘Nummeraanduiding’ is gekoppeld om het huisnummer van de straat te kunnen vastleggen.</p>
+<p>Binnen een ‘Gebied’ liggen meerdere ‘Adresseerbare Objecten’. Een ‘Gebied’ kent verschillende soorten, zoals: winkelgebied en projectontwikkelgebied. Ook kunnen ‘Gebieden’ overeenkomen met een ‘Buurt’ die weer samen een ‘Wijk’ vormen. ‘Gebied’ is een toevoegingen aan de RSGB omdat er geen heldere manier is om ‘Buurt’ (en dus ook ‘Wijk’ en nog verdere woonplaats en gemeente) aan ‘Adresseerbare Objecten’ te koppelen.</p>
                 
                   
                 
@@ -980,41 +949,6 @@ Naast de gemodelleerde mutaties zijn er nog diverse mutaties die handmatig of bi
       
         
 <footer class="md-footer">
-  
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid">
-        
-          <a href="../vastgoed/" title="Gemeentelijk Vastgoed" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
-            </div>
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Vorige
-                </span>
-                Gemeentelijk Vastgoed
-              </span>
-            </div>
-          </a>
-        
-        
-          <a href="../inkoop/" title="Inkoop" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Volgende
-                </span>
-                Inkoop
-              </span>
-            </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
-          </a>
-        
-      </nav>
-    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
