@@ -61,5 +61,6 @@ theme:
         primary: 'blue'
         accent: 'blue'
     logo: 'img/logo.png'
+    favicon: 'img/favicon.ico'
 markdown_extensions:
   - admonition
