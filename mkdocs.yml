@@ -1,5 +1,5 @@
 site_name: Gemeentelijk Gegevensmodel (GGM)
-site_description: Informatiemodel van alle gemeentelijke taakvelden 
+site_description: Informatiemodel van alle gemeentelijke taakvelden
 site_author: Arjen Brienen
 repo_url: https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/
 google_analytics:
@@ -8,8 +8,8 @@ google_analytics:
 nav:
  - Home: index.md
  - Installatie: installatie.md
- - Inhoud: 
-    - 'Inleiding': domeinen/inleiding.md 
+ - Inhoud:
+    - 'Inleiding': domeinen/inleiding.md
     - 'Bestuur en Ondersteuning':
         - 'HR': domeinen/hr.md
         - 'Gemeentelijk Vastgoed': domeinen/vastgoed.md
@@ -17,13 +17,13 @@ nav:
         - 'Inkoop': domeinen/inkoop.md
         - 'ICT': domeinen/ict.md
         - 'Subsidies': domeinen/subsidies.md
-    - 'Burgerzaken': domeinen/burgerzaken.md 
-    - 'Dienstverlening': domeinen/dienstverlening.md 
-    - 'Economie en Bedrijvigheid': domeinen/economie.md 
-    - 'Griffie': domeinen/griffie.md 
-    - 'Leerplicht en leerlingenvervoer': domeinen/leerplicht.md 
-    - 'Onderwijs': domeinen/onderwijs.md 
-    - 'Ruimte': 
+    - 'Burgerzaken': domeinen/burgerzaken.md
+    - 'Dienstverlening': domeinen/dienstverlening.md
+    - 'Economie en Bedrijvigheid': domeinen/economie.md
+    - 'Griffie': domeinen/griffie.md
+    - 'Leerplicht en leerlingenvervoer': domeinen/leerplicht.md
+    - 'Onderwijs': domeinen/onderwijs.md
+    - 'Ruimte':
         - 'Ruimte Algemeen': domeinen/ruimteAlgemeen.md
         - 'Afval': domeinen/afval.md
         - 'Omgevingswet': domeinen/omgevingswet.md
@@ -41,7 +41,7 @@ nav:
         - 'Erfgoed: Museum': domeinen/museum.md
         - 'Erfgoed: Generieke objecttypen': domeinen/erfgoedgeneriek.md
         - 'Sportbeleid': domeinen/sport.md
-    - 'Vergunningverlening Toezicht en Handhaving': domeinen/vth.md 
+    - 'Vergunningverlening Toezicht en Handhaving': domeinen/vth.md
     - 'Verkeer en Vervoer':
         - 'Verkeer': domeinen/verkeer.md
         - 'Parkeren': domeinen/parkeren.md
@@ -50,17 +50,16 @@ nav:
     - 'Uitleg Werkwijze': totstandkoming.md
     - 'Voorbeeld: Gemeentelijke Monumenten': monumenten.md
  - Generatie databaseschema's: generatie.md
- - Overige: 
+ - Overige:
     - Over het GGM: about.md
-    - Licentie: https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE 
+    - Licentie: https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE
     - Documentatie aanpassen: documentatie.md
-theme: 
+theme:
     name: 'material'
     language: 'nl'
     palette:
         primary: 'blue'
         accent: 'blue'
-    logo:
-        icon: 'thumb_up'
+    logo: 'image/logo.png'
 markdown_extensions:
   - admonition
