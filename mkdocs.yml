@@ -60,6 +60,6 @@ theme:
     palette:
         primary: 'blue'
         accent: 'blue'
-    logo: 'image/logo.png'
+    logo: 'img/logo.png'
 markdown_extensions:
   - admonition
