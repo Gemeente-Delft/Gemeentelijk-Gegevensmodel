@@ -10,6 +10,6 @@ Wij hebben besloten de delen [_Applicaties en Beleidsdomeinen_](../totstandkomin
 
 In de handleiding zijn afbeeldingen opgenomen van objecttypes en hun relaties. De attributen van de objecttypen zijn niet in de handleiding opgenomen, deze zijn te zien als je het GGM downloadt en opent.
 
-Veel plezier met lezen, en als je op-of-aanmerkingen hebt: meld ze dan aan ons via het [issuesysteem](https://github.com/brienen/Gemeentelijk-Gegevensmodel/issues).  
+Veel plezier met lezen, en als je op-of-aanmerkingen hebt: meld ze dan aan ons via het [issuesysteem](https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/issues).  
 
 [gelaagdheidDomeinen]: ../image/GelaagdheidDomeinen.jpg "Gelaagdheid Domeinen"

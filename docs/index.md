@@ -8,7 +8,7 @@ Bij het GGM is een set _codegeneratietemplates_ ontwikkeld voor het genereren va
 
 ## Downloaden
 
-De bestanden waar deze documentatie bij hoort zijn te vinden in de GitHub-repository [Gemeentelijk Gegevensmodel](https://github.com/brienen/Gemeentelijk-Gegevensmodel)
+De bestanden waar deze documentatie bij hoort zijn te vinden in de GitHub-repository [Gemeentelijk Gegevensmodel](https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel)
 
 ## Installatie en gebruik
 
@@ -18,8 +18,8 @@ Het Gemeentelijk Gegevensmodel is beschikbaar in [XMI-vorm](https://www.omg.org/
 
 We bieden het GGM in twee vormen aan:
 
-1. Als [EAP-bestand](https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/Gemeentelijk_Gegevensmodel.eap), te gebruiken voor de gratis [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/). En natuurlijk de overige versies van Enterprise Architect. Download hiervoor het bestand _Gemeentelijk_Gegevensmodel.xml_ en open het in (de viewer van) Enterprise Architect.
-2. Als [XMI-bestand](https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/Gemeentelijk_Gegevensmodel.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk [hier](installatie.md).
+1. Als [EAP-bestand](https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/Gemeentelijk_Gegevensmodel.eap), te gebruiken voor de gratis [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/). En natuurlijk de overige versies van Enterprise Architect. Download hiervoor het bestand _Gemeentelijk_Gegevensmodel.xml_ en open het in (de viewer van) Enterprise Architect.
+2. Als [XMI-bestand](https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/Gemeentelijk_Gegevensmodel.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk [hier](installatie.md).
 
 ### Installatie Codegeneratietemplates
 

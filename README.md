@@ -8,7 +8,7 @@ Bij het GGM is een set _codegeneratietemplates_ ontwikkeld voor het genereren va
 
 ## Handleiding
 
-**Voor gedetailleerde toelichting kijk in de [Handleiding](https://brienen.github.io/Gemeentelijk-Gegevensmodel/).**
+**Voor gedetailleerde toelichting kijk in de [Handleiding](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/).**
 
 ## Installatie en gebruik
 
@@ -19,11 +19,11 @@ Het Gemeentelijk Gegevensmodel is beschikbaar in [XMI-vorm](https://www.omg.org/
 We bieden het GGM in twee vormen aan:
 
 1. Als [EAP-bestand](Gemeentelijk_Gegevensmodel.eap), te gebruiken voor de gratis [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/). En natuurlijk de overige versies van Enterprise Architect. Download hiervoor het bestand _Gemeentelijk_Gegevensmodel.xml_ en open het in (de viewer van) Enterprise Architect.
-2. Als [XMI-bestand](Gemeentelijk_Gegevensmodel.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk in de [handleiding](https://brienen.github.io/Gemeentelijk-Gegevensmodel/installatie/).
+2. Als [XMI-bestand](Gemeentelijk_Gegevensmodel.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk in de [handleiding](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/installatie/).
 
 ### Installatie Codegeneratietemplates
 
-De installatie van de codegeneratietemplates staat [hier](https://brienen.github.io/Gemeentelijk-Gegevensmodel/generatie#installeren-codegeneratietemplates) beschreven. Voor verdere uitleg rond het gebruik van de codegeneratietemplates kijk [hier](https://brienen.github.io/Gemeentelijk-Gegevensmodel/generatie).
+De installatie van de codegeneratietemplates staat [hier](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/generatie#installeren-codegeneratietemplates) beschreven. Voor verdere uitleg rond het gebruik van de codegeneratietemplates kijk [hier](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/generatie).
 
 ### Versies en gebruikte tooling
 
@@ -133,7 +133,7 @@ Uitgangspunt van de inventarisatie waren:
 2. De set beleidsdomeinen waar de gemeente haar taakgebied heeft 
 3. Landelijk vastgestelde standaarden voor gegevensuitwisseling en landelijk vastgestelde informatiemodellen  
 
-De inventarisatie in de volgende stappen uitgevoerd (voor een gedetailleerde uitleg: kijk in de [handleiding](https://brienen.github.io/Gemeentelijk-Gegevensmodel/totstandkoming/)):
+De inventarisatie in de volgende stappen uitgevoerd (voor een gedetailleerde uitleg: kijk in de [handleiding](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/totstandkoming/)):
 
 1. Interviews met experts uit de verschillen de Beleidsdomeinen: per beleidsdomein is er m.b.v. gesprekken met experts van de informatievoorziening binnen de beleidsdomeinen een inventarisatie gemaakt van de gebruikte applicaties, de betrokken gebruikers, de interactie tussen de applicaties en de gebruikers, en welke gegevens daarbij gebruikt worden.
 2. Applicaties en gegevens: door in de gesprekken en uit de analyse de authentieke bronnen  van gegevens te identificeren, door in de gesprekken in te zoomen op de gebruikte gegevens en door de inventarisatie van de applicaties en gegevens te hanteren zijn de gegevens binnen de authentieke bronnen geïdentificeerd.

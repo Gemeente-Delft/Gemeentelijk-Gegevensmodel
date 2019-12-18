@@ -1,7 +1,7 @@
 site_name: Gemeentelijk Gegevensmodel (GGM)
 site_description: Informatiemodel van alle gemeentelijke taakvelden 
 site_author: Arjen Brienen
-repo_url: https://github.com/brienen/Gemeentelijk-Gegevensmodel/
+repo_url: https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/
 google_analytics:
   - 'UA-109371818-2'
   - 'auto'
@@ -51,7 +51,7 @@ nav:
  - Generatie databaseschema's: generatie.md
  - Overige: 
     - Over het GGM: about.md
-    - Licentie: https://github.com/brienen/Gemeentelijk-Gegevensmodel/blob/master/LICENSE 
+    - Licentie: https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE 
     - Documentatie aanpassen: documentatie.md
 theme: 
     name: 'material'

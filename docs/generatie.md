@@ -10,10 +10,10 @@ De geleverde codegeneratietemplates zijn uitbreidingen op de standaard templates
 
 ## Installeren codegeneratietemplates
 
-1\. Download het bestand 'CodegeneratieTemplates.xml'
-2\. Start Enterprise Architect
-3\. (Optioneel) Maak nieuw project
-4\. Kies _Import Reference Data_
+1. Download het bestand 'CodegeneratieTemplates.xml'
+2. Start Enterprise Architect
+3. (Optioneel) Maak nieuw project
+4. Kies _Import Reference Data_
 
 ![Import Reference Data][importRefData]
 
