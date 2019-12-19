@@ -36,7 +36,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.5.1">
     
     
       
@@ -60,7 +60,7 @@
     
       
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
@@ -736,9 +736,45 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Vergunningverlening Toezicht en Handhaving
+      </label>
+    
     <a href="./" title="Vergunningverlening Toezicht en Handhaving" class="md-nav__link md-nav__link--active">
       Vergunningverlening Toezicht en Handhaving
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Inhoudsopgave</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vergunningaanvragen" class="md-nav__link">
+    Vergunningaanvragen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#brede-handhaving" class="md-nav__link">
+    Brede Handhaving
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -933,6 +969,29 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Inhoudsopgave</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vergunningaanvragen" class="md-nav__link">
+    Vergunningaanvragen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#brede-handhaving" class="md-nav__link">
+    Brede Handhaving
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -961,7 +1020,8 @@
 </li>
 <li>Onderverdeling in zaaktypen (Signaalzaak, Toezichtzaak,Handhavingszaak en Andere VTH-zaak) is niet overgenomen. Signalen zijn in model opgenomen in de vorm van AanvraagOfMelding, deze vormt de aanleiding voor de zaak. Onderscheid in toezicht- en handhavingszaken, en ook inspectietype, kan worden gemaakt in zaaktype. Wetsartikelen zijn niet gemodelleerd.</li>
 </ol>
-<p>De afhandeling van aanvragen voor vergunningen, ontheffingen en meldingen binnen het VTH-domein maakt hergebruik van het informatiemodel uit de RGBZ. Centraal staan:</p>
+<h2 id="vergunningaanvragen">Vergunningaanvragen</h2>
+<p>Vanwege het generiek karakter worden zijn de objecttypen in het kader van 'Bouwen en Wonen' en de overige vergunningen op dezelfde manier gemodelleerd. De afhandeling van aanvragen voor vergunningen, ontheffingen en meldingen binnen het VTH-domein maakt hergebruik van het informatiemodel uit de RGBZ. Centraal staan:</p>
 <ul>
 <li>VOMAanvraagOfMelding (Vergunning Ontheffing Melding Aanvraag of Melding): de aanvraag of de melding die door de indiener wordt ingediend;</li>
 <li>Zaak: de zaak waarin feitelijke afhandeling van de aanvraag of melding wordt gedaan;</li>
@@ -984,11 +1044,11 @@ Voorbeeld: een aanvraag en toekenning ligplaatsontheffing wordt het volgende:</p
 </ul>
 <p>In Figuur 10 is te zien hoe het RGBZ-objecttype ‘Object’ verwijst naar allerlei objecttypen uit het Gemeentelijk Gegevensmodel (en vaak het RSGB). Op deze manier kan er in aanvragen, zaken en besluiten verwezen worden naar het abstracte type ‘Object’ waarvandaan naar allerlei concrete objecttypen verwezen kan worden.</p>
 <p><img alt="Objecten bij vergunningverlening" src="../image/EAID_C9CE09B7_32EF_40eb_9C82_7FD6EDEA1D9E.gif" title="Objecttypen bij vergunningverlening" /></p>
+<h2 id="brede-handhaving">Brede Handhaving</h2>
 <p>Ook meldingen in het kader van brede handhaving verwijzen naar het generieke objecttype ‘Object’, en zo dus weer naar allerlei andere objecttypen. Een ‘Melding’ kan verwijzingen naar foto’s hebben en heeft een BOA als verbalisant. Er worden drie soorten meldingen onderscheiden: ‘Waarneming’, ‘Combibon’ en ‘Fietsregistratie’. Een ‘Melding’ is afgeleid van het generieke ‘AanvraagOfMelding’.</p>
 <p><img alt="Objecten bij brede handhaving" src="../image/EAID_EC84A03C_FC04_401a_8263_7809B74179F8.gif" title="Objecttypen bij brede handhaving" /></p>
                 
                   
-                
                 
               
               
@@ -1056,7 +1116,7 @@ Voorbeeld: een aanvraag en toekenning ligplaatsontheffing wordt het volgende:</p
       
     </div>
     
-      <script src="../../assets/javascripts/application.808e90bb.js"></script>
+      <script src="../../assets/javascripts/application.8e03edeb.js"></script>
       
         
         
