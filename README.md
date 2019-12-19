@@ -52,49 +52,48 @@ Er is ontkoppeling tussen de verschillende (sub)domeinen nagestreefd, doordat in
 
 Het gegevensmodel omvat de volgende op de gebaseerde [IV3-taakvelden](https://www.rijksoverheid.nl/onderwerpen/financien-gemeenten-en-provincies/uitwisseling-financiele-gegevens-met-sisa-en-iv3/informatie-voor-derden-iv3):
 
-* Burgerzaken
-* Economie
-* Griffie
-* Leerplicht en Leerlingenvervoer
-* Onderwijs
+* [Burgerzaken](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/burgerzaken/)
+* [Economie](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/economie/)
+* [Griffie](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/griffie/)
+* [Leerplicht en Leerlingenvervoer](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/leerplicht/)
+* [Onderwijs](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/onderwijs/)
 * Ruimte
-  * Beheer Openbare Ruimte
-  * Omgevingswet
-  * Afval 
+  * [Beheer Openbare Ruimte](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/ruimteAlgemeen/)
+  * [Omgevingswet](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/omgevingswet/)
+  * [Afval](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/afval/)
 * Sport, Cultuur en Recreatie
-  * Erfgoed, Archeologie
-  * Erfgoed, Archief
-  * Erfgoed, Monumenten
-  * Museum
-  * Sport
+  * [Erfgoed, Archeologie](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/archeologie/)
+  * [Erfgoed, Archief](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/archief/)
+  * [Erfgoed, Monumenten](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/monumenten/)
+  * [Museum](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/museum/)
+  * [Sportbeleid](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/sport/)
 * Vergunningverlening, Toezicht en handhaving
-  * Brede Handhaving
-  * Bouwen en wonen
-  * Overige vergunningen
+  * [Brede Handhaving](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/vth/#brede-handhaving)
+  * [Bouwen en wonen](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/vth/#vergunningaanvragen)
+  * [Overige vergunningen](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/vth/#vergunningaanvragen)
 * Volksgezondheid en milieu _(nog in ontwikkeling)_
 * Bestuur en ondersteuning
-  * ICT
-  * Vastgoed
-  * Financien
-  * HR
-  * Inkoop
-  * Subsidies
+  * [ICT](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/ict/)
+  * [Gemeentelijk Vastgoed](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/vastgoed/)
+  * [Financiën](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/financien/)
+  * [HR](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/hr/)
+  * [Inkoop](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/inkoop/)
+  * [Subsidies](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/subsidies/)
   * Facilitair (_nog in ontwikkeling_)
   * Communicatie (_nog in ontwikkeling_)
   * Control (_nog in ontwikkeling_)
-  * Organisatie Algemeen
-* Dienstverlening
+* [Dienstverlening](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/dienstverlening/)
 * Sociaal domein
-  * Wmo
-  * Jeugd
-  * Participatie
-  * Schuldhulpverlening
-  * Sociale teams
-  * Gemeentebegrafenissen
-  * Dak- en thuislozen
+  * [Wmo](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/wmojeugd/)
+  * [Jeugd](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/wmojeugd/)
+  * [Participatie](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/participatie/)
+  * [Schuldhulpverlening](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/schuldhulp/)
+  * [Sociale teams](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/socteam/)
+  * [Gemeentebegraven](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/gemeentebegraven/)
+  * [Dak- en thuislozen](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/participatie/#dak-en-thuislozen)
 * Verkeer en vervoer
-  * Verkeer
-  * Parkeren
+  * [Verkeer](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/verkeer/)
+  * [Parkeren](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/parkeren/)
 
 Naast bovengenoemde beleidsterreinen kent het GGM het onderdeel 'Kern', waarin alle gedeelde objecttypen zijn te vinden. Kern is afgeleid van het [Informatiemodel Basis- en Kerngegevens (RSGB)](https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_(RSGB)) en [Informatiemodel Zaken (RGBZ)](https://www.gemmaonline.nl/index.php/Informatiemodel_Zaken_(RGBZ)) (beiden onderdeel [GEMMA: Gemeentelijke Modelarchitectuur](https://www.gemmaonline.nl/index.php/Gemeentelijke_Model_Architectuur_(GEMMA))), aangevuld met een aantal generieke objecttypen.  
 

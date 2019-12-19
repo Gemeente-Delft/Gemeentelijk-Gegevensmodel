@@ -12,7 +12,9 @@ Om de objecttypen uit RiHA zo goed mogelijk toe te passen, en te laten aansluite
     1. Toegevoegd: Domein en Risico-indicatie
 3. Onderverdeling in zaaktypen (Signaalzaak, Toezichtzaak,Handhavingszaak en Andere VTH-zaak) is niet overgenomen. Signalen zijn in model opgenomen in de vorm van AanvraagOfMelding, deze vormt de aanleiding voor de zaak. Onderscheid in toezicht- en handhavingszaken, en ook inspectietype, kan worden gemaakt in zaaktype. Wetsartikelen zijn niet gemodelleerd.
 
-De afhandeling van aanvragen voor vergunningen, ontheffingen en meldingen binnen het VTH-domein maakt hergebruik van het informatiemodel uit de RGBZ. Centraal staan:
+## Vergunningaanvragen
+
+Vanwege het generiek karakter worden zijn de objecttypen in het kader van 'Bouwen en Wonen' en de overige vergunningen op dezelfde manier gemodelleerd. De afhandeling van aanvragen voor vergunningen, ontheffingen en meldingen binnen het VTH-domein maakt hergebruik van het informatiemodel uit de RGBZ. Centraal staan:
 
 * VOMAanvraagOfMelding (Vergunning Ontheffing Melding Aanvraag of Melding): de aanvraag of de melding die door de indiener wordt ingediend;
 * Zaak: de zaak waarin feitelijke afhandeling van de aanvraag of melding wordt gedaan;
@@ -40,6 +42,8 @@ Voorbeeld: een aanvraag en toekenning ligplaatsontheffing wordt het volgende:
 In Figuur 10 is te zien hoe het RGBZ-objecttype ‘Object’ verwijst naar allerlei objecttypen uit het Gemeentelijk Gegevensmodel (en vaak het RSGB). Op deze manier kan er in aanvragen, zaken en besluiten verwezen worden naar het abstracte type ‘Object’ waarvandaan naar allerlei concrete objecttypen verwezen kan worden.
 
 ![Objecten bij vergunningverlening][vthObjectenVergunning]
+
+## Brede Handhaving
 
 Ook meldingen in het kader van brede handhaving verwijzen naar het generieke objecttype ‘Object’, en zo dus weer naar allerlei andere objecttypen. Een ‘Melding’ kan verwijzingen naar foto’s hebben en heeft een BOA als verbalisant. Er worden drie soorten meldingen onderscheiden: ‘Waarneming’, ‘Combibon’ en ‘Fietsregistratie’. Een ‘Melding’ is afgeleid van het generieke ‘AanvraagOfMelding’.
 

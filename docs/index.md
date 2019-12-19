@@ -53,49 +53,49 @@ Er is ontkoppeling tussen de verschillende (sub)domeinen nagestreefd, doordat in
 
 Het gegevensmodel omvat de volgende op de gebaseerde [IV3-taakvelden](https://www.rijksoverheid.nl/onderwerpen/financien-gemeenten-en-provincies/uitwisseling-financiele-gegevens-met-sisa-en-iv3/informatie-voor-derden-iv3):
 
-* Burgerzaken
-* Economie
-* Griffie
-* Leerplicht en Leerlingenvervoer
-* Onderwijs
+* [Burgerzaken](domeinen/burgerzaken/)
+* [Economie](domeinen/economie/)
+* [Griffie](domeinen/griffie/)
+* [Leerplicht en Leerlingenvervoer](domeinen/leerplicht/)
+* [Onderwijs](domeinen/onderwijs/)
 * Ruimte
-    * Beheer Openbare Ruimte
-    * Omgevingswet
-    * Afval
+    * [Beheer Openbare Ruimte](domeinen/ruimteAlgemeen/)
+    * [Omgevingswet](domeinen/omgevingswet/)
+    * [Afval](domeinen/afval/)
 * Sport, Cultuur en Recreatie
-    * Erfgoed, Archeologie
-    * Erfgoed, Archief
-    * Erfgoed, Monumenten
-    * Museum
-    * Sport
+    * [Erfgoed, Archeologie](domeinen/archeologie/)
+    * [Erfgoed, Archief](domeinen/archief/)
+    * [Erfgoed, Monumenten](domeinen/monumenten/)
+    * [Museum](domeinen/museum/)
+    * [Sportbeleid](domeinen/sport/)
 * Vergunningverlening, Toezicht en handhaving
-    * Brede Handhaving
-    * Bouwen en wonen
-    * Overige vergunningen
-* Volksgezonheid en milieu _(nog in ontwikkeling)_
+    * [Brede Handhaving](domeinen/vth/#brede-handhaving)
+    * [Bouwen en wonen](domeinen/vth/#vergunningaanvragen)
+    * [Overige vergunningen](domeinen/vth/#vergunningaanvragen)
+* Volksgezondheid en milieu _(nog in ontwikkeling)_
 * Bestuur en ondersteuning
-    * ICT
-    * Vastgoed
-    * Financien
-    * HR
-    * Inkoop
-    * Subsidies
+    * [ICT](domeinen/ict/)
+    * [Gemeentelijk Vastgoed](domeinen/vastgoed/)
+    * [Financiën](domeinen/financien/)
+    * [HR](domeinen/hr/)
+    * [Inkoop](domeinen/inkoop/)
+    * [Subsidies](domeinen/subsidies/)
     * Facilitair (_nog in ontwikkeling_)
     * Communicatie (_nog in ontwikkeling_)
     * Control (_nog in ontwikkeling_)
-    * Organisatie Algemeen
-* Dienstverlening
+* [Dienstverlening](domeinen/dienstverlening/)
 * Sociaal domein
-    * Wmo
-    * Jeugd
-    * Participatie
-    * Schuldhulpverlening
-    * Sociale teams
-    * Gemeentebegrafenissen
-    * Dak- en thuislozen
+      * [Wmo](domeinen/wmojeugd/)
+    * [Jeugd](domeinen/wmojeugd/)
+    * [Participatie](domeinen/participatie/)
+    * [Schuldhulpverlening](domeinen/schuldhulp/)
+    * [Sociale teams](domeinen/socteam/)
+    * [Gemeentebegraven](domeinen/gemeentebegraven/)
+    * [Dak- en thuislozen](domeinen/participatie/#dak-en-thuislozen)
 * Verkeer en vervoer
-    * Verkeer
-    * Parkeren
+    * [Verkeer](domeinen/verkeer/)
+    * [Parkeren](domeinen/parkeren/)
+
 
 Naast bovengenoemde beleidsterreinen kent het GGM het onderdeel 'Kern', waarin alle gedeelde objecttypen zijn te vinden. Kern is afgeleid van het [Informatiemodel Basis- en Kerngegevens (RSGB)](https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_(RSGB)) en [Informatiemodel Zaken (RGBZ)](https://www.gemmaonline.nl/index.php/Informatiemodel_Zaken_(RGBZ)) (beiden onderdeel [GEMMA: Gemeentelijke Modelarchitectuur](https://www.gemmaonline.nl/index.php/Gemeentelijke_Model_Architectuur_(GEMMA))), aangevuld met een aantal generieke objecttypen.  
 
