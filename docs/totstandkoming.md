@@ -143,7 +143,7 @@ Het uitbreiden verloopt in een aantal stappen:
 
 ![Modelleren Stap 2d][modellerenStap3b1]
 
-3\. Selecteer het objecttype waarvoor je zojuist een objecttype hebt aangemaakt en toets Ctrl-L om een 'Classifier' voor dit gegevenssoort aan te maken. Ga naar de zojuist aangemaakte map en selecteer het objecttype dat je zojuist hebt aangemaakt, en druk op 'OK'.
+3\. Selecteer het objecttype waarvoor je zojuist een objecttype hebt aangemaakt en toets Ctrl-L om een 'Classifier' voor dit gegevenssoort aan te maken. Ga naar de zojuist aangemaakte map en selecteer het objecttype dat je zojuist hebt aangemaakt, en druk op 'OK'. 
 
 ![Modelleren Stap 2d][modellerenStap3c]
 
