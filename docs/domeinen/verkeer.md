@@ -1,6 +1,6 @@
 # Verkeer
 
-De gegevensdefinities voor verkeer sluiten aan op die van Ruimte. Een aantal gegevenstypen uit [Informatiemodel Beheer Openbare Ruimte (IMBOR)](https://www.crow.nl/thema-s/management-openbare-ruimte/imbor) worden bij verkeer hergebruikt. Het gaat hier om de beheerobjecten:
+De gegevensdefinities voor verkeer sluiten aan op die van Ruimte. Een aantal objecttypen uit [Informatiemodel Beheer Openbare Ruimte (IMBOR)](https://www.crow.nl/thema-s/management-openbare-ruimte/imbor) worden bij verkeer hergebruikt. Het gaat hier om de beheerobjecten:
 
 1. Paal (verkeerslicht is een verbijzondering van Paal);
 2. Sensor (de lussen in het wegdek zijn een verbijzondering van Sensor);

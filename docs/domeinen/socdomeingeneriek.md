@@ -1,6 +1,6 @@
 # Generieke definities Sociaal Domein
 
-Binnen het Sociaal Domein is één gegevenstype ‘Client’ waaraan alle dienstverlening is gekoppeld. Zo is het sociaal domein losgekoppeld van de andere domeinen en kan persoonsgebonden informatie apart toegankelijk gemaakt worden. Ook relaties en het huishouden zijn generiek, omdat deze in de verschillende subdomeinen kan voorkomen. Hetzelfde geldt voor beperking. Cliënten kunnen een PGB hebben voor zowel het Jeugddomein als voor de Wmo.
+Binnen het Sociaal Domein is één objecttype ‘Client’ waaraan alle dienstverlening is gekoppeld. Zo is het sociaal domein losgekoppeld van de andere domeinen en kan persoonsgebonden informatie apart toegankelijk gemaakt worden. Ook relaties en het huishouden zijn generiek, omdat deze in de verschillende subdomeinen kan voorkomen. Hetzelfde geldt voor beperking. Cliënten kunnen een PGB hebben voor zowel het Jeugddomein als voor de Wmo.
 In de volgende figuren is uitwerking gegeven aan de entiteitsoorten.
 
 ![Gegevensmodel Generieke entiteit Client, huishouden en relaties][socclient]

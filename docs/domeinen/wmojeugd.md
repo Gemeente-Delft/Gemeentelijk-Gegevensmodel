@@ -1,6 +1,6 @@
 # Gegevensdefinities Wmo en Jeugd
 
-Aangezien de gegevensdefinities van Wmo en de jeugdwet sterk op elkaar lijken wordt uitgegaan van een generiek gegevensmodel waar zowel in het kader van de jeugdwet als in het kader van de Wmo vanuit wordt gegaan. Het gegevensmodel voor Wmo en Jeugd is net als de andere modellen binnen het sociaal domein opgebouwd rond het [gegevenstype ‘Client’](socdomeingeneriek.md).
+Aangezien de gegevensdefinities van Wmo en de jeugdwet sterk op elkaar lijken wordt uitgegaan van een generiek gegevensmodel waar zowel in het kader van de jeugdwet als in het kader van de Wmo vanuit wordt gegaan. Het gegevensmodel voor Wmo en Jeugd is net als de andere modellen binnen het sociaal domein opgebouwd rond het [objecttype ‘Client’](socdomeingeneriek.md).
 
 In de volgende figuur is dit generieke gegevensmodel uitgewerkt. Er wordt onderscheid gemaakt in de van toepassing zijnde wet via het attribuut wet, deze is in de volgende entiteiten opgenomen: Beschikking, Voorziening, Toewijzing, Voorzieningssoort, Voorzieningscategorie, Prijs, Leveringsvorm, Beperking, Beperkingsscore, Beperkingssoort en Beperkingsscoresoort.
 

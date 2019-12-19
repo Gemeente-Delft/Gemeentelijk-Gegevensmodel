@@ -143,15 +143,15 @@ Het uitbreiden verloopt in een aantal stappen:
 
 ![Modelleren Stap 2d][modellerenStap3b1]
 
-3\. Selecteer het gegevenstype waarvoor je zojuist een objecttype hebt aangemaakt en toets Ctrl-L om een 'Classifier' voor dit gegevenssoort aan te maken. Ga naar de zojuist aangemaakte map en selecteer het objecttype dat je zojuist hebt aangemaakt, en druk op 'OK'.
+3\. Selecteer het objecttype waarvoor je zojuist een objecttype hebt aangemaakt en toets Ctrl-L om een 'Classifier' voor dit gegevenssoort aan te maken. Ga naar de zojuist aangemaakte map en selecteer het objecttype dat je zojuist hebt aangemaakt, en druk op 'OK'.
 
 ![Modelleren Stap 2d][modellerenStap3c]
 
-4a\. Nu kun je met het verdere modelleerproces doorgaan. Herhaal hiervoor voor alle de gegevenstypes die je wilt uitwerken. selecteer het gegevenstype en toets Ctrl-L om een 'Classifier' voor het gegevenssoort aan te maken. Ga naar de zojuist aangemaakte map en: selecteer het objecttype dat je wilt gebruiken of toets 'Add New' en type de naam van het nieuwe objecttype, en druk op 'OK'.
+4a\. Nu kun je met het verdere modelleerproces doorgaan. Herhaal hiervoor voor alle de objecttypes die je wilt uitwerken. selecteer het objecttype en toets Ctrl-L om een 'Classifier' voor het gegevenssoort aan te maken. Ga naar de zojuist aangemaakte map en: selecteer het objecttype dat je wilt gebruiken of toets 'Add New' en type de naam van het nieuwe objecttype, en druk op 'OK'.
 
 ![Modelleren Stap 2d][modellerenStap3d]
 
-4b\. Je kunt de gegevenstypes ook een classifier aanmaken naar een reeds bestaand objecttype. In het voorbeeld voor 'Pand'. Toets weer Ctrl-L en navigeer in het Gemeentelijk Gegevensmodel naar het beoogde objecttype. In het voorbeeld naar 'PAND' in het RSGBPlus.
+4b\. Je kunt de objecttypes ook een classifier aanmaken naar een reeds bestaand objecttype. In het voorbeeld voor 'Pand'. Toets weer Ctrl-L en navigeer in het Gemeentelijk Gegevensmodel naar het beoogde objecttype. In het voorbeeld naar 'PAND' in het RSGBPlus.
 
 ![Modelleren Stap 2d][modellerenStap3e]
 
