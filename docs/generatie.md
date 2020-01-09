@@ -52,7 +52,7 @@ Kies vervolgens onder _Source Code Engineering/Code Editors_ de optie _Default D
 
 Voor het genereren naar DDL neem je de volgende stappen:
 
-1\. Selecteer het onderdee van het model dat je wilt uitgenereren. In het voorbeeld de map`Gemeentelijk Gegevensmodel/Ruimte/Afval/Model`. je kunt ook in een diagram de gewenste objecttypen selecteren.
+1\. Selecteer het onderdeel van het model dat je wilt uitgenereren. In het voorbeeld de map`Gemeentelijk Gegevensmodel/Ruimte/Afval/Model`. je kunt ook in een diagram de gewenste objecttypen selecteren.
 
 ![Selecteer de map in het model][selecteerInModel]
 
@@ -60,7 +60,7 @@ Voor het genereren naar DDL neem je de volgende stappen:
 
 ![Kies Apply Transformation][applyTransformation]
 
-3\. Selecteer aan de rechterkant van het popup _Tables_ in het vlak _Transformations_. Zorg dat aan de linkerkant van de popup alle objecttypen geselecteerd zijn die uitgegenereerd moeten worden.
+3\. Selecteer aan de rechterkant van het popup _Tables_ in het vlak _Transformations_. Zorg dat aan de linkerkant van de pop-up alle objecttypen geselecteerd zijn die uitgegenereerd moeten worden.
 
 ![Kies Tables onder Transformation][kiesTables]
 
