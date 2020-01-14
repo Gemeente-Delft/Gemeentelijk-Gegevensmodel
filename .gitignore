@@ -4,4 +4,3 @@ site
 .DS_Store
 *workspace
 thumbs.db
-test-env
