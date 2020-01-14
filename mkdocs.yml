@@ -55,6 +55,7 @@ nav:
     - Over het GGM: about.md
     - Licentie: https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE
     - Documentatie aanpassen: documentatie.md
+    - Backup maken: backup.md
 theme:
     name: 'material'
     language: 'nl'
