@@ -38,7 +38,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.5.1">
     
     
       
@@ -62,7 +62,7 @@
     
       
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
@@ -952,6 +952,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#voorbeeld-d" class="md-nav__link">
+    Voorbeeld D
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1150,6 +1157,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#voorbeeld-d" class="md-nav__link">
+    Voorbeeld D
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1286,7 +1300,7 @@ Integer of Int: numeriek veld met alleen gehele getallen.</li>
 <p>Attributen worden op basis van hun Stereotype omgezet:</p>
 <ul>
 <li>Adresaanduiding: veld wordt vervangen door de volgende velden: Naam Gemeente, Straatnaam, Huisnummer, Huisletter, Huisnummertoevoeging, Postcode en BAGID.</li>
-<li>enum: er wordt een referentie naar de enumeratie opgenomen.</li>
+<li>enumeration: er wordt een referentie naar de enumeratie opgenomen. Zie hiervoor <a href="#Voorbeeld-D">Voorbeeld D</a></li>
 </ul>
 <h3 id="relaties">Relaties</h3>
 <p>De vertalen van relaties in het logisch model is niet altijd recht-toe-rechtaan. Met name voor de naamgeving van de <a href="https://en.wikipedia.org/wiki/Foreign_key">foreignkeys</a> en de <a href="https://www.w3schools.com/sql/sql_foreignkey.asp">foreignkey-constraints</a>. Hierom is dit hier in 3 voorbeelden beschreven.</p>
@@ -1332,7 +1346,7 @@ Integer of Int: numeriek veld met alleen gehele getallen.</li>
 </ol>
 <p><img alt="Voorbeeld B na uitgeneren naar tabellen" src="../image/EAID_0435B59E_F272_4227_BE64_F7A8FC9A30EE.gif" title="Voorbeeld B na uitgeneren tabellen" /></p>
 <h4 id="voorbeeld-c">Voorbeeld C</h4>
-<p>Als laatste een voorbeeld met wat voorbeelden die speciale aandacht nodig hebben, omdat het transformatieproces anders fouten oplevert:</p>
+<p>Voorbeelden die speciale aandacht nodig hebben, omdat het transformatieproces anders fouten oplevert:</p>
 <ol>
 <li><a href="https://www.365dagensuccesvol.nl/nl/nieuws/zeg-hoe-goed-is-de-relatie-met-jezelf-eigenlijk/143/">Relaties met jezelf</a> ;) (Varkensoortje)</li>
 <li>Meervoudige relaties tussen objecttypes.</li>
@@ -1342,9 +1356,27 @@ Integer of Int: numeriek veld met alleen gehele getallen.</li>
 <p><img alt="Voer een alias in in de Source van het varkensoortje" src="../image/Varkensoortje.png" /></p>
 <p>Als je het logisch model hebt getransformeerd naar tabellen zie je dat de Aliasnaam wordt gebruikt voor de foreignkeys en de foreignkey-constraints. Zo kun je zorgen dat er unieke namen worden gebruikt.</p>
 <p><img alt="Voorbeeld C na uitgeneren naar tabellen" src="../image/EAID_15C4CFF6_5DC6_456a_AE2B_0298FA9CDB6F.gif" title="Voorbeeld C na uitgeneren tabellen" /></p>
+<h4 id="voorbeeld-d">Voorbeeld D</h4>
+<p>Als laatste een voorbeeld met het gebruik van enumeraties:</p>
+<p><a href="https://nl.wikipedia.org/wiki/Enumeratie_(datatype)">Enumeraties</a> is een opsomming van mogelijke waarden van een bepaald attribuut. Hiermee kun je binnen het GGM de waarden van attributen binnen een bepaalde reeks laten vallen.
+Om deze in het transformatieproces goed te laten werken moet een een Alias opvoeren bij de Source van de betreffende relatie. In het voorbeeld getoond voor het varkensoortje. Deze kun je ook voor meervoudige relaties gebruiken. Hieronder is weergegeven hoe je een enumeratie definieert. </p>
+<p><img alt="Voorbeeld Enumeratie" src="../image/VoorbeeldD.png" title="Voorbeeld D Enumeraties gebruiken" /></p>
+<p>Te zien is dat deze enumeratie twee mogelijke waarden kent: Optie 1 en Optie 2, en dat het attribuut B verwijst naar deze enumeratie.</p>
+<p><img alt="Enumeratie koppelen" src="../image/VoorbeeldD_Stereotype.png" title="Voorbeeld D stereotype gebruiken" /></p>
+<p>Hierboven is te zien hoe je een attribuut koppelt aan een enumeratie. Belangrijk is het stereotype de waarde "enumeration" te geven.</p>
+<p><img alt="Waardenlijsten van enumeraties maken" src="../image/VoorbeeldD_EnumAttributen.png" title="Voorbeeld D Attributen van Enumeraties" /></p>
+<p>In bovenstaande figuur is te zien hoe je imn Enterprise Architect de waardelijsten van een enumeratie definieert. In het voorbeeld bestaat de waardelijst uit twee waarden: Optie 1 en Optie 2. Deze zijn als attributen van de Class 'Enumeration A' gedefinieerd. Je vult deze als volgt in:</p>
+<ol>
+<li>Naam: in Name-veld van attribuut (Altijd waarde invullen om fouten te voorkomen)</li>
+<li>Index: in Alias-veld van attribuut (Altijd unieke integerwaarde invullen om fouten te voorkomen)</li>
+<li>Omschrijving: in Notes-veld van attribuut  </li>
+<li>Geen bij Stereotype altijd waarde 'enum' op</li>
+</ol>
+<p>Als je het logisch model hebt getransformeerd naar tabellen zie je dat er van de Class een tabel ie gemaakt, en ook van de enumeratie. Beiden zijn gekoppeld via een foreignkey constraint.</p>
+<p><img alt="Enumeraties uitgenereren" src="../image/VoorbeeldD_Tables.png" title="Voorbeeld D genereren van tabellen" /></p>
+<p>In het uitgegenereerde model is te zien dat in de enumeratie de waardelijsten nog als attributen zijn opgenomen. Pas bij het genereren naar fysieke databaseschema's worden de waardelijsten omgezet naar waardelijsten in de tabel.</p>
                 
                   
-                
                 
               
               
@@ -1412,7 +1444,7 @@ Integer of Int: numeriek veld met alleen gehele getallen.</li>
       
     </div>
     
-      <script src="../assets/javascripts/application.808e90bb.js"></script>
+      <script src="../assets/javascripts/application.8e03edeb.js"></script>
       
         
         
