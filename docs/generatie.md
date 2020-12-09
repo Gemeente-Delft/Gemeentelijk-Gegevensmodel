@@ -204,7 +204,7 @@ Voorbeelden die speciale aandacht nodig hebben, omdat het transformatieproces an
 
 ![Voorbeeld C voor uitgeneren naar tabellen][voorbeeldC]
 
-Om deze in het transformatieproces goed te laten werken moet een een Alias opvoeren bij de Source van de betreffende relatie. In het voorbeeld getoond voor het varkensoortje. Deze kun je ook voor meervoudige relaties gebruiken.
+Om deze in het transformatieproces goed te laten werken moet een een Alias opvoeren bij de Source van de betreffende relatie. In het voorbeeld getoond voor het varkensoortje. Deze kun je ook voor meervoudige relaties gebruiken. Vanwege de interne werking van Enterprise Architect is het belangrijk dat de cardinaliteit 0..1 of 1 aan de source-kant van de relatie zit, anders wordt de relatie niet goed uitgegenereerd.
 
 ![Voer een alias in in de Source van het varkensoortje][varkensoortje]
 
