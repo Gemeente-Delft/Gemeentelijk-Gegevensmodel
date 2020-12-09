@@ -1352,7 +1352,7 @@ Integer of Int: numeriek veld met alleen gehele getallen.</li>
 <li>Meervoudige relaties tussen objecttypes.</li>
 </ol>
 <p><img alt="Voorbeeld C voor uitgeneren naar tabellen" src="../image/EAID_135DA4FB_69A6_4191_84A3_3B9F16641289.gif" title="Voorbeeld C voor Uitgeneren naar tabellen" /></p>
-<p>Om deze in het transformatieproces goed te laten werken moet een een Alias opvoeren bij de Source van de betreffende relatie. In het voorbeeld getoond voor het varkensoortje. Deze kun je ook voor meervoudige relaties gebruiken.</p>
+<p>Om deze in het transformatieproces goed te laten werken moet een een Alias opvoeren bij de Source van de betreffende relatie. In het voorbeeld getoond voor het varkensoortje. Deze kun je ook voor meervoudige relaties gebruiken. Vanwege de interne werking van Enterprise Architect is het belangrijk dat de cardinaliteit 0..1 of 1 aan de source-kant van de relatie zit, anders wordt de relatie niet goed uitgegenereerd.</p>
 <p><img alt="Voer een alias in in de Source van het varkensoortje" src="../image/Varkensoortje.png" /></p>
 <p>Als je het logisch model hebt getransformeerd naar tabellen zie je dat de Aliasnaam wordt gebruikt voor de foreignkeys en de foreignkey-constraints. Zo kun je zorgen dat er unieke namen worden gebruikt.</p>
 <p><img alt="Voorbeeld C na uitgeneren naar tabellen" src="../image/EAID_15C4CFF6_5DC6_456a_AE2B_0298FA9CDB6F.gif" title="Voorbeeld C na uitgeneren tabellen" /></p>
