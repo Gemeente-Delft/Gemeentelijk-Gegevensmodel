@@ -6,6 +6,12 @@ Het GGM omvat alle beleidsterreinen die onder de verantwoordelijkeheid van de ge
 
 Bij het GGM is een set _codegeneratietemplates_ ontwikkeld voor het genereren van fysieke datamodellen op basis van (onderdelen van) het GGM. Hiermee genereer je DDL voor Oracle en in ongeteste vorm voor MySQL. Het gaat hier om templates voor het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html) van Enterprise Architect. Hiermee kan ook werkende DDL worden gegenereerd voor andere databases.
 
+## Winnaar Gemeentedelers 2022
+
+Gemeente Delft is winnaars van de [GemeenteDelers](https://www.gemeentedelers.nl) competitie van VNG Realisatie. Delft deed mee in de categorie Informatietechnologie met het Gemeentelijk Gegevensmodel (GGM). Met het GGM bouwen we aan een gezamenlijk datafundament dat informatie gestuurd werken ondersteund. En het goede nieuws: ook andere gemeenten kunnen gebruik maken van dit open source model.
+
+<a href="https://youtu.be/LMmv2rwSd6I" target="_blank"> <img src="https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/Gemeentedelers.jpg" width="600"></a>
+
 ## Handleiding
 
 **Voor gedetailleerde toelichting kijk in de [Handleiding](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/).**
