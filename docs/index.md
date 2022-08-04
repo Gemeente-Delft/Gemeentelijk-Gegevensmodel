@@ -7,7 +7,9 @@ Het GGM omvat alle beleidsterreinen die onder de verantwoordelijkheid van de gem
 Bij het GGM is een set _codegeneratietemplates_ ontwikkeld voor het genereren van fysieke datamodellen op basis van (onderdelen van) het GGM. Hiermee genereer je DDL voor diverse RDBMS'en. Wij gebruikten Oracle en in ongeteste vorm zijn de templates beschikbaar voor MySQL, en maakten hier diverse aanvullingen voor. Het gaat hier om templates voor het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html) van Enterprise Architect.
 
 <p align="center">
-  <img width="460" src="image/WinnaarGemeenteDelers2022.png" alt="Winnaar Gemeentedelers 2022">
+  <a href="https://www.gemeentedelers.nl/"> 
+      <img width="460" src="image/WinnaarGemeenteDelers2022.png" alt="Winnaar Gemeentedelers 2022">
+  </a>
 </p>
 
 ## Downloaden
