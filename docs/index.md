@@ -26,6 +26,7 @@ We bieden het GGM in twee vormen aan:
 
 1. Als [EAP-bestand](https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/Gemeentelijk_Gegevensmodel.eap), te gebruiken voor de gratis [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/). En natuurlijk de overige versies van Enterprise Architect. Download hiervoor het bestand _Gemeentelijk_Gegevensmodel.xml_ en open het in (de viewer van) Enterprise Architect.
 2. Als [XMI-bestand](https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/Gemeentelijk_Gegevensmodel.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk [hier](installatie.md).
+3. Als [bestand voor de UML-module van Bizzdesign](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/GGM%20Delft%20BiZZdesign%20UML.xma), naast het bestand zonder meta-export is er ook een [bestand met meta-export](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/GGM%20Delft%20BiZZdesign%20UML.xmam). Deze bestanden zijn van de GGM-versie van februari 2022. 
 
 ### Installatie Codegeneratietemplates
 
@@ -44,6 +45,7 @@ Het is Getest en gebruikt in de volgende omgevingen:
 * [Enterprise Architect versie 14](https://sparxsystems.com/products/ea/14/index.html)
 * [Enterprise Architect versie 15](https://sparxsystems.com/products/ea/15/index.html)
 * [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/)
+* [Bizzdesign EnterpriseStudio](https://bizzdesign.com)
 
 ## Opbouw Gemeentelijk Gegevensmodel
 
