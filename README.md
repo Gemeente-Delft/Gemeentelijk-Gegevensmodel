@@ -18,7 +18,7 @@ Gemeente Delft is winnaars van de [GemeenteDelers](https://www.gemeentedelers.nl
 
 ## Installatie en gebruik
 
-Het Gemeentelijk Gegevensmodel is beschikbaar in [XMI-vorm](https://www.omg.org/spec/XMI/About-XMI/), en is ontwikkeld in, en toegepast met [Enterprise Architect](https://sparxsystems.com).
+Het Gemeentelijk Gegevensmodel is beschikbaar in [XMI-vorm](https://www.omg.org/spec/XMI/About-XMI/), en is ontwikkeld in, en toegepast met [Enterprise Architect](https://sparxsystems.com). Een aantal gemeenten gebruikt het GGM inmiddels ook met [Bizzdesign EnterpriseStudio](https://bizzdesign.com).
 
 ### Installatie Gemeentelijk Gegevensmodel
 
@@ -26,6 +26,7 @@ We bieden het GGM in twee vormen aan:
 
 1. Als [EAP-bestand](gemeentelijk%20gegevensmodel.eap), te gebruiken voor de gratis [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/). En natuurlijk de overige versies van Enterprise Architect. Download hiervoor het bestand _gemeentelijk%20gegevensmodel.xml_ en open het in (de viewer van) Enterprise Architect.
 2. Als [XMI-bestand](gemeentelijk%20gegevensmodel.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk in de [handleiding](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/installatie/).
+3. Als bestand voor de UML-module van Bizzdesign, eenmaal met metamodel en eenmaal zonder meta-export. Het gaat hier om de versie van februari 2022. 
 
 ### Installatie Codegeneratietemplates
 
@@ -45,6 +46,7 @@ Het is Getest en gebruikt in de volgende omgevingen:
 * [Enterprise Architect versie 14](https://sparxsystems.com/products/ea/14/index.html)
 * [Enterprise Architect versie 15](https://sparxsystems.com/products/ea/15/index.html)
 * [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/)
+* [Bizzdesign EnterpriseStudio](https://bizzdesign.com)
 
 ## Opbouw Gemeentelijk Gegevensmodel
 
