@@ -20,6 +20,8 @@ De bestanden waar deze documentatie bij hoort zijn te vinden in de GitHub-reposi
 
 Het Gemeentelijk Gegevensmodel is beschikbaar in [XMI-vorm](https://www.omg.org/spec/XMI/About-XMI/), en is ontwikkeld in, en toegepast met [Enterprise Architect](https://sparxsystems.com).
 
+Let op: gebruik je Enterprise Acrhitect versie 16? In dit geval moet je het bestand 'gemeentelijk gegevensmodel EA16.qea' gebruiken. Gebruik je versie 15, laad dan het bestand 'gemeentelijk gegevensmodel.eapx'.
+
 ### Installatie Gemeentelijk Gegevensmodel
 
 We bieden het GGM in twee vormen aan:
@@ -44,6 +46,7 @@ Het is Getest en gebruikt in de volgende omgevingen:
 
 * [Enterprise Architect versie 14](https://sparxsystems.com/products/ea/14/index.html)
 * [Enterprise Architect versie 15](https://sparxsystems.com/products/ea/15/index.html)
+* [Enterprise Architect versie 16](https://sparxsystems.com/products/ea/trial/request.html)
 * [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/)
 * [Bizzdesign EnterpriseStudio](https://bizzdesign.com)
 
