@@ -12,6 +12,10 @@ Gemeente Delft is winnaars van de [GemeenteDelers](https://www.gemeentedelers.nl
 
 <a href="https://youtu.be/LMmv2rwSd6I" target="_blank"> <img src="https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/Gemeentedelers.jpg" width="600"></a>
 
+## Beheer en doorontwikkeling
+
+Beheer en doorontwikkeling van het GGM verloopt in samenwerking met diverse gemeenten in combinatie met andere overheden. Hiervoor is een gebruikersgroep ingericht die je kunt vinden op de volgende [Pleio-pagina](https://kennisnetwerkdata.pleio.nl/groups/view/1e7df5c5-e537-46cd-9d09-de2ef29beef8/gemeentelijk-gegevensmodel-ggm). Ook is er een expertgroep waar met meerdere deelnemende gemeenten en VNG werk verdelen en zo gezamenlijk het GGM steeds beter maken.  
+
 ## Handleiding
 
 **Voor gedetailleerde toelichting kijk in de [Handleiding](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/).**
