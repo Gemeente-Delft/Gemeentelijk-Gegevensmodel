@@ -2,5 +2,4 @@
 site
 *.ldb
 .DS_Store
-*workspace
 thumbs.db
