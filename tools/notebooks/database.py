@@ -85,7 +85,7 @@ FROM t_object o
 Where o.Object_Type IN (\'Package\', \'Class\', \'Enumeration\', \'DataType\')"""
 
 sql_attributes = """select 
-a.object_id as attribute_object_id,
+a.object_id as object_id,
 a.Name as attribute_name,
 a.Type as attribute_type,
 a.Style as attribute_style,

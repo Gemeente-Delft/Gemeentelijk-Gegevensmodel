@@ -42,7 +42,6 @@ def exportColumns(df, col_list:list, col_mapping:dict=None):
         df_export[col] = ''
         
     return df_export
-        
     
 def combineerColumns(df, to_col, col_list:list):
     '''
