@@ -8,9 +8,13 @@ Bij het GGM is een set _codegeneratietemplates_ ontwikkeld voor het genereren va
 
 ## Winnaar Gemeentedelers 2022
 
-Gemeente Delft is winnaars van de [GemeenteDelers](https://www.gemeentedelers.nl) competitie van VNG Realisatie. Delft deed mee in de categorie Informatietechnologie met het Gemeentelijk Gegevensmodel (GGM). Met het GGM bouwen we aan een gezamenlijk datafundament dat informatie gestuurd werken ondersteund. En het goede nieuws: ook andere gemeenten kunnen gebruik maken van dit open source model.
+Gemeente Delft is winnaar van de [GemeenteDelers](https://www.gemeentedelers.nl) competitie van VNG Realisatie. Delft deed mee in de categorie Informatietechnologie met het Gemeentelijk Gegevensmodel (GGM). Met het GGM bouwen we aan een gezamenlijk datafundament dat informatie gestuurd werken ondersteund. En het goede nieuws: ook andere gemeenten kunnen gebruik maken van dit open source model.
 
 <a href="https://youtu.be/LMmv2rwSd6I" target="_blank"> <img src="https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/Gemeentedelers.jpg" width="600"></a>
+
+## Beheer en doorontwikkeling
+
+Beheer en doorontwikkeling van het GGM verloopt in samenwerking met diverse gemeenten in combinatie met andere overheden. Hiervoor is een gebruikersgroep ingericht die je kunt vinden op de volgende [Pleio-pagina](https://kennisnetwerkdata.pleio.nl/groups/view/1e7df5c5-e537-46cd-9d09-de2ef29beef8/gemeentelijk-gegevensmodel-ggm). Deze Pleio-pagina is het kanaal voor alle vragen, blogs en discussies over het GGM. Heb je een vraag of een toevoeging meld die dan via onze Pleio-pagina. Af en toe zijn er mini-conferenties over onderdelen van het GGM, de agenda hiervoor vind je ook op PLeio. Voor het steeds beter maken van het GGM is er een expertgroep met daarin meerdere gemeenten en de VNG (Vereniging Nederlandse Gemeenten), die werk verdelen en zo gezamenlijk het GGM steeds beter maken.  
 
 ## Handleiding
 
