@@ -5,8 +5,8 @@
 Dit is de gemakkelijkste manier om te starten met het Gemeentelijk Gegevensmodel. Het werkt ook met de [viewer van Enterprise Architect](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/).
 
 1. Installeer Enterprise Architect of de viewer van Enterprise Architect. 
-2. Download het bestand 'Gemeentelijk_Gegevensmodel.eap'.
-3. Open 'Gemeentelijk_Gegevensmodel.eap' met de Enterprise Architect.
+2. Download het bestand 'Gemeentelijk_Gegevensmodel.qua'.
+3. Open 'Gemeentelijk_Gegevensmodel.qua' met de Enterprise Architect.
 
 ## XMI-bestand importeren in project
 
@@ -23,7 +23,7 @@ Hieronder de te nemen stappen om het in een nieuw of bestaand project binnen Ent
 
 ![Import XMI][importXMI]
 
-5\. Selecteer bij ”Filename” het gedownloade bestand “Gemeentelijk Gegevensmodel.xml”
+5\. Selecteer bij ”Filename” het gedownloade bestand “Gemeentelijk Gegevensmodel XML2.1.2.xml”
 
 ![Select Filename][selectFilename]
 

@@ -24,11 +24,14 @@ Let op: gebruik je Enterprise Acrhitect versie 16? In dit geval moet je het best
 
 ### Installatie Gemeentelijk Gegevensmodel
 
-We bieden het GGM in twee vormen aan:
+Hieronder vind je de installatiebeschrijving bij de verschillende ondersteunde tools:
 
-1. Als [EAP-bestand](https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/Gemeentelijk_Gegevensmodel.eap), te gebruiken voor de gratis [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/). En natuurlijk de overige versies van Enterprise Architect. Download hiervoor het bestand _Gemeentelijk_Gegevensmodel.xml_ en open het in (de viewer van) Enterprise Architect.
-2. Als [XMI-bestand](https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/Gemeentelijk_Gegevensmodel.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk [hier](installatie.md).
-3. Als [bestand voor de UML-module van Bizzdesign](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/GGM%20Delft%20BiZZdesign%20UML.xma), naast het bestand zonder meta-export is er ook een [bestand met meta-export](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/GGM%20Delft%20BiZZdesign%20UML.xmam). Deze bestanden zijn van de GGM-versie van februari 2022. 
+1. [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/) of [Enterprise Architect versie 16](https://sparxsystems.com/products/ea/16.1/index.html): download hiervoor het bestand [QEA-bestand](gemeentelijk%20gegevensmodel%20EA16.qea) en open het in (de viewer van) Enterprise Architect.
+2. [Enterprise Architect versie 15](https://sparxsystems.com/products/ea/15.2/index.html): download hiervoor het bestand [EAP-bestand](gemeentelijk%20gegevensmodel.eapx) en open het in (de viewer van) Enterprise Architect.
+3. Als [XMI-bestand in Enterprise Architect 15 en 16](gemeentelijk%20gegevensmodel.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk in de [handleiding](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/installatie/).
+4. [Bizzdesign](https://bizzdesign.com): voor installatie-instructies kijk in de [handleiding laden in Bizzdesign](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/installatie-bizzdesign/) 
+5. [Blue Dolphin](https://www.valueblue.com/bluedolphin): hiervoor gebruik je het [AMEFF-bestand](gemeentelijk%20gegevensmodel%20GEMMA%20AMEFF.xml) van het GGM voor de Architectuur module van BlueDolphin. Als BlueDolphin gebruiker met Beheerderrol kun je AMEFF-bestanden uploaden. Zie hiervoor de [handleiding: AMEFF bestanden importeren](https://support.valueblue.nl/hc/nl/articles/360013407860-AMEFF-bestanden-importeren-naar-BlueDolphin). Bij vragen contacteer jouw ValueBlue account- of customersuccess-manager.
+ 
 
 ### Installatie Codegeneratietemplates
 
@@ -49,6 +52,7 @@ Het is Getest en gebruikt in de volgende omgevingen:
 * [Enterprise Architect versie 16](https://sparxsystems.com/products/ea/trial/request.html)
 * [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/)
 * [Bizzdesign EnterpriseStudio](https://bizzdesign.com)
+* [Blue Dolphin](https://www.valueblue.com/bluedolphin)
 
 ## Opbouw Gemeentelijk Gegevensmodel
 
