@@ -38,9 +38,6 @@ Hieronder vind je de installatiebeschrijving bij de verschillende ondersteunde t
 4. [Bizzdesign](https://bizzdesign.com): voor installatie-instructies kijk in de [handleiding laden in Bizzdesign](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/installatie-bizzdesign/) 
 5. [Blue Dolphin](https://www.valueblue.com/bluedolphin): hiervoor gebruik je het [AMEFF-bestand](gemeentelijk%20gegevensmodel%20GEMMA%20AMEFF.xml) van het GGM voor de Architectuur module van BlueDolphin. Als BlueDolphin gebruiker met Beheerderrol kun je AMEFF-bestanden uploaden. Zie hiervoor de [handleiding: AMEFF bestanden importeren](https://support.valueblue.nl/hc/nl/articles/360013407860-AMEFF-bestanden-importeren-naar-BlueDolphin). Bij vragen contacteer jouw ValueBlue account- of customersuccess-manager.
 
-
-voor installatie-instructies kijk in de [handleiding laden in Blue Dolphin](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/installatie-bluedolphin/) 
-
 ### Installatie Codegeneratietemplates
 
 De installatie van de codegeneratietemplates staat [hier](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/generatie#installeren-codegeneratietemplates) beschreven. Voor verdere uitleg rond het gebruik van de codegeneratietemplates kijk [hier](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/generatie).
