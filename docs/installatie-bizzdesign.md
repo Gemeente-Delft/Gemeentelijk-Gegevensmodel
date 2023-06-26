@@ -7,7 +7,7 @@ Het Gemeentelijk Gegevensmodel (GGM) kan als [XMI-vorm](https://www.omg.org/spec
 Hieronder de te nemen stappen om het in een nieuw 
 project binnen Bizzdesign te importeren.
 
-1\. Download het bestand [Gemeentelijk Gegevensmodel XMI2.1.2](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/Gemeentelijk%20Gegevensmodel%20XMI2.1.2.xml)
+1\. Download het bestand [Gemeentelijk Gegevensmodel XMI2.1.2](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/Gemeentelijk%20Gegevensmodel%20XMI2.1.2.xml)
 
 2\. Start Bizzdesign
 
@@ -15,7 +15,7 @@ project binnen Bizzdesign te importeren.
 
 ![Open een nieuw modelpackage][Bizzdesign_stap1]
 
-4\. Selecteer het UML-model, en open de query-editor met ctrl-Q. Kopieer de inhoud van het scriptbestand [UML XMI import Bizzdesign.txt](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/UML%20XMI%20import%20Bizzdesign.txt) in de query-editor. Sla eventueel het script op in het model.
+4\. Selecteer het UML-model, en open de query-editor met ctrl-Q. Kopieer de inhoud van het scriptbestand [UML XMI import Bizzdesign.txt](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/UML%20XMI%20import%20Bizzdesign.txt) in de query-editor. Sla eventueel het script op in het model.
 
 ![Selecteer het UML-model][Bizzdesign_stap2]
 
