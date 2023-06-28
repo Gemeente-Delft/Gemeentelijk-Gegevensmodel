@@ -3,5 +3,3 @@ site
 *.ldb
 .DS_Store
 thumbs.db
-/tools/input/**
-/tools/output/**
