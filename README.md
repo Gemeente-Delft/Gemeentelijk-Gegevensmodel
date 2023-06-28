@@ -163,6 +163,12 @@ De inventarisatie in de volgende stappen uitgevoerd (voor een gedetailleerde uit
 
 ![Aanpak GGM 1][aanpakGGM]
 
+## Tooling voor het manipuleren van het GGM
+
+Het tooling-package bevat [Jupyter Notebooks](https://jupyter.org) voor het manipuleren van de database van het GGM. Hiermee kunnen bijvoorbeeld uitwisselingen met derde partijen worden vormgegeven, wordt de migratie naar MIM bewerkstelligd of kan worden ingezet om JSON-LD of databaseschema's te genereren. 
+
+Voor meer informatie ga naar: [Informatiepagina Jupyter-tooling](tools/README.md)
+
 [importXMI]: docs/image/ImportPackage.png "Import XMI via tabblad Publish"
 [selectFilename]: docs/image/SelectFilename.png "Select Filename"
 [importPackage]: docs/image/ImportPackage.png "Import Package"
