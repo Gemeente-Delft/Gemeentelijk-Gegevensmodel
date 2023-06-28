@@ -6,7 +6,7 @@ De gebruikte tooling is gebaseerd op [Jupyter Notebooks](https://jupyter.org) en
 
 ## Aan de slag
 
-Zorg dat je [Docker](https://www.docker.com) en [Docker-compose](https://github.com/docker/compose) hebt geïnstalleerd. Dit project is voortgebouwd op [Docker Jupyter Minimal Notebook](https://github.com/jupyter/docker-stacks). Zorg ook dat je het Gemeentelijk Gegevensmodel hebt gedownload.
+Zorg dat je [Docker](https://www.docker.com) en [Docker-compose](https://github.com/docker/compose) hebt geïnstalleerd. Dit project is voortgebouwd op [Docker Jupyter Minimal Notebook](https://github.com/jupyter/docker-stacks). Om te kunnen werken met de Jupoyter notebooks moet je de hele repository van het Gemeentelijk Gegevensmodel hebben gedownload. De notebooks bevragen direct de [EA 16-versie](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/gemeentelijk%20gegevensmodel%20EA16.qea) van het Gemeentelijk Gegevensmodel. 
 
 ### Start de container
 
