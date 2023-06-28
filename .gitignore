@@ -2,5 +2,6 @@
 site
 *.ldb
 .DS_Store
-*workspace
 thumbs.db
+/tools/input/**
+/tools/output/**
