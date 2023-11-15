@@ -1,4 +1,10 @@
 from treelib import Node, Tree
+import re
+
+# Script voor het schoonmaken van de Strings van de packages
+def verwijder_getallen_en_blanks_vooraan(s):
+    s = str(s)
+    return re.sub(r'^[0-9\s]+', '', s)
 
 def addToTree(df, tree, item_ID, child_column, parent_column, tag_column, parent=None):
     '''
@@ -13,15 +19,8 @@ def addToTree(df, tree, item_ID, child_column, parent_column, tag_column, parent
     df_children = df[df[parent_column] == item_ID]
     for index, child in df_children.iterrows():
         addToTree(df, tree, child[child_column], child_column, parent_column, tag_column, item_ID)
-  
-def DataframeToTree(df, child_column, parent_column, rootID, tag_column=None):
-    '''
-    Extracts a tree structure from a dataframe
-    '''
-    tree = Tree()
-    tag_column = 'Name' if not tag_column else tag_column
-    addToTree(df, tree, rootID, child_column, parent_column, tag_column, parent=None)
-    return tree
+    s = 1
+
 
 
 def exportColumns(df, col_list:list, col_mapping:dict=None):
@@ -42,7 +41,17 @@ def exportColumns(df, col_list:list, col_mapping:dict=None):
         df_export[col] = ''
         
     return df_export
-    
+
+def DataframeToTree(df, child_column, parent_column, rootID, tag_column=None):
+    '''
+    Extracts a tree structure from a dataframe
+    '''
+    tree = Tree()
+    tag_column = 'Name' if not tag_column else tag_column
+    addToTree(df, tree, rootID, child_column, parent_column, verwijder_getallen_en_blanks_vooraan(tag_column), parent=None)
+    return tree
+
+
 def combineerColumns(df, to_col, col_list:list):
     '''
     Combineert de waarden uit een lijst kolommen en plaatst ze in een nieuwe kolom
