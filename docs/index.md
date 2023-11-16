@@ -68,48 +68,51 @@ Er is ontkoppeling tussen de verschillende (sub)domeinen nagestreefd, doordat in
 
 Het gegevensmodel omvat de volgende op de gebaseerde [IV3-taakvelden](https://www.rijksoverheid.nl/onderwerpen/financien-gemeenten-en-provincies/uitwisseling-financiele-gegevens-met-sisa-en-iv3/informatie-voor-derden-iv3):
 
-* [Burgerzaken](domeinen/burgerzaken/)
-* [Economie](domeinen/economie/)
-* [Griffie](domeinen/griffie/)
-* [Leerplicht en Leerlingenvervoer](domeinen/leerplicht/)
-* [Onderwijs](domeinen/onderwijs/)
-* Ruimte
-    * [Beheer Openbare Ruimte](domeinen/ruimteAlgemeen/)
-    * [Omgevingswet](domeinen/omgevingswet/)
-    * [Afval](domeinen/afval/)
+* Bestuur, politiek en ondersteuning 
+    * [Burgerzaken](domeinen/burgerzaken.md)
+    * [Griffie](domeinen/griffie.md)
+* Veiligheid en vergunningven
+    * [Brede Handhaving](domeinen/vth.md/#brede-handhaving)
+    * [Bouwen en wonen](domeinen/vth.md/#vergunningaanvragen)
+    * [Overige vergunningen](domeinen/vth.md/#vergunningaanvragen)
+* Verkeer, vervoer en waterstaat
+    * [Verkeer](domeinen/verkeer.md)
+    * [Parkeren](domeinen/parkeren.md)
+* [Economie](domeinen/economie.md)
+* Onderwijs
+    * [Leerplicht en Leerlingenvervoer](domeinen/leerplicht.md)
+    * [Onderwijs](domeinen/onderwijs.md)
 * Sport, Cultuur en Recreatie
-    * [Erfgoed, Archeologie](domeinen/archeologie/)
-    * [Erfgoed, Archief](domeinen/archief/)
-    * [Erfgoed, Monumenten](domeinen/monumenten/)
-    * [Museum](domeinen/museum/)
-    * [Sportbeleid](domeinen/sport/)
-* Vergunningverlening, Toezicht en handhaving
-    * [Brede Handhaving](domeinen/vth/#brede-handhaving)
-    * [Bouwen en wonen](domeinen/vth/#vergunningaanvragen)
-    * [Overige vergunningen](domeinen/vth/#vergunningaanvragen)
-* Volksgezondheid en milieu _(nog in ontwikkeling)_
-* Bestuur en ondersteuning
-    * [ICT](domeinen/ict/)
-    * [Gemeentelijk Vastgoed](domeinen/vastgoed/)
-    * [Financiën](domeinen/financien/)
-    * [HR](domeinen/hr/)
-    * [Inkoop](domeinen/inkoop/)
-    * [Subsidies](domeinen/subsidies/)
-    * Facilitair (_nog in ontwikkeling_)
-    * Communicatie (_nog in ontwikkeling_)
-    * Control (_nog in ontwikkeling_)
-* [Dienstverlening](domeinen/dienstverlening/)
+    * Erfgoed
+        * [Archeologie](domeinen/archeologie.md)
+        * [Archief](domeinen/archief.md)
+        * [Monumenten](domeinen/monumenten.md)
+    * [Museum](domeinen/museum.md)
+    * [Sport](domeinen/sport.md)
 * Sociaal domein
-      * [Wmo](domeinen/wmojeugd/)
-    * [Jeugd](domeinen/wmojeugd/)
-    * [Participatie](domeinen/participatie/)
-    * [Schuldhulpverlening](domeinen/schuldhulp/)
-    * [Sociale teams](domeinen/socteam/)
-    * [Gemeentebegraven](domeinen/gemeentebegraven/)
-    * [Dak- en thuislozen](domeinen/participatie/#dak-en-thuislozen)
-* Verkeer en vervoer
-    * [Verkeer](domeinen/verkeer/)
-    * [Parkeren](domeinen/parkeren/)
+    * [Wmo](domeinen/wmojeugd.md)
+    * [Jeugd](domeinen/wmojeugd.md)
+    * [Participatie](domeinen/participatie.md)
+    * [Schuldhulpverlening](domeinen/schuldhulp.md)
+    * [Sociale teams](domeinen/socteam.md)
+    * [Gemeentebegraven](domeinen/gemeentebegraven.md)
+    * [Dak- en thuislozen](domeinen/participatie.md/#dak-en-thuislozen)
+* Volksgezondheid en milieu
+    * [Afval](domeinen/afval.md)
+* Volkshuisvesting, leefomgeving en stedelijke vernieuwing 
+    * [Openbare ruimte](domeinen/ruimteAlgemeen.md)
+    * [Bouwen en wonen](domeinen/bouwenenwonen.md)
+    * [Omgevingswet](domeinen/omgevingswet.md)
+* Interne organisatie
+    * [ICT](domeinen/ict.md)
+    * [Gemeentelijk Vastgoed](domeinen/vastgoed.md)
+    * [Financiën](domeinen/financien.md)
+    * [HR](domeinen/hr.md)
+    * [Inkoop](domeinen/inkoop.md)
+    * [Subsidies](domeinen/subsidies.md)
+    * Facilitair (_nog in ontwikkeling_)
+    * Control (_nog in ontwikkeling_)
+* [Dienstverlening](domeinen/dienstverlening.md)
 
 
 Naast bovengenoemde beleidsterreinen kent het GGM het onderdeel 'Kern', waarin alle gedeelde objecttypen zijn te vinden. Kern is afgeleid van het [Informatiemodel Basis- en Kerngegevens (RSGB)](https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_(RSGB)) en [Informatiemodel Zaken (RGBZ)](https://www.gemmaonline.nl/index.php/Informatiemodel_Zaken_(RGBZ)) (beiden onderdeel [GEMMA: Gemeentelijke Modelarchitectuur](https://www.gemmaonline.nl/index.php/Gemeentelijke_Model_Architectuur_(GEMMA))), aangevuld met een aantal generieke objecttypen.  

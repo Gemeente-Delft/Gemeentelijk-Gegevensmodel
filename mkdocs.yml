@@ -11,41 +11,47 @@ nav:
  - Installatie: installatie.md
  - Inhoud:
     - 'Inleiding': domeinen/inleiding.md
-    - 'Bestuur en Ondersteuning':
-        - 'HR': domeinen/hr.md
-        - 'Gemeentelijk Vastgoed': domeinen/vastgoed.md
-        - 'Financiën': domeinen/financien.md
-        - 'Inkoop': domeinen/inkoop.md
-        - 'ICT': domeinen/ict.md
-        - 'Subsidies': domeinen/subsidies.md
-    - 'Burgerzaken': domeinen/burgerzaken.md
-    - 'Dienstverlening': domeinen/dienstverlening.md
-    - 'Economie en Bedrijvigheid': domeinen/economie.md
-    - 'Griffie': domeinen/griffie.md
-    - 'Leerplicht en leerlingenvervoer': domeinen/leerplicht.md
-    - 'Onderwijs': domeinen/onderwijs.md
-    - 'Ruimte':
-        - 'Ruimte Algemeen': domeinen/ruimteAlgemeen.md
-        - 'Afval': domeinen/afval.md
-        - 'Omgevingswet': domeinen/omgevingswet.md
+    - 'Bestuur, Politiek en Ondersteuning':
+        - 'Burgerzaken': domeinen/burgerzaken.md
+        - 'Griffie': domeinen/griffie.md
+    - 'Veiligheid en Vergunningen': domeinen/vth.md
+    - 'Verkeer, Vervoer en waterstaat':
+        - 'Parkeren': domeinen/parkeren.md
+        - 'Verkeer': domeinen/verkeer.md
+    - 'Economie': domeinen/economie.md
+    - 'Onderwijs': 
+        - 'Leerplicht en leerlingenvervoer': domeinen/leerplicht.md
+        - 'Onderwijs': domeinen/onderwijs.md
+    - 'Sport, Cultuur en Recreatie':
+        - 'Erfgoed':
+            - 'Archeologie': domeinen/archeologie.md
+            - 'Monumenten': domeinen/monumenten.md
+            - 'Archief': domeinen/archief.md
+            - 'Generieke objecttypen Erfgoed': domeinen/erfgoedgeneriek.md
+        - 'Museum': domeinen/museum.md
+        - 'Sport': domeinen/sport.md
     - 'Sociaal domein':
-        - 'Generieke definities Sociaal Domein': domeinen/socdomeingeneriek.md
+        - 'Gemeentebegraven': domeinen/gemeentebegraven.md
         - 'Wmo en Jeugd': domeinen/wmojeugd.md
-        - 'Participatie': domeinen/participatie.md
+        - 'Inburgering': domeinen/inburgering.md
         - 'Schuldhulverlening': domeinen/schuldhulp.md
         - 'Sociale Teams': domeinen/socteam.md
-        - 'Gemeentebegraven': domeinen/gemeentebegraven.md
-    - 'Sport, Cultuur en Recreatie':
-        - 'Erfgoed: Archeologie': domeinen/archeologie.md
-        - 'Erfgoed: Monumenten': domeinen/monumenten.md
-        - 'Erfgoed: Archief': domeinen/archief.md
-        - 'Erfgoed: Museum': domeinen/museum.md
-        - 'Erfgoed: Generieke objecttypen': domeinen/erfgoedgeneriek.md
-        - 'Sportbeleid': domeinen/sport.md
-    - 'Vergunningverlening Toezicht en Handhaving': domeinen/vth.md
-    - 'Verkeer en Vervoer':
-        - 'Verkeer': domeinen/verkeer.md
-        - 'Parkeren': domeinen/parkeren.md
+        - 'Participatie': domeinen/participatie.md
+        - 'Generieke definities Sociaal Domein': domeinen/socdomeingeneriek.md
+    - 'Volksgezondheid en milieu':
+        - 'Afval': domeinen/afval.md
+    - 'Volkshuisvesting, leefomgeving en stedelijke vernieuwing':
+        - 'Openbare ruimte': domeinen/ruimteAlgemeen.md
+        - 'Bouwen en wonen': domeinen/bouwenenwonen.md
+        - 'Omgevingswet': domeinen/omgevingswet.md
+    - 'Interne organisatie':
+        - 'ICT': domeinen/ict.md
+        - 'Subsidies': domeinen/subsidies.md
+        - 'Gemeentelijk Vastgoed': domeinen/vastgoed.md
+        - 'Financiën': domeinen/financien.md
+        - 'HR': domeinen/hr.md
+        - 'Inkoop': domeinen/inkoop.md
+    - 'Dienstverlening': domeinen/dienstverlening.md
  # - Gebruik: gebruik.md
  - Totstandkoming:
     - 'Uitleg Werkwijze': totstandkoming.md
@@ -65,5 +71,6 @@ theme:
         accent: 'blue'
     logo: 'img/logo.png'
     favicon: 'img/favicon.ico'
+    toc_depth: 2
 markdown_extensions:
   - admonition
