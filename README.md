@@ -103,7 +103,7 @@ Het gegevensmodel omvat de volgende op de gebaseerde [IV3-taakvelden](https://ww
   * [Schuldhulpverlening](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/schuldhulp/)
   * [Sociale teams](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/socteam/)
   * [Gemeentebegraven](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/gemeentebegraven/)
-  * [Dak- en thuislozen](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/participatie/   
+  * [Dak- en thuislozen](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/participatie/)   
 * Volksgezondheid en milieu
     * [Afval](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/afval/)
 * Volkshuisvesting, leefomgeving en stedelijke vernieuwing 
