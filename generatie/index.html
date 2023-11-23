@@ -1571,6 +1571,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#zelf-templates-aanpassen" class="md-nav__link">
+    Zelf templates aanpassen
+  </a>
+  
+    <nav class="md-nav" aria-label="Zelf templates aanpassen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eerste-generatiestap" class="md-nav__link">
+    Eerste generatiestap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tweede-generatiestap" class="md-nav__link">
+    Tweede generatiestap
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1848,6 +1875,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#zelf-templates-aanpassen" class="md-nav__link">
+    Zelf templates aanpassen
+  </a>
+  
+    <nav class="md-nav" aria-label="Zelf templates aanpassen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eerste-generatiestap" class="md-nav__link">
+    Eerste generatiestap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tweede-generatiestap" class="md-nav__link">
+    Tweede generatiestap
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2048,6 +2102,22 @@ Om deze in het transformatieproces goed te laten werken moet een een Alias opvoe
 <p>Als je het logisch model hebt getransformeerd naar tabellen zie je dat er van de Class een tabel ie gemaakt, en ook van de enumeratie. Beiden zijn gekoppeld via een foreignkey constraint.</p>
 <p><img alt="Enumeraties uitgenereren" src="../image/VoorbeeldD_Tables.png" title="Voorbeeld D genereren van tabellen" /></p>
 <p>In het uitgegenereerde model is te zien dat in de enumeratie de waardelijsten nog als attributen zijn opgenomen. Pas bij het genereren naar fysieke databaseschema's worden de waardelijsten omgezet naar waardelijsten in de tabel.</p>
+<h2 id="zelf-templates-aanpassen">Zelf templates aanpassen</h2>
+<p>Nadat je de templates in Enterprise Architect hebt geladen kun je ze binnen je eigen omgeving aanpassen om het gedrag aan te passen naar je eigen wensen. Het is belangrijk te zien dat de generatie naar DDL in twee stappen verloopt, en dat je dus op twee niveau aanpassingen kunt maken.</p>
+<ol>
+<li>Eerste generatiestap: Aanpassen templates die database-onafhankelijke tabellen genereren</li>
+<li>Tweede generatiestap: Aanpassen generatie van database-onafhankelijke tabbellen naar DDL</li>
+</ol>
+<h3 id="eerste-generatiestap">Eerste generatiestap</h3>
+<p>Ga hiervoor als eerste naar het onderdeel Transform templates. Zie hieronder.</p>
+<p><img alt="Templates aanpassen stap 1" src="../image/templatesaanpassen_stap1.png" title="Templates aanpassen stap 1" /></p>
+<p>Kies nadat je deze hebt geopend voor de 'language' Tables. Deze verzameing templates gebruiken we voor de omzetting naar tabellen. Alle voor generatie gebruikte template-onderdelen staan weergegeven. Op de volgende afdeling is de omzetting vanaf Class te zien. </p>
+<p><img alt="Templates aanpassen stap 2" src="../image/templatesaanpassen_stap2.png" title="Templates aanpassen stap 2" /></p>
+<p>Je bent nu klaar om je egen aanpassingen te doen. Zie voor meer toelichting de <a href="https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_fundamentals/transformationtemplates.html">toelichting</a> op de website van Sparx Enterprise Architect. </p>
+<h3 id="tweede-generatiestap">Tweede generatiestap</h3>
+<p>Om de templates aan te passen die de database-onafhankelijke tabellen omzetten naar DDL voor specifieke databases kies je op het tabblad Design voor de optie Templates. Als je deze hebt geopend kun je verschillende typen databases kiezen. In onderstaande afbeelding kiezen we voor Oracle en zie je de scripts waarmee de DDL wordt gegenereerd.</p>
+<p><img alt="Templates voor generatie naar DDL" src="../image/ddlgeneratieaanpassen.png" title="Templates DDL-generatie aanpassen" /></p>
+<p>Wij hebben de standaard werking van Enterprise Architect aangepast voor Oracle en MySql.   </p>
 
 
 
