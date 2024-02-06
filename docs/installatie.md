@@ -59,7 +59,7 @@ project binnen Bizzdesign te importeren.
 
 ![Selecteer het UML-model][Bizzdesign_stap2]
 
-5\. Voer het script uit via de Execute-knop van de query-editor, en kies het XMI-bestand 'Gemeentelijk Gegevensmodel XMI2.1.2' dat je net hebt gedownload. De inhoud wordt geïmporteerd in het geselecteerde UML-model. Zorg dat het uitvoertype op “Geen output” of “Tabel” staat en niet op “Tekstbestand”. Tijdens het uitvoeren van het script krijg je een waarschuwing, die kun je negeren.  
+5\. Voer het script uit via de Execute-knop van de query-editor, en kies het XMI-bestand 'Gemeentelijk Gegevensmodel XMI2.1.2' dat je net hebt gedownload. De inhoud wordt geïmporteerd in het geselecteerde UML-model. Zorg dat het uitvoertype op “Geen output” of “Tabel” staat en niet op “Tekstbestand”. Tijdens het uitvoeren van het script kun je waarschuwingen krijgen, die kun je negeren.  
 
 6\. Even wachten….
 
