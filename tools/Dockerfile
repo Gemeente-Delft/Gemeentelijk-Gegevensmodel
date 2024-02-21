@@ -6,5 +6,5 @@ USER jovyan
 
 RUN python -m pip install --upgrade pip
 RUN pip install --upgrade setuptools
-RUN pip install python-magic altair vincent geopandas folium sqlacodegen openpyxl simplejson, treelib
+RUN pip install python-magic altair vincent geopandas folium sqlacodegen openpyxl simplejson treelib
 # xeus-python

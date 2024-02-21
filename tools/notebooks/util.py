@@ -29,7 +29,7 @@ def exportColumns(df, col_list:list, col_mapping:dict=None):
     '''    
     df_export = df.copy()
     if col_mapping:
-        df_export.drop(columns=[col for col in col_mapping.values()], inplace=True, errors='ignore')
+        df_export.drop(columns=[col for col in col_mapping.values() if col not in df_export.columns and 'GEMMA' in col], inplace=True, errors='ignore')
         df_export = df_export.rename(columns=col_mapping)
 
     #filter benodigde kolommen en voeg niet bestaande toe
