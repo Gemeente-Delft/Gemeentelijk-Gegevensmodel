@@ -9,7 +9,7 @@ google_analytics:
 nav:
  - Home: index.md
  - Installatie: installatie.md
- - Inhoud:
+ - Beschrijving Domeinen:
     - 'Inleiding': domeinen/inleiding.md
     - 'Bestuur, Politiek en Ondersteuning':
         - 'Burgerzaken': domeinen/burgerzaken.md
@@ -52,6 +52,38 @@ nav:
         - 'HR': domeinen/hr.md
         - 'Inkoop': domeinen/inkoop.md
     - 'Dienstverlening': domeinen/dienstverlening.md
+ - Definitie Domeinen:
+    - 'Bestuur, Politiek en Ondersteuning':
+        - 'Griffie': definities/definitie_Model Griffie.md
+    - 'Veiligheid en Vergunningen': definities/definitie_Model VTH.md
+    - 'Verkeer, Vervoer en waterstaat':
+        - 'Parkeren': definities/definitie_Model Parkeren.md
+        - 'Verkeer': definities/definitie_Model Verkeer en Vervoer.md
+    - 'Onderwijs': 
+        - 'Leerplicht en leerlingenvervoer': definities/definitie_Model Leerplicht en Leerlingenvervoer.md
+        - 'Onderwijs': definities/definitie_Model Onderwijs.md
+    - 'Sport, Cultuur en Recreatie':
+        - 'Erfgoed':
+            - 'Monumenten': definities/definitie_Model Monumenten.md
+        - 'Museum': definities/definitie_Model Museum.md
+        - 'Sport': definities/definitie_Model Sport.md
+    - 'Sociaal domein':
+        - 'Inburgering': definities/definitie_Model Inburgering.md
+        - 'Schuldhulverlening': definities/definitie_Model Schuldhulpverlening.md
+        - 'Sociale Teams': definities/definitie_Model Sociale Teams.md
+        - 'Participatie': definities/definitie_Model Participatie.md
+    - 'Volkshuisvesting, leefomgeving en stedelijke vernieuwing':
+        - 'Wonen': definities/definitie_Model Wonen.md
+        - 'Omgevingswet': definities/definitie_Model Omgevingswet.md
+    - 'Interne organisatie':
+        - 'ICT': definities/definitie_Model ICT.md
+        - 'Subsidies': definities/definitie_Model Subsidies.md
+        - 'Gemeentelijk Vastgoed': definities/definitie_Model Vastgoed.md
+        - 'HR': definities/definitie_Model HR.md
+        - 'Inkoop': definities/definitie_Model Inkoop.md
+    - 'Kern':
+        - 'RSGB': definities/definitie_Model Kern RSGB.md
+        - 'RGBZ': definities/definitie_Model Kern RGBZ.md
  # - Gebruik: gebruik.md
  - Totstandkoming:
     - 'Uitleg Werkwijze': totstandkoming.md
