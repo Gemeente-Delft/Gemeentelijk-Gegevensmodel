@@ -64,6 +64,8 @@ nav:
         - 'Onderwijs': definities/definitie_Model Onderwijs.md
     - 'Sport, Cultuur en Recreatie':
         - 'Erfgoed':
+            - 'Archeologie': definities/definitie_Model Archeologie.md
+            - 'Archief': definities/definitie_Model Archief.md
             - 'Monumenten': definities/definitie_Model Monumenten.md
         - 'Museum': definities/definitie_Model Museum.md
         - 'Sport': definities/definitie_Model Sport.md
@@ -82,9 +84,11 @@ nav:
         - 'Gemeentelijk Vastgoed': definities/definitie_Model Vastgoed.md
         - 'HR': definities/definitie_Model HR.md
         - 'Inkoop': definities/definitie_Model Inkoop.md
+    - 'Dienstverlening': definities/definitie_Model Aanvragen en Meldingen.md
     - 'Kern':
         - 'RSGB': definities/definitie_Model Kern RSGB.md
         - 'RGBZ': definities/definitie_Model Kern RGBZ.md
+        - 'BAG': definities/definitie_Model Kern BAG.md
  # - Gebruik: gebruik.md
  - Totstandkoming:
     - 'Uitleg Werkwijze': totstandkoming.md
