@@ -256,11 +256,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/definities/definitie_Model/</loc>
-         <lastmod>2024-04-17</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/domeinen/afval/</loc>
          <lastmod>2024-04-17</lastmod>
          <changefreq>daily</changefreq>
