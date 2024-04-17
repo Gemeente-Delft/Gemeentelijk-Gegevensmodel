@@ -65,7 +65,7 @@ Het model 'Model Dienstverlening' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Aanvraagdata |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6f15e2ca-531d-4879-b087-f43559d8c3fd |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6f15e2ca-531d-4879-b087-f43559d8c3fd](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6f15e2ca-531d-4879-b087-f43559d8c3fd) |
 | gemma_definitie | Bron: GEN_REQ_DATA ID: REQ_DATA icm VELD_NAAM |
 | gemma_toelichting |  |
 
@@ -104,7 +104,7 @@ Attributen van objecttype Aanvraagdata
 | domein_dcat |  |
 | gemma_naam | AanvraagOfMelding |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f14fa1cf-f2c7-4bd6-862d-28ff1616a882 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f14fa1cf-f2c7-4bd6-862d-28ff1616a882](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f14fa1cf-f2c7-4bd6-862d-28ff1616a882) |
 | gemma_definitie | Komt overeen met een VJV  Bron: GEM_VJV (Distinct op REQ_ID) ID: REQ_ID |
 | gemma_toelichting |  |
 
@@ -158,7 +158,7 @@ Attributen van objecttype AanvraagOfMelding
 | domein_dcat |  |
 | gemma_naam | Afspraakstatus |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-93731fcf-2b7f-42f2-9f94-6f6f80ce0067 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-93731fcf-2b7f-42f2-9f94-6f6f80ce0067](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-93731fcf-2b7f-42f2-9f94-6f6f80ce0067) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -193,7 +193,7 @@ Attributen van objecttype Afspraakstatus
 | domein_dcat |  |
 | gemma_naam | Artikel |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1054f6c9-2c53-4bf9-ad9f-04851ce71a4a |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1054f6c9-2c53-4bf9-ad9f-04851ce71a4a](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1054f6c9-2c53-4bf9-ad9f-04851ce71a4a) |
 | gemma_definitie | Tekst die is gemaakt om gepubliceerd te worden als een onafhankelijk deel van een tijdschrift, krant, encyclopedie of ander werk |
 | gemma_toelichting |  |
 
@@ -227,7 +227,7 @@ Attributen van objecttype Artikel
 | domein_dcat |  |
 | gemma_naam | Balieafspraak |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8fd2ff34-a208-4924-bec3-b5ee7e5e7a18 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8fd2ff34-a208-4924-bec3-b5ee7e5e7a18](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8fd2ff34-a208-4924-bec3-b5ee7e5e7a18) |
 | gemma_definitie | Balieafspraken zijn afspraken voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden of gaat plaatsvinden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden. |
 | gemma_toelichting | Dit ongeacht of deze werkelijk heeft plaatsgevonden of gaat plaatsvinden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden. |
 
@@ -501,7 +501,7 @@ Attributen van objecttype MORAanvraagOfMelding
 | domein_dcat |  |
 | gemma_naam | Onderwerp |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bc793405-f822-4a23-a8dc-74206f1d45df |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bc793405-f822-4a23-a8dc-74206f1d45df](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bc793405-f822-4a23-a8dc-74206f1d45df) |
 | gemma_definitie | Bron: GEM_VJV_ONDERWERP ID: ONDERWERP_ID |
 | gemma_toelichting |  |
 
@@ -538,7 +538,7 @@ Attributen van objecttype Onderwerp
 | domein_dcat |  |
 | gemma_naam | ProductOfDienst |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-724f019e-158f-4404-8b57-3e1eae109fec |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-724f019e-158f-4404-8b57-3e1eae109fec](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-724f019e-158f-4404-8b57-3e1eae109fec) |
 | gemma_definitie | Bron: QP_CALENDAR.CFM_SERVICES |
 | gemma_toelichting |  |
 
@@ -576,7 +576,7 @@ Attributen van objecttype ProductOfDienst
 | domein_dcat |  |
 | gemma_naam | Telefoononderwerp |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c604ce01-282e-4d1a-ade9-d1a4c1938f4e |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c604ce01-282e-4d1a-ade9-d1a4c1938f4e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c604ce01-282e-4d1a-ade9-d1a4c1938f4e) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -657,7 +657,7 @@ Attributen van objecttype Telefoonstatus
 | domein_dcat |  |
 | gemma_naam | Telefoontje |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-32052c54-e099-47e7-8ded-599537226dfa |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-32052c54-e099-47e7-8ded-599537226dfa](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-32052c54-e099-47e7-8ded-599537226dfa) |
 | gemma_definitie | De telefoontjes zijn alle keren dat iemand naar de gemeente belt en het telefoonsysteem neemt deze telefoontjes aan. Ongeacht of iemand daarna ophangt, door het systeem uit de wachtrij wordt gezet, doorverbonden wordt met een derde partij of er werkelijk wordt opgenomen. |
 | gemma_toelichting |  |
 

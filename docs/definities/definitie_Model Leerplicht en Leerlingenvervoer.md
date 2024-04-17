@@ -63,7 +63,7 @@ Het model 'Model Leerplicht en Leerlingenvervoer' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Aanvraag Leerlingenvervoer |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-41c1c340-9952-4bd9-8f45-fec2c0a1ddd7 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-41c1c340-9952-4bd9-8f45-fec2c0a1ddd7](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-41c1c340-9952-4bd9-8f45-fec2c0a1ddd7) |
 | gemma_definitie | Een aanvraag voor een leerling die recht heeft op vervoer van en naar onderwijs. |
 | gemma_toelichting |  |
 
@@ -97,7 +97,7 @@ Attributen van objecttype Aanvraag Leerlingenvervoer
 | domein_dcat |  |
 | gemma_naam | AanvraagOfMelding |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-13ede1f8-bf63-4da6-abbd-cdc18b7ec39a |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-13ede1f8-bf63-4da6-abbd-cdc18b7ec39a](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-13ede1f8-bf63-4da6-abbd-cdc18b7ec39a) |
 | gemma_definitie | Komt overeen met een VJV |
 | gemma_toelichting | Via het Omgevingsloket kunnen initiatiefnemers een vergunningaanvraag of een melding indienen in het Digitaal Stelsel Omgevingswet (DSO). Duidelijke stappen en vragen leiden hen door dit proces. De overheid vertaalt hiervoor indieningsvereisten naar toepasbare regels voor het loket. |
 
@@ -174,7 +174,7 @@ Attributen van objecttype AanvraagVrijstelling
 | domein_dcat |  |
 | gemma_naam | Beschikking Leerlingenvervoer |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3f048a6b-523c-4e8e-a581-0fcc089f1ec6 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3f048a6b-523c-4e8e-a581-0fcc089f1ec6](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3f048a6b-523c-4e8e-a581-0fcc089f1ec6) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -208,7 +208,7 @@ Attributen van objecttype Beschikking Leerlingenvervoer
 | domein_dcat |  |
 | gemma_naam | Beslissing |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1855a91d-d82d-4544-a51b-7110776a9de1 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1855a91d-d82d-4544-a51b-7110776a9de1](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1855a91d-d82d-4544-a51b-7110776a9de1) |
 | gemma_definitie | Selectie van een voorstelbare werkelijkheid (voorkeursvariant) uit een aantal mogelijke werkelijkheden (varianten) op basis van een verzameling van criteria. |
 | gemma_toelichting |  |
 
@@ -248,7 +248,7 @@ Attributen van objecttype Beslissing
 | domein_dcat |  |
 | gemma_naam | Doorgeleiding OM |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-341c4296-ac61-426e-b1d8-668052c53ea9 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-341c4296-ac61-426e-b1d8-668052c53ea9](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-341c4296-ac61-426e-b1d8-668052c53ea9) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -284,7 +284,7 @@ Attributen van objecttype Doorgeleiding OM
 | domein_dcat |  |
 | gemma_naam | HALT-verwijzing |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1bd77fef-f3da-40cc-b94f-e325b0781719 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1bd77fef-f3da-40cc-b94f-e325b0781719](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1bd77fef-f3da-40cc-b94f-e325b0781719) |
 | gemma_definitie | Jongeren van 12 tot 18 jaar die strafbare feiten plegen, zoals bijvoorbeeld: winkeldiefstal, vernieling, openbaar dronkenschap of oplichting kunnen naar Halt worden verwezen. In sommige gevallen is daarvoor toestemming nodig van het Openbaar Ministerie. |
 | gemma_toelichting | Halt heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt. Halt legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogeheten Halt-straf. Halt heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt. Halt legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogeheten Halt-straf. Halt heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt. Halt legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogeheten Halt-straf. |
 
@@ -322,7 +322,7 @@ Attributen van objecttype HALT-verwijzing
 | domein_dcat |  |
 | gemma_naam | Klacht Leerlingenvervoer |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-df24e948-819b-4201-8dde-3c6865c09230 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-df24e948-819b-4201-8dde-3c6865c09230](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-df24e948-819b-4201-8dde-3c6865c09230) |
 | gemma_definitie | Een uiting van ontevredenheid over het vervoer van leerlingen. |
 | gemma_toelichting |  |
 
@@ -357,7 +357,7 @@ Attributen van objecttype Klacht Leerlingenvervoer
 | domein_dcat |  |
 | gemma_naam | Leerplichtambtenaar |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-eb5a2808-d438-4299-b803-4495b819396b |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-eb5a2808-d438-4299-b803-4495b819396b](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-eb5a2808-d438-4299-b803-4495b819396b) |
 | gemma_definitie | Ambtenaar die toezicht houdt op de uitvoering van de leerplichtwet. |
 | gemma_toelichting |  |
 
@@ -391,7 +391,7 @@ Attributen van objecttype Leerplichtambtenaar
 | domein_dcat |  |
 | gemma_naam | Procesverbaal Onderwijs |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-aa2cb2d9-8482-473c-a5bf-c042cb39352a |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-aa2cb2d9-8482-473c-a5bf-c042cb39352a](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-aa2cb2d9-8482-473c-a5bf-c042cb39352a) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -475,7 +475,7 @@ Attributen van objecttype Verlofaanvraag
 | domein_dcat |  |
 | gemma_naam | Vervoerder |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d3538832-c621-464d-adc3-3fdf7c6745af |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d3538832-c621-464d-adc3-3fdf7c6745af](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d3538832-c621-464d-adc3-3fdf7c6745af) |
 | gemma_definitie | Degene die openbaar vervoer of besloten busvervoer verricht, niet in de hoedanigheid van bestuurder van een auto, bus, trein, metro, tram of een via een geleidesysteem voortbewogen voertuig. |
 | gemma_toelichting |  |
 
@@ -509,7 +509,7 @@ Attributen van objecttype Vervoerder
 | domein_dcat |  |
 | gemma_naam | Verzuimmelding |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e623ef14-c4de-498b-9504-5bb6fa4ce0de |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e623ef14-c4de-498b-9504-5bb6fa4ce0de](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e623ef14-c4de-498b-9504-5bb6fa4ce0de) |
 | gemma_definitie | Een melding dat een leerling niet op school verschijnt. De school moet actie ondernemen naar de leerling (en zijn ouders). Een school moet het verzuim melden bij de gemeente. |
 | gemma_toelichting |  |
 
@@ -546,7 +546,7 @@ Attributen van objecttype Verzuimmelding
 | domein_dcat |  |
 | gemma_naam | Vrijstelling |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e09e0c4d-1c6f-474b-8abc-7fd36f6fd699 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e09e0c4d-1c6f-474b-8abc-7fd36f6fd699](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e09e0c4d-1c6f-474b-8abc-7fd36f6fd699) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -585,7 +585,7 @@ Attributen van objecttype Vrijstelling
 | domein_dcat |  |
 | gemma_naam | Ziekmelding Leerlingenvervoer |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7c4345ce-0561-47eb-ad3d-4b21f15687e3 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7c4345ce-0561-47eb-ad3d-4b21f15687e3](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7c4345ce-0561-47eb-ad3d-4b21f15687e3) |
 | gemma_definitie | Een melding van een zieke leerling die recht heeft op vervoer van en naar onderwijs. |
 | gemma_toelichting |  |
 

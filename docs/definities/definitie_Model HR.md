@@ -79,7 +79,7 @@ Het model 'Model HR' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Beoordeling |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2f8612e6-df55-40f2-a8d1-e51b22b5cf9d |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2f8612e6-df55-40f2-a8d1-e51b22b5cf9d](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2f8612e6-df55-40f2-a8d1-e51b22b5cf9d) |
 | gemma_definitie | Beoordeling is het oordeel van de professional over het functioneren van een leerling |
 | gemma_toelichting |  |
 
@@ -191,7 +191,7 @@ Attributen van objecttype Declaratiesoort
 | domein_dcat |  |
 | gemma_naam | Dienstverband |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a3e45dca-c075-4ba9-9df2-d286b47f73ab |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a3e45dca-c075-4ba9-9df2-d286b47f73ab](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a3e45dca-c075-4ba9-9df2-d286b47f73ab) |
 | gemma_definitie | De rechtsbetrekking tussen werkgever en werknemer zoals vastgelegd in een arbeidsovereenkomst. |
 | gemma_toelichting |  |
 
@@ -233,7 +233,7 @@ Attributen van objecttype Dienstverband
 | domein_dcat |  |
 | gemma_naam | Disciplinaire Maatregel |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fd61984f-002e-465f-90c7-6a68cc692094 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fd61984f-002e-465f-90c7-6a68cc692094](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fd61984f-002e-465f-90c7-6a68cc692094) |
 | gemma_definitie | Een besluit dat wordt opgelegd wanneer een persoon zijn verplichtingen niet of niet op de juiste wijze nakomt, of zich op andere wijze misdraagt. |
 | gemma_toelichting |  |
 
@@ -351,7 +351,7 @@ Attributen van objecttype Functie
 | domein_dcat |  |
 | gemma_naam | Functiehuis |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b7ad73b1-bea5-48e8-acaa-d6031c3078ce |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b7ad73b1-bea5-48e8-acaa-d6031c3078ce](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b7ad73b1-bea5-48e8-acaa-d6031c3078ce) |
 | gemma_definitie | Model waarin functies van een organisatie worden beschreven. |
 | gemma_toelichting |  |
 
@@ -426,7 +426,7 @@ Attributen van objecttype GenotenOpleiding
 | domein_dcat |  |
 | gemma_naam | Geweldsincident |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fddeb5c4-571e-45ec-8bde-86cc9702ff18 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fddeb5c4-571e-45ec-8bde-86cc9702ff18](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fddeb5c4-571e-45ec-8bde-86cc9702ff18) |
 | gemma_definitie | Een gebeurtenis met betrekking tot agressie en omvat het veroorzaken van verwondingen of schade bij mensen, dieren, of voorwerpen. |
 | gemma_toelichting |  |
 
@@ -463,7 +463,7 @@ Attributen van objecttype Geweldsincident
 | domein_dcat |  |
 | gemma_naam | Individueel Keuzebudget |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3272f8ca-9302-4da5-810b-7b8c4d02d79b |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3272f8ca-9302-4da5-810b-7b8c4d02d79b](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3272f8ca-9302-4da5-810b-7b8c4d02d79b) |
 | gemma_definitie | Bedrag dat feitelijk beschikbaar gesteld wordt voor een individu om een bepaalde keus te kunnen maken |
 | gemma_toelichting |  |
 
@@ -652,7 +652,7 @@ Attributen van objecttype NormProfiel
 | domein_dcat |  |
 | gemma_naam | Onderwijsinstituut |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-85452d63-8236-431f-9dde-cebfc88112b0 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-85452d63-8236-431f-9dde-cebfc88112b0](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-85452d63-8236-431f-9dde-cebfc88112b0) |
 | gemma_definitie | Een instituut waar onderwijs wordt gegeven. |
 | gemma_toelichting |  |
 
@@ -686,7 +686,7 @@ Attributen van objecttype Onderwijsinstituut
 | domein_dcat |  |
 | gemma_naam | Opleiding |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-affa85b2-1e80-4642-bb30-335dd9677094 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-affa85b2-1e80-4642-bb30-335dd9677094](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-affa85b2-1e80-4642-bb30-335dd9677094) |
 | gemma_definitie | Een samenhangend geheel van vakken, gericht op de verwezenlijking van welomschreven doelstellingen op het gebied van kennis, inzicht en vaardigheden. |
 | gemma_toelichting |  |
 
@@ -832,7 +832,7 @@ Attributen van objecttype Rol
 | domein_dcat |  |
 | gemma_naam | Sollicitant |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ddefe4a6-d89c-432d-b27a-b96cb575b16a |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ddefe4a6-d89c-432d-b27a-b96cb575b16a](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ddefe4a6-d89c-432d-b27a-b96cb575b16a) |
 | gemma_definitie | Persoon die werk zoekt |
 | gemma_toelichting |  |
 
@@ -866,7 +866,7 @@ Attributen van objecttype Sollicitant
 | domein_dcat |  |
 | gemma_naam | Sollicitatie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3dbc7681-e73c-46c5-80bc-434afc971eef |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3dbc7681-e73c-46c5-80bc-434afc971eef](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3dbc7681-e73c-46c5-80bc-434afc971eef) |
 | gemma_definitie | Verzoek om in een functie te worden aangesteld. |
 | gemma_toelichting |  |
 
@@ -901,7 +901,7 @@ Attributen van objecttype Sollicitatie
 | domein_dcat |  |
 | gemma_naam | Sollicitatiegesprek |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-565033f9-9a69-4d65-ad37-f1d17ea3e937 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-565033f9-9a69-4d65-ad37-f1d17ea3e937](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-565033f9-9a69-4d65-ad37-f1d17ea3e937) |
 | gemma_definitie | Onderhoud tussen sollicitant en werkgever met betrekking tot een sollicatie |
 | gemma_toelichting |  |
 
@@ -1010,7 +1010,7 @@ Attributen van objecttype Uren
 | domein_dcat |  |
 | gemma_naam | Vacature |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bd6c1561-9387-409b-a16b-99e79492ad3d |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bd6c1561-9387-409b-a16b-99e79492ad3d](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bd6c1561-9387-409b-a16b-99e79492ad3d) |
 | gemma_definitie | Een arbeidsplaats binnen een bedrijf of organisatie die nog gevuld dient te worden door werkzoekenden. |
 | gemma_toelichting |  |
 
@@ -1050,7 +1050,7 @@ Attributen van objecttype Vacature
 | domein_dcat |  |
 | gemma_naam | Verlof |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9ba143bc-5214-4998-9041-b3dc1c22fe77 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9ba143bc-5214-4998-9041-b3dc1c22fe77](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9ba143bc-5214-4998-9041-b3dc1c22fe77) |
 | gemma_definitie | Een periode waarin iemand toestemming heeft om iets te doen, in het bijzonder om afwezig te zijn. |
 | gemma_toelichting |  |
 
@@ -1125,7 +1125,7 @@ Attributen van objecttype Verlofsoort
 | domein_dcat |  |
 | gemma_naam | Verzuim |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c024eb06-53f7-4793-91d6-6e249ee119dc |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c024eb06-53f7-4793-91d6-6e249ee119dc](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c024eb06-53f7-4793-91d6-6e249ee119dc) |
 | gemma_definitie | Een afwezigheid van een werknemer van werk. |
 | gemma_toelichting |  |
 
@@ -1197,7 +1197,7 @@ Attributen van objecttype Verzuimsoort
 | domein_dcat |  |
 | gemma_naam | Werknemer |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8c200706-b80b-44f7-9928-bec39e0db21f |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8c200706-b80b-44f7-9928-bec39e0db21f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8c200706-b80b-44f7-9928-bec39e0db21f) |
 | gemma_definitie | De contractuele wederpartij van de werkgever bij de arbeidsovereenkomst. |
 | gemma_toelichting |  |
 

@@ -50,7 +50,7 @@ Het model 'Model Officiele Publicaties' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Omgevingsdocument |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c1559848-25e3-4bd0-bb39-286d0c4f5687 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c1559848-25e3-4bd0-bb39-286d0c4f5687](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c1559848-25e3-4bd0-bb39-286d0c4f5687) |
 | gemma_definitie | In artikel 16.2 van de Omgevingswet aangemerkt instrument te weten: Omgevingsvisie, programma, omgevingsplan, waterschapsverordening, omgevingsverordening, projectbesluit of bij Algemene Maatregel van Bestuur (Omgevingsbesluit) aangewezen ander besluit of ander rechtsfiguur. |
 | gemma_toelichting |  |
 

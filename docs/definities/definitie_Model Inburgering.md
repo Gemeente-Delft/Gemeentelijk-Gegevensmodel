@@ -144,7 +144,7 @@ Attributen van objecttype B1
 | domein_dcat |  |
 | gemma_naam | Brede Intake |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2d7f4231-96e8-4424-a656-c52473ea36dc |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2d7f4231-96e8-4424-a656-c52473ea36dc](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2d7f4231-96e8-4424-a656-c52473ea36dc) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -179,7 +179,7 @@ Attributen van objecttype Brede Intake
 | domein_dcat |  |
 | gemma_naam | Examen |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ccce5500-2140-4928-9716-0132a31e9686 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ccce5500-2140-4928-9716-0132a31e9686](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ccce5500-2140-4928-9716-0132a31e9686) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -289,7 +289,7 @@ Attributen van objecttype Gezinsmigrant en Overige migrant
 | domein_dcat |  |
 | gemma_naam | Inburgeraar |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b0cd75ba-28f2-4950-bb79-6ceb662eb6fa |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b0cd75ba-28f2-4950-bb79-6ceb662eb6fa](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b0cd75ba-28f2-4950-bb79-6ceb662eb6fa) |
 | gemma_definitie | De gemeente gaat inburgeringsplichtige nieuwkomers begeleiden bij hun inburgering. Voor asielstatushouders doen zij dit vanaf het moment van koppeling  aan een gemeente |
 | gemma_toelichting |  |
 
@@ -325,7 +325,7 @@ Attributen van objecttype Inburgeraar
 | domein_dcat |  |
 | gemma_naam | Inburgeringstraject |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e1620918-61a7-4cef-b0e2-6b8e206608c8 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e1620918-61a7-4cef-b0e2-6b8e206608c8](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e1620918-61a7-4cef-b0e2-6b8e206608c8) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -359,7 +359,7 @@ Attributen van objecttype Inburgeringstraject
 | domein_dcat |  |
 | gemma_naam | KNM? |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c0624b12-4a9b-4852-889d-3ad2a18e7583 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c0624b12-4a9b-4852-889d-3ad2a18e7583](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c0624b12-4a9b-4852-889d-3ad2a18e7583) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -394,7 +394,7 @@ Attributen van objecttype KNM?
 | domein_dcat |  |
 | gemma_naam | Leerroute |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ab441c2e-d5a6-4546-b1b8-a08d3bee1c07 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ab441c2e-d5a6-4546-b1b8-a08d3bee1c07](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ab441c2e-d5a6-4546-b1b8-a08d3bee1c07) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -429,7 +429,7 @@ Attributen van objecttype Leerroute
 | domein_dcat |  |
 | gemma_naam | MAP |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-25fe4f05-5edf-451d-9c67-1dd286a162af |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-25fe4f05-5edf-451d-9c67-1dd286a162af](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-25fe4f05-5edf-451d-9c67-1dd286a162af) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -533,7 +533,7 @@ Attributen van objecttype ParticipatieComponent
 | domein_dcat |  |
 | gemma_naam | PIP |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a1f148c2-d310-45c0-aee9-33e2c641ce37 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a1f148c2-d310-45c0-aee9-33e2c641ce37](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a1f148c2-d310-45c0-aee9-33e2c641ce37) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -568,7 +568,7 @@ Attributen van objecttype PIP
 | domein_dcat |  |
 | gemma_naam | PVT |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b48d2c3e-646e-4858-b98a-b776f949cd8f |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b48d2c3e-646e-4858-b98a-b776f949cd8f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b48d2c3e-646e-4858-b98a-b776f949cd8f) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -603,7 +603,7 @@ Attributen van objecttype PVT
 | domein_dcat |  |
 | gemma_naam | Verblijfplaats |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-397f0d07-8500-40ea-9d3a-a142dc9a94f9 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-397f0d07-8500-40ea-9d3a-a142dc9a94f9](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-397f0d07-8500-40ea-9d3a-a142dc9a94f9) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 

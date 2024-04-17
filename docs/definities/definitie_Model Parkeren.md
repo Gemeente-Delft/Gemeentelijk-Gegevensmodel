@@ -61,7 +61,7 @@ Het model 'Model Parkeren' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Belprovider |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-59bf814b-1020-4906-978b-ca22af2eecc0 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-59bf814b-1020-4906-978b-ca22af2eecc0](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-59bf814b-1020-4906-978b-ca22af2eecc0) |
 | gemma_definitie | Leverancier of dienstverlener van modiele beldiensten |
 | gemma_toelichting |  |
 
@@ -146,7 +146,7 @@ Attributen van objecttype MulderFeit
 | domein_dcat |  |
 | gemma_naam | Naheffing |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d10d2101-2e16-4f56-bcce-43783fd256be |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d10d2101-2e16-4f56-bcce-43783fd256be](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d10d2101-2e16-4f56-bcce-43783fd256be) |
 | gemma_definitie | Het achteraf vorderen van te weinig betaalde belasting |
 | gemma_toelichting |  |
 
@@ -196,7 +196,7 @@ Attributen van objecttype Naheffing
 | domein_dcat |  |
 | gemma_naam | Parkeergarage |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3aed2196-8ba9-4441-a27f-15a1f76d3fda |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3aed2196-8ba9-4441-a27f-15a1f76d3fda](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3aed2196-8ba9-4441-a27f-15a1f76d3fda) |
 | gemma_definitie | Open constructie die geheel of gedeeltelijk in gebruik is als voorziening voor het parkeren van voertuigen |
 | gemma_toelichting |  |
 
@@ -230,7 +230,7 @@ Attributen van objecttype Parkeergarage
 | domein_dcat |  |
 | gemma_naam | Parkeerrecht |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ae658af8-46be-4d41-ba95-c5e24cec7598 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ae658af8-46be-4d41-ba95-c5e24cec7598](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ae658af8-46be-4d41-ba95-c5e24cec7598) |
 | gemma_definitie | Het onder bepaalde voorwaarden (zoals betaling parkeerbelasting of parkeergeld) ontstane recht om een voertuig gedurende een bepaalde of onbepaalde periode op een daartoe benoemde parkeerplaats of in/op een daartoe benoemde parkeervoorziening te parkeren. |
 | gemma_toelichting |  |
 
@@ -273,7 +273,7 @@ Attributen van objecttype Parkeerrecht
 | domein_dcat |  |
 | gemma_naam | Parkeerscan |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-078d57f3-e8a0-485e-a175-c1b3de49eee0 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-078d57f3-e8a0-485e-a175-c1b3de49eee0](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-078d57f3-e8a0-485e-a175-c1b3de49eee0) |
 | gemma_definitie | Waarneming van een parkeeractie door een scanauto |
 | gemma_toelichting |  |
 
@@ -319,7 +319,7 @@ Attributen van objecttype Parkeerscan
 | domein_dcat |  |
 | gemma_naam | Parkeervergunning |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1486de79-ad71-4dce-8473-f23f1e9c436c |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1486de79-ad71-4dce-8473-f23f1e9c436c](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1486de79-ad71-4dce-8473-f23f1e9c436c) |
 | gemma_definitie | Offici√´le toestemming dat je op een bepaalde plek mag parkeren |
 | gemma_toelichting |  |
 
@@ -366,7 +366,7 @@ Attributen van objecttype Parkeervergunning
 | domein_dcat |  |
 | gemma_naam | Parkeervlak |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-30d7e3ac-081c-4ef6-a09e-90437b5a4349 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-30d7e3ac-081c-4ef6-a09e-90437b5a4349](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-30d7e3ac-081c-4ef6-a09e-90437b5a4349) |
 | gemma_definitie | Parkeergelegenheid bestemd voor het parkeren van √©√©n of meerdere voertuigen direct langs de doorgaande weg gelegen. |
 | gemma_toelichting |  |
 
@@ -406,7 +406,7 @@ Attributen van objecttype Parkeervlak
 | domein_dcat |  |
 | gemma_naam | Perkeerzone |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e5293eea-47b8-4091-8ac3-b28139a17c9f |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e5293eea-47b8-4091-8ac3-b28139a17c9f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e5293eea-47b8-4091-8ac3-b28139a17c9f) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -571,7 +571,7 @@ Attributen van objecttype Straatsectie
 | domein_dcat |  |
 | gemma_naam | Voertuig |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b083bd60-0137-40b0-ad72-4602b3c1d754 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b083bd60-0137-40b0-ad72-4602b3c1d754](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b083bd60-0137-40b0-ad72-4602b3c1d754) |
 | gemma_definitie | Vervoermiddel bestemd voor het verkeer over wegen |
 | gemma_toelichting |  |
 

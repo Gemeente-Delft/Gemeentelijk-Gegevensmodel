@@ -75,7 +75,7 @@ Het model 'Model Vastgoed' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Aanbesteding |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3907c387-dc68-4c15-a98c-edd640042495 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3907c387-dc68-4c15-a98c-edd640042495](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3907c387-dc68-4c15-a98c-edd640042495) |
 | gemma_definitie | Een procedure waarbij een opdrachtgever bekendmaakt dat hij een opdracht of concessie wil laten uitvoeren en bedrijven uitnodigt om een offerte in te dienen. |
 | gemma_toelichting |  |
 
@@ -216,7 +216,7 @@ Attributen van objecttype Bouwdeelelement
 | domein_dcat |  |
 | gemma_naam | CultuurOnbebouwd |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-178c47cb-24e6-4e2d-a4a7-7da62997b0e6 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-178c47cb-24e6-4e2d-a4a7-7da62997b0e6](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-178c47cb-24e6-4e2d-a4a7-7da62997b0e6) |
 | gemma_definitie | Een aanduiding voor de soort cultuur van het onbebouwde gedeelte van de onroerende zaak. |
 | gemma_toelichting |  |
 
@@ -252,7 +252,7 @@ Attributen van objecttype CultuurOnbebouwd
 | domein_dcat |  |
 | gemma_naam | Eigenaar |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-06ee795e-36b8-4e13-991d-02a5d91ef015 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-06ee795e-36b8-4e13-991d-02a5d91ef015](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-06ee795e-36b8-4e13-991d-02a5d91ef015) |
 | gemma_definitie | Eigenaar is een persoon die de eigenaar is van een gebouw of stuk grond en ook alle rechten daarvan bezit. |
 | gemma_toelichting |  |
 
@@ -286,7 +286,7 @@ Attributen van objecttype Eigenaar
 | domein_dcat |  |
 | gemma_naam | Gebruiksdoel |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-507292ba-1a0c-4ebf-b696-fc2c5ce1910e |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-507292ba-1a0c-4ebf-b696-fc2c5ce1910e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-507292ba-1a0c-4ebf-b696-fc2c5ce1910e) |
 | gemma_definitie | Een aanduiding va alle waarden waarmee het gebruiksdoel van een object kan worden verbijzonderd. |
 | gemma_toelichting |  |
 
@@ -321,7 +321,7 @@ Attributen van objecttype Gebruiksdoel
 | domein_dcat |  |
 | gemma_naam | Huurder |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b64affbe-e43f-4f32-acce-8900b6f409e8 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b64affbe-e43f-4f32-acce-8900b6f409e8](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b64affbe-e43f-4f32-acce-8900b6f409e8) |
 | gemma_definitie | Een partij die een zaak of een gedeelte daarvan in gebruik verstrekt heeft gekregen en zich heeft verbonden tot een tegenprestatie. |
 | gemma_toelichting |  |
 
@@ -465,7 +465,7 @@ Attributen van objecttype KpOnstaanUit
 | domein_dcat |  |
 | gemma_naam | LOCATIEAANDUIDING WOZ OBJECT |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9155e64f-138f-4269-bd68-46f217cb33c3 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9155e64f-138f-4269-bd68-46f217cb33c3](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9155e64f-138f-4269-bd68-46f217cb33c3) |
 | gemma_definitie | Nadere aanduiding van het WOZ-object |
 | gemma_toelichting |  |
 
@@ -545,7 +545,7 @@ Attributen van objecttype Locatieonroerendezaak
 | domein_dcat |  |
 | gemma_naam | MJOP |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e1be07bf-e9fb-488e-9b03-785b44167e43 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e1be07bf-e9fb-488e-9b03-785b44167e43](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e1be07bf-e9fb-488e-9b03-785b44167e43) |
 | gemma_definitie | Meerjaren Onderhoudsplanning |
 | gemma_toelichting |  |
 
@@ -729,7 +729,7 @@ Attributen van objecttype Offerte
 | domein_dcat |  |
 | gemma_naam | Pachter |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-eb838412-7041-4a22-a50d-fdd255391bc1 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-eb838412-7041-4a22-a50d-fdd255391bc1](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-eb838412-7041-4a22-a50d-fdd255391bc1) |
 | gemma_definitie | Een persoon die een pachtovereenkomst heeft met de eigenaar van een perceel voor het gebruik als landbouwgrond. |
 | gemma_toelichting |  |
 
@@ -801,7 +801,7 @@ Attributen van objecttype Prijzenboekitem
 | domein_dcat |  |
 | gemma_naam | Vastgoed Contract |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-44e5cb64-556a-4b36-9b4e-a2c8e61345ed |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-44e5cb64-556a-4b36-9b4e-a2c8e61345ed](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-44e5cb64-556a-4b36-9b4e-a2c8e61345ed) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -843,7 +843,7 @@ Attributen van objecttype Vastgoed Contract
 | domein_dcat |  |
 | gemma_naam | Vastgoedcontractregel |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cd39bcc5-b77a-41f8-8815-e8076696f48d |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cd39bcc5-b77a-41f8-8815-e8076696f48d](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cd39bcc5-b77a-41f8-8815-e8076696f48d) |
 | gemma_definitie | ONderdeel van een vastgoedcontract |
 | gemma_toelichting |  |
 
@@ -885,7 +885,7 @@ Attributen van objecttype Vastgoedcontractregel
 | domein_dcat |  |
 | gemma_naam | Vastgoedobject |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ac9bd49c-9861-44f3-adff-ffa256a08111 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ac9bd49c-9861-44f3-adff-ffa256a08111](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ac9bd49c-9861-44f3-adff-ffa256a08111) |
 | gemma_definitie | Perceel of vastgoed waar de gemeente een zakelijk recht heeft, en optioneel verhuurd, verpacht of anderzinds aan een derde partij. |
 | gemma_toelichting |  |
 
@@ -978,7 +978,7 @@ Attributen van objecttype Vastgoedobject
 | domein_dcat |  |
 | gemma_naam | Verhuurbaar Eenheid |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-31dcb0af-e9f1-44e1-8d5a-278f887fa9e7 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-31dcb0af-e9f1-44e1-8d5a-278f887fa9e7](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-31dcb0af-e9f1-44e1-8d5a-278f887fa9e7) |
 | gemma_definitie | Een Verhuurbare Eenheid (VHE) is een eenheid die individueel verhuurbaar is. Verhuurbaar komt voort uit 'exploitatie' |
 | gemma_toelichting |  |
 
@@ -1026,7 +1026,7 @@ Attributen van objecttype Verhuurbaar Eenheid
 | domein_dcat |  |
 | gemma_naam | Werkbon |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a13ea500-9135-4985-a718-c56240860c46 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a13ea500-9135-4985-a718-c56240860c46](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a13ea500-9135-4985-a718-c56240860c46) |
 | gemma_definitie | Document waarin een heoveelheid werk is beschreven |
 | gemma_toelichting |  |
 
@@ -1097,7 +1097,7 @@ Attributen van objecttype WOZBelang
 | domein_dcat |  |
 | gemma_naam | Zakelijk Recht |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a6741440-a70f-4d05-b164-6a21b867b4d3 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a6741440-a70f-4d05-b164-6a21b867b4d3](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a6741440-a70f-4d05-b164-6a21b867b4d3) |
 | gemma_definitie | Geeft een recht op een goed, zoals een onroerende zaak of een roerende zaak. |
 | gemma_toelichting |  |
 

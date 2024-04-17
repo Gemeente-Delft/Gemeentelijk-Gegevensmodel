@@ -55,7 +55,7 @@ Het model 'Model Verkeer en Vervoer' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Stremming |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-563fd27c-7299-4311-8f40-60a95b9da4b5 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-563fd27c-7299-4311-8f40-60a95b9da4b5](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-563fd27c-7299-4311-8f40-60a95b9da4b5) |
 | gemma_definitie | Situatie waarbij de doorstroming van het (vaar)wegverkeer plaatselijk is geblokkeerd als gevolg van een incident |
 | gemma_toelichting |  |
 
@@ -139,7 +139,7 @@ Attributen van objecttype Strooidag
 | domein_dcat |  |
 | gemma_naam | Strooiroute |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8d6c2c57-1e18-4257-a894-5f5d751279ea |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8d6c2c57-1e18-4257-a894-5f5d751279ea](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8d6c2c57-1e18-4257-a894-5f5d751279ea) |
 | gemma_definitie | Traject waarop het strooien plaatsvindt |
 | gemma_toelichting |  |
 
@@ -215,7 +215,7 @@ Attributen van objecttype StrooirouteUitvoering
 | domein_dcat |  |
 | gemma_naam | Verkeersbesluit |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-833312cc-f7d8-4b4c-9e79-b21c8e7597cb |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-833312cc-f7d8-4b4c-9e79-b21c8e7597cb](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-833312cc-f7d8-4b4c-9e79-b21c8e7597cb) |
 | gemma_definitie | Een besluit van een wegbeheerder om een bepaald verkeersteken te plaatsen, te wijzigen of in te trekken of een bepaalde fysieke maatregel te treffen. |
 | gemma_toelichting |  |
 
@@ -258,7 +258,7 @@ Attributen van objecttype Verkeersbesluit
 | domein_dcat |  |
 | gemma_naam | Verkeerstelling |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cb656c23-5e43-4f7d-9c06-ff5351911fdb |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cb656c23-5e43-4f7d-9c06-ff5351911fdb](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cb656c23-5e43-4f7d-9c06-ff5351911fdb) |
 | gemma_definitie | Een onderzoek om inzicht te krijgen in het verkeer, in de hoeveelheid verkeer, de verdeling en de gereden snelheid. |
 | gemma_toelichting |  |
 

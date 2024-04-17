@@ -65,7 +65,7 @@ Het model 'Model Archeologie' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Archeologiebesluit |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6df26100-0a75-447d-a8f1-5a87adeea7ef |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6df26100-0a75-447d-a8f1-5a87adeea7ef](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6df26100-0a75-447d-a8f1-5a87adeea7ef) |
 | gemma_definitie | Een professioneel oordeel dat gebaseerd is op algemeen aanvaarde wetenschap ten aanzien van de archeologie |
 | gemma_toelichting |  |
 
@@ -99,7 +99,7 @@ Attributen van objecttype Archeologiebesluit
 | domein_dcat |  |
 | gemma_naam | Artefact |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7f936c4f-360e-47a3-a558-1682d8cfbf1a |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7f936c4f-360e-47a3-a558-1682d8cfbf1a](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7f936c4f-360e-47a3-a558-1682d8cfbf1a) |
 | gemma_definitie | De benaming voor ieder verplaatsbaar object dat door de mens is vervaardigd, bewerkt en/of gebruikt. |
 | gemma_toelichting |  |
 
@@ -199,7 +199,7 @@ Attributen van objecttype Artefactsoort
 | domein_dcat |  |
 | gemma_naam | boring |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6897cf81-2661-4676-80b2-588cb1f4e42d |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6897cf81-2661-4676-80b2-588cb1f4e42d](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6897cf81-2661-4676-80b2-588cb1f4e42d) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -273,7 +273,7 @@ Attributen van objecttype Doos
 | domein_dcat |  |
 | gemma_naam | Kaart |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-21a5d5b7-69f0-4501-98db-0655c44136b1 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-21a5d5b7-69f0-4501-98db-0655c44136b1](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-21a5d5b7-69f0-4501-98db-0655c44136b1) |
 | gemma_definitie | De geografische weergave van een gedeelte van het aardoppervlak |
 | gemma_toelichting |  |
 
@@ -310,7 +310,7 @@ Attributen van objecttype Kaart
 | domein_dcat |  |
 | gemma_naam | locatie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ede94eee-d934-40f8-adcc-dc4b1703d333 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ede94eee-d934-40f8-adcc-dc4b1703d333](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ede94eee-d934-40f8-adcc-dc4b1703d333) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -345,7 +345,7 @@ Attributen van objecttype locatie
 | domein_dcat |  |
 | gemma_naam | Magazijnlocatie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ba16f72b-26d0-4f28-be3d-68a3155dca65 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ba16f72b-26d0-4f28-be3d-68a3155dca65](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ba16f72b-26d0-4f28-be3d-68a3155dca65) |
 | gemma_definitie | Locatie van een magazijn |
 | gemma_toelichting |  |
 
@@ -383,7 +383,7 @@ Attributen van objecttype Magazijnlocatie
 | domein_dcat |  |
 | gemma_naam | Magazijnplaatsing |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b46a7928-928b-4ad4-9c27-f3d112073ea0 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b46a7928-928b-4ad4-9c27-f3d112073ea0](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b46a7928-928b-4ad4-9c27-f3d112073ea0) |
 | gemma_definitie | Het ergens neerzetten van een object in een magazijn. |
 | gemma_toelichting |  |
 
@@ -425,7 +425,7 @@ Attributen van objecttype Magazijnplaatsing
 | domein_dcat |  |
 | gemma_naam | Project |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e323b2d5-5d15-43bf-b305-ecdb62da91d9 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e323b2d5-5d15-43bf-b305-ecdb62da91d9](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e323b2d5-5d15-43bf-b305-ecdb62da91d9) |
 | gemma_definitie | Geheel van activiteiten uitgevoerd in een tijdelijk samenwerkingsverband gericht op het binnen bepaalde randvoorwaarden (bv. tijd, geld) bereiken van een vooraf gedefinieerd resultaat. |
 | gemma_toelichting |  |
 
@@ -470,7 +470,7 @@ Attributen van objecttype Project
 | domein_dcat |  |
 | gemma_naam | Put |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6ace770c-ac42-4d79-bd84-145f77968360 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6ace770c-ac42-4d79-bd84-145f77968360](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6ace770c-ac42-4d79-bd84-145f77968360) |
 | gemma_definitie | Grondspoor, veelal verstevigd en gefundeerd aangelegd, bedoeld voor de tijdelijke opslag van danwel water (waterput) danwel uitwerpselen en afval (beerput). |
 | gemma_toelichting |  |
 
@@ -507,7 +507,7 @@ Attributen van objecttype Put
 | domein_dcat |  |
 | gemma_naam | Spoor |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3f6a41fd-293f-4f84-a449-1daa26b8a757 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3f6a41fd-293f-4f84-a449-1daa26b8a757](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3f6a41fd-293f-4f84-a449-1daa26b8a757) |
 | gemma_definitie | Een blijk van eerdere aanwezigheid. |
 | gemma_toelichting | In enge zin is het een afdruk in de grond, bijvoorbeeld van schoenen, voeten, poten of banden. Meer algemeen worden ook andere veranderingen op een locatie of route sporen genoemd, en, nog algemener, ook andere aanwijzingen voor te achterhalen informatie. |
 
@@ -590,7 +590,7 @@ Attributen van objecttype Stelling
 | domein_dcat |  |
 | gemma_naam | Vindplaats |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d4ab4c0d-d752-4d86-ad6a-2ac25ec6af6b |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d4ab4c0d-d752-4d86-ad6a-2ac25ec6af6b](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d4ab4c0d-d752-4d86-ad6a-2ac25ec6af6b) |
 | gemma_definitie | Een plek waar men iets gevonden heeft. |
 | gemma_toelichting |  |
 
@@ -639,7 +639,7 @@ Attributen van objecttype Vindplaats
 | domein_dcat |  |
 | gemma_naam | Vlak |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c74cb377-1926-4afd-a50d-14b2643b04b2 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c74cb377-1926-4afd-a50d-14b2643b04b2](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c74cb377-1926-4afd-a50d-14b2643b04b2) |
 | gemma_definitie | Plat, oneindig oppervlak of variëteit zonder enige kromming. |
 | gemma_toelichting |  |
 
@@ -680,7 +680,7 @@ Attributen van objecttype Vlak
 | domein_dcat |  |
 | gemma_naam | Vondst |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fc805177-e231-40eb-8f59-0fb3bdc896a1 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fc805177-e231-40eb-8f59-0fb3bdc896a1](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fc805177-e231-40eb-8f59-0fb3bdc896a1) |
 | gemma_definitie | Overblijfsel, voorwerp of ander spoor van menselijke aanwezigheid in het verleden afkomstig van een archeologisch monument |
 | gemma_toelichting |  |
 
@@ -727,7 +727,7 @@ Attributen van objecttype Vondst
 | domein_dcat |  |
 | gemma_naam | Vulling |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f7d73677-6a8a-4921-acfc-590e3bf6cb26 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f7d73677-6a8a-4921-acfc-590e3bf6cb26](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f7d73677-6a8a-4921-acfc-590e3bf6cb26) |
 | gemma_definitie | Dunne wegeringsplank gebruikt om de ruimte tussen de bovenste kimweger en de onderste balkweger op te vullen (Sopers, 1974). |
 | gemma_toelichting |  |
 

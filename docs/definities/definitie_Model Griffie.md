@@ -61,7 +61,7 @@ Het model 'Model Griffie' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Aanwezige Deelnemer |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ccf78bc5-8d4a-440f-a642-abcf60149628 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ccf78bc5-8d4a-440f-a642-abcf60149628](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ccf78bc5-8d4a-440f-a642-abcf60149628) |
 | gemma_definitie | iemand die meedoet aan eencollege- of raadsvergadering |
 | gemma_toelichting |  |
 
@@ -101,7 +101,7 @@ Attributen van objecttype Aanwezige Deelnemer
 | domein_dcat |  |
 | gemma_naam | Agendapunt |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-34b2e5f9-63ab-42e8-bfa9-85e12ff6e417 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-34b2e5f9-63ab-42e8-bfa9-85e12ff6e417](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-34b2e5f9-63ab-42e8-bfa9-85e12ff6e417) |
 | gemma_definitie | Een onderwerp dat in de vergadering wordt behandeld. |
 | gemma_toelichting |  |
 
@@ -174,7 +174,7 @@ Attributen van objecttype Categorie
 | domein_dcat |  |
 | gemma_naam | Collegelid |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d0eb8d8b-25c9-4eef-9dc6-4a773d8899a7 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d0eb8d8b-25c9-4eef-9dc6-4a773d8899a7](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d0eb8d8b-25c9-4eef-9dc6-4a773d8899a7) |
 | gemma_definitie | Iemand die behoort het college van burgemeester en wethouders |
 | gemma_toelichting |  |
 
@@ -215,7 +215,7 @@ Attributen van objecttype Collegelid
 | domein_dcat |  |
 | gemma_naam | Dossier |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1364056c-dc25-4855-a75f-eb523f012b02 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1364056c-dc25-4855-a75f-eb523f012b02](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1364056c-dc25-4855-a75f-eb523f012b02) |
 | gemma_definitie | Samenhangende set gegevens en informatie voor een specifiek doel |
 | gemma_toelichting |  |
 
@@ -250,7 +250,7 @@ Attributen van objecttype Dossier
 | domein_dcat |  |
 | gemma_naam | Indiener |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6e591734-ef9a-4858-bca1-f924c1aef7b0 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6e591734-ef9a-4858-bca1-f924c1aef7b0](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6e591734-ef9a-4858-bca1-f924c1aef7b0) |
 | gemma_definitie | Persoon die meldiing of aanvraag doet |
 | gemma_toelichting |  |
 
@@ -322,7 +322,7 @@ Attributen van objecttype Programma
 | domein_dcat |  |
 | gemma_naam | Commissie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-62126697-6498-4c0a-a84e-2275138c2eaa |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-62126697-6498-4c0a-a84e-2275138c2eaa](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-62126697-6498-4c0a-a84e-2275138c2eaa) |
 | gemma_definitie | Een groep mensen die is samengesteld om een specifieke taak, opdracht of onderzoek uit te voeren |
 | gemma_toelichting |  |
 
@@ -358,7 +358,7 @@ Attributen van objecttype Raadscommissie
 | domein_dcat |  |
 | gemma_naam | Raadslid |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-db373678-134a-4333-9d49-e86faf5ce531 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-db373678-134a-4333-9d49-e86faf5ce531](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-db373678-134a-4333-9d49-e86faf5ce531) |
 | gemma_definitie | Iemand die behoort de gemeenteraad |
 | gemma_toelichting |  |
 
@@ -399,7 +399,7 @@ Attributen van objecttype Raadslid
 | domein_dcat |  |
 | gemma_naam | Raadsstuk |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-378dab8d-1135-40b8-9ed5-3591a89c75c2 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-378dab8d-1135-40b8-9ed5-3591a89c75c2](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-378dab8d-1135-40b8-9ed5-3591a89c75c2) |
 | gemma_definitie | Stuk dat door de gemeenteraad wordt behandeld |
 | gemma_toelichting |  |
 
@@ -444,7 +444,7 @@ Attributen van objecttype Raadsstuk
 | domein_dcat |  |
 | gemma_naam | Stemming |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-857327b0-3ab3-4578-869d-7b390aa1e3d3 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-857327b0-3ab3-4578-869d-7b390aa1e3d3](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-857327b0-3ab3-4578-869d-7b390aa1e3d3) |
 | gemma_definitie | Stem (openbaring van iemands mening (voor of tegen)),  uitbrengen bij verkiezingen of bij een vergadering |
 | gemma_toelichting |  |
 
@@ -517,7 +517,7 @@ Attributen van objecttype Taakveld
 | domein_dcat |  |
 | gemma_naam | Vergadering |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ea768404-3043-48bc-b0dc-143abc8806d6 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ea768404-3043-48bc-b0dc-143abc8806d6](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ea768404-3043-48bc-b0dc-143abc8806d6) |
 | gemma_definitie | Een bijeenkomst van meerdere mensen (meestal van eenzelfde organisatie) die met elkaar spreken en/of afspraken maken over de gemeenschappelijke toekomst. |
 | gemma_toelichting |  |
 

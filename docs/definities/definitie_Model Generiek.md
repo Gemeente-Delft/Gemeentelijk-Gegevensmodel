@@ -57,7 +57,7 @@ Het model 'Model Generiek' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Foto |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b285df90-a239-4757-b78e-a281744f89cb |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b285df90-a239-4757-b78e-a281744f89cb](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b285df90-a239-4757-b78e-a281744f89cb) |
 | gemma_definitie | Afbeelding op een plat vlak vervaardigd door middel van fotografie |
 | gemma_toelichting |  |
 
@@ -239,7 +239,7 @@ Attributen van objecttype Lijnengroep
 | domein_dcat |  |
 | gemma_naam | Locatie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f1220c91-e576-4a25-9cdb-0a2b991ae362 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f1220c91-e576-4a25-9cdb-0a2b991ae362](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f1220c91-e576-4a25-9cdb-0a2b991ae362) |
 | gemma_definitie | De locatie beschrijft middels co√∂rdinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW) |
 | gemma_toelichting |  |
 
@@ -346,7 +346,7 @@ Attributen van objecttype Puntengroep
 | domein_dcat |  |
 | gemma_naam | Video-opname |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1d49cf98-d059-42da-bdd4-d076f8ace453 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1d49cf98-d059-42da-bdd4-d076f8ace453](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1d49cf98-d059-42da-bdd4-d076f8ace453) |
 | gemma_definitie | Opnametechniek om bewegende beelden als een elektronisch signaal te registreren en weer te geven. |
 | gemma_toelichting |  |
 

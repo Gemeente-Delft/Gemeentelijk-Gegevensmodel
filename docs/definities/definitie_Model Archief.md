@@ -66,7 +66,7 @@ Het model 'Model Archief' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Aanvraag |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6c992a39-ca0b-4d4c-b749-fe8167af540d |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6c992a39-ca0b-4d4c-b749-fe8167af540d](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6c992a39-ca0b-4d4c-b749-fe8167af540d) |
 | gemma_definitie | (officieel) verzoek, iets (officieel) vragen aan een bevoegde macht. |
 | gemma_toelichting |  |
 
@@ -101,7 +101,7 @@ Attributen van objecttype Aanvraag
 | domein_dcat |  |
 | gemma_naam | Archief |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6b072b67-e13f-422e-9e5c-068deb532aad |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6b072b67-e13f-422e-9e5c-068deb532aad](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6b072b67-e13f-422e-9e5c-068deb532aad) |
 | gemma_definitie | De bewaarplaats van belangrijke gegevens die zijn vastgelegd in documentvorm alsook de verzameling van documenten die voor een bepaald doel vervaardigd zijn. |
 | gemma_toelichting |  |
 
@@ -176,7 +176,7 @@ Attributen van objecttype Archiefcategorie
 | domein_dcat |  |
 | gemma_naam | Archiefstuk |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7b7d7585-b081-4bcc-a39e-cf6b3803799a |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7b7d7585-b081-4bcc-a39e-cf6b3803799a](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7b7d7585-b081-4bcc-a39e-cf6b3803799a) |
 | gemma_definitie | Bijeengebrachte informatie, ongeacht het medium, die wordt gecre√´erd, ontvangen en gearchiveerd door een bureau, een instelling, een organisatie of een individu met het oog op het nakomen van wettelijke verplichtingen of het uitvoeren van zakelijke transacties.(AAT) |
 | gemma_toelichting |  |
 
@@ -216,7 +216,7 @@ Attributen van objecttype Archiefstuk
 | domein_dcat |  |
 | gemma_naam | Auteur |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3335a028-e7f5-44a7-9afc-a80ba0214eb6 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3335a028-e7f5-44a7-9afc-a80ba0214eb6](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3335a028-e7f5-44a7-9afc-a80ba0214eb6) |
 | gemma_definitie | De persoon die verantwoordelijk is voor de inhoud van een (digitaal) document |
 | gemma_toelichting |  |
 
@@ -252,7 +252,7 @@ Attributen van objecttype Auteur
 | domein_dcat |  |
 | gemma_naam | Bezoeker |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b8e4973e-2137-4bc5-8dc0-60041201a8aa |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b8e4973e-2137-4bc5-8dc0-60041201a8aa](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b8e4973e-2137-4bc5-8dc0-60041201a8aa) |
 | gemma_definitie | Een persoon die iemand of iets bezoekt. |
 | gemma_toelichting |  |
 
@@ -286,7 +286,7 @@ Attributen van objecttype Bezoeker
 | domein_dcat |  |
 | gemma_naam | Depot |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-28b74cdd-2459-4a6e-ba6d-813ac7b9b811 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-28b74cdd-2459-4a6e-ba6d-813ac7b9b811](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-28b74cdd-2459-4a6e-ba6d-813ac7b9b811) |
 | gemma_definitie | Plaats waar iets bewaard wordt. |
 | gemma_toelichting |  |
 
@@ -469,7 +469,7 @@ Attributen van objecttype Kast
 | domein_dcat |  |
 | gemma_naam | Nadere Toegang |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b4652813-e293-416c-9ff0-c254fcd6fd83 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b4652813-e293-416c-9ff0-c254fcd6fd83](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b4652813-e293-416c-9ff0-c254fcd6fd83) |
 | gemma_definitie | De bevoegdheid om gegevens te raadplegen, bepaalde plaatsen te betreden of een bepaalde taak uit te oefenen. |
 | gemma_toelichting |  |
 
@@ -574,7 +574,7 @@ Attributen van objecttype Plank
 | domein_dcat |  |
 | gemma_naam | Rechthebbende |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-be17bc1c-f653-4b92-8f97-9e9219502be5 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-be17bc1c-f653-4b92-8f97-9e9219502be5](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-be17bc1c-f653-4b92-8f97-9e9219502be5) |
 | gemma_definitie | Een rechthebbende is iemand die rechten heeft op een goed. |
 | gemma_toelichting |  |
 
@@ -643,7 +643,7 @@ Attributen van objecttype Stelling
 | domein_dcat |  |
 | gemma_naam | Uitgever |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0d7e9bb5-b865-4599-aa6d-6cac9fd2185b |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0d7e9bb5-b865-4599-aa6d-6cac9fd2185b](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0d7e9bb5-b865-4599-aa6d-6cac9fd2185b) |
 | gemma_definitie | Iemand die iets op de markt brengt; iemand die iets uitgeeft |
 | gemma_toelichting |  |
 

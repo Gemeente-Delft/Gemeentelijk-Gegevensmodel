@@ -196,7 +196,7 @@ Attributen van objecttype AdresBuitenland
 | domein_dcat |  |
 | gemma_naam | Briefadres |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-af282ab4-d6c4-4a5f-8126-db9b70cff048 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-af282ab4-d6c4-4a5f-8126-db9b70cff048](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-af282ab4-d6c4-4a5f-8126-db9b70cff048) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -277,7 +277,7 @@ Attributen van objecttype Nationaliteit
 | domein_dcat |  |
 | gemma_naam | Onbestemd Adres |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ced72a4a-9aa5-485a-8535-206b97fd494f |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ced72a4a-9aa5-485a-8535-206b97fd494f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ced72a4a-9aa5-485a-8535-206b97fd494f) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -316,7 +316,7 @@ Attributen van objecttype Onbestemd Adres
 | domein_dcat |  |
 | gemma_naam | NUMMERAANDUIDING |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-403c547f-8d7e-4235-99d9-d155063c6085 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-403c547f-8d7e-4235-99d9-d155063c6085](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-403c547f-8d7e-4235-99d9-d155063c6085) |
 | gemma_definitie | Een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een VERBLIJFSOBJECT, een STANDPLAATS of een LIGPLAATS. |
 | gemma_toelichting |  |
 
@@ -367,7 +367,7 @@ Attributen van objecttype NUMMERAANDUIDING
 | domein_dcat |  |
 | gemma_naam | APPARTEMENTSRECHT |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b84fbae7-cecd-4c24-96cb-427a00d862c6 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b84fbae7-cecd-4c24-96cb-427a00d862c6](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b84fbae7-cecd-4c24-96cb-427a00d862c6) |
 | gemma_definitie | Een KADASTRALE ONROERENDE ZAAK dat een aandeel is in de  goederen die in de splitsing zijn betrokken, dat de bevoegdheid omvat tot het uitsluitend gebruik van bepaalde gedeelten van het gebouw die blijkens hun inrichting bestemd zijn of worden om als afzonderlijk geheel te worden  gebruikt (art. 5:106 lid 4 BW). |
 | gemma_toelichting |  |
 
@@ -401,7 +401,7 @@ Attributen van objecttype APPARTEMENTSRECHT
 | domein_dcat |  |
 | gemma_naam | APPARTEMENTSRECHTSPLITSING |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1b771d9e-6208-4916-86ed-a88a79cac648 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1b771d9e-6208-4916-86ed-a88a79cac648](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1b771d9e-6208-4916-86ed-a88a79cac648) |
 | gemma_definitie | Het recht op een stuk grond of op een gebouw met toebehoren op de daarbij behorende grond met toebehoren is gesplitst in appartementsrechten. |
 | gemma_toelichting |  |
 
@@ -483,7 +483,7 @@ Attributen van objecttype BegroeidTerreindeel
 | domein_dcat |  |
 | gemma_naam | BENOEMD OBJECT |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-13ad6d22-52ce-4439-9eed-200245c3a498 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-13ad6d22-52ce-4439-9eed-200245c3a498](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-13ad6d22-52ce-4439-9eed-200245c3a498) |
 | gemma_definitie | Een GEBOUWD OBJECT of een BENOEMD TERREIN |
 | gemma_toelichting |  |
 
@@ -524,7 +524,7 @@ Attributen van objecttype BENOEMD OBJECT
 | domein_dcat |  |
 | gemma_naam | BENOEMD TERREIN |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c0361a4b-968e-477e-b81c-ee26a5aa0543 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c0361a4b-968e-477e-b81c-ee26a5aa0543](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c0361a4b-968e-477e-b81c-ee26a5aa0543) |
 | gemma_definitie | Een STANDPLAATS, LIGPLAATS, of een OVERIG BENOEMD TERREIN. |
 | gemma_toelichting |  |
 
@@ -559,7 +559,7 @@ Attributen van objecttype BENOEMD TERREIN
 | domein_dcat |  |
 | gemma_naam | BUURT |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8772e7a6-24c8-454f-ab54-7d12c1849e97 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8772e7a6-24c8-454f-ab54-7d12c1849e97](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8772e7a6-24c8-454f-ab54-7d12c1849e97) |
 | gemma_definitie | Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen. |
 | gemma_toelichting |  |
 
@@ -684,7 +684,7 @@ Attributen van objecttype FunctioneelGebied
 | domein_dcat |  |
 | gemma_naam | GEBOUWD OBJECT |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f048185d-8eb4-447b-ade2-6160df1dedb3 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f048185d-8eb4-447b-ade2-6160df1dedb3](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f048185d-8eb4-447b-ade2-6160df1dedb3) |
 | gemma_definitie | Een VERBLIJFSOBJECT of een OVERIG GEBOUWD OBJECT |
 | gemma_toelichting |  |
 
@@ -769,7 +769,7 @@ Attributen van objecttype Gebouwinstallatie
 | domein_dcat |  |
 | gemma_naam | GEMEENTE |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9f1ea854-eb45-47a0-98f4-4043b4a69be0 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9f1ea854-eb45-47a0-98f4-4043b4a69be0](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9f1ea854-eb45-47a0-98f4-4043b4a69be0) |
 | gemma_definitie | Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet. |
 | gemma_toelichting |  |
 
@@ -811,7 +811,7 @@ Attributen van objecttype GEMEENTE
 | domein_dcat |  |
 | gemma_naam | HUISHOUDEN |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2515abf4-dea2-44eb-8886-c90c1ab42069 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2515abf4-dea2-44eb-8886-c90c1ab42069](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2515abf4-dea2-44eb-8886-c90c1ab42069) |
 | gemma_definitie | Een duurzame samenlevingsvorm van een of meer natuurlijke personen binnen een VERBLIJFSOBJECT, STANDPLAATS of LIGPLAATS. |
 | gemma_toelichting |  |
 
@@ -896,7 +896,7 @@ Attributen van objecttype Inrichtingselement
 | domein_dcat |  |
 | gemma_naam | KADASTRAAL PERCEEL |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0fd3695d-aa71-4f35-a8bf-7886c70e0ed8 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0fd3695d-aa71-4f35-a8bf-7886c70e0ed8](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0fd3695d-aa71-4f35-a8bf-7886c70e0ed8) |
 | gemma_definitie | Een KADASTRALE ONROERENDE ZAAK dat een kadastraal geïdentificeerd en met kadastrale grenzen begrensd deel van het Nederlands grondgebied betreft (art. 1 lid 1 Kadasterwet). |
 | gemma_toelichting |  |
 
@@ -936,7 +936,7 @@ Attributen van objecttype KADASTRAAL PERCEEL
 | domein_dcat |  |
 | gemma_naam | KADASTRALE ONROERENDE ZAAK |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8155eb9b-eb9e-4eec-a850-80c185983a9f |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8155eb9b-eb9e-4eec-a850-80c185983a9f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8155eb9b-eb9e-4eec-a850-80c185983a9f) |
 | gemma_definitie | Een geregistreerd goed waarvoor bij overdracht of vestiging van rechten inschrijving in de openbare registers van het Kadaster is vereist zijnde een KADASTRAAL PERCEEL of een APPARTEMENTSRECHT. |
 | gemma_toelichting |  |
 
@@ -994,7 +994,7 @@ Attributen van objecttype KADASTRALE ONROERENDE ZAAK
 | domein_dcat |  |
 | gemma_naam | INGESCHREVEN PERSOON |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e1371e07-969e-4a34-be81-0a23ffd541dd |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e1371e07-969e-4a34-be81-0a23ffd541dd](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e1371e07-969e-4a34-be81-0a23ffd541dd) |
 | gemma_definitie | Een INGEZETENE of NIET-INGEZETENE |
 | gemma_toelichting |  |
 
@@ -1053,7 +1053,7 @@ Attributen van objecttype INGESCHREVEN PERSOON
 | domein_dcat |  |
 | gemma_naam | KADASTRALE ONROERENDE ZAAK AANTEKENING |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6c7ed209-0c32-432f-b6cd-32a0a1505a4e |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6c7ed209-0c32-432f-b6cd-32a0a1505a4e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6c7ed209-0c32-432f-b6cd-32a0a1505a4e) |
 | gemma_definitie | Aanduiding van het feit, genoemd in een Stuk, dat betrekking heeft op een onroerende zaak en dat gevolgen kan hebben voor de uitoefening van rechten op de onroerende zaak. |
 | gemma_toelichting |  |
 
@@ -1093,7 +1093,7 @@ Attributen van objecttype KADASTRALE ONROERENDE ZAAK AANTEKENING
 | domein_dcat |  |
 | gemma_naam | INGEZETENE |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c5e5f4f9-5bb6-4a9f-816b-e41abc770e86 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c5e5f4f9-5bb6-4a9f-816b-e41abc770e86](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c5e5f4f9-5bb6-4a9f-816b-e41abc770e86) |
 | gemma_definitie | Een individueel menselijk wezen, ingeschreven in het Nederlands Bevolkingsregister. |
 | gemma_toelichting |  |
 
@@ -1224,7 +1224,7 @@ Attributen van objecttype Ligplaats
 | domein_dcat |  |
 | gemma_naam | MAATSCHAPPELIJKE ACTIVITEIT |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-82773f8d-3aa1-4e1f-b6de-9284a1851960 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-82773f8d-3aa1-4e1f-b6de-9284a1851960](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-82773f8d-3aa1-4e1f-b6de-9284a1851960) |
 | gemma_definitie | Een verband tussen één of meer personen met voldoende mate van zelfstandigheid, inbreng van arbeid of middelen, winstoogmerk en extern optreden (i.g.v. een onderneming) dan wel een in een organisatorisch verband, dat toebehoort aan een niet-natuurlijk persoon welke registratieplichtig is, uitgeoefende activiteit die niet valt onder de criteria voor onderneming of bedrijfsmatigheid welke adresseerbaar is middels ofwel een vestiging ofwel het adres van een bepaalde vertegenwoordiger (i.g.v. een niet-ondernemings-activiteit). |
 | gemma_toelichting |  |
 
@@ -1271,7 +1271,7 @@ Attributen van objecttype MAATSCHAPPELIJKE ACTIVITEIT
 | domein_dcat |  |
 | gemma_naam | ADRESSEERBAAR OBJECT AANDUIDING |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cc3c2d8f-cb2f-4e39-a220-bff533892688 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cc3c2d8f-cb2f-4e39-a220-bff533892688](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cc3c2d8f-cb2f-4e39-a220-bff533892688) |
 | gemma_definitie | Een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een VERBLIJFSOBJECT, een STANDPLAATS of een LIGPLAATS. |
 | gemma_toelichting |  |
 
@@ -1441,7 +1441,7 @@ Attributen van objecttype OndersteunendWegdeel
 | domein_dcat |  |
 | gemma_naam | OPENBARE RUIMTE |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bb6b6dd2-7b6a-4146-afc0-c5647256ef11 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bb6b6dd2-7b6a-4146-afc0-c5647256ef11](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bb6b6dd2-7b6a-4146-afc0-c5647256ef11) |
 | gemma_definitie | Een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen |
 | gemma_toelichting |  |
 
@@ -1573,7 +1573,7 @@ Attributen van objecttype OverigBenoemdTerrein
 | domein_dcat |  |
 | gemma_naam | NATUURLIJK PERSOON |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cd27cd50-1721-4870-a292-ea0f24d1ada4 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cd27cd50-1721-4870-a292-ea0f24d1ada4](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cd27cd50-1721-4870-a292-ea0f24d1ada4) |
 | gemma_definitie | Een INGESCHREVEN PERSOON of ANDER NATUURLIJK PERSOON |
 | gemma_toelichting |  |
 
@@ -1717,7 +1717,7 @@ Attributen van objecttype OverigGebouwdObject
 | domein_dcat |  |
 | gemma_naam | NIET NATUURLIJK PERSOON |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6eaed538-bcc5-4648-b0f2-4c5095b9f514 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6eaed538-bcc5-4648-b0f2-4c5095b9f514](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6eaed538-bcc5-4648-b0f2-4c5095b9f514) |
 | gemma_definitie | Een INGESCHREVEN NIET-NATUURLIJK PERSOON of een ANDER BUITENLANDS NIET-NATUURLIJK PERSOON |
 | gemma_toelichting |  |
 
@@ -1767,7 +1767,7 @@ Attributen van objecttype NIET NATUURLIJK PERSOON
 | domein_dcat |  |
 | gemma_naam | OVERIGE ADRESSEERBAAR OBJECT AANDUIDING |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-900a1db0-0009-453f-a000-4d382bcc367d |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-900a1db0-0009-453f-a000-4d382bcc367d](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-900a1db0-0009-453f-a000-4d382bcc367d) |
 | gemma_definitie | Een door de gemeenteraad als zodanig toegekende aanduiding van een overig gebouwd object of een overig benoemd terrein. |
 | gemma_toelichting |  |
 
@@ -1847,7 +1847,7 @@ Attributen van objecttype OverigeScheiding
 | domein_dcat |  |
 | gemma_naam | PAND |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1affb298-091d-452a-83bd-29638650afb5 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1affb298-091d-452a-83bd-29638650afb5](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1affb298-091d-452a-83bd-29638650afb5) |
 | gemma_definitie | De kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is. |
 | gemma_toelichting |  |
 
@@ -1906,7 +1906,7 @@ Attributen van objecttype PAND
 | domein_dcat |  |
 | gemma_naam | REISDOCUMENT |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bd460a48-7720-465d-b12b-c15097ec620c |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bd460a48-7720-465d-b12b-c15097ec620c](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bd460a48-7720-465d-b12b-c15097ec620c) |
 | gemma_definitie | Een document dat vereist is voor reizen naar het buitenland |
 | gemma_toelichting |  |
 
@@ -2125,7 +2125,7 @@ Attributen van objecttype Rechtspersoon
 | domein_dcat |  |
 | gemma_naam | TENAAMSTELLING |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-429cbd2f-a86d-49d9-9c8a-0de67a7e7d3e |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-429cbd2f-a86d-49d9-9c8a-0de67a7e7d3e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-429cbd2f-a86d-49d9-9c8a-0de67a7e7d3e) |
 | gemma_definitie | Een TENAAMSTELLING  vormt de relatie tussen een Recht en een Persoon en geeft aan welk recht, met uitzondering van hypotheek en beslag, door een Persoon wordt uitgeoefend op een Kadastraal object. |
 | gemma_toelichting |  |
 
@@ -2209,7 +2209,7 @@ Attributen van objecttype Tunneldeel
 | domein_dcat |  |
 | gemma_naam | VESTIGING |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b403d1ab-a0ee-4ca0-befa-01bbc54bf403 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b403d1ab-a0ee-4ca0-befa-01bbc54bf403](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b403d1ab-a0ee-4ca0-befa-01bbc54bf403) |
 | gemma_definitie | Een gebouw of complex van gebouwen waar duurzame uitoefening van de activiteiten van een onderneming of rechtspersoon plaatsvindt. |
 | gemma_toelichting |  |
 
@@ -2305,7 +2305,7 @@ Attributen van objecttype Vegetatieobject
 | domein_dcat |  |
 | gemma_naam | VERBLIJFSOBJECT |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-67a1d348-4663-4a34-8b6a-06b3ea888a9d |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-67a1d348-4663-4a34-8b6a-06b3ea888a9d](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-67a1d348-4663-4a34-8b6a-06b3ea888a9d) |
 | gemma_definitie | De kleinste binnen één of meer panden gelegen en voor woon -, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is. |
 | gemma_toelichting |  |
 
@@ -2444,7 +2444,7 @@ Attributen van objecttype Wegdeel
 | domein_dcat |  |
 | gemma_naam | VERBLIJFSTITEL |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fd0e38fd-ce78-454e-9d27-268a9e15ca40 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fd0e38fd-ce78-454e-9d27-268a9e15ca40](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fd0e38fd-ce78-454e-9d27-268a9e15ca40) |
 | gemma_definitie | Rechtsgrond op basis waarvan men bevoegd is in een land te verblijven. Opmerkingen obv Key2Burgerzaken: De verblijfstitel heeft een ingangs- en vervaldatum, datum geldig en een opname datum RSGB3.0 onderkent alleen Datum einde en Datum ingang. Dat is onvoldoende om volgorde en geldigheid in tijd correct te bepalen |
 | gemma_toelichting |  |
 
@@ -2484,7 +2484,7 @@ Attributen van objecttype VERBLIJFSTITEL
 | domein_dcat |  |
 | gemma_naam | WIJK |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fd33a9fa-9c73-43a1-8e22-8cff15dc84d9 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fd33a9fa-9c73-43a1-8e22-8cff15dc84d9](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fd33a9fa-9c73-43a1-8e22-8cff15dc84d9) |
 | gemma_definitie | Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken. |
 | gemma_toelichting |  |
 
@@ -2526,7 +2526,7 @@ Attributen van objecttype WIJK
 | domein_dcat |  |
 | gemma_naam | WOONPLAATS |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c063970e-27f6-45a2-88e8-0105dbbce716 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c063970e-27f6-45a2-88e8-0105dbbce716](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c063970e-27f6-45a2-88e8-0105dbbce716) |
 | gemma_definitie | Een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente. |
 | gemma_toelichting |  |
 
@@ -2570,7 +2570,7 @@ Attributen van objecttype WOONPLAATS
 | domein_dcat |  |
 | gemma_naam | WOZ-DEELOBJECT |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8047febd-3ee4-4a35-83ce-5f538c607446 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8047febd-3ee4-4a35-83ce-5f538c607446](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8047febd-3ee4-4a35-83ce-5f538c607446) |
 | gemma_definitie | Aanduiding van afzonderlijke elementen (delen van het object, bijzondere waarderelevante factoren) die voor de onderbouwing van de vastgestelde waarde van belang zijn. |
 | gemma_toelichting |  |
 
@@ -2612,7 +2612,7 @@ Attributen van objecttype WOZ-DEELOBJECT
 | domein_dcat |  |
 | gemma_naam | WOZ-OBJECT |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3f1aeea3-a5a8-4df6-af1e-51d5ef4ad32f |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3f1aeea3-a5a8-4df6-af1e-51d5ef4ad32f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3f1aeea3-a5a8-4df6-af1e-51d5ef4ad32f) |
 | gemma_definitie | De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet worden bepaald en vastgesteld. |
 | gemma_toelichting |  |
 
@@ -2697,7 +2697,7 @@ Attributen van objecttype WOZWaarde
 | domein_dcat |  |
 | gemma_naam | ZAKELIJK RECHT |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-671ec5bd-e8ac-44d7-8a01-cc9b439c6c5f |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-671ec5bd-e8ac-44d7-8a01-cc9b439c6c5f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-671ec5bd-e8ac-44d7-8a01-cc9b439c6c5f) |
 | gemma_definitie | Het eigendom van, of een beperkt recht van een natuurlijk of niet-natuurlijk persoon (PERSOON) op, een onroerende zaak (met uitzondering van hypotheken en beslagen). |
 | gemma_toelichting |  |
 
@@ -2738,7 +2738,7 @@ Attributen van objecttype ZAKELIJK RECHT
 | domein_dcat |  |
 | gemma_naam | ZEKERHEIDSRECHT |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0f33d06b-3e1f-4693-87af-2a5a9b739219 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0f33d06b-3e1f-4693-87af-2a5a9b739219](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0f33d06b-3e1f-4693-87af-2a5a9b739219) |
 | gemma_definitie | Een zekerheidsrecht is een beperkt recht (hypotheek) of een beperking (beslag). |
 | gemma_toelichting |  |
 

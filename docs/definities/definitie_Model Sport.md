@@ -57,7 +57,7 @@ Het model 'Model Sport' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Belijning |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-28c55e98-3c0d-4314-9eb0-d0985b1ba564 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-28c55e98-3c0d-4314-9eb0-d0985b1ba564](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-28c55e98-3c0d-4314-9eb0-d0985b1ba564) |
 | gemma_definitie | Op of in het oppervlak van de verharding aangebrachte tekens ter geleiding, waarschuwing, regeling of informatie van het verkeer |
 | gemma_toelichting |  |
 
@@ -92,7 +92,7 @@ Attributen van objecttype Belijning
 | domein_dcat |  |
 | gemma_naam | Bezetting |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f79e21a0-261c-4897-822c-d376a4cc0629 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f79e21a0-261c-4897-822c-d376a4cc0629](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f79e21a0-261c-4897-822c-d376a4cc0629) |
 | gemma_definitie | Aantal deelnemers aan een activiteit |
 | gemma_toelichting |  |
 
@@ -126,7 +126,7 @@ Attributen van objecttype Bezetting
 | domein_dcat |  |
 | gemma_naam | Binnenlocatie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cda4149f-f0a0-44d9-b893-25bcce04d20d |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cda4149f-f0a0-44d9-b893-25bcce04d20d](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cda4149f-f0a0-44d9-b893-25bcce04d20d) |
 | gemma_definitie | Locatie binnen een gebouw |
 | gemma_toelichting |  |
 
@@ -176,7 +176,7 @@ Attributen van objecttype Binnenlocatie
 | domein_dcat |  |
 | gemma_naam | Onderhoudskosten |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d7fc4b3b-d61d-4fd3-a9dc-15adcb54f861 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d7fc4b3b-d61d-4fd3-a9dc-15adcb54f861](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d7fc4b3b-d61d-4fd3-a9dc-15adcb54f861) |
 | gemma_definitie | Kosten voor het onderhoud van iemand of iets, hetzij om te voorzien in de levensbehoeften van personen, hetzij voor de instandhouding en verzorging van zaken. |
 | gemma_toelichting |  |
 
@@ -210,7 +210,7 @@ Attributen van objecttype Onderhoudskosten
 | domein_dcat |  |
 | gemma_naam | Sportlocatie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a7a350a2-a9aa-4437-b67b-016fec0d048d |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a7a350a2-a9aa-4437-b67b-016fec0d048d](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a7a350a2-a9aa-4437-b67b-016fec0d048d) |
 | gemma_definitie | Locatie waar de betreffende sport plaatsvindt |
 | gemma_toelichting |  |
 
@@ -245,7 +245,7 @@ Attributen van objecttype Sportlocatie
 | domein_dcat |  |
 | gemma_naam | Sportmateriaal |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-488958ee-08fd-4818-af8b-2d7ebb73c01f |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-488958ee-08fd-4818-af8b-2d7ebb73c01f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-488958ee-08fd-4818-af8b-2d7ebb73c01f) |
 | gemma_definitie | Materieel om sport mee te beoefenen of ter odnersteuning van de sportuitvoering. |
 | gemma_toelichting |  |
 
@@ -280,7 +280,7 @@ Attributen van objecttype Sportmateriaal
 | domein_dcat |  |
 | gemma_naam | Sportpark |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ca9df4ee-92e1-4c24-ace3-467d146a320e |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ca9df4ee-92e1-4c24-ace3-467d146a320e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ca9df4ee-92e1-4c24-ace3-467d146a320e) |
 | gemma_definitie | Geheel van terreinen, gebouwen en voorzieningen voor verschillende takken van sport. |
 | gemma_toelichting |  |
 
@@ -316,7 +316,7 @@ Attributen van objecttype Sportpark
 | domein_dcat |  |
 | gemma_naam | Sportvereniging |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-59d3efaa-a05f-477a-a271-49bac323939f |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-59d3efaa-a05f-477a-a271-49bac323939f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-59d3efaa-a05f-477a-a271-49bac323939f) |
 | gemma_definitie | Organisatievorm waarin sport bedreven kan worden |
 | gemma_toelichting |  |
 
@@ -360,7 +360,7 @@ Attributen van objecttype Sportvereniging
 | domein_dcat |  |
 | gemma_naam | Veld |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0f53081c-01f9-4c0a-b049-77d310a0ea33 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0f53081c-01f9-4c0a-b049-77d310a0ea33](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0f53081c-01f9-4c0a-b049-77d310a0ea33) |
 | gemma_definitie | Een stuk land dat speciaal voor het bedrijven van een veldsport gereedgemaakt is |
 | gemma_toelichting |  |
 

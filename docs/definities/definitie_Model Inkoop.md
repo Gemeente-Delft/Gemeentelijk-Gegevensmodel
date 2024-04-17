@@ -68,7 +68,7 @@ Het model 'Model Inkoop' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Aanbesteding |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bc6f065d-05c9-454d-a18d-1c0c2a2dfe15 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bc6f065d-05c9-454d-a18d-1c0c2a2dfe15](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bc6f065d-05c9-454d-a18d-1c0c2a2dfe15) |
 | gemma_definitie | Kan een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding |
 | gemma_toelichting |  |
 
@@ -117,7 +117,7 @@ Attributen van objecttype Aanbesteding
 | domein_dcat |  |
 | gemma_naam | Aanbesteding Inhuur |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-686c0af1-67b2-42a4-8690-060705617c13 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-686c0af1-67b2-42a4-8690-060705617c13](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-686c0af1-67b2-42a4-8690-060705617c13) |
 | gemma_definitie | Aanbesteding voor inhuur van personen of diensten |
 | gemma_toelichting |  |
 
@@ -175,7 +175,7 @@ Attributen van objecttype Aanbesteding Inhuur
 | domein_dcat |  |
 | gemma_naam | Aankondiging |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-11a5fd2d-0237-4e70-b859-d1e26456553b |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-11a5fd2d-0237-4e70-b859-d1e26456553b](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-11a5fd2d-0237-4e70-b859-d1e26456553b) |
 | gemma_definitie | Aankondiging van een Nationale of Europese aanbesteding |
 | gemma_toelichting |  |
 
@@ -215,7 +215,7 @@ Attributen van objecttype Aankondiging
 | domein_dcat |  |
 | gemma_naam | Aanvraag Inkooporder |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8d9233d7-dfb9-4b87-bab2-61631a632f95 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8d9233d7-dfb9-4b87-bab2-61631a632f95](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8d9233d7-dfb9-4b87-bab2-61631a632f95) |
 | gemma_definitie | het betreft hier het formulier 'Aanvraag Inkooporder' |
 | gemma_toelichting |  |
 
@@ -301,7 +301,7 @@ Attributen van objecttype Categorie
 | domein_dcat |  |
 | gemma_naam | Contract |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f96af00f-2933-42d0-aacf-58ccb4a0ef52 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f96af00f-2933-42d0-aacf-58ccb4a0ef52](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f96af00f-2933-42d0-aacf-58ccb4a0ef52) |
 | gemma_definitie | Bindende overeenkomst |
 | gemma_toelichting |  |
 
@@ -354,7 +354,7 @@ Attributen van objecttype Contract
 | domein_dcat |  |
 | gemma_naam | CPV-code |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b6c26d6b-c773-4b50-ba03-a8463f23889a |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b6c26d6b-c773-4b50-ba03-a8463f23889a](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b6c26d6b-c773-4b50-ba03-a8463f23889a) |
 | gemma_definitie | De Common Procurement Vocabulary (CPV-codes) is een gemeenschappelijke woordenlijst van de EU, alle mogelijke soorten overheidsopdrachten voor diensten, leveringen en werken hebben een eigen code gekregen. Aanbestedende diensten moeten bij Europese aanbestedingen dit classificatiesysteem toepassen. |
 | gemma_toelichting |  |
 
@@ -474,7 +474,7 @@ Attributen van objecttype FormulierVerlengingInhuur
 | domein_dcat |  |
 | gemma_naam | Gunning |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-70e40543-6a99-433d-8a01-f4273e308410 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-70e40543-6a99-433d-8a01-f4273e308410](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-70e40543-6a99-433d-8a01-f4273e308410) |
 | gemma_definitie | Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding  Of voor levering personeel |
 | gemma_toelichting |  |
 
@@ -555,7 +555,7 @@ Attributen van objecttype Inkooppakket
 | domein_dcat |  |
 | gemma_naam | Inschrijving |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e1c425c1-a3fe-4144-907d-13da8d9fb5cc |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e1c425c1-a3fe-4144-907d-13da8d9fb5cc](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e1c425c1-a3fe-4144-907d-13da8d9fb5cc) |
 | gemma_definitie | Inschrijving op een nationale of Europese aanbesteding |
 | gemma_toelichting |  |
 
@@ -593,7 +593,7 @@ Attributen van objecttype Inschrijving
 | domein_dcat |  |
 | gemma_naam | Kandidaat |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-dc97ebf4-61ee-47f6-a108-af6bb4a276f7 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-dc97ebf4-61ee-47f6-a108-af6bb4a276f7](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-dc97ebf4-61ee-47f6-a108-af6bb4a276f7) |
 | gemma_definitie | Iemand die een bepaalde baan of functie wil |
 | gemma_toelichting |  |
 
@@ -667,7 +667,7 @@ Attributen van objecttype Kwalificatie
 | domein_dcat |  |
 | gemma_naam | Leverancier |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-113af80a-7e3e-41f6-8f79-8d0d48c4c257 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-113af80a-7e3e-41f6-8f79-8d0d48c4c257](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-113af80a-7e3e-41f6-8f79-8d0d48c4c257) |
 | gemma_definitie | Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie |
 | gemma_toelichting |  |
 
@@ -707,7 +707,7 @@ Attributen van objecttype Leverancier
 | domein_dcat |  |
 | gemma_naam | Offerte |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6d31df7d-b7f9-4f50-be9f-eaf05c697f6e |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6d31df7d-b7f9-4f50-be9f-eaf05c697f6e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6d31df7d-b7f9-4f50-be9f-eaf05c697f6e) |
 | gemma_definitie | Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs. |
 | gemma_toelichting |  |
 
@@ -747,7 +747,7 @@ Attributen van objecttype Offerte
 | domein_dcat |  |
 | gemma_naam | Offerteaanvraag |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1b3c3c06-c7e9-40c0-8fa1-dbbc3c23152f |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1b3c3c06-c7e9-40c0-8fa1-dbbc3c23152f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1b3c3c06-c7e9-40c0-8fa1-dbbc3c23152f) |
 | gemma_definitie | Aanbesteding bij inschrijving |
 | gemma_toelichting |  |
 
@@ -877,7 +877,7 @@ Attributen van objecttype StartformulierAanbesteden
 | domein_dcat |  |
 | gemma_naam | Uitnodiging |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-16b98915-5c5e-4933-bfc0-9db634c47acb |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-16b98915-5c5e-4933-bfc0-9db634c47acb](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-16b98915-5c5e-4933-bfc0-9db634c47acb) |
 | gemma_definitie | Een verzoek om iets bij te wonen. |
 | gemma_toelichting |  |
 

@@ -54,7 +54,7 @@ Het model 'Model Toepasbare Regels' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Conclusie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-16995484-0391-40d1-99c3-2ba2292e276f |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-16995484-0391-40d1-99c3-2ba2292e276f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-16995484-0391-40d1-99c3-2ba2292e276f) |
 | gemma_definitie | Conclusie van de check. Antwoord op de vraag of ik een melding moet doen of een vergunning aan moet vragen voor een bepaalde activiteit. |
 | gemma_toelichting |  |
 
@@ -88,7 +88,7 @@ Attributen van objecttype Conclusie
 | domein_dcat |  |
 | gemma_naam | Indieningsvereisten |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c92e9c16-1ec3-46f8-b209-b15a226e9477 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c92e9c16-1ec3-46f8-b209-b15a226e9477](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c92e9c16-1ec3-46f8-b209-b15a226e9477) |
 | gemma_definitie | Dat wat de initiatiefnemer moet aanleveren om het bevoegd gezag een aanvraag te kunnen laten beoordelen. De indieningsvereisten is de set aan informatie (gegevens en / of bijlagen) die aan een aanvraag moet worden toegevoegd voor een bepaalde vergunning of melding. |
 | gemma_toelichting |  |
 
@@ -122,7 +122,7 @@ Attributen van objecttype Indieningsvereisten
 | domein_dcat |  |
 | gemma_naam | Maatregelen |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c87f39a5-c4b4-4c82-bf23-f9fc521ad0aa |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c87f39a5-c4b4-4c82-bf23-f9fc521ad0aa](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c87f39a5-c4b4-4c82-bf23-f9fc521ad0aa) |
 | gemma_definitie | Beschrijft welke handelingen iemand moet uitvoeren om aan Voorschriften te kunnen voldoen. |
 | gemma_toelichting |  |
 
@@ -160,7 +160,7 @@ Attributen van objecttype Maatregelen
 | domein_dcat |  |
 | gemma_naam | Toepasbare Regel |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b2498fa2-f9ff-48dd-946d-8b8ed395da81 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b2498fa2-f9ff-48dd-946d-8b8ed395da81](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b2498fa2-f9ff-48dd-946d-8b8ed395da81) |
 | gemma_definitie | <i>Vanwege de leesbaarheid wordt gewerkt met de term Toepasbare regel ipv regelbeheersobject</i> <i> </i><i>Een regelbeheerobject heeft een koppeling met een samenhangende set met regels om een afleiding te kunnen doen. Het regelbeheerobject ‘conclusie gevelaanpassing’ kan een vraag beantwoorden zoals: “Heb ik een vergunning nodig voor het veranderen van een kozijn, kozijninvulling of gevelpaneel”. Het regelbeheerobject ‘melding lozing’ beantwoordt de vraag “Wat moet ik aan informatie (gegevens en documenten) aanleveren als ik ga lozen vanuit particuliere huishoudens”. Het regelbeheerobject “Opslaan van gasolie smeerolie of afgewerkte olie in een bovengrondse opslagtank” </i>geeft aan welke maatregelen genomen dienen te worden. Het regelbeheerobject is onderdeel van de functionele structuur. De set met regels is gedefinieerd in het Toepasbare regelbestand<sup>2</sup>. |
 | gemma_toelichting |  |
 
@@ -241,7 +241,7 @@ Attributen van objecttype ToepasbareRegelBestand
 | domein_dcat |  |
 | gemma_naam | Uitvoeringsregel |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0833a871-2597-43ea-90e9-a0c4b5f53572 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0833a871-2597-43ea-90e9-a0c4b5f53572](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0833a871-2597-43ea-90e9-a0c4b5f53572) |
 | gemma_definitie | De uitvoeringsregels bepalen hoe de benodigde gegevens (input data) wordt uitgevraagd. Dit kan op verschillende manieren gebeuren zoals een vraag aan een initiatiefnemer of een bevraging van een registratie. |
 | gemma_toelichting |  |
 

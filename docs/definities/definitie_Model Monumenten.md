@@ -54,7 +54,7 @@ Het model 'Model Monumenten' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Ambacht |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bb9de7ad-7e7e-4b87-9968-046d9bedd6ef |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bb9de7ad-7e7e-4b87-9968-046d9bedd6ef](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bb9de7ad-7e7e-4b87-9968-046d9bedd6ef) |
 | gemma_definitie | Beroep waarbij een handwerker met gereedschap eindproducten maakt. |
 | gemma_toelichting |  |
 
@@ -91,7 +91,7 @@ Attributen van objecttype Ambacht
 | domein_dcat |  |
 | gemma_naam | Beschermde Status |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4ebf7f05-0ff1-4d2e-aa62-879be7565dd7 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4ebf7f05-0ff1-4d2e-aa62-879be7565dd7](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4ebf7f05-0ff1-4d2e-aa62-879be7565dd7) |
 | gemma_definitie | Status van de bescherming van een monument. Een monument / erfgoed is een overblijfsel van kunst, cultuur, architectuur of nijverheid dat van algemeen belang wordt geacht vanwege de historische, volkskundige, artistieke, wetenschappelijke, industrieel-archeologische of andere sociaal-culturele waarde. Vormen van monument / erfgoed met de status rijks- provinciaal- of gemeentelijke monument / erfgoed zijn beschermd op grond van een besluit van respectievelijk het Ministerie OCW, de provincie of de gemeente, |
 | gemma_toelichting |  |
 
@@ -143,7 +143,7 @@ Attributen van objecttype Beschermde Status
 | domein_dcat |  |
 | gemma_naam | Bouwactiviteit |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2b2319c1-d5b9-43c6-87cb-43bb194c65c6 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2b2319c1-d5b9-43c6-87cb-43bb194c65c6](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2b2319c1-d5b9-43c6-87cb-43bb194c65c6) |
 | gemma_definitie | Het bouwen van een bouwwerk. |
 | gemma_toelichting |  |
 
@@ -182,7 +182,7 @@ Attributen van objecttype Bouwactiviteit
 | domein_dcat |  |
 | gemma_naam | Bouwstijl |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b46a0ac4-5d5a-430a-be26-9b40cc3bb7af |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b46a0ac4-5d5a-430a-be26-9b40cc3bb7af](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b46a0ac4-5d5a-430a-be26-9b40cc3bb7af) |
 | gemma_definitie | Trant van bouwen met bepaalde kenmerken in een bepaalde periode. In de betrokken tijdperken waren het geen levende voorstellingen; het zijn later geformuleerde (generaliserende) geschiedkundige constructies. Doelbewust komt deze tendens op sedert c. 1830. (Haslinghuis) |
 | gemma_toelichting |  |
 

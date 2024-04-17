@@ -94,7 +94,7 @@ Attributen van objecttype Betaalmoment
 | domein_dcat |  |
 | gemma_naam | Rapportagemoment |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0ae46688-6cc8-4553-adc7-04b2ed7b8b8f |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0ae46688-6cc8-4553-adc7-04b2ed7b8b8f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0ae46688-6cc8-4553-adc7-04b2ed7b8b8f) |
 | gemma_definitie | Een vantevoren bepaald tijdstip waarom een gegevensanalyse wordt uitgevoerd |
 | gemma_toelichting |  |
 
@@ -133,7 +133,7 @@ Attributen van objecttype Rapportagemoment
 | domein_dcat |  |
 | gemma_naam | Sector |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-60596f8e-1454-4ca8-9a31-64e7fc554815 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-60596f8e-1454-4ca8-9a31-64e7fc554815](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-60596f8e-1454-4ca8-9a31-64e7fc554815) |
 | gemma_definitie | Sector is de verzameling van werkzaamheden, gericht op de productie van bepaalde goederen en diensten. Het gaat hierbij niet alleen om activiteiten van het bedrijfsleven, maar ook om activiteiten van niet op winst gerichte instellingen en de overheid. |
 | gemma_toelichting |  |
 
@@ -169,7 +169,7 @@ Attributen van objecttype Sector
 | domein_dcat |  |
 | gemma_naam | Subsidie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1fe5c807-e9a7-4f44-a2b6-816341875d6e |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1fe5c807-e9a7-4f44-a2b6-816341875d6e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1fe5c807-e9a7-4f44-a2b6-816341875d6e) |
 | gemma_definitie | Aan derden toegekende financiele middelen, bestemd voor het uitvoeren van bepaalde activiteiten |
 | gemma_toelichting |  |
 
@@ -238,7 +238,7 @@ Attributen van objecttype Subsidie
 | domein_dcat |  |
 | gemma_naam | Subsidieaanvraag |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4e5cd8a8-0110-4038-9b91-1f0562401398 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4e5cd8a8-0110-4038-9b91-1f0562401398](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4e5cd8a8-0110-4038-9b91-1f0562401398) |
 | gemma_definitie | Aanvraag voor een subsidie |
 | gemma_toelichting |  |
 
@@ -279,7 +279,7 @@ Attributen van objecttype Subsidieaanvraag
 | domein_dcat |  |
 | gemma_naam | Subsidiebeschikking |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0cbc6488-2932-4634-b226-a741ba030a46 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0cbc6488-2932-4634-b226-a741ba030a46](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0cbc6488-2932-4634-b226-a741ba030a46) |
 | gemma_definitie | Besluit over het al dan niet toekennen van een subsidie |
 | gemma_toelichting |  |
 
@@ -359,7 +359,7 @@ Attributen van objecttype Subsidiecomponent
 | domein_dcat |  |
 | gemma_naam | Subsidieprogramma |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3c8f512f-33ab-4e24-8ea4-820796359003 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3c8f512f-33ab-4e24-8ea4-820796359003](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3c8f512f-33ab-4e24-8ea4-820796359003) |
 | gemma_definitie | Programma waarin meerdere subsidies worden verleend vanuit een bepaalde samenhang |
 | gemma_toelichting |  |
 
@@ -399,7 +399,7 @@ Attributen van objecttype Subsidieprogramma
 | domein_dcat |  |
 | gemma_naam | Taak |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-020a5c18-9065-48d4-9cdd-5500cf5ce9ae |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-020a5c18-9065-48d4-9cdd-5500cf5ce9ae](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-020a5c18-9065-48d4-9cdd-5500cf5ce9ae) |
 | gemma_definitie | Een samenhangende set activiteiten in het kader van een subsidie. |
 | gemma_toelichting |  |
 

@@ -49,7 +49,7 @@ Het model 'Model Gemeentebegrafenissen' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Gemeentebegrafenis |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a0f96391-4935-4c7a-be2b-2fa1b00da57f |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a0f96391-4935-4c7a-be2b-2fa1b00da57f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a0f96391-4935-4c7a-be2b-2fa1b00da57f) |
 | gemma_definitie | Teraardebestelling onder verantwoordelijjkheid van de gemeente. |
 | gemma_toelichting |  |
 

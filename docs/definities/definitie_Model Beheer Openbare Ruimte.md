@@ -106,7 +106,7 @@ Attributen van objecttype Actie
 | domein_dcat |  |
 | gemma_naam | Areaal |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1dc502a7-f60b-4950-92b1-9a7f8cdc471f |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1dc502a7-f60b-4950-92b1-9a7f8cdc471f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1dc502a7-f60b-4950-92b1-9a7f8cdc471f) |
 | gemma_definitie | Het verspreidingsgebied van een een soort, een levensgemeenschap of een biotooptype. |
 | gemma_toelichting |  |
 
@@ -244,7 +244,7 @@ Attributen van objecttype Fase/Oplevering
 | domein_dcat |  |
 | gemma_naam | Geo-Object |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f5de1e41-5207-4d9e-a4f8-7889b5c1e2b1 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f5de1e41-5207-4d9e-a4f8-7889b5c1e2b1](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f5de1e41-5207-4d9e-a4f8-7889b5c1e2b1) |
 | gemma_definitie | Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011] |
 | gemma_toelichting | Bevat een aantal basisgegevens die in alle geo-objecten terugkomen. |
 
@@ -282,7 +282,7 @@ Attributen van objecttype Geo-Object
 | domein_dcat |  |
 | gemma_naam | Grondbeheerder |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cd7b6b9c-3bf7-4c3a-bbde-e72f38d76fe0 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cd7b6b9c-3bf7-4c3a-bbde-e72f38d76fe0](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cd7b6b9c-3bf7-4c3a-bbde-e72f38d76fe0) |
 | gemma_definitie | Beheerder van grondgrondbeheer., oplossing voor duurzaam landbeheer en voedselproductie |
 | gemma_toelichting |  |
 
@@ -350,7 +350,7 @@ Attributen van objecttype Inspectie
 | domein_dcat |  |
 | gemma_naam | KadastraleMutatie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4c80e4c9-5e35-43d8-8438-2860c18949f0 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4c80e4c9-5e35-43d8-8438-2860c18949f0](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4c80e4c9-5e35-43d8-8438-2860c18949f0) |
 | gemma_definitie | Wijziging in de kadatrale registratie |
 | gemma_toelichting |  |
 
@@ -387,7 +387,7 @@ Attributen van objecttype KadastraleMutatie
 | domein_dcat |  |
 | gemma_naam | Kwaliteitscatalogus Openbare Ruimte |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d9f93ca7-e915-4c2d-93b8-821e8e2bcae2 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d9f93ca7-e915-4c2d-93b8-821e8e2bcae2](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d9f93ca7-e915-4c2d-93b8-821e8e2bcae2) |
 | gemma_definitie | zie https://www.crow.nl/publicaties/kwaliteitscatalogus-openbare-ruimte-2018 |
 | gemma_toelichting |  |
 
@@ -421,7 +421,7 @@ Attributen van objecttype Kwaliteitscatalogus Openbare Ruimte
 | domein_dcat |  |
 | gemma_naam | Kwaliteitskenmerken |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0b0d8f74-8a70-4fb9-adbd-77233740ddc3 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0b0d8f74-8a70-4fb9-adbd-77233740ddc3](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0b0d8f74-8a70-4fb9-adbd-77233740ddc3) |
 | gemma_definitie | Aanduiding van de hoedanigheid van uitvoering, bewerking en representativiteit van een meting, volgens een overeengekomen waarderingsschaal. |
 | gemma_toelichting |  |
 
@@ -455,7 +455,7 @@ Attributen van objecttype Kwaliteitskenmerken
 | domein_dcat |  |
 | gemma_naam | Logboek |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5547cc2e-c193-4d41-a6e2-8f04b5e3cd92 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5547cc2e-c193-4d41-a6e2-8f04b5e3cd92](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5547cc2e-c193-4d41-a6e2-8f04b5e3cd92) |
 | gemma_definitie | Registratie waarin gebeurtenissen worden bijgehouden. |
 | gemma_toelichting |  |
 
@@ -489,7 +489,7 @@ Attributen van objecttype Logboek
 | domein_dcat |  |
 | gemma_naam | Melding |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1a89112a-e13c-4c87-a862-e8ec66c01588 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1a89112a-e13c-4c87-a862-e8ec66c01588](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1a89112a-e13c-4c87-a862-e8ec66c01588) |
 | gemma_definitie | De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend |
 | gemma_toelichting |  |
 
@@ -568,7 +568,7 @@ Attributen van objecttype MeldingOngeval
 | domein_dcat |  |
 | gemma_naam | MOOR-melding |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4e149a77-4fcc-4f4a-ac18-b6655848b5c1 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4e149a77-4fcc-4f4a-ac18-b6655848b5c1](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4e149a77-4fcc-4f4a-ac18-b6655848b5c1) |
 | gemma_definitie | Meldingsproces rondom werkzaamheden aan kabels en leidingen. |
 | gemma_toelichting |  |
 
@@ -613,7 +613,7 @@ Attributen van objecttype MOOR-melding
 | domein_dcat |  |
 | gemma_naam | Omgevingsvergunning |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5bd99108-61d6-4b8f-ab84-dd16011d10db |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5bd99108-61d6-4b8f-ab84-dd16011d10db](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5bd99108-61d6-4b8f-ab84-dd16011d10db) |
 | gemma_definitie | Vergunning als bedoeld in afdeling 5.1 van de Omgevingswet |
 | gemma_toelichting |  |
 
@@ -649,7 +649,7 @@ Attributen van objecttype Omgevingsvergunning
 | domein_dcat |  |
 | gemma_naam | Onderhoud |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c25777ae-ed48-4285-b244-66715cd2e299 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c25777ae-ed48-4285-b244-66715cd2e299](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c25777ae-ed48-4285-b244-66715cd2e299) |
 | gemma_definitie | Maatregelen om de functionele kwaliteit in stand te houden of te herstellen en dus de levensduur van een (object)onderdeel te realiseren c.q. te verlengen. |
 | gemma_toelichting |  |
 
@@ -683,7 +683,7 @@ Attributen van objecttype Onderhoud
 | domein_dcat |  |
 | gemma_naam | Opbreking |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5b02590d-3c1e-416c-ad2b-9edbef005ba5 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5b02590d-3c1e-416c-ad2b-9edbef005ba5](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5b02590d-3c1e-416c-ad2b-9edbef005ba5) |
 | gemma_definitie | Vorm van wegwerkzaamheid |
 | gemma_toelichting |  |
 
@@ -717,7 +717,7 @@ Attributen van objecttype Opbreking
 | domein_dcat |  |
 | gemma_naam | Proces-verbaal-MOOR-melding |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-48bc7e60-2a17-4909-b475-b18938e79048 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-48bc7e60-2a17-4909-b475-b18938e79048](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-48bc7e60-2a17-4909-b475-b18938e79048) |
 | gemma_definitie | Officieel op papier gesteld verslag met betrekking tot heen MOOR-melding |
 | gemma_toelichting |  |
 
@@ -755,7 +755,7 @@ Attributen van objecttype Proces-verbaal-MOOR-melding
 | domein_dcat |  |
 | gemma_naam | Schouwronde |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0a945e86-b4f2-45b2-855f-ed9fd0b4dca1 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0a945e86-b4f2-45b2-855f-ed9fd0b4dca1](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0a945e86-b4f2-45b2-855f-ed9fd0b4dca1) |
 | gemma_definitie | Activiteit om te controleren of de opdrachtnemer aan de afspraken voldoet. |
 | gemma_toelichting |  |
 
@@ -857,7 +857,7 @@ Attributen van objecttype Taak
 | domein_dcat |  |
 | gemma_naam | Uitvoerder Graafwerkzaamheden |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6f57464b-d011-4a75-afe8-a69b543c042b |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6f57464b-d011-4a75-afe8-a69b543c042b](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6f57464b-d011-4a75-afe8-a69b543c042b) |
 | gemma_definitie | Degene die op de bouwlocatie van een project de leiding heeft met betrekking tot de graafwerkzaamheden |
 | gemma_toelichting |  |
 

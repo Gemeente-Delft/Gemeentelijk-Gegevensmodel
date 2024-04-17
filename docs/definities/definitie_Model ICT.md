@@ -83,7 +83,7 @@ Het model 'Model ICT' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Aanvraag |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b8b3fe1a-ea07-49a3-8580-4291afa6f26d |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b8b3fe1a-ea07-49a3-8580-4291afa6f26d](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b8b3fe1a-ea07-49a3-8580-4291afa6f26d) |
 | gemma_definitie | (officieel) verzoek, iets (officieel) vragen aan een bevoegde macht. |
 | gemma_toelichting |  |
 
@@ -117,7 +117,7 @@ Attributen van objecttype Aanvraag
 | domein_dcat |  |
 | gemma_naam | Applicatie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f5c91145-fba4-47cb-aaf9-bb9c64e19a21 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f5c91145-fba4-47cb-aaf9-bb9c64e19a21](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f5c91145-fba4-47cb-aaf9-bb9c64e19a21) |
 | gemma_definitie | Een applicatiecomponent die gericht is op het ondersteunen van eindgebruikers. |
 | gemma_toelichting |  |
 
@@ -259,7 +259,7 @@ Attributen van objecttype Classificatie
 | domein_dcat |  |
 | gemma_naam | CMDB-item |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f5365fcc-279e-42e5-bde4-e7b10700a8ed |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f5365fcc-279e-42e5-bde4-e7b10700a8ed](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f5365fcc-279e-42e5-bde4-e7b10700a8ed) |
 | gemma_definitie | Item in een Configuratie Management DataBase |
 | gemma_toelichting |  |
 
@@ -295,7 +295,7 @@ Attributen van objecttype CMDB-item
 | domein_dcat |  |
 | gemma_naam | Database |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d548564c-a918-47e4-ae60-697f0ed3e7aa |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d548564c-a918-47e4-ae60-697f0ed3e7aa](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d548564c-a918-47e4-ae60-697f0ed3e7aa) |
 | gemma_definitie | Een applicatiecomponent die een dataset bevat. |
 | gemma_toelichting |  |
 
@@ -385,7 +385,7 @@ Attributen van objecttype Datatype
 | domein_dcat |  |
 | gemma_naam | Dienst |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6cc63d39-c5a3-4d09-8eab-22e56384fe7e |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6cc63d39-c5a3-4d09-8eab-22e56384fe7e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6cc63d39-c5a3-4d09-8eab-22e56384fe7e) |
 | gemma_definitie | Het uitvoeren van werkzaamheden met een continu of periodiek karakter om waarde te realiseren voor een afnemer. |
 | gemma_toelichting |  |
 
@@ -423,7 +423,7 @@ Attributen van objecttype Dienst
 | domein_dcat |  |
 | gemma_naam | Domein/Taakveld |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a6ea9d59-4ac3-4aca-ba3f-1b52e741b56b |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a6ea9d59-4ac3-4aca-ba3f-1b52e741b56b](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a6ea9d59-4ac3-4aca-ba3f-1b52e741b56b) |
 | gemma_definitie | Kennisgebied of activiteit gekarakteriseerd door een verzameling van concepten, begrippen en/of waarden |
 | gemma_toelichting |  |
 
@@ -457,7 +457,7 @@ Attributen van objecttype Domein/Taakveld
 | domein_dcat |  |
 | gemma_naam | Externe Bron |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c8645fb0-cd62-4940-9e68-306579d7dfd0 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c8645fb0-cd62-4940-9e68-306579d7dfd0](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c8645fb0-cd62-4940-9e68-306579d7dfd0) |
 | gemma_definitie | Bron buiten de eigen organisatie |
 | gemma_toelichting |  |
 
@@ -494,7 +494,7 @@ Attributen van objecttype Externe Bron
 | domein_dcat |  |
 | gemma_naam | Gegeven |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-38d8e66f-29f5-4387-b12f-1291ee266080 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-38d8e66f-29f5-4387-b12f-1291ee266080](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-38d8e66f-29f5-4387-b12f-1291ee266080) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -582,7 +582,7 @@ Attributen van objecttype Generalisatie
 | domein_dcat |  |
 | gemma_naam | Hardware |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-acbda3e0-9767-49bb-8d4c-2b5ea0160056 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-acbda3e0-9767-49bb-8d4c-2b5ea0160056](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-acbda3e0-9767-49bb-8d4c-2b5ea0160056) |
 | gemma_definitie | Alle fysieke componenten of onderdelen die in een computer een rol spelen. |
 | gemma_toelichting |  |
 
@@ -616,7 +616,7 @@ Attributen van objecttype Hardware
 | domein_dcat |  |
 | gemma_naam | Inventaris |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-41cea01b-de1c-4ee5-92c4-776fe8a17753 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-41cea01b-de1c-4ee5-92c4-776fe8a17753](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-41cea01b-de1c-4ee5-92c4-776fe8a17753) |
 | gemma_definitie | Een inboedel of een opsomming van voorwerpen op een bepaalde plaats, gemaakt volgens een vaste procedure. |
 | gemma_toelichting |  |
 
@@ -688,7 +688,7 @@ Attributen van objecttype Koppeling
 | domein_dcat |  |
 | gemma_naam | Licentie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-764e6fdf-299f-4867-8257-7532f1e56ebf |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-764e6fdf-299f-4867-8257-7532f1e56ebf](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-764e6fdf-299f-4867-8257-7532f1e56ebf) |
 | gemma_definitie | Een gebruiksrecht en autorisatie om van een product of dienst gebruik te maken binnen bepaalde voorwaarden |
 | gemma_toelichting |  |
 
@@ -722,7 +722,7 @@ Attributen van objecttype Licentie
 | domein_dcat |  |
 | gemma_naam | Linkbaar CMDB-item |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5003634c-22b1-4f9a-bf73-8cdb4c42a8b4 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5003634c-22b1-4f9a-bf73-8cdb4c42a8b4](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5003634c-22b1-4f9a-bf73-8cdb4c42a8b4) |
 | gemma_definitie | Niet opnemen |
 | gemma_toelichting |  |
 
@@ -757,7 +757,7 @@ Attributen van objecttype Linkbaar CMDB-item
 | domein_dcat |  |
 | gemma_naam | Log |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-faf0976b-5000-4eb1-976d-10a3d7edf2c5 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-faf0976b-5000-4eb1-976d-10a3d7edf2c5](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-faf0976b-5000-4eb1-976d-10a3d7edf2c5) |
 | gemma_definitie | Registratie van gegevens. |
 | gemma_toelichting |  |
 
@@ -794,7 +794,7 @@ Attributen van objecttype Log
 | domein_dcat |  |
 | gemma_naam | Melding |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fadba6bd-b55a-4d68-8136-096db8f3df5e |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fadba6bd-b55a-4d68-8136-096db8f3df5e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fadba6bd-b55a-4d68-8136-096db8f3df5e) |
 | gemma_definitie | De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend |
 | gemma_toelichting |  |
 
@@ -828,7 +828,7 @@ Attributen van objecttype Melding
 | domein_dcat |  |
 | gemma_naam | Nertwerkcomponent |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6a2e72c3-94f8-4dfd-a68c-03aab1279c75 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6a2e72c3-94f8-4dfd-a68c-03aab1279c75](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6a2e72c3-94f8-4dfd-a68c-03aab1279c75) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -862,7 +862,7 @@ Attributen van objecttype Nertwerkcomponent
 | domein_dcat |  |
 | gemma_naam | Notitie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ca903c71-96d8-4db2-9aa9-52210dd02c1d |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ca903c71-96d8-4db2-9aa9-52210dd02c1d](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ca903c71-96d8-4db2-9aa9-52210dd02c1d) |
 | gemma_definitie | Korte, zakelijke uiteenzetting op schrift |
 | gemma_toelichting |  |
 
@@ -986,7 +986,7 @@ Attributen van objecttype Onderwerp
 | domein_dcat |  |
 | gemma_naam | Package |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-16727428-b97d-498b-9d5a-91b71dd67dc1 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-16727428-b97d-498b-9d5a-91b71dd67dc1](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-16727428-b97d-498b-9d5a-91b71dd67dc1) |
 | gemma_definitie | Een samengesteld bestand of een directory die een aantal bestanden bevat, maar welke als √©√©n bestand aan de gebruiker getoond word |
 | gemma_toelichting |  |
 
@@ -1059,7 +1059,7 @@ Attributen van objecttype Prijzenboek
 | domein_dcat |  |
 | gemma_naam | Product |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3b8b01b0-7870-48fb-b4a7-6a5a593e4ea3 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3b8b01b0-7870-48fb-b4a7-6a5a593e4ea3](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3b8b01b0-7870-48fb-b4a7-6a5a593e4ea3) |
 | gemma_definitie | Het resultaat van een proces dat in het economisch verkeer een waarde bezit. |
 | gemma_toelichting |  |
 
@@ -1149,7 +1149,7 @@ Attributen van objecttype Relatiesoort
 | domein_dcat |  |
 | gemma_naam | Server |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4694a321-36db-4a54-a7ab-6c3895a4e288 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4694a321-36db-4a54-a7ab-6c3895a4e288](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4694a321-36db-4a54-a7ab-6c3895a4e288) |
 | gemma_definitie | Computer die in een netwerk een ondersteunende taak vervult. |
 | gemma_toelichting |  |
 
@@ -1192,7 +1192,7 @@ Attributen van objecttype Server
 | domein_dcat |  |
 | gemma_naam | Software |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d35905fd-2aad-49e6-8ee5-5147c253a478 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d35905fd-2aad-49e6-8ee5-5147c253a478](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d35905fd-2aad-49e6-8ee5-5147c253a478) |
 | gemma_definitie | Een geheel van computerprogramma's met bijbehorende data, die bewerkingen en taken uitvoeren |
 | gemma_toelichting |  |
 
@@ -1226,7 +1226,7 @@ Attributen van objecttype Software
 | domein_dcat |  |
 | gemma_naam | Storing |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ad9da532-d9a3-4c82-858d-e58a61ddf95f |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ad9da532-d9a3-4c82-858d-e58a61ddf95f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ad9da532-d9a3-4c82-858d-e58a61ddf95f) |
 | gemma_definitie | Verlies van de mogelijkheid om volgens een specificatie te werken of om het vereiste resultaat te leveren. |
 | gemma_toelichting |  |
 
@@ -1260,7 +1260,7 @@ Attributen van objecttype Storing
 | domein_dcat |  |
 | gemma_naam | Telefoniegegevens |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e63e4e3c-ca45-4690-aa55-c38a1bc73d2c |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e63e4e3c-ca45-4690-aa55-c38a1bc73d2c](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e63e4e3c-ca45-4690-aa55-c38a1bc73d2c) |
 | gemma_definitie | Gegevens die worden bewaard van telefoongesprekken |
 | gemma_toelichting |  |
 
@@ -1294,7 +1294,7 @@ Attributen van objecttype Telefoniegegevens
 | domein_dcat |  |
 | gemma_naam | Toegangsmiddel |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-55c7fd37-4d03-45f4-b374-69aa690d1477 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-55c7fd37-4d03-45f4-b374-69aa690d1477](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-55c7fd37-4d03-45f4-b374-69aa690d1477) |
 | gemma_definitie | Een middel waarmee men zich toegang tot iets kan verschaffen. |
 | gemma_toelichting |  |
 
@@ -1328,7 +1328,7 @@ Attributen van objecttype Toegangsmiddel
 | domein_dcat |  |
 | gemma_naam | Versie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3d765f43-c4e8-4556-850b-bb886c528d5d |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3d765f43-c4e8-4556-850b-bb886c528d5d](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3d765f43-c4e8-4556-850b-bb886c528d5d) |
 | gemma_definitie | De versie-aanduiding van een object. |
 | gemma_toelichting |  |
 
@@ -1368,7 +1368,7 @@ Attributen van objecttype Versie
 | domein_dcat |  |
 | gemma_naam | Vervoersmiddel |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-92104ecd-beda-441d-b5fd-b6d2296969d0 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-92104ecd-beda-441d-b5fd-b6d2296969d0](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-92104ecd-beda-441d-b5fd-b6d2296969d0) |
 | gemma_definitie | Een voertuig dat zich over het land verplaatst. |
 | gemma_toelichting |  |
 
@@ -1402,7 +1402,7 @@ Attributen van objecttype Vervoersmiddel
 | domein_dcat |  |
 | gemma_naam | Wijzigingsverzoek |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3a602b01-9a08-4224-8caf-3cb58130fb30 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3a602b01-9a08-4224-8caf-3cb58130fb30](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3a602b01-9a08-4224-8caf-3cb58130fb30) |
 | gemma_definitie | Een aanvraag voor wijziging |
 | gemma_toelichting |  |
 

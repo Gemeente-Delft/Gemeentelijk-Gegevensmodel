@@ -181,7 +181,7 @@ Attributen van objecttype Afvalbak
 | domein_dcat |  |
 | gemma_naam | Bak |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-10c774ed-95dc-4186-b425-c19c187b90ff |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-10c774ed-95dc-4186-b425-c19c187b90ff](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-10c774ed-95dc-4186-b425-c19c187b90ff) |
 | gemma_definitie | Object met een permanent karakter dat dient om iets in te bergen of te verzamelen. (bron: definities.geostandaarden.nl) Synoniemen: Bak |
 | gemma_toelichting |  |
 
@@ -264,7 +264,7 @@ Attributen van objecttype Bank
 | domein_dcat |  |
 | gemma_naam | Beheerobject |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7866576d-8cb5-495b-a2f4-2b56393ee7b5 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7866576d-8cb5-495b-a2f4-2b56393ee7b5](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7866576d-8cb5-495b-a2f4-2b56393ee7b5) |
 | gemma_definitie | Verzamelobject - niveau 1 |
 | gemma_toelichting |  |
 
@@ -495,7 +495,7 @@ Attributen van objecttype Boom
 | domein_dcat |  |
 | gemma_naam | Bord |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4cf7e8b5-f178-409c-859e-d7ce7a04e222 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4cf7e8b5-f178-409c-859e-d7ce7a04e222](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4cf7e8b5-f178-409c-859e-d7ce7a04e222) |
 | gemma_definitie | Paneel waarop (statische) informatie wordt afgebeeld, verwoord in tekst, pictogram of code. |
 | gemma_toelichting |  |
 
@@ -538,7 +538,7 @@ Attributen van objecttype Bord
 | domein_dcat |  |
 | gemma_naam | Bouwwerk |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-07e99170-0c7d-414a-b64e-85375a9e1c9b |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-07e99170-0c7d-414a-b64e-85375a9e1c9b](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-07e99170-0c7d-414a-b64e-85375a9e1c9b) |
 | gemma_definitie | Met de aarde verbonden duurzaam bouwwerk, dat niet valt onder de definities van een pand of kunstwerk  (bron: definities.geostandaarden.nl) |
 | gemma_toelichting |  |
 
@@ -830,7 +830,7 @@ Attributen van objecttype Flyover
 | domein_dcat |  |
 | gemma_naam | FunctioneelGebied |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b47ab76c-8207-47ee-a1fa-eac8a16b1960 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b47ab76c-8207-47ee-a1fa-eac8a16b1960](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b47ab76c-8207-47ee-a1fa-eac8a16b1960) |
 | gemma_definitie | Begrensd en benoemd gebied dat door een functionele eenheid beschreven wordt.   (bron: definities.geostandaarden.nl) |
 | gemma_toelichting |  |
 
@@ -949,7 +949,7 @@ Attributen van objecttype Gemaal
 | domein_dcat |  |
 | gemma_naam | Groenobject |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-360b8000-41ce-453f-bed8-b0cc7fa21164 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-360b8000-41ce-453f-bed8-b0cc7fa21164](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-360b8000-41ce-453f-bed8-b0cc7fa21164) |
 | gemma_definitie | Kleinste functioneel onafhankelijk stukje van een terrein dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, met aaneengesloten vegetatie. |
 | gemma_toelichting |  |
 
@@ -1065,7 +1065,7 @@ Attributen van objecttype Infiltratieput
 | domein_dcat |  |
 | gemma_naam | Installatie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d5b79e05-a743-4c1f-8a37-5e6911701aab |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d5b79e05-a743-4c1f-8a37-5e6911701aab](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d5b79e05-a743-4c1f-8a37-5e6911701aab) |
 | gemma_definitie | Samenhangend systeem dat een bepaald doel dient. |
 | gemma_toelichting |  |
 
@@ -1321,7 +1321,7 @@ Attributen van objecttype Kolk
 | domein_dcat |  |
 | gemma_naam | Kunstwerk |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0e1bf1cd-7cce-4904-8470-40cb9d6a5bb6 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0e1bf1cd-7cce-4904-8470-40cb9d6a5bb6](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0e1bf1cd-7cce-4904-8470-40cb9d6a5bb6) |
 | gemma_definitie | Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf. http://definities.geostandaarden.nl |
 | gemma_toelichting |  |
 
@@ -1390,7 +1390,7 @@ Attributen van objecttype Kunstwerk
 | domein_dcat |  |
 | gemma_naam | Leiding |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b2bdb817-4007-4c1b-ad24-43929884e0eb |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b2bdb817-4007-4c1b-ad24-43929884e0eb](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b2bdb817-4007-4c1b-ad24-43929884e0eb) |
 | gemma_definitie | Een geheel van geleiders welke voorzien zijn van Ã©Ã©n ommanteling en bestemd is voor transport van materie GWSW |
 | gemma_toelichting |  |
 
@@ -1437,7 +1437,7 @@ Attributen van objecttype Leiding
 | domein_dcat |  |
 | gemma_naam | Leidingelement |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-41acc666-99e4-4b10-ab75-a3a24550354e |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-41acc666-99e4-4b10-ab75-a3a24550354e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-41acc666-99e4-4b10-ab75-a3a24550354e) |
 | gemma_definitie | Een object dat bij een leiding behoort. |
 | gemma_toelichting |  |
 
@@ -1477,7 +1477,7 @@ Attributen van objecttype Leidingelement
 | domein_dcat |  |
 | gemma_naam | Mast |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b3edfde2-4da1-47f8-96a0-54bc77c9900f |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b3edfde2-4da1-47f8-96a0-54bc77c9900f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b3edfde2-4da1-47f8-96a0-54bc77c9900f) |
 | gemma_definitie | Draagconstructie, bestaande uit een verticale buispaal, die wordt gebruikt om iets op hoogte te brengen. |
 | gemma_toelichting |  |
 
@@ -1512,7 +1512,7 @@ Attributen van objecttype Mast
 | domein_dcat |  |
 | gemma_naam | Meubilair |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7b309467-9314-472e-a8ec-f4d44da63412 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7b309467-9314-472e-a8ec-f4d44da63412](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7b309467-9314-472e-a8ec-f4d44da63412) |
 | gemma_definitie | De verzameling van ruimtelijke objecten ter inrichting van de openbare ruimte of terreinen. Een ruimtelijk object ter inrichting van de openbare ruimte. |
 | gemma_toelichting |  |
 
@@ -1572,7 +1572,7 @@ Attributen van objecttype Meubilair
 | domein_dcat |  |
 | gemma_naam | Overbruggingsobject |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e292e9aa-974b-4299-b814-ed5bb50925ef |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e292e9aa-974b-4299-b814-ed5bb50925ef](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e292e9aa-974b-4299-b814-ed5bb50925ef) |
 | gemma_definitie | Onderdeel van een beweegbare of vaste verbinding tussen twee punten, die door water, een weg of anderszins gescheiden zijn, dat essentieel is voor de constructie . |
 | gemma_toelichting |  |
 
@@ -1670,7 +1670,7 @@ Attributen van objecttype Overstortconstructie
 | domein_dcat |  |
 | gemma_naam | Paal |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cd399834-5112-4db5-9f37-9af4f8b3ed4e |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cd399834-5112-4db5-9f37-9af4f8b3ed4e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cd399834-5112-4db5-9f37-9af4f8b3ed4e) |
 | gemma_definitie | Langwerpig stuk hout, ijzer, steen enz., dat in de grond staat. |
 | gemma_toelichting |  |
 
@@ -1765,7 +1765,7 @@ Attributen van objecttype Pomp
 | domein_dcat |  |
 | gemma_naam | Put |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1208ebe7-a18a-40fc-bb6e-87dd2dd7de2a |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1208ebe7-a18a-40fc-bb6e-87dd2dd7de2a](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1208ebe7-a18a-40fc-bb6e-87dd2dd7de2a) |
 | gemma_definitie | Verticale waterdichte constructie, toegepast om leidingen aan te sluiten, van richting of niveau te veranderen, om toegang te verschaffen aan personeel en/of apparatuur voor inspectie en onderhoud, en om beluchting en ventilatie mogelijk te maken |
 | gemma_toelichting |  |
 
@@ -1933,7 +1933,7 @@ Attributen van objecttype Rioolput
 | domein_dcat |  |
 | gemma_naam | Scheiding |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0fedc485-b963-412d-b695-9642921b0933 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0fedc485-b963-412d-b695-9642921b0933](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0fedc485-b963-412d-b695-9642921b0933) |
 | gemma_definitie | Kunstmatig, meestal lineair obstakel met een werende functie. |
 | gemma_toelichting |  |
 
@@ -1978,7 +1978,7 @@ Attributen van objecttype Scheiding
 | domein_dcat |  |
 | gemma_naam | Sensor |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1e352a4f-20de-4ef8-9f84-3f237cfe424e |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1e352a4f-20de-4ef8-9f84-3f237cfe424e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1e352a4f-20de-4ef8-9f84-3f237cfe424e) |
 | gemma_definitie | Apparaat voor de meting van een fysieke grootheid (bijv. temperatuur, licht, druk, elektriciteit). |
 | gemma_toelichting |  |
 
@@ -2230,7 +2230,7 @@ Attributen van objecttype Stuwgebied
 | domein_dcat |  |
 | gemma_naam | Terreindeel |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9f85d08b-b58f-45eb-ac71-73c808847702 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9f85d08b-b58f-45eb-ac71-73c808847702](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9f85d08b-b58f-45eb-ac71-73c808847702) |
 | gemma_definitie | Kleinste functioneel onafhankelijk stukje van een terrein, dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, met of zonder aaneengesloten vegetatie. |
 | gemma_toelichting |  |
 
@@ -2275,7 +2275,7 @@ Attributen van objecttype Terreindeel
 | domein_dcat |  |
 | gemma_naam | Tunnelobject |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1759a15a-e759-4abc-9fbb-1bd85bea382c |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1759a15a-e759-4abc-9fbb-1bd85bea382c](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1759a15a-e759-4abc-9fbb-1bd85bea382c) |
 | gemma_definitie | Onderdeel van een kunstmatig aangelegde, kokervormige onderdoorgang dat essentieel is voor de constructie. |
 | gemma_toelichting |  |
 
@@ -2359,7 +2359,7 @@ Attributen van objecttype Uitlaatconstructie
 | domein_dcat |  |
 | gemma_naam | Vegetatieobject |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0f538a2f-8478-4b4f-a2f8-50ab28f54ea6 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0f538a2f-8478-4b4f-a2f8-50ab28f54ea6](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0f538a2f-8478-4b4f-a2f8-50ab28f54ea6) |
 | gemma_definitie | Verzamelobject van alle vegetatieobjecten - niveau 2 |
 | gemma_toelichting |  |
 
@@ -2405,7 +2405,7 @@ Attributen van objecttype Vegetatieobject
 | domein_dcat |  |
 | gemma_naam | Verhardingsobject |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a1a1d3ab-366d-4395-be52-b8d918614585 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a1a1d3ab-366d-4395-be52-b8d918614585](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a1a1d3ab-366d-4395-be52-b8d918614585) |
 | gemma_definitie | Verharde lagen van een weglichaam, speel- en sportondergronden en onbegroeid terreindelen inclusief de fundering. |
 | gemma_toelichting |  |
 
@@ -2535,7 +2535,7 @@ Attributen van objecttype Verkeersdrempel
 | domein_dcat |  |
 | gemma_naam | Verlichtingsobject |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-95a78138-3227-48e1-8499-4bcbba4ab13c |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-95a78138-3227-48e1-8499-4bcbba4ab13c](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-95a78138-3227-48e1-8499-4bcbba4ab13c) |
 | gemma_definitie | Paal of mast waaraan openbare verlichting is bevestigd. |
 | gemma_toelichting |  |
 
@@ -2614,7 +2614,7 @@ Attributen van objecttype Viaduct
 | domein_dcat |  |
 | gemma_naam | Waterinrichtingsobject |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9d9f7000-98f8-4b97-96f5-6d09edebddd2 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9d9f7000-98f8-4b97-96f5-6d09edebddd2](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9d9f7000-98f8-4b97-96f5-6d09edebddd2) |
 | gemma_definitie | Een ruimtelijk object ter inrichting van het water. |
 | gemma_toelichting |  |
 
@@ -2658,7 +2658,7 @@ Attributen van objecttype Waterinrichtingsobject
 | domein_dcat |  |
 | gemma_naam | Waterobject |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3be27f41-71be-42dd-8af2-51c724238dc3 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3be27f41-71be-42dd-8af2-51c724238dc3](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3be27f41-71be-42dd-8af2-51c724238dc3) |
 | gemma_definitie | Kleinste functioneel onafhankelijk stukje water met gelijkblijvende, homogene eigenschappen en relaties dat er binnen het objecttype Water van NEN 3610 wordt onderscheiden en dat permanent met water bedekt is. (imgeo.geostandaarden.nl) |
 | gemma_toelichting |  |
 
@@ -2715,7 +2715,7 @@ Attributen van objecttype Waterobject
 | domein_dcat |  |
 | gemma_naam | Weginrichtingsobject |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f9482bc9-5b10-4075-98cb-4cb895262494 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f9482bc9-5b10-4075-98cb-4cb895262494](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f9482bc9-5b10-4075-98cb-4cb895262494) |
 | gemma_definitie | Een ruimtelijk object dat dient voor de inrichting van de openbare weg. |
 | gemma_toelichting |  |
 

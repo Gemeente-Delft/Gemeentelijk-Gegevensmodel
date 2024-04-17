@@ -78,7 +78,7 @@ Het model 'Model Museum' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Activiteit |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b9283c74-797a-4a79-83a7-ca5619ef8b1d |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b9283c74-797a-4a79-83a7-ca5619ef8b1d](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b9283c74-797a-4a79-83a7-ca5619ef8b1d) |
 | gemma_definitie | Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd. |
 | gemma_toelichting | Bijvoorbeeld: het lozen van afvalwater, het bouwen van hoogbouw, het exploiteren van een jachthaven. Het objecttype activiteit is een typering van alle activiteiten die bijvoorbeeld een initiatiefnemer kan uitvoeren in de leefomgeving. Er wordt geen specifieke activiteit bedoeld die een specifieke initiatiefnemer voornemens is om uit te voeren, maar het type activiteit waarover regels opgesteld zijn. |
 
@@ -154,7 +154,7 @@ Attributen van objecttype Activiteitsoort
 | domein_dcat |  |
 | gemma_naam | Balieverkoop |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-25088983-e263-4879-8cbb-b699218df32c |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-25088983-e263-4879-8cbb-b699218df32c](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-25088983-e263-4879-8cbb-b699218df32c) |
 | gemma_definitie | Verkoop aan de balie |
 | gemma_toelichting |  |
 
@@ -193,7 +193,7 @@ Attributen van objecttype Balieverkoop
 | domein_dcat |  |
 | gemma_naam | Balieverkoop Entreekaart |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-06763d17-6faa-4c48-b068-e781b72993e0 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-06763d17-6faa-4c48-b068-e781b72993e0](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-06763d17-6faa-4c48-b068-e781b72993e0) |
 | gemma_definitie | Verkoop van een entreekaart aan de balie |
 | gemma_toelichting |  |
 
@@ -231,7 +231,7 @@ Attributen van objecttype Balieverkoop Entreekaart
 | domein_dcat |  |
 | gemma_naam | Belanghebbende |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-02f467d4-ebca-47cc-9a06-ed4d635d4462 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-02f467d4-ebca-47cc-9a06-ed4d635d4462](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-02f467d4-ebca-47cc-9a06-ed4d635d4462) |
 | gemma_definitie | Een persoon wiens belang rechtstreeks bij een besluit is betrokken. |
 | gemma_toelichting |  |
 
@@ -267,7 +267,7 @@ Attributen van objecttype Belanghebbende
 | domein_dcat |  |
 | gemma_naam | Bruikleen |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d1a889c0-4455-4121-9def-df4004050918 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d1a889c0-4455-4121-9def-df4004050918](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d1a889c0-4455-4121-9def-df4004050918) |
 | gemma_definitie | Lening voor tijdelijk gebruik |
 | gemma_toelichting |  |
 
@@ -309,7 +309,7 @@ Attributen van objecttype Bruikleen
 | domein_dcat |  |
 | gemma_naam | Collectie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-65fad3a5-bce6-4c9f-814e-23e42d0f91fd |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-65fad3a5-bce6-4c9f-814e-23e42d0f91fd](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-65fad3a5-bce6-4c9f-814e-23e42d0f91fd) |
 | gemma_definitie | Een verzameling van verworven voorwerpen die is samengesteld op grond van vastgestelde criteria. |
 | gemma_toelichting |  |
 
@@ -384,7 +384,7 @@ Attributen van objecttype Doelgroep
 | domein_dcat |  |
 | gemma_naam | Entreekaart |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f4766721-5a96-40f7-8441-9f21f18a9167 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f4766721-5a96-40f7-8441-9f21f18a9167](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f4766721-5a96-40f7-8441-9f21f18a9167) |
 | gemma_definitie | Bewijs van toegang tot een gebouw of voorstelling |
 | gemma_toelichting |  |
 
@@ -458,7 +458,7 @@ Attributen van objecttype Incident
 | domein_dcat |  |
 | gemma_naam | Lener |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-40c57f7c-2356-4c05-b22d-a2a8466dfebd |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-40c57f7c-2356-4c05-b22d-a2a8466dfebd](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-40c57f7c-2356-4c05-b22d-a2a8466dfebd) |
 | gemma_definitie | Iemand die iets te leen krijgt, met name iemand die boeken, digitale bestanden of apparatuur leent bij een museum, bibliotheek, mediatheek of een andere uitleeninstantie |
 | gemma_toelichting |  |
 
@@ -531,7 +531,7 @@ Attributen van objecttype Mailing
 | domein_dcat |  |
 | gemma_naam | Museumobject |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e963434a-50be-4619-b041-58689adc00de |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e963434a-50be-4619-b041-58689adc00de](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e963434a-50be-4619-b041-58689adc00de) |
 | gemma_definitie | Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifini√´erd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht. |
 | gemma_toelichting |  |
 
@@ -645,7 +645,7 @@ Attributen van objecttype Omzetgroep
 | domein_dcat |  |
 | gemma_naam | Prijs |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-eab684dd-ef28-42f6-adcc-f9b513859a0d |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-eab684dd-ef28-42f6-adcc-f9b513859a0d](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-eab684dd-ef28-42f6-adcc-f9b513859a0d) |
 | gemma_definitie | De te betalen hoeveelheid geld |
 | gemma_toelichting |  |
 
@@ -682,7 +682,7 @@ Attributen van objecttype Prijs
 | domein_dcat |  |
 | gemma_naam | Product |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-021bf2ce-98b1-4ca5-8785-4cc902b98f10 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-021bf2ce-98b1-4ca5-8785-4cc902b98f10](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-021bf2ce-98b1-4ca5-8785-4cc902b98f10) |
 | gemma_definitie | Het resultaat van een proces dat in het economisch verkeer een waarde bezit. |
 | gemma_toelichting |  |
 
@@ -762,7 +762,7 @@ Attributen van objecttype Productgroep
 | domein_dcat |  |
 | gemma_naam | Productie-eenheid |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-15fbcddb-67b4-48a7-b2a6-1c11c514130b |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-15fbcddb-67b4-48a7-b2a6-1c11c514130b](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-15fbcddb-67b4-48a7-b2a6-1c11c514130b) |
 | gemma_definitie | Een (deel van een) productiemiddel, dat zelfstandig (ofwel onafhankelijk van de andere delen van het desbetreffende productiemiddel) kan worden ingezet. |
 | gemma_toelichting |  |
 
@@ -880,7 +880,7 @@ Attributen van objecttype Programmasoort
 | domein_dcat |  |
 | gemma_naam | Reservering |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-88554f73-87e4-45e5-999e-4b5d029f15a9 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-88554f73-87e4-45e5-999e-4b5d029f15a9](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-88554f73-87e4-45e5-999e-4b5d029f15a9) |
 | gemma_definitie | Het vooraf bespreken van een plaats in een openbare gelegenheid, vervoermiddel, restaurant e.d. |
 | gemma_toelichting |  |
 
@@ -922,7 +922,7 @@ Attributen van objecttype Reservering
 | domein_dcat |  |
 | gemma_naam | Rondleiding |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3410d2a0-c0ff-4984-a083-a1b27c374178 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3410d2a0-c0ff-4984-a083-a1b27c374178](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3410d2a0-c0ff-4984-a083-a1b27c374178) |
 | gemma_definitie | Bezichtiging met toelichting |
 | gemma_toelichting |  |
 
@@ -961,7 +961,7 @@ Attributen van objecttype Rondleiding
 | domein_dcat |  |
 | gemma_naam | Samensteller |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9a4512b0-6081-4f32-bec9-8f2b62e62761 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9a4512b0-6081-4f32-bec9-8f2b62e62761](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9a4512b0-6081-4f32-bec9-8f2b62e62761) |
 | gemma_definitie | Iemand die stukken informatie samenbrengt in tentoonstelingen, presentaties en naslagwerken. |
 | gemma_toelichting |  |
 
@@ -997,7 +997,7 @@ Attributen van objecttype Samensteller
 | domein_dcat |  |
 | gemma_naam | Standplaats |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c9503a2a-eb9b-450f-954d-e374ac65198e |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c9503a2a-eb9b-450f-954d-e374ac65198e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c9503a2a-eb9b-450f-954d-e374ac65198e) |
 | gemma_definitie | vanaf een vaste locatie te koop aanbieden, verkopen of afleveren van goederen of aanbieden van diensten, gebruikmakend van fysieke middelen zoals een kraam, een wagen of een tafel |
 | gemma_toelichting |  |
 
@@ -1034,7 +1034,7 @@ Attributen van objecttype Standplaats
 | domein_dcat |  |
 | gemma_naam | Tentoonstelling |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7be642b3-e95f-4f1a-9415-d95c38346e9f |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7be642b3-e95f-4f1a-9415-d95c38346e9f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7be642b3-e95f-4f1a-9415-d95c38346e9f) |
 | gemma_definitie | Een uitstalling van voorwerpen om door het grote publiek bekeken te worden. |
 | gemma_toelichting |  |
 
@@ -1111,7 +1111,7 @@ Attributen van objecttype Voorziening
 | domein_dcat |  |
 | gemma_naam | Winkelverkoopgroep |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7cf75737-25b6-486c-8d47-3a0527e0792e |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7cf75737-25b6-486c-8d47-3a0527e0792e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7cf75737-25b6-486c-8d47-3a0527e0792e) |
 | gemma_definitie | Groepering van winkelverkopen |
 | gemma_toelichting |  |
 

@@ -93,7 +93,7 @@ Attributen van objecttype Contact
 | domein_dcat |  |
 | gemma_naam | Hotel |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4b2cc303-de99-49c4-968f-836a71825814 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4b2cc303-de99-49c4-968f-836a71825814](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4b2cc303-de99-49c4-968f-836a71825814) |
 | gemma_definitie | Gebouw waar je tegen betaling kunt logeren. |
 | gemma_toelichting |  |
 
@@ -129,7 +129,7 @@ Attributen van objecttype Hotel
 | domein_dcat |  |
 | gemma_naam | Hotelbezoek |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b8e61a1f-ed19-4cd3-b873-0fe7d85beb9b |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b8e61a1f-ed19-4cd3-b873-0fe7d85beb9b](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b8e61a1f-ed19-4cd3-b873-0fe7d85beb9b) |
 | gemma_definitie | Verblijf in een hotel |
 | gemma_toelichting |  |
 
@@ -165,7 +165,7 @@ Attributen van objecttype Hotelbezoek
 | domein_dcat |  |
 | gemma_naam | Verkooppunt |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9f1dd63c-3407-460d-aef7-56cb6c3c20ad |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9f1dd63c-3407-460d-aef7-56cb6c3c20ad](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9f1dd63c-3407-460d-aef7-56cb6c3c20ad) |
 | gemma_definitie | Locatie waar iets wordt verkocht |
 | gemma_toelichting |  |
 
@@ -200,7 +200,7 @@ Attributen van objecttype Verkooppunt
 | domein_dcat |  |
 | gemma_naam | Werkgelegenheid |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-21343647-4fed-40b8-8a9e-4672592d2aa8 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-21343647-4fed-40b8-8a9e-4672592d2aa8](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-21343647-4fed-40b8-8a9e-4672592d2aa8) |
 | gemma_definitie | De vraag naar arbeid, te berekenen door de totale productie te delen door de arbeidsproductiviteit per persoon. |
 | gemma_toelichting |  |
 

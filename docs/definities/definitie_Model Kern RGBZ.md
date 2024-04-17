@@ -73,7 +73,7 @@ Het model 'Model Kern RGBZ' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Bedrijfsproces |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7e054df1-48a3-46c3-91a5-5ce10e326f9b |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7e054df1-48a3-46c3-91a5-5ce10e326f9b](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7e054df1-48a3-46c3-91a5-5ce10e326f9b) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -151,7 +151,7 @@ Attributen van objecttype Bedrijfsprocestype
 | domein_dcat |  |
 | gemma_naam | BESLUIT |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-10d36920-683f-4cb4-84bf-b00ac045674f |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-10d36920-683f-4cb4-84bf-b00ac045674f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-10d36920-683f-4cb4-84bf-b00ac045674f) |
 | gemma_definitie | <font color="#610e6a">Een na overweging of beraadslaging vastgestelde beslissing voor een individueel of concreet geval.</font> |
 | gemma_toelichting |  |
 
@@ -242,7 +242,7 @@ Attributen van objecttype Besluittype
 | domein_dcat |  |
 | gemma_naam | Betaling |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8cec89b8-6174-42ac-937f-9500bfb8901b |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8cec89b8-6174-42ac-937f-9500bfb8901b](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8cec89b8-6174-42ac-937f-9500bfb8901b) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -280,7 +280,7 @@ Attributen van objecttype Betaling
 | domein_dcat |  |
 | gemma_naam | BETROKKENE |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-62c91622-cc32-4560-8427-d00101f4847e |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-62c91622-cc32-4560-8427-d00101f4847e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-62c91622-cc32-4560-8427-d00101f4847e) |
 | gemma_definitie | <font color="#610e6a">Een SUBJECT, zijnde een NATUURLIJK PERSOON, NIET-NATUURLIJK PERSOON of VESTIGING, ORGANISATORISCHE EENHEID (binnen een vestiging van de zaak-behandelende niet-natuurlijk persoon), of MEDEWERKER (van die organisatorische eenheid) die een rol kan spelen bij een ZAAK.</font> |
 | gemma_toelichting |  |
 
@@ -398,7 +398,7 @@ Attributen van objecttype Deelprocestype
 | domein_dcat |  |
 | gemma_naam | DOCUMENT |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-10eaa33f-03bf-42b4-9310-56add2cb5a7b |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-10eaa33f-03bf-42b4-9310-56add2cb5a7b](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-10eaa33f-03bf-42b4-9310-56add2cb5a7b) |
 | gemma_definitie | <font color="#610e6a">Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT.</font> |
 | gemma_toelichting |  |
 
@@ -522,7 +522,7 @@ Attributen van objecttype EnkelvoudigDocument
 | domein_dcat |  |
 | gemma_naam | Heffing |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ff9366e3-dd65-48ce-9051-9d6b01b2c6db |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ff9366e3-dd65-48ce-9051-9d6b01b2c6db](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ff9366e3-dd65-48ce-9051-9d6b01b2c6db) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -603,7 +603,7 @@ Attributen van objecttype Identificatiekenmerk
 | domein_dcat |  |
 | gemma_naam | Klantcontact |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a9cb919f-a224-4ab5-9825-40d54104f90d |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a9cb919f-a224-4ab5-9825-40d54104f90d](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a9cb919f-a224-4ab5-9825-40d54104f90d) |
 | gemma_definitie | Klantcontacten zijn contactmomenten die werkelijk hebben plaatsgevonden, terwijl Balieafspraken afspraken zijn voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.  Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje). |
 | gemma_toelichting |  |
 
@@ -645,7 +645,7 @@ Attributen van objecttype Klantcontact
 | domein_dcat |  |
 | gemma_naam | MEDEWERKER |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6cc6afe6-e4c6-4e2b-a359-f278b23700db |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6cc6afe6-e4c6-4e2b-a359-f278b23700db](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6cc6afe6-e4c6-4e2b-a359-f278b23700db) |
 | gemma_definitie | <font color="#610e6a">Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID.</font> |
 | gemma_toelichting |  |
 
@@ -701,7 +701,7 @@ Attributen van objecttype MEDEWERKER
 | domein_dcat |  |
 | gemma_naam | OBJECT |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f08625cc-cc49-4664-91fa-823b217d333f |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f08625cc-cc49-4664-91fa-823b217d333f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f08625cc-cc49-4664-91fa-823b217d333f) |
 | gemma_definitie | <font color="#610e6a">Het OBJECT waarop een ZAAK betrekking kan hebben zijnde één of meer voorkomens van de in het RSGB en het RGBZ onderscheiden objecttypen.</font> |
 | gemma_toelichting |  |
 
@@ -763,7 +763,7 @@ Attributen van objecttype OBJECT
 | domein_dcat |  |
 | gemma_naam | Offerte |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5d23eb2c-f115-4526-a1f7-5f2378666ffa |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5d23eb2c-f115-4526-a1f7-5f2378666ffa](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5d23eb2c-f115-4526-a1f7-5f2378666ffa) |
 | gemma_definitie | Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs. |
 | gemma_toelichting |  |
 
@@ -797,7 +797,7 @@ Attributen van objecttype Offerte
 | domein_dcat |  |
 | gemma_naam | ORGANISATORISCHE EENHEID |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-02f66265-00ae-418d-8d0e-dcbaf36652bb |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-02f66265-00ae-418d-8d0e-dcbaf36652bb](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-02f66265-00ae-418d-8d0e-dcbaf36652bb) |
 | gemma_definitie | <font color="#610e6a">Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken.</font> |
 | gemma_toelichting |  |
 
@@ -883,7 +883,7 @@ Attributen van objecttype SamengesteldDocument
 | domein_dcat |  |
 | gemma_naam | STATUS |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-138f7a81-f370-4e0c-9254-d6c7727a338c |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-138f7a81-f370-4e0c-9254-d6c7727a338c](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-138f7a81-f370-4e0c-9254-d6c7727a338c) |
 | gemma_definitie | <font color="#610e6a">Een aanduiding van de stand van zaken van een zaak op basis van betekenisvol behaald resultaat voor de initiator van de zaak.</font> |
 | gemma_toelichting |  |
 
@@ -961,7 +961,7 @@ Attributen van objecttype Statustype
 | domein_dcat |  |
 | gemma_naam | VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bb257165-3229-4e5f-a24c-524966c748f5 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bb257165-3229-4e5f-a24c-524966c748f5](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bb257165-3229-4e5f-a24c-524966c748f5) |
 | gemma_definitie | <font color="#610e6a">Een VESTIGING van een onderneming of rechtspersoon zijnde de zaakbehandelende organisatie.</font> |
 | gemma_toelichting |  |
 
@@ -995,7 +995,7 @@ Attributen van objecttype VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE
 | domein_dcat |  |
 | gemma_naam | ZAAK |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7d5124d4-f23d-432d-ad5a-dc7c1b0fac44 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7d5124d4-f23d-432d-ad5a-dc7c1b0fac44](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7d5124d4-f23d-432d-ad5a-dc7c1b0fac44) |
 | gemma_definitie | <font color="#610e6a">Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden.</font> |
 | gemma_toelichting |  |
 
@@ -1064,7 +1064,7 @@ Attributen van objecttype ZAAK
 | domein_dcat |  |
 | gemma_naam | ZAAK - Origineel |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ce925d18-fde7-4bd6-9865-a7030a276a3c |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ce925d18-fde7-4bd6-9865-a7030a276a3c](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ce925d18-fde7-4bd6-9865-a7030a276a3c) |
 | gemma_definitie | <font color="#610e6a">Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden.</font> |
 | gemma_toelichting |  |
 

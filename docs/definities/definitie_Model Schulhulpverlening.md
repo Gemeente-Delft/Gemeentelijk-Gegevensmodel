@@ -57,7 +57,7 @@ Het model 'Model Schulhulpverlening' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Financiele Situatie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fd84565d-63d3-44a1-84e0-cd0f580cb2ad |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fd84565d-63d3-44a1-84e0-cd0f580cb2ad](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fd84565d-63d3-44a1-84e0-cd0f580cb2ad) |
 | gemma_definitie | Verhouding in inkomsten en uitgaven van een persoon of bedrijf |
 | gemma_toelichting |  |
 
@@ -93,7 +93,7 @@ Attributen van objecttype Financiele Situatie
 | domein_dcat |  |
 | gemma_naam | Notariele Status |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d72d1617-82d1-4241-97d7-46b14fbd6480 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d72d1617-82d1-4241-97d7-46b14fbd6480](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d72d1617-82d1-4241-97d7-46b14fbd6480) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -127,7 +127,7 @@ Attributen van objecttype Notariele Status
 | domein_dcat |  |
 | gemma_naam | Project |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-52f89e9c-1b7d-42db-af7a-4d5533dbf82f |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-52f89e9c-1b7d-42db-af7a-4d5533dbf82f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-52f89e9c-1b7d-42db-af7a-4d5533dbf82f) |
 | gemma_definitie | Geheel van activiteiten uitgevoerd in een tijdelijk samenwerkingsverband gericht op het binnen bepaalde randvoorwaarden (bv. tijd, geld) bereiken van een vooraf gedefinieerd resultaat. |
 | gemma_toelichting |  |
 
@@ -203,7 +203,7 @@ Attributen van objecttype Projectsoort
 | domein_dcat |  |
 | gemma_naam | Resultaat |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-575ac733-b713-457e-8798-0e188c9fc8fd |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-575ac733-b713-457e-8798-0e188c9fc8fd](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-575ac733-b713-457e-8798-0e188c9fc8fd) |
 | gemma_definitie | De uitkomst van iets, bijvoorbeeld een berekening of een onderzoek. een gevolg. |
 | gemma_toelichting |  |
 
@@ -276,7 +276,7 @@ Attributen van objecttype Resultaatsoort
 | domein_dcat |  |
 | gemma_naam | Traject |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a639deb6-a955-4f22-b6db-2c64f3abe044 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a639deb6-a955-4f22-b6db-2c64f3abe044](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a639deb6-a955-4f22-b6db-2c64f3abe044) |
 | gemma_definitie | Samenstel van achtereenvolgens uit te voeren en onderling samenhangende deelhandelingen of van opeenvolgende stadia in een proces, voorgesteld als een route die via opeenvolgende bestemmingen naar de eindbestemming voert. |
 | gemma_toelichting |  |
 
@@ -316,7 +316,7 @@ Attributen van objecttype Traject
 | domein_dcat |  |
 | gemma_naam | Uitstroomreden |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-310e7b8f-87b6-4493-8b66-1b222428dea4 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-310e7b8f-87b6-4493-8b66-1b222428dea4](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-310e7b8f-87b6-4493-8b66-1b222428dea4) |
 | gemma_definitie | Motivatie voor uitstroom |
 | gemma_toelichting |  |
 

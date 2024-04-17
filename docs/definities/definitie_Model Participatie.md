@@ -154,7 +154,7 @@ Attributen van objecttype Componentsoort
 | domein_dcat |  |
 | gemma_naam | Doelgroep |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-953e583a-1d8e-4153-bf27-9ad07d80252d |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-953e583a-1d8e-4153-bf27-9ad07d80252d](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-953e583a-1d8e-4153-bf27-9ad07d80252d) |
 | gemma_definitie | Een groep mensen of klanten die een bedrijf of organisatie wil benaderen om een product, dienst of informatie onder de aandacht te brengen |
 | gemma_toelichting |  |
 
@@ -190,7 +190,7 @@ Attributen van objecttype Doelgroep
 | domein_dcat |  |
 | gemma_naam | Fraudegegevens |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9d77bfbe-c5bf-4f52-8539-4220bcc98838 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9d77bfbe-c5bf-4f52-8539-4220bcc98838](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9d77bfbe-c5bf-4f52-8539-4220bcc98838) |
 | gemma_definitie | Gegevens met betrekking tot fraude |
 | gemma_toelichting |  |
 
@@ -304,7 +304,7 @@ Attributen van objecttype InformatieDakloosheid
 | domein_dcat |  |
 | gemma_naam | Inkomensvoorziening |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9f48e45c-d6d8-4208-b4ea-d1b8317d79f2 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9f48e45c-d6d8-4208-b4ea-d1b8317d79f2](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9f48e45c-d6d8-4208-b4ea-d1b8317d79f2) |
 | gemma_definitie | Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving |
 | gemma_toelichting |  |
 
@@ -386,7 +386,7 @@ Attributen van objecttype Inkomensvoorzieningsoort
 | domein_dcat |  |
 | gemma_naam | Participatiedossier |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7524953c-c703-4230-92de-72e04018559a |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7524953c-c703-4230-92de-72e04018559a](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7524953c-c703-4230-92de-72e04018559a) |
 | gemma_definitie | Overzicht van alle informatie over integratie en participatie betreffende een inwoner |
 | gemma_toelichting |  |
 
@@ -463,7 +463,7 @@ Attributen van objecttype RedenBeeindiging
 | domein_dcat |  |
 | gemma_naam | Regeling |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4613c364-53f2-445d-a392-3b6661533a71 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4613c364-53f2-445d-a392-3b6661533a71](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4613c364-53f2-445d-a392-3b6661533a71) |
 | gemma_definitie | Verzamelnaam voor AMvB‚Äôs, Ministeri√´le regelingen, lokale verordeningen, etc. De regeling is de meest concrete uitleg van de wet. |
 | gemma_toelichting |  |
 
@@ -573,7 +573,7 @@ Attributen van objecttype Taalniveau
 | domein_dcat |  |
 | gemma_naam | Tegenprestatie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8b15e4a4-11fb-42f3-b7e8-29192dbfc19a |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8b15e4a4-11fb-42f3-b7e8-29192dbfc19a](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8b15e4a4-11fb-42f3-b7e8-29192dbfc19a) |
 | gemma_definitie | Verplichting die tegenover een prestatie staat |
 | gemma_toelichting |  |
 
@@ -646,7 +646,7 @@ Attributen van objecttype TegenprestatieHoogte
 | domein_dcat |  |
 | gemma_naam | Traject |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-99429638-0270-43f5-8193-409379bc10e5 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-99429638-0270-43f5-8193-409379bc10e5](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-99429638-0270-43f5-8193-409379bc10e5) |
 | gemma_definitie | Samenstel van achtereenvolgens uit te voeren en onderling samenhangende deelhandelingen of van opeenvolgende stadia in een proces, voorgesteld als een route die via opeenvolgende bestemmingen naar de eindbestemming voert. |
 | gemma_toelichting |  |
 

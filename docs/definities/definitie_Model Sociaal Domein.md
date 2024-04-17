@@ -117,7 +117,7 @@ Attributen van objecttype AanvraagStadspas
 | domein_dcat |  |
 | gemma_naam | AOM_AanvraagWmoJeugd |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3545eb93-e19a-4b1f-b3f2-03b79b30b200 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3545eb93-e19a-4b1f-b3f2-03b79b30b200](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3545eb93-e19a-4b1f-b3f2-03b79b30b200) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -208,7 +208,7 @@ Attributen van objecttype AOMMeldingWMOJeugd
 | domein_dcat |  |
 | gemma_naam | Beperking |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b883410b-ba90-45a0-a9f0-f16b8e1fa9ac |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b883410b-ba90-45a0-a9f0-f16b8e1fa9ac](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b883410b-ba90-45a0-a9f0-f16b8e1fa9ac) |
 | gemma_definitie | Een stoornis of conditie ‚Äì lichamelijk, zintuiglijk en-of geestelijk ‚Äì die een normaal maatschappelijk functioneren belemmert en nadelige sociale gevolgen met zich meebrengt. |
 | gemma_toelichting |  |
 
@@ -282,7 +282,7 @@ Attributen van objecttype Beperkingscategorie
 | domein_dcat |  |
 | gemma_naam | Beperkingscore |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8d15d21d-4e39-4dcb-b9f7-be128f6b324a |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8d15d21d-4e39-4dcb-b9f7-be128f6b324a](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8d15d21d-4e39-4dcb-b9f7-be128f6b324a) |
 | gemma_definitie | Getalsmatige duiding van een beperking |
 | gemma_toelichting |  |
 
@@ -355,7 +355,7 @@ Attributen van objecttype Beperkingscoresoort
 | domein_dcat |  |
 | gemma_naam | Beschikking |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c481e8b8-f7d7-4979-b767-ebf2a9b04712 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c481e8b8-f7d7-4979-b767-ebf2a9b04712](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c481e8b8-f7d7-4979-b767-ebf2a9b04712) |
 | gemma_definitie | In het bestuursrecht: Een beslissing van een overheidsorgaan in een concreet geval, bijvoorbeeld het verlenen van een bouwvergunning. In het civiele recht: een rechterlijke uitspraak in een procedure die begint met een verzoekschrift. |
 | gemma_toelichting |  |
 
@@ -432,7 +432,7 @@ Attributen van objecttype Beschikkingsoort
 | domein_dcat |  |
 | gemma_naam | Beschikte Voorziening |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-38610e76-2c3e-429a-b30b-1fd21f05c8fc |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-38610e76-2c3e-429a-b30b-1fd21f05c8fc](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-38610e76-2c3e-429a-b30b-1fd21f05c8fc) |
 | gemma_definitie | Een voorziening waarover een beschikking is gedaan. |
 | gemma_toelichting |  |
 
@@ -514,7 +514,7 @@ Attributen van objecttype Budgetuitputting
 | domein_dcat |  |
 | gemma_naam | Client |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2a859087-fe7f-412a-b057-bf1e3f249a4c |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2a859087-fe7f-412a-b057-bf1e3f249a4c](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2a859087-fe7f-412a-b057-bf1e3f249a4c) |
 | gemma_definitie | Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente. |
 | gemma_toelichting |  |
 
@@ -552,7 +552,7 @@ Attributen van objecttype Client
 | domein_dcat |  |
 | gemma_naam | Clientbegeleider |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-17a0d019-c25e-4bba-ae64-f381da597376 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-17a0d019-c25e-4bba-ae64-f381da597376](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-17a0d019-c25e-4bba-ae64-f381da597376) |
 | gemma_definitie | De persoon die verantwoordelijk is voor het opstellen en uitvoeren van het  ondersteuningsplan in samenwering met de client en personen uit zijn/haar omgeving . |
 | gemma_toelichting |  |
 
@@ -587,7 +587,7 @@ Attributen van objecttype Clientbegeleider
 | domein_dcat |  |
 | gemma_naam | Declaratie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-645ed017-feb5-40b0-82ae-990745bdb549 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-645ed017-feb5-40b0-82ae-990745bdb549](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-645ed017-feb5-40b0-82ae-990745bdb549) |
 | gemma_definitie | Een opgave van te vergoeden kosten. |
 | gemma_toelichting |  |
 
@@ -662,7 +662,7 @@ Attributen van objecttype Declaratieregel
 | domein_dcat |  |
 | gemma_naam | Huishouden |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ffca91bc-ed2b-4885-9e04-7a459fd67cad |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ffca91bc-ed2b-4885-9e04-7a459fd67cad](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ffca91bc-ed2b-4885-9e04-7a459fd67cad) |
 | gemma_definitie | persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continu√Øteit in de samenstelling ervan, die binnen een woning gebruik maakt van dezelfde voorzieningen |
 | gemma_toelichting |  |
 
@@ -696,7 +696,7 @@ Attributen van objecttype Huishouden
 | domein_dcat |  |
 | gemma_naam | Leefgebied |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c80348b6-b173-41ab-9bf6-3a1a780d0fb3 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c80348b6-b173-41ab-9bf6-3a1a780d0fb3](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c80348b6-b173-41ab-9bf6-3a1a780d0fb3) |
 | gemma_definitie | Gebied waarin alle activiteiten van een inwoner zich kunnen afspelen |
 | gemma_toelichting |  |
 
@@ -773,7 +773,7 @@ Attributen van objecttype Leverancier
 | domein_dcat |  |
 | gemma_naam | Levering |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cc667191-bb35-45a0-a231-504b663b70f1 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cc667191-bb35-45a0-a231-504b663b70f1](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cc667191-bb35-45a0-a231-504b663b70f1) |
 | gemma_definitie | Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk  In PxQ uren maal tarief |
 | gemma_toelichting |  |
 
@@ -852,7 +852,7 @@ Attributen van objecttype Leveringsvorm
 | domein_dcat |  |
 | gemma_naam | Melding Eigen bijdrage |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-57035c38-5be2-432e-88aa-ba59029c984c |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-57035c38-5be2-432e-88aa-ba59029c984c](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-57035c38-5be2-432e-88aa-ba59029c984c) |
 | gemma_definitie | Aangifte van de evetuele eigen bijdrage |
 | gemma_toelichting |  |
 
@@ -892,7 +892,7 @@ Attributen van objecttype Melding Eigen bijdrage
 | domein_dcat |  |
 | gemma_naam | PGB-Toekenning |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2cc8ad38-97f9-4462-83af-cb5556bffd88 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2cc8ad38-97f9-4462-83af-cb5556bffd88](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2cc8ad38-97f9-4462-83af-cb5556bffd88) |
 | gemma_definitie | Betreft alleen toegekende voorzieningen met als leveringsvorm PGB Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb |
 | gemma_toelichting |  |
 
@@ -930,7 +930,7 @@ Attributen van objecttype PGB-Toekenning
 | domein_dcat |  |
 | gemma_naam | Relatie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5011fe69-8832-47f9-9ba5-c68d53a95ecd |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5011fe69-8832-47f9-9ba5-c68d53a95ecd](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5011fe69-8832-47f9-9ba5-c68d53a95ecd) |
 | gemma_definitie | Betrekking waarin personen, zaken, begrippen of grootheden van nature tot elkaar staan. |
 | gemma_toelichting |  |
 
@@ -999,7 +999,7 @@ Attributen van objecttype Relatiesoort
 | domein_dcat |  |
 | gemma_naam | Score |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-75a56fd7-b2b2-4a08-9b09-8235d4592cae |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-75a56fd7-b2b2-4a08-9b09-8235d4592cae](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-75a56fd7-b2b2-4a08-9b09-8235d4592cae) |
 | gemma_definitie | Het aantal behaalde punten |
 | gemma_toelichting |  |
 
@@ -1105,7 +1105,7 @@ Attributen van objecttype Stadspas
 | domein_dcat |  |
 | gemma_naam | Tarief |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a842e972-764b-4dd8-ad79-f537d4e68565 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a842e972-764b-4dd8-ad79-f537d4e68565](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a842e972-764b-4dd8-ad79-f537d4e68565) |
 | gemma_definitie | Hoogte van een bedrag voor een bepaald product of dient |
 | gemma_toelichting |  |
 
@@ -1144,7 +1144,7 @@ Attributen van objecttype Tarief
 | domein_dcat |  |
 | gemma_naam | Team |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-016ea33a-4ba2-45d7-ae45-616eeedcc567 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-016ea33a-4ba2-45d7-ae45-616eeedcc567](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-016ea33a-4ba2-45d7-ae45-616eeedcc567) |
 | gemma_definitie | Een groep personen die door middel van samenwerking een gezamenlijk doel nastreeft, waarbij de teamleden afhankelijk van elkaar zijn om het doel te bereiken. |
 | gemma_toelichting |  |
 
@@ -1180,7 +1180,7 @@ Attributen van objecttype Team
 | domein_dcat |  |
 | gemma_naam | Toewijzing |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-53cc8281-81c1-40c8-901d-2751e34ea367 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-53cc8281-81c1-40c8-901d-2751e34ea367](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-53cc8281-81c1-40c8-901d-2751e34ea367) |
 | gemma_definitie | Toewijzing die door gemeente aan zorgaanbieder wordt gestuurd. zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html |
 | gemma_toelichting |  |
 
@@ -1227,7 +1227,7 @@ Attributen van objecttype Toewijzing
 | domein_dcat |  |
 | gemma_naam | Verplichting WMO Jeugd |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7c5fd54e-88dd-4738-95ec-5164d6c6af35 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7c5fd54e-88dd-4738-95ec-5164d6c6af35](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7c5fd54e-88dd-4738-95ec-5164d6c6af35) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -1274,7 +1274,7 @@ Attributen van objecttype Verplichting WMO Jeugd
 | domein_dcat |  |
 | gemma_naam | Verzoek om Toewijzing |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e643dc04-a205-421d-ab23-c6da046b1642 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e643dc04-a205-421d-ab23-c6da046b1642](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e643dc04-a205-421d-ab23-c6da046b1642) |
 | gemma_definitie | Verzoek tot toewijzing dat vanuit leverancier (via H10-portal) aan de gemeente wordt gestuurd. Zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html |
 | gemma_toelichting |  |
 
@@ -1325,7 +1325,7 @@ Attributen van objecttype Verzoek om Toewijzing
 | domein_dcat |  |
 | gemma_naam | Voorziening |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8ffe8caf-2af7-47e5-acc5-c4e6fd5f38b1 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8ffe8caf-2af7-47e5-acc5-c4e6fd5f38b1](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8ffe8caf-2af7-47e5-acc5-c4e6fd5f38b1) |
 | gemma_definitie | Middel om services/maatregelen in te vullen. |
 | gemma_toelichting |  |
 
@@ -1406,7 +1406,7 @@ Attributen van objecttype Voorzieningsoort
 | domein_dcat |  |
 | gemma_naam | Zelfredzaamheidmatrix |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4f3a28d3-464a-42c3-97e1-39231e5f7bf1 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4f3a28d3-464a-42c3-97e1-39231e5f7bf1](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4f3a28d3-464a-42c3-97e1-39231e5f7bf1) |
 | gemma_definitie | Een geordend systeem waarbij aan elf domeinen van het dagelijks leven (zoals inkomen en dagbesteding; zie figuur) een waarde voor zelfredzaamheid wordt toegekend. |
 | gemma_toelichting |  |
 

@@ -57,7 +57,7 @@ Het model 'Model Sociale Teams' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Behandeling |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-924f174b-0a98-4957-b087-781f548d18bc |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-924f174b-0a98-4957-b087-781f548d18bc](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-924f174b-0a98-4957-b087-781f548d18bc) |
 | gemma_definitie | Een verzameling van interventies om bepaalde behandeldoelen te bewerkstelligen. |
 | gemma_toelichting |  |
 
@@ -130,7 +130,7 @@ Attributen van objecttype Behandelsoort
 | domein_dcat |  |
 | gemma_naam | Bijzonderheid |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-47f7a086-43f4-4112-8a82-13d15ab3d12c |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-47f7a086-43f4-4112-8a82-13d15ab3d12c](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-47f7a086-43f4-4112-8a82-13d15ab3d12c) |
 | gemma_definitie | Kenmerkende eigenschap |
 | gemma_toelichting |  |
 
@@ -201,7 +201,7 @@ Attributen van objecttype Bijzonderheidsoort
 | domein_dcat |  |
 | gemma_naam | Caseaanmelding |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4615aabe-451f-40ef-87ce-fb4fcd43c859 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4615aabe-451f-40ef-87ce-fb4fcd43c859](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4615aabe-451f-40ef-87ce-fb4fcd43c859) |
 | gemma_definitie | Verzoek tot toelating |
 | gemma_toelichting |  |
 
@@ -236,7 +236,7 @@ Attributen van objecttype Caseaanmelding
 | domein_dcat |  |
 | gemma_naam | Doelstelling |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e348516f-ca14-4d0e-8071-b5c318f9201b |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e348516f-ca14-4d0e-8071-b5c318f9201b](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e348516f-ca14-4d0e-8071-b5c318f9201b) |
 | gemma_definitie | Een op korte of middellange termijn nagestreefde situatie |
 | gemma_toelichting |  |
 
@@ -307,7 +307,7 @@ Attributen van objecttype Doelstellingsoort
 | domein_dcat |  |
 | gemma_naam | SociaalTeamDossier |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-276088a8-7dcf-4dd8-9450-bf677c7329ed |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-276088a8-7dcf-4dd8-9450-bf677c7329ed](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-276088a8-7dcf-4dd8-9450-bf677c7329ed) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 

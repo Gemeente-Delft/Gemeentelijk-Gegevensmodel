@@ -72,7 +72,7 @@ Het model 'Model Financien ' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Activa |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e83e86ad-4769-41ce-91c7-675e93441074 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e83e86ad-4769-41ce-91c7-675e93441074](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e83e86ad-4769-41ce-91c7-675e93441074) |
 | gemma_definitie | Bezittingen van een onderneming op een boekhoudkundige balans |
 | gemma_toelichting |  |
 
@@ -218,7 +218,7 @@ Attributen van objecttype Bankafschriftregel
 | domein_dcat |  |
 | gemma_naam | Bankrekening |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a353735d-326c-48fd-9f74-0192ba6e414a |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a353735d-326c-48fd-9f74-0192ba6e414a](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a353735d-326c-48fd-9f74-0192ba6e414a) |
 | gemma_definitie | Een rekening-courant bij een bank |
 | gemma_toelichting |  |
 
@@ -255,7 +255,7 @@ Attributen van objecttype Bankrekening
 | domein_dcat |  |
 | gemma_naam | Batch |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4499a4ec-1e22-4a1c-968a-ad3dbb7be6a1 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4499a4ec-1e22-4a1c-968a-ad3dbb7be6a1](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4499a4ec-1e22-4a1c-968a-ad3dbb7be6a1) |
 | gemma_definitie | Verzameling van posten die in het kader van automatische verwerking een logisch geheel vormen. |
 | gemma_toelichting | Bijvoorbeeld alle betalingen die op een dag ter verwerking in de computers aangeboden worden. |
 
@@ -292,7 +292,7 @@ Attributen van objecttype Batch
 | domein_dcat |  |
 | gemma_naam | Batchregel |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4abf6a6b-2045-4961-b70f-c6f664e9261c |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4abf6a6b-2045-4961-b70f-c6f664e9261c](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4abf6a6b-2045-4961-b70f-c6f664e9261c) |
 | gemma_definitie | Een item uit een batch |
 | gemma_toelichting |  |
 
@@ -331,7 +331,7 @@ Attributen van objecttype Batchregel
 | domein_dcat |  |
 | gemma_naam | Begroting |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-87fdbae1-7e9e-46a4-8043-3d77bd5903ac |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-87fdbae1-7e9e-46a4-8043-3d77bd5903ac](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-87fdbae1-7e9e-46a4-8043-3d77bd5903ac) |
 | gemma_definitie | Een overzicht van de verwachte ontvangsten en voorziene uitgaven voor een bepaalde (meestal toekomstige) periode zodat hier een afstemming tussen plaats kan vinden om eventuele tekorten en overschotten vroegtijdig in kaart te kunnen brengen. |
 | gemma_toelichting |  |
 
@@ -368,7 +368,7 @@ Attributen van objecttype Begroting
 | domein_dcat |  |
 | gemma_naam | Begrotingregel |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ecb0f96e-e66d-48fb-ade1-416366d1b18e |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ecb0f96e-e66d-48fb-ade1-416366d1b18e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ecb0f96e-e66d-48fb-ade1-416366d1b18e) |
 | gemma_definitie | Een item op de begroting |
 | gemma_toelichting | Een begrotingsregel betreft #. een combinatie van hoofdstuk met optioneel doelstelling met optioneel product of #. een kostenplaats met 1 of meer hoofdrekeningen |
 
@@ -405,7 +405,7 @@ Attributen van objecttype Begrotingregel
 | domein_dcat |  |
 | gemma_naam | Debiteur |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e21e51ee-3a32-444b-80c7-b6694ff37253 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e21e51ee-3a32-444b-80c7-b6694ff37253](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e21e51ee-3a32-444b-80c7-b6694ff37253) |
 | gemma_definitie | Iemand aan wie een dienst of product geleverd is waardoor recht op een vergoeding is ontstaan |
 | gemma_toelichting |  |
 
@@ -439,7 +439,7 @@ Attributen van objecttype Debiteur
 | domein_dcat |  |
 | gemma_naam | Doelstelling |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2bd07fb4-4cfb-4d89-ac99-cb2377decd2d |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2bd07fb4-4cfb-4d89-ac99-cb2377decd2d](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2bd07fb4-4cfb-4d89-ac99-cb2377decd2d) |
 | gemma_definitie | Een op korte of middellange termijn nagestreefde situatie |
 | gemma_toelichting |  |
 
@@ -476,7 +476,7 @@ Attributen van objecttype Doelstelling
 | domein_dcat |  |
 | gemma_naam | Factuur |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e3c92496-53d2-473e-9643-9774cdda2891 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e3c92496-53d2-473e-9643-9774cdda2891](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e3c92496-53d2-473e-9643-9774cdda2891) |
 | gemma_definitie | Schriftelijke rekening of nota voor de geleverde zaken of verrichte diensten. |
 | gemma_toelichting |  |
 
@@ -559,7 +559,7 @@ Attributen van objecttype Factuurregel
 | domein_dcat |  |
 | gemma_naam | Hoofdrekening |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-126b246a-a292-49cb-a609-3ffa5898210e |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-126b246a-a292-49cb-a609-3ffa5898210e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-126b246a-a292-49cb-a609-3ffa5898210e) |
 | gemma_definitie | is kostensoort |
 | gemma_toelichting |  |
 
@@ -600,7 +600,7 @@ Attributen van objecttype Hoofdrekening
 | domein_dcat |  |
 | gemma_naam | Hoofdstuk |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-24693ea2-5032-4c71-a9c7-945b3ac90530 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-24693ea2-5032-4c71-a9c7-945b3ac90530](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-24693ea2-5032-4c71-a9c7-945b3ac90530) |
 | gemma_definitie | Onderdeel van een langere tekst. |
 | gemma_toelichting |  |
 
@@ -637,7 +637,7 @@ Attributen van objecttype Hoofdstuk
 | domein_dcat |  |
 | gemma_naam | Inkooporder |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ede48ca8-4854-44b2-b549-0827bebf56ab |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ede48ca8-4854-44b2-b549-0827bebf56ab](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ede48ca8-4854-44b2-b549-0827bebf56ab) |
 | gemma_definitie | Een opdracht (gezien vanuit de klant) voor √©√©n of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen. |
 | gemma_toelichting |  |
 
@@ -689,7 +689,7 @@ Attributen van objecttype Inkooporder
 | domein_dcat |  |
 | gemma_naam | Kostenplaats |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-126c564a-16fa-4e61-b52d-3af4968904d8 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-126c564a-16fa-4e61-b52d-3af4968904d8](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-126c564a-16fa-4e61-b52d-3af4968904d8) |
 | gemma_definitie | Rekening waaraan boekingen in een financi√´le administratie samen worden toegeschreven. |
 | gemma_toelichting |  |
 
@@ -731,7 +731,7 @@ Attributen van objecttype Kostenplaats
 | domein_dcat |  |
 | gemma_naam | Mutatie |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ab96da46-ed16-412b-8022-4233ce20e311 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ab96da46-ed16-412b-8022-4233ce20e311](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ab96da46-ed16-412b-8022-4233ce20e311) |
 | gemma_definitie | Wijziging van een situatie |
 | gemma_toelichting | Dit kan naast getoonde mutaties nog diverse andere soorten mutaties betreffen, die handmatig worden ingevoerd, of via batches of facturen lopen: * Verkoop tot ontvangst * Inkoop tot betaling * BTW-compensatie * Vaste activa * Urenadministratie uit TIM |
 
@@ -767,7 +767,7 @@ Attributen van objecttype Mutatie
 | domein_dcat |  |
 | gemma_naam | Opdrachtgever |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7979016d-19cb-493e-904e-c7363a7930aa |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7979016d-19cb-493e-904e-c7363a7930aa](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7979016d-19cb-493e-904e-c7363a7930aa) |
 | gemma_definitie | Persoon die een opdracht verstrekt. |
 | gemma_toelichting |  |
 
@@ -806,7 +806,7 @@ Attributen van objecttype Opdrachtgever
 | domein_dcat |  |
 | gemma_naam | Opdrachtnemer |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-be336327-21c4-4d8a-9088-e04b4411204a |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-be336327-21c4-4d8a-9088-e04b4411204a](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-be336327-21c4-4d8a-9088-e04b4411204a) |
 | gemma_definitie | Partij die een opdracht aanvaardt. |
 | gemma_toelichting |  |
 
@@ -845,7 +845,7 @@ Attributen van objecttype Opdrachtnemer
 | domein_dcat |  |
 | gemma_naam | Product |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d7ab242e-b050-4af7-a400-d87ce1eceb43 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d7ab242e-b050-4af7-a400-d87ce1eceb43](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d7ab242e-b050-4af7-a400-d87ce1eceb43) |
 | gemma_definitie | Het resultaat van een proces dat in het economisch verkeer een waarde bezit. |
 | gemma_toelichting |  |
 
@@ -961,7 +961,7 @@ Attributen van objecttype Taakveld
 | domein_dcat |  |
 | gemma_naam | Werkorder |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5029f2d1-bad6-4813-8f59-d3f7981849e3 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5029f2d1-bad6-4813-8f59-d3f7981849e3](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5029f2d1-bad6-4813-8f59-d3f7981849e3) |
 | gemma_definitie | Opdracht voor de uitvoering van een activiteit of een stap in een proces. |
 | gemma_toelichting |  |
 

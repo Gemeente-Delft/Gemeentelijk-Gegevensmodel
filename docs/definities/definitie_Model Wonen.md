@@ -55,7 +55,7 @@ Het model 'Model Wonen' heeft de volgende kenmerken:
 | domein_dcat |  |
 | gemma_naam | Gebouw |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-69e60d64-7165-488f-a392-0e75eb4e99fb |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-69e60d64-7165-488f-a392-0e75eb4e99fb](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-69e60d64-7165-488f-a392-0e75eb4e99fb) |
 | gemma_definitie | Een complex van ruimten uitsluitend bedoeld voor de huisvesting van een afzonderlijk huishouden |
 | gemma_toelichting |  |
 
@@ -168,7 +168,7 @@ Attributen van objecttype Koopwoningen
 | domein_dcat |  |
 | gemma_naam | Plan |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e5933d4f-02b6-4851-a31e-8bc5b7cbaab6 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e5933d4f-02b6-4851-a31e-8bc5b7cbaab6](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e5933d4f-02b6-4851-a31e-8bc5b7cbaab6) |
 | gemma_definitie | Project waarin woningen worden gerealiseerd |
 | gemma_toelichting |  |
 
@@ -217,7 +217,7 @@ Attributen van objecttype Plan
 | domein_dcat |  |
 | gemma_naam | Projectleider |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fa52d5b0-b810-4f70-8e27-180b36fec342 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fa52d5b0-b810-4f70-8e27-180b36fec342](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fa52d5b0-b810-4f70-8e27-180b36fec342) |
 | gemma_definitie | De persoon die een project aanstuurt |
 | gemma_toelichting |  |
 
@@ -252,7 +252,7 @@ Attributen van objecttype Projectleider
 | domein_dcat |  |
 | gemma_naam | Projectontwikkelaar |
 | gemma_type | business-object |
-| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2e6cb8da-90a5-4c57-be64-5a82cfbddb12 |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2e6cb8da-90a5-4c57-be64-5a82cfbddb12](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2e6cb8da-90a5-4c57-be64-5a82cfbddb12) |
 | gemma_definitie | Een persoon of een firma die een project ontwikkelt voor financieel gewin. |
 | gemma_toelichting |  |
 
