@@ -68,13 +68,13 @@ Het model 'Model Financien ' heeft de volgende kenmerken:
 | created | 2018-05-15 09:42:06 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_7B8D0A8F_07BF_42bf_90B3_28A72BD4401A |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Activa |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e83e86ad-4769-41ce-91c7-675e93441074 |
+| gemma_definitie | Bezittingen van een onderneming op een boekhoudkundige balans |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Activa
@@ -104,13 +104,13 @@ Attributen van objecttype Activa
 | created | 2018-05-15 09:48:32 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_2483BD14_7FA7_4514_A565_C7F7967E226D |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Activasoort
@@ -140,13 +140,13 @@ Attributen van objecttype Activasoort
 | created | 2018-05-15 09:32:52 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_FC698CC3_7A64_4991_A751_B3B2A5DF77E3 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Bankafschrift
@@ -176,13 +176,13 @@ Attributen van objecttype Bankafschrift
 | created | 2018-06-20 13:54:30 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_764CE125_55C1_480d_90BA_745484CF3FC0 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Bankafschriftregel
@@ -214,13 +214,13 @@ Attributen van objecttype Bankafschriftregel
 | created | 2018-05-15 09:53:35 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_D87012E0_D2EB_4333_AD6C_1E43E6857304 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Bankrekening |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a353735d-326c-48fd-9f74-0192ba6e414a |
+| gemma_definitie | Een rekening-courant bij een bank |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Bankrekening
@@ -251,13 +251,13 @@ Attributen van objecttype Bankrekening
 | created | 2018-05-15 10:16:46 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_A784A0ED_4451_4a92_B7C8_ABE528BA898F |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Batch |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4499a4ec-1e22-4a1c-968a-ad3dbb7be6a1 |
+| gemma_definitie | Verzameling van posten die in het kader van automatische verwerking een logisch geheel vormen. |
+| gemma_toelichting | Bijvoorbeeld alle betalingen die op een dag ter verwerking in de computers aangeboden worden. |
 
 
 Attributen van objecttype Batch
@@ -288,13 +288,13 @@ Attributen van objecttype Batch
 | created | 2018-06-20 14:15:19 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_9F935C8B_5B7C_4ce4_9360_04A91F4F70CC |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Batchregel |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4abf6a6b-2045-4961-b70f-c6f664e9261c |
+| gemma_definitie | Een item uit een batch |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Batchregel
@@ -327,13 +327,13 @@ Attributen van objecttype Batchregel
 | created | 2018-06-20 15:07:32 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_C95CF400_8487_4ff3_B475_CA1E01EBCA78 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Begroting |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-87fdbae1-7e9e-46a4-8043-3d77bd5903ac |
+| gemma_definitie | Een overzicht van de verwachte ontvangsten en voorziene uitgaven voor een bepaalde (meestal toekomstige) periode zodat hier een afstemming tussen plaats kan vinden om eventuele tekorten en overschotten vroegtijdig in kaart te kunnen brengen. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Begroting
@@ -364,13 +364,13 @@ Attributen van objecttype Begroting
 | created | 2018-06-20 15:07:04 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_87964E36_9FEE_4b8f_A053_C4EDAF000646 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Begrotingregel |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ecb0f96e-e66d-48fb-ade1-416366d1b18e |
+| gemma_definitie | Een item op de begroting |
+| gemma_toelichting | Een begrotingsregel betreft #. een combinatie van hoofdstuk met optioneel doelstelling met optioneel product of #. een kostenplaats met 1 of meer hoofdrekeningen |
 
 
 Attributen van objecttype Begrotingregel
@@ -401,13 +401,13 @@ Attributen van objecttype Begrotingregel
 | created | 2018-05-14 14:40:52 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_E74D0D46_66EB_4deb_A540_7AB08E95F956 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Debiteur |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e21e51ee-3a32-444b-80c7-b6694ff37253 |
+| gemma_definitie | Iemand aan wie een dienst of product geleverd is waardoor recht op een vergoeding is ontstaan |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Debiteur
@@ -435,13 +435,13 @@ Attributen van objecttype Debiteur
 | created | 2018-06-20 14:52:02 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_2FFE3BAD_CB0E_43ea_A435_FD693B9255C3 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Doelstelling |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2bd07fb4-4cfb-4d89-ac99-cb2377decd2d |
+| gemma_definitie | Een op korte of middellange termijn nagestreefde situatie |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Doelstelling
@@ -472,13 +472,13 @@ Attributen van objecttype Doelstelling
 | created | 2018-05-14 14:38:41 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_E1DA56C3_6ECA_4ec9_8CF4_FC57E1C43102 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Factuur |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e3c92496-53d2-473e-9643-9774cdda2891 |
+| gemma_definitie | Schriftelijke rekening of nota voor de geleverde zaken of verrichte diensten. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Factuur
@@ -515,13 +515,13 @@ Attributen van objecttype Factuur
 | created | 2018-05-14 14:49:03 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_65E960EA_CC92_4af1_AF2B_B4625FA6AEA0 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Factuurregel
@@ -555,13 +555,13 @@ Attributen van objecttype Factuurregel
 | created | 2018-05-14 14:24:29 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_0EEAF579_3F47_4551_B9F9_7367280EB3EB |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Hoofdrekening |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-126b246a-a292-49cb-a609-3ffa5898210e |
+| gemma_definitie | is kostensoort |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Hoofdrekening
@@ -596,13 +596,13 @@ Attributen van objecttype Hoofdrekening
 | created | 2018-06-20 14:50:09 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_FFAA30D3_91C2_44aa_B52D_B21C51DB0326 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Hoofdstuk |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-24693ea2-5032-4c71-a9c7-945b3ac90530 |
+| gemma_definitie | Onderdeel van een langere tekst. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Hoofdstuk
@@ -633,13 +633,13 @@ Attributen van objecttype Hoofdstuk
 | created | 2018-05-15 09:47:48 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_A91E9C27_C4FA_4e1b_A4FF_8AE74ED9B7EB |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Inkooporder |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ede48ca8-4854-44b2-b549-0827bebf56ab |
+| gemma_definitie | Een opdracht (gezien vanuit de klant) voor √©√©n of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Inkooporder
@@ -685,13 +685,13 @@ Attributen van objecttype Inkooporder
 | created | 2018-03-21 12:25:41 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_D90E822D_7EF8_4ea6_AF5C_4A4362577941 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Kostenplaats |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-126c564a-16fa-4e61-b52d-3af4968904d8 |
+| gemma_definitie | Rekening waaraan boekingen in een financi√´le administratie samen worden toegeschreven. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Kostenplaats
@@ -727,13 +727,13 @@ Attributen van objecttype Kostenplaats
 | created | 2018-06-20 14:17:00 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_CB0A6B53_D263_459e_8C28_AD97E5552FFF |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Mutatie |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ab96da46-ed16-412b-8022-4233ce20e311 |
+| gemma_definitie | Wijziging van een situatie |
+| gemma_toelichting | Dit kan naast getoonde mutaties nog diverse andere soorten mutaties betreffen, die handmatig worden ingevoerd, of via batches of facturen lopen: * Verkoop tot ontvangst * Inkoop tot betaling * BTW-compensatie * Vaste activa * Urenadministratie uit TIM |
 
 
 Attributen van objecttype Mutatie
@@ -763,13 +763,13 @@ Attributen van objecttype Mutatie
 | created | 2018-06-20 15:01:14 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_C2520FC3_622B_4edf_B911_C661B0D710FE |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Opdrachtgever |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7979016d-19cb-493e-904e-c7363a7930aa |
+| gemma_definitie | Persoon die een opdracht verstrekt. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Opdrachtgever
@@ -802,13 +802,13 @@ Attributen van objecttype Opdrachtgever
 | created | 2018-06-20 15:01:30 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_9ABE303F_1E8D_407c_BBB8_E7DAC383E0C3 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Opdrachtnemer |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-be336327-21c4-4d8a-9088-e04b4411204a |
+| gemma_definitie | Partij die een opdracht aanvaardt. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Opdrachtnemer
@@ -841,13 +841,13 @@ Attributen van objecttype Opdrachtnemer
 | created | 2018-06-20 14:52:11 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_04439F81_75DB_45cf_BE7A_352A54A95D73 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Product |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d7ab242e-b050-4af7-a400-d87ce1eceb43 |
+| gemma_definitie | Het resultaat van een proces dat in het economisch verkeer een waarde bezit. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Product
@@ -878,13 +878,13 @@ Attributen van objecttype Product
 | created | 2018-06-20 14:30:43 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_1EC60172_CB6B_40c9_9818_C7A708C8540E |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Subrekening
@@ -915,13 +915,13 @@ Attributen van objecttype Subrekening
 | created | 2022-08-23 17:08:18 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_E81C0FA0_2203_489a_98E9_32F1CB200E75 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Taakveld
@@ -957,13 +957,13 @@ Attributen van objecttype Taakveld
 | created | 2018-06-20 14:30:34 |
 | modified | 2024-04-17 13:34:44 |
 | id | EAID_4AF7FA48_DFB0_474f_B797_A13D5FD37530 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Werkorder |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5029f2d1-bad6-4813-8f59-d3f7981849e3 |
+| gemma_definitie | Opdracht voor de uitvoering van een activiteit of een stap in een proces. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Werkorder

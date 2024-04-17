@@ -105,13 +105,13 @@ Het model 'Model Kern RSGB' heeft de volgende kenmerken:
 | created | 2022-03-23 15:03:34 |
 | modified | 2024-04-17 13:34:51 |
 | id | EAID_755B80B2_6522_4c58_A998_D3F00859FE78 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Aantekening
@@ -148,13 +148,13 @@ Attributen van objecttype Aantekening
 | created | 2022-03-23 15:17:23 |
 | modified | 2024-04-17 13:34:51 |
 | id | EAID_3E5B2877_D6CC_487e_BD79_042E32D17550 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype AdresBuitenland
@@ -192,13 +192,13 @@ Attributen van objecttype AdresBuitenland
 | created | 2022-03-23 15:46:29 |
 | modified | 2024-04-17 13:34:52 |
 | id | EAID_3015DCE3_7C05_4160_A717_533553258C15 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Briefadres |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-af282ab4-d6c4-4a5f-8126-db9b70cff048 |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Briefadres
@@ -230,13 +230,13 @@ Attributen van objecttype Briefadres
 | created | 2023-02-28 11:51:48 |
 | modified | 2024-04-17 13:34:52 |
 | id | EAID_69B41CDD_C3F1_449b_92B4_8F7657840646 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Nationaliteit
@@ -273,13 +273,13 @@ Attributen van objecttype Nationaliteit
 | created | 2020-09-09 16:43:33 |
 | modified | 2024-04-17 13:34:52 |
 | id | EAID_75E93FC5_3EF8_40b6_B170_ED5A2C36B354 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Onbestemd Adres |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ced72a4a-9aa5-485a-8535-206b97fd494f |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Onbestemd Adres
@@ -312,13 +312,13 @@ Attributen van objecttype Onbestemd Adres
 | created | 2010-07-05 13:31:04 |
 | modified | 2024-04-17 13:34:52 |
 | id | EAID_31A87864_6CE0_4e93_A493_ECD0FBDD4461 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | NUMMERAANDUIDING |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-403c547f-8d7e-4235-99d9-d155063c6085 |
+| gemma_definitie | Een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een VERBLIJFSOBJECT, een STANDPLAATS of een LIGPLAATS. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype NUMMERAANDUIDING
@@ -363,13 +363,13 @@ Attributen van objecttype NUMMERAANDUIDING
 | created | 2010-07-05 15:13:48 |
 | modified | 2024-04-17 13:34:52 |
 | id | EAID_869E0A04_A663_4839_970D_7FB82DF6C317 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | APPARTEMENTSRECHT |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b84fbae7-cecd-4c24-96cb-427a00d862c6 |
+| gemma_definitie | Een KADASTRALE ONROERENDE ZAAK dat een aandeel is in de  goederen die in de splitsing zijn betrokken, dat de bevoegdheid omvat tot het uitsluitend gebruik van bepaalde gedeelten van het gebouw die blijkens hun inrichting bestemd zijn of worden om als afzonderlijk geheel te worden  gebruikt (art. 5:106 lid 4 BW). |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype APPARTEMENTSRECHT
@@ -397,13 +397,13 @@ Attributen van objecttype APPARTEMENTSRECHT
 | created | 2013-10-14 14:33:29 |
 | modified | 2024-04-17 13:34:52 |
 | id | EAID_C1542AC8_2F3C_4e62_ADFA_A9FB3358DAB1 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | APPARTEMENTSRECHTSPLITSING |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1b771d9e-6208-4916-86ed-a88a79cac648 |
+| gemma_definitie | Het recht op een stuk grond of op een gebouw met toebehoren op de daarbij behorende grond met toebehoren is gesplitst in appartementsrechten. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype APPARTEMENTSRECHTSPLITSING
@@ -434,13 +434,13 @@ Attributen van objecttype APPARTEMENTSRECHTSPLITSING
 | created | 2010-07-06 13:50:53 |
 | modified | 2024-04-17 13:34:52 |
 | id | EAID_D872C213_09D7_4dca_A020_EA363480FC7D |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype BegroeidTerreindeel
@@ -479,13 +479,13 @@ Attributen van objecttype BegroeidTerreindeel
 | created | 2010-07-04 23:09:31 |
 | modified | 2024-04-17 13:34:52 |
 | id | EAID_3E9E08B7_574E_43dc_8D93_251BFA8F8D75 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | BENOEMD OBJECT |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-13ad6d22-52ce-4439-9eed-200245c3a498 |
+| gemma_definitie | Een GEBOUWD OBJECT of een BENOEMD TERREIN |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype BENOEMD OBJECT
@@ -520,13 +520,13 @@ Attributen van objecttype BENOEMD OBJECT
 | created | 2010-07-04 23:25:38 |
 | modified | 2024-04-17 13:34:52 |
 | id | EAID_73F1C4A1_481E_4052_A372_1A0895ED1295 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | BENOEMD TERREIN |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c0361a4b-968e-477e-b81c-ee26a5aa0543 |
+| gemma_definitie | Een STANDPLAATS, LIGPLAATS, of een OVERIG BENOEMD TERREIN. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype BENOEMD TERREIN
@@ -555,13 +555,13 @@ Attributen van objecttype BENOEMD TERREIN
 | created | 2010-07-05 14:39:50 |
 | modified | 2024-04-17 13:34:52 |
 | id | EAID_67CC2144_6B88_433c_853D_07379C66D6CF |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | BUURT |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8772e7a6-24c8-454f-ab54-7d12c1849e97 |
+| gemma_definitie | Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype BUURT
@@ -598,13 +598,13 @@ Attributen van objecttype BUURT
 | created | 2019-12-18 14:57:13 |
 | modified | 2024-04-17 13:34:52 |
 | id | EAID_5835F691_4452_44de_A1E9_07088AC16D69 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Gebied
@@ -639,13 +639,13 @@ Attributen van objecttype Gebied
 | created | 2011-12-15 12:04:13 |
 | modified | 2024-04-17 13:34:52 |
 | id | EAID_B8F44180_1F2A_4bbc_8E17_6C472111A92B |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype FunctioneelGebied
@@ -680,13 +680,13 @@ Attributen van objecttype FunctioneelGebied
 | created | 2010-07-05 00:32:55 |
 | modified | 2024-04-17 13:34:52 |
 | id | EAID_752621CC_D5CA_4f4c_A937_AF6C84E6ADED |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | GEBOUWD OBJECT |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f048185d-8eb4-447b-ade2-6160df1dedb3 |
+| gemma_definitie | Een VERBLIJFSOBJECT of een OVERIG GEBOUWD OBJECT |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype GEBOUWD OBJECT
@@ -723,13 +723,13 @@ Attributen van objecttype GEBOUWD OBJECT
 | created | 2011-09-05 08:47:51 |
 | modified | 2024-04-17 13:34:52 |
 | id | EAID_6FDC646C_F9E2_4610_8FFE_1ECFA99FFBD7 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Gebouwinstallatie
@@ -765,13 +765,13 @@ Attributen van objecttype Gebouwinstallatie
 | created | 2010-07-05 14:31:43 |
 | modified | 2024-04-17 13:34:52 |
 | id | EAID_B0D9792B_46E7_4b88_B267_C72691616733 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | GEMEENTE |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9f1ea854-eb45-47a0-98f4-4043b4a69be0 |
+| gemma_definitie | Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype GEMEENTE
@@ -807,13 +807,13 @@ Attributen van objecttype GEMEENTE
 | created | 2018-03-21 15:46:54 |
 | modified | 2024-04-17 13:34:52 |
 | id | EAID_6FB0A5B7_7B5F_437f_A462_4B1EADB964E4 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | HUISHOUDEN |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2515abf4-dea2-44eb-8886-c90c1ab42069 |
+| gemma_definitie | Een duurzame samenlevingsvorm van een of meer natuurlijke personen binnen een VERBLIJFSOBJECT, STANDPLAATS of LIGPLAATS. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype HUISHOUDEN
@@ -848,13 +848,13 @@ Attributen van objecttype HUISHOUDEN
 | created | 2012-05-15 08:29:10 |
 | modified | 2024-04-17 13:34:52 |
 | id | EAID_4DA0EB59_963C_4558_B763_44F542BC8D89 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Inrichtingselement
@@ -892,13 +892,13 @@ Attributen van objecttype Inrichtingselement
 | created | 2010-07-05 15:08:37 |
 | modified | 2024-04-17 13:34:53 |
 | id | EAID_172AFD36_B400_4660_BFAC_4BBC1077D666 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | KADASTRAAL PERCEEL |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0fd3695d-aa71-4f35-a8bf-7886c70e0ed8 |
+| gemma_definitie | Een KADASTRALE ONROERENDE ZAAK dat een kadastraal geïdentificeerd en met kadastrale grenzen begrensd deel van het Nederlands grondgebied betreft (art. 1 lid 1 Kadasterwet). |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype KADASTRAAL PERCEEL
@@ -932,13 +932,13 @@ Attributen van objecttype KADASTRAAL PERCEEL
 | created | 2010-07-05 15:03:38 |
 | modified | 2024-04-17 13:34:53 |
 | id | EAID_9775E778_DBF8_4122_94CE_551466B62F46 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | KADASTRALE ONROERENDE ZAAK |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8155eb9b-eb9e-4eec-a850-80c185983a9f |
+| gemma_definitie | Een geregistreerd goed waarvoor bij overdracht of vestiging van rechten inschrijving in de openbare registers van het Kadaster is vereist zijnde een KADASTRAAL PERCEEL of een APPARTEMENTSRECHT. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype KADASTRALE ONROERENDE ZAAK
@@ -990,13 +990,13 @@ Attributen van objecttype KADASTRALE ONROERENDE ZAAK
 | created | 2010-07-05 15:40:20 |
 | modified | 2024-04-17 13:34:53 |
 | id | EAID_AF9534B0_7CBD_4061_9276_A7B6698B383A |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | INGESCHREVEN PERSOON |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e1371e07-969e-4a34-be81-0a23ffd541dd |
+| gemma_definitie | Een INGEZETENE of NIET-INGEZETENE |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype INGESCHREVEN PERSOON
@@ -1049,13 +1049,13 @@ Attributen van objecttype INGESCHREVEN PERSOON
 | created | 2010-07-06 10:26:17 |
 | modified | 2024-04-17 13:34:53 |
 | id | EAID_0BC18F79_3560_4e43_8154_7CCDC7D67A03 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | KADASTRALE ONROERENDE ZAAK AANTEKENING |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6c7ed209-0c32-432f-b6cd-32a0a1505a4e |
+| gemma_definitie | Aanduiding van het feit, genoemd in een Stuk, dat betrekking heeft op een onroerende zaak en dat gevolgen kan hebben voor de uitoefening van rechten op de onroerende zaak. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype KADASTRALE ONROERENDE ZAAK AANTEKENING
@@ -1089,13 +1089,13 @@ Attributen van objecttype KADASTRALE ONROERENDE ZAAK AANTEKENING
 | created | 2010-07-05 15:45:44 |
 | modified | 2024-04-17 13:34:53 |
 | id | EAID_CA19D17F_3EB7_459d_9883_16F0C0B5D35E |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | INGEZETENE |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c5e5f4f9-5bb6-4a9f-816b-e41abc770e86 |
+| gemma_definitie | Een individueel menselijk wezen, ingeschreven in het Nederlands Bevolkingsregister. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype INGEZETENE
@@ -1131,13 +1131,13 @@ Attributen van objecttype INGEZETENE
 | created | 2010-07-06 13:21:25 |
 | modified | 2024-04-17 13:34:53 |
 | id | EAID_2EC96974_F21E_4bdb_AF4D_30D7091F5645 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Kunstwerkdeel
@@ -1180,13 +1180,13 @@ Attributen van objecttype Kunstwerkdeel
 | created | 2010-07-05 00:21:01 |
 | modified | 2024-04-17 13:34:53 |
 | id | EAID_F4978264_32A5_4e70_97A8_D142B64400A8 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Ligplaats
@@ -1220,13 +1220,13 @@ Attributen van objecttype Ligplaats
 | created | 2010-07-06 11:43:52 |
 | modified | 2024-04-17 13:34:53 |
 | id | EAID_3DC85114_5C3F_4930_B98B_6EB6ED71FC2E |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | MAATSCHAPPELIJKE ACTIVITEIT |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-82773f8d-3aa1-4e1f-b6de-9284a1851960 |
+| gemma_definitie | Een verband tussen één of meer personen met voldoende mate van zelfstandigheid, inbreng van arbeid of middelen, winstoogmerk en extern optreden (i.g.v. een onderneming) dan wel een in een organisatorisch verband, dat toebehoort aan een niet-natuurlijk persoon welke registratieplichtig is, uitgeoefende activiteit die niet valt onder de criteria voor onderneming of bedrijfsmatigheid welke adresseerbaar is middels ofwel een vestiging ofwel het adres van een bepaalde vertegenwoordiger (i.g.v. een niet-ondernemings-activiteit). |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype MAATSCHAPPELIJKE ACTIVITEIT
@@ -1267,13 +1267,13 @@ Attributen van objecttype MAATSCHAPPELIJKE ACTIVITEIT
 | created | 2010-07-06 13:40:09 |
 | modified | 2024-04-17 13:34:53 |
 | id | EAID_BA35A5E2_5A1D_4328_91CD_D51694ED5FBA |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | ADRESSEERBAAR OBJECT AANDUIDING |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cc3c2d8f-cb2f-4e39-a220-bff533892688 |
+| gemma_definitie | Een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een VERBLIJFSOBJECT, een STANDPLAATS of een LIGPLAATS. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype ADRESSEERBAAR OBJECT AANDUIDING
@@ -1304,13 +1304,13 @@ Attributen van objecttype ADRESSEERBAAR OBJECT AANDUIDING
 | created | 2011-08-30 15:04:02 |
 | modified | 2024-04-17 13:34:53 |
 | id | EAID_C32F1546_F793_4f13_91A4_2047E6DE6E91 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype OnbegroeidTerreindeel
@@ -1348,13 +1348,13 @@ Attributen van objecttype OnbegroeidTerreindeel
 | created | 2012-02-23 11:34:38 |
 | modified | 2024-04-17 13:34:53 |
 | id | EAID_7B92809F_CFAE_4be8_BE3A_4E4B94E83F52 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype OndersteunendWaterdeel
@@ -1390,13 +1390,13 @@ Attributen van objecttype OndersteunendWaterdeel
 | created | 2011-09-01 09:13:19 |
 | modified | 2024-04-17 13:34:53 |
 | id | EAID_F55A5977_7E3B_4cf4_B8D1_CFCEECA0DEA1 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype OndersteunendWegdeel
@@ -1437,13 +1437,13 @@ Attributen van objecttype OndersteunendWegdeel
 | created | 2010-07-05 14:05:00 |
 | modified | 2024-04-17 13:34:54 |
 | id | EAID_FB13857C_C695_4b53_8060_BACFA0E16950 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | OPENBARE RUIMTE |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bb6b6dd2-7b6a-4146-afc0-c5647256ef11 |
+| gemma_definitie | Een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype OPENBARE RUIMTE
@@ -1488,13 +1488,13 @@ Attributen van objecttype OPENBARE RUIMTE
 | created | 2012-02-23 13:02:34 |
 | modified | 2024-04-17 13:34:54 |
 | id | EAID_2E45A5F3_A685_48c5_98D4_794BE382891E |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Overbruggingsdeel
@@ -1532,13 +1532,13 @@ Attributen van objecttype Overbruggingsdeel
 | created | 2010-07-05 00:26:43 |
 | modified | 2024-04-17 13:34:54 |
 | id | EAID_CFA3D54E_C8E0_4559_9475_29D31AF2DECD |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype OverigBenoemdTerrein
@@ -1569,13 +1569,13 @@ Attributen van objecttype OverigBenoemdTerrein
 | created | 2010-07-05 15:31:55 |
 | modified | 2024-04-17 13:34:54 |
 | id | EAID_9F4E12E4_B228_4931_AC83_1B1F60958A89 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | NATUURLIJK PERSOON |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cd27cd50-1721-4870-a292-ea0f24d1ada4 |
+| gemma_definitie | Een INGESCHREVEN PERSOON of ANDER NATUURLIJK PERSOON |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype NATUURLIJK PERSOON
@@ -1629,13 +1629,13 @@ Attributen van objecttype NATUURLIJK PERSOON
 | created | 2013-08-13 15:08:48 |
 | modified | 2024-04-17 13:34:54 |
 | id | EAID_1DA7BC25_CF02_4161_B9A2_DE0BE27C5254 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype OverigBouwwerk
@@ -1674,13 +1674,13 @@ Attributen van objecttype OverigBouwwerk
 | created | 2010-07-05 00:41:41 |
 | modified | 2024-04-17 13:34:54 |
 | id | EAID_7CDF37D9_26D7_46a5_9CF3_392601BDCECA |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype OverigGebouwdObject
@@ -1713,13 +1713,13 @@ Attributen van objecttype OverigGebouwdObject
 | created | 2010-07-05 15:34:36 |
 | modified | 2024-04-17 13:34:54 |
 | id | EAID_3D5CCB29_91E4_458e_8BCD_6741198E45B8 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | NIET NATUURLIJK PERSOON |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6eaed538-bcc5-4648-b0f2-4c5095b9f514 |
+| gemma_definitie | Een INGESCHREVEN NIET-NATUURLIJK PERSOON of een ANDER BUITENLANDS NIET-NATUURLIJK PERSOON |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype NIET NATUURLIJK PERSOON
@@ -1763,13 +1763,13 @@ Attributen van objecttype NIET NATUURLIJK PERSOON
 | created | 2010-07-05 13:45:34 |
 | modified | 2024-04-17 13:34:54 |
 | id | EAID_7B33EB93_BAD8_4b36_90A1_B3909415EDC3 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | OVERIGE ADRESSEERBAAR OBJECT AANDUIDING |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-900a1db0-0009-453f-a000-4d382bcc367d |
+| gemma_definitie | Een door de gemeenteraad als zodanig toegekende aanduiding van een overig gebouwd object of een overig benoemd terrein. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype OVERIGE ADRESSEERBAAR OBJECT AANDUIDING
@@ -1798,13 +1798,13 @@ Attributen van objecttype OVERIGE ADRESSEERBAAR OBJECT AANDUIDING
 | created | 2011-09-01 08:41:26 |
 | modified | 2024-04-17 13:34:54 |
 | id | EAID_EC57B722_D4B4_42d2_AF3C_31E085C63EBB |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype OverigeScheiding
@@ -1843,13 +1843,13 @@ Attributen van objecttype OverigeScheiding
 | created | 2010-07-05 14:45:48 |
 | modified | 2024-04-17 13:34:54 |
 | id | EAID_26D1113F_F7B3_4bdd_9AAE_EA14CC9F3C3F |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | PAND |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1affb298-091d-452a-83bd-29638650afb5 |
+| gemma_definitie | De kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype PAND
@@ -1902,13 +1902,13 @@ Attributen van objecttype PAND
 | created | 2010-07-06 11:37:30 |
 | modified | 2024-04-17 13:34:54 |
 | id | EAID_CA9BC1BB_D572_4e47_BECF_17CFD379BD6A |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | REISDOCUMENT |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bd460a48-7720-465d-b12b-c15097ec620c |
+| gemma_definitie | Een document dat vereist is voor reizen naar het buitenland |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype REISDOCUMENT
@@ -1945,13 +1945,13 @@ Attributen van objecttype REISDOCUMENT
 | created | 2011-08-31 13:28:27 |
 | modified | 2024-04-17 13:34:54 |
 | id | EAID_A637379F_6E1D_47aa_AE75_3E22FE0DC814 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Scheiding
@@ -1990,13 +1990,13 @@ Attributen van objecttype Scheiding
 | created | 2010-07-06 13:45:46 |
 | modified | 2024-04-17 13:34:55 |
 | id | EAID_B0EA89D8_EE32_410b_B683_8CA937E5009D |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Spoor
@@ -2032,13 +2032,13 @@ Attributen van objecttype Spoor
 | created | 2010-07-05 00:11:57 |
 | modified | 2024-04-17 13:34:55 |
 | id | EAID_B1C6CA45_49C9_45f0_8B14_A721AD505C50 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Standplaats
@@ -2069,13 +2069,13 @@ Attributen van objecttype Standplaats
 | created | 2010-07-05 15:26:28 |
 | modified | 2024-04-17 13:34:55 |
 | id | EAID_9DF5AC43_3673_4b9a_BB5E_6DCA7BE28835 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Rechtspersoon
@@ -2121,13 +2121,13 @@ Attributen van objecttype Rechtspersoon
 | created | 2013-10-10 14:33:12 |
 | modified | 2024-04-17 13:34:55 |
 | id | EAID_2651D6E0_6AC8_43a8_A4F6_4706209BAC8E |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | TENAAMSTELLING |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-429cbd2f-a86d-49d9-9c8a-0de67a7e7d3e |
+| gemma_definitie | Een TENAAMSTELLING  vormt de relatie tussen een Recht en een Persoon en geeft aan welk recht, met uitzondering van hypotheek en beslag, door een Persoon wordt uitgeoefend op een Kadastraal object. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype TENAAMSTELLING
@@ -2164,13 +2164,13 @@ Attributen van objecttype TENAAMSTELLING
 | created | 2012-02-23 13:08:09 |
 | modified | 2024-04-17 13:34:55 |
 | id | EAID_EE07AE43_1825_4377_9984_9636AB015C11 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Tunneldeel
@@ -2205,13 +2205,13 @@ Attributen van objecttype Tunneldeel
 | created | 2010-07-05 16:09:33 |
 | modified | 2024-04-17 13:34:55 |
 | id | EAID_B60B8EF9_D1C0_4e36_BF9B_1C16F92518DD |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | VESTIGING |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b403d1ab-a0ee-4ca0-befa-01bbc54bf403 |
+| gemma_definitie | Een gebouw of complex van gebouwen waar duurzame uitoefening van de activiteiten van een onderneming of rechtspersoon plaatsvindt. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype VESTIGING
@@ -2259,13 +2259,13 @@ Attributen van objecttype VESTIGING
 | created | 2011-09-01 11:36:24 |
 | modified | 2024-04-17 13:34:55 |
 | id | EAID_9980DF6D_0C86_4039_8400_C54DAC77FB79 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Vegetatieobject
@@ -2301,13 +2301,13 @@ Attributen van objecttype Vegetatieobject
 | created | 2010-07-05 00:38:12 |
 | modified | 2024-04-17 13:34:55 |
 | id | EAID_A33151CE_37B2_4026_B0AF_B541687B5B7C |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | VERBLIJFSOBJECT |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-67a1d348-4663-4a34-8b6a-06b3ea888a9d |
+| gemma_definitie | De kleinste binnen één of meer panden gelegen en voor woon -, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype VERBLIJFSOBJECT
@@ -2347,13 +2347,13 @@ Attributen van objecttype VERBLIJFSOBJECT
 | created | 2010-07-06 13:56:29 |
 | modified | 2024-04-17 13:34:55 |
 | id | EAID_FD0B5F4D_AE9B_47bd_8C60_031D21AC24B1 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Waterdeel
@@ -2389,13 +2389,13 @@ Attributen van objecttype Waterdeel
 | created | 2010-07-06 13:59:10 |
 | modified | 2024-04-17 13:34:55 |
 | id | EAID_9B0F3F8B_B79B_46f7_BF81_96E4C63B9AC2 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Wegdeel
@@ -2440,13 +2440,13 @@ Attributen van objecttype Wegdeel
 | created | 2018-03-21 15:46:55 |
 | modified | 2024-04-17 13:34:55 |
 | id | EAID_A660422D_E9ED_47c9_9978_480E57572775 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | VERBLIJFSTITEL |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fd0e38fd-ce78-454e-9d27-268a9e15ca40 |
+| gemma_definitie | Rechtsgrond op basis waarvan men bevoegd is in een land te verblijven. Opmerkingen obv Key2Burgerzaken: De verblijfstitel heeft een ingangs- en vervaldatum, datum geldig en een opname datum RSGB3.0 onderkent alleen Datum einde en Datum ingang. Dat is onvoldoende om volgorde en geldigheid in tijd correct te bepalen |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype VERBLIJFSTITEL
@@ -2480,13 +2480,13 @@ Attributen van objecttype VERBLIJFSTITEL
 | created | 2010-07-05 14:35:18 |
 | modified | 2024-04-17 13:34:55 |
 | id | EAID_2F759BC4_7E3C_4ce9_94FF_33A4106A6E5A |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | WIJK |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fd33a9fa-9c73-43a1-8e22-8cff15dc84d9 |
+| gemma_definitie | Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype WIJK
@@ -2522,13 +2522,13 @@ Attributen van objecttype WIJK
 | created | 2010-07-05 14:23:09 |
 | modified | 2024-04-17 13:34:55 |
 | id | EAID_039AFF88_F5F7_4c1a_B7E4_1BDFC495F67A |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | WOONPLAATS |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c063970e-27f6-45a2-88e8-0105dbbce716 |
+| gemma_definitie | Een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype WOONPLAATS
@@ -2566,13 +2566,13 @@ Attributen van objecttype WOONPLAATS
 | created | 2010-07-05 14:51:49 |
 | modified | 2024-04-17 13:34:56 |
 | id | EAID_EEC30588_0E12_41c9_977E_C885A0A7EDC3 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | WOZ-DEELOBJECT |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8047febd-3ee4-4a35-83ce-5f538c607446 |
+| gemma_definitie | Aanduiding van afzonderlijke elementen (delen van het object, bijzondere waarderelevante factoren) die voor de onderbouwing van de vastgestelde waarde van belang zijn. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype WOZ-DEELOBJECT
@@ -2608,13 +2608,13 @@ Attributen van objecttype WOZ-DEELOBJECT
 | created | 2010-07-05 14:55:02 |
 | modified | 2024-04-17 13:34:56 |
 | id | EAID_CB7BA76D_0793_4d5a_9596_533C5BC56BBF |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | WOZ-OBJECT |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3f1aeea3-a5a8-4df6-af1e-51d5ef4ad32f |
+| gemma_definitie | De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet worden bepaald en vastgesteld. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype WOZ-OBJECT
@@ -2654,13 +2654,13 @@ Attributen van objecttype WOZ-OBJECT
 | created | 2010-07-05 15:00:40 |
 | modified | 2024-04-17 13:34:56 |
 | id | EAID_7C387F42_EC1A_4a78_B09B_533AAB03C0C2 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype WOZWaarde
@@ -2693,13 +2693,13 @@ Attributen van objecttype WOZWaarde
 | created | 2010-07-06 11:00:41 |
 | modified | 2024-04-17 13:34:56 |
 | id | EAID_8C809341_AC60_4378_8BA0_0843E8C06AF3 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | ZAKELIJK RECHT |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-671ec5bd-e8ac-44d7-8a01-cc9b439c6c5f |
+| gemma_definitie | Het eigendom van, of een beperkt recht van een natuurlijk of niet-natuurlijk persoon (PERSOON) op, een onroerende zaak (met uitzondering van hypotheken en beslagen). |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype ZAKELIJK RECHT
@@ -2734,13 +2734,13 @@ Attributen van objecttype ZAKELIJK RECHT
 | created | 2015-02-24 10:05:15 |
 | modified | 2024-04-17 13:34:56 |
 | id | EAID_3397A5B5_E789_46e6_8559_C528EA55F830 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | ZEKERHEIDSRECHT |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0f33d06b-3e1f-4693-87af-2a5a9b739219 |
+| gemma_definitie | Een zekerheidsrecht is een beperkt recht (hypotheek) of een beperking (beslag). |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype ZEKERHEIDSRECHT

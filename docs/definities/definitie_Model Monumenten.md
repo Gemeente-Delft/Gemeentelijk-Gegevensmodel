@@ -50,13 +50,13 @@ Het model 'Model Monumenten' heeft de volgende kenmerken:
 | created | 2019-07-03 15:42:28 |
 | modified | 2024-04-17 13:34:26 |
 | id | EAID_54944273_F312_44b2_A78D_43488F915429 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Ambacht |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bb9de7ad-7e7e-4b87-9968-046d9bedd6ef |
+| gemma_definitie | Beroep waarbij een handwerker met gereedschap eindproducten maakt. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Ambacht
@@ -87,13 +87,13 @@ Attributen van objecttype Ambacht
 | created | 2019-07-03 15:12:51 |
 | modified | 2024-04-17 13:34:26 |
 | id | EAID_32C02923_EE3A_4553_B94B_31E0C273A829 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Beschermde Status |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4ebf7f05-0ff1-4d2e-aa62-879be7565dd7 |
+| gemma_definitie | Status van de bescherming van een monument. Een monument / erfgoed is een overblijfsel van kunst, cultuur, architectuur of nijverheid dat van algemeen belang wordt geacht vanwege de historische, volkskundige, artistieke, wetenschappelijke, industrieel-archeologische of andere sociaal-culturele waarde. Vormen van monument / erfgoed met de status rijks- provinciaal- of gemeentelijke monument / erfgoed zijn beschermd op grond van een besluit van respectievelijk het Ministerie OCW, de provincie of de gemeente, |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Beschermde Status
@@ -139,13 +139,13 @@ Attributen van objecttype Beschermde Status
 | created | 2019-07-03 15:45:18 |
 | modified | 2024-04-17 13:34:26 |
 | id | EAID_4AD539EC_A308_43da_B025_17A1647303F3 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Bouwactiviteit |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2b2319c1-d5b9-43c6-87cb-43bb194c65c6 |
+| gemma_definitie | Het bouwen van een bouwwerk. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Bouwactiviteit
@@ -178,13 +178,13 @@ Attributen van objecttype Bouwactiviteit
 | created | 2019-07-03 15:39:34 |
 | modified | 2024-04-17 13:34:26 |
 | id | EAID_8C0888C9_7B2E_4fcb_AEFF_E1733875CDCA |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Bouwstijl |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b46a0ac4-5d5a-430a-be26-9b40cc3bb7af |
+| gemma_definitie | Trant van bouwen met bepaalde kenmerken in een bepaalde periode. In de betrokken tijdperken waren het geen levende voorstellingen; het zijn later geformuleerde (generaliserende) geschiedkundige constructies. Doelbewust komt deze tendens op sedert c. 1830. (Haslinghuis) |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Bouwstijl
@@ -216,13 +216,13 @@ Attributen van objecttype Bouwstijl
 | created | 2019-07-03 15:39:43 |
 | modified | 2024-04-17 13:34:26 |
 | id | EAID_5E9DAFBB_C9B5_4706_A43D_07AD4979DED4 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Bouwtype
@@ -253,13 +253,13 @@ Attributen van objecttype Bouwtype
 | created | 2019-07-03 15:39:16 |
 | modified | 2024-04-17 13:34:26 |
 | id | EAID_49993EF9_ED8B_49e0_B8F7_FC7C8C28669D |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype OorspronkelijkeFunctie
@@ -306,13 +306,13 @@ De enumeratie TypeMonument heeft de volgende kenmerken:
 | created | None |
 | modified | None |
 | id | EAID_5C808AC9_CB09_4f4d_813E_821829856BA8 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
 
 
 

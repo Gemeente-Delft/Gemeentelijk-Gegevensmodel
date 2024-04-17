@@ -53,13 +53,13 @@ Het model 'Model Schulhulpverlening' heeft de volgende kenmerken:
 | created | 2018-06-13 13:31:03 |
 | modified | 2024-04-17 13:34:28 |
 | id | EAID_5CC59215_5A63_4ef8_9D64_C4FAC0619121 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Financiele Situatie |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fd84565d-63d3-44a1-84e0-cd0f580cb2ad |
+| gemma_definitie | Verhouding in inkomsten en uitgaven van een persoon of bedrijf |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Financiele Situatie
@@ -89,13 +89,13 @@ Attributen van objecttype Financiele Situatie
 | created | 2018-06-13 12:09:59 |
 | modified | 2024-04-17 13:34:28 |
 | id | EAID_9748A1E1_0B37_493d_B294_ED6CDE4C8DE9 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Notariele Status |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d72d1617-82d1-4241-97d7-46b14fbd6480 |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Notariele Status
@@ -123,13 +123,13 @@ Attributen van objecttype Notariele Status
 | created | 2018-06-13 12:08:58 |
 | modified | 2024-04-17 13:34:28 |
 | id | EAID_4D1988C7_D607_4b9a_9F53_0FFBBA15BFC9 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Project |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-52f89e9c-1b7d-42db-af7a-4d5533dbf82f |
+| gemma_definitie | Geheel van activiteiten uitgevoerd in een tijdelijk samenwerkingsverband gericht op het binnen bepaalde randvoorwaarden (bv. tijd, geld) bereiken van een vooraf gedefinieerd resultaat. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Project
@@ -163,13 +163,13 @@ Attributen van objecttype Project
 | created | 2018-06-13 12:15:42 |
 | modified | 2024-04-17 13:34:28 |
 | id | EAID_4FCF75CC_8296_4b32_BD5E_EC3DEDF17470 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Projectsoort
@@ -199,13 +199,13 @@ Attributen van objecttype Projectsoort
 | created | 2018-06-13 12:11:11 |
 | modified | 2024-04-17 13:34:28 |
 | id | EAID_253EF837_860B_438e_9157_6E1E07CB6F68 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Resultaat |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-575ac733-b713-457e-8798-0e188c9fc8fd |
+| gemma_definitie | De uitkomst van iets, bijvoorbeeld een berekening of een onderzoek. een gevolg. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Resultaat
@@ -236,13 +236,13 @@ Attributen van objecttype Resultaat
 | created | 2018-06-13 12:18:28 |
 | modified | 2024-04-17 13:34:28 |
 | id | EAID_92AEBE85_975F_482b_83A1_EFB9EDA4557A |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Resultaatsoort
@@ -272,13 +272,13 @@ Attributen van objecttype Resultaatsoort
 | created | 2018-06-13 12:09:16 |
 | modified | 2024-04-17 13:34:28 |
 | id | EAID_839017B2_0F95_42d0_AB2B_E873636340DA |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Traject |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a639deb6-a955-4f22-b6db-2c64f3abe044 |
+| gemma_definitie | Samenstel van achtereenvolgens uit te voeren en onderling samenhangende deelhandelingen of van opeenvolgende stadia in een proces, voorgesteld als een route die via opeenvolgende bestemmingen naar de eindbestemming voert. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Traject
@@ -312,13 +312,13 @@ Attributen van objecttype Traject
 | created | 2018-06-13 12:11:45 |
 | modified | 2024-04-17 13:34:28 |
 | id | EAID_42D33289_422A_4d94_BE6B_44B34CC230B5 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Uitstroomreden |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-310e7b8f-87b6-4493-8b66-1b222428dea4 |
+| gemma_definitie | Motivatie voor uitstroom |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Uitstroomreden
@@ -348,13 +348,13 @@ Attributen van objecttype Uitstroomreden
 | created | 2018-06-13 13:28:44 |
 | modified | 2024-04-17 13:34:28 |
 | id | EAID_00D4F259_1598_4817_AA3E_B38B6B156D20 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Uitstroomredensoort
@@ -405,13 +405,13 @@ De enumeratie ResultaatSHV heeft de volgende kenmerken:
 | created | None |
 | modified | None |
 | id | EAID_ED43ABF0_0753_48ea_B50A_CBE35DC95988 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
 
 
 
@@ -505,13 +505,13 @@ De enumeratie UitstroomredenSHV heeft de volgende kenmerken:
 | created | None |
 | modified | None |
 | id | EAID_FBF79BF2_ACCD_49ce_8B78_84F27AEBA132 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
 
 
 

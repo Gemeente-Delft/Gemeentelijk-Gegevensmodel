@@ -102,13 +102,13 @@ Het model 'Model IMBOR' heeft de volgende kenmerken:
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_401EC4C0_809B_48F0_9646_0F646A8F1AE |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Aansluitput
@@ -140,13 +140,13 @@ Attributen van objecttype Aansluitput
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_58EF1415_6ACB_412B_9C3E_E390BB2AE3B |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Afvalbak
@@ -177,13 +177,13 @@ Attributen van objecttype Afvalbak
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_6B54FE2F_9897_47DA_863C_5A931E89B2D |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Bak |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-10c774ed-95dc-4186-b425-c19c187b90ff |
+| gemma_definitie | Object met een permanent karakter dat dient om iets in te bergen of te verzamelen. (bron: definities.geostandaarden.nl) Synoniemen: Bak |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Bak
@@ -224,13 +224,13 @@ Attributen van objecttype Bak
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_83F95133_4D59_4B1F_B5DD_6055DA2C007 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Bank
@@ -260,13 +260,13 @@ Attributen van objecttype Bank
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_E060DC30_E4F2_4794_A16E_7207032E250 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Beheerobject |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7866576d-8cb5-495b-a2f4-2b56393ee7b5 |
+| gemma_definitie | Verzamelobject - niveau 1 |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Beheerobject
@@ -338,13 +338,13 @@ Attributen van objecttype Beheerobject
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_A1EE11DF_4EEA_409A_8E43_F108DC0BF96 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Bemalingsgebied
@@ -374,13 +374,13 @@ Attributen van objecttype Bemalingsgebied
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_55C683B9_3F66_4E21_B0C1_66E664837CA |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Bergingsbassin
@@ -414,13 +414,13 @@ Attributen van objecttype Bergingsbassin
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_83A942F7_5291_42F0_AFB1_9A57D0FB2F1 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Boom
@@ -491,13 +491,13 @@ Attributen van objecttype Boom
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_40BD01ED_180A_4644_AB10_4C94C891A45 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Bord |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4cf7e8b5-f178-409c-859e-d7ce7a04e222 |
+| gemma_definitie | Paneel waarop (statische) informatie wordt afgebeeld, verwoord in tekst, pictogram of code. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Bord
@@ -534,13 +534,13 @@ Attributen van objecttype Bord
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_FFA16BB2_FA5A_49F1_B3E8_794499B0278 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Bouwwerk |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-07e99170-0c7d-414a-b64e-85375a9e1c9b |
+| gemma_definitie | Met de aarde verbonden duurzaam bouwwerk, dat niet valt onder de definities van een pand of kunstwerk  (bron: definities.geostandaarden.nl) |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Bouwwerk
@@ -578,13 +578,13 @@ Attributen van objecttype Bouwwerk
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_B56B8C37_AA54_4266_B96B_C466946D1C3 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Brug
@@ -629,13 +629,13 @@ Attributen van objecttype Brug
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_01343EF1_EF8E_4FB1_9A58_8E885304D55 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Drainageput
@@ -667,13 +667,13 @@ Attributen van objecttype Drainageput
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_812B8374_F08E_47F6_881D_309B7D23FD4 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Ecoduct
@@ -709,13 +709,13 @@ Attributen van objecttype Ecoduct
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_CA558CCA_4DF7_458A_B8BF_AEA0E428489 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Fietsparkeervoorziening
@@ -746,13 +746,13 @@ Attributen van objecttype Fietsparkeervoorziening
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_6E949D6F_0A40_4BB7_B655_5EF4B8BBA4D |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Filterput
@@ -782,13 +782,13 @@ Attributen van objecttype Filterput
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_12F592F4_8E38_49B7_8DEF_F9B84A874BB |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Flyover
@@ -826,13 +826,13 @@ Attributen van objecttype Flyover
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_43DD67FD_75F0_4FE0_90F0_DB49048F14C |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | FunctioneelGebied |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b47ab76c-8207-47ee-a1fa-eac8a16b1960 |
+| gemma_definitie | Begrensd en benoemd gebied dat door een functionele eenheid beschreven wordt.   (bron: definities.geostandaarden.nl) |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype FunctioneelGebied
@@ -864,13 +864,13 @@ Attributen van objecttype FunctioneelGebied
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_DD64F32C_3273_4E23_9A61_FCC8EC93977 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Geluidsscherm
@@ -901,13 +901,13 @@ Attributen van objecttype Geluidsscherm
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_5D70E69A_2A35_4088_886E_32C0B07275C |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Gemaal
@@ -945,13 +945,13 @@ Attributen van objecttype Gemaal
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_B4935E75_46CA_414D_949D_30A8B801FD5 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Groenobject |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-360b8000-41ce-453f-bed8-b0cc7fa21164 |
+| gemma_definitie | Kleinste functioneel onafhankelijk stukje van een terrein dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, met aaneengesloten vegetatie. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Groenobject
@@ -1025,13 +1025,13 @@ Attributen van objecttype Groenobject
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:38 |
 | id | EAID_D9ACE9BA_F13C_4EEB_8DD8_73A7E0043DB |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Infiltratieput
@@ -1061,13 +1061,13 @@ Attributen van objecttype Infiltratieput
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_A143A97F_28C5_4B56_90F8_4773481A034 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Installatie |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d5b79e05-a743-4c1f-8a37-5e6911701aab |
+| gemma_definitie | Samenhangend systeem dat een bepaald doel dient. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Installatie
@@ -1105,13 +1105,13 @@ Attributen van objecttype Installatie
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_22C76A86_D969_464E_87CD_53466BD75FC |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Kademuur
@@ -1150,13 +1150,13 @@ Attributen van objecttype Kademuur
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_E89ECEBE_796F_4CB7_9E9F_860EBC21B4B |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Kast
@@ -1202,13 +1202,13 @@ Attributen van objecttype Kast
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_D629609F_088E_4504_99BB_C45F0EA633F |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Keermuur
@@ -1240,13 +1240,13 @@ Attributen van objecttype Keermuur
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_ABB1E33A_C934_4123_98B0_2D52349E456 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Klimplant
@@ -1280,13 +1280,13 @@ Attributen van objecttype Klimplant
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_E6AFE8F7_95A7_4A0C_A6E8_F6D2091FB8B |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Kolk
@@ -1317,13 +1317,13 @@ Attributen van objecttype Kolk
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_71BCDE9D_88C2_4519_8105_028E40898AB |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Kunstwerk |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0e1bf1cd-7cce-4904-8470-40cb9d6a5bb6 |
+| gemma_definitie | Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf. http://definities.geostandaarden.nl |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Kunstwerk
@@ -1386,13 +1386,13 @@ Attributen van objecttype Kunstwerk
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_4223240C_8786_4D44_889E_9F54BA39A83 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Leiding |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b2bdb817-4007-4c1b-ad24-43929884e0eb |
+| gemma_definitie | Een geheel van geleiders welke voorzien zijn van Ã©Ã©n ommanteling en bestemd is voor transport van materie GWSW |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Leiding
@@ -1433,13 +1433,13 @@ Attributen van objecttype Leiding
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_4C52CC53_82F2_4B54_AA5F_B75FA00E9FF |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Leidingelement |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-41acc666-99e4-4b10-ab75-a3a24550354e |
+| gemma_definitie | Een object dat bij een leiding behoort. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Leidingelement
@@ -1473,13 +1473,13 @@ Attributen van objecttype Leidingelement
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_CDF116D4_B5B9_4D01_8A5B_4FFB08CEE00 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Mast |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b3edfde2-4da1-47f8-96a0-54bc77c9900f |
+| gemma_definitie | Draagconstructie, bestaande uit een verticale buispaal, die wordt gebruikt om iets op hoogte te brengen. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Mast
@@ -1508,13 +1508,13 @@ Attributen van objecttype Mast
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_61526934_9D0C_4A07_8C5D_17F60E1A467 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Meubilair |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7b309467-9314-472e-a8ec-f4d44da63412 |
+| gemma_definitie | De verzameling van ruimtelijke objecten ter inrichting van de openbare ruimte of terreinen. Een ruimtelijk object ter inrichting van de openbare ruimte. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Meubilair
@@ -1568,13 +1568,13 @@ Attributen van objecttype Meubilair
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_6B907CEB_2CBE_4886_9D3E_215F5D7E00A |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Overbruggingsobject |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e292e9aa-974b-4299-b814-ed5bb50925ef |
+| gemma_definitie | Onderdeel van een beweegbare of vaste verbinding tussen twee punten, die door water, een weg of anderszins gescheiden zijn, dat essentieel is voor de constructie . |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Overbruggingsobject
@@ -1625,13 +1625,13 @@ Attributen van objecttype Overbruggingsobject
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_845EC5C5_7B96_4999_9659_5617436D269 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Overstortconstructie
@@ -1666,13 +1666,13 @@ Attributen van objecttype Overstortconstructie
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_6B8DBBFB_03D7_4FD7_BBAB_3E7FBE60D97 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Paal |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cd399834-5112-4db5-9f37-9af4f8b3ed4e |
+| gemma_definitie | Langwerpig stuk hout, ijzer, steen enz., dat in de grond staat. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Paal
@@ -1710,13 +1710,13 @@ Attributen van objecttype Paal
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_01E06F2E_E561_4D6E_8625_2D0F284BE88 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Pomp
@@ -1761,13 +1761,13 @@ Attributen van objecttype Pomp
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_B7168388_9EB9_4C95_B35E_1BA2660849E |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Put |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1208ebe7-a18a-40fc-bb6e-87dd2dd7de2a |
+| gemma_definitie | Verticale waterdichte constructie, toegepast om leidingen aan te sluiten, van richting of niveau te veranderen, om toegang te verschaffen aan personeel en/of apparatuur voor inspectie en onderhoud, en om beluchting en ventilatie mogelijk te maken |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Put
@@ -1808,13 +1808,13 @@ Attributen van objecttype Put
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_F111E740_26A6_477B_935D_CA5570D4FC8 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Putdeksel
@@ -1847,13 +1847,13 @@ Attributen van objecttype Putdeksel
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_3252585C_4FAB_4EC1_9BA6_F51EAFF271D |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Rioleringsgebied
@@ -1883,13 +1883,13 @@ Attributen van objecttype Rioleringsgebied
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_095ECF95_3717_43EC_BC36_8E23E692DEF |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Rioolput
@@ -1929,13 +1929,13 @@ Attributen van objecttype Rioolput
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_C538C222_0FA4_43EE_BF06_9512A484A57 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Scheiding |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0fedc485-b963-412d-b695-9642921b0933 |
+| gemma_definitie | Kunstmatig, meestal lineair obstakel met een werende functie. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Scheiding
@@ -1974,13 +1974,13 @@ Attributen van objecttype Scheiding
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_4B32C511_77E9_4ABD_8C02_6F9F336A7A9 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Sensor |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1e352a4f-20de-4ef8-9f84-3f237cfe424e |
+| gemma_definitie | Apparaat voor de meting van een fysieke grootheid (bijv. temperatuur, licht, druk, elektriciteit). |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Sensor
@@ -2016,13 +2016,13 @@ Attributen van objecttype Sensor
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_F349D291_F25B_4258_A008_00082F932BE |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype SolitairePlant
@@ -2053,13 +2053,13 @@ Attributen van objecttype SolitairePlant
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_941A17C1_A2B2_4CD1_8991_08B0EBCF0C2 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Speelterrein
@@ -2092,13 +2092,13 @@ Attributen van objecttype Speelterrein
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_4EFB3A19_E491_469F_AA96_DEBED9C1BE4 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Speeltoestel
@@ -2149,13 +2149,13 @@ Attributen van objecttype Speeltoestel
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_A5A43927_9633_4584_865B_78AE4486E5B |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Sportterrein
@@ -2191,13 +2191,13 @@ Attributen van objecttype Sportterrein
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:39 |
 | id | EAID_CEF4E497_01A1_4B4F_A509_D18945A3311 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Stuwgebied
@@ -2226,13 +2226,13 @@ Attributen van objecttype Stuwgebied
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_E9091F41_09F6_42D6_9295_8FE1CA54198 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Terreindeel |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9f85d08b-b58f-45eb-ac71-73c808847702 |
+| gemma_definitie | Kleinste functioneel onafhankelijk stukje van een terrein, dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, met of zonder aaneengesloten vegetatie. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Terreindeel
@@ -2271,13 +2271,13 @@ Attributen van objecttype Terreindeel
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_906C9BA6_762D_4B15_94A3_6D8F2D8B922 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Tunnelobject |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1759a15a-e759-4abc-9fbb-1bd85bea382c |
+| gemma_definitie | Onderdeel van een kunstmatig aangelegde, kokervormige onderdoorgang dat essentieel is voor de constructie. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Tunnelobject
@@ -2319,13 +2319,13 @@ Attributen van objecttype Tunnelobject
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_A5EEDFA7_48FF_4E7F_B5BF_4A809130A3D |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Uitlaatconstructie
@@ -2355,13 +2355,13 @@ Attributen van objecttype Uitlaatconstructie
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_761406D1_87BC_4DC1_B1B7_BD3BB7AB54A |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Vegetatieobject |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0f538a2f-8478-4b4f-a2f8-50ab28f54ea6 |
+| gemma_definitie | Verzamelobject van alle vegetatieobjecten - niveau 2 |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Vegetatieobject
@@ -2401,13 +2401,13 @@ Attributen van objecttype Vegetatieobject
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_47F12418_C5F8_44E0_8EC6_3D0C5993372 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Verhardingsobject |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a1a1d3ab-366d-4395-be52-b8d918614585 |
+| gemma_definitie | Verharde lagen van een weglichaam, speel- en sportondergronden en onbegroeid terreindelen inclusief de fundering. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Verhardingsobject
@@ -2494,13 +2494,13 @@ Attributen van objecttype Verhardingsobject
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_D20F86EE_C4B5_497D_BED0_34B7509121E |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Verkeersdrempel
@@ -2531,13 +2531,13 @@ Attributen van objecttype Verkeersdrempel
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_8CD4C799_C403_41B6_B409_06D37398E31 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Verlichtingsobject |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-95a78138-3227-48e1-8499-4bcbba4ab13c |
+| gemma_definitie | Paal of mast waaraan openbare verlichting is bevestigd. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Verlichtingsobject
@@ -2565,13 +2565,13 @@ Attributen van objecttype Verlichtingsobject
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_4824C467_3BF6_45C2_BD8B_03F04CEBCA9 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Viaduct
@@ -2610,13 +2610,13 @@ Attributen van objecttype Viaduct
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_0DCEE6C7_87BC_498C_A02A_25271DB1BC9 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Waterinrichtingsobject |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9d9f7000-98f8-4b97-96f5-6d09edebddd2 |
+| gemma_definitie | Een ruimtelijk object ter inrichting van het water. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Waterinrichtingsobject
@@ -2654,13 +2654,13 @@ Attributen van objecttype Waterinrichtingsobject
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_81CBE022_0D94_4377_82CA_3AA12937FE8 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Waterobject |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3be27f41-71be-42dd-8af2-51c724238dc3 |
+| gemma_definitie | Kleinste functioneel onafhankelijk stukje water met gelijkblijvende, homogene eigenschappen en relaties dat er binnen het objecttype Water van NEN 3610 wordt onderscheiden en dat permanent met water bedekt is. (imgeo.geostandaarden.nl) |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Waterobject
@@ -2711,13 +2711,13 @@ Attributen van objecttype Waterobject
 | created | 2018-10-02 09:57:43 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_7F3202B1_9A3B_4E02_B4F4_31EBCE6B8DE |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Weginrichtingsobject |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f9482bc9-5b10-4075-98cb-4cb895262494 |
+| gemma_definitie | Een ruimtelijk object dat dient voor de inrichting van de openbare weg. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Weginrichtingsobject

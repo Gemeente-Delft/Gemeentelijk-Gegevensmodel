@@ -47,13 +47,13 @@ Het model 'Model Voorbeeld C' heeft de volgende kenmerken:
 | created | 2019-12-10 11:50:35 |
 | modified | 2024-04-17 13:41:50 |
 | id | EAID_CF4D1ED3_6B85_42d9_BC39_D6D67EA7446B |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Class A
@@ -81,13 +81,13 @@ Attributen van objecttype Class A
 | created | 2019-12-10 11:50:35 |
 | modified | 2024-04-17 13:41:51 |
 | id | EAID_F971FA10_92CB_4f6f_8197_758F7542B5C7 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Class B
@@ -115,13 +115,13 @@ Attributen van objecttype Class B
 | created | 2019-12-10 11:58:51 |
 | modified | 2024-04-17 13:41:51 |
 | id | EAID_CF8064A8_DEEF_4b79_8662_F5C555DA7CBB |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Class C

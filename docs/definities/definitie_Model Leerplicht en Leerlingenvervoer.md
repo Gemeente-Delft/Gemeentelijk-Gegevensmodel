@@ -59,13 +59,13 @@ Het model 'Model Leerplicht en Leerlingenvervoer' heeft de volgende kenmerken:
 | created | 2019-10-08 14:25:36 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_07F40D10_74AC_4f56_8B71_A236A63C2122 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Aanvraag Leerlingenvervoer |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-41c1c340-9952-4bd9-8f45-fec2c0a1ddd7 |
+| gemma_definitie | Een aanvraag voor een leerling die recht heeft op vervoer van en naar onderwijs. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Aanvraag Leerlingenvervoer
@@ -93,13 +93,13 @@ Attributen van objecttype Aanvraag Leerlingenvervoer
 | created | 2019-10-08 13:41:08 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_66E2B5BA_44A0_4fde_AE33_E211EE4832C2 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | AanvraagOfMelding |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-13ede1f8-bf63-4da6-abbd-cdc18b7ec39a |
+| gemma_definitie | Komt overeen met een VJV |
+| gemma_toelichting | Via het Omgevingsloket kunnen initiatiefnemers een vergunningaanvraag of een melding indienen in het Digitaal Stelsel Omgevingswet (DSO). Duidelijke stappen en vragen leiden hen door dit proces. De overheid vertaalt hiervoor indieningsvereisten naar toepasbare regels voor het loket. |
 
 
 Attributen van objecttype AanvraagOfMelding
@@ -134,13 +134,13 @@ Attributen van objecttype AanvraagOfMelding
 | created | 2019-10-07 17:08:58 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_450F47A7_758F_400c_82EB_05535EBDD426 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype AanvraagVrijstelling
@@ -170,13 +170,13 @@ Attributen van objecttype AanvraagVrijstelling
 | created | 2019-10-08 14:24:29 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_81870665_768C_4fb2_8A4F_A9CB7989C884 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Beschikking Leerlingenvervoer |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3f048a6b-523c-4e8e-a581-0fcc089f1ec6 |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Beschikking Leerlingenvervoer
@@ -204,13 +204,13 @@ Attributen van objecttype Beschikking Leerlingenvervoer
 | created | 2019-10-07 17:07:12 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_B65280CD_3429_4966_AD2D_CB3EE76EE2E8 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Beslissing |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1855a91d-d82d-4544-a51b-7110776a9de1 |
+| gemma_definitie | Selectie van een voorstelbare werkelijkheid (voorkeursvariant) uit een aantal mogelijke werkelijkheden (varianten) op basis van een verzameling van criteria. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Beslissing
@@ -244,13 +244,13 @@ Attributen van objecttype Beslissing
 | created | 2019-10-07 17:09:13 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_90E49701_2A06_4669_9199_6FCFDFCA707A |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Doorgeleiding OM |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-341c4296-ac61-426e-b1d8-668052c53ea9 |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Doorgeleiding OM
@@ -280,13 +280,13 @@ Attributen van objecttype Doorgeleiding OM
 | created | 2019-10-07 17:25:07 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_70E3C6AF_1117_4cfc_B61F_0D168010FFB9 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | HALT-verwijzing |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1bd77fef-f3da-40cc-b94f-e325b0781719 |
+| gemma_definitie | Jongeren van 12 tot 18 jaar die strafbare feiten plegen, zoals bijvoorbeeld: winkeldiefstal, vernieling, openbaar dronkenschap of oplichting kunnen naar Halt worden verwezen. In sommige gevallen is daarvoor toestemming nodig van het Openbaar Ministerie. |
+| gemma_toelichting | Halt heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt. Halt legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogeheten Halt-straf. Halt heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt. Halt legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogeheten Halt-straf. Halt heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt. Halt legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogeheten Halt-straf. |
 
 
 Attributen van objecttype HALT-verwijzing
@@ -318,13 +318,13 @@ Attributen van objecttype HALT-verwijzing
 | created | 2019-10-17 11:16:59 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_07FE66E8_8316_406b_A590_922C2E7B4305 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Klacht Leerlingenvervoer |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-df24e948-819b-4201-8dde-3c6865c09230 |
+| gemma_definitie | Een uiting van ontevredenheid over het vervoer van leerlingen. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Klacht Leerlingenvervoer
@@ -353,13 +353,13 @@ Attributen van objecttype Klacht Leerlingenvervoer
 | created | 2018-05-28 16:47:00 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_B369B374_F560_4ea6_9A8B_DBBCB4961EFF |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Leerplichtambtenaar |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-eb5a2808-d438-4299-b803-4495b819396b |
+| gemma_definitie | Ambtenaar die toezicht houdt op de uitvoering van de leerplichtwet. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Leerplichtambtenaar
@@ -387,13 +387,13 @@ Attributen van objecttype Leerplichtambtenaar
 | created | 2018-05-04 14:58:20 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_697F1730_B439_4b35_8799_1B2E9AB04548 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Procesverbaal Onderwijs |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-aa2cb2d9-8482-473c-a5bf-c042cb39352a |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Procesverbaal Onderwijs
@@ -434,13 +434,13 @@ Attributen van objecttype Procesverbaal Onderwijs
 | created | 2019-10-07 17:08:43 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_E9DECE41_F7F5_49f1_94B5_63DE941F6094 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Verlofaanvraag
@@ -471,13 +471,13 @@ Attributen van objecttype Verlofaanvraag
 | created | 2019-10-17 11:24:55 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_613E192A_D0F2_4e67_BE73_51C09197EE3D |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Vervoerder |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d3538832-c621-464d-adc3-3fdf7c6745af |
+| gemma_definitie | Degene die openbaar vervoer of besloten busvervoer verricht, niet in de hoedanigheid van bestuurder van een auto, bus, trein, metro, tram of een via een geleidesysteem voortbewogen voertuig. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Vervoerder
@@ -505,13 +505,13 @@ Attributen van objecttype Vervoerder
 | created | 2018-05-04 14:57:49 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_252C70B1_4E02_4033_B2B5_86F65496D7AB |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Verzuimmelding |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e623ef14-c4de-498b-9504-5bb6fa4ce0de |
+| gemma_definitie | Een melding dat een leerling niet op school verschijnt. De school moet actie ondernemen naar de leerling (en zijn ouders). Een school moet het verzuim melden bij de gemeente. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Verzuimmelding
@@ -542,13 +542,13 @@ Attributen van objecttype Verzuimmelding
 | created | 2018-05-04 14:58:11 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_B8584CD2_A54A_4a59_82B6_A597A0864CFA |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Vrijstelling |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e09e0c4d-1c6f-474b-8abc-7fd36f6fd699 |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Vrijstelling
@@ -581,13 +581,13 @@ Attributen van objecttype Vrijstelling
 | created | 2019-10-17 11:17:22 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_7689A6B7_2A9E_42db_A028_E4601305DBFF |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Ziekmelding Leerlingenvervoer |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7c4345ce-0561-47eb-ad3d-4b21f15687e3 |
+| gemma_definitie | Een melding van een zieke leerling die recht heeft op vervoer van en naar onderwijs. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Ziekmelding Leerlingenvervoer
@@ -626,13 +626,13 @@ De enumeratie Sanctiesoort heeft de volgende kenmerken:
 | created | None |
 | modified | None |
 | id | EAID_BA10C3E6_8F44_4f8d_B532_DED61E368F5E |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
 
 
 
@@ -659,13 +659,13 @@ De enumeratie Verzuimsoort heeft de volgende kenmerken:
 | created | None |
 | modified | None |
 | id | EAID_0060D931_6BBA_480d_ADCA_0A74908C39A4 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
 
 
 
@@ -690,13 +690,13 @@ De enumeratie Vrijstellingsoort heeft de volgende kenmerken:
 | created | None |
 | modified | None |
 | id | EAID_BAB0BE8C_4084_4618_BAC0_50B383B94D79 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
 
 
 

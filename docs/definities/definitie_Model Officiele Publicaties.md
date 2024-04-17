@@ -46,13 +46,13 @@ Het model 'Model Officiele Publicaties' heeft de volgende kenmerken:
 | created | 2019-10-23 17:01:05 |
 | modified | 2024-04-17 13:34:41 |
 | id | EAID_F5434F00_CC0F_4d7b_91AE_20CBD3C60DFC |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Omgevingsdocument |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c1559848-25e3-4bd0-bb39-286d0c4f5687 |
+| gemma_definitie | In artikel 16.2 van de Omgevingswet aangemerkt instrument te weten: Omgevingsvisie, programma, omgevingsplan, waterschapsverordening, omgevingsverordening, projectbesluit of bij Algemene Maatregel van Bestuur (Omgevingsbesluit) aangewezen ander besluit of ander rechtsfiguur. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Omgevingsdocument
@@ -81,13 +81,13 @@ Attributen van objecttype Omgevingsdocument
 | created | 2019-10-23 17:00:53 |
 | modified | 2024-04-17 13:34:41 |
 | id | EAID_A744FAF8_16B7_4e5d_9C10_203AA8E7C440 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Regeltekst

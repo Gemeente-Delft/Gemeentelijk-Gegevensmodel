@@ -57,13 +57,13 @@ Het model 'Model Parkeren' heeft de volgende kenmerken:
 | created | 2019-02-13 15:52:28 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_6C283ABA_C1A3_465b_B267_39E75D06E41F |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Belprovider |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-59bf814b-1020-4906-978b-ca22af2eecc0 |
+| gemma_definitie | Leverancier of dienstverlener van modiele beldiensten |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Belprovider
@@ -92,13 +92,13 @@ Attributen van objecttype Belprovider
 | created | 2019-02-18 14:18:39 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_4EA4D754_FAD7_4caf_8060_342689EC16FE |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype MulderFeit
@@ -142,13 +142,13 @@ Attributen van objecttype MulderFeit
 | created | 2019-02-13 16:05:29 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_4957AC99_3F36_4959_A210_9EC6759B87F8 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Naheffing |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d10d2101-2e16-4f56-bcce-43783fd256be |
+| gemma_definitie | Het achteraf vorderen van te weinig betaalde belasting |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Naheffing
@@ -192,13 +192,13 @@ Attributen van objecttype Naheffing
 | created | 2019-02-14 16:11:43 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_8F492648_6EF2_4f8a_87C9_2440230D4137 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Parkeergarage |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3aed2196-8ba9-4441-a27f-15a1f76d3fda |
+| gemma_definitie | Open constructie die geheel of gedeeltelijk in gebruik is als voorziening voor het parkeren van voertuigen |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Parkeergarage
@@ -226,13 +226,13 @@ Attributen van objecttype Parkeergarage
 | created | 2019-02-13 14:32:45 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_9E0936E5_6B50_4205_BA5D_FEB80486D6F1 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Parkeerrecht |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ae658af8-46be-4d41-ba95-c5e24cec7598 |
+| gemma_definitie | Het onder bepaalde voorwaarden (zoals betaling parkeerbelasting of parkeergeld) ontstane recht om een voertuig gedurende een bepaalde of onbepaalde periode op een daartoe benoemde parkeerplaats of in/op een daartoe benoemde parkeervoorziening te parkeren. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Parkeerrecht
@@ -269,13 +269,13 @@ Attributen van objecttype Parkeerrecht
 | created | 2019-02-13 14:50:52 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_653EEEA7_ED82_427d_BD72_86C847793AD6 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Parkeerscan |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-078d57f3-e8a0-485e-a175-c1b3de49eee0 |
+| gemma_definitie | Waarneming van een parkeeractie door een scanauto |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Parkeerscan
@@ -315,13 +315,13 @@ Attributen van objecttype Parkeerscan
 | created | 2018-03-21 11:47:02 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_FF448272_AB9D_4ec9_B4BE_E60E2552817A |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Parkeervergunning |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1486de79-ad71-4dce-8473-f23f1e9c436c |
+| gemma_definitie | Offici√´le toestemming dat je op een bepaalde plek mag parkeren |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Parkeervergunning
@@ -362,13 +362,13 @@ Attributen van objecttype Parkeervergunning
 | created | 2019-02-13 14:43:35 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_5E5C58AD_1634_4656_A183_EBA00F18F30E |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Parkeervlak |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-30d7e3ac-081c-4ef6-a09e-90437b5a4349 |
+| gemma_definitie | Parkeergelegenheid bestemd voor het parkeren van √©√©n of meerdere voertuigen direct langs de doorgaande weg gelegen. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Parkeervlak
@@ -402,13 +402,13 @@ Attributen van objecttype Parkeervlak
 | created | 2019-02-13 14:33:20 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_27219A32_3B52_4f54_AA67_A972F4B7D9D0 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Perkeerzone |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e5293eea-47b8-4091-8ac3-b28139a17c9f |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Perkeerzone
@@ -455,13 +455,13 @@ Attributen van objecttype Perkeerzone
 | created | 2019-02-14 14:26:09 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_209ACADD_34C7_4dc8_90AD_C6B3E092FBFD |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Productgroep
@@ -492,13 +492,13 @@ Attributen van objecttype Productgroep
 | created | 2019-02-14 15:08:29 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_1CB4051D_B78A_48f0_AE3E_A98D997A5612 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Productsoort
@@ -530,13 +530,13 @@ Attributen van objecttype Productsoort
 | created | 2019-02-13 14:46:01 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_339ACCD5_1D13_4a48_83DE_05A0A4A54C43 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Straatsectie
@@ -567,13 +567,13 @@ Attributen van objecttype Straatsectie
 | created | 2019-02-13 14:31:44 |
 | modified | 2024-04-17 13:34:25 |
 | id | EAID_6AD98160_FFE6_4105_A724_5D5733C87CD8 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Voertuig |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b083bd60-0137-40b0-ad72-4602b3c1d754 |
+| gemma_definitie | Vervoermiddel bestemd voor het verkeer over wegen |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Voertuig
@@ -622,13 +622,13 @@ De enumeratie Doelgroepenplaatsen heeft de volgende kenmerken:
 | created | None |
 | modified | None |
 | id | EAID_F8ADD9AF_76C0_425c_B059_18BB0AA20D28 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
 
 
 
@@ -655,13 +655,13 @@ De enumeratie Zonesoort heeft de volgende kenmerken:
 | created | None |
 | modified | None |
 | id | EAID_5DD4AE03_667C_45b9_A46A_320077AC2926 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
 
 
 

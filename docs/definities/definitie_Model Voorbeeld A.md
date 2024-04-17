@@ -48,13 +48,13 @@ Het model 'Model Voorbeeld A' heeft de volgende kenmerken:
 | created | 2019-12-10 10:04:00 |
 | modified | 2024-04-17 13:41:50 |
 | id | EAID_4FAA9954_0929_49be_8E8F_30331BD6D9E9 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Child Class A
@@ -83,13 +83,13 @@ Attributen van objecttype Child Class A
 | created | 2019-12-10 09:59:50 |
 | modified | 2024-04-17 13:41:50 |
 | id | EAID_7DEDC784_9B6C_41db_9E83_177AE1F5AC32 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Class A
@@ -118,13 +118,13 @@ Attributen van objecttype Class A
 | created | 2019-12-10 09:59:50 |
 | modified | 2024-04-17 13:41:50 |
 | id | EAID_AD7BF327_115D_4aaf_8674_A6C6C7505400 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Class B
@@ -154,13 +154,13 @@ Attributen van objecttype Class B
 | created | 2019-12-10 10:10:05 |
 | modified | 2024-04-17 13:41:50 |
 | id | EAID_6E97FE15_EFD2_43be_943E_0B175D098B88 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Class C

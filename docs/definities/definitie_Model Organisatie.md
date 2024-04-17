@@ -46,13 +46,13 @@ Het model 'Model Organisatie' heeft de volgende kenmerken:
 | created | 2018-11-13 15:49:09 |
 | modified | 2024-04-17 13:34:46 |
 | id | EAID_0E19C86B_9088_41bd_9DD0_15094426570E |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Programma
@@ -81,13 +81,13 @@ Attributen van objecttype Programma
 | created | 2018-05-14 14:32:41 |
 | modified | 2024-04-17 13:34:46 |
 | id | EAID_7087D528_7024_4569_876A_C4605A00546D |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Project

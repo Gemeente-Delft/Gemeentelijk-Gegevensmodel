@@ -68,13 +68,13 @@ Het model 'Model Beheer Openbare Ruimte' heeft de volgende kenmerken:
 | created | 2018-11-06 16:52:08 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_DDE9A5B3_1E56_4058_8D12_A774F43B5D26 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Actie
@@ -102,13 +102,13 @@ Attributen van objecttype Actie
 | created | 2018-11-07 17:27:26 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_9507EE24_6397_4a9c_B478_8C2899EC0BFB |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Areaal |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1dc502a7-f60b-4950-92b1-9a7f8cdc471f |
+| gemma_definitie | Het verspreidingsgebied van een een soort, een levensgemeenschap of een biotooptype. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Areaal
@@ -137,13 +137,13 @@ Attributen van objecttype Areaal
 | created | 2018-11-07 16:58:24 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_4A8E659E_F088_446d_8614_BA31B106A417 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype CROWMelding
@@ -172,13 +172,13 @@ Attributen van objecttype CROWMelding
 | created | 2023-09-27 09:29:15 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_EC994E7D_E6D1_4243_BA96_38DB7454ECEF |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Deelplan/Veld
@@ -206,13 +206,13 @@ Attributen van objecttype Deelplan/Veld
 | created | 2023-09-27 09:31:19 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_7FA358CC_1160_490b_A543_D5ED69A558D2 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Fase/Oplevering
@@ -240,13 +240,13 @@ Attributen van objecttype Fase/Oplevering
 | created | 2018-09-19 11:50:45 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_05B355EF_39EA_4bfb_B1F3_AB31841C986E |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Geo-Object |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f5de1e41-5207-4d9e-a4f8-7889b5c1e2b1 |
+| gemma_definitie | Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011] |
+| gemma_toelichting | Bevat een aantal basisgegevens die in alle geo-objecten terugkomen. |
 
 
 Attributen van objecttype Geo-Object
@@ -278,13 +278,13 @@ Attributen van objecttype Geo-Object
 | created | 2018-11-15 15:41:01 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_B53EC85A_C731_4fb6_8379_7D11802273B2 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Grondbeheerder |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cd7b6b9c-3bf7-4c3a-bbde-e72f38d76fe0 |
+| gemma_definitie | Beheerder van grondgrondbeheer., oplossing voor duurzaam landbeheer en voedselproductie |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Grondbeheerder
@@ -312,13 +312,13 @@ Attributen van objecttype Grondbeheerder
 | created | 2018-11-06 16:50:09 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_C73E52A5_F66E_47f0_8DEA_467A54F64DD2 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Inspectie
@@ -346,13 +346,13 @@ Attributen van objecttype Inspectie
 | created | 2018-12-06 16:14:13 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_5DC6EA71_272C_4392_BA5E_5C97DC3CA9D9 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | KadastraleMutatie |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4c80e4c9-5e35-43d8-8438-2860c18949f0 |
+| gemma_definitie | Wijziging in de kadatrale registratie |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype KadastraleMutatie
@@ -383,13 +383,13 @@ Attributen van objecttype KadastraleMutatie
 | created | 2018-11-07 16:35:55 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_2C6C809D_28B0_4037_BBFA_3E438A2DF81D |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Kwaliteitscatalogus Openbare Ruimte |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d9f93ca7-e915-4c2d-93b8-821e8e2bcae2 |
+| gemma_definitie | zie https://www.crow.nl/publicaties/kwaliteitscatalogus-openbare-ruimte-2018 |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Kwaliteitscatalogus Openbare Ruimte
@@ -417,13 +417,13 @@ Attributen van objecttype Kwaliteitscatalogus Openbare Ruimte
 | created | 2018-09-19 11:58:59 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_0754CC1D_48C7_4275_B909_BFB747BCFCD8 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Kwaliteitskenmerken |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0b0d8f74-8a70-4fb9-adbd-77233740ddc3 |
+| gemma_definitie | Aanduiding van de hoedanigheid van uitvoering, bewerking en representativiteit van een meting, volgens een overeengekomen waarderingsschaal. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Kwaliteitskenmerken
@@ -451,13 +451,13 @@ Attributen van objecttype Kwaliteitskenmerken
 | created | 2018-11-06 16:48:26 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_B1D48EFB_81E7_420d_A080_5B4C01798FFB |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Logboek |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5547cc2e-c193-4d41-a6e2-8f04b5e3cd92 |
+| gemma_definitie | Registratie waarin gebeurtenissen worden bijgehouden. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Logboek
@@ -485,13 +485,13 @@ Attributen van objecttype Logboek
 | created | 2018-11-06 16:48:18 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_C6094F79_D8EA_4763_90DF_4E30EFABA1FA |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Melding |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1a89112a-e13c-4c87-a862-e8ec66c01588 |
+| gemma_definitie | De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Melding
@@ -530,13 +530,13 @@ Attributen van objecttype Melding
 | created | 2018-11-06 16:49:06 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_A888F22C_45E9_4494_BA66_533FB1F6C37E |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype MeldingOngeval
@@ -564,13 +564,13 @@ Attributen van objecttype MeldingOngeval
 | created | 2018-11-15 15:09:50 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_30D5F6E6_DE8D_46b6_AC8A_6CA1391ADFF7 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | MOOR-melding |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4e149a77-4fcc-4f4a-ac18-b6655848b5c1 |
+| gemma_definitie | Meldingsproces rondom werkzaamheden aan kabels en leidingen. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype MOOR-melding
@@ -609,13 +609,13 @@ Attributen van objecttype MOOR-melding
 | created | 2018-11-13 15:56:08 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_053B594A_5E45_4413_9339_D2D026ECCE20 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Omgevingsvergunning |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5bd99108-61d6-4b8f-ab84-dd16011d10db |
+| gemma_definitie | Vergunning als bedoeld in afdeling 5.1 van de Omgevingswet |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Omgevingsvergunning
@@ -645,13 +645,13 @@ Attributen van objecttype Omgevingsvergunning
 | created | 2018-12-05 14:33:05 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_960BB2E0_C17F_4c89_90DD_3006CC5F0F75 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Onderhoud |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c25777ae-ed48-4285-b244-66715cd2e299 |
+| gemma_definitie | Maatregelen om de functionele kwaliteit in stand te houden of te herstellen en dus de levensduur van een (object)onderdeel te realiseren c.q. te verlengen. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Onderhoud
@@ -679,13 +679,13 @@ Attributen van objecttype Onderhoud
 | created | 2018-12-05 14:55:35 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_1EBA6DEB_268D_4339_86C9_7C1BA218A7A0 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Opbreking |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5b02590d-3c1e-416c-ad2b-9edbef005ba5 |
+| gemma_definitie | Vorm van wegwerkzaamheid |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Opbreking
@@ -713,13 +713,13 @@ Attributen van objecttype Opbreking
 | created | 2018-11-15 15:14:08 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_2587938E_CF7F_499b_BB21_9CB8BBCC1DD2 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Proces-verbaal-MOOR-melding |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-48bc7e60-2a17-4909-b475-b18938e79048 |
+| gemma_definitie | Officieel op papier gesteld verslag met betrekking tot heen MOOR-melding |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Proces-verbaal-MOOR-melding
@@ -751,13 +751,13 @@ Attributen van objecttype Proces-verbaal-MOOR-melding
 | created | 2018-09-19 11:36:25 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_B011D584_1E66_4a21_A9C4_C922A8763AB2 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Schouwronde |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0a945e86-b4f2-45b2-855f-ed9fd0b4dca1 |
+| gemma_definitie | Activiteit om te controleren of de opdrachtnemer aan de afspraken voldoet. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Schouwronde
@@ -785,13 +785,13 @@ Attributen van objecttype Schouwronde
 | created | 2018-12-10 22:05:13 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_0EF67A8B_AEBE_4a00_B1EF_2EFD0DCC9F5D |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Storing
@@ -819,13 +819,13 @@ Attributen van objecttype Storing
 | created | 2018-11-07 09:52:55 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_0621D6BE_A680_4aad_890D_78684F2266B0 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Taak
@@ -853,13 +853,13 @@ Attributen van objecttype Taak
 | created | 2018-11-15 15:15:53 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_BBE1DC54_1482_4650_BB7F_930DDB823E09 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Uitvoerder Graafwerkzaamheden |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6f57464b-d011-4a75-afe8-a69b543c042b |
+| gemma_definitie | Degene die op de bouwlocatie van een project de leiding heeft met betrekking tot de graafwerkzaamheden |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Uitvoerder Graafwerkzaamheden
@@ -889,13 +889,13 @@ Attributen van objecttype Uitvoerder Graafwerkzaamheden
 | created | 2018-12-05 16:01:25 |
 | modified | 2024-04-17 13:34:40 |
 | id | EAID_620FF102_974C_43a6_A6A0_79BB71E8580D |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Verkeerslicht
@@ -938,13 +938,13 @@ De enumeratie CROW-Kwaliteitsniveaus heeft de volgende kenmerken:
 | created | None |
 | modified | None |
 | id | EAID_503ACC2A_C721_4058_A44A_13126A0FC2DA |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
 
 
 
@@ -975,13 +975,13 @@ De enumeratie Energielabel heeft de volgende kenmerken:
 | created | None |
 | modified | None |
 | id | EAID_CC21861B_1CE6_4271_AF0C_CA68FEF0C880 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
 
 
 
@@ -1013,13 +1013,13 @@ De enumeratie Oppervlakte Woning heeft de volgende kenmerken:
 | created | None |
 | modified | None |
 | id | EAID_5110C4A5_4771_4283_ADAB_04F9CB2D27BF |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
 
 
 

@@ -74,13 +74,13 @@ Het model 'Model VTH' heeft de volgende kenmerken:
 | created | 2022-02-14 14:40:41 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_9547BC67_7488_4d9a_B651_2B69A62D789F |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Activiteit
@@ -109,13 +109,13 @@ Attributen van objecttype Activiteit
 | created | 2020-11-30 14:06:39 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_FDEB42B6_5D93_46bf_9B5C_10F42BA4AC26 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype AOMStatus
@@ -148,13 +148,13 @@ Attributen van objecttype AOMStatus
 | created | 2022-08-10 13:59:39 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_ED0D0224_0A30_435b_AB25_87FDA8DF4078 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Bevinding
@@ -194,13 +194,13 @@ Attributen van objecttype Bevinding
 | created | 2019-04-16 10:36:35 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_90B2A249_8D88_4a14_979F_672223D98E8C |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | BOA |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7aae6aa2-cf47-491b-a0c0-a311729edcbf |
+| gemma_definitie | Een buitengewoon opsporingsambtenaar (boa) is een ambtenaar met een specifieke opsporingsbevoegdheid. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype BOA
@@ -228,13 +228,13 @@ Attributen van objecttype BOA
 | created | 2019-05-09 14:51:11 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_43D57BB8_C2E4_4b5a_A41C_C5CEC9D3877D |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Combibon
@@ -263,13 +263,13 @@ Attributen van objecttype Combibon
 | created | 2019-04-16 10:36:20 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_FF9A4A36_6674_4590_BC33_7B6DC5256490 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Fietsregistratie
@@ -299,13 +299,13 @@ Attributen van objecttype Fietsregistratie
 | created | 2022-02-14 14:41:03 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_94E2B19A_6942_4164_8A52_3C0BBDE45808 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Grondslag
@@ -335,13 +335,13 @@ Attributen van objecttype Grondslag
 | created | 2019-04-18 10:56:20 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_3D2D5426_653C_485c_A99C_8AD933E76D78 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Heffinggrondslag |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-654000c4-9d8b-4453-b3e8-4f77fb1b15a2 |
+| gemma_definitie | De maatstaf waarop een belasting is gebaseerd, het bedrag op basis waarvan een bepaalde belasting wordt geheven of de premie voor sociale zekerheid wordt vastgesteld. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Heffinggrondslag
@@ -375,13 +375,13 @@ Attributen van objecttype Heffinggrondslag
 | created | 2019-04-18 10:54:17 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_C29CCD49_04E2_44b4_A6B0_AD8B10552628 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Heffingsverordening |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f94b299a-c9eb-4bdb-82e7-5752360494cd |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Heffingsverordening
@@ -409,13 +409,13 @@ Attributen van objecttype Heffingsverordening
 | created | 2019-04-18 15:45:30 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_E9AD325A_49CF_48a6_AA9E_7FB57E03E414 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Indiener |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d4b0a5ba-7c38-44eb-8856-e3cb971dca37 |
+| gemma_definitie | Persoon die meldiing of aanvraag doet |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Indiener
@@ -443,13 +443,13 @@ Attributen van objecttype Indiener
 | created | 2022-08-08 14:30:16 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_F73901FC_A78E_486f_B6C6_74CFCBE26CAB |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Inspectie |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8922cc29-6d1c-4a9c-abd6-6a53dda41cdf |
+| gemma_definitie | het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Inspectie
@@ -489,13 +489,13 @@ Attributen van objecttype Inspectie
 | created | 2022-05-30 14:45:46 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_0E4A8F94_ED08_43dc_9F78_C9DD17D34690 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Kosten |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b3ca70ae-c2de-4728-ac7d-a144a95c858e |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Kosten
@@ -540,13 +540,13 @@ Attributen van objecttype Kosten
 | created | 2022-05-30 14:52:05 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_7F9392E5_6E43_4880_AF14_819E32A86204 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Leges_Grondslag |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ce320796-17d5-4134-ade8-7b87211272dd |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Leges_Grondslag
@@ -586,13 +586,13 @@ Attributen van objecttype Leges_Grondslag
 | created | 2019-05-02 16:15:28 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_872A0342_EA75_418e_9455_E51875BFD771 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Ligplaatsontheffing |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8bdfd1d2-6e07-40d4-9696-881968048f6f |
+| gemma_definitie | Tijdelijke toestemming voor het innemen van een ligplaats op een locatie in een gebied met een verbod op ligplaatsen. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Ligplaatsontheffing
@@ -621,13 +621,13 @@ Attributen van objecttype Ligplaatsontheffing
 | created | 2020-09-09 16:09:39 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_80F23226_8DD8_4926_B8F1_F2A3C01A29BF |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | MORAanvraagOfMelding |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-51d717fc-7e1e-466e-92eb-58c3d8b225d7 |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype MORAanvraagOfMelding
@@ -660,13 +660,13 @@ Attributen van objecttype MORAanvraagOfMelding
 | created | 2019-05-02 16:03:27 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_B2B423C3_B9C9_4b4f_A47D_85D29417B9B4 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | OpenbareActiviteit |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9ffbd7f6-a815-4edd-9252-5ed7e873c6a0 |
+| gemma_definitie | Activiteit in het publieke domein |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype OpenbareActiviteit
@@ -699,13 +699,13 @@ Attributen van objecttype OpenbareActiviteit
 | created | 2019-05-07 15:38:38 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_13BB343D_A595_43c9_8208_9BC5B05B618C |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Precario |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-01e036d1-b350-4782-b31b-7ac54ea39339 |
+| gemma_definitie | Belasting die specifiek wordt geheven voor het plaatsen van voorwerpen onder, op of boven voor de openbare dienst bestemde gemeentegrond. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Precario
@@ -733,13 +733,13 @@ Attributen van objecttype Precario
 | created | 2022-02-14 14:33:55 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_03B4B3C0_3616_4ea2_A8B1_3D6754325F02 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Producttype
@@ -768,13 +768,13 @@ Attributen van objecttype Producttype
 | created | 2022-02-14 14:34:17 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_0DB447E3_B31B_4f07_8E35_7E77D0AAEF80 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype SubProducttype
@@ -804,13 +804,13 @@ Attributen van objecttype SubProducttype
 | created | 2019-05-09 15:32:41 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_D12123D3_D62D_4978_B7D4_8405F00A0D6A |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Vaartuig |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3d86eebe-43ff-498e-9f8c-7c77a35f8730 |
+| gemma_definitie | Een zee- of binnenvaartuig, tot de vaart gebruikt of bestemd, daaronder begrepen drijvende werktuigen, zoals baggerwerktuigen, kranen, bokken, elevators, alsmede woonschepen, glijboten en ponten. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Vaartuig
@@ -844,13 +844,13 @@ Attributen van objecttype Vaartuig
 | created | 2019-05-08 14:16:31 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_44B26957_BAA4_41c2_ABBF_CC1AC91D30D6 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | VOMAanvraagOfMelding |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f10ba880-2051-4fd8-8495-f34f1a617dc0 |
+| gemma_definitie | VOM staat voor Vergunning, Ontheffing of Melding. Het betreft hier een melding of een aanvraag voor een vergunning of een ontheffing. |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype VOMAanvraagOfMelding
@@ -889,13 +889,13 @@ Attributen van objecttype VOMAanvraagOfMelding
 | created | 2022-05-30 14:18:38 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_341942C1_0F72_4e13_ADD1_235805BB81C0 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Vordering
@@ -938,13 +938,13 @@ Attributen van objecttype Vordering
 | created | 2022-12-01 11:08:58 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_E2B83F97_FDFD_4876_9E66_23D79D4A4C03 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Vorderingregel |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0ca1b8c3-e144-45c1-b3e8-4a97f7653fd1 |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Vorderingregel
@@ -983,13 +983,13 @@ Attributen van objecttype Vorderingregel
 | created | 2019-05-09 16:02:38 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_EAC249B9_13F7_472b_A971_05ED32006F04 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype VTHAanvraagOfMelding
@@ -1018,13 +1018,13 @@ Attributen van objecttype VTHAanvraagOfMelding
 | created | 2019-04-16 10:36:04 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_E9AEF0A9_11BC_4d2a_BC48_FB77F04EF9A6 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | VTH-Melding |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-44f31c7d-6347-4e52-a809-c48563f4b7f1 |
+| gemma_definitie | Melding met betrekking tot Vergunningen, Toezicht en Handhaving |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype VTH-Melding
@@ -1071,13 +1071,13 @@ Attributen van objecttype VTH-Melding
 | created | 2020-09-09 16:33:02 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_88AF7A2E_C508_464a_AD22_DD9B156D570D |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | VTHzaak |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0080f5e8-d0d2-4a34-816d-24c8ec6b185a |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype VTHzaak
@@ -1114,13 +1114,13 @@ Attributen van objecttype VTHzaak
 | created | 2019-05-09 14:43:04 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_DDC990BC_C026_4c98_BEE5_6692EA0C2515 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype Waarneming
@@ -1148,13 +1148,13 @@ Attributen van objecttype Waarneming
 | created | 2019-04-17 13:32:09 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_192EA281_414F_4d8d_85D1_5C1B75224942 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype WABOAanvraagOfMelding
@@ -1187,13 +1187,13 @@ Attributen van objecttype WABOAanvraagOfMelding
 | created | 2021-06-15 17:18:45 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_5CE9E5F3_BA9A_47e4_A4C1_DE21E66E9F8E |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | WoonfraudeAanvraagOfMelding |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2856ae2a-1424-41ad-ab9c-0e166972fb2f |
+| gemma_definitie | Melding of aanvraag van woonfraude |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype WoonfraudeAanvraagOfMelding
@@ -1226,13 +1226,13 @@ Attributen van objecttype WoonfraudeAanvraagOfMelding
 | created | 2020-09-09 16:23:16 |
 | modified | 2024-04-17 13:34:24 |
 | id | EAID_CB5BCFAA_01F3_468d_A5CE_4E08D3E4FFC2 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | WoonoverlastAanvraagOfMelding |
+| gemma_type | business-object |
+| gemma_url | https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ee5a2678-e98b-44af-ae3f-f0c620a66681 |
+| gemma_definitie | Melding of aanvraag met betrekking tot Woonoverlast |
+| gemma_toelichting |  |
 
 
 Attributen van objecttype WoonoverlastAanvraagOfMelding
@@ -1277,13 +1277,13 @@ De enumeratie Beoordelingsoort heeft de volgende kenmerken:
 | created | None |
 | modified | None |
 | id | EAID_3B4D2D66_B801_42a8_A3FB_CC4A29FF8320 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
 
 
 
@@ -1310,13 +1310,13 @@ De enumeratie Heffingsoort heeft de volgende kenmerken:
 | created | None |
 | modified | None |
 | id | EAID_356C8F59_3721_46d0_BCD0_C17B0130035C |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
 
 
 
@@ -1344,13 +1344,13 @@ De enumeratie StatusOpenbareActiviteit heeft de volgende kenmerken:
 | created | None |
 | modified | None |
 | id | EAID_A29EE01A_118E_4599_BADD_35B9393A78F4 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-URL |  |
-| GEMMA-definitie |  |
-| GEMMA-toelichting |  |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
 
 
 
