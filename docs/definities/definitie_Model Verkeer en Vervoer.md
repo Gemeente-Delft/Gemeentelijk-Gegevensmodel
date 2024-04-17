@@ -9,10 +9,10 @@ Het model 'Model Verkeer en Vervoer' kent de volgende objecttypen:
 * **Stremming**: Situatie waarbij de doorstroming van het (vaar)wegverkeer plaatselijk is geblokkeerd als gevolg van een incident
 * **Strooidag**: Dag waarop op wegen gestrooid wordt ter voorkoming van gladheid
 * **Strooiroute**: Traject waarop het strooien plaatsvindt
-* **Strooiroute Uitvoering**: De route die uiteindelijk is gevolgd voor het strooien 
-* **V-Log-Info**: V-log is een open standaard voor datalogging van een verkeersregelinstallatie.
+* **StrooirouteUitvoering**: De route die uiteindelijk is gevolgd voor het strooien 
 * **Verkeersbesluit**: Een besluit van een wegbeheerder om een bepaald verkeersteken te plaatsen, te wijzigen of in te trekken of een bepaalde fysieke maatregel te treffen. 
 * **Verkeerstelling**: Een onderzoek om inzicht te krijgen in het verkeer, in de hoeveelheid verkeer, de verdeling en de gereden snelheid.
+* **VLogInfo**: V-log is een open standaard voor datalogging van een verkeersregelinstallatie.
 
 
 Het model 'Model Verkeer en Vervoer' heeft de volgende kenmerken:
@@ -49,30 +49,32 @@ Het model 'Model Verkeer en Vervoer' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-12 14:25:17 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_999725EE_737F_410e_906B_9865EBED3597 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Stremming
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanmelddatum | DateTime |  |
-| aantal gehinderden | Enumeratie: "Aantal Gehinderden" |  |
-| delen toegestaan | boolean |  |
-| einddatum | DateTime |  |
-| geschikt voor publicatie | boolean |  |
+| aantalGehinderden | Enumeratie: "Aantal Gehinderden" |  |
+| datumAanmelding | DateTime |  |
+| datumEinde | DateTime |  |
+| datumStart | DateTime |  |
+| datumWijziging | DateTime |  |
+| delenToegestaan | boolean |  |
+| geschiktVoorPublicatie | boolean |  |
 | hinderklasse | Enumeratie: "Hinderklasse" |  |
 | locatie | Point |  |
 | naam | AN250 |  |
-| startdatum | DateTime |  |
 | status | Enumeratie: "Stremmingstatus" |  |
-| wijzigingsdatum | DateTime |  |
 
 
 
@@ -92,13 +94,15 @@ Attributen van objecttype Stremming
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-21 10:32:27 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_E2448A6D_3AE0_4884_AD5C_215A9E7166DE |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Strooidag
@@ -106,10 +110,10 @@ Attributen van objecttype Strooidag
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datum | Date |  |
-| maximum temperatuur | double |  |
-| minimum temperatuur | double |  |
-| tijd maximum temperatuur | Time |  |
-| tijd minimum temperatuur | Time |  |
+| maximumtemperatuur | double |  |
+| minimumtemperatuur | double |  |
+| tijdMaximumtemperatuur | Time |  |
+| tijdMinimumtemperatuur | Time |  |
 
 
 
@@ -129,13 +133,15 @@ Attributen van objecttype Strooidag
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-21 10:31:32 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_73090FF8_12FD_471e_80FD_DBFB2FF97D7B |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Strooiroute
@@ -147,14 +153,14 @@ Attributen van objecttype Strooiroute
 
 
 
-### Strooiroute Uitvoering
-> **Definitie Strooiroute Uitvoering:** 
+### StrooirouteUitvoering
+> **Definitie StrooirouteUitvoering:** 
 >
 > De route die uiteindelijk is gevolgd voor het strooien 
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | Strooiroute Uitvoering |
+| name | StrooirouteUitvoering |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -162,68 +168,28 @@ Attributen van objecttype Strooiroute
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-21 10:32:13 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_B825D33A_6DCE_4263_A031_E6E92C4EE86B |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype Strooiroute Uitvoering
+Attributen van objecttype StrooirouteUitvoering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| gepland einde | DateTime |  |
-| gepland start | DateTime |  |
+| geplandEinde | DateTime |  |
+| geplandStart | DateTime |  |
 | route | MultiCurve |  |
-| werkelijk einde | DateTime |  |
-| werkelijk start | DateTime |  |
+| werkelijkEinde | DateTime |  |
+| werkelijkeStart | DateTime |  |
 | None | Class: "Strooiroute" |  |
 | None | Class: "Strooidag" |  |
-
-
-
-
-### V-Log-Info
-> **Definitie V-Log-Info:** 
->
-> V-log is een open standaard voor datalogging van een verkeersregelinstallatie.
-
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | V-Log-Info |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Arjen Brienen |
-| version | 1.0 |
-| created | 2018-11-21 13:24:06 |
-| modified | 2023-10-12 16:27:45 |
-| id | EAID_E4EEBD4D_A41E_4c9d_8099_CDA45BFF0056 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-url |  |
-
-
-Attributen van objecttype V-Log-Info
-
-| Attribute | Datatype | Description |
-| :--- | :--- | :--- |
-| detectieverkeer | int |  |
-| eindgroen | boolean |  |
-| snelheid | int |  |
-| startgroen | boolean |  |
-| tijdstip | DateTime |  |
-| verkeerwilgroen | boolean |  |
-| wachttijd | int |  |
-| None |  |  |
-| None |  |  |
-| None |  |  |
 
 
 
@@ -239,27 +205,29 @@ Attributen van objecttype V-Log-Info
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://nl.wikipedia.org/wiki/Verkeersbesluit |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-03-06 14:05:18 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_3F83DAA3_C37F_42b2_8D35_D75B840172F8 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Verkeersbesluit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| besluitdatum | Date |  |
-| einddatum | Datetime |  |
+| datumBesluit | Date |  |
+| datumEinde | Datetime |  |
+| datumStart | Datetime |  |
 | huisnummer | AN40 |  |
-| ingangsdatum | Datetime |  |
 | postcode | AN6 |  |
 | referentienummer | AN80 |  |
 | straat | An200 |  |
@@ -284,13 +252,15 @@ Attributen van objecttype Verkeersbesluit
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-21 13:11:36 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_DBE739FD_EBC4_4650_8A2B_714294A63A73 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Verkeerstelling
@@ -298,8 +268,52 @@ Attributen van objecttype Verkeerstelling
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | aantal | int |  |
-| tijdstip tot | DateTime |  |
-| tijdstip vanaf | DateTime |  |
+| tijdTot | DateTime |  |
+| tijdVanaf | DateTime |  |
+| None |  |  |
+
+
+
+
+### VLogInfo
+> **Definitie VLogInfo:** 
+>
+> V-log is een open standaard voor datalogging van een verkeersregelinstallatie.
+
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | VLogInfo |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.0 |
+| created | 2018-11-21 13:24:06 |
+| modified | 2024-04-17 13:34:25 |
+| id | EAID_E4EEBD4D_A41E_4c9d_8099_CDA45BFF0056 |
+| domein-iv3 |  |
+| domein-dcat |  |
+| GEMMA-naam |  |
+| GEMMA-type |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
+
+
+Attributen van objecttype VLogInfo
+
+| Attribute | Datatype | Description |
+| :--- | :--- | :--- |
+| detectieVerkeer | int |  |
+| eindegroen | boolean |  |
+| snelheid | int |  |
+| startgroen | boolean |  |
+| tijdstip | DateTime |  |
+| verkeerWilGroen | boolean |  |
+| wachttijd | int |  |
+| None |  |  |
+| None |  |  |
 | None |  |  |
 
 
@@ -341,7 +355,9 @@ De enumeratie Aantal Gehinderden heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -375,7 +391,9 @@ De enumeratie Hindercategorie heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -409,7 +427,9 @@ De enumeratie Hinderklasse heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -443,7 +463,9 @@ De enumeratie Stremmingstatus heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 

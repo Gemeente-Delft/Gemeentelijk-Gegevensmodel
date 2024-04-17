@@ -21,8 +21,8 @@ Het model 'Model Financien ' kent de volgende objecttypen:
 * **Factuurregel**: Een item op de factuur
 * **Hoofdrekening**: is kostensoort
 * **Hoofdstuk**: Onderdeel van een langere tekst.
-* **Inkooporder**: Een opdracht (gezien vanuit de klant) voor √©√©n of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen.
-* **Kostenplaats**: Rekening waaraan boekingen in een financi√´le administratie samen worden toegeschreven.
+* **Inkooporder**: Een opdracht (gezien vanuit de klant) voor één of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen.
+* **Kostenplaats**: Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven.
 * **Mutatie**: Wijziging van een situatie
 * **Opdrachtgever**: Persoon die een opdracht verstrekt. 
 * **Opdrachtnemer**: Partij die een opdracht aanvaardt. 
@@ -66,13 +66,15 @@ Het model 'Model Financien ' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-15 09:42:06 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_7B8D0A8F_07BF_42bf_90B3_28A72BD4401A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Activa
@@ -100,13 +102,15 @@ Attributen van objecttype Activa
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-15 09:48:32 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_2483BD14_7FA7_4514_A565_C7F7967E226D |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Activasoort
@@ -134,13 +138,15 @@ Attributen van objecttype Activasoort
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-15 09:32:52 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_FC698CC3_7A64_4991_A751_B3B2A5DF77E3 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Bankafschrift
@@ -148,7 +154,7 @@ Attributen van objecttype Bankafschrift
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datum | date |  |
-| nr | N8 |  |
+| nummer | N8 |  |
 
 
 
@@ -168,13 +174,15 @@ Attributen van objecttype Bankafschrift
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-20 13:54:30 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_764CE125_55C1_480d_90BA_745484CF3FC0 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Bankafschriftregel
@@ -184,7 +192,7 @@ Attributen van objecttype Bankafschriftregel
 | bedrag | Bedrag |  |
 | bij | boolean |  |
 | datum | date |  |
-| rekeningvan | AN14 |  |
+| rekeningVan | AN14 |  |
 
 
 
@@ -204,13 +212,15 @@ Attributen van objecttype Bankafschriftregel
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-15 09:53:35 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_D87012E0_D2EB_4333_AD6C_1E43E6857304 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Bankrekening
@@ -239,13 +249,15 @@ Attributen van objecttype Bankrekening
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-15 10:16:46 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_A784A0ED_4451_4a92_B7C8_ABE528BA898F |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Batch
@@ -274,13 +286,15 @@ Attributen van objecttype Batch
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-20 14:15:19 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_9F935C8B_5B7C_4ce4_9360_04A91F4F70CC |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Batchregel
@@ -288,10 +302,10 @@ Attributen van objecttype Batchregel
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | bedrag | Bedrag |  |
-| betaaldatum | Date |  |
+| datumBetaling | Date |  |
 | omschrijving | AN200 |  |
-| rekeningnaar | AN14 |  |
-| rekeningvan | AN14 |  |
+| rekeningNaar | AN14 |  |
+| rekeningVan | AN14 |  |
 
 
 
@@ -311,13 +325,15 @@ Attributen van objecttype Batchregel
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-20 15:07:32 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_C95CF400_8487_4ff3_B475_CA1E01EBCA78 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Begroting
@@ -346,22 +362,24 @@ Attributen van objecttype Begroting
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-20 15:07:04 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_87964E36_9FEE_4b8f_A053_C4EDAF000646 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Begrotingregel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| baten_lasten | AN20 |  |
+| batenLasten | AN20 |  |
 | bedrag | Bedrag |  |
-| soort_regel | AN50 |  |
+| soortRegel | AN50 |  |
 
 
 
@@ -381,13 +399,15 @@ Attributen van objecttype Begrotingregel
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-14 14:40:52 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_E74D0D46_66EB_4deb_A540_7AB08E95F956 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Debiteur
@@ -413,13 +433,15 @@ Attributen van objecttype Debiteur
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-20 14:52:02 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_2FFE3BAD_CB0E_43ea_A435_FD693B9255C3 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Doelstelling
@@ -448,25 +470,27 @@ Attributen van objecttype Doelstelling
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-14 14:38:41 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_E1DA56C3_6ECA_4ec9_8CF4_FC57E1C43102 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Factuur
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| betaalbaarper | date |  |
+| betaalbaarPer | date |  |
 | betaaltermijn | N3 |  |
 | code | AN40 |  |
-| factuurbedrag BTW | Bedrag |  |
-| factuurbedrag ex BTW | bedrag |  |
-| factuurdatum | date |  |
+| datumFactuur | date |  |
+| factuurbedragBTW | Bedrag |  |
+| factuurbedragExclusiefBTW | bedrag |  |
 | omschrijving | AN200 |  |
 | None | Class: "Inkooporder" |  |
 | None | Class: "Leverancier" |  |
@@ -489,13 +513,15 @@ Attributen van objecttype Factuur
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-14 14:49:03 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_65E960EA_CC92_4af1_AF2B_B4625FA6AEA0 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Factuurregel
@@ -527,13 +553,15 @@ Attributen van objecttype Factuurregel
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-14 14:24:29 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_0EEAF579_3F47_4551_B9F9_7367280EB3EB |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Hoofdrekening
@@ -543,10 +571,10 @@ Attributen van objecttype Hoofdrekening
 | naam | AN80 |  |
 | nummer | AN8 |  |
 | omschrijving | AN200 |  |
-| PIA hoofcategorie omschrijving | AN80 |  |
-| PIA Hoofdcategorie code | AN20 |  |
+| PIAHoofcategorieOmschrijving | AN80 |  |
+| PIAHoofdcategorieCode | AN20 |  |
 | subcode | AN20 |  |
-| subcode omschrijving | AN80 |  |
+| subcodeOmschrijving | AN80 |  |
 
 
 
@@ -566,13 +594,15 @@ Attributen van objecttype Hoofdrekening
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-20 14:50:09 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_FFAA30D3_91C2_44aa_B52D_B21C51DB0326 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Hoofdstuk
@@ -589,7 +619,7 @@ Attributen van objecttype Hoofdstuk
 ### Inkooporder
 > **Definitie Inkooporder:** 
 >
-> Een opdracht (gezien vanuit de klant) voor √©√©n of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen.
+> Een opdracht (gezien vanuit de klant) voor één of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -601,13 +631,15 @@ Attributen van objecttype Hoofdstuk
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-15 09:47:48 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_A91E9C27_C4FA_4e1b_A4FF_8AE74ED9B7EB |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Inkooporder
@@ -615,17 +647,17 @@ Attributen van objecttype Inkooporder
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | artikelcode | AN80 |  |
-| begindatum | date |  |
-| betalingmeerderejaren | boolean |  |
+| betalingMeerdereJaren | boolean |  |
 | betreft | AN40 |  |
-| datumingediend | date |  |
-| einddatum | date |  |
+| datumEinde | date |  |
+| datumIngediend | date |  |
+| datumStart | date |  |
 | goederencode | AN80 |  |
 | omschrijving | AN140 |  |
 | ordernummer | AN8 |  |
 | saldo | Bedrag |  |
-| totaalnettobedrag | Bedrag |  |
-| wijzeaanbesteden | AN40 |  |
+| totaalNettoBedrag | Bedrag |  |
+| wijzeVanAanbesteden | AN40 |  |
 | None | Class: "Leverancier" |  |
 | None | Class: "Contract" |  |
 | None | Class: "Inkooporder" |  |
@@ -639,7 +671,7 @@ Attributen van objecttype Inkooporder
 ### Kostenplaats
 > **Definitie Kostenplaats:** 
 >
-> Rekening waaraan boekingen in een financi√´le administratie samen worden toegeschreven.
+> Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -651,25 +683,27 @@ Attributen van objecttype Inkooporder
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-03-21 12:25:41 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_D90E822D_7EF8_4ea6_AF5C_4A4362577941 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Kostenplaats
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| BTW code | AN40 |  |
-| BTW omschrijving | AN80 |  |
-| kostenplaatssoort code | AN20 |  |
-| kostenplaatssoort omschrijving | AN80 |  |
-| kostenplaatstype code | AN20 |  |
-| kostenplaatstype omschrijving | AN80 |  |
+| BTWCode | AN40 |  |
+| BTWOmschrijving | AN80 |  |
+| kostenplaatssoortCode | AN20 |  |
+| kostenplaatssoortOmschrijving | AN80 |  |
+| kostenplaatstypeCode | AN20 |  |
+| kostenplaatstypeOmschrijving | AN80 |  |
 | naam | AN80 |  |
 | omschrijving | AN200 |  |
 
@@ -691,13 +725,15 @@ Attributen van objecttype Kostenplaats
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-20 14:17:00 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_CB0A6B53_D263_459e_8C28_AD97E5552FFF |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Mutatie
@@ -725,21 +761,23 @@ Attributen van objecttype Mutatie
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-20 15:01:14 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_C2520FC3_622B_4edf_B911_C661B0D710FE |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Opdrachtgever
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| cluster omschrijving | AN80 |  |
 | clustercode | AN20 |  |
+| clusterOmschrijving | AN80 |  |
 | naam | AN80 |  |
 | nummer | AN20 |  |
 | omschrijving | text |  |
@@ -762,13 +800,15 @@ Attributen van objecttype Opdrachtgever
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-20 15:01:30 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_9ABE303F_1E8D_407c_BBB8_E7DAC383E0C3 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Opdrachtnemer
@@ -776,7 +816,7 @@ Attributen van objecttype Opdrachtnemer
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | clustercode | AN20 |  |
-| clustercode omschrijving | AN80 |  |
+| clustercodeOmschrijving | AN80 |  |
 | naam | AN80 |  |
 | nummer | AN20 |  |
 | omschrijving | AN80 |  |
@@ -799,13 +839,15 @@ Attributen van objecttype Opdrachtnemer
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-20 14:52:11 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_04439F81_75DB_45cf_BE7A_352A54A95D73 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Product
@@ -834,13 +876,15 @@ Attributen van objecttype Product
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-20 14:30:43 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_1EC60172_CB6B_40c9_9818_C7A708C8540E |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Subrekening
@@ -865,31 +909,33 @@ Attributen van objecttype Subrekening
 | toelichting | Een taakveld kan verbonden zijn aan een strategische opgave. Dat betekent dat het budget voor de activiteiten die nodig zijn om de opgave uit te voeren daar te vinden zijn. |
 | synoniemen |  |
 | uri |  |
-| bron | https://buren.begroting-2020.nl/p11385/wat-is-een-taakveld |
+| bron |  |
 | author | aashkpour |
 | version | 1.0 |
 | created | 2022-08-23 17:08:18 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_E81C0FA0_2203_489a_98E9_32F1CB200E75 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Taakveld
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| functiecode IV3 | AN20 |  |
-| functieomschrijving IV3 | AN80 |  |
+| functiecodeIV3 | AN20 |  |
+| functieomschrijvingIV3 | AN80 |  |
 | hoofdfunctie | AN50 |  |
-| hoofdfunctie omschrijving | AN100 |  |
-| subtaakveld code | AN20 |  |
-| subtaakveld omschrijving | AN80 |  |
+| hoofdfunctieOmschrijving | AN100 |  |
+| subtaakveldCode | AN20 |  |
+| subtaakveldOmschrijving | AN80 |  |
 | taakveldcode | AN20 |  |
-| taakveldomschrijving | AN100 |  |
+| taakveldOmschrijving | AN100 |  |
 
 
 
@@ -909,13 +955,15 @@ Attributen van objecttype Taakveld
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-20 14:30:34 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:44 |
 | id | EAID_4AF7FA48_DFB0_474f_B797_A13D5FD37530 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Werkorder

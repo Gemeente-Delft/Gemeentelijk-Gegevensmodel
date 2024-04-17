@@ -8,20 +8,20 @@ Het model 'Model Vastgoed' kent de volgende objecttypen:
 
 * **Aanbesteding Vastgoed**: Een procedure waarbij een opdrachtgever bekendmaakt dat hij een opdracht of concessie wil laten uitvoeren en bedrijven uitnodigt om een offerte in te dienen. Dit in het kader van werkzaamheden rondom vastgoed.
 * **Adresaanduiding**: De adresaanduiding van het WOZ-OBJECT
-* **Bouwdeel**: Zelfstandig en aanwijsbaar deel van een element, onderscheiden naar samenstelling of constructiewijze, bestaande uit √©√©n of meer componenten waaraan technische eigenschappen en een onderhoudshistorie kunnen worden gerelateerd (bron: Conditiemeting gebouwde omgeving - Deel 1: Methodiek, code: 3.3)
+* **Bouwdeel**: Zelfstandig en aanwijsbaar deel van een element, onderscheiden naar samenstelling of constructiewijze, bestaande uit één of meer componenten waaraan technische eigenschappen en een onderhoudshistorie kunnen worden gerelateerd (bron: Conditiemeting gebouwde omgeving - Deel 1: Methodiek, code: 3.3)
 * **Bouwdeelelement**: Onderdeeel van een bouwdeel
 * **CultuurOnbebouwd**: Een aanduiding voor de soort cultuur van het onbebouwde gedeelte van de onroerende zaak.
 * **Eigenaar**: Eigenaar is een persoon die de eigenaar is van een gebouw of stuk grond en ook alle rechten daarvan bezit.
 * **Gebruiksdoel**: Een aanduiding va alle waarden waarmee het gebruiksdoel van een object kan worden verbijzonderd.
 * **Huurder**: Een partij die een zaak of een gedeelte daarvan in gebruik verstrekt heeft gekregen en zich heeft verbonden tot een tegenprestatie.
 * **Inspectie**: het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen.
-* **kp_betrokken_bij**: <Geen Definities>
-* **kp_onstaan_uit**: <Geen Definities>
+* **KpBetrokkenBij**: <Geen Definities>
+* **KpOnstaanUit**: <Geen Definities>
 * **LOCATIEAANDUIDING WOZ OBJECT**: Nadere aanduiding van het WOZ-object
-* **LocatieOnroerendeZaak **: Locatie van een geregistreerd goed
+* **Locatieonroerendezaak**: Locatie van een geregistreerd goed
 * **MJOP**: Meerjaren Onderhoudsplanning
-* **MJOP-Item**: Onderdeel van een MJOP
-* **NAD_AanvullingBRP**: <Geen Definities>
+* **MJOPItem**: Onderdeel van een MJOP
+* **NADAanvullingBRP**: <Geen Definities>
 * **Objectrelatie**: Relatie tot een object
 * **Offerte**: Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs. 
 * **Pachter**: Een persoon die een pachtovereenkomst heeft met de eigenaar van een perceel voor het gebruik als landbouwgrond.
@@ -31,7 +31,7 @@ Het model 'Model Vastgoed' kent de volgende objecttypen:
 * **Vastgoedobject**: Perceel of vastgoed waar de gemeente een zakelijk recht heeft, en optioneel verhuurd, verpacht of anderzinds aan een derde partij.
 * **Verhuurbaar Eenheid**: Een Verhuurbare Eenheid (VHE) is een eenheid die individueel verhuurbaar is. Verhuurbaar komt voort uit 'exploitatie'
 * **Werkbon**: Document waarin een heoveelheid werk is beschreven
-* **WOZ-Belang**: <Geen Definities>
+* **WOZBelang**: <Geen Definities>
 * **Zakelijk Recht**: Geeft een recht op een goed, zoals een onroerende zaak of een roerende zaak. 
 
 
@@ -69,13 +69,15 @@ Het model 'Model Vastgoed' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-29 13:54:27 |
-| modified | 2023-11-13 11:11:39 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_17FCEF39_AB9D_4516_9C60_1DDA61D87356 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Aanbesteding Vastgoed
@@ -101,13 +103,15 @@ Attributen van objecttype Aanbesteding Vastgoed
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-20 17:10:49 |
-| modified | 2023-10-12 16:27:26 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_909E635B_E33D_4ded_8471_900CD175B7D1 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Adresaanduiding
@@ -122,7 +126,7 @@ Attributen van objecttype Adresaanduiding
 ### Bouwdeel
 > **Definitie Bouwdeel:** 
 >
-> Zelfstandig en aanwijsbaar deel van een element, onderscheiden naar samenstelling of constructiewijze, bestaande uit √©√©n of meer componenten waaraan technische eigenschappen en een onderhoudshistorie kunnen worden gerelateerd (bron: Conditiemeting gebouwde omgeving - Deel 1: Methodiek, code: 3.3)
+> Zelfstandig en aanwijsbaar deel van een element, onderscheiden naar samenstelling of constructiewijze, bestaande uit één of meer componenten waaraan technische eigenschappen en een onderhoudshistorie kunnen worden gerelateerd (bron: Conditiemeting gebouwde omgeving - Deel 1: Methodiek, code: 3.3)
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -130,17 +134,19 @@ Attributen van objecttype Adresaanduiding
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.begrippenxl.nl/ABDL/nl/page/DEF-0614 |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-29 13:51:14 |
-| modified | 2023-10-12 16:27:26 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_9A739672_6084_4c05_A13E_59DB13551E58 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Bouwdeel
@@ -168,13 +174,15 @@ Attributen van objecttype Bouwdeel
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-29 13:51:51 |
-| modified | 2023-10-12 16:27:26 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_BE147761_326E_4859_9366_5157CE865EC1 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Bouwdeelelement
@@ -198,24 +206,26 @@ Attributen van objecttype Bouwdeelelement
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.gemmaonline.nl/index.php/Rsgb_3.0/doc/attribuutsoort/kadastrale_onroerende_zaak.aard_cultuur_onbebouwd |
+| bron |  |
 | author | aashkpour |
 | version | 1.0 |
 | created | 2020-04-22 16:08:42 |
-| modified | 2023-10-12 16:27:26 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_01C1622D_23E7_4a63_9B63_F45CA63E76CA |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype CultuurOnbebouwd
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Cultuurcodeonbebouwd |  |  |
+| cultuurcodeOnbebouwd |  |  |
 | None | Class: "KADASTRALE ONROERENDE ZAAK" |  |
 
 
@@ -232,17 +242,19 @@ Attributen van objecttype CultuurOnbebouwd
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | http://tax.kadaster.nl/id/begrip/Eigenaar_(Wilg) |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-29 13:56:25 |
-| modified | 2023-10-12 16:27:26 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_5E06339C_13EE_44ca_BC40_0FC4B9DC8349 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Eigenaar
@@ -264,24 +276,26 @@ Attributen van objecttype Eigenaar
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.gemmaonline.nl/index.php/Rsgb_3.0/doc/enumeration/gebruiksdoel |
+| bron |  |
 | author | aashkpour |
 | version | 1.0 |
 | created | 2020-03-30 14:26:44 |
-| modified | 2023-10-12 16:27:26 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_A5975EF7_558A_44fa_A656_AB43580D8C35 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Gebruiksdoel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Gebruiksdoel gebouwd object | Enumeratie: "gebruiksdoel" |  |
+| gebruiksdoelGebouwdObject | Enumeratie: "gebruiksdoel" |  |
 
 
 
@@ -297,17 +311,19 @@ Attributen van objecttype Gebruiksdoel
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://catalogus.kadaster.nl/li/nl/page/Huurder |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-29 13:56:12 |
-| modified | 2023-10-12 16:27:26 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_B75EE7EF_DC1F_47da_A95C_B9662075684D |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Huurder
@@ -333,13 +349,15 @@ Attributen van objecttype Huurder
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-29 17:01:01 |
-| modified | 2023-10-12 16:27:26 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_A31C3B5D_EAC5_482d_8816_8B858EC4BE01 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Inspectie
@@ -354,14 +372,14 @@ Attributen van objecttype Inspectie
 
 
 
-### kp_betrokken_bij
-> **Definitie kp_betrokken_bij:** 
+### KpBetrokkenBij
+> **Definitie KpBetrokkenBij:** 
 >
 > Geen Definitie
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | kp_betrokken_bij |
+| name | KpBetrokkenBij |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -369,33 +387,35 @@ Attributen van objecttype Inspectie
 | author | mkampen |
 | version | 1.0 |
 | created | 2021-01-19 14:59:55 |
-| modified | 2023-10-12 16:27:26 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_D46DA88A_F3EB_4c72_85DA_C0C4239289E2 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype kp_betrokken_bij
+Attributen van objecttype KpBetrokkenBij
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| DatumBeginGeldigheid | Date |  |
-| DatumEindeGeldigheid | Date |  |
+| datumBeginGeldigheid | Date |  |
+| datumEindeGeldigheid | Date |  |
 
 
 
 
-### kp_onstaan_uit
-> **Definitie kp_onstaan_uit:** 
+### KpOnstaanUit
+> **Definitie KpOnstaanUit:** 
 >
 > Geen Definitie
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | kp_onstaan_uit |
+| name | KpOnstaanUit |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -403,21 +423,23 @@ Attributen van objecttype kp_betrokken_bij
 | author | mkampen |
 | version | 1.0 |
 | created | 2021-01-19 14:58:41 |
-| modified | 2023-10-12 16:27:26 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_DCF0623A_694F_4b82_B615_F499F169C19A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype kp_onstaan_uit
+Attributen van objecttype KpOnstaanUit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| DatumBeginGeldigheid | Date |  |
-| DatumEindeGeldigheid | Date |  |
+| datumBeginGeldigheid | Date |  |
+| datumEindeGeldigheid | Date |  |
 
 
 
@@ -437,36 +459,38 @@ Attributen van objecttype kp_onstaan_uit
 | author | aashkpour |
 | version | 1.0 |
 | created | 2021-02-15 16:28:05 |
-| modified | 2023-10-12 16:27:26 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_0B3F8A89_F21E_4bea_9620_8D6713AB632C |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype LOCATIEAANDUIDING WOZ OBJECT
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Datum Begin Geldigheid | Date |  |
-| Datum Einde Geldigheid | Date |  |
-| Locatieomschrijving | AN100 |  |
-| Primair | Enumeratie: "Boolean" |  |
+| datumBeginGeldigheid | Date |  |
+| datumEindeGeldigheid | Date |  |
+| locatieOmschrijving | AN100 |  |
+| primair | Enumeratie: "Boolean" |  |
 | None | Class: "WOZ-OBJECT" |  |
 
 
 
 
-### LocatieOnroerendeZaak 
-> **Definitie LocatieOnroerendeZaak :** 
+### Locatieonroerendezaak
+> **Definitie Locatieonroerendezaak:** 
 >
 > Locatie van een geregistreerd goed
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | LocatieOnroerendeZaak  |
+| name | Locatieonroerendezaak |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -474,25 +498,27 @@ Attributen van objecttype LOCATIEAANDUIDING WOZ OBJECT
 | author | aashkpour |
 | version | 1.0 |
 | created | 2020-04-08 17:00:47 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_049E7FD0_D515_4057_9C87_A09980C5DE6A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype LocatieOnroerendeZaak 
+Attributen van objecttype Locatieonroerendezaak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | adrestype | Enumeratie: "TypeAdresseerbaarObject" |  |
-| cultuurcode bebouwd |  |  |
-| datumbegingeldigheid | Date |  |
-| datumeindegeldigheid | Date |  |
-| Geometrie | Vlak |  |
-| locatie-omschrijving | AN800 |  |
+| cultuurcodeBebouwd |  |  |
+| datumBeginGeldigheid | Date |  |
+| datumEindeGeldigheid | Date |  |
+| geometrie | Vlak |  |
+| locatieOmschrijving | AN800 |  |
 | None | Class: "KADASTRALE ONROERENDE ZAAK" |  |
 
 
@@ -513,13 +539,15 @@ Attributen van objecttype LocatieOnroerendeZaak
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-29 13:53:05 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_A110896B_0CAD_46cf_9226_840DEE3328F0 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype MJOP
@@ -533,14 +561,14 @@ Attributen van objecttype MJOP
 
 
 
-### MJOP-Item
-> **Definitie MJOP-Item:** 
+### MJOPItem
+> **Definitie MJOPItem:** 
 >
 > Onderdeel van een MJOP
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | MJOP-Item |
+| name | MJOPItem |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -548,40 +576,42 @@ Attributen van objecttype MJOP
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-11 14:41:07 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_54697170_4C4D_40f6_9E08_35DF1970B8C6 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype MJOP-Item
+Attributen van objecttype MJOPItem
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | code | AN40 |  |
-| datumeinde | Date |  |
-| datumstart | Date |  |
+| datumEinde | Date |  |
+| datumOpzeggingAanbieder | Date |  |
+| datumOpzeggingOntvanger | Date |  |
+| datumStart | Date |  |
 | kosten | Bedrag |  |
 | omschrijving | AN80 |  |
-| opzegdatum aanbieder | Date |  |
-| opzegdatum ontvanger | Date |  |
-| opzegtermijn aanbieder | int |  |
-| opzegtermijn ontvanger | int |  |
+| opzegtermijnAanbieder | int |  |
+| opzegtermijnOntvanger | int |  |
 
 
 
 
-### NAD_AanvullingBRP
-> **Definitie NAD_AanvullingBRP:** 
+### NADAanvullingBRP
+> **Definitie NADAanvullingBRP:** 
 >
 > Geen Definitie
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | NAD_AanvullingBRP |
+| name | NADAanvullingBRP |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -589,20 +619,22 @@ Attributen van objecttype MJOP-Item
 | author | aashkpour |
 | version | 1.0 |
 | created | 2021-12-15 15:57:45 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_46386087_923F_402e_BB6B_6DE39D73349A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype NAD_AanvullingBRP
+Attributen van objecttype NADAanvullingBRP
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Opmerking | an100 |  |
+| opmerkingen | an100 |  |
 
 
 
@@ -622,13 +654,15 @@ Attributen van objecttype NAD_AanvullingBRP
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-01-21 15:56:10 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_3EA09322_144A_407d_86C4_FCC8C041C826 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Objectrelatie
@@ -655,13 +689,15 @@ Attributen van objecttype Objectrelatie
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-29 13:55:05 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_EF55544A_F59B_4411_A3D2_9C1A2BA2663C |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Offerte
@@ -683,17 +719,19 @@ Attributen van objecttype Offerte
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | http://tax.kadaster.nl/id/begrip/Pachter |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-29 16:26:19 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_EDC8B01F_4802_4562_BC41_C2CAD76880B6 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Pachter
@@ -719,21 +757,23 @@ Attributen van objecttype Pachter
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-29 13:55:46 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_697512E4_0C8E_4be8_8E95_9E2E4BD50F85 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Prijzenboekitem
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| geldigtot | Date |  |
-| geldigvanaf | Date |  |
+| datumEindeGeldigheid | Date |  |
+| datumStart | Date |  |
 | prijs | Bedrag |  |
 | verrichting | AN80 |  |
 
@@ -755,13 +795,15 @@ Attributen van objecttype Prijzenboekitem
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-01-23 21:45:20 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_1C84E4B6_1BB5_4a0d_A945_FFFDFDFB544B |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Vastgoed Contract
@@ -769,11 +811,11 @@ Attributen van objecttype Vastgoed Contract
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | beschrijving | AN200 |  |
-| einddatum | Date |  |
-| Identificatie | AN80 |  |
+| datumEinde | Date |  |
+| datumStart | Date |  |
+| identificatie | AN80 |  |
 | maandbedrag | Bedrag |  |
 | opzegtermijn | AN80 |  |
-| startdatum | Date |  |
 | status | AN80 |  |
 | type | AN80 |  |
 
@@ -795,13 +837,15 @@ Attributen van objecttype Vastgoed Contract
 | author | aashkpour |
 | version | 1.0 |
 | created | 2020-01-15 20:55:01 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_1C25D70B_AE22_4654_9190_2F55272D9BE6 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Vastgoedcontractregel
@@ -809,11 +853,11 @@ Attributen van objecttype Vastgoedcontractregel
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | bedrag | int |  |
-| einddatum | Date |  |
+| datumEinde | Date |  |
+| datumStart | Date |  |
 | frequentie | AN80 |  |
-| Identificatie | AN80 |  |
+| identificatie | AN80 |  |
 | omschrijving | AN200 |  |
-| startdatum | Date |  |
 | status | AN80 |  |
 | type | AN80 |  |
 
@@ -835,52 +879,54 @@ Attributen van objecttype Vastgoedcontractregel
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-29 13:49:24 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_28A6F2AC_5AB1_4f25_8876_931152CA28E0 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Vastgoedobject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aankoopbedrag | Bedrag |  |
-| aantal etages | int |  |
-| aantal parkeerplaatsen | int |  |
-| aantal rioleringen | int |  |
+| aantalEtages | int |  |
+| aantalParkeerplaatsen | int |  |
+| aantalRioleringen | int |  |
 | adresaanduiding |  |  |
-| afgekochte erfpacht |  |  |
-| afgesproken conditiescore | Enumeratie: "NEN2767 Conditiescore" |  |
+| afgekochteErfpacht |  |  |
+| afgesprokenConditiescore | Enumeratie: "NEN2767 Conditiescore" |  |
 | afkoopwaarde | Bedrag |  |
-| asbestrapportage aanwezig | Enumeratie: "Boolean" |  |
+| asbestrapportageAanwezig | Enumeratie: "Boolean" |  |
+| bedragAankoop | Bedrag |  |
 | bestemmingsplan | AN200 |  |
 | boekwaarde | Bedrag |  |
 | bouwjaar | int |  |
 | bouwwerk | AN80 |  |
-| bovenliggend niveacode | AN20 |  |
-| bovenliggend niveau | AN80 |  |
-| bruto vloeroppervlak | int |  |
-| co2 uitstoot | int |  |
+| bovenliggendNiveau | AN80 |  |
+| bovenliggendNiveaucode | AN20 |  |
+| brutoVloeroppervlakte | int |  |
+| CO2Uitstoot | int |  |
 | conditiescore | Enumeratie: "NEN2767 Conditiescore" |  |
-| datum afstoten | Date |  |
-| datum berekening oppervlak | Date |  |
-| datum eigendom | Date |  |
-| datum verkoop | Date |  |
+| datumAfstoten | Date |  |
+| datumBerekeningOppervlak | Date |  |
+| datumEigendom | Date |  |
+| datumVerkoop | Date |  |
 | deelportefeuille | AN80 |  |
 | energiekosten | Bedrag |  |
 | energielabel | Enumeratie: "Energielabel Gebouwen" |  |
 | energieverbruik | int |  |
-| fiscale waarde | Bedrag |  |
+| fiscaleWaarde | Bedrag |  |
 | foto | Blob |  |
 | gearchiveerd | Enumeratie: "Boolean" |  |
 | herbouwwaarde | Bedrag |  |
 | hoofdstuk | AN80 |  |
-| Identificatie | AN80 |  |
-| jaar laatste renovatie | n4 |  |
+| identificatie | AN80 |  |
+| jaarLaatsteRenovatie | n4 |  |
 | kostenplaats | AN80 |  |
 | locatie | punt |  |
 | marktwaarde | Bedrag |  |
@@ -892,19 +938,19 @@ Attributen van objecttype Vastgoedobject
 | objecttypecode | AN40 |  |
 | omschrijving | AN80 |  |
 | onderhoudscategorie | AN80 |  |
-| oppervlakte kantoor | int |  |
+| oppervlakteKantoor | int |  |
 | portefeuille | AN80 |  |
 | portefeuillecode | AN40 |  |
 | provincie |  |  |
 | toelichting | text |  |
-| verhuurbaar vloeroppervlak | int |  |
+| verhuurbaarVloeroppervlak | int |  |
 | verkoopbaarheid | AN80 |  |
 | verkoopbedrag | Bedrag |  |
-| verzekerde waarde | Bedrag |  |
-| waarde grond | Bedrag |  |
-| waarde opstal | Bedrag |  |
+| verzekerdeWaarde | Bedrag |  |
+| waardeGrond | Bedrag |  |
+| waardeOpstal | Bedrag |  |
 | wijk |  |  |
-| WOZ-waarde | Bedrag |  |
+| WOZWaarde | Bedrag |  |
 | None | Class: "KADASTRALE ONROERENDE ZAAK" |  |
 | None | Class: "KADASTRAAL PERCEEL" |  |
 
@@ -922,17 +968,19 @@ Attributen van objecttype Vastgoedobject
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://cora.wikixl.nl/index.php/Id-3db8399f-ca8f-c4a9-279e-e461255f3f43 |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-03-20 15:47:52 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_98A7AE65_A061_449a_94CD_6218069CA86A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Verhuurbaar Eenheid
@@ -941,18 +989,18 @@ Attributen van objecttype Verhuurbaar Eenheid
 | :--- | :--- | :--- |
 | adres | AN350 |  |
 | afmeting | int |  |
-| begindatum | Date |  |
 | bezetting | int |  |
-| einddatum | Date |  |
+| datumEinde | Date |  |
+| datumStart | Date |  |
+| datumWerkelijkBegin | Date |  |
+| datumWerkelijkEinde | Date |  |
 | huurprijs | int |  |
-| Identificatie | AN80 |  |
+| identificatie | AN80 |  |
 | naam | AN80 |  |
-| netto omtrek | int |  |
-| netto oppervlak | int |  |
+| nettoOmtrek | int |  |
+| nettoOppervlak | int |  |
 | opmerkingen | text |  |
 | type | An80 |  |
-| werkelijke begindatum | Date |  |
-| werkelijke einddatum | Date |  |
 
 
 
@@ -972,13 +1020,15 @@ Attributen van objecttype Verhuurbaar Eenheid
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-29 13:54:47 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_C5AA8835_219D_4bfa_85EF_8BA45F732BCD |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Werkbon
@@ -989,14 +1039,14 @@ Attributen van objecttype Werkbon
 
 
 
-### WOZ-Belang
-> **Definitie WOZ-Belang:** 
+### WOZBelang
+> **Definitie WOZBelang:** 
 >
 > Geen Definitie
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | WOZ-Belang |
+| name | WOZBelang |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -1004,22 +1054,24 @@ Attributen van objecttype Werkbon
 | author | aashkpour |
 | version | 1.0 |
 | created | 2021-02-11 12:34:19 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_E71DC5EC_EEEB_4d27_A3C1_B46FD34AD41B |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype WOZ-Belang
+Attributen van objecttype WOZBelang
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Datum Begin Geldigheid | DATUM |  |
-| Datum Einde Geldigheid | DATUM |  |
-| eigenaar gebruiker | Enumeratie: "aanduidingEigenaarGebruiker" |  |
+| datumBeginGeldigheid | DATUM |  |
+| datumEindeGeldigheid | DATUM |  |
+| eigenaarGebruiker | Enumeratie: "aanduidingEigenaarGebruiker" |  |
 
 
 
@@ -1035,25 +1087,27 @@ Attributen van objecttype WOZ-Belang
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.doehetzelfnotaris.nl/uitleg/zakelijk-recht/ |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-29 13:56:38 |
-| modified | 2023-10-12 16:27:27 |
+| modified | 2024-04-17 13:34:43 |
 | id | EAID_8D52E9F1_9CC9_42c6_A347_E68E29718E55 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Zakelijk Recht
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| begindatum | Date |  |
-| einddatum | Date |  |
+| datumEinde | Date |  |
+| datumStart | Date |  |
 | kosten | Bedrag |  |
 | soort | Enumeratie: "Zakelijkrecht" |  |
 | None | Class: "Kostenplaats" |  |
@@ -1104,7 +1158,9 @@ De enumeratie Energielabel Gebouwen heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -1142,7 +1198,9 @@ De enumeratie Monumenttypering heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -1179,7 +1237,9 @@ De enumeratie NEN2767 Conditiescore heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -1214,7 +1274,9 @@ De enumeratie Objectrelatierol heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -1249,7 +1311,9 @@ De enumeratie TypeAdresseerbaarObject heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -1284,7 +1348,9 @@ De enumeratie Zakelijkrecht heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 

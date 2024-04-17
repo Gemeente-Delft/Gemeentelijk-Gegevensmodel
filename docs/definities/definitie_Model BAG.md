@@ -10,13 +10,13 @@ Het model 'Model BAG' kent de volgende objecttypen:
 * **BUURT**: Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen.
 * **GEMEENTE**: Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet.
 * **LIGPLAATS**: Definitie Een ligplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen plaats in het water al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, die bestemd is voor het permanent afmeren van een voor woon-, bedrijfsmatige of recreatieve doeleinden geschikt drijvend object  Beschrijving Een plaats in het water met soms ook een (deel van een) terrein op de oever. Deze plaats moet kunnen worden gebruikt door een drijvend object dat langere tijd daar wordt vastgemaakt. Het drijvende object moet geschikt zijn om in te wonen, om een bedrijf in te hebben of om voor plezier in te verblijven. Bijvoorbeeld een woonboot. De gemeente mag zeggen of er voor de BAG ergens een ligplaats komt.
-* **ADRESSEERBAAR OBJECT**: Definitie Een adresseerbaar object is een object waaraan formeel adressen kunnen en moeten worden toegekend: een verblijfsobject, standplaats of ligplaats.  Is generalisatie van ligplaats standplaats verblijfsobject  Toelichting Een object dat een adres heeft of krijgt. Adresseerbare objecten zijn: een verblijfsobject, een standplaats en een ligplaats.
-* **OPENBARE RUIMTE**: Definitie Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen &#233;&#233;n woonplaats is gelegen.  Beschrijving Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam). 
-* **PAND**: Definitie Een pand is een kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is.  Beschrijving Een zelfstandig bouwwerk, zowel zelfstandig in de manier hoe het is gebouwd als waarvoor het is bedoeld om te gebruiken. Een pand voldoet ook aan de volgende eisen: een pand is direct en voor lange tijd met de aarde verbonden (een pand is niet makkelijk te verplaatsen) en een pand kun je binnengaan en afsluiten. Een eenheid kan alleen een pand zijn als het voldoet aan alle eisen uit de Catalogus BAG 2018.
-* **STANDPLAATS**: Definitie Een standplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen terrein of gedeelte daarvan dat bestemd is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte ruimte.  Beschrijving Een terrein of een deel daarvan dat moet kunnen worden gebruikt om langere tijd een object neer te zetten. Dit object moet geschikt zijn om in te wonen, om een bedrijf in te hebben of om voor plezier in te verblijven. Het moet verplaatsbaar zijn en mag dus niet helemaal vastgemaakt worden aan de grond. Bijvoorbeeld een woonwagen of strandtent. De gemeente mag zeggen of er voor de BAG ergens een standplaats komt. 
-* **VERBLIJFSOBJECT**: Definitie Een verblijfsobject is een kleinste binnen &#233;&#233;n of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is.  Beschrijving Een verblijfsobject is een ruimte in 1 of meer panden en voldoet aan de volgende eisen: kan worden gebruikt om in te wonen, een bedrijf in te hebben of om voor plezier in te verblijven, is bereikbaar via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, kan worden gekocht en verkocht, kan helemaal zelf worden gebruikt voor het doel dat ervoor is gegeven. Deze eisen voor verblijfsobjecten worden toegelicht in de Catalogus BAG 2018. Een verblijfsobject krijgt een adres. 
+* **ADRESSEERBAAR OBJECT**: Een adresseerbaar object is een object waaraan formeel adressen kunnen en moeten worden toegekend: een verblijfsobject, standplaats of ligplaats. Toelichting: Een object dat een adres heeft of krijgt. Adresseerbare objecten zijn: een verblijfsobject, een standplaats en een ligplaats.
+* **OPENBARE RUIMTE**: Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen. Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam). 
+* **PAND**: Een pand is een kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is. Beschrijving: Een zelfstandig bouwwerk, zowel zelfstandig in de manier hoe het is gebouwd als waarvoor het is bedoeld om te gebruiken. Een pand voldoet ook aan de volgende eisen: een pand is direct en voor lange tijd met de aarde verbonden (een pand is niet makkelijk te verplaatsen) en een pand kun je binnengaan en afsluiten. Een eenheid kan alleen een pand zijn als het voldoet aan alle eisen uit de Catalogus BAG 2018.
+* **STANDPLAATS**: Een standplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen terrein of gedeelte daarvan dat bestemd is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte ruimte. Beschrijving: Een terrein of een deel daarvan dat moet kunnen worden gebruikt om langere tijd een object neer te zetten. Dit object moet geschikt zijn om in te wonen, om een bedrijf in te hebben of om voor plezier in te verblijven. Het moet verplaatsbaar zijn en mag dus niet helemaal vastgemaakt worden aan de grond. Bijvoorbeeld een woonwagen of strandtent. De gemeente mag zeggen of er voor de BAG ergens een standplaats komt. 
+* **VERBLIJFSOBJECT**: Een verblijfsobject is een kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is. Beschrijving: Een verblijfsobject is een ruimte in 1 of meer panden en voldoet aan de volgende eisen: kan worden gebruikt om in te wonen, een bedrijf in te hebben of om voor plezier in te verblijven, is bereikbaar via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, kan worden gekocht en verkocht, kan helemaal zelf worden gebruikt voor het doel dat ervoor is gegeven. Deze eisen voor verblijfsobjecten worden toegelicht in de Catalogus BAG 2018. Een verblijfsobject krijgt een adres. 
 * **WIJK**: Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken.
-* **WOONPLAATS**: Definitie Een woonplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente  Beschrijving Een stuk grond binnen de gemeente dat als woonplaats is aangewezen en waaraan de gemeente ook een naam heeft gegeven.
+* **WOONPLAATS**: Een woonplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente Beschrijving: Een stuk grond binnen de gemeente dat als woonplaats is aangewezen en waaraan de gemeente ook een naam heeft gegeven.
 
 
 Het model 'Model BAG' heeft de volgende kenmerken:
@@ -46,20 +46,22 @@ Het model 'Model BAG' heeft de volgende kenmerken:
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | NUMMERAANDUIDING |
-| toelichting | <memo>#NOTES#Het betreft de verzameling van, tot de BAG behorende, officieel vastgestelde nummeraanduidingen (van verblijfsobjecten, stand- en ligplaatsen, in de BAG gezamenlijk aangeduid als adresseerbare objecten) en overige, eveneens officieel door de gemeente vastgestelde, nummeraanduidingen van overige gebouwde objecten en overige benoemde terreinen. De Adresseerbaar object aanduiding heeft dus betrekking op alle 'benoemde objecten', d.w.z. naast de specialisaties van het Adresseerbaar object (Verblijfsobject, Ligplaats en Standplaats) ook op Overig gebouwd object en op Overig benoemd terrein! Het betreft een generalisatie van twee objecttypen (de specialisaties) waarbij de attributen en relaties die op beide specialisaties van toepassing zijn, bij dit objecttype worden gespecificeerd. |
+| toelichting | #NOTES#Het betreft de verzameling van, tot de BAG behorende, officieel vastgestelde nummeraanduidingen (van verblijfsobjecten, stand- en ligplaatsen, in de BAG gezamenlijk aangeduid als adresseerbare objecten) en overige, eveneens officieel door de gemeente vastgestelde, nummeraanduidingen van overige gebouwde objecten en overige benoemde terreinen. De Adresseerbaar object aanduiding heeft dus betrekking op alle 'benoemde objecten', d.w.z. naast de specialisaties van het Adresseerbaar object (Verblijfsobject, Ligplaats en Standplaats) ook op Overig gebouwd object en op Overig benoemd terrein! Het betreft een generalisatie van twee objecttypen (de specialisaties) waarbij de attributen en relaties die op beide specialisaties van toepassing zijn, bij dit objecttype worden gespecificeerd. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | mante_h |
 | version | 1.0 |
 | created | 2023-09-27 10:06:15 |
-| modified | 2023-10-12 16:27:40 |
+| modified | 2024-04-17 13:34:47 |
 | id | EAID_32A22BC6_89EC_44af_8D7D_79B12311AE2D |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype NUMMERAANDUIDING
@@ -95,20 +97,22 @@ Attributen van objecttype NUMMERAANDUIDING
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | BUURT |
-| toelichting | <memo>#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten. |
+| toelichting | #NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | mante_h |
 | version | 1.0 |
 | created | 2023-09-27 10:29:27 |
-| modified | 2023-10-12 16:27:40 |
+| modified | 2024-04-17 13:34:47 |
 | id | EAID_38649FF6_88C6_437d_AF8E_A9023D55E16C |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype BUURT
@@ -140,20 +144,22 @@ Attributen van objecttype BUURT
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | GEMEENTE |
-| toelichting | <memo>#NOTES#De gemeente fungeert in het model als geo-object. Door de relatie van gemeente met andere objecttypen kan achterhaald worden welke gemeente verantwoordelijk is voor het beheer van de hieraan gerelateerde objecten en gegevens. |
+| toelichting | #NOTES#De gemeente fungeert in het model als geo-object. Door de relatie van gemeente met andere objecttypen kan achterhaald worden welke gemeente verantwoordelijk is voor het beheer van de hieraan gerelateerde objecten en gegevens. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | mante_h |
 | version | 1.0 |
 | created | 2023-09-27 10:39:36 |
-| modified | 2023-10-12 16:27:40 |
+| modified | 2024-04-17 13:34:47 |
 | id | EAID_EA6F820F_C458_4b24_8055_5C2CC76F5904 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype GEMEENTE
@@ -196,13 +202,15 @@ Attributen van objecttype GEMEENTE
 | author | mante_h |
 | version | 1.0 |
 | created | 2023-09-27 10:26:44 |
-| modified | 2023-10-12 16:27:40 |
+| modified | 2024-04-17 13:34:47 |
 | id | EAID_785E3B69_19DA_4952_84A8_592965B9229A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype LIGPLAATS
@@ -228,34 +236,28 @@ Attributen van objecttype LIGPLAATS
 ### ADRESSEERBAAR OBJECT
 > **Definitie ADRESSEERBAAR OBJECT:** 
 >
-> Definitie
 > Een adresseerbaar object is een object waaraan formeel adressen kunnen en moeten worden toegekend: een verblijfsobject, standplaats of ligplaats.
-> 
-> Is generalisatie van
-> ligplaats
-> standplaats
-> verblijfsobject
-> 
-> Toelichting
-> Een object dat een adres heeft of krijgt. Adresseerbare objecten zijn: een verblijfsobject, een standplaats en een ligplaats.
+> Toelichting: Een object dat een adres heeft of krijgt. Adresseerbare objecten zijn: een verblijfsobject, een standplaats en een ligplaats.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | ADRESSEERBAAR OBJECT |
-| toelichting | <memo>#NOTES#Zie de toelichting in de Catalogus BAG. In aanvulling hierop het volgende. Het betreft alle gegevens en relaties van de NUMMERAANDUIDING zoals deze in de BAG gedefinieerd zijn. NUMMERAANDUIDING is gemodelleerd als een specialisatie van ADRESSEERBAAR OBJECT AANDUIDING. Daar bij overige (officieel vastgestelde) adressen deels vergelijkbare gegevens en relaties van toepassing zijn, zijn desbetreffende gegevens gemodelleerd bij ADRESSEERBAAR OBJECT AANDUIDING, de verzameling van nummeraanduidingen en overige adresseerbaar object aanduidingen.  |
+| toelichting | #NOTES#Zie de toelichting in de Catalogus BAG. In aanvulling hierop het volgende. Het betreft alle gegevens en relaties van de NUMMERAANDUIDING zoals deze in de BAG gedefinieerd zijn. NUMMERAANDUIDING is gemodelleerd als een specialisatie van ADRESSEERBAAR OBJECT AANDUIDING. Daar bij overige (officieel vastgestelde) adressen deels vergelijkbare gegevens en relaties van toepassing zijn, zijn desbetreffende gegevens gemodelleerd bij ADRESSEERBAAR OBJECT AANDUIDING, de verzameling van nummeraanduidingen en overige adresseerbaar object aanduidingen.  |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | mante_h |
 | version | 1.0 |
 | created | 2023-09-27 10:26:44 |
-| modified | 2023-10-12 16:27:40 |
+| modified | 2024-04-17 13:34:47 |
 | id | EAID_8A04280B_E0B4_4e36_B448_C99750393D0D |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype ADRESSEERBAAR OBJECT
@@ -274,30 +276,29 @@ Attributen van objecttype ADRESSEERBAAR OBJECT
 ### OPENBARE RUIMTE
 > **Definitie OPENBARE RUIMTE:** 
 >
-> Definitie
-> Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen &#233;&#233;n woonplaats is gelegen.
-> 
-> Beschrijving
-> Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam).
+> Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen.
+> Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam).
 > 
 
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | OPENBARE RUIMTE |
-| toelichting | <memo> |
+| toelichting |  |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | mante_h |
 | version | 1.0 |
 | created | 2023-09-27 10:26:44 |
-| modified | 2023-10-12 16:27:40 |
+| modified | 2024-04-17 13:34:47 |
 | id | EAID_BFE30E32_8CB9_4272_A559_9FB3FD74DACC |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype OPENBARE RUIMTE
@@ -332,29 +333,28 @@ Attributen van objecttype OPENBARE RUIMTE
 ### PAND
 > **Definitie PAND:** 
 >
-> Definitie
 > Een pand is een kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is.
-> 
-> Beschrijving
-> Een zelfstandig bouwwerk, zowel zelfstandig in de manier hoe het is gebouwd als waarvoor het is bedoeld om te gebruiken. Een pand voldoet ook aan de volgende eisen: een pand is direct en voor lange tijd met de aarde verbonden (een pand is niet makkelijk te verplaatsen) en een pand kun je binnengaan en afsluiten. Een eenheid kan alleen een pand zijn als het voldoet aan alle eisen uit de Catalogus BAG 2018.
+> Beschrijving: Een zelfstandig bouwwerk, zowel zelfstandig in de manier hoe het is gebouwd als waarvoor het is bedoeld om te gebruiken. Een pand voldoet ook aan de volgende eisen: een pand is direct en voor lange tijd met de aarde verbonden (een pand is niet makkelijk te verplaatsen) en een pand kun je binnengaan en afsluiten. Een eenheid kan alleen een pand zijn als het voldoet aan alle eisen uit de Catalogus BAG 2018.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | PAND |
-| toelichting | <memo>#NOTES#Objecttype PAND  is het equivalent van het city gml objecttype BUILDING PART.    |
+| toelichting | #NOTES#Objecttype PAND  is het equivalent van het city gml objecttype BUILDING PART.    |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | mante_h |
 | version | 1.0 |
 | created | 2023-09-27 10:25:15 |
-| modified | 2023-10-12 16:27:41 |
+| modified | 2024-04-17 13:34:47 |
 | id | EAID_11595AD8_CE67_40dd_BDA9_489DC7D244ED |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype PAND
@@ -387,11 +387,7 @@ Attributen van objecttype PAND
 ### STANDPLAATS
 > **Definitie STANDPLAATS:** 
 >
-> Definitie
-> Een standplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen terrein of gedeelte daarvan dat bestemd is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte ruimte.
-> 
-> Beschrijving
-> Een terrein of een deel daarvan dat moet kunnen worden gebruikt om langere tijd een object neer te zetten. Dit object moet geschikt zijn om in te wonen, om een bedrijf in te hebben of om voor plezier in te verblijven. Het moet verplaatsbaar zijn en mag dus niet helemaal vastgemaakt worden aan de grond. Bijvoorbeeld een woonwagen of strandtent. De gemeente mag zeggen of er voor de BAG ergens een standplaats komt.
+> Een standplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen terrein of gedeelte daarvan dat bestemd is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte ruimte. Beschrijving: Een terrein of een deel daarvan dat moet kunnen worden gebruikt om langere tijd een object neer te zetten. Dit object moet geschikt zijn om in te wonen, om een bedrijf in te hebben of om voor plezier in te verblijven. Het moet verplaatsbaar zijn en mag dus niet helemaal vastgemaakt worden aan de grond. Bijvoorbeeld een woonwagen of strandtent. De gemeente mag zeggen of er voor de BAG ergens een standplaats komt.
 > 
 
 | Eigenschap | Waarde |
@@ -404,13 +400,15 @@ Attributen van objecttype PAND
 | author | mante_h |
 | version | 1.0 |
 | created | 2023-09-27 10:26:45 |
-| modified | 2023-10-12 16:27:41 |
+| modified | 2024-04-17 13:34:47 |
 | id | EAID_86952BDA_ADF6_4ff0_B8C7_BA3AA889A40B |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype STANDPLAATS
@@ -436,11 +434,8 @@ Attributen van objecttype STANDPLAATS
 ### VERBLIJFSOBJECT
 > **Definitie VERBLIJFSOBJECT:** 
 >
-> Definitie
-> Een verblijfsobject is een kleinste binnen &#233;&#233;n of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is.
-> 
-> Beschrijving
-> Een verblijfsobject is een ruimte in 1 of meer panden en voldoet aan de volgende eisen: kan worden gebruikt om in te wonen, een bedrijf in te hebben of om voor plezier in te verblijven, is bereikbaar via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, kan worden gekocht en verkocht, kan helemaal zelf worden gebruikt voor het doel dat ervoor is gegeven. Deze eisen voor verblijfsobjecten worden toegelicht in de Catalogus BAG 2018. Een verblijfsobject krijgt een adres.
+> Een verblijfsobject is een kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is.
+> Beschrijving: Een verblijfsobject is een ruimte in 1 of meer panden en voldoet aan de volgende eisen: kan worden gebruikt om in te wonen, een bedrijf in te hebben of om voor plezier in te verblijven, is bereikbaar via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, kan worden gekocht en verkocht, kan helemaal zelf worden gebruikt voor het doel dat ervoor is gegeven. Deze eisen voor verblijfsobjecten worden toegelicht in de Catalogus BAG 2018. Een verblijfsobject krijgt een adres.
 > 
 
 | Eigenschap | Waarde |
@@ -453,13 +448,15 @@ Attributen van objecttype STANDPLAATS
 | author | mante_h |
 | version | 1.0 |
 | created | 2023-09-27 10:26:45 |
-| modified | 2023-10-12 16:27:41 |
+| modified | 2024-04-17 13:34:47 |
 | id | EAID_461EFCF0_E65E_4c7c_B44D_8F36C36FDCE4 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype VERBLIJFSOBJECT
@@ -499,20 +496,22 @@ Attributen van objecttype VERBLIJFSOBJECT
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | WIJK |
-| toelichting | <memo>#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken.  |
+| toelichting | #NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken.  |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | mante_h |
 | version | 1.0 |
 | created | 2023-09-27 10:29:27 |
-| modified | 2023-10-12 16:27:41 |
+| modified | 2024-04-17 13:34:47 |
 | id | EAID_120EA50B_B9A2_4869_A3BE_46931F631D33 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype WIJK
@@ -539,29 +538,28 @@ Attributen van objecttype WIJK
 ### WOONPLAATS
 > **Definitie WOONPLAATS:** 
 >
-> Definitie
 > Een woonplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente
-> 
-> Beschrijving
-> Een stuk grond binnen de gemeente dat als woonplaats is aangewezen en waaraan de gemeente ook een naam heeft gegeven.
+> Beschrijving: Een stuk grond binnen de gemeente dat als woonplaats is aangewezen en waaraan de gemeente ook een naam heeft gegeven.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | WOONPLAATS |
-| toelichting | <memo>#NOTES#In incidentele gevallen komt het voor dat een woonplaats (in de zin van het gebied dat in de praktijk aangeduid wordt met dezelfde woonplaatsnaam) doorsneden wordt door een gemeentegrens. Volgens de definitie zou dit niet kunnen c.q. is een woonplaats anders gedefinieerd en dus afgebakend: “gedeelte van het gemeentelijk grondgebied”. Vooralsnog wordt uitgegaan van de BAG-insteek en wordt afgewacht hoe dit opgelost wordt in de landelijk te specificeren woonplaatsentabel.  |
+| toelichting | #NOTES#In incidentele gevallen komt het voor dat een woonplaats (in de zin van het gebied dat in de praktijk aangeduid wordt met dezelfde woonplaatsnaam) doorsneden wordt door een gemeentegrens. Volgens de definitie zou dit niet kunnen c.q. is een woonplaats anders gedefinieerd en dus afgebakend: “gedeelte van het gemeentelijk grondgebied”. Vooralsnog wordt uitgegaan van de BAG-insteek en wordt afgewacht hoe dit opgelost wordt in de landelijk te specificeren woonplaatsentabel.  |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | mante_h |
 | version | 1.0 |
 | created | 2023-09-27 10:29:28 |
-| modified | 2023-10-12 16:27:41 |
+| modified | 2024-04-17 13:34:47 |
 | id | EAID_24BDA4BA_CFCC_4e3f_8305_671F4ED7C502 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype WOONPLAATS
@@ -620,7 +618,9 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -652,7 +652,9 @@ De enumeratie TypeAdresseerbaarObject heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -694,7 +696,9 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -728,7 +732,9 @@ De enumeratie ontsluitingswijzeVerdieping heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -764,7 +770,9 @@ De enumeratie soortWoonobject heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -797,7 +805,9 @@ De enumeratie statusLigplaats heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -830,7 +840,9 @@ De enumeratie statusStandplaats heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -863,7 +875,9 @@ De enumeratie statusNummeraanduiding heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -896,7 +910,9 @@ De enumeratie statusOpenbareRuimte heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -938,7 +954,9 @@ De enumeratie statusPand heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -975,7 +993,9 @@ De enumeratie statusVerblijfsobject heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -1018,7 +1038,9 @@ De enumeratie statusVoortgangBouw heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -1051,7 +1073,9 @@ De enumeratie statusWoonplaats heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -1090,7 +1114,9 @@ De enumeratie typeringOpenbareRuimte heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 

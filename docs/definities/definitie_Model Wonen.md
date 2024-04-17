@@ -45,17 +45,19 @@ Het model 'Model Wonen' heeft de volgende kenmerken:
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.begrippenxl.nl/dso/nl/page/Woning |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-13 15:42:45 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_681DB26F_D779_4796_B467_576E5A25F581 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Gebouw
@@ -63,14 +65,14 @@ Attributen van objecttype Gebouw
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | aantal | int |  |
-| aantal adressen | int |  |
-| aantal kamers | int |  |
+| aantalAdressen | int |  |
+| aantalKamers | int |  |
 | aardgasloos | boolean |  |
 | duurzaam | boolean |  |
 | energielabel | Enumeratie: "Energielabel" |  |
 | natuurinclusief | boolean |  |
 | oppervlakte | Enumeratie: "Oppervlakte Woning" |  |
-| regewater | boolean |  |
+| regenwater | boolean |  |
 
 
 
@@ -90,13 +92,15 @@ Attributen van objecttype Gebouw
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-13 15:38:20 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_E0F7D3A0_46C8_4e70_AA10_3888B60D14C0 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Huurwoningen
@@ -123,13 +127,15 @@ Attributen van objecttype Huurwoningen
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-13 15:38:08 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_7FECB5B2_E6CB_4637_9FD4_6EBA2CA96BBA |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Koopwoningen
@@ -156,33 +162,35 @@ Attributen van objecttype Koopwoningen
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-13 15:37:15 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_D857E285_1EA3_4ba3_9614_5FACAC8BA133 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Plan
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| 70% verkocht | boolean |  |
+| 70ProcentVerkocht | boolean |  |
 | aardgasloos | boolean |  |
-| bestemming goedgekeurd | boolean |  |
-| eerste oplevering | Date |  |
-| eigendom gemeente | boolean |  |
+| bestemmingGoedgekeurd | boolean |  |
+| eersteOplevering | Date |  |
+| eigendomGemeente | boolean |  |
 | gebiedstransformatie | boolean |  |
 | intentie | boolean |  |
-| laatste oplevering | Date |  |
+| laatsteOplevering | Date |  |
 | naam | AN80 |  |
 | nummer | AN40 |  |
 | onherroepelijk | boolean |  |
 | percelen | MultiSurface |  |
 | startbouw | Date |  |
-| startverkoop | Date |  |
+| startVerkoop | Date |  |
 | None | Class: "Gebouw" |  |
 
 
@@ -203,13 +211,15 @@ Attributen van objecttype Plan
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-13 16:05:41 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_888BBB4F_BEBA_4b9a_BB2E_0E1F2A3606DF |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Projectleider
@@ -232,17 +242,19 @@ Attributen van objecttype Projectleider
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://data.cultureelerfgoed.nl/term/id/cht/7133b0af-a970-4e9f-89b2-9b43850be2a0 |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-13 15:37:40 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_6BBB2AE0_6F42_4676_8C6C_E727032F5F47 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Projectontwikkelaar
@@ -271,13 +283,15 @@ Attributen van objecttype Projectontwikkelaar
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-13 15:38:41 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_98C74EAB_3411_4d1a_8321_FF30567B6877 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Studentenwoningen

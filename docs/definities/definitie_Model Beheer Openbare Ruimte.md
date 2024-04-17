@@ -8,7 +8,7 @@ Het model 'Model Beheer Openbare Ruimte' kent de volgende objecttypen:
 
 * **Actie**: Kleinst mogelijke eenheid van werk die zinvol onderscheiden kan worden, uitgevoerd door een persoon of machine op 1 plek op 1 moment.
 * **Areaal**: Het verspreidingsgebied van een een soort, een levensgemeenschap of een biotooptype.
-* **CROW-Melding**: BOR-MELD is een CROW-standaard voor het vastleggen van meldingen. 
+* **CROWMelding**: BOR-MELD is een CROW-standaard voor het vastleggen van meldingen. 
 * **Deelplan/Veld**: <Geen Definities>
 * **Fase/Oplevering**: <Geen Definities>
 * **Geo-Object**: Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011]
@@ -62,17 +62,19 @@ Het model 'Model Beheer Openbare Ruimte' heeft de volgende kenmerken:
 | toelichting | bron: Bedrijfsarchitectuur op basis van Novius Architectuur Methode, code: 6.2.4 |
 | synoniemen |  |
 | uri |  |
-| bron | https://begrippen.hunzeenaas.nl/id/begrip/Id-b4d464ee-26e3-45c4-9f29-1f98ee8b5d1a |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-06 16:52:08 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_DDE9A5B3_1E56_4058_8D12_A774F43B5D26 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Actie
@@ -98,13 +100,15 @@ Attributen van objecttype Actie
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-07 17:27:26 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_9507EE24_6397_4a9c_B478_8C2899EC0BFB |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Areaal
@@ -116,31 +120,33 @@ Attributen van objecttype Areaal
 
 
 
-### CROW-Melding
-> **Definitie CROW-Melding:** 
+### CROWMelding
+> **Definitie CROWMelding:** 
 >
 > BOR-MELD is een CROW-standaard voor het vastleggen van meldingen. 
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | CROW-Melding |
-| toelichting | CROW heeft begin 2017 besloten om eenduidige registratie van meldingen voor de gehele openbare ruimte te gaan faciliteren in aanvulling op de door Stichting RIONED tussen 2014 en 2016 ontwikkelde methodiek voor het stedelijk water domein. BOR-MELD is ontwikkeld in samenwerking met het Fonds Fysieke Leefomgeving (FFL), Stichting RIONED en de gemeenten Delft, Almere, Breda en Rotterdam. |
+| name | CROWMelding |
+| toelichting | CROW heeft begin 2017 besloten om eenduidige registratie van meldingen voor de gehele openbare ruimte te gaan faciliteren in aanvulling op de door Stichting RIONED tussen 2014 en 2016 ontwikkelde methodiek voor het stedelijk water domein. BOR-MELD is ontw |
 | synoniemen | BOR-MELD |
 | uri |  |
-| bron | https://www.crow.nl/thema-s/management-openbare-ruimte/beeldkwaliteit/bor-meld |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-07 16:58:24 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_4A8E659E_F088_446d_8614_BA31B106A417 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype CROW-Melding
+Attributen van objecttype CROWMelding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -164,13 +170,15 @@ Attributen van objecttype CROW-Melding
 | author | mkampen |
 | version | 1.0 |
 | created | 2023-09-27 09:29:15 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_EC994E7D_E6D1_4243_BA96_38DB7454ECEF |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Deelplan/Veld
@@ -196,13 +204,15 @@ Attributen van objecttype Deelplan/Veld
 | author | mkampen |
 | version | 1.0 |
 | created | 2023-09-27 09:31:19 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_7FA358CC_1160_490b_A543_D5ED69A558D2 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Fase/Oplevering
@@ -224,27 +234,29 @@ Attributen van objecttype Fase/Oplevering
 | toelichting | Bevat een aantal basisgegevens die in alle geo-objecten terugkomen. |
 | synoniemen |  |
 | uri |  |
-| bron | https://damo.hetwaterschapshuis.nl/DAMO%201.5/Objectenhandboek%20DAMO%201.5/HTML/IMWaGeoobject.html |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-09-19 11:50:45 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_05B355EF_39EA_4bfb_B1F3_AB31841C986E |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Geo-Object
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Datum begin geldigheid | datum |  |
-| Datum einde geldigheid | datum |  |
-| Geometriesoort | AN40 |  |
-| Identificatie | NEN3610ID |  |
+| datumBeginGeldigheid | datum |  |
+| datumEindeGeldigheid | datum |  |
+| geometrieSoort | AN40 |  |
+| identificatie | NEN3610ID |  |
 
 
 
@@ -264,13 +276,15 @@ Attributen van objecttype Geo-Object
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-15 15:41:01 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_B53EC85A_C731_4fb6_8379_7D11802273B2 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Grondbeheerder
@@ -296,13 +310,15 @@ Attributen van objecttype Grondbeheerder
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-06 16:50:09 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_C73E52A5_F66E_47f0_8DEA_467A54F64DD2 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Inspectie
@@ -328,13 +344,15 @@ Attributen van objecttype Inspectie
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-12-06 16:14:13 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_5DC6EA71_272C_4392_BA5E_5C97DC3CA9D9 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype KadastraleMutatie
@@ -359,17 +377,19 @@ Attributen van objecttype KadastraleMutatie
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.crow.nl/publicaties/kwaliteitscatalogus-openbare-ruimte-2018 |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-07 16:35:55 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_2C6C809D_28B0_4037_BBFA_3E438A2DF81D |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Kwaliteitscatalogus Openbare Ruimte
@@ -395,13 +415,15 @@ Attributen van objecttype Kwaliteitscatalogus Openbare Ruimte
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-09-19 11:58:59 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_0754CC1D_48C7_4275_B909_BFB747BCFCD8 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Kwaliteitskenmerken
@@ -427,13 +449,15 @@ Attributen van objecttype Kwaliteitskenmerken
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-06 16:48:26 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_B1D48EFB_81E7_420d_A080_5B4C01798FFB |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Logboek
@@ -459,13 +483,15 @@ Attributen van objecttype Logboek
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-06 16:48:18 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_C6094F79_D8EA_4763_90DF_4E30EFABA1FA |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Melding
@@ -473,16 +499,16 @@ Attributen van objecttype Melding
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | advies | Text |  |
-| adviesdatum | DateTime |  |
 | categorie | AN80 |  |
 | constatering | Text |  |
+| datumAdvies | DateTime |  |
+| datumMelding | dateTime |  |
+| datumUitvoering | DateTime |  |
 | foto | Image |  |
 | locatie | Locatie |  |
-| meldingdatum | dateTime |  |
-| opmerking | Text |  |
+| opmerkingen | Text |  |
 | status | AN40 |  |
 | uitgevoerd | boolean |  |
-| uitvoeringsdatum | DateTime |  |
 
 
 
@@ -502,13 +528,15 @@ Attributen van objecttype Melding
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-06 16:49:06 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_A888F22C_45E9_4494_BA66_533FB1F6C37E |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype MeldingOngeval
@@ -534,29 +562,31 @@ Attributen van objecttype MeldingOngeval
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-15 15:09:50 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_30D5F6E6_DE8D_46b6_AC8A_6CA1391ADFF7 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype MOOR-melding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Aanmelddatum | DateTime |  |
 | adresaanduiding |  |  |
-| datumgoedkeuring | DateTime |  |
+| datumAanmelding | DateTime |  |
+| datumGoedkeuring | DateTime |  |
 | eindtijd | DateTime |  |
 | goedgekeurd | boolean |  |
-| herstelwerkzaamheden vereist | boolean |  |
-| omschrijving herstelwerkzaamheden | text |  |
+| herstelwerkzaamhedenVereist | boolean |  |
+| omschrijvingHerstelwerkzaamheden | text |  |
 | publiceren | boolean |  |
 | starttijd | DateTime |  |
-| Wegbeheerder | AN80 |  |
+| wegbeheerder | AN80 |  |
 | None | Class: "Opbreking" |  |
 
 
@@ -573,17 +603,19 @@ Attributen van objecttype MOOR-melding
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | http://wetgeving.omgevingswet.overheid.nl/wetgeving/id/concept/Omgevingsvergunning |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-13 15:56:08 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_053B594A_5E45_4413_9339_D2D026ECCE20 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Omgevingsvergunning
@@ -607,17 +639,19 @@ Attributen van objecttype Omgevingsvergunning
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://aquo.begrippenxl.nl/aquo/nl/page/Id-06760094-abc1-4731-ba73-bec43f3bcf57 |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-12-05 14:33:05 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_960BB2E0_C17F_4c89_90DD_3006CC5F0F75 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Onderhoud
@@ -643,13 +677,15 @@ Attributen van objecttype Onderhoud
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-12-05 14:55:35 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_1EBA6DEB_268D_4339_86C9_7C1BA218A7A0 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Opbreking
@@ -675,13 +711,15 @@ Attributen van objecttype Opbreking
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-15 15:14:08 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_2587938E_CF7F_499b_BB21_9CB8BBCC1DD2 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Proces-verbaal-MOOR-melding
@@ -711,13 +749,15 @@ Attributen van objecttype Proces-verbaal-MOOR-melding
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-09-19 11:36:25 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_B011D584_1E66_4a21_A9C4_C922A8763AB2 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Schouwronde
@@ -743,13 +783,15 @@ Attributen van objecttype Schouwronde
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-12-10 22:05:13 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_0EF67A8B_AEBE_4a00_B1EF_2EFD0DCC9F5D |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Storing
@@ -775,13 +817,15 @@ Attributen van objecttype Storing
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-07 09:52:55 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_0621D6BE_A680_4aad_890D_78684F2266B0 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Taak
@@ -807,13 +851,15 @@ Attributen van objecttype Taak
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-15 15:15:53 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_BBE1DC54_1482_4650_BB7F_930DDB823E09 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Uitvoerder Graafwerkzaamheden
@@ -841,13 +887,15 @@ Attributen van objecttype Uitvoerder Graafwerkzaamheden
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-12-05 16:01:25 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:40 |
 | id | EAID_620FF102_974C_43a6_A6A0_79BB71E8580D |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Verkeerslicht
@@ -894,7 +942,9 @@ De enumeratie CROW-Kwaliteitsniveaus heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -929,7 +979,9 @@ De enumeratie Energielabel heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -965,7 +1017,9 @@ De enumeratie Oppervlakte Woning heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 

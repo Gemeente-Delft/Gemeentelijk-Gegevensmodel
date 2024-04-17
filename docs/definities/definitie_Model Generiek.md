@@ -51,13 +51,15 @@ Het model 'Model Generiek' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-09 14:47:49 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:48 |
 | id | EAID_7FE4B466_B051_4068_9ED1_6E60C3B2DBAD |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Foto
@@ -69,8 +71,8 @@ Attributen van objecttype Foto
 | bestandstype | AN80 |  |
 | datumtijd | DateTime |  |
 | locatie | GML |  |
-| pixels_X | int |  |
-| pixels_Y | int |  |
+| pixelsX | int |  |
+| pixelsY | int |  |
 | None | Class: "Erfgoed Object" |  |
 
 
@@ -91,13 +93,15 @@ Attributen van objecttype Foto
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-22 09:39:03 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:48 |
 | id | EAID_0303A7A4_EF51_4262_AEE0_642FA5064807 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Gebied
@@ -124,13 +128,15 @@ Attributen van objecttype Gebied
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-22 09:40:17 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:48 |
 | id | EAID_85E3996B_578D_4313_B078_2773F98412D9 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Gebiedengroep
@@ -153,17 +159,19 @@ Attributen van objecttype Gebiedengroep
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://aquo.begrippenxl.nl/aquo/nl/page/Id-f6dbc04f-01ce-4ba5-92af-c7b059ebd39d |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-22 09:38:52 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:48 |
 | id | EAID_FAB83AD1_DC8C_4f78_B54F_33466EB9B139 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Lijn
@@ -190,13 +198,15 @@ Attributen van objecttype Lijn
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-22 09:40:05 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:48 |
 | id | EAID_CD06432A_B69D_4ab2_A5B0_C4C3092835A0 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Lijnengroep
@@ -219,17 +229,19 @@ Attributen van objecttype Lijnengroep
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://thesaurus.cultureelerfgoed.nl/concept/aot:958543a5-6438-467b-abf2-872e027f395d/nl |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-22 09:37:55 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:48 |
 | id | EAID_79284529_B817_4e3f_BE51_AEAFC60BDE44 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Locatie
@@ -258,13 +270,15 @@ Attributen van objecttype Locatie
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-22 09:38:45 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:48 |
 | id | EAID_20437683_6777_4c7b_B44B_1E3A216239AA |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Punt
@@ -291,13 +305,15 @@ Attributen van objecttype Punt
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-22 09:39:56 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:48 |
 | id | EAID_4C0C5DDB_E5BA_42a0_BA5B_65E2D433B16C |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Puntengroep
@@ -324,13 +340,15 @@ Attributen van objecttype Puntengroep
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-16 16:20:58 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:48 |
 | id | EAID_435883D2_C399_4590_B4F5_B07111103484 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Video-opname

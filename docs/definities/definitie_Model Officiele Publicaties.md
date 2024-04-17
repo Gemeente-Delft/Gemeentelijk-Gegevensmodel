@@ -40,17 +40,19 @@ Het model 'Model Officiele Publicaties' heeft de volgende kenmerken:
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.gemmaonline.nl/index.php/Omgevingswet/1.5/id-1ef84005-17fd-41d1-8d70-665158e83b0d |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-23 17:01:05 |
-| modified | 2023-10-12 16:28:03 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_F5434F00_CC0F_4d7b_91AE_20CBD3C60DFC |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Omgevingsdocument
@@ -73,17 +75,19 @@ Attributen van objecttype Omgevingsdocument
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.wegwijzertpod.nl/onderwerpen/tekststructuur/artikelstructuur |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-23 17:00:53 |
-| modified | 2023-10-12 16:28:03 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_A744FAF8_16B7_4e5d_9C10_203AA8E7C440 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Regeltekst

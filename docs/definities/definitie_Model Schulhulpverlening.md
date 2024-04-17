@@ -51,20 +51,22 @@ Het model 'Model Schulhulpverlening' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-13 13:31:03 |
-| modified | 2023-10-12 16:27:44 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_5CC59215_5A63_4ef8_9D64_C4FAC0619121 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Financiele Situatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumvastgesteld | date |  |
+| datumVastgesteld | date |  |
 | schuld | bedrag |  |
 
 
@@ -85,13 +87,15 @@ Attributen van objecttype Financiele Situatie
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-13 12:09:59 |
-| modified | 2023-10-12 16:27:44 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_9748A1E1_0B37_493d_B294_ED6CDE4C8DE9 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Notariele Status
@@ -117,24 +121,26 @@ Attributen van objecttype Notariele Status
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-13 12:08:58 |
-| modified | 2023-10-12 16:27:44 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_4D1988C7_D607_4b9a_9F53_0FFBBA15BFC9 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Project
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| einddatum | date |  |
+| datumEinde | date |  |
+| datumStart | date |  |
+| datumToekenning | date |  |
 | omschrijving | text |  |
 | resultaat | Enumeratie: "ResultaatSHV" |  |
-| startdatum | date |  |
-| toekennningsdatum | date |  |
 | uitstroomreden | Enumeratie: "UitstroomredenSHV" |  |
 
 
@@ -155,13 +161,15 @@ Attributen van objecttype Project
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-13 12:15:42 |
-| modified | 2023-10-12 16:27:44 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_4FCF75CC_8296_4b32_BD5E_EC3DEDF17470 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Projectsoort
@@ -189,13 +197,15 @@ Attributen van objecttype Projectsoort
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-13 12:11:11 |
-| modified | 2023-10-12 16:27:44 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_253EF837_860B_438e_9157_6E1E07CB6F68 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Resultaat
@@ -224,13 +234,15 @@ Attributen van objecttype Resultaat
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-13 12:18:28 |
-| modified | 2023-10-12 16:27:44 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_92AEBE85_975F_482b_83A1_EFB9EDA4557A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Resultaatsoort
@@ -258,25 +270,27 @@ Attributen van objecttype Resultaatsoort
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-13 12:09:16 |
-| modified | 2023-10-12 16:27:44 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_839017B2_0F95_42d0_AB2B_E873636340DA |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Traject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| einddatum | date |  |
+| datumEinde | date |  |
+| datumStart | date |  |
+| datumToekenning | date |  |
 | naam | AN80 |  |
 | omschrijving | text |  |
 | resultaat | Enumeratie: "ResultaatSHV" |  |
-| startdatum | date |  |
-| toekenningsdatum | date |  |
 
 
 
@@ -296,13 +310,15 @@ Attributen van objecttype Traject
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-13 12:11:45 |
-| modified | 2023-10-12 16:27:44 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_42D33289_422A_4d94_BE6B_44B34CC230B5 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Uitstroomreden
@@ -330,13 +346,15 @@ Attributen van objecttype Uitstroomreden
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-13 13:28:44 |
-| modified | 2023-10-12 16:27:44 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_00D4F259_1598_4817_AA3E_B38B6B156D20 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Uitstroomredensoort
@@ -391,7 +409,9 @@ De enumeratie ResultaatSHV heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -489,7 +509,9 @@ De enumeratie UitstroomredenSHV heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 

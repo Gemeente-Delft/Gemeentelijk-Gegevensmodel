@@ -1,0 +1,2138 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "name",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "name_oud",
+    "columnInsertIndex": 13,
+    "description": "Create column name_oud at index 13 based on column name using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column name using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Functioneel Gebied",
+          "Functioneelgebied"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FunctioneelGebied"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value.replace(\" \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column name using expression value.replace(\" \",\"\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Aanvraagdelftpas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "AanvraagDelftpas"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Aanvraagofmelding"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "AanvraagOfMelding"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Aom_aanvraagwmojeugd"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "AOMAanvraagWMOJeugd"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Aom_meldingwmojeugd"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "AOMMeldingWMOJeugd"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "AkrKadastraleGemeentecode"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "AKRKadastraleGemeentecode"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Aomstatus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "AOMStatus"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cmdb-item"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CMDBItem"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cpv-code"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CPVCode"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Crow-melding"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CROWMelding"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Domein/taakveld"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DomeinOfTaakveld"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Geo-object"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "GEOObject"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "GEOObject"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "GEOObject"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Halt-verwijzing"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "HALTVerwijzing"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Kp_betrokken_bij"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "KpBetrokkenBij"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Kp_onstaan_uit"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "KpOnstaanUit"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Land/gebied"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LandOfGebied"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Leges_grondslag"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LegesGrondslag"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "LinkbaarCmdb-item"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LinkbaarCMDBItem"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mim-domein"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MIMDomein"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mjop"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MJOP"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mjop-item"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MJOPItem"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Moor-melding"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MORMelding"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Moraanvraagofmelding"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MORAanvraagOfMelding"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Nad_aanvullingbrp"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NadAanvullingBRP"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Persoonbsn"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PersoonBSN"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Persoonbsnennaw"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PesoonBSNEnNAW"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Persoonnaw"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PersoonNAW"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pgb-toekenning"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PGBToekenning"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Proces-verbaal-moor-melding"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ProcesVerbaalMoorMelding"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "MORM",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MORMelding"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MoorMelding"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Productie-eenheid"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ProductieEenheid"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Productofdienst"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ProductOfDienst"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Rsgb"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "RSGB"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "SbiActiviteit"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SBIActiviteit"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "SbiActiviteitVestiging"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SBIActiviteitVestiging"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sluiting/aangaanHuwelijk/geregistreerdPartnerschap"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sociaalteamdossier"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SociaalteamDossier"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sociaalteamdossiersoort"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SociaalteamDossiersoort"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Solitaireplant"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SolitairePlant"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "SoortWoz-object"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SoortWozObject"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "SoortWozObject"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SoortWOZObject"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Strijdigheid/Nietigheid"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "StrijdigheidOfNietigheid"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "V-log-info"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VLogInfo"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Video-opname"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VideoOpname"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vomaanvraagofmelding"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VomAanvraagOfMelding"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vth-melding"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VTHMelding"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vthzaak"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VTHZaak"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value.replace(\"Woz-\",\"WOZ\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column name using expression value.replace(\"Woz-\",\"WOZ\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "WOZbelang"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WOZBelang"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "WOZdeelobject"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WOZDeelobject"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "WOZobject"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WOZObject"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "WOZwaarde"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WOZWaarde"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Zaak-Origineel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ZaakOrigineel"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Zelfredzaamheidmatrix"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ZelfredzaamheidMatrix"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "of",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vthaanvraagofmelding"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VTHAanvraagOfMelding"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "of",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Waboaanvraagofmelding"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WABOAanvraagOfMelding"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "of",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Woonfraudeaanvraagofmelding"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WoonfraudeAanvraagOfMelding"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "of",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Woonoverlastaanvraagofmelding"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WoonoverlastAanvraagOfMelding"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "aanvraag",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Aanvraagvrijstelling"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "AanvraagVrijstelling"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "aanvraag",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Verlofaanvraag"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VerlofAanvraag"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Subproducttype"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SubProducttype"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "persoon",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ContactpersoonROL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ContactpersoonROL"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "cultuur",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cultuuronbebouwd"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CultuurOnbebouwd"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "detaillering",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DetailleringAdressen,GebouwenEnTerreinen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DetailleringAdressenGebouwenEnTerreinen"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "detaillering",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DetailleringWOZobjecttypen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DetailleringWOZObjecttypen"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "bested",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Keuzebudgetbesteding"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "KeuzebudgetBesteding"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "bested",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Keuzebudgetbestedingsoort"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "KeuzebudgetBestedingsoort"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "magazijn",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Magazijnplaatsing"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MagazijnPlaatsing"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "materi",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MateriëleHistorie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MaterieleHistorie"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "meldingo",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Meldingongeval"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MeldingOngeval"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "openbare",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Openbareactiviteit"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OpenbareActiviteit"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "persoonall",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Persoonalleennaam"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PersoonAlleenNaam"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "tegenpr",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tegenprestatiehoogte"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TegenprestatieHoogte"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "splitsi",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Splitsingstekeningreferentie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SplitsingstekeningReferentie"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "toepasbare",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Toepasbareregelbestand"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ToepasbareRegelBestand"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "activiteit",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Trajectactiviteit"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TrajectActiviteit"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "activiteit",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Trajectactiviteitsoort"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TrajectActiviteitsoort"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "vastgoedcon",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "VastgoedContract"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vastgoedcontract"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "vastgoedcon",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vastgoedcontractregel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "VastgoedcontractRegel"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "verlofaa",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "VerlofAanvraag"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Verlofaanvraag"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "woz",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value.replace(\"woz\",\"WOZ\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column name using expression value.replace(\"woz\",\"WOZ\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "woz",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "WozDeelobjectcode"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WOZDeelobjectcode"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "woz",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "LocatieaanduidingAdresWozObject"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LocatieaanduidingAdresWOZObject"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "boa",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Boa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BOA"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "locatieaan",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "LocatieaanduidingWozObject"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LocatieaanduidingWOZObject"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "moor",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MoorMelding"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MOORMelding"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name",
+          "columnName": "name",
+          "query": "nad",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "NadAanvullingBRP"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NADAanvullingBRP"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DoorgeleidingOm"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DoorgeleidingOM"
+      }
+    ],
+    "description": "Mass edit cells in column name"
+  }
+]

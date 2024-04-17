@@ -10,10 +10,10 @@ Het model 'Model Griffie' kent de volgende objecttypen:
 * **Agendapunt**: Een onderwerp dat in de vergadering wordt behandeld.
 * **Categorie**: Categorie waarop leveranciers zich voor de levering van personeel voor kunnen kwalificeren
 * **Collegelid**: Iemand die behoort het college van burgemeester en wethouders
-* **Commissie**: Toine deze is voor jou
 * **Dossier**: Samenhangende set gegevens en informatie voor een specifiek doel
 * **Indiener**: Persoon die meldiing of aanvraag doet
 * **Programma**: Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co√∂rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie.
+* **Raadscommissie**: Een raadscommissie binnen de Nederlandse gemeenteraad is een groep raadsleden die zich buigt over specifieke thema's of beleidsonderwerpen om de besluitvorming in de volledige raad voor te bereiden en te ondersteunen.
 * **Raadslid**: Iemand die behoort de gemeenteraad
 * **Raadsstuk**: Stuk dat door de gemeenteraad wordt behandeld
 * **Stemming**: Stem (openbaring van iemands mening (voor of tegen)),  uitbrengen bij verkiezingen of bij een vergadering
@@ -55,13 +55,15 @@ Het model 'Model Griffie' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-16 15:22:56 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:23 |
 | id | EAID_F1E55DC7_0F33_40ea_8713_2E1AC3D7EE8D |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Aanwezige Deelnemer
@@ -69,7 +71,7 @@ Attributen van objecttype Aanwezige Deelnemer
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | aanvangAanwezigheid | DateTime |  |
-| eindeaanwezigheid | DateTime |  |
+| eindeAanwezigheid | DateTime |  |
 | naam | AN250 |  |
 | rol | Enumeratie: "Deelnemersrol" |  |
 | vertegenwoordigtOrganisatie | AN250 |  |
@@ -89,17 +91,19 @@ Attributen van objecttype Aanwezige Deelnemer
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.notuleercentrum.nl/service-voor-notulisten/woordenlijst-voor-notulisten |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-16 11:55:17 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_73FB5212_40ED_40dc_B837_36588840445A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Agendapunt
@@ -129,13 +133,15 @@ Attributen van objecttype Agendapunt
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-16 11:44:01 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_B9B82B25_5D7F_4d2b_84F9_4DF74525EEAD |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Categorie
@@ -162,60 +168,28 @@ Attributen van objecttype Categorie
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-16 11:26:04 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_7B9EDDFD_57F7_4ff2_938F_FDFA3B503DA8 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Collegelid
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanstellingsdatum | Date |  |
 | achternaam | AN250 |  |
+| datumAanstelling | Date |  |
+| datumUittreding | Date |  |
 | fractie | AN250 |  |
 | portefeuille | AN200 |  |
 | titel | AN80 |  |
-| uittredingsdatum | Date |  |
 | voornaam | AN250 |  |
-
-
-
-
-### Commissie
-> **Definitie Commissie:** 
->
-> Toine deze is voor jou
-
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Commissie |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron | https://nl.wikipedia.org/wiki/Commissie |
-| author | Arjen Brienen |
-| version | 1.0 |
-| created | 2019-05-16 11:10:04 |
-| modified | 2023-10-12 16:27:45 |
-| id | EAID_CB27D699_F82B_45ad_823A_B2B51BCAECBA |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-url |  |
-
-
-Attributen van objecttype Commissie
-
-| Attribute | Datatype | Description |
-| :--- | :--- | :--- |
-| naam | AN250 |  |
-| None | Class: "Vergadering" |  |
 
 
 
@@ -231,17 +205,19 @@ Attributen van objecttype Commissie
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.begrippenxl.nl/dso/nl/page/Dossier |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-16 11:44:26 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_475E24C9_CC9A_49cc_AB80_8CA0221441E5 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Dossier
@@ -268,13 +244,15 @@ Attributen van objecttype Dossier
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-16 11:10:22 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_98CB3C6F_588B_479f_9A2B_F5D5362DD17C |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Indiener
@@ -303,13 +281,15 @@ Attributen van objecttype Indiener
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-16 11:44:13 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_CA56A59A_F855_4c19_89BE_578B12481EA0 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Programma
@@ -317,6 +297,42 @@ Attributen van objecttype Programma
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | naam | AN250 |  |
+
+
+
+
+### Raadscommissie
+> **Definitie Raadscommissie:** 
+>
+> Een raadscommissie binnen de Nederlandse gemeenteraad is een groep raadsleden die zich buigt over specifieke thema's of beleidsonderwerpen om de besluitvorming in de volledige raad voor te bereiden en te ondersteunen.
+
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Raadscommissie |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.0 |
+| created | 2019-05-16 11:10:04 |
+| modified | 2024-04-17 13:43:38 |
+| id | EAID_CB27D699_F82B_45ad_823A_B2B51BCAECBA |
+| domein-iv3 |  |
+| domein-dcat |  |
+| GEMMA-naam |  |
+| GEMMA-type |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
+
+
+Attributen van objecttype Raadscommissie
+
+| Attribute | Datatype | Description |
+| :--- | :--- | :--- |
+| naam | AN250 |  |
+| None | Class: "Vergadering" |  |
 
 
 
@@ -336,26 +352,28 @@ Attributen van objecttype Programma
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-16 11:09:46 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_5772BEBB_97FA_42a9_B70D_DB55EAD6D1EE |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Raadslid
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanstellingsdatum | Date |  |
 | achternaam | AN250 |  |
+| datumAanstelling | Date |  |
+| datumUittreding | Date |  |
 | fractie | AN250 |  |
 | titel | AN80 |  |
-| uittredingsdatum | Date |  |
 | voornaam | AN250 |  |
-| None | Class: "Commissie" |  |
+| None | Class: "Raadscommissie" |  |
 
 
 
@@ -375,13 +393,15 @@ Attributen van objecttype Raadslid
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-16 11:06:43 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_440219A4_C64B_4eac_ADE5_E79ED6AA9BFE |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Raadsstuk
@@ -389,10 +409,10 @@ Attributen van objecttype Raadsstuk
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | besloten | Boolean |  |
-| expiratiedatum | DateTime |  |
-| publicatiedatum | DateTime |  |
-| registratiedatum | DateTime |  |
-| typeraadsstuk | AN80 |  |
+| datumExpiratie | DateTime |  |
+| datumPublicatie | DateTime |  |
+| datumRegistratie | DateTime |  |
+| typeRaadsstuk | AN80 |  |
 | None | Class: "Programma" |  |
 | None | Class: "Vergadering" |  |
 | None | Class: "Taakveld" |  |
@@ -414,17 +434,19 @@ Attributen van objecttype Raadsstuk
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/stemmen |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-16 15:41:33 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_331C4A0B_1505_4945_A0B0_DCD8703AB50F |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Stemming
@@ -454,13 +476,15 @@ Attributen van objecttype Stemming
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-16 11:44:21 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_01E83CEC_D69D_47eb_9BAB_252AABADDD18 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Taakveld
@@ -483,17 +507,19 @@ Attributen van objecttype Taakveld
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://nl.wikipedia.org/wiki/Vergadering |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-16 11:09:27 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_257F4ABF_7CCD_453f_B2E8_5A6434383A9B |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Vergadering
@@ -548,7 +574,9 @@ De enumeratie Deelnemersrol heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -580,7 +608,9 @@ De enumeratie Stemmingsresultaattype heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -612,7 +642,9 @@ De enumeratie Stemmingstype heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 

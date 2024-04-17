@@ -7,13 +7,13 @@
 Het model 'Model Parkeren' kent de volgende objecttypen:
 
 * **Belprovider**: Leverancier of dienstverlener van modiele beldiensten
-* **Mulder Feit**: <Geen Definities>
+* **MulderFeit**: <Geen Definities>
 * **Naheffing**: Het achteraf vorderen van te weinig betaalde belasting 
 * **Parkeergarage**: Open constructie die geheel of gedeeltelijk in gebruik is als voorziening voor het parkeren van voertuigen
 * **Parkeerrecht**: Het onder bepaalde voorwaarden (zoals betaling parkeerbelasting of parkeergeld) ontstane recht om een voertuig gedurende een bepaalde of onbepaalde periode op een daartoe benoemde parkeerplaats of in/op een daartoe benoemde parkeervoorziening te parkeren.
 * **Parkeerscan**: Waarneming van een parkeeractie door een scanauto
-* **Parkeervergunning**: Offici√´le toestemming dat je op een bepaalde plek mag parkeren
-* **Parkeervlak**: Parkeergelegenheid bestemd voor het parkeren van √©√©n of meerdere voertuigen direct langs de doorgaande weg gelegen.
+* **Parkeervergunning**: Officiele toestemming dat je op een bepaalde plek mag parkeren
+* **Parkeervlak**: Parkeergelegenheid bestemd voor het parkeren van een of meerdere voertuigen direct langs de doorgaande weg gelegen.
 * **Perkeerzone**: <Geen Definities>
 * **Productgroep**: Groepering van producten
 * **Productsoort**: Typologie van een product
@@ -55,13 +55,15 @@ Het model 'Model Parkeren' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-02-13 15:52:28 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_6C283ABA_C1A3_465b_B267_39E75D06E41F |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Belprovider
@@ -73,14 +75,14 @@ Attributen van objecttype Belprovider
 
 
 
-### Mulder Feit
-> **Definitie Mulder Feit:** 
+### MulderFeit
+> **Definitie MulderFeit:** 
 >
 > Geen Definitie
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | Mulder Feit |
+| name | MulderFeit |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -88,34 +90,36 @@ Attributen van objecttype Belprovider
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-02-18 14:18:39 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_4EA4D754_FAD7_4caf_8060_342689EC16FE |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype Mulder Feit
+Attributen van objecttype MulderFeit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | bedrag | Bedrag |  |
-| betaaldatum | Date |  |
-| bezwaarafgehandeld | Date |  |
-| bezwaardatum | Date |  |
-| bezwaaringetrokken | Date |  |
-| bezwaartoegewezen | Date |  |
-| bonnr | int |  |
-| dienstcd | AN40 |  |
-| geseponeerddatum | Date |  |
-| indiendatum | Date |  |
+| bezwaarAfgehandeld | Date |  |
+| bezwaarIngetrokken | Date |  |
+| bezwaarToegewezen | Date |  |
+| bonnummer | int |  |
+| datumBetaling | Date |  |
+| datumBezwaar | Date |  |
+| datumGeseponeerd | Date |  |
+| datumIndiening | Date |  |
+| dienstCD | AN40 |  |
 | organisatie | AN200 |  |
 | overtreding | AN80 |  |
 | parkeertarief | Bedrag |  |
-| redenseponeren | AN300 |  |
-| vorderingnr | int |  |
+| redenSeponeren | AN300 |  |
+| vorderingnummer | int |  |
 | None | Class: "Voertuig" |  |
 
 
@@ -136,13 +140,15 @@ Attributen van objecttype Mulder Feit
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-02-13 16:05:29 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_4957AC99_3F36_4959_A210_9EC6759B87F8 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Naheffing
@@ -150,21 +156,21 @@ Attributen van objecttype Naheffing
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | bedrag | Bedrag |  |
-| betaaldatum | Date |  |
-| bezwaarafgehandeld | Date |  |
-| bezwaardatum | Date |  |
-| bezwaaringetrokken | Date |  |
-| bezwaartoegewezen | Date |  |
-| bonnr | int |  |
-| dienstcd | AN40 |  |
+| bezwaarAfgehandeld | Date |  |
+| bezwaarIngetrokken | Date |  |
+| bezwaarToegewezen | Date |  |
+| bonnummer | int |  |
+| datumBetaling | Date |  |
+| datumBezwaar | Date |  |
+| datumGeseponeerd | Date |  |
+| datumIndiening | Date |  |
+| dienstCD | AN40 |  |
 | fiscaal | boolean |  |
-| geseponeerddatum | Date |  |
-| indiendatum | Date |  |
 | organisatie | AN200 |  |
 | overtreding | AN80 |  |
 | parkeertarief | Bedrag |  |
-| redenseponeren | AN300 |  |
-| vorderingnr | int |  |
+| redenSeponeren | AN300 |  |
+| vorderingnummer | int |  |
 
 
 
@@ -180,17 +186,19 @@ Attributen van objecttype Naheffing
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://begrippen.geostandaarden.nl/sor/nl/page/parkeergarage |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-02-14 16:11:43 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_8F492648_6EF2_4f8a_87C9_2440230D4137 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Parkeergarage
@@ -212,30 +220,32 @@ Attributen van objecttype Parkeergarage
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.gebiedseconomie.nl/content/p/parkeerrecht |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-02-13 14:32:45 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_9E0936E5_6B50_4205_BA5D_FEB80486D6F1 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Parkeerrecht
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Aankoopbedrag | Bedrag |  |
 | aanmaaktijd | DateTime |  |
-| BTW-bedrag | Bedrag |  |
-| einddatumtijd | DateTime |  |
-| Productnaam | AN80 |  |
-| Productomschrijving | Text |  |
-| startdatumtijd | DateTime |  |
+| bedragAankoop | Bedrag |  |
+| bedragBTW | Bedrag |  |
+| datumtijdEinde | DateTime |  |
+| datumtijdStart | DateTime |  |
+| productnaam | AN80 |  |
+| productomschrijving | Text |  |
 | None | Class: "Voertuig" |  |
 | None | Class: "Perkeerzone" |  |
 
@@ -257,21 +267,23 @@ Attributen van objecttype Parkeerrecht
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-02-13 14:50:52 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_653EEEA7_ED82_427d_BD72_86C847793AD6 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Parkeerscan
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| code gebruiker | AN40 |  |
-| code scanvoertuig | AN40 |  |
+| codeGebruiker | AN40 |  |
+| codeScanvoertuig | AN40 |  |
 | coordinaten | GML |  |
 | foto | BLOB |  |
 | kenteken | AN12 |  |
@@ -289,7 +301,7 @@ Attributen van objecttype Parkeerscan
 ### Parkeervergunning
 > **Definitie Parkeervergunning:** 
 >
-> Offici√´le toestemming dat je op een bepaalde plek mag parkeren
+> Officiele toestemming dat je op een bepaalde plek mag parkeren
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -301,27 +313,29 @@ Attributen van objecttype Parkeerscan
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-03-21 11:47:02 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_FF448272_AB9D_4ec9_B4BE_E60E2552817A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Parkeervergunning
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| geldigtot | DateTime |  |
-| geldigvanaf | DateTime |  |
+| datumEindeGeldigheid | DateTime |  |
+| datumReservering | Date |  |
+| datumStart | DateTime |  |
 | kenteken | AN12 |  |
-| minuten afgeschreven | int |  |
-| minuten geldig | int |  |
-| minuten resterend | int |  |
+| minutenAfgeschreven | int |  |
+| minutenGeldig | int |  |
+| minutenResterend | int |  |
 | nummer | int |  |
-| reserveringsdatum | Date |  |
 | type | AN40 |  |
 | None | Class: "Parkeerrecht" |  |
 | None | Class: "Perkeerzone" |  |
@@ -334,7 +348,7 @@ Attributen van objecttype Parkeervergunning
 ### Parkeervlak
 > **Definitie Parkeervlak:** 
 >
-> Parkeergelegenheid bestemd voor het parkeren van √©√©n of meerdere voertuigen direct langs de doorgaande weg gelegen.
+> Parkeergelegenheid bestemd voor het parkeren van een of meerdere voertuigen direct langs de doorgaande weg gelegen.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -342,17 +356,19 @@ Attributen van objecttype Parkeervergunning
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://begrippen.geostandaarden.nl/sor/nl/page/parkeervlak |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-02-13 14:43:35 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_5E5C58AD_1634_4656_A183_EBA00F18F30E |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Parkeervlak
@@ -364,7 +380,7 @@ Attributen van objecttype Parkeervlak
 | doelgroep | Enumeratie: "Doelgroepenplaatsen" |  |
 | fiscaal | boolean |  |
 | plaats | AN200 |  |
-| vlakid | AN40 |  |
+| vlakID | AN40 |  |
 
 
 
@@ -384,37 +400,39 @@ Attributen van objecttype Parkeervlak
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-02-13 14:33:20 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_27219A32_3B52_4f54_AA67_A972F4B7D9D0 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Perkeerzone
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantal parkeervlakken | int |  |
-| alleen dagtarief | boolean |  |
+| aantalParkeervlakken | int |  |
+| alleenDagtarief | boolean |  |
 | dagtarief | Bedrag |  |
-| einddag | AN20 |  |
+| eindedag | AN20 |  |
 | eindtijd | int |  |
 | gebruik | AN250 |  |
-| gemometrie | Multivlak |  |
-| IPM-code | AN40 |  |
-| IPM-naam | AN250 |  |
+| geometrie | Multivlak |  |
+| IPMCode | AN40 |  |
+| IPMNaam | AN250 |  |
 | naam | AN250 |  |
-| Parkeergarage | boolean |  |
+| parkeergarage | boolean |  |
 | sectorcode | AN40 |  |
-| soort_code | An40 |  |
+| soortCode | An40 |  |
 | startdag | AN20 |  |
 | starttarief | Bedrag |  |
 | starttijd | int |  |
-| type_code | AN40 |  |
-| type_naam | AN250 |  |
+| typeCode | AN40 |  |
+| typeNaam | AN250 |  |
 | uurtarief | Bedrag |  |
 
 
@@ -435,13 +453,15 @@ Attributen van objecttype Perkeerzone
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-02-14 14:26:09 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_209ACADD_34C7_4dc8_90AD_C6B3E092FBFD |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Productgroep
@@ -470,13 +490,15 @@ Attributen van objecttype Productgroep
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-02-14 15:08:29 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_1CB4051D_B78A_48f0_AE3E_A98D997A5612 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Productsoort
@@ -506,13 +528,15 @@ Attributen van objecttype Productsoort
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-02-13 14:46:01 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_339ACCD5_1D13_4a48_83DE_05A0A4A54C43 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Straatsectie
@@ -521,7 +545,7 @@ Attributen van objecttype Straatsectie
 | :--- | :--- | :--- |
 | code | AN40 |  |
 | omschrijving | AN500 |  |
-| zone_code | Enumeratie: "Zonesoort" |  |
+| zoneCode | Enumeratie: "Zonesoort" |  |
 
 
 
@@ -541,13 +565,15 @@ Attributen van objecttype Straatsectie
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-02-13 14:31:44 |
-| modified | 2023-10-12 16:27:45 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_6AD98160_FFE6_4105_A724_5D5733C87CD8 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Voertuig
@@ -558,7 +584,7 @@ Attributen van objecttype Voertuig
 | kleur | AN200 |  |
 | land | AN200 |  |
 | merk | AN200 |  |
-| Type | AN200 |  |
+| type | AN200 |  |
 
 
 
@@ -600,7 +626,9 @@ De enumeratie Doelgroepenplaatsen heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -631,7 +659,9 @@ De enumeratie Zonesoort heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 

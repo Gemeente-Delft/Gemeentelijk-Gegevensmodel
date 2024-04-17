@@ -7,7 +7,7 @@
 Het model 'Model VTH' kent de volgende objecttypen:
 
 * **Activiteit**: Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd. 
-* **AOMstatus**: <Geen Definities>
+* **AOMStatus**: <Geen Definities>
 * **Bevinding**: <Geen Definities>
 * **BOA**: Een buitengewoon opsporingsambtenaar (boa) is een ambtenaar met een specifieke opsporingsbevoegdheid.
 * **Combibon**: Arjen deze  is voor jou
@@ -23,14 +23,14 @@ Het model 'Model VTH' kent de volgende objecttypen:
 * **MORAanvraagOfMelding**: <Geen Definities>
 * **OpenbareActiviteit**: Activiteit in het publieke domein
 * **Precario**: Belasting die specifiek wordt geheven voor het plaatsen van voorwerpen onder, op of boven voor de openbare dienst bestemde gemeentegrond. 
-* **ProductType**: <Geen Definities>
-* **SubProductType**: <Geen Definities>
+* **Producttype**: <Geen Definities>
+* **SubProducttype**: <Geen Definities>
 * **Vaartuig**: Een zee- of binnenvaartuig, tot de vaart gebruikt of bestemd, daaronder begrepen drijvende werktuigen, zoals baggerwerktuigen, kranen, bokken, elevators, alsmede woonschepen, glijboten en ponten.
 * **VOMAanvraagOfMelding**: VOM staat voor Vergunning, Ontheffing of Melding. Het betreft hier een melding of een aanvraag voor een vergunning of een ontheffing.
 * **Vordering**: <Geen Definities>
 * **Vorderingregel**: <Geen Definities>
-* **VTH-Melding**: Melding met betrekking tot Vergunningen, Toezicht en Handhaving
 * **VTHAanvraagOfMelding**: VTH staat voor Vergunning, Toezicht en Handhaving. Het betreft hier een melding of een aanvraag voor een vergunning of een melding voor Toezicht en/of Handhaving.
+* **VTH-Melding**: Melding met betrekking tot Vergunningen, Toezicht en Handhaving
 * **VTHzaak**: <Geen Definities>
 * **Waarneming**: Handhavende taak in het kader van VTH
 * **WABOAanvraagOfMelding**: Aanvraag of medling in het kader van de Wet algemene bepalingen omgevingsrecht (WABO)
@@ -72,13 +72,15 @@ Het model 'Model VTH' heeft de volgende kenmerken:
 | author | mkampen |
 | version | 1.0 |
 | created | 2022-02-14 14:40:41 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_9547BC67_7488_4d9a_B651_2B69A62D789F |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Activiteit
@@ -90,14 +92,14 @@ Attributen van objecttype Activiteit
 
 
 
-### AOMstatus
-> **Definitie AOMstatus:** 
+### AOMStatus
+> **Definitie AOMStatus:** 
 >
 > Geen Definitie
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | AOMstatus |
+| name | AOMStatus |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -105,24 +107,26 @@ Attributen van objecttype Activiteit
 | author | aashkpour |
 | version | 1.0 |
 | created | 2020-11-30 14:06:39 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_FDEB42B6_5D93_46bf_9B5C_10F42BA4AC26 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype AOMstatus
+Attributen van objecttype AOMStatus
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| DatumBeginStatus | Date |  |
-| DatumEindStatus | Date |  |
-| Status | AN80 |  |
-| StatusCode | AN80 |  |
-| StatusVolgorde | AN80 |  |
+| datumBeginStatus | Date |  |
+| datumEindeStatus | Date |  |
+| status | AN80 |  |
+| statuscode | AN80 |  |
+| statusVolgorde | AN80 |  |
 
 
 
@@ -142,30 +146,32 @@ Attributen van objecttype AOMstatus
 | author | aashkpour |
 | version | 1.0 |
 | created | 2022-08-10 13:59:39 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_ED0D0224_0A30_435b_AB25_87FDA8DF4078 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Bevinding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Aangemaaktdoor | AN40 |  |
-| Aanmaakdatum | Date |  |
-| Activiteit | AN50 |  |
-| ControleElement | AN50 |  |
-| Controleniveau | AN50 |  |
-| Diepte | AN20 |  |
-| Fase | AN20 |  |
-| Gemuteerddoor | AN40 |  |
-| Mutatiedatum | Date |  |
-| Resultaat | AN50 |  |
-| Risico | AN50 |  |
+| aangemaaktDoor | AN40 |  |
+| activiteit | AN50 |  |
+| controleElement | AN50 |  |
+| controleniveau | AN50 |  |
+| datumAanmaak | Date |  |
+| datumMutatie | Date |  |
+| diepte | AN20 |  |
+| fase | AN20 |  |
+| gemuteerdDoor | AN40 |  |
+| resultaat | AN50 |  |
+| risico | AN50 |  |
 | None | Class: "Inspectie" |  |
 
 
@@ -182,17 +188,19 @@ Attributen van objecttype Bevinding
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.justis.nl/producten/boa |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-04-16 10:36:35 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_90B2A249_8D88_4a14_979F_672223D98E8C |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype BOA
@@ -218,13 +226,15 @@ Attributen van objecttype BOA
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-09 14:51:11 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_43D57BB8_C2E4_4b5a_A41C_C5CEC9D3877D |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Combibon
@@ -251,13 +261,15 @@ Attributen van objecttype Combibon
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-04-16 10:36:20 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_FF9A4A36_6674_4590_BC33_7B6DC5256490 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Fietsregistratie
@@ -285,13 +297,15 @@ Attributen van objecttype Fietsregistratie
 | author | mkampen |
 | version | 1.0 |
 | created | 2022-02-14 14:41:03 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_94E2B19A_6942_4164_8A52_3C0BBDE45808 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Grondslag
@@ -299,7 +313,7 @@ Attributen van objecttype Grondslag
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | code | AN10 |  |
-| Omschrijving | AN200 |  |
+| omschrijving | AN200 |  |
 
 
 
@@ -319,13 +333,15 @@ Attributen van objecttype Grondslag
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-04-18 10:56:20 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_3D2D5426_653C_485c_A99C_8AD933E76D78 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Heffinggrondslag
@@ -357,13 +373,15 @@ Attributen van objecttype Heffinggrondslag
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-04-18 10:54:17 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_C29CCD49_04E2_44b4_A6B0_AD8B10552628 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Heffingsverordening
@@ -389,13 +407,15 @@ Attributen van objecttype Heffingsverordening
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-04-18 15:45:30 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_E9AD325A_49CF_48a6_AA9E_7FB57E03E414 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Indiener
@@ -417,31 +437,33 @@ Attributen van objecttype Indiener
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://aquo.begrippenxl.nl/aquo/nl/page/Id-92cbea5b-2ab6-4a0d-9b7c-ffc20c850787 |
+| bron |  |
 | author | aashkpour |
 | version | 1.0 |
 | created | 2022-08-08 14:30:16 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_F73901FC_A78E_486f_B6C6_74CFCBE26CAB |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Inspectie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aangemaakt_door | AN50 |  |
-| aanmaakdatum | Date |  |
-| datumgepland | Date |  |
-| gemuteerd_door | AN50 |  |
-| inspectiedatum | Date |  |
+| aangemaaktDoor | AN50 |  |
+| datumAanmaak | Date |  |
+| datumGepland | Date |  |
+| datumInspectie | Date |  |
+| datumMutatie | Date |  |
+| gemuteerdDoor | AN50 |  |
 | inspectietype | AN50 |  |
 | kenmerk | AN20 |  |
-| mutatiedatum | Date |  |
 | omschrijving | AN80 |  |
 | opmerkingen | AN80 |  |
 | status | AN20 |  |
@@ -465,35 +487,37 @@ Attributen van objecttype Inspectie
 | author | aashkpour |
 | version | 1.0 |
 | created | 2022-05-30 14:45:46 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_0E4A8F94_ED08_43dc_9F78_C9DD17D34690 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Kosten
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Aangemaakt_door | AN50 |  |
-| AanmaakDatum | Date |  |
-| Aantal | AN20 |  |
-| Bedrag | bedrag |  |
-| Bedragtotaal | bedrag |  |
-| Eenheid | AN20 |  |
+| aangemaaktDoor | AN50 |  |
+| aantal | AN20 |  |
+| bedrag | bedrag |  |
+| bedragTotaal | bedrag |  |
+| datumAanmaak | Date |  |
+| datumMutatie | Date |  |
+| eenheid | AN20 |  |
 | geaccordeerd | AN20 |  |
-| gefactureerd_op | Date |  |
-| gemuteerd_door | AN50 |  |
-| mutatiedatum | Date |  |
-| Naam | AN20 |  |
-| Omschrijving | text |  |
-| Opbasisvangrondslag | AN50 |  |
-| Tarief | bedrag |  |
-| Type | AN50 |  |
-| Vastgesteldbedrag | bedrag |  |
+| gefactureerdOp | Date |  |
+| gemuteerdDoor | AN50 |  |
+| naam | AN20 |  |
+| omschrijving | text |  |
+| opBasisVanGrondslag | AN50 |  |
+| tarief | bedrag |  |
+| type | AN50 |  |
+| vastgesteldBedrag | bedrag |  |
 | None | Class: "VTHzaak" |  |
 
 
@@ -514,29 +538,31 @@ Attributen van objecttype Kosten
 | author | aashkpour |
 | version | 1.0 |
 | created | 2022-05-30 14:52:05 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_7F9392E5_6E43_4880_AF14_819E32A86204 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Leges_Grondslag
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Aangemaakt_door | AN50 |  |
-| AanmaakDatum | datum |  |
-| AantalOpgegeven | AN20 |  |
-| AantalVastgesteld | AN20 |  |
-| Automatisch | AN20 |  |
-| Eenheid | AN20 |  |
-| Gemuteerd_door | AN50 |  |
-| LegesGrondslag | AN50 |  |
-| MutatieDatum | Date |  |
-| Omschrijving | text |  |
+| aangemaaktDoor | AN50 |  |
+| aantalOpgegeven | AN20 |  |
+| aantalVastgesteld | AN20 |  |
+| automatisch | AN20 |  |
+| datumAanmaak | datum |  |
+| datumMutatie | Date |  |
+| eenheid | AN20 |  |
+| gemuteerdDoor | AN50 |  |
+| legesGrondslag | AN50 |  |
+| omschrijving | text |  |
 | None | Class: "VTHzaak" |  |
 | None | Class: "Activiteit" |  |
 
@@ -554,17 +580,19 @@ Attributen van objecttype Leges_Grondslag
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://lokaleregelgeving.overheid.nl/CVDR652715 |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-02 16:15:28 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_872A0342_EA75_418e_9455_E51875BFD771 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Ligplaatsontheffing
@@ -591,13 +619,15 @@ Attributen van objecttype Ligplaatsontheffing
 | author | aashkpour |
 | version | 1.0 |
 | created | 2020-09-09 16:09:39 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_80F23226_8DD8_4926_B8F1_F2A3C01A29BF |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype MORAanvraagOfMelding
@@ -606,9 +636,9 @@ Attributen van objecttype MORAanvraagOfMelding
 | :--- | :--- | :--- |
 | CROW | Enumeratie: "Boolean" |  |
 | locatie | punt |  |
-| locatie omschrijving | AN300 |  |
-| melding omschrijving | AN40 |  |
-| melding tekst | AN4000 |  |
+| locatieOmschrijving | AN300 |  |
+| meldingOmschrijving | AN40 |  |
+| meldingTekst | AN4000 |  |
 
 
 
@@ -628,23 +658,25 @@ Attributen van objecttype MORAanvraagOfMelding
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-02 16:03:27 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_B2B423C3_B9C9_4b4f_A47D_85D29417B9B4 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype OpenbareActiviteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| einddatum | Date |  |
+| datumEinde | Date |  |
+| datumStart | Date |  |
 | evenmentnaam | AN250 |  |
-| locatieomschrijving | AN250 |  |
-| startdatum | Date |  |
+| locatieOmschrijving | AN250 |  |
 | status | Enumeratie: "StatusOpenbareActiviteit" |  |
 
 
@@ -665,13 +697,15 @@ Attributen van objecttype OpenbareActiviteit
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-07 15:38:38 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_13BB343D_A595_43c9_8208_9BC5B05B618C |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Precario
@@ -682,14 +716,14 @@ Attributen van objecttype Precario
 
 
 
-### ProductType
-> **Definitie ProductType:** 
+### Producttype
+> **Definitie Producttype:** 
 >
 > Geen Definitie
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | ProductType |
+| name | Producttype |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -697,32 +731,34 @@ Attributen van objecttype Precario
 | author | mkampen |
 | version | 1.0 |
 | created | 2022-02-14 14:33:55 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_03B4B3C0_3616_4ea2_A8B1_3D6754325F02 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype ProductType
+Attributen van objecttype Producttype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Omschrijving | AN200 |  |
+| omschrijving | AN200 |  |
 
 
 
 
-### SubProductType
-> **Definitie SubProductType:** 
+### SubProducttype
+> **Definitie SubProducttype:** 
 >
 > Geen Definitie
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | SubProductType |
+| name | SubProducttype |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -730,16 +766,18 @@ Attributen van objecttype ProductType
 | author | mkampen |
 | version | 1.0 |
 | created | 2022-02-14 14:34:17 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_0DB447E3_B31B_4f07_8E35_7E77D0AAEF80 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype SubProductType
+Attributen van objecttype SubProducttype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -760,17 +798,19 @@ Attributen van objecttype SubProductType
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.begrippenxl.nl/aquo/nl/page/Id-b0b6883a-5e6b-4c5e-ba23-477cb6c0578d |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-09 15:32:41 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_D12123D3_D62D_4978_B7D4_8405F00A0D6A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Vaartuig
@@ -781,7 +821,7 @@ Attributen van objecttype Vaartuig
 | hoogte | int |  |
 | kleur | AN20 |  |
 | lengte | int |  |
-| naam vaartuig | AN250 |  |
+| naamVaartuig | AN250 |  |
 | registratienummer | AN80 |  |
 
 
@@ -802,13 +842,15 @@ Attributen van objecttype Vaartuig
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-08 14:16:31 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_44B26957_BAA4_41c2_ABBF_CC1AC91D30D6 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype VOMAanvraagOfMelding
@@ -820,11 +862,11 @@ Attributen van objecttype VOMAanvraagOfMelding
 | BAGID | BAGObjectnummering |  |
 | dossiernummer | AN200 |  |
 | intaketype | AN80 |  |
-| intern nummer | AN80 |  |
-| kadastrale aanduiding | AN30 |  |
-| kermerk | AN80 |  |
+| internNummer | AN80 |  |
+| kadastraleAanduiding | AN30 |  |
+| kenmerk | AN80 |  |
 | locatie | GML |  |
-| locatieomschrijving | AN300 |  |
+| locatieOmschrijving | AN300 |  |
 | toelichting | Text |  |
 
 
@@ -845,32 +887,34 @@ Attributen van objecttype VOMAanvraagOfMelding
 | author | aashkpour |
 | version | 1.0 |
 | created | 2022-05-30 14:18:38 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_341942C1_0F72_4e13_ADD1_235805BB81C0 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Vordering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Aangemaakt_door | AN50 |  |
-| Aanmaakdatum | Datum |  |
-| Btw_bedrag | bedrag |  |
-| Geaccordeerd | AN50 |  |
-| Geaccordeerd_door | AN50 |  |
-| Geaccordeerd_op | Datum |  |
-| Geexporteerd | AN50 |  |
-| Gemuteerd_door | AN50 |  |
-| Mutatiedatum | Date |  |
-| Omschrijving | text |  |
-| Totaal_bedrag | bedrag |  |
-| Totaalbedrag_incl | bedrag |  |
-| Vorderingsnummer | AN50 |  |
+| aangemaaktDoor | AN50 |  |
+| bedragBTW | bedrag |  |
+| datumAanmaak | Datum |  |
+| datumMutatie | Date |  |
+| geaccordeerd | AN50 |  |
+| geaccordeerdDoor | AN50 |  |
+| geaccordeerdOp | Datum |  |
+| geexporteerd | AN50 |  |
+| gemuteerdDoor | AN50 |  |
+| omschrijving | text |  |
+| totaalbedrag | bedrag |  |
+| totaalbedragInclusief | bedrag |  |
+| vorderingnummer | AN50 |  |
 | None | Class: "Vorderingregel" |  |
 | None | Class: "VTHzaak" |  |
 
@@ -892,13 +936,15 @@ Attributen van objecttype Vordering
 | author | mkampen |
 | version | 1.0 |
 | created | 2022-12-01 11:08:58 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_E2B83F97_FDFD_4876_9E66_23D79D4A4C03 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Vorderingregel
@@ -920,57 +966,6 @@ Attributen van objecttype Vorderingregel
 
 
 
-### VTH-Melding
-> **Definitie VTH-Melding:** 
->
-> Melding met betrekking tot Vergunningen, Toezicht en Handhaving
-
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | VTH-Melding |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Arjen Brienen |
-| version | 1.0 |
-| created | 2019-04-16 10:36:04 |
-| modified | 2023-10-12 16:27:49 |
-| id | EAID_E9AEF0A9_11BC_4d2a_BC48_FB77F04EF9A6 |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-url |  |
-
-
-Attributen van objecttype VTH-Melding
-
-| Attribute | Datatype | Description |
-| :--- | :--- | :--- |
-| activiteit | AN80 |  |
-| beoordeling | Enumeratie: "Beoordelingsoort" |  |
-| geseponeerd | Boolean |  |
-| locatie | GML |  |
-| organisatieonderdeel | AN80 |  |
-| overtredinggroep | AN200 |  |
-| overtredingscode | AN20 |  |
-| referentienummer | AN80 |  |
-| resultaat | AN80 |  |
-| seponeerdatum | Date |  |
-| soort VTH-melding | AN80 |  |
-| status | AN40 |  |
-| straatnaam | AN250 |  |
-| taaktype | AN80 |  |
-| totDatumTijd | DateTime |  |
-| zaaknummer | AN20 |  |
-| None | Class: "Foto" |  |
-| None | Class: "OBJECT" |  |
-| None | Class: "BOA" |  |
-
-
-
-
 ### VTHAanvraagOfMelding
 > **Definitie VTHAanvraagOfMelding:** 
 >
@@ -986,13 +981,15 @@ Attributen van objecttype VTH-Melding
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-09 16:02:38 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_EAC249B9_13F7_472b_A971_05ED32006F04 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype VTHAanvraagOfMelding
@@ -1000,6 +997,59 @@ Attributen van objecttype VTHAanvraagOfMelding
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | omschrijving | AN1000 |  |
+
+
+
+
+### VTH-Melding
+> **Definitie VTH-Melding:** 
+>
+> Melding met betrekking tot Vergunningen, Toezicht en Handhaving
+
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | VTH-Melding |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.0 |
+| created | 2019-04-16 10:36:04 |
+| modified | 2024-04-17 13:34:24 |
+| id | EAID_E9AEF0A9_11BC_4d2a_BC48_FB77F04EF9A6 |
+| domein-iv3 |  |
+| domein-dcat |  |
+| GEMMA-naam |  |
+| GEMMA-type |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
+
+
+Attributen van objecttype VTH-Melding
+
+| Attribute | Datatype | Description |
+| :--- | :--- | :--- |
+| activiteit | AN80 |  |
+| beoordeling | Enumeratie: "Beoordelingsoort" |  |
+| datumSeponering | Date |  |
+| datumtijdTot | DateTime |  |
+| geseponeerd | Boolean |  |
+| locatie | GML |  |
+| organisatieonderdeel | AN80 |  |
+| overtredingscode | AN20 |  |
+| overtredingsgroep | AN200 |  |
+| referentienummer | AN80 |  |
+| resultaat | AN80 |  |
+| soortVTHMelding | AN80 |  |
+| status | AN40 |  |
+| straatnaam | AN250 |  |
+| taaktype | AN80 |  |
+| zaaknummer | AN20 |  |
+| None | Class: "Foto" |  |
+| None | Class: "OBJECT" |  |
+| None | Class: "BOA" |  |
 
 
 
@@ -1019,13 +1069,15 @@ Attributen van objecttype VTHAanvraagOfMelding
 | author | aashkpour |
 | version | 1.0 |
 | created | 2020-09-09 16:33:02 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_88AF7A2E_C508_464a_AD22_DD9B156D570D |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype VTHzaak
@@ -1033,14 +1085,14 @@ Attributen van objecttype VTHzaak
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | behandelaar | AN20 |  |
-| bevoegdgezag | AN50 |  |
+| bevoegdGezag | AN50 |  |
 | prioritering | int |  |
-| teambehandelaar | AN20 |  |
-| uitvoerendeinstantie | AN50 |  |
+| teamBehandelaar | AN20 |  |
+| uitvoerendeInstantie | AN50 |  |
 | verkamering | Enumeratie: "Boolean" |  |
-| None | Class: "ProductType" |  |
+| None | Class: "Producttype" |  |
 | None | Class: "Activiteit" |  |
-| None | Class: "SubProductType" |  |
+| None | Class: "SubProducttype" |  |
 
 
 
@@ -1060,13 +1112,15 @@ Attributen van objecttype VTHzaak
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-09 14:43:04 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_DDC990BC_C026_4c98_BEE5_6692EA0C2515 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Waarneming
@@ -1092,13 +1146,15 @@ Attributen van objecttype Waarneming
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-04-17 13:32:09 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_192EA281_414F_4d8d_85D1_5C1B75224942 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype WABOAanvraagOfMelding
@@ -1106,7 +1162,7 @@ Attributen van objecttype WABOAanvraagOfMelding
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | bouwkosten | Bedrag |  |
-| OLO-nummer | AN80 |  |
+| OLONummer | AN80 |  |
 | omschrijving | AN1000 |  |
 | projectkosten | Bedrag |  |
 | registratienummer | AN100 |  |
@@ -1129,24 +1185,26 @@ Attributen van objecttype WABOAanvraagOfMelding
 | author | aashkpour |
 | version | 1.0 |
 | created | 2021-06-15 17:18:45 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_5CE9E5F3_BA9A_47e4_A4C1_DE21E66E9F8E |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype WoonfraudeAanvraagOfMelding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Adres | AN300 |  |
-| Categorie | AN80 |  |
-| locatie omschrijving | AN300 |  |
-| melding omschrijving | AN40 |  |
-| melding tekst | AN4000 |  |
+| adres | AN300 |  |
+| categorie | AN80 |  |
+| locatieOmschrijving | AN300 |  |
+| meldingOmschrijving | AN40 |  |
+| meldingTekst | AN4000 |  |
 
 
 
@@ -1166,13 +1224,15 @@ Attributen van objecttype WoonfraudeAanvraagOfMelding
 | author | aashkpour |
 | version | 1.0 |
 | created | 2020-09-09 16:23:16 |
-| modified | 2023-10-12 16:27:49 |
+| modified | 2024-04-17 13:34:24 |
 | id | EAID_CB5BCFAA_01F3_468d_A5CE_4E08D3E4FFC2 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype WoonoverlastAanvraagOfMelding
@@ -1180,9 +1240,9 @@ Attributen van objecttype WoonoverlastAanvraagOfMelding
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | locatie | punt |  |
-| locatie omschrijving | AN300 |  |
-| melding omschrijving | AN40 |  |
-| melding tekst | AN4000 |  |
+| locatieOmschrijving | AN300 |  |
+| meldingOmschrijving | AN40 |  |
+| meldingTekst | AN4000 |  |
 
 
 
@@ -1221,7 +1281,9 @@ De enumeratie Beoordelingsoort heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -1252,7 +1314,9 @@ De enumeratie Heffingsoort heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -1284,7 +1348,9 @@ De enumeratie StatusOpenbareActiviteit heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 

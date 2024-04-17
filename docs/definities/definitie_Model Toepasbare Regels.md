@@ -9,7 +9,7 @@ Het model 'Model Toepasbare Regels' kent de volgende objecttypen:
 * **Conclusie**: Conclusie van de check. Antwoord op de vraag of ik een melding moet doen of een vergunning aan moet vragen voor een bepaalde activiteit.
 * **Indieningsvereisten**: Dat wat de initiatiefnemer moet aanleveren om het bevoegd gezag een aanvraag te kunnen laten beoordelen. De indieningsvereisten is de set aan informatie (gegevens en / of bijlagen) die aan een aanvraag moet worden toegevoegd voor een bepaalde vergunning of melding.
 * **Maatregelen**: Beschrijft welke handelingen iemand moet uitvoeren om aan Voorschriften te kunnen voldoen.
-* **Toepasbare Regel**: <i>Vanwege de leesbaarheid wordt gewerkt met de term Toepasbare regel ipv regelbeheersobject</i> <i> </i><i>Een regelbeheerobject heeft een koppeling met een samenhangende set met regels om een afleiding te kunnen doen. Het regelbeheerobject ‘conclusie gevelaanpassing’ kan een vraag beantwoorden zoals: “Heb ik een vergunning nodig voor het veranderen van een kozijn, kozijninvulling of gevelpaneel”. Het regelbeheerobject ‘melding lozing’ beantwoordt de vraag “Wat moet ik aan informatie (gegevens en documenten) aanleveren als ik ga lozen vanuit particuliere huishoudens”. Het regelbeheerobject “Opslaan van gasolie smeerolie of afgewerkte olie in een bovengrondse opslagtank” </i>geeft aan welke maatregelen genomen dienen te worden. Het regelbeheerobject is onderdeel van de functionele structuur. De set met regels is gedefinieerd in het Toepasbare regelbestand<sup>2</sup>. 
+* **Toepasbare Regel**: Vanwege de leesbaarheid wordt gewerkt met de term Toepasbare regel ipv regelbeheersobject  Een regelbeheerobject heeft een koppeling met een samenhangende set met regels om een afleiding te kunnen doen. Het regelbeheerobject ‘conclusie gevelaanpassing’ kan een vraag beantwoorden zoals: “Heb ik een vergunning nodig voor het veranderen van een kozijn, kozijninvulling of gevelpaneel”. Het regelbeheerobject ‘melding lozing’ beantwoordt de vraag “Wat moet ik aan informatie (gegevens en documenten) aanleveren als ik ga lozen vanuit particuliere huishoudens”. Het regelbeheerobject “Opslaan van gasolie smeerolie of afgewerkte olie in een bovengrondse opslagtank” geeft aan welke maatregelen genomen dienen te worden. Het regelbeheerobject is onderdeel van de functionele structuur. De set met regels is gedefinieerd in het Toepasbare regelbestand2. 
 * **ToepasbareRegelBestand**: Bestand met aangeleverde toepasbare regels
 * **Uitvoeringsregel**: De uitvoeringsregels bepalen hoe de benodigde gegevens (input data) wordt uitgevraagd. Dit kan op verschillende manieren gebeuren zoals een vraag aan een initiatiefnemer of een bevraging van een registratie.
 
@@ -44,17 +44,19 @@ Het model 'Model Toepasbare Regels' heeft de volgende kenmerken:
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | http://standaarden.omgevingswet.overheid.nl/imtr/id/concept/conclusie |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-23 15:46:18 |
-| modified | 2023-10-12 16:28:03 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_C2A7756C_87E9_44f0_85A9_673F3956BB48 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Conclusie
@@ -76,17 +78,19 @@ Attributen van objecttype Conclusie
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | http://standaarden.omgevingswet.overheid.nl/imtr/id/concept/Indieningsvereisten |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-23 15:46:26 |
-| modified | 2023-10-12 16:28:03 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_8587D910_7A9C_46d8_BF27_27433E9B6DAD |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Indieningsvereisten
@@ -108,17 +112,19 @@ Attributen van objecttype Indieningsvereisten
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | http://standaarden.omgevingswet.overheid.nl/imtr/id/concept/Maatregelen |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-23 15:46:53 |
-| modified | 2023-10-12 16:28:03 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_45591365_C55F_4735_9533_D3BBB0AB6571 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Maatregelen
@@ -132,10 +138,10 @@ Attributen van objecttype Maatregelen
 ### Toepasbare Regel
 > **Definitie Toepasbare Regel:** 
 >
-> <i>Vanwege de leesbaarheid wordt gewerkt met de term Toepasbare regel ipv regelbeheersobject</i>
-> <i>
-> </i><i>Een regelbeheerobject heeft een koppeling met een samenhangende set met regels om een afleiding te kunnen doen. Het regelbeheerobject ‘conclusie gevelaanpassing’ kan een vraag beantwoorden zoals: “Heb ik een vergunning nodig voor het veranderen van een kozijn, kozijninvulling of gevelpaneel”. Het regelbeheerobject ‘melding lozing’ beantwoordt de vraag “Wat moet ik aan informatie (gegevens en documenten) aanleveren als ik ga lozen vanuit particuliere huishoudens”. Het regelbeheerobject “Opslaan van gasolie smeerolie of afgewerkte olie in een bovengrondse opslagtank” </i>geeft aan welke maatregelen genomen dienen te worden.
-> Het regelbeheerobject is onderdeel van de functionele structuur. De set met regels is gedefinieerd in het Toepasbare regelbestand<sup>2</sup>.
+> Vanwege de leesbaarheid wordt gewerkt met de term Toepasbare regel ipv regelbeheersobject
+> 
+> Een regelbeheerobject heeft een koppeling met een samenhangende set met regels om een afleiding te kunnen doen. Het regelbeheerobject ‘conclusie gevelaanpassing’ kan een vraag beantwoorden zoals: “Heb ik een vergunning nodig voor het veranderen van een kozijn, kozijninvulling of gevelpaneel”. Het regelbeheerobject ‘melding lozing’ beantwoordt de vraag “Wat moet ik aan informatie (gegevens en documenten) aanleveren als ik ga lozen vanuit particuliere huishoudens”. Het regelbeheerobject “Opslaan van gasolie smeerolie of afgewerkte olie in een bovengrondse opslagtank” geeft aan welke maatregelen genomen dienen te worden.
+> Het regelbeheerobject is onderdeel van de functionele structuur. De set met regels is gedefinieerd in het Toepasbare regelbestand2.
 > 
 
 | Eigenschap | Waarde |
@@ -144,29 +150,31 @@ Attributen van objecttype Maatregelen
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://wilmaonline.nl/index.php/WILMA/id-f467b079-b26b-4f409-fb58-06406e2bb4e |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-23 15:45:54 |
-| modified | 2023-10-12 16:28:03 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_10C06EB3_F94A_4005_9C66_0DAE61B96192 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Toepasbare Regel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| begindatum geldigheid | Date |  |
+| datumBeginGeldigheid | Date |  |
+| datumEindeGeldigheid | Date |  |
 | domein | URL |  |
-| einddatum geldigheid | Date |  |
 | naam | AN200 |  |
 | omschrijving | text |  |
-| soort aansluitpunt | AN200 |  |
+| soortAansluitpunt | AN200 |  |
 | toestemming | AN200 |  |
 | None | Class: "Juridische Regel" |  |
 | None | Class: "Activiteit" |  |
@@ -190,21 +198,23 @@ Attributen van objecttype Toepasbare Regel
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-23 15:49:18 |
-| modified | 2023-10-12 16:28:03 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_3120D398_95C1_42fe_B10F_4F3B6BF15D1A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype ToepasbareRegelBestand
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| geldig tot | Date |  |
-| geldig vanaf | Date |  |
+| datumEindeGeldigheid | Date |  |
+| datumStart | Date |  |
 | None | Class: "Uitvoeringsregel" |  |
 
 
@@ -221,17 +231,19 @@ Attributen van objecttype ToepasbareRegelBestand
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.begrippenxl.nl/dso/nl/page/Uitvoeringsregel |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-23 15:47:28 |
-| modified | 2023-10-12 16:28:03 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_1528D03C_4F22_4d6b_A44F_605802C195C4 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Uitvoeringsregel

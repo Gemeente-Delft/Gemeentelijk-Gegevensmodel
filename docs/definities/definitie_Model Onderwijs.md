@@ -50,17 +50,19 @@ Het model 'Model Onderwijs' heeft de volgende kenmerken:
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | http://lod.duo.nl/term/Inschrijving |
+| bron |  |
 | author | crossover |
 | version | 1.0 |
 | created | 2018-05-04 14:53:34 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_CFFD5F20_5FA9_4d93_AD34_6867D64A58B9 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Inschrijving
@@ -83,25 +85,27 @@ Attributen van objecttype Inschrijving
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | http://lod.duo.nl/term/Leerjaar |
+| bron |  |
 | author | crossover |
 | version | 1.0 |
 | created | 2018-05-04 15:34:24 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_D7ECEB92_BE50_4e30_9F27_54A008BC75DF |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Leerjaar
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| eindjaar | int |  |
-| startjaar | int |  |
+| jaarEinde | int |  |
+| jaarStart | int |  |
 
 
 
@@ -117,24 +121,26 @@ Attributen van objecttype Leerjaar
 | toelichting |  |
 | synoniemen | Onderwijsvolger |
 | uri |  |
-| bron | http://purl.edustandaard.nl/concept/c2fe4842-8d68-4276-a2e7-f786830aa706 |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-28 16:42:46 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_266057AF_58BD_42e1_B4D5_16EB266B9B7A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Leerling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| kwetsbare jongere | boolean |  |
+| kwetsbareJongere | boolean |  |
 
 
 
@@ -154,13 +160,15 @@ Attributen van objecttype Leerling
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-20 11:36:50 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_3119A4DB_BB23_4adc_98BD_82F2D7996C6B |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Locatie
@@ -183,17 +191,19 @@ Attributen van objecttype Locatie
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.functiegebouwrijksoverheid.nl/mijn-loopbaan/loopbaanstappen |
+| bron |  |
 | author | crossover |
 | version | 1.0 |
 | created | 2018-05-04 15:00:18 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_0E3DE26B_C535_4a03_98A4_8D36DC3D5297 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Loopbaanstap
@@ -218,17 +228,19 @@ Attributen van objecttype Loopbaanstap
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://taxonomie.cbs.nl/vocab/id/2565 |
+| bron |  |
 | author | crossover |
 | version | 1.0 |
 | created | 2018-05-04 14:59:08 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_F47ACE79_C476_479f_A3A3_729E65AF3D32 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Onderwijsloopbaan
@@ -251,17 +263,19 @@ Attributen van objecttype Onderwijsloopbaan
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | http://lod.duo.nl/term/Onderwijsniveau |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-07 17:01:21 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_96AB51D0_52E5_4515_B21F_98B30C4B9C42 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Onderwijsniveau
@@ -287,13 +301,15 @@ Attributen van objecttype Onderwijsniveau
 | author | crossover |
 | version | 1.0 |
 | created | 2018-05-04 15:36:13 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_8AF9FAE6_13D8_484d_97F5_2A3839BC8618 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Onderwijssoort
@@ -321,13 +337,15 @@ Attributen van objecttype Onderwijssoort
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-28 16:44:50 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_51C8E3DF_FFF4_4a20_9CB2_AA5FA50579E2 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Ouder Of Verzorger
@@ -349,17 +367,19 @@ Attributen van objecttype Ouder Of Verzorger
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | http://brt.basisregistraties.overheid.nl/id/begrip/School |
+| bron |  |
 | author | crossover |
 | version | 1.0 |
 | created | 2018-05-04 14:54:30 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_32DFC5DD_79D9_45d5_8F9D_7D5125961817 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype School
@@ -383,24 +403,26 @@ Attributen van objecttype School
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | http://lod.duo.nl/term/Startkwalificatie |
+| bron |  |
 | author | crossover |
 | version | 1.0 |
 | created | 2018-05-04 14:57:13 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_E8301577_1A49_43cf_A2CA_0F042584EBB3 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Startkwalificatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumbehaald | Datum |  |
+| datumBehaald | Datum |  |
 
 
 
@@ -416,17 +438,19 @@ Attributen van objecttype Startkwalificatie
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://wetten.overheid.nl/BWBR0043632/2020-07-01 |
+| bron |  |
 | author | crossover |
 | version | 1.0 |
 | created | 2018-05-04 14:53:46 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_133AF611_9FA0_4a09_BF12_74C5FA5F6F60 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Uitschrijving
@@ -434,7 +458,7 @@ Attributen van objecttype Uitschrijving
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datum | Datum |  |
-| diplomabehaald | boolean |  |
+| diplomaBehaald | boolean |  |
 
 
 
@@ -475,7 +499,9 @@ De enumeratie Onderwijstype heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 

@@ -43,31 +43,33 @@ Het model 'Model Gemeentebegrafenissen' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-09-17 16:00:33 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_F2DBE01F_7535_4f26_9DF2_081EF8632F36 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Gemeentebegrafenis
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| achtergrond melding | AN200 |  |
+| achtergrondMelding | AN200 |  |
 | begrafeniskosten | Bedrag |  |
-| datum afgedaan | Date |  |
-| datum begrafenis | Date |  |
-| datum gemeld | Date |  |
-| datum ruiming graf | Date |  |
+| datumAfgedaan | Date |  |
+| datumBegrafenis | Date |  |
+| datumGemeld | Date |  |
+| datumRuimingGraf | Date |  |
 | doodsoorzaak | AN80 |  |
-| gemeentelijke kosten | Bedrag |  |
+| gemeentelijkeKosten | Bedrag |  |
 | inkoopordernummer | AN40 |  |
 | melder | AN80 |  |
-| uren gemeente | int |  |
-| verhaald bedrag | Bedrag |  |
+| urenGemeente | int |  |
+| verhaaldBedrag | Bedrag |  |
 
 
 

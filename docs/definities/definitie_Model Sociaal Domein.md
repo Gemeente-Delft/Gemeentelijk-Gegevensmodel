@@ -6,13 +6,13 @@
 
 Het model 'Model Sociaal Domein' kent de volgende objecttypen:
 
-* **AanvraagDelftpas**: Te specifiek. AanvraagGemeentepas
+* **AanvraagStadspas**: Aanvraag voor een stadspas
 * **AOM_AanvraagWmoJeugd**: <Geen Definities>
-* **AOM_MeldingWmoJeugd**: <Geen Definities>
-* **Beperking**: Een stoornis of conditie ‚Äì lichamelijk, zintuiglijk en-of geestelijk ‚Äì die een normaal maatschappelijk functioneren belemmert en nadelige sociale gevolgen met zich meebrengt.
+* **AOMMeldingWMOJeugd**: <Geen Definities>
+* **Beperking**: Een stoornis of conditie ‚ lichamelijk, zintuiglijk en-of geestelijk ‚ die een normaal maatschappelijk functioneren belemmert en nadelige sociale gevolgen met zich meebrengt.
 * **Beperkingscategorie**: Een categorisering van beperkingen
 * **Beperkingscore**: Getalsmatige duiding van een beperking
-* **Beperkingscoresoort **: Typering van beperkingscores
+* **Beperkingscoresoort**: Typering van beperkingscores
 * **Beschikking**: In het bestuursrecht: Een beslissing van een overheidsorgaan in een concreet geval, bijvoorbeeld het verlenen van een bouwvergunning. In het civiele recht: een rechterlijke uitspraak in een procedure die begint met een verzoekschrift.
 * **Beschikkingsoort**: Typering van een beschikking
 * **Beschikte Voorziening**: Een voorziening waarover een beschikking is gedaan.
@@ -21,7 +21,6 @@ Het model 'Model Sociaal Domein' kent de volgende objecttypen:
 * **Clientbegeleider**: De persoon die verantwoordelijk is voor het opstellen en uitvoeren van het  ondersteuningsplan in samenwering met de client en personen uit zijn/haar omgeving .
 * **Declaratie**: Een opgave van te vergoeden kosten.
 * **Declaratieregel**: <Geen Definities>
-* **Delftpas**: Te specifiek, voorstel "gemeentepas"?
 * **Huishouden**: persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continu√Øteit in de samenstelling ervan, die binnen een woning gebruik maakt van dezelfde voorzieningen
 * **Leefgebied**: Gebied waarin alle activiteiten van een inwoner zich kunnen afspelen
 * **Leverancier**: Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie
@@ -33,6 +32,7 @@ Het model 'Model Sociaal Domein' kent de volgende objecttypen:
 * **Relatiesoort**: De typering van het structurele verband tussen een object van een objecttype en een (ander) object van een ander (of hetzelfde) objecttype.
 * **Score**: Het aantal behaalde punten
 * **Scoresoort**: Typologie van score
+* **Stadspas**: Een stadspas geeft inwoners van een gemeente korting op oa sport en culturele activiteiten. Vaak is deze pas voor inwoners met een laag inkomen.
 * **Tarief**: Hoogte van een bedrag voor een bepaald product of dient
 * **Team**: Een groep personen die door middel van samenwerking een gezamenlijk doel nastreeft, waarbij de teamleden afhankelijk van elkaar zijn om het doel te bereiken.
 * **Toewijzing**: Toewijzing die door gemeente aan zorgaanbieder wordt gestuurd. zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html 
@@ -62,14 +62,14 @@ Het model 'Model Sociaal Domein' heeft de volgende kenmerken:
 ## Objecttypen Model Sociaal Domein
 
 
-### AanvraagDelftpas
-> **Definitie AanvraagDelftpas:** 
+### AanvraagStadspas
+> **Definitie AanvraagStadspas:** 
 >
-> Te specifiek. AanvraagGemeentepas
+> Aanvraag voor een stadspas
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | AanvraagDelftpas |
+| name | AanvraagStadspas |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -77,16 +77,18 @@ Het model 'Model Sociaal Domein' heeft de volgende kenmerken:
 | author | crossover |
 | version | 1.0 |
 | created | 2018-05-07 11:54:57 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:55:46 |
 | id | EAID_16F94A03_C376_4314_94AA_4DB14AD00EB9 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype AanvraagDelftpas
+Attributen van objecttype AanvraagStadspas
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -109,43 +111,45 @@ Attributen van objecttype AanvraagDelftpas
 | author | aashkpour |
 | version | 1.0 |
 | created | 2021-12-15 14:49:37 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_BE7C28C6_0922_4c6a_A953_3D598D991AB5 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype AOM_AanvraagWmoJeugd
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Afsluitreden | AN50 |  |
-| ClientReactie | AN100 |  |
-| Datumbeschikking | Date |  |
-| Datumeersteafspraak | Date |  |
-| Datumplanvastgesteld | Date |  |
-| Datumstartaanvraag | Date |  |
-| Deskundigheid | AN50 |  |
-| Doorloopmethodiek | AN50 |  |
-| Einddatum | Date |  |
-| MaximaleDoorlooptijd | AN20 |  |
+| clientReactie | AN100 |  |
+| datumBeschikking | Date |  |
+| datumEersteAfspraak | Date |  |
+| datumEinde | Date |  |
+| datumPlanVastgesteld | Date |  |
+| datumStartAanvraag | Date |  |
+| deskundigheid | AN50 |  |
+| doorloopmethodiek | AN50 |  |
+| maximaleDoorlooptijd | AN20 |  |
+| redenAfsluiting | AN50 |  |
 | None | Class: "Client" |  |
 | None | Class: "Beschikking" |  |
 
 
 
 
-### AOM_MeldingWmoJeugd
-> **Definitie AOM_MeldingWmoJeugd:** 
+### AOMMeldingWMOJeugd
+> **Definitie AOMMeldingWMOJeugd:** 
 >
 > Geen Definitie
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | AOM_MeldingWmoJeugd |
+| name | AOMMeldingWMOJeugd |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -153,29 +157,31 @@ Attributen van objecttype AOM_AanvraagWmoJeugd
 | author | aashkpour |
 | version | 1.0 |
 | created | 2021-12-15 14:38:21 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_0FA25A4F_DF7F_4feb_9460_19D054E874F8 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype AOM_MeldingWmoJeugd
+Attributen van objecttype AOMMeldingWMOJeugd
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Aanmelder | AN100 |  |
-| AanmeldingDoor | AN100 |  |
-| AanmeldingDoorLandelijk | AN100 |  |
-| Aanmeldwijze | AN80 |  |
-| Afsluitreden | AN80 |  |
-| Deskundigheid | AN80 |  |
-| IsClientOpdeHoogte | AN50 |  |
-| Onderzoekswijze | AN50 |  |
-| Vervolg | AN50 |  |
-| Verwezen | AN50 |  |
+| aanmelder | AN100 |  |
+| aanmeldingDoor | AN100 |  |
+| aanmeldingDoorLandelijk | AN100 |  |
+| aanmeldwijze | AN80 |  |
+| deskundigheid | AN80 |  |
+| isClientOpDeHoogte | AN50 |  |
+| onderzoekswijze | AN50 |  |
+| redenAfsluiting | AN80 |  |
+| vervolg | AN50 |  |
+| verwezen | AN50 |  |
 | None | Class: "Client" |  |
 
 
@@ -184,7 +190,7 @@ Attributen van objecttype AOM_MeldingWmoJeugd
 ### Beperking
 > **Definitie Beperking:** 
 >
-> Een stoornis of conditie ‚Äì lichamelijk, zintuiglijk en-of geestelijk ‚Äì die een normaal maatschappelijk functioneren belemmert en nadelige sociale gevolgen met zich meebrengt.
+> Een stoornis of conditie ‚ lichamelijk, zintuiglijk en-of geestelijk ‚ die een normaal maatschappelijk functioneren belemmert en nadelige sociale gevolgen met zich meebrengt.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -196,13 +202,15 @@ Attributen van objecttype AOM_MeldingWmoJeugd
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-03-21 15:32:51 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_F110608E_9C6A_4d66_BDCB_F4B2465E3CFD |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Beperking
@@ -232,13 +240,15 @@ Attributen van objecttype Beperking
 | author | crossover |
 | version | 1.0 |
 | created | 2018-04-23 14:41:29 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_4E835898_6623_457f_99B4_C688D465F720 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Beperkingscategorie
@@ -266,13 +276,15 @@ Attributen van objecttype Beperkingscategorie
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-03-21 15:33:15 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_5EDE0349_8865_4b90_9A18_235C5AA660C4 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Beperkingscore
@@ -286,14 +298,14 @@ Attributen van objecttype Beperkingscore
 
 
 
-### Beperkingscoresoort 
-> **Definitie Beperkingscoresoort :** 
+### Beperkingscoresoort
+> **Definitie Beperkingscoresoort:** 
 >
 > Typering van beperkingscores
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | Beperkingscoresoort  |
+| name | Beperkingscoresoort |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -301,16 +313,18 @@ Attributen van objecttype Beperkingscore
 | author | crossover |
 | version | 1.0 |
 | created | 2018-04-23 14:41:43 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_6B63630A_8A30_454d_B8C4_252D4C30A3BF |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype Beperkingscoresoort 
+Attributen van objecttype Beperkingscoresoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -335,27 +349,29 @@ Attributen van objecttype Beperkingscoresoort
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-04-23 16:56:03 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_71D7E96D_641A_4b6a_A325_DED07C3B5836 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Beschikking
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| afgiftedatum | Datum |  |
 | code | AN20 |  |
 | commentaar | AN200 |  |
+| datumAfgifte | Datum |  |
 | grondslagen | int |  |
 | wet |  |  |
 | None | Class: "Client" |  |
 | None | Class: "Toewijzing" |  |
-| None | Class: "AOM_MeldingWmoJeugd" |  |
+| None | Class: "AOMMeldingWMOJeugd" |  |
 | None | Class: "Beperking" |  |
 
 
@@ -376,13 +392,15 @@ Attributen van objecttype Beschikking
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-13 14:01:26 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_FD14E04F_26A1_42ba_8E47_5F43AF539877 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Beschikkingsoort
@@ -408,13 +426,15 @@ Attributen van objecttype Beschikkingsoort
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-13 13:58:33 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_975C3DA3_930A_49d8_B54F_2A560DC2AD5A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Beschikte Voorziening
@@ -422,15 +442,15 @@ Attributen van objecttype Beschikte Voorziening
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | code | AN20 |  |
+| datumEinde | Date |  |
+| datumEindeOorspronkelijk | Date |  |
+| datumStart | Date |  |
 | eenheid | Enumeratie: "Eenheid" |  |
-| einddatum | Date |  |
 | frequentie | Enumeratie: "Frequentie" |  |
-| ingangsdatum | Date |  |
 | leveringsvorm | Enumeratie: "Leveringsvorm" |  |
 | omvang | int |  |
-| OorspronkelijkeEinddatum | Date |  |
-| Redeneinde | AN100 |  |
-| Status | AN50 |  |
+| redenEinde | AN100 |  |
+| status | AN50 |  |
 | wet | Enumeratie: "Wet" |  |
 
 
@@ -451,13 +471,15 @@ Attributen van objecttype Beschikte Voorziening
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-09-09 13:49:43 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_679162ED_0B45_4fb2_B16E_421C25A107F5 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Budgetuitputting
@@ -465,7 +487,7 @@ Attributen van objecttype Budgetuitputting
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datum | Date |  |
-| uitgenut bedrag | Bedrag |  |
+| uitgenutBedrag | Bedrag |  |
 | None | Class: "PGB-Toekenning" |  |
 
 
@@ -486,13 +508,15 @@ Attributen van objecttype Budgetuitputting
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-03-21 15:22:41 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_DAF09055_A5A6_4ff4_A158_21B20567B296 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Client
@@ -500,9 +524,9 @@ Attributen van objecttype Client
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | code | AN80 |  |
-| gezagsdragerbekend | boolean |  |
-| juridische status | AN80 |  |
-| wettelijke vertegenwoordiging | AN80 |  |
+| gezagsdragerGekend | boolean |  |
+| juridischeStatus | AN80 |  |
+| wettelijkeVertegenwoordiging | AN80 |  |
 
 
 
@@ -522,13 +546,15 @@ Attributen van objecttype Client
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-12 16:00:19 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_276E1BF9_E902_4303_A9E7_048627E0DC84 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Clientbegeleider
@@ -551,26 +577,28 @@ Attributen van objecttype Clientbegeleider
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.begrippenxl.nl/bv/nl/page/Declaratie |
+| bron |  |
 | author | aashkpour |
 | version | 1.0 |
 | created | 2021-11-15 14:24:21 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_5E542F35_E413_49c4_8FB7_335B6BE9667A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Declaratie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| declaratie bedrag | int |  |
-| Declaratie datum | int |  |
-| declaratie status | int |  |
+| datumDeclaratie | int |  |
+| declaratieBedrag | int |  |
+| declaratieStatus | int |  |
 
 
 
@@ -590,57 +618,25 @@ Attributen van objecttype Declaratie
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-12 15:34:16 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_F73F6BFE_9CFE_4497_80E3_CADAA344CF69 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Declaratieregel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Bedrag | Bedrag |  |
-| Begin Datum | Date |  |
+| bedrag | Bedrag |  |
 | code | AN20 |  |
-| Eind Datum | Date |  |
-
-
-
-
-### Delftpas
-> **Definitie Delftpas:** 
->
-> Te specifiek, voorstel "gemeentepas"?
-
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Delftpas |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | crossover |
-| version | 1.0 |
-| created | 2018-05-07 11:53:42 |
-| modified | 2023-10-12 16:27:43 |
-| id | EAID_810C273F_0A2B_4e68_A94B_46722FF9E19D |
-| domein-iv3 |  |
-| domein-dcat |  |
-| GEMMA-naam |  |
-| GEMMA-type |  |
-| GEMMA-url |  |
-
-
-Attributen van objecttype Delftpas
-
-| Attribute | Datatype | Description |
-| :--- | :--- | :--- |
-| einddatum | Date |  |
-| ingangsdatum | Date |  |
+| datumEinde | Date |  |
+| datumStart | Date |  |
 
 
 
@@ -660,13 +656,15 @@ Attributen van objecttype Delftpas
 | author | crossover |
 | version | 1.0 |
 | created | 2018-04-25 10:24:00 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_F0467610_553B_47cd_A9F7_3B1D20CC425E |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Huishouden
@@ -692,13 +690,15 @@ Attributen van objecttype Huishouden
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-23 15:34:35 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_C55180D9_A5C3_4859_BD88_7686F5384157 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Leefgebied
@@ -725,24 +725,26 @@ Attributen van objecttype Leefgebied
 | author | crossover |
 | version | 1.0 |
 | created | 2018-04-23 14:46:34 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_51A266C7_3BDA_457c_9A32_CD1B166CA5BF |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Leverancier
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| AGB-Code | AN40 |  |
-| Leverancierscode | AN8 |  |
-| Naam | AN200 |  |
-| Soort leverancier | AN80 |  |
-| Soort leverancier code | AN8 |  |
+| AGBCode | AN40 |  |
+| leverancierscode | AN8 |  |
+| naam | AN200 |  |
+| soortLeverancier | AN80 |  |
+| soortLeverancierCode | AN8 |  |
 | None | Class: "Contract" |  |
 
 
@@ -765,13 +767,15 @@ Attributen van objecttype Leverancier
 | author | crossover |
 | version | 1.0 |
 | created | 2018-04-23 14:46:17 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_F0CE97B6_3004_4424_A0AA_5034BC0144D1 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Levering
@@ -779,11 +783,11 @@ Attributen van objecttype Levering
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | code | AN20 |  |
+| datumStart | Date |  |
+| datumStop | Date |  |
 | eenheid | Enumeratie: "Eenheid" |  |
 | frequentie | Enumeratie: "Frequentie" |  |
 | omvang | int |  |
-| startdatum | Date |  |
-| stopdatum | Date |  |
 | stopreden | Text |  |
 | None | Class: "Voorziening" |  |
 
@@ -805,20 +809,22 @@ Attributen van objecttype Levering
 | author | crossover |
 | version | 1.0 |
 | created | 2018-04-23 16:43:06 |
-| modified | 2023-11-13 11:22:34 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_F35DA519_FA0C_48ae_9EFC_C4EBEC4BF144 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Leveringsvorm
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| leveringsvormcode | An20 |  |
+| leveringsvormCode | An20 |  |
 | naam | AN3 |  |
 | wet | Enumeratie: "Wet" |  |
 
@@ -840,21 +846,23 @@ Attributen van objecttype Leveringsvorm
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-09-09 13:33:02 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_A9D093FB_B3D1_46e5_B263_6C4D61F0C5D1 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Melding Eigen bijdrage
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| startdatum | Date |  |
-| stopdatum | Date |  |
+| datumStart | Date |  |
+| datumStop | Date |  |
 | None | Class: "Beschikking" |  |
 
 
@@ -878,13 +886,15 @@ Attributen van objecttype Melding Eigen bijdrage
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-09-09 13:42:53 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_84FE9B56_158D_4b65_BCC1_5FE29D071FCC |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype PGB-Toekenning
@@ -892,8 +902,8 @@ Attributen van objecttype PGB-Toekenning
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | budget | Bedrag |  |
-| einddatum | Date |  |
-| toekenningsdatum | Date |  |
+| datumEinde | Date |  |
+| datumToekenning | Date |  |
 | None | Class: "Beschikte Voorziening" |  |
 
 
@@ -910,17 +920,19 @@ Attributen van objecttype PGB-Toekenning
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | http://lod.duo.nl/term/Relatie |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-23 15:53:42 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_3DF01B79_6712_473e_9878_594CB5AE95A7 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Relatie
@@ -947,13 +959,15 @@ Attributen van objecttype Relatie
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-23 16:01:41 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_F5FAF498_F536_4fb3_9948_73EBCDF61AD5 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Relatiesoort
@@ -979,13 +993,15 @@ Attributen van objecttype Relatiesoort
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-23 15:40:08 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_5A367DA9_DE05_4b3b_954D_24271FD4FB76 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Score
@@ -1012,13 +1028,15 @@ Attributen van objecttype Score
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-23 15:34:03 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_653EA248_1547_4f8b_B026_B44FEEC711B2 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Scoresoort
@@ -1026,6 +1044,42 @@ Attributen van objecttype Scoresoort
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | niveau | N1 |  |
+
+
+
+
+### Stadspas
+> **Definitie Stadspas:** 
+>
+> Een stadspas geeft inwoners van een gemeente korting op oa sport en culturele activiteiten. Vaak is deze pas voor inwoners met een laag inkomen.
+
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Stadspas |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | crossover |
+| version | 1.0 |
+| created | 2018-05-07 11:53:42 |
+| modified | 2024-04-17 13:55:32 |
+| id | EAID_810C273F_0A2B_4e68_A94B_46722FF9E19D |
+| domein-iv3 |  |
+| domein-dcat |  |
+| GEMMA-naam |  |
+| GEMMA-type |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
+
+
+Attributen van objecttype Stadspas
+
+| Attribute | Datatype | Description |
+| :--- | :--- | :--- |
+| datumEinde | Date |  |
+| datumStart | Date |  |
 
 
 
@@ -1045,13 +1099,15 @@ Attributen van objecttype Scoresoort
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-13 14:26:29 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_57F01465_EE56_4c33_9BD9_8DB351A2C530 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Tarief
@@ -1059,9 +1115,9 @@ Attributen van objecttype Tarief
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | bedrag | Bedrag |  |
-| Eenheid | Enumeratie: "Eenheid" |  |
-| einddatum | Date |  |
-| startdatum | Date |  |
+| datumEinde | Date |  |
+| datumStart | Date |  |
+| eenheid | Enumeratie: "Eenheid" |  |
 | wet | Enumeratie: "Wet" |  |
 
 
@@ -1082,13 +1138,15 @@ Attributen van objecttype Tarief
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-13 11:54:40 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_909A4134_4697_481e_9110_6386D0F6CAAD |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Team
@@ -1116,30 +1174,32 @@ Attributen van objecttype Team
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-04-23 16:56:03 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_01ECE551_A7B0_4b99_B6E7_F654D6AC15D5 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Toewijzing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanschafdatum | Date |  |
 | code | AN20 |  |
 | commentaar | Text |  |
-| datum eind toewijzing | Date |  |
-| datum start toewijzing | Date |  |
+| datumAanschaf | Date |  |
+| datumEindeToewijzing | Date |  |
+| datumStartToewijzing | Date |  |
+| datumToewijzing | Date |  |
 | eenheid | Enumeratie: "Eenheid" |  |
 | frequentie | Enumeratie: "Frequentie" |  |
 | omvang | N8 |  |
-| redenwijziging | int |  |
+| redenWijziging | int |  |
 | toewijzingnummer | N9 |  |
-| toewijzingsdatum | Date |  |
 | wet | Enumeratie: "Wet" |  |
 | None | Class: "Levering" |  |
 
@@ -1161,13 +1221,15 @@ Attributen van objecttype Toewijzing
 | author | aashkpour |
 | version | 1.0 |
 | created | 2023-07-27 15:34:06 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_EC0FB9CB_B407_49b4_8FCF_8837E7A72DA9 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Verplichting WMO Jeugd
@@ -1206,30 +1268,32 @@ Attributen van objecttype Verplichting WMO Jeugd
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-09-09 11:59:36 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_9F392B0B_1654_4b4e_9261_F0A90DA1F7BD |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Verzoek om Toewijzing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| beschikkingsingangsdatum | Date |  |
 | beschikkingsnummer | AN40 |  |
 | commentaar | text |  |
+| datumEindeToewijzing | Date |  |
+| datumIngangBeschikking | Date |  |
+| datumIngangToewijzing | Date |  |
+| datumOntvangst | Date |  |
 | eenheid | Enumeratie: "Eenheid" |  |
 | frequentie | Enumeratie: "Frequentie" |  |
-| ontvangstdatum | Date |  |
 | raamcontract | boolean |  |
-| referentieaanbieder | AN40 |  |
-| soort verwijzer | Enumeratie: "Soort Verwijzer" |  |
-| toewijzingseinddatum | Date |  |
-| toewijzingsingangsdatum | Date |  |
+| referentieAanbieder | AN40 |  |
+| soortVerwijzer | Enumeratie: "Soort Verwijzer" |  |
 | verwijzer | AN200 |  |
 | volume | int |  |
 | None | Class: "Voorziening" |  |
@@ -1255,13 +1319,15 @@ Attributen van objecttype Verzoek om Toewijzing
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-04-23 16:56:03 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_EAAF2F59_6BC0_4243_B126_A8E604B32C5E |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Voorziening
@@ -1293,13 +1359,15 @@ Attributen van objecttype Voorziening
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-13 14:31:08 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_462E3982_56C3_4442_BE2F_2C23A7ED6015 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Voorzieningsoort
@@ -1332,23 +1400,25 @@ Attributen van objecttype Voorzieningsoort
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-23 15:20:43 |
-| modified | 2023-10-12 16:27:43 |
+| modified | 2024-04-17 13:34:28 |
 | id | EAID_6C27D3D1_FBCE_4504_AF1E_48B4A4CB02EA |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Zelfredzaamheidmatrix
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| einddatumgeldigheid | date |  |
+| datumEindeGeldigheid | date |  |
+| datumStartGeldigheid | date |  |
 | naam | AN80 |  |
 | omschrijving | text |  |
-| startdatumgeldigheid | date |  |
 
 
 
@@ -1391,7 +1461,9 @@ De enumeratie Doelgroep heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -1428,7 +1500,9 @@ De enumeratie Eenheid heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -1465,7 +1539,9 @@ De enumeratie Frequentie heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -1498,7 +1574,9 @@ De enumeratie Leveringsvorm heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -1536,7 +1614,9 @@ De enumeratie Soort Verwijzer heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -1574,7 +1654,9 @@ De enumeratie Wet heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 

@@ -11,7 +11,7 @@ Het model 'Model Monumenten' kent de volgende objecttypen:
 * **Bouwactiviteit**: Het bouwen van een bouwwerk.
 * **Bouwstijl**: Trant van bouwen met bepaalde kenmerken in een bepaalde periode. In de betrokken tijdperken waren het geen levende voorstellingen; het zijn later geformuleerde (generaliserende) geschiedkundige constructies. Doelbewust komt deze tendens op sedert c. 1830. (Haslinghuis)
 * **Bouwtype**: Typering van een bouwstijl
-* **Oorspronkelijke Functie**: De functie van een object na bouw of oplevering
+* **OorspronkelijkeFunctie**: De functie van een object na bouw of oplevering
 
 
 Het model 'Model Monumenten' heeft de volgende kenmerken:
@@ -48,22 +48,24 @@ Het model 'Model Monumenten' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-07-03 15:42:28 |
-| modified | 2023-10-12 16:27:47 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_54944273_F312_44b2_A78D_43488F915429 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Ambacht
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| ambachtjaartot | int |  |
-| ambachtjaarvanaf | int |  |
 | ambachtsoort | AN300 |  |
+| jaarAmbachtTot | int |  |
+| jaarAmbachtVanaf | int |  |
 
 
 
@@ -83,13 +85,15 @@ Attributen van objecttype Ambacht
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-07-03 15:12:51 |
-| modified | 2023-10-12 16:27:47 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_32C02923_EE3A_4553_B94B_31E0C273A829 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Beschermde Status
@@ -98,12 +102,12 @@ Attributen van objecttype Beschermde Status
 | :--- | :--- | :--- |
 | bronnen | AN400 |  |
 | complex | AN200 |  |
-| datuminschrijvingregister | Date |  |
-| gemeentelijkmonumentcode | AN80 |  |
+| datumInschrijvingRegister | Date |  |
+| gemeentelijkMonumentCode | AN80 |  |
 | gezichtscode | AN20 |  |
 | naam | AN200 |  |
 | omschrijving | Text |  |
-| opmerking | text |  |
+| opmerkingen | text |  |
 | rijksmonumentcode | AN80 |  |
 | type | Enumeratie: "TypeMonument" |  |
 | None | Class: "Bouwstijl" |  |
@@ -113,7 +117,7 @@ Attributen van objecttype Beschermde Status
 | None | Class: "KADASTRALE ONROERENDE ZAAK" |  |
 | None | Class: "Ambacht" |  |
 | None | Class: "PAND" |  |
-| None | Class: "Oorspronkelijke Functie" |  |
+| None | Class: "OorspronkelijkeFunctie" |  |
 
 
 
@@ -133,13 +137,15 @@ Attributen van objecttype Beschermde Status
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-07-03 15:45:18 |
-| modified | 2023-10-12 16:27:47 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_4AD539EC_A308_43da_B025_17A1647303F3 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Bouwactiviteit
@@ -147,8 +153,8 @@ Attributen van objecttype Bouwactiviteit
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | bouwjaarklasse | AN80 |  |
-| bouwjaartot | int |  |
-| bouwjaarvan | int |  |
+| bouwjaarTot | int |  |
+| bouwjaarVan | int |  |
 | indicatie | AN8 |  |
 | omschrijving | AN300 |  |
 
@@ -166,17 +172,19 @@ Attributen van objecttype Bouwactiviteit
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://thesaurus.cultureelerfgoed.nl/concept/cht:f6cfd2c0-d452-4de8-985a-e67887b71c35/nl |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-07-03 15:39:34 |
-| modified | 2023-10-12 16:27:47 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_8C0888C9_7B2E_4fcb_AEFF_E1733875CDCA |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Bouwstijl
@@ -206,13 +214,15 @@ Attributen van objecttype Bouwstijl
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-07-03 15:39:43 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_5E9DAFBB_C9B5_4706_A43D_07AD4979DED4 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Bouwtype
@@ -226,14 +236,14 @@ Attributen van objecttype Bouwtype
 
 
 
-### Oorspronkelijke Functie
-> **Definitie Oorspronkelijke Functie:** 
+### OorspronkelijkeFunctie
+> **Definitie OorspronkelijkeFunctie:** 
 >
 > De functie van een object na bouw of oplevering
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | Oorspronkelijke Functie |
+| name | OorspronkelijkeFunctie |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -241,16 +251,18 @@ Attributen van objecttype Bouwtype
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-07-03 15:39:16 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_49993EF9_ED8B_49e0_B8F7_FC7C8C28669D |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype Oorspronkelijke Functie
+Attributen van objecttype OorspronkelijkeFunctie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -298,7 +310,9 @@ De enumeratie TypeMonument heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 

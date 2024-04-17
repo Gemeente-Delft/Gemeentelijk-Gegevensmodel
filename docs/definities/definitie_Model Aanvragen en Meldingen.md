@@ -7,8 +7,8 @@
 Het model 'Model Aanvragen en Meldingen' kent de volgende objecttypen:
 
 * **Bevoegd Gezag**: Bestuursorgaan dat bevoegd is tot het geven van een beschikking of het nemen van een ander besluit.  
-* **Gemachtigde**: Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die als vertegenwoordiger van een Initiatiefnemer optreedt. (uit: IMAM)
-* **Initiatiefnemer**: Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die het initiatief neemt tot (fysieke) ingrepen in de (leef)omgeving en daartoe een Verzoek bij het Bevoegd Gezag indient. (IMAM)
+* **Gemachtigde**: Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die als vertegenwoordiger van een Initiatiefnemer optreedt. 
+* **Initiatiefnemer**: Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die het initiatief neemt tot (fysieke) ingrepen in de (leef)omgeving en daartoe een Verzoek bij het Bevoegd Gezag indient. 
 * **Project**: Geheel van activiteiten uitgevoerd in een tijdelijk samenwerkingsverband gericht op het binnen bepaalde randvoorwaarden (bv. tijd, geld) bereiken van een vooraf gedefinieerd resultaat.
 * **Projectactiviteit**: Activiteit binnen het project
 * **Projectlocatie**: Fysieke locatie waar een project betrekking op heeft of wordt uitgevoerd.
@@ -47,17 +47,19 @@ Het model 'Model Aanvragen en Meldingen' heeft de volgende kenmerken:
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | Wet milieubeheer |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-09-23 13:44:30 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_FB771E02_8FE3_496b_B99B_CF4A496A7B80 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Bevoegd Gezag
@@ -72,7 +74,7 @@ Attributen van objecttype Bevoegd Gezag
 ### Gemachtigde
 > **Definitie Gemachtigde:** 
 >
-> Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die als vertegenwoordiger van een Initiatiefnemer optreedt. (uit: IMAM)
+> Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die als vertegenwoordiger van een Initiatiefnemer optreedt. 
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -84,13 +86,15 @@ Attributen van objecttype Bevoegd Gezag
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-09-23 13:30:23 |
-| modified | 2023-10-12 16:28:02 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_02BDED5E_9106_4aed_94C2_513689353284 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Gemachtigde
@@ -106,7 +110,7 @@ Attributen van objecttype Gemachtigde
 ### Initiatiefnemer
 > **Definitie Initiatiefnemer:** 
 >
-> Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die het initiatief neemt tot (fysieke) ingrepen in de (leef)omgeving en daartoe een Verzoek bij het Bevoegd Gezag indient. (IMAM)
+> Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die het initiatief neemt tot (fysieke) ingrepen in de (leef)omgeving en daartoe een Verzoek bij het Bevoegd Gezag indient. 
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -118,13 +122,15 @@ Attributen van objecttype Gemachtigde
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-09-23 13:29:40 |
-| modified | 2023-10-12 16:28:03 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_E38BEAEF_03C4_439b_8A64_663886C1D6F9 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Initiatiefnemer
@@ -150,13 +156,15 @@ Attributen van objecttype Initiatiefnemer
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-09-23 14:13:19 |
-| modified | 2023-10-12 16:28:03 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_E1FAE16A_42AE_4b7d_88FC_F429079D1C4D |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Project
@@ -165,7 +173,7 @@ Attributen van objecttype Project
 | :--- | :--- | :--- |
 | naam | An200 |  |
 | omschrijving | text |  |
-| project-id | AN80 |  |
+| projectID | AN80 |  |
 | None | Class: "Projectlocatie" |  |
 | None | Class: "Projectactiviteit" |  |
 
@@ -187,13 +195,15 @@ Attributen van objecttype Project
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-09-23 14:16:27 |
-| modified | 2023-10-12 16:28:03 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_B31B867F_061E_42d4_AB8A_DB5589602969 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Projectactiviteit
@@ -220,13 +230,15 @@ Attributen van objecttype Projectactiviteit
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-09-23 14:13:34 |
-| modified | 2023-10-12 16:28:03 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_D60910E1_6E36_4ebb_9687_2D2B1CE66E0B |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Projectlocatie
@@ -234,9 +246,9 @@ Attributen van objecttype Projectlocatie
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | adres | int |  |
-| kadastraal perceel | AN80 |  |
-| Kadastrale gemeente | AN80 |  |
-| Kadastrale Sectie | AN80 |  |
+| kadastraalPerceel | AN80 |  |
+| kadastraleGemeente | AN80 |  |
+| kadastraleSectie | AN80 |  |
 | None | Class: "Locatie" |  |
 
 
@@ -257,13 +269,15 @@ Attributen van objecttype Projectlocatie
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-09-23 13:54:41 |
-| modified | 2023-10-12 16:28:03 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_DF63FBD0_DCA2_45bd_81E8_EE5E72D38EDE |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Specificatie
@@ -273,8 +287,8 @@ Attributen van objecttype Specificatie
 | antwoord | An200 |  |
 | groepering | AN200 |  |
 | publiceerbaar | Boolean |  |
-| vraag-id | AN80 |  |
-| vraag classificatie | Enumeratie: "Vraag Classificatie" |  |
+| vraagClassificatie | Enumeratie: "Vraag Classificatie" |  |
+| vraagID | AN80 |  |
 | vraagreferentie | AN200 |  |
 | vraagtekst | text |  |
 | None | Class: "Projectactiviteit" |  |
@@ -297,13 +311,15 @@ Attributen van objecttype Specificatie
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-09-23 13:44:45 |
-| modified | 2023-10-12 16:28:03 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_1B3A22D3_E2BA_440a_A2FD_B3D322FB1171 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Uitvoerende instantie
@@ -330,13 +346,15 @@ Attributen van objecttype Uitvoerende instantie
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-09-23 13:29:00 |
-| modified | 2023-10-12 16:28:03 |
+| modified | 2024-04-17 13:34:41 |
 | id | EAID_B18119D9_5BF8_498f_B9D3_ECCE7A770012 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Verzoek
@@ -345,16 +363,16 @@ Attributen van objecttype Verzoek
 | :--- | :--- | :--- |
 | akkoordverklaring | boolean |  |
 | ambtshalve | boolean |  |
+| datumIndiening | Date |  |
 | doel | Enumeratie: "Doel verzoek" |  |
-| indiendatum | Date |  |
 | naam | AN200 |  |
-| referentie aanvrager | AN200 |  |
-| toelichting later aan te leveren informatie | text |  |
-| toelichting niet aan te leveren informatie | text |  |
-| toelichting verzoek | text |  |
+| referentieAanvrager | AN200 |  |
+| toelichtingLaterAanTeLeverenInformatie | text |  |
+| toelichtingNietAanTeLeverenInformatie | text |  |
+| toelichtingVerzoek | text |  |
 | type | Enumeratie: "Doel verzoek" |  |
-| Verzoeknummer | An80 |  |
-| Volgnummer | AN80 |  |
+| verzoeknummer | An80 |  |
+| volgnummer | AN80 |  |
 | None | Class: "Activiteit" |  |
 | None | Class: "Locatie" |  |
 | None | Class: "ZAAK" |  |
@@ -405,7 +423,9 @@ De enumeratie Doel verzoek heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -441,7 +461,9 @@ De enumeratie Type Verzoek heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -475,7 +497,9 @@ De enumeratie Vraag Classificatie heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 

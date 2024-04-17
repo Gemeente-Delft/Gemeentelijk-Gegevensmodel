@@ -48,13 +48,15 @@ Het model 'Model Economie' heeft de volgende kenmerken:
 | author | abrienen |
 | version | 1.0 |
 | created | 2019-12-18 13:52:42 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_3BF6985C_06AB_4cfc_9A0E_5CC37C224245 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Contact
@@ -85,20 +87,22 @@ Attributen van objecttype Contact
 | author | abrienen |
 | version | 1.0 |
 | created | 2019-12-18 14:20:03 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_5805FA72_C0CE_43c1_A53F_B81166AEFDD4 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Hotel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantal kamers | int |  |
+| aantalKamers | int |  |
 | None | Class: "Hotelbezoek" |  |
 
 
@@ -119,21 +123,23 @@ Attributen van objecttype Hotel
 | author | abrienen |
 | version | 1.0 |
 | created | 2019-12-18 14:09:16 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_669000E9_25D6_4346_B718_516CDB8B88B7 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Hotelbezoek
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| einddatum | Date |  |
-| startdatum | Date |  |
+| datumEinde | Date |  |
+| datumStart | Date |  |
 
 
 
@@ -153,13 +159,15 @@ Attributen van objecttype Hotelbezoek
 | author | abrienen |
 | version | 1.0 |
 | created | 2019-12-18 14:19:47 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_8F05E7BA_E7ED_45d1_9626_C8D7FBDB2F1B |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Verkooppunt
@@ -182,25 +190,27 @@ Attributen van objecttype Verkooppunt
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.cbs.nl/nl-nl/onze-diensten/methoden/begrippen/werkgelegenheid |
+| bron |  |
 | author | abrienen |
 | version | 1.0 |
 | created | 2019-12-18 14:08:27 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_EB35F5B8_9289_49cc_8DF4_8BD20EC662A9 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Werkgelegenheid
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalFulletimeVrouwen | int |  |
 | aantalFulltimeMannen | int |  |
+| aantalFulltimeVrouwen | int |  |
 | aantalParttimeMannen | int |  |
 | aantalParttimeVrouwen | int |  |
 | grootteklasse | AN2 |  |
@@ -223,24 +233,26 @@ Attributen van objecttype Werkgelegenheid
 | author | abrienen |
 | version | 1.0 |
 | created | 2019-12-18 14:08:39 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_0EABA880_434F_41c3_A41D_0002222AAC2A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Winkelvloeroppervlak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalkassa | int |  |
-| BronWVO | An40 |  |
+| aantalKassa | int |  |
+| bronWVO | An40 |  |
 | leegstand | Boolean |  |
-| winkelvloeroppervlak | int |  |
-| Wvoklasse | AN40 |  |
+| winkelvloeroppervlakte | int |  |
+| WVOKlasse | AN40 |  |
 
 
 

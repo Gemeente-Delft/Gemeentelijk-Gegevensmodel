@@ -7,25 +7,25 @@
 Het model 'Model Participatie' kent de volgende objecttypen:
 
 * **Component**: <Geen Definities>
-* **ComponentSoort**: <Geen Definities>
+* **Componentsoort**: <Geen Definities>
 * **Doelgroep**: Een groep mensen of klanten die een bedrijf of organisatie wil benaderen om een product, dienst of informatie onder de aandacht te brengen
 * **Fraudegegevens**: Gegevens met betrekking tot fraude
 * **Fraudesoort**: Typering van een fraude
-* **Informatie Dakloosheid**: Informatie met betrekking tot dakloosheid
+* **InformatieDakloosheid**: Informatie met betrekking tot dakloosheid
 * **Inkomensvoorziening**: Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving
 * **Inkomensvoorzieningsoort**: Typering van een inkomensvoorziening
 * **Participatiedossier**: Overzicht van alle informatie over integratie en participatie betreffende een inwoner
-* **Reden Beeindiging**: argumentatie voor stopzetting
-* **Regeling**: Verzamelnaam voor AMvB‚Äôs, Ministeri√´le regelingen, lokale verordeningen, etc. De regeling is de meest concrete uitleg van de wet. 
+* **RedenBeeindiging**: argumentatie voor stopzetting
+* **Regeling**: Verzamelnaam voor AMvB’s, Ministeriële regelingen, lokale verordeningen, etc. De regeling is de meest concrete uitleg van de wet. 
 * **Regelingsoort**: Typologie van een regeling
 * **Taalniveau**: Het duiden van bepaald gebruik en begrijpelijkheid van een taal. Het is er om verschil in taalvaardigheid te kunnen meten.
 * **Tegenprestatie**: Verplichting die tegenover een prestatie staat
-* **Tegenprestatiehoogte**: De hoogte van de tegenprestatie
+* **TegenprestatieHoogte**: De hoogte van de tegenprestatie
 * **Traject**: Samenstel van achtereenvolgens uit te voeren en onderling samenhangende deelhandelingen of van opeenvolgende stadia in een proces, voorgesteld als een route die via opeenvolgende bestemmingen naar de eindbestemming voert.
 * **TrajectActiviteit**: <Geen Definities>
 * **TrajectActiviteitsoort**: <Geen Definities>
 * **Trajectsoort**: <Geen Definities>
-* **UitkeringsRun**: <Geen Definities>
+* **Uitkeringsrun**: <Geen Definities>
 
 
 Het model 'Model Participatie' heeft de volgende kenmerken:
@@ -62,43 +62,45 @@ Het model 'Model Participatie' heeft de volgende kenmerken:
 | author | aashkpour |
 | version | 1.0 |
 | created | 2022-06-08 14:19:54 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:29 |
 | id | EAID_F4FD02F2_9FFA_4a35_BA32_B4CDE4002E7A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Component
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Bedrag | bedrag |  |
-| Datum_begin_betrekkingop | Date |  |
-| Datum_eind_betrekkingop | Date |  |
-| DebetCredit | AN50 |  |
-| Groep | AN50 |  |
-| GroepCode | AN20 |  |
-| GrootboekCode | AN50 |  |
-| GrootboekOmschrijving | AN100 |  |
-| Kostenplaats | AN50 |  |
-| Omschrijving | AN100 |  |
-| RekeningNummer | AN50 |  |
-| Toelichting | AN50 |  |
+| bedrag | bedrag |  |
+| datumBeginBetrekkingOp | Date |  |
+| datumEindeBetrekkingOp | Date |  |
+| debetCredit | AN50 |  |
+| groep | AN50 |  |
+| groepCode | AN20 |  |
+| grootboekCode | AN50 |  |
+| grootboekOmschrijving | AN100 |  |
+| kostenplaats | AN50 |  |
+| omschrijving | AN100 |  |
+| rekeningnummer | AN50 |  |
+| toelichting | AN50 |  |
 
 
 
 
-### ComponentSoort
-> **Definitie ComponentSoort:** 
+### Componentsoort
+> **Definitie Componentsoort:** 
 >
 > Geen Definitie
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | ComponentSoort |
+| name | Componentsoort |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -106,25 +108,27 @@ Attributen van objecttype Component
 | author | aashkpour |
 | version | 1.0 |
 | created | 2022-06-08 14:20:08 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:29 |
 | id | EAID_3372192D_4773_46b2_BDA5_C98B220F8954 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype ComponentSoort
+Attributen van objecttype Componentsoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Component | AN50 |  |
-| ComponentCode | AN50 |  |
-| Kolom | AN50 |  |
-| KolomCode | AN50 |  |
-| Regeling | AN100 |  |
-| RegelingCode | AN50 |  |
+| component | AN50 |  |
+| componentCode | AN50 |  |
+| kolom | AN50 |  |
+| kolomCode | AN50 |  |
+| regeling | AN100 |  |
+| regelingCode | AN50 |  |
 
 
 
@@ -144,13 +148,15 @@ Attributen van objecttype ComponentSoort
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-13 10:54:14 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:29 |
 | id | EAID_4E2B16CA_093A_40b8_B7F8_AD90D7D396A7 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Doelgroep
@@ -178,23 +184,25 @@ Attributen van objecttype Doelgroep
 | author | crossover |
 | version | 1.0 |
 | created | 2018-04-23 11:59:42 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:29 |
 | id | EAID_096E692B_4810_4571_9A51_DDDEDA13F4BF |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Fraudegegevens
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumgeconstateerd | date |  |
-| einddatumFraude | date |  |
-| fraudebedrag | bedrag |  |
-| startdatumFraude | date |  |
+| bedragFraude | bedrag |  |
+| datumEindeFraude | date |  |
+| datumGeconstateerd | date |  |
+| datumStartFraude | date |  |
 | verrekening | bedrag |  |
 | vorderingen | bedrag |  |
 
@@ -216,13 +224,15 @@ Attributen van objecttype Fraudegegevens
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-22 16:16:41 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:29 |
 | id | EAID_2D35FBDB_0399_4439_B454_25E1A4FB0279 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Fraudesoort
@@ -234,14 +244,14 @@ Attributen van objecttype Fraudesoort
 
 
 
-### Informatie Dakloosheid
-> **Definitie Informatie Dakloosheid:** 
+### InformatieDakloosheid
+> **Definitie InformatieDakloosheid:** 
 >
 > Informatie met betrekking tot dakloosheid
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | Informatie Dakloosheid |
+| name | InformatieDakloosheid |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -249,24 +259,26 @@ Attributen van objecttype Fraudesoort
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-09-10 15:28:20 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:29 |
 | id | EAID_A0F8E790_518A_4717_88C2_1143DE9F944A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype Informatie Dakloosheid
+Attributen van objecttype InformatieDakloosheid
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| einddatum | Date |  |
-| gemeente oorsprong | AN200 |  |
-| startdatum | Date |  |
-| toestemming gemeentelijk briefadres | boolean |  |
-| toestemming nachtopvang | boolean |  |
+| datumEinde | Date |  |
+| datumStart | Date |  |
+| gemeenteOorsprong | AN200 |  |
+| toestemmingGemeentelijkBriefadres | boolean |  |
+| toestemmingNachtopvang | boolean |  |
 
 
 
@@ -286,13 +298,15 @@ Attributen van objecttype Informatie Dakloosheid
 | author | crossover |
 | version | 1.0 |
 | created | 2018-04-23 11:53:14 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:29 |
 | id | EAID_07784236_3AA6_45e5_8253_7D088C4020B0 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Inkomensvoorziening
@@ -300,11 +314,11 @@ Attributen van objecttype Inkomensvoorziening
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | bedrag | bedrag |  |
+| datumEinde | date |  |
+| datumStart | date |  |
+| datumToekenning | date |  |
 | eenmalig | boolean |  |
-| einddatum | date |  |
 | groep | AN100 |  |
-| ingangsdatum | date |  |
-| toekenningsdatum | date |  |
 
 
 
@@ -324,13 +338,15 @@ Attributen van objecttype Inkomensvoorziening
 | author | crossover |
 | version | 1.0 |
 | created | 2018-04-23 11:53:23 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:29 |
 | id | EAID_AF18E7D3_279D_4323_B785_6C75B4701430 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Inkomensvoorzieningsoort
@@ -341,7 +357,7 @@ Attributen van objecttype Inkomensvoorzieningsoort
 | naam | AN80 |  |
 | omschrijving | text |  |
 | regeling | AN200 |  |
-| regelingscode | AN20 |  |
+| regelingCode | AN20 |  |
 | vergoeding | AN200 |  |
 | vergoedingscode | AN20 |  |
 | wet | Enumeratie: "Wet" |  |
@@ -364,13 +380,15 @@ Attributen van objecttype Inkomensvoorzieningsoort
 | author | aashkpour |
 | version | 1.0 |
 | created | 2021-06-28 14:25:38 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:29 |
 | id | EAID_F1DA83DA_4F56_408c_B2C4_AB6AF02E37B4 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Participatiedossier
@@ -380,22 +398,22 @@ Attributen van objecttype Participatiedossier
 | arbeidsvermogen | AN100 |  |
 | begeleiderscode | int |  |
 | beschutwerk | AN200 |  |
-| ClientbegeleiderID | int |  |
-| einddatum begeleiding | date |  |
-| Indicatie doelgroepregister | Enumeratie: "Boolean" |  |
-| startdatum begeleiding | date |  |
+| clientbegeleiderID | int |  |
+| datumEindeBegeleiding | date |  |
+| datumStartBegeleiding | date |  |
+| indicatieDoelgroepregister | Enumeratie: "Boolean" |  |
 
 
 
 
-### Reden Beeindiging
-> **Definitie Reden Beeindiging:** 
+### RedenBeeindiging
+> **Definitie RedenBeeindiging:** 
 >
 > argumentatie voor stopzetting
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | Reden Beeindiging |
+| name | RedenBeeindiging |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -403,16 +421,18 @@ Attributen van objecttype Participatiedossier
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-13 11:10:14 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:29 |
 | id | EAID_FF79699B_F356_4168_875F_B4D0266789EE |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype Reden Beeindiging
+Attributen van objecttype RedenBeeindiging
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -425,7 +445,7 @@ Attributen van objecttype Reden Beeindiging
 ### Regeling
 > **Definitie Regeling:** 
 >
-> Verzamelnaam voor AMvB‚Äôs, Ministeri√´le regelingen, lokale verordeningen, etc. De regeling is de meest concrete uitleg van de wet. 
+> Verzamelnaam voor AMvB’s, Ministeriële regelingen, lokale verordeningen, etc. De regeling is de meest concrete uitleg van de wet. 
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -433,27 +453,29 @@ Attributen van objecttype Reden Beeindiging
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.begrippenxl.nl/dso/nl/page/Regeling |
+| bron |  |
 | author | crossover |
 | version | 1.0 |
 | created | 2018-04-23 11:56:16 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:29 |
 | id | EAID_C25455F3_FEB0_4c6d_9AA4_3B027718BEE3 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Regeling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| einddatum | date |  |
+| datumEinde | date |  |
+| datumStart | date |  |
+| datumToekenning | date |  |
 | omschrijving | text |  |
-| startdatum | date |  |
-| toekenningsdatum | date |  |
 
 
 
@@ -473,13 +495,15 @@ Attributen van objecttype Regeling
 | author | crossover |
 | version | 1.0 |
 | created | 2018-04-23 11:56:27 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:29 |
 | id | EAID_14D3C960_5EF2_433c_8E1C_B493974280E2 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Regelingsoort
@@ -507,13 +531,15 @@ Attributen van objecttype Regelingsoort
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-13 11:06:05 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:29 |
 | id | EAID_74DF3CC8_5890_4e02_9B11_57FF82F26EA4 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Taalniveau
@@ -541,33 +567,35 @@ Attributen van objecttype Taalniveau
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-13 11:40:11 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:29 |
 | id | EAID_B3F6F6D2_5054_484d_A0C4_A95EF6FA5AD2 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Tegenprestatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| einddatum | Date |  |
-| startdatum | Date |  |
+| datumEinde | Date |  |
+| datumStart | Date |  |
 
 
 
 
-### Tegenprestatiehoogte
-> **Definitie Tegenprestatiehoogte:** 
+### TegenprestatieHoogte
+> **Definitie TegenprestatieHoogte:** 
 >
 > De hoogte van de tegenprestatie
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | Tegenprestatiehoogte |
+| name | TegenprestatieHoogte |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -575,16 +603,18 @@ Attributen van objecttype Tegenprestatie
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-13 11:45:57 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:29 |
 | id | EAID_7A514B8D_7161_4334_8202_41DD00A65E8A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype Tegenprestatiehoogte
+Attributen van objecttype TegenprestatieHoogte
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -606,27 +636,29 @@ Attributen van objecttype Tegenprestatiehoogte
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.ensie.nl/anw/traject |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-22 15:53:14 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:29 |
 | id | EAID_AB20D9F3_FBEB_4d10_A8A5_429F0AB8432F |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Traject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| einddatum | date |  |
-| startdatum | date |  |
+| datumEinde | date |  |
+| datumStart | date |  |
+| datumToekenning | date |  |
 | status | AN20 |  |
-| toekenningsdatum | date |  |
 
 
 
@@ -646,27 +678,29 @@ Attributen van objecttype Traject
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-22 15:52:57 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:29 |
 | id | EAID_C84E20C3_9FE5_49bf_AFE2_C5A868F2D7D5 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype TrajectActiviteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Contract | AN50 |  |
-| Crediteur | AN20 |  |
-| Datum Begin | Date |  |
-| Datum Status | Date |  |
-| Datum_Einde | Date |  |
-| Kinderopvang | AN50 |  |
-| Status | AN20 |  |
-| Succesvol | AN20 |  |
+| contract | AN50 |  |
+| crediteur | AN20 |  |
+| datumBegin | Date |  |
+| datumEinde | Date |  |
+| datumStatus | Date |  |
+| kinderopvang | AN50 |  |
+| status | AN20 |  |
+| succesvol | AN20 |  |
 
 
 
@@ -686,22 +720,24 @@ Attributen van objecttype TrajectActiviteit
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-22 15:52:30 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:29 |
 | id | EAID_3AB13A36_82B9_401d_9FBD_67D8EB7312C8 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype TrajectActiviteitsoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Aanleveren SRG | AN20 |  |
-| Omschrijving | AN50 |  |
-| Type Traject SRG | AN20 |  |
+| aanleverenSRG | AN20 |  |
+| omschrijving | AN50 |  |
+| typeTrajectSRG | AN20 |  |
 
 
 
@@ -721,13 +757,15 @@ Attributen van objecttype TrajectActiviteitsoort
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-22 15:53:44 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:29 |
 | id | EAID_65B605C4_8F44_4447_BA76_B3070B1EBCBD |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Trajectsoort
@@ -740,14 +778,14 @@ Attributen van objecttype Trajectsoort
 
 
 
-### UitkeringsRun
-> **Definitie UitkeringsRun:** 
+### Uitkeringsrun
+> **Definitie Uitkeringsrun:** 
 >
 > Geen Definitie
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | UitkeringsRun |
+| name | Uitkeringsrun |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -755,23 +793,25 @@ Attributen van objecttype Trajectsoort
 | author | aashkpour |
 | version | 1.0 |
 | created | 2022-06-08 14:20:23 |
-| modified | 2023-10-12 16:27:42 |
+| modified | 2024-04-17 13:34:29 |
 | id | EAID_F787184D_3AA8_4132_96C4_23A363C3C1B7 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype UitkeringsRun
+Attributen van objecttype Uitkeringsrun
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| DatumRun | Date |  |
-| Frequentie | AN20 |  |
-| PeriodeRun | AN20 |  |
-| SoortRun | AN50 |  |
+| datumRun | Date |  |
+| frequentie | AN20 |  |
+| periodeRun | AN20 |  |
+| soortRun | AN50 |  |
 
 
 

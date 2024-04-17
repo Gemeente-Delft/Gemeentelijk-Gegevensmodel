@@ -20,7 +20,7 @@ Het model 'Model Archeologie' kent de volgende objecttypen:
 * **Spoor**: Een blijk van eerdere aanwezigheid.
 * **Stelling**: Een systeem om goederen op te slaan die worden vervoerd en opgeslagen op pallets, in bundels of per stuk.(Wikipedia)
 * **Vindplaats**: Een plek waar men iets gevonden heeft.
-* **Vlak**: Plat, oneindig oppervlak of vari√´teit zonder enige kromming. 
+* **Vlak**: Plat, oneindig oppervlak of variëteit zonder enige kromming. 
 * **Vondst**: Overblijfsel, voorwerp of ander spoor van menselijke aanwezigheid in het verleden afkomstig van een archeologisch monument
 * **Vulling**: Dunne wegeringsplank gebruikt om de ruimte tussen de bovenste kimweger en de onderste balkweger op te vullen (Sopers, 1974).
 
@@ -59,13 +59,15 @@ Het model 'Model Archeologie' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-06 15:56:31 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_836E51BF_65E9_4482_B555_C9AB737D264D |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Archeologiebesluit
@@ -87,51 +89,53 @@ Attributen van objecttype Archeologiebesluit
 | toelichting |  |
 | synoniemen | artefacten, voorwerp, voorwerpen |
 | uri |  |
-| bron | https://thesaurus.cultureelerfgoed.nl/concept/cht:bc706712-3738-462b-8c8c-a0befff10ff5/nl |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-26 16:14:39 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_2C230EE7_036D_48be_B82A_FF45598170F7 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Artefact
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| artefectnr | AN20 |  |
+| artefectnummer | AN20 |  |
 | beschrijving | text |  |
 | conserveren | boolean |  |
 | datering | AN40 |  |
-| dateringcomplex | AN20 |  |
+| dateringComplex | AN20 |  |
 | determinatieniveau | AN40 |  |
 | dianummer | AN200 |  |
 | doosnummer | AN40 |  |
 | exposabel | boolean |  |
 | fotonummer | AN200 |  |
 | functie | AN80 |  |
-| herkomstXXX | AN80 |  |
+| herkomst | AN80 |  |
 | key | AN40 |  |
-| key_doos | AN40 |  |
-| key_magazijnplaatsing | AN40 |  |
-| key_put | AN40 |  |
-| key_vondst | An40 |  |
+| keyDoos | AN40 |  |
+| keyMagazijnplaatsing | AN40 |  |
+| keyPut | AN40 |  |
+| keyVondst | An40 |  |
 | literatuur | AN200 |  |
 | maten | AN80 |  |
 | naam | AN40 |  |
 | opmerkingen | text |  |
 | origine | An80 |  |
-| projectcd | AN20 |  |
-| putnr | AN20 |  |
-| restauratie_wenselijk | boolean |  |
+| projectCD | AN20 |  |
+| putnummer | AN20 |  |
+| restauratieWenselijk | boolean |  |
 | tekeningnummer | AN200 |  |
 | type | AN80 |  |
-| vondstnr | An20 |  |
+| vondstnummer | An20 |  |
 | None | Class: "Doos" |  |
 
 
@@ -152,13 +156,15 @@ Attributen van objecttype Artefact
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-06 15:02:51 |
-| modified | 2023-10-12 16:27:47 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_67CF25EB_EBB0_4185_8171_1F9DD3B5D212 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Artefactsoort
@@ -187,13 +193,15 @@ Attributen van objecttype Artefactsoort
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-06 15:17:02 |
-| modified | 2023-10-12 16:27:47 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_E11FDCA7_7538_4353_83FF_72164D928452 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype boring
@@ -212,32 +220,34 @@ Attributen van objecttype boring
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Doos |
-| toelichting | Een doos bestaat meestal uit gevouwen karton, eventueel met lijm of plakband dichtgezet. In deze vorm heeft het vaak de vorm van een balk. Met een doos wordt meestal een grote kartonnen doos bedoeld, met geen andere functie dan verpakking of opslag. Voorbeelden zijn een verhuisdoos en een schoenendoos. Een ander soort doos is een tekendoos en is meestal van hout. |
+| toelichting | Een doos bestaat meestal uit gevouwen karton, eventueel met lijm of plakband dichtgezet. In deze vorm heeft het vaak de vorm van een balk. Met een doos wordt meestal een grote kartonnen doos bedoeld, met geen andere functie dan verpakking of opslag. Voorb |
 | synoniemen |  |
 | uri |  |
-| bron | https://thesaurus.cultureelerfgoed.nl/concept/cht:44872c69-2b39-4667-88a7-9500b45b65c9/nl |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-21 22:07:15 |
-| modified | 2023-10-12 16:27:47 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_703CAFCF_FDC0_4861_AA76_1692303DE7BE |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Doos
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| doosnr | An40 |  |
+| doosnummer | An40 |  |
 | herkomst | AN200 |  |
 | inhoud | text |  |
 | key | AN40 |  |
-| key_magazijnlocatie | AN40 |  |
-| projectcd | AN40 |  |
+| keyMagazijnlocatie | AN40 |  |
+| projectCD | AN40 |  |
 
 
 
@@ -253,17 +263,19 @@ Attributen van objecttype Doos
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.begrippenxl.nl/dso/nl/page/Kaart |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-06 16:12:42 |
-| modified | 2023-10-12 16:27:47 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_F28DDE36_7BE4_45f7_A820_FFF0261CAA4E |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Kaart
@@ -292,13 +304,15 @@ Attributen van objecttype Kaart
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-06 15:08:13 |
-| modified | 2023-10-12 16:27:47 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_F25EE5A8_2CF4_498b_8DAD_8EEE48FAF3A5 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype locatie
@@ -325,13 +339,15 @@ Attributen van objecttype locatie
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-02-05 16:18:27 |
-| modified | 2023-10-12 16:27:47 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_4C1543FD_250B_4291_9B23_BC9D3D9C0C4A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Magazijnlocatie
@@ -340,7 +356,7 @@ Attributen van objecttype Magazijnlocatie
 | :--- | :--- | :--- |
 | key | AN20 |  |
 | stelling | AN8 |  |
-| vaknr | AN8 |  |
+| vaknummer | AN8 |  |
 | volgletter | AN8 |  |
 
 
@@ -361,13 +377,15 @@ Attributen van objecttype Magazijnlocatie
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-02-05 16:22:28 |
-| modified | 2023-10-12 16:27:47 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_F954FB72_AE88_4a0e_A3D8_555FCF8D9C9F |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Magazijnplaatsing
@@ -375,12 +393,12 @@ Attributen van objecttype Magazijnplaatsing
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | beschrijving | Text |  |
-| datumgeplaatst | Date |  |
+| datumGeplaatst | Date |  |
 | herkomst | AN250 |  |
 | key | AN40 |  |
-| key_doos | AN40 |  |
-| key_magazijnlocatie | AN40 |  |
-| projectcd | An40 |  |
+| keyDoos | AN40 |  |
+| keyMagazijnlocatie | AN40 |  |
+| projectCD | An40 |  |
 | uitgeleend | boolean |  |
 
 
@@ -401,13 +419,15 @@ Attributen van objecttype Magazijnplaatsing
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-06 15:00:39 |
-| modified | 2023-10-12 16:27:47 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_E42A32F7_262F_4005_9EB9_4674B76E8825 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Project
@@ -415,14 +435,14 @@ Attributen van objecttype Project
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | coordinaten | GML |  |
-| einddatum | Date |  |
-| jaartot | N4 |  |
-| jaarvan | N4 |  |
+| datumEinde | Date |  |
+| datumStart | Date |  |
+| jaarTot | N4 |  |
+| jaarVan | N4 |  |
 | locatie | Point |  |
 | naam | AN80 |  |
 | naamcode | AN40 |  |
-| projectcd | AN40 |  |
-| startdatum | Date |  |
+| projectCD | AN40 |  |
 | toponiem | AN80 |  |
 | trefwoorden | AN250 |  |
 
@@ -440,17 +460,19 @@ Attributen van objecttype Project
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://thesaurus.cultureelerfgoed.nl/concept/abr:183fd493-d693-4c45-8571-a266ad39fa69/nl |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-06 15:01:44 |
-| modified | 2023-10-12 16:27:47 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_17286CE1_21F2_454b_95A6_3E4C0C6E2453 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Put
@@ -458,8 +480,8 @@ Attributen van objecttype Put
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | key | AN40 |  |
-| projectcd | AN40 |  |
-| putnr | AN40 |  |
+| projectCD | AN40 |  |
+| putnummer | AN40 |  |
 
 
 
@@ -475,17 +497,19 @@ Attributen van objecttype Put
 | toelichting | In enge zin is het een afdruk in de grond, bijvoorbeeld van schoenen, voeten, poten of banden. Meer algemeen worden ook andere veranderingen op een locatie of route sporen genoemd, en, nog algemener, ook andere aanwijzingen voor te achterhalen informatie. |
 | synoniemen | Overblijfsel |
 | uri |  |
-| bron | https://nl.wikipedia.org/wiki/Spoor_(overblijfsel) |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-06 15:02:07 |
-| modified | 2023-10-12 16:27:47 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_14939C33_2DCE_41bf_A2BE_FF1EDD292FE7 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Spoor
@@ -496,14 +520,14 @@ Attributen van objecttype Spoor
 | beschrijving | text |  |
 | datering | AN20 |  |
 | datum | Date |  |
-| hoogte boven | AN20 |  |
-| hoogte onder | AN20 |  |
+| hoogteBoven | AN20 |  |
+| hoogteOnder | AN20 |  |
 | key | AN40 |  |
-| key_vlak | AN40 |  |
-| projectcd | AN40 |  |
-| putnr | AN40 |  |
-| spoornr | AN40 |  |
-| vlaknr | AN40 |  |
+| keyVlak | AN40 |  |
+| projectCD | AN40 |  |
+| putnummer | AN40 |  |
+| spoornummer | AN40 |  |
+| vlaknummer | AN40 |  |
 | vorm | AN20 |  |
 
 
@@ -520,17 +544,19 @@ Attributen van objecttype Spoor
 | toelichting |  |
 | synoniemen | Stellingkast |
 | uri |  |
-| bron | https://thesaurus.cultureelerfgoed.nl/concept/cht:66fcf9b7-d52e-4bd1-8f09-eba772158a52/nl |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-21 22:06:59 |
-| modified | 2023-10-12 16:27:47 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_382D408F_41A3_49d2_9F66_DFFA6C75590D |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Stelling
@@ -554,17 +580,19 @@ Attributen van objecttype Stelling
 | toelichting |  |
 | synoniemen | Vindplaatsen |
 | uri |  |
-| bron | https://thesaurus.cultureelerfgoed.nl/concept/cht:5c3f6109-eefe-4ba5-bc63-e586d3aa5628/nl |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-11-21 22:13:10 |
-| modified | 2023-10-13 11:23:04 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_84DED9A9_2D33_4a77_94F2_29657024590F |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Vindplaats
@@ -593,7 +621,7 @@ Attributen van objecttype Vindplaats
 ### Vlak
 > **Definitie Vlak:** 
 >
-> Plat, oneindig oppervlak of vari√´teit zonder enige kromming. 
+> Plat, oneindig oppervlak of variëteit zonder enige kromming. 
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -601,30 +629,32 @@ Attributen van objecttype Vindplaats
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://nl.wikipedia.org/wiki/Vlak_(meetkunde) |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-06 15:01:55 |
-| modified | 2023-10-12 16:27:47 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_0644BD52_8C2B_462d_94B9_9C99908952F5 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Vlak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| dieptetot | N3 |  |
-| dieptevan | N3 |  |
+| diepteTot | N3 |  |
+| diepteVan | N3 |  |
 | key | AN40 |  |
-| key_put | AN40 |  |
-| projectcd | AN20 |  |
-| putnr | AN20 |  |
-| vlaknr | AN20 |  |
+| keyPut | AN40 |  |
+| projectCD | AN20 |  |
+| putnummer | AN20 |  |
+| vlaknummer | AN20 |  |
 
 
 
@@ -640,17 +670,19 @@ Attributen van objecttype Vlak
 | toelichting |  |
 | synoniemen | Archeologische vondst |
 | uri |  |
-| bron | https://thesaurus.cultureelerfgoed.nl/concept/rn:7992cd2c-8412-489c-8ce4-58bee5854df7/nl |
+| bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-06 15:02:35 |
-| modified | 2023-10-12 16:27:47 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_F8283401_70F8_41b8_A97C_32A9074AD4B1 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Vondst
@@ -659,17 +691,17 @@ Attributen van objecttype Vondst
 | :--- | :--- | :--- |
 | datum | Date |  |
 | key | AN40 |  |
-| key_vulling | AN40 |  |
+| keyVulling | AN40 |  |
 | omschrijving | text |  |
 | omstandigheden | text |  |
-| projectcd | AN20 |  |
-| putnr | AN20 |  |
-| spoornr | AN20 |  |
-| vlaknr | AN20 |  |
-| vondstnr | AN20 |  |
-| vullingnr | AN20 |  |
-| xcoord | int |  |
-| ycoord | int |  |
+| projectCD | AN20 |  |
+| putnummer | AN20 |  |
+| spoornummer | AN20 |  |
+| vlaknummer | AN20 |  |
+| vondstnummer | AN20 |  |
+| vullingnummer | AN20 |  |
+| XCoordinaat | int |  |
+| YCoordinaat | int |  |
 
 
 
@@ -689,13 +721,15 @@ Attributen van objecttype Vondst
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-06 15:02:19 |
-| modified | 2023-10-12 16:27:47 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_8417459E_2193_44a2_A1AC_38C39EA93CBF |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Vulling
@@ -704,14 +738,14 @@ Attributen van objecttype Vulling
 | :--- | :--- | :--- |
 | grondsoort | AN80 |  |
 | key | AN40 |  |
-| key_spoor | AN40 |  |
+| keySpoor | AN40 |  |
 | kleur | AN80 |  |
-| projectcd | AN20 |  |
-| putnr | An20 |  |
-| spoornr | AN20 |  |
+| projectCD | AN20 |  |
+| putnummer | An20 |  |
+| spoornummer | AN20 |  |
 | structuur | AN80 |  |
-| vlaknr | AN20 |  |
-| vullingnr | AN20 |  |
+| vlaknummer | AN20 |  |
+| vullingnummer | AN20 |  |
 
 
 

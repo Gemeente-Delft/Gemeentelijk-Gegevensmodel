@@ -43,21 +43,23 @@ Het model 'Model' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-15 10:31:56 |
-| modified | 2023-10-12 16:27:41 |
+| modified | 2024-04-17 13:34:48 |
 | id | EAID_137DECB4_F249_4039_B4F3_787852C4CB11 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Periode
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| begindatum | date |  |
-| einddatum | date |  |
+| datumEinde | date |  |
+| datumStart | date |  |
 | omschrijving |  |  |
 
 

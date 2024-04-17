@@ -8,7 +8,7 @@ Het model 'Model Leerplicht en Leerlingenvervoer' kent de volgende objecttypen:
 
 * **Aanvraag Leerlingenvervoer**: Een aanvraag voor een leerling die recht heeft op vervoer van en naar onderwijs.
 * **AanvraagOfMelding**: Komt overeen met een VJV
-* **Aanvraagvrijstelling**: Vrijstelling van een aanvraag voor leerlingenvervoer
+* **AanvraagVrijstelling**: Vrijstelling van een aanvraag voor leerlingenvervoer
 * **Beschikking Leerlingenvervoer**: <Geen Definities>
 * **Beslissing**: Selectie van een voorstelbare werkelijkheid (voorkeursvariant) uit een aantal mogelijke werkelijkheden (varianten) op basis van een verzameling van criteria.
 * **Doorgeleiding OM**: <Geen Definities>
@@ -57,13 +57,15 @@ Het model 'Model Leerplicht en Leerlingenvervoer' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-08 14:25:36 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_07F40D10_74AC_4f56_8B71_A236A63C2122 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Aanvraag Leerlingenvervoer
@@ -82,20 +84,22 @@ Attributen van objecttype Aanvraag Leerlingenvervoer
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | AanvraagOfMelding |
-| toelichting | Via het Omgevingsloket kunnen initiatiefnemers een vergunningaanvraag of een melding indienen in het Digitaal Stelsel Omgevingswet (DSO). Duidelijke stappen en vragen leiden hen door dit proces. De overheid vertaalt hiervoor indieningsvereisten naar toepasbare regels voor het loket. |
+| toelichting | Via het Omgevingsloket kunnen initiatiefnemers een vergunningaanvraag of een melding indienen in het Digitaal Stelsel Omgevingswet (DSO). Duidelijke stappen en vragen leiden hen door dit proces. De overheid vertaalt hiervoor indieningsvereisten naar toepa |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-08 13:41:08 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_66E2B5BA_44A0_4fde_AE33_E211EE4832C2 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype AanvraagOfMelding
@@ -103,7 +107,7 @@ Attributen van objecttype AanvraagOfMelding
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datum | Date |  |
-| opmerking | AN300 |  |
+| opmerkingen | AN300 |  |
 | reden | AN300 |  |
 | soortVerzuimOfAanvraag | Enumeratie: "Verzuimsoort" |  |
 | None | Class: "Leerling" |  |
@@ -113,14 +117,14 @@ Attributen van objecttype AanvraagOfMelding
 
 
 
-### Aanvraagvrijstelling
-> **Definitie Aanvraagvrijstelling:** 
+### AanvraagVrijstelling
+> **Definitie AanvraagVrijstelling:** 
 >
 > Vrijstelling van een aanvraag voor leerlingenvervoer
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | Aanvraagvrijstelling |
+| name | AanvraagVrijstelling |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -128,21 +132,23 @@ Attributen van objecttype AanvraagOfMelding
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-07 17:08:58 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_450F47A7_758F_400c_82EB_05535EBDD426 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
-Attributen van objecttype Aanvraagvrijstelling
+Attributen van objecttype AanvraagVrijstelling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanvraagdatum | Date |  |
-| buitenlandse schoollocatie | AN300 |  |
+| buitenlandseSchoollocatie | AN300 |  |
+| datumAanvraag | Date |  |
 
 
 
@@ -162,13 +168,15 @@ Attributen van objecttype Aanvraagvrijstelling
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-08 14:24:29 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_81870665_768C_4fb2_8A4F_A9CB7989C884 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Beschikking Leerlingenvervoer
@@ -194,13 +202,15 @@ Attributen van objecttype Beschikking Leerlingenvervoer
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-07 17:07:12 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_B65280CD_3429_4966_AD2D_CB3EE76EE2E8 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Beslissing
@@ -208,7 +218,7 @@ Attributen van objecttype Beslissing
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datum | Date |  |
-| opmerking | text |  |
+| opmerkingen | text |  |
 | reden | AN200 |  |
 | None | Class: "Leerling" |  |
 | None | Class: "Leerplichtambtenaar" |  |
@@ -232,13 +242,15 @@ Attributen van objecttype Beslissing
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-07 17:09:13 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_90E49701_2A06_4669_9199_6FCFDFCA707A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Doorgeleiding OM
@@ -259,20 +271,22 @@ Attributen van objecttype Doorgeleiding OM
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | HALT-verwijzing |
-| toelichting | Halt heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt. Halt legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogeheten Halt-straf. Halt heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt. Halt legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogeheten Halt-straf. Halt heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt. Halt legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogeheten Halt-straf. |
+| toelichting | Halt heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt. Halt legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogeheten Halt- |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-07 17:25:07 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_70E3C6AF_1117_4cfc_B61F_0D168010FFB9 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype HALT-verwijzing
@@ -280,9 +294,9 @@ Attributen van objecttype HALT-verwijzing
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | afdoening | AN300 |  |
-| datum retour | Date |  |
+| datumMutatie | Date |  |
+| datumRetour | Date |  |
 | memo | Text |  |
-| mutatiedatum | Date |  |
 
 
 
@@ -302,13 +316,15 @@ Attributen van objecttype HALT-verwijzing
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-17 11:16:59 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_07FE66E8_8316_406b_A590_922C2E7B4305 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Klacht Leerlingenvervoer
@@ -335,13 +351,15 @@ Attributen van objecttype Klacht Leerlingenvervoer
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-05-28 16:47:00 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_B369B374_F560_4ea6_9A8B_DBBCB4961EFF |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Leerplichtambtenaar
@@ -367,26 +385,28 @@ Attributen van objecttype Leerplichtambtenaar
 | author | crossover |
 | version | 1.0 |
 | created | 2018-05-04 14:58:20 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_697F1730_B439_4b35_8799_1B2E9AB04548 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Procesverbaal Onderwijs
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datum afgehandeld | Date |  |
-| datum ingelicht | Date |  |
-| datum uitspraak | Date |  |
-| datum zitting | Date |  |
-| einddatum proeftijd | Date |  |
+| datumAfgehandeld | Date |  |
+| datumEindeProeftijd | Date |  |
+| datumIngelicht | Date |  |
+| datumUitspraak | Date |  |
+| datumZitting | Date |  |
 | geldboete | Bedrag |  |
-| geldboete voorwaardelijk | Boolean |  |
+| geldboeteVoorwaardelijk | Boolean |  |
 | opmerkingen | An1000 |  |
 | proeftijd | int |  |
 | reden | AN255 |  |
@@ -412,22 +432,24 @@ Attributen van objecttype Procesverbaal Onderwijs
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-07 17:08:43 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_E9DECE41_F7F5_49f1_94B5_63DE941F6094 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Verlofaanvraag
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datum tot | Date |  |
-| datum vanaf | Date |  |
-| soort verlof | AN200 |  |
+| datumStart | Date |  |
+| datumTot | Date |  |
+| soortVerlof | AN200 |  |
 
 
 
@@ -447,13 +469,15 @@ Attributen van objecttype Verlofaanvraag
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-17 11:24:55 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_613E192A_D0F2_4e67_BE73_51C09197EE3D |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Vervoerder
@@ -479,22 +503,24 @@ Attributen van objecttype Vervoerder
 | author | crossover |
 | version | 1.0 |
 | created | 2018-05-04 14:57:49 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_252C70B1_4E02_4033_B2B5_86F65496D7AB |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Verzuimmelding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| einddatum | Datum |  |
-| startdatum | Datum |  |
-| voorstel school | AN300 |  |
+| datumEinde | Datum |  |
+| datumStart | Datum |  |
+| voorstelSchool | AN300 |  |
 
 
 
@@ -514,23 +540,25 @@ Attributen van objecttype Verzuimmelding
 | author | crossover |
 | version | 1.0 |
 | created | 2018-05-04 14:58:11 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_B8584CD2_A54A_4a59_82B6_A597A0864CFA |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Vrijstelling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanvraagtoegekend | boolean |  |
-| buitenlandseschoollocatie | AN500 |  |
-| einddatum | Datum |  |
-| startdatum | Datum |  |
+| aanvraagToegekend | boolean |  |
+| buitenlandseSchoollocatie | AN500 |  |
+| datumEinde | Datum |  |
+| datumStart | Datum |  |
 | verzuimsoort | Enumeratie: "Verzuimsoort" |  |
 
 
@@ -551,13 +579,15 @@ Attributen van objecttype Vrijstelling
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-10-17 11:17:22 |
-| modified | 2023-10-12 16:27:46 |
+| modified | 2024-04-17 13:34:25 |
 | id | EAID_7689A6B7_2A9E_42db_A028_E4601305DBFF |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Ziekmelding Leerlingenvervoer
@@ -600,7 +630,9 @@ De enumeratie Sanctiesoort heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -631,7 +663,9 @@ De enumeratie Verzuimsoort heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 
@@ -660,7 +694,9 @@ De enumeratie Vrijstellingsoort heeft de volgende kenmerken:
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 

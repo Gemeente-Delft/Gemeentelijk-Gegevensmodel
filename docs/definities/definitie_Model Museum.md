@@ -18,7 +18,7 @@ Het model 'Model Museum' kent de volgende objecttypen:
 * **Incident**: Niet-gepland(e) gebeurtenis die of voorval dat tot schade of verlies leidt
 * **Lener**: Iemand die iets te leen krijgt, met name iemand die boeken, digitale bestanden of apparatuur leent bij een museum, bibliotheek, mediatheek of een andere uitleeninstantie
 * **Mailing**: Per post verstuurde inhoud
-* **Museumobject**: Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifini√´erd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht.
+* **Museumobject**: Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht.
 * **Museumrelatie**: Betrekking waarin het museum en personen tot elkaar staan
 * **Omzetgroep**: Artikelen worden gebruikt om omzet te registreren in de shop, de horeca of elders. De omzet wordt vervolgens getotaliseerd op rapportages. Om de artikelen te groeperen moet ieder artikel tot een omzetgroep behoren.
 * **Prijs**: De te betalen hoeveelheid geld
@@ -65,27 +65,29 @@ Het model 'Model Museum' heeft de volgende kenmerken:
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Activiteit |
-| toelichting | Bijvoorbeeld: het lozen van afvalwater, het bouwen van hoogbouw, het exploiteren van een jachthaven. Het objecttype activiteit is een typering van alle activiteiten die bijvoorbeeld een initiatiefnemer kan uitvoeren in de leefomgeving. Er wordt geen specifieke activiteit bedoeld die een specifieke initiatiefnemer voornemens is om uit te voeren, maar het type activiteit waarover regels opgesteld zijn. |
+| toelichting | Bijvoorbeeld: het lozen van afvalwater, het bouwen van hoogbouw, het exploiteren van een jachthaven. Het objecttype activiteit is een typering van alle activiteiten die bijvoorbeeld een initiatiefnemer kan uitvoeren in de leefomgeving. Er wordt geen speci |
 | synoniemen |  |
 | uri |  |
-| bron | https://geonovum.github.io/TPOD/CIMOW/CIMOW_v2.1.0.pdf |
+| bron |  |
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-12 13:24:51 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_A1C60F39_3074_4d1c_A37D_5F431F54DF92 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Activiteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantal personen | int |  |
+| aantalPersonen | int |  |
 | naam | AN80 |  |
 | omschrijving | Text |  |
 | None | Class: "Rondleiding" |  |
@@ -110,13 +112,15 @@ Attributen van objecttype Activiteit
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-12 13:25:49 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_D77AB8CF_E4B1_49fd_BE78_FE358FF76F13 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Activiteitsoort
@@ -144,13 +148,15 @@ Attributen van objecttype Activiteitsoort
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-12 10:59:59 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_EA2D32A2_5ED5_45c8_AC33_57C35981B3BC |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Balieverkoop
@@ -181,22 +187,24 @@ Attributen van objecttype Balieverkoop
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-12 10:59:43 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_90E24064_EBB7_4ffc_9640_F7C31678899F |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Balieverkoop Entreekaart
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| gebruikt op | DateTime |  |
-| geldigtot | DateTime |  |
-| geldigvanaf | DateTime |  |
+| datumEindeGeldigheid | DateTime |  |
+| datumStart | DateTime |  |
+| gebruiktOp | DateTime |  |
 | rondleiding | Boolean |  |
 
 
@@ -213,25 +221,27 @@ Attributen van objecttype Balieverkoop Entreekaart
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://thesaurus.cultureelerfgoed.nl/concept/cht:6d3f0f18-025e-4537-af2e-49265384d370/nl |
+| bron |  |
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-15 14:07:35 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_576642BA_9AF9_42fc_831A_F9D3138F20FC |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Belanghebbende
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumtot | Date |  |
-| datumvanaf | Date |  |
+| datumStart | Date |  |
+| datumTot | Date |  |
 
 
 
@@ -251,24 +261,26 @@ Attributen van objecttype Belanghebbende
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-15 09:07:44 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_452312FD_05FB_4abc_A48B_C605F7E3E193 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Bruikleen
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aangavraagddoor | AN80 |  |
-| aanvraagdatum | Date |  |
-| begindatum | Date |  |
-| einddatum | Date |  |
-| toestemmingdoor | AN80 |  |
+| aanvraagDoor | AN80 |  |
+| datumAanvraag | Date |  |
+| datumEinde | Date |  |
+| datumStart | Date |  |
+| toestemmingDoor | AN80 |  |
 | None | Class: "Tentoonstelling" |  |
 | None | Class: "Lener" |  |
 | None | Class: "Museumobject" |  |
@@ -287,17 +299,19 @@ Attributen van objecttype Bruikleen
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://thesaurus.cultureelerfgoed.nl/concept/cht:91b90dd9-2b48-4131-bb43-5c6cdbc6bfa7/nl |
+| bron |  |
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-15 09:06:40 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_6DC28A18_DF54_4b92_A592_5F717935CA67 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Collectie
@@ -325,13 +339,15 @@ Attributen van objecttype Collectie
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-12 13:25:14 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_0598561F_667E_4926_9BF5_66A928358E9F |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Doelgroep
@@ -362,13 +378,15 @@ Attributen van objecttype Doelgroep
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-12 11:40:09 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_E46CB962_A2BC_4656_A0C1_D7DBCCA0C528 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Entreekaart
@@ -395,13 +413,15 @@ Attributen van objecttype Entreekaart
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-15 09:10:20 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:26 |
 | id | EAID_CE85A5E9_AD75_40e7_8EBF_A484E4CBEEDC |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Incident
@@ -432,20 +452,22 @@ Attributen van objecttype Incident
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-15 09:10:04 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_68C42EEA_6985_483e_99E6_E0F1FB71D622 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Lener
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Opmerkingen | Text |  |
+| opmerkingen | Text |  |
 
 
 
@@ -465,13 +487,15 @@ Attributen van objecttype Lener
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-12 13:23:59 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_48BCF2C2_609C_4e4c_991E_8BDA80E0C7C7 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Mailing
@@ -489,7 +513,7 @@ Attributen van objecttype Mailing
 ### Museumobject
 > **Definitie Museumobject:** 
 >
-> Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifini√´erd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht.
+> Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -501,13 +525,15 @@ Attributen van objecttype Mailing
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-15 09:06:54 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_BBCF9DBE_70AD_431c_B698_7F0D69D07050 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Museumobject
@@ -515,8 +541,8 @@ Attributen van objecttype Museumobject
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | afmeting | AN300 |  |
-| bezit tot | Date |  |
-| bezit vanaf | Date |  |
+| bezitTot | Date |  |
+| bezitVanaf | Date |  |
 | medium | AN300 |  |
 | verkrijging | AN300 |  |
 | None | Class: "Belanghebbende" |  |
@@ -541,13 +567,15 @@ Attributen van objecttype Museumobject
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-12 13:23:49 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_C73389B7_7BCD_4496_888B_6ABEE9DE01FB |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Museumrelatie
@@ -575,13 +603,15 @@ Attributen van objecttype Museumrelatie
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-12 11:00:37 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_2A7D73D7_87EA_4b61_88BB_F061DDBF52D9 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Omzetgroep
@@ -609,13 +639,15 @@ Attributen van objecttype Omzetgroep
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-12 11:21:18 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_BF7BAB5F_7025_4792_8288_47F5B1C53E95 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Prijs
@@ -623,8 +655,8 @@ Attributen van objecttype Prijs
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | bedrag | Bedrag |  |
-| geldig tot | Datum |  |
-| geldig vanaf | Datum |  |
+| datumEindeGeldigheid | Datum |  |
+| datumStart | Datum |  |
 
 
 
@@ -644,23 +676,25 @@ Attributen van objecttype Prijs
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-12 10:56:04 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_FF566C6B_077B_4914_8AF7_40EB1EDD388A |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Product
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| code museumjaarkaart | AN40 |  |
+| codeMuseumjaarkaart | AN40 |  |
+| datumEindeGeldigheid | Datum |  |
+| datumStart | Datum |  |
 | entreekaart | int |  |
-| geldig tot | Datum |  |
-| geldig vanaf | Datum |  |
 | omschrijving | AN80 |  |
 | prijs | Bedrag |  |
 | None | Class: "Prijs" |  |
@@ -686,13 +720,15 @@ Attributen van objecttype Product
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-12 11:00:54 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_42EBA101_3E51_46d5_A234_EC7BA991D3AF |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Productgroep
@@ -720,13 +756,15 @@ Attributen van objecttype Productgroep
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-12 13:25:37 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_D3EF17C3_8100_4a61_9E67_F20924C15CEA |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Productie-eenheid
@@ -753,13 +791,15 @@ Attributen van objecttype Productie-eenheid
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-12 13:23:12 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_3B84D5F0_FCA3_47a5_B90C_F0834DAD6EBD |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Programma
@@ -771,7 +811,7 @@ Attributen van objecttype Programma
 | locatie | AN80 |  |
 | naam | AN80 |  |
 | omschrijving | Text |  |
-| prijs ex BTW | bedrag |  |
+| prijsExclusiefBTW | bedrag |  |
 | publiekstaak | AN80 |  |
 | schoolniveau | AN80 |  |
 | starttijd | DateTime |  |
@@ -798,13 +838,15 @@ Attributen van objecttype Programma
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-12 13:26:00 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_43EF5733_B976_4f21_9906_5349FD861BB5 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Programmasoort
@@ -832,13 +874,15 @@ Attributen van objecttype Programmasoort
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-14 15:02:48 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_11AB7925_5C96_4615_92F6_4055935221A0 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Reservering
@@ -846,9 +890,9 @@ Attributen van objecttype Reservering
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | aantal | int |  |
-| btw | AN8 |  |
-| tijdtot | Datetime |  |
-| tijdvanaf | Datetime |  |
+| BTW | AN8 |  |
+| tijdTot | Datetime |  |
+| tijdVanaf | Datetime |  |
 | totaalprijs | bedrag |  |
 | None | Class: "Voorziening" |  |
 | None | Class: "Zaal" |  |
@@ -872,13 +916,15 @@ Attributen van objecttype Reservering
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-12 13:22:59 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_2EE54C3D_0D8B_440e_A4A4_031273313901 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Rondleiding
@@ -909,13 +955,15 @@ Attributen van objecttype Rondleiding
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-15 10:58:21 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_E5566AF6_3D43_4b2f_B658_F67F6C1C511D |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Samensteller
@@ -939,17 +987,19 @@ Attributen van objecttype Samensteller
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
-| bron | https://www.gemmaonline.nl/index.php/Informatiemodel_Zaken_(RGBZ) |
+| bron |  |
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-15 09:09:49 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_98F3132E_F97A_4f49_B4F5_28618BB693F8 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Standplaats
@@ -958,7 +1008,7 @@ Attributen van objecttype Standplaats
 | :--- | :--- | :--- |
 | adres | An50 |  |
 | beschrijving | AN300 |  |
-| naam instelling | AN80 |  |
+| naamInstelling | AN80 |  |
 
 
 
@@ -978,22 +1028,24 @@ Attributen van objecttype Standplaats
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-14 15:30:28 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_069C9894_5E07_4c95_AC28_EB4A5EBFD165 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Tentoonstelling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| einddatum | Date |  |
+| datumEinde | Date |  |
+| datumStart | Date |  |
 | omschrijving | Text |  |
-| startdatum | Date |  |
 | subtitel | AN200 |  |
 | titel | AN80 |  |
 | None | Class: "Historisch Persoon " |  |
@@ -1016,20 +1068,22 @@ Attributen van objecttype Tentoonstelling
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-12 13:22:46 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_8D3666E3_F2DA_4cba_BF67_EFED9AAD97CC |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Voorziening
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantal beschikbaar | int |  |
+| aantalBeschikbaar | int |  |
 | naam | AN80 |  |
 | omschrijving | Text |  |
 
@@ -1051,13 +1105,15 @@ Attributen van objecttype Voorziening
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-12 13:23:38 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_CE76218E_E56C_4c15_A29B_5EB14B7E084F |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Winkelverkoopgroep
@@ -1083,13 +1139,15 @@ Attributen van objecttype Winkelverkoopgroep
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-12 11:00:25 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_9D19BC40_5EED_408d_AFA3_7C16F8E7E65F |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Winkelvoorraaditem
@@ -1097,8 +1155,8 @@ Attributen van objecttype Winkelvoorraaditem
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | aantal | int |  |
-| aantal in bestelling | int |  |
-| leverdatum bestelling | Date |  |
+| aantalInBestelling | int |  |
+| datumLeveringBestelling | Date |  |
 | locatie | AN80 |  |
 | None | Class: "Product" |  |
 
@@ -1120,13 +1178,15 @@ Attributen van objecttype Winkelvoorraaditem
 | author | Arjen |
 | version | 1.0 |
 | created | 2019-08-12 13:22:35 |
-| modified | 2023-10-12 16:27:48 |
+| modified | 2024-04-17 13:34:27 |
 | id | EAID_6850BC5E_444E_4d33_A8A7_9B345502E275 |
 | domein-iv3 |  |
 | domein-dcat |  |
 | GEMMA-naam |  |
 | GEMMA-type |  |
-| GEMMA-url |  |
+| GEMMA-URL |  |
+| GEMMA-definitie |  |
+| GEMMA-toelichting |  |
 
 
 Attributen van objecttype Zaal
