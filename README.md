@@ -12,6 +12,10 @@ Gemeente Delft is winnaar van de [GemeenteDelers](https://www.gemeentedelers.nl)
 
 <a href="https://youtu.be/LMmv2rwSd6I" target="_blank"> <img src="https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/Gemeentedelers.jpg" width="600"></a>
 
+## Goud-status Common Ground
+
+De Expert Review Groep van de Common Ground heeft het initiatief GGM besproken en besloten het initiatief de classificatie Goud te geven op het [Common Ground portfolio](https://commonground.nl/page/view/b68441ec-e536-4f81-82d8-ce6f3d6606a9/portfolio). Deze classificatie is gerelateerd aan de toets op de architectuur en realisatie principes. We zijn tot deze conclusie gekomen op basis van de ontvangen antwoorden. 
+
 ## Beheer en doorontwikkeling
 
 Beheer en doorontwikkeling van het GGM verloopt in samenwerking met diverse gemeenten in combinatie met andere overheden. Hiervoor is een gebruikersgroep ingericht die je kunt vinden op de volgende [Pleio-pagina](https://kennisnetwerkdata.pleio.nl/groups/view/1e7df5c5-e537-46cd-9d09-de2ef29beef8/gemeentelijk-gegevensmodel-ggm). Deze Pleio-pagina is het kanaal voor alle vragen, blogs en discussies over het GGM. Heb je een vraag of een toevoeging meld die dan via onze Pleio-pagina. Af en toe zijn er mini-conferenties over onderdelen van het GGM, de agenda hiervoor vind je ook op PLeio. Voor het steeds beter maken van het GGM is er een expertgroep met daarin meerdere gemeenten en de VNG (Vereniging Nederlandse Gemeenten), die werk verdelen en zo gezamenlijk het GGM steeds beter maken.  

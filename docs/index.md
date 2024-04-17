@@ -12,6 +12,10 @@ Bij het GGM is een set _codegeneratietemplates_ ontwikkeld voor het genereren va
   </a>
 </p>
 
+## Goud-status Common Ground
+
+De Expert Review Groep van de Common Ground heeft het initiatief GGM besproken en besloten het initiatief de classificatie Goud te geven op het [Common Ground portfolio](https://commonground.nl/page/view/b68441ec-e536-4f81-82d8-ce6f3d6606a9/portfolio). Deze classificatie is gerelateerd aan de toets op de architectuur en realisatie principes. We zijn tot deze conclusie gekomen op basis van de ontvangen antwoorden. 
+
 ## Downloaden
 
 De bestanden waar deze documentatie bij hoort zijn te vinden in de GitHub-repository [Gemeentelijk Gegevensmodel](https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel)
