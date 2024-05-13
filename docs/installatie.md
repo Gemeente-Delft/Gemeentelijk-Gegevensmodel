@@ -69,7 +69,7 @@ project binnen Bizzdesign te importeren.
 
 Hieronder staan de stappen voor het laden van het AMEFF-bestand in Blue Dolphin. Bij vragen contacteer jouw ValueBlue account- of customersuccess-manager.
 
-1\. Download het [AMEFF-bestand](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/gemeentelijk%20gegevensmodel%20GEMMA%20AMEFF.xml) 
+1\. Download het [AMEFF-bestand](https://github.com/VNG-Realisatie/GEMMA-GGM-Archi-repository/blob/develop/AMEFF%20export/GGM.xml) uit de GEMMA-repository 
 
 2\. Als BlueDolphin gebruiker met Beheerderrol kun je AMEFF-bestanden uploaden. Zie hiervoor de [handleiding: AMEFF bestanden importeren](https://support.valueblue.nl/hc/nl/articles/360013407860-AMEFF-bestanden-importeren-naar-BlueDolphin)
 
