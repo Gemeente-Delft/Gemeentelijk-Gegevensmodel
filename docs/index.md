@@ -6,6 +6,12 @@ Het GGM omvat alle beleidsterreinen die onder de verantwoordelijkheid van de gem
 
 Bij het GGM is een set _codegeneratietemplates_ ontwikkeld voor het genereren van fysieke datamodellen op basis van (onderdelen van) het GGM. Hiermee genereer je DDL voor diverse RDBMS'en. Wij gebruikten Oracle en in ongeteste vorm zijn de templates beschikbaar voor MySQL, en maakten hier diverse aanvullingen voor. Het gaat hier om templates voor het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html) van Enterprise Architect.
 
+<p align="center">
+  <a href="https://www.gemeentedelers.nl/"> 
+      <img width="460" src="image/WinnaarGemeenteDelers2022.png" alt="Winnaar Gemeentedelers 2022">
+  </a>
+</p>
+
 ## Downloaden
 
 De bestanden waar deze documentatie bij hoort zijn te vinden in de GitHub-repository [Gemeentelijk Gegevensmodel](https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel)
@@ -14,12 +20,18 @@ De bestanden waar deze documentatie bij hoort zijn te vinden in de GitHub-reposi
 
 Het Gemeentelijk Gegevensmodel is beschikbaar in [XMI-vorm](https://www.omg.org/spec/XMI/About-XMI/), en is ontwikkeld in, en toegepast met [Enterprise Architect](https://sparxsystems.com).
 
+Let op: gebruik je Enterprise Acrhitect versie 16? In dit geval moet je het bestand 'gemeentelijk gegevensmodel EA16.qea' gebruiken. Gebruik je versie 15, laad dan het bestand 'gemeentelijk gegevensmodel.eapx'.
+
 ### Installatie Gemeentelijk Gegevensmodel
 
-We bieden het GGM in twee vormen aan:
+Hieronder vind je de installatiebeschrijving bij de verschillende ondersteunde tools:
 
-1. Als [EAP-bestand](https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/v1.0.3/Gemeentelijk_Gegevensmodel.eap), te gebruiken voor de gratis [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/). En natuurlijk de overige versies van Enterprise Architect. Download hiervoor het bestand _Gemeentelijk_Gegevensmodel.xml_ en open het in (de viewer van) Enterprise Architect.
-2. Als [XMI-bestand](https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/v1.0.3/Gemeentelijk_Gegevensmodel.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk [hier](installatie.md).
+1. [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/) of [Enterprise Architect versie 16](https://sparxsystems.com/products/ea/16.1/index.html): download hiervoor het bestand [QEA-bestand](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.0.0/gemeentelijk%20gegevensmodel%20EA16.qea) en open het in (de viewer van) Enterprise Architect.
+2. [Enterprise Architect versie 15](https://sparxsystems.com/products/ea/15.2/index.html): download hiervoor het bestand [EAPX-bestand](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.0.0/gemeentelijk%20gegevensmodel.eapx) en open het in (de viewer van) Enterprise Architect.
+3. Als [XMI-bestand in Enterprise Architect 15 en 16](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.0.0/gemeentelijk%20gegevensmodel%20XMI2.1.2.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk in de [handleiding](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/installatie/).
+4. [Bizzdesign](https://bizzdesign.com): voor installatie-instructies kijk in de [handleiding laden in Bizzdesign](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/installatie/#installatie-gemeentelijk-gegevensmodel-in-bizzdesign) 
+5. [Blue Dolphin](https://www.valueblue.com/bluedolphin): hiervoor gebruik je het [AMEFF-bestand](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/v2.0.0/gemeentelijk%20gegevensmodel%20GEMMA%20AMEFF.xml) van het GGM voor de Architectuur module van BlueDolphin. Als BlueDolphin gebruiker met Beheerderrol kun je AMEFF-bestanden uploaden. Zie hiervoor de [handleiding: AMEFF bestanden importeren](https://support.valueblue.nl/hc/nl/articles/360013407860-AMEFF-bestanden-importeren-naar-BlueDolphin). Bij vragen contacteer jouw ValueBlue account- of customersuccess-manager.
+ 
 
 ### Installatie Codegeneratietemplates
 
@@ -37,7 +49,10 @@ Het is Getest en gebruikt in de volgende omgevingen:
 
 * [Enterprise Architect versie 14](https://sparxsystems.com/products/ea/14/index.html)
 * [Enterprise Architect versie 15](https://sparxsystems.com/products/ea/15/index.html)
+* [Enterprise Architect versie 16](https://sparxsystems.com/products/ea/trial/request.html)
 * [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/)
+* [Bizzdesign EnterpriseStudio](https://bizzdesign.com)
+* [Blue Dolphin](https://www.valueblue.com/bluedolphin)
 
 ## Opbouw Gemeentelijk Gegevensmodel
 
@@ -53,48 +68,51 @@ Er is ontkoppeling tussen de verschillende (sub)domeinen nagestreefd, doordat in
 
 Het gegevensmodel omvat de volgende op de gebaseerde [IV3-taakvelden](https://www.rijksoverheid.nl/onderwerpen/financien-gemeenten-en-provincies/uitwisseling-financiele-gegevens-met-sisa-en-iv3/informatie-voor-derden-iv3):
 
-* [Burgerzaken](domeinen/burgerzaken/)
-* [Economie](domeinen/economie/)
-* [Griffie](domeinen/griffie/)
-* [Leerplicht en Leerlingenvervoer](domeinen/leerplicht/)
-* [Onderwijs](domeinen/onderwijs/)
-* Ruimte
-    * [Beheer Openbare Ruimte](domeinen/ruimteAlgemeen/)
-    * [Omgevingswet](domeinen/omgevingswet/)
-    * [Afval](domeinen/afval/)
+* Bestuur, politiek en ondersteuning 
+    * [Burgerzaken](domeinen/burgerzaken.md)
+    * [Griffie](domeinen/griffie.md)
+* Veiligheid en vergunningven
+    * [Brede Handhaving](domeinen/vth.md/#brede-handhaving)
+    * [Bouwen en wonen](domeinen/vth.md/#vergunningaanvragen)
+    * [Overige vergunningen](domeinen/vth.md/#vergunningaanvragen)
+* Verkeer, vervoer en waterstaat
+    * [Verkeer](domeinen/verkeer.md)
+    * [Parkeren](domeinen/parkeren.md)
+* [Economie](domeinen/economie.md)
+* Onderwijs
+    * [Leerplicht en Leerlingenvervoer](domeinen/leerplicht.md)
+    * [Onderwijs](domeinen/onderwijs.md)
 * Sport, Cultuur en Recreatie
-    * [Erfgoed, Archeologie](domeinen/archeologie/)
-    * [Erfgoed, Archief](domeinen/archief/)
-    * [Erfgoed, Monumenten](domeinen/monumenten/)
-    * [Museum](domeinen/museum/)
-    * [Sportbeleid](domeinen/sport/)
-* Vergunningverlening, Toezicht en handhaving
-    * [Brede Handhaving](domeinen/vth/#brede-handhaving)
-    * [Bouwen en wonen](domeinen/vth/#vergunningaanvragen)
-    * [Overige vergunningen](domeinen/vth/#vergunningaanvragen)
-* Volksgezondheid en milieu _(nog in ontwikkeling)_
-* Bestuur en ondersteuning
-    * [ICT](domeinen/ict/)
-    * [Gemeentelijk Vastgoed](domeinen/vastgoed/)
-    * [Financiën](domeinen/financien/)
-    * [HR](domeinen/hr/)
-    * [Inkoop](domeinen/inkoop/)
-    * [Subsidies](domeinen/subsidies/)
-    * Facilitair (_nog in ontwikkeling_)
-    * Communicatie (_nog in ontwikkeling_)
-    * Control (_nog in ontwikkeling_)
-* [Dienstverlening](domeinen/dienstverlening/)
+    * Erfgoed
+        * [Archeologie](domeinen/archeologie.md)
+        * [Archief](domeinen/archief.md)
+        * [Monumenten](domeinen/monumenten.md)
+    * [Museum](domeinen/museum.md)
+    * [Sport](domeinen/sport.md)
 * Sociaal domein
-      * [Wmo](domeinen/wmojeugd/)
-    * [Jeugd](domeinen/wmojeugd/)
-    * [Participatie](domeinen/participatie/)
-    * [Schuldhulpverlening](domeinen/schuldhulp/)
-    * [Sociale teams](domeinen/socteam/)
-    * [Gemeentebegraven](domeinen/gemeentebegraven/)
-    * [Dak- en thuislozen](domeinen/participatie/#dak-en-thuislozen)
-* Verkeer en vervoer
-    * [Verkeer](domeinen/verkeer/)
-    * [Parkeren](domeinen/parkeren/)
+    * [Wmo](domeinen/wmojeugd.md)
+    * [Jeugd](domeinen/wmojeugd.md)
+    * [Participatie](domeinen/participatie.md)
+    * [Schuldhulpverlening](domeinen/schuldhulp.md)
+    * [Sociale teams](domeinen/socteam.md)
+    * [Gemeentebegraven](domeinen/gemeentebegraven.md)
+    * [Dak- en thuislozen](domeinen/participatie.md/#dak-en-thuislozen)
+* Volksgezondheid en milieu
+    * [Afval](domeinen/afval.md)
+* Volkshuisvesting, leefomgeving en stedelijke vernieuwing 
+    * [Openbare ruimte](domeinen/ruimteAlgemeen.md)
+    * [Bouwen en wonen](domeinen/bouwenenwonen.md)
+    * [Omgevingswet](domeinen/omgevingswet.md)
+* Interne organisatie
+    * [ICT](domeinen/ict.md)
+    * [Gemeentelijk Vastgoed](domeinen/vastgoed.md)
+    * [Financiën](domeinen/financien.md)
+    * [HR](domeinen/hr.md)
+    * [Inkoop](domeinen/inkoop.md)
+    * [Subsidies](domeinen/subsidies.md)
+    * Facilitair (_nog in ontwikkeling_)
+    * Control (_nog in ontwikkeling_)
+* [Dienstverlening](domeinen/dienstverlening.md)
 
 
 Naast bovengenoemde beleidsterreinen kent het GGM het onderdeel 'Kern', waarin alle gedeelde objecttypen zijn te vinden. Kern is afgeleid van het [Informatiemodel Basis- en Kerngegevens (RSGB)](https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_(RSGB)) en [Informatiemodel Zaken (RGBZ)](https://www.gemmaonline.nl/index.php/Informatiemodel_Zaken_(RGBZ)) (beiden onderdeel [GEMMA: Gemeentelijke Modelarchitectuur](https://www.gemmaonline.nl/index.php/Gemeentelijke_Model_Architectuur_(GEMMA))), aangevuld met een aantal generieke objecttypen.  

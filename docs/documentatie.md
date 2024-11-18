@@ -20,3 +20,4 @@ De documentatie ingechekt en gepubliceerd op GitHub, bij aanpassingen van de doc
 ```
 mkdocs gh-deploy
 ```
+

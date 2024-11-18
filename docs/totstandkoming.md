@@ -50,7 +50,7 @@ Voorbeeld uitwerking van deze fase is [hier](./monumenten.md#gegevensdefinities)
 
 ### Uitbreiden Gemeentelijk Gegevensmodel
 
-In de vorige stap is geinventariseerd welke gegevens binnen het beleidsdomein worden gebruikt. In deze stap wordt deze inventarisatie gebruikt om een vertaling te maken naar objecttypes. Naast de geïnventariseerde gegevens bouw je hier zoveel mogelijk voort op (landelijke) gegevensstandaarden. De lijst met landelijke standaarden die in het Gemeentelijk Gegevensmodel zijn toegepast vind je [hier](./index.md#toegepaste-landelijke-standaarden). Als er een landelijke standaard voeg je die aan het model toe, door deze te importeren of deze met de hand over te nemen. Als je voortbouwt op een standaard die al in het model zit, hoeft dit uiteraard niet ;).
+In de vorige stap is geinventariseerd welke gegevens binnen het beleidsdomein worden gebruikt. In deze stap wordt deze inventarisatie gebruikt om een vertaling te maken naar objecttypes. Naast de geïnventariseerde gegevens bouw je hier zoveel mogelijk voort op (landelijke) gegevensstandaarden. De lijst met landelijke standaarden die in het Gemeentelijk Gegevensmodel zijn toegepast vind je [hier](./index.md#toegepaste-landelijke-standaarden). Als er een landelijke standaard ontbreekt voeg je die aan het model toe, door deze te importeren of deze met de hand over te nemen. Als je voortbouwt op een standaard die al in het model zit, hoeft dit uiteraard niet ;).
 
 In deze stap maak je een uitbreiding op het Gemeentelijk Gegevensmodel door per gevonden gegeven een objecttype aan te maken, of her te gebruiken uit het reeds bestaande model. Let hierbij op dat je de [gelaagde opbouw](./index.md#opbouw-gemeentelijk-gegevensmodel) respecteert. Deze objecttypes en de daarbij horende relatie werk je uit in één of meer diagrammen.
 
@@ -143,7 +143,7 @@ Het uitbreiden verloopt in een aantal stappen:
 
 ![Modelleren Stap 2d][modellerenStap3b1]
 
-3\. Selecteer het objecttype waarvoor je zojuist een objecttype hebt aangemaakt en toets Ctrl-L om een 'Classifier' voor dit gegevenssoort aan te maken. Ga naar de zojuist aangemaakte map en selecteer het objecttype dat je zojuist hebt aangemaakt, en druk op 'OK'.
+3\. Selecteer het objecttype waarvoor je zojuist een objecttype hebt aangemaakt en toets Ctrl-L om een 'Classifier' voor dit gegevenssoort aan te maken. Ga naar de zojuist aangemaakte map en selecteer het objecttype dat je zojuist hebt aangemaakt, en druk op 'OK'. 
 
 ![Modelleren Stap 2d][modellerenStap3c]
 

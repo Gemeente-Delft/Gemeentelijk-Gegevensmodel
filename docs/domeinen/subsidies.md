@@ -4,7 +4,8 @@ In het gegevensmodel voor subsidies staat ‘Subsidie’ centraal. Hiermee wordt
 
 Op basis van een ‘Subsidie’ kunnen er meerdere voorschotten ontvangen/betaald worden, en kunnen er meerdere taken bij een ‘Medewerker’ van de gemeente liggen. Ook kunnen er meerdere rapportagemomenten aan een subsidie zijn gekoppeld.
 
-Een ‘Subsidie’ kan binnen een ‘Subsidieprogramma’ vallen, waarbinnen de doelstelling van dat programma is vastgelegd. Een ‘Subsidieprogramma’ valt binnen een ‘Subsidieproject’ dat is gekoppeld aan een ‘Kostenplaats’ en een ‘Organisatorische Eenheid’ (Afdeling). Subsidies vallen binnen een bepaalde ‘Sector’.
+Een ‘Subsidie’ kan binnen een ‘Subsidieproject’ vallen, waarbinnen de doelstelling van dat programma is vastgelegd. Een ‘Subsidieproject’ valt binnen een ‘Subsidieprogramma’ dat is gekoppeld aan een ‘Kostenplaats’ en een ‘Organisatorische Eenheid’ (Afdeling). Subsidies vallen binnen een bepaalde ‘Sector’. Een subsidiedossier kan onder meerdere begrotingsposten hebben. Een begrotingspost heeft meerdere subsidiedossiers eronder hangen. 
+‘Component’ stelt ons in staat een subsidie in componenten over meerdere kostenplaatsen te verdelen. 
 
 ![Gegevensdefinities Subsidies][subsidies]
 

@@ -52,7 +52,7 @@ Kies vervolgens onder _Source Code Engineering/Code Editors_ de optie _Default D
 
 Voor het genereren naar DDL neem je de volgende stappen:
 
-1\. Selecteer het onderdee van het model dat je wilt uitgenereren. In het voorbeeld de map`Gemeentelijk Gegevensmodel/Ruimte/Afval/Model`. je kunt ook in een diagram de gewenste objecttypen selecteren.
+1\. Selecteer het onderdeel van het model dat je wilt uitgenereren. In het voorbeeld de map`Gemeentelijk Gegevensmodel/Ruimte/Afval/Model`. je kunt ook in een diagram de gewenste objecttypen selecteren.
 
 ![Selecteer de map in het model][selecteerInModel]
 
@@ -60,7 +60,7 @@ Voor het genereren naar DDL neem je de volgende stappen:
 
 ![Kies Apply Transformation][applyTransformation]
 
-3\. Selecteer aan de rechterkant van het popup _Tables_ in het vlak _Transformations_. Zorg dat aan de linkerkant van de popup alle objecttypen geselecteerd zijn die uitgegenereerd moeten worden.
+3\. Selecteer aan de rechterkant van het popup _Tables_ in het vlak _Transformations_. Zorg dat aan de linkerkant van de pop-up alle objecttypen geselecteerd zijn die uitgegenereerd moeten worden.
 
 ![Kies Tables onder Transformation][kiesTables]
 
@@ -142,7 +142,7 @@ Integer of Int: numeriek veld met alleen gehele getallen.
 Attributen worden op basis van hun Stereotype omgezet:
 
 * Adresaanduiding: veld wordt vervangen door de volgende velden: Naam Gemeente, Straatnaam, Huisnummer, Huisletter, Huisnummertoevoeging, Postcode en BAGID.
-* enum: er wordt een referentie naar de enumeratie opgenomen.
+* enumeration: er wordt een referentie naar de enumeratie opgenomen. Zie hiervoor [Voorbeeld D](#Voorbeeld-D)
 
 ### Relaties
 
@@ -197,20 +197,50 @@ Na transformeren naar tabellen als volgt:
 
 #### Voorbeeld C
 
-Als laatste een voorbeeld met wat voorbeelden die speciale aandacht nodig hebben, omdat het transformatieproces anders fouten oplevert:
+Voorbeelden die speciale aandacht nodig hebben, omdat het transformatieproces anders fouten oplevert:
 
 1. [Relaties met jezelf](https://www.365dagensuccesvol.nl/nl/nieuws/zeg-hoe-goed-is-de-relatie-met-jezelf-eigenlijk/143/) ;) (Varkensoortje)
 2. Meervoudige relaties tussen objecttypes.
 
 ![Voorbeeld C voor uitgeneren naar tabellen][voorbeeldC]
 
-Om deze in het transformatieproces goed te laten werken moet een een Alias opvoeren bij de Source van de betreffende relatie. In het voorbeeld getoond voor het varkensoortje. Deze kun je ook voor meervoudige relaties gebruiken.
+Om deze in het transformatieproces goed te laten werken moet een een Alias opvoeren bij de Source van de betreffende relatie. In het voorbeeld getoond voor het varkensoortje. Deze kun je ook voor meervoudige relaties gebruiken. Vanwege de interne werking van Enterprise Architect is het belangrijk dat de cardinaliteit 0..1 of 1 aan de source-kant van de relatie zit, anders wordt de relatie niet goed uitgegenereerd.
 
 ![Voer een alias in in de Source van het varkensoortje][varkensoortje]
 
 Als je het logisch model hebt getransformeerd naar tabellen zie je dat de Aliasnaam wordt gebruikt voor de foreignkeys en de foreignkey-constraints. Zo kun je zorgen dat er unieke namen worden gebruikt.
 
 ![Voorbeeld C na uitgeneren naar tabellen][voorbeeldCTabellen]
+
+#### Voorbeeld D
+
+Als laatste een voorbeeld met het gebruik van enumeraties:
+
+[Enumeraties](https://nl.wikipedia.org/wiki/Enumeratie_(datatype)) is een opsomming van mogelijke waarden van een bepaald attribuut. Hiermee kun je binnen het GGM de waarden van attributen binnen een bepaalde reeks laten vallen.
+Om deze in het transformatieproces goed te laten werken moet een een Alias opvoeren bij de Source van de betreffende relatie. In het voorbeeld getoond voor het varkensoortje. Deze kun je ook voor meervoudige relaties gebruiken. Hieronder is weergegeven hoe je een enumeratie definieert. 
+
+![Voorbeeld Enumeratie][voorbeeldD]
+
+Te zien is dat deze enumeratie twee mogelijke waarden kent: Optie 1 en Optie 2, en dat het attribuut B verwijst naar deze enumeratie.
+
+![Enumeratie koppelen][voorbeeldDStereotype]
+
+Hierboven is te zien hoe je een attribuut koppelt aan een enumeratie. Belangrijk is het stereotype de waarde "enumeration" te geven.
+
+![Waardenlijsten van enumeraties maken][voorbeeldDAtt]
+
+In bovenstaande figuur is te zien hoe je imn Enterprise Architect de waardelijsten van een enumeratie definieert. In het voorbeeld bestaat de waardelijst uit twee waarden: Optie 1 en Optie 2. Deze zijn als attributen van de Class 'Enumeration A' gedefinieerd. Je vult deze als volgt in:
+
+1. Naam: in Name-veld van attribuut (Altijd waarde invullen om fouten te voorkomen)
+2. Index: in Alias-veld van attribuut (Altijd unieke integerwaarde invullen om fouten te voorkomen)
+3. Omschrijving: in Notes-veld van attribuut  
+4. Geen bij Stereotype altijd waarde 'enum' op
+
+Als je het logisch model hebt getransformeerd naar tabellen zie je dat er van de Class een tabel ie gemaakt, en ook van de enumeratie. Beiden zijn gekoppeld via een foreignkey constraint.
+
+![Enumeraties uitgenereren][voorbeeldDTabellen]
+
+In het uitgegenereerde model is te zien dat in de enumeratie de waardelijsten nog als attributen zijn opgenomen. Pas bij het genereren naar fysieke databaseschema's worden de waardelijsten omgezet naar waardelijsten in de tabel.
 
 [tablesAfval]: image/TablesAfval.png "Maak een plek om de tabellen uit te genereren"
 [selecteerInModel]: image/SelecteerInModel.png "Selecteer de map in het model"
@@ -234,3 +264,7 @@ Als je het logisch model hebt getransformeerd naar tabellen zie je dat de Aliasn
 [voorbeeldATabellen]: image/EAID_9259B8B6_DD2F_4632_9CAE_8A0D9F30DF1F.gif "Voorbeeld A na uitgeneren tabellen"
 [voorbeeldA]: image/EAID_E7F774F3_E0B3_438e_80DC_4B2F2CD3C60B.gif "Voorbeeld A voor uitgeneren naar tabellen"
 [varkensoortje]: image/Varkensoortje.png
+[voorbeeldD]: image/VoorbeeldD.png "Voorbeeld D Enumeraties gebruiken"
+[voorbeeldDAtt]: image/VoorbeeldD_EnumAttributen.png "Voorbeeld D Attributen van Enumeraties"
+[voorbeeldDTabellen]: image/VoorbeeldD_Tables.png "Voorbeeld D genereren van tabellen"
+[voorbeeldDStereotype]: image/VoorbeeldD_Stereotype.png "Voorbeeld D stereotype gebruiken"

@@ -5,8 +5,8 @@
 Dit is de gemakkelijkste manier om te starten met het Gemeentelijk Gegevensmodel. Het werkt ook met de [viewer van Enterprise Architect](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/).
 
 1. Installeer Enterprise Architect of de viewer van Enterprise Architect. 
-2. Download het bestand 'Gemeentelijk_Gegevensmodel.eap'.
-3. Open 'Gemeentelijk_Gegevensmodel.eap' met de Enterprise Architect.
+2. Download het bestand 'Gemeentelijk_Gegevensmodel.qua'.
+3. Open 'Gemeentelijk_Gegevensmodel.qua' met de Enterprise Architect.
 
 ## XMI-bestand importeren in project
 
@@ -23,7 +23,7 @@ Hieronder de te nemen stappen om het in een nieuw of bestaand project binnen Ent
 
 ![Import XMI][importXMI]
 
-5\. Selecteer bij ”Filename” het gedownloade bestand “Gemeentelijk Gegevensmodel.xml”
+5\. Selecteer bij ”Filename” het gedownloade bestand “Gemeentelijk Gegevensmodel XML2.1.2.xml”
 
 ![Select Filename][selectFilename]
 
@@ -37,6 +37,47 @@ Hieronder de te nemen stappen om het in een nieuw of bestaand project binnen Ent
 ![Open Diagram][openDiagram]
 
 8\. Succes!
+
+## Installatie Gemeentelijk Gegevensmodel in Bizzdesign
+
+Het Gemeentelijk Gegevensmodel (GGM) kan als [XMI-vorm](https://www.omg.org/spec/XMI/About-XMI/) worden geïmporteerd in een bestaand project in [Bizzdesign](https://bizzdesign.com). Hiervoor wordt een apart script gebruikt dat Bizzdesign speciaal voor het GGM beschikbaar heeft gesteld.
+
+### GGM importeren in Bizzdesign
+
+Hieronder de te nemen stappen om het in een nieuw 
+project binnen Bizzdesign te importeren.
+
+1\. Download het bestand [Gemeentelijk Gegevensmodel XMI2.1.2](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/v2.0.0/Gemeentelijk%20Gegevensmodel%20XMI2.1.2.xml)
+
+2\. Start Bizzdesign
+
+3\. Open een nieuw modelpackage met een leeg UML-model, of voeg een leeg UML-model toe aan een bestaand modelpackage
+
+![Open een nieuw modelpackage][Bizzdesign_stap1]
+
+4\. Selecteer het UML-model, en open de query-editor met ctrl-Q. Kopieer de inhoud van het scriptbestand [UML XMI import Bizzdesign.txt](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/UML%20XMI%20import%20Bizzdesign.txt) in de query-editor. Sla eventueel het script op in het model.
+
+![Selecteer het UML-model][Bizzdesign_stap2]
+
+5\. Voer het script uit via de Execute-knop van de query-editor, en kies het XMI-bestand 'Gemeentelijk Gegevensmodel XMI2.1.2' dat je net hebt gedownload. De inhoud wordt geïmporteerd in het geselecteerde UML-model.
+
+6\. Even wachten….
+
+7\. Succes!
+
+## Installatie in Blue Dolphin
+
+Hieronder staan de stappen voor het laden van het AMEFF-bestand in Blue Dolphin. Bij vragen contacteer jouw ValueBlue account- of customersuccess-manager.
+
+1\. Download het [AMEFF-bestand](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/v2.0.0/gemeentelijk%20gegevensmodel%20GEMMA%20AMEFF.xml) 
+
+2\. Als BlueDolphin gebruiker met Beheerderrol kun je AMEFF-bestanden uploaden. Zie hiervoor de [handleiding: AMEFF bestanden importeren](https://support.valueblue.nl/hc/nl/articles/360013407860-AMEFF-bestanden-importeren-naar-BlueDolphin)
+
+3\. Succes!
+
+
+[Bizzdesign_stap1]: image/Bizzdesign_stap1.png "Open een nieuw modelpackage"
+[Bizzdesign_stap2]: image/Bizzdesign_stap2.png "Selecteer het UML-model"
 
 [importXMI]: image/ImportPackage.png "Import XMI via tabblad Publish"
 [selectFilename]: image/SelectFilename.png "Select Filename"
