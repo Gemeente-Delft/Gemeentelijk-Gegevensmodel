@@ -47,7 +47,7 @@ Het Gemeentelijk Gegevensmodel (GGM) kan als [XMI-vorm](https://www.omg.org/spec
 Hieronder de te nemen stappen om het in een nieuw 
 project binnen Bizzdesign te importeren.
 
-1\. Download het bestand [Gemeentelijk Gegevensmodel XMI2.1.2](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/v2.0.0/Gemeentelijk%20Gegevensmodel%20XMI2.1.2.xml)
+1\. Download het bestand [Gemeentelijk Gegevensmodel XMI2.1.2](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/v2.1.0/blob/master/v2.1.0/Gemeentelijk%20Gegevensmodel%20XMI2.1.2.xml)
 
 2\. Start Bizzdesign
 
@@ -59,7 +59,7 @@ project binnen Bizzdesign te importeren.
 
 ![Selecteer het UML-model][Bizzdesign_stap2]
 
-5\. Voer het script uit via de Execute-knop van de query-editor, en kies het XMI-bestand 'Gemeentelijk Gegevensmodel XMI2.1.2' dat je net hebt gedownload. De inhoud wordt geïmporteerd in het geselecteerde UML-model.
+5\. Voer het script uit via de Execute-knop van de query-editor, en kies het XMI-bestand 'Gemeentelijk Gegevensmodel XMI2.1.2' dat je net hebt gedownload. De inhoud wordt geïmporteerd in het geselecteerde UML-model. Zorg dat het uitvoertype op “Geen output” of “Tabel” staat en niet op “Tekstbestand”. Tijdens het uitvoeren van het script kun je waarschuwingen krijgen, die kun je negeren.  
 
 6\. Even wachten….
 
@@ -69,7 +69,7 @@ project binnen Bizzdesign te importeren.
 
 Hieronder staan de stappen voor het laden van het AMEFF-bestand in Blue Dolphin. Bij vragen contacteer jouw ValueBlue account- of customersuccess-manager.
 
-1\. Download het [AMEFF-bestand](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/v2.0.0/gemeentelijk%20gegevensmodel%20GEMMA%20AMEFF.xml) 
+1\. Download het [AMEFF-bestand](https://github.com/VNG-Realisatie/GEMMA-GGM-Archi-repository/blob/develop/exports/GEMMA-GGM%20AMEFF.xml) uit de GEMMA-repository 
 
 2\. Als BlueDolphin gebruiker met Beheerderrol kun je AMEFF-bestanden uploaden. Zie hiervoor de [handleiding: AMEFF bestanden importeren](https://support.valueblue.nl/hc/nl/articles/360013407860-AMEFF-bestanden-importeren-naar-BlueDolphin)
 

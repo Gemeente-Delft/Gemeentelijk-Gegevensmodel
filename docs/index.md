@@ -12,6 +12,10 @@ Bij het GGM is een set _codegeneratietemplates_ ontwikkeld voor het genereren va
   </a>
 </p>
 
+## Goud-status Common Ground
+
+De Expert Review Groep van de Common Ground heeft het initiatief GGM besproken en besloten het initiatief de classificatie Goud te geven op het [Common Ground portfolio](https://commonground.nl/page/view/b68441ec-e536-4f81-82d8-ce6f3d6606a9/portfolio). Deze classificatie is gerelateerd aan de toets op de architectuur en realisatie principes. We zijn tot deze conclusie gekomen op basis van de ontvangen antwoorden. 
+
 ## Downloaden
 
 De bestanden waar deze documentatie bij hoort zijn te vinden in de GitHub-repository [Gemeentelijk Gegevensmodel](https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel)
@@ -26,11 +30,11 @@ Let op: gebruik je Enterprise Acrhitect versie 16? In dit geval moet je het best
 
 Hieronder vind je de installatiebeschrijving bij de verschillende ondersteunde tools:
 
-1. [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/) of [Enterprise Architect versie 16](https://sparxsystems.com/products/ea/16.1/index.html): download hiervoor het bestand [QEA-bestand](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.0.0/gemeentelijk%20gegevensmodel%20EA16.qea) en open het in (de viewer van) Enterprise Architect.
-2. [Enterprise Architect versie 15](https://sparxsystems.com/products/ea/15.2/index.html): download hiervoor het bestand [EAPX-bestand](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.0.0/gemeentelijk%20gegevensmodel.eapx) en open het in (de viewer van) Enterprise Architect.
-3. Als [XMI-bestand in Enterprise Architect 15 en 16](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.0.0/gemeentelijk%20gegevensmodel%20XMI2.1.2.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk in de [handleiding](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/installatie/).
+1. [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/) of [Enterprise Architect versie 16](https://sparxsystems.com/products/ea/16.1/index.html): download hiervoor het bestand [QEA-bestand](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/gemeentelijk%20gegevensmodel%20EA16.qea) en open het in (de viewer van) Enterprise Architect.
+2. [Enterprise Architect versie 15](https://sparxsystems.com/products/ea/15.2/index.html): download hiervoor het bestand [EAPX-bestand](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/gemeentelijk%20gegevensmodel.eapx) en open het in (de viewer van) Enterprise Architect.
+3. Als [XMI-bestand in Enterprise Architect 15 en 16](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/gemeentelijk%20gegevensmodel%20XMI2.1.2.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk in de [handleiding](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/installatie/).
 4. [Bizzdesign](https://bizzdesign.com): voor installatie-instructies kijk in de [handleiding laden in Bizzdesign](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/installatie/#installatie-gemeentelijk-gegevensmodel-in-bizzdesign) 
-5. [Blue Dolphin](https://www.valueblue.com/bluedolphin): hiervoor gebruik je het [AMEFF-bestand](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/v2.0.0/gemeentelijk%20gegevensmodel%20GEMMA%20AMEFF.xml) van het GGM voor de Architectuur module van BlueDolphin. Als BlueDolphin gebruiker met Beheerderrol kun je AMEFF-bestanden uploaden. Zie hiervoor de [handleiding: AMEFF bestanden importeren](https://support.valueblue.nl/hc/nl/articles/360013407860-AMEFF-bestanden-importeren-naar-BlueDolphin). Bij vragen contacteer jouw ValueBlue account- of customersuccess-manager.
+5. [Blue Dolphin](https://www.valueblue.com/bluedolphin): hiervoor gebruik je het [AMEFF-bestand](https://github.com/VNG-Realisatie/GEMMA-GGM-Archi-repository/blob/develop/AMEFF%20export/GGM.xml) van het GGM uit de GEMMA-repository voor de Architectuur module van BlueDolphin. Als BlueDolphin gebruiker met Beheerderrol kun je AMEFF-bestanden uploaden. Zie hiervoor de [handleiding: AMEFF bestanden importeren](https://support.valueblue.nl/hc/nl/articles/360013407860-AMEFF-bestanden-importeren-naar-BlueDolphin). Bij vragen contacteer jouw ValueBlue account- of customersuccess-manager.
  
 
 ### Installatie Codegeneratietemplates

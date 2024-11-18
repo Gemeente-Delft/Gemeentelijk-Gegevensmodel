@@ -242,6 +242,34 @@ Als je het logisch model hebt getransformeerd naar tabellen zie je dat er van de
 
 In het uitgegenereerde model is te zien dat in de enumeratie de waardelijsten nog als attributen zijn opgenomen. Pas bij het genereren naar fysieke databaseschema's worden de waardelijsten omgezet naar waardelijsten in de tabel.
 
+## Zelf templates aanpassen
+
+Nadat je de templates in Enterprise Architect hebt geladen kun je ze binnen je eigen omgeving aanpassen om het gedrag aan te passen naar je eigen wensen. Het is belangrijk te zien dat de generatie naar DDL in twee stappen verloopt, en dat je dus op twee niveau aanpassingen kunt maken.
+
+1. Eerste generatiestap: Aanpassen templates die database-onafhankelijke tabellen genereren
+2. Tweede generatiestap: Aanpassen generatie van database-onafhankelijke tabbellen naar DDL
+
+### Eerste generatiestap
+
+Ga hiervoor als eerste naar het onderdeel Transform templates. Zie hieronder.
+
+![Templates aanpassen stap 1][templatesAanpassenStap1]
+
+Kies nadat je deze hebt geopend voor de 'language' Tables. Deze verzameing templates gebruiken we voor de omzetting naar tabellen. Alle voor generatie gebruikte template-onderdelen staan weergegeven. Op de volgende afdeling is de omzetting vanaf Class te zien. 
+
+![Templates aanpassen stap 2][templatesAanpassenStap2]
+
+Je bent nu klaar om je egen aanpassingen te doen. Zie voor meer toelichting de [toelichting](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_fundamentals/transformationtemplates.html) op de website van Sparx Enterprise Architect. 
+
+### Tweede generatiestap
+
+Om de templates aan te passen die de database-onafhankelijke tabellen omzetten naar DDL voor specifieke databases kies je op het tabblad Design voor de optie Templates. Als je deze hebt geopend kun je verschillende typen databases kiezen. In onderstaande afbeelding kiezen we voor Oracle en zie je de scripts waarmee de DDL wordt gegenereerd.
+
+![Templates voor generatie naar DDL][ddlgeneratieaanpassen]
+
+Wij hebben de standaard werking van Enterprise Architect aangepast voor Oracle en MySql.   
+
+
 [tablesAfval]: image/TablesAfval.png "Maak een plek om de tabellen uit te genereren"
 [selecteerInModel]: image/SelecteerInModel.png "Selecteer de map in het model"
 [applyTransformation]: image/ApplyTransformation.png "Kies Apply Transformation"
@@ -268,3 +296,6 @@ In het uitgegenereerde model is te zien dat in de enumeratie de waardelijsten no
 [voorbeeldDAtt]: image/VoorbeeldD_EnumAttributen.png "Voorbeeld D Attributen van Enumeraties"
 [voorbeeldDTabellen]: image/VoorbeeldD_Tables.png "Voorbeeld D genereren van tabellen"
 [voorbeeldDStereotype]: image/VoorbeeldD_Stereotype.png "Voorbeeld D stereotype gebruiken"
+[templatesAanpassenStap1]: image/templatesaanpassen_stap1.png "Templates aanpassen stap 1"
+[templatesAanpassenStap2]: image/templatesaanpassen_stap2.png "Templates aanpassen stap 2"
+[ddlgeneratieaanpassen]: image/ddlgeneratieaanpassen.png "Templates DDL-generatie aanpassen"
