@@ -1,0 +1,5913 @@
+
+<!doctype html>
+<html lang="nl" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Informatiemodel van alle gemeentelijke taakvelden">
+      
+      
+        <meta name="author" content="Arjen Brienen">
+      
+      
+        <link rel="canonical" href="https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0-develop/definities/definitie_Model%20Beheer%20Openbare%20Ruimte/">
+      
+      
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.26">
+    
+    
+      
+        <title>Model Beheer Openbare Ruimte - Gemeentelijk Gegevensmodel (GGM)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6543a935.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#model-beheer-openbare-ruimte" class="md-skip">
+          Ga naar inhoud
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Gemeentelijk Gegevensmodel (GGM)" class="md-header__button md-logo" aria-label="Gemeentelijk Gegevensmodel (GGM)" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Gemeentelijk Gegevensmodel (GGM)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Model Beheer Openbare Ruimte
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Zoeken" placeholder="Zoeken" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Zoeken">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Leegmaken" aria-label="Leegmaken" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Zoeken initialiseren
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/" title="Ga naar repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigatie" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Gemeentelijk Gegevensmodel (GGM)" class="md-nav__button md-logo" aria-label="Gemeentelijk Gegevensmodel (GGM)" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    Gemeentelijk Gegevensmodel (GGM)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/" title="Ga naar repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../installatie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installatie
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Beschrijving Domeinen
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Beschrijving Domeinen
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/inleiding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inleiding
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Bestuur, Politiek en Ondersteuning
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Bestuur, Politiek en Ondersteuning
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/burgerzaken/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Burgerzaken
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/griffie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Griffie
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/vth/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Veiligheid en Vergunningen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Verkeer, Vervoer en waterstaat
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Verkeer, Vervoer en waterstaat
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/parkeren/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Parkeren
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/verkeer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Verkeer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/economie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Economie
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Onderwijs
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            Onderwijs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/leerplicht/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Leerplicht en leerlingenvervoer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/onderwijs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Onderwijs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sport, Cultuur en Recreatie
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_7">
+            <span class="md-nav__icon md-icon"></span>
+            Sport, Cultuur en Recreatie
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_7_1" id="__nav_3_7_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Erfgoed
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_7_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            Erfgoed
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/archeologie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Archeologie
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/monumenten/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Monumenten
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/archief/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Archief
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/erfgoedgeneriek/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generieke objecttypen Erfgoed
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/museum/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Museum
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/sport/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sport
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_8" id="__nav_3_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sociaal domein
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_8">
+            <span class="md-nav__icon md-icon"></span>
+            Sociaal domein
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/gemeentebegraven/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gemeentebegraven
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/wmojeugd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wmo en Jeugd
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/inburgering/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inburgering
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/schuldhulp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Schuldhulverlening
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/socteam/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sociale Teams
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/participatie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Participatie
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/socdomeingeneriek/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generieke definities Sociaal Domein
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_9" id="__nav_3_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Volksgezondheid en milieu
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_9">
+            <span class="md-nav__icon md-icon"></span>
+            Volksgezondheid en milieu
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/afval/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Afval
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_10" id="__nav_3_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Volkshuisvesting, leefomgeving en stedelijke vernieuwing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_10">
+            <span class="md-nav__icon md-icon"></span>
+            Volkshuisvesting, leefomgeving en stedelijke vernieuwing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/ruimteAlgemeen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Openbare ruimte
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/bouwenenwonen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bouwen en wonen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/omgevingswet/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Omgevingswet
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_11" id="__nav_3_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Interne organisatie
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_11">
+            <span class="md-nav__icon md-icon"></span>
+            Interne organisatie
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/ict/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ICT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/subsidies/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Subsidies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/vastgoed/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gemeentelijk Vastgoed
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/financien/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Financiën
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/hr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/inkoop/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inkoop
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domeinen/dienstverlening/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dienstverlening
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Definitie Domeinen
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Definitie Domeinen
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Bestuur, Politiek en Ondersteuning
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            Bestuur, Politiek en Ondersteuning
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Griffie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Griffie
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20VTH/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Veiligheid en Vergunningen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Verkeer, Vervoer en waterstaat
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            Verkeer, Vervoer en waterstaat
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Parkeren/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Parkeren
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Verkeer%20en%20Vervoer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Verkeer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Onderwijs
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            Onderwijs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Leerplicht%20en%20Leerlingenvervoer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Leerplicht en leerlingenvervoer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Onderwijs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Onderwijs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sport, Cultuur en Recreatie
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            Sport, Cultuur en Recreatie
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5_1" id="__nav_4_5_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Erfgoed
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            Erfgoed
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Archeologie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Archeologie
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Archief/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Archief
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Monumenten/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Monumenten
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Museum/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Museum
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Sport/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sport
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sociaal domein
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            Sociaal domein
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Inburgering/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inburgering
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Schulhulpverlening/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Schuldhulverlening
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Sociale%20Teams/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sociale Teams
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Participatie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Participatie
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Sociaal%20Domein/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wmo en Jeugd
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Volkshuisvesting, leefomgeving en stedelijke vernieuwing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_7">
+            <span class="md-nav__icon md-icon"></span>
+            Volkshuisvesting, leefomgeving en stedelijke vernieuwing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Wonen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wonen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Omgevingswet/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Omgevingswet
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_8" id="__nav_4_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Interne organisatie
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_8">
+            <span class="md-nav__icon md-icon"></span>
+            Interne organisatie
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20ICT/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ICT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Subsidies/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Subsidies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Vastgoed/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gemeentelijk Vastgoed
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20HR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Inkoop/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inkoop
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Aanvragen%20en%20Meldingen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dienstverlening
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_10" id="__nav_4_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Kern
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_10">
+            <span class="md-nav__icon md-icon"></span>
+            Kern
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Kern%20RSGB/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RSGB
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20Kern%20RGBZ/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RGBZ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definitie_Model%20BAG/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    BAG
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Totstandkoming
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Totstandkoming
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../totstandkoming/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Uitleg Werkwijze
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monumenten/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Voorbeeld: Gemeentelijke Monumenten
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../generatie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generatie databaseschema's
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Overige
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Overige
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Over het GGM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Licentie
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentatie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Documentatie aanpassen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../backup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backup maken
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tooling voor manupulatie repository
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhoudsopgave">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhoudsopgave
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#inleiding" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inleiding
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objecttypen-model-beheer-openbare-ruimte" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objecttypen Model Beheer Openbare Ruimte
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Objecttypen Model Beheer Openbare Ruimte">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#actie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Actie
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#areaal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Areaal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crowmelding" class="md-nav__link">
+    <span class="md-ellipsis">
+      CROWMelding
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deelplanveld" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deelplan/Veld
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#faseoplevering" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase/Oplevering
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geo-object" class="md-nav__link">
+    <span class="md-ellipsis">
+      Geo-Object
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grondbeheerder" class="md-nav__link">
+    <span class="md-ellipsis">
+      Grondbeheerder
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inspectie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inspectie
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kadastralemutatie" class="md-nav__link">
+    <span class="md-ellipsis">
+      KadastraleMutatie
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kwaliteitscatalogus-openbare-ruimte" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kwaliteitscatalogus Openbare Ruimte
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kwaliteitskenmerken" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kwaliteitskenmerken
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logboek" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logboek
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#melding" class="md-nav__link">
+    <span class="md-ellipsis">
+      Melding
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meldingongeval" class="md-nav__link">
+    <span class="md-ellipsis">
+      MeldingOngeval
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#moor-melding" class="md-nav__link">
+    <span class="md-ellipsis">
+      MOOR-melding
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#omgevingsvergunning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Omgevingsvergunning
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#onderhoud" class="md-nav__link">
+    <span class="md-ellipsis">
+      Onderhoud
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#opbreking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Opbreking
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#proces-verbaal-moor-melding" class="md-nav__link">
+    <span class="md-ellipsis">
+      Proces-verbaal-MOOR-melding
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schouwronde" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schouwronde
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Storing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#taak" class="md-nav__link">
+    <span class="md-ellipsis">
+      Taak
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uitvoerder-graafwerkzaamheden" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uitvoerder Graafwerkzaamheden
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verkeerslicht" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verkeerslicht
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enumeraties-model-beheer-openbare-ruimte" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enumeraties Model Beheer Openbare Ruimte
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Enumeraties Model Beheer Openbare Ruimte">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crow-kwaliteitsniveaus" class="md-nav__link">
+    <span class="md-ellipsis">
+      CROW-Kwaliteitsniveaus
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#energielabel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Energielabel
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oppervlakte-woning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Oppervlakte Woning
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="model-beheer-openbare-ruimte">Model Beheer Openbare Ruimte</h1>
+<h2 id="inleiding">Inleiding</h2>
+<blockquote>
+<p><strong>Definitie Model Beheer Openbare Ruimte:</strong> </p>
+<p>Geen definitie</p>
+</blockquote>
+<p>Het model 'Model Beheer Openbare Ruimte' kent de volgende objecttypen:</p>
+<ul>
+<li><strong>Actie</strong>: Kleinst mogelijke eenheid van werk die zinvol onderscheiden kan worden, uitgevoerd door een persoon of machine op 1 plek op 1 moment.</li>
+<li><strong>Areaal</strong>: Het verspreidingsgebied van een een soort, een levensgemeenschap of een biotooptype.</li>
+<li><strong>CROWMelding</strong>: BOR-MELD is een CROW-standaard voor het vastleggen van meldingen. </li>
+<li><strong>Deelplan/Veld</strong>: <Geen Definities></li>
+<li><strong>Fase/Oplevering</strong>: <Geen Definities></li>
+<li><strong>Geo-Object</strong>: Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011]</li>
+<li><strong>Grondbeheerder</strong>: Beheerder van grondgrondbeheer., oplossing voor duurzaam landbeheer en voedselproductie</li>
+<li><strong>Inspectie</strong>: het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen.</li>
+<li><strong>KadastraleMutatie</strong>: Wijziging in de kadatrale registratie</li>
+<li><strong>Kwaliteitscatalogus Openbare Ruimte</strong>: zie https://www.crow.nl/publicaties/kwaliteitscatalogus-openbare-ruimte-2018 </li>
+<li><strong>Kwaliteitskenmerken</strong>: Aanduiding van de hoedanigheid van uitvoering, bewerking en representativiteit van een meting, volgens een overeengekomen waarderingsschaal.</li>
+<li><strong>Logboek</strong>: Registratie waarin gebeurtenissen worden bijgehouden.</li>
+<li><strong>Melding</strong>: De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend</li>
+<li><strong>MeldingOngeval</strong>: Aangifte vna een ongeval</li>
+<li><strong>MOOR-melding</strong>: Meldingsproces rondom werkzaamheden aan kabels en leidingen.</li>
+<li><strong>Omgevingsvergunning</strong>: Vergunning als bedoeld in afdeling 5.1 van de Omgevingswet</li>
+<li><strong>Onderhoud</strong>: Maatregelen om de functionele kwaliteit in stand te houden of te herstellen en dus de levensduur van een (object)onderdeel te realiseren c.q. te verlengen.</li>
+<li><strong>Opbreking</strong>: Vorm van wegwerkzaamheid </li>
+<li><strong>Proces-verbaal-MOOR-melding</strong>: Officieel op papier gesteld verslag met betrekking tot heen MOOR-melding</li>
+<li><strong>Schouwronde</strong>: Activiteit om te controleren of de opdrachtnemer aan de afspraken voldoet.</li>
+<li><strong>Storing</strong>: Verlies van de mogelijkheid om volgens een specificatie te werken of om het vereiste resultaat te leveren.</li>
+<li><strong>Taak</strong>: Een samenhangende set activiteiten.</li>
+<li><strong>Uitvoerder Graafwerkzaamheden</strong>: Degene die op de bouwlocatie van een project de leiding heeft met betrekking tot de graafwerkzaamheden</li>
+<li><strong>Verkeerslicht</strong>: Lichten die aangeven dat je moet stoppen, dat je mag doorrijden, of die je waarschuwen voor gevaar. </li>
+</ul>
+<p>Het model 'Model Beheer Openbare Ruimte' heeft de volgende kenmerken:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Kenmerk</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Model Beheer Openbare Ruimte</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-09-12 14:11:31</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2023-10-12 14:53:04</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAPK_18DA1C0F_39A8_419a_B10A_D939009CC0C2</td>
+</tr>
+</tbody>
+</table>
+<h2 id="objecttypen-model-beheer-openbare-ruimte">Objecttypen Model Beheer Openbare Ruimte</h2>
+<h3 id="actie">Actie</h3>
+<blockquote>
+<p><strong>Definitie Actie:</strong> </p>
+<p>Kleinst mogelijke eenheid van werk die zinvol onderscheiden kan worden, uitgevoerd door een persoon of machine op 1 plek op 1 moment.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Actie</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;">bron: Bedrijfsarchitectuur op basis van Novius Architectuur Methode, code: 6.2.4</td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-11-06 16:52:08</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_DDE9A5B3_1E56_4058_8D12_A774F43B5D26</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype Actie</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="areaal">Areaal</h3>
+<blockquote>
+<p><strong>Definitie Areaal:</strong> </p>
+<p>Het verspreidingsgebied van een een soort, een levensgemeenschap of een biotooptype.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Areaal</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;">Verspreidingsgebied</td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-11-07 17:27:26</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_9507EE24_6397_4a9c_B478_8C2899EC0BFB</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">Areaal</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">business-object</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"><a href="https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1dc502a7-f60b-4950-92b1-9a7f8cdc471f">https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1dc502a7-f60b-4950-92b1-9a7f8cdc471f</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">Het verspreidingsgebied van een een soort, een levensgemeenschap of een biotooptype.</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype Areaal</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">geometrie</td>
+<td style="text-align: left;">MultiSurface</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="crowmelding">CROWMelding</h3>
+<blockquote>
+<p><strong>Definitie CROWMelding:</strong> </p>
+<p>BOR-MELD is een CROW-standaard voor het vastleggen van meldingen. </p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">CROWMelding</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;">CROW heeft begin 2017 besloten om eenduidige registratie van meldingen voor de gehele openbare ruimte te gaan faciliteren in aanvulling op de door Stichting RIONED tussen 2014 en 2016 ontwikkelde methodiek voor het stedelijk water domein. BOR-MELD is ontw</td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;">BOR-MELD</td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-11-07 16:58:24</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_4A8E659E_F088_446d_8614_BA31B106A417</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype CROWMelding</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">kwaliteitsniveau</td>
+<td style="text-align: left;">Enumeratie: "CROW-Kwaliteitsniveaus"</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="deelplanveld">Deelplan/Veld</h3>
+<blockquote>
+<p><strong>Definitie Deelplan/Veld:</strong> </p>
+<p>Geen Definitie</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Deelplan/Veld</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">mkampen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2023-09-27 09:29:15</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_EC994E7D_E6D1_4243_BA96_38DB7454ECEF</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype Deelplan/Veld</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="faseoplevering">Fase/Oplevering</h3>
+<blockquote>
+<p><strong>Definitie Fase/Oplevering:</strong> </p>
+<p>Geen Definitie</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Fase/Oplevering</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">mkampen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2023-09-27 09:31:19</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_7FA358CC_1160_490b_A543_D5ED69A558D2</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype Fase/Oplevering</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="geo-object">Geo-Object</h3>
+<blockquote>
+<p><strong>Definitie Geo-Object:</strong> </p>
+<p>Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011]</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Geo-Object</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;">Bevat een aantal basisgegevens die in alle geo-objecten terugkomen.</td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-09-19 11:50:45</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_05B355EF_39EA_4bfb_B1F3_AB31841C986E</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">Geo-Object</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">business-object</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"><a href="https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f5de1e41-5207-4d9e-a4f8-7889b5c1e2b1">https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f5de1e41-5207-4d9e-a4f8-7889b5c1e2b1</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011]</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;">Bevat een aantal basisgegevens die in alle geo-objecten terugkomen.</td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype Geo-Object</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">datumBeginGeldigheid</td>
+<td style="text-align: left;">datum</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">datumEindeGeldigheid</td>
+<td style="text-align: left;">datum</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">geometrieSoort</td>
+<td style="text-align: left;">AN40</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">identificatie</td>
+<td style="text-align: left;">NEN3610ID</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="grondbeheerder">Grondbeheerder</h3>
+<blockquote>
+<p><strong>Definitie Grondbeheerder:</strong> </p>
+<p>Beheerder van grondgrondbeheer., oplossing voor duurzaam landbeheer en voedselproductie</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Grondbeheerder</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-11-15 15:41:01</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_B53EC85A_C731_4fb6_8379_7D11802273B2</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">Grondbeheerder</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">business-object</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"><a href="https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cd7b6b9c-3bf7-4c3a-bbde-e72f38d76fe0">https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cd7b6b9c-3bf7-4c3a-bbde-e72f38d76fe0</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">Beheerder van grondgrondbeheer., oplossing voor duurzaam landbeheer en voedselproductie</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype Grondbeheerder</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="inspectie">Inspectie</h3>
+<blockquote>
+<p><strong>Definitie Inspectie:</strong> </p>
+<p>het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Inspectie</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-11-06 16:50:09</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_C73E52A5_F66E_47f0_8DEA_467A54F64DD2</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype Inspectie</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="kadastralemutatie">KadastraleMutatie</h3>
+<blockquote>
+<p><strong>Definitie KadastraleMutatie:</strong> </p>
+<p>Wijziging in de kadatrale registratie</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">KadastraleMutatie</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-12-06 16:14:13</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_5DC6EA71_272C_4392_BA5E_5C97DC3CA9D9</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">KadastraleMutatie</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">business-object</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"><a href="https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4c80e4c9-5e35-43d8-8438-2860c18949f0">https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4c80e4c9-5e35-43d8-8438-2860c18949f0</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">Wijziging in de kadatrale registratie</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype KadastraleMutatie</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;">Class: "ZAKELIJK RECHT"</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;">Class: "KADASTRALE ONROERENDE ZAAK"</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="kwaliteitscatalogus-openbare-ruimte">Kwaliteitscatalogus Openbare Ruimte</h3>
+<blockquote>
+<p><strong>Definitie Kwaliteitscatalogus Openbare Ruimte:</strong> </p>
+<p>zie https://www.crow.nl/publicaties/kwaliteitscatalogus-openbare-ruimte-2018
+</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Kwaliteitscatalogus Openbare Ruimte</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-11-07 16:35:55</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_2C6C809D_28B0_4037_BBFA_3E438A2DF81D</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">Kwaliteitscatalogus Openbare Ruimte</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">business-object</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"><a href="https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d9f93ca7-e915-4c2d-93b8-821e8e2bcae2">https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d9f93ca7-e915-4c2d-93b8-821e8e2bcae2</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">zie https://www.crow.nl/publicaties/kwaliteitscatalogus-openbare-ruimte-2018</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype Kwaliteitscatalogus Openbare Ruimte</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="kwaliteitskenmerken">Kwaliteitskenmerken</h3>
+<blockquote>
+<p><strong>Definitie Kwaliteitskenmerken:</strong> </p>
+<p>Aanduiding van de hoedanigheid van uitvoering, bewerking en representativiteit van een meting, volgens een overeengekomen waarderingsschaal.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Kwaliteitskenmerken</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-09-19 11:58:59</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_0754CC1D_48C7_4275_B909_BFB747BCFCD8</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">Kwaliteitskenmerken</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">business-object</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"><a href="https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0b0d8f74-8a70-4fb9-adbd-77233740ddc3">https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0b0d8f74-8a70-4fb9-adbd-77233740ddc3</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">Aanduiding van de hoedanigheid van uitvoering, bewerking en representativiteit van een meting, volgens een overeengekomen waarderingsschaal.</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype Kwaliteitskenmerken</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="logboek">Logboek</h3>
+<blockquote>
+<p><strong>Definitie Logboek:</strong> </p>
+<p>Registratie waarin gebeurtenissen worden bijgehouden.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Logboek</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-11-06 16:48:26</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_B1D48EFB_81E7_420d_A080_5B4C01798FFB</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">Logboek</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">business-object</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"><a href="https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5547cc2e-c193-4d41-a6e2-8f04b5e3cd92">https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5547cc2e-c193-4d41-a6e2-8f04b5e3cd92</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">Registratie waarin gebeurtenissen worden bijgehouden.</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype Logboek</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="melding">Melding</h3>
+<blockquote>
+<p><strong>Definitie Melding:</strong> </p>
+<p>De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Melding</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-11-06 16:48:18</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_C6094F79_D8EA_4763_90DF_4E30EFABA1FA</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">Melding</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">business-object</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"><a href="https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1a89112a-e13c-4c87-a862-e8ec66c01588">https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1a89112a-e13c-4c87-a862-e8ec66c01588</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype Melding</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">advies</td>
+<td style="text-align: left;">Text</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">categorie</td>
+<td style="text-align: left;">AN80</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">constatering</td>
+<td style="text-align: left;">Text</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">datumAdvies</td>
+<td style="text-align: left;">DateTime</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">datumMelding</td>
+<td style="text-align: left;">dateTime</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">datumUitvoering</td>
+<td style="text-align: left;">DateTime</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">foto</td>
+<td style="text-align: left;">Image</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">locatie</td>
+<td style="text-align: left;">Locatie</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">opmerkingen</td>
+<td style="text-align: left;">Text</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">status</td>
+<td style="text-align: left;">AN40</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uitgevoerd</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="meldingongeval">MeldingOngeval</h3>
+<blockquote>
+<p><strong>Definitie MeldingOngeval:</strong> </p>
+<p>Aangifte vna een ongeval</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">MeldingOngeval</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-11-06 16:49:06</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_A888F22C_45E9_4494_BA66_533FB1F6C37E</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype MeldingOngeval</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="moor-melding">MOOR-melding</h3>
+<blockquote>
+<p><strong>Definitie MOOR-melding:</strong> </p>
+<p>Meldingsproces rondom werkzaamheden aan kabels en leidingen.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">MOOR-melding</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-11-15 15:09:50</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_30D5F6E6_DE8D_46b6_AC8A_6CA1391ADFF7</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">MOOR-melding</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">business-object</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"><a href="https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4e149a77-4fcc-4f4a-ac18-b6655848b5c1">https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4e149a77-4fcc-4f4a-ac18-b6655848b5c1</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">Meldingsproces rondom werkzaamheden aan kabels en leidingen.</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype MOOR-melding</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">adresaanduiding</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">datumAanmelding</td>
+<td style="text-align: left;">DateTime</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">datumGoedkeuring</td>
+<td style="text-align: left;">DateTime</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">eindtijd</td>
+<td style="text-align: left;">DateTime</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">goedgekeurd</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">herstelwerkzaamhedenVereist</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">omschrijvingHerstelwerkzaamheden</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">publiceren</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">starttijd</td>
+<td style="text-align: left;">DateTime</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">wegbeheerder</td>
+<td style="text-align: left;">AN80</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;">Class: "Opbreking"</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="omgevingsvergunning">Omgevingsvergunning</h3>
+<blockquote>
+<p><strong>Definitie Omgevingsvergunning:</strong> </p>
+<p>Vergunning als bedoeld in afdeling 5.1 van de Omgevingswet</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Omgevingsvergunning</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-11-13 15:56:08</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_053B594A_5E45_4413_9339_D2D026ECCE20</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">Omgevingsvergunning</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">business-object</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"><a href="https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5bd99108-61d6-4b8f-ab84-dd16011d10db">https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5bd99108-61d6-4b8f-ab84-dd16011d10db</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">Vergunning als bedoeld in afdeling 5.1 van de Omgevingswet</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype Omgevingsvergunning</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;">Class: "Plan"</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;">Class: "MOOR-melding"</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="onderhoud">Onderhoud</h3>
+<blockquote>
+<p><strong>Definitie Onderhoud:</strong> </p>
+<p>Maatregelen om de functionele kwaliteit in stand te houden of te herstellen en dus de levensduur van een (object)onderdeel te realiseren c.q. te verlengen.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Onderhoud</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-12-05 14:33:05</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_960BB2E0_C17F_4c89_90DD_3006CC5F0F75</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">Onderhoud</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">business-object</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"><a href="https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c25777ae-ed48-4285-b244-66715cd2e299">https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c25777ae-ed48-4285-b244-66715cd2e299</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">Maatregelen om de functionele kwaliteit in stand te houden of te herstellen en dus de levensduur van een (object)onderdeel te realiseren c.q. te verlengen.</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype Onderhoud</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="opbreking">Opbreking</h3>
+<blockquote>
+<p><strong>Definitie Opbreking:</strong> </p>
+<p>Vorm van wegwerkzaamheid </p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Opbreking</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-12-05 14:55:35</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_1EBA6DEB_268D_4339_86C9_7C1BA218A7A0</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">Opbreking</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">business-object</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"><a href="https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5b02590d-3c1e-416c-ad2b-9edbef005ba5">https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5b02590d-3c1e-416c-ad2b-9edbef005ba5</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">Vorm van wegwerkzaamheid</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype Opbreking</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="proces-verbaal-moor-melding">Proces-verbaal-MOOR-melding</h3>
+<blockquote>
+<p><strong>Definitie Proces-verbaal-MOOR-melding:</strong> </p>
+<p>Officieel op papier gesteld verslag met betrekking tot heen MOOR-melding</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Proces-verbaal-MOOR-melding</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-11-15 15:14:08</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_2587938E_CF7F_499b_BB21_9CB8BBCC1DD2</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">Proces-verbaal-MOOR-melding</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">business-object</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"><a href="https://gemmaonline.nl/index.php/GEMMA2/0.9/id-48bc7e60-2a17-4909-b475-b18938e79048">https://gemmaonline.nl/index.php/GEMMA2/0.9/id-48bc7e60-2a17-4909-b475-b18938e79048</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">Officieel op papier gesteld verslag met betrekking tot heen MOOR-melding</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype Proces-verbaal-MOOR-melding</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">datum</td>
+<td style="text-align: left;">DateTime</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">goedkeuring</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">opmerkingen</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;">Class: "MOOR-melding"</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="schouwronde">Schouwronde</h3>
+<blockquote>
+<p><strong>Definitie Schouwronde:</strong> </p>
+<p>Activiteit om te controleren of de opdrachtnemer aan de afspraken voldoet.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Schouwronde</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-09-19 11:36:25</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_B011D584_1E66_4a21_A9C4_C922A8763AB2</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">Schouwronde</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">business-object</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"><a href="https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0a945e86-b4f2-45b2-855f-ed9fd0b4dca1">https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0a945e86-b4f2-45b2-855f-ed9fd0b4dca1</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">Activiteit om te controleren of de opdrachtnemer aan de afspraken voldoet.</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype Schouwronde</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="storing">Storing</h3>
+<blockquote>
+<p><strong>Definitie Storing:</strong> </p>
+<p>Verlies van de mogelijkheid om volgens een specificatie te werken of om het vereiste resultaat te leveren.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Storing</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-12-10 22:05:13</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_0EF67A8B_AEBE_4a00_B1EF_2EFD0DCC9F5D</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype Storing</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="taak">Taak</h3>
+<blockquote>
+<p><strong>Definitie Taak:</strong> </p>
+<p>Een samenhangende set activiteiten.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Taak</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-11-07 09:52:55</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_0621D6BE_A680_4aad_890D_78684F2266B0</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype Taak</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="uitvoerder-graafwerkzaamheden">Uitvoerder Graafwerkzaamheden</h3>
+<blockquote>
+<p><strong>Definitie Uitvoerder Graafwerkzaamheden:</strong> </p>
+<p>Degene die op de bouwlocatie van een project de leiding heeft met betrekking tot de graafwerkzaamheden</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Uitvoerder Graafwerkzaamheden</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-11-15 15:15:53</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_BBE1DC54_1482_4650_BB7F_930DDB823E09</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">Uitvoerder Graafwerkzaamheden</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">business-object</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"><a href="https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6f57464b-d011-4a75-afe8-a69b543c042b">https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6f57464b-d011-4a75-afe8-a69b543c042b</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">Degene die op de bouwlocatie van een project de leiding heeft met betrekking tot de graafwerkzaamheden</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype Uitvoerder Graafwerkzaamheden</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;">Class: "Opbreking"</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;">Class: "MOOR-melding"</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="verkeerslicht">Verkeerslicht</h3>
+<blockquote>
+<p><strong>Definitie Verkeerslicht:</strong> </p>
+<p>Lichten die aangeven dat je moet stoppen, dat je mag doorrijden, of die je waarschuwen voor gevaar. </p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Eigenschap</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Verkeerslicht</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">Arjen Brienen</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">2018-12-05 16:01:25</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">2024-04-17 13:34:40</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_620FF102_974C_43a6_A6A0_79BB71E8580D</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Attributen van objecttype Verkeerslicht</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="enumeraties-model-beheer-openbare-ruimte">Enumeraties Model Beheer Openbare Ruimte</h2>
+<h3 id="crow-kwaliteitsniveaus">CROW-Kwaliteitsniveaus</h3>
+<p>Geen Definitie</p>
+<p>Het enumeratie CROW-Kwaliteitsniveaus kent de volgende waarden:</p>
+<ul>
+<li><strong>Niveau A+</strong>: <Geen Definities></li>
+<li><strong>Niveau A</strong>: <Geen Definities></li>
+<li><strong>Niveau B</strong>: <Geen Definities></li>
+<li><strong>Niveau C</strong>: <Geen Definities></li>
+<li><strong>Niveau D</strong>: <Geen Definities></li>
+</ul>
+<p>De enumeratie CROW-Kwaliteitsniveaus heeft de volgende kenmerken:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Kenmerk</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">CROW-Kwaliteitsniveaus</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_503ACC2A_C721_4058_A44A_13126A0FC2DA</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;">None</td>
+</tr>
+</tbody>
+</table>
+<h3 id="energielabel">Energielabel</h3>
+<p>Geen Definitie</p>
+<p>Het enumeratie Energielabel kent de volgende waarden:</p>
+<ul>
+<li><strong>A</strong>: <Geen Definities></li>
+<li><strong>B</strong>: <Geen Definities></li>
+<li><strong>C</strong>: <Geen Definities></li>
+<li><strong>D</strong>: <Geen Definities></li>
+<li><strong>E</strong>: <Geen Definities></li>
+<li><strong>F</strong>: <Geen Definities></li>
+</ul>
+<p>De enumeratie Energielabel heeft de volgende kenmerken:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Kenmerk</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Energielabel</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_CC21861B_1CE6_4271_AF0C_CA68FEF0C880</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;">None</td>
+</tr>
+</tbody>
+</table>
+<h3 id="oppervlakte-woning">Oppervlakte Woning</h3>
+<p>Geen Definitie</p>
+<p>Het enumeratie Oppervlakte Woning kent de volgende waarden:</p>
+<ul>
+<li><strong>kleiner dan 15 m2</strong>: <Geen Definities></li>
+<li><strong>15 - 49 m2</strong>: <Geen Definities></li>
+<li><strong>50 - 74 m2</strong>: <Geen Definities></li>
+<li><strong>75 - 99 m2</strong>: <Geen Definities></li>
+<li><strong>100 - 124 m2</strong>: <Geen Definities></li>
+<li><strong>125 - 149 m2</strong>: <Geen Definities></li>
+<li><strong>150 en groter</strong>: <Geen Definities></li>
+</ul>
+<p>De enumeratie Oppervlakte Woning heeft de volgende kenmerken:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Kenmerk</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Oppervlakte Woning</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_5110C4A5_4771_4283_ADAB_04F9CB2D27BF</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;">None</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Gekopieerd naar klembord", "clipboard.copy": "Kopi\u00ebren naar klembord", "search.result.more.one": "1 extra overeenkomst op deze pagina", "search.result.more.other": "# extra overeenkomsten op deze pagina", "search.result.none": "Geen overeenkomende documenten", "search.result.one": "1 overeenkomende document", "search.result.other": "# overeenkomende documenten", "search.result.placeholder": "Typ om te beginnen met zoeken", "search.result.term.missing": "Ontbreekt", "select.version": "Selecteer versie"}, "version": {"include": true, "provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
+      
+    
+  </body>
+</html>
