@@ -2153,6 +2153,48 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#enumeraties-model-inburgering" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enumeraties Model Inburgering
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Enumeraties Model Inburgering">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#boolean" class="md-nav__link">
+    <span class="md-ellipsis">
+      Boolean
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boolean_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Boolean
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#doelgroep" class="md-nav__link">
+    <span class="md-ellipsis">
+      Doelgroep
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -3093,6 +3135,48 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#enumeraties-model-inburgering" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enumeraties Model Inburgering
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Enumeraties Model Inburgering">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#boolean" class="md-nav__link">
+    <span class="md-ellipsis">
+      Boolean
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boolean_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Boolean
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#doelgroep" class="md-nav__link">
+    <span class="md-ellipsis">
+      Doelgroep
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -3288,45 +3372,29 @@
 <tr>
 <td style="text-align: left;">DigiD aangevraagd</td>
 <td style="text-align: left;">Enumeratie: "Boolean"</td>
+<td style="text-align: left;">Heeft de Asielstatushouder  een DigiD aangevraagd?</td>
+</tr>
+<tr>
+<td style="text-align: left;">Mogelijke waarden: ja, nee of onbekend.</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">Emailadres verblijf AZC</td>
 <td style="text-align: left;">AN40</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">Is gekoppeld aan</td>
-<td style="text-align: left;">AN40</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">Land Rijbewijs</td>
-<td style="text-align: left;">AN50</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">Rijbewijs</td>
-<td style="text-align: left;">Enumeratie: "Boolean"</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">Telefoonnummer verblijf AZC</td>
-<td style="text-align: left;">AN10</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">None</td>
-<td style="text-align: left;">Class: "GEMEENTE"</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">None</td>
-<td style="text-align: left;">Class: "Verblijfplaats AZC"</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Het emailadres van Asielstatushouder  tijdens verblijf in het AZC.</td>
 </tr>
 </tbody>
 </table>
+<p>Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder   het AZC verlaat. |
+| Is gekoppeld aan | AN40 | Is de naam van de Gemeente waar de Asielstatushouder aan is gekoppeld voor huisvesting en verdere inburgering. |
+| Land Rijbewijs | AN50 | Het land waar het rijbewijs is gehaald door Asielstatushouder. |
+| Rijbewijs | Enumeratie: "Boolean" | Is de Asielstatushouder in het bezit van een rijbewijs?
+Mogelijke waarden: ja, nee of onbekend |
+| Telefoonnummer verblijf AZC | AN10 | Het telefoonummer van Asielstatushouder  tijdens het verblijf in het AZC.</p>
+<p>Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat. |
+| None | Class: "GEMEENTE" |  |
+| None | Class: "Verblijfplaats AZC" |  |</p>
 <h3 id="b1">B1</h3>
 <blockquote>
 <p><strong>Definitie B1:</strong> </p>
@@ -3926,12 +3994,12 @@
 <tr>
 <td style="text-align: left;">Doelgroep</td>
 <td style="text-align: left;">int</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Een indeling (op basis van een verblijfsdoen van een Inburgeraar en het onderscheid dat de Wi2021 maakt tussen de verschillende waarden in een groep. Zie ook de objecten Asielstatushouder en Gezinsmigrant / overige migrant.</td>
 </tr>
 <tr>
 <td style="text-align: left;">Gedetailleerde Doelgroep</td>
 <td style="text-align: left;">Enumeratie: "Doelgroep"</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Is een indeling (op basis van een verblijfsdoel van een Inburgeraar) in een groep.</td>
 </tr>
 </tbody>
 </table>
@@ -5032,12 +5100,12 @@
 <tr>
 <td style="text-align: left;">Sociaal Referent</td>
 <td style="text-align: left;">AN10</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">een</td>
 </tr>
 <tr>
 <td style="text-align: left;">v-nummer</td>
 <td style="text-align: left;">AN10</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Vreemdelingennummer, uniek, identificerend nummer dat door de Nederlandse overheid wordt uitgereikt aan een Vreemdeling na registratie in de vreemdelingenadministratie.</td>
 </tr>
 </tbody>
 </table>
@@ -5138,6 +5206,274 @@
 <td></td>
 <td></td>
 <td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="enumeraties-model-inburgering">Enumeraties Model Inburgering</h2>
+<h3 id="boolean">Boolean</h3>
+<p>Geen Definitie</p>
+<p>Het enumeratie Boolean kent de volgende waarden:</p>
+<ul>
+<li><strong>Ja</strong>: <Geen Definities></li>
+<li><strong>Nee</strong>: <Geen Definities></li>
+<li><strong>Onbekend</strong>: <Geen Definities></li>
+<li><strong>Leeg</strong>: <Geen Definities></li>
+</ul>
+<p>De enumeratie Boolean heeft de volgende kenmerken:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Kenmerk</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Boolean</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_2c5f841b_f1a7_4cf1_8ab0_9d7b0fa4e61b</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;">None</td>
+</tr>
+</tbody>
+</table>
+<h3 id="boolean_1">Boolean</h3>
+<p>Geen Definitie</p>
+<p>Het enumeratie Boolean kent de volgende waarden:</p>
+<ul>
+<li><strong>Ja</strong>: <Geen Definities></li>
+<li><strong>Nee</strong>: <Geen Definities></li>
+<li><strong>Onbekend</strong>: <Geen Definities></li>
+<li><strong>Leeg</strong>: <Geen Definities></li>
+</ul>
+<p>De enumeratie Boolean heeft de volgende kenmerken:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Kenmerk</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Boolean</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_77267f69_7ac8_4060_a65b_4e007fde746b</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;">None</td>
+</tr>
+</tbody>
+</table>
+<h3 id="doelgroep">Doelgroep</h3>
+<p>Geen Definitie</p>
+<p>Het enumeratie Doelgroep kent de volgende waarden:</p>
+<ul>
+<li><strong>Asielstatushouder</strong>: <Geen Definities></li>
+<li><strong>Gezinsvormer</strong>: <Geen Definities></li>
+<li><strong>Gezinshereniger</strong>: <Geen Definities></li>
+<li><strong>Geestelijk bedienaar</strong>: <Geen Definities></li>
+<li><strong>Gezinsvormer met Asielstatushouder</strong>: <Geen Definities></li>
+<li><strong>Gezinshereniger met Asielstatushouder</strong>: <Geen Definities></li>
+<li><strong>Overig</strong>: <Geen Definities></li>
+</ul>
+<p>De enumeratie Doelgroep heeft de volgende kenmerken:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Kenmerk</th>
+<th style="text-align: left;">Waarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">name</td>
+<td style="text-align: left;">Doelgroep</td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">synoniemen</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">uri</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">bron</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">author</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">version</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">created</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">modified</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">EAID_d05a453f_ebfa_446c_a982_9e08680698c1</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_iv3</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">domein_dcat</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_naam</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_type</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_url</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_definitie</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr>
+<td style="text-align: left;">gemma_toelichting</td>
+<td style="text-align: left;">None</td>
 </tr>
 </tbody>
 </table>

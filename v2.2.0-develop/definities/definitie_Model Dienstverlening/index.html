@@ -3187,7 +3187,7 @@ ID: REQ_ID</p>
 <tr>
 <td style="text-align: left;">soort</td>
 <td style="text-align: left;">AN80</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding....</td>
 </tr>
 <tr>
 <td style="text-align: left;">status</td>
@@ -3537,6 +3537,11 @@ ID: REQ_ID</p>
 <tr>
 <td style="text-align: left;">tijdsduurGepland</td>
 <td style="text-align: left;">int</td>
+<td style="text-align: left;">Werkelijke tijdsduur in minuten</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
@@ -3547,17 +3552,17 @@ ID: REQ_ID</p>
 <tr>
 <td style="text-align: left;">wachttijdNaStartAfspraak</td>
 <td style="text-align: left;">int</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Tijdsduur die iemand moet wachten na de starttijd van de afspraak</td>
 </tr>
 <tr>
 <td style="text-align: left;">wachttijdTotaal</td>
 <td style="text-align: left;">int</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Wachttijd inclusief de tijd dat iemand te vroeg voor de afspraak verschijnt en de tijd dat iemand moet wachten na de geplande starttijd van de afspraak</td>
 </tr>
 <tr>
 <td style="text-align: left;">wachttijdVoorStartAfspraak</td>
 <td style="text-align: left;">int</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Tijdsduur dat iemand te vroeg is voor de afspraak</td>
 </tr>
 <tr>
 <td style="text-align: left;">werkelijkeTijdsduur</td>
@@ -4004,6 +4009,11 @@ ID: FORM_ID en VELD_NAAM</p>
 <tr>
 <td style="text-align: left;">beoordeling</td>
 <td style="text-align: left;">AN10</td>
+<td style="text-align: left;">cijfer voor de beoordeling (getal tussen 0 en 10)</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
@@ -4014,16 +4024,31 @@ ID: FORM_ID en VELD_NAAM</p>
 <tr>
 <td style="text-align: left;">contactOpnemen</td>
 <td style="text-align: left;">boolean</td>
+<td style="text-align: left;">of de klant het al dan niet goed vind dat naar aanleiding van zijn/haar beoordeling contact wordt opgenomen</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">ddBeoordeling</td>
 <td style="text-align: left;">Date</td>
+<td style="text-align: left;">datum en tijdstip van de klantbeoordeling</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">kanaal</td>
 <td style="text-align: left;">AN100</td>
+<td style="text-align: left;">waar de beoordeling is uitgevoerd, te weten op de website, naar aanleiding van een webformulier of na schriftelijke uitvraag vanuit onze organisatie</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
@@ -4465,7 +4490,7 @@ ID: ONDERWERP_ID</p>
 <tr>
 <td style="text-align: left;">afhandeltijd</td>
 <td style="text-align: left;">int</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Standaard afhandeltijd in minuten</td>
 </tr>
 <tr>
 <td style="text-align: left;">ingebruik</td>
@@ -4794,42 +4819,42 @@ ID: ONDERWERP_ID</p>
 <tr>
 <td style="text-align: left;">afhandeltijdNaGesprek</td>
 <td style="text-align: left;">int</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">De tijd die de medewerker nodig heeft om het telefoontje af te handelen totdat hij/zij klaar is voor een volgend telefoontje</td>
 </tr>
 <tr>
 <td style="text-align: left;">deltaISDNConnectie</td>
 <td style="text-align: left;">int</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">De totale tijd dat er een teelfoonverbinding was minus totale wachttijd, spreektijd en on hold-tijd.</td>
 </tr>
 <tr>
 <td style="text-align: left;">eindtijd</td>
 <td style="text-align: left;">DateTime</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Het moment dat de telefooncentrale het telefoontjes beeindigd</td>
 </tr>
 <tr>
 <td style="text-align: left;">starttijd</td>
 <td style="text-align: left;">DateTime</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Het moment dat de telefooncentrale een telefoontje in behandeling neemt. Dit ligt voor de starttijd van het klantcontact</td>
 </tr>
 <tr>
 <td style="text-align: left;">totaleOnHoldTijd</td>
 <td style="text-align: left;">int</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">De totale tijd dat een beller tussen klantcontacten "on hold" wordt gezet.</td>
 </tr>
 <tr>
 <td style="text-align: left;">totaleSpreektijd</td>
 <td style="text-align: left;">int</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">De totale tijd dat met een (of meer) medewerkers van de gemeente wordt gebeld.</td>
 </tr>
 <tr>
 <td style="text-align: left;">totaleWachttijd</td>
 <td style="text-align: left;">int</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">De tijd tussen de starttijd van het telefoontje en het moment dat het telefoontje voor het eerst wordt opgenomen, of het telefoontje wordt afgesloten</td>
 </tr>
 <tr>
 <td style="text-align: left;">totLateTijdsduur</td>
 <td style="text-align: left;">int</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Tijd tussen start- en eindtijd van telefoontje</td>
 </tr>
 <tr>
 <td style="text-align: left;">trackID</td>

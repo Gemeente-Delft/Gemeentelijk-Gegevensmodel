@@ -3933,7 +3933,7 @@
 <tr>
 <td style="text-align: left;">leveringOfDienst</td>
 <td style="text-align: left;">Boolean</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Bij levering of dienst is waarde: TRUE, bij een werk is waarde: FALSE</td>
 </tr>
 <tr>
 <td style="text-align: left;">nettoTotaalBedrag</td>
@@ -5840,7 +5840,7 @@ Of voor levering personeel</p>
 <tr>
 <td style="text-align: left;">beoogdeLooptijd</td>
 <td style="text-align: left;">int</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Beoogde looptijd in jaren</td>
 </tr>
 <tr>
 <td style="text-align: left;">beoogdeTotaleOpdrachtwaarde</td>
@@ -5855,75 +5855,31 @@ Of voor levering personeel</p>
 <tr>
 <td style="text-align: left;">indicatieBeoogdeAanbestedingOnderhands</td>
 <td style="text-align: left;">Boolean</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">indicatieBeoogdeProcKomtOvereen</td>
-<td style="text-align: left;">boolean</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">indicatieEenmaligeLos</td>
-<td style="text-align: left;">Boolean</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">indicatieMeerjarigeRaamovereenkomst</td>
-<td style="text-align: left;">boolean</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">indicatieMeerjarigRepeterend</td>
-<td style="text-align: left;">Boolean</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">indicatorOverkoepelendProject</td>
-<td style="text-align: left;">Boolean</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">omschrijving</td>
-<td style="text-align: left;">text</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">opdrachtcategorie</td>
-<td style="text-align: left;">Enumeratie: "Opdrachtcategorie"</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">opdrachtsoort</td>
-<td style="text-align: left;">Enumeratie: "Opdrachtsoort"</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">toelichtingAanvullendeOpdracht</td>
-<td style="text-align: left;">text</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">toelichtingEenmaligOfRepeterend</td>
-<td style="text-align: left;">text</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">None</td>
-<td style="text-align: left;">Class: "ZAAK"</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">None</td>
-<td style="text-align: left;">Class: "Aankondiging"</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">None</td>
-<td style="text-align: left;">Class: "Aanbesteding"</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Welke aanbestedingsprocedure ben je voornemens te volgen?</td>
 </tr>
 </tbody>
 </table>
+<ol>
+ <li>1-op-1 (enkelvoudig onderhands) of 3 tot 5 offertes (meervoudig onderhands)</li>
+ <li>Nationale of Europese aanbesteding </li>
+</ol>
+
+<p>|
+| indicatieBeoogdeProcKomtOvereen | boolean | Komt - op basis van de hierboven genoemde totale opdrachtwaarde - de beoogde aanbestedings-procedure overeen met de voorgeschreven procedure uit het Procedure-overzicht en/of het 'groene' gedeelte in de kleurentabel uit de gids proportionaliteit?
+ |
+| indicatieEenmaligeLos | Boolean |  |
+| indicatieMeerjarigeRaamovereenkomst | boolean |  |
+| indicatieMeerjarigRepeterend | Boolean |  |
+| indicatorOverkoepelendProject | Boolean |  |
+| omschrijving | text |  |
+| opdrachtcategorie | Enumeratie: "Opdrachtcategorie" |  |
+| opdrachtsoort | Enumeratie: "Opdrachtsoort" |  |
+| toelichtingAanvullendeOpdracht | text | Zijn er mogelijk nog aanvullende of gerelateerde opdrachten, die je ook wilt verstrekken aan de beoogde opdrachtnemer? 
+ |
+| toelichtingEenmaligOfRepeterend | text |  |
+| None | Class: "ZAAK" |  |
+| None | Class: "Aankondiging" |  |
+| None | Class: "Aanbesteding" |  |</p>
 <h3 id="uitnodiging">Uitnodiging</h3>
 <blockquote>
 <p><strong>Definitie Uitnodiging:</strong> </p>

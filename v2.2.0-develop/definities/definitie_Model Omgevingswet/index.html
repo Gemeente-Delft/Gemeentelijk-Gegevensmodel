@@ -3755,6 +3755,36 @@ Een instructieregel is alleen gericht op een Omgevingsnorm of een Gebiedsaanduid
 <tr>
 <td style="text-align: left;">instructieregelInstrument</td>
 <td style="text-align: left;">AN200</td>
+<td style="text-align: left;"><font color="#032547"><b>Attribuutsoort instructieregel instrument</b></font></td>
+</tr>
+<tr>
+<td style="text-align: left;">Naam Definitie Formaat Toelichting</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Instructieregel instrument</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">De naam van het instrument waartoe de instructieregel zich richt.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">InstructieregelInstrument (waardelijst)</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Bijvoorbeeld: Omgevingsverordening, projectbesluit.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Dit kenmerk geeft nadere informatie in aanvulling op het type instructieregel, in het geval dat de regel gericht is op een bepaald instrument.</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
@@ -3890,7 +3920,7 @@ Een instructieregel is alleen gericht op een Omgevingsnorm of een Gebiedsaanduid
 <tr>
 <td style="text-align: left;">regeltekst</td>
 <td style="text-align: left;">AN200</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Verwijzing naar lid of artikel van regeltekst</td>
 </tr>
 <tr>
 <td style="text-align: left;">thema</td>
@@ -4565,25 +4595,29 @@ Een instructieregel is alleen gericht op een Omgevingsnorm of een Gebiedsaanduid
 <tr>
 <td style="text-align: left;">activiteitRegelKwalificatie</td>
 <td style="text-align: left;">AN200</td>
+<td style="text-align: left;"><font color="#032547"><b>Attribuutsoort activiteitregelkwalificatie</b></font></td>
+</tr>
+<tr>
+<td style="text-align: left;">Naam Definitie Formaat Toelichting</td>
+<td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
-<td style="text-align: left;">None</td>
-<td style="text-align: left;">Class: "Omgevingsnorm"</td>
+<td style="text-align: left;">Constraint(s)</td>
 <td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">None</td>
-<td style="text-align: left;">Class: "Gebiedsaanwijzing"</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">None</td>
-<td style="text-align: left;">Class: "Activiteit"</td>
 <td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
+<p>activiteitregelkwalificatie
+De naam van de kwalificatie van de Juridische regel over een activiteit.
+Activiteitregelkwalificatie (waardelijst) Bijvoorbeeld: gebod, verbod.
+Alleen te gebruiken wanneer bij Juridische regel is gekozen voor het type 'Regel voor iedereen' en de regel een Activiteit beschrijft.
+Als activiteit, alleen dan activiteitregelkwalificatie.
+Dit kenmerk heeft alleen betekenis wanneer de regel een activiteit beschrijft. Anders gezegd, dit kenmerk hoort alleen gevuld te worden wanneer de regel, ten minste, een activiteit beschrijft. |
+| None | Class: "Omgevingsnorm" |  |
+| None | Class: "Gebiedsaanwijzing" |  |
+| None | Class: "Activiteit" |  |</p>
 <h3 id="thema">Thema</h3>
 <blockquote>
 <p><strong>Definitie Thema:</strong> </p>
