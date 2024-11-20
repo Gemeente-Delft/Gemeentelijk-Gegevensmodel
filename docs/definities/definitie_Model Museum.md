@@ -164,7 +164,7 @@ Attributen van objecttype Balieverkoop
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | aantal | int |  |
-| kanaal | AN80 |  |
+| kanaal | AN80 | Verkocht via kassa, online of ander kanaal |
 | verkooptijd | DateTime |  |
 | None | Class: "Prijs" |  |
 | None | Class: "Product" |  |
@@ -540,11 +540,11 @@ Attributen van objecttype Museumobject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| afmeting | AN300 |  |
+| afmeting | AN300 | Omschrijving van afmeting |
 | bezitTot | Date |  |
 | bezitVanaf | Date |  |
-| medium | AN300 |  |
-| verkrijging | AN300 |  |
+| medium | AN300 | Materiaal waarvan object is vervaardigd |
+| verkrijging | AN300 | Hoe en via wie object is verkregen. Informatie uit de Constituents-tabel.  |
 | None | Class: "Belanghebbende" |  |
 | None | Class: "Tentoonstelling" |  |
 | None | Class: "Standplaats" |  |
@@ -893,7 +893,7 @@ Attributen van objecttype Reservering
 | BTW | AN8 |  |
 | tijdTot | Datetime |  |
 | tijdVanaf | Datetime |  |
-| totaalprijs | bedrag |  |
+| totaalprijs | bedrag | Bedrah exclusief BTW |
 | None | Class: "Voorziening" |  |
 | None | Class: "Zaal" |  |
 | None | Class: "Productie-eenheid" |  |

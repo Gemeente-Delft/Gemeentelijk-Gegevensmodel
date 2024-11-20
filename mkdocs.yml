@@ -3,9 +3,6 @@ site_description: Informatiemodel van alle gemeentelijke taakvelden
 site_author: Arjen Brienen
 site_url: https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/
 repo_url: https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/
-google_analytics:
-  - 'UA-109371818-2'
-  - 'auto'
 nav:
  - Home: index.md
  - Installatie: installatie.md
@@ -84,7 +81,7 @@ nav:
         - 'Gemeentelijk Vastgoed': definities/definitie_Model Vastgoed.md
         - 'HR': definities/definitie_Model HR.md
         - 'Inkoop': definities/definitie_Model Inkoop.md
-    - 'Dienstverlening': definities/definitie_Model Aanvragen en Meldingen.md
+    - 'Dienstverlening': definities/definitie_Model Dienstverlening.md
     - 'Kern':
         - 'RSGB': definities/definitie_Model Kern RSGB.md
         - 'RGBZ': definities/definitie_Model Kern RGBZ.md

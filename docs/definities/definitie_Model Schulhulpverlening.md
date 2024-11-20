@@ -456,7 +456,7 @@ Het enumeratie UitstroomredenSHV kent de volgende waarden:
 * **Verwezen naar Careyn**: <Geen Definities>
 * **Verwezen naar Kwadraad**: <Geen Definities>
 * **Verwezen naar Meldpunt Bezorgd**: <Geen Definities>
-* **Verwezen naar CJG**: <Geen Definities>
+* **Verwezen naar CJG**: waardelijst van uitsroom redenen van Delft. 
 * **Verwezen naar DIVA Delft**: <Geen Definities>
 * **Verwezen naar Humanitas**: <Geen Definities>
 * **Verwezen naar ISF**: <Geen Definities>

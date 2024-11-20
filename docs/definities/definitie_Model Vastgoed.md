@@ -910,16 +910,19 @@ Attributen van objecttype Vastgoedobject
 | bovenliggendNiveau | AN80 |  |
 | bovenliggendNiveaucode | AN20 |  |
 | brutoVloeroppervlakte | int |  |
-| CO2Uitstoot | int |  |
+| CO2Uitstoot | int | Jaarlijkse CO2 uitstoot in ton CO2-e
+ |
 | conditiescore | Enumeratie: "NEN2767 Conditiescore" |  |
 | datumAfstoten | Date |  |
 | datumBerekeningOppervlak | Date |  |
 | datumEigendom | Date |  |
 | datumVerkoop | Date |  |
 | deelportefeuille | AN80 |  |
-| energiekosten | Bedrag |  |
+| energiekosten | Bedrag | Jaarlijkse energiekosten
+ |
 | energielabel | Enumeratie: "Energielabel Gebouwen" |  |
-| energieverbruik | int |  |
+| energieverbruik | int | jaarlijks energieverbruik in Kwh
+ |
 | fiscaleWaarde | Bedrag |  |
 | foto | Blob |  |
 | gearchiveerd | Enumeratie: "Boolean" |  |
@@ -1122,20 +1125,206 @@ Attributen van objecttype Zakelijk Recht
 ## Enumeraties Model Vastgoed
 
 
+### gebruiksdoel
+Geen Definitie
+
+Het enumeratie gebruiksdoel kent de volgende waarden:
+
+* **woonfunctie **: <Geen Definities>
+* **bijeenkomstfunctie**: <Geen Definities>
+* **celfunctie **: <Geen Definities>
+* **gezondheidszorgfunctie**: <Geen Definities>
+* **industriefunctie**: <Geen Definities>
+* **kantoorfunctie**: <Geen Definities>
+* **logiesfunctie**: <Geen Definities>
+* **onderwijsfunctie **: <Geen Definities>
+* **sportfunctie **: <Geen Definities>
+* **winkelfunctie **: <Geen Definities>
+* **overige gebruiksfunctie **: <Geen Definities>
+* **Onbekend**: <Geen Definities>
+* **Leeg**: <Geen Definities>
+
+
+De enumeratie gebruiksdoel heeft de volgende kenmerken:
+
+| Kenmerk | Waarde |
+| :--- | :------ |
+| name | gebruiksdoel |
+| toelichting | None |
+| synoniemen | None |
+| uri | None |
+| bron | None |
+| author | None |
+| version | None |
+| created | None |
+| modified | None |
+| id | EAID_0858ea6f_b264_45dc_b7f7_766d5512519c |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
+
+
+
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: <Geen Definities>
+* **Nee**: <Geen Definities>
+* **Onbekend**: <Geen Definities>
+* **Leeg**: <Geen Definities>
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+| Kenmerk | Waarde |
+| :--- | :------ |
+| name | Boolean |
+| toelichting | None |
+| synoniemen | None |
+| uri | None |
+| bron | None |
+| author | None |
+| version | None |
+| created | None |
+| modified | None |
+| id | EAID_78a8a515_24ee_4f0b_be90_ea5a5fa15554 |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
+
+
+
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: <Geen Definities>
+* **Nee**: <Geen Definities>
+* **Onbekend**: <Geen Definities>
+* **Leeg**: <Geen Definities>
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+| Kenmerk | Waarde |
+| :--- | :------ |
+| name | Boolean |
+| toelichting | None |
+| synoniemen | None |
+| uri | None |
+| bron | None |
+| author | None |
+| version | None |
+| created | None |
+| modified | None |
+| id | EAID_f04b69fa_ded8_4b3c_a9f6_a6815190b9c5 |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
+
+
+
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: <Geen Definities>
+* **Nee**: <Geen Definities>
+* **Onbekend**: <Geen Definities>
+* **Leeg**: <Geen Definities>
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+| Kenmerk | Waarde |
+| :--- | :------ |
+| name | Boolean |
+| toelichting | None |
+| synoniemen | None |
+| uri | None |
+| bron | None |
+| author | None |
+| version | None |
+| created | None |
+| modified | None |
+| id | EAID_e447a948_0e93_4a35_b3d1_357f7497f73e |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
+
+
+
+### aanduidingEigenaarGebruiker
+Geen Definitie
+
+Het enumeratie aanduidingEigenaarGebruiker kent de volgende waarden:
+
+* **eigenaar-gebruiker**: <Geen Definities>
+* **eigenaar**: <Geen Definities>
+* **gebruiker**: <Geen Definities>
+* **medebelanghebbende**: <Geen Definities>
+* **Onbekend**: <Geen Definities>
+* **Leeg**: <Geen Definities>
+
+
+De enumeratie aanduidingEigenaarGebruiker heeft de volgende kenmerken:
+
+| Kenmerk | Waarde |
+| :--- | :------ |
+| name | aanduidingEigenaarGebruiker |
+| toelichting | None |
+| synoniemen | None |
+| uri | None |
+| bron | None |
+| author | None |
+| version | None |
+| created | None |
+| modified | None |
+| id | EAID_2d0e0359_4404_4fbe_98a0_9381a361ff9b |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
+
+
+
 ### Energielabel Gebouwen
 Geen Definitie
 
 Het enumeratie Energielabel Gebouwen kent de volgende waarden:
 
-* **A++**: <Geen Definities>
-* **A+**: <Geen Definities>
-* **A**: <Geen Definities>
-* **B**: <Geen Definities>
-* **C**: <Geen Definities>
-* **D**: <Geen Definities>
-* **E**: <Geen Definities>
-* **F**: <Geen Definities>
-* **G**: <Geen Definities>
+* **A++**: Minder dan verbruik 0,5 gigajoule energie per m2 per jaar
+* **A+**: Minder dan verbruik 0,7 gigajoule energie per m2 per jaar
+* **A**: Minder dan verbruik 1,05 gigajoule energie per m2 per jaar
+* **B**: Minder dan verbruik 1,3 gigajoule energie per m2 per jaar
+* **C**: Minder dan verbruik 1,6 gigajoule energie per m2 per jaar
+* **D**: Minder dan verbruik 2,0 gigajoule energie per m2 per jaar
+* **E**: Minder dan verbruik 2,4 gigajoule energie per m2 per jaar
+* **F**: Minder dan verbruik 2,9 gigajoule energie per m2 per jaar
+* **G**: Meer dan verbruik 2,9 gigajoule energie per m2 per jaar
 * **Onbekend**: <Geen Definities>
 * **Leeg**: <Geen Definities>
 
@@ -1209,12 +1398,12 @@ Geen Definitie
 
 Het enumeratie NEN2767 Conditiescore kent de volgende waarden:
 
-* **1**: <Geen Definities>
-* **2**: <Geen Definities>
-* **3**: <Geen Definities>
-* **4**: <Geen Definities>
-* **5**: <Geen Definities>
-* **6**: <Geen Definities>
+* **1**: Uitstekende conditie; incidenteel geringe gebreken
+* **2**: Goede conditie; <font color="#262626">Incidenteel beginnende veroudering</font>
+* **3**: Redelijke conditie; <font color="#262626">Plaatselijk zichtbare veroudering Functievervulling van bouw- en installatiedelen niet in gevaar</font>
+* **4**: Matige conditie; <font color="#262626">Functievervulling van bouw- en installatiedelen incidenteel in gevaar</font>
+* **5**: Slechte conditie; <font color="#262626">De veroudering is onomkeerbaar</font>
+* **6**: Zeer slechte conditie; <font color="#262626">Technisch rijp voor sloop</font>
 * **Onbekend**: <Geen Definities>
 * **Leeg**: <Geen Definities>
 

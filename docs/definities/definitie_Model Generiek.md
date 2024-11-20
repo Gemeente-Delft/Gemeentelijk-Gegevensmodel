@@ -66,7 +66,7 @@ Attributen van objecttype Foto
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bestandsgrootte | int |  |
+| bestandsgrootte | int | Bestandsgrootte in bytes |
 | bestandsnaam | AN200 |  |
 | bestandstype | AN80 |  |
 | datumtijd | DateTime |  |
@@ -248,7 +248,7 @@ Attributen van objecttype Locatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| hoogte | int |  |
+| hoogte | int | Hoogte in meters. Negatief is onder het maaiveld en positief boven het maaiveld |
 | naam | AN200 |  |
 | NEN3610ID | AN80 |  |
 

@@ -115,9 +115,9 @@ Attributen van objecttype Aansluitput
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aansluitpunt | GUID |  |
-| risicogebied | GUID |  |
-| type | Type |  |
+| aansluitpunt | GUID | GUID van het aansluitpunt. |
+| risicogebied | GUID | GUID van een bovenliggend Risicogebied. |
+| type | Type | Typering van het beheerobject. |
 
 
 
@@ -153,8 +153,8 @@ Attributen van objecttype Afvalbak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| type | Type |  |
-| typePlus | TypePlus |  |
+| type | Type | Typering van het beheerobject. |
+| typePlus | TypePlus | Nadere typering van het type beheerobject. |
 
 
 
@@ -190,19 +190,27 @@ Attributen van objecttype Bak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| breedte | integer |  |
-| diameter | integer |  |
-| gewichtLeeg | integer |  |
-| gewichtVol | integer |  |
-| hoogte | integer |  |
-| inhoud | integer |  |
-| jaarOnderhoudUitgevoerd | integer |  |
-| kwaliteitsniveauActueel | AN2 |  |
-| kwaliteitsniveauGewenst | KwaliteitsniveauGewenst |  |
-| lengte | integer |  |
-| materiaal | Materiaal |  |
-| verplaatsbaar | boolean |  |
-| vorm | Vorm |  |
+| breedte | integer | Breedte van het beheerobject.
+Eenheid: m |
+| diameter | integer | Diameter van het beheerobject.
+Eenheid: mm |
+| gewichtLeeg | integer | Leeg gewicht van het beheerobject.
+Eenheid: kg |
+| gewichtVol | integer | Gewicht van het beheerobject wanneer het volledig gevuld is.
+Eenheid: kg |
+| hoogte | integer | Hoogte van het beheerobject in meters.
+Eenheid: m |
+| inhoud | integer | Inhoud van het beheerobject.
+Eenheid: m3 |
+| jaarOnderhoudUitgevoerd | integer | Jaar waarin het onderhoud van het beheerobject is uitgevoerd.
+Eenheid: Jaartal |
+| kwaliteitsniveauActueel | AN2 | Aanduiding van het actuele kwaliteitsniveau  (na schouwen of inspecteren) conform de CROW Kwaliteitscatalogus (A+, A, B, C, D) |
+| kwaliteitsniveauGewenst | KwaliteitsniveauGewenst | Aanduiding van het gewenste kwaliteitsniveau conform de CROW Kwaliteitscatalogus (A+, A, B, C, D) |
+| lengte | integer | Lengte van het beheerobject.
+Eenheid: m |
+| materiaal | Materiaal | Lijst met materialen waaruit het beheerobject opgebouwd is. |
+| verplaatsbaar | boolean | Aanduiding of het beheerobject verplaatst kan worden of vast met de aarde verbonden is. |
+| vorm | Vorm | Vorm van een beheerobject. |
 
 
 
@@ -237,8 +245,8 @@ Attributen van objecttype Bank
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| type | Type |  |
-| typePlus | TypePlus |  |
+| type | Type | Typering van het beheerobject. |
+| typePlus | TypePlus | Nadere typering van het type beheerobject. |
 
 
 
@@ -273,49 +281,72 @@ Attributen van objecttype Beheerobject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aangemaaktDoor | AN200 |  |
-| beginGarantieperiode | Datum |  |
-| beheergebied | Beheergebied |  |
-| beheerobjectBeheervak | GUID |  |
-| beheerobjectGebruiksfunctie | Gebruiksfunctie |  |
-| beheerobjectMemo | Memo |  |
-| beschermdeFloraEnFauna | boolean |  |
-| buurt | AN80 |  |
-| conversieID | AN50 |  |
-| datumMutatie | Datum |  |
-| datumOplevering | Datum |  |
-| datumPublicatieLV | Datum |  |
-| datumVerwijdering | Datum |  |
-| eindeGarantieperiode | Datum |  |
-| gebiedstype | Gebiedstype |  |
-| gemeente | AN80 |  |
-| geometrie | Spatial |  |
-| gewijzigdDoor | AN200 |  |
-| grondsoort | Grondsoort |  |
-| grondsoortPlus | GrondsoortPlus |  |
-| identificatieIMBOR | GUID |  |
-| identificatieIMGeo | GUID |  |
-| jaarVanAanleg | integer |  |
-| objectBeginTijd | DatumTijd |  |
-| objectEindtijd | DatumTijd |  |
-| onderhoudsplichtige | Onderhoudsplichtige |  |
-| openbareRuimte | AN80 |  |
-| postcode | AN6 |  |
-| relatieveHoogteligging | integer |  |
-| stadsdeel | AN80 |  |
-| status | Status |  |
-| theoretischEindejaar | integer |  |
-| tijdstipRegistratie | DatumTijd |  |
-| typeBeheerder | TypeBeheerder |  |
-| typeBeheerderPlus | TypeBeheerderPlus |  |
-| typeEigenaar | TypeEigenaar |  |
-| typeEigenaarPlus | TypeEigenaarPlus |  |
-| typeLigging | TypeLigging |  |
-| waterschap | AN80 |  |
-| wijk | AN80 |  |
-| woonplaats | AN80 |  |
-| zettingsgevoeligheid | Zettingsgevoeligheid |  |
-| zettingsgevoeligheidPlus | ZettingsgevoeligheidPlus |  |
+| aangemaaktDoor | AN200 | Medewerker (ID) welke het beheerobject in het beheersysteem aangemaakt heeft. |
+| beginGarantieperiode | Datum | Jaar waarin de garantieperiode van het opgeleverde beheerobject begint.
+Eenheid: mmddyyyy |
+| beheergebied | Beheergebied | Aanduiding van het beheergebied waarbinnen het beheerobject ligt. Indeling in beheergebieden is organisatiespecifiek. |
+| beheerobjectBeheervak | GUID | GUID van 1 of meerdere beheervakken waartoe het beheerobject behoort of waarbinnen het beheerobject zich bevindt. |
+| beheerobjectGebruiksfunctie | Gebruiksfunctie | Aanduiding van Ã©Ã©n of meer gebruiksfuncties van het beheerobject. |
+| beheerobjectMemo | Memo | Mogelijkheid om 1 of meerdere memovelden te registreren bij een beheerobject. |
+| beschermdeFloraEnFauna | boolean | Aanduiding voor aanwezigheid  beschermde plantensoort en beschermde diersoort. |
+| buurt | AN80 | Aanduiding van de buurt waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met buurtgrenzen
+Toelichting: Link naar: www.definities.geostandaarden.nl |
+| conversieID | AN50 | Uniek kenmerk van een beheerobject uit een oude beheerindeling. |
+| datumMutatie | Datum | Datum waarop de digitale gegevens van het beheerobject voor het laatst gewijzigd zijn.
+Eenheid: mmddyyyy |
+| datumOplevering | Datum | Datum waarop het beheerobject daadwerkelijk opgeleverd is. Begin van de garantieperiode.
+Eenheid: mmddyyyy |
+| datumPublicatieLV | Datum | Tijdstip waarop deze instantie van het beheerobject is opgenomen in de landelijke voorziening.
+Eenheid: mmddyyyy |
+| datumVerwijdering | Datum | MateriÃ«le levensduur, EindeGeldigheid
+Eenheid: mmddyyyy |
+| eindeGarantieperiode | Datum | Jaar waarin de garantieperiode van het opgeleverde beheerobject eindigt.
+Eenheid: mmddyyyy |
+| gebiedstype | Gebiedstype | Aanduiding van het gebiedstype waarbinnen het beheerobject ligt. Conform de indeling zoals toegepast bij de CROW Benchmark Beheerprestaties. |
+| gemeente | AN80 | Naam van de gemeente waarbinnen het beheerobject ligt. |
+| geometrie | Spatial | Aanduiding voor de geometrie van het beheerobject. |
+| gewijzigdDoor | AN200 | Medewerker (ID) welke het beheerobject in het beheersysteem gewijzigd heeft. |
+| grondsoort | Grondsoort | Aanduiding van de grondsoort op de plaats van het beheerobject. Voor de CROW Systematiek Wegbeheer kunnen uitsluitend de volgende vier grondsoorten worden gebruikt: zand, klei, klei/veen, veen. Overname uit een bodemkaart met grondsoorten of uit een referentielijst. |
+| grondsoortPlus | GrondsoortPlus | Verdere bijzondering van de grondsoort op de plaats van het beheerobject. |
+| identificatieIMBOR | GUID | Uniek nummer van het IMBOR-object (GUID)
+Toelichting: De IMBOR-objecten zijn identificeerbaar middels het attribuut identificatie dat als inhoud heeft   - namespace: Â´IMBORÂ´   - lokaalID: een numerieke identificatie
+Conform NEN3610 zijn identificatiecodes persistent: ze wijzigen niet gedurende de levensduur van een object. Verder zijn de identificatiecodes uniek ten opzichte van elkaar. |
+| identificatieIMGeo | GUID | Overerving van de geometrie van beheerobject uit bovenliggend informatiemodel of automatisch genereren. |
+| jaarVanAanleg | integer | Jaar waarin het beheerobject is aangelegd of aangeplant. (kan ook voor de plaatsingsdatum gebruikt worden)
+Eenheid: Jaartal
+Toelichting: In de CROW Systematiek Wegbeheer staat het begrip 'ouderdom' (van de constructie). Deze wordt bepaald op basis van het jaar van aanleg. Aanvullende informatie voor het wegbeheer kan zijn: Jaar conservering, jaar laatste onderhoud. Voor het boombeheer geldt: in de situatie dat een boom is verplant, wordt het oorspronkelijke plantjaar aangehouden, teneinde de leeftijd en de groeifase van de boom zo goed mogelijk te kunnen benaderen. Als de boom in een zware maat is aangeplant, wordt een plantjaar aangehouden waarmee de leeftijd zo goed mogelijk wordt benaderd. |
+| objectBeginTijd | DatumTijd | Creatiedatum van het digitale beheerobject binnen het beheersysteem of in de bovenliggende georegistratie
+Eenheid: mmddyyyy |
+| objectEindtijd | DatumTijd | Vervaldatum van het digitale beheerobject binnen het beheersysteem of in de bovenliggende georegistratie
+Eenheid: mmddyyyy |
+| onderhoudsplichtige | Onderhoudsplichtige | Organisatie welke verantwoordelijk is voor het onderhoud van het beheerobject. |
+| openbareRuimte | AN80 | Aanduiding van de openbare ruimte, zoals gedefinieerd in IMGeo of in de BAG, waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met grenzen openbare ruimtes of uit de Basisregistratie Adressen en Gebouwen (zonder begrenzing)
+Toelichting: Link naar: www.definities.geostandaarden.nl        Definitie IMGeo: een openbare ruime is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen Ã©Ã©n woonplaats is gelegen. |
+| postcode | AN6 | Aanduiding van het postcodegebied waarbinnen het beheerobject ligt. Overname uit 6 positie postcodekaart |
+| relatieveHoogteligging | integer | Aanduiding voor de relatieve hoogte van het beheerobject.
+Eenheid: Reeks |
+| stadsdeel | AN80 | Aanduiding van het stadsdeel waarbinnen het beheerobject ligt.  Overname uit IMGeo-bestand met woonplaats- of stadsdeelgrenzen
+Toelichting: Link naar: www.definities.geostandaarden.nl |
+| status | Status | Status van het beheerobject in het inwinningsproces van de geometrie. Wordt gebruikt voor schets- en deifinitieve geometrie. |
+| theoretischEindejaar | integer | Jaar dat het beheerobject aan het theoretische einde van haar levensduur is.
+Eenheid: Jaartal |
+| tijdstipRegistratie | DatumTijd | Formele historie, tijdstip registratie beheerobject.
+Eenheid: mmddyyyy |
+| typeBeheerder | TypeBeheerder | Een publiekrechtelijke instantie of (rechts)persoon die toeziet op de instandhouding van o.a. een object, kunstwerk of waterstaatswerk. De typen beheerder zijn conform de indeling in bronhouders (BGT).
+Toelichting: De waarde wordt gebruikt voor de duiding van het fysieke beheer. De beheerder is de organisatie die verantwoordelijk voor het beheer van het terrein. Dit hoeft niet dezelfde organisatie te zijn die de (juridisch) eigenaar is van het terrein. Beheerder en Bronhouder hebben daarmee geen overlap. |
+| typeBeheerderPlus | TypeBeheerderPlus | Nadere aanduiding van de beheerder van het beheerobject. |
+| typeEigenaar | TypeEigenaar | (rechts)persoon die het meest  omvattend recht op een zaak heeft . De typen eigenaren zijn conform de indeling in bronhouders (BGT). |
+| typeEigenaarPlus | TypeEigenaarPlus | Nadere aanduiding van de eigenaar van het beheerobject. |
+| typeLigging | TypeLigging | Aanduiding van de ligging van het beheerobject binnen of buiten de bebouwde kom.
+Toelichting: Voor de bebouwde komgrens zijn verschillende definities, vanuit verschillende wetten. Suggestie: bebouwde komgrens aanhouden zoals vastgesteld door de gemeente die de eigenaar is van het beheerobject. Zie ook: Wegenverkeerswet, Wegenwet, Omgevingswet |
+| waterschap | AN80 | Aanduiding van het waterschap, waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met waterschapsgrenzen
+Toelichting: Link naar: www.definities.geostandaarden.nl |
+| wijk | AN80 | Aanduiding van de wijk waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met wijkgrenzen
+Toelichting: Link naar: www.definities.geostandaarden.nl |
+| woonplaats | AN80 | Aanduiding van de woonplaats waarbinnen het beheerobject ligt.  Overname uit IMGeo-bestand met woonplaats- of stadsdeelgrenzen
+Toelichting: Link naar: www.definities.geostandaarden.nl |
+| zettingsgevoeligheid | Zettingsgevoeligheid | â€˜Zettingsgevoeligâ€™ is de indicatie van de zettingsgevoeligheid van de ondergrond of bodem. Zetting is het proces waar grond onder invloed van een belasting wordt samengedrukt; ook wel het geleidelijk en min of meer gelijkmatig |
+| zettingsgevoeligheidPlus | ZettingsgevoeligheidPlus | Aanduiding voor de mate van zettingsgevoeligheid. |
 
 
 
@@ -351,7 +382,7 @@ Attributen van objecttype Bemalingsgebied
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| rioleringsgebied | GUID |  |
+| rioleringsgebied | GUID | GUID van een (bovenliggend) rioleringsgebied. |
 
 
 
@@ -387,11 +418,12 @@ Attributen van objecttype Bergingsbassin
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bergendVermogen | integer |  |
-| pompLedigingsVoorziening | GUID |  |
-| pompSpoelVoorziening | GUID |  |
-| spoelleiding | GUID |  |
-| vorm | Vorm |  |
+| bergendVermogen | integer | De hoeveelheid afvalwater die in de voorziening kan worden geborgen.
+Eenheid: m3 |
+| pompLedigingsVoorziening | GUID | Een technische installatie die het afvalwater onder druk transporteert. |
+| pompSpoelVoorziening | GUID | Een technische installatie die het afvalwater onder druk transporteert. |
+| spoelleiding | GUID | Leiding voor transport van spoelwater. |
+| vorm | Vorm | Vorm van een beheerobject. |
 
 
 
@@ -427,49 +459,76 @@ Attributen van objecttype Boom
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| beleidsstatus | Beleidsstatus |  |
-| beoogdeOmlooptijd | BeoogdeOmlooptijd |  |
-| boombeeld | Boombeeld |  |
-| boombeschermer | GUID |  |
-| boomgroep | Boomgroep |  |
-| boomhoogteActueel | integer |  |
-| boomhoogteklasseActueel | BoomhoogteklasseActueel |  |
-| boomhoogteklasseEindebeeld | BoomhoogteklasseActueel |  |
-| boomspiegel | GUID |  |
-| boomTypeBeschermingsstatusPlus | TypeBeschermingsstatusPlus |  |
-| boomvoorziening | Boomvoorziening |  |
-| controlefrequentie | Controlefrequentie |  |
-| feestverlichting | GUID |  |
-| groeifase | Groeifase |  |
-| groeiplaatsinrichting | GUID |  |
-| herplantplicht | boolean |  |
-| kiemjaar | integer |  |
-| kroondiameterklasseActueel | KroondiameterklasseActueel |  |
-| kroondiameterklasseEindebeeld | KroondiameterklasseActueel |  |
-| kroonvolume | integer |  |
-| leeftijd | integer |  |
-| meerstammig | boolean |  |
-| monetaireBoomwaarde | bedrag |  |
-| snoeifase | Snoeifase |  |
-| stamdiameter | integer |  |
-| stamdiameterklasse | StamdiameterKlasse |  |
-| takvrijeRuimteTotGebouw | integer |  |
-| takvrijeStam | TakvrijeStam |  |
-| takvrijeZonePrimair | integer |  |
-| takvrijeZoneSecundair | integer |  |
-| transponder | AN50 |  |
-| type | Type |  |
-| typeBeschermingsstatus | TypeBeschermingsstatus |  |
-| typeOmgevingsrisicoklasse | TypeOmgevingsrisicoklasse |  |
-| typePlus | TypePlus |  |
-| typeVermeerderingsvorm | TypeVermeerderingsvorm |  |
-| veiligheidsklasseBoom | Boomveiligheidsklasse |  |
-| verplant | boolean |  |
-| verplantbaar | boolean |  |
-| vrijeDoorrijhoogte | VrijeDoorrijhoogte |  |
-| vrijeDoorrijhoogtePrimair | VrijeDoorrijhoogte |  |
-| vrijeDoorrijhoogteSecundair | VrijeDoorrijhoogte |  |
-| vrijeTakval | VrijeTakval |  |
+| beleidsstatus | Beleidsstatus | Beleidsstatus is een functiecategorie bomen conform de richtlijnen NVTB, t.b.v. de bepaling van de monetaire waarde. |
+| beoogdeOmlooptijd | BeoogdeOmlooptijd | De potentieel haalbare omlooptijd, in relatie tot de standplaats (schatting). |
+| boombeeld | Boombeeld | Onderhoudssituatie van de boom. |
+| boombeschermer | GUID | Wanneer een boombeschermer aanwezig is, wordt het GUID van het beheerobject Boombeschermer gekoppeld aan het object Boom.
+Toelichting: Constructie, meestal van metaal, rondom het onderste  gedeelte van de stam, bedoeld ter bescherming van de stam. |
+| boomgroep | Boomgroep | Aanduiding of de boom onderdeel is van een boomgroep. |
+| boomhoogteActueel | integer | Hoogte van de boom in meters.
+Eenheid: m |
+| boomhoogteklasseActueel | BoomhoogteklasseActueel | Aanduiding van de boomhoogte in meters ingedeeld in vaste klassen.
+Toelichting: Boomhoogte in meters, ingedeeld in vaste klassen,  gemeten vanaf het maaiveld tot de top van de boomÂ´, bij vormbomen gemeten tot de hoogste knot of de gewenste hoogte (Bron: RAW) |
+| boomhoogteklasseEindebeeld | BoomhoogteklasseActueel | Aanduiding van de boomhoogte van het eindbeeld, in meters ingedeeld in vaste klassen.
+Toelichting: Boomhoogte in meters, ingedeeld in vaste klassen,  gemeten vanaf het maaiveld tot de top van de boomÂ´, bij vormbomen gemeten tot de hoogste knot of de gewenste hoogte (Bron: RAW) |
+| boomspiegel | GUID | Wanneer een boomspiegel aanwezig is, wordt het GUID van het beheerobject Boomspiegel gekoppeld aan het object Boom.
+Toelichting: Boomspiegel: afgebakend oppervlak rondom de stam van een boom, dat niet is ingeplant. |
+| boomTypeBeschermingsstatusPlus | TypeBeschermingsstatusPlus | Nadere aanduiding voor de speciale status van de boom. |
+| boomvoorziening | Boomvoorziening | Mogelijkheid om 1 of meerdere boomvoorzieningen bij een boom te registreren. |
+| controlefrequentie | Controlefrequentie | Aanduiding van de frequentie van de controle van het beheerobject.
+Toelichting: "De frequentie van de boomveiligheidscontrole. Dit is de periodieke visuele controle van een boom in het kader van â€˜de zorgplichtâ€™ (voortkomend uit artikel 6:162 van het BW) ten behoeve van het vaststellen van een (potentieel toekomstig) risico dat de boom vormt voor zijn omgeving. 
+De term â€˜boomveiligheidscontroleâ€™ heeft betrekking op het gehele proces om â€˜in het veldâ€™ de benodigde gegevens te verkrijgen voor het logboek, zoals beschreven in de CROW Richtlijn Boomveiligheidsregistratie.
+" |
+| feestverlichting | GUID | Wanneer Feestverlichting aanwezig is, wordt het GUID van het beheerobject Feestverlichting gekoppeld aan het gekoppelde beheerobject. |
+| groeifase | Groeifase | Aanduiding van de groeifase van een boom.
+Toelichting: Er is geen volledige eenduidigheid over de indeling, maar over het algemeen worden bij een boom zoÂ´n 4 groeifasen onderscheiden. Het onderscheid is gebaseerd op de verschillen in beheermaatregelen. |
+| groeiplaatsinrichting | GUID | Wanneer een groeiplaatsinrichting aanwezig is, wordt het GUID van het beheerobject Groeiplaatsinrichting gekoppeld aan het object Boom |
+| herplantplicht | boolean | Aanduiding of er in het kader van de Wet Natuurbescherming sprake is van een herplantplicht. |
+| kiemjaar | integer | Kiemjaar van de boom.
+Eenheid: Jaartal |
+| kroondiameterklasseActueel | KroondiameterklasseActueel | Diameter van de kroon van de boom in meters ingedeeld in vaste klassen. |
+| kroondiameterklasseEindebeeld | KroondiameterklasseActueel | Diameter van de kroon van het eindbeeld van de boom in meters ingedeeld in vaste klassen. |
+| kroonvolume | integer | Volume van de boomkroon in kubieke meters
+Eenheid: m3 |
+| leeftijd | integer | Leeftijd van het beheerobject in jaren.
+Eenheid: Aantal |
+| meerstammig | boolean | Aanduiding voor meerstammigheid bij een Boom |
+| monetaireBoomwaarde | bedrag | Monetaire waarde volgens richtlijnen NVTB.
+Eenheid: â‚¬ |
+| snoeifase | Snoeifase | Aanduiding van de snoeifase van de boom. |
+| stamdiameter | integer | Aanduiding voor de diameter van de stam.
+Eenheid: cm |
+| stamdiameterklasse | StamdiameterKlasse | Aanduiding van de diameter van de stam in diameterklassen. |
+| takvrijeRuimteTotGebouw | integer | De benodigde takvrije ruimte tussen het gebouw en de zijkant van de boom.
+Eenheid: m |
+| takvrijeStam | TakvrijeStam | De benodigde takvrije stam in het eindbeeld, gemeten vanaf maaiveld tot aan de onderste gesteltak.
+Eenheid: m
+Toelichting: Takvrije stam: gedeelte van de stam, gemeten vanaf maaiveld tot aan eerste gesteltak. Eindbeeld: vorm van een boom in volgroeide staat, omschreven door middel van takvrije zone en/of takvrije stam. Als synoniem wordt vaak gebruikt de opkroonhoogte: de verticaal gemeten vrije hoogte tussen maaiveld en kroon van de boom. |
+| takvrijeZonePrimair | integer | De benodigde takvrije ruimte tussen de weg of het fietspad en de onderkant van de boomkroon (eindbeeld van de boom). Als aan beide zijden van de boom een weg en een fietspad ligt, wordt de takvrije ruimte boven de weg aangeduid met primair, en de takvrijke ruimte boven het fietspad met secundair.
+Eenheid: m
+Toelichting: Takvrije zone: vrije ruimte ten behoeve van verkeer of andere omgevingsfactoren. |
+| takvrijeZoneSecundair | integer | De benodigde takvrije ruimte tussen het fietspad en de onderkant van de boomkroon (eindbeeld van de boom). Als aan beide zijden van de boom een weg en een fietspad ligt, wordt de takvrije ruimte boven de weg aangeduid met primair, en de takvrijke ruimte boven het fietspad met secundair.
+Eenheid: m
+Toelichting: Takvrije zone: vrije ruimte ten behoeve van verkeer of andere omgevingsfactoren. |
+| transponder | AN50 | Nummer of identificatie van een transponder op een beheerobject. |
+| type | Type | Typering van het beheerobject. |
+| typeBeschermingsstatus | TypeBeschermingsstatus | Aanduiding voor de speciale status van de boom. |
+| typeOmgevingsrisicoklasse | TypeOmgevingsrisicoklasse | Aanduiding van het omgevingsrisico van het beheerobject.
+Toelichting: Classificering voor de intensiteit van het gebruik van de omgeving van een boom en daarmee de mate waarin de omgeving van de boom risicoverhogend is voor eventuele schade bij stambreuk, takbreuk of instabiliteit. Aanvullende informatie: vast te stellen door de boomeigenaar. |
+| typePlus | TypePlus | Nadere typering van het type beheerobject. |
+| typeVermeerderingsvorm | TypeVermeerderingsvorm | Wijze waarop de plant of boom is vermeerderd. |
+| veiligheidsklasseBoom | Boomveiligheidsklasse | Aanduiding van de veiligheid van de boom, ingedeeld in vaste klassen.
+Toelichting: Voor bosplantsoen met boomvormers is de mate van veiligheid van het beheerobject voor de omgeving relevant. Hiervoor is nog geen landelijk vastgestelde classificatie. Boomveiligheid: Aanduiding voor de veiligheid van personen, dieren, objecten en goederen in de nabijheid van een boom. |
+| verplant | boolean | Aanduidig of het groen- of vegetatieobject verplant is. |
+| verplantbaar | boolean | Aanduiding of de boom verplant kan worden. |
+| vrijeDoorrijhoogte | VrijeDoorrijhoogte | De benodigde vrije ruimte tussen de weg of het fietspad, en de onderkant van de boomkroon of van een bouwwerk boven de weg, zoals een viaduct of tunnel.
+Eenheid: m
+Toelichting: Takvrije zone boven het wegdek en onder de kroon waar bestuurders van voertuigen vrije doorgang genieten tot een hoogte zoals is bepaald door de wegbeheerder. |
+| vrijeDoorrijhoogtePrimair | VrijeDoorrijhoogte | De benodigde vrije ruimte tussen de weg of het fietspad, en de onderkant van de boomkroon of van een bouwwerk boven de weg, zoals een viaduct. Als aan beide zijden van de boom een weg en een fietspad ligt, wordt de vrije doorrijhoogte boven de weg aangeduid met primair, en de takvrije ruimte boven het fietspad met secundair.
+Eenheid: m |
+| vrijeDoorrijhoogteSecundair | VrijeDoorrijhoogte | De benodigde vrije ruimte tussen de weg of het fietspad, en de onderkant van de boomkroon of van een bouwwerk boven de weg, zoals een viaduct. Als aan beide zijden van de boom een weg en een fietspad ligt, wordt de vrije doorrijhoogte boven de weg aangeduid met primair, en de takvrije ruimte boven het fietspad met secundair.
+Eenheid: m |
+| vrijeTakval | VrijeTakval | Aanduiding of vrije takval is toegestaan. |
 
 
 
@@ -504,15 +563,20 @@ Attributen van objecttype Bord
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| breedte | integer |  |
-| diameter | integer |  |
-| drager | GUID |  |
-| hoogte | integer |  |
-| jaarOnderhoudUitgevoerd | integer |  |
-| lengte | integer |  |
-| leverancier | Leverancier |  |
-| materiaal | Materiaal |  |
-| vorm | Vorm |  |
+| breedte | integer | Breedte van het beheerobject.
+Eenheid: m |
+| diameter | integer | Diameter van het beheerobject.
+Eenheid: mm |
+| drager | GUID | GUID van het beheerobject wat als drager fungeert voor andere beheerobjecten welke aan de drager bevestigd zijn. |
+| hoogte | integer | Hoogte van het beheerobject in meters.
+Eenheid: m |
+| jaarOnderhoudUitgevoerd | integer | Jaar waarin het onderhoud van het beheerobject is uitgevoerd.
+Eenheid: Jaartal |
+| lengte | integer | Lengte van het beheerobject.
+Eenheid: m |
+| leverancier | Leverancier | Leverancier van het beheerobject. |
+| materiaal | Materiaal | Lijst met materialen waaruit het beheerobject opgebouwd is. |
+| vorm | Vorm | Vorm van een beheerobject. |
 
 
 
@@ -547,16 +611,23 @@ Attributen van objecttype Bouwwerk
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanleghoogte | integer |  |
-| bouwwerkMateriaal | Materiaal |  |
-| breedte | integer |  |
-| fabrikant | Fabrikant |  |
-| hoogte | integer |  |
-| jaarOnderhoudUitgevoerd | integer |  |
-| lengte | integer |  |
-| leverancier | Leverancier |  |
-| oppervlakte | integer |  |
-| typeFundering | TypeFundering |  |
+| aanleghoogte | integer | Hoogte van het beheerobject t.o.v. NAP in meters.
+Eenheid: m |
+| bouwwerkMateriaal | Materiaal | Mogelijkheid om bij een Bouwwerk aan te geven uit welke materialen het object opgebouwd is. |
+| breedte | integer | Breedte van het beheerobject.
+Eenheid: m |
+| fabrikant | Fabrikant | Fabrikant van het beheerobject. |
+| hoogte | integer | Hoogte van het beheerobject in meters.
+Eenheid: m |
+| jaarOnderhoudUitgevoerd | integer | Jaar waarin het onderhoud van het beheerobject is uitgevoerd.
+Eenheid: Jaartal |
+| lengte | integer | Lengte van het beheerobject.
+Eenheid: m |
+| leverancier | Leverancier | Leverancier van het beheerobject. |
+| oppervlakte | integer | Oppervlakte van het  beheerobject, overname van BGT/IMGeo.
+Eenheid: m2 |
+| typeFundering | TypeFundering | Keuze uit lijst met funderingen van het beheerobject. Van toepassing bij wegobjecten en grassportvelden.
+Toelichting: Deze waarde wordt opgenomen bij beheerobjecten waar de fundering van belang is. Bij beheerobjecten van het type Â´gras- en kruidachtigenÂ´ gaat het o.a. om sport- en evenemententerreinen. |
 
 
 
@@ -591,23 +662,30 @@ Attributen van objecttype Brug
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalOverspanningen | integer |  |
-| bedienaar | Bedienaar |  |
-| bedieningstijden | AN255 |  |
-| belastingklasseNieuw | BelastingklasseNieuw |  |
-| belastingklasseOud | BelastingklasseOud |  |
-| beweegbaar | boolean |  |
-| doorrijbreedte | integer |  |
-| draagvermogen | integer |  |
-| hoofdroute | AN50 |  |
-| hoofdvaarroute | AN50 |  |
-| maximaalToelaatbaarVoertuiggewicht | integer |  |
-| maximaleAsbelasting | integer |  |
-| maximaleOverspanning | integer |  |
-| statischMoment | integer |  |
-| type | Type |  |
-| typePlus | TypePlus |  |
-| zwaarsteVoertuig | integer |  |
+| aantalOverspanningen | integer | Aantal overspanningen van de brug.
+Eenheid: Aantal |
+| bedienaar | Bedienaar | Bedienaar van de brug. |
+| bedieningstijden | AN255 | Bedieningstijden (openingstijden) van een brug of sluis. |
+| belastingklasseNieuw | BelastingklasseNieuw | Verkeersbelasting (zwaarte van de voertuigen), volgens Europese normering. Waarde voor het gehele beheerobject voor een risico-inschatting. |
+| belastingklasseOud | BelastingklasseOud | Verkeersbelasting (zwaarte van de voertuigen). Waarde voor het gehele beheerobject voor een risico-inschatting. |
+| beweegbaar | boolean | Aanduiding of het beheerobject wel of niet beweegbaar is. Wordt voor een brug automatisch overgenomen via IMGeo. |
+| doorrijbreedte | integer | Doorrijbreedte onder een overbrugging of in een tunnelobject.
+Eenheid: m |
+| draagvermogen | integer | Draagvermogen van het overbruggingsobject
+Eenheid: kg |
+| hoofdroute | AN50 | Ligt het beheerobject in een hoofdroute? |
+| hoofdvaarroute | AN50 | Ligt de brug in een hoofdvaarroute? |
+| maximaalToelaatbaarVoertuiggewicht | integer | Maximaal toelaatbaar voertuiggewicht van een voertuig op een overbruggingsobject.
+Eenheid: kg |
+| maximaleAsbelasting | integer | Maximale asbelasting van een voertuig op een overbruggingsobject.
+Eenheid: kg |
+| maximaleOverspanning | integer | Maximale overspanning van een overbruggingsobject. |
+| statischMoment | integer | Statisch moment van een beweegbare brug.
+Eenheid: m3 |
+| type | Type | Typering van het beheerobject. |
+| typePlus | TypePlus | Nadere typering van het type beheerobject. |
+| zwaarsteVoertuig | integer | Referentie voor het gewicht van het zwaarst bekende voertuig dat is gepasseerd over het overbruggingsobject.
+Eenheid: kg |
 
 
 
@@ -642,8 +720,8 @@ Attributen van objecttype Drainageput
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| risicogebied | GUID |  |
-| type | Type |  |
+| risicogebied | GUID | GUID van een bovenliggend Risicogebied. |
+| type | Type | Typering van het beheerobject. |
 
 
 
@@ -680,14 +758,19 @@ Attributen van objecttype Ecoduct
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalOverspanningen | integer |  |
-| draagvermogen | integer |  |
-| maximaalToelaatbaarVoertuiggewicht | integer |  |
-| maximaleAsbelasting | integer |  |
-| maximaleOverspanning | integer |  |
-| overbruggingsobjectDoorrijopening | AN10 |  |
-| type | Type |  |
-| zwaarsteVoertuig | integer |  |
+| aantalOverspanningen | integer | Aantal overspanningen van de brug.
+Eenheid: Aantal |
+| draagvermogen | integer | Draagvermogen van het overbruggingsobject
+Eenheid: kg |
+| maximaalToelaatbaarVoertuiggewicht | integer | Maximaal toelaatbaar voertuiggewicht van een voertuig op een overbruggingsobject.
+Eenheid: kg |
+| maximaleAsbelasting | integer | Maximale asbelasting van een voertuig op een overbruggingsobject.
+Eenheid: kg |
+| maximaleOverspanning | integer | Maximale overspanning van een overbruggingsobject. |
+| overbruggingsobjectDoorrijopening | AN10 | Mogelijkheid bij een overbrugging  de doorrijhoogte en doorrijbreedte per opening aan te geven. |
+| type | Type | Typering van het beheerobject. |
+| zwaarsteVoertuig | integer | Referentie voor het gewicht van het zwaarst bekende voertuig dat is gepasseerd over het overbruggingsobject.
+Eenheid: kg |
 
 
 
@@ -722,9 +805,9 @@ Attributen van objecttype Fietsparkeervoorziening
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalParkeerplaatsen | integer |  |
-| type | Type |  |
-| typePlus | TypePlus |  |
+| aantalParkeerplaatsen | integer | Aantal parkeerplaatsen bij een object. |
+| type | Type | Typering van het beheerobject. |
+| typePlus | TypePlus | Nadere typering van het type beheerobject. |
 
 
 
@@ -759,8 +842,8 @@ Attributen van objecttype Filterput
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| drain | GUID |  |
-| risicogebied | GUID |  |
+| drain | GUID | GUID van de drain waarop de put aangesloten is. |
+| risicogebied | GUID | GUID van een bovenliggend Risicogebied. |
 
 
 
@@ -795,16 +878,21 @@ Attributen van objecttype Flyover
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalOverspanningen | integer |  |
-| belastingklasseNieuw | BelastingklasseNieuw |  |
-| belastingklasseOud | BelastingklasseOud |  |
-| draagvermogen | integer |  |
-| maximaalToelaatbaarVoertuiggewicht | integer |  |
-| maximaleAsbelasting | integer |  |
-| maximaleOverspanning | integer |  |
-| overbruggingsobjectDoorrijopening | AN10 |  |
-| type | Type |  |
-| zwaarsteVoertuig | integer |  |
+| aantalOverspanningen | integer | Aantal overspanningen van de brug.
+Eenheid: Aantal |
+| belastingklasseNieuw | BelastingklasseNieuw | Verkeersbelasting (zwaarte van de voertuigen), volgens Europese normering. Waarde voor het gehele beheerobject voor een risico-inschatting. |
+| belastingklasseOud | BelastingklasseOud | Verkeersbelasting (zwaarte van de voertuigen). Waarde voor het gehele beheerobject voor een risico-inschatting. |
+| draagvermogen | integer | Draagvermogen van het overbruggingsobject
+Eenheid: kg |
+| maximaalToelaatbaarVoertuiggewicht | integer | Maximaal toelaatbaar voertuiggewicht van een voertuig op een overbruggingsobject.
+Eenheid: kg |
+| maximaleAsbelasting | integer | Maximale asbelasting van een voertuig op een overbruggingsobject.
+Eenheid: kg |
+| maximaleOverspanning | integer | Maximale overspanning van een overbruggingsobject. |
+| overbruggingsobjectDoorrijopening | AN10 | Mogelijkheid bij een overbrugging  de doorrijhoogte en doorrijbreedte per opening aan te geven. |
+| type | Type | Typering van het beheerobject. |
+| zwaarsteVoertuig | integer | Referentie voor het gewicht van het zwaarst bekende voertuig dat is gepasseerd over het overbruggingsobject.
+Eenheid: kg |
 
 
 
@@ -839,10 +927,12 @@ Attributen van objecttype FunctioneelGebied
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| functioneelGebiedCode | AN20 |  |
-| functioneelGebiedNaam | AN80 |  |
-| omtrek | integer |  |
-| oppervlakte | integer |  |
+| functioneelGebiedCode | AN20 | Nummer of code van het functioneel gebied. |
+| functioneelGebiedNaam | AN80 | Naam van het functioneel gebied. |
+| omtrek | integer | Omtrek van het beheerobject.
+Eenheid: m |
+| oppervlakte | integer | Oppervlakte van het  beheerobject, overname van BGT/IMGeo.
+Eenheid: m2 |
 
 
 
@@ -877,9 +967,11 @@ Attributen van objecttype Geluidsscherm
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalDeuren | integer |  |
-| aantalPanelen | integer |  |
-| type | Type |  |
+| aantalDeuren | integer | Aantal deuren in de kast
+Eenheid: Aantal |
+| aantalPanelen | integer | Aantal panelen binnen een Scheiding.
+Eenheid: Aantal |
+| type | Type | Typering van het beheerobject. |
 
 
 
@@ -914,16 +1006,20 @@ Attributen van objecttype Gemaal
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalBedrijfsaansluitingen | integer |  |
-| aantalHuisaansluitingen | integer |  |
-| aantalPompen | integer |  |
-| bedienaar | Bedienaar |  |
-| effectieveGemaalcapaciteit | integer |  |
-| hijsinrichting | boolean |  |
-| lanceerinrichting | boolean |  |
-| pompenInSamenloop | boolean |  |
-| type | Type |  |
-| veiligheidsrooster | boolean |  |
+| aantalBedrijfsaansluitingen | integer | Aantal bedrijfsaansluitingen.
+Eenheid: Aantal |
+| aantalHuisaansluitingen | integer | Aantal huisaansluitingen.
+Eenheid: Aantal |
+| aantalPompen | integer | Aantal pompen binnen het beheerobject.
+Eenheid: Aantal |
+| bedienaar | Bedienaar | Bedienaar van de brug. |
+| effectieveGemaalcapaciteit | integer | Effectieve gemaalcapaciteit.
+Eenheid: dm3/s |
+| hijsinrichting | boolean | Aanduiding voor de aanwezigheid van een hijsinrichting. |
+| lanceerinrichting | boolean | Aanduiding voor de aanwezigheid van een lanceerinrichting. |
+| pompenInSamenloop | boolean | Aanduiding voor de het in samenloop werken van de pompen. |
+| type | Type | Typering van het beheerobject. |
+| veiligheidsrooster | boolean | Aanduiding voor de aanwezigheid van een veiligheidsrooster. |
 
 
 
@@ -958,52 +1054,70 @@ Attributen van objecttype Groenobject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalObstakels | integer |  |
-| aantalZijden | integer |  |
-| afvoeren | boolean |  |
-| bereikbaarheid | Bereikbaarheid |  |
-| bergendVermogen | integer |  |
-| bewerkingspercentage | integer |  |
-| BGTFysiekVoorkomen | AN80 |  |
-| bollen | boolean |  |
-| breedte | integer |  |
-| breedteklasseHaag | BreedteklasseHaag |  |
-| BVC | boolean |  |
-| cultuurhistorischWaardevol | CultuurhistorischWaardevol |  |
-| draagkrachtig | boolean |  |
-| ecologischBeheer | boolean |  |
-| fysiekVoorkomenIMGeo | AN80 |  |
-| gewenstSluitingspercentage | Sluitingspercentage |  |
-| groenobjectBereikbaarheidPlus | BereikbaarheidPlus |  |
-| groenobjectConstructielaag | AN200 |  |
-| groenobjectRand | AN30 |  |
-| groenobjectSoortnaam | Soortnaam |  |
-| haagvoetLengte | integer |  |
-| haagvoetOppervlakte | integer |  |
-| herplantplicht | boolean |  |
-| hoogte | integer |  |
-| hoogteklasseHaag | HoogteklasseHaag |  |
-| knipfrequentie | Frequentie |  |
-| knipoppervlakte | integer |  |
-| kwaliteitsniveauActueel | AN2 |  |
-| kwaliteitsniveauGewenst | KwaliteitsniveauGewenst |  |
-| lengte | integer |  |
-| leverancier | Leverancier |  |
-| maaifrequentie | Frequentie |  |
-| maximaleValhoogte | integer |  |
-| objectnummer | AN20 |  |
-| obstakels | boolean |  |
-| omtrek | integer |  |
-| ondergroei | Ondergroei |  |
-| oppervlakte | integer |  |
-| opTalud | nee |  |
-| taludsteilte | Taludsteilte |  |
-| type | Type |  |
-| typeBewerking | TypeBewerking |  |
-| typeOmgevingsrisicoklasse | TypeOmgevingsrisicoklasse |  |
-| typePlus | TypePlus |  |
-| typePlus2 | AN100 |  |
-| veiligheidsklasseBoom | Boomveiligheidsklasse |  |
+| aantalObstakels | integer | Aanduiding voor het aantal obstakels binnen het groenobject (kan (deels) berekend worden) Het gaat om alle objecten die op de uitvoering van de beheerwerkzaamheid (snoeien, maaien) van invloed zijn.
+Eenheid: Aantal |
+| aantalZijden | integer | Aantal zijden van de haag die geknipt moeten worden.
+Eenheid: Aantal |
+| afvoeren | boolean | Aanduiding of het groenafval afgevoerd moet worden. |
+| bereikbaarheid | Bereikbaarheid | Aanduiding van de bereikbaarheid van het groenobject of de boom die beheerd moet worden. |
+| bergendVermogen | integer | De hoeveelheid afvalwater die in de voorziening kan worden geborgen.
+Eenheid: m3 |
+| bewerkingspercentage | integer | Aanduiding van het percentage van het beheerobject dat bewerkt dient te worden.
+Eenheid: % |
+| BGTFysiekVoorkomen | AN80 | Aanduiding van het Â´fysieke voorkomenÂ´ van het beheerobject zoals dat in BGT-IMGeo is vastgelegd. Overname van het bovenliggende BGT/IMGeo-object |
+| bollen | boolean | Aanwezigheid bollen binnen het GrasEnKruidachtigen-object. |
+| breedte | integer | Breedte van het beheerobject.
+Eenheid: m |
+| breedteklasseHaag | BreedteklasseHaag | Aanduiding van de breedte van de haag in klassen conform RAW. (geldt niet voor de blokhaag) |
+| BVC | boolean | BVC van toepassing': Aangewezen als te controleren beheerobject conform de boomveiligheidscontrole |
+| cultuurhistorischWaardevol | CultuurhistorischWaardevol | Aanduiding voor een gebied of plek welke cultuurhistorisch waardevol is, wordt toegepast bij terreindelen en groenobjecten
+ op basis van een cultuurhistorische waardekaart. |
+| draagkrachtig | boolean | Met draagkrachtig wordt bedoeld dat voertuigen niet meer dan 20 mm mogen insporen. (alleen voor bermen) |
+| ecologischBeheer | boolean | Aanduiding of ecologisch beheer van toepassing is.
+Toelichting: Beheer gericht op het scheppen en in stand houden van de biologische kwaliteit, verscheidenheid en diversiteit, alsmede de variatie in het landschap. (bron: RAW). De daadwerkelijke uitwerking van het ecologisch beheer voor het beheerobject zal zijn afgestemd op de specifieke lokale situatie. |
+| fysiekVoorkomenIMGeo | AN80 | Aanduiding van het Â´fysieke voorkomen-plusÂ´ van het beheerobject zoals dat in IMGeo is vastgelegd. Overname uit IMGeo-object |
+| gewenstSluitingspercentage | Sluitingspercentage | Gewenst sluitingspercentage is het percentage van de oppervlakte van het beplantingsvak, dat bedekt is met de beoogde beplanting. Dit zijn meestal heesters, bodembedekkers, struikrozen, vaste planten of wisselperken. In de Kwaliteitscatalogus Openbare Ruimte wordt het sluitingspercentage aangeduid met â€˜percentage kaal oppervlakâ€™ . |
+| groenobjectBereikbaarheidPlus | BereikbaarheidPlus | Mogelijkheid om 1 of meerdere opties voor het detailleren van de bereikbaarheid toe te voegen bij een groenobject. |
+| groenobjectConstructielaag | AN200 | Via een gekoppeld subobjecttype GroenobjectConstructielaag is het mogelijk om de constructielagen van een groenobject vast te leggen. Van elke constructielaag kunnen de volgende attributen vastgelegd worden: Laagnummer, Constructielaagsoort (deklaag, tussenlaag, onderlaag, fundering, ondergrond, wapening, dek (van een brug of een viaduct) Materiaalsoort,  TypeTeerhoudend, Dikte en Plaatsingsdatum (jaar van aanleg). |
+| groenobjectRand | AN30 | Mogelijkheid om de randen van een groenobject als (hulp)objecttype te registreren. |
+| groenobjectSoortnaam | Soortnaam | Beschrijving van Ã©Ã©n of meerdere soortnamen van het groenobject. Naam van de soort waartoe de boom of de beplanting van het groenobject behoort, conform de 'Naamlijst van houtige gewassen en vaste planten'. |
+| haagvoetLengte | integer | HaagvoetLengte = Lengte van de te bewerken voet van de haag in strekkende meters. In RAW gebruikt voor werkzaamheden aan haagvoeten (onkruidvrij maken) van alle typen hagen, uitgezonderd blokhagen. HaagvoetLengte kan gelijk zijn aan de totale lengte van de haag, maar dit hoeft niet, als de te bewerken lengte van de haagvoet kleiner is dan de totale lengte van de haag.
+Eenheid: m |
+| haagvoetOppervlakte | integer | HaagvoetOppervlakte = Oppervlakte van de voet van de haag in vierkante meters. In RAW gebruikt voor werkzaamheden aan haagvoeten (onkruidvrij maken) van blokhagen. HaagvoetOppervlak kan gelijk zijn aan de â€˜Oppervlakteâ€™ van het beheerobject, maar dit hoeft niet, als het te bewerken oppervlak van de haagvoet kleiner is dan het totale oppervlak van de blokhaag.
+Eenheid: m2 |
+| herplantplicht | boolean | Aanduiding of er in het kader van de Wet Natuurbescherming sprake is van een herplantplicht. |
+| hoogte | integer | Hoogte van het beheerobject in meters.
+Eenheid: m |
+| hoogteklasseHaag | HoogteklasseHaag | Aanduiding van de hoogte van de haag in klassen conform RAW. |
+| knipfrequentie | Frequentie | Aanduiding voor het aantal keren dat een haag of een klimplant geknipt moet worden. |
+| knipoppervlakte | integer | Oppervlak van de haag of klimplant dat geknipt moet worden. Handmatig invullen (klimplant) of berekend in m2. Het gaat om de knipmaat na het knippen, oftewel het beoogde model van de haag.
+Eenheid: m2 |
+| kwaliteitsniveauActueel | AN2 | Aanduiding van het actuele kwaliteitsniveau  (na schouwen of inspecteren) conform de CROW Kwaliteitscatalogus (A+, A, B, C, D) |
+| kwaliteitsniveauGewenst | KwaliteitsniveauGewenst | Aanduiding van het gewenste kwaliteitsniveau conform de CROW Kwaliteitscatalogus (A+, A, B, C, D) |
+| lengte | integer | Lengte van het beheerobject.
+Eenheid: m |
+| leverancier | Leverancier | Leverancier van het beheerobject. |
+| maaifrequentie | Frequentie | Aantal keren dat een groenobject gemaaid wordt per jaar. |
+| maximaleValhoogte | integer | De maximale valhoogte van een speeltoestel is de hoogte waarbij het risico van een val aanvaardbaar wordt geacht. Hoe hoger het toestel, des te hoger moet de maximale valhoogte van het bodemmateriaal zijn. De maximale valhoogtes van de natuurlijke bodemmaterialen zijn gebaseerd op de Europese norm EN 1177. De maximale valhoogtes van de overige materialen zijn gebaseerd op testrapporten van leveranciers.
+Eenheid: m |
+| objectnummer | AN20 | Nummer van het beheerobject, door de organisatie zelf in te delen. |
+| obstakels | boolean | Aanduiding of er obstakels binnen het groenobject aanwezig zijn. |
+| omtrek | integer | Omtrek van het beheerobject.
+Eenheid: m |
+| ondergroei | Ondergroei | Bij Bos en Bosplantsoen mogelijke ondergroei aangeven. |
+| oppervlakte | integer | Oppervlakte van het  beheerobject, overname van BGT/IMGeo.
+Eenheid: m2 |
+| opTalud | nee | Aanduiding of het beheerobject wel of niet op een hellend vlak ligt. De taludsteilte wordt apart geregistreerd. Overname uit BGT-object |
+| taludsteilte | Taludsteilte | Aanduiding van de steilte van het talud.
+Toelichting: De helling van het talud, uitgedrukt in de verhouding hoogte:aanleg (hoogte is 1). De indeling in categorieen is afkomstig uit verschillende onderdelen van de RAW. |
+| type | Type | Typering van het beheerobject. |
+| typeBewerking | TypeBewerking | Wijze waarop een beheerobject verwerkt wordt (handmatig of machinaal). |
+| typeOmgevingsrisicoklasse | TypeOmgevingsrisicoklasse | Aanduiding van het omgevingsrisico van het beheerobject.
+Toelichting: Classificering voor de intensiteit van het gebruik van de omgeving van een boom en daarmee de mate waarin de omgeving van de boom risicoverhogend is voor eventuele schade bij stambreuk, takbreuk of instabiliteit. Aanvullende informatie: vast te stellen door de boomeigenaar. |
+| typePlus | TypePlus | Nadere typering van het type beheerobject. |
+| typePlus2 | AN100 | Extra typering van het beheerobject, nadere typering van type gedetailleerd. |
+| veiligheidsklasseBoom | Boomveiligheidsklasse | Aanduiding van de veiligheid van de boom, ingedeeld in vaste klassen.
+Toelichting: Voor bosplantsoen met boomvormers is de mate van veiligheid van het beheerobject voor de omgeving relevant. Hiervoor is nog geen landelijk vastgestelde classificatie. Boomveiligheid: Aanduiding voor de veiligheid van personen, dieren, objecten en goederen in de nabijheid van een boom. |
 
 
 
@@ -1038,8 +1152,9 @@ Attributen van objecttype Infiltratieput
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| porositeit | integer |  |
-| risicogebied | GUID |  |
+| porositeit | integer | De mate van doorlaatbaarheid.
+Eenheid: % |
+| risicogebied | GUID | GUID van een bovenliggend Risicogebied. |
 
 
 
@@ -1074,16 +1189,20 @@ Attributen van objecttype Installatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| breedte | integer |  |
-| EANCode | AN50 |  |
-| fabrikant | Fabrikant |  |
-| hoogte | integer |  |
-| inbelgegevens | AN50 |  |
-| installateur | Installateur |  |
-| jaarOnderhoudUitgevoerd | integer |  |
-| lengte | integer |  |
-| leverancier | Leverancier |  |
-| typeCommunicatie | TypeCommunicatie |  |
+| breedte | integer | Breedte van het beheerobject.
+Eenheid: m |
+| EANCode | AN50 | Aansluiting identificatie code. |
+| fabrikant | Fabrikant | Fabrikant van het beheerobject. |
+| hoogte | integer | Hoogte van het beheerobject in meters.
+Eenheid: m |
+| inbelgegevens | AN50 | Inbelgegevens om contact te leggen met het beheerobject. |
+| installateur | Installateur | Naam van de installateur. |
+| jaarOnderhoudUitgevoerd | integer | Jaar waarin het onderhoud van het beheerobject is uitgevoerd.
+Eenheid: Jaartal |
+| lengte | integer | Lengte van het beheerobject.
+Eenheid: m |
+| leverancier | Leverancier | Leverancier van het beheerobject. |
+| typeCommunicatie | TypeCommunicatie | Aanduiding van de wijze van communiceren met het beheerobject. |
 
 
 
@@ -1118,17 +1237,18 @@ Attributen van objecttype Kademuur
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| belastingklasseNieuw | BelastingklasseNieuw |  |
-| belastingklasseOud | BelastingklasseOud |  |
-| grijpstenen | boolean |  |
-| hoogteBovenkantKademuur | integer |  |
-| materiaalBovenkantKademuur | Materiaal |  |
-| oppervlakteBovenkantKademuur | integer |  |
-| reddingslijn | boolean |  |
-| type | Type |  |
-| typeBovenkantKademuur | TypeBovenkantKademuur |  |
-| typeFundering | TypeFundering |  |
-| typeVerankering | AN30 |  |
+| belastingklasseNieuw | BelastingklasseNieuw | Verkeersbelasting (zwaarte van de voertuigen), volgens Europese normering. Waarde voor het gehele beheerobject voor een risico-inschatting. |
+| belastingklasseOud | BelastingklasseOud | Verkeersbelasting (zwaarte van de voertuigen). Waarde voor het gehele beheerobject voor een risico-inschatting. |
+| grijpstenen | boolean | Wel of geen aanwezigheid van grijpstenen. |
+| hoogteBovenkantKademuur | integer | Aanduiding voor de hoogte van de bovenkant van de kademuur. Hoogte van de bekleding wordt via algemeen attibuut Materiaal (bij objecttypegroep Scheiding) geregeld. |
+| materiaalBovenkantKademuur | Materiaal | Aanduiding voor het materiaal van de bovenkant van de kademuur. Materiaal van de bekleding wordt via algemeen attibuut Materiaal (bij objecttypegroep Scheiding) geregeld. |
+| oppervlakteBovenkantKademuur | integer | Aanduiding voor de oppervlakte van de bovenkant van de kademuur. Oppervlakte van de bekleding wordt via algemeen attibuut Materiaal (bij objecttypegroep Scheiding) geregeld. |
+| reddingslijn | boolean | Aanduiding voor de aanwezigheid van een reddingslijn. |
+| type | Type | Typering van het beheerobject. |
+| typeBovenkantKademuur | TypeBovenkantKademuur | Aanduiding voor de bovenkant van de kademuur. |
+| typeFundering | TypeFundering | Keuze uit lijst met funderingen van het beheerobject. Van toepassing bij wegobjecten en grassportvelden.
+Toelichting: Deze waarde wordt opgenomen bij beheerobjecten waar de fundering van belang is. Bij beheerobjecten van het type Â´gras- en kruidachtigenÂ´ gaat het o.a. om sport- en evenemententerreinen. |
+| typeVerankering | AN30 | Aanduiding voor de wijze van verankering van een kademuur. |
 
 
 
@@ -1163,23 +1283,30 @@ Attributen van objecttype Kast
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalDeuren | integer |  |
-| adresTelecom | GUID |  |
-| BAGCode | GUID |  |
-| breedte | integer |  |
-| EANCode | AN50 |  |
-| fabrikant | Fabrikant |  |
-| hoogte | integer |  |
-| inbelgegevens | AN50 |  |
-| installateur | Installateur |  |
-| jaarOnderhoudUitgevoerd | integer |  |
-| kleur | Kleuren |  |
-| lengte | integer |  |
-| leverancier | Leverancier |  |
-| typeCommunicatie | TypeCommunicatie |  |
-| typeFundering | TypeFundering |  |
-| typeSlot | TypeSlot |  |
-| vermogen | integer |  |
+| aantalDeuren | integer | Aantal deuren in de kast
+Eenheid: Aantal |
+| adresTelecom | GUID | Identificatie van het beheerobject bij de telecommunicatieaanbieder. |
+| BAGCode | GUID | GUID van het bijbehorende beheerobject in de BAG-administratie. |
+| breedte | integer | Breedte van het beheerobject.
+Eenheid: m |
+| EANCode | AN50 | Aansluiting identificatie code. |
+| fabrikant | Fabrikant | Fabrikant van het beheerobject. |
+| hoogte | integer | Hoogte van het beheerobject in meters.
+Eenheid: m |
+| inbelgegevens | AN50 | Inbelgegevens om contact te leggen met het beheerobject. |
+| installateur | Installateur | Naam van de installateur. |
+| jaarOnderhoudUitgevoerd | integer | Jaar waarin het onderhoud van het beheerobject is uitgevoerd.
+Eenheid: Jaartal |
+| kleur | Kleuren | Kleur van het beheerobject. |
+| lengte | integer | Lengte van het beheerobject.
+Eenheid: m |
+| leverancier | Leverancier | Leverancier van het beheerobject. |
+| typeCommunicatie | TypeCommunicatie | Aanduiding van de wijze van communiceren met het beheerobject. |
+| typeFundering | TypeFundering | Keuze uit lijst met funderingen van het beheerobject. Van toepassing bij wegobjecten en grassportvelden.
+Toelichting: Deze waarde wordt opgenomen bij beheerobjecten waar de fundering van belang is. Bij beheerobjecten van het type Â´gras- en kruidachtigenÂ´ gaat het o.a. om sport- en evenemententerreinen. |
+| typeSlot | TypeSlot | Type slot ter beveiliging van het beheerobject. |
+| vermogen | integer | Vermogen van het object in kW.
+Eenheid: kW |
 
 
 
@@ -1215,9 +1342,9 @@ Attributen van objecttype Keermuur
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| belastingklasseNieuw | BelastingklasseNieuw |  |
-| belastingklasseOud | BelastingklasseOud |  |
-| type | Type |  |
+| belastingklasseNieuw | BelastingklasseNieuw | Verkeersbelasting (zwaarte van de voertuigen), volgens Europese normering. Waarde voor het gehele beheerobject voor een risico-inschatting. |
+| belastingklasseOud | BelastingklasseOud | Verkeersbelasting (zwaarte van de voertuigen). Waarde voor het gehele beheerobject voor een risico-inschatting. |
+| type | Type | Typering van het beheerobject. |
 
 
 
@@ -1253,11 +1380,13 @@ Attributen van objecttype Klimplant
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| hoogte | integer |  |
-| knipfrequentie | Frequentie |  |
-| knipoppervlakte | integer |  |
-| ondersteuningsvorm | Ondersteuningsvorm |  |
-| type | Type |  |
+| hoogte | integer | Hoogte van het beheerobject in meters.
+Eenheid: m |
+| knipfrequentie | Frequentie | Aanduiding voor het aantal keren dat een haag of een klimplant geknipt moet worden. |
+| knipoppervlakte | integer | Oppervlak van de haag of klimplant dat geknipt moet worden. Handmatig invullen (klimplant) of berekend in m2. Het gaat om de knipmaat na het knippen, oftewel het beoogde model van de haag.
+Eenheid: m2 |
+| ondersteuningsvorm | Ondersteuningsvorm | Ondersteuningsvorm waaraan de klimplant is bevestigd. |
+| type | Type | Typering van het beheerobject. |
 
 
 
@@ -1293,9 +1422,9 @@ Attributen van objecttype Kolk
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bereikbaarheidKolk | BereikbaarheidKolk |  |
-| risicogebied | GUID |  |
-| type | Type |  |
+| bereikbaarheidKolk | BereikbaarheidKolk | Aanduiding van de bereikbaarheid van de kolk voor het schoonmaken van de kolk. |
+| risicogebied | GUID | GUID van een bovenliggend Risicogebied. |
+| type | Type | Typering van het beheerobject. |
 
 
 
@@ -1330,41 +1459,57 @@ Attributen van objecttype Kunstwerk
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanleghoogte | integer |  |
-| antiGraffitiVoorziening | boolean |  |
-| bereikbaarheid | Bereikbaarheid |  |
-| breedte | integer |  |
-| constructietype | Constructietype |  |
-| gewicht | integer |  |
-| hoogte | integer |  |
-| installateur | Installateur |  |
-| jaarConserveren | integer |  |
-| jaarOnderhoudUitgevoerd | integer |  |
-| jaarRenovatie | integer |  |
-| jaarVervanging | integer |  |
-| kilometreringBegin | integer |  |
-| kilometreringEinde | integer |  |
-| kleur | Kleuren |  |
-| kunstwerkBereikbaarheidPlus | BereikbaarheidPlus |  |
-| kunstwerkMateriaal | Materiaal |  |
-| kwaliteitsniveauActueel | AN2 |  |
-| kwaliteitsniveauGewenst | KwaliteitsniveauGewenst |  |
-| lengte | integer |  |
-| leverancier | Leverancier |  |
-| looprichel | boolean |  |
-| minimumConditiescore | integer |  |
-| monument | boolean |  |
-| monumentnummer | AN20 |  |
-| objectnaam | AN255 |  |
-| objectnummer | AN20 |  |
-| onderhoudsregime | Onderhoudsregime |  |
-| oppervlakte | integer |  |
-| orientatie | ntatie |  |
-| technischeLevensduur | integer |  |
-| typeFundering | TypeFundering |  |
-| typeMonument | TypeMonument |  |
-| vervangingswaarde | bedrag |  |
-| wegnummer | AN20 |  |
+| aanleghoogte | integer | Hoogte van het beheerobject t.o.v. NAP in meters.
+Eenheid: m |
+| antiGraffitiVoorziening | boolean | Aanduiding voor de aanwezigheid van anti-graffiti voorzieningen. |
+| bereikbaarheid | Bereikbaarheid | Aanduiding van de bereikbaarheid van het groenobject of de boom die beheerd moet worden. |
+| breedte | integer | Breedte van het beheerobject.
+Eenheid: m |
+| constructietype | Constructietype | Constructietype van een civiele constructie. |
+| gewicht | integer | Gewicht van het beheerobject.
+Eenheid: kg |
+| hoogte | integer | Hoogte van het beheerobject in meters.
+Eenheid: m |
+| installateur | Installateur | Naam van de installateur. |
+| jaarConserveren | integer | Jaar waarin schade(s) aan het beheerobject is geconserveerd.
+Eenheid: Jaartal
+Toelichting: Conserveren valt onder het â€˜klein onderhoudâ€™. Door de slechte plekken in de verharding te repareren of te conserveren, wordt de spreiding in de kwaliteit op het weg- vakonderdeel geringer. De levensduur van de verharding over het gehele wegvakonderdeel wordt hiermee verlengd. |
+| jaarOnderhoudUitgevoerd | integer | Jaar waarin het onderhoud van het beheerobject is uitgevoerd.
+Eenheid: Jaartal |
+| jaarRenovatie | integer | Renovatiejaar van het beheerobject.
+Eenheid: Jaartal |
+| jaarVervanging | integer | Jaar dat het beheerobject vervangen moet worden.
+Eenheid: Jaartal |
+| kilometreringBegin | integer | Kilometrering alleen bij kunstwerken die langs een weg liggen.
+Eenheid: km |
+| kilometreringEinde | integer | Kilometrering alleen bij kunstwerken die langs een weg liggen.
+Eenheid: km |
+| kleur | Kleuren | Kleur van het beheerobject. |
+| kunstwerkBereikbaarheidPlus | BereikbaarheidPlus | Mogelijkheid om 1 of meerdere opties voor het detailleren van de bereikbaarheid toe te voegen bij een kunstwerk. |
+| kunstwerkMateriaal | Materiaal | Mogelijkheid om bij een Kunstwerk aan te geven uit welke materialen het object opgebouwd is. |
+| kwaliteitsniveauActueel | AN2 | Aanduiding van het actuele kwaliteitsniveau  (na schouwen of inspecteren) conform de CROW Kwaliteitscatalogus (A+, A, B, C, D) |
+| kwaliteitsniveauGewenst | KwaliteitsniveauGewenst | Aanduiding van het gewenste kwaliteitsniveau conform de CROW Kwaliteitscatalogus (A+, A, B, C, D) |
+| lengte | integer | Lengte van het beheerobject.
+Eenheid: m |
+| leverancier | Leverancier | Leverancier van het beheerobject. |
+| looprichel | boolean | Aanwezigheid van een looprichel  op het kunstwerk of overbruggingsobject. |
+| minimumConditiescore | integer | Minimum te behalen conditiescore volgens de NEN2767. |
+| monument | boolean | Is het beheerobject een monument of monumentaal? |
+| monumentnummer | AN20 | Nummer van een monument, alleen van toepassing bij Rijksmonumenten. |
+| objectnaam | AN255 | Naam van het beheerobject. |
+| objectnummer | AN20 | Nummer van het beheerobject, door de organisatie zelf in te delen. |
+| onderhoudsregime | Onderhoudsregime | Onderhoudsregime waarbinnen het beheerobject valt. |
+| oppervlakte | integer | Oppervlakte van het  beheerobject, overname van BGT/IMGeo.
+Eenheid: m2 |
+| orientatie | ntatie | OriÃ«ntatie van het beheerobject t.o.v.  een weg, vaarweg, etc. |
+| technischeLevensduur | integer | 
+Eenheid: Jaartal |
+| typeFundering | TypeFundering | Keuze uit lijst met funderingen van het beheerobject. Van toepassing bij wegobjecten en grassportvelden.
+Toelichting: Deze waarde wordt opgenomen bij beheerobjecten waar de fundering van belang is. Bij beheerobjecten van het type Â´gras- en kruidachtigenÂ´ gaat het o.a. om sport- en evenemententerreinen. |
+| typeMonument | TypeMonument | Type monument. |
+| vervangingswaarde | bedrag | Vervangingswaarde van een beheerobject.
+Eenheid: â‚¬ |
+| wegnummer | AN20 | Aanduiding van de weg, bijvoorbeeld N3 voor een provinciale weg. |
 
 
 
@@ -1399,19 +1544,28 @@ Attributen van objecttype Leiding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| afwijkendeDieptelegging | integer |  |
-| breedte | integer |  |
-| diameter | integer |  |
-| diepte | integer |  |
-| eisVoorzorgsmaatregel | AN200 |  |
-| geoNauwkeurigheidXY | integer |  |
-| hoogte | integer |  |
-| jaarOnderhoudUitgevoerd | integer |  |
-| lengte | integer |  |
-| leverancier | Leverancier |  |
-| materiaal | Materiaal |  |
-| themaIMKL | IMKLThema |  |
-| verhoogdRisico | nee |  |
+| afwijkendeDieptelegging | integer | Afwijking van de gangbare dieptelegging voor een leiding van dit thema.Wordt alleen opgenomen indien er sprake is van een legging die afwijkt van de gangbare legging voor dit thema. Aangegeven wordt of de diepte tov NAP of Maaiveld gerefereerd is. Voor het thema â€˜Riool vrij vervalâ€™ is er geen sprake van een gangbare dieptelegging. De gerealiseerde dieptelegging kan echter wel met het attribuut AfwijkendeDieptelegging worden opgenomen.
+Eenheid: m |
+| breedte | integer | Breedte van het beheerobject.
+Eenheid: m |
+| diameter | integer | Diameter van het beheerobject.
+Eenheid: mm |
+| diepte | integer | Diepte van het beheerobject t.o.v. maaiveld.
+Eenheid: m |
+| eisVoorzorgsmaatregel | AN200 | Vermelding of er voorzorgsmaatregelen getroffen dienen te worden. Aangegeven wordt wat de voorzorgsmaatregel is.Conditie:Dient te worden opgenomen indien er sprake is van een te treffen voorzorgsmaatregel. |
+| geoNauwkeurigheidXY | integer | Indicatie van de nauwkeurigheid in horizontaal vlak (x,y) waarmee de geometrie van de ligging van de leiding is aangegeven. De nauwkeurig-heid is minimaal +/â€“ 1 meter.Default wordt er niets vermeld. Indien nauwkeuriger dan +/â€“ 1 meter kan men dat aangeven.
+Eenheid: mm |
+| hoogte | integer | Hoogte van het beheerobject in meters.
+Eenheid: m |
+| jaarOnderhoudUitgevoerd | integer | Jaar waarin het onderhoud van het beheerobject is uitgevoerd.
+Eenheid: Jaartal |
+| lengte | integer | Lengte van het beheerobject.
+Eenheid: m |
+| leverancier | Leverancier | Leverancier van het beheerobject. |
+| materiaal | Materiaal | Lijst met materialen waaruit het beheerobject opgebouwd is. |
+| themaIMKL | IMKLThema | Het thema geeft aan welk type leiding het betreft en welke functie de leidingen hebben. Bijvoorbeeld datatransport, gas lage druk, laagspanning, riool etc. Gekozen kan worden uit een lijst van themaâ€™s (zie paragraaf 6.4.21).Opmerking: Signaleringskabels die data vervoeren vallen onder datatrans-port.
+Toelichting: Collectie van leidingen binnen een gebied van eenzelfde thema en van Ã©Ã©n beheerder |
+| verhoogdRisico | nee | Is welk of geen sprake van een net met gevaarlijke inhoud. Conditie: er is een verhoogd risico van toepassing. Vervolgens moet bij het beheerobject Themakaart met het attribuut â€˜eisVoor-zorgsmaatregelâ€™ aangegeven worden welke voorzorgsmaatregelen getroffen dienen te worden.Bij het thema â€˜Buisleiding gevaarlijke inhoudâ€™ is er per definitie sprake van een verhoogd risico. |
 
 
 
@@ -1446,12 +1600,17 @@ Attributen van objecttype Leidingelement
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| afwijkendeDieptelegging | integer |  |
-| diepte | integer |  |
-| geoNauwkeurigheidXY | integer |  |
-| jaarOnderhoudUitgevoerd | integer |  |
-| leverancier | Leverancier |  |
-| themaIMKL | IMKLThema |  |
+| afwijkendeDieptelegging | integer | Afwijking van de gangbare dieptelegging voor een leiding van dit thema.Wordt alleen opgenomen indien er sprake is van een legging die afwijkt van de gangbare legging voor dit thema. Aangegeven wordt of de diepte tov NAP of Maaiveld gerefereerd is. Voor het thema â€˜Riool vrij vervalâ€™ is er geen sprake van een gangbare dieptelegging. De gerealiseerde dieptelegging kan echter wel met het attribuut AfwijkendeDieptelegging worden opgenomen.
+Eenheid: m |
+| diepte | integer | Diepte van het beheerobject t.o.v. maaiveld.
+Eenheid: m |
+| geoNauwkeurigheidXY | integer | Indicatie van de nauwkeurigheid in horizontaal vlak (x,y) waarmee de geometrie van de ligging van de leiding is aangegeven. De nauwkeurig-heid is minimaal +/â€“ 1 meter.Default wordt er niets vermeld. Indien nauwkeuriger dan +/â€“ 1 meter kan men dat aangeven.
+Eenheid: mm |
+| jaarOnderhoudUitgevoerd | integer | Jaar waarin het onderhoud van het beheerobject is uitgevoerd.
+Eenheid: Jaartal |
+| leverancier | Leverancier | Leverancier van het beheerobject. |
+| themaIMKL | IMKLThema | Het thema geeft aan welk type leiding het betreft en welke functie de leidingen hebben. Bijvoorbeeld datatransport, gas lage druk, laagspanning, riool etc. Gekozen kan worden uit een lijst van themaâ€™s (zie paragraaf 6.4.21).Opmerking: Signaleringskabels die data vervoeren vallen onder datatrans-port.
+Toelichting: Collectie van leidingen binnen een gebied van eenzelfde thema en van Ã©Ã©n beheerder |
 
 
 
@@ -1521,32 +1680,45 @@ Attributen van objecttype Meubilair
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanleghoogte | integer |  |
-| bouwjaar | integer |  |
-| breedte | integer |  |
-| datumAanschaf | Datum |  |
-| diameter | integer |  |
-| fabrikant | Fabrikant |  |
-| gewicht | integer |  |
-| hoogte | integer |  |
-| installateur | Installateur |  |
-| jaarOnderhoudUitgevoerd | integer |  |
-| jaarPraktischEinde | integer |  |
-| kleur | Kleuren |  |
-| kwaliteitsniveauActueel | AN2 |  |
-| kwaliteitsniveauGewenst | KwaliteitsniveauGewenst |  |
-| lengte | integer |  |
-| leverancier | Leverancier |  |
-| meubilairMateriaal | Materiaal |  |
-| model | AN50 |  |
-| ondergrond | GUID |  |
-| oppervlakte | integer |  |
-| prijsAanschaf | bedrag |  |
-| serienummer | AN50 |  |
-| transponder | AN50 |  |
-| transponderlocatie | AN50 |  |
-| typeFundering | TypeFundering |  |
-| typePlaat | boolean |  |
+| aanleghoogte | integer | Hoogte van het beheerobject t.o.v. NAP in meters.
+Eenheid: m |
+| bouwjaar | integer | Bouwjaar van het object. Deze kan afwijken van het jaar van aanleg, bijvoorbeeld wanneer een beheerobject hergebruikt wordt.
+Eenheid: Jaartal |
+| breedte | integer | Breedte van het beheerobject.
+Eenheid: m |
+| datumAanschaf | Datum | Aanschafdatum van een object.
+Eenheid: mmddyyyy |
+| diameter | integer | Diameter van het beheerobject.
+Eenheid: mm |
+| fabrikant | Fabrikant | Fabrikant van het beheerobject. |
+| gewicht | integer | Gewicht van het beheerobject.
+Eenheid: kg |
+| hoogte | integer | Hoogte van het beheerobject in meters.
+Eenheid: m |
+| installateur | Installateur | Naam van de installateur. |
+| jaarOnderhoudUitgevoerd | integer | Jaar waarin het onderhoud van het beheerobject is uitgevoerd.
+Eenheid: Jaartal |
+| jaarPraktischEinde | integer | Jaar dat een wegobject in de praktijk aan het einde van haar levensduur is.
+Eenheid: Jaartal |
+| kleur | Kleuren | Kleur van het beheerobject. |
+| kwaliteitsniveauActueel | AN2 | Aanduiding van het actuele kwaliteitsniveau  (na schouwen of inspecteren) conform de CROW Kwaliteitscatalogus (A+, A, B, C, D) |
+| kwaliteitsniveauGewenst | KwaliteitsniveauGewenst | Aanduiding van het gewenste kwaliteitsniveau conform de CROW Kwaliteitscatalogus (A+, A, B, C, D) |
+| lengte | integer | Lengte van het beheerobject.
+Eenheid: m |
+| leverancier | Leverancier | Leverancier van het beheerobject. |
+| meubilairMateriaal | Materiaal | Mogelijkheid om bij Meubilair aan te geven uit welke materialen het object opgebouwd is. |
+| model | AN50 | Naam van een model of type van een beheerobject (bijvoorbeeld een pomp). |
+| ondergrond | GUID | GUID van de ondergrond (Verharding, Groenobject, Terreindeel, Waterobject) waarop of waarbinnen het object staat. |
+| oppervlakte | integer | Oppervlakte van het  beheerobject, overname van BGT/IMGeo.
+Eenheid: m2 |
+| prijsAanschaf | bedrag | Aanschafprijs van het objecttype.
+Eenheid: â‚¬ |
+| serienummer | AN50 | Serienummer van het beheerobject. |
+| transponder | AN50 | Nummer of identificatie van een transponder op een beheerobject. |
+| transponderlocatie | AN50 | Locatie van een transponder op een beheerobject. |
+| typeFundering | TypeFundering | Keuze uit lijst met funderingen van het beheerobject. Van toepassing bij wegobjecten en grassportvelden.
+Toelichting: Deze waarde wordt opgenomen bij beheerobjecten waar de fundering van belang is. Bij beheerobjecten van het type Â´gras- en kruidachtigenÂ´ gaat het o.a. om sport- en evenemententerreinen. |
+| typePlaat | boolean | Aanduiding voor de aanwezigheid van een typeplaat. |
 
 
 
@@ -1581,29 +1753,42 @@ Attributen van objecttype Overbruggingsobject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanleghoogte | integer |  |
-| antiGraffitiVoorziening | boolean |  |
-| bereikbaarheid | Bereikbaarheid |  |
-| breedte | integer |  |
-| hoogte | integer |  |
-| installateur | Installateur |  |
-| jaarConserveren | integer |  |
-| jaarOnderhoudUitgevoerd | integer |  |
-| jaarRenovatie | integer |  |
-| jaarVervanging | integer |  |
-| kleur | Kleuren |  |
-| kwaliteitsniveauActueel | AN2 |  |
-| kwaliteitsniveauGewenst | KwaliteitsniveauGewenst |  |
-| lengte | integer |  |
-| looprichel | boolean |  |
-| minimumConditiescore | integer |  |
-| onderhoudsregime | Onderhoudsregime |  |
-| oppervlakte | integer |  |
-| overbruggingsobjectMateriaal | Materiaal |  |
-| overbruggingsobjectModaliteit | Modaliteit |  |
-| technischeLevensduur | integer |  |
-| typeFundering | TypeFundering |  |
-| vervangingswaarde | bedrag |  |
+| aanleghoogte | integer | Hoogte van het beheerobject t.o.v. NAP in meters.
+Eenheid: m |
+| antiGraffitiVoorziening | boolean | Aanduiding voor de aanwezigheid van anti-graffiti voorzieningen. |
+| bereikbaarheid | Bereikbaarheid | Aanduiding van de bereikbaarheid van het groenobject of de boom die beheerd moet worden. |
+| breedte | integer | Breedte van het beheerobject.
+Eenheid: m |
+| hoogte | integer | Hoogte van het beheerobject in meters.
+Eenheid: m |
+| installateur | Installateur | Naam van de installateur. |
+| jaarConserveren | integer | Jaar waarin schade(s) aan het beheerobject is geconserveerd.
+Eenheid: Jaartal
+Toelichting: Conserveren valt onder het â€˜klein onderhoudâ€™. Door de slechte plekken in de verharding te repareren of te conserveren, wordt de spreiding in de kwaliteit op het weg- vakonderdeel geringer. De levensduur van de verharding over het gehele wegvakonderdeel wordt hiermee verlengd. |
+| jaarOnderhoudUitgevoerd | integer | Jaar waarin het onderhoud van het beheerobject is uitgevoerd.
+Eenheid: Jaartal |
+| jaarRenovatie | integer | Renovatiejaar van het beheerobject.
+Eenheid: Jaartal |
+| jaarVervanging | integer | Jaar dat het beheerobject vervangen moet worden.
+Eenheid: Jaartal |
+| kleur | Kleuren | Kleur van het beheerobject. |
+| kwaliteitsniveauActueel | AN2 | Aanduiding van het actuele kwaliteitsniveau  (na schouwen of inspecteren) conform de CROW Kwaliteitscatalogus (A+, A, B, C, D) |
+| kwaliteitsniveauGewenst | KwaliteitsniveauGewenst | Aanduiding van het gewenste kwaliteitsniveau conform de CROW Kwaliteitscatalogus (A+, A, B, C, D) |
+| lengte | integer | Lengte van het beheerobject.
+Eenheid: m |
+| looprichel | boolean | Aanwezigheid van een looprichel  op het kunstwerk of overbruggingsobject. |
+| minimumConditiescore | integer | Minimum te behalen conditiescore volgens de NEN2767. |
+| onderhoudsregime | Onderhoudsregime | Onderhoudsregime waarbinnen het beheerobject valt. |
+| oppervlakte | integer | Oppervlakte van het  beheerobject, overname van BGT/IMGeo.
+Eenheid: m2 |
+| overbruggingsobjectMateriaal | Materiaal | Mogelijkheid om bij een Overbruggingsobject aan te geven uit welke materialen het object opgebouwd is. |
+| overbruggingsobjectModaliteit | Modaliteit | Een vervoermiddel, vervoersmodaliteit of transportmiddel is een technische constructie of inrichting die vooral dient om personen of goederen te verplaatsen, veelal in het verkeer, ook de voetganger wordt onder vervoersmodaliteit verstaan. |
+| technischeLevensduur | integer | 
+Eenheid: Jaartal |
+| typeFundering | TypeFundering | Keuze uit lijst met funderingen van het beheerobject. Van toepassing bij wegobjecten en grassportvelden.
+Toelichting: Deze waarde wordt opgenomen bij beheerobjecten waar de fundering van belang is. Bij beheerobjecten van het type Â´gras- en kruidachtigenÂ´ gaat het o.a. om sport- en evenemententerreinen. |
+| vervangingswaarde | bedrag | Vervangingswaarde van een beheerobject.
+Eenheid: â‚¬ |
 
 
 
@@ -1638,13 +1823,16 @@ Attributen van objecttype Overstortconstructie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bassin | GUID |  |
-| drempelbreedte | integer |  |
-| drempelniveau | integer |  |
-| klep | boolean |  |
-| type | Type |  |
-| vormDrempel | Vorm |  |
-| waking | integer |  |
+| bassin | GUID | GUID van het bergingsbassin of bergbezinkbassin waar de overstortconstructie aan gekoppeld is. |
+| drempelbreedte | integer | De ontwikkelde lengte van de overlaat waarover het water overstort, gemeten haaks op de stroomrichting Â Â 
+Eenheid: m |
+| drempelniveau | integer | De hoogte van de bovenkant van de drempel ten opzichte van een referentiepeil.
+Eenheid: m |
+| klep | boolean | Aanduiding voor de aanwezigheid van een klep binnen het beheerobject. |
+| type | Type | Typering van het beheerobject. |
+| vormDrempel | Vorm | Vorm van de drempel. |
+| waking | integer | Verschil tussen het maaiveldniveau en de berekende maximum waterstand in de riolering.
+Eenheid: mm |
 
 
 
@@ -1679,16 +1867,21 @@ Attributen van objecttype Paal
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| breedte | integer |  |
-| diameter | integer |  |
-| hoogte | integer |  |
-| jaarOnderhoudUitgevoerd | integer |  |
-| kwaliteitsniveauActueel | AN2 |  |
-| kwaliteitsniveauGewenst | KwaliteitsniveauGewenst |  |
-| lengte | integer |  |
-| leverancier | Leverancier |  |
-| materiaal | Materiaal |  |
-| vorm | Vorm |  |
+| breedte | integer | Breedte van het beheerobject.
+Eenheid: m |
+| diameter | integer | Diameter van het beheerobject.
+Eenheid: mm |
+| hoogte | integer | Hoogte van het beheerobject in meters.
+Eenheid: m |
+| jaarOnderhoudUitgevoerd | integer | Jaar waarin het onderhoud van het beheerobject is uitgevoerd.
+Eenheid: Jaartal |
+| kwaliteitsniveauActueel | AN2 | Aanduiding van het actuele kwaliteitsniveau  (na schouwen of inspecteren) conform de CROW Kwaliteitscatalogus (A+, A, B, C, D) |
+| kwaliteitsniveauGewenst | KwaliteitsniveauGewenst | Aanduiding van het gewenste kwaliteitsniveau conform de CROW Kwaliteitscatalogus (A+, A, B, C, D) |
+| lengte | integer | Lengte van het beheerobject.
+Eenheid: m |
+| leverancier | Leverancier | Leverancier van het beheerobject. |
+| materiaal | Materiaal | Lijst met materialen waaruit het beheerobject opgebouwd is. |
+| vorm | Vorm | Vorm van een beheerobject. |
 
 
 
@@ -1723,23 +1916,32 @@ Attributen van objecttype Pomp
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanslagniveau | integer |  |
-| beginstandDraaiurenteller | integer |  |
-| besturingskast | GUID |  |
-| laatsteStandDraaiurenteller | integer |  |
-| laatsteStandkWhTeller | integer |  |
-| levensduur | integer |  |
-| model | AN50 |  |
-| motorvermogen | integer |  |
-| onderdeelMetPomp | GUID |  |
-| ontwerpcapaciteit | integer |  |
-| pompcapaciteit | integer |  |
-| serienummer | AN50 |  |
-| type | Type |  |
-| typeOnderdeelMetPomp | TypeOnderdeelMetPomp |  |
-| typePlus | TypePlus |  |
-| typeWaaier | TypeWaaier |  |
-| uitslagpeil | integer |  |
+| aanslagniveau | integer | Ingesteld peil in de pompkelder van rioolgemaal. Als de pompkelder tot aan het inslagpeil is gevuld, wordt een pomp gestart om de kelder weer leeg te pompen.
+Eenheid: m |
+| beginstandDraaiurenteller | integer | Beginstand draaiurenteller van de installatie in uren.
+Eenheid: uur |
+| besturingskast | GUID | GUID van de rioolkast (besturingskast) welke de installatie aanstuurt. |
+| laatsteStandDraaiurenteller | integer | Laatste stand draaiurenteller van de installatie in uren.
+Eenheid: uur |
+| laatsteStandkWhTeller | integer | Laatste stand kWh-teller van de installatie in kWh.
+Eenheid: kWH |
+| levensduur | integer | Levensduur van het beheerobject.
+Eenheid: Aantal |
+| model | AN50 | Naam van een model of type van een beheerobject (bijvoorbeeld een pomp). |
+| motorvermogen | integer | Motorvermogen van een apparaat in kW.
+Eenheid: kW |
+| onderdeelMetPomp | GUID | GUID van het onderdeel waarbinnen een pomp aanwezig is. |
+| ontwerpcapaciteit | integer | De hoeveelheid afvalwater die volgens het ontwerp per tijdseenheid uit een bemalingsgebied kan worden gepompt.
+Eenheid: dm3/s |
+| pompcapaciteit | integer | De hoeveelheid afvalwater die per tijdseenheid uit een bemalingsgebied wordt gepompt.
+Eenheid: dm3/s |
+| serienummer | AN50 | Serienummer van het beheerobject. |
+| type | Type | Typering van het beheerobject. |
+| typeOnderdeelMetPomp | TypeOnderdeelMetPomp | GUID van het onderdeel waarbinnen een pomp aanwezig is. |
+| typePlus | TypePlus | Nadere typering van het type beheerobject. |
+| typeWaaier | TypeWaaier | Type waaier in de pomp. |
+| uitslagpeil | integer | Peil waarop een pomp afslaat, in meters t.o.v. NAP.
+Eenheid: m NAP |
 
 
 
@@ -1774,19 +1976,26 @@ Attributen van objecttype Put
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bovengrondsZichtbaar | nee |  |
-| breedte | integer |  |
-| diameter | integer |  |
-| hoogte | integer |  |
-| jaarOnderhoudUitgevoerd | integer |  |
-| lengte | integer |  |
-| leverancier | Leverancier |  |
-| maaiveldhoogte | integer |  |
-| materiaal | Materiaal |  |
-| toegankelijk | boolean |  |
-| typeAfdekking | TypeAfdekking |  |
-| vorm | Vorm |  |
-| wanddikte | integer |  |
+| bovengrondsZichtbaar | nee | Is het ondergrondse beheerobject bovengronds zichtbaar. |
+| breedte | integer | Breedte van het beheerobject.
+Eenheid: m |
+| diameter | integer | Diameter van het beheerobject.
+Eenheid: mm |
+| hoogte | integer | Hoogte van het beheerobject in meters.
+Eenheid: m |
+| jaarOnderhoudUitgevoerd | integer | Jaar waarin het onderhoud van het beheerobject is uitgevoerd.
+Eenheid: Jaartal |
+| lengte | integer | Lengte van het beheerobject.
+Eenheid: m |
+| leverancier | Leverancier | Leverancier van het beheerobject. |
+| maaiveldhoogte | integer | Hoogte van het maaiveld (van toepassing bij een ondergronds object)
+Eenheid: m |
+| materiaal | Materiaal | Lijst met materialen waaruit het beheerobject opgebouwd is. |
+| toegankelijk | boolean | Aanduiding voor de toegankelijkheid van het beheerobject. |
+| typeAfdekking | TypeAfdekking | Aanduiding voor het type van de afdekking (deksel) van de put. |
+| vorm | Vorm | Vorm van een beheerobject. |
+| wanddikte | integer | Dikte van de wand van de leiding.
+Eenheid: mm |
 
 
 
@@ -1821,10 +2030,11 @@ Attributen van objecttype Putdeksel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| diameter | integer |  |
-| put | GUID |  |
-| type | Type |  |
-| vorm | Vorm |  |
+| diameter | integer | Diameter van het beheerobject.
+Eenheid: mm |
+| put | GUID | GUID van de put met 1 of meerdere putdeksels. |
+| type | Type | Typering van het beheerobject. |
+| vorm | Vorm | Vorm van een beheerobject. |
 
 
 
@@ -1860,8 +2070,8 @@ Attributen van objecttype Rioleringsgebied
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| rioleringsgebied | GUID |  |
-| zuiveringsgebied | GUID |  |
+| rioleringsgebied | GUID | GUID van een (bovenliggend) rioleringsgebied. |
+| zuiveringsgebied | GUID | GUID van het zuiveringsgebied, de zone, waarbinnen al het afvalwater naar Ã©Ã©nzelfde rioolwaterzuivering wordt afgevoerd om daar gezuiverd te worden. |
 
 
 
@@ -1896,18 +2106,25 @@ Attributen van objecttype Rioolput
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalBedrijven | integer |  |
-| aantalRecreatie | integer |  |
-| aantalWoningen | integer |  |
-| afvoerendOppervlak | integer |  |
-| bergendOppervlak | integer |  |
-| rioolputConstructieonderdeel | Constructieonderdeel |  |
-| rioolputRioolleiding | AN30 |  |
-| risicogebied | GUID |  |
-| toegangBreedte | integer |  |
-| toegangLengte | integer |  |
-| type | Type |  |
-| typePlus | TypePlus |  |
+| aantalBedrijven | integer | Aantal bedrijven.
+Eenheid: Aantal |
+| aantalRecreatie | integer | Aantal recreatie-eenheden..
+Eenheid: Aantal |
+| aantalWoningen | integer | Aantal woningen.
+Eenheid: Aantal |
+| afvoerendOppervlak | integer | Het oppervlak van de bovenlaag dat water afvoert naar het object.
+Eenheid: m2 |
+| bergendOppervlak | integer | Bergend oppervlak.
+Eenheid: m2 |
+| rioolputConstructieonderdeel | Constructieonderdeel | Constructie-onderdelen welke in een rioolput kunnen voorkomen. |
+| rioolputRioolleiding | AN30 | Rioolleidingen welke op de Rioolput. |
+| risicogebied | GUID | GUID van een bovenliggend Risicogebied. |
+| toegangBreedte | integer | Breedte toegang.
+Eenheid: m |
+| toegangLengte | integer | Lengte toegang.
+Eenheid: m |
+| type | Type | Typering van het beheerobject. |
+| typePlus | TypePlus | Nadere typering van het type beheerobject. |
 
 
 
@@ -1942,17 +2159,23 @@ Attributen van objecttype Scheiding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanleghoogte | integer |  |
-| breedte | integer |  |
-| hoogte | integer |  |
-| jaarOnderhoudUitgevoerd | integer |  |
-| lengte | integer |  |
-| leverancier | Leverancier |  |
-| objectnaam | AN255 |  |
-| objectnummer | AN20 |  |
-| oppervlakte | integer |  |
-| scheidingMateriaal | Materiaal |  |
-| verplaatsbaar | boolean |  |
+| aanleghoogte | integer | Hoogte van het beheerobject t.o.v. NAP in meters.
+Eenheid: m |
+| breedte | integer | Breedte van het beheerobject.
+Eenheid: m |
+| hoogte | integer | Hoogte van het beheerobject in meters.
+Eenheid: m |
+| jaarOnderhoudUitgevoerd | integer | Jaar waarin het onderhoud van het beheerobject is uitgevoerd.
+Eenheid: Jaartal |
+| lengte | integer | Lengte van het beheerobject.
+Eenheid: m |
+| leverancier | Leverancier | Leverancier van het beheerobject. |
+| objectnaam | AN255 | Naam van het beheerobject. |
+| objectnummer | AN20 | Nummer van het beheerobject, door de organisatie zelf in te delen. |
+| oppervlakte | integer | Oppervlakte van het  beheerobject, overname van BGT/IMGeo.
+Eenheid: m2 |
+| scheidingMateriaal | Materiaal | Mogelijkheid om bij een Scheiding aan te geven uit welke materialen het object opgebouwd is. |
+| verplaatsbaar | boolean | Aanduiding of het beheerobject verplaatst kan worden of vast met de aarde verbonden is. |
 
 
 
@@ -1987,14 +2210,17 @@ Attributen van objecttype Sensor
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanleghoogte | integer |  |
-| elektrakast | GUID |  |
-| frequentieOmvormer | GUID |  |
-| hoogte | integer |  |
-| jaarOnderhoudUitgevoerd | integer |  |
-| leverancier | Leverancier |  |
-| meetpunt | GUID |  |
-| PLC | GUID |  |
+| aanleghoogte | integer | Hoogte van het beheerobject t.o.v. NAP in meters.
+Eenheid: m |
+| elektrakast | GUID | GUID van de kast waarop een voedingskabel aangesloten is. |
+| frequentieOmvormer | GUID | GUID van de frequentie-omvormerÂ welke aan het meetinstument gekoppeld kan zijn. |
+| hoogte | integer | Hoogte van het beheerobject in meters.
+Eenheid: m |
+| jaarOnderhoudUitgevoerd | integer | Jaar waarin het onderhoud van het beheerobject is uitgevoerd.
+Eenheid: Jaartal |
+| leverancier | Leverancier | Leverancier van het beheerobject. |
+| meetpunt | GUID | GUID van het meetpunt welke bij de sensor of het meetinstrument hoort. |
+| PLC | GUID | GUID van de PLC (microprocessor)Â welke aan het meetinstument gekoppeld kan zijn. |
 
 
 
@@ -2029,8 +2255,9 @@ Attributen van objecttype SolitairePlant
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| hoogte | integer |  |
-| type | Type |  |
+| hoogte | integer | Hoogte van het beheerobject in meters.
+Eenheid: m |
+| type | Type | Typering van het beheerobject. |
 
 
 
@@ -2066,10 +2293,11 @@ Attributen van objecttype Speelterrein
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| jaarHerinrichting | integer |  |
-| speelterreinLeeftijdDoelgroep | LeeftijdDoelgroep |  |
-| type | Type |  |
-| typePlus | TypePlus |  |
+| jaarHerinrichting | integer | 
+Eenheid: Jaartal |
+| speelterreinLeeftijdDoelgroep | LeeftijdDoelgroep | Leeftijd van de doelgroep(en) die gebruik maken van een speelterrein |
+| type | Type | Typering van het beheerobject. |
+| typePlus | TypePlus | Nadere typering van het type beheerobject. |
 
 
 
@@ -2105,28 +2333,39 @@ Attributen van objecttype Speeltoestel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| catalogusprijs | bedrag |  |
+| catalogusprijs | bedrag | 
+Eenheid: â‚¬ |
 | certificaat | boolean |  |
 | certificaatnummer | AN20 |  |
 | certificeringsinstantie | Certificeringsinstantie |  |
-| controlefrequentie | Frequentie |  |
-| datumCertificaat | Datum |  |
+| controlefrequentie | Frequentie | Aanduiding van de frequentie van de controle van het beheerobject.
+Toelichting: "De frequentie van de boomveiligheidscontrole. Dit is de periodieke visuele controle van een boom in het kader van â€˜de zorgplichtâ€™ (voortkomend uit artikel 6:162 van het BW) ten behoeve van het vaststellen van een (potentieel toekomstig) risico dat de boom vormt voor zijn omgeving. 
+De term â€˜boomveiligheidscontroleâ€™ heeft betrekking op het gehele proces om â€˜in het veldâ€™ de benodigde gegevens te verkrijgen voor het logboek, zoals beschreven in de CROW Richtlijn Boomveiligheidsregistratie.
+" |
+| datumCertificaat | Datum | 
+Eenheid: mmddyyyy |
 | gemakkelijkToegankelijk | boolean |  |
-| inspectievolgorde | integer |  |
-| installatiekosten | bedrag |  |
-| speelterrein | GUID |  |
+| inspectievolgorde | integer | 
+Eenheid: Reeks |
+| installatiekosten | bedrag | 
+Eenheid: â‚¬ |
+| speelterrein | GUID | GUID van het speelterrein waarbinnen het speeltoestel staat. |
 | speeltoestelToestelonderdeel | Toestelonderdeel |  |
-| technischeLevensduur | integer |  |
+| technischeLevensduur | integer | 
+Eenheid: Jaartal |
 | toestelcode | AN30 |  |
 | toestelgroep | Toestelgroep |  |
 | toestelnaam | AN50 |  |
-| type | Type |  |
+| type | Type | Typering van het beheerobject. |
 | typenummer | AN30 |  |
-| typePlus | TypePlus |  |
-| typePlus2 | AN100 |  |
-| valruimteHoogte | integer |  |
-| valruimteOmvang | integer |  |
-| vrijeValhoogte | integer |  |
+| typePlus | TypePlus | Nadere typering van het type beheerobject. |
+| typePlus2 | AN100 | Extra typering van het beheerobject, nadere typering van type gedetailleerd. |
+| valruimteHoogte | integer | Hoogte van de valruimte.
+Eenheid: m |
+| valruimteOmvang | integer | Omvang van de valruimte. Afstand tussen grondvlak speeltoestel en de rand van de opvangzone.
+Eenheid: m2 |
+| vrijeValhoogte | integer | De vrije valhoogte is de grootste afstand, loodrecht gemeten, tussen een toesteldeel dat duidelijk bedoeld is om steun te geven aan het lichaam van de gebruiker en de daaronder gelegen opvangzone.
+Eenheid: m |
 
 
 
@@ -2164,10 +2403,10 @@ Attributen van objecttype Sportterrein
 | :--- | :--- | :--- |
 | drainage | boolean |  |
 | gebruiksvorm | AN50 |  |
-| sportcomplex | GUID |  |
-| sportterreinTypeSport | TypeSport |  |
-| type | Type |  |
-| typePlus | TypePlus |  |
+| sportcomplex | GUID | GUID van het sportcomplex waartoe het object behoort. |
+| sportterreinTypeSport | TypeSport | Aanduiding voor de sport welke gebruik maakt van de voorziening of sportveld. |
+| type | Type | Typering van het beheerobject. |
+| typePlus | TypePlus | Nadere typering van het type beheerobject. |
 | veldnummer | AN30 |  |
 | verlicht | boolean |  |
 
@@ -2204,7 +2443,7 @@ Attributen van objecttype Stuwgebied
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bemalingsgebied | GUID |  |
+| bemalingsgebied | GUID | GUID van een bovenliggend Bemalingsgebied. |
 
 
 
@@ -2239,17 +2478,21 @@ Attributen van objecttype Terreindeel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| breedte | integer |  |
-| cultuurhistorischWaardevol | CultuurhistorischWaardevol |  |
-| herplantplicht | boolean |  |
-| oppervlakte | integer |  |
-| opTalud | nee |  |
-| percentageLoofbos | integer |  |
-| terreindeelSoortnaam | Soortnaam |  |
-| type | Type |  |
-| typeBewerking | TypeBewerking |  |
-| typePlus | TypePlus |  |
-| typePlus2 | AN100 |  |
+| breedte | integer | Breedte van het beheerobject.
+Eenheid: m |
+| cultuurhistorischWaardevol | CultuurhistorischWaardevol | Aanduiding voor een gebied of plek welke cultuurhistorisch waardevol is, wordt toegepast bij terreindelen en groenobjecten
+ op basis van een cultuurhistorische waardekaart. |
+| herplantplicht | boolean | Aanduiding of er in het kader van de Wet Natuurbescherming sprake is van een herplantplicht. |
+| oppervlakte | integer | Oppervlakte van het  beheerobject, overname van BGT/IMGeo.
+Eenheid: m2 |
+| opTalud | nee | Aanduiding of het beheerobject wel of niet op een hellend vlak ligt. De taludsteilte wordt apart geregistreerd. Overname uit BGT-object |
+| percentageLoofbos | integer | Percentage loofbos (t.o.v. naaldbos) binnen een gemengd bos.
+Eenheid: % |
+| terreindeelSoortnaam | Soortnaam | Beschrijving van Ã©Ã©n of meerdere soortnamen binnen het objecttype Terreindeel (Gemengd bos, loofbos en naaldbos). |
+| type | Type | Typering van het beheerobject. |
+| typeBewerking | TypeBewerking | Wijze waarop een beheerobject verwerkt wordt (handmatig of machinaal). |
+| typePlus | TypePlus | Nadere typering van het type beheerobject. |
+| typePlus2 | AN100 | Extra typering van het beheerobject, nadere typering van type gedetailleerd. |
 
 
 
@@ -2284,20 +2527,31 @@ Attributen van objecttype Tunnelobject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanleghoogte | integer |  |
-| aantalTunnelbuizen | integer |  |
-| breedte | integer |  |
-| doorrijbreedte | integer |  |
-| doorrijhoogte | integer |  |
-| hoogte | integer |  |
-| jaarConserveren | integer |  |
-| jaarOnderhoudUitgevoerd | integer |  |
-| lengte | integer |  |
-| leverancier | Leverancier |  |
-| objectnaam | AN255 |  |
-| objectnummer | AN20 |  |
-| oppervlakte | integer |  |
-| tunnelobjectMateriaal | Materiaal |  |
+| aanleghoogte | integer | Hoogte van het beheerobject t.o.v. NAP in meters.
+Eenheid: m |
+| aantalTunnelbuizen | integer | Aantal tunnelbuizen binnen een tunnel.
+Eenheid: Aantal |
+| breedte | integer | Breedte van het beheerobject.
+Eenheid: m |
+| doorrijbreedte | integer | Doorrijbreedte onder een overbrugging of in een tunnelobject.
+Eenheid: m |
+| doorrijhoogte | integer | Doorrijhoogte onder een overbrugging of in een tunnelobject.
+Eenheid: m |
+| hoogte | integer | Hoogte van het beheerobject in meters.
+Eenheid: m |
+| jaarConserveren | integer | Jaar waarin schade(s) aan het beheerobject is geconserveerd.
+Eenheid: Jaartal
+Toelichting: Conserveren valt onder het â€˜klein onderhoudâ€™. Door de slechte plekken in de verharding te repareren of te conserveren, wordt de spreiding in de kwaliteit op het weg- vakonderdeel geringer. De levensduur van de verharding over het gehele wegvakonderdeel wordt hiermee verlengd. |
+| jaarOnderhoudUitgevoerd | integer | Jaar waarin het onderhoud van het beheerobject is uitgevoerd.
+Eenheid: Jaartal |
+| lengte | integer | Lengte van het beheerobject.
+Eenheid: m |
+| leverancier | Leverancier | Leverancier van het beheerobject. |
+| objectnaam | AN255 | Naam van het beheerobject. |
+| objectnummer | AN20 | Nummer van het beheerobject, door de organisatie zelf in te delen. |
+| oppervlakte | integer | Oppervlakte van het  beheerobject, overname van BGT/IMGeo.
+Eenheid: m2 |
+| tunnelobjectMateriaal | Materiaal | Mogelijkheid om bij een Tunnelobject aan te geven uit welke materialen het object opgebouwd is. |
 
 
 
@@ -2332,8 +2586,8 @@ Attributen van objecttype Uitlaatconstructie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| type | Type |  |
-| waterobject | GUID |  |
+| type | Type | Typering van het beheerobject. |
+| waterobject | GUID | GUID van het waterdeel waarop de uitlaatconstructie afwatert. |
 
 
 
@@ -2368,18 +2622,20 @@ Attributen van objecttype Vegetatieobject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| afvoeren | boolean |  |
-| bereikbaarheid | Bereikbaarheid |  |
-| ecologischBeheer | boolean |  |
-| kwaliteitsniveauActueel | AN2 |  |
-| kwaliteitsniveauGewenst | KwaliteitsniveauGewenst |  |
-| kweker | Kweker |  |
-| leverancier | Leverancier |  |
-| objectnummer | AN20 |  |
-| soortnaam | Soortnaam |  |
-| typeStandplaats | TypeStandplaats |  |
-| typeStandplaatsPlus | TypeStandplaatsPlus |  |
-| vegetatieobjectBereikbaarheidPlus | BereikbaarheidPlus |  |
+| afvoeren | boolean | Aanduiding of het groenafval afgevoerd moet worden. |
+| bereikbaarheid | Bereikbaarheid | Aanduiding van de bereikbaarheid van het groenobject of de boom die beheerd moet worden. |
+| ecologischBeheer | boolean | Aanduiding of ecologisch beheer van toepassing is.
+Toelichting: Beheer gericht op het scheppen en in stand houden van de biologische kwaliteit, verscheidenheid en diversiteit, alsmede de variatie in het landschap. (bron: RAW). De daadwerkelijke uitwerking van het ecologisch beheer voor het beheerobject zal zijn afgestemd op de specifieke lokale situatie. |
+| kwaliteitsniveauActueel | AN2 | Aanduiding van het actuele kwaliteitsniveau  (na schouwen of inspecteren) conform de CROW Kwaliteitscatalogus (A+, A, B, C, D) |
+| kwaliteitsniveauGewenst | KwaliteitsniveauGewenst | Aanduiding van het gewenste kwaliteitsniveau conform de CROW Kwaliteitscatalogus (A+, A, B, C, D) |
+| kweker | Kweker | Kweker van het vegetatieobject. |
+| leverancier | Leverancier | Leverancier van het beheerobject. |
+| objectnummer | AN20 | Nummer van het beheerobject, door de organisatie zelf in te delen. |
+| soortnaam | Soortnaam | Naam van de soort waartoe het vegetatieobject (boom, klimplant, solitaire plant) of de beplanting van het groenobject behoort, conform de 'Naamlijst van houtige gewassen en vaste planten'. Bij de soortnaam kan de wetenschappelijke naam en de Nederlandse naam geregistreerd worden. Bij bomen kan bij de soortnaam ook de boomgrootte vastgelegd worden.
+Toelichting: â€˜Naamlijst van houtige gewassen en vaste plantenâ€™,  internationaal erkend als standaard. De namen bevatten geslachtsnaam, soortnaam en/of cultivar, en indien van toepassing, ondersoort, variÃ«teit of vorm. http://www.internationalplantnames.com/HTML/Nederlands/index_ned.htm. Beherende organisaties kunnen op basis van deze naamlijst hun eigen lijst samenstellen van de soorten die op hun terrein voorkomen. |
+| typeStandplaats | TypeStandplaats | Met de standplaats van een object wordt letterlijk bedoeld de plaats waar het object staat. Bij een boom wordt hiermee bedoeld de plaats van de boom en het bijbehorende wortelgestel. Als synoniem wordt vaak groeiplaats gebruikt. Voor het IMBOR wordt de fysieke verschijningsvorm als indeling gebruikt, conform de indeling in typen groen en typen verharding. Dit geeft voor de boombeheerder een aanduiding van de groeiomstandigheden. |
+| typeStandplaatsPlus | TypeStandplaatsPlus | Nadere aanduiding voor het Groen- of Wegobject waarbinnen de boom staat. |
+| vegetatieobjectBereikbaarheidPlus | BereikbaarheidPlus | Mogelijkheid om 1 of meerdere opties voor het detailleren van de bereikbaarheid toe te voegen bij een vegetatieobject. |
 
 
 
@@ -2414,65 +2670,84 @@ Attributen van objecttype Verhardingsobject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanleghoogte | integer |  |
-| aanOfVrijliggend | AanOfVrijliggend |  |
-| aantalDeklagen | integer |  |
-| aantalOnderlagen | integer |  |
-| aantalTussenlagen | integer |  |
-| afmeting | Afmeting |  |
-| belasting | Belasting |  |
-| bergendVermogen | integer |  |
-| BGTFysiekVoorkomen | AN80 |  |
-| breedte | integer |  |
-| dikteConstructie | integer |  |
-| draagkrachtig | boolean |  |
-| formaat | Formaat |  |
-| fysiekVoorkomenIMGeo | AN80 |  |
-| geluidsreducerend | boolean |  |
-| jaarConserveren | integer |  |
-| jaarOnderhoudUitgevoerd | integer |  |
-| jaarPraktischEinde | integer |  |
-| kleur | Kleuren |  |
-| kwaliteitsniveauActueel | AN2 |  |
-| kwaliteitsniveauGewenst | KwaliteitsniveauGewenst |  |
-| lengte | integer |  |
-| lengteKunstgras | LengteKunstgras |  |
-| lengteVoegen | integer |  |
-| levensduur | integer |  |
-| materiaal | Materiaal |  |
-| maximaleValhoogte | integer |  |
-| omtrek | integer |  |
-| ondergrondcode | AN10 |  |
-| oppervlakte | integer |  |
-| opTalud | nee |  |
-| plaatsorientatie | ntatie |  |
-| prijsAanschaf | bedrag |  |
-| rijstrook | GUID |  |
-| soortVoeg | SoortVoeg |  |
-| toelichtingGemengdeBestrating | AN255 |  |
-| type | Type |  |
-| typeConstructie | TypeConstructie |  |
-| typeFundering | TypeFundering |  |
-| typePlus | TypePlus |  |
-| typePlus2 | AN100 |  |
-| typeRijstrook | AN40 |  |
-| typeVoeg | TypeVoeg |  |
-| typeVoegvulling | TypeVoegvulling |  |
-| vegen | Vegen |  |
-| verhardingsobjectConstructielaag | AN200 |  |
-| verhardingsobjectModaliteit | Modaliteit |  |
-| verhardingsobjectRand | AN30 |  |
-| verhardingsobjectWegfunctie | Wegfunctie |  |
-| verhoogdeLigging | boolean |  |
-| vulmateriaalKunstgras | VulmateriaalKunstgras |  |
-| waterdoorlatendheid | Waterdoorlatendheid |  |
-| wegas | GUID |  |
-| wegcategorieDV | WegcategorieDV |  |
-| wegcategorieDVPlus | WegcategorieDV |  |
-| wegnummer | AN20 |  |
-| wegtypeBestaand | WegtypeBestaand |  |
-| wegvak | GUID |  |
-| wegvaknummer | AN20 |  |
+| aanleghoogte | integer | Hoogte van het beheerobject t.o.v. NAP in meters.
+Eenheid: m |
+| aanOfVrijliggend | AanOfVrijliggend | Aanduiding voor fietspaden en voetpaden bij objecttype Verharding of deze vrijliggend of aanliggend zijn. |
+| aantalDeklagen | integer | Aantal deklagen bij asfaltverharding. |
+| aantalOnderlagen | integer | Aantal onderlagen bij asfaltverharding. |
+| aantalTussenlagen | integer | Aantal tussenlagen bij asfaltverharding. |
+| afmeting | Afmeting | Aanduiding voor de afmeting van een object in lengte, breedte en hoogte. |
+| belasting | Belasting | Gemiddelde verkeersbelasting van de verharding. De huidige tabel wegtypen uit publ. 146/147 (Wegtype bestaand) is in feite een combinatie tussen de 'wegcategorie' en de belasting. Deze tabel gaat waarschijnlijk verdwijnen. Vooruitlopend daarop is 'Wegtype bestaand' verwerkt in twee nieuwe tabellen,  mede op basis van het CROW-project 'Differentiatie onderhoudsniveaus verhardingen', namelijk  in 'wegtype nieuw' en 'belasting'. Op basis van de bestaande wegtype indeling is een indeling in 3 belastingklassen te maken: zwaar, normaal (gemiddeld), licht
+Toelichting: Conform concept-publicatie Â´Onderbouwing en differentiatie onderhoudsniveaus weginfrastructuurÂ´ |
+| bergendVermogen | integer | De hoeveelheid afvalwater die in de voorziening kan worden geborgen.
+Eenheid: m3 |
+| BGTFysiekVoorkomen | AN80 | Aanduiding van het Â´fysieke voorkomenÂ´ van het beheerobject zoals dat in BGT-IMGeo is vastgelegd. Overname van het bovenliggende BGT/IMGeo-object |
+| breedte | integer | Breedte van het beheerobject.
+Eenheid: m |
+| dikteConstructie | integer | Aanduiding van de dikte van de gehele constructie in millimeters inclusief de deklaag van het wegobject.
+Eenheid: mm |
+| draagkrachtig | boolean | Met draagkrachtig wordt bedoeld dat voertuigen niet meer dan 20 mm mogen insporen. (alleen voor bermen) |
+| formaat | Formaat | Aanduiding voor het formaat van elementenverharding. |
+| fysiekVoorkomenIMGeo | AN80 | Aanduiding van het Â´fysieke voorkomen-plusÂ´ van het beheerobject zoals dat in IMGeo is vastgelegd. Overname uit IMGeo-object |
+| geluidsreducerend | boolean | Wegdek dat een geluidsreducerend effect heeft. |
+| jaarConserveren | integer | Jaar waarin schade(s) aan het beheerobject is geconserveerd.
+Eenheid: Jaartal
+Toelichting: Conserveren valt onder het â€˜klein onderhoudâ€™. Door de slechte plekken in de verharding te repareren of te conserveren, wordt de spreiding in de kwaliteit op het weg- vakonderdeel geringer. De levensduur van de verharding over het gehele wegvakonderdeel wordt hiermee verlengd. |
+| jaarOnderhoudUitgevoerd | integer | Jaar waarin het onderhoud van het beheerobject is uitgevoerd.
+Eenheid: Jaartal |
+| jaarPraktischEinde | integer | Jaar dat een wegobject in de praktijk aan het einde van haar levensduur is.
+Eenheid: Jaartal |
+| kleur | Kleuren | Kleur van het beheerobject. |
+| kwaliteitsniveauActueel | AN2 | Aanduiding van het actuele kwaliteitsniveau  (na schouwen of inspecteren) conform de CROW Kwaliteitscatalogus (A+, A, B, C, D) |
+| kwaliteitsniveauGewenst | KwaliteitsniveauGewenst | Aanduiding van het gewenste kwaliteitsniveau conform de CROW Kwaliteitscatalogus (A+, A, B, C, D) |
+| lengte | integer | Lengte van het beheerobject.
+Eenheid: m |
+| lengteKunstgras | LengteKunstgras | Aanduiding voor de lengte van het kunstgras.
+Eenheid: mm |
+| lengteVoegen | integer | Alleen bij cementbeton, de lengte van de voegen in meters op het wegobject.
+Eenheid: m |
+| levensduur | integer | Levensduur van het beheerobject.
+Eenheid: Aantal |
+| materiaal | Materiaal | Lijst met materialen waaruit het beheerobject opgebouwd is. |
+| maximaleValhoogte | integer | De maximale valhoogte van een speeltoestel is de hoogte waarbij het risico van een val aanvaardbaar wordt geacht. Hoe hoger het toestel, des te hoger moet de maximale valhoogte van het bodemmateriaal zijn. De maximale valhoogtes van de natuurlijke bodemmaterialen zijn gebaseerd op de Europese norm EN 1177. De maximale valhoogtes van de overige materialen zijn gebaseerd op testrapporten van leveranciers.
+Eenheid: m |
+| omtrek | integer | Omtrek van het beheerobject.
+Eenheid: m |
+| ondergrondcode | AN10 | Code van een valdempende ondergrond. |
+| oppervlakte | integer | Oppervlakte van het  beheerobject, overname van BGT/IMGeo.
+Eenheid: m2 |
+| opTalud | nee | Aanduiding of het beheerobject wel of niet op een hellend vlak ligt. De taludsteilte wordt apart geregistreerd. Overname uit BGT-object |
+| plaatsorientatie | ntatie | Positie van het wegobject binnen het wegvak. |
+| prijsAanschaf | bedrag | Aanschafprijs van het objecttype.
+Eenheid: â‚¬ |
+| rijstrook | GUID | GUID van de rijstrook die "bovenop" de verharding ligt, dit indien er spraken is van een verkeerskundig model. |
+| soortVoeg | SoortVoeg | Aanduiding voor het soort voeg (plaatsing) in het Verhardingsobject. |
+| toelichtingGemengdeBestrating | AN255 | Mogelijkheid om aan te geven bij gemengde bestrating welke elementenverharding er gebruikt is. |
+| type | Type | Typering van het beheerobject. |
+| typeConstructie | TypeConstructie | Aanduiding van de zwaarte van de constructie van het beheerobject. |
+| typeFundering | TypeFundering | Keuze uit lijst met funderingen van het beheerobject. Van toepassing bij wegobjecten en grassportvelden.
+Toelichting: Deze waarde wordt opgenomen bij beheerobjecten waar de fundering van belang is. Bij beheerobjecten van het type Â´gras- en kruidachtigenÂ´ gaat het o.a. om sport- en evenemententerreinen. |
+| typePlus | TypePlus | Nadere typering van het type beheerobject. |
+| typePlus2 | AN100 | Extra typering van het beheerobject, nadere typering van type gedetailleerd. |
+| typeRijstrook | AN40 | Begrensd gedeelte van de rijbaan dat voldoende breed is voor een rij van het voor dat gedeelte bestemde verkeer. |
+| typeVoeg | TypeVoeg | Aanduiding van het type voeg. Naad of opening tussen twee aansluitende gedeelten van een of meer constructies |
+| typeVoegvulling | TypeVoegvulling | Aanduiding van het type voegvulling. |
+| vegen | Vegen | Aanduiding voor het wel of niet vegen een Verharding-object. |
+| verhardingsobjectConstructielaag | AN200 | Via een gekoppeld subobjecttype VerhardingsobjectConstructielaag is het mogelijk om de constructielagen van een verhardingsobject vast te leggen. Van elke constructielaag kunnen de volgende attributen vastgelegd worden: Laagnummer, Constructielaagsoort (deklaag, tussenlaag, onderlaag, fundering, ondergrond, wapening, dek (van een brug of een viaduct) Materiaalsoort,  TypeTeerhoudend, Dikte en Plaatsingsdatum (jaar van aanleg). |
+| verhardingsobjectModaliteit | Modaliteit | Een vervoermiddel, vervoersmodaliteit of transportmiddel is een technische constructie of inrichting die vooral dient om personen of goederen te verplaatsen, veelal in het verkeer, ook de voetganger wordt onder vervoersmodaliteit verstaan. |
+| verhardingsobjectRand | AN30 | Mogelijkheid om de randen van een verharding als (hulp)objecttype te registreren. |
+| verhardingsobjectWegfunctie | Wegfunctie | Aanduiding voor de verkeersfunctie van de weg (meerdere waarden zijn mogelijk) |
+| verhoogdeLigging | boolean | Aanduiding voor een wegobject met een verhoogde ligging t.o.v. de rijbaan. |
+| vulmateriaalKunstgras | VulmateriaalKunstgras | Vulmateriaal van het kunstgrasveld. |
+| waterdoorlatendheid | Waterdoorlatendheid | Waterdoorlatendheid betreft de aanwezigheid van infiltratiebestrating. Dit is een vorm van bestrating die waterdoorlatend en waterpasserend is. Bij infiltratiebestrating loopt water niet meer via kolken in het riool, maar door (waterdoorlatend) of langs (waterpasserend) de bestrating de grond in. |
+| wegas | GUID | GUID van de wegas welke de Verharding doorsnijdt. |
+| wegcategorieDV | WegcategorieDV | Classificatie van een weg naar verkeersfunctie binnen het totale netwerk van wegen, die als zodanig voor de weggebruiker goed herkenbaar zijn. |
+| wegcategorieDVPlus | WegcategorieDV | Nadere aanduiding van de classificatie van een weg naar verkeersfunctie binnen het totale netwerk van wegen, die als zodanig voor de weggebruiker goed herkenbaar zijn. |
+| wegnummer | AN20 | Aanduiding van de weg, bijvoorbeeld N3 voor een provinciale weg. |
+| wegtypeBestaand | WegtypeBestaand | Indeling in wegtypen conform de CROW Systematiek Wegbeheer.
+Toelichting: Indeling in 7 wegtypen. Deze indeling gaat herzien worden. Als voorbereiding daarop zijn de beheerkenmerken Â´wegtype nieuwÂ´ en Â´belastingÂ´ opgenomen, conform concept-publicatie Â´Onderbouwing en differentiatie onderhoudsniveaus weginfrastructuurÂ´. Deze twee kenmerken zijn een splitsing van de bestaande tabel Â´wegtypenÂ´. |
+| wegvak | GUID | GUID van het wegvak waar de Verharding binnenvalt. |
+| wegvaknummer | AN20 | Overname van het wegvaknummer uit vorige indeling. |
 
 
 
@@ -2507,9 +2782,9 @@ Attributen van objecttype Verkeersdrempel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| ontwerpsnelheid | AN10 |  |
-| type | Type |  |
-| typePlus | TypePlus |  |
+| ontwerpsnelheid | AN10 | Gekozen snelheid die maatgevend is voor de vormgeving van de weg en de ontwerpelementen, zodat bestuurders van voertuigen, indien niet gehinderd door het overige verkeer, bij die snelheid veilig en comfortabel kunnen rijden. NB Als uitgangspunt geldt de hoogste snelheid waarmee een enkel voertuig veilig en comfortabel over het betrokken weggedeelte kan rijden, indien de stroefheid van het wegdek, het zicht en de weersomstandigheden geen nadelige invloed uitoefenen. |
+| type | Type | Typering van het beheerobject. |
+| typePlus | TypePlus | Nadere typering van het type beheerobject. |
 
 
 
@@ -2578,17 +2853,22 @@ Attributen van objecttype Viaduct
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalOverspanningen | integer |  |
-| belastingklasseNieuw | BelastingklasseNieuw |  |
-| belastingklasseOud | BelastingklasseOud |  |
-| draagvermogen | integer |  |
-| maximaalToelaatbaarVoertuiggewicht | integer |  |
-| maximaleAsbelasting | integer |  |
-| maximaleOverspanning | integer |  |
-| overbruggingsobjectDoorrijopening | AN10 |  |
-| type | Type |  |
-| waterobject | GUID |  |
-| zwaarsteVoertuig | integer |  |
+| aantalOverspanningen | integer | Aantal overspanningen van de brug.
+Eenheid: Aantal |
+| belastingklasseNieuw | BelastingklasseNieuw | Verkeersbelasting (zwaarte van de voertuigen), volgens Europese normering. Waarde voor het gehele beheerobject voor een risico-inschatting. |
+| belastingklasseOud | BelastingklasseOud | Verkeersbelasting (zwaarte van de voertuigen). Waarde voor het gehele beheerobject voor een risico-inschatting. |
+| draagvermogen | integer | Draagvermogen van het overbruggingsobject
+Eenheid: kg |
+| maximaalToelaatbaarVoertuiggewicht | integer | Maximaal toelaatbaar voertuiggewicht van een voertuig op een overbruggingsobject.
+Eenheid: kg |
+| maximaleAsbelasting | integer | Maximale asbelasting van een voertuig op een overbruggingsobject.
+Eenheid: kg |
+| maximaleOverspanning | integer | Maximale overspanning van een overbruggingsobject. |
+| overbruggingsobjectDoorrijopening | AN10 | Mogelijkheid bij een overbrugging  de doorrijhoogte en doorrijbreedte per opening aan te geven. |
+| type | Type | Typering van het beheerobject. |
+| waterobject | GUID | GUID van het waterdeel waarop de uitlaatconstructie afwatert. |
+| zwaarsteVoertuig | integer | Referentie voor het gewicht van het zwaarst bekende voertuig dat is gepasseerd over het overbruggingsobject.
+Eenheid: kg |
 
 
 
@@ -2623,16 +2903,23 @@ Attributen van objecttype Waterinrichtingsobject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanleghoogte | integer |  |
-| breedte | integer |  |
-| jaarConserveren | integer |  |
-| jaarOnderhoudUitgevoerd | integer |  |
-| kwaliteitsniveauActueel | AN2 |  |
-| kwaliteitsniveauGewenst | KwaliteitsniveauGewenst |  |
-| lengte | integer |  |
-| leverancier | Leverancier |  |
-| materiaal | Materiaal |  |
-| oppervlakte | integer |  |
+| aanleghoogte | integer | Hoogte van het beheerobject t.o.v. NAP in meters.
+Eenheid: m |
+| breedte | integer | Breedte van het beheerobject.
+Eenheid: m |
+| jaarConserveren | integer | Jaar waarin schade(s) aan het beheerobject is geconserveerd.
+Eenheid: Jaartal
+Toelichting: Conserveren valt onder het â€˜klein onderhoudâ€™. Door de slechte plekken in de verharding te repareren of te conserveren, wordt de spreiding in de kwaliteit op het weg- vakonderdeel geringer. De levensduur van de verharding over het gehele wegvakonderdeel wordt hiermee verlengd. |
+| jaarOnderhoudUitgevoerd | integer | Jaar waarin het onderhoud van het beheerobject is uitgevoerd.
+Eenheid: Jaartal |
+| kwaliteitsniveauActueel | AN2 | Aanduiding van het actuele kwaliteitsniveau  (na schouwen of inspecteren) conform de CROW Kwaliteitscatalogus (A+, A, B, C, D) |
+| kwaliteitsniveauGewenst | KwaliteitsniveauGewenst | Aanduiding van het gewenste kwaliteitsniveau conform de CROW Kwaliteitscatalogus (A+, A, B, C, D) |
+| lengte | integer | Lengte van het beheerobject.
+Eenheid: m |
+| leverancier | Leverancier | Leverancier van het beheerobject. |
+| materiaal | Materiaal | Lijst met materialen waaruit het beheerobject opgebouwd is. |
+| oppervlakte | integer | Oppervlakte van het  beheerobject, overname van BGT/IMGeo.
+Eenheid: m2 |
 
 
 
@@ -2667,29 +2954,41 @@ Attributen van objecttype Waterobject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| breedte | integer |  |
-| folie | boolean |  |
-| hoogte | integer |  |
-| infiltrerendOppervlak | integer |  |
-| infiltrerendVermogen | integer |  |
-| lengte | integer |  |
-| lozingspunt | GUID |  |
-| oppervlakte | integer |  |
-| porositeit | integer |  |
-| streefdiepte | integer |  |
-| type | Type |  |
-| typePlus | TypePlus |  |
-| typePlus2 | AN100 |  |
-| typeVaarwater | TypeVaarwater |  |
-| typeWaterplant | TypeWaterplant |  |
-| uitstroomniveau | integer |  |
-| vaarwegtraject | AN50 |  |
-| vorm | Vorm |  |
-| waternaam | AN100 |  |
-| waterpeil | integer |  |
-| waterpeilWinter | integer |  |
-| waterpeilZomer | integer |  |
-| waterplanten | boolean |  |
+| breedte | integer | Breedte van het beheerobject.
+Eenheid: m |
+| folie | boolean | Aanduiding voor de aanwezigheid van folie. |
+| hoogte | integer | Hoogte van het beheerobject in meters.
+Eenheid: m |
+| infiltrerendOppervlak | integer | 
+Eenheid: m2 |
+| infiltrerendVermogen | integer | 
+Eenheid: m3 |
+| lengte | integer | Lengte van het beheerobject.
+Eenheid: m |
+| lozingspunt | GUID | GUID van het lozingspunt (aansluitpunt), waar afvalwater het in beschouwing genomen rioolstelsel in- of uitstroomt |
+| oppervlakte | integer | Oppervlakte van het  beheerobject, overname van BGT/IMGeo.
+Eenheid: m2 |
+| porositeit | integer | De mate van doorlaatbaarheid.
+Eenheid: % |
+| streefdiepte | integer | Streefdiepte van het vaarwater.
+Eenheid: m NAP |
+| type | Type | Typering van het beheerobject. |
+| typePlus | TypePlus | Nadere typering van het type beheerobject. |
+| typePlus2 | AN100 | Extra typering van het beheerobject, nadere typering van type gedetailleerd. |
+| typeVaarwater | TypeVaarwater | Belang van het vaarwater waarover de brug ligt. |
+| typeWaterplant | TypeWaterplant | Aanduiding voor het type waterplanten  binnen het waterobject. |
+| uitstroomniveau | integer | Hoogte waarop het water uitstroomt.
+Eenheid: m NAP |
+| vaarwegtraject | AN50 | Naam van het vaarwegtraject. |
+| vorm | Vorm | Vorm van een beheerobject. |
+| waternaam | AN100 | Identiciatie van de waterloop of watervlakte onder de brug. |
+| waterpeil | integer | Gemiddeld waterpeil.
+Eenheid: m NAP |
+| waterpeilWinter | integer | Gemiddeld waterpeil in de winter.
+Eenheid: m NAP |
+| waterpeilZomer | integer | Gemiddeld waterpeil in de zomer.
+Eenheid: m NAP |
+| waterplanten | boolean | Aanduiding voor de aanwezigheid van waterplanten  binnen het waterobject. |
 
 
 
@@ -2724,18 +3023,26 @@ Attributen van objecttype Weginrichtingsobject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanleghoogte | integer |  |
-| breedte | integer |  |
-| hoogte | integer |  |
-| jaarConserveren | integer |  |
-| jaarOnderhoudUitgevoerd | integer |  |
-| kwaliteitsniveauActueel | AN2 |  |
-| kwaliteitsniveauGewenst | KwaliteitsniveauGewenst |  |
-| lengte | integer |  |
-| leverancier | Leverancier |  |
-| materiaal | Materiaal |  |
-| oppervlakte | integer |  |
-| weginrichtingsobjectWegfunctie | Wegfunctie |  |
+| aanleghoogte | integer | Hoogte van het beheerobject t.o.v. NAP in meters.
+Eenheid: m |
+| breedte | integer | Breedte van het beheerobject.
+Eenheid: m |
+| hoogte | integer | Hoogte van het beheerobject in meters.
+Eenheid: m |
+| jaarConserveren | integer | Jaar waarin schade(s) aan het beheerobject is geconserveerd.
+Eenheid: Jaartal
+Toelichting: Conserveren valt onder het â€˜klein onderhoudâ€™. Door de slechte plekken in de verharding te repareren of te conserveren, wordt de spreiding in de kwaliteit op het weg- vakonderdeel geringer. De levensduur van de verharding over het gehele wegvakonderdeel wordt hiermee verlengd. |
+| jaarOnderhoudUitgevoerd | integer | Jaar waarin het onderhoud van het beheerobject is uitgevoerd.
+Eenheid: Jaartal |
+| kwaliteitsniveauActueel | AN2 | Aanduiding van het actuele kwaliteitsniveau  (na schouwen of inspecteren) conform de CROW Kwaliteitscatalogus (A+, A, B, C, D) |
+| kwaliteitsniveauGewenst | KwaliteitsniveauGewenst | Aanduiding van het gewenste kwaliteitsniveau conform de CROW Kwaliteitscatalogus (A+, A, B, C, D) |
+| lengte | integer | Lengte van het beheerobject.
+Eenheid: m |
+| leverancier | Leverancier | Leverancier van het beheerobject. |
+| materiaal | Materiaal | Lijst met materialen waaruit het beheerobject opgebouwd is. |
+| oppervlakte | integer | Oppervlakte van het  beheerobject, overname van BGT/IMGeo.
+Eenheid: m2 |
+| weginrichtingsobjectWegfunctie | Wegfunctie | Aanduiding voor de verkeersfunctie van de weg (meerdere waarden zijn mogelijk) |
 
 
 

@@ -403,10 +403,10 @@ Geen Definitie
 Het enumeratie Hinderklasse kent de volgende waarden:
 
 * **Klasse 0: Geen hinder**: <Geen Definities>
-* **Klasse 1: Kleine hinder**: <Geen Definities>
-* **Klasse 2: Matige hinder**: <Geen Definities>
-* **Klasse 3: Grote hinder**: <Geen Definities>
-* **Klasse 4: Zeer grote hinder**: <Geen Definities>
+* **Klasse 1: Kleine hinder**: Geen file: vertraging &lt; 5 minuten
+* **Klasse 2: Matige hinder**: 5 tot 10 minuten vertraging door file of omrijden
+* **Klasse 3: Grote hinder**: 10 tot 30 minuten vertraging door file of omrijden
+* **Klasse 4: Zeer grote hinder**: &gt; 30 minuten vertraging door file of omrijden
 
 
 De enumeratie Hinderklasse heeft de volgende kenmerken:

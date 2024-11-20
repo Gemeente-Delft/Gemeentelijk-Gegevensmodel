@@ -77,12 +77,18 @@ Attributen van objecttype Asielstatushouder
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| DigiD aangevraagd | Enumeratie: "Boolean" |  |
-| Emailadres verblijf AZC | AN40 |  |
-| Is gekoppeld aan | AN40 |  |
-| Land Rijbewijs | AN50 |  |
-| Rijbewijs | Enumeratie: "Boolean" |  |
-| Telefoonnummer verblijf AZC | AN10 |  |
+| DigiD aangevraagd | Enumeratie: "Boolean" | Heeft de Asielstatushouder  een DigiD aangevraagd?
+Mogelijke waarden: ja, nee of onbekend. |
+| Emailadres verblijf AZC | AN40 | Het emailadres van Asielstatushouder  tijdens verblijf in het AZC.
+ 
+Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder   het AZC verlaat. |
+| Is gekoppeld aan | AN40 | Is de naam van de Gemeente waar de Asielstatushouder aan is gekoppeld voor huisvesting en verdere inburgering. |
+| Land Rijbewijs | AN50 | Het land waar het rijbewijs is gehaald door Asielstatushouder. |
+| Rijbewijs | Enumeratie: "Boolean" | Is de Asielstatushouder in het bezit van een rijbewijs?
+Mogelijke waarden: ja, nee of onbekend |
+| Telefoonnummer verblijf AZC | AN10 | Het telefoonummer van Asielstatushouder  tijdens het verblijf in het AZC.
+
+Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat. |
 | None | Class: "GEMEENTE" |  |
 | None | Class: "Verblijfplaats AZC" |  |
 
@@ -298,8 +304,8 @@ Attributen van objecttype Inburgeraar
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Doelgroep | int |  |
-| Gedetailleerde Doelgroep | Enumeratie: "Doelgroep" |  |
+| Doelgroep | int | Een indeling (op basis van een verblijfsdoen van een Inburgeraar en het onderscheid dat de Wi2021 maakt tussen de verschillende waarden in een groep. Zie ook de objecten Asielstatushouder en Gezinsmigrant / overige migrant. |
+| Gedetailleerde Doelgroep | Enumeratie: "Doelgroep" | Is een indeling (op basis van een verblijfsdoel van een Inburgeraar) in een groep. |
 
 
 
@@ -681,8 +687,8 @@ Attributen van objecttype Vreemdeling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Sociaal Referent | AN10 |  |
-| v-nummer | AN10 |  |
+| Sociaal Referent | AN10 | een |
+| v-nummer | AN10 | Vreemdelingennummer, uniek, identificerend nummer dat door de Nederlandse overheid wordt uitgereikt aan een Vreemdeling na registratie in de vreemdelingenadministratie. |
 
 
 
@@ -719,6 +725,119 @@ Attributen van objecttype Z
 | :--- | :--- | :--- |
 
 
+
+
+
+
+
+## Enumeraties Model Inburgering
+
+
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: <Geen Definities>
+* **Nee**: <Geen Definities>
+* **Onbekend**: <Geen Definities>
+* **Leeg**: <Geen Definities>
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+| Kenmerk | Waarde |
+| :--- | :------ |
+| name | Boolean |
+| toelichting | None |
+| synoniemen | None |
+| uri | None |
+| bron | None |
+| author | None |
+| version | None |
+| created | None |
+| modified | None |
+| id | EAID_2c5f841b_f1a7_4cf1_8ab0_9d7b0fa4e61b |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
+
+
+
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: <Geen Definities>
+* **Nee**: <Geen Definities>
+* **Onbekend**: <Geen Definities>
+* **Leeg**: <Geen Definities>
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+| Kenmerk | Waarde |
+| :--- | :------ |
+| name | Boolean |
+| toelichting | None |
+| synoniemen | None |
+| uri | None |
+| bron | None |
+| author | None |
+| version | None |
+| created | None |
+| modified | None |
+| id | EAID_77267f69_7ac8_4060_a65b_4e007fde746b |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
+
+
+
+### Doelgroep
+Geen Definitie
+
+Het enumeratie Doelgroep kent de volgende waarden:
+
+* **Asielstatushouder**: <Geen Definities>
+* **Gezinsvormer**: <Geen Definities>
+* **Gezinshereniger**: <Geen Definities>
+* **Geestelijk bedienaar**: <Geen Definities>
+* **Gezinsvormer met Asielstatushouder**: <Geen Definities>
+* **Gezinshereniger met Asielstatushouder**: <Geen Definities>
+* **Overig**: <Geen Definities>
+
+
+De enumeratie Doelgroep heeft de volgende kenmerken:
+
+| Kenmerk | Waarde |
+| :--- | :------ |
+| name | Doelgroep |
+| toelichting | None |
+| synoniemen | None |
+| uri | None |
+| bron | None |
+| author | None |
+| version | None |
+| created | None |
+| modified | None |
+| id | EAID_d05a453f_ebfa_446c_a982_9e08680698c1 |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
 
 
 

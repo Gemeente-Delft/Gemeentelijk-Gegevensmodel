@@ -106,7 +106,7 @@ Attributen van objecttype Rapportagemoment
 | datum | Date |  |
 | naam | AN200 |  |
 | omschrijving | text |  |
-| termijn | int |  |
+| termijn | int | Termijn in dagen |
 | None | Class: "DOCUMENT" |  |
 
 
@@ -195,7 +195,9 @@ Attributen van objecttype Subsidie
 | ontvangenBedrag | Bedrag |  |
 | opmerkingen | Text |  |
 | opmerkingenVoorschotten | Text |  |
-| prestatiesubsidie | Boolean |  |
+| prestatiesubsidie | Boolean | Als Nee dan is het een stimuleringssubsidie
+
+Alleen bij uitgaande subsidies, anders NULL! |
 | socialReturnBedrag | Bedrag |  |
 | socialReturnNagekomen | Boolean |  |
 | socialReturnVerplichting | Boolean |  |
@@ -411,7 +413,7 @@ Attributen van objecttype Taak
 | datumEinde | Date |  |
 | datumStart | Date |  |
 | taakomschrijving | Text |  |
-| termijn | int |  |
+| termijn | int | Termijn in dagen  |
 
 
 

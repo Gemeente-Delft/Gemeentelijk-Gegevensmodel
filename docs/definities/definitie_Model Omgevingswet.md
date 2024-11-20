@@ -265,7 +265,13 @@ Attributen van objecttype Instructieregel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| instructieregelInstrument | AN200 |  |
+| instructieregelInstrument | AN200 | <font color="#032547"><b>Attribuutsoort instructieregel instrument</b></font>
+Naam Definitie Formaat Toelichting
+Instructieregel instrument
+De naam van het instrument waartoe de instructieregel zich richt.
+InstructieregelInstrument (waardelijst)
+Bijvoorbeeld: Omgevingsverordening, projectbesluit.
+Dit kenmerk geeft nadere informatie in aanvulling op het type instructieregel, in het geval dat de regel gericht is op een bepaald instrument. |
 | instructieregelTaakuitoefening | AN200 |  |
 | None | Class: "Gebiedsaanwijzing" |  |
 
@@ -307,7 +313,7 @@ Attributen van objecttype Juridische Regel
 | datumInWerking | Date |  |
 | datumStart | Date |  |
 | omschrijving | text |  |
-| regeltekst | AN200 |  |
+| regeltekst | AN200 | Verwijzing naar lid of artikel van regeltekst |
 | thema | AN200 |  |
 | None | Class: "Thema" |  |
 | None | Class: "Regeltekst" |  |
@@ -532,7 +538,16 @@ Attributen van objecttype Regel voor Iedereen
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| activiteitRegelKwalificatie | AN200 |  |
+| activiteitRegelKwalificatie | AN200 | <font color="#032547"><b>Attribuutsoort activiteitregelkwalificatie</b></font>
+Naam Definitie Formaat Toelichting
+Constraint(s)
+
+activiteitregelkwalificatie
+De naam van de kwalificatie van de Juridische regel over een activiteit.
+Activiteitregelkwalificatie (waardelijst) Bijvoorbeeld: gebod, verbod.
+Alleen te gebruiken wanneer bij Juridische regel is gekozen voor het type 'Regel voor iedereen' en de regel een Activiteit beschrijft.
+Als activiteit, alleen dan activiteitregelkwalificatie.
+Dit kenmerk heeft alleen betekenis wanneer de regel een activiteit beschrijft. Anders gezegd, dit kenmerk hoort alleen gevuld te worden wanneer de regel, ten minste, een activiteit beschrijft. |
 | None | Class: "Omgevingsnorm" |  |
 | None | Class: "Gebiedsaanwijzing" |  |
 | None | Class: "Activiteit" |  |

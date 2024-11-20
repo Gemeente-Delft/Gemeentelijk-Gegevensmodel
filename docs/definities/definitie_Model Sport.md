@@ -140,8 +140,8 @@ Attributen van objecttype Binnenlocatie
 | gemeentelijk | boolean |  |
 | geschatteKostenPerJaar | Bedrag |  |
 | gymzaal | Boolean |  |
-| klokurenOnderwijs | double |  |
-| klokurenVerenigingen | double |  |
+| klokurenOnderwijs | double | Aantal klokuren per week |
+| klokurenVerenigingen | double | aantal klokuren per week |
 | locatie | GML |  |
 | onderhoudsniveau | AN80 |  |
 | onderhoudsstatus | int |  |

@@ -126,7 +126,7 @@ Attributen van objecttype AanvraagOfMelding
 | kanaal | AN80 |  |
 | onderwerp | AN200 |  |
 | onderwerpcode | AN80 |  |
-| soort | AN80 |  |
+| soort | AN80 | Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding....  |
 | status | AN80 |  |
 | statuscode | AN80 |  |
 | statusVolgorde | AN80 |  |
@@ -240,11 +240,12 @@ Attributen van objecttype Balieafspraak
 | notitie | text |  |
 | starttijdGepland | Datetime |  |
 | tijdAangemaakt | Datetime |  |
-| tijdsduurGepland | int |  |
+| tijdsduurGepland | int | Werkelijke tijdsduur in minuten
+ |
 | toelichting | text |  |
-| wachttijdNaStartAfspraak | int |  |
-| wachttijdTotaal | int |  |
-| wachttijdVoorStartAfspraak | int |  |
+| wachttijdNaStartAfspraak | int | Tijdsduur die iemand moet wachten na de starttijd van de afspraak |
+| wachttijdTotaal | int | Wachttijd inclusief de tijd dat iemand te vroeg voor de afspraak verschijnt en de tijd dat iemand moet wachten na de geplande starttijd van de afspraak |
+| wachttijdVoorStartAfspraak | int | Tijdsduur dat iemand te vroeg is voor de afspraak |
 | werkelijkeTijdsduur | int |  |
 | None | Class: "Klantcontact" |  |
 
@@ -394,11 +395,15 @@ Attributen van objecttype Klantbeoordeling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| beoordeling | AN10 |  |
+| beoordeling | AN10 | cijfer voor de beoordeling (getal tussen 0 en 10)
+ |
 | categorie | AN50 |  |
-| contactOpnemen | boolean |  |
-| ddBeoordeling | Date |  |
-| kanaal | AN100 |  |
+| contactOpnemen | boolean | of de klant het al dan niet goed vind dat naar aanleiding van zijn/haar beoordeling contact wordt opgenomen
+ |
+| ddBeoordeling | Date | datum en tijdstip van de klantbeoordeling
+ |
+| kanaal | AN100 | waar de beoordeling is uitgevoerd, te weten op de website, naar aanleiding van een webformulier of na schriftelijke uitvraag vanuit onze organisatie
+ |
 | onderwerp | AN50 |  |
 | subCategorie | AN50 |  |
 | None | Class: "Klantbeoordelingreden" |  |
@@ -547,7 +552,7 @@ Attributen van objecttype ProductOfDienst
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| afhandeltijd | int |  |
+| afhandeltijd | int | Standaard afhandeltijd in minuten |
 | ingebruik | Boolean |  |
 | naam | AN80 |  |
 | None | Class: "Klantbeoordeling" |  |
@@ -666,14 +671,14 @@ Attributen van objecttype Telefoontje
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| afhandeltijdNaGesprek | int |  |
-| deltaISDNConnectie | int |  |
-| eindtijd | DateTime |  |
-| starttijd | DateTime |  |
-| totaleOnHoldTijd | int |  |
-| totaleSpreektijd | int |  |
-| totaleWachttijd | int |  |
-| totLateTijdsduur | int |  |
+| afhandeltijdNaGesprek | int | De tijd die de medewerker nodig heeft om het telefoontje af te handelen totdat hij/zij klaar is voor een volgend telefoontje |
+| deltaISDNConnectie | int | De totale tijd dat er een teelfoonverbinding was minus totale wachttijd, spreektijd en on hold-tijd. |
+| eindtijd | DateTime | Het moment dat de telefooncentrale het telefoontjes beeindigd |
+| starttijd | DateTime | Het moment dat de telefooncentrale een telefoontje in behandeling neemt. Dit ligt voor de starttijd van het klantcontact |
+| totaleOnHoldTijd | int | De totale tijd dat een beller tussen klantcontacten "on hold" wordt gezet. |
+| totaleSpreektijd | int | De totale tijd dat met een (of meer) medewerkers van de gemeente wordt gebeld. |
+| totaleWachttijd | int | De tijd tussen de starttijd van het telefoontje en het moment dat het telefoontje voor het eerst wordt opgenomen, of het telefoontje wordt afgesloten  |
+| totLateTijdsduur | int | Tijd tussen start- en eindtijd van telefoontje |
 | trackID | AN20 |  |
 | None | Class: "Klantcontact" |  |
 

@@ -408,7 +408,7 @@ Attributen van objecttype Procesverbaal Onderwijs
 | geldboete | Bedrag |  |
 | geldboeteVoorwaardelijk | Boolean |  |
 | opmerkingen | An1000 |  |
-| proeftijd | int |  |
+| proeftijd | int | Proeftijd in dagen |
 | reden | AN255 |  |
 | sanctiesoort | Enumeratie: "Sanctiesoort" |  |
 | uitspraak | AN500 |  |

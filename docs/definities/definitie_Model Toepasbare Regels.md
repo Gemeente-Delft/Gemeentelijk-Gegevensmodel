@@ -174,7 +174,7 @@ Attributen van objecttype Toepasbare Regel
 | domein | URL |  |
 | naam | AN200 |  |
 | omschrijving | text |  |
-| soortAansluitpunt | AN200 |  |
+| soortAansluitpunt | AN200 |  uitbreiden, uitsluiten of vervangen |
 | toestemming | AN200 |  |
 | None | Class: "Juridische Regel" |  |
 | None | Class: "Activiteit" |  |

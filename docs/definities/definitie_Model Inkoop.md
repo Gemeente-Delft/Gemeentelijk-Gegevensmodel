@@ -227,7 +227,7 @@ Attributen van objecttype Aanvraag Inkooporder
 | betalingOverMeerJaren | Boolean |  |
 | correspondentienummer | int |  |
 | inhuurAnders | AN80 |  |
-| leveringOfDienst | Boolean |  |
+| leveringOfDienst | Boolean | Bij levering of dienst is waarde: TRUE, bij een werk is waarde: FALSE |
 | nettoTotaalBedrag | Bedrag |  |
 | omschrijving | text |  |
 | onderwerp | AN80 |  |
@@ -835,11 +835,18 @@ Attributen van objecttype StartformulierAanbesteden
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| beoogdeLooptijd | int |  |
+| beoogdeLooptijd | int | Beoogde looptijd in jaren |
 | beoogdeTotaleOpdrachtwaarde | Bedrag |  |
 | indicatieAanvullendeOpdrachtLeverancier | boolean |  |
-| indicatieBeoogdeAanbestedingOnderhands | Boolean |  |
-| indicatieBeoogdeProcKomtOvereen | boolean |  |
+| indicatieBeoogdeAanbestedingOnderhands | Boolean | Welke aanbestedingsprocedure ben je voornemens te volgen? 
+<ol>
+ <li>1-op-1 (enkelvoudig onderhands) of 3 tot 5 offertes (meervoudig onderhands)</li>
+ <li>Nationale of Europese aanbesteding </li>
+</ol>
+
+ |
+| indicatieBeoogdeProcKomtOvereen | boolean | Komt - op basis van de hierboven genoemde totale opdrachtwaarde - de beoogde aanbestedings-procedure overeen met de voorgeschreven procedure uit het Procedure-overzicht en/of het 'groene' gedeelte in de kleurentabel uit de gids proportionaliteit?
+ |
 | indicatieEenmaligeLos | Boolean |  |
 | indicatieMeerjarigeRaamovereenkomst | boolean |  |
 | indicatieMeerjarigRepeterend | Boolean |  |
@@ -847,7 +854,8 @@ Attributen van objecttype StartformulierAanbesteden
 | omschrijving | text |  |
 | opdrachtcategorie | Enumeratie: "Opdrachtcategorie" |  |
 | opdrachtsoort | Enumeratie: "Opdrachtsoort" |  |
-| toelichtingAanvullendeOpdracht | text |  |
+| toelichtingAanvullendeOpdracht | text | Zijn er mogelijk nog aanvullende of gerelateerde opdrachten, die je ook wilt verstrekken aan de beoogde opdrachtnemer? 
+ |
 | toelichtingEenmaligOfRepeterend | text |  |
 | None | Class: "ZAAK" |  |
 | None | Class: "Aankondiging" |  |

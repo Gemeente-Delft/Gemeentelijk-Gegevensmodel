@@ -128,13 +128,20 @@ Attributen van objecttype AOM_AanvraagWmoJeugd
 | :--- | :--- | :--- |
 | clientReactie | AN100 |  |
 | datumBeschikking | Date |  |
-| datumEersteAfspraak | Date |  |
-| datumEinde | Date |  |
-| datumPlanVastgesteld | Date |  |
-| datumStartAanvraag | Date |  |
+| datumEersteAfspraak | Date | De datum van de eerste afspraak in het
+proces.
+ |
+| datumEinde | Date | De daadwerkelijke einddatum van de
+gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proces of niet van toepassing. Deze einddatum is afhankelijk van de gekozen doorloopmethodiek
+ |
+| datumPlanVastgesteld | Date | De datum waarop het plan is vastgesteld in de melding.
+ |
+| datumStartAanvraag | Date | Start van het proces=start vd aanvraag
+ |
 | deskundigheid | AN50 |  |
 | doorloopmethodiek | AN50 |  |
-| maximaleDoorlooptijd | AN20 |  |
+| maximaleDoorlooptijd | AN20 | Het aantal dagen tussen de startdatum en de einddatum van de doorloopmethodiek ten tijde van het aanmaken van het proces. Dit veld geeft daarmee aan hoe lang men over een proces zou mogen doen.
+ |
 | redenAfsluiting | AN50 |  |
 | None | Class: "Client" |  |
 | None | Class: "Beschikking" |  |
@@ -1516,7 +1523,7 @@ Het enumeratie Frequentie kent de volgende waarden:
 * **Per 4 weken**: <Geen Definities>
 * **Per maand**: <Geen Definities>
 * **Per jaar**: <Geen Definities>
-* **Binnen geldigheid Beschikking**: <Geen Definities>
+* **Binnen geldigheid Beschikking**: Frequentie bij beschikking conform iWmo 2.0 zie https://www.istandaarden.nl/ibieb/functionele-uitwerking-release-iwmo-20
 * **Leeg**: <Geen Definities>
 * **Onbekend**: <Geen Definities>
 
@@ -1627,7 +1634,7 @@ Het enumeratie Wet kent de volgende waarden:
 
 * **Niet van toepassing**: <Geen Definities>
 * **Wmo**: <Geen Definities>
-* **Jeugdwet**: <Geen Definities>
+* **Jeugdwet**: dere 
 * **Andere wet**: <Geen Definities>
 * **Leeg**: <Geen Definities>
 * **Onbekend**: <Geen Definities>

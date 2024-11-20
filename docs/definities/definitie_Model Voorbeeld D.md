@@ -111,8 +111,8 @@ Geen Definitie
 
 Het enumeratie Enumeration A kent de volgende waarden:
 
-* **Optie 1**: <Geen Definities>
-* **Optie 2**: <Geen Definities>
+* **Optie 1**: Eerste waarde
+* **Optie 2**: Tweede waarde
 
 
 De enumeratie Enumeration A heeft de volgende kenmerken:

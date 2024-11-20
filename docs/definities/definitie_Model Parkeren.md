@@ -240,7 +240,7 @@ Attributen van objecttype Parkeerrecht
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | aanmaaktijd | DateTime |  |
-| bedragAankoop | Bedrag |  |
+| bedragAankoop | Bedrag | Bedrag incl. BTW |
 | bedragBTW | Bedrag |  |
 | datumtijdEinde | DateTime |  |
 | datumtijdStart | DateTime |  |
@@ -600,12 +600,14 @@ Geen Definitie
 
 Het enumeratie Doelgroepenplaatsen kent de volgende waarden:
 
-* **DP01**: <Geen Definities>
-* **DP02**: <Geen Definities>
-* **DP03**: <Geen Definities>
-* **DP04**: <Geen Definities>
-* **DP05**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **DP01**: gehandicapten paarkeerplaatsen algemeen
+* **DP02**: gehandicapten parkeerplaatsen kenteken
+
+* **DP03**: deelautoplaatsen
+* **DP04**: oplaadplaatsen elektrische auto's
+
+* **DP05**: laad- en losplaatsen
+* **Leeg**: Geen beperking
 
 
 De enumeratie Doelgroepenplaatsen heeft de volgende kenmerken:

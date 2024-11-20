@@ -818,3 +818,83 @@ Attributen van objecttype Uitkeringsrun
 
 
 
+
+## Enumeraties Model Participatie
+
+
+### Wet
+Geen Definitie
+
+Het enumeratie Wet kent de volgende waarden:
+
+* **Niet van toepassing**: <Geen Definities>
+* **Wmo**: <Geen Definities>
+* **Jeugdwet**: dere 
+* **Andere wet**: <Geen Definities>
+* **Leeg**: <Geen Definities>
+* **Onbekend**: <Geen Definities>
+* **Participatiewet PW-I**: <Geen Definities>
+* **I.O.A.W./I.O.A.Z.**: <Geen Definities>
+* **Bijzondere Bijstand**: <Geen Definities>
+
+
+De enumeratie Wet heeft de volgende kenmerken:
+
+| Kenmerk | Waarde |
+| :--- | :------ |
+| name | Wet |
+| toelichting | None |
+| synoniemen | None |
+| uri | None |
+| bron | None |
+| author | None |
+| version | None |
+| created | None |
+| modified | None |
+| id | EAID_03030f33_e830_494c_944b_39afa732a188 |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
+
+
+
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: <Geen Definities>
+* **Nee**: <Geen Definities>
+* **Onbekend**: <Geen Definities>
+* **Leeg**: <Geen Definities>
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+| Kenmerk | Waarde |
+| :--- | :------ |
+| name | Boolean |
+| toelichting | None |
+| synoniemen | None |
+| uri | None |
+| bron | None |
+| author | None |
+| version | None |
+| created | None |
+| modified | None |
+| id | EAID_4526b66d_c8c5_425e_b00e_dd1b17efdd92 |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
+
+
+
+

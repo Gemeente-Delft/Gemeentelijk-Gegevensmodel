@@ -306,3 +306,83 @@ Attributen van objecttype Studentenwoningen
 
 
 
+
+## Enumeraties Model Wonen
+
+
+### Energielabel
+Geen Definitie
+
+Het enumeratie Energielabel kent de volgende waarden:
+
+* **A**: <Geen Definities>
+* **B**: <Geen Definities>
+* **C**: <Geen Definities>
+* **D**: <Geen Definities>
+* **E**: <Geen Definities>
+* **F**: <Geen Definities>
+
+
+De enumeratie Energielabel heeft de volgende kenmerken:
+
+| Kenmerk | Waarde |
+| :--- | :------ |
+| name | Energielabel |
+| toelichting | None |
+| synoniemen | None |
+| uri | None |
+| bron | None |
+| author | None |
+| version | None |
+| created | None |
+| modified | None |
+| id | EAID_bb2a0673_1753_4742_a1e7_672f0d67dde5 |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
+
+
+
+### Oppervlakte Woning
+Geen Definitie
+
+Het enumeratie Oppervlakte Woning kent de volgende waarden:
+
+* **kleiner dan 15 m2**: <Geen Definities>
+* **15 - 49 m2**: <Geen Definities>
+* **50 - 74 m2**: <Geen Definities>
+* **75 - 99 m2**: <Geen Definities>
+* **100 - 124 m2**: <Geen Definities>
+* **125 - 149 m2**: <Geen Definities>
+* **150 en groter**: <Geen Definities>
+
+
+De enumeratie Oppervlakte Woning heeft de volgende kenmerken:
+
+| Kenmerk | Waarde |
+| :--- | :------ |
+| name | Oppervlakte Woning |
+| toelichting | None |
+| synoniemen | None |
+| uri | None |
+| bron | None |
+| author | None |
+| version | None |
+| created | None |
+| modified | None |
+| id | EAID_55799268_2146_441f_b6ed_29a25623dcf4 |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
+
+
+
+

@@ -213,7 +213,7 @@ Attributen van objecttype Werkgelegenheid
 | aantalFulltimeVrouwen | int |  |
 | aantalParttimeMannen | int |  |
 | aantalParttimeVrouwen | int |  |
-| grootteklasse | AN2 |  |
+| grootteklasse | AN2 | Grootteklasse volgens handboek LISA, zie lisa.nl  |
 
 
 
