@@ -5,7 +5,7 @@
 Dit is de gemakkelijkste manier om te starten met het Gemeentelijk Gegevensmodel. Het werkt ook met de [viewer van Enterprise Architect](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/).
 
 1. Installeer Enterprise Architect of de viewer van Enterprise Architect. 
-2. Download het bestand 'Gemeentelijk_Gegevensmodel.qua'.
+2. Download het bestand 'Gemeentelijk_Gegevensmodel.qea'.
 3. Open 'Gemeentelijk_Gegevensmodel.qua' met de Enterprise Architect.
 
 ## XMI-bestand importeren in project
