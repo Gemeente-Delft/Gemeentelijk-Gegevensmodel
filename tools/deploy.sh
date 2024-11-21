@@ -32,6 +32,7 @@ EXCEL="./$VERSION/Gemeentelijk Gegevensmodel.xlsx"
 IMPORT_EXCEL="./$VERSION/Gemeentelijk Gegevensmodel-import.xlsx"
 GGM="./$VERSION/Gemeentelijk Gegevensmodel EA16.qea"
 ROOT_GGM=EAPK_073A3334_C42A_41a6_A0C6_38DFF8C70236
+ROOT_GGM=EAPK_D7FD597E_1F40_48df_AFFC_EA3B5B5D3FBF
 TRANSLATIONS_DIR="$VERSION_DIR/translations"
 i18N_FILE=./$TRANSLATIONS_DIR/ggm.i18n.json
 DOCS="./docs"
