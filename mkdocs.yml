@@ -68,10 +68,12 @@ nav:
         - 'Sport': definities/definitie_Model Sport.md
     - 'Sociaal domein':
         - 'Inburgering': definities/definitie_Model Inburgering.md
-        - 'Schuldhulverlening': definities/definitie_Model Schulhulpverlening.md
+        - 'Schuldhulverlening': definities/definitie_Model Schuldhulpverlening.md
         - 'Sociale Teams': definities/definitie_Model Sociale Teams.md
+        - 'Jeugdbescherming': definities/definitie_Model Jeugdbescherming.md
         - 'Participatie': definities/definitie_Model Participatie.md
-        - 'Wmo en Jeugd': definities/definitie_Model Sociaal Domein.md
+        - 'Wmo en Jeugd': definities/definitie_Model Jeugd en Wmo Generiek.md
+        - 'Generieke definities Sociaal Domein': definities/definitie_Model Sociaal Domein Generiek.md
     - 'Volkshuisvesting, leefomgeving en stedelijke vernieuwing':
         - 'Wonen': definities/definitie_Model Wonen.md
         - 'Omgevingswet': definities/definitie_Model Omgevingswet.md
