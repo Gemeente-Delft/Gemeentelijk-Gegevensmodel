@@ -46,11 +46,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0-develop/definities/definitie_Diagram/</loc>
-         <lastmod>2024-11-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0-develop/definities/definitie_Model%20Aanvragen%20en%20Meldingen/</loc>
          <lastmod>2024-11-22</lastmod>
          <changefreq>daily</changefreq>
@@ -247,11 +242,6 @@
     </url>
     <url>
          <loc>https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0-develop/definities/definitie_Model%20Wonen/</loc>
-         <lastmod>2024-11-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0-develop/definities/definitie_Model/</loc>
          <lastmod>2024-11-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
