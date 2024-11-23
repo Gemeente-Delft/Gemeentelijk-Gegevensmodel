@@ -12,5 +12,5 @@ Raadsstukken kennen categorisering om de vindbaarheid te vergroten. Deze is opge
 
 ![Gegevensmodel Raadsstukken][gegevensmodelRaadsstukken]
 
-[gegevensmodelGR]: image/EAID_A9F0B77B_05F3_4c36_96A0_8841BBAE47E0.gif "Gegevensmodel Griffie"
-[gegevensmodelRaadsstukken]: image/EAID_108224FC_E160_417a_AFC5_68A484B3B8AE.gif "Gegevensmodel Raadsstukken"
+[gegevensmodelGR]: image/EAID_A9F0B77B_05F3_4c36_96A0_8841BBAE47E0.jpg "Gegevensmodel Griffie"
+[gegevensmodelRaadsstukken]: image/EAID_108224FC_E160_417a_AFC5_68A484B3B8AE.jpg "Gegevensmodel Raadsstukken"

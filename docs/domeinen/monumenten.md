@@ -22,5 +22,5 @@ Een ‘Beschermde Status’ kan één of meerdere ‘KADASTRALE ONROERENDE ZAAK�
 [aanwijsbeschrijving]: image/Aanwijsbeschrijving.png "Aanwijsbeschrijving"
 [monmumentenToezichtEnHandhaven]: image/MonumentenToezichtEnHandhaven.png "Monumenten Toezicht en handhaven"
 [applicatiesEnGegevensMonumenten]: image/ApplicatiesEnGegevensMonumenten.png "Monumenten Applicaties en Gegevens"
-[gegevensdefinitiesMonumenten]: image/EAID_58EA4966_DBC2_4359_94C4_ABC774DBE5E2.gif "Monumenten Gegevensdefinities"
-[gegevensdefinitiesMonumentenOnroerendeZaakpng]: image/EAID_7429E175_1CBE_4336_BF92_6C5029395E69.gif "Monumenten Gegevensdefinities en relatie tot kernentiteiten"
+[gegevensdefinitiesMonumenten]: image/EAID_58EA4966_DBC2_4359_94C4_ABC774DBE5E2.jpg "Monumenten Gegevensdefinities"
+[gegevensdefinitiesMonumentenOnroerendeZaakpng]: image/EAID_7429E175_1CBE_4336_BF92_6C5029395E69.jpg "Monumenten Gegevensdefinities en relatie tot kernentiteiten"

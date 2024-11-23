@@ -33,6 +33,6 @@ Voorgaande is uitgewerkt in de volgende figuur.
 
 ![Museum Verkoop in de winkel][museumVerkoop]
 
-[museumVerkoop]: image/EAID_3913ADF8_4B30_48c0_A0AE_59BAAC281EF2.gif "Museum Verkoop in de winkel"
-[museumCollectie]: image/EAID_B2D890F1_6B7C_45df_9A70_8C40CE1B3611.gif "Gegevensmodel Collectie"
-[museumEventsEnRelaties]: image/EAID_22110445_1906_4602_8004_6BA4D6C063D0.gif "Museum Events en Relaties"
+[museumVerkoop]: image/EAID_3913ADF8_4B30_48c0_A0AE_59BAAC281EF2.jpg "Museum Verkoop in de winkel"
+[museumCollectie]: image/EAID_B2D890F1_6B7C_45df_9A70_8C40CE1B3611.jpg "Gegevensmodel Collectie"
+[museumEventsEnRelaties]: image/EAID_22110445_1906_4602_8004_6BA4D6C063D0.jpg "Museum Events en Relaties"

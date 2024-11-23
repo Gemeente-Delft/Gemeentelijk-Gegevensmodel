@@ -9,4 +9,4 @@ Een ‘Subsidie’ kan binnen een ‘Subsidieproject’ vallen, waarbinnen de do
 
 ![Gegevensdefinities Subsidies][subsidies]
 
-[subsidies]: image/EAID_F408BDED_51D4_4204_9B95_F0C6C2474DC3.gif "Gegevensdefinities Subsidies"
+[subsidies]: image/EAID_F408BDED_51D4_4204_9B95_F0C6C2474DC3.jpg "Gegevensdefinities Subsidies"

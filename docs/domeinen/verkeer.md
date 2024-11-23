@@ -28,7 +28,7 @@ Verkeersbesluiten zijn vastgelegd in een ‘Document’.
 ![Gegevensmodel Verkeersbesluiten][verkeersbesluit]
 
 [vlog]: image/vlog.png "Attributen V-Log"
-[tellingen]: image/EAID_49A15BF5_AB98_4ab9_AE01_D5636641F455.gif "Gegevensmodel Verkeerstellingen"
-[stremmingen]: image/EAID_72A4FC74_EE1B_4bc1_B5BB_540FCE4D04B1.gif "Verkeer Stremmingen"
-[tellingen]: image/EAID_49A15BF5_AB98_4ab9_AE01_D5636641F455.gif "Gegevensmodel Verkeerstellingen"
-[verkeersbesluit]: image/EAID_280799E6_5FC1_4cd0_90E6_F4DB9C7A78A3.gif "Gegevensmodel Verkeersbesluiten"
+[tellingen]: image/EAID_49A15BF5_AB98_4ab9_AE01_D5636641F455.jpg "Gegevensmodel Verkeerstellingen"
+[stremmingen]: image/EAID_72A4FC74_EE1B_4bc1_B5BB_540FCE4D04B1.jpg "Verkeer Stremmingen"
+[tellingen]: image/EAID_49A15BF5_AB98_4ab9_AE01_D5636641F455.jpg "Gegevensmodel Verkeerstellingen"
+[verkeersbesluit]: image/EAID_280799E6_5FC1_4cd0_90E6_F4DB9C7A78A3.jpg "Gegevensmodel Verkeersbesluiten"

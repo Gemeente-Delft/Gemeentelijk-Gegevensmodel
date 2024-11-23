@@ -6,17 +6,17 @@
 
 Het model 'Model BAG' kent de volgende objecttypen:
 
-* **NUMMERAANDUIDING**: Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats. Het is het samenstel van postcode, huisnummer, huisletter en huisnummertoevoeging.
-* **BUURT**: Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen.
-* **GEMEENTE**: Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet.
-* **LIGPLAATS**: Definitie Een ligplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen plaats in het water al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, die bestemd is voor het permanent afmeren van een voor woon-, bedrijfsmatige of recreatieve doeleinden geschikt drijvend object  Beschrijving Een plaats in het water met soms ook een (deel van een) terrein op de oever. Deze plaats moet kunnen worden gebruikt door een drijvend object dat langere tijd daar wordt vastgemaakt. Het drijvende object moet geschikt zijn om in te wonen, om een bedrijf in te hebben of om voor plezier in te verblijven. Bijvoorbeeld een woonboot. De gemeente mag zeggen of er voor de BAG ergens een ligplaats komt.
-* **ADRESSEERBAAR OBJECT**: Een adresseerbaar object is een object waaraan formeel adressen kunnen en moeten worden toegekend: een verblijfsobject, standplaats of ligplaats. Toelichting: Een object dat een adres heeft of krijgt. Adresseerbare objecten zijn: een verblijfsobject, een standplaats en een ligplaats.
-* **OPENBARE RUIMTE**: Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen. Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam). 
-* **PAND**: Een pand is een kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is. Beschrijving: Een zelfstandig bouwwerk, zowel zelfstandig in de manier hoe het is gebouwd als waarvoor het is bedoeld om te gebruiken. Een pand voldoet ook aan de volgende eisen: een pand is direct en voor lange tijd met de aarde verbonden (een pand is niet makkelijk te verplaatsen) en een pand kun je binnengaan en afsluiten. Een eenheid kan alleen een pand zijn als het voldoet aan alle eisen uit de Catalogus BAG 2018.
-* **STANDPLAATS**: Een standplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen terrein of gedeelte daarvan dat bestemd is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte ruimte. Beschrijving: Een terrein of een deel daarvan dat moet kunnen worden gebruikt om langere tijd een object neer te zetten. Dit object moet geschikt zijn om in te wonen, om een bedrijf in te hebben of om voor plezier in te verblijven. Het moet verplaatsbaar zijn en mag dus niet helemaal vastgemaakt worden aan de grond. Bijvoorbeeld een woonwagen of strandtent. De gemeente mag zeggen of er voor de BAG ergens een standplaats komt. 
-* **VERBLIJFSOBJECT**: Een verblijfsobject is een kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is. Beschrijving: Een verblijfsobject is een ruimte in 1 of meer panden en voldoet aan de volgende eisen: kan worden gebruikt om in te wonen, een bedrijf in te hebben of om voor plezier in te verblijven, is bereikbaar via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, kan worden gekocht en verkocht, kan helemaal zelf worden gebruikt voor het doel dat ervoor is gegeven. Deze eisen voor verblijfsobjecten worden toegelicht in de Catalogus BAG 2018. Een verblijfsobject krijgt een adres. 
-* **WIJK**: Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken.
-* **WOONPLAATS**: Een woonplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente Beschrijving: Een stuk grond binnen de gemeente dat als woonplaats is aangewezen en waaraan de gemeente ook een naam heeft gegeven.
+* **Nummeraanduiding**: Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats. Het is het samenstel van postcode, huisnummer, huisletter en huisnummertoevoeging.
+* **Buurt**: Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen.
+* **Gemeente**: Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet.
+* **Ligplaats**: Definitie Een ligplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen plaats in het water al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, die bestemd is voor het permanent afmeren van een voor woon-, bedrijfsmatige of recreatieve doeleinden geschikt drijvend object  Beschrijving Een plaats in het water met soms ook een (deel van een) terrein op de oever. Deze plaats moet kunnen worden gebruikt door een drijvend object dat langere tijd daar wordt vastgemaakt. Het drijvende object moet geschikt zijn om in te wonen, om een bedrijf in te hebben of om voor plezier in te verblijven. Bijvoorbeeld een woonboot. De gemeente mag zeggen of er voor de BAG ergens een ligplaats komt.
+* **AdresseerbaarObject**: Een adresseerbaar object is een object waaraan formeel adressen kunnen en moeten worden toegekend: een verblijfsobject, standplaats of ligplaats. Toelichting: Een object dat een adres heeft of krijgt. Adresseerbare objecten zijn: een verblijfsobject, een standplaats en een ligplaats.
+* **OpenbareRuimte**: Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen. Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam). 
+* **Pand**: Een pand is een kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is. Beschrijving: Een zelfstandig bouwwerk, zowel zelfstandig in de manier hoe het is gebouwd als waarvoor het is bedoeld om te gebruiken. Een pand voldoet ook aan de volgende eisen: een pand is direct en voor lange tijd met de aarde verbonden (een pand is niet makkelijk te verplaatsen) en een pand kun je binnengaan en afsluiten. Een eenheid kan alleen een pand zijn als het voldoet aan alle eisen uit de Catalogus BAG 2018.
+* **Standplaats**: Een standplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen terrein of gedeelte daarvan dat bestemd is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte ruimte. Beschrijving: Een terrein of een deel daarvan dat moet kunnen worden gebruikt om langere tijd een object neer te zetten. Dit object moet geschikt zijn om in te wonen, om een bedrijf in te hebben of om voor plezier in te verblijven. Het moet verplaatsbaar zijn en mag dus niet helemaal vastgemaakt worden aan de grond. Bijvoorbeeld een woonwagen of strandtent. De gemeente mag zeggen of er voor de BAG ergens een standplaats komt. 
+* **Verblijfsobject**: Een verblijfsobject is een kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is. Beschrijving: Een verblijfsobject is een ruimte in 1 of meer panden en voldoet aan de volgende eisen: kan worden gebruikt om in te wonen, een bedrijf in te hebben of om voor plezier in te verblijven, is bereikbaar via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, kan worden gekocht en verkocht, kan helemaal zelf worden gebruikt voor het doel dat ervoor is gegeven. Deze eisen voor verblijfsobjecten worden toegelicht in de Catalogus BAG 2018. Een verblijfsobject krijgt een adres. 
+* **Wijk**: Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken.
+* **Woonplaats**: Een woonplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente Beschrijving: Een stuk grond binnen de gemeente dat als woonplaats is aangewezen en waaraan de gemeente ook een naam heeft gegeven.
 
 
 Het model 'Model BAG' heeft de volgende kenmerken:
@@ -38,33 +38,33 @@ Het model 'Model BAG' heeft de volgende kenmerken:
 ## Objecttypen Model BAG
 
 
-### NUMMERAANDUIDING
-> **Definitie NUMMERAANDUIDING:** 
+### Nummeraanduiding
+> **Definitie Nummeraanduiding:** 
 >
 > Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats. Het is het samenstel van postcode, huisnummer, huisletter en huisnummertoevoeging.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | NUMMERAANDUIDING |
+| name | Nummeraanduiding |
 | toelichting | #NOTES#Het betreft de verzameling van, tot de BAG behorende, officieel vastgestelde nummeraanduidingen (van verblijfsobjecten, stand- en ligplaatsen, in de BAG gezamenlijk aangeduid als adresseerbare objecten) en overige, eveneens officieel door de gemeente vastgestelde, nummeraanduidingen van overige gebouwde objecten en overige benoemde terreinen. De Adresseerbaar object aanduiding heeft dus betrekking op alle 'benoemde objecten', d.w.z. naast de specialisaties van het Adresseerbaar object (Verblijfsobject, Ligplaats en Standplaats) ook op Overig gebouwd object en op Overig benoemd terrein! Het betreft een generalisatie van twee objecttypen (de specialisaties) waarbij de attributen en relaties die op beide specialisaties van toepassing zijn, bij dit objecttype worden gespecificeerd. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | mante_h |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2023-09-27 10:06:15 |
-| modified | 2024-04-17 13:34:47 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_32A22BC6_89EC_44af_8D7D_79B12311AE2D |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | NUMMERAANDUIDING |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f152bdf8-bd60-4c88-b739-e3091afdbf7a](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f152bdf8-bd60-4c88-b739-e3091afdbf7a) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f152bdf8-bd60-4c88-b739-e3091afdbf7a](https://gemmaonline.nl/index.php/GEMMA/id-f152bdf8-bd60-4c88-b739-e3091afdbf7a) |
 | gemma_definitie | Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats. Het is het samenstel van postcode, huisnummer, huisletter en huisnummertoevoeging. |
 | gemma_toelichting |  |
 
 
-Attributen van objecttype NUMMERAANDUIDING
+Attributen van objecttype Nummeraanduiding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -92,39 +92,39 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 | Status | Enumeratie: "statusNummeraanduiding" |  |
 | TypeAdresseerbaarObject | Enumeratie: "TypeAdresseerbaarObject" |  |
 | Versie | int |  |
-| None | Class: "OPENBARE RUIMTE" |  |
-| None | Class: "WOONPLAATS" |  |
+| None | Class: "OpenbareRuimte" |  |
+| None | Class: "Woonplaats" |  |
 
 
 
 
-### BUURT
-> **Definitie BUURT:** 
+### Buurt
+> **Definitie Buurt:** 
 >
 > Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | BUURT |
+| name | Buurt |
 | toelichting | #NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | mante_h |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2023-09-27 10:29:27 |
-| modified | 2024-04-17 13:34:47 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_38649FF6_88C6_437d_AF8E_A9023D55E16C |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | BUURT |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-55246c30-a3e2-400f-89c4-c5b01f7f7da8](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-55246c30-a3e2-400f-89c4-c5b01f7f7da8) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-55246c30-a3e2-400f-89c4-c5b01f7f7da8](https://gemmaonline.nl/index.php/GEMMA/id-55246c30-a3e2-400f-89c4-c5b01f7f7da8) |
 | gemma_definitie | Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen. |
 | gemma_toelichting |  |
 
 
-Attributen van objecttype BUURT
+Attributen van objecttype Buurt
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -148,38 +148,38 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 | InOnderzoek | boolean |  |
 | Status | statusOpenbareRuimte |  |
 | Versie | int |  |
-| None | Class: "WIJK" |  |
+| None | Class: "Wijk" |  |
 
 
 
 
-### GEMEENTE
-> **Definitie GEMEENTE:** 
+### Gemeente
+> **Definitie Gemeente:** 
 >
 > Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | GEMEENTE |
+| name | Gemeente |
 | toelichting | #NOTES#De gemeente fungeert in het model als geo-object. Door de relatie van gemeente met andere objecttypen kan achterhaald worden welke gemeente verantwoordelijk is voor het beheer van de hieraan gerelateerde objecten en gegevens. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | mante_h |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2023-09-27 10:39:36 |
-| modified | 2024-04-17 13:34:47 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_EA6F820F_C458_4b24_8055_5C2CC76F5904 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | GEMEENTE |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f830bbc9-38d5-4f61-be23-79091f18282e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f830bbc9-38d5-4f61-be23-79091f18282e) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f830bbc9-38d5-4f61-be23-79091f18282e](https://gemmaonline.nl/index.php/GEMMA/id-f830bbc9-38d5-4f61-be23-79091f18282e) |
 | gemma_definitie | Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet. |
 | gemma_toelichting |  |
 
 
-Attributen van objecttype GEMEENTE
+Attributen van objecttype Gemeente
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -202,13 +202,13 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 | Identificatie | Varchar |  |
 | InOnderzoek | boolean |  |
 | Versie | int |  |
-| nieuwe gemeente | Class: "GEMEENTE" |  |
+| nieuwe gemeente | Class: "Gemeente" |  |
 
 
 
 
-### LIGPLAATS
-> **Definitie LIGPLAATS:** 
+### Ligplaats
+> **Definitie Ligplaats:** 
 >
 > Definitie
 > Een ligplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen plaats in het water al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, die bestemd is voor het permanent afmeren van een voor woon-, bedrijfsmatige of recreatieve doeleinden geschikt drijvend object
@@ -218,15 +218,15 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | LIGPLAATS |
+| name | Ligplaats |
 | toelichting | <memo>#NOTES#Een ligplaats maakt in de BAG-terminologie deel uit van de groep adresseerbare objecten.  Hier maakt het, gezamenlijk met de STANDPLAATS en het OVERIG BENOEMD TERREIN deel uit van de groep BENOEMD TERREIN.  |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | mante_h |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2023-09-27 10:26:44 |
-| modified | 2024-04-17 13:34:47 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_785E3B69_19DA_4952_84A8_592965B9229A |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -237,7 +237,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 | gemma_toelichting |  |
 
 
-Attributen van objecttype LIGPLAATS
+Attributen van objecttype Ligplaats
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -268,48 +268,48 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 
 
 
-### ADRESSEERBAAR OBJECT
-> **Definitie ADRESSEERBAAR OBJECT:** 
+### AdresseerbaarObject
+> **Definitie AdresseerbaarObject:** 
 >
 > Een adresseerbaar object is een object waaraan formeel adressen kunnen en moeten worden toegekend: een verblijfsobject, standplaats of ligplaats.
 > Toelichting: Een object dat een adres heeft of krijgt. Adresseerbare objecten zijn: een verblijfsobject, een standplaats en een ligplaats.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | ADRESSEERBAAR OBJECT |
+| name | AdresseerbaarObject |
 | toelichting | #NOTES#Zie de toelichting in de Catalogus BAG. In aanvulling hierop het volgende. Het betreft alle gegevens en relaties van de NUMMERAANDUIDING zoals deze in de BAG gedefinieerd zijn. NUMMERAANDUIDING is gemodelleerd als een specialisatie van ADRESSEERBAAR OBJECT AANDUIDING. Daar bij overige (officieel vastgestelde) adressen deels vergelijkbare gegevens en relaties van toepassing zijn, zijn desbetreffende gegevens gemodelleerd bij ADRESSEERBAAR OBJECT AANDUIDING, de verzameling van nummeraanduidingen en overige adresseerbaar object aanduidingen.  |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | mante_h |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2023-09-27 10:26:44 |
-| modified | 2024-04-17 13:34:47 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_8A04280B_E0B4_4e36_B448_C99750393D0D |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | ADRESSEERBAAR OBJECT |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-460ada62-9cdd-478f-9555-4fb161ebc0b3](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-460ada62-9cdd-478f-9555-4fb161ebc0b3) |
-| gemma_definitie | Definitie Een adresseerbaar object is een object waaraan formeel adressen kunnen en moeten worden toegekend: een verblijfsobject, standplaats of ligplaats.  Is generalisatie van ligplaats standplaats verblijfsobject  Toelichting Een object dat een adres heeft of krijgt. Adresseerbare objecten zijn: een verblijfsobject, een standplaats en een ligplaats. |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-460ada62-9cdd-478f-9555-4fb161ebc0b3](https://gemmaonline.nl/index.php/GEMMA/id-460ada62-9cdd-478f-9555-4fb161ebc0b3) |
+| gemma_definitie | Een adresseerbaar object is een object waaraan formeel adressen kunnen en moeten worden toegekend: een verblijfsobject, standplaats of ligplaats. Toelichting: Een object dat een adres heeft of krijgt. Adresseerbare objecten zijn: een verblijfsobject, een standplaats en een ligplaats. |
 | gemma_toelichting |  |
 
 
-Attributen van objecttype ADRESSEERBAAR OBJECT
+Attributen van objecttype AdresseerbaarObject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | Identificatie | Varchar | De unieke aanduiding van een NUMMERAANDUIDING. |
 | Type AdresseerbaarObject | Enumeratie: "TypeAdresseerbaarObject" |  |
 | Versie | int |  |
-| None | Class: "NUMMERAANDUIDING" |  |
-| None | Class: "NUMMERAANDUIDING" |  |
+| None | Class: "Nummeraanduiding" |  |
+| None | Class: "Nummeraanduiding" |  |
 
 
 
 
-### OPENBARE RUIMTE
-> **Definitie OPENBARE RUIMTE:** 
+### OpenbareRuimte
+> **Definitie OpenbareRuimte:** 
 >
 > Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen.
 > Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam).
@@ -317,26 +317,26 @@ Attributen van objecttype ADRESSEERBAAR OBJECT
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | OPENBARE RUIMTE |
+| name | OpenbareRuimte |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | mante_h |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2023-09-27 10:26:44 |
-| modified | 2024-04-17 13:34:47 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_BFE30E32_8CB9_4272_A559_9FB3FD74DACC |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | OPENBARE RUIMTE |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d2f8867b-fce6-4932-8b1a-ec8b9392f0d5](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d2f8867b-fce6-4932-8b1a-ec8b9392f0d5) |
-| gemma_definitie | Definitie Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen &#233;&#233;n woonplaats is gelegen.  Beschrijving Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam). |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-d2f8867b-fce6-4932-8b1a-ec8b9392f0d5](https://gemmaonline.nl/index.php/GEMMA/id-d2f8867b-fce6-4932-8b1a-ec8b9392f0d5) |
+| gemma_definitie | Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen. Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam). |
 | gemma_toelichting |  |
 
 
-Attributen van objecttype OPENBARE RUIMTE
+Attributen van objecttype OpenbareRuimte
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -368,40 +368,40 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 RUIMTE. |
 | Versie | int |  |
 | Wegsegment | Curve | De geometrische representatie van de openbare ruimte als een lijn. |
-| None | Class: "WOONPLAATS" |  |
-| None | Class: "BUURT" |  |
+| None | Class: "Woonplaats" |  |
+| None | Class: "Buurt" |  |
 
 
 
 
-### PAND
-> **Definitie PAND:** 
+### Pand
+> **Definitie Pand:** 
 >
 > Een pand is een kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is.
 > Beschrijving: Een zelfstandig bouwwerk, zowel zelfstandig in de manier hoe het is gebouwd als waarvoor het is bedoeld om te gebruiken. Een pand voldoet ook aan de volgende eisen: een pand is direct en voor lange tijd met de aarde verbonden (een pand is niet makkelijk te verplaatsen) en een pand kun je binnengaan en afsluiten. Een eenheid kan alleen een pand zijn als het voldoet aan alle eisen uit de Catalogus BAG 2018.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | PAND |
+| name | Pand |
 | toelichting | #NOTES#Objecttype PAND  is het equivalent van het city gml objecttype BUILDING PART.    |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | mante_h |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2023-09-27 10:25:15 |
-| modified | 2024-04-17 13:34:47 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_11595AD8_CE67_40dd_BDA9_489DC7D244ED |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | PAND |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bcdc30f3-c919-4d3a-b768-b62da7bc755e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bcdc30f3-c919-4d3a-b768-b62da7bc755e) |
-| gemma_definitie | Definitie Een pand is een kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is.  Beschrijving Een zelfstandig bouwwerk, zowel zelfstandig in de manier hoe het is gebouwd als waarvoor het is bedoeld om te gebruiken. Een pand voldoet ook aan de volgende eisen: een pand is direct en voor lange tijd met de aarde verbonden (een pand is niet makkelijk te verplaatsen) en een pand kun je binnengaan en afsluiten. Een eenheid kan alleen een pand zijn als het voldoet aan alle eisen uit de Catalogus BAG 2018. |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-bcdc30f3-c919-4d3a-b768-b62da7bc755e](https://gemmaonline.nl/index.php/GEMMA/id-bcdc30f3-c919-4d3a-b768-b62da7bc755e) |
+| gemma_definitie | Een pand is een kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is. Beschrijving: Een zelfstandig bouwwerk, zowel zelfstandig in de manier hoe het is gebouwd als waarvoor het is bedoeld om te gebruiken. Een pand voldoet ook aan de volgende eisen: een pand is direct en voor lange tijd met de aarde verbonden (een pand is niet makkelijk te verplaatsen) en een pand kun je binnengaan en afsluiten. Een eenheid kan alleen een pand zijn als het voldoet aan alle eisen uit de Catalogus BAG 2018. |
 | gemma_toelichting |  |
 
 
-Attributen van objecttype PAND
+Attributen van objecttype Pand
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -436,23 +436,23 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 
 
 
-### STANDPLAATS
-> **Definitie STANDPLAATS:** 
+### Standplaats
+> **Definitie Standplaats:** 
 >
 > Een standplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen terrein of gedeelte daarvan dat bestemd is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte ruimte. Beschrijving: Een terrein of een deel daarvan dat moet kunnen worden gebruikt om langere tijd een object neer te zetten. Dit object moet geschikt zijn om in te wonen, om een bedrijf in te hebben of om voor plezier in te verblijven. Het moet verplaatsbaar zijn en mag dus niet helemaal vastgemaakt worden aan de grond. Bijvoorbeeld een woonwagen of strandtent. De gemeente mag zeggen of er voor de BAG ergens een standplaats komt.
 > 
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | STANDPLAATS |
+| name | Standplaats |
 | toelichting | <memo>#NOTES#Een standplaats maakt in de BAG-terminologie deel uit van de groep adresseerbare objecten. Hier maakt het, gezamenlijk met de LIGPLAATS en het OVERIG BENOEMD TERREIN deel uit van de groep BENOEMD TERREIN. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | mante_h |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2023-09-27 10:26:45 |
-| modified | 2024-04-17 13:34:47 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_86952BDA_ADF6_4ff0_B8C7_BA3AA889A40B |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -463,7 +463,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 | gemma_toelichting |  |
 
 
-Attributen van objecttype STANDPLAATS
+Attributen van objecttype Standplaats
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -494,8 +494,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 
 
 
-### VERBLIJFSOBJECT
-> **Definitie VERBLIJFSOBJECT:** 
+### Verblijfsobject
+> **Definitie Verblijfsobject:** 
 >
 > Een verblijfsobject is een kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is.
 > Beschrijving: Een verblijfsobject is een ruimte in 1 of meer panden en voldoet aan de volgende eisen: kan worden gebruikt om in te wonen, een bedrijf in te hebben of om voor plezier in te verblijven, is bereikbaar via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, kan worden gekocht en verkocht, kan helemaal zelf worden gebruikt voor het doel dat ervoor is gegeven. Deze eisen voor verblijfsobjecten worden toegelicht in de Catalogus BAG 2018. Een verblijfsobject krijgt een adres.
@@ -503,15 +503,15 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | VERBLIJFSOBJECT |
+| name | Verblijfsobject |
 | toelichting | <memo>#NOTES#Zie de catalogus BAG.  |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | mante_h |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2023-09-27 10:26:45 |
-| modified | 2024-04-17 13:34:47 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_461EFCF0_E65E_4c7c_B44D_8F36C36FDCE4 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -522,7 +522,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 | gemma_toelichting |  |
 
 
-Attributen van objecttype VERBLIJFSOBJECT
+Attributen van objecttype Verblijfsobject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -556,39 +556,39 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 | Status | Enumeratie: "statusVerblijfsobject" | De fase van de levenscyclus van een VERBLIJFSOBJECT, waarin het betreffende VERBLIJFSOBJECT zich bevindt. |
 | Toegang bouwlaag verblijfsobject | N3 | De ligging van de bouwlaag van het verblijfsobject, gerekend ten opzichte van het straatpeil, waarop zich de hoofdtoegang tot het verblijfsobject bevindt. |
 | Versie | int |  |
-| None | Class: "PAND" |  |
+| None | Class: "Pand" |  |
 | None | Enumeratie: "gebruiksdoel" |  |
 
 
 
 
-### WIJK
-> **Definitie WIJK:** 
+### Wijk
+> **Definitie Wijk:** 
 >
 > Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | WIJK |
+| name | Wijk |
 | toelichting | #NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken.  |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | mante_h |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2023-09-27 10:29:27 |
-| modified | 2024-04-17 13:34:47 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_120EA50B_B9A2_4869_A3BE_46931F631D33 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | WIJK |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-938a3b10-79fd-4571-aaed-cb7069369465](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-938a3b10-79fd-4571-aaed-cb7069369465) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-938a3b10-79fd-4571-aaed-cb7069369465](https://gemmaonline.nl/index.php/GEMMA/id-938a3b10-79fd-4571-aaed-cb7069369465) |
 | gemma_definitie | Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken. |
 | gemma_toelichting |  |
 
 
-Attributen van objecttype WIJK
+Attributen van objecttype Wijk
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -612,39 +612,39 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 | Versie | int |  |
 | Wijkcode | AN2 | De code behorende bij de naam van de wijk. |
 | Wijknaam | AN40 | De naam van de wijk, zoals die door het CBS wordt gebruikt. |
-| None | Class: "WOONPLAATS" |  |
+| None | Class: "Woonplaats" |  |
 
 
 
 
-### WOONPLAATS
-> **Definitie WOONPLAATS:** 
+### Woonplaats
+> **Definitie Woonplaats:** 
 >
 > Een woonplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente
 > Beschrijving: Een stuk grond binnen de gemeente dat als woonplaats is aangewezen en waaraan de gemeente ook een naam heeft gegeven.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | WOONPLAATS |
+| name | Woonplaats |
 | toelichting | #NOTES#In incidentele gevallen komt het voor dat een woonplaats (in de zin van het gebied dat in de praktijk aangeduid wordt met dezelfde woonplaatsnaam) doorsneden wordt door een gemeentegrens. Volgens de definitie zou dit niet kunnen c.q. is een woonplaats anders gedefinieerd en dus afgebakend: “gedeelte van het gemeentelijk grondgebied”. Vooralsnog wordt uitgegaan van de BAG-insteek en wordt afgewacht hoe dit opgelost wordt in de landelijk te specificeren woonplaatsentabel.  |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | mante_h |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2023-09-27 10:29:28 |
-| modified | 2024-04-17 13:34:47 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_24BDA4BA_CFCC_4e3f_8305_671F4ED7C502 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | WOONPLAATS |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bedf86fb-8710-49fc-addb-e48a11b551ed](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bedf86fb-8710-49fc-addb-e48a11b551ed) |
-| gemma_definitie | Definitie Een woonplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente  Beschrijving Een stuk grond binnen de gemeente dat als woonplaats is aangewezen en waaraan de gemeente ook een naam heeft gegeven. |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-bedf86fb-8710-49fc-addb-e48a11b551ed](https://gemmaonline.nl/index.php/GEMMA/id-bedf86fb-8710-49fc-addb-e48a11b551ed) |
+| gemma_definitie | Een woonplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente Beschrijving: Een stuk grond binnen de gemeente dat als woonplaats is aangewezen en waaraan de gemeente ook een naam heeft gegeven. |
 | gemma_toelichting |  |
 
 
-Attributen van objecttype WOONPLAATS
+Attributen van objecttype Woonplaats
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -668,7 +668,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 | Versie | int |  |
 | Woonplaatsnaam | AN80 | De door het bevoegde gemeentelijke orgaan aan een WOONPLAATS toegekende benaming. |
 | Woonplaatsnaam NEN | AN24 | De officiële plaatsnaam conform NEN |
-| None | Class: "GEMEENTE" |  |
+| None | Class: "Gemeente" |  |
 
 
 
@@ -703,7 +703,7 @@ De enumeratie statusNummeraanduiding heeft de volgende kenmerken:
 | version | None |
 | created | None |
 | modified | None |
-| id | EAID_b4e9fd7d_b6bf_4b8f_a09e_2686e4d48466 |
+| id | EAID_a4fedcb5_e3b7_4245_ad7d_9314becf4a1d |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -740,7 +740,7 @@ De enumeratie TypeAdresseerbaarObject heeft de volgende kenmerken:
 | version | None |
 | created | None |
 | modified | None |
-| id | EAID_27e4b146_cbb7_4757_a8af_7f6a4e231b9f |
+| id | EAID_7292ee72_004d_4741_906f_d6b24ecc3bb1 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -775,7 +775,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | None |
 | created | None |
 | modified | None |
-| id | EAID_1608d62e_6c24_4414_8245_e8e59687c0b0 |
+| id | EAID_bfcbbabb_f46e_4c3b_8c27_94ac3aa4225d |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -810,7 +810,7 @@ De enumeratie statusOpenbareRuimte heeft de volgende kenmerken:
 | version | None |
 | created | None |
 | modified | None |
-| id | EAID_f6149bd2_07c4_459f_a783_8884d280c88a |
+| id | EAID_e5c7db1f_bba9_467c_9962_3849f4e7b965 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -857,7 +857,7 @@ De enumeratie typeringOpenbareRuimte heeft de volgende kenmerken:
 | version | None |
 | created | None |
 | modified | None |
-| id | EAID_cf985f13_875d_4ef9_80c1_6cc5d7cee121 |
+| id | EAID_b8aa82cc_781c_4ce0_bace_a095544b94f4 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -909,7 +909,7 @@ De enumeratie statusPand heeft de volgende kenmerken:
 | version | None |
 | created | None |
 | modified | None |
-| id | EAID_b026a8e4_4744_484e_9115_48aee5bbf481 |
+| id | EAID_0a1d5339_ba0a_4ac7_8d8e_1a5bd49ee319 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -954,7 +954,7 @@ De enumeratie statusVoortgangBouw heeft de volgende kenmerken:
 | version | None |
 | created | None |
 | modified | None |
-| id | EAID_536ea898_e2f8_42dd_b992_83e60e5ca4a1 |
+| id | EAID_4f794c85_f382_4ee4_b595_f5d226b5c42a |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -989,7 +989,7 @@ De enumeratie StatLigplaatsStandplaats heeft de volgende kenmerken:
 | version | None |
 | created | None |
 | modified | None |
-| id | EAID_e0268ba8_b9ec_42c0_b136_bc704791b5cf |
+| id | EAID_ce547840_0f7c_4e0e_b778_dbd4f1888027 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1025,7 +1025,7 @@ De enumeratie ontsluitingswijzeVerdieping heeft de volgende kenmerken:
 | version | None |
 | created | None |
 | modified | None |
-| id | EAID_c9e92228_ba29_41a7_87b9_32bda1a27318 |
+| id | EAID_71d3d2cb_f3d1_4ba1_b751_926ff5c6d22f |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1063,7 +1063,7 @@ De enumeratie soortWoonobject heeft de volgende kenmerken:
 | version | None |
 | created | None |
 | modified | None |
-| id | EAID_d51c5f3b_f171_4b27_979f_af48b2bb5390 |
+| id | EAID_831ec9ea_3707_4800_ab47_d17b535f165f |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1105,7 +1105,7 @@ De enumeratie statusVerblijfsobject heeft de volgende kenmerken:
 | version | None |
 | created | None |
 | modified | None |
-| id | EAID_ae483368_1034_4831_b0cc_5fda24808a74 |
+| id | EAID_01b59da7_3fe7_40c7_9e86_e8bf2d523698 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1140,7 +1140,7 @@ De enumeratie statusWoonplaats heeft de volgende kenmerken:
 | version | None |
 | created | None |
 | modified | None |
-| id | EAID_57b25187_3ac6_4e52_9a25_bf2851b8cf49 |
+| id | EAID_0d70fb02_5701_42b1_980a_a80fcc5ae20b |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

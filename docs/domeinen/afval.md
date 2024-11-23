@@ -24,6 +24,6 @@ In het hierna volgende figuur is het datamodel opgenomen voor de meldingen die b
 
 Een ‘Melding’ heeft steeds een hoofdcategorie en een subcategorie. Een ‘Melding’ kan een bepaalde ‘Fractie’ betreffen, en kan een bepaald ‘Containertype’ betreffen. Een ‘Melding’ betreft altijd een bepaalde ‘Locatie’. Meldingen zijn afgeleid van het generieke type ‘AanvraagOfMelding’.
 
-[afvalInzamelen]: image/EAID_D98AA96C_2EB0_4b46_9E9C_09D55E02FE38.gif "Afval Inzamelen"
-[afvalMeldingen]: image/EAID_157F610A_619E_4d1a_BB45_5C1F55178944.gif "Meldingen afval"
-[afvalMilieustraat]: image/EAID_A00B8121_71AC_466f_B391_E16881240477.gif "Milieustraat afval"
+[afvalInzamelen]: image/EAID_D98AA96C_2EB0_4b46_9E9C_09D55E02FE38.jpg "Afval Inzamelen"
+[afvalMeldingen]: image/EAID_157F610A_619E_4d1a_BB45_5C1F55178944.jpg "Meldingen afval"
+[afvalMilieustraat]: image/EAID_A00B8121_71AC_466f_B391_E16881240477.jpg "Milieustraat afval"

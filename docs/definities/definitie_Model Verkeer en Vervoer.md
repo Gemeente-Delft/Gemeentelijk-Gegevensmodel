@@ -25,9 +25,9 @@ Het model 'Model Verkeer en Vervoer' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.3 |
 | created | 2018-03-21 11:47:02 |
-| modified | 2019-02-13 13:34:21 |
+| modified | 2024-11-21 08:38:15 |
 | id | EAPK_13DD932C_4F69_4c62_B2D5_6676B5E5E24A |
 
 
@@ -47,15 +47,15 @@ Het model 'Model Verkeer en Vervoer' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2018-11-12 14:25:17 |
-| modified | 2024-04-17 13:34:25 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_999725EE_737F_410e_906B_9865EBED3597 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Stremming |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-563fd27c-7299-4311-8f40-60a95b9da4b5](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-563fd27c-7299-4311-8f40-60a95b9da4b5) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-563fd27c-7299-4311-8f40-60a95b9da4b5](https://gemmaonline.nl/index.php/GEMMA/id-563fd27c-7299-4311-8f40-60a95b9da4b5) |
 | gemma_definitie | Situatie waarbij de doorstroming van het (vaar)wegverkeer plaatselijk is geblokkeerd als gevolg van een incident |
 | gemma_toelichting |  |
 
@@ -92,9 +92,9 @@ Attributen van objecttype Stremming
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2018-11-21 10:32:27 |
-| modified | 2024-04-17 13:34:25 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_E2448A6D_3AE0_4884_AD5C_215A9E7166DE |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -131,15 +131,15 @@ Attributen van objecttype Strooidag
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2018-11-21 10:31:32 |
-| modified | 2024-04-17 13:34:25 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_73090FF8_12FD_471e_80FD_DBFB2FF97D7B |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Strooiroute |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8d6c2c57-1e18-4257-a894-5f5d751279ea](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8d6c2c57-1e18-4257-a894-5f5d751279ea) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-8d6c2c57-1e18-4257-a894-5f5d751279ea](https://gemmaonline.nl/index.php/GEMMA/id-8d6c2c57-1e18-4257-a894-5f5d751279ea) |
 | gemma_definitie | Traject waarop het strooien plaatsvindt |
 | gemma_toelichting |  |
 
@@ -166,9 +166,9 @@ Attributen van objecttype Strooiroute
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2018-11-21 10:32:13 |
-| modified | 2024-04-17 13:34:25 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_B825D33A_6DCE_4263_A031_E6E92C4EE86B |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -207,15 +207,15 @@ Attributen van objecttype StrooirouteUitvoering
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-03-06 14:05:18 |
-| modified | 2024-04-17 13:34:25 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_3F83DAA3_C37F_42b2_8D35_D75B840172F8 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Verkeersbesluit |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-833312cc-f7d8-4b4c-9e79-b21c8e7597cb](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-833312cc-f7d8-4b4c-9e79-b21c8e7597cb) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-833312cc-f7d8-4b4c-9e79-b21c8e7597cb](https://gemmaonline.nl/index.php/GEMMA/id-833312cc-f7d8-4b4c-9e79-b21c8e7597cb) |
 | gemma_definitie | Een besluit van een wegbeheerder om een bepaald verkeersteken te plaatsen, te wijzigen of in te trekken of een bepaalde fysieke maatregel te treffen. |
 | gemma_toelichting |  |
 
@@ -232,7 +232,7 @@ Attributen van objecttype Verkeersbesluit
 | referentienummer | AN80 |  |
 | straat | An200 |  |
 | titel | AN250 |  |
-| None | Class: "DOCUMENT" |  |
+| None | Class: "Document" |  |
 
 
 
@@ -250,15 +250,15 @@ Attributen van objecttype Verkeersbesluit
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2018-11-21 13:11:36 |
-| modified | 2024-04-17 13:34:25 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_DBE739FD_EBC4_4650_8A2B_714294A63A73 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Verkeerstelling |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cb656c23-5e43-4f7d-9c06-ff5351911fdb](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-cb656c23-5e43-4f7d-9c06-ff5351911fdb) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-cb656c23-5e43-4f7d-9c06-ff5351911fdb](https://gemmaonline.nl/index.php/GEMMA/id-cb656c23-5e43-4f7d-9c06-ff5351911fdb) |
 | gemma_definitie | Een onderzoek om inzicht te krijgen in het verkeer, in de hoeveelheid verkeer, de verdeling en de gereden snelheid. |
 | gemma_toelichting |  |
 
@@ -288,9 +288,9 @@ Attributen van objecttype Verkeerstelling
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2018-11-21 13:24:06 |
-| modified | 2024-04-17 13:34:25 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_E4EEBD4D_A41E_4c9d_8099_CDA45BFF0056 |
 | domein_iv3 |  |
 | domein_dcat |  |

@@ -19,6 +19,6 @@ De Kadastrale objecttypen zijn [hier](ruimteAlgemeen.md#bag-basisregistratie-adr
 
 ![Vastgoed Relatie tot RSGB][vastgoedRelatieRSGB]
 
-[gegevensmodelVastgoed]: image/EAID_00D4246F_6ED7_4690_A180_ACCCD6AB1291.gif "Gegevensmodel Vastgoed"
-[vastgoedLeveranciers]: image/EAID_06E44472_8C2A_40eb_9965_DCF91A1322C9.gif "Vastgoed Leveranciers"
-[vastgoedRelatieRSGB]: image/EAID_35F1950E_923C_4a25_90B5_C67423B2C029.gif "Vastgoed Relatie tot RSGB"
+[gegevensmodelVastgoed]: image/EAID_00D4246F_6ED7_4690_A180_ACCCD6AB1291.jpg "Gegevensmodel Vastgoed"
+[vastgoedLeveranciers]: image/EAID_06E44472_8C2A_40eb_9965_DCF91A1322C9.jpg "Vastgoed Leveranciers"
+[vastgoedRelatieRSGB]: image/EAID_EFF3FBED_B92D_4172_B142_567C2B6ACF01.jpg "Vastgoed Relatie tot RSGB"

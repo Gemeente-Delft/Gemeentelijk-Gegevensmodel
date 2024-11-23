@@ -63,7 +63,7 @@ De ‘Conclusie’ representeert de conclusie van een checkvraag. Met andere woo
 ‘Maatregelen’ beschrijven hoe aan geldende voorschriften voldaan kan worden. Voorschriften beschrijven waar de initiatiefnemer zich aan moet houden op het moment dat een bepaalde activiteit wordt uitgevoerd. 
 Toepasbare regels betreffen één of meer juridische regels, en daarmee betreffen ze één of meer locaties en één of meer activiteiten.
 
-Als basis voor het IMTR is de [DMN (Decision Model and Notation)](Zie http://www.omg.org/spec/DMN/1.2/) standaard versie 1.1  gebruikt. Deze open standaard is gepubliceerd door de Object Management Group (OMG). Het is de industriestandaard op het gebied van het beslissen op basis van bedrijfsregels. Het heeft een metamodel met afspraken (Notation) met betrekking tot grafische representatie (Model), Decision tables en expressions (Decision). Voor de werking van het regelsysteem wordt verwezen naar het DMN.
+Als basis voor het IMTR is de [DMN (Decision Model and Notation)](http://www.omg.org/spec/DMN/1.2/) standaard versie 1.1  gebruikt. Deze open standaard is gepubliceerd door de Object Management Group (OMG). Het is de industriestandaard op het gebied van het beslissen op basis van bedrijfsregels. Het heeft een metamodel met afspraken (Notation) met betrekking tot grafische representatie (Model), Decision tables en expressions (Decision). Voor de werking van het regelsysteem wordt verwezen naar het DMN.
 
 ## Meldingen, Aanvragen en Zaakafhandeling
 
@@ -89,9 +89,9 @@ Centraal staan ‘Activiteit’ en ‘Locatie’. Verzoeken voor een omgevingsve
 
 Om voor de indiener begrijpelijke vraagbomen te kunnen maken worden voor activiteiten op locaties toepasbare regels opgesteld.
 
-[samenhang]: image/EAID_30B09C29_F649_4248_97FC_35A5F9331BBF.gif "Samenhang Omgevingswet"
-[aanvraag]: image/EAID_0485D200_55DD_437e_B02F_314979270840.gif "Meldingen, aanvragen en zaakafhandeling"
-[toepas]: image/EAID_B9209AD2_0648_4482_BB24_135F27C2FECC.gif "Toepasbare regels"
-[cimow]: image/EAID_0AC65EDC_5C77_4fd6_8548_98FCF09F72D0.gif "Conceptueel Informatiemodel Omgevingswet (CIMOW)"
-[locatie]: image/EAID_8DBF3226_FD39_4d9b_8101_633FF36CA47E.gif "Generieke Locatie"
-[stop]: image/EAID_0A914AB1_6EA7_4087_BEB1_DB786FB5D810.gif "Omgevingswet STOP TPOD"
+[samenhang]: image/EAID_30B09C29_F649_4248_97FC_35A5F9331BBF.jpg "Samenhang Omgevingswet"
+[aanvraag]: image/EAID_0485D200_55DD_437e_B02F_314979270840.jpg "Meldingen, aanvragen en zaakafhandeling"
+[toepas]: image/EAID_B9209AD2_0648_4482_BB24_135F27C2FECC.jpg "Toepasbare regels"
+[cimow]: image/EAID_0AC65EDC_5C77_4fd6_8548_98FCF09F72D0.jpg "Conceptueel Informatiemodel Omgevingswet (CIMOW)"
+[locatie]: image/EAID_8DBF3226_FD39_4d9b_8101_633FF36CA47E.jpg "Generieke Locatie"
+[stop]: image/EAID_0A914AB1_6EA7_4087_BEB1_DB786FB5D810.jpg "Omgevingswet STOP TPOD"

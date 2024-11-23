@@ -5,4 +5,4 @@ In de volgende figuur 6 is de relatie van de objecttypen van het Prinsenhof te z
 
 ![Generieke objecttypen Erfgoed][erfgoedGeneriek]
 
-[erfgoedGeneriek]: image/EAID_B7192738_00E7_4b65_902A_B8292E79261B.gif "Generieke objecttypen Erfgoed"
+[erfgoedGeneriek]: image/EAID_B7192738_00E7_4b65_902A_B8292E79261B.jpg "Generieke objecttypen Erfgoed"

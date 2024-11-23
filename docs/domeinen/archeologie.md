@@ -4,7 +4,7 @@ De aanwezige data in de applicaties vertaalt in het domeinmodel, zoals in onders
 
 ![Datamodel Archeologie][archeologieDatamodel]
 
-[archeologieDatamodel]: image/EAID_C91D2D84_69FA_4320_BFE0_F10EFEB8F49B.gif "Datamodel Archeologie"
+[archeologieDatamodel]: image/EAID_C91D2D84_69FA_4320_BFE0_F10EFEB8F49B.jpg "Datamodel Archeologie"
 
 Een ‘Vondst’ is altijd van een bepaald soort (leer, keramiek, glaswerk, etc.). Daarnaast heeft een ‘Project’ diverse besluiten (zie eerdere tekst) en meerdere documenten. Vondsten worden opgeslagen in een ‘Container’ met een eigen vindplaats.  
 Bij het metadateren van gegevens is zoveel mogelijk de ABR 2 (Archeologisch Basisregister) toegepast.

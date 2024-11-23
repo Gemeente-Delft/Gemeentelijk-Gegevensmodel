@@ -20,7 +20,7 @@ Het HR-model gebruikt niet direct ‘DOCUMENT’ uit RGBZ, maar alleen afgeleide
 
 Het HR-model gebruikt niet direct personen, zoals gedefinieerd in de RSGB, alleen afgeleide entiteiten. In voorgaand figuur is te zien hoe het entiteit ‘Werknemer’ en de daaraan gekoppelde entiteit ‘Relatie’ zijn gedefinieerd.
 
-[gegevensmodelHR]: image/EAID_891372E6_27FB_442d_9CC4_08C2659E8C53.gif "Gegevensmodel HR"
-[sollicitaties]: image/EAID_542C38C9_B92F_48de_87F1_F90F64FB5913.gif "Sollicitaties HR"
-[documentenHR]: image/EAID_E8C1CCDA_FF3C_498a_8FC9_FD6E461092FA.gif "Documenten HR"
-[personenHR]: image/EAID_6409BBCD_026C_40ea_BC54_EE3B816D8CAB.gif "Personen en HR"
+[gegevensmodelHR]: image/EAID_891372E6_27FB_442d_9CC4_08C2659E8C53.jpg "Gegevensmodel HR"
+[sollicitaties]: image/EAID_542C38C9_B92F_48de_87F1_F90F64FB5913.jpg "Sollicitaties HR"
+[documentenHR]: image/EAID_E8C1CCDA_FF3C_498a_8FC9_FD6E461092FA.jpg "Documenten HR"
+[personenHR]: image/EAID_6409BBCD_026C_40ea_BC54_EE3B816D8CAB.jpg "Personen en HR"

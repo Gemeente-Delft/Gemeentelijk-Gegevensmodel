@@ -27,9 +27,9 @@ Het model 'Model Subsidies' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.1 |
+| version | 1.4 |
 | created | 2019-11-28 15:38:12 |
-| modified | 2023-08-02 17:59:23 |
+| modified | 2024-11-21 08:38:15 |
 | id | EAPK_702429CB_A2F6_4733_BEB5_341C672DF5EF |
 
 
@@ -49,9 +49,9 @@ Het model 'Model Subsidies' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | arjen |
-| version | 1.1 |
+| version | 1.5 |
 | created | 2023-07-24 10:36:30 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_E403A215_A367_4eef_8716_075AF54388D0 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -86,15 +86,15 @@ Attributen van objecttype Betaalmoment
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.1 |
+| version | 1.6 |
 | created | 2019-11-28 15:40:55 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_20CA8283_CE99_455c_BF4D_EAE3DF41AE5B |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Rapportagemoment |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0ae46688-6cc8-4553-adc7-04b2ed7b8b8f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0ae46688-6cc8-4553-adc7-04b2ed7b8b8f) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-0ae46688-6cc8-4553-adc7-04b2ed7b8b8f](https://gemmaonline.nl/index.php/GEMMA/id-0ae46688-6cc8-4553-adc7-04b2ed7b8b8f) |
 | gemma_definitie | Een vantevoren bepaald tijdstip waarom een gegevensanalyse wordt uitgevoerd |
 | gemma_toelichting |  |
 
@@ -107,7 +107,7 @@ Attributen van objecttype Rapportagemoment
 | naam | AN200 |  |
 | omschrijving | text |  |
 | termijn | int | Termijn in dagen |
-| None | Class: "DOCUMENT" |  |
+| None | Class: "Document" |  |
 
 
 
@@ -125,15 +125,15 @@ Attributen van objecttype Rapportagemoment
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.1 |
+| version | 1.6 |
 | created | 2019-11-28 15:42:13 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_DA4F9850_4CA0_4508_9D57_F631BC30B360 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Sector |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-60596f8e-1454-4ca8-9a31-64e7fc554815](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-60596f8e-1454-4ca8-9a31-64e7fc554815) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-60596f8e-1454-4ca8-9a31-64e7fc554815](https://gemmaonline.nl/index.php/GEMMA/id-60596f8e-1454-4ca8-9a31-64e7fc554815) |
 | gemma_definitie | Sector is de verzameling van werkzaamheden, gericht op de productie van bepaalde goederen en diensten. Het gaat hierbij niet alleen om activiteiten van het bedrijfsleven, maar ook om activiteiten van niet op winst gerichte instellingen en de overheid. |
 | gemma_toelichting |  |
 
@@ -161,15 +161,15 @@ Attributen van objecttype Sector
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.1 |
+| version | 1.6 |
 | created | 2019-11-28 15:58:19 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_FD701A55_6865_44aa_9A73_C46E02481796 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Subsidie |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1fe5c807-e9a7-4f44-a2b6-816341875d6e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1fe5c807-e9a7-4f44-a2b6-816341875d6e) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-1fe5c807-e9a7-4f44-a2b6-816341875d6e](https://gemmaonline.nl/index.php/GEMMA/id-1fe5c807-e9a7-4f44-a2b6-816341875d6e) |
 | gemma_definitie | Aan derden toegekende financiele middelen, bestemd voor het uitvoeren van bepaalde activiteiten |
 | gemma_toelichting |  |
 
@@ -207,14 +207,14 @@ Alleen bij uitgaande subsidies, anders NULL! |
 | subsidievaststellingBedrag | Bedrag |  |
 | uitgaandeSubsidie | Boolean |  |
 | verantwoordenOp | Date |  |
-| None | Class: "MEDEWERKER" |  |
+| None | Class: "Medewerker" |  |
 | None | Class: "Rechtspersoon" |  |
 | None | Class: "Rapportagemoment" |  |
 | None | Class: "Taak" |  |
 | None | Class: "Kostenplaats" |  |
 | None | Class: "Sector" |  |
-| None | Class: "DOCUMENT" |  |
-| None | Class: "ZAAK" |  |
+| None | Class: "Document" |  |
+| None | Class: "Zaak" |  |
 
 
 
@@ -232,15 +232,15 @@ Alleen bij uitgaande subsidies, anders NULL! |
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.1 |
+| version | 1.6 |
 | created | 2019-11-28 15:39:05 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_26C0D33A_B15A_4256_A5BF_5382A4E03539 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Subsidieaanvraag |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4e5cd8a8-0110-4038-9b91-1f0562401398](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4e5cd8a8-0110-4038-9b91-1f0562401398) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-4e5cd8a8-0110-4038-9b91-1f0562401398](https://gemmaonline.nl/index.php/GEMMA/id-4e5cd8a8-0110-4038-9b91-1f0562401398) |
 | gemma_definitie | Aanvraag voor een subsidie |
 | gemma_toelichting |  |
 
@@ -273,15 +273,15 @@ Attributen van objecttype Subsidieaanvraag
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.1 |
+| version | 1.6 |
 | created | 2019-11-28 15:39:58 |
-| modified | 2024-04-17 13:34:43 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_F8BD6D83_D3F8_4dd3_B12E_22A991D1A0A2 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Subsidiebeschikking |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0cbc6488-2932-4634-b226-a741ba030a46](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0cbc6488-2932-4634-b226-a741ba030a46) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-0cbc6488-2932-4634-b226-a741ba030a46](https://gemmaonline.nl/index.php/GEMMA/id-0cbc6488-2932-4634-b226-a741ba030a46) |
 | gemma_definitie | Besluit over het al dan niet toekennen van een subsidie |
 | gemma_toelichting |  |
 
@@ -315,9 +315,9 @@ Attributen van objecttype Subsidiebeschikking
 | uri |  |
 | bron |  |
 | author | arjen |
-| version | 1.1 |
+| version | 1.5 |
 | created | 2023-07-24 10:16:34 |
-| modified | 2024-04-17 13:34:43 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_DB093A73_BE89_462b_8FBA_19B2629072ED |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -353,15 +353,15 @@ Attributen van objecttype Subsidiecomponent
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.1 |
+| version | 1.6 |
 | created | 2019-11-28 15:41:40 |
-| modified | 2024-04-17 13:34:43 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_8F1A719D_C89A_4194_8FF4_1F3E0F174D3D |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Subsidieprogramma |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3c8f512f-33ab-4e24-8ea4-820796359003](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3c8f512f-33ab-4e24-8ea4-820796359003) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-3c8f512f-33ab-4e24-8ea4-820796359003](https://gemmaonline.nl/index.php/GEMMA/id-3c8f512f-33ab-4e24-8ea4-820796359003) |
 | gemma_definitie | Programma waarin meerdere subsidies worden verleend vanuit een bepaalde samenhang |
 | gemma_toelichting |  |
 
@@ -393,15 +393,15 @@ Attributen van objecttype Subsidieprogramma
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.1 |
+| version | 1.6 |
 | created | 2019-11-28 15:41:15 |
-| modified | 2024-04-17 13:34:43 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_156C82B1_2641_40c8_9E99_60031643C29A |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Taak |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-020a5c18-9065-48d4-9cdd-5500cf5ce9ae](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-020a5c18-9065-48d4-9cdd-5500cf5ce9ae) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-020a5c18-9065-48d4-9cdd-5500cf5ce9ae](https://gemmaonline.nl/index.php/GEMMA/id-020a5c18-9065-48d4-9cdd-5500cf5ce9ae) |
 | gemma_definitie | Een samenhangende set activiteiten in het kader van een subsidie. |
 | gemma_toelichting |  |
 

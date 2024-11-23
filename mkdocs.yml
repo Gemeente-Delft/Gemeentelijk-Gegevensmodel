@@ -56,17 +56,20 @@ nav:
     - 'Verkeer, Vervoer en waterstaat':
         - 'Parkeren': definities/definitie_Model Parkeren.md
         - 'Verkeer': definities/definitie_Model Verkeer en Vervoer.md
+    - 'Economie': definities/definitie_Model Economie.md
     - 'Onderwijs': 
         - 'Leerplicht en leerlingenvervoer': definities/definitie_Model Leerplicht en Leerlingenvervoer.md
         - 'Onderwijs': definities/definitie_Model Onderwijs.md
     - 'Sport, Cultuur en Recreatie':
         - 'Erfgoed':
+            - 'Erfgoed Generiek': definities/definitie_Model Erfgoed Generiek.md
             - 'Archeologie': definities/definitie_Model Archeologie.md
             - 'Archief': definities/definitie_Model Archief.md
             - 'Monumenten': definities/definitie_Model Monumenten.md
         - 'Museum': definities/definitie_Model Museum.md
         - 'Sport': definities/definitie_Model Sport.md
     - 'Sociaal domein':
+        - 'Gemeentebegrafenissen': definities/definitie_Model Gemeentebegrafenissen.md
         - 'Inburgering': definities/definitie_Model Inburgering.md
         - 'Schuldhulverlening': definities/definitie_Model Schuldhulpverlening.md
         - 'Sociale Teams': definities/definitie_Model Sociale Teams.md
@@ -75,19 +78,23 @@ nav:
         - 'Wmo en Jeugd': definities/definitie_Model Jeugd en Wmo Generiek.md
         - 'Generieke definities Sociaal Domein': definities/definitie_Model Sociaal Domein Generiek.md
     - 'Volkshuisvesting, leefomgeving en stedelijke vernieuwing':
-        - 'Wonen': definities/definitie_Model Wonen.md
+        - 'Openbare ruimte': definities/definitie_Model Beheer Openbare Ruimte.md
+        - 'Bouwen en Wonen': definities/definitie_Model Wonen.md
         - 'Omgevingswet': definities/definitie_Model Omgevingswet.md
     - 'Interne organisatie':
+        - 'Organisatie': definities/definitie_Model Organisatie.md
         - 'ICT': definities/definitie_Model ICT.md
         - 'Subsidies': definities/definitie_Model Subsidies.md
         - 'Gemeentelijk Vastgoed': definities/definitie_Model Vastgoed.md
         - 'HR': definities/definitie_Model HR.md
         - 'Inkoop': definities/definitie_Model Inkoop.md
+        - 'Financiën': definities/definitie_Model Financien.md
     - 'Dienstverlening': definities/definitie_Model Dienstverlening.md
     - 'Kern':
         - 'RSGB': definities/definitie_Model Kern RSGB.md
         - 'RGBZ': definities/definitie_Model Kern RGBZ.md
         - 'BAG': definities/definitie_Model BAG.md
+        - 'Generieke definities Kern': definities/definitie_Model Generiek.md
  # - Gebruik: gebruik.md
  - Totstandkoming:
     - 'Uitleg Werkwijze': totstandkoming.md

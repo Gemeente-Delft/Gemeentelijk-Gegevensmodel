@@ -54,20 +54,6 @@ if [ -f "$CRUNCH_UML_DB" ]; then
     echo "Bestaande Crunch_uml.db gebruiken: $USE_EXISTING_CRUNCH_DB"
 fi
 
-# Als er een import-excel is, vraag dan of deze moet worden geïmporteerd als update op het ingelezen model
-#USE_IMPORT_EXCEL="false"
-#if [ -f "$IMPORT_EXCEL" ]; then
-#    USE_IMPORT_EXCEL=${4:-}
-#    if [ -z "$USE_IMPORT_EXCEL" ]; then
-#        read -p "Moet de het bestand $IMPORT_EXCEL worden ingelezen om het ingelezen model up te daten? (true/false) [default: false]: " USE_IMPORT_EXCEL
-#    fi
-#    if [[ ! "$USE_IMPORT_EXCEL" == "true" ]]; then
-#        USE_IMPORT_EXCEL="false"
-#    fi
-#    echo "Model updaten met $USE_IMPORT_EXCEL: $USE_IMPORT_EXCEL"
-#fi
-
-
 
 # Controleer of de vereiste bestanden bestaan
 if [ ! -f "$XMI" ]; then
