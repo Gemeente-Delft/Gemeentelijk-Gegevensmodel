@@ -106,6 +106,19 @@ if [[ "$USE_EXISTING_CRUNCH_DB" == "false" ]]; then
     echo "Core GGM Datamodel successfully copied to schema $GGM_ROOT_SCHEMA."
 fi
 
+# Vervang de versies in de uitwisselspecificatie-templates
+# Loop door alle .template-bestanden in de directory en submappen
+for file in $(find "$DOCS" -type f -name "*.template"); do
+  # Bepaal de doelbestandnaam door ".template" te verwijderen
+  output_file="${file%.template}"
+
+  # Gebruik sed om de placeholder ###VERSION### te vervangen door de versie
+  sed "s/###VERSION###/$VERSION/g" "$file" > "$output_file"
+
+  # Geef een bericht over de verwerking
+  echo "Processed $file -> $output_file"
+done
+
 # Generate Markdown for documentation from '$GGM_ROOT_SCHEMA'
 echo "Generate Markdown for documentation if informatiemodel..."
 # Check if the directory with the name of the version exists
@@ -192,7 +205,7 @@ done
 # Generate mkdcos documentation for new version
 mkdocs build
 # Add new version to documentation tree
-mike deploy $VERSION
+mike deploy $VERSION latest
 # Set new version as default
 mike set-default $VERSION 
 
@@ -201,8 +214,5 @@ if [[ "$PUBLISH" == "true" ]]; then
     echo "Publishing documentation to GitHub Pages..."
     # git push origin gh-pages
 fi
-
-
-
 
 echo "Deployment for version $VERSION completed successfully."

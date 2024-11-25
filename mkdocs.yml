@@ -3,6 +3,20 @@ site_description: Informatiemodel van alle gemeentelijke taakvelden
 site_author: Arjen Brienen
 site_url: https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/
 repo_url: https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/
+theme:
+    name: 'material'
+    language: 'nl'
+    palette:
+        primary: 'blue'
+        accent: 'blue'
+    logo: 'img/logo.png'
+    favicon: 'img/favicon.ico'
+    toc_depth: 2
+extra:
+  version:
+    provider: mike
+    include: true
+
 nav:
  - Home: index.md
  - Installatie: installatie.md
@@ -88,7 +102,7 @@ nav:
         - 'Gemeentelijk Vastgoed': definities/definitie_Model Vastgoed.md
         - 'HR': definities/definitie_Model HR.md
         - 'Inkoop': definities/definitie_Model Inkoop.md
-        - 'Financiën': definities/definitie_Model Financien.md
+        - 'Financiën': definities/definitie_Model Financien .md
     - 'Dienstverlening': definities/definitie_Model Dienstverlening.md
     - 'Kern':
         - 'RSGB': definities/definitie_Model Kern RSGB.md
@@ -106,18 +120,39 @@ nav:
     - Documentatie aanpassen: documentatie.md
     - Backup maken: backup.md
     - Tooling voor manupulatie repository: tools.md
-theme:
-    name: 'material'
-    language: 'nl'
-    palette:
-        primary: 'blue'
-        accent: 'blue'
-    logo: 'img/logo.png'
-    favicon: 'img/favicon.ico'
-    toc_depth: 2
+
+
 markdown_extensions:
   - admonition
-extra:
-  version:
-    provider: mike
-    include: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.mark
+  - pymdownx.tasklist
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.caret
+  - pymdownx.magiclink
+  - markdown_include.include:
+      base_path: docs
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - mike:
+      # These fields are all optional; the defaults are as below...
+      alias_type: symlink
+      redirect_template: null
+      deploy_prefix: ''
+      canonical_version: 'latest'
+      version_selector: true
+      css_dir: css
+      javascript_dir: js
+
+  - search
