@@ -18,5 +18,5 @@ Van een ‘Gebouwd Object’ wordt het ‘Winkelvloeroppervlak’ bijgehouden. D
 
 Binnen een ‘Gebied’ liggen meerdere ‘Adresseerbare Objecten’. Een ‘Gebied’ kent verschillende soorten, zoals: winkelgebied en projectontwikkelgebied. Ook kunnen ‘Gebieden’ overeenkomen met een ‘Buurt’ die weer samen een ‘Wijk’ vormen. ‘Gebied’ is een toevoegingen aan de RSGB omdat er geen heldere manier is om ‘Buurt’ (en dus ook ‘Wijk’ en nog verdere woonplaats en gemeente) aan ‘Adresseerbare Objecten’ te koppelen.
 
-[economie]: image/EAID_21D78104_E6EA_4d5c_9DBE_AB71F7DC99E7.gif "Datamodel Economie en bedrijvigheid"
-[economieLocaties]: image/EAID_50085E67_46AC_4f54_B204_436786266EE2.gif "Economie en locaties"
+[economie]: image/EAID_21D78104_E6EA_4d5c_9DBE_AB71F7DC99E7.jpg "Datamodel Economie en bedrijvigheid"
+[economieLocaties]: image/EAID_50085E67_46AC_4f54_B204_436786266EE2.jpg "Economie en locaties"

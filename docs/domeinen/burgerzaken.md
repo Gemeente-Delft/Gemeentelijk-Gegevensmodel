@@ -18,7 +18,7 @@ In Figuur 5 is de relatie van de ‘Betrokkene’ met het ‘Klantcontact’ en 
 
 ![Objecttypen Betrokkenen][betrokkene]
 
-[burgerzakenGegevens]: image/EAID_D9511F60_3CA7_43bd_B6C8_F66447D66DBA.gif "Gegevens Burgerzaken"
-[subjecten]: image/EAID_30391B0F_CF52_4dc1_BC1B_36D428BF0120.gif "Subjecten"
-[dienstverlening]: image/EAID_48B6C3F9_CCF1_4794_8252_FC6543409B78.gif "Objecttypen Dienstverlening"
-[betrokkene]: image/EAID_1D7802F4_3458_4bb4_8431_16C7F85473FC.gif "Objecttypen Betrokkenen"
+[burgerzakenGegevens]: image/EAID_D9511F60_3CA7_43bd_B6C8_F66447D66DBA.jpg "Gegevens Burgerzaken"
+[subjecten]: image/EAID_30391B0F_CF52_4dc1_BC1B_36D428BF0120.jpg "Subjecten"
+[dienstverlening]: image/EAID_48B6C3F9_CCF1_4794_8252_FC6543409B78.jpg "Objecttypen Dienstverlening"
+[betrokkene]: image/EAID_1D7802F4_3458_4bb4_8431_16C7F85473FC.jpg "Objecttypen Betrokkenen"

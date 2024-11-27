@@ -3,9 +3,20 @@ site_description: Informatiemodel van alle gemeentelijke taakvelden
 site_author: Arjen Brienen
 site_url: https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/
 repo_url: https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/
-google_analytics:
-  - 'UA-109371818-2'
-  - 'auto'
+theme:
+    name: 'material'
+    language: 'nl'
+    palette:
+        primary: 'blue'
+        accent: 'blue'
+    logo: 'img/logo.png'
+    favicon: 'img/favicon.ico'
+    toc_depth: 2
+extra:
+  version:
+    provider: mike
+    include: true
+
 nav:
  - Home: index.md
  - Installatie: installatie.md
@@ -59,36 +70,45 @@ nav:
     - 'Verkeer, Vervoer en waterstaat':
         - 'Parkeren': definities/definitie_Model Parkeren.md
         - 'Verkeer': definities/definitie_Model Verkeer en Vervoer.md
+    - 'Economie': definities/definitie_Model Economie.md
     - 'Onderwijs': 
         - 'Leerplicht en leerlingenvervoer': definities/definitie_Model Leerplicht en Leerlingenvervoer.md
         - 'Onderwijs': definities/definitie_Model Onderwijs.md
     - 'Sport, Cultuur en Recreatie':
         - 'Erfgoed':
+            - 'Erfgoed Generiek': definities/definitie_Model Erfgoed Generiek.md
             - 'Archeologie': definities/definitie_Model Archeologie.md
             - 'Archief': definities/definitie_Model Archief.md
             - 'Monumenten': definities/definitie_Model Monumenten.md
         - 'Museum': definities/definitie_Model Museum.md
         - 'Sport': definities/definitie_Model Sport.md
     - 'Sociaal domein':
+        - 'Gemeentebegrafenissen': definities/definitie_Model Gemeentebegrafenissen.md
         - 'Inburgering': definities/definitie_Model Inburgering.md
-        - 'Schuldhulverlening': definities/definitie_Model Schulhulpverlening.md
+        - 'Schuldhulverlening': definities/definitie_Model Schuldhulpverlening.md
         - 'Sociale Teams': definities/definitie_Model Sociale Teams.md
+        - 'Jeugdbescherming': definities/definitie_Model Jeugdbescherming.md
         - 'Participatie': definities/definitie_Model Participatie.md
-        - 'Wmo en Jeugd': definities/definitie_Model Sociaal Domein.md
+        - 'Wmo en Jeugd': definities/definitie_Model Jeugd en Wmo Generiek.md
+        - 'Generieke definities Sociaal Domein': definities/definitie_Model Sociaal Domein Generiek.md
     - 'Volkshuisvesting, leefomgeving en stedelijke vernieuwing':
-        - 'Wonen': definities/definitie_Model Wonen.md
+        - 'Openbare ruimte': definities/definitie_Model Beheer Openbare Ruimte.md
+        - 'Bouwen en Wonen': definities/definitie_Model Wonen.md
         - 'Omgevingswet': definities/definitie_Model Omgevingswet.md
     - 'Interne organisatie':
+        - 'Organisatie': definities/definitie_Model Organisatie.md
         - 'ICT': definities/definitie_Model ICT.md
         - 'Subsidies': definities/definitie_Model Subsidies.md
         - 'Gemeentelijk Vastgoed': definities/definitie_Model Vastgoed.md
         - 'HR': definities/definitie_Model HR.md
         - 'Inkoop': definities/definitie_Model Inkoop.md
-    - 'Dienstverlening': definities/definitie_Model Aanvragen en Meldingen.md
+        - 'Financiën': definities/definitie_Model Financien .md
+    - 'Dienstverlening': definities/definitie_Model Dienstverlening.md
     - 'Kern':
         - 'RSGB': definities/definitie_Model Kern RSGB.md
         - 'RGBZ': definities/definitie_Model Kern RGBZ.md
         - 'BAG': definities/definitie_Model BAG.md
+        - 'Generieke definities Kern': definities/definitie_Model Generiek.md
  # - Gebruik: gebruik.md
  - Totstandkoming:
     - 'Uitleg Werkwijze': totstandkoming.md
@@ -100,14 +120,39 @@ nav:
     - Documentatie aanpassen: documentatie.md
     - Backup maken: backup.md
     - Tooling voor manupulatie repository: tools.md
-theme:
-    name: 'material'
-    language: 'nl'
-    palette:
-        primary: 'blue'
-        accent: 'blue'
-    logo: 'img/logo.png'
-    favicon: 'img/favicon.ico'
-    toc_depth: 2
+
+
 markdown_extensions:
   - admonition
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.mark
+  - pymdownx.tasklist
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.caret
+  - pymdownx.magiclink
+  - markdown_include.include:
+      base_path: docs
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - mike:
+      # These fields are all optional; the defaults are as below...
+      alias_type: symlink
+      redirect_template: null
+      deploy_prefix: ''
+      canonical_version: 'latest'
+      version_selector: true
+      css_dir: css
+      javascript_dir: js
+
+  - search

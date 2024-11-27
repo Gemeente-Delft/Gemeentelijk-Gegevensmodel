@@ -60,15 +60,15 @@ Het model 'Model Inkoop' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-11-26 15:10:12 |
-| modified | 2024-04-17 13:34:45 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_44EC6082_2682_43c7_A52E_0AD05B06A046 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Aanbesteding |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bc6f065d-05c9-454d-a18d-1c0c2a2dfe15](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-bc6f065d-05c9-454d-a18d-1c0c2a2dfe15) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-bc6f065d-05c9-454d-a18d-1c0c2a2dfe15](https://gemmaonline.nl/index.php/GEMMA/id-bc6f065d-05c9-454d-a18d-1c0c2a2dfe15) |
 | gemma_definitie | Kan een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding |
 | gemma_toelichting |  |
 
@@ -88,8 +88,8 @@ Attributen van objecttype Aanbesteding
 | tendernedKenmerk | AN80 |  |
 | type | Enumeratie: "Opdrachtcategorie" |  |
 | volgendeSluiting | DateTime |  |
-| None | Class: "MEDEWERKER" |  |
-| None | Class: "ZAAK" |  |
+| None | Class: "Medewerker" |  |
+| None | Class: "Zaak" |  |
 | None | Class: "Gunning" |  |
 | None | Class: "CPV-code" |  |
 
@@ -109,15 +109,15 @@ Attributen van objecttype Aanbesteding
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-11-26 15:14:45 |
-| modified | 2024-04-17 13:34:45 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_01D90490_C76A_444a_BFCE_355AFC5FB012 |
 | domein_iv3 |  |
 | domein_dcat |  |
-| gemma_naam | Aanbesteding Inhuur |
+| gemma_naam | AanbestedingInhuur |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-686c0af1-67b2-42a4-8690-060705617c13](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-686c0af1-67b2-42a4-8690-060705617c13) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-686c0af1-67b2-42a4-8690-060705617c13](https://gemmaonline.nl/index.php/GEMMA/id-686c0af1-67b2-42a4-8690-060705617c13) |
 | gemma_definitie | Aanbesteding voor inhuur van personen of diensten |
 | gemma_toelichting |  |
 
@@ -148,7 +148,7 @@ Attributen van objecttype Aanbesteding Inhuur
 | type | Enumeratie: "Opdrachtcategorie" |  |
 | None | Class: "Gunning" |  |
 | None | Class: "CPV-code" |  |
-| None | Class: "MEDEWERKER" |  |
+| None | Class: "Medewerker" |  |
 | None | Class: "Categorie" |  |
 
 
@@ -167,15 +167,15 @@ Attributen van objecttype Aanbesteding Inhuur
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.0 |
+| version | 1.4 |
 | created | 2019-11-26 15:09:54 |
-| modified | 2024-04-17 13:34:45 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_BB135B0E_A2C2_4681_BD91_30863F8B3D70 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Aankondiging |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-11a5fd2d-0237-4e70-b859-d1e26456553b](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-11a5fd2d-0237-4e70-b859-d1e26456553b) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-11a5fd2d-0237-4e70-b859-d1e26456553b](https://gemmaonline.nl/index.php/GEMMA/id-11a5fd2d-0237-4e70-b859-d1e26456553b) |
 | gemma_definitie | Aankondiging van een Nationale of Europese aanbesteding |
 | gemma_toelichting |  |
 
@@ -207,15 +207,15 @@ Attributen van objecttype Aankondiging
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-10-29 11:10:05 |
-| modified | 2024-04-17 13:34:45 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_33E5EA10_F43A_4966_B9C1_875F0E2C1B52 |
 | domein_iv3 |  |
 | domein_dcat |  |
-| gemma_naam | Aanvraag Inkooporder |
+| gemma_naam | AanvraagInkooporder |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8d9233d7-dfb9-4b87-bab2-61631a632f95](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8d9233d7-dfb9-4b87-bab2-61631a632f95) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-8d9233d7-dfb9-4b87-bab2-61631a632f95](https://gemmaonline.nl/index.php/GEMMA/id-8d9233d7-dfb9-4b87-bab2-61631a632f95) |
 | gemma_definitie | het betreft hier het formulier 'Aanvraag Inkooporder' |
 | gemma_toelichting |  |
 
@@ -227,19 +227,19 @@ Attributen van objecttype Aanvraag Inkooporder
 | betalingOverMeerJaren | Boolean |  |
 | correspondentienummer | int |  |
 | inhuurAnders | AN80 |  |
-| leveringOfDienst | Boolean |  |
+| leveringOfDienst | Boolean | Bij levering of dienst is waarde: TRUE, bij een werk is waarde: FALSE |
 | nettoTotaalBedrag | Bedrag |  |
 | omschrijving | text |  |
 | onderwerp | AN80 |  |
 | reactie | Text |  |
 | status | AN80 |  |
 | wijzeVanInhuur | AN80 |  |
-| None | Class: "ZAAK" |  |
+| None | Class: "Zaak" |  |
 | None | Class: "Leverancier" |  |
-| None | Class: "ORGANISATORISCHE EENHEID" |  |
+| None | Class: "OrganisatorischeEenheid" |  |
 | None | Class: "Contract" |  |
 | None | Class: "Inkooporder" |  |
-| None | Class: "MEDEWERKER" |  |
+| None | Class: "Medewerker" |  |
 
 
 
@@ -257,9 +257,9 @@ Attributen van objecttype Aanvraag Inkooporder
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-11-26 15:16:32 |
-| modified | 2024-04-17 13:34:45 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_6CA060D0_C5AC_4b50_8B64_00DCAEA7EF48 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -293,15 +293,15 @@ Attributen van objecttype Categorie
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-10-29 10:34:40 |
-| modified | 2024-04-17 13:34:46 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_9FBF9FB8_B28D_4733_8443_607B8498F446 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Contract |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f96af00f-2933-42d0-aacf-58ccb4a0ef52](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f96af00f-2933-42d0-aacf-58ccb4a0ef52) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f96af00f-2933-42d0-aacf-58ccb4a0ef52](https://gemmaonline.nl/index.php/GEMMA/id-f96af00f-2933-42d0-aacf-58ccb4a0ef52) |
 | gemma_definitie | Bindende overeenkomst |
 | gemma_toelichting |  |
 
@@ -346,15 +346,15 @@ Attributen van objecttype Contract
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-11-27 14:11:20 |
-| modified | 2024-04-17 13:34:46 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_6A4CF470_3B0E_4141_9DB6_C9E8A525CB49 |
 | domein_iv3 |  |
 | domein_dcat |  |
-| gemma_naam | CPV-code |
+| gemma_naam | CPVCode |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b6c26d6b-c773-4b50-ba03-a8463f23889a](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b6c26d6b-c773-4b50-ba03-a8463f23889a) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-b6c26d6b-c773-4b50-ba03-a8463f23889a](https://gemmaonline.nl/index.php/GEMMA/id-b6c26d6b-c773-4b50-ba03-a8463f23889a) |
 | gemma_definitie | De Common Procurement Vocabulary (CPV-codes) is een gemeenschappelijke woordenlijst van de EU, alle mogelijke soorten overheidsopdrachten voor diensten, leveringen en werken hebben een eigen code gekregen. Aanbestedende diensten moeten bij Europese aanbestedingen dit classificatiesysteem toepassen. |
 | gemma_toelichting |  |
 
@@ -382,9 +382,9 @@ Attributen van objecttype CPV-code
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-11-18 15:32:41 |
-| modified | 2024-04-17 13:34:46 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_B598FF22_CDD0_486f_B528_99421D0FA608 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -405,7 +405,7 @@ Attributen van objecttype FormulierInhuur
 | functienaamInhuur | AN200 |  |
 | None | Class: "Kostenplaats" |  |
 | None | Class: "Aanbesteding Inhuur" |  |
-| None | Class: "MEDEWERKER" |  |
+| None | Class: "Medewerker" |  |
 
 
 
@@ -423,9 +423,9 @@ Attributen van objecttype FormulierInhuur
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-11-18 15:34:04 |
-| modified | 2024-04-17 13:34:46 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_1D87490A_9F07_424f_BE6F_5E9C11376B05 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -444,10 +444,10 @@ Attributen van objecttype FormulierVerlengingInhuur
 | indicatieRedenInhuurGewijzigd | Boolean |  |
 | indicatieVerhogenInkooporder | Boolean |  |
 | toelichting | text |  |
-| None | Class: "MEDEWERKER" |  |
+| None | Class: "Medewerker" |  |
 | None | Class: "Inkooporder" |  |
 | None | Class: "Leverancier" |  |
-| None | Class: "MEDEWERKER" |  |
+| None | Class: "Medewerker" |  |
 
 
 
@@ -466,15 +466,15 @@ Attributen van objecttype FormulierVerlengingInhuur
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-11-26 15:11:46 |
-| modified | 2024-04-17 13:34:46 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_3FB9B466_D147_42d7_99D1_2D14A007D16C |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Gunning |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-70e40543-6a99-433d-8a01-f4273e308410](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-70e40543-6a99-433d-8a01-f4273e308410) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-70e40543-6a99-433d-8a01-f4273e308410](https://gemmaonline.nl/index.php/GEMMA/id-70e40543-6a99-433d-8a01-f4273e308410) |
 | gemma_definitie | Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding  Of voor levering personeel |
 | gemma_toelichting |  |
 
@@ -491,7 +491,7 @@ Attributen van objecttype Gunning
 | None | Class: "Inschrijving" |  |
 | None | Class: "Kandidaat" |  |
 | None | Class: "Offerte" |  |
-| None | Class: "MEDEWERKER" |  |
+| None | Class: "Medewerker" |  |
 
 
 
@@ -509,9 +509,9 @@ Attributen van objecttype Gunning
 | uri |  |
 | bron |  |
 | author | aashkpour |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2020-11-12 16:59:28 |
-| modified | 2024-04-17 13:34:46 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_170AF8F5_8952_407a_91C4_EAF910DE3304 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -547,15 +547,15 @@ Attributen van objecttype Inkooppakket
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-11-26 15:11:11 |
-| modified | 2024-04-17 13:34:46 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_2902E8D6_FF16_45d6_A0A4_47E2857D2D19 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Inschrijving |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e1c425c1-a3fe-4144-907d-13da8d9fb5cc](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e1c425c1-a3fe-4144-907d-13da8d9fb5cc) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-e1c425c1-a3fe-4144-907d-13da8d9fb5cc](https://gemmaonline.nl/index.php/GEMMA/id-e1c425c1-a3fe-4144-907d-13da8d9fb5cc) |
 | gemma_definitie | Inschrijving op een nationale of Europese aanbesteding |
 | gemma_toelichting |  |
 
@@ -585,15 +585,15 @@ Attributen van objecttype Inschrijving
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.0 |
+| version | 1.4 |
 | created | 2019-11-27 10:37:40 |
-| modified | 2024-04-17 13:34:46 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_75B4E818_5ECD_45c5_98F9_66F57FC6117E |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Kandidaat |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-dc97ebf4-61ee-47f6-a108-af6bb4a276f7](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-dc97ebf4-61ee-47f6-a108-af6bb4a276f7) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-dc97ebf4-61ee-47f6-a108-af6bb4a276f7](https://gemmaonline.nl/index.php/GEMMA/id-dc97ebf4-61ee-47f6-a108-af6bb4a276f7) |
 | gemma_definitie | Iemand die een bepaalde baan of functie wil |
 | gemma_toelichting |  |
 
@@ -603,7 +603,7 @@ Attributen van objecttype Kandidaat
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datumIngestuurd | DateTime |  |
-| None | Class: "NATUURLIJK PERSOON" |  |
+| None | Class: "NatuurlijkPersoon" |  |
 | None | Class: "Aanbesteding Inhuur" |  |
 
 
@@ -622,9 +622,9 @@ Attributen van objecttype Kandidaat
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-11-26 15:10:32 |
-| modified | 2024-04-17 13:34:46 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_AB2AED85_D2B0_45cf_9B1F_C6005E894494 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -659,15 +659,15 @@ Attributen van objecttype Kwalificatie
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2018-05-29 13:54:06 |
-| modified | 2024-04-17 13:34:46 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_EA7FE08E_34F7_45d2_BE2E_E4E3B8333BF3 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Leverancier |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-113af80a-7e3e-41f6-8f79-8d0d48c4c257](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-113af80a-7e3e-41f6-8f79-8d0d48c4c257) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-113af80a-7e3e-41f6-8f79-8d0d48c4c257](https://gemmaonline.nl/index.php/GEMMA/id-113af80a-7e3e-41f6-8f79-8d0d48c4c257) |
 | gemma_definitie | Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie |
 | gemma_toelichting |  |
 
@@ -699,15 +699,15 @@ Attributen van objecttype Leverancier
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-11-27 13:29:18 |
-| modified | 2024-04-17 13:34:46 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_BF21FFA3_3EA6_410a_BC65_7BE5547646B6 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Offerte |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6d31df7d-b7f9-4f50-be9f-eaf05c697f6e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6d31df7d-b7f9-4f50-be9f-eaf05c697f6e) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-6d31df7d-b7f9-4f50-be9f-eaf05c697f6e](https://gemmaonline.nl/index.php/GEMMA/id-6d31df7d-b7f9-4f50-be9f-eaf05c697f6e) |
 | gemma_definitie | Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs. |
 | gemma_toelichting |  |
 
@@ -739,15 +739,15 @@ Attributen van objecttype Offerte
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-11-26 15:22:25 |
-| modified | 2024-04-17 13:34:46 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_1EF1AC66_9563_4cdd_AE78_0878D651907A |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Offerteaanvraag |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1b3c3c06-c7e9-40c0-8fa1-dbbc3c23152f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-1b3c3c06-c7e9-40c0-8fa1-dbbc3c23152f) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-1b3c3c06-c7e9-40c0-8fa1-dbbc3c23152f](https://gemmaonline.nl/index.php/GEMMA/id-1b3c3c06-c7e9-40c0-8fa1-dbbc3c23152f) |
 | gemma_definitie | Aanbesteding bij inschrijving |
 | gemma_toelichting |  |
 
@@ -779,9 +779,9 @@ Attributen van objecttype Offerteaanvraag
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-11-18 17:33:00 |
-| modified | 2024-04-17 13:34:46 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_B2BD6C5B_460E_4f2a_9B78_3E101DAD8D6B |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -818,9 +818,9 @@ Attributen van objecttype SelectietabelAanbesteding
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-11-18 15:32:13 |
-| modified | 2024-04-17 13:34:46 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_7694A657_22D8_4b00_AAE2_A78EF014B43A |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -835,11 +835,18 @@ Attributen van objecttype StartformulierAanbesteden
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| beoogdeLooptijd | int |  |
+| beoogdeLooptijd | int | Beoogde looptijd in jaren |
 | beoogdeTotaleOpdrachtwaarde | Bedrag |  |
 | indicatieAanvullendeOpdrachtLeverancier | boolean |  |
-| indicatieBeoogdeAanbestedingOnderhands | Boolean |  |
-| indicatieBeoogdeProcKomtOvereen | boolean |  |
+| indicatieBeoogdeAanbestedingOnderhands | Boolean | Welke aanbestedingsprocedure ben je voornemens te volgen? 
+<ol>
+ <li>1-op-1 (enkelvoudig onderhands) of 3 tot 5 offertes (meervoudig onderhands)</li>
+ <li>Nationale of Europese aanbesteding </li>
+</ol>
+
+ |
+| indicatieBeoogdeProcKomtOvereen | boolean | Komt - op basis van de hierboven genoemde totale opdrachtwaarde - de beoogde aanbestedings-procedure overeen met de voorgeschreven procedure uit het Procedure-overzicht en/of het 'groene' gedeelte in de kleurentabel uit de gids proportionaliteit?
+ |
 | indicatieEenmaligeLos | Boolean |  |
 | indicatieMeerjarigeRaamovereenkomst | boolean |  |
 | indicatieMeerjarigRepeterend | Boolean |  |
@@ -847,9 +854,10 @@ Attributen van objecttype StartformulierAanbesteden
 | omschrijving | text |  |
 | opdrachtcategorie | Enumeratie: "Opdrachtcategorie" |  |
 | opdrachtsoort | Enumeratie: "Opdrachtsoort" |  |
-| toelichtingAanvullendeOpdracht | text |  |
+| toelichtingAanvullendeOpdracht | text | Zijn er mogelijk nog aanvullende of gerelateerde opdrachten, die je ook wilt verstrekken aan de beoogde opdrachtnemer? 
+ |
 | toelichtingEenmaligOfRepeterend | text |  |
-| None | Class: "ZAAK" |  |
+| None | Class: "Zaak" |  |
 | None | Class: "Aankondiging" |  |
 | None | Class: "Aanbesteding" |  |
 
@@ -869,15 +877,15 @@ Attributen van objecttype StartformulierAanbesteden
 | uri |  |
 | bron |  |
 | author | abrienen |
-| version | 1.0 |
+| version | 1.4 |
 | created | 2019-11-27 14:27:00 |
-| modified | 2024-04-17 13:34:46 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_BB182A6F_6935_4702_ABEA_B96E32A40B02 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Uitnodiging |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-16b98915-5c5e-4933-bfc0-9db634c47acb](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-16b98915-5c5e-4933-bfc0-9db634c47acb) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-16b98915-5c5e-4933-bfc0-9db634c47acb](https://gemmaonline.nl/index.php/GEMMA/id-16b98915-5c5e-4933-bfc0-9db634c47acb) |
 | gemma_definitie | Een verzoek om iets bij te wonen. |
 | gemma_toelichting |  |
 

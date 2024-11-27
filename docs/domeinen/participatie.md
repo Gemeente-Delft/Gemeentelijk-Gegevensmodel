@@ -12,4 +12,4 @@ Eventueel zijn er van een cliënt fraudegegevens bekend. Fraudegegevens zijn ing
 Als cliënten dak- of thuisloos zijn (geweest) wordt dit bijgehouden in ‘Informatie Dakloosheid’. Dit objecttype kent een begin- en een einddatum, waardoor een ‘Client’ meerdere voorkomens van dit objecttype kan hebben.
 
 
-[participatie]: image/EAID_14C2A70C_36D6_4ff3_AE16_F25A00CDD5C7.gif "Gegevensmodel Participatie"
+[participatie]: image/EAID_14C2A70C_36D6_4ff3_AE16_F25A00CDD5C7.jpg "Gegevensmodel Participatie"

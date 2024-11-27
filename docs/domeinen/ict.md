@@ -27,7 +27,7 @@ Naast de Linkbare CMDB-Items zijn er ook reguliere CMDB-Items (niet linkbaar aan
 
 Het model kent naast de Linkbare CMDB-Items de volgende CMDB-Items die direct van CMDB-Item zijn afgeleid: ‘Licentie’, ‘Hardware’, ‘Vervoersmiddel’, ‘Netwerkcomponent’, ‘Toegangsmiddel’, ‘Inventaris’ en ‘Software’.
 
-[ictApplicatiesEnGegevens]: image/EAID_A2831A97_91F6_4ed0_896E_3531219E69F0.gif "ICT Applicaties en Gegevens"
-[ictApplicatiesEnGegevens]: image/EAID_A2831A97_91F6_4ed0_896E_3531219E69F0.gif "ICT Applicaties en Gegevens"
-[ictBasismodelCMDB]: image/EAID_4F14E8D8_5502_4880_9E83_D912BE451EB1.gif "ICT Basismodel CMDB"
-[ictOverigeCMDB]: image/EAID_A255BB0C_A1DB_43a5_88B1_C638F6E64B0B.gif "ICT Overige CMDB"
+[ictApplicatiesEnGegevens]: image/EAID_A2831A97_91F6_4ed0_896E_3531219E69F0.jpg "ICT Applicaties en Gegevens"
+[ictApplicatiesEnGegevens]: image/EAID_A2831A97_91F6_4ed0_896E_3531219E69F0.jpg "ICT Applicaties en Gegevens"
+[ictBasismodelCMDB]: image/EAID_4F14E8D8_5502_4880_9E83_D912BE451EB1.jpg "ICT Basismodel CMDB"
+[ictOverigeCMDB]: image/EAID_A255BB0C_A1DB_43a5_88B1_C638F6E64B0B.jpg "ICT Overige CMDB"

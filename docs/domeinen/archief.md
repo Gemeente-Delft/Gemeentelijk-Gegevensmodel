@@ -19,6 +19,6 @@ In voorgaande figuur is uitgewerkt dat uitgevers en rechthebbenden zijn afgeleid
 Aan het RGBZ-type ‘Document’ is een ‘Identificatiekenmerk’ toegevoegd, zodat verschillende soorten identificaties (zoals: URI, URI, Dot, ISBN) zijn ondersteund.
 Archivering zal in de toekomst worden gedaan op basis van de Kern RGBZ-entiteit ‘Zaak’ en  verloopt dan via zaak.archiefnominatie. 
 
-[archiefGegevensdefinities]: image/EAID_59241C4B_FD65_484b_88E5_83189334A510.gif "Gegevensdefinities Archief"
-[archiefEnBezoekers]: image/EAID_8D468696_4B9D_40b4_92F0_3BED39502098.gif "Archief en bezoekers"
-[archiefPersonenEnDocumenten]: image/EAID_EF872947_BE6B_4af5_8221_2A6AA2A0D4B7.gif "Archief, personen en documenten"
+[archiefGegevensdefinities]: image/EAID_59241C4B_FD65_484b_88E5_83189334A510.jpg "Gegevensdefinities Archief"
+[archiefEnBezoekers]: image/EAID_8D468696_4B9D_40b4_92F0_3BED39502098.jpg "Archief en bezoekers"
+[archiefPersonenEnDocumenten]: image/EAID_EF872947_BE6B_4af5_8221_2A6AA2A0D4B7.jpg "Archief, personen en documenten"

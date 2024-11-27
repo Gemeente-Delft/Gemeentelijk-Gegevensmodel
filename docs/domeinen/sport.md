@@ -12,5 +12,5 @@ Inspectierapporten worden vastgelegd in een ‘Document’.
 
 ![Sportlocaties][sportlocaties]
 
-[sportbeleid]: image/EAID_25BCAA7D_6255_4f3a_8408_DF91881FE29F.gif "Sportbeleid"
-[sportlocaties]: image/EAID_BA23F316_FE48_49a8_A26D_9B1D14713F76.gif "Sportlocaties"
+[sportbeleid]: image/EAID_25BCAA7D_6255_4f3a_8408_DF91881FE29F.jpg "Sportbeleid"
+[sportlocaties]: image/EAID_BA23F316_FE48_49a8_A26D_9B1D14713F76.jpg "Sportlocaties"

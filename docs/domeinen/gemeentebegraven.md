@@ -4,4 +4,4 @@ Een 'Gemeentebegrafenis' is gekoppeld aan een 'Natuurlijk Persoon', aangezien de
 
 ![Gegevensmodel Gemeentebegraven][begraven]
 
-[begraven]: image/EAID_949AE9E2_95EB_4063_B7C5_E81971D410B3.gif "Gegevensmodel Gemeentebegraven"
+[begraven]: image/EAID_949AE9E2_95EB_4063_B7C5_E81971D410B3.jpg "Gegevensmodel Gemeentebegraven"

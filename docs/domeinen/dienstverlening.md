@@ -44,7 +44,7 @@ In de volgende figuur is de relatie van de ‘Betrokkene’ met het ‘Klantcont
 
 ![Dienstverlening en Betrokkene][dienstverleningEnBetrokkene]
 
-[klantcontact]: image/EAID_282A4979_0BBC_4448_B71C_0CE64829083B.gif "Dienstverlening en Klantcontacten"
-[aanvraagEnMelding]: image/EAID_5901286A_E9EF_4360_9CE6_32B6FDE1C970.gif "Objecttypen Aanvragen en meldingen"
-[klantcontactEnZaak]: image/EAID_48B6C3F9_CCF1_4794_8252_FC6543409B78.gif "Klantcontact en Zaken"
-[dienstverleningEnBetrokkene]: image/EAID_1D7802F4_3458_4bb4_8431_16C7F85473FC.gif "Dienstverlening en Betrokkene"
+[klantcontact]: image/EAID_282A4979_0BBC_4448_B71C_0CE64829083B.jpg "Dienstverlening en Klantcontacten"
+[aanvraagEnMelding]: image/EAID_5901286A_E9EF_4360_9CE6_32B6FDE1C970.jpg "Objecttypen Aanvragen en meldingen"
+[klantcontactEnZaak]: image/EAID_48B6C3F9_CCF1_4794_8252_FC6543409B78.jpg "Klantcontact en Zaken"
+[dienstverleningEnBetrokkene]: image/EAID_1D7802F4_3458_4bb4_8431_16C7F85473FC.jpg "Dienstverlening en Betrokkene"

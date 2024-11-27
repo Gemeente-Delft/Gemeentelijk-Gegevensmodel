@@ -6,5 +6,3 @@ Opslaan naar bestand: DBMS to File
 Opslaan naar testomgeving: DBMS to DBMS. Selecteer als Source de productieomgeving, als target selecteer je de testomgeving. 
 
 Klik op 'Transfer'
-
-de backup beschrijving is gemaakt op basis EA versie 14

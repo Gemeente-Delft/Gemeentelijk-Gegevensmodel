@@ -49,8 +49,8 @@ Ook meldingen in het kader van brede handhaving verwijzen naar het generieke obj
 
 ![Objecten bij brede handhaving][vthObjecttypenBredeHandhaving]
 
-[vthObjecttypenBredeHandhaving]: image/EAID_EC84A03C_FC04_401a_8263_7809B74179F8.gif "Objecttypen bij brede handhaving"
-[vthObjectenVergunning]: image/EAID_C9CE09B7_32EF_40eb_9C82_7FD6EDEA1D9E.gif "Objecttypen bij vergunningverlening"
-[vthZakenEnBesluiten]: image/EAID_A2BA1F0D_8428_42fc_80D6_7184F243D268.gif "Koppeling zaken aan besluiten"
-[vthHandhaving]: image/EAID_BB52C835_0B2D_4164_AC9D_9D6EDBD7E267.gif "Gegevensmodel vergunnings- en handhavingszaken"
+[vthObjecttypenBredeHandhaving]: image/EAID_EC84A03C_FC04_401a_8263_7809B74179F8.jpg "Objecttypen bij brede handhaving"
+[vthObjectenVergunning]: image/EAID_C9CE09B7_32EF_40eb_9C82_7FD6EDEA1D9E.jpg "Objecttypen bij vergunningverlening"
+[vthZakenEnBesluiten]: image/EAID_A2BA1F0D_8428_42fc_80D6_7184F243D268.jpg "Koppeling zaken aan besluiten"
+[vthHandhaving]: image/EAID_BB52C835_0B2D_4164_AC9D_9D6EDBD7E267.jpg "Gegevensmodel vergunnings- en handhavingszaken"
 [riha]: image/riha.png "Gegevensmodel RiHa"

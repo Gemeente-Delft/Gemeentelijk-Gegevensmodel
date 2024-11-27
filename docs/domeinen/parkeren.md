@@ -10,5 +10,5 @@ De handheld scant hat kenteken en de medewerker krijgt alle rechten terug die aa
 
 ![Productgroepen parkeren][productgroepenparkeren]
 
-[parkeren]: image/EAID_84B6B75B_2B58_455d_B019_C9B1E71717C2.gif "Gegevensmodel parekeren"
+[parkeren]: image/EAID_84B6B75B_2B58_455d_B019_C9B1E71717C2.jpg "Gegevensmodel parekeren"
 [productgroepenparkeren]: image/productgroepenparkeren.png "Productgroepen parkeren"

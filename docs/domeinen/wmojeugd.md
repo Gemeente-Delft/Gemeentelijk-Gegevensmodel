@@ -21,6 +21,6 @@ Het domeinmodel voor de Wmo en de Jeugdwet bouwt voort op het generieke datamode
 
 ![Beperkingen bij Wmo en Jeugd][sociaalBeperkingen]
 
-[sociaalBeperkingen]: image/EAID_9B278A50_862A_4085_B362_C41392101916.gif "Beperkingen bij Wmo en Jeugd"
-[sociaalBeperkingen]: image/EAID_9B278A50_862A_4085_B362_C41392101916.gif "Beperkingen bij Wmo en Jeugd"
-[sociaalBeschikkingenEnVoorzieningen]: image/EAID_5AE29494_3572_4924_B2B8_3206E55D71BB.gif "Beschikkingenen voorzieningen Wmo en Jeugd"
+[sociaalBeperkingen]: image/EAID_9B278A50_862A_4085_B362_C41392101916.jpg "Beperkingen bij Wmo en Jeugd"
+[sociaalBeperkingen]: image/EAID_9B278A50_862A_4085_B362_C41392101916.jpg "Beperkingen bij Wmo en Jeugd"
+[sociaalBeschikkingenEnVoorzieningen]: image/EAID_5AE29494_3572_4924_B2B8_3206E55D71BB.jpg "Beschikkingenen voorzieningen Wmo en Jeugd"

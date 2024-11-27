@@ -23,6 +23,6 @@ Net als bij de inhuur van personeel wordt er na gunning een ‘Inkooporder’ vo
 
 In het geval van kleine aanbestedingen wordt het traject van aanbesteden vaak niet gelopen. Wel worden er dan een ‘Inkooporder’ aangemaakt en een ‘contract’ afgesloten.
 
-[inkoopInhuur]: image/EAID_1172FBF0_04B4_46c7_9FB5_F34730E060FB.gif "Inkoop Inhuur"
-[inkoopVerlengenInhuur]: image/EAID_21AD192F_EEF1_493b_9BFD_D37EF6C93236.gif "Inkoop VerlengenInhuur"
-[inkoopGeenInhuur]: image/EAID_6683520C_EE21_4038_A418_D4C957172DF2.gif "Inkoop Geen Inhuur"
+[inkoopInhuur]: image/EAID_1172FBF0_04B4_46c7_9FB5_F34730E060FB.jpg "Inkoop Inhuur"
+[inkoopVerlengenInhuur]: image/EAID_21AD192F_EEF1_493b_9BFD_D37EF6C93236.jpg "Inkoop VerlengenInhuur"
+[inkoopGeenInhuur]: image/EAID_6683520C_EE21_4038_A418_D4C957172DF2.jpg "Inkoop Geen Inhuur"

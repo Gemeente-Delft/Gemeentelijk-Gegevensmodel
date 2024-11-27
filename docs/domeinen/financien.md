@@ -35,7 +35,7 @@ Debiteuren en crediteuren zijn afgeleid van ‘Rechtspersoon’. Het kunnen imme
 
 ![Personen en Financiën][financienPersonen]
 
-[financienBegrotingEnBudget]: image/EAID_42C2960F_FED7_467e_AAB1_5195BED59A39.gif "Begroting en Budget Financiën"
-[financienVerplichtingenEnFacturen]: image/EAID_0723EB5C_4A2C_44d4_B15B_37AC71B5D711.gif "Verplichtingen en Facturen Financiën"
-[financienVerwerkenMutaties]: image/EAID_B758018F_CB22_420e_B4E4_E17EB5F71EDA.gif "Verwerken Mutaties Financiën"
-[financienPersonen]: image/EAID_CB1E27F6_9539_4037_8A93_07CC937D5D2E.gif "Personen en Financiën"
+[financienBegrotingEnBudget]: image/EAID_42C2960F_FED7_467e_AAB1_5195BED59A39.jpg "Begroting en Budget Financiën"
+[financienVerplichtingenEnFacturen]: image/EAID_0723EB5C_4A2C_44d4_B15B_37AC71B5D711.jpg "Verplichtingen en Facturen Financiën"
+[financienVerwerkenMutaties]: image/EAID_B758018F_CB22_420e_B4E4_E17EB5F71EDA.jpg "Verwerken Mutaties Financiën"
+[financienPersonen]: image/EAID_CB1E27F6_9539_4037_8A93_07CC937D5D2E.jpg "Personen en Financiën"

@@ -5,4 +5,4 @@ Naar aanleiding van deze scores wordt voor de cliënt een ‘PlanVanAanpak’ op
 
 ![Gegevensmodel Sociale Teams][socteams]
 
-[socteams]: image/EAID_50F1F1BC_5866_45b9_A062_4C41F0C7766C.gif "Gegevensmodel Sociale Teams"
+[socteams]: image/EAID_50F1F1BC_5866_45b9_A062_4C41F0C7766C.jpg "Gegevensmodel Sociale Teams"

@@ -1,0 +1,268 @@
+<?xml  version='1.0' encoding='windows-1252' ?>
+<xmi:XMI xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1">
+	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5" exporterID="1622"/>
+	<uml:Model xmi:type="uml:Model" name="EA_Model" visibility="public">
+		<packagedElement xmi:type="uml:Package" xmi:id="EAPK_8F96CFC6_DBD3_453b_8866_CD34F76A3CCE" name="Voorbeeld Componenten" visibility="public">
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_410C42AA_50D6_458c_990E_1C134342C252" name="Diagram" visibility="public">
+				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_D3928CDC_B57A_43aa_824D_B7626AA3C7B0" name="Monumenten" visibility="public"/>
+			</packagedElement>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_86DDDE79_D878_4f2b_A6BE_605B6C1FE97C" name="Model" visibility="public">
+				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_755F83C0_7E54_45d8_BE14_065ED96E2E49" name="Actoren" visibility="public">
+					<packagedElement xmi:type="uml:Actor" xmi:id="EAID_4AE89043_ACF7_4779_8D7F_25C71C908AE3" name="Medewerker Monumenten" visibility="public">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_srcC76700_65F3_47b2_B12F_679870A5165B" visibility="public" association="EAID_FFC76700_65F3_47b2_B12F_679870A5165B" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+							<type xmi:idref="EAID_4F8755CF_8528_4c79_8D32_EA52BB76A162"/>
+						</ownedAttribute>
+					</packagedElement>
+					<packagedElement xmi:type="uml:Association" xmi:id="EAID_FFC76700_65F3_47b2_B12F_679870A5165B" name="Bijhouden administratie" visibility="public">
+						<memberEnd xmi:idref="EAID_dstC76700_65F3_47b2_B12F_679870A5165B"/>
+						<memberEnd xmi:idref="EAID_srcC76700_65F3_47b2_B12F_679870A5165B"/>
+					</packagedElement>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Package" xmi:id="EAPK_65EF8B82_8A58_4755_9C9C_CFC36960B5C8" name="Applicaties" visibility="public">
+					<packagedElement xmi:type="uml:Component" xmi:id="EAID_4F8755CF_8528_4c79_8D32_EA52BB76A162" name="Monumenten administratie" visibility="public" isIndirectlyInstantiated="true">
+						<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_dstC76700_65F3_47b2_B12F_679870A5165B" visibility="public" association="EAID_FFC76700_65F3_47b2_B12F_679870A5165B" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+							<type xmi:idref="EAID_4AE89043_ACF7_4779_8D7F_25C71C908AE3"/>
+						</ownedAttribute>
+					</packagedElement>
+					<packagedElement xmi:type="uml:InstanceSpecification" xmi:id="EAID_4903E2CB_AD5D_400e_8DC7_D784F2EF7381" name="Beschermde status" visibility="public"/>
+					<packagedElement xmi:type="uml:InstanceSpecification" xmi:id="EAID_29C95111_8B01_4cfb_9388_29020A7D2A85" name="pand" visibility="public"/>
+					<packagedElement xmi:type="uml:InstanceSpecification" xmi:id="EAID_38562162_2CC8_4c48_8FF9_CF2ED5FB6F9A" name="bouwstijl" visibility="public"/>
+				</packagedElement>
+			</packagedElement>
+		</packagedElement>
+	</uml:Model>
+	<xmi:Extension extender="Enterprise Architect" extenderID="6.5">
+		<elements>
+			<element xmi:idref="EAPK_8F96CFC6_DBD3_453b_8866_CD34F76A3CCE" xmi:type="uml:Package" name="Voorbeeld Componenten" scope="public">
+				<model package2="EAID_8F96CFC6_DBD3_453b_8866_CD34F76A3CCE" package="EAPK_72F1E43D_A0AE_4e77_8801_CD4D67C0DA9B" tpos="1" ea_localid="255" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="arjen" version="1.0" phase="1.0" created="2019-12-08 16:04:06" modified="2019-12-11 12:59:00" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Model"/>
+				<packageproperties version="1.0" tpos="1"/>
+				<paths/>
+				<times created="2019-12-08 16:04:06" modified="2022-11-17 18:54:23" lastloaddate="2019-12-08 16:04:06" lastsavedate="2019-12-08 16:04:06"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_410C42AA_50D6_458c_990E_1C134342C252" xmi:type="uml:Package" name="Diagram" scope="public">
+				<model package2="EAID_410C42AA_50D6_458c_990E_1C134342C252" package="EAPK_8F96CFC6_DBD3_453b_8866_CD34F76A3CCE" tpos="0" ea_localid="256" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="arjen" version="1.0" phase="1.0" created="2019-12-08 16:15:53" modified="2019-12-08 16:15:53" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Voorbeeld Componenten"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2019-12-08 16:15:53" modified="2022-11-17 18:54:23" lastloaddate="2019-12-16 13:52:22" lastsavedate="2019-12-16 13:52:22"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_D3928CDC_B57A_43aa_824D_B7626AA3C7B0" xmi:type="uml:Package" name="Monumenten" scope="public">
+				<model package2="EAID_D3928CDC_B57A_43aa_824D_B7626AA3C7B0" package="EAPK_410C42AA_50D6_458c_990E_1C134342C252" tpos="0" ea_localid="257" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="arjen" version="1.0" phase="1.0" created="2019-12-08 16:05:22" modified="2019-12-08 16:15:59" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Diagram"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2019-12-08 16:05:22" modified="2022-11-17 18:54:23" lastloaddate="2019-12-16 13:52:22" lastsavedate="2019-12-16 13:52:22"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_86DDDE79_D878_4f2b_A6BE_605B6C1FE97C" xmi:type="uml:Package" name="Model" scope="public">
+				<model package2="EAID_86DDDE79_D878_4f2b_A6BE_605B6C1FE97C" package="EAPK_8F96CFC6_DBD3_453b_8866_CD34F76A3CCE" tpos="0" ea_localid="258" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="arjen" version="1.0" phase="1.0" created="2019-12-08 16:15:39" modified="2019-12-08 16:15:39" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Voorbeeld Componenten"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2019-12-08 16:15:39" modified="2022-11-17 18:54:23" lastloaddate="2019-12-16 13:52:22" lastsavedate="2019-12-16 13:52:22"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAPK_755F83C0_7E54_45d8_BE14_065ED96E2E49" xmi:type="uml:Package" name="Actoren" scope="public">
+				<model package2="EAID_755F83C0_7E54_45d8_BE14_065ED96E2E49" package="EAPK_86DDDE79_D878_4f2b_A6BE_605B6C1FE97C" tpos="0" ea_localid="259" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="arjen" version="1.0" phase="1.0" created="2019-12-08 16:16:41" modified="2019-12-08 16:16:41" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Model"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2019-12-08 16:16:41" modified="2022-11-17 18:54:23" lastloaddate="2019-12-16 13:52:22" lastsavedate="2019-12-16 13:52:22"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_4AE89043_ACF7_4779_8D7F_25C71C908AE3" xmi:type="uml:Actor" name="Medewerker Monumenten" scope="public">
+				<model package="EAPK_755F83C0_7E54_45d8_BE14_065ED96E2E49" tpos="0" ea_localid="1402" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Actor" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="arjen" version="1.0" phase="1.0" created="2019-12-08 16:11:26" modified="2022-11-17 18:54:23" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Actoren"/>
+				<links>
+					<Association xmi:id="EAID_FFC76700_65F3_47b2_B12F_679870A5165B" start="EAID_4F8755CF_8528_4c79_8D32_EA52BB76A162" end="EAID_4AE89043_ACF7_4779_8D7F_25C71C908AE3"/>
+				</links>
+			</element>
+			<element xmi:idref="EAPK_65EF8B82_8A58_4755_9C9C_CFC36960B5C8" xmi:type="uml:Package" name="Applicaties" scope="public">
+				<model package2="EAID_65EF8B82_8A58_4755_9C9C_CFC36960B5C8" package="EAPK_86DDDE79_D878_4f2b_A6BE_605B6C1FE97C" tpos="0" ea_localid="260" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="arjen" version="1.0" phase="1.0" created="2019-12-08 16:16:25" modified="2019-12-08 16:16:25" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Model"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2019-12-08 16:16:25" modified="2022-11-17 18:54:23" lastloaddate="2019-12-16 13:52:22" lastsavedate="2019-12-16 13:52:22"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_4F8755CF_8528_4c79_8D32_EA52BB76A162" xmi:type="uml:Component" name="Monumenten administratie" scope="public">
+				<model package="EAPK_65EF8B82_8A58_4755_9C9C_CFC36960B5C8" tpos="0" ea_localid="1404" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Component" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<project author="arjen" version="1.0" phase="1.0" created="2019-12-08 16:06:45" modified="2022-11-17 18:54:23" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Applicaties"/>
+				<links>
+					<Association xmi:id="EAID_FFC76700_65F3_47b2_B12F_679870A5165B" start="EAID_4F8755CF_8528_4c79_8D32_EA52BB76A162" end="EAID_4AE89043_ACF7_4779_8D7F_25C71C908AE3"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_4903E2CB_AD5D_400e_8DC7_D784F2EF7381" xmi:type="uml:Object" name="Beschermde status" scope="public">
+				<model package="EAPK_65EF8B82_8A58_4755_9C9C_CFC36960B5C8" owner="EAID_4F8755CF_8528_4c79_8D32_EA52BB76A162" tpos="0" ea_localid="1407" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Object" nType="0" scope="public" isAbstract="false"/>
+				<project author="arjen" version="1.0" phase="1.0" created="2019-12-08 16:24:56" modified="2022-11-17 18:54:23" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Applicaties"/>
+			</element>
+			<element xmi:idref="EAID_29C95111_8B01_4cfb_9388_29020A7D2A85" xmi:type="uml:Object" name="pand" scope="public">
+				<model package="EAPK_65EF8B82_8A58_4755_9C9C_CFC36960B5C8" owner="EAID_4F8755CF_8528_4c79_8D32_EA52BB76A162" tpos="0" ea_localid="1406" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Object" nType="0" scope="public" isAbstract="false"/>
+				<project author="arjen" version="1.0" phase="1.0" created="2019-12-08 16:25:36" modified="2022-11-17 18:54:23" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Applicaties"/>
+			</element>
+			<element xmi:idref="EAID_38562162_2CC8_4c48_8FF9_CF2ED5FB6F9A" xmi:type="uml:Object" name="bouwstijl" scope="public">
+				<model package="EAPK_65EF8B82_8A58_4755_9C9C_CFC36960B5C8" owner="EAID_4F8755CF_8528_4c79_8D32_EA52BB76A162" tpos="0" ea_localid="1405" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Object" nType="0" scope="public" isAbstract="false"/>
+				<project author="arjen" version="1.0" phase="1.0" created="2019-12-08 16:25:52" modified="2022-11-17 18:54:23" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Applicaties"/>
+			</element>
+		</elements>
+		<connectors>
+			<connector xmi:idref="EAID_FFC76700_65F3_47b2_B12F_679870A5165B" name="Bijhouden administratie">
+				<source xmi:idref="EAID_4F8755CF_8528_4c79_8D32_EA52BB76A162">
+					<model ea_localid="1404" type="Component" name="Monumenten administratie"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_4AE89043_ACF7_4779_8D7F_25C71C908AE3">
+					<model ea_localid="1402" type="Actor" name="Medewerker Monumenten"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="93"/>
+				<properties ea_type="Association" direction="Bi-Directional"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels mt="Bijhouden administratie"/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+		</connectors>
+		<primitivetypes>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPrimitiveTypesPackage" name="EA_PrimitiveTypes_Package" visibility="public"/>
+		</primitivetypes>
+		<profiles/>
+		<diagrams>
+			<diagram xmi:id="EAID_9E6F2484_333D_452e_934D_D04C8F80217E">
+				<model package="EAPK_D3928CDC_B57A_43aa_824D_B7626AA3C7B0" localID="230" owner="EAPK_D3928CDC_B57A_43aa_824D_B7626AA3C7B0"/>
+				<properties name="Applicaties Monumenten" type="Component"/>
+				<project author="arjen" version="1.0" created="2019-12-08 16:04:06" modified="2019-12-08 16:40:30"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=826;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=1;HideOps=1;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;HandDraw=1;"/>
+				<style2 value="SaveTag=A8A4EEB8;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=1;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;HandDraw=1;SuppressedCompartments=;Theme=:119;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=15589597;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-21,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<extendedProperties/>
+				<xrefs/>
+				<elements>
+					<element geometry="Left=365;Top=39;Right=410;Bottom=129;" subject="EAID_4AE89043_ACF7_4779_8D7F_25C71C908AE3" seqno="1" style="DUID=209389A7;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+					<element geometry="Left=66;Top=64;Right=176;Bottom=124;" subject="EAID_4F8755CF_8528_4c79_8D32_EA52BB76A162" seqno="2" style="DUID=B0046EAD;"/>
+					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=CX=93:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_FFC76700_65F3_47b2_B12F_679870A5165B" style="Mode=3;EOID=209389A7;SOID=B0046EAD;Color=-1;LWidth=0;Hidden=0;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_8EFC6584_0673_42d3_9950_FE2D403FFA2B">
+				<model package="EAPK_D3928CDC_B57A_43aa_824D_B7626AA3C7B0" localID="231" owner="EAPK_D3928CDC_B57A_43aa_824D_B7626AA3C7B0"/>
+				<properties name="Diagram" type="Use Case"/>
+				<project author="arjen" version="1.0" created="2019-12-08 16:11:23" modified="2019-12-08 16:15:27"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=815;DocSize.cy=1067;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=32512;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="SaveTag=6302D45F;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;MDGView=UML::Simple Use Case;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-21,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<extendedProperties/>
+				<xrefs/>
+				<elements>
+					<element geometry="Left=100;Top=71;Right=145;Bottom=161;" subject="EAID_4AE89043_ACF7_4779_8D7F_25C71C908AE3" seqno="1" style="DUID=48948E6C;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_84395925_6C3E_433d_A230_772FC43C3D03">
+				<model package="EAPK_D3928CDC_B57A_43aa_824D_B7626AA3C7B0" localID="232" owner="EAPK_D3928CDC_B57A_43aa_824D_B7626AA3C7B0"/>
+				<properties name="Monumenten" type="Component"/>
+				<project author="arjen" version="1.0" created="2019-12-08 16:22:58" modified="2019-12-08 16:40:30"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=815;DocSize.cy=1067;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=32512;HideParents=0;UseAlias=0;HideAtts=1;HideOps=1;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="SaveTag=48F1A76F;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-21,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<extendedProperties/>
+				<xrefs/>
+				<elements>
+					<element geometry="Left=280;Top=64;Right=370;Bottom=114;" subject="EAID_38562162_2CC8_4c48_8FF9_CF2ED5FB6F9A" seqno="1" style="DUID=280303FC;"/>
+					<element geometry="Left=160;Top=64;Right=250;Bottom=114;" subject="EAID_29C95111_8B01_4cfb_9388_29020A7D2A85" seqno="2" style="DUID=FE1FB486;"/>
+					<element geometry="Left=47;Top=64;Right=137;Bottom=114;" subject="EAID_4903E2CB_AD5D_400e_8DC7_D784F2EF7381" seqno="3" style="DUID=15595614;"/>
+					<element geometry="Left=19;Top=24;Right=612;Bottom=198;" subject="EAID_4F8755CF_8528_4c79_8D32_EA52BB76A162" seqno="4" style="DUID=896E935F;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				</elements>
+			</diagram>
+		</diagrams>
+	</xmi:Extension>
+</xmi:XMI>

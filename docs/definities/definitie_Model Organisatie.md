@@ -20,9 +20,9 @@ Het model 'Model Organisatie' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.3 |
 | created | 2018-04-04 15:13:41 |
-| modified | 2018-06-07 09:57:21 |
+| modified | 2024-11-21 08:38:15 |
 | id | EAPK_69F9CD5F_3226_4180_9264_54AAC6052501 |
 
 
@@ -42,16 +42,16 @@ Het model 'Model Organisatie' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2018-11-13 15:49:09 |
-| modified | 2024-04-17 13:34:46 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_0E19C86B_9088_41bd_9DD0_15094426570E |
 | domein_iv3 |  |
 | domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
+| gemma_naam | Programma |
+| gemma_type | business-object |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-5c865df8-3c62-4302-9a7b-eb5bd9ba6785](https://gemmaonline.nl/index.php/GEMMA/id-5c865df8-3c62-4302-9a7b-eb5bd9ba6785) |
+| gemma_definitie | Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co√∂rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie. |
 | gemma_toelichting |  |
 
 
@@ -77,16 +77,16 @@ Attributen van objecttype Programma
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2018-05-14 14:32:41 |
-| modified | 2024-04-17 13:34:46 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_7087D528_7024_4569_876A_C4605A00546D |
 | domein_iv3 |  |
 | domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
+| gemma_naam | Project |
+| gemma_type | business-object |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-132ee7cb-0cfc-47d1-a50c-dd7e3a656651](https://gemmaonline.nl/index.php/GEMMA/id-132ee7cb-0cfc-47d1-a50c-dd7e3a656651) |
+| gemma_definitie | Geheel van activiteiten uitgevoerd in een tijdelijk samenwerkingsverband gericht op het binnen bepaalde randvoorwaarden (bv. tijd, geld) bereiken van een vooraf gedefinieerd resultaat. |
 | gemma_toelichting |  |
 
 

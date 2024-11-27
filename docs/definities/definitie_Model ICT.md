@@ -16,7 +16,7 @@ Het model 'Model ICT' kent de volgende objecttypen:
 * **Dienst**: Het uitvoeren van werkzaamheden met een continu of periodiek karakter om waarde te realiseren voor een afnemer.
 * **Domein/Taakveld**: Kennisgebied of activiteit gekarakteriseerd door een verzameling van concepten, begrippen en/of waarden
 * **Externe Bron**: Bron buiten de eigen organisatie
-* **Gegeven**: <Geen Definities>
+* **Gegeven**: bekend feit waaruit je gevolgtrekkingen kunt maken
 * **Generalisatie**: De typering van het hiërarchische verband tussen een meer generiek object van een objecttype en een meer specifiek object van een ander objecttype waarbij het laatstgenoemde object eigenschappen van het eerstgenoemde object overerft. Toelichting Een generalisatierelatie geeft aan dat bepaalde eigenschappen van een objecttype (vaak attribuutsoorten en/of relatiesoorten) ook gelden voor de gerelateerde objecttypen, én dat deze qua semantiek, structuur en syntax gelijk zijn. We spreken dan van een supertype met subtypen. De modelelementen die generiek gelden worden in een generiek objecttype, het supertype, gemodelleerd en deze worden overerft door elk subtype (minimaal twee) die de generalisatie relatie legt naar dit generieke objecttype. Voorbeeld: PERCEEL is specialisatie van KADASTRAAL ONROERENDE ZAAK, APPARTEMENTSRECHT is specialisatie van KADASTRAAL ONROERENDE ZAAK. PERCEEL en APPARTEMENTSRECHT hebben beide ‘Kadastrale aanduiding’ en een ‘relatie met ONROERENDE ZAAK FILIATIE’. 
 * **Hardware**: Alle fysieke componenten of onderdelen die in een computer een rol spelen.
 * **Inventaris**: Een inboedel of een opsomming van voorwerpen op een bepaalde plaats, gemaakt volgens een vaste procedure.
@@ -75,15 +75,15 @@ Het model 'Model ICT' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.4 |
 | created | 2019-01-10 11:40:16 |
-| modified | 2024-04-17 13:34:41 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_446E3931_B9F2_4b5c_80E7_5B240B8F816F |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Aanvraag |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b8b3fe1a-ea07-49a3-8580-4291afa6f26d](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b8b3fe1a-ea07-49a3-8580-4291afa6f26d) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-b8b3fe1a-ea07-49a3-8580-4291afa6f26d](https://gemmaonline.nl/index.php/GEMMA/id-b8b3fe1a-ea07-49a3-8580-4291afa6f26d) |
 | gemma_definitie | (officieel) verzoek, iets (officieel) vragen aan een bevoegde macht. |
 | gemma_toelichting |  |
 
@@ -109,15 +109,15 @@ Attributen van objecttype Aanvraag
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-10 11:33:53 |
-| modified | 2024-04-17 13:34:41 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_A8945FD7_EA20_418e_8E7F_18F13F16E338 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Applicatie |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f5c91145-fba4-47cb-aaf9-bb9c64e19a21](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f5c91145-fba4-47cb-aaf9-bb9c64e19a21) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f5c91145-fba4-47cb-aaf9-bb9c64e19a21](https://gemmaonline.nl/index.php/GEMMA/id-f5c91145-fba4-47cb-aaf9-bb9c64e19a21) |
 | gemma_definitie | Een applicatiecomponent die gericht is op het ondersteunen van eindgebruikers. |
 | gemma_toelichting |  |
 
@@ -136,7 +136,7 @@ Attributen van objecttype Applicatie
 | packagingstatus | int |  |
 | None | Class: "Versie" |  |
 | None | Class: "Leverancier" |  |
-| None | Class: "DOCUMENT" |  |
+| None | Class: "Document" |  |
 | None | Class: "Gegeven" |  |
 | None | Class: "Notitie" |  |
 | None | Class: "Package" |  |
@@ -160,9 +160,9 @@ Attributen van objecttype Applicatie
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.4 |
 | created | 2019-01-15 10:57:58 |
-| modified | 2024-04-17 13:34:41 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_8D273DE5_3529_4652_BCA1_F86B28F26017 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -178,21 +178,33 @@ Attributen van objecttype Attribuutsoort
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | authentiek | boolean |  |
-| datumOpname | Date |  |
-| definitie | Text |  |
-| domein | AN80 |  |
+| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
+| definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
+| domein | AN80 | <i>Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i>
+ |
 | ea_guid | guid |  |
-| herkomst | AN80 |  |
+| herkomst | AN80 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
 | herkomstDefinitie | AN80 |  |
 | id | int |  |
-| identificerend | boolean |  |
-| indicatieAfleidbaar | boolean |  |
-| indicatieMaterieleHistorie | boolean |  |
-| kardinaliteit | AN40 |  |
-| lengte | AN40 |  |
+| identificerend | boolean | Aanduiding dat attribuutsoort onderdeel uitmaakt van de unieke aanduiding van een object |
+| indicatieAfleidbaar | boolean | Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten. |
+| indicatieMaterieleHistorie | boolean | Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde. |
+| kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
+0..1: is soms niet beschikbaar
+1 : is altijd beschikbaar
+0..*: is niet altijd beschikbaar, kan
+meerdere malen voorkomen 1..*: is altijd beschikbaar, kan
+meerdere malen voorkomen
+Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
+| lengte | AN40 | De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
+<i>Bijvoorbeeld:</i>
+<i>‘1’ als de lengte exact 1 is;</i>
+<i>‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99; |
 | mogelijkGeenWaarde | boolean |  |
 | naam | AN80 |  |
-| patroon | AN40 |  |
+| patroon | AN40 | Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.
+De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.
+ |
 | precisie | int |  |
 | stereotype | AN40 |  |
 | toelichting | Text |  |
@@ -214,9 +226,9 @@ Attributen van objecttype Attribuutsoort
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-10 14:51:23 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_81F207D0_A071_48c7_8C4C_25F8D25A3DE8 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -251,15 +263,15 @@ Attributen van objecttype Classificatie
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-10 15:17:26 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_B027D022_41D9_4c63_A63D_8F5111689564 |
 | domein_iv3 |  |
 | domein_dcat |  |
-| gemma_naam | CMDB-item |
+| gemma_naam | CMDBItem |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f5365fcc-279e-42e5-bde4-e7b10700a8ed](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f5365fcc-279e-42e5-bde4-e7b10700a8ed) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f5365fcc-279e-42e5-bde4-e7b10700a8ed](https://gemmaonline.nl/index.php/GEMMA/id-f5365fcc-279e-42e5-bde4-e7b10700a8ed) |
 | gemma_definitie | Item in een Configuratie Management DataBase |
 | gemma_toelichting |  |
 
@@ -287,15 +299,15 @@ Attributen van objecttype CMDB-item
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-10 11:48:48 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_FFD22E11_7A3A_459a_B575_928C67E8D1F3 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Database |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d548564c-a918-47e4-ae60-697f0ed3e7aa](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d548564c-a918-47e4-ae60-697f0ed3e7aa) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-d548564c-a918-47e4-ae60-697f0ed3e7aa](https://gemmaonline.nl/index.php/GEMMA/id-d548564c-a918-47e4-ae60-697f0ed3e7aa) |
 | gemma_definitie | Een applicatiecomponent die een dataset bevat. |
 | gemma_toelichting |  |
 
@@ -332,9 +344,9 @@ Attributen van objecttype Database
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-15 15:05:26 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_7EFBF1CA_EC6E_4b8a_B97F_453CA32AB9A5 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -349,16 +361,28 @@ Attributen van objecttype Datatype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumOpname | Date |  |
-| definitie | Text |  |
-| domein | AN255 |  |
+| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
+| definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
+| domein | AN255 | <i>Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i>
+ |
 | ea_guid | guid |  |
-| herkomst | AN255 |  |
+| herkomst | AN255 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
 | id | int |  |
-| kardinaliteit | AN40 |  |
-| lengte | AN40 |  |
+| kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
+0..1: is soms niet beschikbaar
+1 : is altijd beschikbaar
+0..*: is niet altijd beschikbaar, kan
+meerdere malen voorkomen 1..*: is altijd beschikbaar, kan
+meerdere malen voorkomen
+Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
+| lengte | AN40 | De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
+<i>Bijvoorbeeld:</i>
+<i>‘1’ als de lengte exact 1 is;</i>
+<i>‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99; |
 | naam | AN255 |  |
-| patroon | AN40 |  |
+| patroon | AN40 | Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.
+De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.
+ |
 | toelichting | Text |  |
 
 
@@ -377,15 +401,15 @@ Attributen van objecttype Datatype
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-02-07 14:51:15 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_45AFD4E2_9909_4c33_93CE_F2466B85CA0F |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Dienst |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6cc63d39-c5a3-4d09-8eab-22e56384fe7e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6cc63d39-c5a3-4d09-8eab-22e56384fe7e) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-6cc63d39-c5a3-4d09-8eab-22e56384fe7e](https://gemmaonline.nl/index.php/GEMMA/id-6cc63d39-c5a3-4d09-8eab-22e56384fe7e) |
 | gemma_definitie | Het uitvoeren van werkzaamheden met een continu of periodiek karakter om waarde te realiseren voor een afnemer. |
 | gemma_toelichting |  |
 
@@ -415,15 +439,15 @@ Attributen van objecttype Dienst
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-02-07 14:40:39 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_BEFEC56A_EF6C_49f0_9368_7E46F75D9562 |
 | domein_iv3 |  |
 | domein_dcat |  |
-| gemma_naam | Domein/Taakveld |
+| gemma_naam | DomeinOfTaakveld |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a6ea9d59-4ac3-4aca-ba3f-1b52e741b56b](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-a6ea9d59-4ac3-4aca-ba3f-1b52e741b56b) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-a6ea9d59-4ac3-4aca-ba3f-1b52e741b56b](https://gemmaonline.nl/index.php/GEMMA/id-a6ea9d59-4ac3-4aca-ba3f-1b52e741b56b) |
 | gemma_definitie | Kennisgebied of activiteit gekarakteriseerd door een verzameling van concepten, begrippen en/of waarden |
 | gemma_toelichting |  |
 
@@ -449,15 +473,15 @@ Attributen van objecttype Domein/Taakveld
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-10 14:50:29 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_144D1047_35BB_4926_9472_895D89DC2E0C |
 | domein_iv3 |  |
 | domein_dcat |  |
-| gemma_naam | Externe Bron |
+| gemma_naam | ExterneBron |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c8645fb0-cd62-4940-9e68-306579d7dfd0](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-c8645fb0-cd62-4940-9e68-306579d7dfd0) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-c8645fb0-cd62-4940-9e68-306579d7dfd0](https://gemmaonline.nl/index.php/GEMMA/id-c8645fb0-cd62-4940-9e68-306579d7dfd0) |
 | gemma_definitie | Bron buiten de eigen organisatie |
 | gemma_toelichting |  |
 
@@ -476,7 +500,7 @@ Attributen van objecttype Externe Bron
 ### Gegeven
 > **Definitie Gegeven:** 
 >
-> Geen Definitie
+> bekend feit waaruit je gevolgtrekkingen kunt maken
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -486,15 +510,15 @@ Attributen van objecttype Externe Bron
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.7 |
 | created | 2019-01-10 14:50:41 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_E846CC36_DF4A_4398_AE4C_122CAFEBAEAA |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Gegeven |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-38d8e66f-29f5-4387-b12f-1291ee266080](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-38d8e66f-29f5-4387-b12f-1291ee266080) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-38d8e66f-29f5-4387-b12f-1291ee266080](https://gemmaonline.nl/index.php/GEMMA/id-38d8e66f-29f5-4387-b12f-1291ee266080) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -531,9 +555,9 @@ Attributen van objecttype Gegeven
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-15 14:59:27 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_0CF1C34D_8AD5_4ac5_8538_87252E66A8C8 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -548,13 +572,13 @@ Attributen van objecttype Generalisatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumOpname | Date |  |
-| definitie | Text |  |
+| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
+| definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
 | ea_guid | guid |  |
-| herkomst | AN255 |  |
+| herkomst | AN255 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
 | herkomstDefinitie | AN255 |  |
 | id | int |  |
-| indicatieMaterieleHistorie | boolean |  |
+| indicatieMaterieleHistorie | boolean | Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde. |
 | naam | AN255 |  |
 | toelichting | Text |  |
 
@@ -574,15 +598,15 @@ Attributen van objecttype Generalisatie
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-10 11:35:52 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_6C92F0F8_BC92_428c_B729_1A10D515DAEF |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Hardware |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-acbda3e0-9767-49bb-8d4c-2b5ea0160056](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-acbda3e0-9767-49bb-8d4c-2b5ea0160056) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-acbda3e0-9767-49bb-8d4c-2b5ea0160056](https://gemmaonline.nl/index.php/GEMMA/id-acbda3e0-9767-49bb-8d4c-2b5ea0160056) |
 | gemma_definitie | Alle fysieke componenten of onderdelen die in een computer een rol spelen. |
 | gemma_toelichting |  |
 
@@ -608,15 +632,15 @@ Attributen van objecttype Hardware
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-10 11:37:23 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_D0AB8CF6_F6CC_4337_BE07_DFE6B3CEFBB3 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Inventaris |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-41cea01b-de1c-4ee5-92c4-776fe8a17753](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-41cea01b-de1c-4ee5-92c4-776fe8a17753) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-41cea01b-de1c-4ee5-92c4-776fe8a17753](https://gemmaonline.nl/index.php/GEMMA/id-41cea01b-de1c-4ee5-92c4-776fe8a17753) |
 | gemma_definitie | Een inboedel of een opsomming van voorwerpen op een bepaalde plaats, gemaakt volgens een vaste procedure. |
 | gemma_toelichting |  |
 
@@ -642,9 +666,9 @@ Attributen van objecttype Inventaris
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-10 11:49:07 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_AB7CF266_388F_413a_92D0_B2FA67C75633 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -680,15 +704,15 @@ Attributen van objecttype Koppeling
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-10 11:36:55 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_2E5F9AF9_D1BA_4dc0_9621_4101D24B8ABD |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Licentie |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-764e6fdf-299f-4867-8257-7532f1e56ebf](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-764e6fdf-299f-4867-8257-7532f1e56ebf) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-764e6fdf-299f-4867-8257-7532f1e56ebf](https://gemmaonline.nl/index.php/GEMMA/id-764e6fdf-299f-4867-8257-7532f1e56ebf) |
 | gemma_definitie | Een gebruiksrecht en autorisatie om van een product of dienst gebruik te maken binnen bepaalde voorwaarden |
 | gemma_toelichting |  |
 
@@ -714,15 +738,15 @@ Attributen van objecttype Licentie
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-10 16:32:50 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_C0F1A08E_C6CD_4524_A2E0_0E5CA483DCFD |
 | domein_iv3 |  |
 | domein_dcat |  |
-| gemma_naam | Linkbaar CMDB-item |
+| gemma_naam | LinkbaarCMDBItem |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5003634c-22b1-4f9a-bf73-8cdb4c42a8b4](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-5003634c-22b1-4f9a-bf73-8cdb4c42a8b4) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-5003634c-22b1-4f9a-bf73-8cdb4c42a8b4](https://gemmaonline.nl/index.php/GEMMA/id-5003634c-22b1-4f9a-bf73-8cdb4c42a8b4) |
 | gemma_definitie | Niet opnemen |
 | gemma_toelichting |  |
 
@@ -749,15 +773,15 @@ Attributen van objecttype Linkbaar CMDB-item
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-10 11:49:38 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_5492ED6D_608E_465e_B975_BCADAAA3EE7F |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Log |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-faf0976b-5000-4eb1-976d-10a3d7edf2c5](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-faf0976b-5000-4eb1-976d-10a3d7edf2c5) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-faf0976b-5000-4eb1-976d-10a3d7edf2c5](https://gemmaonline.nl/index.php/GEMMA/id-faf0976b-5000-4eb1-976d-10a3d7edf2c5) |
 | gemma_definitie | Registratie van gegevens. |
 | gemma_toelichting |  |
 
@@ -786,15 +810,15 @@ Attributen van objecttype Log
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.4 |
 | created | 2019-01-10 11:38:45 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_6100B3C7_FBCE_434d_BA48_E067B9CF84A7 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Melding |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fadba6bd-b55a-4d68-8136-096db8f3df5e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-fadba6bd-b55a-4d68-8136-096db8f3df5e) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-fadba6bd-b55a-4d68-8136-096db8f3df5e](https://gemmaonline.nl/index.php/GEMMA/id-fadba6bd-b55a-4d68-8136-096db8f3df5e) |
 | gemma_definitie | De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend |
 | gemma_toelichting |  |
 
@@ -820,15 +844,15 @@ Attributen van objecttype Melding
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.3 |
 | created | 2019-01-10 11:35:05 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 08:38:12 |
 | id | EAID_DD277E82_0CA5_4460_918F_9178B5F01886 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Nertwerkcomponent |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6a2e72c3-94f8-4dfd-a68c-03aab1279c75](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-6a2e72c3-94f8-4dfd-a68c-03aab1279c75) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-6a2e72c3-94f8-4dfd-a68c-03aab1279c75](https://gemmaonline.nl/index.php/GEMMA/id-6a2e72c3-94f8-4dfd-a68c-03aab1279c75) |
 | gemma_definitie |  |
 | gemma_toelichting |  |
 
@@ -854,15 +878,15 @@ Attributen van objecttype Nertwerkcomponent
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-14 16:44:58 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_354E5545_D067_4b81_9D1D_C5F5FFB532C7 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Notitie |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ca903c71-96d8-4db2-9aa9-52210dd02c1d](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ca903c71-96d8-4db2-9aa9-52210dd02c1d) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-ca903c71-96d8-4db2-9aa9-52210dd02c1d](https://gemmaonline.nl/index.php/GEMMA/id-ca903c71-96d8-4db2-9aa9-52210dd02c1d) |
 | gemma_definitie | Korte, zakelijke uiteenzetting op schrift |
 | gemma_toelichting |  |
 
@@ -873,7 +897,7 @@ Attributen van objecttype Notitie
 | :--- | :--- | :--- |
 | datum | Date |  |
 | inhoud | Text |  |
-| None | Class: "MEDEWERKER" |  |
+| None | Class: "Medewerker" |  |
 
 
 
@@ -893,9 +917,9 @@ Attributen van objecttype Notitie
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-10 14:50:11 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_A2451674_6C19_4bf9_81F9_57CDE2F60144 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -910,19 +934,21 @@ Attributen van objecttype Objecttype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumOpname | Date |  |
-| definitie | Text |  |
+| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
+| definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
 | ea_guid | guid |  |
-| herkomst | AN255 |  |
+| herkomst | AN255 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
 | herkomstDefinitie | AN255 |  |
 | id | int |  |
-| indicatieAbstract | boolean |  |
-| kwaliteit | AN255 |  |
+| indicatieAbstract | boolean | Conceptueel model: indicatie dat het objecttype een generalisatie is,
+waarvan een object als specialisatie altijd voorkomt in de hoedanigheid van een (en slechts één) van de specialisaties van het betreffende objecttype.
+Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende objecttype mogen voorkomen. |
+| kwaliteit | AN255 | Voor objecttypen die deel uitmaken van een registratie betreft dit de waarborgen voor de juistheid van de in de registratie opgenomen objecten van het desbetreffende type. |
 | naam | AN255 |  |
-| populatie | Text |  |
+| populatie | Text | Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)- registratie voorhanden zijn. |
 | stereotype | AN255 |  |
 | toelichting | Text |  |
-| uniekeAanduiding | AN255 |  |
+| uniekeAanduiding | AN255 | Voor objecttypen die deel uitmaken van een (basis)registratie of informatiemodel betreft dit de wijze waarop daarin voorkomende objecten (van dit type) uniek in de registratie worden aangeduid. |
 | None | Class: "Relatiesoort" |  |
 | supertype | Class: "Generalisatie" |  |
 | None | Class: "Attribuutsoort" |  |
@@ -943,9 +969,9 @@ Attributen van objecttype Objecttype
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-02-07 14:51:28 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_2AA9DB3B_D79C_490d_8776_DA1CB25E9B09 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -978,16 +1004,16 @@ Attributen van objecttype Onderwerp
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-14 16:49:18 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_ACE86CFF_D6D0_4cbd_8395_99BD763F1B37 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Package |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-16727428-b97d-498b-9d5a-91b71dd67dc1](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-16727428-b97d-498b-9d5a-91b71dd67dc1) |
-| gemma_definitie | Een samengesteld bestand of een directory die een aantal bestanden bevat, maar welke als √©√©n bestand aan de gebruiker getoond word |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-16727428-b97d-498b-9d5a-91b71dd67dc1](https://gemmaonline.nl/index.php/GEMMA/id-16727428-b97d-498b-9d5a-91b71dd67dc1) |
+| gemma_definitie | Een samengesteld bestand of een directory die een aantal bestanden bevat, maar welke als één bestand aan de gebruiker getoond word |
 | gemma_toelichting |  |
 
 
@@ -1017,9 +1043,9 @@ Attributen van objecttype Package
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-02-07 14:45:09 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_F1489610_1E50_4328_8CD8_F41E9CE0C0D8 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1051,15 +1077,15 @@ Attributen van objecttype Prijzenboek
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-02-07 14:41:02 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_D5DD2F67_6A1F_46b0_972E_795ECC4B2E4F |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Product |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3b8b01b0-7870-48fb-b4a7-6a5a593e4ea3](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3b8b01b0-7870-48fb-b4a7-6a5a593e4ea3) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-3b8b01b0-7870-48fb-b4a7-6a5a593e4ea3](https://gemmaonline.nl/index.php/GEMMA/id-3b8b01b0-7870-48fb-b4a7-6a5a593e4ea3) |
 | gemma_definitie | Het resultaat van een proces dat in het economisch verkeer een waarde bezit. |
 | gemma_toelichting |  |
 
@@ -1093,9 +1119,9 @@ Attributen van objecttype Product
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-15 14:49:11 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_DFD2814E_7D36_45e2_B082_2ED574A409E1 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1111,19 +1137,27 @@ Attributen van objecttype Relatiesoort
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | authentiek | boolean |  |
-| datumOpname | Date |  |
-| definitie | Text |  |
+| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
+| definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
 | ea_guid | guid |  |
-| herkomst | AN80 |  |
+| herkomst | AN80 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
 | herkomstDefinitie | AN80 |  |
 | id | int |  |
-| indicatieAfleidbaar | boolean |  |
-| indicatieMaterieleHistorie | boolean |  |
-| kardinaliteit | AN40 |  |
+| indicatieAfleidbaar | boolean | Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten. |
+| indicatieMaterieleHistorie | boolean | Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde. |
+| kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
+0..1: is soms niet beschikbaar
+1 : is altijd beschikbaar
+0..*: is niet altijd beschikbaar, kan
+meerdere malen voorkomen 1..*: is altijd beschikbaar, kan
+meerdere malen voorkomen
+Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
 | mogelijkGeenWaarde | boolean |  |
 | naam | AN80 |  |
 | toelichting | Text |  |
-| unidirectioneel | AN40 |  |
+| unidirectioneel | AN40 | Het gerelateerde objecttype (de target) waarvan het objecttype, die de eigenaar is van deze relatie (de source), kennis heeft.
+Alle relaties zijn altijd gericht van het objecttype (source) naar het gerelateerde objecttype (target).
+ |
 
 
 
@@ -1141,15 +1175,15 @@ Attributen van objecttype Relatiesoort
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-10 11:34:53 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_3AFD7E5F_8061_4776_A332_334AF4125E7D |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Server |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4694a321-36db-4a54-a7ab-6c3895a4e288](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-4694a321-36db-4a54-a7ab-6c3895a4e288) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-4694a321-36db-4a54-a7ab-6c3895a4e288](https://gemmaonline.nl/index.php/GEMMA/id-4694a321-36db-4a54-a7ab-6c3895a4e288) |
 | gemma_definitie | Computer die in een netwerk een ondersteunende taak vervult. |
 | gemma_toelichting |  |
 
@@ -1184,15 +1218,15 @@ Attributen van objecttype Server
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-10 11:36:22 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_0B3C37DD_42A1_4b6b_B534_CD276112FD3B |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Software |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d35905fd-2aad-49e6-8ee5-5147c253a478](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d35905fd-2aad-49e6-8ee5-5147c253a478) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-d35905fd-2aad-49e6-8ee5-5147c253a478](https://gemmaonline.nl/index.php/GEMMA/id-d35905fd-2aad-49e6-8ee5-5147c253a478) |
 | gemma_definitie | Een geheel van computerprogramma's met bijbehorende data, die bewerkingen en taken uitvoeren |
 | gemma_toelichting |  |
 
@@ -1218,15 +1252,15 @@ Attributen van objecttype Software
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-10 11:40:28 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_4E5F272E_00CA_481c_A51B_7D08B5E6B0A9 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Storing |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ad9da532-d9a3-4c82-858d-e58a61ddf95f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ad9da532-d9a3-4c82-858d-e58a61ddf95f) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-ad9da532-d9a3-4c82-858d-e58a61ddf95f](https://gemmaonline.nl/index.php/GEMMA/id-ad9da532-d9a3-4c82-858d-e58a61ddf95f) |
 | gemma_definitie | Verlies van de mogelijkheid om volgens een specificatie te werken of om het vereiste resultaat te leveren. |
 | gemma_toelichting |  |
 
@@ -1252,15 +1286,15 @@ Attributen van objecttype Storing
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-10 11:37:09 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_DDD2167F_4A0F_468b_894E_6BB9ED9DA5E0 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Telefoniegegevens |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e63e4e3c-ca45-4690-aa55-c38a1bc73d2c](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-e63e4e3c-ca45-4690-aa55-c38a1bc73d2c) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-e63e4e3c-ca45-4690-aa55-c38a1bc73d2c](https://gemmaonline.nl/index.php/GEMMA/id-e63e4e3c-ca45-4690-aa55-c38a1bc73d2c) |
 | gemma_definitie | Gegevens die worden bewaard van telefoongesprekken |
 | gemma_toelichting |  |
 
@@ -1286,15 +1320,15 @@ Attributen van objecttype Telefoniegegevens
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-10 11:37:51 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_D67A4AC2_9A17_4cd0_82D7_732A89018FDA |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Toegangsmiddel |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-55c7fd37-4d03-45f4-b374-69aa690d1477](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-55c7fd37-4d03-45f4-b374-69aa690d1477) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-55c7fd37-4d03-45f4-b374-69aa690d1477](https://gemmaonline.nl/index.php/GEMMA/id-55c7fd37-4d03-45f4-b374-69aa690d1477) |
 | gemma_definitie | Een middel waarmee men zich toegang tot iets kan verschaffen. |
 | gemma_toelichting |  |
 
@@ -1320,15 +1354,15 @@ Attributen van objecttype Toegangsmiddel
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-14 16:36:00 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_39445166_1EAB_43f8_9F5C_89EA606605EE |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Versie |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3d765f43-c4e8-4556-850b-bb886c528d5d](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3d765f43-c4e8-4556-850b-bb886c528d5d) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-3d765f43-c4e8-4556-850b-bb886c528d5d](https://gemmaonline.nl/index.php/GEMMA/id-3d765f43-c4e8-4556-850b-bb886c528d5d) |
 | gemma_definitie | De versie-aanduiding van een object. |
 | gemma_toelichting |  |
 
@@ -1360,15 +1394,15 @@ Attributen van objecttype Versie
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.4 |
 | created | 2019-01-10 11:37:36 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_E8C75DAB_F9AE_4fe2_9114_870434F2EA80 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Vervoersmiddel |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-92104ecd-beda-441d-b5fd-b6d2296969d0](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-92104ecd-beda-441d-b5fd-b6d2296969d0) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-92104ecd-beda-441d-b5fd-b6d2296969d0](https://gemmaonline.nl/index.php/GEMMA/id-92104ecd-beda-441d-b5fd-b6d2296969d0) |
 | gemma_definitie | Een voertuig dat zich over het land verplaatst. |
 | gemma_toelichting |  |
 
@@ -1394,15 +1428,15 @@ Attributen van objecttype Vervoersmiddel
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.5 |
 | created | 2019-01-10 11:40:46 |
-| modified | 2024-04-17 13:34:42 |
+| modified | 2024-11-21 23:01:52 |
 | id | EAID_EFBF46D1_6A51_44fd_BAEA_47BCDFEEE27A |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Wijzigingsverzoek |
 | gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3a602b01-9a08-4224-8caf-3cb58130fb30](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3a602b01-9a08-4224-8caf-3cb58130fb30) |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-3a602b01-9a08-4224-8caf-3cb58130fb30](https://gemmaonline.nl/index.php/GEMMA/id-3a602b01-9a08-4224-8caf-3cb58130fb30) |
 | gemma_definitie | Een aanvraag voor wijziging |
 | gemma_toelichting |  |
 

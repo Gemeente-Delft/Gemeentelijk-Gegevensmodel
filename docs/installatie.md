@@ -5,7 +5,7 @@
 Dit is de gemakkelijkste manier om te starten met het Gemeentelijk Gegevensmodel. Het werkt ook met de [viewer van Enterprise Architect](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/).
 
 1. Installeer Enterprise Architect of de viewer van Enterprise Architect. 
-2. Download het bestand 'Gemeentelijk_Gegevensmodel.qua'.
+2. Download het bestand 'Gemeentelijk_Gegevensmodel.qea'.
 3. Open 'Gemeentelijk_Gegevensmodel.qua' met de Enterprise Architect.
 
 ## XMI-bestand importeren in project
@@ -16,14 +16,14 @@ Je kunt het ook importeren in een ander tool met UML-ondersteuning. Wij hebben n
 
 Hieronder de te nemen stappen om het in een nieuw of bestaand project binnen Enterprise Architect te importeren.
 
-1\. Download het bestand 'Gemeentelijk_Gegevensmodel.xml'
-2\. Start Enterprise Architect (of andere XMI-Compatible tooling)
-3\. (Optioneel) Maak nieuw project
-4\. Kies _"Import Package from XMI"_
+1. Download het bestand [GGM XMI-bestand geschikt voor Enterprise Architect 15, 16 en 17](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/gemeentelijk%20gegevensmodel%20XMI2.1.xml) en sla deze lokaal op
+2. Start Enterprise Architect (of andere XMI-Compatible tooling) 
+3. (Optioneel) Maak nieuw project
+4. Kies _"Import Package from XMI"_
 
 ![Import XMI][importXMI]
 
-5\. Selecteer bij ”Filename” het gedownloade bestand “Gemeentelijk Gegevensmodel XML2.1.2.xml”
+5\. Selecteer bij ”Filename” het gedownloade bestand “Gemeentelijk Gegevensmodel XMI2.1.xml”
 
 ![Select Filename][selectFilename]
 
@@ -47,7 +47,7 @@ Het Gemeentelijk Gegevensmodel (GGM) kan als [XMI-vorm](https://www.omg.org/spec
 Hieronder de te nemen stappen om het in een nieuw 
 project binnen Bizzdesign te importeren.
 
-1\. Download het bestand [Gemeentelijk Gegevensmodel XMI2.1.2](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/Gemeentelijk%20Gegevensmodel%20XMI2.1.2.xml)
+1\. Download het bestand [Gemeentelijk Gegevensmodel XMI2.1](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/gemeentelijk%20gegevensmodel%20XMI2.1.xml)
 
 2\. Start Bizzdesign
 
@@ -59,7 +59,7 @@ project binnen Bizzdesign te importeren.
 
 ![Selecteer het UML-model][Bizzdesign_stap2]
 
-5\. Voer het script uit via de Execute-knop van de query-editor, en kies het XMI-bestand 'Gemeentelijk Gegevensmodel XMI2.1.2' dat je net hebt gedownload. De inhoud wordt geïmporteerd in het geselecteerde UML-model. Zorg dat het uitvoertype op “Geen output” of “Tabel” staat en niet op “Tekstbestand”. Tijdens het uitvoeren van het script kun je waarschuwingen krijgen, die kun je negeren.  
+5\. Voer het script uit via de Execute-knop van de query-editor, en kies het XMI-bestand 'Gemeentelijk Gegevensmodel XMI2.1' dat je net hebt gedownload. De inhoud wordt geïmporteerd in het geselecteerde UML-model. Zorg dat het uitvoertype op “Geen output” of “Tabel” staat en niet op “Tekstbestand”. Tijdens het uitvoeren van het script kun je waarschuwingen krijgen, die kun je negeren.  
 
 6\. Even wachten….
 

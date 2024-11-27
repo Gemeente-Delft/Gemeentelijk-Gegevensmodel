@@ -6,11 +6,11 @@ Bij het GGM is een set codegeneratietemplates die binnen Enterprise Architect ge
 2. MySQL (ongetest)
 3. Wij nodigen ontwikkelaars van harte uit deze te gebruiken en verder geschikt te maken voor het GGM.
 
-De geleverde codegeneratietemplates zijn uitbreidingen op de standaard templates van [Enterprise Architect](https://sparxsystems.com), als onderdeel van het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html).
+De geleverde codegeneratietemplates zijn uitbreidingen op de standaard templates van [Enterprise Architect](https://sparxsystems.com), als onderdeel van het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_domains/codetemplates_2.html).
 
 ## Installeren codegeneratietemplates
 
-1. Download het bestand 'CodegeneratieTemplates.xml'
+1. Download het bestand [CodegeneratieTemplates.xml((https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/CodegeneratieTemplates.xml))
 2. Start Enterprise Architect
 3. (Optioneel) Maak nieuw project
 4. Kies _Import Reference Data_
