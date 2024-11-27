@@ -34,7 +34,7 @@ Let op: Het Gemeentetelijk Gegevensmodel is een [UML-model](http://www.uml.org) 
 
 ### Installatie Gemeentelijk Gegevensmodel
 
-Hieronder vind je de installatiebeschrijving bij de verschillende ondersteunde tools:
+Van het Gemeentelijk Gegevensmodel zijn verschillende versies beschikbaar: v1.0.3, v2.0.0, v2.1.0 en de courante versie v2.2.0. Je vindt deze in de afzonderlijke versies van de repository. De hierna volgende uitleg betreft de laatste versie van het GGM. Hieronder vind je de installatiebeschrijving bij de verschillende ondersteunde tools:
 
 1. [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/) of [Enterprise Architect versie 16 of 17](https://sparxsystems.com/products/ea/16.1/index.html): download hiervoor het bestand [QEA-bestand](./v2.2.0/gemeentelijk%20gegevensmodel%20EA16.qea) en open het in (de viewer van) Enterprise Architect.
 2. [Enterprise Architect versie 15](https://sparxsystems.com/products/ea/15.2/index.html): de EAPX van versie 15 wordt niet meer ondersteund in de nieuwe release. Wil je het GGM alsnog in versie 15 laden, dan kan dat via het XMI bestand.
