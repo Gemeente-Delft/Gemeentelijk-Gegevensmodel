@@ -54,7 +54,7 @@ Het XMI-bestand van het Gemeentelijk Gegevensmodel is in theorie te gebruiken in
 
 Het Gemeentelijk Gegevensmodel is beschikbaar in:
 
-* [XMI versie 2.1.2](https://www.omg.org/spec/XMI/About-XMI/)
+* [XMI versie 2.1](https://www.omg.org/spec/XMI/About-XMI/)
 
 Het is Getest en gebruikt in de volgende omgevingen:
 
