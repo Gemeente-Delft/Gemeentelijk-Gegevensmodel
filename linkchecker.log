@@ -1,0 +1,394 @@
+LinkChecker 10.5.0
+Copyright (C) 2000-2016 Bastian Kleineidam, 2010-2024 LinkChecker Authors
+LinkChecker comes with ABSOLUTELY NO WARRANTY!
+This is free software, and you are welcome to redistribute it under
+certain conditions. Look at the file `COPYING' within this distribution.
+Read the documentation at https://linkchecker.github.io/linkchecker/
+Write comments and bugs to https://github.com/linkchecker/linkchecker/issues
+
+Start checking at 2024-11-28 10:52:30+002
+
+URL        `https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html'
+Name       `Code Template Framework'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3116, col 364
+Real URL   https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html
+Check time 2.674 seconds
+Result     Error: 403 Forbidden
+
+URL        `https://sparxsystems.com'
+Name       `Enterprise Architect'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3128, col 155
+Real URL   https://sparxsystems.com
+Check time 1.024 seconds
+Result     Error: 403 Forbidden
+
+URL        `https://www.gemeentedelers.nl/'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3118, col 3
+Real URL   https://vng.nl/gemeentedelers
+Check time 2.856 seconds
+Size       23.45KB
+Warning    [http-redirected] Redirected to
+           `https://vng.nl/gemeentedelers' status: 302 Found.
+Result     Valid: 200 OK
+
+URL        `https://sparxsystems.com/enterprise_architect_user_guide/17.0/getting_started/ea_lite.html'
+Name       `Enterprise Architect Viewer'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3133, col 5
+Real URL   https://sparxsystems.com/enterprise_architect_user_guide/17.0/getting_started/ea_lite.html
+Check time 0.951 seconds
+Result     Error: 403 Forbidden
+
+URL        `https://sparxsystems.com/enterprise_architect_user_guide/17.0/getting_started/editiondifferences.html'
+Name       `Enterprise Architect versie 17'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3133, col 141
+Real URL   https://sparxsystems.com/enterprise_architect_user_guide/17.0/getting_started/editiondifferences.html
+Check time 1.182 seconds
+Result     Error: 403 Forbidden
+
+URL        `https://support.valueblue.nl/hc/nl/articles/360013407860-AMEFF-bestanden-importeren-naar-BlueDolphin'
+Name       `handleiding: AMEFF bestanden importeren'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3136, col 393
+Real URL   https://support.valueblue.nl/hc/nl/articles/360013407860-AMEFF-bestanden-importeren-naar-BlueDolphin
+Check time 1.368 seconds
+Result     Error: 403 Forbidden
+
+URL        `https://sparxsystems.com/products/ea/14/index.html'
+Name       `Enterprise Architect versie 14'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3148, col 5
+Real URL   https://sparxsystems.com/products/ea/14/index.html
+Check time 1.274 seconds
+Result     Error: 403 Forbidden
+
+URL        `https://github.com/VNG-Realisatie/GEMMA-GGM-Archi-repository/blob/develop/AMEFF%20export/GGM.xml'
+Name       `AMEFF-bestand'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3136, col 95
+Real URL   https://github.com/VNG-Realisatie/GEMMA-GGM-Archi-repository/blob/develop/AMEFF%20export/GGM.xml
+Check time 1.571 seconds
+Result     Error: 404 Not Found
+
+URL        `https://sparxsystems.com/products/ea/15/index.html'
+Name       `Enterprise Architect versie 15'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3149, col 5
+Real URL   https://sparxsystems.com/products/ea/15/index.html
+Check time 1.597 seconds
+Result     Error: 403 Forbidden
+
+URL        `https://sparxsystems.com/products/ea/trial/request.html'
+Name       `Enterprise Architect versie 16'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3150, col 5
+Real URL   https://sparxsystems.com/products/ea/trial/request.html
+Check time 2.142 seconds
+Result     Error: 403 Forbidden
+
+URL        `https://istandaarden.nl/istandaarden/ipgb/werken-met-ipgb-10'
+Name       `iPgb'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3238, col 5
+Real URL   https://www.istandaarden.nl/pagenotfound
+Check time 1.208 seconds
+Warning    [http-redirected] Redirected to
+           `http://www.istandaarden.nl/istandaarden/ipgb/werken-met-ipgb-10'
+           status: 301 Moved Permanently.
+           [http-redirected] Redirected to
+           `https://www.istandaarden.nl/istandaarden/ipgb/werken-met-ipgb-10'
+           status: 302 Moved Temporarily.
+           [http-redirected] Redirected to
+           `https://www.istandaarden.nl/pagenotfound' status: 302
+           .
+Result     Error: 404 
+
+URL        `https://istandaarden.nl/istandaarden/iwmo'
+Name       `iWmo'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3236, col 5
+Real URL   https://www.istandaarden.nl/pagenotfound
+Check time 1.844 seconds
+Warning    [http-redirected] Redirected to
+           `http://www.istandaarden.nl/istandaarden/iwmo' status:
+           301 Moved Permanently.
+           [http-redirected] Redirected to
+           `https://www.istandaarden.nl/istandaarden/iwmo'
+           status: 302 Moved Temporarily.
+           [http-redirected] Redirected to
+           `https://www.istandaarden.nl/pagenotfound' status: 302
+           .
+Result     Error: 404 
+
+URL        `https://istandaarden.nl/istandaarden/ijw'
+Name       `iJw'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3237, col 5
+Real URL   https://www.istandaarden.nl/pagenotfound
+Check time 2.070 seconds
+Warning    [http-redirected] Redirected to
+           `http://www.istandaarden.nl/istandaarden/ijw' status:
+           301 Moved Permanently.
+           [http-redirected] Redirected to
+           `https://www.istandaarden.nl/istandaarden/ijw' status:
+           302 Moved Temporarily.
+           [http-redirected] Redirected to
+           `https://www.istandaarden.nl/pagenotfound' status: 302
+           .
+Result     Error: 404 
+
+URL        `https://aandeslagmetdeomgevingswet.nl/digitaal-stelsel/technisch-aansluiten/koppelvlakken/toepasbare-regels/standaard/'
+Name       `Standaard- en informatiemodel toepasbare regels (STTR en IMTR)'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3241, col 5
+Real URL   https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/sttr-imtr/
+Check time 1.703 seconds
+Size       12.11KB
+Warning    [http-redirected] Redirected to
+           `https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/sttr-imtr/'
+           status: 301 Moved Permanently.
+Result     Valid: 200 OK
+
+URL        `https://aandeslagmetdeomgevingswet.nl/digitaal-stelsel/technisch-aansluiten/koppelvlakken/vergunningen/standaard/'
+Name       `Standaard en informatiemodel aanvragen en meldingen (STAM en IMAM)'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3242, col 5
+Real URL   https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/stam-imam/
+Check time 1.837 seconds
+Size       13.33KB
+Warning    [http-redirected] Redirected to
+           `https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/stam-imam/'
+           status: 301 Moved Permanently.
+Result     Valid: 200 OK
+
+URL        `https://www.geonovum.nl/over-geonovum/actueel/cimow-en-imow-versie-098-beta-beschikbaar'
+Name       `Conceptueel Informatiemodel Omgevingswet CIMOW'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3244, col 5
+Real URL   https://www.geonovum.nl/over-geonovum/actueel/cimow-en-imow-versie-098-beta-beschikbaar
+Check time 1.404 seconds
+Result     Error: 404 Not Found
+
+URL        `https://www.bkwi.nl/producten/suwinet-services/suwinet-standaarden/suwi-gegevensregister-sgr'
+Name       `Suwi Gegevensregister (SGR)'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3239, col 5
+Real URL   https://bkwi.nl/producten/suwinet-services/suwinet-standaarden/suwi-gegevensregister-sgr
+Check time 2.594 seconds
+Size       32.02KB
+Warning    [http-redirected] Redirected to
+           `https://bkwi.nl/producten/suwinet-services/suwinet-standaarden/suwi-gegevensregister-sgr'
+           status: 301 Moved Permanently.
+Result     Error: 404 Not Found
+
+URL        `https://aandeslagmetdeomgevingswet.nl/digitaal-stelsel/technisch-aansluiten/koppelvlakken/omgevingsdocumenten/standaard-officiele/'
+Name       `Standaard officiële publicaties (STOP/TPOD)'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3243, col 5
+Real URL   https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/stop-tpod-imop/
+Check time 1.700 seconds
+Size       10.16KB
+Warning    [http-redirected] Redirected to
+           `https://iplo.nl/digitaal-stelsel/aansluiten/standaarden/stop-tpod-imop/'
+           status: 301 Moved Permanently.
+Result     Valid: 200 OK
+
+URL        `https://www.geonovum.nl/geo-standaarden/geography-markup-language-gml/gml-encoding-standard-321'
+Name       `GML 3.2.1. (Geography Markup Language)'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3245, col 5
+Real URL   https://www.geonovum.nl/geo-standaarden/geography-markup-language-gml/gml-encoding-standard-322
+Check time 1.760 seconds
+Warning    [http-redirected] Redirected to
+           `https://www.geonovum.nl/geo-standaarden/geography-markup-language-gml/gml-encoding-standard-322'
+           status: 301 Moved Permanently.
+Result     Valid: 200 OK
+
+URL        `https://www.bkwi.nl/producten/suwinet-services/suwinet-standaarden/suwi-gegevensregister-sgr/meer-informatie-over-suwiml'
+Name       `SuwiML'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3239, col 293
+Real URL   https://bkwi.nl/producten/suwinet-services/suwinet-standaarden/suwi-gegevensregister-sgr/meer-informatie-over-suwiml
+Check time 3.192 seconds
+Size       32.02KB
+Warning    [http-redirected] Redirected to
+           `https://bkwi.nl/producten/suwinet-services/suwinet-standaarden/suwi-gegevensregister-sgr/meer-informatie-over-suwiml'
+           status: 301 Moved Permanently.
+Result     Error: 404 Not Found
+
+URL        `https://www.geonovum.nl/geo-standaarden/bgt-imgeo/gegevenscatalogus-imgeo-versie-211'
+Name       `IMBGT/IMGeo versie 2.1.1: (Informatiemodel Basisregistratie grootschalige Topografie/ Informatiemodel Geo)'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3247, col 5
+Real URL   https://www.geonovum.nl/geo-standaarden/bgt-imgeo/voorlaatste-versie-gegevenscatalogus-imgeo-versie-211
+Check time 1.720 seconds
+Warning    [http-redirected] Redirected to
+           `https://www.geonovum.nl/geo-standaarden/bgt-imgeo/voorlaatste-versie-gegevenscatalogus-imgeo-versie-211'
+           status: 301 Moved Permanently.
+Result     Valid: 200 OK
+
+URL        `https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/'
+Name       `Enterprise Architect Viewer'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3151, col 5
+Real URL   https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/
+Check time 4.566 seconds
+Result     Error: 404 Not Found
+
+URL        `https://www.pleio.nl/pages/view/52755822/riha-referentieinformatiemodel-handhaving'
+Name       `RiHA 2.0 (Gegevensmodel toezicht en handhaven)'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/, line 3250, col 5
+Real URL   https://pleio.nl/pages/view/52755822/riha-referentieinformatiemodel-handhaving
+Check time 2.390 seconds
+Size       8KB
+Warning    [http-redirected] Redirected to
+           `https://pleio.nl/pages/view/52755822/riha-referentieinformatiemodel-handhaving'
+           status: 301 Moved Permanently.
+Result     Error: 404 Not Found
+
+URL        `https://istandaarden.nl/istandaarden/ipgb'
+Name       `iPgb'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/domeinen/wmojeugd/, line 2887, col 283
+Real URL   https://www.istandaarden.nl/pagenotfound
+Check time 2.831 seconds
+Warning    [http-redirected] Redirected to
+           `http://www.istandaarden.nl/istandaarden/ipgb' status:
+           301 Moved Permanently.
+           [http-redirected] Redirected to
+           `https://www.istandaarden.nl/istandaarden/ipgb'
+           status: 302 Moved Temporarily.
+           [http-redirected] Redirected to
+           `https://www.istandaarden.nl/pagenotfound' status: 302
+           .
+Result     Error: 404 
+
+URL        `https://www.divosa.nl/projecten/data-delen-over-armoede-en-schulden'
+Name       `DDAS'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/domeinen/schuldhulp/, line 3007, col 421
+Real URL   https://www.divosa.nl/projecten/data-delen-armoede-en-schulden
+Check time 1.579 seconds
+Size       9KB
+Warning    [http-redirected] Redirected to
+           `https://www.divosa.nl/projecten/data-delen-armoede-en-schulden'
+           status: 301 Moved Permanently.
+Result     Valid: 200 OK
+
+URL        `http://www.omg.org/spec/DMN/1.2/'
+Name       `DMN (Decision Model and Notation)'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/domeinen/omgevingswet/, line 3050, col 34
+Real URL   http://www.omg.org/spec/DMN/1.2/
+Check time 2.592 seconds
+Result     Error: 404 Not Found
+
+URL        `https://www.istandaarden.nl/ibieb/functionele-uitwerking-release-iwmo-20'
+Name       `https://www.istandaarden.nl/ibieb/functionele-uitwerking-release-iwmo-20'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/definities/definitie_Model%20Jeugd%20en%20Wmo%20Generiek/, line 7225, col 101
+Real URL   https://www.istandaarden.nl/pagenotfound
+Check time 3.120 seconds
+Warning    [http-redirected] Redirected to
+           `https://www.istandaarden.nl/pagenotfound' status: 302
+           .
+Result     Error: 404 
+
+URL        `https://media.delft.nl/pdf/Monumenten/Monumentennota_2007_-_2017.pdf'
+Name       `Monumentennota 2007-2017'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/monumenten/, line 2993, col 5
+Real URL   https://media.delft.nl/pdf/Monumenten/Monumentennota_2007_-_2017.pdf
+Check time 2.851 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `https://www.delft.nl/wonen/bouwen/welstand/welstandseisen'
+Name       `Welstandsbeleid en sneltoetscriteria (incl. Welstandsnota Delft)'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/monumenten/, line 2995, col 5
+Real URL   https://www.delft.nl/welstandseisen
+Check time 2.290 seconds
+Size       33.88KB
+Warning    [http-redirected] Redirected to
+           `https://www.delft.nl/welstandseisen' status: 301
+           Moved Permanently.
+Result     Valid: 200 OK
+
+URL        `https://www.delft.nl/sites/default/files/2019-05/Uitvoeringsrichtlijnen%20Monumentenzorg%20Delft.pdf'
+Name       `Uitvoeringsrichtlijnen Monumentenzorg Delft'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/monumenten/, line 2997, col 5
+Real URL   https://www.delft.nl/sites/default/files/2019-05/Uitvoeringsrichtlijnen%20Monumentenzorg%20Delft.pdf
+Check time 1.977 seconds
+Result     Error: 404 Not Found
+
+URL        `http://decentrale.regelgeving.overheid.nl/cvdr/xhtmloutput/Historie/Delft/45676/45676_1.html'
+Name       `Monumentenverordening gemeente Delft'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/monumenten/, line 2994, col 5
+Real URL   https://lokaleregelgeving.overheid.nl/CVDR45676/1
+Check time 3.028 seconds
+Warning    [http-redirected] Redirected to
+           `https://decentrale.regelgeving.overheid.nl/cvdr/xhtmloutput/Historie/Delft/45676/45676_1.html'
+           status: 302 Found.
+           [http-redirected] Redirected to
+           `https://lokaleregelgeving.overheid.nl/cvdr/xhtmloutput/Historie/Delft/45676/45676_1.html'
+           status: 301 Moved Permanently.
+           [http-redirected] Redirected to
+           `https://lokaleregelgeving.overheid.nl/CVDR45676/1'
+           status: 302 .
+Result     Valid: 200 
+
+URL        `http://decentrale.regelgeving.overheid.nl/cvdr/xhtmloutput/Historie/Delft/42682/42682_3.html'
+Name       `Verordening op de Commissie voor Welstand en Monumenten'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/monumenten/, line 2996, col 5
+Real URL   https://lokaleregelgeving.overheid.nl/CVDR42682/3
+Check time 3.119 seconds
+Warning    [http-redirected] Redirected to
+           `https://decentrale.regelgeving.overheid.nl/cvdr/xhtmloutput/Historie/Delft/42682/42682_3.html'
+           status: 302 Found.
+           [http-redirected] Redirected to
+           `https://lokaleregelgeving.overheid.nl/cvdr/xhtmloutput/Historie/Delft/42682/42682_3.html'
+           status: 301 Moved Permanently.
+           [http-redirected] Redirected to
+           `https://lokaleregelgeving.overheid.nl/CVDR42682/3'
+           status: 302 .
+Result     Valid: 200 
+
+URL        `https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_domains/codetemplates_2.html'
+Name       `Code Template Framework'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/generatie/, line 3236, col 172
+Real URL   https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_domains/codetemplates_2.html
+Check time 1.341 seconds
+Result     Error: 403 Forbidden
+
+URL        `https://zakelijk.kadaster.nl/rijksdriehoeksstelsel'
+Name       `rijksdriehoekcoördinaten'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/generatie/, line 3331, col 198
+Real URL   https://www.kadaster.nl/zakelijk/registraties/basisregistraties/rijksdriehoeksmeting/rijksdriehoeksstelsel
+Check time 2.483 seconds
+Warning    [http-redirected] Redirected to
+           `https://www.kadaster.nl/zakelijk/registraties/basisregistraties/rijksdriehoeksmeting/rijksdriehoeksstelsel'
+           status: 301 Moved Permanently.
+Result     Valid: 200 OK
+
+URL        `https://www.365dagensuccesvol.nl/nl/nieuws/zeg-hoe-goed-is-de-relatie-met-jezelf-eigenlijk/143/'
+Name       `Relaties met jezelf'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/generatie/, line 3384, col 5
+Real URL   https://www.365dagensuccesvol.nl/nl/nieuws/zeg-hoe-goed-is-de-relatie-met-jezelf-eigenlijk/143/
+Check time 2.577 seconds
+Result     Error: 404 Not Found
+
+URL        `https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_fundamentals/transformationtemplates.html'
+Name       `toelichting'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/generatie/, line 3422, col 83
+Real URL   https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_fundamentals/transformationtemplates.html
+Check time 2.057 seconds
+Result     Error: 403 Forbidden
+
+URL        `https://squidfunk.github.io/mkdocs-material/extensions/codehilite/#installation'
+Name       `Pygments'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/documentatie/, line 2950, col 310
+Real URL   https://squidfunk.github.io/mkdocs-material/extensions/codehilite/#installation
+Check time 1.753 seconds
+Size       12.89KB
+Result     Error: 404 Not Found
+
+URL        `https://squidfunk.github.io/mkdocs-material/extensions/pymdown/'
+Name       `PyMdown Extensions'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/documentatie/, line 2950, col 477
+Real URL   https://squidfunk.github.io/mkdocs-material/extensions/pymdown/
+Check time 1.966 seconds
+Size       12.89KB
+Result     Error: 404 Not Found
+
+URL        `https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/v2.1.0/blob/master/v2.1.0/gemeentelijk%20gegevensmodel%20EA16.qea'
+Name       `EA 16-versie'
+Parent URL https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/v2.2.0/tools/, line 2999, col 424
+Real URL   https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/v2.1.0/blob/master/v2.1.0/gemeentelijk%20gegevensmodel%20EA16.qea
+Check time 1.036 seconds
+Size       40B
+Result     Error: 404 Not Found
+
+Statistics:
+Downloaded: 14.6MB.
+Content types: 304 image, 244 text, 0 video, 0 audio, 401 application, 0 mail and 36 other.
+URL lengths: min=14, max=899, avg=101.
+
+That's it. 985 links in 1012 URLs checked. 31 warnings found. 28 errors found.
+Stopped checking at 2024-11-28 10:55:18+002 (2 minutes, 48 seconds)

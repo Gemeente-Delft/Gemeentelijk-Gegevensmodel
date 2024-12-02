@@ -2,7 +2,7 @@
 
 ## Voorbeeldbestand gebruiken
 
-Dit is de gemakkelijkste manier om te starten met het Gemeentelijk Gegevensmodel. Het werkt ook met de [viewer van Enterprise Architect](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/).
+Dit is de gemakkelijkste manier om te starten met het Gemeentelijk Gegevensmodel. Het werkt ook met de [viewer van Enterprise Architect](https://sparxsystems.com/enterprise_architect_user_guide/17.0/getting_started/ea_lite.html).
 
 1. Installeer Enterprise Architect of de viewer van Enterprise Architect. 
 2. Download het bestand 'Gemeentelijk_Gegevensmodel.qea'.

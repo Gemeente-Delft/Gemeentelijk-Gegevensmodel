@@ -199,7 +199,7 @@ Na transformeren naar tabellen als volgt:
 
 Voorbeelden die speciale aandacht nodig hebben, omdat het transformatieproces anders fouten oplevert:
 
-1. [Relaties met jezelf](https://www.365dagensuccesvol.nl/nl/nieuws/zeg-hoe-goed-is-de-relatie-met-jezelf-eigenlijk/143/) ;) (Varkensoortje)
+1. [Relaties met jezelf](https://www.365dagensuccesvol.nl/blogs/relatie-met-jezelf/) ;) (Varkensoortje)
 2. Meervoudige relaties tussen objecttypes.
 
 ![Voorbeeld C voor uitgeneren naar tabellen][voorbeeldC]

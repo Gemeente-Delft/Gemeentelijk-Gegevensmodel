@@ -63,7 +63,7 @@ De ‘Conclusie’ representeert de conclusie van een checkvraag. Met andere woo
 ‘Maatregelen’ beschrijven hoe aan geldende voorschriften voldaan kan worden. Voorschriften beschrijven waar de initiatiefnemer zich aan moet houden op het moment dat een bepaalde activiteit wordt uitgevoerd. 
 Toepasbare regels betreffen één of meer juridische regels, en daarmee betreffen ze één of meer locaties en één of meer activiteiten.
 
-Als basis voor het IMTR is de [DMN (Decision Model and Notation)](http://www.omg.org/spec/DMN/1.2/) standaard versie 1.1  gebruikt. Deze open standaard is gepubliceerd door de Object Management Group (OMG). Het is de industriestandaard op het gebied van het beslissen op basis van bedrijfsregels. Het heeft een metamodel met afspraken (Notation) met betrekking tot grafische representatie (Model), Decision tables en expressions (Decision). Voor de werking van het regelsysteem wordt verwezen naar het DMN.
+Als basis voor het IMTR is de [DMN (Decision Model and Notation)](https://www.omg.org/dmn/) standaard versie 1.1  gebruikt. Deze open standaard is gepubliceerd door de Object Management Group (OMG). Het is de industriestandaard op het gebied van het beslissen op basis van bedrijfsregels. Het heeft een metamodel met afspraken (Notation) met betrekking tot grafische representatie (Model), Decision tables en expressions (Decision). Voor de werking van het regelsysteem wordt verwezen naar het DMN.
 
 ## Meldingen, Aanvragen en Zaakafhandeling
 

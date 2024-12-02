@@ -1,6 +1,6 @@
 # Documentatie
 
-Deze documentatie is geschreven in [Markdown](https://www.markdownguide.org) en wordt gepubliceerd met [MkDocs](https://www.mkdocs.org). Voor de vormgeving wordt gebruik gemaakt van het [Material theme](https://squidfunk.github.io/mkdocs-material/). Daarnaast gebruiken we [Pygments](https://squidfunk.github.io/mkdocs-material/extensions/codehilite/#installation) om 'highlighting' van code te kunnen gebruiken, en we gebruiken [PyMdown Extensions](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/).
+Deze documentatie is geschreven in [Markdown](https://www.markdownguide.org) en wordt gepubliceerd met [MkDocs](https://www.mkdocs.org). Voor de vormgeving wordt gebruik gemaakt van het [Material theme](https://squidfunk.github.io/mkdocs-material/). Daarnaast gebruiken we [Pygments](https://squidfunk.github.io/mkdocs-material/getting-started/) om 'highlighting' van code te kunnen gebruiken, en we gebruiken [PyMdown Extensions](https://sm-26.github.io/SWM-Wiki/extensions/pymdown/).
 
 ## Installatie vooraf
 

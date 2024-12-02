@@ -1229,7 +1229,7 @@ Het enumeratie Frequentie kent de volgende waarden:
 * **Per 4 weken**: <Geen Definities>
 * **Per maand**: <Geen Definities>
 * **Per jaar**: <Geen Definities>
-* **Binnen geldigheid Beschikking**: Frequentie bij beschikking conform iWmo 2.0 zie https://www.istandaarden.nl/ibieb/functionele-uitwerking-release-iwmo-20
+* **Binnen geldigheid Beschikking**: Frequentie bij beschikking conform iWmo 2.0 zie https://www.istandaarden.nl/iwmo
 * **Leeg**: <Geen Definities>
 * **Onbekend**: <Geen Definities>
 
