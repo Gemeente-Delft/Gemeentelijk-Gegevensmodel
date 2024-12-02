@@ -22,7 +22,7 @@ Het model 'Model Jeugd en Wmo Generiek' kent de volgende objecttypen:
 * **Levering**: Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk  In PxQ uren maal tarief
 * **Leveringsvorm**: Zorg die onder de Wlz, de Zvw-Wijkverpleging of de Wmo 2015 valt, kan aan personen als zorg in natura (zin) worden geleverd of bekostigd worden uit een persoonsgebonden budget (pgb).
 * **Melding Eigen bijdrage**: Aangifte van de evetuele eigen bijdrage
-* **PGB-Toekenning**: Betreft alleen toegekende voorzieningen met als leveringsvorm PGB Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb    
+* **PGB-Toekenning**: Betreft alleen toegekende voorzieningen met als leveringsvorm PGB Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://www.istandaarden.nl/ipgb    
 * **Score**: Het aantal behaalde punten
 * **Scoresoort**: Typologie van score
 * **Tarief**: Hoogte van een bedrag voor een bepaald product of dient
@@ -690,7 +690,7 @@ Attributen van objecttype Melding Eigen bijdrage
 > **Definitie PGB-Toekenning:** 
 >
 > Betreft alleen toegekende voorzieningen met als leveringsvorm PGB
-> Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb 
+> Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://www.istandaarden.nl/ipgb 
 > 
 >  
 
@@ -711,7 +711,7 @@ Attributen van objecttype Melding Eigen bijdrage
 | gemma_naam | PGBToekenning |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-2cc8ad38-97f9-4462-83af-cb5556bffd88](https://gemmaonline.nl/index.php/GEMMA/id-2cc8ad38-97f9-4462-83af-cb5556bffd88) |
-| gemma_definitie | Betreft alleen toegekende voorzieningen met als leveringsvorm PGB Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb |
+| gemma_definitie | Betreft alleen toegekende voorzieningen met als leveringsvorm PGB Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://www.istandaarden.nl/ipgb |
 | gemma_toelichting |  |
 
 

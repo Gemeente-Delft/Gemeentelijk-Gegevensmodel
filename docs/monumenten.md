@@ -12,7 +12,7 @@ Het Delftse beleid ten aanzien van monumenten staat beschreven in:
 * [Monumentenverordening gemeente Delft](http://decentrale.regelgeving.overheid.nl/cvdr/xhtmloutput/Historie/Delft/45676/45676_1.html)
 * [Welstandsbeleid en sneltoetscriteria (incl. Welstandsnota Delft)](https://www.delft.nl/wonen/bouwen/welstand/welstandseisen)
 * [Verordening op de Commissie voor Welstand en Monumenten](http://decentrale.regelgeving.overheid.nl/cvdr/xhtmloutput/Historie/Delft/42682/42682_3.html)
-* [Uitvoeringsrichtlijnen Monumentenzorg Delft](https://www.delft.nl/sites/default/files/2019-05/Uitvoeringsrichtlijnen%20Monumentenzorg%20Delft.pdf)
+* [Uitvoeringsrichtlijnen Monumentenzorg Delft](https://delft.raadsinformatie.nl/document/9091247/1/2_Erfgoednota%20Delft%202020-2030%2C%20%20Erfgoed%20maakt%20Delft%20geliefd%20-%20kopie)
 * Paragraaf Historie/Cultuurhistorie van alle vastgestelde bestemmingsplannen.
 * Erfgoednota
 

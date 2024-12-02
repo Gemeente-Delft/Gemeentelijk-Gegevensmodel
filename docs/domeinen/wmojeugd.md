@@ -17,7 +17,7 @@ Een ‘Client’ kan meerdere ‘Beschikkingen’ hebben op basis van 1 of meer 
 
 Op het moment van schrijven gebruikt Delft de beperkingen niet, omdat ze wel formeel onderdeel uitmaken van de onderliggende standaarden zijn de definities wel opgenomen.
 
-Het domeinmodel voor de Wmo en de Jeugdwet bouwt voort op het generieke datamodel van het sociaal domein. Het model steunt op de gegevensdefinities uit de [iWmo](https://www.istandaarden.nl/iwmo), [iJw](https://www.istandaarden.nl/ijw) en [iPgb](https://istandaarden.nl/istandaarden/ipgb)  waarin het berichtenverkeer tussen gemeenten en zorgaanbieders staat beschreven.
+Het domeinmodel voor de Wmo en de Jeugdwet bouwt voort op het generieke datamodel van het sociaal domein. Het model steunt op de gegevensdefinities uit de [iWmo](https://www.istandaarden.nl/iwmo), [iJw](https://www.istandaarden.nl/ijw) en [iPgb](https://www.istandaarden.nl/ipgb)  waarin het berichtenverkeer tussen gemeenten en zorgaanbieders staat beschreven.
 
 ![Beperkingen bij Wmo en Jeugd][sociaalBeperkingen]
 
