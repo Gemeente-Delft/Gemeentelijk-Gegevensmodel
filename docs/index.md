@@ -50,10 +50,9 @@ Het Gemeentelijk Gegevensmodel is beschikbaar in:
 
 Het is Getest en gebruikt in de volgende omgevingen:
 
-* [Enterprise Architect versie 14](https://sparxsystems.com/products/ea/14/index.html)
-* [Enterprise Architect versie 15](https://sparxsystems.com/products/ea/15/index.html)
 * [Enterprise Architect versie 16](https://sparxsystems.com/products/ea/trial/request.html)
-* [Enterprise Architect Viewer](https://sparxsystems.com/enterprise_architect_user_guide/17.0/getting_started/ea_lite.html)
+* [Enterprise Architect versie 17](https://sparxsystems.com/products/ea/trial/request.html)
+* [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/)
 * [Bizzdesign EnterpriseStudio](https://bizzdesign.com)
 * [Blue Dolphin](https://www.valueblue.com/bluedolphin)
 

@@ -36,9 +36,9 @@ Let op: Het Gemeentetelijk Gegevensmodel is een [UML-model](http://www.uml.org) 
 
 Van het Gemeentelijk Gegevensmodel zijn verschillende versies beschikbaar: v1.0.3, v2.0.0, v2.1.0 en de courante versie v2.2.0. Je vindt deze in de afzonderlijke versies van de repository. De hierna volgende uitleg betreft de laatste versie van het GGM. Hieronder vind je de installatiebeschrijving bij de verschillende ondersteunde tools:
 
-1. [Enterprise Architect Viewer](https://sparxsystems.com/enterprise_architect_user_guide/17.0/getting_started/ea_lite.html) of [Enterprise Architect versie 16 of 17](https://sparxsystems.com/products/ea/16.1/index.html): download hiervoor het bestand [QEA-bestand](./v2.2.0/gemeentelijk%20gegevensmodel%20EA16.qea) en open het in (de viewer van) Enterprise Architect.
-2. [Enterprise Architect versie 15](https://sparxsystems.com/products/ea/15.2/index.html): de EAPX van versie 15 wordt niet meer ondersteund in de nieuwe release. Wil je het GGM alsnog in versie 15 laden, dan kan dat via het XMI bestand.
-3. Als [XMI-bestand in Enterprise Architect 15, 16 en 17](./v2.2.0/Gemeentelijk%20Gegevensmodel%20XMI2.1.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk in de [handleiding](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/installatie/).
+1. [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/) of [Enterprise Architect versie 16 of 17](https://sparxsystems.com/products/ea/16.1/index.html): download hiervoor het bestand [QEA-bestand](./v2.2.0/) en open het in (de viewer van) Enterprise Architect.
+2. [Enterprise Architect versie 16](https://sparxsystems.com/products/ea/16.0/): de EAPX van versie 15 wordt niet meer ondersteund in de nieuwe release. Wil je het GGM alsnog in versie 15 laden, dan kan dat via het XMI bestand.
+3. Als [XMI-bestand in Enterprise Architect 16 en 17](./v2.2.0/Gemeentelijk%20Gegevensmodel%20XMI2.1.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk in de [handleiding](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/installatie/).
 4. [Bizzdesign](https://bizzdesign.com): voor installatie-instructies kijk in de [handleiding laden in Bizzdesign](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/installatie/#installatie-gemeentelijk-gegevensmodel-in-bizzdesign) 
 5. [Blue Dolphin](https://www.valueblue.com/bluedolphin): hiervoor gebruik je het [AMEFF-bestand](https://github.com/VNG-Realisatie/GEMMA-GGM-Archi-repository/blob/develop/exports/GEMMA-GGM%20AMEFF.xml) van het GGM uit de GEMMA-repository voor de Architectuur module van BlueDolphin. Als BlueDolphin gebruiker met Beheerderrol kun je AMEFF-bestanden uploaden. Zie hiervoor de [handleiding: AMEFF bestanden importeren](https://support.valueblue.nl/hc/nl/articles/360013407860-AMEFF-bestanden-importeren-naar-BlueDolphin). Bij vragen contacteer jouw ValueBlue account- of customersuccess-manager.
 
@@ -58,9 +58,9 @@ Het Gemeentelijk Gegevensmodel is beschikbaar in:
 
 Het is Getest en gebruikt in de volgende omgevingen:
 
-* [Enterprise Architect versie 16](https://sparxsystems.com/products/ea/trial/request.html)
-* [Enterprise Architect versie 16](https://sparxsystems.com/products/ea/17.0/)
-* [Enterprise Architect Viewer](https://sparxsystems.com/enterprise_architect_user_guide/17.0/getting_started/ea_lite.html)
+* [Enterprise Architect versie 16](https://sparxsystems.com/products/ea/16.0/)
+* [Enterprise Architect versie 17](https://sparxsystems.com/products/ea/17.0/)
+* [Enterprise Architect Viewer](https://www.sparxsystems.eu/enterprise-architect/ea-lite-edition/)
 * [Bizzdesign EnterpriseStudio](https://bizzdesign.com)
 * [Blue Dolphin](https://www.valueblue.com/bluedolphin)
 

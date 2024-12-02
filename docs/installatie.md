@@ -16,7 +16,7 @@ Je kunt het ook importeren in een ander tool met UML-ondersteuning. Wij hebben n
 
 Hieronder de te nemen stappen om het in een nieuw of bestaand project binnen Enterprise Architect te importeren.
 
-1. Download het bestand [GGM XMI-bestand geschikt voor Enterprise Architect 15, 16 en 17](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/v2.2.0/Gemeentelijk%20Gegevensmodel%20XMI2.1.xml) en sla deze lokaal op
+1. Download het bestand [GGM XMI-bestand geschikt voor Enterprise Architect 16 en 17](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/v2.2.0/Gemeentelijk%20Gegevensmodel%20XMI2.1.xml) en sla deze lokaal op
 2. Start Enterprise Architect (of andere XMI-Compatible tooling) 
 3. (Optioneel) Maak nieuw project
 4. Kies _"Import Package from XMI"_
