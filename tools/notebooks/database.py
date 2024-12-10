@@ -19,7 +19,7 @@ import sqlalchemy as sa
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine, inspect
 from sqlalchemy.engine import reflection
-
+import sqlite3
 
 
 object_properties = ['object_id',
@@ -175,13 +175,13 @@ def get_children(df, root_guid, props=output_properties):
 
 # Generieke functie om uit een access database resultaten van query als dataframe terug te geven 
 def get_df(uri, sql):
-    engine = create_engine(uri)
-    connection = engine.connect()
+    connection = sqlite3.connect(uri)
     try: 
         df = pd.read_sql(sql,connection)
         return df
     finally:
         connection.close()
+
  
 # Generieke functie om geheel voorbereide gegevens uit database te halen
 def get_df_complete(uri, root_guid=None):
