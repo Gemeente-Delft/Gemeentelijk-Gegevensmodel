@@ -4,7 +4,7 @@ Het Gemeentelijk Gegevensmodel (GGM) is een logisch gegevensmodel met daarin ver
 
 Het GGM omvat alle beleidsterreinen die onder de verantwoordelijkheid van de gemeente vallen. Dit ongeacht de organisatorische inrichting, zoals de afdelingen die de bijbehorende taken uitvoeren en uitbesteding aan derde partijen. Deze beleidsterreinen zijn afgeleid van de [IV3-taakvelden](https://www.rijksoverheid.nl/onderwerpen/financien-gemeenten-en-provincies/uitwisseling-financiele-gegevens-met-sisa-en-iv3/informatie-voor-derden-iv3).
 
-Bij het GGM is een set _codegeneratietemplates_ ontwikkeld voor het genereren van fysieke datamodellen op basis van (onderdelen van) het GGM. Hiermee genereer je DDL voor Oracle en in ongeteste vorm voor MySQL. Het gaat hier om templates voor het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html) van Enterprise Architect. Hiermee kan ook werkende DDL worden gegenereerd voor andere databases.
+Bij het GGM is een set _codegeneratietemplates_ ontwikkeld voor het genereren van fysieke datamodellen op basis van (onderdelen van) het GGM. Hiermee genereer je DDL voor Oracle en in ongeteste vorm voor MySQL. Het gaat hier om templates voor het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html) van Enterprise Architect. Hiermee kan ook werkende DDL's worden gegenereerd voor andere databases.
 
 ## Winnaar Gemeentedelers 2022
 
@@ -18,7 +18,7 @@ De Expert Review Groep van de Common Ground heeft het initiatief GGM besproken e
 
 ## Beheer en doorontwikkeling
 
-Beheer en doorontwikkeling van het GGM verloopt in samenwerking met diverse gemeenten in combinatie met andere overheden. Hiervoor is een gebruikersgroep ingericht die je kunt vinden op de volgende [Pleio-pagina](https://kennisnetwerkdata.pleio.nl/groups/view/1e7df5c5-e537-46cd-9d09-de2ef29beef8/gemeentelijk-gegevensmodel-ggm). Deze Pleio-pagina is het kanaal voor alle vragen, blogs en discussies over het GGM. Heb je een vraag of een toevoeging meld die dan via onze Pleio-pagina. Af en toe zijn er mini-conferenties over onderdelen van het GGM, de agenda hiervoor vind je ook op PLeio. Voor het steeds beter maken van het GGM is er een expertgroep met daarin meerdere gemeenten en de VNG (Vereniging Nederlandse Gemeenten), die werk verdelen en zo gezamenlijk het GGM steeds beter maken.  
+Beheer en doorontwikkeling van het GGM verloopt in samenwerking met diverse gemeenten in combinatie met andere overheden. Hiervoor is een gebruikersgroep ingericht die je kunt vinden op de volgende [Pleio-pagina](https://kennisnetwerkdata.pleio.nl/groups/view/1e7df5c5-e537-46cd-9d09-de2ef29beef8/gemeentelijk-gegevensmodel-ggm). Deze Pleio-pagina is het kanaal voor alle vragen, blogs en discussies over het GGM. Heb je een vraag of een toevoeging meld die dan via onze Pleio-pagina. Een aantal keer per jaar organiseren we mini-conferenties over onderdelen van het GGM, de agenda hiervoor vind je ook op PLeio. Voor het steeds beter maken van het GGM is er een expertgroep met daarin meerdere gemeenten en de VNG (Vereniging Nederlandse Gemeenten), die werk verdelen en zo gezamenlijk het GGM steeds beter maken.  
 
 ## Handleiding
 
