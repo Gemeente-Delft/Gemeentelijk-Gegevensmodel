@@ -16,47 +16,6 @@ Bij het GGM is een set _codegeneratietemplates_ ontwikkeld voor het genereren va
 
 De Expert Review Groep van de Common Ground heeft het initiatief GGM besproken en besloten het initiatief de classificatie Goud te geven op het [Common Ground portfolio](https://commonground.nl/page/view/b68441ec-e536-4f81-82d8-ce6f3d6606a9/portfolio). Deze classificatie is gerelateerd aan de toets op de architectuur en realisatie principes. We zijn tot deze conclusie gekomen op basis van de ontvangen antwoorden. 
 
-## Downloaden
-
-De bestanden waar deze documentatie bij hoort zijn te vinden in de GitHub-repository [Gemeentelijk Gegevensmodel](https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel)
-
-## Installatie en gebruik
-
-Het Gemeentelijk Gegevensmodel is beschikbaar in [XMI-vorm](https://www.omg.org/spec/XMI/About-XMI/), en is ontwikkeld in, en toegepast met [Enterprise Architect](https://sparxsystems.com).
-
-Let op: gebruik je Enterprise Acrhitect versie 16? In dit geval moet je het bestand 'gemeentelijk gegevensmodel EA16.qea' gebruiken. Gebruik je versie 15, laad dan het bestand 'gemeentelijk gegevensmodel.eapx'.
-
-### Installatie Gemeentelijk Gegevensmodel
-
-Hieronder vind je de installatiebeschrijving bij de verschillende ondersteunde tools:
-
-1. [Enterprise Architect Viewer](https://sparxsystems.com/enterprise_architect_user_guide/17.0/getting_started/ea_lite.html) of [Enterprise Architect versie 17](https://sparxsystems.com/enterprise_architect_user_guide/17.0/getting_started/editiondifferences.html): download hiervoor het bestand [QEA-bestand](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/###VERSION###/gemeentelijk%20gegevensmodel%20EA16.qea) en open het in (de viewer van) Enterprise Architect.
-2. Als [XMI-bestand voor Enterprise Architect versies 15, 16 of 17](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/###VERSION###/Gemeentelijk%20Gegevensmodel%20XMI2.1.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk in de [handleiding](installatie.md).
-3. [Bizzdesign](https://bizzdesign.com): voor installatie-instructies kijk in de [handleiding laden in Bizzdesign](installatie.md#installatie-gemeentelijk-gegevensmodel-in-bizzdesign) 
-4. [Blue Dolphin](https://www.valueblue.com/bluedolphin): hiervoor gebruik je het [AMEFF-bestand](https://github.com/VNG-Realisatie/GEMMA-GGM-Archi-repository/blob/master/exports/GEMMA-GGM%20AMEFF.xml) van het GGM uit de GEMMA-repository voor de Architectuur module van BlueDolphin. Als BlueDolphin gebruiker met Beheerderrol kun je AMEFF-bestanden uploaden. Zie hiervoor de [handleiding: AMEFF bestanden importeren](https://support.valueblue.nl/hc/nl/articles/360013407860-AMEFF-bestanden-importeren-naar-BlueDolphin). Bij vragen contacteer jouw ValueBlue account- of customersuccess-manager.
- 
-
-### Installatie Codegeneratietemplates
-
-De installatie en gebruik van de codegeneratietemplates staat [hier](generatie.md) beschreven.
-
-### Versies en gebruikte tooling
-
-Het XMI-bestand van het Gemeentelijk Gegevensmodel is in theorie te gebruiken in andere tools naast Enterprise Architect, maar daar is geen ervaring mee. Ervaringen hierin zijn welkom!
-
-Het Gemeentelijk Gegevensmodel is beschikbaar in:
-
-* [XMI versie 1.1](https://www.omg.org/spec/XMI/About-XMI/)
-
-Het is Getest en gebruikt in de volgende omgevingen:
-
-* [Enterprise Architect versie 14](https://sparxsystems.com/products/ea/14/index.html)
-* [Enterprise Architect versie 15](https://sparxsystems.com/products/ea/15/index.html)
-* [Enterprise Architect versie 16](https://sparxsystems.com/products/ea/trial/request.html)
-* [Enterprise Architect Viewer](https://sparxsystems.com/enterprise_architect_user_guide/17.0/getting_started/ea_lite.html)
-* [Bizzdesign EnterpriseStudio](https://bizzdesign.com)
-* [Blue Dolphin](https://www.valueblue.com/bluedolphin)
-
 ## Opbouw Gemeentelijk Gegevensmodel
 
 Het GGM kent een gelaagde opbouw, waarbij verschillende objecttypen over beleidsdomeinen heen zoveel mogelijk zijn ontkoppeld. Alleen objecttypen in de onderste lagen van het model worden gebruikt door de bovenliggende onderdelen.

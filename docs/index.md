@@ -16,53 +16,13 @@ Bij het GGM is een set _codegeneratietemplates_ ontwikkeld voor het genereren va
 
 De Expert Review Groep van de Common Ground heeft het initiatief GGM besproken en besloten het initiatief de classificatie Goud te geven op het [Common Ground portfolio](https://commonground.nl/page/view/b68441ec-e536-4f81-82d8-ce6f3d6606a9/portfolio). Deze classificatie is gerelateerd aan de toets op de architectuur en realisatie principes. We zijn tot deze conclusie gekomen op basis van de ontvangen antwoorden. 
 
-## Downloaden
-
-De bestanden waar deze documentatie bij hoort zijn te vinden in de GitHub-repository [Gemeentelijk Gegevensmodel](https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel)
-
-## Installatie en gebruik
-
-Het Gemeentelijk Gegevensmodel is beschikbaar in [XMI-vorm](https://www.omg.org/spec/XMI/About-XMI/), en is ontwikkeld in, en toegepast met [Enterprise Architect](https://sparxsystems.com).
-
-Let op: gebruik je Enterprise Acrhitect versie 16? In dit geval moet je het bestand 'gemeentelijk gegevensmodel EA16.qea' gebruiken. Gebruik je versie 15, laad dan het bestand 'gemeentelijk gegevensmodel.eapx'.
-
-### Installatie Gemeentelijk Gegevensmodel
-
-Hieronder vind je de installatiebeschrijving bij de verschillende ondersteunde tools:
-
-1. [Enterprise Architect Viewer](https://sparxsystems.com/enterprise_architect_user_guide/17.0/getting_started/ea_lite.html) of [Enterprise Architect versie 17](https://sparxsystems.com/enterprise_architect_user_guide/17.0/getting_started/editiondifferences.html): download hiervoor het bestand [QEA-bestand](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/v2.2.0/gemeentelijk%20gegevensmodel%20EA16.qea) en open het in (de viewer van) Enterprise Architect.
-2. Als [XMI-bestand voor Enterprise Architect versies 15, 16 of 17](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/v2.2.0/Gemeentelijk%20Gegevensmodel%20XMI2.1.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk in de [handleiding](installatie.md).
-3. [Bizzdesign](https://bizzdesign.com): voor installatie-instructies kijk in de [handleiding laden in Bizzdesign](installatie.md#installatie-gemeentelijk-gegevensmodel-in-bizzdesign) 
-4. [Blue Dolphin](https://www.valueblue.com/bluedolphin): hiervoor gebruik je het [AMEFF-bestand](https://github.com/VNG-Realisatie/GEMMA-GGM-Archi-repository/blob/master/exports/GEMMA-GGM%20AMEFF.xml) van het GGM uit de GEMMA-repository voor de Architectuur module van BlueDolphin. Als BlueDolphin gebruiker met Beheerderrol kun je AMEFF-bestanden uploaden. Zie hiervoor de [handleiding: AMEFF bestanden importeren](https://support.valueblue.nl/hc/nl/articles/360013407860-AMEFF-bestanden-importeren-naar-BlueDolphin). Bij vragen contacteer jouw ValueBlue account- of customersuccess-manager.
- 
-
-### Installatie Codegeneratietemplates
-
-De installatie en gebruik van de codegeneratietemplates staat [hier](generatie.md) beschreven.
-
-### Versies en gebruikte tooling
-
-Het XMI-bestand van het Gemeentelijk Gegevensmodel is in theorie te gebruiken in andere tools naast Enterprise Architect, maar daar is geen ervaring mee. Ervaringen hierin zijn welkom!
-
-Het Gemeentelijk Gegevensmodel is beschikbaar in:
-
-* [XMI versie 1.1](https://www.omg.org/spec/XMI/About-XMI/)
-
-Het is Getest en gebruikt in de volgende omgevingen:
-
-* [Enterprise Architect versie 16](https://sparxsystems.com/products/ea/trial/request.html)
-* [Enterprise Architect versie 17](https://sparxsystems.com/products/ea/trial/request.html)
-* [Enterprise Architect Viewer](https://sparxsystems.com/products/ea/trial/request.html)
-* [Bizzdesign EnterpriseStudio](https://bizzdesign.com)
-* [Blue Dolphin](https://www.valueblue.com/bluedolphin)
-
 ## Opbouw Gemeentelijk Gegevensmodel
 
 Het GGM kent een gelaagde opbouw, waarbij verschillende objecttypen over beleidsdomeinen heen zoveel mogelijk zijn ontkoppeld. Alleen objecttypen in de onderste lagen van het model worden gebruikt door de bovenliggende onderdelen.
 
 ![Gelaagdheid Domeinen][gelaagdheidDomeinen]
 
-Het gegevensmodel is uitgewerkt in een aantal verticale beleidsdomeinen en 4 horizontale beleidsdomeinen. De horizontale delen (Kern, Financiën, ICT en Dienstverlening) vormen de basis van het gegevensmodel, waarop de verticale delen voortbouwen. De Kern bestaat uit RSGB en RGBZ, die de gegevensdefinities bevatten die zoals die gelden voor de basisregistraties (RSGB) en zaakgericht werken (RGBZ).  
+Het gegevensmodel is uitgewerkt in een aantal verticale beleidsdomeinen en 4 horizontale beleidsdomeinen. De horizontale delen (Kern, Financiën, Organisatie-indeling en Dienstverlening) vormen de basis van het gegevensmodel, waarop de verticale delen voortbouwen. De Kern bestaat uit de deelmodellen van RSGB, RGBZ en de BAG, die de gegevensdefinities bevatten die zoals die gelden voor de basisregistraties (RSGB en BAG) en zaakgericht werken (RGBZ).  
 
 Er is ontkoppeling tussen de verschillende (sub)domeinen nagestreefd, doordat in de gegevensdefinities van het gegevensmodel (sub)domeinen alleen definities uit onderliggende (sub)domeinen gebruiken. Zo gebruiken alle (sub)domeinen gegevensdefinities uit Kern en kunnen alle verticale (sub)domeinen gegevensdefinities gebruiken uit de 4 horizontale modellen.
 
@@ -70,28 +30,29 @@ Er is ontkoppeling tussen de verschillende (sub)domeinen nagestreefd, doordat in
 
 Het gegevensmodel omvat de volgende op de gebaseerde [IV3-taakvelden](https://www.rijksoverheid.nl/onderwerpen/financien-gemeenten-en-provincies/uitwisseling-financiele-gegevens-met-sisa-en-iv3/informatie-voor-derden-iv3):
 
-* Bestuur, politiek en ondersteuning 
+* 0\. Bestuur, politiek en ondersteuning 
     * [Burgerzaken](domeinen/burgerzaken.md)
     * [Griffie](domeinen/griffie.md)
-* Veiligheid en vergunningven
+    * Politiek
+* 1\. Veiligheid en vergunningven
     * [Brede Handhaving](domeinen/vth.md/#brede-handhaving)
     * [Bouwen en wonen](domeinen/vth.md/#vergunningaanvragen)
     * [Overige vergunningen](domeinen/vth.md/#vergunningaanvragen)
-* Verkeer, vervoer en waterstaat
-    * [Verkeer](domeinen/verkeer.md)
+* 2\. Verkeer, vervoer en waterstaat
+    * [Mobiliteit](domeinen/mobiliteit.md)
     * [Parkeren](domeinen/parkeren.md)
-* [Economie](domeinen/economie.md)
-* Onderwijs
+* 3\. [Economie](domeinen/economie.md)
+* 4\. Onderwijs
     * [Leerplicht en Leerlingenvervoer](domeinen/leerplicht.md)
     * [Onderwijs](domeinen/onderwijs.md)
-* Sport, Cultuur en Recreatie
+* 5\. Sport, Cultuur en Recreatie
     * Erfgoed
         * [Archeologie](domeinen/archeologie.md)
         * [Archief](domeinen/archief.md)
         * [Monumenten](domeinen/monumenten.md)
     * [Museum](domeinen/museum.md)
     * [Sport](domeinen/sport.md)
-* Sociaal domein
+* 6\. Sociaal domein
     * [Wmo](domeinen/wmojeugd.md)
     * [Jeugd](domeinen/wmojeugd.md)
     * [Participatie](domeinen/participatie.md)
@@ -99,13 +60,13 @@ Het gegevensmodel omvat de volgende op de gebaseerde [IV3-taakvelden](https://ww
     * [Sociale teams](domeinen/socteam.md)
     * [Gemeentebegraven](domeinen/gemeentebegraven.md)
     * [Dak- en thuislozen](domeinen/participatie.md/#dak-en-thuislozen)
-* Volksgezondheid en milieu
+* 7\. Volksgezondheid en milieu
     * [Afval](domeinen/afval.md)
-* Volkshuisvesting, leefomgeving en stedelijke vernieuwing 
+* 8\. Volkshuisvesting, leefomgeving en stedelijke vernieuwing 
     * [Openbare ruimte](domeinen/ruimteAlgemeen.md)
     * [Bouwen en wonen](domeinen/bouwenenwonen.md)
     * [Omgevingswet](domeinen/omgevingswet.md)
-* Interne organisatie
+* 9\. Interne organisatie
     * [ICT](domeinen/ict.md)
     * [Gemeentelijk Vastgoed](domeinen/vastgoed.md)
     * [Financiën](domeinen/financien.md)
@@ -114,8 +75,8 @@ Het gegevensmodel omvat de volgende op de gebaseerde [IV3-taakvelden](https://ww
     * [Subsidies](domeinen/subsidies.md)
     * Facilitair (_nog in ontwikkeling_)
     * Control (_nog in ontwikkeling_)
-* [Dienstverlening](domeinen/dienstverlening.md)
-
+* 10\. [Dienstverlening](domeinen/dienstverlening.md)
+* 99\. Kern (Zie onderstaand)
 
 Naast bovengenoemde beleidsterreinen kent het GGM het onderdeel 'Kern', waarin alle gedeelde objecttypen zijn te vinden. Kern is afgeleid van het [Informatiemodel Basis- en Kerngegevens (RSGB)](https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_(RSGB)) en [Informatiemodel Zaken (RGBZ)](https://www.gemmaonline.nl/index.php/Informatiemodel_Zaken_(RGBZ)) (beiden onderdeel [GEMMA: Gemeentelijke Modelarchitectuur](https://www.gemmaonline.nl/index.php/Gemeentelijke_Model_Architectuur_(GEMMA))), aangevuld met een aantal generieke objecttypen.  
 

@@ -38,6 +38,10 @@ Hieronder de te nemen stappen om het in een nieuw of bestaand project binnen Ent
 
 8\. Succes!
 
+## MIM-compatibiliteit
+
+Het GGM ondersteunt nog geen [MIM](https://docs.geostandaarden.nl/mim/mim/), maar er wordt gewerkt aan ondersteuning. Naar verwachting zal de volgende versie van het GGM MIM-compatibel zijn. Nieuwe ontwikkelingen vinden al wel zoveel mogelijk volgens MIM plaats. In Enterprise Architect gebruik je dan de [MIM Toolbox](https://www.geonovum.nl/nieuws/publicatie-mim-toolbox-versie-111-voor-enterprise-architect) versie 1.1.1. 
+
 ## Installatie Gemeentelijk Gegevensmodel in Bizzdesign
 
 Het Gemeentelijk Gegevensmodel (GGM) kan als [XMI-vorm](https://www.omg.org/spec/XMI/About-XMI/) worden geïmporteerd in een bestaand project in [Bizzdesign](https://bizzdesign.com). Hiervoor wordt een apart script gebruikt dat Bizzdesign speciaal voor het GGM beschikbaar heeft gesteld.

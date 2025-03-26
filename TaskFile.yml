@@ -1,0 +1,254 @@
+# Taskfile for automating the GGM deployment process
+#
+# This Taskfile defines tasks for:
+# - Validating tools and variables
+# - Importing the XMI file into Crunch UML
+# - Generating Excel specifications, Markdown documentation, and translations
+# - Deploying documentation to GitHub Pages
+#
+# Usage:
+# - Run `task --list` to see all available tasks.
+# - Run `task <taskname>` to execute a specific task.
+#
+# Environment:
+# - A `.env` file is used to load configuration variables like `VERSION`.
+# - Ensure required tools are installed before running (`task check-tools`).
+#
+# Examples:
+# - To perform a full deployment: `task full-deploy`
+# - To generate translations: `task generate-translations`
+# - To generate excel-file: `task generate-excel`
+# - To generate documentation: `task generate-docs`
+# - To publish documentation to GitHub Pages: `task publish-docs`
+#
+# Author: Arjen Brienen
+# Last Updated: 27 januari 2024
+version: '3'
+
+dotenv: ['.env']
+
+vars:
+  VERSION_DIR: "./{{.VERSION}}"
+  XMI: "{{.VERSION_DIR}}/{{.XMI_FILE}}"
+  GGM: "{{.VERSION_DIR}}/{{.GGM_FILE}}"
+  EXCEL: "{{.VERSION_DIR}}/{{.EXCEL_FILE}}"
+  TRANSLATIONS_DIR: "{{.VERSION_DIR}}/{{.TRANSLATIONS_DIR}}"
+  i18N_FILE: "{{.TRANSLATIONS_DIR}}/{{.i18N_FILE}}"
+  GGM_ROOT_SCHEMA: "GGM_ROOT_SCHEMA"
+  CRUNCH_UML_DB: "./crunch_uml.db"
+  DOCS: "./docs"
+  DEFS: "./docs/definities"
+  PUBLISH: "false"
+  ROOT_GGM: "{{.ROOT_NODE_GGM}}"
+
+tasks:
+  check-tools:
+    desc: "Check for pre conditions. Verify required tools are installed."
+    cmds:
+      - |
+        # Lijst van vereiste tools en hun download-URLs
+        declare -A tools=(
+          ["crunch_uml"]="https://github.com/brienen/crunch_uml"
+          ["mkdocs"]="https://www.mkdocs.org"
+          ["mike"]="https://github.com/jimporter/mike"
+          ["jq"]="https://stedolan.github.io/jq"
+        )
+
+        # Controleer of tools geïnstalleerd zijn
+        missing_tools=()
+        for tool in "${!tools[@]}"; do
+          if ! command -v $tool &> /dev/null; then
+            missing_tools+=($tool)
+          fi
+        done
+
+        # Meld ontbrekende tools en geef installatie-instructies
+        if [ ${#missing_tools[@]} -ne 0 ]; then
+          echo "Error: The following tools are not installed:"
+          for tool in "${missing_tools[@]}"; do
+            echo "- $tool: ${tools[$tool]}"
+          done
+          echo "Please install the missing tools and try again."
+          exit 1
+        else
+          echo "All required tools are installed."
+        fi
+    shell: bash
+
+  check_vars:
+    desc: "Check for pre conditions. Validate required variables VERSION and check if VERSION_DIR exist."
+    cmds:
+      - |
+        # Valideer invoerparameters
+        echo "Validating input parameter {{.VERSION}} ..."
+      - |
+        if [ -z "{{.VERSION}}" ]; then
+          echo "Error: VERSION cannot be empty."
+          exit 1
+        fi
+        if [[ ! "{{.VERSION}}" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+          echo "Error: Invalid VERSION format. Use v{number}.{number}, e.g., v1.0"
+          exit 1
+        fi
+        if [ ! -d "{{.VERSION_DIR}}" ]; then
+          echo "Error: Directory '{{.VERSION_DIR}}' does not exist."
+          exit 1
+        fi
+      - |
+        # Valideer invoerparameters
+        echo "VERSION {{.VERSION}} and Versiondir {{.VERSION_DIR}} are valid..."
+    shell: bash
+
+  import-xmi:
+    desc: "Import the XMI file into Crunch UML Database."
+    deps: [check-tools, check_vars]
+    cmds:
+      - |
+        if [ ! -f "{{.XMI}}" ]; then
+          echo "Error: XMI file '{{.XMI}}' does not exist."
+          exit 1
+        fi
+      - echo "Importing XMI file '{{.XMI}}' into Crunch UML..."
+      - crunch_uml import -f "{{.XMI}}" -t eaxmi -db_create
+      - echo "Copying Core GGM Model to {{.GGM_ROOT_SCHEMA}}..."
+      - crunch_uml transform -ttp copy -sch_to "{{.GGM_ROOT_SCHEMA}}" -rt_pkg "{{.ROOT_GGM}}"
+      - echo "Crunch database successfully created and setup..."
+    shell: bash
+    sources:
+      - "{{.XMI}}"
+    generates:
+      - "{{.CRUNCH_UML_DB}}"
+    run: when_changed
+
+
+  generate-docs:
+    desc: "Generate Markdown documentation from the model."
+    deps: [import-xmi]
+    cmds:
+      - echo "Generating Markdown documentation..."
+      - mkdir -p "{{.DEFS}}"
+      - rm -rf "{{.DEFS}}"/*.md
+      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t jinja2 --output_jinja2_template ggm_markdown.j2 -f "{{.DEFS}}/definitie.md" --output_jinja2_templatedir ./tools/
+      - |
+        # Vervang de versies in de uitwisselspecificatie-templates
+        # Loop door alle .template-bestanden in de directory en submappen
+        echo "Processing template files in {{.DOCS}} ..."
+        for file in $(find "{{.DOCS}}" -type f -name "*.template"); do
+          # Bepaal de doelbestandnaam door ".template" te verwijderen
+          output_file="${file%.template}"
+
+          # Gebruik sed om de placeholder ###VERSION### te vervangen door de versie
+          sed "s/###VERSION###/{{.VERSION}}/g" "$file" > "$output_file"
+
+          # Geef een bericht over de verwerking
+          echo "Processed $file -> $output_file"
+        done
+    shell: bash
+
+  generate-translations:
+    desc: "Generate translations for all in the i18n file defined languages. Using '{{.i18N_FILE}}'"
+    deps: [import-xmi]
+    cmds:
+      - |
+        if [ ! -f "{{.i18N_FILE}}" ]; then
+          echo "Error: i18n file '{{.i18N_FILE}}' does not exist."
+          exit 1
+        fi
+
+        LANGUAGES=$(jq -r 'keys[]' "{{.i18N_FILE}}")
+        if [ -z "$LANGUAGES" ]; then
+          echo "Error: No languages found in '{{.i18N_FILE}}'."
+          exit 1
+        fi
+
+        # SPLIT GGM FILENAME
+        GGM="{{.GGM}}"
+        BASENAME=$(basename "$GGM")  # Extract de bestandsnaam
+        FILENAME="${BASENAME%.*}"    # Extract de bestandsnaam zonder extensie
+
+        echo "Languages: $LANGUAGES"
+        mkdir -p "{{.TRANSLATIONS_DIR}}"
+        for LANG in $LANGUAGES; do
+          TRANSLATION_SCHEMA="translation_$LANG"
+          echo "Processing language: $LANG..."
+          crunch_uml transform -ttp copy -sch_to $TRANSLATION_SCHEMA --root_package "{{.ROOT_GGM}}"
+          crunch_uml -sch $TRANSLATION_SCHEMA import -f "{{.i18N_FILE}}" -t i18n --language $LANG
+          TRANSLATION_FILE="{{.TRANSLATIONS_DIR}}/${FILENAME}_${LANG}.qea"
+          cp -f "{{.GGM}}" "$TRANSLATION_FILE"
+          crunch_uml -sch $TRANSLATION_SCHEMA export -f "$TRANSLATION_FILE" -t earepo --tag_strategy update
+        done
+    shell: bash
+    sources:
+      - "{{.CRUNCH_UML_DB}}"
+      - "{{.i18N_FILE}}"
+    generates:
+     - "{{.TRANSLATIONS_DIR}}/*.qea"
+
+  generate-excel:
+    desc: "Generate the Excel specification from the model. Generating '{{.EXCEL}}'"
+    deps: [import-xmi]
+    cmds:
+      - echo "Generating Excel specification..."
+      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t xlsx -f "{{.EXCEL}}"
+    shell: bash
+
+  generate-gemma:
+    desc: "Generate the Excel specification from the model. Generating '{{.EXCEL}}'"
+    deps: [import-xmi]
+    cmds:
+      - mkdir -p "{{.GEMMA_DIR}}"
+      - echo "Generating CSV's for upload in GEMMA..."
+      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t csv -f "{{.GEMMA_DIR}}/{{.GEMMA_FILE_PREFIX}}" --mapper '{{.GEMMA_CLASS_MAPPER}}' --entity_name classes
+      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t csv -f "{{.GEMMA_DIR}}/{{.GEMMA_FILE_PREFIX}}" --mapper '{{.GEMMA_CLASS_MAPPER}}' --entity_name associations
+      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t csv -f "{{.GEMMA_DIR}}/{{.GEMMA_FILE_PREFIX}}" --mapper '{{.GEMMA_CLASS_MAPPER}}' --entity_name packages
+      - echo "Generation ready."
+    shell: bash
+
+  deploy-docs:
+    desc: "Build and deploy the documentation using MkDocs and Mike."
+    deps: [generate-docs]
+    cmds:
+      - echo "Building and deploying MkDocs and Mike..."
+      - mkdocs build
+      - mike deploy "{{.VERSION}}" latest
+      - mike set-default "{{.VERSION}}"
+      - echo "Documentation deployed. Use 'mike serve' to view results..."
+    shell: bash
+
+  publish-docs:
+    desc: "Publish the documentation directly to GitHub Pages."
+    deps: [deploy-docs]
+    prompt:
+     - Dit commando publiceert de documentatie direct naar de LIVE GitHub pages. Doorgaan?
+     - Weet je het zeker?
+    cmds:
+      - echo 'Deploying to GitHub Pages...'
+      - git push origin gh-pages
+
+  full-deploy:
+    desc: "Execute the entire deployment process."
+    cmds:
+      - task: generate-excel
+      - task: generate-translations
+      - task: deploy-docs 
+      - echo "Full deployment completed."
+    shell: bash
+
+  util-import-xlsx:
+    desc: "Import an Excel file into Crunch UML Database and apply changes to the EA-repository."
+    deps: [check-tools, check_vars]
+    cmds:
+      - |
+        if [ ! -f "{{.EXCEL}}" ]; then
+          echo "Error: Excel file '{{.EXCEL}}' does not exist."
+          exit 1
+        fi
+      - echo "Importing Excel file '{{.EXCEL}}' into Crunch UML..."
+      - crunch_uml import -f "{{.EXCEL}}" -t xlsx -db_create
+      - echo "Copying Core GGM Model to {{.GGM_ROOT_SCHEMA}}..."
+      - crunch_uml transform -ttp copy -sch_to "{{.GGM_ROOT_SCHEMA}}" -rt_pkg "{{.ROOT_GGM}}"
+      - echo "Crunch database successfully created and loaded with Excel file..."
+      - echo "Loading changes into EA-repository..."
+      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -f "{{.GGM}}" -t earepo --tag_strategy upsert
+      - echo "Data successfully loaded into repository..."
+    shell: bash
