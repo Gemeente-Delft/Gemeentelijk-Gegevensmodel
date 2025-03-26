@@ -10,7 +10,7 @@ De geleverde codegeneratietemplates zijn uitbreidingen op de standaard templates
 
 ## Installeren codegeneratietemplates
 
-1. Download het bestand [CodegeneratieTemplates.xml((https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/v2.2.0/CodegeneratieTemplates.xml))
+1. Download het bestand [CodegeneratieTemplates.xml](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/v2.2.0/CodegeneratieTemplates.xml)
 2. Start Enterprise Architect
 3. (Optioneel) Maak nieuw project
 4. Kies _Import Reference Data_
