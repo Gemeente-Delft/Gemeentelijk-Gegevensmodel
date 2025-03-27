@@ -90,7 +90,7 @@ Attributen van objecttype AanvraagStadspas
 | author | aashkpour |
 | version | 1.5 |
 | created | 2018-03-21 15:22:41 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-03-27 14:00:42 |
 | id | EAID_DAF09055_A5A6_4ff4_A158_21B20567B296 |
 | domein_iv3 |  |
 | domein_dcat |  |

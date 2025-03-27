@@ -9,12 +9,8 @@ Het model 'Model Werk' kent de volgende objecttypen:
 * **Doelgroep**: Een groep mensen of klanten die een bedrijf of organisatie wil benaderen om een product, dienst of informatie onder de aandacht te brengen
 * **Fraudegegevens**: Gegevens met betrekking tot fraude
 * **Fraudesoort**: Typering van een fraude
-* **Inkomensvoorziening**: Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving
-* **Inkomensvoorzieningsoort**: Typering van een inkomensvoorziening
 * **Participatiedossier**: Overzicht van alle informatie over integratie en participatie betreffende een inwoner
 * **Reden Beeindiging**: argumentatie voor stopzetting
-* **Regeling**: Verzamelnaam voor AMvB‚Äôs, Ministeri√´le regelingen, lokale verordeningen, etc. De regeling is de meest concrete uitleg van de wet. 
-* **Regelingsoort**: Typologie van een regeling
 * **Taalniveau**: Het duiden van bepaald gebruik en begrijpelijkheid van een taal. Het is er om verschil in taalvaardigheid te kunnen meten.
 * **Tegenprestatie**: Verplichting die tegenover een prestatie staat
 * **Tegenprestatiehoogte**: De hoogte van de tegenprestatie
@@ -22,7 +18,6 @@ Het model 'Model Werk' kent de volgende objecttypen:
 * **TrajectActiviteit**: <Geen Definities>
 * **TrajectActiviteitsoort**: <Geen Definities>
 * **Trajectsoort**: <Geen Definities>
-* **UitkeringsRun**: <Geen Definities>
 
 
 Het model 'Model Werk' heeft de volgende kenmerken:
@@ -155,88 +150,6 @@ Attributen van objecttype Fraudesoort
 
 
 
-### Inkomensvoorziening
-> **Definitie Inkomensvoorziening:** 
->
-> Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving
-
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Inkomensvoorziening |
-| toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | crossover |
-| version | 1.0 |
-| created | 2018-04-23 11:53:14 |
-| modified | 2025-03-26 12:03:41 |
-| id | EAID_07784236_3AA6_45e5_8253_7D088C4020B0 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
-
-Attributen van objecttype Inkomensvoorziening
-
-| Attribute | Datatype | Description |
-| :--- | :--- | :--- |
-| ingangsdatum | date |  |
-| einddatum | date |  |
-| toekenningsdatum | date |  |
-| bedrag | bedrag |  |
-| eenmalig | boolean |  |
-| groep | AN100 |  |
-
-
-
-
-### Inkomensvoorzieningsoort
-> **Definitie Inkomensvoorzieningsoort:** 
->
-> Typering van een inkomensvoorziening
-
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Inkomensvoorzieningsoort |
-| toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | crossover |
-| version | 1.0 |
-| created | 2018-04-23 11:53:23 |
-| modified | 2025-03-26 12:03:47 |
-| id | EAID_AF18E7D3_279D_4323_B785_6C75B4701430 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
-
-Attributen van objecttype Inkomensvoorzieningsoort
-
-| Attribute | Datatype | Description |
-| :--- | :--- | :--- |
-| naam | AN80 |  |
-| omschrijving | text |  |
-| wet | Enumeratie: "Wet" |  |
-| vergoeding | AN200 |  |
-| vergoedingscode | AN20 |  |
-| regeling | AN200 |  |
-| regelingscode | AN20 |  |
-| code | AN20 |  |
-
-
-
-
 ### Participatiedossier
 > **Definitie Participatiedossier:** 
 >
@@ -305,80 +218,6 @@ Attributen van objecttype Participatiedossier
 
 
 Attributen van objecttype Reden Beeindiging
-
-| Attribute | Datatype | Description |
-| :--- | :--- | :--- |
-| naam | AN80 |  |
-| omschrijving | text |  |
-
-
-
-
-### Regeling
-> **Definitie Regeling:** 
->
-> Verzamelnaam voor AMvB‚Äôs, Ministeri√´le regelingen, lokale verordeningen, etc. De regeling is de meest concrete uitleg van de wet. 
-
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Regeling |
-| toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
-| synoniemen |  |
-| uri |  |
-| bron | [https://www.begrippenxl.nl/dso/nl/page/Regeling](https://www.begrippenxl.nl/dso/nl/page/Regeling) |
-| author | crossover |
-| version | 1.0 |
-| created | 2018-04-23 11:56:16 |
-| modified | 2025-03-26 12:04:05 |
-| id | EAID_C25455F3_FEB0_4c6d_9AA4_3B027718BEE3 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
-
-Attributen van objecttype Regeling
-
-| Attribute | Datatype | Description |
-| :--- | :--- | :--- |
-| startdatum | date |  |
-| einddatum | date |  |
-| toekenningsdatum | date |  |
-| omschrijving | text |  |
-
-
-
-
-### Regelingsoort
-> **Definitie Regelingsoort:** 
->
-> Typologie van een regeling
-
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Regelingsoort |
-| toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | crossover |
-| version | 1.0 |
-| created | 2018-04-23 11:56:27 |
-| modified | 2025-03-26 12:04:10 |
-| id | EAID_14D3C960_5EF2_433c_8E1C_B493974280E2 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
-
-Attributen van objecttype Regelingsoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -650,88 +489,10 @@ Attributen van objecttype Trajectsoort
 
 
 
-### UitkeringsRun
-> **Definitie UitkeringsRun:** 
->
-> Geen Definitie
-
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | UitkeringsRun |
-| toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | aashkpour |
-| version | 1.0 |
-| created | 2022-06-08 14:20:23 |
-| modified | 2025-03-26 12:04:55 |
-| id | EAID_F787184D_3AA8_4132_96C4_23A363C3C1B7 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
-
-Attributen van objecttype UitkeringsRun
-
-| Attribute | Datatype | Description |
-| :--- | :--- | :--- |
-| datumRun | Date |  |
-| periodeRun | AN20 |  |
-| soortRun | AN50 |  |
-| frequentie | AN20 |  |
-
-
-
-
 
 
 
 ## Enumeraties Model Werk
-
-
-### Wet
-Geen Definitie
-
-Het enumeratie Wet kent de volgende waarden:
-
-* **Niet van toepassing**: <Geen Definities>
-* **Wmo**: <Geen Definities>
-* **Jeugdwet**: dere 
-* **Andere wet**: <Geen Definities>
-* **Leeg**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Participatiewet PW-I**: <Geen Definities>
-* **I.O.A.W./I.O.A.Z.**: <Geen Definities>
-* **Bijzondere Bijstand**: <Geen Definities>
-
-
-De enumeratie Wet heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | Wet |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:12:49 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_253cc204_3257_44ae_96ec_9d5ed0da7aca |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
-
 
 
 ### Boolean
@@ -758,7 +519,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_6a6d1d14_ee72_4059_bada_369f58aa7a16 |
+| id | EAID_06d35a7e_c8c2_4534_89b1_d2a9666ba802 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

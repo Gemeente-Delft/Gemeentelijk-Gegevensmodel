@@ -42,15 +42,15 @@ nav:
         - 'Museum': domeinen/museum.md
         - 'Sport': domeinen/sport.md
     - 'Sociaal domein':
-        - 'Gemeentebegraven': domeinen/gemeentebegraven.md
+        - 'Werk': domeinen/werk.md
+        - 'Inkomen': domeinen/inkomen.md
         - 'Wmo en Jeugd': domeinen/wmojeugd.md
         - 'Inburgering': domeinen/inburgering.md
         - 'Schuldhulverlening': domeinen/schuldhulp.md
         - 'Sociale Teams': domeinen/socteam.md
-        - 'Werk': domeinen/werk.md
-        - 'Inkomen': domeinen/inkomen.md
-        - 'Generieke definities Sociaal Domein': domeinen/socdomeingeneriek.md
+        - 'Gemeentebegraven': domeinen/gemeentebegraven.md
         - 'Dak- en thuislozen': domeinen/dakloos.md
+        - 'Generieke definities Sociaal Domein': domeinen/socdomeingeneriek.md
     - 'Volksgezondheid en milieu':
         - 'Afval': domeinen/afval.md
     - 'Volkshuisvesting, leefomgeving en stedelijke vernieuwing':
@@ -85,13 +85,15 @@ nav:
         - 'Museum': definities/definitie_Model Museum.md
         - 'Sport': definities/definitie_Model Sport.md
     - 'Sociaal domein':
-        - 'Gemeentebegrafenissen': definities/definitie_Model Gemeentebegrafenissen.md
+        - 'Werk': definities/definitie_Model Werk.md
+        - 'Inkomen': definities/definitie_Model Inkomen.md
+        - 'Wmo en Jeugd': definities/definitie_Model Jeugd en Wmo Generiek.md
         - 'Inburgering': definities/definitie_Model Inburgering.md
         - 'Schuldhulverlening': definities/definitie_Model Schuldhulpverlening.md
         - 'Sociale Teams': definities/definitie_Model Sociale Teams.md
         - 'Jeugdbescherming': definities/definitie_Model Jeugdbescherming.md
-        - 'Participatie': definities/definitie_Model Participatie.md
-        - 'Wmo en Jeugd': definities/definitie_Model Jeugd en Wmo Generiek.md
+        - 'Gemeentebegrafenissen': definities/definitie_Model Gemeentebegrafenissen.md
+        - 'Dak- en thuislozen': definities/definitie_Model Dak- en thuislozen.md
         - 'Generieke definities Sociaal Domein': definities/definitie_Model Sociaal Domein Generiek.md
     - 'Volkshuisvesting, leefomgeving en stedelijke vernieuwing':
         - 'Openbare ruimte': definities/definitie_Model Beheer Openbare Ruimte.md
@@ -104,7 +106,7 @@ nav:
         - 'Gemeentelijk Vastgoed': definities/definitie_Model Vastgoed.md
         - 'HR': definities/definitie_Model HR.md
         - 'Inkoop': definities/definitie_Model Inkoop.md
-        - 'Financiën': definities/definitie_Model Financien .md
+        - 'Financiën': definities/definitie_Model Financien.md
     - 'Dienstverlening': definities/definitie_Model Dienstverlening.md
     - 'Kern':
         - 'RSGB': definities/definitie_Model Kern RSGB.md
@@ -135,8 +137,6 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.tabbed:
       alternate_style: true
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.highlight
   - pymdownx.caret
   - pymdownx.magiclink
