@@ -9,12 +9,12 @@ Het model 'Model Archief' kent de volgende objecttypen:
 * **Aanvraag**: (officieel) verzoek, iets (officieel) vragen aan een bevoegde macht.
 * **Archief**: De bewaarplaats van belangrijke gegevens die zijn vastgelegd in documentvorm alsook de verzameling van documenten die voor een bepaald doel vervaardigd zijn.
 * **Archiefcategorie**: Typologie van een archief conform landelijke indeling
-* **Archiefstuk**: Bijeengebrachte informatie, ongeacht het medium, die wordt gecreëerd, ontvangen en gearchiveerd door een bureau, een instelling, een organisatie of een individu met het oog op het nakomen van wettelijke verplichtingen of het uitvoeren van zakelijke transacties.(AAT)
+* **Archiefstuk**: Bijeengebrachte informatie, ongeacht het medium, die wordt gecreï¿½erd, ontvangen en gearchiveerd door een bureau, een instelling, een organisatie of een individu met het oog op het nakomen van wettelijke verplichtingen of het uitvoeren van zakelijke transacties.(AAT)
 * **Auteur**: De persoon die verantwoordelijk is voor de inhoud van een (digitaal) document
 * **Bezoeker**: Een persoon die iemand of iets bezoekt.
 * **Depot**: Plaats waar iets bewaard wordt.
 * **DigitaalBestand**: Bestand dat uitsluitend met behulp van besturingsprogrammatuur of toepassingsprogrammatuur geraadpleegd kunnen worden
-* **Indeling**: Onderwerpen groeperen in samenhangende categorieën.
+* **Indeling**: Onderwerpen groeperen in samenhangende categorieï¿½n.
 * **Index**: <Geen Definities>
 * **Kast**: Object met een permanent karakter dat dient om iets in te bergen en te beschermen.
 * **Nadere Toegang**: De bevoegdheid om gegevens te raadplegen, bepaalde plaatsen te betreden of een bepaalde taak uit te oefenen.
@@ -158,7 +158,7 @@ Attributen van objecttype Archiefcategorie
 ### Archiefstuk
 > **Definitie Archiefstuk:** 
 >
-> Bijeengebrachte informatie, ongeacht het medium, die wordt gecreëerd, ontvangen en gearchiveerd door een bureau, een instelling, een organisatie of een individu met het oog op het nakomen van wettelijke verplichtingen of het uitvoeren van zakelijke transacties.(AAT)
+> Bijeengebrachte informatie, ongeacht het medium, die wordt gecreï¿½erd, ontvangen en gearchiveerd door een bureau, een instelling, een organisatie of een individu met het oog op het nakomen van wettelijke verplichtingen of het uitvoeren van zakelijke transacties.(AAT)
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -177,7 +177,7 @@ Attributen van objecttype Archiefcategorie
 | gemma_naam | Archiefstuk |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-7b7d7585-b081-4bcc-a39e-cf6b3803799a](https://gemmaonline.nl/index.php/GEMMA/id-7b7d7585-b081-4bcc-a39e-cf6b3803799a) |
-| gemma_definitie | Bijeengebrachte informatie, ongeacht het medium, die wordt gecreëerd, ontvangen en gearchiveerd door een bureau, een instelling, een organisatie of een individu met het oog op het nakomen van wettelijke verplichtingen of het uitvoeren van zakelijke transa |
+| gemma_definitie | Bijeengebrachte informatie, ongeacht het medium, die wordt gecreï¿½erd, ontvangen en gearchiveerd door een bureau, een instelling, een organisatie of een individu met het oog op het nakomen van wettelijke verplichtingen of het uitvoeren van zakelijke transa |
 | gemma_toelichting |  |
 
 
@@ -342,7 +342,7 @@ Attributen van objecttype DigitaalBestand
 ### Indeling
 > **Definitie Indeling:** 
 >
-> Onderwerpen groeperen in samenhangende categorieën.
+> Onderwerpen groeperen in samenhangende categorieï¿½n.
 
 | Eigenschap | Waarde |
 | :--- | :------ |

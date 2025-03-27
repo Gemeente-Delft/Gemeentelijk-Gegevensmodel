@@ -18,7 +18,7 @@ Het model 'Model VTH' kent de volgende objecttypen:
 * **Indiener**: Persoon die meldiing of aanvraag doet
 * **Inspectie**: het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen.
 * **Kosten**: De uitgaven of lasten die de gemeente maakt in het kader van haar taken en dienstverlening.
-* **Leges_Grondslag**: Leges zijn kosten die officiële overheidsinstanties in rekening brengen voor een dienst. Grondslag is een gegeven waarop het oordeel gebaseerd is.
+* **Leges_Grondslag**: Leges zijn kosten die officiï¿½le overheidsinstanties in rekening brengen voor een dienst. Grondslag is een gegeven waarop het oordeel gebaseerd is.
 * **Ligplaatsontheffing**: Tijdelijke toestemming voor het innemen van een ligplaats op een locatie in een gebied met een verbod op ligplaatsen.
 * **MORAanvraagOfMelding**: Een door een burger of organisatie ingediend verzoek een besluit te nemen of om informatie te verstrekken, of een ingediende melding betreffende een waargenomen probleem, gebrek of gevaar in de openbare ruimte, die valt onder de verantwoordelijkheid van de lokale overheid voor onderhoud, beheer of handhaving.
 * **OpenbareActiviteit**: Activiteit in het publieke domein
@@ -526,7 +526,7 @@ Attributen van objecttype Kosten
 ### Leges_Grondslag
 > **Definitie Leges_Grondslag:** 
 >
-> Leges zijn kosten die officiële overheidsinstanties in rekening brengen voor een dienst. Grondslag is een gegeven waarop het oordeel gebaseerd is.
+> Leges zijn kosten die officiï¿½le overheidsinstanties in rekening brengen voor een dienst. Grondslag is een gegeven waarop het oordeel gebaseerd is.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -1277,7 +1277,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_c8830e34_a917_4bcc_989b_b324cc4d38cc |
+| id | EAID_1739c40b_10ec_478c_837b_5e769baab02a |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1312,7 +1312,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_1fae70f5_c7d8_4426_a7ca_11b92f12f794 |
+| id | EAID_f147d04d_8517_40ff_8fc6_ba44704f7154 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

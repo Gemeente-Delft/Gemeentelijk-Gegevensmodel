@@ -271,7 +271,7 @@ Attributen van objecttype Doorgeleiding OM
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | HALT-verwijzing |
-| toelichting | Halt heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt. Halt legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogeheten Halt- |
+| toelichting | Haltï¿½heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt.ï¿½Haltï¿½legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogehetenï¿½Halt- |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -286,7 +286,7 @@ Attributen van objecttype Doorgeleiding OM
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-1bd77fef-f3da-40cc-b94f-e325b0781719](https://gemmaonline.nl/index.php/GEMMA/id-1bd77fef-f3da-40cc-b94f-e325b0781719) |
 | gemma_definitie | Jongeren van 12 tot 18 jaar die strafbare feiten plegen, zoals bijvoorbeeld: winkeldiefstal, vernieling, openbaar dronkenschap of oplichting kunnen naar Halt worden verwezen. In sommige gevallen is daarvoor toestemming nodig van het Openbaar Ministerie. |
-| gemma_toelichting | Halt heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt. Halt legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogeheten Halt- |
+| gemma_toelichting | Haltï¿½heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt.ï¿½Haltï¿½legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogehetenï¿½Halt- |
 
 
 Attributen van objecttype HALT-verwijzing

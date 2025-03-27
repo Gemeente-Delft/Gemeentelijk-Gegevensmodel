@@ -22,9 +22,9 @@ Het model 'Referentielijsten' kent de volgende objecttypen:
 * **Provincie**: Een gedeelte van de wereld met een eigen bestuur, waarvan de soevereiniteit in ieder geval door Nederland is erkend.
 * **Partij**: Een PARTIJ die bij de centrale voorzieningen van de BRP bekend is.
 * **RedenVerkrijgingNationaliteit**: Tabel waarin de redenen staan voor opname van de Nederlandse nationaliteit.
-* **RedenVerliesNationaliteit**: Tabel waarin de redenen staan voor beëindiging van de Nederlandse nationaliteit.
+* **RedenVerliesNationaliteit**: Tabel waarin de redenen staan voor beï¿½indiging van de Nederlandse nationaliteit.
 * **Reisdocumentsoort**: Een opsomming van de modellen van de Nederlandse reisdocumenten.
-* **SBIActiviteit**: De hiërarchische indeling van economische activiteiten conform SBI (Standaard Bedrijfsindeling).
+* **SBIActiviteit**: De hiï¿½rarchische indeling van economische activiteiten conform SBI (Standaard Bedrijfsindeling).
 * **SoortGrootte**: Een opsomming van de  soorten grootte zoals die kunnen voorkomen in een aktetekst van het Kadaster  en aanduiden op welke wijze de grootte van een perceel is vastgesteld conform de waardelijst SoortGrootte van het Kadaster
 * **SoortWOZObject**: De mogelijke codes  waarin een soort object kan worden uitgedrukt conform de uniforme soort objectcodelijst van de Waarderingskamer
 * **Valutasoort**: De mogelijke munteenheden waarin een geldbedrag kan worden uitgedrukt conform de waardelijst Valutasoort van het Kadaster
@@ -627,7 +627,7 @@ Attributen van objecttype Partij
 | soort | N2 |  |
 | verstrekkingsbeperkingMogelijk | INDIC | Indicator die aangeeft of van de betreffende PARTIJ een verstrekkingsbeperking mogelijk is. |
 | datumAanvangGeldigheidPartij | DATUM | De datum waarop de geldigheid van de partij is gestart. |
-| datumEindeGeldigheidPartij | DATUM | De datum waarop de geldigheid van de partij is beëindigd. |
+| datumEindeGeldigheidPartij | DATUM | De datum waarop de geldigheid van de partij is beï¿½indigd. |
 
 
 
@@ -673,7 +673,7 @@ Attributen van objecttype RedenVerkrijgingNationaliteit
 ### RedenVerliesNationaliteit
 > **Definitie RedenVerliesNationaliteit:** 
 >
-> Tabel waarin de redenen staan voor beëindiging van de Nederlandse nationaliteit.
+> Tabel waarin de redenen staan voor beï¿½indiging van de Nederlandse nationaliteit.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -692,7 +692,7 @@ Attributen van objecttype RedenVerkrijgingNationaliteit
 | gemma_naam | RedenVerliesNationaliteit |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-33943627-02e9-4022-8fd1-5b0b5b17138b](https://gemmaonline.nl/index.php/GEMMA/id-33943627-02e9-4022-8fd1-5b0b5b17138b) |
-| gemma_definitie | Tabel waarin de redenen staan voor beëindiging van de Nederlandse nationaliteit. |
+| gemma_definitie | Tabel waarin de redenen staan voor beï¿½indiging van de Nederlandse nationaliteit. |
 | gemma_toelichting |  |
 
 
@@ -749,7 +749,7 @@ Attributen van objecttype Reisdocumentsoort
 ### SBIActiviteit
 > **Definitie SBIActiviteit:** 
 >
-> De hiërarchische indeling van economische activiteiten conform SBI (Standaard Bedrijfsindeling).
+> De hiï¿½rarchische indeling van economische activiteiten conform SBI (Standaard Bedrijfsindeling).
 
 | Eigenschap | Waarde |
 | :--- | :------ |

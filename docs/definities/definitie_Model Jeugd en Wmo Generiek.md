@@ -8,7 +8,7 @@ Het model 'Model Jeugd en Wmo Generiek' kent de volgende objecttypen:
 
 * **AOM_AanvraagWmoJeugd**: <Geen Definities>
 * **AOMMeldingWMOJeugd**: <Geen Definities>
-* **Beperking**: Een stoornis of conditie ‚ lichamelijk, zintuiglijk en-of geestelijk ‚ die een normaal maatschappelijk functioneren belemmert en nadelige sociale gevolgen met zich meebrengt.
+* **Beperking**: Een stoornis of conditie ï¿½ lichamelijk, zintuiglijk en-of geestelijk ï¿½ die een normaal maatschappelijk functioneren belemmert en nadelige sociale gevolgen met zich meebrengt.
 * **Beperkingscategorie**: Een categorisering van beperkingen
 * **Beperkingscore**: Getalsmatige duiding van een beperking
 * **Beperkingscoresoort**: Typering van beperkingscores
@@ -155,7 +155,7 @@ Attributen van objecttype AOMMeldingWMOJeugd
 ### Beperking
 > **Definitie Beperking:** 
 >
-> Een stoornis of conditie ‚ lichamelijk, zintuiglijk en-of geestelijk ‚ die een normaal maatschappelijk functioneren belemmert en nadelige sociale gevolgen met zich meebrengt.
+> Een stoornis of conditie ï¿½ lichamelijk, zintuiglijk en-of geestelijk ï¿½ die een normaal maatschappelijk functioneren belemmert en nadelige sociale gevolgen met zich meebrengt.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -174,7 +174,7 @@ Attributen van objecttype AOMMeldingWMOJeugd
 | gemma_naam | Beperking |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-b883410b-ba90-45a0-a9f0-f16b8e1fa9ac](https://gemmaonline.nl/index.php/GEMMA/id-b883410b-ba90-45a0-a9f0-f16b8e1fa9ac) |
-| gemma_definitie | Een stoornis of conditie ‚ lichamelijk, zintuiglijk en-of geestelijk ‚ die een normaal maatschappelijk functioneren belemmert en nadelige sociale gevolgen met zich meebrengt. |
+| gemma_definitie | Een stoornis of conditie ï¿½ lichamelijk, zintuiglijk en-of geestelijk ï¿½ die een normaal maatschappelijk functioneren belemmert en nadelige sociale gevolgen met zich meebrengt. |
 | gemma_toelichting |  |
 
 
@@ -1304,7 +1304,7 @@ Het enumeratie Soort Verwijzer kent de volgende waarden:
 * **Gecertificeerde instelling**: <Geen Definities>
 * **Medisch specialist**: <Geen Definities>
 * **Zelfverwijzer / geen verwijzer**: <Geen Definities>
-* **Rechter, Officier van Justitie, functionaris Justitiële jeugdinrichting**: <Geen Definities>
+* **Rechter, Officier van Justitie, functionaris Justitiï¿½le jeugdinrichting**: <Geen Definities>
 * **Leeg**: <Geen Definities>
 * **Onbekend**: <Geen Definities>
 

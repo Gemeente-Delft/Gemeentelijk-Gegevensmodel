@@ -65,6 +65,10 @@ nav:
         - 'HR': domeinen/hr.md
         - 'Inkoop': domeinen/inkoop.md
     - 'Dienstverlening': domeinen/dienstverlening.md
+    - 'Kern':
+        - 'BAG': domeinen/bag.md
+        - 'RSGB': domeinen/rsgb.md
+        - 'RGBZ': domeinen/rgbz.md
  - Definitie Domeinen:
     - 'Bestuur, Politiek en Ondersteuning':
         - 'Griffie': definities/definitie_Model Griffie.md

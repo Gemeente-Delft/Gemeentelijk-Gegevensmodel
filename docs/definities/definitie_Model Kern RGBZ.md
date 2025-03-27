@@ -12,19 +12,19 @@ Het model 'Model Kern RGBZ' kent de volgende objecttypen:
 * **Besluittype**: Generieke aanduiding van de aard van een besluit
 * **Betaling**: het onderhandigen of overboeken van geld in ruil voor goed of dienst
 * **Betrokkene**: Een SUBJECT, zijnde een NATUURLIJK PERSOON, NIET-NATUURLIJK PERSOON of VESTIGING, ORGANISATORISCHE EENHEID (binnen een vestiging van de zaak-behandelende niet-natuurlijk persoon), of MEDEWERKER (van die organisatorische eenheid) die een rol kan spelen bij een ZAAK.
-* **Deelproces**: Een geordende reeks van processtappen die binnen één organisatorische eenheid binnen een organisatie wordt uitgevoerd met als doel een specifieke bijdrage (prestatie) te leveren aan een dienst die uiteindelijke zal worden geleverd aan een burger, een bedrijf of een andere organisatie. Voorheen 'werkproces' genoemd.
+* **Deelproces**: Een geordende reeks van processtappen die binnen ï¿½ï¿½n organisatorische eenheid binnen een organisatie wordt uitgevoerd met als doel een specifieke bijdrage (prestatie) te leveren aan een dienst die uiteindelijke zal worden geleverd aan een burger, een bedrijf of een andere organisatie. Voorheen 'werkproces' genoemd.
 * **Deelprocestype**: soort Deelproces met bepaalde kenmerken
 * **Document**: Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT.
 * **Documenttype**: Aanduiding van de aard van een DOCUMENT zoals gehanteerd door de zaakbehandelende organisatie
-* **EnkelvoudigDocument**: Een DOCUMENT waarvan aard, omvang en/of vorm aanleiding geven het als één geheel te behandelen en te beheren.
+* **EnkelvoudigDocument**: Een DOCUMENT waarvan aard, omvang en/of vorm aanleiding geven het als ï¿½ï¿½n geheel te behandelen en te beheren.
 * **Heffing**: Een door de overheid opgelegde verplichting tot betaling
 * **Identificatiekenmerk**: Nodig voor archivering om verschillende typen identificatie te kunnen onderscheiden:
 * **Klantcontact**: Klantcontacten zijn contactmomenten die werkelijk hebben plaatsgevonden, terwijl Balieafspraken afspraken zijn voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.  Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje). 
 * **Medewerker**: Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID.
-* **Object**: Het OBJECT waarop een ZAAK betrekking kan hebben zijnde één of meer voorkomens van de in het RSGB en het RGBZ onderscheiden objecttypen.
+* **Object**: Het OBJECT waarop een ZAAK betrekking kan hebben zijnde ï¿½ï¿½n of meer voorkomens van de in het RSGB en het RGBZ onderscheiden objecttypen.
 * **Offerte**: Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs. 
 * **OrganisatorischeEenheid**: Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken.
-* **SamengesteldDocument**: Een DOCUMENT waarbinnen twee of meer ENKELVOUDIGe DOCUMENTen onderscheiden worden die vanwege gezamenlijke vervaardiging en/of ontvangst en/of vanwege aard en/of omvang als één geheel beschouwd moeten worden dan wel behandeld worden.,
+* **SamengesteldDocument**: Een DOCUMENT waarbinnen twee of meer ENKELVOUDIGe DOCUMENTen onderscheiden worden die vanwege gezamenlijke vervaardiging en/of ontvangst en/of vanwege aard en/of omvang als ï¿½ï¿½n geheel beschouwd moeten worden dan wel behandeld worden.,
 * **Status**: Een aanduiding van de stand van zaken van een zaak op basis van betekenisvol behaald resultaat voor de initiator van de zaak.
 * **Statustype**: Generieke aanduiding van de aard van een STATUS
 * **VestigingVanZaakbehandelendeOrganisatie**: Een VESTIGING van een onderneming of rechtspersoon zijnde de zaakbehandelende organisatie.
@@ -306,7 +306,7 @@ Attributen van objecttype Betrokkene
 ### Deelproces
 > **Definitie Deelproces:** 
 >
-> Een geordende reeks van processtappen die binnen één organisatorische eenheid binnen een organisatie wordt uitgevoerd met als doel een specifieke bijdrage (prestatie) te leveren aan een dienst die uiteindelijke zal worden geleverd aan een burger, een bedrijf of een andere organisatie. Voorheen 'werkproces' genoemd.
+> Een geordende reeks van processtappen die binnen ï¿½ï¿½n organisatorische eenheid binnen een organisatie wordt uitgevoerd met als doel een specifieke bijdrage (prestatie) te leveren aan een dienst die uiteindelijke zal worden geleverd aan een burger, een bedrijf of een andere organisatie. Voorheen 'werkproces' genoemd.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -416,7 +416,7 @@ Attributen van objecttype Document
 | cocumentBeschrijving | AN1000 | <font color="#610e6a">Een generieke beschrijving van de inhoud van het document.</font> |
 | datumVerzendingDocument |  | <font color="#610e6a">De datum waarop het DOCUMENT verzonden is.</font> |
 | vertrouwelijkAanduiding | AN20 | <font color="#610e6a">Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is.</font> |
-| documentAuteur | AN200 | <font color="#610e6a">De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document.</font> |
+| documentAuteur | AN200 | <font color="#610e6a">De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creï¿½ren van de inhoud van het document.</font> |
 | type | Class: "Documenttype" |  |
 
 
@@ -465,7 +465,7 @@ Attributen van objecttype Documenttype
 ### EnkelvoudigDocument
 > **Definitie EnkelvoudigDocument:** 
 >
-> Een DOCUMENT waarvan aard, omvang en/of vorm aanleiding geven het als één geheel te behandelen en te beheren.
+> Een DOCUMENT waarvan aard, omvang en/of vorm aanleiding geven het als ï¿½ï¿½n geheel te behandelen en te beheren.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -692,7 +692,7 @@ Attributen van objecttype Medewerker
 ### Object
 > **Definitie Object:** 
 >
-> Het OBJECT waarop een ZAAK betrekking kan hebben zijnde één of meer voorkomens van de in het RSGB en het RGBZ onderscheiden objecttypen.
+> Het OBJECT waarop een ZAAK betrekking kan hebben zijnde ï¿½ï¿½n of meer voorkomens van de in het RSGB en het RGBZ onderscheiden objecttypen.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -711,7 +711,7 @@ Attributen van objecttype Medewerker
 | gemma_naam | Object |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f08625cc-cc49-4664-91fa-823b217d333f](https://gemmaonline.nl/index.php/GEMMA/id-f08625cc-cc49-4664-91fa-823b217d333f) |
-| gemma_definitie | Het OBJECT waarop een ZAAK betrekking kan hebben zijnde één of meer voorkomens van de in het RSGB en het RGBZ onderscheiden objecttypen. |
+| gemma_definitie | Het OBJECT waarop een ZAAK betrekking kan hebben zijnde ï¿½ï¿½n of meer voorkomens van de in het RSGB en het RGBZ onderscheiden objecttypen. |
 | gemma_toelichting |  |
 
 
@@ -847,7 +847,7 @@ Attributen van objecttype OrganisatorischeEenheid
 ### SamengesteldDocument
 > **Definitie SamengesteldDocument:** 
 >
-> Een DOCUMENT waarbinnen twee of meer ENKELVOUDIGe DOCUMENTen onderscheiden worden die vanwege gezamenlijke vervaardiging en/of ontvangst en/of vanwege aard en/of omvang als één geheel beschouwd moeten worden dan wel behandeld worden.,
+> Een DOCUMENT waarbinnen twee of meer ENKELVOUDIGe DOCUMENTen onderscheiden worden die vanwege gezamenlijke vervaardiging en/of ontvangst en/of vanwege aard en/of omvang als ï¿½ï¿½n geheel beschouwd moeten worden dan wel behandeld worden.,
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -1196,7 +1196,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_e35ca35e_772e_440b_adc4_1316c873573a |
+| id | EAID_ec6059e2_33da_4fdf_a814_8f9c23fca4bf |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1229,7 +1229,7 @@ De enumeratie Heffingsoort heeft de volgende kenmerken:
 | version | 1.5 |
 | created | 2025-03-26 11:12:42 |
 | modified | 2025-03-26 16:14:35 |
-| id | EAID_fcd11227_ed71_4b87_87c9_fc5913ab279a |
+| id | EAID_06acdc6c_ccff_4083_a73b_ccb76a6967e3 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1265,7 +1265,7 @@ De enumeratie Soorten Klantcontact heeft de volgende kenmerken:
 | version | 1.5 |
 | created | 2025-03-26 11:13:26 |
 | modified | 2025-03-26 16:14:51 |
-| id | EAID_c8893e67_66a3_4af2_803d_a2a9a5ff2ac5 |
+| id | EAID_deec6019_f8d4_4da8_aaf6_df9224efeb76 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

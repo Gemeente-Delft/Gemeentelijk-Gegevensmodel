@@ -330,7 +330,7 @@ Attributen van objecttype Gemeente
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | gemeentecode | AN4 | Een numerieke aanduiding waarmee een Nederlandse gemeente uniek wordt aangeduid |
-| gemeentenaam | AN80 | De officiële door de gemeente vastgestelde gemeentenaam. |
+| gemeentenaam | AN80 | De officiï¿½le door de gemeente vastgestelde gemeentenaam. |
 | gemeentenaam NEN | AN24 | De officieel vastgestelde en waar nodig ingekorte naam van de gemeente |
 | geometrie | Surface | De tweedimensionale geometrische representatie van de omtrekken van het grondgebied van een gemeente. |
 | beginGeldigheid | DATUM | Definitie
@@ -476,7 +476,7 @@ Attributen van objecttype AdresseerbaarObject
 | gemma_naam | OPENBARE RUIMTE |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-d2f8867b-fce6-4932-8b1a-ec8b9392f0d5](https://gemmaonline.nl/index.php/GEMMA/id-d2f8867b-fce6-4932-8b1a-ec8b9392f0d5) |
-| gemma_definitie | Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen. Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam). |
+| gemma_definitie | Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen ï¿½ï¿½n woonplaats is gelegen. Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam). |
 | gemma_toelichting |  |
 
 
@@ -490,10 +490,10 @@ Attributen van objecttype OpenbareRuimte
 | geconstateerd | boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname |
 | typeOpenbareruimte | Enumeratie: "typeringOpenbareRuimte" | De aard van de als zodanig benoemde OPENBARE
 RUIMTE. |
-| straatnaam | AN24 | De officiële straatnaam zoals door het bevoegd gemeentelijk orgaan is vastgesteld, zo nodig ingekort conform de specificaties van de NEN 5825. |
-| Huisnummerrange even nummers | AN11 | Het laagste en het hoogste huisnummer, zijnde even getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE. |
-| Huisnummerrange oneven nummers | AN11 | Het laagste en het hoogste huisnummer, zijnde oneven getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE. |
-| Huisnummerrange even en oneven nummers | AN11 | Het laagste en het hoogste huisnummer van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE in die gevallen dat aan één of beide zijden van de OPENBARE RUIMTE zowel even als oneven huisnummers voorkomen dan wel dat even en/of oneven huisnummers aan beide zijden van de openbare ruimte voorkomen. |
+| straatnaam | AN24 | De officiï¿½le straatnaam zoals door het bevoegd gemeentelijk orgaan is vastgesteld, zo nodig ingekort conform de specificaties van de NEN 5825. |
+| Huisnummerrange even nummers | AN11 | Het laagste en het hoogste huisnummer, zijnde even getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan ï¿½ï¿½n van beide zijden van de OPENBARE RUIMTE. |
+| Huisnummerrange oneven nummers | AN11 | Het laagste en het hoogste huisnummer, zijnde oneven getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan ï¿½ï¿½n van beide zijden van de OPENBARE RUIMTE. |
+| Huisnummerrange even en oneven nummers | AN11 | Het laagste en het hoogste huisnummer van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE in die gevallen dat aan ï¿½ï¿½n of beide zijden van de OPENBARE RUIMTE zowel even als oneven huisnummers voorkomen dan wel dat even en/of oneven huisnummers aan beide zijden van de openbare ruimte voorkomen. |
 | labelNaam |  | <font color="#0f0f0f">Bevat de naam van de openbare ruimte ten behoeve van visualisatie.</font> |
 | geometrie | MultiSurface | De tweedimensionale geometrische representatie van de omtrekken van de openbare ruimte. |
 | wegsegment | Curve | De geometrische representatie van de openbare ruimte als een lijn. |
@@ -798,7 +798,7 @@ Attributen van objecttype Woonplaats
 | :--- | :--- | :--- |
 | identificatie | Varchar | De unieke aanduiding van een WOONPLAATS, zoals opgenomen in de landelijke woonplaatsentabel. |
 | woonplaatsnaam | AN80 | De door het bevoegde gemeentelijke orgaan aan een WOONPLAATS toegekende benaming. |
-| woonplaatsnaamNEN | AN24 | De officiële plaatsnaam conform NEN |
+| woonplaatsnaamNEN | AN24 | De officiï¿½le plaatsnaam conform NEN |
 | geconstateerd | boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname. |
 | status | Enumeratie: "statusWoonplaats" | De fase van de levenscyclus van een WOONPLAATS, waarin de betreffende WOONPLAATS zich bevindt. |
 | geometrie | Surface | De tweedimensionale geometrische representatie van het vlak dat wordt gevormd door de omtrekken van een woonplaats. |
@@ -856,7 +856,7 @@ De enumeratie statusNummeraanduiding heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_b9105067_cab3_481d_b289_30a8ac938eb5 |
+| id | EAID_f697a3a0_9fdc_4566_9f2d_525a04839fe4 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -893,7 +893,7 @@ De enumeratie TypeAdresseerbaarObject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:15 |
 | modified | 2025-03-26 16:14:47 |
-| id | EAID_a55266f8_5c27_439c_9502_9c3cd0d3fae9 |
+| id | EAID_22dac7a5_fa45_48b2_be48_de5a5c5fddd0 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -928,7 +928,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_b07fe7e9_b365_4bdd_b963_36eb559bf14d |
+| id | EAID_0cdf7de1_3ed0_4347_ae59_dbff7efb7b63 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -963,7 +963,7 @@ De enumeratie statusOpenbareRuimte heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_fb2c6ff3_8154_416a_92db_7aaf86e424e4 |
+| id | EAID_35f9ada1_a281_446a_92fd_0daf338ecd5d |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -989,7 +989,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
 * **kunstwerk**: Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen  en niet bedoeld voor permanent menselijk verblijf.
 Hieronder vallen overbruggingen, waterstaatkundige werken en waterkerende constructies. verbruggingen  kunnen zijn: brug, viaduct, aquaduct enz. Een voorbeeld van een waterstaatkundig werk is een sluis.    
 Voorbeelden van waterkerende constructies zijn stuw en vaste dam.
-* **landschappelijk gebied**: Geografisch gebied’: begrensd en benoemd gebied dat door een geografische eenheid wordt beschreven. 
+* **landschappelijk gebied**: Geografisch gebiedï¿½: begrensd en benoemd gebied dat door een geografische eenheid wordt beschreven. 
 De grenzen  zijn niet altijd exact vastgesteld (bijvoorbeeld Polder, Midden-Nederland,  Rivierengebied, Veluwe, Zuid-Limburg, Kustgebied). 
 * **functioneel gebied**: Begrensd en benoemd gebied dat door een functionele eenheid wordt beschreven (bijvoorbeeld bedrijventerrein, bungalowpark, plantsoen, begraafplaats, jachthaven, windmolenpark, recreatiegebied .
 * **administratief gebied**: Op basis van wet- of regelgeving afgebakend gebied dat als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering
@@ -1010,7 +1010,7 @@ De enumeratie typeringOpenbareRuimte heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:41 |
 | modified | 2025-03-26 16:14:57 |
-| id | EAID_8f9de644_670a_4f6b_8dc3_429809d8da35 |
+| id | EAID_974b5983_d071_427b_bb58_c810160dc9ed |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1038,7 +1038,7 @@ gerekend)
 in gebruik is genomen voor bijvoorbeeld bewoning dan wel 
 bedrijfsuitoefening of dat het weliswaar (nog) niet in gebruik is 
 genomen maar naar het oordeel van de gemeente wel gebruiksgereed is
-* **pand in gebruik**: Een pand dat feitelijk de status “Pand in gebruik (niet ingemeten)” had en waarvan de definitieve geometrie is ingemeten 
+* **pand in gebruik**: Een pand dat feitelijk de status ï¿½Pand in gebruik (niet ingemeten)ï¿½ had en waarvan de definitieve geometrie is ingemeten 
 * **sloopvergunning verleend**: Een pand waarvoor een sloopvergunning is verleend
 * **pand gesloopt**: Een pand waarvan de aanvrager van de sloopvergunning heeft gemeld dat de sloop is voltooid of in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het pand is gesloopt.
 * **pand buiten gebruik**: Een pand dat in dusdanige bouwkundige staat is dat niet te verwachten is dat het pand zal worden hersteld en weer in gebruik zal worden genomen.
@@ -1062,7 +1062,7 @@ De enumeratie statusPand heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_eb05c1fe_1307_4cce_be46_f8612bcb076a |
+| id | EAID_ea180a7a_0410_4d74_b190_5ccba451c0e9 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1107,7 +1107,7 @@ De enumeratie statusVoortgangBouw heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_0c8ecfc8_6bbb_47e2_9f02_74d0bb84d53d |
+| id | EAID_bf315453_cee2_4b4f_b1db_6badf6fb5cd2 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1142,7 +1142,7 @@ De enumeratie StatLigplaatsStandplaats heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_f8301892_f276_47c2_a6f7_d3ea51bee710 |
+| id | EAID_558deac3_9105_4313_aa16_9309870bfcad |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1162,7 +1162,7 @@ Het enumeratie statusVerblijfsobject kent de volgende waarden:
 * **niet gerealiseerd verblijfsobject**: Een verblijfsobject in een pand waarvoor een bouwvergunning was verleend of dat gerealiseerd zou worden in een reeds bestaand pand, maar waarvan in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken.
 * **verblijfsobject in gebruik (niet ingemeten)**: Een verblijfsobject waarvan de aanvrager van de bouwvergunning heeft gemeld dat de bouw is voltooid of waarvan in een schriftelijke 
 verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het verblijfsobject feitelijk in gebruik is genomen voor bijvoorbeeld bewoning dan wel bedrijfsuitoefening of dat het weliswaar (nog) niet in gebruik is genomen maar naar het oordeel van de gemeente wel gebruiksgereed is. Het object is nog niet ingemeten.
-* **verblijfsobject in gebruik**: Een verblijfsobject dat feitelijk de status “Verblijfsobject in gebruik (niet ingemeten)” had en waarvan de definitieve geometrie is ingemeten.
+* **verblijfsobject in gebruik**: Een verblijfsobject dat feitelijk de status ï¿½Verblijfsobject in gebruik (niet ingemeten)ï¿½ had en waarvan de definitieve geometrie is ingemeten.
 * **verblijfsobject ingetrokken**: een verblijfsobject dat als zodanig Catalogus basisregistraties adressen en gebouwen 2009 Pagina 79 van 79 opgehouden heeft te bestaan omdat de aanvrager van een sloopvergunning heeft gemeld dat de sloop is voltooid of in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is.
 vastgesteld dat het verblijfsobject als zodanig niet meer 
 bestaat
@@ -1184,7 +1184,7 @@ De enumeratie statusVerblijfsobject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_127bd3f4_3390_4987_b603_ee6054d35886 |
+| id | EAID_1f389a96_2c85_4fab_9082_4ec5bdd5b0e4 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1222,7 +1222,7 @@ De enumeratie soortWoonobject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_9969d2a4_f241_40f1_8620_645584d9c51a |
+| id | EAID_bb77e5b5_71ff_4379_a420_fefcf2c3ec85 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1258,7 +1258,7 @@ De enumeratie ontsluitingswijzeVerdieping heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:38 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_5559ed7f_355a_4982_9adb_3c94949b3f2e |
+| id | EAID_6923d3f3_00fa_4e03_b653_558c178e5c1a |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1278,7 +1278,7 @@ Het enumeratie statusVerblijfsobject kent de volgende waarden:
 * **niet gerealiseerd verblijfsobject**: Een verblijfsobject in een pand waarvoor een bouwvergunning was verleend of dat gerealiseerd zou worden in een reeds bestaand pand, maar waarvan in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken.
 * **verblijfsobject in gebruik (niet ingemeten)**: Een verblijfsobject waarvan de aanvrager van de bouwvergunning heeft gemeld dat de bouw is voltooid of waarvan in een schriftelijke 
 verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het verblijfsobject feitelijk in gebruik is genomen voor bijvoorbeeld bewoning dan wel bedrijfsuitoefening of dat het weliswaar (nog) niet in gebruik is genomen maar naar het oordeel van de gemeente wel gebruiksgereed is. Het object is nog niet ingemeten.
-* **verblijfsobject in gebruik**: Een verblijfsobject dat feitelijk de status “Verblijfsobject in gebruik (niet ingemeten)” had en waarvan de definitieve geometrie is ingemeten.
+* **verblijfsobject in gebruik**: Een verblijfsobject dat feitelijk de status ï¿½Verblijfsobject in gebruik (niet ingemeten)ï¿½ had en waarvan de definitieve geometrie is ingemeten.
 * **verblijfsobject ingetrokken**: een verblijfsobject dat als zodanig Catalogus basisregistraties adressen en gebouwen 2009 Pagina 79 van 79 opgehouden heeft te bestaan omdat de aanvrager van een sloopvergunning heeft gemeld dat de sloop is voltooid of in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is.
 vastgesteld dat het verblijfsobject als zodanig niet meer 
 bestaat
@@ -1300,7 +1300,7 @@ De enumeratie statusVerblijfsobject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_8ab94158_5635_4031_8905_1cecaba90133 |
+| id | EAID_7cf8ed29_cf3c_46e9_aad5_8f14a2a74c69 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1335,7 +1335,7 @@ De enumeratie statusWoonplaats heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:40 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_48afaebb_c758_4031_b7b7_b7cba34ea78b |
+| id | EAID_2cb639a7_75fb_4956_8e07_14f5e0bd250e |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1690,7 +1690,7 @@ gerekend)
 in gebruik is genomen voor bijvoorbeeld bewoning dan wel 
 bedrijfsuitoefening of dat het weliswaar (nog) niet in gebruik is 
 genomen maar naar het oordeel van de gemeente wel gebruiksgereed is
-* **pand in gebruik**: Een pand dat feitelijk de status “Pand in gebruik (niet ingemeten)” had en waarvan de definitieve geometrie is ingemeten 
+* **pand in gebruik**: Een pand dat feitelijk de status ï¿½Pand in gebruik (niet ingemeten)ï¿½ had en waarvan de definitieve geometrie is ingemeten 
 * **sloopvergunning verleend**: Een pand waarvoor een sloopvergunning is verleend
 * **pand gesloopt**: Een pand waarvan de aanvrager van de sloopvergunning heeft gemeld dat de sloop is voltooid of in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het pand is gesloopt.
 * **pand buiten gebruik**: Een pand dat in dusdanige bouwkundige staat is dat niet te verwachten is dat het pand zal worden hersteld en weer in gebruik zal worden genomen.
@@ -1734,7 +1734,7 @@ Het enumeratie statusVerblijfsobject kent de volgende waarden:
 * **niet gerealiseerd verblijfsobject**: Een verblijfsobject in een pand waarvoor een bouwvergunning was verleend of dat gerealiseerd zou worden in een reeds bestaand pand, maar waarvan in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken.
 * **verblijfsobject in gebruik (niet ingemeten)**: Een verblijfsobject waarvan de aanvrager van de bouwvergunning heeft gemeld dat de bouw is voltooid of waarvan in een schriftelijke 
 verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het verblijfsobject feitelijk in gebruik is genomen voor bijvoorbeeld bewoning dan wel bedrijfsuitoefening of dat het weliswaar (nog) niet in gebruik is genomen maar naar het oordeel van de gemeente wel gebruiksgereed is. Het object is nog niet ingemeten.
-* **verblijfsobject in gebruik**: Een verblijfsobject dat feitelijk de status “Verblijfsobject in gebruik (niet ingemeten)” had en waarvan de definitieve geometrie is ingemeten.
+* **verblijfsobject in gebruik**: Een verblijfsobject dat feitelijk de status ï¿½Verblijfsobject in gebruik (niet ingemeten)ï¿½ had en waarvan de definitieve geometrie is ingemeten.
 * **verblijfsobject ingetrokken**: een verblijfsobject dat als zodanig Catalogus basisregistraties adressen en gebouwen 2009 Pagina 79 van 79 opgehouden heeft te bestaan omdat de aanvrager van een sloopvergunning heeft gemeld dat de sloop is voltooid of in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is.
 vastgesteld dat het verblijfsobject als zodanig niet meer 
 bestaat
@@ -1862,7 +1862,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
 * **kunstwerk**: Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen  en niet bedoeld voor permanent menselijk verblijf.
 Hieronder vallen overbruggingen, waterstaatkundige werken en waterkerende constructies. verbruggingen  kunnen zijn: brug, viaduct, aquaduct enz. Een voorbeeld van een waterstaatkundig werk is een sluis.    
 Voorbeelden van waterkerende constructies zijn stuw en vaste dam.
-* **landschappelijk gebied**: Geografisch gebied’: begrensd en benoemd gebied dat door een geografische eenheid wordt beschreven. 
+* **landschappelijk gebied**: Geografisch gebiedï¿½: begrensd en benoemd gebied dat door een geografische eenheid wordt beschreven. 
 De grenzen  zijn niet altijd exact vastgesteld (bijvoorbeeld Polder, Midden-Nederland,  Rivierengebied, Veluwe, Zuid-Limburg, Kustgebied). 
 * **functioneel gebied**: Begrensd en benoemd gebied dat door een functionele eenheid wordt beschreven (bijvoorbeeld bedrijventerrein, bungalowpark, plantsoen, begraafplaats, jachthaven, windmolenpark, recreatiegebied .
 * **administratief gebied**: Op basis van wet- of regelgeving afgebakend gebied dat als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering

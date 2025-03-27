@@ -6,7 +6,7 @@ adressering en het object waarop het adres betrekking heeft en wordt een aanzet 
 
 In de volgende figuur is het model van de BAG weergegeven:
 
-![Model BAG](./domeinen/image/EAID_53E16E43_EDF1_4b47_B0DD_C77D8FEFCCA3.jpg)
+![Model BAG](./image/EAID_53E16E43_EDF1_4b47_B0DD_C77D8FEFCCA3.jpg)
 
 
 Voor meer informatie over het informatiemodel BAG kunt u terecht bij de [Catalogus BAG](https://www.geobasisregistraties.nl/documenten/publicatie/2018/03/12/catalogus-2018) en
