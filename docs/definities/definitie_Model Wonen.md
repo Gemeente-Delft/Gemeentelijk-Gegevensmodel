@@ -49,7 +49,7 @@ Het model 'Model Wonen' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-11-13 15:42:45 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_681DB26F_D779_4796_B467_576E5A25F581 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -67,12 +67,12 @@ Attributen van objecttype Gebouw
 | aantal | int |  |
 | aantalAdressen | int |  |
 | aantalKamers | int |  |
-| aardgasloos | boolean |  |
-| duurzaam | boolean |  |
 | energielabel | Enumeratie: "Energielabel" |  |
-| natuurinclusief | boolean |  |
 | oppervlakte | Enumeratie: "Oppervlakte Woning" |  |
+| duurzaam | boolean |  |
+| natuurinclusief | boolean |  |
 | regenwater | boolean |  |
+| aardgasloos | boolean |  |
 
 
 
@@ -92,7 +92,7 @@ Attributen van objecttype Gebouw
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-11-13 15:38:20 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_E0F7D3A0_46C8_4e70_AA10_3888B60D14C0 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -127,7 +127,7 @@ Attributen van objecttype Huurwoningen
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-11-13 15:38:08 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_7FECB5B2_E6CB_4637_9FD4_6EBA2CA96BBA |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -162,7 +162,7 @@ Attributen van objecttype Koopwoningen
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-11-13 15:37:15 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_D857E285_1EA3_4ba3_9614_5FACAC8BA133 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -177,20 +177,20 @@ Attributen van objecttype Plan
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| 70ProcentVerkocht | boolean |  |
-| aardgasloos | boolean |  |
-| bestemmingGoedgekeurd | boolean |  |
-| eersteOplevering | Date |  |
-| eigendomGemeente | boolean |  |
-| gebiedstransformatie | boolean |  |
-| intentie | boolean |  |
-| laatsteOplevering | Date |  |
 | naam | AN80 |  |
 | nummer | AN40 |  |
+| aardgasloos | boolean |  |
+| gebiedstransformatie | boolean |  |
+| intentie | boolean |  |
+| bestemmingGoedgekeurd | boolean |  |
 | onherroepelijk | boolean |  |
-| percelen | MultiSurface |  |
-| startbouw | Date |  |
+| eigendomGemeente | boolean |  |
+| 70ProcentVerkocht | boolean |  |
 | startVerkoop | Date |  |
+| startbouw | Date |  |
+| eersteOplevering | Date |  |
+| laatsteOplevering | Date |  |
+| percelen | MultiSurface |  |
 | None | Class: "Gebouw" |  |
 
 
@@ -211,7 +211,7 @@ Attributen van objecttype Plan
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-11-13 16:05:41 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_888BBB4F_BEBA_4b9a_BB2E_0E1F2A3606DF |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -246,7 +246,7 @@ Attributen van objecttype Projectleider
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-11-13 15:37:40 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_6BBB2AE0_6F42_4676_8C6C_E727032F5F47 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -261,8 +261,8 @@ Attributen van objecttype Projectontwikkelaar
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| adres | AN200 |  |
 | naam | AN80 |  |
+| adres | AN200 |  |
 | None | Class: "Plan" |  |
 
 
@@ -283,7 +283,7 @@ Attributen van objecttype Projectontwikkelaar
 | author | Arjen Brienen |
 | version | 1.4 |
 | created | 2018-11-13 15:38:41 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_98C74EAB_3411_4d1a_8321_FF30567B6877 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -298,8 +298,8 @@ Attributen van objecttype Studentenwoningen
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| huurprijs | Bedrag |  |
 | zelfstandig | boolean |  |
+| huurprijs | Bedrag |  |
 
 
 
@@ -333,10 +333,10 @@ De enumeratie Energielabel heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
-| id | EAID_09273435_b524_43f2_ac00_3c756adc8cc0 |
+| version | 1.4 |
+| created | 2025-03-26 11:13:10 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_a5f80d56_eeb2_4c3d_ad91_a73be0f24771 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -371,10 +371,10 @@ De enumeratie Oppervlakte Woning heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
-| id | EAID_265e4bef_8f79_44c1_9a20_06848756fa8e |
+| version | 1.4 |
+| created | 2025-03-26 11:13:10 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_5e9b51af_d114_4ab8_8283_e6d79c6b031b |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

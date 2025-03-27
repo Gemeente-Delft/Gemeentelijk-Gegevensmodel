@@ -38,9 +38,9 @@ Het model 'Model Inburgering' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | mkampen |
-| version | 1.0 |
+| version | 1.1 |
 | created | 2022-11-22 11:46:08 |
-| modified | 2022-11-22 11:49:15 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_1A306FCA_5794_4a29_A5FA_EAE2DBD07DA6 |
 
 
@@ -62,7 +62,7 @@ Het model 'Model Inburgering' heeft de volgende kenmerken:
 | author | aashkpour |
 | version | 1.4 |
 | created | 2022-11-21 13:47:46 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_598F7015_C6B5_4eed_80A6_139B62324678 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -77,20 +77,21 @@ Attributen van objecttype Asielstatushouder
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| DigiD aangevraagd | Enumeratie: "Boolean" | Heeft de Asielstatushouder  een DigiD aangevraagd?
-Mogelijke waarden: ja, nee of onbekend. |
-| Emailadres verblijf AZC | AN40 | Het emailadres van Asielstatushouder  tijdens verblijf in het AZC.
- 
-Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder   het AZC verlaat. |
-| Is gekoppeld aan | AN40 | Is de naam van de Gemeente waar de Asielstatushouder aan is gekoppeld voor huisvesting en verdere inburgering. |
-| Land Rijbewijs | AN50 | Het land waar het rijbewijs is gehaald door Asielstatushouder. |
-| Rijbewijs | Enumeratie: "Boolean" | Is de Asielstatushouder in het bezit van een rijbewijs?
-Mogelijke waarden: ja, nee of onbekend |
 | Telefoonnummer verblijf AZC | AN10 | Het telefoonummer van Asielstatushouder  tijdens het verblijf in het AZC.
 
 Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat. |
+| Emailadres verblijf AZC | AN40 | Het emailadres van Asielstatushouder  tijdens verblijf in het AZC.
+ 
+Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder   het AZC verlaat. |
+| DigiD aangevraagd | Enumeratie: "Boolean" | Heeft de Asielstatushouder  een DigiD aangevraagd?
+Mogelijke waarden: ja, nee of onbekend. |
+| Rijbewijs | Enumeratie: "Boolean" | Is de Asielstatushouder in het bezit van een rijbewijs?
+Mogelijke waarden: ja, nee of onbekend |
+| Land Rijbewijs | AN50 | Het land waar het rijbewijs is gehaald door Asielstatushouder. |
+| Is gekoppeld aan | AN40 | Is de naam van de Gemeente waar de Asielstatushouder aan is gekoppeld voor huisvesting en verdere inburgering. |
 | None | Class: "Gemeente" |  |
 | None | Class: "Verblijfplaats AZC" |  |
+| None | Class: "Gemeente" |  |
 
 
 
@@ -110,7 +111,7 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
 | author | mkampen |
 | version | 1.2 |
 | created | 2022-11-28 16:51:03 |
-| modified | 2024-11-21 08:38:12 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_E5FC387A_F29B_460f_9811_3E6E1782B049 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -144,7 +145,7 @@ Attributen van objecttype B1
 | author | mkampen |
 | version | 1.5 |
 | created | 2022-11-28 16:48:20 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_8B394DCE_C3C4_4262_9460_8EF130E90D83 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -179,7 +180,7 @@ Attributen van objecttype Brede Intake
 | author | mkampen |
 | version | 1.5 |
 | created | 2022-11-28 16:59:53 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_DCE46ABA_613D_4204_86F4_35F517FF680F |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -214,7 +215,7 @@ Attributen van objecttype Examen
 | author | mkampen |
 | version | 1.4 |
 | created | 2022-11-28 17:00:52 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_D41DCE2D_4AD5_45b8_9527_EC416F4A4CC7 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -253,14 +254,14 @@ Attributen van objecttype Examenonderdeel
 | author | aashkpour |
 | version | 1.4 |
 | created | 2022-11-21 13:45:07 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_526489DC_4D57_4e6d_8338_5F7C898162F6 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Gezinsmigrant en Overige migrant |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-61601c33-5b61-4bab-9191-e7eb1b1bca07](https://gemmaonline.nl/index.php/GEMMA/id-61601c33-5b61-4bab-9191-e7eb1b1bca07) |
-| gemma_definitie | Object Inburgeraar is gespecialiseerd in Asielstatushouder en Gezinsmigrant en Overige Migrant.  Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties te leggen met objecten die alleen van toepassing zijn voor Gezinsmigrant en Overige Migrant zoals bijvoorbeeld: object Aanvraag Sociale Lening. Hetzelfde geldt ook voor object Asielstatushouder, deze heeft overigens wel kenmerken. |
+| gemma_definitie | Object Inburgeraar is gespecialiseerd in Asielstatushouder en Gezinsmigrant en Overige Migrant.  Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties te leggen met objecten die alleen van toepassing zijn voor Gezinsmigrant en  |
 | gemma_toelichting |  |
 
 
@@ -289,7 +290,7 @@ Attributen van objecttype Gezinsmigrant en Overige migrant
 | author | aashkpour |
 | version | 1.5 |
 | created | 2022-11-21 13:35:31 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_EE5472C2_193E_4432_B175_78D6DF1D357B |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -304,8 +305,8 @@ Attributen van objecttype Inburgeraar
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Doelgroep | int | Een indeling (op basis van een verblijfsdoen van een Inburgeraar en het onderscheid dat de Wi2021 maakt tussen de verschillende waarden in een groep. Zie ook de objecten Asielstatushouder en Gezinsmigrant / overige migrant. |
 | Gedetailleerde Doelgroep | Enumeratie: "Doelgroep" | Is een indeling (op basis van een verblijfsdoel van een Inburgeraar) in een groep. |
+| Doelgroep | int | Een indeling (op basis van een verblijfsdoen van een Inburgeraar en het onderscheid dat de Wi2021 maakt tussen de verschillende waarden in een groep. Zie ook de objecten Asielstatushouder en Gezinsmigrant / overige migrant. |
 
 
 
@@ -325,7 +326,7 @@ Attributen van objecttype Inburgeraar
 | author | mkampen |
 | version | 1.5 |
 | created | 2022-11-22 11:48:25 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_F9B2A863_63C8_4229_906A_D0891BB4F021 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -359,7 +360,7 @@ Attributen van objecttype Inburgeringstraject
 | author | mkampen |
 | version | 1.3 |
 | created | 2022-11-28 16:56:19 |
-| modified | 2024-11-21 08:38:12 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_38CD50D1_D0D2_4550_BBAF_5FDC52C8109F |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -394,7 +395,7 @@ Attributen van objecttype KNM?
 | author | mkampen |
 | version | 1.5 |
 | created | 2022-11-28 16:50:29 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_51285531_9529_4b2d_9EC6_B6BAEA729D9A |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -429,7 +430,7 @@ Attributen van objecttype Leerroute
 | author | mkampen |
 | version | 1.3 |
 | created | 2022-11-28 16:53:41 |
-| modified | 2024-11-21 08:38:12 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_2177E7F0_0F76_41b7_B5CA_5FE182355E94 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -464,7 +465,7 @@ Attributen van objecttype MAP
 | author | mkampen |
 | version | 1.4 |
 | created | 2022-11-28 16:52:20 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_E4266DEA_CDB0_4568_AB4D_8B3C21976E82 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -498,7 +499,7 @@ Attributen van objecttype Onderwijs
 | author | mkampen |
 | version | 1.2 |
 | created | 2022-11-28 16:52:51 |
-| modified | 2024-11-21 08:38:12 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_0BA6F50C_B184_41d6_84E1_A587F550098A |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -533,7 +534,7 @@ Attributen van objecttype ParticipatieComponent
 | author | mkampen |
 | version | 1.3 |
 | created | 2022-11-28 16:49:50 |
-| modified | 2024-11-21 08:38:12 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_94EB7844_F863_4330_A15A_06ED4D1401E0 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -568,7 +569,7 @@ Attributen van objecttype PIP
 | author | mkampen |
 | version | 1.3 |
 | created | 2022-11-28 16:53:50 |
-| modified | 2024-11-21 08:38:12 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_783B026E_E993_467c_85E0_E90E9E01BAA0 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -603,7 +604,7 @@ Attributen van objecttype PVT
 | author | aashkpour |
 | version | 1.5 |
 | created | 2022-11-28 12:05:49 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_0028CB85_5EF0_45aa_A06F_4A8F14E71AB8 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -637,7 +638,7 @@ Attributen van objecttype Verblijfplaats
 | author | aashkpour |
 | version | 1.2 |
 | created | 2022-11-28 12:03:41 |
-| modified | 2024-11-21 08:38:12 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_40C9655E_15CF_4b46_8B59_FD8D4CBC57B5 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -672,7 +673,7 @@ Attributen van objecttype Verblijfplaats AZC
 | author | aashkpour |
 | version | 1.4 |
 | created | 2022-11-21 13:24:45 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_3BBDD95F_6586_4591_BBD0_D04D1CF2801E |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -687,8 +688,8 @@ Attributen van objecttype Vreemdeling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Sociaal Referent | AN10 | een |
 | v-nummer | AN10 | Vreemdelingennummer, uniek, identificerend nummer dat door de Nederlandse overheid wordt uitgereikt aan een Vreemdeling na registratie in de vreemdelingenadministratie. |
+| Sociaal Referent | AN10 | een |
 
 
 
@@ -708,7 +709,7 @@ Attributen van objecttype Vreemdeling
 | author | mkampen |
 | version | 1.2 |
 | created | 2022-11-28 16:52:03 |
-| modified | 2024-11-21 08:38:12 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_9FE5683A_001F_4570_992F_34369F72451C |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -754,10 +755,10 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
-| id | EAID_396d8584_b7eb_44a6_9317_37da14a5534c |
+| version | 1.4 |
+| created | 2025-03-26 11:13:35 |
+| modified | 2025-03-26 16:14:54 |
+| id | EAID_2ad7d3b6_fe4e_40ef_aa79_8a2c0ed18570 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -789,10 +790,10 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
-| id | EAID_33554c16_e095_4fb2_8a53_339f0cfb6749 |
+| version | 1.4 |
+| created | 2025-03-26 11:13:35 |
+| modified | 2025-03-26 16:14:54 |
+| id | EAID_4bc7f528_0366_4be9_ba81_ce3adb71aa8b |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -827,10 +828,10 @@ De enumeratie Doelgroep heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
-| id | EAID_e59cdf8c_e823_4e96_8247_dfc339c4d345 |
+| version | 1.4 |
+| created | 2025-03-26 11:12:49 |
+| modified | 2025-03-26 16:14:37 |
+| id | EAID_37c5457a_08cb_4f3d_8754_4d70495f1ecb |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

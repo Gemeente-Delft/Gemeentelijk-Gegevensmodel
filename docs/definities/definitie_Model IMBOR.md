@@ -34,7 +34,7 @@ Het model 'Model IMBOR' kent de volgende objecttypen:
 * **Klimplant**: Plant met buigzame stengels die zich op diverse manieren aan muren, bomen of constructies hecht en zodoende omhoog klimt. Toelichting: Plant met buigzame stengels die zich op diverse manieren aan muren, bomen of constructies hecht en zodoende omhoog klimt.
 * **Kolk**: Een reservoir bestemd voor de opvang van hemelwater afkomstig van erop aangesloten oppervlakken, het laten bezinken van in dit water meegevoerde bezinkbare stoffen en de afvoer van dit water naar een rioolstelsel of naar de ondergrond. Synoniemen: Afvoerput
 * **Kunstwerk**: Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf. http://definities.geostandaarden.nl
-* **Leiding**: Een geheel van geleiders welke voorzien zijn van één ommanteling en bestemd is voor transport van materie
+* **Leiding**: Een geheel van geleiders welke voorzien zijn van ï¿½ï¿½n ommanteling en bestemd is voor transport van materie
 * **Leidingelement**: Een object dat bij een leiding behoort.
 * **Mast**: Draagconstructie, bestaande uit een verticale buispaal, die wordt gebruikt om iets op hoogte te brengen.
 * **Meubilair**: De verzameling van ruimtelijke objecten ter inrichting van de openbare ruimte of terreinen. Een ruimtelijk object ter inrichting van de openbare ruimte.
@@ -44,7 +44,7 @@ Het model 'Model IMBOR' kent de volgende objecttypen:
 * **Pomp**: Een technische installatie die het (afval) water onder druk transporteert.
 * **Put**: Verticale waterdichte constructie, toegepast om leidingen aan te sluiten, van richting of niveau te veranderen, om toegang te verschaffen aan personeel en/of apparatuur voor inspectie en onderhoud, en om beluchting en ventilatie mogelijk te maken
 * **Putdeksel**: Deksel met als functie het afdekken van een put (GWSW). Dekt meestal de opening van een rioolput af, is meestal rond,  van zwaar metaal, soms van kunststof.
-* **Rioleringsgebied**: Het gebied waarbinnen één of meerdere inliggende rioolstelsel(s) het afvalwater naar één gemaal of overnamepunt transporteert/teren. Een rioleringsgebied kan een enkelvoudig gebied zijn, maar kan ook meerdere rioleringsgebieden omvatten. Een gebied is zodanig gekozen dat het voldoende inzicht geeft in de belasting van oppervlaktewater en overnamepunt. Toelichting: Het gebied waarbinnen één of meerdere inliggende rioolstelsel(s) het afvalwater naar één gemaal of overnamepunt transporteert/teren. Een rioleringsgebied kan een enkelvoudig gebied zijn, maar kan ook meerdere rioleringsgebieden omvatten. Een gebied is zodanig gekozen dat het voldoende inzicht geeft in de belasting van oppervlaktewater en overnamepunt.
+* **Rioleringsgebied**: Het gebied waarbinnen ï¿½ï¿½n of meerdere inliggende rioolstelsel(s) het afvalwater naar ï¿½ï¿½n gemaal of overnamepunt transporteert/teren. Een rioleringsgebied kan een enkelvoudig gebied zijn, maar kan ook meerdere rioleringsgebieden omvatten. Een gebied is zodanig gekozen dat het voldoende inzicht geeft in de belasting van oppervlaktewater en overnamepunt. Toelichting: Het gebied waarbinnen ï¿½ï¿½n of meerdere inliggende rioolstelsel(s) het afvalwater naar ï¿½ï¿½n gemaal of overnamepunt transporteert/teren. Een rioleringsgebied kan een enkelvoudig gebied zijn, maar kan ook meerdere rioleringsgebieden omvatten. Een gebied is zodanig gekozen dat het voldoende inzicht geeft in de belasting van oppervlaktewater en overnamepunt.
 * **Rioolput**: Constructie toegang gevend tot het rioolstelsel
 * **Scheiding**: Kunstmatig, meestal lineair obstakel met een werende functie.
 * **Sensor**: Apparaat voor de meting van een fysieke grootheid (bijv. temperatuur, licht, druk, elektriciteit).
@@ -100,7 +100,7 @@ Het model 'Model IMBOR' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_401EC4C0_809B_48F0_9646_0F646A8F1AE |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -138,7 +138,7 @@ Attributen van objecttype Aansluitput
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_58EF1415_6ACB_412B_9C3E_E390BB2AE3B |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -175,7 +175,7 @@ Attributen van objecttype Afvalbak
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_6B54FE2F_9897_47DA_863C_5A931E89B2D |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -230,7 +230,7 @@ Eenheid: m |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_83F95133_4D59_4B1F_B5DD_6055DA2C007 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -266,7 +266,7 @@ Attributen van objecttype Bank
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_E060DC30_E4F2_4794_A16E_7207032E250 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -367,7 +367,7 @@ Toelichting: Link naar: www.definities.geostandaarden.nl |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_A1EE11DF_4EEA_409A_8E43_F108DC0BF96 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -403,7 +403,7 @@ Attributen van objecttype Bemalingsgebied
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_55C683B9_3F66_4E21_B0C1_66E664837CA |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -444,7 +444,7 @@ Eenheid: m3 |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_83A942F7_5291_42F0_AFB1_9A57D0FB2F1 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -548,7 +548,7 @@ Eenheid: m |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_40BD01ED_180A_4644_AB10_4C94C891A45 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -596,7 +596,7 @@ Eenheid: m |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_FFA16BB2_FA5A_49F1_B3E8_794499B0278 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -647,7 +647,7 @@ Toelichting: Deze waarde wordt opgenomen bij beheerobjecten waar de fundering va
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_B56B8C37_AA54_4266_B96B_C466946D1C3 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -705,7 +705,7 @@ Eenheid: kg |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_01343EF1_EF8E_4FB1_9A58_8E885304D55 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -743,7 +743,7 @@ Attributen van objecttype Drainageput
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_812B8374_F08E_47F6_881D_309B7D23FD4 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -790,7 +790,7 @@ Eenheid: kg |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_CA558CCA_4DF7_458A_B8BF_AEA0E428489 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -827,7 +827,7 @@ Attributen van objecttype Fietsparkeervoorziening
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_6E949D6F_0A40_4BB7_B655_5EF4B8BBA4D |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -863,7 +863,7 @@ Attributen van objecttype Filterput
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_12F592F4_8E38_49B7_8DEF_F9B84A874BB |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -912,7 +912,7 @@ Eenheid: kg |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_43DD67FD_75F0_4FE0_90F0_DB49048F14C |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -952,7 +952,7 @@ Eenheid: m2 |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_DD64F32C_3273_4E23_9A61_FCC8EC93977 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -991,7 +991,7 @@ Eenheid: Aantal |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_5D70E69A_2A35_4088_886E_32C0B07275C |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1039,7 +1039,7 @@ Eenheid: dm3/s |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_B4935E75_46CA_414D_949D_30A8B801FD5 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1137,7 +1137,7 @@ Toelichting: Voor bosplantsoen met boomvormers is de mate van veiligheid van het
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_D9ACE9BA_F13C_4EEB_8DD8_73A7E0043DB |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1174,7 +1174,7 @@ Eenheid: % |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_A143A97F_28C5_4B56_90F8_4773481A034 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1222,7 +1222,7 @@ Eenheid: m |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_22C76A86_D969_464E_87CD_53466BD75FC |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1268,7 +1268,7 @@ Toelichting: Deze waarde wordt opgenomen bij beheerobjecten waar de fundering va
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_E89ECEBE_796F_4CB7_9E9F_860EBC21B4B |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1327,7 +1327,7 @@ Eenheid: kW |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_D629609F_088E_4504_99BB_C45F0EA633F |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1365,7 +1365,7 @@ Attributen van objecttype Keermuur
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_ABB1E33A_C934_4123_98B0_2D52349E456 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1407,7 +1407,7 @@ Eenheid: m2 |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_E6AFE8F7_95A7_4A0C_A6E8_F6D2091FB8B |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1444,7 +1444,7 @@ Attributen van objecttype Kolk
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_71BCDE9D_88C2_4519_8105_028E40898AB |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1517,7 +1517,7 @@ Eenheid: â‚¬ |
 ### Leiding
 > **Definitie Leiding:** 
 >
-> Een geheel van geleiders welke voorzien zijn van één ommanteling en bestemd is voor transport van materie
+> Een geheel van geleiders welke voorzien zijn van ï¿½ï¿½n ommanteling en bestemd is voor transport van materie
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -1529,14 +1529,14 @@ Eenheid: â‚¬ |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_4223240C_8786_4D44_889E_9F54BA39A83 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Leiding |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-b2bdb817-4007-4c1b-ad24-43929884e0eb](https://gemmaonline.nl/index.php/GEMMA/id-b2bdb817-4007-4c1b-ad24-43929884e0eb) |
-| gemma_definitie | Een geheel van geleiders welke voorzien zijn van één ommanteling en bestemd is voor transport van materie |
+| gemma_definitie | Een geheel van geleiders welke voorzien zijn van ï¿½ï¿½n ommanteling en bestemd is voor transport van materie |
 | gemma_toelichting |  |
 
 
@@ -1585,7 +1585,7 @@ Toelichting: Collectie van leidingen binnen een gebied van eenzelfde thema en va
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_4C52CC53_82F2_4B54_AA5F_B75FA00E9FF |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1630,7 +1630,7 @@ Toelichting: Collectie van leidingen binnen een gebied van eenzelfde thema en va
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_CDF116D4_B5B9_4D01_8A5B_4FFB08CEE00 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1665,7 +1665,7 @@ Attributen van objecttype Mast
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_61526934_9D0C_4A07_8C5D_17F60E1A467 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1738,7 +1738,7 @@ Toelichting: Deze waarde wordt opgenomen bij beheerobjecten waar de fundering va
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_6B907CEB_2CBE_4886_9D3E_215F5D7E00A |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1808,7 +1808,7 @@ Eenheid: â‚¬ |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_845EC5C5_7B96_4999_9659_5617436D269 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1852,7 +1852,7 @@ Eenheid: mm |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_6B8DBBFB_03D7_4FD7_BBAB_3E7FBE60D97 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1901,7 +1901,7 @@ Eenheid: m |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_01E06F2E_E561_4D6E_8625_2D0F284BE88 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1961,7 +1961,7 @@ Eenheid: m NAP |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_B7168388_9EB9_4C95_B35E_1BA2660849E |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -2015,7 +2015,7 @@ Eenheid: mm |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_F111E740_26A6_477B_935D_CA5570D4FC8 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -2042,8 +2042,8 @@ Eenheid: mm |
 ### Rioleringsgebied
 > **Definitie Rioleringsgebied:** 
 >
-> Het gebied waarbinnen één of meerdere inliggende rioolstelsel(s) het afvalwater naar één gemaal of overnamepunt transporteert/teren. Een rioleringsgebied kan een enkelvoudig gebied zijn, maar kan ook meerdere rioleringsgebieden omvatten. Een gebied is zodanig gekozen dat het voldoende inzicht geeft in de belasting van oppervlaktewater en overnamepunt.
-> Toelichting: Het gebied waarbinnen één of meerdere inliggende rioolstelsel(s) het afvalwater naar één gemaal of overnamepunt transporteert/teren. Een rioleringsgebied kan een enkelvoudig gebied zijn, maar kan ook meerdere rioleringsgebieden omvatten. Een gebied is zodanig gekozen dat het voldoende inzicht geeft in de belasting van oppervlaktewater en overnamepunt.
+> Het gebied waarbinnen ï¿½ï¿½n of meerdere inliggende rioolstelsel(s) het afvalwater naar ï¿½ï¿½n gemaal of overnamepunt transporteert/teren. Een rioleringsgebied kan een enkelvoudig gebied zijn, maar kan ook meerdere rioleringsgebieden omvatten. Een gebied is zodanig gekozen dat het voldoende inzicht geeft in de belasting van oppervlaktewater en overnamepunt.
+> Toelichting: Het gebied waarbinnen ï¿½ï¿½n of meerdere inliggende rioolstelsel(s) het afvalwater naar ï¿½ï¿½n gemaal of overnamepunt transporteert/teren. Een rioleringsgebied kan een enkelvoudig gebied zijn, maar kan ook meerdere rioleringsgebieden omvatten. Een gebied is zodanig gekozen dat het voldoende inzicht geeft in de belasting van oppervlaktewater en overnamepunt.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -2055,7 +2055,7 @@ Eenheid: mm |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_3252585C_4FAB_4EC1_9BA6_F51EAFF271D |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -2091,7 +2091,7 @@ Attributen van objecttype Rioleringsgebied
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_095ECF95_3717_43EC_BC36_8E23E692DEF |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -2144,7 +2144,7 @@ Eenheid: m |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_C538C222_0FA4_43EE_BF06_9512A484A57 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -2195,7 +2195,7 @@ Eenheid: m2 |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_4B32C511_77E9_4ABD_8C02_6F9F336A7A9 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -2240,7 +2240,7 @@ Eenheid: Jaartal |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:44 |
 | id | EAID_F349D291_F25B_4258_A008_00082F932BE |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -2278,7 +2278,7 @@ Eenheid: m |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_941A17C1_A2B2_4CD1_8991_08B0EBCF0C2 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -2318,7 +2318,7 @@ Eenheid: Jaartal |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_4EFB3A19_E491_469F_AA96_DEBED9C1BE4 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -2386,7 +2386,7 @@ Eenheid: m |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_A5A43927_9633_4584_865B_78AE4486E5B |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -2428,7 +2428,7 @@ Attributen van objecttype Sportterrein
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_CEF4E497_01A1_4B4F_A509_D18945A3311 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -2463,7 +2463,7 @@ Attributen van objecttype Stuwgebied
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_E9091F41_09F6_42D6_9295_8FE1CA54198 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -2512,7 +2512,7 @@ Eenheid: % |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_906C9BA6_762D_4B15_94A3_6D8F2D8B922 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -2571,7 +2571,7 @@ Eenheid: m2 |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_A5EEDFA7_48FF_4E7F_B5BF_4A809130A3D |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -2607,7 +2607,7 @@ Attributen van objecttype Uitlaatconstructie
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_761406D1_87BC_4DC1_B1B7_BD3BB7AB54A |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -2655,7 +2655,7 @@ Toelichting: â€˜Naamlijst van houtige gewassen en vaste plantenâ€™,  in
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_47F12418_C5F8_44E0_8EC6_3D0C5993372 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -2767,7 +2767,7 @@ Toelichting: Indeling in 7 wegtypen. Deze indeling gaat herzien worden. Als voor
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_D20F86EE_C4B5_497D_BED0_34B7509121E |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -2804,7 +2804,7 @@ Attributen van objecttype Verkeersdrempel
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_8CD4C799_C403_41B6_B409_06D37398E31 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -2838,7 +2838,7 @@ Attributen van objecttype Verlichtingsobject
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_4824C467_3BF6_45C2_BD8B_03F04CEBCA9 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -2888,7 +2888,7 @@ Eenheid: kg |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_0DCEE6C7_87BC_498C_A02A_25271DB1BC9 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -2939,7 +2939,7 @@ Eenheid: m2 |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_81CBE022_0D94_4377_82CA_3AA12937FE8 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -3008,7 +3008,7 @@ Eenheid: m NAP |
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-10-02 09:57:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_7F3202B1_9A3B_4E02_B4F4_31EBCE6B8DE |
 | domein_iv3 |  |
 | domein_dcat |  |

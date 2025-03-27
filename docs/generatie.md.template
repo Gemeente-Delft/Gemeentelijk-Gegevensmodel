@@ -142,7 +142,7 @@ Integer of Int: numeriek veld met alleen gehele getallen.
 Attributen worden op basis van hun Stereotype omgezet:
 
 * Adresaanduiding: veld wordt vervangen door de volgende velden: Naam Gemeente, Straatnaam, Huisnummer, Huisletter, Huisnummertoevoeging, Postcode en BAGID.
-* enumeration: er wordt een referentie naar de enumeratie opgenomen. Zie hiervoor [Voorbeeld D](#Voorbeeld-D)
+* enumeration: er wordt een referentie naar de enumeratie opgenomen. Zie hiervoor Voorbeeld D
 
 ### Relaties
 

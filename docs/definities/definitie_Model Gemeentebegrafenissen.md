@@ -19,9 +19,9 @@ Het model 'Model Gemeentebegrafenissen' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.1 |
 | created | 2019-09-17 15:55:09 |
-| modified | 2019-09-17 15:55:09 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_C1AFCF43_8159_462b_9552_03F2EF070141 |
 
 
@@ -43,7 +43,7 @@ Het model 'Model Gemeentebegrafenissen' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-09-17 16:00:33 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_F2DBE01F_7535_4f26_9DF2_081EF8632F36 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -58,18 +58,18 @@ Attributen van objecttype Gemeentebegrafenis
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| achtergrondMelding | AN200 |  |
-| begrafeniskosten | Bedrag |  |
-| datumAfgedaan | Date | Datum sluiting dossier (ook verhaal is afgesloten) |
-| datumBegrafenis | Date |  |
-| datumGemeld | Date |  |
-| datumRuimingGraf | Date |  |
-| doodsoorzaak | AN80 |  |
-| gemeentelijkeKosten | Bedrag |  |
-| inkoopordernummer | AN40 |  |
 | melder | AN80 | Bijvoorbeeld: politie, De Laatste Eer, Familie of Instelling |
-| urenGemeente | int | Aantal bestede uren gemeente |
+| begrafeniskosten | Bedrag |  |
+| gemeentelijkeKosten | Bedrag |  |
 | verhaaldBedrag | Bedrag |  |
+| datumBegrafenis | Date |  |
+| datumAfgedaan | Date | Datum sluiting dossier (ook verhaal is afgesloten) |
+| datumGemeld | Date |  |
+| inkoopordernummer | AN40 |  |
+| doodsoorzaak | AN80 |  |
+| achtergrondMelding | AN200 |  |
+| urenGemeente | int | Aantal bestede uren gemeente |
+| datumRuimingGraf | Date |  |
 
 
 

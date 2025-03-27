@@ -11,7 +11,7 @@ Het model 'Model Onderwijs' kent de volgende objecttypen:
 * **Leerling**: Mens die een opleiding volgt, heeft gevolgd of gaat volgen of opgaat of is opgegaan voor een toets. (Bron: KOI)
 * **Locatie**: De locatie beschrijft middels co√∂rdinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)
 * **Loopbaanstap**: Een logische en ook uitdagende stap naar een volgende functie binnen dezelfde functiefamilie of een andere, op hetzelfde schaalniveau of op een schaalniveau hoger.
-* **Onderwijsloopbaan**: Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijscarri√®re; schoolloopbaan; schoolcarri√®re; schooltijd; de schooljaren
+* **Onderwijsloopbaan**: Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijscarri√ï¿½re; schoolloopbaan; schoolcarri√ï¿½re; schooltijd; de schooljaren
 * **Onderwijsniveau**: De hoogte van een soort onderwijs in relatie tot andere soorten onderwijs
 * **Onderwijssoort**: Typologie voor onderwijs
 * **Ouder Of Verzorger**: Een persoon die wettelijk verantwoordelijk is voor de zorg en opvoeding van een kind.
@@ -29,10 +29,10 @@ Het model 'Model Onderwijs' heeft de volgende kenmerken:
 | synoniemen |  |
 | uri |  |
 | bron |  |
-| author | crossover |
-| version | 1.3 |
+| author | Arjen Brienen |
+| version | 1.5 |
 | created | 2018-05-04 14:45:56 |
-| modified | 2024-11-21 08:38:15 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_CD9BF007_85C6_4af9_B3F4_2CAB5BF26B5E |
 
 
@@ -54,7 +54,7 @@ Het model 'Model Onderwijs' heeft de volgende kenmerken:
 | author | crossover |
 | version | 1.5 |
 | created | 2018-05-04 14:53:34 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_CFFD5F20_5FA9_4d93_AD34_6867D64A58B9 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -89,7 +89,7 @@ Attributen van objecttype Inschrijving
 | author | crossover |
 | version | 1.5 |
 | created | 2018-05-04 15:34:24 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_D7ECEB92_BE50_4e30_9F27_54A008BC75DF |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -104,8 +104,8 @@ Attributen van objecttype Leerjaar
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| jaarEinde | int |  |
 | jaarStart | int |  |
+| jaarEinde | int |  |
 
 
 
@@ -125,7 +125,7 @@ Attributen van objecttype Leerjaar
 | author | Arjen Brienen |
 | version | 1.4 |
 | created | 2018-05-28 16:42:46 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_266057AF_58BD_42e1_B4D5_16EB266B9B7A |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -160,7 +160,7 @@ Attributen van objecttype Leerling
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-06-20 11:36:50 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_3119A4DB_BB23_4adc_98BD_82F2D7996C6B |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -195,7 +195,7 @@ Attributen van objecttype Locatie
 | author | crossover |
 | version | 1.5 |
 | created | 2018-05-04 15:00:18 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_0E3DE26B_C535_4a03_98A4_8D36DC3D5297 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -210,9 +210,9 @@ Attributen van objecttype Loopbaanstap
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| klas | int |  |
-| onderwijstype | Enumeratie: "Onderwijstype" |  |
 | schooljaar |  |  |
+| onderwijstype | Enumeratie: "Onderwijstype" |  |
+| klas | int |  |
 
 
 
@@ -220,7 +220,7 @@ Attributen van objecttype Loopbaanstap
 ### Onderwijsloopbaan
 > **Definitie Onderwijsloopbaan:** 
 >
-> Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijscarri√®re; schoolloopbaan; schoolcarri√®re; schooltijd; de schooljaren
+> Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijscarri√ï¿½re; schoolloopbaan; schoolcarri√ï¿½re; schooltijd; de schooljaren
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -232,14 +232,14 @@ Attributen van objecttype Loopbaanstap
 | author | crossover |
 | version | 1.5 |
 | created | 2018-05-04 14:59:08 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_F47ACE79_C476_479f_A3A3_729E65AF3D32 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Onderwijsloopbaan |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-153ea543-3a96-4878-b661-f7c3d0f07d20](https://gemmaonline.nl/index.php/GEMMA/id-153ea543-3a96-4878-b661-f7c3d0f07d20) |
-| gemma_definitie | Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijscarri√®re; schoolloopbaan; schoolcarri√®re; schooltijd; de schooljaren |
+| gemma_definitie | Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijscarri√ï¿½re; sc |
 | gemma_toelichting |  |
 
 
@@ -267,7 +267,7 @@ Attributen van objecttype Onderwijsloopbaan
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-10-07 17:01:21 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_96AB51D0_52E5_4515_B21F_98B30C4B9C42 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -301,7 +301,7 @@ Attributen van objecttype Onderwijsniveau
 | author | crossover |
 | version | 1.5 |
 | created | 2018-05-04 15:36:13 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_8AF9FAE6_13D8_484d_97F5_2A3839BC8618 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -316,8 +316,8 @@ Attributen van objecttype Onderwijssoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| omschrijving | AN80 |  |
 | onderwijstype | Enumeratie: "Onderwijstype" |  |
+| omschrijving | AN80 |  |
 
 
 
@@ -337,7 +337,7 @@ Attributen van objecttype Onderwijssoort
 | author | Arjen Brienen |
 | version | 1.7 |
 | created | 2018-05-28 16:44:50 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_51C8E3DF_FFF4_4a20_9CB2_AA5FA50579E2 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -371,7 +371,7 @@ Attributen van objecttype Ouder Of Verzorger
 | author | crossover |
 | version | 1.5 |
 | created | 2018-05-04 14:54:30 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_32DFC5DD_79D9_45d5_8F9D_7D5125961817 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -407,7 +407,7 @@ Attributen van objecttype School
 | author | crossover |
 | version | 1.5 |
 | created | 2018-05-04 14:57:13 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_E8301577_1A49_43cf_A2CA_0F042584EBB3 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -442,7 +442,7 @@ Attributen van objecttype Startkwalificatie
 | author | crossover |
 | version | 1.5 |
 | created | 2018-05-04 14:53:46 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_133AF611_9FA0_4a09_BF12_74C5FA5F6F60 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -491,9 +491,9 @@ De enumeratie Onderwijstype heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:12:45 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_354AA899_00C3_4c36_93F7_0B364D331C93 |
 | domein_iv3 | None |
 | domein_dcat | None |
