@@ -15,6 +15,9 @@ Het informatiemodel draagt bij aan:
 - het adequater beheren van de, steeds meer digitale, documentaire informatievoorziening en archivering.
 
 
+In onderstaand diagram wordt het model RGBZ getoond. Kanttekening hierbij is dat Zaken altijd betrekking hebben op één of meer objecten uit andere domeinen. Omwille van de 
+overzichtelijkheid zijn die objecten niet opgenomen in het diagram.
+
 ![Model RGBZ](../domeinen/image/EAID_8AC9A512_0538_48f7_B25E_5BC65B17A147.jpg)
 
 Voor meer informatie over het model RGBZ kunt u terecht bij deze [GEMMA pagina's](https://vng-realisatie.github.io/RGBZ/)
