@@ -22,7 +22,7 @@ Het GGM kent een gelaagde opbouw, waarbij verschillende objecttypen over beleids
 
 ![Gelaagdheid Domeinen][gelaagdheidDomeinen]
 
-Het gegevensmodel is uitgewerkt in een aantal verticale beleidsdomeinen en 4 horizontale beleidsdomeinen. De horizontale delen (Kern, Financiën, Organisatie-indeling en Dienstverlening) vormen de basis van het gegevensmodel, waarop de verticale delen voortbouwen. De Kern bestaat uit de deelmodellen van RSGB, RGBZ en de BAG, die de gegevensdefinities bevatten die zoals die gelden voor de basisregistraties (RSGB en BAG) en zaakgericht werken (RGBZ).  
+Het gegevensmodel is uitgewerkt in een aantal verticale beleidsdomeinen en 4 horizontale beleidsdomeinen. De horizontale delen (Kern, Financiën, ICT en Dienstverlening) vormen de basis van het gegevensmodel, waarop de verticale delen voortbouwen. De Kern bestaat uit RSGB en RGBZ, die de gegevensdefinities bevatten die zoals die gelden voor de basisregistraties (RSGB) en zaakgericht werken (RGBZ).  
 
 Er is ontkoppeling tussen de verschillende (sub)domeinen nagestreefd, doordat in de gegevensdefinities van het gegevensmodel (sub)domeinen alleen definities uit onderliggende (sub)domeinen gebruiken. Zo gebruiken alle (sub)domeinen gegevensdefinities uit Kern en kunnen alle verticale (sub)domeinen gegevensdefinities gebruiken uit de 4 horizontale modellen.
 
@@ -30,53 +30,57 @@ Er is ontkoppeling tussen de verschillende (sub)domeinen nagestreefd, doordat in
 
 Het gegevensmodel omvat de volgende op de gebaseerde [IV3-taakvelden](https://www.rijksoverheid.nl/onderwerpen/financien-gemeenten-en-provincies/uitwisseling-financiele-gegevens-met-sisa-en-iv3/informatie-voor-derden-iv3):
 
-* 0\. Bestuur, politiek en ondersteuning 
-    * [Burgerzaken](domeinen/burgerzaken.md)
-    * [Griffie](domeinen/griffie.md)
-    * Politiek
-* 1\. Veiligheid en vergunningven
-    * [Brede Handhaving](domeinen/vth.md/#brede-handhaving)
-    * [Bouwen en wonen](domeinen/vth.md/#vergunningaanvragen)
-    * [Overige vergunningen](domeinen/vth.md/#vergunningaanvragen)
-* 2\. Verkeer, vervoer en waterstaat
-    * [Mobiliteit](domeinen/mobiliteit.md)
-    * [Parkeren](domeinen/parkeren.md)
-* 3\. [Economie](domeinen/economie.md)
-* 4\. Onderwijs
-    * [Leerplicht en Leerlingenvervoer](domeinen/leerplicht.md)
-    * [Onderwijs](domeinen/onderwijs.md)
-* 5\. Sport, Cultuur en Recreatie
-    * Erfgoed
-        * [Archeologie](domeinen/archeologie.md)
-        * [Archief](domeinen/archief.md)
-        * [Monumenten](domeinen/monumenten.md)
-    * [Museum](domeinen/museum.md)
-    * [Sport](domeinen/sport.md)
-* 6\. Sociaal domein
-    * [Wmo](domeinen/wmojeugd.md)
-    * [Jeugd](domeinen/wmojeugd.md)
-    * [Participatie](domeinen/participatie.md)
-    * [Schuldhulpverlening](domeinen/schuldhulp.md)
-    * [Sociale teams](domeinen/socteam.md)
-    * [Gemeentebegraven](domeinen/gemeentebegraven.md)
-    * [Dak- en thuislozen](domeinen/participatie.md/#dak-en-thuislozen)
-* 7\. Volksgezondheid en milieu
-    * [Afval](domeinen/afval.md)
-* 8\. Volkshuisvesting, leefomgeving en stedelijke vernieuwing 
-    * [Openbare ruimte](domeinen/ruimteAlgemeen.md)
-    * [Bouwen en wonen](domeinen/bouwenenwonen.md)
-    * [Omgevingswet](domeinen/omgevingswet.md)
-* 9\. Interne organisatie
-    * [ICT](domeinen/ict.md)
-    * [Gemeentelijk Vastgoed](domeinen/vastgoed.md)
-    * [Financiën](domeinen/financien.md)
-    * [HR](domeinen/hr.md)
-    * [Inkoop](domeinen/inkoop.md)
-    * [Subsidies](domeinen/subsidies.md)
-    * Facilitair (_nog in ontwikkeling_)
-    * Control (_nog in ontwikkeling_)
-* 10\. [Dienstverlening](domeinen/dienstverlening.md)
-* 99\. Kern (Zie onderstaand)
+* **Bestuur, politiek en ondersteuning**: Domein dat gegevens bevat die worden vastgelegd bij en voortkomen uit bestuurlijke en politieke processen en  beleidsvorming en gegevens die in het kader van de gemeentelijke taak rond burgerzaklen worden vastgelegd. 
+    * **[Burgerzaken](domeinen/burgerzaken.md)**: Het informatiedomein dat gegevens omvat over de registratie en dienstverlening met betrekking tot de persoonlijke levenssfeer van inwoners, gericht op het vastleggen en verstrekken van officiële documenten en informatie.
+    * [Griffie](domeinen/griffie.md): Het informatiedomein dat gegevens omvat over de ondersteuning van de gemeenteraad en de organisatie van raadsprocessen, gericht op het faciliteren van besluitvorming en democratische controle.
+* **Veiligheid en vergunningven**: Het informatiedomein dat gegevens omvat over het waarborgen van veiligheid, handhaving van regels en crisisbeheersing.
+    * **[Openbare orde en veiligehid](domeinen/vth.md/#brede-handhaving)**: Het informatiedomein dat gegevens omvat over de gemeentelijke taken op het gebied van openbare orde en veiligheid. Dit omvat onder andere toezicht en handhaving van de openbare orde, de inzet van BOA’s en stadswachten, de uitvoering van de Wet Bibob en de bestuurlijke aanpak van georganiseerde criminaliteit. Daarnaast omvat het domein gegevens over criminaliteitspreventie, de handhaving van de Algemene Plaatselijke Verordening (APV), vergunningverlening in het kader van onder andere evenementen en horeca, en beleid en toezicht op conventionele explosieven.
+    * **[Bouwvergunningen](domeinen/vth.md/#vergunningaanvragen)**: Het informatiedomein dat gegevens omvat over de aanvraag, beoordeling en afgifte van vergunningen voor bouwactiviteiten, zoals bouwen, verbouwen of slopen.
+    * **[Overige gemeentelijke vergunningen](domeinen/vth.md/#vergunningaanvragen)**: Het informatiedomein dat gegevens bevat over de aanvraag, beoordeling en voorwaarden van diverse gemeentelijke vergunningen voor activiteiten in de openbare ruimte.
+* **Verkeer, vervoer en waterstaat**: Het informatiedomein dat gegevens omvat over infrastructuur, mobiliteit en waterbeheer ter ondersteuning van bereikbaarheid en transportefficiëntie.
+    * **[Mobiliteit](domeinen/mobiliteit.md)**: Het informatiedomein dat de structuur, definities en relaties van gegevens omvat met betrekking tot verkeer en vervoer van personen en goederen, gericht op het faciliteren van efficiënte en duurzame mobiliteit.
+    * **[Parkeren](domeinen/parkeren.md)**: Het informatiedomein dat gegevens omvat over het stilstaan van voertuigen op een daarvoor bestemde plaats, met als doel het reguleren van parkeerruimte en het bevorderen van leefbaarheid, bereikbaarheid en mobiliteit binnen de gemeente.
+* **[Economie](domeinen/economie.md)**: Het informatiedomein dat gegevens omvat over economische ontwikkeling, bedrijvigheid en innovatie.
+* **Onderwijs**: Het informatiedomein dat gegevens omvat over onderwijsvoorzieningen, leerlingenstromen, taken in het onderwijsveld  en educatieve ondersteuning.
+    * **[Leerplicht en Leerlingenvervoer](domeinen/leerplicht.md)**: Het informatiedomein dat gegevens omvat over de naleving van de leerplichtwet en de organisatie van leerlingenvervoer, gericht op het waarborgen van toegang tot onderwijs voor alle kinderen en jongeren.
+    * **[Onderwijs](domeinen/onderwijs.md)**: Het informatiedomein dat gegevens omvat over het funderend onderwijs, gericht op het waarborgen van toegang tot en kwaliteit van primair en voortgezet onderwijs voor kinderen en jongeren.
+* **Sport, Cultuur en Recreatie**: Het informatiedomein dat gegevens omvat over taken in het kader van erfgoed, sportieve activiteiten, culturele voorzieningen en recreatieve mogelijkheden.
+    * **Erfgoed**
+        * **[Archeologie](domeinen/archeologie.md)**: Het informatiedomein dat gegevens omvat over archeologische opgravingen, onderzoeken en besluitvorming, gericht op het behoud, de bescherming en de ontsluiting van archeologisch erfgoed binnen de kaders van de Erfgoedwet.
+        * **[Archief](domeinen/archief.md)**: Het informatiedomein dat gegevens omvat over de vorming, het beheer, de toegankelijkheid en de duurzame bewaring van archieven, inclusief documenten en collecties van cultuurhistorische waarde.
+        * **[Monumenten](domeinen/monumenten.md)**: Het informatiedomein dat gegevens omvat over de aanwijzing, bescherming en instandhouding van monumenten, inclusief gebouwen, objecten en landschappen, die van cultuurhistorische, wetenschappelijke of esthetische waarde zijn.
+    * **[Musea](domeinen/museum.md)**: Het informatiedomein dat gegevens omvat over de verwerving, het beheer, het onderzoek en de presentatie van museale collecties en tentoonstellingen binnen een overheidsorganisatie.
+    * **[Sport](domeinen/sport.md)**: Het informatiedomein dat gegevens omvat over sportbeleid, sportaccommodaties en activiteiten gericht op het stimuleren van sport en bewegen, met als doel de gezondheid, sociale cohesie en participatie van inwoners te bevorderen.
+* **Sociaal domein**: Het informatiedomein dat gegevens omvat over zorg en ondersteuning welzijn en maatschappelijke participatie ter ondersteuning van individuen of groepen.
+    * **[Wmo](domeinen/wmojeugd.md)**: Het informatiedomein dat gegevens omvat over de ondersteuning en zorg die gemeenten bieden aan burgers om hun zelfredzaamheid en participatie in de maatschappij te bevorderen in het kader van de WMO, met als doel mensen zo lang mogelijk zelfstandig thuis te laten wonen.
+    * **[Jeugd](domeinen/wmojeugd.md)**: Het informatiedomein dat gegevens omvat over de ondersteuning, hulp en bescherming van jeugdigen en hun gezinnen, gebaseerd op de Jeugdwet.
+    * **[Inkomen](domeinen/inkomen.md)**: Het informatiedomein dat gegevens omvat over inkomensvoorzieningen, -regelingen en financiële ondersteuning voor inwoners, gericht op het waarborgen van bestaanszekerheid en participatie in de samenleving.
+    * **[Werk](domeinen/werk.md)**: Het informatiedomein dat gegevens omvat over de ondersteuning van mensen bij het vinden en behouden van werk, gebaseerd op de Participatiewet en gericht op het bevorderen van arbeidsparticipatie.
+    * **[Schuldhulpverlening](domeinen/schuldhulp.md)**: Het informatiedomein dat gegevens omvat over de ondersteuning en begeleiding van inwoners met problematische schulden, gericht op het bevorderen van financiële stabiliteit en maatschappelijke participatie.
+    * **[Sociale teams](domeinen/socteam.md)**: Het informatiedomein dat gegevens omvat over de integrale ondersteuning en hulpverlening die sociale teams bieden aan inwoners, gericht op het bevorderen van zelfredzaamheid, participatie en het oplossen van complexe problemen.
+    * **[Gemeentebegraffennissen](domeinen/gemeentebegraven.md)**: Het informatiedomein dat gegevens omvat over gemeentelijke uitvaarten, uitgevoerd wanneer niemand anders in de lijkbezorging voorziet, zoals vastgelegd in de Wet op de lijkbezorging.
+    * **[Dak- en thuislozen](domeinen/participatie.md/#dak-en-thuislozen)**: Het informatiedomein dat gegevens omvat over mensen zonder vaste woon- of verblijfplaats, gericht op het in kaart brengen van de omvang, kenmerken en ondersteuningsbehoeften van deze doelgroep.
+    * **[Inburgering](domeinen/inburgering.md)**: Het informatiedomein dat gegevens omvat over de uitvoering van de Wet inburgering, gericht op het ondersteunen van inburgeraars bij hun integratie en participatie in de Nederlandse samenleving.
+    * **[Jeugdbescherming en -reclassering](domeinen/jeugdbescherming)**: Het informatiedomein dat gegevens omvat over de uitvoering van kinderbeschermingsmaatregelen, gericht op het waarborgen van een veilige ontwikkeling van kinderen en jongeren.
+* **Volksgezondheid en milieu**: Het informatiedomein dat gegevens omvat over volksgezondheid, afvalbeheer en milieubescherming.
+    * **[Afval](domeinen/afval.md)**: Het informatiedomein dat gegevens bevat over de gemeentelijke taken ten aanzien van inzameling en verwerking van bedrijfs- en huishoudelijk afval
+* **Volkshuisvesting, leefomgeving en stedelijke vernieuwing**: Het informatiedomein dat gegevens omvat over huisvesting, ruimtelijke inrichting en verbetering van de leefomgeving in stedelijke of landelijke gebieden. 
+    * **[Openbare ruimte](domeinen/ruimteAlgemeen.md)**: "Het informatiedomein dat gegevens omvat over: 1. De fysieke objecten in de publieke buitenruimte, inclusief hun kenmerken, locatie en conditie. 2. De processen en activiteiten gericht op het onderhouden, inrichten en beheren van deze objecten."
+    * **[Bouwen en wonen](domeinen/bouwenenwonen.md)**: Het informatiedomein dat gegevens omvat over de planning, ontwikkeling en uitvoering van woningbouwprojecten, gericht op het realiseren van voldoende, betaalbare en duurzame woningen.
+    * **[Omgevingswet](domeinen/omgevingswet.md)**: Het informatiedomein dat gegevens omvat over de uitvoering van de Omgevingswet, gericht op het integraal beheren en ontwikkelen van de fysieke leefomgeving.
+    * **[Melding openbare ruimte](domeinen/mor.md)**: Het informatiedomein dat gegevens omvat over meldingen van inwoners of organisaties betreffende zaken die niet in orde zijn in de openbare ruimte, gericht op het in stand houden van een schone, hele en veilige leefomgeving.
+* **Interne organisatie**: Het informatiedomein dat gegevens omvat over de interne processen en ondersteunende functies die bijdragen aan het functioneren van de interne organisatie.
+    * **[ICT](domeinen/ict.md)**: Het informatiesubdomein dat gegevens omvat over de informatietechnologie en communicatiesystemen die de interne processen en informatievoorziening van een organisatie ondersteunen.
+    * **[Gemeentelijk Vastgoed](domeinen/vastgoed.md)**: Het informatiedomein dat gegevens omvat over het beheer, onderhoud en de exploitatie van gebouwen en terreinen in eigendom van de organisatie.
+    * **[Financiën](domeinen/financien.md)**: Het informatiesubdomein dat gegevens omvat over de financiële processen, planning en control, en het financieel beheer van de organisatie.
+    * **[HR](domeinen/hr.md)**: Het informatiesubdomein dat gegevens omvat over het beheer en de ontwikkeling van personeel, gericht op het ondersteunen van de organisatie en haar medewerkers.
+    * **[Inkoop](domeinen/inkoop.md)**: Het informatiesubdomein dat gegevens omvat over het proces van het verwerven van goederen, diensten en werken door een organisatie.
+    * **[Subsidies](domeinen/subsidies.md)**: Het informatiedomein dat gegevens omvat over het proces van aanvragen, beoordelen, verstrekken, beheren en verantwoorden van subsidies door de organisatie, zowel in de rol van subsidieverstrekker als subsidieontvanger.
+    * **Facilitair (_nog in ontwikkeling_)**: Het informatiedomein dat gegevens omvat over de ondersteunende diensten en voorzieningen die bijdragen aan een optimale werkomgeving voor medewerkers en bezoekers van de organisatie.
+    * **Control (_nog in ontwikkeling_)**: Het informatiedomein dat gegevens omvat over de interne beheersing en sturing van de organisatie, gericht op het waarborgen van de realisatie van organisatiedoelstellingen.
+    * **[Organisatie-indeling](domeinen/organisatie.md)**: Het informatiedomein dat gegevens omvat over de structuur en indeling van een organisatie, inclusief de inrichting en uitvoering van programma’s en projecten.
+* **[Dienstverlening](domeinen/dienstverlening.md)**: Het informatiedomein dat gegevens omvat over meldingen, aanvragen, baliecontacten, telefonische afhandeling en digitale interacties die faciliterend zijn voor andere domeinen.
+
 
 Naast bovengenoemde beleidsterreinen kent het GGM het onderdeel 'Kern', waarin alle gedeelde objecttypen zijn te vinden. Kern is afgeleid van het [Informatiemodel Basis- en Kerngegevens (RSGB)](https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_(RSGB)) en [Informatiemodel Zaken (RGBZ)](https://www.gemmaonline.nl/index.php/Informatiemodel_Zaken_(RGBZ)) (beiden onderdeel [GEMMA: Gemeentelijke Modelarchitectuur](https://www.gemmaonline.nl/index.php/Gemeentelijke_Model_Architectuur_(GEMMA))), aangevuld met een aantal generieke objecttypen.  
 
@@ -88,7 +92,7 @@ De volgende standaarden zijn gebruikt bij de totstandkoming van het GGM, en make
 
 * [Informatiemodel Basis- en Kerngegevens (RSGB)](https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_(RSGB)) versie 2.0.2. Het RSGB is as-is gebruikt in het onderdeel _Kern_ van het GGM. Op het RSGB zijn enkele aanpassingen gebaseerd op RSGB 3.0 in het kader van het [domein _Ruimte_](domeinen/ruimteAlgemeen.md#geo-objecten) en aanvulling voor leges en precario doorgevoerd (er was geen ondersteuning voor deze laatste).
 * [Informatiemodel Zaken (RGBZ)](https://www.gemmaonline.nl/index.php/Informatiemodel_Zaken_(RGBZ)) versie 1.0. Het RGBZ is as-is gebruikt in het onderdeel _Kern_ van het GGM.  
-* [iWmo](https://www.istandaarden.nl/iwmo) versie 2.3. iWmo is een berichtenstandaard voor het uitwisselen van gegevens tussen zorgaanbieders en gemeenten met achterliggend informatiemodel. Dit informatiemodel vormt samen met de iJw-standaard de basis voor het Jeugd- en Wmo-deel van het beleidsdomein _Sociaal Domein_. Deze zijn in de uitwerking aangevuld met diverse objecttypen.
+* [iWmo](https://www.istandaarden.nl/iwmo)** versie 2.3. iWmo is een berichtenstandaard voor het uitwisselen van gegevens tussen zorgaanbieders en gemeenten met achterliggend informatiemodel. Dit informatiemodel vormt samen met de iJw-standaard de basis voor het Jeugd- en Wmo-deel van het beleidsdomein _Sociaal Domein_. Deze zijn in de uitwerking aangevuld met diverse objecttypen.
 * [iJw](https://www.istandaarden.nl/ijw) versie 2.3. Zie iWmo.
 * [iPgb](https://www.istandaarden.nl/ipgb) versie 1.0. Hiervan zijn de informatiemodellen van  toekenningsbericht (TKB) en het budgetafsluitbericht (BAB) toegepast.
 * [Suwi Gegevensregister (SGR)](https://bkwi.nl/standaarden/suwi-gegevensregister-sgr) versie 4.0. Het SGR is een gegevensmodel uit de keten van Werk en Inkomen dat dient als een gemeenschappelijk gedragen kader waarop de berichten uit het [SuwiML](https://bkwi.nl/standaarden/suwi-gegevensregister-sgr) zijn gebaseerd. Er is gebruik gemaakt van het berichtenschema (XSD's) op basis waarvan de relevante objecttypen zijn afgeleid.

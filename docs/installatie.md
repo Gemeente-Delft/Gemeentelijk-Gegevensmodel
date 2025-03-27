@@ -16,7 +16,7 @@ Je kunt het ook importeren in een ander tool met UML-ondersteuning. Wij hebben n
 
 Hieronder de te nemen stappen om het in een nieuw of bestaand project binnen Enterprise Architect te importeren.
 
-1. Download het bestand [GGM XMI-bestand geschikt voor Enterprise Architect 16 en 17](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/v2.2.0/Gemeentelijk%20Gegevensmodel%20XMI2.1.xml) en sla deze lokaal op
+1. Download het bestand [GGM XMI-bestand geschikt voor Enterprise Architect 15, 16 en 17](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/v2.3.0/Gemeentelijk%20Gegevensmodel%20XMI2.1.xml) en sla deze lokaal op
 2. Start Enterprise Architect (of andere XMI-Compatible tooling) 
 3. (Optioneel) Maak nieuw project
 4. Kies _"Import Package from XMI"_
@@ -38,10 +38,6 @@ Hieronder de te nemen stappen om het in een nieuw of bestaand project binnen Ent
 
 8\. Succes!
 
-## MIM-compatibiliteit
-
-Het GGM ondersteunt nog geen [MIM](https://docs.geostandaarden.nl/mim/mim/), maar er wordt gewerkt aan ondersteuning. Naar verwachting zal de volgende versie van het GGM MIM-compatibel zijn. Nieuwe ontwikkelingen vinden al wel zoveel mogelijk volgens MIM plaats. In Enterprise Architect gebruik je dan de [MIM Toolbox](https://www.geonovum.nl/nieuws/publicatie-mim-toolbox-versie-111-voor-enterprise-architect) versie 1.1.1. 
-
 ## Installatie Gemeentelijk Gegevensmodel in Bizzdesign
 
 Het Gemeentelijk Gegevensmodel (GGM) kan als [XMI-vorm](https://www.omg.org/spec/XMI/About-XMI/) worden geïmporteerd in een bestaand project in [Bizzdesign](https://bizzdesign.com). Hiervoor wordt een apart script gebruikt dat Bizzdesign speciaal voor het GGM beschikbaar heeft gesteld.
@@ -51,7 +47,7 @@ Het Gemeentelijk Gegevensmodel (GGM) kan als [XMI-vorm](https://www.omg.org/spec
 Hieronder de te nemen stappen om het in een nieuw 
 project binnen Bizzdesign te importeren.
 
-1\. Download het bestand [Gemeentelijk Gegevensmodel XMI2.1](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/v2.2.0/Gemeentelijk%20Gegevensmodel%20XMI2.1.xml)
+1\. Download het bestand [Gemeentelijk Gegevensmodel XMI2.1](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/v2.3.0/Gemeentelijk%20Gegevensmodel%20XMI2.1.xml)
 
 2\. Start Bizzdesign
 

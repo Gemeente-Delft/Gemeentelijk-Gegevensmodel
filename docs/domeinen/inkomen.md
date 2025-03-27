@@ -1,4 +1,4 @@
-# Participatie
+# Inkomen
 
 ## Inkomen en Werk
 

@@ -28,7 +28,7 @@ nav:
     - 'Veiligheid en Vergunningen': domeinen/vth.md
     - 'Verkeer, Vervoer en waterstaat':
         - 'Parkeren': domeinen/parkeren.md
-        - 'Verkeer': domeinen/verkeer.md
+        - 'Mobiliteit': domeinen/mobiliteit.md
     - 'Economie': domeinen/economie.md
     - 'Onderwijs': 
         - 'Leerplicht en leerlingenvervoer': domeinen/leerplicht.md
@@ -47,8 +47,10 @@ nav:
         - 'Inburgering': domeinen/inburgering.md
         - 'Schuldhulverlening': domeinen/schuldhulp.md
         - 'Sociale Teams': domeinen/socteam.md
-        - 'Participatie': domeinen/participatie.md
+        - 'Werk': domeinen/werk.md
+        - 'Inkomen': domeinen/inkomen.md
         - 'Generieke definities Sociaal Domein': domeinen/socdomeingeneriek.md
+        - 'Dak- en thuislozen': domeinen/dakloos.md
     - 'Volksgezondheid en milieu':
         - 'Afval': domeinen/afval.md
     - 'Volkshuisvesting, leefomgeving en stedelijke vernieuwing':
