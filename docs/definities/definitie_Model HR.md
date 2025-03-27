@@ -49,9 +49,9 @@ Het model 'Model HR' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.3 |
+| version | 1.4 |
 | created | 2018-04-04 15:09:18 |
-| modified | 2024-11-21 08:38:15 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_9ADEFB08_F150_4278_8D32_32465C57E8A7 |
 
 

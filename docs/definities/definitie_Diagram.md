@@ -19,9 +19,9 @@ Het model 'Diagram' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.1 |
+| version | 1.2 |
 | created | 2018-04-25 11:49:28 |
-| modified | 2025-03-26 16:52:10 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_713A92CA_C689_49fb_B1B8_787EBF16FA08 |
 
 

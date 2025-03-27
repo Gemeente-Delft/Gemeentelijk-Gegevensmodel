@@ -32,9 +32,9 @@ Het model 'Model Sociaal Domein Generiek' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.1 |
+| version | 1.2 |
 | created | 2024-02-08 18:20:46 |
-| modified | 2025-03-26 16:52:10 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_976B3937_0D19_4599_A6D4_E2BD0E0AB9EB |
 
 

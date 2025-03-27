@@ -31,9 +31,9 @@ Het model 'Model Parkeren' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.1 |
 | created | 2019-02-13 13:34:38 |
-| modified | 2019-02-13 13:34:38 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_13EDB396_DEDA_41f8_B4D8_68EBB2D5EF64 |
 
 

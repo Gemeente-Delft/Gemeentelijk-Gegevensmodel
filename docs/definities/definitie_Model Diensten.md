@@ -40,9 +40,9 @@ Het model 'Model Diensten' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | janbr |
-| version | 1.0 |
+| version | 1.1 |
 | created | 2024-06-27 21:51:28 |
-| modified | 2025-03-27 14:46:43 |
+| modified | 2025-03-27 15:33:15 |
 | id | EAPK_1020926F_B2F4_FAE2_4E83_392C441499AB |
 
 

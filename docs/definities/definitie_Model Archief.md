@@ -36,9 +36,9 @@ Het model 'Model Archief' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.1 |
 | created | 2018-06-28 14:28:07 |
-| modified | 2018-06-28 14:28:07 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_43857236_06A8_4277_864D_3C7A6277442B |
 
 

@@ -35,9 +35,9 @@ Het model 'Model Archeologie' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.3 |
+| version | 1.4 |
 | created | 2018-06-06 14:59:46 |
-| modified | 2024-11-21 08:38:15 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_BB091186_D934_4ff7_8B95_F086954A45F5 |
 
 

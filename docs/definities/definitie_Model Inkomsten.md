@@ -53,9 +53,9 @@ Het model 'Model Inkomsten' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | janbr |
-| version | 1.0 |
+| version | 1.1 |
 | created | 2024-06-27 21:51:28 |
-| modified | 2025-03-27 14:46:08 |
+| modified | 2025-03-27 15:44:03 |
 | id | EAPK_2FF1DB74_1407_C3BE_D193_304A6309B694 |
 
 

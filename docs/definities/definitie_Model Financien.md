@@ -42,9 +42,9 @@ Het model 'Model Financien' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.3 |
+| version | 1.4 |
 | created | 2018-05-14 14:22:59 |
-| modified | 2024-11-23 16:10:55 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_5FFD0C07_FF86_4896_9605_D8492189984D |
 
 

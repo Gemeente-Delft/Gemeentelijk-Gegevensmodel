@@ -38,9 +38,9 @@ Het model 'Model Inburgering' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | mkampen |
-| version | 1.0 |
+| version | 1.1 |
 | created | 2022-11-22 11:46:08 |
-| modified | 2022-11-22 11:49:15 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_1A306FCA_5794_4a29_A5FA_EAE2DBD07DA6 |
 
 
@@ -758,7 +758,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_5eb79c9d_5d0f_484a_bcff_fcfd8c38a6ee |
+| id | EAID_36e5e04b_3b79_4900_8724_d543d7877c57 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -793,7 +793,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_b456831e_ea04_4a62_a619_62f95b9aaf4e |
+| id | EAID_4c7472ef_39f8_47f1_a4f5_fce76f9a3f79 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -831,7 +831,7 @@ De enumeratie Doelgroep heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:12:49 |
 | modified | 2025-03-26 16:14:37 |
-| id | EAID_a62b180d_5470_4a6b_9587_bf5ffffe330e |
+| id | EAID_8e464cc6_e4db_49ba_a804_f6a615eb97b1 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

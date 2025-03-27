@@ -45,9 +45,9 @@ Het model 'Model Schuldhulpverlening' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.3 |
+| version | 1.4 |
 | created | 2018-06-13 13:19:30 |
-| modified | 2024-11-21 08:38:15 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_06C51790_1F81_4ac4_8E16_5177352EF2E1 |
 
 

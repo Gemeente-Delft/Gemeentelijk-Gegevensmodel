@@ -27,7 +27,7 @@ Het model 'Model Inkomen' heeft de volgende kenmerken:
 | author | arjen |
 | version | 1.0 |
 | created | 2025-03-27 11:31:16 |
-| modified | 2025-03-27 11:31:16 |
+| modified | 2025-03-27 15:29:52 |
 | id | EAPK_7A13550B_AC75_4783_BD16_A9ED6E86172A |
 
 
@@ -349,7 +349,7 @@ De enumeratie Wet heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:12:49 |
 | modified | 2025-03-26 16:14:37 |
-| id | EAID_60064e34_e7ac_48b3_b011_304393b70760 |
+| id | EAID_a93de224_1a56_466d_b4ae_ba1347c114ab |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

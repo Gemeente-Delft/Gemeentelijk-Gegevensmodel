@@ -27,9 +27,9 @@ Het model 'Model Subsidies' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.5 |
+| version | 1.6 |
 | created | 2019-11-28 15:38:12 |
-| modified | 2025-03-26 16:52:10 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_702429CB_A2F6_4733_BEB5_341C672DF5EF |
 
 

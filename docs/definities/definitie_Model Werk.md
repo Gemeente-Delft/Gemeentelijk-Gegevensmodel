@@ -30,9 +30,9 @@ Het model 'Model Werk' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.1 |
+| version | 1.2 |
 | created | 2018-04-23 11:52:22 |
-| modified | 2025-03-26 16:52:10 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_740B2501_676F_4219_B57D_3C012B1AFC02 |
 
 
@@ -519,7 +519,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_06d35a7e_c8c2_4534_89b1_d2a9666ba802 |
+| id | EAID_26f8a892_0e0c_492d_b3ca_9305ddb5a4fa |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

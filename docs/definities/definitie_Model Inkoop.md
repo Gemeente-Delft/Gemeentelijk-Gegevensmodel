@@ -38,9 +38,9 @@ Het model 'Model Inkoop' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.1 |
 | created | 2018-04-04 15:09:45 |
-| modified | 2019-11-27 10:56:23 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_254CDF37_3AAB_4e0b_9F3C_2B46AAEBE2E9 |
 
 

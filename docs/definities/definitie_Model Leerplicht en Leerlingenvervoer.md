@@ -33,9 +33,9 @@ Het model 'Model Leerplicht en Leerlingenvervoer' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.1 |
 | created | 2019-10-07 17:03:22 |
-| modified | 2019-10-08 14:27:01 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_6F2E0E52_6244_4227_B563_738DCF19E6C9 |
 
 

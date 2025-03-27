@@ -45,9 +45,9 @@ Het model 'Model Vastgoed' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.3 |
+| version | 1.4 |
 | created | 2018-05-29 13:48:39 |
-| modified | 2024-11-21 08:38:15 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_AAB5C359_578D_4791_B9B1_0B68629BE333 |
 
 
@@ -1159,7 +1159,7 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
 | version | 1.5 |
 | created | 2025-03-26 11:13:38 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_949e6002_07c8_40f5_9506_5a59a5a93ce2 |
+| id | EAID_27ae4d91_b05a_488d_9a56_05901f657897 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1194,7 +1194,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_7643e1dc_4864_4e0e_a341_2b2c87f18c3a |
+| id | EAID_f677d5bd_e528_45b9_8529_99ace0a9d018 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1229,7 +1229,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_ceae0198_3b36_4bb1_ab45_47f90856a991 |
+| id | EAID_4d3333de_2451_451d_857b_0f3943f2530c |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1264,7 +1264,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_db9aa3c7_15c8_424e_aeaa_a3d35323728c |
+| id | EAID_05807daa_297b_45f0_abac_8843b562207d |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1301,7 +1301,7 @@ De enumeratie aanduidingEigenaarGebruiker heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:36 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_65dabdbb_d134_40bf_ba15_74d213c2ea19 |
+| id | EAID_2b0f6554_5f8d_493f_9293_cbb3f3feea09 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

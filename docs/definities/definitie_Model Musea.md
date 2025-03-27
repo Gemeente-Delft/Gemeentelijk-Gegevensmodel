@@ -1,10 +1,10 @@
-# Model Museum
+# Model Musea
 ## Inleiding
-> **Definitie Model Museum:** 
+> **Definitie Model Musea:** 
 >
 > Geen definitie
 
-Het model 'Model Museum' kent de volgende objecttypen:
+Het model 'Model Musea' kent de volgende objecttypen:
 
 * **Activiteit**: Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd. 
 * **Activiteitsoort**: Typering van een activiteit
@@ -38,23 +38,23 @@ Het model 'Model Museum' kent de volgende objecttypen:
 * **Zaal**: Grote ruimte in een gebouw
 
 
-Het model 'Model Museum' heeft de volgende kenmerken:
+Het model 'Model Musea' heeft de volgende kenmerken:
 
 | Kenmerk | Waarde |
 | :--- | :------ |
-| name | Model Museum |
+| name | Model Musea |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.1 |
+| version | 1.2 |
 | created | 2019-08-12 10:54:01 |
-| modified | 2025-03-26 16:52:10 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_BC31E8F4_1A54_4d7a_A3D5_C9B72022BBD9 |
 
 
-## Objecttypen Model Museum
+## Objecttypen Model Musea
 
 
 ### Activiteit

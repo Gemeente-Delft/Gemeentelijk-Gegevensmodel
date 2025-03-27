@@ -20,9 +20,9 @@ Het model 'Model Organisatie' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.3 |
+| version | 1.4 |
 | created | 2018-04-04 15:13:41 |
-| modified | 2024-11-21 08:38:15 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_69F9CD5F_3226_4180_9264_54AAC6052501 |
 
 

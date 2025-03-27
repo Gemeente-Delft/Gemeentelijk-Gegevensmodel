@@ -47,9 +47,9 @@ Het model 'Model Terug- en invordering' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | janbr |
-| version | 1.0 |
+| version | 1.1 |
 | created | 2024-06-27 21:51:28 |
-| modified | 2025-03-27 14:47:13 |
+| modified | 2025-03-27 15:34:24 |
 | id | EAPK_2D0F3F05_1407_C3BE_D193_374C10D6B694 |
 
 
@@ -1071,7 +1071,7 @@ De enumeratie Verwerkingsstatus heeft de volgende kenmerken:
 | version | 1.0 |
 | created | 2024-03-07 12:33:22 |
 | modified | 2025-03-27 10:22:49 |
-| id | EAID_1bdc070b_4432_4667_8eba_5fee6091402d |
+| id | EAID_cb8d0aaf_fb4c_41f0_b1f7_0d853e71c18f |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

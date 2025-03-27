@@ -23,9 +23,9 @@ Het model 'Model Normafwijking' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | janbr |
-| version | 1.0 |
+| version | 1.1 |
 | created | 2024-06-27 21:51:28 |
-| modified | 2025-03-27 14:46:53 |
+| modified | 2025-03-27 15:33:40 |
 | id | EAPK_2D091BA6_1407_C3BE_D193_3743D37AB694 |
 
 

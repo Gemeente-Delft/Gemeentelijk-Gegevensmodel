@@ -33,7 +33,7 @@ Het model 'Model Griffie' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2019-05-13 16:48:32 |
-| modified | 2019-05-13 16:48:32 |
+| modified | 2025-03-27 15:29:27 |
 | id | EAPK_9EBFD9E7_BB04_45c9_97BB_426207B40292 |
 
 

@@ -32,9 +32,9 @@ Het model 'Model Omgevingswet' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.1 |
 | created | 2019-10-23 14:39:57 |
-| modified | 2019-10-23 14:39:57 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_E2C175A5_F6CC_463e_A6FB_78EAD11E6008 |
 
 

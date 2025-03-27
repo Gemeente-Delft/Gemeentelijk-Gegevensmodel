@@ -22,9 +22,9 @@ Het model 'Model Jeugdbescherming' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.1 |
+| version | 1.2 |
 | created | 2024-04-22 15:35:55 |
-| modified | 2025-03-26 16:52:10 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_A5CFE1A5_DE7F_431a_B809_749E6D268B1F |
 
 

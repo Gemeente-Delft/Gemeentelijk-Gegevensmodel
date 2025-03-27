@@ -19,9 +19,9 @@ Het model 'Model Gemeentebegrafenissen' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.1 |
 | created | 2019-09-17 15:55:09 |
-| modified | 2019-09-17 15:55:09 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_C1AFCF43_8159_462b_9552_03F2EF070141 |
 
 

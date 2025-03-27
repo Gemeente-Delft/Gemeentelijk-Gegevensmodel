@@ -27,9 +27,9 @@ Het model 'Model Sociale Teams' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.3 |
+| version | 1.4 |
 | created | 2018-05-23 15:20:01 |
-| modified | 2024-11-21 08:38:15 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_B93820C2_4C34_485a_BECB_491B510CA4AE |
 
 

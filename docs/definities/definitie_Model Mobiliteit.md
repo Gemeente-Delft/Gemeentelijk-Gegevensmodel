@@ -25,9 +25,9 @@ Het model 'Model Mobiliteit' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.3 |
+| version | 1.4 |
 | created | 2018-03-21 11:47:02 |
-| modified | 2025-03-26 17:17:30 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_13DD932C_4F69_4c62_B2D5_6676B5E5E24A |
 
 

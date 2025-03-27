@@ -34,9 +34,9 @@ Het model 'Model Dienstverlening' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.4 |
+| version | 1.5 |
 | created | 2018-04-16 13:48:36 |
-| modified | 2025-03-26 16:52:10 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_7F780248_C88C_450f_8318_98C5020AB372 |
 
 

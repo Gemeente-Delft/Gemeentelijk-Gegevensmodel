@@ -24,9 +24,9 @@ Het model 'Model Monumenten' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.1 |
 | created | 2019-07-03 14:46:25 |
-| modified | 2019-07-03 14:46:25 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_F7651B45_2B64_4197_A6E5_BFC56EC98466 |
 
 

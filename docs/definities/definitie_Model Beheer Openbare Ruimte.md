@@ -42,9 +42,9 @@ Het model 'Model Beheer Openbare Ruimte' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.1 |
 | created | 2018-09-12 14:11:31 |
-| modified | 2023-10-12 14:53:04 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_18DA1C0F_39A8_419a_B10A_D939009CC0C2 |
 
 

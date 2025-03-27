@@ -27,9 +27,9 @@ Het model 'Model Sport' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.1 |
 | created | 2019-07-08 17:07:53 |
-| modified | 2019-07-08 17:07:53 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_D6E7B2AB_8AD0_4c88_8742_3970AEDB4203 |
 
 

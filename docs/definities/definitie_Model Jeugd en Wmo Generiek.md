@@ -45,9 +45,9 @@ Het model 'Model Jeugd en Wmo Generiek' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.4 |
+| version | 1.5 |
 | created | 2018-05-15 16:29:14 |
-| modified | 2025-03-26 16:52:10 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_B3B8C80B_FA8A_4058_8731_00B21A9EFE76 |
 
 

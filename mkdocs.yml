@@ -39,7 +39,7 @@ nav:
             - 'Monumenten': domeinen/monumenten.md
             - 'Archief': domeinen/archief.md
             - 'Generieke objecttypen Erfgoed': domeinen/erfgoedgeneriek.md
-        - 'Museum': domeinen/museum.md
+        - 'Musea': domeinen/musea.md
         - 'Sport': domeinen/sport.md
     - 'Sociaal domein':
         - 'Werk': domeinen/werk.md
@@ -71,7 +71,7 @@ nav:
     - 'Veiligheid en Vergunningen': definities/definitie_Model VTH.md
     - 'Verkeer, Vervoer en waterstaat':
         - 'Parkeren': definities/definitie_Model Parkeren.md
-        - 'Verkeer': definities/definitie_Model Verkeer en Vervoer.md
+        - 'Verkeer': definities/definitie_Model Mobiliteit.md
     - 'Economie': definities/definitie_Model Economie.md
     - 'Onderwijs': 
         - 'Leerplicht en leerlingenvervoer': definities/definitie_Model Leerplicht en Leerlingenvervoer.md
@@ -82,11 +82,15 @@ nav:
             - 'Archeologie': definities/definitie_Model Archeologie.md
             - 'Archief': definities/definitie_Model Archief.md
             - 'Monumenten': definities/definitie_Model Monumenten.md
-        - 'Museum': definities/definitie_Model Museum.md
+        - 'Musea': definities/definitie_Model Musea.md
         - 'Sport': definities/definitie_Model Sport.md
     - 'Sociaal domein':
         - 'Werk': definities/definitie_Model Werk.md
         - 'Inkomen': definities/definitie_Model Inkomen.md
+        - 'Inkomen: Reden aanvraag (GBI)': definities/definitie_Model Reden aanvraag.md
+        - 'Inkomen: Terug- en invordering (GBI)': definities/definitie_Model Terug- en invordering.md
+        - 'Inkomen: Normafwijking (GBI)': definities/definitie_Model Normafwijking.md
+        - 'Inkomen: Dienstenmodel (GBI)': definities/definitie_Model Diensten.md
         - 'Wmo en Jeugd': definities/definitie_Model Jeugd en Wmo Generiek.md
         - 'Inburgering': definities/definitie_Model Inburgering.md
         - 'Schuldhulverlening': definities/definitie_Model Schuldhulpverlening.md
@@ -95,6 +99,8 @@ nav:
         - 'Gemeentebegrafenissen': definities/definitie_Model Gemeentebegrafenissen.md
         - 'Dak- en thuislozen': definities/definitie_Model Dak- en thuislozen.md
         - 'Generieke definities Sociaal Domein': definities/definitie_Model Sociaal Domein Generiek.md
+        - 'Generiek: Profiel inkomsten': definities/definitie_Model Inkomsten.md
+        - 'Generiek: Profiel vermogen': definities/definitie_Model Vermogen.md
     - 'Volkshuisvesting, leefomgeving en stedelijke vernieuwing':
         - 'Openbare ruimte': definities/definitie_Model Beheer Openbare Ruimte.md
         - 'Bouwen en Wonen': definities/definitie_Model Wonen.md

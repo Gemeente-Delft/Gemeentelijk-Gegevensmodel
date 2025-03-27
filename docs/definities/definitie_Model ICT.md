@@ -53,9 +53,9 @@ Het model 'Model ICT' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.0 |
+| version | 1.1 |
 | created | 2019-01-10 11:33:20 |
-| modified | 2019-01-10 11:33:20 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_C45CFEC0_B841_4e3b_86BD_A4F3246E94D2 |
 
 

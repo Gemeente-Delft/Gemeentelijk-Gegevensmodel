@@ -24,9 +24,9 @@ Het model 'Model Economie' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.1 |
+| version | 1.2 |
 | created | 2019-12-18 13:51:43 |
-| modified | 2025-03-26 16:52:10 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_DB8BA49F_252E_4044_A93B_8215B6903827 |
 
 

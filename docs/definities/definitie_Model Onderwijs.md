@@ -30,9 +30,9 @@ Het model 'Model Onderwijs' heeft de volgende kenmerken:
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.4 |
+| version | 1.5 |
 | created | 2018-05-04 14:45:56 |
-| modified | 2025-03-26 16:52:10 |
+| modified | 2025-03-27 15:28:35 |
 | id | EAPK_CD9BF007_85C6_4af9_B3F4_2CAB5BF26B5E |
 
 
