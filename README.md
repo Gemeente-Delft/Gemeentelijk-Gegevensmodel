@@ -135,8 +135,8 @@ Nederland kent op dit moment een lappendeken aan standaarden voor gegevensuitwis
 
 De volgende standaarden zijn gebruikt bij de totstandkoming van het GGM en maken onderdeel uit van het GGM:
 
-* [Informatiemodel Basis- en Kerngegevens (RSGB)](https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_(RSGB)) versie 2.0.2. Het RSGB is as-is gebruikt in het onderdeel _Kern_ van het GGM.
-* [Informatiemodel Zaken (RGBZ)](https://www.gemmaonline.nl/index.php/Informatiemodel_Zaken_(RGBZ)) versie 1.0. Het RGBZ is as-is gebruikt in het onderdeel _Kern_ van het GGM.  
+* [Informatiemodel Basis- en Kerngegevens (RSGB)](https://vng-realisatie.github.io/RSGB/https://vng-realisatie.github.io/RSGB/) versie 2.0.2. Het RSGB is as-is gebruikt in het onderdeel _Kern_ van het GGM.
+* [Informatiemodel Zaken (RGBZ)](https://www.gemmaonline.nl/wiki/GEMMA/id-bc302841-8db0-11e3-67ab-0050568a6153) versie 1.0. Het RGBZ is as-is gebruikt in het onderdeel _Kern_ van het GGM.  
 * [iWmo](https://www.istandaarden.nl/iwmo) versie 2.3. iWmo is een berichtenstandaard voor het uitwisselen van gegevens tussen zorgaanbieders en gemeenten met achterliggend informatiemodel. Dit informatiemodel vormt samen met de iJw-standaard de basis voor het Jeugd- en Wmo-deel van het beleidsdomein _Sociaal Domein_. Deze zijn in de uitwerking aangevuld met diverse objecttypen.
 * [iJw](https://www.istandaarden.nl/ijw) versie 2.3. Zie iWmo.
 * [iPgb](https://www.istandaarden.nl/ipgb) versie 1.0. Hiervan zijn de informatiemodellen van  toekenningsbericht (TKB) en het budgetafsluitbericht (BAB) toegepast.
