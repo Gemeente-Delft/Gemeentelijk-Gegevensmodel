@@ -69,7 +69,7 @@ Het model 'Model Vastgoed' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-05-29 13:54:27 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_17FCEF39_AB9D_4516_9C60_1DDA61D87356 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -103,7 +103,7 @@ Attributen van objecttype Aanbesteding Vastgoed
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-20 17:10:49 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_909E635B_E33D_4ded_8471_900CD175B7D1 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -138,7 +138,7 @@ Attributen van objecttype Adresaanduiding
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-05-29 13:51:14 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_9A739672_6084_4c05_A13E_59DB13551E58 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -174,7 +174,7 @@ Attributen van objecttype Bouwdeel
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-05-29 13:51:51 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_BE147761_326E_4859_9366_5157CE865EC1 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -210,7 +210,7 @@ Attributen van objecttype Bouwdeelelement
 | author | aashkpour |
 | version | 1.5 |
 | created | 2020-04-22 16:08:42 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_01C1622D_23E7_4a63_9B63_F45CA63E76CA |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -246,7 +246,7 @@ Attributen van objecttype CultuurOnbebouwd
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-05-29 13:56:25 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_5E06339C_13EE_44ca_BC40_0FC4B9DC8349 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -280,7 +280,7 @@ Attributen van objecttype Eigenaar
 | author | aashkpour |
 | version | 1.5 |
 | created | 2020-03-30 14:26:44 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_A5975EF7_558A_44fa_A656_AB43580D8C35 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -315,7 +315,7 @@ Attributen van objecttype Gebruiksdoel
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-05-29 13:56:12 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_B75EE7EF_DC1F_47da_A95C_B9662075684D |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -349,7 +349,7 @@ Attributen van objecttype Huurder
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-11-29 17:01:01 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_A31C3B5D_EAC5_482d_8816_8B858EC4BE01 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -364,8 +364,8 @@ Attributen van objecttype Inspectie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bevindingen | text |  |
 | datum | Date |  |
+| bevindingen | text |  |
 | None | Class: "MJOP" |  |
 | None | Class: "Vastgoedobject" |  |
 
@@ -387,7 +387,7 @@ Attributen van objecttype Inspectie
 | author | mkampen |
 | version | 1.3 |
 | created | 2021-01-19 14:59:55 |
-| modified | 2024-11-21 08:38:12 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_D46DA88A_F3EB_4c72_85DA_C0C4239289E2 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -423,7 +423,7 @@ Attributen van objecttype KpBetrokkenBij
 | author | mkampen |
 | version | 1.3 |
 | created | 2021-01-19 14:58:41 |
-| modified | 2024-11-21 08:38:12 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_DCF0623A_694F_4b82_B615_F499F169C19A |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -459,7 +459,7 @@ Attributen van objecttype KpOnstaanUit
 | author | aashkpour |
 | version | 1.5 |
 | created | 2021-02-15 16:28:05 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_0B3F8A89_F21E_4bea_9620_8D6713AB632C |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -474,9 +474,9 @@ Attributen van objecttype LocatieaanduidingWozObject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| locatieOmschrijving | AN100 |  |
 | datumBeginGeldigheid | Date |  |
 | datumEindeGeldigheid | Date |  |
-| locatieOmschrijving | AN100 |  |
 | primair | Enumeratie: "Boolean" |  |
 | None | Class: "WOZ-object" |  |
 
@@ -498,7 +498,7 @@ Attributen van objecttype LocatieaanduidingWozObject
 | author | aashkpour |
 | version | 1.5 |
 | created | 2020-04-08 17:00:47 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_049E7FD0_D515_4057_9C87_A09980C5DE6A |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -513,12 +513,12 @@ Attributen van objecttype Locatieonroerendezaak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| adrestype | Enumeratie: "TypeAdresseerbaarObject" |  |
+| locatieOmschrijving | AN800 |  |
 | cultuurcodeBebouwd |  |  |
+| adrestype | Enumeratie: "TypeAdresseerbaarObject" |  |
 | datumBeginGeldigheid | Date |  |
 | datumEindeGeldigheid | Date |  |
 | geometrie | Vlak |  |
-| locatieOmschrijving | AN800 |  |
 | None | Class: "KadastraleOnroerendeZaak" |  |
 
 
@@ -539,7 +539,7 @@ Attributen van objecttype Locatieonroerendezaak
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-05-29 13:53:05 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_A110896B_0CAD_46cf_9226_840DEE3328F0 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -576,7 +576,7 @@ Attributen van objecttype MJOP
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-06-11 14:41:07 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_54697170_4C4D_40f6_9E08_35DF1970B8C6 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -592,14 +592,14 @@ Attributen van objecttype MJOP-Item
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | code | AN40 |  |
-| datumEinde | Date |  |
-| datumOpzeggingAanbieder | Date |  |
-| datumOpzeggingOntvanger | Date |  |
-| datumStart | Date |  |
-| kosten | Bedrag |  |
 | omschrijving | AN80 |  |
+| kosten | Bedrag |  |
+| datumStart | Date |  |
+| datumEinde | Date |  |
 | opzegtermijnAanbieder | int |  |
 | opzegtermijnOntvanger | int |  |
+| datumOpzeggingAanbieder | Date |  |
+| datumOpzeggingOntvanger | Date |  |
 
 
 
@@ -619,7 +619,7 @@ Attributen van objecttype MJOP-Item
 | author | aashkpour |
 | version | 1.3 |
 | created | 2021-12-15 15:57:45 |
-| modified | 2024-11-21 08:38:12 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_46386087_923F_402e_BB6B_6DE39D73349A |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -654,7 +654,7 @@ Attributen van objecttype NADAanvullingBRP
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-21 15:56:10 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_3EA09322_144A_407d_86C4_FCC8C041C826 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -689,7 +689,7 @@ Attributen van objecttype Objectrelatie
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-05-29 13:55:05 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_EF55544A_F59B_4411_A3D2_9C1A2BA2663C |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -723,7 +723,7 @@ Attributen van objecttype Offerte
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-11-29 16:26:19 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_EDC8B01F_4802_4562_BC41_C2CAD76880B6 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -757,7 +757,7 @@ Attributen van objecttype Pachter
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-05-29 13:55:46 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_697512E4_0C8E_4be8_8E95_9E2E4BD50F85 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -772,10 +772,10 @@ Attributen van objecttype Prijzenboekitem
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumEindeGeldigheid | Date |  |
-| datumStart | Date |  |
-| prijs | Bedrag |  |
 | verrichting | AN80 |  |
+| prijs | Bedrag |  |
+| datumStart | Date |  |
+| datumEindeGeldigheid | Date |  |
 
 
 
@@ -795,7 +795,7 @@ Attributen van objecttype Prijzenboekitem
 | author | Arjen Brienen |
 | version | 1.7 |
 | created | 2019-01-23 21:45:20 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_1C84E4B6_1BB5_4a0d_A945_FFFDFDFB544B |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -810,14 +810,14 @@ Attributen van objecttype Vastgoed Contract
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| beschrijving | AN200 |  |
-| datumEinde | Date |  |
 | datumStart | Date |  |
-| identificatie | AN80 |  |
+| datumEinde | Date |  |
 | maandbedrag | Bedrag |  |
-| opzegtermijn | AN80 |  |
+| beschrijving | AN200 |  |
 | status | AN80 |  |
 | type | AN80 |  |
+| identificatie | AN80 |  |
+| opzegtermijn | AN80 |  |
 
 
 
@@ -837,7 +837,7 @@ Attributen van objecttype Vastgoed Contract
 | author | aashkpour |
 | version | 1.5 |
 | created | 2020-01-15 20:55:01 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_1C25D70B_AE22_4654_9190_2F55272D9BE6 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -852,14 +852,14 @@ Attributen van objecttype Vastgoedcontractregel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bedrag | int |  |
-| datumEinde | Date |  |
-| datumStart | Date |  |
-| frequentie | AN80 |  |
-| identificatie | AN80 |  |
+| type | AN80 |  |
 | omschrijving | AN200 |  |
 | status | AN80 |  |
-| type | AN80 |  |
+| datumStart | Date |  |
+| bedrag | int |  |
+| datumEinde | Date |  |
+| frequentie | AN80 |  |
+| identificatie | AN80 |  |
 
 
 
@@ -879,7 +879,7 @@ Attributen van objecttype Vastgoedcontractregel
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-05-29 13:49:24 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_28A6F2AC_5AB1_4f25_8876_931152CA28E0 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -894,66 +894,66 @@ Attributen van objecttype Vastgoedobject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalEtages | int |  |
-| aantalParkeerplaatsen | int |  |
-| aantalRioleringen | int |  |
 | adresaanduiding |  |  |
+| WOZWaarde | Bedrag |  |
+| marktwaarde | Bedrag |  |
+| boekwaarde | Bedrag |  |
+| verzekerdeWaarde | Bedrag |  |
+| omschrijving | AN80 |  |
+| portefeuille | AN80 |  |
+| naam | AN80 |  |
+| bedragAankoop | Bedrag |  |
+| aantalEtages | int |  |
 | afgekochteErfpacht |  |  |
-| afgesprokenConditiescore | Enumeratie: "NEN2767 Conditiescore" |  |
 | afkoopwaarde | Bedrag |  |
 | asbestrapportageAanwezig | Enumeratie: "Boolean" |  |
-| bedragAankoop | Bedrag |  |
-| bestemmingsplan | AN200 |  |
-| boekwaarde | Bedrag |  |
-| bouwjaar | int |  |
-| bouwwerk | AN80 |  |
-| bovenliggendNiveau | AN80 |  |
-| bovenliggendNiveaucode | AN20 |  |
-| brutoVloeroppervlakte | int |  |
-| CO2Uitstoot | int | Jaarlijkse CO2 uitstoot in ton CO2-e
- |
-| conditiescore | Enumeratie: "NEN2767 Conditiescore" |  |
 | datumAfstoten | Date |  |
 | datumBerekeningOppervlak | Date |  |
-| datumEigendom | Date |  |
-| datumVerkoop | Date |  |
 | deelportefeuille | AN80 |  |
-| energiekosten | Bedrag | Jaarlijkse energiekosten
- |
-| energielabel | Enumeratie: "Energielabel Gebouwen" |  |
-| energieverbruik | int | jaarlijks energieverbruik in Kwh
- |
+| objecttype | AN80 |  |
 | fiscaleWaarde | Bedrag |  |
-| foto | Blob |  |
 | gearchiveerd | Enumeratie: "Boolean" |  |
 | herbouwwaarde | Bedrag |  |
-| hoofdstuk | AN80 |  |
-| identificatie | AN80 |  |
-| jaarLaatsteRenovatie | n4 |  |
-| kostenplaats | AN80 |  |
-| locatie | punt |  |
-| marktwaarde | Bedrag |  |
 | monument | Enumeratie: "Monumenttypering" |  |
-| naam | AN80 |  |
-| objectstatus | AN40 |  |
-| objectstatuscode | AN40 |  |
-| objecttype | AN80 |  |
-| objecttypecode | AN40 |  |
-| omschrijving | AN80 |  |
 | onderhoudscategorie | AN80 |  |
-| oppervlakteKantoor | int |  |
-| portefeuille | AN80 |  |
-| portefeuillecode | AN40 |  |
 | provincie |  |  |
-| toelichting | text |  |
-| verhuurbaarVloeroppervlak | int |  |
-| verkoopbaarheid | AN80 |  |
 | verkoopbedrag | Bedrag |  |
-| verzekerdeWaarde | Bedrag |  |
 | waardeGrond | Bedrag |  |
 | waardeOpstal | Bedrag |  |
 | wijk |  |  |
-| WOZWaarde | Bedrag |  |
+| energielabel | Enumeratie: "Energielabel Gebouwen" |  |
+| energieverbruik | int | jaarlijks energieverbruik in Kwh
+ |
+| energiekosten | Bedrag | Jaarlijkse energiekosten
+ |
+| CO2Uitstoot | int | Jaarlijkse CO2 uitstoot in ton CO2-e
+ |
+| jaarLaatsteRenovatie | n4 |  |
+| aantalRioleringen | int |  |
+| oppervlakteKantoor | int |  |
+| conditiescore | Enumeratie: "NEN2767 Conditiescore" |  |
+| aantalParkeerplaatsen | int |  |
+| verkoopbaarheid | AN80 |  |
+| afgesprokenConditiescore | Enumeratie: "NEN2767 Conditiescore" |  |
+| kostenplaats | AN80 |  |
+| bovenliggendNiveau | AN80 |  |
+| bestemmingsplan | AN200 |  |
+| locatie | punt |  |
+| bouwjaar | int |  |
+| objectstatuscode | AN40 |  |
+| objectstatus | AN40 |  |
+| objecttypecode | AN40 |  |
+| portefeuillecode | AN40 |  |
+| bovenliggendNiveaucode | AN20 |  |
+| hoofdstuk | AN80 |  |
+| identificatie | AN80 |  |
+| foto | Blob |  |
+| toelichting | text |  |
+| datumEigendom | Date |  |
+| datumVerkoop | Date |  |
+| bouwwerk | AN80 |  |
+| brutoVloeroppervlakte | int |  |
+| verhuurbaarVloeroppervlak | int |  |
 | None | Class: "KadastraleOnroerendeZaak" |  |
 | None | Class: "KadastraalPerceel" |  |
 
@@ -975,7 +975,7 @@ Attributen van objecttype Vastgoedobject
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-03-20 15:47:52 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_98A7AE65_A061_449a_94CD_6218069CA86A |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -990,20 +990,20 @@ Attributen van objecttype Verhuurbaar Eenheid
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| adres | AN350 |  |
-| afmeting | int |  |
-| bezetting | int |  |
-| datumEinde | Date |  |
-| datumStart | Date |  |
-| datumWerkelijkBegin | Date |  |
-| datumWerkelijkEinde | Date |  |
-| huurprijs | int |  |
 | identificatie | AN80 |  |
 | naam | AN80 |  |
-| nettoOmtrek | int |  |
-| nettoOppervlak | int |  |
-| opmerkingen | text |  |
+| datumWerkelijkBegin | Date |  |
+| datumWerkelijkEinde | Date |  |
 | type | An80 |  |
+| adres | AN350 |  |
+| datumStart | Date |  |
+| datumEinde | Date |  |
+| afmeting | int |  |
+| opmerkingen | text |  |
+| nettoOppervlak | int |  |
+| nettoOmtrek | int |  |
+| bezetting | int |  |
+| huurprijs | int |  |
 
 
 
@@ -1023,7 +1023,7 @@ Attributen van objecttype Verhuurbaar Eenheid
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-05-29 13:54:47 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_C5AA8835_219D_4bfa_85EF_8BA45F732BCD |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1058,7 +1058,7 @@ Attributen van objecttype Werkbon
 | author | aashkpour |
 | version | 1.6 |
 | created | 2021-02-11 12:34:19 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_E71DC5EC_EEEB_4d27_A3C1_B46FD34AD41B |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1095,7 +1095,7 @@ Attributen van objecttype WOZ-Belang
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-05-29 13:56:38 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_8D52E9F1_9CC9_42c6_A347_E68E29718E55 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1110,10 +1110,10 @@ Attributen van objecttype Zakelijk Recht
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumEinde | Date |  |
 | datumStart | Date |  |
-| kosten | Bedrag |  |
+| datumEinde | Date |  |
 | soort | Enumeratie: "Zakelijkrecht" |  |
+| kosten | Bedrag |  |
 | None | Class: "Kostenplaats" |  |
 | None | Class: "Vastgoedobject" |  |
 
@@ -1156,10 +1156,10 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
-| id | EAID_1095d60d_61bc_4859_966f_9f115d8fcf21 |
+| version | 1.5 |
+| created | 2025-03-26 11:13:38 |
+| modified | 2025-03-26 16:14:55 |
+| id | EAID_cfb992f9_3945_4f0f_bba9_9029182df0ac |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1191,10 +1191,10 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
-| id | EAID_1498dc51_cbff_44ec_8cc2_bd915ae07533 |
+| version | 1.4 |
+| created | 2025-03-26 11:13:35 |
+| modified | 2025-03-26 16:14:54 |
+| id | EAID_779cbb40_a5e6_4f0e_9b97_2a56c6e87a9b |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1226,10 +1226,10 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
-| id | EAID_97b57a81_8183_4905_9edf_09bd83eccf5c |
+| version | 1.4 |
+| created | 2025-03-26 11:13:35 |
+| modified | 2025-03-26 16:14:54 |
+| id | EAID_260df00e_2507_4189_9516_fc7043b5cc1c |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1261,10 +1261,10 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
-| id | EAID_4f4b9cb0_3bf8_413f_a5dc_e96f6770bbea |
+| version | 1.4 |
+| created | 2025-03-26 11:13:35 |
+| modified | 2025-03-26 16:14:54 |
+| id | EAID_22e4bd02_5a8d_4e98_acd3_8d45d79c6dd5 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1298,10 +1298,10 @@ De enumeratie aanduidingEigenaarGebruiker heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
-| id | EAID_7ce550d2_c3fb_488f_86a5_dc8c47ab6f17 |
+| version | 1.4 |
+| created | 2025-03-26 11:13:36 |
+| modified | 2025-03-26 16:14:54 |
+| id | EAID_ef134236_8be1_40c7_afc5_a89b009f38f6 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1340,9 +1340,9 @@ De enumeratie Energielabel Gebouwen heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:13:15 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_808592B6_401F_48c7_BD2A_2A3D77E846A4 |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -1380,9 +1380,9 @@ De enumeratie Monumenttypering heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:13:15 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_764193B9_F588_46a2_A230_4B9D29B8CF44 |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -1419,9 +1419,9 @@ De enumeratie NEN2767 Conditiescore heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:13:15 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_81CA4474_4D1E_485d_94F9_1243FA00B1FE |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -1456,9 +1456,9 @@ De enumeratie Objectrelatierol heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:13:15 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_0D0C34BC_D054_45b0_BDB6_3F32F65E51CB |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -1493,9 +1493,9 @@ De enumeratie TypeAdresseerbaarObject heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:13:15 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_3DD4320F_CA3A_40c9_BB16_40064717EC8B |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -1530,9 +1530,9 @@ De enumeratie Zakelijkrecht heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:13:16 |
+| modified | 2025-03-26 16:14:47 |
 | id | EAID_0B6706E7_4CF8_42d8_90EA_BDD1F5588D3F |
 | domein_iv3 | None |
 | domein_dcat | None |

@@ -66,7 +66,7 @@ Het model 'Model Beheer Openbare Ruimte' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-11-06 16:52:08 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_DDE9A5B3_1E56_4058_8D12_A774F43B5D26 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -100,7 +100,7 @@ Attributen van objecttype Actie
 | author | Arjen Brienen |
 | version | 1.4 |
 | created | 2018-11-07 17:27:26 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_9507EE24_6397_4a9c_B478_8C2899EC0BFB |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -135,7 +135,7 @@ Attributen van objecttype Areaal
 | author | Arjen Brienen |
 | version | 1.4 |
 | created | 2018-11-07 16:58:24 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_4A8E659E_F088_446d_8614_BA31B106A417 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -170,7 +170,7 @@ Attributen van objecttype CROW-Melding
 | author | mkampen |
 | version | 1.2 |
 | created | 2023-09-27 09:29:15 |
-| modified | 2024-11-21 08:38:12 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_EC994E7D_E6D1_4243_BA96_38DB7454ECEF |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -204,7 +204,7 @@ Attributen van objecttype Deelplan/Veld
 | author | mkampen |
 | version | 1.2 |
 | created | 2023-09-27 09:31:19 |
-| modified | 2024-11-21 08:38:12 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_7FA358CC_1160_490b_A543_D5ED69A558D2 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -238,7 +238,7 @@ Attributen van objecttype Fase/Oplevering
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-09-19 11:50:45 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_05B355EF_39EA_4bfb_B1F3_AB31841C986E |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -255,8 +255,8 @@ Attributen van objecttype Geo-Object
 | :--- | :--- | :--- |
 | datumBeginGeldigheid | datum |  |
 | datumEindeGeldigheid | datum |  |
-| geometrieSoort | AN40 |  |
 | identificatie | NEN3610ID |  |
+| geometrieSoort | AN40 |  |
 
 
 
@@ -276,7 +276,7 @@ Attributen van objecttype Geo-Object
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-11-15 15:41:01 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_B53EC85A_C731_4fb6_8379_7D11802273B2 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -310,7 +310,7 @@ Attributen van objecttype Grondbeheerder
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-11-06 16:50:09 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_C73E52A5_F66E_47f0_8DEA_467A54F64DD2 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -344,7 +344,7 @@ Attributen van objecttype Inspectie
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-12-06 16:14:13 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_5DC6EA71_272C_4392_BA5E_5C97DC3CA9D9 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -381,7 +381,7 @@ Attributen van objecttype KadastraleMutatie
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-11-07 16:35:55 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_2C6C809D_28B0_4037_BBFA_3E438A2DF81D |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -415,7 +415,7 @@ Attributen van objecttype Kwaliteitscatalogus Openbare Ruimte
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-09-19 11:58:59 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_0754CC1D_48C7_4275_B909_BFB747BCFCD8 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -449,7 +449,7 @@ Attributen van objecttype Kwaliteitskenmerken
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-11-06 16:48:26 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_B1D48EFB_81E7_420d_A080_5B4C01798FFB |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -483,7 +483,7 @@ Attributen van objecttype Logboek
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-11-06 16:48:18 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_C6094F79_D8EA_4763_90DF_4E30EFABA1FA |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -498,17 +498,17 @@ Attributen van objecttype Melding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| advies | Text |  |
+| datumMelding | dateTime |  |
+| status | AN40 |  |
 | categorie | AN80 |  |
 | constatering | Text |  |
+| opmerkingen | Text |  |
+| advies | Text |  |
 | datumAdvies | DateTime |  |
-| datumMelding | dateTime |  |
+| uitgevoerd | boolean |  |
 | datumUitvoering | DateTime |  |
 | foto | Image |  |
 | locatie | Locatie |  |
-| opmerkingen | Text |  |
-| status | AN40 |  |
-| uitgevoerd | boolean |  |
 
 
 
@@ -528,7 +528,7 @@ Attributen van objecttype Melding
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-11-06 16:49:06 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_A888F22C_45E9_4494_BA66_533FB1F6C37E |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -562,7 +562,7 @@ Attributen van objecttype MeldingOngeval
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-11-15 15:09:50 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_30D5F6E6_DE8D_46b6_AC8A_6CA1391ADFF7 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -577,16 +577,16 @@ Attributen van objecttype MOOR-melding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| adresaanduiding |  |  |
 | datumAanmelding | DateTime |  |
-| datumGoedkeuring | DateTime |  |
+| wegbeheerder | AN80 |  |
+| adresaanduiding |  |  |
+| starttijd | DateTime |  |
 | eindtijd | DateTime |  |
+| datumGoedkeuring | DateTime |  |
+| publiceren | boolean |  |
 | goedgekeurd | boolean |  |
 | herstelwerkzaamhedenVereist | boolean |  |
 | omschrijvingHerstelwerkzaamheden | text |  |
-| publiceren | boolean |  |
-| starttijd | DateTime |  |
-| wegbeheerder | AN80 |  |
 | None | Class: "Opbreking" |  |
 
 
@@ -607,7 +607,7 @@ Attributen van objecttype MOOR-melding
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-11-13 15:56:08 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_053B594A_5E45_4413_9339_D2D026ECCE20 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -643,7 +643,7 @@ Attributen van objecttype Omgevingsvergunning
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-12-05 14:33:05 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_960BB2E0_C17F_4c89_90DD_3006CC5F0F75 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -677,7 +677,7 @@ Attributen van objecttype Onderhoud
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-12-05 14:55:35 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_1EBA6DEB_268D_4339_86C9_7C1BA218A7A0 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -711,7 +711,7 @@ Attributen van objecttype Opbreking
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-11-15 15:14:08 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_2587938E_CF7F_499b_BB21_9CB8BBCC1DD2 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -749,7 +749,7 @@ Attributen van objecttype Proces-verbaal-MOOR-melding
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-09-19 11:36:25 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_B011D584_1E66_4a21_A9C4_C922A8763AB2 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -783,7 +783,7 @@ Attributen van objecttype Schouwronde
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-12-10 22:05:13 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_0EF67A8B_AEBE_4a00_B1EF_2EFD0DCC9F5D |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -817,7 +817,7 @@ Attributen van objecttype Storing
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-11-07 09:52:55 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_0621D6BE_A680_4aad_890D_78684F2266B0 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -851,7 +851,7 @@ Attributen van objecttype Taak
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-11-15 15:15:53 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_BBE1DC54_1482_4650_BB7F_930DDB823E09 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -887,7 +887,7 @@ Attributen van objecttype Uitvoerder Graafwerkzaamheden
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-12-05 16:01:25 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_620FF102_974C_43a6_A6A0_79BB71E8580D |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -934,9 +934,9 @@ De enumeratie CROW-Kwaliteitsniveaus heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:13:10 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_503ACC2A_C721_4058_A44A_13126A0FC2DA |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -971,9 +971,9 @@ De enumeratie Energielabel heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:13:10 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_CC21861B_1CE6_4271_AF0C_CA68FEF0C880 |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -1009,9 +1009,9 @@ De enumeratie Oppervlakte Woning heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:13:10 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_5110C4A5_4771_4283_ADAB_04F9CB2D27BF |
 | domein_iv3 | None |
 | domein_dcat | None |

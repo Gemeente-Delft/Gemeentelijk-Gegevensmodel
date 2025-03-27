@@ -77,7 +77,7 @@ Het model 'Model ICT' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.4 |
 | created | 2019-01-10 11:40:16 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_446E3931_B9F2_4b5c_80E7_5B240B8F816F |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -111,7 +111,7 @@ Attributen van objecttype Aanvraag
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-10 11:33:53 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_A8945FD7_EA20_418e_8E7F_18F13F16E338 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -126,14 +126,14 @@ Attributen van objecttype Applicatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| applicatieURL | AN255 |  |
-| beheerstatus | int |  |
-| beleidsdomein | AN255 |  |
-| categorie | Enumeratie: "Applicatiecategorie" |  |
-| guid | guid |  |
 | naam | AN255 |  |
-| omschrijving | Text |  |
+| categorie | Enumeratie: "Applicatiecategorie" |  |
+| beheerstatus | int |  |
 | packagingstatus | int |  |
+| applicatieURL | AN255 |  |
+| guid | guid |  |
+| omschrijving | Text |  |
+| beleidsdomein | AN255 |  |
 | None | Class: "Versie" |  |
 | None | Class: "Leverancier" |  |
 | None | Class: "Document" |  |
@@ -162,7 +162,7 @@ Attributen van objecttype Applicatie
 | author | Arjen Brienen |
 | version | 1.4 |
 | created | 2019-01-15 10:57:58 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_8D273DE5_3529_4652_BCA1_F86B28F26017 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -177,17 +177,21 @@ Attributen van objecttype Attribuutsoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| authentiek | boolean |  |
-| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
+| naam | AN80 |  |
+| herkomst | AN80 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
 | definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
+| herkomstDefinitie | AN80 |  |
+| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
 | domein | AN80 | <i>Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i>
  |
-| ea_guid | guid |  |
-| herkomst | AN80 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
-| herkomstDefinitie | AN80 |  |
-| id | int |  |
-| identificerend | boolean | Aanduiding dat attribuutsoort onderdeel uitmaakt van de unieke aanduiding van een object |
-| indicatieAfleidbaar | boolean | Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten. |
+| lengte | AN40 | De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
+<i>Bijvoorbeeld:</i>
+<i>‘1’ als de lengte exact 1 is;</i>
+<i>‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99; |
+| patroon | AN40 | Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.
+De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.
+ |
+| toelichting | Text |  |
 | indicatieMaterieleHistorie | boolean | Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde. |
 | kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
 0..1: is soms niet beschikbaar
@@ -196,18 +200,14 @@ Attributen van objecttype Attribuutsoort
 meerdere malen voorkomen 1..*: is altijd beschikbaar, kan
 meerdere malen voorkomen
 Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
-| lengte | AN40 | De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
-<i>Bijvoorbeeld:</i>
-<i>‘1’ als de lengte exact 1 is;</i>
-<i>‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99; |
+| authentiek | boolean |  |
+| indicatieAfleidbaar | boolean | Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten. |
 | mogelijkGeenWaarde | boolean |  |
-| naam | AN80 |  |
-| patroon | AN40 | Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.
-De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.
- |
-| precisie | int |  |
+| identificerend | boolean | Aanduiding dat attribuutsoort onderdeel uitmaakt van de unieke aanduiding van een object |
+| id | int |  |
 | stereotype | AN40 |  |
-| toelichting | Text |  |
+| precisie | int |  |
+| ea_guid | guid |  |
 | None | Class: "Datatype" |  |
 
 
@@ -228,7 +228,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-10 14:51:23 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_81F207D0_A071_48c7_8C4C_25F8D25A3DE8 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -244,8 +244,8 @@ Attributen van objecttype Classificatie
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | bevatPersoonsgegevens | Persoonsgegevens |  |
-| gerelateerdPersoonsgegevens | Persoonsgegevens |  |
 | id | guid |  |
+| gerelateerdPersoonsgegevens | Persoonsgegevens |  |
 
 
 
@@ -265,7 +265,7 @@ Attributen van objecttype Classificatie
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-10 15:17:26 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_B027D022_41D9_4c63_A63D_8F5111689564 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -280,8 +280,8 @@ Attributen van objecttype CMDB-item
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| beschrijving | Text |  |
 | naam | AN255 |  |
+| beschrijving | Text |  |
 
 
 
@@ -301,7 +301,7 @@ Attributen van objecttype CMDB-item
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-10 11:48:48 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_FFD22E11_7A3A_459a_B575_928C67E8D1F3 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -316,12 +316,12 @@ Attributen van objecttype Database
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| architectuur | AN40 |  |
 | database | AN40 |  |
-| databaseVersie | AN40 |  |
-| DBMS | AN40 |  |
 | omschrijving | AN80 |  |
+| DBMS | AN40 |  |
+| architectuur | AN40 |  |
 | OTAP |  |  |
+| databaseVersie | AN40 |  |
 | vlan | AN40 |  |
 | None | Class: "Server" |  |
 
@@ -346,7 +346,7 @@ Attributen van objecttype Database
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-15 15:05:26 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_7EFBF1CA_EC6E_4b8a_B97F_453CA32AB9A5 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -361,13 +361,22 @@ Attributen van objecttype Datatype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
+| naam | AN255 |  |
+| herkomst | AN255 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
 | definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
+| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
 | domein | AN255 | <i>Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i>
  |
-| ea_guid | guid |  |
-| herkomst | AN255 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
+| lengte | AN40 | De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
+<i>Bijvoorbeeld:</i>
+<i>‘1’ als de lengte exact 1 is;</i>
+<i>‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99; |
+| patroon | AN40 | Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.
+De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.
+ |
+| toelichting | Text |  |
 | id | int |  |
+| ea_guid | guid |  |
 | kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
 0..1: is soms niet beschikbaar
 1 : is altijd beschikbaar
@@ -375,15 +384,6 @@ Attributen van objecttype Datatype
 meerdere malen voorkomen 1..*: is altijd beschikbaar, kan
 meerdere malen voorkomen
 Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
-| lengte | AN40 | De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
-<i>Bijvoorbeeld:</i>
-<i>‘1’ als de lengte exact 1 is;</i>
-<i>‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99; |
-| naam | AN255 |  |
-| patroon | AN40 | Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.
-De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.
- |
-| toelichting | Text |  |
 
 
 
@@ -403,7 +403,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-02-07 14:51:15 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_45AFD4E2_9909_4c33_93CE_F2466B85CA0F |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -441,7 +441,7 @@ Attributen van objecttype Dienst
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-02-07 14:40:39 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_BEFEC56A_EF6C_49f0_9368_7E46F75D9562 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -475,7 +475,7 @@ Attributen van objecttype Domein/Taakveld
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-10 14:50:29 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_144D1047_35BB_4926_9472_895D89DC2E0C |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -512,7 +512,7 @@ Attributen van objecttype Externe Bron
 | author | Arjen Brienen |
 | version | 1.7 |
 | created | 2019-01-10 14:50:41 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_E846CC36_DF4A_4398_AE4C_122CAFEBAEAA |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -527,12 +527,12 @@ Attributen van objecttype Gegeven
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| alias | AN255 |  |
-| ea_guid | guid |  |
 | id | int |  |
 | naam | AN255 |  |
-| stereotype | AN255 |  |
+| alias | AN255 |  |
 | toelichting | Text |  |
+| stereotype | AN255 |  |
+| ea_guid | guid |  |
 | None | Class: "Objecttype" |  |
 
 
@@ -557,7 +557,7 @@ Attributen van objecttype Gegeven
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-15 14:59:27 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_0CF1C34D_8AD5_4ac5_8538_87252E66A8C8 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -572,15 +572,15 @@ Attributen van objecttype Generalisatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
-| definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
-| ea_guid | guid |  |
-| herkomst | AN255 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
-| herkomstDefinitie | AN255 |  |
-| id | int |  |
-| indicatieMaterieleHistorie | boolean | Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde. |
 | naam | AN255 |  |
+| herkomst | AN255 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
+| definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
+| herkomstDefinitie | AN255 |  |
+| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
+| id | int |  |
+| ea_guid | guid |  |
 | toelichting | Text |  |
+| indicatieMaterieleHistorie | boolean | Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde. |
 
 
 
@@ -600,7 +600,7 @@ Attributen van objecttype Generalisatie
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-10 11:35:52 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_6C92F0F8_BC92_428c_B729_1A10D515DAEF |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -634,7 +634,7 @@ Attributen van objecttype Hardware
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-10 11:37:23 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_D0AB8CF6_F6CC_4337_BE07_DFE6B3CEFBB3 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -668,7 +668,7 @@ Attributen van objecttype Inventaris
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-10 11:49:07 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_AB7CF266_388F_413a_92D0_B2FA67C75633 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -683,8 +683,8 @@ Attributen van objecttype Koppeling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| beschrijving | AN200 |  |
 | direct | boolean |  |
+| beschrijving | AN200 |  |
 | toelichting | text |  |
 | None | Class: "Linkbaar CMDB-item" |  |
 
@@ -706,7 +706,7 @@ Attributen van objecttype Koppeling
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-10 11:36:55 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_2E5F9AF9_D1BA_4dc0_9621_4101D24B8ABD |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -740,7 +740,7 @@ Attributen van objecttype Licentie
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-10 16:32:50 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_C0F1A08E_C6CD_4524_A2E0_0E5CA483DCFD |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -775,7 +775,7 @@ Attributen van objecttype Linkbaar CMDB-item
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-10 11:49:38 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_5492ED6D_608E_465e_B975_BCADAAA3EE7F |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -790,9 +790,9 @@ Attributen van objecttype Log
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| tijd | DateTime |  |
 | korteOmschrijving | AN80 |  |
 | omschrijving | Text |  |
-| tijd | DateTime |  |
 
 
 
@@ -812,7 +812,7 @@ Attributen van objecttype Log
 | author | Arjen Brienen |
 | version | 1.4 |
 | created | 2019-01-10 11:38:45 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_6100B3C7_FBCE_434d_BA48_E067B9CF84A7 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -846,7 +846,7 @@ Attributen van objecttype Melding
 | author | Arjen Brienen |
 | version | 1.3 |
 | created | 2019-01-10 11:35:05 |
-| modified | 2024-11-21 08:38:12 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_DD277E82_0CA5_4460_918F_9178B5F01886 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -880,7 +880,7 @@ Attributen van objecttype Nertwerkcomponent
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-14 16:44:58 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_354E5545_D067_4b81_9D1D_C5F5FFB532C7 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -919,7 +919,7 @@ Attributen van objecttype Notitie
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-10 14:50:11 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_A2451674_6C19_4bf9_81F9_57CDE2F60144 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -934,21 +934,21 @@ Attributen van objecttype Objecttype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
-| definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
-| ea_guid | guid |  |
+| naam | AN255 |  |
 | herkomst | AN255 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
+| definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
 | herkomstDefinitie | AN255 |  |
-| id | int |  |
+| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
+| uniekeAanduiding | AN255 | Voor objecttypen die deel uitmaken van een (basis)registratie of informatiemodel betreft dit de wijze waarop daarin voorkomende objecten (van dit type) uniek in de registratie worden aangeduid. |
+| populatie | Text | Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)- registratie voorhanden zijn. |
+| kwaliteit | AN255 | Voor objecttypen die deel uitmaken van een registratie betreft dit de waarborgen voor de juistheid van de in de registratie opgenomen objecten van het desbetreffende type. |
+| toelichting | Text |  |
 | indicatieAbstract | boolean | Conceptueel model: indicatie dat het objecttype een generalisatie is,
 waarvan een object als specialisatie altijd voorkomt in de hoedanigheid van een (en slechts één) van de specialisaties van het betreffende objecttype.
 Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende objecttype mogen voorkomen. |
-| kwaliteit | AN255 | Voor objecttypen die deel uitmaken van een registratie betreft dit de waarborgen voor de juistheid van de in de registratie opgenomen objecten van het desbetreffende type. |
-| naam | AN255 |  |
-| populatie | Text | Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)- registratie voorhanden zijn. |
+| id | int |  |
 | stereotype | AN255 |  |
-| toelichting | Text |  |
-| uniekeAanduiding | AN255 | Voor objecttypen die deel uitmaken van een (basis)registratie of informatiemodel betreft dit de wijze waarop daarin voorkomende objecten (van dit type) uniek in de registratie worden aangeduid. |
+| ea_guid | guid |  |
 | None | Class: "Relatiesoort" |  |
 | supertype | Class: "Generalisatie" |  |
 | None | Class: "Attribuutsoort" |  |
@@ -971,7 +971,7 @@ Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende 
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-02-07 14:51:28 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_2AA9DB3B_D79C_490d_8776_DA1CB25E9B09 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1006,7 +1006,7 @@ Attributen van objecttype Onderwerp
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-14 16:49:18 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_ACE86CFF_D6D0_4cbd_8395_99BD763F1B37 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1022,9 +1022,9 @@ Attributen van objecttype Package
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | naam | AN80 |  |
+| status | AN40 |  |
 | proces | AN40 |  |
 | project | AN40 |  |
-| status | AN40 |  |
 | toelichting | Text |  |
 
 
@@ -1045,7 +1045,7 @@ Attributen van objecttype Package
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-02-07 14:45:09 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_F1489610_1E50_4328_8CD8_F41E9CE0C0D8 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1079,7 +1079,7 @@ Attributen van objecttype Prijzenboek
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-02-07 14:41:02 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_D5DD2F67_6A1F_46b0_972E_795ECC4B2E4F |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1121,7 +1121,7 @@ Attributen van objecttype Product
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-15 14:49:11 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_DFD2814E_7D36_45e2_B082_2ED574A409E1 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1136,14 +1136,12 @@ Attributen van objecttype Relatiesoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| authentiek | boolean |  |
-| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
-| definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
-| ea_guid | guid |  |
+| naam | AN80 |  |
 | herkomst | AN80 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
+| definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
 | herkomstDefinitie | AN80 |  |
-| id | int |  |
-| indicatieAfleidbaar | boolean | Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten. |
+| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
+| toelichting | Text |  |
 | indicatieMaterieleHistorie | boolean | Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde. |
 | kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
 0..1: is soms niet beschikbaar
@@ -1152,12 +1150,14 @@ Attributen van objecttype Relatiesoort
 meerdere malen voorkomen 1..*: is altijd beschikbaar, kan
 meerdere malen voorkomen
 Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
-| mogelijkGeenWaarde | boolean |  |
-| naam | AN80 |  |
-| toelichting | Text |  |
+| authentiek | boolean |  |
 | unidirectioneel | AN40 | Het gerelateerde objecttype (de target) waarvan het objecttype, die de eigenaar is van deze relatie (de source), kennis heeft.
 Alle relaties zijn altijd gericht van het objecttype (source) naar het gerelateerde objecttype (target).
  |
+| id | int |  |
+| indicatieAfleidbaar | boolean | Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten. |
+| ea_guid | guid |  |
+| mogelijkGeenWaarde | boolean |  |
 
 
 
@@ -1177,7 +1177,7 @@ Alle relaties zijn altijd gericht van het objecttype (source) naar het gerelatee
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-10 11:34:53 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_3AFD7E5F_8061_4776_A332_334AF4125E7D |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1192,14 +1192,14 @@ Attributen van objecttype Server
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| actief | boolean |  |
-| IPAdres | AN40 |  |
-| locatie | AN40 |  |
-| organisatie | AN80 |  |
-| serienummer | AN40 |  |
 | serverID | AN20 |  |
+| organisatie | AN80 |  |
 | servertype | Enumeratie: "Servertypes" |  |
+| IPAdres | AN40 |  |
 | vlan | AN40 |  |
+| serienummer | AN40 |  |
+| locatie | AN40 |  |
+| actief | boolean |  |
 | None | Class: "Leverancier" |  |
 
 
@@ -1220,7 +1220,7 @@ Attributen van objecttype Server
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-10 11:36:22 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_0B3C37DD_42A1_4b6b_B534_CD276112FD3B |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1254,7 +1254,7 @@ Attributen van objecttype Software
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-10 11:40:28 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_4E5F272E_00CA_481c_A51B_7D08B5E6B0A9 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1288,7 +1288,7 @@ Attributen van objecttype Storing
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-10 11:37:09 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_DDD2167F_4A0F_468b_894E_6BB9ED9DA5E0 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1322,7 +1322,7 @@ Attributen van objecttype Telefoniegegevens
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-10 11:37:51 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_D67A4AC2_9A17_4cd0_82D7_732A89018FDA |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1356,7 +1356,7 @@ Attributen van objecttype Toegangsmiddel
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-14 16:36:00 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_39445166_1EAB_43f8_9F5C_89EA606605EE |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1371,12 +1371,12 @@ Attributen van objecttype Versie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantal | int |  |
-| datumEindeSupport | Date |  |
-| kosten | Bedrag |  |
-| licentie | AN40 |  |
-| status | AN40 |  |
 | versienummer | AN8 |  |
+| status | AN40 |  |
+| datumEindeSupport | Date |  |
+| licentie | AN40 |  |
+| aantal | int |  |
+| kosten | Bedrag |  |
 
 
 
@@ -1396,7 +1396,7 @@ Attributen van objecttype Versie
 | author | Arjen Brienen |
 | version | 1.4 |
 | created | 2019-01-10 11:37:36 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_E8C75DAB_F9AE_4fe2_9114_870434F2EA80 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1430,7 +1430,7 @@ Attributen van objecttype Vervoersmiddel
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-01-10 11:40:46 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_EFBF46D1_6A51_44fd_BAEA_47BCDFEEE27A |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1478,9 +1478,9 @@ De enumeratie Applicatiecategorie heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:13:13 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_A030D866_E2E7_4854_ACFD_C62DB3ABDA38 |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -1515,9 +1515,9 @@ De enumeratie Beheerstatus heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:13:13 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_1FCBFA1B_2703_4ece_A496_EA668AEFCDCD |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -1551,9 +1551,9 @@ De enumeratie Gebruikerrol heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:13:13 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_262A7A23_0CBB_4991_A1B2_D5D3E509549C |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -1588,9 +1588,9 @@ De enumeratie Packagingstatus heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:13:13 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_C0031024_173A_47d6_9BF4_F22941AA7807 |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -1621,9 +1621,9 @@ De enumeratie Servertypes heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:13:13 |
+| modified | 2025-03-26 16:14:46 |
 | id | EAID_BA2C3918_278E_49c7_A8C5_423F2D659450 |
 | domein_iv3 | None |
 | domein_dcat | None |

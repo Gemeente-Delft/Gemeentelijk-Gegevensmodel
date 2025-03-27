@@ -51,7 +51,7 @@ Het model 'Model Generiek' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-09 14:47:49 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:50 |
 | id | EAID_7FE4B466_B051_4068_9ED1_6E60C3B2DBAD |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -66,13 +66,13 @@ Attributen van objecttype Foto
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bestandsgrootte | int | Bestandsgrootte in bytes |
 | bestandsnaam | AN200 |  |
 | bestandstype | AN80 |  |
 | datumtijd | DateTime |  |
-| locatie | GML |  |
+| bestandsgrootte | int | Bestandsgrootte in bytes |
 | pixelsX | int |  |
 | pixelsY | int |  |
+| locatie | GML |  |
 | None | Class: "Erfgoed Object" |  |
 
 
@@ -93,7 +93,7 @@ Attributen van objecttype Foto
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-10-22 09:39:03 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:50 |
 | id | EAID_0303A7A4_EF51_4262_AEE0_642FA5064807 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -128,7 +128,7 @@ Attributen van objecttype Gebied
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-10-22 09:40:17 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:50 |
 | id | EAID_85E3996B_578D_4313_B078_2773F98412D9 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -163,7 +163,7 @@ Attributen van objecttype Gebiedengroep
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-10-22 09:38:52 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:50 |
 | id | EAID_FAB83AD1_DC8C_4f78_B54F_33466EB9B139 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -198,7 +198,7 @@ Attributen van objecttype Lijn
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-10-22 09:40:05 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:50 |
 | id | EAID_CD06432A_B69D_4ab2_A5B0_C4C3092835A0 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -233,7 +233,7 @@ Attributen van objecttype Lijnengroep
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-10-22 09:37:55 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:50 |
 | id | EAID_79284529_B817_4e3f_BE51_AEAFC60BDE44 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -248,8 +248,8 @@ Attributen van objecttype Locatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| hoogte | int | Hoogte in meters. Negatief is onder het maaiveld en positief boven het maaiveld |
 | naam | AN200 |  |
+| hoogte | int | Hoogte in meters. Negatief is onder het maaiveld en positief boven het maaiveld |
 | NEN3610ID | AN80 |  |
 
 
@@ -270,7 +270,7 @@ Attributen van objecttype Locatie
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-10-22 09:38:45 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:50 |
 | id | EAID_20437683_6777_4c7b_B44B_1E3A216239AA |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -305,7 +305,7 @@ Attributen van objecttype Punt
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-10-22 09:39:56 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:50 |
 | id | EAID_4C0C5DDB_E5BA_42a0_BA5B_65E2D433B16C |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -340,7 +340,7 @@ Attributen van objecttype Puntengroep
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-16 16:20:58 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:50 |
 | id | EAID_435883D2_C399_4590_B4F5_B07111103484 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -355,10 +355,10 @@ Attributen van objecttype Video-opname
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bestandsgrootte | int |  |
 | datumtijd | DateTime |  |
 | lengte | int |  |
 | videoformaat | AN80 |  |
+| bestandsgrootte | int |  |
 | None | Class: "Erfgoed Object" |  |
 | None | Class: "Agendapunt" |  |
 | None | Class: "Vergadering" |  |

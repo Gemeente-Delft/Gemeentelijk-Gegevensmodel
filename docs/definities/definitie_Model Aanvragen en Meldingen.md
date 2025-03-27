@@ -51,7 +51,7 @@ Het model 'Model Aanvragen en Meldingen' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-09-23 13:44:30 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_FB771E02_8FE3_496b_B99B_CF4A496A7B80 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -85,7 +85,7 @@ Attributen van objecttype Bevoegd Gezag
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-09-23 13:30:23 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_02BDED5E_9106_4aed_94C2_513689353284 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -120,7 +120,7 @@ Attributen van objecttype Gemachtigde
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-09-23 13:29:40 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_E38BEAEF_03C4_439b_8A64_663886C1D6F9 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -154,7 +154,7 @@ Attributen van objecttype Initiatiefnemer
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-09-23 14:13:19 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_E1FAE16A_42AE_4b7d_88FC_F429079D1C4D |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -192,7 +192,7 @@ Attributen van objecttype Project
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-09-23 14:16:27 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_B31B867F_061E_42d4_AB8A_DB5589602969 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -227,7 +227,7 @@ Attributen van objecttype Projectactiviteit
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-09-23 14:13:34 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_D60910E1_6E36_4ebb_9687_2D2B1CE66E0B |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -266,7 +266,7 @@ Attributen van objecttype Projectlocatie
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-09-23 13:54:41 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_DF63FBD0_DCA2_45bd_81E8_EE5E72D38EDE |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -284,8 +284,8 @@ Attributen van objecttype Specificatie
 | antwoord | An200 |  |
 | groepering | AN200 |  |
 | publiceerbaar | Boolean |  |
-| vraagClassificatie | Enumeratie: "Vraag Classificatie" |  |
 | vraagID | AN80 |  |
+| vraagClassificatie | Enumeratie: "Vraag Classificatie" |  |
 | vraagreferentie | AN200 |  |
 | vraagtekst | text |  |
 | None | Class: "Projectactiviteit" |  |
@@ -308,7 +308,7 @@ Attributen van objecttype Specificatie
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-09-23 13:44:45 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_1B3A22D3_E2BA_440a_A2FD_B3D322FB1171 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -343,7 +343,7 @@ Attributen van objecttype Uitvoerende instantie
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-09-23 13:29:00 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_B18119D9_5BF8_498f_B9D3_ECCE7A770012 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -360,8 +360,8 @@ Attributen van objecttype Verzoek
 | :--- | :--- | :--- |
 | akkoordverklaring | boolean |  |
 | ambtshalve | boolean |  |
-| datumIndiening | Date |  |
 | doel | Enumeratie: "Doel verzoek" |  |
+| datumIndiening | Date |  |
 | naam | AN200 |  |
 | referentieAanvrager | AN200 |  |
 | toelichtingLaterAanTeLeverenInformatie | text |  |
@@ -411,9 +411,9 @@ De enumeratie Doel verzoek heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:13:11 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_77B7DFE0_3E30_482d_AED9_F08D78E293E5 |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -449,9 +449,9 @@ De enumeratie Type Verzoek heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:13:11 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_AC018290_7C62_49bd_A664_8A578EE97AFE |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -485,9 +485,9 @@ De enumeratie Vraag Classificatie heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:13:11 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_0B7DA4A7_C2D9_45c8_B957_94DFFB63FA25 |
 | domein_iv3 | None |
 | domein_dcat | None |

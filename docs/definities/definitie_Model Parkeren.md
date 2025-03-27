@@ -55,7 +55,7 @@ Het model 'Model Parkeren' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-02-13 15:52:28 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_6C283ABA_C1A3_465b_B267_39E75D06E41F |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -90,7 +90,7 @@ Attributen van objecttype Belprovider
 | author | Arjen Brienen |
 | version | 1.6 |
 | created | 2019-02-18 14:18:39 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_4EA4D754_FAD7_4caf_8060_342689EC16FE |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -105,21 +105,21 @@ Attributen van objecttype MulderFeit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bedrag | Bedrag |  |
-| bezwaarAfgehandeld | Date |  |
-| bezwaarIngetrokken | Date |  |
-| bezwaarToegewezen | Date |  |
 | bonnummer | int |  |
-| datumBetaling | Date |  |
-| datumBezwaar | Date |  |
-| datumGeseponeerd | Date |  |
-| datumIndiening | Date |  |
-| dienstCD | AN40 |  |
-| organisatie | AN200 |  |
 | overtreding | AN80 |  |
-| parkeertarief | Bedrag |  |
-| redenSeponeren | AN300 |  |
 | vorderingnummer | int |  |
+| dienstCD | AN40 |  |
+| bedrag | Bedrag |  |
+| parkeertarief | Bedrag |  |
+| datumBezwaar | Date |  |
+| bezwaarToegewezen | Date |  |
+| bezwaarIngetrokken | Date |  |
+| bezwaarAfgehandeld | Date |  |
+| datumGeseponeerd | Date |  |
+| datumBetaling | Date |  |
+| datumIndiening | Date |  |
+| redenSeponeren | AN300 |  |
+| organisatie | AN200 |  |
 | None | Class: "Voertuig" |  |
 
 
@@ -140,7 +140,7 @@ Attributen van objecttype MulderFeit
 | author | Arjen Brienen |
 | version | 1.4 |
 | created | 2019-02-13 16:05:29 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_4957AC99_3F36_4959_A210_9EC6759B87F8 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -155,22 +155,22 @@ Attributen van objecttype Naheffing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bedrag | Bedrag |  |
-| bezwaarAfgehandeld | Date |  |
-| bezwaarIngetrokken | Date |  |
-| bezwaarToegewezen | Date |  |
 | bonnummer | int |  |
-| datumBetaling | Date |  |
-| datumBezwaar | Date |  |
-| datumGeseponeerd | Date |  |
-| datumIndiening | Date |  |
+| overtreding | AN80 |  |
+| vorderingnummer | int |  |
 | dienstCD | AN40 |  |
 | fiscaal | boolean |  |
-| organisatie | AN200 |  |
-| overtreding | AN80 |  |
+| bedrag | Bedrag |  |
 | parkeertarief | Bedrag |  |
+| datumBezwaar | Date |  |
+| bezwaarToegewezen | Date |  |
+| bezwaarIngetrokken | Date |  |
+| bezwaarAfgehandeld | Date |  |
+| datumGeseponeerd | Date |  |
+| datumBetaling | Date |  |
+| datumIndiening | Date |  |
 | redenSeponeren | AN300 |  |
-| vorderingnummer | int |  |
+| organisatie | AN200 |  |
 
 
 
@@ -190,7 +190,7 @@ Attributen van objecttype Naheffing
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-02-14 16:11:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_8F492648_6EF2_4f8a_87C9_2440230D4137 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -224,7 +224,7 @@ Attributen van objecttype Parkeergarage
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-02-13 14:32:45 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_9E0936E5_6B50_4205_BA5D_FEB80486D6F1 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -239,13 +239,13 @@ Attributen van objecttype Parkeerrecht
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanmaaktijd | DateTime |  |
-| bedragAankoop | Bedrag | Bedrag incl. BTW |
-| bedragBTW | Bedrag |  |
-| datumtijdEinde | DateTime |  |
 | datumtijdStart | DateTime |  |
+| datumtijdEinde | DateTime |  |
+| aanmaaktijd | DateTime |  |
 | productnaam | AN80 |  |
 | productomschrijving | Text |  |
+| bedragAankoop | Bedrag | Bedrag incl. BTW |
+| bedragBTW | Bedrag |  |
 | None | Class: "Voertuig" |  |
 | None | Class: "Perkeerzone" |  |
 
@@ -267,7 +267,7 @@ Attributen van objecttype Parkeerrecht
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-02-13 14:50:52 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_653EEEA7_ED82_427d_BD72_86C847793AD6 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -282,14 +282,14 @@ Attributen van objecttype Parkeerscan
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| codeGebruiker | AN40 |  |
+| transactieID | AN40 |  |
 | codeScanvoertuig | AN40 |  |
-| coordinaten | GML |  |
-| foto | BLOB |  |
+| codeGebruiker | AN40 |  |
 | kenteken | AN12 |  |
+| coordinaten | GML |  |
 | parkeerrecht | boolean |  |
 | tijdstip | DateTime |  |
-| transactieID | AN40 |  |
+| foto | BLOB |  |
 | None | Class: "Medewerker" |  |
 | None | Class: "Voertuig" |  |
 | None | Class: "Parkeervlak" |  |
@@ -313,7 +313,7 @@ Attributen van objecttype Parkeerscan
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-03-21 11:47:02 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_FF448272_AB9D_4ec9_B4BE_E60E2552817A |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -328,15 +328,15 @@ Attributen van objecttype Parkeervergunning
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| nummer | int |  |
+| type | AN40 |  |
+| datumStart | DateTime |  |
 | datumEindeGeldigheid | DateTime |  |
 | datumReservering | Date |  |
-| datumStart | DateTime |  |
-| kenteken | AN12 |  |
 | minutenAfgeschreven | int |  |
 | minutenGeldig | int |  |
 | minutenResterend | int |  |
-| nummer | int |  |
-| type | AN40 |  |
+| kenteken | AN12 |  |
 | None | Class: "Parkeerrecht" |  |
 | None | Class: "Perkeerzone" |  |
 | None | Class: "Productgroep" |  |
@@ -360,7 +360,7 @@ Attributen van objecttype Parkeervergunning
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-02-13 14:43:35 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_5E5C58AD_1634_4656_A183_EBA00F18F30E |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -375,12 +375,12 @@ Attributen van objecttype Parkeervlak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantal | int |  |
-| coordinaten | GML |  |
-| doelgroep | Enumeratie: "Doelgroepenplaatsen" |  |
-| fiscaal | boolean |  |
-| plaats | AN200 |  |
 | vlakID | AN40 |  |
+| doelgroep | Enumeratie: "Doelgroepenplaatsen" |  |
+| plaats | AN200 |  |
+| coordinaten | GML |  |
+| fiscaal | boolean |  |
+| aantal | int |  |
 
 
 
@@ -400,7 +400,7 @@ Attributen van objecttype Parkeervlak
 | author | Arjen Brienen |
 | version | 1.7 |
 | created | 2019-02-13 14:33:20 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_27219A32_3B52_4f54_AA67_A972F4B7D9D0 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -415,25 +415,25 @@ Attributen van objecttype Perkeerzone
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalParkeervlakken | int |  |
-| alleenDagtarief | boolean |  |
-| dagtarief | Bedrag |  |
-| eindedag | AN20 |  |
-| eindtijd | int |  |
-| gebruik | AN250 |  |
 | geometrie | Multivlak |  |
-| IPMCode | AN40 |  |
-| IPMNaam | AN250 |  |
 | naam | AN250 |  |
-| parkeergarage | boolean |  |
 | sectorcode | AN40 |  |
-| soortCode | An40 |  |
-| startdag | AN20 |  |
-| starttarief | Bedrag |  |
-| starttijd | int |  |
 | typeCode | AN40 |  |
 | typeNaam | AN250 |  |
+| soortCode | An40 |  |
+| IPMCode | AN40 |  |
+| IPMNaam | AN250 |  |
+| gebruik | AN250 |  |
+| aantalParkeervlakken | int |  |
+| alleenDagtarief | boolean |  |
 | uurtarief | Bedrag |  |
+| dagtarief | Bedrag |  |
+| starttarief | Bedrag |  |
+| startdag | AN20 |  |
+| eindedag | AN20 |  |
+| starttijd | int |  |
+| eindtijd | int |  |
+| parkeergarage | boolean |  |
 
 
 
@@ -453,7 +453,7 @@ Attributen van objecttype Perkeerzone
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-02-14 14:26:09 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_209ACADD_34C7_4dc8_90AD_C6B3E092FBFD |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -468,9 +468,9 @@ Attributen van objecttype Productgroep
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| beslisboom | AN250 |  |
 | code | AN40 |  |
 | omschrijving | AN250 |  |
+| beslisboom | AN250 |  |
 
 
 
@@ -490,7 +490,7 @@ Attributen van objecttype Productgroep
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-02-14 15:08:29 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_1CB4051D_B78A_48f0_AE3E_A98D997A5612 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -528,7 +528,7 @@ Attributen van objecttype Productsoort
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-02-13 14:46:01 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_339ACCD5_1D13_4a48_83DE_05A0A4A54C43 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -565,7 +565,7 @@ Attributen van objecttype Straatsectie
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-02-13 14:31:44 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_6AD98160_FFE6_4105_A724_5D5733C87CD8 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -581,10 +581,10 @@ Attributen van objecttype Voertuig
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | kenteken | AN12 |  |
-| kleur | AN200 |  |
-| land | AN200 |  |
 | merk | AN200 |  |
+| kleur | AN200 |  |
 | type | AN200 |  |
+| land | AN200 |  |
 
 
 
@@ -620,9 +620,9 @@ De enumeratie Doelgroepenplaatsen heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:12:43 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_F8ADD9AF_76C0_425c_B059_18BB0AA20D28 |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -653,9 +653,9 @@ De enumeratie Zonesoort heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:12:43 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_5DD4AE03_667C_45b9_A46A_320077AC2926 |
 | domein_iv3 | None |
 | domein_dcat | None |

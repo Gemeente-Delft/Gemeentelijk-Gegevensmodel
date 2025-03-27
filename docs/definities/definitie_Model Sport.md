@@ -51,7 +51,7 @@ Het model 'Model Sport' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-07-11 15:31:28 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_9E01AD8B_D856_4a58_9CE1_06C70F628350 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -86,7 +86,7 @@ Attributen van objecttype Belijning
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-07-08 17:08:46 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_D9F56210_BF72_42e4_A1BC_AD7F683D55A0 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -120,7 +120,7 @@ Attributen van objecttype Bezetting
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-07-08 17:08:39 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_6508657D_7C3F_4261_B647_5D3B077A20F9 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -135,18 +135,20 @@ Attributen van objecttype Binnenlocatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| adres | Adresaanduiding |  |
 | bouwjaar | N4 |  |
-| gemeentelijk | boolean |  |
-| geschatteKostenPerJaar | Bedrag |  |
-| gymzaal | Boolean |  |
+| vloeroppervlakte | int |  |
 | klokurenOnderwijs | double | Aantal klokuren per week |
 | klokurenVerenigingen | double | aantal klokuren per week |
-| locatie | GML |  |
-| onderhoudsniveau | AN80 |  |
 | onderhoudsstatus | int |  |
+| onderhoudsniveau | AN80 |  |
+| geschatteKostenPerJaar | Bedrag |  |
+| locatie | GML |  |
+| adres | Adresaanduiding |  |
 | sporthal | Boolean |  |
-| vloeroppervlakte | int |  |
+| gymzaal | Boolean |  |
+| gemeentelijk | boolean |  |
+| None | Class: "Verblijfsobject" |  |
+| None | Class: "Wijk" |  |
 | None | Class: "Sportmateriaal" |  |
 | None | Class: "Verblijfsobject" |  |
 | None | Class: "Wijk" |  |
@@ -170,7 +172,7 @@ Attributen van objecttype Binnenlocatie
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-07-08 17:11:34 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_5C8F7563_D1FF_4622_8565_F48A1BCAB9E3 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -204,7 +206,7 @@ Attributen van objecttype Onderhoudskosten
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-07-11 16:32:05 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_BE5E10D0_FD83_4b0a_B5D2_4A7EE6B9C53B |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -239,7 +241,7 @@ Attributen van objecttype Sportlocatie
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-07-11 15:31:36 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_5B64A5F8_64B5_4d1b_BEDD_486ED2C2C493 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -274,7 +276,7 @@ Attributen van objecttype Sportmateriaal
 | author | Arjen Brienen |
 | version | 1.4 |
 | created | 2019-07-08 17:08:51 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_FE1A2EF2_44FA_46fa_A583_7BAB858E17FD |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -310,7 +312,7 @@ Attributen van objecttype Sportpark
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-07-08 17:08:29 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_852AD372_B353_49c2_A4E7_F87D8AA96AD7 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -325,14 +327,14 @@ Attributen van objecttype Sportvereniging
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalNormTeams | double |  |
-| adres | Adresaanduiding |  |
+| naam | AN200 |  |
+| typeSport | An200 |  |
 | binnensport | boolean |  |
 | buitensport | boolean |  |
 | email | AN80 |  |
+| adres | Adresaanduiding |  |
 | ledenaantal | int |  |
-| naam | AN200 |  |
-| typeSport | An200 |  |
+| aantalNormTeams | double |  |
 | None |  |  |
 | None | Class: "Sportlocatie" |  |
 
@@ -354,7 +356,7 @@ Attributen van objecttype Sportvereniging
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-07-08 17:08:54 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_D1889096_CC76_48a8_A9DF_8151FFF1E0AC |
 | domein_iv3 |  |
 | domein_dcat |  |

@@ -47,10 +47,10 @@ Het model 'Model Museum' heeft de volgende kenmerken:
 | synoniemen |  |
 | uri |  |
 | bron |  |
-| author | Arjen |
-| version | 1.0 |
+| author | Arjen Brienen |
+| version | 1.1 |
 | created | 2019-08-12 10:54:01 |
-| modified | 2023-11-13 11:14:13 |
+| modified | 2025-03-26 16:52:10 |
 | id | EAPK_BC31E8F4_1A54_4d7a_A3D5_C9B72022BBD9 |
 
 
@@ -72,7 +72,7 @@ Het model 'Model Museum' heeft de volgende kenmerken:
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-12 13:24:51 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_A1C60F39_3074_4d1c_A37D_5F431F54DF92 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -80,16 +80,16 @@ Het model 'Model Museum' heeft de volgende kenmerken:
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-b9283c74-797a-4a79-83a7-ca5619ef8b1d](https://gemmaonline.nl/index.php/GEMMA/id-b9283c74-797a-4a79-83a7-ca5619ef8b1d) |
 | gemma_definitie | Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd. |
-| gemma_toelichting | Bijvoorbeeld: het lozen van afvalwater, het bouwen van hoogbouw, het exploiteren van een jachthaven. Het objecttype activiteit is een typering van alle activiteiten die bijvoorbeeld een initiatiefnemer kan uitvoeren in de leefomgeving. Er wordt geen specifieke activiteit bedoeld die een specifieke initiatiefnemer voornemens is om uit te voeren, maar het type activiteit waarover regels opgesteld zijn. |
+| gemma_toelichting | Bijvoorbeeld: het lozen van afvalwater, het bouwen van hoogbouw, het exploiteren van een jachthaven. Het objecttype activiteit is een typering van alle activiteiten die bijvoorbeeld een initiatiefnemer kan uitvoeren in de leefomgeving. Er wordt geen speci |
 
 
 Attributen van objecttype Activiteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalPersonen | int |  |
 | naam | AN80 |  |
 | omschrijving | Text |  |
+| aantalPersonen | int |  |
 | None | Class: "Rondleiding" |  |
 | None | Class: "Activiteit" |  |
 | None | Class: "Activiteitsoort" |  |
@@ -112,7 +112,7 @@ Attributen van objecttype Activiteit
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-12 13:25:49 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_D77AB8CF_E4B1_49fd_BE78_FE358FF76F13 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -148,7 +148,7 @@ Attributen van objecttype Activiteitsoort
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-12 10:59:59 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_EA2D32A2_5ED5_45c8_AC33_57C35981B3BC |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -163,9 +163,9 @@ Attributen van objecttype Balieverkoop
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantal | int |  |
-| kanaal | AN80 | Verkocht via kassa, online of ander kanaal |
 | verkooptijd | DateTime |  |
+| kanaal | AN80 | Verkocht via kassa, online of ander kanaal |
+| aantal | int |  |
 | None | Class: "Prijs" |  |
 | None | Class: "Product" |  |
 
@@ -187,7 +187,7 @@ Attributen van objecttype Balieverkoop
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-12 10:59:43 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_90E24064_EBB7_4ffc_9640_F7C31678899F |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -202,10 +202,10 @@ Attributen van objecttype Balieverkoop Entreekaart
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumEindeGeldigheid | DateTime |  |
-| datumStart | DateTime |  |
-| gebruiktOp | DateTime |  |
 | rondleiding | Boolean |  |
+| datumStart | DateTime |  |
+| datumEindeGeldigheid | DateTime |  |
+| gebruiktOp | DateTime |  |
 
 
 
@@ -225,7 +225,7 @@ Attributen van objecttype Balieverkoop Entreekaart
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-15 14:07:35 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_576642BA_9AF9_42fc_831A_F9D3138F20FC |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -261,7 +261,7 @@ Attributen van objecttype Belanghebbende
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-15 09:07:44 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_452312FD_05FB_4abc_A48B_C605F7E3E193 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -276,10 +276,10 @@ Attributen van objecttype Bruikleen
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanvraagDoor | AN80 |  |
 | datumAanvraag | Date |  |
-| datumEinde | Date |  |
 | datumStart | Date |  |
+| datumEinde | Date |  |
+| aanvraagDoor | AN80 |  |
 | toestemmingDoor | AN80 |  |
 | None | Class: "Tentoonstelling" |  |
 | None | Class: "Lener" |  |
@@ -303,7 +303,7 @@ Attributen van objecttype Bruikleen
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-15 09:06:40 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_6DC28A18_DF54_4b92_A592_5F717935CA67 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -339,7 +339,7 @@ Attributen van objecttype Collectie
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-12 13:25:14 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_0598561F_667E_4926_9BF5_66A928358E9F |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -354,9 +354,9 @@ Attributen van objecttype Doelgroep
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| branch | AN80 |  |
 | naam | AN80 |  |
 | omschrijving | Text |  |
+| branch | AN80 |  |
 | segment | AN80 |  |
 | None | Class: "Doelgroep" |  |
 
@@ -378,7 +378,7 @@ Attributen van objecttype Doelgroep
 | author | Arjen |
 | version | 1.4 |
 | created | 2019-08-12 11:40:09 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_E46CB962_A2BC_4656_A0C1_D7DBCCA0C528 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -413,7 +413,7 @@ Attributen van objecttype Entreekaart
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-15 09:10:20 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_CE85A5E9_AD75_40e7_8EBF_A484E4CBEEDC |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -428,10 +428,10 @@ Attributen van objecttype Incident
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datum | Date |  |
-| locatie | AN300 |  |
 | naam | AN80 |  |
 | omschrijving | Text |  |
+| datum | Date |  |
+| locatie | AN300 |  |
 | None | Class: "Museumobject" |  |
 
 
@@ -452,7 +452,7 @@ Attributen van objecttype Incident
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-15 09:10:04 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_68C42EEA_6985_483e_99E6_E0F1FB71D622 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -487,7 +487,7 @@ Attributen van objecttype Lener
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-12 13:23:59 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_48BCF2C2_609C_4e4c_991E_8BDA80E0C7C7 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -502,9 +502,9 @@ Attributen van objecttype Mailing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datum | Date |  |
 | naam | AN80 |  |
 | omschrijving | Text |  |
+| datum | Date |  |
 | None | Class: "Museumrelatie" |  |
 
 
@@ -525,14 +525,14 @@ Attributen van objecttype Mailing
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-15 09:06:54 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_BBCF9DBE_70AD_431c_B698_7F0D69D07050 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Museumobject |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-e963434a-50be-4619-b041-58689adc00de](https://gemmaonline.nl/index.php/GEMMA/id-e963434a-50be-4619-b041-58689adc00de) |
-| gemma_definitie | Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht. |
+| gemma_definitie | Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roeren |
 | gemma_toelichting |  |
 
 
@@ -540,11 +540,11 @@ Attributen van objecttype Museumobject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| afmeting | AN300 | Omschrijving van afmeting |
-| bezitTot | Date |  |
-| bezitVanaf | Date |  |
-| medium | AN300 | Materiaal waarvan object is vervaardigd |
 | verkrijging | AN300 | Hoe en via wie object is verkregen. Informatie uit de Constituents-tabel.  |
+| medium | AN300 | Materiaal waarvan object is vervaardigd |
+| afmeting | AN300 | Omschrijving van afmeting |
+| bezitVanaf | Date |  |
+| bezitTot | Date |  |
 | None | Class: "Belanghebbende" |  |
 | None | Class: "Tentoonstelling" |  |
 | None | Class: "Standplaats" |  |
@@ -567,7 +567,7 @@ Attributen van objecttype Museumobject
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-12 13:23:49 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_C73389B7_7BCD_4496_888B_6ABEE9DE01FB |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -603,7 +603,7 @@ Attributen van objecttype Museumrelatie
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-12 11:00:37 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_2A7D73D7_87EA_4b61_88BB_F061DDBF52D9 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -639,7 +639,7 @@ Attributen van objecttype Omzetgroep
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-12 11:21:18 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_BF7BAB5F_7025_4792_8288_47F5B1C53E95 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -655,8 +655,8 @@ Attributen van objecttype Prijs
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | bedrag | Bedrag |  |
-| datumEindeGeldigheid | Datum |  |
 | datumStart | Datum |  |
+| datumEindeGeldigheid | Datum |  |
 
 
 
@@ -676,7 +676,7 @@ Attributen van objecttype Prijs
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-12 10:56:04 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_FF566C6B_077B_4914_8AF7_40EB1EDD388A |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -691,12 +691,12 @@ Attributen van objecttype Product
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| codeMuseumjaarkaart | AN40 |  |
-| datumEindeGeldigheid | Datum |  |
-| datumStart | Datum |  |
-| entreekaart | int |  |
 | omschrijving | AN80 |  |
 | prijs | Bedrag |  |
+| datumStart | Datum |  |
+| datumEindeGeldigheid | Datum |  |
+| codeMuseumjaarkaart | AN40 |  |
+| entreekaart | int |  |
 | None | Class: "Prijs" |  |
 | None | Class: "Productgroep" |  |
 | None | Class: "Omzetgroep" |  |
@@ -720,7 +720,7 @@ Attributen van objecttype Product
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-12 11:00:54 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_42EBA101_3E51_46d5_A234_EC7BA991D3AF |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -756,7 +756,7 @@ Attributen van objecttype Productgroep
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-12 13:25:37 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_D3EF17C3_8100_4a61_9E67_F20924C15CEA |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -791,14 +791,14 @@ Attributen van objecttype Productie-eenheid
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-12 13:23:12 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_3B84D5F0_FCA3_47a5_B90C_F0834DAD6EBD |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Programma |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-04bc18ef-7530-4fd3-82e4-2503e9229bbe](https://gemmaonline.nl/index.php/GEMMA/id-04bc18ef-7530-4fd3-82e4-2503e9229bbe) |
-| gemma_definitie | Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co√∂rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie. |
+| gemma_definitie | Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co√∂rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresulta |
 | gemma_toelichting |  |
 
 
@@ -806,15 +806,15 @@ Attributen van objecttype Programma
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| BTW | AN8 |  |
-| eindtijd | DateTime |  |
-| locatie | AN80 |  |
 | naam | AN80 |  |
 | omschrijving | Text |  |
+| starttijd | DateTime |  |
+| eindtijd | DateTime |  |
 | prijsExclusiefBTW | bedrag |  |
+| BTW | AN8 |  |
+| locatie | AN80 |  |
 | publiekstaak | AN80 |  |
 | schoolniveau | AN80 |  |
-| starttijd | DateTime |  |
 | None | Class: "Activiteit" |  |
 | None | Class: "Programmasoort" |  |
 | None | Class: "Kostenplaats" |  |
@@ -838,7 +838,7 @@ Attributen van objecttype Programma
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-12 13:26:00 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_43EF5733_B976_4f21_9906_5349FD861BB5 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -874,7 +874,7 @@ Attributen van objecttype Programmasoort
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-14 15:02:48 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_11AB7925_5C96_4615_92F6_4055935221A0 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -890,10 +890,10 @@ Attributen van objecttype Reservering
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | aantal | int |  |
-| BTW | AN8 |  |
-| tijdTot | Datetime |  |
 | tijdVanaf | Datetime |  |
+| tijdTot | Datetime |  |
 | totaalprijs | bedrag | Bedrah exclusief BTW |
+| BTW | AN8 |  |
 | None | Class: "Voorziening" |  |
 | None | Class: "Zaal" |  |
 | None | Class: "Productie-eenheid" |  |
@@ -916,7 +916,7 @@ Attributen van objecttype Reservering
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-12 13:22:59 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_2EE54C3D_0D8B_440e_A4A4_031273313901 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -931,10 +931,10 @@ Attributen van objecttype Rondleiding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| eindtijd | Datetime |  |
 | naam | AN80 |  |
 | omschrijving | Text |  |
 | starttijd | Datetime |  |
+| eindtijd | Datetime |  |
 | None | Class: "Tentoonstelling" |  |
 
 
@@ -955,7 +955,7 @@ Attributen van objecttype Rondleiding
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-15 10:58:21 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_E5566AF6_3D43_4b2f_B658_F67F6C1C511D |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -991,7 +991,7 @@ Attributen van objecttype Samensteller
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-15 09:09:49 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_98F3132E_F97A_4f49_B4F5_28618BB693F8 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1006,8 +1006,8 @@ Attributen van objecttype Standplaats
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| adres | An50 |  |
 | beschrijving | AN300 |  |
+| adres | An50 |  |
 | naamInstelling | AN80 |  |
 
 
@@ -1028,7 +1028,7 @@ Attributen van objecttype Standplaats
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-14 15:30:28 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_069C9894_5E07_4c95_AC28_EB4A5EBFD165 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1043,11 +1043,11 @@ Attributen van objecttype Tentoonstelling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumEinde | Date |  |
-| datumStart | Date |  |
-| omschrijving | Text |  |
-| subtitel | AN200 |  |
 | titel | AN80 |  |
+| omschrijving | Text |  |
+| datumStart | Date |  |
+| datumEinde | Date |  |
+| subtitel | AN200 |  |
 | None | Class: "Historisch Persoon " |  |
 
 
@@ -1068,7 +1068,7 @@ Attributen van objecttype Tentoonstelling
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-12 13:22:46 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_8D3666E3_F2DA_4cba_BF67_EFED9AAD97CC |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1083,9 +1083,9 @@ Attributen van objecttype Voorziening
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalBeschikbaar | int |  |
 | naam | AN80 |  |
 | omschrijving | Text |  |
+| aantalBeschikbaar | int |  |
 
 
 
@@ -1105,7 +1105,7 @@ Attributen van objecttype Voorziening
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-12 13:23:38 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_CE76218E_E56C_4c15_A29B_5EB14B7E084F |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1139,7 +1139,7 @@ Attributen van objecttype Winkelverkoopgroep
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-12 11:00:25 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_9D19BC40_5EED_408d_AFA3_7C16F8E7E65F |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1155,9 +1155,9 @@ Attributen van objecttype Winkelvoorraaditem
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | aantal | int |  |
+| locatie | AN80 |  |
 | aantalInBestelling | int |  |
 | datumLeveringBestelling | Date |  |
-| locatie | AN80 |  |
 | None | Class: "Product" |  |
 
 
@@ -1178,7 +1178,7 @@ Attributen van objecttype Winkelvoorraaditem
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-12 13:22:35 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:36 |
 | id | EAID_6850BC5E_444E_4d33_A8A7_9B345502E275 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1193,10 +1193,10 @@ Attributen van objecttype Zaal
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| capaciteit | int |  |
 | naam | AN80 |  |
-| nummer | int |  |
 | omschrijving | Text |  |
+| capaciteit | int |  |
+| nummer | int |  |
 
 
 

@@ -23,10 +23,10 @@ Het model 'Model Economie' heeft de volgende kenmerken:
 | synoniemen |  |
 | uri |  |
 | bron |  |
-| author | abrienen |
-| version | 1.0 |
+| author | Arjen Brienen |
+| version | 1.1 |
 | created | 2019-12-18 13:51:43 |
-| modified | 2019-12-18 13:52:11 |
+| modified | 2025-03-26 16:52:10 |
 | id | EAPK_DB8BA49F_252E_4044_A93B_8215B6903827 |
 
 
@@ -48,7 +48,7 @@ Het model 'Model Economie' heeft de volgende kenmerken:
 | author | abrienen |
 | version | 1.5 |
 | created | 2019-12-18 13:52:42 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_3BF6985C_06AB_4cfc_9A0E_5CC37C224245 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -87,7 +87,7 @@ Attributen van objecttype Contact
 | author | abrienen |
 | version | 1.5 |
 | created | 2019-12-18 14:20:03 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_5805FA72_C0CE_43c1_A53F_B81166AEFDD4 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -123,7 +123,7 @@ Attributen van objecttype Hotel
 | author | abrienen |
 | version | 1.5 |
 | created | 2019-12-18 14:09:16 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_669000E9_25D6_4346_B718_516CDB8B88B7 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -138,8 +138,8 @@ Attributen van objecttype Hotelbezoek
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumEinde | Date |  |
 | datumStart | Date |  |
+| datumEinde | Date |  |
 
 
 
@@ -159,7 +159,7 @@ Attributen van objecttype Hotelbezoek
 | author | abrienen |
 | version | 1.5 |
 | created | 2019-12-18 14:19:47 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_8F05E7BA_E7ED_45d1_9626_C8D7FBDB2F1B |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -194,7 +194,7 @@ Attributen van objecttype Verkooppunt
 | author | abrienen |
 | version | 1.5 |
 | created | 2019-12-18 14:08:27 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_EB35F5B8_9289_49cc_8DF4_8BD20EC662A9 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -211,8 +211,8 @@ Attributen van objecttype Werkgelegenheid
 | :--- | :--- | :--- |
 | aantalFulltimeMannen | int |  |
 | aantalFulltimeVrouwen | int |  |
-| aantalParttimeMannen | int |  |
 | aantalParttimeVrouwen | int |  |
+| aantalParttimeMannen | int |  |
 | grootteklasse | AN2 | Grootteklasse volgens handboek LISA, zie lisa.nl  |
 
 
@@ -233,7 +233,7 @@ Attributen van objecttype Werkgelegenheid
 | author | abrienen |
 | version | 1.5 |
 | created | 2019-12-18 14:08:39 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_0EABA880_434F_41c3_A41D_0002222AAC2A |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -248,11 +248,11 @@ Attributen van objecttype Winkelvloeroppervlak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalKassa | int |  |
-| bronWVO | An40 |  |
-| leegstand | Boolean |  |
 | winkelvloeroppervlakte | int |  |
 | WVOKlasse | AN40 |  |
+| bronWVO | An40 |  |
+| leegstand | Boolean |  |
+| aantalKassa | int |  |
 
 
 

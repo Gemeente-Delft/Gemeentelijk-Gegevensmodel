@@ -31,10 +31,10 @@ Het model 'Model Sociaal Domein Generiek' heeft de volgende kenmerken:
 | synoniemen |  |
 | uri |  |
 | bron |  |
-| author | arjen |
-| version | 1.0 |
+| author | Arjen Brienen |
+| version | 1.1 |
 | created | 2024-02-08 18:20:46 |
-| modified | 2024-02-19 11:58:30 |
+| modified | 2025-03-26 16:52:10 |
 | id | EAPK_976B3937_0D19_4599_A6D4_E2BD0E0AB9EB |
 
 
@@ -56,7 +56,7 @@ Het model 'Model Sociaal Domein Generiek' heeft de volgende kenmerken:
 | author | crossover |
 | version | 1.4 |
 | created | 2018-05-07 11:54:57 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_16F94A03_C376_4314_94AA_4DB14AD00EB9 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -87,10 +87,10 @@ Attributen van objecttype AanvraagStadspas
 | synoniemen |  |
 | uri |  |
 | bron |  |
-| author | Arjen Brienen |
+| author | aashkpour |
 | version | 1.5 |
 | created | 2018-03-21 15:22:41 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_DAF09055_A5A6_4ff4_A158_21B20567B296 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -112,7 +112,10 @@ Attributen van objecttype Client
 | None | Class: "Huishouden" |  |
 | None | Class: "Profiel" |  |
 | None | Class: "Bankrekening" |  |
+| None | Class: "Normafwijking" |  |
 | None | Class: "Leefsituatie" |  |
+| None | Class: "Aanvraag" |  |
+| None | Class: "Dienst" |  |
 | client | Class: "Schuldhulptraject" |  |
 
 
@@ -133,7 +136,7 @@ Attributen van objecttype Client
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-06-12 16:00:19 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_276E1BF9_E902_4303_A9E7_048627E0DC84 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -168,7 +171,7 @@ Attributen van objecttype Clientbegeleider
 | author | arjen |
 | version | 1.4 |
 | created | 2024-03-07 10:23:20 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_28BCD751_DDE7_42b6_9E6B_579B382BC84A |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -202,7 +205,7 @@ Attributen van objecttype Gerechtelijke uitspraak
 | author | arjen |
 | version | 1.4 |
 | created | 2024-03-07 10:09:21 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_C18BB25F_536F_4b80_BC7C_7855DF2D7389 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -217,10 +220,10 @@ Attributen van objecttype Gezagsverhouding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| einddatum | Date |  |
 | indicatie curateleregister | int |  |
 | indicatie gezag minderjarige | int |  |
 | ingangsdatum | Date |  |
+| einddatum | Date |  |
 | None | Class: "IngeschrevenPersoon" |  |
 | None | Class: "IngeschrevenPersoon" |  |
 | None | Class: "Gerechtelijke uitspraak" |  |
@@ -244,7 +247,7 @@ Attributen van objecttype Gezagsverhouding
 | author | crossover |
 | version | 1.4 |
 | created | 2018-04-25 10:24:00 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_F0467610_553B_47cd_A9F7_3B1D20CC425E |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -260,6 +263,7 @@ Attributen van objecttype Huishouden
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | soort | EnumHuishoudenssoort |  |
+| None | Class: "Nummeraanduiding" |  |
 | None | Class: "Nummeraanduiding" |  |
 
 
@@ -280,7 +284,7 @@ Attributen van objecttype Huishouden
 | author | arjen |
 | version | 1.2 |
 | created | 2024-04-11 14:11:36 |
-| modified | 2024-11-21 08:38:12 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_418C04F0_F173_4775_9814_D50F5EE79A38 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -295,12 +299,12 @@ Attributen van objecttype Incident
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumTijdTot | DateTime |  |
 | datumtijdVanaf | DateTime |  |
-| locatie | Locatie |  |
+| datumTijdTot | DateTime |  |
 | omschrijving | Text |  |
-| soort | Incidenttype |  |
 | toelichting | Text |  |
+| soort | Incidenttype |  |
+| locatie | Locatie |  |
 | None | Class: "Informering" |  |
 
 
@@ -321,7 +325,7 @@ Attributen van objecttype Incident
 | author | crossover |
 | version | 1.5 |
 | created | 2018-04-23 14:46:34 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_51A266C7_3BDA_457c_9A32_CD1B166CA5BF |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -337,10 +341,10 @@ Attributen van objecttype Leverancier
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | AGBCode | AN40 |  |
+| soortLeverancierCode | AN8 |  |
+| soortLeverancier | AN80 |  |
 | leverancierscode | AN8 |  |
 | naam | AN200 |  |
-| soortLeverancier | AN80 |  |
-| soortLeverancierCode | AN8 |  |
 | None | Class: "Contract" |  |
 
 
@@ -361,7 +365,7 @@ Attributen van objecttype Leverancier
 | author | arjen |
 | version | 1.2 |
 | created | 2024-08-20 15:28:07 |
-| modified | 2024-11-21 08:38:12 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_D8F2EAAD_7C80_4164_8171_C632F18A6742 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -376,10 +380,11 @@ Attributen van objecttype Profiel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumAanvangProfiel | Date |  |
-| datumEindeProfiel | Date |  |
 | profielID | int |  |
 | profieltype | AN200 |  |
+| datumAanvangProfiel | Date |  |
+| datumEindeProfiel | Date |  |
+| None | Class: "Reden aanvraag" |  |
 | None | Class: "Inkomstenverhouding" |  |
 | None | Class: "Vermogenscomponent" |  |
 
@@ -401,7 +406,7 @@ Attributen van objecttype Profiel
 | author | Arjen Brienen |
 | version | 1.4 |
 | created | 2018-05-23 15:53:42 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:37 |
 | id | EAID_3DF01B79_6712_473e_9878_594CB5AE95A7 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -436,7 +441,7 @@ Attributen van objecttype Relatie
 | author | Arjen Brienen |
 | version | 1.4 |
 | created | 2018-05-23 16:01:41 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:38 |
 | id | EAID_F5FAF498_F536_4fb3_9948_73EBCDF61AD5 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -470,7 +475,7 @@ Attributen van objecttype Relatiesoort
 | author | arjen |
 | version | 1.4 |
 | created | 2024-03-07 13:03:48 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:38 |
 | id | EAID_A0D437D2_BE13_45a2_8C8D_1AE953B9404C |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -485,10 +490,10 @@ Attributen van objecttype Sociale Groep
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| einddatum | Date |  |
 | naam | AN80 |  |
 | omschrijving | Text |  |
 | startdatum | Date |  |
+| einddatum | Date |  |
 | typering | Groep |  |
 
 
@@ -509,7 +514,7 @@ Attributen van objecttype Sociale Groep
 | author | arjen |
 | version | 1.4 |
 | created | 2024-03-07 12:54:30 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:38 |
 | id | EAID_CD519902_210F_4355_8B24_EAD513F61966 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -524,9 +529,9 @@ Attributen van objecttype Sociale Relatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| einddatum | Date |  |
-| startdatum | Date |  |
 | typering | Relatie |  |
+| startdatum | Date |  |
+| einddatum | Date |  |
 
 
 
@@ -546,7 +551,7 @@ Attributen van objecttype Sociale Relatie
 | author | crossover |
 | version | 1.4 |
 | created | 2018-05-07 11:53:42 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:38 |
 | id | EAID_810C273F_0A2B_4e68_A94B_46722FF9E19D |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -561,8 +566,8 @@ Attributen van objecttype Stadspas
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| einddatum | Date |  |
 | ingangsdatum | Date |  |
+| einddatum | Date |  |
 
 
 

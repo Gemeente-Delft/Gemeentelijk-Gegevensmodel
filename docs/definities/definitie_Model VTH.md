@@ -72,7 +72,7 @@ Het model 'Model VTH' heeft de volgende kenmerken:
 | author | mkampen |
 | version | 1.5 |
 | created | 2022-02-14 14:40:41 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_9547BC67_7488_4d9a_B651_2B69A62D789F |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -107,7 +107,7 @@ Attributen van objecttype Activiteit
 | author | aashkpour |
 | version | 1.3 |
 | created | 2020-11-30 14:06:39 |
-| modified | 2024-11-21 08:38:11 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_FDEB42B6_5D93_46bf_9B5C_10F42BA4AC26 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -125,8 +125,8 @@ Attributen van objecttype AOMStatus
 | datumBeginStatus | Date |  |
 | datumEindeStatus | Date |  |
 | status | AN80 |  |
-| statuscode | AN80 |  |
 | statusVolgorde | AN80 |  |
+| statuscode | AN80 |  |
 
 
 
@@ -146,7 +146,7 @@ Attributen van objecttype AOMStatus
 | author | aashkpour |
 | version | 1.6 |
 | created | 2022-08-10 13:59:39 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_ED0D0224_0A30_435b_AB25_87FDA8DF4078 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -161,17 +161,17 @@ Attributen van objecttype Bevinding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aangemaaktDoor | AN40 |  |
-| activiteit | AN50 |  |
 | controleElement | AN50 |  |
 | controleniveau | AN50 |  |
-| datumAanmaak | Date |  |
-| datumMutatie | Date |  |
-| diepte | AN20 |  |
-| fase | AN20 |  |
-| gemuteerdDoor | AN40 |  |
 | resultaat | AN50 |  |
 | risico | AN50 |  |
+| diepte | AN20 |  |
+| activiteit | AN50 |  |
+| fase | AN20 |  |
+| datumAanmaak | Date |  |
+| aangemaaktDoor | AN40 |  |
+| datumMutatie | Date |  |
+| gemuteerdDoor | AN40 |  |
 | None | Class: "Inspectie" |  |
 
 
@@ -192,7 +192,7 @@ Attributen van objecttype Bevinding
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-04-16 10:36:35 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_90B2A249_8D88_4a14_979F_672223D98E8C |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -226,7 +226,7 @@ Attributen van objecttype BOA
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-09 14:51:11 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_43D57BB8_C2E4_4b5a_A41C_C5CEC9D3877D |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -261,7 +261,7 @@ Attributen van objecttype Combibon
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-04-16 10:36:20 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_FF9A4A36_6674_4590_BC33_7B6DC5256490 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -276,8 +276,8 @@ Attributen van objecttype Fietsregistratie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| gelabeld | Boolean |  |
 | verwijderd | Boolean |  |
+| gelabeld | Boolean |  |
 
 
 
@@ -297,7 +297,7 @@ Attributen van objecttype Fietsregistratie
 | author | mkampen |
 | version | 1.6 |
 | created | 2022-02-14 14:41:03 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_94E2B19A_6942_4164_8A52_3C0BBDE45808 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -312,8 +312,8 @@ Attributen van objecttype Grondslag
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| code | AN10 |  |
 | omschrijving | AN200 |  |
+| code | AN10 |  |
 
 
 
@@ -333,7 +333,7 @@ Attributen van objecttype Grondslag
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-04-18 10:56:20 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_3D2D5426_653C_485c_A99C_8AD933E76D78 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -348,11 +348,11 @@ Attributen van objecttype Heffinggrondslag
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bedrag | Bedrag |  |
 | domein | AN80 |  |
 | hoofdstuk | int |  |
-| omschrijving | AN250 |  |
 | paragraaf | AN8 |  |
+| omschrijving | AN250 |  |
+| bedrag | Bedrag |  |
 | None | Class: "Heffingsverordening" |  |
 
 
@@ -373,7 +373,7 @@ Attributen van objecttype Heffinggrondslag
 | author | Arjen Brienen |
 | version | 1.7 |
 | created | 2019-04-18 10:54:17 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_C29CCD49_04E2_44b4_A6B0_AD8B10552628 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -407,7 +407,7 @@ Attributen van objecttype Heffingsverordening
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-04-18 15:45:30 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_E9AD325A_49CF_48a6_AA9E_7FB57E03E414 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -441,7 +441,7 @@ Attributen van objecttype Indiener
 | author | aashkpour |
 | version | 1.5 |
 | created | 2022-08-08 14:30:16 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_F73901FC_A78E_486f_B6C6_74CFCBE26CAB |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -456,17 +456,17 @@ Attributen van objecttype Inspectie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aangemaaktDoor | AN50 |  |
-| datumAanmaak | Date |  |
-| datumGepland | Date |  |
 | datumInspectie | Date |  |
-| datumMutatie | Date |  |
-| gemuteerdDoor | AN50 |  |
 | inspectietype | AN50 |  |
+| datumGepland | Date |  |
+| status | AN20 |  |
 | kenmerk | AN20 |  |
 | omschrijving | AN80 |  |
 | opmerkingen | AN80 |  |
-| status | AN20 |  |
+| datumAanmaak | Date |  |
+| aangemaaktDoor | AN50 |  |
+| datumMutatie | Date |  |
+| gemuteerdDoor | AN50 |  |
 | None | Class: "VTHzaak" |  |
 
 
@@ -487,7 +487,7 @@ Attributen van objecttype Inspectie
 | author | aashkpour |
 | version | 1.7 |
 | created | 2022-05-30 14:45:46 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_0E4A8F94_ED08_43dc_9F78_C9DD17D34690 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -502,22 +502,22 @@ Attributen van objecttype Kosten
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aangemaaktDoor | AN50 |  |
+| type | AN50 |  |
+| omschrijving | text |  |
+| opBasisVanGrondslag | AN50 |  |
+| naam | AN20 |  |
 | aantal | AN20 |  |
 | bedrag | bedrag |  |
 | bedragTotaal | bedrag |  |
-| datumAanmaak | Date |  |
-| datumMutatie | Date |  |
+| vastgesteldBedrag | bedrag |  |
+| tarief | bedrag |  |
 | eenheid | AN20 |  |
+| datumAanmaak | Date |  |
+| aangemaaktDoor | AN50 |  |
 | geaccordeerd | AN20 |  |
 | gefactureerdOp | Date |  |
+| datumMutatie | Date |  |
 | gemuteerdDoor | AN50 |  |
-| naam | AN20 |  |
-| omschrijving | text |  |
-| opBasisVanGrondslag | AN50 |  |
-| tarief | bedrag |  |
-| type | AN50 |  |
-| vastgesteldBedrag | bedrag |  |
 | None | Class: "VTHzaak" |  |
 
 
@@ -538,7 +538,7 @@ Attributen van objecttype Kosten
 | author | aashkpour |
 | version | 1.7 |
 | created | 2022-05-30 14:52:05 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_7F9392E5_6E43_4880_AF14_819E32A86204 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -553,16 +553,16 @@ Attributen van objecttype Leges_Grondslag
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aangemaaktDoor | AN50 |  |
+| omschrijving | text |  |
+| datumAanmaak | datum |  |
+| legesGrondslag | AN50 |  |
 | aantalOpgegeven | AN20 |  |
 | aantalVastgesteld | AN20 |  |
-| automatisch | AN20 |  |
-| datumAanmaak | datum |  |
-| datumMutatie | Date |  |
 | eenheid | AN20 |  |
+| automatisch | AN20 |  |
+| aangemaaktDoor | AN50 |  |
+| datumMutatie | Date |  |
 | gemuteerdDoor | AN50 |  |
-| legesGrondslag | AN50 |  |
-| omschrijving | text |  |
 | None | Class: "VTHzaak" |  |
 | None | Class: "Activiteit" |  |
 
@@ -584,7 +584,7 @@ Attributen van objecttype Leges_Grondslag
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-02 16:15:28 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_872A0342_EA75_418e_9455_E51875BFD771 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -619,7 +619,7 @@ Attributen van objecttype Ligplaatsontheffing
 | author | aashkpour |
 | version | 1.7 |
 | created | 2020-09-09 16:09:39 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_80F23226_8DD8_4926_B8F1_F2A3C01A29BF |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -634,11 +634,11 @@ Attributen van objecttype MORAanvraagOfMelding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| CROW | Enumeratie: "Boolean" |  |
 | locatie | punt |  |
 | locatieOmschrijving | AN300 |  |
 | meldingOmschrijving | AN40 |  |
 | meldingTekst | AN4000 |  |
+| CROW | Enumeratie: "Boolean" |  |
 
 
 
@@ -658,7 +658,7 @@ Attributen van objecttype MORAanvraagOfMelding
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-02 16:03:27 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_B2B423C3_B9C9_4b4f_A47D_85D29417B9B4 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -673,8 +673,8 @@ Attributen van objecttype OpenbareActiviteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumEinde | Date |  |
 | datumStart | Date |  |
+| datumEinde | Date |  |
 | evenmentnaam | AN250 |  |
 | locatieOmschrijving | AN250 |  |
 | status | Enumeratie: "StatusOpenbareActiviteit" |  |
@@ -697,7 +697,7 @@ Attributen van objecttype OpenbareActiviteit
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-07 15:38:38 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_13BB343D_A595_43c9_8208_9BC5B05B618C |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -731,7 +731,7 @@ Attributen van objecttype Precario
 | author | mkampen |
 | version | 1.3 |
 | created | 2022-02-14 14:33:55 |
-| modified | 2024-11-21 08:38:11 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_03B4B3C0_3616_4ea2_A8B1_3D6754325F02 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -766,7 +766,7 @@ Attributen van objecttype Producttype
 | author | mkampen |
 | version | 1.3 |
 | created | 2022-02-14 14:34:17 |
-| modified | 2024-11-21 08:38:11 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_0DB447E3_B31B_4f07_8E35_7E77D0AAEF80 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -802,7 +802,7 @@ Attributen van objecttype SubProducttype
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-09 15:32:41 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_D12123D3_D62D_4978_B7D4_8405F00A0D6A |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -817,12 +817,12 @@ Attributen van objecttype Vaartuig
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| breedte | int |  |
-| hoogte | int |  |
-| kleur | AN20 |  |
-| lengte | int |  |
 | naamVaartuig | AN250 |  |
 | registratienummer | AN80 |  |
+| kleur | AN20 |  |
+| lengte | int |  |
+| breedte | int |  |
+| hoogte | int |  |
 
 
 
@@ -842,7 +842,7 @@ Attributen van objecttype Vaartuig
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-08 14:16:31 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_44B26957_BAA4_41c2_ABBF_CC1AC91D30D6 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -857,17 +857,17 @@ Attributen van objecttype VOMAanvraagOfMelding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| activiteiten | AN500 |  |
-| adres | AN500 |  |
-| BAGID | BAGObjectnummering |  |
 | dossiernummer | AN200 |  |
 | intaketype | AN80 |  |
-| internNummer | AN80 |  |
-| kadastraleAanduiding | AN30 |  |
-| kenmerk | AN80 |  |
+| adres | AN500 |  |
 | locatie | GML |  |
-| locatieOmschrijving | AN300 |  |
+| kadastraleAanduiding | AN30 |  |
+| BAGID | BAGObjectnummering |  |
+| activiteiten | AN500 |  |
 | toelichting | Text |  |
+| locatieOmschrijving | AN300 |  |
+| kenmerk | AN80 |  |
+| internNummer | AN80 |  |
 
 
 
@@ -887,7 +887,7 @@ Attributen van objecttype VOMAanvraagOfMelding
 | author | aashkpour |
 | version | 1.6 |
 | created | 2022-05-30 14:18:38 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_341942C1_0F72_4e13_ADD1_235805BB81C0 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -902,19 +902,19 @@ Attributen van objecttype Vordering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aangemaaktDoor | AN50 |  |
-| bedragBTW | bedrag |  |
-| datumAanmaak | Datum |  |
-| datumMutatie | Date |  |
-| geaccordeerd | AN50 |  |
-| geaccordeerdDoor | AN50 |  |
-| geaccordeerdOp | Datum |  |
-| geexporteerd | AN50 |  |
-| gemuteerdDoor | AN50 |  |
+| vorderingnummer | AN50 |  |
 | omschrijving | text |  |
 | totaalbedrag | bedrag |  |
+| bedragBTW | bedrag |  |
 | totaalbedragInclusief | bedrag |  |
-| vorderingnummer | AN50 |  |
+| geaccordeerd | AN50 |  |
+| geexporteerd | AN50 |  |
+| geaccordeerdOp | Datum |  |
+| geaccordeerdDoor | AN50 |  |
+| datumAanmaak | Datum |  |
+| aangemaaktDoor | AN50 |  |
+| datumMutatie | Date |  |
+| gemuteerdDoor | AN50 |  |
 | None | Class: "Vorderingregel" |  |
 | None | Class: "VTHzaak" |  |
 
@@ -936,7 +936,7 @@ Attributen van objecttype Vordering
 | author | mkampen |
 | version | 1.7 |
 | created | 2022-12-01 11:08:58 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_E2B83F97_FDFD_4876_9E66_23D79D4A4C03 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -951,16 +951,16 @@ Attributen van objecttype Vorderingregel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Aangemaakt_door | AN50 |  |
-| Aanmaakdatum | Datum |  |
-| Bedrag_excl_btw | bedrag |  |
+| Omschrijving | AN50 |  |
 | Bedrag_incl_btw | bedrag |  |
+| Bedrag_excl_btw | bedrag |  |
+| Type | AN50 |  |
 | Btwcategorie | AN50 |  |
+| Periodiek | AN50 |  |
 | Gemuteerd_door | AN50 |  |
 | Mutatiedatum | Datum |  |
-| Omschrijving | AN50 |  |
-| Periodiek | AN50 |  |
-| Type | AN50 |  |
+| Aangemaakt_door | AN50 |  |
+| Aanmaakdatum | Datum |  |
 | None | Class: "Kosten" |  |
 
 
@@ -981,7 +981,7 @@ Attributen van objecttype Vorderingregel
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-09 16:02:38 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_EAC249B9_13F7_472b_A971_05ED32006F04 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1016,7 +1016,7 @@ Attributen van objecttype VTH-AanvraagOfMelding
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-04-16 10:36:04 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_E9AEF0A9_11BC_4d2a_BC48_FB77F04EF9A6 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1031,22 +1031,22 @@ Attributen van objecttype VTH-Melding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| activiteit | AN80 |  |
-| beoordeling | Enumeratie: "Beoordelingsoort" |  |
+| referentienummer | AN80 |  |
+| soortVTHMelding | AN80 |  |
+| locatie | GML |  |
+| straatnaam | AN250 |  |
+| geseponeerd | Boolean |  |
 | datumSeponering | Date |  |
 | datumtijdTot | DateTime |  |
-| geseponeerd | Boolean |  |
-| locatie | GML |  |
 | organisatieonderdeel | AN80 |  |
-| overtredingscode | AN20 |  |
-| overtredingsgroep | AN200 |  |
-| referentienummer | AN80 |  |
-| resultaat | AN80 |  |
-| soortVTHMelding | AN80 |  |
 | status | AN40 |  |
-| straatnaam | AN250 |  |
 | taaktype | AN80 |  |
+| beoordeling | Enumeratie: "Beoordelingsoort" |  |
+| overtredingsgroep | AN200 |  |
+| resultaat | AN80 |  |
+| activiteit | AN80 |  |
 | zaaknummer | AN20 |  |
+| overtredingscode | AN20 |  |
 | None | Class: "Foto" |  |
 | None | Class: "Object" |  |
 | None | Class: "BOA" |  |
@@ -1069,7 +1069,7 @@ Attributen van objecttype VTH-Melding
 | author | aashkpour |
 | version | 1.3 |
 | created | 2020-09-09 16:33:02 |
-| modified | 2024-11-21 08:38:11 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_88AF7A2E_C508_464a_AD22_DD9B156D570D |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1084,12 +1084,12 @@ Attributen van objecttype VTHzaak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| behandelaar | AN20 |  |
+| verkamering | Enumeratie: "Boolean" |  |
 | bevoegdGezag | AN50 |  |
+| uitvoerendeInstantie | AN50 |  |
+| behandelaar | AN20 |  |
 | prioritering | int |  |
 | teamBehandelaar | AN20 |  |
-| uitvoerendeInstantie | AN50 |  |
-| verkamering | Enumeratie: "Boolean" |  |
 | None | Class: "Producttype" |  |
 | None | Class: "Activiteit" |  |
 | None | Class: "SubProducttype" |  |
@@ -1112,7 +1112,7 @@ Attributen van objecttype VTHzaak
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-09 14:43:04 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_DDC990BC_C026_4c98_BEE5_6692EA0C2515 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1146,7 +1146,7 @@ Attributen van objecttype Waarneming
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-04-17 13:32:09 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_192EA281_414F_4d8d_85D1_5C1B75224942 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1162,10 +1162,10 @@ Attributen van objecttype WABOAanvraagOfMelding
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | bouwkosten | Bedrag |  |
-| OLONummer | AN80 |  |
-| omschrijving | AN1000 |  |
 | projectkosten | Bedrag |  |
+| omschrijving | AN1000 |  |
 | registratienummer | AN100 |  |
+| OLONummer | AN80 |  |
 
 
 
@@ -1185,7 +1185,7 @@ Attributen van objecttype WABOAanvraagOfMelding
 | author | aashkpour |
 | version | 1.5 |
 | created | 2021-06-15 17:18:45 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_5CE9E5F3_BA9A_47e4_A4C1_DE21E66E9F8E |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1200,11 +1200,11 @@ Attributen van objecttype WoonfraudeAanvraagOfMelding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| meldingTekst | AN4000 |  |
+| meldingOmschrijving | AN40 |  |
 | adres | AN300 |  |
 | categorie | AN80 |  |
 | locatieOmschrijving | AN300 |  |
-| meldingOmschrijving | AN40 |  |
-| meldingTekst | AN4000 |  |
 
 
 
@@ -1224,7 +1224,7 @@ Attributen van objecttype WoonfraudeAanvraagOfMelding
 | author | aashkpour |
 | version | 1.5 |
 | created | 2020-09-09 16:23:16 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_CB5BCFAA_01F3_468d_A5CE_4E08D3E4FFC2 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1274,10 +1274,10 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
-| id | EAID_b0b2bf6b_b1d9_482d_a323_355eb8ebf3ae |
+| version | 1.4 |
+| created | 2025-03-26 11:13:35 |
+| modified | 2025-03-26 16:14:54 |
+| id | EAID_5de2c9d9_3f4a_4b1c_8293_467193110750 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1309,10 +1309,10 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
-| id | EAID_bf2d1647_a36f_4a2b_b4a6_4a824507b166 |
+| version | 1.4 |
+| created | 2025-03-26 11:13:35 |
+| modified | 2025-03-26 16:14:54 |
+| id | EAID_e0dd734a_777d_4efb_9c3e_c178ddeb314e |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1343,9 +1343,9 @@ De enumeratie Beoordelingsoort heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:12:42 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_3B4D2D66_B801_42a8_A3FB_CC4A29FF8320 |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -1376,9 +1376,9 @@ De enumeratie Heffingsoort heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.5 |
+| created | 2025-03-26 11:12:42 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_356C8F59_3721_46d0_BCD0_C17B0130035C |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -1410,9 +1410,9 @@ De enumeratie StatusOpenbareActiviteit heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:12:42 |
+| modified | 2025-03-26 16:14:35 |
 | id | EAID_A29EE01A_118E_4599_BADD_35B9393A78F4 |
 | domein_iv3 | None |
 | domein_dcat | None |

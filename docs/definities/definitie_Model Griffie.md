@@ -55,7 +55,7 @@ Het model 'Model Griffie' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-16 15:22:56 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_F1E55DC7_0F33_40ea_8713_2E1AC3D7EE8D |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -72,9 +72,9 @@ Attributen van objecttype Aanwezige Deelnemer
 | :--- | :--- | :--- |
 | aanvangAanwezigheid | DateTime |  |
 | eindeAanwezigheid | DateTime |  |
-| naam | AN250 |  |
 | rol | Enumeratie: "Deelnemersrol" |  |
 | vertegenwoordigtOrganisatie | AN250 |  |
+| naam | AN250 |  |
 | None | Class: "NatuurlijkPersoon" |  |
 
 
@@ -95,7 +95,7 @@ Attributen van objecttype Aanwezige Deelnemer
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-16 11:55:17 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_73FB5212_40ED_40dc_B837_36588840445A |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -111,8 +111,8 @@ Attributen van objecttype Agendapunt
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | nummer | int |  |
-| omschrijving | Text |  |
 | titel | AN250 |  |
+| omschrijving | Text |  |
 | None | Class: "Raadsstuk" |  |
 
 
@@ -133,7 +133,7 @@ Attributen van objecttype Agendapunt
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-16 11:44:01 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_B9B82B25_5D7F_4d2b_84F9_4DF74525EEAD |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -168,7 +168,7 @@ Attributen van objecttype Categorie
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-16 11:26:04 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_7B9EDDFD_57F7_4ff2_938F_FDFA3B503DA8 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -183,13 +183,13 @@ Attributen van objecttype Collegelid
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| voornaam | AN250 |  |
 | achternaam | AN250 |  |
-| datumAanstelling | Date |  |
-| datumUittreding | Date |  |
+| titel | AN80 |  |
 | fractie | AN250 |  |
 | portefeuille | AN200 |  |
-| titel | AN80 |  |
-| voornaam | AN250 |  |
+| datumAanstelling | Date |  |
+| datumUittreding | Date |  |
 
 
 
@@ -209,7 +209,7 @@ Attributen van objecttype Collegelid
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-16 11:44:26 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_475E24C9_CC9A_49cc_AB80_8CA0221441E5 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -244,7 +244,7 @@ Attributen van objecttype Dossier
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-16 11:10:22 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_98CB3C6F_588B_479f_9A2B_F5D5362DD17C |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -281,7 +281,7 @@ Attributen van objecttype Indiener
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-16 11:44:13 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_CA56A59A_F855_4c19_89BE_578B12481EA0 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -316,7 +316,7 @@ Attributen van objecttype Programma
 | author | Arjen Brienen |
 | version | 1.4 |
 | created | 2019-05-16 11:10:04 |
-| modified | 2024-11-21 17:08:19 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_CB27D699_F82B_45ad_823A_B2B51BCAECBA |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -352,7 +352,7 @@ Attributen van objecttype Raadscommissie
 | author | Arjen Brienen |
 | version | 1.4 |
 | created | 2019-05-16 11:09:46 |
-| modified | 2024-11-21 17:08:19 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_5772BEBB_97FA_42a9_B70D_DB55EAD6D1EE |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -367,12 +367,12 @@ Attributen van objecttype Raadslid
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| voornaam | AN250 |  |
 | achternaam | AN250 |  |
+| titel | AN80 |  |
+| fractie | AN250 |  |
 | datumAanstelling | Date |  |
 | datumUittreding | Date |  |
-| fractie | AN250 |  |
-| titel | AN80 |  |
-| voornaam | AN250 |  |
 | None | Class: "Raadscommissie" |  |
 
 
@@ -393,7 +393,7 @@ Attributen van objecttype Raadslid
 | author | Arjen Brienen |
 | version | 1.4 |
 | created | 2019-05-16 11:06:43 |
-| modified | 2024-11-21 22:33:31 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_440219A4_C64B_4eac_ADE5_E79ED6AA9BFE |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -408,10 +408,10 @@ Attributen van objecttype Raadsstuk
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| besloten | Boolean |  |
-| datumExpiratie | DateTime |  |
-| datumPublicatie | DateTime |  |
 | datumRegistratie | DateTime |  |
+| datumPublicatie | DateTime |  |
+| datumExpiratie | DateTime |  |
+| besloten | Boolean |  |
 | typeRaadsstuk | AN80 |  |
 | None | Class: "Programma" |  |
 | None | Class: "Vergadering" |  |
@@ -438,7 +438,7 @@ Attributen van objecttype Raadsstuk
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-16 15:41:33 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_331C4A0B_1505_4945_A0B0_DCD8703AB50F |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -476,7 +476,7 @@ Attributen van objecttype Stemming
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-16 11:44:21 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_01E83CEC_D69D_47eb_9BAB_252AABADDD18 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -511,7 +511,7 @@ Attributen van objecttype Taakveld
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-16 11:09:27 |
-| modified | 2024-11-22 13:02:13 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_257F4ABF_7CCD_453f_B2E8_5A6434383A9B |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -527,9 +527,9 @@ Attributen van objecttype Vergadering
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | eindtijd | DateTime |  |
-| locatie | AN250 |  |
 | starttijd | DateTime |  |
 | titel | AN250 |  |
+| locatie | AN250 |  |
 | None | Class: "Raadsstuk" |  |
 | None | Class: "Agendapunt" |  |
 
@@ -566,9 +566,9 @@ De enumeratie Deelnemersrol heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:12:41 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_E2EDC770_08EB_4298_A2BA_F7943ACD695F |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -600,9 +600,9 @@ De enumeratie Stemmingsresultaattype heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:12:41 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_0A3A2E20_2A67_4e16_B11E_36C09F94331D |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -634,9 +634,9 @@ De enumeratie Stemmingstype heeft de volgende kenmerken:
 | uri | None |
 | bron | None |
 | author | None |
-| version | None |
-| created | None |
-| modified | None |
+| version | 1.4 |
+| created | 2025-03-26 11:12:41 |
+| modified | 2025-03-26 16:14:34 |
 | id | EAID_368EB061_7CF3_4115_BB21_3C618782F205 |
 | domein_iv3 | None |
 | domein_dcat | None |

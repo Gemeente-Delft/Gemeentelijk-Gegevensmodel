@@ -44,14 +44,14 @@ Het model 'Model Officiele Publicaties' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-10-23 17:01:05 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_F5434F00_CC0F_4d7b_91AE_20CBD3C60DFC |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam | Omgevingsdocument |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-c1559848-25e3-4bd0-bb39-286d0c4f5687](https://gemmaonline.nl/index.php/GEMMA/id-c1559848-25e3-4bd0-bb39-286d0c4f5687) |
-| gemma_definitie | In artikel 16.2 van de Omgevingswet aangemerkt instrument te weten: Omgevingsvisie, programma, omgevingsplan, waterschapsverordening, omgevingsverordening, projectbesluit of bij Algemene Maatregel van Bestuur (Omgevingsbesluit) aangewezen ander besluit of ander rechtsfiguur. |
+| gemma_definitie | In artikel 16.2 van de Omgevingswet aangemerkt instrument te weten: Omgevingsvisie, programma, omgevingsplan, waterschapsverordening, omgevingsverordening, projectbesluit of bij Algemene Maatregel van Bestuur (Omgevingsbesluit) aangewezen ander besluit of |
 | gemma_toelichting |  |
 
 
@@ -79,7 +79,7 @@ Attributen van objecttype Omgevingsdocument
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-10-23 17:00:53 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-03-26 16:14:45 |
 | id | EAID_A744FAF8_16B7_4e5d_9C10_203AA8E7C440 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -94,9 +94,9 @@ Attributen van objecttype Regeltekst
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| tekst | text |  |
 | identificatie | AN200 |  |
 | omschrijving | text |  |
-| tekst | text |  |
 | None | Class: "Thema" |  |
 | None | Class: "Regeltekst" |  |
 | None | Class: "Idealisatie" |  |
