@@ -18,4 +18,8 @@ Het referentiemodel is opgebouwd uit:
 Door deze opzet is het RSGB niet gebonden aan één specifiek domein maar komen elementen uit het RSGB in verschillende domeinen voor. Het model is dan ook te gebruiken om de relaties tussen 
 verschillende domeinen in beeld te brengen.
 
+In onderstaand diagram ziet u het RSGB op hoofdlijnen:
+![Model RSGB](image/BE50EA2F_917E_434f_91ED_0EB06CCBEFB6.jpg)
+
+
 Voor meer informatie over het RSGB kunt u terecht bij deze [GEMMA Pagina's](https://vng-realisatie.github.io/RSGB/)
