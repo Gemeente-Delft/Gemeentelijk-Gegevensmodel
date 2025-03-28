@@ -40,7 +40,8 @@ pip install mkdocs mkdocs-material mike \
     mkdocs-git-authors-plugin \
     mkdocs-glightbox \
     mkdocs-minify-plugin \
-    typing_extensions
+    typing_extensions \
+    mkdocs-glightbox
 ```
 
 ### Benodigde bestanden onder de versie-directory
