@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3192,7 +3201,7 @@
 
 <h1 id="ict">ICT</h1>
 <p>De in de applicaties aanwezige gegevens zijn gestructureerd volgens bepaalde objecttypes. Deze zijn uitgewerkt in de in deze paragraaf uitgewerkte domeinmodellen.</p>
-<p><img alt="Applicaties en Gegevens" src="../image/EAID_A2831A97_91F6_4ed0_896E_3531219E69F0.jpg" title="ICT Applicaties en Gegevens" /></p>
+<p><a class="glightbox" href="../image/EAID_A2831A97_91F6_4ed0_896E_3531219E69F0.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Applicaties en Gegevens" src="../image/EAID_A2831A97_91F6_4ed0_896E_3531219E69F0.jpg" title="ICT Applicaties en Gegevens" /></a></p>
 <p>In bovenstaand figuur is te zien hoe objecttypes zijn uitgewerkt. Een objecttype representeert de definitie van een bepaald objecttype. Zo’n objecttype kan nul of meer attributen hebben, die ieder volgens een bepaald datatype zijn. Objecttypes kunnen relaties hebben met andere objecttypes, volgens een bepaald relatiesoort. Ook kunnen objecttypes een generalisatie zijn van een ander objecttype. Hiermee wordt aangegeven dat het ene objecttype attributen en relaties overerft van het andere objecttype. Bovenstaande definitie is gebaseerd op <a href="https://www.geonovum.nl/geo-standaarden/metamodel-informatiemodellering-mim">MIM (Metamodel voor Informatiemodellen)</a>. Hieruit zijn alle relevante definities afgeleid.</p>
 <p>Naast de zaken die onderdeel zijn van MIM is er het type Gegeven dat wordt gedefinieerd door een Objecttype. Een Gegeven kan één of meer classificaties hebben. In het huidige model wordt gewerkt met classificatie van persoonsgegevens:</p>
 <ul>
@@ -3203,11 +3212,11 @@
 </ul>
 <p>Gegevens kunnen geclassificeerd zijn conform bovenstaande lijst. Dit voor de gegevens zelf en de relaties met andere gegevens.
 In bovenstaand figuur is ook te zien dat een Gegeven een Applicatie als authentieke bron kan hebben of dat gegevens afkomstig zijn uit een externe bron.</p>
-<p><img alt="ICT Basismodel CMDB" src="../image/EAID_4F14E8D8_5502_4880_9E83_D912BE451EB1.jpg" title="ICT Basismodel CMDB" /></p>
+<p><a class="glightbox" href="../image/EAID_4F14E8D8_5502_4880_9E83_D912BE451EB1.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="ICT Basismodel CMDB" src="../image/EAID_4F14E8D8_5502_4880_9E83_D912BE451EB1.jpg" title="ICT Basismodel CMDB" /></a></p>
 <p>In voorgaande figuur is een uitwerking voor de CMDB-items gemaakt. Iedere CMDB-Item kan meerdere Log-items hebben waarbinnen aantekeningen worden gelogd. ‘Database’, ‘Server’ en ‘Applicatie’ zijn speciale Linkbare CMDB-items, en kunnen dus koppelingen hebben met andere Linkbare CMDB-Items. Applicaties en Servers kunnen een ‘Leverancier’ hebben.
 Een ‘Applicatie’ kan daarnaast diverse medewerkers hebben gekoppeld met een eigen rol, zoals: functioneel beheerder, applicatie-eigenaar en superuser. Een Applicatie heeft één of meer versies en kan meerdere packages hebben. Daarnaast kunnen er documenten en notities zijn gekoppeld aan een ‘Applicatie’.</p>
 <p>Naast de Linkbare CMDB-Items zijn er ook reguliere CMDB-Items (niet linkbaar aan andere CMDB-Items). Deze zijn uitgewerkt in</p>
-<p><img alt="ICT Overige CMDB" src="../image/EAID_A255BB0C_A1DB_43a5_88B1_C638F6E64B0B.jpg" title="ICT Overige CMDB" /></p>
+<p><a class="glightbox" href="../image/EAID_A255BB0C_A1DB_43a5_88B1_C638F6E64B0B.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="ICT Overige CMDB" src="../image/EAID_A255BB0C_A1DB_43a5_88B1_C638F6E64B0B.jpg" title="ICT Overige CMDB" /></a></p>
 <p>Het model kent naast de Linkbare CMDB-Items de volgende CMDB-Items die direct van CMDB-Item zijn afgeleid: ‘Licentie’, ‘Hardware’, ‘Vervoersmiddel’, ‘Netwerkcomponent’, ‘Toegangsmiddel’, ‘Inventaris’ en ‘Software’.</p>
 
 
@@ -3261,5 +3270,7 @@ Een ‘Applicatie’ kan daarnaast diverse medewerkers hebben gekoppeld met een 
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

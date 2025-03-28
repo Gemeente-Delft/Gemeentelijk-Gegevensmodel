@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3295,17 +3304,17 @@
 Naast de collectie worden de tentoonstellingen geadministreerd, met daaraan gekoppeld de gebruikte zalen en de samenstellers van de tentoonstelling. Bij de tentoonstellingen wordt bijgehouden welke museumobjecten onderdeel uitmaken van de tentoonstelling.
 Ook worden historische personen geadministreerd, en hun relatie tot museumobjecten via de Rol. Daarnaast worden incidenten geadministreerd en zijn deze gekoppeld aan de museumobjecten.
 Voorgaande is uitgewerkt in de volgden figuur.</p>
-<p><img alt="Gegevensmodel Collectie" src="../image/EAID_B2D890F1_6B7C_45df_9A70_8C40CE1B3611.jpg" title="Gegevensmodel Collectie" /></p>
+<p><a class="glightbox" href="../image/EAID_B2D890F1_6B7C_45df_9A70_8C40CE1B3611.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Gegevensmodel Collectie" src="../image/EAID_B2D890F1_6B7C_45df_9A70_8C40CE1B3611.jpg" title="Gegevensmodel Collectie" /></a></p>
 <h2 id="events-en-relaties">Events en Relaties</h2>
 <p>Hierbij staan activiteiten binnen programma’s voor museumrelaties centraal. Een ‘Programma’ bestaat uit 0 of meer activiteiten. Iedere ‘Activiteit’ kan weer uit 0 of sub-activiteiten bestaan. Een ‘Activiteit’ is van een ‘Activiteitsoort’. Hetzelfde geldt voor een programma, deze is van een ‘Programmasoort’. Aan een ‘Activiteit’ kunnen reserveringen zijn gekoppeld. Het kan hier gaan om reserveringen voor: zalen, voorzieningen en productie-eenheden. Dit is uitgebeeld met een koppeling vanuit ‘Reservering’ naar 0 of meer objecttypes ‘Zaal’, naar 0 of meer objecttypes ‘Productie-eenheid’ en 0 of meer objecttypes ‘Voorziening’. Een ‘Productie-eenheid’ kan een externe leverancier zijn, in dit geval is er een koppeling met ‘Leverancier’. Aan een ‘Activiteit’ kan een ‘Rondleiding’ zijn gekoppeld, die weer aan en ‘Tentoonstelling’ kan zijn gekoppeld. 
 Een ‘Programma’ kent een kostenplaats waarmee het is gekoppeld aan een ‘Kostenplaats’ en de koppeling met de financiële administratie is geborgd.
 Binnen het datamodel van het Prinsenhof worden relaties (personen, bedrijven en instellingen) vormgegeven in het objecttype ‘Museumrelatie’. Een ‘Museumrelatie’ is afgeleid van een ‘Rechtspersoon’, waarmee alle benodigde kenmerken, zoals naam, adres en kvk-nummer zijn geborgd. Aan museumrelaties worden mailings gestuurd, hierom is het objecttype ‘Mailing’ aan ‘Museumrelatie’ gekoppeld.
 Voorgaande is uitgewerkt in de volgende figuur.</p>
-<p><img alt="Museum Events en Relaties" src="../image/EAID_22110445_1906_4602_8004_6BA4D6C063D0.jpg" title="Museum Events en Relaties" /></p>
+<p><a class="glightbox" href="../image/EAID_22110445_1906_4602_8004_6BA4D6C063D0.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Museum Events en Relaties" src="../image/EAID_22110445_1906_4602_8004_6BA4D6C063D0.jpg" title="Museum Events en Relaties" /></a></p>
 <h2 id="winkelverkoop">Winkelverkoop</h2>
 <p>In het gegevensmodel Verkoop staat het te verkopen ‘Product’ centraal. Een ‘Entreekaart’ is een afgeleide van product, en is gemodelleerd als iets dat net als de andere producten verkocht kan worden. Alle producten hebben 0 of meer productgroepen en omzetgroepen. Daarnaast kan een ‘Product’ een ‘Leverancier’ hebben. Een ‘Product’ kan een ‘Voorraaditem’ hebben, waarin het aantal op voorraad is vastgelegd. Producten kunnen meerdere ‘Balieverkoop’ hebben, waarmee wordt aangegeven hoeveel en wanneer er van een bepaald product is verkocht. Een ‘Balieverkoop Entreekaart’ is een afgeleide van een ‘Balieverkoop’ en biedt de mogelijkheid om specifieke zaken van een entreekaart vast te leggen, zoals de moment en de duur van de geldigheid.<br />
 Voorgaande is uitgewerkt in de volgende figuur.</p>
-<p><img alt="Museum Verkoop in de winkel" src="../image/EAID_3913ADF8_4B30_48c0_A0AE_59BAAC281EF2.jpg" title="Museum Verkoop in de winkel" /></p>
+<p><a class="glightbox" href="../image/EAID_3913ADF8_4B30_48c0_A0AE_59BAAC281EF2.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Museum Verkoop in de winkel" src="../image/EAID_3913ADF8_4B30_48c0_A0AE_59BAAC281EF2.jpg" title="Museum Verkoop in de winkel" /></a></p>
 
 
 
@@ -3358,5 +3367,7 @@ Voorgaande is uitgewerkt in de volgende figuur.</p>
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

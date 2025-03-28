@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3192,7 +3201,7 @@
 
 <h1 id="onderwijs">Onderwijs</h1>
 <p>In onderstaande figuur zijn de zijn de gegevens te zien die worden bijgehouden over scholen en leerlingen.</p>
-<p><img alt="Onderwijs leerlingen en scholen" src="../image/EAID_33E38059_C973_43ff_97EC_B629923074FF.jpg" title="Onderwijs leerlingen en scholen" /></p>
+<p><a class="glightbox" href="../image/EAID_33E38059_C973_43ff_97EC_B629923074FF.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Onderwijs leerlingen en scholen" src="../image/EAID_33E38059_C973_43ff_97EC_B629923074FF.jpg" title="Onderwijs leerlingen en scholen" /></a></p>
 <p>Een ‘Leerling’ is een ‘INGESCHREVEN PERSOON’ en kan inschrijvingen en uitschrijvingen hebben bij meerdere scholen. Er kan slechts 1 actuele inschrijving zijn, dus zonder uitschrijving. Bij een ‘School’ heeft de ‘Leerling’ een ‘Onderwijsloopbaan’ bestaande uit meerdere loopbaanstappen, waarin het onderwijssoort en leerjaar staat aangegeven. Daarnaast kan een leerling een ‘Startkwalificatie’ hebben, of zijn aangemerkt als ‘kwetsbare jongere’. 
 Een ‘School’ is een ‘NIET NATUURLIJK PERSOON’, heeft 1 of meer locaties. Een ‘Locatie’ is van het type ‘Vastgoedobject’, waarmee de relatie met gemeentelijk vastgoed wordt gelegd. Daarnaast heeft een ‘School’ meerdere onderwijssoorten.</p>
 
@@ -3247,5 +3256,7 @@ Een ‘School’ is een ‘NIET NATUURLIJK PERSOON’, heeft 1 of meer locaties.
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

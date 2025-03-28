@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3195,7 +3204,7 @@
 <p>Het belangrijkste doel van de BAG is het uniek identificeren en aanduiden van adresseerbare objecten en panden. Op deze wijze ontstaat een duidelijke relatie tussen de
 adressering en het object waarop het adres betrekking heeft en wordt een aanzet gegeven tot het leggen van meer eenduidige relaties tussen verschillende registraties.</p>
 <p>In de volgende figuur is het model van de BAG weergegeven:</p>
-<p><img alt="Model BAG" src="../image/EAID_53E16E43_EDF1_4b47_B0DD_C77D8FEFCCA3.jpg" /></p>
+<p><a class="glightbox" href="../image/EAID_53E16E43_EDF1_4b47_B0DD_C77D8FEFCCA3.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Model BAG" src="../image/EAID_53E16E43_EDF1_4b47_B0DD_C77D8FEFCCA3.jpg" /></a></p>
 <p>Voor meer informatie over het informatiemodel BAG kunt u terecht bij de <a href="https://www.geobasisregistraties.nl/documenten/publicatie/2018/03/12/catalogus-2018">Catalogus BAG</a> en
 <a href="https://www.amsterdam.nl/stelselpedia/bag-index/catalogus-bag/">Stelselpedia</a>.</p>
 
@@ -3250,5 +3259,7 @@ adressering en het object waarop het adres betrekking heeft en wordt een aanzet 
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

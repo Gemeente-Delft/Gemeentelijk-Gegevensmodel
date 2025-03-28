@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3264,7 +3273,7 @@
 
 <h1 id="vergunningverlening-toezicht-en-handhaving">Vergunningverlening, toezicht en handhaving</h1>
 <p>Voor de gegevensdefinities wordt voortgebouwd op het RSGB (Gemeentelijk informatiemodel met ondermeer gegevens uit de basisregistraties), RGBZ (Gemeentelijk gegevensmodel voor zaakgericht werken), en <a href="https://samenwerken.pleio.nl/groups/view/8b832827-e91b-476c-bb4f-c228b8e5e934/standaardisatie-toezicht-handhaving-milieu/wiki/view/2b38214e-cfc7-42ff-9d5d-eaf069671c42/riha-referentieinformatiemodel-handhaving">RiHA 2.0  (Gegevensmodel toezicht en handhaven)</a>. Het gegevensmodel RiHA biedt feitelijk een vertaling van het RGBZ met verwijzingen naar het RSGB, waardoor de objecttypen uit het RGBZ niet goed generiek herbruikbaar zijn binnen het Gemeentelijk Gegevensmodel. Om binnen het Gemeentelijk Gegevensmodel zoveel mogelijk eenduidigheid te houden is gekozen om zoveel mogelijk het RGBZ te gebruiken en aanvullingen te doen vanuit het RiHA. RiHa is te zien in het volgende figuur.</p>
-<p><img alt="Aanpak GGM 1" src="../image/riha.png" title="Gegevensmodel RiHa" /></p>
+<p><a class="glightbox" href="../image/riha.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Aanpak GGM 1" src="../image/riha.png" title="Gegevensmodel RiHa" /></a></p>
 <p>Om de objecttypen uit RiHA zo goed mogelijk toe te passen, en te laten aansluiten op het RGBZ zijn de volgende keuzes gemaakt:</p>
 <ol>
 <li>Entiteit Toestemming uit RiHA gemodelleerd als RGBZ-objecttype Besluit<ol>
@@ -3285,11 +3294,11 @@
 <li>Object: het object, of de objecten, waar de aanvraag om gaat;</li>
 <li>Besluit: het besluit dat binnen de zaak n.a.v. aanvraag wordt gedaan, de vergunning of de afwijzing.</li>
 </ul>
-<p><img alt="Gegevensmodel vergunnings- en handhavingszaken" src="../image/EAID_BB52C835_0B2D_4164_AC9D_9D6EDBD7E267.jpg" title="Gegevensmodel vergunnings- en handhavingszaken" /></p>
+<p><a class="glightbox" href="../image/EAID_BB52C835_0B2D_4164_AC9D_9D6EDBD7E267.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Gegevensmodel vergunnings- en handhavingszaken" src="../image/EAID_BB52C835_0B2D_4164_AC9D_9D6EDBD7E267.jpg" title="Gegevensmodel vergunnings- en handhavingszaken" /></a></p>
 <p>In de voorgaande figuur is te zien hoe een ‘AanvraagOfMelding’ kan leiden tot een ‘ZAAK’. ‘AanvraagOfMelding’ is het generieke objecttype dat wordt gebruikt voor alle binnenkomende aanvragen en meldingen, waaronder de VJV’s. Hiervan is het VTH-specifieke ‘VOMAanvraagOfMelding’ afgeleid, waarvan weer ‘WABOAanvraagOfMelding’ is afgeleid specifiek voor alles in het kader van de WABO.
 Een aanvraag heeft een ‘Indiener’ wat weer een natuurlijk of niet natuurlijk persoon kan zijn (‘RECHTSPERSOON’). Een ‘ZAAK’ kan meerdere betrokkenen hebben, en uit verschillende deelzaken bestaan, of betrekking hebben op andere zaken. Een zaak is van een bepaald ‘ZAAKTYPE’. De status van een ‘ZAAK’ wordt vastgelegd in ‘STATUS’ dat van een bepaald ‘STATUSTYPE’ is. Een BESLUIT is de uitkomst van een zaak. Zowel de aanvragen, de zaken en de besluiten kunnen een of meer documenten gekoppeld hebben.</p>
 <p>Heffingen zijn vastgelegd in de Verordeningen, zoals de legesverordening en de precarioverordening die geldig zijn voor een bepaalde periode. Leges worden ook wel retributies genoemd. Een retributie wil zeggen een betaling aan de overheid waar een individueel aanwijsbare tegenprestatie van die overheid tegenover staat. Het gaat om een bedrag dat betaald moet worden aan de overheid (of aan een bevoegd gezag) voor het gebruik van hun diensten of producten. Precario zijn de vergoedingen die worden geheven voor het gebruik van openbare ruimte. Aan ieder ‘ZAAKTYPE’ is een ‘Heffingsgrondslag’ gekoppeld, op basis waarvan een ‘Heffing aan een bepaalde ‘ZAAK’ wordt gekoppeld.  De volgende soorten heffingen worden onderscheiden: leges, precario, reclamebelasting en liggelden.</p>
-<p><img alt="Koppeling zaken aan besluiten" src="../image/EAID_A2BA1F0D_8428_42fc_80D6_7184F243D268.jpg" title="Koppeling zaken aan besluiten" /></p>
+<p><a class="glightbox" href="../image/EAID_A2BA1F0D_8428_42fc_80D6_7184F243D268.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Koppeling zaken aan besluiten" src="../image/EAID_A2BA1F0D_8428_42fc_80D6_7184F243D268.jpg" title="Koppeling zaken aan besluiten" /></a></p>
 <p>De VTH-zaken, besluiten en aanvragen betreffen steeds een of meerdere objecten. Denk hierbij aan een aanvraag voor een ligplaatsontheffing. Deze verwijst naar een bepaald vaartuig en naar een bepaalde ligplaats. Dit in lijn met de opzet van RiHA (verwijzing naar HANDHAVINGSOBJECT) en RGBZ.<br />
 Voorbeeld: een aanvraag en toekenning ligplaatsontheffing wordt het volgende:</p>
 <ul>
@@ -3300,10 +3309,10 @@ Voorbeeld: een aanvraag en toekenning ligplaatsontheffing wordt het volgende:</p
 <li>1 Object met verwijzing naar een Vaartuig</li>
 </ul>
 <p>In Figuur 10 is te zien hoe het RGBZ-objecttype ‘Object’ verwijst naar allerlei objecttypen uit het Gemeentelijk Gegevensmodel (en vaak het RSGB). Op deze manier kan er in aanvragen, zaken en besluiten verwezen worden naar het abstracte type ‘Object’ waarvandaan naar allerlei concrete objecttypen verwezen kan worden.</p>
-<p><img alt="Objecten bij vergunningverlening" src="../image/EAID_C9CE09B7_32EF_40eb_9C82_7FD6EDEA1D9E.jpg" title="Objecttypen bij vergunningverlening" /></p>
+<p><a class="glightbox" href="../image/EAID_C9CE09B7_32EF_40eb_9C82_7FD6EDEA1D9E.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Objecten bij vergunningverlening" src="../image/EAID_C9CE09B7_32EF_40eb_9C82_7FD6EDEA1D9E.jpg" title="Objecttypen bij vergunningverlening" /></a></p>
 <h2 id="brede-handhaving">Brede Handhaving</h2>
 <p>Ook meldingen in het kader van brede handhaving verwijzen naar het generieke objecttype ‘Object’, en zo dus weer naar allerlei andere objecttypen. Een ‘Melding’ kan verwijzingen naar foto’s hebben en heeft een BOA als verbalisant. Er worden drie soorten meldingen onderscheiden: ‘Waarneming’, ‘Combibon’ en ‘Fietsregistratie’. Een ‘Melding’ is afgeleid van het generieke ‘AanvraagOfMelding’.</p>
-<p><img alt="Objecten bij brede handhaving" src="../image/EAID_EC84A03C_FC04_401a_8263_7809B74179F8.jpg" title="Objecttypen bij brede handhaving" /></p>
+<p><a class="glightbox" href="../image/EAID_EC84A03C_FC04_401a_8263_7809B74179F8.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Objecten bij brede handhaving" src="../image/EAID_EC84A03C_FC04_401a_8263_7809B74179F8.jpg" title="Objecttypen bij brede handhaving" /></a></p>
 
 
 
@@ -3356,5 +3365,7 @@ Voorbeeld: een aanvraag en toekenning ligplaatsontheffing wordt het volgende:</p
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

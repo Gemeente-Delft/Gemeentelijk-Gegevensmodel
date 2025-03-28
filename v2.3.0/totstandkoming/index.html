@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3475,7 +3484,7 @@
 <li>De set beleidsdomeinen waar de gemeente haar taakgebied heeft </li>
 <li>Landelijk vastgestelde <a href="../#toegepaste-landelijke-standaarden">standaarden</a> voor gegevensuitwisseling en landelijk vastgestelde informatiemodellen  </li>
 </ol>
-<p><img alt="Aanpak GGM 1" src="../image/AanpakGGM.jpg" title="Aanpak GGM" /></p>
+<p><a class="glightbox" href="../image/AanpakGGM.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Aanpak GGM 1" src="../image/AanpakGGM.jpg" title="Aanpak GGM" /></a></p>
 <p>De inventarisatie in de volgende stappen uitgevoerd:</p>
 <ol>
 <li><strong>Applicaties en Beleidsdomeinen</strong>: Interviews met experts uit de verschillen de Beleidsdomeinen: per beleidsdomein is er m.b.v. gesprekken met experts van de informatievoorziening binnen de beleidsdomeinen een inventarisatie gemaakt van de gebruikte applicaties, de betrokken gebruikers, de interactie tussen de applicaties en de gebruikers, en welke gegevens daarbij gebruikt worden.</li>
@@ -3495,17 +3504,17 @@
 <li>De taken die met de applicaties worden uitgevoerd.</li>
 </ol>
 <p>Voorbeeld uitwerking van deze fase is <a href="../monumenten/#gemeentelijke-monumenten">hier</a> en <a href="../monumenten/#applicaties-en-beleidsdomeinen">hier</a> te vinden (in twee delen uitgewerkt), en levert onder andere de volgende uitwerking.</p>
-<p><img alt="Applicaties Monumenten" src="../image/Applicaties_Monumenten.png" title="Applicaties Monumenten" /></p>
+<p><a class="glightbox" href="../image/Applicaties_Monumenten.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Applicaties Monumenten" src="../image/Applicaties_Monumenten.png" title="Applicaties Monumenten" /></a></p>
 <h3 id="inventariseren-applicaties-en-gegevens">Inventariseren Applicaties en Gegevens</h3>
 <p>In de vorige stap is een limitatieve lijst van de gebruikte applicaties en de taken die met deze applicaties worden uitgevoerd. Doel van deze stap is te bepalen welke gegevens in deze applicaties worden geadministreerd en voor welke gegevens deze applicaties authentieke bron zijn. Zo ontstaat er een compleet beeld van de relevante gegevens binnen het domein.</p>
 <p>Tijdens de interviews kun je foto's maken van de gebruikte applicaties, je kunt de achterliggende databaseschema's analyseren en gebruik maken van handleidingen bij de applicaties. Dit afhankelijke van de situatie en beschikbaarheid. De resultaten verwerk je in je analysedocument, zodat je dit kunt toetsen bij de geïnterviewden.</p>
 <p>Voorbeeld uitwerking van deze fase is <a href="../monumenten/#gegevensdefinities">hier</a> te vinden, en levert onder andere de volgende uitwerking. Je ziet hierin de verschillende applicaties met daarin de gegevens.</p>
-<p><img alt="Applicaties en gegevens Monumenten" src="../image/ApplicatiesEnGegevensMonumenten.png" title="Monumenten Applicaties en Gegevens" /></p>
+<p><a class="glightbox" href="../image/ApplicatiesEnGegevensMonumenten.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Applicaties en gegevens Monumenten" src="../image/ApplicatiesEnGegevensMonumenten.png" title="Monumenten Applicaties en Gegevens" /></a></p>
 <h3 id="uitbreiden-gemeentelijk-gegevensmodel">Uitbreiden Gemeentelijk Gegevensmodel</h3>
 <p>In de vorige stap is geinventariseerd welke gegevens binnen het beleidsdomein worden gebruikt. In deze stap wordt deze inventarisatie gebruikt om een vertaling te maken naar objecttypes. Naast de geïnventariseerde gegevens bouw je hier zoveel mogelijk voort op (landelijke) gegevensstandaarden. De lijst met landelijke standaarden die in het Gemeentelijk Gegevensmodel zijn toegepast vind je <a href="../#toegepaste-landelijke-standaarden">hier</a>. Als er een landelijke standaard ontbreekt voeg je die aan het model toe, door deze te importeren of deze met de hand over te nemen. Als je voortbouwt op een standaard die al in het model zit, hoeft dit uiteraard niet ;).</p>
 <p>In deze stap maak je een uitbreiding op het Gemeentelijk Gegevensmodel door per gevonden gegeven een objecttype aan te maken, of her te gebruiken uit het reeds bestaande model. Let hierbij op dat je de <a href="../#opbouw-gemeentelijk-gegevensmodel">gelaagde opbouw</a> respecteert. Deze objecttypes en de daarbij horende relatie werk je uit in één of meer diagrammen.</p>
 <p>Voorbeeld uitwerking van deze fase is <a href="../monumenten/#applicaties-en-gegevens">hier</a> te vinden, en levert onder andere de volgende uitwerking. </p>
-<p><img alt="Uitwerking objecttypen Monumenten" src="../image/GegevensdefinitiesMonumenten.png" title="Monumenten Gegevensdefinities" /></p>
+<p><a class="glightbox" href="../image/GegevensdefinitiesMonumenten.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Uitwerking objecttypen Monumenten" src="../image/GegevensdefinitiesMonumenten.png" title="Monumenten Gegevensdefinities" /></a></p>
 <h3 id="genereren-databaseschema">Genereren Databaseschema</h3>
 <p>Om het net uitgebreide deel van het Gemeentelijk Gegevensmodel in een database te gebruiken kun je het genereren naar DDL. Selecteer of kopieer hiervoor het deel van het Gemeentelijk Gegevensmodel dat je naar DDL wilt genereren, en volg <a href="../generatie/">deze</a> handleiding.</p>
 <h2 id="uitwerking-informatieanalyse-met-enterprise-architect">Uitwerking informatieanalyse met Enterprise Architect</h2>
@@ -3518,51 +3527,51 @@
 <li>Open in Enterprise Architect het project waar je aan wilt werken.</li>
 <li>Maak onder de 'root node' een nieuwe map aan voor de componenten.</li>
 </ol>
-<p><img alt="Modelleren Stap 1a" src="../image/ModellerenStap1a.png" title="Modelleren Stap 1a" /></p>
+<p><a class="glightbox" href="../image/ModellerenStap1a.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Modelleren Stap 1a" src="../image/ModellerenStap1a.png" title="Modelleren Stap 1a" /></a></p>
 <p>3. Kies 'Component Diagram' waarmee je een nieuwe map naast het 'Gemeentelijk Gegevensmodel' toevoegt.</p>
-<p><img alt="Modelleren Stap 1b" src="../image/ModellerenStap1b.png" title="Modelleren Stap 1b" /></p>
+<p><a class="glightbox" href="../image/ModellerenStap1b.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Modelleren Stap 1b" src="../image/ModellerenStap1b.png" title="Modelleren Stap 1b" /></a></p>
 <p>4. Voeg onder de nieuwe map de mappen 'Diagram' en 'Model' toe, en maak onder 'Model' mappen aan voor actoren en applicaties.</p>
-<p><img alt="Modelleren Stap 1c" src="../image/ModellerenStap1c.png" title="Modelleren Stap 1c" /></p>
+<p><a class="glightbox" href="../image/ModellerenStap1c.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Modelleren Stap 1c" src="../image/ModellerenStap1c.png" title="Modelleren Stap 1c" /></a></p>
 <p>4b. Om de diagrammen op hoofdlijnen te houden en het tonen van details van elementen te onderdrukken, kun je deze uitzetten. Dubnelklik hiertoe op het diagram en open de 'Properties'. Hier kun je het tonen van elementdetails uitzetten.</p>
-<p><img alt="Modelleren Stap 1c" src="../image/ModellerenStap1c1.png" title="Modelleren Stap 1c elementdetails onderdrukken" /></p>
+<p><a class="glightbox" href="../image/ModellerenStap1c1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Modelleren Stap 1c" src="../image/ModellerenStap1c1.png" title="Modelleren Stap 1c elementdetails onderdrukken" /></a></p>
 <p>5. Breidt het componentendiagram uit met de modellering die je onderhanden hebt. Hier is een heeeeeeeel eenvoudige uitwerking voor Monumenten toegevoegd. Voeg hiervoor ook een 'Use Case' diagram toe, alhoewel we geen echte use cases uitwerken hier. Al naar gelang de situatie kun natuurlijk meerdere diagrammen maken. </p>
-<p><img alt="Modelleren Stap 1d" src="../image/ModellerenStap1d.png" title="Modelleren Stap 1d" /></p>
+<p><a class="glightbox" href="../image/ModellerenStap1d.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Modelleren Stap 1d" src="../image/ModellerenStap1d.png" title="Modelleren Stap 1d" /></a></p>
 <p>6. Als je klaar bent sleep je de componenten en actoren naar de eerdere gemaakte mappen, zodat je ze kunt hergebruiken voor toekomstige modellen.</p>
-<p><img alt="Modelleren Stap 1e" src="../image/ModellerenStap1e.png" title="Modelleren Stap 1e" /></p>
+<p><a class="glightbox" href="../image/ModellerenStap1e.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Modelleren Stap 1e" src="../image/ModellerenStap1e.png" title="Modelleren Stap 1e" /></a></p>
 <p>7. Klaar! Door naar het modelleren van de gegevens in de applicatie.</p>
 <h3 id="modelleren-applicaties-en-gegevens">Modelleren Applicaties en Gegevens</h3>
 <p>Bij het modelleren van applicaties en gegevens werk je uit welke gegevens er in welke applicatie zitten. Dit doe je door gegevens (in EA in de vorm van objecten) op basis van de resultaten in de analyse in de applicaties te plaatsen (in EA in de vorm van componenten)</p>
 <p>Hiertoe doorloop je de volgende stappen:</p>
 <p>1. Maak een nieuw 'UML Structural Component'-diagram aan.</p>
-<p><img alt="Modelleren Stap 2a" src="../image/ModellerenStap2a.png" title="Modelleren Stap 2a" /></p>
+<p><a class="glightbox" href="../image/ModellerenStap2a.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Modelleren Stap 2a" src="../image/ModellerenStap2a.png" title="Modelleren Stap 2a" /></a></p>
 <p>2. Sleep hier de eerder gemaakte applicatie in. In het voorbeeld de applicatie 'Monumentenadministratie'.</p>
-<p><img alt="Modelleren Stap 2b" src="../image/ModellerenStap2b.png" title="Modelleren Stap 2b" /></p>
+<p><a class="glightbox" href="../image/ModellerenStap2b.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Modelleren Stap 2b" src="../image/ModellerenStap2b.png" title="Modelleren Stap 2b" /></a></p>
 <p>3. Sleep hier voor elk soort gegeven een object in, en geef ze de juiste naam. In het voorbeeld drie soorten gegevens. In de praktijk zul je waarschijnlijk meer gegevenssoorten gebruiken.</p>
-<p><img alt="Modelleren Stap 2c" src="../image/ModellerenStap2c.png" title="Modelleren Stap 2c" /></p>
+<p><a class="glightbox" href="../image/ModellerenStap2c.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Modelleren Stap 2c" src="../image/ModellerenStap2c.png" title="Modelleren Stap 2c" /></a></p>
 <p>4. Als laatste: sleep de gegevensobjecten in het applicatiecomponent. Dit zodat je bij verdere analyse kunt zien welke gegevens uit verschillende domeinen in een applicatie zitten. Verder kun je zo rapportages maken over de applicaties en de gegevens.</p>
-<p><img alt="Modelleren Stap 2d" src="../image/ModellerenStap2d.png" title="Modelleren Stap 2d" /></p>
+<p><a class="glightbox" href="../image/ModellerenStap2d.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Modelleren Stap 2d" src="../image/ModellerenStap2d.png" title="Modelleren Stap 2d" /></a></p>
 <p>5. Klaar! Op naar de volgende stap.</p>
 <h3 id="uitbreiden-gemeentelijk-gegevensmodel_1">Uitbreiden Gemeentelijk Gegevensmodel</h3>
 <p>Nadat alle relevante gegevens gevonden zijn kun je door naar de volgende stap: het aanmaken van nieuwe objecttypen en het relateren van gegevens aan bestaande objecttypen. <strong>Kijk goed naar de mogelijkheden die de <a href="../generatie/#interne-werking">codegeneratietemplates</a> bieden, zodat je later niet in de knoei komt als je wilt transformeren naar tabellen.</strong></p>
 <p>Het uitbreiden verloopt in een aantal stappen:</p>
 <p>1. Open het 'Gemeentelijk Gegevensmodel' en maak een map aan voor het onderdeel dat je gaat uitwerken. In het voorbeeld is dat 'Erfgoed: Voorbeeld'. Maak onder die map nog twee mappen aan: 'Diagram' en 'Model Voorbeeld'. Nu heb je de plek aangemaakt waar je de objecttypes gaat aanmaken.</p>
-<p><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3a.png" title="Modelleren Stap 3a" /></p>
+<p><a class="glightbox" href="../image/ModellerenStap3a.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3a.png" title="Modelleren Stap 3a" /></a></p>
 <p>2. Maak voor een van de gevonden gegevenssoorten een classe aan, en sleep deze naar 'Model Voorbeeld'. Dit moet je eenmalig doen, omdat de map 'Model Voorbeeld' in het verdere verloop onzichtbaar blijft.</p>
-<p><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3b.png" title="Modelleren Stap 3b" /></p>
+<p><a class="glightbox" href="../image/ModellerenStap3b.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3b.png" title="Modelleren Stap 3b" /></a></p>
 <p>2b. Om het classediagram overzichtelijk te houden kun je het tonen van classedetails, zoals attributen en methodes, uitzetten. Dubbelklik hiervoor op het diagram en vink in de properties deze opties uit.</p>
-<p><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3b1.png" title="Modelleren Stap 3b1" /></p>
+<p><a class="glightbox" href="../image/ModellerenStap3b1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3b1.png" title="Modelleren Stap 3b1" /></a></p>
 <p>3. Selecteer het objecttype waarvoor je zojuist een objecttype hebt aangemaakt en toets Ctrl-L om een 'Classifier' voor dit gegevenssoort aan te maken. Ga naar de zojuist aangemaakte map en selecteer het objecttype dat je zojuist hebt aangemaakt, en druk op 'OK'. </p>
-<p><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3c.png" title="Modelleren Stap 3c" /></p>
+<p><a class="glightbox" href="../image/ModellerenStap3c.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3c.png" title="Modelleren Stap 3c" /></a></p>
 <p>4a. Nu kun je met het verdere modelleerproces doorgaan. Herhaal hiervoor voor alle de objecttypes die je wilt uitwerken. selecteer het objecttype en toets Ctrl-L om een 'Classifier' voor het gegevenssoort aan te maken. Ga naar de zojuist aangemaakte map en: selecteer het objecttype dat je wilt gebruiken of toets 'Add New' en type de naam van het nieuwe objecttype, en druk op 'OK'.</p>
-<p><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3d.png" title="Modelleren Stap 3d" /></p>
+<p><a class="glightbox" href="../image/ModellerenStap3d.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3d.png" title="Modelleren Stap 3d" /></a></p>
 <p>4b. Je kunt de objecttypes ook een classifier aanmaken naar een reeds bestaand objecttype. In het voorbeeld voor 'Pand'. Toets weer Ctrl-L en navigeer in het Gemeentelijk Gegevensmodel naar het beoogde objecttype. In het voorbeeld naar 'PAND' in het RSGBPlus.</p>
-<p><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3e.png" title="Modelleren Stap 3e" /></p>
+<p><a class="glightbox" href="../image/ModellerenStap3e.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3e.png" title="Modelleren Stap 3e" /></a></p>
 <p>5. Als je alle objecttypes compleet hebt kun je verder met de classdiagram. Sleep hier de verschillende objecttypes op.</p>
-<p><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3f.png" title="Modelleren Stap 3f" /></p>
+<p><a class="glightbox" href="../image/ModellerenStap3f.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3f.png" title="Modelleren Stap 3f" /></a></p>
 <p>6. Maak de relaties aan tussen deze objecttypes.</p>
-<p><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3g.png" title="Modelleren Stap 3g" /></p>
+<p><a class="glightbox" href="../image/ModellerenStap3g.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3g.png" title="Modelleren Stap 3g" /></a></p>
 <p>7. En als laatste voeg je de attributen toe aan de zojuist gecreëerde objecttypes. Gebruik hiervoor de foto's die je van de applicatie hebt gemaakt, reeds bestaande standaarden of het databaseschema van de applicatie.</p>
-<p><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3h.png" title="Modelleren Stap 3h" /></p>
+<p><a class="glightbox" href="../image/ModellerenStap3h.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Modelleren Stap 2d" src="../image/ModellerenStap3h.png" title="Modelleren Stap 3h" /></a></p>
 <p>8. Klaar! Je hebt een hele cyclus voor het uitbreiden van het Gemeentelijk Gegevensmodel doorlopen.</p>
 <h3 id="databaseschema-maken">Databaseschema maken</h3>
 <p>Om het net uitgebreide deel van het Gemeentelijk Gegevensmodel in een database te gebruiken kun je het genereren naar DDL. Selecteer of kopieer hiervoor het deel van het Gemeentelijk Gegevensmodel dat je naar DDL wilt genereren, en volg <a href="../generatie/">deze</a> handleiding.</p>
@@ -3618,5 +3627,7 @@
       <script src="../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3193,7 +3202,7 @@
 <h1 id="leerplicht-en-leerlingenvervoer">Leerplicht en leerlingenvervoer</h1>
 <p>Leerplicht en leerlingenvervoer bouwen voort op het model van <a href="../onderwijs/">onderwijs</a>.</p>
 <p>In onderstaand zijn de verschillende objecttypen uitgewerkt die gericht zijn op de leerplicht. Dit is aanvullend op de objecttypen uit de hiervoor beschreven algemene gegevensdefinities.</p>
-<p><img alt="Gegevensdefinities Leerplicht" src="../image/EAID_26A453D9_47AF_487e_854B_3B4BC6D6A308.jpg" title="Gegevensdefinities Leerplicht" /></p>
+<p><a class="glightbox" href="../image/EAID_26A453D9_47AF_487e_854B_3B4BC6D6A308.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Gegevensdefinities Leerplicht" src="../image/EAID_26A453D9_47AF_487e_854B_3B4BC6D6A308.jpg" title="Gegevensdefinities Leerplicht" /></a></p>
 <p>In voorgaande figuur zijn drie soorten meldingen en aanvragen te zien die leiden tot afhandeling door de ‘Leerplichtambtenaar’: ‘Verzuimmelding’, ‘Verlofaanvraag’ en ‘Aanvraagvrijstelling’. Deze zijn allemaal abstract weergegeven door ‘AanvraagOfMelding’, en betreffen altijd een ‘Leerling’, en kunnen een ‘School’ betreffen. Bij absoluut verzuim heeft de ‘leerling’ geen inschrijving op een school.
 De ‘Leerplichtambtenaar’ handelt al deze ‘AanvraagOfMelding’en af en komt tot een ‘Beslissing’. Deze beslissing betreft altijd een ‘Leerling’ en kan een ‘School’ betreffen. Het kan een algemene ‘Beslissing’ zijn, of een variant van een beslissing: een ‘Vrijstelling’, een ‘Doorgeleiding OM’, een ‘HALT-verwijzing’ of een ‘Procesverbaal’. In het geval van een procesverbaal is deze gericht op Leerling en/of ‘Ouder of Verzorger’.  </p>
 
@@ -3248,5 +3257,7 @@ De ‘Leerplichtambtenaar’ handelt al deze ‘AanvraagOfMelding’en af en kom
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

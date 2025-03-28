@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3192,11 +3201,11 @@
 
 <h1 id="parkeren">Parkeren</h1>
 <p>Gegevensdefinities rond parkeren concentreren zich rond het ‘Parkeerrecht’. In een parkeerrecht staat vastgelegd in welke ‘Parkeerzone’ een bepaald ‘Voertuig’ mag parkeren en in welke periode. Parkeerrechten worden afgegeven door een ‘Belprovider’ of komen voort uit een ‘Parkeervergunning’. Een en ander is uitgewerkt in de volgende figuur.</p>
-<p><img alt="Gegevensmodel parekeren" src="../image/EAID_84B6B75B_2B58_455d_B019_C9B1E71717C2.jpg" title="Gegevensmodel parekeren" /></p>
+<p><a class="glightbox" href="../image/EAID_84B6B75B_2B58_455d_B019_C9B1E71717C2.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Gegevensmodel parekeren" src="../image/EAID_84B6B75B_2B58_455d_B019_C9B1E71717C2.jpg" title="Gegevensmodel parekeren" /></a></p>
 <p>Parkeervergunningen zijn van een bepaald ‘Productsoort’ en een ‘Productgroep’. Deze zijn als voorbeeld inzichtelijk in de volgende figuur. Een ‘Parkeervergunning’ wordt afgegeven aan een ‘Rechtspersoon’ als houder. Parkeervergunningen en bijbehorende rechten gelden voor een bepaalde ‘Parkeerzone’. Parkeerzones kennen een aantal parkeerplaatsen en zaken als tarief en de tijden dat het parkeertarief geldt. Parkeergarages zijn ook vormgegeven als ‘Parkeerzone’. Parkeerzones kunnen een aantal straatsecties bevatten, welke op hun beurt weer parkeervlakken kennen. Een ‘Parkeervlak’ heeft een GPS-locatie in de vorm van een vlak en er is aangegeven of het tarief fiscaal afgerekend wordt.
 Het controleren van de geparkeerde voertuigen verloopt met een scanauto of een handheld. Het scanvoertuig scant het kenteken en het parkeervlak waar het voertuig staat. Aan de hand hiervan kan het controleren of het voertuig een recht heeft voor dit vlak.
 De handheld scant hat kenteken en de medewerker krijgt alle rechten terug die aan dit kenteken zijn verstrekt. De medewerker interpreteert deze info en besluit of er een naheffingsaanslag wordt opgelegd. </p>
-<p><img alt="Productgroepen parkeren" src="../image/productgroepenparkeren.png" title="Productgroepen parkeren" /></p>
+<p><a class="glightbox" href="../image/productgroepenparkeren.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Productgroepen parkeren" src="../image/productgroepenparkeren.png" title="Productgroepen parkeren" /></a></p>
 
 
 
@@ -3249,5 +3258,7 @@ De handheld scant hat kenteken en de medewerker krijgt alle rechten terug die aa
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

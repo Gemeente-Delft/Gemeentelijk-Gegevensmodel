@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3191,7 +3200,7 @@
 <h1 id="inleiding">Inleiding</h1>
 <p>Onder het kopje <em>Inhoud</em> vind je de uitwerking van de beleidsdomeinen in het Gemeentelijk Gegevensmodel. Alleen de uitleg over de gegevensdefinities is hier opgenomen. Tijdens de <a href="../../totstandkoming/">totstandkoming</a> van het GGM zijn voor ieder beleidsdomein ook steeds de applicaties en hun gegevens geinventariseerd. Hierin is steeds de Delftse situatie uitgewerkt, inclusief de gebruikte applicaties. </p>
 <p>Houd rekening mert de <a href="../../#opbouw-gemeentelijk-gegevensmodel">gelaagde opbouw van het GGM</a>, waarbij verschillende objecttypen over beleidsdomeinen heen zoveel mogelijk zijn ontkoppeld. Alleen objecttypen in de onderste lagen van het model worden gebruikt door de bovenliggende onderdelen.</p>
-<p><img alt="Gelaagdheid Domeinen" src="../../image/GelaagdheidDomeinen.jpg" title="Gelaagdheid Domeinen" /></p>
+<p><a class="glightbox" href="../../image/GelaagdheidDomeinen.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Gelaagdheid Domeinen" src="../../image/GelaagdheidDomeinen.jpg" title="Gelaagdheid Domeinen" /></a></p>
 <p>Wij hebben besloten de delen <a href="../../totstandkoming/#inventariseren-applicaties-en-beleidsdomeinen"><em>Applicaties en Beleidsdomeinen</em></a>, en <a href="../../totstandkoming/#inventariseren-applicaties-en-gegevens"><em>Applicaties en Gegevens</em></a> niet op te nemen. Hiervan is echter wel het voorbeeld <a href="../../monumenten/"><em>Monumenten</em></a> opgenomen.</p>
 <p>In de handleiding zijn afbeeldingen opgenomen van objecttypes en hun relaties. De attributen van de objecttypen zijn niet in de handleiding opgenomen, deze zijn te zien als je het GGM downloadt en opent.</p>
 <p>Veel plezier met lezen, en als je op-of-aanmerkingen hebt: meld ze dan aan ons via het <a href="https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/issues">issuesysteem</a>.  </p>
@@ -3247,5 +3256,7 @@
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

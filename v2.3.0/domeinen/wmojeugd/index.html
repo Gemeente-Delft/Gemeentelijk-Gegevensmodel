@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3193,15 +3202,15 @@
 <h1 id="gegevensdefinities-wmo-en-jeugd">Gegevensdefinities Wmo en Jeugd</h1>
 <p>Aangezien de gegevensdefinities van Wmo en de jeugdwet sterk op elkaar lijken wordt uitgegaan van een generiek gegevensmodel waar zowel in het kader van de jeugdwet als in het kader van de Wmo vanuit wordt gegaan. Het gegevensmodel voor Wmo en Jeugd is net als de andere modellen binnen het sociaal domein opgebouwd rond het <a href="../socdomeingeneriek/">objecttype ‘Client’</a>.</p>
 <p>In de volgende figuur is dit generieke gegevensmodel uitgewerkt. Er wordt onderscheid gemaakt in de van toepassing zijnde wet via het attribuut wet, deze is in de volgende entiteiten opgenomen: Beschikking, Voorziening, Toewijzing, Voorzieningssoort, Voorzieningscategorie, Prijs, Leveringsvorm, Beperking, Beperkingsscore, Beperkingssoort en Beperkingsscoresoort.</p>
-<p><img alt="Beschikkingenen voorzieningen Wmo en Jeugd" src="../image/EAID_5AE29494_3572_4924_B2B8_3206E55D71BB.jpg" title="Beschikkingenen voorzieningen Wmo en Jeugd" /></p>
+<p><a class="glightbox" href="../image/EAID_5AE29494_3572_4924_B2B8_3206E55D71BB.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Beschikkingenen voorzieningen Wmo en Jeugd" src="../image/EAID_5AE29494_3572_4924_B2B8_3206E55D71BB.jpg" title="Beschikkingenen voorzieningen Wmo en Jeugd" /></a></p>
 <p>In de ‘Beschikking’ samen met de daaraan gekoppelde ‘Beschikte Voorzieningen’ geeft de gemeente aan van welke voorzieningen de client gebruik kan maken. Via de Toewijzing wordt de beschikte zorg toegewezen aan een ‘Leverancier’, die op basis van die ‘Toewijzing’ doet de leverancier ‘Leveringen’, en dient hij ‘Declaraties’ in. ‘Beschikte Voorzieningen’ zijn van een bepaalde ‘Voorziening’ (zoals hulp en de huishouding, een scootmobiel of een woningaanpassing), waarover met de ‘Leverancier’ prijsafspraken worden gemaakt, welke in ‘Tarief’ zijn terug te vinden.
 De gemeente stuurt een ‘Melding Eigenbijdrage’ aan het CAK, zodat het CAK de maandelijkse eigen bijdrage gaat innen. Dit is gebaseerd op het systeem wat vanaf 2019 is ingevoerd waar een vierwekelijkse eigen bijdrage verschuldigd is van maximaal €17,50 per maand in 2019 (wordt €19,00), dus geen eigen bijdrage gekoppeld aan de voorziening meer. </p>
 <p>Een ‘Beschikte Voorziening’ heeft een bepaalde leveringsvorm: ZIN (Zorg in Natura) of PGB (PersoonsGebonden Budget). Als de zorg wordt geleverd in de vorm van een PGB, dan krijgt de Client een budget (opgenomen in de entiteit ‘Beschikte Voorziening’: eenheid in Euro’s). Voor de afhandeling stuurt de gemeente een TBK-bericht aan het SVB voor verdere afhandeling. Deze informatie wordt opgenomen in ‘PGB-Toekenning’ waarbij periodiek een ‘Budgetuitputting’ hoort.</p>
-<p><img alt="Beperkingen bij Wmo en Jeugd" src="../image/EAID_9B278A50_862A_4085_B362_C41392101916.jpg" title="Beperkingen bij Wmo en Jeugd" /></p>
+<p><a class="glightbox" href="../image/EAID_9B278A50_862A_4085_B362_C41392101916.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Beperkingen bij Wmo en Jeugd" src="../image/EAID_9B278A50_862A_4085_B362_C41392101916.jpg" title="Beperkingen bij Wmo en Jeugd" /></a></p>
 <p>Een ‘Client’ kan meerdere ‘Beschikkingen’ hebben op basis van 1 of meer beperkingen die gescoord zijn met een ‘Beperkingscore’. Zowel ‘Beperking’ als de score komen voor een en referentietabel. In de ‘Wmo-beschikkingen’ worden 1 of meer voorzieningen toegekend, die voorkomen in de lijst voorzieningen die de gemeente Delft ondersteunt.</p>
 <p>Op het moment van schrijven gebruikt Delft de beperkingen niet, omdat ze wel formeel onderdeel uitmaken van de onderliggende standaarden zijn de definities wel opgenomen.</p>
 <p>Het domeinmodel voor de Wmo en de Jeugdwet bouwt voort op het generieke datamodel van het sociaal domein. Het model steunt op de gegevensdefinities uit de <a href="https://www.istandaarden.nl/iwmo">iWmo</a>, <a href="https://www.istandaarden.nl/ijw">iJw</a> en <a href="https://www.istandaarden.nl/ipgb">iPgb</a>  waarin het berichtenverkeer tussen gemeenten en zorgaanbieders staat beschreven.</p>
-<p><img alt="Beperkingen bij Wmo en Jeugd" src="../image/EAID_9B278A50_862A_4085_B362_C41392101916.jpg" title="Beperkingen bij Wmo en Jeugd" /></p>
+<p><a class="glightbox" href="../image/EAID_9B278A50_862A_4085_B362_C41392101916.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Beperkingen bij Wmo en Jeugd" src="../image/EAID_9B278A50_862A_4085_B362_C41392101916.jpg" title="Beperkingen bij Wmo en Jeugd" /></a></p>
 
 
 
@@ -3254,5 +3263,7 @@ De gemeente stuurt een ‘Melding Eigenbijdrage’ aan het CAK, zodat het CAK de
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3192,7 +3201,7 @@
 
 <h1 id="bouwen-en-wonen">Bouwen en wonen</h1>
 <p>In onderstaande figuur zijn de zijn de gegevens te zien die worden bijgehouden over Bouwen en wonen.</p>
-<p><img alt="Model Bouwen en wonen" src="../image/EAID_5B2022A2_1DAB_476d_BBCD_CD27F56F169F.jpg" title="Bouwen en wonen" /></p>
+<p><a class="glightbox" href="../image/EAID_5B2022A2_1DAB_476d_BBCD_CD27F56F169F.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Model Bouwen en wonen" src="../image/EAID_5B2022A2_1DAB_476d_BBCD_CD27F56F169F.jpg" title="Bouwen en wonen" /></a></p>
 
 
 
@@ -3245,5 +3254,7 @@
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

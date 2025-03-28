@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3192,15 +3201,15 @@
 
 <h1 id="hr-human-resources">HR (Human Resources)</h1>
 <p>Het beleidsdomein HR kent de volgende uitwerking.</p>
-<p><img alt="Gegevensmodel HR" src="../image/EAID_891372E6_27FB_442d_9CC4_08C2659E8C53.jpg" title="Gegevensmodel HR" /></p>
+<p><a class="glightbox" href="../image/EAID_891372E6_27FB_442d_9CC4_08C2659E8C53.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Gegevensmodel HR" src="../image/EAID_891372E6_27FB_442d_9CC4_08C2659E8C53.jpg" title="Gegevensmodel HR" /></a></p>
 <p>Centraal staat de ‘Werknemer’ die 1 of meer ‘Aanstellingen’ heeft, en daarnaast: ‘Verlof’, ‘Verzuim’ en een individueel keuzebudget. Deze laatste 3 hebben allemaal stamgegevens, waarin verschillende soorten zijn gedefinieerd. Zoals verschillende soorten verlof: zwangerschapsverlof, ouderschapsverlof, bijzonder verlof en regulier verlof.
 Een ‘Aanstelling’ is voor een bepaalde functie en hoort bij een ‘Afdeling’, deze kan op meerdere locaties zijn. Een ‘Functie’ hoort bij een ‘Functiehuis’, waarin de opbouw van de verschillende functies voor een bepaalde periode staat omschreven.<br />
 Een ‘Werknemer’ kan meerdere beoordelingen hebben, welke worden beoordeeld door een leidinggevende, ook een ‘Werknemer’.</p>
-<p><img alt="Sollicitaties HR" src="../image/EAID_542C38C9_B92F_48de_87F1_F90F64FB5913.jpg" title="Sollicitaties HR" /></p>
+<p><a class="glightbox" href="../image/EAID_542C38C9_B92F_48de_87F1_F90F64FB5913.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Sollicitaties HR" src="../image/EAID_542C38C9_B92F_48de_87F1_F90F64FB5913.jpg" title="Sollicitaties HR" /></a></p>
 <p>In bovenstaand figuur staat de ‘Sollicitatie’ beschreven, welke altijd is op een ‘Vacature’. Een ‘Vacature’ hoort altijd bij 1 functie en kan meerdere vacatureteksten hebben. ‘Sollicitanten’ doen ‘Sollicitaties’ en kunnen meerdere gesprekken hebben, waarbij 1 of meer ‘Werknemers’ betrokken zijn.</p>
-<p><img alt="Documenten HR" src="../image/EAID_E8C1CCDA_FF3C_498a_8FC9_FD6E461092FA.jpg" title="Documenten HR" /></p>
+<p><a class="glightbox" href="../image/EAID_E8C1CCDA_FF3C_498a_8FC9_FD6E461092FA.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Documenten HR" src="../image/EAID_E8C1CCDA_FF3C_498a_8FC9_FD6E461092FA.jpg" title="Documenten HR" /></a></p>
 <p>Het HR-model gebruikt niet direct ‘DOCUMENT’ uit RGBZ, maar alleen afgeleide documenten. Er kunnen verschillende typen documenten gebruikt worden: ‘Arbeidsovereenkomst’, ‘Personeelsdocument’ waarin allerlei personeelsafspraken staan vastgelegd en kan gebruikt worden voor andere communicatie en ‘Vacaturetekst’.</p>
-<p><img alt="Personen en HR" src="../image/EAID_6409BBCD_026C_40ea_BC54_EE3B816D8CAB.jpg" title="Personen en HR" /></p>
+<p><a class="glightbox" href="../image/EAID_6409BBCD_026C_40ea_BC54_EE3B816D8CAB.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Personen en HR" src="../image/EAID_6409BBCD_026C_40ea_BC54_EE3B816D8CAB.jpg" title="Personen en HR" /></a></p>
 <p>Het HR-model gebruikt niet direct personen, zoals gedefinieerd in de RSGB, alleen afgeleide entiteiten. In voorgaand figuur is te zien hoe het entiteit ‘Werknemer’ en de daaraan gekoppelde entiteit ‘Relatie’ zijn gedefinieerd.</p>
 
 
@@ -3254,5 +3263,7 @@ Een ‘Werknemer’ kan meerdere beoordelingen hebben, welke worden beoordeeld d
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3194,7 +3203,7 @@
 
 <h1 id="monumenten">Monumenten</h1>
 <p>Als kern in het entiteitenmodel monumenten staat ‘Beschermde Status’ Hierin zijn de gegevens en relaties uitgewerkt die geregistreerd staan over een monument. Dit buiten de gegevens die al de BAG (Basisregistratie Adressen en Gebouwen) en de BRK (Basisregistratie Kadaster). In de volgende figuur is uitgewerkt wat de relatie is met deze basisregistraties.</p>
-<p><img alt="Monumenten Gegevensdefinities" src="../image/EAID_58EA4966_DBC2_4359_94C4_ABC774DBE5E2.jpg" title="Monumenten Gegevensdefinities" /></p>
+<p><a class="glightbox" href="../image/EAID_58EA4966_DBC2_4359_94C4_ABC774DBE5E2.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Monumenten Gegevensdefinities" src="../image/EAID_58EA4966_DBC2_4359_94C4_ABC774DBE5E2.jpg" title="Monumenten Gegevensdefinities" /></a></p>
 <p>In ‘Beschermde Status’ staan zaken opgenomen als: rijksmonumentcode en/of gemeentemonumentcode, datum opname in register, omschrijving en soort monument. Aan ‘Beschermde Status’ zijn gekoppeld (met per gekoppeld entiteit de attributen):</p>
 <ul>
 <li>‘Bouwactiviteit’ (0 of meer): bouwjaar vanaf, bouwjaar tot, indicatie, omschrijving;</li>
@@ -3205,7 +3214,7 @@
 <li>‘Bouwstijl’ (0 of meer): hoofdstijl, substijl, zuiverheid en toelichting</li>
 <li>‘Oorspronkelijke functie’ (0 of meer): functie, functiesoort en hoofdfunctie, hoofdcategorie, subcategorie en toelichting.</li>
 </ul>
-<p><img alt="Monumenten Gegevensdefinities en relatie tot kernentiteiten" src="../image/EAID_7429E175_1CBE_4336_BF92_6C5029395E69.jpg" title="Monumenten Gegevensdefinities en relatie tot kernentiteiten" /></p>
+<p><a class="glightbox" href="../image/EAID_7429E175_1CBE_4336_BF92_6C5029395E69.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Monumenten Gegevensdefinities en relatie tot kernentiteiten" src="../image/EAID_7429E175_1CBE_4336_BF92_6C5029395E69.jpg" title="Monumenten Gegevensdefinities en relatie tot kernentiteiten" /></a></p>
 <p>Een ‘Beschermde Status’ kan één of meerdere ‘KADASTRALE ONROERENDE ZAAK’(en) betreffen, en ook één of meer stuk(ken) ‘Openbare Ruimte’ betreffen, zoals een (deel van een) straat of een stuk groen. Zowel ‘KADASTRALE ONROERENDE ZAAK’ als ‘Openbare Ruimte’ komen uit de RSGB en hebben een koppeling met de BAG, waardoor ze te relateren zijn aan informatie uit de basisregistraties. De terminologie uit de RSGB is hier aangehouden om aan te sluiten op de overige onderdelen uit het Gemeentelijk Gegevensmodel en op de basisregistraties. </p>
 
 
@@ -3259,5 +3268,7 @@
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

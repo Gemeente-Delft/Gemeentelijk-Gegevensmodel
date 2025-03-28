@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3193,7 +3202,7 @@
 <h1 id="sociale-teams">Sociale Teams</h1>
 <p>Het gegevensmodel voor de sociale teams is net als de andere modellen binnen het sociaal domein opgebouwd rond het <a href="../socdomeingeneriek/">objecttype ‘Client’</a>. Dienstverlening door de sociale teams verloopt op basis van de ZRM (zelfredzaamheidsmatrix). In het model voor de sociale teams is deze uitgewerkt in een aantal criteria en een aantal niveaus waar de cliënt op kan scoren. De scores van de cliënt worden bijgehouden in ‘ScoreZRMPerCriterium’ die wordt opgeteld in ‘ScoreZRM’, waar de cliënt er in de loop van de tijd meerdere van kan hebben.
 Naar aanleiding van deze scores wordt voor de cliënt een ‘PlanVanAanpak’ opgesteld.</p>
-<p><img alt="Gegevensmodel Sociale Teams" src="../image/EAID_50F1F1BC_5866_45b9_A062_4C41F0C7766C.jpg" title="Gegevensmodel Sociale Teams" /></p>
+<p><a class="glightbox" href="../image/EAID_50F1F1BC_5866_45b9_A062_4C41F0C7766C.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Gegevensmodel Sociale Teams" src="../image/EAID_50F1F1BC_5866_45b9_A062_4C41F0C7766C.jpg" title="Gegevensmodel Sociale Teams" /></a></p>
 
 
 
@@ -3246,5 +3255,7 @@ Naar aanleiding van deze scores wordt voor de cliënt een ‘PlanVanAanpak’ op
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

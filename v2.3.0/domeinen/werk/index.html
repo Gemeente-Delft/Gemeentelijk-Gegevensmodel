@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3195,7 +3204,7 @@
 <p>Een Traject beschrijft de route die een cliënt volgt richting werk. Er zijn verschillende soorten trajecten, vastgelegd onder het objecttype ‘Trajectsoort’. Tijdens een traject kan een cliënt ondersteund worden door een Clientbegeleider, een medewerker van de gemeente.</p>
 <p>Naast de activiteiten en het type traject wordt ook het taalniveau van de cliënt vastgelegd, wat van belang kan zijn voor het bepalen van geschikte tegenprestaties. Een Tegenprestatie kan bijvoorbeeld bestaan uit vrijwilligerswerk en wordt gekoppeld aan een bepaalde Tegenprestatiehoogte, die op haar beurt binnen een Doelgroep valt.</p>
 <p>Indien een traject eindigt, wordt dit gemotiveerd met een Reden Beëindiging.</p>
-<p><img alt="Gegevensmodel Werk" src="../image/EAID_E4775580_7D10_4cfa_A78A_BBC88B589673.jpg" title="Gegevensmodel Werk" /></p>
+<p><a class="glightbox" href="../image/EAID_E4775580_7D10_4cfa_A78A_BBC88B589673.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Gegevensmodel Werk" src="../image/EAID_E4775580_7D10_4cfa_A78A_BBC88B589673.jpg" title="Gegevensmodel Werk" /></a></p>
 
 
 
@@ -3248,5 +3257,7 @@
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

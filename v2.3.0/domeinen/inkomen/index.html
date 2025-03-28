@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3657,7 +3666,7 @@
 </div>
 <h2 id="inkomen-basis-objecttypen">Inkomen (Basis objecttypen)</h2>
 <p>Het informatiemodel <em>Inkomen</em> biedt een gestructureerde weergave van de gegevens en relaties die relevant zijn binnen het sociaal domein, specifiek gericht op inkomensvoorzieningen. Het model is ontworpen om de administratieve processen rondom uitkeringen en inkomensondersteuning te ondersteunen. Het informatiemodel is net als de andere modellen binnen het sociaal domein opgebouwd rond het <a href="../socdomeingeneriek/">objecttype ‘Client’</a>. Deze kan 1 of meer inkomensvoorzieningen hebben, zoals een bijstandsuitkering, bijzondere bijstand of IOAZ.</p>
-<p><img alt="Basismodel Inkomen" src="../image/EAID_9CEE3C86_9B9F_472f_A104_61FFC01DAC5A.jpg" title="Basismodel Inkomen" /></p>
+<p><a class="glightbox" href="../image/EAID_9CEE3C86_9B9F_472f_A104_61FFC01DAC5A.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Basismodel Inkomen" src="../image/EAID_9CEE3C86_9B9F_472f_A104_61FFC01DAC5A.jpg" title="Basismodel Inkomen" /></a></p>
 <h3 id="belangrijkste-entiteiten">Belangrijkste Entiteiten</h3>
 <ol>
 <li>
@@ -3720,10 +3729,10 @@
 <li>Diensten.</li>
 </ol>
 <p>Deze sub-domeinen worden als volgt aan het GGM gekoppeld:</p>
-<p><img alt="Relatie tussen GBI en GGM" src="../image/EAID_FD4BAB10_5D3E_4d14_8949_24CA09AC42A7.jpg" title="Relatie tussen GBI en GGM" /></p>
+<p><a class="glightbox" href="../image/EAID_FD4BAB10_5D3E_4d14_8949_24CA09AC42A7.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Relatie tussen GBI en GGM" src="../image/EAID_FD4BAB10_5D3E_4d14_8949_24CA09AC42A7.jpg" title="Relatie tussen GBI en GGM" /></a></p>
 <h3 id="normafwijking">Normafwijking</h3>
 <p>Het onderdeel <em>Normafwijking</em> bricht zich op de registratie en afhandeling van situaties waarin een afwijking van de gestelde normen wordt geconstateerd bij inkomensvoorzieningen. De bijgevoegde afbeelding visualiseert de structuur van dit model en toont de relaties tussen verschillende objecttypen die betrokken zijn bij normafwijkingen. Hieronder volgt een gedetailleerde beschrijving van de elementen en hun onderlinge relaties.</p>
-<p><img alt="Normafwijking" src="../image/EAID_1818B773_1463_43c7_BACA_FEE391FE27CD.jpg" title="Normafwijking" /></p>
+<p><a class="glightbox" href="../image/EAID_1818B773_1463_43c7_BACA_FEE391FE27CD.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Normafwijking" src="../image/EAID_1818B773_1463_43c7_BACA_FEE391FE27CD.jpg" title="Normafwijking" /></a></p>
 <h4 id="objecttypen-en-relaties">Objecttypen en Relaties</h4>
 <ol>
 <li>
@@ -3761,7 +3770,7 @@
 </ul>
 <h3 id="reden-aanvraag">Reden aanvraag</h3>
 <p>Het onderdeel <em>Reden aanvraag</em> richt zich op de registratie en categorisatie van redenen waarom een cliënt een inkomensvoorziening aanvraagt. Dit model biedt een overzicht van de verschillende soorten redenen en hun onderlinge relaties, waardoor gemeenten deze informatie gestructureerd kunnen vastleggen en verwerken. Hieronder volgt een gedetailleerde beschrijving van de elementen zoals weergegeven in de bijgevoegde afbeelding.</p>
-<p><img alt="Reden aanvraag" src="../image/EAID_B87D7E99_417E_4b99_BEC1_B319BE85AECA.jpg" title="Reden aanvraag" /></p>
+<p><a class="glightbox" href="../image/EAID_B87D7E99_417E_4b99_BEC1_B319BE85AECA.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Reden aanvraag" src="../image/EAID_B87D7E99_417E_4b99_BEC1_B319BE85AECA.jpg" title="Reden aanvraag" /></a></p>
 <h4 id="objecttypen-en-relaties_1">Objecttypen en Relaties</h4>
 <ol>
 <li>
@@ -3806,7 +3815,7 @@
 </ul>
 <h3 id="terug-en-invordering">Terug- en invordering</h3>
 <p>Het onderdeel <em>Terug- en Invordering</em> richt zich op de processen en gegevens rondom het terugvorderen en invorderen van onterecht verstrekte inkomensvoorzieningen. Dit model biedt een gestructureerde weergave van de objecttypen en hun onderlinge relaties die nodig zijn om deze financiële processen effectief te beheren. Hieronder volgt een gedetailleerde beschrijving van de elementen zoals weergegeven in de bijgevoegde afbeelding.</p>
-<p><img alt="Terug- en invordering" src="../image/EAID_CE436DEE_AB15_4f23_B191_FA8A63FB488D.jpg" title="Terug- en invordering" /></p>
+<p><a class="glightbox" href="../image/EAID_CE436DEE_AB15_4f23_B191_FA8A63FB488D.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Terug- en invordering" src="../image/EAID_CE436DEE_AB15_4f23_B191_FA8A63FB488D.jpg" title="Terug- en invordering" /></a></p>
 <h4 id="objecttypen-en-relaties_2">Objecttypen en Relaties</h4>
 <ol>
 <li>
@@ -3866,7 +3875,7 @@
 </ul>
 <h3 id="dienstenmodel">Dienstenmodel</h3>
 <p>Het <em>Dienstenmodel</em> biedt een gestructureerde weergave van de processen en objecttypen die betrokken zijn bij het leveren van diensten binnen het sociaal domein. Het model richt zich op de relaties tussen aanvragen, besluiten, rechten en voorwaarden die de basis vormen voor het verstrekken van voorzieningen. Hieronder volgt een gedetailleerde beschrijving van de elementen zoals weergegeven in de bijgevoegde afbeelding.</p>
-<p><img alt="Dienstenmodel" src="../image/EAID_49670B34_2BC4_4972_BC7C_3F5793B27A73.jpg" title="Dienstenmodel" /></p>
+<p><a class="glightbox" href="../image/EAID_49670B34_2BC4_4972_BC7C_3F5793B27A73.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Dienstenmodel" src="../image/EAID_49670B34_2BC4_4972_BC7C_3F5793B27A73.jpg" title="Dienstenmodel" /></a></p>
 <h4 id="objecttypen-en-relaties_3">Objecttypen en Relaties</h4>
 <ol>
 <li>
@@ -3975,5 +3984,7 @@
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

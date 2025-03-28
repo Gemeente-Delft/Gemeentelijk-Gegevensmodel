@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3195,7 +3204,7 @@
 <p>Op basis van een ‘Subsidie’ kunnen er meerdere voorschotten ontvangen/betaald worden, en kunnen er meerdere taken bij een ‘Medewerker’ van de gemeente liggen. Ook kunnen er meerdere rapportagemomenten aan een subsidie zijn gekoppeld.</p>
 <p>Een ‘Subsidie’ kan binnen een ‘Subsidieproject’ vallen, waarbinnen de doelstelling van dat programma is vastgelegd. Een ‘Subsidieproject’ valt binnen een ‘Subsidieprogramma’ dat is gekoppeld aan een ‘Kostenplaats’ en een ‘Organisatorische Eenheid’ (Afdeling). Subsidies vallen binnen een bepaalde ‘Sector’. Een subsidiedossier kan onder meerdere begrotingsposten hebben. Een begrotingspost heeft meerdere subsidiedossiers eronder hangen. 
 ‘Component’ stelt ons in staat een subsidie in componenten over meerdere kostenplaatsen te verdelen. </p>
-<p><img alt="Gegevensdefinities Subsidies" src="../image/EAID_F408BDED_51D4_4204_9B95_F0C6C2474DC3.jpg" title="Gegevensdefinities Subsidies" /></p>
+<p><a class="glightbox" href="../image/EAID_F408BDED_51D4_4204_9B95_F0C6C2474DC3.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Gegevensdefinities Subsidies" src="../image/EAID_F408BDED_51D4_4204_9B95_F0C6C2474DC3.jpg" title="Gegevensdefinities Subsidies" /></a></p>
 
 
 
@@ -3248,5 +3257,7 @@
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

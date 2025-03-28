@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3334,7 +3343,7 @@
 <p>Binnen het Sociaal Domein is één objecttype ‘Client’ waaraan alle dienstverlening is gekoppeld. Zo is het sociaal domein losgekoppeld van de andere domeinen en kan persoonsgebonden informatie apart toegankelijk gemaakt worden. </p>
 <h2 id="huishouden">Huishouden</h2>
 <p>Er maakt tenminste 1 Natuurlijk Persoon deel uit van een Huishouden, en een Natuurlijk Persoon heeft maximaal 1 huishouden. Een Huishouden heeft altijd precies 1 adres. Er is gekozen het huishouden te koppelen aan Natuurlijk Persoon zodat ook niet geregistreerde personen deel kunnen uitmaken van een huishouden. Daarnaast is het Huwelijk of Geregistreerd partnerschap gekoppeld aan Natuurlijk Persoon en zijn de Groepsattribuutsoorten Sluiting en Ontbinding aan het Huwelijk gekoppeld.</p>
-<p><img alt="Gegevensmodel Client, Huishouden en huwelijk" src="../image/EAID_CABB9F3F_A6ED_479a_A175_6F61BE2BE8F8.jpg" title="Gegevensmodel Huishouden" /></p>
+<p><a class="glightbox" href="../image/EAID_CABB9F3F_A6ED_479a_A175_6F61BE2BE8F8.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Gegevensmodel Client, Huishouden en huwelijk" src="../image/EAID_CABB9F3F_A6ED_479a_A175_6F61BE2BE8F8.jpg" title="Gegevensmodel Huishouden" /></a></p>
 <h2 id="sociale-relaties-en-sociale-groepen">Sociale Relaties en Sociale Groepen</h2>
 <p>We introduceren Sociale Relatie en Sociale Groep en koppelen die aan Natuurlijk Persoon. We introduceren de rol die iemand in de Sociale Relatie met iemand anders heeft.
 -   De buurman
@@ -3342,10 +3351,10 @@
 -   Lid van voetbalvereniging
 -   Lid van motorbende
 -   De scope van de mensen waar deze casus, dit plan betrekking op heeft</p>
-<p><img alt="Gegevensmodel Sociale relaties" src="../image/EAID_69607C8F_8048_4516_BE75_80C681DFEAC0.jpg" title="Gegevensmodel Sociale relaties" /></p>
+<p><a class="glightbox" href="../image/EAID_69607C8F_8048_4516_BE75_80C681DFEAC0.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Gegevensmodel Sociale relaties" src="../image/EAID_69607C8F_8048_4516_BE75_80C681DFEAC0.jpg" title="Gegevensmodel Sociale relaties" /></a></p>
 <h2 id="gezagsverhouding">Gezagsverhouding</h2>
 <p>De gezagsverhouding definieert het gezag over een persoon. Hierbij is het belangrijk onderscheid te maken tussen gezag over een minderjarige en over een meerderjarige. De gezagsverhouding kan gebaseerd zijn op een Gerechtelijke uitspraak.</p>
-<p><img alt="Gegevensmodel Gezagsverhouding" src="../image/EAID_227EBDFE_6FD0_4a47_85A4_FAC4AEFE003E.jpg" title="Gegevensmodel Gezagsverhouding" /></p>
+<p><a class="glightbox" href="../image/EAID_227EBDFE_6FD0_4a47_85A4_FAC4AEFE003E.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Gegevensmodel Gezagsverhouding" src="../image/EAID_227EBDFE_6FD0_4a47_85A4_FAC4AEFE003E.jpg" title="Gegevensmodel Gezagsverhouding" /></a></p>
 <h3 id="gezag-minderjarige">Gezag minderjarige</h3>
 <p>In Nederland zijn er verschillende vormen van gezag mogelijk over een kind, die bepalen wie verantwoordelijk is voor de verzorging en opvoeding van het kind, wie het kind wettelijk mag vertegenwoordigen en beslissingen mag nemen over belangrijke zaken zoals onderwijs en medische behandelingen. De belangrijkste vormen van gezag zijn:</p>
 <ol>
@@ -3415,5 +3424,7 @@ In Nederland kan het gezag over een kind inderdaad ook aan een instantie worden 
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

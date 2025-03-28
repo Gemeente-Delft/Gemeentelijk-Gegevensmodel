@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3195,14 +3204,14 @@
 Huurcontracten en koopcontracten worden volgens Kern:RSGB gemodelleerd via het objecttype ‘Zakelijk Recht’. Hieraan is danwel een eigenaar danwel een huurder gekoppeld. Beiden zijn ‘RECHTSPERSOON’ uit de Kern: RSGB.
 Het ‘Object’ is gekoppeld aan een ‘Kostenplaats’ uit het financiële model en de ‘Werkbon’ hoort bij een ‘Verplichting’ uit het financiële model. Zo is de koppeling met financiën verankerd.
 Bovenstaande is weergegeven in onderstaande figuren.</p>
-<p><img alt="Gegevensmodel Vastgoed" src="../image/EAID_00D4246F_6ED7_4690_A180_ACCCD6AB1291.jpg" title="Gegevensmodel Vastgoed" /></p>
+<p><a class="glightbox" href="../image/EAID_00D4246F_6ED7_4690_A180_ACCCD6AB1291.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Gegevensmodel Vastgoed" src="../image/EAID_00D4246F_6ED7_4690_A180_ACCCD6AB1291.jpg" title="Gegevensmodel Vastgoed" /></a></p>
 <p>De relatie met leveranciers is weergegeven in onderstaand figuur.</p>
-<p><img alt="Vastgoed Leveranciers" src="../image/EAID_06E44472_8C2A_40eb_9965_DCF91A1322C9.jpg" title="Vastgoed Leveranciers" /></p>
+<p><a class="glightbox" href="../image/EAID_06E44472_8C2A_40eb_9965_DCF91A1322C9.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Vastgoed Leveranciers" src="../image/EAID_06E44472_8C2A_40eb_9965_DCF91A1322C9.jpg" title="Vastgoed Leveranciers" /></a></p>
 <p>Het gemeentelijk vastgoed objecttype 'Vastgoedobject' is gekoppeld aan 'Kadastrale Onroerende Zaak'. Immers met het objecttype 'Vastgoedobject' wordt het bezit van een bepaald object weergegeven. Bezit van onroerende zaken is vastgelegd in de BRK, en beschikbaar via 'Kadastrale Onroerende Zaak'. Deze koppeling verloopt via een meer-op-meer-relatie, aangezien een bezit meerdere percelen kan beslaan, en er meerdere bezittingen op een perceel kunnen liggen (in het geval van appartementsrechten).
 Aan een 'Kadastrale Onroerende Zaak' zijn 'Benoemde Objecten' gekoppeld, dit kunnen: 'Overig Gebouwd Object, Verblijfsobject', 'Standplaats', 'Ligplaats' of 'Overig Benoemd Terrein' zijn. Deze hebben op hun beurt een 'Nummeraanduiding', waarmee het adres kan worden bepaald.
 De koppeling naar de eigenaar van een 'Kadastrale Onroerende Zaak' verloopt via het 'Zakelijk Recht' en de 'Tennaamstelling'. Er bestaan overigens ook andere soorten zakelijkrecht, zoals: recht van vruchtgebruik en recht van overpad.  </p>
 <p>De Kadastrale objecttypen zijn <a href="../ruimteAlgemeen/#bag-basisregistratie-adressen-en-gebouwen">hier</a> verder uitgewerkt, dus ik verwijs hier voor verdere informatie. Conform RSGB 3.0 ligt de 'Tennaamstelling' tussen 'Zakelijk Recht' en 'Rechtspersoon'. Ook is de relatie toegevoegd: 'Gesitueerd op' (<a href="../../generatie/#voorbeeld-c">varkensoortje</a>) van 'Kadastrale Onroerende Zaak' met zichzelf. Dit om het gemakkelijk mogelijk te maken de bepalen op welk perceel een bepaald appartementsrecht ligt.</p>
-<p><img alt="Vastgoed Relatie tot RSGB" src="../image/EAID_EFF3FBED_B92D_4172_B142_567C2B6ACF01.jpg" title="Vastgoed Relatie tot RSGB" /></p>
+<p><a class="glightbox" href="../image/EAID_EFF3FBED_B92D_4172_B142_567C2B6ACF01.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Vastgoed Relatie tot RSGB" src="../image/EAID_EFF3FBED_B92D_4172_B142_567C2B6ACF01.jpg" title="Vastgoed Relatie tot RSGB" /></a></p>
 
 
 
@@ -3255,5 +3264,7 @@ De koppeling naar de eigenaar van een 'Kadastrale Onroerende Zaak' verloopt via 
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

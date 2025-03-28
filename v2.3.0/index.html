@@ -59,7 +59,16 @@
     
     
     
-  </head>
+   <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3330,7 +3339,7 @@
 <p>Bij het GGM is een set <em>codegeneratietemplates</em> ontwikkeld voor het genereren van fysieke datamodellen op basis van (onderdelen van) het GGM. Hiermee genereer je DDL voor diverse RDBMS'en. Wij gebruikten Oracle en in ongeteste vorm zijn de templates beschikbaar voor MySQL, en maakten hier diverse aanvullingen voor. Het gaat hier om templates voor het <a href="https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html">Code Template Framework</a> van Enterprise Architect.</p>
 <p align="center">
   <a href="https://www.gemeentedelers.nl/"> 
-      <img width="460" src="image/WinnaarGemeenteDelers2022.png" alt="Winnaar Gemeentedelers 2022">
+      <a class="glightbox" href="image/WinnaarGemeenteDelers2022.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img width="460" src="image/WinnaarGemeenteDelers2022.png" alt="Winnaar Gemeentedelers 2022"></a>
   </a>
 </p>
 
@@ -3338,7 +3347,7 @@
 <p>De Expert Review Groep van de Common Ground heeft het initiatief GGM besproken en besloten het initiatief de classificatie Goud te geven op het <a href="https://commonground.nl/page/view/b68441ec-e536-4f81-82d8-ce6f3d6606a9/portfolio">Common Ground portfolio</a>. Deze classificatie is gerelateerd aan de toets op de architectuur en realisatie principes. We zijn tot deze conclusie gekomen op basis van de ontvangen antwoorden. </p>
 <h2 id="opbouw-gemeentelijk-gegevensmodel">Opbouw Gemeentelijk Gegevensmodel</h2>
 <p>Het GGM kent een gelaagde opbouw, waarbij verschillende objecttypen over beleidsdomeinen heen zoveel mogelijk zijn ontkoppeld. Alleen objecttypen in de onderste lagen van het model worden gebruikt door de bovenliggende onderdelen.</p>
-<p><img alt="Gelaagdheid Domeinen" src="image/GelaagdheidDomeinen.jpg" title="Gelaagdheid Domeinen" /></p>
+<p><a class="glightbox" href="image/GelaagdheidDomeinen.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Gelaagdheid Domeinen" src="image/GelaagdheidDomeinen.jpg" title="Gelaagdheid Domeinen" /></a></p>
 <p>Het gegevensmodel is uitgewerkt in een aantal verticale beleidsdomeinen en 4 horizontale beleidsdomeinen. De horizontale delen (Kern, Financiën, ICT en Dienstverlening) vormen de basis van het gegevensmodel, waarop de verticale delen voortbouwen. De Kern bestaat uit RSGB en RGBZ, die de gegevensdefinities bevatten die zoals die gelden voor de basisregistraties (RSGB) en zaakgericht werken (RGBZ).  </p>
 <p>Er is ontkoppeling tussen de verschillende (sub)domeinen nagestreefd, doordat in de gegevensdefinities van het gegevensmodel (sub)domeinen alleen definities uit onderliggende (sub)domeinen gebruiken. Zo gebruiken alle (sub)domeinen gegevensdefinities uit Kern en kunnen alle verticale (sub)domeinen gegevensdefinities gebruiken uit de 4 horizontale modellen.</p>
 <h3 id="beleidsdomeinen">Beleidsdomeinen</h3>
@@ -3453,7 +3462,7 @@
 <li>Gegevensmodel: het gegevensmodel wordt opgebouwd door de in de vorige stap gevonden gegevens te vertalen naar objecttypen (gegevenssoorten). Landelijke standaarden dienen hier zoveel mogelijk als uitgangspunt. Veel van de gebruikte applicaties ondersteunen deze landelijke standaarden, waardoor compatibiliteit zo goed mogelijk wordt gegarandeerd.</li>
 <li>Databaseschema: er is generator gerealiseerd waarmee op basis van de definities in het gegevensmodel met ‘een druk op de knop’ databasetabellen gegenereerd kunnen worden. Hiermee is het mogelijk de basis te leggen voor een datawarehouse en is het mogelijk gegevens uit de applicaties te laden waardoor confrontatie van het model met de data mogelijk is.</li>
 </ol>
-<p><img alt="Aanpak GGM 1" src="image/AanpakGGM.jpg" title="Aanpak GGM" /></p>
+<p><a class="glightbox" href="image/AanpakGGM.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Aanpak GGM 1" src="image/AanpakGGM.jpg" title="Aanpak GGM" /></a></p>
 
 
 
@@ -3506,5 +3515,7 @@
       <script src="assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

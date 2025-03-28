@@ -59,7 +59,16 @@
     
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3319,7 +3328,7 @@
 </code></pre></div>
 <h3 id="toegang-tot-de-notebooks">Toegang tot de notebooks</h3>
 <p>Je kunt nu bij de jupyter notebooks via <a href="http://localhost:8888/">http://localhost:8888/</a>. De directories "input" en "output" uit de tools-directory zijn nu ook binnen de container gekloppeld en zichtbaar bij de notebooks.</p>
-<p><img alt="Input en Output zijn zichtbaar" src="../image/input_output.png" /></p>
+<p><a class="glightbox" href="../image/input_output.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Input en Output zijn zichtbaar" src="../image/input_output.png" /></a></p>
 <h3 id="notebooks-gebruiken">Notebooks gebruiken</h3>
 <p>Binnen de huidige toolset zijn de volgende notebooks beschikbaar:</p>
 <ol>
@@ -3379,5 +3388,7 @@
       <script src="../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3344,14 +3353,14 @@
 <li>(Optioneel) Maak nieuw project</li>
 <li>Kies <em>"Import Package from XMI"</em></li>
 </ol>
-<p><img alt="Import XMI" src="../image/ImportPackage.png" title="Import XMI via tabblad Publish" /></p>
+<p><a class="glightbox" href="../image/ImportPackage.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Import XMI" src="../image/ImportPackage.png" title="Import XMI via tabblad Publish" /></a></p>
 <p>5. Selecteer bij ”Filename” het gedownloade bestand “Gemeentelijk Gegevensmodel XMI2.1.xml”</p>
-<p><img alt="Select Filename" src="../image/SelectFilename.png" title="Select Filename" /></p>
+<p><a class="glightbox" href="../image/SelectFilename.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Select Filename" src="../image/SelectFilename.png" title="Select Filename" /></a></p>
 <p>6. Laat de instellingen zoals ze staan en druk op <em>“Import”</em></p>
-<p><img alt="Import Package" src="../image/ImportPackage.png" title="Import Package" /></p>
+<p><a class="glightbox" href="../image/ImportPackage.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Import Package" src="../image/ImportPackage.png" title="Import Package" /></a></p>
 <p>7. Even wachten….
 8. Open het Model en je ziet de verschillende Beleidsdomeinen en de bijbehorende diagrammen</p>
-<p><img alt="Open Diagram" src="../image/OpenDiagram.png" title="Open Diagram" /></p>
+<p><a class="glightbox" href="../image/OpenDiagram.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Open Diagram" src="../image/OpenDiagram.png" title="Open Diagram" /></a></p>
 <p>8. Succes!</p>
 <h2 id="installatie-gemeentelijk-gegevensmodel-in-bizzdesign">Installatie Gemeentelijk Gegevensmodel in Bizzdesign</h2>
 <p>Het Gemeentelijk Gegevensmodel (GGM) kan als <a href="https://www.omg.org/spec/XMI/About-XMI/">XMI-vorm</a> worden geïmporteerd in een bestaand project in <a href="https://bizzdesign.com">Bizzdesign</a>. Hiervoor wordt een apart script gebruikt dat Bizzdesign speciaal voor het GGM beschikbaar heeft gesteld.</p>
@@ -3361,9 +3370,9 @@ project binnen Bizzdesign te importeren.</p>
 <p>1. Download het bestand <a href="https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/v2.3.0/Gemeentelijk%20Gegevensmodel%20XMI2.1.xml">Gemeentelijk Gegevensmodel XMI2.1</a></p>
 <p>2. Start Bizzdesign</p>
 <p>3. Open een nieuw modelpackage met een leeg UML-model, of voeg een leeg UML-model toe aan een bestaand modelpackage</p>
-<p><img alt="Open een nieuw modelpackage" src="../image/Bizzdesign_stap1.png" title="Open een nieuw modelpackage" /></p>
+<p><a class="glightbox" href="../image/Bizzdesign_stap1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Open een nieuw modelpackage" src="../image/Bizzdesign_stap1.png" title="Open een nieuw modelpackage" /></a></p>
 <p>4. Selecteer het UML-model, en open de query-editor met ctrl-Q. Kopieer de inhoud van het scriptbestand <a href="https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/UML%20XMI%20import%20Bizzdesign.txt">UML XMI import Bizzdesign.txt</a> in de query-editor. Sla eventueel het script op in het model.</p>
-<p><img alt="Selecteer het UML-model" src="../image/Bizzdesign_stap2.png" title="Selecteer het UML-model" /></p>
+<p><a class="glightbox" href="../image/Bizzdesign_stap2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Selecteer het UML-model" src="../image/Bizzdesign_stap2.png" title="Selecteer het UML-model" /></a></p>
 <p>5. Voer het script uit via de Execute-knop van de query-editor, en kies het XMI-bestand 'Gemeentelijk Gegevensmodel XMI2.1' dat je net hebt gedownload. De inhoud wordt geïmporteerd in het geselecteerde UML-model. Zorg dat het uitvoertype op “Geen output” of “Tabel” staat en niet op “Tekstbestand”. Tijdens het uitvoeren van het script kun je waarschuwingen krijgen, die kun je negeren.  </p>
 <p>6. Even wachten….</p>
 <p>7. Succes!</p>
@@ -3424,5 +3433,7 @@ project binnen Bizzdesign te importeren.</p>
       <script src="../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

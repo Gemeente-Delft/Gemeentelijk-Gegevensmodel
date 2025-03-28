@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3207,7 +3216,7 @@
 </ul>
 <p>In onderstaand diagram wordt het model RGBZ getoond. Kanttekening hierbij is dat Zaken altijd betrekking hebben op één of meer objecten uit andere domeinen. Omwille van de 
 overzichtelijkheid zijn die objecten niet opgenomen in het diagram.</p>
-<p><img alt="Model RGBZ" src="../image/EAID_8AC9A512_0538_48f7_B25E_5BC65B17A147.jpg" /></p>
+<p><a class="glightbox" href="../image/EAID_8AC9A512_0538_48f7_B25E_5BC65B17A147.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Model RGBZ" src="../image/EAID_8AC9A512_0538_48f7_B25E_5BC65B17A147.jpg" /></a></p>
 <p>Voor meer informatie over het model RGBZ kunt u terecht bij deze <a href="https://vng-realisatie.github.io/RGBZ/">GEMMA pagina's</a></p>
 
 
@@ -3261,5 +3270,7 @@ overzichtelijkheid zijn die objecten niet opgenomen in het diagram.</p>
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3192,7 +3201,7 @@
 
 <h1 id="gemeentebegraven">Gemeentebegraven</h1>
 <p>Een 'Gemeentebegrafenis' is gekoppeld aan een 'Natuurlijk Persoon', aangezien de gemeentelijke plicht verder reikt dan alleen personen die zijn ingeschreven. Het komt ook voor dat bijvoorbeeld buitenlanders een gemeentebegrafenis krijgen. In de volgende figuur 14 is te zien dat een 'NATUURLIJK PERSOON' een 'Gemeentebegrafenis' kan hebben.</p>
-<p><img alt="Gegevensmodel Gemeentebegraven" src="../image/EAID_949AE9E2_95EB_4063_B7C5_E81971D410B3.jpg" title="Gegevensmodel Gemeentebegraven" /></p>
+<p><a class="glightbox" href="../image/EAID_949AE9E2_95EB_4063_B7C5_E81971D410B3.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Gegevensmodel Gemeentebegraven" src="../image/EAID_949AE9E2_95EB_4063_B7C5_E81971D410B3.jpg" title="Gegevensmodel Gemeentebegraven" /></a></p>
 
 
 
@@ -3245,5 +3254,7 @@
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

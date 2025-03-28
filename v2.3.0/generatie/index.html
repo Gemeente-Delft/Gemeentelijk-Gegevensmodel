@@ -61,7 +61,16 @@
     
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -3557,11 +3566,11 @@
 <li>(Optioneel) Maak nieuw project</li>
 <li>Kies <em>Import Reference Data</em></li>
 </ol>
-<p><img alt="Import Reference Data" src="../image/ImportRefData.png" title="Import Referencedata" /></p>
+<p><a class="glightbox" href="../image/ImportRefData.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Import Reference Data" src="../image/ImportRefData.png" title="Import Referencedata" /></a></p>
 <p>5. Selecteer het zojuist gedownloade bestand 'CodegeneratieTemplates.xml', selecteer alle templates en druk op <em>Import</em></p>
-<p><img alt="Import Templates" src="../image/KiesTemplates.png" title="Kies templates" /></p>
+<p><a class="glightbox" href="../image/KiesTemplates.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Import Templates" src="../image/KiesTemplates.png" title="Kies templates" /></a></p>
 <p>6. De templates zijn klaar voor gebruik en je vindt ze onder <em>Transform</em></p>
-<p><img alt="Gebruik Templates" src="../image/GebruikTemplates.png" title="Gebruik templates" /></p>
+<p><a class="glightbox" href="../image/GebruikTemplates.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Gebruik Templates" src="../image/GebruikTemplates.png" title="Gebruik templates" /></a></p>
 <p>7. Succes!</p>
 <h2 id="gebruiken-codegeneratietemplates">Gebruiken Codegeneratietemplates</h2>
 <p>Het uitgenereren vanuit het GGM naar DDL bestaat uit twee stappen:</p>
@@ -3571,31 +3580,31 @@
 </ol>
 <h3 id="voordat-je-begint">Voordat je begint</h3>
 <p>Zorg allereerst dat er in je project naast het GGM ook een plek is waar je de tabellen heen kunt schrijven. Hiervoor gebruiken wij een aparte node naast de root node. In het voorbeeld is dat de map <code>&lt;&lt;DataModel&gt;&gt; Tables/Ruimte/Afval</code>.</p>
-<p><img alt="Maak een plek om tabellen uit te genereren" src="../image/TablesAfval.png" title="Maak een plek om de tabellen uit te genereren" /></p>
+<p><a class="glightbox" href="../image/TablesAfval.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Maak een plek om tabellen uit te genereren" src="../image/TablesAfval.png" title="Maak een plek om de tabellen uit te genereren" /></a></p>
 <p>Zorg vervolgens dat je in Enterprise Architect het default RDBMS selecteert. Hiervoor ga je naar <em>Preferences</em></p>
-<p><img alt="Ga naar Preferences om het default RDBMS te selecteren" src="../image/KiesPreferences.png" title="Ga naar Preferences om het default RDBMS te selecteren" /></p>
+<p><a class="glightbox" href="../image/KiesPreferences.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Ga naar Preferences om het default RDBMS te selecteren" src="../image/KiesPreferences.png" title="Ga naar Preferences om het default RDBMS te selecteren" /></a></p>
 <p>Kies vervolgens onder <em>Source Code Engineering/Code Editors</em> de optie <em>Default Database</em>. In ons voorbeeld Oracle.</p>
-<p><img alt="Selecteer het default RDBMS dat je als doel hebt" src="../image/SelecteerDefaultRDBMS.png" title="Selecteer het default RDBMS dat je als doel hebt" /></p>
+<p><a class="glightbox" href="../image/SelecteerDefaultRDBMS.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Selecteer het default RDBMS dat je als doel hebt" src="../image/SelecteerDefaultRDBMS.png" title="Selecteer het default RDBMS dat je als doel hebt" /></a></p>
 <h3 id="stappen-voor-genereren-ddl">Stappen voor genereren DDL</h3>
 <p>Voor het genereren naar DDL neem je de volgende stappen:</p>
 <p>1. Selecteer het onderdeel van het model dat je wilt uitgenereren. In het voorbeeld de map<code>Gemeentelijk Gegevensmodel/Ruimte/Afval/Model</code>. je kunt ook in een diagram de gewenste objecttypen selecteren.</p>
-<p><img alt="Selecteer de map in het model" src="../image/SelecteerInModel.png" title="Selecteer de map in het model" /></p>
+<p><a class="glightbox" href="../image/SelecteerInModel.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Selecteer de map in het model" src="../image/SelecteerInModel.png" title="Selecteer de map in het model" /></a></p>
 <p>2. Voor de eerste stap in de generatie kies <em>Apply Transformation</em></p>
-<p><img alt="Kies Apply Transformation" src="../image/ApplyTransformation.png" title="Kies Apply Transformation" /></p>
+<p><a class="glightbox" href="../image/ApplyTransformation.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Kies Apply Transformation" src="../image/ApplyTransformation.png" title="Kies Apply Transformation" /></a></p>
 <p>3. Selecteer aan de rechterkant van het popup <em>Tables</em> in het vlak <em>Transformations</em>. Zorg dat aan de linkerkant van de pop-up alle objecttypen geselecteerd zijn die uitgegenereerd moeten worden.</p>
-<p><img alt="Kies Tables onder Transformation" src="../image/KiesTables.png" title="Kies Tables onder Transformation" /></p>
+<p><a class="glightbox" href="../image/KiesTables.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Kies Tables onder Transformation" src="../image/KiesTables.png" title="Kies Tables onder Transformation" /></a></p>
 <p>4. In het nieuwe popup <em>Select Target Package</em> selecteer de plek die je hebt gemaakt om de tabellen heen te schrijven. In ons voorbeeld <code>&lt;&lt;DataModel&gt;&gt; Tables/Ruimte/Afval</code>. </p>
-<p><img alt="Kies Target Package" src="../image/SelectTargetPackage.png" title="Kies Target Package" /></p>
+<p><a class="glightbox" href="../image/SelectTargetPackage.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Kies Target Package" src="../image/SelectTargetPackage.png" title="Kies Target Package" /></a></p>
 <p>5. Om de eerste stap in de transformatie en generatie te starten click op <em>Do Transform</em></p>
-<p><img alt="Kies Do Transform" src="../image/SelectDoTransform.png" title="Kies Do Transform" /></p>
+<p><a class="glightbox" href="../image/SelectDoTransform.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Kies Do Transform" src="../image/SelectDoTransform.png" title="Kies Do Transform" /></a></p>
 <p>6. Even wachten, en de eerste stap in de generatie is uitgevoerd: de tabellen in Enterprise Architect zijn aangemaakt. De eerste stap in het generatieproces is nu uitgevoerd. Er is een "logische" en RDBMS-onafhankelijke versie van de tabellen aangemaakt. </p>
-<p><img alt="Even wachten... en de tabellen zijn aangemaakt" src="../image/TabellenAangemaakt.png" title="Even wachten... en de tabellen zijn aangemaakt" /></p>
+<p><a class="glightbox" href="../image/TabellenAangemaakt.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Even wachten... en de tabellen zijn aangemaakt" src="../image/TabellenAangemaakt.png" title="Even wachten... en de tabellen zijn aangemaakt" /></a></p>
 <p>7. In de volgende stap genereer je vanuit de "logische" en RDBMS-onafhankelijke versie van de tabellen de DDL waarmee je de tabellen in je database kunt maken. Selecteer de map met de tabellen die zojuist is gegenereerd.</p>
-<p><img alt="Selecteer de map met de tabellen die je wilt genereren" src="../image/SelecteerTabellen.png" title="Selecteer de tabellen die je wilt genereren" /></p>
+<p><a class="glightbox" href="../image/SelecteerTabellen.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Selecteer de map met de tabellen die je wilt genereren" src="../image/SelecteerTabellen.png" title="Selecteer de tabellen die je wilt genereren" /></a></p>
 <p>8. Onder <em>Develop Datamodelling</em> kies <em>Generate</em></p>
-<p><img alt="Onder _Develop Datamodelling_ kies _Generate_" src="../image/KiesGenerate.png" title="Kies Generate" /></p>
+<p><a class="glightbox" href="../image/KiesGenerate.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Onder _Develop Datamodelling_ kies _Generate_" src="../image/KiesGenerate.png" title="Kies Generate" /></a></p>
 <p>9. Vul een bestandsnaam en map in en druk op de knop <em>Generate</em></p>
-<p><img alt="druk op de knop _Generate_" src="../image/KiesGenerateDDL.png" title="Kies Generate" /></p>
+<p><a class="glightbox" href="../image/KiesGenerateDDL.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="druk op de knop _Generate_" src="../image/KiesGenerateDDL.png" title="Kies Generate" /></a></p>
 <p>10. Even wachten en de DDL staat klaar. Succes!</p>
 <h2 id="interne-werking">Interne werking</h2>
 <p>De mogelijkheden die de codegeneratietemplates bieden is beperkend voor de mogelijkheden bij het modelleren in het Gemeentelijk Gegevensmode. Immers datatypes en relaties die niet worden ondersteund door de codegeneratietemplates kun je niet (automatisch) omzetten naar tabellen, en niet goed gebruiken als je het tabel toepast. Daarom is hier beschreven wat je in het logisch model kunt gebruiken en hoe dit transformeert naar tabellen.</p>
@@ -3660,14 +3669,14 @@ Integer of Int: numeriek veld met alleen gehele getallen.</li>
 <li>Relatie B: N:M-relatie</li>
 <li>Generalisatie van Class A t.o.v. Child Class A  </li>
 </ol>
-<p><img alt="Voorbeeld A voor uitgeneren naar tabellen" src="../image/EAID_E7F774F3_E0B3_438e_80DC_4B2F2CD3C60B.gif" title="Voorbeeld A voor uitgeneren naar tabellen" /></p>
+<p><a class="glightbox" href="../image/EAID_E7F774F3_E0B3_438e_80DC_4B2F2CD3C60B.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Voorbeeld A voor uitgeneren naar tabellen" src="../image/EAID_E7F774F3_E0B3_438e_80DC_4B2F2CD3C60B.gif" title="Voorbeeld A voor uitgeneren naar tabellen" /></a></p>
 <p>Deze relaties vertalen zich na transformeren naar tabellen als volgt:</p>
 <ol>
 <li>Relaties A: kolom <em>ClassAID</em> in tabel <em>ClassB</em> met foreignkey naar tabel <em>ClassA</em></li>
 <li>Relatie B: de koppeltabel KP_classa_classc, met foreignkey-relaties naar tabel <em>ClassA</em> en tabel <em>ClassB</em></li>
 <li>Generalisatie van Class A t.o.v. Child Class A: dit blijven twee aparte tabellen, kolommen worden niet overgenomen in het <em>child</em>. Er wordt een reguliere 1:N-relatie gemaakt, zoals Relatie A.</li>
 </ol>
-<p><img alt="Voorbeeld A na uitgeneren naar tabellen" src="../image/EAID_9259B8B6_DD2F_4632_9CAE_8A0D9F30DF1F.gif" title="Voorbeeld A na uitgeneren tabellen" /></p>
+<p><a class="glightbox" href="../image/EAID_9259B8B6_DD2F_4632_9CAE_8A0D9F30DF1F.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Voorbeeld A na uitgeneren naar tabellen" src="../image/EAID_9259B8B6_DD2F_4632_9CAE_8A0D9F30DF1F.gif" title="Voorbeeld A na uitgeneren tabellen" /></a></p>
 <h4 id="voorbeeld-b">Voorbeeld B</h4>
 <p>De naamgeving van de foreignkeys, foreignkey-constraints en koppeltabellen kan worden beïnvloed door het gebruik van relatienamen en aliassen. Hiermee zorg je dat er geen dubbele constraints worden gemaakt en er geen onleesbare of te lange namen ontstaan. Voor naamgeving wordt de volgende volgorde gebruikt (in volgorde van prioriteit):</p>
 <ol>
@@ -3684,7 +3693,7 @@ Integer of Int: numeriek veld met alleen gehele getallen.</li>
 <li>Relatie Class G en Class H: relatie heeft geen naam en geen aliassen</li>
 <li>Relatie Class I en Class J: relatie zonder naam en aliassen, maar Source en Target omgedraaid t.o.v. het vorige voorbeeld.</li>
 </ol>
-<p><img alt="Voorbeeld B voor uitgeneren naar tabellen" src="../image/EAID_6FCF9303_410D_4ff2_A577_C323F426A500.gif" title="Voorbeeld B voor Uitgeneren naar tabellen" /></p>
+<p><a class="glightbox" href="../image/EAID_6FCF9303_410D_4ff2_A577_C323F426A500.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Voorbeeld B voor uitgeneren naar tabellen" src="../image/EAID_6FCF9303_410D_4ff2_A577_C323F426A500.gif" title="Voorbeeld B voor Uitgeneren naar tabellen" /></a></p>
 <p>Na transformeren naar tabellen als volgt:</p>
 <ol>
 <li>Eerste voorbeeld: tabel ClassA krijgt kolom ClassBID (met index) en foreignkey-constraint (met in de naam relatienaam) op de relatie met tabel ClassB.  </li>
@@ -3693,27 +3702,27 @@ Integer of Int: numeriek veld met alleen gehele getallen.</li>
 <li>Vierde voorbeeld: tabel ClassG krijgt kolom ClassHID (met index) en foreignkey-constraint (met in de namen van de tabellen) op de relatie met tabel ClassH.</li>
 <li>Vijfde voorbeeld: tabel ClassI krijgt kolom ClassJID (met index) en foreignkey-constraint (met in de namen van de tabellen) op de relatie met tabel ClassJ (zelfde als 4e voorbeeld).</li>
 </ol>
-<p><img alt="Voorbeeld B na uitgeneren naar tabellen" src="../image/EAID_0435B59E_F272_4227_BE64_F7A8FC9A30EE.gif" title="Voorbeeld B na uitgeneren tabellen" /></p>
+<p><a class="glightbox" href="../image/EAID_0435B59E_F272_4227_BE64_F7A8FC9A30EE.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Voorbeeld B na uitgeneren naar tabellen" src="../image/EAID_0435B59E_F272_4227_BE64_F7A8FC9A30EE.gif" title="Voorbeeld B na uitgeneren tabellen" /></a></p>
 <h4 id="voorbeeld-c">Voorbeeld C</h4>
 <p>Voorbeelden die speciale aandacht nodig hebben, omdat het transformatieproces anders fouten oplevert:</p>
 <ol>
 <li><a href="https://www.365dagensuccesvol.nl/blogs/relatie-met-jezelf/">Relaties met jezelf</a> ;) (Varkensoortje)</li>
 <li>Meervoudige relaties tussen objecttypes.</li>
 </ol>
-<p><img alt="Voorbeeld C voor uitgeneren naar tabellen" src="../image/EAID_135DA4FB_69A6_4191_84A3_3B9F16641289.gif" title="Voorbeeld C voor Uitgeneren naar tabellen" /></p>
+<p><a class="glightbox" href="../image/EAID_135DA4FB_69A6_4191_84A3_3B9F16641289.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Voorbeeld C voor uitgeneren naar tabellen" src="../image/EAID_135DA4FB_69A6_4191_84A3_3B9F16641289.gif" title="Voorbeeld C voor Uitgeneren naar tabellen" /></a></p>
 <p>Om deze in het transformatieproces goed te laten werken moet een een Alias opvoeren bij de Source van de betreffende relatie. In het voorbeeld getoond voor het varkensoortje. Deze kun je ook voor meervoudige relaties gebruiken. Vanwege de interne werking van Enterprise Architect is het belangrijk dat de cardinaliteit 0..1 of 1 aan de source-kant van de relatie zit, anders wordt de relatie niet goed uitgegenereerd.</p>
-<p><img alt="Voer een alias in in de Source van het varkensoortje" src="../image/Varkensoortje.png" /></p>
+<p><a class="glightbox" href="../image/Varkensoortje.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Voer een alias in in de Source van het varkensoortje" src="../image/Varkensoortje.png" /></a></p>
 <p>Als je het logisch model hebt getransformeerd naar tabellen zie je dat de Aliasnaam wordt gebruikt voor de foreignkeys en de foreignkey-constraints. Zo kun je zorgen dat er unieke namen worden gebruikt.</p>
-<p><img alt="Voorbeeld C na uitgeneren naar tabellen" src="../image/EAID_15C4CFF6_5DC6_456a_AE2B_0298FA9CDB6F.gif" title="Voorbeeld C na uitgeneren tabellen" /></p>
+<p><a class="glightbox" href="../image/EAID_15C4CFF6_5DC6_456a_AE2B_0298FA9CDB6F.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Voorbeeld C na uitgeneren naar tabellen" src="../image/EAID_15C4CFF6_5DC6_456a_AE2B_0298FA9CDB6F.gif" title="Voorbeeld C na uitgeneren tabellen" /></a></p>
 <h4 id="voorbeeld-d">Voorbeeld D</h4>
 <p>Als laatste een voorbeeld met het gebruik van enumeraties:</p>
 <p><a href="https://nl.wikipedia.org/wiki/Enumeratie_(datatype)">Enumeraties</a> is een opsomming van mogelijke waarden van een bepaald attribuut. Hiermee kun je binnen het GGM de waarden van attributen binnen een bepaalde reeks laten vallen.
 Om deze in het transformatieproces goed te laten werken moet een een Alias opvoeren bij de Source van de betreffende relatie. In het voorbeeld getoond voor het varkensoortje. Deze kun je ook voor meervoudige relaties gebruiken. Hieronder is weergegeven hoe je een enumeratie definieert. </p>
-<p><img alt="Voorbeeld Enumeratie" src="../image/VoorbeeldD.png" title="Voorbeeld D Enumeraties gebruiken" /></p>
+<p><a class="glightbox" href="../image/VoorbeeldD.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Voorbeeld Enumeratie" src="../image/VoorbeeldD.png" title="Voorbeeld D Enumeraties gebruiken" /></a></p>
 <p>Te zien is dat deze enumeratie twee mogelijke waarden kent: Optie 1 en Optie 2, en dat het attribuut B verwijst naar deze enumeratie.</p>
-<p><img alt="Enumeratie koppelen" src="../image/VoorbeeldD_Stereotype.png" title="Voorbeeld D stereotype gebruiken" /></p>
+<p><a class="glightbox" href="../image/VoorbeeldD_Stereotype.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Enumeratie koppelen" src="../image/VoorbeeldD_Stereotype.png" title="Voorbeeld D stereotype gebruiken" /></a></p>
 <p>Hierboven is te zien hoe je een attribuut koppelt aan een enumeratie. Belangrijk is het stereotype de waarde "enumeration" te geven.</p>
-<p><img alt="Waardenlijsten van enumeraties maken" src="../image/VoorbeeldD_EnumAttributen.png" title="Voorbeeld D Attributen van Enumeraties" /></p>
+<p><a class="glightbox" href="../image/VoorbeeldD_EnumAttributen.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Waardenlijsten van enumeraties maken" src="../image/VoorbeeldD_EnumAttributen.png" title="Voorbeeld D Attributen van Enumeraties" /></a></p>
 <p>In bovenstaande figuur is te zien hoe je imn Enterprise Architect de waardelijsten van een enumeratie definieert. In het voorbeeld bestaat de waardelijst uit twee waarden: Optie 1 en Optie 2. Deze zijn als attributen van de Class 'Enumeration A' gedefinieerd. Je vult deze als volgt in:</p>
 <ol>
 <li>Naam: in Name-veld van attribuut (Altijd waarde invullen om fouten te voorkomen)</li>
@@ -3722,7 +3731,7 @@ Om deze in het transformatieproces goed te laten werken moet een een Alias opvoe
 <li>Geen bij Stereotype altijd waarde 'enum' op</li>
 </ol>
 <p>Als je het logisch model hebt getransformeerd naar tabellen zie je dat er van de Class een tabel ie gemaakt, en ook van de enumeratie. Beiden zijn gekoppeld via een foreignkey constraint.</p>
-<p><img alt="Enumeraties uitgenereren" src="../image/VoorbeeldD_Tables.png" title="Voorbeeld D genereren van tabellen" /></p>
+<p><a class="glightbox" href="../image/VoorbeeldD_Tables.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Enumeraties uitgenereren" src="../image/VoorbeeldD_Tables.png" title="Voorbeeld D genereren van tabellen" /></a></p>
 <p>In het uitgegenereerde model is te zien dat in de enumeratie de waardelijsten nog als attributen zijn opgenomen. Pas bij het genereren naar fysieke databaseschema's worden de waardelijsten omgezet naar waardelijsten in de tabel.</p>
 <h2 id="zelf-templates-aanpassen">Zelf templates aanpassen</h2>
 <p>Nadat je de templates in Enterprise Architect hebt geladen kun je ze binnen je eigen omgeving aanpassen om het gedrag aan te passen naar je eigen wensen. Het is belangrijk te zien dat de generatie naar DDL in twee stappen verloopt, en dat je dus op twee niveau aanpassingen kunt maken.</p>
@@ -3732,13 +3741,13 @@ Om deze in het transformatieproces goed te laten werken moet een een Alias opvoe
 </ol>
 <h3 id="eerste-generatiestap">Eerste generatiestap</h3>
 <p>Ga hiervoor als eerste naar het onderdeel Transform templates. Zie hieronder.</p>
-<p><img alt="Templates aanpassen stap 1" src="../image/templatesaanpassen_stap1.png" title="Templates aanpassen stap 1" /></p>
+<p><a class="glightbox" href="../image/templatesaanpassen_stap1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Templates aanpassen stap 1" src="../image/templatesaanpassen_stap1.png" title="Templates aanpassen stap 1" /></a></p>
 <p>Kies nadat je deze hebt geopend voor de 'language' Tables. Deze verzameing templates gebruiken we voor de omzetting naar tabellen. Alle voor generatie gebruikte template-onderdelen staan weergegeven. Op de volgende afdeling is de omzetting vanaf Class te zien. </p>
-<p><img alt="Templates aanpassen stap 2" src="../image/templatesaanpassen_stap2.png" title="Templates aanpassen stap 2" /></p>
+<p><a class="glightbox" href="../image/templatesaanpassen_stap2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Templates aanpassen stap 2" src="../image/templatesaanpassen_stap2.png" title="Templates aanpassen stap 2" /></a></p>
 <p>Je bent nu klaar om je egen aanpassingen te doen. Zie voor meer toelichting de <a href="https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_fundamentals/transformationtemplates.html">toelichting</a> op de website van Sparx Enterprise Architect. </p>
 <h3 id="tweede-generatiestap">Tweede generatiestap</h3>
 <p>Om de templates aan te passen die de database-onafhankelijke tabellen omzetten naar DDL voor specifieke databases kies je op het tabblad Design voor de optie Templates. Als je deze hebt geopend kun je verschillende typen databases kiezen. In onderstaande afbeelding kiezen we voor Oracle en zie je de scripts waarmee de DDL wordt gegenereerd.</p>
-<p><img alt="Templates voor generatie naar DDL" src="../image/ddlgeneratieaanpassen.png" title="Templates DDL-generatie aanpassen" /></p>
+<p><a class="glightbox" href="../image/ddlgeneratieaanpassen.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Templates voor generatie naar DDL" src="../image/ddlgeneratieaanpassen.png" title="Templates DDL-generatie aanpassen" /></a></p>
 <p>Wij hebben de standaard werking van Enterprise Architect aangepast voor Oracle en MySql.   </p>
 
 
@@ -3792,5 +3801,7 @@ Om deze in het transformatieproces goed te laten werken moet een een Alias opvoe
       <script src="../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
