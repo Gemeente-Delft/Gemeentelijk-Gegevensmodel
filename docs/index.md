@@ -106,6 +106,7 @@ De volgende standaarden zijn gebruikt bij de totstandkoming van het GGM, en make
 * [IMBAG versie 0.99: (Gegevenscatalogus Basisregistratie Adressen en Gebouwen)](https://www.geonovum.nl/geo-standaarden/informatiemodellen-nen3610-familie/gegevenscatalogus-basisregistratie-adressen-en). De Basisregistraties Adressen en Gebouwen (BAG) bevatten gegevens van alle adressen en gebouwen in Nederland. In de Gegevenscatalogus BAG zijn de afspraken vastgelegd om digitale uitwisseling mogelijk te maken. Het informatiemodel voor de BAG is geënt op de principes van NEN3610.
 * [MIM (Metamodel voor Informatiemodellen)](https://www.geonovum.nl/geo-standaarden/metamodel-informatiemodellering-mim). Deze is toegepast in de uitwerking van het ICT-deel. Het GGM is echter (nog) niet MIM-compliant.
 * [RiHA 2.0 (Gegevensmodel toezicht en handhaven)](https://samenwerken.pleio.nl/groups/view/8b832827-e91b-476c-bb4f-c228b8e5e934/standaardisatie-toezicht-handhaving-milieu/wiki/view/2b38214e-cfc7-42ff-9d5d-eaf069671c42/riha-referentieinformatiemodel-handhaving). Toegepast in de uitwerking van Vergunningverlening, toezicht en handhaving.
+* [GBI: Gemeentelijke Basisprocessen Inkomen](https://vngr-gbi.gitlab.io/ontologie-inkomen/). De GBI- ontologie Inkomen beschrijft concepten en hun relaties welke een rol spelen binnen het inkomensdomein. Ontologie is een datastructuur die alle relevante entiteiten en hun onderlinge relaties en regels binnen dit domein bevat. Deze is toegepast voor het inkomensdeel van het sociaal domein.
 
 ## Totstandkoming Gemeentelijk Gegevensmodel
 
