@@ -43,9 +43,9 @@ In Figuur 10 is te zien hoe het RGBZ-objecttype ‘Object’ verwijst naar aller
 
 ![Objecten bij vergunningverlening][vthObjectenVergunning]
 
-## Brede Handhaving
+## Openbare orde en veiligheid
 
-Ook meldingen in het kader van brede handhaving verwijzen naar het generieke objecttype ‘Object’, en zo dus weer naar allerlei andere objecttypen. Een ‘Melding’ kan verwijzingen naar foto’s hebben en heeft een BOA als verbalisant. Er worden drie soorten meldingen onderscheiden: ‘Waarneming’, ‘Combibon’ en ‘Fietsregistratie’. Een ‘Melding’ is afgeleid van het generieke ‘AanvraagOfMelding’.
+Ook meldingen in het kader van openbare orde en veiligheid verwijzen naar het generieke objecttype ‘Object’, en zo dus weer naar allerlei andere objecttypen. Een ‘Melding’ kan verwijzingen naar foto’s hebben en heeft een BOA als verbalisant. Er worden drie soorten meldingen onderscheiden: ‘Waarneming’, ‘Combibon’ en ‘Fietsregistratie’. Een ‘Melding’ is afgeleid van het generieke ‘AanvraagOfMelding’.
 
 ![Objecten bij brede handhaving][vthObjecttypenBredeHandhaving]
 

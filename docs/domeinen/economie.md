@@ -1,8 +1,8 @@
-# Economie en Bedrijvigheid
+# Economie
 
-De gegevensdefinities van Economie en bedrijvigheid concentreren zich ‘Vestigingen’ van bedrijven. Deze hebben een locatie in de stad en bepalen voor een belangrijk deel hoe er naar de lokale economie wordt aangekeken.
+De gegevensdefinities van Economie concentreren zich ‘Vestigingen’ van bedrijven. Deze hebben een locatie in de stad en bepalen voor een belangrijk deel hoe er naar de lokale economie wordt aangekeken.
 
-![Datamodel Economie en bedrijvigheid][economie]
+![Datamodel Economie][economie]
 
 Centraal staat ‘Vestiging’, wat een specialisatie kan hebben als ‘Verkooppunt’ (Winkel), of als ‘Hotel’. Van meer soorten bedrijven wordt er op dit geen specifieke informatie bijgehouden (generieke informatie wel). Een ‘Hotel’ kan ‘Hotelbezoeken’ (overnachtingen) hebben. Een ‘Vestiging’ voert een ‘Maatschappelijke Activiteit’ uit (bovenste relatie), en kan vanuit de ‘Maatschappelijke Activiteit’ een hoofdvestiging hebben. 
 

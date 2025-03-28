@@ -1,4 +1,4 @@
-# Sportbeleid
+# Sport
 
 Om het sportbeleid op een goede manier in beeld te houden worden sportlocaties in de stad geadministreerd. Een ‘Sportlocatie’ kan een ‘Sportpark’ met meerdere velden zijn, of een ‘Binnenlocatie’. Met ‘Belijning’ wordt de soort belijning aangeduid op de locatie, denk hierbij aan: voetbal, handbal, basketbal. Locaties met verschillende belijning worden immers voor verschillende sporten gebruikt, en zijn niet zomaar door iedere sportvereniging te gebruiken. Een ‘belijning’ hoort dan ook bij een ‘Sport’. Alleen voor ‘Binnenlocaties’ worden ‘Sportmaterialen’ geadministreerd.
 

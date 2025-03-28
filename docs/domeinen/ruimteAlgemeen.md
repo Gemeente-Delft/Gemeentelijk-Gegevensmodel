@@ -1,10 +1,10 @@
-# Ruimtelijk Domein
+# Openbare ruimte
 
 ## Basisobjecttypes
 
 ### Standaarden
 
-In het de uitwerking van ruimtelijk domein komt een aantal landelijke en internationale gegevensstandaarden samen, welke niet naadloos op elkaar aansluiten:
+In het de uitwerking van de openbare ruimte komt een aantal landelijke en internationale gegevensstandaarden samen, welke niet naadloos op elkaar aansluiten:
 
 1. [GML 3.2.1. (Geography Markup Language)](https://www.geonovum.nl/geo-standaarden/geography-markup-language-gml/gml-encoding-standard-321), GML beschrijft hoe geografische locaties, lijnen, vlakken en combinaties daartussen vastgelegd en uitgewisseld dienen te worden. GML 3.2.1 is gestandaardiseerd bij het OGC en, daar OGC en ISO met elkaar samenwerken, tevens gestandaardiseerd als ISO 19136:2007. De ISO variant is opgenomen als nationale standaard in de Pas-toe-of-leg-uit-lijst van het Forum Standaardisatie.
 2. [NEN3610: 2011 (Basismodel geo-informatie)](https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen). Het Basismodel geo-informatie. Het bevat de termen, definities, relaties en algemene regels voor de uitwisseling van informatie over ruimtelijke objecteninformatiemodellen). De standaard NEN3610 staat op de Pas-toe-of-leg-uit-lijst van het Forum Standaardisatie.

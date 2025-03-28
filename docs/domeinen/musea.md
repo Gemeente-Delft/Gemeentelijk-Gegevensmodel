@@ -1,6 +1,6 @@
-# Museum
+# Musea
 
-De gegevensdefinitie van de gegevens binnen het Prinsenhof zijn opgedeeld in de volgende drie deelgebieden:
+De gegevensdefinitie van de gegevens binnen musea zijn opgedeeld in de volgende drie deelgebieden:
 
 1. Collectie
 2. Events en Relaties
