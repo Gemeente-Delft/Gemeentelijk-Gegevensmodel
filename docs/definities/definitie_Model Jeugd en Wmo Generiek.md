@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Jeugd en Wmo Generiek:** 
 >
-> Geen definitie
+> Alle generieke objecttypen die zowel voor de Wmo als voor uitvoering van de jeugdwet worden gebruikt
 
 Het model 'Model Jeugd en Wmo Generiek' kent de volgende objecttypen:
 

@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Monumenten:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over de aanwijzing, bescherming en instandhouding van monumenten, inclusief gebouwen, objecten en landschappen, die van cultuurhistorische, wetenschappelijke of esthetische waarde zijn.
 
 Het model 'Model Monumenten' kent de volgende objecttypen:
 

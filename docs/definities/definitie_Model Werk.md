@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Werk:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over de ondersteuning van mensen bij het vinden en behouden van werk, gebaseerd op de Participatiewet en gericht op het bevorderen van arbeidsparticipatie.
 
 Het model 'Model Werk' kent de volgende objecttypen:
 
@@ -519,7 +519,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_b72fcb03_b755_4cf0_9798_b94f4d8035eb |
+| id | EAID_316f93fc_051e_43e5_a3f6_3a9922184249 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

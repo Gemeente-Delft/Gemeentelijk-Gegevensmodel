@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Terug- en invordering:** 
 >
-> Geen definitie
+> Het onderdeel Terug- en Invordering richt zich op de processen en gegevens rondom het terugvorderen en invorderen van onterecht verstrekte inkomensvoorzieningen. Dit model biedt een gestructureerde weergave van de objecttypen en hun onderlinge relaties die nodig zijn om deze financi&#235;le processen effectief te beheren.
 
 Het model 'Model Terug- en invordering' kent de volgende objecttypen:
 
@@ -1071,7 +1071,7 @@ De enumeratie Verwerkingsstatus heeft de volgende kenmerken:
 | version | 1.0 |
 | created | 2024-03-07 12:33:22 |
 | modified | 2025-03-27 10:22:49 |
-| id | EAID_f3c83c42_afa6_4f53_8b06_8688d931ee27 |
+| id | EAID_2b3109f1_3ffc_4ab3_a60d_741736c958a8 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Jeugdbescherming:** 
 >
-> Geen definitie
+> Dit informatiedomein bevat data over inburgeringsplichtigen, zoals persoonlijke gegevens, voortgang in het inburgeringstraject, behaalde resultaten en ondersteuning door gemeenten. Het domein faciliteert de samenwerking en gegevensuitwisseling tussen gemeenten, DUO, COA en andere ketenpartners. De structuur van dit domein is gebaseerd op het informatiemodel Inburgering van de VNG, dat zorgt voor gestandaardiseerde gegevensuitwisseling en procesvoering binnen de inburgeringsketen. Hierdoor wordt een efficiï¿½nte uitvoering van de Wet inburgering ondersteund.
 
 Het model 'Model Jeugdbescherming' kent de volgende objecttypen:
 

@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Diensten:** 
 >
-> Geen definitie
+> Het Dienstenmodel biedt een gestructureerde weergave van de processen en objecttypen die betrokken zijn bij het leveren van diensten binnen het sociaal domein. Het model richt zich op de relaties tussen aanvragen, besluiten, rechten en voorwaarden die de basis vormen voor het verstrekken van voorzieningen.
 
 Het model 'Model Diensten' kent de volgende objecttypen:
 

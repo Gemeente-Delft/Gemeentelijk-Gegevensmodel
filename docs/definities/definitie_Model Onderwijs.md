@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Onderwijs:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over onderwijsvoorzieningen, leerlingenstromen, taken in het onderwijsveld  en educatieve ondersteuning.
 
 Het model 'Model Onderwijs' kent de volgende objecttypen:
 

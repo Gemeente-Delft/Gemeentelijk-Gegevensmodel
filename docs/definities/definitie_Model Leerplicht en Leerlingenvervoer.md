@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Leerplicht en Leerlingenvervoer:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over de naleving van de leerplichtwet en de organisatie van leerlingenvervoer, gericht op het waarborgen van toegang tot onderwijs voor alle kinderen en jongeren.
 
 Het model 'Model Leerplicht en Leerlingenvervoer' kent de volgende objecttypen:
 

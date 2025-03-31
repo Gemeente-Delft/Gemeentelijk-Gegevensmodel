@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Financien:** 
 >
-> Geen definitie
+> Het informatiesubdomein dat gegevens omvat over de financiï¿½le processen, planning en control, en het financieel beheer van de organisatie.
 
 Het model 'Model Financien' kent de volgende objecttypen:
 

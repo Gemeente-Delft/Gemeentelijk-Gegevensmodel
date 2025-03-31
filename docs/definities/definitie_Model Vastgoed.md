@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Vastgoed:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over het beheer, onderhoud en de exploitatie van gebouwen en terreinen in eigendom van de organisatie.
 
 Het model 'Model Vastgoed' kent de volgende objecttypen:
 
@@ -1159,7 +1159,7 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
 | version | 1.5 |
 | created | 2025-03-26 11:13:38 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_ea9ace7d_9895_4fbc_b2f0_296b96649edb |
+| id | EAID_be609fe8_edfb_463a_b15a_07c37f0987f3 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1194,7 +1194,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_4a50fa02_1645_4811_8b6e_939397aa01a3 |
+| id | EAID_9242a997_f24e_4569_8f04_38fb30741d39 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1229,7 +1229,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_e9003b0c_8a61_43a5_9e3b_3625a6e81a5e |
+| id | EAID_91b38f9b_2485_49fc_b4b5_bedb8e16de2b |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1264,7 +1264,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_e1628b57_71a5_4b33_9429_5f51bbdcb79c |
+| id | EAID_922e46f6_419b_4524_b89e_2ddc3f840a08 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1301,7 +1301,7 @@ De enumeratie aanduidingEigenaarGebruiker heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:36 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_fe8e4fb2_462a_4854_a971_19bb7a0d8a0e |
+| id | EAID_29c19537_5585_4edb_ac35_4688df310d69 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

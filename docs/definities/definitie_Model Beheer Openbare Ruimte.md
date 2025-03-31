@@ -2,7 +2,9 @@
 ## Inleiding
 > **Definitie Model Beheer Openbare Ruimte:** 
 >
-> Geen definitie
+> "Het informatiedomein dat gegevens omvat over:
+> 1. De fysieke objecten in de publieke buitenruimte, inclusief hun kenmerken, locatie en conditie.
+> 2. De processen en activiteiten gericht op het onderhouden, inrichten en beheren van deze objecten."
 
 Het model 'Model Beheer Openbare Ruimte' kent de volgende objecttypen:
 

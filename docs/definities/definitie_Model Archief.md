@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Archief:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over de vorming, het beheer, de toegankelijkheid en de duurzame bewaring van archieven, inclusief documenten en collecties van cultuurhistorische waarde.
 
 Het model 'Model Archief' kent de volgende objecttypen:
 

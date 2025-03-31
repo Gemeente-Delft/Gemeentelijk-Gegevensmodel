@@ -2,7 +2,8 @@
 ## Inleiding
 > **Definitie Model Griffie:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over de ondersteuning van de gemeenteraad en de organisatie van raadsprocessen, gericht op het faciliteren van besluitvorming en democratische controle.
+> 
 
 Het model 'Model Griffie' kent de volgende objecttypen:
 

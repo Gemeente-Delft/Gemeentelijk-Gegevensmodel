@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Dienstverlening:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over meldingen, aanvragen, baliecontacten, telefonische afhandeling en digitale interacties die faciliterend zijn voor andere domeinen.
 
 Het model 'Model Dienstverlening' kent de volgende objecttypen:
 

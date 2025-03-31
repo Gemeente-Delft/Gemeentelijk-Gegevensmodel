@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Mobiliteit:** 
 >
-> Geen definitie
+> Het informatiedomein dat de structuur, definities en relaties van gegevens omvat met betrekking tot verkeer en vervoer van personen en goederen, gericht op het faciliteren van efficiï¿½nte en duurzame mobiliteit.
 
 Het model 'Model Mobiliteit' kent de volgende objecttypen:
 

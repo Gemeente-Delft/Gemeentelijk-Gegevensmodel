@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Archeologie:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over archeologische opgravingen, onderzoeken en besluitvorming, gericht op het behoud, de bescherming en de ontsluiting van archeologisch erfgoed binnen de kaders van de Erfgoedwet.
 
 Het model 'Model Archeologie' kent de volgende objecttypen:
 

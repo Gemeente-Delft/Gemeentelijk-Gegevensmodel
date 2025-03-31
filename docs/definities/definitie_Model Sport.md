@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Sport:** 
 >
-> Geen definitie
+> Dit informatiedomein bevat data over collectiebeheer, tentoonstellingen, bezoekersaantallen en educatieve activiteiten van musea die onderdeel zijn van een overheidsorganisatie. Het ondersteunt de uitvoering van de museale functie conform de Erfgoedwet, inclusief het beheer van eventuele rijkscollecties. De gegevens worden gebruikt voor beleidsontwikkeling, verantwoording en publieksbereik van het cultureel erfgoed.
 
 Het model 'Model Sport' kent de volgende objecttypen:
 

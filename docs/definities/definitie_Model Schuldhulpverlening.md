@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Schuldhulpverlening:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over de ondersteuning en begeleiding van inwoners met problematische schulden, gericht op het bevorderen van financiï¿½le stabiliteit en maatschappelijke participatie.
 
 Het model 'Model Schuldhulpverlening' kent de volgende objecttypen:
 

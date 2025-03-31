@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Musea:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over de verwerving, het beheer, het onderzoek en de presentatie van museale collecties en tentoonstellingen binnen een overheidsorganisatie.
 
 Het model 'Model Musea' kent de volgende objecttypen:
 

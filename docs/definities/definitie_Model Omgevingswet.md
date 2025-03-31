@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Omgevingswet:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over de uitvoering van de Omgevingswet, gericht op het integraal beheren en ontwikkelen van de fysieke leefomgeving.
 
 Het model 'Model Omgevingswet' kent de volgende objecttypen:
 

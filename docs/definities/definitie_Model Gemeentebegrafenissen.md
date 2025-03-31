@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Gemeentebegrafenissen:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over gemeentelijke uitvaarten, uitgevoerd wanneer niemand anders in de lijkbezorging voorziet, zoals vastgelegd in de Wet op de lijkbezorging.
 
 Het model 'Model Gemeentebegrafenissen' kent de volgende objecttypen:
 

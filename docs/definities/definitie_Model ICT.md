@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model ICT:** 
 >
-> Geen definitie
+> Het informatiesubdomein dat gegevens omvat over de informatietechnologie en communicatiesystemen die de interne processen en informatievoorziening van een organisatie ondersteunen.
 
 Het model 'Model ICT' kent de volgende objecttypen:
 

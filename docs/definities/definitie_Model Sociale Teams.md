@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Sociale Teams:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over de integrale ondersteuning en hulpverlening die sociale teams bieden aan inwoners, gericht op het bevorderen van zelfredzaamheid, participatie en het oplossen van complexe problemen.
 
 Het model 'Model Sociale Teams' kent de volgende objecttypen:
 

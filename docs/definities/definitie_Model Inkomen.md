@@ -2,7 +2,8 @@
 ## Inleiding
 > **Definitie Model Inkomen:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over inkomensvoorzieningen, -regelingen en financi&#235;le ondersteuning voor inwoners, gericht op het waarborgen van bestaanszekerheid en participatie in de samenleving.
+> 
 
 Het model 'Model Inkomen' kent de volgende objecttypen:
 
@@ -349,7 +350,7 @@ De enumeratie Wet heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:12:49 |
 | modified | 2025-03-26 16:14:37 |
-| id | EAID_713a0bbb_bb40_4a21_8a66_5044e66d46bf |
+| id | EAID_5e280fea_0a4a_48e6_b19c_ed59a1a780f0 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
