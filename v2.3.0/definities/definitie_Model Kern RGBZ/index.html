@@ -3840,10 +3840,10 @@
 <li><strong>EnkelvoudigDocument</strong>: Een DOCUMENT waarvan aard, omvang en/of vorm aanleiding geven het als ï¿½ï¿½n geheel te behandelen en te beheren.</li>
 <li><strong>Heffing</strong>: Een door de overheid opgelegde verplichting tot betaling</li>
 <li><strong>Identificatiekenmerk</strong>: Nodig voor archivering om verschillende typen identificatie te kunnen onderscheiden:</li>
-<li><strong>Klantcontact</strong>: Klantcontacten zijn contactmomenten die werkelijk hebben plaatsgevonden, terwijl Balieafspraken afspraken zijn voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.  Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje). </li>
+<li><strong>Klantcontact</strong>: Klantcontacten zijn contactmomenten die werkelijk hebben plaatsgevonden, terwijl Balieafspraken afspraken zijn voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.<br><br>Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje).</li>
 <li><strong>Medewerker</strong>: Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID.</li>
 <li><strong>Object</strong>: Het OBJECT waarop een ZAAK betrekking kan hebben zijnde ï¿½ï¿½n of meer voorkomens van de in het RSGB en het RGBZ onderscheiden objecttypen.</li>
-<li><strong>Offerte</strong>: Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs. </li>
+<li><strong>Offerte</strong>: Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs.</li>
 <li><strong>OrganisatorischeEenheid</strong>: Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken.</li>
 <li><strong>SamengesteldDocument</strong>: Een DOCUMENT waarbinnen twee of meer ENKELVOUDIGe DOCUMENTen onderscheiden worden die vanwege gezamenlijke vervaardiging en/of ontvangst en/of vanwege aard en/of omvang als ï¿½ï¿½n geheel beschouwd moeten worden dan wel behandeld worden.,</li>
 <li><strong>Status</strong>: Een aanduiding van de stand van zaken van een zaak op basis van betekenisvol behaald resultaat voor de initiator van de zaak.</li>
@@ -5026,17 +5026,7 @@
 <tr>
 <td style="text-align: left;">documentIdentificatie</td>
 <td style="text-align: left;">AN40</td>
-<td style="text-align: left;"><font color="#610e6a">Een binnen een gegeven context ondubbelzinnige referentie naar het document.</font></td>
-</tr>
-<tr>
-<td style="text-align: left;"><font color="#610e6a">Bijvoorbeeld potsregistratienummer</font></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;"><font color="#610e6a">Een binnen een gegeven context ondubbelzinnige referentie naar het document.</font><br><font color="#610e6a">Bijvoorbeeld potsregistratienummer</font></td>
 </tr>
 <tr>
 <td style="text-align: left;">datumCreatieDocument</td>
@@ -5578,9 +5568,7 @@
 <h3 id="klantcontact">Klantcontact</h3>
 <blockquote>
 <p><strong>Definitie Klantcontact:</strong> </p>
-<p>Klantcontacten zijn contactmomenten die werkelijk hebben plaatsgevonden, terwijl Balieafspraken afspraken zijn voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.</p>
-<p>Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje).
-</p>
+<p>Klantcontacten zijn contactmomenten die werkelijk hebben plaatsgevonden, terwijl Balieafspraken afspraken zijn voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.<br><br>Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje).</p>
 </blockquote>
 <table>
 <thead>
@@ -5673,25 +5661,45 @@
 <tr>
 <td style="text-align: left;">eindtijd</td>
 <td style="text-align: left;">Datetime</td>
-<td style="text-align: left;">Werkelijke eindtijd van het klantcontact. Het moment dat de conversatie ten einde is.</td>
+<td style="text-align: left;">Werkelijke eindtijd van het klantcontact. Het moment dat de conversatie ten einde is.<br>Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk</td>
 </tr>
 <tr>
-<td style="text-align: left;">Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk</td>
+<td style="text-align: left;">starttijd</td>
+<td style="text-align: left;">Datetime</td>
+<td style="text-align: left;">Werkelijke starttijd van het klantcontact, dus het moment dat klant en medewerker van de gemeente elkaar spreken.<br><br>Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk</td>
+</tr>
+<tr>
+<td style="text-align: left;">tijdsduur</td>
+<td style="text-align: left;">int</td>
+<td style="text-align: left;">Werkelijke tijdsduur in seconden</td>
+</tr>
+<tr>
+<td style="text-align: left;">wachttijdTotaal</td>
+<td style="text-align: left;">int</td>
+<td style="text-align: left;">De totale wachttijd voor de starttijd van het klantcontact. Dit inclusief eventueel te vroeg verschijnen op een afspraak</td>
+</tr>
+<tr>
+<td style="text-align: left;">kanaal</td>
+<td style="text-align: left;">AN20</td>
 <td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichting</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">notitie</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;">Enumeratie: "Soorten Klantcontact"</td>
 <td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
-<p>|
-| starttijd | Datetime | Werkelijke starttijd van het klantcontact, dus het moment dat klant en medewerker van de gemeente elkaar spreken.</p>
-<p>Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk |
-| tijdsduur | int | Werkelijke tijdsduur in seconden
- |
-| wachttijdTotaal | int | De totale wachttijd voor de starttijd van het klantcontact. Dit inclusief eventueel te vroeg verschijnen op een afspraak |
-| kanaal | AN20 |  |
-| toelichting | text |  |
-| notitie | text |  |
-| None | Enumeratie: "Soorten Klantcontact" |  |</p>
 <h3 id="medewerker">Medewerker</h3>
 <blockquote>
 <p><strong>Definitie Medewerker:</strong> </p>
@@ -5838,12 +5846,7 @@
 <tr>
 <td style="text-align: left;">voorvoegselAchternaam</td>
 <td style="text-align: left;">AN10</td>
-<td style="text-align: left;"><font color="#610e6a">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font></td>
-</tr>
-<tr>
-<td style="text-align: left;"><font color="#610e6a">gescheiden.</font></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;"><font color="#610e6a">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font><br><font color="#610e6a">gescheiden.</font></td>
 </tr>
 <tr>
 <td style="text-align: left;">extern</td>
@@ -6003,22 +6006,7 @@
 <tr>
 <td style="text-align: left;">objecttype</td>
 <td style="text-align: left;">AN3</td>
-<td style="text-align: left;"><font color="#610e6a">Het onderscheid van een OBJECT naar haar specialisatiies.</font></td>
-</tr>
-<tr>
-<td style="text-align: left;"><font color="#610e6a">De code voor de Objecttypering gevolgd door de unieke aanduiding van de specialisatie (van OBJECT):</font></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;"><font color="#610e6a">ADRESSEERBAAR OBJECT AANDUIDING, BENOEMD OBJECT, BESLUIT, BUURT, ENKELVOUDIG INFORMATIEOBJECT, GEMEENTE, GEMEENTELIJKE OPENBARE RUIMTE, HUISHOUDEN, INRICHTINGSELEMENT, KADASTRALE ONROERENDE ZAAK, KUNSTWERKDEEL, MAATSSCHAPPELIJKE ACTIVITEIT, MEDEWERKER, OPENBARE RUIMTE, SAMENGESTELD INFORMATIEOBJECT, ORGANISATORISCHE EENHEID, PAND, SPOORBAANDEEL, STATUS, SUBJECT, TERREINDEEL, WATERDEEL, WEGDEEL, WIJK, WOONPLAATS, WOZ- DEELOBJECT, WOZ-OBJECT, WOZ-WAARDE of</font></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;"><font color="#610e6a">ZAKELIJK RECHT (of afleidbare identificatie).</font></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;"><font color="#610e6a">Het onderscheid van een OBJECT naar haar specialisatiies.</font><br><font color="#610e6a">De code voor de Objecttypering gevolgd door de unieke aanduiding van de specialisatie (van OBJECT):</font><br><font color="#610e6a">ADRESSEERBAAR OBJECT AANDUIDING, BENOEMD OBJECT, BESLUIT, BUURT, ENKELVOUDIG INFORMATIEOBJECT, GEMEENTE, GEMEENTELIJKE OPENBARE RUIMTE, HUISHOUDEN, INRICHTINGSELEMENT, KADASTRALE ONROERENDE ZAAK, KUNSTWERKDEEL, MAATSSCHAPPELIJKE ACTIVITEIT, MEDEWERKER, OPENBARE RUIMTE, SAMENGESTELD INFORMATIEOBJECT, ORGANISATORISCHE EENHEID, PAND, SPOORBAANDEEL, STATUS, SUBJECT, TERREINDEEL, WATERDEEL, WEGDEEL, WIJK, WOONPLAATS, WOZ- DEELOBJECT, WOZ-OBJECT, WOZ-WAARDE of</font><br><font color="#610e6a">ZAKELIJK RECHT (of afleidbare identificatie).</font></td>
 </tr>
 <tr>
 <td style="text-align: left;">naam</td>
@@ -6180,7 +6168,7 @@
 <h3 id="offerte">Offerte</h3>
 <blockquote>
 <p><strong>Definitie Offerte:</strong> </p>
-<p>Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs. </p>
+<p>Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs.</p>
 </blockquote>
 <table>
 <thead>
@@ -7572,23 +7560,23 @@
 </tr>
 <tr>
 <td style="text-align: left;">toelichting</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">synoniemen</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">uri</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">bron</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">author</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">version</td>
@@ -7608,31 +7596,31 @@
 </tr>
 <tr>
 <td style="text-align: left;">domein_iv3</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">domein_dcat</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">gemma_naam</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">gemma_type</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">gemma_url</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">gemma_definitie</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">gemma_toelichting</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
@@ -7658,23 +7646,23 @@
 </tr>
 <tr>
 <td style="text-align: left;">toelichting</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">synoniemen</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">uri</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">bron</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">author</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">version</td>
@@ -7694,31 +7682,31 @@
 </tr>
 <tr>
 <td style="text-align: left;">domein_iv3</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">domein_dcat</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">gemma_naam</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">gemma_type</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">gemma_url</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">gemma_definitie</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">gemma_toelichting</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
@@ -7747,23 +7735,23 @@
 </tr>
 <tr>
 <td style="text-align: left;">toelichting</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">synoniemen</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">uri</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">bron</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">author</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">version</td>
@@ -7783,31 +7771,31 @@
 </tr>
 <tr>
 <td style="text-align: left;">domein_iv3</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">domein_dcat</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">gemma_naam</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">gemma_type</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">gemma_url</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">gemma_definitie</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;">gemma_toelichting</td>
-<td style="text-align: left;">None</td>
+<td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
