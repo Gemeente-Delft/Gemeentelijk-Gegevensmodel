@@ -4315,30 +4315,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Applicatie</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| naam | AN255 |  |</p>
-<p>| categorie | Enumeratie: "Applicatiecategorie" |  |</p>
-<p>| beheerstatus | int |  |</p>
-<p>| packagingstatus | int |  |</p>
-<p>| applicatieURL | AN255 |  |</p>
-<p>| guid | guid |  |</p>
-<p>| omschrijving | Text |  |</p>
-<p>| beleidsdomein | AN255 |  |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || naam | AN255 |  || categorie | Enumeratie: "Applicatiecategorie" |  || beheerstatus | int |  || packagingstatus | int |  || applicatieURL | AN255 |  || guid | guid |  || omschrijving | Text |  || beleidsdomein | AN255 |  |</p>
 <h3 id="attribuutsoort">Attribuutsoort</h3>
 <blockquote>
 <p><strong>Definitie Attribuutsoort:</strong> </p>
@@ -4423,41 +4401,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Attribuutsoort</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| naam | AN80 |  |</p>
-<p>| herkomst | AN80 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |</p>
-<p>| definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |</p>
-<p>| herkomstDefinitie | AN80 |  |</p>
-<p>| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |</p>
-<p>| domein | AN80 | <i>Domein is zelf geen metadata aspect. Onder het kopje ï¿½domeinï¿½ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i> |</p>
-<p>| lengte | AN40 | De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.<br><i>Bijvoorbeeld:</i><br><i>ï¿½1ï¿½ als de lengte exact 1 is;</i><br><i>ï¿½1..2ï¿½ als de lengte 1 tot en met 2 lang kan zijn; 'ï¿½1,2ï¿½ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99; |</p>
-<p>| patroon | AN40 | Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.<br>De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur. |</p>
-<p>| toelichting | Text |  |</p>
-<p>| indicatieMaterieleHistorie | boolean | Indicatie of de materiï¿½le historie van de attribuutsoort te bevragen is. Materiï¿½le historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde. |</p>
-<p>| kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:<br>0..1: is soms niet beschikbaar<br>1 : is altijd beschikbaar<br>0..<em>: is niet altijd beschikbaar, kan<br>meerdere malen voorkomen 1..</em>: is altijd beschikbaar, kan<br>meerdere malen voorkomen<br>Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |</p>
-<p>| authentiek | boolean |  |</p>
-<p>| indicatieAfleidbaar | boolean | Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten. |</p>
-<p>| mogelijkGeenWaarde | boolean |  |</p>
-<p>| identificerend | boolean | Aanduiding dat attribuutsoort onderdeel uitmaakt van de unieke aanduiding van een object |</p>
-<p>| id | int |  |</p>
-<p>| stereotype | AN40 |  |</p>
-<p>| precisie | int |  |</p>
-<p>| ea_guid | guid |  |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || naam | AN80 |  || herkomst | AN80 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). || definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. || herkomstDefinitie | AN80 |  || datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. || domein | AN80 | <i>Domein is zelf geen metadata aspect. Onder het kopje ï¿½domeinï¿½ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i> || lengte | AN40 | De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.<br><i>Bijvoorbeeld:</i><br><i>ï¿½1ï¿½ als de lengte exact 1 is;</i><br><i>ï¿½1..2ï¿½ als de lengte 1 tot en met 2 lang kan zijn; 'ï¿½1,2ï¿½ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99; || patroon | AN40 | Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.<br>De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur. || toelichting | Text |  || indicatieMaterieleHistorie | boolean | Indicatie of de materiï¿½le historie van de attribuutsoort te bevragen is. Materiï¿½le historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde. || kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:<br>0..1: is soms niet beschikbaar<br>1 : is altijd beschikbaar<br>0..<em>: is niet altijd beschikbaar, kan<br>meerdere malen voorkomen 1..</em>: is altijd beschikbaar, kan<br>meerdere malen voorkomen<br>Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. || authentiek | boolean |  || indicatieAfleidbaar | boolean | Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten. || mogelijkGeenWaarde | boolean |  || identificerend | boolean | Aanduiding dat attribuutsoort onderdeel uitmaakt van de unieke aanduiding van een object || id | int |  || stereotype | AN40 |  || precisie | int |  || ea_guid | guid |  |</p>
 <h3 id="classificatie">Classificatie</h3>
 <blockquote>
 <p><strong>Definitie Classificatie:</strong> </p>
@@ -4542,25 +4487,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Classificatie</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| bevatPersoonsgegevens | Persoonsgegevens |  |</p>
-<p>| id | guid |  |</p>
-<p>| gerelateerdPersoonsgegevens | Persoonsgegevens |  |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || bevatPersoonsgegevens | Persoonsgegevens |  || id | guid |  || gerelateerdPersoonsgegevens | Persoonsgegevens |  |</p>
 <h3 id="cmdb-item">CMDB-item</h3>
 <blockquote>
 <p><strong>Definitie CMDB-item :</strong> </p>
@@ -4645,24 +4573,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype CMDB-item </p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| naam | AN255 |  |</p>
-<p>| beschrijving | Text |  |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || naam | AN255 |  || beschrijving | Text |  |</p>
 <h3 id="database">Database</h3>
 <blockquote>
 <p><strong>Definitie Database:</strong> </p>
@@ -4747,29 +4659,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Database</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| database | AN40 |  |</p>
-<p>| omschrijving | AN80 |  |</p>
-<p>| DBMS | AN40 |  |</p>
-<p>| architectuur | AN40 |  |</p>
-<p>| OTAP |  |  |</p>
-<p>| databaseVersie | AN40 |  |</p>
-<p>| vlan | AN40 |  |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || database | AN40 |  || omschrijving | AN80 |  || DBMS | AN40 |  || architectuur | AN40 |  || OTAP |  |  || databaseVersie | AN40 |  || vlan | AN40 |  |</p>
 <h3 id="datatype">Datatype</h3>
 <blockquote>
 <p><strong>Definitie Datatype:</strong> </p>
@@ -4854,33 +4745,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Datatype</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| naam | AN255 |  |</p>
-<p>| herkomst | AN255 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |</p>
-<p>| definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |</p>
-<p>| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |</p>
-<p>| domein | AN255 | <i>Domein is zelf geen metadata aspect. Onder het kopje ï¿½domeinï¿½ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i> |</p>
-<p>| lengte | AN40 | De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.<br><i>Bijvoorbeeld:</i><br><i>ï¿½1ï¿½ als de lengte exact 1 is;</i><br><i>ï¿½1..2ï¿½ als de lengte 1 tot en met 2 lang kan zijn; 'ï¿½1,2ï¿½ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99; |</p>
-<p>| patroon | AN40 | Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.<br>De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur. |</p>
-<p>| toelichting | Text |  |</p>
-<p>| id | int |  |</p>
-<p>| ea_guid | guid |  |</p>
-<p>| kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:<br>0..1: is soms niet beschikbaar<br>1 : is altijd beschikbaar<br>0..<em>: is niet altijd beschikbaar, kan<br>meerdere malen voorkomen 1..</em>: is altijd beschikbaar, kan<br>meerdere malen voorkomen<br>Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || naam | AN255 |  || herkomst | AN255 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). || definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. || datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. || domein | AN255 | <i>Domein is zelf geen metadata aspect. Onder het kopje ï¿½domeinï¿½ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i> || lengte | AN40 | De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.<br><i>Bijvoorbeeld:</i><br><i>ï¿½1ï¿½ als de lengte exact 1 is;</i><br><i>ï¿½1..2ï¿½ als de lengte 1 tot en met 2 lang kan zijn; 'ï¿½1,2ï¿½ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99; || patroon | AN40 | Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.<br>De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur. || toelichting | Text |  || id | int |  || ea_guid | guid |  || kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:<br>0..1: is soms niet beschikbaar<br>1 : is altijd beschikbaar<br>0..<em>: is niet altijd beschikbaar, kan<br>meerdere malen voorkomen 1..</em>: is altijd beschikbaar, kan<br>meerdere malen voorkomen<br>Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |</p>
 <h3 id="dienst">Dienst</h3>
 <blockquote>
 <p><strong>Definitie Dienst:</strong> </p>
@@ -5165,24 +5031,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Externe Bron</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| guid | guid |  |</p>
-<p>| naam | AN255 |  |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || guid | guid |  || naam | AN255 |  |</p>
 <h3 id="gegeven">Gegeven</h3>
 <blockquote>
 <p><strong>Definitie Gegeven:</strong> </p>
@@ -5267,28 +5117,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Gegeven</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| id | int |  |</p>
-<p>| naam | AN255 |  |</p>
-<p>| alias | AN255 |  |</p>
-<p>| toelichting | Text |  |</p>
-<p>| stereotype | AN255 |  |</p>
-<p>| ea_guid | guid |  |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || id | int |  || naam | AN255 |  || alias | AN255 |  || toelichting | Text |  || stereotype | AN255 |  || ea_guid | guid |  |</p>
 <h3 id="generalisatie">Generalisatie</h3>
 <blockquote>
 <p><strong>Definitie Generalisatie:</strong> </p>
@@ -5373,31 +5203,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Generalisatie</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| naam | AN255 |  |</p>
-<p>| herkomst | AN255 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |</p>
-<p>| definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |</p>
-<p>| herkomstDefinitie | AN255 |  |</p>
-<p>| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |</p>
-<p>| id | int |  |</p>
-<p>| ea_guid | guid |  |</p>
-<p>| toelichting | Text |  |</p>
-<p>| indicatieMaterieleHistorie | boolean | Indicatie of de materiï¿½le historie van de attribuutsoort te bevragen is. Materiï¿½le historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde. |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || naam | AN255 |  || herkomst | AN255 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). || definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. || herkomstDefinitie | AN255 |  || datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. || id | int |  || ea_guid | guid |  || toelichting | Text |  || indicatieMaterieleHistorie | boolean | Indicatie of de materiï¿½le historie van de attribuutsoort te bevragen is. Materiï¿½le historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde. |</p>
 <h3 id="hardware">Hardware</h3>
 <blockquote>
 <p><strong>Definitie Hardware:</strong> </p>
@@ -5682,25 +5489,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Koppeling</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| direct | boolean |  |</p>
-<p>| beschrijving | AN200 |  |</p>
-<p>| toelichting | text |  |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || direct | boolean |  || beschrijving | AN200 |  || toelichting | text |  |</p>
 <h3 id="licentie">Licentie</h3>
 <blockquote>
 <p><strong>Definitie Licentie:</strong> </p>
@@ -5985,25 +5775,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Log</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| tijd | DateTime |  |</p>
-<p>| korteOmschrijving | AN80 |  |</p>
-<p>| omschrijving | Text |  |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || tijd | DateTime |  || korteOmschrijving | AN80 |  || omschrijving | Text |  |</p>
 <h3 id="melding">Melding</h3>
 <blockquote>
 <p><strong>Definitie Melding:</strong> </p>
@@ -6288,24 +6061,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Notitie</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| datum | Date |  |</p>
-<p>| inhoud | Text |  |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || datum | Date |  || inhoud | Text |  |</p>
 <h3 id="objecttype">Objecttype</h3>
 <blockquote>
 <p><strong>Definitie Objecttype:</strong> </p>
@@ -6390,36 +6147,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Objecttype</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| naam | AN255 |  |</p>
-<p>| herkomst | AN255 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |</p>
-<p>| definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |</p>
-<p>| herkomstDefinitie | AN255 |  |</p>
-<p>| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |</p>
-<p>| uniekeAanduiding | AN255 | Voor objecttypen die deel uitmaken van een (basis)registratie of informatiemodel betreft dit de wijze waarop daarin voorkomende objecten (van dit type) uniek in de registratie worden aangeduid. |</p>
-<p>| populatie | Text | Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)- registratie voorhanden zijn. |</p>
-<p>| kwaliteit | AN255 | Voor objecttypen die deel uitmaken van een registratie betreft dit de waarborgen voor de juistheid van de in de registratie opgenomen objecten van het desbetreffende type. |</p>
-<p>| toelichting | Text |  |</p>
-<p>| indicatieAbstract | boolean | Conceptueel model: indicatie dat het objecttype een generalisatie is,<br>waarvan een object als specialisatie altijd voorkomt in de hoedanigheid van een (en slechts ï¿½ï¿½n) van de specialisaties van het betreffende objecttype.<br>Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende objecttype mogen voorkomen. |</p>
-<p>| id | int |  |</p>
-<p>| stereotype | AN255 |  |</p>
-<p>| ea_guid | guid |  |</p>
-<p>| supertype | Class: "Generalisatie" |  |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || naam | AN255 |  || herkomst | AN255 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). || definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. || herkomstDefinitie | AN255 |  || datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. || uniekeAanduiding | AN255 | Voor objecttypen die deel uitmaken van een (basis)registratie of informatiemodel betreft dit de wijze waarop daarin voorkomende objecten (van dit type) uniek in de registratie worden aangeduid. || populatie | Text | Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)- registratie voorhanden zijn. || kwaliteit | AN255 | Voor objecttypen die deel uitmaken van een registratie betreft dit de waarborgen voor de juistheid van de in de registratie opgenomen objecten van het desbetreffende type. || toelichting | Text |  || indicatieAbstract | boolean | Conceptueel model: indicatie dat het objecttype een generalisatie is,<br>waarvan een object als specialisatie altijd voorkomt in de hoedanigheid van een (en slechts ï¿½ï¿½n) van de specialisaties van het betreffende objecttype.<br>Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende objecttype mogen voorkomen. || id | int |  || stereotype | AN255 |  || ea_guid | guid |  || supertype | Class: "Generalisatie" |  |</p>
 <h3 id="onderwerp">Onderwerp</h3>
 <blockquote>
 <p><strong>Definitie Onderwerp:</strong> </p>
@@ -6604,27 +6333,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Package</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| naam | AN80 |  |</p>
-<p>| status | AN40 |  |</p>
-<p>| proces | AN40 |  |</p>
-<p>| project | AN40 |  |</p>
-<p>| toelichting | Text |  |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || naam | AN80 |  || status | AN40 |  || proces | AN40 |  || project | AN40 |  || toelichting | Text |  |</p>
 <h3 id="prijzenboek">Prijzenboek</h3>
 <blockquote>
 <p><strong>Definitie Prijzenboek:</strong> </p>
@@ -6909,36 +6619,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Relatiesoort</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| naam | AN80 |  |</p>
-<p>| herkomst | AN80 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |</p>
-<p>| definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |</p>
-<p>| herkomstDefinitie | AN80 |  |</p>
-<p>| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |</p>
-<p>| toelichting | Text |  |</p>
-<p>| indicatieMaterieleHistorie | boolean | Indicatie of de materiï¿½le historie van de attribuutsoort te bevragen is. Materiï¿½le historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde. |</p>
-<p>| kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:<br>0..1: is soms niet beschikbaar<br>1 : is altijd beschikbaar<br>0..<em>: is niet altijd beschikbaar, kan<br>meerdere malen voorkomen 1..</em>: is altijd beschikbaar, kan<br>meerdere malen voorkomen<br>Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |</p>
-<p>| authentiek | boolean |  |</p>
-<p>| unidirectioneel | AN40 | Het gerelateerde objecttype (de target) waarvan het objecttype, die de eigenaar is van deze relatie (de source), kennis heeft.<br>Alle relaties zijn altijd gericht van het objecttype (source) naar het gerelateerde objecttype (target). |</p>
-<p>| id | int |  |</p>
-<p>| indicatieAfleidbaar | boolean | Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten. |</p>
-<p>| ea_guid | guid |  |</p>
-<p>| mogelijkGeenWaarde | boolean |  |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || naam | AN80 |  || herkomst | AN80 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). || definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. || herkomstDefinitie | AN80 |  || datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. || toelichting | Text |  || indicatieMaterieleHistorie | boolean | Indicatie of de materiï¿½le historie van de attribuutsoort te bevragen is. Materiï¿½le historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde. || kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:<br>0..1: is soms niet beschikbaar<br>1 : is altijd beschikbaar<br>0..<em>: is niet altijd beschikbaar, kan<br>meerdere malen voorkomen 1..</em>: is altijd beschikbaar, kan<br>meerdere malen voorkomen<br>Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. || authentiek | boolean |  || unidirectioneel | AN40 | Het gerelateerde objecttype (de target) waarvan het objecttype, die de eigenaar is van deze relatie (de source), kennis heeft.<br>Alle relaties zijn altijd gericht van het objecttype (source) naar het gerelateerde objecttype (target). || id | int |  || indicatieAfleidbaar | boolean | Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten. || ea_guid | guid |  || mogelijkGeenWaarde | boolean |  |</p>
 <h3 id="server">Server</h3>
 <blockquote>
 <p><strong>Definitie Server:</strong> </p>
@@ -7023,30 +6705,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Server</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| serverID | AN20 |  |</p>
-<p>| organisatie | AN80 |  |</p>
-<p>| servertype | Enumeratie: "Servertypes" |  |</p>
-<p>| IPAdres | AN40 |  |</p>
-<p>| vlan | AN40 |  |</p>
-<p>| serienummer | AN40 |  |</p>
-<p>| locatie | AN40 |  |</p>
-<p>| actief | boolean |  |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || serverID | AN20 |  || organisatie | AN80 |  || servertype | Enumeratie: "Servertypes" |  || IPAdres | AN40 |  || vlan | AN40 |  || serienummer | AN40 |  || locatie | AN40 |  || actief | boolean |  |</p>
 <h3 id="software">Software</h3>
 <blockquote>
 <p><strong>Definitie Software:</strong> </p>
@@ -7531,28 +7191,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Versie</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| versienummer | AN8 |  |</p>
-<p>| status | AN40 |  |</p>
-<p>| datumEindeSupport | Date |  |</p>
-<p>| licentie | AN40 |  |</p>
-<p>| aantal | int |  |</p>
-<p>| kosten | Bedrag |  |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || versienummer | AN8 |  || status | AN40 |  || datumEindeSupport | Date |  || licentie | AN40 |  || aantal | int |  || kosten | Bedrag |  |</p>
 <h3 id="vervoersmiddel">Vervoersmiddel</h3>
 <blockquote>
 <p><strong>Definitie Vervoersmiddel:</strong> </p>

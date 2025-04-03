@@ -4174,35 +4174,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Onderzoek</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| documentnummer | int | Het unieke nummer van het brondocument<br>Herkomst: BAG |</p>
-<p>| documentdatum | DateTime | De datum waarop het brondocument is vastgesteld<br><br>Herkomst: BAG |</p>
-<p>| beginGeldigheid | DateTime | De datum waarop het kenmerk of de relatie van een object bij de bronhouder in onderzoek is geplaatst.<br><br>Herkomst: BAG |</p>
-<p>| eindGeldigheid | DateTime | De datum waarop het onderzoek naar het kenmerk of de relatie van een object door de bronhouder is afgerond<br><br>Herkomst: BAG |</p>
-<p>| tijdstipRegistratie | DateTime | Het tijdstip waarop het onderzoek is geregistreerd bij de bronhouder.<br><br>Herkomst: BAG |</p>
-<p>| eindRegistratie | DateTime | Het tijdstip waarop de registratie van het onderzoek is be&#235;indigd bij de bronhouder.<br><br>Herkomst: BAG |</p>
-<p>| identificatie | char | Identificatie van de objectklasse Onderzoek voor intern gebruik.<br>Herkomst: BAG Plus |</p>
-<p>| volgnummer | int | Uniek volgnummer van de toestand van het object.<br>Herkomst: BAG Plus |</p>
-<p>| objecttype | char | Geeft aan welke objectklasse in onderzoek staat.<br><br>Herkomst: BAG Plus |</p>
-<p>| inOnderzoek | boolean | Indicatie of het kenmerk wel of niet in onderzoek staat.<br><br>Herkomst BAG Plus |</p>
-<p>| datumActueelTot | DateTime | Einddatum van de cyclus, eventueel in combinatie met het kenmerk Status.<br><br>Herkomst: BAG Plus |</p>
-<p>| kenmerk | char | De naam van het kenmerk van het object dat in onderzoek is geplaatst. Het kenmerk kan ook een relatie zijn met een ander object.<br><br>Per object kunnen de volgende kenmerken of relaties in onderzoek worden geplaatst:<br><br>Woonplaats:<br><ul><br><li>naam</li><br><li>geometrie</li><br><li>status </li><br></ul><br><br>Openbare ruimte:<br><ul><br><li>naam</li><br><li>type</li><br><li>status</li><br><li>ligt in woonplaats </li><br></ul><br><br>Nummeraanduiding:<br><ul><br><li>huisnummer</li><br><li>huisletter</li><br><li>huisnummertoevoeging</li><br><li>postcode</li><br><li>type adresseerbaar object</li><br><li>status</li><br><li>ligt in woonplaats</li><br><li>ligt aan openbare ruimte </li><br></ul><br><br>Pand:<br><ul><br><li>geometrie</li><br><li>bouwjaar</li><br><li>status </li><br></ul><br><br>Verblijfsobject:<br><ul><br><li>geometrie</li><br><li>gebruiksdoel</li><br><li>oppervlakte</li><br><li>status</li><br><li>ligt in pand</li><br><li>heeft hoofdadres</li><br><li>heeft nevenadres </li><br></ul><br><br>Standplaats:<br><ul><br><li>geometrie</li><br><li>status</li><br><li>heeft hoofdadres</li><br><li>heeft nevenadres </li><br></ul><br><br>Ligplaats:<br><ul><br><li>geometrie</li><br><li>status</li><br><li>heeft hoofdadres</li><br><li>heeft nevenadres </li><br></ul><br><br>Herkomst: BAG |</p>
-<p>| objectIdentificatie | char | Unieke identificatie van het object dat in onderzoek is geplaatst.<br><br>Herkomst BAG |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || documentnummer | int | Het unieke nummer van het brondocument<br>Herkomst: BAG || documentdatum | DateTime | De datum waarop het brondocument is vastgesteld<br><br>Herkomst: BAG || beginGeldigheid | DateTime | De datum waarop het kenmerk of de relatie van een object bij de bronhouder in onderzoek is geplaatst.<br><br>Herkomst: BAG || eindGeldigheid | DateTime | De datum waarop het onderzoek naar het kenmerk of de relatie van een object door de bronhouder is afgerond<br><br>Herkomst: BAG || tijdstipRegistratie | DateTime | Het tijdstip waarop het onderzoek is geregistreerd bij de bronhouder.<br><br>Herkomst: BAG || eindRegistratie | DateTime | Het tijdstip waarop de registratie van het onderzoek is be&#235;indigd bij de bronhouder.<br><br>Herkomst: BAG || identificatie | char | Identificatie van de objectklasse Onderzoek voor intern gebruik.<br>Herkomst: BAG Plus || volgnummer | int | Uniek volgnummer van de toestand van het object.<br>Herkomst: BAG Plus || objecttype | char | Geeft aan welke objectklasse in onderzoek staat.<br><br>Herkomst: BAG Plus || inOnderzoek | boolean | Indicatie of het kenmerk wel of niet in onderzoek staat.<br><br>Herkomst BAG Plus || datumActueelTot | DateTime | Einddatum van de cyclus, eventueel in combinatie met het kenmerk Status.<br><br>Herkomst: BAG Plus || kenmerk | char | De naam van het kenmerk van het object dat in onderzoek is geplaatst. Het kenmerk kan ook een relatie zijn met een ander object.<br><br>Per object kunnen de volgende kenmerken of relaties in onderzoek worden geplaatst:<br><br>Woonplaats:<br><ul><br><li>naam</li><br><li>geometrie</li><br><li>status </li><br></ul><br><br>Openbare ruimte:<br><ul><br><li>naam</li><br><li>type</li><br><li>status</li><br><li>ligt in woonplaats </li><br></ul><br><br>Nummeraanduiding:<br><ul><br><li>huisnummer</li><br><li>huisletter</li><br><li>huisnummertoevoeging</li><br><li>postcode</li><br><li>type adresseerbaar object</li><br><li>status</li><br><li>ligt in woonplaats</li><br><li>ligt aan openbare ruimte </li><br></ul><br><br>Pand:<br><ul><br><li>geometrie</li><br><li>bouwjaar</li><br><li>status </li><br></ul><br><br>Verblijfsobject:<br><ul><br><li>geometrie</li><br><li>gebruiksdoel</li><br><li>oppervlakte</li><br><li>status</li><br><li>ligt in pand</li><br><li>heeft hoofdadres</li><br><li>heeft nevenadres </li><br></ul><br><br>Standplaats:<br><ul><br><li>geometrie</li><br><li>status</li><br><li>heeft hoofdadres</li><br><li>heeft nevenadres </li><br></ul><br><br>Ligplaats:<br><ul><br><li>geometrie</li><br><li>status</li><br><li>heeft hoofdadres</li><br><li>heeft nevenadres </li><br></ul><br><br>Herkomst: BAG || objectIdentificatie | char | Unieke identificatie van het object dat in onderzoek is geplaatst.<br><br>Herkomst BAG |</p>
 <h3 id="nummeraanduiding">Nummeraanduiding</h3>
 <blockquote>
 <p><strong>Definitie Nummeraanduiding:</strong> </p>
@@ -4287,38 +4260,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Nummeraanduiding</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| huisletter | AN1 | Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken. |</p>
-<p>| huisnummer | N5 | Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nummering. |</p>
-<p>| huisnummertoevoeging | AN4 | Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter. |</p>
-<p>| postcode | char | De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam van een woonplaats, naam van een openbare ruimte en een huisnummer |</p>
-<p>| beginGeldigheid | DATUM | Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum |</p>
-<p>| eindeGeldigheid | DATUM | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. |</p>
-<p>| status | Enumeratie: "statusNummeraanduiding" | De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.<br>&nbsp;<br><ul><br><li>Naamgeving uitgegeven</li><br><li>Naamgeving ingetrokken</li><br></ul> |</p>
-<p>| geconstateerd | boolean |  |</p>
-<p>| identificatie | Varchar | Unieke identificatiecode van het object |</p>
-<p>| typeAdresseerbaarObject | Enumeratie: "TypeAdresseerbaarObject" | Het type addresseerbaarobject (landelijke identificatie) wat door de nummeraanduiding wordt aangeduid. |</p>
-<p>| datumIngang | Date | Datum waarop het object is ontstaan |</p>
-<p>| datumEinde | DATUM | De datum waarop de object in de BAG formeel is ingetrokken. |</p>
-<p>| versie | int |  |</p>
-<p>| geometrie | point |  |</p>
-<p>| documentdatum | Date | De datum op basis waarvan een opname of mutatie van gegevens ten aanzien van een BAG-object heeft plaatsgevonden. |</p>
-<p>| documentnummer | int | Het unieke nummer van het brondocument |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || huisletter | AN1 | Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken. || huisnummer | N5 | Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nummering. || huisnummertoevoeging | AN4 | Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter. || postcode | char | De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam van een woonplaats, naam van een openbare ruimte en een huisnummer || beginGeldigheid | DATUM | Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum || eindeGeldigheid | DATUM | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. || status | Enumeratie: "statusNummeraanduiding" | De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.<br>&nbsp;<br><ul><br><li>Naamgeving uitgegeven</li><br><li>Naamgeving ingetrokken</li><br></ul> || geconstateerd | boolean |  || identificatie | Varchar | Unieke identificatiecode van het object || typeAdresseerbaarObject | Enumeratie: "TypeAdresseerbaarObject" | Het type addresseerbaarobject (landelijke identificatie) wat door de nummeraanduiding wordt aangeduid. || datumIngang | Date | Datum waarop het object is ontstaan || datumEinde | DATUM | De datum waarop de object in de BAG formeel is ingetrokken. || versie | int |  || geometrie | point |  || documentdatum | Date | De datum op basis waarvan een opname of mutatie van gegevens ten aanzien van een BAG-object heeft plaatsgevonden. || documentnummer | int | Het unieke nummer van het brondocument |</p>
 <h3 id="buurt">Buurt</h3>
 <blockquote>
 <p><strong>Definitie Buurt:</strong> </p>
@@ -4403,33 +4346,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Buurt</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| code | AN2 | De code behorende bij de naam van de buurt. |</p>
-<p>| naam | AN40 | De naam van de buurt, zoals die door het CBS wordt gebruikt. |</p>
-<p>| geometrie | MultiSurface | De tweedimensionale geometrische representatie van de omtrekken van de buurt. |</p>
-<p>| beginGeldigheid | DATUM | Definitie<br>BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.<br>Beschrijving<br>Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum |</p>
-<p>| eindGeldigheid | DATUM | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. |</p>
-<p>| identificatie | Varchar |  |</p>
-<p>| datumIngang | Date | Datum waarop het object is ontstaan |</p>
-<p>| status | statusOpenbareRuimte |  |</p>
-<p>| datumEinde | Date | De datum waarop de object in de BAG formeel is ingetrokken. |</p>
-<p>| versie | int |  |</p>
-<p>| Geconstateerd | boolean |  |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || code | AN2 | De code behorende bij de naam van de buurt. || naam | AN40 | De naam van de buurt, zoals die door het CBS wordt gebruikt. || geometrie | MultiSurface | De tweedimensionale geometrische representatie van de omtrekken van de buurt. || beginGeldigheid | DATUM | Definitie<br>BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.<br>Beschrijving<br>Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum || eindGeldigheid | DATUM | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. || identificatie | Varchar |  || datumIngang | Date | Datum waarop het object is ontstaan || status | statusOpenbareRuimte |  || datumEinde | Date | De datum waarop de object in de BAG formeel is ingetrokken. || versie | int |  || Geconstateerd | boolean |  |</p>
 <h3 id="gemeente">Gemeente</h3>
 <blockquote>
 <p><strong>Definitie Gemeente:</strong> </p>
@@ -4514,34 +4432,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Gemeente</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| gemeentecode | AN4 | Een numerieke aanduiding waarmee een Nederlandse gemeente uniek wordt aangeduid |</p>
-<p>| gemeentenaam | AN80 | De officiï¿½le door de gemeente vastgestelde gemeentenaam. |</p>
-<p>| gemeentenaam NEN | AN24 | De officieel vastgestelde en waar nodig ingekorte naam van de gemeente |</p>
-<p>| geometrie | Surface | De tweedimensionale geometrische representatie van de omtrekken van het grondgebied van een gemeente. |</p>
-<p>| beginGeldigheid | DATUM | Definitie<br>BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.<br>Beschrijving<br>Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum |</p>
-<p>| eindGeldigheid | DATUM | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. |</p>
-<p>| identificatie | Varchar |  |</p>
-<p>| datumIngang | Date |  |</p>
-<p>| datumEinde | Date | De datum waarop de object in de BAG formeel is ingetrokken. |</p>
-<p>| versie | int |  |</p>
-<p>| Geconstateerd | boolean |  |</p>
-<p>| nieuwe gemeente | Class: "Gemeente" |  |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || gemeentecode | AN4 | Een numerieke aanduiding waarmee een Nederlandse gemeente uniek wordt aangeduid || gemeentenaam | AN80 | De officiï¿½le door de gemeente vastgestelde gemeentenaam. || gemeentenaam NEN | AN24 | De officieel vastgestelde en waar nodig ingekorte naam van de gemeente || geometrie | Surface | De tweedimensionale geometrische representatie van de omtrekken van het grondgebied van een gemeente. || beginGeldigheid | DATUM | Definitie<br>BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.<br>Beschrijving<br>Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum || eindGeldigheid | DATUM | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. || identificatie | Varchar |  || datumIngang | Date |  || datumEinde | Date | De datum waarop de object in de BAG formeel is ingetrokken. || versie | int |  || Geconstateerd | boolean |  || nieuwe gemeente | Class: "Gemeente" |  |</p>
 <h3 id="ligplaats">Ligplaats</h3>
 <blockquote>
 <p><strong>Definitie Ligplaats:</strong> </p>
@@ -4626,33 +4518,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Ligplaats</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| identificatie | Varchar | De unieke aanduiding van een LIGPLAATS |</p>
-<p>| geconstateerd | Enumeratie: "Boolean" | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname. |</p>
-<p>| status | Enumeratie: "statusLigplaats" | De fase van de levenscyclus van een LIGPLAATS waarin de betreffende LIGPLAATS zich bevindt.<br>&nbsp;<br><ul><br><li>Plaats aangewezen</li><br><li>Plaats ingetrokken</li><br></ul> |</p>
-<p>| documentdatum | Date | De datum waarop het brondocument is vastgesteld op basis waarvan een opname, mutatie of een verwijdering van gegevens ten aanzien van een object heeft plaatsgevonden. |</p>
-<p>| documentnummer | int | De unieke aanduiding van het brondocument op basis waarvan een opname, mutatie of een verwijdering van gegevens ten aanzien van een woonplaats heeft plaatsgevonden binnen een gemeente. |</p>
-<p>| versie | Number |  |</p>
-<p>| geometrie | Surface | Loodrechte bovenaanzicht van de ligplaats in het Nationale Rijksdriehoekstelsel, inclusief alle zichtbare en onzichtbare delen boven en onder de grond, maar exclusief alle delen die kunnen bewegen ten opzichte van de aarde |</p>
-<p>| beginGeldigheid | Date | Definitie<br>BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.<br>Beschrijving<br>Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum |</p>
-<p>| eindGeldigheid | Date | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. |</p>
-<p>| datumIngang | Date | Datum waarop het object is ontstaan |</p>
-<p>| datumEinde | Date | De datum waarop de object in de BAG formeel is ingetrokken. |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || identificatie | Varchar | De unieke aanduiding van een LIGPLAATS || geconstateerd | Enumeratie: "Boolean" | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname. || status | Enumeratie: "statusLigplaats" | De fase van de levenscyclus van een LIGPLAATS waarin de betreffende LIGPLAATS zich bevindt.<br>&nbsp;<br><ul><br><li>Plaats aangewezen</li><br><li>Plaats ingetrokken</li><br></ul> || documentdatum | Date | De datum waarop het brondocument is vastgesteld op basis waarvan een opname, mutatie of een verwijdering van gegevens ten aanzien van een object heeft plaatsgevonden. || documentnummer | int | De unieke aanduiding van het brondocument op basis waarvan een opname, mutatie of een verwijdering van gegevens ten aanzien van een woonplaats heeft plaatsgevonden binnen een gemeente. || versie | Number |  || geometrie | Surface | Loodrechte bovenaanzicht van de ligplaats in het Nationale Rijksdriehoekstelsel, inclusief alle zichtbare en onzichtbare delen boven en onder de grond, maar exclusief alle delen die kunnen bewegen ten opzichte van de aarde || beginGeldigheid | Date | Definitie<br>BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.<br>Beschrijving<br>Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum || eindGeldigheid | Date | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. || datumIngang | Date | Datum waarop het object is ontstaan || datumEinde | Date | De datum waarop de object in de BAG formeel is ingetrokken. |</p>
 <h3 id="adresseerbaarobject">AdresseerbaarObject</h3>
 <blockquote>
 <p><strong>Definitie AdresseerbaarObject:</strong> </p>
@@ -4737,25 +4604,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype AdresseerbaarObject</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| identificatie | Varchar | De unieke aanduiding van een AdresseerbaarObject. |</p>
-<p>| versie | int |  |</p>
-<p>| typeAdresseerbaarObject | Enumeratie: "TypeAdresseerbaarObject" |  |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || identificatie | Varchar | De unieke aanduiding van een AdresseerbaarObject. || versie | int |  || typeAdresseerbaarObject | Enumeratie: "TypeAdresseerbaarObject" |  |</p>
 <h3 id="openbareruimte">OpenbareRuimte</h3>
 <blockquote>
 <p><strong>Definitie OpenbareRuimte:</strong> </p>
@@ -4840,42 +4690,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype OpenbareRuimte</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| identificatie | Varchar | De unieke aanduiding van een OPENBARE RUIMTE. |</p>
-<p>| status | Enumeratie: "statusOpenbareRuimte" | De fase van de levenscyclus van een OPENBARE RUIMTE, waarin de betreffende  OPENBARE RUIMTE zich bevindt |</p>
-<p>| naamOpenbareruimte | AN80 | <font color="#0f0f0f">Een door het bevoegde gemeentelijke orgaan aan een OPENBARE RUIMTE toegekende benaming</font> |</p>
-<p>| geconstateerd | boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname |</p>
-<p>| typeOpenbareruimte | Enumeratie: "typeringOpenbareRuimte" | De aard van de als zodanig benoemde OPENBARE<br>RUIMTE. |</p>
-<p>| straatnaam | AN24 | De officiï¿½le straatnaam zoals door het bevoegd gemeentelijk orgaan is vastgesteld, zo nodig ingekort conform de specificaties van de NEN 5825. |</p>
-<p>| Huisnummerrange even nummers | AN11 | Het laagste en het hoogste huisnummer, zijnde even getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan ï¿½ï¿½n van beide zijden van de OPENBARE RUIMTE. |</p>
-<p>| Huisnummerrange oneven nummers | AN11 | Het laagste en het hoogste huisnummer, zijnde oneven getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan ï¿½ï¿½n van beide zijden van de OPENBARE RUIMTE. |</p>
-<p>| Huisnummerrange even en oneven nummers | AN11 | Het laagste en het hoogste huisnummer van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE in die gevallen dat aan ï¿½ï¿½n of beide zijden van de OPENBARE RUIMTE zowel even als oneven huisnummers voorkomen dan wel dat even en/of oneven huisnummers aan beide zijden van de openbare ruimte voorkomen. |</p>
-<p>| labelNaam |  | <font color="#0f0f0f">Bevat de naam van de openbare ruimte ten behoeve van visualisatie.</font> |</p>
-<p>| geometrie | MultiSurface | De tweedimensionale geometrische representatie van de omtrekken van de openbare ruimte. |</p>
-<p>| wegsegment | Curve | De geometrische representatie van de openbare ruimte als een lijn. |</p>
-<p>| begingeldigheid | DATUM | Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum |</p>
-<p>| eindGeldigheid | DATUM | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. |</p>
-<p>| straatcode | AN80 |  |</p>
-<p>| versie | int |  |</p>
-<p>| datumIngang | Date | Datum waarop het object is ontstaan |</p>
-<p>| datumEinde | Date | De datum waarop de object in de BAG formeel is ingetrokken. |</p>
-<p>| documentdatum | DateTime |  |</p>
-<p>| documentnummer | int | Het unieke nummer van het brondocument |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || identificatie | Varchar | De unieke aanduiding van een OPENBARE RUIMTE. || status | Enumeratie: "statusOpenbareRuimte" | De fase van de levenscyclus van een OPENBARE RUIMTE, waarin de betreffende  OPENBARE RUIMTE zich bevindt || naamOpenbareruimte | AN80 | <font color="#0f0f0f">Een door het bevoegde gemeentelijke orgaan aan een OPENBARE RUIMTE toegekende benaming</font> || geconstateerd | boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname || typeOpenbareruimte | Enumeratie: "typeringOpenbareRuimte" | De aard van de als zodanig benoemde OPENBARE<br>RUIMTE. || straatnaam | AN24 | De officiï¿½le straatnaam zoals door het bevoegd gemeentelijk orgaan is vastgesteld, zo nodig ingekort conform de specificaties van de NEN 5825. || Huisnummerrange even nummers | AN11 | Het laagste en het hoogste huisnummer, zijnde even getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan ï¿½ï¿½n van beide zijden van de OPENBARE RUIMTE. || Huisnummerrange oneven nummers | AN11 | Het laagste en het hoogste huisnummer, zijnde oneven getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan ï¿½ï¿½n van beide zijden van de OPENBARE RUIMTE. || Huisnummerrange even en oneven nummers | AN11 | Het laagste en het hoogste huisnummer van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE in die gevallen dat aan ï¿½ï¿½n of beide zijden van de OPENBARE RUIMTE zowel even als oneven huisnummers voorkomen dan wel dat even en/of oneven huisnummers aan beide zijden van de openbare ruimte voorkomen. || labelNaam |  | <font color="#0f0f0f">Bevat de naam van de openbare ruimte ten behoeve van visualisatie.</font> || geometrie | MultiSurface | De tweedimensionale geometrische representatie van de omtrekken van de openbare ruimte. || wegsegment | Curve | De geometrische representatie van de openbare ruimte als een lijn. || begingeldigheid | DATUM | Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum || eindGeldigheid | DATUM | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. || straatcode | AN80 |  || versie | int |  || datumIngang | Date | Datum waarop het object is ontstaan || datumEinde | Date | De datum waarop de object in de BAG formeel is ingetrokken. || documentdatum | DateTime |  || documentnummer | int | Het unieke nummer van het brondocument |</p>
 <h3 id="pand">Pand</h3>
 <blockquote>
 <p><strong>Definitie Pand:</strong> </p>
@@ -4960,42 +4776,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Pand</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| identificatie | Varchar | De unieke aanduiding van een PAND |</p>
-<p>| status | Enumeratie: "statusPand" | De fase van de levenscyclus van een PAND, waarin het betreffende PAND zich bevindt.<br><ul><br><li>Bouwvergunning verleend</li><br><li>Niet gerealiseerd pand</li><br><li>Bouw gestart</li><br><li>Pand in gebruik (niet ingemeten)</li><br><li>Pand in gebruik</li><br><li>Sloopvergunning verleend</li><br><li>Pand gesloopt</li><br><li>Pand buiten gebruik</li><br><li>Verbouwing pand</li><br><li>Pand ten onrechte opgevoerd</li><br></ul> |</p>
-<p>| statusVoortgangBouw | Enumeratie: "statusVoortgangBouw" | De fase van de bouw, verbouw of sloop waarin het betreffende PAND zich bevindt |</p>
-<p>| oorspronkelijkBouwjaar | JAAR | <font color="#0f0f0f">De aanduiding van het jaar waarin een PAND oorspronkelijk als bouwkundig gereed is of wordt opgeleverd.</font> |</p>
-<p>| oppervlakte | N6 | De gebruiksoppervlakte van een PAND in gehele vierkante meters. |</p>
-<p>| brutoInhoudPand | N6 | Aanduiding in kubieke meters van de bruto inhoud van het PAND. |</p>
-<p>| geconstateerd | boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname.<br><br>Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een feitelijke constatering en niet op basis van een regulier brondocument |</p>
-<p>| hoogsteBouwlaag | N3 | De ligging van de hoogste bouwlaag van het pand gerekend ten opzichte van het straatpeil. |</p>
-<p>| laagsteBouwlaag | N3 | De ligging van de laagste bouwlaag van het pand gerekend ten opzichte van het straatpeil. |</p>
-<p>| geometrieBovenaanzicht | Surface | <font color="#0f0f0f">De minimaal tweedimensionale geometrische representatie van het bovenaanzicht van de omtrekken van een PAND</font> |</p>
-<p>| geometrieMaaiveld | MultiSurface | De tweedimensionale geometrische representatie van de omtrekken van een PAND op maaiveldniveau |</p>
-<p>| relatieveHoogteligging | N2 | Aanduiding voor de relatieve hoogte van het pand |</p>
-<p>| documentnummer | char | Het unieke nummer van het brondocument |</p>
-<p>| documentdatum | DateTime | De datum waarop het brondocument is vastgesteld |</p>
-<p>| beginGeldigheid | DATUM | Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum |</p>
-<p>| eindGeldigheid | DATUM | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. |</p>
-<p>| geometriePunt | Point |  |</p>
-<p>| datumIngang | DATUM | Datum waarop het object is ontstaan |</p>
-<p>| versie | int |  |</p>
-<p>| datumEinde | DATUM | De datum waarop de object in de BAG formeel is ingetrokken. |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || identificatie | Varchar | De unieke aanduiding van een PAND || status | Enumeratie: "statusPand" | De fase van de levenscyclus van een PAND, waarin het betreffende PAND zich bevindt.<br><ul><br><li>Bouwvergunning verleend</li><br><li>Niet gerealiseerd pand</li><br><li>Bouw gestart</li><br><li>Pand in gebruik (niet ingemeten)</li><br><li>Pand in gebruik</li><br><li>Sloopvergunning verleend</li><br><li>Pand gesloopt</li><br><li>Pand buiten gebruik</li><br><li>Verbouwing pand</li><br><li>Pand ten onrechte opgevoerd</li><br></ul> || statusVoortgangBouw | Enumeratie: "statusVoortgangBouw" | De fase van de bouw, verbouw of sloop waarin het betreffende PAND zich bevindt || oorspronkelijkBouwjaar | JAAR | <font color="#0f0f0f">De aanduiding van het jaar waarin een PAND oorspronkelijk als bouwkundig gereed is of wordt opgeleverd.</font> || oppervlakte | N6 | De gebruiksoppervlakte van een PAND in gehele vierkante meters. || brutoInhoudPand | N6 | Aanduiding in kubieke meters van de bruto inhoud van het PAND. || geconstateerd | boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname.<br><br>Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een feitelijke constatering en niet op basis van een regulier brondocument || hoogsteBouwlaag | N3 | De ligging van de hoogste bouwlaag van het pand gerekend ten opzichte van het straatpeil. || laagsteBouwlaag | N3 | De ligging van de laagste bouwlaag van het pand gerekend ten opzichte van het straatpeil. || geometrieBovenaanzicht | Surface | <font color="#0f0f0f">De minimaal tweedimensionale geometrische representatie van het bovenaanzicht van de omtrekken van een PAND</font> || geometrieMaaiveld | MultiSurface | De tweedimensionale geometrische representatie van de omtrekken van een PAND op maaiveldniveau || relatieveHoogteligging | N2 | Aanduiding voor de relatieve hoogte van het pand || documentnummer | char | Het unieke nummer van het brondocument || documentdatum | DateTime | De datum waarop het brondocument is vastgesteld || beginGeldigheid | DATUM | Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum || eindGeldigheid | DATUM | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. || geometriePunt | Point |  || datumIngang | DATUM | Datum waarop het object is ontstaan || versie | int |  || datumEinde | DATUM | De datum waarop de object in de BAG formeel is ingetrokken. |</p>
 <h3 id="standplaats">Standplaats</h3>
 <blockquote>
 <p><strong>Definitie Standplaats:</strong> </p>
@@ -5080,33 +4862,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Standplaats</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| Identificatie | Varchar | De unieke aanduiding van een STANDPLAATS. |</p>
-<p>| Geconstateerd | boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname. |</p>
-<p>| Status | Enumeratie: "StatLigplaatsStandplaats" | De fase van de levenscyclus van een STANDPLAATS waarin de betreffende STANDPLAATS zich bevindt. |</p>
-<p>| Versie | int |  |</p>
-<p>| Geometrie | Surface | Loodrechte bovenaanzicht van de standplaats in het Nationale Rijksdriehoekstelsel, inclusief alle zichbare en onzichtbare delen boven en onder de grond, maar exclusief alle delen die kunnen bewegen ten opzichte van de aarde |</p>
-<p>| documentdatum | Date |  |</p>
-<p>| documentnummer | int | Het unieke nummer van het brondocument |</p>
-<p>| Datum Begin Geldigheid | Date | Definitie<br>BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.<br>Beschrijving<br>Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum |</p>
-<p>| Datum Einde Geldigheid | Date | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. |</p>
-<p>| Datum Ingang | Date | Datum waarop het object is ontstaan |</p>
-<p>| Datum Einde | Date | De datum waarop de object in de BAG formeel is ingetrokken. |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || Identificatie | Varchar | De unieke aanduiding van een STANDPLAATS. || Geconstateerd | boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname. || Status | Enumeratie: "StatLigplaatsStandplaats" | De fase van de levenscyclus van een STANDPLAATS waarin de betreffende STANDPLAATS zich bevindt. || Versie | int |  || Geometrie | Surface | Loodrechte bovenaanzicht van de standplaats in het Nationale Rijksdriehoekstelsel, inclusief alle zichbare en onzichtbare delen boven en onder de grond, maar exclusief alle delen die kunnen bewegen ten opzichte van de aarde || documentdatum | Date |  || documentnummer | int | Het unieke nummer van het brondocument || Datum Begin Geldigheid | Date | Definitie<br>BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.<br>Beschrijving<br>Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum || Datum Einde Geldigheid | Date | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. || Datum Ingang | Date | Datum waarop het object is ontstaan || Datum Einde | Date | De datum waarop de object in de BAG formeel is ingetrokken. |</p>
 <h3 id="verblijfsobject">Verblijfsobject</h3>
 <blockquote>
 <p><strong>Definitie Verblijfsobject:</strong> </p>
@@ -5191,41 +4948,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Verblijfsobject</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| identificatie | Varchar | De unieke identificatie van een VERBLIJFSOBJECT. |</p>
-<p>| status | Enumeratie: "statusVerblijfsobject" | De fase van de levenscyclus van een VERBLIJFSOBJECT, waarin het betreffende VERBLIJFSOBJECT zich bevindt. |</p>
-<p>| geconstateerd | boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname. |</p>
-<p>| hoogsteBouwlaag | N3 | De ligging van de hoogste bouwlaag van het verblijfsobject gerekend ten opzichte van het straatpeil. |</p>
-<p>| laagsteBouwlaag | N3 | De ligging van de laagste bouwlaag van het verblijfsobject gerekend ten opzichte van het straatpeil. |</p>
-<p>| toegangBouwlaag | N3 | De ligging van de bouwlaag van het verblijfsobject, gerekend ten opzichte van het straatpeil, waarop zich de hoofdtoegang tot het verblijfsobject bevindt. |</p>
-<p>| soortWoonobject | Enumeratie: "soortWoonobject" | Indeling van woonverblijven volgens het CBS. |</p>
-<p>| aantalKamers | N2 | Het aantal kamers van het Verblijfsobject in de situatie tijdens de bouw. |</p>
-<p>| ontsluitingVerdieping | Enumeratie: "ontsluitingswijzeVerdieping" | Aanduiding van de manier waarop de desbetreffende bouwlaag van een object toegankelijk is gemaakt. |</p>
-<p>| documentnummer | int | Het unieke nummer van het brondocument |</p>
-<p>| documentdatum | Date | De datum waarop het brondocument is vastgesteld |</p>
-<p>| geometrie | Point |  |</p>
-<p>| Versie | int |  |</p>
-<p>| gebruiksdoel | Enumeratie: "gebruiksdoel" | Een gebruiksdoel is een categorisering van de gebruiksdoelen van het betreffende verblijfsobject zoals in de vergunning is opgenomen of bij constatering is vastgesteld. |</p>
-<p>| beginGeldigheid | Date | Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum |</p>
-<p>| eindGeldigheid | Date | Definitie EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid. Beschrijving Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. |</p>
-<p>| datumEinde | Enumeratie: "statusVerblijfsobject" | De datum waarop de object in de BAG formeel is ingetrokken. |</p>
-<p>| datumIngang | Date | Datum waarop het object is ontstaan |</p>
-<p>| oppervlakte | int | De gebruiksoppervlakte van het verblijfsobject conform hetgeen in NEN 2580 is vastgelegd omtrent gebruiksoppervlakte |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || identificatie | Varchar | De unieke identificatie van een VERBLIJFSOBJECT. || status | Enumeratie: "statusVerblijfsobject" | De fase van de levenscyclus van een VERBLIJFSOBJECT, waarin het betreffende VERBLIJFSOBJECT zich bevindt. || geconstateerd | boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname. || hoogsteBouwlaag | N3 | De ligging van de hoogste bouwlaag van het verblijfsobject gerekend ten opzichte van het straatpeil. || laagsteBouwlaag | N3 | De ligging van de laagste bouwlaag van het verblijfsobject gerekend ten opzichte van het straatpeil. || toegangBouwlaag | N3 | De ligging van de bouwlaag van het verblijfsobject, gerekend ten opzichte van het straatpeil, waarop zich de hoofdtoegang tot het verblijfsobject bevindt. || soortWoonobject | Enumeratie: "soortWoonobject" | Indeling van woonverblijven volgens het CBS. || aantalKamers | N2 | Het aantal kamers van het Verblijfsobject in de situatie tijdens de bouw. || ontsluitingVerdieping | Enumeratie: "ontsluitingswijzeVerdieping" | Aanduiding van de manier waarop de desbetreffende bouwlaag van een object toegankelijk is gemaakt. || documentnummer | int | Het unieke nummer van het brondocument || documentdatum | Date | De datum waarop het brondocument is vastgesteld || geometrie | Point |  || Versie | int |  || gebruiksdoel | Enumeratie: "gebruiksdoel" | Een gebruiksdoel is een categorisering van de gebruiksdoelen van het betreffende verblijfsobject zoals in de vergunning is opgenomen of bij constatering is vastgesteld. || beginGeldigheid | Date | Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum || eindGeldigheid | Date | Definitie EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid. Beschrijving Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. || datumEinde | Enumeratie: "statusVerblijfsobject" | De datum waarop de object in de BAG formeel is ingetrokken. || datumIngang | Date | Datum waarop het object is ontstaan || oppervlakte | int | De gebruiksoppervlakte van het verblijfsobject conform hetgeen in NEN 2580 is vastgelegd omtrent gebruiksoppervlakte |</p>
 <h3 id="wijk">Wijk</h3>
 <blockquote>
 <p><strong>Definitie Wijk:</strong> </p>
@@ -5310,33 +5034,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Wijk</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| wijkcode | AN2 | De code behorende bij de naam van de wijk. |</p>
-<p>| wijknaam | AN40 | De naam van de wijk, zoals die door het CBS wordt gebruikt. |</p>
-<p>| geometrie | MultiSurface | De tweedimensionale geometrische representatie van de omtrekken van de wijk. |</p>
-<p>| beginGeldigheid | DATUM | Definitie<br>BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.<br>Beschrijving<br>Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum |</p>
-<p>| eindGeldigheid | DATUM | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. |</p>
-<p>| identificatie | Varchar |  |</p>
-<p>| datumIngang | Date | Datum waarop het object is ontstaan |</p>
-<p>| status | statusOpenbareRuimte |  |</p>
-<p>| datumEinde | char | De datum waarop de object in de BAG formeel is ingetrokken. |</p>
-<p>| versie | int |  |</p>
-<p>| Geconstateerd | boolean |  |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || wijkcode | AN2 | De code behorende bij de naam van de wijk. || wijknaam | AN40 | De naam van de wijk, zoals die door het CBS wordt gebruikt. || geometrie | MultiSurface | De tweedimensionale geometrische representatie van de omtrekken van de wijk. || beginGeldigheid | DATUM | Definitie<br>BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.<br>Beschrijving<br>Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum || eindGeldigheid | DATUM | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. || identificatie | Varchar |  || datumIngang | Date | Datum waarop het object is ontstaan || status | statusOpenbareRuimte |  || datumEinde | char | De datum waarop de object in de BAG formeel is ingetrokken. || versie | int |  || Geconstateerd | boolean |  |</p>
 <h3 id="woonplaats">Woonplaats</h3>
 <blockquote>
 <p><strong>Definitie Woonplaats:</strong> </p>
@@ -5421,39 +5120,8 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Woonplaats</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">Datatype</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| identificatie | Varchar | De unieke aanduiding van een WOONPLAATS, zoals opgenomen in de landelijke woonplaatsentabel. |</p>
-<p>| woonplaatsnaam | AN80 | De door het bevoegde gemeentelijke orgaan aan een WOONPLAATS toegekende benaming. |</p>
-<p>| woonplaatsnaamNEN | AN24 | De officiï¿½le plaatsnaam conform NEN |</p>
-<p>| geconstateerd | boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname. |</p>
-<p>| status | Enumeratie: "statusWoonplaats" | De fase van de levenscyclus van een WOONPLAATS, waarin de betreffende WOONPLAATS zich bevindt. |</p>
-<p>| geometrie | Surface | De tweedimensionale geometrische representatie van het vlak dat wordt gevormd door de omtrekken van een woonplaats. |</p>
-<p>| beginGeldigheid | DATUM | Definitie<br>BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.<br>Beschrijving<br>Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum |</p>
-<p>| eindGeldigheid | DATUM | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. |</p>
-<p>| datumIngang | Date | Datum waarop het object is ontstaan |</p>
-<p>| datumEinde | Date | De datum waarop de object in de BAG formeel is ingetrokken. |</p>
-<p>| versie | int |  |</p>
-<p>| documentnummer | int | Het unieke nummer van het brondocument |</p>
-<p>| documentdatum | Date | De datum waarop het brondocument is vastgesteld |</p>
-<p>| voorkomen | Date |  |</p>
-<p>| tijdstipRegistratie | DateTime |  |</p>
-<p>| eindRegistratie | DateTime |  |</p>
-<p>| tijdstipActief | DateTime |  |</p>
+<p>| Attribute | Datatype | Description |
+| :--- | :--- | :--- || identificatie | Varchar | De unieke aanduiding van een WOONPLAATS, zoals opgenomen in de landelijke woonplaatsentabel. || woonplaatsnaam | AN80 | De door het bevoegde gemeentelijke orgaan aan een WOONPLAATS toegekende benaming. || woonplaatsnaamNEN | AN24 | De officiï¿½le plaatsnaam conform NEN || geconstateerd | boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname. || status | Enumeratie: "statusWoonplaats" | De fase van de levenscyclus van een WOONPLAATS, waarin de betreffende WOONPLAATS zich bevindt. || geometrie | Surface | De tweedimensionale geometrische representatie van het vlak dat wordt gevormd door de omtrekken van een woonplaats. || beginGeldigheid | DATUM | Definitie<br>BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.<br>Beschrijving<br>Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum || eindGeldigheid | DATUM | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. || datumIngang | Date | Datum waarop het object is ontstaan || datumEinde | Date | De datum waarop de object in de BAG formeel is ingetrokken. || versie | int |  || documentnummer | int | Het unieke nummer van het brondocument || documentdatum | Date | De datum waarop het brondocument is vastgesteld || voorkomen | Date |  || tijdstipRegistratie | DateTime |  || eindRegistratie | DateTime |  || tijdstipActief | DateTime |  |</p>
 <h2 id="enumeraties-model-bag">Enumeraties Model BAG</h2>
 <h3 id="statusnummeraanduiding">statusNummeraanduiding</h3>
 <p>Geen Definitie</p>
