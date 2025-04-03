@@ -3649,8 +3649,32 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Betaalmoment</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || bedrag | Bedrag |  || datum | Datum |  || voorschot | boolean |  |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">bedrag</td>
+<td style="text-align: left;">Bedrag</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">datum</td>
+<td style="text-align: left;">Datum</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">voorschot</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="rapportagemoment">Rapportagemoment</h3>
 <blockquote>
 <p><strong>Definitie Rapportagemoment:</strong> </p>
@@ -3735,8 +3759,37 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Rapportagemoment</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || datum | Date |  || naam | AN200 |  || omschrijving | text |  || termijn | int | Termijn in dagen |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">datum</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">naam</td>
+<td style="text-align: left;">AN200</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">omschrijving</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">termijn</td>
+<td style="text-align: left;">int</td>
+<td style="text-align: left;">Termijn in dagen</td>
+</tr>
+</tbody>
+</table>
 <h3 id="sector">Sector</h3>
 <blockquote>
 <p><strong>Definitie Sector:</strong> </p>
@@ -3821,8 +3874,27 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Sector</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || naam | AN200 |  || omschrijving | Text |  |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">naam</td>
+<td style="text-align: left;">AN200</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">omschrijving</td>
+<td style="text-align: left;">Text</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="subsidie">Subsidie</h3>
 <blockquote>
 <p><strong>Definitie Subsidie:</strong> </p>
@@ -3907,8 +3979,152 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Subsidie</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || niveau | Enumeratie: "Subsidieniveau" |  || deadlineIndiening | Date |  || subsidiebedrag | Bedrag |  || coFinanciering | Bedrag |  || opmerkingen | Text |  || status | AN80 |  || accountantscontrole | Boolean |  || datumStart | Date |  || datumEinde | Date |  || datumVerzendingEindeafrekening | Date |  || gerealiseerdeProjectkosten | Date |  || hoogteSubsidie | Bedrag |  || datumBehandeltermijn | Date |  || datumSubsidievaststelling | Date |  || subsidievaststellingBedrag | Bedrag |  || ontvangenBedrag | Bedrag |  || datumBewaartermijn | Date |  || onderwerp | AN200 |  || subsidiesoort | AN80 |  || socialReturnVerplichting | Boolean |  || socialReturnNagekomen | Boolean |  || socialReturnBedrag | Bedrag |  || verantwoordenOp | Date |  || uitgaandeSubsidie | Boolean |  || prestatiesubsidie | Boolean | Als Nee dan is het een stimuleringssubsidie<br><br>Alleen bij uitgaande subsidies, anders NULL! || doelstelling | AN200 |  || opmerkingenVoorschotten | Text |  |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">niveau</td>
+<td style="text-align: left;">Enumeratie: "Subsidieniveau"</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">deadlineIndiening</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">subsidiebedrag</td>
+<td style="text-align: left;">Bedrag</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">coFinanciering</td>
+<td style="text-align: left;">Bedrag</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">opmerkingen</td>
+<td style="text-align: left;">Text</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">status</td>
+<td style="text-align: left;">AN80</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">accountantscontrole</td>
+<td style="text-align: left;">Boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">datumStart</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">datumEinde</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">datumVerzendingEindeafrekening</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gerealiseerdeProjectkosten</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">hoogteSubsidie</td>
+<td style="text-align: left;">Bedrag</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">datumBehandeltermijn</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">datumSubsidievaststelling</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">subsidievaststellingBedrag</td>
+<td style="text-align: left;">Bedrag</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">ontvangenBedrag</td>
+<td style="text-align: left;">Bedrag</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">datumBewaartermijn</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">onderwerp</td>
+<td style="text-align: left;">AN200</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">subsidiesoort</td>
+<td style="text-align: left;">AN80</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">socialReturnVerplichting</td>
+<td style="text-align: left;">Boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">socialReturnNagekomen</td>
+<td style="text-align: left;">Boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">socialReturnBedrag</td>
+<td style="text-align: left;">Bedrag</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">verantwoordenOp</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">uitgaandeSubsidie</td>
+<td style="text-align: left;">Boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">prestatiesubsidie</td>
+<td style="text-align: left;">Boolean</td>
+<td style="text-align: left;">Als Nee dan is het een stimuleringssubsidie<br><br>Alleen bij uitgaande subsidies, anders NULL!</td>
+</tr>
+<tr>
+<td style="text-align: left;">doelstelling</td>
+<td style="text-align: left;">AN200</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">opmerkingenVoorschotten</td>
+<td style="text-align: left;">Text</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="subsidieaanvraag">Subsidieaanvraag</h3>
 <blockquote>
 <p><strong>Definitie Subsidieaanvraag:</strong> </p>
@@ -3993,8 +4209,42 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Subsidieaanvraag</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || datumIndiening | Date |  || aangevraagdBedrag | Bedrag |  || ontvangstbevestiging | Date |  || verwachteBeschikking | Date |  || kenmerk | AN80 |  |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">datumIndiening</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">aangevraagdBedrag</td>
+<td style="text-align: left;">Bedrag</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">ontvangstbevestiging</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">verwachteBeschikking</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">kenmerk</td>
+<td style="text-align: left;">AN80</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="subsidiebeschikking">Subsidiebeschikking</h3>
 <blockquote>
 <p><strong>Definitie Subsidiebeschikking:</strong> </p>
@@ -4079,8 +4329,52 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Subsidiebeschikking</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || beschiktBedrag | Bedrag |  || ontvangen | Date |  || kenmerk | AN80 |  || internKenmerk | AN80 |  || opmerkingen | text |  || besluit | AN80 |  || beschikkingsnummer | AN80 |  |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">beschiktBedrag</td>
+<td style="text-align: left;">Bedrag</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">ontvangen</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">kenmerk</td>
+<td style="text-align: left;">AN80</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">internKenmerk</td>
+<td style="text-align: left;">AN80</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">opmerkingen</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">besluit</td>
+<td style="text-align: left;">AN80</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">beschikkingsnummer</td>
+<td style="text-align: left;">AN80</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="subsidiecomponent">Subsidiecomponent</h3>
 <blockquote>
 <p><strong>Definitie Subsidiecomponent:</strong> </p>
@@ -4165,8 +4459,27 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Subsidiecomponent</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || toegekendBedrag | Bedrag |  || gereserveerdBedrag | Bedrag |  |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">toegekendBedrag</td>
+<td style="text-align: left;">Bedrag</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gereserveerdBedrag</td>
+<td style="text-align: left;">Bedrag</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="subsidieprogramma">Subsidieprogramma</h3>
 <blockquote>
 <p><strong>Definitie Subsidieprogramma:</strong> </p>
@@ -4251,8 +4564,42 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Subsidieprogramma</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || naam | AN200 |  || omschrijving | text |  || datumStart | Date |  || datumEinde | Date |  || programmabegroting | Bedrag |  |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">naam</td>
+<td style="text-align: left;">AN200</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">omschrijving</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">datumStart</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">datumEinde</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">programmabegroting</td>
+<td style="text-align: left;">Bedrag</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="taak">Taak</h3>
 <blockquote>
 <p><strong>Definitie Taak:</strong> </p>
@@ -4337,8 +4684,37 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Taak</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || datumStart | Date |  || datumEinde | Date |  || termijn | int | Termijn in dagen || taakomschrijving | Text |  |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">datumStart</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">datumEinde</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">termijn</td>
+<td style="text-align: left;">int</td>
+<td style="text-align: left;">Termijn in dagen</td>
+</tr>
+<tr>
+<td style="text-align: left;">taakomschrijving</td>
+<td style="text-align: left;">Text</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h2 id="enumeraties-model-subsidies">Enumeraties Model Subsidies</h2>
 <h3 id="subsidieniveau">Subsidieniveau</h3>
 <p>Geen Definitie</p>

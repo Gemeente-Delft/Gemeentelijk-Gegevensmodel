@@ -3629,8 +3629,62 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Gebouw</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || aantal | int |  || aantalAdressen | int |  || aantalKamers | int |  || energielabel | Enumeratie: "Energielabel" |  || oppervlakte | Enumeratie: "Oppervlakte Woning" |  || duurzaam | boolean |  || natuurinclusief | boolean |  || regenwater | boolean |  || aardgasloos | boolean |  |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">aantal</td>
+<td style="text-align: left;">int</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">aantalAdressen</td>
+<td style="text-align: left;">int</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">aantalKamers</td>
+<td style="text-align: left;">int</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">energielabel</td>
+<td style="text-align: left;">Enumeratie: "Energielabel"</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">oppervlakte</td>
+<td style="text-align: left;">Enumeratie: "Oppervlakte Woning"</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">duurzaam</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">natuurinclusief</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">regenwater</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">aardgasloos</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="huurwoningen">Huurwoningen</h3>
 <blockquote>
 <p><strong>Definitie Huurwoningen:</strong> </p>
@@ -3715,8 +3769,22 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Huurwoningen</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || huurprijs | Bedrag |  |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">huurprijs</td>
+<td style="text-align: left;">Bedrag</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="koopwoningen">Koopwoningen</h3>
 <blockquote>
 <p><strong>Definitie Koopwoningen:</strong> </p>
@@ -3801,8 +3869,22 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Koopwoningen</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || koopprijs | Bedrag |  |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">koopprijs</td>
+<td style="text-align: left;">Bedrag</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="plan">Plan</h3>
 <blockquote>
 <p><strong>Definitie Plan:</strong> </p>
@@ -3887,8 +3969,87 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Plan</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || naam | AN80 |  || nummer | AN40 |  || aardgasloos | boolean |  || gebiedstransformatie | boolean |  || intentie | boolean |  || bestemmingGoedgekeurd | boolean |  || onherroepelijk | boolean |  || eigendomGemeente | boolean |  || 70ProcentVerkocht | boolean |  || startVerkoop | Date |  || startbouw | Date |  || eersteOplevering | Date |  || laatsteOplevering | Date |  || percelen | MultiSurface |  |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">naam</td>
+<td style="text-align: left;">AN80</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">nummer</td>
+<td style="text-align: left;">AN40</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">aardgasloos</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">gebiedstransformatie</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">intentie</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">bestemmingGoedgekeurd</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">onherroepelijk</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">eigendomGemeente</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">70ProcentVerkocht</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">startVerkoop</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">startbouw</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">eersteOplevering</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">laatsteOplevering</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">percelen</td>
+<td style="text-align: left;">MultiSurface</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="projectleider">Projectleider</h3>
 <blockquote>
 <p><strong>Definitie Projectleider:</strong> </p>
@@ -3973,8 +4134,22 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Projectleider</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || naam | AN80 |  |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">naam</td>
+<td style="text-align: left;">AN80</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="projectontwikkelaar">Projectontwikkelaar</h3>
 <blockquote>
 <p><strong>Definitie Projectontwikkelaar:</strong> </p>
@@ -4059,8 +4234,27 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Projectontwikkelaar</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || naam | AN80 |  || adres | AN200 |  |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">naam</td>
+<td style="text-align: left;">AN80</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">adres</td>
+<td style="text-align: left;">AN200</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="studentenwoningen">Studentenwoningen</h3>
 <blockquote>
 <p><strong>Definitie Studentenwoningen:</strong> </p>
@@ -4145,8 +4339,27 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Studentenwoningen</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || zelfstandig | boolean |  || huurprijs | Bedrag |  |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">zelfstandig</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">huurprijs</td>
+<td style="text-align: left;">Bedrag</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h2 id="enumeraties-model-wonen">Enumeraties Model Wonen</h2>
 <h3 id="energielabel">Energielabel</h3>
 <p>Geen Definitie</p>

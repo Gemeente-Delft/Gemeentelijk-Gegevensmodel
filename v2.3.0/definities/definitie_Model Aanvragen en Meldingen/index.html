@@ -3790,8 +3790,27 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Project</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || naam | An200 |  || omschrijving | text |  |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">naam</td>
+<td style="text-align: left;">An200</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">omschrijving</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="projectactiviteit">Projectactiviteit</h3>
 <blockquote>
 <p><strong>Definitie Projectactiviteit:</strong> </p>
@@ -3976,8 +3995,37 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Projectlocatie</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || adres | int |  || kadastraalPerceel | AN80 |  || kadastraleGemeente | AN80 |  || kadastraleSectie | AN80 |  |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">adres</td>
+<td style="text-align: left;">int</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">kadastraalPerceel</td>
+<td style="text-align: left;">AN80</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">kadastraleGemeente</td>
+<td style="text-align: left;">AN80</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">kadastraleSectie</td>
+<td style="text-align: left;">AN80</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="specificatie">Specificatie</h3>
 <blockquote>
 <p><strong>Definitie Specificatie:</strong> </p>
@@ -4062,8 +4110,52 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Specificatie</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || antwoord | An200 |  || groepering | AN200 |  || publiceerbaar | Boolean |  || vraagID | AN80 |  || vraagClassificatie | Enumeratie: "Vraag Classificatie" |  || vraagreferentie | AN200 |  || vraagtekst | text |  |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">antwoord</td>
+<td style="text-align: left;">An200</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">groepering</td>
+<td style="text-align: left;">AN200</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">publiceerbaar</td>
+<td style="text-align: left;">Boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">vraagID</td>
+<td style="text-align: left;">AN80</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">vraagClassificatie</td>
+<td style="text-align: left;">Enumeratie: "Vraag Classificatie"</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">vraagreferentie</td>
+<td style="text-align: left;">AN200</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">vraagtekst</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="uitvoerende-instantie">Uitvoerende instantie</h3>
 <blockquote>
 <p><strong>Definitie Uitvoerende instantie:</strong> </p>
@@ -4148,8 +4240,22 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Uitvoerende instantie</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || naam | AN200 |  |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">naam</td>
+<td style="text-align: left;">AN200</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="verzoek">Verzoek</h3>
 <blockquote>
 <p><strong>Definitie Verzoek:</strong> </p>
@@ -4234,8 +4340,77 @@
 </tbody>
 </table>
 <p>Attributen van objecttype Verzoek</p>
-<p>| Attribute | Datatype | Description |
-| :--- | :--- | :--- || akkoordverklaring | boolean |  || ambtshalve | boolean |  || doel | Enumeratie: "Doel verzoek" |  || datumIndiening | Date |  || naam | AN200 |  || referentieAanvrager | AN200 |  || toelichtingLaterAanTeLeverenInformatie | text |  || toelichtingNietAanTeLeverenInformatie | text |  || toelichtingVerzoek | text |  || type | Enumeratie: "Doel verzoek" |  || verzoeknummer | An80 |  || volgnummer | AN80 |  |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: left;">Datatype</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">akkoordverklaring</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">ambtshalve</td>
+<td style="text-align: left;">boolean</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">doel</td>
+<td style="text-align: left;">Enumeratie: "Doel verzoek"</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">datumIndiening</td>
+<td style="text-align: left;">Date</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">naam</td>
+<td style="text-align: left;">AN200</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">referentieAanvrager</td>
+<td style="text-align: left;">AN200</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichtingLaterAanTeLeverenInformatie</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichtingNietAanTeLeverenInformatie</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">toelichtingVerzoek</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">type</td>
+<td style="text-align: left;">Enumeratie: "Doel verzoek"</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">verzoeknummer</td>
+<td style="text-align: left;">An80</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">volgnummer</td>
+<td style="text-align: left;">AN80</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h2 id="enumeraties-model-aanvragen-en-meldingen">Enumeraties Model Aanvragen en Meldingen</h2>
 <h3 id="doel-verzoek">Doel verzoek</h3>
 <p>Geen Definitie</p>
