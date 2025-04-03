@@ -22,7 +22,7 @@ Beheer en doorontwikkeling van het GGM verloopt in samenwerking met diverse geme
 
 ## Handleiding
 
-**Voor gedetailleerde toelichting kijk in de [Handleiding](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/).**
+**Voor gedetailleerde toelichting kijk in de [Handleiding](https://www.gemeentelijkgegevensmodel.nl/).**
 
 ## Installatie en gebruik
 
