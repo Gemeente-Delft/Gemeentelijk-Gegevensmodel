@@ -70,7 +70,6 @@ Attributen van objecttype Belijning
 
 
 
-
 ### Bezetting
 > **Definitie Bezetting:** 
 >
@@ -101,7 +100,6 @@ Attributen van objecttype Bezetting
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -147,13 +145,6 @@ Attributen van objecttype Binnenlocatie
 | sporthal | Boolean |  |
 | gymzaal | Boolean |  |
 | gemeentelijk | boolean |  |
-| None | Class: "Verblijfsobject" |  |
-| None | Class: "Wijk" |  |
-| None | Class: "Sportmateriaal" |  |
-| None | Class: "Verblijfsobject" |  |
-| None | Class: "Wijk" |  |
-| None | Class: "Belijning" |  |
-
 
 
 
@@ -187,7 +178,6 @@ Attributen van objecttype Onderhoudskosten
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -225,7 +215,6 @@ Attributen van objecttype Sportlocatie
 
 
 
-
 ### Sportmateriaal
 > **Definitie Sportmateriaal:** 
 >
@@ -260,7 +249,6 @@ Attributen van objecttype Sportmateriaal
 
 
 
-
 ### Sportpark
 > **Definitie Sportpark:** 
 >
@@ -291,9 +279,6 @@ Attributen van objecttype Sportpark
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Veld" |  |
-| None | Class: "OverigBenoemdTerrein" |  |
-
 
 
 
@@ -335,9 +320,6 @@ Attributen van objecttype Sportvereniging
 | adres | Adresaanduiding |  |
 | ledenaantal | int |  |
 | aantalNormTeams | double |  |
-| None |  |  |
-| None | Class: "Sportlocatie" |  |
-
 
 
 
@@ -371,9 +353,6 @@ Attributen van objecttype Veld
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Belijning" |  |
-| None | Class: "OverigBenoemdTerrein" |  |
-
 
 
 

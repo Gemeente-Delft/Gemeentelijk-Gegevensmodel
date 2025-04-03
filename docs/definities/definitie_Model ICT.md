@@ -8,16 +8,16 @@ Het model 'Model ICT' kent de volgende objecttypen:
 
 * **Aanvraag**: (officieel) verzoek, iets (officieel) vragen aan een bevoegde macht.
 * **Applicatie**: Een applicatiecomponent die gericht is op het ondersteunen van eindgebruikers.
-* **Attribuutsoort**: Attribuutsoort ï¿½ Stereotype ï¿½Attribuutsoortï¿½: De UML-representatie van een attribuutsoort, uitgedrukt in een stereotype van UML-Property3 (metaclass). Er zijn verschillende modelelementen die gebaseerd zijn op UML-property, zoals aangegeven in ï¿½2.1.2. Wanneer een UML-property in het informatiemodel de betekenis heeft van een attribuut van een objecttype, dan heeft deze het stereotype ï¿½Attribuutsoortï¿½. Een attribuutsoort is een type van gelijksoortige attributen of gegevens. Daartoe kijken we eerst naar het begrip ï¿½gegevenï¿½. 
+* **Attribuutsoort**: Attribuutsoort ï¿½ Stereotype ï¿½Attribuutsoortï¿½: De UML-representatie van een attribuutsoort, uitgedrukt in een stereotype van UML-Property3 (metaclass).<br>Er zijn verschillende modelelementen die gebaseerd zijn op UML-property, zoals aangegeven in ï¿½2.1.2. Wanneer een UML-property in het informatiemodel de betekenis heeft van een attribuut van een objecttype, dan heeft deze het stereotype ï¿½Attribuutsoortï¿½.<br>Een attribuutsoort is een type van gelijksoortige attributen of gegevens. Daartoe kijken we eerst naar het begrip ï¿½gegevenï¿½.
 * **Classificatie**: Ordening van informatieobjecten in een logisch verband, zoals vastgelegd in een classificatieschema.
 * **CMDB-item **: Item in een Configuratie Management DataBase
 * **Database**: Een applicatiecomponent die een dataset bevat.
-* **Datatype**: Attribuutsoort ï¿½ Stereotype ï¿½Attribuutsoortï¿½: De UML-representatie van een attribuutsoort, uitgedrukt in een stereotype van UML-Property3 (metaclass). Er zijn verschillende modelelementen die gebaseerd zijn op UML-property, zoals aangegeven in ï¿½2.1.2. Wanneer een UML-property in het informatiemodel de betekenis heeft van een attribuut van een objecttype, dan heeft deze het stereotype ï¿½Attribuutsoortï¿½. Een attribuutsoort is een type van gelijksoortige attributen of gegevens. Daartoe kijken we eerst naar het begrip ï¿½gegevenï¿½. 
+* **Datatype**: Attribuutsoort ï¿½ Stereotype ï¿½Attribuutsoortï¿½: De UML-representatie van een attribuutsoort, uitgedrukt in een stereotype van UML-Property3 (metaclass).<br>Er zijn verschillende modelelementen die gebaseerd zijn op UML-property, zoals aangegeven in ï¿½2.1.2. Wanneer een UML-property in het informatiemodel de betekenis heeft van een attribuut van een objecttype, dan heeft deze het stereotype ï¿½Attribuutsoortï¿½.<br>Een attribuutsoort is een type van gelijksoortige attributen of gegevens. Daartoe kijken we eerst naar het begrip ï¿½gegevenï¿½.
 * **Dienst**: Het uitvoeren van werkzaamheden met een continu of periodiek karakter om waarde te realiseren voor een afnemer.
 * **Domein/Taakveld**: Kennisgebied of activiteit gekarakteriseerd door een verzameling van concepten, begrippen en/of waarden
 * **Externe Bron**: Bron buiten de eigen organisatie
 * **Gegeven**: bekend feit waaruit je gevolgtrekkingen kunt maken
-* **Generalisatie**: De typering van het hiï¿½rarchische verband tussen een meer generiek object van een objecttype en een meer specifiek object van een ander objecttype waarbij het laatstgenoemde object eigenschappen van het eerstgenoemde object overerft. Toelichting Een generalisatierelatie geeft aan dat bepaalde eigenschappen van een objecttype (vaak attribuutsoorten en/of relatiesoorten) ook gelden voor de gerelateerde objecttypen, ï¿½n dat deze qua semantiek, structuur en syntax gelijk zijn. We spreken dan van een supertype met subtypen. De modelelementen die generiek gelden worden in een generiek objecttype, het supertype, gemodelleerd en deze worden overerft door elk subtype (minimaal twee) die de generalisatie relatie legt naar dit generieke objecttype. Voorbeeld: PERCEEL is specialisatie van KADASTRAAL ONROERENDE ZAAK, APPARTEMENTSRECHT is specialisatie van KADASTRAAL ONROERENDE ZAAK. PERCEEL en APPARTEMENTSRECHT hebben beide ï¿½Kadastrale aanduidingï¿½ en een ï¿½relatie met ONROERENDE ZAAK FILIATIEï¿½. 
+* **Generalisatie**: De typering van het hiï¿½rarchische verband tussen een meer generiek object van een objecttype en een meer specifiek object van een ander objecttype waarbij het laatstgenoemde object eigenschappen van het eerstgenoemde object overerft.<br>Toelichting<br>Een generalisatierelatie geeft aan dat bepaalde eigenschappen van een objecttype (vaak attribuutsoorten en/of relatiesoorten) ook gelden voor de gerelateerde objecttypen, ï¿½n dat deze qua semantiek, structuur en syntax gelijk zijn. We spreken dan van een supertype met subtypen. De modelelementen die generiek gelden worden in een generiek objecttype, het supertype, gemodelleerd en deze worden overerft door elk subtype (minimaal twee) die de generalisatie relatie legt naar dit generieke objecttype.<br>Voorbeeld: PERCEEL is specialisatie van KADASTRAAL ONROERENDE ZAAK, APPARTEMENTSRECHT is specialisatie van KADASTRAAL ONROERENDE ZAAK. PERCEEL en APPARTEMENTSRECHT hebben beide ï¿½Kadastrale aanduidingï¿½ en een ï¿½relatie met ONROERENDE ZAAK FILIATIEï¿½.
 * **Hardware**: Alle fysieke componenten of onderdelen die in een computer een rol spelen.
 * **Inventaris**: Een inboedel of een opsomming van voorwerpen op een bepaalde plaats, gemaakt volgens een vaste procedure.
 * **Koppeling**: Verbinding tussen twee systemen
@@ -27,12 +27,12 @@ Het model 'Model ICT' kent de volgende objecttypen:
 * **Melding**: De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend
 * **Nertwerkcomponent**: <Geen Definities>
 * **Notitie**: Korte, zakelijke uiteenzetting op schrift
-* **Objecttype**: De typering van een groep objecten (in de werkelijkheid) die binnen een domein relevant zijn en als gelijksoortig worden beschouwd. Toelichting Jan, Piet en Marie zijn mensen die vanuit het Burgerzaken-domein beschouwd worden als objecten van het type ï¿½natuurlijk persoonï¿½. In een ander domein, ï¿½de volksmondï¿½, noemen we dit ï¿½mensï¿½ wat ook een objecttype is. In weer een ander domein is Jan van het type ï¿½vergunninghouderï¿½ en Piet en Marie niet, omdat aan hen (nog) nooit een vergunning verleend is. Objecttypen zijn een abstractie van de werkelijkheid oftewel we beogen hiermee de werkelijkheid zo getrouw mogelijk te beschrijven, binnen de context van het domein. Dit staat geheel los van het vastleggen van gegevens over objecten van een type in een registratie. Daartoe is veelal een interpretatie nodig (van die werkelijkheid cq. die objecttypen) naar eenheden die in een registratie vastgelegd kunnen worden (records, entiteiten e.d.) op basis van andere overwegingen.
+* **Objecttype**: De typering van een groep objecten (in de werkelijkheid) die binnen een domein relevant zijn en als gelijksoortig worden beschouwd.<br>Toelichting<br>Jan, Piet en Marie zijn mensen die vanuit het Burgerzaken-domein beschouwd worden als objecten van het type ï¿½natuurlijk persoonï¿½. In een ander domein, ï¿½de volksmondï¿½, noemen we dit ï¿½mensï¿½ wat ook een objecttype is. In weer een ander domein is Jan van het type ï¿½vergunninghouderï¿½ en Piet en Marie niet, omdat aan hen (nog) nooit een vergunning verleend is. Objecttypen zijn een abstractie van de werkelijkheid oftewel we beogen hiermee de werkelijkheid zo getrouw mogelijk te beschrijven, binnen de context van het domein. Dit staat geheel los van het vastleggen van gegevens over objecten van een type in een registratie. Daartoe is veelal een interpretatie nodig (van die werkelijkheid cq. die objecttypen) naar eenheden die in een registratie vastgelegd kunnen worden (records, entiteiten e.d.) op basis van andere overwegingen.
 * **Onderwerp**: Op de meest karakteristieke elementen gebaseerde en in woord of eenvoudige zinstructuur samengevatte aanduiding van de inhoud van een document
 * **Package**: Een samengesteld bestand of een directory die een aantal bestanden bevat, maar welke als ï¿½ï¿½n bestand aan de gebruiker getoond word
 * **Prijzenboek**: Beschrijving van gangbare onderhoudsactiviteiten met de bijbehorende, actuele prijzen en normen voor de uitvoering.
 * **Product**: Het resultaat van een proces dat in het economisch verkeer een waarde bezit.
-* **Relatiesoort**:  De typering van het structurele verband tussen een object van een objecttype en een (ander) object van een ander (of hetzelfde) objecttype. Toelichting Objecten hebben eigenschappen die gemodelleerd kunnen worden met attribuutsoorten maar ook met relatiesoorten naar andere objecttypen. Als het voor het desbetreffende domein van belang is om die eigenschap te modelleren als onderdeel van een ander objecttype, dan maakt de relatiesoort die eigenschap beschikbaar voor het eerstgenoemde objecttype. Bijvoorbeeld, een attribuutsoort van het objecttype PERSOON zou kunnen zijn ï¿½Naam geregistreerd partnerï¿½ (naast de attribuutsoort ï¿½Naamï¿½ van PERSOON). De naam van de geregistreerde partner komt evenwel ook beschikbaar met een relatiesoort van PERSOON naar PERSOON: ï¿½heeft geregistreerd partnerschap metï¿½. Zie ook het eerder genoemde voorbeeld van SCHIP en MOTOR. Voorbeeld: relatiesoorten ï¿½VERBLIJFSOBJECT is gelegen in een PANDï¿½ en ï¿½SUBJECT heeft als correspondentieadres WOONPLAATSï¿½, of korter, ï¿½gelegen inï¿½, ï¿½postadresï¿½. Wanneer een relatie (UML-assocation) gebruikt wordt om objecten aan elkaar te verbinden, zonder dat er eigenschappen over deze relatie worden vastgelegd, dan heeft deze het stereotype ï¿½Relatiesoortï¿½. 
+* **Relatiesoort**: De typering van het structurele verband tussen een object van een objecttype en een (ander) object van een ander (of hetzelfde) objecttype.<br>Toelichting<br>Objecten hebben eigenschappen die gemodelleerd kunnen worden met attribuutsoorten maar ook met relatiesoorten naar andere objecttypen. Als het voor het desbetreffende domein van belang is om die eigenschap te modelleren als onderdeel van een ander objecttype, dan maakt de relatiesoort die eigenschap beschikbaar voor het eerstgenoemde objecttype. Bijvoorbeeld, een attribuutsoort van het objecttype PERSOON zou kunnen zijn ï¿½Naam geregistreerd partnerï¿½ (naast de attribuutsoort ï¿½Naamï¿½ van PERSOON). De naam van de geregistreerde partner komt evenwel ook beschikbaar met een relatiesoort van PERSOON naar PERSOON: ï¿½heeft geregistreerd partnerschap metï¿½. Zie ook het eerder genoemde voorbeeld van SCHIP en MOTOR.<br>Voorbeeld: relatiesoorten ï¿½VERBLIJFSOBJECT is gelegen in een PANDï¿½ en ï¿½SUBJECT heeft als correspondentieadres WOONPLAATSï¿½, of korter, ï¿½gelegen inï¿½, ï¿½postadresï¿½.<br>Wanneer een relatie (UML-assocation) gebruikt wordt om objecten aan elkaar te verbinden, zonder dat er eigenschappen over deze relatie worden vastgelegd, dan heeft deze het stereotype ï¿½Relatiesoortï¿½.
 * **Server**: Computer die in een netwerk een ondersteunende taak vervult.
 * **Software**: Een geheel van computerprogramma's met bijbehorende data, die bewerkingen en taken uitvoeren
 * **Storing**: Verlies van de mogelijkheid om volgens een specificatie te werken of om het vereiste resultaat te leveren.
@@ -95,7 +95,6 @@ Attributen van objecttype Aanvraag
 
 
 
-
 ### Applicatie
 > **Definitie Applicatie:** 
 >
@@ -134,23 +133,13 @@ Attributen van objecttype Applicatie
 | guid | guid |  |
 | omschrijving | Text |  |
 | beleidsdomein | AN255 |  |
-| None | Class: "Versie" |  |
-| None | Class: "Leverancier" |  |
-| None | Class: "Document" |  |
-| None | Class: "Gegeven" |  |
-| None | Class: "Notitie" |  |
-| None | Class: "Package" |  |
-
 
 
 
 ### Attribuutsoort
 > **Definitie Attribuutsoort:** 
 >
-> Attribuutsoort ï¿½ Stereotype ï¿½Attribuutsoortï¿½: De UML-representatie van een attribuutsoort, uitgedrukt in een stereotype van UML-Property3 (metaclass).
-> Er zijn verschillende modelelementen die gebaseerd zijn op UML-property, zoals aangegeven in ï¿½2.1.2. Wanneer een UML-property in het informatiemodel de betekenis heeft van een attribuut van een objecttype, dan heeft deze het stereotype ï¿½Attribuutsoortï¿½.
-> Een attribuutsoort is een type van gelijksoortige attributen of gegevens. Daartoe kijken we eerst naar het begrip ï¿½gegevenï¿½.
-> 
+> Attribuutsoort ï¿½ Stereotype ï¿½Attribuutsoortï¿½: De UML-representatie van een attribuutsoort, uitgedrukt in een stereotype van UML-Property3 (metaclass).<br>Er zijn verschillende modelelementen die gebaseerd zijn op UML-property, zoals aangegeven in ï¿½2.1.2. Wanneer een UML-property in het informatiemodel de betekenis heeft van een attribuut van een objecttype, dan heeft deze het stereotype ï¿½Attribuutsoortï¿½.<br>Een attribuutsoort is een type van gelijksoortige attributen of gegevens. Daartoe kijken we eerst naar het begrip ï¿½gegevenï¿½.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -182,24 +171,12 @@ Attributen van objecttype Attribuutsoort
 | definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
 | herkomstDefinitie | AN80 |  |
 | datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
-| domein | AN80 | <i>Domein is zelf geen metadata aspect. Onder het kopje ï¿½domeinï¿½ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i>
- |
-| lengte | AN40 | De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
-<i>Bijvoorbeeld:</i>
-<i>ï¿½1ï¿½ als de lengte exact 1 is;</i>
-<i>ï¿½1..2ï¿½ als de lengte 1 tot en met 2 lang kan zijn; 'ï¿½1,2ï¿½ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99; |
-| patroon | AN40 | Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.
-De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.
- |
+| domein | AN80 | <i>Domein is zelf geen metadata aspect. Onder het kopje ï¿½domeinï¿½ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i> |
+| lengte | AN40 | De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.<br><i>Bijvoorbeeld:</i><br><i>ï¿½1ï¿½ als de lengte exact 1 is;</i><br><i>ï¿½1..2ï¿½ als de lengte 1 tot en met 2 lang kan zijn; 'ï¿½1,2ï¿½ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99; |
+| patroon | AN40 | Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.<br>De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur. |
 | toelichting | Text |  |
 | indicatieMaterieleHistorie | boolean | Indicatie of de materiï¿½le historie van de attribuutsoort te bevragen is. Materiï¿½le historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde. |
-| kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
-0..1: is soms niet beschikbaar
-1 : is altijd beschikbaar
-0..*: is niet altijd beschikbaar, kan
-meerdere malen voorkomen 1..*: is altijd beschikbaar, kan
-meerdere malen voorkomen
-Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
+| kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:<br>0..1: is soms niet beschikbaar<br>1 : is altijd beschikbaar<br>0..*: is niet altijd beschikbaar, kan<br>meerdere malen voorkomen 1..*: is altijd beschikbaar, kan<br>meerdere malen voorkomen<br>Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
 | authentiek | boolean |  |
 | indicatieAfleidbaar | boolean | Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten. |
 | mogelijkGeenWaarde | boolean |  |
@@ -208,8 +185,6 @@ Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de
 | stereotype | AN40 |  |
 | precisie | int |  |
 | ea_guid | guid |  |
-| None | Class: "Datatype" |  |
-
 
 
 
@@ -249,7 +224,6 @@ Attributen van objecttype Classificatie
 
 
 
-
 ### CMDB-item 
 > **Definitie CMDB-item :** 
 >
@@ -257,7 +231,7 @@ Attributen van objecttype Classificatie
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | CMDB-item  |
+| name | CMDB-item |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -282,7 +256,6 @@ Attributen van objecttype CMDB-item
 | :--- | :--- | :--- |
 | naam | AN255 |  |
 | beschrijving | Text |  |
-
 
 
 
@@ -323,18 +296,13 @@ Attributen van objecttype Database
 | OTAP |  |  |
 | databaseVersie | AN40 |  |
 | vlan | AN40 |  |
-| None | Class: "Server" |  |
-
 
 
 
 ### Datatype
 > **Definitie Datatype:** 
 >
-> Attribuutsoort ï¿½ Stereotype ï¿½Attribuutsoortï¿½: De UML-representatie van een attribuutsoort, uitgedrukt in een stereotype van UML-Property3 (metaclass).
-> Er zijn verschillende modelelementen die gebaseerd zijn op UML-property, zoals aangegeven in ï¿½2.1.2. Wanneer een UML-property in het informatiemodel de betekenis heeft van een attribuut van een objecttype, dan heeft deze het stereotype ï¿½Attribuutsoortï¿½.
-> Een attribuutsoort is een type van gelijksoortige attributen of gegevens. Daartoe kijken we eerst naar het begrip ï¿½gegevenï¿½.
-> 
+> Attribuutsoort ï¿½ Stereotype ï¿½Attribuutsoortï¿½: De UML-representatie van een attribuutsoort, uitgedrukt in een stereotype van UML-Property3 (metaclass).<br>Er zijn verschillende modelelementen die gebaseerd zijn op UML-property, zoals aangegeven in ï¿½2.1.2. Wanneer een UML-property in het informatiemodel de betekenis heeft van een attribuut van een objecttype, dan heeft deze het stereotype ï¿½Attribuutsoortï¿½.<br>Een attribuutsoort is een type van gelijksoortige attributen of gegevens. Daartoe kijken we eerst naar het begrip ï¿½gegevenï¿½.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -365,26 +333,13 @@ Attributen van objecttype Datatype
 | herkomst | AN255 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
 | definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
 | datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
-| domein | AN255 | <i>Domein is zelf geen metadata aspect. Onder het kopje ï¿½domeinï¿½ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i>
- |
-| lengte | AN40 | De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
-<i>Bijvoorbeeld:</i>
-<i>ï¿½1ï¿½ als de lengte exact 1 is;</i>
-<i>ï¿½1..2ï¿½ als de lengte 1 tot en met 2 lang kan zijn; 'ï¿½1,2ï¿½ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99; |
-| patroon | AN40 | Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.
-De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.
- |
+| domein | AN255 | <i>Domein is zelf geen metadata aspect. Onder het kopje ï¿½domeinï¿½ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i> |
+| lengte | AN40 | De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.<br><i>Bijvoorbeeld:</i><br><i>ï¿½1ï¿½ als de lengte exact 1 is;</i><br><i>ï¿½1..2ï¿½ als de lengte 1 tot en met 2 lang kan zijn; 'ï¿½1,2ï¿½ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99; |
+| patroon | AN40 | Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.<br>De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur. |
 | toelichting | Text |  |
 | id | int |  |
 | ea_guid | guid |  |
-| kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
-0..1: is soms niet beschikbaar
-1 : is altijd beschikbaar
-0..*: is niet altijd beschikbaar, kan
-meerdere malen voorkomen 1..*: is altijd beschikbaar, kan
-meerdere malen voorkomen
-Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
-
+| kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:<br>0..1: is soms niet beschikbaar<br>1 : is altijd beschikbaar<br>0..*: is niet altijd beschikbaar, kan<br>meerdere malen voorkomen 1..*: is altijd beschikbaar, kan<br>meerdere malen voorkomen<br>Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
 
 
 
@@ -418,11 +373,6 @@ Attributen van objecttype Dienst
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Domein/Taakveld" |  |
-| None | Class: "Zaaktype" |  |
-| None | Class: "Onderwerp" |  |
-| None | Class: "Product" |  |
-
 
 
 
@@ -459,7 +409,6 @@ Attributen van objecttype Domein/Taakveld
 
 
 
-
 ### Externe Bron
 > **Definitie Externe Bron:** 
 >
@@ -492,8 +441,6 @@ Attributen van objecttype Externe Bron
 | :--- | :--- | :--- |
 | guid | guid |  |
 | naam | AN255 |  |
-| None | Class: "Gegeven" |  |
-
 
 
 
@@ -533,19 +480,13 @@ Attributen van objecttype Gegeven
 | toelichting | Text |  |
 | stereotype | AN255 |  |
 | ea_guid | guid |  |
-| None | Class: "Objecttype" |  |
-
 
 
 
 ### Generalisatie
 > **Definitie Generalisatie:** 
 >
-> De typering van het hiï¿½rarchische verband tussen een meer generiek object van een objecttype en een meer specifiek object van een ander objecttype waarbij het laatstgenoemde object eigenschappen van het eerstgenoemde object overerft.
-> Toelichting
-> Een generalisatierelatie geeft aan dat bepaalde eigenschappen van een objecttype (vaak attribuutsoorten en/of relatiesoorten) ook gelden voor de gerelateerde objecttypen, ï¿½n dat deze qua semantiek, structuur en syntax gelijk zijn. We spreken dan van een supertype met subtypen. De modelelementen die generiek gelden worden in een generiek objecttype, het supertype, gemodelleerd en deze worden overerft door elk subtype (minimaal twee) die de generalisatie relatie legt naar dit generieke objecttype.
-> Voorbeeld: PERCEEL is specialisatie van KADASTRAAL ONROERENDE ZAAK, APPARTEMENTSRECHT is specialisatie van KADASTRAAL ONROERENDE ZAAK. PERCEEL en APPARTEMENTSRECHT hebben beide ï¿½Kadastrale aanduidingï¿½ en een ï¿½relatie met ONROERENDE ZAAK FILIATIEï¿½.
-> 
+> De typering van het hiï¿½rarchische verband tussen een meer generiek object van een objecttype en een meer specifiek object van een ander objecttype waarbij het laatstgenoemde object eigenschappen van het eerstgenoemde object overerft.<br>Toelichting<br>Een generalisatierelatie geeft aan dat bepaalde eigenschappen van een objecttype (vaak attribuutsoorten en/of relatiesoorten) ook gelden voor de gerelateerde objecttypen, ï¿½n dat deze qua semantiek, structuur en syntax gelijk zijn. We spreken dan van een supertype met subtypen. De modelelementen die generiek gelden worden in een generiek objecttype, het supertype, gemodelleerd en deze worden overerft door elk subtype (minimaal twee) die de generalisatie relatie legt naar dit generieke objecttype.<br>Voorbeeld: PERCEEL is specialisatie van KADASTRAAL ONROERENDE ZAAK, APPARTEMENTSRECHT is specialisatie van KADASTRAAL ONROERENDE ZAAK. PERCEEL en APPARTEMENTSRECHT hebben beide ï¿½Kadastrale aanduidingï¿½ en een ï¿½relatie met ONROERENDE ZAAK FILIATIEï¿½.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -584,7 +525,6 @@ Attributen van objecttype Generalisatie
 
 
 
-
 ### Hardware
 > **Definitie Hardware:** 
 >
@@ -615,7 +555,6 @@ Attributen van objecttype Hardware
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -652,7 +591,6 @@ Attributen van objecttype Inventaris
 
 
 
-
 ### Koppeling
 > **Definitie Koppeling:** 
 >
@@ -686,8 +624,6 @@ Attributen van objecttype Koppeling
 | direct | boolean |  |
 | beschrijving | AN200 |  |
 | toelichting | text |  |
-| None | Class: "Linkbaar CMDB-item" |  |
-
 
 
 
@@ -724,7 +660,6 @@ Attributen van objecttype Licentie
 
 
 
-
 ### Linkbaar CMDB-item
 > **Definitie Linkbaar CMDB-item:** 
 >
@@ -755,8 +690,6 @@ Attributen van objecttype Linkbaar CMDB-item
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Koppeling" |  |
-
 
 
 
@@ -796,7 +729,6 @@ Attributen van objecttype Log
 
 
 
-
 ### Melding
 > **Definitie Melding:** 
 >
@@ -827,7 +759,6 @@ Attributen van objecttype Melding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -864,7 +795,6 @@ Attributen van objecttype Nertwerkcomponent
 
 
 
-
 ### Notitie
 > **Definitie Notitie:** 
 >
@@ -897,17 +827,13 @@ Attributen van objecttype Notitie
 | :--- | :--- | :--- |
 | datum | Date |  |
 | inhoud | Text |  |
-| None | Class: "Medewerker" |  |
-
 
 
 
 ### Objecttype
 > **Definitie Objecttype:** 
 >
-> De typering van een groep objecten (in de werkelijkheid) die binnen een domein relevant zijn en als gelijksoortig worden beschouwd.
-> Toelichting
-> Jan, Piet en Marie zijn mensen die vanuit het Burgerzaken-domein beschouwd worden als objecten van het type ï¿½natuurlijk persoonï¿½. In een ander domein, ï¿½de volksmondï¿½, noemen we dit ï¿½mensï¿½ wat ook een objecttype is. In weer een ander domein is Jan van het type ï¿½vergunninghouderï¿½ en Piet en Marie niet, omdat aan hen (nog) nooit een vergunning verleend is. Objecttypen zijn een abstractie van de werkelijkheid oftewel we beogen hiermee de werkelijkheid zo getrouw mogelijk te beschrijven, binnen de context van het domein. Dit staat geheel los van het vastleggen van gegevens over objecten van een type in een registratie. Daartoe is veelal een interpretatie nodig (van die werkelijkheid cq. die objecttypen) naar eenheden die in een registratie vastgelegd kunnen worden (records, entiteiten e.d.) op basis van andere overwegingen.
+> De typering van een groep objecten (in de werkelijkheid) die binnen een domein relevant zijn en als gelijksoortig worden beschouwd.<br>Toelichting<br>Jan, Piet en Marie zijn mensen die vanuit het Burgerzaken-domein beschouwd worden als objecten van het type ï¿½natuurlijk persoonï¿½. In een ander domein, ï¿½de volksmondï¿½, noemen we dit ï¿½mensï¿½ wat ook een objecttype is. In weer een ander domein is Jan van het type ï¿½vergunninghouderï¿½ en Piet en Marie niet, omdat aan hen (nog) nooit een vergunning verleend is. Objecttypen zijn een abstractie van de werkelijkheid oftewel we beogen hiermee de werkelijkheid zo getrouw mogelijk te beschrijven, binnen de context van het domein. Dit staat geheel los van het vastleggen van gegevens over objecten van een type in een registratie. Daartoe is veelal een interpretatie nodig (van die werkelijkheid cq. die objecttypen) naar eenheden die in een registratie vastgelegd kunnen worden (records, entiteiten e.d.) op basis van andere overwegingen.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -943,16 +869,11 @@ Attributen van objecttype Objecttype
 | populatie | Text | Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)- registratie voorhanden zijn. |
 | kwaliteit | AN255 | Voor objecttypen die deel uitmaken van een registratie betreft dit de waarborgen voor de juistheid van de in de registratie opgenomen objecten van het desbetreffende type. |
 | toelichting | Text |  |
-| indicatieAbstract | boolean | Conceptueel model: indicatie dat het objecttype een generalisatie is,
-waarvan een object als specialisatie altijd voorkomt in de hoedanigheid van een (en slechts ï¿½ï¿½n) van de specialisaties van het betreffende objecttype.
-Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende objecttype mogen voorkomen. |
+| indicatieAbstract | boolean | Conceptueel model: indicatie dat het objecttype een generalisatie is,<br>waarvan een object als specialisatie altijd voorkomt in de hoedanigheid van een (en slechts ï¿½ï¿½n) van de specialisaties van het betreffende objecttype.<br>Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende objecttype mogen voorkomen. |
 | id | int |  |
 | stereotype | AN255 |  |
 | ea_guid | guid |  |
-| None | Class: "Relatiesoort" |  |
 | supertype | Class: "Generalisatie" |  |
-| None | Class: "Attribuutsoort" |  |
-
 
 
 
@@ -986,8 +907,6 @@ Attributen van objecttype Onderwerp
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Domein/Taakveld" |  |
-
 
 
 
@@ -1029,7 +948,6 @@ Attributen van objecttype Package
 
 
 
-
 ### Prijzenboek
 > **Definitie Prijzenboek:** 
 >
@@ -1063,7 +981,6 @@ Attributen van objecttype Prijzenboek
 
 
 
-
 ### Product
 > **Definitie Product:** 
 >
@@ -1094,22 +1011,13 @@ Attributen van objecttype Product
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Domein/Taakveld" |  |
-| None | Class: "Prijzenboek" |  |
-
 
 
 
 ### Relatiesoort
 > **Definitie Relatiesoort:** 
 >
-> 
-> De typering van het structurele verband tussen een object van een objecttype en een (ander) object van een ander (of hetzelfde) objecttype.
-> Toelichting
-> Objecten hebben eigenschappen die gemodelleerd kunnen worden met attribuutsoorten maar ook met relatiesoorten naar andere objecttypen. Als het voor het desbetreffende domein van belang is om die eigenschap te modelleren als onderdeel van een ander objecttype, dan maakt de relatiesoort die eigenschap beschikbaar voor het eerstgenoemde objecttype. Bijvoorbeeld, een attribuutsoort van het objecttype PERSOON zou kunnen zijn ï¿½Naam geregistreerd partnerï¿½ (naast de attribuutsoort ï¿½Naamï¿½ van PERSOON). De naam van de geregistreerde partner komt evenwel ook beschikbaar met een relatiesoort van PERSOON naar PERSOON: ï¿½heeft geregistreerd partnerschap metï¿½. Zie ook het eerder genoemde voorbeeld van SCHIP en MOTOR.
-> Voorbeeld: relatiesoorten ï¿½VERBLIJFSOBJECT is gelegen in een PANDï¿½ en ï¿½SUBJECT heeft als correspondentieadres WOONPLAATSï¿½, of korter, ï¿½gelegen inï¿½, ï¿½postadresï¿½.
-> Wanneer een relatie (UML-assocation) gebruikt wordt om objecten aan elkaar te verbinden, zonder dat er eigenschappen over deze relatie worden vastgelegd, dan heeft deze het stereotype ï¿½Relatiesoortï¿½.
-> 
+> De typering van het structurele verband tussen een object van een objecttype en een (ander) object van een ander (of hetzelfde) objecttype.<br>Toelichting<br>Objecten hebben eigenschappen die gemodelleerd kunnen worden met attribuutsoorten maar ook met relatiesoorten naar andere objecttypen. Als het voor het desbetreffende domein van belang is om die eigenschap te modelleren als onderdeel van een ander objecttype, dan maakt de relatiesoort die eigenschap beschikbaar voor het eerstgenoemde objecttype. Bijvoorbeeld, een attribuutsoort van het objecttype PERSOON zou kunnen zijn ï¿½Naam geregistreerd partnerï¿½ (naast de attribuutsoort ï¿½Naamï¿½ van PERSOON). De naam van de geregistreerde partner komt evenwel ook beschikbaar met een relatiesoort van PERSOON naar PERSOON: ï¿½heeft geregistreerd partnerschap metï¿½. Zie ook het eerder genoemde voorbeeld van SCHIP en MOTOR.<br>Voorbeeld: relatiesoorten ï¿½VERBLIJFSOBJECT is gelegen in een PANDï¿½ en ï¿½SUBJECT heeft als correspondentieadres WOONPLAATSï¿½, of korter, ï¿½gelegen inï¿½, ï¿½postadresï¿½.<br>Wanneer een relatie (UML-assocation) gebruikt wordt om objecten aan elkaar te verbinden, zonder dat er eigenschappen over deze relatie worden vastgelegd, dan heeft deze het stereotype ï¿½Relatiesoortï¿½.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -1143,22 +1051,13 @@ Attributen van objecttype Relatiesoort
 | datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
 | toelichting | Text |  |
 | indicatieMaterieleHistorie | boolean | Indicatie of de materiï¿½le historie van de attribuutsoort te bevragen is. Materiï¿½le historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde. |
-| kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
-0..1: is soms niet beschikbaar
-1 : is altijd beschikbaar
-0..*: is niet altijd beschikbaar, kan
-meerdere malen voorkomen 1..*: is altijd beschikbaar, kan
-meerdere malen voorkomen
-Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
+| kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:<br>0..1: is soms niet beschikbaar<br>1 : is altijd beschikbaar<br>0..*: is niet altijd beschikbaar, kan<br>meerdere malen voorkomen 1..*: is altijd beschikbaar, kan<br>meerdere malen voorkomen<br>Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
 | authentiek | boolean |  |
-| unidirectioneel | AN40 | Het gerelateerde objecttype (de target) waarvan het objecttype, die de eigenaar is van deze relatie (de source), kennis heeft.
-Alle relaties zijn altijd gericht van het objecttype (source) naar het gerelateerde objecttype (target).
- |
+| unidirectioneel | AN40 | Het gerelateerde objecttype (de target) waarvan het objecttype, die de eigenaar is van deze relatie (de source), kennis heeft.<br>Alle relaties zijn altijd gericht van het objecttype (source) naar het gerelateerde objecttype (target). |
 | id | int |  |
 | indicatieAfleidbaar | boolean | Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten. |
 | ea_guid | guid |  |
 | mogelijkGeenWaarde | boolean |  |
-
 
 
 
@@ -1200,8 +1099,6 @@ Attributen van objecttype Server
 | serienummer | AN40 |  |
 | locatie | AN40 |  |
 | actief | boolean |  |
-| None | Class: "Leverancier" |  |
-
 
 
 
@@ -1238,7 +1135,6 @@ Attributen van objecttype Software
 
 
 
-
 ### Storing
 > **Definitie Storing:** 
 >
@@ -1269,7 +1165,6 @@ Attributen van objecttype Storing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -1306,7 +1201,6 @@ Attributen van objecttype Telefoniegegevens
 
 
 
-
 ### Toegangsmiddel
 > **Definitie Toegangsmiddel:** 
 >
@@ -1337,7 +1231,6 @@ Attributen van objecttype Toegangsmiddel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -1380,7 +1273,6 @@ Attributen van objecttype Versie
 
 
 
-
 ### Vervoersmiddel
 > **Definitie Vervoersmiddel:** 
 >
@@ -1411,7 +1303,6 @@ Attributen van objecttype Vervoersmiddel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -1451,7 +1342,6 @@ Attributen van objecttype Wijzigingsverzoek
 
 
 
-
 ## Enumeraties Model ICT
 
 
@@ -1473,22 +1363,22 @@ De enumeratie Applicatiecategorie heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Applicatiecategorie |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:13 |
 | modified | 2025-03-26 16:14:46 |
 | id | EAID_A030D866_E2E7_4854_ACFD_C62DB3ABDA38 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1510,22 +1400,22 @@ De enumeratie Beheerstatus heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Beheerstatus |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:13 |
 | modified | 2025-03-26 16:14:46 |
 | id | EAID_1FCBFA1B_2703_4ece_A496_EA668AEFCDCD |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1546,22 +1436,22 @@ De enumeratie Gebruikerrol heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Gebruikerrol |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:13 |
 | modified | 2025-03-26 16:14:46 |
 | id | EAID_262A7A23_0CBB_4991_A1B2_D5D3E509549C |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1583,22 +1473,22 @@ De enumeratie Packagingstatus heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Packagingstatus |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:13 |
 | modified | 2025-03-26 16:14:46 |
 | id | EAID_C0031024_173A_47d6_9BF4_F22941AA7807 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1616,22 +1506,22 @@ De enumeratie Servertypes heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Servertypes |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:13 |
 | modified | 2025-03-26 16:14:46 |
 | id | EAID_BA2C3918_278E_49c7_A8C5_423F2D659450 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 

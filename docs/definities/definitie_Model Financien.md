@@ -11,9 +11,9 @@ Het model 'Model Financien' kent de volgende objecttypen:
 * **Bankafschrift**: Overzicht van de bij- en afschrijvingen van een rekening
 * **Bankafschriftregel**: Een item op het bankafschrift
 * **Bankrekening**: Een rekening-courant bij een bank
-* **Batch**: Verzameling van posten die in het kader van automatische verwerking een logisch geheel vormen. 
+* **Batch**: Verzameling van posten die in het kader van automatische verwerking een logisch geheel vormen.
 * **Batchregel**: Een item uit een batch
-* **Begroting**: Een overzicht van de verwachte ontvangsten en voorziene uitgaven voor een bepaalde (meestal toekomstige) periode zodat hier een afstemming tussen plaats kan vinden om eventuele tekorten en overschotten vroegtijdig in kaart te kunnen brengen. 
+* **Begroting**: Een overzicht van de verwachte ontvangsten en voorziene uitgaven voor een bepaalde (meestal toekomstige) periode zodat hier een afstemming tussen plaats kan vinden om eventuele tekorten en overschotten vroegtijdig in kaart te kunnen brengen.
 * **Begrotingregel**: Een item op de begroting
 * **Debiteur**: Iemand aan wie een dienst of product geleverd is waardoor recht op een vergoeding is ontstaan
 * **Doelstelling**: Een op korte of middellange termijn nagestreefde situatie
@@ -24,8 +24,8 @@ Het model 'Model Financien' kent de volgende objecttypen:
 * **Inkooporder**: Een opdracht (gezien vanuit de klant) voor ï¿½ï¿½n of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen.
 * **Kostenplaats**: Rekening waaraan boekingen in een financiï¿½le administratie samen worden toegeschreven.
 * **Mutatie**: Wijziging van een situatie
-* **Opdrachtgever**: Persoon die een opdracht verstrekt. 
-* **Opdrachtnemer**: Partij die een opdracht aanvaardt. 
+* **Opdrachtgever**: Persoon die een opdracht verstrekt.
+* **Opdrachtnemer**: Partij die een opdracht aanvaardt.
 * **Product**: Het resultaat van een proces dat in het economisch verkeer een waarde bezit.
 * **Subrekening**: Ondergeschikte rekening van een hoofdrekening
 * **Taakveld**: Een samenhangend geheel van activiteiten en taken en hangt onder een programma.
@@ -86,7 +86,6 @@ Attributen van objecttype Activa
 
 
 
-
 ### Activasoort
 > **Definitie Activasoort:** 
 >
@@ -122,7 +121,6 @@ Attributen van objecttype Activasoort
 
 
 
-
 ### Bankafschrift
 > **Definitie Bankafschrift:** 
 >
@@ -155,7 +153,6 @@ Attributen van objecttype Bankafschrift
 | :--- | :--- | :--- |
 | nummer | N8 |  |
 | datum | date |  |
-
 
 
 
@@ -196,7 +193,6 @@ Attributen van objecttype Bankafschriftregel
 
 
 
-
 ### Bankrekening
 > **Definitie Bankrekening:** 
 >
@@ -233,11 +229,10 @@ Attributen van objecttype Bankrekening
 
 
 
-
 ### Batch
 > **Definitie Batch:** 
 >
-> Verzameling van posten die in het kader van automatische verwerking een logisch geheel vormen. 
+> Verzameling van posten die in het kader van automatische verwerking een logisch geheel vormen.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -267,7 +262,6 @@ Attributen van objecttype Batch
 | datum | date |  |
 | tijd | time |  |
 | nummer | N8 |  |
-
 
 
 
@@ -309,11 +303,10 @@ Attributen van objecttype Batchregel
 
 
 
-
 ### Begroting
 > **Definitie Begroting:** 
 >
-> Een overzicht van de verwachte ontvangsten en voorziene uitgaven voor een bepaalde (meestal toekomstige) periode zodat hier een afstemming tussen plaats kan vinden om eventuele tekorten en overschotten vroegtijdig in kaart te kunnen brengen. 
+> Een overzicht van de verwachte ontvangsten en voorziene uitgaven voor een bepaalde (meestal toekomstige) periode zodat hier een afstemming tussen plaats kan vinden om eventuele tekorten en overschotten vroegtijdig in kaart te kunnen brengen.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -343,7 +336,6 @@ Attributen van objecttype Begroting
 | naam | AN80 |  |
 | omschrijving | text |  |
 | nummer | AN20 |  |
-
 
 
 
@@ -383,7 +375,6 @@ Attributen van objecttype Begrotingregel
 
 
 
-
 ### Debiteur
 > **Definitie Debiteur:** 
 >
@@ -414,7 +405,6 @@ Attributen van objecttype Debiteur
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -451,7 +441,6 @@ Attributen van objecttype Doelstelling
 | naam | AN80 |  |
 | omschrijving | text |  |
 | nummer | AN20 |  |
-
 
 
 
@@ -492,9 +481,6 @@ Attributen van objecttype Factuur
 | betaalbaarPer | date |  |
 | factuurbedragExclusiefBTW | bedrag |  |
 | factuurbedragBTW | Bedrag |  |
-| None | Class: "Inkooporder" |  |
-| None | Class: "Leverancier" |  |
-
 
 
 
@@ -534,7 +520,6 @@ Attributen van objecttype Factuurregel
 | bedragExBTW | Bedrag |  |
 | bedragBTW | Bedrag |  |
 | BTWPercentage | N2 |  |
-
 
 
 
@@ -578,7 +563,6 @@ Attributen van objecttype Hoofdrekening
 
 
 
-
 ### Hoofdstuk
 > **Definitie Hoofdstuk:** 
 >
@@ -612,7 +596,6 @@ Attributen van objecttype Hoofdstuk
 | naam | AN80 |  |
 | omschrijving | text |  |
 | nummer | AN20 |  |
-
 
 
 
@@ -658,13 +641,6 @@ Attributen van objecttype Inkooporder
 | datumIngediend | date |  |
 | artikelcode | AN80 |  |
 | goederencode | AN80 |  |
-| None | Class: "Leverancier" |  |
-| None | Class: "Contract" |  |
-| None | Class: "Inkooporder" |  |
-| None | Class: "Inkooporder" |  |
-| None | Class: "Hoofdrekening" |  |
-| None | Class: "Kostenplaats" |  |
-
 
 
 
@@ -709,7 +685,6 @@ Attributen van objecttype Kostenplaats
 
 
 
-
 ### Mutatie
 > **Definitie Mutatie:** 
 >
@@ -745,11 +720,10 @@ Attributen van objecttype Mutatie
 
 
 
-
 ### Opdrachtgever
 > **Definitie Opdrachtgever:** 
 >
-> Persoon die een opdracht verstrekt. 
+> Persoon die een opdracht verstrekt.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -784,11 +758,10 @@ Attributen van objecttype Opdrachtgever
 
 
 
-
 ### Opdrachtnemer
 > **Definitie Opdrachtnemer:** 
 >
-> Partij die een opdracht aanvaardt. 
+> Partij die een opdracht aanvaardt.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -820,7 +793,6 @@ Attributen van objecttype Opdrachtnemer
 | nummer | AN20 |  |
 | clustercode | AN20 |  |
 | clustercodeOmschrijving | AN80 |  |
-
 
 
 
@@ -860,7 +832,6 @@ Attributen van objecttype Product
 
 
 
-
 ### Subrekening
 > **Definitie Subrekening:** 
 >
@@ -894,7 +865,6 @@ Attributen van objecttype Subrekening
 | naam | AN80 |  |
 | omschrijving | text |  |
 | nummer | AN20 |  |
-
 
 
 
@@ -939,7 +909,6 @@ Attributen van objecttype Taakveld
 
 
 
-
 ### Werkorder
 > **Definitie Werkorder:** 
 >
@@ -975,7 +944,6 @@ Attributen van objecttype Werkorder
 | code | AN20 |  |
 | werkordertype | AN80 |  |
 | documentnummer | int |  |
-
 
 
 

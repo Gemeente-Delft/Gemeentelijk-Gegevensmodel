@@ -79,7 +79,6 @@ Attributen van objecttype Andere reden afwijkende startdatum
 
 
 
-
 ### Andere reden verzoek
 > **Definitie Andere reden verzoek:** 
 >
@@ -110,7 +109,6 @@ Attributen van objecttype Andere reden verzoek
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -147,7 +145,6 @@ Attributen van objecttype Gestopt betaald werk
 
 
 
-
 ### Gestopt of verkocht eigen bedrijf
 > **Definitie Gestopt of verkocht eigen bedrijf:** 
 >
@@ -178,7 +175,6 @@ Attributen van objecttype Gestopt of verkocht eigen bedrijf
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -215,7 +211,6 @@ Attributen van objecttype Gestopte bijstanduitkering
 
 
 
-
 ### Gestopte detentie
 > **Definitie Gestopte detentie:** 
 >
@@ -246,7 +241,6 @@ Attributen van objecttype Gestopte detentie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -283,7 +277,6 @@ Attributen van objecttype Gestopte of verlaagde alimentatie
 
 
 
-
 ### Gestopte studiefinanciering
 > **Definitie Gestopte studiefinanciering:** 
 >
@@ -314,7 +307,6 @@ Attributen van objecttype Gestopte studiefinanciering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -351,7 +343,6 @@ Attributen van objecttype Gestopte uitkering
 
 
 
-
 ### Ingang bijstandsuitkering
 > **Definitie Ingang bijstandsuitkering:** 
 >
@@ -382,7 +373,6 @@ Attributen van objecttype Ingang bijstandsuitkering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -419,7 +409,6 @@ Attributen van objecttype Opname instelling
 
 
 
-
 ### Overleden partner
 > **Definitie Overleden partner:** 
 >
@@ -450,7 +439,6 @@ Attributen van objecttype Overleden partner
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -487,7 +475,6 @@ Attributen van objecttype Reden aanvraag
 
 
 
-
 ### Reden aanvraag Levensonderhoud
 > **Definitie Reden aanvraag Levensonderhoud:** 
 >
@@ -518,7 +505,6 @@ Attributen van objecttype Reden aanvraag Levensonderhoud
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -555,7 +541,6 @@ Attributen van objecttype Reden afwijkende startdatum
 
 
 
-
 ### Verbroken relatie
 > **Definitie Verbroken relatie:** 
 >
@@ -586,7 +571,6 @@ Attributen van objecttype Verbroken relatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -623,7 +607,6 @@ Attributen van objecttype Vertrek uit asielzoekerscentrum
 
 
 
-
 ### Wachten beslissing instantie
 > **Definitie Wachten beslissing instantie:** 
 >
@@ -657,7 +640,6 @@ Attributen van objecttype Wachten beslissing instantie
 
 
 
-
 ### Wachten DigiD
 > **Definitie Wachten DigiD:** 
 >
@@ -688,7 +670,6 @@ Attributen van objecttype Wachten DigiD
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 

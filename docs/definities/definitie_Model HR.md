@@ -11,11 +11,11 @@ Het model 'Model HR' kent de volgende objecttypen:
 * **Declaratiesoort**: Typering van een declaratie
 * **Dienstverband**: De rechtsbetrekking tussen werkgever en werknemer zoals vastgelegd in een arbeidsovereenkomst.
 * **Disciplinaire Maatregel**: Een besluit dat wordt opgelegd wanneer een persoon zijn verplichtingen niet of niet op de juiste wijze nakomt, of zich op andere wijze misdraagt.
-* **Formatieplaats**: Uitgangspunt is het vastgestelde formatieplan, dus niet de werkelijke bezetting. Het gaat hier om de toegestane formatie in fte van het ambtelijk apparaat van uw organisatie voor het begrotingsjaar 
-* **Functie**: Een samenhangende verzameling van rollen. Een functie kan worden gedefinieerd als het samenstel van feitelijk opgedragen taken en werkzaamheden 
+* **Formatieplaats**: Uitgangspunt is het vastgestelde formatieplan, dus niet de werkelijke bezetting. Het gaat hier om de toegestane formatie in fte van het ambtelijk apparaat van uw organisatie voor het begrotingsjaar
+* **Functie**: Een samenhangende verzameling van rollen. Een functie kan worden gedefinieerd als het samenstel van feitelijk opgedragen taken en werkzaamheden
 * **Functiehuis**: Model waarin functies van een organisatie worden beschreven.
 * **GenotenOpleiding**: Afgeronde opleiding, een samenhangend geheel van vakken, gericht op de verwezenlijking van welomschreven doelstellingen op het gebied van kennis, inzicht en vaardigheden
-* **Geweldsincident**: Een gebeurtenis met betrekking tot agressie en omvat het veroorzaken van verwondingen of schade bij mensen, dieren, of voorwerpen. 
+* **Geweldsincident**: Een gebeurtenis met betrekking tot agressie en omvat het veroorzaken van verwondingen of schade bij mensen, dieren, of voorwerpen.
 * **Individueel Keuzebudget**: Bedrag dat feitelijk beschikbaar gesteld wordt voor een individu om een bepaalde keus te kunnen maken
 * **Inzet**: Uren inzet die gepleegd wordt in een bepaalde periode op een organisatorische eenheid en het percentage dat ook daadwerkelijk wordt uitgevoerd.Dit kan afwijken van de contractuele uren.
 * **KeuzebudgetBesteding**: De daadwerkelijk uitgave van een keuzebudget
@@ -94,7 +94,6 @@ Attributen van objecttype Beoordeling
 
 
 
-
 ### Declaratie
 > **Definitie Declaratie:** 
 >
@@ -133,7 +132,6 @@ Attributen van objecttype Declaratie
 
 
 
-
 ### Declaratiesoort
 > **Definitie Declaratiesoort:** 
 >
@@ -166,7 +164,6 @@ Attributen van objecttype Declaratiesoort
 | :--- | :--- | :--- |
 | naam | AN80 |  |
 | omschrijving | text |  |
-
 
 
 
@@ -206,9 +203,6 @@ Attributen van objecttype Dienstverband
 | periodiek | int |  |
 | schaal | int |  |
 | urenPerWeek | int |  |
-| None | Class: "OrganisatorischeEenheidHR" |  |
-| None | Class: "Functie" |  |
-
 
 
 
@@ -249,12 +243,10 @@ Attributen van objecttype Disciplinaire Maatregel
 
 
 
-
 ### Formatieplaats
 > **Definitie Formatieplaats:** 
 >
 > Uitgangspunt is het vastgestelde formatieplan, dus niet de werkelijke bezetting. Het gaat hier om de toegestane formatie in fte van het ambtelijk apparaat van uw organisatie voor het begrotingsjaar
-> 
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -282,10 +274,6 @@ Attributen van objecttype Formatieplaats
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | uren per week | AN100 |  |
-| None | Class: "OrganisatorischeEenheidHR" |  |
-| None | Class: "Dienstverband" |  |
-| None | Class: "Functie" |  |
-
 
 
 
@@ -293,7 +281,6 @@ Attributen van objecttype Formatieplaats
 > **Definitie Functie:** 
 >
 > Een samenhangende verzameling van rollen. Een functie kan worden gedefinieerd als het samenstel van feitelijk opgedragen taken en werkzaamheden
-> 
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -325,8 +312,6 @@ Attributen van objecttype Functie
 | Taken | text |  |
 | Schaal | AN20 |  |
 | Code | AN50 |  |
-| None | Class: "NormProfiel" |  |
-
 
 
 
@@ -362,7 +347,6 @@ Attributen van objecttype Functiehuis
 | :--- | :--- | :--- |
 | naam | AN80 |  |
 | omschrijving | text |  |
-
 
 
 
@@ -404,11 +388,10 @@ Attributen van objecttype GenotenOpleiding
 
 
 
-
 ### Geweldsincident
 > **Definitie Geweldsincident:** 
 >
-> Een gebeurtenis met betrekking tot agressie en omvat het veroorzaken van verwondingen of schade bij mensen, dieren, of voorwerpen. 
+> Een gebeurtenis met betrekking tot agressie en omvat het veroorzaken van verwondingen of schade bij mensen, dieren, of voorwerpen.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -438,7 +421,6 @@ Attributen van objecttype Geweldsincident
 | datum | Date |  |
 | type | AN80 |  |
 | omschrijving | text |  |
-
 
 
 
@@ -479,7 +461,6 @@ Attributen van objecttype Individueel Keuzebudget
 
 
 
-
 ### Inzet
 > **Definitie Inzet:** 
 >
@@ -514,10 +495,6 @@ Attributen van objecttype Inzet
 | datumEinde | Date |  |
 | percentage | AN20 |  |
 | uren | AN20 |  |
-| None | Class: "OrganisatorischeEenheidHR" |  |
-| None | Class: "Dienstverband" |  |
-| None | Class: "Functie" |  |
-
 
 
 
@@ -556,7 +533,6 @@ Attributen van objecttype KeuzebudgetBesteding
 
 
 
-
 ### KeuzebudgetBestedingsoort
 > **Definitie KeuzebudgetBestedingsoort:** 
 >
@@ -589,7 +565,6 @@ Attributen van objecttype KeuzebudgetBestedingsoort
 | :--- | :--- | :--- |
 | naam | AN80 |  |
 | omschrijving | text |  |
-
 
 
 
@@ -626,8 +601,6 @@ Attributen van objecttype NormProfiel
 | code | AN10 |  |
 | omschrijving | AN100 |  |
 | schaal | AN10 |  |
-| None | Class: "Functiehuis" |  |
-
 
 
 
@@ -661,7 +634,6 @@ Attributen van objecttype Onderwijsinstituut
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -702,7 +674,6 @@ Attributen van objecttype Opleiding
 
 
 
-
 ### OrganisatorischeEenheidHR
 > **Definitie OrganisatorischeEenheidHR:** 
 >
@@ -735,7 +706,6 @@ Attributen van objecttype OrganisatorischeEenheidHR
 | :--- | :--- | :--- |
 | naam | int |  |
 | type | int |  |
-
 
 
 
@@ -772,7 +742,6 @@ Attributen van objecttype Relatie
 
 
 
-
 ### Rol
 > **Definitie Rol:** 
 >
@@ -806,8 +775,6 @@ Attributen van objecttype Rol
 | datumBegin | Date |  |
 | datumEinde | Date |  |
 | rol | AN50 |  |
-| None | Class: "OrganisatorischeEenheidHR" |  |
-
 
 
 
@@ -844,7 +811,6 @@ Attributen van objecttype Sollicitant
 
 
 
-
 ### Sollicitatie
 > **Definitie Sollicitatie:** 
 >
@@ -876,7 +842,6 @@ Attributen van objecttype Sollicitatie
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datum | Date |  |
-
 
 
 
@@ -917,7 +882,6 @@ Attributen van objecttype Sollicitatiegesprek
 
 
 
-
 ### SoortDisciplinaireMaatregel
 > **Definitie SoortDisciplinaireMaatregel:** 
 >
@@ -953,7 +917,6 @@ Attributen van objecttype SoortDisciplinaireMaatregel
 
 
 
-
 ### Uren
 > **Definitie Uren:** 
 >
@@ -985,7 +948,6 @@ Attributen van objecttype Uren
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | aantal | int |  |
-
 
 
 
@@ -1028,7 +990,6 @@ Attributen van objecttype Vacature
 
 
 
-
 ### Verlof
 > **Definitie Verlof:** 
 >
@@ -1067,7 +1028,6 @@ Attributen van objecttype Verlof
 
 
 
-
 ### Verlofsoort
 > **Definitie Verlofsoort:** 
 >
@@ -1100,7 +1060,6 @@ Attributen van objecttype Verlofsoort
 | :--- | :--- | :--- |
 | naam | AN80 |  |
 | omschrijving | text |  |
-
 
 
 
@@ -1139,7 +1098,6 @@ Attributen van objecttype Verzuim
 
 
 
-
 ### Verzuimsoort
 > **Definitie Verzuimsoort:** 
 >
@@ -1172,7 +1130,6 @@ Attributen van objecttype Verzuimsoort
 | :--- | :--- | :--- |
 | naam | AN80 |  |
 | omschrijving | text |  |
-
 
 
 
@@ -1210,10 +1167,6 @@ Attributen van objecttype Werknemer
 | voornaam | AN40 |  |
 | geboortedatum | Date |  |
 | woonplaats | AN50 |  |
-| None | Class: "Relatie" |  |
-| None | Class: "Rol" |  |
-| None | Class: "Relatie" |  |
-
 
 
 

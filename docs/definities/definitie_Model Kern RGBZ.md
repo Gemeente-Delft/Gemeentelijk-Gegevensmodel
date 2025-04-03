@@ -19,10 +19,10 @@ Het model 'Model Kern RGBZ' kent de volgende objecttypen:
 * **EnkelvoudigDocument**: Een DOCUMENT waarvan aard, omvang en/of vorm aanleiding geven het als ï¿½ï¿½n geheel te behandelen en te beheren.
 * **Heffing**: Een door de overheid opgelegde verplichting tot betaling
 * **Identificatiekenmerk**: Nodig voor archivering om verschillende typen identificatie te kunnen onderscheiden:
-* **Klantcontact**: Klantcontacten zijn contactmomenten die werkelijk hebben plaatsgevonden, terwijl Balieafspraken afspraken zijn voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.  Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje). 
+* **Klantcontact**: Klantcontacten zijn contactmomenten die werkelijk hebben plaatsgevonden, terwijl Balieafspraken afspraken zijn voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.<br><br>Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje).
 * **Medewerker**: Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID.
 * **Object**: Het OBJECT waarop een ZAAK betrekking kan hebben zijnde ï¿½ï¿½n of meer voorkomens van de in het RSGB en het RGBZ onderscheiden objecttypen.
-* **Offerte**: Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs. 
+* **Offerte**: Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs.
 * **OrganisatorischeEenheid**: Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken.
 * **SamengesteldDocument**: Een DOCUMENT waarbinnen twee of meer ENKELVOUDIGe DOCUMENTen onderscheiden worden die vanwege gezamenlijke vervaardiging en/of ontvangst en/of vanwege aard en/of omvang als ï¿½ï¿½n geheel beschouwd moeten worden dan wel behandeld worden.,
 * **Status**: Een aanduiding van de stand van zaken van een zaak op basis van betekenisvol behaald resultaat voor de initiator van de zaak.
@@ -87,9 +87,6 @@ Attributen van objecttype Bedrijfsproces
 | Datum_eind | Date |  |
 | Afgerond | Enumeratie: "Boolean" |  |
 | Naam | AN200 |  |
-| None | Class: "Zaak" |  |
-| None | Class: "Bedrijfsprocestype" |  |
-
 
 
 
@@ -124,9 +121,6 @@ Attributen van objecttype Bedrijfsprocestype
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | Omschrijving | AM200 |  |
-| None | Class: "Producttype" |  |
-| None | Class: "Zaaktype" |  |
-
 
 
 
@@ -171,10 +165,8 @@ Attributen van objecttype Besluit
 | datumUiterlijkeReactie |  | <font color="#610e6a">De datum tot wanneer verweer tegen het besluit mogelijk is.</font> |
 | besluit | AN200 |  |
 | document | Class: "Document" |  |
-| None | Class: "Document" |  |
 | zaak | Class: "Zaak" |  |
 | type | Class: "Besluittype" |  |
-
 
 
 
@@ -220,7 +212,6 @@ Attributen van objecttype Besluittype
 
 
 
-
 ### Betaling
 > **Definitie Betaling:** 
 >
@@ -255,7 +246,6 @@ Attributen van objecttype Betaling
 | datumtijd | datetime |  |
 | valuta | AN3 |  |
 | omschrijving | AN200 |  |
-
 
 
 
@@ -296,10 +286,8 @@ Attributen van objecttype Betrokkene
 | adresBuitenland |  | <font color="#610e6a">De aanduiding van het adres waar specialisaties van de BETROKKENE  zijnde een (NIET) NATUURLIJK PERSOON of VESTIGING dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland.</font> |
 | betrokkene | Class: "NatuurlijkPersoon" |  |
 | organisatorische eenheid | Class: "OrganisatorischeEenheid" |  |
-| None | Class: "Klantbeoordeling" |  |
 | vestiging | Class: "NietNatuurlijkPersoon" |  |
 | medewerker | Class: "Medewerker" |  |
-
 
 
 
@@ -335,9 +323,6 @@ Attributen van objecttype Deelproces
 | :--- | :--- | :--- |
 | Datum_gepland | Date |  |
 | Datum_afgehandeld | Date |  |
-| None | Class: "Deelprocestype" |  |
-| None | Class: "Bedrijfsproces" |  |
-
 
 
 
@@ -372,8 +357,6 @@ Attributen van objecttype Deelprocestype
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | Omschrijving | AN200 |  |
-| None | Class: "Bedrijfsprocestype" |  |
-
 
 
 
@@ -407,9 +390,7 @@ Attributen van objecttype Document
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| documentIdentificatie | AN40 | <font color="#610e6a">Een binnen een gegeven context ondubbelzinnige referentie naar het document.</font>
-<font color="#610e6a">Bijvoorbeeld potsregistratienummer</font>
- |
+| documentIdentificatie | AN40 | <font color="#610e6a">Een binnen een gegeven context ondubbelzinnige referentie naar het document.</font><br><font color="#610e6a">Bijvoorbeeld potsregistratienummer</font> |
 | datumCreatieDocument |  | <font color="#610e6a">Een datum of een gebeurtenis in de levenscyclus van het document.</font> |
 | datumOntvangstdocument |  | <font color="#610e6a">De datum waarop het DOCUMENT ontvangen is.</font> |
 | documentTitel | AN200 | <font color="#610e6a">De naam waaronder het document formeel bekend is.</font> |
@@ -418,7 +399,6 @@ Attributen van objecttype Document
 | vertrouwelijkAanduiding | AN20 | <font color="#610e6a">Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is.</font> |
 | documentAuteur | AN200 | <font color="#610e6a">De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creï¿½ren van de inhoud van het document.</font> |
 | type | Class: "Documenttype" |  |
-
 
 
 
@@ -458,7 +438,6 @@ Attributen van objecttype Documenttype
 | documenttypeTrefwoord | AN30 | <font color="#610e6a">Trefwoord(en) waarmee DOCUMENTen van het DOCUMENTTYPE kunnen worden gekarakteriseerd.</font> |
 | datumBeginGeldigheidDocumenttype | OnvolledigeDatum | <font color="#610e6a">De datum waarop het DOCUMENTTYPE is ontstaan.</font> |
 | datumEindeGeldigheidDocumenttype | OnvolledigeDatum | <font color="#610e6a">De datum waarop het DOCUMENTTYPE is opgeheven.</font> |
-
 
 
 
@@ -502,7 +481,6 @@ Attributen van objecttype EnkelvoudigDocument
 
 
 
-
 ### Heffing
 > **Definitie Heffing:** 
 >
@@ -540,9 +518,6 @@ Attributen van objecttype Heffing
 | runnummer | int |  |
 | datumIndiening | datum |  |
 | nummer | int |  |
-| None | Enumeratie: "Heffingsoort" |  |
-| None | Class: "Heffinggrondslag" |  |
-
 
 
 
@@ -580,14 +555,10 @@ Attributen van objecttype Identificatiekenmerk
 
 
 
-
 ### Klantcontact
 > **Definitie Klantcontact:** 
 >
-> Klantcontacten zijn contactmomenten die werkelijk hebben plaatsgevonden, terwijl Balieafspraken afspraken zijn voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.
-> 
-> Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje).
-> 
+> Klantcontacten zijn contactmomenten die werkelijk hebben plaatsgevonden, terwijl Balieafspraken afspraken zijn voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.<br><br>Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje).
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -614,21 +585,13 @@ Attributen van objecttype Klantcontact
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| eindtijd | Datetime | Werkelijke eindtijd van het klantcontact. Het moment dat de conversatie ten einde is.
-Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk
-
- |
-| starttijd | Datetime | Werkelijke starttijd van het klantcontact, dus het moment dat klant en medewerker van de gemeente elkaar spreken.
-
-Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk |
-| tijdsduur | int | Werkelijke tijdsduur in seconden
- |
+| eindtijd | Datetime | Werkelijke eindtijd van het klantcontact. Het moment dat de conversatie ten einde is.<br>Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk |
+| starttijd | Datetime | Werkelijke starttijd van het klantcontact, dus het moment dat klant en medewerker van de gemeente elkaar spreken.<br><br>Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk |
+| tijdsduur | int | Werkelijke tijdsduur in seconden |
 | wachttijdTotaal | int | De totale wachttijd voor de starttijd van het klantcontact. Dit inclusief eventueel te vroeg verschijnen op een afspraak |
 | kanaal | AN20 |  |
 | toelichting | text |  |
 | notitie | text |  |
-| None | Enumeratie: "Soorten Klantcontact" |  |
-
 
 
 
@@ -672,20 +635,11 @@ Attributen van objecttype Medewerker
 | roepnaam | AN30 | <font color="#610e6a">Naam waarmee de werknemer wordt aangesproken.</font> |
 | telefoonnummer | AN20 | <font color="#610e6a">Telefoonnummer waaronder de medewerker in de regel bereikbaar is.</font> |
 | voorletters | AN20 | <font color="#610e6a">De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen.</font> |
-| voorvoegselAchternaam | AN10 | <font color="#610e6a">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font>
-<font color="#610e6a">gescheiden.</font> |
+| voorvoegselAchternaam | AN10 | <font color="#610e6a">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font><br><font color="#610e6a">gescheiden.</font> |
 | extern |  | Medewerker is een externe? |
 | datumInDienst | Date |  |
-| None | Class: "Leverancier" |  |
-| None | Class: "StartformulierAanbesteden" |  |
-| None | Class: "Aanvraag Inkooporder" |  |
 | organisatorische eenheid | Class: "OrganisatorischeEenheid" |  |
-| None | Class: "Proces-verbaal-MOOR-melding" |  |
-| None | Class: "Subsidie" |  |
 | organisatorische eenheid | Class: "OrganisatorischeEenheid" |  |
-| None | Class: "Uitvoerende instantie" |  |
-| None | Class: "OrganisatorischeEenheid" |  |
-
 
 
 
@@ -720,10 +674,7 @@ Attributen van objecttype Object
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | identificatie | AN50 | <font color="#610e6a">De unieke identificatie van het OBJECT</font> |
-| objecttype | AN3 | <font color="#610e6a">Het onderscheid van een OBJECT naar haar specialisatiies.</font>
-<font color="#610e6a">De code voor de Objecttypering gevolgd door de unieke aanduiding van de specialisatie (van OBJECT):</font>
-<font color="#610e6a">ADRESSEERBAAR OBJECT AANDUIDING, BENOEMD OBJECT, BESLUIT, BUURT, ENKELVOUDIG INFORMATIEOBJECT, GEMEENTE, GEMEENTELIJKE OPENBARE RUIMTE, HUISHOUDEN, INRICHTINGSELEMENT, KADASTRALE ONROERENDE ZAAK, KUNSTWERKDEEL, MAATSSCHAPPELIJKE ACTIVITEIT, MEDEWERKER, OPENBARE RUIMTE, SAMENGESTELD INFORMATIEOBJECT, ORGANISATORISCHE EENHEID, PAND, SPOORBAANDEEL, STATUS, SUBJECT, TERREINDEEL, WATERDEEL, WEGDEEL, WIJK, WOONPLAATS, WOZ- DEELOBJECT, WOZ-OBJECT, WOZ-WAARDE of</font>
-<font color="#610e6a">ZAKELIJK RECHT (of afleidbare identificatie).</font> |
+| objecttype | AN3 | <font color="#610e6a">Het onderscheid van een OBJECT naar haar specialisatiies.</font><br><font color="#610e6a">De code voor de Objecttypering gevolgd door de unieke aanduiding van de specialisatie (van OBJECT):</font><br><font color="#610e6a">ADRESSEERBAAR OBJECT AANDUIDING, BENOEMD OBJECT, BESLUIT, BUURT, ENKELVOUDIG INFORMATIEOBJECT, GEMEENTE, GEMEENTELIJKE OPENBARE RUIMTE, HUISHOUDEN, INRICHTINGSELEMENT, KADASTRALE ONROERENDE ZAAK, KUNSTWERKDEEL, MAATSSCHAPPELIJKE ACTIVITEIT, MEDEWERKER, OPENBARE RUIMTE, SAMENGESTELD INFORMATIEOBJECT, ORGANISATORISCHE EENHEID, PAND, SPOORBAANDEEL, STATUS, SUBJECT, TERREINDEEL, WATERDEEL, WEGDEEL, WIJK, WOONPLAATS, WOZ- DEELOBJECT, WOZ-OBJECT, WOZ-WAARDE of</font><br><font color="#610e6a">ZAKELIJK RECHT (of afleidbare identificatie).</font> |
 | naam | AN200 | <font color="#610e6a">De benaming van het OBJECT indien dit een SUBJECT of specialisatie daarvan is.</font> |
 | adresBinnenland |  | <font color="#610e6a">De aanduiding van het adres van het OBJECT indien dit adres in Nederland gelegen is.</font> |
 | adresBuitenland |  | <font color="#610e6a">De aanduiding van het adres waar specialisaties van het OBJECT zijnde een SUBJECT dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland.</font> |
@@ -732,37 +683,15 @@ Attributen van objecttype Object
 | toelichting |  |  |
 | domein | AN200 | Het toepassingsgebied of de sector DOMEIN waarbinnen handhaving op het object plaatsvindt |
 | indicatieRisico |  | Indicatie van de risico's van (de uitvoering van activiteiten in) het handhavingsobject op gevolgen voor het handhavingsobject zelf, de daarin aanwezige personen, de omgeving van het handhavingsobject en/of de samenleving. |
-| None | Class: "MaatschappelijkeActiviteit" |  |
-| None | Class: "NietNatuurlijkPersoon" |  |
-| None | Class: "Inrichtingselement" |  |
 | huishouden | Class: "Huishouden" |  |
-| None | Class: "Ligplaats" |  |
-| None | Class: "Buurt" |  |
-| None | Class: "Pand" |  |
-| None | Class: "Waterdeel" |  |
-| None | Class: "Standplaats" |  |
-| None | Class: "KadastraalPerceel" |  |
-| None | Class: "Vaartuig" |  |
-| None | Class: "Ingezetene" |  |
-| None | Class: "Standplaats" |  |
-| None | Class: "KadastraleOnroerendeZaak" |  |
-| None | Class: "Ligplaats" |  |
-| None | Class: "Voertuig" |  |
-| None | Class: "Kunstwerkdeel" |  |
-| None | Class: "OpenbareRuimte" |  |
-| None | Class: "OpenbareRuimte" |  |
 | besluit | Class: "Besluit" |  |
-| None | Class: "Pand" |  |
-| None | Class: "Buurt" |  |
-| None | Class: "NatuurlijkPersoon" |  |
-
 
 
 
 ### Offerte
 > **Definitie Offerte:** 
 >
-> Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs. 
+> Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -789,7 +718,6 @@ Attributen van objecttype Offerte
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -834,13 +762,8 @@ Attributen van objecttype OrganisatorischeEenheid
 | telefoonnummer | AN20 | <font color="#610e6a">Telefoonnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font> |
 | toelichting | AN1000 | <font color="#610e6a">Toelichting bij de organisatorische eenheid.</font> |
 | Formatie |  |  |
-| None | Class: "Klantbeoordeling" |  |
-| None | Class: "Kostenplaats" |  |
 | vestiging | Class: "VestigingVanZaakbehandelendeOrganisatie" |  |
 | zaaktype | Class: "Zaaktype" |  |
-| None | Class: "OrganisatorischeEenheid" |  |
-| None | Class: "Subsidieprogramma" |  |
-
 
 
 
@@ -878,7 +801,6 @@ Attributen van objecttype SamengesteldDocument
 
 
 
-
 ### Status
 > **Definitie Status:** 
 >
@@ -913,7 +835,6 @@ Attributen van objecttype Status
 | statustoelichting | AN1000 | <font color="#610e6a">Een, voor de initiator van de zaak relevante, toelichting op de status van een zaak.</font> |
 | indicatieIaatstGezetteStatus | AN1 | <font color="#610e6a">Aanduding of het de laatst bekende bereikte status betreft.</font> |
 | type | Class: "Statustype" |  |
-
 
 
 
@@ -956,7 +877,6 @@ Attributen van objecttype Statustype
 
 
 
-
 ### VestigingVanZaakbehandelendeOrganisatie
 > **Definitie VestigingVanZaakbehandelendeOrganisatie:** 
 >
@@ -987,7 +907,6 @@ Attributen van objecttype VestigingVanZaakbehandelendeOrganisatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -1022,7 +941,6 @@ Attributen van objecttype Zaak
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | document |  |  |
-| None |  |  |
 | zaakidentificatie | AN40 | <font color="#610e6a">Een identificatie van de zaak.</font> |
 | datumEinde |  | <font color="#610e6a">De datum waarop de uitvoering van de zaak afgerond is.</font> |
 | datumEindeGepland |  | <font color="#610e6a">De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt.</font> |
@@ -1046,17 +964,8 @@ Attributen van objecttype Zaak
 | redenVerlenging | AN200 |  |
 | vertrouwelijkheid | AN40 |  |
 | leges | AN100 |  |
-| None | Class: "Zaak" |  |
 | type | Class: "Zaaktype" |  |
-| None | Class: "Klantbeoordeling" |  |
-| None | Class: "Medewerker" |  |
-| None | Class: "Producttype" |  |
-| None | Class: "Zaak" |  |
-| None | Class: "Project" |  |
-| None | Class: "Heffing" |  |
 | status | Class: "Status" |  |
-| None | Class: "Grondslag" |  |
-
 
 
 
@@ -1111,9 +1020,6 @@ Attributen van objecttype ZAAK - Origineel
 | opschorting |  |  |
 | verlenging |  |  |
 | anderZaakobject |  |  |
-| None | Class: "ZAAK - Origineel" |  |
-| None | Class: "ZAAK - Origineel" |  |
-
 
 
 
@@ -1159,10 +1065,7 @@ Attributen van objecttype Zaaktype
 | publicatietekst | AN1000 | <font color="#610e6a">De generieke tekst van de publicatie van ZAAKen van dit ZAAKTYPE</font> |
 | datumBeginGeldigheidZaaktype | OnvolledigeDatum | <font color="#610e6a">De datum waarop het ZAAKTYPE is ontstaan.</font> |
 | datumEindeGeldigheidZaaktype | OnvolledigeDatum | <font color="#610e6a">De datum waarop het ZAAKTYPE is opgeheven.</font> |
-| None | Class: "Heffinggrondslag" |  |
 | statustype | Class: "Statustype" |  |
-| None | Class: "Product" |  |
-
 
 
 
@@ -1188,22 +1091,22 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Boolean |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
 | id | EAID_3fc32259_5c3a_4520_9272_db211d675d30 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1221,22 +1124,22 @@ De enumeratie Heffingsoort heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Heffingsoort |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.5 |
 | created | 2025-03-26 11:12:42 |
 | modified | 2025-03-26 16:14:35 |
 | id | EAID_7a802c89_025f_47a1_9fe9_f97406ec578d |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1257,22 +1160,22 @@ De enumeratie Soorten Klantcontact heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Soorten Klantcontact |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.5 |
 | created | 2025-03-26 11:13:26 |
 | modified | 2025-03-26 16:14:51 |
 | id | EAID_d8f20daa_a962_4124_976f_c9ca4928f4c9 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 

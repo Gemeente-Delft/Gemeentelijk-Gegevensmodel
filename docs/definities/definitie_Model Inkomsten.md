@@ -102,7 +102,6 @@ Attributen van objecttype Alimentatie
 
 
 
-
 ### Ander inkomen
 > **Definitie Ander inkomen:** 
 >
@@ -139,7 +138,6 @@ Attributen van objecttype Ander inkomen
 
 
 
-
 ### Beslag op inkomen
 > **Definitie Beslag op inkomen:** 
 >
@@ -171,7 +169,6 @@ Attributen van objecttype Beslag op inkomen
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | Soort | CharacterString |  |
-
 
 
 
@@ -219,7 +216,6 @@ Attributen van objecttype Betaald werk
 
 
 
-
 ### Dertiende maand - eindejaarsuitkering
 > **Definitie Dertiende maand - eindejaarsuitkering:** 
 >
@@ -251,7 +247,6 @@ Attributen van objecttype Dertiende maand - eindejaarsuitkering
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | DertiendeMaandEindejaarsuitkering.Id | CharacterString |  |
-
 
 
 
@@ -291,7 +286,6 @@ Attributen van objecttype Draagkracht
 
 
 
-
 ### Draagkrachtregime
 > **Definitie Draagkrachtregime:** 
 >
@@ -327,7 +321,6 @@ Attributen van objecttype Draagkrachtregime
 | Naam | CharacterString |  |
 | Peildatum | Date |  |
 | Resterende draagkracht | Geldbedrag |  |
-
 
 
 
@@ -370,7 +363,6 @@ Attributen van objecttype Eigen bedrijf
 
 
 
-
 ### Eigen bijdrage
 > **Definitie Eigen bijdrage:** 
 >
@@ -402,7 +394,6 @@ Attributen van objecttype Eigen bijdrage
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | Soort | CharacterString |  |
-
 
 
 
@@ -442,7 +433,6 @@ Attributen van objecttype Heffingskorting
 
 
 
-
 ### Hobby
 > **Definitie Hobby:** 
 >
@@ -476,7 +466,6 @@ Attributen van objecttype Hobby
 | Aantal uren per week besteed aan hobby | Integer |  |
 | Beschrijving hobby | CharacterString |  |
 | Hobby.Id | CharacterString |  |
-
 
 
 
@@ -523,7 +512,6 @@ Attributen van objecttype Inkomstencomponent
 
 
 
-
 ### Inkomstenverhouding
 > **Definitie Inkomstenverhouding:** 
 >
@@ -561,7 +549,6 @@ Attributen van objecttype Inkomstenverhouding
 
 
 
-
 ### Inkomstenvermindering
 > **Definitie Inkomstenvermindering:** 
 >
@@ -593,7 +580,6 @@ Attributen van objecttype Inkomstenvermindering
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | Inkomstenvermindering.Id | CharacterString |  |
-
 
 
 
@@ -632,7 +618,6 @@ Attributen van objecttype Kostencomponent
 
 
 
-
 ### Loonbeslag
 > **Definitie Loonbeslag:** 
 >
@@ -667,7 +652,6 @@ Attributen van objecttype Loonbeslag
 
 
 
-
 ### Maaltijdvergoeding
 > **Definitie Maaltijdvergoeding:** 
 >
@@ -699,7 +683,6 @@ Attributen van objecttype Maaltijdvergoeding
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | Maaltijdvergoeding.Id | CharacterString |  |
-
 
 
 
@@ -743,7 +726,6 @@ Attributen van objecttype Onderhoudsplicht
 
 
 
-
 ### Onderhoudsverhouding
 > **Definitie Onderhoudsverhouding:** 
 >
@@ -781,7 +763,6 @@ Attributen van objecttype Onderhoudsverhouding
 
 
 
-
 ### Onkostenvergoeding
 > **Definitie Onkostenvergoeding:** 
 >
@@ -813,7 +794,6 @@ Attributen van objecttype Onkostenvergoeding
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | Onkostenvergoeding.Id | CharacterString |  |
-
 
 
 
@@ -856,7 +836,6 @@ Attributen van objecttype Pensioen
 
 
 
-
 ### Primair inkomstencomponent
 > **Definitie Primair inkomstencomponent:** 
 >
@@ -891,7 +870,6 @@ Attributen van objecttype Primair inkomstencomponent
 
 
 
-
 ### Reiskosten naar het werk 
 > **Definitie Reiskosten naar het werk :** 
 >
@@ -899,7 +877,7 @@ Attributen van objecttype Primair inkomstencomponent
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | Reiskosten naar het werk  |
+| name | Reiskosten naar het werk |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -923,7 +901,6 @@ Attributen van objecttype Reiskosten naar het werk
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | Soort | CharacterString |  |
-
 
 
 
@@ -961,7 +938,6 @@ Attributen van objecttype Reiskostenvergoeding
 
 
 
-
 ### Secundair inkomstencomponent
 > **Definitie Secundair inkomstencomponent:** 
 >
@@ -993,7 +969,6 @@ Attributen van objecttype Secundair inkomstencomponent
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | SecundairInkomstencomponent.Id | CharacterString |  |
-
 
 
 
@@ -1036,7 +1011,6 @@ Attributen van objecttype Stage
 
 
 
-
 ### Studiefinanciering
 > **Definitie Studiefinanciering:** 
 >
@@ -1073,7 +1047,6 @@ Attributen van objecttype Studiefinanciering
 
 
 
-
 ### Te betalen alimentatie
 > **Definitie Te betalen alimentatie:** 
 >
@@ -1105,7 +1078,6 @@ Attributen van objecttype Te betalen alimentatie
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | Soort | CharacterString |  |
-
 
 
 
@@ -1151,7 +1123,6 @@ Attributen van objecttype Uitkering
 
 
 
-
 ### Vakantiegeld
 > **Definitie Vakantiegeld:** 
 >
@@ -1183,7 +1154,6 @@ Attributen van objecttype Vakantiegeld
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | Vakantiegeld.Id | CharacterString |  |
-
 
 
 
@@ -1221,7 +1191,6 @@ Attributen van objecttype Vergoeding
 
 
 
-
 ### Vergoeding in natura
 > **Definitie Vergoeding in natura:** 
 >
@@ -1253,7 +1222,6 @@ Attributen van objecttype Vergoeding in natura
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | VergoedingInNatura.Id | CharacterString |  |
-
 
 
 
@@ -1291,7 +1259,6 @@ Attributen van objecttype Verlaging door boete
 
 
 
-
 ### Verlaging door maatregel
 > **Definitie Verlaging door maatregel:** 
 >
@@ -1323,7 +1290,6 @@ Attributen van objecttype Verlaging door maatregel
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | VerlagingDoorMaatregel.Id | CharacterString |  |
-
 
 
 
@@ -1364,7 +1330,6 @@ Attributen van objecttype Vrijlating inkomsten
 | Soort vrijlating |  |  |
 | Vrijgelaten bedrag | Geldbedrag |  |
 | VrijlatingInkomsten.Id | CharacterString |  |
-
 
 
 

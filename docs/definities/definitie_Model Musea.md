@@ -6,7 +6,7 @@
 
 Het model 'Model Musea' kent de volgende objecttypen:
 
-* **Activiteit**: Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd. 
+* **Activiteit**: Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd.
 * **Activiteitsoort**: Typering van een activiteit
 * **Balieverkoop**: Verkoop aan de balie
 * **Balieverkoop Entreekaart**: Verkoop van een entreekaart aan de balie
@@ -60,7 +60,7 @@ Het model 'Model Musea' heeft de volgende kenmerken:
 ### Activiteit
 > **Definitie Activiteit:** 
 >
-> Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd. 
+> Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -90,10 +90,6 @@ Attributen van objecttype Activiteit
 | naam | AN80 |  |
 | omschrijving | Text |  |
 | aantalPersonen | int |  |
-| None | Class: "Rondleiding" |  |
-| None | Class: "Activiteit" |  |
-| None | Class: "Activiteitsoort" |  |
-
 
 
 
@@ -132,7 +128,6 @@ Attributen van objecttype Activiteitsoort
 
 
 
-
 ### Balieverkoop
 > **Definitie Balieverkoop:** 
 >
@@ -166,9 +161,6 @@ Attributen van objecttype Balieverkoop
 | verkooptijd | DateTime |  |
 | kanaal | AN80 | Verkocht via kassa, online of ander kanaal |
 | aantal | int |  |
-| None | Class: "Prijs" |  |
-| None | Class: "Product" |  |
-
 
 
 
@@ -209,7 +201,6 @@ Attributen van objecttype Balieverkoop Entreekaart
 
 
 
-
 ### Belanghebbende
 > **Definitie Belanghebbende:** 
 >
@@ -242,7 +233,6 @@ Attributen van objecttype Belanghebbende
 | :--- | :--- | :--- |
 | datumStart | Date |  |
 | datumTot | Date |  |
-
 
 
 
@@ -281,10 +271,6 @@ Attributen van objecttype Bruikleen
 | datumEinde | Date |  |
 | aanvraagDoor | AN80 |  |
 | toestemmingDoor | AN80 |  |
-| None | Class: "Tentoonstelling" |  |
-| None | Class: "Lener" |  |
-| None | Class: "Museumobject" |  |
-
 
 
 
@@ -323,7 +309,6 @@ Attributen van objecttype Collectie
 
 
 
-
 ### Doelgroep
 > **Definitie Doelgroep:** 
 >
@@ -358,8 +343,6 @@ Attributen van objecttype Doelgroep
 | omschrijving | Text |  |
 | branch | AN80 |  |
 | segment | AN80 |  |
-| None | Class: "Doelgroep" |  |
-
 
 
 
@@ -397,7 +380,6 @@ Attributen van objecttype Entreekaart
 
 
 
-
 ### Incident
 > **Definitie Incident:** 
 >
@@ -432,8 +414,6 @@ Attributen van objecttype Incident
 | omschrijving | Text |  |
 | datum | Date |  |
 | locatie | AN300 |  |
-| None | Class: "Museumobject" |  |
-
 
 
 
@@ -471,7 +451,6 @@ Attributen van objecttype Lener
 
 
 
-
 ### Mailing
 > **Definitie Mailing:** 
 >
@@ -505,8 +484,6 @@ Attributen van objecttype Mailing
 | naam | AN80 |  |
 | omschrijving | Text |  |
 | datum | Date |  |
-| None | Class: "Museumrelatie" |  |
-
 
 
 
@@ -540,15 +517,11 @@ Attributen van objecttype Museumobject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| verkrijging | AN300 | Hoe en via wie object is verkregen. Informatie uit de Constituents-tabel.  |
+| verkrijging | AN300 | Hoe en via wie object is verkregen. Informatie uit de Constituents-tabel. |
 | medium | AN300 | Materiaal waarvan object is vervaardigd |
 | afmeting | AN300 | Omschrijving van afmeting |
 | bezitVanaf | Date |  |
 | bezitTot | Date |  |
-| None | Class: "Belanghebbende" |  |
-| None | Class: "Tentoonstelling" |  |
-| None | Class: "Standplaats" |  |
-
 
 
 
@@ -583,8 +556,6 @@ Attributen van objecttype Museumrelatie
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | relatiesoort | AN80 |  |
-| None | Class: "Doelgroep" |  |
-
 
 
 
@@ -620,7 +591,6 @@ Attributen van objecttype Omzetgroep
 | :--- | :--- | :--- |
 | naam | AN80 |  |
 | omschrijving | Text |  |
-
 
 
 
@@ -660,7 +630,6 @@ Attributen van objecttype Prijs
 
 
 
-
 ### Product
 > **Definitie Product:** 
 >
@@ -697,11 +666,6 @@ Attributen van objecttype Product
 | datumEindeGeldigheid | Datum |  |
 | codeMuseumjaarkaart | AN40 |  |
 | entreekaart | int |  |
-| None | Class: "Prijs" |  |
-| None | Class: "Productgroep" |  |
-| None | Class: "Omzetgroep" |  |
-| None | Class: "Leverancier" |  |
-
 
 
 
@@ -740,7 +704,6 @@ Attributen van objecttype Productgroep
 
 
 
-
 ### Productie-eenheid
 > **Definitie Productie-eenheid:** 
 >
@@ -771,8 +734,6 @@ Attributen van objecttype Productie-eenheid
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Leverancier" |  |
-
 
 
 
@@ -815,11 +776,6 @@ Attributen van objecttype Programma
 | locatie | AN80 |  |
 | publiekstaak | AN80 |  |
 | schoolniveau | AN80 |  |
-| None | Class: "Activiteit" |  |
-| None | Class: "Programmasoort" |  |
-| None | Class: "Kostenplaats" |  |
-| None | Class: "Museumrelatie" |  |
-
 
 
 
@@ -858,7 +814,6 @@ Attributen van objecttype Programmasoort
 
 
 
-
 ### Reservering
 > **Definitie Reservering:** 
 >
@@ -894,10 +849,6 @@ Attributen van objecttype Reservering
 | tijdTot | Datetime |  |
 | totaalprijs | bedrag | Bedrah exclusief BTW |
 | BTW | AN8 |  |
-| None | Class: "Voorziening" |  |
-| None | Class: "Zaal" |  |
-| None | Class: "Productie-eenheid" |  |
-
 
 
 
@@ -935,8 +886,6 @@ Attributen van objecttype Rondleiding
 | omschrijving | Text |  |
 | starttijd | Datetime |  |
 | eindtijd | Datetime |  |
-| None | Class: "Tentoonstelling" |  |
-
 
 
 
@@ -971,8 +920,6 @@ Attributen van objecttype Samensteller
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | rol | AN80 |  |
-| None | Class: "Tentoonstelling" |  |
-
 
 
 
@@ -1012,7 +959,6 @@ Attributen van objecttype Standplaats
 
 
 
-
 ### Tentoonstelling
 > **Definitie Tentoonstelling:** 
 >
@@ -1048,8 +994,6 @@ Attributen van objecttype Tentoonstelling
 | datumStart | Date |  |
 | datumEinde | Date |  |
 | subtitel | AN200 |  |
-| None | Class: "Historisch Persoon " |  |
-
 
 
 
@@ -1089,7 +1033,6 @@ Attributen van objecttype Voorziening
 
 
 
-
 ### Winkelverkoopgroep
 > **Definitie Winkelverkoopgroep:** 
 >
@@ -1120,7 +1063,6 @@ Attributen van objecttype Winkelverkoopgroep
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -1158,8 +1100,6 @@ Attributen van objecttype Winkelvoorraaditem
 | locatie | AN80 |  |
 | aantalInBestelling | int |  |
 | datumLeveringBestelling | Date |  |
-| None | Class: "Product" |  |
-
 
 
 
@@ -1197,7 +1137,6 @@ Attributen van objecttype Zaal
 | omschrijving | Text |  |
 | capaciteit | int |  |
 | nummer | int |  |
-
 
 
 

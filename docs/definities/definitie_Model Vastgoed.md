@@ -23,7 +23,7 @@ Het model 'Model Vastgoed' kent de volgende objecttypen:
 * **MJOP-Item**: Onderdeel van een MJOP
 * **NADAanvullingBRP**: <Geen Definities>
 * **Objectrelatie**: Relatie tot een object
-* **Offerte**: Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs. 
+* **Offerte**: Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs.
 * **Pachter**: Een persoon die een pachtovereenkomst heeft met de eigenaar van een perceel voor het gebruik als landbouwgrond.
 * **Prijzenboekitem**: Onderdeel van een prijzenboek
 * **Vastgoed Contract**: Een contract is een afspraak tussen 2 of meer partijen. Sluit u een contract, dan moet u een bepaalde prestatie leveren of u heeft recht op een prestatie. Een ander woord voor een contract is een overeenkomst. Daarnaast komt de term overeenkomst van opdracht ook voor.
@@ -31,8 +31,8 @@ Het model 'Model Vastgoed' kent de volgende objecttypen:
 * **Vastgoedobject**: Perceel of vastgoed waar de gemeente een zakelijk recht heeft, en optioneel verhuurd, verpacht of anderzinds aan een derde partij.
 * **Verhuurbaar Eenheid**: Een Verhuurbare Eenheid (VHE) is een eenheid die individueel verhuurbaar is. Verhuurbaar komt voort uit 'exploitatie'
 * **Werkbon**: Document waarin een heoveelheid werk is beschreven
-* **WOZ-Belang**: hetgeen waaraan een persoon waarde hecht; zaak die of vorderingsrecht dat op geld waardeerbaar is, aan gevaar onderhevig en bij de wet niet uitgezonderd. De (rechts-)persoon die door de gemeente is aangewezen als "belanghebbende eigenaar", "belanghebbende gebruiker" of eventueel "medebelanghebbende" van het WOZ-object. 
-* **Zakelijk Recht**: Geeft een recht op een goed, zoals een onroerende zaak of een roerende zaak. 
+* **WOZ-Belang**: hetgeen waaraan een persoon waarde hecht; zaak die of vorderingsrecht dat op geld waardeerbaar is, aan gevaar onderhevig en bij de wet niet uitgezonderd.<br>De (rechts-)persoon die door de gemeente is aangewezen als "belanghebbende eigenaar", "belanghebbende gebruiker" of eventueel "medebelanghebbende" van het WOZ-object.
+* **Zakelijk Recht**: Geeft een recht op een goed, zoals een onroerende zaak of een roerende zaak.
 
 
 Het model 'Model Vastgoed' heeft de volgende kenmerken:
@@ -87,7 +87,6 @@ Attributen van objecttype Aanbesteding Vastgoed
 
 
 
-
 ### Adresaanduiding
 > **Definitie Adresaanduiding:** 
 >
@@ -119,7 +118,6 @@ Attributen van objecttype Adresaanduiding
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | adresaanduiding | int |  |
-
 
 
 
@@ -158,7 +156,6 @@ Attributen van objecttype Bouwdeel
 
 
 
-
 ### Bouwdeelelement
 > **Definitie Bouwdeelelement:** 
 >
@@ -194,7 +191,6 @@ Attributen van objecttype Bouwdeelelement
 
 
 
-
 ### CultuurOnbebouwd
 > **Definitie CultuurOnbebouwd:** 
 >
@@ -226,8 +222,6 @@ Attributen van objecttype CultuurOnbebouwd
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | cultuurcodeOnbebouwd |  |  |
-| None | Class: "KadastraleOnroerendeZaak" |  |
-
 
 
 
@@ -261,7 +255,6 @@ Attributen van objecttype Eigenaar
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -299,7 +292,6 @@ Attributen van objecttype Gebruiksdoel
 
 
 
-
 ### Huurder
 > **Definitie Huurder:** 
 >
@@ -330,7 +322,6 @@ Attributen van objecttype Huurder
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -366,9 +357,6 @@ Attributen van objecttype Inspectie
 | :--- | :--- | :--- |
 | datum | Date |  |
 | bevindingen | text |  |
-| None | Class: "MJOP" |  |
-| None | Class: "Vastgoedobject" |  |
-
 
 
 
@@ -407,7 +395,6 @@ Attributen van objecttype KpBetrokkenBij
 
 
 
-
 ### KpOnstaanUit
 > **Definitie KpOnstaanUit:** 
 >
@@ -440,7 +427,6 @@ Attributen van objecttype KpOnstaanUit
 | :--- | :--- | :--- |
 | datumBeginGeldigheid | Date |  |
 | datumEindeGeldigheid | Date |  |
-
 
 
 
@@ -478,8 +464,6 @@ Attributen van objecttype LocatieaanduidingWozObject
 | datumBeginGeldigheid | Date |  |
 | datumEindeGeldigheid | Date |  |
 | primair | Enumeratie: "Boolean" |  |
-| None | Class: "WOZ-object" |  |
-
 
 
 
@@ -519,8 +503,6 @@ Attributen van objecttype Locatieonroerendezaak
 | datumBeginGeldigheid | Date |  |
 | datumEindeGeldigheid | Date |  |
 | geometrie | Vlak |  |
-| None | Class: "KadastraleOnroerendeZaak" |  |
-
 
 
 
@@ -556,8 +538,6 @@ Attributen van objecttype MJOP
 | :--- | :--- | :--- |
 | datum | Date |  |
 | omschrijving | text |  |
-| None | Class: "Vastgoedobject" |  |
-
 
 
 
@@ -603,7 +583,6 @@ Attributen van objecttype MJOP-Item
 
 
 
-
 ### NADAanvullingBRP
 > **Definitie NADAanvullingBRP:** 
 >
@@ -635,7 +614,6 @@ Attributen van objecttype NADAanvullingBRP
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | opmerkingen | an100 |  |
-
 
 
 
@@ -673,11 +651,10 @@ Attributen van objecttype Objectrelatie
 
 
 
-
 ### Offerte
 > **Definitie Offerte:** 
 >
-> Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs. 
+> Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -704,7 +681,6 @@ Attributen van objecttype Offerte
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -738,7 +714,6 @@ Attributen van objecttype Pachter
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -776,7 +751,6 @@ Attributen van objecttype Prijzenboekitem
 | prijs | Bedrag |  |
 | datumStart | Date |  |
 | datumEindeGeldigheid | Date |  |
-
 
 
 
@@ -821,7 +795,6 @@ Attributen van objecttype Vastgoed Contract
 
 
 
-
 ### Vastgoedcontractregel
 > **Definitie Vastgoedcontractregel:** 
 >
@@ -860,7 +833,6 @@ Attributen van objecttype Vastgoedcontractregel
 | datumEinde | Date |  |
 | frequentie | AN80 |  |
 | identificatie | AN80 |  |
-
 
 
 
@@ -922,12 +894,9 @@ Attributen van objecttype Vastgoedobject
 | waardeOpstal | Bedrag |  |
 | wijk |  |  |
 | energielabel | Enumeratie: "Energielabel Gebouwen" |  |
-| energieverbruik | int | jaarlijks energieverbruik in Kwh
- |
-| energiekosten | Bedrag | Jaarlijkse energiekosten
- |
-| CO2Uitstoot | int | Jaarlijkse CO2 uitstoot in ton CO2-e
- |
+| energieverbruik | int | jaarlijks energieverbruik in Kwh |
+| energiekosten | Bedrag | Jaarlijkse energiekosten |
+| CO2Uitstoot | int | Jaarlijkse CO2 uitstoot in ton CO2-e |
 | jaarLaatsteRenovatie | n4 |  |
 | aantalRioleringen | int |  |
 | oppervlakteKantoor | int |  |
@@ -954,9 +923,6 @@ Attributen van objecttype Vastgoedobject
 | bouwwerk | AN80 |  |
 | brutoVloeroppervlakte | int |  |
 | verhuurbaarVloeroppervlak | int |  |
-| None | Class: "KadastraleOnroerendeZaak" |  |
-| None | Class: "KadastraalPerceel" |  |
-
 
 
 
@@ -1007,7 +973,6 @@ Attributen van objecttype Verhuurbaar Eenheid
 
 
 
-
 ### Werkbon
 > **Definitie Werkbon:** 
 >
@@ -1041,12 +1006,10 @@ Attributen van objecttype Werkbon
 
 
 
-
 ### WOZ-Belang
 > **Definitie WOZ-Belang:** 
 >
-> hetgeen waaraan een persoon waarde hecht; zaak die of vorderingsrecht dat op geld waardeerbaar is, aan gevaar onderhevig en bij de wet niet uitgezonderd.
-> De (rechts-)persoon die door de gemeente is aangewezen als "belanghebbende eigenaar", "belanghebbende gebruiker" of eventueel "medebelanghebbende" van het WOZ-object. 
+> hetgeen waaraan een persoon waarde hecht; zaak die of vorderingsrecht dat op geld waardeerbaar is, aan gevaar onderhevig en bij de wet niet uitgezonderd.<br>De (rechts-)persoon die door de gemeente is aangewezen als "belanghebbende eigenaar", "belanghebbende gebruiker" of eventueel "medebelanghebbende" van het WOZ-object.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -1079,11 +1042,10 @@ Attributen van objecttype WOZ-Belang
 
 
 
-
 ### Zakelijk Recht
 > **Definitie Zakelijk Recht:** 
 >
-> Geeft een recht op een goed, zoals een onroerende zaak of een roerende zaak. 
+> Geeft een recht op een goed, zoals een onroerende zaak of een roerende zaak.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -1114,9 +1076,6 @@ Attributen van objecttype Zakelijk Recht
 | datumEinde | Date |  |
 | soort | Enumeratie: "Zakelijkrecht" |  |
 | kosten | Bedrag |  |
-| None | Class: "Kostenplaats" |  |
-| None | Class: "Vastgoedobject" |  |
-
 
 
 
@@ -1151,22 +1110,22 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | gebruiksdoel |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.5 |
 | created | 2025-03-26 11:13:38 |
 | modified | 2025-03-26 16:14:55 |
 | id | EAID_be609fe8_edfb_463a_b15a_07c37f0987f3 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1186,22 +1145,22 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Boolean |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
 | id | EAID_9242a997_f24e_4569_8f04_38fb30741d39 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1221,22 +1180,22 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Boolean |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
 | id | EAID_91b38f9b_2485_49fc_b4b5_bedb8e16de2b |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1256,22 +1215,22 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Boolean |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
 | id | EAID_922e46f6_419b_4524_b89e_2ddc3f840a08 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1293,22 +1252,22 @@ De enumeratie aanduidingEigenaarGebruiker heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | aanduidingEigenaarGebruiker |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:36 |
 | modified | 2025-03-26 16:14:54 |
 | id | EAID_29c19537_5585_4edb_ac35_4688df310d69 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1335,22 +1294,22 @@ De enumeratie Energielabel Gebouwen heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Energielabel Gebouwen |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:15 |
 | modified | 2025-03-26 16:14:47 |
 | id | EAID_808592B6_401F_48c7_BD2A_2A3D77E846A4 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1375,22 +1334,22 @@ De enumeratie Monumenttypering heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Monumenttypering |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:15 |
 | modified | 2025-03-26 16:14:47 |
 | id | EAID_764193B9_F588_46a2_A230_4B9D29B8CF44 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1414,22 +1373,22 @@ De enumeratie NEN2767 Conditiescore heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | NEN2767 Conditiescore |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:15 |
 | modified | 2025-03-26 16:14:47 |
 | id | EAID_81CA4474_4D1E_485d_94F9_1243FA00B1FE |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1451,22 +1410,22 @@ De enumeratie Objectrelatierol heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Objectrelatierol |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:15 |
 | modified | 2025-03-26 16:14:47 |
 | id | EAID_0D0C34BC_D054_45b0_BDB6_3F32F65E51CB |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1488,22 +1447,22 @@ De enumeratie TypeAdresseerbaarObject heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | TypeAdresseerbaarObject |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:15 |
 | modified | 2025-03-26 16:14:47 |
 | id | EAID_3DD4320F_CA3A_40c9_BB16_40064717EC8B |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1525,22 +1484,22 @@ De enumeratie Zakelijkrecht heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Zakelijkrecht |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:16 |
 | modified | 2025-03-26 16:14:47 |
 | id | EAID_0B6706E7_4CF8_42d8_90EA_BDD1F5588D3F |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 

@@ -68,7 +68,6 @@ Attributen van objecttype None
 
 
 
-
 ### ObjecttypeA
 > **Definitie ObjecttypeA:** 
 >
@@ -77,7 +76,7 @@ Attributen van objecttype None
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | ObjecttypeA |
-| toelichting | <memo>#NOTES#Default: <memo>  |
+| toelichting | <memo>#NOTES#Default: <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -99,8 +98,6 @@ Attributen van objecttype ObjecttypeA
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "ObjecttypeB" |  |
-
 
 
 
@@ -112,7 +109,7 @@ Attributen van objecttype ObjecttypeA
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | ObjecttypeB |
-| toelichting | <memo>#NOTES#Default: <memo>  |
+| toelichting | <memo>#NOTES#Default: <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -137,7 +134,6 @@ Attributen van objecttype ObjecttypeB
 
 
 
-
 ### ObjecttypeC
 > **Definitie ObjecttypeC:** 
 >
@@ -146,7 +142,7 @@ Attributen van objecttype ObjecttypeB
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | ObjecttypeC |
-| toelichting | <memo>#NOTES#Default: <memo>  |
+| toelichting | <memo>#NOTES#Default: <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -171,7 +167,6 @@ Attributen van objecttype ObjecttypeC
 
 
 
-
 ### ObjecttypeD
 > **Definitie ObjecttypeD:** 
 >
@@ -180,7 +175,7 @@ Attributen van objecttype ObjecttypeC
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | ObjecttypeD |
-| toelichting | <memo>#NOTES#Default: <memo>  |
+| toelichting | <memo>#NOTES#Default: <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -202,8 +197,6 @@ Attributen van objecttype ObjecttypeD
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "ObjecttypeB" |  |
-
 
 
 
@@ -215,7 +208,7 @@ Attributen van objecttype ObjecttypeD
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | ObjecttypeE |
-| toelichting | <memo>#NOTES#Default: <memo>  |
+| toelichting | <memo>#NOTES#Default: <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -237,9 +230,6 @@ Attributen van objecttype ObjecttypeE
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "ObjecttypeG" |  |
-| None | Class: "ObjecttypeF" |  |
-
 
 
 
@@ -251,7 +241,7 @@ Attributen van objecttype ObjecttypeE
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | ObjecttypeF |
-| toelichting | <memo>#NOTES#Default: <memo>  |
+| toelichting | <memo>#NOTES#Default: <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -276,7 +266,6 @@ Attributen van objecttype ObjecttypeF
 
 
 
-
 ### ObjecttypeG
 > **Definitie ObjecttypeG:** 
 >
@@ -285,7 +274,7 @@ Attributen van objecttype ObjecttypeF
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | ObjecttypeG |
-| toelichting | <memo>#NOTES#Default: <memo>  |
+| toelichting | <memo>#NOTES#Default: <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -307,7 +296,6 @@ Attributen van objecttype ObjecttypeG
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 

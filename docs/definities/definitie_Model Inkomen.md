@@ -3,7 +3,6 @@
 > **Definitie Model Inkomen:** 
 >
 > Het informatiedomein dat gegevens omvat over inkomensvoorzieningen, -regelingen en financi&#235;le ondersteuning voor inwoners, gericht op het waarborgen van bestaanszekerheid en participatie in de samenleving.
-> 
 
 Het model 'Model Inkomen' kent de volgende objecttypen:
 
@@ -80,7 +79,6 @@ Attributen van objecttype Component
 
 
 
-
 ### ComponentSoort
 > **Definitie ComponentSoort:** 
 >
@@ -120,7 +118,6 @@ Attributen van objecttype ComponentSoort
 
 
 
-
 ### Inkomensvoorziening
 > **Definitie Inkomensvoorziening:** 
 >
@@ -157,7 +154,6 @@ Attributen van objecttype Inkomensvoorziening
 | bedrag | bedrag |  |
 | eenmalig | boolean |  |
 | groep | AN100 |  |
-
 
 
 
@@ -202,7 +198,6 @@ Attributen van objecttype Inkomensvoorzieningsoort
 
 
 
-
 ### Regeling
 > **Definitie Regeling:** 
 >
@@ -240,7 +235,6 @@ Attributen van objecttype Regeling
 
 
 
-
 ### Regelingsoort
 > **Definitie Regelingsoort:** 
 >
@@ -273,7 +267,6 @@ Attributen van objecttype Regelingsoort
 | :--- | :--- | :--- |
 | naam | AN80 |  |
 | omschrijving | text |  |
-
 
 
 
@@ -317,7 +310,6 @@ Attributen van objecttype UitkeringsRun
 
 
 
-
 ## Enumeraties Model Inkomen
 
 
@@ -328,7 +320,7 @@ Het enumeratie Wet kent de volgende waarden:
 
 * **Niet van toepassing**: <Geen Definities>
 * **Wmo**: <Geen Definities>
-* **Jeugdwet**: dere 
+* **Jeugdwet**: dere
 * **Andere wet**: <Geen Definities>
 * **Leeg**: <Geen Definities>
 * **Onbekend**: <Geen Definities>
@@ -342,22 +334,22 @@ De enumeratie Wet heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Wet |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:49 |
 | modified | 2025-03-26 16:14:37 |
 | id | EAID_5e280fea_0a4a_48e6_b19c_ed59a1a780f0 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 

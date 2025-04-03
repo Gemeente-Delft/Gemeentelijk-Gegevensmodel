@@ -6,12 +6,12 @@
 
 Het model 'Model Omgevingswet' kent de volgende objecttypen:
 
-* **Activiteit**: Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd. 
+* **Activiteit**: Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd.
 * **Beperkingsgebied**: Een bij of krachtens de wet aangewezen gebied, waar vanwege de aanwezigheid van een werk of object regels gelden, ten aanzien van het beperken van activiteiten die gevolgen hebben of kunnen hebben voor dat werk of object.
 * **Functie**: Een samenhangende verzameling van rollen
 * **Gebiedsaanwijzing**: Functie of een Beperkingengebied, met een verwijzing naar locatie, veelal een gebied, waarbij aangegeven wordt hoe het gebied beschouwd wordt vanuit de bijbehorende regels.
 * **Idealisatie**: Vastlegging van de manier de begrenzing van Locatie voor deze Juridische regel ge√ï¿½nterpreteerd moet worden en door het bevoegd gezag bedoeld is.
-* **Instructieregel**: Objecttype Instructieregel Naam Definitie Toelichting Instructieregel De beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan. Het betreft hier juridische regel die instructie geeft aan andere overheden, gericht op externe omgevingsdocumenten, of een taakuitoefening. Een ander omgevingsdocument is bijvoorbeeld een Omgevingsplan, Omgevingsverordening en Waterschapsverordening. Een taakuitoefening is voor bijvoorbeeld een gemeentebestuur of een wildbeheereenheid. Een instructieregel is alleen gericht op een Omgevingsnorm of een Gebiedsaanduiding, zoals een Functie of een Beperkingengebied (en eventueel meerdere).
+* **Instructieregel**: Objecttype Instructieregel<br>Naam Definitie<br>Toelichting<br>Instructieregel<br>De beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan.<br>Het betreft hier juridische regel die instructie geeft aan andere overheden, gericht op externe omgevingsdocumenten, of een taakuitoefening.<br>Een ander omgevingsdocument is bijvoorbeeld een Omgevingsplan, Omgevingsverordening en Waterschapsverordening.<br>Een taakuitoefening is voor bijvoorbeeld een gemeentebestuur of een wildbeheereenheid.<br>Een instructieregel is alleen gericht op een Omgevingsnorm of een Gebiedsaanduiding, zoals een Functie of een Beperkingengebied (en eventueel meerdere).
 * **Juridische Regel**: De beschrijving van een regel met juridische werkingskracht. Een regel betreft binnen de Omgevingswet veelal activiteiten, en/of normen en/of functies en/of beperkingengebieden.
 * **Norm**: Omgevingswaarde of een omgevingsnorm, met een normatief karakter, die beschreven worden middels normwaarden. Een normwaarde kan kwalitatief of kwantitatief zijn.
 * **Normwaarde**: Een van de kwantitatieve of kwalitatieve waarden van een norm. De normwaarde geeft aan wat de specifieke kwantitatieve of kwalitatieve eisen zijn, inclusief de toewijzing ervan aan de specifieke locatie(s) waar de normwaarde voor geldt.
@@ -44,7 +44,7 @@ Het model 'Model Omgevingswet' heeft de volgende kenmerken:
 ### Activiteit
 > **Definitie Activiteit:** 
 >
-> Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd. 
+> Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -74,10 +74,6 @@ Attributen van objecttype Activiteit
 | naam | AN200 |  |
 | groep | AN200 |  |
 | NEN3610ID | AN80 |  |
-| None | Class: "Activiteit" |  |
-| None | Class: "Activiteit" |  |
-| None | Class: "Locatie" |  |
-
 
 
 
@@ -116,7 +112,6 @@ Attributen van objecttype Beperkingsgebied
 
 
 
-
 ### Functie
 > **Definitie Functie:** 
 >
@@ -149,7 +144,6 @@ Attributen van objecttype Functie
 | :--- | :--- | :--- |
 | naam | AN200 |  |
 | groep | AN200 |  |
-
 
 
 
@@ -186,8 +180,6 @@ Attributen van objecttype Gebiedsaanwijzing
 | NEN3610ID | AN80 |  |
 | groep | AN200 |  |
 | naam | AN200 |  |
-| None | Class: "Locatie" |  |
-
 
 
 
@@ -226,19 +218,10 @@ Attributen van objecttype Idealisatie
 
 
 
-
 ### Instructieregel
 > **Definitie Instructieregel:** 
 >
-> Objecttype Instructieregel
-> Naam Definitie
-> Toelichting
-> Instructieregel
-> De beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan.
-> Het betreft hier juridische regel die instructie geeft aan andere overheden, gericht op externe omgevingsdocumenten, of een taakuitoefening.
-> Een ander omgevingsdocument is bijvoorbeeld een Omgevingsplan, Omgevingsverordening en Waterschapsverordening.
-> Een taakuitoefening is voor bijvoorbeeld een gemeentebestuur of een wildbeheereenheid.
-> Een instructieregel is alleen gericht op een Omgevingsnorm of een Gebiedsaanduiding, zoals een Functie of een Beperkingengebied (en eventueel meerdere).
+> Objecttype Instructieregel<br>Naam Definitie<br>Toelichting<br>Instructieregel<br>De beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan.<br>Het betreft hier juridische regel die instructie geeft aan andere overheden, gericht op externe omgevingsdocumenten, of een taakuitoefening.<br>Een ander omgevingsdocument is bijvoorbeeld een Omgevingsplan, Omgevingsverordening en Waterschapsverordening.<br>Een taakuitoefening is voor bijvoorbeeld een gemeentebestuur of een wildbeheereenheid.<br>Een instructieregel is alleen gericht op een Omgevingsnorm of een Gebiedsaanduiding, zoals een Functie of een Beperkingengebied (en eventueel meerdere).
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -257,7 +240,7 @@ Attributen van objecttype Idealisatie
 | gemma_naam | Instructieregel |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-367532e8-1d1c-4d6b-8a88-fcae7cae2303](https://gemmaonline.nl/index.php/GEMMA/id-367532e8-1d1c-4d6b-8a88-fcae7cae2303) |
-| gemma_definitie | Objecttype Instructieregel Naam Definitie Toelichting Instructieregel De beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan. Het betreft hier juridische regel die instructie geeft aan andere ov |
+| gemma_definitie | Objecttype Instructieregel<br>Naam Definitie<br>Toelichting<br>Instructieregel<br>De beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan.<br>Het betreft hier juridische regel die instructie geeft aan andere ov |
 | gemma_toelichting | Het betreft hier juridische regel die instructie geeft aan andere overheden, gericht op externe omgevingsdocumenten, of een taakuitoefening. Een ander omgevingsdocument is bijvoorbeeld een Omgevingsplan, Omgevingsverordening en Waterschapsverordening. Een |
 
 
@@ -265,16 +248,8 @@ Attributen van objecttype Instructieregel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| instructieregelInstrument | AN200 | <font color="#032547"><b>Attribuutsoort instructieregel instrument</b></font>
-Naam Definitie Formaat Toelichting
-Instructieregel instrument
-De naam van het instrument waartoe de instructieregel zich richt.
-InstructieregelInstrument (waardelijst)
-Bijvoorbeeld: Omgevingsverordening, projectbesluit.
-Dit kenmerk geeft nadere informatie in aanvulling op het type instructieregel, in het geval dat de regel gericht is op een bepaald instrument. |
+| instructieregelInstrument | AN200 | <font color="#032547"><b>Attribuutsoort instructieregel instrument</b></font><br>Naam Definitie Formaat Toelichting<br>Instructieregel instrument<br>De naam van het instrument waartoe de instructieregel zich richt.<br>InstructieregelInstrument (waardelijst)<br>Bijvoorbeeld: Omgevingsverordening, projectbesluit.<br>Dit kenmerk geeft nadere informatie in aanvulling op het type instructieregel, in het geval dat de regel gericht is op een bepaald instrument. |
 | instructieregelTaakuitoefening | AN200 |  |
-| None | Class: "Gebiedsaanwijzing" |  |
-
 
 
 
@@ -315,12 +290,6 @@ Attributen van objecttype Juridische Regel
 | datumEindeGeldigheid | Date |  |
 | datumInWerking | Date |  |
 | datumBekend | Date |  |
-| None | Class: "Thema" |  |
-| None | Class: "Regeltekst" |  |
-| None | Class: "Locatie" |  |
-| None | Class: "Activiteit" |  |
-| None | Class: "Idealisatie" |  |
-
 
 
 
@@ -355,8 +324,6 @@ Attributen van objecttype Norm
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | NEN3610ID | AN80 |  |
-| None | Class: "Normwaarde" |  |
-
 
 
 
@@ -393,8 +360,6 @@ Attributen van objecttype Normwaarde
 | kwalitatieveWaarde | AN80 |  |
 | kwantitatieveWaardeOmvang | decimal |  |
 | kwantitatieveWaardeEenheid | AN80 |  |
-| None | Class: "Locatie" |  |
-
 
 
 
@@ -406,7 +371,7 @@ Attributen van objecttype Normwaarde
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Omgevingsnorm |
-| toelichting | Bijvoorbeeld: maximum bouwhoogte, maximum aantal parkeerplaatsen, maximum geluidbelasting, maximum aantal bezoekers Alle omgevingsnormen hebben als herkomst omgevingsdocumenten. De Omgevingsnorm is niet de regel zelf. De regel beschrijft wat er juridisch  |
+| toelichting | Bijvoorbeeld: maximum bouwhoogte, maximum aantal parkeerplaatsen, maximum geluidbelasting, maximum aantal bezoekers Alle omgevingsnormen hebben als herkomst omgevingsdocumenten. De Omgevingsnorm is niet de regel zelf. De regel beschrijft wat er juridisch |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -421,7 +386,7 @@ Attributen van objecttype Normwaarde
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-bbf6bcce-f2dc-4b8d-95a8-561abd7c1d76](https://gemmaonline.nl/index.php/GEMMA/id-bbf6bcce-f2dc-4b8d-95a8-561abd7c1d76) |
 | gemma_definitie | Een norm over de fysieke leefomgeving die in een kwantitatieve of kwalitatieve waarde wordt uitgedrukt en geen omgevingswaarde is. |
-| gemma_toelichting | Bijvoorbeeld: maximum bouwhoogte, maximum aantal parkeerplaatsen, maximum geluidbelasting, maximum aantal bezoekers Alle omgevingsnormen hebben als herkomst omgevingsdocumenten. De Omgevingsnorm is niet de regel zelf. De regel beschrijft wat er juridisch  |
+| gemma_toelichting | Bijvoorbeeld: maximum bouwhoogte, maximum aantal parkeerplaatsen, maximum geluidbelasting, maximum aantal bezoekers Alle omgevingsnormen hebben als herkomst omgevingsdocumenten. De Omgevingsnorm is niet de regel zelf. De regel beschrijft wat er juridisch |
 
 
 Attributen van objecttype Omgevingsnorm
@@ -430,7 +395,6 @@ Attributen van objecttype Omgevingsnorm
 | :--- | :--- | :--- |
 | naam | AN200 |  |
 | omgevingsnormGroep | AN200 |  |
-
 
 
 
@@ -469,7 +433,6 @@ Attributen van objecttype Omgevingswaarde
 
 
 
-
 ### Omgevingswaarderegel
 > **Definitie Omgevingswaarderegel:** 
 >
@@ -502,9 +465,6 @@ Attributen van objecttype Omgevingswaarderegel
 | :--- | :--- | :--- |
 | naam | AN200 |  |
 | groep | AN200 |  |
-| None | Class: "Omgevingsnorm" |  |
-| None | Class: "Omgevingswaarde" |  |
-
 
 
 
@@ -538,20 +498,7 @@ Attributen van objecttype Regel voor Iedereen
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| activiteitRegelKwalificatie | AN200 | <font color="#032547"><b>Attribuutsoort activiteitregelkwalificatie</b></font>
-Naam Definitie Formaat Toelichting
-Constraint(s)
-
-activiteitregelkwalificatie
-De naam van de kwalificatie van de Juridische regel over een activiteit.
-Activiteitregelkwalificatie (waardelijst) Bijvoorbeeld: gebod, verbod.
-Alleen te gebruiken wanneer bij Juridische regel is gekozen voor het type 'Regel voor iedereen' en de regel een Activiteit beschrijft.
-Als activiteit, alleen dan activiteitregelkwalificatie.
-Dit kenmerk heeft alleen betekenis wanneer de regel een activiteit beschrijft. Anders gezegd, dit kenmerk hoort alleen gevuld te worden wanneer de regel, ten minste, een activiteit beschrijft. |
-| None | Class: "Omgevingsnorm" |  |
-| None | Class: "Gebiedsaanwijzing" |  |
-| None | Class: "Activiteit" |  |
-
+| activiteitRegelKwalificatie | AN200 | <font color="#032547"><b>Attribuutsoort activiteitregelkwalificatie</b></font><br>Naam Definitie Formaat Toelichting<br>Constraint(s)<br><br>activiteitregelkwalificatie<br>De naam van de kwalificatie van de Juridische regel over een activiteit.<br>Activiteitregelkwalificatie (waardelijst) Bijvoorbeeld: gebod, verbod.<br>Alleen te gebruiken wanneer bij Juridische regel is gekozen voor het type 'Regel voor iedereen' en de regel een Activiteit beschrijft.<br>Als activiteit, alleen dan activiteitregelkwalificatie.<br>Dit kenmerk heeft alleen betekenis wanneer de regel een activiteit beschrijft. Anders gezegd, dit kenmerk hoort alleen gevuld te worden wanneer de regel, ten minste, een activiteit beschrijft. |
 
 
 
@@ -587,8 +534,6 @@ Attributen van objecttype Thema
 | :--- | :--- | :--- |
 | naam | AN200 |  |
 | omschrijving | text |  |
-| None | Class: "Thema" |  |
-
 
 
 

@@ -12,7 +12,7 @@ Het model 'Groepattribuutsoort' kent de volgende objecttypen:
 * **GeboorteIngeschrevenPersoon**: Gegevens over de geboorte van de ingeschreven persoon.
 * **HandelsnamenMaatschappelijkeActiviteit**: {nog niet in NHR uitgewerkt}
 * **HandelsnamenVestiging**: {nog niet in NHR uitgewerkt}
-* **KoopsomKadastraleOnroerendeZaak**: Het in een ter inschrijving aangeboden stuk vermelde bedrag, waarvoor 1 of meer onroerende zaken zijn verkregen. 
+* **KoopsomKadastraleOnroerendeZaak**: Het in een ter inschrijving aangeboden stuk vermelde bedrag, waarvoor 1 of meer onroerende zaken zijn verkregen.
 * **LocatieKadastraleOnroerendeZaak**: Deze wordt gebruikt om ï¿½ï¿½n of meer locatieaanduiding(en) van een onroerende zaak weer te geven.
 * **MigratieIngeschrevenNatuurlijkPersoon**: Om gegevens vast te leggen over immigratie en emigratie.
 * **NaamAanschrijvingNatuurlijkPersoon**: De naamgegevens waarmee de persoon heeft aangegeven aangeschreven te willen worden
@@ -24,9 +24,9 @@ Het model 'Groepattribuutsoort' kent de volgende objecttypen:
 * **OverlijdenIngeschrevenNatuurlijkPersoon**: Gegevens over het overlijden van de ingeschreven natuurlijk persoon.
 * **OverlijdenIngeschrevenPersoon**: Gegevens over het overlijden van de ingeschreven persoon.
 * **Postadres**: De gegevens die tezamen een postbusadres of antwoordnummeradres vormen
-* **Rekeningnummer**: De gegevens inzake de bankrekening waarmee het SUBJECT in de regel financieel communiceert. 
+* **Rekeningnummer**: De gegevens inzake de bankrekening waarmee het SUBJECT in de regel financieel communiceert.
 * **SamengesteldeNaamNatuurlijkPersoon**: Gegevens over de naam van de NATUURLIJK PERSOON
-* **SBIActiviteitVestiging**: Aanduiding van de activiteit (en) van een vestiging  conform de Standaard BedrijfsIndeling 
+* **SBIActiviteitVestiging**: Aanduiding van de activiteit (en) van een vestiging  conform de Standaard BedrijfsIndeling
 * **SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap**: Gegevens over het gesloten huwelijk of het aangegane geregistreerd partnerschap.
 * **SoortFunctioneelGebied**: Gegevens over het soort functioneel gebied.
 * **SoortKunstwerk**: Gegevens over het soort kunstwerk.
@@ -98,9 +98,6 @@ Attributen van objecttype Adresaanduiding
 | huisnummertoevoeging | AN4 |  |
 | postcode | AN6 |  |
 | BAGID | NEN3610ID |  |
-| None | Class: "Nummeraanduiding" |  |
-| None | Class: "Nummeraanduiding" |  |
-
 
 
 
@@ -135,17 +132,12 @@ Attributen van objecttype CorrespondentieadresBuitenland
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | adresBuitenland1 | AN35 | Het eerste deel van het correspondentie(-post) adres in het buitenland van het SUBJECT. |
-| adresBuitenland2 | AN35 | Het tweede deel van het correspondentie(-post) adres in het buitenland van het SUBJECT.
- |
-| adresBuitenland3 | AN35 | Het derde deel van het correspondentie(-post) adres in het buitenland van het SUBJECT.
- |
+| adresBuitenland2 | AN35 | Het tweede deel van het correspondentie(-post) adres in het buitenland van het SUBJECT. |
+| adresBuitenland3 | AN35 | Het derde deel van het correspondentie(-post) adres in het buitenland van het SUBJECT. |
 | adresBuitenland4 | AN35 | Het vierde deel van het correspondentie(-post) adres in het buitenland van het SUBJECT. |
-| adresBuitenland5 | AN35 | Het vijfde deel van het correspondentie(-post) adres in het buitenland van het SUBJECT.
- |
+| adresBuitenland5 | AN35 | Het vijfde deel van het correspondentie(-post) adres in het buitenland van het SUBJECT. |
 | adresBuitenland6 | AN35 | Het zesde deel van het correspondentie(-post) adres in het buitenland van het SUBJECT. |
-| landCorrespondentieadres |  | Het land van het correspondentie(-post) adres in het buitenland van het SUBJECT.
- |
-
+| landCorrespondentieadres |  | Het land van het correspondentie(-post) adres in het buitenland van het SUBJECT. |
 
 
 
@@ -180,14 +172,11 @@ Attributen van objecttype GeboorteIngeschrevenNatuurlijkPersoon
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datumGeboorte |  | Datum waarop de NATUURLIJK PERSOON geboren is. |
-| gemeenteGeboorte | AN80 | Gemeente waar de NATUURLIJK PERSOON geboren is.  |
-| buitenlandsePlaatsGeboorte | AN40 | Buitenlandse plaats waar de NATUURLIJK PERSOON geboren is.  |
-| buitenlandseRegioGeboorte | AN35 | Buitenlandse regio waar de NATUURLIJK PERSOON geboren is.  |
+| gemeenteGeboorte | AN80 | Gemeente waar de NATUURLIJK PERSOON geboren is. |
+| buitenlandsePlaatsGeboorte | AN40 | Buitenlandse plaats waar de NATUURLIJK PERSOON geboren is. |
+| buitenlandseRegioGeboorte | AN35 | Buitenlandse regio waar de NATUURLIJK PERSOON geboren is. |
 | landOfGebiedGeboorte |  | Het land of gebied waar de NATUURLIJK PERSOON is geboren. |
-| omschrijvingLocatieGeboorte | AN40 | Omschrijving van de locatie waar de NATUURLIJK PERSOON geboren is.  |
-| None | Class: "Woonplaats" |  |
-| None | Class: "Woonplaats" |  |
-
+| omschrijvingLocatieGeboorte | AN40 | Omschrijving van de locatie waar de NATUURLIJK PERSOON geboren is. |
 
 
 
@@ -227,7 +216,6 @@ Attributen van objecttype GeboorteIngeschrevenPersoon
 
 
 
-
 ### HandelsnamenMaatschappelijkeActiviteit
 > **Definitie HandelsnamenMaatschappelijkeActiviteit:** 
 >
@@ -261,7 +249,6 @@ Attributen van objecttype HandelsnamenMaatschappelijkeActiviteit
 | handelsnaam | AN200 | De naam waaronder de onderneming handelt. |
 | verkorteNaam | AN45 | De door de Kamer van Koophandel bepaalde naam van de onderneming ten behoeve van adresseringsdoeleinden. |
 | volgorde | N6 | {nog niet in NHR uitgewerkt |
-
 
 
 
@@ -301,11 +288,10 @@ Attributen van objecttype HandelsnamenVestiging
 
 
 
-
 ### KoopsomKadastraleOnroerendeZaak
 > **Definitie KoopsomKadastraleOnroerendeZaak:** 
 >
-> Het in een ter inschrijving aangeboden stuk vermelde bedrag, waarvoor 1 of meer onroerende zaken zijn verkregen. 
+> Het in een ter inschrijving aangeboden stuk vermelde bedrag, waarvoor 1 of meer onroerende zaken zijn verkregen.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -337,7 +323,6 @@ Attributen van objecttype KoopsomKadastraleOnroerendeZaak
 
 
 
-
 ### LocatieKadastraleOnroerendeZaak
 > **Definitie LocatieKadastraleOnroerendeZaak:** 
 >
@@ -346,7 +331,7 @@ Attributen van objecttype KoopsomKadastraleOnroerendeZaak
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | LocatieKadastraleOnroerendeZaak |
-| toelichting | <memo>#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten: Locatie-omschrijving Cultuur bebouwd   De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK. |
+| toelichting | <memo>#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Locatie-omschrijving<br>Cultuur bebouwd<br><br><br>De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -373,7 +358,6 @@ Attributen van objecttype LocatieKadastraleOnroerendeZaak
 
 
 
-
 ### MigratieIngeschrevenNatuurlijkPersoon
 > **Definitie MigratieIngeschrevenNatuurlijkPersoon:** 
 >
@@ -382,7 +366,7 @@ Attributen van objecttype LocatieKadastraleOnroerendeZaak
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | MigratieIngeschrevenNatuurlijkPersoon |
-| toelichting | <memo>#NOTES#  |
+| toelichting | <memo>#NOTES# |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -405,9 +389,8 @@ Attributen van objecttype MigratieIngeschrevenNatuurlijkPersoon
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | soortMigratie | Enumeratie: "soortMigratie" | Aanduiding die aangeeft dat het een emigratie of een immigratie betreft. |
-| redenWijzigingMigratie | Enumeratie: "redenWijzigingAdres" | Aanduiding die aangeeft waarom de migratie is opgenomen.  |
+| redenWijzigingMigratie | Enumeratie: "redenWijzigingAdres" | Aanduiding die aangeeft waarom de migratie is opgenomen. |
 | aangeverMigratie | Enumeratie: "aangever" | De hoedanigheid van de persoon die aangifte van emigratie heeft gedaan, ten opzichte van de persoon wiens emigratie is aangegeven. |
-
 
 
 
@@ -448,7 +431,6 @@ Attributen van objecttype NaamAanschrijvingNatuurlijkPersoon
 
 
 
-
 ### NaamgebruikNatuurlijkPersoon
 > **Definitie NaamgebruikNatuurlijkPersoon:** 
 >
@@ -457,7 +439,7 @@ Attributen van objecttype NaamAanschrijvingNatuurlijkPersoon
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | NaamgebruikNatuurlijkPersoon |
-| toelichting | <memo>#NOTES#  |
+| toelichting | <memo>#NOTES# |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -482,7 +464,6 @@ Attributen van objecttype NaamgebruikNatuurlijkPersoon
 | adellijkeTitelNaamgebruik | Enumeratie: "adelijkeTitel" | De adellijke titel die geplaatst wordt voor de geslachtsnaam. |
 | geslachtsnaamstamNaamgebruik | AN200 | Geslachtsnaam die de persoon wenst te voeren. |
 | aanhefAanschrijving | AN50 | De aanhef waarmee de persoon aangeschreven wil worden. |
-
 
 
 
@@ -516,12 +497,10 @@ Attributen van objecttype NaamNatuurlijkPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| voornamen |  | De verzameling namen die, gescheiden door spaties, aan de
-geslachtsnaam voorafgaat.. |
+| voornamen |  | De verzameling namen die, gescheiden door spaties, aan de<br>geslachtsnaam voorafgaat.. |
 | geslachtsnaam |  | De (geslachts)naam waarvan de eventueel aanwezige voorvoegsels en adellijke titel/predikaat zijn afgesplitst. |
 | voorvoegselGeslachtsnaam |  | Dat deel van de geslachtsnaam dat voorkomt in GBA Tabel 36, Voorvoegseltabel en, gescheiden door een spatie, vooraf gaat aan de rest van de geslachtsnaam. |
 | adellijkeTitelOfPredikaat | AN10 | Een omschrijving die aangeeft welke titel of welk predikaat behoort tot de naam (bij adellijke titel geslachtsnaam, bij predikaat voornaam). |
-
 
 
 
@@ -558,8 +537,7 @@ Attributen van objecttype NationaliteitIngeschrevenNatuurlijkPersoon
 | nationaliteit | NATIONALITEIT | Een aanduiding van de NATIONALITEIT die de INGESCHREVEN NATUURLIJK PERSOON bezit. |
 | redenVerkrijging |  | Een code die aanduidt op grond waarvan de INGESCHREVEN NATUURLIJK PERSOON de nationaliteit verkregen heeft. |
 | redenVerlies |  | Een code die aanduidt op grond waarvan de INGESCHREVEN NATUURLIJK PERSOON de nationaliteit verloren heeft. |
-| buitenlandsPersoonsnummer | AN40 | Buitenlands nummer ter identificatie van een persoon zonder de Nederlandse nationaliteit, maar met de nationaliteit van een andere lidstaat van de Europese Unie.  |
-
+| buitenlandsPersoonsnummer | AN40 | Buitenlands nummer ter identificatie van een persoon zonder de Nederlandse nationaliteit, maar met de nationaliteit van een andere lidstaat van de Europese Unie. |
 
 
 
@@ -600,7 +578,6 @@ Attributen van objecttype NederlandseNationaliteitIngeschrevenPersoon
 
 
 
-
 ### OntbindingHuwelijk/geregistreerdPartnerschap
 > **Definitie OntbindingHuwelijk/geregistreerdPartnerschap:** 
 >
@@ -609,7 +586,7 @@ Attributen van objecttype NederlandseNationaliteitIngeschrevenPersoon
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | OntbindingHuwelijk/geregistreerdPartnerschap |
-| toelichting | <memo>#NOTES#  |
+| toelichting | <memo>#NOTES# |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -633,14 +610,11 @@ Attributen van objecttype OntbindingHuwelijk/geregistreerdPartnerschap
 | :--- | :--- | :--- |
 | redenEinde | Enumeratie: "redenEindeRelatie" | De reden van ontbinding huwelijk, dan wel beï¿½indiging geregistreerd partnerschap. |
 | datumEinde |  | De datum waarop het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beï¿½indigd. |
-| gemeenteEinde | AN80 | Gemeente waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beï¿½indigd.  |
-| buitenlandsePlaatsEinde | AN40 | Buitenlandse plaats waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beï¿½indigd.  |
+| gemeenteEinde | AN80 | Gemeente waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beï¿½indigd. |
+| buitenlandsePlaatsEinde | AN40 | Buitenlandse plaats waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beï¿½indigd. |
 | buitenlandseRegioEinde | AN35 | Buitenlandse regio waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beï¿½indigd. |
-| landOfGebiedEinde |  | Land of gebied waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beï¿½indigd.  |
+| landOfGebiedEinde |  | Land of gebied waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beï¿½indigd. |
 | omschrijvingLocatieEinde | AN40 | Omschrijving van de locatie waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beï¿½indigd. Dit veld wordt gebruikt voor situaties die zich niet laten vangen in een gemeente einde, woonplaatsnaam einde, buitenlandse plaats einde, buitenlandse regio einde, of land/gebied einde, bijvoorbeeld bij een einde van het huwelijk of geregistreerd partnerschap in internationale wateren. |
-| None | Class: "Woonplaats" |  |
-| None | Class: "Woonplaats" |  |
-
 
 
 
@@ -675,14 +649,11 @@ Attributen van objecttype OverlijdenIngeschrevenNatuurlijkPersoon
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datumOverlijden |  | Datum waarop de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
-| gemeenteOverlijden | AN80 | Gemeente waar de INGESCHREVEN NATUURLIJK PERSOON is overleden.  |
-| buitenlandsePlaatsOverlijden | AN40 | Buitenlandse plaats waar de INGESCHREVEN NATUURLIJK PERSOON is overleden.  |
-| buitenlandseRegioOverlijden | AN35 | Buitenlandse regio waar de INGESCHREVEN NATUURLIJK PERSOON is overleden.  |
-| omschrijvingLocatieOverlijden | AN40 | Omschrijving van de locatie waar de INGESCHREVEN NATUURLIJK PERSOON is overleden.  |
+| gemeenteOverlijden | AN80 | Gemeente waar de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
+| buitenlandsePlaatsOverlijden | AN40 | Buitenlandse plaats waar de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
+| buitenlandseRegioOverlijden | AN35 | Buitenlandse regio waar de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
+| omschrijvingLocatieOverlijden | AN40 | Omschrijving van de locatie waar de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
 | landOfGebiedOverlijden |  | Het land of gebied waar de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
-| None | Class: "Woonplaats" |  |
-| None | Class: "Woonplaats" |  |
-
 
 
 
@@ -722,7 +693,6 @@ Attributen van objecttype OverlijdenIngeschrevenPersoon
 
 
 
-
 ### Postadres
 > **Definitie Postadres:** 
 >
@@ -731,7 +701,7 @@ Attributen van objecttype OverlijdenIngeschrevenPersoon
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Postadres |
-| toelichting | <memo>#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten: Postadrestype,  Postbus- of antwoordnummer, Postadres postcode,  en het volgende relatiesoort: SUBJECT heeft postadres dat zich bevindt in WOONPLAATS. |
+| toelichting | <memo>#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Postadrestype,<br>Postbus- of antwoordnummer,<br>Postadres postcode,<br>en het volgende relatiesoort:<br>SUBJECT heeft postadres dat zich bevindt in WOONPLAATS. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -753,24 +723,21 @@ Attributen van objecttype Postadres
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| postcodePostadres | POSTCODE | De officiï¿½le PostNL codering, bestaande uit een numerieke woonplaatscode en een alfabetische lettercode  |
+| postcodePostadres | POSTCODE | De officiï¿½le PostNL codering, bestaande uit een numerieke woonplaatscode en een alfabetische lettercode |
 | postadresType | postadresType | Aanduiding van het soort postadres |
 | postbusOfAntwoordnummer | N5 | De numerieke aanduiding zoals deze door de PostNL is vastgesteld voor postbusadressen en antwoordnummeradressen. |
-| None | Class: "Woonplaats" |  |
-| None | Class: "Woonplaats" |  |
-
 
 
 
 ### Rekeningnummer
 > **Definitie Rekeningnummer:** 
 >
-> De gegevens inzake de bankrekening waarmee het SUBJECT in de regel financieel communiceert. 
+> De gegevens inzake de bankrekening waarmee het SUBJECT in de regel financieel communiceert.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Rekeningnummer |
-| toelichting | <memo>#NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van ï¿½ï¿½n rekeningnummer dat het subject beschouwt als zijn ï¿½primaireï¿½ rekeningnummer.  |
+| toelichting | <memo>#NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van ï¿½ï¿½n rekeningnummer dat het subject beschouwt als zijn ï¿½primaireï¿½ rekeningnummer. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -794,7 +761,6 @@ Attributen van objecttype Rekeningnummer
 | :--- | :--- | :--- |
 | IBAN | AN34 | Het  internationaal bankrekeningnummer, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel internationaal financieel communiceert. |
 | BIC | AN11 | De unieke code van de bankinstelling waar  het SUBJECT het bankrekeningnummer heeft waarmee het subject in de regel internationaal financieel communiceert. |
-
 
 
 
@@ -829,20 +795,19 @@ Attributen van objecttype SamengesteldeNaamNatuurlijkPersoon
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | voornamen | AN200 | De samenvoeging van alle exemplaren van voornaam van een persoon. |
-| voorvoegsel | VOORVOEGSEL | Voorvoegsel behorende bij de stam van de geslachtsnaam.  |
+| voorvoegsel | VOORVOEGSEL | Voorvoegsel behorende bij de stam van de geslachtsnaam. |
 | scheidingsteken | VOORVOEGSEL | Teken dat een eventueel voorvoegsel scheidt van de stam van de geslachtsnaam. |
 | geslachtsnaamstam | AN200 | De stam van de geslachtsnaam. |
 | predicaat | Enumeratie: "predicaat" | Predicaat dat door de persoon gevoerd mag worden voorafgaand aan de voornaam. |
 | adellijkeTitel | Enumeratie: "adelijkeTitel" | Adellijke titel die door de persoon gevoerd mag worden voorafgaand aan de geslachtsnaam. |
-| namenreeks | INDIC | Indicator die aangeeft dat er sprake is van een namenreeks.  |
-
+| namenreeks | INDIC | Indicator die aangeeft dat er sprake is van een namenreeks. |
 
 
 
 ### SBIActiviteitVestiging
 > **Definitie SBIActiviteitVestiging:** 
 >
-> Aanduiding van de activiteit (en) van een vestiging  conform de Standaard BedrijfsIndeling 
+> Aanduiding van de activiteit (en) van een vestiging  conform de Standaard BedrijfsIndeling
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -870,8 +835,7 @@ Attributen van objecttype SBIActiviteitVestiging
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | indicatieHoofdactiviteit | AN100 | Indicatie die aangeeft welke van de activiteiten de hoofdactiviteit is van de VESTIGING. |
-| SBICode | AN50 | De codering van de activiteit conform de Standaard Bedrijfs Indeling.  |
-
+| SBICode | AN50 | De codering van de activiteit conform de Standaard Bedrijfs Indeling. |
 
 
 
@@ -883,7 +847,7 @@ Attributen van objecttype SBIActiviteitVestiging
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap |
-| toelichting | <memo>#NOTES#  |
+| toelichting | <memo>#NOTES# |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -906,14 +870,11 @@ Attributen van objecttype SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datumAanvang |  | De datum waarop het huwelijk is gesloten, dan wel het geregistreerd partnerschap is aangegaan. |
-| gemeenteAanvang | AN80 | Gemeente waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan.  |
-| buitenlandsePlaatsAanvang | AN40 | Buitenlandse plaats waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan.  |
+| gemeenteAanvang | AN80 | Gemeente waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
+| buitenlandsePlaatsAanvang | AN40 | Buitenlandse plaats waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
 | landOfGebiedAanvang |  | Land of gebied waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
-| buitenlandseRegioAanvang | AN35 | Buitenlandse regio waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan.  |
-| omschrijvingLocatieAanvang | AN40 | Omschrijving van de locatie waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan.  |
-| None | Class: "Woonplaats" |  |
-| None | Class: "Woonplaats" |  |
-
+| buitenlandseRegioAanvang | AN35 | Buitenlandse regio waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
+| omschrijvingLocatieAanvang | AN40 | Omschrijving van de locatie waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
 
 
 
@@ -952,7 +913,6 @@ Attributen van objecttype SoortFunctioneelGebied
 
 
 
-
 ### SoortKunstwerk
 > **Definitie SoortKunstwerk:** 
 >
@@ -985,7 +945,6 @@ Attributen van objecttype SoortKunstwerk
 | :--- | :--- | :--- |
 | indicatiePlusBRPopulatie | INDIC | Aanduiding of het soort kunstwerk een uitbreiding van de populatie van BGT in IMGeo is. |
 | typeKunstwerk | Enumeratie: "typeringKunstwerk" | Specificatie van het soort Kunstwerk waartoe het kunstwerkdeel behoort. |
-
 
 
 
@@ -1024,7 +983,6 @@ Attributen van objecttype SoortOverigBouwwerk
 
 
 
-
 ### SoortScheiding
 > **Definitie SoortScheiding:** 
 >
@@ -1057,7 +1015,6 @@ Attributen van objecttype SoortScheiding
 | :--- | :--- | :--- |
 | indicatiePlusBRPopulatie | INDIC | Aanduiding of het soort scheiding een uitbreiding van de populatie van de basisregistratie is. |
 | typeScheiding | Enumeratie: "typeringScheiding" | Specificatie van het soort scheiding. |
-
 
 
 
@@ -1096,7 +1053,6 @@ Attributen van objecttype SoortSpoor
 
 
 
-
 ### SplitsingstekeningReferentie
 > **Definitie SplitsingstekeningReferentie:** 
 >
@@ -1128,10 +1084,9 @@ Attributen van objecttype SplitsingstekeningReferentie
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | identificatieTekening | AN40 | <font color="#0f0f0f">Een ondubbelzinnige referentie naar de tekening.</font> |
-| bronorganisatie | N9 | Het RSIN van de Niet-natuurlijk persoon zijnde de organisatie die het informatieobject heeft gecreï¿½erd of heeft ontvangen en als eerste in een samenwerkingsketen heeft vastgelegd.  |
+| bronorganisatie | N9 | Het RSIN van de Niet-natuurlijk persoon zijnde de organisatie die het informatieobject heeft gecreï¿½erd of heeft ontvangen en als eerste in een samenwerkingsketen heeft vastgelegd. |
 | datumCreatie | DATUM | De datum van creatie van de tekening. |
 | titel | AN200 | <font color="#0f0f0f">De naam waaronder de tekening formeel bekend is</font> |
-
 
 
 
@@ -1143,7 +1098,7 @@ Attributen van objecttype SplitsingstekeningReferentie
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | VerblijfadresIngeschrevenNatuurlijkPersoon |
-| toelichting | <memo>#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten: Adresherkomst Locatie beschrijving en de volgende relatiesoorten: is ingeschreven op NUMMERAANDUIDING verblijft op LIGPLAATS verblijft op STANDPLAATS. verblijft in VERBLIJFSOBJECT verblijft op locatie in WOONPLAATS Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort. |
+| toelichting | <memo>#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:<br>Adresherkomst<br>Locatie beschrijving<br>en de volgende relatiesoorten:<br>is ingeschreven op NUMMERAANDUIDING<br>verblijft op LIGPLAATS<br>verblijft op STANDPLAATS.<br>verblijft in VERBLIJFSOBJECT<br>verblijft op locatie in WOONPLAATS<br>Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -1167,17 +1122,6 @@ Attributen van objecttype VerblijfadresIngeschrevenNatuurlijkPersoon
 | :--- | :--- | :--- |
 | adresHerkomst | AN1 | Aanduiding welk adres van de INGESCHREVEN NATUURLIJK PERSOON ontleend is aan de BRP: het woonadres of het correspondentie-adres |
 | beschrijvingLocatie | AN35 | Een geheel of gedeeltelijke omschrijving van de ligging van een object. |
-| None | Class: "Ligplaats" |  |
-| None | Class: "AdresseerbaarObject" |  |
-| None | Class: "Verblijfsobject" |  |
-| None | Class: "Standplaats" |  |
-| None | Class: "Standplaats" |  |
-| None | Class: "AdresseerbaarObjectAanduiding" |  |
-| None | Class: "Woonplaats" |  |
-| None | Class: "Woonplaats" |  |
-| None | Class: "Verblijfsobject" |  |
-| None | Class: "Ligplaats" |  |
-
 
 
 
@@ -1213,7 +1157,6 @@ Attributen van objecttype VerblijfadresIngeschrevenPersoon
 | :--- | :--- | :--- |
 | adresHerkomst | AN1 | Aanduiding welk adres van de INGESCHREVEN PERSOON ontleend is aan de GBA: het woonadres of het correspondentie-adres |
 | beschrijvingLocatie |  | Een geheel of gedeeltelijke omschrijving van de ligging van een object. |
-
 
 
 
@@ -1257,7 +1200,6 @@ Attributen van objecttype VerblijfBuitenland
 
 
 
-
 ### VerblijfBuitenlandSubject
 > **Definitie VerblijfBuitenlandSubject:** 
 >
@@ -1295,7 +1237,6 @@ Attributen van objecttype VerblijfBuitenlandSubject
 
 
 
-
 ### VerblijfsrechtIngeschrevenNatuurlijkPersoon
 > **Definitie VerblijfsrechtIngeschrevenNatuurlijkPersoon:** 
 >
@@ -1304,7 +1245,7 @@ Attributen van objecttype VerblijfBuitenlandSubject
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | VerblijfsrechtIngeschrevenNatuurlijkPersoon |
-| toelichting | <memo>#NOTES#  |
+| toelichting | <memo>#NOTES# |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -1330,7 +1271,6 @@ Attributen van objecttype VerblijfsrechtIngeschrevenNatuurlijkPersoon
 | datumAanvangVerblijfsrecht |  | De datum waarop het verblijfsrecht van de Vreemdeling is aangegeven. |
 | datumVoorzienEindeVerblijfsrecht |  | De einddatum verblijfsrecht voor bepaalde duur in de mededeling van de Minister van Veiligheid en Justitie. |
 | datumMededelingVerblijfsrecht |  | De datum van de mededeling van de Minister van Veiligheid en Justitie inzake verblijfsrecht. |
-
 
 
 
@@ -1373,7 +1313,6 @@ Attributen van objecttype VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPe
 
 
 
-
 ## Enumeraties Groepattribuutsoort
 
 
@@ -1391,22 +1330,22 @@ De enumeratie soortMigratie heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | soortMigratie |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
 | id | EAID_ceb84803_764e_4045_a3a3_6b8fd3e13db0 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1428,22 +1367,22 @@ De enumeratie redenWijzigingAdres heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | redenWijzigingAdres |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
 | id | EAID_70aebf12_7f0c_49ab_a6bc_1bec6ed66753 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1467,22 +1406,22 @@ De enumeratie aangever heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | aangever |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:36 |
 | modified | 2025-03-26 16:14:55 |
 | id | EAID_a42939a9_e903_4c29_8024_f42b77f657e5 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1511,22 +1450,22 @@ De enumeratie adelijkeTitel heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | adelijkeTitel |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:36 |
 | modified | 2025-03-26 16:14:55 |
 | id | EAID_67b3bbf9_ffef_407e_8628_42f3bf37082a |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1550,22 +1489,22 @@ De enumeratie redenEindeRelatie heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | redenEindeRelatie |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
 | id | EAID_ef9c8efc_aacb_4cd4_bd7d_b2f64561a057 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1587,22 +1526,22 @@ De enumeratie predicaat heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | predicaat |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:38 |
 | modified | 2025-03-26 16:14:55 |
 | id | EAID_93723bc5_3214_441d_bd1c_05bfa4bce67e |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1631,22 +1570,22 @@ De enumeratie adelijkeTitel heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | adelijkeTitel |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:36 |
 | modified | 2025-03-26 16:14:55 |
 | id | EAID_92940207_54e9_42f5_aca9_66099d3f59d5 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1655,36 +1594,28 @@ Geen Definitie
 
 Het enumeratie typeringFunctioneelGebied kent de volgende waarden:
 
-* **kering**: Een waterkerende en / of scheidende, kunstmatige of natuurlijke hoogte of hooggelegen gronden inclusief de daarin aanwezige waterkerende elementen. 
-* **bedrijvigheid**: Gebied waarop panden of overige gebouwen staan, en / of niet bebouwde oppervlakte, voornamelijk gebruikt voor economische activiteiten en non-profit 
-activiteiten.
-* **natuur & landschap**: Gebied dat wegens natuurschoon en/of natuurlijke historie in stand wordt 
-gehouden.
+* **kering**: Een waterkerende en / of scheidende, kunstmatige of natuurlijke hoogte of hooggelegen gronden inclusief de daarin aanwezige waterkerende elementen.
+* **bedrijvigheid**: Gebied waarop panden of overige gebouwen staan, en / of niet bebouwde oppervlakte, voornamelijk gebruikt voor economische activiteiten en non-profit<br>activiteiten.
+* **natuur & landschap**: Gebied dat wegens natuurschoon en/of natuurlijke historie in stand wordt<br>gehouden.
 * **landbouw**: Gebied primair in gebruik voor land- en tuinbouwproductie.
 * **bewoning**: Gebied waarop panden of overige bouwwerken staan die voornamelijk gebruikt worden voor bewoning, inclusief erven en tuinen die bij de panden behoren.
-* **infrastructuur verkeer en vervoer**: Gebied primair in gebruik voor verkeer en vervoer, waaronder verstaan 
-spoorwegen, wegdelen, vliegverkeersbanen, parkeerterreinen, bermen en de 
-ondersteunende objecten als kunstwerken.
-* **infrastructuur waterstaatswerken**: Gebied grenzend aan oppervlaktewater, primair in gebruik voor de 
-oppervlaktewaterhuishouding (waterafvoer, wateraanvoer en waterconservering). 
-* **waterbergingsgebied**: Terrein met als functie het tijdelijk of langdurig bergen van 
-(regen)wateroverschotten uit de omgeving. 
-* **maatschappelijke en / of publieksvoorziening**: Bebouwd of landelijk gebied, niet zijnde woon- of bedrijventerrein, in gebruik voor maatschappelijke- en publieksdoeleinden (omvat overheids- en particuliere terreinen). 
-* **begraafplaats**: Een besloten gebied waar lichamen van overleden personen worden begraven. Ook worden op begraafplaatsen urnen as van gecremeerde lichamen bewaard. 
+* **infrastructuur verkeer en vervoer**: Gebied primair in gebruik voor verkeer en vervoer, waaronder verstaan<br>spoorwegen, wegdelen, vliegverkeersbanen, parkeerterreinen, bermen en de<br>ondersteunende objecten als kunstwerken.
+* **infrastructuur waterstaatswerken**: Gebied grenzend aan oppervlaktewater, primair in gebruik voor de<br>oppervlaktewaterhuishouding (waterafvoer, wateraanvoer en waterconservering).
+* **waterbergingsgebied**: Terrein met als functie het tijdelijk of langdurig bergen van<br>(regen)wateroverschotten uit de omgeving.
+* **maatschappelijke en / of publieksvoorziening**: Bebouwd of landelijk gebied, niet zijnde woon- of bedrijventerrein, in gebruik voor maatschappelijke- en publieksdoeleinden (omvat overheids- en particuliere terreinen).
+* **begraafplaats**: Een besloten gebied waar lichamen van overleden personen worden begraven. Ook worden op begraafplaatsen urnen as van gecremeerde lichamen bewaard.
 * **recreatie**: Gebied in gebruik voor openlucht recreatie.
-* **recreatie:speeltuin**: Geheel van begroeiing, verharding, opstallen en speelwerktuigen, bedoeld als speelplaats voor kinderen. 
-* **recreatie:park**: Landschappelijk ingericht terrein, begroeid met houtachtige en kruidachtige vegetatie, verharding, objecten, waterpartijen en dergelijke, bedoeld als 
-(grootschalige) recreatieve voorziening. 
-* **recreatie:sportterrein**: Terrein, mogelijk met groenvoorziening, verharding en bebouwing, bestemd voor sportbeoefening. 
-* **recreatie:bungalowpark**: Geheel van verharding, begroeiing, overige opstallen en gebouwen, bedoeld als vakantie-/weekendhuisjes die niet permanent bewoond worden. 
-* **recreatie:camping**: Geheel van verharding, begroeiing en opstallen, in gebruik als terrein waar tijdelijk tenten en/of caravans kunnen worden geplaatst ten behoeve van recreatie. 
+* **recreatie:speeltuin**: Geheel van begroeiing, verharding, opstallen en speelwerktuigen, bedoeld als speelplaats voor kinderen.
+* **recreatie:park**: Landschappelijk ingericht terrein, begroeid met houtachtige en kruidachtige vegetatie, verharding, objecten, waterpartijen en dergelijke, bedoeld als<br>(grootschalige) recreatieve voorziening.
+* **recreatie:sportterrein**: Terrein, mogelijk met groenvoorziening, verharding en bebouwing, bestemd voor sportbeoefening.
+* **recreatie:bungalowpark**: Geheel van verharding, begroeiing, overige opstallen en gebouwen, bedoeld als vakantie-/weekendhuisjes die niet permanent bewoond worden.
+* **recreatie:camping**: Geheel van verharding, begroeiing en opstallen, in gebruik als terrein waar tijdelijk tenten en/of caravans kunnen worden geplaatst ten behoeve van recreatie.
 * **recreatie:volkstuin**: Terreingedeelte in gebruik als volkstuinen, inclusief bebouwing, verharding en dergelijke.
-* **functioneel beheer**: Gebied waar een specifiek beheer voor benodigd is, louter bepaald vanuit beheer oogpunt. 
-* **functioneel beheer:hondenuitlaatplaats**: Een uitlaatplaats waar uw hond zijn behoefte kan/ mag doen waarbij geen 
-opruimplicht bestaat.
+* **functioneel beheer**: Gebied waar een specifiek beheer voor benodigd is, louter bepaald vanuit beheer oogpunt.
+* **functioneel beheer:hondenuitlaatplaats**: Een uitlaatplaats waar uw hond zijn behoefte kan/ mag doen waarbij geen<br>opruimplicht bestaat.
 * **bushalte**: Halteplaats voor bussen van het openbaar vervoer.
 * **carpoolplaats**: Parkeerplaats die qua ligging en ontsluiting geschikt is voor carpooling.
-* **benzinestation**: Geheel van installaties, verharding en opstallen waar brandstoffen ten behoeve van verbrandingsmotoren worden verkocht. 
+* **benzinestation**: Geheel van installaties, verharding en opstallen waar brandstoffen ten behoeve van verbrandingsmotoren worden verkocht.
 * **verzorgingsplaats**: Langs de weg gelegen parkeergelegenheid, met inbegrip van de daarbij behorende verharde en onverharde banen en een of meer voorzieningen ten behoeve van reizigers en/of voertuigen.
 
 
@@ -1693,22 +1624,22 @@ De enumeratie typeringFunctioneelGebied heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | typeringFunctioneelGebied |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:40 |
 | modified | 2025-03-26 16:14:56 |
 | id | EAID_6eadf3b8_d9f3_4c50_8309_1196a0129ee3 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1717,22 +1648,20 @@ Geen Definitie
 
 Het enumeratie typeringKunstwerk kent de volgende waarden:
 
-* **keermuur **: Een keermuur of keerwand is een stijf, grond- of waterkerend kunstwerk dat door een groot gewicht en een brede voet een grote standzekerheid kan bereiken. Een keermuur is meestal van gewapend beton, maar er kan ook ander materiaal gebruikt worden. 
-* **overkluizing **: Een overkluizing is een civieltechnisch kunstwerk waarmee een weg een andere weg, een plein of een waterloop (kruiselings) overwelft. In het geval van een waterweg is er onder het bouwwerk (vaak) geen scheepvaart mogelijk, maar ligt het wateroppervlak nog wel vrij. Een overkluizing is te vergelijken met een brug, 
-alleen bestaat de brug in dit geval vaak niet uit een wegdek maar uit een opstal. 
-Anders gesteld: het maakt meestal geen deel uit van een weg
+* **keermuur **: Een keermuur of keerwand is een stijf, grond- of waterkerend kunstwerk dat door een groot gewicht en een brede voet een grote standzekerheid kan bereiken. Een keermuur is meestal van gewapend beton, maar er kan ook ander materiaal gebruikt worden.
+* **overkluizing **: Een overkluizing is een civieltechnisch kunstwerk waarmee een weg een andere weg, een plein of een waterloop (kruiselings) overwelft. In het geval van een waterweg is er onder het bouwwerk (vaak) geen scheepvaart mogelijk, maar ligt het wateroppervlak nog wel vrij. Een overkluizing is te vergelijken met een brug,<br>alleen bestaat de brug in dit geval vaak niet uit een wegdek maar uit een opstal.<br>Anders gesteld: het maakt meestal geen deel uit van een weg
 * **duiker**: Kunstwerk voor de waterhuishouding, bestaande uit een kokervormige constructie aangebracht onder een weg of spoorweg of in een dam.
 * **faunavoorziening **: Voorziening bij een weg of spoorweg, niet zijnde een ecoduct, om de uit dat werk voortvloeiende negatieve gevolgen voor de fauna zoveel mogelijk te voorkomen of te beperken.
-* **vispassage  **: Een kunstmatige passage ten behoeve van de vistrek bij kunstwerken in wateren. 
+* **vispassage  **: Een kunstmatige passage ten behoeve van de vistrek bij kunstwerken in wateren.
 * **bodemval  **: Sprong in de bodem van een waterloop.
 * **coupure **: Een onderbreking in een waterkering voor de doorvoer van een weg of spoorweg, die bij extreme waterstanden afsluitbaar is.
 * **ponton **: Drijvende, dichte bak, waarover soms een dek is gelegd.
-* **voorde **: Een doorwaadbare, doorgaans verharde, plaats in de waterloop, die dient voor de oversteek van die waterloop. 
+* **voorde **: Een doorwaadbare, doorgaans verharde, plaats in de waterloop, die dient voor de oversteek van die waterloop.
 * **hoogspanningsmast **: Metalen mast of stellage ter ondersteuning van geleidedraden voor het transport van elektriciteit met een hoog voltage.
 * **gemaal **: Een kunstwerk in principe bedoeld om water van een laag peil naar een hoog peil te brengen
-* **perron **: Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen. 
-* **sluis **: Een kunstmatige, beweegbare waterkering die de verbinding tussen twee wateren kan afsluiten of openstellen en daartoe van deuren of schuiven is voorzien. 
-* **strekdam **: Constructie in het water ter verdediging van de kust/oever. 
+* **perron **: Verhoogde constructie langs een spoorrail of tramrail voor het in- en uitstappen van passagiers of voor het laden en lossen van goederen.
+* **sluis **: Een kunstmatige, beweegbare waterkering die de verbinding tussen twee wateren kan afsluiten of openstellen en daartoe van deuren of schuiven is voorzien.
+* **strekdam **: Constructie in het water ter verdediging van de kust/oever.
 * **steiger **: Vaste (niet drijvende) waterbouwkundige constructie voor het aanleggen van schepen en bedoeld om deze schepen vanaf de wal te laden en te lossen.
 * **stuw **: Een constructie met een vaste drempel of een beweegbare klep, die dient om de waterstand boven- en benedenstrooms te regelen.
 
@@ -1742,22 +1671,22 @@ De enumeratie typeringKunstwerk heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | typeringKunstwerk |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:40 |
 | modified | 2025-03-26 16:14:56 |
 | id | EAID_ec721641_eaae_4cd8_943d_aece7aacd6ee |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1766,13 +1695,12 @@ Geen Definitie
 
 Het enumeratie typeringOverigBouwwerk kent de volgende waarden:
 
-* **bassin**: Waterbak, zoals een zwembad of een dok. 
+* **bassin**: Waterbak, zoals een zwembad of een dok.
 * **bezinkbak**: Een gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen met een slibreinigende voorziening.
-* **lage trafo **: Bouwwerk waarin transformator(en) zijn geplaatst voor elektriciteitsvoorziening. 
+* **lage trafo **: Bouwwerk waarin transformator(en) zijn geplaatst voor elektriciteitsvoorziening.
 * **windturbine**: Turbine waarin winddruk omgezet wordt in mechanische energie.
-* **open loods **: Niet verplaatsbaar licht gebouw met een open gevel, bestemd als berg- of 
-werkplaats of als tijdelijk onderdak voor andere doeleinden.
-* **opslagtank**: Opslagfaciliteit voor vloeistoffen. Alleen bovengrondse opslagtanks worden opgenomen. 
+* **open loods **: Niet verplaatsbaar licht gebouw met een open gevel, bestemd als berg- of<br>werkplaats of als tijdelijk onderdak voor andere doeleinden.
+* **opslagtank**: Opslagfaciliteit voor vloeistoffen. Alleen bovengrondse opslagtanks worden opgenomen.
 * **overkapping**: Een afzonderlijk staande overdekking rustend op kolommen.
 * **bunker**: Een bunker is een militair verdedigingswerk dat een zekere mate van bescherming biedt tegen beschietingen en bombardementen.
 * **voedersilo**: Opslagfaciliteit voor veevoer, bestaande uit een verticale container met een opening aan de onderkant.
@@ -1784,22 +1712,22 @@ De enumeratie typeringOverigBouwwerk heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | typeringOverigBouwwerk |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:41 |
 | modified | 2025-03-26 16:14:57 |
 | id | EAID_e4a8ab5b_1ffc_4cb2_84ab_0a3ccc191da9 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1821,22 +1749,22 @@ De enumeratie typeringScheiding heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | typeringScheiding |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:41 |
 | modified | 2025-03-26 16:14:57 |
 | id | EAID_d633a624_fad5_4b8d_aaa1_3f52606f6c3d |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1846,9 +1774,9 @@ Geen Definitie
 Het enumeratie functieSpoor kent de volgende waarden:
 
 * **trein**: Spoor voor een railvoertuig voor de langere afstand dat sneller dan 45 km per uur kan, bestaande uit een enkele of een reeks van locomotieven, treinstellen en/of wagons.
-* **sneltram**: Spoor voor een boven- danwel ondergrondse interlokale tram met een vrije baan. 
+* **sneltram**: Spoor voor een boven- danwel ondergrondse interlokale tram met een vrije baan.
 * **tram**: Spoor voor een railvoertuig voor personenvervoer voor de korte afstand.
-* **(haven)kraan**: Spoorbaan waarop een hefkraan (bij een haven) zich voortbeweegt. 
+* **(haven)kraan**: Spoorbaan waarop een hefkraan (bij een haven) zich voortbeweegt.
 
 
 De enumeratie functieSpoor heeft de volgende kenmerken:
@@ -1856,22 +1784,22 @@ De enumeratie functieSpoor heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | functieSpoor |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:37 |
 | modified | 2025-03-26 16:14:55 |
 | id | EAID_05b7a241_215d_4d4d_b5b0_532f56c25b0b |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 

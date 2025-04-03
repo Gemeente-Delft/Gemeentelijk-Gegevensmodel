@@ -2,22 +2,20 @@
 ## Inleiding
 > **Definitie Model Beheer Openbare Ruimte:** 
 >
-> "Het informatiedomein dat gegevens omvat over:
-> 1. De fysieke objecten in de publieke buitenruimte, inclusief hun kenmerken, locatie en conditie.
-> 2. De processen en activiteiten gericht op het onderhouden, inrichten en beheren van deze objecten."
+> "Het informatiedomein dat gegevens omvat over:<br>1. De fysieke objecten in de publieke buitenruimte, inclusief hun kenmerken, locatie en conditie.<br>2. De processen en activiteiten gericht op het onderhouden, inrichten en beheren van deze objecten."
 
 Het model 'Model Beheer Openbare Ruimte' kent de volgende objecttypen:
 
 * **Actie**: Kleinst mogelijke eenheid van werk die zinvol onderscheiden kan worden, uitgevoerd door een persoon of machine op 1 plek op 1 moment.
 * **Areaal**: Het verspreidingsgebied van een een soort, een levensgemeenschap of een biotooptype.
-* **CROW-Melding**: BOR-MELD is een CROW-standaard voor het vastleggen van meldingen. 
+* **CROW-Melding**: BOR-MELD is een CROW-standaard voor het vastleggen van meldingen.
 * **Deelplan/Veld**: <Geen Definities>
 * **Fase/Oplevering**: <Geen Definities>
 * **Geo-Object**: Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011]
 * **Grondbeheerder**: Beheerder van grondgrondbeheer., oplossing voor duurzaam landbeheer en voedselproductie
 * **Inspectie**: het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen.
 * **KadastraleMutatie**: Wijziging in de kadatrale registratie
-* **Kwaliteitscatalogus Openbare Ruimte**: zie https://www.crow.nl/publicaties/kwaliteitscatalogus-openbare-ruimte-2018 
+* **Kwaliteitscatalogus Openbare Ruimte**: zie https://www.crow.nl/publicaties/kwaliteitscatalogus-openbare-ruimte-2018
 * **Kwaliteitskenmerken**: Aanduiding van de hoedanigheid van uitvoering, bewerking en representativiteit van een meting, volgens een overeengekomen waarderingsschaal.
 * **Logboek**: Registratie waarin gebeurtenissen worden bijgehouden.
 * **Melding**: De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend
@@ -25,13 +23,13 @@ Het model 'Model Beheer Openbare Ruimte' kent de volgende objecttypen:
 * **MOOR-melding**: Meldingsproces rondom werkzaamheden aan kabels en leidingen.
 * **Omgevingsvergunning**: Vergunning als bedoeld in afdeling 5.1 van de Omgevingswet
 * **Onderhoud**: Maatregelen om de functionele kwaliteit in stand te houden of te herstellen en dus de levensduur van een (object)onderdeel te realiseren c.q. te verlengen.
-* **Opbreking**: Vorm van wegwerkzaamheid 
+* **Opbreking**: Vorm van wegwerkzaamheid
 * **Proces-verbaal-MOOR-melding**: Officieel op papier gesteld verslag met betrekking tot heen MOOR-melding
 * **Schouwronde**: Activiteit om te controleren of de opdrachtnemer aan de afspraken voldoet.
 * **Storing**: Verlies van de mogelijkheid om volgens een specificatie te werken of om het vereiste resultaat te leveren.
 * **Taak**: Een samenhangende set activiteiten.
 * **Uitvoerder Graafwerkzaamheden**: Degene die op de bouwlocatie van een project de leiding heeft met betrekking tot de graafwerkzaamheden
-* **Verkeerslicht**: Lichten die aangeven dat je moet stoppen, dat je mag doorrijden, of die je waarschuwen voor gevaar. 
+* **Verkeerslicht**: Lichten die aangeven dat je moet stoppen, dat je mag doorrijden, of die je waarschuwen voor gevaar.
 
 
 Het model 'Model Beheer Openbare Ruimte' heeft de volgende kenmerken:
@@ -86,7 +84,6 @@ Attributen van objecttype Actie
 
 
 
-
 ### Areaal
 > **Definitie Areaal:** 
 >
@@ -121,11 +118,10 @@ Attributen van objecttype Areaal
 
 
 
-
 ### CROW-Melding
 > **Definitie CROW-Melding:** 
 >
-> BOR-MELD is een CROW-standaard voor het vastleggen van meldingen. 
+> BOR-MELD is een CROW-standaard voor het vastleggen van meldingen.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -153,7 +149,6 @@ Attributen van objecttype CROW-Melding
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | kwaliteitsniveau | Enumeratie: "CROW-Kwaliteitsniveaus" |  |
-
 
 
 
@@ -190,7 +185,6 @@ Attributen van objecttype Deelplan/Veld
 
 
 
-
 ### Fase/Oplevering
 > **Definitie Fase/Oplevering:** 
 >
@@ -221,7 +215,6 @@ Attributen van objecttype Fase/Oplevering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -262,7 +255,6 @@ Attributen van objecttype Geo-Object
 
 
 
-
 ### Grondbeheerder
 > **Definitie Grondbeheerder:** 
 >
@@ -293,7 +285,6 @@ Attributen van objecttype Grondbeheerder
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -330,7 +321,6 @@ Attributen van objecttype Inspectie
 
 
 
-
 ### KadastraleMutatie
 > **Definitie KadastraleMutatie:** 
 >
@@ -361,9 +351,6 @@ Attributen van objecttype KadastraleMutatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "ZakelijkRecht" |  |
-| None | Class: "KadastraleOnroerendeZaak" |  |
-
 
 
 
@@ -371,7 +358,6 @@ Attributen van objecttype KadastraleMutatie
 > **Definitie Kwaliteitscatalogus Openbare Ruimte:** 
 >
 > zie https://www.crow.nl/publicaties/kwaliteitscatalogus-openbare-ruimte-2018
-> 
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -398,7 +384,6 @@ Attributen van objecttype Kwaliteitscatalogus Openbare Ruimte
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -435,7 +420,6 @@ Attributen van objecttype Kwaliteitskenmerken
 
 
 
-
 ### Logboek
 > **Definitie Logboek:** 
 >
@@ -466,7 +450,6 @@ Attributen van objecttype Logboek
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -514,7 +497,6 @@ Attributen van objecttype Melding
 
 
 
-
 ### MeldingOngeval
 > **Definitie MeldingOngeval:** 
 >
@@ -545,7 +527,6 @@ Attributen van objecttype MeldingOngeval
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -589,8 +570,6 @@ Attributen van objecttype MOOR-melding
 | goedgekeurd | boolean |  |
 | herstelwerkzaamhedenVereist | boolean |  |
 | omschrijvingHerstelwerkzaamheden | text |  |
-| None | Class: "Opbreking" |  |
-
 
 
 
@@ -624,9 +603,6 @@ Attributen van objecttype Omgevingsvergunning
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Plan" |  |
-| None | Class: "MOOR-melding" |  |
-
 
 
 
@@ -663,11 +639,10 @@ Attributen van objecttype Onderhoud
 
 
 
-
 ### Opbreking
 > **Definitie Opbreking:** 
 >
-> Vorm van wegwerkzaamheid 
+> Vorm van wegwerkzaamheid
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -694,7 +669,6 @@ Attributen van objecttype Opbreking
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -731,8 +705,6 @@ Attributen van objecttype Proces-verbaal-MOOR-melding
 | datum | DateTime |  |
 | goedkeuring | boolean |  |
 | opmerkingen | text |  |
-| None | Class: "MOOR-melding" |  |
-
 
 
 
@@ -769,7 +741,6 @@ Attributen van objecttype Schouwronde
 
 
 
-
 ### Storing
 > **Definitie Storing:** 
 >
@@ -800,7 +771,6 @@ Attributen van objecttype Storing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -837,7 +807,6 @@ Attributen van objecttype Taak
 
 
 
-
 ### Uitvoerder Graafwerkzaamheden
 > **Definitie Uitvoerder Graafwerkzaamheden:** 
 >
@@ -868,16 +837,13 @@ Attributen van objecttype Uitvoerder Graafwerkzaamheden
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Opbreking" |  |
-| None | Class: "MOOR-melding" |  |
-
 
 
 
 ### Verkeerslicht
 > **Definitie Verkeerslicht:** 
 >
-> Lichten die aangeven dat je moet stoppen, dat je mag doorrijden, of die je waarschuwen voor gevaar. 
+> Lichten die aangeven dat je moet stoppen, dat je mag doorrijden, of die je waarschuwen voor gevaar.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -910,7 +876,6 @@ Attributen van objecttype Verkeerslicht
 
 
 
-
 ## Enumeraties Model Beheer Openbare Ruimte
 
 
@@ -931,22 +896,22 @@ De enumeratie CROW-Kwaliteitsniveaus heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | CROW-Kwaliteitsniveaus |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:10 |
 | modified | 2025-03-26 16:14:45 |
 | id | EAID_503ACC2A_C721_4058_A44A_13126A0FC2DA |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -968,22 +933,22 @@ De enumeratie Energielabel heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Energielabel |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:10 |
 | modified | 2025-03-26 16:14:45 |
 | id | EAID_CC21861B_1CE6_4271_AF0C_CA68FEF0C880 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1006,22 +971,22 @@ De enumeratie Oppervlakte Woning heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Oppervlakte Woning |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:10 |
 | modified | 2025-03-26 16:14:45 |
 | id | EAID_5110C4A5_4771_4283_ADAB_04F9CB2D27BF |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 

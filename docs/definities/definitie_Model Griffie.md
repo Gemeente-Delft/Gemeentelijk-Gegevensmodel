@@ -3,7 +3,6 @@
 > **Definitie Model Griffie:** 
 >
 > Het informatiedomein dat gegevens omvat over de ondersteuning van de gemeenteraad en de organisatie van raadsprocessen, gericht op het faciliteren van besluitvorming en democratische controle.
-> 
 
 Het model 'Model Griffie' kent de volgende objecttypen:
 
@@ -76,8 +75,6 @@ Attributen van objecttype Aanwezige Deelnemer
 | rol | Enumeratie: "Deelnemersrol" |  |
 | vertegenwoordigtOrganisatie | AN250 |  |
 | naam | AN250 |  |
-| None | Class: "NatuurlijkPersoon" |  |
-
 
 
 
@@ -114,8 +111,6 @@ Attributen van objecttype Agendapunt
 | nummer | int |  |
 | titel | AN250 |  |
 | omschrijving | Text |  |
-| None | Class: "Raadsstuk" |  |
-
 
 
 
@@ -150,7 +145,6 @@ Attributen van objecttype Categorie
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | naam | AN250 |  |
-
 
 
 
@@ -194,7 +188,6 @@ Attributen van objecttype Collegelid
 
 
 
-
 ### Dossier
 > **Definitie Dossier:** 
 >
@@ -226,7 +219,6 @@ Attributen van objecttype Dossier
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | naam | AN250 |  |
-
 
 
 
@@ -262,8 +254,6 @@ Attributen van objecttype Indiener
 | :--- | :--- | :--- |
 | naam | AN250 |  |
 | omschrijving | Text |  |
-| None | Class: "Collegelid" |  |
-
 
 
 
@@ -301,7 +291,6 @@ Attributen van objecttype Programma
 
 
 
-
 ### Raadscommissie
 > **Definitie Raadscommissie:** 
 >
@@ -333,8 +322,6 @@ Attributen van objecttype Raadscommissie
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | naam | AN250 |  |
-| None | Class: "Vergadering" |  |
-
 
 
 
@@ -374,8 +361,6 @@ Attributen van objecttype Raadslid
 | fractie | AN250 |  |
 | datumAanstelling | Date |  |
 | datumUittreding | Date |  |
-| None | Class: "Raadscommissie" |  |
-
 
 
 
@@ -414,13 +399,6 @@ Attributen van objecttype Raadsstuk
 | datumExpiratie | DateTime |  |
 | besloten | Boolean |  |
 | typeRaadsstuk | AN80 |  |
-| None | Class: "Programma" |  |
-| None | Class: "Vergadering" |  |
-| None | Class: "Taakveld" |  |
-| None | Class: "Indiener" |  |
-| None | Class: "Dossier" |  |
-| None | Class: "Categorie" |  |
-
 
 
 
@@ -456,9 +434,6 @@ Attributen van objecttype Stemming
 | :--- | :--- | :--- |
 | resultaat | Enumeratie: "Stemmingsresultaattype" |  |
 | stemmingstype | Enumeratie: "Stemmingstype" |  |
-| None | Class: "Agendapunt" |  |
-| None | Class: "Raadsstuk" |  |
-
 
 
 
@@ -496,7 +471,6 @@ Attributen van objecttype Taakveld
 
 
 
-
 ### Vergadering
 > **Definitie Vergadering:** 
 >
@@ -531,9 +505,6 @@ Attributen van objecttype Vergadering
 | starttijd | DateTime |  |
 | titel | AN250 |  |
 | locatie | AN250 |  |
-| None | Class: "Raadsstuk" |  |
-| None | Class: "Agendapunt" |  |
-
 
 
 
@@ -562,22 +533,22 @@ De enumeratie Deelnemersrol heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Deelnemersrol |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:41 |
 | modified | 2025-03-26 16:14:34 |
 | id | EAID_E2EDC770_08EB_4298_A2BA_F7943ACD695F |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -596,22 +567,22 @@ De enumeratie Stemmingsresultaattype heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Stemmingsresultaattype |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:41 |
 | modified | 2025-03-26 16:14:34 |
 | id | EAID_0A3A2E20_2A67_4e16_B11E_36C09F94331D |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -630,22 +601,22 @@ De enumeratie Stemmingstype heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Stemmingstype |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:41 |
 | modified | 2025-03-26 16:14:34 |
 | id | EAID_368EB061_7CF3_4115_BB21_3C618782F205 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 

@@ -6,7 +6,7 @@
 
 Het model 'Model Erfgoed Generiek' kent de volgende objecttypen:
 
-* **Erfgoed Object**: Uit het verleden geï¿½rfde materiï¿½le en immateriï¿½le objecten 
+* **Erfgoed Object**: Uit het verleden geï¿½rfde materiï¿½le en immateriï¿½le objecten
 * **Historisch Persoon **: Natuurlijk persoon waarvan informatie beschikbaar is uit het verleden.
 * **Objectclassificatie**: Systematische identificatie en ordening van objecten in categorieï¿½n overeenkomstig logisch gestructureerde conventies, methoden en procedureregels weergegeven in een classificatiesysteem.
 
@@ -33,7 +33,7 @@ Het model 'Model Erfgoed Generiek' heeft de volgende kenmerken:
 ### Erfgoed Object
 > **Definitie Erfgoed Object:** 
 >
-> Uit het verleden geï¿½rfde materiï¿½le en immateriï¿½le objecten 
+> Uit het verleden geï¿½rfde materiï¿½le en immateriï¿½le objecten
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -64,8 +64,6 @@ Attributen van objecttype Erfgoed Object
 | omschrijving | Text |  |
 | dateringVanaf | int |  |
 | dateringTot | int |  |
-| None | Class: "Objectclassificatie" |  |
-
 
 
 
@@ -76,7 +74,7 @@ Attributen van objecttype Erfgoed Object
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | Historisch Persoon  |
+| name | Historisch Persoon |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -106,8 +104,6 @@ Attributen van objecttype Historisch Persoon
 | woondeOp | AN50 |  |
 | beroep | AN200 |  |
 | publiekToegankelijk | Boolean |  |
-| None | Class: "Erfgoed Object" |  |
-
 
 
 
@@ -143,7 +139,6 @@ Attributen van objecttype Objectclassificatie
 | :--- | :--- | :--- |
 | naam | AN80 |  |
 | omschrijving | Text |  |
-
 
 
 

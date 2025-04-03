@@ -18,7 +18,7 @@ Het model 'Model Leerplicht en Leerlingenvervoer' kent de volgende objecttypen:
 * **Procesverbaal Onderwijs**: Een officieel document dat een overtreding van de leerplichtwet vastlegt.
 * **Verlofaanvraag**: Een verzoek om toestemming te krijgen iets te doen, bijvoorbeeld vakantie of studie
 * **Vervoerder**: Degene die openbaar vervoer of besloten busvervoer verricht, niet in de hoedanigheid van bestuurder van een auto, bus, trein, metro, tram of een via een geleidesysteem voortbewogen voertuig.
-* **Verzuimmelding**: Een melding dat een leerling niet op school verschijnt. De school moet actie ondernemen naar de leerling (en zijn ouders). Een school moet het verzuim melden bij de gemeente. 
+* **Verzuimmelding**: Een melding dat een leerling niet op school verschijnt. De school moet actie ondernemen naar de leerling (en zijn ouders). Een school moet het verzuim melden bij de gemeente.
 * **Vrijstelling**: Een formeel besluit waarbij een leerling wordt ontheven van de leerplicht.
 * **Ziekmelding Leerlingenvervoer**: Een melding van een zieke leerling die recht heeft op vervoer van en naar onderwijs.
 
@@ -75,7 +75,6 @@ Attributen van objecttype Aanvraag Leerlingenvervoer
 
 
 
-
 ### AanvraagOfMelding
 > **Definitie AanvraagOfMelding:** 
 >
@@ -110,10 +109,6 @@ Attributen van objecttype AanvraagOfMelding
 | opmerkingen | AN300 |  |
 | soortVerzuimOfAanvraag | Enumeratie: "Verzuimsoort" |  |
 | reden | AN300 |  |
-| None | Class: "Leerling" |  |
-| None | Class: "Beslissing" |  |
-| None | Class: "School" |  |
-
 
 
 
@@ -152,7 +147,6 @@ Attributen van objecttype AanvraagVrijstelling
 
 
 
-
 ### Beschikking Leerlingenvervoer
 > **Definitie Beschikking Leerlingenvervoer:** 
 >
@@ -183,7 +177,6 @@ Attributen van objecttype Beschikking Leerlingenvervoer
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -220,10 +213,6 @@ Attributen van objecttype Beslissing
 | datum | Date |  |
 | reden | AN200 |  |
 | opmerkingen | text |  |
-| None | Class: "Leerling" |  |
-| None | Class: "Leerplichtambtenaar" |  |
-| None | Class: "School" |  |
-
 
 
 
@@ -258,8 +247,6 @@ Attributen van objecttype Doorgeleiding OM
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | afdoening | AN300 |  |
-| None | Class: "Ouder Of Verzorger" |  |
-
 
 
 
@@ -300,7 +287,6 @@ Attributen van objecttype HALT-verwijzing
 
 
 
-
 ### Klacht Leerlingenvervoer
 > **Definitie Klacht Leerlingenvervoer:** 
 >
@@ -331,8 +317,6 @@ Attributen van objecttype Klacht Leerlingenvervoer
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Vervoerder" |  |
-
 
 
 
@@ -366,7 +350,6 @@ Attributen van objecttype Leerplichtambtenaar
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -416,7 +399,6 @@ Attributen van objecttype Procesverbaal Onderwijs
 
 
 
-
 ### Verlofaanvraag
 > **Definitie Verlofaanvraag:** 
 >
@@ -453,7 +435,6 @@ Attributen van objecttype Verlofaanvraag
 
 
 
-
 ### Vervoerder
 > **Definitie Vervoerder:** 
 >
@@ -487,11 +468,10 @@ Attributen van objecttype Vervoerder
 
 
 
-
 ### Verzuimmelding
 > **Definitie Verzuimmelding:** 
 >
-> Een melding dat een leerling niet op school verschijnt. De school moet actie ondernemen naar de leerling (en zijn ouders). Een school moet het verzuim melden bij de gemeente. 
+> Een melding dat een leerling niet op school verschijnt. De school moet actie ondernemen naar de leerling (en zijn ouders). Een school moet het verzuim melden bij de gemeente.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -521,7 +501,6 @@ Attributen van objecttype Verzuimmelding
 | datumStart | Datum |  |
 | datumEinde | Datum |  |
 | voorstelSchool | AN300 |  |
-
 
 
 
@@ -563,7 +542,6 @@ Attributen van objecttype Vrijstelling
 
 
 
-
 ### Ziekmelding Leerlingenvervoer
 > **Definitie Ziekmelding Leerlingenvervoer:** 
 >
@@ -594,8 +572,6 @@ Attributen van objecttype Ziekmelding Leerlingenvervoer
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Leerling" |  |
-
 
 
 
@@ -617,22 +593,22 @@ De enumeratie Sanctiesoort heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Sanctiesoort |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:44 |
 | modified | 2025-03-26 16:14:35 |
 | id | EAID_BA10C3E6_8F44_4f8d_B532_DED61E368F5E |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -650,22 +626,22 @@ De enumeratie Verzuimsoort heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Verzuimsoort |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:44 |
 | modified | 2025-03-26 16:14:35 |
 | id | EAID_0060D931_6BBA_480d_ADCA_0A74908C39A4 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -681,22 +657,22 @@ De enumeratie Vrijstellingsoort heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Vrijstellingsoort |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:44 |
 | modified | 2025-03-26 16:14:35 |
 | id | EAID_BAB0BE8C_4084_4618_BAC0_50B383B94D79 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 

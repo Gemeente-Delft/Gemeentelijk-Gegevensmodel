@@ -73,7 +73,6 @@ Attributen van objecttype Inschrijving
 
 
 
-
 ### Leerjaar
 > **Definitie Leerjaar:** 
 >
@@ -106,7 +105,6 @@ Attributen van objecttype Leerjaar
 | :--- | :--- | :--- |
 | jaarStart | int |  |
 | jaarEinde | int |  |
-
 
 
 
@@ -144,7 +142,6 @@ Attributen van objecttype Leerling
 
 
 
-
 ### Locatie
 > **Definitie Locatie:** 
 >
@@ -176,7 +173,6 @@ Attributen van objecttype Locatie
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | adres | Adres |  |
-
 
 
 
@@ -216,7 +212,6 @@ Attributen van objecttype Loopbaanstap
 
 
 
-
 ### Onderwijsloopbaan
 > **Definitie Onderwijsloopbaan:** 
 >
@@ -247,8 +242,6 @@ Attributen van objecttype Onderwijsloopbaan
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Loopbaanstap" |  |
-
 
 
 
@@ -282,7 +275,6 @@ Attributen van objecttype Onderwijsniveau
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -321,7 +313,6 @@ Attributen van objecttype Onderwijssoort
 
 
 
-
 ### Ouder Of Verzorger
 > **Definitie Ouder Of Verzorger:** 
 >
@@ -352,7 +343,6 @@ Attributen van objecttype Ouder Of Verzorger
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -387,8 +377,6 @@ Attributen van objecttype School
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | naam | AN200 |  |
-| None | Class: "Sportlocatie" |  |
-
 
 
 
@@ -423,7 +411,6 @@ Attributen van objecttype Startkwalificatie
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datumBehaald | Datum |  |
-
 
 
 
@@ -465,7 +452,6 @@ Attributen van objecttype Uitschrijving
 
 
 
-
 ## Enumeraties Model Onderwijs
 
 
@@ -486,22 +472,22 @@ De enumeratie Onderwijstype heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Onderwijstype |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:45 |
 | modified | 2025-03-26 16:14:35 |
 | id | EAID_354AA899_00C3_4c36_93F7_0B364D331C93 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 

@@ -65,7 +65,6 @@ Attributen van objecttype Afwijkende maatregel
 
 
 
-
 ### Boete
 > **Definitie Boete:** 
 >
@@ -96,7 +95,6 @@ Attributen van objecttype Boete
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -133,7 +131,6 @@ Attributen van objecttype Maatregel
 
 
 
-
 ### Maatregel op uitkering
 > **Definitie Maatregel op uitkering:** 
 >
@@ -167,7 +164,6 @@ Attributen van objecttype Maatregel op uitkering
 
 
 
-
 ### Normafwijking
 > **Definitie Normafwijking:** 
 >
@@ -198,7 +194,6 @@ Attributen van objecttype Normafwijking
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 

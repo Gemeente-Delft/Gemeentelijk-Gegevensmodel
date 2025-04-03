@@ -72,7 +72,6 @@ Attributen van objecttype Betaalmoment
 
 
 
-
 ### Rapportagemoment
 > **Definitie Rapportagemoment:** 
 >
@@ -107,8 +106,6 @@ Attributen van objecttype Rapportagemoment
 | naam | AN200 |  |
 | omschrijving | text |  |
 | termijn | int | Termijn in dagen |
-| None | Class: "Document" |  |
-
 
 
 
@@ -144,7 +141,6 @@ Attributen van objecttype Sector
 | :--- | :--- | :--- |
 | naam | AN200 |  |
 | omschrijving | Text |  |
-
 
 
 
@@ -202,20 +198,9 @@ Attributen van objecttype Subsidie
 | socialReturnBedrag | Bedrag |  |
 | verantwoordenOp | Date |  |
 | uitgaandeSubsidie | Boolean |  |
-| prestatiesubsidie | Boolean | Als Nee dan is het een stimuleringssubsidie
-
-Alleen bij uitgaande subsidies, anders NULL! |
+| prestatiesubsidie | Boolean | Als Nee dan is het een stimuleringssubsidie<br><br>Alleen bij uitgaande subsidies, anders NULL! |
 | doelstelling | AN200 |  |
 | opmerkingenVoorschotten | Text |  |
-| None | Class: "Medewerker" |  |
-| None | Class: "Rechtspersoon" |  |
-| None | Class: "Rapportagemoment" |  |
-| None | Class: "Taak" |  |
-| None | Class: "Kostenplaats" |  |
-| None | Class: "Sector" |  |
-| None | Class: "Document" |  |
-| None | Class: "Zaak" |  |
-
 
 
 
@@ -254,9 +239,6 @@ Attributen van objecttype Subsidieaanvraag
 | ontvangstbevestiging | Date |  |
 | verwachteBeschikking | Date |  |
 | kenmerk | AN80 |  |
-| None | Class: "Subsidie" |  |
-| None | Class: "Subsidiebeschikking" |  |
-
 
 
 
@@ -297,8 +279,6 @@ Attributen van objecttype Subsidiebeschikking
 | opmerkingen | text |  |
 | besluit | AN80 |  |
 | beschikkingsnummer | AN80 |  |
-| None | Class: "Subsidie" |  |
-
 
 
 
@@ -334,9 +314,6 @@ Attributen van objecttype Subsidiecomponent
 | :--- | :--- | :--- |
 | toegekendBedrag | Bedrag |  |
 | gereserveerdBedrag | Bedrag |  |
-| None | Class: "Betaalmoment" |  |
-| None | Class: "Kostenplaats" |  |
-
 
 
 
@@ -375,8 +352,6 @@ Attributen van objecttype Subsidieprogramma
 | datumStart | Date |  |
 | datumEinde | Date |  |
 | programmabegroting | Bedrag |  |
-| None | Class: "Subsidie" |  |
-
 
 
 
@@ -412,9 +387,8 @@ Attributen van objecttype Taak
 | :--- | :--- | :--- |
 | datumStart | Date |  |
 | datumEinde | Date |  |
-| termijn | int | Termijn in dagen  |
+| termijn | int | Termijn in dagen |
 | taakomschrijving | Text |  |
-
 
 
 
@@ -441,22 +415,22 @@ De enumeratie Subsidieniveau heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Subsidieniveau |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.5 |
 | created | 2025-03-26 11:13:14 |
 | modified | 2025-03-26 16:14:46 |
 | id | EAID_B4CF1D3E_D000_467d_A9D5_4519704F4A6D |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 

@@ -74,7 +74,6 @@ Attributen van objecttype AanvraagStadspas
 
 
 
-
 ### Client
 > **Definitie Client:** 
 >
@@ -109,15 +108,7 @@ Attributen van objecttype Client
 | gezagsdragerGekend | boolean |  |
 | juridischeStatus | AN80 |  |
 | wettelijkeVertegenwoordiging | AN80 |  |
-| None | Class: "Huishouden" |  |
-| None | Class: "Profiel" |  |
-| None | Class: "Bankrekening" |  |
-| None | Class: "Normafwijking" |  |
-| None | Class: "Leefsituatie" |  |
-| None | Class: "Aanvraag" |  |
-| None | Class: "Dienst" |  |
 | client | Class: "Schuldhulptraject" |  |
-
 
 
 
@@ -155,7 +146,6 @@ Attributen van objecttype Clientbegeleider
 
 
 
-
 ### Gerechtelijke uitspraak
 > **Definitie Gerechtelijke uitspraak:** 
 >
@@ -186,7 +176,6 @@ Attributen van objecttype Gerechtelijke uitspraak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -224,11 +213,6 @@ Attributen van objecttype Gezagsverhouding
 | indicatie gezag minderjarige | int |  |
 | ingangsdatum | Date |  |
 | einddatum | Date |  |
-| None | Class: "IngeschrevenPersoon" |  |
-| None | Class: "IngeschrevenPersoon" |  |
-| None | Class: "Gerechtelijke uitspraak" |  |
-| None | Class: "NietNatuurlijkPersoon" |  |
-
 
 
 
@@ -263,9 +247,6 @@ Attributen van objecttype Huishouden
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | soort | EnumHuishoudenssoort |  |
-| None | Class: "Nummeraanduiding" |  |
-| None | Class: "Nummeraanduiding" |  |
-
 
 
 
@@ -305,8 +286,6 @@ Attributen van objecttype Incident
 | toelichting | Text |  |
 | soort | Incidenttype |  |
 | locatie | Locatie |  |
-| None | Class: "Informering" |  |
-
 
 
 
@@ -345,8 +324,6 @@ Attributen van objecttype Leverancier
 | soortLeverancier | AN80 |  |
 | leverancierscode | AN8 |  |
 | naam | AN200 |  |
-| None | Class: "Contract" |  |
-
 
 
 
@@ -384,10 +361,6 @@ Attributen van objecttype Profiel
 | profieltype | AN200 |  |
 | datumAanvangProfiel | Date |  |
 | datumEindeProfiel | Date |  |
-| None | Class: "Reden aanvraag" |  |
-| None | Class: "Inkomstenverhouding" |  |
-| None | Class: "Vermogenscomponent" |  |
-
 
 
 
@@ -425,7 +398,6 @@ Attributen van objecttype Relatie
 
 
 
-
 ### Relatiesoort
 > **Definitie Relatiesoort:** 
 >
@@ -456,7 +428,6 @@ Attributen van objecttype Relatiesoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -498,7 +469,6 @@ Attributen van objecttype Sociale Groep
 
 
 
-
 ### Sociale Relatie
 > **Definitie Sociale Relatie:** 
 >
@@ -535,7 +505,6 @@ Attributen van objecttype Sociale Relatie
 
 
 
-
 ### Stadspas
 > **Definitie Stadspas:** 
 >
@@ -568,7 +537,6 @@ Attributen van objecttype Stadspas
 | :--- | :--- | :--- |
 | ingangsdatum | Date |  |
 | einddatum | Date |  |
-
 
 
 

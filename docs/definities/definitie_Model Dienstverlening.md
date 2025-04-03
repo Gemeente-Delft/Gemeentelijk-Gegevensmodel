@@ -6,22 +6,22 @@
 
 Het model 'Model Dienstverlening' kent de volgende objecttypen:
 
-* **Aanvraagdata**: Bron: GEN_REQ_DATA ID: REQ_DATA icm VELD_NAAM
-* **AanvraagOfMelding**: Komt overeen met een VJV  Bron: GEM_VJV (Distinct op REQ_ID) ID: REQ_ID
+* **Aanvraagdata**: Bron: GEN_REQ_DATA<br>ID: REQ_DATA icm VELD_NAAM
+* **AanvraagOfMelding**: Komt overeen met een VJV<br><br>Bron: GEM_VJV (Distinct op REQ_ID)<br>ID: REQ_ID
 * **Afspraakstatus**: de toestand van de afspraak
 * **Artikel**: Tekst die is gemaakt om gepubliceerd te worden als een onafhankelijk deel van een tijdschrift, krant, encyclopedie of ander werk
 * **Balieafspraak**: Balieafspraken zijn afspraken voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden of gaat plaatsvinden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.
 * **ExterneBron**: Bron buiten de eigen organisatie
-* **Formuliersoort**: Bron: GEM_FORM ID: FORM_ID
-* **Formuliersoortveld**: Bron: GEM_VELD ID: FORM_ID en VELD_NAAM
+* **Formuliersoort**: Bron: GEM_FORM<br>ID: FORM_ID
+* **Formuliersoortveld**: Bron: GEM_VELD<br>ID: FORM_ID en VELD_NAAM
 * **Klantbeoordeling**: goed- of afkeurende uitspraak; = mening, opvatting
 * **Klantbeoordelingreden**: Reden voor de beoordeling
 * **MOR-AanvraagOfMelding**: Bericht van een inwoner over een gebrek of opvallendheid in de openbare ruimte
-* **Onderwerp**: Bron: GEM_VJV_ONDERWERP ID: ONDERWERP_ID
+* **Onderwerp**: Bron: GEM_VJV_ONDERWERP<br>ID: ONDERWERP_ID
 * **ProductOfDienst**: Bron: QP_CALENDAR.CFM_SERVICES
 * **Telefoononderwerp**: Onderwerp waarover het telefooncontact gaat
-* **Telefoonstatus**:   ABANDONEDALERTING: ï¿½Opgehangen tijdens overgaan telefoonï¿½  DROPPEDCANCELED: ï¿½Opgehangen door systeemï¿½  ABANDONEDQUEUED: ï¿½Opgehangen tijdens wachten, zonder boodschap. ï¿½  CONNECTEDDIRECT: ï¿½Direct verbondenï¿½  CONNECTEDQUEUEDANNOUNCE: ï¿½Verbonden na wachtrij met boodschapï¿½  AbandonedQUEUEDANNOUNCE: ï¿½Opgehangen in wachtrij met boodschapï¿½  DroppedBusy: ï¿½Opgehangen door systeem, te drukï¿½  REJECTED: ï¿½Geweigerd door systeemï¿½  Droppedoverload: ï¿½Opgehangen door systeem vanwege overbelastingï¿½ 
-* **Telefoontje**: De telefoontgesprekken zijn alle keren dat iemand naar de gemeente belt en het telefoonsysteem neemt deze telefoongesprekken aan. Ongeacht of iemand daarna ophangt, door het systeem uit de wachtrij wordt gezet, doorverbonden wordt met een derde partij of er werkelijk wordt opgenomen.     
+* **Telefoonstatus**: ABANDONEDALERTING: ï¿½Opgehangen tijdens overgaan telefoonï¿½<br>DROPPEDCANCELED: ï¿½Opgehangen door systeemï¿½<br>ABANDONEDQUEUED: ï¿½Opgehangen tijdens wachten, zonder boodschap. ï¿½<br>CONNECTEDDIRECT: ï¿½Direct verbondenï¿½<br>CONNECTEDQUEUEDANNOUNCE: ï¿½Verbonden na wachtrij met boodschapï¿½<br>AbandonedQUEUEDANNOUNCE: ï¿½Opgehangen in wachtrij met boodschapï¿½<br>DroppedBusy: ï¿½Opgehangen door systeem, te drukï¿½<br>REJECTED: ï¿½Geweigerd door systeemï¿½<br>Droppedoverload: ï¿½Opgehangen door systeem vanwege overbelastingï¿½
+* **Telefoontje**: De telefoontgesprekken zijn alle keren dat iemand naar de gemeente belt en het telefoonsysteem neemt deze telefoongesprekken aan. Ongeacht of iemand daarna ophangt, door het systeem uit de wachtrij wordt gezet, doorverbonden wordt met een derde partij of er werkelijk wordt opgenomen.
 
 
 Het model 'Model Dienstverlening' heeft de volgende kenmerken:
@@ -46,8 +46,7 @@ Het model 'Model Dienstverlening' heeft de volgende kenmerken:
 ### Aanvraagdata
 > **Definitie Aanvraagdata:** 
 >
-> Bron: GEN_REQ_DATA
-> ID: REQ_DATA icm VELD_NAAM
+> Bron: GEN_REQ_DATA<br>ID: REQ_DATA icm VELD_NAAM
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -66,7 +65,7 @@ Het model 'Model Dienstverlening' heeft de volgende kenmerken:
 | gemma_naam | Aanvraagdata |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-6f15e2ca-531d-4879-b087-f43559d8c3fd](https://gemmaonline.nl/index.php/GEMMA/id-6f15e2ca-531d-4879-b087-f43559d8c3fd) |
-| gemma_definitie | Bron: GEN_REQ_DATA ID: REQ_DATA icm VELD_NAAM |
+| gemma_definitie | Bron: GEN_REQ_DATA<br>ID: REQ_DATA icm VELD_NAAM |
 | gemma_toelichting |  |
 
 
@@ -79,14 +78,10 @@ Attributen van objecttype Aanvraagdata
 
 
 
-
 ### AanvraagOfMelding
 > **Definitie AanvraagOfMelding:** 
 >
-> Komt overeen met een VJV
-> 
-> Bron: GEM_VJV (Distinct op REQ_ID)
-> ID: REQ_ID
+> Komt overeen met een VJV<br><br>Bron: GEM_VJV (Distinct op REQ_ID)<br>ID: REQ_ID
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -105,7 +100,7 @@ Attributen van objecttype Aanvraagdata
 | gemma_naam | AanvraagOfMelding |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f14fa1cf-f2c7-4bd6-862d-28ff1616a882](https://gemmaonline.nl/index.php/GEMMA/id-f14fa1cf-f2c7-4bd6-862d-28ff1616a882) |
-| gemma_definitie | Komt overeen met een VJV  Bron: GEM_VJV (Distinct op REQ_ID) ID: REQ_ID |
+| gemma_definitie | Komt overeen met een VJV<br><br>Bron: GEM_VJV (Distinct op REQ_ID)<br>ID: REQ_ID |
 | gemma_toelichting |  |
 
 
@@ -115,7 +110,7 @@ Attributen van objecttype AanvraagOfMelding
 | :--- | :--- | :--- |
 | afgehandeld | Boolean |  |
 | kanaal | AN80 |  |
-| soort | AN80 | Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding....  |
+| soort | AN80 | Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding.... |
 | datumAfhandeling | Date |  |
 | categorie | AN200 |  |
 | identificatie | AN40 |  |
@@ -132,8 +127,6 @@ Attributen van objecttype AanvraagOfMelding
 | statuscode | AN80 |  |
 | statusVolgorde | AN80 |  |
 | subcategoriecode | AN80 |  |
-| None | Class: "Zaak" |  |
-
 
 
 
@@ -171,7 +164,6 @@ Attributen van objecttype Afspraakstatus
 
 
 
-
 ### Artikel
 > **Definitie Artikel:** 
 >
@@ -202,7 +194,6 @@ Attributen van objecttype Artikel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -239,16 +230,13 @@ Attributen van objecttype Balieafspraak
 | starttijdGepland | Datetime |  |
 | tijdAangemaakt | Datetime |  |
 | toelichting | text |  |
-| tijdsduurGepland | int | Werkelijke tijdsduur in minuten
- |
+| tijdsduurGepland | int | Werkelijke tijdsduur in minuten |
 | wachttijdTotaal | int | Wachttijd inclusief de tijd dat iemand te vroeg voor de afspraak verschijnt en de tijd dat iemand moet wachten na de geplande starttijd van de afspraak |
 | eindtijdGepland | Datetime |  |
 | wachttijdVoorStartAfspraak | int | Tijdsduur dat iemand te vroeg is voor de afspraak |
 | wachttijdNaStartAfspraak | int | Tijdsduur die iemand moet wachten na de starttijd van de afspraak |
 | werkelijkeTijdsduur | int |  |
 | notitie | text |  |
-| None | Class: "Klantcontact" |  |
-
 
 
 
@@ -285,12 +273,10 @@ Attributen van objecttype ExterneBron
 
 
 
-
 ### Formuliersoort
 > **Definitie Formuliersoort:** 
 >
-> Bron: GEM_FORM
-> ID: FORM_ID
+> Bron: GEM_FORM<br>ID: FORM_ID
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -323,12 +309,10 @@ Attributen van objecttype Formuliersoort
 
 
 
-
 ### Formuliersoortveld
 > **Definitie Formuliersoortveld:** 
 >
-> Bron: GEM_VELD
-> ID: FORM_ID en VELD_NAAM
+> Bron: GEM_VELD<br>ID: FORM_ID en VELD_NAAM
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -364,7 +348,6 @@ Attributen van objecttype Formuliersoortveld
 
 
 
-
 ### Klantbeoordeling
 > **Definitie Klantbeoordeling:** 
 >
@@ -395,19 +378,13 @@ Attributen van objecttype Klantbeoordeling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| ddBeoordeling | Date | datum en tijdstip van de klantbeoordeling
- |
-| beoordeling | AN10 | cijfer voor de beoordeling (getal tussen 0 en 10)
- |
-| contactOpnemen | boolean | of de klant het al dan niet goed vind dat naar aanleiding van zijn/haar beoordeling contact wordt opgenomen
- |
+| ddBeoordeling | Date | datum en tijdstip van de klantbeoordeling |
+| beoordeling | AN10 | cijfer voor de beoordeling (getal tussen 0 en 10) |
+| contactOpnemen | boolean | of de klant het al dan niet goed vind dat naar aanleiding van zijn/haar beoordeling contact wordt opgenomen |
 | categorie | AN50 |  |
 | subCategorie | AN50 |  |
 | onderwerp | AN50 |  |
-| kanaal | AN100 | waar de beoordeling is uitgevoerd, te weten op de website, naar aanleiding van een webformulier of na schriftelijke uitvraag vanuit onze organisatie
- |
-| None | Class: "Klantbeoordelingreden" |  |
-
+| kanaal | AN100 | waar de beoordeling is uitgevoerd, te weten op de website, naar aanleiding van een webformulier of na schriftelijke uitvraag vanuit onze organisatie |
 
 
 
@@ -442,7 +419,6 @@ Attributen van objecttype Klantbeoordelingreden
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | reden | AN100 |  |
-
 
 
 
@@ -483,12 +459,10 @@ Attributen van objecttype MOR-AanvraagOfMelding
 
 
 
-
 ### Onderwerp
 > **Definitie Onderwerp:** 
 >
-> Bron: GEM_VJV_ONDERWERP
-> ID: ONDERWERP_ID
+> Bron: GEM_VJV_ONDERWERP<br>ID: ONDERWERP_ID
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -507,7 +481,7 @@ Attributen van objecttype MOR-AanvraagOfMelding
 | gemma_naam | Onderwerp |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-bc793405-f822-4a23-a8dc-74206f1d45df](https://gemmaonline.nl/index.php/GEMMA/id-bc793405-f822-4a23-a8dc-74206f1d45df) |
-| gemma_definitie | Bron: GEM_VJV_ONDERWERP ID: ONDERWERP_ID |
+| gemma_definitie | Bron: GEM_VJV_ONDERWERP<br>ID: ONDERWERP_ID |
 | gemma_toelichting |  |
 
 
@@ -518,7 +492,6 @@ Attributen van objecttype Onderwerp
 | naam | AN80 |  |
 | toelichting | text |  |
 | isActief | boolean |  |
-
 
 
 
@@ -555,8 +528,6 @@ Attributen van objecttype ProductOfDienst
 | naam | AN80 |  |
 | afhandeltijd | int | Standaard afhandeltijd in minuten |
 | ingebruik | Boolean |  |
-| None | Class: "Klantbeoordeling" |  |
-
 
 
 
@@ -594,21 +565,10 @@ Attributen van objecttype Telefoononderwerp
 
 
 
-
 ### Telefoonstatus
 > **Definitie Telefoonstatus:** 
 >
-> 
->  ABANDONEDALERTING: ï¿½Opgehangen tijdens overgaan telefoonï¿½
->  DROPPEDCANCELED: ï¿½Opgehangen door systeemï¿½
->  ABANDONEDQUEUED: ï¿½Opgehangen tijdens wachten, zonder boodschap. ï¿½
->  CONNECTEDDIRECT: ï¿½Direct verbondenï¿½
->  CONNECTEDQUEUEDANNOUNCE: ï¿½Verbonden na wachtrij met boodschapï¿½
->  AbandonedQUEUEDANNOUNCE: ï¿½Opgehangen in wachtrij met boodschapï¿½
->  DroppedBusy: ï¿½Opgehangen door systeem, te drukï¿½
->  REJECTED: ï¿½Geweigerd door systeemï¿½
->  Droppedoverload: ï¿½Opgehangen door systeem vanwege overbelastingï¿½
-> 
+> ABANDONEDALERTING: ï¿½Opgehangen tijdens overgaan telefoonï¿½<br>DROPPEDCANCELED: ï¿½Opgehangen door systeemï¿½<br>ABANDONEDQUEUED: ï¿½Opgehangen tijdens wachten, zonder boodschap. ï¿½<br>CONNECTEDDIRECT: ï¿½Direct verbondenï¿½<br>CONNECTEDQUEUEDANNOUNCE: ï¿½Verbonden na wachtrij met boodschapï¿½<br>AbandonedQUEUEDANNOUNCE: ï¿½Opgehangen in wachtrij met boodschapï¿½<br>DroppedBusy: ï¿½Opgehangen door systeem, te drukï¿½<br>REJECTED: ï¿½Geweigerd door systeemï¿½<br>Droppedoverload: ï¿½Opgehangen door systeem vanwege overbelastingï¿½
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -640,11 +600,10 @@ Attributen van objecttype Telefoonstatus
 
 
 
-
 ### Telefoontje
 > **Definitie Telefoontje:** 
 >
-> De telefoontgesprekken zijn alle keren dat iemand naar de gemeente belt en het telefoonsysteem neemt deze telefoongesprekken aan. Ongeacht of iemand daarna ophangt, door het systeem uit de wachtrij wordt gezet, doorverbonden wordt met een derde partij of er werkelijk wordt opgenomen.     
+> De telefoontgesprekken zijn alle keren dat iemand naar de gemeente belt en het telefoonsysteem neemt deze telefoongesprekken aan. Ongeacht of iemand daarna ophangt, door het systeem uit de wachtrij wordt gezet, doorverbonden wordt met een derde partij of er werkelijk wordt opgenomen.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -663,7 +622,7 @@ Attributen van objecttype Telefoonstatus
 | gemma_naam | Telefoontje |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-32052c54-e099-47e7-8ded-599537226dfa](https://gemmaonline.nl/index.php/GEMMA/id-32052c54-e099-47e7-8ded-599537226dfa) |
-| gemma_definitie | De telefoontjes zijn alle keren dat iemand naar de gemeente belt en het telefoonsysteem neemt deze telefoontjes aan. Ongeacht of iemand daarna ophangt, door het systeem uit de wachtrij wordt gezet, doorverbonden wordt met een derde partij of er werkelijk  |
+| gemma_definitie | De telefoontjes zijn alle keren dat iemand naar de gemeente belt en het telefoonsysteem neemt deze telefoontjes aan. Ongeacht of iemand daarna ophangt, door het systeem uit de wachtrij wordt gezet, doorverbonden wordt met een derde partij of er werkelijk |
 | gemma_toelichting |  |
 
 
@@ -675,13 +634,11 @@ Attributen van objecttype Telefoontje
 | eindtijd | DateTime | Het moment dat de telefooncentrale het telefoontjes beeindigd |
 | totaleTijdsduur | int | Tijd tussen start- en eindtijd van telefoontje |
 | trackID | AN20 |  |
-| totaleWachttijd | int | De tijd tussen de starttijd van het telefoontje en het moment dat het telefoontje voor het eerst wordt opgenomen, of het telefoontje wordt afgesloten  |
+| totaleWachttijd | int | De tijd tussen de starttijd van het telefoontje en het moment dat het telefoontje voor het eerst wordt opgenomen, of het telefoontje wordt afgesloten |
 | totaleSpreektijd | int | De totale tijd dat met een (of meer) medewerkers van de gemeente wordt gebeld. |
 | totaleOnHoldTijd | int | De totale tijd dat een beller tussen klantcontacten "on hold" wordt gezet. |
 | afhandeltijdNaGesprek | int | De tijd die de medewerker nodig heeft om het telefoontje af te handelen totdat hij/zij klaar is voor een volgend telefoontje |
 | deltaISDNConnectie | int | De totale tijd dat er een teelfoonverbinding was minus totale wachttijd, spreektijd en on hold-tijd. |
-| None | Class: "Klantcontact" |  |
-
 
 
 

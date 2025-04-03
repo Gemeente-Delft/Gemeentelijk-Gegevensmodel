@@ -7,7 +7,7 @@
 Het model 'Referentielijsten' kent de volgende objecttypen:
 
 * **AanduidingVerblijfsrecht**: Aanduiding in verband met het verblijfsrecht van de vreemdeling.
-* **AutoriteitAfgifteNederlandsReisdocument**: Een opsomming van de diverse coderingen van de autoriteiten die een Nederlands reisdocument kunnen afgegeven 
+* **AutoriteitAfgifteNederlandsReisdocument**: Een opsomming van de diverse coderingen van de autoriteiten die een Nederlands reisdocument kunnen afgegeven
 * **Verblijfstitel**: Rechtsgrond op basis waarvan men bevoegd is in een land te verblijven.
 * **AardAantekening**: Een opsomming van de diverse aarden van de aantekeningen zoals door de Dienst Kadaster is onderscheiden.
 * **AardZakelijkRecht**: Een opsomming van de diverse aarden van het zakelijk rechten zoals door de Dienst Kadaster is onderscheiden.
@@ -89,11 +89,10 @@ Attributen van objecttype AanduidingVerblijfsrecht
 
 
 
-
 ### AutoriteitAfgifteNederlandsReisdocument
 > **Definitie AutoriteitAfgifteNederlandsReisdocument:** 
 >
-> Een opsomming van de diverse coderingen van de autoriteiten die een Nederlands reisdocument kunnen afgegeven 
+> Een opsomming van de diverse coderingen van de autoriteiten die een Nederlands reisdocument kunnen afgegeven
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -122,10 +121,8 @@ Attributen van objecttype AutoriteitAfgifteNederlandsReisdocument
 | :--- | :--- | :--- |
 | code | AN6 | De code van de autoriteit van afgifte. |
 | omschrijving | AN | De omschrijving van de autoriteit van afgifte |
-| datumBeginGeldigheidAutoriteitVanAfgifte | DATUM | De datum waarop de autoriteit van afgifte is ontstaan.
- |
+| datumBeginGeldigheidAutoriteitVanAfgifte | DATUM | De datum waarop de autoriteit van afgifte is ontstaan. |
 | datumEindeGeldigheidAutoriteitVanAfgifte | DATUM | De datum waarop de autoriteit van aangifte is opgeheven. |
-
 
 
 
@@ -166,7 +163,6 @@ Attributen van objecttype Verblijfstitel
 
 
 
-
 ### AardAantekening
 > **Definitie AardAantekening:** 
 >
@@ -201,7 +197,6 @@ Attributen van objecttype AardAantekening
 | naamAardAantekening | AN | De naam van de aard aantekening. |
 | datumBeginGeldigheidAardAantekening | DATUM | De datum waarop de aard aantekening  is ontstaan. |
 | datumEindeGeldigheidAardAantekening | DATUM | De datum waarop de aard aantekening is opgeheven. |
-
 
 
 
@@ -242,7 +237,6 @@ Attributen van objecttype AardZakelijkRecht
 
 
 
-
 ### AardFiliatie
 > **Definitie AardFiliatie:** 
 >
@@ -277,7 +271,6 @@ Attributen van objecttype AardFiliatie
 | naamAardFiliatie | AN | De naam van de aard filiatie. |
 | datumBeginGeldigheidAardFiliatie | DATUM | De datum waarop de aard filiatie is ontstaan. |
 | datumEindeGeldigheidAardFiliatie | DATUM | De datum waarop de aard filiatie is opgeheven. |
-
 
 
 
@@ -319,7 +312,6 @@ Attributen van objecttype AcademischeTitel
 
 
 
-
 ### AkrKadastraleGemeentecode
 > **Definitie AkrKadastraleGemeentecode:** 
 >
@@ -357,7 +349,6 @@ Attributen van objecttype AkrKadastraleGemeentecode
 
 
 
-
 ### CultuurcodeBebouwd
 > **Definitie CultuurcodeBebouwd:** 
 >
@@ -388,11 +379,10 @@ Attributen van objecttype CultuurcodeBebouwd
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| cultuurcodeBebouwd | N2 | De code van het gebruik van een bebouwd stuk grond.  |
+| cultuurcodeBebouwd | N2 | De code van het gebruik van een bebouwd stuk grond. |
 | naamCultuurcodeBebouwd | AN | De naam van de cultuurcode bebouwd. |
 | datumBeginGeldigheidCultuurcodeBebouwd | DATUM | De datum waarop de cultuurcode bebouwd is ontstaan. |
 | datumEindeGeldigheidCultuurcodeBebouwd | DATUM | De datum waarop de cultuurcode bebouwd is opgeheven. |
-
 
 
 
@@ -433,7 +423,6 @@ Attributen van objecttype CultuurcodeOnbebouwd
 
 
 
-
 ### WOZ-Deelobjectcode
 > **Definitie WOZ-Deelobjectcode:** 
 >
@@ -471,7 +460,6 @@ Attributen van objecttype WOZ-Deelobjectcode
 
 
 
-
 ### KadastraleGemeente
 > **Definitie KadastraleGemeente:** 
 >
@@ -506,7 +494,6 @@ Attributen van objecttype KadastraleGemeente
 | naam | AN40 | De naam van de KADASTRALE GEMEENTE volgens de Dienst van het Kadaster en de Openbare Registers, zoals nader omschreven in het Kadasterbesluit |
 | datumBeginGeldigheidKadastraleGemeente | DATUM | De datum waarop de kadastrale gemeente is ontstaan. |
 | datumEindeGeldigheidKadastraleGemeente | DATUM | De datum waarop de kadastrale gemeente is opgeheven. |
-
 
 
 
@@ -548,7 +535,6 @@ Attributen van objecttype LandOfgebied
 
 
 
-
 ### Provincie
 > **Definitie Provincie:** 
 >
@@ -584,11 +570,8 @@ Attributen van objecttype Provincie
 | datumIngangProvincie | DATUM | De datum waarop het land/gebied is ontstaan. |
 | datumEindeProvincie | DATUM | De datum waarop het land/gebied is opgeheven. |
 | hoofdstad |  | De code van een huidig land of gebiedsdeel conform ISO 3166 |
-| oppervlakte | int | Oppervlakte in km2
- |
-| oppervlakteLand | int | Landoppervlakte in km2
- |
-
+| oppervlakte | int | Oppervlakte in km2 |
+| oppervlakteLand | int | Landoppervlakte in km2 |
 
 
 
@@ -600,7 +583,7 @@ Attributen van objecttype Provincie
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Partij |
-| toelichting | #NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.   |
+| toelichting | #NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -628,7 +611,6 @@ Attributen van objecttype Partij
 | verstrekkingsbeperkingMogelijk | INDIC | Indicator die aangeeft of van de betreffende PARTIJ een verstrekkingsbeperking mogelijk is. |
 | datumAanvangGeldigheidPartij | DATUM | De datum waarop de geldigheid van de partij is gestart. |
 | datumEindeGeldigheidPartij | DATUM | De datum waarop de geldigheid van de partij is beï¿½indigd. |
-
 
 
 
@@ -669,7 +651,6 @@ Attributen van objecttype RedenVerkrijgingNationaliteit
 
 
 
-
 ### RedenVerliesNationaliteit
 > **Definitie RedenVerliesNationaliteit:** 
 >
@@ -707,7 +688,6 @@ Attributen van objecttype RedenVerliesNationaliteit
 
 
 
-
 ### Reisdocumentsoort
 > **Definitie Reisdocumentsoort:** 
 >
@@ -742,7 +722,6 @@ Attributen van objecttype Reisdocumentsoort
 | reisdocumentOmschrijving | AN250 | De omschrijving van het model van het Nederlands reisdocument. |
 | datumBeginGeldigheidReisdocumentsoort | DATUM | De datum waarop de reisdocumentsoort is ontstaan. |
 | datumEindeGeldigheidReisdocumentsoort | DATUM | De datum waarop de reisdocumentsoort is opgeheven. |
-
 
 
 
@@ -787,7 +766,6 @@ Attributen van objecttype SBIActiviteit
 
 
 
-
 ### SoortGrootte
 > **Definitie SoortGrootte:** 
 >
@@ -822,7 +800,6 @@ Attributen van objecttype SoortGrootte
 | naamSoortGrootte | AN | De naam van de soort grootte. |
 | datumBeginGeldigheidSoortGrootte | DATUM | De datum waarop de soort grootte is ontstaan. |
 | datumEindeGeldigheidSoortGrootte | DATUM | De datum waarop de soort grootte is opgeheven. |
-
 
 
 
@@ -864,7 +841,6 @@ Attributen van objecttype SoortWOZObject
 
 
 
-
 ### Valutasoort
 > **Definitie Valutasoort:** 
 >
@@ -899,7 +875,6 @@ Attributen van objecttype Valutasoort
 | naamValuta | AN | De naam van de valuta. |
 | datumBeginGeldigheidValutasoort | Datum | De datum waarop de valuta is ontstaan. |
 | datumEindeGeldigheidValutasoort | Datum | De datum waarop de valuta is opgeheven. |
-
 
 
 
@@ -943,7 +918,6 @@ Attributen van objecttype Land
 
 
 
-
 ### Nationaliteit
 > **Definitie Nationaliteit:** 
 >
@@ -981,7 +955,6 @@ Attributen van objecttype Nationaliteit
 
 
 
-
 ### Valuta
 > **Definitie Valuta:** 
 >
@@ -1016,7 +989,6 @@ Attributen van objecttype Valuta
 | naam | AN42 | De omschrijving van de nationaliteit. |
 | datumBeginGeldigheid | datum | De datum waarop de nationaliteit is ontstaan. |
 | datumEindeGeldigheid | datum | De datum waarop de nationaliteit is opgeheven. |
-
 
 
 

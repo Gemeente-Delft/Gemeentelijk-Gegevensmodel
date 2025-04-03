@@ -72,7 +72,6 @@ Attributen van objecttype Behandeling
 
 
 
-
 ### Behandelsoort
 > **Definitie Behandelsoort:** 
 >
@@ -108,7 +107,6 @@ Attributen van objecttype Behandelsoort
 
 
 
-
 ### Bijzonderheid
 > **Definitie Bijzonderheid:** 
 >
@@ -140,7 +138,6 @@ Attributen van objecttype Bijzonderheid
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | omschrijving | text |  |
-
 
 
 
@@ -179,7 +176,6 @@ Attributen van objecttype Bijzonderheidsoort
 
 
 
-
 ### Caseaanmelding
 > **Definitie Caseaanmelding:** 
 >
@@ -211,7 +207,6 @@ Attributen van objecttype Caseaanmelding
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datum | date |  |
-
 
 
 
@@ -249,7 +244,6 @@ Attributen van objecttype Doelstelling
 
 
 
-
 ### Doelstellingsoort
 > **Definitie Doelstellingsoort:** 
 >
@@ -282,7 +276,6 @@ Attributen van objecttype Doelstellingsoort
 | :--- | :--- | :--- |
 | naam | AN80 |  |
 | omschrijving | text |  |
-
 
 
 
@@ -324,7 +317,6 @@ Attributen van objecttype SociaalTeamDossier
 
 
 
-
 ### SociaalteamDossiersoort
 > **Definitie SociaalteamDossiersoort:** 
 >
@@ -357,7 +349,6 @@ Attributen van objecttype SociaalteamDossiersoort
 | :--- | :--- | :--- |
 | naam | AN80 |  |
 | omschrijving | text |  |
-
 
 
 

@@ -74,7 +74,6 @@ Attributen van objecttype Doelgroep
 
 
 
-
 ### Fraudegegevens
 > **Definitie Fraudegegevens:** 
 >
@@ -114,7 +113,6 @@ Attributen van objecttype Fraudegegevens
 
 
 
-
 ### Fraudesoort
 > **Definitie Fraudesoort:** 
 >
@@ -146,7 +144,6 @@ Attributen van objecttype Fraudesoort
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | naam | AN80 |  |
-
 
 
 
@@ -190,7 +187,6 @@ Attributen van objecttype Participatiedossier
 
 
 
-
 ### Reden Beeindiging
 > **Definitie Reden Beeindiging:** 
 >
@@ -223,7 +219,6 @@ Attributen van objecttype Reden Beeindiging
 | :--- | :--- | :--- |
 | naam | AN80 |  |
 | omschrijving | text |  |
-
 
 
 
@@ -262,7 +257,6 @@ Attributen van objecttype Taalniveau
 
 
 
-
 ### Tegenprestatie
 > **Definitie Tegenprestatie:** 
 >
@@ -295,7 +289,6 @@ Attributen van objecttype Tegenprestatie
 | :--- | :--- | :--- |
 | startdatum | Date |  |
 | einddatum | Date |  |
-
 
 
 
@@ -335,7 +328,6 @@ Attributen van objecttype Tegenprestatiehoogte
 
 
 
-
 ### Traject
 > **Definitie Traject:** 
 >
@@ -370,7 +362,6 @@ Attributen van objecttype Traject
 | einddatum | date |  |
 | toekenningsdatum | date |  |
 | status | AN20 |  |
-
 
 
 
@@ -415,7 +406,6 @@ Attributen van objecttype TrajectActiviteit
 
 
 
-
 ### TrajectActiviteitsoort
 > **Definitie TrajectActiviteitsoort:** 
 >
@@ -449,7 +439,6 @@ Attributen van objecttype TrajectActiviteitsoort
 | omschrijving | AN50 |  |
 | Aanleveren SRG | AN20 |  |
 | Type Traject SRG | AN20 |  |
-
 
 
 
@@ -491,7 +480,6 @@ Attributen van objecttype Trajectsoort
 
 
 
-
 ## Enumeraties Model Werk
 
 
@@ -511,22 +499,22 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Boolean |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
 | id | EAID_316f93fc_051e_43e5_a3f6_3a9922184249 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 

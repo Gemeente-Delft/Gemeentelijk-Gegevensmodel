@@ -75,7 +75,6 @@ Attributen van objecttype Bankrekening
 
 
 
-
 ### Hypotheek
 > **Definitie Hypotheek:** 
 >
@@ -107,7 +106,6 @@ Attributen van objecttype Hypotheek
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | Overwaarde | Geldbedrag |  |
-
 
 
 
@@ -146,7 +144,6 @@ Attributen van objecttype Motorvoertuig
 
 
 
-
 ### Onroerend goed
 > **Definitie Onroerend goed:** 
 >
@@ -178,7 +175,6 @@ Attributen van objecttype Onroerend goed
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | Overwaarde | Geldbedrag |  |
-
 
 
 
@@ -220,7 +216,6 @@ Attributen van objecttype Vermogenscomponent
 
 
 
-
 ### Waardepeiling
 > **Definitie Waardepeiling:** 
 >
@@ -259,7 +254,6 @@ Attributen van objecttype Waardepeiling
 | Waarde vermogenscomponent | Geldbedrag |  |
 | WaardepeilingId | CharacterString |  |
 | WaardeSoort vermogenscomponent |  |  |
-
 
 
 

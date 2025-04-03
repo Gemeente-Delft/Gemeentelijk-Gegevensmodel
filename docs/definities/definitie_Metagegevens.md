@@ -70,7 +70,6 @@ Attributen van objecttype Brondocumenten
 
 
 
-
 ### FormeleHistorie
 > **Definitie FormeleHistorie:** 
 >
@@ -105,7 +104,6 @@ Attributen van objecttype FormeleHistorie
 
 
 
-
 ### InOnderzoek
 > **Definitie InOnderzoek:** 
 >
@@ -137,7 +135,6 @@ Attributen van objecttype InOnderzoek
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | aanduidingGegevensInOnderzoek | AN1 | Een aanduiding waarmee wordt aangegeven dat een onderzoek wordt uitgevoerd naar de juistheid van een of meerdere gegevens van het betreffende object. |
-
 
 
 
@@ -176,7 +173,6 @@ Attributen van objecttype MaterieleHistorie
 
 
 
-
 ### StrijdigheidOfNietigheid
 > **Definitie StrijdigheidOfNietigheid:** 
 >
@@ -208,7 +204,6 @@ Attributen van objecttype StrijdigheidOfNietigheid
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | aanduidingStrijdigheidNietigheid | AN1 | De aanduiding dat ï¿½ï¿½n of meer gegevens van het object strijdig met de openbare orde dan wel nietig zijn |
-
 
 
 

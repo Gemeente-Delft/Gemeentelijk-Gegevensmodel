@@ -6,7 +6,7 @@
 
 Het model 'Model Inkoop' kent de volgende objecttypen:
 
-* **Aanbesteding**: Kan een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding 
+* **Aanbesteding**: Kan een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding
 * **Aanbesteding Inhuur**: Aanbesteding voor inhuur van personen of diensten
 * **Aankondiging**: Aankondiging van een Nationale of Europese aanbesteding
 * **Aanvraag Inkooporder**: het betreft hier het formulier 'Aanvraag Inkooporder'
@@ -15,13 +15,13 @@ Het model 'Model Inkoop' kent de volgende objecttypen:
 * **CPV-code**: De Common Procurement Vocabulary (CPV-codes) is een gemeenschappelijke woordenlijst van de EU, alle mogelijke soorten overheidsopdrachten voor diensten, leveringen en werken hebben een eigen code gekregen. Aanbestedende diensten moeten bij Europese aanbestedingen dit classificatiesysteem toepassen.
 * **FormulierInhuur**: Formulier ten behoeve van inhuur personeel
 * **FormulierVerlengingInhuur**: Formulier ten behoeve van verlenging inhuur personeel
-* **Gunning**: Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding  Of voor levering personeel
-* **Inkooppakket**: Standaard indeling om de werken, diensten en leveringen die de aanbestedende dienst helpt bij het structureren van haar uitgaven. Samenhangende leveringen, diensten en producten zijn hierin gegroepeerd. 
-* **Inschrijving**: Inschrijving op een nationale of Europese aanbesteding  
-* **Kandidaat**: Iemand die een bepaalde baan of functie wil 
+* **Gunning**: Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding<br>Of voor levering personeel
+* **Inkooppakket**: Standaard indeling om de werken, diensten en leveringen die de aanbestedende dienst helpt bij het structureren van haar uitgaven. Samenhangende leveringen, diensten en producten zijn hierin gegroepeerd.
+* **Inschrijving**: Inschrijving op een nationale of Europese aanbesteding
+* **Kandidaat**: Iemand die een bepaalde baan of functie wil
 * **Kwalificatie**: Kwalifificatie voor een nationale of europese aanbesteding
 * **Leverancier**: Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie
-* **Offerte**: Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs. 
+* **Offerte**: Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs.
 * **Offerteaanvraag**: Aanbesteding bij inschrijving
 * **SelectietabelAanbesteding**: Gebaseerd op het procedureoverzicht inkoop. Hierin kan de tabel met drempelbedragen en bijbehorende procedures worden opgeslagen
 * **StartformulierAanbesteden**: Formulier voor het starten van een aanbeseding
@@ -50,7 +50,7 @@ Het model 'Model Inkoop' heeft de volgende kenmerken:
 ### Aanbesteding
 > **Definitie Aanbesteding:** 
 >
-> Kan een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding 
+> Kan een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -88,11 +88,6 @@ Attributen van objecttype Aanbesteding
 | referentienummer | AN80 |  |
 | datumPublicatie | DateTime |  |
 | scoreMaximaal | int |  |
-| None | Class: "Medewerker" |  |
-| None | Class: "Zaak" |  |
-| None | Class: "Gunning" |  |
-| None | Class: "CPV-code" |  |
-
 
 
 
@@ -146,11 +141,6 @@ Attributen van objecttype Aanbesteding Inhuur
 | projectnaam | AN200 |  |
 | aanvraagGesloten | DateTime |  |
 | fase | AN80 |  |
-| None | Class: "Gunning" |  |
-| None | Class: "CPV-code" |  |
-| None | Class: "Medewerker" |  |
-| None | Class: "Categorie" |  |
-
 
 
 
@@ -189,8 +179,6 @@ Attributen van objecttype Aankondiging
 | beschrijving | text |  |
 | type | Enumeratie: "Aanbestedingsoort" |  |
 | categorie | Enumeratie: "Opdrachtcategorie" |  |
-| None | Class: "Aanbesteding" |  |
-
 
 
 
@@ -234,13 +222,6 @@ Attributen van objecttype Aanvraag Inkooporder
 | nettoTotaalBedrag | Bedrag |  |
 | reactie | Text |  |
 | status | AN80 |  |
-| None | Class: "Zaak" |  |
-| None | Class: "Leverancier" |  |
-| None | Class: "OrganisatorischeEenheid" |  |
-| None | Class: "Contract" |  |
-| None | Class: "Inkooporder" |  |
-| None | Class: "Medewerker" |  |
-
 
 
 
@@ -276,7 +257,6 @@ Attributen van objecttype Categorie
 | :--- | :--- | :--- |
 | code | AN80 |  |
 | omschrijving | AN300 |  |
-
 
 
 
@@ -326,10 +306,6 @@ Attributen van objecttype Contract
 | datumStart | Date |  |
 | datumEinde | Date |  |
 | datumCreatie | Date |  |
-| None | Class: "Tarief" |  |
-| None | Class: "Contract" |  |
-| None | Class: "Leverancier" |  |
-
 
 
 
@@ -368,7 +344,6 @@ Attributen van objecttype CPV-code
 
 
 
-
 ### FormulierInhuur
 > **Definitie FormulierInhuur:** 
 >
@@ -403,10 +378,6 @@ Attributen van objecttype FormulierInhuur
 | datumIngangInhuur | Date |  |
 | akkoordHRAdviseur | Boolean |  |
 | akkoordFinancieelAdviseur | Boolean |  |
-| None | Class: "Kostenplaats" |  |
-| None | Class: "Aanbesteding Inhuur" |  |
-| None | Class: "Medewerker" |  |
-
 
 
 
@@ -444,19 +415,13 @@ Attributen van objecttype FormulierVerlengingInhuur
 | indicatieVerhogenInkooporder | Boolean |  |
 | indicatieRedenInhuurGewijzigd | Boolean |  |
 | toelichting | text |  |
-| None | Class: "Medewerker" |  |
-| None | Class: "Inkooporder" |  |
-| None | Class: "Leverancier" |  |
-| None | Class: "Medewerker" |  |
-
 
 
 
 ### Gunning
 > **Definitie Gunning:** 
 >
-> Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding 
-> Of voor levering personeel
+> Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding<br>Of voor levering personeel
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -475,7 +440,7 @@ Attributen van objecttype FormulierVerlengingInhuur
 | gemma_naam | Gunning |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-70e40543-6a99-433d-8a01-f4273e308410](https://gemmaonline.nl/index.php/GEMMA/id-70e40543-6a99-433d-8a01-f4273e308410) |
-| gemma_definitie | Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding  Of voor levering personeel |
+| gemma_definitie | Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding<br>Of voor levering personeel |
 | gemma_toelichting |  |
 
 
@@ -488,18 +453,13 @@ Attributen van objecttype Gunning
 | datumVoorlopigeGunning | DateTime |  |
 | gegundePrijs | bedrag |  |
 | datumPublicatie | DateTime |  |
-| None | Class: "Inschrijving" |  |
-| None | Class: "Kandidaat" |  |
-| None | Class: "Offerte" |  |
-| None | Class: "Medewerker" |  |
-
 
 
 
 ### Inkooppakket
 > **Definitie Inkooppakket:** 
 >
-> Standaard indeling om de werken, diensten en leveringen die de aanbestedende dienst helpt bij het structureren van haar uitgaven. Samenhangende leveringen, diensten en producten zijn hierin gegroepeerd. 
+> Standaard indeling om de werken, diensten en leveringen die de aanbestedende dienst helpt bij het structureren van haar uitgaven. Samenhangende leveringen, diensten en producten zijn hierin gegroepeerd.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -532,12 +492,10 @@ Attributen van objecttype Inkooppakket
 
 
 
-
 ### Inschrijving
 > **Definitie Inschrijving:** 
 >
-> Inschrijving op een nationale of Europese aanbesteding 
-> 
+> Inschrijving op een nationale of Europese aanbesteding
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -567,15 +525,13 @@ Attributen van objecttype Inschrijving
 | datum | DateTime |  |
 | prijs | Bedrag |  |
 | score | int |  |
-| None | Class: "Aanbesteding" |  |
-
 
 
 
 ### Kandidaat
 > **Definitie Kandidaat:** 
 >
-> Iemand die een bepaalde baan of functie wil 
+> Iemand die een bepaalde baan of functie wil
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -603,9 +559,6 @@ Attributen van objecttype Kandidaat
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datumIngestuurd | DateTime |  |
-| None | Class: "NatuurlijkPersoon" |  |
-| None | Class: "Aanbesteding Inhuur" |  |
-
 
 
 
@@ -641,8 +594,6 @@ Attributen van objecttype Kwalificatie
 | :--- | :--- | :--- |
 | startGeldigheid | Date |  |
 | eindeGeldigheid | Date |  |
-| None | Class: "Aanbesteding" |  |
-
 
 
 
@@ -678,18 +629,13 @@ Attributen van objecttype Leverancier
 | :--- | :--- | :--- |
 | naam | AN200 |  |
 | nummer | AN40 |  |
-| None | Class: "Inschrijving" |  |
-| None | Class: "Kwalificatie" |  |
-| None | Class: "Kandidaat" |  |
-| None | Class: "Categorie" |  |
-
 
 
 
 ### Offerte
 > **Definitie Offerte:** 
 >
-> Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs. 
+> Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -720,9 +666,6 @@ Attributen van objecttype Offerte
 | datumOfferte | Date |  |
 | naam | AN200 |  |
 | omschrijving | text |  |
-| None | Class: "Leverancier" |  |
-| None | Class: "Aanbesteding" |  |
-
 
 
 
@@ -760,9 +703,6 @@ Attributen van objecttype Offerteaanvraag
 | datumSluiting | date |  |
 | naam | AN80 |  |
 | omschrijving | text |  |
-| None | Class: "Aanbesteding" |  |
-| None | Class: "Leverancier" |  |
-
 
 
 
@@ -801,7 +741,6 @@ Attributen van objecttype SelectietabelAanbesteding
 | drempelbedragTot | Bedrag |  |
 | aanbestedingsoort | Enumeratie: "Aanbestedingsoort" |  |
 | openbaar | Boolean |  |
-
 
 
 
@@ -844,23 +783,11 @@ Attributen van objecttype StartformulierAanbesteden
 | indicatieMeerjarigeRaamovereenkomst | boolean |  |
 | toelichtingEenmaligOfRepeterend | text |  |
 | indicatieAanvullendeOpdrachtLeverancier | boolean |  |
-| toelichtingAanvullendeOpdracht | text | Zijn er mogelijk nog aanvullende of gerelateerde opdrachten, die je ook wilt verstrekken aan de beoogde opdrachtnemer? 
- |
+| toelichtingAanvullendeOpdracht | text | Zijn er mogelijk nog aanvullende of gerelateerde opdrachten, die je ook wilt verstrekken aan de beoogde opdrachtnemer? |
 | beoogdeLooptijd | int | Beoogde looptijd in jaren |
 | beoogdeTotaleOpdrachtwaarde | Bedrag |  |
-| indicatieBeoogdeAanbestedingOnderhands | Boolean | Welke aanbestedingsprocedure ben je voornemens te volgen? 
-<ol>
- <li>1-op-1 (enkelvoudig onderhands) of 3 tot 5 offertes (meervoudig onderhands)</li>
- <li>Nationale of Europese aanbesteding </li>
-</ol>
-
- |
-| indicatieBeoogdeProcKomtOvereen | boolean | Komt - op basis van de hierboven genoemde totale opdrachtwaarde - de beoogde aanbestedings-procedure overeen met de voorgeschreven procedure uit het Procedure-overzicht en/of het 'groene' gedeelte in de kleurentabel uit de gids proportionaliteit?
- |
-| None | Class: "Zaak" |  |
-| None | Class: "Aankondiging" |  |
-| None | Class: "Aanbesteding" |  |
-
+| indicatieBeoogdeAanbestedingOnderhands | Boolean | Welke aanbestedingsprocedure ben je voornemens te volgen?<br><ol><br><li>1-op-1 (enkelvoudig onderhands) of 3 tot 5 offertes (meervoudig onderhands)</li><br><li>Nationale of Europese aanbesteding </li><br></ol> |
+| indicatieBeoogdeProcKomtOvereen | boolean | Komt - op basis van de hierboven genoemde totale opdrachtwaarde - de beoogde aanbestedings-procedure overeen met de voorgeschreven procedure uit het Procedure-overzicht en/of het 'groene' gedeelte in de kleurentabel uit de gids proportionaliteit? |
 
 
 
@@ -897,9 +824,6 @@ Attributen van objecttype Uitnodiging
 | datum | DateTime |  |
 | afgewezen | Boolean |  |
 | geaccepteerd | Boolean |  |
-| None | Class: "Leverancier" |  |
-| None | Class: "Aanbesteding Inhuur" |  |
-
 
 
 
@@ -925,22 +849,22 @@ De enumeratie Aanbestedingsoort heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Aanbestedingsoort |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:19 |
 | modified | 2025-03-26 16:14:48 |
 | id | EAID_B8B79BCE_8F87_46f7_BB15_288266799E56 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -959,22 +883,22 @@ De enumeratie Inkooprol heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Inkooprol |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:19 |
 | modified | 2025-03-26 16:14:48 |
 | id | EAID_2C2791CB_EFCA_444f_A95E_F1EF6EE83594 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -994,22 +918,22 @@ De enumeratie Opdrachtcategorie heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Opdrachtcategorie |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:19 |
 | modified | 2025-03-26 16:14:48 |
 | id | EAID_87322382_E60F_4d0e_93B0_6628D3CC964B |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1028,22 +952,22 @@ De enumeratie Opdrachtsoort heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Opdrachtsoort |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:19 |
 | modified | 2025-03-26 16:14:48 |
 | id | EAID_5D6461E2_0D66_4039_BBF4_B413322EF194 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 

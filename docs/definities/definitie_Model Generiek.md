@@ -73,8 +73,6 @@ Attributen van objecttype Foto
 | pixelsX | int |  |
 | pixelsY | int |  |
 | locatie | GML |  |
-| None | Class: "Erfgoed Object" |  |
-
 
 
 
@@ -112,7 +110,6 @@ Attributen van objecttype Gebied
 
 
 
-
 ### Gebiedengroep
 > **Definitie Gebiedengroep:** 
 >
@@ -143,8 +140,6 @@ Attributen van objecttype Gebiedengroep
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Gebied" |  |
-
 
 
 
@@ -182,7 +177,6 @@ Attributen van objecttype Lijn
 
 
 
-
 ### Lijnengroep
 > **Definitie Lijnengroep:** 
 >
@@ -213,8 +207,6 @@ Attributen van objecttype Lijnengroep
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Lijn" |  |
-
 
 
 
@@ -254,7 +246,6 @@ Attributen van objecttype Locatie
 
 
 
-
 ### Punt
 > **Definitie Punt:** 
 >
@@ -289,7 +280,6 @@ Attributen van objecttype Punt
 
 
 
-
 ### Puntengroep
 > **Definitie Puntengroep:** 
 >
@@ -320,8 +310,6 @@ Attributen van objecttype Puntengroep
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Punt" |  |
-
 
 
 
@@ -359,10 +347,6 @@ Attributen van objecttype Video-opname
 | lengte | int |  |
 | videoformaat | AN80 |  |
 | bestandsgrootte | int |  |
-| None | Class: "Erfgoed Object" |  |
-| None | Class: "Agendapunt" |  |
-| None | Class: "Vergadering" |  |
-
 
 
 

@@ -69,7 +69,6 @@ Attributen van objecttype Ambacht
 
 
 
-
 ### Beschermde Status
 > **Definitie Beschermde Status:** 
 >
@@ -110,16 +109,6 @@ Attributen van objecttype Beschermde Status
 | opmerkingen | text |  |
 | bronnen | AN400 |  |
 | omschrijving | Text |  |
-| None | Class: "Bouwstijl" |  |
-| None | Class: "Foto" |  |
-| None | Class: "OpenbareRuimte" |  |
-| None | Class: "OpenbareRuimte" |  |
-| None | Class: "Bouwactiviteit" |  |
-| None | Class: "KadastraleOnroerendeZaak" |  |
-| None | Class: "Ambacht" |  |
-| None | Class: "Pand" |  |
-| None | Class: "OorspronkelijkeFunctie" |  |
-
 
 
 
@@ -161,7 +150,6 @@ Attributen van objecttype Bouwactiviteit
 
 
 
-
 ### Bouwstijl
 > **Definitie Bouwstijl:** 
 >
@@ -199,7 +187,6 @@ Attributen van objecttype Bouwstijl
 
 
 
-
 ### Bouwtype
 > **Definitie Bouwtype:** 
 >
@@ -233,7 +220,6 @@ Attributen van objecttype Bouwtype
 | hoofdcategorie | AN200 |  |
 | subcategorie | AN200 |  |
 | toelichting | text |  |
-
 
 
 
@@ -280,7 +266,6 @@ Attributen van objecttype OorspronkelijkeFunctie
 
 
 
-
 ## Enumeraties Model Monumenten
 
 
@@ -298,22 +283,22 @@ De enumeratie TypeMonument heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | TypeMonument |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:46 |
 | modified | 2025-03-26 16:14:36 |
 | id | EAID_5C808AC9_CB09_4f4d_813E_821829856BA8 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 

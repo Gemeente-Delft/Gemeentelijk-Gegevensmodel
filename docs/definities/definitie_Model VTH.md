@@ -6,7 +6,7 @@
 
 Het model 'Model VTH' kent de volgende objecttypen:
 
-* **Activiteit**: Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd. 
+* **Activiteit**: Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd.
 * **AOMStatus**: <Geen Definities>
 * **Bevinding**: Een waarneming of conclusie die voortkomt uit een inspectie, controle of onderzoek uitgevoerd door de gemeente.
 * **BOA**: Een buitengewoon opsporingsambtenaar (boa) is een ambtenaar met een specifieke opsporingsbevoegdheid.
@@ -22,7 +22,7 @@ Het model 'Model VTH' kent de volgende objecttypen:
 * **Ligplaatsontheffing**: Tijdelijke toestemming voor het innemen van een ligplaats op een locatie in een gebied met een verbod op ligplaatsen.
 * **MORAanvraagOfMelding**: Een door een burger of organisatie ingediend verzoek een besluit te nemen of om informatie te verstrekken, of een ingediende melding betreffende een waargenomen probleem, gebrek of gevaar in de openbare ruimte, die valt onder de verantwoordelijkheid van de lokale overheid voor onderhoud, beheer of handhaving.
 * **OpenbareActiviteit**: Activiteit in het publieke domein
-* **Precario**: Belasting die specifiek wordt geheven voor het plaatsen van voorwerpen onder, op of boven voor de openbare dienst bestemde gemeentegrond. 
+* **Precario**: Belasting die specifiek wordt geheven voor het plaatsen van voorwerpen onder, op of boven voor de openbare dienst bestemde gemeentegrond.
 * **Producttype**: <Geen Definities>
 * **SubProducttype**: <Geen Definities>
 * **Vaartuig**: Een zee- of binnenvaartuig, tot de vaart gebruikt of bestemd, daaronder begrepen drijvende werktuigen, zoals baggerwerktuigen, kranen, bokken, elevators, alsmede woonschepen, glijboten en ponten.
@@ -60,7 +60,7 @@ Het model 'Model VTH' heeft de volgende kenmerken:
 ### Activiteit
 > **Definitie Activiteit:** 
 >
-> Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd. 
+> Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -88,7 +88,6 @@ Attributen van objecttype Activiteit
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | omschrijving | AN200 |  |
-
 
 
 
@@ -127,7 +126,6 @@ Attributen van objecttype AOMStatus
 | status | AN80 |  |
 | statusVolgorde | AN80 |  |
 | statuscode | AN80 |  |
-
 
 
 
@@ -172,8 +170,6 @@ Attributen van objecttype Bevinding
 | aangemaaktDoor | AN40 |  |
 | datumMutatie | Date |  |
 | gemuteerdDoor | AN40 |  |
-| None | Class: "Inspectie" |  |
-
 
 
 
@@ -210,7 +206,6 @@ Attributen van objecttype BOA
 
 
 
-
 ### Combibon
 > **Definitie Combibon:** 
 >
@@ -242,7 +237,6 @@ Attributen van objecttype Combibon
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | sanctie | AN250 |  |
-
 
 
 
@@ -281,7 +275,6 @@ Attributen van objecttype Fietsregistratie
 
 
 
-
 ### Grondslag
 > **Definitie Grondslag:** 
 >
@@ -314,7 +307,6 @@ Attributen van objecttype Grondslag
 | :--- | :--- | :--- |
 | omschrijving | AN200 |  |
 | code | AN10 |  |
-
 
 
 
@@ -353,8 +345,6 @@ Attributen van objecttype Heffinggrondslag
 | paragraaf | AN8 |  |
 | omschrijving | AN250 |  |
 | bedrag | Bedrag |  |
-| None | Class: "Heffingsverordening" |  |
-
 
 
 
@@ -391,7 +381,6 @@ Attributen van objecttype Heffingsverordening
 
 
 
-
 ### Indiener
 > **Definitie Indiener:** 
 >
@@ -422,7 +411,6 @@ Attributen van objecttype Indiener
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -467,8 +455,6 @@ Attributen van objecttype Inspectie
 | aangemaaktDoor | AN50 |  |
 | datumMutatie | Date |  |
 | gemuteerdDoor | AN50 |  |
-| None | Class: "VTHzaak" |  |
-
 
 
 
@@ -518,8 +504,6 @@ Attributen van objecttype Kosten
 | gefactureerdOp | Date |  |
 | datumMutatie | Date |  |
 | gemuteerdDoor | AN50 |  |
-| None | Class: "VTHzaak" |  |
-
 
 
 
@@ -563,9 +547,6 @@ Attributen van objecttype Leges_Grondslag
 | aangemaaktDoor | AN50 |  |
 | datumMutatie | Date |  |
 | gemuteerdDoor | AN50 |  |
-| None | Class: "VTHzaak" |  |
-| None | Class: "Activiteit" |  |
-
 
 
 
@@ -600,7 +581,6 @@ Attributen van objecttype Ligplaatsontheffing
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | stickernummer | int |  |
-
 
 
 
@@ -642,7 +622,6 @@ Attributen van objecttype MORAanvraagOfMelding
 
 
 
-
 ### OpenbareActiviteit
 > **Definitie OpenbareActiviteit:** 
 >
@@ -681,11 +660,10 @@ Attributen van objecttype OpenbareActiviteit
 
 
 
-
 ### Precario
 > **Definitie Precario:** 
 >
-> Belasting die specifiek wordt geheven voor het plaatsen van voorwerpen onder, op of boven voor de openbare dienst bestemde gemeentegrond. 
+> Belasting die specifiek wordt geheven voor het plaatsen van voorwerpen onder, op of boven voor de openbare dienst bestemde gemeentegrond.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -712,7 +690,6 @@ Attributen van objecttype Precario
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -750,7 +727,6 @@ Attributen van objecttype Producttype
 
 
 
-
 ### SubProducttype
 > **Definitie SubProducttype:** 
 >
@@ -783,7 +759,6 @@ Attributen van objecttype SubProducttype
 | :--- | :--- | :--- |
 | omschrijving | AN200 |  |
 | prioriteit | AN2 |  |
-
 
 
 
@@ -823,7 +798,6 @@ Attributen van objecttype Vaartuig
 | lengte | int |  |
 | breedte | int |  |
 | hoogte | int |  |
-
 
 
 
@@ -871,7 +845,6 @@ Attributen van objecttype VOMAanvraagOfMelding
 
 
 
-
 ### Vordering
 > **Definitie Vordering:** 
 >
@@ -915,9 +888,6 @@ Attributen van objecttype Vordering
 | aangemaaktDoor | AN50 |  |
 | datumMutatie | Date |  |
 | gemuteerdDoor | AN50 |  |
-| None | Class: "Vorderingregel" |  |
-| None | Class: "VTHzaak" |  |
-
 
 
 
@@ -961,8 +931,6 @@ Attributen van objecttype Vorderingregel
 | Mutatiedatum | Datum |  |
 | Aangemaakt_door | AN50 |  |
 | Aanmaakdatum | Datum |  |
-| None | Class: "Kosten" |  |
-
 
 
 
@@ -997,7 +965,6 @@ Attributen van objecttype VTH-AanvraagOfMelding
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | omschrijving | AN1000 |  |
-
 
 
 
@@ -1047,10 +1014,6 @@ Attributen van objecttype VTH-Melding
 | activiteit | AN80 |  |
 | zaaknummer | AN20 |  |
 | overtredingscode | AN20 |  |
-| None | Class: "Foto" |  |
-| None | Class: "Object" |  |
-| None | Class: "BOA" |  |
-
 
 
 
@@ -1090,10 +1053,6 @@ Attributen van objecttype VTHzaak
 | behandelaar | AN20 |  |
 | prioritering | int |  |
 | teamBehandelaar | AN20 |  |
-| None | Class: "Producttype" |  |
-| None | Class: "Activiteit" |  |
-| None | Class: "SubProducttype" |  |
-
 
 
 
@@ -1127,7 +1086,6 @@ Attributen van objecttype Waarneming
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -1169,7 +1127,6 @@ Attributen van objecttype WABOAanvraagOfMelding
 
 
 
-
 ### WoonfraudeAanvraagOfMelding
 > **Definitie WoonfraudeAanvraagOfMelding:** 
 >
@@ -1205,7 +1162,6 @@ Attributen van objecttype WoonfraudeAanvraagOfMelding
 | adres | AN300 |  |
 | categorie | AN80 |  |
 | locatieOmschrijving | AN300 |  |
-
 
 
 
@@ -1249,7 +1205,6 @@ Attributen van objecttype WoonoverlastAanvraagOfMelding
 
 
 
-
 ## Enumeraties Model VTH
 
 
@@ -1269,22 +1224,22 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Boolean |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
 | id | EAID_edb7c49b_726e_4fad_ac45_4a51db788b6c |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1304,22 +1259,22 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Boolean |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
 | id | EAID_b48c7bca_2e02_45e0_a57a_69b33ba115d5 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1338,22 +1293,22 @@ De enumeratie Beoordelingsoort heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Beoordelingsoort |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:42 |
 | modified | 2025-03-26 16:14:35 |
 | id | EAID_3B4D2D66_B801_42a8_A3FB_CC4A29FF8320 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1371,22 +1326,22 @@ De enumeratie Heffingsoort heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Heffingsoort |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.5 |
 | created | 2025-03-26 11:12:42 |
 | modified | 2025-03-26 16:14:35 |
 | id | EAID_356C8F59_3721_46d0_BCD0_C17B0130035C |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1405,22 +1360,22 @@ De enumeratie StatusOpenbareActiviteit heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | StatusOpenbareActiviteit |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:42 |
 | modified | 2025-03-26 16:14:35 |
 | id | EAID_A29EE01A_118E_4599_BADD_35B9393A78F4 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 

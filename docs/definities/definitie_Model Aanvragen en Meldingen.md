@@ -6,9 +6,9 @@
 
 Het model 'Model Aanvragen en Meldingen' kent de volgende objecttypen:
 
-* **Bevoegd Gezag**: Bestuursorgaan dat bevoegd is tot het geven van een beschikking of het nemen van een ander besluit.  
-* **Gemachtigde**: Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die als vertegenwoordiger van een Initiatiefnemer optreedt. 
-* **Initiatiefnemer**: Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die het initiatief neemt tot (fysieke) ingrepen in de (leef)omgeving en daartoe een Verzoek bij het Bevoegd Gezag indient. 
+* **Bevoegd Gezag**: Bestuursorgaan dat bevoegd is tot het geven van een beschikking of het nemen van een ander besluit.
+* **Gemachtigde**: Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die als vertegenwoordiger van een Initiatiefnemer optreedt.
+* **Initiatiefnemer**: Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die het initiatief neemt tot (fysieke) ingrepen in de (leef)omgeving en daartoe een Verzoek bij het Bevoegd Gezag indient.
 * **Project**: Geheel van activiteiten uitgevoerd in een tijdelijk samenwerkingsverband gericht op het binnen bepaalde randvoorwaarden (bv. tijd, geld) bereiken van een vooraf gedefinieerd resultaat.
 * **Projectactiviteit**: Activiteit binnen het project
 * **Projectlocatie**: Fysieke locatie waar een project betrekking op heeft of wordt uitgevoerd.
@@ -39,7 +39,7 @@ Het model 'Model Aanvragen en Meldingen' heeft de volgende kenmerken:
 ### Bevoegd Gezag
 > **Definitie Bevoegd Gezag:** 
 >
-> Bestuursorgaan dat bevoegd is tot het geven van een beschikking of het nemen van een ander besluit.  
+> Bestuursorgaan dat bevoegd is tot het geven van een beschikking of het nemen van een ander besluit.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -69,11 +69,10 @@ Attributen van objecttype Bevoegd Gezag
 
 
 
-
 ### Gemachtigde
 > **Definitie Gemachtigde:** 
 >
-> Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die als vertegenwoordiger van een Initiatiefnemer optreedt. 
+> Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die als vertegenwoordiger van een Initiatiefnemer optreedt.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -100,15 +99,13 @@ Attributen van objecttype Gemachtigde
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Verzoek" |  |
-
 
 
 
 ### Initiatiefnemer
 > **Definitie Initiatiefnemer:** 
 >
-> Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die het initiatief neemt tot (fysieke) ingrepen in de (leef)omgeving en daartoe een Verzoek bij het Bevoegd Gezag indient. 
+> Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die het initiatief neemt tot (fysieke) ingrepen in de (leef)omgeving en daartoe een Verzoek bij het Bevoegd Gezag indient.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -135,7 +132,6 @@ Attributen van objecttype Initiatiefnemer
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -171,9 +167,6 @@ Attributen van objecttype Project
 | :--- | :--- | :--- |
 | naam | An200 |  |
 | omschrijving | text |  |
-| None | Class: "Projectlocatie" |  |
-| None | Class: "Projectactiviteit" |  |
-
 
 
 
@@ -207,8 +200,6 @@ Attributen van objecttype Projectactiviteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Projectlocatie" |  |
-
 
 
 
@@ -246,8 +237,6 @@ Attributen van objecttype Projectlocatie
 | kadastraalPerceel | AN80 |  |
 | kadastraleGemeente | AN80 |  |
 | kadastraleSectie | AN80 |  |
-| None | Class: "Locatie" |  |
-
 
 
 
@@ -288,8 +277,6 @@ Attributen van objecttype Specificatie
 | vraagClassificatie | Enumeratie: "Vraag Classificatie" |  |
 | vraagreferentie | AN200 |  |
 | vraagtekst | text |  |
-| None | Class: "Projectactiviteit" |  |
-
 
 
 
@@ -324,7 +311,6 @@ Attributen van objecttype Uitvoerende instantie
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | naam | AN200 |  |
-
 
 
 
@@ -370,17 +356,6 @@ Attributen van objecttype Verzoek
 | type | Enumeratie: "Doel verzoek" |  |
 | verzoeknummer | An80 |  |
 | volgnummer | AN80 |  |
-| None | Class: "Activiteit" |  |
-| None | Class: "Locatie" |  |
-| None | Class: "Zaak" |  |
-| None | Class: "Bevoegd Gezag" |  |
-| None | Class: "Specificatie" |  |
-| None | Class: "Verzoek" |  |
-| None | Class: "Project" |  |
-| None | Class: "Uitvoerende instantie" |  |
-| None | Class: "Projectactiviteit" |  |
-| None | Class: "Initiatiefnemer" |  |
-
 
 
 
@@ -406,22 +381,22 @@ De enumeratie Doel verzoek heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Doel verzoek |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:11 |
 | modified | 2025-03-26 16:14:45 |
 | id | EAID_77B7DFE0_3E30_482d_AED9_F08D78E293E5 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -444,22 +419,22 @@ De enumeratie Type Verzoek heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Type Verzoek |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:11 |
 | modified | 2025-03-26 16:14:45 |
 | id | EAID_AC018290_7C62_49bd_A664_8A578EE97AFE |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -480,22 +455,22 @@ De enumeratie Vraag Classificatie heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Vraag Classificatie |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:11 |
 | modified | 2025-03-26 16:14:45 |
 | id | EAID_0B7DA4A7_C2D9_45c8_B957_94DFFB63FA25 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 

@@ -19,17 +19,17 @@ Het model 'Model Jeugd en Wmo Generiek' kent de volgende objecttypen:
 * **Declaratie**: Een opgave van te vergoeden kosten.
 * **Declaratieregel**: <Geen Definities>
 * **Leefgebied**: Gebied waarin alle activiteiten van een inwoner zich kunnen afspelen
-* **Levering**: Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk  In PxQ uren maal tarief
+* **Levering**: Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk<br><br>In PxQ uren maal tarief
 * **Leveringsvorm**: Zorg die onder de Wlz, de Zvw-Wijkverpleging of de Wmo 2015 valt, kan aan personen als zorg in natura (zin) worden geleverd of bekostigd worden uit een persoonsgebonden budget (pgb).
 * **Melding Eigen bijdrage**: Aangifte van de evetuele eigen bijdrage
-* **PGB-Toekenning**: Betreft alleen toegekende voorzieningen met als leveringsvorm PGB Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb    
+* **PGB-Toekenning**: Betreft alleen toegekende voorzieningen met als leveringsvorm PGB<br>Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb
 * **Score**: Het aantal behaalde punten
 * **Scoresoort**: Typologie van score
 * **Tarief**: Hoogte van een bedrag voor een bepaald product of dient
 * **Team**: Een groep personen die door middel van samenwerking een gezamenlijk doel nastreeft, waarbij de teamleden afhankelijk van elkaar zijn om het doel te bereiken.
-* **Toewijzing**: Toewijzing die door gemeente aan zorgaanbieder wordt gestuurd. zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html 
+* **Toewijzing**: Toewijzing die door gemeente aan zorgaanbieder wordt gestuurd. zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html
 * **Verplichting WMO Jeugd**: <Geen Definities>
-* **Verzoek om Toewijzing**: Verzoek tot toewijzing dat vanuit leverancier (via H10-portal) aan de gemeente wordt gestuurd. Zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html   
+* **Verzoek om Toewijzing**: Verzoek tot toewijzing dat vanuit leverancier (via H10-portal) aan de gemeente wordt gestuurd. Zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html
 * **Voorziening**: Middel om services/maatregelen in te vullen.
 * **Voorzieningsoort**: Typering van een voorziening
 * **Zelfredzaamheidmatrix**: Een geordend systeem waarbij aan elf domeinen van het dagelijks leven (zoals inkomen en dagbesteding; zie figuur) een waarde voor zelfredzaamheid wordt toegekend.
@@ -86,24 +86,14 @@ Attributen van objecttype AOM_AanvraagWmoJeugd
 | :--- | :--- | :--- |
 | clientReactie | AN100 |  |
 | datumBeschikking | Date |  |
-| datumEersteAfspraak | Date | De datum van de eerste afspraak in het
-proces.
- |
-| datumPlanVastgesteld | Date | De datum waarop het plan is vastgesteld in de melding.
- |
-| datumStartAanvraag | Date | Start van het proces=start vd aanvraag
- |
-| datumEinde | Date | De daadwerkelijke einddatum van de
-gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proces of niet van toepassing. Deze einddatum is afhankelijk van de gekozen doorloopmethodiek
- |
+| datumEersteAfspraak | Date | De datum van de eerste afspraak in het<br>proces. |
+| datumPlanVastgesteld | Date | De datum waarop het plan is vastgesteld in de melding. |
+| datumStartAanvraag | Date | Start van het proces=start vd aanvraag |
+| datumEinde | Date | De daadwerkelijke einddatum van de<br>gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proces of niet van toepassing. Deze einddatum is afhankelijk van de gekozen doorloopmethodiek |
 | deskundigheid | AN50 |  |
 | doorloopmethodiek | AN50 |  |
-| maximaleDoorlooptijd | AN20 | Het aantal dagen tussen de startdatum en de einddatum van de doorloopmethodiek ten tijde van het aanmaken van het proces. Dit veld geeft daarmee aan hoe lang men over een proces zou mogen doen.
- |
+| maximaleDoorlooptijd | AN20 | Het aantal dagen tussen de startdatum en de einddatum van de doorloopmethodiek ten tijde van het aanmaken van het proces. Dit veld geeft daarmee aan hoe lang men over een proces zou mogen doen. |
 | redenAfsluiting | AN50 |  |
-| None | Class: "Client" |  |
-| None | Class: "Beschikking" |  |
-
 
 
 
@@ -147,8 +137,6 @@ Attributen van objecttype AOMMeldingWMOJeugd
 | vervolg | AN50 |  |
 | onderzoekswijze | AN50 |  |
 | verwezen | AN50 |  |
-| None | Class: "Client" |  |
-
 
 
 
@@ -189,7 +177,6 @@ Attributen van objecttype Beperking
 
 
 
-
 ### Beperkingscategorie
 > **Definitie Beperkingscategorie:** 
 >
@@ -222,7 +209,6 @@ Attributen van objecttype Beperkingscategorie
 | :--- | :--- | :--- |
 | code | AN8 |  |
 | wet | Enumeratie: "Wet" |  |
-
 
 
 
@@ -262,7 +248,6 @@ Attributen van objecttype Beperkingscore
 
 
 
-
 ### Beperkingscoresoort
 > **Definitie Beperkingscoresoort:** 
 >
@@ -295,7 +280,6 @@ Attributen van objecttype Beperkingscoresoort
 | :--- | :--- | :--- |
 | vraag | AN200 |  |
 | wet | Enumeratie: "Wet" |  |
-
 
 
 
@@ -334,11 +318,6 @@ Attributen van objecttype Beschikking
 | grondslagen | int |  |
 | commentaar | AN200 |  |
 | wet |  |  |
-| None | Class: "Client" |  |
-| None | Class: "Toewijzing" |  |
-| None | Class: "AOMMeldingWMOJeugd" |  |
-| None | Class: "Beperking" |  |
-
 
 
 
@@ -372,7 +351,6 @@ Attributen van objecttype Beschikkingsoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -420,7 +398,6 @@ Attributen van objecttype Beschikte Voorziening
 
 
 
-
 ### Budgetuitputting
 > **Definitie Budgetuitputting:** 
 >
@@ -453,8 +430,6 @@ Attributen van objecttype Budgetuitputting
 | :--- | :--- | :--- |
 | datum | Date |  |
 | uitgenutBedrag | Bedrag |  |
-| None | Class: "PGB-Toekenning" |  |
-
 
 
 
@@ -491,7 +466,6 @@ Attributen van objecttype Declaratie
 | declaratieBedrag | int |  |
 | datumDeclaratie | int |  |
 | declaratieStatus | int |  |
-
 
 
 
@@ -532,7 +506,6 @@ Attributen van objecttype Declaratieregel
 
 
 
-
 ### Leefgebied
 > **Definitie Leefgebied:** 
 >
@@ -567,13 +540,10 @@ Attributen van objecttype Leefgebied
 
 
 
-
 ### Levering
 > **Definitie Levering:** 
 >
-> Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk
-> 
-> In PxQ uren maal tarief
+> Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk<br><br>In PxQ uren maal tarief
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -592,7 +562,7 @@ Attributen van objecttype Leefgebied
 | gemma_naam | Levering |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-cc667191-bb35-45a0-a231-504b663b70f1](https://gemmaonline.nl/index.php/GEMMA/id-cc667191-bb35-45a0-a231-504b663b70f1) |
-| gemma_definitie | Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk  In PxQ uren maal tarief |
+| gemma_definitie | Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk<br><br>In PxQ uren maal tarief |
 | gemma_toelichting |  |
 
 
@@ -607,8 +577,6 @@ Attributen van objecttype Levering
 | datumStart | Date |  |
 | datumStop | Date |  |
 | stopreden | Text |  |
-| None | Class: "Voorziening" |  |
-
 
 
 
@@ -648,7 +616,6 @@ Attributen van objecttype Leveringsvorm
 
 
 
-
 ### Melding Eigen bijdrage
 > **Definitie Melding Eigen bijdrage:** 
 >
@@ -681,18 +648,13 @@ Attributen van objecttype Melding Eigen bijdrage
 | :--- | :--- | :--- |
 | datumStart | Date |  |
 | datumStop | Date |  |
-| None | Class: "Beschikking" |  |
-
 
 
 
 ### PGB-Toekenning
 > **Definitie PGB-Toekenning:** 
 >
-> Betreft alleen toegekende voorzieningen met als leveringsvorm PGB
-> Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb 
-> 
->  
+> Betreft alleen toegekende voorzieningen met als leveringsvorm PGB<br>Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -711,7 +673,7 @@ Attributen van objecttype Melding Eigen bijdrage
 | gemma_naam | PGBToekenning |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-2cc8ad38-97f9-4462-83af-cb5556bffd88](https://gemmaonline.nl/index.php/GEMMA/id-2cc8ad38-97f9-4462-83af-cb5556bffd88) |
-| gemma_definitie | Betreft alleen toegekende voorzieningen met als leveringsvorm PGB Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb |
+| gemma_definitie | Betreft alleen toegekende voorzieningen met als leveringsvorm PGB<br>Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb |
 | gemma_toelichting |  |
 
 
@@ -722,8 +684,6 @@ Attributen van objecttype PGB-Toekenning
 | datumToekenning | Date |  |
 | budget | Bedrag |  |
 | datumEinde | Date |  |
-| None | Class: "Beschikte Voorziening" |  |
-
 
 
 
@@ -761,7 +721,6 @@ Attributen van objecttype Score
 
 
 
-
 ### Scoresoort
 > **Definitie Scoresoort:** 
 >
@@ -793,7 +752,6 @@ Attributen van objecttype Scoresoort
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | niveau | N1 |  |
-
 
 
 
@@ -835,7 +793,6 @@ Attributen van objecttype Tarief
 
 
 
-
 ### Team
 > **Definitie Team:** 
 >
@@ -871,11 +828,10 @@ Attributen van objecttype Team
 
 
 
-
 ### Toewijzing
 > **Definitie Toewijzing:** 
 >
-> Toewijzing die door gemeente aan zorgaanbieder wordt gestuurd. zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html 
+> Toewijzing die door gemeente aan zorgaanbieder wordt gestuurd. zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -914,8 +870,6 @@ Attributen van objecttype Toewijzing
 | datumAanschaf | Date |  |
 | code | AN20 |  |
 | wet | Enumeratie: "Wet" |  |
-| None | Class: "Levering" |  |
-
 
 
 
@@ -956,11 +910,6 @@ Attributen van objecttype Verplichting WMO Jeugd
 | Periodiciteit | int |  |
 | Einddatumgepland | int |  |
 | Jaar | int |  |
-| None | Class: "AOM_AanvraagWmoJeugd" |  |
-| None | Class: "Client" |  |
-| None | Class: "Beschikte Voorziening" |  |
-| None | Class: "Leverancier" |  |
-
 
 
 
@@ -968,8 +917,6 @@ Attributen van objecttype Verplichting WMO Jeugd
 > **Definitie Verzoek om Toewijzing:** 
 >
 > Verzoek tot toewijzing dat vanuit leverancier (via H10-portal) aan de gemeente wordt gestuurd. Zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html
-> 
->  
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -1009,11 +956,6 @@ Attributen van objecttype Verzoek om Toewijzing
 | commentaar | text |  |
 | datumOntvangst | Date |  |
 | soortVerwijzer | Enumeratie: "Soort Verwijzer" |  |
-| None | Class: "Voorziening" |  |
-| None | Class: "Leverancier" |  |
-| None | Class: "Client" |  |
-| None | Class: "Beschikking" |  |
-
 
 
 
@@ -1053,7 +995,6 @@ Attributen van objecttype Voorziening
 | wet | Enumeratie: "Wet" |  |
 | code | AN20 |  |
 | afhandelwijze | AN200 |  |
-
 
 
 
@@ -1097,7 +1038,6 @@ Attributen van objecttype Voorzieningsoort
 
 
 
-
 ### Zelfredzaamheidmatrix
 > **Definitie Zelfredzaamheidmatrix:** 
 >
@@ -1138,7 +1078,6 @@ Attributen van objecttype Zelfredzaamheidmatrix
 
 
 
-
 ## Enumeraties Model Jeugd en Wmo Generiek
 
 
@@ -1161,22 +1100,22 @@ De enumeratie Doelgroep heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Doelgroep |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:49 |
 | modified | 2025-03-26 16:14:37 |
 | id | EAID_A9985186_A6B8_4414_8334_A2CA12D5AC94 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1200,22 +1139,22 @@ De enumeratie Eenheid heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Eenheid |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:49 |
 | modified | 2025-03-26 16:14:37 |
 | id | EAID_838B4669_4F50_4835_ABA8_03E3FCE48184 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1239,22 +1178,22 @@ De enumeratie Frequentie heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Frequentie |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:49 |
 | modified | 2025-03-26 16:14:37 |
 | id | EAID_8640ED99_341B_4f10_A335_9324459F19B3 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1274,22 +1213,22 @@ De enumeratie Leveringsvorm heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Leveringsvorm |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:49 |
 | modified | 2025-03-26 16:14:37 |
 | id | EAID_DC1D1F90_E28B_4fb7_A5E1_C2F76132BE12 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1314,22 +1253,22 @@ De enumeratie Soort Verwijzer heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Soort Verwijzer |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:49 |
 | modified | 2025-03-26 16:14:37 |
 | id | EAID_44194E25_4676_4eb2_9E97_F44196438F4B |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -1340,7 +1279,7 @@ Het enumeratie Wet kent de volgende waarden:
 
 * **Niet van toepassing**: <Geen Definities>
 * **Wmo**: <Geen Definities>
-* **Jeugdwet**: dere 
+* **Jeugdwet**: dere
 * **Andere wet**: <Geen Definities>
 * **Leeg**: <Geen Definities>
 * **Onbekend**: <Geen Definities>
@@ -1354,22 +1293,22 @@ De enumeratie Wet heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Wet |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:49 |
 | modified | 2025-03-26 16:14:37 |
 | id | EAID_3CDE785E_E631_4f94_A1A3_67F721140B1C |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 

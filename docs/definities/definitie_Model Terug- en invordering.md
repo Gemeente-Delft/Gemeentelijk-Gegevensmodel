@@ -14,7 +14,7 @@ Het model 'Model Terug- en invordering' kent de volgende objecttypen:
 * **Boetevordering**: Een vordering is een eis op een persoon, zeg debiteur, die een zeker bedrag terug moet betalen aan de gemeente. Vorderingen die zijn ingesteld omdat er een boete vanwege een overtreding van de inlichtingenplicht is opgelegd.  De oorzaak van een vordering is velerlei, Zie daarvoor de categorie-indeling.Vorderingen kunnen uit meerdere componenten bestaan.Vorderingen kunnen ook onderling in relatie staan, bijvoorbeeld: Een opgelegde boete wegens het schenden van de inlichtingenplicht heeft een relatie met een verwijtbare vordering.Deze type vordering zijn als verbijzonderingen opgenomen, opdat deze relaties expliciet kunnen worden gelegd.
 * **Conservatoir beslag**: In het Nederlands recht is een conservatoir beslag een beslaglegging op (een deel van) het vermogen van een schuldenaar ter verzekering van de betaling van een onbetaald gebleven vordering nog voordat de rechter uitspraak heeft gedaan over de juistheid van die vordering. De toestemming tot het leggen van dit beslag moet door een advocaat namens de schuldeiser aan de beslagrechter, ook wel "voorzieningenrechter", worden gevraagd. Door het leggen van het beslag ontstaat meer zekerheid dat het beslagen vermogen ter beschikking staat. De voorzieningenrechter is in Nederland over het algemeen snel geneigd toestemming voor het beslag te verlenen en dat zelfs zonder dat de schuldenaar van het verzoek op de hoogte is of daarover wordt gehoord.
 * **Correctie**: Na nader inzicht corrigeren van het te vorderen bedrag met een zeker bedrag. Correcties worden geadministreerd onder de vordering.
-* **Debiteur**: Binnen het domein van terug- en invorderen is een debiteur een persoon waarop de gemeente een of meerdere vorderingen heeft. 
+* **Debiteur**: Binnen het domein van terug- en invorderen is een debiteur een persoon waarop de gemeente een of meerdere vorderingen heeft.
 * **Incassokostenvordering**: AlgemeenEen vordering is een eis op een persoon, zeg debiteur, die een zeker bedrag terug moet betalen aan de gemeente.De oorzaak van een vordering is velerlei, Zie daarvoor de categorie-indeling.Vorderingen kunnen uit meerdere componenten bestaan.Vorderingen kunnen ook onderling in relatie staan, bijvoorbeeld: Een opgelegde boete wegens het schenden van de inlichtingenplicht heeft een relatie met een verwijtbare vordering.IncassokostenvorderingBij het invorderproces kunnen incassokosten ontstaan bij een bepaalde vordering. Bij incassokosten boven een drempel (instelbare referentiewaarde) kan een incassokostenvordering worden opgevoerd. De incassokostenvordering wordt gerelateerd aan de hoofdvordering. De incassokostenvordering is een zogenaamde accessoire vordering, die zijn titel ontleend aan de hoofdvordering.Dit type vordering is als verbijzondering opgenomen, opdat deze relatie expliciet kan worden gelegd.
 * **Interventie**: De daadwerkelijke interventie, die wordt ondernomen naar aanleiding van een interventieverzoek.
 * **Interventieverzoek**: In het geval van monitoring op aflossingsafspraken bij een vordering kan bij ongeregeldheden, zoals het achterwege blijven van aflossingen, een signaal worden gegeven om te interveneren. Dit gebeurt door een interventieverzoek. Interventies geschieden volgens een interventieladder. Altijd kan een medewerker daar gemotiveerd van afwijken, bijvoorbeeld na klantcontact. Dit betekent niet dat het interventieverzoek niet minder dwingend is.
@@ -24,7 +24,7 @@ Het model 'Model Terug- en invordering' kent de volgende objecttypen:
 * **Kwijtschelding**: Het kwijtschelden van het restant van de vordering.RedenenDit kan om diverse redenen gebeuren, waaronder redenen uit het beleid.Als een debiteur zijn 36 maanden lang houdt aan de betaalafspraken, dan komt de debiteur in aanmerking voor kwijtschelding. Enkele noties hierbij:Het gaat hier om het houden van de afspraken.Hieronder vallen ook afspraken om tijdelijk niet af te lossen.In principe zal een enkele maand opschorten vanwege een maand niet betalen niet de betaaldiscipline verbreken, omdat de gemeente niet heeft ingegrepen via een interventie.Als de debiteur ineens de helft of meer aflost op de vordering.BedragHet bedrag in de kwijtschelding heeft die hoogte dat de totale restant van de vordering op nul komt.
 * **Leenbijstand**: AlgemeenLeenbijstand is een lening aan de burger, die in termijnen moet worden terugbetaald.TerugbetalingAflossingen op leningen bedragen standaard 5% van de toepasselijke maandnorm inclusief vakantietoeslag (VT);De lening wordt in maximaal 36 termijnen terugbetaald. Het restant wordt afgeschreven. De gemeente vordert terug als iemand zich niet aan de verplichtingen van de leenovereenkomst houdt.Leenbijstand worden gemeld aan Terug- en Invorderen voor een 360-graden view op de debiteur. Dan kan hiermee rekening worden gehouden bij het maken van aflossingsafspraken.Leenbijstand wordt verrekend met de uitkering en zal in dergelijke gevallen niet leiden tot terugvorderenPas als de persoon uit de bijstand gaat, zal het voorliggende proces een terugvorderingsverzoek doen bij Terug- en Invorderen.De totaal gegeven leenbijstand wordt teruggevorderd. Hier is een CBS-categorie voor.Mogelijke gevallen (illustratief)Leenbijstand (in de vorm van Bijzondere Bijstand) is onder andere mogelijk in de volgende situaties:U moet een waarborgsom betalen bij het huren van een huis;U wacht op geld waarvan u kunt leven. Het is bijvoorbeeld mogelijk dat u lange tijd moet wachten op de uitbetaling van een erfenis;U moet door eigen toedoen bijstand aanvragen of eerder aanvragen dan nodig was;U hebt een koophuis, u hebt (redelijk) veel eigen vermogen in het huis zitten en geen of weinig inkomsten;U bent zelfstandige of u bent net gestart met uw eigen bedrijf of beroep.NB: U moet een lening altijd weer terugbetalen.
 * **Leenbijstandvordering**: AlgemeenLeenbijstand is een lening aan de burger, die in termijnen moet worden terugbetaald. Zie: Leenbijstand.TerugbetalingAflossingen op leningen bedragen standaard 5% van de toepasselijke maandnorm inclusief vakantietoeslag (VT);De lening wordt in maximaal 36 termijnen terugbetaald. Het restant wordt afgeschreven. De gemeente vordert terug als iemand zich niet aan de verplichtingen van de leenovereenkomst houdt.Leenbijstand wordt verrekend met de uitkering en zal in dergelijke gevallen niet leiden tot terugvorderenPas als de persoon uit de bijstand gaat, zal het voorliggende proces een terugvorderingsverzoek doen bij Terug- en Invorderen.De totaal gegeven leenbijstand wordt teruggevorderd. Hier is een CBS-categorie voor.
-* **Loonbeslagafspraak**: Een loonbeslagafspraak is een aflossingsafspraak.Tevens is het een afspraak tussen twee partijen (organisaties) om voor het aflossen van vorderingen. Hierbij zal de ene partij - de werkgever van de debiteur - een afgesproken bedrag in houden op het loon van de debiteur en het ingehouden bedrag overmaken naar crediteur.Aangezien Loonbeslag een Inkomstencomponent is (zie het inkomstenmodel) ligt er een impliciete relatie tussen de Loonbeslagafspraak en het Loonbeslag. 
+* **Loonbeslagafspraak**: Een loonbeslagafspraak is een aflossingsafspraak.Tevens is het een afspraak tussen twee partijen (organisaties) om voor het aflossen van vorderingen. Hierbij zal de ene partij - de werkgever van de debiteur - een afgesproken bedrag in houden op het loon van de debiteur en het ingehouden bedrag overmaken naar crediteur.Aangezien Loonbeslag een Inkomstencomponent is (zie het inkomstenmodel) ligt er een impliciete relatie tussen de Loonbeslagafspraak en het Loonbeslag.
 * **Rechtmaand**: Een vordering in het kader van de bijvoorbeeld de bijstand kan over meerdere kalendermaanden betreffen. In die maanden had de debiteur recht op die bijstand. Zo'n maand onder die vordering noemt men een rechtmaand.Rechtmaanden worden geadministreerd onder een vorderingscomponent bij de vordering. Als de vordering meerdere rechtmaanden bevat die of niet opvolgend zijn of een jaargrens passeren, dan worden die rechtmaanden opgesplitst in reeksen van opvolgende rechtmaanden binnen een jaar. Elke opsplitsing vormt dan een vorderingscomponent.
 * **Rentevordering**: AlgemeenEen vordering is een eis op een persoon, zeg debiteur, die een zeker bedrag terug moet betalen aan de gemeente.De oorzaak van een vordering is velerlei, Zie daarvoor de categorie-indeling.Vorderingen kunnen uit meerdere componenten bestaan.Vorderingen kunnen ook onderling in relatie staan, bijvoorbeeld: Een opgelegde boete wegens het schenden van de inlichtingenplicht heeft een relatie met een verwijtbare vordering.RentevorderingBepaalde vorderingen zijn rentedragend. De rente wordt niet als aparte component opgevoerd bij de hoofdvordering, maar als een aparte vordering. De rentevordering wordt gerelateerd aan de hoofdvordering. De rentevordering is een zogenaamde accessoire vordering, die zijn titel ontleend aan de hoofdvordering.Dit type vordering is als verbijzondering opgenomen, opdat deze relatie expliciet kan worden gelegd.
 * **Restitutie**: Restitutie is terugbetaling van te veel ontvangen aflossing. Restituties worden geadministreerd onder de vordering.
@@ -89,7 +89,6 @@ Attributen van objecttype Aflossing
 
 
 
-
 ### Aflossingsafspraak
 > **Definitie Aflossingsafspraak:** 
 >
@@ -120,7 +119,6 @@ Attributen van objecttype Aflossingsafspraak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -157,7 +155,6 @@ Attributen van objecttype Aflossingsplan
 
 
 
-
 ### Afschrijving
 > **Definitie Afschrijving:** 
 >
@@ -188,7 +185,6 @@ Attributen van objecttype Afschrijving
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -225,7 +221,6 @@ Attributen van objecttype Betaalcomponent
 
 
 
-
 ### Boetevordering
 > **Definitie Boetevordering:** 
 >
@@ -256,7 +251,6 @@ Attributen van objecttype Boetevordering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -293,7 +287,6 @@ Attributen van objecttype Conservatoir beslag
 
 
 
-
 ### Correctie
 > **Definitie Correctie:** 
 >
@@ -327,11 +320,10 @@ Attributen van objecttype Correctie
 
 
 
-
 ### Debiteur
 > **Definitie Debiteur:** 
 >
-> Binnen het domein van terug- en invorderen is een debiteur een persoon waarop de gemeente een of meerdere vorderingen heeft. 
+> Binnen het domein van terug- en invorderen is een debiteur een persoon waarop de gemeente een of meerdere vorderingen heeft.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -358,8 +350,6 @@ Attributen van objecttype Debiteur
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Client" |  |
-
 
 
 
@@ -396,7 +386,6 @@ Attributen van objecttype Incassokostenvordering
 
 
 
-
 ### Interventie
 > **Definitie Interventie:** 
 >
@@ -427,7 +416,6 @@ Attributen van objecttype Interventie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -464,7 +452,6 @@ Attributen van objecttype Interventieverzoek
 
 
 
-
 ### Invorderingsbasis
 > **Definitie Invorderingsbasis:** 
 >
@@ -495,7 +482,6 @@ Attributen van objecttype Invorderingsbasis
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -532,7 +518,6 @@ Attributen van objecttype Krediethypotheek
 
 
 
-
 ### Krediethypotheekvordering
 > **Definitie Krediethypotheekvordering:** 
 >
@@ -563,7 +548,6 @@ Attributen van objecttype Krediethypotheekvordering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -600,7 +584,6 @@ Attributen van objecttype Kwijtschelding
 
 
 
-
 ### Leenbijstand
 > **Definitie Leenbijstand:** 
 >
@@ -631,7 +614,6 @@ Attributen van objecttype Leenbijstand
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -668,11 +650,10 @@ Attributen van objecttype Leenbijstandvordering
 
 
 
-
 ### Loonbeslagafspraak
 > **Definitie Loonbeslagafspraak:** 
 >
-> Een loonbeslagafspraak is een aflossingsafspraak.Tevens is het een afspraak tussen twee partijen (organisaties) om voor het aflossen van vorderingen. Hierbij zal de ene partij - de werkgever van de debiteur - een afgesproken bedrag in houden op het loon van de debiteur en het ingehouden bedrag overmaken naar crediteur.Aangezien Loonbeslag een Inkomstencomponent is (zie het inkomstenmodel) ligt er een impliciete relatie tussen de Loonbeslagafspraak en het Loonbeslag. 
+> Een loonbeslagafspraak is een aflossingsafspraak.Tevens is het een afspraak tussen twee partijen (organisaties) om voor het aflossen van vorderingen. Hierbij zal de ene partij - de werkgever van de debiteur - een afgesproken bedrag in houden op het loon van de debiteur en het ingehouden bedrag overmaken naar crediteur.Aangezien Loonbeslag een Inkomstencomponent is (zie het inkomstenmodel) ligt er een impliciete relatie tussen de Loonbeslagafspraak en het Loonbeslag.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -699,7 +680,6 @@ Attributen van objecttype Loonbeslagafspraak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -736,7 +716,6 @@ Attributen van objecttype Rechtmaand
 
 
 
-
 ### Rentevordering
 > **Definitie Rentevordering:** 
 >
@@ -767,7 +746,6 @@ Attributen van objecttype Rentevordering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -804,7 +782,6 @@ Attributen van objecttype Restitutie
 
 
 
-
 ### Terugvorderingsverzoek
 > **Definitie Terugvorderingsverzoek:** 
 >
@@ -835,8 +812,6 @@ Attributen van objecttype Terugvorderingsverzoek
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Client" |  |
-
 
 
 
@@ -873,7 +848,6 @@ Attributen van objecttype Uitstel aflossing
 
 
 
-
 ### Vermindering terugvordering
 > **Definitie Vermindering terugvordering:** 
 >
@@ -904,7 +878,6 @@ Attributen van objecttype Vermindering terugvordering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -941,7 +914,6 @@ Attributen van objecttype Verrekening
 
 
 
-
 ### Verwijtbare vordering
 > **Definitie Verwijtbare vordering:** 
 >
@@ -975,7 +947,6 @@ Attributen van objecttype Verwijtbare vordering
 
 
 
-
 ### Vordering
 > **Definitie Vordering:** 
 >
@@ -1006,7 +977,6 @@ Attributen van objecttype Vordering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -1047,7 +1017,6 @@ Attributen van objecttype Vorderingscomponent
 
 
 
-
 ## Enumeraties Model Terug- en invordering
 
 
@@ -1063,22 +1032,22 @@ De enumeratie Verwerkingsstatus heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Verwerkingsstatus |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
 | author | janbr |
 | version | 1.0 |
 | created | 2024-03-07 12:33:22 |
 | modified | 2025-03-27 10:22:49 |
 | id | EAID_2b3109f1_3ffc_4ab3_a60d_741736c958a8 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 

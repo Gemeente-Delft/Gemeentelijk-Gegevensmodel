@@ -79,7 +79,6 @@ Attributen van objecttype Aanvraag
 
 
 
-
 ### Archief
 > **Definitie Archief:** 
 >
@@ -117,7 +116,6 @@ Attributen van objecttype Archief
 
 
 
-
 ### Archiefcategorie
 > **Definitie Archiefcategorie:** 
 >
@@ -151,7 +149,6 @@ Attributen van objecttype Archiefcategorie
 | naam | AN80 |  |
 | omschrijving | text |  |
 | nummer | AN20 |  |
-
 
 
 
@@ -194,7 +191,6 @@ Attributen van objecttype Archiefstuk
 
 
 
-
 ### Auteur
 > **Definitie Auteur:** 
 >
@@ -227,7 +223,6 @@ Attributen van objecttype Auteur
 | :--- | :--- | :--- |
 | datumGeboorte | Date |  |
 | datumOverlijden | Date |  |
-
 
 
 
@@ -264,7 +259,6 @@ Attributen van objecttype Bezoeker
 
 
 
-
 ### Depot
 > **Definitie Depot:** 
 >
@@ -297,7 +291,6 @@ Attributen van objecttype Depot
 | :--- | :--- | :--- |
 | naam | AN80 |  |
 | omschrijving | text |  |
-
 
 
 
@@ -338,7 +331,6 @@ Attributen van objecttype DigitaalBestand
 
 
 
-
 ### Indeling
 > **Definitie Indeling:** 
 >
@@ -373,7 +365,6 @@ Attributen van objecttype Indeling
 | nummer | AN20 |  |
 | omschrijving | text |  |
 | indelingsoort | AN20 |  |
-
 
 
 
@@ -412,7 +403,6 @@ Attributen van objecttype Index
 
 
 
-
 ### Kast
 > **Definitie Kast:** 
 >
@@ -447,7 +437,6 @@ Attributen van objecttype Kast
 
 
 
-
 ### Nadere Toegang
 > **Definitie Nadere Toegang:** 
 >
@@ -478,7 +467,6 @@ Attributen van objecttype Nadere Toegang
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -517,7 +505,6 @@ Attributen van objecttype Ordeningsschema
 
 
 
-
 ### Plank
 > **Definitie Plank:** 
 >
@@ -552,7 +539,6 @@ Attributen van objecttype Plank
 
 
 
-
 ### Rechthebbende
 > **Definitie Rechthebbende:** 
 >
@@ -583,7 +569,6 @@ Attributen van objecttype Rechthebbende
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -621,7 +606,6 @@ Attributen van objecttype Stelling
 
 
 
-
 ### Uitgever
 > **Definitie Uitgever:** 
 >
@@ -655,7 +639,6 @@ Attributen van objecttype Uitgever
 
 
 
-
 ### Vindplaats
 > **Definitie Vindplaats:** 
 >
@@ -686,7 +669,6 @@ Attributen van objecttype Vindplaats
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 

@@ -7,7 +7,7 @@
 Het model 'Model Officiele Publicaties' kent de volgende objecttypen:
 
 * **Omgevingsdocument**: In artikel 16.2 van de Omgevingswet aangemerkt instrument te weten: Omgevingsvisie, programma, omgevingsplan, waterschapsverordening, omgevingsverordening, projectbesluit of bij Algemene Maatregel van Bestuur (Omgevingsbesluit) aangewezen ander besluit of ander rechtsfiguur.
-* **Regeltekst**: De kleinste zelfstandige eenheid van (een of meer) bij elkaar horende juridische regels: een artikel en lid. 
+* **Regeltekst**: De kleinste zelfstandige eenheid van (een of meer) bij elkaar horende juridische regels: een artikel en lid.
 
 
 Het model 'Model Officiele Publicaties' heeft de volgende kenmerken:
@@ -59,15 +59,13 @@ Attributen van objecttype Omgevingsdocument
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Regeltekst" |  |
-
 
 
 
 ### Regeltekst
 > **Definitie Regeltekst:** 
 >
-> De kleinste zelfstandige eenheid van (een of meer) bij elkaar horende juridische regels: een artikel en lid. 
+> De kleinste zelfstandige eenheid van (een of meer) bij elkaar horende juridische regels: een artikel en lid.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -97,12 +95,6 @@ Attributen van objecttype Regeltekst
 | tekst | text |  |
 | identificatie | AN200 |  |
 | omschrijving | text |  |
-| None | Class: "Thema" |  |
-| None | Class: "Regeltekst" |  |
-| None | Class: "Idealisatie" |  |
-| None | Class: "Regeltekst" |  |
-| None | Class: "Locatie" |  |
-
 
 
 

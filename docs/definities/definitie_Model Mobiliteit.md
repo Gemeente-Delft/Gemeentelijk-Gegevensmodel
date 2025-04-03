@@ -9,8 +9,8 @@ Het model 'Model Mobiliteit' kent de volgende objecttypen:
 * **Stremming**: Situatie waarbij de doorstroming van het (vaar)wegverkeer plaatselijk is geblokkeerd als gevolg van een incident
 * **Strooidag**: Dag waarop op wegen gestrooid wordt ter voorkoming van gladheid
 * **Strooiroute**: Traject waarop het strooien plaatsvindt
-* **StrooirouteUitvoering**: De route die uiteindelijk is gevolgd voor het strooien 
-* **Verkeersbesluit**: Een besluit van een wegbeheerder om een bepaald verkeersteken te plaatsen, te wijzigen of in te trekken of een bepaalde fysieke maatregel te treffen. 
+* **StrooirouteUitvoering**: De route die uiteindelijk is gevolgd voor het strooien
+* **Verkeersbesluit**: Een besluit van een wegbeheerder om een bepaald verkeersteken te plaatsen, te wijzigen of in te trekken of een bepaalde fysieke maatregel te treffen.
 * **Verkeerstelling**: Een onderzoek om inzicht te krijgen in het verkeer, in de hoeveelheid verkeer, de verdeling en de gereden snelheid.
 * **VLogInfo**: V-log is een open standaard voor datalogging van een verkeersregelinstallatie.
 
@@ -78,7 +78,6 @@ Attributen van objecttype Stremming
 
 
 
-
 ### Strooidag
 > **Definitie Strooidag:** 
 >
@@ -117,7 +116,6 @@ Attributen van objecttype Strooidag
 
 
 
-
 ### Strooiroute
 > **Definitie Strooiroute:** 
 >
@@ -152,11 +150,10 @@ Attributen van objecttype Strooiroute
 
 
 
-
 ### StrooirouteUitvoering
 > **Definitie StrooirouteUitvoering:** 
 >
-> De route die uiteindelijk is gevolgd voor het strooien 
+> De route die uiteindelijk is gevolgd voor het strooien
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -188,16 +185,13 @@ Attributen van objecttype StrooirouteUitvoering
 | geplandEinde | DateTime |  |
 | werkelijkeStart | DateTime |  |
 | werkelijkEinde | DateTime |  |
-| None | Class: "Strooiroute" |  |
-| None | Class: "Strooidag" |  |
-
 
 
 
 ### Verkeersbesluit
 > **Definitie Verkeersbesluit:** 
 >
-> Een besluit van een wegbeheerder om een bepaald verkeersteken te plaatsen, te wijzigen of in te trekken of een bepaalde fysieke maatregel te treffen. 
+> Een besluit van een wegbeheerder om een bepaald verkeersteken te plaatsen, te wijzigen of in te trekken of een bepaalde fysieke maatregel te treffen.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -232,8 +226,6 @@ Attributen van objecttype Verkeersbesluit
 | postcode | AN6 |  |
 | huisnummer | AN40 |  |
 | datumEinde | Datetime |  |
-| None | Class: "Document" |  |
-
 
 
 
@@ -270,8 +262,6 @@ Attributen van objecttype Verkeerstelling
 | tijdVanaf | DateTime |  |
 | tijdTot | DateTime |  |
 | aantal | int |  |
-| None |  |  |
-
 
 
 
@@ -312,10 +302,6 @@ Attributen van objecttype VLogInfo
 | verkeerWilGroen | boolean |  |
 | wachttijd | int |  |
 | detectieVerkeer | int |  |
-| None |  |  |
-| None |  |  |
-| None |  |  |
-
 
 
 
@@ -342,22 +328,22 @@ De enumeratie Aantal Gehinderden heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Aantal Gehinderden |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:43 |
 | modified | 2025-03-26 16:14:35 |
 | id | EAID_C00A2866_8F7D_4be3_A676_794C9A477556 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -378,22 +364,22 @@ De enumeratie Hindercategorie heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Hindercategorie |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:43 |
 | modified | 2025-03-26 16:14:35 |
 | id | EAID_A1A8B6C1_3607_4c64_92CC_364470368C3E |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -414,22 +400,22 @@ De enumeratie Hinderklasse heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Hinderklasse |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:43 |
 | modified | 2025-03-26 16:14:35 |
 | id | EAID_9387D652_A431_4f4c_9F35_4DB0A102B1EF |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -450,22 +436,22 @@ De enumeratie Stremmingstatus heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Stremmingstatus |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:43 |
 | modified | 2025-03-26 16:14:35 |
 | id | EAID_94230A7B_8876_4a0b_B660_424E397045B2 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 

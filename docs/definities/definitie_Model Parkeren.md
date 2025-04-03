@@ -8,7 +8,7 @@ Het model 'Model Parkeren' kent de volgende objecttypen:
 
 * **Belprovider**: Leverancier of dienstverlener van modiele beldiensten
 * **MulderFeit**: Een administratieve overtreding met betrekking tot parkeren, zoals bepaald onder de Wet administratiefrechtelijke handhaving verkeersvoorschriften (WAHV), ook wel bekend als de Mulderwet.
-* **Naheffing**: Het achteraf vorderen van te weinig betaalde belasting 
+* **Naheffing**: Het achteraf vorderen van te weinig betaalde belasting
 * **Parkeergarage**: Open constructie die geheel of gedeeltelijk in gebruik is als voorziening voor het parkeren van voertuigen
 * **Parkeerrecht**: Het onder bepaalde voorwaarden (zoals betaling parkeerbelasting of parkeergeld) ontstane recht om een voertuig gedurende een bepaalde of onbepaalde periode op een daartoe benoemde parkeerplaats of in/op een daartoe benoemde parkeervoorziening te parkeren.
 * **Parkeerscan**: Waarneming van een parkeeractie door een scanauto
@@ -74,7 +74,6 @@ Attributen van objecttype Belprovider
 
 
 
-
 ### MulderFeit
 > **Definitie MulderFeit:** 
 >
@@ -120,15 +119,13 @@ Attributen van objecttype MulderFeit
 | datumIndiening | Date |  |
 | redenSeponeren | AN300 |  |
 | organisatie | AN200 |  |
-| None | Class: "Voertuig" |  |
-
 
 
 
 ### Naheffing
 > **Definitie Naheffing:** 
 >
-> Het achteraf vorderen van te weinig betaalde belasting 
+> Het achteraf vorderen van te weinig betaalde belasting
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -174,7 +171,6 @@ Attributen van objecttype Naheffing
 
 
 
-
 ### Parkeergarage
 > **Definitie Parkeergarage:** 
 >
@@ -205,7 +201,6 @@ Attributen van objecttype Parkeergarage
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -246,9 +241,6 @@ Attributen van objecttype Parkeerrecht
 | productomschrijving | Text |  |
 | bedragAankoop | Bedrag | Bedrag incl. BTW |
 | bedragBTW | Bedrag |  |
-| None | Class: "Voertuig" |  |
-| None | Class: "Perkeerzone" |  |
-
 
 
 
@@ -290,11 +282,6 @@ Attributen van objecttype Parkeerscan
 | parkeerrecht | boolean |  |
 | tijdstip | DateTime |  |
 | foto | BLOB |  |
-| None | Class: "Medewerker" |  |
-| None | Class: "Voertuig" |  |
-| None | Class: "Parkeervlak" |  |
-| None | Class: "Parkeerrecht" |  |
-
 
 
 
@@ -337,11 +324,6 @@ Attributen van objecttype Parkeervergunning
 | minutenGeldig | int |  |
 | minutenResterend | int |  |
 | kenteken | AN12 |  |
-| None | Class: "Parkeerrecht" |  |
-| None | Class: "Perkeerzone" |  |
-| None | Class: "Productgroep" |  |
-| None | Class: "Productsoort" |  |
-
 
 
 
@@ -381,7 +363,6 @@ Attributen van objecttype Parkeervlak
 | coordinaten | GML |  |
 | fiscaal | boolean |  |
 | aantal | int |  |
-
 
 
 
@@ -437,7 +418,6 @@ Attributen van objecttype Perkeerzone
 
 
 
-
 ### Productgroep
 > **Definitie Productgroep:** 
 >
@@ -471,7 +451,6 @@ Attributen van objecttype Productgroep
 | code | AN40 |  |
 | omschrijving | AN250 |  |
 | beslisboom | AN250 |  |
-
 
 
 
@@ -512,7 +491,6 @@ Attributen van objecttype Productsoort
 
 
 
-
 ### Straatsectie
 > **Definitie Straatsectie:** 
 >
@@ -546,7 +524,6 @@ Attributen van objecttype Straatsectie
 | code | AN40 |  |
 | omschrijving | AN500 |  |
 | zoneCode | Enumeratie: "Zonesoort" |  |
-
 
 
 
@@ -591,7 +568,6 @@ Attributen van objecttype Voertuig
 
 
 
-
 ## Enumeraties Model Parkeren
 
 
@@ -602,10 +578,8 @@ Het enumeratie Doelgroepenplaatsen kent de volgende waarden:
 
 * **DP01**: gehandicapten paarkeerplaatsen algemeen
 * **DP02**: gehandicapten parkeerplaatsen kenteken
-
 * **DP03**: deelautoplaatsen
 * **DP04**: oplaadplaatsen elektrische auto's
-
 * **DP05**: laad- en losplaatsen
 * **Leeg**: Geen beperking
 
@@ -615,22 +589,22 @@ De enumeratie Doelgroepenplaatsen heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Doelgroepenplaatsen |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:43 |
 | modified | 2025-03-26 16:14:35 |
 | id | EAID_F8ADD9AF_76C0_425c_B059_18BB0AA20D28 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -648,22 +622,22 @@ De enumeratie Zonesoort heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Zonesoort |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:12:43 |
 | modified | 2025-03-26 16:14:35 |
 | id | EAID_5DD4AE03_667C_45b9_A46A_320077AC2926 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 

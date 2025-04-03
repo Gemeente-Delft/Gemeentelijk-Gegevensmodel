@@ -11,7 +11,7 @@ Het model 'Model Diensten' kent de volgende objecttypen:
 * **Beschikking**: Een voor beroep vatbaar overheidsbesluit. Veelal de op schrift gestelde juridische motivering van de beslissing, met vermelding van de bezwaar en beroepsmogelijkheden.
 * **Besluit**: Een na overweging of beraadslaging vastgestelde beslissing voor een individueel of concreet geval.
 * **Betalingsblokkade**: Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De belatingsblokkade wordt opgenomen bij de dienst, die wordt genten door de persoon.
-* **Dienst**: Een door de burger of bedrijf afgenomen dienst als een uit het aanbod van een overheidsorgaan in het kader van de Participatiewet.Let wel! Het gaat hier om dienst als de uiteindelijke levering van een diensttype op een aanvraag. 
+* **Dienst**: Een door de burger of bedrijf afgenomen dienst als een uit het aanbod van een overheidsorgaan in het kader van de Participatiewet.Let wel! Het gaat hier om dienst als de uiteindelijke levering van een diensttype op een aanvraag.
 * **Diensttype**: Het resultaat of effect van een afgeronde inspanning die een overheidsorgaan op basis van wettelijke taken levert en waarmee in een behoefte van een burger (of bedrijf) wordt voorzien. De daadwerkelijke levering van een dienst, meestal in de vorm van een financiï¿½le betaling.
 * **Individuele plicht**: De individueel bepaalde vooraf gestelde eisen, los van de bij wet genoemde geldende toelatingseisen tot de dienstverlening, die gesteld worden om de dienst te kunnen (blijven) afnemen.
 * **Leveringscomponent**: Een samenstellend deel van een Dienst. Bijvoorbeeld een gezinsnorm, een maatregel op de uitkering of bij een fysiek product: een koelkast.Nadat het recht is bepaald, wordt de levering gespecificeerd. Bij een financieel product is dat de hoogte van het bedrag. De hoogte van het bedrag is opgebouwd uit componenten waarvan de relevantie weer wordt bepaald door het recht en de situatie. Hoe het ook zij, de specificatie van de levering wordt in haar componenten vastgelegd als Leveringscomponent.
@@ -82,7 +82,6 @@ Attributen van objecttype Aanvraag
 
 
 
-
 ### Aanvraagtype
 > **Definitie Aanvraagtype:** 
 >
@@ -113,7 +112,6 @@ Attributen van objecttype Aanvraagtype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -150,7 +148,6 @@ Attributen van objecttype Beschikking
 
 
 
-
 ### Besluit
 > **Definitie Besluit:** 
 >
@@ -181,7 +178,6 @@ Attributen van objecttype Besluit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -218,11 +214,10 @@ Attributen van objecttype Betalingsblokkade
 
 
 
-
 ### Dienst
 > **Definitie Dienst:** 
 >
-> Een door de burger of bedrijf afgenomen dienst als een uit het aanbod van een overheidsorgaan in het kader van de Participatiewet.Let wel! Het gaat hier om dienst als de uiteindelijke levering van een diensttype op een aanvraag. 
+> Een door de burger of bedrijf afgenomen dienst als een uit het aanbod van een overheidsorgaan in het kader van de Participatiewet.Let wel! Het gaat hier om dienst als de uiteindelijke levering van een diensttype op een aanvraag.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -249,7 +244,6 @@ Attributen van objecttype Dienst
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -286,7 +280,6 @@ Attributen van objecttype Diensttype
 
 
 
-
 ### Individuele plicht
 > **Definitie Individuele plicht:** 
 >
@@ -320,7 +313,6 @@ Attributen van objecttype Individuele plicht
 
 
 
-
 ### Leveringscomponent
 > **Definitie Leveringscomponent:** 
 >
@@ -351,8 +343,6 @@ Attributen van objecttype Leveringscomponent
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Kostenplaats" |  |
-
 
 
 
@@ -389,7 +379,6 @@ Attributen van objecttype Leveringscomponenttype
 
 
 
-
 ### Leveringsopdracht
 > **Definitie Leveringsopdracht:** 
 >
@@ -420,7 +409,6 @@ Attributen van objecttype Leveringsopdracht
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -457,7 +445,6 @@ Attributen van objecttype Leveringsspecificatie
 
 
 
-
 ### Onderdeel beschikking
 > **Definitie Onderdeel beschikking:** 
 >
@@ -488,7 +475,6 @@ Attributen van objecttype Onderdeel beschikking
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -525,7 +511,6 @@ Attributen van objecttype Periodiek dienst (Bijz. bijstand)
 
 
 
-
 ### Recht
 > **Definitie Recht:** 
 >
@@ -556,7 +541,6 @@ Attributen van objecttype Recht
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -593,7 +577,6 @@ Attributen van objecttype Referteperiode
 
 
 
-
 ### Regeling
 > **Definitie Regeling:** 
 >
@@ -624,7 +607,6 @@ Attributen van objecttype Regeling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -661,7 +643,6 @@ Attributen van objecttype Uitsluitingsgrond
 
 
 
-
 ### Verstrekkingsvorm
 > **Definitie Verstrekkingsvorm:** 
 >
@@ -692,7 +673,6 @@ Attributen van objecttype Verstrekkingsvorm
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -729,7 +709,6 @@ Attributen van objecttype Voorliggende voorziening
 
 
 
-
 ### Voorwaarde
 > **Definitie Voorwaarde:** 
 >
@@ -763,7 +742,6 @@ Attributen van objecttype Voorwaarde
 
 
 
-
 ### Voorwaardetype
 > **Definitie Voorwaardetype:** 
 >
@@ -794,7 +772,6 @@ Attributen van objecttype Voorwaardetype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 

@@ -66,9 +66,6 @@ Attributen van objecttype Contact
 | contactsoort | AN80 |  |
 | datum | Date |  |
 | tekst | text |  |
-| None | Class: "NatuurlijkPersoon" |  |
-| None | Class: "Vestiging" |  |
-
 
 
 
@@ -103,8 +100,6 @@ Attributen van objecttype Hotel
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | aantalKamers | int |  |
-| None | Class: "Hotelbezoek" |  |
-
 
 
 
@@ -143,7 +138,6 @@ Attributen van objecttype Hotelbezoek
 
 
 
-
 ### Verkooppunt
 > **Definitie Verkooppunt:** 
 >
@@ -175,7 +169,6 @@ Attributen van objecttype Verkooppunt
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | winkelformule | AN80 |  |
-
 
 
 
@@ -213,8 +206,7 @@ Attributen van objecttype Werkgelegenheid
 | aantalFulltimeVrouwen | int |  |
 | aantalParttimeVrouwen | int |  |
 | aantalParttimeMannen | int |  |
-| grootteklasse | AN2 | Grootteklasse volgens handboek LISA, zie lisa.nl  |
-
+| grootteklasse | AN2 | Grootteklasse volgens handboek LISA, zie lisa.nl |
 
 
 
@@ -253,7 +245,6 @@ Attributen van objecttype Winkelvloeroppervlak
 | bronWVO | An40 |  |
 | leegstand | Boolean |  |
 | aantalKassa | int |  |
-
 
 
 

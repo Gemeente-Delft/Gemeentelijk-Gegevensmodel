@@ -7,9 +7,9 @@
 Het model 'Model Archeologie' kent de volgende objecttypen:
 
 * **Archeologiebesluit**: Een professioneel oordeel dat gebaseerd is op algemeen aanvaarde wetenschap ten aanzien van de archeologie
-* **Artefact**: De benaming voor ieder verplaatsbaar object dat door de mens is vervaardigd, bewerkt en/of gebruikt. 
+* **Artefact**: De benaming voor ieder verplaatsbaar object dat door de mens is vervaardigd, bewerkt en/of gebruikt.
 * **Artefactsoort**: Typering van artefacten
-* **boring**: Een verticale grondmonstername binnen een project De gegevens over het geheel van activiteiten, voor zover relevant voor het onderzoek, dat tot doel heeft door boren een gat in de ondergrond te maken om monsters uit de ondergrond te nemen en/of metingen aan de ondergrond te doen. Een middel om door boren of steken toegang te krijgen tot de ondergrond om bijvoorbeeld geroerde en/of ongeroerde monsters aan de ondergrond te ontlenen voor nader onderzoek. 
+* **boring**: Een verticale grondmonstername binnen een project<br>De gegevens over het geheel van activiteiten, voor zover relevant voor het onderzoek, dat tot doel heeft door boren een gat in de ondergrond te maken om monsters uit de ondergrond te nemen en/of metingen aan de ondergrond te doen.<br>Een middel om door boren of steken toegang te krijgen tot de ondergrond om bijvoorbeeld geroerde en/of ongeroerde monsters aan de ondergrond te ontlenen voor nader onderzoek.
 * **Doos**: Een afsluitbaar object waar iets in wordt opgeborgen of verpakt.
 * **Kaart**: De geografische weergave van een gedeelte van het aardoppervlak
 * **locatie**: Een specifieke plaats
@@ -20,7 +20,7 @@ Het model 'Model Archeologie' kent de volgende objecttypen:
 * **Spoor**: Een blijk van eerdere aanwezigheid.
 * **Stelling**: Een systeem om goederen op te slaan die worden vervoerd en opgeslagen op pallets, in bundels of per stuk.(Wikipedia)
 * **Vindplaats**: Een plek waar men iets gevonden heeft.
-* **Vlak**: Plat, oneindig oppervlak of variï¿½teit zonder enige kromming. 
+* **Vlak**: Plat, oneindig oppervlak of variï¿½teit zonder enige kromming.
 * **Vondst**: Overblijfsel, voorwerp of ander spoor van menselijke aanwezigheid in het verleden afkomstig van een archeologisch monument
 * **Vulling**: Dunne wegeringsplank gebruikt om de ruimte tussen de bovenste kimweger en de onderste balkweger op te vullen (Sopers, 1974).
 
@@ -77,11 +77,10 @@ Attributen van objecttype Archeologiebesluit
 
 
 
-
 ### Artefact
 > **Definitie Artefact:** 
 >
-> De benaming voor ieder verplaatsbaar object dat door de mens is vervaardigd, bewerkt en/of gebruikt. 
+> De benaming voor ieder verplaatsbaar object dat door de mens is vervaardigd, bewerkt en/of gebruikt.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -136,8 +135,6 @@ Attributen van objecttype Artefact
 | literatuur | AN200 |  |
 | herkomst | AN80 |  |
 | keyVondst | An40 |  |
-| None | Class: "Doos" |  |
-
 
 
 
@@ -177,13 +174,10 @@ Attributen van objecttype Artefactsoort
 
 
 
-
 ### boring
 > **Definitie boring:** 
 >
-> Een verticale grondmonstername binnen een project
-> De gegevens over het geheel van activiteiten, voor zover relevant voor het onderzoek, dat tot doel heeft door boren een gat in de ondergrond te maken om monsters uit de ondergrond te nemen en/of metingen aan de ondergrond te doen.
-> Een middel om door boren of steken toegang te krijgen tot de ondergrond om bijvoorbeeld geroerde en/of ongeroerde monsters aan de ondergrond te ontlenen voor nader onderzoek. 
+> Een verticale grondmonstername binnen een project<br>De gegevens over het geheel van activiteiten, voor zover relevant voor het onderzoek, dat tot doel heeft door boren een gat in de ondergrond te maken om monsters uit de ondergrond te nemen en/of metingen aan de ondergrond te doen.<br>Een middel om door boren of steken toegang te krijgen tot de ondergrond om bijvoorbeeld geroerde en/of ongeroerde monsters aan de ondergrond te ontlenen voor nader onderzoek.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -210,7 +204,6 @@ Attributen van objecttype boring
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
@@ -253,7 +246,6 @@ Attributen van objecttype Doos
 
 
 
-
 ### Kaart
 > **Definitie Kaart:** 
 >
@@ -287,7 +279,6 @@ Attributen van objecttype Kaart
 | naam | AN200 |  |
 | omschrijving | text |  |
 | kaart | BLOB |  |
-
 
 
 
@@ -325,7 +316,6 @@ Attributen van objecttype locatie
 
 
 
-
 ### Magazijnlocatie
 > **Definitie Magazijnlocatie:** 
 >
@@ -360,7 +350,6 @@ Attributen van objecttype Magazijnlocatie
 | volgletter | AN8 |  |
 | key | AN20 |  |
 | stelling | AN8 |  |
-
 
 
 
@@ -402,7 +391,6 @@ Attributen van objecttype Magazijnplaatsing
 | keyMagazijnlocatie | AN40 |  |
 | projectCD | An40 |  |
 | herkomst | AN250 |  |
-
 
 
 
@@ -450,7 +438,6 @@ Attributen van objecttype Project
 
 
 
-
 ### Put
 > **Definitie Put:** 
 >
@@ -484,7 +471,6 @@ Attributen van objecttype Put
 | projectCD | AN40 |  |
 | putnummer | AN40 |  |
 | key | AN40 |  |
-
 
 
 
@@ -534,7 +520,6 @@ Attributen van objecttype Spoor
 
 
 
-
 ### Stelling
 > **Definitie Stelling:** 
 >
@@ -567,7 +552,6 @@ Attributen van objecttype Stelling
 | :--- | :--- | :--- |
 | stellingcode | AN2 |  |
 | inhoud | text |  |
-
 
 
 
@@ -615,15 +599,13 @@ Attributen van objecttype Vindplaats
 | documentatie | AN200 |  |
 | bibliografie | AN200 |  |
 | beschrijving | text |  |
-| None | Class: "Project" |  |
-
 
 
 
 ### Vlak
 > **Definitie Vlak:** 
 >
-> Plat, oneindig oppervlak of variï¿½teit zonder enige kromming. 
+> Plat, oneindig oppervlak of variï¿½teit zonder enige kromming.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -657,7 +639,6 @@ Attributen van objecttype Vlak
 | diepteTot | N3 |  |
 | key | AN40 |  |
 | keyPut | AN40 |  |
-
 
 
 
@@ -707,7 +688,6 @@ Attributen van objecttype Vondst
 
 
 
-
 ### Vulling
 > **Definitie Vulling:** 
 >
@@ -748,7 +728,6 @@ Attributen van objecttype Vulling
 | structuur | AN80 |  |
 | key | AN40 |  |
 | keySpoor | AN40 |  |
-
 
 
 

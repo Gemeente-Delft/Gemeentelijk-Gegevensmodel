@@ -76,7 +76,6 @@ Attributen van objecttype Gebouw
 
 
 
-
 ### Huurwoningen
 > **Definitie Huurwoningen:** 
 >
@@ -111,7 +110,6 @@ Attributen van objecttype Huurwoningen
 
 
 
-
 ### Koopwoningen
 > **Definitie Koopwoningen:** 
 >
@@ -143,7 +141,6 @@ Attributen van objecttype Koopwoningen
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | koopprijs | Bedrag |  |
-
 
 
 
@@ -191,8 +188,6 @@ Attributen van objecttype Plan
 | eersteOplevering | Date |  |
 | laatsteOplevering | Date |  |
 | percelen | MultiSurface |  |
-| None | Class: "Gebouw" |  |
-
 
 
 
@@ -230,7 +225,6 @@ Attributen van objecttype Projectleider
 
 
 
-
 ### Projectontwikkelaar
 > **Definitie Projectontwikkelaar:** 
 >
@@ -263,8 +257,6 @@ Attributen van objecttype Projectontwikkelaar
 | :--- | :--- | :--- |
 | naam | AN80 |  |
 | adres | AN200 |  |
-| None | Class: "Plan" |  |
-
 
 
 
@@ -306,7 +298,6 @@ Attributen van objecttype Studentenwoningen
 
 
 
-
 ## Enumeraties Model Wonen
 
 
@@ -328,22 +319,22 @@ De enumeratie Energielabel heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Energielabel |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:10 |
 | modified | 2025-03-26 16:14:45 |
 | id | EAID_dbcf91c6_e4fb_4c42_8ada_3cb6060c4a39 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
@@ -366,22 +357,22 @@ De enumeratie Oppervlakte Woning heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Oppervlakte Woning |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author |  |
 | version | 1.4 |
 | created | 2025-03-26 11:13:10 |
 | modified | 2025-03-26 16:14:45 |
 | id | EAID_8cbbc1c0_1f07_4b3e_8176_6d3dca980551 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
 
 
 
