@@ -2,7 +2,18 @@
     cursor: zoom-in;
   }
   
-  .md-typeset a img:active {
+.md-typeset a img:active {
     cursor: zoom-out;
   }
   
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  background-color: white;  /* Lichtblauw uit Blue 50 */
+  border-color: #90CAF9;      /* Randkleur uit Blue 200 */
+}
+
+.md-typeset .admonition.info > .admonition-title,
+.md-typeset details.info > summary {
+  background-color: #E3F2FD;  /* Titelbalk uit Blue 100 */
+  color: #0D47A1;             /* Tekstkleur uit Blue 900 */
+}
