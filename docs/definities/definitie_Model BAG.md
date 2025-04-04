@@ -70,18 +70,18 @@ Attributen van objecttype Onderzoek
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | documentnummer | int | Het unieke nummer van het brondocument<br>Herkomst: BAG |
-| documentdatum | DateTime | De datum waarop het brondocument is vastgesteld<br><br>Herkomst: BAG |
-| beginGeldigheid | DateTime | De datum waarop het kenmerk of de relatie van een object bij de bronhouder in onderzoek is geplaatst.<br><br>Herkomst: BAG |
-| eindGeldigheid | DateTime | De datum waarop het onderzoek naar het kenmerk of de relatie van een object door de bronhouder is afgerond<br><br>Herkomst: BAG |
-| tijdstipRegistratie | DateTime | Het tijdstip waarop het onderzoek is geregistreerd bij de bronhouder.<br><br>Herkomst: BAG |
-| eindRegistratie | DateTime | Het tijdstip waarop de registratie van het onderzoek is be&#235;indigd bij de bronhouder.<br><br>Herkomst: BAG |
+| documentdatum | DateTime | De datum waarop het brondocument is vastgesteld<br>Herkomst: BAG |
+| beginGeldigheid | DateTime | De datum waarop het kenmerk of de relatie van een object bij de bronhouder in onderzoek is geplaatst.<br>Herkomst: BAG |
+| eindGeldigheid | DateTime | De datum waarop het onderzoek naar het kenmerk of de relatie van een object door de bronhouder is afgerond<br>Herkomst: BAG |
+| tijdstipRegistratie | DateTime | Het tijdstip waarop het onderzoek is geregistreerd bij de bronhouder.<br>Herkomst: BAG |
+| eindRegistratie | DateTime | Het tijdstip waarop de registratie van het onderzoek is be&#235;indigd bij de bronhouder.<br>Herkomst: BAG |
 | identificatie | char | Identificatie van de objectklasse Onderzoek voor intern gebruik.<br>Herkomst: BAG Plus |
 | volgnummer | int | Uniek volgnummer van de toestand van het object.<br>Herkomst: BAG Plus |
-| objecttype | char | Geeft aan welke objectklasse in onderzoek staat.<br><br>Herkomst: BAG Plus |
-| inOnderzoek | boolean | Indicatie of het kenmerk wel of niet in onderzoek staat.<br><br>Herkomst BAG Plus |
-| datumActueelTot | DateTime | Einddatum van de cyclus, eventueel in combinatie met het kenmerk Status.<br><br>Herkomst: BAG Plus |
-| kenmerk | char | De naam van het kenmerk van het object dat in onderzoek is geplaatst. Het kenmerk kan ook een relatie zijn met een ander object.<br><br>Per object kunnen de volgende kenmerken of relaties in onderzoek worden geplaatst:<br><br>Woonplaats:<br><ul><br><li>naam</li><br><li>geometrie</li><br><li>status </li><br></ul><br><br>Openbare ruimte:<br><ul><br><li>naam</li><br><li>type</li><br><li>status</li><br><li>ligt in woonplaats </li><br></ul><br><br>Nummeraanduiding:<br><ul><br><li>huisnummer</li><br><li>huisletter</li><br><li>huisnummertoevoeging</li><br><li>postcode</li><br><li>type adresseerbaar object</li><br><li>status</li><br><li>ligt in woonplaats</li><br><li>ligt aan openbare ruimte </li><br></ul><br><br>Pand:<br><ul><br><li>geometrie</li><br><li>bouwjaar</li><br><li>status </li><br></ul><br><br>Verblijfsobject:<br><ul><br><li>geometrie</li><br><li>gebruiksdoel</li><br><li>oppervlakte</li><br><li>status</li><br><li>ligt in pand</li><br><li>heeft hoofdadres</li><br><li>heeft nevenadres </li><br></ul><br><br>Standplaats:<br><ul><br><li>geometrie</li><br><li>status</li><br><li>heeft hoofdadres</li><br><li>heeft nevenadres </li><br></ul><br><br>Ligplaats:<br><ul><br><li>geometrie</li><br><li>status</li><br><li>heeft hoofdadres</li><br><li>heeft nevenadres </li><br></ul><br><br>Herkomst: BAG |
-| objectIdentificatie | char | Unieke identificatie van het object dat in onderzoek is geplaatst.<br><br>Herkomst BAG |
+| objecttype | char | Geeft aan welke objectklasse in onderzoek staat.<br>Herkomst: BAG Plus |
+| inOnderzoek | boolean | Indicatie of het kenmerk wel of niet in onderzoek staat.<br>Herkomst BAG Plus |
+| datumActueelTot | DateTime | Einddatum van de cyclus, eventueel in combinatie met het kenmerk Status.<br>Herkomst: BAG Plus |
+| kenmerk | char | De naam van het kenmerk van het object dat in onderzoek is geplaatst. Het kenmerk kan ook een relatie zijn met een ander object.<br>Per object kunnen de volgende kenmerken of relaties in onderzoek worden geplaatst:<br>Woonplaats:<br><ul><br>	<li>naam</li><br>	<li>geometrie</li><br>	<li>status </li><br></ul><br>Openbare ruimte:<br><ul><br>	<li>naam</li><br>	<li>type</li><br>	<li>status</li><br>	<li>ligt in woonplaats </li><br></ul><br>Nummeraanduiding:<br><ul><br>	<li>huisnummer</li><br>	<li>huisletter</li><br>	<li>huisnummertoevoeging</li><br>	<li>postcode</li><br>	<li>type adresseerbaar object</li><br>	<li>status</li><br>	<li>ligt in woonplaats</li><br>	<li>ligt aan openbare ruimte </li><br></ul><br>Pand:<br><ul><br>	<li>geometrie</li><br>	<li>bouwjaar</li><br>	<li>status </li><br></ul><br>Verblijfsobject:<br><ul><br>	<li>geometrie</li><br>	<li>gebruiksdoel</li><br>	<li>oppervlakte</li><br>	<li>status</li><br>	<li>ligt in pand</li><br>	<li>heeft hoofdadres</li><br>	<li>heeft nevenadres </li><br></ul><br>Standplaats:<br><ul><br>	<li>geometrie</li><br>	<li>status</li><br>	<li>heeft hoofdadres</li><br>	<li>heeft nevenadres </li><br></ul><br>Ligplaats:<br><ul><br>	<li>geometrie</li><br>	<li>status</li><br>	<li>heeft hoofdadres</li><br>	<li>heeft nevenadres </li><br></ul><br>Herkomst: BAG |
+| objectIdentificatie | char | Unieke identificatie van het object dat in onderzoek is geplaatst.<br>Herkomst BAG |
 
 
 
@@ -121,7 +121,7 @@ Attributen van objecttype Nummeraanduiding
 | postcode | char | De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam van een woonplaats, naam van een openbare ruimte en een huisnummer |
 | beginGeldigheid | DATUM | Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum |
 | eindeGeldigheid | DATUM | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. |
-| status | Enumeratie: "statusNummeraanduiding" | De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.<br>&nbsp;<br><ul><br><li>Naamgeving uitgegeven</li><br><li>Naamgeving ingetrokken</li><br></ul> |
+| status | Enumeratie: "statusNummeraanduiding" | De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.<br>&nbsp;<br><ul><br>	<li>Naamgeving uitgegeven</li><br>	<li>Naamgeving ingetrokken</li><br></ul> |
 | geconstateerd | boolean |  |
 | identificatie | Varchar | Unieke identificatiecode van het object |
 | typeAdresseerbaarObject | Enumeratie: "TypeAdresseerbaarObject" | Het type addresseerbaarobject (landelijke identificatie) wat door de nummeraanduiding wordt aangeduid. |
@@ -255,7 +255,7 @@ Attributen van objecttype Ligplaats
 | :--- | :--- | :--- |
 | identificatie | Varchar | De unieke aanduiding van een LIGPLAATS |
 | geconstateerd | Enumeratie: "Boolean" | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname. |
-| status | Enumeratie: "statusLigplaats" | De fase van de levenscyclus van een LIGPLAATS waarin de betreffende LIGPLAATS zich bevindt.<br>&nbsp;<br><ul><br><li>Plaats aangewezen</li><br><li>Plaats ingetrokken</li><br></ul> |
+| status | Enumeratie: "statusLigplaats" | De fase van de levenscyclus van een LIGPLAATS waarin de betreffende LIGPLAATS zich bevindt.<br>&nbsp;<br><ul><br>	<li>Plaats aangewezen</li><br>	<li>Plaats ingetrokken</li><br></ul> |
 | documentdatum | Date | De datum waarop het brondocument is vastgesteld op basis waarvan een opname, mutatie of een verwijdering van gegevens ten aanzien van een object heeft plaatsgevonden. |
 | documentnummer | int | De unieke aanduiding van het brondocument op basis waarvan een opname, mutatie of een verwijdering van gegevens ten aanzien van een woonplaats heeft plaatsgevonden binnen een gemeente. |
 | versie | Number |  |
@@ -387,12 +387,12 @@ Attributen van objecttype Pand
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | identificatie | Varchar | De unieke aanduiding van een PAND |
-| status | Enumeratie: "statusPand" | De fase van de levenscyclus van een PAND, waarin het betreffende PAND zich bevindt.<br><ul><br><li>Bouwvergunning verleend</li><br><li>Niet gerealiseerd pand</li><br><li>Bouw gestart</li><br><li>Pand in gebruik (niet ingemeten)</li><br><li>Pand in gebruik</li><br><li>Sloopvergunning verleend</li><br><li>Pand gesloopt</li><br><li>Pand buiten gebruik</li><br><li>Verbouwing pand</li><br><li>Pand ten onrechte opgevoerd</li><br></ul> |
+| status | Enumeratie: "statusPand" | De fase van de levenscyclus van een PAND, waarin het betreffende PAND zich bevindt.<br><ul><br>	<li>Bouwvergunning verleend</li><br>	<li>Niet gerealiseerd pand</li><br>	<li>Bouw gestart</li><br>	<li>Pand in gebruik (niet ingemeten)</li><br>	<li>Pand in gebruik</li><br>	<li>Sloopvergunning verleend</li><br>	<li>Pand gesloopt</li><br>	<li>Pand buiten gebruik</li><br>	<li>Verbouwing pand</li><br>	<li>Pand ten onrechte opgevoerd</li><br></ul> |
 | statusVoortgangBouw | Enumeratie: "statusVoortgangBouw" | De fase van de bouw, verbouw of sloop waarin het betreffende PAND zich bevindt |
 | oorspronkelijkBouwjaar | JAAR | <font color="#0f0f0f">De aanduiding van het jaar waarin een PAND oorspronkelijk als bouwkundig gereed is of wordt opgeleverd.</font> |
 | oppervlakte | N6 | De gebruiksoppervlakte van een PAND in gehele vierkante meters. |
 | brutoInhoudPand | N6 | Aanduiding in kubieke meters van de bruto inhoud van het PAND. |
-| geconstateerd | boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname.<br><br>Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een feitelijke constatering en niet op basis van een regulier brondocument |
+| geconstateerd | boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname.<br>Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een feitelijke constatering en niet op basis van een regulier brondocument |
 | hoogsteBouwlaag | N3 | De ligging van de hoogste bouwlaag van het pand gerekend ten opzichte van het straatpeil. |
 | laagsteBouwlaag | N3 | De ligging van de laagste bouwlaag van het pand gerekend ten opzichte van het straatpeil. |
 | geometrieBovenaanzicht | Surface | <font color="#0f0f0f">De minimaal tweedimensionale geometrische representatie van het bovenaanzicht van de omtrekken van een PAND</font> |
@@ -753,7 +753,7 @@ Geen Definitie
 Het enumeratie typeringOpenbareRuimte kent de volgende waarden:
 
 * **weg**: Gebaand gedeelte voor het wegverkeer en vliegverkeer te land. Hieronder vallen ook start- en landingsbanen voor het vliegverkeer.
-* **water**: grondoppervlak in principe bedekt met water.<br>Voorbeelden zijn: rivier, kanaal, beek, zee, meer, oppervlaktewater in algemene zin. Objecten die in het kader  van de waterhuishouding periodiek met water zijn bedekt, vallen hier ook onder.
+* **water**: grondoppervlak in principe bedekt met water.<br> Voorbeelden zijn: rivier, kanaal, beek, zee, meer, oppervlaktewater in algemene zin. Objecten die in het kader  van de waterhuishouding periodiek met water zijn bedekt, vallen hier ook onder.
 * **spoorbaan**: Gebaand gedeelte voor het verkeer over rails.<br>Voorbeelden zijn: spoorbaan, metrobaan, trambaan
 * **terrein**: Door een fysiek voorkomen gekarakteriseerd zichtbaar begrensd stuk grond.<br>Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te geven waarvoor een bepaald fysiek voorkomen typerend is. Voorbeelden zijn: bos, landschap, bebouwing, landbouwgebied. Belangrijk is dat het stuk grond een zichtbare grens heeft met aangrenzende geo-objecten.
 * **kunstwerk**: Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen  en niet bedoeld voor permanent menselijk verblijf.<br>Hieronder vallen overbruggingen, waterstaatkundige werken en waterkerende constructies. verbruggingen  kunnen zijn: brug, viaduct, aquaduct enz. Een voorbeeld van een waterstaatkundig werk is een sluis.<br>Voorbeelden van waterkerende constructies zijn stuw en vaste dam.
@@ -1595,7 +1595,7 @@ Geen Definitie
 Het enumeratie typeringOpenbareRuimte kent de volgende waarden:
 
 * **weg**: Gebaand gedeelte voor het wegverkeer en vliegverkeer te land. Hieronder vallen ook start- en landingsbanen voor het vliegverkeer.
-* **water**: grondoppervlak in principe bedekt met water.<br>Voorbeelden zijn: rivier, kanaal, beek, zee, meer, oppervlaktewater in algemene zin. Objecten die in het kader  van de waterhuishouding periodiek met water zijn bedekt, vallen hier ook onder.
+* **water**: grondoppervlak in principe bedekt met water.<br> Voorbeelden zijn: rivier, kanaal, beek, zee, meer, oppervlaktewater in algemene zin. Objecten die in het kader  van de waterhuishouding periodiek met water zijn bedekt, vallen hier ook onder.
 * **spoorbaan**: Gebaand gedeelte voor het verkeer over rails.<br>Voorbeelden zijn: spoorbaan, metrobaan, trambaan
 * **terrein**: Door een fysiek voorkomen gekarakteriseerd zichtbaar begrensd stuk grond.<br>Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te geven waarvoor een bepaald fysiek voorkomen typerend is. Voorbeelden zijn: bos, landschap, bebouwing, landbouwgebied. Belangrijk is dat het stuk grond een zichtbare grens heeft met aangrenzende geo-objecten.
 * **kunstwerk**: Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen  en niet bedoeld voor permanent menselijk verblijf.<br>Hieronder vallen overbruggingen, waterstaatkundige werken en waterkerende constructies. verbruggingen  kunnen zijn: brug, viaduct, aquaduct enz. Een voorbeeld van een waterstaatkundig werk is een sluis.<br>Voorbeelden van waterkerende constructies zijn stuw en vaste dam.

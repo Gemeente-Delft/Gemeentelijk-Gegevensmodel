@@ -350,7 +350,7 @@ Attributen van objecttype Appartementsrechtsplitsing
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | BegroeidTerreindeel |
-| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br><br>Objecttype BEGROEID TERREINDEEL is het equivalent van het city gml objecttype PLANTCOVER. |
+| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype BEGROEID TERREINDEEL is het equivalent van het city gml objecttype PLANTCOVER. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -434,7 +434,7 @@ Attributen van objecttype Gebied
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | FunctioneelGebied |
-| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br><br>Objecttype FUNCTIONEEL GEBIED is een specialisatie van het city gml objecttype LANDUSE. Zie verder BGT. |
+| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype FUNCTIONEEL GEBIED is een specialisatie van het city gml objecttype LANDUSE. Zie verder BGT. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -473,7 +473,7 @@ Attributen van objecttype FunctioneelGebied
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Gebouwinstallatie |
-| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br><br>Objecttype GEBOUWINSTALLATIE  is het equivalent van het city gml objecttype BUILDINGINSTALLATION. |
+| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype GEBOUWINSTALLATIE  is het equivalent van het city gml objecttype BUILDINGINSTALLATION. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -553,7 +553,7 @@ Attributen van objecttype Huishouden
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Inrichtingselement |
-| toelichting | <memo>#NOTES#Inrichtingselementen vormen een diverse klasse. Het zijn objecten die niet zozeer op basis van fysiek voorkomen of hun gebruiksfunctie bij elkaar horen, maar op basis van hun eigenschap dat ze andere objecten inrichten.<br>Het zijn objecten die een relatief kleine geometrie hebben.<br><br>In het voorliggende model zijn de subklassen / specialisaties van INRICHTINGSELEMENT niet als afzonderlijke objecttypen gemodelleerd. De subklasse / specialisatie is te herkennen aan de attribuutsoort ï¿½Type inrichtingselementï¿½.<br><br>Objecttype INRICHITNGSELEMENT is een specialisatie van het city gml objecttype CITYFURNITURE.<br><br>Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo. |
+| toelichting | <memo>#NOTES#Inrichtingselementen vormen een diverse klasse. Het zijn objecten die niet zozeer op basis van fysiek voorkomen of hun gebruiksfunctie bij elkaar horen, maar op basis van hun eigenschap dat ze andere objecten inrichten.<br>Het zijn objecten die een relatief kleine geometrie hebben.<br>In het voorliggende model zijn de subklassen / specialisaties van INRICHTINGSELEMENT niet als afzonderlijke objecttypen gemodelleerd. De subklasse / specialisatie is te herkennen aan de attribuutsoort ï¿½Type inrichtingselementï¿½.<br>Objecttype INRICHITNGSELEMENT is een specialisatie van het city gml objecttype CITYFURNITURE.<br>Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -595,7 +595,7 @@ Attributen van objecttype Inrichtingselement
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | KadastraalPerceel |
-| toelichting | #NOTES#Een KADASTRAAL PERCEEL behoort tezamen met het APPARTEMENTSRECHT tot de generalisatie KADASTRALE ONROERENDE ZAAK.<br><br>Percelen worden cartografisch gerepresenteerd door een tweedimensionale vlakbegrenzing. Tussen alle kadastrale percelen in Nederland geldt een topologische relatie (opdelende vlakstructuur), d.w.z. dat naburige perceelsvlakken naadloos moeten aansluiten en elkaar niet mogen overlappen. |
+| toelichting | #NOTES#Een KADASTRAAL PERCEEL behoort tezamen met het APPARTEMENTSRECHT tot de generalisatie KADASTRALE ONROERENDE ZAAK.<br>Percelen worden cartografisch gerepresenteerd door een tweedimensionale vlakbegrenzing. Tussen alle kadastrale percelen in Nederland geldt een topologische relatie (opdelende vlakstructuur), d.w.z. dat naburige perceelsvlakken naadloos moeten aansluiten en elkaar niet mogen overlappen. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -910,7 +910,7 @@ Attributen van objecttype MaatschappelijkeActiviteit
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | OnbegroeidTerreindeel |
-| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br><br>Objecttype ONBEGROEID TERREINDEEL is een specialisatie van het city gml objecttype LANDUSE. |
+| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype ONBEGROEID TERREINDEEL is een specialisatie van het city gml objecttype LANDUSE. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -953,7 +953,7 @@ Attributen van objecttype OnbegroeidTerreindeel
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | OndersteunendWaterdeel |
-| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br><br>ONDERSTEUNEND WATEREEL is een specialisatie van het city gml objecttype WATERBODY. |
+| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>ONDERSTEUNEND WATEREEL is een specialisatie van het city gml objecttype WATERBODY. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -994,7 +994,7 @@ Attributen van objecttype OndersteunendWaterdeel
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | OndersteunendWegdeel |
-| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br><br>ONDERSTEUNEND WEGDEEL is het equivalent van het  city gml objecttype AUXILIARY TRAFFIC AREA |
+| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>ONDERSTEUNEND WEGDEEL is het equivalent van het  city gml objecttype AUXILIARY TRAFFIC AREA |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -1040,7 +1040,7 @@ Attributen van objecttype OndersteunendWegdeel
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Overbruggingsdeel |
-| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te ledien dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br><br>Objecttype OVERBRUGGINGSDEEL is het equivalent van het city gml objecttype BRIDGE CONSTRUCTION ELEMENT<br>Zie verder het BGT. |
+| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te ledien dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype OVERBRUGGINGSDEEL is het equivalent van het city gml objecttype BRIDGE CONSTRUCTION ELEMENT<br>Zie verder het BGT. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -1163,7 +1163,7 @@ Attributen van objecttype NatuurlijkPersoon
 | nationaliteit | AN100 |  |
 | aanduidingBijzonderNederlanderschapPersoon | AN50 |  |
 | anummer | AN20 | Het administratienummer van het kind, bedoeld in de Wet BRP. |
-| indicatieOverleden | boolean | Indicatie Overleden is een indicatie of de persoon al dan niet overleden is.<br><br>Deze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar zijn De datum van overlijden is soms niet bekend, maar wel dat iemand overleden is. |
+| indicatieOverleden | boolean | Indicatie Overleden is een indicatie of de persoon al dan niet overleden is.<br>Deze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar zijn De datum van overlijden is soms niet bekend, maar wel dat iemand overleden is. |
 | IndicatieAfschermingPersoonsgegevens | boolean | Indicatie Afscherming Persoonsgegevens is een indicatie om aan te geven dat de gegevens van een persoon zijn afgeschermd. |
 
 
@@ -1219,7 +1219,7 @@ Attributen van objecttype OverigBouwwerk
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | OverigGebouwdObject |
-| toelichting | <memo>#NOTES#Een overig bouwwerk is een onderdeel van de gebouwde omgeving, bouwtechnisch op het niveau van panden en qua gebruik op het niveau van verblijfsobjecten. Door het registreren van overig bouwwerken, in aanvulling op de verblijfsobjecten en panden, verkrijgt de gemeente een ï¿½ voor zover gewenst ï¿½ totale registratie van de gebouwde omgeving. Verblijfsobjecten betreffen bouwvergunningplichtige gebouwde objecten waarin verbleven kan worden; overige bouwwerken bieden de mogelijkheid ook bouwvergunningplichtige gebouwde objecten te registreren waarin niet verbleven kan worden in de zin van de BAG.<br>Overige bouwwerken worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij primair om objecten met een verblijfsfunctie, naar analogie van de verblijfsobjecten, zijnde geen verblijfsobjecten en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is. Dit betreft bijvoorbeeld onbemande benzinestations en niet-afsluitbare parkeergarages. Het staat de gemeente vrij een bredere afbakening te hanteren vanuit het oogpunt van centraal beheer en voor zover de gemeente daarvan adressen wil vaststellen. Dit betreft bijvoorbeeld hoogspanningsmasten, GSMzendmasten en windturbines. Vermeldenswaard is dat bouwvergunningplichtige objecten zonder verblijfsfunctie al als INRICHTINGSELEMENT geregistreerd worden.<br>Essentieel is derhalve dat elk overig gebouwd object voorzien wordt van een (niet-authentiek) adres: een officieel vastgesteld OVERIGE ADRESSEERBAAR OBJECT AANDUIDING, een bestaande NUMMERAANDUIDING aangevuld met een locatie-aanduiding of een bestaande OPENBARE RUIMTE aangevuld met een locatie-aanduiding. Elk overig gebouwd object heeft dus precies ï¿½ï¿½n van de drie genoemde relaties waarmee het voorzien is van een adres.<br><br>De populatie van overige gebouwde objecten is een deelverzameling van de populatie overige bouwwerken zoals die in de BGT / IMGeo voorkomt. Maar omdat voor overige gebouwde objecten de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres essentieel is, heeft elk overig gebouwd object een adres en is als apart objecttype opgenomen. |
+| toelichting | <memo>#NOTES#Een overig bouwwerk is een onderdeel van de gebouwde omgeving, bouwtechnisch op het niveau van panden en qua gebruik op het niveau van verblijfsobjecten. Door het registreren van overig bouwwerken, in aanvulling op de verblijfsobjecten en panden, verkrijgt de gemeente een ï¿½ voor zover gewenst ï¿½ totale registratie van de gebouwde omgeving. Verblijfsobjecten betreffen bouwvergunningplichtige gebouwde objecten waarin verbleven kan worden; overige bouwwerken bieden de mogelijkheid ook bouwvergunningplichtige gebouwde objecten te registreren waarin niet verbleven kan worden in de zin van de BAG.<br>Overige bouwwerken worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij primair om objecten met een verblijfsfunctie, naar analogie van de verblijfsobjecten, zijnde geen verblijfsobjecten en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is. Dit betreft bijvoorbeeld onbemande benzinestations en niet-afsluitbare parkeergarages. Het staat de gemeente vrij een bredere afbakening te hanteren vanuit het oogpunt van centraal beheer en voor zover de gemeente daarvan adressen wil vaststellen. Dit betreft bijvoorbeeld hoogspanningsmasten, GSMzendmasten en windturbines. Vermeldenswaard is dat bouwvergunningplichtige objecten zonder verblijfsfunctie al als INRICHTINGSELEMENT geregistreerd worden.<br>Essentieel is derhalve dat elk overig gebouwd object voorzien wordt van een (niet-authentiek) adres: een officieel vastgesteld OVERIGE ADRESSEERBAAR OBJECT AANDUIDING, een bestaande NUMMERAANDUIDING aangevuld met een locatie-aanduiding of een bestaande OPENBARE RUIMTE aangevuld met een locatie-aanduiding. Elk overig gebouwd object heeft dus precies ï¿½ï¿½n van de drie genoemde relaties waarmee het voorzien is van een adres.<br>De populatie van overige gebouwde objecten is een deelverzameling van de populatie overige bouwwerken zoals die in de BGT / IMGeo voorkomt. Maar omdat voor overige gebouwde objecten de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres essentieel is, heeft elk overig gebouwd object een adres en is als apart objecttype opgenomen. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -1464,7 +1464,7 @@ Attributen van objecttype Scheiding
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Spoor |
-| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br><br>Objecttype SPOOR is het equivalent van het city gml objecttype RAILWAY. |
+| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype SPOOR is het equivalent van het city gml objecttype RAILWAY. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -1589,7 +1589,7 @@ Attributen van objecttype Tenaamstelling
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Tunneldeel |
-| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br><br>Objecttype TUNNELDEEL is het equivalent van het city gml objecttype TUNNEL PART.<br><br>Zichtbare muren enz. die de buitenste delen van een tunnel vormen worden in de BGT als muur enz. geclassificeerd. |
+| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype TUNNELDEEL is het equivalent van het city gml objecttype TUNNEL PART.<br>Zichtbare muren enz. die de buitenste delen van een tunnel vormen worden in de BGT als muur enz. geclassificeerd. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -1675,7 +1675,7 @@ Attributen van objecttype Vestiging
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Vegetatieobject |
-| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br><br>Objecttype VEGETATIEOBJECT is het equivalent van het city gml objecttype SOLITARY VEGETATION OBJECT.<br><br>Individuele bomen hoeven alleen te worden opgenomen indien dit gewenst is. Vaak zal dit in het stedelijk gebied wel gebeuren en in landelijk gebied niet, uitzonderingen daargelaten. |
+| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype VEGETATIEOBJECT is het equivalent van het city gml objecttype SOLITARY VEGETATION OBJECT.<br>Individuele bomen hoeven alleen te worden opgenomen indien dit gewenst is. Vaak zal dit in het stedelijk gebied wel gebeuren en in landelijk gebied niet, uitzonderingen daargelaten. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -1716,7 +1716,7 @@ Attributen van objecttype Vegetatieobject
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Waterdeel |
-| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br><br>Objecttype WATERDEEL is een specialisatie van het city gml objecttype WATERBODY. |
+| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype WATERDEEL is een specialisatie van het city gml objecttype WATERBODY. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -1757,7 +1757,7 @@ Attributen van objecttype Waterdeel
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Wegdeel |
-| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br><br>Objecttype WEGDEEL is het equivalent van het city gml objecttype TRAFFIC AREA. |
+| toelichting | <memo>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype WEGDEEL is het equivalent van het city gml objecttype TRAFFIC AREA. |
 | synoniemen |  |
 | uri |  |
 | bron |  |

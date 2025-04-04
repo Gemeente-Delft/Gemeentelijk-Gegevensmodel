@@ -498,7 +498,7 @@ Attributen van objecttype Regel voor Iedereen
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| activiteitRegelKwalificatie | AN200 | <font color="#032547"><b>Attribuutsoort activiteitregelkwalificatie</b></font><br>Naam Definitie Formaat Toelichting<br>Constraint(s)<br><br>activiteitregelkwalificatie<br>De naam van de kwalificatie van de Juridische regel over een activiteit.<br>Activiteitregelkwalificatie (waardelijst) Bijvoorbeeld: gebod, verbod.<br>Alleen te gebruiken wanneer bij Juridische regel is gekozen voor het type 'Regel voor iedereen' en de regel een Activiteit beschrijft.<br>Als activiteit, alleen dan activiteitregelkwalificatie.<br>Dit kenmerk heeft alleen betekenis wanneer de regel een activiteit beschrijft. Anders gezegd, dit kenmerk hoort alleen gevuld te worden wanneer de regel, ten minste, een activiteit beschrijft. |
+| activiteitRegelKwalificatie | AN200 | <font color="#032547"><b>Attribuutsoort activiteitregelkwalificatie</b></font><br>Naam Definitie Formaat Toelichting<br>Constraint(s)<br>activiteitregelkwalificatie<br>De naam van de kwalificatie van de Juridische regel over een activiteit.<br>Activiteitregelkwalificatie (waardelijst) Bijvoorbeeld: gebod, verbod.<br>Alleen te gebruiken wanneer bij Juridische regel is gekozen voor het type 'Regel voor iedereen' en de regel een Activiteit beschrijft.<br>Als activiteit, alleen dan activiteitregelkwalificatie.<br>Dit kenmerk heeft alleen betekenis wanneer de regel een activiteit beschrijft. Anders gezegd, dit kenmerk hoort alleen gevuld te worden wanneer de regel, ten minste, een activiteit beschrijft. |
 
 
 

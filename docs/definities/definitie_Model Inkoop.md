@@ -786,7 +786,7 @@ Attributen van objecttype StartformulierAanbesteden
 | toelichtingAanvullendeOpdracht | text | Zijn er mogelijk nog aanvullende of gerelateerde opdrachten, die je ook wilt verstrekken aan de beoogde opdrachtnemer? |
 | beoogdeLooptijd | int | Beoogde looptijd in jaren |
 | beoogdeTotaleOpdrachtwaarde | Bedrag |  |
-| indicatieBeoogdeAanbestedingOnderhands | Boolean | Welke aanbestedingsprocedure ben je voornemens te volgen?<br><ol><br><li>1-op-1 (enkelvoudig onderhands) of 3 tot 5 offertes (meervoudig onderhands)</li><br><li>Nationale of Europese aanbesteding </li><br></ol> |
+| indicatieBeoogdeAanbestedingOnderhands | Boolean | Welke aanbestedingsprocedure ben je voornemens te volgen?<br><ol><br> <li>1-op-1 (enkelvoudig onderhands) of 3 tot 5 offertes (meervoudig onderhands)</li><br> <li>Nationale of Europese aanbesteding </li><br></ol> |
 | indicatieBeoogdeProcKomtOvereen | boolean | Komt - op basis van de hierboven genoemde totale opdrachtwaarde - de beoogde aanbestedings-procedure overeen met de voorgeschreven procedure uit het Procedure-overzicht en/of het 'groene' gedeelte in de kleurentabel uit de gids proportionaliteit? |
 
 

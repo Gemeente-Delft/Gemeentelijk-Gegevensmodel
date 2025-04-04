@@ -943,7 +943,7 @@ Attributen van objecttype Groenobject
 | breedte | integer | Breedte van het beheerobject.<br>Eenheid: m |
 | breedteklasseHaag | BreedteklasseHaag | Aanduiding van de breedte van de haag in klassen conform RAW. (geldt niet voor de blokhaag) |
 | BVC | boolean | BVC van toepassing': Aangewezen als te controleren beheerobject conform de boomveiligheidscontrole |
-| cultuurhistorischWaardevol | CultuurhistorischWaardevol | Aanduiding voor een gebied of plek welke cultuurhistorisch waardevol is, wordt toegepast bij terreindelen en groenobjecten<br>op basis van een cultuurhistorische waardekaart. |
+| cultuurhistorischWaardevol | CultuurhistorischWaardevol | Aanduiding voor een gebied of plek welke cultuurhistorisch waardevol is, wordt toegepast bij terreindelen en groenobjecten<br> op basis van een cultuurhistorische waardekaart. |
 | draagkrachtig | boolean | Met draagkrachtig wordt bedoeld dat voertuigen niet meer dan 20 mm mogen insporen. (alleen voor bermen) |
 | ecologischBeheer | boolean | Aanduiding of ecologisch beheer van toepassing is.<br>Toelichting: Beheer gericht op het scheppen en in stand houden van de biologische kwaliteit, verscheidenheid en diversiteit, alsmede de variatie in het landschap. (bron: RAW). De daadwerkelijke uitwerking van het ecologisch beheer voor het beheerobject zal zijn afgestemd op de specifieke lokale situatie. |
 | fysiekVoorkomenIMGeo | AN80 | Aanduiding van het Â´fysieke voorkomen-plusÂ´ van het beheerobject zoals dat in IMGeo is vastgelegd. Overname uit IMGeo-object |
@@ -2178,7 +2178,7 @@ Attributen van objecttype Terreindeel
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | breedte | integer | Breedte van het beheerobject.<br>Eenheid: m |
-| cultuurhistorischWaardevol | CultuurhistorischWaardevol | Aanduiding voor een gebied of plek welke cultuurhistorisch waardevol is, wordt toegepast bij terreindelen en groenobjecten<br>op basis van een cultuurhistorische waardekaart. |
+| cultuurhistorischWaardevol | CultuurhistorischWaardevol | Aanduiding voor een gebied of plek welke cultuurhistorisch waardevol is, wordt toegepast bij terreindelen en groenobjecten<br> op basis van een cultuurhistorische waardekaart. |
 | herplantplicht | boolean | Aanduiding of er in het kader van de Wet Natuurbescherming sprake is van een herplantplicht. |
 | oppervlakte | integer | Oppervlakte van het  beheerobject, overname van BGT/IMGeo.<br>Eenheid: m2 |
 | opTalud | nee | Aanduiding of het beheerobject wel of niet op een hellend vlak ligt. De taludsteilte wordt apart geregistreerd. Overname uit BGT-object |

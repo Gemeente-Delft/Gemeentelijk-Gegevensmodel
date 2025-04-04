@@ -198,7 +198,7 @@ Attributen van objecttype Subsidie
 | socialReturnBedrag | Bedrag |  |
 | verantwoordenOp | Date |  |
 | uitgaandeSubsidie | Boolean |  |
-| prestatiesubsidie | Boolean | Als Nee dan is het een stimuleringssubsidie<br><br>Alleen bij uitgaande subsidies, anders NULL! |
+| prestatiesubsidie | Boolean | Als Nee dan is het een stimuleringssubsidie<br>Alleen bij uitgaande subsidies, anders NULL! |
 | doelstelling | AN200 |  |
 | opmerkingenVoorschotten | Text |  |
 

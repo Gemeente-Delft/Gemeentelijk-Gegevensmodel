@@ -12,7 +12,7 @@ Het model 'Model Inburgering' kent de volgende objecttypen:
 * **Examen**: Een Examen in de context van onderwijs is een formele toetsingsactiviteit waarmee de kennis, vaardigheden en competenties van een leerling of student worden beoordeeld ten opzichte van vooraf vastgestelde leerdoelen of eindtermen. Het examen kan schriftelijk, mondeling, digitaal of praktijkgericht zijn en vormt doorgaans een afsluiting van een cursus, module of opleiding. Het behalen van een examen kan leiden tot het verkrijgen van een diploma, certificaat of overgangsbewijs en is bedoeld om de voortgang en geschiktheid voor verdere studie of beroep te waarborgen.
 * **Examenonderdeel**: Een Examenonderdeel in de context van onderwijs is een specifieke, afgebakende component van een examen waarin een deelaspect van de leerdoelen of eindtermen wordt getoetst. Het kan betrekking hebben op een specifiek vak, thema of vaardigheid en kan bestaan uit verschillende toetsvormen, zoals meerkeuzevragen, essays, praktijkopdrachten of mondelinge presentaties. Het examenonderdeel draagt bij aan de totaalscore of het eindresultaat van het examen en kan afzonderlijk beoordeeld en gewaardeerd worden.
 * **Gezinsmigrant en Overige migrant
-**: Object Inburgeraar is gespecialiseerd in Asielstatushouder en Gezinsmigrant en Overige Migrant.<br><br>Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties te leggen met objecten die alleen van toepassing zijn voor Gezinsmigrant en Overige Migrant zoals bijvoorbeeld: object Aanvraag Sociale Lening. Hetzelfde geldt ook voor object Asielstatushouder, deze heeft overigens wel kenmerken.
+**: Object Inburgeraar is gespecialiseerd in Asielstatushouder en Gezinsmigrant en Overige Migrant.<br>Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties te leggen met objecten die alleen van toepassing zijn voor Gezinsmigrant en Overige Migrant zoals bijvoorbeeld: object Aanvraag Sociale Lening. Hetzelfde geldt ook voor object Asielstatushouder, deze heeft overigens wel kenmerken.
 * **Inburgeraar**: De gemeente gaat inburgeringsplichtige nieuwkomers begeleiden bij hun inburgering. Voor asielstatushouders doen zij dit vanaf het moment van koppeling  aan een gemeente
 * **Inburgeringstraject**: Een Inburgeringstraject in de context van inburgering bij gemeenten is een persoonlijk begeleidingstraject dat nieuwkomers ondersteunt bij het leren van de Nederlandse taal, het begrijpen van de samenleving, en het ontwikkelen van vaardigheden om zelfstandig te participeren in de Nederlandse maatschappij. Het traject omvat doorgaans onderdelen zoals taallessen (NT2), kennis van de Nederlandse maatschappij (KNM), en participatieactiviteiten, zoals vrijwilligerswerk of een werkstage. Het inburgeringstraject wordt afgestemd op de behoeften, achtergrond en mogelijkheden van de nieuwkomer en heeft als doel hen te begeleiden naar maatschappelijke zelfredzaamheid en een actieve rol in de samenleving.
 * **KNM?**: <Geen Definities>
@@ -77,8 +77,8 @@ Attributen van objecttype Asielstatushouder
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Telefoonnummer verblijf AZC | AN10 | Het telefoonummer van Asielstatushouder  tijdens het verblijf in het AZC.<br><br>Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat. |
-| Emailadres verblijf AZC | AN40 | Het emailadres van Asielstatushouder  tijdens verblijf in het AZC.<br><br>Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder   het AZC verlaat. |
+| Telefoonnummer verblijf AZC | AN10 | Het telefoonummer van Asielstatushouder  tijdens het verblijf in het AZC.<br>Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat. |
+| Emailadres verblijf AZC | AN40 | Het emailadres van Asielstatushouder  tijdens verblijf in het AZC.<br>Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder   het AZC verlaat. |
 | DigiD aangevraagd | Enumeratie: "Boolean" | Heeft de Asielstatushouder  een DigiD aangevraagd?<br>Mogelijke waarden: ja, nee of onbekend. |
 | Rijbewijs | Enumeratie: "Boolean" | Is de Asielstatushouder in het bezit van een rijbewijs?<br>Mogelijke waarden: ja, nee of onbekend |
 | Land Rijbewijs | AN50 | Het land waar het rijbewijs is gehaald door Asielstatushouder. |
@@ -223,7 +223,7 @@ Attributen van objecttype Examenonderdeel
 > **Definitie Gezinsmigrant en Overige migrant
 :** 
 >
-> Object Inburgeraar is gespecialiseerd in Asielstatushouder en Gezinsmigrant en Overige Migrant.<br><br>Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties te leggen met objecten die alleen van toepassing zijn voor Gezinsmigrant en Overige Migrant zoals bijvoorbeeld: object Aanvraag Sociale Lening. Hetzelfde geldt ook voor object Asielstatushouder, deze heeft overigens wel kenmerken.
+> Object Inburgeraar is gespecialiseerd in Asielstatushouder en Gezinsmigrant en Overige Migrant.<br>Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties te leggen met objecten die alleen van toepassing zijn voor Gezinsmigrant en Overige Migrant zoals bijvoorbeeld: object Aanvraag Sociale Lening. Hetzelfde geldt ook voor object Asielstatushouder, deze heeft overigens wel kenmerken.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -242,7 +242,7 @@ Attributen van objecttype Examenonderdeel
 | gemma_naam | Gezinsmigrant en Overige migrant |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-61601c33-5b61-4bab-9191-e7eb1b1bca07](https://gemmaonline.nl/index.php/GEMMA/id-61601c33-5b61-4bab-9191-e7eb1b1bca07) |
-| gemma_definitie | Object Inburgeraar is gespecialiseerd in Asielstatushouder en Gezinsmigrant en Overige Migrant.<br><br>Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties te leggen met objecten die alleen van toepassing zijn voor Gezinsmigrant en |
+| gemma_definitie | Object Inburgeraar is gespecialiseerd in Asielstatushouder en Gezinsmigrant en Overige Migrant.<br>Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties te leggen met objecten die alleen van toepassing zijn voor Gezinsmigrant en |
 | gemma_toelichting |  |
 
 

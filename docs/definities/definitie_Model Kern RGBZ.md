@@ -19,7 +19,7 @@ Het model 'Model Kern RGBZ' kent de volgende objecttypen:
 * **EnkelvoudigDocument**: Een DOCUMENT waarvan aard, omvang en/of vorm aanleiding geven het als ï¿½ï¿½n geheel te behandelen en te beheren.
 * **Heffing**: Een door de overheid opgelegde verplichting tot betaling
 * **Identificatiekenmerk**: Nodig voor archivering om verschillende typen identificatie te kunnen onderscheiden:
-* **Klantcontact**: Klantcontacten zijn contactmomenten die werkelijk hebben plaatsgevonden, terwijl Balieafspraken afspraken zijn voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.<br><br>Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje).
+* **Klantcontact**: Klantcontacten zijn contactmomenten die werkelijk hebben plaatsgevonden, terwijl Balieafspraken afspraken zijn voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.<br>Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje).
 * **Medewerker**: Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID.
 * **Object**: Het OBJECT waarop een ZAAK betrekking kan hebben zijnde ï¿½ï¿½n of meer voorkomens van de in het RSGB en het RGBZ onderscheiden objecttypen.
 * **Offerte**: Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs.
@@ -558,7 +558,7 @@ Attributen van objecttype Identificatiekenmerk
 ### Klantcontact
 > **Definitie Klantcontact:** 
 >
-> Klantcontacten zijn contactmomenten die werkelijk hebben plaatsgevonden, terwijl Balieafspraken afspraken zijn voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.<br><br>Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje).
+> Klantcontacten zijn contactmomenten die werkelijk hebben plaatsgevonden, terwijl Balieafspraken afspraken zijn voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.<br>Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje).
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -586,7 +586,7 @@ Attributen van objecttype Klantcontact
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | eindtijd | Datetime | Werkelijke eindtijd van het klantcontact. Het moment dat de conversatie ten einde is.<br>Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk |
-| starttijd | Datetime | Werkelijke starttijd van het klantcontact, dus het moment dat klant en medewerker van de gemeente elkaar spreken.<br><br>Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk |
+| starttijd | Datetime | Werkelijke starttijd van het klantcontact, dus het moment dat klant en medewerker van de gemeente elkaar spreken.<br>Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk |
 | tijdsduur | int | Werkelijke tijdsduur in seconden |
 | wachttijdTotaal | int | De totale wachttijd voor de starttijd van het klantcontact. Dit inclusief eventueel te vroeg verschijnen op een afspraak |
 | kanaal | AN20 |  |

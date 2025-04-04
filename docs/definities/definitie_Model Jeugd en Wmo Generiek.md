@@ -19,7 +19,7 @@ Het model 'Model Jeugd en Wmo Generiek' kent de volgende objecttypen:
 * **Declaratie**: Een opgave van te vergoeden kosten.
 * **Declaratieregel**: <Geen Definities>
 * **Leefgebied**: Gebied waarin alle activiteiten van een inwoner zich kunnen afspelen
-* **Levering**: Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk<br><br>In PxQ uren maal tarief
+* **Levering**: Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk<br>In PxQ uren maal tarief
 * **Leveringsvorm**: Zorg die onder de Wlz, de Zvw-Wijkverpleging of de Wmo 2015 valt, kan aan personen als zorg in natura (zin) worden geleverd of bekostigd worden uit een persoonsgebonden budget (pgb).
 * **Melding Eigen bijdrage**: Aangifte van de evetuele eigen bijdrage
 * **PGB-Toekenning**: Betreft alleen toegekende voorzieningen met als leveringsvorm PGB<br>Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb
@@ -543,7 +543,7 @@ Attributen van objecttype Leefgebied
 ### Levering
 > **Definitie Levering:** 
 >
-> Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk<br><br>In PxQ uren maal tarief
+> Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk<br>In PxQ uren maal tarief
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -562,7 +562,7 @@ Attributen van objecttype Leefgebied
 | gemma_naam | Levering |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-cc667191-bb35-45a0-a231-504b663b70f1](https://gemmaonline.nl/index.php/GEMMA/id-cc667191-bb35-45a0-a231-504b663b70f1) |
-| gemma_definitie | Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk<br><br>In PxQ uren maal tarief |
+| gemma_definitie | Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk<br>In PxQ uren maal tarief |
 | gemma_toelichting |  |
 
 
