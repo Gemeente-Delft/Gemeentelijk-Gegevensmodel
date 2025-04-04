@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Organisatie:** 
 >
-> Het informatiedomein dat gegevens omvat over de structuur en indeling van een organisatie, inclusief de inrichting en uitvoering van programmaï¿½s en projecten.
+> Het informatiedomein dat gegevens omvat over de structuur en indeling van een organisatie, inclusief de inrichting en uitvoering van programma�s en projecten.
 
 Het model 'Model Organisatie' kent de volgende objecttypen:
 

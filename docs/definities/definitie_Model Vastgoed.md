@@ -8,7 +8,7 @@ Het model 'Model Vastgoed' kent de volgende objecttypen:
 
 * **Aanbesteding Vastgoed**: Een procedure waarbij een opdrachtgever bekendmaakt dat hij een opdracht of concessie wil laten uitvoeren en bedrijven uitnodigt om een offerte in te dienen. Dit in het kader van werkzaamheden rondom vastgoed.
 * **Adresaanduiding**: De adresaanduiding van het WOZ-OBJECT
-* **Bouwdeel**: Zelfstandig en aanwijsbaar deel van een element, onderscheiden naar samenstelling of constructiewijze, bestaande uit ï¿½ï¿½n of meer componenten waaraan technische eigenschappen en een onderhoudshistorie kunnen worden gerelateerd (bron: Conditiemeting gebouwde omgeving - Deel 1: Methodiek, code: 3.3)
+* **Bouwdeel**: Zelfstandig en aanwijsbaar deel van een element, onderscheiden naar samenstelling of constructiewijze, bestaande uit ��n of meer componenten waaraan technische eigenschappen en een onderhoudshistorie kunnen worden gerelateerd (bron: Conditiemeting gebouwde omgeving - Deel 1: Methodiek, code: 3.3)
 * **Bouwdeelelement**: Onderdeeel van een bouwdeel
 * **CultuurOnbebouwd**: Een aanduiding voor de soort cultuur van het onbebouwde gedeelte van de onroerende zaak.
 * **Eigenaar**: Eigenaar is een persoon die de eigenaar is van een gebouw of stuk grond en ook alle rechten daarvan bezit.
@@ -124,7 +124,7 @@ Attributen van objecttype Adresaanduiding
 ### Bouwdeel
 > **Definitie Bouwdeel:** 
 >
-> Zelfstandig en aanwijsbaar deel van een element, onderscheiden naar samenstelling of constructiewijze, bestaande uit ï¿½ï¿½n of meer componenten waaraan technische eigenschappen en een onderhoudshistorie kunnen worden gerelateerd (bron: Conditiemeting gebouwde omgeving - Deel 1: Methodiek, code: 3.3)
+> Zelfstandig en aanwijsbaar deel van een element, onderscheiden naar samenstelling of constructiewijze, bestaande uit ��n of meer componenten waaraan technische eigenschappen en een onderhoudshistorie kunnen worden gerelateerd (bron: Conditiemeting gebouwde omgeving - Deel 1: Methodiek, code: 3.3)
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -1118,7 +1118,7 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
 | version | 1.5 |
 | created | 2025-03-26 11:13:38 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_be609fe8_edfb_463a_b15a_07c37f0987f3 |
+| id | EAID_7a9f1409_f10e_4bf6_a6f5_72b7ca14c3d1 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -1153,7 +1153,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_9242a997_f24e_4569_8f04_38fb30741d39 |
+| id | EAID_6fb767ac_5fcc_4d1f_b715_999f0b19e76b |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -1188,7 +1188,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_91b38f9b_2485_49fc_b4b5_bedb8e16de2b |
+| id | EAID_ee4448c4_5096_493e_a8ba_d09d1193c9cf |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -1223,7 +1223,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_922e46f6_419b_4524_b89e_2ddc3f840a08 |
+| id | EAID_976ba2f7_026a_47d0_8d41_92e470c7a3a0 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -1260,7 +1260,7 @@ De enumeratie aanduidingEigenaarGebruiker heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:36 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_29c19537_5585_4edb_ac35_4688df310d69 |
+| id | EAID_2495f948_3a4d_4933_a883_d4e120d4d245 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |

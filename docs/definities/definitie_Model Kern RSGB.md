@@ -19,13 +19,13 @@ Het model 'Model Kern RSGB' kent de volgende objecttypen:
 * **Gebouwinstallatie**: Een component aan de buitenzijde van een gebouw, die het aanzicht van het gebouw mede bepaalt.
 * **Huishouden**: Een duurzame samenlevingsvorm van een of meer natuurlijke personen binnen een VERBLIJFSOBJECT, STANDPLAATS of LIGPLAATS.
 * **Inrichtingselement**: Ruimtelijk object al dan niet ter detaillering dan wel ter inrichting van de<br>overige benoemde ruimtelijke objecten of een ander inrichtingselement.
-* **KadastraalPerceel**: Een KADASTRALE ONROERENDE ZAAK dat een kadastraal geï¿½dentificeerd en met kadastrale grenzen begrensd deel van het Nederlands grondgebied betreft (art. 1 lid 1 Kadasterwet).
+* **KadastraalPerceel**: Een KADASTRALE ONROERENDE ZAAK dat een kadastraal ge�dentificeerd en met kadastrale grenzen begrensd deel van het Nederlands grondgebied betreft (art. 1 lid 1 Kadasterwet).
 * **KadastraleOnroerendeZaak**: Een geregistreerd goed waarvoor bij overdracht of vestiging van rechten inschrijving in de openbare registers van het Kadaster is vereist zijnde een KADASTRAAL PERCEEL of een APPARTEMENTSRECHT.
 * **IngeschrevenPersoon**: Een INGEZETENE of NIET-INGEZETENE
 * **KadastraleOnroerendeZaakAantekening**: Aanduiding van het feit, genoemd in een Stuk, dat betrekking heeft op een onroerende zaak en dat gevolgen kan hebben voor de uitoefening van rechten op de onroerende zaak.
 * **Ingezetene**: Een individueel menselijk wezen, ingeschreven in het Nederlands Bevolkingsregister.
 * **Kunstwerkdeel**: Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen.
-* **MaatschappelijkeActiviteit**: Een verband tussen ï¿½ï¿½n of meer personen met voldoende mate van zelfstandigheid, inbreng van arbeid of middelen, winstoogmerk en extern optreden (i.g.v. een onderneming) dan wel een in een organisatorisch verband, dat toebehoort aan een niet-natuurlijk persoon welke registratieplichtig is, uitgeoefende activiteit die niet valt onder de criteria voor onderneming of bedrijfsmatigheid welke adresseerbaar is middels ofwel een vestiging ofwel het adres van een bepaalde vertegenwoordiger (i.g.v. een niet-ondernemings-activiteit).
+* **MaatschappelijkeActiviteit**: Een verband tussen ��n of meer personen met voldoende mate van zelfstandigheid, inbreng van arbeid of middelen, winstoogmerk en extern optreden (i.g.v. een onderneming) dan wel een in een organisatorisch verband, dat toebehoort aan een niet-natuurlijk persoon welke registratieplichtig is, uitgeoefende activiteit die niet valt onder de criteria voor onderneming of bedrijfsmatigheid welke adresseerbaar is middels ofwel een vestiging ofwel het adres van een bepaalde vertegenwoordiger (i.g.v. een niet-ondernemings-activiteit).
 * **OnbegroeidTerreindeel**: Kleinste functioneel onafhankelijk stukje van een terrein, dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, zonder aaneengesloten vegetatie.
 * **OndersteunendWaterdeel**: Object dat in het kader van de waterhuishouding periodiek gedeeltelijk of geheel met water is bedekt.
 * **OndersteunendWegdeel**: Een deel van de weg dat niet primair bedoeld is voor gebruik door het verkeer.
@@ -282,7 +282,7 @@ Attributen van objecttype Onbestemd Adres
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Appartementsrecht |
-| toelichting | #NOTES#Een aandeel in een recht op een gebouw en daarmee onlosmakelijk verbonden het uitsluitend gebruiksrecht van een bepaald privï¿½-gedeelte in dat gebouw. Dat kan ook een garage of een parkeerplaats zijn. De privï¿½-gedeelten zijn dus niet altijd woongedeelten. Een splitsing in appartementsrechten komt tot stand door inschrijving van een notariï¿½le akte van splitsing bij het kadaster. Elke splitsing in appartementsrechten kent een Vereniging van Eigenaren (VVE). Een splitsing in appartementsrechten kan worden gewijzigd. Ook kan binnen een bestaande splitsing een appartementsrecht worden ondergesplitst, d.w.z. een splitsing binnen een splitsing. Tenslotte kan een splitsing in appartementsrechten weer worden opgeheven. Voor al de genoemde rechtshandelingen is een notariï¿½le akte nodig die in de Openbare Registers moet worden ingeschreven. Zie voor de wettelijke regeling van appartementsrechten Boek 5 Burgerlijk Wetboek. |
+| toelichting | #NOTES#Een aandeel in een recht op een gebouw en daarmee onlosmakelijk verbonden het uitsluitend gebruiksrecht van een bepaald priv�-gedeelte in dat gebouw. Dat kan ook een garage of een parkeerplaats zijn. De priv�-gedeelten zijn dus niet altijd woongedeelten. Een splitsing in appartementsrechten komt tot stand door inschrijving van een notari�le akte van splitsing bij het kadaster. Elke splitsing in appartementsrechten kent een Vereniging van Eigenaren (VVE). Een splitsing in appartementsrechten kan worden gewijzigd. Ook kan binnen een bestaande splitsing een appartementsrecht worden ondergesplitst, d.w.z. een splitsing binnen een splitsing. Tenslotte kan een splitsing in appartementsrechten weer worden opgeheven. Voor al de genoemde rechtshandelingen is een notari�le akte nodig die in de Openbare Registers moet worden ingeschreven. Zie voor de wettelijke regeling van appartementsrechten Boek 5 Burgerlijk Wetboek. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -420,7 +420,7 @@ Attributen van objecttype Gebied
 | identificatieIMGeoBRT | NEN3610ID | De unieke identificatie van de buurt zoals is toegekend in de IMGeo administratie |
 | naam | AN40 | De naam van de buurt, zoals die door het CBS wordt gebruikt. |
 | geometrie | MultiSurface | De tweedimensionale geometrische representatie van de omtrekken van het gebied. |
-| datumBeginGeldigheidBuurt | DATUM | De datum waarop de gebied is gecreï¿½erd. |
+| datumBeginGeldigheidBuurt | DATUM | De datum waarop de gebied is gecre�erd. |
 | datumEindeGeldigheidGebied | DATUM | De datum waarop een gebied is komen te vervallen. |
 | gebiedsoort | AN80 |  |
 
@@ -553,7 +553,7 @@ Attributen van objecttype Huishouden
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Inrichtingselement |
-| toelichting | <memo>#NOTES#Inrichtingselementen vormen een diverse klasse. Het zijn objecten die niet zozeer op basis van fysiek voorkomen of hun gebruiksfunctie bij elkaar horen, maar op basis van hun eigenschap dat ze andere objecten inrichten.<br>Het zijn objecten die een relatief kleine geometrie hebben.<br>In het voorliggende model zijn de subklassen / specialisaties van INRICHTINGSELEMENT niet als afzonderlijke objecttypen gemodelleerd. De subklasse / specialisatie is te herkennen aan de attribuutsoort ï¿½Type inrichtingselementï¿½.<br>Objecttype INRICHITNGSELEMENT is een specialisatie van het city gml objecttype CITYFURNITURE.<br>Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo. |
+| toelichting | <memo>#NOTES#Inrichtingselementen vormen een diverse klasse. Het zijn objecten die niet zozeer op basis van fysiek voorkomen of hun gebruiksfunctie bij elkaar horen, maar op basis van hun eigenschap dat ze andere objecten inrichten.<br>Het zijn objecten die een relatief kleine geometrie hebben.<br>In het voorliggende model zijn de subklassen / specialisaties van INRICHTINGSELEMENT niet als afzonderlijke objecttypen gemodelleerd. De subklasse / specialisatie is te herkennen aan de attribuutsoort �Type inrichtingselement�.<br>Objecttype INRICHITNGSELEMENT is een specialisatie van het city gml objecttype CITYFURNITURE.<br>Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -590,7 +590,7 @@ Attributen van objecttype Inrichtingselement
 ### KadastraalPerceel
 > **Definitie KadastraalPerceel:** 
 >
-> Een KADASTRALE ONROERENDE ZAAK dat een kadastraal geï¿½dentificeerd en met kadastrale grenzen begrensd deel van het Nederlands grondgebied betreft (art. 1 lid 1 Kadasterwet).
+> Een KADASTRALE ONROERENDE ZAAK dat een kadastraal ge�dentificeerd en met kadastrale grenzen begrensd deel van het Nederlands grondgebied betreft (art. 1 lid 1 Kadasterwet).
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -609,7 +609,7 @@ Attributen van objecttype Inrichtingselement
 | gemma_naam | KadastraalPerceel |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-0fd3695d-aa71-4f35-a8bf-7886c70e0ed8](https://gemmaonline.nl/index.php/GEMMA/id-0fd3695d-aa71-4f35-a8bf-7886c70e0ed8) |
-| gemma_definitie | Een KADASTRALE ONROERENDE ZAAK dat een kadastraal geï¿½dentificeerd en met kadastrale grenzen begrensd deel van het Nederlands grondgebied betreft (art. 1 lid 1 Kadasterwet). |
+| gemma_definitie | Een KADASTRALE ONROERENDE ZAAK dat een kadastraal ge�dentificeerd en met kadastrale grenzen begrensd deel van het Nederlands grondgebied betreft (art. 1 lid 1 Kadasterwet). |
 | gemma_toelichting |  |
 
 
@@ -622,7 +622,7 @@ Attributen van objecttype KadastraalPerceel
 | omschrijvingDeelperceel | AN20 | Het in een ter inschrijving aangeboden stuk beschreven tekst, dat een nadere omschrijving geeft van het gekochte deel van een perceel. |
 | groottePerceel | N10.2 | Een door de Dienst op grond van de kadastrale grenzen van een perceel berekende indicatieve grootte van een perceel ten tijde van vorming van dat perceel. |
 | aanduidingSoortGrootte |  | Een aanduiding die voorafgaand aan de meting middels een melding in de aktetekst wordt bepaald en aangeeft of er bij de afsplitsing van een deel van een perceel sprake zal zijn van een vastgestelde grootte, dan wel een indicatieve grootte. |
-| plaatscoordinatenPerceel | Point | De aanduiding van een kaartpunt voor de weergave van de identificatie van een perceel (centroï¿½de). |
+| plaatscoordinatenPerceel | Point | De aanduiding van een kaartpunt voor de weergave van de identificatie van een perceel (centro�de). |
 
 
 
@@ -634,7 +634,7 @@ Attributen van objecttype KadastraalPerceel
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | KadastraleOnroerendeZaak |
-| toelichting | #NOTES#Zie de catalogus BRK. Daarin is sprake van een ï¿½onroerende zaakï¿½ zijnde een ï¿½perceelï¿½, ï¿½appartementsrechtï¿½ of ï¿½leidingnetwerkï¿½. Geoordeeld is dat alleen de eerste twee objecttypen zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als KADASTRALE ONROERENDE ZAAK.<br>In de BRK wordt de Kadaster identificatie onroerende zaak (hier: Kadastrale identificatie) als unieke aanduiding beschouwd Aangezien de gegevenslevering door het Kadaster hier nog niet op aangepast is hanteren we vooralsnog de Kadastrale aanduiding als unieke identificatie.<br>In de BRK wordt een relatie naar het adresseerbaar object (verblijfsobject, standplaats of ligplaats) onderkend teneinde via een adres (nummeraanduiding) een kadastraal object te kunnen lokaliseren. Vanwege de uitbreiding in dit model naar gebouwde objecten en benoemde terreinen is deze relatie naar deze beide laatstgenoemde objecttypen gelegd.<br>Niet alle kadastrale objecten komen qua ligging overeen met een gebouwd object of benoemd terrein. In die gevallen opteert de BRK om voor het aanduiden van de globale ligging gebruik te maken van een dichtbijgelegen adres i.c.m. de aanduiding ï¿½Bijï¿½ of ï¿½Tegenoverï¿½ dan wel een locatieomschrijving met daarin de beschrijving van de locatie, veelal door middel van een woonplaatsnaam en een straatnaam. Beide wijzen van aanduiden van de locatie zijn hier opgenomen in Locatie-omschrijving zodat de relaties naar gebouwde objecten en benoemde terreinen alleen ruimtelijke relaties tussen de objecten betreffen. |
+| toelichting | #NOTES#Zie de catalogus BRK. Daarin is sprake van een �onroerende zaak� zijnde een �perceel�, �appartementsrecht� of �leidingnetwerk�. Geoordeeld is dat alleen de eerste twee objecttypen zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als KADASTRALE ONROERENDE ZAAK.<br>In de BRK wordt de Kadaster identificatie onroerende zaak (hier: Kadastrale identificatie) als unieke aanduiding beschouwd Aangezien de gegevenslevering door het Kadaster hier nog niet op aangepast is hanteren we vooralsnog de Kadastrale aanduiding als unieke identificatie.<br>In de BRK wordt een relatie naar het adresseerbaar object (verblijfsobject, standplaats of ligplaats) onderkend teneinde via een adres (nummeraanduiding) een kadastraal object te kunnen lokaliseren. Vanwege de uitbreiding in dit model naar gebouwde objecten en benoemde terreinen is deze relatie naar deze beide laatstgenoemde objecttypen gelegd.<br>Niet alle kadastrale objecten komen qua ligging overeen met een gebouwd object of benoemd terrein. In die gevallen opteert de BRK om voor het aanduiden van de globale ligging gebruik te maken van een dichtbijgelegen adres i.c.m. de aanduiding �Bij� of �Tegenover� dan wel een locatieomschrijving met daarin de beschrijving van de locatie, veelal door middel van een woonplaatsnaam en een straatnaam. Beide wijzen van aanduiden van de locatie zijn hier opgenomen in Locatie-omschrijving zodat de relaties naar gebouwde objecten en benoemde terreinen alleen ruimtelijke relaties tussen de objecten betreffen. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -719,7 +719,7 @@ Attributen van objecttype IngeschrevenPersoon
 | datumInschrijvingGemeente | datum | Bij inschrijving op grond van een aangifte door de burger van zijn vestiging in een (volgende) gemeente is dit de aangiftedatum. Bij inschrijving op grond van een geboorte-akte is dit de geboortedatum. Bij ambtshalve inschrijving is dit de datum waarop de betrokkene schriftelijk van het voornemen van ambtshalve opneming mededeling is gedaan. |
 | datumBeginGeldigheidVerblijfplaats | datum | De datum waarop de INGESCHREVEN PERSOON is ingeschreven op zijn of haar laatst bekende verblijfsplaats |
 | signaleringReisdocument | Enumeratie: "Boolean" | Een aanduiding dat aan de ingeschrevene geen reisdocument mag worden verstrekt. |
-| buitenlandsReisdocument | an80 | Een aanduiding dat de ingeschrevene beschikt over ï¿½ï¿½n of meer buitenlandse reisdocumenten of is bijgeschreven in een buitenlands reisdocument. |
+| buitenlandsReisdocument | an80 | Een aanduiding dat de ingeschrevene beschikt over ��n of meer buitenlandse reisdocumenten of is bijgeschreven in een buitenlands reisdocument. |
 | datumVestigingNederland | OnvolledigeDatum | Zogenaamd afleidbaar gegeven (zie regels attribuutsoort). Bij ambtshalve inschrijving is dit de datum waarop de betrokkene schriftelijk van het voornemen tot ambtshalve inschrijving mededeling is gedaan. In andere gevallen is dit de datum waarop de aangifte is ontvangen. |
 | datumVertrekUitNederland | OnvolledigeDatum | De datum van het vertrek naar het buitenland. |
 | redenOpschortingBijhouding | AN200 | Een aanduiding van de reden waarom de bijhouding van de PL is opgeschort. |
@@ -743,7 +743,7 @@ Attributen van objecttype IngeschrevenPersoon
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | KadastraleOnroerendeZaakAantekening |
-| toelichting | #NOTES#Toegevoegd ten opzichte van de BRK is de begindatum. Aangezien een aantekening niet gewijzigd kan worden, bepaalt de begin- en einddatum de materiele historie van alle attribuutsoortensoorten. Deze hebben dan ook materiele historie ï¿½Neeï¿½ gekregen.<br>Zie verder de catalogus BRK |
+| toelichting | #NOTES#Toegevoegd ten opzichte van de BRK is de begindatum. Aangezien een aantekening niet gewijzigd kan worden, bepaalt de begin- en einddatum de materiele historie van alle attribuutsoortensoorten. Deze hebben dan ook materiele historie �Nee� gekregen.<br>Zie verder de catalogus BRK |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -860,7 +860,7 @@ Attributen van objecttype Kunstwerkdeel
 ### MaatschappelijkeActiviteit
 > **Definitie MaatschappelijkeActiviteit:** 
 >
-> Een verband tussen ï¿½ï¿½n of meer personen met voldoende mate van zelfstandigheid, inbreng van arbeid of middelen, winstoogmerk en extern optreden (i.g.v. een onderneming) dan wel een in een organisatorisch verband, dat toebehoort aan een niet-natuurlijk persoon welke registratieplichtig is, uitgeoefende activiteit die niet valt onder de criteria voor onderneming of bedrijfsmatigheid welke adresseerbaar is middels ofwel een vestiging ofwel het adres van een bepaalde vertegenwoordiger (i.g.v. een niet-ondernemings-activiteit).
+> Een verband tussen ��n of meer personen met voldoende mate van zelfstandigheid, inbreng van arbeid of middelen, winstoogmerk en extern optreden (i.g.v. een onderneming) dan wel een in een organisatorisch verband, dat toebehoort aan een niet-natuurlijk persoon welke registratieplichtig is, uitgeoefende activiteit die niet valt onder de criteria voor onderneming of bedrijfsmatigheid welke adresseerbaar is middels ofwel een vestiging ofwel het adres van een bepaalde vertegenwoordiger (i.g.v. een niet-ondernemings-activiteit).
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -879,7 +879,7 @@ Attributen van objecttype Kunstwerkdeel
 | gemma_naam | MAATSCHAPPELIJKE ACTIVITEIT |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-82773f8d-3aa1-4e1f-b6de-9284a1851960](https://gemmaonline.nl/index.php/GEMMA/id-82773f8d-3aa1-4e1f-b6de-9284a1851960) |
-| gemma_definitie | Een verband tussen ï¿½ï¿½n of meer personen met voldoende mate van zelfstandigheid, inbreng van arbeid of middelen, winstoogmerk en extern optreden (i.g.v. een onderneming) dan wel een in een organisatorisch verband, dat toebehoort aan een niet-natuurlijk per |
+| gemma_definitie | Een verband tussen ��n of meer personen met voldoende mate van zelfstandigheid, inbreng van arbeid of middelen, winstoogmerk en extern optreden (i.g.v. een onderneming) dan wel een in een organisatorisch verband, dat toebehoort aan een niet-natuurlijk per |
 | gemma_toelichting |  |
 
 
@@ -889,7 +889,7 @@ Attributen van objecttype MaatschappelijkeActiviteit
 | :--- | :--- | :--- |
 | KVKnummer | AN8 | Landelijk uniek identificerend administratienummer van een MAATSCHAPPELIJKE ACTIVITEIT zoals toegewezen door de Kamer van Koophandel (KvK). |
 | datumAanvang | Date | De datum van aanvang van de MAATSCHAPPELIJKE ACTIVITEIT |
-| datumEindeGeldig | Date | De datum van beï¿½indiging van de MAATSCHAPPELIJKE ACTIVITEIT |
+| datumEindeGeldig | Date | De datum van be�indiging van de MAATSCHAPPELIJKE ACTIVITEIT |
 | indicatieEconomischActief | INDIC | Aanduiding of de maatschappelijke activiteit zich als onderneming manifesteert. |
 | statutaireNaam | AN100 |  |
 | rechtsvorm | AN100 |  |
@@ -1219,7 +1219,7 @@ Attributen van objecttype OverigBouwwerk
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | OverigGebouwdObject |
-| toelichting | <memo>#NOTES#Een overig bouwwerk is een onderdeel van de gebouwde omgeving, bouwtechnisch op het niveau van panden en qua gebruik op het niveau van verblijfsobjecten. Door het registreren van overig bouwwerken, in aanvulling op de verblijfsobjecten en panden, verkrijgt de gemeente een ï¿½ voor zover gewenst ï¿½ totale registratie van de gebouwde omgeving. Verblijfsobjecten betreffen bouwvergunningplichtige gebouwde objecten waarin verbleven kan worden; overige bouwwerken bieden de mogelijkheid ook bouwvergunningplichtige gebouwde objecten te registreren waarin niet verbleven kan worden in de zin van de BAG.<br>Overige bouwwerken worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij primair om objecten met een verblijfsfunctie, naar analogie van de verblijfsobjecten, zijnde geen verblijfsobjecten en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is. Dit betreft bijvoorbeeld onbemande benzinestations en niet-afsluitbare parkeergarages. Het staat de gemeente vrij een bredere afbakening te hanteren vanuit het oogpunt van centraal beheer en voor zover de gemeente daarvan adressen wil vaststellen. Dit betreft bijvoorbeeld hoogspanningsmasten, GSMzendmasten en windturbines. Vermeldenswaard is dat bouwvergunningplichtige objecten zonder verblijfsfunctie al als INRICHTINGSELEMENT geregistreerd worden.<br>Essentieel is derhalve dat elk overig gebouwd object voorzien wordt van een (niet-authentiek) adres: een officieel vastgesteld OVERIGE ADRESSEERBAAR OBJECT AANDUIDING, een bestaande NUMMERAANDUIDING aangevuld met een locatie-aanduiding of een bestaande OPENBARE RUIMTE aangevuld met een locatie-aanduiding. Elk overig gebouwd object heeft dus precies ï¿½ï¿½n van de drie genoemde relaties waarmee het voorzien is van een adres.<br>De populatie van overige gebouwde objecten is een deelverzameling van de populatie overige bouwwerken zoals die in de BGT / IMGeo voorkomt. Maar omdat voor overige gebouwde objecten de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres essentieel is, heeft elk overig gebouwd object een adres en is als apart objecttype opgenomen. |
+| toelichting | <memo>#NOTES#Een overig bouwwerk is een onderdeel van de gebouwde omgeving, bouwtechnisch op het niveau van panden en qua gebruik op het niveau van verblijfsobjecten. Door het registreren van overig bouwwerken, in aanvulling op de verblijfsobjecten en panden, verkrijgt de gemeente een � voor zover gewenst � totale registratie van de gebouwde omgeving. Verblijfsobjecten betreffen bouwvergunningplichtige gebouwde objecten waarin verbleven kan worden; overige bouwwerken bieden de mogelijkheid ook bouwvergunningplichtige gebouwde objecten te registreren waarin niet verbleven kan worden in de zin van de BAG.<br>Overige bouwwerken worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij primair om objecten met een verblijfsfunctie, naar analogie van de verblijfsobjecten, zijnde geen verblijfsobjecten en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is. Dit betreft bijvoorbeeld onbemande benzinestations en niet-afsluitbare parkeergarages. Het staat de gemeente vrij een bredere afbakening te hanteren vanuit het oogpunt van centraal beheer en voor zover de gemeente daarvan adressen wil vaststellen. Dit betreft bijvoorbeeld hoogspanningsmasten, GSMzendmasten en windturbines. Vermeldenswaard is dat bouwvergunningplichtige objecten zonder verblijfsfunctie al als INRICHTINGSELEMENT geregistreerd worden.<br>Essentieel is derhalve dat elk overig gebouwd object voorzien wordt van een (niet-authentiek) adres: een officieel vastgesteld OVERIGE ADRESSEERBAAR OBJECT AANDUIDING, een bestaande NUMMERAANDUIDING aangevuld met een locatie-aanduiding of een bestaande OPENBARE RUIMTE aangevuld met een locatie-aanduiding. Elk overig gebouwd object heeft dus precies ��n van de drie genoemde relaties waarmee het voorzien is van een adres.<br>De populatie van overige gebouwde objecten is een deelverzameling van de populatie overige bouwwerken zoals die in de BGT / IMGeo voorkomt. Maar omdat voor overige gebouwde objecten de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres essentieel is, heeft elk overig gebouwd object een adres en is als apart objecttype opgenomen. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -1277,7 +1277,7 @@ Attributen van objecttype NietNatuurlijkPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| NNPID | N9 | Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties. |
+| NNPID | N9 | Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege ‘ambtelijke’ correcties. |
 | statutaireNaam | AN500 | Naam van de niet-natuurlijke persoon zoals deze is vastgelegd in de statuten (rechtspersoon) of in de vennootschapsovereenkomst is overeengekomen (Vennootschap onder firma of Commanditaire vennootschap). |
 | datumAanvang | DATUM | {nog niet in NHR uitgewerkt |
 | rechtsvorm | Enumeratie: "soortRechtsvorm" | Aanduiding van de vorm die in rechte bekend is van de INGESCHREVEN NIET-NATUURLIJKE PERSOON |
@@ -1548,7 +1548,7 @@ Attributen van objecttype Rechtspersoon
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Tenaamstelling |
-| toelichting | #NOTES#Een tenaamstelling heeft betrekking op de eigendom van die Persoon van ï¿½ï¿½n Kadastraal object of op een beperkt recht van die Persoon op ï¿½ï¿½n Kadastraal object. Met een beperkt recht op een Kadastraal object wordt erfpacht, opstal, e.d. bedoeld, maar ook bijvoorbeeld huur en lease (van Luchtvaartuigen). Ook rechten die zijn verkregen onder ontbindende voorwaarden worden beschouwd als een vorm van recht. |
+| toelichting | #NOTES#Een tenaamstelling heeft betrekking op de eigendom van die Persoon van ��n Kadastraal object of op een beperkt recht van die Persoon op ��n Kadastraal object. Met een beperkt recht op een Kadastraal object wordt erfpacht, opstal, e.d. bedoeld, maar ook bijvoorbeeld huur en lease (van Luchtvaartuigen). Ook rechten die zijn verkregen onder ontbindende voorwaarden worden beschouwd als een vorm van recht. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -1629,7 +1629,7 @@ Attributen van objecttype Tunneldeel
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Vestiging |
-| toelichting | #NOTES#Ofschoon de definitie in het NHR doet vermoeden dat het hier om een ruimtelijk object gaat, beschouwen we een VESTIGING in het RSGB als een specialisatie van SUBJECT. De toelichting in de catalogus NHR lijkt dit te bevestigen:<br>ï¿½De vestiging van een onderneming of een maatschappelijke activiteit (type niet onderneming) moet men opvatten als een (kleinste eenheid) bundeling van economische activiteiten. De vestiging is een combinatie van activiteiten en locatie. Wisseling van zowel de activiteiten als de locatie maakt dat er sprake is van een nieuwe vestiging. In de toekomstige situatie is er een eenduidige verwijzing naar een adresseerbaar object (een ligplaats, standplaats of verblijfsobject (BAG)) voor het bezoekadres. Als er sprake is van een inschrijfplichtige onderneming maar het adresseerbare object is nog niet bekend, omdat bijv. een bedrijfspand nog gebouwd wordt of er vanuit huis gewerkt wordt, kan als adres het woonadres (van de eigenaar) worden genomen.<br>De vestiging kan aldus verhuizen, heeft een bezoekadres en een postadres en een naam. Allemaal zeer ongewone aspecten voor een locatie c.q. gebouwd object. Het lijkt dan ook meer weg te hebben van een subject (die activiteiten uitvoert) in een gebouwd object. Dit wordt versterkt doordat het wenselijk is bij het registreren van de WOZ-belanghebbende of een vergunningaanvraag een contactpersoon vast te leggen: iemand die werkzaam is in een vestiging (een NNP kent geen medewerkers) en voor dat geval optreedt als vertegenwoordiger van de vestiging van de onderneming/NNP.<br>De definitie beperkt de locaties van VESTIGINGen tot gebouwen, In het RSGB gaan we er van uit dat een VESTIGING haar activiteiten ook kan uitoefenen op een STANDPLAATS, op een LIGPLAATS, op een  OVERIG BENOEMD TERREIN of in een OVERIG GEBOUWD OBJECT. VESTIGING overerft gegevens van de generalisatie SUBJECT. Onder meer zijn dat de Datum begin geldigheid en Datum einde geldigheid voor resp. Datum in gebruikname en Datum beï¿½indiging in het NHR. Ook het buitenlands adres indien een vestiging verplaatst wordt naar het buitenland. |
+| toelichting | #NOTES#Ofschoon de definitie in het NHR doet vermoeden dat het hier om een ruimtelijk object gaat, beschouwen we een VESTIGING in het RSGB als een specialisatie van SUBJECT. De toelichting in de catalogus NHR lijkt dit te bevestigen:<br>�De vestiging van een onderneming of een maatschappelijke activiteit (type niet onderneming) moet men opvatten als een (kleinste eenheid) bundeling van economische activiteiten. De vestiging is een combinatie van activiteiten en locatie. Wisseling van zowel de activiteiten als de locatie maakt dat er sprake is van een nieuwe vestiging. In de toekomstige situatie is er een eenduidige verwijzing naar een adresseerbaar object (een ligplaats, standplaats of verblijfsobject (BAG)) voor het bezoekadres. Als er sprake is van een inschrijfplichtige onderneming maar het adresseerbare object is nog niet bekend, omdat bijv. een bedrijfspand nog gebouwd wordt of er vanuit huis gewerkt wordt, kan als adres het woonadres (van de eigenaar) worden genomen.<br>De vestiging kan aldus verhuizen, heeft een bezoekadres en een postadres en een naam. Allemaal zeer ongewone aspecten voor een locatie c.q. gebouwd object. Het lijkt dan ook meer weg te hebben van een subject (die activiteiten uitvoert) in een gebouwd object. Dit wordt versterkt doordat het wenselijk is bij het registreren van de WOZ-belanghebbende of een vergunningaanvraag een contactpersoon vast te leggen: iemand die werkzaam is in een vestiging (een NNP kent geen medewerkers) en voor dat geval optreedt als vertegenwoordiger van de vestiging van de onderneming/NNP.<br>De definitie beperkt de locaties van VESTIGINGen tot gebouwen, In het RSGB gaan we er van uit dat een VESTIGING haar activiteiten ook kan uitoefenen op een STANDPLAATS, op een LIGPLAATS, op een  OVERIG BENOEMD TERREIN of in een OVERIG GEBOUWD OBJECT. VESTIGING overerft gegevens van de generalisatie SUBJECT. Onder meer zijn dat de Datum begin geldigheid en Datum einde geldigheid voor resp. Datum in gebruikname en Datum be�indiging in het NHR. Ook het buitenlands adres indien een vestiging verplaatst wordt naar het buitenland. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -1655,7 +1655,7 @@ Attributen van objecttype Vestiging
 | handelsnaam | AN625 | De naam van de vestiging waaronder gehandeld wordt. |
 | verkorteNaam | AN45 | De administratieve naam in het handelsregister indien de naam langer is dan 45 karakters |
 | datumAanvang | DATUM | De datum van aanvang van de vestiging. |
-| datumEinde | DATUM | De datum  van<b> </b>beï¿½indiging van de vestiging |
+| datumEinde | DATUM | De datum  van<b> </b>be�indiging van de vestiging |
 | datumVoortzetting | DATUM | De datum van voortzetting van de vestiging. |
 | toevoegingAdres | AN100 | Nadere aanduiding van het adres van een vestiging |
 | fulltimeWerkzameMannen | N5 | Het aantal mannen dat minimaal 12 uur per week werkzaam is in of vanuit de vestiging. |
@@ -1868,7 +1868,7 @@ Attributen van objecttype WOZ-deelobject
 | codeWOZDeelobject |  | Aanduiding van het soort deelobject ten behoeve van een correcte interpretatie van de onderbouwing van de taxatie. |
 | statusWOZDeelobject | Enumeratie: "statusWOZ(Deel)Object" | De fase van de levenscyclus van een WOZ-DEELOBJECT, waarin het betreffende WOZ-DEELOBJECT zich bevindt. |
 | datumBeginGeldigheidDeelobject | DATUM | Een aanduiding op welk tijdstip een deelobject is ontstaan. |
-| datumEindeGeldigheidDeelobject | DATUM | Een aanduiding op welk tijdstip een deelobject is beï¿½indigd. |
+| datumEindeGeldigheidDeelobject | DATUM | Een aanduiding op welk tijdstip een deelobject is be�indigd. |
 
 
 
@@ -1880,7 +1880,7 @@ Attributen van objecttype WOZ-deelobject
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | WOZ-object |
-| toelichting | #NOTES#Dit objecttype komt voort uit de objectafbakeningsvoorschriften van artikel 16 van de Wet WOZ.<br>De unieke identificatie van het WOZ-object is het WOZ-objectnummer. De WOZ-object-aanduiding, een secundaire identificatie, wordt samengesteld uit de adresgegevens van ï¿½ï¿½n van de, aan het WOZ-object via het WOZdeelobject, gerelateerde gebouwde objecten en/of benoemde terreinen dan wel van een nabij gelegen gebouwd object of benoemd terrein, in beide gevallen (eventueel) aangevuld met de locatie-omschrijving. |
+| toelichting | #NOTES#Dit objecttype komt voort uit de objectafbakeningsvoorschriften van artikel 16 van de Wet WOZ.<br>De unieke identificatie van het WOZ-object is het WOZ-objectnummer. De WOZ-object-aanduiding, een secundaire identificatie, wordt samengesteld uit de adresgegevens van ��n van de, aan het WOZ-object via het WOZdeelobject, gerelateerde gebouwde objecten en/of benoemde terreinen dan wel van een nabij gelegen gebouwd object of benoemd terrein, in beide gevallen (eventueel) aangevuld met de locatie-omschrijving. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -1911,7 +1911,7 @@ Attributen van objecttype WOZ-object
 | vastgesteldeWaarde | N11 | Waarde van het WOZ-object op de laatst bekende peildatum zoals deze in het kader van de Wet WOZ is vastgesteld. |
 | datumWaardepeiling | DATUM | De laatst bekende datum waarnaar de waarde van het WOZ-object wordt bepaald. |
 | datumBeginGeldigheidWOZObject | DATUM | Een aanduiding op welk tijdstip een object is ontstaan. |
-| datumEindeGeldigheidWOZObject | DATUM | Een aanduiding op welk tijdstip een object is beï¿½indigd. |
+| datumEindeGeldigheidWOZObject | DATUM | Een aanduiding op welk tijdstip een object is be�indigd. |
 
 
 
@@ -1923,7 +1923,7 @@ Attributen van objecttype WOZ-object
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | WOZ-Waarde |
-| toelichting | <memo>#NOTES#De vastgestelde waarde wordt meegedeeld in de WOZ-beschikking. Indien er op ï¿½ï¿½n datum meerdere beschikkingen worden afgegeven, dan wordt slechts ï¿½ï¿½n van deze geregistreerd.<br>Zie verder de toelichting in de BRWOZ. |
+| toelichting | <memo>#NOTES#De vastgestelde waarde wordt meegedeeld in de WOZ-beschikking. Indien er op ��n datum meerdere beschikkingen worden afgegeven, dan wordt slechts ��n van deze geregistreerd.<br>Zie verder de toelichting in de BRWOZ. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -1960,7 +1960,7 @@ Attributen van objecttype WOZ-Waarde
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | ZakelijkRecht |
-| toelichting | #NOTES#Zie de catalogus van de BRK. Daarin is sprake van een zowel rechten als zekerheidsrechten op onroerende zaken (zie de toelichting bij KADASTRALE ONROERENDE ZAAK). Geoordeeld is dat alleen de rechten zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als ZAKELIJK RECHT tussen KADASTRALE ONROERENDE ZAAK en TENAAMSTELLING van een persoon.<br>(Zakelijke) rechten worden beschouwd vanuit ï¿½ï¿½n onroerende zaak, in dit geval het kadastrale object. Recht vormt de relatie tussen ï¿½ï¿½n onroerende zaak en ï¿½ï¿½n of meer tenaamgestelde personen en heeft betrekking op het eigendom van deze tenaamgestelde personen van ï¿½ï¿½n onroerende zaak of op een beperkt recht van deze tenaamgestelde personen op ï¿½ï¿½n onroerende zaak. Met een beperkt recht op een onroerende zaak wordt erfpacht, opstal, e.d. bedoeld. |
+| toelichting | #NOTES#Zie de catalogus van de BRK. Daarin is sprake van een zowel rechten als zekerheidsrechten op onroerende zaken (zie de toelichting bij KADASTRALE ONROERENDE ZAAK). Geoordeeld is dat alleen de rechten zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als ZAKELIJK RECHT tussen KADASTRALE ONROERENDE ZAAK en TENAAMSTELLING van een persoon.<br>(Zakelijke) rechten worden beschouwd vanuit ��n onroerende zaak, in dit geval het kadastrale object. Recht vormt de relatie tussen ��n onroerende zaak en ��n of meer tenaamgestelde personen en heeft betrekking op het eigendom van deze tenaamgestelde personen van ��n onroerende zaak of op een beperkt recht van deze tenaamgestelde personen op ��n onroerende zaak. Met een beperkt recht op een onroerende zaak wordt erfpacht, opstal, e.d. bedoeld. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -1984,7 +1984,7 @@ Attributen van objecttype ZakelijkRecht
 | :--- | :--- | :--- |
 | identificatieZakelijkRecht |  | Een door het Kadaster toegekende landelijk uniek nummer aan een recht. |
 | aardZakelijkRecht |  | Een aanduiding voor de aard van het recht. |
-| datumIngangRecht | DATUM | De datum waarop de notariï¿½le akte is ingeschreven of anderszins een brondocument waar het zakelijk recht op berust is ingeschreven. |
+| datumIngangRecht | DATUM | De datum waarop de notari�le akte is ingeschreven of anderszins een brondocument waar het zakelijk recht op berust is ingeschreven. |
 | datumEindeRecht | DATUM | De laatste dag waarop het recht volgens het brondocument, op grond waarvan het recht is opgevoerd, nog van toepassing zal zijn. |
 | toelichtingBewaarder | AN100 | ToelichtingBewaarder is een toelichtende tekst die de bewaarder vermeld wil hebben bij de onroerende zaak. |
 | gestapeld recht | Class: "ZakelijkRecht" |  |
@@ -2025,7 +2025,7 @@ Attributen van objecttype Zekerheidsrecht
 | omschrijvingBetrokkenRecht | AN | Een beschrijving van het onbekende recht waarop het zekerheidsrecht betrekking heeft. |
 | typeZekerheidsrecht | Enumeratie: "typeringZekerheidsrecht" | Nadere classificatie van het zekerheidsrecht. |
 | aandeelInBetrokkenRecht |  | Het aandeel in het betrokken recht, waaraan wordt gerefereerd. |
-| datumIngangRecht | DATUM | De datum waarop de notariï¿½le akte is ingeschreven of anderszins een brondocument waar het zekerheidsrecht op berust is ingeschreven. |
+| datumIngangRecht | DATUM | De datum waarop de notari�le akte is ingeschreven of anderszins een brondocument waar het zekerheidsrecht op berust is ingeschreven. |
 | datumEindeRecht | DATUM | De laatste dag waarop het recht volgens het brondocument, op grond waarvan het recht is opgevoerd, nog van toepassing zal zijn. |
 
 
@@ -2059,7 +2059,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_15bed37a_2180_4e02_8308_8b8d7c6e98e5 |
+| id | EAID_2b69f328_165f_476b_8989_6e85c28b2894 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2106,7 +2106,7 @@ De enumeratie fysiekVoorkomenBegroeidTerrein heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:37 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_3fd61fbd_5980_4bb6_9d26_aee31e4c3d6a |
+| id | EAID_1afbdbf3_349f_421a_a30c_94c61148bd55 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2130,7 +2130,7 @@ Het enumeratie fysiekVoorkomenBegroeidTerreinPlus kent de volgende waarden:
 * **gras en kruidachtigen**: (Grond met) een laagblijvende, aaneengesloten kruidachtige vegetatie. (bron: CROW)
 * **planten**: Beheerde niet nader gespecificeerde beplanting van groenvak<br>in de openbare ruimte. (bron: IMGEO 2.0)
 * **struikrozen**: Beheerde beplanting van groenvak in de openbare ruimte, zijnde in struikvorm groeiende rozen. (bron: IMGEO 2.0)
-* **heesters**: Beplanting van houtige gewassen die struikvormend zijn en die<br>al dan niet een gesloten geheel vormen. Het accent ligt op de sierwaarde, de beplanting kan uit ï¿½ï¿½n soort of uit meerdere<br>soorten bestaan. Onder de heesters kan een houtachtige of<br>kruidachtige onderbegroeiing aanwezig zijn. Het oppervlak met<br>struikachtige gewassen is meer dan 50% van de totale<br>oppervlakte van het vak. (bron: IMGEO 2.0)
+* **heesters**: Beplanting van houtige gewassen die struikvormend zijn en die<br>al dan niet een gesloten geheel vormen. Het accent ligt op de sierwaarde, de beplanting kan uit ��n soort of uit meerdere<br>soorten bestaan. Onder de heesters kan een houtachtige of<br>kruidachtige onderbegroeiing aanwezig zijn. Het oppervlak met<br>struikachtige gewassen is meer dan 50% van de totale<br>oppervlakte van het vak. (bron: IMGEO 2.0)
 * **bodembedekkers**: Beheerde beplanting van groenvak in de openbare ruimte,<br>zijnde bodembedekkers. (bron: IMGEO 2.0)
 * **laagstam boomgaarden**: Terreindeel begroeid met laagstamfruitbomen. (bron: IMGEO<br>2.0)
 * **hoogstam boomgaarden**: Terreindeel begroeid met hoogstamfruitbomen. (bron: IMGEO<br>2.0)
@@ -2154,7 +2154,7 @@ De enumeratie fysiekVoorkomenBegroeidTerreinPlus heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:38 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_14951390_e2a3_4b8a_8dd2_503991340493 |
+| id | EAID_ae528b68_c816_463f_8875_45bc50a7452c |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2188,7 +2188,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_c30318cf_8e21_47bd_821f_1d6da4e05c1e |
+| id | EAID_1f8d100d_5273_4fbb_b0aa_3bcd17b734f3 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2222,7 +2222,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_8461ed43_32fb_40f6_b216_fee2d2ffe9de |
+| id | EAID_c0ba8a52_85c6_462f_93f0_71226753532d |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2256,7 +2256,7 @@ De enumeratie typeringGebouwinstallatie heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:40 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_75b045df_6a21_4543_8de2_035ce8ce6ea6 |
+| id | EAID_3298aa1c_13da_42b4_91cd_ebc201e260b3 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2290,7 +2290,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_8491a97e_c6d6_4136_ae7b_d59fe0650f4c |
+| id | EAID_e624428b_5d3b_4667_8bd7_04cc98d32b3e |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2332,7 +2332,7 @@ De enumeratie typeringInrichtingselement heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:40 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_48c5b289_1ad8_4ace_a8d0_482ce9b3e894 |
+| id | EAID_f6fee3ff_8d6f_4347_82a0_64e1cc7c17e6 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2360,7 +2360,7 @@ Het enumeratie typeringInrichtingselementPlus kent de volgende waarden:
 * **verkeersbord**: Bord waarop een verkeersteken is aangebracht en waarvan de uitvoering wettelijk is voorgeschreven volgens het 'Reglement verkeersregels en verkeerstekens 1990
 * **scheepvaartbord**: Bord waarop een scheepvaartteken is aangebracht en waarvan de uitvoering als richtlijn is voorgeschreven volgens 'Richtlijnen Scheepvaarttekens'.
 * **verklikker transportleiding**: Bovengrondse voorziening om een ondergrondse transportleiding te markeren.
-* **reclamebord**: Vrijstaand bord/zuil waarop rondom of aan ï¿½ï¿½n of meer zijden affiches kunnen worden (of zijn) geplakt.
+* **reclamebord**: Vrijstaand bord/zuil waarop rondom of aan ��n of meer zijden affiches kunnen worden (of zijn) geplakt.
 * **wegwijzer**: Constructie voorzien van een of meer panelen met informatie ten behoeve van de bewegwijzering.
 * **waarschuwingshek**: Constructie in de vorm van een hek, voorzien van rode en witte blokken of<br>chevrons, die het verkeer attendeert op een gevarenpunt.
 * **dynamische snelheidsindicator**: Een snelheidsinformatiebord dat in "real time" de snelheid van de weggebruikers aanduidt.
@@ -2411,7 +2411,7 @@ Het enumeratie typeringInrichtingselementPlus kent de volgende waarden:
 * **windmeter**: Apparatuur waarmee de snelheid en de richting van de wind kan worden gemeten.
 * **lichtcel**: Lichtcel waarmee het verlichtingsniveau naar een lager verlichtingsniveau<br>omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat.
 * **GMS sensor**: Gladheidsmeldsysteem (GMS) waarmee de kans op gladheid wordt voorspeld aan de<br>hand van meting en interpretatie van de parameters die een rol spelen bij het ontstaan van gladheid.
-* **radar detector**: Met een radardetector wordt het verkeer gedetecteerd, bijvoorbeeld voor het beï¿½nvloeden van verkeerslichten.
+* **radar detector**: Met een radardetector wordt het verkeer gedetecteerd, bijvoorbeeld voor het be�nvloeden van verkeerslichten.
 * **abri**: Overdekte wachtplaats voor passagiers van het openbaar vervoer.
 * **bolder**: Een inrichting aan de wal, waar een schip, door middel van een tros of landvast, aan vastgelegd kan worden.
 * **brievenbus**: Uitpandige kast waar post in kan worden gedeponeerd ter bezorging.
@@ -2427,13 +2427,13 @@ Het enumeratie typeringInrichtingselementPlus kent de volgende waarden:
 * **lichtpunt**: Een lichtpunt is een lamp die licht uitzendt niet verbonden met een mast die het maaiveld raakt.
 * **parkeerbeugel**: Een omklapbare beugel voor het afschermen van een parkeerplaats.
 * **betaalautomaat**: Een apparaat dat betaalkaarten en/of contant geld accepteert om betalingen uit te voeren.
-* **reclamezuil**: Vrijstaand bord/zuil waarop rondom of aan ï¿½ï¿½n of meer zijden affiches kunnen worden (of zijn) geplakt.
+* **reclamezuil**: Vrijstaand bord/zuil waarop rondom of aan ��n of meer zijden affiches kunnen worden (of zijn) geplakt.
 * **fietsenkluis**: Een fietskluis is een kluis om een fiets in te bewaren, meestal ter voorkoming van diefstal of beschadiging.
 * **herdenkingsmonument**: Langs de weg of elders in het terrein aangelegd object ter herdenking van personen of evenementen.
 * **remmingswerk**: Constructie langs de opstelruimte en wachtruimte bedoeld voor het afmeren van schepen.
 * **betonning**: Een systeem van boeien en bakens, waarmee in open zee of in een vaarwater ondiepten of de aanwezigheid van gevaarlijke objecten worden aangegeven.
 * **geleidewerk**: Fuikvormige constructie aansluitend aan het hoofd van een kunstwerk voor het geven van mechanische en visuele geleiding tijdens het invaren van dat kunstwerk.
-* **vuilvang**: Een voorziening om de waterloop dan wel ï¿½ï¿½n of meerdere objecten<br>benedenstrooms te vrijwaren van drijvend vuil en dergelijke.
+* **vuilvang**: Een voorziening om de waterloop dan wel ��n of meerdere objecten<br>benedenstrooms te vrijwaren van drijvend vuil en dergelijke.
 * **meerpaal**: Paal voor een kade of in een haven waaraan een schip kan worden afgemeerd.
 * **hoogtemerk**: Relatief permanent merk, natuurlijk of kunstmatig, met daarin een punt met een bekende hoogte ten opzichte van een bepaald referentievlak.
 * **molgoot**: Smalle goot (lijngeometrie) in de lengterichting van de verharding, met veelal een cirkelsegment als dwarsprofiel.
@@ -2460,7 +2460,7 @@ De enumeratie typeringInrichtingselementPlus heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:40 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_18091661_f570_4cfa_9003_c221c730df6f |
+| id | EAID_39b5b3b5_abd4_4b3d_91ca_e5e87015d744 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2495,7 +2495,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_0a26a126_a154_4899_a354_75f7ca73d136 |
+| id | EAID_cf58ab12_e626_4030_9be9_4d85e4ad5e33 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2530,7 +2530,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_7e15a4b6_5171_473e_8a81_c17474f3cc3f |
+| id | EAID_2852f7c0_f535_47b7_8c1c_e4e198bf7cff |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2565,7 +2565,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_cbdd2c33_4de4_4690_abb2_23fe3059aa9b |
+| id | EAID_641a1924_d777_45ec_9b0e_10badd6e8305 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2606,7 +2606,7 @@ De enumeratie Gezinsrelatie heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_a4ed58fa_cc84_440b_9652_061af98c11b3 |
+| id | EAID_f6ced92e_3f8d_4423_a310_257216ea5d43 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2640,7 +2640,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_364320e3_6472_4515_b525_70715273a1da |
+| id | EAID_333b950c_6def_4fa5_8923_00c5403b30bd |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2674,7 +2674,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_cab25e70_5404_4e02_807e_d463276a5cf0 |
+| id | EAID_2f140698_dd67_4003_abe4_c7f5117494fc |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2711,7 +2711,7 @@ De enumeratie fysiekVoorkomenOnbegroeidTerrein heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:38 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_c317e2d6_1120_4d91_8e7a_51ce1b28ed79 |
+| id | EAID_9f136703_6b10_4de8_bc84_c8ca830b6158 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2740,7 +2740,7 @@ Het enumeratie fysiekVoorkomenOnbegroeidTerreinPlus kent de volgende waarden:
 * **grasklinkers**: Elementenverharding bestaande uit elementen van beperkte afmetingen die ten behoeve van de doorgroei van grassen en kruiden, zijn voorzien van openingen of met tussenruimten aangebracht. (bron: CROW)
 * **schelpen**: Ongebonden verharding bestaande uit schelpenmateriaal (bron: IMGEO 2.0)
 * **puin**: Puin is afvalmateriaal dat bestaat uit losse brokstukken, grotendeels bestaande uit stenen en beton, van gesloopte of ingestorte gebouwen, viaducten, bruggen en andere objecten. (bron: Wikipedia)
-* **grind**: Ongebonden verharding bestaande uit kiezelmateriaal, waarvan de stenen in doorsnede variï¿½ren van 1 tot 5 cm. (bron: CROW
+* **grind**: Ongebonden verharding bestaande uit kiezelmateriaal, waarvan de stenen in doorsnede vari�ren van 1 tot 5 cm. (bron: CROW
 * **gravel**: Gravel is een ondergrond van gemalen baksteen die veel wordt<br>gebruikt bij tennis en ook wel op atletiekbanen. (bron: Wikipedia)
 * **boomschors**: Onverhard met als deklaag boomschors. (bron: IMGEO 2.0)
 * **zand**: Onverhard met als deklaag zand. (bron: IMGEO 2.0)
@@ -2759,7 +2759,7 @@ De enumeratie fysiekVoorkomenOnbegroeidTerreinPlus heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:38 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_97d559f0_ad03_4d45_bb6f_fe4924a76ec7 |
+| id | EAID_4f24c27a_359c_4759_8ee8_fb251bfbd16c |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2793,7 +2793,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_439e0179_771c_406a_a4b4_5dae85ab966a |
+| id | EAID_bb69cf23_7e91_45da_a6d8_38c323929cce |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2826,7 +2826,7 @@ De enumeratie typeringOndersteunendWater heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:41 |
 | modified | 2025-03-26 16:14:57 |
-| id | EAID_0cab14f3_4949_40d0_93c4_51dd79717f96 |
+| id | EAID_e7f213b8_c58a_4485_b083_985d43c22c2f |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2857,7 +2857,7 @@ De enumeratie typeringOndersteunendWaterPlus heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:41 |
 | modified | 2025-03-26 16:14:57 |
-| id | EAID_2579414e_42a3_4ecb_aed1_745c0383a1c7 |
+| id | EAID_d2aa9ad2_d04a_4c65_b1c8_c2b741cd7c6d |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2891,7 +2891,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_4b79c0d0_8482_4f5d_a3a7_c5cd67d2abc9 |
+| id | EAID_f30f2d39_e5ec_4f31_8793_2985f2cc0a42 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2924,7 +2924,7 @@ De enumeratie functieOndersteunendWegdeel heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:37 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_d188ba83_759a_400e_bbd3_5791875d2853 |
+| id | EAID_ca4a4900_b611_41d7_a558_c95496c8d0bf |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2955,7 +2955,7 @@ De enumeratie functieOndersteunendWegdeelPlus heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:37 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_a31ae021_6312_4b97_962d_2bb1bc344d3f |
+| id | EAID_ef4a384e_f891_4b6d_9c12_8475a7619764 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -2990,7 +2990,7 @@ De enumeratie fysiekVoorkomenOndersteunendWegdeel heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:38 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_85d8f20d_0231_443a_9e6d_fdad7a68e7e3 |
+| id | EAID_51470b79_ac92_4b98_9224_42022bf3c648 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3016,7 +3016,7 @@ Het enumeratie fysiekVoorkomenOndersteunendWegdeelPlus kent de volgende waarden:
 * **grasklinkers**: Elementenverharding bestaande uit elementen van beperkte<br>afmetingen die ten behoeve van de doorgroei van grassen en<br>kruiden, zijn voorzien van openingen of met tussenruimten<br>aangebracht. (bron: CROW)
 * **schelpen**: Ongebonden verharding bestaande uit schelpenmateriaal. (bron:<br>IMGEO 2.0)
 * ** puin**: Puin is afvalmateriaal dat bestaat uit losse brokstukken,<br>grotendeels bestaande uit stenen en beton, van gesloopte of<br>ingestorte gebouwen, viaducten, bruggen en andere objecten.<br>(bron: Wikipedia)
-* **grind**: Ongebonden verharding bestaande uit kiezelmateriaal, waarvan<br>de stenen in doorsnede variï¿½ren van 1 tot 5 cm. (bron: CROW)
+* **grind**: Ongebonden verharding bestaande uit kiezelmateriaal, waarvan<br>de stenen in doorsnede vari�ren van 1 tot 5 cm. (bron: CROW)
 * **gravel**: Gravel is een ondergrond van gemalen baksteen die veel wordt<br>gebruikt bij tennis en ook wel op atletiekbanen. (bron:<br>Wikipedia)
 * **boomschors**: Onverhard met als deklaag boomschors. (bron: IMGEO 2.0)
 * **zand**: Onverhard met als deklaag zand. (bron: IMGEO 2.0)
@@ -3024,7 +3024,7 @@ Het enumeratie fysiekVoorkomenOndersteunendWegdeelPlus kent de volgende waarden:
 * **gras- en kruidachtigen**: (Grond met) een laagblijvende, aaneengesloten kruidachtige<br>vegetatie. (bron: CROW)
 * **planten**: Beheerde niet nader gespecificeerde beplanting van groenvak in<br>de openbare ruimte. (bron: IMGEO 2.0)
 * **struikrozen**: Beheerde beplanting van groenvak in de openbare ruimte,<br>zijnde in struikvorm groeiende rozen. (bron: IMGEO 2.0)
-* **heesters**: Beplanting van houtige gewassen die struikvormend zijn en die<br>al dan niet een gesloten geheel vormen. Het accent ligt op de<br>sierwaarde, de beplanting kan uit ï¿½ï¿½n soort of uit meerdere<br>soorten bestaan. Onder de heesters kan een houtachtige of<br>kruidachtige onderbegroeiing aanwezig zijn. Het oppervlak met<br>struikachtige gewassen is meer dan 50% van de totale<br>oppervlakte van het vak. (bron: IMGEO 2.0)
+* **heesters**: Beplanting van houtige gewassen die struikvormend zijn en die<br>al dan niet een gesloten geheel vormen. Het accent ligt op de<br>sierwaarde, de beplanting kan uit ��n soort of uit meerdere<br>soorten bestaan. Onder de heesters kan een houtachtige of<br>kruidachtige onderbegroeiing aanwezig zijn. Het oppervlak met<br>struikachtige gewassen is meer dan 50% van de totale<br>oppervlakte van het vak. (bron: IMGEO 2.0)
 * **bodembedekkers**: Beheerde beplanting van groenvak in de openbare ruimte,<br>zijnde bodembedekkers. (bron: IMGEO 2.0)
 
 
@@ -3041,7 +3041,7 @@ De enumeratie fysiekVoorkomenOndersteunendWegdeelPlus heeft de volgende kenmerke
 | version | 1.4 |
 | created | 2025-03-26 11:13:38 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_70a29fd6_5f66_4c73_9dc5_c4d690de92ba |
+| id | EAID_e670b9cd_3d24_47a3_a2ae_fb75a203a4b9 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3075,7 +3075,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_ccc6137e_910f_440f_b3ea_dfff2391113a |
+| id | EAID_4b3ae5c0_7e72_44bb_a77e_0a5705c8a0a9 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3111,7 +3111,7 @@ De enumeratie typeringOverbruggingsdeel heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:41 |
 | modified | 2025-03-26 16:14:57 |
-| id | EAID_bd390034_121e_44a5_9786_6ed11f71b8f5 |
+| id | EAID_ed74f875_be5e_4192_81d3_01b1bc3db3cd |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3147,7 +3147,7 @@ De enumeratie typeOverbrugging heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:40 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_31f84ff3_a14b_4bc9_bd85_02db97070a06 |
+| id | EAID_8c79635a_57d0_42f7_8fa4_cac0e948dd89 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3191,7 +3191,7 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
 | version | 1.5 |
 | created | 2025-03-26 11:13:38 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_4255b3e1_95fb_4567_bbff_6cdb9e274190 |
+| id | EAID_36e3fc6b_fbf8_420d_950a_a56c2aca2360 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3226,7 +3226,7 @@ De enumeratie geslacht heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:38 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_2f872cf1_8ea7_4144_88ee_a6c235ef9f6a |
+| id | EAID_558147a0_7974_4a7c_b480_30a5ec79a0c8 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3270,7 +3270,7 @@ De enumeratie adelijkeTitel heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:36 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_8e00e5aa_bf37_4801_8c69_290013cb1e28 |
+| id | EAID_bb4819e2_c71c_438c_9eba_33d3ba51427f |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3304,7 +3304,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_ac09b682_c8df_43ea_82f6_c33b7d00c658 |
+| id | EAID_13bdd94e_b482_4a9c_8348_a39f3be0ee84 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3356,7 +3356,7 @@ De enumeratie soortRechtsvorm heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_cd8a816c_534c_4b75_91ad_39b364f52248 |
+| id | EAID_0626b9d1_d6ba_4f17_9770_46a895facea1 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3390,7 +3390,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_08712db0_e8b1_4b45_b2de_cce2a6eb2bf9 |
+| id | EAID_8cf4dab4_f6f3_4cf7_a70e_c82e5c9e8ed8 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3423,7 +3423,7 @@ De enumeratie typeringOverigeScheiding heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:41 |
 | modified | 2025-03-26 16:14:57 |
-| id | EAID_b5596a54_1625_45e6_8c12_c4670c86b4c5 |
+| id | EAID_520cdc4b_485d_42f4_85fc_6f73276f91e8 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3458,7 +3458,7 @@ De enumeratie aanduidingInhoudingVermissingReisdocument heeft de volgende kenmer
 | version | 1.4 |
 | created | 2025-03-26 11:13:36 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_b52ea8bc_4735_473a_bbb4_8b966195a8b9 |
+| id | EAID_1a61b12c_a98f_4dc8_9a0e_c466c8988086 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3492,7 +3492,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_bbca1fb9_e0ee_45fb_81d9_40221e4a5098 |
+| id | EAID_fbe99eb0_2dab_4528_aaf6_d431cdc438f8 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3526,7 +3526,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_427d4c8d_3650_4b38_9c32_e4843e0a8fcf |
+| id | EAID_8dc1221b_7f3d_4d5b_94cf_df8a3792524c |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3578,7 +3578,7 @@ De enumeratie soortRechtsvorm heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_94a9784c_ee1e_4f92_9632_1015462ac349 |
+| id | EAID_7ebc1204_6ae6_486a_a2f4_63f877f25715 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3619,7 +3619,7 @@ De enumeratie codeExploitant heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:37 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_fefb94c5_32f7_458e_804c_f6d7bf5b511f |
+| id | EAID_093c843a_7231_48c5_b7fe_7c83a4dde4ab |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3658,7 +3658,7 @@ De enumeratie burgelijkeStaat heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:36 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_66775c9c_e033_4b53_9d1a_aab76bd56380 |
+| id | EAID_81468a7f_7e4f_4322_b99b_706f5c360ef5 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3692,7 +3692,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_9c5db368_f005_4f8c_8b40_ace0a408258d |
+| id | EAID_838657a4_9b14_45a5_9889_c13bf2c7e435 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3727,7 +3727,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_8edefe7e_fc12_436d_83b5_da11c445aab6 |
+| id | EAID_6dec6657_5e1f_4d3e_a140_6c4333c8d4ab |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3761,7 +3761,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_b88e1936_7829_4ecc_a05d_2e7744ed930e |
+| id | EAID_a978cf2b_ebbb_4ee4_b6e4_6473ae7b891a |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3794,7 +3794,7 @@ De enumeratie typeringVegetatieobject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:41 |
 | modified | 2025-03-26 16:14:57 |
-| id | EAID_1951c6c1_8073_4020_afc1_f24262fda60e |
+| id | EAID_06d4bb50_06bc_4bf3_a279_521f46a5f7f5 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3828,7 +3828,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_d913f0c9_46b0_4781_be69_e35e1954a010 |
+| id | EAID_4747abee_5436_45e1_8fd1_e514df4ebb6a |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3863,7 +3863,7 @@ De enumeratie typeringWater heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:41 |
 | modified | 2025-03-26 16:14:57 |
-| id | EAID_fdbc9cf0_00ef_443a_95a5_450c9b37647a |
+| id | EAID_d5a89ec2_df9b_4bb7_9f75_591ed69c710b |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3902,7 +3902,7 @@ De enumeratie typeringWaterPlus heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:41 |
 | modified | 2025-03-26 16:14:57 |
-| id | EAID_830bdc52_a1e7_42da_b22d_e4384929ddc2 |
+| id | EAID_ff91f6fe_a14c_480a_b0c8_01efaf4e814a |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3936,7 +3936,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_65767b97_c47e_4163_a6e4_bfaaf512ebcd |
+| id | EAID_3542c6b1_0528_47bb_af3c_5708809fc25e |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -3983,7 +3983,7 @@ De enumeratie functieWeg heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:37 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_b7f9f553_1b93_4d18_b7c5_011534b23ed5 |
+| id | EAID_afe15d8a_3b4f_4689_8ac3_76a08f341793 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -4017,7 +4017,7 @@ De enumeratie functieWegPlus heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:37 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_b9d1c5ad_9450_4ca0_a9b3_6ca68d2eb6cd |
+| id | EAID_7b614bcc_5545_4e31_9b0c_e0e187302b18 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -4052,7 +4052,7 @@ De enumeratie fysiekVoorkomenWeg heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:38 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_def979c3_99e8_4e6e_af46_0df7e3bc737f |
+| id | EAID_d04eab05_dfbb_40ae_9092_0c79d6ae83c3 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -4078,7 +4078,7 @@ Het enumeratie fysiekVoorkomenWegPlus kent de volgende waarden:
 * **grasklinkers**: Elementenverharding bestaande uit elementen van beperkte<br>afmetingen die ten behoeve van de doorgroei van grassen en<br>kruiden, zijn voorzien van openingen of met tussenruimten<br>aangebracht.
 * **schelpen**: Ongebonden verharding bestaande uit schelpenmateriaal.
 * **puin**: Puin is afvalmateriaal dat bestaat uit losse brokstukken,<br>grotendeels bestaande uit stenen en beton, van gesloopte of<br>ingestorte gebouwen, viaducten, bruggen en andere objecten.
-* **grind**: Ongebonden verharding bestaande uit kiezelmateriaal, waarvan<br>de stenen in doorsnede variï¿½ren van 1 tot 5 cm.
+* **grind**: Ongebonden verharding bestaande uit kiezelmateriaal, waarvan<br>de stenen in doorsnede vari�ren van 1 tot 5 cm.
 * **gravel**: Gravel is een ondergrond van gemalen baksteen die veel wordt<br>gebruikt bij tennis en ook wel op atletiekbanen.
 * **boomschors**: Onverhard met als deklaag boomschors.
 * **zand**: Onverhard met als deklaag zand.
@@ -4097,7 +4097,7 @@ De enumeratie fysiekVoorkomenWegPlus heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:38 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_b1ac1f69_bfec_4ee2_9770_e633d0c97ff4 |
+| id | EAID_cacbc094_f905_4cea_9471_518ebc75bedb |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -4115,7 +4115,7 @@ Het enumeratie statusWOZ(Deel)Object kent de volgende waarden:
 
 * **gevormd, niet actief**: <Geen Definities>
 * **actief**: <Geen Definities>
-* **beï¿½indigd**: <Geen Definities>
+* **be�indigd**: <Geen Definities>
 * **ten onrechte opgevoerd**: <Geen Definities>
 
 
@@ -4132,7 +4132,7 @@ De enumeratie statusWOZ(Deel)Object heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:40 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_cce73327_2127_4425_9c6d_ca8e5b7d6160 |
+| id | EAID_be056d9d_664c_49d4_9a59_f7c67a685f8d |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -4150,7 +4150,7 @@ Het enumeratie statusWOZ(Deel)Object kent de volgende waarden:
 
 * **gevormd, niet actief**: <Geen Definities>
 * **actief**: <Geen Definities>
-* **beï¿½indigd**: <Geen Definities>
+* **be�indigd**: <Geen Definities>
 * **ten onrechte opgevoerd**: <Geen Definities>
 
 
@@ -4167,7 +4167,7 @@ De enumeratie statusWOZ(Deel)Object heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:40 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_7ea9ead0_45b3_48dd_a519_c72163b2156f |
+| id | EAID_b5d22319_51ad_46df_96e8_b54af3e89424 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -4208,7 +4208,7 @@ De enumeratie soortGebruik heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_f7c568c1_a25a_4423_b755_7e9308911daf |
+| id | EAID_49ca10f9_c9fc_4b18_99e0_a11f3090708c |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -4257,7 +4257,7 @@ De enumeratie statusWOZ-Beschikking heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_37e383f4_547a_40b2_861f_74e03988f90a |
+| id | EAID_98454d1b_6fff_4088_a55e_f8191318e238 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -4290,7 +4290,7 @@ De enumeratie typeringZekerheidsrecht heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:41 |
 | modified | 2025-03-26 16:14:57 |
-| id | EAID_18064e46_a885_466c_9411_982a984c4014 |
+| id | EAID_6142bb7c_875a_4c81_9370_236f6795edef |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |

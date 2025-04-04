@@ -20,7 +20,7 @@ Het model 'Model Dienstverlening' kent de volgende objecttypen:
 * **Onderwerp**: Bron: GEM_VJV_ONDERWERP<br>ID: ONDERWERP_ID
 * **ProductOfDienst**: Bron: QP_CALENDAR.CFM_SERVICES
 * **Telefoononderwerp**: Onderwerp waarover het telefooncontact gaat
-* **Telefoonstatus**: ABANDONEDALERTING: ï¿½Opgehangen tijdens overgaan telefoonï¿½<br> DROPPEDCANCELED: ï¿½Opgehangen door systeemï¿½<br> ABANDONEDQUEUED: ï¿½Opgehangen tijdens wachten, zonder boodschap. ï¿½<br> CONNECTEDDIRECT: ï¿½Direct verbondenï¿½<br> CONNECTEDQUEUEDANNOUNCE: ï¿½Verbonden na wachtrij met boodschapï¿½<br> AbandonedQUEUEDANNOUNCE: ï¿½Opgehangen in wachtrij met boodschapï¿½<br> DroppedBusy: ï¿½Opgehangen door systeem, te drukï¿½<br> REJECTED: ï¿½Geweigerd door systeemï¿½<br> Droppedoverload: ï¿½Opgehangen door systeem vanwege overbelastingï¿½
+* **Telefoonstatus**: ABANDONEDALERTING: �Opgehangen tijdens overgaan telefoon�<br> DROPPEDCANCELED: �Opgehangen door systeem�<br> ABANDONEDQUEUED: �Opgehangen tijdens wachten, zonder boodschap. �<br> CONNECTEDDIRECT: �Direct verbonden�<br> CONNECTEDQUEUEDANNOUNCE: �Verbonden na wachtrij met boodschap�<br> AbandonedQUEUEDANNOUNCE: �Opgehangen in wachtrij met boodschap�<br> DroppedBusy: �Opgehangen door systeem, te druk�<br> REJECTED: �Geweigerd door systeem�<br> Droppedoverload: �Opgehangen door systeem vanwege overbelasting�
 * **Telefoontje**: De telefoontgesprekken zijn alle keren dat iemand naar de gemeente belt en het telefoonsysteem neemt deze telefoongesprekken aan. Ongeacht of iemand daarna ophangt, door het systeem uit de wachtrij wordt gezet, doorverbonden wordt met een derde partij of er werkelijk wordt opgenomen.
 
 
@@ -568,7 +568,7 @@ Attributen van objecttype Telefoononderwerp
 ### Telefoonstatus
 > **Definitie Telefoonstatus:** 
 >
-> ABANDONEDALERTING: ï¿½Opgehangen tijdens overgaan telefoonï¿½<br> DROPPEDCANCELED: ï¿½Opgehangen door systeemï¿½<br> ABANDONEDQUEUED: ï¿½Opgehangen tijdens wachten, zonder boodschap. ï¿½<br> CONNECTEDDIRECT: ï¿½Direct verbondenï¿½<br> CONNECTEDQUEUEDANNOUNCE: ï¿½Verbonden na wachtrij met boodschapï¿½<br> AbandonedQUEUEDANNOUNCE: ï¿½Opgehangen in wachtrij met boodschapï¿½<br> DroppedBusy: ï¿½Opgehangen door systeem, te drukï¿½<br> REJECTED: ï¿½Geweigerd door systeemï¿½<br> Droppedoverload: ï¿½Opgehangen door systeem vanwege overbelastingï¿½
+> ABANDONEDALERTING: �Opgehangen tijdens overgaan telefoon�<br> DROPPEDCANCELED: �Opgehangen door systeem�<br> ABANDONEDQUEUED: �Opgehangen tijdens wachten, zonder boodschap. �<br> CONNECTEDDIRECT: �Direct verbonden�<br> CONNECTEDQUEUEDANNOUNCE: �Verbonden na wachtrij met boodschap�<br> AbandonedQUEUEDANNOUNCE: �Opgehangen in wachtrij met boodschap�<br> DroppedBusy: �Opgehangen door systeem, te druk�<br> REJECTED: �Geweigerd door systeem�<br> Droppedoverload: �Opgehangen door systeem vanwege overbelasting�
 
 | Eigenschap | Waarde |
 | :--- | :------ |

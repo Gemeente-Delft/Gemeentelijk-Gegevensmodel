@@ -717,7 +717,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_11e4dd82_abc6_4738_96aa_b191342588d1 |
+| id | EAID_9a56db12_3971_409b_bc83_22afc18a14b2 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -752,7 +752,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_d10469db_4723_494f_9238_b85dffe9d45a |
+| id | EAID_edf3009a_fcdd_4d14_b976_7da0754d91aa |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -790,7 +790,7 @@ De enumeratie Doelgroep heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:12:49 |
 | modified | 2025-03-26 16:14:37 |
-| id | EAID_b6118a5c_5f3f_45ef_a9a6_2bc060655abf |
+| id | EAID_bafed10c_7ff5_4efd_8b3e_0007dd194603 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |

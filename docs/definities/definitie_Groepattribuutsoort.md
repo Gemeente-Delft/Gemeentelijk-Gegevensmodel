@@ -13,7 +13,7 @@ Het model 'Groepattribuutsoort' kent de volgende objecttypen:
 * **HandelsnamenMaatschappelijkeActiviteit**: {nog niet in NHR uitgewerkt}
 * **HandelsnamenVestiging**: {nog niet in NHR uitgewerkt}
 * **KoopsomKadastraleOnroerendeZaak**: Het in een ter inschrijving aangeboden stuk vermelde bedrag, waarvoor 1 of meer onroerende zaken zijn verkregen.
-* **LocatieKadastraleOnroerendeZaak**: Deze wordt gebruikt om ï¿½ï¿½n of meer locatieaanduiding(en) van een onroerende zaak weer te geven.
+* **LocatieKadastraleOnroerendeZaak**: Deze wordt gebruikt om ��n of meer locatieaanduiding(en) van een onroerende zaak weer te geven.
 * **MigratieIngeschrevenNatuurlijkPersoon**: Om gegevens vast te leggen over immigratie en emigratie.
 * **NaamAanschrijvingNatuurlijkPersoon**: De naamgegevens waarmee de persoon heeft aangegeven aangeschreven te willen worden
 * **NaamgebruikNatuurlijkPersoon**: De naamgegevens waarmee de persoon heeft aangegeven aangeschreven te willen worden
@@ -39,7 +39,7 @@ Het model 'Groepattribuutsoort' kent de volgende objecttypen:
 * **VerblijfBuitenland**: De gegevens over het verblijf in het buitenland
 * **VerblijfBuitenlandSubject**: De gegevens over het verblijf in het buitenland
 * **VerblijfsrechtIngeschrevenNatuurlijkPersoon**: De gegevens om het verblijfsrecht vast te leggen.
-* **VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon**: Een INGESCHREVEN NATUURLIJK PERSOON kan voor ï¿½ï¿½n of meerdere partijen kiezen voor wie een verstrekkingsbeperking geldt.
+* **VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon**: Een INGESCHREVEN NATUURLIJK PERSOON kan voor ��n of meerdere partijen kiezen voor wie een verstrekkingsbeperking geldt.
 
 
 Het model 'Groepattribuutsoort' heeft de volgende kenmerken:
@@ -319,14 +319,14 @@ Attributen van objecttype KoopsomKadastraleOnroerendeZaak
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | koopsom |  | Bedrag waarvoor belangrijkste recht van onroerende zaak is gekocht |
-| datumTransactie |  | Datum en tijdstip waarop een ter inschrijving aangeboden stuk, waarmee ï¿½ï¿½n of meer onroerende zaken zijn overgedragen, is ondertekend door de opsteller van het stuk. |
+| datumTransactie |  | Datum en tijdstip waarop een ter inschrijving aangeboden stuk, waarmee ��n of meer onroerende zaken zijn overgedragen, is ondertekend door de opsteller van het stuk. |
 
 
 
 ### LocatieKadastraleOnroerendeZaak
 > **Definitie LocatieKadastraleOnroerendeZaak:** 
 >
-> Deze wordt gebruikt om ï¿½ï¿½n of meer locatieaanduiding(en) van een onroerende zaak weer te geven.
+> Deze wordt gebruikt om ��n of meer locatieaanduiding(en) van een onroerende zaak weer te geven.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -608,13 +608,13 @@ Attributen van objecttype OntbindingHuwelijk/geregistreerdPartnerschap
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| redenEinde | Enumeratie: "redenEindeRelatie" | De reden van ontbinding huwelijk, dan wel beï¿½indiging geregistreerd partnerschap. |
-| datumEinde |  | De datum waarop het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beï¿½indigd. |
-| gemeenteEinde | AN80 | Gemeente waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beï¿½indigd. |
-| buitenlandsePlaatsEinde | AN40 | Buitenlandse plaats waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beï¿½indigd. |
-| buitenlandseRegioEinde | AN35 | Buitenlandse regio waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beï¿½indigd. |
-| landOfGebiedEinde |  | Land of gebied waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beï¿½indigd. |
-| omschrijvingLocatieEinde | AN40 | Omschrijving van de locatie waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beï¿½indigd. Dit veld wordt gebruikt voor situaties die zich niet laten vangen in een gemeente einde, woonplaatsnaam einde, buitenlandse plaats einde, buitenlandse regio einde, of land/gebied einde, bijvoorbeeld bij een einde van het huwelijk of geregistreerd partnerschap in internationale wateren. |
+| redenEinde | Enumeratie: "redenEindeRelatie" | De reden van ontbinding huwelijk, dan wel be�indiging geregistreerd partnerschap. |
+| datumEinde |  | De datum waarop het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is be�indigd. |
+| gemeenteEinde | AN80 | Gemeente waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is be�indigd. |
+| buitenlandsePlaatsEinde | AN40 | Buitenlandse plaats waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is be�indigd. |
+| buitenlandseRegioEinde | AN35 | Buitenlandse regio waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is be�indigd. |
+| landOfGebiedEinde |  | Land of gebied waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is be�indigd. |
+| omschrijvingLocatieEinde | AN40 | Omschrijving van de locatie waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is be�indigd. Dit veld wordt gebruikt voor situaties die zich niet laten vangen in een gemeente einde, woonplaatsnaam einde, buitenlandse plaats einde, buitenlandse regio einde, of land/gebied einde, bijvoorbeeld bij een einde van het huwelijk of geregistreerd partnerschap in internationale wateren. |
 
 
 
@@ -723,7 +723,7 @@ Attributen van objecttype Postadres
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| postcodePostadres | POSTCODE | De officiï¿½le PostNL codering, bestaande uit een numerieke woonplaatscode en een alfabetische lettercode |
+| postcodePostadres | POSTCODE | De offici�le PostNL codering, bestaande uit een numerieke woonplaatscode en een alfabetische lettercode |
 | postadresType | postadresType | Aanduiding van het soort postadres |
 | postbusOfAntwoordnummer | N5 | De numerieke aanduiding zoals deze door de PostNL is vastgesteld voor postbusadressen en antwoordnummeradressen. |
 
@@ -737,7 +737,7 @@ Attributen van objecttype Postadres
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Rekeningnummer |
-| toelichting | <memo>#NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van ï¿½ï¿½n rekeningnummer dat het subject beschouwt als zijn ï¿½primaireï¿½ rekeningnummer. |
+| toelichting | <memo>#NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van ��n rekeningnummer dat het subject beschouwt als zijn �primaire� rekeningnummer. |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -1084,7 +1084,7 @@ Attributen van objecttype SplitsingstekeningReferentie
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | identificatieTekening | AN40 | <font color="#0f0f0f">Een ondubbelzinnige referentie naar de tekening.</font> |
-| bronorganisatie | N9 | Het RSIN van de Niet-natuurlijk persoon zijnde de organisatie die het informatieobject heeft gecreï¿½erd of heeft ontvangen en als eerste in een samenwerkingsketen heeft vastgelegd. |
+| bronorganisatie | N9 | Het RSIN van de Niet-natuurlijk persoon zijnde de organisatie die het informatieobject heeft gecre�erd of heeft ontvangen en als eerste in een samenwerkingsketen heeft vastgelegd. |
 | datumCreatie | DATUM | De datum van creatie van de tekening. |
 | titel | AN200 | <font color="#0f0f0f">De naam waaronder de tekening formeel bekend is</font> |
 
@@ -1277,7 +1277,7 @@ Attributen van objecttype VerblijfsrechtIngeschrevenNatuurlijkPersoon
 ### VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon
 > **Definitie VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon:** 
 >
-> Een INGESCHREVEN NATUURLIJK PERSOON kan voor ï¿½ï¿½n of meerdere partijen kiezen voor wie een verstrekkingsbeperking geldt.
+> Een INGESCHREVEN NATUURLIJK PERSOON kan voor ��n of meerdere partijen kiezen voor wie een verstrekkingsbeperking geldt.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -1338,7 +1338,7 @@ De enumeratie soortMigratie heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_ceb84803_764e_4045_a3a3_6b8fd3e13db0 |
+| id | EAID_bb826813_a924_4ff3_b2e1_7b3f14408100 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -1375,7 +1375,7 @@ De enumeratie redenWijzigingAdres heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_70aebf12_7f0c_49ab_a6bc_1bec6ed66753 |
+| id | EAID_b245e2b3_86c0_4a76_a2d2_2f68519d96a6 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -1414,7 +1414,7 @@ De enumeratie aangever heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:36 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_a42939a9_e903_4c29_8024_f42b77f657e5 |
+| id | EAID_6d481729_9503_4ae4_9d36_63c62b6cf0c8 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -1458,7 +1458,7 @@ De enumeratie adelijkeTitel heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:36 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_67b3bbf9_ffef_407e_8628_42f3bf37082a |
+| id | EAID_1fc093b4_c0c2_4453_a5bc_461674108bb7 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -1480,7 +1480,7 @@ Het enumeratie redenEindeRelatie kent de volgende waarden:
 * **Overlijden partner**: <Geen Definities>
 * **Rechtsvermoeden van overlijden partner**: <Geen Definities>
 * **Echtscheiding, ontbinding of eindigen conform Nederlands recht**: <Geen Definities>
-* **Naar vreemd recht anders beï¿½indigd**: <Geen Definities>
+* **Naar vreemd recht anders be�indigd**: <Geen Definities>
 * **Omzetting van soort verbintenis**: <Geen Definities>
 
 
@@ -1497,7 +1497,7 @@ De enumeratie redenEindeRelatie heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_ef9c8efc_aacb_4cd4_bd7d_b2f64561a057 |
+| id | EAID_bae4cc85_788b_4520_a868_fea3afd74712 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -1534,7 +1534,7 @@ De enumeratie predicaat heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:38 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_93723bc5_3214_441d_bd1c_05bfa4bce67e |
+| id | EAID_92be77b0_8595_4cd0_9cad_68f81fba28a6 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -1578,7 +1578,7 @@ De enumeratie adelijkeTitel heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:36 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_92940207_54e9_42f5_aca9_66099d3f59d5 |
+| id | EAID_464ba4cb_9905_4855_8764_a98f98405a2c |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -1632,7 +1632,7 @@ De enumeratie typeringFunctioneelGebied heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:40 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_6eadf3b8_d9f3_4c50_8309_1196a0129ee3 |
+| id | EAID_7d91d318_fa77_4627_bb58_2fb8c5d5b39d |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -1679,7 +1679,7 @@ De enumeratie typeringKunstwerk heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:40 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_ec721641_eaae_4cd8_943d_aece7aacd6ee |
+| id | EAID_f087f322_1614_4b1e_b0aa_4fecdba12ace |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -1720,7 +1720,7 @@ De enumeratie typeringOverigBouwwerk heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:41 |
 | modified | 2025-03-26 16:14:57 |
-| id | EAID_e4a8ab5b_1ffc_4cb2_84ab_0a3ccc191da9 |
+| id | EAID_83f3229e_d297_486b_98a5_6080db90d138 |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -1757,7 +1757,7 @@ De enumeratie typeringScheiding heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:41 |
 | modified | 2025-03-26 16:14:57 |
-| id | EAID_d633a624_fad5_4b8d_aaa1_3f52606f6c3d |
+| id | EAID_adf8afe3_ca9d_465d_9e79_694c955e2cfb |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |
@@ -1792,7 +1792,7 @@ De enumeratie functieSpoor heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:37 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_05b7a241_215d_4d4d_b5b0_532f56c25b0b |
+| id | EAID_6b5e6407_9e53_418b_80ba_1657277fcf1b |
 | domein_iv3 |  |
 | domein_dcat |  |
 | gemma_naam |  |

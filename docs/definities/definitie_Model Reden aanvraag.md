@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Reden aanvraag:** 
 >
-> Het onderdeel Reden aanvraag richt zich op de registratie en categorisatie van redenen waarom een cli&#235;nt een inkomensvoorziening aanvraagt. Dit model biedt een overzicht van de verschillende soorten redenen en hun onderlinge relaties, waardoor gemeenten deze informatie gestructureerd kunnen vastleggen en verwerken.
+> Het onderdeel Reden aanvraag richt zich op de registratie en categorisatie van redenen waarom een cliënt een inkomensvoorziening aanvraagt. Dit model biedt een overzicht van de verschillende soorten redenen en hun onderlinge relaties, waardoor gemeenten deze informatie gestructureerd kunnen vastleggen en verwerken.
 
 Het model 'Model Reden aanvraag' kent de volgende objecttypen:
 
