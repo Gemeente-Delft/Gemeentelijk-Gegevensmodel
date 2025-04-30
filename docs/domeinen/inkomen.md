@@ -161,14 +161,14 @@ Het onderdeel *Terug- en Invordering* richt zich op de processen en gegevens ron
 1. **Vordering**  
    Het centrale objecttype in het model is *Vordering*. Dit representeert een financieel bedrag dat door de gemeente wordt teruggevorderd van een cliënt. Een vordering kan voortkomen uit verschillende situaties, zoals onterecht ontvangen uitkeringen of overtredingen van verplichtingen.
 
-   - Een vordering bevat meerdere componenten, zoals *Rechtshandeling* en *Betalcomponent*, die samen de administratieve afhandeling ondersteunen.
+   - Een vordering bevat meerdere componenten, zoals *Rechtshandeling* en *Betaalcomponent*, die samen de administratieve afhandeling ondersteunen.
    - Daarnaast generaliseert een vordering specifieke subtypen, zoals *Verrekening*, *Afkoopsomvordering*, en *Rentvordering*.
 
 2. **Rechtshandeling**  
    Dit objecttype beschrijft de juridische basis voor de vordering. Het kan bijvoorbeeld gaan om besluiten of overeenkomsten die de terugvordering rechtvaardigen.
 
-3. **Betalcomponent**  
-   Een betalcomponent is gekoppeld aan een vordering en beschrijft de betalingsspecificaties, zoals termijnen of bedragen.
+3. **Betaalcomponent**  
+   Een betaalcomponent is gekoppeld aan een vordering en beschrijft de betalingsspecificaties, zoals termijnen of bedragen.
 
 4. **Verrekening**  
    Een vorm van vordering waarbij het verschuldigde bedrag wordt verrekend met andere financiële rechten van de cliënt, zoals toekomstige uitkeringen.
@@ -176,8 +176,8 @@ Het onderdeel *Terug- en Invordering* richt zich op de processen en gegevens ron
 5. **Afkoopsomvordering**  
    Dit subtype representeert een vordering die wordt afgehandeld via een afkoopsom, waarbij een cliënt een overeengekomen bedrag betaalt om verdere verplichtingen af te kopen.
 
-6. **Rentvordering**  
-   Rentvorderingen worden toegepast wanneer rente verschuldigd is over het openstaande bedrag van de vordering.
+6. **Rentevordering**  
+   Rentevorderingen worden toegepast wanneer rente verschuldigd is over het openstaande bedrag van de vordering.
 
 7. **Krediethypotheekovereenkomst**  
    Dit objecttype beschrijft een overeenkomst waarbij een krediethypotheek wordt afgesloten als zekerheid voor terugbetaling van een vordering.
