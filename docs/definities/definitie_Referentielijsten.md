@@ -4,6 +4,21 @@
 >
 > Geen definitie
 
+??? info "Kenmerken Model Referentielijsten"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Referentielijsten |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.3 |
+    | created | 2018-03-21 15:46:54 |
+    | modified | 2024-11-21 08:38:15 |
+    | id | EAPK_38DBC4A7_96E3_4e93_AD37_84BF1310F685 |
+    
+
 Het model 'Referentielijsten' kent de volgende objecttypen:
 
 * **AanduidingVerblijfsrecht**: Aanduiding in verband met het verblijfsrecht van de vreemdeling.
@@ -33,22 +48,6 @@ Het model 'Referentielijsten' kent de volgende objecttypen:
 * **Valuta**: De hoedanigheid van tot een bepaalde natie te behoren.
 
 
-Het model 'Referentielijsten' heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | Referentielijsten |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.3 |
-| created | 2018-03-21 15:46:54 |
-| modified | 2024-11-21 08:38:15 |
-| id | EAPK_38DBC4A7_96E3_4e93_AD37_84BF1310F685 |
-
-
 ## Objecttypen Referentielijsten
 
 
@@ -57,26 +56,27 @@ Het model 'Referentielijsten' heeft de volgende kenmerken:
 >
 > Aanduiding in verband met het verblijfsrecht van de vreemdeling.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | AanduidingVerblijfsrecht |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Haas_R |
-| version | 1.5 |
-| created | 2015-05-04 11:23:39 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_EBE4A0C9_9281_4750_8E70_AF70A549CD6B |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | AanduidingVerblijfsrecht |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-c5346a86-b511-420a-be6b-f431668f28fc](https://gemmaonline.nl/index.php/GEMMA/id-c5346a86-b511-420a-be6b-f431668f28fc) |
-| gemma_definitie | Aanduiding in verband met het verblijfsrecht van de vreemdeling. |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model AanduidingVerblijfsrecht"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | AanduidingVerblijfsrecht |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Haas_R |
+    | version | 1.5 |
+    | created | 2015-05-04 11:23:39 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_EBE4A0C9_9281_4750_8E70_AF70A549CD6B |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | AanduidingVerblijfsrecht |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-c5346a86-b511-420a-be6b-f431668f28fc](https://gemmaonline.nl/index.php/GEMMA/id-c5346a86-b511-420a-be6b-f431668f28fc) |
+    | gemma_definitie | Aanduiding in verband met het verblijfsrecht van de vreemdeling. |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype AanduidingVerblijfsrecht
 
@@ -94,26 +94,27 @@ Attributen van objecttype AanduidingVerblijfsrecht
 >
 > Een opsomming van de diverse coderingen van de autoriteiten die een Nederlands reisdocument kunnen afgegeven
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | AutoriteitAfgifteNederlandsReisdocument |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Debat_E |
-| version | 1.5 |
-| created | 2015-11-26 12:09:05 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_E36F8A4C_C487_40ec_9D4F_4FDF5DCED461 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | AutoriteitAfgifteNederlandsReisdocument |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-18d19806-b210-4a85-ad89-52c9925008d6](https://gemmaonline.nl/index.php/GEMMA/id-18d19806-b210-4a85-ad89-52c9925008d6) |
-| gemma_definitie | Een opsomming van de diverse coderingen van de autoriteiten die een Nederlands reisdocument kunnen afgegeven |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model AutoriteitAfgifteNederlandsReisdocument"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | AutoriteitAfgifteNederlandsReisdocument |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Debat_E |
+    | version | 1.5 |
+    | created | 2015-11-26 12:09:05 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_E36F8A4C_C487_40ec_9D4F_4FDF5DCED461 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | AutoriteitAfgifteNederlandsReisdocument |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-18d19806-b210-4a85-ad89-52c9925008d6](https://gemmaonline.nl/index.php/GEMMA/id-18d19806-b210-4a85-ad89-52c9925008d6) |
+    | gemma_definitie | Een opsomming van de diverse coderingen van de autoriteiten die een Nederlands reisdocument kunnen afgegeven |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype AutoriteitAfgifteNederlandsReisdocument
 
@@ -131,26 +132,27 @@ Attributen van objecttype AutoriteitAfgifteNederlandsReisdocument
 >
 > Rechtsgrond op basis waarvan men bevoegd is in een land te verblijven.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Verblijfstitel |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | aashkpour |
-| version | 1.6 |
-| created | 2021-10-05 17:15:12 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_0F51B100_1C60_4d54_9B60_1C9BF9C856A2 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Verblijfstitel"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Verblijfstitel |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | aashkpour |
+    | version | 1.6 |
+    | created | 2021-10-05 17:15:12 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_0F51B100_1C60_4d54_9B60_1C9BF9C856A2 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Verblijfstitel
 
@@ -168,26 +170,27 @@ Attributen van objecttype Verblijfstitel
 >
 > Een opsomming van de diverse aarden van de aantekeningen zoals door de Dienst Kadaster is onderscheiden.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | AardAantekening |
-| toelichting | <memo>#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | debat_e |
-| version | 1.5 |
-| created | 2015-09-17 09:10:38 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_BE0C0747_E9CD_4ae1_A83C_94A724513C7B |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model AardAantekening"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | AardAantekening |
+    | toelichting | <memo>#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | debat_e |
+    | version | 1.5 |
+    | created | 2015-09-17 09:10:38 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_BE0C0747_E9CD_4ae1_A83C_94A724513C7B |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype AardAantekening
 
@@ -205,26 +208,27 @@ Attributen van objecttype AardAantekening
 >
 > Een opsomming van de diverse aarden van het zakelijk rechten zoals door de Dienst Kadaster is onderscheiden.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | AardZakelijkRecht |
-| toelichting | <memo> |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | debat_e |
-| version | 1.5 |
-| created | 2015-02-27 09:34:12 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_AC4F4A9C_1623_4447_9813_0722CDD58E66 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model AardZakelijkRecht"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | AardZakelijkRecht |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | debat_e |
+    | version | 1.5 |
+    | created | 2015-02-27 09:34:12 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_AC4F4A9C_1623_4447_9813_0722CDD58E66 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype AardZakelijkRecht
 
@@ -242,26 +246,27 @@ Attributen van objecttype AardZakelijkRecht
 >
 > Een opsomming van redenen waarom kadastrale onroerende zaken aan elkaar gerelateerd kunnen zijn
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | AardFiliatie |
-| toelichting | <memo> |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | debat_e |
-| version | 1.5 |
-| created | 2015-03-02 11:02:57 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_1453EF69_1E5E_49ae_8510_A68652374710 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model AardFiliatie"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | AardFiliatie |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | debat_e |
+    | version | 1.5 |
+    | created | 2015-03-02 11:02:57 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_1453EF69_1E5E_49ae_8510_A68652374710 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype AardFiliatie
 
@@ -279,26 +284,27 @@ Attributen van objecttype AardFiliatie
 >
 > Een formeel via het Staatsblad gepubliceerde aanduiding van een wetenschappelijke of andere graad van opleiding welke bij aanschrijving voorafgaat aan de voornamen (dan wel de daarvan afgeleide naamgegevens) dan wel volgt op de achternaam.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | AcademischeTitel |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2018-03-21 15:46:58 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_B2857D85_8135_461e_90FF_A2E3DDD9981D |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model AcademischeTitel"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | AcademischeTitel |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2018-03-21 15:46:58 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_B2857D85_8135_461e_90FF_A2E3DDD9981D |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype AcademischeTitel
 
@@ -317,26 +323,27 @@ Attributen van objecttype AcademischeTitel
 >
 > De door de Dienst Kadaster onderkende AKR codes voor  kadastrale gemeenten
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | AkrKadastraleGemeentecode |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | debat_e |
-| version | 1.5 |
-| created | 2015-02-27 09:59:31 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_6BA8DD14_1CC9_4669_BDCC_856B5C628D6B |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | AKRKadastraleGemeentecode |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-5bac73d2-8cbf-454b-8d23-692128387418](https://gemmaonline.nl/index.php/GEMMA/id-5bac73d2-8cbf-454b-8d23-692128387418) |
-| gemma_definitie | De door de Dienst Kadaster onderkende AKR codes voor  kadastrale gemeenten |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model AkrKadastraleGemeentecode"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | AkrKadastraleGemeentecode |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | debat_e |
+    | version | 1.5 |
+    | created | 2015-02-27 09:59:31 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_6BA8DD14_1CC9_4669_BDCC_856B5C628D6B |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | AKRKadastraleGemeentecode |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-5bac73d2-8cbf-454b-8d23-692128387418](https://gemmaonline.nl/index.php/GEMMA/id-5bac73d2-8cbf-454b-8d23-692128387418) |
+    | gemma_definitie | De door de Dienst Kadaster onderkende AKR codes voor  kadastrale gemeenten |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype AkrKadastraleGemeentecode
 
@@ -354,26 +361,27 @@ Attributen van objecttype AkrKadastraleGemeentecode
 >
 > De mogelijke cultuurcodes bebouwd conform de waardelijst Cultuurcode Bebouwd van het Kadaster
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | CultuurcodeBebouwd |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | debat_e |
-| version | 1.5 |
-| created | 2015-02-27 12:20:57 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_DADECD97_1605_4c24_84A7_46AB2327468D |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | CultuurcodeBebouwd |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f9738db5-aa1b-47a8-9c4c-d3ee0a9fef4c](https://gemmaonline.nl/index.php/GEMMA/id-f9738db5-aa1b-47a8-9c4c-d3ee0a9fef4c) |
-| gemma_definitie | De mogelijke cultuurcodes bebouwd conform de waardelijst Cultuurcode Bebouwd van het Kadaster |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model CultuurcodeBebouwd"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | CultuurcodeBebouwd |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | debat_e |
+    | version | 1.5 |
+    | created | 2015-02-27 12:20:57 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_DADECD97_1605_4c24_84A7_46AB2327468D |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | CultuurcodeBebouwd |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f9738db5-aa1b-47a8-9c4c-d3ee0a9fef4c](https://gemmaonline.nl/index.php/GEMMA/id-f9738db5-aa1b-47a8-9c4c-d3ee0a9fef4c) |
+    | gemma_definitie | De mogelijke cultuurcodes bebouwd conform de waardelijst Cultuurcode Bebouwd van het Kadaster |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype CultuurcodeBebouwd
 
@@ -391,26 +399,27 @@ Attributen van objecttype CultuurcodeBebouwd
 >
 > De mogelijke cultuurcodes bebouwd conform de waardelijst Cultuurcode Bebouwd van het Kadaster
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | CultuurcodeOnbebouwd |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | debat_e |
-| version | 1.5 |
-| created | 2015-02-27 14:08:48 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_ACAF3418_7E0F_43eb_B470_4AF98C37A49B |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | CultuurcodeOnbebouwd |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-a4a3eb70-32b8-4b20-abbc-a3849b1fcfd1](https://gemmaonline.nl/index.php/GEMMA/id-a4a3eb70-32b8-4b20-abbc-a3849b1fcfd1) |
-| gemma_definitie | De mogelijke cultuurcodes bebouwd conform de waardelijst Cultuurcode Bebouwd van het Kadaster |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model CultuurcodeOnbebouwd"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | CultuurcodeOnbebouwd |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | debat_e |
+    | version | 1.5 |
+    | created | 2015-02-27 14:08:48 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_ACAF3418_7E0F_43eb_B470_4AF98C37A49B |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | CultuurcodeOnbebouwd |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-a4a3eb70-32b8-4b20-abbc-a3849b1fcfd1](https://gemmaonline.nl/index.php/GEMMA/id-a4a3eb70-32b8-4b20-abbc-a3849b1fcfd1) |
+    | gemma_definitie | De mogelijke cultuurcodes bebouwd conform de waardelijst Cultuurcode Bebouwd van het Kadaster |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype CultuurcodeOnbebouwd
 
@@ -428,26 +437,27 @@ Attributen van objecttype CultuurcodeOnbebouwd
 >
 > De mogelijke codes  waarin een soort object kan worden uitgedrukt conform de uniforme deelobjectcodelijst van de Waarderingskamer
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | WOZ-Deelobjectcode |
-| toelichting | <memo> |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | debat_e |
-| version | 1.5 |
-| created | 2015-03-09 11:16:33 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_D8154D91_27A5_4cc1_9B52_639BF24CAC29 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model WOZ-Deelobjectcode"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | WOZ-Deelobjectcode |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | debat_e |
+    | version | 1.5 |
+    | created | 2015-03-09 11:16:33 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_D8154D91_27A5_4cc1_9B52_639BF24CAC29 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype WOZ-Deelobjectcode
 
@@ -465,26 +475,27 @@ Attributen van objecttype WOZ-Deelobjectcode
 >
 > De mogelijke onderscheiden gedeeltes van het grondgebied van Nederland, volgens de Dienst Kadaster en de Openbare Registers, zoals nader omschreven in het Kadasterbesluit
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | KadastraleGemeente |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | debat_e |
-| version | 1.5 |
-| created | 2013-10-10 10:50:59 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_51BA37A4_2E1D_4704_9153_02759084D5E2 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | KadastraleGemeente |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-c7c60998-7075-40c7-b9d0-14febabaad96](https://gemmaonline.nl/index.php/GEMMA/id-c7c60998-7075-40c7-b9d0-14febabaad96) |
-| gemma_definitie | De mogelijke onderscheiden gedeeltes van het grondgebied van Nederland, volgens de Dienst Kadaster en de Openbare Registers, zoals nader omschreven in het Kadasterbesluit |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model KadastraleGemeente"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | KadastraleGemeente |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | debat_e |
+    | version | 1.5 |
+    | created | 2013-10-10 10:50:59 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_51BA37A4_2E1D_4704_9153_02759084D5E2 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | KadastraleGemeente |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-c7c60998-7075-40c7-b9d0-14febabaad96](https://gemmaonline.nl/index.php/GEMMA/id-c7c60998-7075-40c7-b9d0-14febabaad96) |
+    | gemma_definitie | De mogelijke onderscheiden gedeeltes van het grondgebied van Nederland, volgens de Dienst Kadaster en de Openbare Registers, zoals nader omschreven in het Kadasterbesluit |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype KadastraleGemeente
 
@@ -502,26 +513,27 @@ Attributen van objecttype KadastraleGemeente
 >
 > Een gedeelte van de wereld met een eigen bestuur, waarvan de soevereiniteit in ieder geval door Nederland is erkend.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | LandOfgebied |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2010-07-06 13:26:39 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_A17A01A9_2A4F_46e8_A55A_2B151F8ED46E |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | LandOfGebied |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-36cbdfbe-4b70-489c-9668-f42f9c1dbfaf](https://gemmaonline.nl/index.php/GEMMA/id-36cbdfbe-4b70-489c-9668-f42f9c1dbfaf) |
-| gemma_definitie | Een gedeelte van de wereld met een eigen bestuur, waarvan de soevereiniteit in ieder geval door Nederland is erkend. |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model LandOfgebied"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | LandOfgebied |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2010-07-06 13:26:39 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_A17A01A9_2A4F_46e8_A55A_2B151F8ED46E |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | LandOfGebied |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-36cbdfbe-4b70-489c-9668-f42f9c1dbfaf](https://gemmaonline.nl/index.php/GEMMA/id-36cbdfbe-4b70-489c-9668-f42f9c1dbfaf) |
+    | gemma_definitie | Een gedeelte van de wereld met een eigen bestuur, waarvan de soevereiniteit in ieder geval door Nederland is erkend. |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype LandOfgebied
 
@@ -540,26 +552,27 @@ Attributen van objecttype LandOfgebied
 >
 > Een gedeelte van de wereld met een eigen bestuur, waarvan de soevereiniteit in ieder geval door Nederland is erkend.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Provincie |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2019-01-21 14:39:45 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_5A8F56B7_AE35_4212_B059_DAD064EDBAB8 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | Provincie |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-3d323476-1d44-4b8f-87bf-a6157bf888e5](https://gemmaonline.nl/index.php/GEMMA/id-3d323476-1d44-4b8f-87bf-a6157bf888e5) |
-| gemma_definitie | Een gedeelte van de wereld met een eigen bestuur, waarvan de soevereiniteit in ieder geval door Nederland is erkend. |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Provincie"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Provincie |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2019-01-21 14:39:45 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_5A8F56B7_AE35_4212_B059_DAD064EDBAB8 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | Provincie |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-3d323476-1d44-4b8f-87bf-a6157bf888e5](https://gemmaonline.nl/index.php/GEMMA/id-3d323476-1d44-4b8f-87bf-a6157bf888e5) |
+    | gemma_definitie | Een gedeelte van de wereld met een eigen bestuur, waarvan de soevereiniteit in ieder geval door Nederland is erkend. |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Provincie
 
@@ -580,26 +593,27 @@ Attributen van objecttype Provincie
 >
 > Een PARTIJ die bij de centrale voorzieningen van de BRP bekend is.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Partij |
-| toelichting | #NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen. |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Haas_R |
-| version | 1.5 |
-| created | 2015-04-30 16:13:29 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_0F175713_CEAB_4c6e_8A61_27F93C1FC777 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | Partij |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-fb3651d2-9fe0-4da5-ae5b-3e07bbfa498d](https://gemmaonline.nl/index.php/GEMMA/id-fb3651d2-9fe0-4da5-ae5b-3e07bbfa498d) |
-| gemma_definitie | Een PARTIJ die bij de centrale voorzieningen van de BRP bekend is. |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Partij"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Partij |
+    | toelichting | #NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen. |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Haas_R |
+    | version | 1.5 |
+    | created | 2015-04-30 16:13:29 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_0F175713_CEAB_4c6e_8A61_27F93C1FC777 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | Partij |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-fb3651d2-9fe0-4da5-ae5b-3e07bbfa498d](https://gemmaonline.nl/index.php/GEMMA/id-fb3651d2-9fe0-4da5-ae5b-3e07bbfa498d) |
+    | gemma_definitie | Een PARTIJ die bij de centrale voorzieningen van de BRP bekend is. |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Partij
 
@@ -619,26 +633,27 @@ Attributen van objecttype Partij
 >
 > Tabel waarin de redenen staan voor opname van de Nederlandse nationaliteit.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | RedenVerkrijgingNationaliteit |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Haas_R |
-| version | 1.5 |
-| created | 2015-05-01 13:49:06 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_61D1E99C_DF5E_48ee_8BAB_4ACA1745BC7C |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | RedenVerkrijgingNationaliteit |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-bf1e6259-da1b-4781-8b19-77b8b7dbe884](https://gemmaonline.nl/index.php/GEMMA/id-bf1e6259-da1b-4781-8b19-77b8b7dbe884) |
-| gemma_definitie | Tabel waarin de redenen staan voor opname van de Nederlandse nationaliteit. |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model RedenVerkrijgingNationaliteit"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | RedenVerkrijgingNationaliteit |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Haas_R |
+    | version | 1.5 |
+    | created | 2015-05-01 13:49:06 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_61D1E99C_DF5E_48ee_8BAB_4ACA1745BC7C |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | RedenVerkrijgingNationaliteit |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-bf1e6259-da1b-4781-8b19-77b8b7dbe884](https://gemmaonline.nl/index.php/GEMMA/id-bf1e6259-da1b-4781-8b19-77b8b7dbe884) |
+    | gemma_definitie | Tabel waarin de redenen staan voor opname van de Nederlandse nationaliteit. |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype RedenVerkrijgingNationaliteit
 
@@ -656,26 +671,27 @@ Attributen van objecttype RedenVerkrijgingNationaliteit
 >
 > Tabel waarin de redenen staan voor be�indiging van de Nederlandse nationaliteit.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | RedenVerliesNationaliteit |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Haas_R |
-| version | 1.5 |
-| created | 2015-05-01 13:49:06 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_7F97B43F_CCA1_4bfc_9824_9BEC8D2A70E6 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | RedenVerliesNationaliteit |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-33943627-02e9-4022-8fd1-5b0b5b17138b](https://gemmaonline.nl/index.php/GEMMA/id-33943627-02e9-4022-8fd1-5b0b5b17138b) |
-| gemma_definitie | Tabel waarin de redenen staan voor be�indiging van de Nederlandse nationaliteit. |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model RedenVerliesNationaliteit"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | RedenVerliesNationaliteit |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Haas_R |
+    | version | 1.5 |
+    | created | 2015-05-01 13:49:06 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_7F97B43F_CCA1_4bfc_9824_9BEC8D2A70E6 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | RedenVerliesNationaliteit |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-33943627-02e9-4022-8fd1-5b0b5b17138b](https://gemmaonline.nl/index.php/GEMMA/id-33943627-02e9-4022-8fd1-5b0b5b17138b) |
+    | gemma_definitie | Tabel waarin de redenen staan voor be�indiging van de Nederlandse nationaliteit. |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype RedenVerliesNationaliteit
 
@@ -693,26 +709,27 @@ Attributen van objecttype RedenVerliesNationaliteit
 >
 > Een opsomming van de modellen van de Nederlandse reisdocumenten.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Reisdocumentsoort |
-| toelichting | <memo> |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2010-07-06 12:14:18 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_6B9EC881_1112_44bc_B114_203A793A54B1 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Reisdocumentsoort"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Reisdocumentsoort |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2010-07-06 12:14:18 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_6B9EC881_1112_44bc_B114_203A793A54B1 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Reisdocumentsoort
 
@@ -730,26 +747,27 @@ Attributen van objecttype Reisdocumentsoort
 >
 > De hi�rarchische indeling van economische activiteiten conform SBI (Standaard Bedrijfsindeling).
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | SBIActiviteit |
-| toelichting | <memo>#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | debat_e |
-| version | 1.5 |
-| created | 2015-02-03 09:46:54 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_B3F47842_F9C5_4417_BC76_05CA58D4998D |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model SBIActiviteit"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | SBIActiviteit |
+    | toelichting | <memo>#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | debat_e |
+    | version | 1.5 |
+    | created | 2015-02-03 09:46:54 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_B3F47842_F9C5_4417_BC76_05CA58D4998D |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype SBIActiviteit
 
@@ -771,26 +789,27 @@ Attributen van objecttype SBIActiviteit
 >
 > Een opsomming van de  soorten grootte zoals die kunnen voorkomen in een aktetekst van het Kadaster  en aanduiden op welke wijze de grootte van een perceel is vastgesteld conform de waardelijst SoortGrootte van het Kadaster
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | SoortGrootte |
-| toelichting | <memo> |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | debat_e |
-| version | 1.5 |
-| created | 2015-02-27 13:50:33 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_9D7F05BF_414E_4071_9E78_FAD2AA21D40E |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model SoortGrootte"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | SoortGrootte |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | debat_e |
+    | version | 1.5 |
+    | created | 2015-02-27 13:50:33 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_9D7F05BF_414E_4071_9E78_FAD2AA21D40E |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype SoortGrootte
 
@@ -808,26 +827,27 @@ Attributen van objecttype SoortGrootte
 >
 > De mogelijke codes  waarin een soort object kan worden uitgedrukt conform de uniforme soort objectcodelijst van de Waarderingskamer
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | SoortWOZObject |
-| toelichting | <memo> |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | debat_e |
-| version | 1.5 |
-| created | 2015-03-09 11:36:08 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_3741181A_07D0_4f62_B076_B3318266500F |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model SoortWOZObject"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | SoortWOZObject |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | debat_e |
+    | version | 1.5 |
+    | created | 2015-03-09 11:36:08 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_3741181A_07D0_4f62_B076_B3318266500F |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype SoortWOZObject
 
@@ -846,26 +866,27 @@ Attributen van objecttype SoortWOZObject
 >
 > De mogelijke munteenheden waarin een geldbedrag kan worden uitgedrukt conform de waardelijst Valutasoort van het Kadaster
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Valutasoort |
-| toelichting | <memo> |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | debat_e |
-| version | 1.5 |
-| created | 2015-02-27 11:55:08 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_DC6C8DCB_EE07_4e2b_9087_648BD0D0D473 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Valutasoort"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Valutasoort |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | debat_e |
+    | version | 1.5 |
+    | created | 2015-02-27 11:55:08 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_DC6C8DCB_EE07_4e2b_9087_648BD0D0D473 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Valutasoort
 
@@ -883,26 +904,27 @@ Attributen van objecttype Valutasoort
 >
 > Een gedeelte van de wereld met een eigen bestuur, waarvan de soevereiniteit in ieder geval door Nederland is erkend.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Land |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2018-03-21 15:46:58 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_4B2CCD18_9004_4253_B72E_9243F3330F02 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | Land |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-a039d1c4-86b3-4d98-a564-1690f14759cd](https://gemmaonline.nl/index.php/GEMMA/id-a039d1c4-86b3-4d98-a564-1690f14759cd) |
-| gemma_definitie | Een gedeelte van de wereld met een eigen bestuur, waarvan de soevereiniteit in ieder geval door Nederland is erkend. |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Land"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Land |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2018-03-21 15:46:58 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_4B2CCD18_9004_4253_B72E_9243F3330F02 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | Land |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-a039d1c4-86b3-4d98-a564-1690f14759cd](https://gemmaonline.nl/index.php/GEMMA/id-a039d1c4-86b3-4d98-a564-1690f14759cd) |
+    | gemma_definitie | Een gedeelte van de wereld met een eigen bestuur, waarvan de soevereiniteit in ieder geval door Nederland is erkend. |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Land
 
@@ -923,26 +945,27 @@ Attributen van objecttype Land
 >
 > De hoedanigheid van tot een bepaalde natie te behoren.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Nationaliteit |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Ellen Debats |
-| version | 1.5 |
-| created | 2018-03-21 15:46:58 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_71B3BE0D_2BF9_4740_9597_A0EEC75AFE9B |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | Nationaliteit |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-307ed7bc-827c-4151-8ea3-df45444862f8](https://gemmaonline.nl/index.php/GEMMA/id-307ed7bc-827c-4151-8ea3-df45444862f8) |
-| gemma_definitie | De hoedanigheid van tot een bepaalde natie te behoren. |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Nationaliteit"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Nationaliteit |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Ellen Debats |
+    | version | 1.5 |
+    | created | 2018-03-21 15:46:58 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_71B3BE0D_2BF9_4740_9597_A0EEC75AFE9B |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | Nationaliteit |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-307ed7bc-827c-4151-8ea3-df45444862f8](https://gemmaonline.nl/index.php/GEMMA/id-307ed7bc-827c-4151-8ea3-df45444862f8) |
+    | gemma_definitie | De hoedanigheid van tot een bepaalde natie te behoren. |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Nationaliteit
 
@@ -960,26 +983,27 @@ Attributen van objecttype Nationaliteit
 >
 > De hoedanigheid van tot een bepaalde natie te behoren.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Valuta |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Arjen Brienen |
-| version | 1.5 |
-| created | 2018-08-09 15:43:04 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_ABC4F2A1_A1C6_4db4_9227_4D7D63C5F94E |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Valuta"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Valuta |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Arjen Brienen |
+    | version | 1.5 |
+    | created | 2018-08-09 15:43:04 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_ABC4F2A1_A1C6_4db4_9227_4D7D63C5F94E |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Valuta
 

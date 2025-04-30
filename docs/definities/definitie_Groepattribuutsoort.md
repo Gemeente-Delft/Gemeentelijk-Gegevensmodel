@@ -4,6 +4,21 @@
 >
 > Geen definitie
 
+??? info "Kenmerken Model Groepattribuutsoort"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Groepattribuutsoort |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.3 |
+    | created | 2018-03-21 15:46:54 |
+    | modified | 2024-11-21 08:38:15 |
+    | id | EAPK_6B55D7BF_696E_486b_B195_D6720BEC4EA5 |
+    
+
 Het model 'Groepattribuutsoort' kent de volgende objecttypen:
 
 * **Adresaanduiding**: De adresaanduiding van het WOZ-OBJECT
@@ -42,22 +57,6 @@ Het model 'Groepattribuutsoort' kent de volgende objecttypen:
 * **VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon**: Een INGESCHREVEN NATUURLIJK PERSOON kan voor ��n of meerdere partijen kiezen voor wie een verstrekkingsbeperking geldt.
 
 
-Het model 'Groepattribuutsoort' heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | Groepattribuutsoort |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.3 |
-| created | 2018-03-21 15:46:54 |
-| modified | 2024-11-21 08:38:15 |
-| id | EAPK_6B55D7BF_696E_486b_B195_D6720BEC4EA5 |
-
-
 ## Objecttypen Groepattribuutsoort
 
 
@@ -66,26 +65,27 @@ Het model 'Groepattribuutsoort' heeft de volgende kenmerken:
 >
 > De adresaanduiding van het WOZ-OBJECT
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Adresaanduiding |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Arjen Brienen |
-| version | 1.5 |
-| created | 2019-05-22 12:11:18 |
-| modified | 2025-03-26 16:14:53 |
-| id | EAID_C14C1D0E_2EE3_4d79_B7AB_BC0B7686FEF4 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Adresaanduiding"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Adresaanduiding |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Arjen Brienen |
+    | version | 1.5 |
+    | created | 2019-05-22 12:11:18 |
+    | modified | 2025-03-26 16:14:53 |
+    | id | EAID_C14C1D0E_2EE3_4d79_B7AB_BC0B7686FEF4 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Adresaanduiding
 
@@ -106,26 +106,27 @@ Attributen van objecttype Adresaanduiding
 >
 > De gegevens over het buitenlands correspondentie (-post)adres in het buitenland
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | CorrespondentieadresBuitenland |
-| toelichting | <memo>#NOTES# Een correspondentie adres kan een lokatie adres zijn (oftewel een adres van een fysiek als zondanig aangeduide lokatie) of een postadres  in het buitenland. |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2015-10-05 08:15:25 |
-| modified | 2025-03-26 16:14:53 |
-| id | EAID_CE58213C_7904_4c04_964C_8CE34C4443DF |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model CorrespondentieadresBuitenland"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | CorrespondentieadresBuitenland |
+    | toelichting | <memo>#NOTES# Een correspondentie adres kan een lokatie adres zijn (oftewel een adres van een fysiek als zondanig aangeduide lokatie) of een postadres  in het buitenland. |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2015-10-05 08:15:25 |
+    | modified | 2025-03-26 16:14:53 |
+    | id | EAID_CE58213C_7904_4c04_964C_8CE34C4443DF |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype CorrespondentieadresBuitenland
 
@@ -146,26 +147,27 @@ Attributen van objecttype CorrespondentieadresBuitenland
 >
 > Gegevens over de geboorte van de INGESCHREVEN NATUURLIJK PERSOON.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | GeboorteIngeschrevenNatuurlijkPersoon |
-| toelichting | <memo>#NOTES#.Zie verder de toelichting in de BRP. |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Debat_E |
-| version | 1.5 |
-| created | 2011-02-04 07:43:56 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_C9DD308F_7EA7_4c1a_BC7D_68077692C113 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model GeboorteIngeschrevenNatuurlijkPersoon"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | GeboorteIngeschrevenNatuurlijkPersoon |
+    | toelichting | <memo>#NOTES#.Zie verder de toelichting in de BRP. |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Debat_E |
+    | version | 1.5 |
+    | created | 2011-02-04 07:43:56 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_C9DD308F_7EA7_4c1a_BC7D_68077692C113 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype GeboorteIngeschrevenNatuurlijkPersoon
 
@@ -185,26 +187,27 @@ Attributen van objecttype GeboorteIngeschrevenNatuurlijkPersoon
 >
 > Gegevens over de geboorte van de ingeschreven persoon.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | GeboorteIngeschrevenPersoon |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Debat_E |
-| version | 1.5 |
-| created | 2018-03-21 15:46:57 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_4904DACB_3C13_43c1_BA00_137D9BFA3856 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model GeboorteIngeschrevenPersoon"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | GeboorteIngeschrevenPersoon |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Debat_E |
+    | version | 1.5 |
+    | created | 2018-03-21 15:46:57 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_4904DACB_3C13_43c1_BA00_137D9BFA3856 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype GeboorteIngeschrevenPersoon
 
@@ -221,26 +224,27 @@ Attributen van objecttype GeboorteIngeschrevenPersoon
 >
 > {nog niet in NHR uitgewerkt}
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | HandelsnamenMaatschappelijkeActiviteit |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2018-03-21 15:46:57 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_EAF23F0A_1175_465d_A889_7396B2E18967 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model HandelsnamenMaatschappelijkeActiviteit"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | HandelsnamenMaatschappelijkeActiviteit |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2018-03-21 15:46:57 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_EAF23F0A_1175_465d_A889_7396B2E18967 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype HandelsnamenMaatschappelijkeActiviteit
 
@@ -257,26 +261,27 @@ Attributen van objecttype HandelsnamenMaatschappelijkeActiviteit
 >
 > {nog niet in NHR uitgewerkt}
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | HandelsnamenVestiging |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2018-03-21 15:46:57 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_FDD9A2C7_930E_4646_B1FE_81060430DC55 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model HandelsnamenVestiging"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | HandelsnamenVestiging |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2018-03-21 15:46:57 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_FDD9A2C7_930E_4646_B1FE_81060430DC55 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype HandelsnamenVestiging
 
@@ -293,26 +298,27 @@ Attributen van objecttype HandelsnamenVestiging
 >
 > Het in een ter inschrijving aangeboden stuk vermelde bedrag, waarvoor 1 of meer onroerende zaken zijn verkregen.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | KoopsomKadastraleOnroerendeZaak |
-| toelichting | <memo> |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2010-07-13 23:32:13 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_B1CB6F3A_A1F5_43f2_B077_02AD7441B1E3 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model KoopsomKadastraleOnroerendeZaak"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | KoopsomKadastraleOnroerendeZaak |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2010-07-13 23:32:13 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_B1CB6F3A_A1F5_43f2_B077_02AD7441B1E3 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype KoopsomKadastraleOnroerendeZaak
 
@@ -328,26 +334,27 @@ Attributen van objecttype KoopsomKadastraleOnroerendeZaak
 >
 > Deze wordt gebruikt om ��n of meer locatieaanduiding(en) van een onroerende zaak weer te geven.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | LocatieKadastraleOnroerendeZaak |
-| toelichting | <memo>#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Locatie-omschrijving<br>Cultuur bebouwd<br>De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK. |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2010-07-13 23:18:21 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_1ECAEB3C_EBE2_4afb_8D34_6AFEEFDF3FCA |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model LocatieKadastraleOnroerendeZaak"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | LocatieKadastraleOnroerendeZaak |
+    | toelichting | <memo>#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Locatie-omschrijving<br>Cultuur bebouwd<br>De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK. |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2010-07-13 23:18:21 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_1ECAEB3C_EBE2_4afb_8D34_6AFEEFDF3FCA |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype LocatieKadastraleOnroerendeZaak
 
@@ -363,26 +370,27 @@ Attributen van objecttype LocatieKadastraleOnroerendeZaak
 >
 > Om gegevens vast te leggen over immigratie en emigratie.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | MigratieIngeschrevenNatuurlijkPersoon |
-| toelichting | <memo>#NOTES# |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Haas_R |
-| version | 3.5 |
-| created | 2015-01-25 18:59:59 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_21BC7953_0237_44c7_ACA5_8A8BC7AE96AD |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model MigratieIngeschrevenNatuurlijkPersoon"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | MigratieIngeschrevenNatuurlijkPersoon |
+    | toelichting | <memo>#NOTES# |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Haas_R |
+    | version | 3.5 |
+    | created | 2015-01-25 18:59:59 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_21BC7953_0237_44c7_ACA5_8A8BC7AE96AD |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype MigratieIngeschrevenNatuurlijkPersoon
 
@@ -399,26 +407,27 @@ Attributen van objecttype MigratieIngeschrevenNatuurlijkPersoon
 >
 > De naamgegevens waarmee de persoon heeft aangegeven aangeschreven te willen worden
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | NaamAanschrijvingNatuurlijkPersoon |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2018-03-21 15:46:56 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_1F5046AA_A7C3_4146_9C7C_E80AC8F7A2FF |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model NaamAanschrijvingNatuurlijkPersoon"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | NaamAanschrijvingNatuurlijkPersoon |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2018-03-21 15:46:56 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_1F5046AA_A7C3_4146_9C7C_E80AC8F7A2FF |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype NaamAanschrijvingNatuurlijkPersoon
 
@@ -436,26 +445,27 @@ Attributen van objecttype NaamAanschrijvingNatuurlijkPersoon
 >
 > De naamgegevens waarmee de persoon heeft aangegeven aangeschreven te willen worden
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | NaamgebruikNatuurlijkPersoon |
-| toelichting | <memo>#NOTES# |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2011-02-04 11:48:51 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_02601AC0_9F85_47e3_82AF_7E8D860559F7 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model NaamgebruikNatuurlijkPersoon"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | NaamgebruikNatuurlijkPersoon |
+    | toelichting | <memo>#NOTES# |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2011-02-04 11:48:51 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_02601AC0_9F85_47e3_82AF_7E8D860559F7 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype NaamgebruikNatuurlijkPersoon
 
@@ -472,26 +482,27 @@ Attributen van objecttype NaamgebruikNatuurlijkPersoon
 >
 > Gegevens over de naam van de natuurlijk persoon
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | NaamNatuurlijkPersoon |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2018-03-21 15:46:57 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_47AEC100_56C6_4450_B6A2_02C7E420D5EC |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model NaamNatuurlijkPersoon"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | NaamNatuurlijkPersoon |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2018-03-21 15:46:57 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_47AEC100_56C6_4450_B6A2_02C7E420D5EC |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype NaamNatuurlijkPersoon
 
@@ -509,26 +520,27 @@ Attributen van objecttype NaamNatuurlijkPersoon
 >
 > Gegevens over de nationaliteit.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | NationaliteitIngeschrevenNatuurlijkPersoon |
-| toelichting | <memo>#NOTES#Zie verder de toelichting in de BRP. |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2010-07-13 14:00:34 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_261B509E_6879_4475_B5F8_77E8428816CE |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model NationaliteitIngeschrevenNatuurlijkPersoon"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | NationaliteitIngeschrevenNatuurlijkPersoon |
+    | toelichting | <memo>#NOTES#Zie verder de toelichting in de BRP. |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2010-07-13 14:00:34 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_261B509E_6879_4475_B5F8_77E8428816CE |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype NationaliteitIngeschrevenNatuurlijkPersoon
 
@@ -546,26 +558,27 @@ Attributen van objecttype NationaliteitIngeschrevenNatuurlijkPersoon
 >
 > Gegevens over de nationaliteit.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | NederlandseNationaliteitIngeschrevenPersoon |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2018-03-21 15:46:57 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_BA5F2281_466D_4c69_9EB8_D10614C5CD8E |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model NederlandseNationaliteitIngeschrevenPersoon"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | NederlandseNationaliteitIngeschrevenPersoon |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2018-03-21 15:46:57 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_BA5F2281_466D_4c69_9EB8_D10614C5CD8E |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype NederlandseNationaliteitIngeschrevenPersoon
 
@@ -583,26 +596,27 @@ Attributen van objecttype NederlandseNationaliteitIngeschrevenPersoon
 >
 > Gegevens over het ontbonden huwelijk of geregistreerd partnerschap.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | OntbindingHuwelijk/geregistreerdPartnerschap |
-| toelichting | <memo>#NOTES# |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2010-07-13 12:25:59 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_10E7F112_407D_4099_9CC7_F6B53DD094BF |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model OntbindingHuwelijk/geregistreerdPartnerschap"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | OntbindingHuwelijk/geregistreerdPartnerschap |
+    | toelichting | <memo>#NOTES# |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2010-07-13 12:25:59 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_10E7F112_407D_4099_9CC7_F6B53DD094BF |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype OntbindingHuwelijk/geregistreerdPartnerschap
 
@@ -623,26 +637,27 @@ Attributen van objecttype OntbindingHuwelijk/geregistreerdPartnerschap
 >
 > Gegevens over het overlijden van de ingeschreven natuurlijk persoon.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | OverlijdenIngeschrevenNatuurlijkPersoon |
-| toelichting | <memo>#NOTES#Zie verder de toelichting in de BRP. |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Debat_E |
-| version | 1.5 |
-| created | 2011-02-04 08:57:32 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_26BCBA8B_C96C_4fc1_8CC3_40698E0FB71E |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model OverlijdenIngeschrevenNatuurlijkPersoon"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | OverlijdenIngeschrevenNatuurlijkPersoon |
+    | toelichting | <memo>#NOTES#Zie verder de toelichting in de BRP. |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Debat_E |
+    | version | 1.5 |
+    | created | 2011-02-04 08:57:32 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_26BCBA8B_C96C_4fc1_8CC3_40698E0FB71E |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype OverlijdenIngeschrevenNatuurlijkPersoon
 
@@ -662,26 +677,27 @@ Attributen van objecttype OverlijdenIngeschrevenNatuurlijkPersoon
 >
 > Gegevens over het overlijden van de ingeschreven persoon.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | OverlijdenIngeschrevenPersoon |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Debat_E |
-| version | 1.5 |
-| created | 2018-03-21 15:46:57 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_E4578F75_847E_48ef_A91F_EF8B53AEDEC5 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model OverlijdenIngeschrevenPersoon"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | OverlijdenIngeschrevenPersoon |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Debat_E |
+    | version | 1.5 |
+    | created | 2018-03-21 15:46:57 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_E4578F75_847E_48ef_A91F_EF8B53AEDEC5 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype OverlijdenIngeschrevenPersoon
 
@@ -698,26 +714,27 @@ Attributen van objecttype OverlijdenIngeschrevenPersoon
 >
 > De gegevens die tezamen een postbusadres of antwoordnummeradres vormen
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Postadres |
-| toelichting | <memo>#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Postadrestype,<br>Postbus- of antwoordnummer,<br>Postadres postcode,<br>en het volgende relatiesoort:<br>SUBJECT heeft postadres dat zich bevindt in WOONPLAATS. |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2010-07-21 17:06:50 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_990C2EBD_AB9B_4f3f_AFF0_18BA11A552DA |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Postadres"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Postadres |
+    | toelichting | <memo>#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Postadrestype,<br>Postbus- of antwoordnummer,<br>Postadres postcode,<br>en het volgende relatiesoort:<br>SUBJECT heeft postadres dat zich bevindt in WOONPLAATS. |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2010-07-21 17:06:50 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_990C2EBD_AB9B_4f3f_AFF0_18BA11A552DA |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Postadres
 
@@ -734,26 +751,27 @@ Attributen van objecttype Postadres
 >
 > De gegevens inzake de bankrekening waarmee het SUBJECT in de regel financieel communiceert.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Rekeningnummer |
-| toelichting | <memo>#NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van ��n rekeningnummer dat het subject beschouwt als zijn �primaire� rekeningnummer. |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Debat_E |
-| version | 1.5 |
-| created | 2011-04-07 09:32:24 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_BB4BA421_A7D6_4b33_B64A_49AA82C56242 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Rekeningnummer"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Rekeningnummer |
+    | toelichting | <memo>#NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van ��n rekeningnummer dat het subject beschouwt als zijn �primaire� rekeningnummer. |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Debat_E |
+    | version | 1.5 |
+    | created | 2011-04-07 09:32:24 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_BB4BA421_A7D6_4b33_B64A_49AA82C56242 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Rekeningnummer
 
@@ -769,26 +787,27 @@ Attributen van objecttype Rekeningnummer
 >
 > Gegevens over de naam van de NATUURLIJK PERSOON
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | SamengesteldeNaamNatuurlijkPersoon |
-| toelichting | <memo>#NOTES#Zie de BRP voor verdere toelichting |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2010-07-15 16:01:15 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_61321504_DFA1_4b65_853B_88C0581576F9 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model SamengesteldeNaamNatuurlijkPersoon"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | SamengesteldeNaamNatuurlijkPersoon |
+    | toelichting | <memo>#NOTES#Zie de BRP voor verdere toelichting |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2010-07-15 16:01:15 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_61321504_DFA1_4b65_853B_88C0581576F9 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype SamengesteldeNaamNatuurlijkPersoon
 
@@ -809,26 +828,27 @@ Attributen van objecttype SamengesteldeNaamNatuurlijkPersoon
 >
 > Aanduiding van de activiteit (en) van een vestiging  conform de Standaard BedrijfsIndeling
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | SBIActiviteitVestiging |
-| toelichting | <memo> |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Debat_E |
-| version | 1.5 |
-| created | 2011-05-02 08:57:15 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_EAD40DDC_9904_4cde_BE9B_2100268E71B7 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model SBIActiviteitVestiging"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | SBIActiviteitVestiging |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Debat_E |
+    | version | 1.5 |
+    | created | 2011-05-02 08:57:15 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_EAD40DDC_9904_4cde_BE9B_2100268E71B7 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype SBIActiviteitVestiging
 
@@ -844,26 +864,27 @@ Attributen van objecttype SBIActiviteitVestiging
 >
 > Gegevens over het gesloten huwelijk of het aangegane geregistreerd partnerschap.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap |
-| toelichting | <memo>#NOTES# |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2010-07-13 09:57:09 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_28A0D7C0_DABF_403b_B263_22F424032A28 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap |
+    | toelichting | <memo>#NOTES# |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2010-07-13 09:57:09 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_28A0D7C0_DABF_403b_B263_22F424032A28 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap
 
@@ -883,26 +904,27 @@ Attributen van objecttype SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap
 >
 > Gegevens over het soort functioneel gebied.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | SoortFunctioneelGebied |
-| toelichting | <memo> |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | debat_e |
-| version | 1.5 |
-| created | 2013-05-24 14:48:27 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_C2D0F78A_D6FC_4330_B78C_4F4B34EE1349 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model SoortFunctioneelGebied"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | SoortFunctioneelGebied |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | debat_e |
+    | version | 1.5 |
+    | created | 2013-05-24 14:48:27 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_C2D0F78A_D6FC_4330_B78C_4F4B34EE1349 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype SoortFunctioneelGebied
 
@@ -918,26 +940,27 @@ Attributen van objecttype SoortFunctioneelGebied
 >
 > Gegevens over het soort kunstwerk.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | SoortKunstwerk |
-| toelichting | <memo> |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | debat_e |
-| version | 1.5 |
-| created | 2013-05-24 15:38:41 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_64D33964_B205_4071_9C0F_00E6AFDACC45 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model SoortKunstwerk"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | SoortKunstwerk |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | debat_e |
+    | version | 1.5 |
+    | created | 2013-05-24 15:38:41 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_64D33964_B205_4071_9C0F_00E6AFDACC45 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype SoortKunstwerk
 
@@ -953,26 +976,27 @@ Attributen van objecttype SoortKunstwerk
 >
 > Gegevens over het soort overig bouwwerk.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | SoortOverigBouwwerk |
-| toelichting | <memo> |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | debat_e |
-| version | 1.5 |
-| created | 2013-05-24 14:40:35 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_4CB05400_6AE8_44d9_AA8A_5CA84CFB0B6E |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model SoortOverigBouwwerk"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | SoortOverigBouwwerk |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | debat_e |
+    | version | 1.5 |
+    | created | 2013-05-24 14:40:35 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_4CB05400_6AE8_44d9_AA8A_5CA84CFB0B6E |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype SoortOverigBouwwerk
 
@@ -988,26 +1012,27 @@ Attributen van objecttype SoortOverigBouwwerk
 >
 > Gegevens over de soort scheiding
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | SoortScheiding |
-| toelichting | <memo> |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | debat_e |
-| version | 1.5 |
-| created | 2013-05-24 13:43:47 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_E500F84E_81CE_4984_832E_C3B53D14722A |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model SoortScheiding"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | SoortScheiding |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | debat_e |
+    | version | 1.5 |
+    | created | 2013-05-24 13:43:47 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_E500F84E_81CE_4984_832E_C3B53D14722A |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype SoortScheiding
 
@@ -1023,26 +1048,27 @@ Attributen van objecttype SoortScheiding
 >
 > Gegevens over het soort spoor.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | SoortSpoor |
-| toelichting | <memo> |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | debat_e |
-| version | 1.5 |
-| created | 2013-05-24 13:34:01 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_2F658B5B_1B89_437e_8EAD_FD544FD62A0A |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model SoortSpoor"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | SoortSpoor |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | debat_e |
+    | version | 1.5 |
+    | created | 2013-05-24 13:34:01 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_2F658B5B_1B89_437e_8EAD_FD544FD62A0A |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype SoortSpoor
 
@@ -1058,26 +1084,27 @@ Attributen van objecttype SoortSpoor
 >
 > Verwijzing naar de splitsingstekening behorende bij de APPARTEMENTSRECHTSPLITSING
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | SplitsingstekeningReferentie |
-| toelichting | <memo>#NOTES#Binnengemeentelijk wordt vaak gebruik gemaakt van de splitsingstekening van een APPARTEMENSRECHTSPLITSING. Voldoende is het een aantal (identificerende) gegevens van de tekening vast te leggen zodat de tekening opgevraagd kan worden. |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | debat_e |
-| version | 1.5 |
-| created | 2015-02-24 08:40:09 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_C97E674B_BCBC_45e8_B60C_1E0C7954D751 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model SplitsingstekeningReferentie"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | SplitsingstekeningReferentie |
+    | toelichting | <memo>#NOTES#Binnengemeentelijk wordt vaak gebruik gemaakt van de splitsingstekening van een APPARTEMENSRECHTSPLITSING. Voldoende is het een aantal (identificerende) gegevens van de tekening vast te leggen zodat de tekening opgevraagd kan worden. |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | debat_e |
+    | version | 1.5 |
+    | created | 2015-02-24 08:40:09 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_C97E674B_BCBC_45e8_B60C_1E0C7954D751 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype SplitsingstekeningReferentie
 
@@ -1095,26 +1122,27 @@ Attributen van objecttype SplitsingstekeningReferentie
 >
 > De gegevens over het verblijf en adres van de INGESCHREVEN NATUURLIJK PERSOON
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | VerblijfadresIngeschrevenNatuurlijkPersoon |
-| toelichting | <memo>#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:<br>Adresherkomst<br>Locatie beschrijving<br>en de volgende relatiesoorten:<br>is ingeschreven op NUMMERAANDUIDING<br>verblijft op LIGPLAATS<br>verblijft op STANDPLAATS.<br>verblijft in VERBLIJFSOBJECT<br>verblijft op locatie in WOONPLAATS<br>Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort. |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2010-07-13 16:15:53 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_E5E010C2_C1F3_4986_AA9A_C71C19263606 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model VerblijfadresIngeschrevenNatuurlijkPersoon"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | VerblijfadresIngeschrevenNatuurlijkPersoon |
+    | toelichting | <memo>#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:<br>Adresherkomst<br>Locatie beschrijving<br>en de volgende relatiesoorten:<br>is ingeschreven op NUMMERAANDUIDING<br>verblijft op LIGPLAATS<br>verblijft op STANDPLAATS.<br>verblijft in VERBLIJFSOBJECT<br>verblijft op locatie in WOONPLAATS<br>Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort. |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2010-07-13 16:15:53 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_E5E010C2_C1F3_4986_AA9A_C71C19263606 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype VerblijfadresIngeschrevenNatuurlijkPersoon
 
@@ -1130,26 +1158,27 @@ Attributen van objecttype VerblijfadresIngeschrevenNatuurlijkPersoon
 >
 > De gegevens over het verblijf en adres van de INGESCHREVEN PERSOON
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | VerblijfadresIngeschrevenPersoon |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2018-03-21 15:46:57 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_F6DAC299_3F19_45c6_BFFE_EB38C1C51459 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model VerblijfadresIngeschrevenPersoon"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | VerblijfadresIngeschrevenPersoon |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2018-03-21 15:46:57 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_F6DAC299_3F19_45c6_BFFE_EB38C1C51459 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype VerblijfadresIngeschrevenPersoon
 
@@ -1165,26 +1194,27 @@ Attributen van objecttype VerblijfadresIngeschrevenPersoon
 >
 > De gegevens over het verblijf in het buitenland
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | VerblijfBuitenland |
-| toelichting | <memo>#NOTES# Voor een ingezetene (die emigreert) kan dit het buitenlandse adres zijn dat vastgesteld is door een aangewezen bestuursorgaan of het voorlopige adres vastgesteld door een college. Zie ook attribuutsoort Bron adres buitenland van INGESCHREVEN NATUURLIJK PERSOON. |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2010-07-21 17:20:50 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_E3567219_5744_4b70_901D_BAEBD8FF4947 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model VerblijfBuitenland"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | VerblijfBuitenland |
+    | toelichting | <memo>#NOTES# Voor een ingezetene (die emigreert) kan dit het buitenlandse adres zijn dat vastgesteld is door een aangewezen bestuursorgaan of het voorlopige adres vastgesteld door een college. Zie ook attribuutsoort Bron adres buitenland van INGESCHREVEN NATUURLIJK PERSOON. |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2010-07-21 17:20:50 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_E3567219_5744_4b70_901D_BAEBD8FF4947 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype VerblijfBuitenland
 
@@ -1205,26 +1235,27 @@ Attributen van objecttype VerblijfBuitenland
 >
 > De gegevens over het verblijf in het buitenland
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | VerblijfBuitenlandSubject |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | mante_h |
-| version | 1.5 |
-| created | 2018-03-21 15:46:57 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_19BA2B32_7BC5_41be_A352_21C41423C4B2 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model VerblijfBuitenlandSubject"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | VerblijfBuitenlandSubject |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | mante_h |
+    | version | 1.5 |
+    | created | 2018-03-21 15:46:57 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_19BA2B32_7BC5_41be_A352_21C41423C4B2 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype VerblijfBuitenlandSubject
 
@@ -1242,26 +1273,27 @@ Attributen van objecttype VerblijfBuitenlandSubject
 >
 > De gegevens om het verblijfsrecht vast te leggen.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | VerblijfsrechtIngeschrevenNatuurlijkPersoon |
-| toelichting | <memo>#NOTES# |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | haas_r |
-| version | 1.5 |
-| created | 2015-01-27 14:09:23 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_0DC6F150_CF59_4376_A5F0_E0B600BE4C53 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model VerblijfsrechtIngeschrevenNatuurlijkPersoon"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | VerblijfsrechtIngeschrevenNatuurlijkPersoon |
+    | toelichting | <memo>#NOTES# |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | haas_r |
+    | version | 1.5 |
+    | created | 2015-01-27 14:09:23 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_0DC6F150_CF59_4376_A5F0_E0B600BE4C53 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype VerblijfsrechtIngeschrevenNatuurlijkPersoon
 
@@ -1279,26 +1311,27 @@ Attributen van objecttype VerblijfsrechtIngeschrevenNatuurlijkPersoon
 >
 > Een INGESCHREVEN NATUURLIJK PERSOON kan voor ��n of meerdere partijen kiezen voor wie een verstrekkingsbeperking geldt.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon |
-| toelichting | <memo>#NOTES#Een INGESCHREVEN NATUURLIJK PERSOON kan ook kiezen om volledige verstrekkingsbeperking te hebben. Zie het betreffende attribuut. |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Haas_R |
-| version | 3.5 |
-| created | 2015-01-25 14:50:12 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_8E090A86_8095_458c_B162_B09982158CD5 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon |
+    | toelichting | <memo>#NOTES#Een INGESCHREVEN NATUURLIJK PERSOON kan ook kiezen om volledige verstrekkingsbeperking te hebben. Zie het betreffende attribuut. |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Haas_R |
+    | version | 3.5 |
+    | created | 2015-01-25 14:50:12 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_8E090A86_8095_458c_B162_B09982158CD5 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon
 
@@ -1327,26 +1360,27 @@ Het enumeratie soortMigratie kent de volgende waarden:
 
 De enumeratie soortMigratie heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | soortMigratie |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:13:39 |
-| modified | 2025-03-26 16:14:56 |
-| id | EAID_bb826813_a924_4ff3_b2e1_7b3f14408100 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model soortMigratie"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | soortMigratie |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:39 |
+    | modified | 2025-03-26 16:14:56 |
+    | id | EAID_fb863c26_219e_483b_8f62_f50112012f39 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### redenWijzigingAdres
@@ -1364,26 +1398,27 @@ Het enumeratie redenWijzigingAdres kent de volgende waarden:
 
 De enumeratie redenWijzigingAdres heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | redenWijzigingAdres |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:13:39 |
-| modified | 2025-03-26 16:14:56 |
-| id | EAID_b245e2b3_86c0_4a76_a2d2_2f68519d96a6 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model redenWijzigingAdres"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | redenWijzigingAdres |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:39 |
+    | modified | 2025-03-26 16:14:56 |
+    | id | EAID_1970e10a_4dc9_4ce0_9eba_60c2f2f39d8e |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### aangever
@@ -1403,26 +1438,27 @@ Het enumeratie aangever kent de volgende waarden:
 
 De enumeratie aangever heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | aangever |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:13:36 |
-| modified | 2025-03-26 16:14:55 |
-| id | EAID_6d481729_9503_4ae4_9d36_63c62b6cf0c8 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model aangever"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | aangever |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:36 |
+    | modified | 2025-03-26 16:14:55 |
+    | id | EAID_7d25e723_d492_42b9_81fc_e9daa4e0f813 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### adelijkeTitel
@@ -1447,26 +1483,27 @@ Het enumeratie adelijkeTitel kent de volgende waarden:
 
 De enumeratie adelijkeTitel heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | adelijkeTitel |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:13:36 |
-| modified | 2025-03-26 16:14:55 |
-| id | EAID_1fc093b4_c0c2_4453_a5bc_461674108bb7 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model adelijkeTitel"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | adelijkeTitel |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:36 |
+    | modified | 2025-03-26 16:14:55 |
+    | id | EAID_d4cca5fc_0240_45ba_804a_f3e08a33fb34 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### redenEindeRelatie
@@ -1486,26 +1523,27 @@ Het enumeratie redenEindeRelatie kent de volgende waarden:
 
 De enumeratie redenEindeRelatie heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | redenEindeRelatie |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:13:39 |
-| modified | 2025-03-26 16:14:56 |
-| id | EAID_bae4cc85_788b_4520_a868_fea3afd74712 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model redenEindeRelatie"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | redenEindeRelatie |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:39 |
+    | modified | 2025-03-26 16:14:56 |
+    | id | EAID_01ae2fb1_0462_44f6_9122_0840685c57fd |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### predicaat
@@ -1523,26 +1561,27 @@ Het enumeratie predicaat kent de volgende waarden:
 
 De enumeratie predicaat heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | predicaat |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:13:38 |
-| modified | 2025-03-26 16:14:55 |
-| id | EAID_92be77b0_8595_4cd0_9cad_68f81fba28a6 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model predicaat"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | predicaat |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:38 |
+    | modified | 2025-03-26 16:14:55 |
+    | id | EAID_d27e13e0_125f_4a77_84aa_d495a5f14792 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### adelijkeTitel
@@ -1567,26 +1606,27 @@ Het enumeratie adelijkeTitel kent de volgende waarden:
 
 De enumeratie adelijkeTitel heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | adelijkeTitel |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:13:36 |
-| modified | 2025-03-26 16:14:55 |
-| id | EAID_464ba4cb_9905_4855_8764_a98f98405a2c |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model adelijkeTitel"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | adelijkeTitel |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:36 |
+    | modified | 2025-03-26 16:14:55 |
+    | id | EAID_f6a81e1e_9e11_40fe_8f5e_947c36184dc9 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### typeringFunctioneelGebied
@@ -1621,26 +1661,27 @@ Het enumeratie typeringFunctioneelGebied kent de volgende waarden:
 
 De enumeratie typeringFunctioneelGebied heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | typeringFunctioneelGebied |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:13:40 |
-| modified | 2025-03-26 16:14:56 |
-| id | EAID_7d91d318_fa77_4627_bb58_2fb8c5d5b39d |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model typeringFunctioneelGebied"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | typeringFunctioneelGebied |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:40 |
+    | modified | 2025-03-26 16:14:56 |
+    | id | EAID_cfcc2d34_1cd9_46f4_bd2b_3dac72cc98b1 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### typeringKunstwerk
@@ -1668,26 +1709,27 @@ Het enumeratie typeringKunstwerk kent de volgende waarden:
 
 De enumeratie typeringKunstwerk heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | typeringKunstwerk |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:13:40 |
-| modified | 2025-03-26 16:14:56 |
-| id | EAID_f087f322_1614_4b1e_b0aa_4fecdba12ace |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model typeringKunstwerk"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | typeringKunstwerk |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:40 |
+    | modified | 2025-03-26 16:14:56 |
+    | id | EAID_d3929300_8205_4902_b8df_8a85411a2f0b |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### typeringOverigBouwwerk
@@ -1709,26 +1751,27 @@ Het enumeratie typeringOverigBouwwerk kent de volgende waarden:
 
 De enumeratie typeringOverigBouwwerk heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | typeringOverigBouwwerk |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:13:41 |
-| modified | 2025-03-26 16:14:57 |
-| id | EAID_83f3229e_d297_486b_98a5_6080db90d138 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model typeringOverigBouwwerk"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | typeringOverigBouwwerk |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:41 |
+    | modified | 2025-03-26 16:14:57 |
+    | id | EAID_1b884397_c98f_4846_ae27_0a0785da17d0 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### typeringScheiding
@@ -1746,26 +1789,27 @@ Het enumeratie typeringScheiding kent de volgende waarden:
 
 De enumeratie typeringScheiding heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | typeringScheiding |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:13:41 |
-| modified | 2025-03-26 16:14:57 |
-| id | EAID_adf8afe3_ca9d_465d_9e79_694c955e2cfb |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model typeringScheiding"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | typeringScheiding |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:41 |
+    | modified | 2025-03-26 16:14:57 |
+    | id | EAID_cd1335dd_80cb_4e3c_91f6_e5a89736abf2 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### functieSpoor
@@ -1781,26 +1825,27 @@ Het enumeratie functieSpoor kent de volgende waarden:
 
 De enumeratie functieSpoor heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | functieSpoor |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:13:37 |
-| modified | 2025-03-26 16:14:55 |
-| id | EAID_6b5e6407_9e53_418b_80ba_1657277fcf1b |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model functieSpoor"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | functieSpoor |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:37 |
+    | modified | 2025-03-26 16:14:55 |
+    | id | EAID_310baa1e_e4d4_4cfb_96e5_58f3a4a979fa |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 

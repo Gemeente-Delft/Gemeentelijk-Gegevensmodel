@@ -4,51 +4,50 @@
 >
 > Het informatiedomein dat gegevens omvat over de ondersteuning en begeleiding van inwoners met problematische schulden, gericht op het bevorderen van financi�le stabiliteit en maatschappelijke participatie.
 
+??? info "Kenmerken Model Model Schuldhulpverlening"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Model Schuldhulpverlening |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Arjen Brienen |
+    | version | 1.4 |
+    | created | 2018-06-13 13:19:30 |
+    | modified | 2025-03-27 15:28:35 |
+    | id | EAPK_06C51790_1F81_4ac4_8E16_5177352EF2E1 |
+    
+
 Het model 'Model Schuldhulpverlening' kent de volgende objecttypen:
 
 * **Aanmelding**: Moment dat een persoon met een hulpvraag komt rondom (dreigende) schulden. Dit kan een persoonlijke, schriftelijke, digitale of telefonische vraag zijn.
 * **Begeleiding**: Begeleiding voor clienten in het kader van schuldhulpdienstverlening, die kan bestaan uit:<br>1. budgetbeheer<br>2. beschermingsbewind<br>3. budgetcoaching
 * **Begeleidingssoort**: Soort begeleiding in het kader van schuldhulpverlening
 * **Contactpersoon**: Contactpersoon van een organisatie
-* **Crisisinterventie**: Het afwenden van een crisis- of dreigende situatie om zo de mogelijkheid te creëren om de klant te helpen via de reguliere schuldhulpverlening.<br>Volgens de Wgs gaat het in elk geval om de volgende situaties:<br>• gedwongen woningontruiming;<br>• beëindiging van de levering van gas, water, elektriciteit of stadsverwarming;<br>• opzegging of ontbinding van de zorgverzekering.<br>Gemeenten kunnen extra situaties toevoegen aan hun crisisprotocol, zoals:<br>• aangekondigde boedelverkoop of verkoop van de eigen woning;<br>• loon- of bankbeslag;<br>• een faillissementsaanvraag.<br>En voor ondernemers:<br>• beslag op (on)roerende zaken dat het voortbestaan van de onderneming bedreigt;<br>• opzegging van het bankkrediet.
+* **Crisisinterventie**: Het afwenden van een crisis- of dreigende situatie om zo de mogelijkheid te cre&#235;ren om de klant te helpen via de reguliere schuldhulpverlening.<br>Volgens de Wgs gaat het in elk geval om de volgende situaties:<br>• gedwongen woningontruiming;<br>• be&#235;indiging van de levering van gas, water, elektriciteit of stadsverwarming;<br>• opzegging of ontbinding van de zorgverzekering.<br>Gemeenten kunnen extra situaties toevoegen aan hun crisisprotocol, zoals:<br>• aangekondigde boedelverkoop of verkoop van de eigen woning;<br>• loon- of bankbeslag;<br>• een faillissementsaanvraag.<br>En voor ondernemers:<br>• beslag op (on)roerende zaken dat het voortbestaan van de onderneming bedreigt;<br>• opzegging van het bankkrediet.
 * **InformatieEnAdvies**: <Geen Definities>
 * **Inkomen**: Inkomen dat door een persoon wordt verworven uit verschillende mogelijke inkomstenbronnen: inkomen uit arbeid, inkomen uit eigen onderneming, uitkering inkomensverzekeringen en uitkering sociale voorzieningen (m.u.v. kinderbijslag en kindgebonden budget). Premies inkomensverzekeringen (m.u.v. premies voor volksverzekeringen) zijn hierop in mindering gebracht.
 * **Intake**: Dit is de fase tussen het eerste gesprek en het Plan van Aanpak. Tijdens de<br>intakefase wordt geinventariseerd welke instrumenten, ondersteuning, activiteiten en gegevens nodig zijn om een duurzaam financieel<br>evenwicht te bereiken.
 * **Leefsituatie**: Leefsituatie is de combinatie van factoren zoals schulden, ondernemerschap, aanwezigheid van een partner, en inkomen, die samen de sociale en economische omstandigheden van een individu bepalen. Deze wordt in het kader van schuldhulpverlening gebruikt om alle relevante zaken van clienten aan te koppelen.
-* **Moratorium**: Het gaat hier om de datum waarop een verzoek tot een moratorium (ex art. 287 b Fw) is ingediend bij de rechter.<br>Er kan een verzoek tot een moratorium bij de rechter worden gedaan om te voorkomen dat een schuldeiser zijn specifieke inningsmogelijkheden gebruikt, terwijl een aanvraag voor een minnelijke schuldregeling in behandeling is. Het moratorium is bedoeld om het minnelijke traject te kunnen voortzetten.<br>Het moratorium kan in de volgende situaties worden ingezet:<br>• gedwongen woningontruiming;<br>• beëindiging van de levering van gas, water elektriciteit of stadsverwarming;<br>• opzegging dan wel ontbinding van de zorgverzekering.<br>Het moratorium duurt maximaal zes maanden.
-* **Nazorg**: Ondersteuning die een persoon ontvangt ná een schuldhulptraject, om zo bij de start van een schuldenvrij leven zelfredzaamheid verder te bevorderen én recidive (terugval) te voorkomen.
+* **Moratorium**: Het gaat hier om de datum waarop een verzoek tot een moratorium (ex art. 287 b Fw) is ingediend bij de rechter.<br>Er kan een verzoek tot een moratorium bij de rechter worden gedaan om te voorkomen dat een schuldeiser zijn specifieke inningsmogelijkheden gebruikt, terwijl een aanvraag voor een minnelijke schuldregeling in behandeling is. Het moratorium is bedoeld om het minnelijke traject te kunnen voortzetten.<br>Het moratorium kan in de volgende situaties worden ingezet:<br>• gedwongen woningontruiming;<br>• be&#235;indiging van de levering van gas, water elektriciteit of stadsverwarming;<br>• opzegging dan wel ontbinding van de zorgverzekering.<br>Het moratorium duurt maximaal zes maanden.
+* **Nazorg**: Ondersteuning die een persoon ontvangt n&#225; een schuldhulptraject, om zo bij de start van een schuldenvrij leven zelfredzaamheid verder te bevorderen &#233;n recidive (terugval) te voorkomen.
 * **Ondernemer**: Een ondernemer is een individu die die goederen of diensten levert aan anderen om winst te maken.
 * **Oplossing**: De Oplossing beschrijft in 5 submodules wat de schuldhulpverlener doet om een oplossing te realiseren, en kent de volgende submodules:<br>• submodule Herfinanciering;<br>• submodule Betalingsregeling;<br>• submodule Saneringskrediet;<br>• submodule Schuldbemiddeling.<br>Het kan ook gaan om een 0%-aanbod
 * **Oplossingssoort**: De soort oplossing in het kader van Schuldhulpverlening
 * **Partner**: Een partner is een persoon met wie iemand een romantische en vaak langdurige relatie heeft, gebaseerd op wederzijdse liefde, steun en commitment.
 * **PlanVanAanpak**: Een document waarin in elk geval het volgende staat:<br>• de hulpvraag van de persoon;<br>• de voorgestelde ondersteuning;<br>• eventueel de organisatie(s) waarnaar je hebt doorverwezen;<br>• de voorwaarden voor schuldhulpverlening (bijvoorbeeld dat de persoon geen nieuwe schulden mag maken).<br>De hoogte van beslagvrije voet voor de persoon (zie artikel 4a:5 van de Wgs) moet in acht worden genomen.
-* **Schuld**: Een schuld is een financiële verplichting waarbij een persoon nu of in de toekomst een bedrag moet betalen aan een derde. In het kader van schuldhulpverlening wordt over een schuld gesproken als de persoon niet aan deze verplichting kan voldoen. .
+* **Schuld**: Een schuld is een financi&#235;le verplichting waarbij een persoon nu of in de toekomst een bedrag moet betalen aan een derde. In het kader van schuldhulpverlening wordt over een schuld gesproken als de persoon niet aan deze verplichting kan voldoen. .
 * **Schuldeiser**: Een schuldeiser is bedrijf of persoon die recht heeft op een prestatie van een ander, de schuldenaar. In de meeste gevallen is de prestatie het betalen van geld. Dit geldbedrag is dan de schuld die de schuldenaar aan de schuldeiser moet betalen. De schuld is meestal het gevolg van het niet nakomen van een verplichting uit een overeenkomst tussen de partijen. De schuldeiser kan de schuldenaar dwingen om de schuld te voldoen.
 * **Schuldhulporganisatie**: Een schuldhulporganisatie is een instantie die individuen en gezinnen helpt met het beheren, verminderen en oplossen van hun schulden door middel van advies, begeleiding en bemiddeling.<br>Het betreft een gemeenten of een SHV-organisatie die de gemeentelijke schuldhulpverleningstaak vanuit een gemeente gemandateerd of gedelegeerd heeft.
 * **Schuldhulptraject**: Samenstel van achtereenvolgens uit te voeren en onderling samenhangende deelhandelingen of van opeenvolgende stadia in een proces, voorgesteld als een route die via opeenvolgende bestemmingen naar de eindbestemming voert.
 * **Schuldregeling**: De schuldregeling heeft als doel een overeenkomst te sluiten tussen iemand met problematische schulden en zijn schuldeisers. Op basis van eventueel ingezet vermogen en de berekende afloscapaciteit (of op andere wijze vastgestelde minimale afdracht) lost de schuldenaar in maximaal 18 maanden zo veel mogelijk van de schuld af. Daarna schelden de schuldeisers de rest van hun vordering kwijt. Voordat de schuldregeling start, sluit je een schuldregelingsovereenkomst met de schuldenaar. Daarin staan de rechten en plichten van beide partijen. Een schuldregeling kan met een saneringskrediet of een schuldbemiddeling gerealiseerd worden. Als een of meer schuldeisers blijven weigeren in te stemmen met de minnelijke schuldregeling, informeer je de schuldenaar over mogelijke vervolgstappen, zoals het aanvragen van een dwangakkoord (artikel 287a Fw) of toelating tot de Wsnp.
-* **Stabilisatie**: Fase van het schuldhulpverleningstraject met als doel de inkomsten en uitgaven van een persoon in evenwicht te brengen. De stabilisatie van inkomen en uitgaven is een resultaat van<br>werkzaamheden uit het integrale plan van aanpak. Als stabilisatie bereikt is kan een betalingsregeling, herfinanciering of schuldregeling worden opgezet. Een belangrijk tweede doel is om de hulpvrager hierbij schuldenrust te bieden: stress wegnemen en tijd maken voor oplossingen naar een schuldenzorgvrije toekomst. In de stabilisatiefase kan een schuldhulpverlener andere instrumenten, activiteiten of ondersteuning inzetten, die bijdragen aan de duurzame oplossing van het financiële probleem, zoals budgetcoaching, budgetbeheer, beschermingsbewind of flankerende hulp.
+* **Stabilisatie**: Fase van het schuldhulpverleningstraject met als doel de inkomsten en uitgaven van een persoon in evenwicht te brengen. De stabilisatie van inkomen en uitgaven is een resultaat van<br>werkzaamheden uit het integrale plan van aanpak. Als stabilisatie bereikt is kan een betalingsregeling, herfinanciering of schuldregeling worden opgezet. Een belangrijk tweede doel is om de hulpvrager hierbij schuldenrust te bieden: stress wegnemen en tijd maken voor oplossingen naar een schuldenzorgvrije toekomst. In de stabilisatiefase kan een schuldhulpverlener andere instrumenten, activiteiten of ondersteuning inzetten, die bijdragen aan de duurzame oplossing van het financi&#235;le probleem, zoals budgetcoaching, budgetbeheer, beschermingsbewind of flankerende hulp.
 * **Uitstroom**: Motivatie voor uitstroom
 * **VoorlopigeVoorziening **: Een voorlopige voorziening in het kader van schuldhulpverlening door gemeenten is een tijdelijke maatregel die wordt getroffen om acute financi�le problemen of crises van een inwoner direct te verlichten terwijl een duurzaam schuldhulpverleningstraject wordt voorbereid. Voorlopige voorzieningen kunnen bijvoorbeeld bestaan uit het tijdelijk betalen van huur om huisuitzetting te voorkomen, het treffen van betalingsregelingen met schuldeisers, of het bieden van een financi�le overbrugging. Het doel is om stabiliteit te cre�ren in de financi�le situatie van de inwoner en te voorkomen dat de problematiek verder escaleert. Deze maatregel wordt ingezet op basis van urgentie en maatwerk.
 * **Woningbezit**: Een koopwoning is een woning die eigendom is van een individu of een entiteit, die het heeft gekocht en waarvoor meestal een hypotheek is afgesloten.
 * **WSNP-traject**: Een WSNP-traject (Wet schuldsanering natuurlijke personen) is een wettelijk regeling in Nederland waarmee individuen met problematische schulden via een saneringsplan onder toezicht van een bewindvoerder hun schulden kunnen aflossen en na drie jaar een schone lei kunnen krijgen.
 * **WSNP-verklaring**: Een WSNP-verklaring is een officieel document dat bevestigt dat een persoon toegelaten is tot de Wet Schuldsanering Natuurlijke Personen (WSNP) om hun schulden onder toezicht van een bewindvoerder af te lossen.
-
-
-Het model 'Model Schuldhulpverlening' heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | Model Schuldhulpverlening |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Arjen Brienen |
-| version | 1.4 |
-| created | 2018-06-13 13:19:30 |
-| modified | 2025-03-27 15:28:35 |
-| id | EAPK_06C51790_1F81_4ac4_8E16_5177352EF2E1 |
 
 
 ## Objecttypen Model Schuldhulpverlening
@@ -59,32 +58,33 @@ Het model 'Model Schuldhulpverlening' heeft de volgende kenmerken:
 >
 > Moment dat een persoon met een hulpvraag komt rondom (dreigende) schulden. Dit kan een persoonlijke, schriftelijke, digitale of telefonische vraag zijn.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Aanmelding |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.4 |
-| created | 2024-02-19 11:59:43 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_1CE06538_3F4A_45ac_AE86_30A4250D3608 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Aanmelding"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Aanmelding |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.4 |
+    | created | 2024-02-19 11:59:43 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_1CE06538_3F4A_45ac_AE86_30A4250D3608 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Aanmelding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| crisisinterventie | boolean | Is er sprake van een crisisinterventie? Indicator crisisinterventie. "Het afwenden van een crisis- of dreigende situatie om zo de mogelijkheid te creëren om de klant te helpen via de reguliere schuldhulpverlening.<br>Volgens de Wgs gaat het in elk geval om de volgende situaties:<br>• gedwongen woningontruiming;<br>• beëindiging van de levering van gas, water, elektriciteit of stadsverwarming;<br>• opzegging of ontbinding van de zorgverzekering.<br>Gemeenten kunnen extra situaties toevoegen aan hun crisisprotocol, zoals:<br>• aangekondigde boedelverkoop of verkoop van de eigen woning;<br>• loon- of bankbeslag;<br>• een faillissementsaanvraag.<br>En voor ondernemers:<br>• beslag op (on)roerende zaken dat het voortbestaan van de onderneming bedreigt;<br>• opzegging van het bankkrediet." |
+| crisisinterventie | boolean | Is er sprake van een crisisinterventie? Indicator crisisinterventie. "Het afwenden van een crisis- of dreigende situatie om zo de mogelijkheid te cre&#235;ren om de klant te helpen via de reguliere schuldhulpverlening.<br>Volgens de Wgs gaat het in elk geval om de volgende situaties:<br>• gedwongen woningontruiming;<br>• be&#235;indiging van de levering van gas, water, elektriciteit of stadsverwarming;<br>• opzegging of ontbinding van de zorgverzekering.<br>Gemeenten kunnen extra situaties toevoegen aan hun crisisprotocol, zoals:<br>• aangekondigde boedelverkoop of verkoop van de eigen woning;<br>• loon- of bankbeslag;<br>• een faillissementsaanvraag.<br>En voor ondernemers:<br>• beslag op (on)roerende zaken dat het voortbestaan van de onderneming bedreigt;<br>• opzegging van het bankkrediet." |
 | startdatum | Datum | Datum waarop een persoon met een hulpvraag komt rondom (dreigende) schulden. Dit kan een persoonlijke, schriftelijke, digitale of telefonische vraag zijn. |
 | einddatum | Datum |  |
 
@@ -95,26 +95,27 @@ Attributen van objecttype Aanmelding
 >
 > Begeleiding voor clienten in het kader van schuldhulpdienstverlening, die kan bestaan uit:<br>1. budgetbeheer<br>2. beschermingsbewind<br>3. budgetcoaching
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Begeleiding |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.5 |
-| created | 2024-03-05 11:02:17 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_A1F16832_3F28_4441_8538_74BF04A48562 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Begeleiding"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Begeleiding |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.5 |
+    | created | 2024-03-05 11:02:17 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_A1F16832_3F28_4441_8538_74BF04A48562 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Begeleiding
 
@@ -131,26 +132,27 @@ Attributen van objecttype Begeleiding
 >
 > Soort begeleiding in het kader van schuldhulpverlening
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Begeleidingssoort |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.4 |
-| created | 2024-03-05 11:58:54 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_158BE97A_2031_437b_A5CC_637188EB9968 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Begeleidingssoort"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Begeleidingssoort |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.4 |
+    | created | 2024-03-05 11:58:54 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_158BE97A_2031_437b_A5CC_637188EB9968 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Begeleidingssoort
 
@@ -165,26 +167,27 @@ Attributen van objecttype Begeleidingssoort
 >
 > Contactpersoon van een organisatie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Contactpersoon |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.4 |
-| created | 2024-02-19 12:00:13 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_B9287881_AD66_4396_A629_ED5FE9196316 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Contactpersoon"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Contactpersoon |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.4 |
+    | created | 2024-02-19 12:00:13 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_B9287881_AD66_4396_A629_ED5FE9196316 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Contactpersoon
 
@@ -200,28 +203,29 @@ Attributen van objecttype Contactpersoon
 ### Crisisinterventie
 > **Definitie Crisisinterventie:** 
 >
-> Het afwenden van een crisis- of dreigende situatie om zo de mogelijkheid te creëren om de klant te helpen via de reguliere schuldhulpverlening.<br>Volgens de Wgs gaat het in elk geval om de volgende situaties:<br>• gedwongen woningontruiming;<br>• beëindiging van de levering van gas, water, elektriciteit of stadsverwarming;<br>• opzegging of ontbinding van de zorgverzekering.<br>Gemeenten kunnen extra situaties toevoegen aan hun crisisprotocol, zoals:<br>• aangekondigde boedelverkoop of verkoop van de eigen woning;<br>• loon- of bankbeslag;<br>• een faillissementsaanvraag.<br>En voor ondernemers:<br>• beslag op (on)roerende zaken dat het voortbestaan van de onderneming bedreigt;<br>• opzegging van het bankkrediet.
+> Het afwenden van een crisis- of dreigende situatie om zo de mogelijkheid te cre&#235;ren om de klant te helpen via de reguliere schuldhulpverlening.<br>Volgens de Wgs gaat het in elk geval om de volgende situaties:<br>• gedwongen woningontruiming;<br>• be&#235;indiging van de levering van gas, water, elektriciteit of stadsverwarming;<br>• opzegging of ontbinding van de zorgverzekering.<br>Gemeenten kunnen extra situaties toevoegen aan hun crisisprotocol, zoals:<br>• aangekondigde boedelverkoop of verkoop van de eigen woning;<br>• loon- of bankbeslag;<br>• een faillissementsaanvraag.<br>En voor ondernemers:<br>• beslag op (on)roerende zaken dat het voortbestaan van de onderneming bedreigt;<br>• opzegging van het bankkrediet.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Crisisinterventie |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.5 |
-| created | 2024-05-31 15:31:48 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_0E3205DA_BC88_425b_AF68_882BFB316812 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Crisisinterventie"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Crisisinterventie |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.5 |
+    | created | 2024-05-31 15:31:48 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_0E3205DA_BC88_425b_AF68_882BFB316812 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Crisisinterventie
 
@@ -237,26 +241,27 @@ Attributen van objecttype Crisisinterventie
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | InformatieEnAdvies |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.2 |
-| created | 2024-08-30 10:20:15 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_7CC8C026_91CB_422c_84C6_90401889F260 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model InformatieEnAdvies"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | InformatieEnAdvies |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.2 |
+    | created | 2024-08-30 10:20:15 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_7CC8C026_91CB_422c_84C6_90401889F260 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype InformatieEnAdvies
 
@@ -272,26 +277,27 @@ Attributen van objecttype InformatieEnAdvies
 >
 > Inkomen dat door een persoon wordt verworven uit verschillende mogelijke inkomstenbronnen: inkomen uit arbeid, inkomen uit eigen onderneming, uitkering inkomensverzekeringen en uitkering sociale voorzieningen (m.u.v. kinderbijslag en kindgebonden budget). Premies inkomensverzekeringen (m.u.v. premies voor volksverzekeringen) zijn hierop in mindering gebracht.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Inkomen |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.4 |
-| created | 2024-02-19 12:07:52 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_B2A3D4C2_236C_457f_A2C8_8F889C1427E9 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Inkomen"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Inkomen |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.4 |
+    | created | 2024-02-19 12:07:52 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_B2A3D4C2_236C_457f_A2C8_8F889C1427E9 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Inkomen
 
@@ -311,26 +317,27 @@ Attributen van objecttype Inkomen
 >
 > Dit is de fase tussen het eerste gesprek en het Plan van Aanpak. Tijdens de<br>intakefase wordt geinventariseerd welke instrumenten, ondersteuning, activiteiten en gegevens nodig zijn om een duurzaam financieel<br>evenwicht te bereiken.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Intake |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.5 |
-| created | 2024-02-19 12:03:03 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_F20A11B2_0C6F_4a52_95BF_AB73997C3378 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Intake"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Intake |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.5 |
+    | created | 2024-02-19 12:03:03 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_F20A11B2_0C6F_4a52_95BF_AB73997C3378 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Intake
 
@@ -348,26 +355,27 @@ Attributen van objecttype Intake
 >
 > Leefsituatie is de combinatie van factoren zoals schulden, ondernemerschap, aanwezigheid van een partner, en inkomen, die samen de sociale en economische omstandigheden van een individu bepalen. Deze wordt in het kader van schuldhulpverlening gebruikt om alle relevante zaken van clienten aan te koppelen.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Leefsituatie |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Arjen Brienen |
-| version | 1.5 |
-| created | 2018-06-13 13:31:03 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_5CC59215_5A63_4ef8_9D64_C4FAC0619121 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | FinancieleSituatie |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-fd84565d-63d3-44a1-84e0-cd0f580cb2ad](https://gemmaonline.nl/index.php/GEMMA/id-fd84565d-63d3-44a1-84e0-cd0f580cb2ad) |
-| gemma_definitie | Verhouding in inkomsten en uitgaven van een persoon of bedrijf |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Leefsituatie"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Leefsituatie |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Arjen Brienen |
+    | version | 1.5 |
+    | created | 2018-06-13 13:31:03 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_5CC59215_5A63_4ef8_9D64_C4FAC0619121 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | FinancieleSituatie |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-fd84565d-63d3-44a1-84e0-cd0f580cb2ad](https://gemmaonline.nl/index.php/GEMMA/id-fd84565d-63d3-44a1-84e0-cd0f580cb2ad) |
+    | gemma_definitie | Verhouding in inkomsten en uitgaven van een persoon of bedrijf |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Leefsituatie
 
@@ -381,28 +389,29 @@ Attributen van objecttype Leefsituatie
 ### Moratorium
 > **Definitie Moratorium:** 
 >
-> Het gaat hier om de datum waarop een verzoek tot een moratorium (ex art. 287 b Fw) is ingediend bij de rechter.<br>Er kan een verzoek tot een moratorium bij de rechter worden gedaan om te voorkomen dat een schuldeiser zijn specifieke inningsmogelijkheden gebruikt, terwijl een aanvraag voor een minnelijke schuldregeling in behandeling is. Het moratorium is bedoeld om het minnelijke traject te kunnen voortzetten.<br>Het moratorium kan in de volgende situaties worden ingezet:<br>• gedwongen woningontruiming;<br>• beëindiging van de levering van gas, water elektriciteit of stadsverwarming;<br>• opzegging dan wel ontbinding van de zorgverzekering.<br>Het moratorium duurt maximaal zes maanden.
+> Het gaat hier om de datum waarop een verzoek tot een moratorium (ex art. 287 b Fw) is ingediend bij de rechter.<br>Er kan een verzoek tot een moratorium bij de rechter worden gedaan om te voorkomen dat een schuldeiser zijn specifieke inningsmogelijkheden gebruikt, terwijl een aanvraag voor een minnelijke schuldregeling in behandeling is. Het moratorium is bedoeld om het minnelijke traject te kunnen voortzetten.<br>Het moratorium kan in de volgende situaties worden ingezet:<br>• gedwongen woningontruiming;<br>• be&#235;indiging van de levering van gas, water elektriciteit of stadsverwarming;<br>• opzegging dan wel ontbinding van de zorgverzekering.<br>Het moratorium duurt maximaal zes maanden.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Moratorium |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.5 |
-| created | 2024-05-31 15:41:29 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_5FC12BE5_75F0_4dd9_8DA7_993C03F3700A |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Moratorium"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Moratorium |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.5 |
+    | created | 2024-05-31 15:41:29 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_5FC12BE5_75F0_4dd9_8DA7_993C03F3700A |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Moratorium
 
@@ -418,28 +427,29 @@ Attributen van objecttype Moratorium
 ### Nazorg
 > **Definitie Nazorg:** 
 >
-> Ondersteuning die een persoon ontvangt ná een schuldhulptraject, om zo bij de start van een schuldenvrij leven zelfredzaamheid verder te bevorderen én recidive (terugval) te voorkomen.
+> Ondersteuning die een persoon ontvangt n&#225; een schuldhulptraject, om zo bij de start van een schuldenvrij leven zelfredzaamheid verder te bevorderen &#233;n recidive (terugval) te voorkomen.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Nazorg |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.4 |
-| created | 2024-04-15 16:25:14 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_551A527B_A2E2_4409_968B_D1BE4612EB3C |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Nazorg"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Nazorg |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.4 |
+    | created | 2024-04-15 16:25:14 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_551A527B_A2E2_4409_968B_D1BE4612EB3C |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Nazorg
 
@@ -455,26 +465,27 @@ Attributen van objecttype Nazorg
 >
 > Een ondernemer is een individu die die goederen of diensten levert aan anderen om winst te maken.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Ondernemer |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.4 |
-| created | 2024-02-19 14:44:21 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_AA004853_3565_4634_A434_BD7F36ED0B1A |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Ondernemer"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Ondernemer |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.4 |
+    | created | 2024-02-19 14:44:21 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_AA004853_3565_4634_A434_BD7F36ED0B1A |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Ondernemer
 
@@ -490,26 +501,27 @@ Attributen van objecttype Ondernemer
 >
 > De Oplossing beschrijft in 5 submodules wat de schuldhulpverlener doet om een oplossing te realiseren, en kent de volgende submodules:<br>• submodule Herfinanciering;<br>• submodule Betalingsregeling;<br>• submodule Saneringskrediet;<br>• submodule Schuldbemiddeling.<br>Het kan ook gaan om een 0%-aanbod
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Oplossing |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.5 |
-| created | 2024-02-19 12:11:12 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_7E274EE0_FB77_43ef_ABCB_91ACF0ACD469 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Oplossing"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Oplossing |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.5 |
+    | created | 2024-02-19 12:11:12 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_7E274EE0_FB77_43ef_ABCB_91ACF0ACD469 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Oplossing
 
@@ -527,26 +539,27 @@ Attributen van objecttype Oplossing
 >
 > De soort oplossing in het kader van Schuldhulpverlening
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Oplossingssoort |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.4 |
-| created | 2024-03-05 11:56:51 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_677992F0_3C05_43b6_82C7_4A7EA57EDFED |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Oplossingssoort"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Oplossingssoort |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.4 |
+    | created | 2024-03-05 11:56:51 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_677992F0_3C05_43b6_82C7_4A7EA57EDFED |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Oplossingssoort
 
@@ -561,26 +574,27 @@ Attributen van objecttype Oplossingssoort
 >
 > Een partner is een persoon met wie iemand een romantische en vaak langdurige relatie heeft, gebaseerd op wederzijdse liefde, steun en commitment.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Partner |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.4 |
-| created | 2024-05-17 15:05:39 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_093B2482_D72E_4f88_931C_75C9DABED007 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Partner"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Partner |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.4 |
+    | created | 2024-05-17 15:05:39 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_093B2482_D72E_4f88_931C_75C9DABED007 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Partner
 
@@ -598,26 +612,27 @@ Attributen van objecttype Partner
 >
 > Een document waarin in elk geval het volgende staat:<br>• de hulpvraag van de persoon;<br>• de voorgestelde ondersteuning;<br>• eventueel de organisatie(s) waarnaar je hebt doorverwezen;<br>• de voorwaarden voor schuldhulpverlening (bijvoorbeeld dat de persoon geen nieuwe schulden mag maken).<br>De hoogte van beslagvrije voet voor de persoon (zie artikel 4a:5 van de Wgs) moet in acht worden genomen.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | PlanVanAanpak |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.5 |
-| created | 2024-04-15 16:50:47 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_7DA4A554_10BF_47d1_ACED_966712B043F4 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model PlanVanAanpak"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | PlanVanAanpak |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.5 |
+    | created | 2024-04-15 16:50:47 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_7DA4A554_10BF_47d1_ACED_966712B043F4 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype PlanVanAanpak
 
@@ -630,28 +645,29 @@ Attributen van objecttype PlanVanAanpak
 ### Schuld
 > **Definitie Schuld:** 
 >
-> Een schuld is een financiële verplichting waarbij een persoon nu of in de toekomst een bedrag moet betalen aan een derde. In het kader van schuldhulpverlening wordt over een schuld gesproken als de persoon niet aan deze verplichting kan voldoen. .
+> Een schuld is een financi&#235;le verplichting waarbij een persoon nu of in de toekomst een bedrag moet betalen aan een derde. In het kader van schuldhulpverlening wordt over een schuld gesproken als de persoon niet aan deze verplichting kan voldoen. .
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Schuld |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.4 |
-| created | 2024-02-19 14:36:05 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_93E12A3E_71E3_431e_9871_BF6075EAAEF1 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Schuld"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Schuld |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.4 |
+    | created | 2024-02-19 14:36:05 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_93E12A3E_71E3_431e_9871_BF6075EAAEF1 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Schuld
 
@@ -669,26 +685,27 @@ Attributen van objecttype Schuld
 >
 > Een schuldeiser is bedrijf of persoon die recht heeft op een prestatie van een ander, de schuldenaar. In de meeste gevallen is de prestatie het betalen van geld. Dit geldbedrag is dan de schuld die de schuldenaar aan de schuldeiser moet betalen. De schuld is meestal het gevolg van het niet nakomen van een verplichting uit een overeenkomst tussen de partijen. De schuldeiser kan de schuldenaar dwingen om de schuld te voldoen.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Schuldeiser |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.4 |
-| created | 2024-02-19 14:46:01 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_DCDAD212_479E_4fc3_B886_585AE57D8C21 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Schuldeiser"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Schuldeiser |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.4 |
+    | created | 2024-02-19 14:46:01 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_DCDAD212_479E_4fc3_B886_585AE57D8C21 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Schuldeiser
 
@@ -704,26 +721,27 @@ Attributen van objecttype Schuldeiser
 >
 > Een schuldhulporganisatie is een instantie die individuen en gezinnen helpt met het beheren, verminderen en oplossen van hun schulden door middel van advies, begeleiding en bemiddeling.<br>Het betreft een gemeenten of een SHV-organisatie die de gemeentelijke schuldhulpverleningstaak vanuit een gemeente gemandateerd of gedelegeerd heeft.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Schuldhulporganisatie |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | aashkpour |
-| version | 1.5 |
-| created | 2024-02-19 11:59:53 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_A947042E_7CA6_44f8_902A_1C1185A391F6 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Schuldhulporganisatie"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Schuldhulporganisatie |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | aashkpour |
+    | version | 1.5 |
+    | created | 2024-02-19 11:59:53 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_A947042E_7CA6_44f8_902A_1C1185A391F6 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Schuldhulporganisatie
 
@@ -738,26 +756,27 @@ Attributen van objecttype Schuldhulporganisatie
 >
 > Samenstel van achtereenvolgens uit te voeren en onderling samenhangende deelhandelingen of van opeenvolgende stadia in een proces, voorgesteld als een route die via opeenvolgende bestemmingen naar de eindbestemming voert.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Schuldhulptraject |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | aashkpour |
-| version | 1.5 |
-| created | 2018-06-13 12:09:16 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_839017B2_0F95_42d0_AB2B_E873636340DA |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | Traject |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-a639deb6-a955-4f22-b6db-2c64f3abe044](https://gemmaonline.nl/index.php/GEMMA/id-a639deb6-a955-4f22-b6db-2c64f3abe044) |
-| gemma_definitie | Samenstel van achtereenvolgens uit te voeren en onderling samenhangende deelhandelingen of van opeenvolgende stadia in een proces, voorgesteld als een route die via opeenvolgende bestemmingen naar de eindbestemming voert. |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Schuldhulptraject"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Schuldhulptraject |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | aashkpour |
+    | version | 1.5 |
+    | created | 2018-06-13 12:09:16 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_839017B2_0F95_42d0_AB2B_E873636340DA |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | Traject |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-a639deb6-a955-4f22-b6db-2c64f3abe044](https://gemmaonline.nl/index.php/GEMMA/id-a639deb6-a955-4f22-b6db-2c64f3abe044) |
+    | gemma_definitie | Samenstel van achtereenvolgens uit te voeren en onderling samenhangende deelhandelingen of van opeenvolgende stadia in een proces, voorgesteld als een route die via opeenvolgende bestemmingen naar de eindbestemming voert. |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Schuldhulptraject
 
@@ -776,26 +795,27 @@ Attributen van objecttype Schuldhulptraject
 >
 > De schuldregeling heeft als doel een overeenkomst te sluiten tussen iemand met problematische schulden en zijn schuldeisers. Op basis van eventueel ingezet vermogen en de berekende afloscapaciteit (of op andere wijze vastgestelde minimale afdracht) lost de schuldenaar in maximaal 18 maanden zo veel mogelijk van de schuld af. Daarna schelden de schuldeisers de rest van hun vordering kwijt. Voordat de schuldregeling start, sluit je een schuldregelingsovereenkomst met de schuldenaar. Daarin staan de rechten en plichten van beide partijen. Een schuldregeling kan met een saneringskrediet of een schuldbemiddeling gerealiseerd worden. Als een of meer schuldeisers blijven weigeren in te stemmen met de minnelijke schuldregeling, informeer je de schuldenaar over mogelijke vervolgstappen, zoals het aanvragen van een dwangakkoord (artikel 287a Fw) of toelating tot de Wsnp.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Schuldregeling |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.4 |
-| created | 2024-02-19 14:55:48 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_652A68C3_618E_4050_AD4C_E43469A7558C |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Schuldregeling"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Schuldregeling |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.4 |
+    | created | 2024-02-19 14:55:48 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_652A68C3_618E_4050_AD4C_E43469A7558C |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Schuldregeling
 
@@ -813,28 +833,29 @@ Attributen van objecttype Schuldregeling
 ### Stabilisatie
 > **Definitie Stabilisatie:** 
 >
-> Fase van het schuldhulpverleningstraject met als doel de inkomsten en uitgaven van een persoon in evenwicht te brengen. De stabilisatie van inkomen en uitgaven is een resultaat van<br>werkzaamheden uit het integrale plan van aanpak. Als stabilisatie bereikt is kan een betalingsregeling, herfinanciering of schuldregeling worden opgezet. Een belangrijk tweede doel is om de hulpvrager hierbij schuldenrust te bieden: stress wegnemen en tijd maken voor oplossingen naar een schuldenzorgvrije toekomst. In de stabilisatiefase kan een schuldhulpverlener andere instrumenten, activiteiten of ondersteuning inzetten, die bijdragen aan de duurzame oplossing van het financiële probleem, zoals budgetcoaching, budgetbeheer, beschermingsbewind of flankerende hulp.
+> Fase van het schuldhulpverleningstraject met als doel de inkomsten en uitgaven van een persoon in evenwicht te brengen. De stabilisatie van inkomen en uitgaven is een resultaat van<br>werkzaamheden uit het integrale plan van aanpak. Als stabilisatie bereikt is kan een betalingsregeling, herfinanciering of schuldregeling worden opgezet. Een belangrijk tweede doel is om de hulpvrager hierbij schuldenrust te bieden: stress wegnemen en tijd maken voor oplossingen naar een schuldenzorgvrije toekomst. In de stabilisatiefase kan een schuldhulpverlener andere instrumenten, activiteiten of ondersteuning inzetten, die bijdragen aan de duurzame oplossing van het financi&#235;le probleem, zoals budgetcoaching, budgetbeheer, beschermingsbewind of flankerende hulp.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Stabilisatie |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.5 |
-| created | 2024-04-15 16:14:28 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_B0384246_6784_4724_B538_CE18197061CD |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Stabilisatie"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Stabilisatie |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.5 |
+    | created | 2024-04-15 16:14:28 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_B0384246_6784_4724_B538_CE18197061CD |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Stabilisatie
 
@@ -850,26 +871,27 @@ Attributen van objecttype Stabilisatie
 >
 > Motivatie voor uitstroom
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Uitstroom |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Arjen Brienen |
-| version | 1.5 |
-| created | 2018-06-13 12:11:45 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_42D33289_422A_4d94_BE6B_44B34CC230B5 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | Uitstroomreden |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-310e7b8f-87b6-4493-8b66-1b222428dea4](https://gemmaonline.nl/index.php/GEMMA/id-310e7b8f-87b6-4493-8b66-1b222428dea4) |
-| gemma_definitie | Motivatie voor uitstroom |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Uitstroom"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Uitstroom |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Arjen Brienen |
+    | version | 1.5 |
+    | created | 2018-06-13 12:11:45 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_42D33289_422A_4d94_BE6B_44B34CC230B5 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | Uitstroomreden |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-310e7b8f-87b6-4493-8b66-1b222428dea4](https://gemmaonline.nl/index.php/GEMMA/id-310e7b8f-87b6-4493-8b66-1b222428dea4) |
+    | gemma_definitie | Motivatie voor uitstroom |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Uitstroom
 
@@ -878,7 +900,7 @@ Attributen van objecttype Uitstroom
 | omschrijving | text |  |
 | datum | date | Datum dat clienten uit het schuldhulptraject zijn uitgestroomd |
 | reden | Enumeratie: "EnumUitstroomreden" | Reden dat de hulpverlening op enig moment na aanmelding bij schuldhulpverlening eindigt. |
-| datumBeeindigingsbeschikking | Datum | Datum dat de Beëindigingsbeschikking is afgegeven. |
+| datumBeeindigingsbeschikking | Datum | Datum dat de Be&#235;indigingsbeschikking is afgegeven. |
 
 
 
@@ -887,26 +909,27 @@ Attributen van objecttype Uitstroom
 >
 > Een voorlopige voorziening in het kader van schuldhulpverlening door gemeenten is een tijdelijke maatregel die wordt getroffen om acute financi�le problemen of crises van een inwoner direct te verlichten terwijl een duurzaam schuldhulpverleningstraject wordt voorbereid. Voorlopige voorzieningen kunnen bijvoorbeeld bestaan uit het tijdelijk betalen van huur om huisuitzetting te voorkomen, het treffen van betalingsregelingen met schuldeisers, of het bieden van een financi�le overbrugging. Het doel is om stabiliteit te cre�ren in de financi�le situatie van de inwoner en te voorkomen dat de problematiek verder escaleert. Deze maatregel wordt ingezet op basis van urgentie en maatwerk.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | VoorlopigeVoorziening |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.4 |
-| created | 2024-08-29 12:19:39 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_5DD63EFE_649F_484e_BB10_A18096B9ABDF |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model VoorlopigeVoorziening "
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | VoorlopigeVoorziening |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.4 |
+    | created | 2024-08-29 12:19:39 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_5DD63EFE_649F_484e_BB10_A18096B9ABDF |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype VoorlopigeVoorziening 
 
@@ -922,26 +945,27 @@ Attributen van objecttype VoorlopigeVoorziening
 >
 > Een koopwoning is een woning die eigendom is van een individu of een entiteit, die het heeft gekocht en waarvoor meestal een hypotheek is afgesloten.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Woningbezit |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.4 |
-| created | 2024-02-19 12:06:51 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_DBFDE0B1_FF6D_422f_BDDA_42ED8A172260 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Woningbezit"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Woningbezit |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.4 |
+    | created | 2024-02-19 12:06:51 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_DBFDE0B1_FF6D_422f_BDDA_42ED8A172260 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Woningbezit
 
@@ -958,26 +982,27 @@ Attributen van objecttype Woningbezit
 >
 > Een WSNP-traject (Wet schuldsanering natuurlijke personen) is een wettelijk regeling in Nederland waarmee individuen met problematische schulden via een saneringsplan onder toezicht van een bewindvoerder hun schulden kunnen aflossen en na drie jaar een schone lei kunnen krijgen.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | WSNP-traject |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.4 |
-| created | 2024-02-20 16:37:12 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_513A944D_0FEC_4f78_B290_63274D22C58C |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model WSNP-traject"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | WSNP-traject |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.4 |
+    | created | 2024-02-20 16:37:12 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_513A944D_0FEC_4f78_B290_63274D22C58C |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype WSNP-traject
 
@@ -995,26 +1020,27 @@ Attributen van objecttype WSNP-traject
 >
 > Een WSNP-verklaring is een officieel document dat bevestigt dat een persoon toegelaten is tot de Wet Schuldsanering Natuurlijke Personen (WSNP) om hun schulden onder toezicht van een bewindvoerder af te lossen.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | WSNP-verklaring |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.4 |
-| created | 2024-02-19 14:46:26 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_64E76A72_8E62_45fb_A144_149EFDB5EB46 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model WSNP-verklaring"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | WSNP-verklaring |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.4 |
+    | created | 2024-02-19 14:46:26 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_64E76A72_8E62_45fb_A144_149EFDB5EB46 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype WSNP-verklaring
 
@@ -1034,35 +1060,36 @@ Geen Definitie
 
 Het enumeratie EnumBegeleidingssoort kent de volgende waarden:
 
-* **Budgetcoaching**: Het bijbrengen van financiële kennis en vaardigheden zodat een persoon in staat is om zijn eigen geldzaken zelfstandig te regelen (al dan niet met medewerking van derden).
+* **Budgetcoaching**: Het bijbrengen van financi&#235;le kennis en vaardigheden zodat een persoon in staat is om zijn eigen geldzaken zelfstandig te regelen (al dan niet met medewerking van derden).
 * **Budgetbeheer**: Het beheren van de inkomsten en het verrichten van betalingen. Dit met als doel om vaste lasten op tijd te betalen om zo te voorkomen dat schulden en betalingsachterstanden ontstaan en/of oplopen.
-* **Beschermingsbewind**: Beschermingsbewind is een wettelijke maatregel die bedoeld is om iemands financiële belangen, volledig of gedeeltelijk, te beschermen als diegene daar zelf niet toe in staat is. Het is bedoeld voor meerderjarigen die niet in staat zijn om hun eigen vermogen te beheren doordat ze:<br>• een lichamelijke of geestelijke beperking hebben;<br>• hun bezit (dreigen te) verkwisten of problematische schulden hebben.<br>De kantonrechter beslist of iemand beschermingsbewind nodig heeft. Na uitspraak van de kantonrechter wordt<br>een bewindvoerder verantwoordelijk om  alle handelingen te verrichten die<br>aan een goed bewind bijdragen en om betrokkene in en buiten rechte te<br>vertegenwoordigen.
-* **Lange Termijn Begeleiding (DFD)**: <font color="#1e1d3a">Het doel van Duurzame Financiële Dienstverlening (DFD) is om de inkomsten en uitgaven van een inwoner in evenwicht te brengen als de schulden (nog) niet duurzaam opgelost kunnen worden.</font>
-* **Budgetbegeleiding**: Verbeteren financiële kennis en vaardigheden, door: verhogen van zelfredzaamheid door de financiele vaardigheden, kennis en inzicht van de hulpvrager te ontwikkelen d.m.v. budgetbegeleiding en training.
+* **Beschermingsbewind**: Beschermingsbewind is een wettelijke maatregel die bedoeld is om iemands financi&#235;le belangen, volledig of gedeeltelijk, te beschermen als diegene daar zelf niet toe in staat is. Het is bedoeld voor meerderjarigen die niet in staat zijn om hun eigen vermogen te beheren doordat ze:<br>• een lichamelijke of geestelijke beperking hebben;<br>• hun bezit (dreigen te) verkwisten of problematische schulden hebben.<br>De kantonrechter beslist of iemand beschermingsbewind nodig heeft. Na uitspraak van de kantonrechter wordt<br>een bewindvoerder verantwoordelijk om  alle handelingen te verrichten die<br>aan een goed bewind bijdragen en om betrokkene in en buiten rechte te<br>vertegenwoordigen.
+* **Lange Termijn Begeleiding (DFD)**: <font color="#1e1d3a">Het doel van Duurzame Financi&#235;le Dienstverlening (DFD) is om de inkomsten en uitgaven van een inwoner in evenwicht te brengen als de schulden (nog) niet duurzaam opgelost kunnen worden.</font>
+* **Budgetbegeleiding**: Verbeteren financi&#235;le kennis en vaardigheden, door: verhogen van zelfredzaamheid door de financiele vaardigheden, kennis en inzicht van de hulpvrager te ontwikkelen d.m.v. budgetbegeleiding en training.
 
 
 De enumeratie EnumBegeleidingssoort heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | EnumBegeleidingssoort |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:12:50 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_D13E7356_94A7_41ed_B9B0_945D7F7975AD |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model EnumBegeleidingssoort"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | EnumBegeleidingssoort |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:12:50 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_D13E7356_94A7_41ed_B9B0_945D7F7975AD |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### EnumBeschikkingssoort
@@ -1076,26 +1103,27 @@ Het enumeratie EnumBeschikkingssoort kent de volgende waarden:
 
 De enumeratie EnumBeschikkingssoort heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | EnumBeschikkingssoort |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:12:50 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_C0C5D6A5_1937_460b_A243_90172A345B91 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model EnumBeschikkingssoort"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | EnumBeschikkingssoort |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:12:50 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_C0C5D6A5_1937_460b_A243_90172A345B91 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### EnumHuishoudenssoort
@@ -1109,26 +1137,27 @@ Het enumeratie EnumHuishoudenssoort kent de volgende waarden:
 
 De enumeratie EnumHuishoudenssoort heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | EnumHuishoudenssoort |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:12:50 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_76676076_DDDA_4427_8ECB_46565F915F49 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model EnumHuishoudenssoort"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | EnumHuishoudenssoort |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:12:50 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_76676076_DDDA_4427_8ECB_46565F915F49 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### EnumOplossingssoort
@@ -1138,33 +1167,34 @@ Het enumeratie EnumOplossingssoort kent de volgende waarden:
 
 * **Betalingsregeling**: Het volledig (100%) betalen van de vordering(en) in een aantal termijnen.
 * **Herfinanciering**: Een financieringsovereenkomst waarmee de vastgestelde vordering(en) ineens en volledig (100%) wordt/worden voldaan.
-* **Saneringskrediet**: Het ineens afkopen van de totale schuldenlast tegen finale kwijting, op basis van betaling van een percentage van de totale schuldenlast.De afbetaling aan de schuldeisers is ineens en wordt gedaan met een krediet. De afsluiting van een saneringskrediet gaat via de eigen organisatie als dat een gemeentelijke of andere kredietbank is of de schuldhulpverlener bemiddelt naar een (gemeentelijke) kredietbank, een reguliere bank of een andere financieringsmogelijkheid (bijv. privépersoon of werkgever), die vervolgens het saneringskrediet verstrekt.
+* **Saneringskrediet**: Het ineens afkopen van de totale schuldenlast tegen finale kwijting, op basis van betaling van een percentage van de totale schuldenlast.De afbetaling aan de schuldeisers is ineens en wordt gedaan met een krediet. De afsluiting van een saneringskrediet gaat via de eigen organisatie als dat een gemeentelijke of andere kredietbank is of de schuldhulpverlener bemiddelt naar een (gemeentelijke) kredietbank, een reguliere bank of een andere financieringsmogelijkheid (bijv. priv&#233;persoon of werkgever), die vervolgens het saneringskrediet verstrekt.
 * **Schuldbemiddeling**: Het gedeeltelijk, in termijnen terugbetalen van de totale schuldenlast naar draagkracht, tegen finale kwijting.
-* **0%-aanbod**: In een 0%-regeling erkent men dat de schuldenaar geen financiële ruimte heeft om schulden af te lossen, en daarom wordt er geen aflossing van de schulden gevraagd gedurende de looptijd van de regeling. Na afloop van de afgesproken periode kunnen de schulden, mits aan alle voorwaarden is voldaan, worden kwijtgescholden.
+* **0%-aanbod**: In een 0%-regeling erkent men dat de schuldenaar geen financi&#235;le ruimte heeft om schulden af te lossen, en daarom wordt er geen aflossing van de schulden gevraagd gedurende de looptijd van de regeling. Na afloop van de afgesproken periode kunnen de schulden, mits aan alle voorwaarden is voldaan, worden kwijtgescholden.
 
 
 De enumeratie EnumOplossingssoort heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | EnumOplossingssoort |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:12:50 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_540A2D4C_EF40_457a_A7DD_C8E81DB692A6 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model EnumOplossingssoort"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | EnumOplossingssoort |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:12:50 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_540A2D4C_EF40_457a_A7DD_C8E81DB692A6 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### EnumSchuldensoort
@@ -1175,31 +1205,32 @@ Het enumeratie EnumSchuldensoort kent de volgende waarden:
 * **Zorg**: Mogelijke zorgkosten omvatten premies ziektskostenverzekering, kosten eigen bijdragen, en niet verzekerde zorg zoals voor: fysiotherapie, psychologische hulp, tandartszorg, hulpmiddelen en kraamzorg.
 * **Publiek**: Publieke organisaties krijgen het kenmerk 'Publiek' ; als een schuldregeling wordt opgestart wordt dan altijd het BSN meegestuurd.
 * **Nuts**: Bij organisaties die werken met meterstanden wordt het kenmerk 'Nuts' geregistreerd. De schuldhulpverlenende organisatie is dan verplicht om de meterstanden mee te sturen als een schuldregeling wordt opgestart.
-* **Overig**: Alle schulden die niet onder één van de andere categorieën zijn in te delen.
+* **Overig**: Alle schulden die niet onder &#233;&#233;n van de andere categorie&#235;n zijn in te delen.
 
 
 De enumeratie EnumSchuldensoort heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | EnumSchuldensoort |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:12:51 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_D34DF6F1_CC5C_42c8_A013_D59698E9F530 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model EnumSchuldensoort"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | EnumSchuldensoort |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:12:51 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_D34DF6F1_CC5C_42c8_A013_D59698E9F530 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### EnumUitstroomreden
@@ -1220,26 +1251,27 @@ Het enumeratie EnumUitstroomreden kent de volgende waarden:
 
 De enumeratie EnumUitstroomreden heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | EnumUitstroomreden |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:12:51 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_82A3029A_D39E_46e6_AF4B_1909FA0045EF |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model EnumUitstroomreden"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | EnumUitstroomreden |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:12:51 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_82A3029A_D39E_46e6_AF4B_1909FA0045EF |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### EnumWoningbezit
@@ -1255,26 +1287,27 @@ Het enumeratie EnumWoningbezit kent de volgende waarden:
 
 De enumeratie EnumWoningbezit heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | EnumWoningbezit |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:12:51 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_702C2D3B_5E5F_4e2d_990E_7618C2FA4FCA |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model EnumWoningbezit"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | EnumWoningbezit |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:12:51 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_702C2D3B_5E5F_4e2d_990E_7618C2FA4FCA |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 

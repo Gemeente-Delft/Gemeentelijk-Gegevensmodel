@@ -2,7 +2,22 @@
 ## Inleiding
 > **Definitie Model Inkomen:** 
 >
-> Het informatiedomein dat gegevens omvat over inkomensvoorzieningen, -regelingen en financiële ondersteuning voor inwoners, gericht op het waarborgen van bestaanszekerheid en participatie in de samenleving.
+> Het informatiedomein dat gegevens omvat over inkomensvoorzieningen, -regelingen en financi&#235;le ondersteuning voor inwoners, gericht op het waarborgen van bestaanszekerheid en participatie in de samenleving.
+
+??? info "Kenmerken Model Model Inkomen"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Model Inkomen |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.0 |
+    | created | 2025-03-27 11:31:16 |
+    | modified | 2025-03-27 15:29:52 |
+    | id | EAPK_7A13550B_AC75_4783_BD16_A9ED6E86172A |
+    
 
 Het model 'Model Inkomen' kent de volgende objecttypen:
 
@@ -15,22 +30,6 @@ Het model 'Model Inkomen' kent de volgende objecttypen:
 * **UitkeringsRun**: <Geen Definities>
 
 
-Het model 'Model Inkomen' heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | Model Inkomen |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.0 |
-| created | 2025-03-27 11:31:16 |
-| modified | 2025-03-27 15:29:52 |
-| id | EAPK_7A13550B_AC75_4783_BD16_A9ED6E86172A |
-
-
 ## Objecttypen Model Inkomen
 
 
@@ -39,26 +38,27 @@ Het model 'Model Inkomen' heeft de volgende kenmerken:
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Component |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | aashkpour |
-| version | 1.0 |
-| created | 2022-06-08 14:19:54 |
-| modified | 2025-03-27 14:01:30 |
-| id | EAID_F4FD02F2_9FFA_4a35_BA32_B4CDE4002E7A |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Component"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Component |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | aashkpour |
+    | version | 1.0 |
+    | created | 2022-06-08 14:19:54 |
+    | modified | 2025-03-27 14:01:30 |
+    | id | EAID_F4FD02F2_9FFA_4a35_BA32_B4CDE4002E7A |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Component
 
@@ -84,26 +84,27 @@ Attributen van objecttype Component
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | ComponentSoort |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | aashkpour |
-| version | 1.0 |
-| created | 2022-06-08 14:20:08 |
-| modified | 2025-03-27 14:01:36 |
-| id | EAID_3372192D_4773_46b2_BDA5_C98B220F8954 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model ComponentSoort"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | ComponentSoort |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | aashkpour |
+    | version | 1.0 |
+    | created | 2022-06-08 14:20:08 |
+    | modified | 2025-03-27 14:01:36 |
+    | id | EAID_3372192D_4773_46b2_BDA5_C98B220F8954 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype ComponentSoort
 
@@ -123,26 +124,27 @@ Attributen van objecttype ComponentSoort
 >
 > Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Inkomensvoorziening |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | crossover |
-| version | 1.0 |
-| created | 2018-04-23 11:53:14 |
-| modified | 2025-03-27 14:01:49 |
-| id | EAID_07784236_3AA6_45e5_8253_7D088C4020B0 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Inkomensvoorziening"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Inkomensvoorziening |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | crossover |
+    | version | 1.0 |
+    | created | 2018-04-23 11:53:14 |
+    | modified | 2025-03-27 14:01:49 |
+    | id | EAID_07784236_3AA6_45e5_8253_7D088C4020B0 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Inkomensvoorziening
 
@@ -162,26 +164,27 @@ Attributen van objecttype Inkomensvoorziening
 >
 > Typering van een inkomensvoorziening
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Inkomensvoorzieningsoort |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | crossover |
-| version | 1.0 |
-| created | 2018-04-23 11:53:23 |
-| modified | 2025-03-27 14:01:56 |
-| id | EAID_AF18E7D3_279D_4323_B785_6C75B4701430 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Inkomensvoorzieningsoort"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Inkomensvoorzieningsoort |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | crossover |
+    | version | 1.0 |
+    | created | 2018-04-23 11:53:23 |
+    | modified | 2025-03-27 14:01:56 |
+    | id | EAID_AF18E7D3_279D_4323_B785_6C75B4701430 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Inkomensvoorzieningsoort
 
@@ -203,26 +206,27 @@ Attributen van objecttype Inkomensvoorzieningsoort
 >
 > Een Regeling is gekoppeld aan een ingeschreven persoon (client) en beschrijft de specifieke afspraken of voorwaarden waaronder inkomensondersteuning wordt verleend. Een regeling heeft altijd een relatie met een RegelingSoort, die het type regeling specificeert.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Regeling |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron | [https://www.begrippenxl.nl/dso/nl/page/Regeling](https://www.begrippenxl.nl/dso/nl/page/Regeling) |
-| author | crossover |
-| version | 1.0 |
-| created | 2018-04-23 11:56:16 |
-| modified | 2025-03-27 14:09:02 |
-| id | EAID_C25455F3_FEB0_4c6d_9AA4_3B027718BEE3 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Regeling"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Regeling |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron | [https://www.begrippenxl.nl/dso/nl/page/Regeling](https://www.begrippenxl.nl/dso/nl/page/Regeling) |
+    | author | crossover |
+    | version | 1.0 |
+    | created | 2018-04-23 11:56:16 |
+    | modified | 2025-03-27 14:09:02 |
+    | id | EAID_C25455F3_FEB0_4c6d_9AA4_3B027718BEE3 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Regeling
 
@@ -240,26 +244,27 @@ Attributen van objecttype Regeling
 >
 > Typologie van een regeling
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Regelingsoort |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | crossover |
-| version | 1.0 |
-| created | 2018-04-23 11:56:27 |
-| modified | 2025-03-27 14:02:17 |
-| id | EAID_14D3C960_5EF2_433c_8E1C_B493974280E2 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Regelingsoort"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Regelingsoort |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | crossover |
+    | version | 1.0 |
+    | created | 2018-04-23 11:56:27 |
+    | modified | 2025-03-27 14:02:17 |
+    | id | EAID_14D3C960_5EF2_433c_8E1C_B493974280E2 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Regelingsoort
 
@@ -275,26 +280,27 @@ Attributen van objecttype Regelingsoort
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | UitkeringsRun |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | aashkpour |
-| version | 1.0 |
-| created | 2022-06-08 14:20:23 |
-| modified | 2025-03-27 14:01:43 |
-| id | EAID_F787184D_3AA8_4132_96C4_23A363C3C1B7 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model UitkeringsRun"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | UitkeringsRun |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | aashkpour |
+    | version | 1.0 |
+    | created | 2022-06-08 14:20:23 |
+    | modified | 2025-03-27 14:01:43 |
+    | id | EAID_F787184D_3AA8_4132_96C4_23A363C3C1B7 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype UitkeringsRun
 
@@ -331,26 +337,27 @@ Het enumeratie Wet kent de volgende waarden:
 
 De enumeratie Wet heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | Wet |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:12:49 |
-| modified | 2025-03-26 16:14:37 |
-| id | EAID_1e1574a9_66d9_4e24_b202_f65c4aa0bae6 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Wet"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Wet |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:12:49 |
+    | modified | 2025-03-26 16:14:37 |
+    | id | EAID_ed7d60dd_1981_4f37_af40_5b99fe8b0b48 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 

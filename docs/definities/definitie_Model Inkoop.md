@@ -4,6 +4,21 @@
 >
 > Dit subdomein bevat data over personeelsadministratie, werving en selectie, arbeidsvoorwaarden, opleidingen, verzuimregistratie en loopbaanontwikkeling. Het ondersteunt de organisatie bij het aantrekken, behouden en ontwikkelen van medewerkers en faciliteert processen zoals functioneringsgesprekken, personeelsplanning en compliance met arbeidswetgeving.
 
+??? info "Kenmerken Model Model Inkoop"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Model Inkoop |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Arjen Brienen |
+    | version | 1.1 |
+    | created | 2018-04-04 15:09:45 |
+    | modified | 2025-03-27 15:28:35 |
+    | id | EAPK_254CDF37_3AAB_4e0b_9F3C_2B46AAEBE2E9 |
+    
+
 Het model 'Model Inkoop' kent de volgende objecttypen:
 
 * **Aanbesteding**: Kan een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding
@@ -28,22 +43,6 @@ Het model 'Model Inkoop' kent de volgende objecttypen:
 * **Uitnodiging**: Een verzoek om iets bij te wonen.
 
 
-Het model 'Model Inkoop' heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | Model Inkoop |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Arjen Brienen |
-| version | 1.1 |
-| created | 2018-04-04 15:09:45 |
-| modified | 2025-03-27 15:28:35 |
-| id | EAPK_254CDF37_3AAB_4e0b_9F3C_2B46AAEBE2E9 |
-
-
 ## Objecttypen Model Inkoop
 
 
@@ -52,26 +51,27 @@ Het model 'Model Inkoop' heeft de volgende kenmerken:
 >
 > Kan een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Aanbesteding |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | abrienen |
-| version | 1.5 |
-| created | 2019-11-26 15:10:12 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_44EC6082_2682_43c7_A52E_0AD05B06A046 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | Aanbesteding |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-bc6f065d-05c9-454d-a18d-1c0c2a2dfe15](https://gemmaonline.nl/index.php/GEMMA/id-bc6f065d-05c9-454d-a18d-1c0c2a2dfe15) |
-| gemma_definitie | Kan een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Aanbesteding"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Aanbesteding |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | abrienen |
+    | version | 1.5 |
+    | created | 2019-11-26 15:10:12 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_44EC6082_2682_43c7_A52E_0AD05B06A046 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | Aanbesteding |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-bc6f065d-05c9-454d-a18d-1c0c2a2dfe15](https://gemmaonline.nl/index.php/GEMMA/id-bc6f065d-05c9-454d-a18d-1c0c2a2dfe15) |
+    | gemma_definitie | Kan een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Aanbesteding
 
@@ -96,26 +96,27 @@ Attributen van objecttype Aanbesteding
 >
 > Aanbesteding voor inhuur van personen of diensten
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Aanbesteding Inhuur |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | abrienen |
-| version | 1.5 |
-| created | 2019-11-26 15:14:45 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_01D90490_C76A_444a_BFCE_355AFC5FB012 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | AanbestedingInhuur |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-686c0af1-67b2-42a4-8690-060705617c13](https://gemmaonline.nl/index.php/GEMMA/id-686c0af1-67b2-42a4-8690-060705617c13) |
-| gemma_definitie | Aanbesteding voor inhuur van personen of diensten |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Aanbesteding Inhuur"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Aanbesteding Inhuur |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | abrienen |
+    | version | 1.5 |
+    | created | 2019-11-26 15:14:45 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_01D90490_C76A_444a_BFCE_355AFC5FB012 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | AanbestedingInhuur |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-686c0af1-67b2-42a4-8690-060705617c13](https://gemmaonline.nl/index.php/GEMMA/id-686c0af1-67b2-42a4-8690-060705617c13) |
+    | gemma_definitie | Aanbesteding voor inhuur van personen of diensten |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Aanbesteding Inhuur
 
@@ -149,26 +150,27 @@ Attributen van objecttype Aanbesteding Inhuur
 >
 > Aankondiging van een Nationale of Europese aanbesteding
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Aankondiging |
-| toelichting |  |
-| synoniemen | Kennisgeving, Bekendmaking |
-| uri |  |
-| bron |  |
-| author | abrienen |
-| version | 1.4 |
-| created | 2019-11-26 15:09:54 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_BB135B0E_A2C2_4681_BD91_30863F8B3D70 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | Aankondiging |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-11a5fd2d-0237-4e70-b859-d1e26456553b](https://gemmaonline.nl/index.php/GEMMA/id-11a5fd2d-0237-4e70-b859-d1e26456553b) |
-| gemma_definitie | Aankondiging van een Nationale of Europese aanbesteding |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Aankondiging"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Aankondiging |
+    | toelichting |  |
+    | synoniemen | Kennisgeving, Bekendmaking |
+    | uri |  |
+    | bron |  |
+    | author | abrienen |
+    | version | 1.4 |
+    | created | 2019-11-26 15:09:54 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_BB135B0E_A2C2_4681_BD91_30863F8B3D70 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | Aankondiging |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-11a5fd2d-0237-4e70-b859-d1e26456553b](https://gemmaonline.nl/index.php/GEMMA/id-11a5fd2d-0237-4e70-b859-d1e26456553b) |
+    | gemma_definitie | Aankondiging van een Nationale of Europese aanbesteding |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Aankondiging
 
@@ -187,26 +189,27 @@ Attributen van objecttype Aankondiging
 >
 > het betreft hier het formulier 'Aanvraag Inkooporder'
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Aanvraag Inkooporder |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | abrienen |
-| version | 1.5 |
-| created | 2019-10-29 11:10:05 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_33E5EA10_F43A_4966_B9C1_875F0E2C1B52 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | AanvraagInkooporder |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-8d9233d7-dfb9-4b87-bab2-61631a632f95](https://gemmaonline.nl/index.php/GEMMA/id-8d9233d7-dfb9-4b87-bab2-61631a632f95) |
-| gemma_definitie | het betreft hier het formulier 'Aanvraag Inkooporder' |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Aanvraag Inkooporder"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Aanvraag Inkooporder |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | abrienen |
+    | version | 1.5 |
+    | created | 2019-10-29 11:10:05 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_33E5EA10_F43A_4966_B9C1_875F0E2C1B52 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | AanvraagInkooporder |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-8d9233d7-dfb9-4b87-bab2-61631a632f95](https://gemmaonline.nl/index.php/GEMMA/id-8d9233d7-dfb9-4b87-bab2-61631a632f95) |
+    | gemma_definitie | het betreft hier het formulier 'Aanvraag Inkooporder' |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Aanvraag Inkooporder
 
@@ -230,26 +233,27 @@ Attributen van objecttype Aanvraag Inkooporder
 >
 > Categorie waarop leveranciers zich voor de levering van personeel voor kunnen kwalificeren
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Categorie |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | abrienen |
-| version | 1.5 |
-| created | 2019-11-26 15:16:32 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_6CA060D0_C5AC_4b50_8B64_00DCAEA7EF48 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Categorie"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Categorie |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | abrienen |
+    | version | 1.5 |
+    | created | 2019-11-26 15:16:32 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_6CA060D0_C5AC_4b50_8B64_00DCAEA7EF48 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Categorie
 
@@ -265,26 +269,27 @@ Attributen van objecttype Categorie
 >
 > Bindende overeenkomst
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Contract |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | abrienen |
-| version | 1.5 |
-| created | 2019-10-29 10:34:40 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_9FBF9FB8_B28D_4733_8443_607B8498F446 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | Contract |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f96af00f-2933-42d0-aacf-58ccb4a0ef52](https://gemmaonline.nl/index.php/GEMMA/id-f96af00f-2933-42d0-aacf-58ccb4a0ef52) |
-| gemma_definitie | Bindende overeenkomst |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Contract"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Contract |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | abrienen |
+    | version | 1.5 |
+    | created | 2019-10-29 10:34:40 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_9FBF9FB8_B28D_4733_8443_607B8498F446 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | Contract |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f96af00f-2933-42d0-aacf-58ccb4a0ef52](https://gemmaonline.nl/index.php/GEMMA/id-f96af00f-2933-42d0-aacf-58ccb4a0ef52) |
+    | gemma_definitie | Bindende overeenkomst |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Contract
 
@@ -314,26 +319,27 @@ Attributen van objecttype Contract
 >
 > De Common Procurement Vocabulary (CPV-codes) is een gemeenschappelijke woordenlijst van de EU, alle mogelijke soorten overheidsopdrachten voor diensten, leveringen en werken hebben een eigen code gekregen. Aanbestedende diensten moeten bij Europese aanbestedingen dit classificatiesysteem toepassen.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | CPV-code |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | abrienen |
-| version | 1.5 |
-| created | 2019-11-27 14:11:20 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_6A4CF470_3B0E_4141_9DB6_C9E8A525CB49 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | CPVCode |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-b6c26d6b-c773-4b50-ba03-a8463f23889a](https://gemmaonline.nl/index.php/GEMMA/id-b6c26d6b-c773-4b50-ba03-a8463f23889a) |
-| gemma_definitie | De Common Procurement Vocabulary (CPV-codes) is een gemeenschappelijke woordenlijst van de EU, alle mogelijke soorten overheidsopdrachten voor diensten, leveringen en werken hebben een eigen code gekregen. Aanbestedende diensten moeten bij Europese aanbes |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model CPV-code"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | CPV-code |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | abrienen |
+    | version | 1.5 |
+    | created | 2019-11-27 14:11:20 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_6A4CF470_3B0E_4141_9DB6_C9E8A525CB49 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | CPVCode |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-b6c26d6b-c773-4b50-ba03-a8463f23889a](https://gemmaonline.nl/index.php/GEMMA/id-b6c26d6b-c773-4b50-ba03-a8463f23889a) |
+    | gemma_definitie | De Common Procurement Vocabulary (CPV-codes) is een gemeenschappelijke woordenlijst van de EU, alle mogelijke soorten overheidsopdrachten voor diensten, leveringen en werken hebben een eigen code gekregen. Aanbestedende diensten moeten bij Europese aanbes |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype CPV-code
 
@@ -349,26 +355,27 @@ Attributen van objecttype CPV-code
 >
 > Formulier ten behoeve van inhuur personeel
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | FormulierInhuur |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | abrienen |
-| version | 1.5 |
-| created | 2019-11-18 15:32:41 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_B598FF22_CDD0_486f_B528_99421D0FA608 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model FormulierInhuur"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | FormulierInhuur |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | abrienen |
+    | version | 1.5 |
+    | created | 2019-11-18 15:32:41 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_B598FF22_CDD0_486f_B528_99421D0FA608 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype FormulierInhuur
 
@@ -386,26 +393,27 @@ Attributen van objecttype FormulierInhuur
 >
 > Formulier ten behoeve van verlenging inhuur personeel
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | FormulierVerlengingInhuur |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | abrienen |
-| version | 1.5 |
-| created | 2019-11-18 15:34:04 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_1D87490A_9F07_424f_BE6F_5E9C11376B05 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model FormulierVerlengingInhuur"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | FormulierVerlengingInhuur |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | abrienen |
+    | version | 1.5 |
+    | created | 2019-11-18 15:34:04 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_1D87490A_9F07_424f_BE6F_5E9C11376B05 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype FormulierVerlengingInhuur
 
@@ -423,26 +431,27 @@ Attributen van objecttype FormulierVerlengingInhuur
 >
 > Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding<br>Of voor levering personeel
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Gunning |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | abrienen |
-| version | 1.5 |
-| created | 2019-11-26 15:11:46 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_3FB9B466_D147_42d7_99D1_2D14A007D16C |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | Gunning |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-70e40543-6a99-433d-8a01-f4273e308410](https://gemmaonline.nl/index.php/GEMMA/id-70e40543-6a99-433d-8a01-f4273e308410) |
-| gemma_definitie | Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding<br>Of voor levering personeel |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Gunning"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Gunning |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | abrienen |
+    | version | 1.5 |
+    | created | 2019-11-26 15:11:46 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_3FB9B466_D147_42d7_99D1_2D14A007D16C |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | Gunning |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-70e40543-6a99-433d-8a01-f4273e308410](https://gemmaonline.nl/index.php/GEMMA/id-70e40543-6a99-433d-8a01-f4273e308410) |
+    | gemma_definitie | Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding<br>Of voor levering personeel |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Gunning
 
@@ -461,26 +470,27 @@ Attributen van objecttype Gunning
 >
 > Standaard indeling om de werken, diensten en leveringen die de aanbestedende dienst helpt bij het structureren van haar uitgaven. Samenhangende leveringen, diensten en producten zijn hierin gegroepeerd.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Inkooppakket |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | aashkpour |
-| version | 1.5 |
-| created | 2020-11-12 16:59:28 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_170AF8F5_8952_407a_91C4_EAF910DE3304 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Inkooppakket"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Inkooppakket |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | aashkpour |
+    | version | 1.5 |
+    | created | 2020-11-12 16:59:28 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_170AF8F5_8952_407a_91C4_EAF910DE3304 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Inkooppakket
 
@@ -497,26 +507,27 @@ Attributen van objecttype Inkooppakket
 >
 > Inschrijving op een nationale of Europese aanbesteding
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Inschrijving |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | abrienen |
-| version | 1.5 |
-| created | 2019-11-26 15:11:11 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_2902E8D6_FF16_45d6_A0A4_47E2857D2D19 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | Inschrijving |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-e1c425c1-a3fe-4144-907d-13da8d9fb5cc](https://gemmaonline.nl/index.php/GEMMA/id-e1c425c1-a3fe-4144-907d-13da8d9fb5cc) |
-| gemma_definitie | Inschrijving op een nationale of Europese aanbesteding |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Inschrijving"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Inschrijving |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | abrienen |
+    | version | 1.5 |
+    | created | 2019-11-26 15:11:11 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_2902E8D6_FF16_45d6_A0A4_47E2857D2D19 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | Inschrijving |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-e1c425c1-a3fe-4144-907d-13da8d9fb5cc](https://gemmaonline.nl/index.php/GEMMA/id-e1c425c1-a3fe-4144-907d-13da8d9fb5cc) |
+    | gemma_definitie | Inschrijving op een nationale of Europese aanbesteding |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Inschrijving
 
@@ -533,26 +544,27 @@ Attributen van objecttype Inschrijving
 >
 > Iemand die een bepaalde baan of functie wil
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Kandidaat |
-| toelichting |  |
-| synoniemen | Gegadigde |
-| uri |  |
-| bron |  |
-| author | abrienen |
-| version | 1.4 |
-| created | 2019-11-27 10:37:40 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_75B4E818_5ECD_45c5_98F9_66F57FC6117E |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | Kandidaat |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-dc97ebf4-61ee-47f6-a108-af6bb4a276f7](https://gemmaonline.nl/index.php/GEMMA/id-dc97ebf4-61ee-47f6-a108-af6bb4a276f7) |
-| gemma_definitie | Iemand die een bepaalde baan of functie wil |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Kandidaat"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Kandidaat |
+    | toelichting |  |
+    | synoniemen | Gegadigde |
+    | uri |  |
+    | bron |  |
+    | author | abrienen |
+    | version | 1.4 |
+    | created | 2019-11-27 10:37:40 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_75B4E818_5ECD_45c5_98F9_66F57FC6117E |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | Kandidaat |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-dc97ebf4-61ee-47f6-a108-af6bb4a276f7](https://gemmaonline.nl/index.php/GEMMA/id-dc97ebf4-61ee-47f6-a108-af6bb4a276f7) |
+    | gemma_definitie | Iemand die een bepaalde baan of functie wil |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Kandidaat
 
@@ -567,26 +579,27 @@ Attributen van objecttype Kandidaat
 >
 > Kwalifificatie voor een nationale of europese aanbesteding
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Kwalificatie |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | abrienen |
-| version | 1.5 |
-| created | 2019-11-26 15:10:32 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_AB2AED85_D2B0_45cf_9B1F_C6005E894494 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Kwalificatie"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Kwalificatie |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | abrienen |
+    | version | 1.5 |
+    | created | 2019-11-26 15:10:32 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_AB2AED85_D2B0_45cf_9B1F_C6005E894494 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Kwalificatie
 
@@ -602,26 +615,27 @@ Attributen van objecttype Kwalificatie
 >
 > Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Leverancier |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | Arjen Brienen |
-| version | 1.5 |
-| created | 2018-05-29 13:54:06 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_EA7FE08E_34F7_45d2_BE2E_E4E3B8333BF3 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | Leverancier |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-113af80a-7e3e-41f6-8f79-8d0d48c4c257](https://gemmaonline.nl/index.php/GEMMA/id-113af80a-7e3e-41f6-8f79-8d0d48c4c257) |
-| gemma_definitie | Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Leverancier"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Leverancier |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Arjen Brienen |
+    | version | 1.5 |
+    | created | 2018-05-29 13:54:06 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_EA7FE08E_34F7_45d2_BE2E_E4E3B8333BF3 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | Leverancier |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-113af80a-7e3e-41f6-8f79-8d0d48c4c257](https://gemmaonline.nl/index.php/GEMMA/id-113af80a-7e3e-41f6-8f79-8d0d48c4c257) |
+    | gemma_definitie | Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Leverancier
 
@@ -637,26 +651,27 @@ Attributen van objecttype Leverancier
 >
 > Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Offerte |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | abrienen |
-| version | 1.5 |
-| created | 2019-11-27 13:29:18 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_BF21FFA3_3EA6_410a_BC65_7BE5547646B6 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | Offerte |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-6d31df7d-b7f9-4f50-be9f-eaf05c697f6e](https://gemmaonline.nl/index.php/GEMMA/id-6d31df7d-b7f9-4f50-be9f-eaf05c697f6e) |
-| gemma_definitie | Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs. |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Offerte"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Offerte |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | abrienen |
+    | version | 1.5 |
+    | created | 2019-11-27 13:29:18 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_BF21FFA3_3EA6_410a_BC65_7BE5547646B6 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | Offerte |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-6d31df7d-b7f9-4f50-be9f-eaf05c697f6e](https://gemmaonline.nl/index.php/GEMMA/id-6d31df7d-b7f9-4f50-be9f-eaf05c697f6e) |
+    | gemma_definitie | Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs. |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Offerte
 
@@ -674,26 +689,27 @@ Attributen van objecttype Offerte
 >
 > Aanbesteding bij inschrijving
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Offerteaanvraag |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | abrienen |
-| version | 1.5 |
-| created | 2019-11-26 15:22:25 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_1EF1AC66_9563_4cdd_AE78_0878D651907A |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | Offerteaanvraag |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-1b3c3c06-c7e9-40c0-8fa1-dbbc3c23152f](https://gemmaonline.nl/index.php/GEMMA/id-1b3c3c06-c7e9-40c0-8fa1-dbbc3c23152f) |
-| gemma_definitie | Aanbesteding bij inschrijving |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Offerteaanvraag"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Offerteaanvraag |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | abrienen |
+    | version | 1.5 |
+    | created | 2019-11-26 15:22:25 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_1EF1AC66_9563_4cdd_AE78_0878D651907A |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | Offerteaanvraag |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-1b3c3c06-c7e9-40c0-8fa1-dbbc3c23152f](https://gemmaonline.nl/index.php/GEMMA/id-1b3c3c06-c7e9-40c0-8fa1-dbbc3c23152f) |
+    | gemma_definitie | Aanbesteding bij inschrijving |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Offerteaanvraag
 
@@ -711,26 +727,27 @@ Attributen van objecttype Offerteaanvraag
 >
 > Gebaseerd op het procedureoverzicht inkoop. Hierin kan de tabel met drempelbedragen en bijbehorende procedures worden opgeslagen
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | SelectietabelAanbesteding |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | abrienen |
-| version | 1.5 |
-| created | 2019-11-18 17:33:00 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_B2BD6C5B_460E_4f2a_9B78_3E101DAD8D6B |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model SelectietabelAanbesteding"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | SelectietabelAanbesteding |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | abrienen |
+    | version | 1.5 |
+    | created | 2019-11-18 17:33:00 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_B2BD6C5B_460E_4f2a_9B78_3E101DAD8D6B |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype SelectietabelAanbesteding
 
@@ -749,26 +766,27 @@ Attributen van objecttype SelectietabelAanbesteding
 >
 > Formulier voor het starten van een aanbeseding
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | StartformulierAanbesteden |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | abrienen |
-| version | 1.5 |
-| created | 2019-11-18 15:32:13 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_7694A657_22D8_4b00_AAE2_A78EF014B43A |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model StartformulierAanbesteden"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | StartformulierAanbesteden |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | abrienen |
+    | version | 1.5 |
+    | created | 2019-11-18 15:32:13 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_7694A657_22D8_4b00_AAE2_A78EF014B43A |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype StartformulierAanbesteden
 
@@ -796,26 +814,27 @@ Attributen van objecttype StartformulierAanbesteden
 >
 > Een verzoek om iets bij te wonen.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Uitnodiging |
-| toelichting |  |
-| synoniemen | Invitatie |
-| uri |  |
-| bron |  |
-| author | abrienen |
-| version | 1.4 |
-| created | 2019-11-27 14:27:00 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_BB182A6F_6935_4702_ABEA_B96E32A40B02 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam | Uitnodiging |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-16b98915-5c5e-4933-bfc0-9db634c47acb](https://gemmaonline.nl/index.php/GEMMA/id-16b98915-5c5e-4933-bfc0-9db634c47acb) |
-| gemma_definitie | Een verzoek om iets bij te wonen. |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Uitnodiging"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Uitnodiging |
+    | toelichting |  |
+    | synoniemen | Invitatie |
+    | uri |  |
+    | bron |  |
+    | author | abrienen |
+    | version | 1.4 |
+    | created | 2019-11-27 14:27:00 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_BB182A6F_6935_4702_ABEA_B96E32A40B02 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | Uitnodiging |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-16b98915-5c5e-4933-bfc0-9db634c47acb](https://gemmaonline.nl/index.php/GEMMA/id-16b98915-5c5e-4933-bfc0-9db634c47acb) |
+    | gemma_definitie | Een verzoek om iets bij te wonen. |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Uitnodiging
 
@@ -846,26 +865,27 @@ Het enumeratie Aanbestedingsoort kent de volgende waarden:
 
 De enumeratie Aanbestedingsoort heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | Aanbestedingsoort |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:13:19 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_B8B79BCE_8F87_46f7_BB15_288266799E56 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Aanbestedingsoort"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Aanbestedingsoort |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:19 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_B8B79BCE_8F87_46f7_BB15_288266799E56 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### Inkooprol
@@ -880,26 +900,27 @@ Het enumeratie Inkooprol kent de volgende waarden:
 
 De enumeratie Inkooprol heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | Inkooprol |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:13:19 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_2C2791CB_EFCA_444f_A95E_F1EF6EE83594 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Inkooprol"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Inkooprol |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:19 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_2C2791CB_EFCA_444f_A95E_F1EF6EE83594 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### Opdrachtcategorie
@@ -915,26 +936,27 @@ Het enumeratie Opdrachtcategorie kent de volgende waarden:
 
 De enumeratie Opdrachtcategorie heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | Opdrachtcategorie |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:13:19 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_87322382_E60F_4d0e_93B0_6628D3CC964B |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Opdrachtcategorie"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Opdrachtcategorie |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:19 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_87322382_E60F_4d0e_93B0_6628D3CC964B |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### Opdrachtsoort
@@ -949,26 +971,27 @@ Het enumeratie Opdrachtsoort kent de volgende waarden:
 
 De enumeratie Opdrachtsoort heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | Opdrachtsoort |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author |  |
-| version | 1.4 |
-| created | 2025-03-26 11:13:19 |
-| modified | 2025-03-26 16:14:48 |
-| id | EAID_5D6461E2_0D66_4039_BBF4_B413322EF194 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Opdrachtsoort"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Opdrachtsoort |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:19 |
+    | modified | 2025-03-26 16:14:48 |
+    | id | EAID_5D6461E2_0D66_4039_BBF4_B413322EF194 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 

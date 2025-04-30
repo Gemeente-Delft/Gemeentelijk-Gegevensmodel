@@ -9,9 +9,9 @@ Dit deeldomein is gebaseerd op het [GBI (Generieke Basisprocessen Inkomen)](http
 
 De basis van dit deeldomein gevormd door `Inkomen (Basis objecttypen)`, aan te vullen met de GBI-deelmodellen. Deze worden in de volgende paragrafen beschreven. 
 
-!!! Observatie
+!!! danger "Observatie"
 
-    Het Dienstenmodel van GBI is geen concreet model. Dit dienstenmodel heeft aanvullend invulling nodig voor specifieke gemeentelijke inkomensdiensten, zoals: IOAW, IOAZ, Bijstand, Bijzondere bijstand. Deze maken nu geen onderdeel uit van de GBI-ontologie. Het GGM heeft dat wel, maar op een minder geavanceerde manier. Deze zijn uitgewerkt in het subdomein Inkomen (Basis objecttypen). Normafwijking en Terug- en invordering zijn wel concrete modellen, die zonder nadere invulling toegeoast kunnen worden 
+    Het Dienstenmodel van GBI is geen concreet model. Dit dienstenmodel heeft aanvullend invulling nodig voor specifieke gemeentelijke inkomensdiensten, zoals: IOAW, IOAZ, Bijstand, Bijzondere bijstand. Deze maken nu geen onderdeel uit van de GBI-ontologie. Het GGM heeft dat wel, maar op een minder geavanceerde manier. Deze zijn uitgewerkt in het subdomein Inkomen (Basis objecttypen), deze kunnen zonder nadere invulling worden gebruikt. Normafwijking en Terug- en invordering zijn wel concrete modellen, die zonder nadere invulling toegepast kunnen worden. 
 
 ## Inkomen (Basis objecttypen)
 
