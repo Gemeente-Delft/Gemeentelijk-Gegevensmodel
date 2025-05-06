@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Subsidies:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over het proces van aanvragen, beoordelen, verstrekken, beheren en verantwoorden van subsidies door de organisatie, zowel in de rol van subsidieverstrekker als subsidieontvanger.
 
 Het model 'Model Subsidies' kent de volgende objecttypen:
 

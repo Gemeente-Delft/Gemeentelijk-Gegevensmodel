@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model HR:** 
 >
-> Geen definitie
+> Het informatiesubdomein dat gegevens omvat over het beheer en de ontwikkeling van personeel, gericht op het ondersteunen van de organisatie en haar medewerkers.
 
 Het model 'Model HR' kent de volgende objecttypen:
 

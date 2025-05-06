@@ -2,12 +2,12 @@
 ## Inleiding
 > **Definitie Model Schuldhulpverlening:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over de ondersteuning en begeleiding van inwoners met problematische schulden, gericht op het bevorderen van financiële stabiliteit en maatschappelijke participatie.
 
 Het model 'Model Schuldhulpverlening' kent de volgende objecttypen:
 
 * **Aanmelding**: Moment dat een persoon met een hulpvraag komt rondom (dreigende) schulden. Dit kan een persoonlijke, schriftelijke, digitale of telefonische vraag zijn. 
-* **Begeleiding**: Begeleiding voor clienten in het kader van schuldhulpdienstverlening, die kan bestaan uit: 1. budgetbeheer 2. beschermingsbewind 3. budgetcoaching 
+* **Begeleiding**: Begeleiding voor clienten in het kader van schuldhulpdienstverlening. 
 * **Begeleidingssoort**: Soort begeleiding in het kader van schuldhulpverlening
 * **Contactpersoon**: Contactpersoon van een organisatie
 * **Crisisinterventie**: Het afwenden van een crisis- of dreigende situatie om zo de mogelijkheid te cre&#235;ren om de klant te helpen via de reguliere schuldhulpverlening. Volgens de Wgs gaat het in elk geval om de volgende situaties: ■ gedwongen woningontruiming; ■ be&#235;indiging van de levering van gas, water, elektriciteit of stadsverwarming; ■ opzegging of ontbinding van de zorgverzekering. Gemeenten kunnen extra situaties toevoegen aan hun crisisprotocol, zoals: ■ aangekondigde boedelverkoop of verkoop van de eigen woning; ■ loon- of bankbeslag; ■ een faillissementsaanvraag. En voor ondernemers: ■ beslag op (on)roerende zaken dat het voortbestaan van de onderneming bedreigt; ■ opzegging van het bankkrediet. 
@@ -18,7 +18,7 @@ Het model 'Model Schuldhulpverlening' kent de volgende objecttypen:
 * **Moratorium**: Het gaat hier om de datum waarop een verzoek tot een moratorium (ex art. 287 b Fw) is ingediend bij de rechter.  Er kan een verzoek tot een moratorium bij de rechter worden gedaan om te voorkomen dat een schuldeiser zijn specifieke inningsmogelijkheden gebruikt, terwijl een aanvraag voor een minnelijke schuldregeling in behandeling is. Het moratorium is bedoeld om het minnelijke traject te kunnen voortzetten.  Het moratorium kan in de volgende situaties worden ingezet: - gedwongen woningontruiming; - be&#235;indiging van de levering van gas, water elektriciteit of stadsverwarming; - opzegging dan wel ontbinding van de zorgverzekering.  Het moratorium duurt maximaal zes maanden.
 * **Nazorg**: Ondersteuning die een persoon ontvangt n&#225; een schuldhulptraject, om zo bij de start van een schuldenvrij leven zelfredzaamheid verder te bevorderen &#233;n recidive (terugval) te voorkomen.
 * **Ondernemer**: Een ondernemer is een individu die die goederen of diensten levert aan anderen om winst te maken.
-* **Oplossing**: De Oplossing beschrijft in 5 submodules wat de schuldhulpverlener doet om een oplossing te realiseren, en kent de volgende submodules:  - submodule Herfinanciering; - submodule Betalingsregeling; - submodule Saneringskrediet; - submodule Schuldbemiddeling. Het kan ook gaan om een 0%-aanbod
+* **Oplossing**: <font color="#0e0e0e">In de schuldhulpverlening verwijst een “oplossing” naar een regeling waarbij schulden op een beheersbare manier worden afgelost of kwijtgescholden, met als doel de financi&#235;le situatie van de schuldenaar te stabiliseren. Er worden verschillende oplossingsvormen onderscheiden, waaronder saneringskrediet, schuldbemiddeling, herfinanciering, betalingsregelingen en schuldregelingen zonder afloscapaciteit. Bij een saneringskrediet ontvangt de schuldenaar een lening om alle schuldeisers in &#233;&#233;n keer af te betalen, waarna hij deze lening aflost aan de kredietverstrekker. Schuldbemiddeling houdt in dat de schuldenaar gedurende een afgesproken periode periodiek bedragen aflost aan de schuldeisers. Herfinanciering betreft het vervangen van bestaande schulden door een nieuwe lening met gunstigere voorwaarden. Een betalingsregeling is een afspraak tussen schuldenaar en schuldeiser om de schuld in termijnen af te lossen. Bij een schuldregeling zonder afloscapaciteit wordt vastgesteld dat de schuldenaar geen financi&#235;le ruimte heeft om af te lossen, wat kan leiden tot kwijtschelding van de schuld. Deze oplossingsvormen worden ingezet afhankelijk van de specifieke situatie van de schuldenaar en zijn gericht op een duurzame oplossing van de schuldenproblematiek.  </font>
 * **Oplossingssoort**: De soort oplossing in het kader van Schuldhulpverlening
 * **Partner**: Een partner is een persoon met wie iemand een romantische en vaak langdurige relatie heeft, gebaseerd op wederzijdse liefde, steun en commitment.
 * **PlanVanAanpak**: Een document waarin in elk geval het volgende staat: ■ de hulpvraag van de persoon; ■ de voorgestelde ondersteuning; ■ eventueel de organisatie(s) waarnaar je hebt doorverwezen; ■ de voorwaarden voor schuldhulpverlening (bijvoorbeeld dat de persoon geen nieuwe schulden mag maken).  De hoogte van beslagvrije voet voor de persoon (zie artikel 4a:5 van de Wgs) moet in acht worden genomen.
@@ -29,7 +29,7 @@ Het model 'Model Schuldhulpverlening' kent de volgende objecttypen:
 * **Schuldregeling**: De schuldregeling heeft als doel een overeenkomst te sluiten tussen iemand met problematische schulden en zijn schuldeisers. Op basis van eventueel ingezet vermogen en de berekende afloscapaciteit (of op andere wijze vastgestelde minimale afdracht) lost de schuldenaar in maximaal 18 maanden zo veel mogelijk van de schuld af. Daarna schelden de schuldeisers de rest van hun vordering kwijt. Voordat de schuldregeling start, sluit je een schuldregelingsovereenkomst met de schuldenaar. Daarin staan de rechten en plichten van beide partijen. Een schuldregeling kan met een saneringskrediet of een schuldbemiddeling gerealiseerd worden. Als een of meer schuldeisers blijven weigeren in te stemmen met de minnelijke schuldregeling, informeer je de schuldenaar over mogelijke vervolgstappen, zoals het aanvragen van een dwangakkoord (artikel 287a Fw) of toelating tot de Wsnp.
 * **Stabilisatie**: Fase van het schuldhulpverleningstraject met als doel de inkomsten en uitgaven van een persoon in evenwicht te brengen. De stabilisatie van inkomen en uitgaven is een resultaat van werkzaamheden uit het integrale plan van aanpak. Als stabilisatie bereikt is kan een betalingsregeling, herfinanciering of schuldregeling worden opgezet. Een belangrijk tweede doel is om de hulpvrager hierbij schuldenrust te bieden: stress wegnemen en tijd maken voor oplossingen naar een schuldenzorgvrije toekomst. In de stabilisatiefase kan een schuldhulpverlener andere instrumenten, activiteiten of ondersteuning inzetten, die bijdragen aan de duurzame oplossing van het financi&#235;le probleem, zoals budgetcoaching, budgetbeheer, beschermingsbewind of flankerende hulp.
 * **Uitstroom**: Motivatie voor uitstroom
-* **VoorlopigeVoorziening **: Een voorlopige voorziening in het kader van schuldhulpverlening door gemeenten is een tijdelijke maatregel die wordt getroffen om acute financiï¿½le problemen of crises van een inwoner direct te verlichten terwijl een duurzaam schuldhulpverleningstraject wordt voorbereid. Voorlopige voorzieningen kunnen bijvoorbeeld bestaan uit het tijdelijk betalen van huur om huisuitzetting te voorkomen, het treffen van betalingsregelingen met schuldeisers, of het bieden van een financiï¿½le overbrugging. Het doel is om stabiliteit te creï¿½ren in de financiï¿½le situatie van de inwoner en te voorkomen dat de problematiek verder escaleert. Deze maatregel wordt ingezet op basis van urgentie en maatwerk.
+* **VoorlopigeVoorziening **: <Geen Definities>
 * **Woningbezit**: Een koopwoning is een woning die eigendom is van een individu of een entiteit, die het heeft gekocht en waarvoor meestal een hypotheek is afgesloten.
 * **WSNP-traject**: Een WSNP-traject (Wet schuldsanering natuurlijke personen) is een wettelijk regeling in Nederland waarmee individuen met problematische schulden via een saneringsplan onder toezicht van een bewindvoerder hun schulden kunnen aflossen en na drie jaar een schone lei kunnen krijgen.
 * **WSNP-verklaring**: Een WSNP-verklaring is een officieel document dat bevestigt dat een persoon toegelaten is tot de Wet Schuldsanering Natuurlijke Personen (WSNP) om hun schulden onder toezicht van een bewindvoerder af te lossen.
@@ -47,7 +47,7 @@ Het model 'Model Schuldhulpverlening' heeft de volgende kenmerken:
 | author | Arjen Brienen |
 | version | 1.4 |
 | created | 2018-06-13 13:19:30 |
-| modified | 2025-03-27 15:28:35 |
+| modified | 2025-04-23 15:42:59 |
 | id | EAPK_06C51790_1F81_4ac4_8E16_5177352EF2E1 |
 
 
@@ -62,14 +62,14 @@ Het model 'Model Schuldhulpverlening' heeft de volgende kenmerken:
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Aanmelding |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
-| bron |  |
+| bron | [https://www.nvvk.nl/kennisbank-detail/2021/04/13/Module-Aanmelding](https://www.nvvk.nl/kennisbank-detail/2021/04/13/Module-Aanmelding) |
 | author | arjen |
-| version | 1.4 |
+| version | 1.0 |
 | created | 2024-02-19 11:59:43 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:44:26 |
 | id | EAID_1CE06538_3F4A_45ac_AE86_30A4250D3608 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -84,6 +84,8 @@ Attributen van objecttype Aanmelding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| startdatum | Datum | Datum waarop een persoon met een hulpvraag komt rondom (dreigende) schulden. Dit kan een persoonlijke, schriftelijke, digitale of telefonische vraag zijn.  |
+| einddatum | Datum |  |
 | crisisinterventie | boolean | Is er sprake van een crisisinterventie? Indicator crisisinterventie. "Het afwenden van een crisis- of dreigende situatie om zo de mogelijkheid te cre&#235;ren om de klant te helpen via de reguliere schuldhulpverlening.
 Volgens de Wgs gaat het in elk geval om de volgende situaties:
 ■ gedwongen woningontruiming;
@@ -96,8 +98,6 @@ Gemeenten kunnen extra situaties toevoegen aan hun crisisprotocol, zoals:
 En voor ondernemers:
 ■ beslag op (on)roerende zaken dat het voortbestaan van de onderneming bedreigt;
 ■ opzegging van het bankkrediet." |
-| startdatum | Datum | Datum waarop een persoon met een hulpvraag komt rondom (dreigende) schulden. Dit kan een persoonlijke, schriftelijke, digitale of telefonische vraag zijn.  |
-| einddatum | Datum |  |
 | None | Class: "Intake" |  |
 
 
@@ -106,23 +106,20 @@ En voor ondernemers:
 ### Begeleiding
 > **Definitie Begeleiding:** 
 >
-> Begeleiding voor clienten in het kader van schuldhulpdienstverlening, die kan bestaan uit:
-> 1. budgetbeheer
-> 2. beschermingsbewind
-> 3. budgetcoaching
+> Begeleiding voor clienten in het kader van schuldhulpdienstverlening.
 > 
 
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Begeleiding |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
-| bron |  |
+| bron | [https://www.nvvk.nl/ons-werkveld/gedragscodes-en-modules](https://www.nvvk.nl/ons-werkveld/gedragscodes-en-modules) |
 | author | arjen |
-| version | 1.5 |
+| version | 1.0 |
 | created | 2024-03-05 11:02:17 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:44:32 |
 | id | EAID_A1F16832_3F28_4441_8538_74BF04A48562 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -139,7 +136,7 @@ Attributen van objecttype Begeleiding
 | :--- | :--- | :--- |
 | startdatum | Date |  |
 | einddatum | Date |  |
-| soort | EnumBegeleidingssoort |  |
+| soort | Enumeratie: "EnumBegeleidingssoort" |  |
 | None | Class: "Begeleidingssoort" |  |
 | None | Class: "Nazorg" |  |
 
@@ -154,14 +151,14 @@ Attributen van objecttype Begeleiding
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Begeleidingssoort |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | arjen |
-| version | 1.4 |
+| version | 1.0 |
 | created | 2024-03-05 11:58:54 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:45:01 |
 | id | EAID_158BE97A_2031_437b_A5CC_637188EB9968 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -189,14 +186,14 @@ Attributen van objecttype Begeleidingssoort
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Contactpersoon |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | arjen |
-| version | 1.4 |
+| version | 1.0 |
 | created | 2024-02-19 12:00:13 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:45:07 |
 | id | EAID_B9287881_AD66_4396_A629_ED5FE9196316 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -239,14 +236,14 @@ Attributen van objecttype Contactpersoon
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Crisisinterventie |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | arjen |
-| version | 1.5 |
+| version | 1.0 |
 | created | 2024-05-31 15:31:48 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:45:12 |
 | id | EAID_0E3205DA_BC88_425b_AF68_882BFB316812 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -275,14 +272,14 @@ Attributen van objecttype Crisisinterventie
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | InformatieEnAdvies |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | arjen |
-| version | 1.2 |
+| version | 1.0 |
 | created | 2024-08-30 10:20:15 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:45:18 |
 | id | EAID_7CC8C026_91CB_422c_84C6_90401889F260 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -311,14 +308,14 @@ Attributen van objecttype InformatieEnAdvies
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Inkomen |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | arjen |
-| version | 1.4 |
+| version | 1.0 |
 | created | 2024-02-19 12:07:52 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:45:23 |
 | id | EAID_B2A3D4C2_236C_457f_A2C8_8F889C1427E9 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -346,21 +343,19 @@ Attributen van objecttype Inkomen
 ### Intake
 > **Definitie Intake:** 
 >
-> Dit is de fase tussen het eerste gesprek en het Plan van Aanpak. Tijdens de
-> intakefase wordt geinventariseerd welke instrumenten, ondersteuning, activiteiten en gegevens nodig zijn om een duurzaam financieel
-> evenwicht te bereiken.
+> Dit is de fase tussen het eerste gesprek en het Plan van Aanpak. Tijdens de intakefase wordt geinventariseerd welke instrumenten, ondersteuning, activiteiten en gegevens nodig zijn om een duurzaam financieel evenwicht te bereiken.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Intake |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
-| bron |  |
+| bron | [https://www.nvvk.nl/kennisbank-detail/2021/04/15/Module-Intake](https://www.nvvk.nl/kennisbank-detail/2021/04/15/Module-Intake) |
 | author | arjen |
-| version | 1.5 |
+| version | 1.0 |
 | created | 2024-02-19 12:03:03 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:45:29 |
 | id | EAID_F20A11B2_0C6F_4a52_95BF_AB73997C3378 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -375,9 +370,7 @@ Attributen van objecttype Intake
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| startdatum | Datum | Het gesprek dat plaatsvindt na aanmelding of na ontvangst hulpvraag (bijv. bij doorverwijzing vanuit vroegsignalering). Doel van dit gesprek is om de hulpvraag vast te stellen en te beoordelen welke instrumenten, ondersteuning, activiteiten en gegevens nodig zijn om een persoon te helpen om een duurzaam financieel evenwicht te bereiken. 
-
- |
+| startdatum | Datum | Het gesprek dat plaatsvindt na aanmelding of na ontvangst hulpvraag (bijv. bij doorverwijzing vanuit vroegsignalering). Doel van dit gesprek is om de hulpvraag vast te stellen en te beoordelen welke instrumenten, ondersteuning, activiteiten en gegevens nodig zijn om een persoon te helpen om een duurzaam financieel evenwicht te bereiken. |
 | einddatum | Datum | De datum van afronding van de intake. Een klant ontvangt een gemotiveerde afwijzing of een toelatingsbeschikking.  |
 | beschikkingsdatum | Datum | De datum waarop de beschikking is afgegeven. Het kan hierom verschillende typen beschikking gaan, zoals: afwijzings- toewijsings- of beeindigingsbeschikking.  |
 | beschikkingssoort | Enumeratie: "EnumBeschikkingssoort" |  |
@@ -401,16 +394,16 @@ Attributen van objecttype Intake
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.5 |
+| version | 1.0 |
 | created | 2018-06-13 13:31:03 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:45:35 |
 | id | EAID_5CC59215_5A63_4ef8_9D64_C4FAC0619121 |
 | domein_iv3 |  |
 | domein_dcat |  |
-| gemma_naam | FinancieleSituatie |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-fd84565d-63d3-44a1-84e0-cd0f580cb2ad](https://gemmaonline.nl/index.php/GEMMA/id-fd84565d-63d3-44a1-84e0-cd0f580cb2ad) |
-| gemma_definitie | Verhouding in inkomsten en uitgaven van een persoon of bedrijf |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
 | gemma_toelichting |  |
 
 
@@ -446,14 +439,14 @@ Attributen van objecttype Leefsituatie
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Moratorium |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | arjen |
-| version | 1.5 |
+| version | 1.0 |
 | created | 2024-05-31 15:41:29 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:45:40 |
 | id | EAID_5FC12BE5_75F0_4dd9_8DA7_993C03F3700A |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -484,14 +477,14 @@ Attributen van objecttype Moratorium
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Nazorg |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
-| bron |  |
+| bron | [https://www.nvvk.nl/kennisbank-detail/2022/07/07/Module-Nazorg?originNode=1401](https://www.nvvk.nl/kennisbank-detail/2022/07/07/Module-Nazorg?originNode=1401) |
 | author | arjen |
-| version | 1.4 |
+| version | 1.0 |
 | created | 2024-04-15 16:25:14 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:45:46 |
 | id | EAID_551A527B_A2E2_4409_968B_D1BE4612EB3C |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -520,14 +513,14 @@ Attributen van objecttype Nazorg
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Ondernemer |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
-| bron |  |
+| bron | [https://ondernemersplein.kvk.nl/inschrijven-bij-kvk/](https://ondernemersplein.kvk.nl/inschrijven-bij-kvk/) |
 | author | arjen |
-| version | 1.4 |
+| version | 1.0 |
 | created | 2024-02-19 14:44:21 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:45:51 |
 | id | EAID_AA004853_3565_4634_A434_BD7F36ED0B1A |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -551,24 +544,19 @@ Attributen van objecttype Ondernemer
 ### Oplossing
 > **Definitie Oplossing:** 
 >
-> De Oplossing beschrijft in 5 submodules wat de schuldhulpverlener doet om een oplossing te realiseren, en kent de volgende submodules: 
-> - submodule Herfinanciering;
-> - submodule Betalingsregeling;
-> - submodule Saneringskrediet;
-> - submodule Schuldbemiddeling.
-> Het kan ook gaan om een 0%-aanbod
+> <font color="#0e0e0e">In de schuldhulpverlening verwijst een “oplossing” naar een regeling waarbij schulden op een beheersbare manier worden afgelost of kwijtgescholden, met als doel de financi&#235;le situatie van de schuldenaar te stabiliseren. Er worden verschillende oplossingsvormen onderscheiden, waaronder saneringskrediet, schuldbemiddeling, herfinanciering, betalingsregelingen en schuldregelingen zonder afloscapaciteit. Bij een saneringskrediet ontvangt de schuldenaar een lening om alle schuldeisers in &#233;&#233;n keer af te betalen, waarna hij deze lening aflost aan de kredietverstrekker. Schuldbemiddeling houdt in dat de schuldenaar gedurende een afgesproken periode periodiek bedragen aflost aan de schuldeisers. Herfinanciering betreft het vervangen van bestaande schulden door een nieuwe lening met gunstigere voorwaarden. Een betalingsregeling is een afspraak tussen schuldenaar en schuldeiser om de schuld in termijnen af te lossen. Bij een schuldregeling zonder afloscapaciteit wordt vastgesteld dat de schuldenaar geen financi&#235;le ruimte heeft om af te lossen, wat kan leiden tot kwijtschelding van de schuld. Deze oplossingsvormen worden ingezet afhankelijk van de specifieke situatie van de schuldenaar en zijn gericht op een duurzame oplossing van de schuldenproblematiek.  </font>
 
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Oplossing |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
-| bron |  |
+| bron | [https://www.nvvk.nl/l/library/download/urn:uuid:eba70d82-a0a0-40c4-9dd2-4c4aee7f0ed9/nvvk-module-12-oplossingen-221219.pdf](https://www.nvvk.nl/l/library/download/urn:uuid:eba70d82-a0a0-40c4-9dd2-4c4aee7f0ed9/nvvk-module-12-oplossingen-221219.pdf) |
 | author | arjen |
-| version | 1.5 |
+| version | 1.0 |
 | created | 2024-02-19 12:11:12 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:45:57 |
 | id | EAID_7E274EE0_FB77_43ef_ABCB_91ACF0ACD469 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -586,7 +574,7 @@ Attributen van objecttype Oplossing
 | startdatum | Datum | Het gaat om het moment dat een schuldregeling (saneringskrediet/schuldbemiddeling) of volledige afbetalingsregeling (betalingsregeling/herfinanciering) daadwerkelijk start na goedkeuring van de aanvraag. |
 | einddatum | Datum | Het gaat om het moment dat een schuldregeling (saneringskrediet/schuldbemiddeling) of volledige afbetalingsregeling (betalingsregeling/herfinanciering) daadwerkelijk eindigt. Dit kan zijn na de formele afgesproken periode of een voortijdige beeindiging. |
 | soort | Enumeratie: "EnumOplossingssoort" |  |
-| vtlb | Bedrag | Het ï¿½Vrij te laten bedragï¿½ (VTLB) is het bedrag (in hele euro's per maand) dat een persoon of huishouden met schulden mag behouden om in de basisbehoeften te voorzien. Dit bedrag wordt vastgesteld tijdens schuldhulpverleningstrajecten. Het VTLB zorgt ervoor dat iemand niet verder in de problemen komt door schulden af te lossen en tegelijkertijd nog kan voorzien in noodzakelijke kosten van levensonderhoud. |
+| vtlb | Bedrag | Het “Vrij te laten bedrag” (VTLB) is het bedrag (in hele euro's per maand) dat een persoon of huishouden met schulden mag behouden om in de basisbehoeften te voorzien. Dit bedrag wordt vastgesteld tijdens schuldhulpverleningstrajecten. Het VTLB zorgt ervoor dat iemand niet verder in de problemen komt door schulden af te lossen en tegelijkertijd nog kan voorzien in noodzakelijke kosten van levensonderhoud. |
 | None | Class: "Nazorg" |  |
 | None | Class: "Oplossingssoort" |  |
 
@@ -601,14 +589,14 @@ Attributen van objecttype Oplossing
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Oplossingssoort |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | arjen |
-| version | 1.4 |
+| version | 1.0 |
 | created | 2024-03-05 11:56:51 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:46:02 |
 | id | EAID_677992F0_3C05_43b6_82C7_4A7EA57EDFED |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -636,14 +624,14 @@ Attributen van objecttype Oplossingssoort
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Partner |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | arjen |
-| version | 1.4 |
+| version | 1.0 |
 | created | 2024-05-17 15:05:39 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:46:08 |
 | id | EAID_093B2482_D72E_4f88_931C_75C9DABED007 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -680,14 +668,14 @@ Attributen van objecttype Partner
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | PlanVanAanpak |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | arjen |
-| version | 1.5 |
+| version | 1.0 |
 | created | 2024-04-15 16:50:47 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:46:14 |
 | id | EAID_7DA4A554_10BF_47d1_ACED_966712B043F4 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -715,14 +703,14 @@ Attributen van objecttype PlanVanAanpak
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Schuld |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | arjen |
-| version | 1.4 |
+| version | 1.0 |
 | created | 2024-02-19 14:36:05 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:46:19 |
 | id | EAID_93E12A3E_71E3_431e_9871_BF6075EAAEF1 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -740,7 +728,7 @@ Attributen van objecttype Schuld
 | bedrag | Bedrag | Bedrag in hele euro's nauwkeurig |
 | peildatum | Date | Peildatum dat de schuld is vastgesteld. |
 | zakelijkeSchuld | boolean | Betreft het een zakelijke schuld |
-| schuldsoort | EnumSchuldensoort |  |
+| schuldsoort | Enumeratie: "EnumSchuldensoort" |  |
 | None | Class: "Schuldeiser" |  |
 
 
@@ -754,14 +742,14 @@ Attributen van objecttype Schuld
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Schuldeiser |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
-| bron |  |
+| bron | [https://www.ris-rijkschroeff.nl/Kennisbank/Verbintenissenrecht/Schuldeiser](https://www.ris-rijkschroeff.nl/Kennisbank/Verbintenissenrecht/Schuldeiser) |
 | author | arjen |
-| version | 1.4 |
+| version | 1.0 |
 | created | 2024-02-19 14:46:01 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:46:25 |
 | id | EAID_DCDAD212_479E_4fc3_B886_585AE57D8C21 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -792,14 +780,14 @@ Attributen van objecttype Schuldeiser
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Schuldhulporganisatie |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
-| author | aashkpour |
-| version | 1.5 |
+| author | arjen |
+| version | 1.0 |
 | created | 2024-02-19 11:59:53 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:46:31 |
 | id | EAID_A947042E_7CA6_44f8_902A_1C1185A391F6 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -834,17 +822,17 @@ Attributen van objecttype Schuldhulporganisatie
 | synoniemen |  |
 | uri |  |
 | bron |  |
-| author | aashkpour |
-| version | 1.5 |
+| author | Arjen Brienen |
+| version | 1.0 |
 | created | 2018-06-13 12:09:16 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:46:36 |
 | id | EAID_839017B2_0F95_42d0_AB2B_E873636340DA |
 | domein_iv3 |  |
 | domein_dcat |  |
-| gemma_naam | Traject |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-a639deb6-a955-4f22-b6db-2c64f3abe044](https://gemmaonline.nl/index.php/GEMMA/id-a639deb6-a955-4f22-b6db-2c64f3abe044) |
-| gemma_definitie | Samenstel van achtereenvolgens uit te voeren en onderling samenhangende deelhandelingen of van opeenvolgende stadia in een proces, voorgesteld als een route die via opeenvolgende bestemmingen naar de eindbestemming voert. |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
 | gemma_toelichting |  |
 
 
@@ -885,14 +873,14 @@ Attributen van objecttype Schuldhulptraject
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Schuldregeling |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
-| bron |  |
+| bron | [https://www.nvvk.nl/kennisbank-detail/2022/04/20/Module-Schuldregeling](https://www.nvvk.nl/kennisbank-detail/2022/04/20/Module-Schuldregeling) |
 | author | arjen |
-| version | 1.4 |
+| version | 1.0 |
 | created | 2024-02-19 14:55:48 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:46:41 |
 | id | EAID_652A68C3_618E_4050_AD4C_E43469A7558C |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -930,14 +918,14 @@ Attributen van objecttype Schuldregeling
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Stabilisatie |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
-| bron |  |
+| bron | [https://www.nvvk.nl/kennisbank-detail/2021/08/16/Module-Stabilisatie](https://www.nvvk.nl/kennisbank-detail/2021/08/16/Module-Stabilisatie) |
 | author | arjen |
-| version | 1.5 |
+| version | 1.0 |
 | created | 2024-04-15 16:14:28 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:46:48 |
 | id | EAID_B0384246_6784_4724_B538_CE18197061CD |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -973,16 +961,16 @@ Attributen van objecttype Stabilisatie
 | uri |  |
 | bron |  |
 | author | Arjen Brienen |
-| version | 1.5 |
+| version | 1.0 |
 | created | 2018-06-13 12:11:45 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:46:54 |
 | id | EAID_42D33289_422A_4d94_BE6B_44B34CC230B5 |
 | domein_iv3 |  |
 | domein_dcat |  |
-| gemma_naam | Uitstroomreden |
-| gemma_type | business-object |
-| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-310e7b8f-87b6-4493-8b66-1b222428dea4](https://gemmaonline.nl/index.php/GEMMA/id-310e7b8f-87b6-4493-8b66-1b222428dea4) |
-| gemma_definitie | Motivatie voor uitstroom |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
 | gemma_toelichting |  |
 
 
@@ -1001,19 +989,19 @@ Attributen van objecttype Uitstroom
 ### VoorlopigeVoorziening 
 > **Definitie VoorlopigeVoorziening :** 
 >
-> Een voorlopige voorziening in het kader van schuldhulpverlening door gemeenten is een tijdelijke maatregel die wordt getroffen om acute financiï¿½le problemen of crises van een inwoner direct te verlichten terwijl een duurzaam schuldhulpverleningstraject wordt voorbereid. Voorlopige voorzieningen kunnen bijvoorbeeld bestaan uit het tijdelijk betalen van huur om huisuitzetting te voorkomen, het treffen van betalingsregelingen met schuldeisers, of het bieden van een financiï¿½le overbrugging. Het doel is om stabiliteit te creï¿½ren in de financiï¿½le situatie van de inwoner en te voorkomen dat de problematiek verder escaleert. Deze maatregel wordt ingezet op basis van urgentie en maatwerk.
+> Geen Definitie
 
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | VoorlopigeVoorziening  |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | arjen |
-| version | 1.4 |
+| version | 1.0 |
 | created | 2024-08-29 12:19:39 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:46:59 |
 | id | EAID_5DD63EFE_649F_484e_BB10_A18096B9ABDF |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1042,14 +1030,14 @@ Attributen van objecttype VoorlopigeVoorziening
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Woningbezit |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | arjen |
-| version | 1.4 |
+| version | 1.0 |
 | created | 2024-02-19 12:06:51 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:47:05 |
 | id | EAID_DBFDE0B1_FF6D_422f_BDDA_42ED8A172260 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1079,14 +1067,14 @@ Attributen van objecttype Woningbezit
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | WSNP-traject |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | arjen |
-| version | 1.4 |
+| version | 1.0 |
 | created | 2024-02-20 16:37:12 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:47:11 |
 | id | EAID_513A944D_0FEC_4f78_B290_63274D22C58C |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1117,14 +1105,14 @@ Attributen van objecttype WSNP-traject
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | WSNP-verklaring |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | arjen |
-| version | 1.4 |
+| version | 1.0 |
 | created | 2024-02-19 14:46:26 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-04-23 15:47:16 |
 | id | EAID_64E76A72_8E62_45fb_A144_149EFDB5EB46 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -1150,7 +1138,7 @@ Attributen van objecttype WSNP-verklaring
 
 
 ### EnumBegeleidingssoort
-Geen Definitie
+Lijst met alle soorten begeleiding die worden onderkend.
 
 Het enumeratie EnumBegeleidingssoort kent de volgende waarden:
 
@@ -1173,14 +1161,14 @@ De enumeratie EnumBegeleidingssoort heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | EnumBegeleidingssoort |
-| toelichting | None |
+| toelichting | <memo> |
 | synoniemen | None |
 | uri | None |
 | bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:12:50 |
-| modified | 2025-03-26 16:14:37 |
+| author | arjen |
+| version | 1.0 |
+| created | 2024-05-17 15:24:16 |
+| modified | 2025-04-23 15:47:52 |
 | id | EAID_D13E7356_94A7_41ed_B9B0_945D7F7975AD |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -1193,7 +1181,7 @@ De enumeratie EnumBegeleidingssoort heeft de volgende kenmerken:
 
 
 ### EnumBeschikkingssoort
-Geen Definitie
+Lijst met alle soorten beschikkingen die worden onderkend.
 
 Het enumeratie EnumBeschikkingssoort kent de volgende waarden:
 
@@ -1206,14 +1194,14 @@ De enumeratie EnumBeschikkingssoort heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | EnumBeschikkingssoort |
-| toelichting | None |
+| toelichting | <memo> |
 | synoniemen | None |
 | uri | None |
 | bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:12:50 |
-| modified | 2025-03-26 16:14:37 |
+| author | arjen |
+| version | 1.0 |
+| created | 2024-08-29 12:10:27 |
+| modified | 2025-04-23 15:48:08 |
 | id | EAID_C0C5D6A5_1937_460b_A243_90172A345B91 |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -1226,7 +1214,7 @@ De enumeratie EnumBeschikkingssoort heeft de volgende kenmerken:
 
 
 ### EnumHuishoudenssoort
-Geen Definitie
+Lijst met alle soorten huishoudens die worden onderkend.
 
 Het enumeratie EnumHuishoudenssoort kent de volgende waarden:
 
@@ -1239,14 +1227,14 @@ De enumeratie EnumHuishoudenssoort heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | EnumHuishoudenssoort |
-| toelichting | None |
+| toelichting | <memo> |
 | synoniemen | None |
 | uri | None |
 | bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:12:50 |
-| modified | 2025-03-26 16:14:37 |
+| author | arjen |
+| version | 1.0 |
+| created | 2024-05-17 14:52:54 |
+| modified | 2025-04-23 15:48:27 |
 | id | EAID_76676076_DDDA_4427_8ECB_46565F915F49 |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -1259,7 +1247,7 @@ De enumeratie EnumHuishoudenssoort heeft de volgende kenmerken:
 
 
 ### EnumOplossingssoort
-Geen Definitie
+Lijst met alle soorten oplossingen in het kader van schuldhulpverleniung die worden onderkend.
 
 Het enumeratie EnumOplossingssoort kent de volgende waarden:
 
@@ -1275,14 +1263,14 @@ De enumeratie EnumOplossingssoort heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | EnumOplossingssoort |
-| toelichting | None |
+| toelichting | <memo> |
 | synoniemen | None |
 | uri | None |
 | bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:12:50 |
-| modified | 2025-03-26 16:14:37 |
+| author | arjen |
+| version | 1.0 |
+| created | 2024-05-17 15:23:53 |
+| modified | 2025-04-23 15:48:40 |
 | id | EAID_540A2D4C_EF40_457a_A7DD_C8E81DB692A6 |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -1295,7 +1283,8 @@ De enumeratie EnumOplossingssoort heeft de volgende kenmerken:
 
 
 ### EnumSchuldensoort
-Geen Definitie
+Lijst met alle cattegori&#235;n van soorten schulden die worden onderkend in het kader van schuldhulpverlening.
+> 
 
 Het enumeratie EnumSchuldensoort kent de volgende waarden:
 
@@ -1311,14 +1300,14 @@ De enumeratie EnumSchuldensoort heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | EnumSchuldensoort |
-| toelichting | None |
+| toelichting | <memo> |
 | synoniemen | None |
 | uri | None |
 | bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:12:51 |
-| modified | 2025-03-26 16:14:37 |
+| author | arjen |
+| version | 1.0 |
+| created | 2024-05-17 14:51:51 |
+| modified | 2025-04-23 15:48:53 |
 | id | EAID_D34DF6F1_CC5C_42c8_A013_D59698E9F530 |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -1331,7 +1320,7 @@ De enumeratie EnumSchuldensoort heeft de volgende kenmerken:
 
 
 ### EnumUitstroomreden
-Geen Definitie
+Lijst met alle soorten uitstroom die bij schuldhulptrajecten worden onderkend.
 
 Het enumeratie EnumUitstroomreden kent de volgende waarden:
 
@@ -1351,14 +1340,14 @@ De enumeratie EnumUitstroomreden heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | EnumUitstroomreden |
-| toelichting | None |
+| toelichting | <memo> |
 | synoniemen | None |
 | uri | None |
 | bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:12:51 |
-| modified | 2025-03-26 16:14:37 |
+| author | arjen |
+| version | 1.0 |
+| created | 2024-05-17 17:29:53 |
+| modified | 2025-04-23 15:49:07 |
 | id | EAID_82A3029A_D39E_46e6_AF4B_1909FA0045EF |
 | domein_iv3 | None |
 | domein_dcat | None |
@@ -1371,7 +1360,7 @@ De enumeratie EnumUitstroomreden heeft de volgende kenmerken:
 
 
 ### EnumWoningbezit
-Geen Definitie
+Lijst met alle soorten woningbezit die in het kader van schuldhulpverlening worden onderkend.
 
 Het enumeratie EnumWoningbezit kent de volgende waarden:
 
@@ -1386,14 +1375,14 @@ De enumeratie EnumWoningbezit heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | EnumWoningbezit |
-| toelichting | None |
+| toelichting | <memo> |
 | synoniemen | None |
 | uri | None |
 | bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:12:51 |
-| modified | 2025-03-26 16:14:37 |
+| author | arjen |
+| version | 1.0 |
+| created | 2024-06-28 16:27:30 |
+| modified | 2025-04-23 15:49:20 |
 | id | EAID_702C2D3B_5E5F_4e2d_990E_7618C2FA4FCA |
 | domein_iv3 | None |
 | domein_dcat | None |

@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Dak- en thuislozen:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over mensen zonder vaste woon- of verblijfplaats, gericht op het in kaart brengen van de omvang, kenmerken en ondersteuningsbehoeften van deze doelgroep.
 
 Het model 'Model Dak- en thuislozen' kent de volgende objecttypen:
 

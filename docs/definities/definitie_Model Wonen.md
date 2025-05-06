@@ -336,7 +336,7 @@ De enumeratie Energielabel heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:10 |
 | modified | 2025-03-26 16:14:45 |
-| id | EAID_500c4157_367c_4f2c_94c9_17713376e288 |
+| id | EAID_394b4e3e_5c01_4d2f_b935_b1edca93a0f7 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -374,7 +374,7 @@ De enumeratie Oppervlakte Woning heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:10 |
 | modified | 2025-03-26 16:14:45 |
-| id | EAID_e9c5cd9a_39fb_42ed_a44e_bda2c0794942 |
+| id | EAID_c0cbb3dd_ebaa_4da9_9ae6_4b65b01395ee |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

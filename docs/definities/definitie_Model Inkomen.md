@@ -2,14 +2,19 @@
 ## Inleiding
 > **Definitie Model Inkomen:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over inkomensvoorzieningen, -regelingen en financi&#235;le ondersteuning voor inwoners, gericht op het waarborgen van bestaanszekerheid en participatie in de samenleving.
+> 
 
 Het model 'Model Inkomen' kent de volgende objecttypen:
 
 * **Component**: <Geen Definities>
 * **ComponentSoort**: <Geen Definities>
+* **Huisvestingsoort**: Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen.  
 * **Inkomensvoorziening**: Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving
 * **Inkomensvoorzieningsoort**: Typering van een inkomensvoorziening
+* **RedenBlokkering**: Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen.  
+* **RedenInstroom**: Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen.  
+* **RedenUitstroom**: Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen.  
 * **Regeling**: Een Regeling is gekoppeld aan een ingeschreven persoon (client) en beschrijft de specifieke afspraken of voorwaarden waaronder inkomensondersteuning wordt verleend. Een regeling heeft altijd een relatie met een RegelingSoort, die het type regeling specificeert.
 * **Regelingsoort**: Typologie van een regeling
 * **UitkeringsRun**: <Geen Definities>
@@ -20,14 +25,14 @@ Het model 'Model Inkomen' heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Model Inkomen |
-| toelichting |  |
+| toelichting | <memo> |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | arjen |
 | version | 1.0 |
 | created | 2025-03-27 11:31:16 |
-| modified | 2025-03-27 15:29:52 |
+| modified | 2025-04-23 15:22:26 |
 | id | EAPK_7A13550B_AC75_4783_BD16_A9ED6E86172A |
 
 
@@ -120,6 +125,45 @@ Attributen van objecttype ComponentSoort
 
 
 
+### Huisvestingsoort
+> **Definitie Huisvestingsoort:** 
+>
+> Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen. 
+> 
+
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Huisvestingsoort |
+| toelichting | <memo> |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | arjen |
+| version | 1.0 |
+| created | 2025-04-23 16:21:20 |
+| modified | 2025-04-23 16:21:56 |
+| id | EAID_8D999BE8_96AB_8418_B94F_289754CE1336 |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
+
+
+Attributen van objecttype Huisvestingsoort
+
+| Attribute | Datatype | Description |
+| :--- | :--- | :--- |
+| begindatumGeldigheid | Date |  |
+| einddatumGeldigheid | Date |  |
+| omschrijving | Text |  |
+| soorthuisvestingCode | AN4 |  |
+
+
+
+
 ### Inkomensvoorziening
 > **Definitie Inkomensvoorziening:** 
 >
@@ -135,7 +179,7 @@ Attributen van objecttype ComponentSoort
 | author | crossover |
 | version | 1.0 |
 | created | 2018-04-23 11:53:14 |
-| modified | 2025-03-27 14:01:49 |
+| modified | 2025-04-23 16:14:30 |
 | id | EAID_07784236_3AA6_45e5_8253_7D088C4020B0 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -156,6 +200,21 @@ Attributen van objecttype Inkomensvoorziening
 | bedrag | bedrag |  |
 | eenmalig | boolean |  |
 | groep | AN100 |  |
+| administratieveEinddatum | Date |  |
+| administratieveStartdatum | Date |  |
+| betalingsmomentcode | AN4 |  |
+| code | AN4 |  |
+| datumToekenning | Date |  |
+| indicatieBlokkering | Boolean |  |
+| indicatieStudietoeslag | Boolean |  |
+| indicatieUitkeringSplitsen | Boolean |  |
+| indicatieUitkeringsspecificatie | Boolean |  |
+| versterkkingsvorm | AN200 |  |
+| verwerktTotEnMetDatum | Date |  |
+| None | Class: "RedenUitstroom" |  |
+| None | Class: "RedenInstroom" |  |
+| None | Class: "RedenBlokkering" |  |
+| None | Class: "Huisvestingsoort" |  |
 
 
 
@@ -198,6 +257,127 @@ Attributen van objecttype Inkomensvoorzieningsoort
 | regeling | AN200 |  |
 | regelingscode | AN20 |  |
 | code | AN20 |  |
+
+
+
+
+### RedenBlokkering
+> **Definitie RedenBlokkering:** 
+>
+> Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen. 
+> 
+
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | RedenBlokkering |
+| toelichting | <memo> |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | arjen |
+| version | 1.0 |
+| created | 2025-04-23 16:14:37 |
+| modified | 2025-04-23 16:16:23 |
+| id | EAID_88B0A7AB_53E6_4bc1_8D99_9BE896AB8418 |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
+
+
+Attributen van objecttype RedenBlokkering
+
+| Attribute | Datatype | Description |
+| :--- | :--- | :--- |
+| begindatumGeldigheid | Date |  |
+| einddatumGeldigheid | Date |  |
+| omschrijving | Text |  |
+| redenBlokkeringCode | AN4 |  |
+
+
+
+
+### RedenInstroom
+> **Definitie RedenInstroom:** 
+>
+> Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen. 
+> 
+
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | RedenInstroom |
+| toelichting | <memo> |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | arjen |
+| version | 1.0 |
+| created | 2025-04-23 16:16:48 |
+| modified | 2025-04-23 16:17:10 |
+| id | EAID_8D999BE8_96AB_8418_99A2_CB86335AFB97 |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
+
+
+Attributen van objecttype RedenInstroom
+
+| Attribute | Datatype | Description |
+| :--- | :--- | :--- |
+| begindatumGeldigheid | Date |  |
+| einddatumGeldigheid | Date |  |
+| omschrijving | Text |  |
+| redenInstroomCode | AN4 |  |
+| CBS-code | AN4 |  |
+| CBS-omschrijving | text |  |
+
+
+
+
+### RedenUitstroom
+> **Definitie RedenUitstroom:** 
+>
+> Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen. 
+> 
+
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | RedenUitstroom |
+| toelichting | <memo> |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | arjen |
+| version | 1.0 |
+| created | 2025-04-23 16:18:22 |
+| modified | 2025-04-23 16:18:39 |
+| id | EAID_99A2CB86_335A_FB97_9C8F_47170B1699EC |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
+
+
+Attributen van objecttype RedenUitstroom
+
+| Attribute | Datatype | Description |
+| :--- | :--- | :--- |
+| begindatumGeldigheid | Date |  |
+| einddatumGeldigheid | Date |  |
+| omschrijving | Text |  |
+| redenUitstroomCode | AN4 |  |
+| CBS-code | AN4 |  |
+| CBS-omschrijving | text |  |
 
 
 
@@ -349,7 +529,7 @@ De enumeratie Wet heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:12:49 |
 | modified | 2025-03-26 16:14:37 |
-| id | EAID_713a0bbb_bb40_4a21_8a66_5044e66d46bf |
+| id | EAID_0a9e1193_fc6d_408f_9fdd_3ac5aa8656fb |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

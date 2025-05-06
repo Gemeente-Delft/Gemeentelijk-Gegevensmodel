@@ -20,6 +20,11 @@ extra:
 nav:
  - Home: index.md
  - Installatie: installatie.md
+ - Startersgids:
+    - 'Vooraf': startersgids/vooraf.md
+    - 'Start': startersgids/start.md
+    - 'Eerste Gebruik': startersgids/eerste_gebruik.md
+    - 'Daarna Verder': startersgids/daarna_verder.md
  - Beschrijving Domeinen:
     - 'Inleiding': domeinen/inleiding.md
     - 'Bestuur, Politiek en Ondersteuning':

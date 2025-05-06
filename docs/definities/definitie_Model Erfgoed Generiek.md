@@ -6,9 +6,9 @@
 
 Het model 'Model Erfgoed Generiek' kent de volgende objecttypen:
 
-* **Erfgoed Object**: Uit het verleden geï¿½rfde materiï¿½le en immateriï¿½le objecten 
+* **Erfgoed Object**: Uit het verleden geërfde materiële en immateriële objecten 
 * **Historisch Persoon **: Natuurlijk persoon waarvan informatie beschikbaar is uit het verleden.
-* **Objectclassificatie**: Systematische identificatie en ordening van objecten in categorieï¿½n overeenkomstig logisch gestructureerde conventies, methoden en procedureregels weergegeven in een classificatiesysteem.
+* **Objectclassificatie**: Systematische identificatie en ordening van objecten in categorieën overeenkomstig logisch gestructureerde conventies, methoden en procedureregels weergegeven in een classificatiesysteem.
 
 
 Het model 'Model Erfgoed Generiek' heeft de volgende kenmerken:
@@ -33,7 +33,7 @@ Het model 'Model Erfgoed Generiek' heeft de volgende kenmerken:
 ### Erfgoed Object
 > **Definitie Erfgoed Object:** 
 >
-> Uit het verleden geï¿½rfde materiï¿½le en immateriï¿½le objecten 
+> Uit het verleden geërfde materiële en immateriële objecten 
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -52,7 +52,7 @@ Het model 'Model Erfgoed Generiek' heeft de volgende kenmerken:
 | gemma_naam | ErfgoedObject |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-9d218c7e-64e5-45e1-9bac-ec9f27d50fe3](https://gemmaonline.nl/index.php/GEMMA/id-9d218c7e-64e5-45e1-9bac-ec9f27d50fe3) |
-| gemma_definitie | Uit het verleden geï¿½rfde materiï¿½le en immateriï¿½le objecten |
+| gemma_definitie | Uit het verleden geërfde materiële en immateriële objecten |
 | gemma_toelichting | In de loop van de tijd tot stand gebracht door de mens of ontstaan uit de wisselwerking tussen mens en omgeving, die mensen, onafhankelijk van het bezit ervan, identificeren als een weerspiegeling en uitdrukking van zich voortdurend ontwikkelende waarden, |
 
 
@@ -114,7 +114,7 @@ Attributen van objecttype Historisch Persoon
 ### Objectclassificatie
 > **Definitie Objectclassificatie:** 
 >
-> Systematische identificatie en ordening van objecten in categorieï¿½n overeenkomstig logisch gestructureerde conventies, methoden en procedureregels weergegeven in een classificatiesysteem.
+> Systematische identificatie en ordening van objecten in categorieën overeenkomstig logisch gestructureerde conventies, methoden en procedureregels weergegeven in een classificatiesysteem.
 
 | Eigenschap | Waarde |
 | :--- | :------ |

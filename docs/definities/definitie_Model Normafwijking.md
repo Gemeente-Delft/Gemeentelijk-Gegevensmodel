@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Normafwijking:** 
 >
-> Geen definitie
+> Het onderdeel Normafwijking bricht zich op de registratie en afhandeling van situaties waarin een afwijking van de gestelde normen wordt geconstateerd bij inkomensvoorzieningen.
 
 Het model 'Model Normafwijking' kent de volgende objecttypen:
 

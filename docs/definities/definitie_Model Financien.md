@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Financien:** 
 >
-> Geen definitie
+> Het informatiesubdomein dat gegevens omvat over de financiële processen, planning en control, en het financieel beheer van de organisatie.
 
 Het model 'Model Financien' kent de volgende objecttypen:
 
@@ -21,8 +21,8 @@ Het model 'Model Financien' kent de volgende objecttypen:
 * **Factuurregel**: Een item op de factuur
 * **Hoofdrekening**: is kostensoort
 * **Hoofdstuk**: Onderdeel van een langere tekst.
-* **Inkooporder**: Een opdracht (gezien vanuit de klant) voor ï¿½ï¿½n of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen.
-* **Kostenplaats**: Rekening waaraan boekingen in een financiï¿½le administratie samen worden toegeschreven.
+* **Inkooporder**: Een opdracht (gezien vanuit de klant) voor één of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen.
+* **Kostenplaats**: Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven.
 * **Mutatie**: Wijziging van een situatie
 * **Opdrachtgever**: Persoon die een opdracht verstrekt. 
 * **Opdrachtnemer**: Partij die een opdracht aanvaardt. 
@@ -619,7 +619,7 @@ Attributen van objecttype Hoofdstuk
 ### Inkooporder
 > **Definitie Inkooporder:** 
 >
-> Een opdracht (gezien vanuit de klant) voor ï¿½ï¿½n of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen.
+> Een opdracht (gezien vanuit de klant) voor één of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -638,7 +638,7 @@ Attributen van objecttype Hoofdstuk
 | gemma_naam | Inkooporder |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-ede48ca8-4854-44b2-b549-0827bebf56ab](https://gemmaonline.nl/index.php/GEMMA/id-ede48ca8-4854-44b2-b549-0827bebf56ab) |
-| gemma_definitie | Een opdracht (gezien vanuit de klant) voor ï¿½ï¿½n of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen. |
+| gemma_definitie | Een opdracht (gezien vanuit de klant) voor één of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen. |
 | gemma_toelichting |  |
 
 
@@ -671,7 +671,7 @@ Attributen van objecttype Inkooporder
 ### Kostenplaats
 > **Definitie Kostenplaats:** 
 >
-> Rekening waaraan boekingen in een financiï¿½le administratie samen worden toegeschreven.
+> Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -690,7 +690,7 @@ Attributen van objecttype Inkooporder
 | gemma_naam | Kostenplaats |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-126c564a-16fa-4e61-b52d-3af4968904d8](https://gemmaonline.nl/index.php/GEMMA/id-126c564a-16fa-4e61-b52d-3af4968904d8) |
-| gemma_definitie | Rekening waaraan boekingen in een financiï¿½le administratie samen worden toegeschreven. |
+| gemma_definitie | Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven. |
 | gemma_toelichting |  |
 
 

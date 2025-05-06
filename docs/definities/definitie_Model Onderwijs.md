@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Onderwijs:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over onderwijsvoorzieningen, leerlingenstromen, taken in het onderwijsveld  en educatieve ondersteuning.
 
 Het model 'Model Onderwijs' kent de volgende objecttypen:
 
@@ -11,7 +11,7 @@ Het model 'Model Onderwijs' kent de volgende objecttypen:
 * **Leerling**: Mens die een opleiding volgt, heeft gevolgd of gaat volgen of opgaat of is opgegaan voor een toets. (Bron: KOI)
 * **Locatie**: De locatie beschrijft middels co√∂rdinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)
 * **Loopbaanstap**: Een logische en ook uitdagende stap naar een volgende functie binnen dezelfde functiefamilie of een andere, op hetzelfde schaalniveau of op een schaalniveau hoger.
-* **Onderwijsloopbaan**: Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijscarri√ï¿½re; schoolloopbaan; schoolcarri√ï¿½re; schooltijd; de schooljaren
+* **Onderwijsloopbaan**: Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijscarri√®re; schoolloopbaan; schoolcarri√®re; schooltijd; de schooljaren
 * **Onderwijsniveau**: De hoogte van een soort onderwijs in relatie tot andere soorten onderwijs
 * **Onderwijssoort**: Typologie voor onderwijs
 * **Ouder Of Verzorger**: Een persoon die wettelijk verantwoordelijk is voor de zorg en opvoeding van een kind.
@@ -220,7 +220,7 @@ Attributen van objecttype Loopbaanstap
 ### Onderwijsloopbaan
 > **Definitie Onderwijsloopbaan:** 
 >
-> Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijscarri√ï¿½re; schoolloopbaan; schoolcarri√ï¿½re; schooltijd; de schooljaren
+> Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijscarri√®re; schoolloopbaan; schoolcarri√®re; schooltijd; de schooljaren
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -239,7 +239,7 @@ Attributen van objecttype Loopbaanstap
 | gemma_naam | Onderwijsloopbaan |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-153ea543-3a96-4878-b661-f7c3d0f07d20](https://gemmaonline.nl/index.php/GEMMA/id-153ea543-3a96-4878-b661-f7c3d0f07d20) |
-| gemma_definitie | Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijscarri√ï¿½re; sc |
+| gemma_definitie | Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijscarri√®re; sc |
 | gemma_toelichting |  |
 
 

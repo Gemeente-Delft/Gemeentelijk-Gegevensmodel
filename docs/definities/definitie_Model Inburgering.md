@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Inburgering:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over de uitvoering van de Wet inburgering, gericht op het ondersteunen van inburgeraars bij hun integratie en participatie in de Nederlandse samenleving.
 
 Het model 'Model Inburgering' kent de volgende objecttypen:
 
@@ -758,7 +758,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_f7babcb9_472e_46e3_9f52_d26e8b8a5f33 |
+| id | EAID_464d2453_f8ad_4c6d_9e76_da44ca90ea0f |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -793,7 +793,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_13829fbf_c1ce_41d5_9a68_6bb704eb7ad0 |
+| id | EAID_e1a0578e_2fc8_44b7_a9a6_8de77a12967b |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -831,7 +831,7 @@ De enumeratie Doelgroep heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:12:49 |
 | modified | 2025-03-26 16:14:37 |
-| id | EAID_11eac3bf_fe0f_423f_a3a8_d0be3be2ff7c |
+| id | EAID_3b3408c8_6de9_46bb_984a_3ecfd80f9674 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

@@ -34,7 +34,7 @@ Het model 'Model IMBOR' kent de volgende objecttypen:
 * **Klimplant**: Plant met buigzame stengels die zich op diverse manieren aan muren, bomen of constructies hecht en zodoende omhoog klimt. Toelichting: Plant met buigzame stengels die zich op diverse manieren aan muren, bomen of constructies hecht en zodoende omhoog klimt.
 * **Kolk**: Een reservoir bestemd voor de opvang van hemelwater afkomstig van erop aangesloten oppervlakken, het laten bezinken van in dit water meegevoerde bezinkbare stoffen en de afvoer van dit water naar een rioolstelsel of naar de ondergrond. Synoniemen: Afvoerput
 * **Kunstwerk**: Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf. http://definities.geostandaarden.nl
-* **Leiding**: Een geheel van geleiders welke voorzien zijn van ï¿½ï¿½n ommanteling en bestemd is voor transport van materie
+* **Leiding**: Een geheel van geleiders welke voorzien zijn van één ommanteling en bestemd is voor transport van materie
 * **Leidingelement**: Een object dat bij een leiding behoort.
 * **Mast**: Draagconstructie, bestaande uit een verticale buispaal, die wordt gebruikt om iets op hoogte te brengen.
 * **Meubilair**: De verzameling van ruimtelijke objecten ter inrichting van de openbare ruimte of terreinen. Een ruimtelijk object ter inrichting van de openbare ruimte.
@@ -44,7 +44,7 @@ Het model 'Model IMBOR' kent de volgende objecttypen:
 * **Pomp**: Een technische installatie die het (afval) water onder druk transporteert.
 * **Put**: Verticale waterdichte constructie, toegepast om leidingen aan te sluiten, van richting of niveau te veranderen, om toegang te verschaffen aan personeel en/of apparatuur voor inspectie en onderhoud, en om beluchting en ventilatie mogelijk te maken
 * **Putdeksel**: Deksel met als functie het afdekken van een put (GWSW). Dekt meestal de opening van een rioolput af, is meestal rond,  van zwaar metaal, soms van kunststof.
-* **Rioleringsgebied**: Het gebied waarbinnen ï¿½ï¿½n of meerdere inliggende rioolstelsel(s) het afvalwater naar ï¿½ï¿½n gemaal of overnamepunt transporteert/teren. Een rioleringsgebied kan een enkelvoudig gebied zijn, maar kan ook meerdere rioleringsgebieden omvatten. Een gebied is zodanig gekozen dat het voldoende inzicht geeft in de belasting van oppervlaktewater en overnamepunt. Toelichting: Het gebied waarbinnen ï¿½ï¿½n of meerdere inliggende rioolstelsel(s) het afvalwater naar ï¿½ï¿½n gemaal of overnamepunt transporteert/teren. Een rioleringsgebied kan een enkelvoudig gebied zijn, maar kan ook meerdere rioleringsgebieden omvatten. Een gebied is zodanig gekozen dat het voldoende inzicht geeft in de belasting van oppervlaktewater en overnamepunt.
+* **Rioleringsgebied**: Het gebied waarbinnen één of meerdere inliggende rioolstelsel(s) het afvalwater naar één gemaal of overnamepunt transporteert/teren. Een rioleringsgebied kan een enkelvoudig gebied zijn, maar kan ook meerdere rioleringsgebieden omvatten. Een gebied is zodanig gekozen dat het voldoende inzicht geeft in de belasting van oppervlaktewater en overnamepunt. Toelichting: Het gebied waarbinnen één of meerdere inliggende rioolstelsel(s) het afvalwater naar één gemaal of overnamepunt transporteert/teren. Een rioleringsgebied kan een enkelvoudig gebied zijn, maar kan ook meerdere rioleringsgebieden omvatten. Een gebied is zodanig gekozen dat het voldoende inzicht geeft in de belasting van oppervlaktewater en overnamepunt.
 * **Rioolput**: Constructie toegang gevend tot het rioolstelsel
 * **Scheiding**: Kunstmatig, meestal lineair obstakel met een werende functie.
 * **Sensor**: Apparaat voor de meting van een fysieke grootheid (bijv. temperatuur, licht, druk, elektriciteit).
@@ -1517,7 +1517,7 @@ Eenheid: â‚¬ |
 ### Leiding
 > **Definitie Leiding:** 
 >
-> Een geheel van geleiders welke voorzien zijn van ï¿½ï¿½n ommanteling en bestemd is voor transport van materie
+> Een geheel van geleiders welke voorzien zijn van één ommanteling en bestemd is voor transport van materie
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -1536,7 +1536,7 @@ Eenheid: â‚¬ |
 | gemma_naam | Leiding |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-b2bdb817-4007-4c1b-ad24-43929884e0eb](https://gemmaonline.nl/index.php/GEMMA/id-b2bdb817-4007-4c1b-ad24-43929884e0eb) |
-| gemma_definitie | Een geheel van geleiders welke voorzien zijn van ï¿½ï¿½n ommanteling en bestemd is voor transport van materie |
+| gemma_definitie | Een geheel van geleiders welke voorzien zijn van één ommanteling en bestemd is voor transport van materie |
 | gemma_toelichting |  |
 
 
@@ -2042,8 +2042,8 @@ Eenheid: mm |
 ### Rioleringsgebied
 > **Definitie Rioleringsgebied:** 
 >
-> Het gebied waarbinnen ï¿½ï¿½n of meerdere inliggende rioolstelsel(s) het afvalwater naar ï¿½ï¿½n gemaal of overnamepunt transporteert/teren. Een rioleringsgebied kan een enkelvoudig gebied zijn, maar kan ook meerdere rioleringsgebieden omvatten. Een gebied is zodanig gekozen dat het voldoende inzicht geeft in de belasting van oppervlaktewater en overnamepunt.
-> Toelichting: Het gebied waarbinnen ï¿½ï¿½n of meerdere inliggende rioolstelsel(s) het afvalwater naar ï¿½ï¿½n gemaal of overnamepunt transporteert/teren. Een rioleringsgebied kan een enkelvoudig gebied zijn, maar kan ook meerdere rioleringsgebieden omvatten. Een gebied is zodanig gekozen dat het voldoende inzicht geeft in de belasting van oppervlaktewater en overnamepunt.
+> Het gebied waarbinnen één of meerdere inliggende rioolstelsel(s) het afvalwater naar één gemaal of overnamepunt transporteert/teren. Een rioleringsgebied kan een enkelvoudig gebied zijn, maar kan ook meerdere rioleringsgebieden omvatten. Een gebied is zodanig gekozen dat het voldoende inzicht geeft in de belasting van oppervlaktewater en overnamepunt.
+> Toelichting: Het gebied waarbinnen één of meerdere inliggende rioolstelsel(s) het afvalwater naar één gemaal of overnamepunt transporteert/teren. Een rioleringsgebied kan een enkelvoudig gebied zijn, maar kan ook meerdere rioleringsgebieden omvatten. Een gebied is zodanig gekozen dat het voldoende inzicht geeft in de belasting van oppervlaktewater en overnamepunt.
 
 | Eigenschap | Waarde |
 | :--- | :------ |

@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Musea:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over de verwerving, het beheer, het onderzoek en de presentatie van museale collecties en tentoonstellingen binnen een overheidsorganisatie.
 
 Het model 'Model Musea' kent de volgende objecttypen:
 
@@ -18,7 +18,7 @@ Het model 'Model Musea' kent de volgende objecttypen:
 * **Incident**: Niet-gepland(e) gebeurtenis die of voorval dat tot schade of verlies leidt
 * **Lener**: Iemand die iets te leen krijgt, met name iemand die boeken, digitale bestanden of apparatuur leent bij een museum, bibliotheek, mediatheek of een andere uitleeninstantie
 * **Mailing**: Per post verstuurde inhoud
-* **Museumobject**: Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniï¿½erd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht.
+* **Museumobject**: Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht.
 * **Museumrelatie**: Betrekking waarin het museum en personen tot elkaar staan
 * **Omzetgroep**: Artikelen worden gebruikt om omzet te registreren in de shop, de horeca of elders. De omzet wordt vervolgens getotaliseerd op rapportages. Om de artikelen te groeperen moet ieder artikel tot een omzetgroep behoren.
 * **Prijs**: De te betalen hoeveelheid geld
@@ -513,7 +513,7 @@ Attributen van objecttype Mailing
 ### Museumobject
 > **Definitie Museumobject:** 
 >
-> Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniï¿½erd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht.
+> Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -532,7 +532,7 @@ Attributen van objecttype Mailing
 | gemma_naam | Museumobject |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-e963434a-50be-4619-b041-58689adc00de](https://gemmaonline.nl/index.php/GEMMA/id-e963434a-50be-4619-b041-58689adc00de) |
-| gemma_definitie | Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniï¿½erd worden als een object met betrekking tot gebouwd, archeologisch, roeren |
+| gemma_definitie | Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roeren |
 | gemma_toelichting |  |
 
 

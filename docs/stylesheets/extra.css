@@ -1,8 +1,12 @@
 .md-typeset a img {
-    cursor: zoom-in;
-  }
+  cursor: zoom-in;
+}
+
+.md-typeset a img:active {
+  cursor: zoom-out;
+}
   
-  .md-typeset a img:active {
-    cursor: zoom-out;
-  }
+.md-nav__item--nested:not(:first-child) {
+  margin-top: 0.8em;
+}  
   

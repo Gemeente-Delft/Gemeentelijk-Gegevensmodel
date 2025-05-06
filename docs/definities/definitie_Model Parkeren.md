@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Parkeren:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over het stilstaan van voertuigen op een daarvoor bestemde plaats, met als doel het reguleren van parkeerruimte en het bevorderen van leefbaarheid, bereikbaarheid en mobiliteit binnen de gemeente.
 
 Het model 'Model Parkeren' kent de volgende objecttypen:
 

@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Archeologie:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over archeologische opgravingen, onderzoeken en besluitvorming, gericht op het behoud, de bescherming en de ontsluiting van archeologisch erfgoed binnen de kaders van de Erfgoedwet.
 
 Het model 'Model Archeologie' kent de volgende objecttypen:
 
@@ -20,7 +20,7 @@ Het model 'Model Archeologie' kent de volgende objecttypen:
 * **Spoor**: Een blijk van eerdere aanwezigheid.
 * **Stelling**: Een systeem om goederen op te slaan die worden vervoerd en opgeslagen op pallets, in bundels of per stuk.(Wikipedia)
 * **Vindplaats**: Een plek waar men iets gevonden heeft.
-* **Vlak**: Plat, oneindig oppervlak of variï¿½teit zonder enige kromming. 
+* **Vlak**: Plat, oneindig oppervlak of variëteit zonder enige kromming. 
 * **Vondst**: Overblijfsel, voorwerp of ander spoor van menselijke aanwezigheid in het verleden afkomstig van een archeologisch monument
 * **Vulling**: Dunne wegeringsplank gebruikt om de ruimte tussen de bovenste kimweger en de onderste balkweger op te vullen (Sopers, 1974).
 
@@ -623,7 +623,7 @@ Attributen van objecttype Vindplaats
 ### Vlak
 > **Definitie Vlak:** 
 >
-> Plat, oneindig oppervlak of variï¿½teit zonder enige kromming. 
+> Plat, oneindig oppervlak of variëteit zonder enige kromming. 
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -642,7 +642,7 @@ Attributen van objecttype Vindplaats
 | gemma_naam | Vlak |
 | gemma_type | business-object |
 | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-c74cb377-1926-4afd-a50d-14b2643b04b2](https://gemmaonline.nl/index.php/GEMMA/id-c74cb377-1926-4afd-a50d-14b2643b04b2) |
-| gemma_definitie | Plat, oneindig oppervlak of vari√ï¿½teit zonder enige kromming. |
+| gemma_definitie | Plat, oneindig oppervlak of vari√´teit zonder enige kromming. |
 | gemma_toelichting |  |
 
 

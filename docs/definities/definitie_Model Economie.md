@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Economie:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over economische ontwikkeling, bedrijvigheid en innovatie.
 
 Het model 'Model Economie' kent de volgende objecttypen:
 

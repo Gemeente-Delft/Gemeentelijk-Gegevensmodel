@@ -6,10 +6,10 @@
 
 Het model 'Metagegevens' kent de volgende objecttypen:
 
-* **Brondocumenten**: Indicatie of bij een opname, mutatie of verwijdering van de relatie het brondocument aangeduid wordt op basis waarvan de verandering van de relatie heeft plaatsgevonden en zo ja, de specificatie van de metagegevens waarmee het brondcument aangeduid wordt, zijnde ï¿½ï¿½n of meer van de volgende metagegevens: Documentidentificatie, Documentdatum, Documentcode, Documentomschrijving, Document- soort, Documenthouder.
+* **Brondocumenten**: Indicatie of bij een opname, mutatie of verwijdering van de relatie het brondocument aangeduid wordt op basis waarvan de verandering van de relatie heeft plaatsgevonden en zo ja, de specificatie van de metagegevens waarmee het brondcument aangeduid wordt, zijnde één of meer van de volgende metagegevens: Documentidentificatie, Documentdatum, Documentcode, Documentomschrijving, Document- soort, Documenthouder.
 * **FormeleHistorie**: Indicatie of de formele historie van de attribuutsoort te bevragen is. Formele historie geeft aan wanneer in de administratie een verandering is verwerkt van de attribuutwaarde (wanneer was de verandering bekend en is deze verwerkt)
 * **InOnderzoek**: De indicatie of te bevragen is dat er twijfel is of is geweest aan de juistheid van de attribuutwaarde en dat een onderzoek wordt of is uitgevoerd naar de juistheid van de attribuutwaarde.
-* **MaterieleHistorie**: Indicatie of de materiï¿½le historie van de attribuutsoort te bevragen is. Materiï¿½le historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot veranderjng van de attribuutwaarde.
+* **MaterieleHistorie**: Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot veranderjng van de attribuutwaarde.
 * **StrijdigheidOfNietigheid**: De aanduiding of te bevragen is dat de attribuutwaarde strijdig met de openbare orde dan wel nietig is.
 
 
@@ -35,7 +35,7 @@ Het model 'Metagegevens' heeft de volgende kenmerken:
 ### Brondocumenten
 > **Definitie Brondocumenten:** 
 >
-> Indicatie of bij een opname, mutatie of verwijdering van de relatie het brondocument aangeduid wordt op basis waarvan de verandering van de relatie heeft plaatsgevonden en zo ja, de specificatie van de metagegevens waarmee het brondcument aangeduid wordt, zijnde ï¿½ï¿½n of meer van de volgende metagegevens: Documentidentificatie, Documentdatum, Documentcode, Documentomschrijving, Document- soort, Documenthouder.
+> Indicatie of bij een opname, mutatie of verwijdering van de relatie het brondocument aangeduid wordt op basis waarvan de verandering van de relatie heeft plaatsgevonden en zo ja, de specificatie van de metagegevens waarmee het brondcument aangeduid wordt, zijnde één of meer van de volgende metagegevens: Documentidentificatie, Documentdatum, Documentcode, Documentomschrijving, Document- soort, Documenthouder.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -101,7 +101,7 @@ Attributen van objecttype FormeleHistorie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| tijdstipRegistratieGegevens |  | De datum en tijd waarop ï¿½ï¿½n of meer gegevens van de entiteit gelijktijdig zijn opgenomen in de registratie. |
+| tijdstipRegistratieGegevens |  | De datum en tijd waarop één of meer gegevens van de entiteit gelijktijdig zijn opgenomen in de registratie. |
 
 
 
@@ -144,7 +144,7 @@ Attributen van objecttype InOnderzoek
 ### MaterieleHistorie
 > **Definitie MaterieleHistorie:** 
 >
-> Indicatie of de materiï¿½le historie van de attribuutsoort te bevragen is. Materiï¿½le historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot veranderjng van de attribuutwaarde.
+> Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot veranderjng van de attribuutwaarde.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -207,7 +207,7 @@ Attributen van objecttype StrijdigheidOfNietigheid
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanduidingStrijdigheidNietigheid | AN1 | De aanduiding dat ï¿½ï¿½n of meer gegevens van het object strijdig met de openbare orde dan wel nietig zijn |
+| aanduidingStrijdigheidNietigheid | AN1 | De aanduiding dat één of meer gegevens van het object strijdig met de openbare orde dan wel nietig zijn |
 
 
 

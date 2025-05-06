@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Inkoop:** 
 >
-> Geen definitie
+> Dit subdomein bevat data over personeelsadministratie, werving en selectie, arbeidsvoorwaarden, opleidingen, verzuimregistratie en loopbaanontwikkeling. Het ondersteunt de organisatie bij het aantrekken, behouden en ontwikkelen van medewerkers en faciliteert processen zoals functioneringsgesprekken, personeelsplanning en compliance met arbeidswetgeving.
 
 Het model 'Model Inkoop' kent de volgende objecttypen:
 
