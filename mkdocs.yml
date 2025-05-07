@@ -21,10 +21,15 @@ nav:
  - Home: index.md
  - Installatie: installatie.md
  - Startersgids:
-    - 'Vooraf': startersgids/vooraf.md
-    - 'Start': startersgids/start.md
-    - 'Eerste Gebruik': startersgids/eerste_gebruik.md
-    - 'Daarna Verder': startersgids/daarna_verder.md
+    - 'Inleiding': startersgids/Startdocument.md
+    - 'Vooraf':
+        - 'Waarom het GGM?': 'startersgids/Waarom-het-GGM.md'
+        - 'IV3': 'startersgids/vooraf/IV3.md'
+        - 'IV3 op het DGW-portaal': 'startersgids/vooraf_portaal/IV3-op-portaal-DGW.md'
+    - 'Start': 'startersgids/start/Mapping-zelf-maken-of-niet.md'
+    - 'Eerste Gebruik': startersgids/GGM-Stap-voor-stap-bron-naar-dashboard.md
+    - 'Daarna Verder': startersgids/Wat-als-het-niet-past.md
+    - 'Startersgids Miniconferentie': startersgids/GGM-Startersgids-Totale-Presentatie.md
  - Beschrijving Domeinen:
     - 'Inleiding': domeinen/inleiding.md
     - 'Bestuur, Politiek en Ondersteuning':
