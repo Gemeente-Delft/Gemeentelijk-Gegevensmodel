@@ -190,3 +190,19 @@ Voor meer informatie ga naar: [Informatiepagina Jupyter-tooling](tools/README.md
 [importRefData]: docs/image/ImportRefData.png "Import Referencedata"
 [kiesTemplates]: docs/image/KiesTemplates.png "Kies templates"
 [gebruikTemplates]: docs/image/GebruikTemplates.png "Gebruik templates"
+
+## Citatie
+
+Gebruik bij wetenschappelijke of technische verwijzingen bij voorkeur de volgende BibTeX-entry:
+
+```bibtex
+@misc{brienenAshkpour2019ggm,
+  author       = {Arjen Brienen and Ashkan Ashkpour},
+  title        = {Gemeentelijk Gegevensmodel (GGM)},
+  year         = {2019},
+  url          = {https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel},
+  note         = {Beschikbaar onder de EUPL v1.2 en CC-BY 4.0 licentie},
+  institution  = {Gemeente Delft},
+  howpublished = {\url{https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel}},
+  keywords     = {information model, semantic interoperability, municipalities, open standards}
+}
