@@ -32,6 +32,7 @@ vars:
   XMI: "{{.VERSION_DIR}}/{{.XMI_FILE}}"
   GGM: "{{.VERSION_DIR}}/{{.GGM_FILE}}"
   EXCEL: "{{.VERSION_DIR}}/{{.EXCEL_FILE}}"
+  LOD: "{{.VERSION_DIR}}/{{.LOD_FILE}}"
   TRANSLATIONS_DIR: "{{.VERSION_DIR}}/{{.TRANSLATIONS_DIR}}"
   i18N_FILE: "{{.TRANSLATIONS_DIR}}/{{.i18N_FILE}}"
   GGM_ROOT_SCHEMA: "GGM_ROOT_SCHEMA"
@@ -192,6 +193,14 @@ tasks:
       - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t xlsx -f "{{.EXCEL}}"
     shell: bash
 
+  generate-lod:
+    desc: "Generate the LOD specification from the model. Generating '{{.LOD}}'"
+    deps: [import-xmi]
+    cmds:
+      - echo "Generating Lod specification..."
+      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t ttl -f "{{.LOD}}" --linked_data_namespace {{.LINKED_DATA_NS}}
+    shell: bash
+
   generate-gemma:
     desc: "Generate the Excel specification from the model. Generating '{{.EXCEL}}'"
     deps: [import-xmi]
@@ -240,6 +249,7 @@ tasks:
       - task: generate-excel
       - task: generate-translations
       - task: deploy-docs 
+      - task: generate-lod
       - echo "Full deployment completed."
     shell: bash
 
