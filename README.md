@@ -197,7 +197,7 @@ Als je verwijst naar het Gemeentelijk Gegevensmodel (GGM) in wetenschappelijke p
 
 ### APA 7-stijl
 
-Brienen, A., & Ashkpour, A. (2025). *Gemeentelijk Gegevensmodel (GGM)*. Gemeente Delft. https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel
+> Brienen, A., & Ashkpour, A. (2019). *Gemeentelijk Gegevensmodel (GGM)*. Gemeente Delft. https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel
 
 ### BibTeXGebruik bij wetenschappelijke of technische verwijzingen bij voorkeur de volgende BibTeX-entry:
 
