@@ -1159,7 +1159,7 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
 | version | 1.5 |
 | created | 2025-03-26 11:13:38 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_22b56288_1eb4_4e11_b831_1d265f007b07 |
+| id | EAID_c0bbea80_40ec_4541_bb5a_cbc783f6e7b7 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1194,7 +1194,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_61579872_7dba_4379_b085_6ca9236d6d1c |
+| id | EAID_f33e3e6f_126a_420c_bc6c_1c3e5e036752 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1229,7 +1229,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_bd724a74_a3e9_4684_8390_a6f598de2d3a |
+| id | EAID_64ad3de7_5b19_4a3a_959c_09a461d88880 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1264,7 +1264,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_76836324_b69c_40ef_a545_e3d016954957 |
+| id | EAID_86e1c1bd_178c_4678_ab22_227a3be5ab9f |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1301,7 +1301,7 @@ De enumeratie aanduidingEigenaarGebruiker heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:36 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_7b3bc2e7_ee1d_4502_b949_8346e78a0c06 |
+| id | EAID_4696d2b3_0440_45d1_a76b_867d8d23b629 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

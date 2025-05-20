@@ -25,7 +25,7 @@ Het model 'Model Musea' kent de volgende objecttypen:
 * **Product**: Het resultaat van een proces dat in het economisch verkeer een waarde bezit.
 * **Productgroep**: Groepering van producten
 * **Productie-eenheid**: Een (deel van een) productiemiddel, dat zelfstandig (ofwel onafhankelijk van de andere delen van het desbetreffende productiemiddel) kan worden ingezet.
-* **Programma**: Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co√∂rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie.
+* **Programma**: Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co&#246;rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie.
 * **Programmasoort**: Typering van een programma
 * **Reservering**: Het vooraf bespreken van een plaats in een openbare gelegenheid, vervoermiddel, restaurant e.d.
 * **Rondleiding**: Bezichtiging met toelichting
@@ -779,7 +779,7 @@ Attributen van objecttype Productie-eenheid
 ### Programma
 > **Definitie Programma:** 
 >
-> Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co√∂rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie.
+> Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co&#246;rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -791,7 +791,7 @@ Attributen van objecttype Productie-eenheid
 | author | Arjen |
 | version | 1.5 |
 | created | 2019-08-12 13:23:12 |
-| modified | 2025-03-26 16:14:36 |
+| modified | 2025-05-20 15:04:44 |
 | id | EAID_3B84D5F0_FCA3_47a5_B90C_F0834DAD6EBD |
 | domein_iv3 |  |
 | domein_dcat |  |

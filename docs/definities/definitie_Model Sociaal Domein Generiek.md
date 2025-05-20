@@ -11,7 +11,7 @@ Het model 'Model Sociaal Domein Generiek' kent de volgende objecttypen:
 * **Clientbegeleider**: De persoon die verantwoordelijk is voor het opstellen en uitvoeren van het  ondersteuningsplan in samenwering met de client en personen uit zijn/haar omgeving .
 * **Gerechtelijke uitspraak**: Een gerechtelijke uitspraak is een formele beslissing van een rechter of gerechtshof in een juridische procedure. Deze uitspraak bevat de beoordeling van de feiten, de toepassing van het recht en de uiteindelijke beslissing over het geschil dat aan de rechter is voorgelegd. Een gerechtelijke uitspraak kan verschillende vormen aannemen, zoals een vonnis, arrest, beschikking of een kortgedingbeslissing, afhankelijk van de aard van de procedure. Het doel van een gerechtelijke uitspraak is om een bindende oplossing te bieden voor het conflict tussen partijen, en het kan zowel betrekking hebben op civiele, strafrechtelijke, bestuursrechtelijke als andere juridische kwesties.
 * **Gezagsverhouding**: Een gezagsverhouding is een juridische of feitelijke relatie tussen twee partijen, waarbij de ene partij (de gezagsdrager) bevoegd is om instructies of richtlijnen te geven, en de andere partij (de ondergeschikte) verplicht is deze op te volgen. Deze verhouding speelt een belangrijke rol in verschillende contexten, zoals arbeidsrelaties, waarbij een werkgever zeggenschap heeft over een werknemer, of familierecht, waar ouders gezag uitoefenen over hun minderjarige kinderen. Een gezagsverhouding impliceert doorgaans een zekere mate van hiërarchie en verantwoordelijkheid, waarbij de gezagsdrager verplicht is om zijn bevoegdheden zorgvuldig en in het belang van de ondergeschikte uit te oefenen.
-* **Huishouden**: Persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continuiteit in de samenstelling ervan, die binnen een woning duurzaam gebruik maakt van dezelfde voorzieningen.
+* **Huishouden**: Persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continu&#239;teit in de samenstelling ervan, die binnen een woning duurzaam gebruik maakt van dezelfde voorzieningen.
 * **Incident**: <Geen Definities>
 * **Leverancier**: Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie
 * **Profiel**: <Geen Definities>
@@ -235,7 +235,7 @@ Attributen van objecttype Gezagsverhouding
 ### Huishouden
 > **Definitie Huishouden:** 
 >
-> Persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continuiteit in de samenstelling ervan, die binnen een woning duurzaam gebruik maakt van dezelfde voorzieningen.
+> Persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continu&#239;teit in de samenstelling ervan, die binnen een woning duurzaam gebruik maakt van dezelfde voorzieningen.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -247,7 +247,7 @@ Attributen van objecttype Gezagsverhouding
 | author | crossover |
 | version | 1.4 |
 | created | 2018-04-25 10:24:00 |
-| modified | 2025-03-26 16:14:37 |
+| modified | 2025-05-20 15:05:20 |
 | id | EAID_F0467610_553B_47cd_A9F7_3B1D20CC425E |
 | domein_iv3 |  |
 | domein_dcat |  |

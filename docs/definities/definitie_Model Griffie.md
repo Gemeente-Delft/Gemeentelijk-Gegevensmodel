@@ -13,7 +13,7 @@ Het model 'Model Griffie' kent de volgende objecttypen:
 * **Collegelid**: Iemand die behoort het college van burgemeester en wethouders
 * **Dossier**: Samenhangende set gegevens en informatie voor een specifiek doel
 * **Indiener**: Persoon die meldiing of aanvraag doet
-* **Programma**: Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co√∂rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie.
+* **Programma**: Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co&#246;rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie.
 * **Raadscommissie**: Een raadscommissie binnen de Nederlandse gemeenteraad is een groep raadsleden die zich buigt over specifieke thema's of beleidsonderwerpen om de besluitvorming in de volledige raad voor te bereiden en te ondersteunen.
 * **Raadslid**: Iemand die behoort de gemeenteraad
 * **Raadsstuk**: Stuk dat door de gemeenteraad wordt behandeld
@@ -270,7 +270,7 @@ Attributen van objecttype Indiener
 ### Programma
 > **Definitie Programma:** 
 >
-> Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co√∂rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie.
+> Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co&#246;rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -282,7 +282,7 @@ Attributen van objecttype Indiener
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-05-16 11:44:13 |
-| modified | 2025-03-26 16:14:34 |
+| modified | 2025-05-20 14:57:05 |
 | id | EAID_CA56A59A_F855_4c19_89BE_578B12481EA0 |
 | domein_iv3 |  |
 | domein_dcat |  |

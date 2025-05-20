@@ -9,9 +9,9 @@ Het model 'Model Onderwijs' kent de volgende objecttypen:
 * **Inschrijving**: Deelname van iemand aan een opleiding bij een onderwijsinstelling.
 * **Leerjaar**: Is de codering van het jaar of het niveau waarin de leerling onderwijs volgt.
 * **Leerling**: Mens die een opleiding volgt, heeft gevolgd of gaat volgen of opgaat of is opgegaan voor een toets. (Bron: KOI)
-* **Locatie**: De locatie beschrijft middels co√∂rdinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)
+* **Locatie**: De locatie beschrijft middels co&#246;rdinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)
 * **Loopbaanstap**: Een logische en ook uitdagende stap naar een volgende functie binnen dezelfde functiefamilie of een andere, op hetzelfde schaalniveau of op een schaalniveau hoger.
-* **Onderwijsloopbaan**: Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijscarri√®re; schoolloopbaan; schoolcarri√®re; schooltijd; de schooljaren
+* **Onderwijsloopbaan**: Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijs<font color="#0e0e0e">carri&#232;re</font>; schoolloopbaan; school<font color="#0e0e0e">carri&#232;re</font>; schooltijd; de schooljaren
 * **Onderwijsniveau**: De hoogte van een soort onderwijs in relatie tot andere soorten onderwijs
 * **Onderwijssoort**: Typologie voor onderwijs
 * **Ouder Of Verzorger**: Een persoon die wettelijk verantwoordelijk is voor de zorg en opvoeding van een kind.
@@ -148,7 +148,7 @@ Attributen van objecttype Leerling
 ### Locatie
 > **Definitie Locatie:** 
 >
-> De locatie beschrijft middels co√∂rdinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)
+> De locatie beschrijft middels co&#246;rdinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -160,7 +160,7 @@ Attributen van objecttype Leerling
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2018-06-20 11:36:50 |
-| modified | 2025-03-26 16:14:35 |
+| modified | 2025-05-20 15:06:12 |
 | id | EAID_3119A4DB_BB23_4adc_98BD_82F2D7996C6B |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -220,7 +220,7 @@ Attributen van objecttype Loopbaanstap
 ### Onderwijsloopbaan
 > **Definitie Onderwijsloopbaan:** 
 >
-> Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijscarri√®re; schoolloopbaan; schoolcarri√®re; schooltijd; de schooljaren
+> Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijs<font color="#0e0e0e">carri&#232;re</font>; schoolloopbaan; school<font color="#0e0e0e">carri&#232;re</font>; schooltijd; de schooljaren
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -232,7 +232,7 @@ Attributen van objecttype Loopbaanstap
 | author | crossover |
 | version | 1.5 |
 | created | 2018-05-04 14:59:08 |
-| modified | 2025-03-26 16:14:35 |
+| modified | 2025-05-20 14:59:35 |
 | id | EAID_F47ACE79_C476_479f_A3A3_729E65AF3D32 |
 | domein_iv3 |  |
 | domein_dcat |  |

@@ -10,7 +10,7 @@ Het model 'Model Omgevingswet' kent de volgende objecttypen:
 * **Beperkingsgebied**: Een bij of krachtens de wet aangewezen gebied, waar vanwege de aanwezigheid van een werk of object regels gelden, ten aanzien van het beperken van activiteiten die gevolgen hebben of kunnen hebben voor dat werk of object.
 * **Functie**: Een samenhangende verzameling van rollen
 * **Gebiedsaanwijzing**: Functie of een Beperkingengebied, met een verwijzing naar locatie, veelal een gebied, waarbij aangegeven wordt hoe het gebied beschouwd wordt vanuit de bijbehorende regels.
-* **Idealisatie**: Vastlegging van de manier de begrenzing van Locatie voor deze Juridische regel ge√Ønterpreteerd moet worden en door het bevoegd gezag bedoeld is.
+* **Idealisatie**: Vastlegging van de manier de begrenzing van Locatie voor deze Juridische regel ge&#239;nterpreteerd moet worden en door het bevoegd gezag bedoeld is.
 * **Instructieregel**: Objecttype Instructieregel Naam Definitie Toelichting Instructieregel De beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan. Het betreft hier juridische regel die instructie geeft aan andere overheden, gericht op externe omgevingsdocumenten, of een taakuitoefening. Een ander omgevingsdocument is bijvoorbeeld een Omgevingsplan, Omgevingsverordening en Waterschapsverordening. Een taakuitoefening is voor bijvoorbeeld een gemeentebestuur of een wildbeheereenheid. Een instructieregel is alleen gericht op een Omgevingsnorm of een Gebiedsaanduiding, zoals een Functie of een Beperkingengebied (en eventueel meerdere).
 * **Juridische Regel**: De beschrijving van een regel met juridische werkingskracht. Een regel betreft binnen de Omgevingswet veelal activiteiten, en/of normen en/of functies en/of beperkingengebieden.
 * **Norm**: Omgevingswaarde of een omgevingsnorm, met een normatief karakter, die beschreven worden middels normwaarden. Een normwaarde kan kwalitatief of kwantitatief zijn.
@@ -194,7 +194,7 @@ Attributen van objecttype Gebiedsaanwijzing
 ### Idealisatie
 > **Definitie Idealisatie:** 
 >
-> Vastlegging van de manier de begrenzing van Locatie voor deze Juridische regel ge√Ønterpreteerd moet worden en door het bevoegd gezag bedoeld is.
+> Vastlegging van de manier de begrenzing van Locatie voor deze Juridische regel ge&#239;nterpreteerd moet worden en door het bevoegd gezag bedoeld is.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -206,7 +206,7 @@ Attributen van objecttype Gebiedsaanwijzing
 | author | Arjen Brienen |
 | version | 1.5 |
 | created | 2019-10-23 12:19:30 |
-| modified | 2025-03-26 16:14:46 |
+| modified | 2025-05-20 15:05:48 |
 | id | EAID_4942AB0A_804B_4043_BD3C_7F65E2D697E0 |
 | domein_iv3 |  |
 | domein_dcat |  |
