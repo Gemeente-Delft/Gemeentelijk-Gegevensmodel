@@ -193,7 +193,13 @@ Voor meer informatie ga naar: [Informatiepagina Jupyter-tooling](tools/README.md
 
 ## Citatie
 
-Gebruik bij wetenschappelijke of technische verwijzingen bij voorkeur de volgende BibTeX-entry:
+Als je verwijst naar het Gemeentelijk Gegevensmodel (GGM) in wetenschappelijke publicaties, beleidsstukken of technische documentatie, gebruik dan bij voorkeur de volgende bronvermelding:
+
+### APA 7-stijl
+
+Brienen, A., & Ashkpour, A. (2025). *Gemeentelijk Gegevensmodel (GGM)*. Gemeente Delft. https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel
+
+### BibTeXGebruik bij wetenschappelijke of technische verwijzingen bij voorkeur de volgende BibTeX-entry:
 
 ```bibtex
 @misc{brienenAshkpour2019ggm,
