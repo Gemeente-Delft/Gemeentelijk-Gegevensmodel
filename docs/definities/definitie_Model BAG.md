@@ -856,7 +856,7 @@ De enumeratie statusNummeraanduiding heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_d1dd45c6_fd46_46d7_8e5c_ac5f1e762999 |
+| id | EAID_d61fd2d6_59f8_4577_b620_561c109ebf56 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -893,7 +893,7 @@ De enumeratie TypeAdresseerbaarObject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:15 |
 | modified | 2025-03-26 16:14:47 |
-| id | EAID_442b2813_c2e9_4776_85b2_b9b91293ae47 |
+| id | EAID_1b1bae8b_2863_4592_8511_6049c22a531f |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -928,7 +928,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_fde37576_4844_482b_abd2_f2c0b3a78e4d |
+| id | EAID_d9faaf66_de66_4e3f_946e_819801a24be4 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -963,7 +963,7 @@ De enumeratie statusOpenbareRuimte heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_793cca7f_be8b_4003_a2bf_3e771ad15f10 |
+| id | EAID_0df3391e_8b07_427f_b123_c0ced43eebdc |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1010,7 +1010,7 @@ De enumeratie typeringOpenbareRuimte heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:41 |
 | modified | 2025-03-26 16:14:57 |
-| id | EAID_aa305109_d596_40ab_b0a4_8ea0ddc5376b |
+| id | EAID_9b7c2bad_a257_4385_9536_96acfc280465 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1062,7 +1062,7 @@ De enumeratie statusPand heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_08cc46ae_aecb_4ec2_a58b_b064c5ebdfbd |
+| id | EAID_718be104_9199_44b7_a480_367d3d94daf3 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1107,7 +1107,7 @@ De enumeratie statusVoortgangBouw heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_e74b1fb0_d983_4424_b831_44c676f67fb0 |
+| id | EAID_6a5a95a1_82e3_4134_bf35_d85a18ec03fe |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1142,7 +1142,7 @@ De enumeratie StatLigplaatsStandplaats heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_30cea04c_8afd_4c63_a252_b20a6963c487 |
+| id | EAID_6b537088_295d_41fd_91b1_77cd91627863 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1184,7 +1184,7 @@ De enumeratie statusVerblijfsobject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_6019ba67_20dd_4952_a7bd_74ad38474da0 |
+| id | EAID_9636c0c9_e961_4d21_aa7c_a67c9260b365 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1222,7 +1222,7 @@ De enumeratie soortWoonobject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_c3bb3297_c2b4_4d20_8dc6_261c0d0db5e7 |
+| id | EAID_fb710554_c729_4906_b2f2_30a350d99122 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1258,7 +1258,7 @@ De enumeratie ontsluitingswijzeVerdieping heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:38 |
 | modified | 2025-03-26 16:14:55 |
-| id | EAID_8c7b4f3e_29aa_41e1_98a2_10d5e1f35ce4 |
+| id | EAID_72fef751_2d2e_44d6_8704_a44e10085932 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1300,7 +1300,7 @@ De enumeratie statusVerblijfsobject heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:39 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_b9df9876_a2b3_4a30_87e1_0ff1ba3bee60 |
+| id | EAID_006bf3c2_f0c3_4a6e_807c_ba906eaa165b |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
@@ -1335,7 +1335,7 @@ De enumeratie statusWoonplaats heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:40 |
 | modified | 2025-03-26 16:14:56 |
-| id | EAID_5fc5c850_6fdd_4ed9_83e5_ce34406cdd77 |
+| id | EAID_dddf11ed_d004_43f8_8d21_11a67398e01f |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

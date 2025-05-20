@@ -140,11 +140,11 @@ Attributen van objecttype Vroegsignaal
 | :--- | :--- | :--- |
 | crisissignaal | boolean | Betreft het een crisis?
  |
-| warmeOverdracht | boolean | Er is al contact met persoon. Betredft verzoek deze pwersoon op te pakken in het kader van vroegsignalering.  |
+| warmeOverdracht | boolean | Er is al contact met persoon. Betreft verzoek deze persoon op te pakken in het kader van vroegsignalering.  |
 | bedrag | bedrag |  |
+| ontstaansdatum | Date |  |
 | signaaldatum | Date | Datum waarop de signaalpartner het signaal heeft verstuurd. |
-| startdatumPeriode | Date |  |
-| einddatumPeriode | Date |  |
+| status | Enumeratie: "EnumSignaalstatus" |  |
 | None | Class: "Signaalpartner" |  |
 | None | Class: "Vroegsignaalzaak" |  |
 | None | Class: "Client" |  |
@@ -183,10 +183,10 @@ Attributen van objecttype Vroegsignaalzaak
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | resultaat | Enumeratie: "EnumEindresultaat" |  |
-| crisis | boolean |  |
 | matchingsdatum | Date |  |
-| startdatum | date |  |
-| einddatum | Date |  |
+| startdatum_matchtingperiode | Date |  |
+| datum_opgepakt | Date |  |
+| einddatum_matchingperiode | Date |  |
 | None | Class: "Gemeente" |  |
 | None | Class: "Contactpoging" |  |
 
@@ -242,7 +242,9 @@ Enumeratie met de soorten Eindresultaten van een Vroegsignaalzaak.
 
 Het enumeratie EnumEindresultaat kent de volgende waarden:
 
-* **wordt niet opgepakt**: <Geen Definities>
+* **Succesvol**: <Geen Definities>
+* **Niet Succesvol**: <Geen Definities>
+* **Geen Actie**: <Geen Definities>
 
 
 De enumeratie EnumEindresultaat heeft de volgende kenmerken:
@@ -302,6 +304,37 @@ De enumeratie EnumSignaalpartner heeft de volgende kenmerken:
 | created | 2025-04-09 16:29:45 |
 | modified | 2025-04-23 15:38:45 |
 | id | EAID_ACE0EA25_898C_4de3_8196_49AD3AE5481F |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
+
+
+
+### EnumSignaalstatus
+Geen Definitie
+
+Het enumeratie EnumSignaalstatus kent de volgende waarden:
+
+
+
+De enumeratie EnumSignaalstatus heeft de volgende kenmerken:
+
+| Kenmerk | Waarde |
+| :--- | :------ |
+| name | EnumSignaalstatus |
+| toelichting | None |
+| synoniemen | None |
+| uri | None |
+| bron | None |
+| author | arjen |
+| version | 1.0 |
+| created | 2025-05-07 11:25:56 |
+| modified | 2025-05-07 11:26:54 |
+| id | EAID_568499A3_3FE7_4342_B1B4_36A01AEAC1C9 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

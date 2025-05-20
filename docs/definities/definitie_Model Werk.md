@@ -519,7 +519,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:13:35 |
 | modified | 2025-03-26 16:14:54 |
-| id | EAID_dcc13709_8701_492a_becf_392268a241c5 |
+| id | EAID_27c004e8_d059_476c_974e_39e446778d4a |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

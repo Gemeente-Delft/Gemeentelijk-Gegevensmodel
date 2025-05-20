@@ -13,8 +13,8 @@ Het model 'Model Inkomen' kent de volgende objecttypen:
 * **Inkomensvoorziening**: Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving
 * **Inkomensvoorzieningsoort**: Typering van een inkomensvoorziening
 * **RedenBlokkering**: Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen.  
-* **RedenInstroom**: Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen.  
-* **RedenUitstroom**: Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen.  
+* **RedenInstroom**: De reden waarom de persoon de uitkering heeft gekregen. Geeft de reden van aanvraag van uitkering weer. Nodig voor diepere analyse van stand van uitkeringen. Omdat we willen weten waarom mensen nstromen. Bv geen werk meer og geen andere uitkering, verhuizing. 
+* **RedenUitstroom**: De reden waarom de uitkering aan een persoon is beeindgd. Reden toevoeging: Geeft de reden van uitstroom aan. Waarom is de uitkering be&#235;indigd. Nodig voor diepere analyse van stand. Meet of je beleid of het lukt om mensen naar werk te laten stromen. van uitkeringen. 
 * **Regeling**: Een Regeling is gekoppeld aan een ingeschreven persoon (client) en beschrijft de specifieke afspraken of voorwaarden waaronder inkomensondersteuning wordt verleend. Een regeling heeft altijd een relatie met een RegelingSoort, die het type regeling specificeert.
 * **Regelingsoort**: Typologie van een regeling
 * **UitkeringsRun**: <Geen Definities>
@@ -303,7 +303,7 @@ Attributen van objecttype RedenBlokkering
 ### RedenInstroom
 > **Definitie RedenInstroom:** 
 >
-> Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen. 
+> De reden waarom de persoon de uitkering heeft gekregen. Geeft de reden van aanvraag van uitkering weer. Nodig voor diepere analyse van stand van uitkeringen. Omdat we willen weten waarom mensen nstromen. Bv geen werk meer og geen andere uitkering, verhuizing.
 > 
 
 | Eigenschap | Waarde |
@@ -316,7 +316,7 @@ Attributen van objecttype RedenBlokkering
 | author | arjen |
 | version | 1.0 |
 | created | 2025-04-23 16:16:48 |
-| modified | 2025-04-23 16:17:10 |
+| modified | 2025-05-01 09:26:14 |
 | id | EAID_8D999BE8_96AB_8418_99A2_CB86335AFB97 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -344,7 +344,7 @@ Attributen van objecttype RedenInstroom
 ### RedenUitstroom
 > **Definitie RedenUitstroom:** 
 >
-> Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen. 
+> De reden waarom de uitkering aan een persoon is beeindgd. Reden toevoeging: Geeft de reden van uitstroom aan. Waarom is de uitkering be&#235;indigd. Nodig voor diepere analyse van stand. Meet of je beleid of het lukt om mensen naar werk te laten stromen. van uitkeringen.
 > 
 
 | Eigenschap | Waarde |
@@ -357,7 +357,7 @@ Attributen van objecttype RedenInstroom
 | author | arjen |
 | version | 1.0 |
 | created | 2025-04-23 16:18:22 |
-| modified | 2025-04-23 16:18:39 |
+| modified | 2025-05-01 09:26:34 |
 | id | EAID_99A2CB86_335A_FB97_9C8F_47170B1699EC |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -529,7 +529,7 @@ De enumeratie Wet heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:12:49 |
 | modified | 2025-03-26 16:14:37 |
-| id | EAID_0a9e1193_fc6d_408f_9fdd_3ac5aa8656fb |
+| id | EAID_e750e59e_0d63_4f51_81f8_32fd66af6856 |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

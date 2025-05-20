@@ -11,7 +11,7 @@ Het model 'Model Schuldhulpverlening' kent de volgende objecttypen:
 * **Begeleidingssoort**: Soort begeleiding in het kader van schuldhulpverlening
 * **Contactpersoon**: Contactpersoon van een organisatie
 * **Crisisinterventie**: Het afwenden van een crisis- of dreigende situatie om zo de mogelijkheid te cre&#235;ren om de klant te helpen via de reguliere schuldhulpverlening. Volgens de Wgs gaat het in elk geval om de volgende situaties: ■ gedwongen woningontruiming; ■ be&#235;indiging van de levering van gas, water, elektriciteit of stadsverwarming; ■ opzegging of ontbinding van de zorgverzekering. Gemeenten kunnen extra situaties toevoegen aan hun crisisprotocol, zoals: ■ aangekondigde boedelverkoop of verkoop van de eigen woning; ■ loon- of bankbeslag; ■ een faillissementsaanvraag. En voor ondernemers: ■ beslag op (on)roerende zaken dat het voortbestaan van de onderneming bedreigt; ■ opzegging van het bankkrediet. 
-* **InformatieEnAdvies**: <Geen Definities>
+* **InformatieEnAdvies**: <font color="#1e1d3a">Het betreft hier de activiteiten die in het kader van Informatie en advies worden uitgevoerd. Het doel van Informatie en Advies is inwoners zelf in staat te stellen een duurzaam financieel evenwicht te bereiken. Het kan een beroep op uitgebreidere vormen van dienstverlening overbodig maken.</font>
 * **Inkomen**: Inkomen dat door een persoon wordt verworven uit verschillende mogelijke inkomstenbronnen: inkomen uit arbeid, inkomen uit eigen onderneming, uitkering inkomensverzekeringen en uitkering sociale voorzieningen (m.u.v. kinderbijslag en kindgebonden budget). Premies inkomensverzekeringen (m.u.v. premies voor volksverzekeringen) zijn hierop in mindering gebracht.
 * **Intake**: Dit is de fase tussen het eerste gesprek en het Plan van Aanpak. Tijdens de intakefase wordt geinventariseerd welke instrumenten, ondersteuning, activiteiten en gegevens nodig zijn om een duurzaam financieel evenwicht te bereiken.
 * **Leefsituatie**: Leefsituatie is de combinatie van factoren zoals schulden, ondernemerschap, aanwezigheid van een partner, en inkomen, die samen de sociale en economische omstandigheden van een individu bepalen. Deze wordt in het kader van schuldhulpverlening gebruikt om alle relevante zaken van clienten aan te koppelen.
@@ -27,9 +27,9 @@ Het model 'Model Schuldhulpverlening' kent de volgende objecttypen:
 * **Schuldhulporganisatie**: Een schuldhulporganisatie is een instantie die individuen en gezinnen helpt met het beheren, verminderen en oplossen van hun schulden door middel van advies, begeleiding en bemiddeling. Het betreft een gemeenten of een SHV-organisatie die de gemeentelijke schuldhulpverleningstaak vanuit een gemeente gemandateerd of gedelegeerd heeft.  
 * **Schuldhulptraject**: Samenstel van achtereenvolgens uit te voeren en onderling samenhangende deelhandelingen of van opeenvolgende stadia in een proces, voorgesteld als een route die via opeenvolgende bestemmingen naar de eindbestemming voert.
 * **Schuldregeling**: De schuldregeling heeft als doel een overeenkomst te sluiten tussen iemand met problematische schulden en zijn schuldeisers. Op basis van eventueel ingezet vermogen en de berekende afloscapaciteit (of op andere wijze vastgestelde minimale afdracht) lost de schuldenaar in maximaal 18 maanden zo veel mogelijk van de schuld af. Daarna schelden de schuldeisers de rest van hun vordering kwijt. Voordat de schuldregeling start, sluit je een schuldregelingsovereenkomst met de schuldenaar. Daarin staan de rechten en plichten van beide partijen. Een schuldregeling kan met een saneringskrediet of een schuldbemiddeling gerealiseerd worden. Als een of meer schuldeisers blijven weigeren in te stemmen met de minnelijke schuldregeling, informeer je de schuldenaar over mogelijke vervolgstappen, zoals het aanvragen van een dwangakkoord (artikel 287a Fw) of toelating tot de Wsnp.
-* **Stabilisatie**: Fase van het schuldhulpverleningstraject met als doel de inkomsten en uitgaven van een persoon in evenwicht te brengen. De stabilisatie van inkomen en uitgaven is een resultaat van werkzaamheden uit het integrale plan van aanpak. Als stabilisatie bereikt is kan een betalingsregeling, herfinanciering of schuldregeling worden opgezet. Een belangrijk tweede doel is om de hulpvrager hierbij schuldenrust te bieden: stress wegnemen en tijd maken voor oplossingen naar een schuldenzorgvrije toekomst. In de stabilisatiefase kan een schuldhulpverlener andere instrumenten, activiteiten of ondersteuning inzetten, die bijdragen aan de duurzame oplossing van het financi&#235;le probleem, zoals budgetcoaching, budgetbeheer, beschermingsbewind of flankerende hulp.
-* **Uitstroom**: Motivatie voor uitstroom
-* **VoorlopigeVoorziening **: <Geen Definities>
+* **Stabilisatie**: Fase van het schuldhulpverleningstraject met als doel de inkomsten en uitgaven van een persoon in evenwicht te brengen. De stabilisatie van inkomen en uitgaven is een resultaat van werkzaamheden uit het plan van aanpak. Als stabilisatie bereikt is kan een betalingsregeling, herfinanciering of schuldregeling worden opgezet. Een belangrijk tweede doel is om de hulpvrager hierbij schuldenrust te bieden: stress wegnemen en tijd maken voor oplossingen naar een schuldenzorgvrije toekomst.  In de stabilisatiefase kan een schuldhulpverlener andere instrumenten, activiteiten of ondersteuning inzetten, die bijdragen aan de duurzame oplossing van het financi&#235;le probleem, zoals budgetcoaching, budgetbeheer, beschermingsbewind of flankerende hulp.
+* **Uitstroom**: Het betreft hier de gegevens die worden vastgelegd bij uitstroom en dus be&#235;indiging van een schuldhulptraject. 
+* **VoorlopigeVoorziening **: <font color="#0e0e0e">Een voorlopige voorziening is een tijdelijke regeling die de hulpvrager beschermt tegen verslechtering van zijn financi&#235;le situatie of het verlies van essenti&#235;le voorzieningen (zoals energie, woning, zorg), totdat een schuldregelingstraject is gestart of er meer duidelijkheid is over de vervolgstappen.</font> <font color="#0e0e0e"> </font><font color="#0e0e0e">Voorbeelden van voorlopige voorzieningen:</font> <font color="#0e0e0e">	•	Tijdelijke betalingsregelingen met schuldeisers</font> <font color="#0e0e0e">	•	Een moratorium (tijdelijke opschorting van afbetalingen)</font> <font color="#0e0e0e">	•	Het aanvragen van uitstel van betaling bij woningcorporaties of energiebedrijven</font> <font color="#0e0e0e">	•	Hulp bij het voorkomen van afsluiting van gas, water, licht of ontruiming</font> <font color="#0e0e0e">	•	Budgetbeheer of beschermingsbewind als tijdelijke maatregel</font>
 * **Woningbezit**: Een koopwoning is een woning die eigendom is van een individu of een entiteit, die het heeft gekocht en waarvoor meestal een hypotheek is afgesloten.
 * **WSNP-traject**: Een WSNP-traject (Wet schuldsanering natuurlijke personen) is een wettelijk regeling in Nederland waarmee individuen met problematische schulden via een saneringsplan onder toezicht van een bewindvoerder hun schulden kunnen aflossen en na drie jaar een schone lei kunnen krijgen.
 * **WSNP-verklaring**: Een WSNP-verklaring is een officieel document dat bevestigt dat een persoon toegelaten is tot de Wet Schuldsanering Natuurlijke Personen (WSNP) om hun schulden onder toezicht van een bewindvoerder af te lossen.
@@ -84,7 +84,7 @@ Attributen van objecttype Aanmelding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| startdatum | Datum | Datum waarop een persoon met een hulpvraag komt rondom (dreigende) schulden. Dit kan een persoonlijke, schriftelijke, digitale of telefonische vraag zijn.  |
+| startdatum | Datum | Datum waarop een persoon met een hulpvraag komt rondom (dreigende) schulden, en het eerste contact met schuldhulpverlening is geweest. Dit kan een persoonlijke, schriftelijke, digitale of telefonische vraag zijn.  |
 | einddatum | Datum |  |
 | crisisinterventie | boolean | Is er sprake van een crisisinterventie? Indicator crisisinterventie. "Het afwenden van een crisis- of dreigende situatie om zo de mogelijkheid te cre&#235;ren om de klant te helpen via de reguliere schuldhulpverlening.
 Volgens de Wgs gaat het in elk geval om de volgende situaties:
@@ -267,7 +267,7 @@ Attributen van objecttype Crisisinterventie
 ### InformatieEnAdvies
 > **Definitie InformatieEnAdvies:** 
 >
-> Geen Definitie
+> <font color="#1e1d3a">Het betreft hier de activiteiten die in het kader van Informatie en advies worden uitgevoerd. Het doel van Informatie en Advies is inwoners zelf in staat te stellen een duurzaam financieel evenwicht te bereiken. Het kan een beroep op uitgebreidere vormen van dienstverlening overbodig maken.</font>
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -279,7 +279,7 @@ Attributen van objecttype Crisisinterventie
 | author | arjen |
 | version | 1.0 |
 | created | 2024-08-30 10:20:15 |
-| modified | 2025-04-23 15:45:18 |
+| modified | 2025-04-25 12:28:47 |
 | id | EAID_7CC8C026_91CB_422c_84C6_90401889F260 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -372,7 +372,7 @@ Attributen van objecttype Intake
 | :--- | :--- | :--- |
 | startdatum | Datum | Het gesprek dat plaatsvindt na aanmelding of na ontvangst hulpvraag (bijv. bij doorverwijzing vanuit vroegsignalering). Doel van dit gesprek is om de hulpvraag vast te stellen en te beoordelen welke instrumenten, ondersteuning, activiteiten en gegevens nodig zijn om een persoon te helpen om een duurzaam financieel evenwicht te bereiken. |
 | einddatum | Datum | De datum van afronding van de intake. Een klant ontvangt een gemotiveerde afwijzing of een toelatingsbeschikking.  |
-| beschikkingsdatum | Datum | De datum waarop de beschikking is afgegeven. Het kan hierom verschillende typen beschikking gaan, zoals: afwijzings- toewijsings- of beeindigingsbeschikking.  |
+| beschikkingsdatum | Datum | De datum waarop de beschikking is afgegeven. |
 | beschikkingssoort | Enumeratie: "EnumBeschikkingssoort" |  |
 | None | Class: "InformatieEnAdvies" |  |
 | None | Class: "Stabilisatie" |  |
@@ -726,7 +726,7 @@ Attributen van objecttype Schuld
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | bedrag | Bedrag | Bedrag in hele euro's nauwkeurig |
-| peildatum | Date | Peildatum dat de schuld is vastgesteld. |
+| peildatum | Date | Datum dat de schuld is vastgesteld. Het betreft hier het moment dat de vaststelling door de schuldhulpverlener in het kader van het schuldhulptraject is gedaan. |
 | zakelijkeSchuld | boolean | Betreft het een zakelijke schuld |
 | schuldsoort | Enumeratie: "EnumSchuldensoort" |  |
 | None | Class: "Schuldeiser" |  |
@@ -895,7 +895,7 @@ Attributen van objecttype Schuldregeling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datum | Datum | Datum dat schuldregeling is ingediend. |
+| datum | Datum | Datum dat schuldregeling door de schuldhulpverlener is ingediend. |
 | toegekend | Datum | Datum waarop toekenning heeft plaatgevonden. Leeg betekent: (nog) geen toekenning plaatgevonden  |
 | afgewezen | Datum | Datum waarop afwijzingheeft plaatgevonden. Leeg betekent: (nog) geen afwijzing plaatgevonden 
  |
@@ -912,8 +912,8 @@ Attributen van objecttype Schuldregeling
 ### Stabilisatie
 > **Definitie Stabilisatie:** 
 >
-> Fase van het schuldhulpverleningstraject met als doel de inkomsten en uitgaven van een persoon in evenwicht te brengen. De stabilisatie van inkomen en uitgaven is een resultaat van
-> werkzaamheden uit het integrale plan van aanpak. Als stabilisatie bereikt is kan een betalingsregeling, herfinanciering of schuldregeling worden opgezet. Een belangrijk tweede doel is om de hulpvrager hierbij schuldenrust te bieden: stress wegnemen en tijd maken voor oplossingen naar een schuldenzorgvrije toekomst. In de stabilisatiefase kan een schuldhulpverlener andere instrumenten, activiteiten of ondersteuning inzetten, die bijdragen aan de duurzame oplossing van het financi&#235;le probleem, zoals budgetcoaching, budgetbeheer, beschermingsbewind of flankerende hulp.
+> Fase van het schuldhulpverleningstraject met als doel de inkomsten en uitgaven van een persoon in evenwicht te brengen. De stabilisatie van inkomen en uitgaven is een resultaat van werkzaamheden uit het plan van aanpak. Als stabilisatie bereikt is kan een betalingsregeling, herfinanciering of schuldregeling worden opgezet. Een belangrijk tweede doel is om de hulpvrager hierbij schuldenrust te bieden: stress wegnemen en tijd maken voor oplossingen naar een schuldenzorgvrije toekomst. 
+> In de stabilisatiefase kan een schuldhulpverlener andere instrumenten, activiteiten of ondersteuning inzetten, die bijdragen aan de duurzame oplossing van het financi&#235;le probleem, zoals budgetcoaching, budgetbeheer, beschermingsbewind of flankerende hulp.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -925,7 +925,7 @@ Attributen van objecttype Schuldregeling
 | author | arjen |
 | version | 1.0 |
 | created | 2024-04-15 16:14:28 |
-| modified | 2025-04-23 15:46:48 |
+| modified | 2025-04-25 12:19:04 |
 | id | EAID_B0384246_6784_4724_B538_CE18197061CD |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -951,7 +951,7 @@ Attributen van objecttype Stabilisatie
 ### Uitstroom
 > **Definitie Uitstroom:** 
 >
-> Motivatie voor uitstroom
+> Het betreft hier de gegevens die worden vastgelegd bij uitstroom en dus be&#235;indiging van een schuldhulptraject. 
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -963,7 +963,7 @@ Attributen van objecttype Stabilisatie
 | author | Arjen Brienen |
 | version | 1.0 |
 | created | 2018-06-13 12:11:45 |
-| modified | 2025-04-23 15:46:54 |
+| modified | 2025-04-25 12:24:59 |
 | id | EAID_42D33289_422A_4d94_BE6B_44B34CC230B5 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -979,7 +979,7 @@ Attributen van objecttype Uitstroom
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | omschrijving | text |  |
-| datum | date | Datum dat clienten uit het schuldhulptraject zijn uitgestroomd |
+| datum | date | Datum dat clienten uit het schuldhulptraject zijn uitgestroomd. Deze datum is gelijk aan de datum be&#235;indigingsbeschikking. |
 | reden | Enumeratie: "EnumUitstroomreden" | Reden dat de hulpverlening op enig moment na aanmelding bij schuldhulpverlening eindigt.   |
 | datumBeeindigingsbeschikking | Datum | Datum dat de Be&#235;indigingsbeschikking is afgegeven. |
 
@@ -989,7 +989,14 @@ Attributen van objecttype Uitstroom
 ### VoorlopigeVoorziening 
 > **Definitie VoorlopigeVoorziening :** 
 >
-> Geen Definitie
+> <font color="#0e0e0e">Een voorlopige voorziening is een tijdelijke regeling die de hulpvrager beschermt tegen verslechtering van zijn financi&#235;le situatie of het verlies van essenti&#235;le voorzieningen (zoals energie, woning, zorg), totdat een schuldregelingstraject is gestart of er meer duidelijkheid is over de vervolgstappen.</font>
+> <font color="#0e0e0e">
+> </font><font color="#0e0e0e">Voorbeelden van voorlopige voorzieningen:</font>
+> <font color="#0e0e0e">	•	Tijdelijke betalingsregelingen met schuldeisers</font>
+> <font color="#0e0e0e">	•	Een moratorium (tijdelijke opschorting van afbetalingen)</font>
+> <font color="#0e0e0e">	•	Het aanvragen van uitstel van betaling bij woningcorporaties of energiebedrijven</font>
+> <font color="#0e0e0e">	•	Hulp bij het voorkomen van afsluiting van gas, water, licht of ontruiming</font>
+> <font color="#0e0e0e">	•	Budgetbeheer of beschermingsbewind als tijdelijke maatregel</font>
 
 | Eigenschap | Waarde |
 | :--- | :------ |
@@ -1001,7 +1008,7 @@ Attributen van objecttype Uitstroom
 | author | arjen |
 | version | 1.0 |
 | created | 2024-08-29 12:19:39 |
-| modified | 2025-04-23 15:46:59 |
+| modified | 2025-04-25 12:34:36 |
 | id | EAID_5DD63EFE_649F_484e_BB10_A18096B9ABDF |
 | domein_iv3 |  |
 | domein_dcat |  |
