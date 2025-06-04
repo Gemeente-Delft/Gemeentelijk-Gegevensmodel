@@ -36,7 +36,7 @@ Let op: Het Gemeentetelijk Gegevensmodel is een [UML-model](http://www.uml.org) 
 
 Van het Gemeentelijk Gegevensmodel zijn verschillende versies beschikbaar: v1.0.3, v2.0.0, v2.1.0, v2.2.0 en de courante versie v2.3.0. Je vindt deze in de afzonderlijke versies van de repository. De hierna volgende uitleg betreft de laatste versie van het GGM. Hieronder vind je de installatiebeschrijving bij de verschillende ondersteunde tools:
 
-1. [Enterprise Architect Viewer](https://sparxsystems.com/products/ea/trial/request.html) of [Enterprise Architect versie 16 of 17](https://sparxsystems.com/products/ea/16.1/index.html): download hiervoor het bestand [QEA-bestand](./v2.2.0/) en open het in (de viewer van) Enterprise Architect.
+1. [Enterprise Architect Viewer](https://sparxsystems.com/products/ea/downloads.html) of [Enterprise Architect versie 16 of 17](https://sparxsystems.com/products/ea/16.1/index.html): download hiervoor het bestand [QEA-bestand](./v2.2.0/) en open het in (de viewer van) Enterprise Architect.
 2. [Enterprise Architect versie 16](https://sparxsystems.com/products/ea/16.0/): de EAPX van versie 15 wordt niet meer ondersteund in de nieuwe release. Wil je het GGM alsnog in versie 15 laden, dan kan dat via het XMI bestand.
 3. Als [XMI-bestand in Enterprise Architect 16 en 17](./v2.2.0/Gemeentelijk%20Gegevensmodel%20XMI2.1.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk in de [handleiding](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/installatie/).
 4. [Bizzdesign](https://bizzdesign.com): voor installatie-instructies kijk in de [handleiding laden in Bizzdesign](https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/installatie/#installatie-gemeentelijk-gegevensmodel-in-bizzdesign) 
@@ -190,3 +190,25 @@ Voor meer informatie ga naar: [Informatiepagina Jupyter-tooling](tools/README.md
 [importRefData]: docs/image/ImportRefData.png "Import Referencedata"
 [kiesTemplates]: docs/image/KiesTemplates.png "Kies templates"
 [gebruikTemplates]: docs/image/GebruikTemplates.png "Gebruik templates"
+
+## Citatie
+
+Als je verwijst naar het Gemeentelijk Gegevensmodel (GGM) in wetenschappelijke publicaties, beleidsstukken of technische documentatie, gebruik dan bij voorkeur de volgende bronvermelding:
+
+### APA 7-stijl
+
+> Brienen, A., & Ashkpour, A. (2019). *Gemeentelijk Gegevensmodel (GGM)*. Gemeente Delft. https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel
+
+### BibTeXGebruik bij wetenschappelijke of technische verwijzingen bij voorkeur de volgende BibTeX-entry:
+
+```bibtex
+@misc{brienenAshkpour2019ggm,
+  author       = {Arjen Brienen and Ashkan Ashkpour},
+  title        = {Gemeentelijk Gegevensmodel (GGM)},
+  year         = {2019},
+  url          = {https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel},
+  note         = {Beschikbaar onder de EUPL v1.2 en CC-BY 4.0 licentie},
+  institution  = {Gemeente Delft},
+  howpublished = {\url{https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel}},
+  keywords     = {information model, semantic interoperability, municipalities, open standards}
+}
