@@ -17,3 +17,11 @@
   background-color: #E3F2FD;  /* Titelbalk uit Blue 100 */
   color: #0D47A1;             /* Tekstkleur uit Blue 900 */
 }
+
+/* Zorg dat de afstand tussen de mneu-items in de linkerkolom genoeg afstand hebben */
+.md-nav__item--nested:not(:first-child) {
+  margin-top: 1em;
+}
+.md-nav__item--nested:not(:last-child) {
+  margin-bottom: 1em;
+}
