@@ -32,6 +32,7 @@ vars:
   XMI: "{{.VERSION_DIR}}/{{.XMI_FILE}}"
   GGM: "{{.VERSION_DIR}}/{{.GGM_FILE}}"
   EXCEL: "{{.VERSION_DIR}}/{{.EXCEL_FILE}}"
+  LOD: "{{.VERSION_DIR}}/{{.LOD_FILE}}"
   TRANSLATIONS_DIR: "{{.VERSION_DIR}}/{{.TRANSLATIONS_DIR}}"
   i18N_FILE: "{{.TRANSLATIONS_DIR}}/{{.i18N_FILE}}"
   GGM_ROOT_SCHEMA: "GGM_ROOT_SCHEMA"
@@ -192,6 +193,14 @@ tasks:
       - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t xlsx -f "{{.EXCEL}}"
     shell: bash
 
+  generate-lod:
+    desc: "Generate the LOD specification from the model. Generating '{{.LOD}}'"
+    deps: [import-xmi]
+    cmds:
+      - echo "Generating Lod specification..."
+      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t ttl -f "{{.LOD}}" --linked_data_namespace {{.LINKED_DATA_NS}}
+    shell: bash
+
   generate-gemma:
     desc: "Generate the Excel specification from the model. Generating '{{.EXCEL}}'"
     deps: [import-xmi]
@@ -225,12 +234,22 @@ tasks:
       - echo 'Deploying to GitHub Pages...'
       - git push origin gh-pages
 
+
+  publish-test:
+    desc: "Publish the documentation to test location on host {{.FTP_HOST}}"
+    deps: [deploy-docs]
+    cmds:
+      - echo 'Deploying to test location...'
+      - lftp -e "set ssl:verify-certificate no; cd {{.FTP_REMOTE_DIR}}; mirror -R --delete --verbose ./{{.FTP_LOCAL_DIR}} .; bye" {{.FTP_HOST}}
+    shell: bash  
+
   full-deploy:
     desc: "Execute the entire deployment process."
     cmds:
       - task: generate-excel
       - task: generate-translations
       - task: deploy-docs 
+      - task: generate-lod
       - echo "Full deployment completed."
     shell: bash
 
@@ -252,3 +271,38 @@ tasks:
       - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -f "{{.GGM}}" -t earepo --tag_strategy upsert
       - echo "Data successfully loaded into repository..."
     shell: bash
+  
+  util-generate-i18n:
+    desc: "Genereer vertalingen voor alle talen opgegeven in de .env variabele LANGUAGES. Output naar '{{.i18N_FILE}}'"
+    deps: [import-xmi]
+    cmds:
+      - |
+        if [ -z "{{.LANGUAGES}}" ]; then
+          echo "Error: LANGUAGES is niet ingesteld in .env."
+          exit 1
+        fi
+
+        echo "Reading GGM Datamodel {{.XMI}}..."
+        # crunch_uml import -f "{{.XMI}}" -t eaxmi -db_create
+
+        for LANG in $(echo "{{.LANGUAGES}}" | tr ',' ' '); do
+          for LANG in "${LANG_ARRAY[@]}"; do
+            LANG=$(echo "$LANG" | xargs)  # trim spaties
+            echo "Translating GGM to language $LANG..."
+            crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t i18n -f "{{.i18N_FILE}}" --language "$LANG" --translate True --from_language "nl"
+
+            if [ $? -eq 0 ]; then
+              echo "Translation for language $LANG completed successfully."
+            else
+              echo "Error: Translation for language $LANG failed."
+              exit 1
+            fi
+          done
+        done
+    env:
+      LANGUAGES: "{{.LANGUAGES}}"
+    sources:
+      - "{{.XMI}}"
+    generates:
+      - "{{.i18N_FILE}}"
+    shell: bash  # <-- essentieel!

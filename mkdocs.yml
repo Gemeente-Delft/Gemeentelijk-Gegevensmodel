@@ -20,6 +20,16 @@ extra:
 nav:
  - Home: index.md
  - Installatie: installatie.md
+ - Startersgids:
+    - 'Inleiding': startersgids/Startdocument.md
+    - 'Vooraf':
+        - 'Waarom het GGM?': 'startersgids/Waarom-het-GGM.md'
+        - 'IV3': 'startersgids/vooraf/IV3.md'
+        - 'IV3 op het DGW-portaal': 'startersgids/vooraf_portaal/IV3-op-portaal-DGW.md'
+    - 'Start': 'startersgids/start/Mapping-zelf-maken-of-niet.md'
+    - 'Eerste Gebruik': startersgids/GGM-Stap-voor-stap-bron-naar-dashboard.md
+    - 'Daarna Verder': startersgids/Wat-als-het-niet-past.md
+    - 'Startersgids Miniconferentie': startersgids/GGM-Startersgids-Totale-Presentatie.md
  - Beschrijving Domeinen:
     - 'Inleiding': domeinen/inleiding.md
     - 'Bestuur, Politiek en Ondersteuning':
@@ -46,7 +56,9 @@ nav:
         - 'Inkomen': domeinen/inkomen.md
         - 'Wmo en Jeugd': domeinen/wmojeugd.md
         - 'Inburgering': domeinen/inburgering.md
-        - 'Schuldhulverlening': domeinen/schuldhulp.md
+        - 'Schulden':
+            - 'Schuldhulverlening': domeinen/schuldhulp.md
+            - 'Vroegsignalering': domeinen/vroegsignalering.md
         - 'Sociale Teams': domeinen/socteam.md
         - 'Gemeentebegraven': domeinen/gemeentebegraven.md
         - 'Dak- en thuislozen': domeinen/dakloos.md
@@ -90,21 +102,25 @@ nav:
         - 'Sport': definities/definitie_Model Sport.md
     - 'Sociaal domein':
         - 'Werk': definities/definitie_Model Werk.md
-        - 'Inkomen': definities/definitie_Model Inkomen.md
-        - 'Inkomen: Reden aanvraag (GBI)': definities/definitie_Model Reden aanvraag.md
-        - 'Inkomen: Terug- en invordering (GBI)': definities/definitie_Model Terug- en invordering.md
-        - 'Inkomen: Normafwijking (GBI)': definities/definitie_Model Normafwijking.md
-        - 'Inkomen: Dienstenmodel (GBI)': definities/definitie_Model Diensten.md
+        - 'Inkomen': 
+            - 'Inkomen Basis': definities/definitie_Model Inkomen.md
+            - 'Inkomen: Reden aanvraag (GBI)': definities/definitie_Reden aanvraag.md
+            - 'Inkomen: Terug- en invordering (GBI)': definities/definitie_Model Terug- en invordering.md
+            - 'Inkomen: Normafwijking (GBI)': definities/definitie_Model Normafwijking.md
+            - 'Inkomen: Dienstenmodel (GBI)': definities/definitie_Model Diensten.md
         - 'Wmo en Jeugd': definities/definitie_Model Jeugd en Wmo Generiek.md
         - 'Inburgering': definities/definitie_Model Inburgering.md
-        - 'Schuldhulverlening': definities/definitie_Model Schuldhulpverlening.md
+        - 'Schulden': 
+            - 'Schuldhulverlening': definities/definitie_Model Schuldhulpverlening.md
+            - 'Vroegsignalering': definities/definitie_Model Vroegsignalering.md
         - 'Sociale Teams': definities/definitie_Model Sociale Teams.md
         - 'Jeugdbescherming': definities/definitie_Model Jeugdbescherming.md
         - 'Gemeentebegrafenissen': definities/definitie_Model Gemeentebegrafenissen.md
         - 'Dak- en thuislozen': definities/definitie_Model Dak- en thuislozen.md
-        - 'Generieke definities Sociaal Domein': definities/definitie_Model Sociaal Domein Generiek.md
-        - 'Generiek: Profiel inkomsten': definities/definitie_Model Inkomsten.md
-        - 'Generiek: Profiel vermogen': definities/definitie_Model Vermogen.md
+        - 'Sociaal Domein Generiek': 
+            - 'Generieke definities Sociaal Domein': definities/definitie_Model Sociaal Domein Generiek.md
+            - 'Generiek: Profiel inkomsten': definities/definitie_Model Inkomsten.md
+            - 'Generiek: Profiel vermogen': definities/definitie_Model Vermogen.md
     - 'Volkshuisvesting, leefomgeving en stedelijke vernieuwing':
         - 'Openbare ruimte': definities/definitie_Model Beheer Openbare Ruimte.md
         - 'Bouwen en Wonen': definities/definitie_Model Wonen.md
@@ -127,7 +143,7 @@ nav:
  - Totstandkoming:
     - 'Uitleg Werkwijze': totstandkoming.md
     - 'Voorbeeld: Gemeentelijke Monumenten': monumenten.md
- - Generatie databaseschema's: generatie.md
+ - Databaseschema's: generatie.md
  - Overige:
     - Over het GGM: about.md
     - Licentie: https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE
