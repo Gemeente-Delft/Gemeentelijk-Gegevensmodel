@@ -109,6 +109,7 @@ Attributen van objecttype Client
 | gezagsdragerGekend | boolean |  |
 | juridischeStatus | AN80 |  |
 | wettelijkeVertegenwoordiging | AN80 |  |
+| None | Class: "Doelgroep" |  |
 | None | Class: "Huishouden" |  |
 | None | Class: "Profiel" |  |
 | None | Class: "Bankrekening" |  |

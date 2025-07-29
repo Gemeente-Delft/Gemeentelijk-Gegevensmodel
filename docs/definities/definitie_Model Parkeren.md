@@ -14,7 +14,7 @@ Het model 'Model Parkeren' kent de volgende objecttypen:
 * **Parkeerscan**: Waarneming van een parkeeractie door een scanauto
 * **Parkeervergunning**: Officiele toestemming dat je op een bepaalde plek mag parkeren
 * **Parkeervlak**: Parkeergelegenheid bestemd voor het parkeren van een of meerdere voertuigen direct langs de doorgaande weg gelegen.
-* **Perkeerzone**: Een afgebakend gebied binnen een gemeente  waar specifieke parkeerregels en -voorwaarden van toepassing zijn.
+* **Parkeerzone**: Een afgebakend gebied binnen een gemeente  waar specifieke parkeerregels en -voorwaarden van toepassing zijn.
 * **Productgroep**: Groepering van producten
 * **Productsoort**: Typologie van een product
 * **Straatsectie**: Gedeelte van een straat
@@ -247,7 +247,7 @@ Attributen van objecttype Parkeerrecht
 | bedragAankoop | Bedrag | Bedrag incl. BTW |
 | bedragBTW | Bedrag |  |
 | None | Class: "Voertuig" |  |
-| None | Class: "Perkeerzone" |  |
+| None | Class: "Parkeerzone" |  |
 
 
 
@@ -338,7 +338,7 @@ Attributen van objecttype Parkeervergunning
 | minutenResterend | int |  |
 | kenteken | AN12 |  |
 | None | Class: "Parkeerrecht" |  |
-| None | Class: "Perkeerzone" |  |
+| None | Class: "Parkeerzone" |  |
 | None | Class: "Productgroep" |  |
 | None | Class: "Productsoort" |  |
 
@@ -385,14 +385,14 @@ Attributen van objecttype Parkeervlak
 
 
 
-### Perkeerzone
-> **Definitie Perkeerzone:** 
+### Parkeerzone
+> **Definitie Parkeerzone:** 
 >
 > Een afgebakend gebied binnen een gemeente  waar specifieke parkeerregels en -voorwaarden van toepassing zijn.
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | Perkeerzone |
+| name | Parkeerzone |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -400,7 +400,7 @@ Attributen van objecttype Parkeervlak
 | author | Arjen Brienen |
 | version | 1.7 |
 | created | 2019-02-13 14:33:20 |
-| modified | 2025-03-26 16:14:35 |
+| modified | 2025-05-21 15:48:18 |
 | id | EAID_27219A32_3B52_4f54_AA67_A972F4B7D9D0 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -411,7 +411,7 @@ Attributen van objecttype Parkeervlak
 | gemma_toelichting |  |
 
 
-Attributen van objecttype Perkeerzone
+Attributen van objecttype Parkeerzone
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |

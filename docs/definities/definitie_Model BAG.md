@@ -240,7 +240,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 | None | Class: "OpenbareRuimte" |  |
 | None | Class: "LocatieaanduidingWozObject" |  |
 | None | Class: "Gebied" |  |
+| None | Class: "Buurt" |  |
 | None | Class: "Woonplaats" |  |
+| None | Enumeratie: "statusNummeraanduiding" |  |
 
 
 
@@ -260,7 +262,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 | author | mante_h |
 | version | 1.5 |
 | created | 2023-09-27 10:29:27 |
-| modified | 2024-11-21 23:01:52 |
+| modified | 2025-07-21 09:35:32 |
 | id | EAID_38649FF6_88C6_437d_AF8E_A9023D55E16C |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -293,7 +295,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 | datumEinde | Date | De datum waarop de object in de BAG formeel is ingetrokken.
  |
 | versie | int |  |
-| Geconstateerd | boolean |  |
+| Geconstateerd | Enumeratie: "Boolean" |  |
 | None | Class: "Wijk" |  |
 
 
@@ -409,6 +411,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 | datumEinde | Date | De datum waarop de object in de BAG formeel is ingetrokken.
 
  |
+| None | Enumeratie: "statusLigplaats" |  |
 
 
 
@@ -450,6 +453,7 @@ Attributen van objecttype AdresseerbaarObject
 | None | Class: "Nummeraanduiding" |  |
 | None | Class: "Nummeraanduiding" |  |
 | None | Class: "Locatieonroerendezaak" |  |
+| None | Enumeratie: "TypeAdresseerbaarObject" |  |
 
 
 
@@ -494,7 +498,7 @@ RUIMTE. |
 | Huisnummerrange even nummers | AN11 | Het laagste en het hoogste huisnummer, zijnde even getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE. |
 | Huisnummerrange oneven nummers | AN11 | Het laagste en het hoogste huisnummer, zijnde oneven getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE. |
 | Huisnummerrange even en oneven nummers | AN11 | Het laagste en het hoogste huisnummer van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE in die gevallen dat aan één of beide zijden van de OPENBARE RUIMTE zowel even als oneven huisnummers voorkomen dan wel dat even en/of oneven huisnummers aan beide zijden van de openbare ruimte voorkomen. |
-| labelNaam |  | <font color="#0f0f0f">Bevat de naam van de openbare ruimte ten behoeve van visualisatie.</font> |
+| labelNaam | AN80 | <font color="#0f0f0f">Bevat de naam van de openbare ruimte ten behoeve van visualisatie.</font> |
 | geometrie | MultiSurface | De tweedimensionale geometrische representatie van de omtrekken van de openbare ruimte. |
 | wegsegment | Curve | De geometrische representatie van de openbare ruimte als een lijn. |
 | begingeldigheid | DATUM | Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum
@@ -514,6 +518,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 | None | Class: "Woonplaats" |  |
 | None | Class: "Buurt" |  |
 | None | Class: "Buurt" |  |
+| None | Enumeratie: "typeringOpenbareRuimte" |  |
+| None | Enumeratie: "statusOpenbareRuimte" |  |
+| None | Enumeratie: "Boolean" |  |
 
 
 
@@ -589,6 +596,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 | None | Class: "Buurt" |  |
 | None | Class: "Vastgoedobject" |  |
 | None | Class: "Buurt" |  |
+| None | Enumeratie: "statusVoortgangBouw" |  |
+| None | Enumeratie: "statusPand" |  |
+| None | Enumeratie: "Boolean" |  |
 
 
 
@@ -625,7 +635,7 @@ Attributen van objecttype Standplaats
 | :--- | :--- | :--- |
 | Identificatie | Varchar | De unieke aanduiding van een STANDPLAATS. |
 | Geconstateerd | boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname. |
-| Status | Enumeratie: "StatLigplaatsStandplaats" | De fase van de levenscyclus van een STANDPLAATS waarin de betreffende STANDPLAATS zich bevindt. |
+| Status | Enumeratie: "statusStandplaats" | De fase van de levenscyclus van een STANDPLAATS waarin de betreffende STANDPLAATS zich bevindt. |
 | Versie | int |  |
 | Geometrie | Surface | Loodrechte bovenaanzicht van de standplaats in het Nationale Rijksdriehoekstelsel, inclusief alle zichbare en onzichtbare delen boven en onder de grond, maar exclusief alle delen die kunnen bewegen ten opzichte van de aarde |
 | documentdatum | Date |  |
@@ -645,6 +655,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 | Datum Einde | Date | De datum waarop de object in de BAG formeel is ingetrokken.
 
  |
+| None | Enumeratie: "statusStandplaats" |  |
 
 
 
@@ -699,7 +710,7 @@ Attributen van objecttype Verblijfsobject
 | eindGeldigheid | Date | Definitie EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid. Beschrijving Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. 
 
  |
-| datumEinde | Enumeratie: "statusVerblijfsobject" | De datum waarop de object in de BAG formeel is ingetrokken.
+| datumEinde | Date | De datum waarop de object in de BAG formeel is ingetrokken.
 
  |
 | datumIngang | Date | Datum waarop het object is ontstaan
@@ -708,6 +719,9 @@ Attributen van objecttype Verblijfsobject
 | None | Class: "Pand" |  |
 | None | Class: "Vastgoedobject" |  |
 | None | Enumeratie: "gebruiksdoel" |  |
+| None | Enumeratie: "soortWoonobject" |  |
+| None | Enumeratie: "statusVerblijfsobject" |  |
+| None | Enumeratie: "ontsluitingswijzeVerdieping" |  |
 
 
 
@@ -822,6 +836,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 | eindRegistratie | DateTime |  |
 | tijdstipActief | DateTime |  |
 | None | Class: "Gemeente" |  |
+| None | Enumeratie: "Boolean" |  |
+| None | Enumeratie: "statusWoonplaats" |  |
 
 
 
@@ -830,520 +846,6 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 
 
 ## Enumeraties Model BAG
-
-
-### statusNummeraanduiding
-Geen Definitie
-
-Het enumeratie statusNummeraanduiding kent de volgende waarden:
-
-* **naamgeving uitgegeven**: <Geen Definities>
-* **naamgeving ingetrokken**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
-
-
-De enumeratie statusNummeraanduiding heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | statusNummeraanduiding |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:13:39 |
-| modified | 2025-03-26 16:14:56 |
-| id | EAID_6aefec08_3eb4_47c4_958f_6ec85ef09331 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
-
-
-
-### TypeAdresseerbaarObject
-Geen Definitie
-
-Het enumeratie TypeAdresseerbaarObject kent de volgende waarden:
-
-* **KADbinnenlandsadres**: <Geen Definities>
-* **Verblijfsobject**: <Geen Definities>
-* **Ligplaats**: <Geen Definities>
-* **Standplaats**: <Geen Definities>
-* **Leeg**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-
-
-De enumeratie TypeAdresseerbaarObject heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | TypeAdresseerbaarObject |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:13:15 |
-| modified | 2025-03-26 16:14:47 |
-| id | EAID_fe06a149_cdd8_4538_ad7c_039711b641d6 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
-
-
-
-### Boolean
-Geen Definitie
-
-Het enumeratie Boolean kent de volgende waarden:
-
-* **Ja**: <Geen Definities>
-* **Nee**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
-
-
-De enumeratie Boolean heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | Boolean |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:13:35 |
-| modified | 2025-03-26 16:14:54 |
-| id | EAID_7edf86af_64a1_42be_a8f6_56d9e1bdca8f |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
-
-
-
-### statusOpenbareRuimte
-Geen Definitie
-
-Het enumeratie statusOpenbareRuimte kent de volgende waarden:
-
-* **naamgeving uitgegeven**: <Geen Definities>
-* **naamgeving ingetrokken**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
-
-
-De enumeratie statusOpenbareRuimte heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | statusOpenbareRuimte |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:13:39 |
-| modified | 2025-03-26 16:14:56 |
-| id | EAID_0796a617_bbff_4c4e_aa4a_335856c2de8c |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
-
-
-
-### typeringOpenbareRuimte
-Geen Definitie
-
-Het enumeratie typeringOpenbareRuimte kent de volgende waarden:
-
-* **weg**: Gebaand gedeelte voor het wegverkeer en vliegverkeer te land. Hieronder vallen ook start- en landingsbanen voor het vliegverkeer.
-* **water**: grondoppervlak in principe bedekt met water.
- Voorbeelden zijn: rivier, kanaal, beek, zee, meer, oppervlaktewater in algemene zin. Objecten die in het kader  van de waterhuishouding periodiek met water zijn bedekt, vallen hier ook onder.
-* **spoorbaan**: Gebaand gedeelte voor het verkeer over rails.
-Voorbeelden zijn: spoorbaan, metrobaan, trambaan
-* **terrein**: Door een fysiek voorkomen gekarakteriseerd zichtbaar begrensd stuk grond. 
-Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te geven waarvoor een bepaald fysiek voorkomen typerend is. Voorbeelden zijn: bos, landschap, bebouwing, landbouwgebied. Belangrijk is dat het stuk grond een zichtbare grens heeft met aangrenzende geo-objecten.
-* **kunstwerk**: Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen  en niet bedoeld voor permanent menselijk verblijf.
-Hieronder vallen overbruggingen, waterstaatkundige werken en waterkerende constructies. verbruggingen  kunnen zijn: brug, viaduct, aquaduct enz. Een voorbeeld van een waterstaatkundig werk is een sluis.    
-Voorbeelden van waterkerende constructies zijn stuw en vaste dam.
-* **landschappelijk gebied**: Geografisch gebied’: begrensd en benoemd gebied dat door een geografische eenheid wordt beschreven. 
-De grenzen  zijn niet altijd exact vastgesteld (bijvoorbeeld Polder, Midden-Nederland,  Rivierengebied, Veluwe, Zuid-Limburg, Kustgebied). 
-* **functioneel gebied**: Begrensd en benoemd gebied dat door een functionele eenheid wordt beschreven (bijvoorbeeld bedrijventerrein, bungalowpark, plantsoen, begraafplaats, jachthaven, windmolenpark, recreatiegebied .
-* **administratief gebied**: Op basis van wet- of regelgeving afgebakend gebied dat als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
-
-
-De enumeratie typeringOpenbareRuimte heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | typeringOpenbareRuimte |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:13:41 |
-| modified | 2025-03-26 16:14:57 |
-| id | EAID_88986d93_81e5_44d6_b4cf_3ffd767a937a |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
-
-
-
-### statusPand
-Geen Definitie
-
-Het enumeratie statusPand kent de volgende waarden:
-
-* **bouwvergunning verleend**:  Een nieuw pand dat nog niet is gebouwd maar waarvoor wel een bouwvergunning is verleend.
-* **niet gerealiseerd pand**: Een pand waarvoor een bouwvergunning was verleend, maar waarvan in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is 
-vastgesteld dat wordt afgezien van de bouw of waarvan de 
-bouwvergunning is ingetrokken. 
-* **bouw gestart**: Een pand waarvan de aanvrager van de bouwvergunning heeft gemeld dat de bouw is gestart of waarvan in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat de feitelijke bouw is 
-aangevangen door minimaal de aanleg van de fundering 
-(waartoe niet het bouwrijp maken van een terrein wordt 
-gerekend)
-* **pand in gebruik (niet ingemeten)**: Een pand, waarvan de geometrie nog niet is ingemeten, waarvan de aanvrager van de bouwvergunning heeft gemeld dat de bouw is voltooid of waarvan in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het pand feitelijk 
-in gebruik is genomen voor bijvoorbeeld bewoning dan wel 
-bedrijfsuitoefening of dat het weliswaar (nog) niet in gebruik is 
-genomen maar naar het oordeel van de gemeente wel gebruiksgereed is
-* **pand in gebruik**: Een pand dat feitelijk de status “Pand in gebruik (niet ingemeten)” had en waarvan de definitieve geometrie is ingemeten 
-* **sloopvergunning verleend**: Een pand waarvoor een sloopvergunning is verleend
-* **pand gesloopt**: Een pand waarvan de aanvrager van de sloopvergunning heeft gemeld dat de sloop is voltooid of in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het pand is gesloopt.
-* **pand buiten gebruik**: Een pand dat in dusdanige bouwkundige staat is dat niet te verwachten is dat het pand zal worden hersteld en weer in gebruik zal worden genomen.
-* **verbouwing pand**: <Geen Definities>
-* **pand ten onrechte opgevoerd**: <Geen Definities>
-* **bouwaanvraag ontvangen**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
-
-
-De enumeratie statusPand heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | statusPand |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:13:39 |
-| modified | 2025-03-26 16:14:56 |
-| id | EAID_c8d2197e_8263_40bb_9461_4f90a17de46f |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
-
-
-
-### statusVoortgangBouw
-Geen Definitie
-
-Het enumeratie statusVoortgangBouw kent de volgende waarden:
-
-* **nieuwbouwvergunning verleend**: <Geen Definities>
-* **nieuwbouw gestart**: <Geen Definities>
-* **nieuwbouw gereed**: <Geen Definities>
-* **verbouwvergunning verleend**: <Geen Definities>
-* **verbouw gestart**: <Geen Definities>
-* **verbouw gereed**: <Geen Definities>
-* **sloopvergunning verleend**: <Geen Definities>
-* **sloop gestart**: <Geen Definities>
-* **sloop gereed**: <Geen Definities>
-* **nieuwbouwvergunning ingetrokken**: <Geen Definities>
-* **verbouwvergunning ingetrokken**: <Geen Definities>
-* **sloopvergunning ingetrokken**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
-
-
-De enumeratie statusVoortgangBouw heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | statusVoortgangBouw |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:13:39 |
-| modified | 2025-03-26 16:14:56 |
-| id | EAID_7ed9cca8_5c99_44f0_9e11_de274ada628a |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
-
-
-
-### StatLigplaatsStandplaats
-Geen Definitie
-
-Het enumeratie StatLigplaatsStandplaats kent de volgende waarden:
-
-* **plaats aangewezen**: <Geen Definities>
-* **plaats ingetrokken**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
-
-
-De enumeratie StatLigplaatsStandplaats heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | StatLigplaatsStandplaats |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:13:39 |
-| modified | 2025-03-26 16:14:56 |
-| id | EAID_d1ff226c_1516_481c_91c7_0aa385517491 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
-
-
-
-### statusVerblijfsobject
-Geen Definitie
-
-Het enumeratie statusVerblijfsobject kent de volgende waarden:
-
-* **verblijfsobject gevormd**: Een nieuw verblijfsobject dat deel gaat uitmaken van een nog niet gebouwd pand waarvoor een bouwvergunning is verleend of dat wordt gerealiseerd in een reeds bestaand pand.
-* **niet gerealiseerd verblijfsobject**: Een verblijfsobject in een pand waarvoor een bouwvergunning was verleend of dat gerealiseerd zou worden in een reeds bestaand pand, maar waarvan in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken.
-* **verblijfsobject in gebruik (niet ingemeten)**: Een verblijfsobject waarvan de aanvrager van de bouwvergunning heeft gemeld dat de bouw is voltooid of waarvan in een schriftelijke 
-verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het verblijfsobject feitelijk in gebruik is genomen voor bijvoorbeeld bewoning dan wel bedrijfsuitoefening of dat het weliswaar (nog) niet in gebruik is genomen maar naar het oordeel van de gemeente wel gebruiksgereed is. Het object is nog niet ingemeten.
-* **verblijfsobject in gebruik**: Een verblijfsobject dat feitelijk de status “Verblijfsobject in gebruik (niet ingemeten)” had en waarvan de definitieve geometrie is ingemeten.
-* **verblijfsobject ingetrokken**: een verblijfsobject dat als zodanig Catalogus basisregistraties adressen en gebouwen 2009 Pagina 79 van 79 opgehouden heeft te bestaan omdat de aanvrager van een sloopvergunning heeft gemeld dat de sloop is voltooid of in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is.
-vastgesteld dat het verblijfsobject als zodanig niet meer 
-bestaat
-* **verblijfsobject buiten gebruik**: Een verblijfsobject dat onderdeel uitmaakt van een pand dat in dusdanige bouwkundige staat is dat niet te verwachten is dat het pand zal worden hersteld en weer in gebruik zal worden genomen.  
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
-
-
-De enumeratie statusVerblijfsobject heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | statusVerblijfsobject |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:13:39 |
-| modified | 2025-03-26 16:14:56 |
-| id | EAID_4e24e3ec_d144_4918_a0d5_1f2f3d623b26 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
-
-
-
-### soortWoonobject
-Geen Definitie
-
-Het enumeratie soortWoonobject kent de volgende waarden:
-
-* **woning**: <Geen Definities>
-* **recreatiewoning**: <Geen Definities>
-* **wooneenheid**: <Geen Definities>
-* **bijzonder woongebouw**: <Geen Definities>
-* **overig woonverblijf**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
-
-
-De enumeratie soortWoonobject heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | soortWoonobject |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:13:39 |
-| modified | 2025-03-26 16:14:56 |
-| id | EAID_26741013_2deb_41d9_b4f6_b61b3e58b8c1 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
-
-
-
-### ontsluitingswijzeVerdieping
-Geen Definitie
-
-Het enumeratie ontsluitingswijzeVerdieping kent de volgende waarden:
-
-* **trap**: <Geen Definities>
-* **roltrap**: <Geen Definities>
-* **lift**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
-
-
-De enumeratie ontsluitingswijzeVerdieping heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | ontsluitingswijzeVerdieping |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:13:38 |
-| modified | 2025-03-26 16:14:55 |
-| id | EAID_59df2d9f_1c85_40f7_a062_6cc6d84e1567 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
-
-
-
-### statusVerblijfsobject
-Geen Definitie
-
-Het enumeratie statusVerblijfsobject kent de volgende waarden:
-
-* **verblijfsobject gevormd**: Een nieuw verblijfsobject dat deel gaat uitmaken van een nog niet gebouwd pand waarvoor een bouwvergunning is verleend of dat wordt gerealiseerd in een reeds bestaand pand.
-* **niet gerealiseerd verblijfsobject**: Een verblijfsobject in een pand waarvoor een bouwvergunning was verleend of dat gerealiseerd zou worden in een reeds bestaand pand, maar waarvan in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken.
-* **verblijfsobject in gebruik (niet ingemeten)**: Een verblijfsobject waarvan de aanvrager van de bouwvergunning heeft gemeld dat de bouw is voltooid of waarvan in een schriftelijke 
-verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het verblijfsobject feitelijk in gebruik is genomen voor bijvoorbeeld bewoning dan wel bedrijfsuitoefening of dat het weliswaar (nog) niet in gebruik is genomen maar naar het oordeel van de gemeente wel gebruiksgereed is. Het object is nog niet ingemeten.
-* **verblijfsobject in gebruik**: Een verblijfsobject dat feitelijk de status “Verblijfsobject in gebruik (niet ingemeten)” had en waarvan de definitieve geometrie is ingemeten.
-* **verblijfsobject ingetrokken**: een verblijfsobject dat als zodanig Catalogus basisregistraties adressen en gebouwen 2009 Pagina 79 van 79 opgehouden heeft te bestaan omdat de aanvrager van een sloopvergunning heeft gemeld dat de sloop is voltooid of in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is.
-vastgesteld dat het verblijfsobject als zodanig niet meer 
-bestaat
-* **verblijfsobject buiten gebruik**: Een verblijfsobject dat onderdeel uitmaakt van een pand dat in dusdanige bouwkundige staat is dat niet te verwachten is dat het pand zal worden hersteld en weer in gebruik zal worden genomen.  
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
-
-
-De enumeratie statusVerblijfsobject heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | statusVerblijfsobject |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:13:39 |
-| modified | 2025-03-26 16:14:56 |
-| id | EAID_756eca50_f848_4dcb_889b_72c2cb9ba47e |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
-
-
-
-### statusWoonplaats
-Geen Definitie
-
-Het enumeratie statusWoonplaats kent de volgende waarden:
-
-* **woonplaats aangewezen**: <Geen Definities>
-* **woonplaats ingetrokken **: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
-
-
-De enumeratie statusWoonplaats heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | statusWoonplaats |
-| toelichting | None |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | None |
-| version | 1.4 |
-| created | 2025-03-26 11:13:40 |
-| modified | 2025-03-26 16:14:56 |
-| id | EAID_4eec4112_d19f_441f_bbc0_aa2f8ec3196c |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
-
 
 
 ### Boolean
