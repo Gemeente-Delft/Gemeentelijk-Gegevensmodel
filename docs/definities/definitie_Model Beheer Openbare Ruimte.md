@@ -2,35 +2,22 @@
 ## Inleiding
 > **Definitie Model Beheer Openbare Ruimte:** 
 >
-> "Het informatiedomein dat gegevens omvat over:<br>1. De fysieke objecten in de publieke buitenruimte, inclusief hun kenmerken, locatie en conditie.<br>2. De processen en activiteiten gericht op het onderhouden, inrichten en beheren van deze objecten."
-
-??? info "Kenmerken Model Model Beheer Openbare Ruimte"
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | Model Beheer Openbare Ruimte |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.1 |
-    | created | 2018-09-12 14:11:31 |
-    | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_18DA1C0F_39A8_419a_B10A_D939009CC0C2 |
-    
+> "Het informatiedomein dat gegevens omvat over:
+> 1. De fysieke objecten in de publieke buitenruimte, inclusief hun kenmerken, locatie en conditie.
+> 2. De processen en activiteiten gericht op het onderhouden, inrichten en beheren van deze objecten."
 
 Het model 'Model Beheer Openbare Ruimte' kent de volgende objecttypen:
 
 * **Actie**: Kleinst mogelijke eenheid van werk die zinvol onderscheiden kan worden, uitgevoerd door een persoon of machine op 1 plek op 1 moment.
 * **Areaal**: Het verspreidingsgebied van een een soort, een levensgemeenschap of een biotooptype.
-* **CROW-Melding**: BOR-MELD is een CROW-standaard voor het vastleggen van meldingen.
+* **CROW-Melding**: BOR-MELD is een CROW-standaard voor het vastleggen van meldingen. 
 * **Deelplan/Veld**: <Geen Definities>
 * **Fase/Oplevering**: <Geen Definities>
 * **Geo-Object**: Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011]
 * **Grondbeheerder**: Beheerder van grondgrondbeheer., oplossing voor duurzaam landbeheer en voedselproductie
 * **Inspectie**: het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen.
 * **KadastraleMutatie**: Wijziging in de kadatrale registratie
-* **Kwaliteitscatalogus Openbare Ruimte**: zie https://www.crow.nl/publicaties/kwaliteitscatalogus-openbare-ruimte-2018
+* **Kwaliteitscatalogus Openbare Ruimte**: zie https://www.crow.nl/publicaties/kwaliteitscatalogus-openbare-ruimte-2018 
 * **Kwaliteitskenmerken**: Aanduiding van de hoedanigheid van uitvoering, bewerking en representativiteit van een meting, volgens een overeengekomen waarderingsschaal.
 * **Logboek**: Registratie waarin gebeurtenissen worden bijgehouden.
 * **Melding**: De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend
@@ -38,13 +25,29 @@ Het model 'Model Beheer Openbare Ruimte' kent de volgende objecttypen:
 * **MOOR-melding**: Meldingsproces rondom werkzaamheden aan kabels en leidingen.
 * **Omgevingsvergunning**: Vergunning als bedoeld in afdeling 5.1 van de Omgevingswet
 * **Onderhoud**: Maatregelen om de functionele kwaliteit in stand te houden of te herstellen en dus de levensduur van een (object)onderdeel te realiseren c.q. te verlengen.
-* **Opbreking**: Vorm van wegwerkzaamheid
+* **Opbreking**: Vorm van wegwerkzaamheid 
 * **Proces-verbaal-MOOR-melding**: Officieel op papier gesteld verslag met betrekking tot heen MOOR-melding
 * **Schouwronde**: Activiteit om te controleren of de opdrachtnemer aan de afspraken voldoet.
 * **Storing**: Verlies van de mogelijkheid om volgens een specificatie te werken of om het vereiste resultaat te leveren.
 * **Taak**: Een samenhangende set activiteiten.
 * **Uitvoerder Graafwerkzaamheden**: Degene die op de bouwlocatie van een project de leiding heeft met betrekking tot de graafwerkzaamheden
-* **Verkeerslicht**: Lichten die aangeven dat je moet stoppen, dat je mag doorrijden, of die je waarschuwen voor gevaar.
+* **Verkeerslicht**: Lichten die aangeven dat je moet stoppen, dat je mag doorrijden, of die je waarschuwen voor gevaar. 
+
+
+Het model 'Model Beheer Openbare Ruimte' heeft de volgende kenmerken:
+
+| Kenmerk | Waarde |
+| :--- | :------ |
+| name | Model Beheer Openbare Ruimte |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.1 |
+| created | 2018-09-12 14:11:31 |
+| modified | 2025-03-27 15:28:35 |
+| id | EAPK_18DA1C0F_39A8_419a_B10A_D939009CC0C2 |
 
 
 ## Objecttypen Model Beheer Openbare Ruimte
@@ -55,27 +58,26 @@ Het model 'Model Beheer Openbare Ruimte' kent de volgende objecttypen:
 >
 > Kleinst mogelijke eenheid van werk die zinvol onderscheiden kan worden, uitgevoerd door een persoon of machine op 1 plek op 1 moment.
 
-??? info "Kenmerken Model Actie"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Actie |
-    | toelichting | bron: Bedrijfsarchitectuur op basis van Novius Architectuur Methode, code: 6.2.4 |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.5 |
-    | created | 2018-11-06 16:52:08 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_DDE9A5B3_1E56_4058_8D12_A774F43B5D26 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Actie |
+| toelichting | bron: Bedrijfsarchitectuur op basis van Novius Architectuur Methode, code: 6.2.4 |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.5 |
+| created | 2018-11-06 16:52:08 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_DDE9A5B3_1E56_4058_8D12_A774F43B5D26 |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype Actie
 
@@ -84,32 +86,32 @@ Attributen van objecttype Actie
 
 
 
+
 ### Areaal
 > **Definitie Areaal:** 
 >
 > Het verspreidingsgebied van een een soort, een levensgemeenschap of een biotooptype.
 
-??? info "Kenmerken Model Areaal"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Areaal |
-    | toelichting |  |
-    | synoniemen | Verspreidingsgebied |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.4 |
-    | created | 2018-11-07 17:27:26 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_9507EE24_6397_4a9c_B478_8C2899EC0BFB |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam | Areaal |
-    | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-1dc502a7-f60b-4950-92b1-9a7f8cdc471f](https://gemmaonline.nl/index.php/GEMMA/id-1dc502a7-f60b-4950-92b1-9a7f8cdc471f) |
-    | gemma_definitie | Het verspreidingsgebied van een een soort, een levensgemeenschap of een biotooptype. |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Areaal |
+| toelichting |  |
+| synoniemen | Verspreidingsgebied |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.4 |
+| created | 2018-11-07 17:27:26 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_9507EE24_6397_4a9c_B478_8C2899EC0BFB |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Areaal |
+| gemma_type | business-object |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-1dc502a7-f60b-4950-92b1-9a7f8cdc471f](https://gemmaonline.nl/index.php/GEMMA/id-1dc502a7-f60b-4950-92b1-9a7f8cdc471f) |
+| gemma_definitie | Het verspreidingsgebied van een een soort, een levensgemeenschap of een biotooptype. |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype Areaal
 
@@ -119,32 +121,32 @@ Attributen van objecttype Areaal
 
 
 
+
 ### CROW-Melding
 > **Definitie CROW-Melding:** 
 >
-> BOR-MELD is een CROW-standaard voor het vastleggen van meldingen.
+> BOR-MELD is een CROW-standaard voor het vastleggen van meldingen. 
 
-??? info "Kenmerken Model CROW-Melding"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | CROW-Melding |
-    | toelichting | CROW heeft begin 2017 besloten om eenduidige registratie van meldingen voor de gehele openbare ruimte te gaan faciliteren in aanvulling op de door Stichting RIONED tussen 2014 en 2016 ontwikkelde methodiek voor het stedelijk water domein. BOR-MELD is ontw |
-    | synoniemen | BOR-MELD |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.4 |
-    | created | 2018-11-07 16:58:24 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_4A8E659E_F088_446d_8614_BA31B106A417 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | CROW-Melding |
+| toelichting | CROW heeft begin 2017 besloten om eenduidige registratie van meldingen voor de gehele openbare ruimte te gaan faciliteren in aanvulling op de door Stichting RIONED tussen 2014 en 2016 ontwikkelde methodiek voor het stedelijk water domein. BOR-MELD is ontw |
+| synoniemen | BOR-MELD |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.4 |
+| created | 2018-11-07 16:58:24 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_4A8E659E_F088_446d_8614_BA31B106A417 |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype CROW-Melding
 
@@ -154,32 +156,32 @@ Attributen van objecttype CROW-Melding
 
 
 
+
 ### Deelplan/Veld
 > **Definitie Deelplan/Veld:** 
 >
 > Geen Definitie
 
-??? info "Kenmerken Model Deelplan/Veld"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Deelplan/Veld |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | mkampen |
-    | version | 1.2 |
-    | created | 2023-09-27 09:29:15 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_EC994E7D_E6D1_4243_BA96_38DB7454ECEF |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Deelplan/Veld |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | mkampen |
+| version | 1.2 |
+| created | 2023-09-27 09:29:15 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_EC994E7D_E6D1_4243_BA96_38DB7454ECEF |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype Deelplan/Veld
 
@@ -188,32 +190,32 @@ Attributen van objecttype Deelplan/Veld
 
 
 
+
 ### Fase/Oplevering
 > **Definitie Fase/Oplevering:** 
 >
 > Geen Definitie
 
-??? info "Kenmerken Model Fase/Oplevering"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Fase/Oplevering |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | mkampen |
-    | version | 1.2 |
-    | created | 2023-09-27 09:31:19 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_7FA358CC_1160_490b_A543_D5ED69A558D2 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Fase/Oplevering |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | mkampen |
+| version | 1.2 |
+| created | 2023-09-27 09:31:19 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_7FA358CC_1160_490b_A543_D5ED69A558D2 |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype Fase/Oplevering
 
@@ -222,32 +224,32 @@ Attributen van objecttype Fase/Oplevering
 
 
 
+
 ### Geo-Object
 > **Definitie Geo-Object:** 
 >
 > Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011]
 
-??? info "Kenmerken Model Geo-Object"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Geo-Object |
-    | toelichting | Bevat een aantal basisgegevens die in alle geo-objecten terugkomen. |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.5 |
-    | created | 2018-09-19 11:50:45 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_05B355EF_39EA_4bfb_B1F3_AB31841C986E |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam | GEOObject |
-    | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f5de1e41-5207-4d9e-a4f8-7889b5c1e2b1](https://gemmaonline.nl/index.php/GEMMA/id-f5de1e41-5207-4d9e-a4f8-7889b5c1e2b1) |
-    | gemma_definitie | Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011] |
-    | gemma_toelichting | Bevat een aantal basisgegevens die in alle geo-objecten terugkomen. |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Geo-Object |
+| toelichting | Bevat een aantal basisgegevens die in alle geo-objecten terugkomen. |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.5 |
+| created | 2018-09-19 11:50:45 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_05B355EF_39EA_4bfb_B1F3_AB31841C986E |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | GEOObject |
+| gemma_type | business-object |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f5de1e41-5207-4d9e-a4f8-7889b5c1e2b1](https://gemmaonline.nl/index.php/GEMMA/id-f5de1e41-5207-4d9e-a4f8-7889b5c1e2b1) |
+| gemma_definitie | Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011] |
+| gemma_toelichting | Bevat een aantal basisgegevens die in alle geo-objecten terugkomen. |
+
 
 Attributen van objecttype Geo-Object
 
@@ -260,32 +262,32 @@ Attributen van objecttype Geo-Object
 
 
 
+
 ### Grondbeheerder
 > **Definitie Grondbeheerder:** 
 >
 > Beheerder van grondgrondbeheer., oplossing voor duurzaam landbeheer en voedselproductie
 
-??? info "Kenmerken Model Grondbeheerder"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Grondbeheerder |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.5 |
-    | created | 2018-11-15 15:41:01 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_B53EC85A_C731_4fb6_8379_7D11802273B2 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam | Grondbeheerder |
-    | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-cd7b6b9c-3bf7-4c3a-bbde-e72f38d76fe0](https://gemmaonline.nl/index.php/GEMMA/id-cd7b6b9c-3bf7-4c3a-bbde-e72f38d76fe0) |
-    | gemma_definitie | Beheerder van grondgrondbeheer., oplossing voor duurzaam landbeheer en voedselproductie |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Grondbeheerder |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.5 |
+| created | 2018-11-15 15:41:01 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_B53EC85A_C731_4fb6_8379_7D11802273B2 |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Grondbeheerder |
+| gemma_type | business-object |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-cd7b6b9c-3bf7-4c3a-bbde-e72f38d76fe0](https://gemmaonline.nl/index.php/GEMMA/id-cd7b6b9c-3bf7-4c3a-bbde-e72f38d76fe0) |
+| gemma_definitie | Beheerder van grondgrondbeheer., oplossing voor duurzaam landbeheer en voedselproductie |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype Grondbeheerder
 
@@ -294,32 +296,32 @@ Attributen van objecttype Grondbeheerder
 
 
 
+
 ### Inspectie
 > **Definitie Inspectie:** 
 >
 > het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen.
 
-??? info "Kenmerken Model Inspectie"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Inspectie |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.5 |
-    | created | 2018-11-06 16:50:09 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_C73E52A5_F66E_47f0_8DEA_467A54F64DD2 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Inspectie |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.5 |
+| created | 2018-11-06 16:50:09 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_C73E52A5_F66E_47f0_8DEA_467A54F64DD2 |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype Inspectie
 
@@ -328,37 +330,40 @@ Attributen van objecttype Inspectie
 
 
 
+
 ### KadastraleMutatie
 > **Definitie KadastraleMutatie:** 
 >
 > Wijziging in de kadatrale registratie
 
-??? info "Kenmerken Model KadastraleMutatie"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | KadastraleMutatie |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.5 |
-    | created | 2018-12-06 16:14:13 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_5DC6EA71_272C_4392_BA5E_5C97DC3CA9D9 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam | Kadastralemutatie |
-    | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-4c80e4c9-5e35-43d8-8438-2860c18949f0](https://gemmaonline.nl/index.php/GEMMA/id-4c80e4c9-5e35-43d8-8438-2860c18949f0) |
-    | gemma_definitie | Wijziging in de kadatrale registratie |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | KadastraleMutatie |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.5 |
+| created | 2018-12-06 16:14:13 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_5DC6EA71_272C_4392_BA5E_5C97DC3CA9D9 |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Kadastralemutatie |
+| gemma_type | business-object |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-4c80e4c9-5e35-43d8-8438-2860c18949f0](https://gemmaonline.nl/index.php/GEMMA/id-4c80e4c9-5e35-43d8-8438-2860c18949f0) |
+| gemma_definitie | Wijziging in de kadatrale registratie |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype KadastraleMutatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| None | Class: "ZakelijkRecht" |  |
+| None | Class: "KadastraleOnroerendeZaak" |  |
+
 
 
 
@@ -366,28 +371,28 @@ Attributen van objecttype KadastraleMutatie
 > **Definitie Kwaliteitscatalogus Openbare Ruimte:** 
 >
 > zie https://www.crow.nl/publicaties/kwaliteitscatalogus-openbare-ruimte-2018
+> 
 
-??? info "Kenmerken Model Kwaliteitscatalogus Openbare Ruimte"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Kwaliteitscatalogus Openbare Ruimte |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.5 |
-    | created | 2018-11-07 16:35:55 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_2C6C809D_28B0_4037_BBFA_3E438A2DF81D |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam | KwaliteitscatalogusOpenbareRuimte |
-    | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-d9f93ca7-e915-4c2d-93b8-821e8e2bcae2](https://gemmaonline.nl/index.php/GEMMA/id-d9f93ca7-e915-4c2d-93b8-821e8e2bcae2) |
-    | gemma_definitie | zie https://www.raw.nl/zoeken?tag=kwaliteitscatalogus%20openbare%20ruimte |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Kwaliteitscatalogus Openbare Ruimte |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.5 |
+| created | 2018-11-07 16:35:55 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_2C6C809D_28B0_4037_BBFA_3E438A2DF81D |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | KwaliteitscatalogusOpenbareRuimte |
+| gemma_type | business-object |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-d9f93ca7-e915-4c2d-93b8-821e8e2bcae2](https://gemmaonline.nl/index.php/GEMMA/id-d9f93ca7-e915-4c2d-93b8-821e8e2bcae2) |
+| gemma_definitie | zie https://www.raw.nl/zoeken?tag=kwaliteitscatalogus%20openbare%20ruimte |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype Kwaliteitscatalogus Openbare Ruimte
 
@@ -396,32 +401,32 @@ Attributen van objecttype Kwaliteitscatalogus Openbare Ruimte
 
 
 
+
 ### Kwaliteitskenmerken
 > **Definitie Kwaliteitskenmerken:** 
 >
 > Aanduiding van de hoedanigheid van uitvoering, bewerking en representativiteit van een meting, volgens een overeengekomen waarderingsschaal.
 
-??? info "Kenmerken Model Kwaliteitskenmerken"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Kwaliteitskenmerken |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.5 |
-    | created | 2018-09-19 11:58:59 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_0754CC1D_48C7_4275_B909_BFB747BCFCD8 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam | Kwaliteitskenmerken |
-    | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-0b0d8f74-8a70-4fb9-adbd-77233740ddc3](https://gemmaonline.nl/index.php/GEMMA/id-0b0d8f74-8a70-4fb9-adbd-77233740ddc3) |
-    | gemma_definitie | Aanduiding van de hoedanigheid van uitvoering, bewerking en representativiteit van een meting, volgens een overeengekomen waarderingsschaal. |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Kwaliteitskenmerken |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.5 |
+| created | 2018-09-19 11:58:59 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_0754CC1D_48C7_4275_B909_BFB747BCFCD8 |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Kwaliteitskenmerken |
+| gemma_type | business-object |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-0b0d8f74-8a70-4fb9-adbd-77233740ddc3](https://gemmaonline.nl/index.php/GEMMA/id-0b0d8f74-8a70-4fb9-adbd-77233740ddc3) |
+| gemma_definitie | Aanduiding van de hoedanigheid van uitvoering, bewerking en representativiteit van een meting, volgens een overeengekomen waarderingsschaal. |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype Kwaliteitskenmerken
 
@@ -430,32 +435,32 @@ Attributen van objecttype Kwaliteitskenmerken
 
 
 
+
 ### Logboek
 > **Definitie Logboek:** 
 >
 > Registratie waarin gebeurtenissen worden bijgehouden.
 
-??? info "Kenmerken Model Logboek"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Logboek |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.5 |
-    | created | 2018-11-06 16:48:26 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_B1D48EFB_81E7_420d_A080_5B4C01798FFB |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam | Logboek |
-    | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-5547cc2e-c193-4d41-a6e2-8f04b5e3cd92](https://gemmaonline.nl/index.php/GEMMA/id-5547cc2e-c193-4d41-a6e2-8f04b5e3cd92) |
-    | gemma_definitie | Registratie waarin gebeurtenissen worden bijgehouden. |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Logboek |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.5 |
+| created | 2018-11-06 16:48:26 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_B1D48EFB_81E7_420d_A080_5B4C01798FFB |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Logboek |
+| gemma_type | business-object |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-5547cc2e-c193-4d41-a6e2-8f04b5e3cd92](https://gemmaonline.nl/index.php/GEMMA/id-5547cc2e-c193-4d41-a6e2-8f04b5e3cd92) |
+| gemma_definitie | Registratie waarin gebeurtenissen worden bijgehouden. |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype Logboek
 
@@ -464,32 +469,32 @@ Attributen van objecttype Logboek
 
 
 
+
 ### Melding
 > **Definitie Melding:** 
 >
 > De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend
 
-??? info "Kenmerken Model Melding"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Melding |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.5 |
-    | created | 2018-11-06 16:48:18 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_C6094F79_D8EA_4763_90DF_4E30EFABA1FA |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam | Melding |
-    | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-1a89112a-e13c-4c87-a862-e8ec66c01588](https://gemmaonline.nl/index.php/GEMMA/id-1a89112a-e13c-4c87-a862-e8ec66c01588) |
-    | gemma_definitie | De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Melding |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.5 |
+| created | 2018-11-06 16:48:18 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_C6094F79_D8EA_4763_90DF_4E30EFABA1FA |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Melding |
+| gemma_type | business-object |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-1a89112a-e13c-4c87-a862-e8ec66c01588](https://gemmaonline.nl/index.php/GEMMA/id-1a89112a-e13c-4c87-a862-e8ec66c01588) |
+| gemma_definitie | De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype Melding
 
@@ -509,32 +514,32 @@ Attributen van objecttype Melding
 
 
 
+
 ### MeldingOngeval
 > **Definitie MeldingOngeval:** 
 >
 > Aangifte vna een ongeval
 
-??? info "Kenmerken Model MeldingOngeval"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | MeldingOngeval |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.5 |
-    | created | 2018-11-06 16:49:06 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_A888F22C_45E9_4494_BA66_533FB1F6C37E |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | MeldingOngeval |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.5 |
+| created | 2018-11-06 16:49:06 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_A888F22C_45E9_4494_BA66_533FB1F6C37E |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype MeldingOngeval
 
@@ -543,32 +548,32 @@ Attributen van objecttype MeldingOngeval
 
 
 
+
 ### MOOR-melding
 > **Definitie MOOR-melding:** 
 >
 > Meldingsproces rondom werkzaamheden aan kabels en leidingen.
 
-??? info "Kenmerken Model MOOR-melding"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | MOOR-melding |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.5 |
-    | created | 2018-11-15 15:09:50 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_30D5F6E6_DE8D_46b6_AC8A_6CA1391ADFF7 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam | MOORMelding |
-    | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-4e149a77-4fcc-4f4a-ac18-b6655848b5c1](https://gemmaonline.nl/index.php/GEMMA/id-4e149a77-4fcc-4f4a-ac18-b6655848b5c1) |
-    | gemma_definitie | Meldingsproces rondom werkzaamheden aan kabels en leidingen. |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | MOOR-melding |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.5 |
+| created | 2018-11-15 15:09:50 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_30D5F6E6_DE8D_46b6_AC8A_6CA1391ADFF7 |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | MOORMelding |
+| gemma_type | business-object |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-4e149a77-4fcc-4f4a-ac18-b6655848b5c1](https://gemmaonline.nl/index.php/GEMMA/id-4e149a77-4fcc-4f4a-ac18-b6655848b5c1) |
+| gemma_definitie | Meldingsproces rondom werkzaamheden aan kabels en leidingen. |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype MOOR-melding
 
@@ -584,6 +589,8 @@ Attributen van objecttype MOOR-melding
 | goedgekeurd | boolean |  |
 | herstelwerkzaamhedenVereist | boolean |  |
 | omschrijvingHerstelwerkzaamheden | text |  |
+| None | Class: "Opbreking" |  |
+
 
 
 
@@ -592,32 +599,34 @@ Attributen van objecttype MOOR-melding
 >
 > Vergunning als bedoeld in afdeling 5.1 van de Omgevingswet
 
-??? info "Kenmerken Model Omgevingsvergunning"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Omgevingsvergunning |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.5 |
-    | created | 2018-11-13 15:56:08 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_053B594A_5E45_4413_9339_D2D026ECCE20 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam | Omgevingsvergunning |
-    | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-5bd99108-61d6-4b8f-ab84-dd16011d10db](https://gemmaonline.nl/index.php/GEMMA/id-5bd99108-61d6-4b8f-ab84-dd16011d10db) |
-    | gemma_definitie | Vergunning als bedoeld in afdeling 5.1 van de Omgevingswet |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Omgevingsvergunning |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.5 |
+| created | 2018-11-13 15:56:08 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_053B594A_5E45_4413_9339_D2D026ECCE20 |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Omgevingsvergunning |
+| gemma_type | business-object |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-5bd99108-61d6-4b8f-ab84-dd16011d10db](https://gemmaonline.nl/index.php/GEMMA/id-5bd99108-61d6-4b8f-ab84-dd16011d10db) |
+| gemma_definitie | Vergunning als bedoeld in afdeling 5.1 van de Omgevingswet |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype Omgevingsvergunning
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| None | Class: "Plan" |  |
+| None | Class: "MOOR-melding" |  |
+
 
 
 
@@ -626,27 +635,26 @@ Attributen van objecttype Omgevingsvergunning
 >
 > Maatregelen om de functionele kwaliteit in stand te houden of te herstellen en dus de levensduur van een (object)onderdeel te realiseren c.q. te verlengen.
 
-??? info "Kenmerken Model Onderhoud"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Onderhoud |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.5 |
-    | created | 2018-12-05 14:33:05 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_960BB2E0_C17F_4c89_90DD_3006CC5F0F75 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam | Onderhoud |
-    | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-c25777ae-ed48-4285-b244-66715cd2e299](https://gemmaonline.nl/index.php/GEMMA/id-c25777ae-ed48-4285-b244-66715cd2e299) |
-    | gemma_definitie | Maatregelen om de functionele kwaliteit in stand te houden of te herstellen en dus de levensduur van een (object)onderdeel te realiseren c.q. te verlengen. |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Onderhoud |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.5 |
+| created | 2018-12-05 14:33:05 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_960BB2E0_C17F_4c89_90DD_3006CC5F0F75 |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Onderhoud |
+| gemma_type | business-object |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-c25777ae-ed48-4285-b244-66715cd2e299](https://gemmaonline.nl/index.php/GEMMA/id-c25777ae-ed48-4285-b244-66715cd2e299) |
+| gemma_definitie | Maatregelen om de functionele kwaliteit in stand te houden of te herstellen en dus de levensduur van een (object)onderdeel te realiseren c.q. te verlengen. |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype Onderhoud
 
@@ -655,32 +663,32 @@ Attributen van objecttype Onderhoud
 
 
 
+
 ### Opbreking
 > **Definitie Opbreking:** 
 >
-> Vorm van wegwerkzaamheid
+> Vorm van wegwerkzaamheid 
 
-??? info "Kenmerken Model Opbreking"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Opbreking |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.5 |
-    | created | 2018-12-05 14:55:35 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_1EBA6DEB_268D_4339_86C9_7C1BA218A7A0 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam | Opbreking |
-    | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-5b02590d-3c1e-416c-ad2b-9edbef005ba5](https://gemmaonline.nl/index.php/GEMMA/id-5b02590d-3c1e-416c-ad2b-9edbef005ba5) |
-    | gemma_definitie | Vorm van wegwerkzaamheid |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Opbreking |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.5 |
+| created | 2018-12-05 14:55:35 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_1EBA6DEB_268D_4339_86C9_7C1BA218A7A0 |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Opbreking |
+| gemma_type | business-object |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-5b02590d-3c1e-416c-ad2b-9edbef005ba5](https://gemmaonline.nl/index.php/GEMMA/id-5b02590d-3c1e-416c-ad2b-9edbef005ba5) |
+| gemma_definitie | Vorm van wegwerkzaamheid |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype Opbreking
 
@@ -689,32 +697,32 @@ Attributen van objecttype Opbreking
 
 
 
+
 ### Proces-verbaal-MOOR-melding
 > **Definitie Proces-verbaal-MOOR-melding:** 
 >
 > Officieel op papier gesteld verslag met betrekking tot heen MOOR-melding
 
-??? info "Kenmerken Model Proces-verbaal-MOOR-melding"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Proces-verbaal-MOOR-melding |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.5 |
-    | created | 2018-11-15 15:14:08 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_2587938E_CF7F_499b_BB21_9CB8BBCC1DD2 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam | ProcesVerbaalMoorMelding |
-    | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-48bc7e60-2a17-4909-b475-b18938e79048](https://gemmaonline.nl/index.php/GEMMA/id-48bc7e60-2a17-4909-b475-b18938e79048) |
-    | gemma_definitie | Officieel op papier gesteld verslag met betrekking tot heen MOOR-melding |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Proces-verbaal-MOOR-melding |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.5 |
+| created | 2018-11-15 15:14:08 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_2587938E_CF7F_499b_BB21_9CB8BBCC1DD2 |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | ProcesVerbaalMoorMelding |
+| gemma_type | business-object |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-48bc7e60-2a17-4909-b475-b18938e79048](https://gemmaonline.nl/index.php/GEMMA/id-48bc7e60-2a17-4909-b475-b18938e79048) |
+| gemma_definitie | Officieel op papier gesteld verslag met betrekking tot heen MOOR-melding |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype Proces-verbaal-MOOR-melding
 
@@ -723,6 +731,8 @@ Attributen van objecttype Proces-verbaal-MOOR-melding
 | datum | DateTime |  |
 | goedkeuring | boolean |  |
 | opmerkingen | text |  |
+| None | Class: "MOOR-melding" |  |
+
 
 
 
@@ -731,27 +741,26 @@ Attributen van objecttype Proces-verbaal-MOOR-melding
 >
 > Activiteit om te controleren of de opdrachtnemer aan de afspraken voldoet.
 
-??? info "Kenmerken Model Schouwronde"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Schouwronde |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.5 |
-    | created | 2018-09-19 11:36:25 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_B011D584_1E66_4a21_A9C4_C922A8763AB2 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam | Schouwronde |
-    | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-0a945e86-b4f2-45b2-855f-ed9fd0b4dca1](https://gemmaonline.nl/index.php/GEMMA/id-0a945e86-b4f2-45b2-855f-ed9fd0b4dca1) |
-    | gemma_definitie | Activiteit om te controleren of de opdrachtnemer aan de afspraken voldoet. |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Schouwronde |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.5 |
+| created | 2018-09-19 11:36:25 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_B011D584_1E66_4a21_A9C4_C922A8763AB2 |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | Schouwronde |
+| gemma_type | business-object |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-0a945e86-b4f2-45b2-855f-ed9fd0b4dca1](https://gemmaonline.nl/index.php/GEMMA/id-0a945e86-b4f2-45b2-855f-ed9fd0b4dca1) |
+| gemma_definitie | Activiteit om te controleren of de opdrachtnemer aan de afspraken voldoet. |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype Schouwronde
 
@@ -760,32 +769,32 @@ Attributen van objecttype Schouwronde
 
 
 
+
 ### Storing
 > **Definitie Storing:** 
 >
 > Verlies van de mogelijkheid om volgens een specificatie te werken of om het vereiste resultaat te leveren.
 
-??? info "Kenmerken Model Storing"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Storing |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.5 |
-    | created | 2018-12-10 22:05:13 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_0EF67A8B_AEBE_4a00_B1EF_2EFD0DCC9F5D |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Storing |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.5 |
+| created | 2018-12-10 22:05:13 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_0EF67A8B_AEBE_4a00_B1EF_2EFD0DCC9F5D |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype Storing
 
@@ -794,32 +803,32 @@ Attributen van objecttype Storing
 
 
 
+
 ### Taak
 > **Definitie Taak:** 
 >
 > Een samenhangende set activiteiten.
 
-??? info "Kenmerken Model Taak"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Taak |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.5 |
-    | created | 2018-11-07 09:52:55 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_0621D6BE_A680_4aad_890D_78684F2266B0 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Taak |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.5 |
+| created | 2018-11-07 09:52:55 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_0621D6BE_A680_4aad_890D_78684F2266B0 |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype Taak
 
@@ -828,71 +837,74 @@ Attributen van objecttype Taak
 
 
 
+
 ### Uitvoerder Graafwerkzaamheden
 > **Definitie Uitvoerder Graafwerkzaamheden:** 
 >
 > Degene die op de bouwlocatie van een project de leiding heeft met betrekking tot de graafwerkzaamheden
 
-??? info "Kenmerken Model Uitvoerder Graafwerkzaamheden"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Uitvoerder Graafwerkzaamheden |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.5 |
-    | created | 2018-11-15 15:15:53 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_BBE1DC54_1482_4650_BB7F_930DDB823E09 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam | UitvoerderGraafwerkzaamheden |
-    | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-6f57464b-d011-4a75-afe8-a69b543c042b](https://gemmaonline.nl/index.php/GEMMA/id-6f57464b-d011-4a75-afe8-a69b543c042b) |
-    | gemma_definitie | Degene die op de bouwlocatie van een project de leiding heeft met betrekking tot de graafwerkzaamheden |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Uitvoerder Graafwerkzaamheden |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.5 |
+| created | 2018-11-15 15:15:53 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_BBE1DC54_1482_4650_BB7F_930DDB823E09 |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam | UitvoerderGraafwerkzaamheden |
+| gemma_type | business-object |
+| gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-6f57464b-d011-4a75-afe8-a69b543c042b](https://gemmaonline.nl/index.php/GEMMA/id-6f57464b-d011-4a75-afe8-a69b543c042b) |
+| gemma_definitie | Degene die op de bouwlocatie van een project de leiding heeft met betrekking tot de graafwerkzaamheden |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype Uitvoerder Graafwerkzaamheden
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| None | Class: "Opbreking" |  |
+| None | Class: "MOOR-melding" |  |
+
 
 
 
 ### Verkeerslicht
 > **Definitie Verkeerslicht:** 
 >
-> Lichten die aangeven dat je moet stoppen, dat je mag doorrijden, of die je waarschuwen voor gevaar.
+> Lichten die aangeven dat je moet stoppen, dat je mag doorrijden, of die je waarschuwen voor gevaar. 
 
-??? info "Kenmerken Model Verkeerslicht"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Verkeerslicht |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.5 |
-    | created | 2018-12-05 16:01:25 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_620FF102_974C_43a6_A6A0_79BB71E8580D |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
+| Eigenschap | Waarde |
+| :--- | :------ |
+| name | Verkeerslicht |
+| toelichting |  |
+| synoniemen |  |
+| uri |  |
+| bron |  |
+| author | Arjen Brienen |
+| version | 1.5 |
+| created | 2018-12-05 16:01:25 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_620FF102_974C_43a6_A6A0_79BB71E8580D |
+| domein_iv3 |  |
+| domein_dcat |  |
+| gemma_naam |  |
+| gemma_type |  |
+| gemma_url |  |
+| gemma_definitie |  |
+| gemma_toelichting |  |
+
 
 Attributen van objecttype Verkeerslicht
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+
 
 
 
@@ -916,27 +928,26 @@ Het enumeratie CROW-Kwaliteitsniveaus kent de volgende waarden:
 
 De enumeratie CROW-Kwaliteitsniveaus heeft de volgende kenmerken:
 
-??? info "Kenmerken Model CROW-Kwaliteitsniveaus"
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | CROW-Kwaliteitsniveaus |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.4 |
-    | created | 2025-03-26 11:13:10 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_503ACC2A_C721_4058_A44A_13126A0FC2DA |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
+| Kenmerk | Waarde |
+| :--- | :------ |
+| name | CROW-Kwaliteitsniveaus |
+| toelichting | None |
+| synoniemen | None |
+| uri | None |
+| bron | None |
+| author | None |
+| version | 1.4 |
+| created | 2025-03-26 11:13:10 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_503ACC2A_C721_4058_A44A_13126A0FC2DA |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
+
 
 
 ### Energielabel
@@ -954,27 +965,26 @@ Het enumeratie Energielabel kent de volgende waarden:
 
 De enumeratie Energielabel heeft de volgende kenmerken:
 
-??? info "Kenmerken Model Energielabel"
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | Energielabel |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.4 |
-    | created | 2025-03-26 11:13:10 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_CC21861B_1CE6_4271_AF0C_CA68FEF0C880 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
+| Kenmerk | Waarde |
+| :--- | :------ |
+| name | Energielabel |
+| toelichting | None |
+| synoniemen | None |
+| uri | None |
+| bron | None |
+| author | None |
+| version | 1.4 |
+| created | 2025-03-26 11:13:10 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_CC21861B_1CE6_4271_AF0C_CA68FEF0C880 |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
+
 
 
 ### Oppervlakte Woning
@@ -993,27 +1003,26 @@ Het enumeratie Oppervlakte Woning kent de volgende waarden:
 
 De enumeratie Oppervlakte Woning heeft de volgende kenmerken:
 
-??? info "Kenmerken Model Oppervlakte Woning"
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | Oppervlakte Woning |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.4 |
-    | created | 2025-03-26 11:13:10 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_5110C4A5_4771_4283_ADAB_04F9CB2D27BF |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
+| Kenmerk | Waarde |
+| :--- | :------ |
+| name | Oppervlakte Woning |
+| toelichting | None |
+| synoniemen | None |
+| uri | None |
+| bron | None |
+| author | None |
+| version | 1.4 |
+| created | 2025-03-26 11:13:10 |
+| modified | 2025-03-26 16:14:45 |
+| id | EAID_5110C4A5_4771_4283_ADAB_04F9CB2D27BF |
+| domein_iv3 | None |
+| domein_dcat | None |
+| gemma_naam | None |
+| gemma_type | None |
+| gemma_url | None |
+| gemma_definitie | None |
+| gemma_toelichting | None |
+
 
 
 
