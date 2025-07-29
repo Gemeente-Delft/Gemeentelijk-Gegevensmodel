@@ -1,6 +1,22 @@
-# Code genereren op basis van het Gemeentelijk Gegevensmodel
+# Databaseschema's
 
-Bij het GGM is een set codegeneratietemplates die binnen Enterprise Architect gebruikt kunnen worden voor het genereren van [Data Definition Language (DDL)](https://nl.wikipedia.org/wiki/Data_definition_language). Hiermee kunnen direct tabellen in een RDMBS gegenereerd worden. Er zijn diverse templates beschikbaar waarmee tabellen voor databases gegeneerd kunnen worden, en ook programmacode voor bijvoorbeeld: Python, C# en Java. In principe werkt codegeneratie voor alle ondersteunde RDBMS'en, op wat specifieke zaken na zoals enumeraties. Deze hebben wij wel ontwikkeld voor: 
+## Kant-en-klare databaseschema's
+
+Vanaf release v2.4.0 van het Gemeentelijk Gegevensmodel is er ook een volledige set [DDL-bestanden (Data Definition Language)](https://nl.wikipedia.org/wiki/Data_definition_language) beschikbaar. Het gaat om in totaal 488 DDL's,  die automatisch zijn gegenereerd met behulp van een batchversie van de UML Database Generator, die binnenkort beschikbaar zal zijn voor een breder publiek. Deze batchgenerator verwerkt alle relevante diagrammen en exporteert per diagram de bijbehorende DDL-scripts in meerdere databaseformaten, waaronder: 
+
+* MySQL 
+* MSSQL
+* Oracle
+* PostgreSQL.
+
+Zo heb je voor deze gangbare databases direct de schema's beschikbaar om jouw databases in te richten. Deze DDL's zijn bedoeld ter ondersteuning van ontwikkelaars, data-architecten en beheerders die het GGM willen toepassen in hun eigen systemen of omgevingen. Dankzij deze set is het nu mogelijk om volledig **zonder gebruik van Enterprise Architect, en dus toolonafhankelijk**, aan de slag te gaan met de GGM-datamodellen. De DDL-bestanden kunnen direct worden ingelezen of aangepast met standaard SQL-tools en editors.
+Let op: dit is een vroege versie van de generator. Er kunnen nog onvolkomenheden voorkomen in de gegenereerde bestanden. Feedback is welkom.
+
+Je vindt de DDL's voor de genoemde databases in de directory 'ddl' in de release-directory.  
+
+## Code genereren op basis van het Gemeentelijk Gegevensmodel
+
+Als je zelf met Enterprise Architect DDL wilt genereren dan is bij het GGM is een set codegeneratietemplates die binnen Enterprise Architect gebruikt kunnen worden voor het genereren van [Data Definition Language (DDL)](https://nl.wikipedia.org/wiki/Data_definition_language). Hiermee kunnen direct tabellen in een RDMBS gegenereerd worden. Er zijn diverse templates beschikbaar waarmee tabellen voor databases gegeneerd kunnen worden, en ook programmacode voor bijvoorbeeld: Python, C# en Java. In principe werkt codegeneratie voor alle ondersteunde RDBMS'en, op wat specifieke zaken na zoals enumeraties. Deze hebben wij wel ontwikkeld voor: 
 
 1. Oracle
 2. MySQL (ongetest)
@@ -8,7 +24,7 @@ Bij het GGM is een set codegeneratietemplates die binnen Enterprise Architect ge
 
 De geleverde codegeneratietemplates zijn uitbreidingen op de standaard templates van [Enterprise Architect](https://sparxsystems.com), als onderdeel van het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_domains/codetemplates_2.html).
 
-## Installeren codegeneratietemplates
+### Installeren codegeneratietemplates
 
 1. Download het bestand [CodegeneratieTemplates.xml((https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/###VERSION###/CodegeneratieTemplates.xml))
 2. Start Enterprise Architect
@@ -27,14 +43,14 @@ De geleverde codegeneratietemplates zijn uitbreidingen op de standaard templates
 
 7\. Succes!
 
-## Gebruiken Codegeneratietemplates
+### Gebruiken Codegeneratietemplates
 
 Het uitgenereren vanuit het GGM naar DDL bestaat uit twee stappen:
 
 1. Transformeren logische model naar logische tabelrepresentatie.
 2. Genereren van DDL uit logische tabelrepresentatie.
 
-### Voordat je begint
+#### Voordat je begint
 
 Zorg allereerst dat er in je project naast het GGM ook een plek is waar je de tabellen heen kunt schrijven. Hiervoor gebruiken wij een aparte node naast de root node. In het voorbeeld is dat de map `<<DataModel>> Tables/Ruimte/Afval`.
 
@@ -48,7 +64,7 @@ Kies vervolgens onder _Source Code Engineering/Code Editors_ de optie _Default D
 
 ![Selecteer het default RDBMS dat je als doel hebt][selecteerDefaultRDBMS]
 
-### Stappen voor genereren DDL
+#### Stappen voor genereren DDL
 
 Voor het genereren naar DDL neem je de volgende stappen:
 
@@ -90,11 +106,11 @@ Voor het genereren naar DDL neem je de volgende stappen:
 
 10\. Even wachten en de DDL staat klaar. Succes!
 
-## Interne werking
+### Interne werking
 
 De mogelijkheden die de codegeneratietemplates bieden is beperkend voor de mogelijkheden bij het modelleren in het Gemeentelijk Gegevensmode. Immers datatypes en relaties die niet worden ondersteund door de codegeneratietemplates kun je niet (automatisch) omzetten naar tabellen, en niet goed gebruiken als je het tabel toepast. Daarom is hier beschreven wat je in het logisch model kunt gebruiken en hoe dit transformeert naar tabellen.
 
-### Objecttypes(Classes)
+#### Objecttypes(Classes)
 
 Bij het genereren van de tabelnamen geldt de volgende volgorde (alle namen worden ingekort tot maximaal 30 karakters):
 
@@ -118,7 +134,7 @@ Als een objecttype een Stereotype heeft dan worden deze als volgt gebruikt:
 
 * referentielijst: tabel met tabelnaam met prefix _LST__ 
 
-### Attributen
+#### Attributen
 
 Met behulp codegeneratietemplates worden de verschillende attributen van de objecttypes uit het GGM omgezet op basis van _Datatype_ en op basis van _Stereotype_. Het gaat hier om aanvullingen boven het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html) van Enterprise Architect. Bij het genereren van de tabelnamen geldt de volgende volgorde:
 
@@ -144,11 +160,11 @@ Attributen worden op basis van hun Stereotype omgezet:
 * Adresaanduiding: veld wordt vervangen door de volgende velden: Naam Gemeente, Straatnaam, Huisnummer, Huisletter, Huisnummertoevoeging, Postcode en BAGID.
 * enumeration: er wordt een referentie naar de enumeratie opgenomen. Zie hiervoor Voorbeeld D
 
-### Relaties
+#### Relaties
 
 De vertalen van relaties in het logisch model is niet altijd recht-toe-rechtaan. Met name voor de naamgeving van de [foreignkeys](https://en.wikipedia.org/wiki/Foreign_key) en de [foreignkey-constraints](https://www.w3schools.com/sql/sql_foreignkey.asp). Hierom is dit hier in 3 voorbeelden beschreven.
 
-#### Voorbeeld A
+##### Voorbeeld A
 
 In het eerste voorbeeld zijn 4 objecttypes/classes te zien met drie relaties
 
@@ -166,7 +182,7 @@ Deze relaties vertalen zich na transformeren naar tabellen als volgt:
 
 ![Voorbeeld A na uitgeneren naar tabellen][voorbeeldATabellen]
 
-#### Voorbeeld B
+##### Voorbeeld B
 
 De naamgeving van de foreignkeys, foreignkey-constraints en koppeltabellen kan worden beïnvloed door het gebruik van relatienamen en aliassen. Hiermee zorg je dat er geen dubbele constraints worden gemaakt en er geen onleesbare of te lange namen ontstaan. Voor naamgeving wordt de volgende volgorde gebruikt (in volgorde van prioriteit):
 
@@ -195,11 +211,11 @@ Na transformeren naar tabellen als volgt:
 
 ![Voorbeeld B na uitgeneren naar tabellen][voorbeeldBTabellen]
 
-#### Voorbeeld C
+##### Voorbeeld C
 
 Voorbeelden die speciale aandacht nodig hebben, omdat het transformatieproces anders fouten oplevert:
 
-1. [Relaties met jezelf](https://www.365dagensuccesvol.nl/blogs/relatie-met-jezelf/) ;) (Varkensoortje)
+1. [Relaties met jezelf](https://www.365dagensuccesvol.nl/blogs/relatie-met-jezelf/) ; (Varkensoortje)
 2. Meervoudige relaties tussen objecttypes.
 
 ![Voorbeeld C voor uitgeneren naar tabellen][voorbeeldC]
@@ -212,7 +228,7 @@ Als je het logisch model hebt getransformeerd naar tabellen zie je dat de Aliasn
 
 ![Voorbeeld C na uitgeneren naar tabellen][voorbeeldCTabellen]
 
-#### Voorbeeld D
+##### Voorbeeld D
 
 Als laatste een voorbeeld met het gebruik van enumeraties:
 
@@ -242,14 +258,14 @@ Als je het logisch model hebt getransformeerd naar tabellen zie je dat er van de
 
 In het uitgegenereerde model is te zien dat in de enumeratie de waardelijsten nog als attributen zijn opgenomen. Pas bij het genereren naar fysieke databaseschema's worden de waardelijsten omgezet naar waardelijsten in de tabel.
 
-## Zelf templates aanpassen
+### Zelf templates aanpassen
 
 Nadat je de templates in Enterprise Architect hebt geladen kun je ze binnen je eigen omgeving aanpassen om het gedrag aan te passen naar je eigen wensen. Het is belangrijk te zien dat de generatie naar DDL in twee stappen verloopt, en dat je dus op twee niveau aanpassingen kunt maken.
 
 1. Eerste generatiestap: Aanpassen templates die database-onafhankelijke tabellen genereren
 2. Tweede generatiestap: Aanpassen generatie van database-onafhankelijke tabbellen naar DDL
 
-### Eerste generatiestap
+#### Eerste generatiestap
 
 Ga hiervoor als eerste naar het onderdeel Transform templates. Zie hieronder.
 

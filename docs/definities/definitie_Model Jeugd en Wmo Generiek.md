@@ -7,7 +7,7 @@
 Het model 'Model Jeugd en Wmo Generiek' kent de volgende objecttypen:
 
 * **AOM_AanvraagWmoJeugd**: <Geen Definities>
-* **AOMMeldingWMOJeugd**: <Geen Definities>
+* **AOMMeldingWmoJeugd**: <Geen Definities>
 * **Beperking**: Een stoornis of conditie ‚ lichamelijk, zintuiglijk en-of geestelijk ‚ die een normaal maatschappelijk functioneren belemmert en nadelige sociale gevolgen met zich meebrengt.
 * **Beperkingscategorie**: Een categorisering van beperkingen
 * **Beperkingscore**: Getalsmatige duiding van een beperking
@@ -28,7 +28,7 @@ Het model 'Model Jeugd en Wmo Generiek' kent de volgende objecttypen:
 * **Tarief**: Hoogte van een bedrag voor een bepaald product of dient
 * **Team**: Een groep personen die door middel van samenwerking een gezamenlijk doel nastreeft, waarbij de teamleden afhankelijk van elkaar zijn om het doel te bereiken.
 * **Toewijzing**: Toewijzing die door gemeente aan zorgaanbieder wordt gestuurd. zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html 
-* **Verplichting WMO Jeugd**: <Geen Definities>
+* **Verplichting Wmo Jeugd**: <Geen Definities>
 * **Verzoek om Toewijzing**: Verzoek tot toewijzing dat vanuit leverancier (via H10-portal) aan de gemeente wordt gestuurd. Zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html   
 * **Voorziening**: Middel om services/maatregelen in te vullen.
 * **Voorzieningsoort**: Typering van een voorziening
@@ -107,14 +107,14 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
 
 
 
-### AOMMeldingWMOJeugd
-> **Definitie AOMMeldingWMOJeugd:** 
+### AOMMeldingWmoJeugd
+> **Definitie AOMMeldingWmoJeugd:** 
 >
 > Geen Definitie
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | AOMMeldingWMOJeugd |
+| name | AOMMeldingWmoJeugd |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -122,7 +122,7 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
 | author | aashkpour |
 | version | 1.3 |
 | created | 2021-12-15 14:38:21 |
-| modified | 2025-03-26 16:14:36 |
+| modified | 2025-07-29 16:50:44 |
 | id | EAID_0FA25A4F_DF7F_4feb_9460_19D054E874F8 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -133,7 +133,7 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
 | gemma_toelichting |  |
 
 
-Attributen van objecttype AOMMeldingWMOJeugd
+Attributen van objecttype AOMMeldingWmoJeugd
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -336,7 +336,7 @@ Attributen van objecttype Beschikking
 | wet |  |  |
 | None | Class: "Client" |  |
 | None | Class: "Toewijzing" |  |
-| None | Class: "AOMMeldingWMOJeugd" |  |
+| None | Class: "AOMMeldingWmoJeugd" |  |
 | None | Class: "Beperking" |  |
 
 
@@ -919,14 +919,14 @@ Attributen van objecttype Toewijzing
 
 
 
-### Verplichting WMO Jeugd
-> **Definitie Verplichting WMO Jeugd:** 
+### Verplichting Wmo Jeugd
+> **Definitie Verplichting Wmo Jeugd:** 
 >
 > Geen Definitie
 
 | Eigenschap | Waarde |
 | :--- | :------ |
-| name | Verplichting WMO Jeugd |
+| name | Verplichting Wmo Jeugd |
 | toelichting |  |
 | synoniemen |  |
 | uri |  |
@@ -934,7 +934,7 @@ Attributen van objecttype Toewijzing
 | author | aashkpour |
 | version | 1.3 |
 | created | 2023-07-27 15:34:06 |
-| modified | 2025-03-26 16:14:36 |
+| modified | 2025-07-29 16:51:02 |
 | id | EAID_EC0FB9CB_B407_49b4_8FCF_8837E7A72DA9 |
 | domein_iv3 |  |
 | domein_dcat |  |
@@ -945,7 +945,7 @@ Attributen van objecttype Toewijzing
 | gemma_toelichting |  |
 
 
-Attributen van objecttype Verplichting WMO Jeugd
+Attributen van objecttype Verplichting Wmo Jeugd
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |

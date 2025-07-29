@@ -143,7 +143,7 @@ nav:
  - Totstandkoming:
     - 'Uitleg Werkwijze': totstandkoming.md
     - 'Voorbeeld: Gemeentelijke Monumenten': monumenten.md
- - Generatie databaseschema's: generatie.md
+ - Databaseschema's: generatie.md
  - Overige:
     - Over het GGM: about.md
     - Licentie: https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE
