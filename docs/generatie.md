@@ -12,7 +12,7 @@ Vanaf release v2.4.0 van het Gemeentelijk Gegevensmodel is er ook een volledige 
 Zo heb je voor deze gangbare databases direct de schema's beschikbaar om jouw databases in te richten. Deze DDL's zijn bedoeld ter ondersteuning van ontwikkelaars, data-architecten en beheerders die het GGM willen toepassen in hun eigen systemen of omgevingen. Dankzij deze set is het nu mogelijk om volledig **zonder gebruik van Enterprise Architect, en dus toolonafhankelijk**, aan de slag te gaan met de GGM-datamodellen. De DDL-bestanden kunnen direct worden ingelezen of aangepast met standaard SQL-tools en editors.
 Let op: dit is een vroege versie van de generator. Er kunnen nog onvolkomenheden voorkomen in de gegenereerde bestanden. Feedback is welkom.
 
-Je vindt de DDL's voor de genoemde databases in de directory ['ddl' in de release-directory](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/tree/master/v2.4.0/ddl%20(early%20release)).  
+Je vindt de DDL's voor de genoemde databases in de directory  ['ddl' in de release-directory](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/tree/master/v2.4.0/ddl%20(early%20release)).  
 
 ## Code genereren op basis van het Gemeentelijk Gegevensmodel
 
