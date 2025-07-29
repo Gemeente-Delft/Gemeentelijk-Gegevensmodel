@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Werk:** 
 >
-> Geen definitie
+> Het informatiedomein dat gegevens omvat over de ondersteuning van mensen bij het vinden en behouden van werk, gebaseerd op de Participatiewet en gericht op het bevorderen van arbeidsparticipatie.
 
 Het model 'Model Werk' kent de volgende objecttypen:
 
@@ -32,7 +32,7 @@ Het model 'Model Werk' kent de volgende objecttypen:
 * **Taalbeheersing**: <font color="#0e0e0e">Het Europese of Nederlandse taalniveau (zoals A1 t/m C2) waarop de taalvaardigheid van een persoon is ingeschaald.</font>
 * **TaalbeheersingNederlands**: <font color="#0e0e0e">De mate waarin een persoon de Nederlandse taal beheerst, inclusief mondelinge en schriftelijke vaardigheden.</font>
 * **Vaardigheidsvaststelling**: <font color="#0e0e0e">Het proces waarin specifieke vaardigheden van een persoon worden beoordeeld of gemeten, vaak ter ondersteuning van een werkprofiel of plaatsingsbeslissing.</font>
-* **Voorkeur**: <Geen Definities>
+* **Voorkeur**: <font color="#0e0e0e"><b>Voorkeur</b></font><font color="#0e0e0e"> is een door de klant geuite wens of voorkeur met betrekking tot werk, opleiding of ondersteuning, waarmee bij de invulling van het re-integratie- of participatietraject rekening kan worden gehouden voor zover dit past binnen de wettelijke kaders en mogelijkheden van de gemeente.</font>
 * **VrijstellingArbeidsplicht**: <font color="#0e0e0e">Geeft aan of en waarom iemand tijdelijk of structureel is vrijgesteld van de plicht om arbeid te verrichten.</font>
 * **Werkervaring**: <font color="#0e0e0e">Eerdere functies of werkzaamheden van een persoon, inclusief sector, duur en aard van de werkzaamheden.</font>
 * **Werkzaamheden als mantelzorger**: <font color="#0e0e0e">Activiteiten die een persoon uitvoert in de rol van mantelzorger, buiten een formele arbeidsverhouding, maar met mogelijke invloed op beschikbaarheid voor arbeid.</font>
@@ -53,7 +53,7 @@ Het model 'Model Werk' heeft de volgende kenmerken:
 | author | arjen |
 | version | 1.0 |
 | created | 2025-07-22 09:42:58 |
-| modified | 2025-07-22 14:39:11 |
+| modified | 2025-07-29 14:04:33 |
 | id | EAPK_A7E08871_8DE8_4fe4_96AE_2AB3EE67E0CF |
 
 
@@ -1082,19 +1082,19 @@ Attributen van objecttype Vaardigheidsvaststelling
 ### Voorkeur
 > **Definitie Voorkeur:** 
 >
-> Geen Definitie
+> <font color="#0e0e0e"><b>Voorkeur</b></font><font color="#0e0e0e"> is een door de klant geuite wens of voorkeur met betrekking tot werk, opleiding of ondersteuning, waarmee bij de invulling van het re-integratie- of participatietraject rekening kan worden gehouden voor zover dit past binnen de wettelijke kaders en mogelijkheden van de gemeente.</font>
 
 | Eigenschap | Waarde |
 | :--- | :------ |
 | name | Voorkeur |
-| toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.  |
+| toelichting | 	•	Een voorkeur kan betrekking hebben op type werkzaamheden, branche, werkomgeving, werktijden, opleidingsrichting of gewenste ondersteuning.#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.  |
 | synoniemen |  |
 | uri |  |
 | bron |  |
 | author | Eigenaar |
 | version | 1.0 |
 | created | 2025-06-03 13:17:36 |
-| modified | 2025-07-22 14:37:45 |
+| modified | 2025-07-29 13:28:41 |
 | id | EAID_A514BC85_0096_4bbc_B393_DE1784056420 |
 | domein_iv3 |  |
 | domein_dcat |  |

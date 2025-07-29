@@ -1071,7 +1071,7 @@ De enumeratie Verwerkingsstatus heeft de volgende kenmerken:
 | version | 1.0 |
 | created | 2024-03-07 12:33:22 |
 | modified | 2025-03-27 10:22:49 |
-| id | EAID_a2f9389b_5c99_4817_a2ab_cfa3eb5a711c |
+| id | EAID_90951ba2_d601_4211_ad69_77306b14e74c |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |

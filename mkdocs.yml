@@ -102,21 +102,25 @@ nav:
         - 'Sport': definities/definitie_Model Sport.md
     - 'Sociaal domein':
         - 'Werk': definities/definitie_Model Werk.md
-        - 'Inkomen': definities/definitie_Model Inkomen.md
-        - 'Inkomen: Reden aanvraag (GBI)': definities/definitie_Model Reden aanvraag.md
-        - 'Inkomen: Terug- en invordering (GBI)': definities/definitie_Model Terug- en invordering.md
-        - 'Inkomen: Normafwijking (GBI)': definities/definitie_Model Normafwijking.md
-        - 'Inkomen: Dienstenmodel (GBI)': definities/definitie_Model Diensten.md
+        - 'Inkomen': 
+            - 'Inkomen Basis': definities/definitie_Model Inkomen.md
+            - 'Inkomen: Reden aanvraag (GBI)': definities/definitie_Reden aanvraag.md
+            - 'Inkomen: Terug- en invordering (GBI)': definities/definitie_Model Terug- en invordering.md
+            - 'Inkomen: Normafwijking (GBI)': definities/definitie_Model Normafwijking.md
+            - 'Inkomen: Dienstenmodel (GBI)': definities/definitie_Model Diensten.md
         - 'Wmo en Jeugd': definities/definitie_Model Jeugd en Wmo Generiek.md
         - 'Inburgering': definities/definitie_Model Inburgering.md
-        - 'Schuldhulverlening': definities/definitie_Model Schuldhulpverlening.md
+        - 'Schulden': 
+            - 'Schuldhulverlening': definities/definitie_Model Schuldhulpverlening.md
+            - 'Vroegsignalering': definities/definitie_Model Vroegsignalering.md
         - 'Sociale Teams': definities/definitie_Model Sociale Teams.md
         - 'Jeugdbescherming': definities/definitie_Model Jeugdbescherming.md
         - 'Gemeentebegrafenissen': definities/definitie_Model Gemeentebegrafenissen.md
         - 'Dak- en thuislozen': definities/definitie_Model Dak- en thuislozen.md
-        - 'Generieke definities Sociaal Domein': definities/definitie_Model Sociaal Domein Generiek.md
-        - 'Generiek: Profiel inkomsten': definities/definitie_Model Inkomsten.md
-        - 'Generiek: Profiel vermogen': definities/definitie_Model Vermogen.md
+        - 'Sociaal Domein Generiek': 
+            - 'Generieke definities Sociaal Domein': definities/definitie_Model Sociaal Domein Generiek.md
+            - 'Generiek: Profiel inkomsten': definities/definitie_Model Inkomsten.md
+            - 'Generiek: Profiel vermogen': definities/definitie_Model Vermogen.md
     - 'Volkshuisvesting, leefomgeving en stedelijke vernieuwing':
         - 'Openbare ruimte': definities/definitie_Model Beheer Openbare Ruimte.md
         - 'Bouwen en Wonen': definities/definitie_Model Wonen.md

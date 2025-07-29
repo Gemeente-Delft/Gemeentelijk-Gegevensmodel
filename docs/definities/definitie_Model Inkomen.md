@@ -25,7 +25,7 @@ Het model 'Model Inkomen' heeft de volgende kenmerken:
 | Kenmerk | Waarde |
 | :--- | :------ |
 | name | Model Inkomen |
-| toelichting | <memo> |
+| toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.  |
 | synoniemen |  |
 | uri |  |
 | bron |  |
@@ -529,7 +529,7 @@ De enumeratie Wet heeft de volgende kenmerken:
 | version | 1.4 |
 | created | 2025-03-26 11:12:49 |
 | modified | 2025-03-26 16:14:37 |
-| id | EAID_e356e1c2_15db_4ad9_8027_e34f9af65ed5 |
+| id | EAID_0ed576cc_20cd_471e_a13d_dfb51698926b |
 | domein_iv3 | None |
 | domein_dcat | None |
 | gemma_naam | None |
