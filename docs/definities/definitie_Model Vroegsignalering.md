@@ -4,30 +4,29 @@
 >
 > Geen definitie
 
+??? info "Kenmerken Model Model Vroegsignalering"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Model Vroegsignalering |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.0 |
+    | created | 2025-04-23 15:37:33 |
+    | modified | 2025-04-23 15:43:22 |
+    | id | EAPK_BB7B01A9_44F5_4e0f_B158_0DDAA5B6593D |
+    
+
 Het model 'Model Vroegsignalering' kent de volgende objecttypen:
 
 * **AanleverendeOrganisatie**: <Geen Definities>
 * **Contactpersoon**: Contactpersoon van een organisatie
-* **Contactpoging**: Een Contactpoging is de actie die de gemeente onderneemt om in contact te treden met de inwoner naar aanleiding van een vroegsignaal. Een contactpoging maakt onderdeel uit van de vroegsignaalzaak en kan verschillende vormen aannemen, zoals een telefoongesprek, huisbezoek, brief of digitaal bericht. Van elke contactpoging wordt vastgelegd wanneer deze is gedaan, op welke wijze, met welk doel en wat het resultaat was (bijvoorbeeld: geen gehoor, gesprek gevoerd, brief retour ontvangen). 
-* **Signaalpartner**: Een signaalpartner is een organisatie die op grond van artikel 2.2.1 van de Wet gemeentelijke schuldhulpverlening (Wgs) bevoegd is om signalen van betalingsachterstanden door te geven aan de gemeente met het doel vroegtijdige hulpverlening bij schulden mogelijk te maken. Signaalpartners zijn dienstverleners met een maatschappelijk belang, zoals zorgverzekeraars, energieleveranciers, drinkwaterbedrijven en woningverhuurders.  Een signaalpartner verstrekt een vroegsignaal aan de gemeente wanneer bij een klant of huurder sprake is van een betalingsachterstand die voldoet aan de wettelijke en/of contractuele criteria voor signalering. 
-* **Vroegsignaal**: Een Vroegsignaal is een bericht dat door een signaalpartner (zoals een zorgverzekeraar, energieleverancier of verhuurder) aan de gemeente wordt verstrekt, met als doel de gemeente te informeren over een mogelijk beginnende schuldsituatie van een inwoner. Het vroegsignaal vormt het startpunt van het gemeentelijk proces van vroegsignalering van schulden.  De juridische grondslag voor het ontvangen en verwerken van vroegsignalen is vastgelegd in artikel 2.2.1 van de Wet gemeentelijke schuldhulpverlening (Wgs). Deze wet verplicht gemeenten om vroegtijdig signalen van betalingsachterstanden te ontvangen en op basis daarvan inwoners passende hulp aan te bieden. 
+* **Contactpoging**: Een Contactpoging is de actie die de gemeente onderneemt om in contact te treden met de inwoner naar aanleiding van een vroegsignaal. Een contactpoging maakt onderdeel uit van de vroegsignaalzaak en kan verschillende vormen aannemen, zoals een telefoongesprek, huisbezoek, brief of digitaal bericht. Van elke contactpoging wordt vastgelegd wanneer deze is gedaan, op welke wijze, met welk doel en wat het resultaat was (bijvoorbeeld: geen gehoor, gesprek gevoerd, brief retour ontvangen).
+* **Signaalpartner**: Een signaalpartner is een organisatie die op grond van artikel 2.2.1 van de Wet gemeentelijke schuldhulpverlening (Wgs) bevoegd is om signalen van betalingsachterstanden door te geven aan de gemeente met het doel vroegtijdige hulpverlening bij schulden mogelijk te maken. Signaalpartners zijn dienstverleners met een maatschappelijk belang, zoals zorgverzekeraars, energieleveranciers, drinkwaterbedrijven en woningverhuurders.<br>Een signaalpartner verstrekt een vroegsignaal aan de gemeente wanneer bij een klant of huurder sprake is van een betalingsachterstand die voldoet aan de wettelijke en/of contractuele criteria voor signalering.
+* **Vroegsignaal**: Een Vroegsignaal is een bericht dat door een signaalpartner (zoals een zorgverzekeraar, energieleverancier of verhuurder) aan de gemeente wordt verstrekt, met als doel de gemeente te informeren over een mogelijk beginnende schuldsituatie van een inwoner. Het vroegsignaal vormt het startpunt van het gemeentelijk proces van vroegsignalering van schulden.<br>De juridische grondslag voor het ontvangen en verwerken van vroegsignalen is vastgelegd in artikel 2.2.1 van de Wet gemeentelijke schuldhulpverlening (Wgs). Deze wet verplicht gemeenten om vroegtijdig signalen van betalingsachterstanden te ontvangen en op basis daarvan inwoners passende hulp aan te bieden.
 * **Vroegsignaalzaak**: Een Vroegsignaalzaak is procesmatige eenheid binnen de gemeentelijke organisatie waarin de behandeling van &#233;&#233;n of meerdere vroegsigna(a)len is/zijn ondergebracht. De vroegsignaalzaak omvat alle handelingen die de gemeente verricht naar aanleiding van het ontvangen vroegsignaal, zoals het vastleggen van het signaal, het uitvoeren van een eerste beoordeling, het leggen van contact met de inwoner, het registreren van contactpogingen en -resultaten, en het eventueel toeleiden naar schuldhulpverlening of andere passende ondersteuning.
-
-
-Het model 'Model Vroegsignalering' heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | Model Vroegsignalering |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.0 |
-| created | 2025-04-23 15:37:33 |
-| modified | 2025-04-23 15:43:22 |
-| id | EAPK_BB7B01A9_44F5_4e0f_B158_0DDAA5B6593D |
 
 
 ## Objecttypen Model Vroegsignalering
@@ -38,26 +37,27 @@ Het model 'Model Vroegsignalering' heeft de volgende kenmerken:
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | AanleverendeOrganisatie |
-| toelichting | <memo> |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.0 |
-| created | 2025-07-10 14:53:49 |
-| modified | 2025-07-10 14:55:49 |
-| id | EAID_3109FEF3_A1CB_4f50_800B_376A18465F9F |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model AanleverendeOrganisatie"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | AanleverendeOrganisatie |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.0 |
+    | created | 2025-07-10 14:53:49 |
+    | modified | 2025-07-10 14:55:49 |
+    | id | EAID_3109FEF3_A1CB_4f50_800B_376A18465F9F |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype AanleverendeOrganisatie
 
@@ -68,32 +68,32 @@ Attributen van objecttype AanleverendeOrganisatie
 
 
 
-
 ### Contactpersoon
 > **Definitie Contactpersoon:** 
 >
 > Contactpersoon van een organisatie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Contactpersoon |
-| toelichting | <memo> |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.0 |
-| created | 2025-07-10 14:51:54 |
-| modified | 2025-07-10 14:53:32 |
-| id | EAID_A629ED5F_E919_6316_A279_92891F2325BB |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Contactpersoon"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Contactpersoon |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.0 |
+    | created | 2025-07-10 14:51:54 |
+    | modified | 2025-07-10 14:53:32 |
+    | id | EAID_A629ED5F_E919_6316_A279_92891F2325BB |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Contactpersoon
 
@@ -106,33 +106,32 @@ Attributen van objecttype Contactpersoon
 
 
 
-
 ### Contactpoging
 > **Definitie Contactpoging:** 
 >
 > Een Contactpoging is de actie die de gemeente onderneemt om in contact te treden met de inwoner naar aanleiding van een vroegsignaal. Een contactpoging maakt onderdeel uit van de vroegsignaalzaak en kan verschillende vormen aannemen, zoals een telefoongesprek, huisbezoek, brief of digitaal bericht. Van elke contactpoging wordt vastgelegd wanneer deze is gedaan, op welke wijze, met welk doel en wat het resultaat was (bijvoorbeeld: geen gehoor, gesprek gevoerd, brief retour ontvangen).
-> 
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Contactpoging |
-| toelichting | <memo> |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.0 |
-| created | 2025-04-09 16:07:30 |
-| modified | 2025-07-03 13:54:46 |
-| id | EAID_C7000EFD_826C_4e47_BD80_075A6EF4E558 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Contactpoging"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Contactpoging |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.0 |
+    | created | 2025-04-09 16:07:30 |
+    | modified | 2025-07-03 13:54:46 |
+    | id | EAID_C7000EFD_826C_4e47_BD80_075A6EF4E558 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Contactpoging
 
@@ -145,35 +144,32 @@ Attributen van objecttype Contactpoging
 
 
 
-
 ### Signaalpartner
 > **Definitie Signaalpartner:** 
 >
-> Een signaalpartner is een organisatie die op grond van artikel 2.2.1 van de Wet gemeentelijke schuldhulpverlening (Wgs) bevoegd is om signalen van betalingsachterstanden door te geven aan de gemeente met het doel vroegtijdige hulpverlening bij schulden mogelijk te maken. Signaalpartners zijn dienstverleners met een maatschappelijk belang, zoals zorgverzekeraars, energieleveranciers, drinkwaterbedrijven en woningverhuurders.
-> 
-> Een signaalpartner verstrekt een vroegsignaal aan de gemeente wanneer bij een klant of huurder sprake is van een betalingsachterstand die voldoet aan de wettelijke en/of contractuele criteria voor signalering.
-> 
+> Een signaalpartner is een organisatie die op grond van artikel 2.2.1 van de Wet gemeentelijke schuldhulpverlening (Wgs) bevoegd is om signalen van betalingsachterstanden door te geven aan de gemeente met het doel vroegtijdige hulpverlening bij schulden mogelijk te maken. Signaalpartners zijn dienstverleners met een maatschappelijk belang, zoals zorgverzekeraars, energieleveranciers, drinkwaterbedrijven en woningverhuurders.<br>Een signaalpartner verstrekt een vroegsignaal aan de gemeente wanneer bij een klant of huurder sprake is van een betalingsachterstand die voldoet aan de wettelijke en/of contractuele criteria voor signalering.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Signaalpartner |
-| toelichting | <memo> |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.0 |
-| created | 2025-04-09 16:16:46 |
-| modified | 2025-07-03 13:53:39 |
-| id | EAID_3643CF44_EFAA_4939_9AEB_ACA8D8EE11F9 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Signaalpartner"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Signaalpartner |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.0 |
+    | created | 2025-04-09 16:16:46 |
+    | modified | 2025-07-03 13:53:39 |
+    | id | EAID_3643CF44_EFAA_4939_9AEB_ACA8D8EE11F9 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Signaalpartner
 
@@ -183,51 +179,43 @@ Attributen van objecttype Signaalpartner
 
 
 
-
 ### Vroegsignaal
 > **Definitie Vroegsignaal:** 
 >
-> Een Vroegsignaal is een bericht dat door een signaalpartner (zoals een zorgverzekeraar, energieleverancier of verhuurder) aan de gemeente wordt verstrekt, met als doel de gemeente te informeren over een mogelijk beginnende schuldsituatie van een inwoner. Het vroegsignaal vormt het startpunt van het gemeentelijk proces van vroegsignalering van schulden.
-> 
-> De juridische grondslag voor het ontvangen en verwerken van vroegsignalen is vastgelegd in artikel 2.2.1 van de Wet gemeentelijke schuldhulpverlening (Wgs). Deze wet verplicht gemeenten om vroegtijdig signalen van betalingsachterstanden te ontvangen en op basis daarvan inwoners passende hulp aan te bieden.
-> 
+> Een Vroegsignaal is een bericht dat door een signaalpartner (zoals een zorgverzekeraar, energieleverancier of verhuurder) aan de gemeente wordt verstrekt, met als doel de gemeente te informeren over een mogelijk beginnende schuldsituatie van een inwoner. Het vroegsignaal vormt het startpunt van het gemeentelijk proces van vroegsignalering van schulden.<br>De juridische grondslag voor het ontvangen en verwerken van vroegsignalen is vastgelegd in artikel 2.2.1 van de Wet gemeentelijke schuldhulpverlening (Wgs). Deze wet verplicht gemeenten om vroegtijdig signalen van betalingsachterstanden te ontvangen en op basis daarvan inwoners passende hulp aan te bieden.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Vroegsignaal |
-| toelichting | <memo> |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.0 |
-| created | 2025-04-09 16:03:55 |
-| modified | 2025-07-03 13:54:01 |
-| id | EAID_C6DA2586_C0E3_4868_93E8_64AF6D118092 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Vroegsignaal"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Vroegsignaal |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.0 |
+    | created | 2025-04-09 16:03:55 |
+    | modified | 2025-07-03 13:54:01 |
+    | id | EAID_C6DA2586_C0E3_4868_93E8_64AF6D118092 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Vroegsignaal
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| crisissignaal | boolean | Betreft het een crisis?
- |
-| warmeOverdracht | boolean | Er is al contact met persoon. Betreft verzoek deze persoon op te pakken in het kader van vroegsignalering.  |
+| crisissignaal | boolean | Betreft het een crisis? |
+| warmeOverdracht | boolean | Er is al contact met persoon. Betreft verzoek deze persoon op te pakken in het kader van vroegsignalering. |
 | bedrag | bedrag |  |
 | ontstaansdatum | Date |  |
 | signaaldatum | Date | Datum waarop de signaalpartner het signaal heeft verstuurd. |
 | status | Enumeratie: "EnumSignaalstatus" |  |
-| None | Class: "Signaalpartner" |  |
-| None | Class: "Vroegsignaalzaak" |  |
-| None | Class: "Client" |  |
-
 
 
 
@@ -236,26 +224,27 @@ Attributen van objecttype Vroegsignaal
 >
 > Een Vroegsignaalzaak is procesmatige eenheid binnen de gemeentelijke organisatie waarin de behandeling van &#233;&#233;n of meerdere vroegsigna(a)len is/zijn ondergebracht. De vroegsignaalzaak omvat alle handelingen die de gemeente verricht naar aanleiding van het ontvangen vroegsignaal, zoals het vastleggen van het signaal, het uitvoeren van een eerste beoordeling, het leggen van contact met de inwoner, het registreren van contactpogingen en -resultaten, en het eventueel toeleiden naar schuldhulpverlening of andere passende ondersteuning.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Vroegsignaalzaak |
-| toelichting | <memo> |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | arjen |
-| version | 1.0 |
-| created | 2025-04-09 16:05:23 |
-| modified | 2025-07-07 13:36:25 |
-| id | EAID_1AA67F0D_3B94_48a3_A037_A2ACC6D61CF0 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Vroegsignaalzaak"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Vroegsignaalzaak |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.0 |
+    | created | 2025-04-09 16:05:23 |
+    | modified | 2025-07-07 13:36:25 |
+    | id | EAID_1AA67F0D_3B94_48a3_A037_A2ACC6D61CF0 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Vroegsignaalzaak
 
@@ -263,14 +252,9 @@ Attributen van objecttype Vroegsignaalzaak
 | :--- | :--- | :--- |
 | resultaat | Enumeratie: "EnumEindresultaat" |  |
 | matchingsdatum | Date | De datum waarop de matching wordt uitgevoerd. |
-| startdatum_matchtingperiode | Date | De matchingperiode is het tijdvak waarover de matching plaatsvindt. Hier de startdatum van de matching, die binnen de matchingsperiode valt.  |
+| startdatum_matchtingperiode | Date | De matchingperiode is het tijdvak waarover de matching plaatsvindt. Hier de startdatum van de matching, die binnen de matchingsperiode valt. |
 | datum_opgepakt | Date | De datum waarop de gemeente de zaak heeft opgepakt. |
-| einddatum_matchingperiode | Date | De matchingperiode is het tijdvak waarover de matching plaatsvindt. Hier de einddatum van de matching, die binnen de matchingsperiode valt. 
- |
-| None | Class: "Gemeente" |  |
-| None | Class: "Contactpoging" |  |
-| None | Class: "NietNatuurlijkPersoon" |  |
-
+| einddatum_matchingperiode | Date | De matchingperiode is het tijdvak waarover de matching plaatsvindt. Hier de einddatum van de matching, die binnen de matchingsperiode valt. |
 
 
 
@@ -296,26 +280,27 @@ Het enumeratie EnumContactsoort kent de volgende waarden:
 
 De enumeratie EnumContactsoort heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | EnumContactsoort |
-| toelichting | <memo> |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | arjen |
-| version | 1.0 |
-| created | 2025-04-09 16:10:41 |
-| modified | 2025-04-23 15:38:57 |
-| id | EAID_7BA37694_65C5_4cfb_8804_D7EB6CE344FB |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
-
+??? info "Kenmerken Model EnumContactsoort"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | EnumContactsoort |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.0 |
+    | created | 2025-04-09 16:10:41 |
+    | modified | 2025-04-23 15:38:57 |
+    | id | EAID_7BA37694_65C5_4cfb_8804_D7EB6CE344FB |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### EnumDagdeel
@@ -330,26 +315,27 @@ Het enumeratie EnumDagdeel kent de volgende waarden:
 
 De enumeratie EnumDagdeel heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | EnumDagdeel |
-| toelichting | <memo> |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | arjen |
-| version | 1.0 |
-| created | 2025-05-26 09:07:14 |
-| modified | 2025-05-26 09:08:43 |
-| id | EAID_3860D42A_481D_42cd_86F9_79B5D6230A58 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
-
+??? info "Kenmerken Model EnumDagdeel"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | EnumDagdeel |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.0 |
+    | created | 2025-05-26 09:07:14 |
+    | modified | 2025-05-26 09:08:43 |
+    | id | EAID_3860D42A_481D_42cd_86F9_79B5D6230A58 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### EnumEindresultaat
@@ -376,26 +362,27 @@ Het enumeratie EnumEindresultaat kent de volgende waarden:
 
 De enumeratie EnumEindresultaat heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | EnumEindresultaat |
-| toelichting | <memo> |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | arjen |
-| version | 1.0 |
-| created | 2025-04-09 16:10:26 |
-| modified | 2025-04-23 15:38:52 |
-| id | EAID_B78A9A0E_65B0_4c4b_AA01_99CFA196D740 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
-
+??? info "Kenmerken Model EnumEindresultaat"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | EnumEindresultaat |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.0 |
+    | created | 2025-04-09 16:10:26 |
+    | modified | 2025-04-23 15:38:52 |
+    | id | EAID_B78A9A0E_65B0_4c4b_AA01_99CFA196D740 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### EnumSignaalpartner
@@ -407,43 +394,38 @@ Het enumeratie EnumSignaalpartner kent de volgende waarden:
 * **Huur**: Inzake de huur vanaf 30 dagen.
 * **Hypotheek**: <Geen Definities>
 * **CAK Zorgverzekeringen**: Als de zorgverzekering meer dan 6 maanden niet is betaald, wordt deze door CAK overgenomen.
-
 * **Zorg**: Inzake de zorgverzekeringspremie inclusief premie voor aanvullende verzekering, eigen risico en eigen bijdragen van 30 tot 100 dagen.
 * **Water**: Inzake de drinkwaterrekening vanaf 30 dagen
 * **DUO**: <Geen Definities>
 * **Belastingdienst**: Mensen die na een aanmaning hun belasting niet hebben betaald of terugbetaald.
-* **CAK Eigen bijdrage**: Achterstand bij het betalen van de Eigen bijdrage in het kader van WLZ, en WMO. <font color="#0e0e0e">De doelgroep voldoet aan deze drie voorwaarden:</font>
-<font color="#0e0e0e">1.Inwoners van de Gemeenten die het incassotraject hebben doorlopen (schriftelijke herinnering, aanmaning, minnelijk deurwaarders traject en telefonische poging tot persoonlijk contact). Het betreft hier achterstanden op gebied van eigen bijdrage Wmo of Wlz, ge&#239;ncasseerd door het CAK. Het gaat hierbij specifiek om de groep die terugkeert van een minnelijk deurwaarderstraject.</font>
-<font color="#0e0e0e">2.Er is nog geen sprake van een gerechtelijke dwangmaatregel. De vroegsignalering gaat vooraf aan de inzet van een gerechtelijke procedure (doorgaans wordt die ingezet bij vorderingen &gt; € 100,= achterstand).</font>
-<font color="#0e0e0e">3.Het lukt CAK niet om contact te krijgen of een betaalafspraak te maken met de klant.</font>
-
+* **CAK Eigen bijdrage**: Achterstand bij het betalen van de Eigen bijdrage in het kader van WLZ, en WMO. <font color="#0e0e0e">De doelgroep voldoet aan deze drie voorwaarden:</font><br><font color="#0e0e0e">1.Inwoners van de Gemeenten die het incassotraject hebben doorlopen (schriftelijke herinnering, aanmaning, minnelijk deurwaarders traject en telefonische poging tot persoonlijk contact). Het betreft hier achterstanden op gebied van eigen bijdrage Wmo of Wlz, ge&#239;ncasseerd door het CAK. Het gaat hierbij specifiek om de groep die terugkeert van een minnelijk deurwaarderstraject.</font><br><font color="#0e0e0e">2.Er is nog geen sprake van een gerechtelijke dwangmaatregel. De vroegsignalering gaat vooraf aan de inzet van een gerechtelijke procedure (doorgaans wordt die ingezet bij vorderingen &gt; € 100,= achterstand).</font><br><font color="#0e0e0e">3.Het lukt CAK niet om contact te krijgen of een betaalafspraak te maken met de klant.</font>
 * **Overige**: <Geen Definities>
 * **Dienst Toeslagen**: Mensen die na een aanmaning te veel ontvangen toeslag niet hebben betaald of terugbetaald.
 
 
-
 De enumeratie EnumSignaalpartner heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | EnumSignaalpartner |
-| toelichting | <memo> |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | arjen |
-| version | 1.0 |
-| created | 2025-04-09 16:29:45 |
-| modified | 2025-04-23 15:38:45 |
-| id | EAID_ACE0EA25_898C_4de3_8196_49AD3AE5481F |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
-
+??? info "Kenmerken Model EnumSignaalpartner"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | EnumSignaalpartner |
+    | toelichting | <memo> |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.0 |
+    | created | 2025-04-09 16:29:45 |
+    | modified | 2025-04-23 15:38:45 |
+    | id | EAID_ACE0EA25_898C_4de3_8196_49AD3AE5481F |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### EnumSignaalstatus
@@ -463,27 +445,27 @@ Het enumeratie EnumSignaalstatus kent de volgende waarden:
 
 De enumeratie EnumSignaalstatus heeft de volgende kenmerken:
 
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | EnumSignaalstatus |
-| toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.
- |
-| synoniemen | None |
-| uri | None |
-| bron | None |
-| author | arjen |
-| version | 1.0 |
-| created | 2025-05-07 11:25:56 |
-| modified | 2025-07-08 09:40:00 |
-| id | EAID_568499A3_3FE7_4342_B1B4_36A01AEAC1C9 |
-| domein_iv3 | None |
-| domein_dcat | None |
-| gemma_naam | None |
-| gemma_type | None |
-| gemma_url | None |
-| gemma_definitie | None |
-| gemma_toelichting | None |
-
+??? info "Kenmerken Model EnumSignaalstatus"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | EnumSignaalstatus |
+    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | arjen |
+    | version | 1.0 |
+    | created | 2025-05-07 11:25:56 |
+    | modified | 2025-07-08 09:40:00 |
+    | id | EAID_568499A3_3FE7_4342_B1B4_36A01AEAC1C9 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 

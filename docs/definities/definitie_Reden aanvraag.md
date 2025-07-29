@@ -4,6 +4,21 @@
 >
 > Geen definitie
 
+??? info "Kenmerken Model Reden aanvraag"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Reden aanvraag |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-06-27 21:51:28 |
+    | modified | 2024-06-27 21:51:42 |
+    | id | EAPK_2EA8EC3D_1407_C3BE_D193_3802BFAEB694 |
+    
+
 Het model 'Reden aanvraag' kent de volgende objecttypen:
 
 * **Andere reden afwijkende startdatum**: <Geen Definities>
@@ -17,33 +32,17 @@ Het model 'Reden aanvraag' kent de volgende objecttypen:
 * **Gestopte of verlaagde alimentatie**: <Geen Definities>
 * **Gestopte studiefinanciering**: <Geen Definities>
 * **Gestopte uitkering**: <Geen Definities>
-* **Ingang bijstandsuitkering**: In de meeste gevallen is de startdatum van een dienst gelijk aan de datum eerste melding (melddatum). Echter, er zijn redenen om hiervan af te wijken. In dat geval wijkt de startdatum af van de melddatum. Ingangsdatum uitkering bevat een Reden afwijkende startdatum om op te nemen met welke reden een afwijkende ingangsdatum gehanteerd wordt.  Ingang bijstandsuitkering kan, zoals de naam al doet vermoeden, alleen van toepassing zijn indien het een aanvraag betreft van het diensttype 'Aanvulling levensonderhoud' (ALO)'.
+* **Ingang bijstandsuitkering**: In de meeste gevallen is de startdatum van een dienst gelijk aan de datum eerste melding (melddatum). Echter, er zijn redenen om hiervan af te wijken. In dat geval wijkt de startdatum af van de melddatum. Ingangsdatum uitkering bevat een Reden afwijkende startdatum om op te nemen met welke reden een afwijkende ingangsdatum gehanteerd wordt.<br>Ingang bijstandsuitkering kan, zoals de naam al doet vermoeden, alleen van toepassing zijn indien het een aanvraag betreft van het diensttype 'Aanvulling levensonderhoud' (ALO)'.
 * **Levenssituatie::Levenssituatie**: <Geen Definities>
 * **Opname instelling**: <Geen Definities>
 * **Overleden partner**: <Geen Definities>
-* **Reden aanvraag**: Reden waarom dienst wordt aanvraagd bij gemeente. 
+* **Reden aanvraag**: Reden waarom dienst wordt aanvraagd bij gemeente.
 * **Reden aanvraag Levensonderhoud**: <Geen Definities>
 * **Reden afwijkende startdatum**: <Geen Definities>
 * **Verbroken relatie**: <Geen Definities>
 * **Vertrek uit asielzoekerscentrum**: <Geen Definities>
 * **Wachten beslissing instantie**: <Geen Definities>
 * **Wachten DigiD**: <Geen Definities>
-
-
-Het model 'Reden aanvraag' heeft de volgende kenmerken:
-
-| Kenmerk | Waarde |
-| :--- | :------ |
-| name | Reden aanvraag |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-06-27 21:51:28 |
-| modified | 2024-06-27 21:51:42 |
-| id | EAPK_2EA8EC3D_1407_C3BE_D193_3802BFAEB694 |
 
 
 ## Objecttypen Reden aanvraag
@@ -54,26 +53,27 @@ Het model 'Reden aanvraag' heeft de volgende kenmerken:
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Andere reden afwijkende startdatum |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-03-07 12:33:22 |
-| modified | 2024-12-13 12:08:27 |
-| id | EAID_237c7e1c_5893_475f_be3f_49b629316e1e |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Andere reden afwijkende startdatum"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Andere reden afwijkende startdatum |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2024-12-13 12:08:27 |
+    | id | EAID_237c7e1c_5893_475f_be3f_49b629316e1e |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Andere reden afwijkende startdatum
 
@@ -82,32 +82,32 @@ Attributen van objecttype Andere reden afwijkende startdatum
 
 
 
-
 ### Andere reden verzoek
 > **Definitie Andere reden verzoek:** 
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Andere reden verzoek |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-03-07 12:33:22 |
-| modified | 2024-12-13 12:08:28 |
-| id | EAID_1E8815BF_5BAC_6978_BF60_2791C1C96FC3 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Andere reden verzoek"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Andere reden verzoek |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2024-12-13 12:08:28 |
+    | id | EAID_1E8815BF_5BAC_6978_BF60_2791C1C96FC3 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Andere reden verzoek
 
@@ -116,39 +116,37 @@ Attributen van objecttype Andere reden verzoek
 
 
 
-
 ### Diensten::Aanvraag
 > **Definitie Diensten::Aanvraag:** 
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Diensten::Aanvraag |
-| toelichting | #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-12-13 12:29:32 |
-| modified | 2025-03-17 10:47:00 |
-| id | EAID_2D94CF02_97C5_4621_B225_EA742445A235 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Diensten::Aanvraag"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Diensten::Aanvraag |
+    | toelichting | #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-12-13 12:29:32 |
+    | modified | 2025-03-17 10:47:00 |
+    | id | EAID_2D94CF02_97C5_4621_B225_EA742445A235 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Diensten::Aanvraag
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Reden aanvraag" |  |
-
 
 
 
@@ -157,26 +155,27 @@ Attributen van objecttype Diensten::Aanvraag
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Diensten::Aanvraag levensonderhoud |
-| toelichting | #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2025-03-17 10:52:35 |
-| modified | 2025-03-17 10:52:50 |
-| id | EAID_1F9DBD7C_EBF3_41c8_8F00_2F6169FE107C |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Diensten::Aanvraag levensonderhoud"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Diensten::Aanvraag levensonderhoud |
+    | toelichting | #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2025-03-17 10:52:35 |
+    | modified | 2025-03-17 10:52:50 |
+    | id | EAID_1F9DBD7C_EBF3_41c8_8F00_2F6169FE107C |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Diensten::Aanvraag levensonderhoud
 
@@ -185,32 +184,32 @@ Attributen van objecttype Diensten::Aanvraag levensonderhoud
 
 
 
-
 ### Gestopt betaald werk
 > **Definitie Gestopt betaald werk:** 
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Gestopt betaald werk |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-03-07 12:33:22 |
-| modified | 2024-12-13 12:08:26 |
-| id | EAID_16333246_B1C9_E9E9_D5B6_2791C02E05CB |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Gestopt betaald werk"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Gestopt betaald werk |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2024-12-13 12:08:26 |
+    | id | EAID_16333246_B1C9_E9E9_D5B6_2791C02E05CB |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Gestopt betaald werk
 
@@ -219,32 +218,32 @@ Attributen van objecttype Gestopt betaald werk
 
 
 
-
 ### Gestopt of verkocht eigen bedrijf
 > **Definitie Gestopt of verkocht eigen bedrijf:** 
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Gestopt of verkocht eigen bedrijf |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-03-07 12:33:22 |
-| modified | 2024-12-13 12:08:29 |
-| id | EAID_0B7F7AD1_661C_8F1C_4F9A_2791C1C74BAB |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Gestopt of verkocht eigen bedrijf"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Gestopt of verkocht eigen bedrijf |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2024-12-13 12:08:29 |
+    | id | EAID_0B7F7AD1_661C_8F1C_4F9A_2791C1C74BAB |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Gestopt of verkocht eigen bedrijf
 
@@ -253,32 +252,32 @@ Attributen van objecttype Gestopt of verkocht eigen bedrijf
 
 
 
-
 ### Gestopte bijstanduitkering
 > **Definitie Gestopte bijstanduitkering:** 
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Gestopte bijstanduitkering |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-03-07 12:33:22 |
-| modified | 2024-12-13 12:08:29 |
-| id | EAID_15ABBF00_EC46_89CA_680B_2791C070D8E5 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Gestopte bijstanduitkering"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Gestopte bijstanduitkering |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2024-12-13 12:08:29 |
+    | id | EAID_15ABBF00_EC46_89CA_680B_2791C070D8E5 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Gestopte bijstanduitkering
 
@@ -287,32 +286,32 @@ Attributen van objecttype Gestopte bijstanduitkering
 
 
 
-
 ### Gestopte detentie
 > **Definitie Gestopte detentie:** 
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Gestopte detentie |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-03-07 12:33:22 |
-| modified | 2024-12-13 12:08:30 |
-| id | EAID_16F72E30_A6E2_CEC4_6AB8_2791C1C8CC09 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Gestopte detentie"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Gestopte detentie |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2024-12-13 12:08:30 |
+    | id | EAID_16F72E30_A6E2_CEC4_6AB8_2791C1C8CC09 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Gestopte detentie
 
@@ -321,32 +320,32 @@ Attributen van objecttype Gestopte detentie
 
 
 
-
 ### Gestopte of verlaagde alimentatie
 > **Definitie Gestopte of verlaagde alimentatie:** 
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Gestopte of verlaagde alimentatie |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-03-07 12:33:22 |
-| modified | 2024-12-13 12:08:31 |
-| id | EAID_1632E282_377B_77CF_BF11_2791C070C097 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Gestopte of verlaagde alimentatie"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Gestopte of verlaagde alimentatie |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2024-12-13 12:08:31 |
+    | id | EAID_1632E282_377B_77CF_BF11_2791C070C097 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Gestopte of verlaagde alimentatie
 
@@ -355,32 +354,32 @@ Attributen van objecttype Gestopte of verlaagde alimentatie
 
 
 
-
 ### Gestopte studiefinanciering
 > **Definitie Gestopte studiefinanciering:** 
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Gestopte studiefinanciering |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-03-07 12:33:22 |
-| modified | 2024-12-13 12:08:32 |
-| id | EAID_1F0AACC8_0CDE_849C_C1CC_2791C070CCF8 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Gestopte studiefinanciering"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Gestopte studiefinanciering |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2024-12-13 12:08:32 |
+    | id | EAID_1F0AACC8_0CDE_849C_C1CC_2791C070CCF8 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Gestopte studiefinanciering
 
@@ -389,32 +388,32 @@ Attributen van objecttype Gestopte studiefinanciering
 
 
 
-
 ### Gestopte uitkering
 > **Definitie Gestopte uitkering:** 
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Gestopte uitkering |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-03-07 12:33:22 |
-| modified | 2024-12-13 12:08:33 |
-| id | EAID_1BDF5AAF_EDC4_87BC_16F2_2791C06DC1FA |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Gestopte uitkering"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Gestopte uitkering |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2024-12-13 12:08:33 |
+    | id | EAID_1BDF5AAF_EDC4_87BC_16F2_2791C06DC1FA |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Gestopte uitkering
 
@@ -423,41 +422,37 @@ Attributen van objecttype Gestopte uitkering
 
 
 
-
 ### Ingang bijstandsuitkering
 > **Definitie Ingang bijstandsuitkering:** 
 >
-> In de meeste gevallen is de startdatum van een dienst gelijk aan de datum eerste melding (melddatum). Echter, er zijn redenen om hiervan af te wijken. In dat geval wijkt de startdatum af van de melddatum. Ingangsdatum uitkering bevat een Reden afwijkende startdatum om op te nemen met welke reden een afwijkende ingangsdatum gehanteerd wordt.
-> 
-> Ingang bijstandsuitkering kan, zoals de naam al doet vermoeden, alleen van toepassing zijn indien het een aanvraag betreft van het diensttype 'Aanvulling levensonderhoud' (ALO)'.
+> In de meeste gevallen is de startdatum van een dienst gelijk aan de datum eerste melding (melddatum). Echter, er zijn redenen om hiervan af te wijken. In dat geval wijkt de startdatum af van de melddatum. Ingangsdatum uitkering bevat een Reden afwijkende startdatum om op te nemen met welke reden een afwijkende ingangsdatum gehanteerd wordt.<br>Ingang bijstandsuitkering kan, zoals de naam al doet vermoeden, alleen van toepassing zijn indien het een aanvraag betreft van het diensttype 'Aanvulling levensonderhoud' (ALO)'.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Ingang bijstandsuitkering |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-03-07 12:33:22 |
-| modified | 2025-03-17 10:48:26 |
-| id | EAID_0572BF37_A778_273A_32B0_2791C2CC601A |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Ingang bijstandsuitkering"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Ingang bijstandsuitkering |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-03-17 10:48:26 |
+    | id | EAID_0572BF37_A778_273A_32B0_2791C2CC601A |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Ingang bijstandsuitkering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| None | Class: "Diensten::Aanvraag levensonderhoud" |  |
-
 
 
 
@@ -466,26 +461,27 @@ Attributen van objecttype Ingang bijstandsuitkering
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Levenssituatie::Levenssituatie |
-| toelichting | #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2025-03-17 10:40:14 |
-| modified | 2025-03-17 10:47:10 |
-| id | EAID_4B7F5B5B_CCC7_465e_9908_E83620EEAE89 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Levenssituatie::Levenssituatie"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Levenssituatie::Levenssituatie |
+    | toelichting | #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2025-03-17 10:40:14 |
+    | modified | 2025-03-17 10:47:10 |
+    | id | EAID_4B7F5B5B_CCC7_465e_9908_E83620EEAE89 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Levenssituatie::Levenssituatie
 
@@ -494,32 +490,32 @@ Attributen van objecttype Levenssituatie::Levenssituatie
 
 
 
-
 ### Opname instelling
 > **Definitie Opname instelling:** 
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Opname instelling |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-03-07 12:33:22 |
-| modified | 2024-12-13 12:08:35 |
-| id | EAID_1ac5aa8f_eb60_4683_acb8_ca3308da1c3d |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Opname instelling"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Opname instelling |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2024-12-13 12:08:35 |
+    | id | EAID_1ac5aa8f_eb60_4683_acb8_ca3308da1c3d |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Opname instelling
 
@@ -528,32 +524,32 @@ Attributen van objecttype Opname instelling
 
 
 
-
 ### Overleden partner
 > **Definitie Overleden partner:** 
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Overleden partner |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-03-07 12:33:22 |
-| modified | 2024-12-13 12:08:35 |
-| id | EAID_201D0432_BDE5_700A_13F6_2791C071691F |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Overleden partner"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Overleden partner |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2024-12-13 12:08:35 |
+    | id | EAID_201D0432_BDE5_700A_13F6_2791C071691F |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Overleden partner
 
@@ -562,32 +558,32 @@ Attributen van objecttype Overleden partner
 
 
 
-
 ### Reden aanvraag
 > **Definitie Reden aanvraag:** 
 >
-> Reden waarom dienst wordt aanvraagd bij gemeente. 
+> Reden waarom dienst wordt aanvraagd bij gemeente.
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Reden aanvraag |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-03-07 12:33:22 |
-| modified | 2024-12-13 13:01:20 |
-| id | EAID_cac6d8c1_42e6_41cb_9907_3c65c081afba |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Reden aanvraag"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Reden aanvraag |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2024-12-13 13:01:20 |
+    | id | EAID_cac6d8c1_42e6_41cb_9907_3c65c081afba |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Reden aanvraag
 
@@ -596,32 +592,32 @@ Attributen van objecttype Reden aanvraag
 
 
 
-
 ### Reden aanvraag Levensonderhoud
 > **Definitie Reden aanvraag Levensonderhoud:** 
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Reden aanvraag Levensonderhoud |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-03-07 12:33:22 |
-| modified | 2024-12-13 12:08:37 |
-| id | EAID_0BCC5755_9F69_A5D7_4387_2791BFCD4782 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Reden aanvraag Levensonderhoud"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Reden aanvraag Levensonderhoud |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2024-12-13 12:08:37 |
+    | id | EAID_0BCC5755_9F69_A5D7_4387_2791BFCD4782 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Reden aanvraag Levensonderhoud
 
@@ -630,32 +626,32 @@ Attributen van objecttype Reden aanvraag Levensonderhoud
 
 
 
-
 ### Reden afwijkende startdatum
 > **Definitie Reden afwijkende startdatum:** 
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Reden afwijkende startdatum |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-03-07 12:33:22 |
-| modified | 2024-12-13 12:08:38 |
-| id | EAID_ed8f8dba_b936_40ad_b443_1ee91b8fe046 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Reden afwijkende startdatum"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Reden afwijkende startdatum |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2024-12-13 12:08:38 |
+    | id | EAID_ed8f8dba_b936_40ad_b443_1ee91b8fe046 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Reden afwijkende startdatum
 
@@ -664,32 +660,32 @@ Attributen van objecttype Reden afwijkende startdatum
 
 
 
-
 ### Verbroken relatie
 > **Definitie Verbroken relatie:** 
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Verbroken relatie |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-03-07 12:33:22 |
-| modified | 2024-12-13 12:08:39 |
-| id | EAID_273AA921_78AD_0107_6D04_2791C07149E9 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Verbroken relatie"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Verbroken relatie |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2024-12-13 12:08:39 |
+    | id | EAID_273AA921_78AD_0107_6D04_2791C07149E9 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Verbroken relatie
 
@@ -698,32 +694,32 @@ Attributen van objecttype Verbroken relatie
 
 
 
-
 ### Vertrek uit asielzoekerscentrum
 > **Definitie Vertrek uit asielzoekerscentrum:** 
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Vertrek uit asielzoekerscentrum |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-03-07 12:33:22 |
-| modified | 2024-12-13 12:08:40 |
-| id | EAID_109FA03E_8C65_8EF6_C7F0_2791C1C80AFE |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Vertrek uit asielzoekerscentrum"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Vertrek uit asielzoekerscentrum |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2024-12-13 12:08:40 |
+    | id | EAID_109FA03E_8C65_8EF6_C7F0_2791C1C80AFE |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Vertrek uit asielzoekerscentrum
 
@@ -732,32 +728,32 @@ Attributen van objecttype Vertrek uit asielzoekerscentrum
 
 
 
-
 ### Wachten beslissing instantie
 > **Definitie Wachten beslissing instantie:** 
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Wachten beslissing instantie |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-03-07 12:33:22 |
-| modified | 2024-12-13 12:08:40 |
-| id | EAID_008977a4_1342_42b2_be93_bda49931fa51 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Wachten beslissing instantie"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Wachten beslissing instantie |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2024-12-13 12:08:40 |
+    | id | EAID_008977a4_1342_42b2_be93_bda49931fa51 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Wachten beslissing instantie
 
@@ -766,38 +762,37 @@ Attributen van objecttype Wachten beslissing instantie
 
 
 
-
 ### Wachten DigiD
 > **Definitie Wachten DigiD:** 
 >
 > Geen Definitie
 
-| Eigenschap | Waarde |
-| :--- | :------ |
-| name | Wachten DigiD |
-| toelichting |  |
-| synoniemen |  |
-| uri |  |
-| bron |  |
-| author | janbr |
-| version | 1.0 |
-| created | 2024-03-07 12:33:22 |
-| modified | 2024-12-13 12:08:41 |
-| id | EAID_32633236_e5f5_40eb_a083_fc12c3e8a7f8 |
-| domein_iv3 |  |
-| domein_dcat |  |
-| gemma_naam |  |
-| gemma_type |  |
-| gemma_url |  |
-| gemma_definitie |  |
-| gemma_toelichting |  |
-
+??? info "Kenmerken Model Wachten DigiD"
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Wachten DigiD |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2024-12-13 12:08:41 |
+    | id | EAID_32633236_e5f5_40eb_a083_fc12c3e8a7f8 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 Attributen van objecttype Wachten DigiD
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 
