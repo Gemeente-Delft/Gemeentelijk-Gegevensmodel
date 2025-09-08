@@ -71,8 +71,8 @@ Attributen van objecttype Activiteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN200 |  |
 | groep | AN200 |  |
+| naam | AN200 |  |
 | NEN3610ID | AN80 |  |
 
 
@@ -108,8 +108,8 @@ Attributen van objecttype Beperkingsgebied
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN200 |  |
 | groep | AN200 |  |
+| naam | AN200 |  |
 
 
 
@@ -144,8 +144,8 @@ Attributen van objecttype Functie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN200 |  |
 | groep | AN200 |  |
+| naam | AN200 |  |
 
 
 
@@ -180,9 +180,9 @@ Attributen van objecttype Gebiedsaanwijzing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| NEN3610ID | AN80 |  |
 | groep | AN200 |  |
 | naam | AN200 |  |
+| NEN3610ID | AN80 |  |
 
 
 
@@ -289,13 +289,13 @@ Attributen van objecttype Juridische Regel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| omschrijving | text |  |
-| thema | AN200 |  |
-| regeltekst | AN200 | Verwijzing naar lid of artikel van regeltekst |
-| datumStart | Date |  |
+| datumBekend | Date |  |
 | datumEindeGeldigheid | Date |  |
 | datumInWerking | Date |  |
-| datumBekend | Date |  |
+| datumStart | Date |  |
+| omschrijving | text |  |
+| regeltekst | AN200 | Verwijzing naar lid of artikel van regeltekst |
+| thema | AN200 |  |
 
 
 
@@ -366,8 +366,8 @@ Attributen van objecttype Normwaarde
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | kwalitatieveWaarde | AN80 |  |
-| kwantitatieveWaardeOmvang | decimal |  |
 | kwantitatieveWaardeEenheid | AN80 |  |
+| kwantitatieveWaardeOmvang | decimal |  |
 
 
 
@@ -474,8 +474,8 @@ Attributen van objecttype Omgevingswaarderegel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN200 |  |
 | groep | AN200 |  |
+| naam | AN200 |  |
 
 
 

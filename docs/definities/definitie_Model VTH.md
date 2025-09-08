@@ -125,8 +125,8 @@ Attributen van objecttype AOMStatus
 | datumBeginStatus | Date |  |
 | datumEindeStatus | Date |  |
 | status | AN80 |  |
-| statusVolgorde | AN80 |  |
 | statuscode | AN80 |  |
+| statusVolgorde | AN80 |  |
 
 
 
@@ -161,17 +161,17 @@ Attributen van objecttype Bevinding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| aangemaaktDoor | AN40 |  |
+| activiteit | AN50 |  |
 | controleElement | AN50 |  |
 | controleniveau | AN50 |  |
+| datumAanmaak | Date |  |
+| datumMutatie | Date |  |
+| diepte | AN20 |  |
+| fase | AN20 |  |
+| gemuteerdDoor | AN40 |  |
 | resultaat | AN50 |  |
 | risico | AN50 |  |
-| diepte | AN20 |  |
-| activiteit | AN50 |  |
-| fase | AN20 |  |
-| datumAanmaak | Date |  |
-| aangemaaktDoor | AN40 |  |
-| datumMutatie | Date |  |
-| gemuteerdDoor | AN40 |  |
 
 
 
@@ -275,8 +275,8 @@ Attributen van objecttype Fietsregistratie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| verwijderd | Boolean |  |
 | gelabeld | Boolean |  |
+| verwijderd | Boolean |  |
 
 
 
@@ -311,8 +311,8 @@ Attributen van objecttype Grondslag
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| omschrijving | AN200 |  |
 | code | AN10 |  |
+| omschrijving | AN200 |  |
 
 
 
@@ -347,11 +347,11 @@ Attributen van objecttype Heffinggrondslag
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| bedrag | Bedrag |  |
 | domein | AN80 |  |
 | hoofdstuk | int |  |
-| paragraaf | AN8 |  |
 | omschrijving | AN250 |  |
-| bedrag | Bedrag |  |
+| paragraaf | AN8 |  |
 
 
 
@@ -454,17 +454,17 @@ Attributen van objecttype Inspectie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumInspectie | Date |  |
-| inspectietype | AN50 |  |
+| aangemaaktDoor | AN50 |  |
+| datumAanmaak | Date |  |
 | datumGepland | Date |  |
-| status | AN20 |  |
+| datumInspectie | Date |  |
+| datumMutatie | Date |  |
+| gemuteerdDoor | AN50 |  |
+| inspectietype | AN50 |  |
 | kenmerk | AN20 |  |
 | omschrijving | AN80 |  |
 | opmerkingen | AN80 |  |
-| datumAanmaak | Date |  |
-| aangemaaktDoor | AN50 |  |
-| datumMutatie | Date |  |
-| gemuteerdDoor | AN50 |  |
+| status | AN20 |  |
 
 
 
@@ -499,22 +499,22 @@ Attributen van objecttype Kosten
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| type | AN50 |  |
-| omschrijving | text |  |
-| opBasisVanGrondslag | AN50 |  |
-| naam | AN20 |  |
+| aangemaaktDoor | AN50 |  |
 | aantal | AN20 |  |
 | bedrag | bedrag |  |
 | bedragTotaal | bedrag |  |
-| vastgesteldBedrag | bedrag |  |
-| tarief | bedrag |  |
-| eenheid | AN20 |  |
 | datumAanmaak | Date |  |
-| aangemaaktDoor | AN50 |  |
+| datumMutatie | Date |  |
+| eenheid | AN20 |  |
 | geaccordeerd | AN20 |  |
 | gefactureerdOp | Date |  |
-| datumMutatie | Date |  |
 | gemuteerdDoor | AN50 |  |
+| naam | AN20 |  |
+| omschrijving | text |  |
+| opBasisVanGrondslag | AN50 |  |
+| tarief | bedrag |  |
+| type | AN50 |  |
+| vastgesteldBedrag | bedrag |  |
 
 
 
@@ -549,16 +549,16 @@ Attributen van objecttype Leges_Grondslag
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| omschrijving | text |  |
-| datumAanmaak | datum |  |
-| legesGrondslag | AN50 |  |
+| aangemaaktDoor | AN50 |  |
 | aantalOpgegeven | AN20 |  |
 | aantalVastgesteld | AN20 |  |
-| eenheid | AN20 |  |
 | automatisch | AN20 |  |
-| aangemaaktDoor | AN50 |  |
+| datumAanmaak | datum |  |
 | datumMutatie | Date |  |
+| eenheid | AN20 |  |
 | gemuteerdDoor | AN50 |  |
+| legesGrondslag | AN50 |  |
+| omschrijving | text |  |
 
 
 
@@ -628,11 +628,11 @@ Attributen van objecttype MORAanvraagOfMelding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| CROW | Enumeratie: "Boolean" |  |
 | locatie | punt |  |
 | locatieOmschrijving | AN300 |  |
 | meldingOmschrijving | AN40 |  |
 | meldingTekst | AN4000 |  |
-| CROW | Enumeratie: "Boolean" |  |
 
 
 
@@ -667,8 +667,8 @@ Attributen van objecttype OpenbareActiviteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumStart | Date |  |
 | datumEinde | Date |  |
+| datumStart | Date |  |
 | evenmentnaam | AN250 |  |
 | locatieOmschrijving | AN250 |  |
 | status | Enumeratie: "StatusOpenbareActiviteit" |  |
@@ -811,12 +811,12 @@ Attributen van objecttype Vaartuig
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naamVaartuig | AN250 |  |
-| registratienummer | AN80 |  |
-| kleur | AN20 |  |
-| lengte | int |  |
 | breedte | int |  |
 | hoogte | int |  |
+| kleur | AN20 |  |
+| lengte | int |  |
+| naamVaartuig | AN250 |  |
+| registratienummer | AN80 |  |
 
 
 
@@ -851,17 +851,17 @@ Attributen van objecttype VOMAanvraagOfMelding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| activiteiten | AN500 |  |
+| adres | AN500 |  |
+| BAGID | BAGObjectnummering |  |
 | dossiernummer | AN200 |  |
 | intaketype | AN80 |  |
-| adres | AN500 |  |
-| locatie | GML |  |
-| kadastraleAanduiding | AN30 |  |
-| BAGID | BAGObjectnummering |  |
-| activiteiten | AN500 |  |
-| toelichting | Text |  |
-| locatieOmschrijving | AN300 |  |
-| kenmerk | AN80 |  |
 | internNummer | AN80 |  |
+| kadastraleAanduiding | AN30 |  |
+| kenmerk | AN80 |  |
+| locatie | GML |  |
+| locatieOmschrijving | AN300 |  |
+| toelichting | Text |  |
 
 
 
@@ -896,19 +896,19 @@ Attributen van objecttype Vordering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| vorderingnummer | AN50 |  |
+| aangemaaktDoor | AN50 |  |
+| bedragBTW | bedrag |  |
+| datumAanmaak | Datum |  |
+| datumMutatie | Date |  |
+| geaccordeerd | AN50 |  |
+| geaccordeerdDoor | AN50 |  |
+| geaccordeerdOp | Datum |  |
+| geexporteerd | AN50 |  |
+| gemuteerdDoor | AN50 |  |
 | omschrijving | text |  |
 | totaalbedrag | bedrag |  |
-| bedragBTW | bedrag |  |
 | totaalbedragInclusief | bedrag |  |
-| geaccordeerd | AN50 |  |
-| geexporteerd | AN50 |  |
-| geaccordeerdOp | Datum |  |
-| geaccordeerdDoor | AN50 |  |
-| datumAanmaak | Datum |  |
-| aangemaaktDoor | AN50 |  |
-| datumMutatie | Date |  |
-| gemuteerdDoor | AN50 |  |
+| vorderingnummer | AN50 |  |
 
 
 
@@ -943,16 +943,16 @@ Attributen van objecttype Vorderingregel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Omschrijving | AN50 |  |
-| Bedrag_incl_btw | bedrag |  |
-| Bedrag_excl_btw | bedrag |  |
-| Type | AN50 |  |
-| Btwcategorie | AN50 |  |
-| Periodiek | AN50 |  |
-| Gemuteerd_door | AN50 |  |
-| Mutatiedatum | Datum |  |
 | Aangemaakt_door | AN50 |  |
 | Aanmaakdatum | Datum |  |
+| Bedrag_excl_btw | bedrag |  |
+| Bedrag_incl_btw | bedrag |  |
+| Btwcategorie | AN50 |  |
+| Gemuteerd_door | AN50 |  |
+| Mutatiedatum | Datum |  |
+| Omschrijving | AN50 |  |
+| Periodiek | AN50 |  |
+| Type | AN50 |  |
 
 
 
@@ -1022,22 +1022,22 @@ Attributen van objecttype VTH-Melding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| referentienummer | AN80 |  |
-| soortVTHMelding | AN80 |  |
-| locatie | GML |  |
-| straatnaam | AN250 |  |
-| geseponeerd | Boolean |  |
+| activiteit | AN80 |  |
+| beoordeling | Enumeratie: "Beoordelingsoort" |  |
 | datumSeponering | Date |  |
 | datumtijdTot | DateTime |  |
+| geseponeerd | Boolean |  |
+| locatie | GML |  |
 | organisatieonderdeel | AN80 |  |
-| status | AN40 |  |
-| taaktype | AN80 |  |
-| beoordeling | Enumeratie: "Beoordelingsoort" |  |
-| overtredingsgroep | AN200 |  |
-| resultaat | AN80 |  |
-| activiteit | AN80 |  |
-| zaaknummer | AN20 |  |
 | overtredingscode | AN20 |  |
+| overtredingsgroep | AN200 |  |
+| referentienummer | AN80 |  |
+| resultaat | AN80 |  |
+| soortVTHMelding | AN80 |  |
+| status | AN40 |  |
+| straatnaam | AN250 |  |
+| taaktype | AN80 |  |
+| zaaknummer | AN20 |  |
 
 
 
@@ -1072,12 +1072,12 @@ Attributen van objecttype VTHzaak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| verkamering | Enumeratie: "Boolean" |  |
-| bevoegdGezag | AN50 |  |
-| uitvoerendeInstantie | AN50 |  |
 | behandelaar | AN20 |  |
+| bevoegdGezag | AN50 |  |
 | prioritering | int |  |
 | teamBehandelaar | AN20 |  |
+| uitvoerendeInstantie | AN50 |  |
+| verkamering | Enumeratie: "Boolean" |  |
 
 
 
@@ -1147,10 +1147,10 @@ Attributen van objecttype WABOAanvraagOfMelding
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | bouwkosten | Bedrag |  |
-| projectkosten | Bedrag |  |
-| omschrijving | AN1000 |  |
-| registratienummer | AN100 |  |
 | OLONummer | AN80 |  |
+| omschrijving | AN1000 |  |
+| projectkosten | Bedrag |  |
+| registratienummer | AN100 |  |
 
 
 
@@ -1185,11 +1185,11 @@ Attributen van objecttype WoonfraudeAanvraagOfMelding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| meldingTekst | AN4000 |  |
-| meldingOmschrijving | AN40 |  |
 | adres | AN300 |  |
 | categorie | AN80 |  |
 | locatieOmschrijving | AN300 |  |
+| meldingOmschrijving | AN40 |  |
+| meldingTekst | AN4000 |  |
 
 
 
@@ -1262,7 +1262,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_8638becf_0130_4e91_a0bd_77b4005b7046 |
+    | id | EAID_da145105_bd9f_4eea_bb4b_0acdfb13c03e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1298,7 +1298,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_744e0730_8e2f_4070_b4c8_36944f0647d7 |
+    | id | EAID_155f680a_3ddb_43c0_9862_e9b9130c0c3b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

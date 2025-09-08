@@ -72,9 +72,9 @@ Attributen van objecttype Aanwezige Deelnemer
 | :--- | :--- | :--- |
 | aanvangAanwezigheid | DateTime |  |
 | eindeAanwezigheid | DateTime |  |
+| naam | AN250 |  |
 | rol | Enumeratie: "Deelnemersrol" |  |
 | vertegenwoordigtOrganisatie | AN250 |  |
-| naam | AN250 |  |
 
 
 
@@ -110,8 +110,8 @@ Attributen van objecttype Agendapunt
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | nummer | int |  |
-| titel | AN250 |  |
 | omschrijving | Text |  |
+| titel | AN250 |  |
 
 
 
@@ -181,13 +181,13 @@ Attributen van objecttype Collegelid
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| voornaam | AN250 |  |
 | achternaam | AN250 |  |
-| titel | AN80 |  |
-| fractie | AN250 |  |
-| portefeuille | AN200 |  |
 | datumAanstelling | Date |  |
 | datumUittreding | Date |  |
+| fractie | AN250 |  |
+| portefeuille | AN200 |  |
+| titel | AN80 |  |
+| voornaam | AN250 |  |
 
 
 
@@ -363,12 +363,12 @@ Attributen van objecttype Raadslid
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| voornaam | AN250 |  |
 | achternaam | AN250 |  |
-| titel | AN80 |  |
-| fractie | AN250 |  |
 | datumAanstelling | Date |  |
 | datumUittreding | Date |  |
+| fractie | AN250 |  |
+| titel | AN80 |  |
+| voornaam | AN250 |  |
 
 
 
@@ -403,10 +403,10 @@ Attributen van objecttype Raadsstuk
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumRegistratie | DateTime |  |
-| datumPublicatie | DateTime |  |
-| datumExpiratie | DateTime |  |
 | besloten | Boolean |  |
+| datumExpiratie | DateTime |  |
+| datumPublicatie | DateTime |  |
+| datumRegistratie | DateTime |  |
 | typeRaadsstuk | AN80 |  |
 
 
@@ -514,9 +514,9 @@ Attributen van objecttype Vergadering
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | eindtijd | DateTime |  |
+| locatie | AN250 |  |
 | starttijd | DateTime |  |
 | titel | AN250 |  |
-| locatie | AN250 |  |
 
 
 

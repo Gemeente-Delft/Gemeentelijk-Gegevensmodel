@@ -60,10 +60,10 @@ Attributen van objecttype Erfgoed Object
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| titel | AN80 |  |
-| omschrijving | Text |  |
-| dateringVanaf | int |  |
 | dateringTot | int |  |
+| dateringVanaf | int |  |
+| omschrijving | Text |  |
+| titel | AN80 |  |
 
 
 
@@ -98,13 +98,13 @@ Attributen van objecttype Historisch Persoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN200 |  |
+| beroep | AN200 |  |
 | datumGeboorte | Date |  |
 | datumOverlijden | Date |  |
+| naam | AN200 |  |
 | omschrijving | Text |  |
-| woondeOp | AN50 |  |
-| beroep | AN200 |  |
 | publiekToegankelijk | Boolean |  |
+| woondeOp | AN50 |  |
 
 
 

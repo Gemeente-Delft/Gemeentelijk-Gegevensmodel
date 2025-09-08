@@ -82,11 +82,11 @@ Attributen van objecttype Bedrijfsproces
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Omschrijving | AN200 |  |
-| Datum_start | Date |  |
-| Datum_eind | Date |  |
 | Afgerond | Enumeratie: "Boolean" |  |
+| Datum_eind | Date |  |
+| Datum_start | Date |  |
 | Naam | AN200 |  |
+| Omschrijving | AN200 |  |
 
 
 
@@ -156,16 +156,16 @@ Attributen van objecttype Besluit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| besluitidentificatie | AN50 | <font color="#610e6a">Identificatie van het besluit.</font> |
-| datumBesluit |  | <font color="#610e6a">De beslisdatum (AWB) van het besluit.</font> |
-| besluittoelichting | AN1000 | <font color="#610e6a">Toelichting bij het besluit.</font> |
-| datumStart |  | <font color="#610e6a">Ingangsdatum van de werkingsperiode van het besluit.</font> |
-| datumVerval |  | <font color="#610e6a">Datum waarop de werkingsperiode van het besluit eindigt.</font> |
-| redenVerval | X40 | <font color="#610e6a">De omschrijving die aangeeft op grond waarvan het besluit is of komt te vervallen.</font> |
-| datumPublicatie |  | <font color="#610e6a">Datum waarop het besluit gepubliceerd wordt.</font> |
-| datumVerzending |  | <font color="#610e6a">Datum waarop het besluit verzonden is.</font> |
-| datumUiterlijkeReactie |  | <font color="#610e6a">De datum tot wanneer verweer tegen het besluit mogelijk is.</font> |
 | besluit | AN200 |  |
+| besluitidentificatie | AN50 | <font color="#610e6a">Identificatie van het besluit.</font> |
+| besluittoelichting | AN1000 | <font color="#610e6a">Toelichting bij het besluit.</font> |
+| datumBesluit |  | <font color="#610e6a">De beslisdatum (AWB) van het besluit.</font> |
+| datumPublicatie |  | <font color="#610e6a">Datum waarop het besluit gepubliceerd wordt.</font> |
+| datumStart |  | <font color="#610e6a">Ingangsdatum van de werkingsperiode van het besluit.</font> |
+| datumUiterlijkeReactie |  | <font color="#610e6a">De datum tot wanneer verweer tegen het besluit mogelijk is.</font> |
+| datumVerval |  | <font color="#610e6a">Datum waarop de werkingsperiode van het besluit eindigt.</font> |
+| datumVerzending |  | <font color="#610e6a">Datum waarop het besluit verzonden is.</font> |
+| redenVerval | X40 | <font color="#610e6a">De omschrijving die aangeeft op grond waarvan het besluit is of komt te vervallen.</font> |
 | document | Class: "Document" |  |
 | zaak | Class: "Zaak" |  |
 | type | Class: "Besluittype" |  |
@@ -203,15 +203,15 @@ Attributen van objecttype Besluittype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| besluitcategorie | AN40 | <font color="#610e6a">Typering van de aard van BESLUITen van het BESLUITTYPE.</font> |
 | besluittypeOmschrijving | AN80 | <font color="#610e6a">Omschrijving van de aard van BESLUITen van het BESLUITTYPE.</font> |
 | besluittypeOmschrijvingGeneriek | AN80 | <font color="#610e6a">Algemeen gehanteerde omschrijving van de aard van BESLUITen van het BESLUITTYPE</font> |
-| besluitcategorie | AN40 | <font color="#610e6a">Typering van de aard van BESLUITen van het BESLUITTYPE.</font> |
-| reactietermijn | N3 | <font color="#610e6a">Het aantal dagen, gerekend vanaf de verzend- of publicatiedatum, waarbinnen verweer tegen een besluit van het besluittype mogelijk is.</font> |
+| datumBeginGeldigheidBesluittype | OnvolledigeDatum | <font color="#610e6a">De datum waarop het BESLUITTYPE is ontstaan.</font> |
+| datumEindeGeldigheidBesluittype | OnvolledigeDatum | <font color="#610e6a">De datum waarop het BESLUITTYPE is opgeheven.</font> |
 | indicatiePublicatie | AN1 | <font color="#610e6a">Aanduiding of BESLUITen van dit BESLUITTYPE gepubliceerd moeten worden.</font> |
 | publicatietekst | AN1000 | <font color="#610e6a">De generieke tekst van de publicatie van BESLUITen van dit BESLUITTYPE</font> |
 | publicatietermijn | N3 | <font color="#610e6a">Het aantal dagen, gerekend vanaf de verzend- of publicatiedatum, dat BESLUITen van dit BESLUITTYPE gepubliceerd moeten blijven.</font> |
-| datumBeginGeldigheidBesluittype | OnvolledigeDatum | <font color="#610e6a">De datum waarop het BESLUITTYPE is ontstaan.</font> |
-| datumEindeGeldigheidBesluittype | OnvolledigeDatum | <font color="#610e6a">De datum waarop het BESLUITTYPE is opgeheven.</font> |
+| reactietermijn | N3 | <font color="#610e6a">Het aantal dagen, gerekend vanaf de verzend- of publicatiedatum, waarbinnen verweer tegen een besluit van het besluittype mogelijk is.</font> |
 
 
 
@@ -248,8 +248,8 @@ Attributen van objecttype Betaling
 | :--- | :--- | :--- |
 | bedrag | Bedrag |  |
 | datumtijd | datetime |  |
-| valuta | AN3 |  |
 | omschrijving | AN200 |  |
+| valuta | AN3 |  |
 
 
 
@@ -284,11 +284,11 @@ Attributen van objecttype Betrokkene
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| rol |  |  |
-| naam | AN200 | <font color="#610e6a">De benaming van de BETROKKENE  indien dit een (NIET) NATUURLIJK PERSOON, VESTIGING of specialisatie daarvan is.</font> |
-| identificatie | AN50 | <font color="#610e6a">De unieke identificatie van de BETROKKENE</font> |
 | adresBinnenland |  | <font color="#610e6a">De aanduiding van het adres van de BETROKKENE indien dit adres in Nederland gelegen is.</font> |
 | adresBuitenland |  | <font color="#610e6a">De aanduiding van het adres waar specialisaties van de BETROKKENE  zijnde een (NIET) NATUURLIJK PERSOON of VESTIGING dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland.</font> |
+| identificatie | AN50 | <font color="#610e6a">De unieke identificatie van de BETROKKENE</font> |
+| naam | AN200 | <font color="#610e6a">De benaming van de BETROKKENE  indien dit een (NIET) NATUURLIJK PERSOON, VESTIGING of specialisatie daarvan is.</font> |
+| rol |  |  |
 | betrokkene | Class: "NatuurlijkPersoon" |  |
 | organisatorische eenheid | Class: "OrganisatorischeEenheid" |  |
 | vestiging | Class: "NietNatuurlijkPersoon" |  |
@@ -327,8 +327,8 @@ Attributen van objecttype Deelproces
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Datum_gepland | Date |  |
 | Datum_afgehandeld | Date |  |
+| Datum_gepland | Date |  |
 
 
 
@@ -398,14 +398,14 @@ Attributen van objecttype Document
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| documentIdentificatie | AN40 | <font color="#610e6a">Een binnen een gegeven context ondubbelzinnige referentie naar het document.</font><br><font color="#610e6a">Bijvoorbeeld potsregistratienummer</font> |
+| cocumentBeschrijving | AN1000 | <font color="#610e6a">Een generieke beschrijving van de inhoud van het document.</font> |
 | datumCreatieDocument |  | <font color="#610e6a">Een datum of een gebeurtenis in de levenscyclus van het document.</font> |
 | datumOntvangstdocument |  | <font color="#610e6a">De datum waarop het DOCUMENT ontvangen is.</font> |
-| documentTitel | AN200 | <font color="#610e6a">De naam waaronder het document formeel bekend is.</font> |
-| cocumentBeschrijving | AN1000 | <font color="#610e6a">Een generieke beschrijving van de inhoud van het document.</font> |
 | datumVerzendingDocument |  | <font color="#610e6a">De datum waarop het DOCUMENT verzonden is.</font> |
-| vertrouwelijkAanduiding | AN20 | <font color="#610e6a">Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is.</font> |
 | documentAuteur | AN200 | <font color="#610e6a">De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document.</font> |
+| documentIdentificatie | AN40 | <font color="#610e6a">Een binnen een gegeven context ondubbelzinnige referentie naar het document.</font><br><font color="#610e6a">Bijvoorbeeld potsregistratienummer</font> |
+| documentTitel | AN200 | <font color="#610e6a">De naam waaronder het document formeel bekend is.</font> |
+| vertrouwelijkAanduiding | AN20 | <font color="#610e6a">Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is.</font> |
 | type | Class: "Documenttype" |  |
 
 
@@ -441,12 +441,12 @@ Attributen van objecttype Documenttype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| documenttypeOmschrijving | AN80 | <font color="#610e6a">Omschrijving van de aard van DOCUMENTen van dit DOCUMENTTYPE.</font> |
-| documenttypeOmschrijvingGeneriek | AN80 | <font color="#610e6a">Algemeen gehanteerde omschrijving van het DOCUMENTTYPE</font> |
-| documentCategorie | AN80 | <font color="#610e6a">Typering van de aard van DOCUMENTen van dit DOCUMENTTYPE.</font> |
-| documenttypeTrefwoord | AN30 | <font color="#610e6a">Trefwoord(en) waarmee DOCUMENTen van het DOCUMENTTYPE kunnen worden gekarakteriseerd.</font> |
 | datumBeginGeldigheidDocumenttype | OnvolledigeDatum | <font color="#610e6a">De datum waarop het DOCUMENTTYPE is ontstaan.</font> |
 | datumEindeGeldigheidDocumenttype | OnvolledigeDatum | <font color="#610e6a">De datum waarop het DOCUMENTTYPE is opgeheven.</font> |
+| documentCategorie | AN80 | <font color="#610e6a">Typering van de aard van DOCUMENTen van dit DOCUMENTTYPE.</font> |
+| documenttypeOmschrijving | AN80 | <font color="#610e6a">Omschrijving van de aard van DOCUMENTen van dit DOCUMENTTYPE.</font> |
+| documenttypeOmschrijvingGeneriek | AN80 | <font color="#610e6a">Algemeen gehanteerde omschrijving van het DOCUMENTTYPE</font> |
+| documenttypeTrefwoord | AN30 | <font color="#610e6a">Trefwoord(en) waarmee DOCUMENTen van het DOCUMENTTYPE kunnen worden gekarakteriseerd.</font> |
 
 
 
@@ -481,13 +481,13 @@ Attributen van objecttype EnkelvoudigDocument
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| bestandsnaam | AN255 | <font color="#610e6a">De naam van het fysieke bestand waarin de documentinhoud is vastgelegd.</font> |
 | documentFormaat | AN10 | <font color="#610e6a">De digitale manifestatie van het ENKELVOUDIG DOCUMENT.</font> |
-| documentTaal | AN20 | <font color="#610e6a">Een taal van de intellectuele inhoud van het ENKELVOUDIG DOCUMENT</font> |
-| documentVersie | AN5 | <font color="#610e6a">Aanduiding van de bewerkingsfase van het ENKELVOUDIG DOCUMENT</font> |
-| documentStatus | AN20 | <font color="#610e6a">Aanduiding van de stand van zaken van een ENKELVOUDIG DOCUMENTDOCUMENT.</font> |
 | documentInhoud | Documentformaat | <font color="#610e6a">Datgene wat in een ENKELVOUDIG DOCUMENT wordt meegedeeld.</font> |
 | documentLink | AN200 | <font color="#610e6a">De URL waarmee de documentinhoud op te vragen is.</font> |
-| bestandsnaam | AN255 | <font color="#610e6a">De naam van het fysieke bestand waarin de documentinhoud is vastgelegd.</font> |
+| documentStatus | AN20 | <font color="#610e6a">Aanduiding van de stand van zaken van een ENKELVOUDIG DOCUMENTDOCUMENT.</font> |
+| documentTaal | AN20 | <font color="#610e6a">Een taal van de intellectuele inhoud van het ENKELVOUDIG DOCUMENT</font> |
+| documentVersie | AN5 | <font color="#610e6a">Aanduiding van de bewerkingsfase van het ENKELVOUDIG DOCUMENT</font> |
 
 
 
@@ -524,11 +524,11 @@ Attributen van objecttype Heffing
 | :--- | :--- | :--- |
 | bedrag | bedrag |  |
 | code | AN80 |  |
-| inrekening | bedrag |  |
-| gefactureerd | boolean |  |
-| runnummer | int |  |
 | datumIndiening | datum |  |
+| gefactureerd | boolean |  |
+| inrekening | bedrag |  |
 | nummer | int |  |
+| runnummer | int |  |
 
 
 
@@ -599,12 +599,12 @@ Attributen van objecttype Klantcontact
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | eindtijd | Datetime | Werkelijke eindtijd van het klantcontact. Het moment dat de conversatie ten einde is.<br>Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk |
+| kanaal | AN20 |  |
+| notitie | text |  |
 | starttijd | Datetime | Werkelijke starttijd van het klantcontact, dus het moment dat klant en medewerker van de gemeente elkaar spreken.<br>Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk |
 | tijdsduur | int | Werkelijke tijdsduur in seconden |
-| wachttijdTotaal | int | De totale wachttijd voor de starttijd van het klantcontact. Dit inclusief eventueel te vroeg verschijnen op een afspraak |
-| kanaal | AN20 |  |
 | toelichting | text |  |
-| notitie | text |  |
+| wachttijdTotaal | int | De totale wachttijd voor de starttijd van het klantcontact. Dit inclusief eventueel te vroeg verschijnen op een afspraak |
 
 
 
@@ -639,19 +639,19 @@ Attributen van objecttype Medewerker
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| medewerkerIdentificatie | AN24 | <font color="#610e6a">Een korte unieke aanduiding van de medewerker.</font> |
 | achternaam | AN200 | <font color="#610e6a">De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt.</font> |
+| datumInDienst | Date |  |
 | datumUitDienst |  | <font color="#610e6a">Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt.</font> |
 | emailadres | AN254 | <font color="#610e6a">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font> |
+| extern |  | Medewerker is een externe? |
 | functie | AN50 | <font color="#610e6a">De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie.</font> |
 | geslachtsaanduiding | A1 | <font color="#610e6a">Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is.</font> |
+| medewerkerIdentificatie | AN24 | <font color="#610e6a">Een korte unieke aanduiding van de medewerker.</font> |
 | medewerkerToelichting | AN1000 | <font color="#610e6a">Toelichting bij en/of over de medewerker.</font> |
 | roepnaam | AN30 | <font color="#610e6a">Naam waarmee de werknemer wordt aangesproken.</font> |
 | telefoonnummer | AN20 | <font color="#610e6a">Telefoonnummer waaronder de medewerker in de regel bereikbaar is.</font> |
 | voorletters | AN20 | <font color="#610e6a">De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen.</font> |
 | voorvoegselAchternaam | AN10 | <font color="#610e6a">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font><br><font color="#610e6a">gescheiden.</font> |
-| extern |  | Medewerker is een externe? |
-| datumInDienst | Date |  |
 | organisatorische eenheid | Class: "OrganisatorischeEenheid" |  |
 | organisatorische eenheid | Class: "OrganisatorischeEenheid" |  |
 
@@ -688,16 +688,16 @@ Attributen van objecttype Object
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatie | AN50 | <font color="#610e6a">De unieke identificatie van het OBJECT</font> |
-| objecttype | AN3 | <font color="#610e6a">Het onderscheid van een OBJECT naar haar specialisatiies.</font><br><font color="#610e6a">De code voor de Objecttypering gevolgd door de unieke aanduiding van de specialisatie (van OBJECT):</font><br><font color="#610e6a">ADRESSEERBAAR OBJECT AANDUIDING, BENOEMD OBJECT, BESLUIT, BUURT, ENKELVOUDIG INFORMATIEOBJECT, GEMEENTE, GEMEENTELIJKE OPENBARE RUIMTE, HUISHOUDEN, INRICHTINGSELEMENT, KADASTRALE ONROERENDE ZAAK, KUNSTWERKDEEL, MAATSSCHAPPELIJKE ACTIVITEIT, MEDEWERKER, OPENBARE RUIMTE, SAMENGESTELD INFORMATIEOBJECT, ORGANISATORISCHE EENHEID, PAND, SPOORBAANDEEL, STATUS, SUBJECT, TERREINDEEL, WATERDEEL, WEGDEEL, WIJK, WOONPLAATS, WOZ- DEELOBJECT, WOZ-OBJECT, WOZ-WAARDE of</font><br><font color="#610e6a">ZAKELIJK RECHT (of afleidbare identificatie).</font> |
-| naam | AN200 | <font color="#610e6a">De benaming van het OBJECT indien dit een SUBJECT of specialisatie daarvan is.</font> |
 | adresBinnenland |  | <font color="#610e6a">De aanduiding van het adres van het OBJECT indien dit adres in Nederland gelegen is.</font> |
 | adresBuitenland |  | <font color="#610e6a">De aanduiding van het adres waar specialisaties van het OBJECT zijnde een SUBJECT dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland.</font> |
-| kadastraleAanduiding | AN30 | <font color="#610e6a">De kadastrale aanduiding van het OBJECT</font> |
-| geometrie | GML | <font color="#610e6a">De minimaal tweedimensionale geometrische representatie van het OBJECT.</font> |
-| toelichting |  |  |
 | domein | AN200 | Het toepassingsgebied of de sector DOMEIN waarbinnen handhaving op het object plaatsvindt |
+| geometrie | GML | <font color="#610e6a">De minimaal tweedimensionale geometrische representatie van het OBJECT.</font> |
+| identificatie | AN50 | <font color="#610e6a">De unieke identificatie van het OBJECT</font> |
 | indicatieRisico |  | Indicatie van de risico's van (de uitvoering van activiteiten in) het handhavingsobject op gevolgen voor het handhavingsobject zelf, de daarin aanwezige personen, de omgeving van het handhavingsobject en/of de samenleving. |
+| kadastraleAanduiding | AN30 | <font color="#610e6a">De kadastrale aanduiding van het OBJECT</font> |
+| naam | AN200 | <font color="#610e6a">De benaming van het OBJECT indien dit een SUBJECT of specialisatie daarvan is.</font> |
+| objecttype | AN3 | <font color="#610e6a">Het onderscheid van een OBJECT naar haar specialisatiies.</font><br><font color="#610e6a">De code voor de Objecttypering gevolgd door de unieke aanduiding van de specialisatie (van OBJECT):</font><br><font color="#610e6a">ADRESSEERBAAR OBJECT AANDUIDING, BENOEMD OBJECT, BESLUIT, BUURT, ENKELVOUDIG INFORMATIEOBJECT, GEMEENTE, GEMEENTELIJKE OPENBARE RUIMTE, HUISHOUDEN, INRICHTINGSELEMENT, KADASTRALE ONROERENDE ZAAK, KUNSTWERKDEEL, MAATSSCHAPPELIJKE ACTIVITEIT, MEDEWERKER, OPENBARE RUIMTE, SAMENGESTELD INFORMATIEOBJECT, ORGANISATORISCHE EENHEID, PAND, SPOORBAANDEEL, STATUS, SUBJECT, TERREINDEEL, WATERDEEL, WEGDEEL, WIJK, WOONPLAATS, WOZ- DEELOBJECT, WOZ-OBJECT, WOZ-WAARDE of</font><br><font color="#610e6a">ZAKELIJK RECHT (of afleidbare identificatie).</font> |
+| toelichting |  |  |
 | huishouden | Class: "Huishouden" |  |
 | besluit | Class: "Besluit" |  |
 
@@ -768,17 +768,17 @@ Attributen van objecttype OrganisatorischeEenheid
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| organisatieIdentificatie | AN24 | <font color="#610e6a">Een korte identificatie van de organisatorische eenheid.</font> |
 | datumOntstaan |  | <font color="#610e6a">De datum waarop de organisatorische eenheid is ontstaan.</font> |
 | datumOpheffing |  | <font color="#610e6a">De datum waarop de organisatorische eenheid is opgeheven.</font> |
 | emailadres | AN254 | <font color="#610e6a">Elektronisch postadres waaronder de organisatorische eenheid in de regel bereikbaar is.</font> |
 | faxnummer | AN20 | <font color="#610e6a">Faxnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font> |
+| Formatie |  |  |
 | naam | AN50 | <font color="#610e6a">De feitelijke naam van de organisatorische eenheid.</font> |
 | naamVerkort | AN25 | <font color="#610e6a">Een verkorte naam voor de organisatorische eenheid.</font> |
 | omschrijving | AN80 | <font color="#610e6a">Een omschrijving van de organisatorische eenheid.</font> |
+| organisatieIdentificatie | AN24 | <font color="#610e6a">Een korte identificatie van de organisatorische eenheid.</font> |
 | telefoonnummer | AN20 | <font color="#610e6a">Telefoonnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font> |
 | toelichting | AN1000 | <font color="#610e6a">Toelichting bij de organisatorische eenheid.</font> |
-| Formatie |  |  |
 | vestiging | Class: "VestigingVanZaakbehandelendeOrganisatie" |  |
 | zaaktype | Class: "Zaaktype" |  |
 
@@ -851,8 +851,8 @@ Attributen van objecttype Status
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datumStatusGezet |  | <font color="#610e6a">De datum waarop de zaak de status heeft verkregen.</font> |
-| statustoelichting | AN1000 | <font color="#610e6a">Een, voor de initiator van de zaak relevante, toelichting op de status van een zaak.</font> |
 | indicatieIaatstGezetteStatus | AN1 | <font color="#610e6a">Aanduding of het de laatst bekende bereikte status betreft.</font> |
+| statustoelichting | AN1000 | <font color="#610e6a">Een, voor de initiator van de zaak relevante, toelichting op de status van een zaak.</font> |
 | type | Class: "Statustype" |  |
 
 
@@ -888,12 +888,12 @@ Attributen van objecttype Statustype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| statustypeOmschrijving | AN80 | <font color="#610e6a">Een korte, voor de initiator van de zaak relevante, omschrijving van de aard van de STATUS van zaken van een ZAAKTYPE.</font> |
-| statustypeVolgnummer | N4 | <font color="#610e6a">Een volgnummer voor de status binnen een zaak.</font> |
-| doorlooptijdStatus | N3 | <font color="#610e6a">De door de zaakbehandelende organisatie(s) gestelde norm voor de doorlooptijd voor het bereiken van STATUSsen van dit STATUSTYPE bij het desbetreffende ZAAKTYPE.</font> |
-| statustypeOmschrijvingGeneriek | AN80 | <font color="#610e6a">Algemeen gehanteerde omschrijving van de aard van STATUSsen van het STATUSTYPE</font> |
 | datumBeginGeldigheidStatustype | OnvolledigeDatum | <font color="#610e6a">De datum waarop het STATUSTYPE is ontstaan.</font> |
 | datumEindeGeldigheidStatustype | OnvolledigeDatum | <font color="#610e6a">De datum waarop het STATUSTYPE is opgeheven.</font> |
+| doorlooptijdStatus | N3 | <font color="#610e6a">De door de zaakbehandelende organisatie(s) gestelde norm voor de doorlooptijd voor het bereiken van STATUSsen van dit STATUSTYPE bij het desbetreffende ZAAKTYPE.</font> |
+| statustypeOmschrijving | AN80 | <font color="#610e6a">Een korte, voor de initiator van de zaak relevante, omschrijving van de aard van de STATUS van zaken van een ZAAKTYPE.</font> |
+| statustypeOmschrijvingGeneriek | AN80 | <font color="#610e6a">Algemeen gehanteerde omschrijving van de aard van STATUSsen van het STATUSTYPE</font> |
+| statustypeVolgnummer | N4 | <font color="#610e6a">Een volgnummer voor de status binnen een zaak.</font> |
 
 
 
@@ -962,30 +962,30 @@ Attributen van objecttype Zaak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| document |  |  |
-| zaakidentificatie | AN40 | <font color="#610e6a">Een identificatie van de zaak.</font> |
+| archiefnominatie | AN1 | <font color="#610e6a">Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden</font> |
 | datumEinde |  | <font color="#610e6a">De datum waarop de uitvoering van de zaak afgerond is.</font> |
 | datumEindeGepland |  | <font color="#610e6a">De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt.</font> |
+| datumEindeUiterlijkeAfdoening |  | <font color="#610e6a">De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn.</font> |
+| datumLaatsteBetaling |  | <font color="#610e6a">De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak.</font> |
+| datumPublicatie | datum | <font color="#610e6a">Datum waarop (het starten van) de zaak gepubliceerd is of wordt.</font> |
+| datumRegistratie |  | <font color="#610e6a">De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd</font> |
+| datumStart |  | <font color="#610e6a">De datum waarop met de uitvoering van de zaak is gestart.</font> |
+| datumVernietigingDossier |  | <font color="#610e6a">De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden.</font> |
+| document |  |  |
+| duurVerlenging | N3 |  |
+| indicatieBetaling | AN12 | <font color="#610e6a">Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene.</font> |
+| indicatieDeelzaken | A1 | <font color="#610e6a">De aanduiding of een ZAAK behandeld wordt in deelzaken.</font> |
+| indicatieOpschorting | AN1 |  |
+| leges | AN100 |  |
 | omschrijving | AN80 | <font color="#610e6a">Een korte omschrijving van de zaak.</font> |
 | omschrijvingResultaat | AN80 | <font color="#610e6a">Een korte omschrijving wat het resultaat van de zaak inhoudt.</font> |
-| toelichtingResultaat | AN1000 | <font color="#610e6a">Een toelichting op wat het resultaat van de zaak inhoudt.</font> |
-| datumStart |  | <font color="#610e6a">De datum waarop met de uitvoering van de zaak is gestart.</font> |
-| toelichting | AN1000 | <font color="#610e6a">Een toelichting op de zaak.</font> |
-| datumEindeUiterlijkeAfdoening |  | <font color="#610e6a">De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn.</font> |
-| zaakniveau | N1 | <font color="#610e6a">Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken.</font> |
-| indicatieDeelzaken | A1 | <font color="#610e6a">De aanduiding of een ZAAK behandeld wordt in deelzaken.</font> |
-| datumRegistratie |  | <font color="#610e6a">De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd</font> |
-| datumPublicatie | datum | <font color="#610e6a">Datum waarop (het starten van) de zaak gepubliceerd is of wordt.</font> |
-| archiefnominatie | AN1 | <font color="#610e6a">Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden</font> |
-| datumVernietigingDossier |  | <font color="#610e6a">De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden.</font> |
-| indicatieBetaling | AN12 | <font color="#610e6a">Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene.</font> |
-| datumLaatsteBetaling |  | <font color="#610e6a">De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak.</font> |
-| indicatieOpschorting | AN1 |  |
-| duurVerlenging | N3 |  |
 | redenOpschorting | AN200 |  |
 | redenVerlenging | AN200 |  |
+| toelichting | AN1000 | <font color="#610e6a">Een toelichting op de zaak.</font> |
+| toelichtingResultaat | AN1000 | <font color="#610e6a">Een toelichting op wat het resultaat van de zaak inhoudt.</font> |
 | vertrouwelijkheid | AN40 |  |
-| leges | AN100 |  |
+| zaakidentificatie | AN40 | <font color="#610e6a">Een identificatie van de zaak.</font> |
+| zaakniveau | N1 | <font color="#610e6a">Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken.</font> |
 | type | Class: "Zaaktype" |  |
 | status | Class: "Status" |  |
 
@@ -1022,27 +1022,27 @@ Attributen van objecttype ZAAK - Origineel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| zaakidentificatie | AN40 | <font color="#610e6a">Een identificatie van de zaak.</font> |
+| anderZaakobject |  |  |
+| archiefnominatie | AN1 | <font color="#610e6a">Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden</font> |
 | datumEinde |  | <font color="#610e6a">De datum waarop de uitvoering van de zaak afgerond is.</font> |
 | datumEindeGepland |  | <font color="#610e6a">De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt.</font> |
-| omschrijving | AN80 | <font color="#610e6a">Een korte omschrijving van de zaak.</font> |
-| kenmerk |  |  |
-| omschrijvingResultaat | AN80 | <font color="#610e6a">Een korte omschrijving wat het resultaat van de zaak inhoudt.</font> |
-| toelichtingResultaat | AN1000 | <font color="#610e6a">Een toelichting op wat het resultaat van de zaak inhoudt.</font> |
-| datumStart |  | <font color="#610e6a">De datum waarop met de uitvoering van de zaak is gestart.</font> |
-| toelichting | AN1000 | <font color="#610e6a">Een toelichting op de zaak.</font> |
 | datumEindeUiterlijkeAfdoening |  | <font color="#610e6a">De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn.</font> |
-| zaakniveau | N1 | <font color="#610e6a">Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken.</font> |
-| indicatieDeelzaken | A1 | <font color="#610e6a">De aanduiding of een ZAAK behandeld wordt in deelzaken.</font> |
-| datumRegistratie |  | <font color="#610e6a">De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd</font> |
+| datumLaatsteBetaling |  | <font color="#610e6a">De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak.</font> |
 | datumPublicatie | datum | <font color="#610e6a">Datum waarop (het starten van) de zaak gepubliceerd is of wordt.</font> |
-| archiefnominatie | AN1 | <font color="#610e6a">Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden</font> |
+| datumRegistratie |  | <font color="#610e6a">De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd</font> |
+| datumStart |  | <font color="#610e6a">De datum waarop met de uitvoering van de zaak is gestart.</font> |
 | datumVernietigingDossier |  | <font color="#610e6a">De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden.</font> |
 | indicatieBetaling | AN12 | <font color="#610e6a">Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene.</font> |
-| datumLaatsteBetaling |  | <font color="#610e6a">De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak.</font> |
+| indicatieDeelzaken | A1 | <font color="#610e6a">De aanduiding of een ZAAK behandeld wordt in deelzaken.</font> |
+| kenmerk |  |  |
+| omschrijving | AN80 | <font color="#610e6a">Een korte omschrijving van de zaak.</font> |
+| omschrijvingResultaat | AN80 | <font color="#610e6a">Een korte omschrijving wat het resultaat van de zaak inhoudt.</font> |
 | opschorting |  |  |
+| toelichting | AN1000 | <font color="#610e6a">Een toelichting op de zaak.</font> |
+| toelichtingResultaat | AN1000 | <font color="#610e6a">Een toelichting op wat het resultaat van de zaak inhoudt.</font> |
 | verlenging |  |  |
-| anderZaakobject |  |  |
+| zaakidentificatie | AN40 | <font color="#610e6a">Een identificatie van de zaak.</font> |
+| zaakniveau | N1 | <font color="#610e6a">Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken.</font> |
 
 
 
@@ -1077,18 +1077,18 @@ Attributen van objecttype Zaaktype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| zaaktypeOmschrijving | AN80 | <font color="#610e6a">Omschrijving van de aard van ZAAKen van het ZAAKTYPE.</font> |
-| zaaktypeOmschrijvingGeneriek | AN80 | <font color="#610e6a">Algemeen gehanteerde omschrijving van de aard van ZAAKen van het ZAAKTYPE</font> |
-| trefwoord | AN30 | <font color="#610e6a">Een trefwoord waarmee ZAAKen van het ZAAKTYPE kunnen worden gekarakteriseerd.</font> |
-| doorlooptijdBehandeling | N3 | <font color="#610e6a">De periode waarbinnen volgens wet- en regelgeving een ZAAk van het ZAAKTYPE afgerond dient te zijn.</font> |
-| servicenormBehandeling | N3 | <font color="#610e6a">De periode waarbinnen verwacht wordt dat een ZAAk van het ZAAKTYPE afgerond wordt coform de geldende servicenormen van de zaakbehandelende organisatie(s).</font> |
 | archiefcode | AN20 | <font color="#610e6a">De systematische identificatie van zaakdossiers van dit ZAAKTYPE overeenkomstig logisch gestructureerde conventies, methoden en procedureregels.</font> |
-| vertrouwelijkAanduiding | AN20 | <font color="#610e6a">Aanduiding van de mate waarin zaakdossiers van ZAAKen van dit ZAAKTYPE voor de openbaarheid bestemd zijn.</font> |
-| indicatiePublicatie | AN1 | <font color="#610e6a">Aanduiding of (het starten van) een ZAAK van dit ZAAKTYPE gepubliceerd moet worden.</font> |
-| zaakcategorie | AN40 | <font color="#610e6a">Typering van de aard van ZAAKen van het ZAAKTYPE.</font> |
-| publicatietekst | AN1000 | <font color="#610e6a">De generieke tekst van de publicatie van ZAAKen van dit ZAAKTYPE</font> |
 | datumBeginGeldigheidZaaktype | OnvolledigeDatum | <font color="#610e6a">De datum waarop het ZAAKTYPE is ontstaan.</font> |
 | datumEindeGeldigheidZaaktype | OnvolledigeDatum | <font color="#610e6a">De datum waarop het ZAAKTYPE is opgeheven.</font> |
+| doorlooptijdBehandeling | N3 | <font color="#610e6a">De periode waarbinnen volgens wet- en regelgeving een ZAAk van het ZAAKTYPE afgerond dient te zijn.</font> |
+| indicatiePublicatie | AN1 | <font color="#610e6a">Aanduiding of (het starten van) een ZAAK van dit ZAAKTYPE gepubliceerd moet worden.</font> |
+| publicatietekst | AN1000 | <font color="#610e6a">De generieke tekst van de publicatie van ZAAKen van dit ZAAKTYPE</font> |
+| servicenormBehandeling | N3 | <font color="#610e6a">De periode waarbinnen verwacht wordt dat een ZAAk van het ZAAKTYPE afgerond wordt coform de geldende servicenormen van de zaakbehandelende organisatie(s).</font> |
+| trefwoord | AN30 | <font color="#610e6a">Een trefwoord waarmee ZAAKen van het ZAAKTYPE kunnen worden gekarakteriseerd.</font> |
+| vertrouwelijkAanduiding | AN20 | <font color="#610e6a">Aanduiding van de mate waarin zaakdossiers van ZAAKen van dit ZAAKTYPE voor de openbaarheid bestemd zijn.</font> |
+| zaakcategorie | AN40 | <font color="#610e6a">Typering van de aard van ZAAKen van het ZAAKTYPE.</font> |
+| zaaktypeOmschrijving | AN80 | <font color="#610e6a">Omschrijving van de aard van ZAAKen van het ZAAKTYPE.</font> |
+| zaaktypeOmschrijvingGeneriek | AN80 | <font color="#610e6a">Algemeen gehanteerde omschrijving van de aard van ZAAKen van het ZAAKTYPE</font> |
 | statustype | Class: "Statustype" |  |
 
 
@@ -1124,7 +1124,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_5a9013fb_602d_4c80_b046_a0ccc9f79de0 |
+    | id | EAID_2dede97a_8cc8_4788_99cb_f62b8e067c63 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1158,7 +1158,7 @@ De enumeratie Heffingsoort heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2019-05-08 13:48:43 |
     | modified | 2025-07-22 16:28:36 |
-    | id | EAID_1aed58e6_c200_43c9_ae5c_cd750b024842 |
+    | id | EAID_2f693649_fe8e_4e1b_8c90_65c6dde0fad1 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1195,7 +1195,7 @@ De enumeratie Soorten Klantcontact heeft de volgende kenmerken:
     | version | 1.5 |
     | created | 2025-03-26 11:13:26 |
     | modified | 2025-03-26 16:14:51 |
-    | id | EAID_8b4898a7_d562_4bee_a57f_8cd8ce10d915 |
+    | id | EAID_add73f72_041b_4cd3_9d66_e4f52182c1dc |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

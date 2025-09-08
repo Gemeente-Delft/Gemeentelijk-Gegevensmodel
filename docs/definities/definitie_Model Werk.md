@@ -90,10 +90,10 @@ Attributen van objecttype Arbeidsmarktkwalificaties
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| KlantTypering | String |  |
 | Code taalbeheersing mondeling | Taalvaardigheid |  |
 | Code taalbeheersing schriftelijk | Taalvaardigheid |  |
 | Code werk en denkniveau | Taalvaardigheid |  |
+| KlantTypering | String |  |
 | ToelichtingArbeidsmarktKwalificaties | String |  |
 
 
@@ -129,14 +129,14 @@ Attributen van objecttype Arbeidsperiode
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Contact email | string |  |
+| Contact persoon | string |  |
+| Contact telefoon | telefoonnummer |  |
 | Datum aanvang arbeidsperiode | date |  |
 | Datum einde arbeidsperiode | date |  |
-| Gemiddeld aantal uur per week | int |  |
 | Functienaam | string |  |
 | Functieomschrijving | string |  |
-| Contact persoon | string |  |
-| Contact email | string |  |
-| Contact telefoon | telefoonnummer |  |
+| Gemiddeld aantal uur per week | int |  |
 
 
 
@@ -243,11 +243,11 @@ Attributen van objecttype Bemiddelingsactiviteit
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | DatumBemiddeling | date |  |
-| OmschrijvingSoortContactbemiddeling | contactmoment |  |
-| OmschrijvingSatutsBemiddeling | String |  |
-| OmschrijvingResultaatBemiddeling | String |  |
 | DatumVerwijzingVacature | date |  |
 | IndicatiePlaatsing | bool |  |
+| OmschrijvingResultaatBemiddeling | String |  |
+| OmschrijvingSatutsBemiddeling | String |  |
+| OmschrijvingSoortContactbemiddeling | contactmoment |  |
 
 
 
@@ -318,11 +318,11 @@ Attributen van objecttype Bemiddelingstraject
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | DatumBemiddeling | date |  |
-| OmschrijvingContactbemiddeling | text |  |
-| OmschrijvingStatusbemiddeling | text |  |
-| OmschrijvingResultaatbemiddeling | text |  |
 | DatumVacature | date |  |
 | IndicatiePlaatsing | bool |  |
+| OmschrijvingContactbemiddeling | text |  |
+| OmschrijvingResultaatbemiddeling | text |  |
+| OmschrijvingStatusbemiddeling | text |  |
 
 
 
@@ -357,17 +357,17 @@ Attributen van objecttype BeschikbaarVoorArbeid
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| StartdatumBeschikbaarheid | date |  |
-| DagBeschikbaarheid | beschikbaarheid |  |
 | AantalUrenpwBeschikbaar | int |  |
-| Interval opzegtermijn | Enumeratie: "Interval opzegtermijn
-" |  |
-| WaardeOpzegtermijn | int |  |
-| StartdagBeschikbaarheid | date |  |
+| DagBeschikbaarheid | beschikbaarheid |  |
 | EinddatumBeschikbaarheid | date |  |
 | EindtijdDagBeschikbaarheid | dateTime |  |
-| ToelichtingBeschikbaarheid | String |  |
 | Indicatie nog werkzaam | bool |  |
+| Interval opzegtermijn | Enumeratie: "Interval opzegtermijn
+" |  |
+| StartdagBeschikbaarheid | date |  |
+| StartdatumBeschikbaarheid | date |  |
+| ToelichtingBeschikbaarheid | String |  |
+| WaardeOpzegtermijn | int |  |
 
 
 
@@ -402,8 +402,8 @@ Attributen van objecttype BeschikbaarVoorBemiddeling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| IndicatieDirectBemiddelbaar | bool |  |
 | DatumEinde | date |  |
+| IndicatieDirectBemiddelbaar | bool |  |
 
 
 
@@ -474,10 +474,10 @@ Attributen van objecttype Doelgroepenregister
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| IndicatieDoelgroepenRegister | Enumeratie: "Indicatie doelgroepenregister
-" |  |
 | AdviesUWV |  |  |
 | Baanafspraak | Enumeratie: "SoortWerk" |  |
+| IndicatieDoelgroepenRegister | Enumeratie: "Indicatie doelgroepenregister
+" |  |
 
 
 
@@ -547,11 +547,11 @@ Attributen van objecttype Flexibliteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| IngeschrevenbijUitzendbureau | bool |  |
+| IndicatieBereidheidOnregelmatigWerk | bool |  |
 | IndicatieBereidheidZoekenBuitenBeroepswens | bool |  |
 | IndicatieBereidheidZoekenOnderNiveau | bool |  |
 | IndicatieBereidheidZwaarWerk | bool |  |
-| IndicatieBereidheidOnregelmatigWerk | bool |  |
+| IngeschrevenbijUitzendbureau | bool |  |
 
 
 
@@ -621,10 +621,10 @@ Attributen van objecttype Mobiliteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| CodeVervoermiddel | Vervoersmogelijkheden |  |
 | IndicatieBereidheidVerhuizen | bool |  |
 | MaximaleReistijd | int |  |
 | ToelichtingMaximaleReistijd | string |  |
-| CodeVervoermiddel | Vervoersmogelijkheden |  |
 | ToelichtingVervoermiddel | string |  |
 
 
@@ -660,21 +660,21 @@ Attributen van objecttype Ontheffing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| RedenAanvraag | String |  |
 | AanvraagdatumOntheffing | Date |  |
-| Ontheffingsbesluit | document |  |
-| MotivatieOntheffingsbesluit | document |  |
-| SoortOntheffing | ontheffing |  |
-| IngangsdatumOntheffing | Date |  |
-| EinddatumOntheffing | Date |  |
-| ResultaatInstrumentbeoordeling | document |  |
-| OntheffenVerplichtingen | Ontheffingsverplichting |  |
-| VersieNummerAanvraag | int |  |
 | BijlagenBijAanvraag |  |  |
-| BijlagenBijOntheffingsbesluit |  |  |
-| HerzieningsdatumOntheffing | date |  |
-| MotivatieHerzieningsbesluit |  |  |
 | BijlagenBijHerzieningsbesluit |  |  |
+| BijlagenBijOntheffingsbesluit |  |  |
+| EinddatumOntheffing | Date |  |
+| HerzieningsdatumOntheffing | date |  |
+| IngangsdatumOntheffing | Date |  |
+| MotivatieHerzieningsbesluit |  |  |
+| MotivatieOntheffingsbesluit | document |  |
+| OntheffenVerplichtingen | Ontheffingsverplichting |  |
+| Ontheffingsbesluit | document |  |
+| RedenAanvraag | String |  |
+| ResultaatInstrumentbeoordeling | document |  |
+| SoortOntheffing | ontheffing |  |
+| VersieNummerAanvraag | int |  |
 
 
 
@@ -709,21 +709,21 @@ Attributen van objecttype Opleiding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Opleidingstype | Opleidingstype |  |
-| Instituutnaam | short |  |
-| DatumAanvang | date |  |
-| DatumEinde | date |  |
-| CodeStatusOpleiding | StatusOpleiding |  |
-| IndicatieDiploma | Bool |  |
-| DatumDiploma | date |  |
-| CodeNiveauOpleiding | CodeNiveauOpleiding |  |
-| Opleidingsrichting | Opleidingsrichting |  |
-| CodeLeerwegMBO | CodeLeerwegMBO |  |
 | AantalJarenOpleiding | int |  |
+| CodeLeerwegMBO | CodeLeerwegMBO |  |
+| CodeNiveauOpleiding | CodeNiveauOpleiding |  |
+| CodeStatusOpleiding | StatusOpleiding |  |
 | CodeTijdsBeslagOpleiding | opleiding |  |
-| IndicatieDeeltijdopleiding | Bool |  |
-| ToelichtingBeeindigenOpleiding | string |  |
+| DatumAanvang | date |  |
+| DatumDiploma | date |  |
+| DatumEinde | date |  |
 | Indicatiebuitenlandseopleiding | bool |  |
+| IndicatieDeeltijdopleiding | Bool |  |
+| IndicatieDiploma | Bool |  |
+| Instituutnaam | short |  |
+| Opleidingsrichting | Opleidingsrichting |  |
+| Opleidingstype | Opleidingstype |  |
+| ToelichtingBeeindigenOpleiding | string |  |
 | ToelichtingOpleiding | string |  |
 
 
@@ -795,9 +795,9 @@ Attributen van objecttype OpleidingsnaamGecodeerd
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | CodeOpleidingsnaam | Enumeratie: "CodeOpleidingsnaam" |  |
-| OmschrijvingOpleidingsnaam | string |  |
 | CodeSoortOpleidingsnaam | CodeSoortOpleidingsnaam |  |
 | IndicatieOpleidingsnaamActief | bool |  |
+| OmschrijvingOpleidingsnaam | string |  |
 
 
 
@@ -902,17 +902,17 @@ Attributen van objecttype Reintegratievoorziening
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| RegistratienummerReintegratievoorziening | int |  |
-| DatumStartVoorlopigeToekenning | date |  |
-| DatumStart | date |  |
-| DatumVerwachtEinde | date |  |
+| CodeType | int |  |
 | DatumEinde | date |  |
+| DatumEindeVerlengdeBeslistermijn | date |  |
 | DatumIngebruikname | date |  |
 | DatumInname | date |  |
-| DatumEindeVerlengdeBeslistermijn | date |  |
-| CodeType | int |  |
+| DatumStart | date |  |
+| DatumStartVoorlopigeToekenning | date |  |
+| DatumVerwachtEinde | date |  |
 | Omschrijving | string |  |
 | OmschrijvingType | string |  |
+| RegistratienummerReintegratievoorziening | int |  |
 | ToelichtingOmschrijving | string |  |
 
 
@@ -948,14 +948,14 @@ Attributen van objecttype Rijbewijs /Certificaat
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| CodeSoortRijbewijs |  |  |
-| NummerCertificaat | RegEx |  |
-| NaamCertificaat | enum |  |
-| GeldigVanaf | date |  |
-| GeldigTot | date |  |
-| VerstrekkendePartij | Enum |  |
 | Beschrijving | string |  |
+| CodeSoortRijbewijs |  |  |
+| GeldigTot | date |  |
+| GeldigVanaf | date |  |
 | IndicatieGeldigheidRijbewijs | Bool |  |
+| NaamCertificaat | enum |  |
+| NummerCertificaat | RegEx |  |
+| VerstrekkendePartij | Enum |  |
 
 
 
@@ -990,15 +990,15 @@ Attributen van objecttype Taalbeheersing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Taalcode | ìnt |  |
-| Taalnaam | string |  |
-| Moedertaal | Bool |  |
 | Leesvaardigheid | Enumeratie: "Taalvaardigheid
 " |  |
+| Moedertaal | Bool |  |
 | Schrijfvaardigheid | Enumeratie: "Taalvaardigheid
 " |  |
 | Spreekvaardigheid | Enumeratie: "Taalvaardigheid
 " |  |
+| Taalcode | ìnt |  |
+| Taalnaam | string |  |
 
 
 
@@ -1033,12 +1033,12 @@ Attributen van objecttype TaalbeheersingNederlands
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| OntheffingTaaleis | Bool |  |
-| SpreeksvaardigheidNederlands | Taalvaardigheid |  |
-| LuistervaardigheidNederlands | Taalvaardigheid |  |
-| LeesvaardigheidNederlands | Taalvaardigheid |  |
-| SchrijfvaardigheidNederlands | Taalvaardigheid |  |
 | GespreksvaardigheidNederlands | Taalvaardigheid |  |
+| LeesvaardigheidNederlands | Taalvaardigheid |  |
+| LuistervaardigheidNederlands | Taalvaardigheid |  |
+| OntheffingTaaleis | Bool |  |
+| SchrijfvaardigheidNederlands | Taalvaardigheid |  |
+| SpreeksvaardigheidNederlands | Taalvaardigheid |  |
 
 
 
@@ -1109,16 +1109,16 @@ Attributen van objecttype Voorkeur
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| BezitPersoonlijkeOVkaart | bool |  |
 | BrancheCode | int |  |
 | BrancheNaam | string |  |
+| GegevensWerklocatie |  |  |
+| NummerOVK | int |  |
 | SoortBaan | Enumeratie: "SETU job category" |  |
 | SoortWerk | enum |  |
-| GegevensWerklocatie |  |  |
-| Vervoermiddel | Enumeratie: "Vervoermiddel" |  |
 | ToelichtingVervoersmiddel | string |  |
-| BezitPersoonlijkeOVkaart | bool |  |
-| NummerOVK | int |  |
 | VerloopdatumOVK | date |  |
+| Vervoermiddel | Enumeratie: "Vervoermiddel" |  |
 
 
 
@@ -1153,11 +1153,11 @@ Attributen van objecttype VrijstellingArbeidsplicht
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| IndicatieVrijstelling | bool |  |
-| CodeVrijstelling | Int |  |
-| DatumStart | date |  |
-| DatumEinde | date |  |
 | CodeRedenVrijheidstelling | int |  |
+| CodeVrijstelling | Int |  |
+| DatumEinde | date |  |
+| DatumStart | date |  |
+| IndicatieVrijstelling | bool |  |
 
 
 
@@ -1228,15 +1228,15 @@ Attributen van objecttype Werkzaamheden als mantelzorger
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Mantelzorgverkalring verstrekt | bool |  |
-| Mantelzorgovereenkomst afgesloten | bool |  |
-| Hulp bij medicatie | bool |  |
-| Toezicht houden | bool |  |
-| Verzorgde actviteiten | bool |  |
-| Vervoer en begeleiding | bool |  |
 | Andere mantelzorgtaken | bool |  |
-| Te bespreken mantelzorgtaken | string |  |
+| Hulp bij medicatie | bool |  |
+| Mantelzorgovereenkomst afgesloten | bool |  |
+| Mantelzorgverkalring verstrekt | bool |  |
 | Omschrijving andere mantelzorgtaken | string |  |
+| Te bespreken mantelzorgtaken | string |  |
+| Toezicht houden | bool |  |
+| Vervoer en begeleiding | bool |  |
+| Verzorgde actviteiten | bool |  |
 
 
 
@@ -1271,16 +1271,16 @@ Attributen van objecttype Werkzaamheden anders dan in arbeidsverhouding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Aantal uren werkzaamheden gemiddeld per week | int |  |
+| Bedrag netto inkomsten uit Wadia | int |  |
 | Code maatschappelijke context | Enumeratie: "Code maatschappelijke context werkzaamheden anders dan in arbeidsverhouding
 " |  |
-| Omschrijving werkzaamheden | string |  |
 | Datum aanvang werkzaamheden | date |  |
 | Datum einde werkzaamheden | date |  |
-| Omschrijving reden einde werkzaamheden | string |  |
-| Aantal uren werkzaamheden gemiddeld per week | int |  |
 | Functienaam | string |  |
 | Naam persoon of organisatie bij wie of waar | string |  |
-| Bedrag netto inkomsten uit Wadia | int |  |
+| Omschrijving reden einde werkzaamheden | string |  |
+| Omschrijving werkzaamheden | string |  |
 
 
 
@@ -1351,12 +1351,12 @@ Attributen van objecttype ZelfredzaamheidScore
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Domein van Zelfredzaamheid | zelfredzaamheid |  |
-| ZRM score | score |  |
 | DatumBeoordeling | Date |  |
-| KenmerkBeoordelaar | Name |  |
+| Domein van Zelfredzaamheid | zelfredzaamheid |  |
 | IndicatieHulpAanwezig | Boolean |  |
+| KenmerkBeoordelaar | Name |  |
 | Woongemeente |  |  |
+| ZRM score | score |  |
 
 
 

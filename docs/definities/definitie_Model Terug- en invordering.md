@@ -69,9 +69,9 @@ Het model 'Model Terug- en invordering' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:44:11 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_196161F4_8372_6334_AF08_263C236F7A38 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -103,9 +103,9 @@ Attributen van objecttype Aflossing
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:44:22 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_0F06241B_EBEF_4053_33E4_263C236F76FC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -137,9 +137,9 @@ Attributen van objecttype Aflossingsafspraak
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:44:34 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_234EB82E_9EC6_5904_2634_263C0A957ADF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -171,9 +171,9 @@ Attributen van objecttype Aflossingsplan
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:44:46 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_c0026057_03ab_4e5b_a021_aa9175c4078c |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -205,9 +205,9 @@ Attributen van objecttype Afschrijving
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:44:57 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1D10018E_888E_945B_4A20_293102BE4D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -239,9 +239,9 @@ Attributen van objecttype Betaalcomponent
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:45:08 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_173D0C11_3C5E_8344_BE5E_293122950DAC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -273,9 +273,9 @@ Attributen van objecttype Boetevordering
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:45:18 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1CE90960_888E_945B_4A20_28F9C71E4D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -307,9 +307,9 @@ Attributen van objecttype Conservatoir beslag
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:45:30 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1B73F18A_888E_945B_4A20_26E8FA774D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -341,9 +341,9 @@ Attributen van objecttype Correctie
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:27:56 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_107E216A_17F2_DFCA_EAFE_263C7FFC912E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -375,9 +375,9 @@ Attributen van objecttype Debiteur
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:45:48 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_a19a36c3_66e1_44c2_b674_6f3a3d98c5ea |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -409,9 +409,9 @@ Attributen van objecttype Incassokostenvordering
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:46:01 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1BCE2533_656D_D59B_6ECD_28FC06D8D601 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -443,9 +443,9 @@ Attributen van objecttype Interventie
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:46:12 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_0897E8F8_77FF_DE35_D40E_28FC069F6910 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -477,9 +477,9 @@ Attributen van objecttype Interventieverzoek
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:46:34 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_0A9D7FDF_4271_2DBE_58D2_28F9CE6C00A4 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -511,9 +511,9 @@ Attributen van objecttype Invorderingsbasis
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:46:45 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_d3335b08_9b4b_4e55_b507_0e1d481f1409 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -545,9 +545,9 @@ Attributen van objecttype Krediethypotheek
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:47:01 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_0238113B_1577_D45C_C5E9_293122B2568D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -579,9 +579,9 @@ Attributen van objecttype Krediethypotheekvordering
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:47:14 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1127D07A_473D_2912_29AE_2ABDF0E8A586 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -613,9 +613,9 @@ Attributen van objecttype Kwijtschelding
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:47:30 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_18090A2C_CED1_0A51_0DFD_294370D99076 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -647,9 +647,9 @@ Attributen van objecttype Leenbijstand
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:47:54 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_ed7f7a0f_bef9_4532_94ad_f36418629141 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -681,9 +681,9 @@ Attributen van objecttype Leenbijstandvordering
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:48:05 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1a6b9a31_c4c7_4b46_92ef_0dd7e31613ed |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -715,9 +715,9 @@ Attributen van objecttype Loonbeslagafspraak
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:48:15 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_0DF4970C_7D69_27D9_7976_263C0A6C41DC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -749,9 +749,9 @@ Attributen van objecttype Rechtmaand
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:48:29 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_170B4422_37F6_8893_2627_293122D74F28 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -783,9 +783,9 @@ Attributen van objecttype Rentevordering
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:48:41 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_167B47ED_CED1_0A51_0DFD_2698932A9076 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -817,9 +817,9 @@ Attributen van objecttype Restitutie
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:28:15 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_101157F7_7852_102E_7547_2698B55B6FF8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -851,9 +851,9 @@ Attributen van objecttype Terugvorderingsverzoek
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:48:57 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_74e47f85_a936_43c0_8ef2_1605bdb5efed |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -885,9 +885,9 @@ Attributen van objecttype Uitstel aflossing
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:49:08 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1A6E0A2E_9431_0F7A_1EAA_263C1D239DF6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -919,9 +919,9 @@ Attributen van objecttype Vermindering terugvordering
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:49:18 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1EA8771B_DB7F_17D8_8AB8_26A1BD8F6A56 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -953,9 +953,9 @@ Attributen van objecttype Verrekening
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:49:31 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_11F2FF40_D317_92C3_C4DB_2931225D4B40 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -987,9 +987,9 @@ Attributen van objecttype Verwijtbare vordering
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:49:42 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_14116EEA_C461_0DB2_97AB_263C0A4777FC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1021,9 +1021,9 @@ Attributen van objecttype Vordering
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:49:53 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1A979E6B_841E_392B_952F_29311D13BF9F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1066,10 +1066,10 @@ De enumeratie Verwerkingsstatus heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-27 10:22:49 |
-    | id | EAID_df6e023c_c093_43bd_b1f4_1b475b55160e |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID_aa94a782_9072_40f4_bdcf_4db5da7808f9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

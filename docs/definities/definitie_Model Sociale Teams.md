@@ -66,8 +66,8 @@ Attributen van objecttype Behandeling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumStart | date |  |
 | datumEinde | date |  |
+| datumStart | date |  |
 | toelichting | text |  |
 
 
@@ -316,11 +316,11 @@ Attributen van objecttype SociaalTeamDossier
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumStart | date |  |
-| omschrijving | text |  |
 | datumEinde | date |  |
-| status | AN20 |  |
+| datumStart | date |  |
 | datumVaststelling | int |  |
+| omschrijving | text |  |
+| status | AN20 |  |
 
 
 

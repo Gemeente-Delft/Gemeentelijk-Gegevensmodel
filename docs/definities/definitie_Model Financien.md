@@ -153,8 +153,8 @@ Attributen van objecttype Bankafschrift
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| nummer | N8 |  |
 | datum | date |  |
+| nummer | N8 |  |
 
 
 
@@ -227,8 +227,8 @@ Attributen van objecttype Bankrekening
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| nummer | AN14 |  |
 | bank | AN80 |  |
+| nummer | AN14 |  |
 | tennaamstelling | AN80 |  |
 
 
@@ -265,8 +265,8 @@ Attributen van objecttype Batch
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datum | date |  |
-| tijd | time |  |
 | nummer | N8 |  |
+| tijd | time |  |
 
 
 
@@ -302,10 +302,10 @@ Attributen van objecttype Batchregel
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | bedrag | Bedrag |  |
-| omschrijving | AN200 |  |
 | datumBetaling | Date |  |
-| rekeningVan | AN14 |  |
+| omschrijving | AN200 |  |
 | rekeningNaar | AN14 |  |
+| rekeningVan | AN14 |  |
 
 
 
@@ -341,8 +341,8 @@ Attributen van objecttype Begroting
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | naam | AN80 |  |
-| omschrijving | text |  |
 | nummer | AN20 |  |
+| omschrijving | text |  |
 
 
 
@@ -377,9 +377,9 @@ Attributen van objecttype Begrotingregel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| batenLasten | AN20 |  |
 | bedrag | Bedrag |  |
 | soortRegel | AN50 |  |
-| batenLasten | AN20 |  |
 
 
 
@@ -449,8 +449,8 @@ Attributen van objecttype Doelstelling
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | naam | AN80 |  |
-| omschrijving | text |  |
 | nummer | AN20 |  |
+| omschrijving | text |  |
 
 
 
@@ -485,13 +485,13 @@ Attributen van objecttype Factuur
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumFactuur | date |  |
-| omschrijving | AN200 |  |
-| code | AN40 |  |
-| betaaltermijn | N3 |  |
 | betaalbaarPer | date |  |
-| factuurbedragExclusiefBTW | bedrag |  |
+| betaaltermijn | N3 |  |
+| code | AN40 |  |
+| datumFactuur | date |  |
 | factuurbedragBTW | Bedrag |  |
+| factuurbedragExclusiefBTW | bedrag |  |
+| omschrijving | AN200 |  |
 
 
 
@@ -526,12 +526,12 @@ Attributen van objecttype Factuurregel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| aantal | N6 |  |
+| bedragBTW | Bedrag |  |
+| bedragExBTW | Bedrag |  |
+| BTWPercentage | N2 |  |
 | nummer | N4 |  |
 | omschrijving | AN80 |  |
-| aantal | N6 |  |
-| bedragExBTW | Bedrag |  |
-| bedragBTW | Bedrag |  |
-| BTWPercentage | N2 |  |
 
 
 
@@ -566,13 +566,13 @@ Attributen van objecttype Hoofdrekening
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| nummer | AN8 |  |
 | naam | AN80 |  |
+| nummer | AN8 |  |
 | omschrijving | AN200 |  |
+| PIAHoofcategorieOmschrijving | AN80 |  |
+| PIAHoofdcategorieCode | AN20 |  |
 | subcode | AN20 |  |
 | subcodeOmschrijving | AN80 |  |
-| PIAHoofdcategorieCode | AN20 |  |
-| PIAHoofcategorieOmschrijving | AN80 |  |
 
 
 
@@ -608,8 +608,8 @@ Attributen van objecttype Hoofdstuk
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | naam | AN80 |  |
-| omschrijving | text |  |
 | nummer | AN20 |  |
+| omschrijving | text |  |
 
 
 
@@ -644,18 +644,18 @@ Attributen van objecttype Inkooporder
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| ordernummer | AN8 |  |
-| omschrijving | AN140 |  |
-| totaalNettoBedrag | Bedrag |  |
-| datumStart | date |  |
-| datumEinde | date |  |
-| betreft | AN40 |  |
-| saldo | Bedrag |  |
-| wijzeVanAanbesteden | AN40 |  |
-| betalingMeerdereJaren | boolean |  |
-| datumIngediend | date |  |
 | artikelcode | AN80 |  |
+| betalingMeerdereJaren | boolean |  |
+| betreft | AN40 |  |
+| datumEinde | date |  |
+| datumIngediend | date |  |
+| datumStart | date |  |
 | goederencode | AN80 |  |
+| omschrijving | AN140 |  |
+| ordernummer | AN8 |  |
+| saldo | Bedrag |  |
+| totaalNettoBedrag | Bedrag |  |
+| wijzeVanAanbesteden | AN40 |  |
 
 
 
@@ -690,14 +690,14 @@ Attributen van objecttype Kostenplaats
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN80 |  |
-| omschrijving | AN200 |  |
+| BTWCode | AN40 |  |
+| BTWOmschrijving | AN80 |  |
 | kostenplaatssoortCode | AN20 |  |
 | kostenplaatssoortOmschrijving | AN80 |  |
 | kostenplaatstypeCode | AN20 |  |
 | kostenplaatstypeOmschrijving | AN80 |  |
-| BTWCode | AN40 |  |
-| BTWOmschrijving | AN80 |  |
+| naam | AN80 |  |
+| omschrijving | AN200 |  |
 
 
 
@@ -732,8 +732,8 @@ Attributen van objecttype Mutatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datum | date |  |
 | bedrag | Bedrag |  |
+| datum | date |  |
 
 
 
@@ -768,11 +768,11 @@ Attributen van objecttype Opdrachtgever
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN80 |  |
-| omschrijving | text |  |
-| nummer | AN20 |  |
 | clustercode | AN20 |  |
 | clusterOmschrijving | AN80 |  |
+| naam | AN80 |  |
+| nummer | AN20 |  |
+| omschrijving | text |  |
 
 
 
@@ -807,11 +807,11 @@ Attributen van objecttype Opdrachtnemer
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN80 |  |
-| omschrijving | AN80 |  |
-| nummer | AN20 |  |
 | clustercode | AN20 |  |
 | clustercodeOmschrijving | AN80 |  |
+| naam | AN80 |  |
+| nummer | AN20 |  |
+| omschrijving | AN80 |  |
 
 
 
@@ -847,8 +847,8 @@ Attributen van objecttype Product
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | naam | AN80 |  |
-| omschrijving | text |  |
 | nummer | AN20 |  |
+| omschrijving | text |  |
 
 
 
@@ -884,8 +884,8 @@ Attributen van objecttype Subrekening
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | naam | AN80 |  |
-| omschrijving | text |  |
 | nummer | AN20 |  |
+| omschrijving | text |  |
 
 
 
@@ -920,14 +920,14 @@ Attributen van objecttype Taakveld
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| hoofdfunctie | AN50 |  |
-| hoofdfunctieOmschrijving | AN100 |  |
 | functiecodeIV3 | AN20 |  |
 | functieomschrijvingIV3 | AN80 |  |
-| taakveldcode | AN20 |  |
-| taakveldOmschrijving | AN100 |  |
+| hoofdfunctie | AN50 |  |
+| hoofdfunctieOmschrijving | AN100 |  |
 | subtaakveldCode | AN20 |  |
 | subtaakveldOmschrijving | AN80 |  |
+| taakveldcode | AN20 |  |
+| taakveldOmschrijving | AN100 |  |
 
 
 
@@ -962,11 +962,11 @@ Attributen van objecttype Werkorder
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| code | AN20 |  |
+| documentnummer | int |  |
 | naam | AN80 |  |
 | omschrijving | text |  |
-| code | AN20 |  |
 | werkordertype | AN80 |  |
-| documentnummer | int |  |
 
 
 

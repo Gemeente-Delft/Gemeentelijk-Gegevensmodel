@@ -84,9 +84,9 @@ Attributen van objecttype Aanmelding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| startdatum | Datum | Datum waarop een persoon met een hulpvraag komt rondom (dreigende) schulden, en het eerste contact met schuldhulpverlening is geweest. Dit kan een persoonlijke, schriftelijke, digitale of telefonische vraag zijn. |
-| einddatum | Datum |  |
 | crisisinterventie | boolean | Is er sprake van een crisisinterventie? Indicator crisisinterventie. "Het afwenden van een crisis- of dreigende situatie om zo de mogelijkheid te cre&#235;ren om de klant te helpen via de reguliere schuldhulpverlening.<br>Volgens de Wgs gaat het in elk geval om de volgende situaties:<br>• gedwongen woningontruiming;<br>• be&#235;indiging van de levering van gas, water, elektriciteit of stadsverwarming;<br>• opzegging of ontbinding van de zorgverzekering.<br>Gemeenten kunnen extra situaties toevoegen aan hun crisisprotocol, zoals:<br>• aangekondigde boedelverkoop of verkoop van de eigen woning;<br>• loon- of bankbeslag;<br>• een faillissementsaanvraag.<br>En voor ondernemers:<br>• beslag op (on)roerende zaken dat het voortbestaan van de onderneming bedreigt;<br>• opzegging van het bankkrediet." |
+| einddatum | Datum |  |
+| startdatum | Datum | Datum waarop een persoon met een hulpvraag komt rondom (dreigende) schulden, en het eerste contact met schuldhulpverlening is geweest. Dit kan een persoonlijke, schriftelijke, digitale of telefonische vraag zijn. |
 
 
 
@@ -121,9 +121,9 @@ Attributen van objecttype Begeleiding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| startdatum | Date |  |
 | einddatum | Date |  |
 | soort | Enumeratie: "EnumBegeleidingssoort" |  |
+| startdatum | Date |  |
 
 
 
@@ -193,10 +193,10 @@ Attributen van objecttype Contactpersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN200 |  |
-| telefoonnummer | AN200 |  |
 | email | email |  |
 | functietitel | AN200 |  |
+| naam | AN200 |  |
+| telefoonnummer | AN200 |  |
 
 
 
@@ -231,8 +231,8 @@ Attributen van objecttype Crisisinterventie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| startdatum | datum |  |
 | einddatum | datum |  |
+| startdatum | datum |  |
 
 
 
@@ -267,8 +267,8 @@ Attributen van objecttype InformatieEnAdvies
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| startdatum | Datum |  |
 | einddatum | Datum |  |
+| startdatum | Datum |  |
 
 
 
@@ -303,12 +303,12 @@ Attributen van objecttype Inkomen
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| startdatum | Date |  |
-| inkomstenbron | int |  |
-| inkomenscategorie | int |  |
 | brutoBedrag | Bedrag |  |
 | einddatum | Date |  |
+| inkomenscategorie | int |  |
+| inkomstenbron | int |  |
 | nettoBedrag | Bedrag |  |
+| startdatum | Date |  |
 
 
 
@@ -343,10 +343,10 @@ Attributen van objecttype Intake
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| startdatum | Datum | Het gesprek dat plaatsvindt na aanmelding of na ontvangst hulpvraag (bijv. bij doorverwijzing vanuit vroegsignalering). Doel van dit gesprek is om de hulpvraag vast te stellen en te beoordelen welke instrumenten, ondersteuning, activiteiten en gegevens nodig zijn om een persoon te helpen om een duurzaam financieel evenwicht te bereiken. |
-| einddatum | Datum | De datum van afronding van de intake. Een klant ontvangt een gemotiveerde afwijzing of een toelatingsbeschikking. |
 | beschikkingsdatum | Datum | De datum waarop de beschikking is afgegeven. |
 | beschikkingssoort | Enumeratie: "EnumBeschikkingssoort" |  |
+| einddatum | Datum | De datum van afronding van de intake. Een klant ontvangt een gemotiveerde afwijzing of een toelatingsbeschikking. |
+| startdatum | Datum | Het gesprek dat plaatsvindt na aanmelding of na ontvangst hulpvraag (bijv. bij doorverwijzing vanuit vroegsignalering). Doel van dit gesprek is om de hulpvraag vast te stellen en te beoordelen welke instrumenten, ondersteuning, activiteiten en gegevens nodig zijn om een persoon te helpen om een duurzaam financieel evenwicht te bereiken. |
 
 
 
@@ -381,8 +381,8 @@ Attributen van objecttype Leefsituatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumGeldigVanaf | date |  |
 | datumGeldigTot | date |  |
+| datumGeldigVanaf | date |  |
 
 
 
@@ -419,8 +419,8 @@ Attributen van objecttype Moratorium
 | :--- | :--- | :--- |
 | datumAanvraag | Datum |  |
 | datumGoedkeuring | Datum |  |
-| startdatum | Datum |  |
 | einddatum | Datum |  |
+| startdatum | Datum |  |
 
 
 
@@ -455,8 +455,8 @@ Attributen van objecttype Nazorg
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| startdatum | Datum |  |
 | einddatum | Datum |  |
+| startdatum | Datum |  |
 
 
 
@@ -491,8 +491,8 @@ Attributen van objecttype Ondernemer
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| startdatum | Datum |  |
 | einddatum | Datum |  |
+| startdatum | Datum |  |
 
 
 
@@ -527,9 +527,9 @@ Attributen van objecttype Oplossing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| startdatum | Datum | Het gaat om het moment dat een schuldregeling (saneringskrediet/schuldbemiddeling) of volledige afbetalingsregeling (betalingsregeling/herfinanciering) daadwerkelijk start na goedkeuring van de aanvraag. |
 | einddatum | Datum | Het gaat om het moment dat een schuldregeling (saneringskrediet/schuldbemiddeling) of volledige afbetalingsregeling (betalingsregeling/herfinanciering) daadwerkelijk eindigt. Dit kan zijn na de formele afgesproken periode of een voortijdige beeindiging. |
 | soort | Enumeratie: "EnumOplossingssoort" |  |
+| startdatum | Datum | Het gaat om het moment dat een schuldregeling (saneringskrediet/schuldbemiddeling) of volledige afbetalingsregeling (betalingsregeling/herfinanciering) daadwerkelijk start na goedkeuring van de aanvraag. |
 | vtlb | Bedrag | Het “Vrij te laten bedrag” (VTLB) is het bedrag (in hele euro's per maand) dat een persoon of huishouden met schulden mag behouden om in de basisbehoeften te voorzien. Dit bedrag wordt vastgesteld tijdens schuldhulpverleningstrajecten. Het VTLB zorgt ervoor dat iemand niet verder in de problemen komt door schulden af te lossen en tegelijkertijd nog kan voorzien in noodzakelijke kosten van levensonderhoud. |
 
 
@@ -600,10 +600,10 @@ Attributen van objecttype Partner
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| samenwonend | boolean |  |
-| datumVanaf | Datum |  |
 | datumTot | Datum |  |
+| datumVanaf | Datum |  |
 | getrouwdOfGeregistreerdPartner | boolean |  |
+| samenwonend | boolean |  |
 
 
 
@@ -675,8 +675,8 @@ Attributen van objecttype Schuld
 | :--- | :--- | :--- |
 | bedrag | Bedrag | Bedrag in hele euro's nauwkeurig |
 | peildatum | Date | Datum dat de schuld is vastgesteld. Het betreft hier het moment dat de vaststelling door de schuldhulpverlener in het kader van het schuldhulptraject is gedaan. |
-| zakelijkeSchuld | boolean | Betreft het een zakelijke schuld |
 | schuldsoort | Enumeratie: "EnumSchuldensoort" |  |
+| zakelijkeSchuld | boolean | Betreft het een zakelijke schuld |
 
 
 
@@ -711,8 +711,8 @@ Attributen van objecttype Schuldeiser
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| peildatum | Date |  |
 | naam | AN200 |  |
+| peildatum | Date |  |
 
 
 
@@ -782,9 +782,9 @@ Attributen van objecttype Schuldhulptraject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| einddatum | date |  |
 | omschrijving | text |  |
 | startdatum | date |  |
-| einddatum | date |  |
 | toekenningsdatum | date |  |
 | totaalSchuldbedragBijAanvangSchuld | Bedrag | Bedrag in hele euro's nauwkeurig voor elke schuld die meegaat in de schuldregeling. Per schuldeiser kunnen er meerdere openstaande schulden zijn. Deze afzonderlijk meenemen. |
 
@@ -821,12 +821,12 @@ Attributen van objecttype Schuldregeling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datum | Datum | Datum dat schuldregeling door de schuldhulpverlener is ingediend. |
-| toegekend | Datum | Datum waarop toekenning heeft plaatgevonden. Leeg betekent: (nog) geen toekenning plaatgevonden |
 | afgewezen | Datum | Datum waarop afwijzingheeft plaatgevonden. Leeg betekent: (nog) geen afwijzing plaatgevonden |
-| ingetrokken | Datum | Datum waarop schuldregeling is ingetrokken. Leeg betekent: (nog) geen intrekking plaatgevonden |
-| dwangakkoord | boolean | Een vervolgstap die mogelijk is als een of meer schuldeisers blijven weigeren in te stemmen met de minnelijke schuldregelingaanvragen. Dit verzoek wordt ingediend bij de rechtbank (artikel 287a Fw). |
+| datum | Datum | Datum dat schuldregeling door de schuldhulpverlener is ingediend. |
 | datumVerzoekDwangakkoord | Datum |  |
+| dwangakkoord | boolean | Een vervolgstap die mogelijk is als een of meer schuldeisers blijven weigeren in te stemmen met de minnelijke schuldregelingaanvragen. Dit verzoek wordt ingediend bij de rechtbank (artikel 287a Fw). |
+| ingetrokken | Datum | Datum waarop schuldregeling is ingetrokken. Leeg betekent: (nog) geen intrekking plaatgevonden |
+| toegekend | Datum | Datum waarop toekenning heeft plaatgevonden. Leeg betekent: (nog) geen toekenning plaatgevonden |
 
 
 
@@ -861,8 +861,8 @@ Attributen van objecttype Stabilisatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| startdatum | Datum |  |
 | einddatum | Datum |  |
+| startdatum | Datum |  |
 
 
 
@@ -897,10 +897,10 @@ Attributen van objecttype Uitstroom
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| omschrijving | text |  |
 | datum | date | Datum dat clienten uit het schuldhulptraject zijn uitgestroomd. Deze datum is gelijk aan de datum be&#235;indigingsbeschikking. |
-| reden | Enumeratie: "EnumUitstroomreden" | Reden dat de hulpverlening op enig moment na aanmelding bij schuldhulpverlening eindigt. |
 | datumBeeindigingsbeschikking | Datum | Datum dat de Be&#235;indigingsbeschikking is afgegeven. |
+| omschrijving | text |  |
+| reden | Enumeratie: "EnumUitstroomreden" | Reden dat de hulpverlening op enig moment na aanmelding bij schuldhulpverlening eindigt. |
 
 
 
@@ -935,8 +935,8 @@ Attributen van objecttype VoorlopigeVoorziening
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| startdatum | Datum |  |
 | einddatum | Datum |  |
+| startdatum | Datum |  |
 
 
 
@@ -971,9 +971,9 @@ Attributen van objecttype Woningbezit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| startdatum | Datum |  |
 | einddatum | Datum |  |
 | soort | Enumeratie: "EnumWoningbezit" |  |
+| startdatum | Datum |  |
 
 
 
@@ -1008,10 +1008,10 @@ Attributen van objecttype WSNP-traject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumVerzoek | Datum |  |
 | datumGoedkeuring | Datum |  |
-| startdatum | Datum |  |
+| datumVerzoek | Datum |  |
 | einddatum | Datum |  |
+| startdatum | Datum |  |
 
 
 

@@ -82,10 +82,10 @@ Attributen van objecttype AanduidingVerblijfsrecht
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| verblijfsrechtnummer | AN2 | Het nummer van het verblijfsrecht |
-| verblijfsrechtomschrijving | AN250 | De omschrijving van het verblijfsrecht |
 | datumAanvangGeldigheidVerblijfsrecht | DATUM | Aanvang geldigheid van het verblijfsrecht |
 | datumEindeGeldigheidVerblijfsrecht | DATUM | Einde geldigheid van het verblijfsrecht |
+| verblijfsrechtnummer | AN2 | Het nummer van het verblijfsrecht |
+| verblijfsrechtomschrijving | AN250 | De omschrijving van het verblijfsrecht |
 
 
 
@@ -121,9 +121,9 @@ Attributen van objecttype AutoriteitAfgifteNederlandsReisdocument
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | code | AN6 | De code van de autoriteit van afgifte. |
-| omschrijving | AN | De omschrijving van de autoriteit van afgifte |
 | datumBeginGeldigheidAutoriteitVanAfgifte | DATUM | De datum waarop de autoriteit van afgifte is ontstaan. |
 | datumEindeGeldigheidAutoriteitVanAfgifte | DATUM | De datum waarop de autoriteit van aangifte is opgeheven. |
+| omschrijving | AN | De omschrijving van de autoriteit van afgifte |
 
 
 
@@ -197,9 +197,9 @@ Attributen van objecttype AardAantekening
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | codeAardAantekening | AN2 | De code van het Aard Aantekening. |
-| naamAardAantekening | AN | De naam van de aard aantekening. |
 | datumBeginGeldigheidAardAantekening | DATUM | De datum waarop de aard aantekening  is ontstaan. |
 | datumEindeGeldigheidAardAantekening | DATUM | De datum waarop de aard aantekening is opgeheven. |
+| naamAardAantekening | AN | De naam van de aard aantekening. |
 
 
 
@@ -235,9 +235,9 @@ Attributen van objecttype AardZakelijkRecht
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | codeAardZakelijkRecht | N2 | De code van het Aard Zakelijk Recht. |
-| naamAardZakelijkRecht | AN | De naam van het aard zakelijk recht. |
 | datumBeginGeldigheidAardZakelijkRecht | DATUM | De datum waarop het aard zakelijk recht  is ontstaan. |
 | datumEindeGeldigheidAardZakelijkRecht | DATUM | De datum waarop het aard zakelijk recht is opgeheven. |
+| naamAardZakelijkRecht | AN | De naam van het aard zakelijk recht. |
 
 
 
@@ -273,9 +273,9 @@ Attributen van objecttype AardFiliatie
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | codeAardFiliatie | N2 | De code van de aard filiatie. |
-| naamAardFiliatie | AN | De naam van de aard filiatie. |
 | datumBeginGeldigheidAardFiliatie | DATUM | De datum waarop de aard filiatie is ontstaan. |
 | datumEindeGeldigheidAardFiliatie | DATUM | De datum waarop de aard filiatie is opgeheven. |
+| naamAardFiliatie | AN | De naam van de aard filiatie. |
 
 
 
@@ -311,10 +311,10 @@ Attributen van objecttype AcademischeTitel
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | codeAcademischeTitel | AN3 | Een code die aangeeft welke academische titel behoort tot de naam. |
-| omschrijvingAcademischeTitel | AN80 | De omschrijving behorende bij NEN-tabel 'Academische titelcode'. |
-| positieAcademischeTitelTOVNaam | AN1 | Aanduiding of de academische titel voorafgaand aan de voornamen of achter de geslachtsnaam wordt geplaatst. |
 | datumBeginGeldigheidTitel | OnvolledigeDatum | De datum waarop de ACADEMISCHE TITEL is ontstaan. |
 | datumEindeGeldigheidTitel | OnvolledigeDatum | De datum waarop de ACADEMISCHE TITEL is opgeheven. |
+| omschrijvingAcademischeTitel | AN80 | De omschrijving behorende bij NEN-tabel 'Academische titelcode'. |
+| positieAcademischeTitelTOVNaam | AN1 | Aanduiding of de academische titel voorafgaand aan de voornamen of achter de geslachtsnaam wordt geplaatst. |
 
 
 
@@ -349,8 +349,8 @@ Attributen van objecttype AkrKadastraleGemeentecode
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| codeAKRKadadastraleGemeentecode | AN5 | Een volgens de Dienst van het Kadaster unieke code behorende bij de ARK code kadastrale gemeente. |
 | AKRCode | AN | De AKR code van kadastrale gemeente  volgens de Dienst van het Kadaster. |
+| codeAKRKadadastraleGemeentecode | AN5 | Een volgens de Dienst van het Kadaster unieke code behorende bij de ARK code kadastrale gemeente. |
 | datumBeginGeldigheidAKRCode | Datum | De datum waarop de AKR code kadastrale gemeente  is ontstaan. |
 | datumEindeGeldigheidAKRCode | Datum | De datum waarop de AKR code kadastrale gemeente is opgeheven. |
 
@@ -388,9 +388,9 @@ Attributen van objecttype CultuurcodeBebouwd
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | cultuurcodeBebouwd | N2 | De code van het gebruik van een bebouwd stuk grond. |
-| naamCultuurcodeBebouwd | AN | De naam van de cultuurcode bebouwd. |
 | datumBeginGeldigheidCultuurcodeBebouwd | DATUM | De datum waarop de cultuurcode bebouwd is ontstaan. |
 | datumEindeGeldigheidCultuurcodeBebouwd | DATUM | De datum waarop de cultuurcode bebouwd is opgeheven. |
+| naamCultuurcodeBebouwd | AN | De naam van de cultuurcode bebouwd. |
 
 
 
@@ -426,9 +426,9 @@ Attributen van objecttype CultuurcodeOnbebouwd
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | cultuurcodeOnbebouwd | N2 | De code van het gebruik van een onbebouwd stuk grond. |
-| naamCultuurcodeOnbebouwd | AN | De naam van de cultuurcode onbebouwd. |
 | datumBeginGeldigheidCultuurcodeOnbebouwd | DATUM | De datum waarop de cultuurcode onbebouwd is ontstaan. |
 | datumEindeGeldigheidCultuurcodeOnbebouwd | DATUM | De datum waarop de cultuurcode onbebouwd is opgeheven. |
+| naamCultuurcodeOnbebouwd | AN | De naam van de cultuurcode onbebouwd. |
 
 
 
@@ -463,10 +463,10 @@ Attributen van objecttype WOZ-Deelobjectcode
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| deelobjectcode | AN4 | De code van een soort deelobject niet-woningen. |
-| naamDeelobjectcode | AN | De naam van de deelobjectcode. |
 | datumBeginGeldigheidDeelojectcode | DATUM | De datum waarop de deelobjectcode is ontstaan. |
 | datumEindeGeldigheidDeelobjectcode | DATUM | De datum waarop de deelobjectcode is opgeheven. |
+| deelobjectcode | AN4 | De code van een soort deelobject niet-woningen. |
+| naamDeelobjectcode | AN | De naam van de deelobjectcode. |
 
 
 
@@ -501,10 +501,10 @@ Attributen van objecttype KadastraleGemeente
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| kadastraleGemeentecode | AN5 | De code van de KADASTRALE GEMEENTE volgens de Dienst van het Kadaster en de Openbare Registers, zoals nader omschreven in het Kadasterbesluit. |
-| naam | AN40 | De naam van de KADASTRALE GEMEENTE volgens de Dienst van het Kadaster en de Openbare Registers, zoals nader omschreven in het Kadasterbesluit |
 | datumBeginGeldigheidKadastraleGemeente | DATUM | De datum waarop de kadastrale gemeente is ontstaan. |
 | datumEindeGeldigheidKadastraleGemeente | DATUM | De datum waarop de kadastrale gemeente is opgeheven. |
+| kadastraleGemeentecode | AN5 | De code van de KADASTRALE GEMEENTE volgens de Dienst van het Kadaster en de Openbare Registers, zoals nader omschreven in het Kadasterbesluit. |
+| naam | AN40 | De naam van de KADASTRALE GEMEENTE volgens de Dienst van het Kadaster en de Openbare Registers, zoals nader omschreven in het Kadasterbesluit |
 
 
 
@@ -539,11 +539,11 @@ Attributen van objecttype LandOfgebied
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| landcode | AN4 | De code, behorende bij de landnaam, zoals opgenomen in de Land/Gebied-tabel van de BRP. |
-| landnaam | AN40 | De naam van het land, zoals opgenomen in de Land/Gebied-tabel van de BRP. |
-| datumIngangLand | DATUM | De datum waarop het land/gebied is ontstaan. |
 | datumEindeLand | DATUM | De datum waarop het land/gebied is opgeheven. |
+| datumIngangLand | DATUM | De datum waarop het land/gebied is ontstaan. |
+| landcode | AN4 | De code, behorende bij de landnaam, zoals opgenomen in de Land/Gebied-tabel van de BRP. |
 | landcodeISO | AN2 | De code van een huidig land of gebiedsdeel conform ISO 3166 |
+| landnaam | AN40 | De naam van het land, zoals opgenomen in de Land/Gebied-tabel van de BRP. |
 
 
 
@@ -578,13 +578,13 @@ Attributen van objecttype Provincie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| provinciecode | AN4 | De code, behorende bij de landnaam, zoals opgenomen in de Land/Gebied-tabel van de BRP. |
-| provincienaam | AN40 | De naam van het land, zoals opgenomen in de Land/Gebied-tabel van de BRP. |
-| datumIngangProvincie | DATUM | De datum waarop het land/gebied is ontstaan. |
 | datumEindeProvincie | DATUM | De datum waarop het land/gebied is opgeheven. |
+| datumIngangProvincie | DATUM | De datum waarop het land/gebied is ontstaan. |
 | hoofdstad |  | De code van een huidig land of gebiedsdeel conform ISO 3166 |
 | oppervlakte | int | Oppervlakte in km2 |
 | oppervlakteLand | int | Landoppervlakte in km2 |
+| provinciecode | AN4 | De code, behorende bij de landnaam, zoals opgenomen in de Land/Gebied-tabel van de BRP. |
+| provincienaam | AN40 | De naam van het land, zoals opgenomen in de Land/Gebied-tabel van de BRP. |
 
 
 
@@ -620,11 +620,11 @@ Attributen van objecttype Partij
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | code | AN6 | De code van de PARTIJ. |
+| datumAanvangGeldigheidPartij | DATUM | De datum waarop de geldigheid van de partij is gestart. |
+| datumEindeGeldigheidPartij | DATUM | De datum waarop de geldigheid van de partij is beëindigd. |
 | naam | AN80 | De naam van de PARTIJ. |
 | soort | N2 |  |
 | verstrekkingsbeperkingMogelijk | INDIC | Indicator die aangeeft of van de betreffende PARTIJ een verstrekkingsbeperking mogelijk is. |
-| datumAanvangGeldigheidPartij | DATUM | De datum waarop de geldigheid van de partij is gestart. |
-| datumEindeGeldigheidPartij | DATUM | De datum waarop de geldigheid van de partij is beëindigd. |
 
 
 
@@ -659,10 +659,10 @@ Attributen van objecttype RedenVerkrijgingNationaliteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| redennummerVerkrijging | AN3 | Het identificerende nummer van de reden van verkrijging van de nationaliteit |
-| omschrijvingVerkrijging | AN250 | De omschrijving van de reden van verkrijging van de Nederlandse nationaliteit |
 | datumAanvangGeldigheidVerkrijging | DATUM | De datum aanvang geldigheid van de reden van verkrijging van de nationaliteit |
 | datumEindeGeldigheidVerkrijging | DATUM | De datum einde geldigheid van de reden van verkrijging van de nationaliteit |
+| omschrijvingVerkrijging | AN250 | De omschrijving van de reden van verkrijging van de Nederlandse nationaliteit |
+| redennummerVerkrijging | AN3 | Het identificerende nummer van de reden van verkrijging van de nationaliteit |
 
 
 
@@ -697,10 +697,10 @@ Attributen van objecttype RedenVerliesNationaliteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| redennummerVerlies | AN3 | Het identificerende nummer van de reden van verlies van de nationaliteit |
-| omschrijvingVerlies | AN250 | De omschrijving van de reden van de verlies van de nationaliteit |
 | datumAanvangGeldigheidVerlies | DATUM | De datum aanvang geldigheid van de reden van de verlies van de nationaliteit |
 | datumEindeGeldigheidVerlies | DATUM | De datum einde geldigheid van de reden van de verlies van de nationaliteit |
+| omschrijvingVerlies | AN250 | De omschrijving van de reden van de verlies van de nationaliteit |
+| redennummerVerlies | AN3 | Het identificerende nummer van de reden van verlies van de nationaliteit |
 
 
 
@@ -735,10 +735,10 @@ Attributen van objecttype Reisdocumentsoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| reisdocumentcode | AN2 | Een code voor het model van een Nederlands reisdocument. |
-| reisdocumentOmschrijving | AN250 | De omschrijving van het model van het Nederlands reisdocument. |
 | datumBeginGeldigheidReisdocumentsoort | DATUM | De datum waarop de reisdocumentsoort is ontstaan. |
 | datumEindeGeldigheidReisdocumentsoort | DATUM | De datum waarop de reisdocumentsoort is opgeheven. |
+| reisdocumentcode | AN2 | Een code voor het model van een Nederlands reisdocument. |
+| reisdocumentOmschrijving | AN250 | De omschrijving van het model van het Nederlands reisdocument. |
 
 
 
@@ -773,12 +773,12 @@ Attributen van objecttype SBIActiviteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| SBICode | AN10 | De code van de activiteit zoals opgenomen in de SBI 2008. |
-| naamActiviteit | AN60 | De naam van de SBI activiteit volgens de SBI 2008. |
-| datumIngangSBIActiviteit | DATUM | De datum waarop de SBI activiteit is ontstaan. |
 | datumEindeSBIActiviteit | DATUM | De datum waarop de SBI code is ingetrokken. |
+| datumIngangSBIActiviteit | DATUM | De datum waarop de SBI activiteit is ontstaan. |
 | hoofdniveau | AN60 |  |
 | hoofdniveauOmschrijving | AN100 |  |
+| naamActiviteit | AN60 | De naam van de SBI activiteit volgens de SBI 2008. |
+| SBICode | AN10 | De code van de activiteit zoals opgenomen in de SBI 2008. |
 | SBIGroep | AN10 |  |
 | SBIGroepOmschrijving | AN100 |  |
 
@@ -816,9 +816,9 @@ Attributen van objecttype SoortGrootte
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | codeSoortGrootte | N1 | De code van de soort grootte. |
-| naamSoortGrootte | AN | De naam van de soort grootte. |
 | datumBeginGeldigheidSoortGrootte | DATUM | De datum waarop de soort grootte is ontstaan. |
 | datumEindeGeldigheidSoortGrootte | DATUM | De datum waarop de soort grootte is opgeheven. |
+| naamSoortGrootte | AN | De naam van de soort grootte. |
 
 
 
@@ -853,11 +853,11 @@ Attributen van objecttype SoortWOZObject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| soortobjectcode | N4 | De code van het soort object. |
-| naamSoortObjectcode | AN | De naam van de soort objectcode. |
-| opmerkingenSoortObjectcode | AN | Een toelichting op de soort objectcode. |
 | datumBeginGeldigheidSoortObjectcode | DATUM | De datum waarop de soort objectcode is ontstaan. |
 | datumEindeGeldigheidSoortObjectcode | DATUM | De datum waarop de soort objectcode is opgeheven. |
+| naamSoortObjectcode | AN | De naam van de soort objectcode. |
+| opmerkingenSoortObjectcode | AN | Een toelichting op de soort objectcode. |
+| soortobjectcode | N4 | De code van het soort object. |
 
 
 
@@ -892,10 +892,10 @@ Attributen van objecttype Valutasoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| valutacode | AN3 | Een unieke  code van de valuta. |
-| naamValuta | AN | De naam van de valuta. |
 | datumBeginGeldigheidValutasoort | Datum | De datum waarop de valuta is ontstaan. |
 | datumEindeGeldigheidValutasoort | Datum | De datum waarop de valuta is opgeheven. |
+| naamValuta | AN | De naam van de valuta. |
+| valutacode | AN3 | Een unieke  code van de valuta. |
 
 
 
@@ -930,13 +930,13 @@ Attributen van objecttype Land
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| landcode | N4 | De code, behorende bij de landnaam, opgenomen in de Landentabel van de GBA. |
-| landnaam | AN40 | De naam van het land, zoals opgenomen in de Landentabel van de GBA. |
-| datumIngangLand | Onvolledigedatum | De datum waarop het land is ontstaan. |
-| datumEindeLand | OnvolledigeDatum | De datum waarop het land is opgeheven. |
-| landcodeISOTweeletterig | AN2 | De code van een huidig land of gebiedsdeel conform ISO 3166 |
 | datumEindeFictief | boolean |  |
+| datumEindeLand | OnvolledigeDatum | De datum waarop het land is opgeheven. |
+| datumIngangLand | Onvolledigedatum | De datum waarop het land is ontstaan. |
+| landcode | N4 | De code, behorende bij de landnaam, opgenomen in de Landentabel van de GBA. |
 | landcodeISODrieletterig | AN3 |  |
+| landcodeISOTweeletterig | AN2 | De code van een huidig land of gebiedsdeel conform ISO 3166 |
+| landnaam | AN40 | De naam van het land, zoals opgenomen in de Landentabel van de GBA. |
 
 
 
@@ -972,9 +972,9 @@ Attributen van objecttype Nationaliteit
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | codeNationaliteit | N4 | Een code die aangeeft welke nationaliteit de ingeschrevene bezit. |
-| nationaliteitOmschrijving | AN42 | De omschrijving van de nationaliteit. |
 | datumBeginGeldigheidNationaliteit | datum | De datum waarop de nationaliteit is ontstaan. |
 | datumEindeGeldigheidNationaliteit | datum | De datum waarop de nationaliteit is opgeheven. |
+| nationaliteitOmschrijving | AN42 | De omschrijving van de nationaliteit. |
 
 
 
@@ -1009,10 +1009,10 @@ Attributen van objecttype Valuta
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| valutacode | AN3 | Een code die aangeeft welke nationaliteit de ingeschrevene bezit. |
-| naam | AN42 | De omschrijving van de nationaliteit. |
 | datumBeginGeldigheid | datum | De datum waarop de nationaliteit is ontstaan. |
 | datumEindeGeldigheid | datum | De datum waarop de nationaliteit is opgeheven. |
+| naam | AN42 | De omschrijving van de nationaliteit. |
+| valutacode | AN3 | Een code die aangeeft welke nationaliteit de ingeschrevene bezit. |
 
 
 

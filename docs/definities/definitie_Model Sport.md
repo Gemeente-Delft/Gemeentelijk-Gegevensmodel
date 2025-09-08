@@ -135,18 +135,18 @@ Attributen van objecttype Binnenlocatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| adres | Adresaanduiding |  |
 | bouwjaar | N4 |  |
-| vloeroppervlakte | int |  |
+| gemeentelijk | boolean |  |
+| geschatteKostenPerJaar | Bedrag |  |
+| gymzaal | Boolean |  |
 | klokurenOnderwijs | double | Aantal klokuren per week |
 | klokurenVerenigingen | double | aantal klokuren per week |
-| onderhoudsstatus | int |  |
-| onderhoudsniveau | AN80 |  |
-| geschatteKostenPerJaar | Bedrag |  |
 | locatie | GML |  |
-| adres | Adresaanduiding |  |
+| onderhoudsniveau | AN80 |  |
+| onderhoudsstatus | int |  |
 | sporthal | Boolean |  |
-| gymzaal | Boolean |  |
-| gemeentelijk | boolean |  |
+| vloeroppervlakte | int |  |
 
 
 
@@ -319,14 +319,14 @@ Attributen van objecttype Sportvereniging
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN200 |  |
-| typeSport | An200 |  |
+| aantalNormTeams | double |  |
+| adres | Adresaanduiding |  |
 | binnensport | boolean |  |
 | buitensport | boolean |  |
 | email | AN80 |  |
-| adres | Adresaanduiding |  |
 | ledenaantal | int |  |
-| aantalNormTeams | double |  |
+| naam | AN200 |  |
+| typeSport | An200 |  |
 
 
 

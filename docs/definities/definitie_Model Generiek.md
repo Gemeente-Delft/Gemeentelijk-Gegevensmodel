@@ -66,13 +66,13 @@ Attributen van objecttype Foto
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| bestandsgrootte | int | Bestandsgrootte in bytes |
 | bestandsnaam | AN200 |  |
 | bestandstype | AN80 |  |
 | datumtijd | DateTime |  |
-| bestandsgrootte | int | Bestandsgrootte in bytes |
+| locatie | GML |  |
 | pixelsX | int |  |
 | pixelsY | int |  |
-| locatie | GML |  |
 
 
 
@@ -245,8 +245,8 @@ Attributen van objecttype Locatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN200 |  |
 | hoogte | int | Hoogte in meters. Negatief is onder het maaiveld en positief boven het maaiveld |
+| naam | AN200 |  |
 | NEN3610ID | AN80 |  |
 
 
@@ -351,10 +351,10 @@ Attributen van objecttype Video-opname
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| bestandsgrootte | int |  |
 | datumtijd | DateTime |  |
 | lengte | int |  |
 | videoformaat | AN80 |  |
-| bestandsgrootte | int |  |
 
 
 

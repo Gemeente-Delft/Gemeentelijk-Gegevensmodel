@@ -58,11 +58,11 @@ Attributen van objecttype Dakloosheid
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumStart | Date | Startdatum dat een persoon als dakloze is geregistreerd |
 | datumEind | Date | Einddatum dat een persoon als dakloze is geregistreerd |
+| datumStart | Date | Startdatum dat een persoon als dakloze is geregistreerd |
+| gemeenteOorsprong | AN200 |  |
 | toestemmingGemeentelijkBriefadres | boolean | Heeft de dakloze toestemming om een gemeentelijk briefadres te gebruiken |
 | toestemmingNachtopvang | boolean | Heeft de dakloze toestemming om gebruik te maken van de gemeentelijke nachtopvang |
-| gemeenteOorsprong | AN200 |  |
 
 
 

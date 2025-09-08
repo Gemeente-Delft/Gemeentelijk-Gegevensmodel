@@ -145,6 +145,9 @@ Attributen van objecttype AdresBuitenland
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| adresregelBuitenland1 | AN50 |  |
+| adresregelBuitenland2 | AN50 | Het eerste deel van het adres in het buitenland, met uitzondering van het land, dat de ingeschrevene bij vertrek naar het buitenland dan wel bij inschrijving opgeeft. |
+| adresregelBuitenland3 | AN50 |  |
 | datumAanvangAdresBuitenland | DATUM |  |
 | datumInschrijvingGemeente | DATUM | De datum waarop de ingeschrevene als niet-ingezetene is ingeschreven. |
 | datumVestigingNederland | DATUM | De datum waarop de ingeschrevene zich in Nederland heeft gevestigd |
@@ -152,9 +155,6 @@ Attributen van objecttype AdresBuitenland
 | landAdresBuitenland | AN50 |  |
 | landWaarvandaanIngeschreven | AN50 |  |
 | omschrijvingVanDeAangifteAdreshouding | AN100 | Een aanduiding van degene door wie de aangifte van het vertrek naar het buitenland dan wel door wie de aangifte voor de inschrijving als niet-ingezetene is gedaan. |
-| adresregelBuitenland1 | AN50 |  |
-| adresregelBuitenland2 | AN50 | Het eerste deel van het adres in het buitenland, met uitzondering van het land, dat de ingeschrevene bij vertrek naar het buitenland dan wel bij inschrijving opgeeft. |
-| adresregelBuitenland3 | AN50 |  |
 
 
 
@@ -189,10 +189,10 @@ Attributen van objecttype Briefadres
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| adresFunctie |  |  |
 | datumAanvang | Datum |  |
 | datumEinde | Datum |  |
 | omschrijvingAangifte | Text |  |
-| adresFunctie |  |  |
 
 
 
@@ -227,15 +227,15 @@ Attributen van objecttype Nationaliteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Nationaliteit | AN80 | officiele omschrijving nationaliteit |
-| Nationaliteitcode | AN5 |  |
-| Datum ingang geldigheid | Date |  |
+| Buitenlandse nationaliteit | boolean |  |
 | Datum einde geldigheid | Date |  |
+| Datum ingang geldigheid | Date |  |
 | Datum opnamen | int |  |
 | Datum verlies nationaliteit | Date |  |
-| Reden verlies Nederlandse nationaliteit | AN100 |  |
+| Nationaliteit | AN80 | officiele omschrijving nationaliteit |
+| Nationaliteitcode | AN5 |  |
 | Reden verkrijging Nederlandse nationaliteit | AN100 |  |
-| Buitenlandse nationaliteit | boolean |  |
+| Reden verlies Nederlandse nationaliteit | AN100 |  |
 
 
 
@@ -379,17 +379,17 @@ Attributen van objecttype BegroeidTerreindeel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatieBegroeidTerreindeel | NEN3610ID | Een unieke identificatie voor een begroeid terreindeel |
-| statusBegroeidTerreindeel | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het begroeid terreindeel. |
-| relatieveHoogteliggingBegroeidTerreindeel | N2 | Aanduiding voor de relatieve hoogte van het begroeid terreindeel |
-| fysiekVoorkomenBegroeidTerreindeel | Enumeratie: "fysiekVoorkomenBegroeidTerrein" | Classificatie van het vegetatiedek, ingedeeld naar soort vegetatie. |
-| plusFysiekVoorkomenBegroeidTerreindeel | Enumeratie: "fysiekVoorkomenBegroeidTerreinPlus" | Nadere classificatie van het vegetatiedek, ingedeeld naar soort vegetatie. |
-| kruinlijngeometrieBegroeidTerreindeel | Curve | Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling. |
-| geometrieBegroeidTerreindeel | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een begroeid terreindeel. |
-| LOD0GeometrieBegroeidTerreindeel | MultiSurface | De geometrische representatie van een begroeid terreindeel als multivlak in 2.5D op level of detail 0. |
 | begroeidTerreindeelOpTalud | INDIC | Indicatie of het object wel of niet op een hellend vlak ligt. |
 | datumBeginGeldigheidBegroeidTerreindeel | DATUM | De datum waarop het begroeid terreindeel is ontstaan. |
 | datumEindeGeldigheidBegroeidTerreindeel | DATUM | De datum waarop het begroeid terreindeel ongeldig is geworden. |
+| fysiekVoorkomenBegroeidTerreindeel | Enumeratie: "fysiekVoorkomenBegroeidTerrein" | Classificatie van het vegetatiedek, ingedeeld naar soort vegetatie. |
+| geometrieBegroeidTerreindeel | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een begroeid terreindeel. |
+| identificatieBegroeidTerreindeel | NEN3610ID | Een unieke identificatie voor een begroeid terreindeel |
+| kruinlijngeometrieBegroeidTerreindeel | Curve | Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling. |
+| LOD0GeometrieBegroeidTerreindeel | MultiSurface | De geometrische representatie van een begroeid terreindeel als multivlak in 2.5D op level of detail 0. |
+| plusFysiekVoorkomenBegroeidTerreindeel | Enumeratie: "fysiekVoorkomenBegroeidTerreinPlus" | Nadere classificatie van het vegetatiedek, ingedeeld naar soort vegetatie. |
+| relatieveHoogteliggingBegroeidTerreindeel | N2 | Aanduiding voor de relatieve hoogte van het begroeid terreindeel |
+| statusBegroeidTerreindeel | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het begroeid terreindeel. |
 
 
 
@@ -424,13 +424,13 @@ Attributen van objecttype Gebied
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| gebiedcode | AN2 | De code behorende bij de naam van de gebied. |
-| identificatieIMGeoBRT | NEN3610ID | De unieke identificatie van de buurt zoals is toegekend in de IMGeo administratie |
-| naam | AN40 | De naam van de buurt, zoals die door het CBS wordt gebruikt. |
-| geometrie | MultiSurface | De tweedimensionale geometrische representatie van de omtrekken van het gebied. |
 | datumBeginGeldigheidBuurt | DATUM | De datum waarop de gebied is gecreëerd. |
 | datumEindeGeldigheidGebied | DATUM | De datum waarop een gebied is komen te vervallen. |
+| gebiedcode | AN2 | De code behorende bij de naam van de gebied. |
 | gebiedsoort | AN80 |  |
+| geometrie | MultiSurface | De tweedimensionale geometrische representatie van de omtrekken van het gebied. |
+| identificatieIMGeoBRT | NEN3610ID | De unieke identificatie van de buurt zoals is toegekend in de IMGeo administratie |
+| naam | AN40 | De naam van de buurt, zoals die door het CBS wordt gebruikt. |
 
 
 
@@ -465,12 +465,12 @@ Attributen van objecttype FunctioneelGebied
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatieFunctioneelGebied | NEN3610ID | Een unieke identificatie voor een functioneel gebied. |
-| statusFunctioneelGebied | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het functioneel gebied. |
-| naamFunctioneelGebied | AN40 | De benaming van het functioneel gebied. |
-| geometrieFunctioneelGebied | Surface | De tweedimensionale geometrische representatie van de omtrekken van het functioneel gebied. |
 | datumBeginGeldigheidFunctioneelGebied | DATUM | De datum waarop het functioneel gebied is ontstaan. |
 | datumEindeGeldigheidFunctioneelGebied | DATUM | De datum waarop het functioneel gebied ongeldig is geworden. |
+| geometrieFunctioneelGebied | Surface | De tweedimensionale geometrische representatie van de omtrekken van het functioneel gebied. |
+| identificatieFunctioneelGebied | NEN3610ID | Een unieke identificatie voor een functioneel gebied. |
+| naamFunctioneelGebied | AN40 | De benaming van het functioneel gebied. |
+| statusFunctioneelGebied | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het functioneel gebied. |
 
 
 
@@ -505,14 +505,14 @@ Attributen van objecttype Gebouwinstallatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatieGebouwinstallatie | NEN3610ID | Een unieke identificatie voor een gebouwinstallatie. |
-| statusGebouwinstallatie | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van de gebouwinstallatie. |
-| geometrieGebouwinstallatie | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een gebouwinstallatie. |
-| typeGebouwinstallatie | Enumeratie: "typeringGebouwinstallatie" | Specificatie van het soort gebouwinstallatie. |
-| LOD0GeometrieGebouwinstallatie | Surface | De geometrische representatie van een gebouwinstallatie als vlak in 2.5D op level of detail 0. |
-| relatieveHoogteliggingGebouwinstallatie | N2 | Aanduiding voor de relatieve hoogte van de gebouwinstallatie. |
 | datumBeginGeldigheidGebouwinstallatie | DATUM | De datum waarop de gebouwinstallatie is ontstaan. |
 | datumEindeGeldigheidGebouwinstallatie | DATUM | De datum waarop de gebouwinstallatie ongeldig is geworden. |
+| geometrieGebouwinstallatie | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een gebouwinstallatie. |
+| identificatieGebouwinstallatie | NEN3610ID | Een unieke identificatie voor een gebouwinstallatie. |
+| LOD0GeometrieGebouwinstallatie | Surface | De geometrische representatie van een gebouwinstallatie als vlak in 2.5D op level of detail 0. |
+| relatieveHoogteliggingGebouwinstallatie | N2 | Aanduiding voor de relatieve hoogte van de gebouwinstallatie. |
+| statusGebouwinstallatie | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van de gebouwinstallatie. |
+| typeGebouwinstallatie | Enumeratie: "typeringGebouwinstallatie" | Specificatie van het soort gebouwinstallatie. |
 
 
 
@@ -547,12 +547,12 @@ Attributen van objecttype Huishouden
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| relatie |  |  |
-| huishoudensoort | N2 | Typering van het huishouden naar grootte en verbondenheid. |
-| huishoudennummer | N12 | Uniek identificerend administratienummer van een huishouden zoals toegekend door de gemeente waarin het huishouden woonachtig is. |
-| huishoudengrootte | N2 | Het aantal personen waaruit het huishouden bestaat. |
 | datumBeginGeldigheidHuishouden | OnvolledigeDatum | De datum waarop het HUISHOUDEN is ontstaan. |
 | datumEindeGeldigheidHuishouden | OnvolledigeDatum | De datum waarop het HUISHOUDEN is komen te vervallen. |
+| huishoudengrootte | N2 | Het aantal personen waaruit het huishouden bestaat. |
+| huishoudennummer | N12 | Uniek identificerend administratienummer van een huishouden zoals toegekend door de gemeente waarin het huishouden woonachtig is. |
+| huishoudensoort | N2 | Typering van het huishouden naar grootte en verbondenheid. |
+| relatie |  |  |
 
 
 
@@ -587,15 +587,15 @@ Attributen van objecttype Inrichtingselement
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatieInrichtingselement | NEN3610ID | Een unieke identificatie voor een inrichtingselement. |
-| statusInrichtingselement | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van een inrichtingselement. |
-| geometrieInrichtingselement | PuntLijnVlak | De geometrische representatie van een inrichtingselement. |
-| typeInrichtingselement | Enumeratie: "typeringInrichtingselement" | <font color="#610e6a">Specificatie van de aard van het inrichtingselement.</font> |
-| plusTypeInrichtingselement | Enumeratie: "typeringInrichtingselementPlus" | Specificatie van het soort inrichtingselement. |
-| relatieveHoogteliggingInrichtingselement | N2 | Aanduiding voor de relatieve hoogte van het inrichtingselement. |
-| LOD0GeometrieInrichtingselement | PuntLijnVlak | De geometrische representatie van een inrichtingselement als punt, lijn of vlak in 2.5D op level of detail 0. |
 | datumBeginGeldigheidInrichtingselement | DATUM | De datum waarop het inrichtingselement is ontstaan. |
 | datumEindeGeldigheidInrichtingselement | DATUM | De datum waarop het inrichtingselement ongeldig is geworden. |
+| geometrieInrichtingselement | PuntLijnVlak | De geometrische representatie van een inrichtingselement. |
+| identificatieInrichtingselement | NEN3610ID | Een unieke identificatie voor een inrichtingselement. |
+| LOD0GeometrieInrichtingselement | PuntLijnVlak | De geometrische representatie van een inrichtingselement als punt, lijn of vlak in 2.5D op level of detail 0. |
+| plusTypeInrichtingselement | Enumeratie: "typeringInrichtingselementPlus" | Specificatie van het soort inrichtingselement. |
+| relatieveHoogteliggingInrichtingselement | N2 | Aanduiding voor de relatieve hoogte van het inrichtingselement. |
+| statusInrichtingselement | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van een inrichtingselement. |
+| typeInrichtingselement | Enumeratie: "typeringInrichtingselement" | <font color="#610e6a">Specificatie van de aard van het inrichtingselement.</font> |
 
 
 
@@ -630,11 +630,11 @@ Attributen van objecttype KadastraalPerceel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| aanduidingSoortGrootte |  | Een aanduiding die voorafgaand aan de meting middels een melding in de aktetekst wordt bepaald en aangeeft of er bij de afsplitsing van een deel van een perceel sprake zal zijn van een vastgestelde grootte, dan wel een indicatieve grootte. |
 | begrenzingPerceel | Surface | Het geheel van lijnketens waarmee de vlakomtrek van een perceel wordt gevormd. |
+| groottePerceel | N10.2 | Een door de Dienst op grond van de kadastrale grenzen van een perceel berekende indicatieve grootte van een perceel ten tijde van vorming van dat perceel. |
 | indicatieDeelperceel | INDIC | Geeft aan of het een deelperceel betreft. |
 | omschrijvingDeelperceel | AN20 | Het in een ter inschrijving aangeboden stuk beschreven tekst, dat een nadere omschrijving geeft van het gekochte deel van een perceel. |
-| groottePerceel | N10.2 | Een door de Dienst op grond van de kadastrale grenzen van een perceel berekende indicatieve grootte van een perceel ten tijde van vorming van dat perceel. |
-| aanduidingSoortGrootte |  | Een aanduiding die voorafgaand aan de meting middels een melding in de aktetekst wordt bepaald en aangeeft of er bij de afsplitsing van een deel van een perceel sprake zal zijn van een vastgestelde grootte, dan wel een indicatieve grootte. |
 | plaatscoordinatenPerceel | Point | De aanduiding van een kaartpunt voor de weergave van de identificatie van een perceel (centroïde). |
 
 
@@ -670,25 +670,25 @@ Attributen van objecttype KadastraleOnroerendeZaak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| oud |  |  |
-| kadastraleGemeentecode | AN20 | AKR code voor de kadastrale gemeente. |
-| landInrichtingRenteBedrag | Bedrag | Het bedrag waarmee de Onroerende zaak is belast in het kader van de landinrichtingswet. |
-| landInrichtingRenteEindejaar | int |  |
-| perceelnummer | N5 | Het perceelnummer dat een geheel perceel of een complex uniek identificeert binnen de sectie. |
-| kadastraleGemeente | AN20 | De   KADASTRALE   GEMEENTE   waarin   de   KADASTRALE<br>ONROERENDE ZAAK gelegen is. |
-| sectie | AN2 | De sectie die de sectie binnen de kadastrale gemeente uniek identificeert. |
 | appartementsrechtvolgnummer | N4 | Nummer dat het kadastraal object uniek identificeert als een appartementsrecht binnen het complex. |
+| begrenzing | Surface |  |
+| cultuurcodeOnbebouwd |  |  |
 | datumBeginGeldigheidKadastraleOnroerendeZaak | DATUM | De datum waarop de gegevens van de kadastrale onroerende zaak voor het eerst geldig zijn geworden. |
 | datumEindeGeldigheidKadastraleOnroerendeZaak | DATUM | De datum waarop de gegevens van de kadastrale onroerende zaak voor het laatst geldig zijn geweest. |
-| oppervlakte | int |  |
 | identificatie | AN250 |  |
-| locatieOmschrijving | AN1000 |  |
-| koopsom | Bedrag |  |
+| kadastraleGemeente | AN20 | De   KADASTRALE   GEMEENTE   waarin   de   KADASTRALE<br>ONROERENDE ZAAK gelegen is. |
+| kadastraleGemeentecode | AN20 | AKR code voor de kadastrale gemeente. |
 | koopjaar | int |  |
-| cultuurcodeOnbebouwd |  |  |
+| koopsom | Bedrag |  |
+| landInrichtingRenteBedrag | Bedrag | Het bedrag waarmee de Onroerende zaak is belast in het kader van de landinrichtingswet. |
+| landInrichtingRenteEindejaar | int |  |
 | ligging | Point |  |
+| locatieOmschrijving | AN1000 |  |
+| oppervlakte | int |  |
+| oud |  |  |
+| perceelnummer | N5 | Het perceelnummer dat een geheel perceel of een complex uniek identificeert binnen de sectie. |
+| sectie | AN2 | De sectie die de sectie binnen de kadastrale gemeente uniek identificeert. |
 | valutacode |  |  |
-| begrenzing | Surface |  |
 
 
 
@@ -726,27 +726,27 @@ Attributen van objecttype IngeschrevenPersoon
 | adresHerkomst | AN1 | Aanduiding welk adres van de INGESCHREVEN PERSOON ontleend is aan de GBA: het woonadres of het correspondentie-adres |
 | anummer | an20 | Het administratienummer, bedoeld in artikel 50 van de Wet GBA. |
 | beschrijvingLocatie | AN200 | Een geheel of gedeeltelijke omschrijving van de ligging van een object. |
-| burgerlijkeStaat | N1 | Aanduiding van de burgerlijke staat van de INGESCHREVEN PERSOON |
-| indicatieGeheim | Enumeratie: "Boolean" | Een aanduiding die aangeeft dat gegevens wel of niet verstrekt mogen worden. |
-| gemeenteVanInschrijving | AN80 | Een code die aangeeft in welke gemeente de PL zich bevindt of de gemeente waarnaar de PL is uitgeschreven of de gemeente waar de PL voor de eerste keer is opgenomen. |
-| landWaarvandaanIngeschreven | LAND | Het LAND waar de INGESCHREVEN PERSOON verblijf hield voor (her)vestiging in Nederland. |
-| landWaarnaarVertrokken | LAND | Het LAND dat de INGESCHREVEN PERSOON opgeeft bij vertrek naar het buitenland |
-| datumInschrijvingGemeente | datum | Bij inschrijving op grond van een aangifte door de burger van zijn vestiging in een (volgende) gemeente is dit de aangiftedatum. Bij inschrijving op grond van een geboorte-akte is dit de geboortedatum. Bij ambtshalve inschrijving is dit de datum waarop de betrokkene schriftelijk van het voornemen van ambtshalve opneming mededeling is gedaan. |
-| datumBeginGeldigheidVerblijfplaats | datum | De datum waarop de INGESCHREVEN PERSOON is ingeschreven op zijn of haar laatst bekende verblijfsplaats |
-| signaleringReisdocument | Enumeratie: "Boolean" | Een aanduiding dat aan de ingeschrevene geen reisdocument mag worden verstrekt. |
 | buitenlandsReisdocument | an80 | Een aanduiding dat de ingeschrevene beschikt over één of meer buitenlandse reisdocumenten of is bijgeschreven in een buitenlands reisdocument. |
-| datumVestigingNederland | OnvolledigeDatum | Zogenaamd afleidbaar gegeven (zie regels attribuutsoort). Bij ambtshalve inschrijving is dit de datum waarop de betrokkene schriftelijk van het voornemen tot ambtshalve inschrijving mededeling is gedaan. In andere gevallen is dit de datum waarop de aangifte is ontvangen. |
-| datumVertrekUitNederland | OnvolledigeDatum | De datum van het vertrek naar het buitenland. |
-| redenOpschortingBijhouding | AN200 | Een aanduiding van de reden waarom de bijhouding van de PL is opgeschort. |
-| datumOpschortingBijhouding | datum | De datum waarop de bijhouding van de persoonslijst is gestaakt. |
-| ingezetene | Enumeratie: "Boolean" |  |
+| burgerlijkeStaat | N1 | Aanduiding van de burgerlijke staat van de INGESCHREVEN PERSOON |
+| datumBeginGeldigheidVerblijfplaats | datum | De datum waarop de INGESCHREVEN PERSOON is ingeschreven op zijn of haar laatst bekende verblijfsplaats |
 | datumEindeGeldigheidVerblijfsplaats | Date |  |
-| redenEindeBewoning | AN200 |  |
-| verblijfstitel |  |  |
-| ouder1 | AN40 |  |
+| datumInschrijvingGemeente | datum | Bij inschrijving op grond van een aangifte door de burger van zijn vestiging in een (volgende) gemeente is dit de aangiftedatum. Bij inschrijving op grond van een geboorte-akte is dit de geboortedatum. Bij ambtshalve inschrijving is dit de datum waarop de betrokkene schriftelijk van het voornemen van ambtshalve opneming mededeling is gedaan. |
+| datumOpschortingBijhouding | datum | De datum waarop de bijhouding van de persoonslijst is gestaakt. |
+| datumVertrekUitNederland | OnvolledigeDatum | De datum van het vertrek naar het buitenland. |
+| datumVestigingNederland | OnvolledigeDatum | Zogenaamd afleidbaar gegeven (zie regels attribuutsoort). Bij ambtshalve inschrijving is dit de datum waarop de betrokkene schriftelijk van het voornemen tot ambtshalve inschrijving mededeling is gedaan. In andere gevallen is dit de datum waarop de aangifte is ontvangen. |
+| gemeenteVanInschrijving | AN80 | Een code die aangeeft in welke gemeente de PL zich bevindt of de gemeente waarnaar de PL is uitgeschreven of de gemeente waar de PL voor de eerste keer is opgenomen. |
 | gezinsrelatie | Enumeratie: "Gezinsrelatie" |  |
+| indicatieGeheim | Enumeratie: "Boolean" | Een aanduiding die aangeeft dat gegevens wel of niet verstrekt mogen worden. |
+| ingezetene | Enumeratie: "Boolean" |  |
+| landWaarnaarVertrokken | LAND | Het LAND dat de INGESCHREVEN PERSOON opgeeft bij vertrek naar het buitenland |
+| landWaarvandaanIngeschreven | LAND | Het LAND waar de INGESCHREVEN PERSOON verblijf hield voor (her)vestiging in Nederland. |
+| ouder1 | AN40 |  |
 | ouder2 | AN40 |  |
 | partnerID | AN40 |  |
+| redenEindeBewoning | AN200 |  |
+| redenOpschortingBijhouding | AN200 | Een aanduiding van de reden waarom de bijhouding van de PL is opgeschort. |
+| signaleringReisdocument | Enumeratie: "Boolean" | Een aanduiding dat aan de ingeschrevene geen reisdocument mag worden verstrekt. |
+| verblijfstitel |  |  |
 
 
 
@@ -781,11 +781,11 @@ Attributen van objecttype KadastraleOnroerendeZaakAantekening
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| kadasterIdentificatieAantekening |  | Een door het Kadaster toegekend landelijk uniek nummer aan een aantekening. |
 | aardAantekeningKadastraalObject |  | Aanduiding welk feit er bestaat, genoemd in een Stuk, dat betrekking heeft op een onroerende zaak en dat gevolgen kan hebben voor de uitoefening van rechten op de onroerende zaak. |
 | beschrijvingAantekeningKadastraalObject | AN24 | Een tekstuele toelichting inzake de aantekening bij het kadastraal object. |
 | datumBeginAantekeningKadastraalObject | DATUM | Deze begindatum geeft aan wanneer een bepaalde aantekening rechtsgeldig geworden is. |
 | datumEindeAantekeningKadastraalObject | Datum | Deze einddatum geeft aan wanneer een bepaalde aantekening niet langer meer rechtsgeldig is. |
+| kadasterIdentificatieAantekening |  | Een door het Kadaster toegekend landelijk uniek nummer aan een aantekening. |
 
 
 
@@ -820,13 +820,13 @@ Attributen van objecttype Ingezetene
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanduidingUitgeslotenKiesrecht | boolean | Een aanduiding ter uitvoering van de Kieswet. |
 | aanduidingEuropeesKiesrecht | boolean | Een aanduiding die aangeeft of de persoon een oproep moet ontvangen voor verkiezingen voor het Europees parlement. |
-| indicatieCurateleregister | AN1 | Een aanduiding dat de ingezetene onder curatele is gesteld. |
-| indicatieGezagMinderjarige | AN1 | Een aanduiding die aangeeft wie belast is met het gezag over de minderjarige ingezetene. |
+| aanduidingUitgeslotenKiesrecht | boolean | Een aanduiding ter uitvoering van de Kieswet. |
 | datumVerkrijgingVerblijfstitel | datum | De datum waarop de verblijfstitel van een natuurlijke persoon zijn geldigheid heeft verkregen. |
 | datumVerliesVerblijfstitel | datum | De datum waarop de verblijfstitel van een natuurlijke persoon zijn geldigheid zal verliezen. |
 | indicatieBlokkering | AN1 | De indicatie dat de PL is geblokkeerd wegens een intergemeentelijke verhuizing. |
+| indicatieCurateleregister | AN1 | Een aanduiding dat de ingezetene onder curatele is gesteld. |
+| indicatieGezagMinderjarige | AN1 | Een aanduiding die aangeeft wie belast is met het gezag over de minderjarige ingezetene. |
 | verblijfstitel | Class: "Verblijfstitel" |  |
 
 
@@ -862,16 +862,16 @@ Attributen van objecttype Kunstwerkdeel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatieKunstwerkdeel | NEN3610ID | Een unieke identificatie voor een kunstwerkdeel |
-| statusKunstwerkdeel | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het kunstwerkdeel. |
-| relatieveHoogteliggingKunstwerkdeel | N2 | Aanduiding voor de relatieve hoogte van het kunstwerkdeel |
+| datumBeginGeldigheidKunstwerkdeel | DATUM | De datum waarop het kunstwerkdeel is ontstaan. |
+| datumEindeGeldigheidKunstwerkdeel | DATUM | De datum waarop het kunstwerkdeel ongeldig is geworden. |
 | geometrieKunstwerkdeel |  | De minimaal tweedimensionale geometrische representatie van de omtrekken van een kunstwerkdeel |
+| identificatieKunstwerkdeel | NEN3610ID | Een unieke identificatie voor een kunstwerkdeel |
 | LOD0GeometrieKunstwerkdeel | PuntLijnVlak | De geometrische representatie van een kunstwerkdeel als punt, lijn of vlak in 2.5D op level of detail 0. |
 | LOD1GeometrieKunstwerkdeel | Object | De geometrische representatie van een kunstwerkdeel in 3D op level of detail 1. |
 | LOD2GeometrieKunstwerkdeel | Object | De geometrische representatie van een kunstwerkdeel in 3D op level of detail 2. |
 | lod3GeometrieKunstwerkdeel | Object | De geometrische representatie van een kunstwerkdeel in 3D op level of detail 3. |
-| datumBeginGeldigheidKunstwerkdeel | DATUM | De datum waarop het kunstwerkdeel is ontstaan. |
-| datumEindeGeldigheidKunstwerkdeel | DATUM | De datum waarop het kunstwerkdeel ongeldig is geworden. |
+| relatieveHoogteliggingKunstwerkdeel | N2 | Aanduiding voor de relatieve hoogte van het kunstwerkdeel |
+| statusKunstwerkdeel | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het kunstwerkdeel. |
 
 
 
@@ -906,18 +906,18 @@ Attributen van objecttype MaatschappelijkeActiviteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| KVKnummer | AN8 | Landelijk uniek identificerend administratienummer van een MAATSCHAPPELIJKE ACTIVITEIT zoals toegewezen door de Kamer van Koophandel (KvK). |
-| datumAanvang | Date | De datum van aanvang van de MAATSCHAPPELIJKE ACTIVITEIT |
-| datumEindeGeldig | Date | De datum van beëindiging van de MAATSCHAPPELIJKE ACTIVITEIT |
-| indicatieEconomischActief | INDIC | Aanduiding of de maatschappelijke activiteit zich als onderneming manifesteert. |
-| statutaireNaam | AN100 |  |
-| rechtsvorm | AN100 |  |
-| URL | AN100 |  |
-| RSIN | AN10 |  |
 | adresBinnenland | AN257 |  |
 | adresCorrespondentie | AN100 |  |
-| telefoonnummer | AN20 |  |
+| datumAanvang | Date | De datum van aanvang van de MAATSCHAPPELIJKE ACTIVITEIT |
+| datumEindeGeldig | Date | De datum van beëindiging van de MAATSCHAPPELIJKE ACTIVITEIT |
 | datumFaillisement | DATE |  |
+| indicatieEconomischActief | INDIC | Aanduiding of de maatschappelijke activiteit zich als onderneming manifesteert. |
+| KVKnummer | AN8 | Landelijk uniek identificerend administratienummer van een MAATSCHAPPELIJKE ACTIVITEIT zoals toegewezen door de Kamer van Koophandel (KvK). |
+| rechtsvorm | AN100 |  |
+| RSIN | AN10 |  |
+| statutaireNaam | AN100 |  |
+| telefoonnummer | AN20 |  |
+| URL | AN100 |  |
 
 
 
@@ -952,16 +952,16 @@ Attributen van objecttype OnbegroeidTerreindeel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatieOnbegroeidTerreindeel | NEN3610ID | Een unieke identificatie voor een onbegroeid terreindeel |
-| statusOnbegroeidTerreindeel | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het onbegroeid terreindeel. |
-| relatieveHoogteliggingOnbegroeidTerreindeel | N2 | Aanduiding voor de relatieve hoogte van het onbegroeid terreindeel |
-| fysiekVoorkomenOnbegroeidTerreindeel | Enumeratie: "fysiekVoorkomenOnbegroeidTerrein" | Classificatie van het soort terrein, ingedeeld naar de uiterlijke<br>verschijningsvorm. |
-| plusFysiekVoorkomenOnbegroeidTerreindeel | Enumeratie: "fysiekVoorkomenOnbegroeidTerreinPlus" | Nadere classificatie van het soort terrein, ingedeeld naar de uiterlijke<br>verschijningsvorm. |
-| geometrieOnbegroeidTerreindeel | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een onbegroeid terreindeel. |
-| kruinlijngeometrieOnbegroeidTerreindeel | Curve | Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling. |
-| onbegroeidTerreindeelOpTalud | INDIC | Indicatie of het object wel of niet op een hellend vlak ligt. |
 | datumBeginGeldigheidOnbegroeidTerreindeel | DATUM | De datum waarop het onbegroeid terreindeel is ontstaan. |
 | datumEindeGeldigheidOnbegroeidTerreindeel | DATUM | De datum waarop het onbegroeid terreindeel ongeldig is geworden. |
+| fysiekVoorkomenOnbegroeidTerreindeel | Enumeratie: "fysiekVoorkomenOnbegroeidTerrein" | Classificatie van het soort terrein, ingedeeld naar de uiterlijke<br>verschijningsvorm. |
+| geometrieOnbegroeidTerreindeel | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een onbegroeid terreindeel. |
+| identificatieOnbegroeidTerreindeel | NEN3610ID | Een unieke identificatie voor een onbegroeid terreindeel |
+| kruinlijngeometrieOnbegroeidTerreindeel | Curve | Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling. |
+| onbegroeidTerreindeelOpTalud | INDIC | Indicatie of het object wel of niet op een hellend vlak ligt. |
+| plusFysiekVoorkomenOnbegroeidTerreindeel | Enumeratie: "fysiekVoorkomenOnbegroeidTerreinPlus" | Nadere classificatie van het soort terrein, ingedeeld naar de uiterlijke<br>verschijningsvorm. |
+| relatieveHoogteliggingOnbegroeidTerreindeel | N2 | Aanduiding voor de relatieve hoogte van het onbegroeid terreindeel |
+| statusOnbegroeidTerreindeel | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het onbegroeid terreindeel. |
 
 
 
@@ -996,14 +996,14 @@ Attributen van objecttype OndersteunendWaterdeel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatieOndersteunendWaterdeel | NEN3610ID | Een unieke identificatie voor een ondersteunend waterdeel |
-| statusOndersteunendWaterdeel | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het ondersteunend waterdeel. |
-| geometrieOndersteunendWaterdeel | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een ondersteunend waterdeel. |
-| relatieveHoogteliggingOndersteunendWaterdeel | N2 | Aanduiding voor de relatieve hoogte van het ondersteunend waterdeel |
-| typeOndersteunendWaterdeel | Enumeratie: "typeringOndersteunendWater" | Specificatie van het soort water. |
-| plusTypeOndersteunendWaterdeel | Enumeratie: "typeringOndersteunendWaterPlus" | Specificatie van het soort water, nadere classificatie. |
 | datumBeginGeldigheidOndersteunendWaterdeel | DATUM | De datum waarop het ondersteunend waterdeel is ontstaan. |
 | datumEindeGeldigheidOndersteunendWaterdeel | DATUM | De datum waarop het ondersteunend waterdeel ongeldig is geworden. |
+| geometrieOndersteunendWaterdeel | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een ondersteunend waterdeel. |
+| identificatieOndersteunendWaterdeel | NEN3610ID | Een unieke identificatie voor een ondersteunend waterdeel |
+| plusTypeOndersteunendWaterdeel | Enumeratie: "typeringOndersteunendWaterPlus" | Specificatie van het soort water, nadere classificatie. |
+| relatieveHoogteliggingOndersteunendWaterdeel | N2 | Aanduiding voor de relatieve hoogte van het ondersteunend waterdeel |
+| statusOndersteunendWaterdeel | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het ondersteunend waterdeel. |
+| typeOndersteunendWaterdeel | Enumeratie: "typeringOndersteunendWater" | Specificatie van het soort water. |
 
 
 
@@ -1038,19 +1038,19 @@ Attributen van objecttype OndersteunendWegdeel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatieOndersteunendWegdeel | NEN3610ID | Een unieke identificatie voor een ondersteunend wegdeel |
-| statusOndersteunendWegdeel | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het ondersteunend wegdeel. |
-| geometrieOndersteunendWegdeel | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een ondersteunend wegdeel |
-| relatieveHoogteliggingOndersteunendWegdeel | N2 | Aanduiding voor de relatieve hoogte van het ondersteunend wegdeel |
-| kruinlijngeometrieOndersteunendWegdeel | Curve | Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling. |
-| LOD0GeometrieOndersteunendWegdeel | Surface | De geometrische representatie van een ondersteunend wegdeel als vlak in 2.5D op level of detail 0. |
-| functieOndersteunendWegdeel | Enumeratie: "functieOndersteunendWegdeel" | Specificatie van het soort ondersteunend wegdeel. |
-| plusFunctieOndersteunendWegdeel | Enumeratie: "functieOndersteunendWegdeelPlus" | Specificatie van het soort ondersteunend wegdeel, nadere classificatie. |
-| fysiekVoorkomenOndersteunendWegdeel  | Enumeratie: "fysiekVoorkomenOndersteunendWegdeel" | Mate waarin het ondersteunend wegdeel al of niet verhard is. |
-| plusFysiekVoorkomenOndersteunendWegdeel | Enumeratie: "fysiekVoorkomenOndersteunendWegdeelPlus" | , nadere classificatie. |
-| ondersteunendWegdeelOpTalud | INDIC | Indicatie of het object wel of niet op een hellend vlak ligt. |
 | datumBeginGeldigheidOndersteunendWegdeel | DATUM | De datum waarop het ondersteunend wegdeel is ontstaan. |
 | datumEindeGeldigheidOndersteunendWegdeel | DATUM | De datum waarop het ondersteunend wegdeel ongeldig is geworden. |
+| functieOndersteunendWegdeel | Enumeratie: "functieOndersteunendWegdeel" | Specificatie van het soort ondersteunend wegdeel. |
+| fysiekVoorkomenOndersteunendWegdeel  | Enumeratie: "fysiekVoorkomenOndersteunendWegdeel" | Mate waarin het ondersteunend wegdeel al of niet verhard is. |
+| geometrieOndersteunendWegdeel | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een ondersteunend wegdeel |
+| identificatieOndersteunendWegdeel | NEN3610ID | Een unieke identificatie voor een ondersteunend wegdeel |
+| kruinlijngeometrieOndersteunendWegdeel | Curve | Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling. |
+| LOD0GeometrieOndersteunendWegdeel | Surface | De geometrische representatie van een ondersteunend wegdeel als vlak in 2.5D op level of detail 0. |
+| ondersteunendWegdeelOpTalud | INDIC | Indicatie of het object wel of niet op een hellend vlak ligt. |
+| plusFunctieOndersteunendWegdeel | Enumeratie: "functieOndersteunendWegdeelPlus" | Specificatie van het soort ondersteunend wegdeel, nadere classificatie. |
+| plusFysiekVoorkomenOndersteunendWegdeel | Enumeratie: "fysiekVoorkomenOndersteunendWegdeelPlus" | , nadere classificatie. |
+| relatieveHoogteliggingOndersteunendWegdeel | N2 | Aanduiding voor de relatieve hoogte van het ondersteunend wegdeel |
+| statusOndersteunendWegdeel | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het ondersteunend wegdeel. |
 
 
 
@@ -1085,16 +1085,16 @@ Attributen van objecttype Overbruggingsdeel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatieOverbruggingsdeel | NEN3610ID | Een unieke identificatie voor een overbruggingsdeel. |
-| statusOverbruggingsdeel | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het overbruggingsdeel. |
-| relatieveHoogteliggingOverbruggingsdeel | N2 | Aanduiding voor de relatieve hoogte van de overbruggingsdeel. |
-| typeOverbruggingsdeel | Enumeratie: "typeringOverbruggingsdeel" | Het soort onderdeel van de brugconstructie. |
-| hoortBijTypeOverbrugging | Enumeratie: "typeOverbrugging" | Nadere classificatie van de overbrugging waar het overbruggingsdeel een onderdeel van is. |
-| overbruggingIsBeweegbaar | INDIC | Aanduiding of de brug waar het overbruggingsdeel bij hoort al dan niet beweegbaar is. |
-| geometrieOverbruggingsdeel | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een overbruggingsdeel. |
-| LOD0GeometrieOverbruggingsdeel | Surface | De geometrische representatie van een overbruggingsdeel als vlak in  2.5D op level of detail 0. |
 | datumBeginGeldigheidOverbruggingsdeel | DATUM | De datum waarop de overbruggingsdeel is ontstaan. |
 | datumEindeGeldigheidOverbruggingsdeel | DATUM | De datum waarop het overbruggingsdeel ongeldig is geworden. |
+| geometrieOverbruggingsdeel | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een overbruggingsdeel. |
+| hoortBijTypeOverbrugging | Enumeratie: "typeOverbrugging" | Nadere classificatie van de overbrugging waar het overbruggingsdeel een onderdeel van is. |
+| identificatieOverbruggingsdeel | NEN3610ID | Een unieke identificatie voor een overbruggingsdeel. |
+| LOD0GeometrieOverbruggingsdeel | Surface | De geometrische representatie van een overbruggingsdeel als vlak in  2.5D op level of detail 0. |
+| overbruggingIsBeweegbaar | INDIC | Aanduiding of de brug waar het overbruggingsdeel bij hoort al dan niet beweegbaar is. |
+| relatieveHoogteliggingOverbruggingsdeel | N2 | Aanduiding voor de relatieve hoogte van de overbruggingsdeel. |
+| statusOverbruggingsdeel | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het overbruggingsdeel. |
+| typeOverbruggingsdeel | Enumeratie: "typeringOverbruggingsdeel" | Het soort onderdeel van de brugconstructie. |
 
 
 
@@ -1129,8 +1129,8 @@ Attributen van objecttype OverigBenoemdTerrein
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| overigBenoemdTerreinIdentificatie |  | De unieke aanduiding van een OVERIG BENOEMD TERREIN. |
 | gebruiksdoelOverigBenoemdTerrein | Enumeratie: "gebruiksdoel" | Een categorisering van de gebruiksdoelen van het betreffende OVERIG BENOEMD TERREIN, zoals dit formeel door de overheid als zodanig is toegestaan. |
+| overigBenoemdTerreinIdentificatie |  | De unieke aanduiding van een OVERIG BENOEMD TERREIN. |
 
 
 
@@ -1165,31 +1165,31 @@ Attributen van objecttype NatuurlijkPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| aanduidingBijzonderNederlanderschapPersoon | AN50 |  |
 | aanduidingNaamgebruik | AN50 | Een aanduiding voor de wijze van aanschrijving van de ingeschrevene. |
-| geslachtsnaamAanschrijving | AN200 | De geslachtsnaam waarmee de persoon aangeschreven wil worden. |
-| voornamen | AN200 | De verzameling namen die, gescheiden door spaties, aan de<br>geslachtsnaam voorafgaat.. |
+| aanhefAanschrijving | AN50 | De aanhef waarmee de persoon aangeschreven wil worden. |
 | academischeTitel | AN80 | De ACADEMISCHE TITELs van een NATUURLIJK PERSOON. |
+| achternaam | AN100 |  |
+| adellijkeTitelOfPredikaat | Enumeratie: "adelijkeTitel" | Een omschrijving die aangeeft welke titel of welk predikaat behoort tot de naam (bij adellijke titel geslachtsnaam, bij predikaat voornaam). |
+| anummer | AN20 | Het administratienummer van het kind, bedoeld in de Wet BRP. |
+| burgerservicenummer | AN9 |  |
 | datumGeboorte | AN22 | De datum waarop de ander natuurljjk persoon is geboren. |
-| geboorteplaats | AN200 | De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de ingeschreven persoon is geboren. |
-| geslachtsnaam | AN200 | De (geslachts)naam waarvan de eventueel aanwezige voorvoegsels en adellijke titel/predikaat zijn afgesplitst. |
-| overlijdensplaats | AN200 | De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de persoon is overleden |
-| voorlettersAanschrijving | AN20 | De voorletters waarmee een persoon aangeschreven wil worden. |
 | datumOverlijden | AN22 | De datum van overlijden van een ANDER NATUURLIJK PERSOON |
 | geboorteland |  | Het LAND waar de INGESCHREVEN PERSOON is geboren. |
+| geboorteplaats | AN200 | De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de ingeschreven persoon is geboren. |
 | geslachtsaanduiding | Enumeratie: "geslacht" | Een aanduiding die aangeeft dat de ingeschrevene een man of een vrouw is, of dat het geslacht (nog) onbekend is. |
+| geslachtsnaam | AN200 | De (geslachts)naam waarvan de eventueel aanwezige voorvoegsels en adellijke titel/predikaat zijn afgesplitst. |
+| geslachtsnaamAanschrijving | AN200 | De geslachtsnaam waarmee de persoon aangeschreven wil worden. |
+| handlichting | AN50 | Geeft aan of de rechter handlichting heeft verleend aan: - De Natuurlijk Persoon als eigenaar van een MaatschappelijkeActiviteit - De Natuurlijk Persoon als aansprakelijke |
+| IndicatieAfschermingPersoonsgegevens | boolean | Indicatie Afscherming Persoonsgegevens is een indicatie om aan te geven dat de gegevens van een persoon zijn afgeschermd. |
+| indicatieOverleden | boolean | Indicatie Overleden is een indicatie of de persoon al dan niet overleden is.<br>Deze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar zijn De datum van overlijden is soms niet bekend, maar wel dat iemand overleden is. |
 | landOverlijden |  | Het LAND waar de INGESCHREVEN PERSOON is overleden. |
+| nationaliteit | AN100 |  |
+| overlijdensplaats | AN200 | De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de persoon is overleden |
+| voorlettersAanschrijving | AN20 | De voorletters waarmee een persoon aangeschreven wil worden. |
+| voornamen | AN200 | De verzameling namen die, gescheiden door spaties, aan de<br>geslachtsnaam voorafgaat.. |
 | voornamenAanschrijving | AN200 | De voornamen waarmee een persoon aangeschreven wil worden. |
 | voorvoegselGeslachtsnaam | AN80 | Dat deel van de geslachtsnaam dat voorkomt in GBA Tabel 36, Voorvoegseltabel en, gescheiden door een spatie, vooraf gaat aan de rest van de geslachtsnaam. |
-| aanhefAanschrijving | AN50 | De aanhef waarmee de persoon aangeschreven wil worden. |
-| adellijkeTitelOfPredikaat | Enumeratie: "adelijkeTitel" | Een omschrijving die aangeeft welke titel of welk predikaat behoort tot de naam (bij adellijke titel geslachtsnaam, bij predikaat voornaam). |
-| burgerservicenummer | AN9 |  |
-| handlichting | AN50 | Geeft aan of de rechter handlichting heeft verleend aan: - De Natuurlijk Persoon als eigenaar van een MaatschappelijkeActiviteit - De Natuurlijk Persoon als aansprakelijke |
-| achternaam | AN100 |  |
-| nationaliteit | AN100 |  |
-| aanduidingBijzonderNederlanderschapPersoon | AN50 |  |
-| anummer | AN20 | Het administratienummer van het kind, bedoeld in de Wet BRP. |
-| indicatieOverleden | boolean | Indicatie Overleden is een indicatie of de persoon al dan niet overleden is.<br>Deze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar zijn De datum van overlijden is soms niet bekend, maar wel dat iemand overleden is. |
-| IndicatieAfschermingPersoonsgegevens | boolean | Indicatie Afscherming Persoonsgegevens is een indicatie om aan te geven dat de gegevens van een persoon zijn afgeschermd. |
 
 
 
@@ -1224,16 +1224,16 @@ Attributen van objecttype OverigBouwwerk
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatieOverigBouwwerk | NEN3610ID | De unieke identificatie van het overig bouwwerk zoals is toegekend in de IMGeo administratie. |
-| statusOverigBouwwerk | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het overig bouwwerk object |
-| relatieveHoogteliggingOverigBouwwerk | N2 | Aanduiding voor de relatieve hoogte van het overig bouwwerk. |
+| datumBeginGeldigheidOverigBouwwerk | DATUM | De datum waarop het overig bouwwerk  is ontstaan. |
+| datumEindeGeldigheidOverigBouwwerk | DATUM | De datum waarop het overig bouwwerk ongeldig is geworden. |
 | geometrieOverigBouwwerk | Vlak | De minimaal tweedimensionale geometrische representatie van de omtrekken van een overig bouwwerk. |
+| identificatieOverigBouwwerk | NEN3610ID | De unieke identificatie van het overig bouwwerk zoals is toegekend in de IMGeo administratie. |
 | LOD0GeometrieOverigBouwwerk | PuntLijnVlak | De geometrische representatie van een overig bouwwerk als punt, lijn of vlak 2.5D op level of detail 0. |
 | LOD1GeometrieOverigBouwwerk | Object | De geometrische representatie van een overig bouwwerk in 3D op level of detail 1. |
 | LOD2GeometrieOverigBouwwerk | Object | De geometrische representatie van een overig bouwwerk in 3D op level of detail 2. |
 | lod3GeometrieOverigBouwwerk | Object | De geometrische representatie van een overig bouwwerk in 3D op level of detail 3. |
-| datumBeginGeldigheidOverigBouwwerk | DATUM | De datum waarop het overig bouwwerk  is ontstaan. |
-| datumEindeGeldigheidOverigBouwwerk | DATUM | De datum waarop het overig bouwwerk ongeldig is geworden. |
+| relatieveHoogteliggingOverigBouwwerk | N2 | Aanduiding voor de relatieve hoogte van het overig bouwwerk. |
+| statusOverigBouwwerk | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het overig bouwwerk object |
 
 
 
@@ -1268,9 +1268,9 @@ Attributen van objecttype OverigGebouwdObject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| overigGebouwdObjectIdentificatie |  | De unieke identificatie van een OVERIG GEBOUWD OBJECT |
 | bouwjaar | JAAR | De aanduiding van het jaar waarin het OVERIG GEBOUWD OBJECT oorspronkelijk als bouwkundig gereed is opgeleverd. |
 | indicatiePlanobject | INDIC | Een aanduiding dat de verwijzing naar het overig bouwwerk in de BGT een geplande geometriewijziging van een bestaand overig bouwwerk betreft. |
+| overigGebouwdObjectIdentificatie |  | De unieke identificatie van een OVERIG GEBOUWD OBJECT |
 
 
 
@@ -1305,20 +1305,20 @@ Attributen van objecttype NietNatuurlijkPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| NNPID | N9 | Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties. |
-| statutaireNaam | AN500 | Naam van de niet-natuurlijke persoon zoals deze is vastgelegd in de statuten (rechtspersoon) of in de vennootschapsovereenkomst is overeengekomen (Vennootschap onder firma of Commanditaire vennootschap). |
 | datumAanvang | DATUM | {nog niet in NHR uitgewerkt |
-| rechtsvorm | Enumeratie: "soortRechtsvorm" | Aanduiding van de vorm die in rechte bekend is van de INGESCHREVEN NIET-NATUURLIJKE PERSOON |
 | datumEinde | DATUM | {nog niet in NHR uitgewerkt |
-| statutaireZetel | AN40 | De plaats waar de INGESCHREVEN NIET-NATUURLIJKE PERSOON volgens haar statuten gevestigd is. |
+| datumUitschrijving | DATUM | De datum dat de de Niet-Natuurlijk persoon is uitgeschreven. |
 | datumVoortzetting | DATUM | {nog niet in NHR uitgewerkt |
 | faxnummer | AN20 | Faxnummer waaronder het subject in de regel bereikbaar is. |
-| KVKnummer | AN8 | Landelijk uniek identificerend administratienummer van een MAATSCHAPPELIJKE ACTIVITEIT behorend bij een SUBJECT zoals toegewezen door de Kamer van Koophandel (KvK). |
 | ingeschreven | boolean |  |
-| RSINNummer | AN8 |  |
-| datumUitschrijving | DATUM | De datum dat de de Niet-Natuurlijk persoon is uitgeschreven. |
-| websiteURL | AN200 | Het label of etiket dat aan de specifieke informatiebron, zoals een webpagina, een bestand of een plaatje op internet is toegewezen waar het SUBJECT in de regel op het internet vindbaar is. |
 | inOprichting | boolean |  |
+| KVKnummer | AN8 | Landelijk uniek identificerend administratienummer van een MAATSCHAPPELIJKE ACTIVITEIT behorend bij een SUBJECT zoals toegewezen door de Kamer van Koophandel (KvK). |
+| NNPID | N9 | Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties. |
+| rechtsvorm | Enumeratie: "soortRechtsvorm" | Aanduiding van de vorm die in rechte bekend is van de INGESCHREVEN NIET-NATUURLIJKE PERSOON |
+| RSINNummer | AN8 |  |
+| statutaireNaam | AN500 | Naam van de niet-natuurlijke persoon zoals deze is vastgelegd in de statuten (rechtspersoon) of in de vennootschapsovereenkomst is overeengekomen (Vennootschap onder firma of Commanditaire vennootschap). |
+| statutaireZetel | AN40 | De plaats waar de INGESCHREVEN NIET-NATUURLIJKE PERSOON volgens haar statuten gevestigd is. |
+| websiteURL | AN200 | Het label of etiket dat aan de specifieke informatiebron, zoals een webpagina, een bestand of een plaatje op internet is toegewezen waar het SUBJECT in de regel op het internet vindbaar is. |
 
 
 
@@ -1388,17 +1388,17 @@ Attributen van objecttype OverigeScheiding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatieOverigeScheiding | NEN3610ID | Een unieke identificatie voor een overige scheiding. |
-| statusOverigeScheiding | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van de overige scheiding. |
-| relatieveHoogteliggingOverigeScheiding | N2 | Aanduiding voor de relatieve hoogte van de overige scheiding. |
+| datumBeginGeldigheidOverigeScheiding | DATUM | De datum waarop de overige scheiding is ontstaan. |
+| datumEindeGeldigheidOverigeScheiding | DATUM | De datum waarop de overige scheiding ongeldig is geworden. |
 | geometrieOverigeScheiding | Vlak | De minimaal tweedimensionale geometrische representatie van de omtrekken van een overige scheiding |
-| typeOverigeScheiding | Enumeratie: "typeringOverigeScheiding" | Specificatie van het soort overige scheiding. |
+| identificatieOverigeScheiding | NEN3610ID | Een unieke identificatie voor een overige scheiding. |
 | LOD0GeometrieOverigeScheiding | PuntLijnVlak | De geometrische representatie van een overige scheiding als punt, lijn of vlak in 2.5D op level of detail 0. |
 | LOD1GeometrieOverigeScheiding | Object | De geometrische representatie van een overige scheiding in 3D op level of detail 1. |
 | LOD2GeometrieOverigeScheiding | Object | De geometrische representatie van een overige scheiding in 3D op level of detail 2. |
 | lod3GeometrieOverigeScheiding | Object | De geometrische representatie van een overige scheiding in 3D op level of detail 3. |
-| datumBeginGeldigheidOverigeScheiding | DATUM | De datum waarop de overige scheiding is ontstaan. |
-| datumEindeGeldigheidOverigeScheiding | DATUM | De datum waarop de overige scheiding ongeldig is geworden. |
+| relatieveHoogteliggingOverigeScheiding | N2 | Aanduiding voor de relatieve hoogte van de overige scheiding. |
+| statusOverigeScheiding | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van de overige scheiding. |
+| typeOverigeScheiding | Enumeratie: "typeringOverigeScheiding" | Specificatie van het soort overige scheiding. |
 
 
 
@@ -1433,14 +1433,14 @@ Attributen van objecttype Reisdocument
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| soort |  | Het soort reisdocument dat verstrekt is aan de INGEZETENE. |
-| reisdocumentnummer | AN9 | Het nummer van het verstrekte Nederlandse reisdocument. |
-| datumUitgifte |  | De datum die hieromtrent in het reisdocument staat. |
-| autoriteitVanAfgifte |  | De in het reisdocument vermelde autoriteit van verstrekking. |
-| datumIngangDocument |  | De datum waarop het reisdocument is verstrekt, is ingehouden of de verklaring van vermissing is afgelegd. |
-| datumEindeGeldigheidDocument |  | Datum waarop een reisdocument, dat aan de INGEZETENE is verstrekt, zijn geldigheid verliest. |
-| datumInhoudingOfVermissing |  | Datum waarop een reisdocument definitief is ingehouden dan wel als vermist is geregistreerd door de paspoortautoriteit. |
 | aanduidingInhoudingVermissing | Enumeratie: "aanduidingInhoudingVermissingReisdocument" | Reden van het definitief aan het verkeer onttrokken zijn van het reisdocument. |
+| autoriteitVanAfgifte |  | De in het reisdocument vermelde autoriteit van verstrekking. |
+| datumEindeGeldigheidDocument |  | Datum waarop een reisdocument, dat aan de INGEZETENE is verstrekt, zijn geldigheid verliest. |
+| datumIngangDocument |  | De datum waarop het reisdocument is verstrekt, is ingehouden of de verklaring van vermissing is afgelegd. |
+| datumInhoudingOfVermissing |  | Datum waarop een reisdocument definitief is ingehouden dan wel als vermist is geregistreerd door de paspoortautoriteit. |
+| datumUitgifte |  | De datum die hieromtrent in het reisdocument staat. |
+| reisdocumentnummer | AN9 | Het nummer van het verstrekte Nederlandse reisdocument. |
+| soort |  | Het soort reisdocument dat verstrekt is aan de INGEZETENE. |
 
 
 
@@ -1475,16 +1475,16 @@ Attributen van objecttype Scheiding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatieScheiding | NEN3610ID | Een unieke identificatie voor een scheiding. |
-| statusScheiding | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van de scheiding. |
-| relatieveHoogteliggingScheiding | N2 | Aanduiding voor de relatieve hoogte van de scheiding. |
+| datumBeginGeldigheidScheiding | DATUM | De datum waarop de scheiding is ontstaan. |
+| datumEindeGeldigheidScheiding | DATUM | De datum waarop het scheiding ongeldig is geworden. |
 | geometrieScheiding | Vlak | De minimaal tweedimensionale geometrische representatie van de omtrekken van een scheiding |
+| identificatieScheiding | NEN3610ID | Een unieke identificatie voor een scheiding. |
 | LOD0GeometrieScheiding | PuntLijnVlak | De geometrische representatie van een scheiding als punt, lijn of vlak in 2.5D op level of detail 0. |
 | LOD1GeometrieScheiding | Object | De geometrische representatie van een scheiding in 3D op level of detail 1. |
 | LOD2GeometrieScheiding | Object | De geometrische representatie van een scheiding in 3D op level of detail 2. |
 | lod3GeometrieScheiding | Object | De geometrische representatie van een scheiding in 3D op level of detail 3. |
-| datumBeginGeldigheidScheiding | DATUM | De datum waarop de scheiding is ontstaan. |
-| datumEindeGeldigheidScheiding | DATUM | De datum waarop het scheiding ongeldig is geworden. |
+| relatieveHoogteliggingScheiding | N2 | Aanduiding voor de relatieve hoogte van de scheiding. |
+| statusScheiding | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van de scheiding. |
 
 
 
@@ -1519,13 +1519,13 @@ Attributen van objecttype Spoor
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatieSpoor | NEN3610ID | Een unieke identificatie voor een spoor |
-| statusSpoor | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het spoor. |
-| relatieveHoogteliggingSpoor | N2 | Aanduiding voor de relatieve hoogte van het spoor |
-| geometrieSpoor | Curve | De geometrische representatie van een spoor als lijn. |
-| LOD0GeometrieSpoor | Curve | De geometrische representatie van een spoor als lijn in 2.5D op level of detail 0. |
 | datumBeginGeldigheidSpoor | DATUM | De datum waarop het spoor is ontstaan. |
 | datumEindeGeldigheidSpoor | DATUM | De datum waarop het spoor ongeldig is geworden. |
+| geometrieSpoor | Curve | De geometrische representatie van een spoor als lijn. |
+| identificatieSpoor | NEN3610ID | Een unieke identificatie voor een spoor |
+| LOD0GeometrieSpoor | Curve | De geometrische representatie van een spoor als lijn in 2.5D op level of detail 0. |
+| relatieveHoogteliggingSpoor | N2 | Aanduiding voor de relatieve hoogte van het spoor |
+| statusSpoor | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het spoor. |
 
 
 
@@ -1562,15 +1562,15 @@ Attributen van objecttype Rechtspersoon
 | :--- | :--- | :--- |
 | adresBinnenland | AN257 | De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is. |
 | adresBuitenland | AN149 | De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland. |
-| rekeningnummer | IBAN | Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert. |
+| adresCorrespondentie | AN100 | postbus of antwoordnummer |
 | emailadres | AN80 | Elektronisch postadres waaronder het subject in de regel bereikbaar is. |
 | faxnummer | AN20 | Faxnummer waaronder het subject in de regel bereikbaar is. |
 | identificatie | AN17 | De unieke identificatie van het SUBJECT |
-| naam | AN200 | De benaming van het SUBJECT |
 | KVKnummer | AN20 |  |
+| naam | AN200 | De benaming van het SUBJECT |
 | rechtsvorm | AN100 | Bron: Handelsregister |
+| rekeningnummer | IBAN | Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert. |
 | telefoonnummer | AN20 | Telefoonnummer waaronder het subject in de regel bereikbaar is. |
-| adresCorrespondentie | AN100 | postbus of antwoordnummer |
 
 
 
@@ -1605,14 +1605,14 @@ Attributen van objecttype Tenaamstelling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatieTenaamstelling |  | Een door het Kadaster toegekende landelijk uniek nummer aan een tenaamstelling |
 | aandeelInRecht |  | Het aandeel waarvoor de gerechtigde deelneemt in het recht. |
-| verkregenNamensSamenwerkingsverband | Enumeratie: "soortRechtsvorm" | De aard van het samenwerkingsverband (zoals Maatschap, VOF of CV) namens welke een natuurlijk persoon deze tenaamstelling heeft verkregen. |
-| exploitantcode | Enumeratie: "codeExploitant" | <font color="#000080">Het recht wat de exploitant van de eigenaar te weten de gemeente heeft gekregen.</font> |
+| burgerlijkeStaatTenTijdeVanVerkrijging | Enumeratie: "burgelijkeStaat" | De burgerlijke staat is een aanduiding voor de leefvorm van een persoon, zoals deze volgens het brondocument ten tijde van de verkrijging van het recht bestond. Leefvorm van een persoon heeft betrekking op huwelijk c.q. geregistreerd partnerschap. |
 | datumBeginGeldigheid | Date |  |
 | datumEindeGeldigheid | Date |  |
-| burgerlijkeStaatTenTijdeVanVerkrijging | Enumeratie: "burgelijkeStaat" | De burgerlijke staat is een aanduiding voor de leefvorm van een persoon, zoals deze volgens het brondocument ten tijde van de verkrijging van het recht bestond. Leefvorm van een persoon heeft betrekking op huwelijk c.q. geregistreerd partnerschap. |
+| exploitantcode | Enumeratie: "codeExploitant" | <font color="#000080">Het recht wat de exploitant van de eigenaar te weten de gemeente heeft gekregen.</font> |
+| identificatieTenaamstelling |  | Een door het Kadaster toegekende landelijk uniek nummer aan een tenaamstelling |
 | verklaringInzakeDerdenBescherming | AN100 |  |
+| verkregenNamensSamenwerkingsverband | Enumeratie: "soortRechtsvorm" | De aard van het samenwerkingsverband (zoals Maatschap, VOF of CV) namens welke een natuurlijk persoon deze tenaamstelling heeft verkregen. |
 
 
 
@@ -1647,13 +1647,13 @@ Attributen van objecttype Tunneldeel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatieTunneldeel | NEN3610ID | Een unieke identificatie voor een tunneldeel |
-| statusTunneldeel | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het tunneldeel |
-| relatieveHoogteliggingTunneldeel | N2 | Aanduiding voor de relatieve hoogte van het tunneldeel |
-| geometrieTunneldeel | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een tunneldeel. |
-| LOD0GeometrieTunneldeel | Surface | De geometrische representatie van een tunneldeel als vlak in 2.5D op level of detail 0. |
 | datumBeginGeldigheidTunneldeel | DATUM | De datum waarop het tunneldeel is ontstaan. |
 | datumEindeGeldigheidTunneldeel | DATUM | De datum waarop het tunneldeel ongeldig is geworden. |
+| geometrieTunneldeel | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een tunneldeel. |
+| identificatieTunneldeel | NEN3610ID | Een unieke identificatie voor een tunneldeel |
+| LOD0GeometrieTunneldeel | Surface | De geometrische representatie van een tunneldeel als vlak in 2.5D op level of detail 0. |
+| relatieveHoogteliggingTunneldeel | N2 | Aanduiding voor de relatieve hoogte van het tunneldeel |
+| statusTunneldeel | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het tunneldeel |
 
 
 
@@ -1688,19 +1688,19 @@ Attributen van objecttype Vestiging
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| vestigingsnummer | AN12 | Landelijk uniek identificerend administratienummer van een VESTIGING zoals toegewezen door de Kamer van Koophandel (KvK). |
-| handelsnaam | AN625 | De naam van de vestiging waaronder gehandeld wordt. |
-| verkorteNaam | AN45 | De administratieve naam in het handelsregister indien de naam langer is dan 45 karakters |
+| commercieleVestiging | Enumeratie: "Boolean" |  |
 | datumAanvang | DATUM | De datum van aanvang van de vestiging. |
 | datumEinde | DATUM | De datum  van<b> </b>beëindiging van de vestiging |
 | datumVoortzetting | DATUM | De datum van voortzetting van de vestiging. |
-| toevoegingAdres | AN100 | Nadere aanduiding van het adres van een vestiging |
 | fulltimeWerkzameMannen | N5 | Het aantal mannen dat minimaal 12 uur per week werkzaam is in of vanuit de vestiging. |
-| parttimeWerkzameMannen | N5 | Het aantal mannen dat minder dan 12 uur per week werkzaam is in of vanuit de vestiging |
 | fulltimeWerkzameVrouwen | N5 | Het aantal vrouwen dat minimaal 12 uur per week werkzaam is in of vanuit de vestiging |
+| handelsnaam | AN625 | De naam van de vestiging waaronder gehandeld wordt. |
+| parttimeWerkzameMannen | N5 | Het aantal mannen dat minder dan 12 uur per week werkzaam is in of vanuit de vestiging |
 | parttimeWerkzameVrouwen | N5 | Het aantal vrouwen dat minder dan 12 uur per week werkzaam is in of vanuit de vestiging. |
-| commercieleVestiging | Enumeratie: "Boolean" |  |
+| toevoegingAdres | AN100 | Nadere aanduiding van het adres van een vestiging |
 | totaalWerkzamePersonen | N5 |  |
+| verkorteNaam | AN45 | De administratieve naam in het handelsregister indien de naam langer is dan 45 karakters |
+| vestigingsnummer | AN12 | Landelijk uniek identificerend administratienummer van een VESTIGING zoals toegewezen door de Kamer van Koophandel (KvK). |
 
 
 
@@ -1735,14 +1735,14 @@ Attributen van objecttype Vegetatieobject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatieVegetatieobject | NEN3610ID | Een unieke identificatie voor een vegetatieobject. |
-| statusVegetatieobject | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van he vegetatieobject. |
-| typeVegetatieobject | Enumeratie: "typeringVegetatieobject" | De specificatie van het soort vrijstaand vegetatieobject. |
-| relatieveHoogteliggingVegetatieobject | N2 | Aanduiding voor de relatieve hoogte van het vegetatieobject |
-| geometrieVegetatieobject | PuntLijnVlak | De geometrische representatie van een vegetatieobject als punt, lijn of vlak. |
-| LOD0GeometrieVegetatieobject | PuntLijnVlak | De geometrische representatie van een vegetatieobject als punt, lijn of vlak in 2.5D op level of detail 0. |
 | datumBeginGeldigheidVegetatieobject | DATUM | De datum waarop het vegetatieobject is ontstaan. |
 | datumEindeGeldigheidVegetatieobject | DATUM | De datum waarop het vegetatieobject ongeldig is geworden. |
+| geometrieVegetatieobject | PuntLijnVlak | De geometrische representatie van een vegetatieobject als punt, lijn of vlak. |
+| identificatieVegetatieobject | NEN3610ID | Een unieke identificatie voor een vegetatieobject. |
+| LOD0GeometrieVegetatieobject | PuntLijnVlak | De geometrische representatie van een vegetatieobject als punt, lijn of vlak in 2.5D op level of detail 0. |
+| relatieveHoogteliggingVegetatieobject | N2 | Aanduiding voor de relatieve hoogte van het vegetatieobject |
+| statusVegetatieobject | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van he vegetatieobject. |
+| typeVegetatieobject | Enumeratie: "typeringVegetatieobject" | De specificatie van het soort vrijstaand vegetatieobject. |
 
 
 
@@ -1777,14 +1777,14 @@ Attributen van objecttype Waterdeel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatieWaterdeel | NEN3610ID | Een unieke identificatie voor een waterdeel |
-| statusWaterdeel | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het waterdeel. |
-| relatieveHoogteliggingWaterdeel | N2 | Aanduiding voor de relatieve hoogte van het waterdeel |
-| geometrieWaterdeel | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een waterdeel. |
-| typeWaterdeel | Enumeratie: "typeringWater" | Specificatie van het soort water |
-| plusTypeWaterdeel | Enumeratie: "typeringWaterPlus" | Specificatie van het soort water, nadere classificatie. |
 | datumBeginGeldigheidWaterdeel | DATUM | De datum waarop het waterdeel is ontstaan. |
 | datumEindeGeldigheidWaterdeel | DATUM | De datum waarop het waterdeel ongeldig is geworden. |
+| geometrieWaterdeel | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een waterdeel. |
+| identificatieWaterdeel | NEN3610ID | Een unieke identificatie voor een waterdeel |
+| plusTypeWaterdeel | Enumeratie: "typeringWaterPlus" | Specificatie van het soort water, nadere classificatie. |
+| relatieveHoogteliggingWaterdeel | N2 | Aanduiding voor de relatieve hoogte van het waterdeel |
+| statusWaterdeel | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het waterdeel. |
+| typeWaterdeel | Enumeratie: "typeringWater" | Specificatie van het soort water |
 
 
 
@@ -1819,19 +1819,19 @@ Attributen van objecttype Wegdeel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatieWegdeel | NEN3610ID | Een unieke identificatie voor een wegdeel |
-| statusWegdeel | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het wegdeel. |
-| relatieveHoogteliggingWegdeel | N2 | Aanduiding voor de relatieve hoogte van het wegdeel |
-| geometrieWegdeel | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een wegdeel. |
-| kruinlijngeometrieWegdeel | Curve | Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling. |
-| LOD0GeometrieWegdeel | Surface | De geometrische representatie van een wegdeel als vlak in 2.5D op level of detail 0. |
-| functieWegdeel | Enumeratie: "functieWeg" | Specificatie van het hoofdgebruiksdoel van het wegdeel. |
-| plusFunctieWegdeel | Enumeratie: "functieWegPlus" | Specificatie van het hoofdgebruiksdoel van het wegdeel, nadere classificatie. |
-| fysiekVoorkomenWegdeel | Enumeratie: "fysiekVoorkomenWeg" | Mate waarin het wegdeel al of niet verhard is. |
-| plusFysiekVoorkomenWegdeel | Enumeratie: "fysiekVoorkomenWegPlus" | Mate waarin het wegdeel al of niet verhard is, nadere classificatie. |
-| wegdeelOpTalud | INDIC | Indicatie of het object wel of niet op een hellend vlak ligt. |
 | datumBeginGeldigheidWegdeel | Datum | De datum waarop het wegdeel is ontstaan. |
 | datumEindeGeldigheidWegdeel | Datum | De datum waarop het wegdeel ongeldig is geworden. |
+| functieWegdeel | Enumeratie: "functieWeg" | Specificatie van het hoofdgebruiksdoel van het wegdeel. |
+| fysiekVoorkomenWegdeel | Enumeratie: "fysiekVoorkomenWeg" | Mate waarin het wegdeel al of niet verhard is. |
+| geometrieWegdeel | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een wegdeel. |
+| identificatieWegdeel | NEN3610ID | Een unieke identificatie voor een wegdeel |
+| kruinlijngeometrieWegdeel | Curve | Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling. |
+| LOD0GeometrieWegdeel | Surface | De geometrische representatie van een wegdeel als vlak in 2.5D op level of detail 0. |
+| plusFunctieWegdeel | Enumeratie: "functieWegPlus" | Specificatie van het hoofdgebruiksdoel van het wegdeel, nadere classificatie. |
+| plusFysiekVoorkomenWegdeel | Enumeratie: "fysiekVoorkomenWegPlus" | Mate waarin het wegdeel al of niet verhard is, nadere classificatie. |
+| relatieveHoogteliggingWegdeel | N2 | Aanduiding voor de relatieve hoogte van het wegdeel |
+| statusWegdeel | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het wegdeel. |
+| wegdeelOpTalud | INDIC | Indicatie of het object wel of niet op een hellend vlak ligt. |
 
 
 
@@ -1867,11 +1867,11 @@ Attributen van objecttype Verblijfstitel
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | aanduidingVerblijfstitel | AN30 | De code uit de Verblijfstiteltabel die aangeeft over welke verblijfsrechtelijke status de ingezetene beschikt. |
-| datumBeginGeldigheidVerblijfstitel | Date | De datum waarop de verblijfstitel is ontstaan. |
-| Verblijfstitel code | AN30 |  |
 | Datum begin | Date |  |
 | Datum einde | Date |  |
 | Datum Opname | Date |  |
+| datumBeginGeldigheidVerblijfstitel | Date | De datum waarop de verblijfstitel is ontstaan. |
+| Verblijfstitel code | AN30 |  |
 
 
 
@@ -1906,11 +1906,11 @@ Attributen van objecttype WOZ-deelobject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| WOZDeelobjectNummer | N6 | Uniek identificatienummer voor het deelobject binnen een WOZ-object. |
 | codeWOZDeelobject |  | Aanduiding van het soort deelobject ten behoeve van een correcte interpretatie van de onderbouwing van de taxatie. |
-| statusWOZDeelobject | Enumeratie: "statusWOZ(Deel)Object" | De fase van de levenscyclus van een WOZ-DEELOBJECT, waarin het betreffende WOZ-DEELOBJECT zich bevindt. |
 | datumBeginGeldigheidDeelobject | DATUM | Een aanduiding op welk tijdstip een deelobject is ontstaan. |
 | datumEindeGeldigheidDeelobject | DATUM | Een aanduiding op welk tijdstip een deelobject is beëindigd. |
+| statusWOZDeelobject | Enumeratie: "statusWOZ(Deel)Object" | De fase van de levenscyclus van een WOZ-DEELOBJECT, waarin het betreffende WOZ-DEELOBJECT zich bevindt. |
+| WOZDeelobjectNummer | N6 | Uniek identificatienummer voor het deelobject binnen een WOZ-object. |
 
 
 
@@ -1945,16 +1945,16 @@ Attributen van objecttype WOZ-object
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| WOZObjectnummer | AN12 | De unieke aanduiding van een WOZ-OBJECT. |
-| geometrieWOZObject | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een WOZ-OBJECT. |
-| statusWOZObject | Enumeratie: "statusWOZ(Deel)Object" | De fase van de levenscyclus van een WOZ-OBJECT, waarin het betreffende WOZ-OBJECT zich bevindt. |
-| grondoppervlakte | N12 | De oppervlakte grond in vierkante meters die behoort tot het WOZ-object. |
-| gebruikscode | Enumeratie: "soortGebruik" | Aanduiding van het feitelijk gebruik van een object zoals dat ten grondslag heeft gelegen aan de waardebepaling en voor zover relevant voor de afnemers, uitgedrukt in een code. |
-| soortobjectcode |  | Aanduiding van het soort object ten behoeve van een correcte bepaling van de waarde. |
-| vastgesteldeWaarde | N11 | Waarde van het WOZ-object op de laatst bekende peildatum zoals deze in het kader van de Wet WOZ is vastgesteld. |
-| datumWaardepeiling | DATUM | De laatst bekende datum waarnaar de waarde van het WOZ-object wordt bepaald. |
 | datumBeginGeldigheidWOZObject | DATUM | Een aanduiding op welk tijdstip een object is ontstaan. |
 | datumEindeGeldigheidWOZObject | DATUM | Een aanduiding op welk tijdstip een object is beëindigd. |
+| datumWaardepeiling | DATUM | De laatst bekende datum waarnaar de waarde van het WOZ-object wordt bepaald. |
+| gebruikscode | Enumeratie: "soortGebruik" | Aanduiding van het feitelijk gebruik van een object zoals dat ten grondslag heeft gelegen aan de waardebepaling en voor zover relevant voor de afnemers, uitgedrukt in een code. |
+| geometrieWOZObject | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een WOZ-OBJECT. |
+| grondoppervlakte | N12 | De oppervlakte grond in vierkante meters die behoort tot het WOZ-object. |
+| soortobjectcode |  | Aanduiding van het soort object ten behoeve van een correcte bepaling van de waarde. |
+| statusWOZObject | Enumeratie: "statusWOZ(Deel)Object" | De fase van de levenscyclus van een WOZ-OBJECT, waarin het betreffende WOZ-OBJECT zich bevindt. |
+| vastgesteldeWaarde | N11 | Waarde van het WOZ-object op de laatst bekende peildatum zoals deze in het kader van de Wet WOZ is vastgesteld. |
+| WOZObjectnummer | AN12 | De unieke aanduiding van een WOZ-OBJECT. |
 
 
 
@@ -1989,10 +1989,10 @@ Attributen van objecttype WOZ-Waarde
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumWaardepeiling | DATUM | De datum waarnaar de waarde van het WOZ-object wordt bepaald. |
-| vastgesteldeWaarde | N11 | Waarde van het WOZ-object zoals deze in het kader van de Wet WOZ is vastgesteld. |
 | datumPeilingToestand | DATUM | Het in artikel 18 van de Wet WOZ bedoelde moment waarop de staat van de onroerende zaak in formele zin maatgevend is voor de waardebepaling. |
+| datumWaardepeiling | DATUM | De datum waarnaar de waarde van het WOZ-object wordt bepaald. |
 | statusBeschikking | Enumeratie: "statusWOZ-Beschikking" | De fase van de levenscyclus van een WAARDE, zoals tot uitdrukking komt in de juridische status van de WOZ-beschikking. |
+| vastgesteldeWaarde | N11 | Waarde van het WOZ-object zoals deze in het kader van de Wet WOZ is vastgesteld. |
 
 
 
@@ -2027,10 +2027,10 @@ Attributen van objecttype ZakelijkRecht
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatieZakelijkRecht |  | Een door het Kadaster toegekende landelijk uniek nummer aan een recht. |
 | aardZakelijkRecht |  | Een aanduiding voor de aard van het recht. |
-| datumIngangRecht | DATUM | De datum waarop de notariële akte is ingeschreven of anderszins een brondocument waar het zakelijk recht op berust is ingeschreven. |
 | datumEindeRecht | DATUM | De laatste dag waarop het recht volgens het brondocument, op grond waarvan het recht is opgevoerd, nog van toepassing zal zijn. |
+| datumIngangRecht | DATUM | De datum waarop de notariële akte is ingeschreven of anderszins een brondocument waar het zakelijk recht op berust is ingeschreven. |
+| identificatieZakelijkRecht |  | Een door het Kadaster toegekende landelijk uniek nummer aan een recht. |
 | toelichtingBewaarder | AN100 | ToelichtingBewaarder is een toelichtende tekst die de bewaarder vermeld wil hebben bij de onroerende zaak. |
 | gestapeld recht | Class: "ZakelijkRecht" |  |
 
@@ -2067,12 +2067,12 @@ Attributen van objecttype Zekerheidsrecht
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| aandeelInBetrokkenRecht |  | Het aandeel in het betrokken recht, waaraan wordt gerefereerd. |
+| datumEindeRecht | DATUM | De laatste dag waarop het recht volgens het brondocument, op grond waarvan het recht is opgevoerd, nog van toepassing zal zijn. |
+| datumIngangRecht | DATUM | De datum waarop de notariële akte is ingeschreven of anderszins een brondocument waar het zekerheidsrecht op berust is ingeschreven. |
 | identificatieZekerheidsrecht |  | Een door het Kadaster toegekende landelijk uniek nummer aan een zekerheidsrecht. |
 | omschrijvingBetrokkenRecht | AN | Een beschrijving van het onbekende recht waarop het zekerheidsrecht betrekking heeft. |
 | typeZekerheidsrecht | Enumeratie: "typeringZekerheidsrecht" | Nadere classificatie van het zekerheidsrecht. |
-| aandeelInBetrokkenRecht |  | Het aandeel in het betrokken recht, waaraan wordt gerefereerd. |
-| datumIngangRecht | DATUM | De datum waarop de notariële akte is ingeschreven of anderszins een brondocument waar het zekerheidsrecht op berust is ingeschreven. |
-| datumEindeRecht | DATUM | De laatste dag waarop het recht volgens het brondocument, op grond waarvan het recht is opgevoerd, nog van toepassing zal zijn. |
 
 
 
@@ -2080,41 +2080,6 @@ Attributen van objecttype Zekerheidsrecht
 
 
 ## Enumeraties Model Kern RSGB
-
-
-### statusGeoObject
-Geen Definitie
-
-Het enumeratie statusGeoObject kent de volgende waarden:
-
-* **bestaand**: Situatie waarin het object wordt / kan worden gebruikt voor het doel waarvoor het is gebouwd / aangelegd.
-* **plan**: Situatie die ontstaat op het moment van verlening van een beschikking voor bouw of aanleg en duurt tot het moment waarop het object gereed is voor het beoogde gebruik.
-* **historie**: Situatie waarin het geregistreerde object fysiek niet meer bestaat.
-
-
-De enumeratie statusGeoObject heeft de volgende kenmerken:
-
-??? info "Kenmerken Model statusGeoObject"
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | statusGeoObject |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.4 |
-    | created | 2025-03-26 11:13:39 |
-    | modified | 2025-03-26 16:14:56 |
-    | id | EAID_18360942_6dc3_4eee_aae8_91aa53f20ffd |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
 
 
 ### fysiekVoorkomenBegroeidTerrein
@@ -2154,7 +2119,7 @@ De enumeratie fysiekVoorkomenBegroeidTerrein heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:37 |
     | modified | 2025-03-26 16:14:55 |
-    | id | EAID_0876d8d2_45a0_4596_b3ea_57793cb5979d |
+    | id | EAID_33db6554_b4f9_45c2_ae41_b337bc04e837 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2203,7 +2168,7 @@ De enumeratie fysiekVoorkomenBegroeidTerreinPlus heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-03-26 16:14:55 |
-    | id | EAID_917bff34_e02d_4c9e_86d3_11e8b4fa06a5 |
+    | id | EAID_0ed165aa_1a4f_4e61_aea0_73fa45ad855a |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2238,7 +2203,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_e4ab26b8_3bc3_4deb_af17_2c1cf3518579 |
+    | id | EAID_896694bc_ae0c_43fe_a634_b5cf5529a969 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2273,7 +2238,42 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_ab3ae5b1_f92c_4692_b914_f89b6c0f7f3e |
+    | id | EAID_d5d7b5b9_f568_46b8_aa08_9c0ae21c0cdc |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### statusGeoObject
+Geen Definitie
+
+Het enumeratie statusGeoObject kent de volgende waarden:
+
+* **bestaand**: Situatie waarin het object wordt / kan worden gebruikt voor het doel waarvoor het is gebouwd / aangelegd.
+* **plan**: Situatie die ontstaat op het moment van verlening van een beschikking voor bouw of aanleg en duurt tot het moment waarop het object gereed is voor het beoogde gebruik.
+* **historie**: Situatie waarin het geregistreerde object fysiek niet meer bestaat.
+
+
+De enumeratie statusGeoObject heeft de volgende kenmerken:
+
+??? info "Kenmerken Model statusGeoObject"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | statusGeoObject |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:39 |
+    | modified | 2025-03-26 16:14:56 |
+    | id | EAID_5984a64a_191a_4b62_8e71_5f496c8fe35c |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2308,85 +2308,7 @@ De enumeratie typeringGebouwinstallatie heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_040c207e_ac08_4160_acc9_56824a6e2503 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### statusGeoObject
-Geen Definitie
-
-Het enumeratie statusGeoObject kent de volgende waarden:
-
-* **bestaand**: Situatie waarin het object wordt / kan worden gebruikt voor het doel waarvoor het is gebouwd / aangelegd.
-* **plan**: Situatie die ontstaat op het moment van verlening van een beschikking voor bouw of aanleg en duurt tot het moment waarop het object gereed is voor het beoogde gebruik.
-* **historie**: Situatie waarin het geregistreerde object fysiek niet meer bestaat.
-
-
-De enumeratie statusGeoObject heeft de volgende kenmerken:
-
-??? info "Kenmerken Model statusGeoObject"
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | statusGeoObject |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.4 |
-    | created | 2025-03-26 11:13:39 |
-    | modified | 2025-03-26 16:14:56 |
-    | id | EAID_639d839a_9af5_44bb_a580_adfe9322480d |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### typeringInrichtingselement
-Geen Definitie
-
-Het enumeratie typeringInrichtingselement kent de volgende waarden:
-
-* **bak**: Object met een permanent karakter dat dient om iets in te bergen of<br>te verzamelen.
-* **bord**: Een paneel waarop informatie wordt afgebeeld.
-* **installatie**: Samenhangend systeem dat een bepaald doel dient.
-* **kast**: Object met een permanent karakter dat dient om iets in te bergen en<br>te beschermen.
-* **mast**: Hoge draagconstructie.
-* **paal**: Langwerpig stuk hout, ijzer, steen enz., dat in de grond staat.
-* **put**: Gegraven of geboorde kokervormige diepte waarin zich (vloei)stoffen<br>bevinden.
-* **sensor**: Apparaat voor de meting van een fysieke grootheid (bijv.<br>temperatuur, licht, druk, elektriciteit).
-* **straatmeubilair**: Een ruimtelijk object ter inrichting van de openbare ruimte.
-* **waterinrichtingselement**: Een ruimtelijk object ter inrichting van het water.
-* **weginrichtingselement**: Een ruimtelijk object dat dient voor de inrichting van de openbare<br>weg.
-
-
-De enumeratie typeringInrichtingselement heeft de volgende kenmerken:
-
-??? info "Kenmerken Model typeringInrichtingselement"
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | typeringInrichtingselement |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.4 |
-    | created | 2025-03-26 11:13:40 |
-    | modified | 2025-03-26 16:14:56 |
-    | id | EAID_6714b985_264c_4346_9daa_9c3bfbbb9f28 |
+    | id | EAID_0f905746_4672_455d_83fe_7ed6fde335ec |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2515,7 +2437,7 @@ De enumeratie typeringInrichtingselementPlus heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_6cf0b890_a2fd_4a05_85f0_2d778a5119b0 |
+    | id | EAID_bab2a170_d73c_4bdf_999c_3ffda484a4c6 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2526,32 +2448,31 @@ De enumeratie typeringInrichtingselementPlus heeft de volgende kenmerken:
     
 
 
-### Boolean
+### statusGeoObject
 Geen Definitie
 
-Het enumeratie Boolean kent de volgende waarden:
+Het enumeratie statusGeoObject kent de volgende waarden:
 
-* **Ja**: <Geen Definities>
-* **Nee**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **bestaand**: Situatie waarin het object wordt / kan worden gebruikt voor het doel waarvoor het is gebouwd / aangelegd.
+* **plan**: Situatie die ontstaat op het moment van verlening van een beschikking voor bouw of aanleg en duurt tot het moment waarop het object gereed is voor het beoogde gebruik.
+* **historie**: Situatie waarin het geregistreerde object fysiek niet meer bestaat.
 
 
-De enumeratie Boolean heeft de volgende kenmerken:
+De enumeratie statusGeoObject heeft de volgende kenmerken:
 
-??? info "Kenmerken Model Boolean"
+??? info "Kenmerken Model statusGeoObject"
     | Kenmerk | Waarde |
     | :--- | :------ |
-    | name | Boolean |
+    | name | statusGeoObject |
     | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author |  |
     | version | 1.4 |
-    | created | 2025-03-26 11:13:35 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_803a5021_503f_47b1_87a7_775303b76e97 |
+    | created | 2025-03-26 11:13:39 |
+    | modified | 2025-03-26 16:14:56 |
+    | id | EAID_1ec09151_eda8_4e11_a7a7_0d0984a5364b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2562,68 +2483,39 @@ De enumeratie Boolean heeft de volgende kenmerken:
     
 
 
-### Boolean
+### typeringInrichtingselement
 Geen Definitie
 
-Het enumeratie Boolean kent de volgende waarden:
+Het enumeratie typeringInrichtingselement kent de volgende waarden:
 
-* **Ja**: <Geen Definities>
-* **Nee**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **bak**: Object met een permanent karakter dat dient om iets in te bergen of<br>te verzamelen.
+* **bord**: Een paneel waarop informatie wordt afgebeeld.
+* **installatie**: Samenhangend systeem dat een bepaald doel dient.
+* **kast**: Object met een permanent karakter dat dient om iets in te bergen en<br>te beschermen.
+* **mast**: Hoge draagconstructie.
+* **paal**: Langwerpig stuk hout, ijzer, steen enz., dat in de grond staat.
+* **put**: Gegraven of geboorde kokervormige diepte waarin zich (vloei)stoffen<br>bevinden.
+* **sensor**: Apparaat voor de meting van een fysieke grootheid (bijv.<br>temperatuur, licht, druk, elektriciteit).
+* **straatmeubilair**: Een ruimtelijk object ter inrichting van de openbare ruimte.
+* **waterinrichtingselement**: Een ruimtelijk object ter inrichting van het water.
+* **weginrichtingselement**: Een ruimtelijk object dat dient voor de inrichting van de openbare<br>weg.
 
 
-De enumeratie Boolean heeft de volgende kenmerken:
+De enumeratie typeringInrichtingselement heeft de volgende kenmerken:
 
-??? info "Kenmerken Model Boolean"
+??? info "Kenmerken Model typeringInrichtingselement"
     | Kenmerk | Waarde |
     | :--- | :------ |
-    | name | Boolean |
+    | name | typeringInrichtingselement |
     | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author |  |
     | version | 1.4 |
-    | created | 2025-03-26 11:13:35 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_c0913aaf_ec53_4827_8525_f1d1c7ba4bc3 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### Boolean
-Geen Definitie
-
-Het enumeratie Boolean kent de volgende waarden:
-
-* **Ja**: <Geen Definities>
-* **Nee**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
-
-
-De enumeratie Boolean heeft de volgende kenmerken:
-
-??? info "Kenmerken Model Boolean"
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | Boolean |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.4 |
-    | created | 2025-03-26 11:13:35 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_2c4c5af8_42a8_4a04_b03d_b3caa073a747 |
+    | created | 2025-03-26 11:13:40 |
+    | modified | 2025-03-26 16:14:56 |
+    | id | EAID_a0744729_1efa_481f_8c1f_4961e8a2edb0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2665,7 +2557,115 @@ De enumeratie Gezinsrelatie heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_891a175c_8850_416a_a4a3_02cbb85be87d |
+    | id | EAID_e14d2ffc_8aca_4510_8ed7_7c7d3b47ad92 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: <Geen Definities>
+* **Nee**: <Geen Definities>
+* **Onbekend**: <Geen Definities>
+* **Leeg**: <Geen Definities>
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Boolean"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Boolean |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:35 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_ae7a7f58_ccf8_432c_b62e_50a6db563b5d |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: <Geen Definities>
+* **Nee**: <Geen Definities>
+* **Onbekend**: <Geen Definities>
+* **Leeg**: <Geen Definities>
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Boolean"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Boolean |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:35 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_e504b60f_d29a_484e_b234_34b3f1eaac14 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: <Geen Definities>
+* **Nee**: <Geen Definities>
+* **Onbekend**: <Geen Definities>
+* **Leeg**: <Geen Definities>
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Boolean"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Boolean |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:35 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_0d3fd44e_598b_42f9_87e3_b22d37d9ba73 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2700,42 +2700,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_ce5660dc_15bc_4498_b9c7_a5736b2ec70f |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### statusGeoObject
-Geen Definitie
-
-Het enumeratie statusGeoObject kent de volgende waarden:
-
-* **bestaand**: Situatie waarin het object wordt / kan worden gebruikt voor het doel waarvoor het is gebouwd / aangelegd.
-* **plan**: Situatie die ontstaat op het moment van verlening van een beschikking voor bouw of aanleg en duurt tot het moment waarop het object gereed is voor het beoogde gebruik.
-* **historie**: Situatie waarin het geregistreerde object fysiek niet meer bestaat.
-
-
-De enumeratie statusGeoObject heeft de volgende kenmerken:
-
-??? info "Kenmerken Model statusGeoObject"
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | statusGeoObject |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.4 |
-    | created | 2025-03-26 11:13:39 |
-    | modified | 2025-03-26 16:14:56 |
-    | id | EAID_4b41f97d_6e5a_4876_bead_92250ce16974 |
+    | id | EAID_19d95dab_6d41_4bed_a0db_e64a7c70b82c |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2773,7 +2738,7 @@ De enumeratie fysiekVoorkomenOnbegroeidTerrein heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-03-26 16:14:55 |
-    | id | EAID_a1de5d31_ab4e_4e50_93ca_ea055b64a31c |
+    | id | EAID_4f0e6b83_3fca_4530_ab77_838423a40450 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2822,7 +2787,7 @@ De enumeratie fysiekVoorkomenOnbegroeidTerreinPlus heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-03-26 16:14:55 |
-    | id | EAID_d6653337_6fcc_4ddd_b888_b0fdd92efab7 |
+    | id | EAID_a1210121_3935_45c6_9874_34156870e7c2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2857,7 +2822,74 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_32076775_4e4c_493d_831b_b273f67e178a |
+    | id | EAID_d88f3cb2_a0df_46bb_9146_30fc794fd0ff |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### typeringOndersteunendWaterPlus
+Geen Definitie
+
+Het enumeratie typeringOndersteunendWaterPlus kent de volgende waarden:
+
+
+
+De enumeratie typeringOndersteunendWaterPlus heeft de volgende kenmerken:
+
+??? info "Kenmerken Model typeringOndersteunendWaterPlus"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | typeringOndersteunendWaterPlus |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:41 |
+    | modified | 2025-03-26 16:14:57 |
+    | id | EAID_9b962cc5_0148_4ac8_b5cb_c364afeb0b3b |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### statusGeoObject
+Geen Definitie
+
+Het enumeratie statusGeoObject kent de volgende waarden:
+
+* **bestaand**: Situatie waarin het object wordt / kan worden gebruikt voor het doel waarvoor het is gebouwd / aangelegd.
+* **plan**: Situatie die ontstaat op het moment van verlening van een beschikking voor bouw of aanleg en duurt tot het moment waarop het object gereed is voor het beoogde gebruik.
+* **historie**: Situatie waarin het geregistreerde object fysiek niet meer bestaat.
+
+
+De enumeratie statusGeoObject heeft de volgende kenmerken:
+
+??? info "Kenmerken Model statusGeoObject"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | statusGeoObject |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:39 |
+    | modified | 2025-03-26 16:14:56 |
+    | id | EAID_68aaf483_1d7a_46d6_9dad_604a43ed6053 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2891,74 +2923,7 @@ De enumeratie typeringOndersteunendWater heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-03-26 16:14:57 |
-    | id | EAID_2120b1ee_7476_460c_9988_3a6d54d5d983 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### typeringOndersteunendWaterPlus
-Geen Definitie
-
-Het enumeratie typeringOndersteunendWaterPlus kent de volgende waarden:
-
-
-
-De enumeratie typeringOndersteunendWaterPlus heeft de volgende kenmerken:
-
-??? info "Kenmerken Model typeringOndersteunendWaterPlus"
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | typeringOndersteunendWaterPlus |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.4 |
-    | created | 2025-03-26 11:13:41 |
-    | modified | 2025-03-26 16:14:57 |
-    | id | EAID_69c1100a_02dd_46c2_86f7_8c22724e0407 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### statusGeoObject
-Geen Definitie
-
-Het enumeratie statusGeoObject kent de volgende waarden:
-
-* **bestaand**: Situatie waarin het object wordt / kan worden gebruikt voor het doel waarvoor het is gebouwd / aangelegd.
-* **plan**: Situatie die ontstaat op het moment van verlening van een beschikking voor bouw of aanleg en duurt tot het moment waarop het object gereed is voor het beoogde gebruik.
-* **historie**: Situatie waarin het geregistreerde object fysiek niet meer bestaat.
-
-
-De enumeratie statusGeoObject heeft de volgende kenmerken:
-
-??? info "Kenmerken Model statusGeoObject"
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | statusGeoObject |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.4 |
-    | created | 2025-03-26 11:13:39 |
-    | modified | 2025-03-26 16:14:56 |
-    | id | EAID_f48f3e8e_51d3_429b_8d42_ec021b28e836 |
+    | id | EAID_d22a86c9_6171_44c1_a4b8_d5a79f17d3a9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2992,39 +2957,7 @@ De enumeratie functieOndersteunendWegdeel heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:37 |
     | modified | 2025-03-26 16:14:55 |
-    | id | EAID_feb4aa32_0c48_42c0_b0d0_ff157333b097 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### functieOndersteunendWegdeelPlus
-Geen Definitie
-
-Het enumeratie functieOndersteunendWegdeelPlus kent de volgende waarden:
-
-
-
-De enumeratie functieOndersteunendWegdeelPlus heeft de volgende kenmerken:
-
-??? info "Kenmerken Model functieOndersteunendWegdeelPlus"
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | functieOndersteunendWegdeelPlus |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.4 |
-    | created | 2025-03-26 11:13:37 |
-    | modified | 2025-03-26 16:14:55 |
-    | id | EAID_74b33c2f_8e2a_4e85_99ca_33daa7e5ba6b |
+    | id | EAID_d112fc5a_7c2a_4413_b8f8_b77c92e0f974 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3060,7 +2993,39 @@ De enumeratie fysiekVoorkomenOndersteunendWegdeel heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-03-26 16:14:55 |
-    | id | EAID_5d106bdb_d5c4_4f9d_852a_2ce598aab6d6 |
+    | id | EAID_b51bbd88_456d_4d85_970e_424b15b7a7ba |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### functieOndersteunendWegdeelPlus
+Geen Definitie
+
+Het enumeratie functieOndersteunendWegdeelPlus kent de volgende waarden:
+
+
+
+De enumeratie functieOndersteunendWegdeelPlus heeft de volgende kenmerken:
+
+??? info "Kenmerken Model functieOndersteunendWegdeelPlus"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | functieOndersteunendWegdeelPlus |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:37 |
+    | modified | 2025-03-26 16:14:55 |
+    | id | EAID_111c70b0_5907_45e5_a894_851b214ff5d6 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3112,7 +3077,7 @@ De enumeratie fysiekVoorkomenOndersteunendWegdeelPlus heeft de volgende kenmerke
     | version | 1.4 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-03-26 16:14:55 |
-    | id | EAID_fec2c0fb_33a6_4f92_ac32_ea1f64b13c92 |
+    | id | EAID_0acb3055_51b0_4be8_9880_f842fe200c6d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3147,44 +3112,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_1bd92fce_59f4_4b92_9fed_dcb2afffef06 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### typeringOverbruggingsdeel
-Geen Definitie
-
-Het enumeratie typeringOverbruggingsdeel kent de volgende waarden:
-
-* **dek**: Direct door het verkeer belaste deel van de bovenbouw van de brug.
-* **landhoofd**: Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk.
-* **pijler**: Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken.
-* **sloof**: Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering.
-* **pyloon**: Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels)
-
-
-De enumeratie typeringOverbruggingsdeel heeft de volgende kenmerken:
-
-??? info "Kenmerken Model typeringOverbruggingsdeel"
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | typeringOverbruggingsdeel |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.4 |
-    | created | 2025-03-26 11:13:41 |
-    | modified | 2025-03-26 16:14:57 |
-    | id | EAID_411c93ce_1293_4205_a0c6_9576c154a97e |
+    | id | EAID_2bd54332_8f35_4783_9b66_622a4e583302 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3221,7 +3149,79 @@ De enumeratie typeOverbrugging heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_019dbf73_38ec_47c8_90d3_5d439a6f2f5f |
+    | id | EAID_9cc72d47_4fa0_47c1_a2d6_7d441b2676fc |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### statusGeoObject
+Geen Definitie
+
+Het enumeratie statusGeoObject kent de volgende waarden:
+
+* **bestaand**: Situatie waarin het object wordt / kan worden gebruikt voor het doel waarvoor het is gebouwd / aangelegd.
+* **plan**: Situatie die ontstaat op het moment van verlening van een beschikking voor bouw of aanleg en duurt tot het moment waarop het object gereed is voor het beoogde gebruik.
+* **historie**: Situatie waarin het geregistreerde object fysiek niet meer bestaat.
+
+
+De enumeratie statusGeoObject heeft de volgende kenmerken:
+
+??? info "Kenmerken Model statusGeoObject"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | statusGeoObject |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:39 |
+    | modified | 2025-03-26 16:14:56 |
+    | id | EAID_b76461a8_b997_4607_9c26_52bb52ad7288 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### typeringOverbruggingsdeel
+Geen Definitie
+
+Het enumeratie typeringOverbruggingsdeel kent de volgende waarden:
+
+* **dek**: Direct door het verkeer belaste deel van de bovenbouw van de brug.
+* **landhoofd**: Ondersteuningsconstructie ter plaatse van een overgang van de aardebaan naar een kunstwerk.
+* **pijler**: Ondersteuningsconstructie van bruggen en soortgelijke kunstwerken.
+* **sloof**: Deel van de pijler voor de overdracht van krachten naar de ondergrond of de fundering.
+* **pyloon**: Boven de bovenbouw uitstekende draagconstructie voor tuien (kabels)
+
+
+De enumeratie typeringOverbruggingsdeel heeft de volgende kenmerken:
+
+??? info "Kenmerken Model typeringOverbruggingsdeel"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | typeringOverbruggingsdeel |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:41 |
+    | modified | 2025-03-26 16:14:57 |
+    | id | EAID_932b1ad5_7d9b_47c0_a2f6_920895111c1a |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3266,43 +3266,7 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
     | version | 1.5 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-03-26 16:14:55 |
-    | id | EAID_31ec2a8d_4812_41f1_886e_04792a66d74f |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### geslacht
-Geen Definitie
-
-Het enumeratie geslacht kent de volgende waarden:
-
-* **Man**: <Geen Definities>
-* **Vrouw**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
-
-
-De enumeratie geslacht heeft de volgende kenmerken:
-
-??? info "Kenmerken Model geslacht"
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | geslacht |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.4 |
-    | created | 2025-03-26 11:13:38 |
-    | modified | 2025-03-26 16:14:55 |
-    | id | EAID_6bb1a0c1_a5a3_4c56_8afb_f2f1c67c18fa |
+    | id | EAID_9cc3d4eb_0652_4133_acea_93bb331bcccf |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3347,7 +3311,43 @@ De enumeratie adelijkeTitel heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-03-26 16:14:55 |
-    | id | EAID_9548b6dd_2910_495a_bc61_38d09b3feb01 |
+    | id | EAID_2db4c43e_d216_4370_930b_8d2f4b33c019 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### geslacht
+Geen Definitie
+
+Het enumeratie geslacht kent de volgende waarden:
+
+* **Man**: <Geen Definities>
+* **Vrouw**: <Geen Definities>
+* **Onbekend**: <Geen Definities>
+* **Leeg**: <Geen Definities>
+
+
+De enumeratie geslacht heeft de volgende kenmerken:
+
+??? info "Kenmerken Model geslacht"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | geslacht |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:38 |
+    | modified | 2025-03-26 16:14:55 |
+    | id | EAID_c38aa822_50d3_43f6_9fea_d4090e9286e7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3382,7 +3382,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_af3199a9_3a19_4b41_ad6b_3cd7dc5f435e |
+    | id | EAID_8edfd4b5_4b56_4c12_b500_0c733fd1c5e4 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3435,7 +3435,7 @@ De enumeratie soortRechtsvorm heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_24ec9a46_66d5_4640_95e3_435e48cd2fed |
+    | id | EAID_dcf1aff9_85fd_49fb_ac24_c372cdd9894a |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3470,7 +3470,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_5d50e221_532d_43dd_9b7d_2ba2e5771dd8 |
+    | id | EAID_24aac8db_460a_4db6_b8d7_ad58d7f9bcba |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3504,7 +3504,7 @@ De enumeratie typeringOverigeScheiding heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-03-26 16:14:57 |
-    | id | EAID_5fb3efac_67b9_4638_8c61_72d2429d4000 |
+    | id | EAID_d475e715_38a9_4f03_9cd4_3bcfe2b001e1 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3540,7 +3540,7 @@ De enumeratie aanduidingInhoudingVermissingReisdocument heeft de volgende kenmer
     | version | 1.4 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-03-26 16:14:55 |
-    | id | EAID_692dc5ee_f60b_4422_8db7_548540bd7044 |
+    | id | EAID_24caf957_2138_48f1_84fd_391fbe85f19c |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3575,7 +3575,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_757e2907_801c_41ef_b130_66f8afa7e48e |
+    | id | EAID_861b34c1_60d5_476e_ad1a_ed205e0aa42e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3610,7 +3610,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_d7158e34_bf4a_4b7a_86a2_22e1ff30ddf9 |
+    | id | EAID_a20b1ae8_d654_48a1_9bb9_858b23f5c254 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3621,49 +3621,36 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     
 
 
-### soortRechtsvorm
+### burgelijkeStaat
 Geen Definitie
 
-Het enumeratie soortRechtsvorm kent de volgende waarden:
+Het enumeratie burgelijkeStaat kent de volgende waarden:
 
-* **Besloten vennootschap**: <Geen Definities>
-* **cooperatie, Europees Economische Samenwerking**: <Geen Definities>
-* **Europese Cooperatieve Vennootschap**: <Geen Definities>
-* **Europese Naamloze Vennootschap**: <Geen Definities>
-* **kerkelijke Organisatie**: <Geen Definities>
-* **naamloze Vennootschap**: <Geen Definities>
-* **onderlinge Waarborg Maatschappij**: <Geen Definities>
-* **overig privaatrechtelijke rechtspersoon**: <Geen Definities>
-* **stichting**: <Geen Definities>
-* **vereniging**: <Geen Definities>
-* **vereniging van Eigenaars**: <Geen Definities>
-* **publiekrechtelijke Rechtspersoon**: <Geen Definities>
-* **vennootschap onder Firma**: <Geen Definities>
-* **maatschap**: <Geen Definities>
-* **rederij**: <Geen Definities>
-* **commanditaire vennootschap**: <Geen Definities>
-* **kapitaalvennootschap binnen EER**: Een kapitaalvennootschap die is opgericht buiten Nederland in een van<br>de landen van de Europese Economische Ruimte (Europese Unie +<br>IJsland, Noorwegen en Liechtenstein).
-* **overige buitenlandse rechtspersoon vennootschap**: Overige buitenlandse rechtspersonen of vennootschappen die geen<br>kapitaalvennootschap zijn binnen of buiten de E.E.R.
-* **kapitaalvennootschap buiten EER**: Een kapitaalvennootschap die is opgericht buiten de landen van de<br>Europese Economische Ruimte (Europese Unie + IJsland, Noorwegen<br>en Liechtenstein).
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **onbekend**: <Geen Definities>
+* **ongehuwd en nooit gehuwd geweest**: <Geen Definities>
+* **gehuwd**: <Geen Definities>
+* **gescheiden**: <Geen Definities>
+* **weduwe / weduwnaar**: <Geen Definities>
+* **partnerschap**: <Geen Definities>
+* **parnetschap beeeindigd**: <Geen Definities>
+* **achtergebeleven partner**: <Geen Definities>
 
 
-De enumeratie soortRechtsvorm heeft de volgende kenmerken:
+De enumeratie burgelijkeStaat heeft de volgende kenmerken:
 
-??? info "Kenmerken Model soortRechtsvorm"
+??? info "Kenmerken Model burgelijkeStaat"
     | Kenmerk | Waarde |
     | :--- | :------ |
-    | name | soortRechtsvorm |
+    | name | burgelijkeStaat |
     | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author |  |
     | version | 1.4 |
-    | created | 2025-03-26 11:13:39 |
-    | modified | 2025-03-26 16:14:56 |
-    | id | EAID_5294e86c_49db_4fb9_b11d_07814e625eff |
+    | created | 2025-03-26 11:13:36 |
+    | modified | 2025-03-26 16:14:55 |
+    | id | EAID_ca41ca1e_6354_45d6_8344_d33e183de8e2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3705,7 +3692,7 @@ De enumeratie codeExploitant heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:37 |
     | modified | 2025-03-26 16:14:55 |
-    | id | EAID_dd78ed3c_6a37_4a14_948b_841686d4ce54 |
+    | id | EAID_bf7bd544_9a6e_4dcc_93ec_4bbb0c7e7723 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3716,36 +3703,49 @@ De enumeratie codeExploitant heeft de volgende kenmerken:
     
 
 
-### burgelijkeStaat
+### soortRechtsvorm
 Geen Definitie
 
-Het enumeratie burgelijkeStaat kent de volgende waarden:
+Het enumeratie soortRechtsvorm kent de volgende waarden:
 
-* **onbekend**: <Geen Definities>
-* **ongehuwd en nooit gehuwd geweest**: <Geen Definities>
-* **gehuwd**: <Geen Definities>
-* **gescheiden**: <Geen Definities>
-* **weduwe / weduwnaar**: <Geen Definities>
-* **partnerschap**: <Geen Definities>
-* **parnetschap beeeindigd**: <Geen Definities>
-* **achtergebeleven partner**: <Geen Definities>
+* **Besloten vennootschap**: <Geen Definities>
+* **cooperatie, Europees Economische Samenwerking**: <Geen Definities>
+* **Europese Cooperatieve Vennootschap**: <Geen Definities>
+* **Europese Naamloze Vennootschap**: <Geen Definities>
+* **kerkelijke Organisatie**: <Geen Definities>
+* **naamloze Vennootschap**: <Geen Definities>
+* **onderlinge Waarborg Maatschappij**: <Geen Definities>
+* **overig privaatrechtelijke rechtspersoon**: <Geen Definities>
+* **stichting**: <Geen Definities>
+* **vereniging**: <Geen Definities>
+* **vereniging van Eigenaars**: <Geen Definities>
+* **publiekrechtelijke Rechtspersoon**: <Geen Definities>
+* **vennootschap onder Firma**: <Geen Definities>
+* **maatschap**: <Geen Definities>
+* **rederij**: <Geen Definities>
+* **commanditaire vennootschap**: <Geen Definities>
+* **kapitaalvennootschap binnen EER**: Een kapitaalvennootschap die is opgericht buiten Nederland in een van<br>de landen van de Europese Economische Ruimte (Europese Unie +<br>IJsland, Noorwegen en Liechtenstein).
+* **overige buitenlandse rechtspersoon vennootschap**: Overige buitenlandse rechtspersonen of vennootschappen die geen<br>kapitaalvennootschap zijn binnen of buiten de E.E.R.
+* **kapitaalvennootschap buiten EER**: Een kapitaalvennootschap die is opgericht buiten de landen van de<br>Europese Economische Ruimte (Europese Unie + IJsland, Noorwegen<br>en Liechtenstein).
+* **Onbekend**: <Geen Definities>
+* **Leeg**: <Geen Definities>
 
 
-De enumeratie burgelijkeStaat heeft de volgende kenmerken:
+De enumeratie soortRechtsvorm heeft de volgende kenmerken:
 
-??? info "Kenmerken Model burgelijkeStaat"
+??? info "Kenmerken Model soortRechtsvorm"
     | Kenmerk | Waarde |
     | :--- | :------ |
-    | name | burgelijkeStaat |
+    | name | soortRechtsvorm |
     | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author |  |
     | version | 1.4 |
-    | created | 2025-03-26 11:13:36 |
-    | modified | 2025-03-26 16:14:55 |
-    | id | EAID_44da8181_3e18_49d4_baef_e992fb3fb423 |
+    | created | 2025-03-26 11:13:39 |
+    | modified | 2025-03-26 16:14:56 |
+    | id | EAID_23d2517f_9660_4aaa_aaa0_ef55d454885a |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3780,7 +3780,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_3a3ae505_7fff_4f08_aafe_73f13f4b6950 |
+    | id | EAID_21e8a18a_ec70_4b25_a603_ee5d95b25e0e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3816,7 +3816,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_9be6be70_6239_418f_999e_c3ec4e5cfdf5 |
+    | id | EAID_9c341a6d_da9d_423e_8d9c_fbc733521424 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3851,7 +3851,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_0c246102_9138_4ea9_bf9a_041dbbd217de |
+    | id | EAID_6c6bed35_068d_4a15_925d_3d852243d819 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3885,78 +3885,7 @@ De enumeratie typeringVegetatieobject heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-03-26 16:14:57 |
-    | id | EAID_87a6f228_f130_4c2d_841b_0d78d9329ed1 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### statusGeoObject
-Geen Definitie
-
-Het enumeratie statusGeoObject kent de volgende waarden:
-
-* **bestaand**: Situatie waarin het object wordt / kan worden gebruikt voor het doel waarvoor het is gebouwd / aangelegd.
-* **plan**: Situatie die ontstaat op het moment van verlening van een beschikking voor bouw of aanleg en duurt tot het moment waarop het object gereed is voor het beoogde gebruik.
-* **historie**: Situatie waarin het geregistreerde object fysiek niet meer bestaat.
-
-
-De enumeratie statusGeoObject heeft de volgende kenmerken:
-
-??? info "Kenmerken Model statusGeoObject"
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | statusGeoObject |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.4 |
-    | created | 2025-03-26 11:13:39 |
-    | modified | 2025-03-26 16:14:56 |
-    | id | EAID_9786250f_c565_42d1_a3ff_af7ee64eb5b4 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### typeringWater
-Geen Definitie
-
-Het enumeratie typeringWater kent de volgende waarden:
-
-* **zee**: Uitgestrekt oppervlak zout water.
-* **waterloop**: Een voor de waterbeheersing bestemde geul die meestal permanent water bevat (zoals rivier, kanaal, beek, sloot, gracht).
-* **watervlakte**: Alle oppervlakken die vrij permanent met zoet water zijn bedekt. (zoals meer, plas, ven, vijver).
-* **greppel, droge sloot**: Een ten behoeve van de waterbeheersing gegraven geul die al dan niet met water bedekt is.
-
-
-De enumeratie typeringWater heeft de volgende kenmerken:
-
-??? info "Kenmerken Model typeringWater"
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | typeringWater |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.4 |
-    | created | 2025-03-26 11:13:41 |
-    | modified | 2025-03-26 16:14:57 |
-    | id | EAID_d0ec2aec_1dc1_46bd_8ffd_940a1ac956dc |
+    | id | EAID_1acdd4e2_ed0f_4c1c_9a65_1a729bc15e89 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3996,7 +3925,7 @@ De enumeratie typeringWaterPlus heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-03-26 16:14:57 |
-    | id | EAID_65853352_59e9_4d59_a2cc_a8a69571d127 |
+    | id | EAID_2f65b9de_7a65_4fb6_83c1_bb040eef9aad |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4031,7 +3960,43 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_03a91e99_59a4_4e42_a407_bd2d4527c634 |
+    | id | EAID_60e93b71_75b2_4ff8_8d6e_fed0558476ac |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### typeringWater
+Geen Definitie
+
+Het enumeratie typeringWater kent de volgende waarden:
+
+* **zee**: Uitgestrekt oppervlak zout water.
+* **waterloop**: Een voor de waterbeheersing bestemde geul die meestal permanent water bevat (zoals rivier, kanaal, beek, sloot, gracht).
+* **watervlakte**: Alle oppervlakken die vrij permanent met zoet water zijn bedekt. (zoals meer, plas, ven, vijver).
+* **greppel, droge sloot**: Een ten behoeve van de waterbeheersing gegraven geul die al dan niet met water bedekt is.
+
+
+De enumeratie typeringWater heeft de volgende kenmerken:
+
+??? info "Kenmerken Model typeringWater"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | typeringWater |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:41 |
+    | modified | 2025-03-26 16:14:57 |
+    | id | EAID_f0cc57af_f435_4e78_add5_a651f4082b8d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4079,42 +4044,7 @@ De enumeratie functieWeg heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:37 |
     | modified | 2025-03-26 16:14:55 |
-    | id | EAID_fb10bc97_cd02_4b2d_93da_397fa447d31f |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### functieWegPlus
-Geen Definitie
-
-Het enumeratie functieWegPlus kent de volgende waarden:
-
-* **verkeersdrempel**: Verhoging in een regionale rijbaan, bedoeld om het<br>gemotoriseerde verkeer met een lage snelheid te laten<br>rijden.
-* **verbindingsweg**: Een verbindingsweg is (in principe) een eenrichtingsweg,<br>gelegen binnen een knooppunt of aansluiting, die onderdeel<br>is van de wijze waarop de ongelijkvloersheid is gerealiseerd.
-* **calamiteitendoorstee**: Een (Calamiteiten doorsteek) CADO heeft tot doel het<br>verkeer op een rijbaan via een doorsteek van de weg te<br>kunnen geleiden in geval van een calamiteit of<br>werkzaamheden op de rijbaan. Een tweede doel is het<br>faciliteren van toegang tot rijbanen voor hulpdiensten vanaf<br>andere rijbanen of van een parallelweg.
-
-
-De enumeratie functieWegPlus heeft de volgende kenmerken:
-
-??? info "Kenmerken Model functieWegPlus"
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | functieWegPlus |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.4 |
-    | created | 2025-03-26 11:13:37 |
-    | modified | 2025-03-26 16:14:55 |
-    | id | EAID_0ee64b13_8df6_49a5_a488_1e1137c080e5 |
+    | id | EAID_9fdf295c_6b67_4b21_b471_1d46cb3fa2d2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4150,7 +4080,42 @@ De enumeratie fysiekVoorkomenWeg heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-03-26 16:14:55 |
-    | id | EAID_5c9d8df8_740a_479a_bf78_22e5db35e98b |
+    | id | EAID_d2430c1c_4282_4b2b_882e_f8dfa077314b |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### functieWegPlus
+Geen Definitie
+
+Het enumeratie functieWegPlus kent de volgende waarden:
+
+* **verkeersdrempel**: Verhoging in een regionale rijbaan, bedoeld om het<br>gemotoriseerde verkeer met een lage snelheid te laten<br>rijden.
+* **verbindingsweg**: Een verbindingsweg is (in principe) een eenrichtingsweg,<br>gelegen binnen een knooppunt of aansluiting, die onderdeel<br>is van de wijze waarop de ongelijkvloersheid is gerealiseerd.
+* **calamiteitendoorstee**: Een (Calamiteiten doorsteek) CADO heeft tot doel het<br>verkeer op een rijbaan via een doorsteek van de weg te<br>kunnen geleiden in geval van een calamiteit of<br>werkzaamheden op de rijbaan. Een tweede doel is het<br>faciliteren van toegang tot rijbanen voor hulpdiensten vanaf<br>andere rijbanen of van een parallelweg.
+
+
+De enumeratie functieWegPlus heeft de volgende kenmerken:
+
+??? info "Kenmerken Model functieWegPlus"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | functieWegPlus |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:37 |
+    | modified | 2025-03-26 16:14:55 |
+    | id | EAID_7a319bf8_cf96_4ed6_9703_fecc103d5605 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4196,7 +4161,42 @@ De enumeratie fysiekVoorkomenWegPlus heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-03-26 16:14:55 |
-    | id | EAID_a9523715_5e34_4856_91bb_1c62d0fe9646 |
+    | id | EAID_3c383b51_5a0e_4653_b395_fa229fc2565c |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### statusGeoObject
+Geen Definitie
+
+Het enumeratie statusGeoObject kent de volgende waarden:
+
+* **bestaand**: Situatie waarin het object wordt / kan worden gebruikt voor het doel waarvoor het is gebouwd / aangelegd.
+* **plan**: Situatie die ontstaat op het moment van verlening van een beschikking voor bouw of aanleg en duurt tot het moment waarop het object gereed is voor het beoogde gebruik.
+* **historie**: Situatie waarin het geregistreerde object fysiek niet meer bestaat.
+
+
+De enumeratie statusGeoObject heeft de volgende kenmerken:
+
+??? info "Kenmerken Model statusGeoObject"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | statusGeoObject |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:39 |
+    | modified | 2025-03-26 16:14:56 |
+    | id | EAID_26d6ff01_aed2_49c8_b1e0_1000b050b96c |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4232,43 +4232,7 @@ De enumeratie statusWOZ(Deel)Object heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_7058849f_ab25_445b_b15a_e62317bcee92 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### statusWOZ(Deel)Object
-Geen Definitie
-
-Het enumeratie statusWOZ(Deel)Object kent de volgende waarden:
-
-* **gevormd, niet actief**: <Geen Definities>
-* **actief**: <Geen Definities>
-* **beëindigd**: <Geen Definities>
-* **ten onrechte opgevoerd**: <Geen Definities>
-
-
-De enumeratie statusWOZ(Deel)Object heeft de volgende kenmerken:
-
-??? info "Kenmerken Model statusWOZ(Deel)Object"
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | statusWOZ(Deel)Object |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.4 |
-    | created | 2025-03-26 11:13:40 |
-    | modified | 2025-03-26 16:14:56 |
-    | id | EAID_a53abe86_70a9_4778_8f16_01793ec0098a |
+    | id | EAID_62550bb4_47db_49fc_b571_bc6945e39458 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4310,7 +4274,43 @@ De enumeratie soortGebruik heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_0c39955f_6535_4a5f_8e2c_847825f4e605 |
+    | id | EAID_68cb5c55_9914_47ce_bdce_a4c4c638492d |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### statusWOZ(Deel)Object
+Geen Definitie
+
+Het enumeratie statusWOZ(Deel)Object kent de volgende waarden:
+
+* **gevormd, niet actief**: <Geen Definities>
+* **actief**: <Geen Definities>
+* **beëindigd**: <Geen Definities>
+* **ten onrechte opgevoerd**: <Geen Definities>
+
+
+De enumeratie statusWOZ(Deel)Object heeft de volgende kenmerken:
+
+??? info "Kenmerken Model statusWOZ(Deel)Object"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | statusWOZ(Deel)Object |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:40 |
+    | modified | 2025-03-26 16:14:56 |
+    | id | EAID_2ed574ea_a9ed_40cc_bbcc_c29f3aacb368 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4360,7 +4360,7 @@ De enumeratie statusWOZ-Beschikking heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_ca905cb5_32f5_466d_a6c9_6720f07746d7 |
+    | id | EAID_e6d51555_5368_4e77_b5dc_4f0b207ff78d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4394,7 +4394,7 @@ De enumeratie typeringZekerheidsrecht heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-03-26 16:14:57 |
-    | id | EAID_952cb17b_43f4_461f_b515_7ba1996fe8b0 |
+    | id | EAID_3a9b8d0a_580c_4085_a3dd_5f7ca86fbc59 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

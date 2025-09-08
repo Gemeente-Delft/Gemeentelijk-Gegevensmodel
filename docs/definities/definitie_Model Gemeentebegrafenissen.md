@@ -58,18 +58,18 @@ Attributen van objecttype Gemeentebegrafenis
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| melder | AN80 | Bijvoorbeeld: politie, De Laatste Eer, Familie of Instelling |
-| begrafeniskosten | Bedrag |  |
-| gemeentelijkeKosten | Bedrag |  |
-| verhaaldBedrag | Bedrag |  |
-| datumBegrafenis | Date |  |
-| datumAfgedaan | Date | Datum sluiting dossier (ook verhaal is afgesloten) |
-| datumGemeld | Date |  |
-| inkoopordernummer | AN40 |  |
-| doodsoorzaak | AN80 |  |
 | achtergrondMelding | AN200 |  |
-| urenGemeente | int | Aantal bestede uren gemeente |
+| begrafeniskosten | Bedrag |  |
+| datumAfgedaan | Date | Datum sluiting dossier (ook verhaal is afgesloten) |
+| datumBegrafenis | Date |  |
+| datumGemeld | Date |  |
 | datumRuimingGraf | Date |  |
+| doodsoorzaak | AN80 |  |
+| gemeentelijkeKosten | Bedrag |  |
+| inkoopordernummer | AN40 |  |
+| melder | AN80 | Bijvoorbeeld: politie, De Laatste Eer, Familie of Instelling |
+| urenGemeente | int | Aantal bestede uren gemeente |
+| verhaaldBedrag | Bedrag |  |
 
 
 

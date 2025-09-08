@@ -213,10 +213,10 @@ Attributen van objecttype Gezagsverhouding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| einddatum | Date |  |
 | indicatie curateleregister | int |  |
 | indicatie gezag minderjarige | int |  |
 | ingangsdatum | Date |  |
-| einddatum | Date |  |
 
 
 
@@ -286,12 +286,12 @@ Attributen van objecttype Incident
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumtijdVanaf | DateTime |  |
 | datumTijdTot | DateTime |  |
-| omschrijving | Text |  |
-| toelichting | Text |  |
-| soort | Incidenttype |  |
+| datumtijdVanaf | DateTime |  |
 | locatie | Locatie |  |
+| omschrijving | Text |  |
+| soort | Incidenttype |  |
+| toelichting | Text |  |
 
 
 
@@ -327,10 +327,10 @@ Attributen van objecttype Leverancier
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | AGBCode | AN40 |  |
-| soortLeverancierCode | AN8 |  |
-| soortLeverancier | AN80 |  |
 | leverancierscode | AN8 |  |
 | naam | AN200 |  |
+| soortLeverancier | AN80 |  |
+| soortLeverancierCode | AN8 |  |
 
 
 
@@ -365,10 +365,10 @@ Attributen van objecttype Profiel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| profielID | int |  |
-| profieltype | AN200 |  |
 | datumAanvangProfiel | Date |  |
 | datumEindeProfiel | Date |  |
+| profielID | int |  |
+| profieltype | AN200 |  |
 
 
 
@@ -472,10 +472,10 @@ Attributen van objecttype Sociale Groep
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| einddatum | Date |  |
 | naam | AN80 |  |
 | omschrijving | Text |  |
 | startdatum | Date |  |
-| einddatum | Date |  |
 | typering | Groep |  |
 
 
@@ -511,9 +511,9 @@ Attributen van objecttype Sociale Relatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| typering | Relatie |  |
-| startdatum | Date |  |
 | einddatum | Date |  |
+| startdatum | Date |  |
+| typering | Relatie |  |
 
 
 
@@ -548,8 +548,8 @@ Attributen van objecttype Stadspas
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| ingangsdatum | Date |  |
 | einddatum | Date |  |
+| ingangsdatum | Date |  |
 
 
 

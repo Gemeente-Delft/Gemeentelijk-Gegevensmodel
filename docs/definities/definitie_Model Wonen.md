@@ -67,12 +67,12 @@ Attributen van objecttype Gebouw
 | aantal | int |  |
 | aantalAdressen | int |  |
 | aantalKamers | int |  |
-| energielabel | Enumeratie: "Energielabel" |  |
-| oppervlakte | Enumeratie: "Oppervlakte Woning" |  |
-| duurzaam | boolean |  |
-| natuurinclusief | boolean |  |
-| regenwater | boolean |  |
 | aardgasloos | boolean |  |
+| duurzaam | boolean |  |
+| energielabel | Enumeratie: "Energielabel" |  |
+| natuurinclusief | boolean |  |
+| oppervlakte | Enumeratie: "Oppervlakte Woning" |  |
+| regenwater | boolean |  |
 
 
 
@@ -177,20 +177,20 @@ Attributen van objecttype Plan
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN80 |  |
-| nummer | AN40 |  |
+| 70ProcentVerkocht | boolean |  |
 | aardgasloos | boolean |  |
+| bestemmingGoedgekeurd | boolean |  |
+| eersteOplevering | Date |  |
+| eigendomGemeente | boolean |  |
 | gebiedstransformatie | boolean |  |
 | intentie | boolean |  |
-| bestemmingGoedgekeurd | boolean |  |
-| onherroepelijk | boolean |  |
-| eigendomGemeente | boolean |  |
-| 70ProcentVerkocht | boolean |  |
-| startVerkoop | Date |  |
-| startbouw | Date |  |
-| eersteOplevering | Date |  |
 | laatsteOplevering | Date |  |
+| naam | AN80 |  |
+| nummer | AN40 |  |
+| onherroepelijk | boolean |  |
 | percelen | MultiSurface |  |
+| startbouw | Date |  |
+| startVerkoop | Date |  |
 
 
 
@@ -260,8 +260,8 @@ Attributen van objecttype Projectontwikkelaar
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN80 |  |
 | adres | AN200 |  |
+| naam | AN80 |  |
 
 
 
@@ -296,8 +296,8 @@ Attributen van objecttype Studentenwoningen
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| zelfstandig | boolean |  |
 | huurprijs | Bedrag |  |
+| zelfstandig | boolean |  |
 
 
 
@@ -334,7 +334,7 @@ De enumeratie Energielabel heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:10 |
     | modified | 2025-03-26 16:14:45 |
-    | id | EAID_549cef60_5ab4_45c1_8229_dc9a4b69b31a |
+    | id | EAID_dd31a43a_9d26_4c5d_bee0_75cdd746467b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -373,7 +373,7 @@ De enumeratie Oppervlakte Woning heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:10 |
     | modified | 2025-03-26 16:14:45 |
-    | id | EAID_96fa1193_b0f4_423b_a52c_a8305620c037 |
+    | id | EAID_98eddf35_366c_487d_97ec_b481be2eba4c |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

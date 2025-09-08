@@ -64,17 +64,17 @@ Attributen van objecttype Stremming
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN250 |  |
-| datumStart | DateTime |  |
-| datumEinde | DateTime |  |
-| datumAanmelding | DateTime |  |
-| status | Enumeratie: "Stremmingstatus" |  |
-| datumWijziging | DateTime |  |
-| geschiktVoorPublicatie | boolean |  |
-| delenToegestaan | boolean |  |
-| locatie | Point |  |
-| hinderklasse | Enumeratie: "Hinderklasse" |  |
 | aantalGehinderden | Enumeratie: "Aantal Gehinderden" |  |
+| datumAanmelding | DateTime |  |
+| datumEinde | DateTime |  |
+| datumStart | DateTime |  |
+| datumWijziging | DateTime |  |
+| delenToegestaan | boolean |  |
+| geschiktVoorPublicatie | boolean |  |
+| hinderklasse | Enumeratie: "Hinderklasse" |  |
+| locatie | Point |  |
+| naam | AN250 |  |
+| status | Enumeratie: "Stremmingstatus" |  |
 
 
 
@@ -110,10 +110,10 @@ Attributen van objecttype Strooidag
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datum | Date |  |
-| minimumtemperatuur | double |  |
-| tijdMinimumtemperatuur | Time |  |
 | maximumtemperatuur | double |  |
+| minimumtemperatuur | double |  |
 | tijdMaximumtemperatuur | Time |  |
+| tijdMinimumtemperatuur | Time |  |
 
 
 
@@ -183,11 +183,11 @@ Attributen van objecttype StrooirouteUitvoering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| route | MultiCurve |  |
-| geplandStart | DateTime |  |
 | geplandEinde | DateTime |  |
-| werkelijkeStart | DateTime |  |
+| geplandStart | DateTime |  |
+| route | MultiCurve |  |
 | werkelijkEinde | DateTime |  |
+| werkelijkeStart | DateTime |  |
 
 
 
@@ -222,14 +222,14 @@ Attributen van objecttype Verkeersbesluit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| referentienummer | AN80 |  |
 | datumBesluit | Date |  |
-| datumStart | Datetime |  |
-| titel | AN250 |  |
-| straat | An200 |  |
-| postcode | AN6 |  |
-| huisnummer | AN40 |  |
 | datumEinde | Datetime |  |
+| datumStart | Datetime |  |
+| huisnummer | AN40 |  |
+| postcode | AN6 |  |
+| referentienummer | AN80 |  |
+| straat | An200 |  |
+| titel | AN250 |  |
 
 
 
@@ -264,9 +264,9 @@ Attributen van objecttype Verkeerstelling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| tijdVanaf | DateTime |  |
-| tijdTot | DateTime |  |
 | aantal | int |  |
+| tijdTot | DateTime |  |
+| tijdVanaf | DateTime |  |
 
 
 
@@ -301,13 +301,13 @@ Attributen van objecttype VLogInfo
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| tijdstip | DateTime |  |
+| detectieVerkeer | int |  |
+| eindegroen | boolean |  |
 | snelheid | int |  |
 | startgroen | boolean |  |
-| eindegroen | boolean |  |
+| tijdstip | DateTime |  |
 | verkeerWilGroen | boolean |  |
 | wachttijd | int |  |
-| detectieVerkeer | int |  |
 
 
 
