@@ -1,4 +1,16 @@
-# Toegepast patronen
+# Toegepaste patronen
+
+In dit hoofdstuk introduceren we de belangrijkste patronen die binnen het GGM worden toegepast. Deze patronen vormen de basis voor de manier waarop we het model uitbreiden, beheren en toepassen in verschillende domeinen. Door patronen centraal te stellen, zorgen we ervoor dat het GGM niet alleen flexibel en uitbreidbaar is, maar ook consistent en beheersbaar blijft.
+
+Het toepassen van patronen binnen het GGM is belangrijk omdat het:
+
+- richting en houvast geeft bij het ontwerpen en uitbreiden van het model;
+- bijdraagt aan de kwaliteit en uniformiteit van de modelelementen;
+- hergebruik van bestaande onderdelen stimuleert en duplicatie voorkomt;
+- de beheersbaarheid van het model vergroot door duidelijke ontwerpregels;
+- helpt om complexiteit te reduceren en begrijpelijkheid te behouden.
+
+Twee patronen staan aan de kern van de opbouw van het GGM en worden daarom hier beschreven.
 
 ## Stacked Dependency Approach
 
@@ -38,7 +50,9 @@ Wel moet worden opgelet voor valkuilen zoals te diepe of brede erfstructuren, di
 
 Een voorbeeld binnen het GGM is het gebruik van een generiek "Persoon" model dat wordt uitgebreid in domeinen zoals "Medewerker" en "Klant", waarbij elk domein specifieke attributen en relaties toevoegt zonder de basisstructuur te wijzigen.
 
-![Voorbeeld Overerving](../image/OverervingVoorbeeld.jpg)
+![Voorbeeld Overerving](../image/OverervingVoorbeeld.jpeg)
+
+In bovenstaand voorbeeld is te zien hoe in het deelmodel Sociaal doemin generiek en in het model Jeugd en Wmo generiek via overerving gebruik gemaakt wordt van IngeschrevenPersoon die op zijn beurt weer een NatuurlijkPersoon is.  
 
 !!! rule "Ontwerpregel p2: Gebruik overerving om gemeenschappelijke eigenschappen te centraliseren"
     - Vermijd het creëren van te diepe of te brede erfhiërarchieën

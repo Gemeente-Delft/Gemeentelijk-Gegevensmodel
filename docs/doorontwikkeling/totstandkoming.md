@@ -2,13 +2,13 @@
 
 ## Overview
 
-Het GGM is ontworpen op aan de hand van interviews met domeinexperts, de in Delft gebruikte applicaties en op basis van landelijke informatiestandaarden. Dit om tot een gegevensmodel te komen dat goede verankering kent met de Delftse situatie. De uitwerking van [Gemeentelijke Monumenten](./monumenten.md) is als voorbeeld in de handleiding opgenomen. Aangezien alle Nederlandse gemeenten in principe dezelfde wettelijke taken hebben gaan we ervan uit dat de onderliggende informatiemodellen sterk op elkaar lijken.
+Het GGM is ontworpen op aan de hand van interviews met domeinexperts, de in Delft gebruikte applicaties en op basis van landelijke informatiestandaarden. Dit om tot een gegevensmodel te komen dat goede verankering kent met de Delftse situatie. De uitwerking van [Gemeentelijke Monumenten](../monumenten.md) is als voorbeeld in de handleiding opgenomen. Aangezien alle Nederlandse gemeenten in principe dezelfde wettelijke taken hebben gaan we ervan uit dat de onderliggende informatiemodellen sterk op elkaar lijken.
 
 Uitgangspunt van de inventarisatie waren:
 
 1. De lijst met Delftse applicaties en de inventarisatie hiervan waarbij onderscheid is gemaakt tussen authentieke bronnen en overige applicaties
 2. De set beleidsdomeinen waar de gemeente haar taakgebied heeft 
-3. Landelijk vastgestelde [standaarden](index.md#toegepaste-landelijke-standaarden) voor gegevensuitwisseling en landelijk vastgestelde informatiemodellen  
+3. Landelijk vastgestelde [standaarden](../index.md#toegepaste-landelijke-standaarden) voor gegevensuitwisseling en landelijk vastgestelde informatiemodellen  
 
 ![Aanpak GGM 1][aanpakGGM]
 
@@ -21,9 +21,9 @@ De inventarisatie in de volgende stappen uitgevoerd:
 
 ## Informatieanalyse uitgelegd
 
-Doel van de informatieanalyse is het vinden van de gegevens die binnen de verschillende [beleidsdomeinen](./index.md#beleidsdomeinen) worden gebruikt, het bepalen van de juiste gegevensdefinities (objecttypes), en het bepalen van de relaties tussen deze objecttypes. Ondanks dat je inventariseert welke taken in een beleidsdomein worden uitgevoerd beoog je geen complete procesanalyse, we zijn perslot op zoek naar gegevens. Per beleidsdomein doorloop je steeds de hier beschreven cyclus. Het is belangrijk dat tijdens de interviews een goede inventarisatie van de taken wordt gedaan en dat uitwerking zoveel mogelijk begrijpelijk is voor de geïnterviewde. Op deze manier kan de geïnterviewde toetsen of je inderdaad correct en compleet bent.
+Doel van de informatieanalyse is het vinden van de gegevens die binnen de verschillende [beleidsdomeinen](../index.md#beleidsdomeinen) worden gebruikt, het bepalen van de juiste gegevensdefinities (objecttypes), en het bepalen van de relaties tussen deze objecttypes. Ondanks dat je inventariseert welke taken in een beleidsdomein worden uitgevoerd beoog je geen complete procesanalyse, we zijn perslot op zoek naar gegevens. Per beleidsdomein doorloop je steeds de hier beschreven cyclus. Het is belangrijk dat tijdens de interviews een goede inventarisatie van de taken wordt gedaan en dat uitwerking zoveel mogelijk begrijpelijk is voor de geïnterviewde. Op deze manier kan de geïnterviewde toetsen of je inderdaad correct en compleet bent.
 
-Hierna staan kort op conceptueel niveau de verschillende stappen in het analyseproces uitgelegd die je per beleidsdomein uitvoert. Daarbij is er een voorbeelduitwerking beschikbaar in de vorm van [Gemeentelijke Monumenten](./monumenten.md)
+Hierna staan kort op conceptueel niveau de verschillende stappen in het analyseproces uitgelegd die je per beleidsdomein uitvoert. Daarbij is er een voorbeelduitwerking beschikbaar in de vorm van [Gemeentelijke Monumenten](../monumenten.md)
 
 ### Inventariseren Applicaties en Beleidsdomeinen
 
@@ -34,7 +34,7 @@ Doel van deze stap is het bepalen van een aantal zaken doormiddel van interviews
 3. De applicaties en andere administraties die worden gebruikt
 4. De taken die met de applicaties worden uitgevoerd.
 
-Voorbeeld uitwerking van deze fase is [hier](./monumenten.md#gemeentelijke-monumenten) en [hier](./monumenten.md#applicaties-en-beleidsdomeinen) te vinden (in twee delen uitgewerkt), en levert onder andere de volgende uitwerking.
+Voorbeeld uitwerking van deze fase is [hier](../monumenten.md#gemeentelijke-monumenten) en [hier](../monumenten.md#applicaties-en-beleidsdomeinen) te vinden (in twee delen uitgewerkt), en levert onder andere de volgende uitwerking.
 
 ![Applicaties Monumenten][applicatiesMonumenten]
 
@@ -44,23 +44,23 @@ In de vorige stap is een limitatieve lijst van de gebruikte applicaties en de ta
 
 Tijdens de interviews kun je foto's maken van de gebruikte applicaties, je kunt de achterliggende databaseschema's analyseren en gebruik maken van handleidingen bij de applicaties. Dit afhankelijke van de situatie en beschikbaarheid. De resultaten verwerk je in je analysedocument, zodat je dit kunt toetsen bij de geïnterviewden.
 
-Voorbeeld uitwerking van deze fase is [hier](./monumenten.md#gegevensdefinities) te vinden, en levert onder andere de volgende uitwerking. Je ziet hierin de verschillende applicaties met daarin de gegevens.
+Voorbeeld uitwerking van deze fase is [hier](../monumenten.md#gegevensdefinities) te vinden, en levert onder andere de volgende uitwerking. Je ziet hierin de verschillende applicaties met daarin de gegevens.
 
 ![Applicaties en gegevens Monumenten][applicatiesEnGegevensMonumenten]
 
 ### Uitbreiden Gemeentelijk Gegevensmodel
 
-In de vorige stap is geinventariseerd welke gegevens binnen het beleidsdomein worden gebruikt. In deze stap wordt deze inventarisatie gebruikt om een vertaling te maken naar objecttypes. Naast de geïnventariseerde gegevens bouw je hier zoveel mogelijk voort op (landelijke) gegevensstandaarden. De lijst met landelijke standaarden die in het Gemeentelijk Gegevensmodel zijn toegepast vind je [hier](./index.md#toegepaste-landelijke-standaarden). Als er een landelijke standaard ontbreekt voeg je die aan het model toe, door deze te importeren of deze met de hand over te nemen. Als je voortbouwt op een standaard die al in het model zit, hoeft dit uiteraard niet ;).
+In de vorige stap is geinventariseerd welke gegevens binnen het beleidsdomein worden gebruikt. In deze stap wordt deze inventarisatie gebruikt om een vertaling te maken naar objecttypes. Naast de geïnventariseerde gegevens bouw je hier zoveel mogelijk voort op (landelijke) gegevensstandaarden. De lijst met landelijke standaarden die in het Gemeentelijk Gegevensmodel zijn toegepast vind je [hier](../index.md#toegepaste-landelijke-standaarden). Als er een landelijke standaard ontbreekt voeg je die aan het model toe, door deze te importeren of deze met de hand over te nemen. Als je voortbouwt op een standaard die al in het model zit, hoeft dit uiteraard niet ;).
 
-In deze stap maak je een uitbreiding op het Gemeentelijk Gegevensmodel door per gevonden gegeven een objecttype aan te maken, of her te gebruiken uit het reeds bestaande model. Let hierbij op dat je de [gelaagde opbouw](./index.md#opbouw-gemeentelijk-gegevensmodel) respecteert. Deze objecttypes en de daarbij horende relatie werk je uit in één of meer diagrammen.
+In deze stap maak je een uitbreiding op het Gemeentelijk Gegevensmodel door per gevonden gegeven een objecttype aan te maken, of her te gebruiken uit het reeds bestaande model. Let hierbij op dat je de [gelaagde opbouw](../index.md#opbouw-gemeentelijk-gegevensmodel) respecteert. Deze objecttypes en de daarbij horende relatie werk je uit in één of meer diagrammen.
 
-Voorbeeld uitwerking van deze fase is [hier](./monumenten.md#applicaties-en-gegevens) te vinden, en levert onder andere de volgende uitwerking. 
+Voorbeeld uitwerking van deze fase is [hier](../monumenten.md#applicaties-en-gegevens) te vinden, en levert onder andere de volgende uitwerking. 
 
 ![Uitwerking objecttypen Monumenten][gegevensdefinitiesMonumenten]
 
 ### Genereren Databaseschema
 
-Om het net uitgebreide deel van het Gemeentelijk Gegevensmodel in een database te gebruiken kun je het genereren naar DDL. Selecteer of kopieer hiervoor het deel van het Gemeentelijk Gegevensmodel dat je naar DDL wilt genereren, en volg [deze](./generatie.md) handleiding.
+Om het net uitgebreide deel van het Gemeentelijk Gegevensmodel in een database te gebruiken kun je het genereren naar DDL. Selecteer of kopieer hiervoor het deel van het Gemeentelijk Gegevensmodel dat je naar DDL wilt genereren, en volg [deze](../generatie.md) handleiding.
 
 ## Uitwerking informatieanalyse met Enterprise Architect
 
@@ -127,7 +127,7 @@ Hiertoe doorloop je de volgende stappen:
 
 ### Uitbreiden Gemeentelijk Gegevensmodel
 
-Nadat alle relevante gegevens gevonden zijn kun je door naar de volgende stap: het aanmaken van nieuwe objecttypen en het relateren van gegevens aan bestaande objecttypen. **Kijk goed naar de mogelijkheden die de [codegeneratietemplates](generatie.md#interne-werking) bieden, zodat je later niet in de knoei komt als je wilt transformeren naar tabellen.**
+Nadat alle relevante gegevens gevonden zijn kun je door naar de volgende stap: het aanmaken van nieuwe objecttypen en het relateren van gegevens aan bestaande objecttypen. **Kijk goed naar de mogelijkheden die de [codegeneratietemplates](../generatie.md#interne-werking) bieden, zodat je later niet in de knoei komt als je wilt transformeren naar tabellen.**
 
 Het uitbreiden verloopt in een aantal stappen:
 
@@ -171,29 +171,29 @@ Het uitbreiden verloopt in een aantal stappen:
 
 ### Databaseschema maken
 
-Om het net uitgebreide deel van het Gemeentelijk Gegevensmodel in een database te gebruiken kun je het genereren naar DDL. Selecteer of kopieer hiervoor het deel van het Gemeentelijk Gegevensmodel dat je naar DDL wilt genereren, en volg [deze](./generatie.md) handleiding.
+Om het net uitgebreide deel van het Gemeentelijk Gegevensmodel in een database te gebruiken kun je het genereren naar DDL. Selecteer of kopieer hiervoor het deel van het Gemeentelijk Gegevensmodel dat je naar DDL wilt genereren, en volg [deze](../generatie.md) handleiding.
 
-[aanpakGGM]: image/AanpakGGM.jpg "Aanpak GGM"
-[applicatiesMonumenten]: image/Applicaties_Monumenten.png "Applicaties Monumenten"
-[applicatiesEnGegevensMonumenten]: image/ApplicatiesEnGegevensMonumenten.png "Monumenten Applicaties en Gegevens"
-[gegevensdefinitiesMonumenten]: image/GegevensdefinitiesMonumenten.png "Monumenten Gegevensdefinities"
+[aanpakGGM]: ../image/AanpakGGM.jpg "Aanpak GGM"
+[applicatiesMonumenten]: ../image/Applicaties_Monumenten.png "Applicaties Monumenten"
+[applicatiesEnGegevensMonumenten]: ../image/ApplicatiesEnGegevensMonumenten.png "Monumenten Applicaties en Gegevens"
+[gegevensdefinitiesMonumenten]: ../image/GegevensdefinitiesMonumenten.png "Monumenten Gegevensdefinities"
 
-[modellerenStap1a]: image/ModellerenStap1a.png "Modelleren Stap 1a"
-[modellerenStap1b]: image/ModellerenStap1b.png "Modelleren Stap 1b"
-[modellerenStap1c]: image/ModellerenStap1c.png "Modelleren Stap 1c"
-[modellerenStap1c1]: image/ModellerenStap1c1.png "Modelleren Stap 1c elementdetails onderdrukken"
-[modellerenStap1d]: image/ModellerenStap1d.png "Modelleren Stap 1d"
-[modellerenStap1e]: image/ModellerenStap1e.png "Modelleren Stap 1e"
-[modellerenStap2a]: image/ModellerenStap2a.png "Modelleren Stap 2a"
-[modellerenStap2b]: image/ModellerenStap2b.png "Modelleren Stap 2b"
-[modellerenStap2c]: image/ModellerenStap2c.png "Modelleren Stap 2c"
-[modellerenStap2d]: image/ModellerenStap2d.png "Modelleren Stap 2d"
-[modellerenStap3a]: image/ModellerenStap3a.png "Modelleren Stap 3a"
-[modellerenStap3b]: image/ModellerenStap3b.png "Modelleren Stap 3b"
-[modellerenStap3b1]: image/ModellerenStap3b1.png "Modelleren Stap 3b1"
-[modellerenStap3c]: image/ModellerenStap3c.png "Modelleren Stap 3c"
-[modellerenStap3d]: image/ModellerenStap3d.png "Modelleren Stap 3d"
-[modellerenStap3e]: image/ModellerenStap3e.png "Modelleren Stap 3e"
-[modellerenStap3f]: image/ModellerenStap3f.png "Modelleren Stap 3f"
-[modellerenStap3g]: image/ModellerenStap3g.png "Modelleren Stap 3g"
-[modellerenStap3h]: image/ModellerenStap3h.png "Modelleren Stap 3h"
+[modellerenStap1a]: ../image/ModellerenStap1a.png "Modelleren Stap 1a"
+[modellerenStap1b]: ../image/ModellerenStap1b.png "Modelleren Stap 1b"
+[modellerenStap1c]: ../image/ModellerenStap1c.png "Modelleren Stap 1c"
+[modellerenStap1c1]: ../image/ModellerenStap1c1.png "Modelleren Stap 1c elementdetails onderdrukken"
+[modellerenStap1d]: ../image/ModellerenStap1d.png "Modelleren Stap 1d"
+[modellerenStap1e]: ../image/ModellerenStap1e.png "Modelleren Stap 1e"
+[modellerenStap2a]: ../image/ModellerenStap2a.png "Modelleren Stap 2a"
+[modellerenStap2b]: ../image/ModellerenStap2b.png "Modelleren Stap 2b"
+[modellerenStap2c]: ../image/ModellerenStap2c.png "Modelleren Stap 2c"
+[modellerenStap2d]: ../image/ModellerenStap2d.png "Modelleren Stap 2d"
+[modellerenStap3a]: ../image/ModellerenStap3a.png "Modelleren Stap 3a"
+[modellerenStap3b]: ../image/ModellerenStap3b.png "Modelleren Stap 3b"
+[modellerenStap3b1]: ../image/ModellerenStap3b1.png "Modelleren Stap 3b1"
+[modellerenStap3c]: ../image/ModellerenStap3c.png "Modelleren Stap 3c"
+[modellerenStap3d]: ../image/ModellerenStap3d.png "Modelleren Stap 3d"
+[modellerenStap3e]: ../image/ModellerenStap3e.png "Modelleren Stap 3e"
+[modellerenStap3f]: ../image/ModellerenStap3f.png "Modelleren Stap 3f"
+[modellerenStap3g]: ../image/ModellerenStap3g.png "Modelleren Stap 3g"
+[modellerenStap3h]: ../image/ModellerenStap3h.png "Modelleren Stap 3h"

@@ -117,7 +117,7 @@ Uitgangspunt van de inventarisatie waren:
 2. De set beleidsdomeinen waar de gemeente haar taakgebied heeft
 3. Landelijk vastgestelde standaarden voor gegevensuitwisseling en landelijk vastgestelde informatiemodellen  
 
-De inventarisatie is op hoofdlijnen in de volgende stappen uitgevoerd (kijk voor een volledig overzicht [hier](./totstandkoming.md)):
+De inventarisatie is op hoofdlijnen in de volgende stappen uitgevoerd (kijk voor een volledig overzicht [hier](./doorontwikkeling/totstandkoming.md)):
 
 1. Interviews met experts uit de verschillen de Beleidsdomeinen: per beleidsdomein is er m.b.v. gesprekken met experts van de informatievoorziening binnen de beleidsdomeinen een inventarisatie gemaakt van de gebruikte applicaties, de betrokken gebruikers, de interactie tussen de applicaties en de gebruikers, en welke gegevens daarbij gebruikt worden.
 2. Applicaties en gegevens: door in de gesprekken en uit de analyse de authentieke bronnen  van gegevens te identificeren, door in de gesprekken in te zoomen op de gebruikte gegevens en door de inventarisatie van de applicaties en gegevens te hanteren zijn de gegevens binnen de authentieke bronnen geïdentificeerd.
