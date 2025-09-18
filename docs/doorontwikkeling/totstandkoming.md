@@ -1,5 +1,7 @@
 # Totstandkoming Gemeentelijk Gegevensmodel
 
+Om een indruk te geven van de manier waarop de informatieanalyse heeft plaatsgevonden bij het opbouwen van het GGM wordt deze in onderstaande secties beschreven. 
+
 ## Overview
 
 Het GGM is ontworpen op aan de hand van interviews met domeinexperts, de in Delft gebruikte applicaties en op basis van landelijke informatiestandaarden. Dit om tot een gegevensmodel te komen dat goede verankering kent met de Delftse situatie. De uitwerking van [Gemeentelijke Monumenten](../monumenten.md) is als voorbeeld in de handleiding opgenomen. Aangezien alle Nederlandse gemeenten in principe dezelfde wettelijke taken hebben gaan we ervan uit dat de onderliggende informatiemodellen sterk op elkaar lijken.

@@ -144,8 +144,8 @@ nav:
  - Doorontwikkeling GGM:
     - Inleiding en uitgangspunten: doorontwikkeling/inleiding_en_uitgangspunten.md
     - Toegepaste patronen: doorontwikkeling/patronen.md
-    - Modelelementen: doorontwikkeling/modelelementen.md
-    - Een Uitbreiding maken: doorontwikkeling/uitbreiden.md
+    - Ondersteunde Modelelementen: doorontwikkeling/modelelementen.md
+    - Aan de slag, een Uitbreiding maken: doorontwikkeling/uitbreiden.md
     - Aanpak informatieanalyse:
         - 'Uitleg Werkwijze': doorontwikkeling/totstandkoming.md
         - 'Voorbeeld: Gemeentelijke Monumenten': monumenten.md

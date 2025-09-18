@@ -1,15 +1,14 @@
-# Een uitbreiding maken
-
+# Aan de slag, een uitbreiding maken op het GGM
 
 In dit onderdeel wordt met voorbeelden getoond hoe je uitbreidingen aan het GGM kunt maken. Om te illustreren hoe je de uitbreiding moet aanpakken wordt gewerkt met het voorbeeld `Deelmodel Begraafplaats`.
 
 ### Voorbeeldcasus: Deelmodel Begraafplaats
 
-Als voorbeeld wordt het (vereenvoudigde) **deelmodel Begraafplaats** gebruikt. Dit deelmodel richt zich op de kernbegrippen die in vrijwel elke gemeentelijke context voorkomen. Een **begraafplaats** omvat meerdere **graven**, die ieder gekoppeld zijn aan een of meer **overledenen**. Rondom deze kern zijn verschillende actoren en objecten relevant. Zo speelt de **begrafenisondernemer** een rol bij het aanvragen en organiseren van de uitvaart. Daarnaast zijn er vaak aanvullende entiteiten nodig, zoals:
+Als voorbeeld wordt het (vereenvoudigde) `deelmodel Begraafplaats` gebruikt. Dit deelmodel richt zich op de kernbegrippen die in vrijwel elke gemeentelijke context voorkomen. Een `begraafplaats` omvat meerdere `graven`, die ieder gekoppeld zijn aan een of meer `overledenen`. Rondom deze kern zijn verschillende actoren en objecten relevant. Zo speelt de `begrafenisondernemer` een rol bij het aanvragen en organiseren van de uitvaart. Daarnaast zijn er vaak aanvullende entiteiten nodig, zoals:
 
-- **Nabestaande** – de contactpersoon of rechthebbende die verantwoordelijk is voor het graf en de administratie.  
-- **Grafrecht** – de juridische relatie tussen een rechthebbende en een graf, inclusief looptijd en voorwaarden.  
-- **Begraafplaatsbeheerder** – de gemeentelijke of particuliere organisatie die het onderhoud en de administratie van de begraafplaats verzorgt.  
+- `Nabestaande` – de contactpersoon of rechthebbende die verantwoordelijk is voor het graf en de administratie.  
+- `Grafrecht` – de juridische relatie tussen een rechthebbende en een graf, inclusief looptijd en voorwaarden.  
+- `Begraafplaatsbeheerder` – de gemeentelijke of particuliere organisatie die het onderhoud en de administratie van de begraafplaats verzorgt.  
 
 Met dit vereenvoudigde model wordt duidelijk hoe verschillende objecttypen en relaties in een praktijkcasus kunnen worden gemodelleerd en op het GGM aangesloten.
 
@@ -52,5 +51,14 @@ het betreft de volgende fouten:
 
 ## Een model koppelen aan het GGM 
 
-Speciale aandacht vraagt het ontwikkelen van een informatiemodel dat koppelbaar is aan het bestaande GGM. Sommige deelmodellen worden immers buiten het GGM ontwikkeld, waarna ze aan het GGM gekoppeld worden. Hiervoor is het belangrijk dat duidelijk is welke objecttypen uit het GGM gebruikt worden binnen het nieuw te ontwikkelen model. Daarnaast hebben alle relaties kardinaliteit, een label en een richting voor de leesbaarheid. 
+Speciale aandacht vraagt het ontwikkelen van een informatiemodel dat koppelbaar is aan het bestaande GGM. Sommige deelmodellen worden immers buiten het GGM ontwikkeld, waarna ze aan het GGM gekoppeld worden. Hiervoor is het belangrijk dat duidelijk is welke objecttypen uit het GGM gebruikt worden binnen het nieuw te ontwikkelen model. Daarnaast hebben alle relaties kardinaliteit, een label en een richting voor de leesbaarheid.
 
+In onderstaande figuur is getoond hoe een aantal objecttypen kunnen worden afgeleid van objecttypen uit het GGM. Op deze manier wordt de verbinding met het GGM geregeld. In het voorbeeld worden afgeleiden gemaakt van `NatuurlijkPersoon`, `NietNatuurlijkPersoon` en `Nummeraanduiding` voor het adres.
+
+Je kunt de delen van het GGM die je wilt gebruiken te importeren, en vervolgens de verbindingen leggen.  
+
+![Extensies maken op het GGM](../image/Begraafplaats%20GGM-Extensie.jpg)
+
+Voordeel van het maken van een extensie in de vorm van een generalisatie is dat je de attributen uit de 'parent'-klasse overerft. Deze attributen hoef je dan niet meer zelf te definiëren. Dit mechanisme is uitgewerkt voort de overervingen van `Natuurlijkpersoon` in onderstaande diagram. Je ziet dat een aantal attributen niet meer in de Objecttypen zelf staat, maar wordt overerfd.  
+
+![Extensies maken op het GGM](../image/Begraafplaats%20GGM-Extensie%20Detail.jpg)
