@@ -2,21 +2,9 @@
 
 Modelelementen zijn de bouwstenen van een informatiemodel. Het zijn de formele constructies waarmee concepten, eigenschappen en relaties uit de werkelijkheid worden vastgelegd in een model. Voorbeelden van modelelementen zijn objecttypen, attributen, relaties, datatypen en enumeraties. Samen bepalen zij de structuur, betekenis en samenhang van de informatie die in een domein wordt beschreven.
 
-Het GGM bouwt voort op de modelelementen zoals gedefinieerd in de [kern](https://docs.geostandaarden.nl/mim/mim/#kern) van het [MIM](https://docs.geostandaarden.nl/mim/mim). Door deze landelijke standaard als fundament te gebruiken, sluit het model naadloos aan bij bestaande afspraken en kunnen de verschillende onderdelen van het GGM eenduidig worden geïnterpreteerd. Daarbij voegt het GGM eigen uitbreidingen en conventies toe, zodat de modelelementen optimaal aansluiten bij de gemeentelijke context en ondersteunende tooling zoals de DDL-generator.
+Het GGM bouwt voort op de modelelementen zoals gedefinieerd in de [kern](https://docs.geostandaarden.nl/mim/mim/#kern) van het [MIM (Metamodel Informatiemodellering)](https://docs.geostandaarden.nl/mim/mim). Door deze landelijke standaard als fundament te gebruiken, sluit het model naadloos aan bij bestaande afspraken en kunnen de verschillende onderdelen van het GGM eenduidig worden geïnterpreteerd. Daarbij voegt het GGM eigen uitbreidingen en conventies toe, zodat de modelelementen optimaal aansluiten bij de gemeentelijke context en ondersteunende tooling zoals de DDL-generator.
 
 MIM is een toepassingensprofiel op [UML (Unified Modelling Language)](https://www.omg.org/uml/), en dan met name op de Class-diagrammen. UML is een wereldwijd toegepaste standaard voor informatiemodelleren. Om deze reden verwijzen wij ook naar de gebruikte UML-modeltypen. Hierbij nemen we [UML v2.5.1](https://www.omg.org/spec/UML/2.5.1) als uitgangspunt.   
-
-## Waarom modelelementen?
-
-We modelelementen gebaseerd op het MIM voor het GGM omdat:
-
-- we allemaal op dezelfde manier werken  
-- we aansluiting hebben bij de DDL-generator, en deze bepaalde constructies ondersteunt en andere niet
-- documentatie op een goede manier gegenereerd kan worden  
-- uitbreidingen en wijzigingen consistent en beheersbaar blijven  
-- de aansluiting met landelijke standaarden (zoals MIM) en linked data gewaarborgd is  
-- leveranciers en gemeenten met voorspelbare en uniforme modellen kunnen werken  
-- kwaliteitsborging en toetsing mogelijk worden gemaakt  
 
 ## Modelelementen ondersteund door het GGM
 
@@ -107,7 +95,7 @@ Veel regels voor het gebruik van modelelementen staan expliciet of impliciet bes
     - Naamgeving is verplicht bij: Objecttypes, Enumeraties en attribuutsoorten
     - Naamgeving voor associaties is optioneel
 
-!!! rule "Ontwerpregel m3: Attributen hebben altijd een datatype"
+!!! rule "Ontwerpregel m3: Attributen hebben altijd een datatype uit de lijst ondersteunde datatypes"
     - Alle attributen hebben een datatype uit de lijst ondersteunde datatypes
     - Als het een primitief datatype is komt deze uit de lijst ondersteunde primitieve datatypes
     - Als het geen primitief datatype is wordt altijd verwezen naar een Enumeratie of Objecttype in scope van het model  
