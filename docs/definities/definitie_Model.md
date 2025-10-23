@@ -58,8 +58,8 @@ Attributen van objecttype Periode
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumStart | date |  |
 | datumEinde | date |  |
+| datumStart | date |  |
 | omschrijving |  |  |
 
 

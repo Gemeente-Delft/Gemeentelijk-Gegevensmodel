@@ -110,10 +110,10 @@ Attributen van objecttype Archief
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| archiefnummer | AN20 |  |
 | naam | AN80 |  |
 | omschrijving | text |  |
 | openbaarheidsbeperking | int |  |
-| archiefnummer | AN20 |  |
 
 
 
@@ -149,8 +149,8 @@ Attributen van objecttype Archiefcategorie
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | naam | AN80 |  |
-| omschrijving | text |  |
 | nummer | AN20 |  |
+| omschrijving | text |  |
 
 
 
@@ -185,11 +185,11 @@ Attributen van objecttype Archiefstuk
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| trefwoorden | AN200 |  |
-| openbaarheidsbeperking | Boolean |  |
+| beschrijving | text |  |
 | inventarisnummer | AN20 |  |
 | omvang | AN40 |  |
-| beschrijving | text |  |
+| openbaarheidsbeperking | Boolean |  |
+| trefwoorden | AN200 |  |
 | uiterlijkeVorm | AN40 |  |
 
 
@@ -331,10 +331,10 @@ Attributen van objecttype DigitaalBestand
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| blob | Blob |  |
+| mimetype | AN20 |  |
 | naam | AN80 |  |
 | omschrijving | text |  |
-| mimetype | AN20 |  |
-| blob | Blob |  |
 
 
 
@@ -369,10 +369,10 @@ Attributen van objecttype Indeling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| indelingsoort | AN20 |  |
 | naam | AN80 |  |
 | nummer | AN20 |  |
 | omschrijving | text |  |
-| indelingsoort | AN20 |  |
 
 
 

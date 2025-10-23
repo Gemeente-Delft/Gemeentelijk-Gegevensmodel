@@ -165,13 +165,13 @@ Attributen van objecttype Toepasbare Regel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN200 |  |
-| omschrijving | text |  |
-| domein | URL |  |
-| toestemming | AN200 |  |
-| soortAansluitpunt | AN200 | uitbreiden, uitsluiten of vervangen |
 | datumBeginGeldigheid | Date |  |
 | datumEindeGeldigheid | Date |  |
+| domein | URL |  |
+| naam | AN200 |  |
+| omschrijving | text |  |
+| soortAansluitpunt | AN200 | uitbreiden, uitsluiten of vervangen |
+| toestemming | AN200 |  |
 
 
 
@@ -206,8 +206,8 @@ Attributen van objecttype ToepasbareRegelBestand
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumStart | Date |  |
 | datumEindeGeldigheid | Date |  |
+| datumStart | Date |  |
 
 
 

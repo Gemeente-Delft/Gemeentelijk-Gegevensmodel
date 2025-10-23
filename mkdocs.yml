@@ -140,16 +140,21 @@ nav:
         - 'BAG': definities/definitie_Model BAG.md
         - 'Generieke definities Kern': definities/definitie_Model Generiek.md
  # - Gebruik: gebruik.md
- - Totstandkoming:
-    - 'Uitleg Werkwijze': totstandkoming.md
-    - 'Voorbeeld: Gemeentelijke Monumenten': monumenten.md
  - Databaseschema's: generatie.md
+ - Doorontwikkeling GGM:
+    - Inleiding en uitgangspunten: doorontwikkeling/inleiding_en_uitgangspunten.md
+    - Toegepaste patronen: doorontwikkeling/patronen.md
+    - Ondersteunde Modelelementen: doorontwikkeling/modelelementen.md
+    - Aan de slag, een Uitbreiding maken: doorontwikkeling/uitbreiden.md
+    - Aanpak informatieanalyse:
+        - 'Uitleg Werkwijze': doorontwikkeling/totstandkoming.md
+        - 'Voorbeeld: Gemeentelijke Monumenten': monumenten.md
  - Overige:
     - Over het GGM: about.md
     - Licentie: https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE
     - Documentatie aanpassen: documentatie.md
     - Backup maken: backup.md
-    - Tooling voor manupulatie repository: tools.md
+    - Tooling voor manipulatie repository: tools.md
 
 
 markdown_extensions:

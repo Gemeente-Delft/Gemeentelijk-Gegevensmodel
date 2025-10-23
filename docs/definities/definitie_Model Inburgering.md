@@ -43,7 +43,7 @@ Het model 'Model Inburgering' kent de volgende objecttypen:
 * **KNM**: <font color="#0e0e0e"><b>KNM</b></font><font color="#0e0e0e"> (Kennis van de Nederlandse Maatschappij) is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige kennis opdoet over de waarden, normen, instituties en gebruiken in de Nederlandse samenleving, met als doel maatschappelijke ori&#235;ntatie en participatie te bevorderen.</font>
 * **Leerroute**: <font color="#0e0e0e">Een </font><font color="#0e0e0e"><b>Leerroute</b></font><font color="#0e0e0e"> is het door de gemeente vastgestelde traject dat een inburgeringsplichtige volgt om te voldoen aan de inburgeringsplicht, bestaande uit taallessen, participatieactiviteiten en aanvullende modules, afgestemd op het leervermogen en het hoofddoel van de inburgeraar.</font>
 * **MAP**: <font color="#0e0e0e">De </font><font color="#0e0e0e"><b>Module Arbeidsmarkt en Participatie (MAP)</b></font><font color="#0e0e0e"> is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige wordt voorbereid op deelname aan de Nederlandse arbeidsmarkt, door middel van voorlichting, ori&#235;ntatie en arbeidsmarktgerichte activiteiten.</font>
-* **Onderwijs-route**: <font color="#0e0e0e">De </font><font color="#0e0e0e"><b>Onderwijsroute</b></font><font color="#0e0e0e"> is &#233;&#233;n van de drie leerroutes binnen het inburgeringsstelsel, bedoeld voor leerbare en jonge inburgeringsplichtigen die zich willen voorbereiden op het volgen van een opleiding in het mbo, hbo of hoger onderwijs in Nederland.</font>
+* **Onderwijsroute**: <font color="#0e0e0e">De </font><font color="#0e0e0e"><b>Onderwijsroute</b></font><font color="#0e0e0e"> is &#233;&#233;n van de drie leerroutes binnen het inburgeringsstelsel, bedoeld voor leerbare en jonge inburgeringsplichtigen die zich willen voorbereiden op het volgen van een opleiding in het mbo, hbo of hoger onderwijs in Nederland.</font>
 * **Ontheffing**: <font color="#0e0e0e">Een </font><font color="#0e0e0e"><b>Ontheffing</b></font><font color="#0e0e0e"> is een formeel besluit van de gemeente of van DUO waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt vrijgesteld van onderdelen van de inburgeringsplicht, op grond van persoonlijke omstandigheden zoals medische beperkingen, psychische problematiek of aantoonbare inspanning.</font>
 * **Ontwikkelwens **: <font color="#0e0e0e">Een </font><font color="#0e0e0e"><b>Ontwikkelwens</b></font><font color="#0e0e0e"> is een door de inburgeringsplichtige geuite persoonlijke ambitie of leerdoel die richting kan geven aan het inburgeringstraject, en wordt meegenomen bij het opstellen van het Persoonlijk Plan Inburgering en Participatie (PIP).</font>
 * **ParticipatieComponent**: <font color="#0e0e0e">De </font><font color="#0e0e0e"><b>Participatiecomponent</b></font><font color="#0e0e0e"> is het deel van het inburgeringstraject waarin de inburgeringsplichtige actief wordt begeleid naar maatschappelijke participatie, bijvoorbeeld via vrijwilligerswerk, arbeidsori&#235;ntatie of praktische activiteiten in de wijk, met als doel zelfredzaamheid en betrokkenheid bij de samenleving te versterken.</font>
@@ -99,8 +99,8 @@ Attributen van objecttype Aandachtspunt
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | Aandachtspunt | Enumeratie: "Aandachtspunt" |  |
-| StartDatum | date |  |
 | EindDatum | date |  |
+| StartDatum | date |  |
 
 
 
@@ -171,12 +171,12 @@ Attributen van objecttype Asielstatushouder
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Telefoonnummer verblijf AZC | AN10 | Het telefoonummer van Asielstatushouder  tijdens het verblijf in het AZC.<br>Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat. |
-| Emailadres verblijf AZC | AN40 | Het emailadres van Asielstatushouder  tijdens verblijf in het AZC.<br>Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder   het AZC verlaat. |
 | DigiD aangevraagd | Enumeratie: "Boolean" | Heeft de Asielstatushouder  een DigiD aangevraagd?<br>Mogelijke waarden: ja, nee of onbekend. |
-| Rijbewijs | Enumeratie: "Boolean" | Is de Asielstatushouder in het bezit van een rijbewijs?<br>Mogelijke waarden: ja, nee of onbekend |
-| Land Rijbewijs | AN50 | Het land waar het rijbewijs is gehaald door Asielstatushouder. |
+| Emailadres verblijf AZC | AN40 | Het emailadres van Asielstatushouder  tijdens verblijf in het AZC.<br>Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder   het AZC verlaat. |
 | Is gekoppeld aan | AN40 | Is de naam van de Gemeente waar de Asielstatushouder aan is gekoppeld voor huisvesting en verdere inburgering. |
+| Land Rijbewijs | AN50 | Het land waar het rijbewijs is gehaald door Asielstatushouder. |
+| Rijbewijs | Enumeratie: "Boolean" | Is de Asielstatushouder in het bezit van een rijbewijs?<br>Mogelijke waarden: ja, nee of onbekend |
+| Telefoonnummer verblijf AZC | AN10 | Het telefoonummer van Asielstatushouder  tijdens het verblijf in het AZC.<br>Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat. |
 
 
 
@@ -211,11 +211,11 @@ Attributen van objecttype B1-route
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| ExamenDatum | date |  |
-| Resultaat | int |  |
-| RedenGeenResultaat | string |  |
 | AantalGratisExamenpogingenTegoed | int |  |
+| ExamenDatum | date |  |
 | GevolgdeUrenParticipatieTaalles | int |  |
+| RedenGeenResultaat | string |  |
+| Resultaat | int |  |
 
 
 
@@ -284,11 +284,11 @@ Attributen van objecttype Diplomawaardering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| NiveauCompetentie | Enumeratie: "ClassificatieArmTotUitstekend" |  |
-| WaarderingAangevraagd | Bool |  |
-| DiplomaWaarderingVoor | Enumeratie: "Opleidingsniveau" |  |
 | DiplomaWaarderingNederlandsNiveau | boolean |  |
 | DiplomaWaarderingRichting | Enumeratie: "Opleidingsniveau" |  |
+| DiplomaWaarderingVoor | Enumeratie: "Opleidingsniveau" |  |
+| NiveauCompetentie | Enumeratie: "ClassificatieArmTotUitstekend" |  |
+| WaarderingAangevraagd | Bool |  |
 
 
 
@@ -323,12 +323,12 @@ Attributen van objecttype Educatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Opleiding | Enumeratie: "CodeNiveauOpleiding" |  |
-| EducatieVan | Date |  |
-| EducatieTot | date |  |
-| EducatieLand | Enum |  |
 | EducatieDiploma |  |  |
 | EducatieInBezit | boolean |  |
+| EducatieLand | Enum |  |
+| EducatieTot | date |  |
+| EducatieVan | Date |  |
+| Opleiding | Enumeratie: "CodeNiveauOpleiding" |  |
 
 
 
@@ -470,8 +470,8 @@ Attributen van objecttype Hoofddoel
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | Doel | Enumeratie: "Doel" |  |
-| StartDatum | Date |  |
 | EindDatum | Date |  |
+| StartDatum | Date |  |
 
 
 
@@ -542,8 +542,8 @@ Attributen van objecttype Inburgeraar
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Gedetailleerde Doelgroep | Enumeratie: "Doelgroep" | Is een indeling (op basis van een verblijfsdoel van een Inburgeraar) in een groep. |
 | Doelgroep | int | Een indeling (op basis van een verblijfsdoen van een Inburgeraar en het onderscheid dat de Wi2021 maakt tussen de verschillende waarden in een groep. Zie ook de objecten Asielstatushouder en Gezinsmigrant / overige migrant. |
+| Gedetailleerde Doelgroep | Enumeratie: "Doelgroep" | Is een indeling (op basis van een verblijfsdoel van een Inburgeraar) in een groep. |
 
 
 
@@ -578,15 +578,15 @@ Attributen van objecttype InburgeringsAanbod
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| DatumInburgeringsAanbod | date |  |
+| ContractId | int |  |
+| CursusInstelling |  |  |
 | DatumAanvangTaalschakelTraject | date |  |
 | DatumEindeCursus | date |  |
-| CursusInstelling |  |  |
-| IndicatorAlfabetisering | Enumeratie: "ClassificatieVoldoendeOnvoldoende " |  |
-| TaalschakelTraject | boolean |  |
+| DatumInburgeringsAanbod | date |  |
 | DatumTaalschakelDiploma | date |  |
+| IndicatorAlfabetisering | Enumeratie: "ClassificatieVoldoendeOnvoldoende " |  |
 | ParticipatieDeelname | Enumeratie: "ClassificatieVoldoendeOnvoldoende " |  |
-| ContractId | int |  |
+| TaalschakelTraject | boolean |  |
 
 
 
@@ -621,17 +621,17 @@ Attributen van objecttype Inburgeringsplicht
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| IndicatorInburgeringsplicht | boolean |  |
-| UitkomstLeerbaarheidstoets | Enumeratie: "UitkomstLeerbaarheidstoets" | B1<br>Z1 |
 | BeschikkingVoldaanInburgeringsplicht | string |  |
-| V-nummer | int |  |
-| InburgeraarSpecialisatie | string |  |
-| DatumStart | date |  |
 | DatumEind | date |  |
-| RedenGeenInburgeringsplicht | string |  |
 | DatumGewijzigdInburgeringsplicht | date |  |
-| WordtBehandelsAls | string |  |
 | DatumGewijzigdWordtBehandeldAls | date |  |
+| DatumStart | date |  |
+| InburgeraarSpecialisatie | string |  |
+| IndicatorInburgeringsplicht | boolean |  |
+| RedenGeenInburgeringsplicht | string |  |
+| UitkomstLeerbaarheidstoets | Enumeratie: "UitkomstLeerbaarheidstoets" | B1<br>Z1 |
+| V-nummer | int |  |
+| WordtBehandelsAls | string |  |
 
 
 
@@ -666,11 +666,11 @@ Attributen van objecttype Inburgeringstermijn
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| BoeteBedrag | double |  |
 | DatumAanvangInburgeringstermijn | date |  |
+| DatumBoete | date |  |
 | DatumEindeInburgeringstermijn | date |  |
 | VooraankondigingBoete | boolean |  |
-| BoeteBedrag | double |  |
-| DatumBoete | date |  |
 
 
 
@@ -739,8 +739,8 @@ Attributen van objecttype Introductiemodule
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| ModuleNaam |  |  |
 | DeelnameIntroductieModule | Bool |  |
+| ModuleNaam |  |  |
 
 
 
@@ -809,14 +809,14 @@ Attributen van objecttype Leerroute
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| LeerrouteType | Enum |  |
-| Niveau | Enum |  |
+| ExamenA2 | Bool |  |
 | GeschatteIntensiteitB1Route | Enum |  |
 | IndicatorAlfabetisering | Enumeratie: "ClassificatieArmTotUitstekend" |  |
-| IndicatorToestemmingExamenA2 | Enum |  |
-| IndicatorMagOpleidingAfmaken | Bool |  |
 | IndicatorLeerbaarheidstoetsOvergeslagenVanwegeZintuigelijkeBeperking | Bool |  |
-| ExamenA2 | Bool |  |
+| IndicatorMagOpleidingAfmaken | Bool |  |
+| IndicatorToestemmingExamenA2 | Enum |  |
+| LeerrouteType | Enum |  |
+| Niveau | Enum |  |
 
 
 
@@ -854,15 +854,15 @@ Attributen van objecttype MAP
 
 
 
-### Onderwijs-route
-> **Definitie Onderwijs-route:** 
+### Onderwijsroute
+> **Definitie Onderwijsroute:** 
 >
 > <font color="#0e0e0e">De </font><font color="#0e0e0e"><b>Onderwijsroute</b></font><font color="#0e0e0e"> is &#233;&#233;n van de drie leerroutes binnen het inburgeringsstelsel, bedoeld voor leerbare en jonge inburgeringsplichtigen die zich willen voorbereiden op het volgen van een opleiding in het mbo, hbo of hoger onderwijs in Nederland.</font>
 
-??? info "Kenmerken Model Onderwijs-route"
+??? info "Kenmerken Model Onderwijsroute"
     | Eigenschap | Waarde |
     | :--- | :------ |
-    | name | Onderwijs-route |
+    | name | Onderwijsroute |
     | toelichting | De Onderwijsroute is met name bedoeld voor jongvolwassen statushouders met voldoende leervermogen en onderwijsambitie, veelal onder de 28 jaar.<br>	• De route richt zich op het behalen van:<br>	• Nederlands op taalniveau B1 of hoger;<br>	• Een diploma Schakelt |
     | synoniemen |  |
     | uri |  |
@@ -870,7 +870,7 @@ Attributen van objecttype MAP
     | author | mkampen |
     | version | 1.4 |
     | created | 2022-11-28 16:52:20 |
-    | modified | 2025-07-29 13:23:29 |
+    | modified | 2025-07-30 10:45:06 |
     | id | EAID_E4266DEA_CDB0_4568_AB4D_8B3C21976E82 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -881,7 +881,7 @@ Attributen van objecttype MAP
     | gemma_toelichting |  |
     
 
-Attributen van objecttype Onderwijs-route
+Attributen van objecttype Onderwijsroute
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -955,9 +955,9 @@ Attributen van objecttype Ontwikkelwens
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| EindDatum | date |  |
 | Ontwikkelwens | Enumeratie: "Ontwikkelwens" |  |
 | StartDatum | date |  |
-| EindDatum | date |  |
 
 
 
@@ -1094,9 +1094,9 @@ Attributen van objecttype Subdoel Aandachtspunt
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Subdoel | string |  |
-| Startdatum | date |  |
 | Einddatum | date |  |
+| Startdatum | date |  |
+| Subdoel | string |  |
 
 
 
@@ -1131,9 +1131,9 @@ Attributen van objecttype Subdoel Ontwikkelwens
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Subdoel | string |  |
-| StartDatum | Date |  |
 | EindDatum | Date |  |
+| StartDatum | Date |  |
+| Subdoel | string |  |
 
 
 
@@ -1202,20 +1202,20 @@ Attributen van objecttype Taalvaardigheid
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| ToetsTaalleerbaarheid | Enumeratie: "ClassificatieArmTotUitstekend" |  |
-| Score | int |  |
-| ResultaatToetsTaalleerbaarheid | int |  |
-| ToetsSpreekvaardigheid | Enumeratie: "ClassificatieArmTotUitstekend" |  |
-| ResultaatToetsSpreekvaardigheid | int |  |
-| OpleidingsniveauGeschat | string |  |
-| TaallesActiviteit | Bool |  |
-| StartVanTaallesActviteit | date |  |
 | EindeVanTaallesActviteit | date |  |
-| ResultaatTaalles | Enumeratie: "ClassificatieArmTotUitstekend" |  |
+| OpleidingsniveauGeschat | string |  |
 | PresentieTaalles | string |  |
+| ResultaatTaalles | Enumeratie: "ClassificatieArmTotUitstekend" |  |
+| ResultaatToetsSpreekvaardigheid | int |  |
+| ResultaatToetsTaalleerbaarheid | int |  |
+| Score | int |  |
+| StartVanTaallesActviteit | date |  |
+| TaallesActiviteit | Bool |  |
 | Taalvaardigheid | Enumeratie: "ClassificatieArmTotUitstekend" |  |
 | TaalvaardigheidMondeling | Enumeratie: "ClassificatieArmTotUitstekend" |  |
 | TaalvaardigheidSchriftelijk | Enumeratie: "ClassificatieArmTotUitstekend" |  |
+| ToetsSpreekvaardigheid | Enumeratie: "ClassificatieArmTotUitstekend" |  |
+| ToetsTaalleerbaarheid | Enumeratie: "ClassificatieArmTotUitstekend" |  |
 
 
 
@@ -1250,9 +1250,9 @@ Attributen van objecttype Training
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Training | boolean |  |
 | PeriodeTraining | String |  |
 | ResultaatTraining | Enumeratie: "ClassificatieArmTotUitstekend" |  |
+| Training | boolean |  |
 
 
 
@@ -1356,11 +1356,11 @@ Attributen van objecttype Verlengingsgrond
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | AanwezigheidAanvraagVerlening | boolean |  |
+| DatumAanvangVerlengingsgrond | Date |  |
+| DatumBeoordelingVerlengingsgrond | Date |  |
+| DatumEindeVerlengingsgrond | Date |  |
 | VerlengingInWeken | int |  |
 | Verlengingsgrond |  |  |
-| DatumAanvangVerlengingsgrond | Date |  |
-| DatumEindeVerlengingsgrond | Date |  |
-| DatumBeoordelingVerlengingsgrond | Date |  |
 
 
 
@@ -1395,8 +1395,8 @@ Attributen van objecttype Voorbereiding op Inburgering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| InstemmingDeelnameVoorinburgering | boolean |  |
 | DatumInstemming | date |  |
+| InstemmingDeelnameVoorinburgering | boolean |  |
 | Reden | string |  |
 
 
@@ -1432,8 +1432,8 @@ Attributen van objecttype Vreemdeling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| v-nummer | AN10 | Vreemdelingennummer, uniek, identificerend nummer dat door de Nederlandse overheid wordt uitgereikt aan een Vreemdeling na registratie in de vreemdelingenadministratie. |
 | Sociaal Referent | AN10 | een |
+| v-nummer | AN10 | Vreemdelingennummer, uniek, identificerend nummer dat door de Nederlandse overheid wordt uitgereikt aan een Vreemdeling na registratie in de vreemdelingenadministratie. |
 
 
 
@@ -1468,8 +1468,8 @@ Attributen van objecttype Vrijstelling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| EindoordeelVrijstelling | string |  |
 | DatumVrijstelling | date |  |
+| EindoordeelVrijstelling | string |  |
 
 
 
@@ -1504,17 +1504,17 @@ Attributen van objecttype Werk
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| CVGemaakt | boolean |  |
-| VrijeTekstBesteding | String |  |
 | Ambitie | String |  |
-| ContactUAF | String |  |
 | Beroep | Enumeratie: "SETU job category" |  |
-| BeroepVan | date |  |
 | BeroepTot | date |  |
+| BeroepVan | date |  |
+| ContactUAF | String |  |
+| CVGemaakt | boolean |  |
 | SoortAanstelling | Enumeratie: "SoortWerk" |  |
 | Taak | string |  |
-| TaakVan | date |  |
 | TaakTot | date |  |
+| TaakVan | date |  |
+| VrijeTekstBesteding | String |  |
 
 
 
@@ -1583,7 +1583,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_36c77571_caf7_45d8_8648_d74676f8496f |
+    | id | EAID_abbfed5f_6ea1_492b_a879_929ecc3c2123 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1619,7 +1619,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_b8e53666_0f8b_4880_817b_a7fac5a2c3cf |
+    | id | EAID_1ff1bbaa_0b96_4efc_945e_9f200ae8161f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1657,7 +1657,7 @@ De enumeratie CodeNiveauOpleiding heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2025-06-17 16:01:14 |
     | modified | 2025-07-22 15:17:21 |
-    | id | EAID_1a003179_54bf_4817_ad55_1e800cd44835 |
+    | id | EAID_419625cc_e280_4012_a2b8_e4e12c4d3c1b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1696,7 +1696,7 @@ De enumeratie Doelgroep heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:12:49 |
     | modified | 2025-03-26 16:14:37 |
-    | id | EAID_7472f4c4_20d8_4928_99df_fd6558ca302f |
+    | id | EAID_e858a480_2eb2_4f5a_b611_ce8a30226d9f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

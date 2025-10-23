@@ -61,10 +61,10 @@ Attributen van objecttype Informering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| indicatieGeinformeerd | Boolean |  |
-| redenNietGeinformeerd | Text |  |
 | datum | Datum |  |
+| indicatieGeinformeerd | Boolean |  |
 | reactie | Text |  |
+| redenNietGeinformeerd | Text |  |
 
 
 
@@ -99,8 +99,8 @@ Attributen van objecttype Leefgebied
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| toelichting | Text |  |
 | leefgebied | Enumeratie: "enum_Leefgebied" |  |
+| toelichting | Text |  |
 
 
 
@@ -135,8 +135,8 @@ Attributen van objecttype Zorgelijke Situatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| sitiuatieschets | Text |  |
 | nadereOmschrijving | Text |  |
+| sitiuatieschets | Text |  |
 
 
 
@@ -171,11 +171,11 @@ Attributen van objecttype Zorgmelding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| zorgmeldingsoort | int |  |
+| nadereOmschrijving | Text |  |
+| omschrijving | Text |  |
 | terugkoppelingGewenst | boolean |  |
 | verzoek | Enumeratie: "enum_Verzoeksoort" |  |
-| omschrijving | Text |  |
-| nadereOmschrijving | Text |  |
+| zorgmeldingsoort | int |  |
 
 
 

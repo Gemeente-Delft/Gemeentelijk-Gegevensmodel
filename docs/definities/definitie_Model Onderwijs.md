@@ -104,8 +104,8 @@ Attributen van objecttype Leerjaar
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| jaarStart | int |  |
 | jaarEinde | int |  |
+| jaarStart | int |  |
 
 
 
@@ -140,7 +140,7 @@ Attributen van objecttype Leerling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| kwetsbareJongere | boolean |  |
+| kwetsbareJongere | Enumeratie: "Boolean" |  |
 
 
 
@@ -210,9 +210,9 @@ Attributen van objecttype Loopbaanstap
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| schooljaar |  |  |
-| onderwijstype | Enumeratie: "Onderwijstype" |  |
 | klas | int |  |
+| onderwijstype | Enumeratie: "Onderwijstype" |  |
+| schooljaar |  |  |
 
 
 
@@ -315,8 +315,8 @@ Attributen van objecttype Onderwijssoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| onderwijstype | Enumeratie: "Onderwijstype" |  |
 | omschrijving | AN80 |  |
+| onderwijstype | Enumeratie: "Onderwijstype" |  |
 
 
 
@@ -456,7 +456,7 @@ Attributen van objecttype Uitschrijving
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datum | Datum |  |
-| diplomaBehaald | boolean |  |
+| diplomaBehaald | Enumeratie: "Boolean" |  |
 
 
 
@@ -464,6 +464,78 @@ Attributen van objecttype Uitschrijving
 
 
 ## Enumeraties Model Onderwijs
+
+
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: <Geen Definities>
+* **Nee**: <Geen Definities>
+* **Onbekend**: <Geen Definities>
+* **Leeg**: <Geen Definities>
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Boolean"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Boolean |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:35 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_ada983fd_872c_418b_a0b1_84b8fec62ecb |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: <Geen Definities>
+* **Nee**: <Geen Definities>
+* **Onbekend**: <Geen Definities>
+* **Leeg**: <Geen Definities>
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Boolean"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Boolean |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:35 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_009c85df_51aa_404b_8312_482851372bcd |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### Onderwijstype

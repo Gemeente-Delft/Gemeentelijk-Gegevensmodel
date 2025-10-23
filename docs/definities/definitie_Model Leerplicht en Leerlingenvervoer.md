@@ -108,8 +108,8 @@ Attributen van objecttype AanvraagOfMelding
 | :--- | :--- | :--- |
 | datum | Date |  |
 | opmerkingen | AN300 |  |
-| soortVerzuimOfAanvraag | Enumeratie: "Verzuimsoort" |  |
 | reden | AN300 |  |
+| soortVerzuimOfAanvraag | Enumeratie: "Verzuimsoort" |  |
 
 
 
@@ -144,8 +144,8 @@ Attributen van objecttype AanvraagVrijstelling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumAanvraag | Date |  |
 | buitenlandseSchoollocatie | AN300 |  |
+| datumAanvraag | Date |  |
 
 
 
@@ -215,8 +215,8 @@ Attributen van objecttype Beslissing
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datum | Date |  |
-| reden | AN200 |  |
 | opmerkingen | text |  |
+| reden | AN200 |  |
 
 
 
@@ -287,8 +287,8 @@ Attributen van objecttype HALT-verwijzing
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | afdoening | AN300 |  |
-| datumRetour | Date |  |
 | datumMutatie | Date |  |
+| datumRetour | Date |  |
 | memo | Text |  |
 
 
@@ -392,19 +392,19 @@ Attributen van objecttype Procesverbaal Onderwijs
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| reden | AN255 |  |
-| opmerkingen | An1000 |  |
-| datumIngelicht | Date |  |
-| sanctiesoort | Enumeratie: "Sanctiesoort" |  |
-| uitspraak | AN500 |  |
-| proeftijd | int | Proeftijd in dagen |
-| geldboete | Bedrag |  |
-| verzuimsoort | Enumeratie: "Verzuimsoort" |  |
-| datumZitting | Date |  |
 | datumAfgehandeld | Date |  |
-| datumUitspraak | Date |  |
 | datumEindeProeftijd | Date |  |
-| geldboeteVoorwaardelijk | Boolean |  |
+| datumIngelicht | Date |  |
+| datumUitspraak | Date |  |
+| datumZitting | Date |  |
+| geldboete | Bedrag |  |
+| geldboeteVoorwaardelijk | Enumeratie: "Boolean" |  |
+| opmerkingen | An1000 |  |
+| proeftijd | int | Proeftijd in dagen |
+| reden | AN255 |  |
+| sanctiesoort | AN100 |  |
+| uitspraak | AN500 |  |
+| verzuimsoort | Enumeratie: "Verzuimsoort" |  |
 
 
 
@@ -510,8 +510,8 @@ Attributen van objecttype Verzuimmelding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumStart | Datum |  |
 | datumEinde | Datum |  |
+| datumStart | Datum |  |
 | voorstelSchool | AN300 |  |
 
 
@@ -547,11 +547,11 @@ Attributen van objecttype Vrijstelling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumStart | Datum |  |
-| datumEinde | Datum |  |
-| aanvraagToegekend | boolean |  |
-| verzuimsoort | Enumeratie: "Verzuimsoort" |  |
+| aanvraagToegekend | Enumeratie: "Boolean" |  |
 | buitenlandseSchoollocatie | AN500 |  |
+| datumEinde | Datum |  |
+| datumStart | Datum |  |
+| verzuimsoort | Enumeratie: "Verzuimsoort" |  |
 
 
 
@@ -593,6 +593,78 @@ Attributen van objecttype Ziekmelding Leerlingenvervoer
 
 
 ## Enumeraties Model Leerplicht en Leerlingenvervoer
+
+
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: <Geen Definities>
+* **Nee**: <Geen Definities>
+* **Onbekend**: <Geen Definities>
+* **Leeg**: <Geen Definities>
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Boolean"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Boolean |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:35 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_63b6bcb9_39b2_4c89_b969_46b44db80c9c |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: <Geen Definities>
+* **Nee**: <Geen Definities>
+* **Onbekend**: <Geen Definities>
+* **Leeg**: <Geen Definities>
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Boolean"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Boolean |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:35 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_6f54f4f4_4d83_4877_87bc_d6ec3e0e4a5c |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### Sanctiesoort

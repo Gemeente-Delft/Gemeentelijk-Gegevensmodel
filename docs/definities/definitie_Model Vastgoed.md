@@ -363,8 +363,8 @@ Attributen van objecttype Inspectie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datum | Date |  |
 | bevindingen | text |  |
+| datum | Date |  |
 
 
 
@@ -471,9 +471,9 @@ Attributen van objecttype LocatieaanduidingWozObject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| locatieOmschrijving | AN100 |  |
 | datumBeginGeldigheid | Date |  |
 | datumEindeGeldigheid | Date |  |
+| locatieOmschrijving | AN100 |  |
 | primair | Enumeratie: "Boolean" |  |
 
 
@@ -509,12 +509,12 @@ Attributen van objecttype Locatieonroerendezaak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| locatieOmschrijving | AN800 |  |
-| cultuurcodeBebouwd |  |  |
 | adrestype | Enumeratie: "TypeAdresseerbaarObject" |  |
+| cultuurcodeBebouwd |  |  |
 | datumBeginGeldigheid | Date |  |
 | datumEindeGeldigheid | Date |  |
 | geometrie | Vlak |  |
+| locatieOmschrijving | AN800 |  |
 
 
 
@@ -586,14 +586,14 @@ Attributen van objecttype MJOP-Item
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | code | AN40 |  |
-| omschrijving | AN80 |  |
-| kosten | Bedrag |  |
-| datumStart | Date |  |
 | datumEinde | Date |  |
-| opzegtermijnAanbieder | int |  |
-| opzegtermijnOntvanger | int |  |
 | datumOpzeggingAanbieder | Date |  |
 | datumOpzeggingOntvanger | Date |  |
+| datumStart | Date |  |
+| kosten | Bedrag |  |
+| omschrijving | AN80 |  |
+| opzegtermijnAanbieder | int |  |
+| opzegtermijnOntvanger | int |  |
 
 
 
@@ -766,10 +766,10 @@ Attributen van objecttype Prijzenboekitem
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| verrichting | AN80 |  |
-| prijs | Bedrag |  |
-| datumStart | Date |  |
 | datumEindeGeldigheid | Date |  |
+| datumStart | Date |  |
+| prijs | Bedrag |  |
+| verrichting | AN80 |  |
 
 
 
@@ -804,14 +804,14 @@ Attributen van objecttype Vastgoed Contract
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumStart | Date |  |
-| datumEinde | Date |  |
-| maandbedrag | Bedrag |  |
 | beschrijving | AN200 |  |
+| datumEinde | Date |  |
+| datumStart | Date |  |
+| identificatie | AN80 |  |
+| maandbedrag | Bedrag |  |
+| opzegtermijn | AN80 |  |
 | status | AN80 |  |
 | type | AN80 |  |
-| identificatie | AN80 |  |
-| opzegtermijn | AN80 |  |
 
 
 
@@ -846,14 +846,14 @@ Attributen van objecttype Vastgoedcontractregel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| type | AN80 |  |
-| omschrijving | AN200 |  |
-| status | AN80 |  |
-| datumStart | Date |  |
 | bedrag | int |  |
 | datumEinde | Date |  |
+| datumStart | Date |  |
 | frequentie | AN80 |  |
 | identificatie | AN80 |  |
+| omschrijving | AN200 |  |
+| status | AN80 |  |
+| type | AN80 |  |
 
 
 
@@ -888,63 +888,63 @@ Attributen van objecttype Vastgoedobject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| adresaanduiding |  |  |
-| WOZWaarde | Bedrag |  |
-| marktwaarde | Bedrag |  |
-| boekwaarde | Bedrag |  |
-| verzekerdeWaarde | Bedrag |  |
-| omschrijving | AN80 |  |
-| portefeuille | AN80 |  |
-| naam | AN80 |  |
-| bedragAankoop | Bedrag |  |
 | aantalEtages | int |  |
+| aantalParkeerplaatsen | int |  |
+| aantalRioleringen | int |  |
+| adresaanduiding |  |  |
 | afgekochteErfpacht |  |  |
+| afgesprokenConditiescore | Enumeratie: "NEN2767 Conditiescore" |  |
 | afkoopwaarde | Bedrag |  |
 | asbestrapportageAanwezig | Enumeratie: "Boolean" |  |
+| bedragAankoop | Bedrag |  |
+| bestemmingsplan | AN200 |  |
+| boekwaarde | Bedrag |  |
+| bouwjaar | int |  |
+| bouwwerk | AN80 |  |
+| bovenliggendNiveau | AN80 |  |
+| bovenliggendNiveaucode | AN20 |  |
+| brutoVloeroppervlakte | int |  |
+| CO2Uitstoot | int | Jaarlijkse CO2 uitstoot in ton CO2-e |
+| conditiescore | Enumeratie: "NEN2767 Conditiescore" |  |
 | datumAfstoten | Date |  |
 | datumBerekeningOppervlak | Date |  |
+| datumEigendom | Date |  |
+| datumVerkoop | Date |  |
 | deelportefeuille | AN80 |  |
-| objecttype | AN80 |  |
+| energiekosten | Bedrag | Jaarlijkse energiekosten |
+| energielabel | Enumeratie: "Energielabel Gebouwen" |  |
+| energieverbruik | int | jaarlijks energieverbruik in Kwh |
 | fiscaleWaarde | Bedrag |  |
+| foto | Blob |  |
 | gearchiveerd | Enumeratie: "Boolean" |  |
 | herbouwwaarde | Bedrag |  |
+| hoofdstuk | AN80 |  |
+| identificatie | AN80 |  |
+| jaarLaatsteRenovatie | n4 |  |
+| kostenplaats | AN80 |  |
+| locatie | punt |  |
+| marktwaarde | Bedrag |  |
 | monument | Enumeratie: "Monumenttypering" |  |
+| naam | AN80 |  |
+| objectstatus | AN40 |  |
+| objectstatuscode | AN40 |  |
+| objecttype | AN80 |  |
+| objecttypecode | AN40 |  |
+| omschrijving | AN80 |  |
 | onderhoudscategorie | AN80 |  |
+| oppervlakteKantoor | int |  |
+| portefeuille | AN80 |  |
+| portefeuillecode | AN40 |  |
 | provincie |  |  |
+| toelichting | text |  |
+| verhuurbaarVloeroppervlak | int |  |
+| verkoopbaarheid | AN80 |  |
 | verkoopbedrag | Bedrag |  |
+| verzekerdeWaarde | Bedrag |  |
 | waardeGrond | Bedrag |  |
 | waardeOpstal | Bedrag |  |
 | wijk |  |  |
-| energielabel | Enumeratie: "Energielabel Gebouwen" |  |
-| energieverbruik | int | jaarlijks energieverbruik in Kwh |
-| energiekosten | Bedrag | Jaarlijkse energiekosten |
-| CO2Uitstoot | int | Jaarlijkse CO2 uitstoot in ton CO2-e |
-| jaarLaatsteRenovatie | n4 |  |
-| aantalRioleringen | int |  |
-| oppervlakteKantoor | int |  |
-| conditiescore | Enumeratie: "NEN2767 Conditiescore" |  |
-| aantalParkeerplaatsen | int |  |
-| verkoopbaarheid | AN80 |  |
-| afgesprokenConditiescore | Enumeratie: "NEN2767 Conditiescore" |  |
-| kostenplaats | AN80 |  |
-| bovenliggendNiveau | AN80 |  |
-| bestemmingsplan | AN200 |  |
-| locatie | punt |  |
-| bouwjaar | int |  |
-| objectstatuscode | AN40 |  |
-| objectstatus | AN40 |  |
-| objecttypecode | AN40 |  |
-| portefeuillecode | AN40 |  |
-| bovenliggendNiveaucode | AN20 |  |
-| hoofdstuk | AN80 |  |
-| identificatie | AN80 |  |
-| foto | Blob |  |
-| toelichting | text |  |
-| datumEigendom | Date |  |
-| datumVerkoop | Date |  |
-| bouwwerk | AN80 |  |
-| brutoVloeroppervlakte | int |  |
-| verhuurbaarVloeroppervlak | int |  |
+| WOZWaarde | Bedrag |  |
 
 
 
@@ -979,20 +979,20 @@ Attributen van objecttype Verhuurbaar Eenheid
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatie | AN80 |  |
-| naam | AN80 |  |
+| adres | AN350 |  |
+| afmeting | int |  |
+| bezetting | int |  |
+| datumEinde | Date |  |
+| datumStart | Date |  |
 | datumWerkelijkBegin | Date |  |
 | datumWerkelijkEinde | Date |  |
-| type | An80 |  |
-| adres | AN350 |  |
-| datumStart | Date |  |
-| datumEinde | Date |  |
-| afmeting | int |  |
-| opmerkingen | text |  |
-| nettoOppervlak | int |  |
-| nettoOmtrek | int |  |
-| bezetting | int |  |
 | huurprijs | int |  |
+| identificatie | AN80 |  |
+| naam | AN80 |  |
+| nettoOmtrek | int |  |
+| nettoOppervlak | int |  |
+| opmerkingen | text |  |
+| type | An80 |  |
 
 
 
@@ -1098,10 +1098,10 @@ Attributen van objecttype Zakelijk Recht
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumStart | Date |  |
 | datumEinde | Date |  |
-| soort | Enumeratie: "Zakelijkrecht" |  |
+| datumStart | Date |  |
 | kosten | Bedrag |  |
+| soort | Enumeratie: "Zakelijkrecht" |  |
 
 
 
@@ -1145,7 +1145,7 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
     | version | 1.5 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-03-26 16:14:55 |
-    | id | EAID_eff61782_5a49_4329_af20_776069002ebc |
+    | id | EAID_7972779f_7ecf_40f8_bb6b_3c4b1680c714 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1181,7 +1181,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_9eab5b9c_a34c_46d8_b270_006a7b0b1966 |
+    | id | EAID_005cb19a_1a9b_4230_8f57_fa1745a698c3 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1217,7 +1217,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_4719f3d1_cc93_41e7_8aa2_fa93392c38fa |
+    | id | EAID_c56c5324_6028_4d24_a6c2_e352655871e7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1253,7 +1253,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_21815254_0bcb_4f32_9c25_087f31fb1d89 |
+    | id | EAID_eeb58de1_b518_493a_a15b_cceb12c4eb59 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1291,7 +1291,7 @@ De enumeratie aanduidingEigenaarGebruiker heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_e3344a44_3f4e_448c_9d90_8fff1d417273 |
+    | id | EAID_40eb57ee_364c_41f0_8e26_85c7b8991bb0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

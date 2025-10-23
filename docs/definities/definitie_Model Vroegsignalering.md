@@ -63,8 +63,8 @@ Attributen van objecttype AanleverendeOrganisatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN200 |  |
 | kvk-nummer | AN80 |  |
+| naam | AN200 |  |
 
 
 
@@ -99,10 +99,10 @@ Attributen van objecttype Contactpersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN200 |  |
-| telefoonnummer | AN200 |  |
 | email | email |  |
 | functietitel | AN200 |  |
+| naam | AN200 |  |
+| telefoonnummer | AN200 |  |
 
 
 
@@ -137,10 +137,10 @@ Attributen van objecttype Contactpoging
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| soort | Enumeratie: "EnumContactsoort" |  |
 | bereikt | boolean | Er is succesvol contact met de client gemaakt. |
-| datum | Date |  |
 | dagdeel | Enumeratie: "EnumDagdeel" | Ochtend, middag of avond |
+| datum | Date |  |
+| soort | Enumeratie: "EnumContactsoort" |  |
 
 
 
@@ -210,12 +210,12 @@ Attributen van objecttype Vroegsignaal
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| crisissignaal | boolean | Betreft het een crisis? |
-| warmeOverdracht | boolean | Er is al contact met persoon. Betreft verzoek deze persoon op te pakken in het kader van vroegsignalering. |
 | bedrag | bedrag |  |
+| crisissignaal | boolean | Betreft het een crisis? |
 | ontstaansdatum | Date |  |
 | signaaldatum | Date | Datum waarop de signaalpartner het signaal heeft verstuurd. |
 | status | Enumeratie: "EnumSignaalstatus" |  |
+| warmeOverdracht | boolean | Er is al contact met persoon. Betreft verzoek deze persoon op te pakken in het kader van vroegsignalering. |
 
 
 
@@ -250,11 +250,11 @@ Attributen van objecttype Vroegsignaalzaak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| resultaat | Enumeratie: "EnumEindresultaat" |  |
-| matchingsdatum | Date | De datum waarop de matching wordt uitgevoerd. |
-| startdatum_matchtingperiode | Date | De matchingperiode is het tijdvak waarover de matching plaatsvindt. Hier de startdatum van de matching, die binnen de matchingsperiode valt. |
 | datum_opgepakt | Date | De datum waarop de gemeente de zaak heeft opgepakt. |
 | einddatum_matchingperiode | Date | De matchingperiode is het tijdvak waarover de matching plaatsvindt. Hier de einddatum van de matching, die binnen de matchingsperiode valt. |
+| matchingsdatum | Date | De datum waarop de matching wordt uitgevoerd. |
+| resultaat | Enumeratie: "EnumEindresultaat" |  |
+| startdatum_matchtingperiode | Date | De matchingperiode is het tijdvak waarover de matching plaatsvindt. Hier de startdatum van de matching, die binnen de matchingsperiode valt. |
 
 
 

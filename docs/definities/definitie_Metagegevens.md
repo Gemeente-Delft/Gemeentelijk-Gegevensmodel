@@ -62,11 +62,11 @@ Attributen van objecttype Brondocumenten
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| documentGemeente | N4 | De code uit de gemeentetabel die aangeeft in welke gemeente de ontlening aan of de afleiding uit het document heeft plaatsgevonde |
 | akteGemeente | N4 | De code uit de gemeentetabel die aangeeft in welke gemeente de akte in de registers van de burgerlijke stand in Nederland is opgenomen. |
-| documentOmschrijving | AN40 | Beschrijving van het document waaraan de gegevens zijn ontleend of waaruit de gegevens zijn afgeleid |
 | datumDocument |  | De datum waarop het brondocument is vastgesteld, op basis waarvan een opname, mutatie of een verwijdering van gegevens ten aanzien van de entiteit heeft plaatsgevonden |
+| documentGemeente | N4 | De code uit de gemeentetabel die aangeeft in welke gemeente de ontlening aan of de afleiding uit het document heeft plaatsgevonde |
 | documentIdentificatie | AN20 | De unieke aanduiding van het brondocument op basis waarvan een opname, mutatie of een verwijdering van gegevens ten aanzien van een entiteit heeft plaatsgevonden |
+| documentOmschrijving | AN40 | Beschrijving van het document waaraan de gegevens zijn ontleend of waaruit de gegevens zijn afgeleid |
 
 
 
@@ -171,8 +171,8 @@ Attributen van objecttype MaterieleHistorie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumEindeGeldigheidGegevens |  | De einddatum van een periode waarin een of meer gegevens die worden bijgehouden over de entiteit een wijziging hebben ondergaan |
 | datumBeginGeldigheidGegevens |  | De begindatum van een periode waarin een of meer gegevens die worden bijgehouden over de entiteit een wijziging hebben ondergaan |
+| datumEindeGeldigheidGegevens |  | De einddatum van een periode waarin een of meer gegevens die worden bijgehouden over de entiteit een wijziging hebben ondergaan |
 
 
 

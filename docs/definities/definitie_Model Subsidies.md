@@ -177,33 +177,33 @@ Attributen van objecttype Subsidie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| niveau | Enumeratie: "Subsidieniveau" |  |
-| deadlineIndiening | Date |  |
-| subsidiebedrag | Bedrag |  |
-| coFinanciering | Bedrag |  |
-| opmerkingen | Text |  |
-| status | AN80 |  |
 | accountantscontrole | Boolean |  |
-| datumStart | Date |  |
+| coFinanciering | Bedrag |  |
+| datumBehandeltermijn | Date |  |
+| datumBewaartermijn | Date |  |
 | datumEinde | Date |  |
+| datumStart | Date |  |
+| datumSubsidievaststelling | Date |  |
 | datumVerzendingEindeafrekening | Date |  |
+| deadlineIndiening | Date |  |
+| doelstelling | AN200 |  |
 | gerealiseerdeProjectkosten | Date |  |
 | hoogteSubsidie | Bedrag |  |
-| datumBehandeltermijn | Date |  |
-| datumSubsidievaststelling | Date |  |
-| subsidievaststellingBedrag | Bedrag |  |
-| ontvangenBedrag | Bedrag |  |
-| datumBewaartermijn | Date |  |
+| niveau | Enumeratie: "Subsidieniveau" |  |
 | onderwerp | AN200 |  |
-| subsidiesoort | AN80 |  |
-| socialReturnVerplichting | Boolean |  |
-| socialReturnNagekomen | Boolean |  |
-| socialReturnBedrag | Bedrag |  |
-| verantwoordenOp | Date |  |
-| uitgaandeSubsidie | Boolean |  |
-| prestatiesubsidie | Boolean | Als Nee dan is het een stimuleringssubsidie<br>Alleen bij uitgaande subsidies, anders NULL! |
-| doelstelling | AN200 |  |
+| ontvangenBedrag | Bedrag |  |
+| opmerkingen | Text |  |
 | opmerkingenVoorschotten | Text |  |
+| prestatiesubsidie | Boolean | Als Nee dan is het een stimuleringssubsidie<br>Alleen bij uitgaande subsidies, anders NULL! |
+| socialReturnBedrag | Bedrag |  |
+| socialReturnNagekomen | Boolean |  |
+| socialReturnVerplichting | Boolean |  |
+| status | AN80 |  |
+| subsidiebedrag | Bedrag |  |
+| subsidiesoort | AN80 |  |
+| subsidievaststellingBedrag | Bedrag |  |
+| uitgaandeSubsidie | Boolean |  |
+| verantwoordenOp | Date |  |
 
 
 
@@ -238,11 +238,11 @@ Attributen van objecttype Subsidieaanvraag
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumIndiening | Date |  |
 | aangevraagdBedrag | Bedrag |  |
+| datumIndiening | Date |  |
+| kenmerk | AN80 |  |
 | ontvangstbevestiging | Date |  |
 | verwachteBeschikking | Date |  |
-| kenmerk | AN80 |  |
 
 
 
@@ -277,13 +277,13 @@ Attributen van objecttype Subsidiebeschikking
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| beschiktBedrag | Bedrag |  |
-| ontvangen | Date |  |
-| kenmerk | AN80 |  |
-| internKenmerk | AN80 |  |
-| opmerkingen | text |  |
-| besluit | AN80 |  |
 | beschikkingsnummer | AN80 |  |
+| beschiktBedrag | Bedrag |  |
+| besluit | AN80 |  |
+| internKenmerk | AN80 |  |
+| kenmerk | AN80 |  |
+| ontvangen | Date |  |
+| opmerkingen | text |  |
 
 
 
@@ -318,8 +318,8 @@ Attributen van objecttype Subsidiecomponent
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| toegekendBedrag | Bedrag |  |
 | gereserveerdBedrag | Bedrag |  |
+| toegekendBedrag | Bedrag |  |
 
 
 
@@ -354,10 +354,10 @@ Attributen van objecttype Subsidieprogramma
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| datumEinde | Date |  |
+| datumStart | Date |  |
 | naam | AN200 |  |
 | omschrijving | text |  |
-| datumStart | Date |  |
-| datumEinde | Date |  |
 | programmabegroting | Bedrag |  |
 
 
@@ -393,10 +393,10 @@ Attributen van objecttype Taak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumStart | Date |  |
 | datumEinde | Date |  |
-| termijn | int | Termijn in dagen |
+| datumStart | Date |  |
 | taakomschrijving | Text |  |
+| termijn | int | Termijn in dagen |
 
 
 

@@ -91,13 +91,13 @@ Attributen van objecttype Adresaanduiding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| straatnaam | AN200 |  |
+| BAGID | NEN3610ID |  |
 | gemeentenaam | AN80 |  |
-| huisnummer | N5 |  |
 | huisletter | N1 |  |
+| huisnummer | N5 |  |
 | huisnummertoevoeging | AN4 |  |
 | postcode | AN6 |  |
-| BAGID | NEN3610ID |  |
+| straatnaam | AN200 |  |
 
 
 
@@ -173,10 +173,10 @@ Attributen van objecttype GeboorteIngeschrevenNatuurlijkPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumGeboorte |  | Datum waarop de NATUURLIJK PERSOON geboren is. |
-| gemeenteGeboorte | AN80 | Gemeente waar de NATUURLIJK PERSOON geboren is. |
 | buitenlandsePlaatsGeboorte | AN40 | Buitenlandse plaats waar de NATUURLIJK PERSOON geboren is. |
 | buitenlandseRegioGeboorte | AN35 | Buitenlandse regio waar de NATUURLIJK PERSOON geboren is. |
+| datumGeboorte |  | Datum waarop de NATUURLIJK PERSOON geboren is. |
+| gemeenteGeboorte | AN80 | Gemeente waar de NATUURLIJK PERSOON geboren is. |
 | landOfGebiedGeboorte |  | Het land of gebied waar de NATUURLIJK PERSOON is geboren. |
 | omschrijvingLocatieGeboorte | AN40 | Omschrijving van de locatie waar de NATUURLIJK PERSOON geboren is. |
 
@@ -214,8 +214,8 @@ Attributen van objecttype GeboorteIngeschrevenPersoon
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datumGeboorte |  | De datum waarop de ingeschreven persoon is geboren. |
-| geboorteplaats |  | De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de ingeschreven persoon is geboren. |
 | geboorteland |  | Het LAND waar de INGESCHREVEN PERSOON is geboren. |
+| geboorteplaats |  | De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de ingeschreven persoon is geboren. |
 
 
 
@@ -324,8 +324,8 @@ Attributen van objecttype KoopsomKadastraleOnroerendeZaak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| koopsom |  | Bedrag waarvoor belangrijkste recht van onroerende zaak is gekocht |
 | datumTransactie |  | Datum en tijdstip waarop een ter inschrijving aangeboden stuk, waarmee één of meer onroerende zaken zijn overgedragen, is ondertekend door de opsteller van het stuk. |
+| koopsom |  | Bedrag waarvoor belangrijkste recht van onroerende zaak is gekocht |
 
 
 
@@ -360,8 +360,8 @@ Attributen van objecttype LocatieKadastraleOnroerendeZaak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| locatieOmschrijving | AN40 | Omschrijving van de locatie van de onroerende zaak ingeval de locatie niet kan worden aangeduid met een relatie naar een GEBOUWD OBJECT of BENOEMD TERREIN. |
 | aardCultuurBebouwd |  | Een aanduiding van het gebruik van een locatie en alles wat erin of erop staat. |
+| locatieOmschrijving | AN40 | Omschrijving van de locatie van de onroerende zaak ingeval de locatie niet kan worden aangeduid met een relatie naar een GEBOUWD OBJECT of BENOEMD TERREIN. |
 
 
 
@@ -396,9 +396,9 @@ Attributen van objecttype MigratieIngeschrevenNatuurlijkPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| soortMigratie | Enumeratie: "soortMigratie" | Aanduiding die aangeeft dat het een emigratie of een immigratie betreft. |
-| redenWijzigingMigratie | Enumeratie: "redenWijzigingAdres" | Aanduiding die aangeeft waarom de migratie is opgenomen. |
 | aangeverMigratie | Enumeratie: "aangever" | De hoedanigheid van de persoon die aangifte van emigratie heeft gedaan, ten opzichte van de persoon wiens emigratie is aangegeven. |
+| redenWijzigingMigratie | Enumeratie: "redenWijzigingAdres" | Aanduiding die aangeeft waarom de migratie is opgenomen. |
+| soortMigratie | Enumeratie: "soortMigratie" | Aanduiding die aangeeft dat het een emigratie of een immigratie betreft. |
 
 
 
@@ -433,10 +433,10 @@ Attributen van objecttype NaamAanschrijvingNatuurlijkPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| aanhefAanschrijving | AN50 | De aanhef waarmee de persoon aangeschreven wil worden. |
 | geslachtsnaamAanschrijving | AN200 | De geslachtsnaam waarmee de persoon aangeschreven wil worden. |
 | voorlettersAanschrijving | AN20 | De voorletters waarmee een persoon aangeschreven wil worden. |
 | voornamenAanschrijving | AN200 | De voornamen waarmee een persoon aangeschreven wil worden. |
-| aanhefAanschrijving | AN50 | De aanhef waarmee de persoon aangeschreven wil worden. |
 
 
 
@@ -471,9 +471,9 @@ Attributen van objecttype NaamgebruikNatuurlijkPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| aanhefAanschrijving | AN50 | De aanhef waarmee de persoon aangeschreven wil worden. |
 | adellijkeTitelNaamgebruik | Enumeratie: "adelijkeTitel" | De adellijke titel die geplaatst wordt voor de geslachtsnaam. |
 | geslachtsnaamstamNaamgebruik | AN200 | Geslachtsnaam die de persoon wenst te voeren. |
-| aanhefAanschrijving | AN50 | De aanhef waarmee de persoon aangeschreven wil worden. |
 
 
 
@@ -508,10 +508,10 @@ Attributen van objecttype NaamNatuurlijkPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| voornamen |  | De verzameling namen die, gescheiden door spaties, aan de<br>geslachtsnaam voorafgaat.. |
-| geslachtsnaam |  | De (geslachts)naam waarvan de eventueel aanwezige voorvoegsels en adellijke titel/predikaat zijn afgesplitst. |
-| voorvoegselGeslachtsnaam |  | Dat deel van de geslachtsnaam dat voorkomt in GBA Tabel 36, Voorvoegseltabel en, gescheiden door een spatie, vooraf gaat aan de rest van de geslachtsnaam. |
 | adellijkeTitelOfPredikaat | AN10 | Een omschrijving die aangeeft welke titel of welk predikaat behoort tot de naam (bij adellijke titel geslachtsnaam, bij predikaat voornaam). |
+| geslachtsnaam |  | De (geslachts)naam waarvan de eventueel aanwezige voorvoegsels en adellijke titel/predikaat zijn afgesplitst. |
+| voornamen |  | De verzameling namen die, gescheiden door spaties, aan de<br>geslachtsnaam voorafgaat.. |
+| voorvoegselGeslachtsnaam |  | Dat deel van de geslachtsnaam dat voorkomt in GBA Tabel 36, Voorvoegseltabel en, gescheiden door een spatie, vooraf gaat aan de rest van de geslachtsnaam. |
 
 
 
@@ -546,10 +546,10 @@ Attributen van objecttype NationaliteitIngeschrevenNatuurlijkPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| buitenlandsPersoonsnummer | AN40 | Buitenlands nummer ter identificatie van een persoon zonder de Nederlandse nationaliteit, maar met de nationaliteit van een andere lidstaat van de Europese Unie. |
 | nationaliteit | NATIONALITEIT | Een aanduiding van de NATIONALITEIT die de INGESCHREVEN NATUURLIJK PERSOON bezit. |
 | redenVerkrijging |  | Een code die aanduidt op grond waarvan de INGESCHREVEN NATUURLIJK PERSOON de nationaliteit verkregen heeft. |
 | redenVerlies |  | Een code die aanduidt op grond waarvan de INGESCHREVEN NATUURLIJK PERSOON de nationaliteit verloren heeft. |
-| buitenlandsPersoonsnummer | AN40 | Buitenlands nummer ter identificatie van een persoon zonder de Nederlandse nationaliteit, maar met de nationaliteit van een andere lidstaat van de Europese Unie. |
 
 
 
@@ -585,9 +585,9 @@ Attributen van objecttype NederlandseNationaliteitIngeschrevenPersoon
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | aanduidingBijzonderNederlanderschap |  | Een aanduiding die of aangeeft dat de ingeschrevene behandeld wordt als Nederlander, of dat door de rechter is vastgesteld dat de ingeschrevene niet de Nederlandse nationaliteit bezit. |
+| nationaliteit |  | De NATIONALITEIT die op een zeker moment door de INGESCHREVEN PERSOON is verkregen. |
 | redenVerkrijgingNederlandseNationaliteit |  | Een code die aanduidt op grond waarvan de ingeschrevene de Nederlandse nationaliteit verkregen heeft. |
 | redenVerliesNederlandseNationaliteit |  | Een code die aanduidt op grond waarvan de ingeschrevene de Nederlandse nationaliteit verloren heeft. |
-| nationaliteit |  | De NATIONALITEIT die op een zeker moment door de INGESCHREVEN PERSOON is verkregen. |
 
 
 
@@ -622,13 +622,13 @@ Attributen van objecttype OntbindingHuwelijk/geregistreerdPartnerschap
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| redenEinde | Enumeratie: "redenEindeRelatie" | De reden van ontbinding huwelijk, dan wel beëindiging geregistreerd partnerschap. |
-| datumEinde |  | De datum waarop het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd. |
-| gemeenteEinde | AN80 | Gemeente waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd. |
 | buitenlandsePlaatsEinde | AN40 | Buitenlandse plaats waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd. |
 | buitenlandseRegioEinde | AN35 | Buitenlandse regio waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd. |
+| datumEinde |  | De datum waarop het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd. |
+| gemeenteEinde | AN80 | Gemeente waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd. |
 | landOfGebiedEinde |  | Land of gebied waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd. |
 | omschrijvingLocatieEinde | AN40 | Omschrijving van de locatie waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd. Dit veld wordt gebruikt voor situaties die zich niet laten vangen in een gemeente einde, woonplaatsnaam einde, buitenlandse plaats einde, buitenlandse regio einde, of land/gebied einde, bijvoorbeeld bij een einde van het huwelijk of geregistreerd partnerschap in internationale wateren. |
+| redenEinde | Enumeratie: "redenEindeRelatie" | De reden van ontbinding huwelijk, dan wel beëindiging geregistreerd partnerschap. |
 
 
 
@@ -663,12 +663,12 @@ Attributen van objecttype OverlijdenIngeschrevenNatuurlijkPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumOverlijden |  | Datum waarop de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
-| gemeenteOverlijden | AN80 | Gemeente waar de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
 | buitenlandsePlaatsOverlijden | AN40 | Buitenlandse plaats waar de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
 | buitenlandseRegioOverlijden | AN35 | Buitenlandse regio waar de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
-| omschrijvingLocatieOverlijden | AN40 | Omschrijving van de locatie waar de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
+| datumOverlijden |  | Datum waarop de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
+| gemeenteOverlijden | AN80 | Gemeente waar de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
 | landOfGebiedOverlijden |  | Het land of gebied waar de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
+| omschrijvingLocatieOverlijden | AN40 | Omschrijving van de locatie waar de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
 
 
 
@@ -704,8 +704,8 @@ Attributen van objecttype OverlijdenIngeschrevenPersoon
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datumOverlijden |  | De datum van overlijden |
-| overlijdensplaats |  | De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de persoon is overleden |
 | landOverlijden |  | Het LAND waar de INGESCHREVEN PERSOON is overleden. |
+| overlijdensplaats |  | De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de persoon is overleden |
 
 
 
@@ -740,9 +740,9 @@ Attributen van objecttype Postadres
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| postcodePostadres | POSTCODE | De officiële PostNL codering, bestaande uit een numerieke woonplaatscode en een alfabetische lettercode |
 | postadresType | postadresType | Aanduiding van het soort postadres |
 | postbusOfAntwoordnummer | N5 | De numerieke aanduiding zoals deze door de PostNL is vastgesteld voor postbusadressen en antwoordnummeradressen. |
+| postcodePostadres | POSTCODE | De officiële PostNL codering, bestaande uit een numerieke woonplaatscode en een alfabetische lettercode |
 
 
 
@@ -777,8 +777,8 @@ Attributen van objecttype Rekeningnummer
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| IBAN | AN34 | Het  internationaal bankrekeningnummer, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel internationaal financieel communiceert. |
 | BIC | AN11 | De unieke code van de bankinstelling waar  het SUBJECT het bankrekeningnummer heeft waarmee het subject in de regel internationaal financieel communiceert. |
+| IBAN | AN34 | Het  internationaal bankrekeningnummer, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel internationaal financieel communiceert. |
 
 
 
@@ -813,13 +813,13 @@ Attributen van objecttype SamengesteldeNaamNatuurlijkPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| adellijkeTitel | Enumeratie: "adelijkeTitel" | Adellijke titel die door de persoon gevoerd mag worden voorafgaand aan de geslachtsnaam. |
+| geslachtsnaamstam | AN200 | De stam van de geslachtsnaam. |
+| namenreeks | INDIC | Indicator die aangeeft dat er sprake is van een namenreeks. |
+| predicaat | Enumeratie: "predicaat" | Predicaat dat door de persoon gevoerd mag worden voorafgaand aan de voornaam. |
+| scheidingsteken | VOORVOEGSEL | Teken dat een eventueel voorvoegsel scheidt van de stam van de geslachtsnaam. |
 | voornamen | AN200 | De samenvoeging van alle exemplaren van voornaam van een persoon. |
 | voorvoegsel | VOORVOEGSEL | Voorvoegsel behorende bij de stam van de geslachtsnaam. |
-| scheidingsteken | VOORVOEGSEL | Teken dat een eventueel voorvoegsel scheidt van de stam van de geslachtsnaam. |
-| geslachtsnaamstam | AN200 | De stam van de geslachtsnaam. |
-| predicaat | Enumeratie: "predicaat" | Predicaat dat door de persoon gevoerd mag worden voorafgaand aan de voornaam. |
-| adellijkeTitel | Enumeratie: "adelijkeTitel" | Adellijke titel die door de persoon gevoerd mag worden voorafgaand aan de geslachtsnaam. |
-| namenreeks | INDIC | Indicator die aangeeft dat er sprake is van een namenreeks. |
 
 
 
@@ -890,11 +890,11 @@ Attributen van objecttype SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| buitenlandsePlaatsAanvang | AN40 | Buitenlandse plaats waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
+| buitenlandseRegioAanvang | AN35 | Buitenlandse regio waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
 | datumAanvang |  | De datum waarop het huwelijk is gesloten, dan wel het geregistreerd partnerschap is aangegaan. |
 | gemeenteAanvang | AN80 | Gemeente waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
-| buitenlandsePlaatsAanvang | AN40 | Buitenlandse plaats waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
 | landOfGebiedAanvang |  | Land of gebied waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
-| buitenlandseRegioAanvang | AN35 | Buitenlandse regio waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
 | omschrijvingLocatieAanvang | AN40 | Omschrijving van de locatie waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
 
 
@@ -1074,8 +1074,8 @@ Attributen van objecttype SoortSpoor
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| indicatiePlusBRPopulatie | INDIC | Aanduiding of het soort gebruik van het spoor een uitbreiding van de populatie van BGT in IMGeo is. |
 | functieSpoor | Enumeratie: "functieSpoor" | Specificatie van het soort gebruik van het spoor. |
+| indicatiePlusBRPopulatie | INDIC | Aanduiding of het soort gebruik van het spoor een uitbreiding van de populatie van BGT in IMGeo is. |
 
 
 
@@ -1110,9 +1110,9 @@ Attributen van objecttype SplitsingstekeningReferentie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| identificatieTekening | AN40 | <font color="#0f0f0f">Een ondubbelzinnige referentie naar de tekening.</font> |
 | bronorganisatie | N9 | Het RSIN van de Niet-natuurlijk persoon zijnde de organisatie die het informatieobject heeft gecreëerd of heeft ontvangen en als eerste in een samenwerkingsketen heeft vastgelegd. |
 | datumCreatie | DATUM | De datum van creatie van de tekening. |
+| identificatieTekening | AN40 | <font color="#0f0f0f">Een ondubbelzinnige referentie naar de tekening.</font> |
 | titel | AN200 | <font color="#0f0f0f">De naam waaronder de tekening formeel bekend is</font> |
 
 
@@ -1301,8 +1301,8 @@ Attributen van objecttype VerblijfsrechtIngeschrevenNatuurlijkPersoon
 | :--- | :--- | :--- |
 | aanduidingVerblijfsrecht |  | Aanduiding in verband met het verblijfsrecht van de persoon als bedoeld in de Vreemdelingenwet 2000. |
 | datumAanvangVerblijfsrecht |  | De datum waarop het verblijfsrecht van de Vreemdeling is aangegeven. |
-| datumVoorzienEindeVerblijfsrecht |  | De einddatum verblijfsrecht voor bepaalde duur in de mededeling van de Minister van Veiligheid en Justitie. |
 | datumMededelingVerblijfsrecht |  | De datum van de mededeling van de Minister van Veiligheid en Justitie inzake verblijfsrecht. |
+| datumVoorzienEindeVerblijfsrecht |  | De einddatum verblijfsrecht voor bepaalde duur in de mededeling van de Minister van Veiligheid en Justitie. |
 
 
 
@@ -1337,9 +1337,9 @@ Attributen van objecttype VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPe
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| partij |  | Een in de BRP gekende partij waarbij de persoon heeft gekozen voor verstrekkingsbeperking. |
-| omschrijvingDerde | AN250 | De derde waarvan de persoon heeft gekozen voor verstrekkingsbeperking. De hier bedoelde derde is een niet in de BRP gekende partij die benoemd is of opgenomen is in de gemeentelijke verordening. |
 | gemeenteVerordening |  | Gemeente waar derde in de plaatselijke verordening voorkomt. |
+| omschrijvingDerde | AN250 | De derde waarvan de persoon heeft gekozen voor verstrekkingsbeperking. De hier bedoelde derde is een niet in de BRP gekende partij die benoemd is of opgenomen is in de gemeentelijke verordening. |
+| partij |  | Een in de BRP gekende partij waarbij de persoon heeft gekozen voor verstrekkingsbeperking. |
 
 
 
@@ -1349,30 +1349,36 @@ Attributen van objecttype VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPe
 ## Enumeraties Groepattribuutsoort
 
 
-### soortMigratie
+### aangever
 Geen Definitie
 
-Het enumeratie soortMigratie kent de volgende waarden:
+Het enumeratie aangever kent de volgende waarden:
 
-* **Emigratie**: <Geen Definities>
-* **Immigratie**: <Geen Definities>
+* **Gezaghouder**: De gezaghouder is de ouder, de voogd of de curator van de ingeschrevene.
+* **Hoofd instelling**: Het hoofd van de instelling waar de persoon verblijft.
+* **Ingeschrevene**: De ingeschrevene zelf
+* **Meerderjarig inwonend kind voor ouder**: Een kind dat op hetzelfde adres woont als de ouder doet de adresaangifte.
+* **Meerderjarig gemachtigde**: Een door de ingeschrevene gemachtigde.
+* **Inwonend ouder voor meerderjarig kind**: Een ouder die op hetzelfde adres woont, doet aangifte van het adres van het kind.
+* **Echtgenoot/geregistreerd partner**: De inwonende echtgenoot/geregistreerd partner doet aangifte van het adres.
+* **Verzorger**: Aangifte door verzorger voor minderjarig kind
 
 
-De enumeratie soortMigratie heeft de volgende kenmerken:
+De enumeratie aangever heeft de volgende kenmerken:
 
-??? info "Kenmerken Model soortMigratie"
+??? info "Kenmerken Model aangever"
     | Kenmerk | Waarde |
     | :--- | :------ |
-    | name | soortMigratie |
+    | name | aangever |
     | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author |  |
     | version | 1.4 |
-    | created | 2025-03-26 11:13:39 |
-    | modified | 2025-03-26 16:14:56 |
-    | id | EAID_12d494af_7471_4642_95a2_d4c7e3f9e863 |
+    | created | 2025-03-26 11:13:36 |
+    | modified | 2025-03-26 16:14:55 |
+    | id | EAID_ffde4ddd_9139_4ea7_b922_32f47ca3aadd |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1410,7 +1416,7 @@ De enumeratie redenWijzigingAdres heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_e6ba03a1_8880_4570_af64_8a13f7f82fc7 |
+    | id | EAID_212d4413_fe18_4083_85be_18096095cd60 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1421,36 +1427,30 @@ De enumeratie redenWijzigingAdres heeft de volgende kenmerken:
     
 
 
-### aangever
+### soortMigratie
 Geen Definitie
 
-Het enumeratie aangever kent de volgende waarden:
+Het enumeratie soortMigratie kent de volgende waarden:
 
-* **Gezaghouder**: De gezaghouder is de ouder, de voogd of de curator van de ingeschrevene.
-* **Hoofd instelling**: Het hoofd van de instelling waar de persoon verblijft.
-* **Ingeschrevene**: De ingeschrevene zelf
-* **Meerderjarig inwonend kind voor ouder**: Een kind dat op hetzelfde adres woont als de ouder doet de adresaangifte.
-* **Meerderjarig gemachtigde**: Een door de ingeschrevene gemachtigde.
-* **Inwonend ouder voor meerderjarig kind**: Een ouder die op hetzelfde adres woont, doet aangifte van het adres van het kind.
-* **Echtgenoot/geregistreerd partner**: De inwonende echtgenoot/geregistreerd partner doet aangifte van het adres.
-* **Verzorger**: Aangifte door verzorger voor minderjarig kind
+* **Emigratie**: <Geen Definities>
+* **Immigratie**: <Geen Definities>
 
 
-De enumeratie aangever heeft de volgende kenmerken:
+De enumeratie soortMigratie heeft de volgende kenmerken:
 
-??? info "Kenmerken Model aangever"
+??? info "Kenmerken Model soortMigratie"
     | Kenmerk | Waarde |
     | :--- | :------ |
-    | name | aangever |
+    | name | soortMigratie |
     | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author |  |
     | version | 1.4 |
-    | created | 2025-03-26 11:13:36 |
-    | modified | 2025-03-26 16:14:55 |
-    | id | EAID_ea65d8d5_9216_42d3_ad91_138cbbe62035 |
+    | created | 2025-03-26 11:13:39 |
+    | modified | 2025-03-26 16:14:56 |
+    | id | EAID_b54485a2_3ef6_427c_a11b_0d950c7cdf07 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1495,7 +1495,7 @@ De enumeratie adelijkeTitel heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-03-26 16:14:55 |
-    | id | EAID_786b9dc8_c1cd_4d07_93a5_e4a641aebb6c |
+    | id | EAID_8bcabd83_e6c4_4ca0_b452_177571edf900 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1535,45 +1535,7 @@ De enumeratie redenEindeRelatie heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_7dee9cf4_7ef8_4209_b0d4_b45ecc1fe9fc |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### predicaat
-Geen Definitie
-
-Het enumeratie predicaat kent de volgende waarden:
-
-* **Zijne Koninklijke Hoogheid**: <Geen Definities>
-* **Hare Koninklijke Hoogheid**: <Geen Definities>
-* **Zijne Hoogheid**: <Geen Definities>
-* **Hare Hoogheid**: <Geen Definities>
-* **jonkheer**: <Geen Definities>
-* **jonkvrouw**: <Geen Definities>
-
-
-De enumeratie predicaat heeft de volgende kenmerken:
-
-??? info "Kenmerken Model predicaat"
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | predicaat |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.4 |
-    | created | 2025-03-26 11:13:38 |
-    | modified | 2025-03-26 16:14:55 |
-    | id | EAID_2c11958f_21d5_4911_9611_2f93c9ce9fe9 |
+    | id | EAID_b9c77d7f_a5a3_45ff_894d_409803e2498d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1618,7 +1580,45 @@ De enumeratie adelijkeTitel heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-03-26 16:14:55 |
-    | id | EAID_fabc7696_531b_437f_840b_c9a9eb2772d1 |
+    | id | EAID_24b39a2e_7a37_4201_9d14_dab78b24d6fe |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### predicaat
+Geen Definitie
+
+Het enumeratie predicaat kent de volgende waarden:
+
+* **Zijne Koninklijke Hoogheid**: <Geen Definities>
+* **Hare Koninklijke Hoogheid**: <Geen Definities>
+* **Zijne Hoogheid**: <Geen Definities>
+* **Hare Hoogheid**: <Geen Definities>
+* **jonkheer**: <Geen Definities>
+* **jonkvrouw**: <Geen Definities>
+
+
+De enumeratie predicaat heeft de volgende kenmerken:
+
+??? info "Kenmerken Model predicaat"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | predicaat |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:38 |
+    | modified | 2025-03-26 16:14:55 |
+    | id | EAID_08e37cb6_959a_4233_a561_9a5a2c8572d5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1673,7 +1673,7 @@ De enumeratie typeringFunctioneelGebied heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_4f0e05c5_a222_4cfa_bd9a_b0a780384cff |
+    | id | EAID_020e564d_71ba_45cd_8440_71669c4fed1b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1721,7 +1721,7 @@ De enumeratie typeringKunstwerk heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-03-26 16:14:56 |
-    | id | EAID_21427901_6448_4a62_a41e_7b36d2f1f1dd |
+    | id | EAID_7aa886da_b19c_4baa_bb6f_c5c1ddd1c08d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1763,7 +1763,7 @@ De enumeratie typeringOverigBouwwerk heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-03-26 16:14:57 |
-    | id | EAID_142c6814_07d2_422a_b012_f10458f91451 |
+    | id | EAID_0d4017d2_5706_4b47_86b5_a4167fedf72d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1801,7 +1801,7 @@ De enumeratie typeringScheiding heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-03-26 16:14:57 |
-    | id | EAID_497aaf12_6191_4d19_812f_22175d29c932 |
+    | id | EAID_41868cab_8bad_494c_a9d7_ffa2b577d402 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1837,7 +1837,7 @@ De enumeratie functieSpoor heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:37 |
     | modified | 2025-03-26 16:14:55 |
-    | id | EAID_92aabc1e_0be3_44a2_87f2_d398f8e01058 |
+    | id | EAID_1f46243b_d420_4a03_801b_6cdf14c70df6 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

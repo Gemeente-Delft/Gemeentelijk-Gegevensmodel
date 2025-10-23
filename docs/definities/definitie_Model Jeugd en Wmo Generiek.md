@@ -87,9 +87,9 @@ Attributen van objecttype AOM_AanvraagWmoJeugd
 | clientReactie | AN100 |  |
 | datumBeschikking | Date |  |
 | datumEersteAfspraak | Date | De datum van de eerste afspraak in het<br>proces. |
+| datumEinde | Date | De daadwerkelijke einddatum van de<br>gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proces of niet van toepassing. Deze einddatum is afhankelijk van de gekozen doorloopmethodiek |
 | datumPlanVastgesteld | Date | De datum waarop het plan is vastgesteld in de melding. |
 | datumStartAanvraag | Date | Start van het proces=start vd aanvraag |
-| datumEinde | Date | De daadwerkelijke einddatum van de<br>gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proces of niet van toepassing. Deze einddatum is afhankelijk van de gekozen doorloopmethodiek |
 | deskundigheid | AN50 |  |
 | doorloopmethodiek | AN50 |  |
 | maximaleDoorlooptijd | AN20 | Het aantal dagen tussen de startdatum en de einddatum van de doorloopmethodiek ten tijde van het aanmaken van het proces. Dit veld geeft daarmee aan hoe lang men over een proces zou mogen doen. |
@@ -132,11 +132,11 @@ Attributen van objecttype AOMMeldingWmoJeugd
 | aanmeldingDoor | AN100 |  |
 | aanmeldingDoorLandelijk | AN100 |  |
 | aanmeldwijze | AN80 |  |
-| redenAfsluiting | AN80 |  |
-| isClientOpDeHoogte | AN50 |  |
 | deskundigheid | AN80 |  |
-| vervolg | AN50 |  |
+| isClientOpDeHoogte | AN50 |  |
 | onderzoekswijze | AN50 |  |
+| redenAfsluiting | AN80 |  |
+| vervolg | AN50 |  |
 | verwezen | AN50 |  |
 
 
@@ -172,9 +172,9 @@ Attributen van objecttype Beperking
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| duur | int |  |
 | categorie | int |  |
 | commentaar | int |  |
+| duur | int |  |
 | wet | Enumeratie: "Wet" |  |
 
 
@@ -246,8 +246,8 @@ Attributen van objecttype Beperkingscore
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| score | int |  |
 | commentaar | AN200 |  |
+| score | int |  |
 | wet | Enumeratie: "Wet" |  |
 
 
@@ -319,10 +319,10 @@ Attributen van objecttype Beschikking
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumAfgifte | Datum |  |
 | code | AN20 |  |
-| grondslagen | int |  |
 | commentaar | AN200 |  |
+| datumAfgifte | Datum |  |
+| grondslagen | int |  |
 | wet |  |  |
 
 
@@ -392,17 +392,17 @@ Attributen van objecttype Beschikte Voorziening
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| omvang | int |  |
+| code | AN20 |  |
+| datumEinde | Date |  |
+| datumEindeOorspronkelijk | Date |  |
+| datumStart | Date |  |
 | eenheid | Enumeratie: "Eenheid" |  |
 | frequentie | Enumeratie: "Frequentie" |  |
-| wet | Enumeratie: "Wet" |  |
-| code | AN20 |  |
-| datumStart | Date |  |
-| datumEinde | Date |  |
 | leveringsvorm | Enumeratie: "Leveringsvorm" |  |
-| status | AN50 |  |
+| omvang | int |  |
 | redenEinde | AN100 |  |
-| datumEindeOorspronkelijk | Date |  |
+| status | AN50 |  |
+| wet | Enumeratie: "Wet" |  |
 
 
 
@@ -473,8 +473,8 @@ Attributen van objecttype Declaratie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| declaratieBedrag | int |  |
 | datumDeclaratie | int |  |
+| declaratieBedrag | int |  |
 | declaratieStatus | int |  |
 
 
@@ -510,10 +510,10 @@ Attributen van objecttype Declaratieregel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| code | AN20 |  |
 | bedrag | Bedrag |  |
-| datumStart | Date |  |
+| code | AN20 |  |
 | datumEinde | Date |  |
+| datumStart | Date |  |
 
 
 
@@ -583,12 +583,12 @@ Attributen van objecttype Levering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| eenheid | Enumeratie: "Eenheid" |  |
-| frequentie | Enumeratie: "Frequentie" |  |
-| omvang | int |  |
 | code | AN20 |  |
 | datumStart | Date |  |
 | datumStop | Date |  |
+| eenheid | Enumeratie: "Eenheid" |  |
+| frequentie | Enumeratie: "Frequentie" |  |
+| omvang | int |  |
 | stopreden | Text |  |
 
 
@@ -624,9 +624,9 @@ Attributen van objecttype Leveringsvorm
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| leveringsvormCode | An20 |  |
 | naam | AN3 |  |
 | wet | Enumeratie: "Wet" |  |
-| leveringsvormCode | An20 |  |
 
 
 
@@ -697,9 +697,9 @@ Attributen van objecttype PGB-Toekenning
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumToekenning | Date |  |
 | budget | Bedrag |  |
 | datumEinde | Date |  |
+| datumToekenning | Date |  |
 
 
 
@@ -804,11 +804,11 @@ Attributen van objecttype Tarief
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumStart | Date |  |
-| datumEinde | Date |  |
 | bedrag | Bedrag |  |
-| wet | Enumeratie: "Wet" |  |
+| datumEinde | Date |  |
+| datumStart | Date |  |
 | eenheid | Enumeratie: "Eenheid" |  |
+| wet | Enumeratie: "Wet" |  |
 
 
 
@@ -879,17 +879,17 @@ Attributen van objecttype Toewijzing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| toewijzingnummer | N9 |  |
-| datumToewijzing | Date |  |
-| datumStartToewijzing | Date |  |
-| datumEindeToewijzing | Date |  |
-| redenWijziging | int |  |
-| omvang | N8 |  |
+| code | AN20 |  |
 | commentaar | Text |  |
+| datumAanschaf | Date |  |
+| datumEindeToewijzing | Date |  |
+| datumStartToewijzing | Date |  |
+| datumToewijzing | Date |  |
 | eenheid | Enumeratie: "Eenheid" |  |
 | frequentie | Enumeratie: "Frequentie" |  |
-| datumAanschaf | Date |  |
-| code | AN20 |  |
+| omvang | N8 |  |
+| redenWijziging | int |  |
+| toewijzingnummer | N9 |  |
 | wet | Enumeratie: "Wet" |  |
 
 
@@ -925,13 +925,13 @@ Attributen van objecttype Verplichting Wmo Jeugd
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| budgetsoortgroep | int |  |
 | Budgetsoort | int |  |
-| Feitelijke Einddatum | int |  |
-| verplichtingsoort | int |  |
-| Periodiciteit | int |  |
+| budgetsoortgroep | int |  |
 | Einddatumgepland | int |  |
+| Feitelijke Einddatum | int |  |
 | Jaar | int |  |
+| Periodiciteit | int |  |
+| verplichtingsoort | int |  |
 
 
 
@@ -966,19 +966,19 @@ Attributen van objecttype Verzoek om Toewijzing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| referentieAanbieder | AN40 |  |
 | beschikkingsnummer | AN40 |  |
+| commentaar | text |  |
+| datumEindeToewijzing | Date |  |
 | datumIngangBeschikking | Date |  |
 | datumIngangToewijzing | Date |  |
-| datumEindeToewijzing | Date |  |
-| volume | int |  |
+| datumOntvangst | Date |  |
 | eenheid | Enumeratie: "Eenheid" |  |
 | frequentie | Enumeratie: "Frequentie" |  |
-| verwijzer | AN200 |  |
 | raamcontract | boolean |  |
-| commentaar | text |  |
-| datumOntvangst | Date |  |
+| referentieAanbieder | AN40 |  |
 | soortVerwijzer | Enumeratie: "Soort Verwijzer" |  |
+| verwijzer | AN200 |  |
+| volume | int |  |
 
 
 
@@ -1013,12 +1013,12 @@ Attributen van objecttype Voorziening
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| productcode | AN5 |  |
+| afhandelwijze | AN200 |  |
+| code | AN20 |  |
 | naam | AN80 |  |
 | omschrijving | text |  |
+| productcode | AN5 |  |
 | wet | Enumeratie: "Wet" |  |
-| code | AN20 |  |
-| afhandelwijze | AN200 |  |
 
 
 
@@ -1053,13 +1053,13 @@ Attributen van objecttype Voorzieningsoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| code | An20 |  |
 | naam | AN80 |  |
 | omschrijving | text |  |
-| wet | Enumeratie: "Wet" |  |
-| code | An20 |  |
-| productcode | AN20 |  |
-| productcategoriecode | An20 |  |
 | productcategorie | AN200 |  |
+| productcategoriecode | An20 |  |
+| productcode | AN20 |  |
+| wet | Enumeratie: "Wet" |  |
 
 
 
@@ -1094,10 +1094,10 @@ Attributen van objecttype Zelfredzaamheidmatrix
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| datumEindeGeldigheid | date |  |
+| datumStartGeldigheid | date |  |
 | naam | AN80 |  |
 | omschrijving | text |  |
-| datumStartGeldigheid | date |  |
-| datumEindeGeldigheid | date |  |
 
 
 

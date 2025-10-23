@@ -105,21 +105,21 @@ Attributen van objecttype MulderFeit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bonnummer | int |  |
-| overtreding | AN80 |  |
-| vorderingnummer | int |  |
-| dienstCD | AN40 |  |
 | bedrag | Bedrag |  |
-| parkeertarief | Bedrag |  |
-| datumBezwaar | Date |  |
-| bezwaarToegewezen | Date |  |
-| bezwaarIngetrokken | Date |  |
 | bezwaarAfgehandeld | Date |  |
-| datumGeseponeerd | Date |  |
+| bezwaarIngetrokken | Date |  |
+| bezwaarToegewezen | Date |  |
+| bonnummer | int |  |
 | datumBetaling | Date |  |
+| datumBezwaar | Date |  |
+| datumGeseponeerd | Date |  |
 | datumIndiening | Date |  |
-| redenSeponeren | AN300 |  |
+| dienstCD | AN40 |  |
 | organisatie | AN200 |  |
+| overtreding | AN80 |  |
+| parkeertarief | Bedrag |  |
+| redenSeponeren | AN300 |  |
+| vorderingnummer | int |  |
 
 
 
@@ -154,22 +154,22 @@ Attributen van objecttype Naheffing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| bedrag | Bedrag |  |
+| bezwaarAfgehandeld | Date |  |
+| bezwaarIngetrokken | Date |  |
+| bezwaarToegewezen | Date |  |
 | bonnummer | int |  |
-| overtreding | AN80 |  |
-| vorderingnummer | int |  |
+| datumBetaling | Date |  |
+| datumBezwaar | Date |  |
+| datumGeseponeerd | Date |  |
+| datumIndiening | Date |  |
 | dienstCD | AN40 |  |
 | fiscaal | boolean |  |
-| bedrag | Bedrag |  |
-| parkeertarief | Bedrag |  |
-| datumBezwaar | Date |  |
-| bezwaarToegewezen | Date |  |
-| bezwaarIngetrokken | Date |  |
-| bezwaarAfgehandeld | Date |  |
-| datumGeseponeerd | Date |  |
-| datumBetaling | Date |  |
-| datumIndiening | Date |  |
-| redenSeponeren | AN300 |  |
 | organisatie | AN200 |  |
+| overtreding | AN80 |  |
+| parkeertarief | Bedrag |  |
+| redenSeponeren | AN300 |  |
+| vorderingnummer | int |  |
 
 
 
@@ -238,13 +238,13 @@ Attributen van objecttype Parkeerrecht
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumtijdStart | DateTime |  |
-| datumtijdEinde | DateTime |  |
 | aanmaaktijd | DateTime |  |
-| productnaam | AN80 |  |
-| productomschrijving | Text |  |
 | bedragAankoop | Bedrag | Bedrag incl. BTW |
 | bedragBTW | Bedrag |  |
+| datumtijdEinde | DateTime |  |
+| datumtijdStart | DateTime |  |
+| productnaam | AN80 |  |
+| productomschrijving | Text |  |
 
 
 
@@ -279,14 +279,14 @@ Attributen van objecttype Parkeerscan
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| transactieID | AN40 |  |
-| codeScanvoertuig | AN40 |  |
 | codeGebruiker | AN40 |  |
-| kenteken | AN12 |  |
+| codeScanvoertuig | AN40 |  |
 | coordinaten | GML |  |
+| foto | BLOB |  |
+| kenteken | AN12 |  |
 | parkeerrecht | boolean |  |
 | tijdstip | DateTime |  |
-| foto | BLOB |  |
+| transactieID | AN40 |  |
 
 
 
@@ -321,15 +321,15 @@ Attributen van objecttype Parkeervergunning
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| nummer | int |  |
-| type | AN40 |  |
-| datumStart | DateTime |  |
 | datumEindeGeldigheid | DateTime |  |
 | datumReservering | Date |  |
+| datumStart | DateTime |  |
+| kenteken | AN12 |  |
 | minutenAfgeschreven | int |  |
 | minutenGeldig | int |  |
 | minutenResterend | int |  |
-| kenteken | AN12 |  |
+| nummer | int |  |
+| type | AN40 |  |
 
 
 
@@ -364,12 +364,12 @@ Attributen van objecttype Parkeervlak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| vlakID | AN40 |  |
-| doelgroep | Enumeratie: "Doelgroepenplaatsen" |  |
-| plaats | AN200 |  |
-| coordinaten | GML |  |
-| fiscaal | boolean |  |
 | aantal | int |  |
+| coordinaten | GML |  |
+| doelgroep | Enumeratie: "Doelgroepenplaatsen" |  |
+| fiscaal | boolean |  |
+| plaats | AN200 |  |
+| vlakID | AN40 |  |
 
 
 
@@ -404,25 +404,25 @@ Attributen van objecttype Parkeerzone
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| geometrie | Multivlak |  |
-| naam | AN250 |  |
-| sectorcode | AN40 |  |
-| typeCode | AN40 |  |
-| typeNaam | AN250 |  |
-| soortCode | An40 |  |
-| IPMCode | AN40 |  |
-| IPMNaam | AN250 |  |
-| gebruik | AN250 |  |
 | aantalParkeervlakken | int |  |
 | alleenDagtarief | boolean |  |
-| uurtarief | Bedrag |  |
 | dagtarief | Bedrag |  |
-| starttarief | Bedrag |  |
-| startdag | AN20 |  |
 | eindedag | AN20 |  |
-| starttijd | int |  |
 | eindtijd | int |  |
-| parkeergarage | boolean |  |
+| gebruik | AN250 |  |
+| geometrie | Multivlak |  |
+| IPMCode | AN40 |  |
+| IPMNaam | AN250 |  |
+| isParkeergarage | Enumeratie: "Boolean" |  |
+| naam | AN250 |  |
+| sectorcode | AN40 |  |
+| soortCode | An40 |  |
+| startdag | AN20 |  |
+| starttarief | Bedrag |  |
+| starttijd | int |  |
+| typeCode | AN40 |  |
+| typeNaam | AN250 |  |
+| uurtarief | Bedrag |  |
 
 
 
@@ -457,9 +457,9 @@ Attributen van objecttype Productgroep
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| beslisboom | AN250 |  |
 | code | AN40 |  |
 | omschrijving | AN250 |  |
-| beslisboom | AN250 |  |
 
 
 
@@ -570,10 +570,10 @@ Attributen van objecttype Voertuig
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | kenteken | AN12 |  |
-| merk | AN200 |  |
 | kleur | AN200 |  |
-| type | AN200 |  |
 | land | AN200 |  |
+| merk | AN200 |  |
+| type | AN200 |  |
 
 
 
@@ -581,6 +581,42 @@ Attributen van objecttype Voertuig
 
 
 ## Enumeraties Model Parkeren
+
+
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: <Geen Definities>
+* **Nee**: <Geen Definities>
+* **Onbekend**: <Geen Definities>
+* **Leeg**: <Geen Definities>
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Boolean"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Boolean |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:35 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_b42d0fe0_2847_4539_98b7_f78586a2be78 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 ### Doelgroepenplaatsen

@@ -108,34 +108,34 @@ Attributen van objecttype Artefact
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| artefectnummer | AN20 |  |
+| beschrijving | text |  |
+| conserveren | boolean |  |
+| datering | AN40 |  |
+| dateringComplex | AN20 |  |
+| determinatieniveau | AN40 |  |
+| dianummer | AN200 |  |
+| doosnummer | AN40 |  |
+| exposabel | boolean |  |
+| fotonummer | AN200 |  |
+| functie | AN80 |  |
+| herkomst | AN80 |  |
+| key | AN40 |  |
+| keyDoos | AN40 |  |
+| keyMagazijnplaatsing | AN40 |  |
+| keyPut | AN40 |  |
+| keyVondst | An40 |  |
+| literatuur | AN200 |  |
+| maten | AN80 |  |
+| naam | AN40 |  |
+| opmerkingen | text |  |
+| origine | An80 |  |
 | projectCD | AN20 |  |
 | putnummer | AN20 |  |
-| vondstnummer | An20 |  |
-| artefectnummer | AN20 |  |
-| datering | AN40 |  |
-| maten | AN80 |  |
-| type | AN80 |  |
-| beschrijving | text |  |
-| determinatieniveau | AN40 |  |
-| naam | AN40 |  |
-| doosnummer | AN40 |  |
-| tekeningnummer | AN200 |  |
-| dianummer | AN200 |  |
-| fotonummer | AN200 |  |
 | restauratieWenselijk | boolean |  |
-| exposabel | boolean |  |
-| conserveren | boolean |  |
-| key | AN40 |  |
-| keyPut | AN40 |  |
-| keyMagazijnplaatsing | AN40 |  |
-| keyDoos | AN40 |  |
-| dateringComplex | AN20 |  |
-| opmerkingen | text |  |
-| functie | AN80 |  |
-| origine | An80 |  |
-| literatuur | AN200 |  |
-| herkomst | AN80 |  |
-| keyVondst | An40 |  |
+| tekeningnummer | AN200 |  |
+| type | AN80 |  |
+| vondstnummer | An20 |  |
 
 
 
@@ -241,12 +241,12 @@ Attributen van objecttype Doos
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| projectCD | AN40 |  |
 | doosnummer | An40 |  |
-| inhoud | text |  |
 | herkomst | AN200 |  |
+| inhoud | text |  |
 | key | AN40 |  |
 | keyMagazijnlocatie | AN40 |  |
+| projectCD | AN40 |  |
 
 
 
@@ -281,9 +281,9 @@ Attributen van objecttype Kaart
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| kaart | BLOB |  |
 | naam | AN200 |  |
 | omschrijving | text |  |
-| kaart | BLOB |  |
 
 
 
@@ -353,10 +353,10 @@ Attributen van objecttype Magazijnlocatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| vaknummer | AN8 |  |
-| volgletter | AN8 |  |
 | key | AN20 |  |
 | stelling | AN8 |  |
+| vaknummer | AN8 |  |
+| volgletter | AN8 |  |
 
 
 
@@ -391,14 +391,14 @@ Attributen van objecttype Magazijnplaatsing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| uitgeleend | boolean |  |
 | beschrijving | Text |  |
 | datumGeplaatst | Date |  |
+| herkomst | AN250 |  |
 | key | AN40 |  |
 | keyDoos | AN40 |  |
 | keyMagazijnlocatie | AN40 |  |
 | projectCD | An40 |  |
-| herkomst | AN250 |  |
+| uitgeleend | boolean |  |
 
 
 
@@ -433,16 +433,16 @@ Attributen van objecttype Project
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| projectCD | AN40 |  |
-| naam | AN80 |  |
-| datumStart | Date |  |
-| datumEinde | Date |  |
-| naamcode | AN40 |  |
-| toponiem | AN80 |  |
-| locatie | Point |  |
 | coordinaten | GML |  |
-| jaarVan | N4 |  |
+| datumEinde | Date |  |
+| datumStart | Date |  |
 | jaarTot | N4 |  |
+| jaarVan | N4 |  |
+| locatie | Point |  |
+| naam | AN80 |  |
+| naamcode | AN40 |  |
+| projectCD | AN40 |  |
+| toponiem | AN80 |  |
 | trefwoorden | AN250 |  |
 
 
@@ -478,9 +478,9 @@ Attributen van objecttype Put
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| key | AN40 |  |
 | projectCD | AN40 |  |
 | putnummer | AN40 |  |
-| key | AN40 |  |
 
 
 
@@ -515,19 +515,19 @@ Attributen van objecttype Spoor
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| projectCD | AN40 |  |
-| putnummer | AN40 |  |
-| vlaknummer | AN40 |  |
-| spoornummer | AN40 |  |
-| hoogteBoven | AN20 |  |
-| hoogteOnder | AN20 |  |
 | aard | AN80 |  |
+| beschrijving | text |  |
 | datering | AN20 |  |
 | datum | Date |  |
-| vorm | AN20 |  |
-| beschrijving | text |  |
+| hoogteBoven | AN20 |  |
+| hoogteOnder | AN20 |  |
 | key | AN40 |  |
 | keyVlak | AN40 |  |
+| projectCD | AN40 |  |
+| putnummer | AN40 |  |
+| spoornummer | AN40 |  |
+| vlaknummer | AN40 |  |
+| vorm | AN20 |  |
 
 
 
@@ -562,8 +562,8 @@ Attributen van objecttype Stelling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| stellingcode | AN2 |  |
 | inhoud | text |  |
+| stellingcode | AN2 |  |
 
 
 
@@ -598,20 +598,20 @@ Attributen van objecttype Vindplaats
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| projectcode | AN20 |  |
-| locatie | GML |  |
-| vindplaats | AN40 |  |
-| gemeente | AN40 |  |
-| datering | AN40 |  |
-| begindatering | AN40 |  |
-| einddatering | AN40 |  |
 | aard | AN20 |  |
-| onderzoek | text |  |
-| mobilia | AN40 |  |
+| begindatering | AN40 |  |
+| beschrijving | text |  |
+| bibliografie | AN200 |  |
+| datering | AN40 |  |
 | depot | AN40 |  |
 | documentatie | AN200 |  |
-| bibliografie | AN200 |  |
-| beschrijving | text |  |
+| einddatering | AN40 |  |
+| gemeente | AN40 |  |
+| locatie | GML |  |
+| mobilia | AN40 |  |
+| onderzoek | text |  |
+| projectcode | AN20 |  |
+| vindplaats | AN40 |  |
 
 
 
@@ -646,13 +646,13 @@ Attributen van objecttype Vlak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| diepteTot | N3 |  |
+| diepteVan | N3 |  |
+| key | AN40 |  |
+| keyPut | AN40 |  |
 | projectCD | AN20 |  |
 | putnummer | AN20 |  |
 | vlaknummer | AN20 |  |
-| diepteVan | N3 |  |
-| diepteTot | N3 |  |
-| key | AN40 |  |
-| keyPut | AN40 |  |
 
 
 
@@ -687,17 +687,17 @@ Attributen van objecttype Vondst
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| projectCD | AN20 |  |
-| vondstnummer | AN20 |  |
-| putnummer | AN20 |  |
-| vlaknummer | AN20 |  |
-| spoornummer | AN20 |  |
-| vullingnummer | AN20 |  |
-| omstandigheden | text |  |
-| omschrijving | text |  |
+| datum | Date |  |
 | key | AN40 |  |
 | keyVulling | AN40 |  |
-| datum | Date |  |
+| omschrijving | text |  |
+| omstandigheden | text |  |
+| projectCD | AN20 |  |
+| putnummer | AN20 |  |
+| spoornummer | AN20 |  |
+| vlaknummer | AN20 |  |
+| vondstnummer | AN20 |  |
+| vullingnummer | AN20 |  |
 | XCoordinaat | int |  |
 | YCoordinaat | int |  |
 
@@ -734,16 +734,16 @@ Attributen van objecttype Vulling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| projectCD | AN20 |  |
-| putnummer | An20 |  |
-| vlaknummer | AN20 |  |
-| spoornummer | AN20 |  |
-| vullingnummer | AN20 |  |
 | grondsoort | AN80 |  |
-| kleur | AN80 |  |
-| structuur | AN80 |  |
 | key | AN40 |  |
 | keySpoor | AN40 |  |
+| kleur | AN80 |  |
+| projectCD | AN20 |  |
+| putnummer | An20 |  |
+| spoornummer | AN20 |  |
+| structuur | AN80 |  |
+| vlaknummer | AN20 |  |
+| vullingnummer | AN20 |  |
 
 
 

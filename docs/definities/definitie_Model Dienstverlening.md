@@ -73,8 +73,8 @@ Attributen van objecttype Aanvraagdata
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| veld | AN40 |  |
 | data | Tekst |  |
+| veld | AN40 |  |
 
 
 
@@ -109,24 +109,24 @@ Attributen van objecttype AanvraagOfMelding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| afgehandeld | Boolean |  |
-| kanaal | AN80 |  |
-| soort | AN80 | Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding.... |
-| datumAfhandeling | Date |  |
+| afgehandeld | Enumeratie: "Boolean" |  |
 | categorie | AN200 |  |
-| identificatie | AN40 |  |
-| onderwerp | AN200 |  |
-| status | AN80 |  |
-| subcategorie | AN200 |  |
-| datumAanmaak | Date |  |
 | categoriecode | AN80 |  |
+| datumAanmaak | Date |  |
+| datumAfhandeling | Date |  |
 | datumBeginStatus | Date |  |
 | datumEindeStatus | Date |  |
 | hoofdcategorie | AN80 |  |
 | hoofdcategoriecode | AN80 |  |
+| identificatie | AN40 |  |
+| kanaal | AN80 |  |
+| onderwerp | AN200 |  |
 | onderwerpcode | AN80 |  |
+| soort | AN80 | Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding.... |
+| status | AN80 |  |
 | statuscode | AN80 |  |
 | statusVolgorde | AN80 |  |
+| subcategorie | AN200 |  |
 | subcategoriecode | AN80 |  |
 
 
@@ -231,16 +231,16 @@ Attributen van objecttype Balieafspraak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| eindtijdGepland | Datetime |  |
+| notitie | text |  |
 | starttijdGepland | Datetime |  |
 | tijdAangemaakt | Datetime |  |
-| toelichting | text |  |
 | tijdsduurGepland | int | Werkelijke tijdsduur in minuten |
-| wachttijdTotaal | int | Wachttijd inclusief de tijd dat iemand te vroeg voor de afspraak verschijnt en de tijd dat iemand moet wachten na de geplande starttijd van de afspraak |
-| eindtijdGepland | Datetime |  |
-| wachttijdVoorStartAfspraak | int | Tijdsduur dat iemand te vroeg is voor de afspraak |
+| toelichting | text |  |
 | wachttijdNaStartAfspraak | int | Tijdsduur die iemand moet wachten na de starttijd van de afspraak |
+| wachttijdTotaal | int | Wachttijd inclusief de tijd dat iemand te vroeg voor de afspraak verschijnt en de tijd dat iemand moet wachten na de geplande starttijd van de afspraak |
+| wachttijdVoorStartAfspraak | int | Tijdsduur dat iemand te vroeg is voor de afspraak |
 | werkelijkeTijdsduur | int |  |
-| notitie | text |  |
 
 
 
@@ -309,9 +309,9 @@ Attributen van objecttype Formuliersoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| ingebruik | Boolean |  |
 | naam | AN80 |  |
 | onderwerp | AN80 |  |
-| ingebruik | Boolean |  |
 
 
 
@@ -346,12 +346,12 @@ Attributen van objecttype Formuliersoortveld
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| veldnaam | AN40 |  |
-| veldtype | AN40 |  |
 | helptekst | Text |  |
-| maxLengte | int |  |
 | isVerplicht | boolean |  |
 | label | AN80 |  |
+| maxLengte | int |  |
+| veldnaam | AN40 |  |
+| veldtype | AN40 |  |
 
 
 
@@ -386,13 +386,13 @@ Attributen van objecttype Klantbeoordeling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| ddBeoordeling | Date | datum en tijdstip van de klantbeoordeling |
 | beoordeling | AN10 | cijfer voor de beoordeling (getal tussen 0 en 10) |
-| contactOpnemen | boolean | of de klant het al dan niet goed vind dat naar aanleiding van zijn/haar beoordeling contact wordt opgenomen |
 | categorie | AN50 |  |
-| subCategorie | AN50 |  |
-| onderwerp | AN50 |  |
+| contactOpnemen | boolean | of de klant het al dan niet goed vind dat naar aanleiding van zijn/haar beoordeling contact wordt opgenomen |
+| ddBeoordeling | Date | datum en tijdstip van de klantbeoordeling |
 | kanaal | AN100 | waar de beoordeling is uitgevoerd, te weten op de website, naar aanleiding van een webformulier of na schriftelijke uitvraag vanuit onze organisatie |
+| onderwerp | AN50 |  |
+| subCategorie | AN50 |  |
 
 
 
@@ -500,9 +500,9 @@ Attributen van objecttype Onderwerp
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| isActief | boolean |  |
 | naam | AN80 |  |
 | toelichting | text |  |
-| isActief | boolean |  |
 
 
 
@@ -537,9 +537,9 @@ Attributen van objecttype ProductOfDienst
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN80 |  |
 | afhandeltijd | int | Standaard afhandeltijd in minuten |
 | ingebruik | Boolean |  |
+| naam | AN80 |  |
 
 
 
@@ -645,17 +645,58 @@ Attributen van objecttype Telefoontje
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| starttijd | DateTime | Het moment dat de telefooncentrale een telefoontje in behandeling neemt. Dit ligt voor de starttijd van het klantcontact |
-| eindtijd | DateTime | Het moment dat de telefooncentrale het telefoontjes beeindigd |
-| totaleTijdsduur | int | Tijd tussen start- en eindtijd van telefoontje |
-| trackID | AN20 |  |
-| totaleWachttijd | int | De tijd tussen de starttijd van het telefoontje en het moment dat het telefoontje voor het eerst wordt opgenomen, of het telefoontje wordt afgesloten |
-| totaleSpreektijd | int | De totale tijd dat met een (of meer) medewerkers van de gemeente wordt gebeld. |
-| totaleOnHoldTijd | int | De totale tijd dat een beller tussen klantcontacten "on hold" wordt gezet. |
 | afhandeltijdNaGesprek | int | De tijd die de medewerker nodig heeft om het telefoontje af te handelen totdat hij/zij klaar is voor een volgend telefoontje |
 | deltaISDNConnectie | int | De totale tijd dat er een teelfoonverbinding was minus totale wachttijd, spreektijd en on hold-tijd. |
+| eindtijd | DateTime | Het moment dat de telefooncentrale het telefoontjes beeindigd |
+| starttijd | DateTime | Het moment dat de telefooncentrale een telefoontje in behandeling neemt. Dit ligt voor de starttijd van het klantcontact |
+| totaleOnHoldTijd | int | De totale tijd dat een beller tussen klantcontacten "on hold" wordt gezet. |
+| totaleSpreektijd | int | De totale tijd dat met een (of meer) medewerkers van de gemeente wordt gebeld. |
+| totaleTijdsduur | int | Tijd tussen start- en eindtijd van telefoontje |
+| totaleWachttijd | int | De tijd tussen de starttijd van het telefoontje en het moment dat het telefoontje voor het eerst wordt opgenomen, of het telefoontje wordt afgesloten |
+| trackID | AN20 |  |
 
 
+
+
+
+
+## Enumeraties Model Dienstverlening
+
+
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: <Geen Definities>
+* **Nee**: <Geen Definities>
+* **Onbekend**: <Geen Definities>
+* **Leeg**: <Geen Definities>
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Boolean"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Boolean |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:35 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_90b61a51_8624_4368_a669_16e9e2ec80de |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 
 

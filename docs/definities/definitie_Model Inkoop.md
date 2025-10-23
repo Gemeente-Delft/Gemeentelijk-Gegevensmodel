@@ -77,17 +77,17 @@ Attributen van objecttype Aanbesteding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN200 |  |
-| tendernedKenmerk | AN80 |  |
-| status | AN80 |  |
-| datumStart | Date |  |
-| volgendeSluiting | DateTime |  |
-| type | Enumeratie: "Opdrachtcategorie" |  |
-| procedure | Enumeratie: "Aanbestedingsoort" |  |
-| digitaal | Boolean |  |
-| referentienummer | AN80 |  |
 | datumPublicatie | DateTime |  |
+| datumStart | Date |  |
+| digitaal | Boolean |  |
+| naam | AN200 |  |
+| procedure | Enumeratie: "Aanbestedingsoort" |  |
+| referentienummer | AN80 |  |
 | scoreMaximaal | int |  |
+| status | AN80 |  |
+| tendernedKenmerk | AN80 |  |
+| type | Enumeratie: "Opdrachtcategorie" |  |
+| volgendeSluiting | DateTime |  |
 
 
 
@@ -122,26 +122,26 @@ Attributen van objecttype Aanbesteding Inhuur
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumVerzending | DateTime |  |
-| status | AN80 |  |
-| datumSluiting | DateTime |  |
-| titel | AN200 |  |
-| type | Enumeratie: "Opdrachtcategorie" |  |
-| publicatie | AN80 |  |
-| perceel | AN80 |  |
-| datumSluiting | DateTime |  |
+| aanvraagGesloten | DateTime |  |
 | aanvraagnummer | AN80 |  |
-| omschrijving | text |  |
+| datumCreatie | DateTime |  |
+| datumOpeningKluis | DateTime |  |
+| datumSluiting | DateTime |  |
+| datumSluiting | DateTime |  |
+| datumVerzending | DateTime |  |
+| fase | AN80 |  |
 | hoogsteTarief | bedrag |  |
 | laagsteTarief | bedrag |  |
-| datumOpeningKluis | DateTime |  |
-| datumCreatie | DateTime |  |
-| referentie | AN80 |  |
+| omschrijving | text |  |
+| perceel | AN80 |  |
 | procedure | AN80 |  |
-| projectreferentie | AN40 |  |
 | projectnaam | AN200 |  |
-| aanvraagGesloten | DateTime |  |
-| fase | AN80 |  |
+| projectreferentie | AN40 |  |
+| publicatie | AN80 |  |
+| referentie | AN80 |  |
+| status | AN80 |  |
+| titel | AN200 |  |
+| type | Enumeratie: "Opdrachtcategorie" |  |
 
 
 
@@ -176,11 +176,11 @@ Attributen van objecttype Aankondiging
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| beschrijving | text |  |
+| categorie | Enumeratie: "Opdrachtcategorie" |  |
 | datum | DateTime |  |
 | naam | An200 |  |
-| beschrijving | text |  |
 | type | Enumeratie: "Aanbestedingsoort" |  |
-| categorie | Enumeratie: "Opdrachtcategorie" |  |
 
 
 
@@ -215,16 +215,16 @@ Attributen van objecttype Aanvraag Inkooporder
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| correspondentienummer | int |  |
-| onderwerp | AN80 |  |
-| omschrijving | text |  |
-| leveringOfDienst | Boolean | Bij levering of dienst is waarde: TRUE, bij een werk is waarde: FALSE |
-| wijzeVanInhuur | AN80 |  |
-| inhuurAnders | AN80 |  |
 | betalingOverMeerJaren | Boolean |  |
+| correspondentienummer | int |  |
+| inhuurAnders | AN80 |  |
+| leveringOfDienst | Boolean | Bij levering of dienst is waarde: TRUE, bij een werk is waarde: FALSE |
 | nettoTotaalBedrag | Bedrag |  |
+| omschrijving | text |  |
+| onderwerp | AN80 |  |
 | reactie | Text |  |
 | status | AN80 |  |
+| wijzeVanInhuur | AN80 |  |
 
 
 
@@ -295,22 +295,22 @@ Attributen van objecttype Contract
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| contractRevisie | int |  |
-| internContractID | AN40 |  |
-| internContractRevisie | int |  |
-| status | AN80 |  |
-| groep | AN80 |  |
-| type | AN80 |  |
+| autorisatiegroep | AN200 |  |
+| beschrijving | text |  |
 | categorie | AN80 |  |
 | classificatie | AN80 |  |
-| voorwaarde | AN80 |  |
-| beschrijving | text |  |
-| zoekwoorden | AN300 |  |
-| autorisatiegroep | AN200 |  |
-| opmerkingen | text |  |
-| datumStart | Date |  |
-| datumEinde | Date |  |
+| contractRevisie | int |  |
 | datumCreatie | Date |  |
+| datumEinde | Date |  |
+| datumStart | Date |  |
+| groep | AN80 |  |
+| internContractID | AN40 |  |
+| internContractRevisie | int |  |
+| opmerkingen | text |  |
+| status | AN80 |  |
+| type | AN80 |  |
+| voorwaarde | AN80 |  |
+| zoekwoorden | AN300 |  |
 
 
 
@@ -381,10 +381,10 @@ Attributen van objecttype FormulierInhuur
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| functienaamInhuur | AN200 |  |
-| datumIngangInhuur | Date |  |
-| akkoordHRAdviseur | Boolean |  |
 | akkoordFinancieelAdviseur | Boolean |  |
+| akkoordHRAdviseur | Boolean |  |
+| datumIngangInhuur | Date |  |
+| functienaamInhuur | AN200 |  |
 
 
 
@@ -420,8 +420,8 @@ Attributen van objecttype FormulierVerlengingInhuur
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datumEindeNieuw | Date |  |
-| indicatieVerhogenInkooporder | Boolean |  |
 | indicatieRedenInhuurGewijzigd | Boolean |  |
+| indicatieVerhogenInkooporder | Boolean |  |
 | toelichting | text |  |
 
 
@@ -457,11 +457,11 @@ Attributen van objecttype Gunning
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumGunning | DateTime |  |
 | bericht | AN300 |  |
+| datumGunning | DateTime |  |
+| datumPublicatie | DateTime |  |
 | datumVoorlopigeGunning | DateTime |  |
 | gegundePrijs | bedrag |  |
-| datumPublicatie | DateTime |  |
 
 
 
@@ -605,8 +605,8 @@ Attributen van objecttype Kwalificatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| startGeldigheid | Date |  |
 | eindeGeldigheid | Date |  |
+| startGeldigheid | Date |  |
 
 
 
@@ -677,10 +677,10 @@ Attributen van objecttype Offerte
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| prijs | bedrag |  |
 | datumOfferte | Date |  |
 | naam | AN200 |  |
 | omschrijving | text |  |
+| prijs | bedrag |  |
 
 
 
@@ -753,10 +753,10 @@ Attributen van objecttype SelectietabelAanbesteding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| opdrachtcategorie | Enumeratie: "Opdrachtcategorie" |  |
-| drempelbedragVanaf | Bedrag |  |
-| drempelbedragTot | Bedrag |  |
 | aanbestedingsoort | Enumeratie: "Aanbestedingsoort" |  |
+| drempelbedragTot | Bedrag |  |
+| drempelbedragVanaf | Bedrag |  |
+| opdrachtcategorie | Enumeratie: "Opdrachtcategorie" |  |
 | openbaar | Boolean |  |
 
 
@@ -792,20 +792,20 @@ Attributen van objecttype StartformulierAanbesteden
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| omschrijving | text |  |
-| indicatorOverkoepelendProject | Boolean |  |
-| opdrachtsoort | Enumeratie: "Opdrachtsoort" |  |
-| opdrachtcategorie | Enumeratie: "Opdrachtcategorie" |  |
-| indicatieEenmaligeLos | Boolean |  |
-| indicatieMeerjarigRepeterend | Boolean |  |
-| indicatieMeerjarigeRaamovereenkomst | boolean |  |
-| toelichtingEenmaligOfRepeterend | text |  |
-| indicatieAanvullendeOpdrachtLeverancier | boolean |  |
-| toelichtingAanvullendeOpdracht | text | Zijn er mogelijk nog aanvullende of gerelateerde opdrachten, die je ook wilt verstrekken aan de beoogde opdrachtnemer? |
 | beoogdeLooptijd | int | Beoogde looptijd in jaren |
 | beoogdeTotaleOpdrachtwaarde | Bedrag |  |
+| indicatieAanvullendeOpdrachtLeverancier | boolean |  |
 | indicatieBeoogdeAanbestedingOnderhands | Boolean | Welke aanbestedingsprocedure ben je voornemens te volgen?<br><ol><br> <li>1-op-1 (enkelvoudig onderhands) of 3 tot 5 offertes (meervoudig onderhands)</li><br> <li>Nationale of Europese aanbesteding </li><br></ol> |
 | indicatieBeoogdeProcKomtOvereen | boolean | Komt - op basis van de hierboven genoemde totale opdrachtwaarde - de beoogde aanbestedings-procedure overeen met de voorgeschreven procedure uit het Procedure-overzicht en/of het 'groene' gedeelte in de kleurentabel uit de gids proportionaliteit? |
+| indicatieEenmaligeLos | Boolean |  |
+| indicatieMeerjarigeRaamovereenkomst | boolean |  |
+| indicatieMeerjarigRepeterend | Boolean |  |
+| indicatorOverkoepelendProject | Boolean |  |
+| omschrijving | text |  |
+| opdrachtcategorie | Enumeratie: "Opdrachtcategorie" |  |
+| opdrachtsoort | Enumeratie: "Opdrachtsoort" |  |
+| toelichtingAanvullendeOpdracht | text | Zijn er mogelijk nog aanvullende of gerelateerde opdrachten, die je ook wilt verstrekken aan de beoogde opdrachtnemer? |
+| toelichtingEenmaligOfRepeterend | text |  |
 
 
 
@@ -840,8 +840,8 @@ Attributen van objecttype Uitnodiging
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datum | DateTime |  |
 | afgewezen | Boolean |  |
+| datum | DateTime |  |
 | geaccepteerd | Boolean |  |
 
 

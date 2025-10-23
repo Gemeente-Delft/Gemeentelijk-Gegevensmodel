@@ -8,14 +8,14 @@
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Inkomen |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting | <memo> |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | arjen |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2025-03-27 11:31:16 |
-    | modified | 2025-04-23 15:22:26 |
+    | modified | 2025-07-29 22:20:23 |
     | id | EAPK_7A13550B_AC75_4783_BD16_A9ED6E86172A |
     
 
@@ -51,9 +51,9 @@ Het model 'Model Inkomen' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2022-06-08 14:19:54 |
-    | modified | 2025-03-27 14:01:30 |
+    | modified | 2025-08-06 14:19:41 |
     | id | EAID_F4FD02F2_9FFA_4a35_BA32_B4CDE4002E7A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -68,18 +68,18 @@ Attributen van objecttype Component
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bedrag | bedrag |  |
+| bedrag | Bedrag |  |
 | begindatumBetrekkingop | Date |  |
+| debetCredit | CharacterString |  |
 | eindatumBetrekkingop | Date |  |
-| debetCredit | AN50 |  |
-| rekeningNummer | AN50 |  |
-| grootboekcode | AN50 |  |
-| grootboekomschrijving | AN100 |  |
-| kostenplaats | AN50 |  |
-| groep | AN50 |  |
-| omschrijving | AN100 |  |
-| toelichting | AN50 |  |
-| groepcode | AN20 |  |
+| groep | CharacterString |  |
+| groepcode | CharacterString |  |
+| grootboekcode | CharacterString |  |
+| grootboekomschrijving | CharacterString |  |
+| kostenplaats | CharacterString |  |
+| omschrijving | CharacterString |  |
+| rekeningNummer | CharacterString |  |
+| toelichting | CharacterString |  |
 
 
 
@@ -97,9 +97,9 @@ Attributen van objecttype Component
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2022-06-08 14:20:08 |
-    | modified | 2025-03-27 14:01:36 |
+    | modified | 2025-08-06 14:19:41 |
     | id | EAID_3372192D_4773_46b2_BDA5_C98B220F8954 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -114,12 +114,12 @@ Attributen van objecttype ComponentSoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| regelingcode | AN50 |  |
-| regeling | AN100 |  |
-| kolom | AN50 |  |
-| kolomcode | AN50 |  |
-| componentcode | AN50 |  |
-| omschrijving | text |  |
+| componentcode | CharacterString |  |
+| kolom | CharacterString |  |
+| kolomcode | CharacterString |  |
+| omschrijving | CharacterString |  |
+| regeling | CharacterString |  |
+| regelingcode | CharacterString |  |
 
 
 
@@ -137,9 +137,9 @@ Attributen van objecttype ComponentSoort
     | uri |  |
     | bron |  |
     | author | arjen |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2025-04-23 16:21:20 |
-    | modified | 2025-04-23 16:21:56 |
+    | modified | 2025-08-06 14:19:41 |
     | id | EAID_8D999BE8_96AB_8418_B94F_289754CE1336 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -156,8 +156,8 @@ Attributen van objecttype Huisvestingsoort
 | :--- | :--- | :--- |
 | begindatumGeldigheid | Date |  |
 | einddatumGeldigheid | Date |  |
-| omschrijving | Text |  |
-| soorthuisvestingCode | AN4 |  |
+| omschrijving | CharacterString |  |
+| soorthuisvestingCode | CharacterString |  |
 
 
 
@@ -175,9 +175,9 @@ Attributen van objecttype Huisvestingsoort
     | uri |  |
     | bron |  |
     | author | crossover |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2018-04-23 11:53:14 |
-    | modified | 2025-04-23 16:14:30 |
+    | modified | 2025-08-06 14:19:41 |
     | id | EAID_07784236_3AA6_45e5_8253_7D088C4020B0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -192,22 +192,22 @@ Attributen van objecttype Inkomensvoorziening
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| ingangsdatum | date |  |
-| einddatum | date |  |
-| toekenningsdatum | date |  |
-| bedrag | bedrag |  |
-| eenmalig | boolean |  |
-| groep | AN100 |  |
 | administratieveEinddatum | Date |  |
 | administratieveStartdatum | Date |  |
-| betalingsmomentcode | AN4 |  |
-| code | AN4 |  |
+| bedrag | Bedrag |  |
+| betalingsmomentcode | CharacterString |  |
+| code | CharacterString |  |
 | datumToekenning | Date |  |
+| eenmalig | Boolean |  |
+| einddatum | Date |  |
+| groep | CharacterString |  |
 | indicatieBlokkering | Boolean |  |
 | indicatieStudietoeslag | Boolean |  |
 | indicatieUitkeringSplitsen | Boolean |  |
 | indicatieUitkeringsspecificatie | Boolean |  |
-| versterkkingsvorm | AN200 |  |
+| ingangsdatum | Date |  |
+| toekenningsdatum | Date |  |
+| versterkkingsvorm | CharacterString |  |
 | verwerktTotEnMetDatum | Date |  |
 
 
@@ -226,9 +226,9 @@ Attributen van objecttype Inkomensvoorziening
     | uri |  |
     | bron |  |
     | author | crossover |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2018-04-23 11:53:23 |
-    | modified | 2025-03-27 14:01:56 |
+    | modified | 2025-08-06 14:19:41 |
     | id | EAID_AF18E7D3_279D_4323_B785_6C75B4701430 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -243,14 +243,14 @@ Attributen van objecttype Inkomensvoorzieningsoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN80 |  |
-| omschrijving | text |  |
+| code | CharacterString |  |
+| naam | CharacterString |  |
+| omschrijving | CharacterString |  |
+| regeling | CharacterString |  |
+| regelingscode | CharacterString |  |
+| vergoeding | CharacterString |  |
+| vergoedingscode | CharacterString |  |
 | wet | Enumeratie: "Wet" |  |
-| vergoeding | AN200 |  |
-| vergoedingscode | AN20 |  |
-| regeling | AN200 |  |
-| regelingscode | AN20 |  |
-| code | AN20 |  |
 
 
 
@@ -268,9 +268,9 @@ Attributen van objecttype Inkomensvoorzieningsoort
     | uri |  |
     | bron |  |
     | author | arjen |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2025-04-23 16:14:37 |
-    | modified | 2025-04-23 16:16:23 |
+    | modified | 2025-08-06 14:19:41 |
     | id | EAID_88B0A7AB_53E6_4bc1_8D99_9BE896AB8418 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -287,8 +287,8 @@ Attributen van objecttype RedenBlokkering
 | :--- | :--- | :--- |
 | begindatumGeldigheid | Date |  |
 | einddatumGeldigheid | Date |  |
-| omschrijving | Text |  |
-| redenBlokkeringCode | AN4 |  |
+| omschrijving | CharacterString |  |
+| redenBlokkeringCode | CharacterString |  |
 
 
 
@@ -306,9 +306,9 @@ Attributen van objecttype RedenBlokkering
     | uri |  |
     | bron |  |
     | author | arjen |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2025-04-23 16:16:48 |
-    | modified | 2025-05-01 09:26:14 |
+    | modified | 2025-08-06 14:19:41 |
     | id | EAID_8D999BE8_96AB_8418_99A2_CB86335AFB97 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -324,11 +324,11 @@ Attributen van objecttype RedenInstroom
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | begindatumGeldigheid | Date |  |
+| CBS-code | CharacterString |  |
+| CBS-omschrijving | CharacterString |  |
 | einddatumGeldigheid | Date |  |
-| omschrijving | Text |  |
-| redenInstroomCode | AN4 |  |
-| CBS-code | AN4 |  |
-| CBS-omschrijving | text |  |
+| omschrijving | CharacterString |  |
+| redenInstroomCode | CharacterString |  |
 
 
 
@@ -346,9 +346,9 @@ Attributen van objecttype RedenInstroom
     | uri |  |
     | bron |  |
     | author | arjen |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2025-04-23 16:18:22 |
-    | modified | 2025-05-01 09:26:34 |
+    | modified | 2025-08-06 14:19:41 |
     | id | EAID_99A2CB86_335A_FB97_9C8F_47170B1699EC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -364,11 +364,11 @@ Attributen van objecttype RedenUitstroom
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | begindatumGeldigheid | Date |  |
+| CBS-code | CharacterString |  |
+| CBS-omschrijving | CharacterString |  |
 | einddatumGeldigheid | Date |  |
-| omschrijving | Text |  |
-| redenUitstroomCode | AN4 |  |
-| CBS-code | AN4 |  |
-| CBS-omschrijving | text |  |
+| omschrijving | CharacterString |  |
+| redenUitstroomCode | CharacterString |  |
 
 
 
@@ -386,9 +386,9 @@ Attributen van objecttype RedenUitstroom
     | uri |  |
     | bron | [https://www.begrippenxl.nl/dso/nl/page/Regeling](https://www.begrippenxl.nl/dso/nl/page/Regeling) |
     | author | crossover |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2018-04-23 11:56:16 |
-    | modified | 2025-03-27 14:09:02 |
+    | modified | 2025-08-06 14:19:41 |
     | id | EAID_C25455F3_FEB0_4c6d_9AA4_3B027718BEE3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -403,10 +403,10 @@ Attributen van objecttype Regeling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| startdatum | date |  |
-| einddatum | date |  |
-| toekenningsdatum | date |  |
-| omschrijving | text |  |
+| einddatum | Date |  |
+| omschrijving | CharacterString |  |
+| startdatum | Date |  |
+| toekenningsdatum | Date |  |
 
 
 
@@ -424,9 +424,9 @@ Attributen van objecttype Regeling
     | uri |  |
     | bron |  |
     | author | crossover |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2018-04-23 11:56:27 |
-    | modified | 2025-03-27 14:02:17 |
+    | modified | 2025-08-06 14:19:41 |
     | id | EAID_14D3C960_5EF2_433c_8E1C_B493974280E2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -441,8 +441,8 @@ Attributen van objecttype Regelingsoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | AN80 |  |
-| omschrijving | text |  |
+| naam | CharacterString |  |
+| omschrijving | CharacterString |  |
 
 
 
@@ -460,9 +460,9 @@ Attributen van objecttype Regelingsoort
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2022-06-08 14:20:23 |
-    | modified | 2025-03-27 14:01:43 |
+    | modified | 2025-08-06 14:19:41 |
     | id | EAID_F787184D_3AA8_4132_96C4_23A363C3C1B7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -478,9 +478,9 @@ Attributen van objecttype UitkeringsRun
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datumRun | Date |  |
-| periodeRun | AN20 |  |
-| soortRun | AN50 |  |
-| frequentie | AN20 |  |
+| frequentie | CharacterString |  |
+| periodeRun | CharacterString |  |
+| soortRun | CharacterString |  |
 
 
 
@@ -520,7 +520,7 @@ De enumeratie Wet heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:12:49 |
     | modified | 2025-03-26 16:14:37 |
-    | id | EAID_68e226ec_6447_4293_bbba_6a7f0c3d7ee7 |
+    | id | EAID_7291e475_08f2_46f8_b3f2_35eae412f604 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

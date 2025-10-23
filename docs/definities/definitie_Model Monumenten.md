@@ -63,9 +63,9 @@ Attributen van objecttype Ambacht
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| jaarAmbachtVanaf | int |  |
-| jaarAmbachtTot | int |  |
 | ambachtsoort | AN300 |  |
+| jaarAmbachtTot | int |  |
+| jaarAmbachtVanaf | int |  |
 
 
 
@@ -100,16 +100,16 @@ Attributen van objecttype Beschermde Status
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| rijksmonumentcode | AN80 |  |
-| gemeentelijkMonumentCode | AN80 |  |
-| datumInschrijvingRegister | Date |  |
-| naam | AN200 |  |
-| type | Enumeratie: "TypeMonument" |  |
-| gezichtscode | AN20 |  |
-| complex | AN200 |  |
-| opmerkingen | text |  |
 | bronnen | AN400 |  |
+| complex | AN200 |  |
+| datumInschrijvingRegister | Date |  |
+| gemeentelijkMonumentCode | AN80 |  |
+| gezichtscode | AN20 |  |
+| naam | AN200 |  |
 | omschrijving | Text |  |
+| opmerkingen | text |  |
+| rijksmonumentcode | AN80 |  |
+| type | Enumeratie: "TypeMonument" |  |
 
 
 
@@ -144,10 +144,10 @@ Attributen van objecttype Bouwactiviteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bouwjaarVan | int |  |
-| bouwjaarTot | int |  |
-| indicatie | AN8 |  |
 | bouwjaarklasse | AN80 |  |
+| bouwjaarTot | int |  |
+| bouwjaarVan | int |  |
+| indicatie | AN8 |  |
 | omschrijving | AN300 |  |
 
 
@@ -185,8 +185,8 @@ Attributen van objecttype Bouwstijl
 | :--- | :--- | :--- |
 | hoofdstijl | AN200 |  |
 | substijl | AN200 |  |
-| zuiverheid | AN200 |  |
 | toelichting | text |  |
+| zuiverheid | AN200 |  |
 
 
 
@@ -258,13 +258,13 @@ Attributen van objecttype OorspronkelijkeFunctie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| hoofdfunctie | Boolean |  |
+| functie | AN200 |  |
 | functiesoort | An200 |  |
 | hoofdcategorie | AN200 |  |
+| hoofdfunctie | Boolean |  |
 | subcategorie | AN200 |  |
-| functie | AN200 |  |
-| verbijzondering | AN200 |  |
 | toelichting | Text |  |
+| verbijzondering | AN200 |  |
 
 
 

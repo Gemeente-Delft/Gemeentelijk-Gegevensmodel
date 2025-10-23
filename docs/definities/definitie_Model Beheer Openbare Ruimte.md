@@ -255,8 +255,8 @@ Attributen van objecttype Geo-Object
 | :--- | :--- | :--- |
 | datumBeginGeldigheid | datum |  |
 | datumEindeGeldigheid | datum |  |
-| identificatie | NEN3610ID |  |
 | geometrieSoort | AN40 |  |
+| identificatie | NEN3610ID |  |
 
 
 
@@ -495,17 +495,17 @@ Attributen van objecttype Melding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumMelding | dateTime |  |
-| status | AN40 |  |
+| advies | Text |  |
 | categorie | AN80 |  |
 | constatering | Text |  |
-| opmerkingen | Text |  |
-| advies | Text |  |
 | datumAdvies | DateTime |  |
-| uitgevoerd | boolean |  |
+| datumMelding | dateTime |  |
 | datumUitvoering | DateTime |  |
 | foto | Image |  |
 | locatie | Locatie |  |
+| opmerkingen | Text |  |
+| status | AN40 |  |
+| uitgevoerd | boolean |  |
 
 
 
@@ -574,16 +574,16 @@ Attributen van objecttype MOOR-melding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumAanmelding | DateTime |  |
-| wegbeheerder | AN80 |  |
 | adresaanduiding |  |  |
-| starttijd | DateTime |  |
-| eindtijd | DateTime |  |
+| datumAanmelding | DateTime |  |
 | datumGoedkeuring | DateTime |  |
-| publiceren | boolean |  |
+| eindtijd | DateTime |  |
 | goedgekeurd | boolean |  |
 | herstelwerkzaamhedenVereist | boolean |  |
 | omschrijvingHerstelwerkzaamheden | text |  |
+| publiceren | boolean |  |
+| starttijd | DateTime |  |
+| wegbeheerder | AN80 |  |
 
 
 
