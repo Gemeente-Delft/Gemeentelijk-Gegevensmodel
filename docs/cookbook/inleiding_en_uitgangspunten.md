@@ -1,8 +1,8 @@
-# Doorontwikkeling: inleiding en uitgangspunten
+# GGM Cookbook: inleiding en uitgangspunten
 
 Het Gemeentelijk Gegevensmodel (GGM) wordt steeds beter gemaakt en aangepast aan nieuwe behoeften en inzichten. Aanpassingen en uitbreidingen zijn essentieel om te passen bij de behoefte van de gebruikers, en ook om aan te sluiten bij steeds vernieuwend beleid en wetgeving en veranderende standaarden. 
 
-Om te zorgen voor een kwalitatief hoogwaardig en beheersbaar model hanteren we enkele uitgangspunten. Deze uitgangspunten zijn vertaald in [toegepaste patronen](patronen.md), [toegepaste modelelementen](modelelementen.md) en afgeleide ontwerpregels. In de volgende onderdelen worden deze stap voor stap geïntroduceerd.
+Om te zorgen voor een kwalitatief hoogwaardig en beheersbaar model hanteren we uitgangspunten, die zijn verwoord in het **GGM Cookbook**. Deze uitgangspunten zijn vertaald in [toegepaste patronen](patronen.md), [toegepaste modelelementen](modelelementen.md) en afgeleide ontwerpregels. In de volgende onderdelen worden deze stap voor stap geïntroduceerd.
 
 ## Uitgangspunten kwaliteit
 
