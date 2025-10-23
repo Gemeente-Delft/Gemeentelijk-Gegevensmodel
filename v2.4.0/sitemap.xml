@@ -41,6 +41,31 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://www.gemeentelijkgegevensmodel.nl/latest/cookbook/inleiding_en_uitgangspunten/</loc>
+         <lastmod>2025-10-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.gemeentelijkgegevensmodel.nl/latest/cookbook/modelelementen/</loc>
+         <lastmod>2025-10-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.gemeentelijkgegevensmodel.nl/latest/cookbook/patronen/</loc>
+         <lastmod>2025-10-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.gemeentelijkgegevensmodel.nl/latest/cookbook/totstandkoming/</loc>
+         <lastmod>2025-10-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.gemeentelijkgegevensmodel.nl/latest/cookbook/uitbreiden/</loc>
+         <lastmod>2025-10-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://www.gemeentelijkgegevensmodel.nl/latest/definities/definitie_Diagram/</loc>
          <lastmod>2025-10-23</lastmod>
          <changefreq>daily</changefreq>
@@ -527,31 +552,6 @@
     </url>
     <url>
          <loc>https://www.gemeentelijkgegevensmodel.nl/latest/domeinen/wmojeugd/</loc>
-         <lastmod>2025-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.gemeentelijkgegevensmodel.nl/latest/doorontwikkeling/inleiding_en_uitgangspunten/</loc>
-         <lastmod>2025-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.gemeentelijkgegevensmodel.nl/latest/doorontwikkeling/modelelementen/</loc>
-         <lastmod>2025-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.gemeentelijkgegevensmodel.nl/latest/doorontwikkeling/patronen/</loc>
-         <lastmod>2025-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.gemeentelijkgegevensmodel.nl/latest/doorontwikkeling/totstandkoming/</loc>
-         <lastmod>2025-10-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.gemeentelijkgegevensmodel.nl/latest/doorontwikkeling/uitbreiden/</loc>
          <lastmod>2025-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
