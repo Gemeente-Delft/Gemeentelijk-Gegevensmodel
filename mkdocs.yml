@@ -19,128 +19,147 @@ extra:
 
 nav:
  - Home: index.md
- - Installatie: installatie.md
- - Startersgids:
-    - 'Inleiding': startersgids/Startdocument.md
-    - 'Vooraf':
-        - 'Waarom het GGM?': 'startersgids/Waarom-het-GGM.md'
-        - 'IV3': 'startersgids/vooraf/IV3.md'
-        - 'IV3 op het DGW-portaal': 'startersgids/vooraf_portaal/IV3-op-portaal-DGW.md'
-    - 'Start': 'startersgids/start/Mapping-zelf-maken-of-niet.md'
-    - 'Eerste Gebruik': startersgids/GGM-Stap-voor-stap-bron-naar-dashboard.md
-    - 'Daarna Verder': startersgids/Wat-als-het-niet-past.md
-    - 'Startersgids Miniconferentie': startersgids/GGM-Startersgids-Totale-Presentatie.md
- - Beschrijving Domeinen:
-    - 'Inleiding': domeinen/inleiding.md
-    - 'Bestuur, Politiek en Ondersteuning':
-        - 'Burgerzaken': domeinen/burgerzaken.md
-        - 'Griffie': domeinen/griffie.md
-    - 'Veiligheid en Vergunningen': domeinen/vth.md
-    - 'Verkeer, Vervoer en waterstaat':
-        - 'Parkeren': domeinen/parkeren.md
-        - 'Mobiliteit': domeinen/mobiliteit.md
-    - 'Economie': domeinen/economie.md
-    - 'Onderwijs': 
-        - 'Leerplicht en leerlingenvervoer': domeinen/leerplicht.md
-        - 'Onderwijs': domeinen/onderwijs.md
-    - 'Sport, Cultuur en Recreatie':
-        - 'Erfgoed':
-            - 'Archeologie': domeinen/archeologie.md
-            - 'Monumenten': domeinen/monumenten.md
-            - 'Archief': domeinen/archief.md
-            - 'Generieke objecttypen Erfgoed': domeinen/erfgoedgeneriek.md
-        - 'Musea': domeinen/musea.md
-        - 'Sport': domeinen/sport.md
-    - 'Sociaal domein':
-        - 'Werk': domeinen/werk.md
-        - 'Inkomen': domeinen/inkomen.md
-        - 'Wmo en Jeugd': domeinen/wmojeugd.md
-        - 'Inburgering': domeinen/inburgering.md
-        - 'Schulden':
-            - 'Schuldhulverlening': domeinen/schuldhulp.md
-            - 'Vroegsignalering': domeinen/vroegsignalering.md
-        - 'Sociale Teams': domeinen/socteam.md
-        - 'Gemeentebegraven': domeinen/gemeentebegraven.md
-        - 'Dak- en thuislozen': domeinen/dakloos.md
-        - 'Generieke definities Sociaal Domein': domeinen/socdomeingeneriek.md
-    - 'Volksgezondheid en milieu':
-        - 'Afval': domeinen/afval.md
-    - 'Volkshuisvesting, leefomgeving en stedelijke vernieuwing':
-        - 'Openbare ruimte': domeinen/ruimteAlgemeen.md
-        - 'Bouwen en wonen': domeinen/bouwenenwonen.md
-        - 'Omgevingswet': domeinen/omgevingswet.md
-    - 'Interne organisatie':
-        - 'ICT': domeinen/ict.md
-        - 'Subsidies': domeinen/subsidies.md
-        - 'Gemeentelijk Vastgoed': domeinen/vastgoed.md
-        - 'Financiën': domeinen/financien.md
-        - 'HR': domeinen/hr.md
-        - 'Inkoop': domeinen/inkoop.md
-    - 'Dienstverlening': domeinen/dienstverlening.md
-    - 'Kern':
-        - 'BAG': domeinen/bag.md
-        - 'RSGB': domeinen/rsgb.md
-        - 'RGBZ': domeinen/rgbz.md
- - Definitie Domeinen:
-    - 'Bestuur, Politiek en Ondersteuning':
-        - 'Griffie': definities/definitie_Model Griffie.md
-    - 'Veiligheid en Vergunningen': definities/definitie_Model VTH.md
-    - 'Verkeer, Vervoer en waterstaat':
-        - 'Parkeren': definities/definitie_Model Parkeren.md
-        - 'Verkeer': definities/definitie_Model Mobiliteit.md
-    - 'Economie': definities/definitie_Model Economie.md
-    - 'Onderwijs': 
-        - 'Leerplicht en leerlingenvervoer': definities/definitie_Model Leerplicht en Leerlingenvervoer.md
-        - 'Onderwijs': definities/definitie_Model Onderwijs.md
-    - 'Sport, Cultuur en Recreatie':
-        - 'Erfgoed':
-            - 'Erfgoed Generiek': definities/definitie_Model Erfgoed Generiek.md
-            - 'Archeologie': definities/definitie_Model Archeologie.md
-            - 'Archief': definities/definitie_Model Archief.md
-            - 'Monumenten': definities/definitie_Model Monumenten.md
-        - 'Musea': definities/definitie_Model Musea.md
-        - 'Sport': definities/definitie_Model Sport.md
-    - 'Sociaal domein':
-        - 'Werk': definities/definitie_Model Werk.md
-        - 'Inkomen': 
-            - 'Inkomen Basis': definities/definitie_Model Inkomen.md
-            - 'Inkomen: Reden aanvraag (GBI)': definities/definitie_Reden aanvraag.md
-            - 'Inkomen: Terug- en invordering (GBI)': definities/definitie_Model Terug- en invordering.md
-            - 'Inkomen: Normafwijking (GBI)': definities/definitie_Model Normafwijking.md
-            - 'Inkomen: Dienstenmodel (GBI)': definities/definitie_Model Diensten.md
-        - 'Wmo en Jeugd': definities/definitie_Model Jeugd en Wmo Generiek.md
-        - 'Inburgering': definities/definitie_Model Inburgering.md
-        - 'Schulden': 
-            - 'Schuldhulverlening': definities/definitie_Model Schuldhulpverlening.md
-            - 'Vroegsignalering': definities/definitie_Model Vroegsignalering.md
-        - 'Sociale Teams': definities/definitie_Model Sociale Teams.md
-        - 'Jeugdbescherming': definities/definitie_Model Jeugdbescherming.md
-        - 'Gemeentebegrafenissen': definities/definitie_Model Gemeentebegrafenissen.md
-        - 'Dak- en thuislozen': definities/definitie_Model Dak- en thuislozen.md
-        - 'Sociaal Domein Generiek': 
-            - 'Generieke definities Sociaal Domein': definities/definitie_Model Sociaal Domein Generiek.md
-            - 'Generiek: Profiel inkomsten': definities/definitie_Model Inkomsten.md
-            - 'Generiek: Profiel vermogen': definities/definitie_Model Vermogen.md
-    - 'Volkshuisvesting, leefomgeving en stedelijke vernieuwing':
-        - 'Openbare ruimte': definities/definitie_Model Beheer Openbare Ruimte.md
-        - 'Bouwen en Wonen': definities/definitie_Model Wonen.md
-        - 'Omgevingswet': definities/definitie_Model Omgevingswet.md
-    - 'Interne organisatie':
-        - 'Organisatie': definities/definitie_Model Organisatie.md
-        - 'ICT': definities/definitie_Model ICT.md
-        - 'Subsidies': definities/definitie_Model Subsidies.md
-        - 'Gemeentelijk Vastgoed': definities/definitie_Model Vastgoed.md
-        - 'HR': definities/definitie_Model HR.md
-        - 'Inkoop': definities/definitie_Model Inkoop.md
-        - 'Financiën': definities/definitie_Model Financien.md
-    - 'Dienstverlening': definities/definitie_Model Dienstverlening.md
-    - 'Kern':
-        - 'RSGB': definities/definitie_Model Kern RSGB.md
-        - 'RGBZ': definities/definitie_Model Kern RGBZ.md
-        - 'BAG': definities/definitie_Model BAG.md
-        - 'Generieke definities Kern': definities/definitie_Model Generiek.md
- # - Gebruik: gebruik.md
- - Databaseschema's: generatie.md
+ - Praktische informatie: 
+    - 'Installatie': installatie.md
+    - 'Licentie': https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE
+    - 'Samenwerking aan GGM': samenwerking-GGM.md
+    - 'Documentatie aanpassen': documentatie.md
+    - 'Backup maken': backup.md
+    - 'Tooling voor manipulatie repository': tools.md
+ - 'Achtergrond informatie':
+        - 'IV3': achtergrond-informatie/IV3.md
+        - 'Beheerplan GGM': achtergrond-informatie/beheerplan-GGM.md
+        - 'Totstandkoming GGM': achtergrond-informatie/Totstandkoming-GGM.md
+ - Startersgids Gemeenten: 
+    - 'Introductie Startersgids': startersgids/Startdocument.md
+    - 'Introductie GGM': startersgids/Waarom-het-GGM.md
+    - 'Stappenplan': startersgids/GGM-Stappenplan-Algemeen.md
+    - 'Mappings': startersgids/Mappings.md
+    - 'Uitdagingen': startersgids/GGM-uitdagingen.md
+    - 'Voorbeelden':
+        - 'Meierijstad: IV3 op het DGW-portaal': startersgids/voorbeelden/IV3-op-portaal-DGW.md
+        - 'Delft: Aantal uitkeringen tellen mbv GGM': startersgids/GGM-Stap-voor-stap-bron-naar-dashboard.md
+        - 'Land van Cuijk: Praktische implementatie GGM': startersgids/voorbeelden/GGM-Land-van-Cuijk.md
+        - 'Startersgids Miniconferentie': startersgids/GGM-Startersgids-Totale-Presentatie.md
+    - 'FAQ': startersgids/FAQ-gemeenten.md
+ - Leveranciers Toolkit:
+    - 'Introductie Toolkit': leverancier-toolkit/Introductie-leveranciertoolkit.md
+    - 'Introductie GGM voor Leveranciers': leverancier-toolkit/Introductie-GGM-leverancier.md
+    - 'Stappenplan voor leveranciers': leverancier-toolkit/GGM-Stappenplan-Leverancier.md
+    - 'GGM Toegepast':
+        - 'Centric': leverancier-toolkit/Centric.md    
+        - 'PinkRoccade': leverancier-toolkit/PinkRoccade.md  
+ - Documentatie GGM:
+    - 'Beschrijving Domeinen':
+        - 'Inleiding': domeinen/inleiding.md
+        - 'Bestuur, Politiek en Ondersteuning':
+            - 'Burgerzaken': domeinen/burgerzaken.md
+            - 'Griffie': domeinen/griffie.md
+        - 'Veiligheid en Vergunningen': domeinen/vth.md
+        - 'Verkeer, Vervoer en waterstaat':
+            - 'Parkeren': domeinen/parkeren.md
+            - 'Mobiliteit': domeinen/mobiliteit.md
+        - 'Economie': domeinen/economie.md
+        - 'Onderwijs': 
+            - 'Leerplicht en leerlingenvervoer': domeinen/leerplicht.md
+            - 'Onderwijs': domeinen/onderwijs.md
+        - 'Sport, Cultuur en Recreatie':
+            - 'Erfgoed':
+                - 'Archeologie': domeinen/archeologie.md
+                - 'Monumenten': domeinen/monumenten.md
+                - 'Archief': domeinen/archief.md
+                - 'Generieke objecttypen Erfgoed': domeinen/erfgoedgeneriek.md
+            - 'Musea': domeinen/musea.md
+            - 'Sport': domeinen/sport.md
+        - 'Sociaal domein':
+            - 'Werk': domeinen/werk.md
+            - 'Inkomen': domeinen/inkomen.md
+            - 'Wmo en Jeugd': domeinen/wmojeugd.md
+            - 'Inburgering': domeinen/inburgering.md
+            - 'Schulden':
+                - 'Schuldhulverlening': domeinen/schuldhulp.md
+                - 'Vroegsignalering': domeinen/vroegsignalering.md
+            - 'Sociale Teams': domeinen/socteam.md
+            - 'Gemeentebegraven': domeinen/gemeentebegraven.md
+            - 'Dak- en thuislozen': domeinen/dakloos.md
+            - 'Generieke definities Sociaal Domein': domeinen/socdomeingeneriek.md
+        - 'Volksgezondheid en milieu':
+            - 'Afval': domeinen/afval.md
+        - 'Volkshuisvesting, leefomgeving en stedelijke vernieuwing':
+            - 'Openbare ruimte': domeinen/ruimteAlgemeen.md
+            - 'Bouwen en wonen': domeinen/bouwenenwonen.md
+            - 'Omgevingswet': domeinen/omgevingswet.md
+        - 'Interne organisatie':
+            - 'ICT': domeinen/ict.md
+            - 'Subsidies': domeinen/subsidies.md
+            - 'Gemeentelijk Vastgoed': domeinen/vastgoed.md
+            - 'Financiën': domeinen/financien.md
+            - 'HR': domeinen/hr.md
+            - 'Inkoop': domeinen/inkoop.md
+        - 'Dienstverlening': domeinen/dienstverlening.md
+        - 'Kern':
+            - 'BAG': domeinen/bag.md
+            - 'RSGB': domeinen/rsgb.md
+            - 'RGBZ': domeinen/rgbz.md
+    - Definitie Domeinen:
+        - 'Bestuur, Politiek en Ondersteuning':
+            - 'Griffie': definities/definitie_Model Griffie.md
+        - 'Veiligheid en Vergunningen': definities/definitie_Model VTH.md
+        - 'Verkeer, Vervoer en waterstaat':
+            - 'Parkeren': definities/definitie_Model Parkeren.md
+            - 'Verkeer': definities/definitie_Model Mobiliteit.md
+        - 'Economie': definities/definitie_Model Economie.md
+        - 'Onderwijs': 
+            - 'Leerplicht en leerlingenvervoer': definities/definitie_Model Leerplicht en Leerlingenvervoer.md
+            - 'Onderwijs': definities/definitie_Model Onderwijs.md
+        - 'Sport, Cultuur en Recreatie':
+            - 'Erfgoed':
+                - 'Erfgoed Generiek': definities/definitie_Model Erfgoed Generiek.md
+                - 'Archeologie': definities/definitie_Model Archeologie.md
+                - 'Archief': definities/definitie_Model Archief.md
+                - 'Monumenten': definities/definitie_Model Monumenten.md
+            - 'Musea': definities/definitie_Model Musea.md
+            - 'Sport': definities/definitie_Model Sport.md
+        - 'Sociaal domein':
+            - 'Werk': definities/definitie_Model Werk.md
+            - 'Inkomen': 
+                - 'Inkomen Basis': definities/definitie_Model Inkomen.md
+                - 'Inkomen: Reden aanvraag (GBI)': definities/definitie_Reden aanvraag.md
+                - 'Inkomen: Terug- en invordering (GBI)': definities/definitie_Model Terug- en invordering.md
+                - 'Inkomen: Normafwijking (GBI)': definities/definitie_Model Normafwijking.md
+                - 'Inkomen: Dienstenmodel (GBI)': definities/definitie_Model Diensten.md
+            - 'Wmo en Jeugd': definities/definitie_Model Jeugd en Wmo Generiek.md
+            - 'Inburgering': definities/definitie_Model Inburgering.md
+            - 'Schulden': 
+                - 'Schuldhulverlening': definities/definitie_Model Schuldhulpverlening.md
+                - 'Vroegsignalering': definities/definitie_Model Vroegsignalering.md
+            - 'Sociale Teams': definities/definitie_Model Sociale Teams.md
+            - 'Jeugdbescherming': definities/definitie_Model Jeugdbescherming.md
+            - 'Gemeentebegrafenissen': definities/definitie_Model Gemeentebegrafenissen.md
+            - 'Dak- en thuislozen': definities/definitie_Model Dak- en thuislozen.md
+            - 'Sociaal Domein Generiek': 
+                - 'Generieke definities Sociaal Domein': definities/definitie_Model Sociaal Domein Generiek.md
+                - 'Generiek: Profiel inkomsten': definities/definitie_Model Inkomsten.md
+                - 'Generiek: Profiel vermogen': definities/definitie_Model Vermogen.md
+        - 'Volkshuisvesting, leefomgeving en stedelijke vernieuwing':
+            - 'Openbare ruimte': definities/definitie_Model Beheer Openbare Ruimte.md
+            - 'Bouwen en Wonen': definities/definitie_Model Wonen.md
+            - 'Omgevingswet': definities/definitie_Model Omgevingswet.md
+        - 'Interne organisatie':
+            - 'Organisatie': definities/definitie_Model Organisatie.md
+            - 'ICT': definities/definitie_Model ICT.md
+            - 'Subsidies': definities/definitie_Model Subsidies.md
+            - 'Gemeentelijk Vastgoed': definities/definitie_Model Vastgoed.md
+            - 'HR': definities/definitie_Model HR.md
+            - 'Inkoop': definities/definitie_Model Inkoop.md
+            - 'Financiën': definities/definitie_Model Financien.md
+        - 'Dienstverlening': definities/definitie_Model Dienstverlening.md
+        - 'Kern':
+            - 'RSGB': definities/definitie_Model Kern RSGB.md
+            - 'RGBZ': definities/definitie_Model Kern RGBZ.md
+            - 'BAG': definities/definitie_Model BAG.md
+            - 'Generieke definities Kern': definities/definitie_Model Generiek.md
+    - Databaseschema's: generatie.md
  - GGM Cookbook:
     - Inleiding en uitgangspunten: cookbook/inleiding_en_uitgangspunten.md
     - Toegepaste patronen: cookbook/patronen.md
@@ -149,12 +168,7 @@ nav:
     - Aanpak informatieanalyse:
         - 'Uitleg Werkwijze': cookbook/totstandkoming.md
         - 'Voorbeeld: Gemeentelijke Monumenten': monumenten.md
- - Overige:
-    - Over het GGM: about.md
-    - Licentie: https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE
-    - Documentatie aanpassen: documentatie.md
-    - Backup maken: backup.md
-    - Tooling voor manipulatie repository: tools.md
+    
 
 
 markdown_extensions:
