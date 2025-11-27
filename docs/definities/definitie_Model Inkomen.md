@@ -520,7 +520,7 @@ De enumeratie Wet heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:12:49 |
     | modified | 2025-03-26 16:14:37 |
-    | id | EAID_7bf4455c_af59_426f_8d32_5403e3efdbee |
+    | id | EAID_66d38a51_3e26_4756_9c31_2cbf8080d64a |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

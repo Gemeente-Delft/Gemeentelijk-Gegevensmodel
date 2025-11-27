@@ -107,11 +107,31 @@ De volgende standaarden zijn gebruikt bij de totstandkoming van het GGM, en make
 * [MIM (Metamodel voor Informatiemodellen)](https://www.geonovum.nl/geo-standaarden/metamodel-informatiemodellering-mim). Deze is toegepast in de uitwerking van het ICT-deel. Het GGM is echter (nog) niet MIM-compliant.
 * [RiHA 2.0 (Gegevensmodel toezicht en handhaven)](https://samenwerken.pleio.nl/groups/view/8b832827-e91b-476c-bb4f-c228b8e5e934/standaardisatie-toezicht-handhaving-milieu/wiki/view/2b38214e-cfc7-42ff-9d5d-eaf069671c42/riha-referentieinformatiemodel-handhaving). Toegepast in de uitwerking van Vergunningverlening, toezicht en handhaving.
 
+## Totstandkoming Gemeentelijk Gegevensmodel
+
+Het GGM is ontworpen op aan de hand van interviews met domeinexperts, de in Delft gebruikte applicaties en op basis van landelijke informatiestandaarden. Dit om tot een gegevensmodel te komen dat goede verankering kent met de Delftse situatie. Aangezien alle Nederlandse gemeenten in principe dezelfde wettelijke taken hebben gaan we ervanuit dat de onderliggende informatiemodellen sterk op elkaar lijken.
+
+Uitgangspunt van de inventarisatie waren:
+
+1. De lijst met Delftse applicaties en de inventarisatie hiervan waarbij onderscheid is gemaakt tussen authentieke bronnen en overige applicaties
+2. De set beleidsdomeinen waar de gemeente haar taakgebied heeft
+3. Landelijk vastgestelde standaarden voor gegevensuitwisseling en landelijk vastgestelde informatiemodellen  
+
+De inventarisatie is op hoofdlijnen in de volgende stappen uitgevoerd (kijk voor een volledig overzicht [hier](./doorontwikkeling/totstandkoming.md)):
+
+1. Interviews met experts uit de verschillen de Beleidsdomeinen: per beleidsdomein is er m.b.v. gesprekken met experts van de informatievoorziening binnen de beleidsdomeinen een inventarisatie gemaakt van de gebruikte applicaties, de betrokken gebruikers, de interactie tussen de applicaties en de gebruikers, en welke gegevens daarbij gebruikt worden.
+2. Applicaties en gegevens: door in de gesprekken en uit de analyse de authentieke bronnen  van gegevens te identificeren, door in de gesprekken in te zoomen op de gebruikte gegevens en door de inventarisatie van de applicaties en gegevens te hanteren zijn de gegevens binnen de authentieke bronnen geïdentificeerd.
+3. Gegevensmodel: het gegevensmodel wordt opgebouwd door de in de vorige stap gevonden gegevens te vertalen naar objecttypen (gegevenssoorten). Landelijke standaarden dienen hier zoveel mogelijk als uitgangspunt. Veel van de gebruikte applicaties ondersteunen deze landelijke standaarden, waardoor compatibiliteit zo goed mogelijk wordt gegarandeerd.
+4. Databaseschema: er is generator gerealiseerd waarmee op basis van de definities in het gegevensmodel met ‘een druk op de knop’ databasetabellen gegenereerd kunnen worden. Hiermee is het mogelijk de basis te leggen voor een datawarehouse en is het mogelijk gegevens uit de applicaties te laden waardoor confrontatie van het model met de data mogelijk is.
+
+![Aanpak GGM 1][aanpakGGM]
+
 [importXMI]: image/ImportPackage.png "Import XMI via tabblad Publish"
 [selectFilename]: image/SelectFilename.png "Select Filename"
 [importPackage]: image/ImportPackage.png "Import Package"
 [openDiagram]: image/OpenDiagram.png "Open Diagram"
 [gelaagdheidDomeinen]: image/GelaagdheidDomeinen.jpg "Gelaagdheid Domeinen"
+[aanpakGGM]: image/AanpakGGM.jpg "Aanpak GGM"
 [importRefData]: image/ImportRefData.png "Import Referencedata"
 [kiesTemplates]: image/KiesTemplates.png "Kies templates"
 [gebruikTemplates]: image/GebruikTemplates.png "Gebruik templates"
