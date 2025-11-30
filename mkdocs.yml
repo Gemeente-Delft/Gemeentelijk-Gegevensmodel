@@ -3,10 +3,6 @@ site_description: Informatiemodel van alle gemeentelijke taakvelden
 site_url: https://www.gemeentelijkgegevensmodel.nl/
 repo_url: https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/
 
-google_analytics:
-  - G-2RLMHTLGRH
-  - auto
-
 theme:
     name: 'material'
     language: 'nl'
@@ -180,6 +176,9 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - scripts/ga4.js
 
 plugins:
   - mike:
