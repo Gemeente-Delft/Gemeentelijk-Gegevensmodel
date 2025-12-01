@@ -49,6 +49,11 @@ nav:
     - 'GGM Toegepast':
         - 'Centric': leverancier-toolkit/Centric.md    
         - 'PinkRoccade': leverancier-toolkit/PinkRoccade.md  
+        - 'Scamander': leverancier-toolkit/Scamander.md
+        - 'Ilionx': leverancier-toolkit/Ilionx.md
+        - 'Databricks': leverancier-toolkit/Databricks.md
+        - 'Solid5': leverancier-toolkit/Solid5.md
+        - 'Aurai': leverancier-toolkit/Aurai.md
  - Documentatie GGM:
     - 'Beschrijving Domeinen':
         - 'Inleiding': domeinen/inleiding.md

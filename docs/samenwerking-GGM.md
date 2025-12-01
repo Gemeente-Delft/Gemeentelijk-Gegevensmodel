@@ -56,6 +56,8 @@ Het co-creatieproces bestaat uit de volgende stappen:
 5. **Publicatie**  
    De definitieve mapping wordt opgenomen in de repository op github en beschikbaar gesteld voor gebruik door de community.
 
+![Co-creatie](image/cocreatie_zondertekst_cropped.png)
+
 ### Mappings plaatsen op GitHub
 
 Controleer eerst of er voor de desbetreffende applicatie en domein al een mapping bestaat. Als deze al bestaat, gebruik dit als uitgangspunt zodat er één mapping per applicatie en domein is. 

@@ -1,7 +1,5 @@
 # GGM Toegepast: Scamander, van bron tot beleid
 
-Het GGM wordt steeds breder toegepast, alle partijen die hieraan bijdragen kunnen hier aan het woord komen; en vandaag is dat Scamander.
-
 Gemeenten willen steeds beter sturen op betrouwbare, actuele data. Maar wie datagedreven wil werken, loopt al snel tegen versnippering, handwerk en interpretatieverschillen aan. Hoe zorgt u voor consistente, herleidbare en bruikbare informatie – zonder langdurige trajecten?   
 
 **Waarom datagedreven werken begint bij integratie én standaardisatie** 
