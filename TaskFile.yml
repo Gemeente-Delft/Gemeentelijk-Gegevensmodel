@@ -25,7 +25,7 @@
 # Last Updated: 27 januari 2024
 version: '3'
 
-dotenv: ['.env']
+dotenv: ['.env', '.env-secret']
 
 vars:
   VERSION_DIR: "./{{.VERSION}}"
@@ -240,7 +240,7 @@ tasks:
     deps: [deploy-docs]
     cmds:
       - echo 'Deploying to test location...'
-      - lftp -e "set ssl:verify-certificate no; cd {{.FTP_REMOTE_DIR}}; mirror -R --delete --verbose ./{{.FTP_LOCAL_DIR}} .; bye" {{.FTP_HOST}}
+      - rsync -avz --delete -e "ssh" ./{{.FTP_LOCAL_DIR}}/ {{.FTP_USER}}:{{.FTP_REMOTE_DIR}}
     shell: bash  
 
   full-deploy:

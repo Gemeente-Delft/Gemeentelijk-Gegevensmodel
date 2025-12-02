@@ -1583,7 +1583,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_231b8b8c_461f_4af9_985e_5962acd643bb |
+    | id | EAID_50a5ce03_da11_4621_a477_89b6c544aa4f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1619,7 +1619,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_8cde815d_6c66_41fe_9f0f_081691c5d853 |
+    | id | EAID_a71f0cf1_a29b_4680_8086_9c0ab6c729f8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1657,7 +1657,7 @@ De enumeratie CodeNiveauOpleiding heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2025-06-17 16:01:14 |
     | modified | 2025-07-22 15:17:21 |
-    | id | EAID_5d8f080e_24d1_4732_9bcf_6a5d8b127b1b |
+    | id | EAID_889e0947_84f1_4106_b6d8_e218b9b2f2f7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1696,7 +1696,7 @@ De enumeratie Doelgroep heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:12:49 |
     | modified | 2025-03-26 16:14:37 |
-    | id | EAID_42231dac_256b_445e_bf03_3dde5dae15c7 |
+    | id | EAID_209ed43d_3ae1_46c4_8f85_8e715e105a2f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
