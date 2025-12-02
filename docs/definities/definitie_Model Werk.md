@@ -21,39 +21,39 @@
 
 Het model 'Model Werk' kent de volgende objecttypen:
 
-* **Arbeidsmarktkwalificaties**: <font color="#0e0e0e">Een verzameling formele en informele kwalificaties, vaardigheden en eigenschappen die relevant zijn voor de inzetbaarheid van een persoon op de arbeidsmarkt.</font>
-* **Arbeidsperiode**: <font color="#0e0e0e">Een aaneengesloten periode waarin een persoon arbeid heeft verricht, met begin- en einddatum.</font>
-* **Arbeidsverhouding**: <font color="#0e0e0e">Een relatie waarin sprake is van afspraken tussen een werknemer en een werkgever over het verrichten van arbeid.</font>
-* **Arbeidsvermogen**: <font color="#0e0e0e">Een inschatting van wat iemand op basis van fysieke, mentale en sociale capaciteiten aan arbeid kan verrichten.</font>
-* **Bemiddelingsactiviteit**: <font color="#0e0e0e">Een activiteit in het kader van arbeidstoeleiding waarbij de gemeente of uitvoeringsinstantie gericht handelt om de persoon in contact te brengen met een werkgever of werkplek.</font>
-* **Bemiddelingsberoep**: <font color="#0e0e0e">Het beoogde beroep waarvoor een persoon wordt begeleid of bemiddeld in een traject.</font>
-* **Bemiddelingstraject**: <font color="#0e0e0e">Een traject waarin een persoon begeleid wordt naar passend werk, bijvoorbeeld door een gemeente of uitvoeringsinstantie.</font>
-* **BeschikbaarVoorArbeid**: <font color="#0e0e0e">Een indicatie of iemand op dit moment inzetbaar is voor arbeid, los van begeleiding of ondersteuning.</font>
-* **BeschikbaarVoorBemiddeling**: <font color="#0e0e0e">Een indicatie dat een persoon beschikbaar is voor bemiddeling richting arbeid, waarbij wordt gekeken naar inzetbaarheid, bereidheid en eventuele beperkingen.</font>
-* **Doelgroep**: <font color="#0e0e0e">Een specifieke groep personen met gedeelde kenmerken (zoals afstand tot de arbeidsmarkt) die in aanmerking komt voor bepaalde voorzieningen of aangepaste begeleiding.</font>
-* **Doelgroepenregister**: <font color="#0e0e0e">Een landelijk register waarin mensen met een afstand tot de arbeidsmarkt worden opgenomen, vaak ten behoeve van loonkostensubsidie of andere voorzieningen.</font>
-* **DoelReintegratievoorziening**: <font color="#0e0e0e">Het beoogde effect van een ingezette voorziening, bijvoorbeeld toeleiding naar werk, dagbesteding of maatschappelijke participatie.</font>
-* **Flexibliteit**: <font color="#0e0e0e">De mate waarin een persoon flexibel inzetbaar is qua werktijden, werkplek of werkzaamheden.</font>
-* **Loonkostensubsidie**: <font color="#0e0e0e">Een tegemoetkoming aan een werkgever voor het in dienst nemen van een werknemer met verminderde loonwaarde.</font>
-* **Mobiliteit**: <font color="#0e0e0e">De bereikbaarheid van werkplekken voor een persoon, afhankelijk van vervoermiddel, rijbewijs en fysieke mogelijkheden.</font>
-* **Ontheffing**: <font color="#0e0e0e">Een formele vrijstelling van verplichtingen rond arbeidsparticipatie, zoals beschikbaarheid of tegenprestatie, op basis van persoonlijke of juridische gronden.</font>
-* **Opleiding**: <font color="#0e0e0e">Een formeel of informeel leertraject dat een persoon heeft gevolgd met als doel het verwerven van kennis, vaardigheden of competenties.</font>
-* **Opleidingsnaam**: <font color="#0e0e0e">De naam waarmee een gevolgde opleiding aangeduid wordt. Dit kan een offici&#235;le (gecodeerde) of vrije tekst zijn.</font>
-* **OpleidingsnaamGecodeerd**: <Geen Definities>
-* **OpleidingsnaamOngecodeerd**: <Geen Definities>
-* **Opleidingsniveau**: <font color="#0e0e0e">Het abstractieniveau waarop de opleiding is ingeschaald, vaak gebaseerd op landelijke of Europese onderwijsclassificaties.</font>
-* **Reintegratievoorziening**: <font color="#0e0e0e">Een voorziening of dienst die wordt ingezet om de kansen van een persoon op arbeidsparticipatie te vergroten.</font>
-* **Rijbewijs /Certificaat**: <font color="#0e0e0e">Een door een bevoegde instantie afgegeven document dat aangeeft dat een persoon bevoegd is tot het besturen van bepaalde typen voertuigen.</font>
-* **Taalbeheersing**: <font color="#0e0e0e">Het Europese of Nederlandse taalniveau (zoals A1 t/m C2) waarop de taalvaardigheid van een persoon is ingeschaald.</font>
-* **TaalbeheersingNederlands**: <font color="#0e0e0e">De mate waarin een persoon de Nederlandse taal beheerst, inclusief mondelinge en schriftelijke vaardigheden.</font>
-* **Vaardigheidsvaststelling**: <font color="#0e0e0e">Het proces waarin specifieke vaardigheden van een persoon worden beoordeeld of gemeten, vaak ter ondersteuning van een werkprofiel of plaatsingsbeslissing.</font>
-* **Voorkeur**: <font color="#0e0e0e"><b>Voorkeur</b></font><font color="#0e0e0e"> is een door de klant geuite wens of voorkeur met betrekking tot werk, opleiding of ondersteuning, waarmee bij de invulling van het re-integratie- of participatietraject rekening kan worden gehouden voor zover dit past binnen de wettelijke kaders en mogelijkheden van de gemeente.</font>
-* **VrijstellingArbeidsplicht**: <font color="#0e0e0e">Geeft aan of en waarom iemand tijdelijk of structureel is vrijgesteld van de plicht om arbeid te verrichten.</font>
-* **Werkervaring**: <font color="#0e0e0e">Eerdere functies of werkzaamheden van een persoon, inclusief sector, duur en aard van de werkzaamheden.</font>
-* **Werkzaamheden als mantelzorger**: <font color="#0e0e0e">Activiteiten die een persoon uitvoert in de rol van mantelzorger, buiten een formele arbeidsverhouding, maar met mogelijke invloed op beschikbaarheid voor arbeid.</font>
-* **Werkzaamheden anders dan in arbeidsverhouding**: <font color="#0e0e0e">Taken of activiteiten die een persoon verricht zonder dat sprake is van een formele arbeidsovereenkomst, zoals vrijwilligerswerk of mantelzorg.</font>
-* **Werkzoekende**: <font color="#0e0e0e">Een generiek werkprofiel van een persoon waarin diens arbeidspositie, bemiddelbaarheid en begeleidingsbehoefte worden vastgelegd, als basis voor begeleiding naar arbeid.</font>
-* **ZelfredzaamheidScore**: <font color="#0e0e0e">Een gekwantificeerde weergave van het niveau van zelfstandigheid van een persoon op meerdere levensgebieden, vaak volgens de methodiek van de ZRM (Zelfredzaamheidsmatrix).</font>
+* **Arbeidsmarktkwalificaties**: Een verzameling formele en informele kwalificaties, vaardigheden en eigenschappen die relevant zijn voor de inzetbaarheid van een persoon op de arbeidsmarkt.
+* **Arbeidsperiode**: Een aaneengesloten periode waarin een persoon arbeid heeft verricht, met begin- en einddatum.
+* **Arbeidsverhouding**: Een relatie waarin sprake is van afspraken tussen een werknemer en een werkgever over het verrichten van arbeid.
+* **Arbeidsvermogen**: Een inschatting van wat iemand op basis van fysieke, mentale en sociale capaciteiten aan arbeid kan verrichten.
+* **Bemiddelingsactiviteit**: Een activiteit in het kader van arbeidstoeleiding waarbij de gemeente of uitvoeringsinstantie gericht handelt om de persoon in contact te brengen met een werkgever of werkplek.
+* **Bemiddelingsberoep**: Het beoogde beroep waarvoor een persoon wordt begeleid of bemiddeld in een traject.
+* **Bemiddelingstraject**: Een traject waarin een persoon begeleid wordt naar passend werk, bijvoorbeeld door een gemeente of uitvoeringsinstantie.
+* **BeschikbaarVoorArbeid**: Een indicatie of iemand op dit moment inzetbaar is voor arbeid, los van begeleiding of ondersteuning.
+* **BeschikbaarVoorBemiddeling**: Een indicatie dat een persoon beschikbaar is voor bemiddeling richting arbeid, waarbij wordt gekeken naar inzetbaarheid, bereidheid en eventuele beperkingen.
+* **Doelgroep**: Een specifieke groep personen met gedeelde kenmerken (zoals afstand tot de arbeidsmarkt) die in aanmerking komt voor bepaalde voorzieningen of aangepaste begeleiding.
+* **Doelgroepenregister**: Een landelijk register waarin mensen met een afstand tot de arbeidsmarkt worden opgenomen, vaak ten behoeve van loonkostensubsidie of andere voorzieningen.
+* **DoelReintegratievoorziening**: Het beoogde effect van een ingezette voorziening, bijvoorbeeld toeleiding naar werk, dagbesteding of maatschappelijke participatie.
+* **Flexibliteit**: De mate waarin een persoon flexibel inzetbaar is qua werktijden, werkplek of werkzaamheden.
+* **Loonkostensubsidie**: Een tegemoetkoming aan een werkgever voor het in dienst nemen van een werknemer met verminderde loonwaarde.
+* **Mobiliteit**: De bereikbaarheid van werkplekken voor een persoon, afhankelijk van vervoermiddel, rijbewijs en fysieke mogelijkheden.
+* **Ontheffing**: Een formele vrijstelling van verplichtingen rond arbeidsparticipatie, zoals beschikbaarheid of tegenprestatie, op basis van persoonlijke of juridische gronden.
+* **Opleiding**: Een formeel of informeel leertraject dat een persoon heeft gevolgd met als doel het verwerven van kennis, vaardigheden of competenties.
+* **Opleidingsnaam**: De naam waarmee een gevolgde opleiding aangeduid wordt. Dit kan een officiële (gecodeerde) of vrije tekst zijn.
+* **OpleidingsnaamGecodeerd**: 
+* **OpleidingsnaamOngecodeerd**: 
+* **Opleidingsniveau**: Het abstractieniveau waarop de opleiding is ingeschaald, vaak gebaseerd op landelijke of Europese onderwijsclassificaties.
+* **Reintegratievoorziening**: Een voorziening of dienst die wordt ingezet om de kansen van een persoon op arbeidsparticipatie te vergroten.
+* **Rijbewijs /Certificaat**: Een door een bevoegde instantie afgegeven document dat aangeeft dat een persoon bevoegd is tot het besturen van bepaalde typen voertuigen.
+* **Taalbeheersing**: Het Europese of Nederlandse taalniveau (zoals A1 t/m C2) waarop de taalvaardigheid van een persoon is ingeschaald.
+* **TaalbeheersingNederlands**: De mate waarin een persoon de Nederlandse taal beheerst, inclusief mondelinge en schriftelijke vaardigheden.
+* **Vaardigheidsvaststelling**: Het proces waarin specifieke vaardigheden van een persoon worden beoordeeld of gemeten, vaak ter ondersteuning van een werkprofiel of plaatsingsbeslissing.
+* **Voorkeur**: Voorkeur is een door de klant geuite wens of voorkeur met betrekking tot werk, opleiding of ondersteuning, waarmee bij de invulling van het re-integratie- of participatietraject rekening kan worden gehouden voor zover dit past binnen de wettelijke kaders en mogelijkheden van de gemeente.
+* **VrijstellingArbeidsplicht**: Geeft aan of en waarom iemand tijdelijk of structureel is vrijgesteld van de plicht om arbeid te verrichten.
+* **Werkervaring**: Eerdere functies of werkzaamheden van een persoon, inclusief sector, duur en aard van de werkzaamheden.
+* **Werkzaamheden als mantelzorger**: Activiteiten die een persoon uitvoert in de rol van mantelzorger, buiten een formele arbeidsverhouding, maar met mogelijke invloed op beschikbaarheid voor arbeid.
+* **Werkzaamheden anders dan in arbeidsverhouding**: Taken of activiteiten die een persoon verricht zonder dat sprake is van een formele arbeidsovereenkomst, zoals vrijwilligerswerk of mantelzorg.
+* **Werkzoekende**: Een generiek werkprofiel van een persoon waarin diens arbeidspositie, bemiddelbaarheid en begeleidingsbehoefte worden vastgelegd, als basis voor begeleiding naar arbeid.
+* **ZelfredzaamheidScore**: Een gekwantificeerde weergave van het niveau van zelfstandigheid van een persoon op meerdere levensgebieden, vaak volgens de methodiek van de ZRM (Zelfredzaamheidsmatrix).
 
 
 ## Objecttypen Model Werk
@@ -62,7 +62,7 @@ Het model 'Model Werk' kent de volgende objecttypen:
 ### Arbeidsmarktkwalificaties
 > **Definitie Arbeidsmarktkwalificaties:** 
 >
-> <font color="#0e0e0e">Een verzameling formele en informele kwalificaties, vaardigheden en eigenschappen die relevant zijn voor de inzetbaarheid van een persoon op de arbeidsmarkt.</font>
+> Een verzameling formele en informele kwalificaties, vaardigheden en eigenschappen die relevant zijn voor de inzetbaarheid van een persoon op de arbeidsmarkt.
 
 ??? info "Kenmerken Model Arbeidsmarktkwalificaties"
     | Eigenschap | Waarde |
@@ -101,7 +101,7 @@ Attributen van objecttype Arbeidsmarktkwalificaties
 ### Arbeidsperiode
 > **Definitie Arbeidsperiode:** 
 >
-> <font color="#0e0e0e">Een aaneengesloten periode waarin een persoon arbeid heeft verricht, met begin- en einddatum.</font>
+> Een aaneengesloten periode waarin een persoon arbeid heeft verricht, met begin- en einddatum.
 
 ??? info "Kenmerken Model Arbeidsperiode"
     | Eigenschap | Waarde |
@@ -143,7 +143,7 @@ Attributen van objecttype Arbeidsperiode
 ### Arbeidsverhouding
 > **Definitie Arbeidsverhouding:** 
 >
-> <font color="#0e0e0e">Een relatie waarin sprake is van afspraken tussen een werknemer en een werkgever over het verrichten van arbeid.</font>
+> Een relatie waarin sprake is van afspraken tussen een werknemer en een werkgever over het verrichten van arbeid.
 
 ??? info "Kenmerken Model Arbeidsverhouding"
     | Eigenschap | Waarde |
@@ -179,7 +179,7 @@ Attributen van objecttype Arbeidsverhouding
 ### Arbeidsvermogen
 > **Definitie Arbeidsvermogen:** 
 >
-> <font color="#0e0e0e">Een inschatting van wat iemand op basis van fysieke, mentale en sociale capaciteiten aan arbeid kan verrichten.</font>
+> Een inschatting van wat iemand op basis van fysieke, mentale en sociale capaciteiten aan arbeid kan verrichten.
 
 ??? info "Kenmerken Model Arbeidsvermogen"
     | Eigenschap | Waarde |
@@ -214,7 +214,7 @@ Attributen van objecttype Arbeidsvermogen
 ### Bemiddelingsactiviteit
 > **Definitie Bemiddelingsactiviteit:** 
 >
-> <font color="#0e0e0e">Een activiteit in het kader van arbeidstoeleiding waarbij de gemeente of uitvoeringsinstantie gericht handelt om de persoon in contact te brengen met een werkgever of werkplek.</font>
+> Een activiteit in het kader van arbeidstoeleiding waarbij de gemeente of uitvoeringsinstantie gericht handelt om de persoon in contact te brengen met een werkgever of werkplek.
 
 ??? info "Kenmerken Model Bemiddelingsactiviteit"
     | Eigenschap | Waarde |
@@ -254,7 +254,7 @@ Attributen van objecttype Bemiddelingsactiviteit
 ### Bemiddelingsberoep
 > **Definitie Bemiddelingsberoep:** 
 >
-> <font color="#0e0e0e">Het beoogde beroep waarvoor een persoon wordt begeleid of bemiddeld in een traject.</font>
+> Het beoogde beroep waarvoor een persoon wordt begeleid of bemiddeld in een traject.
 
 ??? info "Kenmerken Model Bemiddelingsberoep"
     | Eigenschap | Waarde |
@@ -289,7 +289,7 @@ Attributen van objecttype Bemiddelingsberoep
 ### Bemiddelingstraject
 > **Definitie Bemiddelingstraject:** 
 >
-> <font color="#0e0e0e">Een traject waarin een persoon begeleid wordt naar passend werk, bijvoorbeeld door een gemeente of uitvoeringsinstantie.</font>
+> Een traject waarin een persoon begeleid wordt naar passend werk, bijvoorbeeld door een gemeente of uitvoeringsinstantie.
 
 ??? info "Kenmerken Model Bemiddelingstraject"
     | Eigenschap | Waarde |
@@ -329,7 +329,7 @@ Attributen van objecttype Bemiddelingstraject
 ### BeschikbaarVoorArbeid
 > **Definitie BeschikbaarVoorArbeid:** 
 >
-> <font color="#0e0e0e">Een indicatie of iemand op dit moment inzetbaar is voor arbeid, los van begeleiding of ondersteuning.</font>
+> Een indicatie of iemand op dit moment inzetbaar is voor arbeid, los van begeleiding of ondersteuning.
 
 ??? info "Kenmerken Model BeschikbaarVoorArbeid"
     | Eigenschap | Waarde |
@@ -374,7 +374,7 @@ Attributen van objecttype BeschikbaarVoorArbeid
 ### BeschikbaarVoorBemiddeling
 > **Definitie BeschikbaarVoorBemiddeling:** 
 >
-> <font color="#0e0e0e">Een indicatie dat een persoon beschikbaar is voor bemiddeling richting arbeid, waarbij wordt gekeken naar inzetbaarheid, bereidheid en eventuele beperkingen.</font>
+> Een indicatie dat een persoon beschikbaar is voor bemiddeling richting arbeid, waarbij wordt gekeken naar inzetbaarheid, bereidheid en eventuele beperkingen.
 
 ??? info "Kenmerken Model BeschikbaarVoorBemiddeling"
     | Eigenschap | Waarde |
@@ -410,7 +410,7 @@ Attributen van objecttype BeschikbaarVoorBemiddeling
 ### Doelgroep
 > **Definitie Doelgroep:** 
 >
-> <font color="#0e0e0e">Een specifieke groep personen met gedeelde kenmerken (zoals afstand tot de arbeidsmarkt) die in aanmerking komt voor bepaalde voorzieningen of aangepaste begeleiding.</font>
+> Een specifieke groep personen met gedeelde kenmerken (zoals afstand tot de arbeidsmarkt) die in aanmerking komt voor bepaalde voorzieningen of aangepaste begeleiding.
 
 ??? info "Kenmerken Model Doelgroep"
     | Eigenschap | Waarde |
@@ -446,7 +446,7 @@ Attributen van objecttype Doelgroep
 ### Doelgroepenregister
 > **Definitie Doelgroepenregister:** 
 >
-> <font color="#0e0e0e">Een landelijk register waarin mensen met een afstand tot de arbeidsmarkt worden opgenomen, vaak ten behoeve van loonkostensubsidie of andere voorzieningen.</font>
+> Een landelijk register waarin mensen met een afstand tot de arbeidsmarkt worden opgenomen, vaak ten behoeve van loonkostensubsidie of andere voorzieningen.
 
 ??? info "Kenmerken Model Doelgroepenregister"
     | Eigenschap | Waarde |
@@ -484,7 +484,7 @@ Attributen van objecttype Doelgroepenregister
 ### DoelReintegratievoorziening
 > **Definitie DoelReintegratievoorziening:** 
 >
-> <font color="#0e0e0e">Het beoogde effect van een ingezette voorziening, bijvoorbeeld toeleiding naar werk, dagbesteding of maatschappelijke participatie.</font>
+> Het beoogde effect van een ingezette voorziening, bijvoorbeeld toeleiding naar werk, dagbesteding of maatschappelijke participatie.
 
 ??? info "Kenmerken Model DoelReintegratievoorziening"
     | Eigenschap | Waarde |
@@ -519,7 +519,7 @@ Attributen van objecttype DoelReintegratievoorziening
 ### Flexibliteit
 > **Definitie Flexibliteit:** 
 >
-> <font color="#0e0e0e">De mate waarin een persoon flexibel inzetbaar is qua werktijden, werkplek of werkzaamheden.</font>
+> De mate waarin een persoon flexibel inzetbaar is qua werktijden, werkplek of werkzaamheden.
 
 ??? info "Kenmerken Model Flexibliteit"
     | Eigenschap | Waarde |
@@ -558,7 +558,7 @@ Attributen van objecttype Flexibliteit
 ### Loonkostensubsidie
 > **Definitie Loonkostensubsidie:** 
 >
-> <font color="#0e0e0e">Een tegemoetkoming aan een werkgever voor het in dienst nemen van een werknemer met verminderde loonwaarde.</font>
+> Een tegemoetkoming aan een werkgever voor het in dienst nemen van een werknemer met verminderde loonwaarde.
 
 ??? info "Kenmerken Model Loonkostensubsidie"
     | Eigenschap | Waarde |
@@ -593,7 +593,7 @@ Attributen van objecttype Loonkostensubsidie
 ### Mobiliteit
 > **Definitie Mobiliteit:** 
 >
-> <font color="#0e0e0e">De bereikbaarheid van werkplekken voor een persoon, afhankelijk van vervoermiddel, rijbewijs en fysieke mogelijkheden.</font>
+> De bereikbaarheid van werkplekken voor een persoon, afhankelijk van vervoermiddel, rijbewijs en fysieke mogelijkheden.
 
 ??? info "Kenmerken Model Mobiliteit"
     | Eigenschap | Waarde |
@@ -632,7 +632,7 @@ Attributen van objecttype Mobiliteit
 ### Ontheffing
 > **Definitie Ontheffing:** 
 >
-> <font color="#0e0e0e">Een formele vrijstelling van verplichtingen rond arbeidsparticipatie, zoals beschikbaarheid of tegenprestatie, op basis van persoonlijke of juridische gronden.</font>
+> Een formele vrijstelling van verplichtingen rond arbeidsparticipatie, zoals beschikbaarheid of tegenprestatie, op basis van persoonlijke of juridische gronden.
 
 ??? info "Kenmerken Model Ontheffing"
     | Eigenschap | Waarde |
@@ -681,7 +681,7 @@ Attributen van objecttype Ontheffing
 ### Opleiding
 > **Definitie Opleiding:** 
 >
-> <font color="#0e0e0e">Een formeel of informeel leertraject dat een persoon heeft gevolgd met als doel het verwerven van kennis, vaardigheden of competenties.</font>
+> Een formeel of informeel leertraject dat een persoon heeft gevolgd met als doel het verwerven van kennis, vaardigheden of competenties.
 
 ??? info "Kenmerken Model Opleiding"
     | Eigenschap | Waarde |
@@ -731,7 +731,7 @@ Attributen van objecttype Opleiding
 ### Opleidingsnaam
 > **Definitie Opleidingsnaam:** 
 >
-> <font color="#0e0e0e">De naam waarmee een gevolgde opleiding aangeduid wordt. Dit kan een offici&#235;le (gecodeerde) of vrije tekst zijn.</font>
+> De naam waarmee een gevolgde opleiding aangeduid wordt. Dit kan een officiële (gecodeerde) of vrije tekst zijn.
 
 ??? info "Kenmerken Model Opleidingsnaam"
     | Eigenschap | Waarde |
@@ -839,7 +839,7 @@ Attributen van objecttype OpleidingsnaamOngecodeerd
 ### Opleidingsniveau
 > **Definitie Opleidingsniveau:** 
 >
-> <font color="#0e0e0e">Het abstractieniveau waarop de opleiding is ingeschaald, vaak gebaseerd op landelijke of Europese onderwijsclassificaties.</font>
+> Het abstractieniveau waarop de opleiding is ingeschaald, vaak gebaseerd op landelijke of Europese onderwijsclassificaties.
 
 ??? info "Kenmerken Model Opleidingsniveau"
     | Eigenschap | Waarde |
@@ -874,7 +874,7 @@ Attributen van objecttype Opleidingsniveau
 ### Reintegratievoorziening
 > **Definitie Reintegratievoorziening:** 
 >
-> <font color="#0e0e0e">Een voorziening of dienst die wordt ingezet om de kansen van een persoon op arbeidsparticipatie te vergroten.</font>
+> Een voorziening of dienst die wordt ingezet om de kansen van een persoon op arbeidsparticipatie te vergroten.
 
 ??? info "Kenmerken Model Reintegratievoorziening"
     | Eigenschap | Waarde |
@@ -920,7 +920,7 @@ Attributen van objecttype Reintegratievoorziening
 ### Rijbewijs /Certificaat
 > **Definitie Rijbewijs /Certificaat:** 
 >
-> <font color="#0e0e0e">Een door een bevoegde instantie afgegeven document dat aangeeft dat een persoon bevoegd is tot het besturen van bepaalde typen voertuigen.</font>
+> Een door een bevoegde instantie afgegeven document dat aangeeft dat een persoon bevoegd is tot het besturen van bepaalde typen voertuigen.
 
 ??? info "Kenmerken Model Rijbewijs /Certificaat"
     | Eigenschap | Waarde |
@@ -962,7 +962,7 @@ Attributen van objecttype Rijbewijs /Certificaat
 ### Taalbeheersing
 > **Definitie Taalbeheersing:** 
 >
-> <font color="#0e0e0e">Het Europese of Nederlandse taalniveau (zoals A1 t/m C2) waarop de taalvaardigheid van een persoon is ingeschaald.</font>
+> Het Europese of Nederlandse taalniveau (zoals A1 t/m C2) waarop de taalvaardigheid van een persoon is ingeschaald.
 
 ??? info "Kenmerken Model Taalbeheersing"
     | Eigenschap | Waarde |
@@ -1005,7 +1005,7 @@ Attributen van objecttype Taalbeheersing
 ### TaalbeheersingNederlands
 > **Definitie TaalbeheersingNederlands:** 
 >
-> <font color="#0e0e0e">De mate waarin een persoon de Nederlandse taal beheerst, inclusief mondelinge en schriftelijke vaardigheden.</font>
+> De mate waarin een persoon de Nederlandse taal beheerst, inclusief mondelinge en schriftelijke vaardigheden.
 
 ??? info "Kenmerken Model TaalbeheersingNederlands"
     | Eigenschap | Waarde |
@@ -1045,7 +1045,7 @@ Attributen van objecttype TaalbeheersingNederlands
 ### Vaardigheidsvaststelling
 > **Definitie Vaardigheidsvaststelling:** 
 >
-> <font color="#0e0e0e">Het proces waarin specifieke vaardigheden van een persoon worden beoordeeld of gemeten, vaak ter ondersteuning van een werkprofiel of plaatsingsbeslissing.</font>
+> Het proces waarin specifieke vaardigheden van een persoon worden beoordeeld of gemeten, vaak ter ondersteuning van een werkprofiel of plaatsingsbeslissing.
 
 ??? info "Kenmerken Model Vaardigheidsvaststelling"
     | Eigenschap | Waarde |
@@ -1081,13 +1081,13 @@ Attributen van objecttype Vaardigheidsvaststelling
 ### Voorkeur
 > **Definitie Voorkeur:** 
 >
-> <font color="#0e0e0e"><b>Voorkeur</b></font><font color="#0e0e0e"> is een door de klant geuite wens of voorkeur met betrekking tot werk, opleiding of ondersteuning, waarmee bij de invulling van het re-integratie- of participatietraject rekening kan worden gehouden voor zover dit past binnen de wettelijke kaders en mogelijkheden van de gemeente.</font>
+> Voorkeur is een door de klant geuite wens of voorkeur met betrekking tot werk, opleiding of ondersteuning, waarmee bij de invulling van het re-integratie- of participatietraject rekening kan worden gehouden voor zover dit past binnen de wettelijke kaders en mogelijkheden van de gemeente.
 
 ??? info "Kenmerken Model Voorkeur"
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Voorkeur |
-    | toelichting | • Een voorkeur kan betrekking hebben op type werkzaamheden, branche, werkomgeving, werktijden, opleidingsrichting of gewenste ondersteuning.#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting | •	Een voorkeur kan betrekking hebben op type werkzaamheden, branche, werkomgeving, werktijden, opleidingsrichting of gewenste ondersteuning.#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1125,7 +1125,7 @@ Attributen van objecttype Voorkeur
 ### VrijstellingArbeidsplicht
 > **Definitie VrijstellingArbeidsplicht:** 
 >
-> <font color="#0e0e0e">Geeft aan of en waarom iemand tijdelijk of structureel is vrijgesteld van de plicht om arbeid te verrichten.</font>
+> Geeft aan of en waarom iemand tijdelijk of structureel is vrijgesteld van de plicht om arbeid te verrichten.
 
 ??? info "Kenmerken Model VrijstellingArbeidsplicht"
     | Eigenschap | Waarde |
@@ -1164,7 +1164,7 @@ Attributen van objecttype VrijstellingArbeidsplicht
 ### Werkervaring
 > **Definitie Werkervaring:** 
 >
-> <font color="#0e0e0e">Eerdere functies of werkzaamheden van een persoon, inclusief sector, duur en aard van de werkzaamheden.</font>
+> Eerdere functies of werkzaamheden van een persoon, inclusief sector, duur en aard van de werkzaamheden.
 
 ??? info "Kenmerken Model Werkervaring"
     | Eigenschap | Waarde |
@@ -1200,7 +1200,7 @@ Attributen van objecttype Werkervaring
 ### Werkzaamheden als mantelzorger
 > **Definitie Werkzaamheden als mantelzorger:** 
 >
-> <font color="#0e0e0e">Activiteiten die een persoon uitvoert in de rol van mantelzorger, buiten een formele arbeidsverhouding, maar met mogelijke invloed op beschikbaarheid voor arbeid.</font>
+> Activiteiten die een persoon uitvoert in de rol van mantelzorger, buiten een formele arbeidsverhouding, maar met mogelijke invloed op beschikbaarheid voor arbeid.
 
 ??? info "Kenmerken Model Werkzaamheden als mantelzorger"
     | Eigenschap | Waarde |
@@ -1243,7 +1243,7 @@ Attributen van objecttype Werkzaamheden als mantelzorger
 ### Werkzaamheden anders dan in arbeidsverhouding
 > **Definitie Werkzaamheden anders dan in arbeidsverhouding:** 
 >
-> <font color="#0e0e0e">Taken of activiteiten die een persoon verricht zonder dat sprake is van een formele arbeidsovereenkomst, zoals vrijwilligerswerk of mantelzorg.</font>
+> Taken of activiteiten die een persoon verricht zonder dat sprake is van een formele arbeidsovereenkomst, zoals vrijwilligerswerk of mantelzorg.
 
 ??? info "Kenmerken Model Werkzaamheden anders dan in arbeidsverhouding"
     | Eigenschap | Waarde |
@@ -1287,7 +1287,7 @@ Attributen van objecttype Werkzaamheden anders dan in arbeidsverhouding
 ### Werkzoekende
 > **Definitie Werkzoekende:** 
 >
-> <font color="#0e0e0e">Een generiek werkprofiel van een persoon waarin diens arbeidspositie, bemiddelbaarheid en begeleidingsbehoefte worden vastgelegd, als basis voor begeleiding naar arbeid.</font>
+> Een generiek werkprofiel van een persoon waarin diens arbeidspositie, bemiddelbaarheid en begeleidingsbehoefte worden vastgelegd, als basis voor begeleiding naar arbeid.
 
 ??? info "Kenmerken Model Werkzoekende"
     | Eigenschap | Waarde |
@@ -1323,7 +1323,7 @@ Attributen van objecttype Werkzoekende
 ### ZelfredzaamheidScore
 > **Definitie ZelfredzaamheidScore:** 
 >
-> <font color="#0e0e0e">Een gekwantificeerde weergave van het niveau van zelfstandigheid van een persoon op meerdere levensgebieden, vaak volgens de methodiek van de ZRM (Zelfredzaamheidsmatrix).</font>
+> Een gekwantificeerde weergave van het niveau van zelfstandigheid van een persoon op meerdere levensgebieden, vaak volgens de methodiek van de ZRM (Zelfredzaamheidsmatrix).
 
 ??? info "Kenmerken Model ZelfredzaamheidScore"
     | Eigenschap | Waarde |
@@ -1368,16 +1368,16 @@ Attributen van objecttype ZelfredzaamheidScore
 
 ### Code arbeidsvermogen
 
-<font color="#0e0e0e">Indeling van het arbeidsvermogen van een persoon in functionele categorie&#235;n zoals “kan werken”, “kan beperkt werken”, of “is (tijdelijk) niet inzetbaar voor arbeid”.</font>
+Indeling van het arbeidsvermogen van een persoon in functionele categorieën zoals “kan werken”, “kan beperkt werken”, of “is (tijdelijk) niet inzetbaar voor arbeid”.
 
 Het enumeratie Code arbeidsvermogen
  kent de volgende waarden:
 
-* **onder WML**: <Geen Definities>
-* **met hulp WML of hoger**: <Geen Definities>
-* **zelfstandig WML of hoger**: <Geen Definities>
-* **tijdelijk geen arbeidsvermogen**: <Geen Definities>
-* **nog niet bekend**: <Geen Definities>
+* **onder WML**: 
+* **met hulp WML of hoger**: 
+* **zelfstandig WML of hoger**: 
+* **tijdelijk geen arbeidsvermogen**: 
+* **nog niet bekend**: 
 
 
 De enumeratie Code arbeidsvermogen
@@ -1409,17 +1409,17 @@ De enumeratie Code arbeidsvermogen
 
 ### Code maatschappelijke context werkzaamheden anders dan in arbeidsverhouding
 
-<font color="#0e0e0e">Typologie van werkzaamheden buiten formeel dienstverband, zoals mantelzorg, vrijwilligerswerk of informele zorg.</font>
+Typologie van werkzaamheden buiten formeel dienstverband, zoals mantelzorg, vrijwilligerswerk of informele zorg.
 
 Het enumeratie Code maatschappelijke context werkzaamheden anders dan in arbeidsverhouding
  kent de volgende waarden:
 
-* **Werkzaamheden als zelfstandige**: <Geen Definities>
-* **Werkzaamheden als vrijwilliger**: <Geen Definities>
-* **Werkzaamheden in een politieke functie**: <Geen Definities>
-* **Werkzaamheden als freelancer**: <Geen Definities>
-* **Werkzaamheden als mantelzorger**: <Geen Definities>
-* **Werkzaamheden in een niet nader gespecificeerde context, niet zijnde een arbeidsverhouding**: <Geen Definities>
+* **Werkzaamheden als zelfstandige**: 
+* **Werkzaamheden als vrijwilliger**: 
+* **Werkzaamheden in een politieke functie**: 
+* **Werkzaamheden als freelancer**: 
+* **Werkzaamheden als mantelzorger**: 
+* **Werkzaamheden in een niet nader gespecificeerde context, niet zijnde een arbeidsverhouding**: 
 
 
 De enumeratie Code maatschappelijke context werkzaamheden anders dan in arbeidsverhouding
@@ -1451,19 +1451,19 @@ De enumeratie Code maatschappelijke context werkzaamheden anders dan in arbeidsv
 
 ### Code opleidingsniveau cliënt
 
-<font color="#0e0e0e">Schatting van het opleidingsniveau van de cli&#235;nt, vaak gebaseerd op zelfrapportage. Voorbeelden: <i>vmbo / praktijkonderwijs</i>, <i>mbo-2</i>, <i>hbo</i>.</font>
+Schatting van het opleidingsniveau van de cliënt, vaak gebaseerd op zelfrapportage. Voorbeelden: vmbo / praktijkonderwijs , mbo-2 , hbo .
 
 Het enumeratie Code opleidingsniveau cliënt
  kent de volgende waarden:
 
-* **Niet van toepassing**: <Geen Definities>
-* **Geen basisopleiding**: <Geen Definities>
-* **Basisniveau**: <Geen Definities>
-* **Lbo/mavo-niveau**: <Geen Definities>
-* **Mbo/havo/vwo-niveau**: <Geen Definities>
-* **Hbo-niveau**: <Geen Definities>
-* **Wetenschappelijk onderwijs**: <Geen Definities>
-* **(Nog) niet bekend**: <Geen Definities>
+* **Niet van toepassing**: 
+* **Geen basisopleiding**: 
+* **Basisniveau**: 
+* **Lbo/mavo-niveau**: 
+* **Mbo/havo/vwo-niveau**: 
+* **Hbo-niveau**: 
+* **Wetenschappelijk onderwijs**: 
+* **(Nog) niet bekend**: 
 
 
 De enumeratie Code opleidingsniveau cliënt
@@ -1495,17 +1495,17 @@ De enumeratie Code opleidingsniveau cliënt
 
 ### Code tijdsbeslag opleiding
 
-<font color="#0e0e0e">Geeft aan hoeveel tijd een opleiding per week vraagt, zoals voltijd, deeltijd of duaal.</font>
+Geeft aan hoeveel tijd een opleiding per week vraagt, zoals voltijd, deeltijd of duaal.
 
 Het enumeratie Code tijdsbeslag opleiding
  kent de volgende waarden:
 
-* **Onbekend**: <Geen Definities>
-* **Dagopleiding**: <Geen Definities>
-* **Avondopleiding**: <Geen Definities>
-* **Dag- + avondopleiding**: <Geen Definities>
-* **Schriftelijk**: <Geen Definities>
-* **Anders**: <Geen Definities>
+* **Onbekend**: 
+* **Dagopleiding**: 
+* **Avondopleiding**: 
+* **Dag- + avondopleiding**: 
+* **Schriftelijk**: 
+* **Anders**: 
 
 
 De enumeratie Code tijdsbeslag opleiding
@@ -1536,15 +1536,15 @@ De enumeratie Code tijdsbeslag opleiding
 
 
 ### CodeLeerwegMBO
-<font color="#0e0e0e">Geeft de leerweg aan binnen het mbo. Voorbeelden: <i>BOL</i>, <i>BBL</i></font>
+Geeft de leerweg aan binnen het mbo. Voorbeelden: BOL , BBL
 
 Het enumeratie CodeLeerwegMBO kent de volgende waarden:
 
-* **BBL  Beroepsbegeleidende leerweg**: <Geen Definities>
-* **BOL  Beroepsopleidende leerweg**: <Geen Definities>
-* **CBL  Combinatie beroepsbegeleidende leerweg**: <Geen Definities>
-* **COL  Combinatie beroepsopleidende leerweg**: <Geen Definities>
-* **OVO  Overig onderwijs (niet bekostigd)**: <Geen Definities>
+* **BBL  Beroepsbegeleidende leerweg**: 
+* **BOL  Beroepsopleidende leerweg**: 
+* **CBL  Combinatie beroepsbegeleidende leerweg**: 
+* **COL  Combinatie beroepsopleidende leerweg**: 
+* **OVO  Overig onderwijs (niet bekostigd)**: 
 
 
 De enumeratie CodeLeerwegMBO heeft de volgende kenmerken:
@@ -1573,16 +1573,16 @@ De enumeratie CodeLeerwegMBO heeft de volgende kenmerken:
 
 
 ### CodeNiveauOpleiding
-<font color="#0e0e0e">Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: <i>mbo-3</i>, <i>hbo</i>, <i>wo-bachelor</i>.</font>
+Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: mbo-3 , hbo , wo-bachelor .
 
 Het enumeratie CodeNiveauOpleiding kent de volgende waarden:
 
-* **Basisonderwijs**: <Geen Definities>
-* **VMBO / MBO-1**: <Geen Definities>
-* **MBO**: <Geen Definities>
-* **HAVO / VWO**: <Geen Definities>
-* **HBO / Bachelor**: <Geen Definities>
-* **WO / Master**: <Geen Definities>
+* **Basisonderwijs**: 
+* **VMBO / MBO-1**: 
+* **MBO**: 
+* **HAVO / VWO**: 
+* **HBO / Bachelor**: 
+* **WO / Master**: 
 
 
 De enumeratie CodeNiveauOpleiding heeft de volgende kenmerken:
@@ -1611,12 +1611,12 @@ De enumeratie CodeNiveauOpleiding heeft de volgende kenmerken:
 
 
 ### CodeOpleidingsnaam
-<font color="#0e0e0e">Gecodeerde of vrije naam van een opleiding. Voorbeeld: <i>Sociaal Werk (mbo-4)</i>.</font>
+Gecodeerde of vrije naam van een opleiding. Voorbeeld: Sociaal Werk (mbo-4) .
 
 Het enumeratie CodeOpleidingsnaam kent de volgende waarden:
 
-* **Referentieopleiding**: <Geen Definities>
-* **Synoniem**: <Geen Definities>
+* **Referentieopleiding**: 
+* **Synoniem**: 
 
 
 De enumeratie CodeOpleidingsnaam heeft de volgende kenmerken:
@@ -1645,7 +1645,7 @@ De enumeratie CodeOpleidingsnaam heeft de volgende kenmerken:
 
 
 ### CodeSoortOpleidingsnaam
-<font color="#0e0e0e">Geeft het type naamgebruik aan. Voorbeelden: <i>referentie</i>, <i>synoniem</i>.</font>
+Geeft het type naamgebruik aan. Voorbeelden: referentie , synoniem .
 
 Het enumeratie CodeSoortOpleidingsnaam kent de volgende waarden:
 
@@ -1677,14 +1677,14 @@ De enumeratie CodeSoortOpleidingsnaam heeft de volgende kenmerken:
 
 
 ### CodeStatusOpleiding
-<font color="#0e0e0e">tatus van de opleiding op het moment van registratie. Waarden zijn onder andere <i>bezig</i>, <i>afgerond</i>, <i>gestopt</i>.</font>
+tatus van de opleiding op het moment van registratie. Waarden zijn onder andere bezig , afgerond , gestopt .
 
 Het enumeratie CodeStatusOpleiding kent de volgende waarden:
 
-* **Onbekend**: <Geen Definities>
-* **Succesvol afgerond**: <Geen Definities>
-* **Afgebroken**: <Geen Definities>
-* **Lopend**: <Geen Definities>
+* **Onbekend**: 
+* **Succesvol afgerond**: 
+* **Afgebroken**: 
+* **Lopend**: 
 
 
 De enumeratie CodeStatusOpleiding heeft de volgende kenmerken:
@@ -1713,17 +1713,17 @@ De enumeratie CodeStatusOpleiding heeft de volgende kenmerken:
 
 
 ### Dag beschikbaarheid
-<font color="#0e0e0e">Beschikbare dagen in de week voor werk of activiteiten. Voorbeelden: <i>maandag</i>, <i>vrijdag</i>.</font>
+Beschikbare dagen in de week voor werk of activiteiten. Voorbeelden: maandag , vrijdag .
 
 Het enumeratie Dag beschikbaarheid kent de volgende waarden:
 
-* **Maandag**: <Geen Definities>
-* **Dinsdag**: <Geen Definities>
-* **Woensdag**: <Geen Definities>
-* **Donderdag**: <Geen Definities>
-* **Vrijdag**: <Geen Definities>
-* **Zaterdag**: <Geen Definities>
-* **Zondag**: <Geen Definities>
+* **Maandag**: 
+* **Dinsdag**: 
+* **Woensdag**: 
+* **Donderdag**: 
+* **Vrijdag**: 
+* **Zaterdag**: 
+* **Zondag**: 
 
 
 De enumeratie Dag beschikbaarheid heeft de volgende kenmerken:
@@ -1753,24 +1753,24 @@ De enumeratie Dag beschikbaarheid heeft de volgende kenmerken:
 
 ### Domein van zelfredzaamheid
 
-<font color="#0e0e0e">Levensgebied waarop zelfredzaamheid wordt beoordeeld. Voorbeelden: <i>Financi&#235;n</i>, <i>Psychische gezondheid</i>, <i>Dagbesteding</i>.</font>
+Levensgebied waarop zelfredzaamheid wordt beoordeeld. Voorbeelden: Financiën , Psychische gezondheid , Dagbesteding .
 
 Het enumeratie Domein van zelfredzaamheid
  kent de volgende waarden:
 
-* **Basale ADL (Activiteiten Dagelijks Leven)**: <Geen Definities>
-* **Financiën**: <Geen Definities>
-* **Geestelijke gezondheid**: <Geen Definities>
-* **Huiselijke relaties**: <Geen Definities>
-* **Huisvesting**: <Geen Definities>
-* **Instrumentele ADL**: <Geen Definities>
-* **Justitie**: <Geen Definities>
-* **Lichamelijke gezondheid**: <Geen Definities>
-* **Maatschappelijke participatie**: <Geen Definities>
-* **Middelengebruik**: <Geen Definities>
-* **Sociaal netwerk**: <Geen Definities>
-* **Tijdsbesteding**: <Geen Definities>
-* **Werk & Opleiding**: <Geen Definities>
+* **Basale ADL (Activiteiten Dagelijks Leven)**: 
+* **Financiën**: 
+* **Geestelijke gezondheid**: 
+* **Huiselijke relaties**: 
+* **Huisvesting**: 
+* **Instrumentele ADL**: 
+* **Justitie**: 
+* **Lichamelijke gezondheid**: 
+* **Maatschappelijke participatie**: 
+* **Middelengebruik**: 
+* **Sociaal netwerk**: 
+* **Tijdsbesteding**: 
+* **Werk & Opleiding**: 
 
 
 De enumeratie Domein van zelfredzaamheid
@@ -1801,13 +1801,13 @@ De enumeratie Domein van zelfredzaamheid
 
 
 ### Hulp aanwezig
-<font color="#0e0e0e">Geeft aan of er op een domein hulp wordt ontvangen. Waarden zijn: <i>ja</i>, <i>nee</i>, <i>onbekend</i>.</font>
+Geeft aan of er op een domein hulp wordt ontvangen. Waarden zijn: ja , nee , onbekend .
 
 Het enumeratie Hulp aanwezig kent de volgende waarden:
 
-* **Ja, formeel**: <Geen Definities>
-* **Ja, informeel**: <Geen Definities>
-* **Nee**: <Geen Definities>
+* **Ja, formeel**: 
+* **Ja, informeel**: 
+* **Nee**: 
 
 
 De enumeratie Hulp aanwezig heeft de volgende kenmerken:
@@ -1837,14 +1837,14 @@ De enumeratie Hulp aanwezig heeft de volgende kenmerken:
 
 ### Indicatie doelgroepenregister
 
-<font color="#0e0e0e">Geeft aan of iemand valt onder het doelgroepregister voor de banenafspraak. Voorbeelden: <i>Wajong</i>, <i>Participatiewet</i>.</font>
+Geeft aan of iemand valt onder het doelgroepregister voor de banenafspraak. Voorbeelden: Wajong , Participatiewet .
 
 Het enumeratie Indicatie doelgroepenregister
  kent de volgende waarden:
 
-* **Ja**: <Geen Definities>
-* **Nee**: <Geen Definities>
-* **Vermoedelijk**: <Geen Definities>
+* **Ja**: 
+* **Nee**: 
+* **Vermoedelijk**: 
 
 
 De enumeratie Indicatie doelgroepenregister
@@ -1876,17 +1876,17 @@ De enumeratie Indicatie doelgroepenregister
 
 ### Indicatie mate van vaardigheid
 
-<font color="#0e0e0e">Schatting van het vaardigheidsniveau op een bepaald gebied. Voorbeelden: <i>voldoende</i>, <i>goed</i>.</font>
+Schatting van het vaardigheidsniveau op een bepaald gebied. Voorbeelden: voldoende , goed .
 
 Het enumeratie Indicatie mate van vaardigheid
  kent de volgende waarden:
 
-* **Goed**: <Geen Definities>
-* **Voldoende**: <Geen Definities>
-* **Onvoldoende**: <Geen Definities>
-* **Niet**: <Geen Definities>
-* **Onderzoek noodzakelijk**: <Geen Definities>
-* **Niet van toepassing**: <Geen Definities>
+* **Goed**: 
+* **Voldoende**: 
+* **Onvoldoende**: 
+* **Niet**: 
+* **Onderzoek noodzakelijk**: 
+* **Niet van toepassing**: 
 
 
 De enumeratie Indicatie mate van vaardigheid
@@ -1918,15 +1918,15 @@ De enumeratie Indicatie mate van vaardigheid
 
 ### Interval opzegtermijn
 
-<font color="#0e0e0e">De geldende opzegtermijn bij een arbeidsverhouding. Voorbeelden: <i>1 maand</i>, <i>2 weken</i>.</font>
+De geldende opzegtermijn bij een arbeidsverhouding. Voorbeelden: 1 maand , 2 weken .
 
 Het enumeratie Interval opzegtermijn
  kent de volgende waarden:
 
-* **Dag**: <Geen Definities>
-* **Maand**: <Geen Definities>
-* **Uur**: <Geen Definities>
-* **Week**: <Geen Definities>
+* **Dag**: 
+* **Maand**: 
+* **Uur**: 
+* **Week**: 
 
 
 De enumeratie Interval opzegtermijn
@@ -1958,16 +1958,16 @@ De enumeratie Interval opzegtermijn
 
 ### Kanaal contactmoment
 
-<font color="#0e0e0e">Het gebruikte communicatiekanaal bij een contactmoment. Voorbeelden: <i>telefoon</i>, <i>email</i>, <i>huisbezoek</i>.</font>
+Het gebruikte communicatiekanaal bij een contactmoment. Voorbeelden: telefoon , email , huisbezoek .
 
 Het enumeratie Kanaal contactmoment
  kent de volgende waarden:
 
-* **Berichten via THOMAS**: <Geen Definities>
-* **Fysiek gesprek**: <Geen Definities>
-* **Mail**: <Geen Definities>
-* **Ontvangen correspondentie**: <Geen Definities>
-* **Telefonisch gesprek**: <Geen Definities>
+* **Berichten via THOMAS**: 
+* **Fysiek gesprek**: 
+* **Mail**: 
+* **Ontvangen correspondentie**: 
+* **Telefonisch gesprek**: 
 
 
 De enumeratie Kanaal contactmoment
@@ -1999,14 +1999,14 @@ De enumeratie Kanaal contactmoment
 
 ### Ontheffingsverplichting
 
-<font color="#0e0e0e">Geeft aan of een persoon verplicht is tot arbeidsparticipatie. Voorbeelden: <i>geen ontheffing</i>, <i>medische gronden</i>.</font>
+Geeft aan of een persoon verplicht is tot arbeidsparticipatie. Voorbeelden: geen ontheffing , medische gronden .
 
 Het enumeratie Ontheffingsverplichting
  kent de volgende waarden:
 
-* **A,**: <Geen Definities>
-* **A,C,**: <Geen Definities>
-* **A,B,C**: <Geen Definities>
+* **A,**: 
+* **A,C,**: 
+* **A,B,C**: 
 
 
 De enumeratie Ontheffingsverplichting
@@ -2037,17 +2037,17 @@ De enumeratie Ontheffingsverplichting
 
 
 ### Opleidingsrichting
-<font color="#0e0e0e">Het vakgebied waarop een opleiding betrekking heeft. </font>
+Het vakgebied waarop een opleiding betrekking heeft.
 
 Het enumeratie Opleidingsrichting kent de volgende waarden:
 
-* **Onderwijs aan kleuters**: <Geen Definities>
-* **Primair onderwijs**: <Geen Definities>
-* **Secundair onderwijs, eerste fase**: <Geen Definities>
-* **Secundair onderwijs, tweede fase**: <Geen Definities>
-* **Hoger onderwijs, eerste fase**: <Geen Definities>
-* **Hoger onderwijs, tweede fase**: <Geen Definities>
-* **Hoger onderwijs, derde fase**: <Geen Definities>
+* **Onderwijs aan kleuters**: 
+* **Primair onderwijs**: 
+* **Secundair onderwijs, eerste fase**: 
+* **Secundair onderwijs, tweede fase**: 
+* **Hoger onderwijs, eerste fase**: 
+* **Hoger onderwijs, tweede fase**: 
+* **Hoger onderwijs, derde fase**: 
 
 
 De enumeratie Opleidingsrichting heeft de volgende kenmerken:
@@ -2076,36 +2076,36 @@ De enumeratie Opleidingsrichting heeft de volgende kenmerken:
 
 
 ### SETU job category
-<font color="#0e0e0e">Beroepscategorie&#235;n volgens de SETU-standaard. Voorbeelden: <i>Engineering</i>, <i>Healthcare</i>, <i>ICT</i>.</font>
+Beroepscategorieën volgens de SETU-standaard. Voorbeelden: Engineering , Healthcare , ICT .
 
 Het enumeratie SETU job category kent de volgende waarden:
 
-* **Agricultural / Cattle breeding / Animal care / Nature conservation**: <Geen Definities>
-* **Production / Crafts**: <Geen Definities>
-* **Building industry**: <Geen Definities>
-* **Technology / Engineering**: <Geen Definities>
-* **IT / ICT / Software development/ Internet**: <Geen Definities>
-* **Design / Architecture / Graphical**: <Geen Definities>
-* **Financial administratieve / Accounting**: <Geen Definities>
-* **Administratieve / Secretariat**: <Geen Definities>
-* **Consulting / Staff / Policy**: <Geen Definities>
-* **Business services / Retail trade**: <Geen Definities>
-* **Health care / Medical / Nursing / Paramedical**: <Geen Definities>
-* **Catering / Tourism**: <Geen Definities>
-* **Legal**: <Geen Definities>
-* **Customer service / Call centre / Reception**: <Geen Definities>
-* **Marketing / Advertisement / Public relations / Communication**: <Geen Definities>
-* **Education / Training**: <Geen Definities>
-* **Research / Science / Laboratory**: <Geen Definities>
-* **Personnel matters / Human resources / Employment-finding**: <Geen Definities>
-* **Personal health car**: <Geen Definities>
-* **Editior / Journalism**: <Geen Definities>
-* **Sales / Commercial**: <Geen Definities>
-* **Cleaning / Housekeeing / Clean up**: <Geen Definities>
-* **Sport / Relaxation**: <Geen Definities>
-* **Security / Defence / Auxiliary service**: <Geen Definities>
-* **Culture / Arts / Creative**: <Geen Definities>
-* **Government service / Government**: <Geen Definities>
+* **Agricultural / Cattle breeding / Animal care / Nature conservation**: 
+* **Production / Crafts**: 
+* **Building industry**: 
+* **Technology / Engineering**: 
+* **IT / ICT / Software development/ Internet**: 
+* **Design / Architecture / Graphical**: 
+* **Financial administratieve / Accounting**: 
+* **Administratieve / Secretariat**: 
+* **Consulting / Staff / Policy**: 
+* **Business services / Retail trade**: 
+* **Health care / Medical / Nursing / Paramedical**: 
+* **Catering / Tourism**: 
+* **Legal**: 
+* **Customer service / Call centre / Reception**: 
+* **Marketing / Advertisement / Public relations / Communication**: 
+* **Education / Training**: 
+* **Research / Science / Laboratory**: 
+* **Personnel matters / Human resources / Employment-finding**: 
+* **Personal health car**: 
+* **Editior / Journalism**: 
+* **Sales / Commercial**: 
+* **Cleaning / Housekeeing / Clean up**: 
+* **Sport / Relaxation**: 
+* **Security / Defence / Auxiliary service**: 
+* **Culture / Arts / Creative**: 
+* **Government service / Government**: 
 
 
 De enumeratie SETU job category heeft de volgende kenmerken:
@@ -2135,14 +2135,14 @@ De enumeratie SETU job category heeft de volgende kenmerken:
 
 ### Soort ontheffing
 
-<font color="#0e0e0e">Het type ontheffing van arbeidsplicht. Voorbeelden: <i>structureel</i>, <i>tijdelijk</i>.</font>
+Het type ontheffing van arbeidsplicht. Voorbeelden: structureel , tijdelijk .
 
 Het enumeratie Soort ontheffing
  kent de volgende waarden:
 
-* **Ouder met kind<5**: <Geen Definities>
-* **Sociaal/medisch permanent,**: <Geen Definities>
-* **Sociaal/medisch tijdelijk,**: <Geen Definities>
+* **Ouder met kind<5**: 
+* **Sociaal/medisch permanent,**: 
+* **Sociaal/medisch tijdelijk,**: 
 
 
 De enumeratie Soort ontheffing
@@ -2173,15 +2173,15 @@ De enumeratie Soort ontheffing
 
 
 ### SoortWerk
-<font color="#0e0e0e">Soorten werkzaamheden die iemand uitvoert of nastreeft. Voorbeelden: <i>maken</i>, <i>helpen</i>, <i>vervoeren</i>.</font>
+Soorten werkzaamheden die iemand uitvoert of nastreeft. Voorbeelden: maken , helpen , vervoeren .
 
 Het enumeratie SoortWerk kent de volgende waarden:
 
-* **Aanpakken**: <Geen Definities>
-* **Helpen**: <Geen Definities>
-* **Maken**: <Geen Definities>
-* **Verkopen**: <Geen Definities>
-* **Vervoeren**: <Geen Definities>
+* **Aanpakken**: 
+* **Helpen**: 
+* **Maken**: 
+* **Verkopen**: 
+* **Vervoeren**: 
 
 
 De enumeratie SoortWerk heeft de volgende kenmerken:
@@ -2211,16 +2211,16 @@ De enumeratie SoortWerk heeft de volgende kenmerken:
 
 ### Taalvaardigheid
 
-<font color="#0e0e0e">Beheersingsniveau van de Nederlandse taal. </font>
+Beheersingsniveau van de Nederlandse taal.
 
 Het enumeratie Taalvaardigheid
  kent de volgende waarden:
 
-* **arm**: <Geen Definities>
-* **middelmatig**: <Geen Definities>
-* **voldoende**: <Geen Definities>
-* **goed**: <Geen Definities>
-* **uitstekend**: <Geen Definities>
+* **arm**: 
+* **middelmatig**: 
+* **voldoende**: 
+* **goed**: 
+* **uitstekend**: 
 
 
 De enumeratie Taalvaardigheid
@@ -2251,20 +2251,20 @@ De enumeratie Taalvaardigheid
 
 
 ### Vervoermiddel
-<font color="#0e0e0e">Beschikbare of gebruikte vervoermiddelen. Voorbeelden: <i>fiets</i>, <i>openbaar vervoer</i>, <i>auto</i>.</font>
+Beschikbare of gebruikte vervoermiddelen. Voorbeelden: fiets , openbaar vervoer , auto .
 
 Het enumeratie Vervoermiddel kent de volgende waarden:
 
-* **Openbaar vervoer**: <Geen Definities>
-* **Openbaar vervoer (week-ov)**: <Geen Definities>
-* **Openbaar vervoer (weekend-ov)**: <Geen Definities>
-* **Auto**: <Geen Definities>
-* **Motorfiets**: <Geen Definities>
-* **Bromfiets/scooter**: <Geen Definities>
-* **Fiets**: <Geen Definities>
-* **Lopen**: <Geen Definities>
-* **Geen**: <Geen Definities>
-* **Anders**: <Geen Definities>
+* **Openbaar vervoer**: 
+* **Openbaar vervoer (week-ov)**: 
+* **Openbaar vervoer (weekend-ov)**: 
+* **Auto**: 
+* **Motorfiets**: 
+* **Bromfiets/scooter**: 
+* **Fiets**: 
+* **Lopen**: 
+* **Geen**: 
+* **Anders**: 
 
 
 De enumeratie Vervoermiddel heeft de volgende kenmerken:
@@ -2294,21 +2294,21 @@ De enumeratie Vervoermiddel heeft de volgende kenmerken:
 
 ### Vervoersmogelijkheden
 
-<font color="#0e0e0e">Mate waarin iemand zich kan verplaatsen naar werk of activiteiten.</font>
+Mate waarin iemand zich kan verplaatsen naar werk of activiteiten.
 
 Het enumeratie Vervoersmogelijkheden
  kent de volgende waarden:
 
-* **Openbaar vervoer**: <Geen Definities>
-* **Openbaar vervoer (week-ov)**: <Geen Definities>
-* **Openbaar vervoer (weekend-ov)**: <Geen Definities>
-* **Auto**: <Geen Definities>
-* **Motorfiets**: <Geen Definities>
-* **Bromfiets/scooter**: <Geen Definities>
-* **Fiets**: <Geen Definities>
-* **Lopen**: <Geen Definities>
-* **Geen**: <Geen Definities>
-* **Anders**: <Geen Definities>
+* **Openbaar vervoer**: 
+* **Openbaar vervoer (week-ov)**: 
+* **Openbaar vervoer (weekend-ov)**: 
+* **Auto**: 
+* **Motorfiets**: 
+* **Bromfiets/scooter**: 
+* **Fiets**: 
+* **Lopen**: 
+* **Geen**: 
+* **Anders**: 
 
 
 De enumeratie Vervoersmogelijkheden
@@ -2340,16 +2340,16 @@ De enumeratie Vervoersmogelijkheden
 
 ### ZRM-score
 
-<font color="#0e0e0e">Zelfredzaamheidsscore op een domein volgens de ZRM. Voorbeelden: <i>onvoldoende</i>, <i>voldoende</i>, <i>volledig zelfredzaam</i>.</font>
+Zelfredzaamheidsscore op een domein volgens de ZRM. Voorbeelden: onvoldoende , voldoende , volledig zelfredzaam .
 
 Het enumeratie ZRM-score
  kent de volgende waarden:
 
-* **Acute problematiek**: <Geen Definities>
-* **Niet zelfredzaam**: <Geen Definities>
-* **Beperkt zelfredzaam**: <Geen Definities>
-* **Voldoende zelfredzaam**: <Geen Definities>
-* **Volledig zelfredzaam**: <Geen Definities>
+* **Acute problematiek**: 
+* **Niet zelfredzaam**: 
+* **Beperkt zelfredzaam**: 
+* **Voldoende zelfredzaam**: 
+* **Volledig zelfredzaam**: 
 
 
 De enumeratie ZRM-score

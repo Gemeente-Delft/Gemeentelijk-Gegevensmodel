@@ -312,12 +312,12 @@ Geen Definitie
 
 Het enumeratie Energielabel kent de volgende waarden:
 
-* **A**: <Geen Definities>
-* **B**: <Geen Definities>
-* **C**: <Geen Definities>
-* **D**: <Geen Definities>
-* **E**: <Geen Definities>
-* **F**: <Geen Definities>
+* **A**: 
+* **B**: 
+* **C**: 
+* **D**: 
+* **E**: 
+* **F**: 
 
 
 De enumeratie Energielabel heeft de volgende kenmerken:
@@ -334,7 +334,7 @@ De enumeratie Energielabel heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:10 |
     | modified | 2025-03-26 16:14:45 |
-    | id | EAID_db5e2b8c_6682_46ba_8c25_7d51776df380 |
+    | id | EAID_1a8005cb_f172_450d_ab54_ecb840bf59b6 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -350,13 +350,13 @@ Geen Definitie
 
 Het enumeratie Oppervlakte Woning kent de volgende waarden:
 
-* **kleiner dan 15 m2**: <Geen Definities>
-* **15 - 49 m2**: <Geen Definities>
-* **50 - 74 m2**: <Geen Definities>
-* **75 - 99 m2**: <Geen Definities>
-* **100 - 124 m2**: <Geen Definities>
-* **125 - 149 m2**: <Geen Definities>
-* **150 en groter**: <Geen Definities>
+* **kleiner dan 15 m2**: 
+* **15 - 49 m2**: 
+* **50 - 74 m2**: 
+* **75 - 99 m2**: 
+* **100 - 124 m2**: 
+* **125 - 149 m2**: 
+* **150 en groter**: 
 
 
 De enumeratie Oppervlakte Woning heeft de volgende kenmerken:
@@ -373,7 +373,7 @@ De enumeratie Oppervlakte Woning heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:10 |
     | modified | 2025-03-26 16:14:45 |
-    | id | EAID_fefd9067_f214_49d8_8339_452052125b4c |
+    | id | EAID_338c3674_e51b_4635_8850_a7e9c6fe24d1 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

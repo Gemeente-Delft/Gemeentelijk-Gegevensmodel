@@ -2,7 +2,10 @@
 ## Inleiding
 > **Definitie Model Beheer Openbare Ruimte:** 
 >
-> "Het informatiedomein dat gegevens omvat over:<br>1. De fysieke objecten in de publieke buitenruimte, inclusief hun kenmerken, locatie en conditie.<br>2. De processen en activiteiten gericht op het onderhouden, inrichten en beheren van deze objecten."
+> 
+> "Het informatiedomein dat gegevens omvat over:
+> 1. De fysieke objecten in de publieke buitenruimte, inclusief hun kenmerken, locatie en conditie.
+> 2. De processen en activiteiten gericht op het onderhouden, inrichten en beheren van deze objecten."
 
 ??? info "Kenmerken Model Model Beheer Openbare Ruimte"
     | Kenmerk | Waarde |
@@ -24,8 +27,8 @@ Het model 'Model Beheer Openbare Ruimte' kent de volgende objecttypen:
 * **Actie**: Kleinst mogelijke eenheid van werk die zinvol onderscheiden kan worden, uitgevoerd door een persoon of machine op 1 plek op 1 moment.
 * **Areaal**: Het verspreidingsgebied van een een soort, een levensgemeenschap of een biotooptype.
 * **CROW-Melding**: BOR-MELD is een CROW-standaard voor het vastleggen van meldingen.
-* **Deelplan/Veld**: <Geen Definities>
-* **Fase/Oplevering**: <Geen Definities>
+* **Deelplan/Veld**: 
+* **Fase/Oplevering**: 
 * **Geo-Object**: Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011]
 * **Grondbeheerder**: Beheerder van grondgrondbeheer., oplossing voor duurzaam landbeheer en voedselproductie
 * **Inspectie**: het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen.
@@ -907,11 +910,11 @@ Geen Definitie
 
 Het enumeratie CROW-Kwaliteitsniveaus kent de volgende waarden:
 
-* **Niveau A+**: <Geen Definities>
-* **Niveau A**: <Geen Definities>
-* **Niveau B**: <Geen Definities>
-* **Niveau C**: <Geen Definities>
-* **Niveau D**: <Geen Definities>
+* **Niveau A+**: 
+* **Niveau A**: 
+* **Niveau B**: 
+* **Niveau C**: 
+* **Niveau D**: 
 
 
 De enumeratie CROW-Kwaliteitsniveaus heeft de volgende kenmerken:
@@ -944,12 +947,12 @@ Geen Definitie
 
 Het enumeratie Energielabel kent de volgende waarden:
 
-* **A**: <Geen Definities>
-* **B**: <Geen Definities>
-* **C**: <Geen Definities>
-* **D**: <Geen Definities>
-* **E**: <Geen Definities>
-* **F**: <Geen Definities>
+* **A**: 
+* **B**: 
+* **C**: 
+* **D**: 
+* **E**: 
+* **F**: 
 
 
 De enumeratie Energielabel heeft de volgende kenmerken:
@@ -982,13 +985,13 @@ Geen Definitie
 
 Het enumeratie Oppervlakte Woning kent de volgende waarden:
 
-* **kleiner dan 15 m2**: <Geen Definities>
-* **15 - 49 m2**: <Geen Definities>
-* **50 - 74 m2**: <Geen Definities>
-* **75 - 99 m2**: <Geen Definities>
-* **100 - 124 m2**: <Geen Definities>
-* **125 - 149 m2**: <Geen Definities>
-* **150 en groter**: <Geen Definities>
+* **kleiner dan 15 m2**: 
+* **15 - 49 m2**: 
+* **50 - 74 m2**: 
+* **75 - 99 m2**: 
+* **100 - 124 m2**: 
+* **125 - 149 m2**: 
+* **150 en groter**: 
 
 
 De enumeratie Oppervlakte Woning heeft de volgende kenmerken:

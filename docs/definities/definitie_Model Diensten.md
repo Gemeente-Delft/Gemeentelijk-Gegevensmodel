@@ -57,7 +57,7 @@ Het model 'Model Diensten' kent de volgende objecttypen:
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aanvraag |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -91,7 +91,7 @@ Attributen van objecttype Aanvraag
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aanvraagtype |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -125,7 +125,7 @@ Attributen van objecttype Aanvraagtype
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Beschikking |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -159,7 +159,7 @@ Attributen van objecttype Beschikking
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Besluit |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -193,7 +193,7 @@ Attributen van objecttype Besluit
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Betalingsblokkade |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -227,7 +227,7 @@ Attributen van objecttype Betalingsblokkade
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Dienst |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -261,7 +261,7 @@ Attributen van objecttype Dienst
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Diensttype |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -295,7 +295,7 @@ Attributen van objecttype Diensttype
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Individuele plicht |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -329,7 +329,7 @@ Attributen van objecttype Individuele plicht
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Leveringscomponent |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -363,7 +363,7 @@ Attributen van objecttype Leveringscomponent
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Leveringscomponenttype |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -397,7 +397,7 @@ Attributen van objecttype Leveringscomponenttype
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Leveringsopdracht |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -431,7 +431,7 @@ Attributen van objecttype Leveringsopdracht
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Leveringsspecificatie |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -465,7 +465,7 @@ Attributen van objecttype Leveringsspecificatie
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Onderdeel beschikking |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -499,7 +499,7 @@ Attributen van objecttype Onderdeel beschikking
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Periodiek dienst (Bijz. bijstand) |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -533,7 +533,7 @@ Attributen van objecttype Periodiek dienst (Bijz. bijstand)
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Recht |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -567,7 +567,7 @@ Attributen van objecttype Recht
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Referteperiode |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -601,7 +601,7 @@ Attributen van objecttype Referteperiode
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Regeling |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -635,7 +635,7 @@ Attributen van objecttype Regeling
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Uitsluitingsgrond |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -669,7 +669,7 @@ Attributen van objecttype Uitsluitingsgrond
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verstrekkingsvorm |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -703,7 +703,7 @@ Attributen van objecttype Verstrekkingsvorm
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Voorliggende voorziening |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -737,7 +737,7 @@ Attributen van objecttype Voorliggende voorziening
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Voorwaarde |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -771,7 +771,7 @@ Attributen van objecttype Voorwaarde
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Voorwaardetype |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |

@@ -21,28 +21,30 @@
 
 Het model 'Reden aanvraag' kent de volgende objecttypen:
 
-* **Andere reden afwijkende startdatum**: <Geen Definities>
-* **Andere reden verzoek**: <Geen Definities>
-* **Diensten::Aanvraag**: <Geen Definities>
-* **Diensten::Aanvraag levensonderhoud**: <Geen Definities>
-* **Gestopt betaald werk**: <Geen Definities>
-* **Gestopt of verkocht eigen bedrijf**: <Geen Definities>
-* **Gestopte bijstanduitkering**: <Geen Definities>
-* **Gestopte detentie**: <Geen Definities>
-* **Gestopte of verlaagde alimentatie**: <Geen Definities>
-* **Gestopte studiefinanciering**: <Geen Definities>
-* **Gestopte uitkering**: <Geen Definities>
-* **Ingang bijstandsuitkering**: In de meeste gevallen is de startdatum van een dienst gelijk aan de datum eerste melding (melddatum). Echter, er zijn redenen om hiervan af te wijken. In dat geval wijkt de startdatum af van de melddatum. Ingangsdatum uitkering bevat een Reden afwijkende startdatum om op te nemen met welke reden een afwijkende ingangsdatum gehanteerd wordt.<br>Ingang bijstandsuitkering kan, zoals de naam al doet vermoeden, alleen van toepassing zijn indien het een aanvraag betreft van het diensttype 'Aanvulling levensonderhoud' (ALO)'.
-* **Levenssituatie::Levenssituatie**: <Geen Definities>
-* **Opname instelling**: <Geen Definities>
-* **Overleden partner**: <Geen Definities>
+* **Andere reden afwijkende startdatum**: 
+* **Andere reden verzoek**: 
+* **Diensten::Aanvraag**: 
+* **Diensten::Aanvraag levensonderhoud**: 
+* **Gestopt betaald werk**: 
+* **Gestopt of verkocht eigen bedrijf**: 
+* **Gestopte bijstanduitkering**: 
+* **Gestopte detentie**: 
+* **Gestopte of verlaagde alimentatie**: 
+* **Gestopte studiefinanciering**: 
+* **Gestopte uitkering**: 
+* **Ingang bijstandsuitkering**: 
+> In de meeste gevallen is de startdatum van een dienst gelijk aan de datum eerste melding (melddatum). Echter, er zijn redenen om hiervan af te wijken. In dat geval wijkt de startdatum af van de melddatum. Ingangsdatum uitkering bevat een Reden afwijkende startdatum om op te nemen met welke reden een afwijkende ingangsdatum gehanteerd wordt.
+> Ingang bijstandsuitkering kan, zoals de naam al doet vermoeden, alleen van toepassing zijn indien het een aanvraag betreft van het diensttype 'Aanvulling levensonderhoud' (ALO)'.
+* **Levenssituatie::Levenssituatie**: 
+* **Opname instelling**: 
+* **Overleden partner**: 
 * **Reden aanvraag**: Reden waarom dienst wordt aanvraagd bij gemeente.
-* **Reden aanvraag Levensonderhoud**: <Geen Definities>
-* **Reden afwijkende startdatum**: <Geen Definities>
-* **Verbroken relatie**: <Geen Definities>
-* **Vertrek uit asielzoekerscentrum**: <Geen Definities>
-* **Wachten beslissing instantie**: <Geen Definities>
-* **Wachten DigiD**: <Geen Definities>
+* **Reden aanvraag Levensonderhoud**: 
+* **Reden afwijkende startdatum**: 
+* **Verbroken relatie**: 
+* **Vertrek uit asielzoekerscentrum**: 
+* **Wachten beslissing instantie**: 
+* **Wachten DigiD**: 
 
 
 ## Objecttypen Reden aanvraag
@@ -125,7 +127,9 @@ Attributen van objecttype Andere reden verzoek
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Diensten::Aanvraag |
-    | toelichting | #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
+    | toelichting | 
+> #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.
+> #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -159,7 +163,9 @@ Attributen van objecttype Diensten::Aanvraag
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Diensten::Aanvraag levensonderhoud |
-    | toelichting | #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
+    | toelichting | 
+> #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.
+> #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -425,7 +431,9 @@ Attributen van objecttype Gestopte uitkering
 ### Ingang bijstandsuitkering
 > **Definitie Ingang bijstandsuitkering:** 
 >
-> In de meeste gevallen is de startdatum van een dienst gelijk aan de datum eerste melding (melddatum). Echter, er zijn redenen om hiervan af te wijken. In dat geval wijkt de startdatum af van de melddatum. Ingangsdatum uitkering bevat een Reden afwijkende startdatum om op te nemen met welke reden een afwijkende ingangsdatum gehanteerd wordt.<br>Ingang bijstandsuitkering kan, zoals de naam al doet vermoeden, alleen van toepassing zijn indien het een aanvraag betreft van het diensttype 'Aanvulling levensonderhoud' (ALO)'.
+> 
+> In de meeste gevallen is de startdatum van een dienst gelijk aan de datum eerste melding (melddatum). Echter, er zijn redenen om hiervan af te wijken. In dat geval wijkt de startdatum af van de melddatum. Ingangsdatum uitkering bevat een Reden afwijkende startdatum om op te nemen met welke reden een afwijkende ingangsdatum gehanteerd wordt.
+> Ingang bijstandsuitkering kan, zoals de naam al doet vermoeden, alleen van toepassing zijn indien het een aanvraag betreft van het diensttype 'Aanvulling levensonderhoud' (ALO)'.
 
 ??? info "Kenmerken Model Ingang bijstandsuitkering"
     | Eigenschap | Waarde |
@@ -465,7 +473,9 @@ Attributen van objecttype Ingang bijstandsuitkering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Levenssituatie::Levenssituatie |
-    | toelichting | #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
+    | toelichting | 
+> #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.
+> #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
     | synoniemen |  |
     | uri |  |
     | bron |  |

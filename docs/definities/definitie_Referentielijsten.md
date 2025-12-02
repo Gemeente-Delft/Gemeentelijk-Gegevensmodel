@@ -174,7 +174,7 @@ Attributen van objecttype Verblijfstitel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AardAantekening |
-    | toelichting | <memo>#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening |
+    | toelichting | #NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -212,7 +212,7 @@ Attributen van objecttype AardAantekening
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AardZakelijkRecht |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -250,7 +250,7 @@ Attributen van objecttype AardZakelijkRecht
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AardFiliatie |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -441,7 +441,7 @@ Attributen van objecttype CultuurcodeOnbebouwd
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | WOZ-Deelobjectcode |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -713,7 +713,7 @@ Attributen van objecttype RedenVerliesNationaliteit
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Reisdocumentsoort |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -751,7 +751,7 @@ Attributen van objecttype Reisdocumentsoort
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SBIActiviteit |
-    | toelichting | <memo>#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten |
+    | toelichting | #NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -793,7 +793,7 @@ Attributen van objecttype SBIActiviteit
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SoortGrootte |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -831,7 +831,7 @@ Attributen van objecttype SoortGrootte
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SoortWOZObject |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -870,7 +870,7 @@ Attributen van objecttype SoortWOZObject
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Valutasoort |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |

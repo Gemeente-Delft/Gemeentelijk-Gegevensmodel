@@ -21,7 +21,7 @@
 
 Het model 'View Betrokkene' kent de volgende objecttypen:
 
-* **RSGB**: <Geen Definities>
+* **RSGB**: 
 
 
 ## Objecttypen View Betrokkene

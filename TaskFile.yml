@@ -219,7 +219,7 @@ tasks:
     cmds:
       - echo "Building and deploying MkDocs and Mike..."
       - mkdocs build
-      - mike deploy "{{.VERSION}}"
+      - mike deploy "{{.VERSION}}" latest --update-aliases
       - mike set-default "{{.VERSION}}"
       - echo "Documentation deployed. Use 'mike serve' to view results..."
     shell: bash

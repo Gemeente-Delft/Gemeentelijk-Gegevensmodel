@@ -21,7 +21,7 @@
 
 Het model 'View (Zaak)objecten' kent de volgende objecttypen:
 
-* **RSGB**: <Geen Definities>
+* **RSGB**: 
 
 
 ## Objecttypen View (Zaak)objecten

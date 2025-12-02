@@ -588,10 +588,10 @@ Geen Definitie
 
 Het enumeratie Boolean kent de volgende waarden:
 
-* **Ja**: <Geen Definities>
-* **Nee**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **Ja**: 
+* **Nee**: 
+* **Onbekend**: 
+* **Leeg**: 
 
 
 De enumeratie Boolean heeft de volgende kenmerken:
@@ -608,7 +608,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_6082f7af_de40_4534_b2df_9367ede68149 |
+    | id | EAID_67148333_926e_438e_a8d6_bb6da1db09cc |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -662,8 +662,8 @@ Geen Definitie
 
 Het enumeratie Zonesoort kent de volgende waarden:
 
-* **GSM-Zone**: <Geen Definities>
-* **Vergunninghouderzone**: <Geen Definities>
+* **GSM-Zone**: 
+* **Vergunninghouderzone**: 
 
 
 De enumeratie Zonesoort heeft de volgende kenmerken:

@@ -24,9 +24,9 @@ Het model 'Model Onderwijs' kent de volgende objecttypen:
 * **Inschrijving**: Deelname van iemand aan een opleiding bij een onderwijsinstelling.
 * **Leerjaar**: Is de codering van het jaar of het niveau waarin de leerling onderwijs volgt.
 * **Leerling**: Mens die een opleiding volgt, heeft gevolgd of gaat volgen of opgaat of is opgegaan voor een toets. (Bron: KOI)
-* **Locatie**: De locatie beschrijft middels co&#246;rdinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)
+* **Locatie**: De locatie beschrijft middels coördinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)
 * **Loopbaanstap**: Een logische en ook uitdagende stap naar een volgende functie binnen dezelfde functiefamilie of een andere, op hetzelfde schaalniveau of op een schaalniveau hoger.
-* **Onderwijsloopbaan**: Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijs<font color="#0e0e0e">carri&#232;re</font>; schoolloopbaan; school<font color="#0e0e0e">carri&#232;re</font>; schooltijd; de schooljaren
+* **Onderwijsloopbaan**: Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijs carrière ; schoolloopbaan; school carrière ; schooltijd; de schooljaren
 * **Onderwijsniveau**: De hoogte van een soort onderwijs in relatie tot andere soorten onderwijs
 * **Onderwijssoort**: Typologie voor onderwijs
 * **Ouder Of Verzorger**: Een persoon die wettelijk verantwoordelijk is voor de zorg en opvoeding van een kind.
@@ -147,7 +147,7 @@ Attributen van objecttype Leerling
 ### Locatie
 > **Definitie Locatie:** 
 >
-> De locatie beschrijft middels co&#246;rdinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)
+> De locatie beschrijft middels coördinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)
 
 ??? info "Kenmerken Model Locatie"
     | Eigenschap | Waarde |
@@ -219,7 +219,7 @@ Attributen van objecttype Loopbaanstap
 ### Onderwijsloopbaan
 > **Definitie Onderwijsloopbaan:** 
 >
-> Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijs<font color="#0e0e0e">carri&#232;re</font>; schoolloopbaan; school<font color="#0e0e0e">carri&#232;re</font>; schooltijd; de schooljaren
+> Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijs carrière ; schoolloopbaan; school carrière ; schooltijd; de schooljaren
 
 ??? info "Kenmerken Model Onderwijsloopbaan"
     | Eigenschap | Waarde |
@@ -471,10 +471,10 @@ Geen Definitie
 
 Het enumeratie Boolean kent de volgende waarden:
 
-* **Ja**: <Geen Definities>
-* **Nee**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **Ja**: 
+* **Nee**: 
+* **Onbekend**: 
+* **Leeg**: 
 
 
 De enumeratie Boolean heeft de volgende kenmerken:
@@ -491,7 +491,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_c204f158_1d63_4d38_bd0e_80269d977d9d |
+    | id | EAID_a794d16c_bb1a_46a0_9eee_2b419e071a9d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -507,10 +507,10 @@ Geen Definitie
 
 Het enumeratie Boolean kent de volgende waarden:
 
-* **Ja**: <Geen Definities>
-* **Nee**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **Ja**: 
+* **Nee**: 
+* **Onbekend**: 
+* **Leeg**: 
 
 
 De enumeratie Boolean heeft de volgende kenmerken:
@@ -527,7 +527,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_cc4be979_4704_4dc4_9d3a_6b7c24db41df |
+    | id | EAID_f1f5785c_288c_4c3b_ae0e_85fe30d9ef6f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -543,11 +543,11 @@ Geen Definitie
 
 Het enumeratie Onderwijstype kent de volgende waarden:
 
-* **VMBO-T**: <Geen Definities>
-* **VMBO-K**: <Geen Definities>
-* **VMBO-B**: <Geen Definities>
-* **HAVO**: <Geen Definities>
-* **VWO**: <Geen Definities>
+* **VMBO-T**: 
+* **VMBO-K**: 
+* **VMBO-B**: 
+* **HAVO**: 
+* **VWO**: 
 
 
 De enumeratie Onderwijstype heeft de volgende kenmerken:

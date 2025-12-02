@@ -21,11 +21,11 @@
 
 Het model 'Semantische relaties' kent de volgende objecttypen:
 
-* **DetailleringKadastraleOnroerendZaken**: <Geen Definities>
-* **OverigImgeo**: <Geen Definities>
-* **DetailleringAdressenGebouwenEnTerreinen**: <Geen Definities>
-* **DetailleringWOZObjecttypen**: <Geen Definities>
-* **DetailleringSubjecten**: <Geen Definities>
+* **DetailleringKadastraleOnroerendZaken**: 
+* **OverigImgeo**: 
+* **DetailleringAdressenGebouwenEnTerreinen**: 
+* **DetailleringWOZObjecttypen**: 
+* **DetailleringSubjecten**: 
 
 
 ## Objecttypen Semantische relaties

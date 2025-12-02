@@ -21,21 +21,41 @@
 
 Het model 'Model Dienstverlening' kent de volgende objecttypen:
 
-* **Aanvraagdata**: Bron: GEN_REQ_DATA<br>ID: REQ_DATA icm VELD_NAAM
-* **AanvraagOfMelding**: Komt overeen met een VJV<br>Bron: GEM_VJV (Distinct op REQ_ID)<br>ID: REQ_ID
+* **Aanvraagdata**: 
+> Bron: GEN\_REQ\_DATA
+> ID: REQ\_DATA icm VELD\_NAAM
+* **AanvraagOfMelding**: 
+> Komt overeen met een VJV
+> Bron: GEM\_VJV (Distinct op REQ\_ID)
+> ID: REQ\_ID
 * **Afspraakstatus**: de toestand van de afspraak
 * **Artikel**: Tekst die is gemaakt om gepubliceerd te worden als een onafhankelijk deel van een tijdschrift, krant, encyclopedie of ander werk
 * **Balieafspraak**: Balieafspraken zijn afspraken voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden of gaat plaatsvinden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.
 * **ExterneBron**: Bron buiten de eigen organisatie
-* **Formuliersoort**: Bron: GEM_FORM<br>ID: FORM_ID
-* **Formuliersoortveld**: Bron: GEM_VELD<br>ID: FORM_ID en VELD_NAAM
+* **Formuliersoort**: 
+> Bron: GEM\_FORM
+> ID: FORM\_ID
+* **Formuliersoortveld**: 
+> Bron: GEM\_VELD
+> ID: FORM\_ID en VELD\_NAAM
 * **Klantbeoordeling**: goed- of afkeurende uitspraak; = mening, opvatting
 * **Klantbeoordelingreden**: Reden voor de beoordeling
 * **MOR-AanvraagOfMelding**: Bericht van een inwoner over een gebrek of opvallendheid in de openbare ruimte
-* **Onderwerp**: Bron: GEM_VJV_ONDERWERP<br>ID: ONDERWERP_ID
+* **Onderwerp**: 
+> Bron: GEM\_VJV\_ONDERWERP
+> ID: ONDERWERP\_ID
 * **ProductOfDienst**: Bron: QP_CALENDAR.CFM_SERVICES
 * **Telefoononderwerp**: Onderwerp waarover het telefooncontact gaat
-* **Telefoonstatus**: ABANDONEDALERTING: “Opgehangen tijdens overgaan telefoon”<br> DROPPEDCANCELED: “Opgehangen door systeem”<br> ABANDONEDQUEUED: “Opgehangen tijdens wachten, zonder boodschap. ”<br> CONNECTEDDIRECT: “Direct verbonden”<br> CONNECTEDQUEUEDANNOUNCE: “Verbonden na wachtrij met boodschap”<br> AbandonedQUEUEDANNOUNCE: “Opgehangen in wachtrij met boodschap”<br> DroppedBusy: “Opgehangen door systeem, te druk”<br> REJECTED: “Geweigerd door systeem”<br> Droppedoverload: “Opgehangen door systeem vanwege overbelasting”
+* **Telefoonstatus**: 
+> ABANDONEDALERTING: “Opgehangen tijdens overgaan telefoon”
+> DROPPEDCANCELED: “Opgehangen door systeem”
+> ABANDONEDQUEUED: “Opgehangen tijdens wachten, zonder boodschap. ”
+> CONNECTEDDIRECT: “Direct verbonden”
+> CONNECTEDQUEUEDANNOUNCE: “Verbonden na wachtrij met boodschap”
+> AbandonedQUEUEDANNOUNCE: “Opgehangen in wachtrij met boodschap”
+> DroppedBusy: “Opgehangen door systeem, te druk”
+> REJECTED: “Geweigerd door systeem”
+> Droppedoverload: “Opgehangen door systeem vanwege overbelasting”
 * **Telefoontje**: De telefoontgesprekken zijn alle keren dat iemand naar de gemeente belt en het telefoonsysteem neemt deze telefoongesprekken aan. Ongeacht of iemand daarna ophangt, door het systeem uit de wachtrij wordt gezet, doorverbonden wordt met een derde partij of er werkelijk wordt opgenomen.
 
 
@@ -45,7 +65,9 @@ Het model 'Model Dienstverlening' kent de volgende objecttypen:
 ### Aanvraagdata
 > **Definitie Aanvraagdata:** 
 >
-> Bron: GEN_REQ_DATA<br>ID: REQ_DATA icm VELD_NAAM
+> 
+> Bron: GEN\_REQ\_DATA
+> ID: REQ\_DATA icm VELD\_NAAM
 
 ??? info "Kenmerken Model Aanvraagdata"
     | Eigenschap | Waarde |
@@ -65,7 +87,9 @@ Het model 'Model Dienstverlening' kent de volgende objecttypen:
     | gemma_naam | Aanvraagdata |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-6f15e2ca-531d-4879-b087-f43559d8c3fd](https://gemmaonline.nl/index.php/GEMMA/id-6f15e2ca-531d-4879-b087-f43559d8c3fd) |
-    | gemma_definitie | Bron: GEN_REQ_DATA<br>ID: REQ_DATA icm VELD_NAAM |
+    | gemma_definitie | 
+> Bron: GEN\_REQ\_DATA
+> ID: REQ\_DATA icm VELD\_NAAM |
     | gemma_toelichting |  |
     
 
@@ -81,7 +105,10 @@ Attributen van objecttype Aanvraagdata
 ### AanvraagOfMelding
 > **Definitie AanvraagOfMelding:** 
 >
-> Komt overeen met een VJV<br>Bron: GEM_VJV (Distinct op REQ_ID)<br>ID: REQ_ID
+> 
+> Komt overeen met een VJV
+> Bron: GEM\_VJV (Distinct op REQ\_ID)
+> ID: REQ\_ID
 
 ??? info "Kenmerken Model AanvraagOfMelding"
     | Eigenschap | Waarde |
@@ -101,7 +128,10 @@ Attributen van objecttype Aanvraagdata
     | gemma_naam | AanvraagOfMelding |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f14fa1cf-f2c7-4bd6-862d-28ff1616a882](https://gemmaonline.nl/index.php/GEMMA/id-f14fa1cf-f2c7-4bd6-862d-28ff1616a882) |
-    | gemma_definitie | Komt overeen met een VJV<br>Bron: GEM_VJV (Distinct op REQ_ID)<br>ID: REQ_ID |
+    | gemma_definitie | 
+> Komt overeen met een VJV
+> Bron: GEM\_VJV (Distinct op REQ\_ID)
+> ID: REQ\_ID |
     | gemma_toelichting |  |
     
 
@@ -281,7 +311,9 @@ Attributen van objecttype ExterneBron
 ### Formuliersoort
 > **Definitie Formuliersoort:** 
 >
-> Bron: GEM_FORM<br>ID: FORM_ID
+> 
+> Bron: GEM\_FORM
+> ID: FORM\_ID
 
 ??? info "Kenmerken Model Formuliersoort"
     | Eigenschap | Waarde |
@@ -318,7 +350,9 @@ Attributen van objecttype Formuliersoort
 ### Formuliersoortveld
 > **Definitie Formuliersoortveld:** 
 >
-> Bron: GEM_VELD<br>ID: FORM_ID en VELD_NAAM
+> 
+> Bron: GEM\_VELD
+> ID: FORM\_ID en VELD\_NAAM
 
 ??? info "Kenmerken Model Formuliersoortveld"
     | Eigenschap | Waarde |
@@ -472,7 +506,9 @@ Attributen van objecttype MOR-AanvraagOfMelding
 ### Onderwerp
 > **Definitie Onderwerp:** 
 >
-> Bron: GEM_VJV_ONDERWERP<br>ID: ONDERWERP_ID
+> 
+> Bron: GEM\_VJV\_ONDERWERP
+> ID: ONDERWERP\_ID
 
 ??? info "Kenmerken Model Onderwerp"
     | Eigenschap | Waarde |
@@ -492,7 +528,9 @@ Attributen van objecttype MOR-AanvraagOfMelding
     | gemma_naam | Onderwerp |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-bc793405-f822-4a23-a8dc-74206f1d45df](https://gemmaonline.nl/index.php/GEMMA/id-bc793405-f822-4a23-a8dc-74206f1d45df) |
-    | gemma_definitie | Bron: GEM_VJV_ONDERWERP<br>ID: ONDERWERP_ID |
+    | gemma_definitie | 
+> Bron: GEM\_VJV\_ONDERWERP
+> ID: ONDERWERP\_ID |
     | gemma_toelichting |  |
     
 
@@ -581,7 +619,16 @@ Attributen van objecttype Telefoononderwerp
 ### Telefoonstatus
 > **Definitie Telefoonstatus:** 
 >
-> ABANDONEDALERTING: “Opgehangen tijdens overgaan telefoon”<br> DROPPEDCANCELED: “Opgehangen door systeem”<br> ABANDONEDQUEUED: “Opgehangen tijdens wachten, zonder boodschap. ”<br> CONNECTEDDIRECT: “Direct verbonden”<br> CONNECTEDQUEUEDANNOUNCE: “Verbonden na wachtrij met boodschap”<br> AbandonedQUEUEDANNOUNCE: “Opgehangen in wachtrij met boodschap”<br> DroppedBusy: “Opgehangen door systeem, te druk”<br> REJECTED: “Geweigerd door systeem”<br> Droppedoverload: “Opgehangen door systeem vanwege overbelasting”
+> 
+> ABANDONEDALERTING: “Opgehangen tijdens overgaan telefoon”
+> DROPPEDCANCELED: “Opgehangen door systeem”
+> ABANDONEDQUEUED: “Opgehangen tijdens wachten, zonder boodschap. ”
+> CONNECTEDDIRECT: “Direct verbonden”
+> CONNECTEDQUEUEDANNOUNCE: “Verbonden na wachtrij met boodschap”
+> AbandonedQUEUEDANNOUNCE: “Opgehangen in wachtrij met boodschap”
+> DroppedBusy: “Opgehangen door systeem, te druk”
+> REJECTED: “Geweigerd door systeem”
+> Droppedoverload: “Opgehangen door systeem vanwege overbelasting”
 
 ??? info "Kenmerken Model Telefoonstatus"
     | Eigenschap | Waarde |
@@ -668,10 +715,10 @@ Geen Definitie
 
 Het enumeratie Boolean kent de volgende waarden:
 
-* **Ja**: <Geen Definities>
-* **Nee**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **Ja**: 
+* **Nee**: 
+* **Onbekend**: 
+* **Leeg**: 
 
 
 De enumeratie Boolean heeft de volgende kenmerken:
@@ -688,7 +735,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_58779981_077c_470c_8437_74505a39985c |
+    | id | EAID_bdd71a8a_45db_41a3_8983_662a628eb8a0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

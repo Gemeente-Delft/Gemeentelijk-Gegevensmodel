@@ -24,7 +24,10 @@ Het model 'Model Toepasbare Regels' kent de volgende objecttypen:
 * **Conclusie**: Conclusie van de check. Antwoord op de vraag of ik een melding moet doen of een vergunning aan moet vragen voor een bepaalde activiteit.
 * **Indieningsvereisten**: Dat wat de initiatiefnemer moet aanleveren om het bevoegd gezag een aanvraag te kunnen laten beoordelen. De indieningsvereisten is de set aan informatie (gegevens en / of bijlagen) die aan een aanvraag moet worden toegevoegd voor een bepaalde vergunning of melding.
 * **Maatregelen**: Beschrijft welke handelingen iemand moet uitvoeren om aan Voorschriften te kunnen voldoen.
-* **Toepasbare Regel**: Vanwege de leesbaarheid wordt gewerkt met de term Toepasbare regel ipv regelbeheersobject<br>Een regelbeheerobject heeft een koppeling met een samenhangende set met regels om een afleiding te kunnen doen. Het regelbeheerobject ‘conclusie gevelaanpassing’ kan een vraag beantwoorden zoals: “Heb ik een vergunning nodig voor het veranderen van een kozijn, kozijninvulling of gevelpaneel”. Het regelbeheerobject ‘melding lozing’ beantwoordt de vraag “Wat moet ik aan informatie (gegevens en documenten) aanleveren als ik ga lozen vanuit particuliere huishoudens”. Het regelbeheerobject “Opslaan van gasolie smeerolie of afgewerkte olie in een bovengrondse opslagtank” geeft aan welke maatregelen genomen dienen te worden.<br>Het regelbeheerobject is onderdeel van de functionele structuur. De set met regels is gedefinieerd in het Toepasbare regelbestand2.
+* **Toepasbare Regel**: 
+> Vanwege de leesbaarheid wordt gewerkt met de term Toepasbare regel ipv regelbeheersobject
+> Een regelbeheerobject heeft een koppeling met een samenhangende set met regels om een afleiding te kunnen doen. Het regelbeheerobject ‘conclusie gevelaanpassing’ kan een vraag beantwoorden zoals: “Heb ik een vergunning nodig voor het veranderen van een kozijn, kozijninvulling of gevelpaneel”. Het regelbeheerobject ‘melding lozing’ beantwoordt de vraag “Wat moet ik aan informatie (gegevens en documenten) aanleveren als ik ga lozen vanuit particuliere huishoudens”. Het regelbeheerobject “Opslaan van gasolie smeerolie of afgewerkte olie in een bovengrondse opslagtank” geeft aan welke maatregelen genomen dienen te worden.
+> Het regelbeheerobject is onderdeel van de functionele structuur. De set met regels is gedefinieerd in het Toepasbare regelbestand2.
 * **ToepasbareRegelBestand**: Bestand met aangeleverde toepasbare regels
 * **Uitvoeringsregel**: De uitvoeringsregels bepalen hoe de benodigde gegevens (input data) wordt uitgevraagd. Dit kan op verschillende manieren gebeuren zoals een vraag aan een initiatiefnemer of een bevraging van een registratie.
 
@@ -137,7 +140,10 @@ Attributen van objecttype Maatregelen
 ### Toepasbare Regel
 > **Definitie Toepasbare Regel:** 
 >
-> Vanwege de leesbaarheid wordt gewerkt met de term Toepasbare regel ipv regelbeheersobject<br>Een regelbeheerobject heeft een koppeling met een samenhangende set met regels om een afleiding te kunnen doen. Het regelbeheerobject ‘conclusie gevelaanpassing’ kan een vraag beantwoorden zoals: “Heb ik een vergunning nodig voor het veranderen van een kozijn, kozijninvulling of gevelpaneel”. Het regelbeheerobject ‘melding lozing’ beantwoordt de vraag “Wat moet ik aan informatie (gegevens en documenten) aanleveren als ik ga lozen vanuit particuliere huishoudens”. Het regelbeheerobject “Opslaan van gasolie smeerolie of afgewerkte olie in een bovengrondse opslagtank” geeft aan welke maatregelen genomen dienen te worden.<br>Het regelbeheerobject is onderdeel van de functionele structuur. De set met regels is gedefinieerd in het Toepasbare regelbestand2.
+> 
+> Vanwege de leesbaarheid wordt gewerkt met de term Toepasbare regel ipv regelbeheersobject
+> Een regelbeheerobject heeft een koppeling met een samenhangende set met regels om een afleiding te kunnen doen. Het regelbeheerobject ‘conclusie gevelaanpassing’ kan een vraag beantwoorden zoals: “Heb ik een vergunning nodig voor het veranderen van een kozijn, kozijninvulling of gevelpaneel”. Het regelbeheerobject ‘melding lozing’ beantwoordt de vraag “Wat moet ik aan informatie (gegevens en documenten) aanleveren als ik ga lozen vanuit particuliere huishoudens”. Het regelbeheerobject “Opslaan van gasolie smeerolie of afgewerkte olie in een bovengrondse opslagtank” geeft aan welke maatregelen genomen dienen te worden.
+> Het regelbeheerobject is onderdeel van de functionele structuur. De set met regels is gedefinieerd in het Toepasbare regelbestand2.
 
 ??? info "Kenmerken Model Toepasbare Regel"
     | Eigenschap | Waarde |
@@ -157,7 +163,9 @@ Attributen van objecttype Maatregelen
     | gemma_naam | ToepasbareRegel |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-b2498fa2-f9ff-48dd-946d-8b8ed395da81](https://gemmaonline.nl/index.php/GEMMA/id-b2498fa2-f9ff-48dd-946d-8b8ed395da81) |
-    | gemma_definitie | Vanwege de leesbaarheid wordt gewerkt met de term Toepasbare regel ipv regelbeheersobject<br>Een regelbeheerobject heeft een koppeling met een samenhangende set met regels om een afleiding te kunnen doen. Het regelbeheerobject ‘conclusie gevelaanpassing’ |
+    | gemma_definitie | 
+> Vanwege de leesbaarheid wordt gewerkt met de term Toepasbare regel ipv regelbeheersobject
+> Een regelbeheerobject heeft een koppeling met een samenhangende set met regels om een afleiding te kunnen doen. Het regelbeheerobject ‘conclusie gevelaanpassing’ |
     | gemma_toelichting |  |
     
 

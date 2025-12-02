@@ -2,13 +2,13 @@
 ## Inleiding
 > **Definitie Model Inkomen:** 
 >
-> Het informatiedomein dat gegevens omvat over inkomensvoorzieningen, -regelingen en financi&#235;le ondersteuning voor inwoners, gericht op het waarborgen van bestaanszekerheid en participatie in de samenleving.
+> Het informatiedomein dat gegevens omvat over inkomensvoorzieningen, -regelingen en financiële ondersteuning voor inwoners, gericht op het waarborgen van bestaanszekerheid en participatie in de samenleving.
 
 ??? info "Kenmerken Model Model Inkomen"
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Inkomen |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -21,17 +21,17 @@
 
 Het model 'Model Inkomen' kent de volgende objecttypen:
 
-* **Component**: <Geen Definities>
-* **ComponentSoort**: <Geen Definities>
+* **Component**: 
+* **ComponentSoort**: 
 * **Huisvestingsoort**: Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen.
 * **Inkomensvoorziening**: Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving
 * **Inkomensvoorzieningsoort**: Typering van een inkomensvoorziening
 * **RedenBlokkering**: Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen.
 * **RedenInstroom**: De reden waarom de persoon de uitkering heeft gekregen. Geeft de reden van aanvraag van uitkering weer. Nodig voor diepere analyse van stand van uitkeringen. Omdat we willen weten waarom mensen nstromen. Bv geen werk meer og geen andere uitkering, verhuizing.
-* **RedenUitstroom**: De reden waarom de uitkering aan een persoon is beeindgd. Reden toevoeging: Geeft de reden van uitstroom aan. Waarom is de uitkering be&#235;indigd. Nodig voor diepere analyse van stand. Meet of je beleid of het lukt om mensen naar werk te laten stromen. van uitkeringen.
+* **RedenUitstroom**: De reden waarom de uitkering aan een persoon is beeindgd. Reden toevoeging: Geeft de reden van uitstroom aan. Waarom is de uitkering beëindigd. Nodig voor diepere analyse van stand. Meet of je beleid of het lukt om mensen naar werk te laten stromen. van uitkeringen.
 * **Regeling**: Een Regeling is gekoppeld aan een ingeschreven persoon (client) en beschrijft de specifieke afspraken of voorwaarden waaronder inkomensondersteuning wordt verleend. Een regeling heeft altijd een relatie met een RegelingSoort, die het type regeling specificeert.
 * **Regelingsoort**: Typologie van een regeling
-* **UitkeringsRun**: <Geen Definities>
+* **UitkeringsRun**: 
 
 
 ## Objecttypen Model Inkomen
@@ -132,7 +132,7 @@ Attributen van objecttype ComponentSoort
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Huisvestingsoort |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -263,7 +263,7 @@ Attributen van objecttype Inkomensvoorzieningsoort
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | RedenBlokkering |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -301,7 +301,7 @@ Attributen van objecttype RedenBlokkering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | RedenInstroom |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -335,13 +335,13 @@ Attributen van objecttype RedenInstroom
 ### RedenUitstroom
 > **Definitie RedenUitstroom:** 
 >
-> De reden waarom de uitkering aan een persoon is beeindgd. Reden toevoeging: Geeft de reden van uitstroom aan. Waarom is de uitkering be&#235;indigd. Nodig voor diepere analyse van stand. Meet of je beleid of het lukt om mensen naar werk te laten stromen. van uitkeringen.
+> De reden waarom de uitkering aan een persoon is beeindgd. Reden toevoeging: Geeft de reden van uitstroom aan. Waarom is de uitkering beëindigd. Nodig voor diepere analyse van stand. Meet of je beleid of het lukt om mensen naar werk te laten stromen. van uitkeringen.
 
 ??? info "Kenmerken Model RedenUitstroom"
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | RedenUitstroom |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -495,15 +495,15 @@ Geen Definitie
 
 Het enumeratie Wet kent de volgende waarden:
 
-* **Niet van toepassing**: <Geen Definities>
-* **Wmo**: <Geen Definities>
+* **Niet van toepassing**: 
+* **Wmo**: 
 * **Jeugdwet**: dere
-* **Andere wet**: <Geen Definities>
-* **Leeg**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Participatiewet PW-I**: <Geen Definities>
-* **I.O.A.W./I.O.A.Z.**: <Geen Definities>
-* **Bijzondere Bijstand**: <Geen Definities>
+* **Andere wet**: 
+* **Leeg**: 
+* **Onbekend**: 
+* **Participatiewet PW-I**: 
+* **I.O.A.W./I.O.A.Z.**: 
+* **Bijzondere Bijstand**: 
 
 
 De enumeratie Wet heeft de volgende kenmerken:
@@ -520,7 +520,7 @@ De enumeratie Wet heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:12:49 |
     | modified | 2025-03-26 16:14:37 |
-    | id | EAID_7bf4455c_af59_426f_8d32_5403e3efdbee |
+    | id | EAID_917acd0d_ab0f_46cb_a47c_c694cbb79ea6 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
