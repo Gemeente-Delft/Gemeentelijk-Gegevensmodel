@@ -33,6 +33,7 @@ vars:
   GGM: "{{.VERSION_DIR}}/{{.GGM_FILE}}"
   EXCEL: "{{.VERSION_DIR}}/{{.EXCEL_FILE}}"
   LOD: "{{.VERSION_DIR}}/{{.LOD_FILE}}"
+  MIM: "{{.VERSION_DIR}}/{{.GGM_MIM_FILE}}"
   TRANSLATIONS_DIR: "{{.VERSION_DIR}}/{{.TRANSLATIONS_DIR}}"
   i18N_FILE: "{{.TRANSLATIONS_DIR}}/{{.i18N_FILE}}"
   GGM_ROOT_SCHEMA: "GGM_ROOT_SCHEMA"
@@ -201,6 +202,14 @@ tasks:
       - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t ttl -f "{{.LOD}}" --linked_data_namespace {{.LINKED_DATA_NS}}
     shell: bash
 
+  generate-mim:
+    desc: "Generate MIM Version from model to repository {{.MIM}}."
+    deps: [import-xmi]
+    cmds:
+      - echo "Generating MIM version in repo "{{.MIM}}"..."
+      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t eamimrepo -f "{{.MIM}}" --tag_strategy upsert
+    shell: bash
+
   generate-gemma:
     desc: "Generate the Excel specification from the model. Generating '{{.EXCEL}}'"
     deps: [import-xmi]
@@ -219,7 +228,7 @@ tasks:
     cmds:
       - echo "Building and deploying MkDocs and Mike..."
       - mkdocs build
-      - mike deploy "{{.VERSION}}"
+      - mike deploy "{{.VERSION}}" latest --update-aliases
       - mike set-default "{{.VERSION}}"
       - echo "Documentation deployed. Use 'mike serve' to view results..."
     shell: bash
@@ -250,6 +259,7 @@ tasks:
       - task: generate-translations
       - task: deploy-docs 
       - task: generate-lod
+      - task: generate-mim
       - echo "Full deployment completed."
     shell: bash
 

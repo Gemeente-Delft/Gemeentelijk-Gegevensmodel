@@ -30,7 +30,9 @@ Het model 'Model Inkoop' kent de volgende objecttypen:
 * **CPV-code**: De Common Procurement Vocabulary (CPV-codes) is een gemeenschappelijke woordenlijst van de EU, alle mogelijke soorten overheidsopdrachten voor diensten, leveringen en werken hebben een eigen code gekregen. Aanbestedende diensten moeten bij Europese aanbestedingen dit classificatiesysteem toepassen.
 * **FormulierInhuur**: Formulier ten behoeve van inhuur personeel
 * **FormulierVerlengingInhuur**: Formulier ten behoeve van verlenging inhuur personeel
-* **Gunning**: Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding<br>Of voor levering personeel
+* **Gunning**: 
+> Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding
+> Of voor levering personeel
 * **Inkooppakket**: Standaard indeling om de werken, diensten en leveringen die de aanbestedende dienst helpt bij het structureren van haar uitgaven. Samenhangende leveringen, diensten en producten zijn hierin gegroepeerd.
 * **Inschrijving**: Inschrijving op een nationale of Europese aanbesteding
 * **Kandidaat**: Iemand die een bepaalde baan of functie wil
@@ -124,7 +126,6 @@ Attributen van objecttype Aanbesteding Inhuur
 | :--- | :--- | :--- |
 | datumVerzending | DateTime |  |
 | status | AN80 |  |
-| datumSluiting | DateTime |  |
 | titel | AN200 |  |
 | type | Enumeratie: "Opdrachtcategorie" |  |
 | publicatie | AN80 |  |
@@ -429,7 +430,9 @@ Attributen van objecttype FormulierVerlengingInhuur
 ### Gunning
 > **Definitie Gunning:** 
 >
-> Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding<br>Of voor levering personeel
+> 
+> Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding
+> Of voor levering personeel
 
 ??? info "Kenmerken Model Gunning"
     | Eigenschap | Waarde |
@@ -449,7 +452,9 @@ Attributen van objecttype FormulierVerlengingInhuur
     | gemma_naam | Gunning |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-70e40543-6a99-433d-8a01-f4273e308410](https://gemmaonline.nl/index.php/GEMMA/id-70e40543-6a99-433d-8a01-f4273e308410) |
-    | gemma_definitie | Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding<br>Of voor levering personeel |
+    | gemma_definitie | 
+> Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding
+> Of voor levering personeel |
     | gemma_toelichting |  |
     
 
@@ -804,7 +809,11 @@ Attributen van objecttype StartformulierAanbesteden
 | toelichtingAanvullendeOpdracht | text | Zijn er mogelijk nog aanvullende of gerelateerde opdrachten, die je ook wilt verstrekken aan de beoogde opdrachtnemer? |
 | beoogdeLooptijd | int | Beoogde looptijd in jaren |
 | beoogdeTotaleOpdrachtwaarde | Bedrag |  |
-| indicatieBeoogdeAanbestedingOnderhands | Boolean | Welke aanbestedingsprocedure ben je voornemens te volgen?<br><ol><br> <li>1-op-1 (enkelvoudig onderhands) of 3 tot 5 offertes (meervoudig onderhands)</li><br> <li>Nationale of Europese aanbesteding </li><br></ol> |
+| indicatieBeoogdeAanbestedingOnderhands | Boolean | 
+> Welke aanbestedingsprocedure ben je voornemens te volgen?
+>
+> 1. 1-op-1 (enkelvoudig onderhands) of 3 tot 5 offertes (meervoudig onderhands)
+> 2. Nationale of Europese aanbesteding |
 | indicatieBeoogdeProcKomtOvereen | boolean | Komt - op basis van de hierboven genoemde totale opdrachtwaarde - de beoogde aanbestedings-procedure overeen met de voorgeschreven procedure uit het Procedure-overzicht en/of het 'groene' gedeelte in de kleurentabel uit de gids proportionaliteit? |
 
 
@@ -857,10 +866,10 @@ Geen Definitie
 
 Het enumeratie Aanbestedingsoort kent de volgende waarden:
 
-* **Enkelvoudig onderhands**: <Geen Definities>
-* **Meervoudig onderhands**: <Geen Definities>
-* **Nationale aanbesteding**: <Geen Definities>
-* **Europese aanbesteding**: <Geen Definities>
+* **Enkelvoudig onderhands**: 
+* **Meervoudig onderhands**: 
+* **Nationale aanbesteding**: 
+* **Europese aanbesteding**: 
 
 
 De enumeratie Aanbestedingsoort heeft de volgende kenmerken:
@@ -893,9 +902,9 @@ Geen Definitie
 
 Het enumeratie Inkooprol kent de volgende waarden:
 
-* **Beheerder**: <Geen Definities>
-* **Eigenaar**: <Geen Definities>
-* **Inkoopadviseur**: <Geen Definities>
+* **Beheerder**: 
+* **Eigenaar**: 
+* **Inkoopadviseur**: 
 
 
 De enumeratie Inkooprol heeft de volgende kenmerken:
@@ -928,10 +937,10 @@ Geen Definitie
 
 Het enumeratie Opdrachtcategorie kent de volgende waarden:
 
-* **Leveringen**: <Geen Definities>
-* **Diensten - regulier**: <Geen Definities>
-* **Diensten - sociale of specifieke diensten**: <Geen Definities>
-* **Werken**: <Geen Definities>
+* **Leveringen**: 
+* **Diensten - regulier**: 
+* **Diensten - sociale of specifieke diensten**: 
+* **Werken**: 
 
 
 De enumeratie Opdrachtcategorie heeft de volgende kenmerken:
@@ -964,9 +973,9 @@ Geen Definitie
 
 Het enumeratie Opdrachtsoort kent de volgende waarden:
 
-* **Opdracht voor levering, diensten of werken**: <Geen Definities>
-* **Inhuur extern personeel**: <Geen Definities>
-* **Subsidies**: <Geen Definities>
+* **Opdracht voor levering, diensten of werken**: 
+* **Inhuur extern personeel**: 
+* **Subsidies**: 
 
 
 De enumeratie Opdrachtsoort heeft de volgende kenmerken:

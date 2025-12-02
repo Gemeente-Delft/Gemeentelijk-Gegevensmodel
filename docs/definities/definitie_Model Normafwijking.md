@@ -21,11 +21,11 @@
 
 Het model 'Model Normafwijking' kent de volgende objecttypen:
 
-* **Afwijkende maatregel**: <Geen Definities>
+* **Afwijkende maatregel**: 
 * **Boete**: Een boete is de uitkomst van een onderzoek naar rechtmatigheid. Dit leidt in principe tot een terug te vorderen bedrag. Er is voor gekozen om dit als aparte klasse te modelleren en niet als typering van een vordering, omdat we dit gegeven ook willen gebruiken bij risicoprofilering. Als de vordering niet (meer) bestaat, zou dit gegeven daarmee niet beschikbaar zijn.Daarnaast kan dit ook helpen bij het vastleggen van een boete van een poging tot fraude (zonder financiele consequenties, waardoor geen vordering is ontstaan. (tijdig ondekte valsheid in geschifte e.d.).Bij bedragen hoger dan 50.000 euro, wordt aangifte van fraude gedaan en volgt strafrechtelijk onderzoek.Feitelijk is het uitgangspunt bij het opleggen van een boete dat er altijd sprake is van opzet. Daarom is een apart gegeven Fraude niet opgenomen.
-* **Maatregel**: <Geen Definities>
-* **Maatregel op uitkering**: <Geen Definities>
-* **Normafwijking**: <Geen Definities>
+* **Maatregel**: 
+* **Maatregel op uitkering**: 
+* **Normafwijking**: 
 
 
 ## Objecttypen Model Normafwijking
@@ -40,14 +40,14 @@ Het model 'Model Normafwijking' kent de volgende objecttypen:
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Afwijkende maatregel |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:32:57 |
+    | modified | 2025-08-06 14:19:41 |
     | id | EAID_1BD0DD3A_888E_945B_4A20_276CADAE4D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -74,14 +74,14 @@ Attributen van objecttype Afwijkende maatregel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Boete |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:33:23 |
+    | modified | 2025-08-06 14:19:41 |
     | id | EAID_05E49616_803F_4C1B_9663_262C4A191DF9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -108,14 +108,14 @@ Attributen van objecttype Boete
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Maatregel |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:33:35 |
+    | modified | 2025-08-06 14:19:41 |
     | id | EAID_0B63B508_9F69_A5D7_4387_2632D2C24782 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -142,14 +142,14 @@ Attributen van objecttype Maatregel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Maatregel op uitkering |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:33:47 |
+    | modified | 2025-08-06 14:19:41 |
     | id | EAID_032C6459_3922_4AEF_0D73_262C4A138E25 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -176,14 +176,14 @@ Attributen van objecttype Maatregel op uitkering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Normafwijking |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:26:53 |
+    | modified | 2025-08-06 14:19:41 |
     | id | EAID_167FF4C9_6B66_EEDA_5189_262C4A139258 |
     | domein_iv3 |  |
     | domein_dcat |  |

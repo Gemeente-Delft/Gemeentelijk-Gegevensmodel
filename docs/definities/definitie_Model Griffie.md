@@ -27,7 +27,7 @@ Het model 'Model Griffie' kent de volgende objecttypen:
 * **Collegelid**: Iemand die behoort het college van burgemeester en wethouders
 * **Dossier**: Samenhangende set gegevens en informatie voor een specifiek doel
 * **Indiener**: Persoon die meldiing of aanvraag doet
-* **Programma**: Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co&#246;rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie.
+* **Programma**: Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te coördineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie.
 * **Raadscommissie**: Een raadscommissie binnen de Nederlandse gemeenteraad is een groep raadsleden die zich buigt over specifieke thema's of beleidsonderwerpen om de besluitvorming in de volledige raad voor te bereiden en te ondersteunen.
 * **Raadslid**: Iemand die behoort de gemeenteraad
 * **Raadsstuk**: Stuk dat door de gemeenteraad wordt behandeld
@@ -265,7 +265,7 @@ Attributen van objecttype Indiener
 ### Programma
 > **Definitie Programma:** 
 >
-> Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co&#246;rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie.
+> Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te coördineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie.
 
 ??? info "Kenmerken Model Programma"
     | Eigenschap | Waarde |
@@ -531,13 +531,13 @@ Geen Definitie
 
 Het enumeratie Deelnemersrol kent de volgende waarden:
 
-* **Voorzitter**: <Geen Definities>
-* **Vice-voorzitter**: <Geen Definities>
-* **Raadslid**: <Geen Definities>
-* **Inspreker**: <Geen Definities>
-* **Overig**: <Geen Definities>
-* **Portefeuillehouder**: <Geen Definities>
-* **Statenlid**: <Geen Definities>
+* **Voorzitter**: 
+* **Vice-voorzitter**: 
+* **Raadslid**: 
+* **Inspreker**: 
+* **Overig**: 
+* **Portefeuillehouder**: 
+* **Statenlid**: 
 
 
 De enumeratie Deelnemersrol heeft de volgende kenmerken:
@@ -570,9 +570,9 @@ Geen Definitie
 
 Het enumeratie Stemmingsresultaattype kent de volgende waarden:
 
-* **Voor**: <Geen Definities>
-* **Tegen**: <Geen Definities>
-* **Gelijk**: <Geen Definities>
+* **Voor**: 
+* **Tegen**: 
+* **Gelijk**: 
 
 
 De enumeratie Stemmingsresultaattype heeft de volgende kenmerken:
@@ -605,9 +605,9 @@ Geen Definitie
 
 Het enumeratie Stemmingstype kent de volgende waarden:
 
-* **Hoofdelijk**: <Geen Definities>
-* **Regulier**: <Geen Definities>
-* **Schriftelijk**: <Geen Definities>
+* **Hoofdelijk**: 
+* **Regulier**: 
+* **Schriftelijk**: 
 
 
 De enumeratie Stemmingstype heeft de volgende kenmerken:

@@ -25,8 +25,8 @@ Het model 'Model Vermogen' kent de volgende objecttypen:
 * **Hypotheek**: Een hypotheek is een lening waarbij een onroerend goed, zoals een woning, dient als onderpand voor de schuld. Het wordt doorgaans verstrekt door een financiële instelling, zoals een bank, en stelt de lener in staat om een woning te kopen of te bouwen. De lening wordt over een afgesproken periode terugbetaald, inclusief rente. Als de lener niet aan de betalingsverplichtingen voldoet, heeft de kredietverstrekker het recht om het onderpand te verkopen om de openstaande schuld te vereffenen. Een hypotheek is daarmee zowel een financieringsvorm als een juridische zekerheid voor de kredietverstrekker.
 * **Motorvoertuig**: Een motorvoertuig is een voertuig dat is uitgerust met een motor als krachtbron en bedoeld is voor het vervoer van personen, goederen of het uitvoeren van specifieke taken. Het kan zich zelfstandig voortbewegen zonder de directe fysieke inspanning van een bestuurder of passagier. Voorbeelden van motorvoertuigen zijn auto’s, vrachtwagens, motorfietsen en bussen. Motorvoertuigen zijn doorgaans voorzien van wielen en rijden op de weg, en het gebruik ervan is vaak gebonden aan wettelijke regels, zoals registratie, verzekering en rijbewijsvereisten.
 * **Onroerend goed**: Onroerend goed is een juridische term die verwijst naar fysieke objecten die duurzaam met de grond zijn verbonden en niet zonder schade kunnen worden verplaatst. Dit omvat gronden, gebouwen, woningen en andere constructies die vast met de grond zijn verbonden, zoals bruggen of schuren. Onroerend goed wordt vaak onderscheiden van roerende zaken, die wel verplaatsbaar zijn. Het eigendom en de overdracht van onroerend goed zijn gebonden aan specifieke wettelijke regels, zoals registratie in openbare registers en het opstellen van notariële akten.
-* **Vermogenscomponent**: <Geen Definities>
-* **Waardepeiling**: <Geen Definities>
+* **Vermogenscomponent**: 
+* **Waardepeiling**: 
 
 
 ## Objecttypen Model Vermogen
@@ -63,7 +63,6 @@ Attributen van objecttype Bankrekening
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Bankrekening ID | CharacterString |  |
 | Bankrekeningnummer | CharacterString |  |
 | Brontype | Brontype |  |
 | Datum aanvang bankrekening | Date |  |

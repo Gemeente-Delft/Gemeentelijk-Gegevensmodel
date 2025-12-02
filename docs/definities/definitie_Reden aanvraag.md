@@ -21,28 +21,30 @@
 
 Het model 'Reden aanvraag' kent de volgende objecttypen:
 
-* **Andere reden afwijkende startdatum**: <Geen Definities>
-* **Andere reden verzoek**: <Geen Definities>
-* **Diensten::Aanvraag**: <Geen Definities>
-* **Diensten::Aanvraag levensonderhoud**: <Geen Definities>
-* **Gestopt betaald werk**: <Geen Definities>
-* **Gestopt of verkocht eigen bedrijf**: <Geen Definities>
-* **Gestopte bijstanduitkering**: <Geen Definities>
-* **Gestopte detentie**: <Geen Definities>
-* **Gestopte of verlaagde alimentatie**: <Geen Definities>
-* **Gestopte studiefinanciering**: <Geen Definities>
-* **Gestopte uitkering**: <Geen Definities>
-* **Ingang bijstandsuitkering**: In de meeste gevallen is de startdatum van een dienst gelijk aan de datum eerste melding (melddatum). Echter, er zijn redenen om hiervan af te wijken. In dat geval wijkt de startdatum af van de melddatum. Ingangsdatum uitkering bevat een Reden afwijkende startdatum om op te nemen met welke reden een afwijkende ingangsdatum gehanteerd wordt.<br>Ingang bijstandsuitkering kan, zoals de naam al doet vermoeden, alleen van toepassing zijn indien het een aanvraag betreft van het diensttype 'Aanvulling levensonderhoud' (ALO)'.
-* **Levenssituatie::Levenssituatie**: <Geen Definities>
-* **Opname instelling**: <Geen Definities>
-* **Overleden partner**: <Geen Definities>
+* **Andere reden afwijkende startdatum**: 
+* **Andere reden verzoek**: 
+* **Diensten::Aanvraag**: 
+* **Diensten::Aanvraag levensonderhoud**: 
+* **Gestopt betaald werk**: 
+* **Gestopt of verkocht eigen bedrijf**: 
+* **Gestopte bijstanduitkering**: 
+* **Gestopte detentie**: 
+* **Gestopte of verlaagde alimentatie**: 
+* **Gestopte studiefinanciering**: 
+* **Gestopte uitkering**: 
+* **Ingang bijstandsuitkering**: 
+> In de meeste gevallen is de startdatum van een dienst gelijk aan de datum eerste melding (melddatum). Echter, er zijn redenen om hiervan af te wijken. In dat geval wijkt de startdatum af van de melddatum. Ingangsdatum uitkering bevat een Reden afwijkende startdatum om op te nemen met welke reden een afwijkende ingangsdatum gehanteerd wordt.
+> Ingang bijstandsuitkering kan, zoals de naam al doet vermoeden, alleen van toepassing zijn indien het een aanvraag betreft van het diensttype 'Aanvulling levensonderhoud' (ALO)'.
+* **Levenssituatie::Levenssituatie**: 
+* **Opname instelling**: 
+* **Overleden partner**: 
 * **Reden aanvraag**: Reden waarom dienst wordt aanvraagd bij gemeente.
-* **Reden aanvraag Levensonderhoud**: <Geen Definities>
-* **Reden afwijkende startdatum**: <Geen Definities>
-* **Verbroken relatie**: <Geen Definities>
-* **Vertrek uit asielzoekerscentrum**: <Geen Definities>
-* **Wachten beslissing instantie**: <Geen Definities>
-* **Wachten DigiD**: <Geen Definities>
+* **Reden aanvraag Levensonderhoud**: 
+* **Reden afwijkende startdatum**: 
+* **Verbroken relatie**: 
+* **Vertrek uit asielzoekerscentrum**: 
+* **Wachten beslissing instantie**: 
+* **Wachten DigiD**: 
 
 
 ## Objecttypen Reden aanvraag
@@ -62,9 +64,9 @@ Het model 'Reden aanvraag' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2024-12-13 12:08:27 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_237c7e1c_5893_475f_be3f_49b629316e1e |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -96,9 +98,9 @@ Attributen van objecttype Andere reden afwijkende startdatum
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2024-12-13 12:08:28 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1E8815BF_5BAC_6978_BF60_2791C1C96FC3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -125,14 +127,16 @@ Attributen van objecttype Andere reden verzoek
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Diensten::Aanvraag |
-    | toelichting | #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
+    | toelichting | 
+> #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.
+> #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-12-13 12:29:32 |
-    | modified | 2025-03-17 10:47:00 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_2D94CF02_97C5_4621_B225_EA742445A235 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -159,14 +163,16 @@ Attributen van objecttype Diensten::Aanvraag
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Diensten::Aanvraag levensonderhoud |
-    | toelichting | #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
+    | toelichting | 
+> #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.
+> #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2025-03-17 10:52:35 |
-    | modified | 2025-03-17 10:52:50 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1F9DBD7C_EBF3_41c8_8F00_2F6169FE107C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -198,9 +204,9 @@ Attributen van objecttype Diensten::Aanvraag levensonderhoud
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2024-12-13 12:08:26 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_16333246_B1C9_E9E9_D5B6_2791C02E05CB |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -232,9 +238,9 @@ Attributen van objecttype Gestopt betaald werk
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2024-12-13 12:08:29 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_0B7F7AD1_661C_8F1C_4F9A_2791C1C74BAB |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -266,9 +272,9 @@ Attributen van objecttype Gestopt of verkocht eigen bedrijf
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2024-12-13 12:08:29 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_15ABBF00_EC46_89CA_680B_2791C070D8E5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -300,9 +306,9 @@ Attributen van objecttype Gestopte bijstanduitkering
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2024-12-13 12:08:30 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_16F72E30_A6E2_CEC4_6AB8_2791C1C8CC09 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -334,9 +340,9 @@ Attributen van objecttype Gestopte detentie
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2024-12-13 12:08:31 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1632E282_377B_77CF_BF11_2791C070C097 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -368,9 +374,9 @@ Attributen van objecttype Gestopte of verlaagde alimentatie
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2024-12-13 12:08:32 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1F0AACC8_0CDE_849C_C1CC_2791C070CCF8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -402,9 +408,9 @@ Attributen van objecttype Gestopte studiefinanciering
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2024-12-13 12:08:33 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1BDF5AAF_EDC4_87BC_16F2_2791C06DC1FA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -425,7 +431,9 @@ Attributen van objecttype Gestopte uitkering
 ### Ingang bijstandsuitkering
 > **Definitie Ingang bijstandsuitkering:** 
 >
-> In de meeste gevallen is de startdatum van een dienst gelijk aan de datum eerste melding (melddatum). Echter, er zijn redenen om hiervan af te wijken. In dat geval wijkt de startdatum af van de melddatum. Ingangsdatum uitkering bevat een Reden afwijkende startdatum om op te nemen met welke reden een afwijkende ingangsdatum gehanteerd wordt.<br>Ingang bijstandsuitkering kan, zoals de naam al doet vermoeden, alleen van toepassing zijn indien het een aanvraag betreft van het diensttype 'Aanvulling levensonderhoud' (ALO)'.
+> 
+> In de meeste gevallen is de startdatum van een dienst gelijk aan de datum eerste melding (melddatum). Echter, er zijn redenen om hiervan af te wijken. In dat geval wijkt de startdatum af van de melddatum. Ingangsdatum uitkering bevat een Reden afwijkende startdatum om op te nemen met welke reden een afwijkende ingangsdatum gehanteerd wordt.
+> Ingang bijstandsuitkering kan, zoals de naam al doet vermoeden, alleen van toepassing zijn indien het een aanvraag betreft van het diensttype 'Aanvulling levensonderhoud' (ALO)'.
 
 ??? info "Kenmerken Model Ingang bijstandsuitkering"
     | Eigenschap | Waarde |
@@ -436,9 +444,9 @@ Attributen van objecttype Gestopte uitkering
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-17 10:48:26 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_0572BF37_A778_273A_32B0_2791C2CC601A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -465,14 +473,16 @@ Attributen van objecttype Ingang bijstandsuitkering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Levenssituatie::Levenssituatie |
-    | toelichting | #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
+    | toelichting | 
+> #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.
+> #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2025-03-17 10:40:14 |
-    | modified | 2025-03-17 10:47:10 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_4B7F5B5B_CCC7_465e_9908_E83620EEAE89 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -504,9 +514,9 @@ Attributen van objecttype Levenssituatie::Levenssituatie
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2024-12-13 12:08:35 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1ac5aa8f_eb60_4683_acb8_ca3308da1c3d |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -538,9 +548,9 @@ Attributen van objecttype Opname instelling
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2024-12-13 12:08:35 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_201D0432_BDE5_700A_13F6_2791C071691F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -572,9 +582,9 @@ Attributen van objecttype Overleden partner
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2024-12-13 13:01:20 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_cac6d8c1_42e6_41cb_9907_3c65c081afba |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -606,9 +616,9 @@ Attributen van objecttype Reden aanvraag
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2024-12-13 12:08:37 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_0BCC5755_9F69_A5D7_4387_2791BFCD4782 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -640,9 +650,9 @@ Attributen van objecttype Reden aanvraag Levensonderhoud
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2024-12-13 12:08:38 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_ed8f8dba_b936_40ad_b443_1ee91b8fe046 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -674,9 +684,9 @@ Attributen van objecttype Reden afwijkende startdatum
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2024-12-13 12:08:39 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_273AA921_78AD_0107_6D04_2791C07149E9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -708,9 +718,9 @@ Attributen van objecttype Verbroken relatie
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2024-12-13 12:08:40 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_109FA03E_8C65_8EF6_C7F0_2791C1C80AFE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -742,9 +752,9 @@ Attributen van objecttype Vertrek uit asielzoekerscentrum
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2024-12-13 12:08:40 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_008977a4_1342_42b2_be93_bda49931fa51 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -776,9 +786,9 @@ Attributen van objecttype Wachten beslissing instantie
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2024-12-13 12:08:41 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_32633236_e5f5_40eb_a083_fc12c3e8a7f8 |
     | domein_iv3 |  |
     | domein_dcat |  |

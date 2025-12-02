@@ -25,8 +25,17 @@ Het model 'Model Omgevingswet' kent de volgende objecttypen:
 * **Beperkingsgebied**: Een bij of krachtens de wet aangewezen gebied, waar vanwege de aanwezigheid van een werk of object regels gelden, ten aanzien van het beperken van activiteiten die gevolgen hebben of kunnen hebben voor dat werk of object.
 * **Functie**: Een samenhangende verzameling van rollen
 * **Gebiedsaanwijzing**: Functie of een Beperkingengebied, met een verwijzing naar locatie, veelal een gebied, waarbij aangegeven wordt hoe het gebied beschouwd wordt vanuit de bijbehorende regels.
-* **Idealisatie**: Vastlegging van de manier de begrenzing van Locatie voor deze Juridische regel ge&#239;nterpreteerd moet worden en door het bevoegd gezag bedoeld is.
-* **Instructieregel**: Objecttype Instructieregel<br>Naam Definitie<br>Toelichting<br>Instructieregel<br>De beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan.<br>Het betreft hier juridische regel die instructie geeft aan andere overheden, gericht op externe omgevingsdocumenten, of een taakuitoefening.<br>Een ander omgevingsdocument is bijvoorbeeld een Omgevingsplan, Omgevingsverordening en Waterschapsverordening.<br>Een taakuitoefening is voor bijvoorbeeld een gemeentebestuur of een wildbeheereenheid.<br>Een instructieregel is alleen gericht op een Omgevingsnorm of een Gebiedsaanduiding, zoals een Functie of een Beperkingengebied (en eventueel meerdere).
+* **Idealisatie**: Vastlegging van de manier de begrenzing van Locatie voor deze Juridische regel geïnterpreteerd moet worden en door het bevoegd gezag bedoeld is.
+* **Instructieregel**: 
+> Objecttype Instructieregel
+> Naam Definitie
+> Toelichting
+> Instructieregel
+> De beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan.
+> Het betreft hier juridische regel die instructie geeft aan andere overheden, gericht op externe omgevingsdocumenten, of een taakuitoefening.
+> Een ander omgevingsdocument is bijvoorbeeld een Omgevingsplan, Omgevingsverordening en Waterschapsverordening.
+> Een taakuitoefening is voor bijvoorbeeld een gemeentebestuur of een wildbeheereenheid.
+> Een instructieregel is alleen gericht op een Omgevingsnorm of een Gebiedsaanduiding, zoals een Functie of een Beperkingengebied (en eventueel meerdere).
 * **Juridische Regel**: De beschrijving van een regel met juridische werkingskracht. Een regel betreft binnen de Omgevingswet veelal activiteiten, en/of normen en/of functies en/of beperkingengebieden.
 * **Norm**: Omgevingswaarde of een omgevingsnorm, met een normatief karakter, die beschreven worden middels normwaarden. Een normwaarde kan kwalitatief of kwantitatief zijn.
 * **Normwaarde**: Een van de kwantitatieve of kwalitatieve waarden van een norm. De normwaarde geeft aan wat de specifieke kwantitatieve of kwalitatieve eisen zijn, inclusief de toewijzing ervan aan de specifieke locatie(s) waar de normwaarde voor geldt.
@@ -189,7 +198,7 @@ Attributen van objecttype Gebiedsaanwijzing
 ### Idealisatie
 > **Definitie Idealisatie:** 
 >
-> Vastlegging van de manier de begrenzing van Locatie voor deze Juridische regel ge&#239;nterpreteerd moet worden en door het bevoegd gezag bedoeld is.
+> Vastlegging van de manier de begrenzing van Locatie voor deze Juridische regel geïnterpreteerd moet worden en door het bevoegd gezag bedoeld is.
 
 ??? info "Kenmerken Model Idealisatie"
     | Eigenschap | Waarde |
@@ -225,7 +234,16 @@ Attributen van objecttype Idealisatie
 ### Instructieregel
 > **Definitie Instructieregel:** 
 >
-> Objecttype Instructieregel<br>Naam Definitie<br>Toelichting<br>Instructieregel<br>De beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan.<br>Het betreft hier juridische regel die instructie geeft aan andere overheden, gericht op externe omgevingsdocumenten, of een taakuitoefening.<br>Een ander omgevingsdocument is bijvoorbeeld een Omgevingsplan, Omgevingsverordening en Waterschapsverordening.<br>Een taakuitoefening is voor bijvoorbeeld een gemeentebestuur of een wildbeheereenheid.<br>Een instructieregel is alleen gericht op een Omgevingsnorm of een Gebiedsaanduiding, zoals een Functie of een Beperkingengebied (en eventueel meerdere).
+> 
+> Objecttype Instructieregel
+> Naam Definitie
+> Toelichting
+> Instructieregel
+> De beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan.
+> Het betreft hier juridische regel die instructie geeft aan andere overheden, gericht op externe omgevingsdocumenten, of een taakuitoefening.
+> Een ander omgevingsdocument is bijvoorbeeld een Omgevingsplan, Omgevingsverordening en Waterschapsverordening.
+> Een taakuitoefening is voor bijvoorbeeld een gemeentebestuur of een wildbeheereenheid.
+> Een instructieregel is alleen gericht op een Omgevingsnorm of een Gebiedsaanduiding, zoals een Functie of een Beperkingengebied (en eventueel meerdere).
 
 ??? info "Kenmerken Model Instructieregel"
     | Eigenschap | Waarde |
@@ -245,7 +263,13 @@ Attributen van objecttype Idealisatie
     | gemma_naam | Instructieregel |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-367532e8-1d1c-4d6b-8a88-fcae7cae2303](https://gemmaonline.nl/index.php/GEMMA/id-367532e8-1d1c-4d6b-8a88-fcae7cae2303) |
-    | gemma_definitie | Objecttype Instructieregel<br>Naam Definitie<br>Toelichting<br>Instructieregel<br>De beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan.<br>Het betreft hier juridische regel die instructie geeft aan andere ov |
+    | gemma_definitie | 
+> Objecttype Instructieregel
+> Naam Definitie
+> Toelichting
+> Instructieregel
+> De beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan.
+> Het betreft hier juridische regel die instructie geeft aan andere ov |
     | gemma_toelichting | Het betreft hier juridische regel die instructie geeft aan andere overheden, gericht op externe omgevingsdocumenten, of een taakuitoefening. Een ander omgevingsdocument is bijvoorbeeld een Omgevingsplan, Omgevingsverordening en Waterschapsverordening. Een |
     
 
@@ -253,7 +277,14 @@ Attributen van objecttype Instructieregel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| instructieregelInstrument | AN200 | <font color="#032547"><b>Attribuutsoort instructieregel instrument</b></font><br>Naam Definitie Formaat Toelichting<br>Instructieregel instrument<br>De naam van het instrument waartoe de instructieregel zich richt.<br>InstructieregelInstrument (waardelijst)<br>Bijvoorbeeld: Omgevingsverordening, projectbesluit.<br>Dit kenmerk geeft nadere informatie in aanvulling op het type instructieregel, in het geval dat de regel gericht is op een bepaald instrument. |
+| instructieregelInstrument | AN200 | 
+> **Attribuutsoort instructieregel instrument**
+> Naam Definitie Formaat Toelichting
+> Instructieregel instrument
+> De naam van het instrument waartoe de instructieregel zich richt.
+> InstructieregelInstrument (waardelijst)
+> Bijvoorbeeld: Omgevingsverordening, projectbesluit.
+> Dit kenmerk geeft nadere informatie in aanvulling op het type instructieregel, in het geval dat de regel gericht is op een bepaald instrument. |
 | instructieregelTaakuitoefening | AN200 |  |
 
 
@@ -510,7 +541,16 @@ Attributen van objecttype Regel voor Iedereen
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| activiteitRegelKwalificatie | AN200 | <font color="#032547"><b>Attribuutsoort activiteitregelkwalificatie</b></font><br>Naam Definitie Formaat Toelichting<br>Constraint(s)<br>activiteitregelkwalificatie<br>De naam van de kwalificatie van de Juridische regel over een activiteit.<br>Activiteitregelkwalificatie (waardelijst) Bijvoorbeeld: gebod, verbod.<br>Alleen te gebruiken wanneer bij Juridische regel is gekozen voor het type 'Regel voor iedereen' en de regel een Activiteit beschrijft.<br>Als activiteit, alleen dan activiteitregelkwalificatie.<br>Dit kenmerk heeft alleen betekenis wanneer de regel een activiteit beschrijft. Anders gezegd, dit kenmerk hoort alleen gevuld te worden wanneer de regel, ten minste, een activiteit beschrijft. |
+| activiteitRegelKwalificatie | AN200 | 
+> **Attribuutsoort activiteitregelkwalificatie**
+> Naam Definitie Formaat Toelichting
+> Constraint(s)
+> activiteitregelkwalificatie
+> De naam van de kwalificatie van de Juridische regel over een activiteit.
+> Activiteitregelkwalificatie (waardelijst) Bijvoorbeeld: gebod, verbod.
+> Alleen te gebruiken wanneer bij Juridische regel is gekozen voor het type 'Regel voor iedereen' en de regel een Activiteit beschrijft.
+> Als activiteit, alleen dan activiteitregelkwalificatie.
+> Dit kenmerk heeft alleen betekenis wanneer de regel een activiteit beschrijft. Anders gezegd, dit kenmerk hoort alleen gevuld te worden wanneer de regel, ten minste, een activiteit beschrijft. |
 
 
 

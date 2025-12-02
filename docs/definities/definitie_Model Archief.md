@@ -30,7 +30,7 @@ Het model 'Model Archief' kent de volgende objecttypen:
 * **Depot**: Plaats waar iets bewaard wordt.
 * **DigitaalBestand**: Bestand dat uitsluitend met behulp van besturingsprogrammatuur of toepassingsprogrammatuur geraadpleegd kunnen worden
 * **Indeling**: Onderwerpen groeperen in samenhangende categorieën.
-* **Index**: <Geen Definities>
+* **Index**: 
 * **Kast**: Object met een permanent karakter dat dient om iets in te bergen en te beschermen.
 * **Nadere Toegang**: De bevoegdheid om gegevens te raadplegen, bepaalde plaatsen te betreden of een bepaalde taak uit te oefenen.
 * **Ordeningsschema**: Ordening om archief en collecties beter vindbaar en bruikbaar voor betrokkenen.

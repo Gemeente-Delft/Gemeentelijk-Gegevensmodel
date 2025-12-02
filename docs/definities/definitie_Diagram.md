@@ -21,7 +21,7 @@
 
 Het model 'Diagram' kent de volgende objecttypen:
 
-* **OverigeGeoObjecten**: <Geen Definities>
+* **OverigeGeoObjecten**: 
 
 
 ## Objecttypen Diagram

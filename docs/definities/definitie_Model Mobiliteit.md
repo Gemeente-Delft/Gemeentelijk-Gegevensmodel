@@ -322,11 +322,11 @@ Geen Definitie
 
 Het enumeratie Aantal Gehinderden kent de volgende waarden:
 
-* **minder dan 1000**: <Geen Definities>
-* **1.000 tot 10.000**: <Geen Definities>
-* **10.000 tot 100.000**: <Geen Definities>
-* **100.000 tot 1.000.000**: <Geen Definities>
-* **meer dan 1.000.000**: <Geen Definities>
+* **minder dan 1000**: 
+* **1.000 tot 10.000**: 
+* **10.000 tot 100.000**: 
+* **100.000 tot 1.000.000**: 
+* **meer dan 1.000.000**: 
 
 
 De enumeratie Aantal Gehinderden heeft de volgende kenmerken:
@@ -359,11 +359,11 @@ Geen Definitie
 
 Het enumeratie Hindercategorie kent de volgende waarden:
 
-* **A**: <Geen Definities>
-* **B**: <Geen Definities>
-* **C**: <Geen Definities>
-* **D**: <Geen Definities>
-* **E**: <Geen Definities>
+* **A**: 
+* **B**: 
+* **C**: 
+* **D**: 
+* **E**: 
 
 
 De enumeratie Hindercategorie heeft de volgende kenmerken:
@@ -396,11 +396,11 @@ Geen Definitie
 
 Het enumeratie Hinderklasse kent de volgende waarden:
 
-* **Klasse 0: Geen hinder**: <Geen Definities>
-* **Klasse 1: Kleine hinder**: Geen file: vertraging &lt; 5 minuten
+* **Klasse 0: Geen hinder**: 
+* **Klasse 1: Kleine hinder**: Geen file: vertraging < 5 minuten
 * **Klasse 2: Matige hinder**: 5 tot 10 minuten vertraging door file of omrijden
 * **Klasse 3: Grote hinder**: 10 tot 30 minuten vertraging door file of omrijden
-* **Klasse 4: Zeer grote hinder**: &gt; 30 minuten vertraging door file of omrijden
+* **Klasse 4: Zeer grote hinder**: > 30 minuten vertraging door file of omrijden
 
 
 De enumeratie Hinderklasse heeft de volgende kenmerken:
@@ -433,11 +433,11 @@ Geen Definitie
 
 Het enumeratie Stremmingstatus kent de volgende waarden:
 
-* **Afgerond**: <Geen Definities>
-* **In Uitvoering**: <Geen Definities>
-* **Gepulbliceerd**: <Geen Definities>
-* **Aangemeld**: <Geen Definities>
-* **Plan Afhandelen**: <Geen Definities>
+* **Afgerond**: 
+* **In Uitvoering**: 
+* **Gepulbliceerd**: 
+* **Aangemeld**: 
+* **Plan Afhandelen**: 
 
 
 De enumeratie Stremmingstatus heeft de volgende kenmerken:

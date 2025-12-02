@@ -378,10 +378,10 @@ Geen Definitie
 
 Het enumeratie Doel verzoek kent de volgende waarden:
 
-* **vooroverleg**: <Geen Definities>
-* **initieren**: <Geen Definities>
-* **aanvullen**: <Geen Definities>
-* **intrekken**: <Geen Definities>
+* **vooroverleg**: 
+* **initieren**: 
+* **aanvullen**: 
+* **intrekken**: 
 
 
 De enumeratie Doel verzoek heeft de volgende kenmerken:
@@ -414,13 +414,13 @@ Geen Definitie
 
 Het enumeratie Type Verzoek kent de volgende waarden:
 
-* **Aanvraag vergunning**: <Geen Definities>
-* **Melding**: <Geen Definities>
-* **Informatie**: <Geen Definities>
-* **Informatie ongewoon Voorval**: <Geen Definities>
-* **Aanvraag Maatwerkvoorschrift**: <Geen Definities>
-* **Melding Gelijkwaardige Maatregel**: <Geen Definities>
-* **Aanvraag Toestemming Gelijkwaardige Maatregel**: <Geen Definities>
+* **Aanvraag vergunning**: 
+* **Melding**: 
+* **Informatie**: 
+* **Informatie ongewoon Voorval**: 
+* **Aanvraag Maatwerkvoorschrift**: 
+* **Melding Gelijkwaardige Maatregel**: 
+* **Aanvraag Toestemming Gelijkwaardige Maatregel**: 
 
 
 De enumeratie Type Verzoek heeft de volgende kenmerken:
@@ -453,11 +453,11 @@ Geen Definitie
 
 Het enumeratie Vraag Classificatie kent de volgende waarden:
 
-* **Project**: <Geen Definities>
-* **Activiteit**: <Geen Definities>
-* **Verzoek**: <Geen Definities>
-* **Gevraagde Bijlage**: <Geen Definities>
-* **Aanvrager**: <Geen Definities>
+* **Project**: 
+* **Activiteit**: 
+* **Verzoek**: 
+* **Gevraagde Bijlage**: 
+* **Aanvrager**: 
 
 
 De enumeratie Vraag Classificatie heeft de volgende kenmerken:

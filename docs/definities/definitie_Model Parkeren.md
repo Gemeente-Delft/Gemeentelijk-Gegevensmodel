@@ -422,7 +422,7 @@ Attributen van objecttype Parkeerzone
 | eindedag | AN20 |  |
 | starttijd | int |  |
 | eindtijd | int |  |
-| parkeergarage | boolean |  |
+| isParkeergarage | Enumeratie: "Boolean" |  |
 
 
 
@@ -583,6 +583,42 @@ Attributen van objecttype Voertuig
 ## Enumeraties Model Parkeren
 
 
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+* **Onbekend**: 
+* **Leeg**: 
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Boolean"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Boolean |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:35 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_15821038_c5db_4674_b661_4c98a2cbb128 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
 ### Doelgroepenplaatsen
 Geen Definitie
 
@@ -626,8 +662,8 @@ Geen Definitie
 
 Het enumeratie Zonesoort kent de volgende waarden:
 
-* **GSM-Zone**: <Geen Definities>
-* **Vergunninghouderzone**: <Geen Definities>
+* **GSM-Zone**: 
+* **Vergunninghouderzone**: 
 
 
 De enumeratie Zonesoort heeft de volgende kenmerken:

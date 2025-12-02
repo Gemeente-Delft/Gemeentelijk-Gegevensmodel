@@ -395,7 +395,7 @@ Attributen van objecttype Procesverbaal Onderwijs
 | reden | AN255 |  |
 | opmerkingen | An1000 |  |
 | datumIngelicht | Date |  |
-| sanctiesoort | Enumeratie: "Sanctiesoort" |  |
+| sanctiesoort | AN100 |  |
 | uitspraak | AN500 |  |
 | proeftijd | int | Proeftijd in dagen |
 | geldboete | Bedrag |  |
@@ -404,7 +404,7 @@ Attributen van objecttype Procesverbaal Onderwijs
 | datumAfgehandeld | Date |  |
 | datumUitspraak | Date |  |
 | datumEindeProeftijd | Date |  |
-| geldboeteVoorwaardelijk | Boolean |  |
+| geldboeteVoorwaardelijk | Enumeratie: "Boolean" |  |
 
 
 
@@ -549,7 +549,7 @@ Attributen van objecttype Vrijstelling
 | :--- | :--- | :--- |
 | datumStart | Datum |  |
 | datumEinde | Datum |  |
-| aanvraagToegekend | boolean |  |
+| aanvraagToegekend | Enumeratie: "Boolean" |  |
 | verzuimsoort | Enumeratie: "Verzuimsoort" |  |
 | buitenlandseSchoollocatie | AN500 |  |
 
@@ -595,6 +595,78 @@ Attributen van objecttype Ziekmelding Leerlingenvervoer
 ## Enumeraties Model Leerplicht en Leerlingenvervoer
 
 
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+* **Onbekend**: 
+* **Leeg**: 
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Boolean"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Boolean |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:35 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_81fb129a_e74d_4b39_ac90_c9ab5ce611a2 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+* **Onbekend**: 
+* **Leeg**: 
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Boolean"
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Boolean |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.4 |
+    | created | 2025-03-26 11:13:35 |
+    | modified | 2025-03-26 16:14:54 |
+    | id | EAID_3b566670_f58b_452b_96df_ed3e127ce722 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
 ### Sanctiesoort
 Geen Definitie
 
@@ -632,8 +704,8 @@ Geen Definitie
 
 Het enumeratie Verzuimsoort kent de volgende waarden:
 
-* **absoluut**: <Geen Definities>
-* **relatief**: <Geen Definities>
+* **absoluut**: 
+* **relatief**: 
 
 
 De enumeratie Verzuimsoort heeft de volgende kenmerken:

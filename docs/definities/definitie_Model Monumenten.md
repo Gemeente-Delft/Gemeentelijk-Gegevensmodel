@@ -279,8 +279,8 @@ Geen Definitie
 
 Het enumeratie TypeMonument kent de volgende waarden:
 
-* **rijksmonument**: <Geen Definities>
-* **gemeentelijkmonument**: <Geen Definities>
+* **rijksmonument**: 
+* **gemeentelijkmonument**: 
 
 
 De enumeratie TypeMonument heeft de volgende kenmerken:

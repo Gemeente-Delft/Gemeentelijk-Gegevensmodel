@@ -21,14 +21,14 @@
 
 Het model 'Tekenwijze' kent de volgende objecttypen:
 
-* **None**: <Geen Definities>
-* **ObjecttypeA**: <Geen Definities>
-* **ObjecttypeB**: <Geen Definities>
-* **ObjecttypeC**: <Geen Definities>
-* **ObjecttypeD**: <Geen Definities>
-* **ObjecttypeE**: <Geen Definities>
-* **ObjecttypeF**: <Geen Definities>
-* **ObjecttypeG**: <Geen Definities>
+* **None**: 
+* **ObjecttypeA**: 
+* **ObjecttypeB**: 
+* **ObjecttypeC**: 
+* **ObjecttypeD**: 
+* **ObjecttypeE**: 
+* **ObjecttypeF**: 
+* **ObjecttypeG**: 
 
 
 ## Objecttypen Tekenwijze
@@ -77,7 +77,7 @@ Attributen van objecttype None
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeA |
-    | toelichting | <memo>#NOTES#Default: <memo> |
+    | toelichting | #NOTES#Default: |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -111,7 +111,7 @@ Attributen van objecttype ObjecttypeA
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeB |
-    | toelichting | <memo>#NOTES#Default: <memo> |
+    | toelichting | #NOTES#Default: |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -145,7 +145,7 @@ Attributen van objecttype ObjecttypeB
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeC |
-    | toelichting | <memo>#NOTES#Default: <memo> |
+    | toelichting | #NOTES#Default: |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -179,7 +179,7 @@ Attributen van objecttype ObjecttypeC
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeD |
-    | toelichting | <memo>#NOTES#Default: <memo> |
+    | toelichting | #NOTES#Default: |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -213,7 +213,7 @@ Attributen van objecttype ObjecttypeD
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeE |
-    | toelichting | <memo>#NOTES#Default: <memo> |
+    | toelichting | #NOTES#Default: |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -247,7 +247,7 @@ Attributen van objecttype ObjecttypeE
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeF |
-    | toelichting | <memo>#NOTES#Default: <memo> |
+    | toelichting | #NOTES#Default: |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -281,7 +281,7 @@ Attributen van objecttype ObjecttypeF
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeG |
-    | toelichting | <memo>#NOTES#Default: <memo> |
+    | toelichting | #NOTES#Default: |
     | synoniemen |  |
     | uri |  |
     | bron |  |

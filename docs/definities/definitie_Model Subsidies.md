@@ -201,7 +201,9 @@ Attributen van objecttype Subsidie
 | socialReturnBedrag | Bedrag |  |
 | verantwoordenOp | Date |  |
 | uitgaandeSubsidie | Boolean |  |
-| prestatiesubsidie | Boolean | Als Nee dan is het een stimuleringssubsidie<br>Alleen bij uitgaande subsidies, anders NULL! |
+| prestatiesubsidie | Boolean | 
+> Als Nee dan is het een stimuleringssubsidie
+> Alleen bij uitgaande subsidies, anders NULL! |
 | doelstelling | AN200 |  |
 | opmerkingenVoorschotten | Text |  |
 
@@ -411,11 +413,11 @@ Geen Definitie
 
 Het enumeratie Subsidieniveau kent de volgende waarden:
 
-* **Gemeente**: <Geen Definities>
-* **Provincie**: <Geen Definities>
-* **Nationaal**: <Geen Definities>
-* **Europees**: <Geen Definities>
-* **Regionaal**: <Geen Definities>
+* **Gemeente**: 
+* **Provincie**: 
+* **Nationaal**: 
+* **Europees**: 
+* **Regionaal**: 
 
 
 De enumeratie Subsidieniveau heeft de volgende kenmerken:

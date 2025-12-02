@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Terug- en invordering:** 
 >
-> Het onderdeel Terug- en Invordering richt zich op de processen en gegevens rondom het terugvorderen en invorderen van onterecht verstrekte inkomensvoorzieningen. Dit model biedt een gestructureerde weergave van de objecttypen en hun onderlinge relaties die nodig zijn om deze financi&#235;le processen effectief te beheren.
+> Het onderdeel Terug- en Invordering richt zich op de processen en gegevens rondom het terugvorderen en invorderen van onterecht verstrekte inkomensvoorzieningen. Dit model biedt een gestructureerde weergave van de objecttypen en hun onderlinge relaties die nodig zijn om deze financiële processen effectief te beheren.
 
 ??? info "Kenmerken Model Model Terug- en invordering"
     | Kenmerk | Waarde |
@@ -64,14 +64,14 @@ Het model 'Model Terug- en invordering' kent de volgende objecttypen:
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aflossing |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:44:11 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_196161F4_8372_6334_AF08_263C236F7A38 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -98,14 +98,14 @@ Attributen van objecttype Aflossing
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aflossingsafspraak |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:44:22 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_0F06241B_EBEF_4053_33E4_263C236F76FC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -132,14 +132,14 @@ Attributen van objecttype Aflossingsafspraak
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aflossingsplan |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:44:34 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_234EB82E_9EC6_5904_2634_263C0A957ADF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -166,14 +166,14 @@ Attributen van objecttype Aflossingsplan
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Afschrijving |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:44:46 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_c0026057_03ab_4e5b_a021_aa9175c4078c |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -200,14 +200,14 @@ Attributen van objecttype Afschrijving
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Betaalcomponent |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:44:57 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1D10018E_888E_945B_4A20_293102BE4D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -234,14 +234,14 @@ Attributen van objecttype Betaalcomponent
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Boetevordering |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:45:08 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_173D0C11_3C5E_8344_BE5E_293122950DAC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -268,14 +268,14 @@ Attributen van objecttype Boetevordering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Conservatoir beslag |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:45:18 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1CE90960_888E_945B_4A20_28F9C71E4D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -302,14 +302,14 @@ Attributen van objecttype Conservatoir beslag
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Correctie |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:45:30 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1B73F18A_888E_945B_4A20_26E8FA774D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -336,14 +336,14 @@ Attributen van objecttype Correctie
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Debiteur |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:27:56 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_107E216A_17F2_DFCA_EAFE_263C7FFC912E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -370,14 +370,14 @@ Attributen van objecttype Debiteur
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Incassokostenvordering |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:45:48 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_a19a36c3_66e1_44c2_b674_6f3a3d98c5ea |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -404,14 +404,14 @@ Attributen van objecttype Incassokostenvordering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Interventie |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:46:01 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1BCE2533_656D_D59B_6ECD_28FC06D8D601 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -438,14 +438,14 @@ Attributen van objecttype Interventie
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Interventieverzoek |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:46:12 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_0897E8F8_77FF_DE35_D40E_28FC069F6910 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -472,14 +472,14 @@ Attributen van objecttype Interventieverzoek
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Invorderingsbasis |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:46:34 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_0A9D7FDF_4271_2DBE_58D2_28F9CE6C00A4 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -506,14 +506,14 @@ Attributen van objecttype Invorderingsbasis
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Krediethypotheek |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:46:45 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_d3335b08_9b4b_4e55_b507_0e1d481f1409 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -540,14 +540,14 @@ Attributen van objecttype Krediethypotheek
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Krediethypotheekvordering |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:47:01 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_0238113B_1577_D45C_C5E9_293122B2568D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -574,14 +574,14 @@ Attributen van objecttype Krediethypotheekvordering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Kwijtschelding |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:47:14 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1127D07A_473D_2912_29AE_2ABDF0E8A586 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -608,14 +608,14 @@ Attributen van objecttype Kwijtschelding
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Leenbijstand |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:47:30 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_18090A2C_CED1_0A51_0DFD_294370D99076 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -642,14 +642,14 @@ Attributen van objecttype Leenbijstand
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Leenbijstandvordering |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:47:54 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_ed7f7a0f_bef9_4532_94ad_f36418629141 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -676,14 +676,14 @@ Attributen van objecttype Leenbijstandvordering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Loonbeslagafspraak |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:48:05 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1a6b9a31_c4c7_4b46_92ef_0dd7e31613ed |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -710,14 +710,14 @@ Attributen van objecttype Loonbeslagafspraak
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Rechtmaand |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:48:15 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_0DF4970C_7D69_27D9_7976_263C0A6C41DC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -744,14 +744,14 @@ Attributen van objecttype Rechtmaand
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Rentevordering |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:48:29 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_170B4422_37F6_8893_2627_293122D74F28 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -778,14 +778,14 @@ Attributen van objecttype Rentevordering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Restitutie |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:48:41 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_167B47ED_CED1_0A51_0DFD_2698932A9076 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -812,14 +812,14 @@ Attributen van objecttype Restitutie
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Terugvorderingsverzoek |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:28:15 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_101157F7_7852_102E_7547_2698B55B6FF8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -846,14 +846,14 @@ Attributen van objecttype Terugvorderingsverzoek
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Uitstel aflossing |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:48:57 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_74e47f85_a936_43c0_8ef2_1605bdb5efed |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -880,14 +880,14 @@ Attributen van objecttype Uitstel aflossing
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vermindering terugvordering |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:49:08 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1A6E0A2E_9431_0F7A_1EAA_263C1D239DF6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -914,14 +914,14 @@ Attributen van objecttype Vermindering terugvordering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verrekening |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:49:18 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1EA8771B_DB7F_17D8_8AB8_26A1BD8F6A56 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -948,14 +948,14 @@ Attributen van objecttype Verrekening
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verwijtbare vordering |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:49:31 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_11F2FF40_D317_92C3_C4DB_2931225D4B40 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -982,14 +982,14 @@ Attributen van objecttype Verwijtbare vordering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vordering |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:49:42 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_14116EEA_C461_0DB2_97AB_263C0A4777FC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1016,14 +1016,14 @@ Attributen van objecttype Vordering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vorderingscomponent |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-26 16:49:53 |
+    | modified | 2025-08-06 14:19:42 |
     | id | EAID_1A979E6B_841E_392B_952F_29311D13BF9F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1066,10 +1066,10 @@ De enumeratie Verwerkingsstatus heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-03-27 10:22:49 |
-    | id | EAID_df6e023c_c093_43bd_b1f4_1b475b55160e |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID_fe2038b8_20a4_4ae7_85be_30f04f1932b5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

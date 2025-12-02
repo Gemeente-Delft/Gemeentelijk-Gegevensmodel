@@ -21,8 +21,8 @@
 
 Het model 'Model Jeugd en Wmo Generiek' kent de volgende objecttypen:
 
-* **AOM_AanvraagWmoJeugd**: <Geen Definities>
-* **AOMMeldingWmoJeugd**: <Geen Definities>
+* **AOM_AanvraagWmoJeugd**: 
+* **AOMMeldingWmoJeugd**: 
 * **Beperking**: Een stoornis of conditie ‚ lichamelijk, zintuiglijk en-of geestelijk ‚ die een normaal maatschappelijk functioneren belemmert en nadelige sociale gevolgen met zich meebrengt.
 * **Beperkingscategorie**: Een categorisering van beperkingen
 * **Beperkingscore**: Getalsmatige duiding van een beperking
@@ -32,18 +32,22 @@ Het model 'Model Jeugd en Wmo Generiek' kent de volgende objecttypen:
 * **Beschikte Voorziening**: Een voorziening waarover een beschikking is gedaan.
 * **Budgetuitputting**: Overzicht van de te verwachte inkomsten en uitgaven over een bepaalde periode
 * **Declaratie**: Een opgave van te vergoeden kosten.
-* **Declaratieregel**: <Geen Definities>
+* **Declaratieregel**: 
 * **Leefgebied**: Gebied waarin alle activiteiten van een inwoner zich kunnen afspelen
-* **Levering**: Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk<br>In PxQ uren maal tarief
+* **Levering**: 
+> Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk
+> In PxQ uren maal tarief
 * **Leveringsvorm**: Zorg die onder de Wlz, de Zvw-Wijkverpleging of de Wmo 2015 valt, kan aan personen als zorg in natura (zin) worden geleverd of bekostigd worden uit een persoonsgebonden budget (pgb).
 * **Melding Eigen bijdrage**: Aangifte van de evetuele eigen bijdrage
-* **PGB-Toekenning**: Betreft alleen toegekende voorzieningen met als leveringsvorm PGB<br>Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb
+* **PGB-Toekenning**: 
+> Betreft alleen toegekende voorzieningen met als leveringsvorm PGB
+> Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb
 * **Score**: Het aantal behaalde punten
 * **Scoresoort**: Typologie van score
 * **Tarief**: Hoogte van een bedrag voor een bepaald product of dient
 * **Team**: Een groep personen die door middel van samenwerking een gezamenlijk doel nastreeft, waarbij de teamleden afhankelijk van elkaar zijn om het doel te bereiken.
 * **Toewijzing**: Toewijzing die door gemeente aan zorgaanbieder wordt gestuurd. zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html
-* **Verplichting Wmo Jeugd**: <Geen Definities>
+* **Verplichting Wmo Jeugd**: 
 * **Verzoek om Toewijzing**: Verzoek tot toewijzing dat vanuit leverancier (via H10-portal) aan de gemeente wordt gestuurd. Zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html
 * **Voorziening**: Middel om services/maatregelen in te vullen.
 * **Voorzieningsoort**: Typering van een voorziening
@@ -86,10 +90,14 @@ Attributen van objecttype AOM_AanvraagWmoJeugd
 | :--- | :--- | :--- |
 | clientReactie | AN100 |  |
 | datumBeschikking | Date |  |
-| datumEersteAfspraak | Date | De datum van de eerste afspraak in het<br>proces. |
+| datumEersteAfspraak | Date | 
+> De datum van de eerste afspraak in het
+> proces. |
 | datumPlanVastgesteld | Date | De datum waarop het plan is vastgesteld in de melding. |
 | datumStartAanvraag | Date | Start van het proces=start vd aanvraag |
-| datumEinde | Date | De daadwerkelijke einddatum van de<br>gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proces of niet van toepassing. Deze einddatum is afhankelijk van de gekozen doorloopmethodiek |
+| datumEinde | Date | 
+> De daadwerkelijke einddatum van de
+> gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proces of niet van toepassing. Deze einddatum is afhankelijk van de gekozen doorloopmethodiek |
 | deskundigheid | AN50 |  |
 | doorloopmethodiek | AN50 |  |
 | maximaleDoorlooptijd | AN20 | Het aantal dagen tussen de startdatum en de einddatum van de doorloopmethodiek ten tijde van het aanmaken van het proces. Dit veld geeft daarmee aan hoe lang men over een proces zou mogen doen. |
@@ -555,7 +563,9 @@ Attributen van objecttype Leefgebied
 ### Levering
 > **Definitie Levering:** 
 >
-> Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk<br>In PxQ uren maal tarief
+> 
+> Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk
+> In PxQ uren maal tarief
 
 ??? info "Kenmerken Model Levering"
     | Eigenschap | Waarde |
@@ -575,7 +585,9 @@ Attributen van objecttype Leefgebied
     | gemma_naam | Levering |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-cc667191-bb35-45a0-a231-504b663b70f1](https://gemmaonline.nl/index.php/GEMMA/id-cc667191-bb35-45a0-a231-504b663b70f1) |
-    | gemma_definitie | Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk<br>In PxQ uren maal tarief |
+    | gemma_definitie | 
+> Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk
+> In PxQ uren maal tarief |
     | gemma_toelichting |  |
     
 
@@ -669,7 +681,9 @@ Attributen van objecttype Melding Eigen bijdrage
 ### PGB-Toekenning
 > **Definitie PGB-Toekenning:** 
 >
-> Betreft alleen toegekende voorzieningen met als leveringsvorm PGB<br>Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb
+> 
+> Betreft alleen toegekende voorzieningen met als leveringsvorm PGB
+> Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb
 
 ??? info "Kenmerken Model PGB-Toekenning"
     | Eigenschap | Waarde |
@@ -689,7 +703,9 @@ Attributen van objecttype Melding Eigen bijdrage
     | gemma_naam | PGBToekenning |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-2cc8ad38-97f9-4462-83af-cb5556bffd88](https://gemmaonline.nl/index.php/GEMMA/id-2cc8ad38-97f9-4462-83af-cb5556bffd88) |
-    | gemma_definitie | Betreft alleen toegekende voorzieningen met als leveringsvorm PGB<br>Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb |
+    | gemma_definitie | 
+> Betreft alleen toegekende voorzieningen met als leveringsvorm PGB
+> Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb |
     | gemma_toelichting |  |
     
 
@@ -1112,13 +1128,13 @@ Geen Definitie
 
 Het enumeratie Doelgroep kent de volgende waarden:
 
-* **Asielstatushouder**: <Geen Definities>
-* **Gezinsvormer**: <Geen Definities>
-* **Gezinshereniger**: <Geen Definities>
-* **Geestelijk bedienaar**: <Geen Definities>
-* **Gezinsvormer met Asielstatushouder**: <Geen Definities>
-* **Gezinshereniger met Asielstatushouder**: <Geen Definities>
-* **Overig**: <Geen Definities>
+* **Asielstatushouder**: 
+* **Gezinsvormer**: 
+* **Gezinshereniger**: 
+* **Geestelijk bedienaar**: 
+* **Gezinsvormer met Asielstatushouder**: 
+* **Gezinshereniger met Asielstatushouder**: 
+* **Overig**: 
 
 
 De enumeratie Doelgroep heeft de volgende kenmerken:
@@ -1151,14 +1167,14 @@ Geen Definitie
 
 Het enumeratie Eenheid kent de volgende waarden:
 
-* **Minuut**: <Geen Definities>
-* **Uur**: <Geen Definities>
-* **Etmaal**: <Geen Definities>
-* **Dagdeel (4 uur)**: <Geen Definities>
-* **Stuks**: <Geen Definities>
-* **Euros**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **Minuut**: 
+* **Uur**: 
+* **Etmaal**: 
+* **Dagdeel (4 uur)**: 
+* **Stuks**: 
+* **Euros**: 
+* **Onbekend**: 
+* **Leeg**: 
 
 
 De enumeratie Eenheid heeft de volgende kenmerken:
@@ -1191,14 +1207,14 @@ Geen Definitie
 
 Het enumeratie Frequentie kent de volgende waarden:
 
-* **Per dag**: <Geen Definities>
-* **Per week**: <Geen Definities>
-* **Per 4 weken**: <Geen Definities>
-* **Per maand**: <Geen Definities>
-* **Per jaar**: <Geen Definities>
+* **Per dag**: 
+* **Per week**: 
+* **Per 4 weken**: 
+* **Per maand**: 
+* **Per jaar**: 
 * **Binnen geldigheid Beschikking**: Frequentie bij beschikking conform iWmo 2.0 zie https://www.istandaarden.nl/ibieb/functionele-uitwerking-release-iwmo-20
-* **Leeg**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
+* **Leeg**: 
+* **Onbekend**: 
 
 
 De enumeratie Frequentie heeft de volgende kenmerken:
@@ -1231,10 +1247,10 @@ Geen Definitie
 
 Het enumeratie Leveringsvorm kent de volgende waarden:
 
-* **ZIN**: <Geen Definities>
-* **PGB**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **ZIN**: 
+* **PGB**: 
+* **Onbekend**: 
+* **Leeg**: 
 
 
 De enumeratie Leveringsvorm heeft de volgende kenmerken:
@@ -1267,15 +1283,15 @@ Geen Definitie
 
 Het enumeratie Soort Verwijzer kent de volgende waarden:
 
-* **Gemeente**: <Geen Definities>
-* **Huisarts**: <Geen Definities>
-* **Jeugdarts**: <Geen Definities>
-* **Gecertificeerde instelling**: <Geen Definities>
-* **Medisch specialist**: <Geen Definities>
-* **Zelfverwijzer / geen verwijzer**: <Geen Definities>
-* **Rechter, Officier van Justitie, functionaris Justitiële jeugdinrichting**: <Geen Definities>
-* **Leeg**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
+* **Gemeente**: 
+* **Huisarts**: 
+* **Jeugdarts**: 
+* **Gecertificeerde instelling**: 
+* **Medisch specialist**: 
+* **Zelfverwijzer / geen verwijzer**: 
+* **Rechter, Officier van Justitie, functionaris Justitiële jeugdinrichting**: 
+* **Leeg**: 
+* **Onbekend**: 
 
 
 De enumeratie Soort Verwijzer heeft de volgende kenmerken:
@@ -1308,15 +1324,15 @@ Geen Definitie
 
 Het enumeratie Wet kent de volgende waarden:
 
-* **Niet van toepassing**: <Geen Definities>
-* **Wmo**: <Geen Definities>
+* **Niet van toepassing**: 
+* **Wmo**: 
 * **Jeugdwet**: dere
-* **Andere wet**: <Geen Definities>
-* **Leeg**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Participatiewet PW-I**: <Geen Definities>
-* **I.O.A.W./I.O.A.Z.**: <Geen Definities>
-* **Bijzondere Bijstand**: <Geen Definities>
+* **Andere wet**: 
+* **Leeg**: 
+* **Onbekend**: 
+* **Participatiewet PW-I**: 
+* **I.O.A.W./I.O.A.Z.**: 
+* **Bijzondere Bijstand**: 
 
 
 De enumeratie Wet heeft de volgende kenmerken:
