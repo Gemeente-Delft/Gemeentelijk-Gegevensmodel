@@ -600,10 +600,10 @@ Geen Definitie
 
 Het enumeratie Boolean kent de volgende waarden:
 
-* **Ja**: <Geen Definities>
-* **Nee**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **Ja**: 
+* **Nee**: 
+* **Onbekend**: 
+* **Leeg**: 
 
 
 De enumeratie Boolean heeft de volgende kenmerken:
@@ -620,7 +620,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_22511236_1981_4af2_80e7_5301bca98ef5 |
+    | id | EAID_e34a7c4f_819a_4d1f_b594_9db50919078d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -636,10 +636,10 @@ Geen Definitie
 
 Het enumeratie Boolean kent de volgende waarden:
 
-* **Ja**: <Geen Definities>
-* **Nee**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **Ja**: 
+* **Nee**: 
+* **Onbekend**: 
+* **Leeg**: 
 
 
 De enumeratie Boolean heeft de volgende kenmerken:
@@ -656,7 +656,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_f1a3d827_69bd_4daa_9fda_9711b8764426 |
+    | id | EAID_daae75ff_1819_4431_8226_8fe57468c372 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -704,8 +704,8 @@ Geen Definitie
 
 Het enumeratie Verzuimsoort kent de volgende waarden:
 
-* **absoluut**: <Geen Definities>
-* **relatief**: <Geen Definities>
+* **absoluut**: 
+* **relatief**: 
 
 
 De enumeratie Verzuimsoort heeft de volgende kenmerken:

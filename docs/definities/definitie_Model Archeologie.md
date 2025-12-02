@@ -24,7 +24,10 @@ Het model 'Model Archeologie' kent de volgende objecttypen:
 * **Archeologiebesluit**: Een professioneel oordeel dat gebaseerd is op algemeen aanvaarde wetenschap ten aanzien van de archeologie
 * **Artefact**: De benaming voor ieder verplaatsbaar object dat door de mens is vervaardigd, bewerkt en/of gebruikt.
 * **Artefactsoort**: Typering van artefacten
-* **boring**: Een verticale grondmonstername binnen een project<br>De gegevens over het geheel van activiteiten, voor zover relevant voor het onderzoek, dat tot doel heeft door boren een gat in de ondergrond te maken om monsters uit de ondergrond te nemen en/of metingen aan de ondergrond te doen.<br>Een middel om door boren of steken toegang te krijgen tot de ondergrond om bijvoorbeeld geroerde en/of ongeroerde monsters aan de ondergrond te ontlenen voor nader onderzoek.
+* **boring**: 
+> Een verticale grondmonstername binnen een project
+> De gegevens over het geheel van activiteiten, voor zover relevant voor het onderzoek, dat tot doel heeft door boren een gat in de ondergrond te maken om monsters uit de ondergrond te nemen en/of metingen aan de ondergrond te doen.
+> Een middel om door boren of steken toegang te krijgen tot de ondergrond om bijvoorbeeld geroerde en/of ongeroerde monsters aan de ondergrond te ontlenen voor nader onderzoek.
 * **Doos**: Een afsluitbaar object waar iets in wordt opgeborgen of verpakt.
 * **Kaart**: De geografische weergave van een gedeelte van het aardoppervlak
 * **locatie**: Een specifieke plaats
@@ -179,7 +182,10 @@ Attributen van objecttype Artefactsoort
 ### boring
 > **Definitie boring:** 
 >
-> Een verticale grondmonstername binnen een project<br>De gegevens over het geheel van activiteiten, voor zover relevant voor het onderzoek, dat tot doel heeft door boren een gat in de ondergrond te maken om monsters uit de ondergrond te nemen en/of metingen aan de ondergrond te doen.<br>Een middel om door boren of steken toegang te krijgen tot de ondergrond om bijvoorbeeld geroerde en/of ongeroerde monsters aan de ondergrond te ontlenen voor nader onderzoek.
+> 
+> Een verticale grondmonstername binnen een project
+> De gegevens over het geheel van activiteiten, voor zover relevant voor het onderzoek, dat tot doel heeft door boren een gat in de ondergrond te maken om monsters uit de ondergrond te nemen en/of metingen aan de ondergrond te doen.
+> Een middel om door boren of steken toegang te krijgen tot de ondergrond om bijvoorbeeld geroerde en/of ongeroerde monsters aan de ondergrond te ontlenen voor nader onderzoek.
 
 ??? info "Kenmerken Model boring"
     | Eigenschap | Waarde |

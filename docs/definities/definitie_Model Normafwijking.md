@@ -21,11 +21,11 @@
 
 Het model 'Model Normafwijking' kent de volgende objecttypen:
 
-* **Afwijkende maatregel**: <Geen Definities>
+* **Afwijkende maatregel**: 
 * **Boete**: Een boete is de uitkomst van een onderzoek naar rechtmatigheid. Dit leidt in principe tot een terug te vorderen bedrag. Er is voor gekozen om dit als aparte klasse te modelleren en niet als typering van een vordering, omdat we dit gegeven ook willen gebruiken bij risicoprofilering. Als de vordering niet (meer) bestaat, zou dit gegeven daarmee niet beschikbaar zijn.Daarnaast kan dit ook helpen bij het vastleggen van een boete van een poging tot fraude (zonder financiele consequenties, waardoor geen vordering is ontstaan. (tijdig ondekte valsheid in geschifte e.d.).Bij bedragen hoger dan 50.000 euro, wordt aangifte van fraude gedaan en volgt strafrechtelijk onderzoek.Feitelijk is het uitgangspunt bij het opleggen van een boete dat er altijd sprake is van opzet. Daarom is een apart gegeven Fraude niet opgenomen.
-* **Maatregel**: <Geen Definities>
-* **Maatregel op uitkering**: <Geen Definities>
-* **Normafwijking**: <Geen Definities>
+* **Maatregel**: 
+* **Maatregel op uitkering**: 
+* **Normafwijking**: 
 
 
 ## Objecttypen Model Normafwijking
@@ -40,7 +40,7 @@ Het model 'Model Normafwijking' kent de volgende objecttypen:
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Afwijkende maatregel |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -74,7 +74,7 @@ Attributen van objecttype Afwijkende maatregel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Boete |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -108,7 +108,7 @@ Attributen van objecttype Boete
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Maatregel |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -142,7 +142,7 @@ Attributen van objecttype Maatregel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Maatregel op uitkering |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -176,7 +176,7 @@ Attributen van objecttype Maatregel op uitkering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Normafwijking |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |

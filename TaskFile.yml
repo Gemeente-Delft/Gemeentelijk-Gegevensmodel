@@ -218,9 +218,9 @@ tasks:
     deps: [generate-docs]
     cmds:
       - echo "Building and deploying MkDocs and Mike..."
-      - mkdocs build
-      - mike deploy "{{.VERSION}}"
-      - mike set-default "{{.VERSION}}"
+      - mkdocs build --clean
+      - mike deploy "{{.VERSION}}" --ignore-remote-status
+      - mike set-default "{{.VERSION}}" --ignore-remote-status
       - echo "Documentation deployed. Use 'mike serve' to view results..."
     shell: bash
 

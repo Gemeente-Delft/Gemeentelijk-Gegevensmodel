@@ -30,13 +30,13 @@ Het model 'Model Vastgoed' kent de volgende objecttypen:
 * **Gebruiksdoel**: Een aanduiding va alle waarden waarmee het gebruiksdoel van een object kan worden verbijzonderd.
 * **Huurder**: Een partij die een zaak of een gedeelte daarvan in gebruik verstrekt heeft gekregen en zich heeft verbonden tot een tegenprestatie.
 * **Inspectie**: het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen.
-* **KpBetrokkenBij**: <Geen Definities>
-* **KpOnstaanUit**: <Geen Definities>
+* **KpBetrokkenBij**: 
+* **KpOnstaanUit**: 
 * **LocatieaanduidingWozObject**: Nadere aanduiding van het WOZ-object
 * **Locatieonroerendezaak**: Locatie van een geregistreerd goed
 * **MJOP**: Meerjaren Onderhoudsplanning
 * **MJOP-Item**: Onderdeel van een MJOP
-* **NADAanvullingBRP**: <Geen Definities>
+* **NADAanvullingBRP**: 
 * **Objectrelatie**: Relatie tot een object
 * **Offerte**: Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs.
 * **Pachter**: Een persoon die een pachtovereenkomst heeft met de eigenaar van een perceel voor het gebruik als landbouwgrond.
@@ -46,7 +46,9 @@ Het model 'Model Vastgoed' kent de volgende objecttypen:
 * **Vastgoedobject**: Perceel of vastgoed waar de gemeente een zakelijk recht heeft, en optioneel verhuurd, verpacht of anderzinds aan een derde partij.
 * **Verhuurbaar Eenheid**: Een Verhuurbare Eenheid (VHE) is een eenheid die individueel verhuurbaar is. Verhuurbaar komt voort uit 'exploitatie'
 * **Werkbon**: Document waarin een heoveelheid werk is beschreven
-* **WOZ-Belang**: hetgeen waaraan een persoon waarde hecht; zaak die of vorderingsrecht dat op geld waardeerbaar is, aan gevaar onderhevig en bij de wet niet uitgezonderd.<br>De (rechts-)persoon die door de gemeente is aangewezen als "belanghebbende eigenaar", "belanghebbende gebruiker" of eventueel "medebelanghebbende" van het WOZ-object.
+* **WOZ-Belang**: 
+> hetgeen waaraan een persoon waarde hecht; zaak die of vorderingsrecht dat op geld waardeerbaar is, aan gevaar onderhevig en bij de wet niet uitgezonderd.
+> De (rechts-)persoon die door de gemeente is aangewezen als "belanghebbende eigenaar", "belanghebbende gebruiker" of eventueel "medebelanghebbende" van het WOZ-object.
 * **Zakelijk Recht**: Geeft een recht op een goed, zoals een onroerende zaak of een roerende zaak.
 
 
@@ -1033,7 +1035,9 @@ Attributen van objecttype Werkbon
 ### WOZ-Belang
 > **Definitie WOZ-Belang:** 
 >
-> hetgeen waaraan een persoon waarde hecht; zaak die of vorderingsrecht dat op geld waardeerbaar is, aan gevaar onderhevig en bij de wet niet uitgezonderd.<br>De (rechts-)persoon die door de gemeente is aangewezen als "belanghebbende eigenaar", "belanghebbende gebruiker" of eventueel "medebelanghebbende" van het WOZ-object.
+> 
+> hetgeen waaraan een persoon waarde hecht; zaak die of vorderingsrecht dat op geld waardeerbaar is, aan gevaar onderhevig en bij de wet niet uitgezonderd.
+> De (rechts-)persoon die door de gemeente is aangewezen als "belanghebbende eigenaar", "belanghebbende gebruiker" of eventueel "medebelanghebbende" van het WOZ-object.
 
 ??? info "Kenmerken Model WOZ-Belang"
     | Eigenschap | Waarde |
@@ -1116,19 +1120,19 @@ Geen Definitie
 
 Het enumeratie gebruiksdoel kent de volgende waarden:
 
-* **woonfunctie **: <Geen Definities>
-* **bijeenkomstfunctie**: <Geen Definities>
-* **celfunctie **: <Geen Definities>
-* **gezondheidszorgfunctie**: <Geen Definities>
-* **industriefunctie**: <Geen Definities>
-* **kantoorfunctie**: <Geen Definities>
-* **logiesfunctie**: <Geen Definities>
-* **onderwijsfunctie **: <Geen Definities>
-* **sportfunctie **: <Geen Definities>
-* **winkelfunctie **: <Geen Definities>
-* **overige gebruiksfunctie **: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **woonfunctie **: 
+* **bijeenkomstfunctie**: 
+* **celfunctie **: 
+* **gezondheidszorgfunctie**: 
+* **industriefunctie**: 
+* **kantoorfunctie**: 
+* **logiesfunctie**: 
+* **onderwijsfunctie **: 
+* **sportfunctie **: 
+* **winkelfunctie **: 
+* **overige gebruiksfunctie **: 
+* **Onbekend**: 
+* **Leeg**: 
 
 
 De enumeratie gebruiksdoel heeft de volgende kenmerken:
@@ -1145,7 +1149,7 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
     | version | 1.5 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-03-26 16:14:55 |
-    | id | EAID_6747b7ee_069f_4f63_a9df_d3006514a676 |
+    | id | EAID_d6ca7f15_e421_4d33_ad99_f7ba13883ed4 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1161,10 +1165,10 @@ Geen Definitie
 
 Het enumeratie Boolean kent de volgende waarden:
 
-* **Ja**: <Geen Definities>
-* **Nee**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **Ja**: 
+* **Nee**: 
+* **Onbekend**: 
+* **Leeg**: 
 
 
 De enumeratie Boolean heeft de volgende kenmerken:
@@ -1181,7 +1185,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_816c12bd_b30f_485a_9eaf_03006a63467f |
+    | id | EAID_f4e276fb_284a_48aa_8997_71e11d94f813 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1197,10 +1201,10 @@ Geen Definitie
 
 Het enumeratie Boolean kent de volgende waarden:
 
-* **Ja**: <Geen Definities>
-* **Nee**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **Ja**: 
+* **Nee**: 
+* **Onbekend**: 
+* **Leeg**: 
 
 
 De enumeratie Boolean heeft de volgende kenmerken:
@@ -1217,7 +1221,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_f206038d_166c_4766_aca8_a88290d5123e |
+    | id | EAID_3a58a6a1_4ccf_4407_a4b7_caf0bcfa60e7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1233,10 +1237,10 @@ Geen Definitie
 
 Het enumeratie Boolean kent de volgende waarden:
 
-* **Ja**: <Geen Definities>
-* **Nee**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **Ja**: 
+* **Nee**: 
+* **Onbekend**: 
+* **Leeg**: 
 
 
 De enumeratie Boolean heeft de volgende kenmerken:
@@ -1253,7 +1257,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_13576c07_5323_4656_99fc_563ffd6dfbda |
+    | id | EAID_69de2178_1208_412f_a3ca_dc174672189e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1269,12 +1273,12 @@ Geen Definitie
 
 Het enumeratie aanduidingEigenaarGebruiker kent de volgende waarden:
 
-* **eigenaar-gebruiker**: <Geen Definities>
-* **eigenaar**: <Geen Definities>
-* **gebruiker**: <Geen Definities>
-* **medebelanghebbende**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **eigenaar-gebruiker**: 
+* **eigenaar**: 
+* **gebruiker**: 
+* **medebelanghebbende**: 
+* **Onbekend**: 
+* **Leeg**: 
 
 
 De enumeratie aanduidingEigenaarGebruiker heeft de volgende kenmerken:
@@ -1291,7 +1295,7 @@ De enumeratie aanduidingEigenaarGebruiker heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_35f40784_0cb0_4bc9_8dcc_8d72cd0f4187 |
+    | id | EAID_1df453da_40bf_414d_9ae8_35c611ebed60 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1316,8 +1320,8 @@ Het enumeratie Energielabel Gebouwen kent de volgende waarden:
 * **E**: Minder dan verbruik 2,4 gigajoule energie per m2 per jaar
 * **F**: Minder dan verbruik 2,9 gigajoule energie per m2 per jaar
 * **G**: Meer dan verbruik 2,9 gigajoule energie per m2 per jaar
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **Onbekend**: 
+* **Leeg**: 
 
 
 De enumeratie Energielabel Gebouwen heeft de volgende kenmerken:
@@ -1350,15 +1354,15 @@ Geen Definitie
 
 Het enumeratie Monumenttypering kent de volgende waarden:
 
-* **Onbekend**: <Geen Definities>
-* **Nee**: <Geen Definities>
-* **Ja**: <Geen Definities>
-* **Beschermd Stadsgezicht**: <Geen Definities>
-* **Rijksmonument**: <Geen Definities>
-* **Deels rijksmonument**: <Geen Definities>
-* **Gemeentelijk monument**: <Geen Definities>
-* **Geen monument**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **Onbekend**: 
+* **Nee**: 
+* **Ja**: 
+* **Beschermd Stadsgezicht**: 
+* **Rijksmonument**: 
+* **Deels rijksmonument**: 
+* **Gemeentelijk monument**: 
+* **Geen monument**: 
+* **Leeg**: 
 
 
 De enumeratie Monumenttypering heeft de volgende kenmerken:
@@ -1392,13 +1396,13 @@ Geen Definitie
 Het enumeratie NEN2767 Conditiescore kent de volgende waarden:
 
 * **1**: Uitstekende conditie; incidenteel geringe gebreken
-* **2**: Goede conditie; <font color="#262626">Incidenteel beginnende veroudering</font>
-* **3**: Redelijke conditie; <font color="#262626">Plaatselijk zichtbare veroudering Functievervulling van bouw- en installatiedelen niet in gevaar</font>
-* **4**: Matige conditie; <font color="#262626">Functievervulling van bouw- en installatiedelen incidenteel in gevaar</font>
-* **5**: Slechte conditie; <font color="#262626">De veroudering is onomkeerbaar</font>
-* **6**: Zeer slechte conditie; <font color="#262626">Technisch rijp voor sloop</font>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **2**: Goede conditie; Incidenteel beginnende veroudering
+* **3**: Redelijke conditie; Plaatselijk zichtbare veroudering Functievervulling van bouw- en installatiedelen niet in gevaar
+* **4**: Matige conditie; Functievervulling van bouw- en installatiedelen incidenteel in gevaar
+* **5**: Slechte conditie; De veroudering is onomkeerbaar
+* **6**: Zeer slechte conditie; Technisch rijp voor sloop
+* **Onbekend**: 
+* **Leeg**: 
 
 
 De enumeratie NEN2767 Conditiescore heeft de volgende kenmerken:
@@ -1431,12 +1435,12 @@ Geen Definitie
 
 Het enumeratie Objectrelatierol kent de volgende waarden:
 
-* **accountmanager**: <Geen Definities>
-* **accountmanager verkoop (jurist)**: <Geen Definities>
-* **beheerder**: <Geen Definities>
-* **taxateur**: <Geen Definities>
-* **technisch beheerder**: <Geen Definities>
-* **service provider**: <Geen Definities>
+* **accountmanager**: 
+* **accountmanager verkoop (jurist)**: 
+* **beheerder**: 
+* **taxateur**: 
+* **technisch beheerder**: 
+* **service provider**: 
 
 
 De enumeratie Objectrelatierol heeft de volgende kenmerken:
@@ -1469,12 +1473,12 @@ Geen Definitie
 
 Het enumeratie TypeAdresseerbaarObject kent de volgende waarden:
 
-* **KADbinnenlandsadres**: <Geen Definities>
-* **Verblijfsobject**: <Geen Definities>
-* **Ligplaats**: <Geen Definities>
-* **Standplaats**: <Geen Definities>
-* **Leeg**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
+* **KADbinnenlandsadres**: 
+* **Verblijfsobject**: 
+* **Ligplaats**: 
+* **Standplaats**: 
+* **Leeg**: 
+* **Onbekend**: 
 
 
 De enumeratie TypeAdresseerbaarObject heeft de volgende kenmerken:
@@ -1507,12 +1511,12 @@ Geen Definitie
 
 Het enumeratie Zakelijkrecht kent de volgende waarden:
 
-* **eigendom**: <Geen Definities>
-* **huur**: <Geen Definities>
-* **pacht**: <Geen Definities>
-* **recht van opstal**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **eigendom**: 
+* **huur**: 
+* **pacht**: 
+* **recht van opstal**: 
+* **Onbekend**: 
+* **Leeg**: 
 
 
 De enumeratie Zakelijkrecht heeft de volgende kenmerken:

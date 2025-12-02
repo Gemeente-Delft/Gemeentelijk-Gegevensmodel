@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Terug- en invordering:** 
 >
-> Het onderdeel Terug- en Invordering richt zich op de processen en gegevens rondom het terugvorderen en invorderen van onterecht verstrekte inkomensvoorzieningen. Dit model biedt een gestructureerde weergave van de objecttypen en hun onderlinge relaties die nodig zijn om deze financi&#235;le processen effectief te beheren.
+> Het onderdeel Terug- en Invordering richt zich op de processen en gegevens rondom het terugvorderen en invorderen van onterecht verstrekte inkomensvoorzieningen. Dit model biedt een gestructureerde weergave van de objecttypen en hun onderlinge relaties die nodig zijn om deze financiële processen effectief te beheren.
 
 ??? info "Kenmerken Model Model Terug- en invordering"
     | Kenmerk | Waarde |
@@ -64,7 +64,7 @@ Het model 'Model Terug- en invordering' kent de volgende objecttypen:
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aflossing |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -98,7 +98,7 @@ Attributen van objecttype Aflossing
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aflossingsafspraak |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -132,7 +132,7 @@ Attributen van objecttype Aflossingsafspraak
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aflossingsplan |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -166,7 +166,7 @@ Attributen van objecttype Aflossingsplan
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Afschrijving |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -200,7 +200,7 @@ Attributen van objecttype Afschrijving
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Betaalcomponent |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -234,7 +234,7 @@ Attributen van objecttype Betaalcomponent
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Boetevordering |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -268,7 +268,7 @@ Attributen van objecttype Boetevordering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Conservatoir beslag |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -302,7 +302,7 @@ Attributen van objecttype Conservatoir beslag
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Correctie |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -336,7 +336,7 @@ Attributen van objecttype Correctie
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Debiteur |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -370,7 +370,7 @@ Attributen van objecttype Debiteur
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Incassokostenvordering |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -404,7 +404,7 @@ Attributen van objecttype Incassokostenvordering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Interventie |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -438,7 +438,7 @@ Attributen van objecttype Interventie
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Interventieverzoek |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -472,7 +472,7 @@ Attributen van objecttype Interventieverzoek
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Invorderingsbasis |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -506,7 +506,7 @@ Attributen van objecttype Invorderingsbasis
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Krediethypotheek |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -540,7 +540,7 @@ Attributen van objecttype Krediethypotheek
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Krediethypotheekvordering |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -574,7 +574,7 @@ Attributen van objecttype Krediethypotheekvordering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Kwijtschelding |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -608,7 +608,7 @@ Attributen van objecttype Kwijtschelding
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Leenbijstand |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -642,7 +642,7 @@ Attributen van objecttype Leenbijstand
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Leenbijstandvordering |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -676,7 +676,7 @@ Attributen van objecttype Leenbijstandvordering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Loonbeslagafspraak |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -710,7 +710,7 @@ Attributen van objecttype Loonbeslagafspraak
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Rechtmaand |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -744,7 +744,7 @@ Attributen van objecttype Rechtmaand
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Rentevordering |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -778,7 +778,7 @@ Attributen van objecttype Rentevordering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Restitutie |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -812,7 +812,7 @@ Attributen van objecttype Restitutie
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Terugvorderingsverzoek |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -846,7 +846,7 @@ Attributen van objecttype Terugvorderingsverzoek
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Uitstel aflossing |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -880,7 +880,7 @@ Attributen van objecttype Uitstel aflossing
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vermindering terugvordering |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -914,7 +914,7 @@ Attributen van objecttype Vermindering terugvordering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verrekening |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -948,7 +948,7 @@ Attributen van objecttype Verrekening
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verwijtbare vordering |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -982,7 +982,7 @@ Attributen van objecttype Verwijtbare vordering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vordering |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1016,7 +1016,7 @@ Attributen van objecttype Vordering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vorderingscomponent |
-    | toelichting | <memo> |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1069,7 +1069,7 @@ De enumeratie Verwerkingsstatus heeft de volgende kenmerken:
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-08-06 14:19:42 |
-    | id | EAID_7001967d_bf23_4beb_9c96_c424760f968c |
+    | id | EAID_256b892e_31d6_41d6_8643_6948a8b3fcbd |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

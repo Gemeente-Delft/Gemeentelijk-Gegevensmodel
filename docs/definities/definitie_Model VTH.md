@@ -22,31 +22,31 @@
 Het model 'Model VTH' kent de volgende objecttypen:
 
 * **Activiteit Omgevingswet**: Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd.
-* **AOMStatus**: <Geen Definities>
-* **Bevinding**: <Geen Definities>
+* **AOMStatus**: 
+* **Bevinding**: 
 * **BOA**: Een buitengewoon opsporingsambtenaar (boa) is een ambtenaar met een specifieke opsporingsbevoegdheid.
 * **Combibon**: Arjen deze  is voor jou
 * **Fietsregistratie**: Adminstreren van fietsen
-* **Grondslag**: <Geen Definities>
+* **Grondslag**: 
 * **Heffinggrondslag**: De maatstaf waarop een belasting is gebaseerd, het bedrag op basis waarvan een bepaalde belasting wordt geheven of de premie voor sociale zekerheid wordt vastgesteld.
-* **Heffingsverordening**: <Geen Definities>
+* **Heffingsverordening**: 
 * **Indiener**: Persoon die meldiing of aanvraag doet
 * **Inspectie**: het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen.
-* **Kosten**: <Geen Definities>
-* **Leges_Grondslag**: <Geen Definities>
+* **Kosten**: 
+* **Leges_Grondslag**: 
 * **Ligplaatsontheffing**: Tijdelijke toestemming voor het innemen van een ligplaats op een locatie in een gebied met een verbod op ligplaatsen.
-* **MORAanvraagOfMelding**: <Geen Definities>
+* **MORAanvraagOfMelding**: 
 * **OpenbareActiviteit**: Activiteit in het publieke domein
 * **Precario**: Belasting die specifiek wordt geheven voor het plaatsen van voorwerpen onder, op of boven voor de openbare dienst bestemde gemeentegrond.
-* **Producttype**: <Geen Definities>
-* **SubProducttype**: <Geen Definities>
+* **Producttype**: 
+* **SubProducttype**: 
 * **Vaartuig**: Een zee- of binnenvaartuig, tot de vaart gebruikt of bestemd, daaronder begrepen drijvende werktuigen, zoals baggerwerktuigen, kranen, bokken, elevators, alsmede woonschepen, glijboten en ponten.
 * **VOMAanvraagOfMelding**: VOM staat voor Vergunning, Ontheffing of Melding. Het betreft hier een melding of een aanvraag voor een vergunning of een ontheffing.
-* **Vordering**: <Geen Definities>
-* **Vorderingregel**: <Geen Definities>
+* **Vordering**: 
+* **Vorderingregel**: 
 * **VTHAanvraagOfMelding**: VTH staat voor Vergunning, Toezicht en Handhaving. Het betreft hier een melding of een aanvraag voor een vergunning of een melding voor Toezicht en/of Handhaving.
 * **VTH-Melding**: Melding met betrekking tot Vergunningen, Toezicht en Handhaving
-* **VTHzaak**: <Geen Definities>
+* **VTHzaak**: 
 * **Waarneming**: Handhavende taak in het kader van VTH
 * **WABOAanvraagOfMelding**: Aanvraag of medling in het kader van de Wet algemene bepalingen omgevingsrecht (WABO)
 * **WoonfraudeAanvraagOfMelding**: Melding of aanvraag van woonfraude
@@ -1242,10 +1242,10 @@ Geen Definitie
 
 Het enumeratie Boolean kent de volgende waarden:
 
-* **Ja**: <Geen Definities>
-* **Nee**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **Ja**: 
+* **Nee**: 
+* **Onbekend**: 
+* **Leeg**: 
 
 
 De enumeratie Boolean heeft de volgende kenmerken:
@@ -1262,7 +1262,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_84e85bb7_90c7_4811_833b_f466a560dd34 |
+    | id | EAID_b3801a1a_2997_484a_a526_6f1a5bb60ec7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1278,10 +1278,10 @@ Geen Definitie
 
 Het enumeratie Boolean kent de volgende waarden:
 
-* **Ja**: <Geen Definities>
-* **Nee**: <Geen Definities>
-* **Onbekend**: <Geen Definities>
-* **Leeg**: <Geen Definities>
+* **Ja**: 
+* **Nee**: 
+* **Onbekend**: 
+* **Leeg**: 
 
 
 De enumeratie Boolean heeft de volgende kenmerken:
@@ -1298,7 +1298,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.4 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-03-26 16:14:54 |
-    | id | EAID_275c3e1b_a2c8_42b1_984e_4c8f703496b0 |
+    | id | EAID_e3ad61b6_6cb5_421e_8d19_6d958689db8c |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1314,9 +1314,9 @@ Geen Definitie
 
 Het enumeratie Beoordelingsoort kent de volgende waarden:
 
-* **Niet Relevant**: <Geen Definities>
-* **Oke**: <Geen Definities>
-* **Niet Oke**: <Geen Definities>
+* **Niet Relevant**: 
+* **Oke**: 
+* **Niet Oke**: 
 
 
 De enumeratie Beoordelingsoort heeft de volgende kenmerken:
@@ -1349,8 +1349,8 @@ Geen Definitie
 
 Het enumeratie Heffingsoort kent de volgende waarden:
 
-* **leges**: <Geen Definities>
-* **precario**: <Geen Definities>
+* **leges**: 
+* **precario**: 
 
 
 De enumeratie Heffingsoort heeft de volgende kenmerken:
@@ -1383,9 +1383,9 @@ Geen Definitie
 
 Het enumeratie StatusOpenbareActiviteit kent de volgende waarden:
 
-* **Aangemeld**: <Geen Definities>
-* **Aangevraagd**: <Geen Definities>
-* **Verleend**: <Geen Definities>
+* **Aangemeld**: 
+* **Aangevraagd**: 
+* **Verleend**: 
 
 
 De enumeratie StatusOpenbareActiviteit heeft de volgende kenmerken:
