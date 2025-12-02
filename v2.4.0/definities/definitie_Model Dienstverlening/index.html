@@ -4272,28 +4272,61 @@
 </details>
 <p>Het model 'Model Dienstverlening' kent de volgende objecttypen:</p>
 <ul>
-<li><strong>Aanvraagdata</strong>: Bron: GEN_REQ_DATA<br>ID: REQ_DATA icm VELD_NAAM</li>
-<li><strong>AanvraagOfMelding</strong>: Komt overeen met een VJV<br>Bron: GEM_VJV (Distinct op REQ_ID)<br>ID: REQ_ID</li>
+<li><strong>Aanvraagdata</strong>: <blockquote>
+<p>Bron: GEN_REQ_DATA
+ID: REQ_DATA icm VELD_NAAM</p>
+</blockquote>
+</li>
+<li><strong>AanvraagOfMelding</strong>: <blockquote>
+<p>Komt overeen met een VJV
+Bron: GEM_VJV (Distinct op REQ_ID)
+ID: REQ_ID</p>
+</blockquote>
+</li>
 <li><strong>Afspraakstatus</strong>: de toestand van de afspraak</li>
 <li><strong>Artikel</strong>: Tekst die is gemaakt om gepubliceerd te worden als een onafhankelijk deel van een tijdschrift, krant, encyclopedie of ander werk</li>
 <li><strong>Balieafspraak</strong>: Balieafspraken zijn afspraken voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden of gaat plaatsvinden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.</li>
 <li><strong>ExterneBron</strong>: Bron buiten de eigen organisatie</li>
-<li><strong>Formuliersoort</strong>: Bron: GEM_FORM<br>ID: FORM_ID</li>
-<li><strong>Formuliersoortveld</strong>: Bron: GEM_VELD<br>ID: FORM_ID en VELD_NAAM</li>
+<li><strong>Formuliersoort</strong>: <blockquote>
+<p>Bron: GEM_FORM
+ID: FORM_ID</p>
+</blockquote>
+</li>
+<li><strong>Formuliersoortveld</strong>: <blockquote>
+<p>Bron: GEM_VELD
+ID: FORM_ID en VELD_NAAM</p>
+</blockquote>
+</li>
 <li><strong>Klantbeoordeling</strong>: goed- of afkeurende uitspraak; = mening, opvatting</li>
 <li><strong>Klantbeoordelingreden</strong>: Reden voor de beoordeling</li>
 <li><strong>MOR-AanvraagOfMelding</strong>: Bericht van een inwoner over een gebrek of opvallendheid in de openbare ruimte</li>
-<li><strong>Onderwerp</strong>: Bron: GEM_VJV_ONDERWERP<br>ID: ONDERWERP_ID</li>
+<li><strong>Onderwerp</strong>: <blockquote>
+<p>Bron: GEM_VJV_ONDERWERP
+ID: ONDERWERP_ID</p>
+</blockquote>
+</li>
 <li><strong>ProductOfDienst</strong>: Bron: QP_CALENDAR.CFM_SERVICES</li>
 <li><strong>Telefoononderwerp</strong>: Onderwerp waarover het telefooncontact gaat</li>
-<li><strong>Telefoonstatus</strong>: ABANDONEDALERTING: “Opgehangen tijdens overgaan telefoon”<br> DROPPEDCANCELED: “Opgehangen door systeem”<br> ABANDONEDQUEUED: “Opgehangen tijdens wachten, zonder boodschap. ”<br> CONNECTEDDIRECT: “Direct verbonden”<br> CONNECTEDQUEUEDANNOUNCE: “Verbonden na wachtrij met boodschap”<br> AbandonedQUEUEDANNOUNCE: “Opgehangen in wachtrij met boodschap”<br> DroppedBusy: “Opgehangen door systeem, te druk”<br> REJECTED: “Geweigerd door systeem”<br> Droppedoverload: “Opgehangen door systeem vanwege overbelasting”</li>
+<li><strong>Telefoonstatus</strong>: <blockquote>
+<p>ABANDONEDALERTING: “Opgehangen tijdens overgaan telefoon”
+DROPPEDCANCELED: “Opgehangen door systeem”
+ABANDONEDQUEUED: “Opgehangen tijdens wachten, zonder boodschap. ”
+CONNECTEDDIRECT: “Direct verbonden”
+CONNECTEDQUEUEDANNOUNCE: “Verbonden na wachtrij met boodschap”
+AbandonedQUEUEDANNOUNCE: “Opgehangen in wachtrij met boodschap”
+DroppedBusy: “Opgehangen door systeem, te druk”
+REJECTED: “Geweigerd door systeem”
+Droppedoverload: “Opgehangen door systeem vanwege overbelasting”</p>
+</blockquote>
+</li>
 <li><strong>Telefoontje</strong>: De telefoontgesprekken zijn alle keren dat iemand naar de gemeente belt en het telefoonsysteem neemt deze telefoongesprekken aan. Ongeacht of iemand daarna ophangt, door het systeem uit de wachtrij wordt gezet, doorverbonden wordt met een derde partij of er werkelijk wordt opgenomen.</li>
 </ul>
 <h2 id="objecttypen-model-dienstverlening">Objecttypen Model Dienstverlening</h2>
 <h3 id="aanvraagdata">Aanvraagdata</h3>
 <blockquote>
 <p><strong>Definitie Aanvraagdata:</strong> </p>
-<p>Bron: GEN_REQ_DATA<br>ID: REQ_DATA icm VELD_NAAM</p>
+<p>Bron: GEN_REQ_DATA
+ID: REQ_DATA icm VELD_NAAM</p>
 </blockquote>
 <details class="info">
 <summary>Kenmerken Model Aanvraagdata</summary>
@@ -4367,15 +4400,16 @@
 </tr>
 <tr>
 <td style="text-align: left;">gemma_definitie</td>
-<td style="text-align: left;">Bron: GEN_REQ_DATA<br>ID: REQ_DATA icm VELD_NAAM</td>
-</tr>
-<tr>
-<td style="text-align: left;">gemma_toelichting</td>
 <td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
 </details>
+<blockquote>
+<p>Bron: GEN_REQ_DATA
+ID: REQ_DATA icm VELD_NAAM |
+    | gemma_toelichting |  |</p>
+</blockquote>
 <p>Attributen van objecttype Aanvraagdata</p>
 <table>
 <thead>
@@ -4401,7 +4435,9 @@
 <h3 id="aanvraagofmelding">AanvraagOfMelding</h3>
 <blockquote>
 <p><strong>Definitie AanvraagOfMelding:</strong> </p>
-<p>Komt overeen met een VJV<br>Bron: GEM_VJV (Distinct op REQ_ID)<br>ID: REQ_ID</p>
+<p>Komt overeen met een VJV
+Bron: GEM_VJV (Distinct op REQ_ID)
+ID: REQ_ID</p>
 </blockquote>
 <details class="info">
 <summary>Kenmerken Model AanvraagOfMelding</summary>
@@ -4475,15 +4511,17 @@
 </tr>
 <tr>
 <td style="text-align: left;">gemma_definitie</td>
-<td style="text-align: left;">Komt overeen met een VJV<br>Bron: GEM_VJV (Distinct op REQ_ID)<br>ID: REQ_ID</td>
-</tr>
-<tr>
-<td style="text-align: left;">gemma_toelichting</td>
 <td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
 </details>
+<blockquote>
+<p>Komt overeen met een VJV
+Bron: GEM_VJV (Distinct op REQ_ID)
+ID: REQ_ID |
+    | gemma_toelichting |  |</p>
+</blockquote>
 <p>Attributen van objecttype AanvraagOfMelding</p>
 <table>
 <thead>
@@ -5051,7 +5089,8 @@
 <h3 id="formuliersoort">Formuliersoort</h3>
 <blockquote>
 <p><strong>Definitie Formuliersoort:</strong> </p>
-<p>Bron: GEM_FORM<br>ID: FORM_ID</p>
+<p>Bron: GEM_FORM
+ID: FORM_ID</p>
 </blockquote>
 <details class="info">
 <summary>Kenmerken Model Formuliersoort</summary>
@@ -5164,7 +5203,8 @@
 <h3 id="formuliersoortveld">Formuliersoortveld</h3>
 <blockquote>
 <p><strong>Definitie Formuliersoortveld:</strong> </p>
-<p>Bron: GEM_VELD<br>ID: FORM_ID en VELD_NAAM</p>
+<p>Bron: GEM_VELD
+ID: FORM_ID en VELD_NAAM</p>
 </blockquote>
 <details class="info">
 <summary>Kenmerken Model Formuliersoortveld</summary>
@@ -5646,7 +5686,8 @@
 <h3 id="onderwerp">Onderwerp</h3>
 <blockquote>
 <p><strong>Definitie Onderwerp:</strong> </p>
-<p>Bron: GEM_VJV_ONDERWERP<br>ID: ONDERWERP_ID</p>
+<p>Bron: GEM_VJV_ONDERWERP
+ID: ONDERWERP_ID</p>
 </blockquote>
 <details class="info">
 <summary>Kenmerken Model Onderwerp</summary>
@@ -5720,15 +5761,16 @@
 </tr>
 <tr>
 <td style="text-align: left;">gemma_definitie</td>
-<td style="text-align: left;">Bron: GEM_VJV_ONDERWERP<br>ID: ONDERWERP_ID</td>
-</tr>
-<tr>
-<td style="text-align: left;">gemma_toelichting</td>
 <td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
 </details>
+<blockquote>
+<p>Bron: GEM_VJV_ONDERWERP
+ID: ONDERWERP_ID |
+    | gemma_toelichting |  |</p>
+</blockquote>
 <p>Attributen van objecttype Onderwerp</p>
 <table>
 <thead>
@@ -5975,7 +6017,15 @@
 <h3 id="telefoonstatus">Telefoonstatus</h3>
 <blockquote>
 <p><strong>Definitie Telefoonstatus:</strong> </p>
-<p>ABANDONEDALERTING: “Opgehangen tijdens overgaan telefoon”<br> DROPPEDCANCELED: “Opgehangen door systeem”<br> ABANDONEDQUEUED: “Opgehangen tijdens wachten, zonder boodschap. ”<br> CONNECTEDDIRECT: “Direct verbonden”<br> CONNECTEDQUEUEDANNOUNCE: “Verbonden na wachtrij met boodschap”<br> AbandonedQUEUEDANNOUNCE: “Opgehangen in wachtrij met boodschap”<br> DroppedBusy: “Opgehangen door systeem, te druk”<br> REJECTED: “Geweigerd door systeem”<br> Droppedoverload: “Opgehangen door systeem vanwege overbelasting”</p>
+<p>ABANDONEDALERTING: “Opgehangen tijdens overgaan telefoon”
+DROPPEDCANCELED: “Opgehangen door systeem”
+ABANDONEDQUEUED: “Opgehangen tijdens wachten, zonder boodschap. ”
+CONNECTEDDIRECT: “Direct verbonden”
+CONNECTEDQUEUEDANNOUNCE: “Verbonden na wachtrij met boodschap”
+AbandonedQUEUEDANNOUNCE: “Opgehangen in wachtrij met boodschap”
+DroppedBusy: “Opgehangen door systeem, te druk”
+REJECTED: “Geweigerd door systeem”
+Droppedoverload: “Opgehangen door systeem vanwege overbelasting”</p>
 </blockquote>
 <details class="info">
 <summary>Kenmerken Model Telefoonstatus</summary>
@@ -6228,10 +6278,10 @@
 <p>Geen Definitie</p>
 <p>Het enumeratie Boolean kent de volgende waarden:</p>
 <ul>
-<li><strong>Ja</strong>: <Geen Definities></li>
-<li><strong>Nee</strong>: <Geen Definities></li>
-<li><strong>Onbekend</strong>: <Geen Definities></li>
-<li><strong>Leeg</strong>: <Geen Definities></li>
+<li><strong>Ja</strong>: </li>
+<li><strong>Nee</strong>: </li>
+<li><strong>Onbekend</strong>: </li>
+<li><strong>Leeg</strong>: </li>
 </ul>
 <p>De enumeratie Boolean heeft de volgende kenmerken:</p>
 <details class="info">
@@ -6282,7 +6332,7 @@
 </tr>
 <tr>
 <td style="text-align: left;">id</td>
-<td style="text-align: left;">EAID_58779981_077c_470c_8437_74505a39985c</td>
+<td style="text-align: left;">EAID_bdd71a8a_45db_41a3_8983_662a628eb8a0</td>
 </tr>
 <tr>
 <td style="text-align: left;">domein_iv3</td>
