@@ -218,7 +218,7 @@ tasks:
     deps: [generate-docs]
     cmds:
       - echo "Building and deploying MkDocs and Mike..."
-      - mkdocs build
+      - mkdocs build --clean
       - mike deploy "{{.VERSION}}" latest --update-aliases
       - mike set-default "{{.VERSION}}"
       - echo "Documentation deployed. Use 'mike serve' to view results..."
