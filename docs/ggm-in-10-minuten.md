@@ -6,15 +6,45 @@ Het GGM omvat alle beleidsterreinen die onder de verantwoordelijkheid van de gem
 
 Bij het GGM is een set _codegeneratietemplates_ ontwikkeld voor het genereren van fysieke datamodellen op basis van (onderdelen van) het GGM. Hiermee genereer je DDL voor diverse RDBMS'en. Wij gebruikten Oracle en in ongeteste vorm zijn de templates beschikbaar voor MySQL, en maakten hier diverse aanvullingen voor. Het gaat hier om templates voor het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html) van Enterprise Architect.
 
-<p align="center">
-  <a href="https://www.gemeentedelers.nl/"> 
-      <img width="460" src="image/WinnaarGemeenteDelers2022.png" alt="Winnaar Gemeentedelers 2022">
-  </a>
-</p>
 
-## Goud-status Common Ground
+<div style="text-align: center; margin: 1.5rem 0;">
 
-De Expert Review Groep van de Common Ground heeft het initiatief GGM besproken en besloten het initiatief de classificatie Goud te geven op het [Common Ground portfolio](https://commonground.nl/page/view/b68441ec-e536-4f81-82d8-ce6f3d6606a9/portfolio). Deze classificatie is gerelateerd aan de toets op de architectuur en realisatie principes. We zijn tot deze conclusie gekomen op basis van de ontvangen antwoorden. 
+[![Winnaar Gemeentedelers 2022](image/WinnaarGemeenteDelers2022.png)](https://www.gemeentedelers.nl/)
+
+</div>
+
+## Waarom een gemeentebreed informatiemodel?
+
+Gemeenten werken met veel applicaties, ketens en databronnen. Daardoor ontstaan in de praktijk:
+- meerdere definities voor hetzelfde begrip (bijv. *inwoner*, *adres*, *voorziening*);
+- koppelingen en mappings die per project opnieuw moeten worden ontworpen;
+- rapportages en beleidsanalyses die niet eenduidig of herhaalbaar zijn.
+
+Het GGM biedt hiervoor één semantisch vertrekpunt: een **gemeenschappelijke set definities en relaties** die herbruikbaar is over domeinen en oplossingen heen.
+
+## Relatie met standaarden en waarom dit interoperabiliteit vergroot
+
+Het GGM is opgebouwd vanuit en in samenhang met bestaande standaarden:
+- **RSGB** en **RGBZ** vormen de kern voor gedeelde basisbegrippen (Kern).
+- Waar relevant worden **domein- en ketenstandaarden** toegepast (bijv. iWmo/iJw, IMBOR, Suwi, Omgevingswet-standaarden).
+- Het GGM positioneert deze standaarden zodanig dat begrippen **traceerbaar** zijn naar bronkaders en dat hergebruik maximaal is.
+
+Belangrijk: het GGM is primair **conceptueel/logisch**. Technische implementaties (tabellen, JSON Schema, API’s, RDF) worden **afgeleid** op basis van het beoogde gebruik.
+
+## Indeling: IV3-taakvelden als ordeningsprincipe
+
+Voor de domeinindeling sluit het GGM aan op de **IV3-taakvelden**. IV3 is hierbij geen technische datastandaard, maar een **herkenbare bestuurlijke en financiële domeinindeling**. Dit helpt om:
+- de scope van het model compleet te houden;
+- domeinen herkenbaar te structureren voor governance en portfoliosturing;
+- aansluitbaarheid met gemeentelijke planning-&-controlprocessen te verbeteren.
+
+## Toepassingsscenario’s
+
+Architecten gebruiken het GGM onder andere als:
+- **referentiemodel voor data-platformen** (conformeren naar GGM voor BI/analytics);
+- **ontwerpkader voor API’s** (consistentie in resources en payloads);
+- **basis voor uitwisselspecificaties** (bijv. JSON Schema / XSD-profielen);
+- **semantisch publicatiekader** (bijv. RDF/Linked Data), indien gewenst.
 
 ## Opbouw Gemeentelijk Gegevensmodel
 

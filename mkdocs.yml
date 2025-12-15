@@ -19,6 +19,24 @@ extra:
 
 nav:
  - Home: index.md
+ - GGM in 10 minuten: ggm-in-10-minuten.md
+ - Snel beginnen met GGM: snel-beginnen-met-GGM.md
+ - GGM voor Gemeenten:
+    - 'Wat is GGM?': ggm-voor-gemeenten/Wat-is-GGM.md
+    - 'Voordelen van GGM': ggm-voor-gemeenten/Voordelen-van-GGM.md
+    - 'GGM implementeren': ggm-voor-gemeenten/GGM-implementeren.md
+    - 'GGM gebruiken': ggm-voor-gemeenten/GGM-gebruiken.md
+    - 'GGM in de praktijk': ggm-voor-gemeenten/GGM-in-de-praktijk.md
+ - GGM voor softwareleveranciers:
+    - 'Wat is GGM voor Leveranciers?': ggm-voor-leveranciers/Wat-is-GGM-voor-leveranciers.md
+    - 'Voordelen van GGM voor Leveranciers': ggm-voor-leveranciers/Voordelen-van-GGM-voor-leveranciers.md
+    - 'GGM implementeren als Leverancier': ggm-voor-leveranciers/GGM-implementeren-als-leverancier.md
+    - 'GGM gebruiken als Leverancier': ggm-voor-leveranciers/GGM-gebruiken-als-leverancier.md
+    - 'GGM in de praktijk bij Leveranciers': ggm-voor-leveranciers/GGM-in-de-praktijk-bij-leveranciers.md
+ - 'Achtergrond informatie':
+        - 'IV3': achtergrond-informatie/IV3.md
+        - 'Beheerplan GGM': achtergrond-informatie/beheerplan-GGM.md
+        - 'Totstandkoming GGM': achtergrond-informatie/Totstandkoming-GGM.md
  - Praktische informatie & tooling: 
     - 'Installatie': installatie.md
     - 'Licentie': https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE
@@ -27,10 +45,6 @@ nav:
     - 'Backup maken': backup.md
     - 'Tooling voor manipulatie repository': tools.md
     - 'GGM tabelgeneratie': generatie.md
- - 'Achtergrond informatie':
-        - 'IV3': achtergrond-informatie/IV3.md
-        - 'Beheerplan GGM': achtergrond-informatie/beheerplan-GGM.md
-        - 'Totstandkoming GGM': achtergrond-informatie/Totstandkoming-GGM.md
  - Startersgids Gemeenten: 
     - 'Introductie Startersgids': startersgids/Startdocument.md
     - 'Introductie GGM': startersgids/Waarom-het-GGM.md
