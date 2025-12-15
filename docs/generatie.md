@@ -1,4 +1,24 @@
-# Databaseschema's
+# Databaseschema's genereren
+
+## GGM-generator 
+Waar in de vorige [release](#kant-en-klare-databaseschemas) al een eerste stap werd gezet met de batchpublicatie van DDL-bestanden zijn deze nu direct beschikbaar via een gebruiksvriendelijke webinterface. Hiermee kan het model eenvoudig geraadpleegd, geïmplementeerd en gevisualiseerd worden.
+
+De GGM Generator vertaalt logische modellen naar fysieke schema’s voor de meest gangbare databasesystemen:
+
+- MySQL
+- MS SQL
+- PostgreSQL
+- Oracle
+
+Naast databaseschema’s kan de tool verschillende representaties genereren, waaronder:
+
+- DBML en PlantUML voor visualisatie
+- ArchiMate voor bredere modellering
+- Linked Data in Turtle voor semantische toepassingen
+
+Dankzij deze functionaliteiten zijn de modellen niet alleen technisch toepasbaar, maar ook semantisch bruikbaar in uiteenlopende omgevingen. Dit vergroot de toegankelijkheid en toepasbaarheid van het GGM en vormt een belangrijke stap in de verdere ontwikkeling en implementatie van gegevensmodellen binnen gemeenten en hun partners.
+
+De generator is te vinden via: https://ggm-generator.schemalab.app/ 
 
 ## Kant-en-klare databaseschema's
 

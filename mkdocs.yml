@@ -19,13 +19,14 @@ extra:
 
 nav:
  - Home: index.md
- - Praktische informatie: 
+ - Praktische informatie & tooling: 
     - 'Installatie': installatie.md
     - 'Licentie': https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE
     - 'Samenwerking aan GGM': samenwerking-GGM.md
     - 'Documentatie aanpassen': documentatie.md
     - 'Backup maken': backup.md
     - 'Tooling voor manipulatie repository': tools.md
+    - 'GGM tabelgeneratie': generatie.md
  - 'Achtergrond informatie':
         - 'IV3': achtergrond-informatie/IV3.md
         - 'Beheerplan GGM': achtergrond-informatie/beheerplan-GGM.md
@@ -38,7 +39,7 @@ nav:
     - 'Uitdagingen': startersgids/GGM-uitdagingen.md
     - 'Voorbeelden':
         - 'Meierijstad: IV3 op het DGW-portaal': startersgids/voorbeelden/IV3-op-portaal-DGW.md
-        - 'Delft: Aantal uitkeringen tellen mbv GGM': startersgids/GGM-Stap-voor-stap-bron-naar-dashboard.md
+        - 'Delft: Aantal uitkeringen tellen mbv GGM': startersgids/voorbeelden/GGM-Stap-voor-stap-bron-naar-dashboard.md
         - 'Land van Cuijk: Praktische implementatie GGM': startersgids/voorbeelden/GGM-Land-van-Cuijk.md
         - 'Startersgids Miniconferentie': startersgids/GGM-Startersgids-Totale-Presentatie.md
     - 'FAQ': startersgids/FAQ-gemeenten.md
@@ -164,7 +165,6 @@ nav:
             - 'RGBZ': definities/definitie_Model Kern RGBZ.md
             - 'BAG': definities/definitie_Model BAG.md
             - 'Generieke definities Kern': definities/definitie_Model Generiek.md
-    - Databaseschema's: generatie.md
  - GGM Cookbook:
     - Inleiding en uitgangspunten: cookbook/inleiding_en_uitgangspunten.md
     - Toegepaste patronen: cookbook/patronen.md
