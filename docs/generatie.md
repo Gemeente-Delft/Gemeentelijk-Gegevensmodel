@@ -1,5 +1,7 @@
 # Databaseschema's genereren
 
+
+
 ## GGM-generator 
 Waar in de vorige [release](#kant-en-klare-databaseschemas) al een eerste stap werd gezet met de batchpublicatie van DDL-bestanden zijn deze nu direct beschikbaar via een gebruiksvriendelijke webinterface. Hiermee kan het model eenvoudig geraadpleegd, geïmplementeerd en gevisualiseerd worden.
 

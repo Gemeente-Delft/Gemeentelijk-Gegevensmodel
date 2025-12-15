@@ -36,8 +36,6 @@ Nee, het GGM in continue in ontwikkeling. Niet alle beleidsdomeinen zijn al (vol
 
 Sommige tabelnamen komen meerdere keren voor in het Gemeentelijk Gegevensmodel onder verschillende domeinen. *Binnen* domeinen moeten deze namen uniek zijn, maar een tabel kan ik meerdere domeinen voorkomen. Hoe hier mee om te gaan is een inrichtingskeuze van de gemeente. Een voorbeeld; In Delft wordt er een prefix die naar het domein verwijst opgenomen in de naamgeving. Op deze manier blijven de tabelnamen uniek maar verliezen ze niet hun betekenis. 
 
-
-
 ## Samenwerking GGM
 
 **Hoe kan ik input leveren op het GGM?**

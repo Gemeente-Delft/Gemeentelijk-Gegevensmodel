@@ -29,6 +29,8 @@ Hoe kom je van het logische model (UML) naar een technisch model?
 - Afhankelijk van de relaties tussen de entiteiten genereerd EA ForeignKeys of koppeltabellen
 - Technisch kunnen er dus meer tabellen ontstaan dan dat er logisch zijn gemodeleerd 
 
+> Probeer niet in één keer het volledige GGM in te lezen, maar deel met model op per domein. 
+
 ## 4. Mappings van bron naar GGM
 Uiteindelijk wil je de data vertalen van de bronapplicatie naar het GGM. Dit noemen we mappings - [Lees meer over mappings](Mappings.md). Hierin wordt beschreven welk veld in de bron-database terecht komt in het veld van een GGM-entiteit.  
 
