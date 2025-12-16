@@ -1,34 +1,20 @@
-# Waarom deze startersgids?
+# GGM gebruiken
 
 Steeds meer gemeenten tonen interesse in het Gemeentelijk Gegevensmodel (GGM). Daarbij merken we dat de informatiebehoefte sterk varieert, van oriënterende vragen tot concrete implementatievraagstukken. Soms heel algemeen, soms juist technisch en gedetailleerd. Bovendien verandert die behoefte in de tijd: wat je wilt weten vóór de start is anders dan wanneer je al met het GGM werkt.
 
-Om die reden is de startersgids opgezet: een centrale plek waar je toegang hebt tot relevante informatie over het GGM. Je vindt hier praktische hulpmiddelen, voorbeelden en (technische)documentatie. De informatie is bewust opgedeeld in kleine, behapbare onderdelen, zodat je snel vindt wat je nodig hebt.
+Om die reden is deze website opgezet: een centrale plek waar je toegang hebt tot relevante informatie over het GGM. Je vindt hier praktische hulpmiddelen, voorbeelden en (technische)documentatie. De informatie is bewust opgedeeld in kleine, behapbare onderdelen, zodat je snel vindt wat je nodig hebt.
 
 > *Wij doen ons uiterste best om de informatie juist en volledig weer te geven. Echter, gebruik maken hiervan is op eigen risico. Er wordt geen enkele aansprakelijkheid geaccepteerd voor fouten of problemen voortvloeiend uit het gebruik van deze informatie.*
 
-## Wat vind je in deze gids?
-
-Hieronder zie je een overzicht van de onderwerpen die in de startersgids aanwezig zijn. Heb je zelf een idee of een informatiebehoefte? Laat het ons weten! 
-
-De informatie is opgesplitst in de volgende onderdelen:
-
-1. **Introductie Startersgids** 
-2. **Introductie GGM**
-4. **Stappenplan**
-5. **Mappings**
-6. **Uitdagingen**
-7. **Voorbeelden** – Praktische casussen, formats en herbruikbare modellen.
-8. **FAQ** – Antwoorden op veelgestelde vragen.
-
 ## Samen maken we het beter
 
-We nodigen je van harte uit om ook bij te dragen aan deze gids. Denk aan:
+We nodigen je van harte uit om ook bij te dragen. Denk aan:
 
 - Een korte video van je eerste download of installatie van Enterprise Architect
 - Een stappenplan voor de tooling die je gebruikt
 - Een voorbeeld van een probleem dat je hebt opgelost
 
-Alles is welkom — zolang het collega-gemeenten helpt verder te komen. Voorzie je bijdrage van een naam en datum (bijvoorbeeld in een voetnoot of op de eerste/laatste pagina) en stuur hem naar ons toe. Wij zorgen ervoor dat hij een plek krijgt in de gids.
+Alles is welkom, zolang het collega-gemeenten helpt verder te komen. Voorzie je bijdrage van een naam en datum (bijvoorbeeld in een voetnoot of op de eerste/laatste pagina) en stuur hem naar ons toe. Wij zorgen ervoor dat hij een plek krijgt in de gids.
 
 
 ## Pleio-community versus GitHub

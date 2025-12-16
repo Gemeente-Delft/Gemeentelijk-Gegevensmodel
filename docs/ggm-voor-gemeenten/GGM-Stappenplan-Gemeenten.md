@@ -35,8 +35,8 @@ Hoe kom je van het logische model (UML) naar een technisch model?
 Uiteindelijk wil je de data vertalen van de bronapplicatie naar het GGM. Dit noemen we mappings - [Lees meer over mappings](Mappings.md). Hierin wordt beschreven welk veld in de bron-database terecht komt in het veld van een GGM-entiteit.  
 
 - Data uit de bronapplicatie moet worden getransformeerd naar de fysieke tabellen volgens het GGM
-- Binnen een datawarehouse of dataplatform kan die transformatie op verschillende manieren gedaan worden - [Lees meer over tools]
-- Ook zonder een dataplatform of datawarehouse is deze transformatie prima te realiseren, bijvoorbeeld met behulp van database-views of de transformatie binnen een BI-tool te doen. [Lees meer over voorbeelden]
+- Binnen een datawarehouse of dataplatform kan die transformatie op verschillende manieren gedaan worden
+- Ook zonder een dataplatform of datawarehouse is deze transformatie prima te realiseren, bijvoorbeeld met behulp van database-views of de transformatie binnen een BI-tool te doen. 
 
 ## 5. GGM naar Dashboard
 Het GGM is nu fysiek gerealiseerd in tabellen. Dit vormt de business layer of informatielaag in je datawarehouse.

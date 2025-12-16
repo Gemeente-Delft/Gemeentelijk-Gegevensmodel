@@ -2,6 +2,8 @@
 
 Deze FAQ helpt gemeenten die starten met het Gemeentelijk Gegevensmodel (GGM) om snel antwoorden te vinden op veelvoorkomende vragen.
 
+---
+
 ## Algemene vragen GGM
 
 **Hoe is het beheer en governance ingericht van het GGM?**
@@ -11,6 +13,8 @@ Het beheer van het GGM is onderverdeeld naar een beheerbureau, een expertcommiss
 **Wat is het toepassingsgebied van het GGM**
 
 Het GGM vormt de basis voor het Data Gedreven Werken en voldoet aan de Common Ground principes. 
+
+---
 
 ## GGM en landelijke standaarden
 
@@ -26,6 +30,8 @@ Het Nationaal Semantisch Vlak (NSV) binnen NORA is een overheidsbrede verzamelpl
 
 Het GGM (Gemeentelijk Gegevensmodel) en GEMMA (Gemeentelijke Modelarchitectuur) zijn nauw verbonden. Het GGM levert de logische gegevensmodellen voor gemeentelijke beleidsdomeinen, terwijl GEMMA deze gegevensmodellen gebruikt en vertaalt naar bedrijfsobjecten binnen de gemeentelijke referentiearchitectuur. Samen zorgen ze voor een consistente en interoperabele informatiearchitectuur voor alle Nederlandse gemeenten. [Gemma en het GGM](https://www.gemmaonline.nl/wiki/GEMMA_en_het_Gemeentelijk_Gegevensmodel)
 
+---
+
 ## Implementatie GGM
 
 **Is het GGM al compleet?**
@@ -35,6 +41,8 @@ Nee, het GGM in continue in ontwikkeling. Niet alle beleidsdomeinen zijn al (vol
 **Hoe ga je om met dubbele tabelnamen over de domeinen heen?**
 
 Sommige tabelnamen komen meerdere keren voor in het Gemeentelijk Gegevensmodel onder verschillende domeinen. *Binnen* domeinen moeten deze namen uniek zijn, maar een tabel kan ik meerdere domeinen voorkomen. Hoe hier mee om te gaan is een inrichtingskeuze van de gemeente. Een voorbeeld; In Delft wordt er een prefix die naar het domein verwijst opgenomen in de naamgeving. Op deze manier blijven de tabelnamen uniek maar verliezen ze niet hun betekenis. 
+
+---
 
 ## Samenwerking GGM
 

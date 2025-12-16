@@ -19,56 +19,40 @@ extra:
 
 nav:
  - Home: index.md
- - GGM in 10 minuten: ggm-in-10-minuten.md
- - Snel beginnen met GGM: snel-beginnen-met-GGM.md
+ - In 10 minuten: ggm-in-10-minuten.md
+ - Snel van start: snel-van-start.md 
  - GGM voor Gemeenten:
-    - 'Wat is GGM?': ggm-voor-gemeenten/Wat-is-GGM.md
-    - 'Voordelen van GGM': ggm-voor-gemeenten/Voordelen-van-GGM.md
-    - 'GGM implementeren': ggm-voor-gemeenten/GGM-implementeren.md
-    - 'GGM gebruiken': ggm-voor-gemeenten/GGM-gebruiken.md
-    - 'GGM in de praktijk': ggm-voor-gemeenten/GGM-in-de-praktijk.md
- - GGM voor softwareleveranciers:
-    - 'Wat is GGM voor Leveranciers?': ggm-voor-leveranciers/Wat-is-GGM-voor-leveranciers.md
-    - 'Voordelen van GGM voor Leveranciers': ggm-voor-leveranciers/Voordelen-van-GGM-voor-leveranciers.md
-    - 'GGM implementeren als Leverancier': ggm-voor-leveranciers/GGM-implementeren-als-leverancier.md
-    - 'GGM gebruiken als Leverancier': ggm-voor-leveranciers/GGM-gebruiken-als-leverancier.md
-    - 'GGM in de praktijk bij Leveranciers': ggm-voor-leveranciers/GGM-in-de-praktijk-bij-leveranciers.md
- - 'Achtergrond informatie':
-        - 'IV3': achtergrond-informatie/IV3.md
-        - 'Beheerplan GGM': achtergrond-informatie/beheerplan-GGM.md
-        - 'Totstandkoming GGM': achtergrond-informatie/Totstandkoming-GGM.md
- - Praktische informatie & tooling: 
-    - 'Installatie': installatie.md
-    - 'Licentie': https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE
-    - 'Samenwerking aan GGM': samenwerking-GGM.md
-    - 'Documentatie aanpassen': documentatie.md
-    - 'Backup maken': backup.md
-    - 'Tooling voor manipulatie repository': tools.md
-    - 'GGM tabelgeneratie': generatie.md
- - Startersgids Gemeenten: 
-    - 'Introductie Startersgids': startersgids/Startdocument.md
-    - 'Introductie GGM': startersgids/Waarom-het-GGM.md
-    - 'Stappenplan': startersgids/GGM-Stappenplan-Algemeen.md
-    - 'Mappings': startersgids/Mappings.md
-    - 'Uitdagingen': startersgids/GGM-uitdagingen.md
-    - 'Voorbeelden':
-        - 'Meierijstad: IV3 op het DGW-portaal': startersgids/voorbeelden/IV3-op-portaal-DGW.md
-        - 'Delft: Aantal uitkeringen tellen mbv GGM': startersgids/voorbeelden/GGM-Stap-voor-stap-bron-naar-dashboard.md
-        - 'Land van Cuijk: Praktische implementatie GGM': startersgids/voorbeelden/GGM-Land-van-Cuijk.md
-        - 'Startersgids Miniconferentie': startersgids/GGM-Startersgids-Totale-Presentatie.md
-    - 'FAQ': startersgids/FAQ-gemeenten.md
- - Leveranciers Toolkit:
-    - 'Introductie Toolkit': leverancier-toolkit/Introductie-leveranciertoolkit.md
-    - 'Introductie GGM voor Leveranciers': leverancier-toolkit/Introductie-GGM-leverancier.md
-    - 'Stappenplan voor leveranciers': leverancier-toolkit/GGM-Stappenplan-Leverancier.md
+    - 'Wat is GGM?': ggm-voor-gemeenten/Waarom-het-GGM.md
+    - 'GGM gebruiken': ggm-voor-gemeenten/Startdocument.md
+    - 'GGM implementeren': ggm-voor-gemeenten/GGM-Stappenplan-Gemeenten.md
+    - 'GGM in de praktijk':
+        - 'Meierijstad: IV3 op het DGW-portaal': ggm-voor-gemeenten/voorbeelden/IV3-op-portaal-DGW.md
+        - 'Delft: Aantal uitkeringen tellen mbv GGM': ggm-voor-gemeenten/voorbeelden/GGM-Stap-voor-stap-bron-naar-dashboard.md
+        - 'Land van Cuijk: Praktische implementatie GGM': ggm-voor-gemeenten/voorbeelden/GGM-Land-van-Cuijk.md
+    - 'FAQ': ggm-voor-gemeenten/FAQ-gemeenten.md
+ - GGM voor Leveranciers:
+    - 'Wat is GGM voor Leveranciers?': ggm-voor-leveranciers/Waarom-het-GGM-leveranciers.md
+    - 'GGM gebruiken als Leverancier': ggm-voor-leveranciers/Startdocument-leveranciers.md
+    - 'GGM implementeren als Leverancier': ggm-voor-leveranciers/GGM-Stappenplan-Leveranciers.md
     - 'GGM Toegepast':
-        - 'Centric': leverancier-toolkit/Centric.md    
-        - 'PinkRoccade': leverancier-toolkit/PinkRoccade.md  
-        - 'Scamander': leverancier-toolkit/Scamander.md
-        - 'Ilionx': leverancier-toolkit/Ilionx.md
-        - 'Databricks': leverancier-toolkit/Databricks.md
-        - 'Solid5': leverancier-toolkit/Solid5.md
-        - 'Aurai': leverancier-toolkit/Aurai.md
+        - 'Centric': ggm-voor-leveranciers/Centric.md    
+        - 'PinkRoccade': ggm-voor-leveranciers/PinkRoccade.md  
+        - 'Scamander': ggm-voor-leveranciers/Scamander.md
+        - 'Ilionx': ggm-voor-leveranciers/Ilionx.md
+        - 'Databricks': ggm-voor-leveranciers/Databricks.md
+        - 'Solid5': ggm-voor-leveranciers/Solid5.md
+        - 'Aurai': ggm-voor-leveranciers/Aurai.md
+ - 'Algemene informatie':
+        - 'IV3': algemene-informatie/IV3.md
+        - 'Beheerplan GGM': algemene-informatie/beheerplan-GGM.md
+        - 'Totstandkoming GGM': algemene-informatie/Totstandkoming-GGM.md
+        - 'Installatie': installatie.md
+        - 'Licentie': https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE
+        - 'Samenwerking aan GGM': samenwerking-GGM.md
+        - 'Tooling voor manipulatie repository': tools.md
+        - 'Tabelgeneratie': generatie.md
+        - 'Mappings': ggm-voor-gemeenten/Mappings.md
+        - 'Uitdagingen': ggm-voor-gemeenten/GGM-uitdagingen.md
  - Documentatie GGM:
     - 'Beschrijving Domeinen':
         - 'Inleiding': domeinen/inleiding.md
