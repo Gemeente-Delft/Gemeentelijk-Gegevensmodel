@@ -5,6 +5,7 @@
 > Het informatiedomein dat gegevens omvat over het proces van aanvragen, beoordelen, verstrekken, beheren en verantwoorden van subsidies door de organisatie, zowel in de rol van subsidieverstrekker als subsidieontvanger.
 
 ??? info "Kenmerken Model Model Subsidies"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Subsidies |
@@ -16,7 +17,7 @@
     | version | 1.6 |
     | created | 2019-11-28 15:38:12 |
     | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_702429CB_A2F6_4733_BEB5_341C672DF5EF |
+    | id | EAPK\_702429CB\_A2F6\_4733\_BEB5\_341C672DF5EF |
     
 
 Het model 'Model Subsidies' kent de volgende objecttypen:
@@ -41,6 +42,7 @@ Het model 'Model Subsidies' kent de volgende objecttypen:
 > Moment waarop er een bepaald deel van de subsidie betaald moet worden.
 
 ??? info "Kenmerken Model Betaalmoment"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Betaalmoment |
@@ -48,11 +50,11 @@ Het model 'Model Subsidies' kent de volgende objecttypen:
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2023-07-24 10:36:30 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_E403A215_A367_4eef_8716_075AF54388D0 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_E403A215\_A367\_4eef\_8716\_075AF54388D0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -78,6 +80,7 @@ Attributen van objecttype Betaalmoment
 > Een vantevoren bepaald tijdstip waarom een gegevensanalyse wordt uitgevoerd
 
 ??? info "Kenmerken Model Rapportagemoment"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Rapportagemoment |
@@ -85,11 +88,11 @@ Attributen van objecttype Betaalmoment
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.6 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2019-11-28 15:40:55 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_20CA8283_CE99_455c_BF4D_EAE3DF41AE5B |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_20CA8283\_CE99\_455c\_BF4D\_EAE3DF41AE5B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Rapportagemoment |
@@ -116,6 +119,7 @@ Attributen van objecttype Rapportagemoment
 > Sector is de verzameling van werkzaamheden, gericht op de productie van bepaalde goederen en diensten. Het gaat hierbij niet alleen om activiteiten van het bedrijfsleven, maar ook om activiteiten van niet op winst gerichte instellingen en de overheid.
 
 ??? info "Kenmerken Model Sector"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Sector |
@@ -123,11 +127,11 @@ Attributen van objecttype Rapportagemoment
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.6 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2019-11-28 15:42:13 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_DA4F9850_4CA0_4508_9D57_F631BC30B360 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_DA4F9850\_4CA0\_4508\_9D57\_F631BC30B360 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Sector |
@@ -152,6 +156,7 @@ Attributen van objecttype Sector
 > Aan derden toegekende financiele middelen, bestemd voor het uitvoeren van bepaalde activiteiten
 
 ??? info "Kenmerken Model Subsidie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Subsidie |
@@ -159,11 +164,11 @@ Attributen van objecttype Sector
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.6 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2019-11-28 15:58:19 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_FD701A55_6865_44aa_9A73_C46E02481796 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_FD701A55\_6865\_44aa\_9A73\_C46E02481796 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Subsidie |
@@ -201,9 +206,7 @@ Attributen van objecttype Subsidie
 | socialReturnBedrag | Bedrag |  |
 | verantwoordenOp | Date |  |
 | uitgaandeSubsidie | Boolean |  |
-| prestatiesubsidie | Boolean | 
-> Als Nee dan is het een stimuleringssubsidie
-> Alleen bij uitgaande subsidies, anders NULL! |
+| prestatiesubsidie | Boolean | Als Nee dan is het een stimuleringssubsidie<br>Alleen bij uitgaande subsidies, anders NULL! |
 | doelstelling | AN200 |  |
 | opmerkingenVoorschotten | Text |  |
 
@@ -215,6 +218,7 @@ Attributen van objecttype Subsidie
 > Aanvraag voor een subsidie
 
 ??? info "Kenmerken Model Subsidieaanvraag"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Subsidieaanvraag |
@@ -222,11 +226,11 @@ Attributen van objecttype Subsidie
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.6 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2019-11-28 15:39:05 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_26C0D33A_B15A_4256_A5BF_5382A4E03539 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_26C0D33A\_B15A\_4256\_A5BF\_5382A4E03539 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Subsidieaanvraag |
@@ -254,6 +258,7 @@ Attributen van objecttype Subsidieaanvraag
 > Besluit over het al dan niet toekennen van een subsidie
 
 ??? info "Kenmerken Model Subsidiebeschikking"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Subsidiebeschikking |
@@ -261,11 +266,11 @@ Attributen van objecttype Subsidieaanvraag
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.6 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2019-11-28 15:39:58 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_F8BD6D83_D3F8_4dd3_B12E_22A991D1A0A2 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_F8BD6D83\_D3F8\_4dd3\_B12E\_22A991D1A0A2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Subsidiebeschikking |
@@ -295,6 +300,7 @@ Attributen van objecttype Subsidiebeschikking
 > Onderdeel van een subisidie met een eigen kostenplaats.
 
 ??? info "Kenmerken Model Subsidiecomponent"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Subsidiecomponent |
@@ -302,11 +308,11 @@ Attributen van objecttype Subsidiebeschikking
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2023-07-24 10:16:34 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_DB093A73_BE89_462b_8FBA_19B2629072ED |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_DB093A73\_BE89\_462b\_8FBA\_19B2629072ED |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -331,6 +337,7 @@ Attributen van objecttype Subsidiecomponent
 > Programma waarin meerdere subsidies worden verleend vanuit een bepaalde samenhang
 
 ??? info "Kenmerken Model Subsidieprogramma"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Subsidieprogramma |
@@ -338,11 +345,11 @@ Attributen van objecttype Subsidiecomponent
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.6 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2019-11-28 15:41:40 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_8F1A719D_C89A_4194_8FF4_1F3E0F174D3D |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_8F1A719D\_C89A\_4194\_8FF4\_1F3E0F174D3D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Subsidieprogramma |
@@ -370,6 +377,7 @@ Attributen van objecttype Subsidieprogramma
 > Een samenhangende set activiteiten in het kader van een subsidie.
 
 ??? info "Kenmerken Model Taak"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Taak |
@@ -377,11 +385,11 @@ Attributen van objecttype Subsidieprogramma
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.6 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2019-11-28 15:41:15 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_156C82B1_2641_40c8_9E99_60031643C29A |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_156C82B1\_2641\_40c8\_9E99\_60031643C29A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Taak |
@@ -423,6 +431,7 @@ Het enumeratie Subsidieniveau kent de volgende waarden:
 De enumeratie Subsidieniveau heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Subsidieniveau"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Subsidieniveau |
@@ -431,10 +440,10 @@ De enumeratie Subsidieniveau heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2025-03-26 11:13:14 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_B4CF1D3E_D000_467d_A9D5_4519704F4A6D |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_B4CF1D3E\_D000\_467d\_A9D5\_4519704F4A6D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -443,6 +452,5 @@ De enumeratie Subsidieniveau heeft de volgende kenmerken:
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
-
 
 

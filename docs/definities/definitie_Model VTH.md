@@ -5,6 +5,7 @@
 > Geen definitie
 
 ??? info "Kenmerken Model Model VTH"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model VTH |
@@ -16,7 +17,7 @@
     | version | 1.0 |
     | created | 2019-04-16 10:33:38 |
     | modified | 2019-04-16 10:33:56 |
-    | id | EAPK_AA7AC6CA_3F75_4f72_9941_AC3710C5F46A |
+    | id | EAPK\_AA7AC6CA\_3F75\_4f72\_9941\_AC3710C5F46A |
     
 
 Het model 'Model VTH' kent de volgende objecttypen:
@@ -44,8 +45,8 @@ Het model 'Model VTH' kent de volgende objecttypen:
 * **VOMAanvraagOfMelding**: VOM staat voor Vergunning, Ontheffing of Melding. Het betreft hier een melding of een aanvraag voor een vergunning of een ontheffing.
 * **Vordering**: 
 * **Vorderingregel**: 
-* **VTHAanvraagOfMelding**: VTH staat voor Vergunning, Toezicht en Handhaving. Het betreft hier een melding of een aanvraag voor een vergunning of een melding voor Toezicht en/of Handhaving.
 * **VTH-Melding**: Melding met betrekking tot Vergunningen, Toezicht en Handhaving
+* **VTHAanvraagOfMelding**: VTH staat voor Vergunning, Toezicht en Handhaving. Het betreft hier een melding of een aanvraag voor een vergunning of een melding voor Toezicht en/of Handhaving.
 * **VTHzaak**: 
 * **Waarneming**: Handhavende taak in het kader van VTH
 * **WABOAanvraagOfMelding**: Aanvraag of medling in het kader van de Wet algemene bepalingen omgevingsrecht (WABO)
@@ -62,6 +63,7 @@ Het model 'Model VTH' kent de volgende objecttypen:
 > Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd.
 
 ??? info "Kenmerken Model Activiteit Omgevingswet"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Activiteit Omgevingswet |
@@ -70,10 +72,10 @@ Het model 'Model VTH' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2022-02-14 14:40:41 |
-    | modified | 2025-07-22 16:23:13 |
-    | id | EAID_9547BC67_7488_4d9a_B651_2B69A62D789F |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_9547BC67\_7488\_4d9a\_B651\_2B69A62D789F |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -97,6 +99,7 @@ Attributen van objecttype Activiteit Omgevingswet
 > Geen Definitie
 
 ??? info "Kenmerken Model AOMStatus"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AOMStatus |
@@ -105,10 +108,10 @@ Attributen van objecttype Activiteit Omgevingswet
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2020-11-30 14:06:39 |
-    | modified | 2025-07-22 16:23:22 |
-    | id | EAID_FDEB42B6_5D93_46bf_9B5C_10F42BA4AC26 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_FDEB42B6\_5D93\_46bf\_9B5C\_10F42BA4AC26 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -136,6 +139,7 @@ Attributen van objecttype AOMStatus
 > Geen Definitie
 
 ??? info "Kenmerken Model Bevinding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Bevinding |
@@ -144,10 +148,10 @@ Attributen van objecttype AOMStatus
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2022-08-10 13:59:39 |
-    | modified | 2025-07-22 16:23:29 |
-    | id | EAID_ED0D0224_0A30_435b_AB25_87FDA8DF4078 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_ED0D0224\_0A30\_435b\_AB25\_87FDA8DF4078 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -181,6 +185,7 @@ Attributen van objecttype Bevinding
 > Een buitengewoon opsporingsambtenaar (boa) is een ambtenaar met een specifieke opsporingsbevoegdheid.
 
 ??? info "Kenmerken Model BOA"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | BOA |
@@ -189,10 +194,10 @@ Attributen van objecttype Bevinding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2019-04-16 10:36:35 |
-    | modified | 2025-07-22 16:23:35 |
-    | id | EAID_90B2A249_8D88_4a14_979F_672223D98E8C |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_90B2A249\_8D88\_4a14\_979F\_672223D98E8C |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | BOA |
@@ -215,6 +220,7 @@ Attributen van objecttype BOA
 > Arjen deze  is voor jou
 
 ??? info "Kenmerken Model Combibon"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Combibon |
@@ -223,10 +229,10 @@ Attributen van objecttype BOA
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2019-05-09 14:51:11 |
-    | modified | 2025-07-22 16:23:42 |
-    | id | EAID_43D57BB8_C2E4_4b5a_A41C_C5CEC9D3877D |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_43D57BB8\_C2E4\_4b5a\_A41C\_C5CEC9D3877D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -250,6 +256,7 @@ Attributen van objecttype Combibon
 > Adminstreren van fietsen
 
 ??? info "Kenmerken Model Fietsregistratie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Fietsregistratie |
@@ -258,10 +265,10 @@ Attributen van objecttype Combibon
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2019-04-16 10:36:20 |
-    | modified | 2025-07-22 16:23:48 |
-    | id | EAID_FF9A4A36_6674_4590_BC33_7B6DC5256490 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_FF9A4A36\_6674\_4590\_BC33\_7B6DC5256490 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -286,6 +293,7 @@ Attributen van objecttype Fietsregistratie
 > Geen Definitie
 
 ??? info "Kenmerken Model Grondslag"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Grondslag |
@@ -294,10 +302,10 @@ Attributen van objecttype Fietsregistratie
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2022-02-14 14:41:03 |
-    | modified | 2025-07-22 16:23:54 |
-    | id | EAID_94E2B19A_6942_4164_8A52_3C0BBDE45808 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_94E2B19A\_6942\_4164\_8A52\_3C0BBDE45808 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -322,6 +330,7 @@ Attributen van objecttype Grondslag
 > De maatstaf waarop een belasting is gebaseerd, het bedrag op basis waarvan een bepaalde belasting wordt geheven of de premie voor sociale zekerheid wordt vastgesteld.
 
 ??? info "Kenmerken Model Heffinggrondslag"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Heffinggrondslag |
@@ -330,10 +339,10 @@ Attributen van objecttype Grondslag
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2019-04-18 10:56:20 |
-    | modified | 2025-07-22 16:24:00 |
-    | id | EAID_3D2D5426_653C_485c_A99C_8AD933E76D78 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_3D2D5426\_653C\_485c\_A99C\_8AD933E76D78 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Heffinggrondslag |
@@ -361,6 +370,7 @@ Attributen van objecttype Heffinggrondslag
 > Geen Definitie
 
 ??? info "Kenmerken Model Heffingsverordening"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Heffingsverordening |
@@ -369,10 +379,10 @@ Attributen van objecttype Heffinggrondslag
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2019-04-18 10:54:17 |
-    | modified | 2025-07-22 16:24:05 |
-    | id | EAID_C29CCD49_04E2_44b4_A6B0_AD8B10552628 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_C29CCD49\_04E2\_44b4\_A6B0\_AD8B10552628 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Heffingsverordening |
@@ -395,6 +405,7 @@ Attributen van objecttype Heffingsverordening
 > Persoon die meldiing of aanvraag doet
 
 ??? info "Kenmerken Model Indiener"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Indiener |
@@ -403,10 +414,10 @@ Attributen van objecttype Heffingsverordening
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2019-04-18 15:45:30 |
-    | modified | 2025-07-22 16:24:11 |
-    | id | EAID_E9AD325A_49CF_48a6_AA9E_7FB57E03E414 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_E9AD325A\_49CF\_48a6\_AA9E\_7FB57E03E414 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Indiener |
@@ -429,6 +440,7 @@ Attributen van objecttype Indiener
 > het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen.
 
 ??? info "Kenmerken Model Inspectie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Inspectie |
@@ -437,10 +449,10 @@ Attributen van objecttype Indiener
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2022-08-08 14:30:16 |
-    | modified | 2025-07-22 16:24:19 |
-    | id | EAID_F73901FC_A78E_486f_B6C6_74CFCBE26CAB |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_F73901FC\_A78E\_486f\_B6C6\_74CFCBE26CAB |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Inspectie |
@@ -474,6 +486,7 @@ Attributen van objecttype Inspectie
 > Geen Definitie
 
 ??? info "Kenmerken Model Kosten"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Kosten |
@@ -482,10 +495,10 @@ Attributen van objecttype Inspectie
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2022-05-30 14:45:46 |
-    | modified | 2025-07-22 16:24:26 |
-    | id | EAID_0E4A8F94_ED08_43dc_9F78_C9DD17D34690 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_0E4A8F94\_ED08\_43dc\_9F78\_C9DD17D34690 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Kosten |
@@ -524,21 +537,22 @@ Attributen van objecttype Kosten
 > Geen Definitie
 
 ??? info "Kenmerken Model Leges_Grondslag"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
-    | name | Leges_Grondslag |
+    | name | Leges\_Grondslag |
     | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2022-05-30 14:52:05 |
-    | modified | 2025-07-22 16:24:47 |
-    | id | EAID_7F9392E5_6E43_4880_AF14_819E32A86204 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_7F9392E5\_6E43\_4880\_AF14\_819E32A86204 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | Leges_Grondslag |
+    | gemma_naam | Leges\_Grondslag |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ce320796-17d5-4134-ade8-7b87211272dd](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ce320796-17d5-4134-ade8-7b87211272dd) |
     | gemma_definitie |  |
@@ -568,6 +582,7 @@ Attributen van objecttype Leges_Grondslag
 > Tijdelijke toestemming voor het innemen van een ligplaats op een locatie in een gebied met een verbod op ligplaatsen.
 
 ??? info "Kenmerken Model Ligplaatsontheffing"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Ligplaatsontheffing |
@@ -576,10 +591,10 @@ Attributen van objecttype Leges_Grondslag
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2019-05-02 16:15:28 |
-    | modified | 2025-07-22 16:24:53 |
-    | id | EAID_872A0342_EA75_418e_9455_E51875BFD771 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_872A0342\_EA75\_418e\_9455\_E51875BFD771 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Ligplaatsontheffing |
@@ -603,6 +618,7 @@ Attributen van objecttype Ligplaatsontheffing
 > Geen Definitie
 
 ??? info "Kenmerken Model MORAanvraagOfMelding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | MORAanvraagOfMelding |
@@ -611,10 +627,10 @@ Attributen van objecttype Ligplaatsontheffing
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2020-09-09 16:09:39 |
-    | modified | 2025-07-22 16:24:59 |
-    | id | EAID_80F23226_8DD8_4926_B8F1_F2A3C01A29BF |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_80F23226\_8DD8\_4926\_B8F1\_F2A3C01A29BF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | MORAanvraagOfMelding |
@@ -642,6 +658,7 @@ Attributen van objecttype MORAanvraagOfMelding
 > Activiteit in het publieke domein
 
 ??? info "Kenmerken Model OpenbareActiviteit"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OpenbareActiviteit |
@@ -650,10 +667,10 @@ Attributen van objecttype MORAanvraagOfMelding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2019-05-02 16:03:27 |
-    | modified | 2025-07-22 16:25:05 |
-    | id | EAID_B2B423C3_B9C9_4b4f_A47D_85D29417B9B4 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_B2B423C3\_B9C9\_4b4f\_A47D\_85D29417B9B4 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | OpenbareActiviteit |
@@ -681,6 +698,7 @@ Attributen van objecttype OpenbareActiviteit
 > Belasting die specifiek wordt geheven voor het plaatsen van voorwerpen onder, op of boven voor de openbare dienst bestemde gemeentegrond.
 
 ??? info "Kenmerken Model Precario"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Precario |
@@ -689,10 +707,10 @@ Attributen van objecttype OpenbareActiviteit
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2019-05-07 15:38:38 |
-    | modified | 2025-07-22 16:25:10 |
-    | id | EAID_13BB343D_A595_43c9_8208_9BC5B05B618C |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_13BB343D\_A595\_43c9\_8208\_9BC5B05B618C |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Precario |
@@ -715,6 +733,7 @@ Attributen van objecttype Precario
 > Geen Definitie
 
 ??? info "Kenmerken Model Producttype"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Producttype |
@@ -723,10 +742,10 @@ Attributen van objecttype Precario
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2022-02-14 14:33:55 |
-    | modified | 2025-07-22 16:25:15 |
-    | id | EAID_03B4B3C0_3616_4ea2_A8B1_3D6754325F02 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_03B4B3C0\_3616\_4ea2\_A8B1\_3D6754325F02 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -750,6 +769,7 @@ Attributen van objecttype Producttype
 > Geen Definitie
 
 ??? info "Kenmerken Model SubProducttype"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SubProducttype |
@@ -758,10 +778,10 @@ Attributen van objecttype Producttype
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2022-02-14 14:34:17 |
-    | modified | 2025-07-22 16:25:21 |
-    | id | EAID_0DB447E3_B31B_4f07_8E35_7E77D0AAEF80 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_0DB447E3\_B31B\_4f07\_8E35\_7E77D0AAEF80 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -786,6 +806,7 @@ Attributen van objecttype SubProducttype
 > Een zee- of binnenvaartuig, tot de vaart gebruikt of bestemd, daaronder begrepen drijvende werktuigen, zoals baggerwerktuigen, kranen, bokken, elevators, alsmede woonschepen, glijboten en ponten.
 
 ??? info "Kenmerken Model Vaartuig"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vaartuig |
@@ -794,10 +815,10 @@ Attributen van objecttype SubProducttype
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2019-05-09 15:32:41 |
-    | modified | 2025-07-22 16:25:27 |
-    | id | EAID_D12123D3_D62D_4978_B7D4_8405F00A0D6A |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_D12123D3\_D62D\_4978\_B7D4\_8405F00A0D6A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Vaartuig |
@@ -826,6 +847,7 @@ Attributen van objecttype Vaartuig
 > VOM staat voor Vergunning, Ontheffing of Melding. Het betreft hier een melding of een aanvraag voor een vergunning of een ontheffing.
 
 ??? info "Kenmerken Model VOMAanvraagOfMelding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VOMAanvraagOfMelding |
@@ -834,10 +856,10 @@ Attributen van objecttype Vaartuig
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2019-05-08 14:16:31 |
-    | modified | 2025-07-22 16:25:33 |
-    | id | EAID_44B26957_BAA4_41c2_ABBF_CC1AC91D30D6 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_44B26957\_BAA4\_41c2\_ABBF\_CC1AC91D30D6 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | VOMAanvraagOfMelding |
@@ -854,7 +876,7 @@ Attributen van objecttype VOMAanvraagOfMelding
 | dossiernummer | AN200 |  |
 | intaketype | AN80 |  |
 | adres | AN500 |  |
-| locatie | GML |  |
+| locatie | Point |  |
 | kadastraleAanduiding | AN30 |  |
 | BAGID | BAGObjectnummering |  |
 | activiteiten | AN500 |  |
@@ -871,6 +893,7 @@ Attributen van objecttype VOMAanvraagOfMelding
 > Geen Definitie
 
 ??? info "Kenmerken Model Vordering"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vordering |
@@ -879,10 +902,10 @@ Attributen van objecttype VOMAanvraagOfMelding
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2022-05-30 14:18:38 |
-    | modified | 2025-07-22 16:25:39 |
-    | id | EAID_341942C1_0F72_4e13_ADD1_235805BB81C0 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_341942C1\_0F72\_4e13\_ADD1\_235805BB81C0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -918,6 +941,7 @@ Attributen van objecttype Vordering
 > Geen Definitie
 
 ??? info "Kenmerken Model Vorderingregel"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vorderingregel |
@@ -926,10 +950,10 @@ Attributen van objecttype Vordering
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2022-12-01 11:08:58 |
-    | modified | 2025-07-22 16:25:46 |
-    | id | EAID_E2B83F97_FDFD_4876_9E66_23D79D4A4C03 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_E2B83F97\_FDFD\_4876\_9E66\_23D79D4A4C03 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Vorderingregel |
@@ -956,12 +980,64 @@ Attributen van objecttype Vorderingregel
 
 
 
+### VTH-Melding
+> **Definitie VTH-Melding:** 
+>
+> Melding met betrekking tot Vergunningen, Toezicht en Handhaving
+
+??? info "Kenmerken Model VTH-Melding"
+
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | VTH-Melding |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Arjen Brienen |
+    | version | 1.7.0 |
+    | created | 2019-04-16 10:36:04 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_E9AEF0A9\_11BC\_4d2a\_BC48\_FB77F04EF9A6 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | VTH-Melding |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-44f31c7d-6347-4e52-a809-c48563f4b7f1](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-44f31c7d-6347-4e52-a809-c48563f4b7f1) |
+    | gemma_definitie | Melding met betrekking tot Vergunningen, Toezicht en Handhaving |
+    | gemma_toelichting |  |
+    
+
+Attributen van objecttype VTH-Melding
+
+| Attribute | Datatype | Description |
+| :--- | :--- | :--- |
+| referentienummer | AN80 |  |
+| soortVTHMelding | AN80 |  |
+| locatie | Point |  |
+| straatnaam | AN250 |  |
+| geseponeerd | Boolean |  |
+| datumSeponering | Date |  |
+| datumtijdTot | DateTime |  |
+| organisatieonderdeel | AN80 |  |
+| status | AN40 |  |
+| taaktype | AN80 |  |
+| beoordeling | Enumeratie: "Beoordelingsoort" |  |
+| overtredingsgroep | AN200 |  |
+| resultaat | AN80 |  |
+| activiteit | AN80 |  |
+| zaaknummer | AN20 |  |
+| overtredingscode | AN20 |  |
+
+
+
 ### VTHAanvraagOfMelding
 > **Definitie VTHAanvraagOfMelding:** 
 >
 > VTH staat voor Vergunning, Toezicht en Handhaving. Het betreft hier een melding of een aanvraag voor een vergunning of een melding voor Toezicht en/of Handhaving.
 
 ??? info "Kenmerken Model VTHAanvraagOfMelding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VTHAanvraagOfMelding |
@@ -970,10 +1046,10 @@ Attributen van objecttype Vorderingregel
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2019-05-09 16:02:38 |
-    | modified | 2025-07-22 16:25:52 |
-    | id | EAID_EAC249B9_13F7_472b_A971_05ED32006F04 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_EAC249B9\_13F7\_472b\_A971\_05ED32006F04 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -991,62 +1067,13 @@ Attributen van objecttype VTHAanvraagOfMelding
 
 
 
-### VTH-Melding
-> **Definitie VTH-Melding:** 
->
-> Melding met betrekking tot Vergunningen, Toezicht en Handhaving
-
-??? info "Kenmerken Model VTH-Melding"
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | VTH-Melding |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.0 |
-    | created | 2019-04-16 10:36:04 |
-    | modified | 2025-07-22 16:25:58 |
-    | id | EAID_E9AEF0A9_11BC_4d2a_BC48_FB77F04EF9A6 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam | VTH-Melding |
-    | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-44f31c7d-6347-4e52-a809-c48563f4b7f1](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-44f31c7d-6347-4e52-a809-c48563f4b7f1) |
-    | gemma_definitie | Melding met betrekking tot Vergunningen, Toezicht en Handhaving |
-    | gemma_toelichting |  |
-    
-
-Attributen van objecttype VTH-Melding
-
-| Attribute | Datatype | Description |
-| :--- | :--- | :--- |
-| referentienummer | AN80 |  |
-| soortVTHMelding | AN80 |  |
-| locatie | GML |  |
-| straatnaam | AN250 |  |
-| geseponeerd | Boolean |  |
-| datumSeponering | Date |  |
-| datumtijdTot | DateTime |  |
-| organisatieonderdeel | AN80 |  |
-| status | AN40 |  |
-| taaktype | AN80 |  |
-| beoordeling | Enumeratie: "Beoordelingsoort" |  |
-| overtredingsgroep | AN200 |  |
-| resultaat | AN80 |  |
-| activiteit | AN80 |  |
-| zaaknummer | AN20 |  |
-| overtredingscode | AN20 |  |
-
-
-
 ### VTHzaak
 > **Definitie VTHzaak:** 
 >
 > Geen Definitie
 
 ??? info "Kenmerken Model VTHzaak"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VTHzaak |
@@ -1055,10 +1082,10 @@ Attributen van objecttype VTH-Melding
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2020-09-09 16:33:02 |
-    | modified | 2025-07-22 16:26:04 |
-    | id | EAID_88AF7A2E_C508_464a_AD22_DD9B156D570D |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_88AF7A2E\_C508\_464a\_AD22\_DD9B156D570D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | VTHzaak |
@@ -1087,6 +1114,7 @@ Attributen van objecttype VTHzaak
 > Handhavende taak in het kader van VTH
 
 ??? info "Kenmerken Model Waarneming"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Waarneming |
@@ -1095,10 +1123,10 @@ Attributen van objecttype VTHzaak
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2019-05-09 14:43:04 |
-    | modified | 2025-07-22 16:26:10 |
-    | id | EAID_DDC990BC_C026_4c98_BEE5_6692EA0C2515 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_DDC990BC\_C026\_4c98\_BEE5\_6692EA0C2515 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1121,6 +1149,7 @@ Attributen van objecttype Waarneming
 > Aanvraag of medling in het kader van de Wet algemene bepalingen omgevingsrecht (WABO)
 
 ??? info "Kenmerken Model WABOAanvraagOfMelding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | WABOAanvraagOfMelding |
@@ -1129,10 +1158,10 @@ Attributen van objecttype Waarneming
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2019-04-17 13:32:09 |
-    | modified | 2025-07-22 16:26:16 |
-    | id | EAID_192EA281_414F_4d8d_85D1_5C1B75224942 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_192EA281\_414F\_4d8d\_85D1\_5C1B75224942 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1160,6 +1189,7 @@ Attributen van objecttype WABOAanvraagOfMelding
 > Melding of aanvraag van woonfraude
 
 ??? info "Kenmerken Model WoonfraudeAanvraagOfMelding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | WoonfraudeAanvraagOfMelding |
@@ -1168,10 +1198,10 @@ Attributen van objecttype WABOAanvraagOfMelding
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2021-06-15 17:18:45 |
-    | modified | 2025-07-22 16:26:23 |
-    | id | EAID_5CE9E5F3_BA9A_47e4_A4C1_DE21E66E9F8E |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_5CE9E5F3\_BA9A\_47e4\_A4C1\_DE21E66E9F8E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | WoonfraudeAanvraagOfMelding |
@@ -1199,6 +1229,7 @@ Attributen van objecttype WoonfraudeAanvraagOfMelding
 > Melding of aanvraag met betrekking tot Woonoverlast
 
 ??? info "Kenmerken Model WoonoverlastAanvraagOfMelding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | WoonoverlastAanvraagOfMelding |
@@ -1207,10 +1238,10 @@ Attributen van objecttype WoonfraudeAanvraagOfMelding
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2020-09-09 16:23:16 |
-    | modified | 2025-07-22 16:26:29 |
-    | id | EAID_CB5BCFAA_01F3_468d_A5CE_4E08D3E4FFC2 |
+    | modified | 2025-12-16 14:00:18 |
+    | id | EAID\_CB5BCFAA\_01F3\_468d\_A5CE\_4E08D3E4FFC2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | WoonoverlastAanvraagOfMelding |
@@ -1251,6 +1282,7 @@ Het enumeratie Boolean kent de volgende waarden:
 De enumeratie Boolean heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Boolean"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Boolean |
@@ -1259,10 +1291,10 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_f79f5bae_7492_439a_8bb5_ba2c99a88849 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_612e2d14\_ea43\_4c0b\_b479\_545fd0076e65 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1287,6 +1319,7 @@ Het enumeratie Boolean kent de volgende waarden:
 De enumeratie Boolean heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Boolean"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Boolean |
@@ -1295,10 +1328,10 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_db250398_9c2b_4cb0_9757_df762291f497 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_053eb4aa\_098c\_40ae\_847b\_c1888276a88a |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1322,6 +1355,7 @@ Het enumeratie Beoordelingsoort kent de volgende waarden:
 De enumeratie Beoordelingsoort heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Beoordelingsoort"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Beoordelingsoort |
@@ -1330,10 +1364,10 @@ De enumeratie Beoordelingsoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2019-06-03 11:53:25 |
-    | modified | 2025-07-22 16:28:24 |
-    | id | EAID_3B4D2D66_B801_42a8_A3FB_CC4A29FF8320 |
+    | modified | 2025-12-16 14:00:30 |
+    | id | EAID\_3B4D2D66\_B801\_42a8\_A3FB\_CC4A29FF8320 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1356,6 +1390,7 @@ Het enumeratie Heffingsoort kent de volgende waarden:
 De enumeratie Heffingsoort heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Heffingsoort"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Heffingsoort |
@@ -1364,10 +1399,10 @@ De enumeratie Heffingsoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2019-05-08 13:48:43 |
-    | modified | 2025-07-22 16:28:36 |
-    | id | EAID_356C8F59_3721_46d0_BCD0_C17B0130035C |
+    | modified | 2025-12-16 14:00:30 |
+    | id | EAID\_356C8F59\_3721\_46d0\_BCD0\_C17B0130035C |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1391,6 +1426,7 @@ Het enumeratie StatusOpenbareActiviteit kent de volgende waarden:
 De enumeratie StatusOpenbareActiviteit heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model StatusOpenbareActiviteit"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | StatusOpenbareActiviteit |
@@ -1399,10 +1435,10 @@ De enumeratie StatusOpenbareActiviteit heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2019-05-02 16:07:28 |
-    | modified | 2025-07-22 16:28:47 |
-    | id | EAID_A29EE01A_118E_4599_BADD_35B9393A78F4 |
+    | modified | 2025-12-16 14:00:30 |
+    | id | EAID\_A29EE01A\_118E\_4599\_BADD\_35B9393A78F4 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1411,6 +1447,5 @@ De enumeratie StatusOpenbareActiviteit heeft de volgende kenmerken:
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
-
 
 

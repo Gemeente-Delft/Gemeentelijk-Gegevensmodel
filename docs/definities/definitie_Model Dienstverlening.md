@@ -5,6 +5,7 @@
 > Het informatiedomein dat gegevens omvat over meldingen, aanvragen, baliecontacten, telefonische afhandeling en digitale interacties die faciliterend zijn voor andere domeinen.
 
 ??? info "Kenmerken Model Model Dienstverlening"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Dienstverlening |
@@ -16,7 +17,7 @@
     | version | 1.5 |
     | created | 2018-04-16 13:48:36 |
     | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_7F780248_C88C_450f_8318_98C5020AB372 |
+    | id | EAPK\_7F780248\_C88C\_450f\_8318\_98C5020AB372 |
     
 
 Het model 'Model Dienstverlening' kent de volgende objecttypen:
@@ -70,6 +71,7 @@ Het model 'Model Dienstverlening' kent de volgende objecttypen:
 > ID: REQ\_DATA icm VELD\_NAAM
 
 ??? info "Kenmerken Model Aanvraagdata"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aanvraagdata |
@@ -77,19 +79,17 @@ Het model 'Model Dienstverlening' kent de volgende objecttypen:
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2018-04-25 16:41:17 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_1F68C981_7E16_4368_8867_CA00AEB08A04 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_1F68C981\_7E16\_4368\_8867\_CA00AEB08A04 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Aanvraagdata |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-6f15e2ca-531d-4879-b087-f43559d8c3fd](https://gemmaonline.nl/index.php/GEMMA/id-6f15e2ca-531d-4879-b087-f43559d8c3fd) |
-    | gemma_definitie | 
-> Bron: GEN\_REQ\_DATA
-> ID: REQ\_DATA icm VELD\_NAAM |
+    | gemma_definitie | Bron: GEN\_REQ\_DATA<br>ID: REQ\_DATA icm VELD\_NAAM |
     | gemma_toelichting |  |
     
 
@@ -111,6 +111,7 @@ Attributen van objecttype Aanvraagdata
 > ID: REQ\_ID
 
 ??? info "Kenmerken Model AanvraagOfMelding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AanvraagOfMelding |
@@ -119,19 +120,16 @@ Attributen van objecttype Aanvraagdata
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-04-16 14:11:57 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_8E6BAEF8_1878_400f_9244_23575BD41EAB |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_8E6BAEF8\_1878\_400f\_9244\_23575BD41EAB |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | AanvraagOfMelding |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f14fa1cf-f2c7-4bd6-862d-28ff1616a882](https://gemmaonline.nl/index.php/GEMMA/id-f14fa1cf-f2c7-4bd6-862d-28ff1616a882) |
-    | gemma_definitie | 
-> Komt overeen met een VJV
-> Bron: GEM\_VJV (Distinct op REQ\_ID)
-> ID: REQ\_ID |
+    | gemma_definitie | Komt overeen met een VJV<br>Bron: GEM\_VJV (Distinct op REQ\_ID)<br>ID: REQ\_ID |
     | gemma_toelichting |  |
     
 
@@ -167,6 +165,7 @@ Attributen van objecttype AanvraagOfMelding
 > de toestand van de afspraak
 
 ??? info "Kenmerken Model Afspraakstatus"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Afspraakstatus |
@@ -175,10 +174,10 @@ Attributen van objecttype AanvraagOfMelding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.7 |
+    | version | 1.13.0 |
     | created | 2018-10-31 10:59:24 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_5AA9821A_A88A_480b_9950_70FE017593B3 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_5AA9821A\_A88A\_480b\_9950\_70FE017593B3 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Afspraakstatus |
@@ -202,6 +201,7 @@ Attributen van objecttype Afspraakstatus
 > Tekst die is gemaakt om gepubliceerd te worden als een onafhankelijk deel van een tijdschrift, krant, encyclopedie of ander werk
 
 ??? info "Kenmerken Model Artikel"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Artikel |
@@ -209,11 +209,11 @@ Attributen van objecttype Afspraakstatus
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2018-04-16 13:48:36 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_F38E71BC_DDA2_4a9c_A438_C486EC4C4646 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_F38E71BC\_DDA2\_4a9c\_A438\_C486EC4C4646 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Artikel |
@@ -236,6 +236,7 @@ Attributen van objecttype Artikel
 > Balieafspraken zijn afspraken voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden of gaat plaatsvinden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.
 
 ??? info "Kenmerken Model Balieafspraak"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Balieafspraak |
@@ -244,10 +245,10 @@ Attributen van objecttype Artikel
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-10-31 10:43:28 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_631FEEF1_88D3_4d18_ADB2_BF999068493E |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_631FEEF1\_88D3\_4d18\_ADB2\_BF999068493E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Balieafspraak |
@@ -280,6 +281,7 @@ Attributen van objecttype Balieafspraak
 > Bron buiten de eigen organisatie
 
 ??? info "Kenmerken Model ExterneBron"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ExterneBron |
@@ -288,10 +290,10 @@ Attributen van objecttype Balieafspraak
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-05-15 16:05:32 |
-    | modified | 2025-03-26 16:14:49 |
-    | id | EAID_841FC453_80B3_4389_A91F_9498FDC629CF |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_841FC453\_80B3\_4389\_A91F\_9498FDC629CF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -316,6 +318,7 @@ Attributen van objecttype ExterneBron
 > ID: FORM\_ID
 
 ??? info "Kenmerken Model Formuliersoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Formuliersoort |
@@ -324,10 +327,10 @@ Attributen van objecttype ExterneBron
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-04-25 16:31:00 |
-    | modified | 2025-03-26 16:14:49 |
-    | id | EAID_0567826D_81EE_4bbd_8D62_3073B74CDF11 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_0567826D\_81EE\_4bbd\_8D62\_3073B74CDF11 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -355,6 +358,7 @@ Attributen van objecttype Formuliersoort
 > ID: FORM\_ID en VELD\_NAAM
 
 ??? info "Kenmerken Model Formuliersoortveld"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Formuliersoortveld |
@@ -362,11 +366,11 @@ Attributen van objecttype Formuliersoort
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2018-04-26 16:48:10 |
-    | modified | 2025-03-26 16:14:49 |
-    | id | EAID_E512AEFD_85FB_4b57_82FE_709221307861 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_E512AEFD\_85FB\_4b57\_82FE\_709221307861 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -395,6 +399,7 @@ Attributen van objecttype Formuliersoortveld
 > goed- of afkeurende uitspraak; = mening, opvatting
 
 ??? info "Kenmerken Model Klantbeoordeling"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Klantbeoordeling |
@@ -403,10 +408,10 @@ Attributen van objecttype Formuliersoortveld
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2024-02-05 15:32:39 |
-    | modified | 2025-03-26 16:14:49 |
-    | id | EAID_881F95F7_7096_49ab_B1CA_4D9FA93BB4A9 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_881F95F7\_7096\_49ab\_B1CA\_4D9FA93BB4A9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -436,6 +441,7 @@ Attributen van objecttype Klantbeoordeling
 > Reden voor de beoordeling
 
 ??? info "Kenmerken Model Klantbeoordelingreden"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Klantbeoordelingreden |
@@ -444,10 +450,10 @@ Attributen van objecttype Klantbeoordeling
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2024-02-05 15:32:50 |
-    | modified | 2025-03-26 16:14:49 |
-    | id | EAID_40394EFE_AD3E_4fd9_B9FC_AF73442AF625 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_40394EFE\_AD3E\_4fd9\_B9FC\_AF73442AF625 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -471,6 +477,7 @@ Attributen van objecttype Klantbeoordelingreden
 > Bericht van een inwoner over een gebrek of opvallendheid in de openbare ruimte
 
 ??? info "Kenmerken Model MOR-AanvraagOfMelding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | MOR-AanvraagOfMelding |
@@ -479,10 +486,10 @@ Attributen van objecttype Klantbeoordelingreden
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.6 |
+    | version | 1.12.0 |
     | created | 2020-03-23 15:15:46 |
-    | modified | 2025-03-26 16:14:49 |
-    | id | EAID_A9B89FF7_BCED_49fc_97A4_2A98BCED5B17 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_A9B89FF7\_BCED\_49fc\_97A4\_2A98BCED5B17 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -511,6 +518,7 @@ Attributen van objecttype MOR-AanvraagOfMelding
 > ID: ONDERWERP\_ID
 
 ??? info "Kenmerken Model Onderwerp"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Onderwerp |
@@ -519,18 +527,16 @@ Attributen van objecttype MOR-AanvraagOfMelding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-07-05 14:24:43 |
-    | modified | 2025-03-26 16:14:49 |
-    | id | EAID_8D758F67_6085_4ac7_BFDC_8D97AB632A93 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_8D758F67\_6085\_4ac7\_BFDC\_8D97AB632A93 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Onderwerp |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-bc793405-f822-4a23-a8dc-74206f1d45df](https://gemmaonline.nl/index.php/GEMMA/id-bc793405-f822-4a23-a8dc-74206f1d45df) |
-    | gemma_definitie | 
-> Bron: GEM\_VJV\_ONDERWERP
-> ID: ONDERWERP\_ID |
+    | gemma_definitie | Bron: GEM\_VJV\_ONDERWERP<br>ID: ONDERWERP\_ID |
     | gemma_toelichting |  |
     
 
@@ -550,6 +556,7 @@ Attributen van objecttype Onderwerp
 > Bron: QP_CALENDAR.CFM_SERVICES
 
 ??? info "Kenmerken Model ProductOfDienst"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ProductOfDienst |
@@ -558,16 +565,16 @@ Attributen van objecttype Onderwerp
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-07-05 14:22:55 |
-    | modified | 2025-03-26 16:14:49 |
-    | id | EAID_4B871112_CB41_4bfb_BD43_117C63D31BB4 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_4B871112\_CB41\_4bfb\_BD43\_117C63D31BB4 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | ProductOfDienst |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-724f019e-158f-4404-8b57-3e1eae109fec](https://gemmaonline.nl/index.php/GEMMA/id-724f019e-158f-4404-8b57-3e1eae109fec) |
-    | gemma_definitie | Bron: QP_CALENDAR.CFM_SERVICES |
+    | gemma_definitie | Bron: QP\_CALENDAR.CFM\_SERVICES |
     | gemma_toelichting |  |
     
 
@@ -587,6 +594,7 @@ Attributen van objecttype ProductOfDienst
 > Onderwerp waarover het telefooncontact gaat
 
 ??? info "Kenmerken Model Telefoononderwerp"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Telefoononderwerp |
@@ -595,10 +603,10 @@ Attributen van objecttype ProductOfDienst
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.7 |
+    | version | 1.13.0 |
     | created | 2018-11-22 16:24:16 |
-    | modified | 2025-03-26 16:14:49 |
-    | id | EAID_48FE13A9_2204_4631_BAEE_E2D3B10E9A2D |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_48FE13A9\_2204\_4631\_BAEE\_E2D3B10E9A2D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Telefoononderwerp |
@@ -631,6 +639,7 @@ Attributen van objecttype Telefoononderwerp
 > Droppedoverload: “Opgehangen door systeem vanwege overbelasting”
 
 ??? info "Kenmerken Model Telefoonstatus"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Telefoonstatus |
@@ -639,10 +648,10 @@ Attributen van objecttype Telefoononderwerp
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-11-22 16:22:06 |
-    | modified | 2025-03-26 16:14:49 |
-    | id | EAID_D8A82A45_03C3_44d5_AF32_3138A55B2E75 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_D8A82A45\_03C3\_44d5\_AF32\_3138A55B2E75 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -667,6 +676,7 @@ Attributen van objecttype Telefoonstatus
 > De telefoontgesprekken zijn alle keren dat iemand naar de gemeente belt en het telefoonsysteem neemt deze telefoongesprekken aan. Ongeacht of iemand daarna ophangt, door het systeem uit de wachtrij wordt gezet, doorverbonden wordt met een derde partij of er werkelijk wordt opgenomen.
 
 ??? info "Kenmerken Model Telefoontje"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Telefoontje |
@@ -675,10 +685,10 @@ Attributen van objecttype Telefoonstatus
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-11-21 16:33:33 |
-    | modified | 2025-03-26 16:14:49 |
-    | id | EAID_EEB60E10_C244_4176_AB68_F0E30759269F |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_EEB60E10\_C244\_4176\_AB68\_F0E30759269F |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Telefoontje |
@@ -724,6 +734,7 @@ Het enumeratie Boolean kent de volgende waarden:
 De enumeratie Boolean heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Boolean"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Boolean |
@@ -732,10 +743,10 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_c543dee9_48d2_48d9_87cb_3113d98ba3c9 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_cd7d5a07\_d1bd\_448f\_8560\_2c2c2dbaf304 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -744,6 +755,5 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
-
 
 

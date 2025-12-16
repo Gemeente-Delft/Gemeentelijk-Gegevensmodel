@@ -5,6 +5,7 @@
 > Geen definitie
 
 ??? info "Kenmerken Model Model Vroegsignalering"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Vroegsignalering |
@@ -16,7 +17,7 @@
     | version | 1.0 |
     | created | 2025-04-23 15:37:33 |
     | modified | 2025-04-23 15:43:22 |
-    | id | EAPK_BB7B01A9_44F5_4e0f_B158_0DDAA5B6593D |
+    | id | EAPK\_BB7B01A9\_44F5\_4e0f\_B158\_0DDAA5B6593D |
     
 
 Het model 'Model Vroegsignalering' kent de volgende objecttypen:
@@ -42,6 +43,7 @@ Het model 'Model Vroegsignalering' kent de volgende objecttypen:
 > Organisatie de data aanlevert aan het CBS. Het kan hier gaan om de gemeente zelf, of een partij die namens de gemeente uitvoering geeft aan de afhandeling van vroegsignalen.
 
 ??? info "Kenmerken Model AanleverendeOrganisatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AanleverendeOrganisatie |
@@ -50,10 +52,10 @@ Het model 'Model Vroegsignalering' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2025-07-10 14:53:49 |
-    | modified | 2025-12-02 09:49:50 |
-    | id | EAID_3109FEF3_A1CB_4f50_800B_376A18465F9F |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_3109FEF3\_A1CB\_4f50\_800B\_376A18465F9F |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -78,6 +80,7 @@ Attributen van objecttype AanleverendeOrganisatie
 > Contactpersoon bij de aanleverende organisatie.
 
 ??? info "Kenmerken Model Contactpersoon"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Contactpersoon |
@@ -86,10 +89,10 @@ Attributen van objecttype AanleverendeOrganisatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2025-07-10 14:51:54 |
-    | modified | 2025-12-02 09:36:33 |
-    | id | EAID_A629ED5F_E919_6316_A279_92891F2325BB |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_A629ED5F\_E919\_6316\_A279\_92891F2325BB |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -116,6 +119,7 @@ Attributen van objecttype Contactpersoon
 > Een Contactpoging is de actie die de gemeente onderneemt om in contact te treden met de inwoner naar aanleiding van een vroegsignaal. Een contactpoging maakt onderdeel uit van de vroegsignaalzaak en kan verschillende vormen aannemen, zoals een telefoongesprek, huisbezoek, brief of digitaal bericht. Van elke contactpoging wordt vastgelegd wanneer deze is gedaan, op welke wijze, met welk doel en wat het resultaat was (bijvoorbeeld: geen gehoor, gesprek gevoerd, brief retour ontvangen).
 
 ??? info "Kenmerken Model Contactpoging"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Contactpoging |
@@ -124,10 +128,10 @@ Attributen van objecttype Contactpersoon
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2025-04-09 16:07:30 |
-    | modified | 2025-12-01 22:30:06 |
-    | id | EAID_C7000EFD_826C_4e47_BD80_075A6EF4E558 |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_C7000EFD\_826C\_4e47\_BD80\_075A6EF4E558 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -156,6 +160,7 @@ Attributen van objecttype Contactpoging
 > Een signaalpartner verstrekt een vroegsignaal aan de gemeente wanneer bij een klant of huurder sprake is van een betalingsachterstand die voldoet aan de wettelijke en/of contractuele criteria voor signalering.
 
 ??? info "Kenmerken Model Signaalpartner"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Signaalpartner |
@@ -164,10 +169,10 @@ Attributen van objecttype Contactpoging
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2025-04-09 16:16:46 |
-    | modified | 2025-12-01 22:30:19 |
-    | id | EAID_3643CF44_EFAA_4939_9AEB_ACA8D8EE11F9 |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_3643CF44\_EFAA\_4939\_9AEB\_ACA8D8EE11F9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -193,6 +198,7 @@ Attributen van objecttype Signaalpartner
 > De juridische grondslag voor het ontvangen en verwerken van vroegsignalen is vastgelegd in artikel 2.2.1 van de Wet gemeentelijke schuldhulpverlening (Wgs). Deze wet verplicht gemeenten om vroegtijdig signalen van betalingsachterstanden te ontvangen en op basis daarvan inwoners passende hulp aan te bieden.
 
 ??? info "Kenmerken Model Vroegsignaal"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vroegsignaal |
@@ -201,10 +207,10 @@ Attributen van objecttype Signaalpartner
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2025-04-09 16:03:55 |
-    | modified | 2025-12-01 22:30:30 |
-    | id | EAID_C6DA2586_C0E3_4868_93E8_64AF6D118092 |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_C6DA2586\_C0E3\_4868\_93E8\_64AF6D118092 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -233,6 +239,7 @@ Attributen van objecttype Vroegsignaal
 > Een Vroegsignaalzaak is procesmatige eenheid binnen de gemeentelijke organisatie waarin de behandeling van één of meerdere vroegsigna(a)len is/zijn ondergebracht. De vroegsignaalzaak omvat alle handelingen die de gemeente verricht naar aanleiding van het ontvangen vroegsignaal, zoals het vastleggen van het signaal, het uitvoeren van een eerste beoordeling, het leggen van contact met de inwoner, het registreren van contactpogingen en -resultaten, en het eventueel toeleiden naar schuldhulpverlening of andere passende ondersteuning.
 
 ??? info "Kenmerken Model Vroegsignaalzaak"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vroegsignaalzaak |
@@ -241,10 +248,10 @@ Attributen van objecttype Vroegsignaal
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2025-04-09 16:05:23 |
-    | modified | 2025-12-01 22:30:41 |
-    | id | EAID_1AA67F0D_3B94_48a3_A037_A2ACC6D61CF0 |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_1AA67F0D\_3B94\_48a3\_A037\_A2ACC6D61CF0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -283,13 +290,14 @@ Het enumeratie EnumContactsoort kent de volgende waarden:
 * **Telefoon**: Telefonisch contact, waarbij direct met de inwoner wordt gesproken of een voicemail wordt ingesproken.
 * **Huisbezoek**: Een persoonlijke contactpoging aan huis, al dan niet aangekondigd, om direct met de inwoner in gesprek te gaan.
 * **Kaartje**: Een informatief of uitnodigend kaartje dat bij de inwoner thuis wordt achtergelaten, bijvoorbeeld bij een gemist huisbezoek.
-* **Overige**: Een andere vorm van contact dan de hier benoemde, bijvoorbeeld via een bemiddelaar, buurthulp of digitaal platform.
 * **Administratief**: Administratieve afhandeling zonder contact
+* **Afspraak op locatie**: Het contact heeft op locatie van de uitvoerder plaatsgevonden, bijv. op het gemeentekantoor, het kantoor van het sociaal team of op het kantoor van een welzijnsorganisatie.
 
 
 De enumeratie EnumContactsoort heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model EnumContactsoort"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | EnumContactsoort |
@@ -298,10 +306,10 @@ De enumeratie EnumContactsoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2025-04-09 16:10:41 |
-    | modified | 2025-12-01 22:30:55 |
-    | id | EAID_7BA37694_65C5_4cfb_8804_D7EB6CE344FB |
+    | modified | 2025-12-16 14:00:30 |
+    | id | EAID\_7BA37694\_65C5\_4cfb\_8804\_D7EB6CE344FB |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -325,6 +333,7 @@ Het enumeratie EnumDagdeel kent de volgende waarden:
 De enumeratie EnumDagdeel heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model EnumDagdeel"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | EnumDagdeel |
@@ -333,10 +342,10 @@ De enumeratie EnumDagdeel heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2025-05-26 09:07:14 |
-    | modified | 2025-12-01 22:31:06 |
-    | id | EAID_3860D42A_481D_42cd_86F9_79B5D6230A58 |
+    | modified | 2025-12-16 14:00:30 |
+    | id | EAID\_3860D42A\_481D\_42cd\_86F9\_79B5D6230A58 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -434,6 +443,7 @@ Het enumeratie EnumEindresultaat kent de volgende waarden:
 De enumeratie EnumEindresultaat heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model EnumEindresultaat"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | EnumEindresultaat |
@@ -442,10 +452,10 @@ De enumeratie EnumEindresultaat heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2025-04-09 16:10:26 |
-    | modified | 2025-12-01 22:31:16 |
-    | id | EAID_B78A9A0E_65B0_4c4b_AA01_99CFA196D740 |
+    | modified | 2025-12-16 14:00:30 |
+    | id | EAID\_B78A9A0E\_65B0\_4c4b\_AA01\_99CFA196D740 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -482,6 +492,7 @@ Het enumeratie EnumSignaalpartner kent de volgende waarden:
 De enumeratie EnumSignaalpartner heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model EnumSignaalpartner"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | EnumSignaalpartner |
@@ -490,10 +501,10 @@ De enumeratie EnumSignaalpartner heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2025-04-09 16:29:45 |
-    | modified | 2025-12-01 22:31:26 |
-    | id | EAID_ACE0EA25_898C_4de3_8196_49AD3AE5481F |
+    | modified | 2025-12-16 14:00:30 |
+    | id | EAID\_ACE0EA25\_898C\_4de3\_8196\_49AD3AE5481F |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -545,6 +556,7 @@ Het enumeratie EnumSignaalstatus kent de volgende waarden:
 De enumeratie EnumSignaalstatus heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model EnumSignaalstatus"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | EnumSignaalstatus |
@@ -553,10 +565,10 @@ De enumeratie EnumSignaalstatus heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.7.0 |
     | created | 2025-05-07 11:25:56 |
-    | modified | 2025-12-01 22:31:36 |
-    | id | EAID_568499A3_3FE7_4342_B1B4_36A01AEAC1C9 |
+    | modified | 2025-12-16 14:00:30 |
+    | id | EAID\_568499A3\_3FE7\_4342\_B1B4\_36A01AEAC1C9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -565,6 +577,5 @@ De enumeratie EnumSignaalstatus heeft de volgende kenmerken:
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
-
 
 

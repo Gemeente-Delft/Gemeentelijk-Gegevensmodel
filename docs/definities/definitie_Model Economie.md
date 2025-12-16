@@ -5,6 +5,7 @@
 > Het informatiedomein dat gegevens omvat over economische ontwikkeling, bedrijvigheid en innovatie.
 
 ??? info "Kenmerken Model Model Economie"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Economie |
@@ -16,7 +17,7 @@
     | version | 1.2 |
     | created | 2019-12-18 13:51:43 |
     | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_DB8BA49F_252E_4044_A93B_8215B6903827 |
+    | id | EAPK\_DB8BA49F\_252E\_4044\_A93B\_8215B6903827 |
     
 
 Het model 'Model Economie' kent de volgende objecttypen:
@@ -38,6 +39,7 @@ Het model 'Model Economie' kent de volgende objecttypen:
 > Persoon waarmee communicatie plaatsvindt
 
 ??? info "Kenmerken Model Contact"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Contact |
@@ -45,11 +47,11 @@ Het model 'Model Economie' kent de volgende objecttypen:
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-12-18 13:52:42 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_3BF6985C_06AB_4cfc_9A0E_5CC37C224245 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_3BF6985C\_06AB\_4cfc\_9A0E\_5CC37C224245 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -75,6 +77,7 @@ Attributen van objecttype Contact
 > Gebouw waar je tegen betaling kunt logeren.
 
 ??? info "Kenmerken Model Hotel"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Hotel |
@@ -82,11 +85,11 @@ Attributen van objecttype Contact
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-12-18 14:20:03 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_5805FA72_C0CE_43c1_A53F_B81166AEFDD4 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_5805FA72\_C0CE\_43c1\_A53F\_B81166AEFDD4 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Hotel |
@@ -110,6 +113,7 @@ Attributen van objecttype Hotel
 > Verblijf in een hotel
 
 ??? info "Kenmerken Model Hotelbezoek"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Hotelbezoek |
@@ -117,11 +121,11 @@ Attributen van objecttype Hotel
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-12-18 14:09:16 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_669000E9_25D6_4346_B718_516CDB8B88B7 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_669000E9\_25D6\_4346\_B718\_516CDB8B88B7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Hotelbezoek |
@@ -146,6 +150,7 @@ Attributen van objecttype Hotelbezoek
 > Locatie waar iets wordt verkocht
 
 ??? info "Kenmerken Model Verkooppunt"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verkooppunt |
@@ -153,11 +158,11 @@ Attributen van objecttype Hotelbezoek
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-12-18 14:19:47 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_8F05E7BA_E7ED_45d1_9626_C8D7FBDB2F1B |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_8F05E7BA\_E7ED\_45d1\_9626\_C8D7FBDB2F1B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Verkooppunt |
@@ -181,6 +186,7 @@ Attributen van objecttype Verkooppunt
 > De vraag naar arbeid, te berekenen door de totale productie te delen door de arbeidsproductiviteit per persoon.
 
 ??? info "Kenmerken Model Werkgelegenheid"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Werkgelegenheid |
@@ -188,11 +194,11 @@ Attributen van objecttype Verkooppunt
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-12-18 14:08:27 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_EB35F5B8_9289_49cc_8DF4_8BD20EC662A9 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_EB35F5B8\_9289\_49cc\_8DF4\_8BD20EC662A9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Werkgelegenheid |
@@ -220,6 +226,7 @@ Attributen van objecttype Werkgelegenheid
 > Gemeten oppervlakte in vierkante meters van een winkel
 
 ??? info "Kenmerken Model Winkelvloeroppervlak"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Winkelvloeroppervlak |
@@ -227,11 +234,11 @@ Attributen van objecttype Werkgelegenheid
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-12-18 14:08:39 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_0EABA880_434F_41c3_A41D_0002222AAC2A |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_0EABA880\_434F\_41c3\_A41D\_0002222AAC2A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -250,7 +257,6 @@ Attributen van objecttype Winkelvloeroppervlak
 | bronWVO | An40 |  |
 | leegstand | Boolean |  |
 | aantalKassa | int |  |
-
 
 
 

@@ -5,6 +5,7 @@
 > Het onderdeel Normafwijking bricht zich op de registratie en afhandeling van situaties waarin een afwijking van de gestelde normen wordt geconstateerd bij inkomensvoorzieningen.
 
 ??? info "Kenmerken Model Model Normafwijking"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Normafwijking |
@@ -16,7 +17,7 @@
     | version | 1.1 |
     | created | 2024-06-27 21:51:28 |
     | modified | 2025-03-27 15:33:40 |
-    | id | EAPK_2D091BA6_1407_C3BE_D193_3743D37AB694 |
+    | id | EAPK\_2D091BA6\_1407\_C3BE\_D193\_3743D37AB694 |
     
 
 Het model 'Model Normafwijking' kent de volgende objecttypen:
@@ -37,6 +38,7 @@ Het model 'Model Normafwijking' kent de volgende objecttypen:
 > Geen Definitie
 
 ??? info "Kenmerken Model Afwijkende maatregel"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Afwijkende maatregel |
@@ -45,10 +47,10 @@ Het model 'Model Normafwijking' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.8.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_1BD0DD3A_888E_945B_4A20_276CADAE4D4C |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_1BD0DD3A\_888E\_945B\_4A20\_276CADAE4D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -71,6 +73,7 @@ Attributen van objecttype Afwijkende maatregel
 > Een boete is de uitkomst van een onderzoek naar rechtmatigheid. Dit leidt in principe tot een terug te vorderen bedrag. Er is voor gekozen om dit als aparte klasse te modelleren en niet als typering van een vordering, omdat we dit gegeven ook willen gebruiken bij risicoprofilering. Als de vordering niet (meer) bestaat, zou dit gegeven daarmee niet beschikbaar zijn.Daarnaast kan dit ook helpen bij het vastleggen van een boete van een poging tot fraude (zonder financiele consequenties, waardoor geen vordering is ontstaan. (tijdig ondekte valsheid in geschifte e.d.).Bij bedragen hoger dan 50.000 euro, wordt aangifte van fraude gedaan en volgt strafrechtelijk onderzoek.Feitelijk is het uitgangspunt bij het opleggen van een boete dat er altijd sprake is van opzet. Daarom is een apart gegeven Fraude niet opgenomen.
 
 ??? info "Kenmerken Model Boete"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Boete |
@@ -79,10 +82,10 @@ Attributen van objecttype Afwijkende maatregel
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.8.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_05E49616_803F_4C1B_9663_262C4A191DF9 |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_05E49616\_803F\_4C1B\_9663\_262C4A191DF9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -105,6 +108,7 @@ Attributen van objecttype Boete
 > Geen Definitie
 
 ??? info "Kenmerken Model Maatregel"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Maatregel |
@@ -113,10 +117,10 @@ Attributen van objecttype Boete
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.8.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_0B63B508_9F69_A5D7_4387_2632D2C24782 |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_0B63B508\_9F69\_A5D7\_4387\_2632D2C24782 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -139,6 +143,7 @@ Attributen van objecttype Maatregel
 > Geen Definitie
 
 ??? info "Kenmerken Model Maatregel op uitkering"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Maatregel op uitkering |
@@ -147,10 +152,10 @@ Attributen van objecttype Maatregel
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.8.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_032C6459_3922_4AEF_0D73_262C4A138E25 |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_032C6459\_3922\_4AEF\_0D73\_262C4A138E25 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -173,6 +178,7 @@ Attributen van objecttype Maatregel op uitkering
 > Geen Definitie
 
 ??? info "Kenmerken Model Normafwijking"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Normafwijking |
@@ -181,10 +187,10 @@ Attributen van objecttype Maatregel op uitkering
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.8.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_167FF4C9_6B66_EEDA_5189_262C4A139258 |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_167FF4C9\_6B66\_EEDA\_5189\_262C4A139258 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -198,7 +204,6 @@ Attributen van objecttype Normafwijking
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 

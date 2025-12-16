@@ -5,6 +5,7 @@
 > Het informatiedomein dat gegevens omvat over de verwerving, het beheer, het onderzoek en de presentatie van museale collecties en tentoonstellingen binnen een overheidsorganisatie.
 
 ??? info "Kenmerken Model Model Musea"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Musea |
@@ -16,7 +17,7 @@
     | version | 1.2 |
     | created | 2019-08-12 10:54:01 |
     | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_BC31E8F4_1A54_4d7a_A3D5_C9B72022BBD9 |
+    | id | EAPK\_BC31E8F4\_1A54\_4d7a\_A3D5\_C9B72022BBD9 |
     
 
 Het model 'Model Musea' kent de volgende objecttypen:
@@ -62,6 +63,7 @@ Het model 'Model Musea' kent de volgende objecttypen:
 > Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd.
 
 ??? info "Kenmerken Model Activiteit"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Activiteit |
@@ -69,11 +71,11 @@ Het model 'Model Musea' kent de volgende objecttypen:
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-12 13:24:51 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_A1C60F39_3074_4d1c_A37D_5F431F54DF92 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_A1C60F39\_3074\_4d1c\_A37D\_5F431F54DF92 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Activiteit |
@@ -99,6 +101,7 @@ Attributen van objecttype Activiteit
 > Typering van een activiteit
 
 ??? info "Kenmerken Model Activiteitsoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Activiteitsoort |
@@ -106,11 +109,11 @@ Attributen van objecttype Activiteit
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-12 13:25:49 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_D77AB8CF_E4B1_49fd_BE78_FE358FF76F13 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_D77AB8CF\_E4B1\_49fd\_BE78\_FE358FF76F13 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -135,6 +138,7 @@ Attributen van objecttype Activiteitsoort
 > Verkoop aan de balie
 
 ??? info "Kenmerken Model Balieverkoop"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Balieverkoop |
@@ -142,11 +146,11 @@ Attributen van objecttype Activiteitsoort
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-12 10:59:59 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_EA2D32A2_5ED5_45c8_AC33_57C35981B3BC |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_EA2D32A2\_5ED5\_45c8\_AC33\_57C35981B3BC |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Balieverkoop |
@@ -172,6 +176,7 @@ Attributen van objecttype Balieverkoop
 > Verkoop van een entreekaart aan de balie
 
 ??? info "Kenmerken Model Balieverkoop Entreekaart"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Balieverkoop Entreekaart |
@@ -179,11 +184,11 @@ Attributen van objecttype Balieverkoop
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-12 10:59:43 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_90E24064_EBB7_4ffc_9640_F7C31678899F |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_90E24064\_EBB7\_4ffc\_9640\_F7C31678899F |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | BalieverkoopEntreekaart |
@@ -210,6 +215,7 @@ Attributen van objecttype Balieverkoop Entreekaart
 > Een persoon wiens belang rechtstreeks bij een besluit is betrokken.
 
 ??? info "Kenmerken Model Belanghebbende"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Belanghebbende |
@@ -217,11 +223,11 @@ Attributen van objecttype Balieverkoop Entreekaart
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-15 14:07:35 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_576642BA_9AF9_42fc_831A_F9D3138F20FC |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_576642BA\_9AF9\_42fc\_831A\_F9D3138F20FC |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Belanghebbende |
@@ -246,6 +252,7 @@ Attributen van objecttype Belanghebbende
 > Lening voor tijdelijk gebruik
 
 ??? info "Kenmerken Model Bruikleen"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Bruikleen |
@@ -253,11 +260,11 @@ Attributen van objecttype Belanghebbende
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-15 09:07:44 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_452312FD_05FB_4abc_A48B_C605F7E3E193 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_452312FD\_05FB\_4abc\_A48B\_C605F7E3E193 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Bruikleen |
@@ -285,6 +292,7 @@ Attributen van objecttype Bruikleen
 > Een verzameling van verworven voorwerpen die is samengesteld op grond van vastgestelde criteria.
 
 ??? info "Kenmerken Model Collectie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Collectie |
@@ -292,11 +300,11 @@ Attributen van objecttype Bruikleen
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-15 09:06:40 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_6DC28A18_DF54_4b92_A592_5F717935CA67 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_6DC28A18\_DF54\_4b92\_A592\_5F717935CA67 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Collectie |
@@ -321,6 +329,7 @@ Attributen van objecttype Collectie
 > Een groep mensen of klanten die een bedrijf of organisatie wil benaderen om een product, dienst of informatie onder de aandacht te brengen
 
 ??? info "Kenmerken Model Doelgroep"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Doelgroep |
@@ -328,11 +337,11 @@ Attributen van objecttype Collectie
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-12 13:25:14 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_0598561F_667E_4926_9BF5_66A928358E9F |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_0598561F\_667E\_4926\_9BF5\_66A928358E9F |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Doelgroep |
@@ -359,6 +368,7 @@ Attributen van objecttype Doelgroep
 > Bewijs van toegang tot een gebouw of voorstelling
 
 ??? info "Kenmerken Model Entreekaart"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Entreekaart |
@@ -366,11 +376,11 @@ Attributen van objecttype Doelgroep
     | synoniemen | Toegangsbewijs |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.4 |
+    | author | Arjen Brienen |
+    | version | 1.10.0 |
     | created | 2019-08-12 11:40:09 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_E46CB962_A2BC_4656_A0C1_D7DBCCA0C528 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_E46CB962\_A2BC\_4656\_A0C1\_D7DBCCA0C528 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Entreekaart |
@@ -394,6 +404,7 @@ Attributen van objecttype Entreekaart
 > Niet-gepland(e) gebeurtenis die of voorval dat tot schade of verlies leidt
 
 ??? info "Kenmerken Model Incident"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Incident |
@@ -401,11 +412,11 @@ Attributen van objecttype Entreekaart
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-15 09:10:20 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_CE85A5E9_AD75_40e7_8EBF_A484E4CBEEDC |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_CE85A5E9\_AD75\_40e7\_8EBF\_A484E4CBEEDC |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Incident |
@@ -432,6 +443,7 @@ Attributen van objecttype Incident
 > Iemand die iets te leen krijgt, met name iemand die boeken, digitale bestanden of apparatuur leent bij een museum, bibliotheek, mediatheek of een andere uitleeninstantie
 
 ??? info "Kenmerken Model Lener"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Lener |
@@ -439,11 +451,11 @@ Attributen van objecttype Incident
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-15 09:10:04 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_68C42EEA_6985_483e_99E6_E0F1FB71D622 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_68C42EEA\_6985\_483e\_99E6\_E0F1FB71D622 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Lener |
@@ -467,6 +479,7 @@ Attributen van objecttype Lener
 > Per post verstuurde inhoud
 
 ??? info "Kenmerken Model Mailing"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Mailing |
@@ -474,11 +487,11 @@ Attributen van objecttype Lener
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-12 13:23:59 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_48BCF2C2_609C_4e4c_991E_8BDA80E0C7C7 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_48BCF2C2\_609C\_4e4c\_991E\_8BDA80E0C7C7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Mailing |
@@ -504,6 +517,7 @@ Attributen van objecttype Mailing
 > Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht.
 
 ??? info "Kenmerken Model Museumobject"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Museumobject |
@@ -511,11 +525,11 @@ Attributen van objecttype Mailing
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-15 09:06:54 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_BBCF9DBE_70AD_431c_B698_7F0D69D07050 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_BBCF9DBE\_70AD\_431c\_B698\_7F0D69D07050 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Museumobject |
@@ -543,6 +557,7 @@ Attributen van objecttype Museumobject
 > Betrekking waarin het museum en personen tot elkaar staan
 
 ??? info "Kenmerken Model Museumrelatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Museumrelatie |
@@ -550,11 +565,11 @@ Attributen van objecttype Museumobject
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-12 13:23:49 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_C73389B7_7BCD_4496_888B_6ABEE9DE01FB |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_C73389B7\_7BCD\_4496\_888B\_6ABEE9DE01FB |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Museumrelatie |
@@ -578,6 +593,7 @@ Attributen van objecttype Museumrelatie
 > Artikelen worden gebruikt om omzet te registreren in de shop, de horeca of elders. De omzet wordt vervolgens getotaliseerd op rapportages. Om de artikelen te groeperen moet ieder artikel tot een omzetgroep behoren.
 
 ??? info "Kenmerken Model Omzetgroep"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Omzetgroep |
@@ -585,11 +601,11 @@ Attributen van objecttype Museumrelatie
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-12 11:00:37 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_2A7D73D7_87EA_4b61_88BB_F061DDBF52D9 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_2A7D73D7\_87EA\_4b61\_88BB\_F061DDBF52D9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -614,6 +630,7 @@ Attributen van objecttype Omzetgroep
 > De te betalen hoeveelheid geld
 
 ??? info "Kenmerken Model Prijs"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Prijs |
@@ -621,11 +638,11 @@ Attributen van objecttype Omzetgroep
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-12 11:21:18 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_BF7BAB5F_7025_4792_8288_47F5B1C53E95 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_BF7BAB5F\_7025\_4792\_8288\_47F5B1C53E95 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Prijs |
@@ -651,6 +668,7 @@ Attributen van objecttype Prijs
 > Het resultaat van een proces dat in het economisch verkeer een waarde bezit.
 
 ??? info "Kenmerken Model Product"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Product |
@@ -658,11 +676,11 @@ Attributen van objecttype Prijs
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-12 10:56:04 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_FF566C6B_077B_4914_8AF7_40EB1EDD388A |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_FF566C6B\_077B\_4914\_8AF7\_40EB1EDD388A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Product |
@@ -691,6 +709,7 @@ Attributen van objecttype Product
 > Groepering van producten
 
 ??? info "Kenmerken Model Productgroep"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Productgroep |
@@ -698,11 +717,11 @@ Attributen van objecttype Product
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-12 11:00:54 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_42EBA101_3E51_46d5_A234_EC7BA991D3AF |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_42EBA101\_3E51\_46d5\_A234\_EC7BA991D3AF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -727,6 +746,7 @@ Attributen van objecttype Productgroep
 > Een (deel van een) productiemiddel, dat zelfstandig (ofwel onafhankelijk van de andere delen van het desbetreffende productiemiddel) kan worden ingezet.
 
 ??? info "Kenmerken Model Productie-eenheid"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Productie-eenheid |
@@ -734,11 +754,11 @@ Attributen van objecttype Productgroep
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-12 13:25:37 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_D3EF17C3_8100_4a61_9E67_F20924C15CEA |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_D3EF17C3\_8100\_4a61\_9E67\_F20924C15CEA |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | ProductieEenheid |
@@ -761,6 +781,7 @@ Attributen van objecttype Productie-eenheid
 > Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te coördineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie.
 
 ??? info "Kenmerken Model Programma"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Programma |
@@ -768,11 +789,11 @@ Attributen van objecttype Productie-eenheid
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-12 13:23:12 |
-    | modified | 2025-05-20 15:04:44 |
-    | id | EAID_3B84D5F0_FCA3_47a5_B90C_F0834DAD6EBD |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_3B84D5F0\_FCA3\_47a5\_B90C\_F0834DAD6EBD |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Programma |
@@ -804,6 +825,7 @@ Attributen van objecttype Programma
 > Typering van een programma
 
 ??? info "Kenmerken Model Programmasoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Programmasoort |
@@ -811,11 +833,11 @@ Attributen van objecttype Programma
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-12 13:26:00 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_43EF5733_B976_4f21_9906_5349FD861BB5 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_43EF5733\_B976\_4f21\_9906\_5349FD861BB5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -840,6 +862,7 @@ Attributen van objecttype Programmasoort
 > Het vooraf bespreken van een plaats in een openbare gelegenheid, vervoermiddel, restaurant e.d.
 
 ??? info "Kenmerken Model Reservering"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Reservering |
@@ -847,11 +870,11 @@ Attributen van objecttype Programmasoort
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-14 15:02:48 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_11AB7925_5C96_4615_92F6_4055935221A0 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_11AB7925\_5C96\_4615\_92F6\_4055935221A0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Reservering |
@@ -879,6 +902,7 @@ Attributen van objecttype Reservering
 > Bezichtiging met toelichting
 
 ??? info "Kenmerken Model Rondleiding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Rondleiding |
@@ -886,11 +910,11 @@ Attributen van objecttype Reservering
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-12 13:22:59 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_2EE54C3D_0D8B_440e_A4A4_031273313901 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_2EE54C3D\_0D8B\_440e\_A4A4\_031273313901 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Rondleiding |
@@ -917,6 +941,7 @@ Attributen van objecttype Rondleiding
 > Iemand die stukken informatie samenbrengt in tentoonstelingen, presentaties en naslagwerken.
 
 ??? info "Kenmerken Model Samensteller"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Samensteller |
@@ -924,11 +949,11 @@ Attributen van objecttype Rondleiding
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-15 10:58:21 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_E5566AF6_3D43_4b2f_B658_F67F6C1C511D |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_E5566AF6\_3D43\_4b2f\_B658\_F67F6C1C511D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Samensteller |
@@ -952,6 +977,7 @@ Attributen van objecttype Samensteller
 > vanaf een vaste locatie te koop aanbieden, verkopen of afleveren van goederen of aanbieden van diensten, gebruikmakend van fysieke middelen zoals een kraam, een wagen of een tafel
 
 ??? info "Kenmerken Model Standplaats"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Standplaats |
@@ -959,11 +985,11 @@ Attributen van objecttype Samensteller
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-15 09:09:49 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_98F3132E_F97A_4f49_B4F5_28618BB693F8 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_98F3132E\_F97A\_4f49\_B4F5\_28618BB693F8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Standplaats |
@@ -989,6 +1015,7 @@ Attributen van objecttype Standplaats
 > Een uitstalling van voorwerpen om door het grote publiek bekeken te worden.
 
 ??? info "Kenmerken Model Tentoonstelling"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Tentoonstelling |
@@ -996,11 +1023,11 @@ Attributen van objecttype Standplaats
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-14 15:30:28 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_069C9894_5E07_4c95_AC28_EB4A5EBFD165 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_069C9894\_5E07\_4c95\_AC28\_EB4A5EBFD165 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Tentoonstelling |
@@ -1028,6 +1055,7 @@ Attributen van objecttype Tentoonstelling
 > Middel om services/maatregelen in te vullen.
 
 ??? info "Kenmerken Model Voorziening"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Voorziening |
@@ -1035,11 +1063,11 @@ Attributen van objecttype Tentoonstelling
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-12 13:22:46 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_8D3666E3_F2DA_4cba_BF67_EFED9AAD97CC |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_8D3666E3\_F2DA\_4cba\_BF67\_EFED9AAD97CC |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Voorziening |
@@ -1065,6 +1093,7 @@ Attributen van objecttype Voorziening
 > Groepering van winkelverkopen
 
 ??? info "Kenmerken Model Winkelverkoopgroep"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Winkelverkoopgroep |
@@ -1072,11 +1101,11 @@ Attributen van objecttype Voorziening
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-12 13:23:38 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_CE76218E_E56C_4c15_A29B_5EB14B7E084F |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_CE76218E\_E56C\_4c15\_A29B\_5EB14B7E084F |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Winkelverkoopgroep |
@@ -1099,6 +1128,7 @@ Attributen van objecttype Winkelverkoopgroep
 > Onderdeel in de winkelvoorraad
 
 ??? info "Kenmerken Model Winkelvoorraaditem"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Winkelvoorraaditem |
@@ -1106,11 +1136,11 @@ Attributen van objecttype Winkelverkoopgroep
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-12 11:00:25 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_9D19BC40_5EED_408d_AFA3_7C16F8E7E65F |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_9D19BC40\_5EED\_408d\_AFA3\_7C16F8E7E65F |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1137,6 +1167,7 @@ Attributen van objecttype Winkelvoorraaditem
 > Grote ruimte in een gebouw
 
 ??? info "Kenmerken Model Zaal"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Zaal |
@@ -1144,11 +1175,11 @@ Attributen van objecttype Winkelvoorraaditem
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-08-12 13:22:35 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_6850BC5E_444E_4d33_A8A7_9B345502E275 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_6850BC5E\_444E\_4d33\_A8A7\_9B345502E275 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Zaal |
@@ -1166,7 +1197,6 @@ Attributen van objecttype Zaal
 | omschrijving | Text |  |
 | capaciteit | int |  |
 | nummer | int |  |
-
 
 
 

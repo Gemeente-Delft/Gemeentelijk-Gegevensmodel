@@ -5,6 +5,7 @@
 > Geen definitie
 
 ??? info "Kenmerken Model Model"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model |
@@ -16,7 +17,7 @@
     | version | 1.0 |
     | created | 2018-05-15 10:31:22 |
     | modified | 2018-05-15 10:31:22 |
-    | id | EAPK_6E9CB375_FA92_4e08_A811_527A3AAAA7D0 |
+    | id | EAPK\_6E9CB375\_FA92\_4e08\_A811\_527A3AAAA7D0 |
     
 
 Het model 'Model' kent de volgende objecttypen:
@@ -33,6 +34,7 @@ Het model 'Model' kent de volgende objecttypen:
 > bepaalde tijdsduur.
 
 ??? info "Kenmerken Model Periode"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Periode |
@@ -41,10 +43,10 @@ Het model 'Model' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-05-15 10:31:56 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_137DECB4_F249_4039_B4F3_787852C4CB11 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_137DECB4\_F249\_4039\_B4F3\_787852C4CB11 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Periode |
@@ -60,8 +62,7 @@ Attributen van objecttype Periode
 | :--- | :--- | :--- |
 | datumStart | date |  |
 | datumEinde | date |  |
-| omschrijving |  |  |
-
+| omschrijving | Tekst |  |
 
 
 

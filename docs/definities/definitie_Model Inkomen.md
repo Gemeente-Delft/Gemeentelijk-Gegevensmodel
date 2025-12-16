@@ -5,6 +5,7 @@
 > Het informatiedomein dat gegevens omvat over inkomensvoorzieningen, -regelingen en financiële ondersteuning voor inwoners, gericht op het waarborgen van bestaanszekerheid en participatie in de samenleving.
 
 ??? info "Kenmerken Model Model Inkomen"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Inkomen |
@@ -13,10 +14,10 @@
     | uri |  |
     | bron |  |
     | author | arjen |
-    | version | 1.1.0 |
+    | version | 1.7.0 |
     | created | 2025-03-27 11:31:16 |
-    | modified | 2025-07-29 22:20:23 |
-    | id | EAPK_7A13550B_AC75_4783_BD16_A9ED6E86172A |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAPK\_7A13550B\_AC75\_4783\_BD16\_A9ED6E86172A |
     
 
 Het model 'Model Inkomen' kent de volgende objecttypen:
@@ -43,6 +44,7 @@ Het model 'Model Inkomen' kent de volgende objecttypen:
 > Geen Definitie
 
 ??? info "Kenmerken Model Component"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Component |
@@ -51,10 +53,10 @@ Het model 'Model Inkomen' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.1.0 |
+    | version | 1.8.0 |
     | created | 2022-06-08 14:19:54 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_F4FD02F2_9FFA_4a35_BA32_B4CDE4002E7A |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_F4FD02F2\_9FFA\_4a35\_BA32\_B4CDE4002E7A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -89,6 +91,7 @@ Attributen van objecttype Component
 > Geen Definitie
 
 ??? info "Kenmerken Model ComponentSoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ComponentSoort |
@@ -97,10 +100,10 @@ Attributen van objecttype Component
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.1.0 |
+    | version | 1.8.0 |
     | created | 2022-06-08 14:20:08 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_3372192D_4773_46b2_BDA5_C98B220F8954 |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_3372192D\_4773\_46b2\_BDA5\_C98B220F8954 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -129,6 +132,7 @@ Attributen van objecttype ComponentSoort
 > Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen.
 
 ??? info "Kenmerken Model Huisvestingsoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Huisvestingsoort |
@@ -136,11 +140,11 @@ Attributen van objecttype ComponentSoort
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | arjen |
-    | version | 1.1.0 |
+    | author | Arjen Brienen |
+    | version | 1.8.0 |
     | created | 2025-04-23 16:21:20 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_8D999BE8_96AB_8418_B94F_289754CE1336 |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_8D999BE8\_96AB\_8418\_B94F\_289754CE1336 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -167,6 +171,7 @@ Attributen van objecttype Huisvestingsoort
 > Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving
 
 ??? info "Kenmerken Model Inkomensvoorziening"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Inkomensvoorziening |
@@ -174,11 +179,11 @@ Attributen van objecttype Huisvestingsoort
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.1.0 |
+    | author | Arjen Brienen |
+    | version | 1.8.0 |
     | created | 2018-04-23 11:53:14 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_07784236_3AA6_45e5_8253_7D088C4020B0 |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_07784236\_3AA6\_45e5\_8253\_7D088C4020B0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -218,6 +223,7 @@ Attributen van objecttype Inkomensvoorziening
 > Typering van een inkomensvoorziening
 
 ??? info "Kenmerken Model Inkomensvoorzieningsoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Inkomensvoorzieningsoort |
@@ -225,11 +231,11 @@ Attributen van objecttype Inkomensvoorziening
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.1.0 |
+    | author | Arjen Brienen |
+    | version | 1.8.0 |
     | created | 2018-04-23 11:53:23 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_AF18E7D3_279D_4323_B785_6C75B4701430 |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_AF18E7D3\_279D\_4323\_B785\_6C75B4701430 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -260,6 +266,7 @@ Attributen van objecttype Inkomensvoorzieningsoort
 > Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen.
 
 ??? info "Kenmerken Model RedenBlokkering"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | RedenBlokkering |
@@ -267,11 +274,11 @@ Attributen van objecttype Inkomensvoorzieningsoort
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | arjen |
-    | version | 1.1.0 |
+    | author | Arjen Brienen |
+    | version | 1.8.0 |
     | created | 2025-04-23 16:14:37 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_88B0A7AB_53E6_4bc1_8D99_9BE896AB8418 |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_88B0A7AB\_53E6\_4bc1\_8D99\_9BE896AB8418 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -298,6 +305,7 @@ Attributen van objecttype RedenBlokkering
 > De reden waarom de persoon de uitkering heeft gekregen. Geeft de reden van aanvraag van uitkering weer. Nodig voor diepere analyse van stand van uitkeringen. Omdat we willen weten waarom mensen nstromen. Bv geen werk meer og geen andere uitkering, verhuizing.
 
 ??? info "Kenmerken Model RedenInstroom"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | RedenInstroom |
@@ -305,11 +313,11 @@ Attributen van objecttype RedenBlokkering
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | arjen |
-    | version | 1.1.0 |
+    | author | Arjen Brienen |
+    | version | 1.8.0 |
     | created | 2025-04-23 16:16:48 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_8D999BE8_96AB_8418_99A2_CB86335AFB97 |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_8D999BE8\_96AB\_8418\_99A2\_CB86335AFB97 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -338,6 +346,7 @@ Attributen van objecttype RedenInstroom
 > De reden waarom de uitkering aan een persoon is beeindgd. Reden toevoeging: Geeft de reden van uitstroom aan. Waarom is de uitkering beëindigd. Nodig voor diepere analyse van stand. Meet of je beleid of het lukt om mensen naar werk te laten stromen. van uitkeringen.
 
 ??? info "Kenmerken Model RedenUitstroom"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | RedenUitstroom |
@@ -345,11 +354,11 @@ Attributen van objecttype RedenInstroom
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | arjen |
-    | version | 1.1.0 |
+    | author | Arjen Brienen |
+    | version | 1.8.0 |
     | created | 2025-04-23 16:18:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_99A2CB86_335A_FB97_9C8F_47170B1699EC |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_99A2CB86\_335A\_FB97\_9C8F\_47170B1699EC |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -378,6 +387,7 @@ Attributen van objecttype RedenUitstroom
 > Een Regeling is gekoppeld aan een ingeschreven persoon (client) en beschrijft de specifieke afspraken of voorwaarden waaronder inkomensondersteuning wordt verleend. Een regeling heeft altijd een relatie met een RegelingSoort, die het type regeling specificeert.
 
 ??? info "Kenmerken Model Regeling"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Regeling |
@@ -385,11 +395,11 @@ Attributen van objecttype RedenUitstroom
     | synoniemen |  |
     | uri |  |
     | bron | [https://www.begrippenxl.nl/dso/nl/page/Regeling](https://www.begrippenxl.nl/dso/nl/page/Regeling) |
-    | author | crossover |
-    | version | 1.1.0 |
+    | author | Arjen Brienen |
+    | version | 1.8.0 |
     | created | 2018-04-23 11:56:16 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_C25455F3_FEB0_4c6d_9AA4_3B027718BEE3 |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_C25455F3\_FEB0\_4c6d\_9AA4\_3B027718BEE3 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -416,6 +426,7 @@ Attributen van objecttype Regeling
 > Typologie van een regeling
 
 ??? info "Kenmerken Model Regelingsoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Regelingsoort |
@@ -423,11 +434,11 @@ Attributen van objecttype Regeling
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.1.0 |
+    | author | Arjen Brienen |
+    | version | 1.8.0 |
     | created | 2018-04-23 11:56:27 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_14D3C960_5EF2_433c_8E1C_B493974280E2 |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_14D3C960\_5EF2\_433c\_8E1C\_B493974280E2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -452,6 +463,7 @@ Attributen van objecttype Regelingsoort
 > Geen Definitie
 
 ??? info "Kenmerken Model UitkeringsRun"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | UitkeringsRun |
@@ -460,10 +472,10 @@ Attributen van objecttype Regelingsoort
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.1.0 |
+    | version | 1.8.0 |
     | created | 2022-06-08 14:20:23 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_F787184D_3AA8_4132_96C4_23A363C3C1B7 |
+    | modified | 2025-12-16 14:00:19 |
+    | id | EAID\_F787184D\_3AA8\_4132\_96C4\_23A363C3C1B7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -509,6 +521,7 @@ Het enumeratie Wet kent de volgende waarden:
 De enumeratie Wet heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Wet"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Wet |
@@ -517,10 +530,10 @@ De enumeratie Wet heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:12:49 |
-    | modified | 2025-03-26 16:14:37 |
-    | id | EAID_a60acb98_6654_4fd0_b165_3ba42af06feb |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_e1d058ce\_4497\_4958\_8f77\_1834667fc5c5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -529,6 +542,5 @@ De enumeratie Wet heeft de volgende kenmerken:
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
-
 
 

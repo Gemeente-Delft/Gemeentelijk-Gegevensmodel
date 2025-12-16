@@ -5,6 +5,7 @@
 > Alle generieke objecttypen die zowel voor de Wmo als voor uitvoering van de jeugdwet worden gebruikt
 
 ??? info "Kenmerken Model Model Jeugd en Wmo Generiek"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Jeugd en Wmo Generiek |
@@ -16,7 +17,7 @@
     | version | 1.5 |
     | created | 2018-05-15 16:29:14 |
     | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_B3B8C80B_FA8A_4058_8731_00B21A9EFE76 |
+    | id | EAPK\_B3B8C80B\_FA8A\_4058\_8731\_00B21A9EFE76 |
     
 
 Het model 'Model Jeugd en Wmo Generiek' kent de volgende objecttypen:
@@ -63,18 +64,19 @@ Het model 'Model Jeugd en Wmo Generiek' kent de volgende objecttypen:
 > Geen Definitie
 
 ??? info "Kenmerken Model AOM_AanvraagWmoJeugd"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
-    | name | AOM_AanvraagWmoJeugd |
+    | name | AOM\_AanvraagWmoJeugd |
     | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.3 |
+    | version | 1.9.0 |
     | created | 2021-12-15 14:49:37 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_BE7C28C6_0922_4c6a_A953_3D598D991AB5 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_BE7C28C6\_0922\_4c6a\_A953\_3D598D991AB5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | AOMAanvraagWMOJeugd |
@@ -90,14 +92,10 @@ Attributen van objecttype AOM_AanvraagWmoJeugd
 | :--- | :--- | :--- |
 | clientReactie | AN100 |  |
 | datumBeschikking | Date |  |
-| datumEersteAfspraak | Date | 
-> De datum van de eerste afspraak in het
-> proces. |
+| datumEersteAfspraak | Date | De datum van de eerste afspraak in het<br>proces. |
 | datumPlanVastgesteld | Date | De datum waarop het plan is vastgesteld in de melding. |
 | datumStartAanvraag | Date | Start van het proces=start vd aanvraag |
-| datumEinde | Date | 
-> De daadwerkelijke einddatum van de
-> gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proces of niet van toepassing. Deze einddatum is afhankelijk van de gekozen doorloopmethodiek |
+| datumEinde | Date | De daadwerkelijke einddatum van de<br>gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proces of niet van toepassing. Deze einddatum is afhankelijk van de gekozen doorloopmethodiek |
 | deskundigheid | AN50 |  |
 | doorloopmethodiek | AN50 |  |
 | maximaleDoorlooptijd | AN20 | Het aantal dagen tussen de startdatum en de einddatum van de doorloopmethodiek ten tijde van het aanmaken van het proces. Dit veld geeft daarmee aan hoe lang men over een proces zou mogen doen. |
@@ -111,6 +109,7 @@ Attributen van objecttype AOM_AanvraagWmoJeugd
 > Geen Definitie
 
 ??? info "Kenmerken Model AOMMeldingWmoJeugd"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AOMMeldingWmoJeugd |
@@ -119,10 +118,10 @@ Attributen van objecttype AOM_AanvraagWmoJeugd
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.3 |
+    | version | 1.9.0 |
     | created | 2021-12-15 14:38:21 |
-    | modified | 2025-07-29 16:50:44 |
-    | id | EAID_0FA25A4F_DF7F_4feb_9460_19D054E874F8 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_0FA25A4F\_DF7F\_4feb\_9460\_19D054E874F8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -155,6 +154,7 @@ Attributen van objecttype AOMMeldingWmoJeugd
 > Een stoornis of conditie ‚ lichamelijk, zintuiglijk en-of geestelijk ‚ die een normaal maatschappelijk functioneren belemmert en nadelige sociale gevolgen met zich meebrengt.
 
 ??? info "Kenmerken Model Beperking"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Beperking |
@@ -163,10 +163,10 @@ Attributen van objecttype AOMMeldingWmoJeugd
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-03-21 15:32:51 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_F110608E_9C6A_4d66_BDCB_F4B2465E3CFD |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_F110608E\_9C6A\_4d66\_BDCB\_F4B2465E3CFD |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Beperking |
@@ -193,6 +193,7 @@ Attributen van objecttype Beperking
 > Een categorisering van beperkingen
 
 ??? info "Kenmerken Model Beperkingscategorie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Beperkingscategorie |
@@ -200,11 +201,11 @@ Attributen van objecttype Beperking
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2018-04-23 14:41:29 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_4E835898_6623_457f_99B4_C688D465F720 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_4E835898\_6623\_457f\_99B4\_C688D465F720 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -229,6 +230,7 @@ Attributen van objecttype Beperkingscategorie
 > Getalsmatige duiding van een beperking
 
 ??? info "Kenmerken Model Beperkingscore"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Beperkingscore |
@@ -237,10 +239,10 @@ Attributen van objecttype Beperkingscategorie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-03-21 15:33:15 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_5EDE0349_8865_4b90_9A18_235C5AA660C4 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_5EDE0349\_8865\_4b90\_9A18\_235C5AA660C4 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Beperkingscore |
@@ -266,6 +268,7 @@ Attributen van objecttype Beperkingscore
 > Typering van beperkingscores
 
 ??? info "Kenmerken Model Beperkingscoresoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Beperkingscoresoort |
@@ -273,11 +276,11 @@ Attributen van objecttype Beperkingscore
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2018-04-23 14:41:43 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_6B63630A_8A30_454d_B8C4_252D4C30A3BF |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_6B63630A\_8A30\_454d\_B8C4\_252D4C30A3BF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -302,6 +305,7 @@ Attributen van objecttype Beperkingscoresoort
 > In het bestuursrecht: Een beslissing van een overheidsorgaan in een concreet geval, bijvoorbeeld het verlenen van een bouwvergunning. In het civiele recht: een rechterlijke uitspraak in een procedure die begint met een verzoekschrift.
 
 ??? info "Kenmerken Model Beschikking"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Beschikking |
@@ -310,10 +314,10 @@ Attributen van objecttype Beperkingscoresoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-04-23 16:56:03 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_71D7E96D_641A_4b6a_A325_DED07C3B5836 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_71D7E96D\_641A\_4b6a\_A325\_DED07C3B5836 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Beschikking |
@@ -341,6 +345,7 @@ Attributen van objecttype Beschikking
 > Typering van een beschikking
 
 ??? info "Kenmerken Model Beschikkingsoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Beschikkingsoort |
@@ -349,10 +354,10 @@ Attributen van objecttype Beschikking
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-06-13 14:01:26 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_FD14E04F_26A1_42ba_8E47_5F43AF539877 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_FD14E04F\_26A1\_42ba\_8E47\_5F43AF539877 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -375,6 +380,7 @@ Attributen van objecttype Beschikkingsoort
 > Een voorziening waarover een beschikking is gedaan.
 
 ??? info "Kenmerken Model Beschikte Voorziening"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Beschikte Voorziening |
@@ -383,10 +389,10 @@ Attributen van objecttype Beschikkingsoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-06-13 13:58:33 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_975C3DA3_930A_49d8_B54F_2A560DC2AD5A |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_975C3DA3\_930A\_49d8\_B54F\_2A560DC2AD5A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | BeschikteVoorziening |
@@ -420,6 +426,7 @@ Attributen van objecttype Beschikte Voorziening
 > Overzicht van de te verwachte inkomsten en uitgaven over een bepaalde periode
 
 ??? info "Kenmerken Model Budgetuitputting"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Budgetuitputting |
@@ -428,10 +435,10 @@ Attributen van objecttype Beschikte Voorziening
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-09-09 13:49:43 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_679162ED_0B45_4fb2_B16E_421C25A107F5 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_679162ED\_0B45\_4fb2\_B16E\_421C25A107F5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -456,6 +463,7 @@ Attributen van objecttype Budgetuitputting
 > Een opgave van te vergoeden kosten.
 
 ??? info "Kenmerken Model Declaratie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Declaratie |
@@ -464,10 +472,10 @@ Attributen van objecttype Budgetuitputting
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2021-11-15 14:24:21 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_5E542F35_E413_49c4_8FB7_335B6BE9667A |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_5E542F35\_E413\_49c4\_8FB7\_335B6BE9667A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Declaratie |
@@ -493,6 +501,7 @@ Attributen van objecttype Declaratie
 > Geen Definitie
 
 ??? info "Kenmerken Model Declaratieregel"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Declaratieregel |
@@ -501,10 +510,10 @@ Attributen van objecttype Declaratie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.3 |
+    | version | 1.9.0 |
     | created | 2018-06-12 15:34:16 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_F73F6BFE_9CFE_4497_80E3_CADAA344CF69 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_F73F6BFE\_9CFE\_4497\_80E3\_CADAA344CF69 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -531,6 +540,7 @@ Attributen van objecttype Declaratieregel
 > Gebied waarin alle activiteiten van een inwoner zich kunnen afspelen
 
 ??? info "Kenmerken Model Leefgebied"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Leefgebied |
@@ -539,10 +549,10 @@ Attributen van objecttype Declaratieregel
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-05-23 15:34:35 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_C55180D9_A5C3_4859_BD88_7686F5384157 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_C55180D9\_A5C3\_4859\_BD88\_7686F5384157 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Leefgebied |
@@ -568,6 +578,7 @@ Attributen van objecttype Leefgebied
 > In PxQ uren maal tarief
 
 ??? info "Kenmerken Model Levering"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Levering |
@@ -575,19 +586,17 @@ Attributen van objecttype Leefgebied
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2018-04-23 14:46:17 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_F0CE97B6_3004_4424_A0AA_5034BC0144D1 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_F0CE97B6\_3004\_4424\_A0AA\_5034BC0144D1 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Levering |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-cc667191-bb35-45a0-a231-504b663b70f1](https://gemmaonline.nl/index.php/GEMMA/id-cc667191-bb35-45a0-a231-504b663b70f1) |
-    | gemma_definitie | 
-> Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk
-> In PxQ uren maal tarief |
+    | gemma_definitie | Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk<br>In PxQ uren maal tarief |
     | gemma_toelichting |  |
     
 
@@ -611,6 +620,7 @@ Attributen van objecttype Levering
 > Zorg die onder de Wlz, de Zvw-Wijkverpleging of de Wmo 2015 valt, kan aan personen als zorg in natura (zin) worden geleverd of bekostigd worden uit een persoonsgebonden budget (pgb).
 
 ??? info "Kenmerken Model Leveringsvorm"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Leveringsvorm |
@@ -618,11 +628,11 @@ Attributen van objecttype Levering
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2018-04-23 16:43:06 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_F35DA519_FA0C_48ae_9EFC_C4EBEC4BF144 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_F35DA519\_FA0C\_48ae\_9EFC\_C4EBEC4BF144 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -648,6 +658,7 @@ Attributen van objecttype Leveringsvorm
 > Aangifte van de evetuele eigen bijdrage
 
 ??? info "Kenmerken Model Melding Eigen bijdrage"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Melding Eigen bijdrage |
@@ -656,10 +667,10 @@ Attributen van objecttype Leveringsvorm
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-09-09 13:33:02 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_A9D093FB_B3D1_46e5_B263_6C4D61F0C5D1 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_A9D093FB\_B3D1\_46e5\_B263\_6C4D61F0C5D1 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | MeldingEigenBijdrage |
@@ -686,6 +697,7 @@ Attributen van objecttype Melding Eigen bijdrage
 > Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb
 
 ??? info "Kenmerken Model PGB-Toekenning"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | PGB-Toekenning |
@@ -694,18 +706,16 @@ Attributen van objecttype Melding Eigen bijdrage
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-09-09 13:42:53 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_84FE9B56_158D_4b65_BCC1_5FE29D071FCC |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_84FE9B56\_158D\_4b65\_BCC1\_5FE29D071FCC |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | PGBToekenning |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-2cc8ad38-97f9-4462-83af-cb5556bffd88](https://gemmaonline.nl/index.php/GEMMA/id-2cc8ad38-97f9-4462-83af-cb5556bffd88) |
-    | gemma_definitie | 
-> Betreft alleen toegekende voorzieningen met als leveringsvorm PGB
-> Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb |
+    | gemma_definitie | Betreft alleen toegekende voorzieningen met als leveringsvorm PGB<br>Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb |
     | gemma_toelichting |  |
     
 
@@ -725,6 +735,7 @@ Attributen van objecttype PGB-Toekenning
 > Het aantal behaalde punten
 
 ??? info "Kenmerken Model Score"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Score |
@@ -733,10 +744,10 @@ Attributen van objecttype PGB-Toekenning
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-05-23 15:40:08 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_5A367DA9_DE05_4b3b_954D_24271FD4FB76 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_5A367DA9\_DE05\_4b3b\_954D\_24271FD4FB76 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Score |
@@ -760,6 +771,7 @@ Attributen van objecttype Score
 > Typologie van score
 
 ??? info "Kenmerken Model Scoresoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Scoresoort |
@@ -768,10 +780,10 @@ Attributen van objecttype Score
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-05-23 15:34:03 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_653EA248_1547_4f8b_B026_B44FEEC711B2 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_653EA248\_1547\_4f8b\_B026\_B44FEEC711B2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -795,6 +807,7 @@ Attributen van objecttype Scoresoort
 > Hoogte van een bedrag voor een bepaald product of dient
 
 ??? info "Kenmerken Model Tarief"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Tarief |
@@ -803,10 +816,10 @@ Attributen van objecttype Scoresoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-06-13 14:26:29 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_57F01465_EE56_4c33_9BD9_8DB351A2C530 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_57F01465\_EE56\_4c33\_9BD9\_8DB351A2C530 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Tarief |
@@ -834,6 +847,7 @@ Attributen van objecttype Tarief
 > Een groep personen die door middel van samenwerking een gezamenlijk doel nastreeft, waarbij de teamleden afhankelijk van elkaar zijn om het doel te bereiken.
 
 ??? info "Kenmerken Model Team"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Team |
@@ -842,10 +856,10 @@ Attributen van objecttype Tarief
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-06-13 11:54:40 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_909A4134_4697_481e_9110_6386D0F6CAAD |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_909A4134\_4697\_481e\_9110\_6386D0F6CAAD |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Team |
@@ -870,6 +884,7 @@ Attributen van objecttype Team
 > Toewijzing die door gemeente aan zorgaanbieder wordt gestuurd. zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html
 
 ??? info "Kenmerken Model Toewijzing"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Toewijzing |
@@ -878,16 +893,16 @@ Attributen van objecttype Team
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-04-23 16:56:03 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_01ECE551_A7B0_4b99_B6E7_F654D6AC15D5 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_01ECE551\_A7B0\_4b99\_B6E7\_F654D6AC15D5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Toewijzing |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-53cc8281-81c1-40c8-901d-2751e34ea367](https://gemmaonline.nl/index.php/GEMMA/id-53cc8281-81c1-40c8-901d-2751e34ea367) |
-    | gemma_definitie | Toewijzing die door gemeente aan zorgaanbieder wordt gestuurd. zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html |
+    | gemma_definitie | Toewijzing die door gemeente aan zorgaanbieder wordt gestuurd. zie https://informatiemodel.istandaarden.nl/2019/views/view\_274300.html |
     | gemma_toelichting |  |
     
 
@@ -916,6 +931,7 @@ Attributen van objecttype Toewijzing
 > Geen Definitie
 
 ??? info "Kenmerken Model Verplichting Wmo Jeugd"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verplichting Wmo Jeugd |
@@ -924,10 +940,10 @@ Attributen van objecttype Toewijzing
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.3 |
+    | version | 1.9.0 |
     | created | 2023-07-27 15:34:06 |
-    | modified | 2025-07-29 16:51:02 |
-    | id | EAID_EC0FB9CB_B407_49b4_8FCF_8837E7A72DA9 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_EC0FB9CB\_B407\_49b4\_8FCF\_8837E7A72DA9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Verplichting WMO Jeugd |
@@ -957,6 +973,7 @@ Attributen van objecttype Verplichting Wmo Jeugd
 > Verzoek tot toewijzing dat vanuit leverancier (via H10-portal) aan de gemeente wordt gestuurd. Zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html
 
 ??? info "Kenmerken Model Verzoek om Toewijzing"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verzoek om Toewijzing |
@@ -965,16 +982,16 @@ Attributen van objecttype Verplichting Wmo Jeugd
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-09-09 11:59:36 |
-    | modified | 2025-03-26 16:14:37 |
-    | id | EAID_9F392B0B_1654_4b4e_9261_F0A90DA1F7BD |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_9F392B0B\_1654\_4b4e\_9261\_F0A90DA1F7BD |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | VerzoekOmToewijzing |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-e643dc04-a205-421d-ab23-c6da046b1642](https://gemmaonline.nl/index.php/GEMMA/id-e643dc04-a205-421d-ab23-c6da046b1642) |
-    | gemma_definitie | Verzoek tot toewijzing dat vanuit leverancier (via H10-portal) aan de gemeente wordt gestuurd. Zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html |
+    | gemma_definitie | Verzoek tot toewijzing dat vanuit leverancier (via H10-portal) aan de gemeente wordt gestuurd. Zie https://informatiemodel.istandaarden.nl/2019/views/view\_274300.html |
     | gemma_toelichting |  |
     
 
@@ -1004,6 +1021,7 @@ Attributen van objecttype Verzoek om Toewijzing
 > Middel om services/maatregelen in te vullen.
 
 ??? info "Kenmerken Model Voorziening"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Voorziening |
@@ -1012,10 +1030,10 @@ Attributen van objecttype Verzoek om Toewijzing
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-04-23 16:56:03 |
-    | modified | 2025-03-26 16:14:37 |
-    | id | EAID_EAAF2F59_6BC0_4243_B126_A8E604B32C5E |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_EAAF2F59\_6BC0\_4243\_B126\_A8E604B32C5E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Voorziening |
@@ -1044,6 +1062,7 @@ Attributen van objecttype Voorziening
 > Typering van een voorziening
 
 ??? info "Kenmerken Model Voorzieningsoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Voorzieningsoort |
@@ -1052,10 +1071,10 @@ Attributen van objecttype Voorziening
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-06-13 14:31:08 |
-    | modified | 2025-03-26 16:14:37 |
-    | id | EAID_462E3982_56C3_4442_BE2F_2C23A7ED6015 |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_462E3982\_56C3\_4442\_BE2F\_2C23A7ED6015 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1085,6 +1104,7 @@ Attributen van objecttype Voorzieningsoort
 > Een geordend systeem waarbij aan elf domeinen van het dagelijks leven (zoals inkomen en dagbesteding; zie figuur) een waarde voor zelfredzaamheid wordt toegekend.
 
 ??? info "Kenmerken Model Zelfredzaamheidmatrix"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Zelfredzaamheidmatrix |
@@ -1093,10 +1113,10 @@ Attributen van objecttype Voorzieningsoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-05-23 15:20:43 |
-    | modified | 2025-03-26 16:14:37 |
-    | id | EAID_6C27D3D1_FBCE_4504_AF1E_48B4A4CB02EA |
+    | modified | 2025-12-16 10:28:33 |
+    | id | EAID\_6C27D3D1\_FBCE\_4504\_AF1E\_48B4A4CB02EA |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | ZelfredzaamheidMatrix |
@@ -1140,6 +1160,7 @@ Het enumeratie Doelgroep kent de volgende waarden:
 De enumeratie Doelgroep heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Doelgroep"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Doelgroep |
@@ -1148,10 +1169,10 @@ De enumeratie Doelgroep heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:12:49 |
-    | modified | 2025-03-26 16:14:37 |
-    | id | EAID_A9985186_A6B8_4414_8334_A2CA12D5AC94 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_A9985186\_A6B8\_4414\_8334\_A2CA12D5AC94 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1180,6 +1201,7 @@ Het enumeratie Eenheid kent de volgende waarden:
 De enumeratie Eenheid heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Eenheid"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Eenheid |
@@ -1188,10 +1210,10 @@ De enumeratie Eenheid heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:12:49 |
-    | modified | 2025-03-26 16:14:37 |
-    | id | EAID_838B4669_4F50_4835_ABA8_03E3FCE48184 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_838B4669\_4F50\_4835\_ABA8\_03E3FCE48184 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1220,6 +1242,7 @@ Het enumeratie Frequentie kent de volgende waarden:
 De enumeratie Frequentie heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Frequentie"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Frequentie |
@@ -1228,10 +1251,10 @@ De enumeratie Frequentie heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:12:49 |
-    | modified | 2025-03-26 16:14:37 |
-    | id | EAID_8640ED99_341B_4f10_A335_9324459F19B3 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_8640ED99\_341B\_4f10\_A335\_9324459F19B3 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1256,6 +1279,7 @@ Het enumeratie Leveringsvorm kent de volgende waarden:
 De enumeratie Leveringsvorm heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Leveringsvorm"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Leveringsvorm |
@@ -1264,10 +1288,10 @@ De enumeratie Leveringsvorm heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:12:49 |
-    | modified | 2025-03-26 16:14:37 |
-    | id | EAID_DC1D1F90_E28B_4fb7_A5E1_C2F76132BE12 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_DC1D1F90\_E28B\_4fb7\_A5E1\_C2F76132BE12 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1297,6 +1321,7 @@ Het enumeratie Soort Verwijzer kent de volgende waarden:
 De enumeratie Soort Verwijzer heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Soort Verwijzer"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Soort Verwijzer |
@@ -1305,10 +1330,10 @@ De enumeratie Soort Verwijzer heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:12:49 |
-    | modified | 2025-03-26 16:14:37 |
-    | id | EAID_44194E25_4676_4eb2_9E97_F44196438F4B |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_44194E25\_4676\_4eb2\_9E97\_F44196438F4B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1338,6 +1363,7 @@ Het enumeratie Wet kent de volgende waarden:
 De enumeratie Wet heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Wet"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Wet |
@@ -1346,10 +1372,10 @@ De enumeratie Wet heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:12:49 |
-    | modified | 2025-03-26 16:14:37 |
-    | id | EAID_3CDE785E_E631_4f94_A1A3_67F721140B1C |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_3CDE785E\_E631\_4f94\_A1A3\_67F721140B1C |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1358,6 +1384,5 @@ De enumeratie Wet heeft de volgende kenmerken:
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
-
 
 

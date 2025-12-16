@@ -5,6 +5,7 @@
 > Het informatiedomein dat gegevens omvat over de structuur en indeling van een organisatie, inclusief de inrichting en uitvoering van programma’s en projecten.
 
 ??? info "Kenmerken Model Model Organisatie"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Organisatie |
@@ -16,7 +17,7 @@
     | version | 1.4 |
     | created | 2018-04-04 15:13:41 |
     | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_69F9CD5F_3226_4180_9264_54AAC6052501 |
+    | id | EAPK\_69F9CD5F\_3226\_4180\_9264\_54AAC6052501 |
     
 
 Het model 'Model Organisatie' kent de volgende objecttypen:
@@ -34,6 +35,7 @@ Het model 'Model Organisatie' kent de volgende objecttypen:
 > Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co√∂rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie.
 
 ??? info "Kenmerken Model Programma"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Programma |
@@ -42,10 +44,10 @@ Het model 'Model Organisatie' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-11-13 15:49:09 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_0E19C86B_9088_41bd_9DD0_15094426570E |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_0E19C86B\_9088\_41bd\_9DD0\_15094426570E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Programma |
@@ -69,6 +71,7 @@ Attributen van objecttype Programma
 > Geheel van activiteiten uitgevoerd in een tijdelijk samenwerkingsverband gericht op het binnen bepaalde randvoorwaarden (bv. tijd, geld) bereiken van een vooraf gedefinieerd resultaat.
 
 ??? info "Kenmerken Model Project"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Project |
@@ -77,10 +80,10 @@ Attributen van objecttype Programma
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-05-14 14:32:41 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_7087D528_7024_4569_876A_C4605A00546D |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_7087D528\_7024\_4569\_876A\_C4605A00546D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Project |
@@ -94,7 +97,6 @@ Attributen van objecttype Project
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 

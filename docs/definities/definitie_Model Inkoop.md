@@ -5,6 +5,7 @@
 > Dit subdomein bevat data over personeelsadministratie, werving en selectie, arbeidsvoorwaarden, opleidingen, verzuimregistratie en loopbaanontwikkeling. Het ondersteunt de organisatie bij het aantrekken, behouden en ontwikkelen van medewerkers en faciliteert processen zoals functioneringsgesprekken, personeelsplanning en compliance met arbeidswetgeving.
 
 ??? info "Kenmerken Model Model Inkoop"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Inkoop |
@@ -16,7 +17,7 @@
     | version | 1.1 |
     | created | 2018-04-04 15:09:45 |
     | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_254CDF37_3AAB_4e0b_9F3C_2B46AAEBE2E9 |
+    | id | EAPK\_254CDF37\_3AAB\_4e0b\_9F3C\_2B46AAEBE2E9 |
     
 
 Het model 'Model Inkoop' kent de volgende objecttypen:
@@ -54,6 +55,7 @@ Het model 'Model Inkoop' kent de volgende objecttypen:
 > Kan een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding
 
 ??? info "Kenmerken Model Aanbesteding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aanbesteding |
@@ -61,11 +63,11 @@ Het model 'Model Inkoop' kent de volgende objecttypen:
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-11-26 15:10:12 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_44EC6082_2682_43c7_A52E_0AD05B06A046 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_44EC6082\_2682\_43c7\_A52E\_0AD05B06A046 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Aanbesteding |
@@ -99,6 +101,7 @@ Attributen van objecttype Aanbesteding
 > Aanbesteding voor inhuur van personen of diensten
 
 ??? info "Kenmerken Model Aanbesteding Inhuur"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aanbesteding Inhuur |
@@ -106,11 +109,11 @@ Attributen van objecttype Aanbesteding
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-11-26 15:14:45 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_01D90490_C76A_444a_BFCE_355AFC5FB012 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_01D90490\_C76A\_444a\_BFCE\_355AFC5FB012 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | AanbestedingInhuur |
@@ -152,6 +155,7 @@ Attributen van objecttype Aanbesteding Inhuur
 > Aankondiging van een Nationale of Europese aanbesteding
 
 ??? info "Kenmerken Model Aankondiging"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aankondiging |
@@ -159,11 +163,11 @@ Attributen van objecttype Aanbesteding Inhuur
     | synoniemen | Kennisgeving, Bekendmaking |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.4 |
+    | author | Arjen Brienen |
+    | version | 1.10.0 |
     | created | 2019-11-26 15:09:54 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_BB135B0E_A2C2_4681_BD91_30863F8B3D70 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_BB135B0E\_A2C2\_4681\_BD91\_30863F8B3D70 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Aankondiging |
@@ -191,6 +195,7 @@ Attributen van objecttype Aankondiging
 > het betreft hier het formulier 'Aanvraag Inkooporder'
 
 ??? info "Kenmerken Model Aanvraag Inkooporder"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aanvraag Inkooporder |
@@ -198,11 +203,11 @@ Attributen van objecttype Aankondiging
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-10-29 11:10:05 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_33E5EA10_F43A_4966_B9C1_875F0E2C1B52 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_33E5EA10\_F43A\_4966\_B9C1\_875F0E2C1B52 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | AanvraagInkooporder |
@@ -235,6 +240,7 @@ Attributen van objecttype Aanvraag Inkooporder
 > Categorie waarop leveranciers zich voor de levering van personeel voor kunnen kwalificeren
 
 ??? info "Kenmerken Model Categorie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Categorie |
@@ -242,11 +248,11 @@ Attributen van objecttype Aanvraag Inkooporder
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-11-26 15:16:32 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_6CA060D0_C5AC_4b50_8B64_00DCAEA7EF48 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_6CA060D0\_C5AC\_4b50\_8B64\_00DCAEA7EF48 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -271,6 +277,7 @@ Attributen van objecttype Categorie
 > Bindende overeenkomst
 
 ??? info "Kenmerken Model Contract"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Contract |
@@ -278,11 +285,11 @@ Attributen van objecttype Categorie
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-10-29 10:34:40 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_9FBF9FB8_B28D_4733_8443_607B8498F446 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_9FBF9FB8\_B28D\_4733\_8443\_607B8498F446 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Contract |
@@ -321,6 +328,7 @@ Attributen van objecttype Contract
 > De Common Procurement Vocabulary (CPV-codes) is een gemeenschappelijke woordenlijst van de EU, alle mogelijke soorten overheidsopdrachten voor diensten, leveringen en werken hebben een eigen code gekregen. Aanbestedende diensten moeten bij Europese aanbestedingen dit classificatiesysteem toepassen.
 
 ??? info "Kenmerken Model CPV-code"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | CPV-code |
@@ -328,11 +336,11 @@ Attributen van objecttype Contract
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-11-27 14:11:20 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_6A4CF470_3B0E_4141_9DB6_C9E8A525CB49 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_6A4CF470\_3B0E\_4141\_9DB6\_C9E8A525CB49 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | CPVCode |
@@ -357,6 +365,7 @@ Attributen van objecttype CPV-code
 > Formulier ten behoeve van inhuur personeel
 
 ??? info "Kenmerken Model FormulierInhuur"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | FormulierInhuur |
@@ -364,11 +373,11 @@ Attributen van objecttype CPV-code
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-11-18 15:32:41 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_B598FF22_CDD0_486f_B528_99421D0FA608 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_B598FF22\_CDD0\_486f\_B528\_99421D0FA608 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -395,6 +404,7 @@ Attributen van objecttype FormulierInhuur
 > Formulier ten behoeve van verlenging inhuur personeel
 
 ??? info "Kenmerken Model FormulierVerlengingInhuur"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | FormulierVerlengingInhuur |
@@ -402,11 +412,11 @@ Attributen van objecttype FormulierInhuur
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-11-18 15:34:04 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_1D87490A_9F07_424f_BE6F_5E9C11376B05 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_1D87490A\_9F07\_424f\_BE6F\_5E9C11376B05 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -435,6 +445,7 @@ Attributen van objecttype FormulierVerlengingInhuur
 > Of voor levering personeel
 
 ??? info "Kenmerken Model Gunning"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Gunning |
@@ -442,19 +453,17 @@ Attributen van objecttype FormulierVerlengingInhuur
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-11-26 15:11:46 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_3FB9B466_D147_42d7_99D1_2D14A007D16C |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_3FB9B466\_D147\_42d7\_99D1\_2D14A007D16C |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Gunning |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-70e40543-6a99-433d-8a01-f4273e308410](https://gemmaonline.nl/index.php/GEMMA/id-70e40543-6a99-433d-8a01-f4273e308410) |
-    | gemma_definitie | 
-> Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding
-> Of voor levering personeel |
+    | gemma_definitie | Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding<br>Of voor levering personeel |
     | gemma_toelichting |  |
     
 
@@ -476,6 +485,7 @@ Attributen van objecttype Gunning
 > Standaard indeling om de werken, diensten en leveringen die de aanbestedende dienst helpt bij het structureren van haar uitgaven. Samenhangende leveringen, diensten en producten zijn hierin gegroepeerd.
 
 ??? info "Kenmerken Model Inkooppakket"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Inkooppakket |
@@ -484,10 +494,10 @@ Attributen van objecttype Gunning
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2020-11-12 16:59:28 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_170AF8F5_8952_407a_91C4_EAF910DE3304 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_170AF8F5\_8952\_407a\_91C4\_EAF910DE3304 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -513,6 +523,7 @@ Attributen van objecttype Inkooppakket
 > Inschrijving op een nationale of Europese aanbesteding
 
 ??? info "Kenmerken Model Inschrijving"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Inschrijving |
@@ -520,11 +531,11 @@ Attributen van objecttype Inkooppakket
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-11-26 15:11:11 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_2902E8D6_FF16_45d6_A0A4_47E2857D2D19 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_2902E8D6\_FF16\_45d6\_A0A4\_47E2857D2D19 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Inschrijving |
@@ -550,6 +561,7 @@ Attributen van objecttype Inschrijving
 > Iemand die een bepaalde baan of functie wil
 
 ??? info "Kenmerken Model Kandidaat"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Kandidaat |
@@ -557,11 +569,11 @@ Attributen van objecttype Inschrijving
     | synoniemen | Gegadigde |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.4 |
+    | author | Arjen Brienen |
+    | version | 1.10.0 |
     | created | 2019-11-27 10:37:40 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_75B4E818_5ECD_45c5_98F9_66F57FC6117E |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_75B4E818\_5ECD\_45c5\_98F9\_66F57FC6117E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Kandidaat |
@@ -585,6 +597,7 @@ Attributen van objecttype Kandidaat
 > Kwalifificatie voor een nationale of europese aanbesteding
 
 ??? info "Kenmerken Model Kwalificatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Kwalificatie |
@@ -592,11 +605,11 @@ Attributen van objecttype Kandidaat
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-11-26 15:10:32 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_AB2AED85_D2B0_45cf_9B1F_C6005E894494 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_AB2AED85\_D2B0\_45cf\_9B1F\_C6005E894494 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -621,6 +634,7 @@ Attributen van objecttype Kwalificatie
 > Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie
 
 ??? info "Kenmerken Model Leverancier"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Leverancier |
@@ -629,10 +643,10 @@ Attributen van objecttype Kwalificatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-05-29 13:54:06 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_EA7FE08E_34F7_45d2_BE2E_E4E3B8333BF3 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_EA7FE08E\_34F7\_45d2\_BE2E\_E4E3B8333BF3 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Leverancier |
@@ -657,6 +671,7 @@ Attributen van objecttype Leverancier
 > Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs.
 
 ??? info "Kenmerken Model Offerte"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Offerte |
@@ -664,11 +679,11 @@ Attributen van objecttype Leverancier
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-11-27 13:29:18 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_BF21FFA3_3EA6_410a_BC65_7BE5547646B6 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_BF21FFA3\_3EA6\_410a\_BC65\_7BE5547646B6 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Offerte |
@@ -695,6 +710,7 @@ Attributen van objecttype Offerte
 > Aanbesteding bij inschrijving
 
 ??? info "Kenmerken Model Offerteaanvraag"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Offerteaanvraag |
@@ -702,11 +718,11 @@ Attributen van objecttype Offerte
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-11-26 15:22:25 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_1EF1AC66_9563_4cdd_AE78_0878D651907A |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_1EF1AC66\_9563\_4cdd\_AE78\_0878D651907A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Offerteaanvraag |
@@ -733,6 +749,7 @@ Attributen van objecttype Offerteaanvraag
 > Gebaseerd op het procedureoverzicht inkoop. Hierin kan de tabel met drempelbedragen en bijbehorende procedures worden opgeslagen
 
 ??? info "Kenmerken Model SelectietabelAanbesteding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SelectietabelAanbesteding |
@@ -740,11 +757,11 @@ Attributen van objecttype Offerteaanvraag
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-11-18 17:33:00 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_B2BD6C5B_460E_4f2a_9B78_3E101DAD8D6B |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_B2BD6C5B\_460E\_4f2a\_9B78\_3E101DAD8D6B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -772,6 +789,7 @@ Attributen van objecttype SelectietabelAanbesteding
 > Formulier voor het starten van een aanbeseding
 
 ??? info "Kenmerken Model StartformulierAanbesteden"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | StartformulierAanbesteden |
@@ -779,11 +797,11 @@ Attributen van objecttype SelectietabelAanbesteding
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2019-11-18 15:32:13 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_7694A657_22D8_4b00_AAE2_A78EF014B43A |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_7694A657\_22D8\_4b00\_AAE2\_A78EF014B43A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -809,11 +827,7 @@ Attributen van objecttype StartformulierAanbesteden
 | toelichtingAanvullendeOpdracht | text | Zijn er mogelijk nog aanvullende of gerelateerde opdrachten, die je ook wilt verstrekken aan de beoogde opdrachtnemer? |
 | beoogdeLooptijd | int | Beoogde looptijd in jaren |
 | beoogdeTotaleOpdrachtwaarde | Bedrag |  |
-| indicatieBeoogdeAanbestedingOnderhands | Boolean | 
-> Welke aanbestedingsprocedure ben je voornemens te volgen?
->
-> 1. 1-op-1 (enkelvoudig onderhands) of 3 tot 5 offertes (meervoudig onderhands)
-> 2. Nationale of Europese aanbesteding |
+| indicatieBeoogdeAanbestedingOnderhands | Boolean | Welke aanbestedingsprocedure ben je voornemens te volgen?<br>1. 1-op-1 (enkelvoudig onderhands) of 3 tot 5 offertes (meervoudig onderhands)<br>2. Nationale of Europese aanbesteding |
 | indicatieBeoogdeProcKomtOvereen | boolean | Komt - op basis van de hierboven genoemde totale opdrachtwaarde - de beoogde aanbestedings-procedure overeen met de voorgeschreven procedure uit het Procedure-overzicht en/of het 'groene' gedeelte in de kleurentabel uit de gids proportionaliteit? |
 
 
@@ -824,6 +838,7 @@ Attributen van objecttype StartformulierAanbesteden
 > Een verzoek om iets bij te wonen.
 
 ??? info "Kenmerken Model Uitnodiging"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Uitnodiging |
@@ -831,11 +846,11 @@ Attributen van objecttype StartformulierAanbesteden
     | synoniemen | Invitatie |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.4 |
+    | author | Arjen Brienen |
+    | version | 1.10.0 |
     | created | 2019-11-27 14:27:00 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_BB182A6F_6935_4702_ABEA_B96E32A40B02 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_BB182A6F\_6935\_4702\_ABEA\_B96E32A40B02 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Uitnodiging |
@@ -875,6 +890,7 @@ Het enumeratie Aanbestedingsoort kent de volgende waarden:
 De enumeratie Aanbestedingsoort heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Aanbestedingsoort"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Aanbestedingsoort |
@@ -883,10 +899,10 @@ De enumeratie Aanbestedingsoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:19 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_B8B79BCE_8F87_46f7_BB15_288266799E56 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_B8B79BCE\_8F87\_46f7\_BB15\_288266799E56 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -910,6 +926,7 @@ Het enumeratie Inkooprol kent de volgende waarden:
 De enumeratie Inkooprol heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Inkooprol"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Inkooprol |
@@ -918,10 +935,10 @@ De enumeratie Inkooprol heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:19 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_2C2791CB_EFCA_444f_A95E_F1EF6EE83594 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_2C2791CB\_EFCA\_444f\_A95E\_F1EF6EE83594 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -946,6 +963,7 @@ Het enumeratie Opdrachtcategorie kent de volgende waarden:
 De enumeratie Opdrachtcategorie heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Opdrachtcategorie"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Opdrachtcategorie |
@@ -954,10 +972,10 @@ De enumeratie Opdrachtcategorie heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:19 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_87322382_E60F_4d0e_93B0_6628D3CC964B |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_87322382\_E60F\_4d0e\_93B0\_6628D3CC964B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -981,6 +999,7 @@ Het enumeratie Opdrachtsoort kent de volgende waarden:
 De enumeratie Opdrachtsoort heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Opdrachtsoort"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Opdrachtsoort |
@@ -989,10 +1008,10 @@ De enumeratie Opdrachtsoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:19 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_5D6461E2_0D66_4039_BBF4_B413322EF194 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_5D6461E2\_0D66\_4039\_BBF4\_B413322EF194 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1001,6 +1020,5 @@ De enumeratie Opdrachtsoort heeft de volgende kenmerken:
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
-
 
 

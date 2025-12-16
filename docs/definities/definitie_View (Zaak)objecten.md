@@ -5,6 +5,7 @@
 > Geen definitie
 
 ??? info "Kenmerken Model View (Zaak)objecten"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | View (Zaak)objecten |
@@ -12,11 +13,11 @@
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Debat_E |
+    | author | Debat\_E |
     | version | 1.3 |
     | created | 2011-02-15 15:28:29 |
     | modified | 2024-11-21 08:38:15 |
-    | id | EAPK_984ECE89_6D71_4c5a_B516_5C9C48BA57AA |
+    | id | EAPK\_984ECE89\_6D71\_4c5a\_B516\_5C9C48BA57AA |
     
 
 Het model 'View (Zaak)objecten' kent de volgende objecttypen:
@@ -33,6 +34,7 @@ Het model 'View (Zaak)objecten' kent de volgende objecttypen:
 > Geen Definitie
 
 ??? info "Kenmerken Model RSGB"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | RSGB |
@@ -44,7 +46,7 @@ Het model 'View (Zaak)objecten' kent de volgende objecttypen:
     | version |  |
     | created |  |
     | modified |  |
-    | id | EAID_1C092D44_571B_4903_BE7C_274931EB1A80 |
+    | id | EAID\_1C092D44\_571B\_4903\_BE7C\_274931EB1A80 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -58,7 +60,6 @@ Attributen van objecttype RSGB
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 

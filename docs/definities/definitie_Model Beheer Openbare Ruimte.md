@@ -8,6 +8,7 @@
 > 2. De processen en activiteiten gericht op het onderhouden, inrichten en beheren van deze objecten."
 
 ??? info "Kenmerken Model Model Beheer Openbare Ruimte"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Beheer Openbare Ruimte |
@@ -19,7 +20,7 @@
     | version | 1.1 |
     | created | 2018-09-12 14:11:31 |
     | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_18DA1C0F_39A8_419a_B10A_D939009CC0C2 |
+    | id | EAPK\_18DA1C0F\_39A8\_419a\_B10A\_D939009CC0C2 |
     
 
 Het model 'Model Beheer Openbare Ruimte' kent de volgende objecttypen:
@@ -59,6 +60,7 @@ Het model 'Model Beheer Openbare Ruimte' kent de volgende objecttypen:
 > Kleinst mogelijke eenheid van werk die zinvol onderscheiden kan worden, uitgevoerd door een persoon of machine op 1 plek op 1 moment.
 
 ??? info "Kenmerken Model Actie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Actie |
@@ -67,10 +69,10 @@ Het model 'Model Beheer Openbare Ruimte' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-11-06 16:52:08 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_DDE9A5B3_1E56_4058_8D12_A774F43B5D26 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_DDE9A5B3\_1E56\_4058\_8D12\_A774F43B5D26 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -93,6 +95,7 @@ Attributen van objecttype Actie
 > Het verspreidingsgebied van een een soort, een levensgemeenschap of een biotooptype.
 
 ??? info "Kenmerken Model Areaal"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Areaal |
@@ -101,10 +104,10 @@ Attributen van objecttype Actie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2018-11-07 17:27:26 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_9507EE24_6397_4a9c_B478_8C2899EC0BFB |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_9507EE24\_6397\_4a9c\_B478\_8C2899EC0BFB |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Areaal |
@@ -128,6 +131,7 @@ Attributen van objecttype Areaal
 > BOR-MELD is een CROW-standaard voor het vastleggen van meldingen.
 
 ??? info "Kenmerken Model CROW-Melding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | CROW-Melding |
@@ -136,10 +140,10 @@ Attributen van objecttype Areaal
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2018-11-07 16:58:24 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_4A8E659E_F088_446d_8614_BA31B106A417 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_4A8E659E\_F088\_446d\_8614\_BA31B106A417 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -163,6 +167,7 @@ Attributen van objecttype CROW-Melding
 > Geen Definitie
 
 ??? info "Kenmerken Model Deelplan/Veld"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Deelplan/Veld |
@@ -171,10 +176,10 @@ Attributen van objecttype CROW-Melding
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.2 |
+    | version | 1.8.0 |
     | created | 2023-09-27 09:29:15 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_EC994E7D_E6D1_4243_BA96_38DB7454ECEF |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_EC994E7D\_E6D1\_4243\_BA96\_38DB7454ECEF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -197,6 +202,7 @@ Attributen van objecttype Deelplan/Veld
 > Geen Definitie
 
 ??? info "Kenmerken Model Fase/Oplevering"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Fase/Oplevering |
@@ -205,10 +211,10 @@ Attributen van objecttype Deelplan/Veld
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.2 |
+    | version | 1.8.0 |
     | created | 2023-09-27 09:31:19 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_7FA358CC_1160_490b_A543_D5ED69A558D2 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_7FA358CC\_1160\_490b\_A543\_D5ED69A558D2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -231,6 +237,7 @@ Attributen van objecttype Fase/Oplevering
 > Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011]
 
 ??? info "Kenmerken Model Geo-Object"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Geo-Object |
@@ -239,10 +246,10 @@ Attributen van objecttype Fase/Oplevering
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-09-19 11:50:45 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_05B355EF_39EA_4bfb_B1F3_AB31841C986E |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_05B355EF\_39EA\_4bfb\_B1F3\_AB31841C986E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | GEOObject |
@@ -269,6 +276,7 @@ Attributen van objecttype Geo-Object
 > Beheerder van grondgrondbeheer., oplossing voor duurzaam landbeheer en voedselproductie
 
 ??? info "Kenmerken Model Grondbeheerder"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Grondbeheerder |
@@ -277,10 +285,10 @@ Attributen van objecttype Geo-Object
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-11-15 15:41:01 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_B53EC85A_C731_4fb6_8379_7D11802273B2 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_B53EC85A\_C731\_4fb6\_8379\_7D11802273B2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Grondbeheerder |
@@ -303,6 +311,7 @@ Attributen van objecttype Grondbeheerder
 > het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen.
 
 ??? info "Kenmerken Model Inspectie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Inspectie |
@@ -311,10 +320,10 @@ Attributen van objecttype Grondbeheerder
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-11-06 16:50:09 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_C73E52A5_F66E_47f0_8DEA_467A54F64DD2 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_C73E52A5\_F66E\_47f0\_8DEA\_467A54F64DD2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -337,6 +346,7 @@ Attributen van objecttype Inspectie
 > Wijziging in de kadatrale registratie
 
 ??? info "Kenmerken Model KadastraleMutatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | KadastraleMutatie |
@@ -345,10 +355,10 @@ Attributen van objecttype Inspectie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-12-06 16:14:13 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_5DC6EA71_272C_4392_BA5E_5C97DC3CA9D9 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_5DC6EA71\_272C\_4392\_BA5E\_5C97DC3CA9D9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Kadastralemutatie |
@@ -371,6 +381,7 @@ Attributen van objecttype KadastraleMutatie
 > zie https://www.crow.nl/publicaties/kwaliteitscatalogus-openbare-ruimte-2018
 
 ??? info "Kenmerken Model Kwaliteitscatalogus Openbare Ruimte"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Kwaliteitscatalogus Openbare Ruimte |
@@ -379,10 +390,10 @@ Attributen van objecttype KadastraleMutatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-11-07 16:35:55 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_2C6C809D_28B0_4037_BBFA_3E438A2DF81D |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_2C6C809D\_28B0\_4037\_BBFA\_3E438A2DF81D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | KwaliteitscatalogusOpenbareRuimte |
@@ -405,6 +416,7 @@ Attributen van objecttype Kwaliteitscatalogus Openbare Ruimte
 > Aanduiding van de hoedanigheid van uitvoering, bewerking en representativiteit van een meting, volgens een overeengekomen waarderingsschaal.
 
 ??? info "Kenmerken Model Kwaliteitskenmerken"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Kwaliteitskenmerken |
@@ -413,10 +425,10 @@ Attributen van objecttype Kwaliteitscatalogus Openbare Ruimte
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-09-19 11:58:59 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_0754CC1D_48C7_4275_B909_BFB747BCFCD8 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_0754CC1D\_48C7\_4275\_B909\_BFB747BCFCD8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Kwaliteitskenmerken |
@@ -439,6 +451,7 @@ Attributen van objecttype Kwaliteitskenmerken
 > Registratie waarin gebeurtenissen worden bijgehouden.
 
 ??? info "Kenmerken Model Logboek"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Logboek |
@@ -447,10 +460,10 @@ Attributen van objecttype Kwaliteitskenmerken
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-11-06 16:48:26 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_B1D48EFB_81E7_420d_A080_5B4C01798FFB |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_B1D48EFB\_81E7\_420d\_A080\_5B4C01798FFB |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Logboek |
@@ -473,6 +486,7 @@ Attributen van objecttype Logboek
 > De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend
 
 ??? info "Kenmerken Model Melding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Melding |
@@ -481,10 +495,10 @@ Attributen van objecttype Logboek
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-11-06 16:48:18 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_C6094F79_D8EA_4763_90DF_4E30EFABA1FA |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_C6094F79\_D8EA\_4763\_90DF\_4E30EFABA1FA |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Melding |
@@ -518,6 +532,7 @@ Attributen van objecttype Melding
 > Aangifte vna een ongeval
 
 ??? info "Kenmerken Model MeldingOngeval"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | MeldingOngeval |
@@ -526,10 +541,10 @@ Attributen van objecttype Melding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-11-06 16:49:06 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_A888F22C_45E9_4494_BA66_533FB1F6C37E |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_A888F22C\_45E9\_4494\_BA66\_533FB1F6C37E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -552,6 +567,7 @@ Attributen van objecttype MeldingOngeval
 > Meldingsproces rondom werkzaamheden aan kabels en leidingen.
 
 ??? info "Kenmerken Model MOOR-melding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | MOOR-melding |
@@ -560,10 +576,10 @@ Attributen van objecttype MeldingOngeval
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-11-15 15:09:50 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_30D5F6E6_DE8D_46b6_AC8A_6CA1391ADFF7 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_30D5F6E6\_DE8D\_46b6\_AC8A\_6CA1391ADFF7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | MOORMelding |
@@ -596,6 +612,7 @@ Attributen van objecttype MOOR-melding
 > Vergunning als bedoeld in afdeling 5.1 van de Omgevingswet
 
 ??? info "Kenmerken Model Omgevingsvergunning"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Omgevingsvergunning |
@@ -604,10 +621,10 @@ Attributen van objecttype MOOR-melding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-11-13 15:56:08 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_053B594A_5E45_4413_9339_D2D026ECCE20 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_053B594A\_5E45\_4413\_9339\_D2D026ECCE20 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Omgevingsvergunning |
@@ -630,6 +647,7 @@ Attributen van objecttype Omgevingsvergunning
 > Maatregelen om de functionele kwaliteit in stand te houden of te herstellen en dus de levensduur van een (object)onderdeel te realiseren c.q. te verlengen.
 
 ??? info "Kenmerken Model Onderhoud"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Onderhoud |
@@ -638,10 +656,10 @@ Attributen van objecttype Omgevingsvergunning
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-12-05 14:33:05 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_960BB2E0_C17F_4c89_90DD_3006CC5F0F75 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_960BB2E0\_C17F\_4c89\_90DD\_3006CC5F0F75 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Onderhoud |
@@ -664,6 +682,7 @@ Attributen van objecttype Onderhoud
 > Vorm van wegwerkzaamheid
 
 ??? info "Kenmerken Model Opbreking"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Opbreking |
@@ -672,10 +691,10 @@ Attributen van objecttype Onderhoud
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-12-05 14:55:35 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_1EBA6DEB_268D_4339_86C9_7C1BA218A7A0 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_1EBA6DEB\_268D\_4339\_86C9\_7C1BA218A7A0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Opbreking |
@@ -698,6 +717,7 @@ Attributen van objecttype Opbreking
 > Officieel op papier gesteld verslag met betrekking tot heen MOOR-melding
 
 ??? info "Kenmerken Model Proces-verbaal-MOOR-melding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Proces-verbaal-MOOR-melding |
@@ -706,10 +726,10 @@ Attributen van objecttype Opbreking
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-11-15 15:14:08 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_2587938E_CF7F_499b_BB21_9CB8BBCC1DD2 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_2587938E\_CF7F\_499b\_BB21\_9CB8BBCC1DD2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | ProcesVerbaalMoorMelding |
@@ -735,6 +755,7 @@ Attributen van objecttype Proces-verbaal-MOOR-melding
 > Activiteit om te controleren of de opdrachtnemer aan de afspraken voldoet.
 
 ??? info "Kenmerken Model Schouwronde"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Schouwronde |
@@ -743,10 +764,10 @@ Attributen van objecttype Proces-verbaal-MOOR-melding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-09-19 11:36:25 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_B011D584_1E66_4a21_A9C4_C922A8763AB2 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_B011D584\_1E66\_4a21\_A9C4\_C922A8763AB2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Schouwronde |
@@ -769,6 +790,7 @@ Attributen van objecttype Schouwronde
 > Verlies van de mogelijkheid om volgens een specificatie te werken of om het vereiste resultaat te leveren.
 
 ??? info "Kenmerken Model Storing"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Storing |
@@ -777,10 +799,10 @@ Attributen van objecttype Schouwronde
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-12-10 22:05:13 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_0EF67A8B_AEBE_4a00_B1EF_2EFD0DCC9F5D |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_0EF67A8B\_AEBE\_4a00\_B1EF\_2EFD0DCC9F5D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -803,6 +825,7 @@ Attributen van objecttype Storing
 > Een samenhangende set activiteiten.
 
 ??? info "Kenmerken Model Taak"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Taak |
@@ -811,10 +834,10 @@ Attributen van objecttype Storing
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-11-07 09:52:55 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_0621D6BE_A680_4aad_890D_78684F2266B0 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_0621D6BE\_A680\_4aad\_890D\_78684F2266B0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -837,6 +860,7 @@ Attributen van objecttype Taak
 > Degene die op de bouwlocatie van een project de leiding heeft met betrekking tot de graafwerkzaamheden
 
 ??? info "Kenmerken Model Uitvoerder Graafwerkzaamheden"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Uitvoerder Graafwerkzaamheden |
@@ -845,10 +869,10 @@ Attributen van objecttype Taak
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-11-15 15:15:53 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_BBE1DC54_1482_4650_BB7F_930DDB823E09 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_BBE1DC54\_1482\_4650\_BB7F\_930DDB823E09 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | UitvoerderGraafwerkzaamheden |
@@ -871,6 +895,7 @@ Attributen van objecttype Uitvoerder Graafwerkzaamheden
 > Lichten die aangeven dat je moet stoppen, dat je mag doorrijden, of die je waarschuwen voor gevaar.
 
 ??? info "Kenmerken Model Verkeerslicht"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verkeerslicht |
@@ -879,10 +904,10 @@ Attributen van objecttype Uitvoerder Graafwerkzaamheden
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-12-05 16:01:25 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_620FF102_974C_43a6_A6A0_79BB71E8580D |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_620FF102\_974C\_43a6\_A6A0\_79BB71E8580D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -920,6 +945,7 @@ Het enumeratie CROW-Kwaliteitsniveaus kent de volgende waarden:
 De enumeratie CROW-Kwaliteitsniveaus heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model CROW-Kwaliteitsniveaus"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | CROW-Kwaliteitsniveaus |
@@ -928,10 +954,10 @@ De enumeratie CROW-Kwaliteitsniveaus heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:10 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_503ACC2A_C721_4058_A44A_13126A0FC2DA |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_503ACC2A\_C721\_4058\_A44A\_13126A0FC2DA |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -958,6 +984,7 @@ Het enumeratie Energielabel kent de volgende waarden:
 De enumeratie Energielabel heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Energielabel"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Energielabel |
@@ -966,10 +993,10 @@ De enumeratie Energielabel heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:10 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_CC21861B_1CE6_4271_AF0C_CA68FEF0C880 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_CC21861B\_1CE6\_4271\_AF0C\_CA68FEF0C880 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -997,6 +1024,7 @@ Het enumeratie Oppervlakte Woning kent de volgende waarden:
 De enumeratie Oppervlakte Woning heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Oppervlakte Woning"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Oppervlakte Woning |
@@ -1005,10 +1033,10 @@ De enumeratie Oppervlakte Woning heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:10 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_5110C4A5_4771_4283_ADAB_04F9CB2D27BF |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_5110C4A5\_4771\_4283\_ADAB\_04F9CB2D27BF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1017,6 +1045,5 @@ De enumeratie Oppervlakte Woning heeft de volgende kenmerken:
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
-
 
 

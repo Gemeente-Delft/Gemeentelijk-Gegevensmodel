@@ -5,6 +5,7 @@
 > Geen definitie
 
 ??? info "Kenmerken Model Groepattribuutsoort"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Groepattribuutsoort |
@@ -12,11 +13,11 @@
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
+    | author | mante\_h |
     | version | 1.3 |
     | created | 2018-03-21 15:46:54 |
     | modified | 2024-11-21 08:38:15 |
-    | id | EAPK_6B55D7BF_696E_486b_B195_D6720BEC4EA5 |
+    | id | EAPK\_6B55D7BF\_696E\_486b\_B195\_D6720BEC4EA5 |
     
 
 Het model 'Groepattribuutsoort' kent de volgende objecttypen:
@@ -66,6 +67,7 @@ Het model 'Groepattribuutsoort' kent de volgende objecttypen:
 > De adresaanduiding van het WOZ-OBJECT
 
 ??? info "Kenmerken Model Adresaanduiding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Adresaanduiding |
@@ -74,10 +76,10 @@ Het model 'Groepattribuutsoort' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-05-22 12:11:18 |
-    | modified | 2025-03-26 16:14:53 |
-    | id | EAID_C14C1D0E_2EE3_4d79_B7AB_BC0B7686FEF4 |
+    | modified | 2025-12-16 10:28:35 |
+    | id | EAID\_C14C1D0E\_2EE3\_4d79\_B7AB\_BC0B7686FEF4 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -107,18 +109,19 @@ Attributen van objecttype Adresaanduiding
 > De gegevens over het buitenlands correspondentie (-post)adres in het buitenland
 
 ??? info "Kenmerken Model CorrespondentieadresBuitenland"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | CorrespondentieadresBuitenland |
-    | toelichting | #NOTES# Een correspondentie adres kan een lokatie adres zijn (oftewel een adres van een fysiek als zondanig aangeduide lokatie) of een postadres  in het buitenland. |
+    | toelichting | #NOTES# Een correspondentie adres kan een lokatie adres zijn (oftewel een adres van een fysiek als zondanig aangeduide lokatie) of een postadres in het buitenland.#NOTES# Een correspondentie adres kan een lokatie adres zijn (oftewel een adres van een fysiek als zondanig aangeduide lokatie) of een postadres in het buitenland.#NOTES# Een correspondentie adres kan een lokatie adres zijn (oftewel een adres van een fysiek als zondanig aangeduide lokatie) of een postadres in het buitenland. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2015-10-05 08:15:25 |
-    | modified | 2025-03-26 16:14:53 |
-    | id | EAID_CE58213C_7904_4c04_964C_8CE34C4443DF |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_CE58213C\_7904\_4c04\_964C\_8CE34C4443DF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -148,18 +151,19 @@ Attributen van objecttype CorrespondentieadresBuitenland
 > Gegevens over de geboorte van de INGESCHREVEN NATUURLIJK PERSOON.
 
 ??? info "Kenmerken Model GeboorteIngeschrevenNatuurlijkPersoon"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | GeboorteIngeschrevenNatuurlijkPersoon |
-    | toelichting | #NOTES#.Zie verder de toelichting in de BRP. |
+    | toelichting | #NOTES#.Zie verder de toelichting in de BRP.#NOTES#.Zie verder de toelichting in de BRP.#NOTES#.Zie verder de toelichting in de BRP. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Debat_E |
-    | version | 1.5 |
+    | author | Debat\_E |
+    | version | 1.12.0 |
     | created | 2011-02-04 07:43:56 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_C9DD308F_7EA7_4c1a_BC7D_68077692C113 |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_C9DD308F\_7EA7\_4c1a\_BC7D\_68077692C113 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -173,7 +177,7 @@ Attributen van objecttype GeboorteIngeschrevenNatuurlijkPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumGeboorte |  | Datum waarop de NATUURLIJK PERSOON geboren is. |
+| datumGeboorte | Datum | Datum waarop de NATUURLIJK PERSOON geboren is. |
 | gemeenteGeboorte | AN80 | Gemeente waar de NATUURLIJK PERSOON geboren is. |
 | buitenlandsePlaatsGeboorte | AN40 | Buitenlandse plaats waar de NATUURLIJK PERSOON geboren is. |
 | buitenlandseRegioGeboorte | AN35 | Buitenlandse regio waar de NATUURLIJK PERSOON geboren is. |
@@ -188,6 +192,7 @@ Attributen van objecttype GeboorteIngeschrevenNatuurlijkPersoon
 > Gegevens over de geboorte van de ingeschreven persoon.
 
 ??? info "Kenmerken Model GeboorteIngeschrevenPersoon"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | GeboorteIngeschrevenPersoon |
@@ -195,11 +200,11 @@ Attributen van objecttype GeboorteIngeschrevenNatuurlijkPersoon
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Debat_E |
-    | version | 1.5 |
+    | author | Debat\_E |
+    | version | 1.11.0 |
     | created | 2018-03-21 15:46:57 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_4904DACB_3C13_43c1_BA00_137D9BFA3856 |
+    | modified | 2025-12-16 10:28:35 |
+    | id | EAID\_4904DACB\_3C13\_43c1\_BA00\_137D9BFA3856 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -213,7 +218,7 @@ Attributen van objecttype GeboorteIngeschrevenPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumGeboorte |  | De datum waarop de ingeschreven persoon is geboren. |
+| datumGeboorte | Datum | De datum waarop de ingeschreven persoon is geboren. |
 | geboorteplaats |  | De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de ingeschreven persoon is geboren. |
 | geboorteland |  | Het LAND waar de INGESCHREVEN PERSOON is geboren. |
 
@@ -225,6 +230,7 @@ Attributen van objecttype GeboorteIngeschrevenPersoon
 > {nog niet in NHR uitgewerkt}
 
 ??? info "Kenmerken Model HandelsnamenMaatschappelijkeActiviteit"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | HandelsnamenMaatschappelijkeActiviteit |
@@ -232,11 +238,11 @@ Attributen van objecttype GeboorteIngeschrevenPersoon
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.11.0 |
     | created | 2018-03-21 15:46:57 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_EAF23F0A_1175_465d_A889_7396B2E18967 |
+    | modified | 2025-12-16 10:28:35 |
+    | id | EAID\_EAF23F0A\_1175\_465d\_A889\_7396B2E18967 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -262,6 +268,7 @@ Attributen van objecttype HandelsnamenMaatschappelijkeActiviteit
 > {nog niet in NHR uitgewerkt}
 
 ??? info "Kenmerken Model HandelsnamenVestiging"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | HandelsnamenVestiging |
@@ -269,11 +276,11 @@ Attributen van objecttype HandelsnamenMaatschappelijkeActiviteit
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.11.0 |
     | created | 2018-03-21 15:46:57 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_FDD9A2C7_930E_4646_B1FE_81060430DC55 |
+    | modified | 2025-12-16 10:28:35 |
+    | id | EAID\_FDD9A2C7\_930E\_4646\_B1FE\_81060430DC55 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -299,6 +306,7 @@ Attributen van objecttype HandelsnamenVestiging
 > Het in een ter inschrijving aangeboden stuk vermelde bedrag, waarvoor 1 of meer onroerende zaken zijn verkregen.
 
 ??? info "Kenmerken Model KoopsomKadastraleOnroerendeZaak"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | KoopsomKadastraleOnroerendeZaak |
@@ -306,11 +314,11 @@ Attributen van objecttype HandelsnamenVestiging
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-07-13 23:32:13 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_B1CB6F3A_A1F5_43f2_B077_02AD7441B1E3 |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_B1CB6F3A\_A1F5\_43f2\_B077\_02AD7441B1E3 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -325,7 +333,7 @@ Attributen van objecttype KoopsomKadastraleOnroerendeZaak
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | koopsom |  | Bedrag waarvoor belangrijkste recht van onroerende zaak is gekocht |
-| datumTransactie |  | Datum en tijdstip waarop een ter inschrijving aangeboden stuk, waarmee één of meer onroerende zaken zijn overgedragen, is ondertekend door de opsteller van het stuk. |
+| datumTransactie | Datum | Datum en tijdstip waarop een ter inschrijving aangeboden stuk, waarmee één of meer onroerende zaken zijn overgedragen, is ondertekend door de opsteller van het stuk. |
 
 
 
@@ -335,22 +343,19 @@ Attributen van objecttype KoopsomKadastraleOnroerendeZaak
 > Deze wordt gebruikt om één of meer locatieaanduiding(en) van een onroerende zaak weer te geven.
 
 ??? info "Kenmerken Model LocatieKadastraleOnroerendeZaak"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | LocatieKadastraleOnroerendeZaak |
-    | toelichting | 
-> #NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:
-> Locatie-omschrijving
-> Cultuur bebouwd
-> De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK. |
+    | toelichting | #NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Locatie-omschrijving<br>Cultuur bebouwd<br>De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Locatie-omschrijving<br>Cultuur bebouwd<br>De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Locatie-omschrijving<br>Cultuur bebouwd<br>De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-07-13 23:18:21 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_1ECAEB3C_EBE2_4afb_8D34_6AFEEFDF3FCA |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_1ECAEB3C\_EBE2\_4afb\_8D34\_6AFEEFDF3FCA |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -375,18 +380,19 @@ Attributen van objecttype LocatieKadastraleOnroerendeZaak
 > Om gegevens vast te leggen over immigratie en emigratie.
 
 ??? info "Kenmerken Model MigratieIngeschrevenNatuurlijkPersoon"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | MigratieIngeschrevenNatuurlijkPersoon |
-    | toelichting | #NOTES# |
+    | toelichting | #NOTES# #NOTES# #NOTES# |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Haas_R |
-    | version | 3.5 |
+    | author | Haas\_R |
+    | version | 3.12.0 |
     | created | 2015-01-25 18:59:59 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_21BC7953_0237_44c7_ACA5_8A8BC7AE96AD |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_21BC7953\_0237\_44c7\_ACA5\_8A8BC7AE96AD |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -412,6 +418,7 @@ Attributen van objecttype MigratieIngeschrevenNatuurlijkPersoon
 > De naamgegevens waarmee de persoon heeft aangegeven aangeschreven te willen worden
 
 ??? info "Kenmerken Model NaamAanschrijvingNatuurlijkPersoon"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | NaamAanschrijvingNatuurlijkPersoon |
@@ -419,11 +426,11 @@ Attributen van objecttype MigratieIngeschrevenNatuurlijkPersoon
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.11.0 |
     | created | 2018-03-21 15:46:56 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_1F5046AA_A7C3_4146_9C7C_E80AC8F7A2FF |
+    | modified | 2025-12-16 10:28:35 |
+    | id | EAID\_1F5046AA\_A7C3\_4146\_9C7C\_E80AC8F7A2FF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -450,18 +457,19 @@ Attributen van objecttype NaamAanschrijvingNatuurlijkPersoon
 > De naamgegevens waarmee de persoon heeft aangegeven aangeschreven te willen worden
 
 ??? info "Kenmerken Model NaamgebruikNatuurlijkPersoon"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | NaamgebruikNatuurlijkPersoon |
-    | toelichting | #NOTES# |
+    | toelichting | #NOTES# #NOTES# #NOTES# |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2011-02-04 11:48:51 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_02601AC0_9F85_47e3_82AF_7E8D860559F7 |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_02601AC0\_9F85\_47e3\_82AF\_7E8D860559F7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -487,6 +495,7 @@ Attributen van objecttype NaamgebruikNatuurlijkPersoon
 > Gegevens over de naam van de natuurlijk persoon
 
 ??? info "Kenmerken Model NaamNatuurlijkPersoon"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | NaamNatuurlijkPersoon |
@@ -494,11 +503,11 @@ Attributen van objecttype NaamgebruikNatuurlijkPersoon
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.11.0 |
     | created | 2018-03-21 15:46:57 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_47AEC100_56C6_4450_B6A2_02C7E420D5EC |
+    | modified | 2025-12-16 10:28:35 |
+    | id | EAID\_47AEC100\_56C6\_4450\_B6A2\_02C7E420D5EC |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -512,9 +521,7 @@ Attributen van objecttype NaamNatuurlijkPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| voornamen |  | 
-> De verzameling namen die, gescheiden door spaties, aan de
-> geslachtsnaam voorafgaat.. |
+| voornamen | AN200 | De verzameling namen die, gescheiden door spaties, aan de<br>geslachtsnaam voorafgaat.. |
 | geslachtsnaam |  | De (geslachts)naam waarvan de eventueel aanwezige voorvoegsels en adellijke titel/predikaat zijn afgesplitst. |
 | voorvoegselGeslachtsnaam |  | Dat deel van de geslachtsnaam dat voorkomt in GBA Tabel 36, Voorvoegseltabel en, gescheiden door een spatie, vooraf gaat aan de rest van de geslachtsnaam. |
 | adellijkeTitelOfPredikaat | AN10 | Een omschrijving die aangeeft welke titel of welk predikaat behoort tot de naam (bij adellijke titel geslachtsnaam, bij predikaat voornaam). |
@@ -527,18 +534,19 @@ Attributen van objecttype NaamNatuurlijkPersoon
 > Gegevens over de nationaliteit.
 
 ??? info "Kenmerken Model NationaliteitIngeschrevenNatuurlijkPersoon"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | NationaliteitIngeschrevenNatuurlijkPersoon |
-    | toelichting | #NOTES#Zie verder de toelichting in de BRP. |
+    | toelichting | #NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-07-13 14:00:34 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_261B509E_6879_4475_B5F8_77E8428816CE |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_261B509E\_6879\_4475\_B5F8\_77E8428816CE |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -565,6 +573,7 @@ Attributen van objecttype NationaliteitIngeschrevenNatuurlijkPersoon
 > Gegevens over de nationaliteit.
 
 ??? info "Kenmerken Model NederlandseNationaliteitIngeschrevenPersoon"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | NederlandseNationaliteitIngeschrevenPersoon |
@@ -572,11 +581,11 @@ Attributen van objecttype NationaliteitIngeschrevenNatuurlijkPersoon
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.11.0 |
     | created | 2018-03-21 15:46:57 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_BA5F2281_466D_4c69_9EB8_D10614C5CD8E |
+    | modified | 2025-12-16 10:28:35 |
+    | id | EAID\_BA5F2281\_466D\_4c69\_9EB8\_D10614C5CD8E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -603,18 +612,19 @@ Attributen van objecttype NederlandseNationaliteitIngeschrevenPersoon
 > Gegevens over het ontbonden huwelijk of geregistreerd partnerschap.
 
 ??? info "Kenmerken Model OntbindingHuwelijk/geregistreerdPartnerschap"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OntbindingHuwelijk/geregistreerdPartnerschap |
-    | toelichting | #NOTES# |
+    | toelichting | #NOTES# #NOTES# #NOTES# |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-07-13 12:25:59 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_10E7F112_407D_4099_9CC7_F6B53DD094BF |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_10E7F112\_407D\_4099\_9CC7\_F6B53DD094BF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -629,7 +639,7 @@ Attributen van objecttype OntbindingHuwelijk/geregistreerdPartnerschap
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | redenEinde | Enumeratie: "redenEindeRelatie" | De reden van ontbinding huwelijk, dan wel beëindiging geregistreerd partnerschap. |
-| datumEinde |  | De datum waarop het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd. |
+| datumEinde | Datum | De datum waarop het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd. |
 | gemeenteEinde | AN80 | Gemeente waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd. |
 | buitenlandsePlaatsEinde | AN40 | Buitenlandse plaats waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd. |
 | buitenlandseRegioEinde | AN35 | Buitenlandse regio waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd. |
@@ -644,18 +654,19 @@ Attributen van objecttype OntbindingHuwelijk/geregistreerdPartnerschap
 > Gegevens over het overlijden van de ingeschreven natuurlijk persoon.
 
 ??? info "Kenmerken Model OverlijdenIngeschrevenNatuurlijkPersoon"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OverlijdenIngeschrevenNatuurlijkPersoon |
-    | toelichting | #NOTES#Zie verder de toelichting in de BRP. |
+    | toelichting | #NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Debat_E |
-    | version | 1.5 |
+    | author | Debat\_E |
+    | version | 1.12.0 |
     | created | 2011-02-04 08:57:32 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_26BCBA8B_C96C_4fc1_8CC3_40698E0FB71E |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_26BCBA8B\_C96C\_4fc1\_8CC3\_40698E0FB71E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -669,7 +680,7 @@ Attributen van objecttype OverlijdenIngeschrevenNatuurlijkPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumOverlijden |  | Datum waarop de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
+| datumOverlijden | Datum | Datum waarop de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
 | gemeenteOverlijden | AN80 | Gemeente waar de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
 | buitenlandsePlaatsOverlijden | AN40 | Buitenlandse plaats waar de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
 | buitenlandseRegioOverlijden | AN35 | Buitenlandse regio waar de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
@@ -684,6 +695,7 @@ Attributen van objecttype OverlijdenIngeschrevenNatuurlijkPersoon
 > Gegevens over het overlijden van de ingeschreven persoon.
 
 ??? info "Kenmerken Model OverlijdenIngeschrevenPersoon"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OverlijdenIngeschrevenPersoon |
@@ -691,11 +703,11 @@ Attributen van objecttype OverlijdenIngeschrevenNatuurlijkPersoon
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Debat_E |
-    | version | 1.5 |
+    | author | Debat\_E |
+    | version | 1.11.0 |
     | created | 2018-03-21 15:46:57 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_E4578F75_847E_48ef_A91F_EF8B53AEDEC5 |
+    | modified | 2025-12-16 10:28:35 |
+    | id | EAID\_E4578F75\_847E\_48ef\_A91F\_EF8B53AEDEC5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -709,7 +721,7 @@ Attributen van objecttype OverlijdenIngeschrevenPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumOverlijden |  | De datum van overlijden |
+| datumOverlijden | Datum | De datum van overlijden |
 | overlijdensplaats |  | De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de persoon is overleden |
 | landOverlijden |  | Het LAND waar de INGESCHREVEN PERSOON is overleden. |
 
@@ -721,24 +733,19 @@ Attributen van objecttype OverlijdenIngeschrevenPersoon
 > De gegevens die tezamen een postbusadres of antwoordnummeradres vormen
 
 ??? info "Kenmerken Model Postadres"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Postadres |
-    | toelichting | 
-> #NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:
-> Postadrestype,
-> Postbus- of antwoordnummer,
-> Postadres postcode,
-> en het volgende relatiesoort:
-> SUBJECT heeft postadres dat zich bevindt in WOONPLAATS. |
+    | toelichting | #NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Postadrestype,<br>Postbus- of antwoordnummer,<br>Postadres postcode,<br>en het volgende relatiesoort:<br>SUBJECT heeft postadres dat zich bevindt in WOONPLAATS.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Postadrestype,<br>Postbus- of antwoordnummer,<br>Postadres postcode,<br>en het volgende relatiesoort:<br>SUBJECT heeft postadres dat zich bevindt in WOONPLAATS.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Postadrestype,<br>Postbus- of antwoordnummer,<br>Postadres postcode,<br>en het volgende relatiesoort:<br>SUBJECT heeft postadres dat zich bevindt in WOONPLAATS. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-07-21 17:06:50 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_990C2EBD_AB9B_4f3f_AFF0_18BA11A552DA |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_990C2EBD\_AB9B\_4f3f\_AFF0\_18BA11A552DA |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -764,18 +771,19 @@ Attributen van objecttype Postadres
 > De gegevens inzake de bankrekening waarmee het SUBJECT in de regel financieel communiceert.
 
 ??? info "Kenmerken Model Rekeningnummer"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Rekeningnummer |
-    | toelichting | #NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van één rekeningnummer dat het subject beschouwt als zijn ‘primaire’ rekeningnummer. |
+    | toelichting | #NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van één rekeningnummer dat het subject beschouwt als zijn ‘primaire’ rekeningnummer.<br>#NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van één rekeningnummer dat het subject beschouwt als zijn ‘primaire’ rekeningnummer.<br>#NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van één rekeningnummer dat het subject beschouwt als zijn ‘primaire’ rekeningnummer. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Debat_E |
-    | version | 1.5 |
+    | author | Debat\_E |
+    | version | 1.12.0 |
     | created | 2011-04-07 09:32:24 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_BB4BA421_A7D6_4b33_B64A_49AA82C56242 |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_BB4BA421\_A7D6\_4b33\_B64A\_49AA82C56242 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -789,8 +797,8 @@ Attributen van objecttype Rekeningnummer
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| IBAN | AN34 | Het  internationaal bankrekeningnummer, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel internationaal financieel communiceert. |
-| BIC | AN11 | De unieke code van de bankinstelling waar  het SUBJECT het bankrekeningnummer heeft waarmee het subject in de regel internationaal financieel communiceert. |
+| IBAN | AN34 | Het internationaal bankrekeningnummer, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel internationaal financieel communiceert. |
+| BIC | AN11 | De unieke code van de bankinstelling waar het SUBJECT het bankrekeningnummer heeft waarmee het subject in de regel internationaal financieel communiceert. |
 
 
 
@@ -800,18 +808,19 @@ Attributen van objecttype Rekeningnummer
 > Gegevens over de naam van de NATUURLIJK PERSOON
 
 ??? info "Kenmerken Model SamengesteldeNaamNatuurlijkPersoon"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SamengesteldeNaamNatuurlijkPersoon |
-    | toelichting | #NOTES#Zie de BRP voor verdere toelichting |
+    | toelichting | #NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-07-15 16:01:15 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_61321504_DFA1_4b65_853B_88C0581576F9 |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_61321504\_DFA1\_4b65\_853B\_88C0581576F9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -841,6 +850,7 @@ Attributen van objecttype SamengesteldeNaamNatuurlijkPersoon
 > Aanduiding van de activiteit (en) van een vestiging  conform de Standaard BedrijfsIndeling
 
 ??? info "Kenmerken Model SBIActiviteitVestiging"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SBIActiviteitVestiging |
@@ -848,11 +858,11 @@ Attributen van objecttype SamengesteldeNaamNatuurlijkPersoon
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Debat_E |
-    | version | 1.5 |
+    | author | Debat\_E |
+    | version | 1.12.0 |
     | created | 2011-05-02 08:57:15 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_EAD40DDC_9904_4cde_BE9B_2100268E71B7 |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_EAD40DDC\_9904\_4cde\_BE9B\_2100268E71B7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -877,18 +887,19 @@ Attributen van objecttype SBIActiviteitVestiging
 > Gegevens over het gesloten huwelijk of het aangegane geregistreerd partnerschap.
 
 ??? info "Kenmerken Model SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap |
-    | toelichting | #NOTES# |
+    | toelichting | #NOTES# #NOTES# #NOTES# |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-07-13 09:57:09 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_28A0D7C0_DABF_403b_B263_22F424032A28 |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_28A0D7C0\_DABF\_403b\_B263\_22F424032A28 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -902,7 +913,7 @@ Attributen van objecttype SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumAanvang |  | De datum waarop het huwelijk is gesloten, dan wel het geregistreerd partnerschap is aangegaan. |
+| datumAanvang | Datum | De datum waarop het huwelijk is gesloten, dan wel het geregistreerd partnerschap is aangegaan. |
 | gemeenteAanvang | AN80 | Gemeente waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
 | buitenlandsePlaatsAanvang | AN40 | Buitenlandse plaats waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
 | landOfGebiedAanvang |  | Land of gebied waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
@@ -917,6 +928,7 @@ Attributen van objecttype SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap
 > Gegevens over het soort functioneel gebied.
 
 ??? info "Kenmerken Model SoortFunctioneelGebied"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SoortFunctioneelGebied |
@@ -924,11 +936,11 @@ Attributen van objecttype SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | debat_e |
-    | version | 1.5 |
+    | author | debat\_e |
+    | version | 1.12.0 |
     | created | 2013-05-24 14:48:27 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_C2D0F78A_D6FC_4330_B78C_4F4B34EE1349 |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_C2D0F78A\_D6FC\_4330\_B78C\_4F4B34EE1349 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -953,6 +965,7 @@ Attributen van objecttype SoortFunctioneelGebied
 > Gegevens over het soort kunstwerk.
 
 ??? info "Kenmerken Model SoortKunstwerk"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SoortKunstwerk |
@@ -960,11 +973,11 @@ Attributen van objecttype SoortFunctioneelGebied
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | debat_e |
-    | version | 1.5 |
+    | author | debat\_e |
+    | version | 1.12.0 |
     | created | 2013-05-24 15:38:41 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_64D33964_B205_4071_9C0F_00E6AFDACC45 |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_64D33964\_B205\_4071\_9C0F\_00E6AFDACC45 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -989,6 +1002,7 @@ Attributen van objecttype SoortKunstwerk
 > Gegevens over het soort overig bouwwerk.
 
 ??? info "Kenmerken Model SoortOverigBouwwerk"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SoortOverigBouwwerk |
@@ -996,11 +1010,11 @@ Attributen van objecttype SoortKunstwerk
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | debat_e |
-    | version | 1.5 |
+    | author | debat\_e |
+    | version | 1.12.0 |
     | created | 2013-05-24 14:40:35 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_4CB05400_6AE8_44d9_AA8A_5CA84CFB0B6E |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_4CB05400\_6AE8\_44d9\_AA8A\_5CA84CFB0B6E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1025,6 +1039,7 @@ Attributen van objecttype SoortOverigBouwwerk
 > Gegevens over de soort scheiding
 
 ??? info "Kenmerken Model SoortScheiding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SoortScheiding |
@@ -1032,11 +1047,11 @@ Attributen van objecttype SoortOverigBouwwerk
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | debat_e |
-    | version | 1.5 |
+    | author | debat\_e |
+    | version | 1.12.0 |
     | created | 2013-05-24 13:43:47 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_E500F84E_81CE_4984_832E_C3B53D14722A |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_E500F84E\_81CE\_4984\_832E\_C3B53D14722A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1061,6 +1076,7 @@ Attributen van objecttype SoortScheiding
 > Gegevens over het soort spoor.
 
 ??? info "Kenmerken Model SoortSpoor"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SoortSpoor |
@@ -1068,11 +1084,11 @@ Attributen van objecttype SoortScheiding
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | debat_e |
-    | version | 1.5 |
+    | author | debat\_e |
+    | version | 1.12.0 |
     | created | 2013-05-24 13:34:01 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_2F658B5B_1B89_437e_8EAD_FD544FD62A0A |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_2F658B5B\_1B89\_437e\_8EAD\_FD544FD62A0A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1097,18 +1113,19 @@ Attributen van objecttype SoortSpoor
 > Verwijzing naar de splitsingstekening behorende bij de APPARTEMENTSRECHTSPLITSING
 
 ??? info "Kenmerken Model SplitsingstekeningReferentie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SplitsingstekeningReferentie |
-    | toelichting | #NOTES#Binnengemeentelijk wordt vaak gebruik gemaakt van de splitsingstekening van een APPARTEMENSRECHTSPLITSING. Voldoende is het een aantal (identificerende) gegevens van de tekening vast te leggen zodat de tekening opgevraagd kan worden. |
+    | toelichting | #NOTES#Binnengemeentelijk wordt vaak gebruik gemaakt van de splitsingstekening van een APPARTEMENSRECHTSPLITSING. Voldoende is het een aantal (identificerende) gegevens van de tekening vast te leggen zodat de tekening opgevraagd kan worden.#NOTES#Binnengemeentelijk wordt vaak gebruik gemaakt van de splitsingstekening van een APPARTEMENSRECHTSPLITSING. Voldoende is het een aantal (identificerende) gegevens van de tekening vast te leggen zodat de tekening opgevraagd kan worden.#NOTES#Binnengemeentelijk wordt vaak gebruik gemaakt van de splitsingstekening van een APPARTEMENSRECHTSPLITSING. Voldoende is het een aantal (identificerende) gegevens van de tekening vast te leggen zodat de tekening opgevraagd kan worden. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | debat_e |
-    | version | 1.5 |
+    | author | debat\_e |
+    | version | 1.12.0 |
     | created | 2015-02-24 08:40:09 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_C97E674B_BCBC_45e8_B60C_1E0C7954D751 |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_C97E674B\_BCBC\_45e8\_B60C\_1E0C7954D751 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1135,28 +1152,19 @@ Attributen van objecttype SplitsingstekeningReferentie
 > De gegevens over het verblijf en adres van de INGESCHREVEN NATUURLIJK PERSOON
 
 ??? info "Kenmerken Model VerblijfadresIngeschrevenNatuurlijkPersoon"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VerblijfadresIngeschrevenNatuurlijkPersoon |
-    | toelichting | 
-> #NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:
-> Adresherkomst
-> Locatie beschrijving
-> en de volgende relatiesoorten:
-> is ingeschreven op NUMMERAANDUIDING
-> verblijft op LIGPLAATS
-> verblijft op STANDPLAATS.
-> verblijft in VERBLIJFSOBJECT
-> verblijft op locatie in WOONPLAATS
-> Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort. |
+    | toelichting | #NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:<br>Adresherkomst<br>Locatie beschrijving<br>en de volgende relatiesoorten:<br>is ingeschreven op NUMMERAANDUIDING<br>verblijft op LIGPLAATS<br>verblijft op STANDPLAATS.<br>verblijft in VERBLIJFSOBJECT<br>verblijft op locatie in WOONPLAATS<br>Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:<br>Adresherkomst<br>Locatie beschrijving<br>en de volgende relatiesoorten:<br>is ingeschreven op NUMMERAANDUIDING<br>verblijft op LIGPLAATS<br>verblijft op STANDPLAATS.<br>verblijft in VERBLIJFSOBJECT<br>verblijft op locatie in WOONPLAATS<br>Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:<br>Adresherkomst<br>Locatie beschrijving<br>en de volgende relatiesoorten:<br>is ingeschreven op NUMMERAANDUIDING<br>verblijft op LIGPLAATS<br>verblijft op STANDPLAATS.<br>verblijft in VERBLIJFSOBJECT<br>verblijft op locatie in WOONPLAATS<br>Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-07-13 16:15:53 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_E5E010C2_C1F3_4986_AA9A_C71C19263606 |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_E5E010C2\_C1F3\_4986\_AA9A\_C71C19263606 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1181,6 +1189,7 @@ Attributen van objecttype VerblijfadresIngeschrevenNatuurlijkPersoon
 > De gegevens over het verblijf en adres van de INGESCHREVEN PERSOON
 
 ??? info "Kenmerken Model VerblijfadresIngeschrevenPersoon"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VerblijfadresIngeschrevenPersoon |
@@ -1188,11 +1197,11 @@ Attributen van objecttype VerblijfadresIngeschrevenNatuurlijkPersoon
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.11.0 |
     | created | 2018-03-21 15:46:57 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_F6DAC299_3F19_45c6_BFFE_EB38C1C51459 |
+    | modified | 2025-12-16 10:28:35 |
+    | id | EAID\_F6DAC299\_3F19\_45c6\_BFFE\_EB38C1C51459 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1207,7 +1216,7 @@ Attributen van objecttype VerblijfadresIngeschrevenPersoon
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | adresHerkomst | AN1 | Aanduiding welk adres van de INGESCHREVEN PERSOON ontleend is aan de GBA: het woonadres of het correspondentie-adres |
-| beschrijvingLocatie |  | Een geheel of gedeeltelijke omschrijving van de ligging van een object. |
+| beschrijvingLocatie | Tekst | Een geheel of gedeeltelijke omschrijving van de ligging van een object. |
 
 
 
@@ -1217,18 +1226,19 @@ Attributen van objecttype VerblijfadresIngeschrevenPersoon
 > De gegevens over het verblijf in het buitenland
 
 ??? info "Kenmerken Model VerblijfBuitenland"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VerblijfBuitenland |
-    | toelichting | #NOTES# Voor een ingezetene (die emigreert) kan dit het buitenlandse adres zijn dat vastgesteld is door een aangewezen bestuursorgaan of het voorlopige adres vastgesteld door een college. Zie ook attribuutsoort Bron adres buitenland van INGESCHREVEN NATUURLIJK PERSOON. |
+    | toelichting | #NOTES# Voor een ingezetene (die emigreert) kan dit het buitenlandse adres zijn dat vastgesteld is door een aangewezen bestuursorgaan of het voorlopige adres vastgesteld door een college. Zie ook attribuutsoort Bron adres buitenland van INGESCHREVEN NATUURLIJK PERSOON.#NOTES# Voor een ingezetene (die emigreert) kan dit het buitenlandse adres zijn dat vastgesteld is door een aangewezen bestuursorgaan of het voorlopige adres vastgesteld door een college. Zie ook attribuutsoort Bron adres buitenland van INGESCHREVEN NATUURLIJK PERSOON.#NOTES# Voor een ingezetene (die emigreert) kan dit het buitenlandse adres zijn dat vastgesteld is door een aangewezen bestuursorgaan of het voorlopige adres vastgesteld door een college. Zie ook attribuutsoort Bron adres buitenland van INGESCHREVEN NATUURLIJK PERSOON. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-07-21 17:20:50 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_E3567219_5744_4b70_901D_BAEBD8FF4947 |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_E3567219\_5744\_4b70\_901D\_BAEBD8FF4947 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1258,6 +1268,7 @@ Attributen van objecttype VerblijfBuitenland
 > De gegevens over het verblijf in het buitenland
 
 ??? info "Kenmerken Model VerblijfBuitenlandSubject"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VerblijfBuitenlandSubject |
@@ -1265,11 +1276,11 @@ Attributen van objecttype VerblijfBuitenland
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.11.0 |
     | created | 2018-03-21 15:46:57 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_19BA2B32_7BC5_41be_A352_21C41423C4B2 |
+    | modified | 2025-12-16 10:28:35 |
+    | id | EAID\_19BA2B32\_7BC5\_41be\_A352\_21C41423C4B2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1283,9 +1294,9 @@ Attributen van objecttype VerblijfBuitenlandSubject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| adresBuitenland1 |  | Het eerste deel van het adres in het buitenland dat het SUBJECT opgeeft bij vertrek naar het buitenland dan wel waar het SUBJECT in het buitenland verblijft. |
-| adresBuitenland2 |  | Het tweede deel van het adres in het buitenland dat het SUBJECT opgeeft bij vertrek naar het buitenland dan wel waar het SUBJECT in het buitenland verblijft. |
-| adresBuitenland3 |  | Het derde deel van het adres in het buitenland dat het SUBJECT opgeeft bij vertrek naar het buitenland dan wel waar het SUBJECT in het buitenland verblijft. |
+| adresBuitenland1 | AN200 | Het eerste deel van het adres in het buitenland dat het SUBJECT opgeeft bij vertrek naar het buitenland dan wel waar het SUBJECT in het buitenland verblijft. |
+| adresBuitenland2 | AN200 | Het tweede deel van het adres in het buitenland dat het SUBJECT opgeeft bij vertrek naar het buitenland dan wel waar het SUBJECT in het buitenland verblijft. |
+| adresBuitenland3 | AN200 | Het derde deel van het adres in het buitenland dat het SUBJECT opgeeft bij vertrek naar het buitenland dan wel waar het SUBJECT in het buitenland verblijft. |
 | landVerblijfadres |  | Het SUBJECT dat heeft aangegeven te (gaan) verblijven dan wel verblijft in het LAND |
 
 
@@ -1296,18 +1307,19 @@ Attributen van objecttype VerblijfBuitenlandSubject
 > De gegevens om het verblijfsrecht vast te leggen.
 
 ??? info "Kenmerken Model VerblijfsrechtIngeschrevenNatuurlijkPersoon"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VerblijfsrechtIngeschrevenNatuurlijkPersoon |
-    | toelichting | #NOTES# |
+    | toelichting | #NOTES# #NOTES# #NOTES# |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | haas_r |
-    | version | 1.5 |
+    | author | haas\_r |
+    | version | 1.12.0 |
     | created | 2015-01-27 14:09:23 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_0DC6F150_CF59_4376_A5F0_E0B600BE4C53 |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_0DC6F150\_CF59\_4376\_A5F0\_E0B600BE4C53 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1322,9 +1334,9 @@ Attributen van objecttype VerblijfsrechtIngeschrevenNatuurlijkPersoon
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | aanduidingVerblijfsrecht |  | Aanduiding in verband met het verblijfsrecht van de persoon als bedoeld in de Vreemdelingenwet 2000. |
-| datumAanvangVerblijfsrecht |  | De datum waarop het verblijfsrecht van de Vreemdeling is aangegeven. |
-| datumVoorzienEindeVerblijfsrecht |  | De einddatum verblijfsrecht voor bepaalde duur in de mededeling van de Minister van Veiligheid en Justitie. |
-| datumMededelingVerblijfsrecht |  | De datum van de mededeling van de Minister van Veiligheid en Justitie inzake verblijfsrecht. |
+| datumAanvangVerblijfsrecht | Datum | De datum waarop het verblijfsrecht van de Vreemdeling is aangegeven. |
+| datumVoorzienEindeVerblijfsrecht | Datum | De einddatum verblijfsrecht voor bepaalde duur in de mededeling van de Minister van Veiligheid en Justitie. |
+| datumMededelingVerblijfsrecht | Datum | De datum van de mededeling van de Minister van Veiligheid en Justitie inzake verblijfsrecht. |
 
 
 
@@ -1334,18 +1346,19 @@ Attributen van objecttype VerblijfsrechtIngeschrevenNatuurlijkPersoon
 > Een INGESCHREVEN NATUURLIJK PERSOON kan voor één of meerdere partijen kiezen voor wie een verstrekkingsbeperking geldt.
 
 ??? info "Kenmerken Model VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon |
-    | toelichting | #NOTES#Een INGESCHREVEN NATUURLIJK PERSOON kan ook kiezen om volledige verstrekkingsbeperking te hebben. Zie het betreffende attribuut. |
+    | toelichting | #NOTES#Een INGESCHREVEN NATUURLIJK PERSOON kan ook kiezen om volledige verstrekkingsbeperking te hebben. Zie het betreffende attribuut.#NOTES#Een INGESCHREVEN NATUURLIJK PERSOON kan ook kiezen om volledige verstrekkingsbeperking te hebben. Zie het betreffende attribuut.#NOTES#Een INGESCHREVEN NATUURLIJK PERSOON kan ook kiezen om volledige verstrekkingsbeperking te hebben. Zie het betreffende attribuut. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Haas_R |
-    | version | 3.5 |
+    | author | Haas\_R |
+    | version | 3.12.0 |
     | created | 2015-01-25 14:50:12 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_8E090A86_8095_458c_B162_B09982158CD5 |
+    | modified | 2025-12-16 14:00:20 |
+    | id | EAID\_8E090A86\_8095\_458c\_B162\_B09982158CD5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1383,6 +1396,7 @@ Het enumeratie soortMigratie kent de volgende waarden:
 De enumeratie soortMigratie heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model soortMigratie"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | soortMigratie |
@@ -1391,10 +1405,10 @@ De enumeratie soortMigratie heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
-    | modified | 2025-03-26 16:14:56 |
-    | id | EAID_c2ca3430_adca_4d19_b06b_d203986a44b9 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_93351330\_032f\_46b6\_83cc\_cff3dad250f1 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1421,6 +1435,7 @@ Het enumeratie redenWijzigingAdres kent de volgende waarden:
 De enumeratie redenWijzigingAdres heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model redenWijzigingAdres"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | redenWijzigingAdres |
@@ -1429,10 +1444,10 @@ De enumeratie redenWijzigingAdres heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
-    | modified | 2025-03-26 16:14:56 |
-    | id | EAID_09053848_f80e_46da_93b5_40582e434f36 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_cb32cf12\_96a3\_4c25\_9f0d\_ee93dbd4993d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1461,6 +1476,7 @@ Het enumeratie aangever kent de volgende waarden:
 De enumeratie aangever heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model aangever"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | aangever |
@@ -1469,10 +1485,10 @@ De enumeratie aangever heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
-    | modified | 2025-03-26 16:14:55 |
-    | id | EAID_2f1cdcf6_3ead_451f_9062_b5cbc0c72af6 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_85dbd166\_0a13\_4423\_b98c\_0f61dc2bdec5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1506,6 +1522,7 @@ Het enumeratie adelijkeTitel kent de volgende waarden:
 De enumeratie adelijkeTitel heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model adelijkeTitel"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | adelijkeTitel |
@@ -1514,10 +1531,10 @@ De enumeratie adelijkeTitel heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
-    | modified | 2025-03-26 16:14:55 |
-    | id | EAID_6f15c5fb_7f23_4f2e_8145_947ebea4a8f2 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_34840f2a\_12dc\_42df\_aece\_b329fe6fed10 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1546,6 +1563,7 @@ Het enumeratie redenEindeRelatie kent de volgende waarden:
 De enumeratie redenEindeRelatie heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model redenEindeRelatie"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | redenEindeRelatie |
@@ -1554,10 +1572,10 @@ De enumeratie redenEindeRelatie heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
-    | modified | 2025-03-26 16:14:56 |
-    | id | EAID_035d68bf_e85c_4518_85f6_3e12aef99caf |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_775e5a7a\_1968\_4ba7\_9103\_33efaeeaf0fb |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1584,6 +1602,7 @@ Het enumeratie predicaat kent de volgende waarden:
 De enumeratie predicaat heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model predicaat"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | predicaat |
@@ -1592,10 +1611,10 @@ De enumeratie predicaat heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:38 |
-    | modified | 2025-03-26 16:14:55 |
-    | id | EAID_dc9d7bfc_f11b_4317_9425_cff0b9b50c7f |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_8ddebd4e\_43a4\_449b\_974a\_6502b072109e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1629,6 +1648,7 @@ Het enumeratie adelijkeTitel kent de volgende waarden:
 De enumeratie adelijkeTitel heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model adelijkeTitel"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | adelijkeTitel |
@@ -1637,10 +1657,10 @@ De enumeratie adelijkeTitel heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
-    | modified | 2025-03-26 16:14:55 |
-    | id | EAID_a11c4be6_a69b_4f14_af5e_47786922a286 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_f3b4b489\_d315\_4580\_99a7\_5fe47da02ca8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1699,6 +1719,7 @@ Het enumeratie typeringFunctioneelGebied kent de volgende waarden:
 De enumeratie typeringFunctioneelGebied heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model typeringFunctioneelGebied"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | typeringFunctioneelGebied |
@@ -1707,10 +1728,10 @@ De enumeratie typeringFunctioneelGebied heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:40 |
-    | modified | 2025-03-26 16:14:56 |
-    | id | EAID_170f61d1_4618_400d_888d_e754cf6737db |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_60b4853a\_6eb1\_468b\_b44f\_6d324a415557 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1750,6 +1771,7 @@ Het enumeratie typeringKunstwerk kent de volgende waarden:
 De enumeratie typeringKunstwerk heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model typeringKunstwerk"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | typeringKunstwerk |
@@ -1758,10 +1780,10 @@ De enumeratie typeringKunstwerk heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:40 |
-    | modified | 2025-03-26 16:14:56 |
-    | id | EAID_5698c756_919a_4413_be7f_2f826e6f2af6 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_70cd3960\_7ac8\_450b\_b109\_74a8b9241b77 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1794,6 +1816,7 @@ Het enumeratie typeringOverigBouwwerk kent de volgende waarden:
 De enumeratie typeringOverigBouwwerk heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model typeringOverigBouwwerk"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | typeringOverigBouwwerk |
@@ -1802,10 +1825,10 @@ De enumeratie typeringOverigBouwwerk heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
-    | modified | 2025-03-26 16:14:57 |
-    | id | EAID_db3ddc82_35c0_4b94_ac8c_9a2916f6612d |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_c35b2117\_88d7\_4cd8\_b3dc\_ce550febf7f1 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1832,6 +1855,7 @@ Het enumeratie typeringScheiding kent de volgende waarden:
 De enumeratie typeringScheiding heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model typeringScheiding"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | typeringScheiding |
@@ -1840,10 +1864,10 @@ De enumeratie typeringScheiding heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
-    | modified | 2025-03-26 16:14:57 |
-    | id | EAID_1616cd30_39ac_4b07_a0af_876c3b9b55cc |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_f8511f75\_00b1\_4a2c\_ac79\_ff0923c64ca5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1868,6 +1892,7 @@ Het enumeratie functieSpoor kent de volgende waarden:
 De enumeratie functieSpoor heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model functieSpoor"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | functieSpoor |
@@ -1876,10 +1901,10 @@ De enumeratie functieSpoor heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:37 |
-    | modified | 2025-03-26 16:14:55 |
-    | id | EAID_77f341d2_173a_4734_9505_7886c724e359 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_215e6191\_55a1\_4d98\_a60d\_1eebfc652883 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1888,6 +1913,5 @@ De enumeratie functieSpoor heeft de volgende kenmerken:
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
-
 
 

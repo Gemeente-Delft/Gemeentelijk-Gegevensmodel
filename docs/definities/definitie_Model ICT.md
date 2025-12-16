@@ -5,6 +5,7 @@
 > Het informatiesubdomein dat gegevens omvat over de informatietechnologie en communicatiesystemen die de interne processen en informatievoorziening van een organisatie ondersteunen.
 
 ??? info "Kenmerken Model Model ICT"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model ICT |
@@ -16,7 +17,7 @@
     | version | 1.1 |
     | created | 2019-01-10 11:33:20 |
     | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_C45CFEC0_B841_4e3b_86BD_A4F3246E94D2 |
+    | id | EAPK\_C45CFEC0\_B841\_4e3b\_86BD\_A4F3246E94D2 |
     
 
 Het model 'Model ICT' kent de volgende objecttypen:
@@ -85,6 +86,7 @@ Het model 'Model ICT' kent de volgende objecttypen:
 > (officieel) verzoek, iets (officieel) vragen aan een bevoegde macht.
 
 ??? info "Kenmerken Model Aanvraag"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aanvraag |
@@ -93,10 +95,10 @@ Het model 'Model ICT' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2019-01-10 11:40:16 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_446E3931_B9F2_4b5c_80E7_5B240B8F816F |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_446E3931\_B9F2\_4b5c\_80E7\_5B240B8F816F |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Aanvraag |
@@ -119,6 +121,7 @@ Attributen van objecttype Aanvraag
 > Een applicatiecomponent die gericht is op het ondersteunen van eindgebruikers.
 
 ??? info "Kenmerken Model Applicatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Applicatie |
@@ -127,10 +130,10 @@ Attributen van objecttype Aanvraag
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-10 11:33:53 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_A8945FD7_EA20_418e_8E7F_18F13F16E338 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_A8945FD7\_EA20\_418e\_8E7F\_18F13F16E338 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Applicatie |
@@ -164,6 +167,7 @@ Attributen van objecttype Applicatie
 > Een attribuutsoort is een type van gelijksoortige attributen of gegevens. Daartoe kijken we eerst naar het begrip ‘gegeven’.
 
 ??? info "Kenmerken Model Attribuutsoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Attribuutsoort |
@@ -172,10 +176,10 @@ Attributen van objecttype Applicatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2019-01-15 10:57:58 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_8D273DE5_3529_4652_BCA1_F86B28F26017 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_8D273DE5\_3529\_4652\_BCA1\_F86B28F26017 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -194,25 +198,12 @@ Attributen van objecttype Attribuutsoort
 | definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
 | herkomstDefinitie | AN80 |  |
 | datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
-| domein | AN80 | Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen. |
-| lengte | AN40 | 
-> De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
-> *Bijvoorbeeld:*
-> *‘1’ als de lengte exact 1 is;*
-> *‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna.* Dit is van -9,99 tot +9,99; |
-| patroon | AN40 | 
-> Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.
-> De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur. |
+| domein | AN80 | *Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.* |
+| lengte | AN40 | De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.<br>*Bijvoorbeeld:*<br>*‘1’ als de lengte exact 1 is;*<br>*‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna.* Dit is van -9,99 tot +9,99; |
+| patroon | AN40 | Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.<br>De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur. |
 | toelichting | Text |  |
 | indicatieMaterieleHistorie | boolean | Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde. |
-| kardinaliteit | AN40 | 
-> Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
-> 0..1: is soms niet beschikbaar
-> 1 : is altijd beschikbaar
-> 0..\*: is niet altijd beschikbaar, kan
-> meerdere malen voorkomen 1..\*: is altijd beschikbaar, kan
-> meerdere malen voorkomen
-> Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
+| kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:<br>0..1: is soms niet beschikbaar<br>1 : is altijd beschikbaar<br>0..\*: is niet altijd beschikbaar, kan<br>meerdere malen voorkomen 1..\*: is altijd beschikbaar, kan<br>meerdere malen voorkomen<br>Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
 | authentiek | boolean |  |
 | indicatieAfleidbaar | boolean | Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten. |
 | mogelijkGeenWaarde | boolean |  |
@@ -230,6 +221,7 @@ Attributen van objecttype Attribuutsoort
 > Ordening van informatieobjecten in een logisch verband, zoals vastgelegd in een classificatieschema.
 
 ??? info "Kenmerken Model Classificatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Classificatie |
@@ -238,10 +230,10 @@ Attributen van objecttype Attribuutsoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-10 14:51:23 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_81F207D0_A071_48c7_8C4C_25F8D25A3DE8 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_81F207D0\_A071\_48c7\_8C4C\_25F8D25A3DE8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -267,6 +259,7 @@ Attributen van objecttype Classificatie
 > Item in een Configuratie Management DataBase
 
 ??? info "Kenmerken Model CMDB-item "
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | CMDB-item |
@@ -275,10 +268,10 @@ Attributen van objecttype Classificatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-10 15:17:26 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_B027D022_41D9_4c63_A63D_8F5111689564 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_B027D022\_41D9\_4c63\_A63D\_8F5111689564 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | CMDBItem |
@@ -303,6 +296,7 @@ Attributen van objecttype CMDB-item
 > Een applicatiecomponent die een dataset bevat.
 
 ??? info "Kenmerken Model Database"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Database |
@@ -311,10 +305,10 @@ Attributen van objecttype CMDB-item
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-10 11:48:48 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_FFD22E11_7A3A_459a_B575_928C67E8D1F3 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_FFD22E11\_7A3A\_459a\_B575\_928C67E8D1F3 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Database |
@@ -347,6 +341,7 @@ Attributen van objecttype Database
 > Een attribuutsoort is een type van gelijksoortige attributen of gegevens. Daartoe kijken we eerst naar het begrip ‘gegeven’.
 
 ??? info "Kenmerken Model Datatype"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Datatype |
@@ -355,10 +350,10 @@ Attributen van objecttype Database
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-15 15:05:26 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_7EFBF1CA_EC6E_4b8a_B97F_453CA32AB9A5 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_7EFBF1CA\_EC6E\_4b8a\_B97F\_453CA32AB9A5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -376,26 +371,13 @@ Attributen van objecttype Datatype
 | herkomst | AN255 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
 | definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
 | datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
-| domein | AN255 | Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen. |
-| lengte | AN40 | 
-> De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
-> *Bijvoorbeeld:*
-> *‘1’ als de lengte exact 1 is;*
-> *‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna.* Dit is van -9,99 tot +9,99; |
-| patroon | AN40 | 
-> Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.
-> De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur. |
+| domein | AN255 | *Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.* |
+| lengte | AN40 | De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.<br>*Bijvoorbeeld:*<br>*‘1’ als de lengte exact 1 is;*<br>*‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna.* Dit is van -9,99 tot +9,99; |
+| patroon | AN40 | Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.<br>De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur. |
 | toelichting | Text |  |
 | id | int |  |
 | ea_guid | guid |  |
-| kardinaliteit | AN40 | 
-> Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
-> 0..1: is soms niet beschikbaar
-> 1 : is altijd beschikbaar
-> 0..\*: is niet altijd beschikbaar, kan
-> meerdere malen voorkomen 1..\*: is altijd beschikbaar, kan
-> meerdere malen voorkomen
-> Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
+| kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:<br>0..1: is soms niet beschikbaar<br>1 : is altijd beschikbaar<br>0..\*: is niet altijd beschikbaar, kan<br>meerdere malen voorkomen 1..\*: is altijd beschikbaar, kan<br>meerdere malen voorkomen<br>Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
 
 
 
@@ -405,6 +387,7 @@ Attributen van objecttype Datatype
 > Het uitvoeren van werkzaamheden met een continu of periodiek karakter om waarde te realiseren voor een afnemer.
 
 ??? info "Kenmerken Model Dienst"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Dienst |
@@ -413,10 +396,10 @@ Attributen van objecttype Datatype
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-02-07 14:51:15 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_45AFD4E2_9909_4c33_93CE_F2466B85CA0F |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_45AFD4E2\_9909\_4c33\_93CE\_F2466B85CA0F |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Dienst |
@@ -439,6 +422,7 @@ Attributen van objecttype Dienst
 > Kennisgebied of activiteit gekarakteriseerd door een verzameling van concepten, begrippen en/of waarden
 
 ??? info "Kenmerken Model Domein/Taakveld"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Domein/Taakveld |
@@ -447,10 +431,10 @@ Attributen van objecttype Dienst
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-02-07 14:40:39 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_BEFEC56A_EF6C_49f0_9368_7E46F75D9562 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_BEFEC56A\_EF6C\_49f0\_9368\_7E46F75D9562 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | DomeinOfTaakveld |
@@ -473,6 +457,7 @@ Attributen van objecttype Domein/Taakveld
 > Bron buiten de eigen organisatie
 
 ??? info "Kenmerken Model Externe Bron"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Externe Bron |
@@ -481,10 +466,10 @@ Attributen van objecttype Domein/Taakveld
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-10 14:50:29 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_144D1047_35BB_4926_9472_895D89DC2E0C |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_144D1047\_35BB\_4926\_9472\_895D89DC2E0C |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | ExterneBron |
@@ -509,6 +494,7 @@ Attributen van objecttype Externe Bron
 > bekend feit waaruit je gevolgtrekkingen kunt maken
 
 ??? info "Kenmerken Model Gegeven"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Gegeven |
@@ -517,10 +503,10 @@ Attributen van objecttype Externe Bron
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.7 |
+    | version | 1.13.0 |
     | created | 2019-01-10 14:50:41 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_E846CC36_DF4A_4398_AE4C_122CAFEBAEAA |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_E846CC36\_DF4A\_4398\_AE4C\_122CAFEBAEAA |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Gegeven |
@@ -553,6 +539,7 @@ Attributen van objecttype Gegeven
 > Voorbeeld: PERCEEL is specialisatie van KADASTRAAL ONROERENDE ZAAK, APPARTEMENTSRECHT is specialisatie van KADASTRAAL ONROERENDE ZAAK. PERCEEL en APPARTEMENTSRECHT hebben beide ‘Kadastrale aanduiding’ en een ‘relatie met ONROERENDE ZAAK FILIATIE’.
 
 ??? info "Kenmerken Model Generalisatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Generalisatie |
@@ -561,10 +548,10 @@ Attributen van objecttype Gegeven
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-15 14:59:27 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_0CF1C34D_8AD5_4ac5_8538_87252E66A8C8 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_0CF1C34D\_8AD5\_4ac5\_8538\_87252E66A8C8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -596,6 +583,7 @@ Attributen van objecttype Generalisatie
 > Alle fysieke componenten of onderdelen die in een computer een rol spelen.
 
 ??? info "Kenmerken Model Hardware"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Hardware |
@@ -604,10 +592,10 @@ Attributen van objecttype Generalisatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-10 11:35:52 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_6C92F0F8_BC92_428c_B729_1A10D515DAEF |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_6C92F0F8\_BC92\_428c\_B729\_1A10D515DAEF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Hardware |
@@ -630,6 +618,7 @@ Attributen van objecttype Hardware
 > Een inboedel of een opsomming van voorwerpen op een bepaalde plaats, gemaakt volgens een vaste procedure.
 
 ??? info "Kenmerken Model Inventaris"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Inventaris |
@@ -638,10 +627,10 @@ Attributen van objecttype Hardware
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-10 11:37:23 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_D0AB8CF6_F6CC_4337_BE07_DFE6B3CEFBB3 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_D0AB8CF6\_F6CC\_4337\_BE07\_DFE6B3CEFBB3 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Inventaris |
@@ -664,6 +653,7 @@ Attributen van objecttype Inventaris
 > Verbinding tussen twee systemen
 
 ??? info "Kenmerken Model Koppeling"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Koppeling |
@@ -672,10 +662,10 @@ Attributen van objecttype Inventaris
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-10 11:49:07 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_AB7CF266_388F_413a_92D0_B2FA67C75633 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_AB7CF266\_388F\_413a\_92D0\_B2FA67C75633 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -701,6 +691,7 @@ Attributen van objecttype Koppeling
 > Een gebruiksrecht en autorisatie om van een product of dienst gebruik te maken binnen bepaalde voorwaarden
 
 ??? info "Kenmerken Model Licentie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Licentie |
@@ -709,10 +700,10 @@ Attributen van objecttype Koppeling
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-10 11:36:55 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_2E5F9AF9_D1BA_4dc0_9621_4101D24B8ABD |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_2E5F9AF9\_D1BA\_4dc0\_9621\_4101D24B8ABD |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Licentie |
@@ -735,6 +726,7 @@ Attributen van objecttype Licentie
 > Niet opnemen
 
 ??? info "Kenmerken Model Linkbaar CMDB-item"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Linkbaar CMDB-item |
@@ -743,10 +735,10 @@ Attributen van objecttype Licentie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-10 16:32:50 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_C0F1A08E_C6CD_4524_A2E0_0E5CA483DCFD |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_C0F1A08E\_C6CD\_4524\_A2E0\_0E5CA483DCFD |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | LinkbaarCMDBItem |
@@ -769,6 +761,7 @@ Attributen van objecttype Linkbaar CMDB-item
 > Registratie van gegevens.
 
 ??? info "Kenmerken Model Log"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Log |
@@ -777,10 +770,10 @@ Attributen van objecttype Linkbaar CMDB-item
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-10 11:49:38 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_5492ED6D_608E_465e_B975_BCADAAA3EE7F |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_5492ED6D\_608E\_465e\_B975\_BCADAAA3EE7F |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Log |
@@ -806,6 +799,7 @@ Attributen van objecttype Log
 > De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend
 
 ??? info "Kenmerken Model Melding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Melding |
@@ -814,10 +808,10 @@ Attributen van objecttype Log
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2019-01-10 11:38:45 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_6100B3C7_FBCE_434d_BA48_E067B9CF84A7 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_6100B3C7\_FBCE\_434d\_BA48\_E067B9CF84A7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Melding |
@@ -840,6 +834,7 @@ Attributen van objecttype Melding
 > Geen Definitie
 
 ??? info "Kenmerken Model Nertwerkcomponent"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Nertwerkcomponent |
@@ -848,10 +843,10 @@ Attributen van objecttype Melding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.3 |
+    | version | 1.9.0 |
     | created | 2019-01-10 11:35:05 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_DD277E82_0CA5_4460_918F_9178B5F01886 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_DD277E82\_0CA5\_4460\_918F\_9178B5F01886 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Nertwerkcomponent |
@@ -874,6 +869,7 @@ Attributen van objecttype Nertwerkcomponent
 > Korte, zakelijke uiteenzetting op schrift
 
 ??? info "Kenmerken Model Notitie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Notitie |
@@ -882,10 +878,10 @@ Attributen van objecttype Nertwerkcomponent
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-14 16:44:58 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_354E5545_D067_4b81_9D1D_C5F5FFB532C7 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_354E5545\_D067\_4b81\_9D1D\_C5F5FFB532C7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Notitie |
@@ -913,6 +909,7 @@ Attributen van objecttype Notitie
 > Jan, Piet en Marie zijn mensen die vanuit het Burgerzaken-domein beschouwd worden als objecten van het type ‘natuurlijk persoon’. In een ander domein, ‘de volksmond’, noemen we dit ‘mens’ wat ook een objecttype is. In weer een ander domein is Jan van het type ‘vergunninghouder’ en Piet en Marie niet, omdat aan hen (nog) nooit een vergunning verleend is. Objecttypen zijn een abstractie van de werkelijkheid oftewel we beogen hiermee de werkelijkheid zo getrouw mogelijk te beschrijven, binnen de context van het domein. Dit staat geheel los van het vastleggen van gegevens over objecten van een type in een registratie. Daartoe is veelal een interpretatie nodig (van die werkelijkheid cq. die objecttypen) naar eenheden die in een registratie vastgelegd kunnen worden (records, entiteiten e.d.) op basis van andere overwegingen.
 
 ??? info "Kenmerken Model Objecttype"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Objecttype |
@@ -921,10 +918,10 @@ Attributen van objecttype Notitie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-10 14:50:11 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_A2451674_6C19_4bf9_81F9_57CDE2F60144 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_A2451674\_6C19\_4bf9\_81F9\_57CDE2F60144 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -947,10 +944,7 @@ Attributen van objecttype Objecttype
 | populatie | Text | Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)- registratie voorhanden zijn. |
 | kwaliteit | AN255 | Voor objecttypen die deel uitmaken van een registratie betreft dit de waarborgen voor de juistheid van de in de registratie opgenomen objecten van het desbetreffende type. |
 | toelichting | Text |  |
-| indicatieAbstract | boolean | 
-> Conceptueel model: indicatie dat het objecttype een generalisatie is,
-> waarvan een object als specialisatie altijd voorkomt in de hoedanigheid van een (en slechts één) van de specialisaties van het betreffende objecttype.
-> Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende objecttype mogen voorkomen. |
+| indicatieAbstract | boolean | Conceptueel model: indicatie dat het objecttype een generalisatie is,<br>waarvan een object als specialisatie altijd voorkomt in de hoedanigheid van een (en slechts één) van de specialisaties van het betreffende objecttype.<br>Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende objecttype mogen voorkomen. |
 | id | int |  |
 | stereotype | AN255 |  |
 | ea_guid | guid |  |
@@ -964,6 +958,7 @@ Attributen van objecttype Objecttype
 > Op de meest karakteristieke elementen gebaseerde en in woord of eenvoudige zinstructuur samengevatte aanduiding van de inhoud van een document
 
 ??? info "Kenmerken Model Onderwerp"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Onderwerp |
@@ -972,10 +967,10 @@ Attributen van objecttype Objecttype
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-02-07 14:51:28 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_2AA9DB3B_D79C_490d_8776_DA1CB25E9B09 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_2AA9DB3B\_D79C\_490d\_8776\_DA1CB25E9B09 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -998,6 +993,7 @@ Attributen van objecttype Onderwerp
 > Een samengesteld bestand of een directory die een aantal bestanden bevat, maar welke als één bestand aan de gebruiker getoond word
 
 ??? info "Kenmerken Model Package"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Package |
@@ -1006,10 +1002,10 @@ Attributen van objecttype Onderwerp
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-14 16:49:18 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_ACE86CFF_D6D0_4cbd_8395_99BD763F1B37 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_ACE86CFF\_D6D0\_4cbd\_8395\_99BD763F1B37 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Package |
@@ -1037,6 +1033,7 @@ Attributen van objecttype Package
 > Beschrijving van gangbare onderhoudsactiviteiten met de bijbehorende, actuele prijzen en normen voor de uitvoering.
 
 ??? info "Kenmerken Model Prijzenboek"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Prijzenboek |
@@ -1045,10 +1042,10 @@ Attributen van objecttype Package
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-02-07 14:45:09 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_F1489610_1E50_4328_8CD8_F41E9CE0C0D8 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_F1489610\_1E50\_4328\_8CD8\_F41E9CE0C0D8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1071,6 +1068,7 @@ Attributen van objecttype Prijzenboek
 > Het resultaat van een proces dat in het economisch verkeer een waarde bezit.
 
 ??? info "Kenmerken Model Product"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Product |
@@ -1079,10 +1077,10 @@ Attributen van objecttype Prijzenboek
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-02-07 14:41:02 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_D5DD2F67_6A1F_46b0_972E_795ECC4B2E4F |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_D5DD2F67\_6A1F\_46b0\_972E\_795ECC4B2E4F |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Product |
@@ -1110,6 +1108,7 @@ Attributen van objecttype Product
 > Wanneer een relatie (UML-assocation) gebruikt wordt om objecten aan elkaar te verbinden, zonder dat er eigenschappen over deze relatie worden vastgelegd, dan heeft deze het stereotype «Relatiesoort».
 
 ??? info "Kenmerken Model Relatiesoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Relatiesoort |
@@ -1118,10 +1117,10 @@ Attributen van objecttype Product
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-15 14:49:11 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_DFD2814E_7D36_45e2_B082_2ED574A409E1 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_DFD2814E\_7D36\_45e2\_B082\_2ED574A409E1 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1142,18 +1141,9 @@ Attributen van objecttype Relatiesoort
 | datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
 | toelichting | Text |  |
 | indicatieMaterieleHistorie | boolean | Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde. |
-| kardinaliteit | AN40 | 
-> Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
-> 0..1: is soms niet beschikbaar
-> 1 : is altijd beschikbaar
-> 0..\*: is niet altijd beschikbaar, kan
-> meerdere malen voorkomen 1..\*: is altijd beschikbaar, kan
-> meerdere malen voorkomen
-> Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
+| kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:<br>0..1: is soms niet beschikbaar<br>1 : is altijd beschikbaar<br>0..\*: is niet altijd beschikbaar, kan<br>meerdere malen voorkomen 1..\*: is altijd beschikbaar, kan<br>meerdere malen voorkomen<br>Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
 | authentiek | boolean |  |
-| unidirectioneel | AN40 | 
-> Het gerelateerde objecttype (de target) waarvan het objecttype, die de eigenaar is van deze relatie (de source), kennis heeft.
-> Alle relaties zijn altijd gericht van het objecttype (source) naar het gerelateerde objecttype (target). |
+| unidirectioneel | AN40 | Het gerelateerde objecttype (de target) waarvan het objecttype, die de eigenaar is van deze relatie (de source), kennis heeft.<br>Alle relaties zijn altijd gericht van het objecttype (source) naar het gerelateerde objecttype (target). |
 | id | int |  |
 | indicatieAfleidbaar | boolean | Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten. |
 | ea_guid | guid |  |
@@ -1167,6 +1157,7 @@ Attributen van objecttype Relatiesoort
 > Computer die in een netwerk een ondersteunende taak vervult.
 
 ??? info "Kenmerken Model Server"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Server |
@@ -1175,10 +1166,10 @@ Attributen van objecttype Relatiesoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-10 11:34:53 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_3AFD7E5F_8061_4776_A332_334AF4125E7D |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_3AFD7E5F\_8061\_4776\_A332\_334AF4125E7D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Server |
@@ -1209,6 +1200,7 @@ Attributen van objecttype Server
 > Een geheel van computerprogramma's met bijbehorende data, die bewerkingen en taken uitvoeren
 
 ??? info "Kenmerken Model Software"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Software |
@@ -1217,10 +1209,10 @@ Attributen van objecttype Server
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-10 11:36:22 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_0B3C37DD_42A1_4b6b_B534_CD276112FD3B |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_0B3C37DD\_42A1\_4b6b\_B534\_CD276112FD3B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Software |
@@ -1243,6 +1235,7 @@ Attributen van objecttype Software
 > Verlies van de mogelijkheid om volgens een specificatie te werken of om het vereiste resultaat te leveren.
 
 ??? info "Kenmerken Model Storing"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Storing |
@@ -1251,10 +1244,10 @@ Attributen van objecttype Software
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-10 11:40:28 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_4E5F272E_00CA_481c_A51B_7D08B5E6B0A9 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_4E5F272E\_00CA\_481c\_A51B\_7D08B5E6B0A9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Storing |
@@ -1277,6 +1270,7 @@ Attributen van objecttype Storing
 > Gegevens die worden bewaard van telefoongesprekken
 
 ??? info "Kenmerken Model Telefoniegegevens"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Telefoniegegevens |
@@ -1285,10 +1279,10 @@ Attributen van objecttype Storing
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-10 11:37:09 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_DDD2167F_4A0F_468b_894E_6BB9ED9DA5E0 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_DDD2167F\_4A0F\_468b\_894E\_6BB9ED9DA5E0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Telefoniegegevens |
@@ -1311,6 +1305,7 @@ Attributen van objecttype Telefoniegegevens
 > Een middel waarmee men zich toegang tot iets kan verschaffen.
 
 ??? info "Kenmerken Model Toegangsmiddel"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Toegangsmiddel |
@@ -1319,10 +1314,10 @@ Attributen van objecttype Telefoniegegevens
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-10 11:37:51 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_D67A4AC2_9A17_4cd0_82D7_732A89018FDA |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_D67A4AC2\_9A17\_4cd0\_82D7\_732A89018FDA |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Toegangsmiddel |
@@ -1345,6 +1340,7 @@ Attributen van objecttype Toegangsmiddel
 > De versie-aanduiding van een object.
 
 ??? info "Kenmerken Model Versie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Versie |
@@ -1353,10 +1349,10 @@ Attributen van objecttype Toegangsmiddel
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-14 16:36:00 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_39445166_1EAB_43f8_9F5C_89EA606605EE |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_39445166\_1EAB\_43f8\_9F5C\_89EA606605EE |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Versie |
@@ -1385,6 +1381,7 @@ Attributen van objecttype Versie
 > Een voertuig dat zich over het land verplaatst.
 
 ??? info "Kenmerken Model Vervoersmiddel"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vervoersmiddel |
@@ -1393,10 +1390,10 @@ Attributen van objecttype Versie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2019-01-10 11:37:36 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_E8C75DAB_F9AE_4fe2_9114_870434F2EA80 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_E8C75DAB\_F9AE\_4fe2\_9114\_870434F2EA80 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Vervoersmiddel |
@@ -1419,6 +1416,7 @@ Attributen van objecttype Vervoersmiddel
 > Een aanvraag voor wijziging
 
 ??? info "Kenmerken Model Wijzigingsverzoek"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Wijzigingsverzoek |
@@ -1427,10 +1425,10 @@ Attributen van objecttype Vervoersmiddel
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2019-01-10 11:40:46 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_EFBF46D1_6A51_44fd_BAEA_47BCDFEEE27A |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_EFBF46D1\_6A51\_44fd\_BAEA\_47BCDFEEE27A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Wijzigingsverzoek |
@@ -1469,6 +1467,7 @@ Het enumeratie Applicatiecategorie kent de volgende waarden:
 De enumeratie Applicatiecategorie heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Applicatiecategorie"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Applicatiecategorie |
@@ -1477,10 +1476,10 @@ De enumeratie Applicatiecategorie heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:13 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_A030D866_E2E7_4854_ACFD_C62DB3ABDA38 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_A030D866\_E2E7\_4854\_ACFD\_C62DB3ABDA38 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1507,6 +1506,7 @@ Het enumeratie Beheerstatus kent de volgende waarden:
 De enumeratie Beheerstatus heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Beheerstatus"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Beheerstatus |
@@ -1515,10 +1515,10 @@ De enumeratie Beheerstatus heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:13 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_1FCBFA1B_2703_4ece_A496_EA668AEFCDCD |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_1FCBFA1B\_2703\_4ece\_A496\_EA668AEFCDCD |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1544,6 +1544,7 @@ Het enumeratie Gebruikerrol kent de volgende waarden:
 De enumeratie Gebruikerrol heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Gebruikerrol"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Gebruikerrol |
@@ -1552,10 +1553,10 @@ De enumeratie Gebruikerrol heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:13 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_262A7A23_0CBB_4991_A1B2_D5D3E509549C |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_262A7A23\_0CBB\_4991\_A1B2\_D5D3E509549C |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1582,6 +1583,7 @@ Het enumeratie Packagingstatus kent de volgende waarden:
 De enumeratie Packagingstatus heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Packagingstatus"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Packagingstatus |
@@ -1590,10 +1592,10 @@ De enumeratie Packagingstatus heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:13 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_C0031024_173A_47d6_9BF4_F22941AA7807 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_C0031024\_173A\_47d6\_9BF4\_F22941AA7807 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1616,6 +1618,7 @@ Het enumeratie Servertypes kent de volgende waarden:
 De enumeratie Servertypes heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Servertypes"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Servertypes |
@@ -1624,10 +1627,10 @@ De enumeratie Servertypes heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:13 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_BA2C3918_278E_49c7_A8C5_423F2D659450 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_BA2C3918\_278E\_49c7\_A8C5\_423F2D659450 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1636,6 +1639,5 @@ De enumeratie Servertypes heeft de volgende kenmerken:
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
-
 
 

@@ -5,6 +5,7 @@
 > Het informatiedomein dat gegevens omvat over de integrale ondersteuning en hulpverlening die sociale teams bieden aan inwoners, gericht op het bevorderen van zelfredzaamheid, participatie en het oplossen van complexe problemen.
 
 ??? info "Kenmerken Model Model Sociale Teams"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Sociale Teams |
@@ -16,7 +17,7 @@
     | version | 1.4 |
     | created | 2018-05-23 15:20:01 |
     | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_B93820C2_4C34_485a_BECB_491B510CA4AE |
+    | id | EAPK\_B93820C2\_4C34\_485a\_BECB\_491B510CA4AE |
     
 
 Het model 'Model Sociale Teams' kent de volgende objecttypen:
@@ -41,6 +42,7 @@ Het model 'Model Sociale Teams' kent de volgende objecttypen:
 > Een verzameling van interventies om bepaalde behandeldoelen te bewerkstelligen.
 
 ??? info "Kenmerken Model Behandeling"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Behandeling |
@@ -49,10 +51,10 @@ Het model 'Model Sociale Teams' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-06-13 10:19:13 |
-    | modified | 2025-03-26 16:14:38 |
-    | id | EAID_1B8CF61F_3039_4fc5_A57D_B758170FCA0E |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_1B8CF61F\_3039\_4fc5\_A57D\_B758170FCA0E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Behandeling |
@@ -78,6 +80,7 @@ Attributen van objecttype Behandeling
 > Typering van een behandeling
 
 ??? info "Kenmerken Model Behandelsoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Behandelsoort |
@@ -86,10 +89,10 @@ Attributen van objecttype Behandeling
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-06-13 09:55:13 |
-    | modified | 2025-03-26 16:14:38 |
-    | id | EAID_4F518962_5EA3_4f56_8379_3A835FFE84CA |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_4F518962\_5EA3\_4f56\_8379\_3A835FFE84CA |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -114,6 +117,7 @@ Attributen van objecttype Behandelsoort
 > Kenmerkende eigenschap
 
 ??? info "Kenmerken Model Bijzonderheid"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Bijzonderheid |
@@ -122,10 +126,10 @@ Attributen van objecttype Behandelsoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-06-13 09:53:29 |
-    | modified | 2025-03-26 16:14:38 |
-    | id | EAID_77A962E5_889A_4af6_ADFD_37C3EE8C48F0 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_77A962E5\_889A\_4af6\_ADFD\_37C3EE8C48F0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Bijzonderheid |
@@ -149,6 +153,7 @@ Attributen van objecttype Bijzonderheid
 > Typering van een bijzonderheid
 
 ??? info "Kenmerken Model Bijzonderheidsoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Bijzonderheidsoort |
@@ -157,10 +162,10 @@ Attributen van objecttype Bijzonderheid
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-06-13 10:17:52 |
-    | modified | 2025-03-26 16:14:38 |
-    | id | EAID_03BB6341_7C3E_4a4b_9207_6A2EB9D116FE |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_03BB6341\_7C3E\_4a4b\_9207\_6A2EB9D116FE |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -185,6 +190,7 @@ Attributen van objecttype Bijzonderheidsoort
 > Verzoek tot toelating
 
 ??? info "Kenmerken Model Caseaanmelding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Caseaanmelding |
@@ -193,10 +199,10 @@ Attributen van objecttype Bijzonderheidsoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-06-13 09:53:06 |
-    | modified | 2025-03-26 16:14:38 |
-    | id | EAID_294E3981_C1EF_451e_AE2B_758EC4E4B284 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_294E3981\_C1EF\_451e\_AE2B\_758EC4E4B284 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Caseaanmelding |
@@ -220,6 +226,7 @@ Attributen van objecttype Caseaanmelding
 > Een op korte of middellange termijn nagestreefde situatie
 
 ??? info "Kenmerken Model Doelstelling"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Doelstelling |
@@ -228,10 +235,10 @@ Attributen van objecttype Caseaanmelding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-06-13 09:54:57 |
-    | modified | 2025-03-26 16:14:38 |
-    | id | EAID_28C572B5_C147_4b99_B920_00062C843FDE |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_28C572B5\_C147\_4b99\_B920\_00062C843FDE |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Doelstelling |
@@ -255,6 +262,7 @@ Attributen van objecttype Doelstelling
 > Typering van een doelstellig
 
 ??? info "Kenmerken Model Doelstellingsoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Doelstellingsoort |
@@ -263,10 +271,10 @@ Attributen van objecttype Doelstelling
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-06-13 10:16:13 |
-    | modified | 2025-03-26 16:14:38 |
-    | id | EAID_79A14AF2_F1F9_43a3_914B_FD04CB609F44 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_79A14AF2\_F1F9\_43a3\_914B\_FD04CB609F44 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -291,6 +299,7 @@ Attributen van objecttype Doelstellingsoort
 > Geen Definitie
 
 ??? info "Kenmerken Model SociaalTeamDossier"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SociaalTeamDossier |
@@ -299,10 +308,10 @@ Attributen van objecttype Doelstellingsoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.3 |
+    | version | 1.9.0 |
     | created | 2018-05-23 15:28:57 |
-    | modified | 2025-03-26 16:14:38 |
-    | id | EAID_A22B8038_3C04_44a7_8E75_90A3A5E2615B |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_A22B8038\_3C04\_44a7\_8E75\_90A3A5E2615B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | SociaalteamDossier |
@@ -330,6 +339,7 @@ Attributen van objecttype SociaalTeamDossier
 > Geen Definitie
 
 ??? info "Kenmerken Model SociaalteamDossiersoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SociaalteamDossiersoort |
@@ -338,10 +348,10 @@ Attributen van objecttype SociaalTeamDossier
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.3 |
+    | version | 1.9.0 |
     | created | 2018-06-13 09:52:37 |
-    | modified | 2025-03-26 16:14:38 |
-    | id | EAID_E81990BA_1B6E_4e2a_9910_1E02CDDD53A6 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_E81990BA\_1B6E\_4e2a\_9910\_1E02CDDD53A6 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -357,7 +367,6 @@ Attributen van objecttype SociaalteamDossiersoort
 | :--- | :--- | :--- |
 | naam | AN80 |  |
 | omschrijving | text |  |
-
 
 
 

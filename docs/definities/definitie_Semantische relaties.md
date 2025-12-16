@@ -5,6 +5,7 @@
 > Geen definitie
 
 ??? info "Kenmerken Model Semantische relaties"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Semantische relaties |
@@ -12,11 +13,11 @@
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
+    | author | mante\_h |
     | version | 1.3 |
     | created | 2010-10-26 00:50:16 |
     | modified | 2024-11-21 08:38:15 |
-    | id | EAPK_FE375C08_DD89_4175_B731_ED6E785C4B15 |
+    | id | EAPK\_FE375C08\_DD89\_4175\_B731\_ED6E785C4B15 |
     
 
 Het model 'Semantische relaties' kent de volgende objecttypen:
@@ -37,6 +38,7 @@ Het model 'Semantische relaties' kent de volgende objecttypen:
 > Geen Definitie
 
 ??? info "Kenmerken Model DetailleringKadastraleOnroerendZaken"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | DetailleringKadastraleOnroerendZaken |
@@ -48,7 +50,7 @@ Het model 'Semantische relaties' kent de volgende objecttypen:
     | version |  |
     | created |  |
     | modified |  |
-    | id | EAID_ECA02C0E_85B7_4e44_816C_E08092E01572 |
+    | id | EAID\_ECA02C0E\_85B7\_4e44\_816C\_E08092E01572 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -71,6 +73,7 @@ Attributen van objecttype DetailleringKadastraleOnroerendZaken
 > Geen Definitie
 
 ??? info "Kenmerken Model OverigImgeo"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OverigImgeo |
@@ -82,7 +85,7 @@ Attributen van objecttype DetailleringKadastraleOnroerendZaken
     | version |  |
     | created |  |
     | modified |  |
-    | id | EAID_E34C7512_03C1_443a_8716_E05BBAB8E873 |
+    | id | EAID\_E34C7512\_03C1\_443a\_8716\_E05BBAB8E873 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -105,6 +108,7 @@ Attributen van objecttype OverigImgeo
 > Geen Definitie
 
 ??? info "Kenmerken Model DetailleringAdressenGebouwenEnTerreinen"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | DetailleringAdressenGebouwenEnTerreinen |
@@ -116,7 +120,7 @@ Attributen van objecttype OverigImgeo
     | version |  |
     | created |  |
     | modified |  |
-    | id | EAID_ADF1BF4D_E0FD_4e77_ABED_27ECEBA4832C |
+    | id | EAID\_ADF1BF4D\_E0FD\_4e77\_ABED\_27ECEBA4832C |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -139,6 +143,7 @@ Attributen van objecttype DetailleringAdressenGebouwenEnTerreinen
 > Geen Definitie
 
 ??? info "Kenmerken Model DetailleringWOZObjecttypen"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | DetailleringWOZObjecttypen |
@@ -150,7 +155,7 @@ Attributen van objecttype DetailleringAdressenGebouwenEnTerreinen
     | version |  |
     | created |  |
     | modified |  |
-    | id | EAID_27E447C9_4FFB_41db_B91D_95332B9E2249 |
+    | id | EAID\_27E447C9\_4FFB\_41db\_B91D\_95332B9E2249 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -173,6 +178,7 @@ Attributen van objecttype DetailleringWOZObjecttypen
 > Geen Definitie
 
 ??? info "Kenmerken Model DetailleringSubjecten"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | DetailleringSubjecten |
@@ -184,7 +190,7 @@ Attributen van objecttype DetailleringWOZObjecttypen
     | version |  |
     | created |  |
     | modified |  |
-    | id | EAID_168B0065_09F2_4af5_8440_32AF28E9A309 |
+    | id | EAID\_168B0065\_09F2\_4af5\_8440\_32AF28E9A309 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -198,7 +204,6 @@ Attributen van objecttype DetailleringSubjecten
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 

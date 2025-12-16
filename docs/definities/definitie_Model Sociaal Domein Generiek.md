@@ -5,6 +5,7 @@
 > Geen definitie
 
 ??? info "Kenmerken Model Model Sociaal Domein Generiek"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Sociaal Domein Generiek |
@@ -16,7 +17,7 @@
     | version | 1.2 |
     | created | 2024-02-08 18:20:46 |
     | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_976B3937_0D19_4599_A6D4_E2BD0E0AB9EB |
+    | id | EAPK\_976B3937\_0D19\_4599\_A6D4\_E2BD0E0AB9EB |
     
 
 Het model 'Model Sociaal Domein Generiek' kent de volgende objecttypen:
@@ -46,6 +47,7 @@ Het model 'Model Sociaal Domein Generiek' kent de volgende objecttypen:
 > Te specifiek. AanvraagGemeentepas
 
 ??? info "Kenmerken Model AanvraagStadspas"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AanvraagStadspas |
@@ -53,11 +55,11 @@ Het model 'Model Sociaal Domein Generiek' kent de volgende objecttypen:
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.4 |
+    | author | Arjen Brienen |
+    | version | 1.10.0 |
     | created | 2018-05-07 11:54:57 |
-    | modified | 2025-03-26 16:14:37 |
-    | id | EAID_16F94A03_C376_4314_94AA_4DB14AD00EB9 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_16F94A03\_C376\_4314\_94AA\_4DB14AD00EB9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -80,6 +82,7 @@ Attributen van objecttype AanvraagStadspas
 > Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente.
 
 ??? info "Kenmerken Model Client"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Client |
@@ -88,10 +91,10 @@ Attributen van objecttype AanvraagStadspas
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-03-21 15:22:41 |
-    | modified | 2025-03-27 14:00:42 |
-    | id | EAID_DAF09055_A5A6_4ff4_A158_21B20567B296 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_DAF09055\_A5A6\_4ff4\_A158\_21B20567B296 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Client |
@@ -119,6 +122,7 @@ Attributen van objecttype Client
 > De persoon die verantwoordelijk is voor het opstellen en uitvoeren van het  ondersteuningsplan in samenwering met de client en personen uit zijn/haar omgeving .
 
 ??? info "Kenmerken Model Clientbegeleider"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Clientbegeleider |
@@ -127,16 +131,16 @@ Attributen van objecttype Client
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2018-06-12 16:00:19 |
-    | modified | 2025-03-26 16:14:37 |
-    | id | EAID_276E1BF9_E902_4303_A9E7_048627E0DC84 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_276E1BF9\_E902\_4303\_A9E7\_048627E0DC84 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Clientbegeleider |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-17a0d019-c25e-4bba-ae64-f381da597376](https://gemmaonline.nl/index.php/GEMMA/id-17a0d019-c25e-4bba-ae64-f381da597376) |
-    | gemma_definitie | De persoon die verantwoordelijk is voor het opstellen en uitvoeren van het  ondersteuningsplan in samenwering met de client en personen uit zijn/haar omgeving . |
+    | gemma_definitie | De persoon die verantwoordelijk is voor het opstellen en uitvoeren van het ondersteuningsplan in samenwering met de client en personen uit zijn/haar omgeving . |
     | gemma_toelichting |  |
     
 
@@ -154,6 +158,7 @@ Attributen van objecttype Clientbegeleider
 > Een gerechtelijke uitspraak is een formele beslissing van een rechter of gerechtshof in een juridische procedure. Deze uitspraak bevat de beoordeling van de feiten, de toepassing van het recht en de uiteindelijke beslissing over het geschil dat aan de rechter is voorgelegd. Een gerechtelijke uitspraak kan verschillende vormen aannemen, zoals een vonnis, arrest, beschikking of een kortgedingbeslissing, afhankelijk van de aard van de procedure. Het doel van een gerechtelijke uitspraak is om een bindende oplossing te bieden voor het conflict tussen partijen, en het kan zowel betrekking hebben op civiele, strafrechtelijke, bestuursrechtelijke als andere juridische kwesties.
 
 ??? info "Kenmerken Model Gerechtelijke uitspraak"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Gerechtelijke uitspraak |
@@ -161,11 +166,11 @@ Attributen van objecttype Clientbegeleider
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | arjen |
-    | version | 1.4 |
+    | author | Arjen Brienen |
+    | version | 1.10.0 |
     | created | 2024-03-07 10:23:20 |
-    | modified | 2025-03-26 16:14:37 |
-    | id | EAID_28BCD751_DDE7_42b6_9E6B_579B382BC84A |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_28BCD751\_DDE7\_42b6\_9E6B\_579B382BC84A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -188,6 +193,7 @@ Attributen van objecttype Gerechtelijke uitspraak
 > Een gezagsverhouding is een juridische of feitelijke relatie tussen twee partijen, waarbij de ene partij (de gezagsdrager) bevoegd is om instructies of richtlijnen te geven, en de andere partij (de ondergeschikte) verplicht is deze op te volgen. Deze verhouding speelt een belangrijke rol in verschillende contexten, zoals arbeidsrelaties, waarbij een werkgever zeggenschap heeft over een werknemer, of familierecht, waar ouders gezag uitoefenen over hun minderjarige kinderen. Een gezagsverhouding impliceert doorgaans een zekere mate van hiërarchie en verantwoordelijkheid, waarbij de gezagsdrager verplicht is om zijn bevoegdheden zorgvuldig en in het belang van de ondergeschikte uit te oefenen.
 
 ??? info "Kenmerken Model Gezagsverhouding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Gezagsverhouding |
@@ -195,11 +201,11 @@ Attributen van objecttype Gerechtelijke uitspraak
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | arjen |
-    | version | 1.4 |
+    | author | Arjen Brienen |
+    | version | 1.10.0 |
     | created | 2024-03-07 10:09:21 |
-    | modified | 2025-03-26 16:14:37 |
-    | id | EAID_C18BB25F_536F_4b80_BC7C_7855DF2D7389 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_C18BB25F\_536F\_4b80\_BC7C\_7855DF2D7389 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -226,6 +232,7 @@ Attributen van objecttype Gezagsverhouding
 > Persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continuïteit in de samenstelling ervan, die binnen een woning duurzaam gebruik maakt van dezelfde voorzieningen.
 
 ??? info "Kenmerken Model Huishouden"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Huishouden |
@@ -233,11 +240,11 @@ Attributen van objecttype Gezagsverhouding
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.4 |
+    | author | Arjen Brienen |
+    | version | 1.10.0 |
     | created | 2018-04-25 10:24:00 |
-    | modified | 2025-05-20 15:05:20 |
-    | id | EAID_F0467610_553B_47cd_A9F7_3B1D20CC425E |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_F0467610\_553B\_47cd\_A9F7\_3B1D20CC425E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Huishouden |
@@ -261,6 +268,7 @@ Attributen van objecttype Huishouden
 > Geen Definitie
 
 ??? info "Kenmerken Model Incident"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Incident |
@@ -268,11 +276,11 @@ Attributen van objecttype Huishouden
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | arjen |
-    | version | 1.2 |
+    | author | Arjen Brienen |
+    | version | 1.8.0 |
     | created | 2024-04-11 14:11:36 |
-    | modified | 2025-03-26 16:14:37 |
-    | id | EAID_418C04F0_F173_4775_9814_D50F5EE79A38 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_418C04F0\_F173\_4775\_9814\_D50F5EE79A38 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -301,6 +309,7 @@ Attributen van objecttype Incident
 > Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie
 
 ??? info "Kenmerken Model Leverancier"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Leverancier |
@@ -308,11 +317,11 @@ Attributen van objecttype Incident
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.11.0 |
     | created | 2018-04-23 14:46:34 |
-    | modified | 2025-03-26 16:14:37 |
-    | id | EAID_51A266C7_3BDA_457c_9A32_CD1B166CA5BF |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_51A266C7\_3BDA\_457c\_9A32\_CD1B166CA5BF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -340,6 +349,7 @@ Attributen van objecttype Leverancier
 > Geen Definitie
 
 ??? info "Kenmerken Model Profiel"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Profiel |
@@ -347,11 +357,11 @@ Attributen van objecttype Leverancier
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | arjen |
-    | version | 1.2 |
+    | author | Arjen Brienen |
+    | version | 1.8.0 |
     | created | 2024-08-20 15:28:07 |
-    | modified | 2025-03-26 16:14:37 |
-    | id | EAID_D8F2EAAD_7C80_4164_8171_C632F18A6742 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_D8F2EAAD\_7C80\_4164\_8171\_C632F18A6742 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -378,6 +388,7 @@ Attributen van objecttype Profiel
 > Betrekking waarin personen, zaken, begrippen of grootheden van nature tot elkaar staan.
 
 ??? info "Kenmerken Model Relatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Relatie |
@@ -386,10 +397,10 @@ Attributen van objecttype Profiel
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2018-05-23 15:53:42 |
-    | modified | 2025-03-26 16:14:37 |
-    | id | EAID_3DF01B79_6712_473e_9878_594CB5AE95A7 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_3DF01B79\_6712\_473e\_9878\_594CB5AE95A7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Relatie |
@@ -413,6 +424,7 @@ Attributen van objecttype Relatie
 > De typering van het structurele verband tussen een object van een objecttype en een (ander) object van een ander (of hetzelfde) objecttype.
 
 ??? info "Kenmerken Model Relatiesoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Relatiesoort |
@@ -421,10 +433,10 @@ Attributen van objecttype Relatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2018-05-23 16:01:41 |
-    | modified | 2025-03-26 16:14:38 |
-    | id | EAID_F5FAF498_F536_4fb3_9948_73EBCDF61AD5 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_F5FAF498\_F536\_4fb3\_9948\_73EBCDF61AD5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -448,6 +460,7 @@ Attributen van objecttype Relatiesoort
 > Een sociale groep is een verzameling van twee of meer individuen die met elkaar interacteren, gemeenschappelijke waarden, normen of doelen delen, en een gevoel van saamhorigheid of identiteit hebben. Sociale groepen kunnen variëren in omvang en structuur, van kleine, informele groepen zoals een gezin of vriendengroep tot grote, formele organisaties zoals verenigingen of professionele netwerken. Het lidmaatschap van een sociale groep beïnvloedt vaak het gedrag en de sociale interacties van de leden en speelt een belangrijke rol in de vorming van persoonlijke en sociale identiteiten.
 
 ??? info "Kenmerken Model Sociale Groep"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Sociale Groep |
@@ -455,11 +468,11 @@ Attributen van objecttype Relatiesoort
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | arjen |
-    | version | 1.4 |
+    | author | Arjen Brienen |
+    | version | 1.10.0 |
     | created | 2024-03-07 13:03:48 |
-    | modified | 2025-03-26 16:14:38 |
-    | id | EAID_A0D437D2_BE13_45a2_8C8D_1AE953B9404C |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_A0D437D2\_BE13\_45a2\_8C8D\_1AE953B9404C |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -487,6 +500,7 @@ Attributen van objecttype Sociale Groep
 > Een sociale relatie is een duurzame en wederzijdse verbinding tussen twee of meer individuen, gebaseerd op interactie, communicatie en sociale normen. Sociale relaties kunnen verschillende vormen aannemen, zoals persoonlijke (bijvoorbeeld vriendschappen of familiebanden), professionele (zoals collega’s of werkgever-werknemer) of maatschappelijke relaties (bijvoorbeeld tussen buren of leden van een gemeenschap). Ze worden gekenmerkt door wederzijdse verwachtingen en beïnvloeden vaak het gedrag, de gevoelens en de sociale positie van de betrokken personen. Sociale relaties spelen een cruciale rol in het opbouwen van sociale netwerken en het functioneren van samenlevingen.
 
 ??? info "Kenmerken Model Sociale Relatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Sociale Relatie |
@@ -494,11 +508,11 @@ Attributen van objecttype Sociale Groep
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | arjen |
-    | version | 1.4 |
+    | author | Arjen Brienen |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:54:30 |
-    | modified | 2025-03-26 16:14:38 |
-    | id | EAID_CD519902_210F_4355_8B24_EAD513F61966 |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_CD519902\_210F\_4355\_8B24\_EAD513F61966 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -524,6 +538,7 @@ Attributen van objecttype Sociale Relatie
 > Te specifiek, voorstel gemeentepas?
 
 ??? info "Kenmerken Model Stadspas"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Stadspas |
@@ -531,11 +546,11 @@ Attributen van objecttype Sociale Relatie
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.4 |
+    | author | Arjen Brienen |
+    | version | 1.10.0 |
     | created | 2018-05-07 11:53:42 |
-    | modified | 2025-10-16 12:28:15 |
-    | id | EAID_810C273F_0A2B_4e68_A94B_46722FF9E19D |
+    | modified | 2025-12-16 10:28:34 |
+    | id | EAID\_810C273F\_0A2B\_4e68\_A94B\_46722FF9E19D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -551,7 +566,6 @@ Attributen van objecttype Stadspas
 | :--- | :--- | :--- |
 | ingangsdatum | Date |  |
 | einddatum | Date |  |
-
 
 
 
