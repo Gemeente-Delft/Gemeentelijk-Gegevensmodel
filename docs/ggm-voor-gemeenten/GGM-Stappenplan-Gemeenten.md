@@ -17,6 +17,7 @@ Dit stappenplan helpt gemeenten bij het gefaseerd en doelgericht implementeren v
 - Breng in kaart welke gegevens, processen en systemen hierbij betrokken zijn
 - Stel vast welke informatiebehoefte er leeft binnen je organisatie omtrent deze casus
 - Isoleer het desbetreffende deel van het GGM
+- Lees onder _Documentatie GGM_ de uitwerking van het domein en de uitleg over de gegevensdefinities.
 
 ## 3. Van logisch model naar technisch model
 Hoe kom je van het logische model (UML) naar een technisch model?
@@ -28,6 +29,7 @@ Hoe kom je van het logische model (UML) naar een technisch model?
 - Je hebt dan een technisch model (ERD) van de logische GGM objecten
 - Afhankelijk van de relaties tussen de entiteiten genereerd EA ForeignKeys of koppeltabellen
 - Technisch kunnen er dus meer tabellen ontstaan dan dat er logisch zijn gemodeleerd 
+- Lees ook welke [uitdagingen](../ggm-voor-gemeenten/GGM-uitdagingen.md) er zijn en hoe andere gemeenten hiermee omgaan. 
 
 > Probeer niet in één keer het volledige GGM in te lezen, maar deel met model op per domein. 
 

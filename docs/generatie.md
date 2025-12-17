@@ -1,5 +1,24 @@
 # Databaseschema's
 
+## GGM-generator
+
+ Waar in de vorige release al een eerste stap werd gezet met de batchpublicatie van DDL-bestanden, inmiddels door diverse gemeenten gebruikt voor verdere ontwikkeling, zijn deze mogelijkheden nu direct beschikbaar via een gebruiksvriendelijke [webinterface](https://ggm-generator.schemalab.app/). Hiermee kunnen gebruikers het model eenvoudig raadplegen, implementeren en visualiseren.
+
+ De [GGM Generator](https://ggm-generator.schemalab.app/) vertaalt logische modellen naar fysieke schema’s voor de meest gangbare databasesystemen:
+
+- **MySQL**
+- **MS SQL**
+- **PostgreSQL**
+- **Oracle**
+
+Naast databaseschema’s kan de tool verschillende representaties genereren, waaronder:
+
+- **DBML** en **PlantUML** voor visualisatie
+- **ArchiMate** voor bredere modellering
+- **Linked Data** in **Turtle** voor semantische toepassingen
+
+Dankzij deze functionaliteiten zijn de modellen niet alleen technisch toepasbaar, maar ook semantisch bruikbaar in uiteenlopende omgevingen. Dit vergroot de toegankelijkheid en toepasbaarheid van het GGM en vormt een belangrijke stap in de verdere ontwikkeling en implementatie van gegevensmodellen binnen gemeenten en hun partners.
+
 ## Kant-en-klare databaseschema's
 
 Vanaf release v2.4.0 van het Gemeentelijk Gegevensmodel is er ook een volledige set [DDL-bestanden (Data Definition Language)](https://nl.wikipedia.org/wiki/Data_definition_language) beschikbaar. Het gaat om in totaal 488 DDL's,  die automatisch zijn gegenereerd met behulp van een batchversie van de UML Database Generator, die binnenkort beschikbaar zal zijn voor een breder publiek. Deze batchgenerator verwerkt alle relevante diagrammen en exporteert per diagram de bijbehorende DDL-scripts in meerdere databaseformaten, waaronder: 

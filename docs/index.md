@@ -104,7 +104,7 @@ Het GGM krijgt de afgelopen jaren toenemende aandacht in vakmedia en bestuurlijk
 
 ---
 
-## Internationale Erkenning
+## Internationale erkenning
 
 Het GGM trekt ook buiten Nederland aandacht. De Noorse gemeente Trondheim heeft 
 het GGM geadopteerd voor hun eigen datamodel, wat bewijst dat het concept universeel 

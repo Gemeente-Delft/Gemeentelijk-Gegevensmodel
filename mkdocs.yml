@@ -29,33 +29,21 @@ nav:
         - 'Meierijstad: IV3 op het DGW-portaal': ggm-voor-gemeenten/voorbeelden/IV3-op-portaal-DGW.md
         - 'Delft: Aantal uitkeringen tellen mbv GGM': ggm-voor-gemeenten/voorbeelden/GGM-Stap-voor-stap-bron-naar-dashboard.md
         - 'Land van Cuijk: Praktische implementatie GGM': ggm-voor-gemeenten/voorbeelden/GGM-Land-van-Cuijk.md
-    - 'FAQ': ggm-voor-gemeenten/FAQ-gemeenten.md
  - GGM voor Leveranciers:
     - 'Wat is GGM voor Leveranciers?': ggm-voor-leveranciers/Waarom-het-GGM-leveranciers.md
     - 'GGM gebruiken als Leverancier': ggm-voor-leveranciers/Startdocument-leveranciers.md
     - 'GGM implementeren als Leverancier': ggm-voor-leveranciers/GGM-Stappenplan-Leveranciers.md
-    - 'GGM Toegepast':
-        - 'Centric': ggm-voor-leveranciers/Centric.md    
-        - 'PinkRoccade': ggm-voor-leveranciers/PinkRoccade.md  
-        - 'Scamander': ggm-voor-leveranciers/Scamander.md
-        - 'Ilionx': ggm-voor-leveranciers/Ilionx.md
-        - 'Databricks': ggm-voor-leveranciers/Databricks.md
-        - 'Solid5': ggm-voor-leveranciers/Solid5.md
-        - 'Aurai': ggm-voor-leveranciers/Aurai.md
  - 'Algemene informatie':
-        - 'IV3': algemene-informatie/IV3.md
         - 'Beheerplan GGM': algemene-informatie/beheerplan-GGM.md
-        - 'Totstandkoming GGM': algemene-informatie/Totstandkoming-GGM.md
         - 'Installatie': installatie.md
-        - 'Licentie': https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE
         - 'Samenwerking aan GGM': samenwerking-GGM.md
-        - 'Tooling voor manipulatie repository': tools.md
-        - 'Tabelgeneratie': generatie.md
+        - 'Licentie': https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE
         - 'Mappings': ggm-voor-gemeenten/Mappings.md
         - 'Uitdagingen': ggm-voor-gemeenten/GGM-uitdagingen.md
+        - 'Databasetabellen genereren': generatie.md
  - Documentatie GGM:
+    - 'Inleiding Documentatie': domeinen/inleiding.md
     - 'Beschrijving Domeinen':
-        - 'Inleiding': domeinen/inleiding.md
         - 'Bestuur, Politiek en Ondersteuning':
             - 'Burgerzaken': domeinen/burgerzaken.md
             - 'Griffie': domeinen/griffie.md
@@ -171,6 +159,7 @@ nav:
     - Aanpak informatieanalyse:
         - 'Uitleg Werkwijze': cookbook/totstandkoming.md
         - 'Voorbeeld: Gemeentelijke Monumenten': monumenten.md
+ - 'FAQ': FAQ.md
     
 
 
