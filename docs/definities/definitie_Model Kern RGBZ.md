@@ -388,14 +388,14 @@ Attributen van objecttype Deelprocestype
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Document |
-    | toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
+    | toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.13.0 |
+    | version | 1.14.0 |
     | created | 2010-08-19 12:15:35 |
-    | modified | 2025-12-17 11:00:54 |
+    | modified | 2025-12-17 12:09:53 |
     | id | EAID\_5641C50A\_C0FA\_4e71\_B07B\_26C7B1CE94ED |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1155,7 +1155,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_f42fecb2\_34ab\_44d9\_8aa4\_d2285476fcc9 |
+    | id | EAID\_619eb931\_0787\_475d\_856c\_c52719d98689 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1187,10 +1187,10 @@ De enumeratie Heffingsoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-05-08 13:48:43 |
-    | modified | 2025-12-17 11:01:04 |
-    | id | EAID\_e10dccc2\_f657\_40dd\_b883\_0ada63f6b7ba |
+    | modified | 2025-12-17 12:10:02 |
+    | id | EAID\_d52228a5\_73a5\_4b9a\_8761\_bf9540ff9d1b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1228,7 +1228,7 @@ De enumeratie Soorten Klantcontact heeft de volgende kenmerken:
     | version | 1.11.0 |
     | created | 2025-03-26 11:13:26 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_7dfe9f40\_c6bf\_4b70\_9fe1\_8d1d591b7c17 |
+    | id | EAID\_c3ee6418\_a4de\_4fdf\_9828\_7b24c5316a97 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
