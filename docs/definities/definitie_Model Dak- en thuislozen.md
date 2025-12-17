@@ -38,14 +38,14 @@ Het model 'Model Dak- en thuislozen' kent de volgende objecttypen:
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Dakloosheid |
-    | toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
+    | toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2019-09-10 15:28:20 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_A0F8E790\_518A\_4717\_88C2\_1143DE9F944A |
     | domein_iv3 |  |
     | domein_dcat |  |

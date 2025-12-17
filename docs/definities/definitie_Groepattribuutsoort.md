@@ -113,14 +113,14 @@ Attributen van objecttype Adresaanduiding
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | CorrespondentieadresBuitenland |
-    | toelichting | #NOTES# Een correspondentie adres kan een lokatie adres zijn (oftewel een adres van een fysiek als zondanig aangeduide lokatie) of een postadres in het buitenland.#NOTES# Een correspondentie adres kan een lokatie adres zijn (oftewel een adres van een fysiek als zondanig aangeduide lokatie) of een postadres in het buitenland.#NOTES# Een correspondentie adres kan een lokatie adres zijn (oftewel een adres van een fysiek als zondanig aangeduide lokatie) of een postadres in het buitenland.#NOTES# Een correspondentie adres kan een lokatie adres zijn (oftewel een adres van een fysiek als zondanig aangeduide lokatie) of een postadres in het buitenland.#NOTES# Een correspondentie adres kan een lokatie adres zijn (oftewel een adres van een fysiek als zondanig aangeduide lokatie) of een postadres in het buitenland. |
+    | toelichting | #NOTES# Een correspondentie adres kan een lokatie adres zijn (oftewel een adres van een fysiek als zondanig aangeduide lokatie) of een postadres in het buitenland.#NOTES# Een correspondentie adres kan een lokatie adres zijn (oftewel een adres van een fysiek als zondanig aangeduide lokatie) of een postadres in het buitenland.#NOTES# Een correspondentie adres kan een lokatie adres zijn (oftewel een adres van een fysiek als zondanig aangeduide lokatie) of een postadres in het buitenland.#NOTES# Een correspondentie adres kan een lokatie adres zijn (oftewel een adres van een fysiek als zondanig aangeduide lokatie) of een postadres in het buitenland.#NOTES# Een correspondentie adres kan een lokatie adres zijn (oftewel een adres van een fysiek als zondanig aangeduide lokatie) of een postadres in het buitenland.#NOTES# Een correspondentie adres kan een lokatie adres zijn (oftewel een adres van een fysiek als zondanig aangeduide lokatie) of een postadres in het buitenland.#NOTES# Een correspondentie adres kan een lokatie adres zijn (oftewel een adres van een fysiek als zondanig aangeduide lokatie) of een postadres in het buitenland. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2015-10-05 08:15:25 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_CE58213C\_7904\_4c04\_964C\_8CE34C4443DF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -155,14 +155,14 @@ Attributen van objecttype CorrespondentieadresBuitenland
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | GeboorteIngeschrevenNatuurlijkPersoon |
-    | toelichting | #NOTES#.Zie verder de toelichting in de BRP.#NOTES#.Zie verder de toelichting in de BRP.#NOTES#.Zie verder de toelichting in de BRP.#NOTES#.Zie verder de toelichting in de BRP.#NOTES#.Zie verder de toelichting in de BRP. |
+    | toelichting | #NOTES#.Zie verder de toelichting in de BRP.#NOTES#.Zie verder de toelichting in de BRP.#NOTES#.Zie verder de toelichting in de BRP.#NOTES#.Zie verder de toelichting in de BRP.#NOTES#.Zie verder de toelichting in de BRP.#NOTES#.Zie verder de toelichting in de BRP.#NOTES#.Zie verder de toelichting in de BRP. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Debat\_E |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2011-02-04 07:43:56 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_C9DD308F\_7EA7\_4c1a\_BC7D\_68077692C113 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -315,9 +315,9 @@ Attributen van objecttype HandelsnamenVestiging
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2010-07-13 23:32:13 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_B1CB6F3A\_A1F5\_43f2\_B077\_02AD7441B1E3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -347,14 +347,14 @@ Attributen van objecttype KoopsomKadastraleOnroerendeZaak
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | LocatieKadastraleOnroerendeZaak |
-    | toelichting | #NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Locatie-omschrijving<br>Cultuur bebouwd<br>De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Locatie-omschrijving<br>Cultuur bebouwd<br>De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Locatie-omschrijving<br>Cultuur bebouwd<br>De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Locatie-omschrijving<br>Cultuur bebouwd<br>De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Locatie-omschrijving<br>Cultuur bebouwd<br>De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK. |
+    | toelichting | #NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Locatie-omschrijving<br>Cultuur bebouwd<br>De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Locatie-omschrijving<br>Cultuur bebouwd<br>De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Locatie-omschrijving<br>Cultuur bebouwd<br>De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Locatie-omschrijving<br>Cultuur bebouwd<br>De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Locatie-omschrijving<br>Cultuur bebouwd<br>De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Locatie-omschrijving<br>Cultuur bebouwd<br>De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Locatie-omschrijving<br>Cultuur bebouwd<br>De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2010-07-13 23:18:21 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_1ECAEB3C\_EBE2\_4afb\_8D34\_6AFEEFDF3FCA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -384,14 +384,14 @@ Attributen van objecttype LocatieKadastraleOnroerendeZaak
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | MigratieIngeschrevenNatuurlijkPersoon |
-    | toelichting | #NOTES# #NOTES# #NOTES# #NOTES# #NOTES# |
+    | toelichting | #NOTES# #NOTES# #NOTES# #NOTES# #NOTES# #NOTES# #NOTES# |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Haas\_R |
-    | version | 3.12.0 |
+    | version | 3.13.0 |
     | created | 2015-01-25 18:59:59 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_21BC7953\_0237\_44c7\_ACA5\_8A8BC7AE96AD |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -461,14 +461,14 @@ Attributen van objecttype NaamAanschrijvingNatuurlijkPersoon
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | NaamgebruikNatuurlijkPersoon |
-    | toelichting | #NOTES# #NOTES# #NOTES# #NOTES# #NOTES# |
+    | toelichting | #NOTES# #NOTES# #NOTES# #NOTES# #NOTES# #NOTES# #NOTES# |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2011-02-04 11:48:51 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_02601AC0\_9F85\_47e3\_82AF\_7E8D860559F7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -538,14 +538,14 @@ Attributen van objecttype NaamNatuurlijkPersoon
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | NationaliteitIngeschrevenNatuurlijkPersoon |
-    | toelichting | #NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP. |
+    | toelichting | #NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2010-07-13 14:00:34 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_261B509E\_6879\_4475\_B5F8\_77E8428816CE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -599,7 +599,7 @@ Attributen van objecttype NederlandseNationaliteitIngeschrevenPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanduidingBijzonderNederlanderschap |  | Een aanduiding die of aangeeft dat de ingeschrevene behandeld wordt als Nederlander, of dat door de rechter is vastgesteld dat de ingeschrevene niet de Nederlandse nationaliteit bezit. |
+| aanduidingBijzonderNederlanderschap | Boolean | Een aanduiding die of aangeeft dat de ingeschrevene behandeld wordt als Nederlander, of dat door de rechter is vastgesteld dat de ingeschrevene niet de Nederlandse nationaliteit bezit. |
 | redenVerkrijgingNederlandseNationaliteit |  | Een code die aanduidt op grond waarvan de ingeschrevene de Nederlandse nationaliteit verkregen heeft. |
 | redenVerliesNederlandseNationaliteit |  | Een code die aanduidt op grond waarvan de ingeschrevene de Nederlandse nationaliteit verloren heeft. |
 | nationaliteit |  | De NATIONALITEIT die op een zeker moment door de INGESCHREVEN PERSOON is verkregen. |
@@ -616,14 +616,14 @@ Attributen van objecttype NederlandseNationaliteitIngeschrevenPersoon
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OntbindingHuwelijk/geregistreerdPartnerschap |
-    | toelichting | #NOTES# #NOTES# #NOTES# #NOTES# #NOTES# |
+    | toelichting | #NOTES# #NOTES# #NOTES# #NOTES# #NOTES# #NOTES# #NOTES# |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2010-07-13 12:25:59 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_10E7F112\_407D\_4099\_9CC7\_F6B53DD094BF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -658,14 +658,14 @@ Attributen van objecttype OntbindingHuwelijk/geregistreerdPartnerschap
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OverlijdenIngeschrevenNatuurlijkPersoon |
-    | toelichting | #NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP. |
+    | toelichting | #NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Debat\_E |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2011-02-04 08:57:32 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_26BCBA8B\_C96C\_4fc1\_8CC3\_40698E0FB71E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -737,14 +737,14 @@ Attributen van objecttype OverlijdenIngeschrevenPersoon
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Postadres |
-    | toelichting | #NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Postadrestype,<br>Postbus- of antwoordnummer,<br>Postadres postcode,<br>en het volgende relatiesoort:<br>SUBJECT heeft postadres dat zich bevindt in WOONPLAATS.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Postadrestype,<br>Postbus- of antwoordnummer,<br>Postadres postcode,<br>en het volgende relatiesoort:<br>SUBJECT heeft postadres dat zich bevindt in WOONPLAATS.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Postadrestype,<br>Postbus- of antwoordnummer,<br>Postadres postcode,<br>en het volgende relatiesoort:<br>SUBJECT heeft postadres dat zich bevindt in WOONPLAATS.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Postadrestype,<br>Postbus- of antwoordnummer,<br>Postadres postcode,<br>en het volgende relatiesoort:<br>SUBJECT heeft postadres dat zich bevindt in WOONPLAATS.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Postadrestype,<br>Postbus- of antwoordnummer,<br>Postadres postcode,<br>en het volgende relatiesoort:<br>SUBJECT heeft postadres dat zich bevindt in WOONPLAATS. |
+    | toelichting | #NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Postadrestype,<br>Postbus- of antwoordnummer,<br>Postadres postcode,<br>en het volgende relatiesoort:<br>SUBJECT heeft postadres dat zich bevindt in WOONPLAATS.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Postadrestype,<br>Postbus- of antwoordnummer,<br>Postadres postcode,<br>en het volgende relatiesoort:<br>SUBJECT heeft postadres dat zich bevindt in WOONPLAATS.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Postadrestype,<br>Postbus- of antwoordnummer,<br>Postadres postcode,<br>en het volgende relatiesoort:<br>SUBJECT heeft postadres dat zich bevindt in WOONPLAATS.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Postadrestype,<br>Postbus- of antwoordnummer,<br>Postadres postcode,<br>en het volgende relatiesoort:<br>SUBJECT heeft postadres dat zich bevindt in WOONPLAATS.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Postadrestype,<br>Postbus- of antwoordnummer,<br>Postadres postcode,<br>en het volgende relatiesoort:<br>SUBJECT heeft postadres dat zich bevindt in WOONPLAATS.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Postadrestype,<br>Postbus- of antwoordnummer,<br>Postadres postcode,<br>en het volgende relatiesoort:<br>SUBJECT heeft postadres dat zich bevindt in WOONPLAATS.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Postadrestype,<br>Postbus- of antwoordnummer,<br>Postadres postcode,<br>en het volgende relatiesoort:<br>SUBJECT heeft postadres dat zich bevindt in WOONPLAATS. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2010-07-21 17:06:50 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_990C2EBD\_AB9B\_4f3f\_AFF0\_18BA11A552DA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -775,14 +775,14 @@ Attributen van objecttype Postadres
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Rekeningnummer |
-    | toelichting | #NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van één rekeningnummer dat het subject beschouwt als zijn ‘primaire’ rekeningnummer.<br>#NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van één rekeningnummer dat het subject beschouwt als zijn ‘primaire’ rekeningnummer.<br>#NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van één rekeningnummer dat het subject beschouwt als zijn ‘primaire’ rekeningnummer.<br>#NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van één rekeningnummer dat het subject beschouwt als zijn ‘primaire’ rekeningnummer.<br>#NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van één rekeningnummer dat het subject beschouwt als zijn ‘primaire’ rekeningnummer. |
+    | toelichting | #NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van één rekeningnummer dat het subject beschouwt als zijn ‘primaire’ rekeningnummer.<br>#NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van één rekeningnummer dat het subject beschouwt als zijn ‘primaire’ rekeningnummer.<br>#NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van één rekeningnummer dat het subject beschouwt als zijn ‘primaire’ rekeningnummer.<br>#NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van één rekeningnummer dat het subject beschouwt als zijn ‘primaire’ rekeningnummer.<br>#NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van één rekeningnummer dat het subject beschouwt als zijn ‘primaire’ rekeningnummer.<br>#NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van één rekeningnummer dat het subject beschouwt als zijn ‘primaire’ rekeningnummer.<br>#NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van één rekeningnummer dat het subject beschouwt als zijn ‘primaire’ rekeningnummer. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Debat\_E |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2011-04-07 09:32:24 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_BB4BA421\_A7D6\_4b33\_B64A\_49AA82C56242 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -812,14 +812,14 @@ Attributen van objecttype Rekeningnummer
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SamengesteldeNaamNatuurlijkPersoon |
-    | toelichting | #NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting |
+    | toelichting | #NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2010-07-15 16:01:15 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_61321504\_DFA1\_4b65\_853B\_88C0581576F9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -859,9 +859,9 @@ Attributen van objecttype SamengesteldeNaamNatuurlijkPersoon
     | uri |  |
     | bron |  |
     | author | Debat\_E |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2011-05-02 08:57:15 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_EAD40DDC\_9904\_4cde\_BE9B\_2100268E71B7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -891,14 +891,14 @@ Attributen van objecttype SBIActiviteitVestiging
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap |
-    | toelichting | #NOTES# #NOTES# #NOTES# #NOTES# #NOTES# |
+    | toelichting | #NOTES# #NOTES# #NOTES# #NOTES# #NOTES# #NOTES# #NOTES# |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2010-07-13 09:57:09 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_28A0D7C0\_DABF\_403b\_B263\_22F424032A28 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -937,9 +937,9 @@ Attributen van objecttype SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap
     | uri |  |
     | bron |  |
     | author | debat\_e |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2013-05-24 14:48:27 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_C2D0F78A\_D6FC\_4330\_B78C\_4F4B34EE1349 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -974,9 +974,9 @@ Attributen van objecttype SoortFunctioneelGebied
     | uri |  |
     | bron |  |
     | author | debat\_e |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2013-05-24 15:38:41 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_64D33964\_B205\_4071\_9C0F\_00E6AFDACC45 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1011,9 +1011,9 @@ Attributen van objecttype SoortKunstwerk
     | uri |  |
     | bron |  |
     | author | debat\_e |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2013-05-24 14:40:35 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_4CB05400\_6AE8\_44d9\_AA8A\_5CA84CFB0B6E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1048,9 +1048,9 @@ Attributen van objecttype SoortOverigBouwwerk
     | uri |  |
     | bron |  |
     | author | debat\_e |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2013-05-24 13:43:47 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_E500F84E\_81CE\_4984\_832E\_C3B53D14722A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1085,9 +1085,9 @@ Attributen van objecttype SoortScheiding
     | uri |  |
     | bron |  |
     | author | debat\_e |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2013-05-24 13:34:01 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_2F658B5B\_1B89\_437e\_8EAD\_FD544FD62A0A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1117,14 +1117,14 @@ Attributen van objecttype SoortSpoor
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SplitsingstekeningReferentie |
-    | toelichting | #NOTES#Binnengemeentelijk wordt vaak gebruik gemaakt van de splitsingstekening van een APPARTEMENSRECHTSPLITSING. Voldoende is het een aantal (identificerende) gegevens van de tekening vast te leggen zodat de tekening opgevraagd kan worden.#NOTES#Binnengemeentelijk wordt vaak gebruik gemaakt van de splitsingstekening van een APPARTEMENSRECHTSPLITSING. Voldoende is het een aantal (identificerende) gegevens van de tekening vast te leggen zodat de tekening opgevraagd kan worden.#NOTES#Binnengemeentelijk wordt vaak gebruik gemaakt van de splitsingstekening van een APPARTEMENSRECHTSPLITSING. Voldoende is het een aantal (identificerende) gegevens van de tekening vast te leggen zodat de tekening opgevraagd kan worden.#NOTES#Binnengemeentelijk wordt vaak gebruik gemaakt van de splitsingstekening van een APPARTEMENSRECHTSPLITSING. Voldoende is het een aantal (identificerende) gegevens van de tekening vast te leggen zodat de tekening opgevraagd kan worden.#NOTES#Binnengemeentelijk wordt vaak gebruik gemaakt van de splitsingstekening van een APPARTEMENSRECHTSPLITSING. Voldoende is het een aantal (identificerende) gegevens van de tekening vast te leggen zodat de tekening opgevraagd kan worden. |
+    | toelichting | #NOTES#Binnengemeentelijk wordt vaak gebruik gemaakt van de splitsingstekening van een APPARTEMENSRECHTSPLITSING. Voldoende is het een aantal (identificerende) gegevens van de tekening vast te leggen zodat de tekening opgevraagd kan worden.#NOTES#Binnengemeentelijk wordt vaak gebruik gemaakt van de splitsingstekening van een APPARTEMENSRECHTSPLITSING. Voldoende is het een aantal (identificerende) gegevens van de tekening vast te leggen zodat de tekening opgevraagd kan worden.#NOTES#Binnengemeentelijk wordt vaak gebruik gemaakt van de splitsingstekening van een APPARTEMENSRECHTSPLITSING. Voldoende is het een aantal (identificerende) gegevens van de tekening vast te leggen zodat de tekening opgevraagd kan worden.#NOTES#Binnengemeentelijk wordt vaak gebruik gemaakt van de splitsingstekening van een APPARTEMENSRECHTSPLITSING. Voldoende is het een aantal (identificerende) gegevens van de tekening vast te leggen zodat de tekening opgevraagd kan worden.#NOTES#Binnengemeentelijk wordt vaak gebruik gemaakt van de splitsingstekening van een APPARTEMENSRECHTSPLITSING. Voldoende is het een aantal (identificerende) gegevens van de tekening vast te leggen zodat de tekening opgevraagd kan worden.#NOTES#Binnengemeentelijk wordt vaak gebruik gemaakt van de splitsingstekening van een APPARTEMENSRECHTSPLITSING. Voldoende is het een aantal (identificerende) gegevens van de tekening vast te leggen zodat de tekening opgevraagd kan worden.#NOTES#Binnengemeentelijk wordt vaak gebruik gemaakt van de splitsingstekening van een APPARTEMENSRECHTSPLITSING. Voldoende is het een aantal (identificerende) gegevens van de tekening vast te leggen zodat de tekening opgevraagd kan worden. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | debat\_e |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2015-02-24 08:40:09 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_C97E674B\_BCBC\_45e8\_B60C\_1E0C7954D751 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1156,14 +1156,14 @@ Attributen van objecttype SplitsingstekeningReferentie
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VerblijfadresIngeschrevenNatuurlijkPersoon |
-    | toelichting | #NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:<br>Adresherkomst<br>Locatie beschrijving<br>en de volgende relatiesoorten:<br>is ingeschreven op NUMMERAANDUIDING<br>verblijft op LIGPLAATS<br>verblijft op STANDPLAATS.<br>verblijft in VERBLIJFSOBJECT<br>verblijft op locatie in WOONPLAATS<br>Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:<br>Adresherkomst<br>Locatie beschrijving<br>en de volgende relatiesoorten:<br>is ingeschreven op NUMMERAANDUIDING<br>verblijft op LIGPLAATS<br>verblijft op STANDPLAATS.<br>verblijft in VERBLIJFSOBJECT<br>verblijft op locatie in WOONPLAATS<br>Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:<br>Adresherkomst<br>Locatie beschrijving<br>en de volgende relatiesoorten:<br>is ingeschreven op NUMMERAANDUIDING<br>verblijft op LIGPLAATS<br>verblijft op STANDPLAATS.<br>verblijft in VERBLIJFSOBJECT<br>verblijft op locatie in WOONPLAATS<br>Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:<br>Adresherkomst<br>Locatie beschrijving<br>en de volgende relatiesoorten:<br>is ingeschreven op NUMMERAANDUIDING<br>verblijft op LIGPLAATS<br>verblijft op STANDPLAATS.<br>verblijft in VERBLIJFSOBJECT<br>verblijft op locatie in WOONPLAATS<br>Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:<br>Adresherkomst<br>Locatie beschrijving<br>en de volgende relatiesoorten:<br>is ingeschreven op NUMMERAANDUIDING<br>verblijft op LIGPLAATS<br>verblijft op STANDPLAATS.<br>verblijft in VERBLIJFSOBJECT<br>verblijft op locatie in WOONPLAATS<br>Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort. |
+    | toelichting | #NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:<br>Adresherkomst<br>Locatie beschrijving<br>en de volgende relatiesoorten:<br>is ingeschreven op NUMMERAANDUIDING<br>verblijft op LIGPLAATS<br>verblijft op STANDPLAATS.<br>verblijft in VERBLIJFSOBJECT<br>verblijft op locatie in WOONPLAATS<br>Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:<br>Adresherkomst<br>Locatie beschrijving<br>en de volgende relatiesoorten:<br>is ingeschreven op NUMMERAANDUIDING<br>verblijft op LIGPLAATS<br>verblijft op STANDPLAATS.<br>verblijft in VERBLIJFSOBJECT<br>verblijft op locatie in WOONPLAATS<br>Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:<br>Adresherkomst<br>Locatie beschrijving<br>en de volgende relatiesoorten:<br>is ingeschreven op NUMMERAANDUIDING<br>verblijft op LIGPLAATS<br>verblijft op STANDPLAATS.<br>verblijft in VERBLIJFSOBJECT<br>verblijft op locatie in WOONPLAATS<br>Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:<br>Adresherkomst<br>Locatie beschrijving<br>en de volgende relatiesoorten:<br>is ingeschreven op NUMMERAANDUIDING<br>verblijft op LIGPLAATS<br>verblijft op STANDPLAATS.<br>verblijft in VERBLIJFSOBJECT<br>verblijft op locatie in WOONPLAATS<br>Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:<br>Adresherkomst<br>Locatie beschrijving<br>en de volgende relatiesoorten:<br>is ingeschreven op NUMMERAANDUIDING<br>verblijft op LIGPLAATS<br>verblijft op STANDPLAATS.<br>verblijft in VERBLIJFSOBJECT<br>verblijft op locatie in WOONPLAATS<br>Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:<br>Adresherkomst<br>Locatie beschrijving<br>en de volgende relatiesoorten:<br>is ingeschreven op NUMMERAANDUIDING<br>verblijft op LIGPLAATS<br>verblijft op STANDPLAATS.<br>verblijft in VERBLIJFSOBJECT<br>verblijft op locatie in WOONPLAATS<br>Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:<br>Adresherkomst<br>Locatie beschrijving<br>en de volgende relatiesoorten:<br>is ingeschreven op NUMMERAANDUIDING<br>verblijft op LIGPLAATS<br>verblijft op STANDPLAATS.<br>verblijft in VERBLIJFSOBJECT<br>verblijft op locatie in WOONPLAATS<br>Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2010-07-13 16:15:53 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_E5E010C2\_C1F3\_4986\_AA9A\_C71C19263606 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1230,14 +1230,14 @@ Attributen van objecttype VerblijfadresIngeschrevenPersoon
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VerblijfBuitenland |
-    | toelichting | #NOTES# Voor een ingezetene (die emigreert) kan dit het buitenlandse adres zijn dat vastgesteld is door een aangewezen bestuursorgaan of het voorlopige adres vastgesteld door een college. Zie ook attribuutsoort Bron adres buitenland van INGESCHREVEN NATUURLIJK PERSOON.#NOTES# Voor een ingezetene (die emigreert) kan dit het buitenlandse adres zijn dat vastgesteld is door een aangewezen bestuursorgaan of het voorlopige adres vastgesteld door een college. Zie ook attribuutsoort Bron adres buitenland van INGESCHREVEN NATUURLIJK PERSOON.#NOTES# Voor een ingezetene (die emigreert) kan dit het buitenlandse adres zijn dat vastgesteld is door een aangewezen bestuursorgaan of het voorlopige adres vastgesteld door een college. Zie ook attribuutsoort Bron adres buitenland van INGESCHREVEN NATUURLIJK PERSOON.#NOTES# Voor een ingezetene (die emigreert) kan dit het buitenlandse adres zijn dat vastgesteld is door een aangewezen bestuursorgaan of het voorlopige adres vastgesteld door een college. Zie ook attribuutsoort Bron adres buitenland van INGESCHREVEN NATUURLIJK PERSOON.#NOTES# Voor een ingezetene (die emigreert) kan dit het buitenlandse adres zijn dat vastgesteld is door een aangewezen bestuursorgaan of het voorlopige adres vastgesteld door een college. Zie ook attribuutsoort Bron adres buitenland van INGESCHREVEN NATUURLIJK PERSOON. |
+    | toelichting | #NOTES# Voor een ingezetene (die emigreert) kan dit het buitenlandse adres zijn dat vastgesteld is door een aangewezen bestuursorgaan of het voorlopige adres vastgesteld door een college. Zie ook attribuutsoort Bron adres buitenland van INGESCHREVEN NATUURLIJK PERSOON.#NOTES# Voor een ingezetene (die emigreert) kan dit het buitenlandse adres zijn dat vastgesteld is door een aangewezen bestuursorgaan of het voorlopige adres vastgesteld door een college. Zie ook attribuutsoort Bron adres buitenland van INGESCHREVEN NATUURLIJK PERSOON.#NOTES# Voor een ingezetene (die emigreert) kan dit het buitenlandse adres zijn dat vastgesteld is door een aangewezen bestuursorgaan of het voorlopige adres vastgesteld door een college. Zie ook attribuutsoort Bron adres buitenland van INGESCHREVEN NATUURLIJK PERSOON.#NOTES# Voor een ingezetene (die emigreert) kan dit het buitenlandse adres zijn dat vastgesteld is door een aangewezen bestuursorgaan of het voorlopige adres vastgesteld door een college. Zie ook attribuutsoort Bron adres buitenland van INGESCHREVEN NATUURLIJK PERSOON.#NOTES# Voor een ingezetene (die emigreert) kan dit het buitenlandse adres zijn dat vastgesteld is door een aangewezen bestuursorgaan of het voorlopige adres vastgesteld door een college. Zie ook attribuutsoort Bron adres buitenland van INGESCHREVEN NATUURLIJK PERSOON.#NOTES# Voor een ingezetene (die emigreert) kan dit het buitenlandse adres zijn dat vastgesteld is door een aangewezen bestuursorgaan of het voorlopige adres vastgesteld door een college. Zie ook attribuutsoort Bron adres buitenland van INGESCHREVEN NATUURLIJK PERSOON.#NOTES# Voor een ingezetene (die emigreert) kan dit het buitenlandse adres zijn dat vastgesteld is door een aangewezen bestuursorgaan of het voorlopige adres vastgesteld door een college. Zie ook attribuutsoort Bron adres buitenland van INGESCHREVEN NATUURLIJK PERSOON. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2010-07-21 17:20:50 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_E3567219\_5744\_4b70\_901D\_BAEBD8FF4947 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1311,14 +1311,14 @@ Attributen van objecttype VerblijfBuitenlandSubject
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VerblijfsrechtIngeschrevenNatuurlijkPersoon |
-    | toelichting | #NOTES# #NOTES# #NOTES# #NOTES# #NOTES# |
+    | toelichting | #NOTES# #NOTES# #NOTES# #NOTES# #NOTES# #NOTES# #NOTES# |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | haas\_r |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2015-01-27 14:09:23 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_0DC6F150\_CF59\_4376\_A5F0\_E0B600BE4C53 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1350,14 +1350,14 @@ Attributen van objecttype VerblijfsrechtIngeschrevenNatuurlijkPersoon
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon |
-    | toelichting | #NOTES#Een INGESCHREVEN NATUURLIJK PERSOON kan ook kiezen om volledige verstrekkingsbeperking te hebben. Zie het betreffende attribuut.#NOTES#Een INGESCHREVEN NATUURLIJK PERSOON kan ook kiezen om volledige verstrekkingsbeperking te hebben. Zie het betreffende attribuut.#NOTES#Een INGESCHREVEN NATUURLIJK PERSOON kan ook kiezen om volledige verstrekkingsbeperking te hebben. Zie het betreffende attribuut.#NOTES#Een INGESCHREVEN NATUURLIJK PERSOON kan ook kiezen om volledige verstrekkingsbeperking te hebben. Zie het betreffende attribuut.#NOTES#Een INGESCHREVEN NATUURLIJK PERSOON kan ook kiezen om volledige verstrekkingsbeperking te hebben. Zie het betreffende attribuut. |
+    | toelichting | #NOTES#Een INGESCHREVEN NATUURLIJK PERSOON kan ook kiezen om volledige verstrekkingsbeperking te hebben. Zie het betreffende attribuut.#NOTES#Een INGESCHREVEN NATUURLIJK PERSOON kan ook kiezen om volledige verstrekkingsbeperking te hebben. Zie het betreffende attribuut.#NOTES#Een INGESCHREVEN NATUURLIJK PERSOON kan ook kiezen om volledige verstrekkingsbeperking te hebben. Zie het betreffende attribuut.#NOTES#Een INGESCHREVEN NATUURLIJK PERSOON kan ook kiezen om volledige verstrekkingsbeperking te hebben. Zie het betreffende attribuut.#NOTES#Een INGESCHREVEN NATUURLIJK PERSOON kan ook kiezen om volledige verstrekkingsbeperking te hebben. Zie het betreffende attribuut.#NOTES#Een INGESCHREVEN NATUURLIJK PERSOON kan ook kiezen om volledige verstrekkingsbeperking te hebben. Zie het betreffende attribuut.#NOTES#Een INGESCHREVEN NATUURLIJK PERSOON kan ook kiezen om volledige verstrekkingsbeperking te hebben. Zie het betreffende attribuut. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Haas\_R |
-    | version | 3.12.0 |
+    | version | 3.13.0 |
     | created | 2015-01-25 14:50:12 |
-    | modified | 2025-12-17 09:00:32 |
+    | modified | 2025-12-17 10:18:39 |
     | id | EAID\_8E090A86\_8095\_458c\_B162\_B09982158CD5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1408,7 +1408,7 @@ De enumeratie soortMigratie heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_d39b3d0f\_a9d3\_421e\_8814\_cb1936b644cd |
+    | id | EAID\_4e059522\_22a1\_4b12\_b2b6\_2a3fdfd066a2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1447,7 +1447,7 @@ De enumeratie redenWijzigingAdres heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_e4e2851c\_7247\_4107\_8a59\_63687a275aea |
+    | id | EAID\_7c1c266e\_3482\_49a2\_b77b\_df782968fe39 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1488,7 +1488,7 @@ De enumeratie aangever heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_d1d850b7\_9070\_45ab\_b33d\_f29f035e3e8a |
+    | id | EAID\_da48548c\_b8e7\_46d2\_a6d0\_2b3ef5b220f9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1534,7 +1534,7 @@ De enumeratie adelijkeTitel heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_355c398a\_5d64\_4837\_af76\_538d468ceed4 |
+    | id | EAID\_44ebb167\_c081\_405f\_90be\_8a34f3c8136a |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1575,7 +1575,7 @@ De enumeratie redenEindeRelatie heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_146df2de\_304e\_4fb5\_8d7a\_8ddff1a19b49 |
+    | id | EAID\_5d60c292\_25a8\_4a23\_9067\_f5d2eb68c6db |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1614,7 +1614,7 @@ De enumeratie predicaat heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_32fe3b4e\_0d68\_4a63\_8cf7\_ecd4690fad78 |
+    | id | EAID\_4667a6d6\_79d7\_41a0\_8ee2\_d3fb16399877 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1660,7 +1660,7 @@ De enumeratie adelijkeTitel heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_74888ca6\_409e\_4123\_852d\_116963541dbf |
+    | id | EAID\_1bf16436\_2a9a\_4941\_8724\_1f3619d8926b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1731,7 +1731,7 @@ De enumeratie typeringFunctioneelGebied heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_1f4a8314\_4a69\_4010\_b365\_a907adf55a89 |
+    | id | EAID\_b61bbed1\_9381\_44f8\_b7fe\_3943d7ff1a47 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1783,7 +1783,7 @@ De enumeratie typeringKunstwerk heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_e1247131\_4d00\_4098\_baf6\_0b31976dfdde |
+    | id | EAID\_179946a9\_c811\_4a47\_980e\_9f556a529e5e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1828,7 +1828,7 @@ De enumeratie typeringOverigBouwwerk heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_979b6184\_f98c\_401c\_ba33\_c6844f78e6a9 |
+    | id | EAID\_f93ad7e6\_99b1\_401c\_bc30\_262cb5e3f115 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1867,7 +1867,7 @@ De enumeratie typeringScheiding heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_e740e0a6\_0cf6\_412b\_bc2f\_2d4e271d29ba |
+    | id | EAID\_3aebcb68\_3885\_47f5\_8bbf\_e6874923d73c |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1904,7 +1904,7 @@ De enumeratie functieSpoor heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:37 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_5bd63fc5\_31a7\_47ef\_8fe3\_3eb47777648a |
+    | id | EAID\_52b0e383\_383b\_4186\_84c6\_782fa8deeac8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

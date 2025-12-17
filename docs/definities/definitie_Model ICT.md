@@ -504,9 +504,9 @@ Attributen van objecttype Externe Bron
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2019-01-14 16:27:33 |
-    | modified | 2025-03-26 16:14:46 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_12D137DD\_2B9F\_4c2a\_9041\_25E8DF1D3689 |
     | domein_iv3 |  |
     | domein_dcat |  |

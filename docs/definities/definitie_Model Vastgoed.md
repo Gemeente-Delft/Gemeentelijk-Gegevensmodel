@@ -924,7 +924,7 @@ Attributen van objecttype Vastgoedobject
 | naam | AN80 |  |
 | bedragAankoop | Bedrag |  |
 | aantalEtages | int |  |
-| afgekochteErfpacht |  |  |
+| afgekochteErfpacht | Boolean |  |
 | afkoopwaarde | Bedrag |  |
 | asbestrapportageAanwezig | Enumeratie: "Boolean" |  |
 | datumAfstoten | Date |  |
@@ -1178,7 +1178,7 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
     | version | 1.11.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_755398c5\_4c5d\_4dc3\_bd72\_9aaaf84429ac |
+    | id | EAID\_74087ebd\_b1ef\_466b\_b571\_e85e4fb7a125 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1215,7 +1215,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_1bf5aca8\_fa29\_4c22\_8b8d\_3c7f34d95be9 |
+    | id | EAID\_8a47de2c\_ad71\_45f7\_b9ff\_203a1e635bdd |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1252,7 +1252,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_c191c525\_3ae2\_4775\_bf97\_b526e2cf9c0e |
+    | id | EAID\_621fdb3a\_3791\_4a7e\_8b4e\_dd2d071ae9eb |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1289,7 +1289,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_e16143b0\_bf90\_4c59\_aad9\_69377755d3a9 |
+    | id | EAID\_02a9fc65\_a53d\_45e9\_b2a6\_0b2df3bc7137 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1328,7 +1328,7 @@ De enumeratie aanduidingEigenaarGebruiker heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_9c6b83fa\_506f\_4a52\_a5ac\_7cd337c0a0ec |
+    | id | EAID\_41d701b1\_1239\_4e1a\_a053\_f477174367c0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

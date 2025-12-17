@@ -64,9 +64,9 @@ Het model 'Model Diensten' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_208D605F\_BDE5\_700A\_13F6\_281C3303691F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -99,9 +99,9 @@ Attributen van objecttype Aanvraag
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_04035B37\_1A5F\_CC83\_48D3\_281C33030BAF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -134,9 +134,9 @@ Attributen van objecttype Aanvraagtype
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_16ABCFF8\_4817\_6A73\_59BA\_281C3303F8D2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -169,9 +169,9 @@ Attributen van objecttype Beschikking
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_0CA08ED2\_6990\_8292\_BBC7\_281C33037374 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -204,9 +204,9 @@ Attributen van objecttype Besluit
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_24BA1E4E\_CF1D\_B8E9\_E3C3\_281C33039A81 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -239,9 +239,9 @@ Attributen van objecttype Betalingsblokkade
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_022154F4\_817D\_0DFB\_5FFC\_281C33037384 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -274,9 +274,9 @@ Attributen van objecttype Dienst
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_07F494EF\_DD9B\_36A7\_4EE0\_281C33030C21 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -309,9 +309,9 @@ Attributen van objecttype Diensttype
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_1DF6D7C4\_6EAB\_C011\_5CD9\_281C3303C38C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -344,9 +344,9 @@ Attributen van objecttype Individuele plicht
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_117A52E7\_D317\_92C3\_C4DB\_281C33034B40 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -379,9 +379,9 @@ Attributen van objecttype Leveringscomponent
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_23F6E69F\_CA5F\_A12B\_BCE4\_281C3303F966 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -414,9 +414,9 @@ Attributen van objecttype Leveringscomponenttype
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_1CDDED16\_888E\_945B\_4A20\_28EA07CB4D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -449,9 +449,9 @@ Attributen van objecttype Leveringsopdracht
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_0EFDD70A\_7D69\_27D9\_7976\_2912C31741DC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -484,9 +484,9 @@ Attributen van objecttype Leveringsspecificatie
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_0962936F\_7373\_4176\_296A\_281C33036B9B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -519,9 +519,9 @@ Attributen van objecttype Onderdeel beschikking
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_1CE59AFB\_AA35\_C5DB\_C243\_2871BD384EF7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -554,9 +554,9 @@ Attributen van objecttype Periodiek dienst Bijz. bijstand
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_1CC0F6E1\_888E\_945B\_4A20\_28C0FB594D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -589,9 +589,9 @@ Attributen van objecttype Recht
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_1D0EFA3D\_888E\_945B\_4A20\_292F8D894D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -624,9 +624,9 @@ Attributen van objecttype Referteperiode
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_1E5BDB79\_81B9\_2C6D\_472E\_2A2CBF9C1656 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -659,9 +659,9 @@ Attributen van objecttype Regeling
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_15A983E0\_2529\_75FE\_4ED9\_281C3303D234 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -694,9 +694,9 @@ Attributen van objecttype Uitsluitingsgrond
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_1081AC17\_59B0\_A2F8\_A83C\_281C3303651D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -729,9 +729,9 @@ Attributen van objecttype Verstrekkingsvorm
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_1361003F\_38E9\_A2A7\_3128\_281C33031270 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -764,9 +764,9 @@ Attributen van objecttype Voorliggende voorziening
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_1CC0F3FE\_888E\_945B\_4A20\_28C0F7424D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -799,9 +799,9 @@ Attributen van objecttype Voorwaarde
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_20BA95B7\_C12B\_F23F\_093F\_281C3303B58A |
     | domein_iv3 |  |
     | domein_dcat |  |

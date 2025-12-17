@@ -479,7 +479,6 @@ Attributen van objecttype Hobby
 | :--- | :--- | :--- |
 | Aantal uren per week besteed aan hobby | Integer |  |
 | Beschrijving hobby | CharacterString |  |
-| Hobby.Id | CharacterString |  |
 
 
 
@@ -519,7 +518,6 @@ Attributen van objecttype Inkomstencomponent
 | Boekingsdatum | Date |  |
 | Bruto-Netto |  |  |
 | Inkomsten | Bedrag |  |
-| Inkomstencomponent.Id | CharacterString |  |
 | Inkomstencomponenttype |  |  |
 | Link naar bewijs | CharacterString |  |
 | Peilmoment | Date |  |
@@ -598,7 +596,6 @@ Attributen van objecttype Inkomstenvermindering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Inkomstenvermindering.Id | CharacterString |  |
 
 
 
@@ -857,7 +854,6 @@ Attributen van objecttype Pensioen
 | Beslag op pensioen | Boolean |  |
 | Inkomstensoort pensioen |  |  |
 | Loonheffingskorting | Boolean |  |
-| Pensioen.Id | CharacterString |  |
 | Periodiciteit uitbetaling pensioen |  |  |
 | Uitbetaling vakantiegeld pensioen | CharacterString |  |
 

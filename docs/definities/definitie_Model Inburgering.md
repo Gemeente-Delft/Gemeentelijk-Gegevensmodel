@@ -75,14 +75,14 @@ Het model 'Model Inburgering' kent de volgende objecttypen:
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aandachtspunt |
-    | toelichting | • Het betreft hier signalen of omstandigheden die invloed kunnen hebben op de voortgang, begeleiding of ondersteuning.<br>• In het model wordt Aandachtspunt gekoppeld aan onder meer de objecttypen Traject en Ondersteuningsactiviteit.<br>• Mogelijke voorbeelden (zie onderliggende attributen of enumeraties in het model) zijn: psychische kwetsbaarheid, verslaving, schulden, of laaggeletterdheid.#NOTES# • Het betreft hier signalen of omstandigheden die invloed kunnen hebben op de voortgang, begeleiding of ondersteuning.<br>• In het model wordt Aandachtspunt gekoppeld aan onder meer de objecttypen Traject en Ondersteuningsactiviteit.<br>• Mogelijke voorbeelden (zie onderliggende attributen of enumeraties in het model) zijn: psychische kwetsbaarheid, verslaving, schulden, of laaggeletterdheid.#NOTES# • Het betreft hier signalen of omstandigheden die invloed kunnen hebben op de voortgang, begeleiding of ondersteuning.<br>• In het model wordt Aandachtspunt gekoppeld aan onder meer de objecttypen Traject en Ondersteuningsactiviteit.<br>• Mogelijke voorbeelden (zie onderliggende attributen of enumeraties in het model) zijn: psychische kwetsbaarheid, verslaving, schulden, of laaggeletterdheid.#NOTES# • Het betreft hier signalen of omstandigheden die invloed kunnen hebben op de voortgang, begeleiding of ondersteuning.<br>• In het model wordt Aandachtspunt gekoppeld aan onder meer de objecttypen Traject en Ondersteuningsactiviteit.<br>• Mogelijke voorbeelden (zie onderliggende attributen of enumeraties in het model) zijn: psychische kwetsbaarheid, verslaving, schulden, of laaggeletterdheid. |
+    | toelichting | • Het betreft hier signalen of omstandigheden die invloed kunnen hebben op de voortgang, begeleiding of ondersteuning.<br>• In het model wordt Aandachtspunt gekoppeld aan onder meer de objecttypen Traject en Ondersteuningsactiviteit.<br>• Mogelijke voorbeelden (zie onderliggende attributen of enumeraties in het model) zijn: psychische kwetsbaarheid, verslaving, schulden, of laaggeletterdheid.#NOTES# • Het betreft hier signalen of omstandigheden die invloed kunnen hebben op de voortgang, begeleiding of ondersteuning.<br>• In het model wordt Aandachtspunt gekoppeld aan onder meer de objecttypen Traject en Ondersteuningsactiviteit.<br>• Mogelijke voorbeelden (zie onderliggende attributen of enumeraties in het model) zijn: psychische kwetsbaarheid, verslaving, schulden, of laaggeletterdheid.#NOTES# • Het betreft hier signalen of omstandigheden die invloed kunnen hebben op de voortgang, begeleiding of ondersteuning.<br>• In het model wordt Aandachtspunt gekoppeld aan onder meer de objecttypen Traject en Ondersteuningsactiviteit.<br>• Mogelijke voorbeelden (zie onderliggende attributen of enumeraties in het model) zijn: psychische kwetsbaarheid, verslaving, schulden, of laaggeletterdheid.#NOTES# • Het betreft hier signalen of omstandigheden die invloed kunnen hebben op de voortgang, begeleiding of ondersteuning.<br>• In het model wordt Aandachtspunt gekoppeld aan onder meer de objecttypen Traject en Ondersteuningsactiviteit.<br>• Mogelijke voorbeelden (zie onderliggende attributen of enumeraties in het model) zijn: psychische kwetsbaarheid, verslaving, schulden, of laaggeletterdheid.#NOTES# • Het betreft hier signalen of omstandigheden die invloed kunnen hebben op de voortgang, begeleiding of ondersteuning.<br>• In het model wordt Aandachtspunt gekoppeld aan onder meer de objecttypen Traject en Ondersteuningsactiviteit.<br>• Mogelijke voorbeelden (zie onderliggende attributen of enumeraties in het model) zijn: psychische kwetsbaarheid, verslaving, schulden, of laaggeletterdheid. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-02-26 16:13:54 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_F188F63C\_0033\_4164\_9F73\_413AE6943497 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -113,14 +113,14 @@ Attributen van objecttype Aandachtspunt
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aanvraag verlenging Inburgeringstermijn |
-    | toelichting | • De aanvraag wordt ingediend bij de gemeente waarin de inburgeringsplichtige woont.<br>• Redenen voor verlenging kunnen onder andere zijn: medische beperkingen, zwangerschap, mantelzorg, psychische problematiek of detentie.<br>• De verlenging kan alleen worden verleend als er sprake is van aantoonbare belemmeringen die het afronden van het inburgeringstraject binnen de standaardtermijn (drie jaar) onmogelijk maken.<br>• De gemeente besluit op de aanvraag, eventueel na het inwinnen van advies of aanvullende informatie.#NOTES# • De aanvraag wordt ingediend bij de gemeente waarin de inburgeringsplichtige woont.<br>• Redenen voor verlenging kunnen onder andere zijn: medische beperkingen, zwangerschap, mantelzorg, psychische problematiek of detentie.<br>• De verlenging kan alleen worden verleend als er sprake is van aantoonbare belemmeringen die het afronden van het inburgeringstraject binnen de standaardtermijn (drie jaar) onmogelijk maken.<br>• De gemeente besluit op de aanvraag, eventueel na het inwinnen van advies of aanvullende informatie.#NOTES# • De aanvraag wordt ingediend bij de gemeente waarin de inburgeringsplichtige woont.<br>• Redenen voor verlenging kunnen onder andere zijn: medische beperkingen, zwangerschap, mantelzorg, psychische problematiek of detentie.<br>• De verlenging kan alleen worden verleend als er sprake is van aantoonbare belemmeringen die het afronden van het inburgeringstraject binnen de standaardtermijn (drie jaar) onmogelijk maken.<br>• De gemeente besluit op de aanvraag, eventueel na het inwinnen van advies of aanvullende informatie.#NOTES# • De aanvraag wordt ingediend bij de gemeente waarin de inburgeringsplichtige woont.<br>• Redenen voor verlenging kunnen onder andere zijn: medische beperkingen, zwangerschap, mantelzorg, psychische problematiek of detentie.<br>• De verlenging kan alleen worden verleend als er sprake is van aantoonbare belemmeringen die het afronden van het inburgeringstraject binnen de standaardtermijn (drie jaar) onmogelijk maken.<br>• De gemeente besluit op de aanvraag, eventueel na het inwinnen van advies of aanvullende informatie. |
+    | toelichting | • De aanvraag wordt ingediend bij de gemeente waarin de inburgeringsplichtige woont.<br>• Redenen voor verlenging kunnen onder andere zijn: medische beperkingen, zwangerschap, mantelzorg, psychische problematiek of detentie.<br>• De verlenging kan alleen worden verleend als er sprake is van aantoonbare belemmeringen die het afronden van het inburgeringstraject binnen de standaardtermijn (drie jaar) onmogelijk maken.<br>• De gemeente besluit op de aanvraag, eventueel na het inwinnen van advies of aanvullende informatie.#NOTES# • De aanvraag wordt ingediend bij de gemeente waarin de inburgeringsplichtige woont.<br>• Redenen voor verlenging kunnen onder andere zijn: medische beperkingen, zwangerschap, mantelzorg, psychische problematiek of detentie.<br>• De verlenging kan alleen worden verleend als er sprake is van aantoonbare belemmeringen die het afronden van het inburgeringstraject binnen de standaardtermijn (drie jaar) onmogelijk maken.<br>• De gemeente besluit op de aanvraag, eventueel na het inwinnen van advies of aanvullende informatie.#NOTES# • De aanvraag wordt ingediend bij de gemeente waarin de inburgeringsplichtige woont.<br>• Redenen voor verlenging kunnen onder andere zijn: medische beperkingen, zwangerschap, mantelzorg, psychische problematiek of detentie.<br>• De verlenging kan alleen worden verleend als er sprake is van aantoonbare belemmeringen die het afronden van het inburgeringstraject binnen de standaardtermijn (drie jaar) onmogelijk maken.<br>• De gemeente besluit op de aanvraag, eventueel na het inwinnen van advies of aanvullende informatie.#NOTES# • De aanvraag wordt ingediend bij de gemeente waarin de inburgeringsplichtige woont.<br>• Redenen voor verlenging kunnen onder andere zijn: medische beperkingen, zwangerschap, mantelzorg, psychische problematiek of detentie.<br>• De verlenging kan alleen worden verleend als er sprake is van aantoonbare belemmeringen die het afronden van het inburgeringstraject binnen de standaardtermijn (drie jaar) onmogelijk maken.<br>• De gemeente besluit op de aanvraag, eventueel na het inwinnen van advies of aanvullende informatie.#NOTES# • De aanvraag wordt ingediend bij de gemeente waarin de inburgeringsplichtige woont.<br>• Redenen voor verlenging kunnen onder andere zijn: medische beperkingen, zwangerschap, mantelzorg, psychische problematiek of detentie.<br>• De verlenging kan alleen worden verleend als er sprake is van aantoonbare belemmeringen die het afronden van het inburgeringstraject binnen de standaardtermijn (drie jaar) onmogelijk maken.<br>• De gemeente besluit op de aanvraag, eventueel na het inwinnen van advies of aanvullende informatie. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2024-09-16 13:06:14 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_63D30089\_AD78\_4c29\_9D17\_160FE4A242E8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -191,14 +191,14 @@ Attributen van objecttype Asielstatushouder
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | B1-route |
-    | toelichting | • De B1-route is bedoeld voor inburgeringsplichtigen die voldoende leervermogen hebben om Nederlands op B1-niveau te leren (Europees Referentiekader).<br>• De route omvat onder andere taallessen, KNM (Kennis van de Nederlandse Maatschappij), en participatieactiviteiten.<br>• De gemeente stelt de leerroute vast op basis van de brede intake en de leerbaarheidstoets (zie artikelen 15 en 16 van de Wet inburgering 2021).<br>• Binnen deze route is ook ruimte voor duale trajecten waarin taalverwerving en praktijkervaring worden gecombineerd (zoals werken of vrijwilligerswerk).#NOTES# • De B1-route is bedoeld voor inburgeringsplichtigen die voldoende leervermogen hebben om Nederlands op B1-niveau te leren (Europees Referentiekader).<br>• De route omvat onder andere taallessen, KNM (Kennis van de Nederlandse Maatschappij), en participatieactiviteiten.<br>• De gemeente stelt de leerroute vast op basis van de brede intake en de leerbaarheidstoets (zie artikelen 15 en 16 van de Wet inburgering 2021).<br>• Binnen deze route is ook ruimte voor duale trajecten waarin taalverwerving en praktijkervaring worden gecombineerd (zoals werken of vrijwilligerswerk).#NOTES# • De B1-route is bedoeld voor inburgeringsplichtigen die voldoende leervermogen hebben om Nederlands op B1-niveau te leren (Europees Referentiekader).<br>• De route omvat onder andere taallessen, KNM (Kennis van de Nederlandse Maatschappij), en participatieactiviteiten.<br>• De gemeente stelt de leerroute vast op basis van de brede intake en de leerbaarheidstoets (zie artikelen 15 en 16 van de Wet inburgering 2021).<br>• Binnen deze route is ook ruimte voor duale trajecten waarin taalverwerving en praktijkervaring worden gecombineerd (zoals werken of vrijwilligerswerk).#NOTES# • De B1-route is bedoeld voor inburgeringsplichtigen die voldoende leervermogen hebben om Nederlands op B1-niveau te leren (Europees Referentiekader).<br>• De route omvat onder andere taallessen, KNM (Kennis van de Nederlandse Maatschappij), en participatieactiviteiten.<br>• De gemeente stelt de leerroute vast op basis van de brede intake en de leerbaarheidstoets (zie artikelen 15 en 16 van de Wet inburgering 2021).<br>• Binnen deze route is ook ruimte voor duale trajecten waarin taalverwerving en praktijkervaring worden gecombineerd (zoals werken of vrijwilligerswerk). |
+    | toelichting | • De B1-route is bedoeld voor inburgeringsplichtigen die voldoende leervermogen hebben om Nederlands op B1-niveau te leren (Europees Referentiekader).<br>• De route omvat onder andere taallessen, KNM (Kennis van de Nederlandse Maatschappij), en participatieactiviteiten.<br>• De gemeente stelt de leerroute vast op basis van de brede intake en de leerbaarheidstoets (zie artikelen 15 en 16 van de Wet inburgering 2021).<br>• Binnen deze route is ook ruimte voor duale trajecten waarin taalverwerving en praktijkervaring worden gecombineerd (zoals werken of vrijwilligerswerk).#NOTES# • De B1-route is bedoeld voor inburgeringsplichtigen die voldoende leervermogen hebben om Nederlands op B1-niveau te leren (Europees Referentiekader).<br>• De route omvat onder andere taallessen, KNM (Kennis van de Nederlandse Maatschappij), en participatieactiviteiten.<br>• De gemeente stelt de leerroute vast op basis van de brede intake en de leerbaarheidstoets (zie artikelen 15 en 16 van de Wet inburgering 2021).<br>• Binnen deze route is ook ruimte voor duale trajecten waarin taalverwerving en praktijkervaring worden gecombineerd (zoals werken of vrijwilligerswerk).#NOTES# • De B1-route is bedoeld voor inburgeringsplichtigen die voldoende leervermogen hebben om Nederlands op B1-niveau te leren (Europees Referentiekader).<br>• De route omvat onder andere taallessen, KNM (Kennis van de Nederlandse Maatschappij), en participatieactiviteiten.<br>• De gemeente stelt de leerroute vast op basis van de brede intake en de leerbaarheidstoets (zie artikelen 15 en 16 van de Wet inburgering 2021).<br>• Binnen deze route is ook ruimte voor duale trajecten waarin taalverwerving en praktijkervaring worden gecombineerd (zoals werken of vrijwilligerswerk).#NOTES# • De B1-route is bedoeld voor inburgeringsplichtigen die voldoende leervermogen hebben om Nederlands op B1-niveau te leren (Europees Referentiekader).<br>• De route omvat onder andere taallessen, KNM (Kennis van de Nederlandse Maatschappij), en participatieactiviteiten.<br>• De gemeente stelt de leerroute vast op basis van de brede intake en de leerbaarheidstoets (zie artikelen 15 en 16 van de Wet inburgering 2021).<br>• Binnen deze route is ook ruimte voor duale trajecten waarin taalverwerving en praktijkervaring worden gecombineerd (zoals werken of vrijwilligerswerk).#NOTES# • De B1-route is bedoeld voor inburgeringsplichtigen die voldoende leervermogen hebben om Nederlands op B1-niveau te leren (Europees Referentiekader).<br>• De route omvat onder andere taallessen, KNM (Kennis van de Nederlandse Maatschappij), en participatieactiviteiten.<br>• De gemeente stelt de leerroute vast op basis van de brede intake en de leerbaarheidstoets (zie artikelen 15 en 16 van de Wet inburgering 2021).<br>• Binnen deze route is ook ruimte voor duale trajecten waarin taalverwerving en praktijkervaring worden gecombineerd (zoals werken of vrijwilligerswerk). |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-03-25 14:30:41 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_09D462A9\_94C8\_4803\_A0A0\_B7DB4363B45D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -236,9 +236,9 @@ Attributen van objecttype B1-route
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.3.0 |
+    | version | 1.4.0 |
     | created | 2022-11-28 16:48:20 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_8B394DCE\_C3C4\_4262\_9460\_8EF130E90D83 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -273,14 +273,14 @@ Attributen van objecttype Brede Intake
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Diplomawaardering |
-    | toelichting | #NOTES# • In het kader van de Wet inburgering 2021 maakt diplomawaardering deel uit van de brede intake (artikel 15 en 16), waarmee het college van B&W bepaalt welke leerroute passend is.<br>• De diplomawaardering helpt bij het inzichtelijk maken van de onderwijsachtergrond van de inburgeringsplichtige en ondersteunt toeleiding naar werk of vervolgonderwijs.<br>• De waardering wordt uitgevoerd door Nuffic via het IDW en resulteert in een waarderingsrapport.<br>• Niet elk diploma hoeft gewaardeerd te worden; het gebeurt alleen als het relevant is voor de bepaling van de route of voor participatie richting arbeid of onderwijs.#NOTES# • In het kader van de Wet inburgering 2021 maakt diplomawaardering deel uit van de brede intake (artikel 15 en 16), waarmee het college van B&W bepaalt welke leerroute passend is.<br>• De diplomawaardering helpt bij het inzichtelijk maken van de onderwijsachtergrond van de inburgeringsplichtige en ondersteunt toeleiding naar werk of vervolgonderwijs.<br>• De waardering wordt uitgevoerd door Nuffic via het IDW en resulteert in een waarderingsrapport.<br>• Niet elk diploma hoeft gewaardeerd te worden; het gebeurt alleen als het relevant is voor de bepaling van de route of voor participatie richting arbeid of onderwijs.#NOTES# • In het kader van de Wet inburgering 2021 maakt diplomawaardering deel uit van de brede intake (artikel 15 en 16), waarmee het college van B&W bepaalt welke leerroute passend is.<br>• De diplomawaardering helpt bij het inzichtelijk maken van de onderwijsachtergrond van de inburgeringsplichtige en ondersteunt toeleiding naar werk of vervolgonderwijs.<br>• De waardering wordt uitgevoerd door Nuffic via het IDW en resulteert in een waarderingsrapport.<br>• Niet elk diploma hoeft gewaardeerd te worden; het gebeurt alleen als het relevant is voor de bepaling van de route of voor participatie richting arbeid of onderwijs.#NOTES# • In het kader van de Wet inburgering 2021 maakt diplomawaardering deel uit van de brede intake (artikel 15 en 16), waarmee het college van B&W bepaalt welke leerroute passend is.<br>• De diplomawaardering helpt bij het inzichtelijk maken van de onderwijsachtergrond van de inburgeringsplichtige en ondersteunt toeleiding naar werk of vervolgonderwijs.<br>• De waardering wordt uitgevoerd door Nuffic via het IDW en resulteert in een waarderingsrapport.<br>• Niet elk diploma hoeft gewaardeerd te worden; het gebeurt alleen als het relevant is voor de bepaling van de route of voor participatie richting arbeid of onderwijs. |
+    | toelichting | #NOTES# • In het kader van de Wet inburgering 2021 maakt diplomawaardering deel uit van de brede intake (artikel 15 en 16), waarmee het college van B&W bepaalt welke leerroute passend is.<br>• De diplomawaardering helpt bij het inzichtelijk maken van de onderwijsachtergrond van de inburgeringsplichtige en ondersteunt toeleiding naar werk of vervolgonderwijs.<br>• De waardering wordt uitgevoerd door Nuffic via het IDW en resulteert in een waarderingsrapport.<br>• Niet elk diploma hoeft gewaardeerd te worden; het gebeurt alleen als het relevant is voor de bepaling van de route of voor participatie richting arbeid of onderwijs.#NOTES# • In het kader van de Wet inburgering 2021 maakt diplomawaardering deel uit van de brede intake (artikel 15 en 16), waarmee het college van B&W bepaalt welke leerroute passend is.<br>• De diplomawaardering helpt bij het inzichtelijk maken van de onderwijsachtergrond van de inburgeringsplichtige en ondersteunt toeleiding naar werk of vervolgonderwijs.<br>• De waardering wordt uitgevoerd door Nuffic via het IDW en resulteert in een waarderingsrapport.<br>• Niet elk diploma hoeft gewaardeerd te worden; het gebeurt alleen als het relevant is voor de bepaling van de route of voor participatie richting arbeid of onderwijs.#NOTES# • In het kader van de Wet inburgering 2021 maakt diplomawaardering deel uit van de brede intake (artikel 15 en 16), waarmee het college van B&W bepaalt welke leerroute passend is.<br>• De diplomawaardering helpt bij het inzichtelijk maken van de onderwijsachtergrond van de inburgeringsplichtige en ondersteunt toeleiding naar werk of vervolgonderwijs.<br>• De waardering wordt uitgevoerd door Nuffic via het IDW en resulteert in een waarderingsrapport.<br>• Niet elk diploma hoeft gewaardeerd te worden; het gebeurt alleen als het relevant is voor de bepaling van de route of voor participatie richting arbeid of onderwijs.#NOTES# • In het kader van de Wet inburgering 2021 maakt diplomawaardering deel uit van de brede intake (artikel 15 en 16), waarmee het college van B&W bepaalt welke leerroute passend is.<br>• De diplomawaardering helpt bij het inzichtelijk maken van de onderwijsachtergrond van de inburgeringsplichtige en ondersteunt toeleiding naar werk of vervolgonderwijs.<br>• De waardering wordt uitgevoerd door Nuffic via het IDW en resulteert in een waarderingsrapport.<br>• Niet elk diploma hoeft gewaardeerd te worden; het gebeurt alleen als het relevant is voor de bepaling van de route of voor participatie richting arbeid of onderwijs.#NOTES# • In het kader van de Wet inburgering 2021 maakt diplomawaardering deel uit van de brede intake (artikel 15 en 16), waarmee het college van B&W bepaalt welke leerroute passend is.<br>• De diplomawaardering helpt bij het inzichtelijk maken van de onderwijsachtergrond van de inburgeringsplichtige en ondersteunt toeleiding naar werk of vervolgonderwijs.<br>• De waardering wordt uitgevoerd door Nuffic via het IDW en resulteert in een waarderingsrapport.<br>• Niet elk diploma hoeft gewaardeerd te worden; het gebeurt alleen als het relevant is voor de bepaling van de route of voor participatie richting arbeid of onderwijs. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2024-09-16 11:55:15 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_950DD620\_01C0\_4594\_875F\_AE23C9154826 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -313,14 +313,14 @@ Attributen van objecttype Diplomawaardering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Educatie |
-    | toelichting | #NOTES# Binnen de context van de Wet inburgering 2021 kan educatie onderdeel zijn van een Z-route, maar ook aanvullend worden ingezet in de B1-route, met name wanneer extra ondersteuning nodig is op het gebied van basisvaardigheden.<br>• Educatie valt onder de verantwoordelijkheid van de gemeente, die op basis van de brede intake en het leerrouteadvies bepaalt of educatie passend en noodzakelijk is.<br>• Het educatieaanbod wordt veelal gefinancierd via de WEB-gelden (Wet educatie en beroepsonderwijs), en is bedoeld voor volwassenen vanaf 18 jaar die hun vaardigheden willen verbeteren om beter te kunnen functioneren in de samenleving.#NOTES# Binnen de context van de Wet inburgering 2021 kan educatie onderdeel zijn van een Z-route, maar ook aanvullend worden ingezet in de B1-route, met name wanneer extra ondersteuning nodig is op het gebied van basisvaardigheden.<br>• Educatie valt onder de verantwoordelijkheid van de gemeente, die op basis van de brede intake en het leerrouteadvies bepaalt of educatie passend en noodzakelijk is.<br>• Het educatieaanbod wordt veelal gefinancierd via de WEB-gelden (Wet educatie en beroepsonderwijs), en is bedoeld voor volwassenen vanaf 18 jaar die hun vaardigheden willen verbeteren om beter te kunnen functioneren in de samenleving.#NOTES# Binnen de context van de Wet inburgering 2021 kan educatie onderdeel zijn van een Z-route, maar ook aanvullend worden ingezet in de B1-route, met name wanneer extra ondersteuning nodig is op het gebied van basisvaardigheden.<br>• Educatie valt onder de verantwoordelijkheid van de gemeente, die op basis van de brede intake en het leerrouteadvies bepaalt of educatie passend en noodzakelijk is.<br>• Het educatieaanbod wordt veelal gefinancierd via de WEB-gelden (Wet educatie en beroepsonderwijs), en is bedoeld voor volwassenen vanaf 18 jaar die hun vaardigheden willen verbeteren om beter te kunnen functioneren in de samenleving.#NOTES# Binnen de context van de Wet inburgering 2021 kan educatie onderdeel zijn van een Z-route, maar ook aanvullend worden ingezet in de B1-route, met name wanneer extra ondersteuning nodig is op het gebied van basisvaardigheden.<br>• Educatie valt onder de verantwoordelijkheid van de gemeente, die op basis van de brede intake en het leerrouteadvies bepaalt of educatie passend en noodzakelijk is.<br>• Het educatieaanbod wordt veelal gefinancierd via de WEB-gelden (Wet educatie en beroepsonderwijs), en is bedoeld voor volwassenen vanaf 18 jaar die hun vaardigheden willen verbeteren om beter te kunnen functioneren in de samenleving. |
+    | toelichting | #NOTES# Binnen de context van de Wet inburgering 2021 kan educatie onderdeel zijn van een Z-route, maar ook aanvullend worden ingezet in de B1-route, met name wanneer extra ondersteuning nodig is op het gebied van basisvaardigheden.<br>• Educatie valt onder de verantwoordelijkheid van de gemeente, die op basis van de brede intake en het leerrouteadvies bepaalt of educatie passend en noodzakelijk is.<br>• Het educatieaanbod wordt veelal gefinancierd via de WEB-gelden (Wet educatie en beroepsonderwijs), en is bedoeld voor volwassenen vanaf 18 jaar die hun vaardigheden willen verbeteren om beter te kunnen functioneren in de samenleving.#NOTES# Binnen de context van de Wet inburgering 2021 kan educatie onderdeel zijn van een Z-route, maar ook aanvullend worden ingezet in de B1-route, met name wanneer extra ondersteuning nodig is op het gebied van basisvaardigheden.<br>• Educatie valt onder de verantwoordelijkheid van de gemeente, die op basis van de brede intake en het leerrouteadvies bepaalt of educatie passend en noodzakelijk is.<br>• Het educatieaanbod wordt veelal gefinancierd via de WEB-gelden (Wet educatie en beroepsonderwijs), en is bedoeld voor volwassenen vanaf 18 jaar die hun vaardigheden willen verbeteren om beter te kunnen functioneren in de samenleving.#NOTES# Binnen de context van de Wet inburgering 2021 kan educatie onderdeel zijn van een Z-route, maar ook aanvullend worden ingezet in de B1-route, met name wanneer extra ondersteuning nodig is op het gebied van basisvaardigheden.<br>• Educatie valt onder de verantwoordelijkheid van de gemeente, die op basis van de brede intake en het leerrouteadvies bepaalt of educatie passend en noodzakelijk is.<br>• Het educatieaanbod wordt veelal gefinancierd via de WEB-gelden (Wet educatie en beroepsonderwijs), en is bedoeld voor volwassenen vanaf 18 jaar die hun vaardigheden willen verbeteren om beter te kunnen functioneren in de samenleving.#NOTES# Binnen de context van de Wet inburgering 2021 kan educatie onderdeel zijn van een Z-route, maar ook aanvullend worden ingezet in de B1-route, met name wanneer extra ondersteuning nodig is op het gebied van basisvaardigheden.<br>• Educatie valt onder de verantwoordelijkheid van de gemeente, die op basis van de brede intake en het leerrouteadvies bepaalt of educatie passend en noodzakelijk is.<br>• Het educatieaanbod wordt veelal gefinancierd via de WEB-gelden (Wet educatie en beroepsonderwijs), en is bedoeld voor volwassenen vanaf 18 jaar die hun vaardigheden willen verbeteren om beter te kunnen functioneren in de samenleving.#NOTES# Binnen de context van de Wet inburgering 2021 kan educatie onderdeel zijn van een Z-route, maar ook aanvullend worden ingezet in de B1-route, met name wanneer extra ondersteuning nodig is op het gebied van basisvaardigheden.<br>• Educatie valt onder de verantwoordelijkheid van de gemeente, die op basis van de brede intake en het leerrouteadvies bepaalt of educatie passend en noodzakelijk is.<br>• Het educatieaanbod wordt veelal gefinancierd via de WEB-gelden (Wet educatie en beroepsonderwijs), en is bedoeld voor volwassenen vanaf 18 jaar die hun vaardigheden willen verbeteren om beter te kunnen functioneren in de samenleving. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2024-09-16 11:59:33 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_8C5FEEDF\_1AE5\_44a6\_8A13\_53A70F06DBBC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -359,9 +359,9 @@ Attributen van objecttype Educatie
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.3.0 |
+    | version | 1.4.0 |
     | created | 2022-11-28 16:59:53 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_DCE46ABA\_613D\_4204\_86F4\_35F517FF680F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -395,9 +395,9 @@ Attributen van objecttype Examen
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.3.0 |
+    | version | 1.4.0 |
     | created | 2022-11-28 17:00:52 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_D41DCE2D\_4AD5\_45b8\_9527\_EC416F4A4CC7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -441,9 +441,9 @@ Attributen van objecttype Examenonderdeel
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.3.0 |
+    | version | 1.4.0 |
     | created | 2022-11-21 13:45:07 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_526489DC\_4D57\_4e6d\_8338\_5F7C898162F6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -472,14 +472,14 @@ Attributen van objecttype Gezinsmigrant en Overige migrant
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Hoofddoel |
-    | toelichting | • Het hoofddoel geeft richting aan de inrichting van het persoonlijk plan inburgering en participatie (PIP), zoals bedoeld in artikel 17 van de Wet inburgering 2021.<br>• De gemeente stelt het hoofddoel vast in samenspraak met de inburgeringsplichtige en op basis van onder meer de leerbaarheidstoets, diplomawaardering en arbeidsmarktkansen.<br>• Voorbeelden van hoofddoelen zijn: uitstroom naar betaald werk, instroom in een opleiding (zoals mbo of hbo), of duurzame maatschappelijke participatie (bijvoorbeeld via vrijwilligerswerk).<br>• Het hoofddoel is bepalend voor de keuze en inrichting van de leerroute (B1-route, Z-route, Onderwijsroute).#NOTES# • Het hoofddoel geeft richting aan de inrichting van het persoonlijk plan inburgering en participatie (PIP), zoals bedoeld in artikel 17 van de Wet inburgering 2021.<br>• De gemeente stelt het hoofddoel vast in samenspraak met de inburgeringsplichtige en op basis van onder meer de leerbaarheidstoets, diplomawaardering en arbeidsmarktkansen.<br>• Voorbeelden van hoofddoelen zijn: uitstroom naar betaald werk, instroom in een opleiding (zoals mbo of hbo), of duurzame maatschappelijke participatie (bijvoorbeeld via vrijwilligerswerk).<br>• Het hoofddoel is bepalend voor de keuze en inrichting van de leerroute (B1-route, Z-route, Onderwijsroute).#NOTES# • Het hoofddoel geeft richting aan de inrichting van het persoonlijk plan inburgering en participatie (PIP), zoals bedoeld in artikel 17 van de Wet inburgering 2021.<br>• De gemeente stelt het hoofddoel vast in samenspraak met de inburgeringsplichtige en op basis van onder meer de leerbaarheidstoets, diplomawaardering en arbeidsmarktkansen.<br>• Voorbeelden van hoofddoelen zijn: uitstroom naar betaald werk, instroom in een opleiding (zoals mbo of hbo), of duurzame maatschappelijke participatie (bijvoorbeeld via vrijwilligerswerk).<br>• Het hoofddoel is bepalend voor de keuze en inrichting van de leerroute (B1-route, Z-route, Onderwijsroute).#NOTES# • Het hoofddoel geeft richting aan de inrichting van het persoonlijk plan inburgering en participatie (PIP), zoals bedoeld in artikel 17 van de Wet inburgering 2021.<br>• De gemeente stelt het hoofddoel vast in samenspraak met de inburgeringsplichtige en op basis van onder meer de leerbaarheidstoets, diplomawaardering en arbeidsmarktkansen.<br>• Voorbeelden van hoofddoelen zijn: uitstroom naar betaald werk, instroom in een opleiding (zoals mbo of hbo), of duurzame maatschappelijke participatie (bijvoorbeeld via vrijwilligerswerk).<br>• Het hoofddoel is bepalend voor de keuze en inrichting van de leerroute (B1-route, Z-route, Onderwijsroute). |
+    | toelichting | • Het hoofddoel geeft richting aan de inrichting van het persoonlijk plan inburgering en participatie (PIP), zoals bedoeld in artikel 17 van de Wet inburgering 2021.<br>• De gemeente stelt het hoofddoel vast in samenspraak met de inburgeringsplichtige en op basis van onder meer de leerbaarheidstoets, diplomawaardering en arbeidsmarktkansen.<br>• Voorbeelden van hoofddoelen zijn: uitstroom naar betaald werk, instroom in een opleiding (zoals mbo of hbo), of duurzame maatschappelijke participatie (bijvoorbeeld via vrijwilligerswerk).<br>• Het hoofddoel is bepalend voor de keuze en inrichting van de leerroute (B1-route, Z-route, Onderwijsroute).#NOTES# • Het hoofddoel geeft richting aan de inrichting van het persoonlijk plan inburgering en participatie (PIP), zoals bedoeld in artikel 17 van de Wet inburgering 2021.<br>• De gemeente stelt het hoofddoel vast in samenspraak met de inburgeringsplichtige en op basis van onder meer de leerbaarheidstoets, diplomawaardering en arbeidsmarktkansen.<br>• Voorbeelden van hoofddoelen zijn: uitstroom naar betaald werk, instroom in een opleiding (zoals mbo of hbo), of duurzame maatschappelijke participatie (bijvoorbeeld via vrijwilligerswerk).<br>• Het hoofddoel is bepalend voor de keuze en inrichting van de leerroute (B1-route, Z-route, Onderwijsroute).#NOTES# • Het hoofddoel geeft richting aan de inrichting van het persoonlijk plan inburgering en participatie (PIP), zoals bedoeld in artikel 17 van de Wet inburgering 2021.<br>• De gemeente stelt het hoofddoel vast in samenspraak met de inburgeringsplichtige en op basis van onder meer de leerbaarheidstoets, diplomawaardering en arbeidsmarktkansen.<br>• Voorbeelden van hoofddoelen zijn: uitstroom naar betaald werk, instroom in een opleiding (zoals mbo of hbo), of duurzame maatschappelijke participatie (bijvoorbeeld via vrijwilligerswerk).<br>• Het hoofddoel is bepalend voor de keuze en inrichting van de leerroute (B1-route, Z-route, Onderwijsroute).#NOTES# • Het hoofddoel geeft richting aan de inrichting van het persoonlijk plan inburgering en participatie (PIP), zoals bedoeld in artikel 17 van de Wet inburgering 2021.<br>• De gemeente stelt het hoofddoel vast in samenspraak met de inburgeringsplichtige en op basis van onder meer de leerbaarheidstoets, diplomawaardering en arbeidsmarktkansen.<br>• Voorbeelden van hoofddoelen zijn: uitstroom naar betaald werk, instroom in een opleiding (zoals mbo of hbo), of duurzame maatschappelijke participatie (bijvoorbeeld via vrijwilligerswerk).<br>• Het hoofddoel is bepalend voor de keuze en inrichting van de leerroute (B1-route, Z-route, Onderwijsroute).#NOTES# • Het hoofddoel geeft richting aan de inrichting van het persoonlijk plan inburgering en participatie (PIP), zoals bedoeld in artikel 17 van de Wet inburgering 2021.<br>• De gemeente stelt het hoofddoel vast in samenspraak met de inburgeringsplichtige en op basis van onder meer de leerbaarheidstoets, diplomawaardering en arbeidsmarktkansen.<br>• Voorbeelden van hoofddoelen zijn: uitstroom naar betaald werk, instroom in een opleiding (zoals mbo of hbo), of duurzame maatschappelijke participatie (bijvoorbeeld via vrijwilligerswerk).<br>• Het hoofddoel is bepalend voor de keuze en inrichting van de leerroute (B1-route, Z-route, Onderwijsroute). |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-02-26 16:12:34 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_CEAAEBFB\_9CB8\_4c5e\_98F7\_11791C0A21D2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -510,14 +510,14 @@ Attributen van objecttype Hoofddoel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ICT-Vaardigheid |
-    | toelichting | #NOTES# • ICT-vaardigheden zijn onderdeel van de basisvaardigheden (samen met taal en rekenen), die binnen het inburgeringsstelsel aandacht kunnen krijgen, met name in de Z-route en bij aanvullende educatie.<br>• In de brede intake wordt het niveau van ICT-vaardigheid vastgesteld om te bepalen of extra ondersteuning nodig is, bijvoorbeeld in de vorm van cursussen of begeleiding.<br>• Een onvoldoende beheersing van ICT-vaardigheden kan een belemmering vormen voor het volgen van digitale inburgeringsmodules, het vinden van werk of het regelen van zaken via overheidsportalen (zoals DUO of MijnOverheid).<br>• Gemeenten kunnen, mede via WEB-gelden of lokale educatievoorzieningen, programma’s aanbieden die gericht zijn op het verbeteren van digitale zelfredzaamheid.#NOTES# • ICT-vaardigheden zijn onderdeel van de basisvaardigheden (samen met taal en rekenen), die binnen het inburgeringsstelsel aandacht kunnen krijgen, met name in de Z-route en bij aanvullende educatie.<br>• In de brede intake wordt het niveau van ICT-vaardigheid vastgesteld om te bepalen of extra ondersteuning nodig is, bijvoorbeeld in de vorm van cursussen of begeleiding.<br>• Een onvoldoende beheersing van ICT-vaardigheden kan een belemmering vormen voor het volgen van digitale inburgeringsmodules, het vinden van werk of het regelen van zaken via overheidsportalen (zoals DUO of MijnOverheid).<br>• Gemeenten kunnen, mede via WEB-gelden of lokale educatievoorzieningen, programma’s aanbieden die gericht zijn op het verbeteren van digitale zelfredzaamheid.#NOTES# • ICT-vaardigheden zijn onderdeel van de basisvaardigheden (samen met taal en rekenen), die binnen het inburgeringsstelsel aandacht kunnen krijgen, met name in de Z-route en bij aanvullende educatie.<br>• In de brede intake wordt het niveau van ICT-vaardigheid vastgesteld om te bepalen of extra ondersteuning nodig is, bijvoorbeeld in de vorm van cursussen of begeleiding.<br>• Een onvoldoende beheersing van ICT-vaardigheden kan een belemmering vormen voor het volgen van digitale inburgeringsmodules, het vinden van werk of het regelen van zaken via overheidsportalen (zoals DUO of MijnOverheid).<br>• Gemeenten kunnen, mede via WEB-gelden of lokale educatievoorzieningen, programma’s aanbieden die gericht zijn op het verbeteren van digitale zelfredzaamheid.#NOTES# • ICT-vaardigheden zijn onderdeel van de basisvaardigheden (samen met taal en rekenen), die binnen het inburgeringsstelsel aandacht kunnen krijgen, met name in de Z-route en bij aanvullende educatie.<br>• In de brede intake wordt het niveau van ICT-vaardigheid vastgesteld om te bepalen of extra ondersteuning nodig is, bijvoorbeeld in de vorm van cursussen of begeleiding.<br>• Een onvoldoende beheersing van ICT-vaardigheden kan een belemmering vormen voor het volgen van digitale inburgeringsmodules, het vinden van werk of het regelen van zaken via overheidsportalen (zoals DUO of MijnOverheid).<br>• Gemeenten kunnen, mede via WEB-gelden of lokale educatievoorzieningen, programma’s aanbieden die gericht zijn op het verbeteren van digitale zelfredzaamheid. |
+    | toelichting | #NOTES# • ICT-vaardigheden zijn onderdeel van de basisvaardigheden (samen met taal en rekenen), die binnen het inburgeringsstelsel aandacht kunnen krijgen, met name in de Z-route en bij aanvullende educatie.<br>• In de brede intake wordt het niveau van ICT-vaardigheid vastgesteld om te bepalen of extra ondersteuning nodig is, bijvoorbeeld in de vorm van cursussen of begeleiding.<br>• Een onvoldoende beheersing van ICT-vaardigheden kan een belemmering vormen voor het volgen van digitale inburgeringsmodules, het vinden van werk of het regelen van zaken via overheidsportalen (zoals DUO of MijnOverheid).<br>• Gemeenten kunnen, mede via WEB-gelden of lokale educatievoorzieningen, programma’s aanbieden die gericht zijn op het verbeteren van digitale zelfredzaamheid.#NOTES# • ICT-vaardigheden zijn onderdeel van de basisvaardigheden (samen met taal en rekenen), die binnen het inburgeringsstelsel aandacht kunnen krijgen, met name in de Z-route en bij aanvullende educatie.<br>• In de brede intake wordt het niveau van ICT-vaardigheid vastgesteld om te bepalen of extra ondersteuning nodig is, bijvoorbeeld in de vorm van cursussen of begeleiding.<br>• Een onvoldoende beheersing van ICT-vaardigheden kan een belemmering vormen voor het volgen van digitale inburgeringsmodules, het vinden van werk of het regelen van zaken via overheidsportalen (zoals DUO of MijnOverheid).<br>• Gemeenten kunnen, mede via WEB-gelden of lokale educatievoorzieningen, programma’s aanbieden die gericht zijn op het verbeteren van digitale zelfredzaamheid.#NOTES# • ICT-vaardigheden zijn onderdeel van de basisvaardigheden (samen met taal en rekenen), die binnen het inburgeringsstelsel aandacht kunnen krijgen, met name in de Z-route en bij aanvullende educatie.<br>• In de brede intake wordt het niveau van ICT-vaardigheid vastgesteld om te bepalen of extra ondersteuning nodig is, bijvoorbeeld in de vorm van cursussen of begeleiding.<br>• Een onvoldoende beheersing van ICT-vaardigheden kan een belemmering vormen voor het volgen van digitale inburgeringsmodules, het vinden van werk of het regelen van zaken via overheidsportalen (zoals DUO of MijnOverheid).<br>• Gemeenten kunnen, mede via WEB-gelden of lokale educatievoorzieningen, programma’s aanbieden die gericht zijn op het verbeteren van digitale zelfredzaamheid.#NOTES# • ICT-vaardigheden zijn onderdeel van de basisvaardigheden (samen met taal en rekenen), die binnen het inburgeringsstelsel aandacht kunnen krijgen, met name in de Z-route en bij aanvullende educatie.<br>• In de brede intake wordt het niveau van ICT-vaardigheid vastgesteld om te bepalen of extra ondersteuning nodig is, bijvoorbeeld in de vorm van cursussen of begeleiding.<br>• Een onvoldoende beheersing van ICT-vaardigheden kan een belemmering vormen voor het volgen van digitale inburgeringsmodules, het vinden van werk of het regelen van zaken via overheidsportalen (zoals DUO of MijnOverheid).<br>• Gemeenten kunnen, mede via WEB-gelden of lokale educatievoorzieningen, programma’s aanbieden die gericht zijn op het verbeteren van digitale zelfredzaamheid.#NOTES# • ICT-vaardigheden zijn onderdeel van de basisvaardigheden (samen met taal en rekenen), die binnen het inburgeringsstelsel aandacht kunnen krijgen, met name in de Z-route en bij aanvullende educatie.<br>• In de brede intake wordt het niveau van ICT-vaardigheid vastgesteld om te bepalen of extra ondersteuning nodig is, bijvoorbeeld in de vorm van cursussen of begeleiding.<br>• Een onvoldoende beheersing van ICT-vaardigheden kan een belemmering vormen voor het volgen van digitale inburgeringsmodules, het vinden van werk of het regelen van zaken via overheidsportalen (zoals DUO of MijnOverheid).<br>• Gemeenten kunnen, mede via WEB-gelden of lokale educatievoorzieningen, programma’s aanbieden die gericht zijn op het verbeteren van digitale zelfredzaamheid. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2024-09-16 12:47:24 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_1095BF0E\_087F\_4341\_8B3C\_E0DD4C9AF269 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -584,14 +584,14 @@ Attributen van objecttype Inburgeraar
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | InburgeringsAanbod |
-    | toelichting | #NOTES# • Het inburgeringsaanbod wordt samengesteld op basis van de uitkomsten van de brede intake en het gekozen hoofddoel (werk, opleiding of participatie).<br>• Het omvat onder andere: taallessen, participatieactiviteiten, begeleiding, eventueel educatie of (leer)werktrajecten, en ondersteuning bij examens.<br>• De gemeente is verantwoordelijk voor het aanbieden van een passend en tijdig aanbod (artikel 18 van de Wet inburgering 2021).<br>• De gemeente houdt bij de samenstelling rekening met de leerbaarheid, persoonlijke omstandigheden en belemmeringen van de inburgeringsplichtige.<br>• Het aanbod kan worden uitgevoerd door diverse aanbieders waarmee de gemeente contractuele afspraken heeft.#NOTES# • Het inburgeringsaanbod wordt samengesteld op basis van de uitkomsten van de brede intake en het gekozen hoofddoel (werk, opleiding of participatie).<br>• Het omvat onder andere: taallessen, participatieactiviteiten, begeleiding, eventueel educatie of (leer)werktrajecten, en ondersteuning bij examens.<br>• De gemeente is verantwoordelijk voor het aanbieden van een passend en tijdig aanbod (artikel 18 van de Wet inburgering 2021).<br>• De gemeente houdt bij de samenstelling rekening met de leerbaarheid, persoonlijke omstandigheden en belemmeringen van de inburgeringsplichtige.<br>• Het aanbod kan worden uitgevoerd door diverse aanbieders waarmee de gemeente contractuele afspraken heeft.#NOTES# • Het inburgeringsaanbod wordt samengesteld op basis van de uitkomsten van de brede intake en het gekozen hoofddoel (werk, opleiding of participatie).<br>• Het omvat onder andere: taallessen, participatieactiviteiten, begeleiding, eventueel educatie of (leer)werktrajecten, en ondersteuning bij examens.<br>• De gemeente is verantwoordelijk voor het aanbieden van een passend en tijdig aanbod (artikel 18 van de Wet inburgering 2021).<br>• De gemeente houdt bij de samenstelling rekening met de leerbaarheid, persoonlijke omstandigheden en belemmeringen van de inburgeringsplichtige.<br>• Het aanbod kan worden uitgevoerd door diverse aanbieders waarmee de gemeente contractuele afspraken heeft.#NOTES# • Het inburgeringsaanbod wordt samengesteld op basis van de uitkomsten van de brede intake en het gekozen hoofddoel (werk, opleiding of participatie).<br>• Het omvat onder andere: taallessen, participatieactiviteiten, begeleiding, eventueel educatie of (leer)werktrajecten, en ondersteuning bij examens.<br>• De gemeente is verantwoordelijk voor het aanbieden van een passend en tijdig aanbod (artikel 18 van de Wet inburgering 2021).<br>• De gemeente houdt bij de samenstelling rekening met de leerbaarheid, persoonlijke omstandigheden en belemmeringen van de inburgeringsplichtige.<br>• Het aanbod kan worden uitgevoerd door diverse aanbieders waarmee de gemeente contractuele afspraken heeft. |
+    | toelichting | #NOTES# • Het inburgeringsaanbod wordt samengesteld op basis van de uitkomsten van de brede intake en het gekozen hoofddoel (werk, opleiding of participatie).<br>• Het omvat onder andere: taallessen, participatieactiviteiten, begeleiding, eventueel educatie of (leer)werktrajecten, en ondersteuning bij examens.<br>• De gemeente is verantwoordelijk voor het aanbieden van een passend en tijdig aanbod (artikel 18 van de Wet inburgering 2021).<br>• De gemeente houdt bij de samenstelling rekening met de leerbaarheid, persoonlijke omstandigheden en belemmeringen van de inburgeringsplichtige.<br>• Het aanbod kan worden uitgevoerd door diverse aanbieders waarmee de gemeente contractuele afspraken heeft.#NOTES# • Het inburgeringsaanbod wordt samengesteld op basis van de uitkomsten van de brede intake en het gekozen hoofddoel (werk, opleiding of participatie).<br>• Het omvat onder andere: taallessen, participatieactiviteiten, begeleiding, eventueel educatie of (leer)werktrajecten, en ondersteuning bij examens.<br>• De gemeente is verantwoordelijk voor het aanbieden van een passend en tijdig aanbod (artikel 18 van de Wet inburgering 2021).<br>• De gemeente houdt bij de samenstelling rekening met de leerbaarheid, persoonlijke omstandigheden en belemmeringen van de inburgeringsplichtige.<br>• Het aanbod kan worden uitgevoerd door diverse aanbieders waarmee de gemeente contractuele afspraken heeft.#NOTES# • Het inburgeringsaanbod wordt samengesteld op basis van de uitkomsten van de brede intake en het gekozen hoofddoel (werk, opleiding of participatie).<br>• Het omvat onder andere: taallessen, participatieactiviteiten, begeleiding, eventueel educatie of (leer)werktrajecten, en ondersteuning bij examens.<br>• De gemeente is verantwoordelijk voor het aanbieden van een passend en tijdig aanbod (artikel 18 van de Wet inburgering 2021).<br>• De gemeente houdt bij de samenstelling rekening met de leerbaarheid, persoonlijke omstandigheden en belemmeringen van de inburgeringsplichtige.<br>• Het aanbod kan worden uitgevoerd door diverse aanbieders waarmee de gemeente contractuele afspraken heeft.#NOTES# • Het inburgeringsaanbod wordt samengesteld op basis van de uitkomsten van de brede intake en het gekozen hoofddoel (werk, opleiding of participatie).<br>• Het omvat onder andere: taallessen, participatieactiviteiten, begeleiding, eventueel educatie of (leer)werktrajecten, en ondersteuning bij examens.<br>• De gemeente is verantwoordelijk voor het aanbieden van een passend en tijdig aanbod (artikel 18 van de Wet inburgering 2021).<br>• De gemeente houdt bij de samenstelling rekening met de leerbaarheid, persoonlijke omstandigheden en belemmeringen van de inburgeringsplichtige.<br>• Het aanbod kan worden uitgevoerd door diverse aanbieders waarmee de gemeente contractuele afspraken heeft.#NOTES# • Het inburgeringsaanbod wordt samengesteld op basis van de uitkomsten van de brede intake en het gekozen hoofddoel (werk, opleiding of participatie).<br>• Het omvat onder andere: taallessen, participatieactiviteiten, begeleiding, eventueel educatie of (leer)werktrajecten, en ondersteuning bij examens.<br>• De gemeente is verantwoordelijk voor het aanbieden van een passend en tijdig aanbod (artikel 18 van de Wet inburgering 2021).<br>• De gemeente houdt bij de samenstelling rekening met de leerbaarheid, persoonlijke omstandigheden en belemmeringen van de inburgeringsplichtige.<br>• Het aanbod kan worden uitgevoerd door diverse aanbieders waarmee de gemeente contractuele afspraken heeft. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2024-09-16 14:40:19 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_D9FAEFEC\_2B8E\_48dc\_A1E8\_E134754E9943 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -633,9 +633,9 @@ Attributen van objecttype InburgeringsAanbod
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2024-09-16 13:07:51 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_E2C66E88\_930E\_460f\_93F8\_8CD160DCEE15 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -674,14 +674,14 @@ Attributen van objecttype Inburgeringsplicht
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Inburgeringstermijn |
-    | toelichting | #NOTES# • Volgens artikel 7.3 van de Wet inburgering 2021 bedraagt de inburgeringstermijn in beginsel drie jaar.<br>• De termijn begint op de datum waarop de inburgeringsplicht aanvangt (meestal bij inschrijving in de BRP of asielstatusverlening).<br>• In uitzonderlijke gevallen kan op verzoek van de inburgeringsplichtige de termijn worden verlengd (bijvoorbeeld bij ziekte, zwangerschap, mantelzorg), of verkort bij snelle afronding.<br>• Tijdens deze termijn moet de inburgeringsplichtige voldoen aan de verplichtingen uit het persoonlijk plan inburgering en participatie (PIP), waaronder het afronden van de leerroute en het behalen van de einddoelen.#NOTES# • Volgens artikel 7.3 van de Wet inburgering 2021 bedraagt de inburgeringstermijn in beginsel drie jaar.<br>• De termijn begint op de datum waarop de inburgeringsplicht aanvangt (meestal bij inschrijving in de BRP of asielstatusverlening).<br>• In uitzonderlijke gevallen kan op verzoek van de inburgeringsplichtige de termijn worden verlengd (bijvoorbeeld bij ziekte, zwangerschap, mantelzorg), of verkort bij snelle afronding.<br>• Tijdens deze termijn moet de inburgeringsplichtige voldoen aan de verplichtingen uit het persoonlijk plan inburgering en participatie (PIP), waaronder het afronden van de leerroute en het behalen van de einddoelen.#NOTES# • Volgens artikel 7.3 van de Wet inburgering 2021 bedraagt de inburgeringstermijn in beginsel drie jaar.<br>• De termijn begint op de datum waarop de inburgeringsplicht aanvangt (meestal bij inschrijving in de BRP of asielstatusverlening).<br>• In uitzonderlijke gevallen kan op verzoek van de inburgeringsplichtige de termijn worden verlengd (bijvoorbeeld bij ziekte, zwangerschap, mantelzorg), of verkort bij snelle afronding.<br>• Tijdens deze termijn moet de inburgeringsplichtige voldoen aan de verplichtingen uit het persoonlijk plan inburgering en participatie (PIP), waaronder het afronden van de leerroute en het behalen van de einddoelen.#NOTES# • Volgens artikel 7.3 van de Wet inburgering 2021 bedraagt de inburgeringstermijn in beginsel drie jaar.<br>• De termijn begint op de datum waarop de inburgeringsplicht aanvangt (meestal bij inschrijving in de BRP of asielstatusverlening).<br>• In uitzonderlijke gevallen kan op verzoek van de inburgeringsplichtige de termijn worden verlengd (bijvoorbeeld bij ziekte, zwangerschap, mantelzorg), of verkort bij snelle afronding.<br>• Tijdens deze termijn moet de inburgeringsplichtige voldoen aan de verplichtingen uit het persoonlijk plan inburgering en participatie (PIP), waaronder het afronden van de leerroute en het behalen van de einddoelen. |
+    | toelichting | #NOTES# • Volgens artikel 7.3 van de Wet inburgering 2021 bedraagt de inburgeringstermijn in beginsel drie jaar.<br>• De termijn begint op de datum waarop de inburgeringsplicht aanvangt (meestal bij inschrijving in de BRP of asielstatusverlening).<br>• In uitzonderlijke gevallen kan op verzoek van de inburgeringsplichtige de termijn worden verlengd (bijvoorbeeld bij ziekte, zwangerschap, mantelzorg), of verkort bij snelle afronding.<br>• Tijdens deze termijn moet de inburgeringsplichtige voldoen aan de verplichtingen uit het persoonlijk plan inburgering en participatie (PIP), waaronder het afronden van de leerroute en het behalen van de einddoelen.#NOTES# • Volgens artikel 7.3 van de Wet inburgering 2021 bedraagt de inburgeringstermijn in beginsel drie jaar.<br>• De termijn begint op de datum waarop de inburgeringsplicht aanvangt (meestal bij inschrijving in de BRP of asielstatusverlening).<br>• In uitzonderlijke gevallen kan op verzoek van de inburgeringsplichtige de termijn worden verlengd (bijvoorbeeld bij ziekte, zwangerschap, mantelzorg), of verkort bij snelle afronding.<br>• Tijdens deze termijn moet de inburgeringsplichtige voldoen aan de verplichtingen uit het persoonlijk plan inburgering en participatie (PIP), waaronder het afronden van de leerroute en het behalen van de einddoelen.#NOTES# • Volgens artikel 7.3 van de Wet inburgering 2021 bedraagt de inburgeringstermijn in beginsel drie jaar.<br>• De termijn begint op de datum waarop de inburgeringsplicht aanvangt (meestal bij inschrijving in de BRP of asielstatusverlening).<br>• In uitzonderlijke gevallen kan op verzoek van de inburgeringsplichtige de termijn worden verlengd (bijvoorbeeld bij ziekte, zwangerschap, mantelzorg), of verkort bij snelle afronding.<br>• Tijdens deze termijn moet de inburgeringsplichtige voldoen aan de verplichtingen uit het persoonlijk plan inburgering en participatie (PIP), waaronder het afronden van de leerroute en het behalen van de einddoelen.#NOTES# • Volgens artikel 7.3 van de Wet inburgering 2021 bedraagt de inburgeringstermijn in beginsel drie jaar.<br>• De termijn begint op de datum waarop de inburgeringsplicht aanvangt (meestal bij inschrijving in de BRP of asielstatusverlening).<br>• In uitzonderlijke gevallen kan op verzoek van de inburgeringsplichtige de termijn worden verlengd (bijvoorbeeld bij ziekte, zwangerschap, mantelzorg), of verkort bij snelle afronding.<br>• Tijdens deze termijn moet de inburgeringsplichtige voldoen aan de verplichtingen uit het persoonlijk plan inburgering en participatie (PIP), waaronder het afronden van de leerroute en het behalen van de einddoelen.#NOTES# • Volgens artikel 7.3 van de Wet inburgering 2021 bedraagt de inburgeringstermijn in beginsel drie jaar.<br>• De termijn begint op de datum waarop de inburgeringsplicht aanvangt (meestal bij inschrijving in de BRP of asielstatusverlening).<br>• In uitzonderlijke gevallen kan op verzoek van de inburgeringsplichtige de termijn worden verlengd (bijvoorbeeld bij ziekte, zwangerschap, mantelzorg), of verkort bij snelle afronding.<br>• Tijdens deze termijn moet de inburgeringsplichtige voldoen aan de verplichtingen uit het persoonlijk plan inburgering en participatie (PIP), waaronder het afronden van de leerroute en het behalen van de einddoelen. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2024-09-16 13:10:15 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_E07490AD\_C5DE\_4665\_8540\_92B19656A027 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -719,9 +719,9 @@ Attributen van objecttype Inburgeringstermijn
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.3.0 |
+    | version | 1.4.0 |
     | created | 2022-11-22 11:48:25 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_F9B2A863\_63C8\_4229\_906A\_D0891BB4F021 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -750,14 +750,14 @@ Attributen van objecttype Inburgeringstraject
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Introductiemodule |
-    | toelichting | • De introductiemodule wordt georganiseerd door de gemeente en dient als startpunt voor het inburgeringstraject (zie artikel 17, tweede lid, van de Wet inburgering 2021).<br>• De module informeert over rechten en plichten, verwachtingen van het inburgeringstraject, gemeentelijke ondersteuning, en praktische zaken zoals onderwijs, werk, zorg en wonen.<br>• De introductiemodule vindt plaats voordat het definitieve Persoonlijk Plan Inburgering en Participatie (PIP) wordt vastgesteld.<br>• Deelname aan de module is verplicht voor iedere inburgeringsplichtige en moet bijdragen aan een realistisch en geïnformeerd leerrouteadvies.#NOTES# • De introductiemodule wordt georganiseerd door de gemeente en dient als startpunt voor het inburgeringstraject (zie artikel 17, tweede lid, van de Wet inburgering 2021).<br>• De module informeert over rechten en plichten, verwachtingen van het inburgeringstraject, gemeentelijke ondersteuning, en praktische zaken zoals onderwijs, werk, zorg en wonen.<br>• De introductiemodule vindt plaats voordat het definitieve Persoonlijk Plan Inburgering en Participatie (PIP) wordt vastgesteld.<br>• Deelname aan de module is verplicht voor iedere inburgeringsplichtige en moet bijdragen aan een realistisch en geïnformeerd leerrouteadvies.#NOTES# • De introductiemodule wordt georganiseerd door de gemeente en dient als startpunt voor het inburgeringstraject (zie artikel 17, tweede lid, van de Wet inburgering 2021).<br>• De module informeert over rechten en plichten, verwachtingen van het inburgeringstraject, gemeentelijke ondersteuning, en praktische zaken zoals onderwijs, werk, zorg en wonen.<br>• De introductiemodule vindt plaats voordat het definitieve Persoonlijk Plan Inburgering en Participatie (PIP) wordt vastgesteld.<br>• Deelname aan de module is verplicht voor iedere inburgeringsplichtige en moet bijdragen aan een realistisch en geïnformeerd leerrouteadvies.#NOTES# • De introductiemodule wordt georganiseerd door de gemeente en dient als startpunt voor het inburgeringstraject (zie artikel 17, tweede lid, van de Wet inburgering 2021).<br>• De module informeert over rechten en plichten, verwachtingen van het inburgeringstraject, gemeentelijke ondersteuning, en praktische zaken zoals onderwijs, werk, zorg en wonen.<br>• De introductiemodule vindt plaats voordat het definitieve Persoonlijk Plan Inburgering en Participatie (PIP) wordt vastgesteld.<br>• Deelname aan de module is verplicht voor iedere inburgeringsplichtige en moet bijdragen aan een realistisch en geïnformeerd leerrouteadvies. |
+    | toelichting | • De introductiemodule wordt georganiseerd door de gemeente en dient als startpunt voor het inburgeringstraject (zie artikel 17, tweede lid, van de Wet inburgering 2021).<br>• De module informeert over rechten en plichten, verwachtingen van het inburgeringstraject, gemeentelijke ondersteuning, en praktische zaken zoals onderwijs, werk, zorg en wonen.<br>• De introductiemodule vindt plaats voordat het definitieve Persoonlijk Plan Inburgering en Participatie (PIP) wordt vastgesteld.<br>• Deelname aan de module is verplicht voor iedere inburgeringsplichtige en moet bijdragen aan een realistisch en geïnformeerd leerrouteadvies.#NOTES# • De introductiemodule wordt georganiseerd door de gemeente en dient als startpunt voor het inburgeringstraject (zie artikel 17, tweede lid, van de Wet inburgering 2021).<br>• De module informeert over rechten en plichten, verwachtingen van het inburgeringstraject, gemeentelijke ondersteuning, en praktische zaken zoals onderwijs, werk, zorg en wonen.<br>• De introductiemodule vindt plaats voordat het definitieve Persoonlijk Plan Inburgering en Participatie (PIP) wordt vastgesteld.<br>• Deelname aan de module is verplicht voor iedere inburgeringsplichtige en moet bijdragen aan een realistisch en geïnformeerd leerrouteadvies.#NOTES# • De introductiemodule wordt georganiseerd door de gemeente en dient als startpunt voor het inburgeringstraject (zie artikel 17, tweede lid, van de Wet inburgering 2021).<br>• De module informeert over rechten en plichten, verwachtingen van het inburgeringstraject, gemeentelijke ondersteuning, en praktische zaken zoals onderwijs, werk, zorg en wonen.<br>• De introductiemodule vindt plaats voordat het definitieve Persoonlijk Plan Inburgering en Participatie (PIP) wordt vastgesteld.<br>• Deelname aan de module is verplicht voor iedere inburgeringsplichtige en moet bijdragen aan een realistisch en geïnformeerd leerrouteadvies.#NOTES# • De introductiemodule wordt georganiseerd door de gemeente en dient als startpunt voor het inburgeringstraject (zie artikel 17, tweede lid, van de Wet inburgering 2021).<br>• De module informeert over rechten en plichten, verwachtingen van het inburgeringstraject, gemeentelijke ondersteuning, en praktische zaken zoals onderwijs, werk, zorg en wonen.<br>• De introductiemodule vindt plaats voordat het definitieve Persoonlijk Plan Inburgering en Participatie (PIP) wordt vastgesteld.<br>• Deelname aan de module is verplicht voor iedere inburgeringsplichtige en moet bijdragen aan een realistisch en geïnformeerd leerrouteadvies.#NOTES# • De introductiemodule wordt georganiseerd door de gemeente en dient als startpunt voor het inburgeringstraject (zie artikel 17, tweede lid, van de Wet inburgering 2021).<br>• De module informeert over rechten en plichten, verwachtingen van het inburgeringstraject, gemeentelijke ondersteuning, en praktische zaken zoals onderwijs, werk, zorg en wonen.<br>• De introductiemodule vindt plaats voordat het definitieve Persoonlijk Plan Inburgering en Participatie (PIP) wordt vastgesteld.<br>• Deelname aan de module is verplicht voor iedere inburgeringsplichtige en moet bijdragen aan een realistisch en geïnformeerd leerrouteadvies. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2024-09-16 11:52:41 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_7328FC95\_FA03\_405d\_8EC4\_5C4B3D5CF042 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -792,9 +792,9 @@ Attributen van objecttype Introductiemodule
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2022-11-28 16:50:29 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_51285531\_9529\_4b2d\_9EC6\_B6BAEA729D9A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -835,9 +835,9 @@ Attributen van objecttype Leerroute
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.3.0 |
+    | version | 1.4.0 |
     | created | 2022-11-28 16:53:41 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_2177E7F0\_0F76\_41b7\_B5CA\_5FE182355E94 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -869,14 +869,14 @@ Attributen van objecttype MAP
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Ontheffing |
-    | toelichting | • Er zijn verschillende typen ontheffingen binnen de Wet inburgering 2021, onder andere:<br>• Medische ontheffing (artikel 7.4): bij fysieke of psychische belemmeringen;<br>• Ontheffing wegens aantoonbare inspanning (artikel 7.5): als iemand ondanks serieuze inspanning de doelen niet haalt;<br>• Ontheffing voor specifieke onderdelen, zoals het Participatieverklaringstraject.<br>• Een ontheffing kan tijdelijk of definitief zijn, en geldt voor (delen van) de leerroute of exameneisen.<br>• De beoordeling gebeurt op basis van bewijsstukken, eventueel met advies van een arts of deskundige.<br>• De beslissing tot ontheffing wordt vastgelegd in een formeel besluit met motivering.#NOTES# • Er zijn verschillende typen ontheffingen binnen de Wet inburgering 2021, onder andere:<br>• Medische ontheffing (artikel 7.4): bij fysieke of psychische belemmeringen;<br>• Ontheffing wegens aantoonbare inspanning (artikel 7.5): als iemand ondanks serieuze inspanning de doelen niet haalt;<br>• Ontheffing voor specifieke onderdelen, zoals het Participatieverklaringstraject.<br>• Een ontheffing kan tijdelijk of definitief zijn, en geldt voor (delen van) de leerroute of exameneisen.<br>• De beoordeling gebeurt op basis van bewijsstukken, eventueel met advies van een arts of deskundige.<br>• De beslissing tot ontheffing wordt vastgelegd in een formeel besluit met motivering.#NOTES# • Er zijn verschillende typen ontheffingen binnen de Wet inburgering 2021, onder andere:<br>• Medische ontheffing (artikel 7.4): bij fysieke of psychische belemmeringen;<br>• Ontheffing wegens aantoonbare inspanning (artikel 7.5): als iemand ondanks serieuze inspanning de doelen niet haalt;<br>• Ontheffing voor specifieke onderdelen, zoals het Participatieverklaringstraject.<br>• Een ontheffing kan tijdelijk of definitief zijn, en geldt voor (delen van) de leerroute of exameneisen.<br>• De beoordeling gebeurt op basis van bewijsstukken, eventueel met advies van een arts of deskundige.<br>• De beslissing tot ontheffing wordt vastgelegd in een formeel besluit met motivering.#NOTES# • Er zijn verschillende typen ontheffingen binnen de Wet inburgering 2021, onder andere:<br>• Medische ontheffing (artikel 7.4): bij fysieke of psychische belemmeringen;<br>• Ontheffing wegens aantoonbare inspanning (artikel 7.5): als iemand ondanks serieuze inspanning de doelen niet haalt;<br>• Ontheffing voor specifieke onderdelen, zoals het Participatieverklaringstraject.<br>• Een ontheffing kan tijdelijk of definitief zijn, en geldt voor (delen van) de leerroute of exameneisen.<br>• De beoordeling gebeurt op basis van bewijsstukken, eventueel met advies van een arts of deskundige.<br>• De beslissing tot ontheffing wordt vastgelegd in een formeel besluit met motivering. |
+    | toelichting | • Er zijn verschillende typen ontheffingen binnen de Wet inburgering 2021, onder andere:<br>• Medische ontheffing (artikel 7.4): bij fysieke of psychische belemmeringen;<br>• Ontheffing wegens aantoonbare inspanning (artikel 7.5): als iemand ondanks serieuze inspanning de doelen niet haalt;<br>• Ontheffing voor specifieke onderdelen, zoals het Participatieverklaringstraject.<br>• Een ontheffing kan tijdelijk of definitief zijn, en geldt voor (delen van) de leerroute of exameneisen.<br>• De beoordeling gebeurt op basis van bewijsstukken, eventueel met advies van een arts of deskundige.<br>• De beslissing tot ontheffing wordt vastgelegd in een formeel besluit met motivering.#NOTES# • Er zijn verschillende typen ontheffingen binnen de Wet inburgering 2021, onder andere:<br>• Medische ontheffing (artikel 7.4): bij fysieke of psychische belemmeringen;<br>• Ontheffing wegens aantoonbare inspanning (artikel 7.5): als iemand ondanks serieuze inspanning de doelen niet haalt;<br>• Ontheffing voor specifieke onderdelen, zoals het Participatieverklaringstraject.<br>• Een ontheffing kan tijdelijk of definitief zijn, en geldt voor (delen van) de leerroute of exameneisen.<br>• De beoordeling gebeurt op basis van bewijsstukken, eventueel met advies van een arts of deskundige.<br>• De beslissing tot ontheffing wordt vastgelegd in een formeel besluit met motivering.#NOTES# • Er zijn verschillende typen ontheffingen binnen de Wet inburgering 2021, onder andere:<br>• Medische ontheffing (artikel 7.4): bij fysieke of psychische belemmeringen;<br>• Ontheffing wegens aantoonbare inspanning (artikel 7.5): als iemand ondanks serieuze inspanning de doelen niet haalt;<br>• Ontheffing voor specifieke onderdelen, zoals het Participatieverklaringstraject.<br>• Een ontheffing kan tijdelijk of definitief zijn, en geldt voor (delen van) de leerroute of exameneisen.<br>• De beoordeling gebeurt op basis van bewijsstukken, eventueel met advies van een arts of deskundige.<br>• De beslissing tot ontheffing wordt vastgelegd in een formeel besluit met motivering.#NOTES# • Er zijn verschillende typen ontheffingen binnen de Wet inburgering 2021, onder andere:<br>• Medische ontheffing (artikel 7.4): bij fysieke of psychische belemmeringen;<br>• Ontheffing wegens aantoonbare inspanning (artikel 7.5): als iemand ondanks serieuze inspanning de doelen niet haalt;<br>• Ontheffing voor specifieke onderdelen, zoals het Participatieverklaringstraject.<br>• Een ontheffing kan tijdelijk of definitief zijn, en geldt voor (delen van) de leerroute of exameneisen.<br>• De beoordeling gebeurt op basis van bewijsstukken, eventueel met advies van een arts of deskundige.<br>• De beslissing tot ontheffing wordt vastgelegd in een formeel besluit met motivering.#NOTES# • Er zijn verschillende typen ontheffingen binnen de Wet inburgering 2021, onder andere:<br>• Medische ontheffing (artikel 7.4): bij fysieke of psychische belemmeringen;<br>• Ontheffing wegens aantoonbare inspanning (artikel 7.5): als iemand ondanks serieuze inspanning de doelen niet haalt;<br>• Ontheffing voor specifieke onderdelen, zoals het Participatieverklaringstraject.<br>• Een ontheffing kan tijdelijk of definitief zijn, en geldt voor (delen van) de leerroute of exameneisen.<br>• De beoordeling gebeurt op basis van bewijsstukken, eventueel met advies van een arts of deskundige.<br>• De beslissing tot ontheffing wordt vastgelegd in een formeel besluit met motivering. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2024-09-16 13:10:40 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_3F5932BD\_C721\_402d\_8154\_74A1CE097825 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -906,14 +906,14 @@ Attributen van objecttype Ontheffing
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Ontwikkelwens |
-    | toelichting | #NOTES# • Ontwikkelwensen komen aan bod tijdens de brede intake (artikel 15 en 16 van de Wet inburgering 2021) en dragen bij aan een passend en gemotiveerd leerrouteadvies.<br>• Voorbeelden van ontwikkelwensen zijn: het behalen van een mbo-diploma, het leren omgaan met digitale middelen, het vinden van (vrijwilligers)werk, of het vergroten van zelfvertrouwen.<br>• Gemeenten gebruiken ontwikkelwensen om het inburgeringsaanbod af te stemmen op de motivatie en het toekomstperspectief van de inburgeraar.<br>• De ontwikkelwens is geen formele verplichting, maar ondersteunt duurzame participatie en eigen regie.#NOTES# • Ontwikkelwensen komen aan bod tijdens de brede intake (artikel 15 en 16 van de Wet inburgering 2021) en dragen bij aan een passend en gemotiveerd leerrouteadvies.<br>• Voorbeelden van ontwikkelwensen zijn: het behalen van een mbo-diploma, het leren omgaan met digitale middelen, het vinden van (vrijwilligers)werk, of het vergroten van zelfvertrouwen.<br>• Gemeenten gebruiken ontwikkelwensen om het inburgeringsaanbod af te stemmen op de motivatie en het toekomstperspectief van de inburgeraar.<br>• De ontwikkelwens is geen formele verplichting, maar ondersteunt duurzame participatie en eigen regie.#NOTES# • Ontwikkelwensen komen aan bod tijdens de brede intake (artikel 15 en 16 van de Wet inburgering 2021) en dragen bij aan een passend en gemotiveerd leerrouteadvies.<br>• Voorbeelden van ontwikkelwensen zijn: het behalen van een mbo-diploma, het leren omgaan met digitale middelen, het vinden van (vrijwilligers)werk, of het vergroten van zelfvertrouwen.<br>• Gemeenten gebruiken ontwikkelwensen om het inburgeringsaanbod af te stemmen op de motivatie en het toekomstperspectief van de inburgeraar.<br>• De ontwikkelwens is geen formele verplichting, maar ondersteunt duurzame participatie en eigen regie.#NOTES# • Ontwikkelwensen komen aan bod tijdens de brede intake (artikel 15 en 16 van de Wet inburgering 2021) en dragen bij aan een passend en gemotiveerd leerrouteadvies.<br>• Voorbeelden van ontwikkelwensen zijn: het behalen van een mbo-diploma, het leren omgaan met digitale middelen, het vinden van (vrijwilligers)werk, of het vergroten van zelfvertrouwen.<br>• Gemeenten gebruiken ontwikkelwensen om het inburgeringsaanbod af te stemmen op de motivatie en het toekomstperspectief van de inburgeraar.<br>• De ontwikkelwens is geen formele verplichting, maar ondersteunt duurzame participatie en eigen regie. |
+    | toelichting | #NOTES# • Ontwikkelwensen komen aan bod tijdens de brede intake (artikel 15 en 16 van de Wet inburgering 2021) en dragen bij aan een passend en gemotiveerd leerrouteadvies.<br>• Voorbeelden van ontwikkelwensen zijn: het behalen van een mbo-diploma, het leren omgaan met digitale middelen, het vinden van (vrijwilligers)werk, of het vergroten van zelfvertrouwen.<br>• Gemeenten gebruiken ontwikkelwensen om het inburgeringsaanbod af te stemmen op de motivatie en het toekomstperspectief van de inburgeraar.<br>• De ontwikkelwens is geen formele verplichting, maar ondersteunt duurzame participatie en eigen regie.#NOTES# • Ontwikkelwensen komen aan bod tijdens de brede intake (artikel 15 en 16 van de Wet inburgering 2021) en dragen bij aan een passend en gemotiveerd leerrouteadvies.<br>• Voorbeelden van ontwikkelwensen zijn: het behalen van een mbo-diploma, het leren omgaan met digitale middelen, het vinden van (vrijwilligers)werk, of het vergroten van zelfvertrouwen.<br>• Gemeenten gebruiken ontwikkelwensen om het inburgeringsaanbod af te stemmen op de motivatie en het toekomstperspectief van de inburgeraar.<br>• De ontwikkelwens is geen formele verplichting, maar ondersteunt duurzame participatie en eigen regie.#NOTES# • Ontwikkelwensen komen aan bod tijdens de brede intake (artikel 15 en 16 van de Wet inburgering 2021) en dragen bij aan een passend en gemotiveerd leerrouteadvies.<br>• Voorbeelden van ontwikkelwensen zijn: het behalen van een mbo-diploma, het leren omgaan met digitale middelen, het vinden van (vrijwilligers)werk, of het vergroten van zelfvertrouwen.<br>• Gemeenten gebruiken ontwikkelwensen om het inburgeringsaanbod af te stemmen op de motivatie en het toekomstperspectief van de inburgeraar.<br>• De ontwikkelwens is geen formele verplichting, maar ondersteunt duurzame participatie en eigen regie.#NOTES# • Ontwikkelwensen komen aan bod tijdens de brede intake (artikel 15 en 16 van de Wet inburgering 2021) en dragen bij aan een passend en gemotiveerd leerrouteadvies.<br>• Voorbeelden van ontwikkelwensen zijn: het behalen van een mbo-diploma, het leren omgaan met digitale middelen, het vinden van (vrijwilligers)werk, of het vergroten van zelfvertrouwen.<br>• Gemeenten gebruiken ontwikkelwensen om het inburgeringsaanbod af te stemmen op de motivatie en het toekomstperspectief van de inburgeraar.<br>• De ontwikkelwens is geen formele verplichting, maar ondersteunt duurzame participatie en eigen regie.#NOTES# • Ontwikkelwensen komen aan bod tijdens de brede intake (artikel 15 en 16 van de Wet inburgering 2021) en dragen bij aan een passend en gemotiveerd leerrouteadvies.<br>• Voorbeelden van ontwikkelwensen zijn: het behalen van een mbo-diploma, het leren omgaan met digitale middelen, het vinden van (vrijwilligers)werk, of het vergroten van zelfvertrouwen.<br>• Gemeenten gebruiken ontwikkelwensen om het inburgeringsaanbod af te stemmen op de motivatie en het toekomstperspectief van de inburgeraar.<br>• De ontwikkelwens is geen formele verplichting, maar ondersteunt duurzame participatie en eigen regie. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-02-26 16:13:24 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_AE33D54A\_A105\_4fac\_B378\_D5651B66F0F0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -949,9 +949,9 @@ Attributen van objecttype Ontwikkelwens
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.3.0 |
+    | version | 1.4.0 |
     | created | 2022-11-28 16:49:50 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_94EB7844\_F863\_4330\_A15A\_06ED4D1401E0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -989,9 +989,9 @@ Attributen van objecttype PIP
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.3.0 |
+    | version | 1.4.0 |
     | created | 2022-11-28 16:53:50 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_783B026E\_E993\_467c\_85E0\_E90E9E01BAA0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1023,14 +1023,14 @@ Attributen van objecttype PVT
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Subdoel Aandachtspunt |
-    | toelichting | #NOTES# • Subdoelen worden opgesteld wanneer bijvoorbeeld psychische, sociale of praktische omstandigheden (zoals schulden, stress of zorgverantwoordelijkheden) extra aandacht vragen.<br>• Ze zijn gekoppeld aan een of meerdere aandachtspunten en vormen onderdeel van de begeleiding of het ondersteuningsplan.<br>• Voorbeelden van subdoelen zijn: “Stabiel dagritme opbouwen”, “Toegang tot schuldhulpverlening geregeld”, of “Actief deelnemen aan groepslessen”.<br>• De gemeente kan de voortgang ten opzichte van deze subdoelen monitoren, bijvoorbeeld in voortgangsgesprekken of als input voor aanpassing van het PIP.<br>• Het stellen van subdoelen ondersteunt maatwerk en bevordert duurzame participatie en leerbaarheid.#NOTES# • Subdoelen worden opgesteld wanneer bijvoorbeeld psychische, sociale of praktische omstandigheden (zoals schulden, stress of zorgverantwoordelijkheden) extra aandacht vragen.<br>• Ze zijn gekoppeld aan een of meerdere aandachtspunten en vormen onderdeel van de begeleiding of het ondersteuningsplan.<br>• Voorbeelden van subdoelen zijn: “Stabiel dagritme opbouwen”, “Toegang tot schuldhulpverlening geregeld”, of “Actief deelnemen aan groepslessen”.<br>• De gemeente kan de voortgang ten opzichte van deze subdoelen monitoren, bijvoorbeeld in voortgangsgesprekken of als input voor aanpassing van het PIP.<br>• Het stellen van subdoelen ondersteunt maatwerk en bevordert duurzame participatie en leerbaarheid.#NOTES# • Subdoelen worden opgesteld wanneer bijvoorbeeld psychische, sociale of praktische omstandigheden (zoals schulden, stress of zorgverantwoordelijkheden) extra aandacht vragen.<br>• Ze zijn gekoppeld aan een of meerdere aandachtspunten en vormen onderdeel van de begeleiding of het ondersteuningsplan.<br>• Voorbeelden van subdoelen zijn: “Stabiel dagritme opbouwen”, “Toegang tot schuldhulpverlening geregeld”, of “Actief deelnemen aan groepslessen”.<br>• De gemeente kan de voortgang ten opzichte van deze subdoelen monitoren, bijvoorbeeld in voortgangsgesprekken of als input voor aanpassing van het PIP.<br>• Het stellen van subdoelen ondersteunt maatwerk en bevordert duurzame participatie en leerbaarheid.#NOTES# • Subdoelen worden opgesteld wanneer bijvoorbeeld psychische, sociale of praktische omstandigheden (zoals schulden, stress of zorgverantwoordelijkheden) extra aandacht vragen.<br>• Ze zijn gekoppeld aan een of meerdere aandachtspunten en vormen onderdeel van de begeleiding of het ondersteuningsplan.<br>• Voorbeelden van subdoelen zijn: “Stabiel dagritme opbouwen”, “Toegang tot schuldhulpverlening geregeld”, of “Actief deelnemen aan groepslessen”.<br>• De gemeente kan de voortgang ten opzichte van deze subdoelen monitoren, bijvoorbeeld in voortgangsgesprekken of als input voor aanpassing van het PIP.<br>• Het stellen van subdoelen ondersteunt maatwerk en bevordert duurzame participatie en leerbaarheid. |
+    | toelichting | #NOTES# • Subdoelen worden opgesteld wanneer bijvoorbeeld psychische, sociale of praktische omstandigheden (zoals schulden, stress of zorgverantwoordelijkheden) extra aandacht vragen.<br>• Ze zijn gekoppeld aan een of meerdere aandachtspunten en vormen onderdeel van de begeleiding of het ondersteuningsplan.<br>• Voorbeelden van subdoelen zijn: “Stabiel dagritme opbouwen”, “Toegang tot schuldhulpverlening geregeld”, of “Actief deelnemen aan groepslessen”.<br>• De gemeente kan de voortgang ten opzichte van deze subdoelen monitoren, bijvoorbeeld in voortgangsgesprekken of als input voor aanpassing van het PIP.<br>• Het stellen van subdoelen ondersteunt maatwerk en bevordert duurzame participatie en leerbaarheid.#NOTES# • Subdoelen worden opgesteld wanneer bijvoorbeeld psychische, sociale of praktische omstandigheden (zoals schulden, stress of zorgverantwoordelijkheden) extra aandacht vragen.<br>• Ze zijn gekoppeld aan een of meerdere aandachtspunten en vormen onderdeel van de begeleiding of het ondersteuningsplan.<br>• Voorbeelden van subdoelen zijn: “Stabiel dagritme opbouwen”, “Toegang tot schuldhulpverlening geregeld”, of “Actief deelnemen aan groepslessen”.<br>• De gemeente kan de voortgang ten opzichte van deze subdoelen monitoren, bijvoorbeeld in voortgangsgesprekken of als input voor aanpassing van het PIP.<br>• Het stellen van subdoelen ondersteunt maatwerk en bevordert duurzame participatie en leerbaarheid.#NOTES# • Subdoelen worden opgesteld wanneer bijvoorbeeld psychische, sociale of praktische omstandigheden (zoals schulden, stress of zorgverantwoordelijkheden) extra aandacht vragen.<br>• Ze zijn gekoppeld aan een of meerdere aandachtspunten en vormen onderdeel van de begeleiding of het ondersteuningsplan.<br>• Voorbeelden van subdoelen zijn: “Stabiel dagritme opbouwen”, “Toegang tot schuldhulpverlening geregeld”, of “Actief deelnemen aan groepslessen”.<br>• De gemeente kan de voortgang ten opzichte van deze subdoelen monitoren, bijvoorbeeld in voortgangsgesprekken of als input voor aanpassing van het PIP.<br>• Het stellen van subdoelen ondersteunt maatwerk en bevordert duurzame participatie en leerbaarheid.#NOTES# • Subdoelen worden opgesteld wanneer bijvoorbeeld psychische, sociale of praktische omstandigheden (zoals schulden, stress of zorgverantwoordelijkheden) extra aandacht vragen.<br>• Ze zijn gekoppeld aan een of meerdere aandachtspunten en vormen onderdeel van de begeleiding of het ondersteuningsplan.<br>• Voorbeelden van subdoelen zijn: “Stabiel dagritme opbouwen”, “Toegang tot schuldhulpverlening geregeld”, of “Actief deelnemen aan groepslessen”.<br>• De gemeente kan de voortgang ten opzichte van deze subdoelen monitoren, bijvoorbeeld in voortgangsgesprekken of als input voor aanpassing van het PIP.<br>• Het stellen van subdoelen ondersteunt maatwerk en bevordert duurzame participatie en leerbaarheid.#NOTES# • Subdoelen worden opgesteld wanneer bijvoorbeeld psychische, sociale of praktische omstandigheden (zoals schulden, stress of zorgverantwoordelijkheden) extra aandacht vragen.<br>• Ze zijn gekoppeld aan een of meerdere aandachtspunten en vormen onderdeel van de begeleiding of het ondersteuningsplan.<br>• Voorbeelden van subdoelen zijn: “Stabiel dagritme opbouwen”, “Toegang tot schuldhulpverlening geregeld”, of “Actief deelnemen aan groepslessen”.<br>• De gemeente kan de voortgang ten opzichte van deze subdoelen monitoren, bijvoorbeeld in voortgangsgesprekken of als input voor aanpassing van het PIP.<br>• Het stellen van subdoelen ondersteunt maatwerk en bevordert duurzame participatie en leerbaarheid. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 14:25:29 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_0279048D\_E742\_400c\_9D86\_03085E5EF917 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1061,14 +1061,14 @@ Attributen van objecttype Subdoel Aandachtspunt
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Subdoel Ontwikkelwens |
-    | toelichting | #NOTES# • Subdoelen op basis van ontwikkelwensen maken het mogelijk om persoonlijke ambities (zoals het volgen van een opleiding, het verbeteren van digitale vaardigheden of het vinden van passend werk) te vertalen naar praktische stappen binnen de leerroute.<br>• Ze versterken de motivatie en zelfregie van de inburgeringsplichtige en ondersteunen een traject dat aansluit bij diens perspectief en mogelijkheden.<br>• Subdoelen worden opgenomen in het Persoonlijk Plan Inburgering en Participatie (PIP) en kunnen worden geëvalueerd tijdens voortgangsgesprekken.<br>• Voorbeelden zijn: “Inschrijven voor mbo-opleiding niveau 2”, “Oriënteren op werk in de zorg”, of “Starten met computercursus”.<br>• De gemeente of uitvoerende organisatie kan ondersteuning bieden bij het realiseren van deze subdoelen, bijvoorbeeld via een traject, voorziening of verwijzing.#NOTES# • Subdoelen op basis van ontwikkelwensen maken het mogelijk om persoonlijke ambities (zoals het volgen van een opleiding, het verbeteren van digitale vaardigheden of het vinden van passend werk) te vertalen naar praktische stappen binnen de leerroute.<br>• Ze versterken de motivatie en zelfregie van de inburgeringsplichtige en ondersteunen een traject dat aansluit bij diens perspectief en mogelijkheden.<br>• Subdoelen worden opgenomen in het Persoonlijk Plan Inburgering en Participatie (PIP) en kunnen worden geëvalueerd tijdens voortgangsgesprekken.<br>• Voorbeelden zijn: “Inschrijven voor mbo-opleiding niveau 2”, “Oriënteren op werk in de zorg”, of “Starten met computercursus”.<br>• De gemeente of uitvoerende organisatie kan ondersteuning bieden bij het realiseren van deze subdoelen, bijvoorbeeld via een traject, voorziening of verwijzing.#NOTES# • Subdoelen op basis van ontwikkelwensen maken het mogelijk om persoonlijke ambities (zoals het volgen van een opleiding, het verbeteren van digitale vaardigheden of het vinden van passend werk) te vertalen naar praktische stappen binnen de leerroute.<br>• Ze versterken de motivatie en zelfregie van de inburgeringsplichtige en ondersteunen een traject dat aansluit bij diens perspectief en mogelijkheden.<br>• Subdoelen worden opgenomen in het Persoonlijk Plan Inburgering en Participatie (PIP) en kunnen worden geëvalueerd tijdens voortgangsgesprekken.<br>• Voorbeelden zijn: “Inschrijven voor mbo-opleiding niveau 2”, “Oriënteren op werk in de zorg”, of “Starten met computercursus”.<br>• De gemeente of uitvoerende organisatie kan ondersteuning bieden bij het realiseren van deze subdoelen, bijvoorbeeld via een traject, voorziening of verwijzing.#NOTES# • Subdoelen op basis van ontwikkelwensen maken het mogelijk om persoonlijke ambities (zoals het volgen van een opleiding, het verbeteren van digitale vaardigheden of het vinden van passend werk) te vertalen naar praktische stappen binnen de leerroute.<br>• Ze versterken de motivatie en zelfregie van de inburgeringsplichtige en ondersteunen een traject dat aansluit bij diens perspectief en mogelijkheden.<br>• Subdoelen worden opgenomen in het Persoonlijk Plan Inburgering en Participatie (PIP) en kunnen worden geëvalueerd tijdens voortgangsgesprekken.<br>• Voorbeelden zijn: “Inschrijven voor mbo-opleiding niveau 2”, “Oriënteren op werk in de zorg”, of “Starten met computercursus”.<br>• De gemeente of uitvoerende organisatie kan ondersteuning bieden bij het realiseren van deze subdoelen, bijvoorbeeld via een traject, voorziening of verwijzing. |
+    | toelichting | #NOTES# • Subdoelen op basis van ontwikkelwensen maken het mogelijk om persoonlijke ambities (zoals het volgen van een opleiding, het verbeteren van digitale vaardigheden of het vinden van passend werk) te vertalen naar praktische stappen binnen de leerroute.<br>• Ze versterken de motivatie en zelfregie van de inburgeringsplichtige en ondersteunen een traject dat aansluit bij diens perspectief en mogelijkheden.<br>• Subdoelen worden opgenomen in het Persoonlijk Plan Inburgering en Participatie (PIP) en kunnen worden geëvalueerd tijdens voortgangsgesprekken.<br>• Voorbeelden zijn: “Inschrijven voor mbo-opleiding niveau 2”, “Oriënteren op werk in de zorg”, of “Starten met computercursus”.<br>• De gemeente of uitvoerende organisatie kan ondersteuning bieden bij het realiseren van deze subdoelen, bijvoorbeeld via een traject, voorziening of verwijzing.#NOTES# • Subdoelen op basis van ontwikkelwensen maken het mogelijk om persoonlijke ambities (zoals het volgen van een opleiding, het verbeteren van digitale vaardigheden of het vinden van passend werk) te vertalen naar praktische stappen binnen de leerroute.<br>• Ze versterken de motivatie en zelfregie van de inburgeringsplichtige en ondersteunen een traject dat aansluit bij diens perspectief en mogelijkheden.<br>• Subdoelen worden opgenomen in het Persoonlijk Plan Inburgering en Participatie (PIP) en kunnen worden geëvalueerd tijdens voortgangsgesprekken.<br>• Voorbeelden zijn: “Inschrijven voor mbo-opleiding niveau 2”, “Oriënteren op werk in de zorg”, of “Starten met computercursus”.<br>• De gemeente of uitvoerende organisatie kan ondersteuning bieden bij het realiseren van deze subdoelen, bijvoorbeeld via een traject, voorziening of verwijzing.#NOTES# • Subdoelen op basis van ontwikkelwensen maken het mogelijk om persoonlijke ambities (zoals het volgen van een opleiding, het verbeteren van digitale vaardigheden of het vinden van passend werk) te vertalen naar praktische stappen binnen de leerroute.<br>• Ze versterken de motivatie en zelfregie van de inburgeringsplichtige en ondersteunen een traject dat aansluit bij diens perspectief en mogelijkheden.<br>• Subdoelen worden opgenomen in het Persoonlijk Plan Inburgering en Participatie (PIP) en kunnen worden geëvalueerd tijdens voortgangsgesprekken.<br>• Voorbeelden zijn: “Inschrijven voor mbo-opleiding niveau 2”, “Oriënteren op werk in de zorg”, of “Starten met computercursus”.<br>• De gemeente of uitvoerende organisatie kan ondersteuning bieden bij het realiseren van deze subdoelen, bijvoorbeeld via een traject, voorziening of verwijzing.#NOTES# • Subdoelen op basis van ontwikkelwensen maken het mogelijk om persoonlijke ambities (zoals het volgen van een opleiding, het verbeteren van digitale vaardigheden of het vinden van passend werk) te vertalen naar praktische stappen binnen de leerroute.<br>• Ze versterken de motivatie en zelfregie van de inburgeringsplichtige en ondersteunen een traject dat aansluit bij diens perspectief en mogelijkheden.<br>• Subdoelen worden opgenomen in het Persoonlijk Plan Inburgering en Participatie (PIP) en kunnen worden geëvalueerd tijdens voortgangsgesprekken.<br>• Voorbeelden zijn: “Inschrijven voor mbo-opleiding niveau 2”, “Oriënteren op werk in de zorg”, of “Starten met computercursus”.<br>• De gemeente of uitvoerende organisatie kan ondersteuning bieden bij het realiseren van deze subdoelen, bijvoorbeeld via een traject, voorziening of verwijzing.#NOTES# • Subdoelen op basis van ontwikkelwensen maken het mogelijk om persoonlijke ambities (zoals het volgen van een opleiding, het verbeteren van digitale vaardigheden of het vinden van passend werk) te vertalen naar praktische stappen binnen de leerroute.<br>• Ze versterken de motivatie en zelfregie van de inburgeringsplichtige en ondersteunen een traject dat aansluit bij diens perspectief en mogelijkheden.<br>• Subdoelen worden opgenomen in het Persoonlijk Plan Inburgering en Participatie (PIP) en kunnen worden geëvalueerd tijdens voortgangsgesprekken.<br>• Voorbeelden zijn: “Inschrijven voor mbo-opleiding niveau 2”, “Oriënteren op werk in de zorg”, of “Starten met computercursus”.<br>• De gemeente of uitvoerende organisatie kan ondersteuning bieden bij het realiseren van deze subdoelen, bijvoorbeeld via een traject, voorziening of verwijzing. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-02-26 16:12:58 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_564CEF80\_C5BE\_4d74\_8BC7\_B48BEFDEE655 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1099,14 +1099,14 @@ Attributen van objecttype Subdoel Ontwikkelwens
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Taalvaardigheid |
-    | toelichting | • De Wet inburgering 2021 vereist dat inburgeringsplichtigen taalvaardigheid verwerven op ten minste niveau B1 (B1-route en Onderwijsroute) of niveau A1/A2 (Z-route), afhankelijk van leervermogen en leerroute (artikel 23 van het Besluit inburgering 2021).<br>• Taalvaardigheid wordt vastgesteld via erkende toetsinstrumenten (zoals de leerbaarheidstoets of examens), en gemonitord gedurende het inburgeringstraject.<br>• Gemeenten gebruiken het niveau van taalvaardigheid als input voor het leerrouteadvies, en als evaluatiecriterium in voortgangsgesprekken en de afsluiting van het traject.<br>• De taalvaardigheid kan per vaardigheid verschillen en wordt vaak als afzonderlijke subniveaus vastgelegd (bijv. A2 lezen, B1 spreken).#NOTES# • De Wet inburgering 2021 vereist dat inburgeringsplichtigen taalvaardigheid verwerven op ten minste niveau B1 (B1-route en Onderwijsroute) of niveau A1/A2 (Z-route), afhankelijk van leervermogen en leerroute (artikel 23 van het Besluit inburgering 2021).<br>• Taalvaardigheid wordt vastgesteld via erkende toetsinstrumenten (zoals de leerbaarheidstoets of examens), en gemonitord gedurende het inburgeringstraject.<br>• Gemeenten gebruiken het niveau van taalvaardigheid als input voor het leerrouteadvies, en als evaluatiecriterium in voortgangsgesprekken en de afsluiting van het traject.<br>• De taalvaardigheid kan per vaardigheid verschillen en wordt vaak als afzonderlijke subniveaus vastgelegd (bijv. A2 lezen, B1 spreken).#NOTES# • De Wet inburgering 2021 vereist dat inburgeringsplichtigen taalvaardigheid verwerven op ten minste niveau B1 (B1-route en Onderwijsroute) of niveau A1/A2 (Z-route), afhankelijk van leervermogen en leerroute (artikel 23 van het Besluit inburgering 2021).<br>• Taalvaardigheid wordt vastgesteld via erkende toetsinstrumenten (zoals de leerbaarheidstoets of examens), en gemonitord gedurende het inburgeringstraject.<br>• Gemeenten gebruiken het niveau van taalvaardigheid als input voor het leerrouteadvies, en als evaluatiecriterium in voortgangsgesprekken en de afsluiting van het traject.<br>• De taalvaardigheid kan per vaardigheid verschillen en wordt vaak als afzonderlijke subniveaus vastgelegd (bijv. A2 lezen, B1 spreken).#NOTES# • De Wet inburgering 2021 vereist dat inburgeringsplichtigen taalvaardigheid verwerven op ten minste niveau B1 (B1-route en Onderwijsroute) of niveau A1/A2 (Z-route), afhankelijk van leervermogen en leerroute (artikel 23 van het Besluit inburgering 2021).<br>• Taalvaardigheid wordt vastgesteld via erkende toetsinstrumenten (zoals de leerbaarheidstoets of examens), en gemonitord gedurende het inburgeringstraject.<br>• Gemeenten gebruiken het niveau van taalvaardigheid als input voor het leerrouteadvies, en als evaluatiecriterium in voortgangsgesprekken en de afsluiting van het traject.<br>• De taalvaardigheid kan per vaardigheid verschillen en wordt vaak als afzonderlijke subniveaus vastgelegd (bijv. A2 lezen, B1 spreken). |
+    | toelichting | • De Wet inburgering 2021 vereist dat inburgeringsplichtigen taalvaardigheid verwerven op ten minste niveau B1 (B1-route en Onderwijsroute) of niveau A1/A2 (Z-route), afhankelijk van leervermogen en leerroute (artikel 23 van het Besluit inburgering 2021).<br>• Taalvaardigheid wordt vastgesteld via erkende toetsinstrumenten (zoals de leerbaarheidstoets of examens), en gemonitord gedurende het inburgeringstraject.<br>• Gemeenten gebruiken het niveau van taalvaardigheid als input voor het leerrouteadvies, en als evaluatiecriterium in voortgangsgesprekken en de afsluiting van het traject.<br>• De taalvaardigheid kan per vaardigheid verschillen en wordt vaak als afzonderlijke subniveaus vastgelegd (bijv. A2 lezen, B1 spreken).#NOTES# • De Wet inburgering 2021 vereist dat inburgeringsplichtigen taalvaardigheid verwerven op ten minste niveau B1 (B1-route en Onderwijsroute) of niveau A1/A2 (Z-route), afhankelijk van leervermogen en leerroute (artikel 23 van het Besluit inburgering 2021).<br>• Taalvaardigheid wordt vastgesteld via erkende toetsinstrumenten (zoals de leerbaarheidstoets of examens), en gemonitord gedurende het inburgeringstraject.<br>• Gemeenten gebruiken het niveau van taalvaardigheid als input voor het leerrouteadvies, en als evaluatiecriterium in voortgangsgesprekken en de afsluiting van het traject.<br>• De taalvaardigheid kan per vaardigheid verschillen en wordt vaak als afzonderlijke subniveaus vastgelegd (bijv. A2 lezen, B1 spreken).#NOTES# • De Wet inburgering 2021 vereist dat inburgeringsplichtigen taalvaardigheid verwerven op ten minste niveau B1 (B1-route en Onderwijsroute) of niveau A1/A2 (Z-route), afhankelijk van leervermogen en leerroute (artikel 23 van het Besluit inburgering 2021).<br>• Taalvaardigheid wordt vastgesteld via erkende toetsinstrumenten (zoals de leerbaarheidstoets of examens), en gemonitord gedurende het inburgeringstraject.<br>• Gemeenten gebruiken het niveau van taalvaardigheid als input voor het leerrouteadvies, en als evaluatiecriterium in voortgangsgesprekken en de afsluiting van het traject.<br>• De taalvaardigheid kan per vaardigheid verschillen en wordt vaak als afzonderlijke subniveaus vastgelegd (bijv. A2 lezen, B1 spreken).#NOTES# • De Wet inburgering 2021 vereist dat inburgeringsplichtigen taalvaardigheid verwerven op ten minste niveau B1 (B1-route en Onderwijsroute) of niveau A1/A2 (Z-route), afhankelijk van leervermogen en leerroute (artikel 23 van het Besluit inburgering 2021).<br>• Taalvaardigheid wordt vastgesteld via erkende toetsinstrumenten (zoals de leerbaarheidstoets of examens), en gemonitord gedurende het inburgeringstraject.<br>• Gemeenten gebruiken het niveau van taalvaardigheid als input voor het leerrouteadvies, en als evaluatiecriterium in voortgangsgesprekken en de afsluiting van het traject.<br>• De taalvaardigheid kan per vaardigheid verschillen en wordt vaak als afzonderlijke subniveaus vastgelegd (bijv. A2 lezen, B1 spreken).#NOTES# • De Wet inburgering 2021 vereist dat inburgeringsplichtigen taalvaardigheid verwerven op ten minste niveau B1 (B1-route en Onderwijsroute) of niveau A1/A2 (Z-route), afhankelijk van leervermogen en leerroute (artikel 23 van het Besluit inburgering 2021).<br>• Taalvaardigheid wordt vastgesteld via erkende toetsinstrumenten (zoals de leerbaarheidstoets of examens), en gemonitord gedurende het inburgeringstraject.<br>• Gemeenten gebruiken het niveau van taalvaardigheid als input voor het leerrouteadvies, en als evaluatiecriterium in voortgangsgesprekken en de afsluiting van het traject.<br>• De taalvaardigheid kan per vaardigheid verschillen en wordt vaak als afzonderlijke subniveaus vastgelegd (bijv. A2 lezen, B1 spreken). |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-03-26 12:23:53 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_0C74C068\_BA3A\_4394\_AA76\_16B47FEFC88C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1148,14 +1148,14 @@ Attributen van objecttype Taalvaardigheid
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Training |
-    | toelichting | • Een training maakt geen verplicht onderdeel uit van het wettelijk minimumaanbod, maar wordt vaak als aanvullende voorziening ingezet door gemeenten, bijvoorbeeld in de Z-route of als maatwerk binnen de B1-route.<br>• Voorbeelden zijn: sollicitatietraining, digitale vaardigheden, omgaan met stress, of training in communicatieve vaardigheden.<br>• Een training kan individueel of in groepsverband worden gevolgd, en wordt verzorgd door gecertificeerde aanbieders of lokale partners.<br>• De deelname aan een training wordt vastgelegd als onderdeel van het PIP of een begeleidings- of ontwikkelplan, met gegevens over inhoud, duur, frequentie en resultaat.<br>• Trainingen dragen bij aan de realisatie van subdoelen die voortkomen uit aandachtspunten of ontwikkelwensen van de inburgeringsplichtige.#NOTES# • Een training maakt geen verplicht onderdeel uit van het wettelijk minimumaanbod, maar wordt vaak als aanvullende voorziening ingezet door gemeenten, bijvoorbeeld in de Z-route of als maatwerk binnen de B1-route.<br>• Voorbeelden zijn: sollicitatietraining, digitale vaardigheden, omgaan met stress, of training in communicatieve vaardigheden.<br>• Een training kan individueel of in groepsverband worden gevolgd, en wordt verzorgd door gecertificeerde aanbieders of lokale partners.<br>• De deelname aan een training wordt vastgelegd als onderdeel van het PIP of een begeleidings- of ontwikkelplan, met gegevens over inhoud, duur, frequentie en resultaat.<br>• Trainingen dragen bij aan de realisatie van subdoelen die voortkomen uit aandachtspunten of ontwikkelwensen van de inburgeringsplichtige.#NOTES# • Een training maakt geen verplicht onderdeel uit van het wettelijk minimumaanbod, maar wordt vaak als aanvullende voorziening ingezet door gemeenten, bijvoorbeeld in de Z-route of als maatwerk binnen de B1-route.<br>• Voorbeelden zijn: sollicitatietraining, digitale vaardigheden, omgaan met stress, of training in communicatieve vaardigheden.<br>• Een training kan individueel of in groepsverband worden gevolgd, en wordt verzorgd door gecertificeerde aanbieders of lokale partners.<br>• De deelname aan een training wordt vastgelegd als onderdeel van het PIP of een begeleidings- of ontwikkelplan, met gegevens over inhoud, duur, frequentie en resultaat.<br>• Trainingen dragen bij aan de realisatie van subdoelen die voortkomen uit aandachtspunten of ontwikkelwensen van de inburgeringsplichtige.#NOTES# • Een training maakt geen verplicht onderdeel uit van het wettelijk minimumaanbod, maar wordt vaak als aanvullende voorziening ingezet door gemeenten, bijvoorbeeld in de Z-route of als maatwerk binnen de B1-route.<br>• Voorbeelden zijn: sollicitatietraining, digitale vaardigheden, omgaan met stress, of training in communicatieve vaardigheden.<br>• Een training kan individueel of in groepsverband worden gevolgd, en wordt verzorgd door gecertificeerde aanbieders of lokale partners.<br>• De deelname aan een training wordt vastgelegd als onderdeel van het PIP of een begeleidings- of ontwikkelplan, met gegevens over inhoud, duur, frequentie en resultaat.<br>• Trainingen dragen bij aan de realisatie van subdoelen die voortkomen uit aandachtspunten of ontwikkelwensen van de inburgeringsplichtige. |
+    | toelichting | • Een training maakt geen verplicht onderdeel uit van het wettelijk minimumaanbod, maar wordt vaak als aanvullende voorziening ingezet door gemeenten, bijvoorbeeld in de Z-route of als maatwerk binnen de B1-route.<br>• Voorbeelden zijn: sollicitatietraining, digitale vaardigheden, omgaan met stress, of training in communicatieve vaardigheden.<br>• Een training kan individueel of in groepsverband worden gevolgd, en wordt verzorgd door gecertificeerde aanbieders of lokale partners.<br>• De deelname aan een training wordt vastgelegd als onderdeel van het PIP of een begeleidings- of ontwikkelplan, met gegevens over inhoud, duur, frequentie en resultaat.<br>• Trainingen dragen bij aan de realisatie van subdoelen die voortkomen uit aandachtspunten of ontwikkelwensen van de inburgeringsplichtige.#NOTES# • Een training maakt geen verplicht onderdeel uit van het wettelijk minimumaanbod, maar wordt vaak als aanvullende voorziening ingezet door gemeenten, bijvoorbeeld in de Z-route of als maatwerk binnen de B1-route.<br>• Voorbeelden zijn: sollicitatietraining, digitale vaardigheden, omgaan met stress, of training in communicatieve vaardigheden.<br>• Een training kan individueel of in groepsverband worden gevolgd, en wordt verzorgd door gecertificeerde aanbieders of lokale partners.<br>• De deelname aan een training wordt vastgelegd als onderdeel van het PIP of een begeleidings- of ontwikkelplan, met gegevens over inhoud, duur, frequentie en resultaat.<br>• Trainingen dragen bij aan de realisatie van subdoelen die voortkomen uit aandachtspunten of ontwikkelwensen van de inburgeringsplichtige.#NOTES# • Een training maakt geen verplicht onderdeel uit van het wettelijk minimumaanbod, maar wordt vaak als aanvullende voorziening ingezet door gemeenten, bijvoorbeeld in de Z-route of als maatwerk binnen de B1-route.<br>• Voorbeelden zijn: sollicitatietraining, digitale vaardigheden, omgaan met stress, of training in communicatieve vaardigheden.<br>• Een training kan individueel of in groepsverband worden gevolgd, en wordt verzorgd door gecertificeerde aanbieders of lokale partners.<br>• De deelname aan een training wordt vastgelegd als onderdeel van het PIP of een begeleidings- of ontwikkelplan, met gegevens over inhoud, duur, frequentie en resultaat.<br>• Trainingen dragen bij aan de realisatie van subdoelen die voortkomen uit aandachtspunten of ontwikkelwensen van de inburgeringsplichtige.#NOTES# • Een training maakt geen verplicht onderdeel uit van het wettelijk minimumaanbod, maar wordt vaak als aanvullende voorziening ingezet door gemeenten, bijvoorbeeld in de Z-route of als maatwerk binnen de B1-route.<br>• Voorbeelden zijn: sollicitatietraining, digitale vaardigheden, omgaan met stress, of training in communicatieve vaardigheden.<br>• Een training kan individueel of in groepsverband worden gevolgd, en wordt verzorgd door gecertificeerde aanbieders of lokale partners.<br>• De deelname aan een training wordt vastgelegd als onderdeel van het PIP of een begeleidings- of ontwikkelplan, met gegevens over inhoud, duur, frequentie en resultaat.<br>• Trainingen dragen bij aan de realisatie van subdoelen die voortkomen uit aandachtspunten of ontwikkelwensen van de inburgeringsplichtige.#NOTES# • Een training maakt geen verplicht onderdeel uit van het wettelijk minimumaanbod, maar wordt vaak als aanvullende voorziening ingezet door gemeenten, bijvoorbeeld in de Z-route of als maatwerk binnen de B1-route.<br>• Voorbeelden zijn: sollicitatietraining, digitale vaardigheden, omgaan met stress, of training in communicatieve vaardigheden.<br>• Een training kan individueel of in groepsverband worden gevolgd, en wordt verzorgd door gecertificeerde aanbieders of lokale partners.<br>• De deelname aan een training wordt vastgelegd als onderdeel van het PIP of een begeleidings- of ontwikkelplan, met gegevens over inhoud, duur, frequentie en resultaat.<br>• Trainingen dragen bij aan de realisatie van subdoelen die voortkomen uit aandachtspunten of ontwikkelwensen van de inburgeringsplichtige. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2024-09-16 12:42:47 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_88DF555F\_9F2F\_4274\_A1ED\_B201EEE0E62E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1191,9 +1191,9 @@ Attributen van objecttype Training
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.3.0 |
+    | version | 1.4.0 |
     | created | 2022-11-28 12:03:41 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_40C9655E\_15CF\_4b46\_8B59\_FD8D4CBC57B5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1224,14 +1224,14 @@ Attributen van objecttype Verblijfplaats AZC
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verlengingsgrond |
-    | toelichting | • De standaard inburgeringstermijn is drie jaar, maar deze kan op verzoek van de inburgeringsplichtige worden verlengd als er sprake is van bijzondere omstandigheden.<br>• Wettelijk geldige verlengingsgronden zijn onder andere:<br>• Zwangerschap of bevalling;<br>• Ernstige ziekte of psychische problematiek;<br>• Mantelzorg of zorgtaken;<br>• Detentie;<br>• Andere aantoonbare belemmeringen buiten de eigen wil.<br>• De verlengingsgrond wordt onderbouwd met bewijsstukken en beoordeeld door het college van burgemeester en wethouders.<br>• De aard en duur van de verlengingsgrond bepalen de omvang van de verlenging, die in principe tijdelijk is.#NOTES# • De standaard inburgeringstermijn is drie jaar, maar deze kan op verzoek van de inburgeringsplichtige worden verlengd als er sprake is van bijzondere omstandigheden.<br>• Wettelijk geldige verlengingsgronden zijn onder andere:<br>• Zwangerschap of bevalling;<br>• Ernstige ziekte of psychische problematiek;<br>• Mantelzorg of zorgtaken;<br>• Detentie;<br>• Andere aantoonbare belemmeringen buiten de eigen wil.<br>• De verlengingsgrond wordt onderbouwd met bewijsstukken en beoordeeld door het college van burgemeester en wethouders.<br>• De aard en duur van de verlengingsgrond bepalen de omvang van de verlenging, die in principe tijdelijk is.#NOTES# • De standaard inburgeringstermijn is drie jaar, maar deze kan op verzoek van de inburgeringsplichtige worden verlengd als er sprake is van bijzondere omstandigheden.<br>• Wettelijk geldige verlengingsgronden zijn onder andere:<br>• Zwangerschap of bevalling;<br>• Ernstige ziekte of psychische problematiek;<br>• Mantelzorg of zorgtaken;<br>• Detentie;<br>• Andere aantoonbare belemmeringen buiten de eigen wil.<br>• De verlengingsgrond wordt onderbouwd met bewijsstukken en beoordeeld door het college van burgemeester en wethouders.<br>• De aard en duur van de verlengingsgrond bepalen de omvang van de verlenging, die in principe tijdelijk is.#NOTES# • De standaard inburgeringstermijn is drie jaar, maar deze kan op verzoek van de inburgeringsplichtige worden verlengd als er sprake is van bijzondere omstandigheden.<br>• Wettelijk geldige verlengingsgronden zijn onder andere:<br>• Zwangerschap of bevalling;<br>• Ernstige ziekte of psychische problematiek;<br>• Mantelzorg of zorgtaken;<br>• Detentie;<br>• Andere aantoonbare belemmeringen buiten de eigen wil.<br>• De verlengingsgrond wordt onderbouwd met bewijsstukken en beoordeeld door het college van burgemeester en wethouders.<br>• De aard en duur van de verlengingsgrond bepalen de omvang van de verlenging, die in principe tijdelijk is. |
+    | toelichting | • De standaard inburgeringstermijn is drie jaar, maar deze kan op verzoek van de inburgeringsplichtige worden verlengd als er sprake is van bijzondere omstandigheden.<br>• Wettelijk geldige verlengingsgronden zijn onder andere:<br>• Zwangerschap of bevalling;<br>• Ernstige ziekte of psychische problematiek;<br>• Mantelzorg of zorgtaken;<br>• Detentie;<br>• Andere aantoonbare belemmeringen buiten de eigen wil.<br>• De verlengingsgrond wordt onderbouwd met bewijsstukken en beoordeeld door het college van burgemeester en wethouders.<br>• De aard en duur van de verlengingsgrond bepalen de omvang van de verlenging, die in principe tijdelijk is.#NOTES# • De standaard inburgeringstermijn is drie jaar, maar deze kan op verzoek van de inburgeringsplichtige worden verlengd als er sprake is van bijzondere omstandigheden.<br>• Wettelijk geldige verlengingsgronden zijn onder andere:<br>• Zwangerschap of bevalling;<br>• Ernstige ziekte of psychische problematiek;<br>• Mantelzorg of zorgtaken;<br>• Detentie;<br>• Andere aantoonbare belemmeringen buiten de eigen wil.<br>• De verlengingsgrond wordt onderbouwd met bewijsstukken en beoordeeld door het college van burgemeester en wethouders.<br>• De aard en duur van de verlengingsgrond bepalen de omvang van de verlenging, die in principe tijdelijk is.#NOTES# • De standaard inburgeringstermijn is drie jaar, maar deze kan op verzoek van de inburgeringsplichtige worden verlengd als er sprake is van bijzondere omstandigheden.<br>• Wettelijk geldige verlengingsgronden zijn onder andere:<br>• Zwangerschap of bevalling;<br>• Ernstige ziekte of psychische problematiek;<br>• Mantelzorg of zorgtaken;<br>• Detentie;<br>• Andere aantoonbare belemmeringen buiten de eigen wil.<br>• De verlengingsgrond wordt onderbouwd met bewijsstukken en beoordeeld door het college van burgemeester en wethouders.<br>• De aard en duur van de verlengingsgrond bepalen de omvang van de verlenging, die in principe tijdelijk is.#NOTES# • De standaard inburgeringstermijn is drie jaar, maar deze kan op verzoek van de inburgeringsplichtige worden verlengd als er sprake is van bijzondere omstandigheden.<br>• Wettelijk geldige verlengingsgronden zijn onder andere:<br>• Zwangerschap of bevalling;<br>• Ernstige ziekte of psychische problematiek;<br>• Mantelzorg of zorgtaken;<br>• Detentie;<br>• Andere aantoonbare belemmeringen buiten de eigen wil.<br>• De verlengingsgrond wordt onderbouwd met bewijsstukken en beoordeeld door het college van burgemeester en wethouders.<br>• De aard en duur van de verlengingsgrond bepalen de omvang van de verlenging, die in principe tijdelijk is.#NOTES# • De standaard inburgeringstermijn is drie jaar, maar deze kan op verzoek van de inburgeringsplichtige worden verlengd als er sprake is van bijzondere omstandigheden.<br>• Wettelijk geldige verlengingsgronden zijn onder andere:<br>• Zwangerschap of bevalling;<br>• Ernstige ziekte of psychische problematiek;<br>• Mantelzorg of zorgtaken;<br>• Detentie;<br>• Andere aantoonbare belemmeringen buiten de eigen wil.<br>• De verlengingsgrond wordt onderbouwd met bewijsstukken en beoordeeld door het college van burgemeester en wethouders.<br>• De aard en duur van de verlengingsgrond bepalen de omvang van de verlenging, die in principe tijdelijk is. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2024-09-16 13:10:32 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_951AC549\_985D\_4bdb\_BEE0\_65AD3C1ED9E2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1265,14 +1265,14 @@ Attributen van objecttype Verlengingsgrond
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Voorbereiding op Inburgering |
-    | toelichting | • Deze voorbereiding vindt doorgaans plaats tijdens het verblijf in een AZC, nog vóór de inschrijving in de BRP en het officiële begin van de inburgeringstermijn.<br>• Het doel is om inburgeringsplichtigen een betere startpositie te geven bij de brede intake en het leertraject.<br>• Activiteiten kunnen zijn: introductielessen Nederlandse taal, kennismaking met rechten en plichten, uitleg over wonen, zorg, werk en onderwijs.<br>• De activiteiten worden gecoördineerd door het COA in samenwerking met lokale partners, en vormen geen wettelijk verplicht onderdeel van de inburgeringsplicht.<br>• Gemeenten kunnen bij de overdracht gebruikmaken van informatie over gevolgde voorbereidingsactiviteiten bij het opstellen van het PIP.#NOTES# • Deze voorbereiding vindt doorgaans plaats tijdens het verblijf in een AZC, nog vóór de inschrijving in de BRP en het officiële begin van de inburgeringstermijn.<br>• Het doel is om inburgeringsplichtigen een betere startpositie te geven bij de brede intake en het leertraject.<br>• Activiteiten kunnen zijn: introductielessen Nederlandse taal, kennismaking met rechten en plichten, uitleg over wonen, zorg, werk en onderwijs.<br>• De activiteiten worden gecoördineerd door het COA in samenwerking met lokale partners, en vormen geen wettelijk verplicht onderdeel van de inburgeringsplicht.<br>• Gemeenten kunnen bij de overdracht gebruikmaken van informatie over gevolgde voorbereidingsactiviteiten bij het opstellen van het PIP.#NOTES# • Deze voorbereiding vindt doorgaans plaats tijdens het verblijf in een AZC, nog vóór de inschrijving in de BRP en het officiële begin van de inburgeringstermijn.<br>• Het doel is om inburgeringsplichtigen een betere startpositie te geven bij de brede intake en het leertraject.<br>• Activiteiten kunnen zijn: introductielessen Nederlandse taal, kennismaking met rechten en plichten, uitleg over wonen, zorg, werk en onderwijs.<br>• De activiteiten worden gecoördineerd door het COA in samenwerking met lokale partners, en vormen geen wettelijk verplicht onderdeel van de inburgeringsplicht.<br>• Gemeenten kunnen bij de overdracht gebruikmaken van informatie over gevolgde voorbereidingsactiviteiten bij het opstellen van het PIP.#NOTES# • Deze voorbereiding vindt doorgaans plaats tijdens het verblijf in een AZC, nog vóór de inschrijving in de BRP en het officiële begin van de inburgeringstermijn.<br>• Het doel is om inburgeringsplichtigen een betere startpositie te geven bij de brede intake en het leertraject.<br>• Activiteiten kunnen zijn: introductielessen Nederlandse taal, kennismaking met rechten en plichten, uitleg over wonen, zorg, werk en onderwijs.<br>• De activiteiten worden gecoördineerd door het COA in samenwerking met lokale partners, en vormen geen wettelijk verplicht onderdeel van de inburgeringsplicht.<br>• Gemeenten kunnen bij de overdracht gebruikmaken van informatie over gevolgde voorbereidingsactiviteiten bij het opstellen van het PIP. |
+    | toelichting | • Deze voorbereiding vindt doorgaans plaats tijdens het verblijf in een AZC, nog vóór de inschrijving in de BRP en het officiële begin van de inburgeringstermijn.<br>• Het doel is om inburgeringsplichtigen een betere startpositie te geven bij de brede intake en het leertraject.<br>• Activiteiten kunnen zijn: introductielessen Nederlandse taal, kennismaking met rechten en plichten, uitleg over wonen, zorg, werk en onderwijs.<br>• De activiteiten worden gecoördineerd door het COA in samenwerking met lokale partners, en vormen geen wettelijk verplicht onderdeel van de inburgeringsplicht.<br>• Gemeenten kunnen bij de overdracht gebruikmaken van informatie over gevolgde voorbereidingsactiviteiten bij het opstellen van het PIP.#NOTES# • Deze voorbereiding vindt doorgaans plaats tijdens het verblijf in een AZC, nog vóór de inschrijving in de BRP en het officiële begin van de inburgeringstermijn.<br>• Het doel is om inburgeringsplichtigen een betere startpositie te geven bij de brede intake en het leertraject.<br>• Activiteiten kunnen zijn: introductielessen Nederlandse taal, kennismaking met rechten en plichten, uitleg over wonen, zorg, werk en onderwijs.<br>• De activiteiten worden gecoördineerd door het COA in samenwerking met lokale partners, en vormen geen wettelijk verplicht onderdeel van de inburgeringsplicht.<br>• Gemeenten kunnen bij de overdracht gebruikmaken van informatie over gevolgde voorbereidingsactiviteiten bij het opstellen van het PIP.#NOTES# • Deze voorbereiding vindt doorgaans plaats tijdens het verblijf in een AZC, nog vóór de inschrijving in de BRP en het officiële begin van de inburgeringstermijn.<br>• Het doel is om inburgeringsplichtigen een betere startpositie te geven bij de brede intake en het leertraject.<br>• Activiteiten kunnen zijn: introductielessen Nederlandse taal, kennismaking met rechten en plichten, uitleg over wonen, zorg, werk en onderwijs.<br>• De activiteiten worden gecoördineerd door het COA in samenwerking met lokale partners, en vormen geen wettelijk verplicht onderdeel van de inburgeringsplicht.<br>• Gemeenten kunnen bij de overdracht gebruikmaken van informatie over gevolgde voorbereidingsactiviteiten bij het opstellen van het PIP.#NOTES# • Deze voorbereiding vindt doorgaans plaats tijdens het verblijf in een AZC, nog vóór de inschrijving in de BRP en het officiële begin van de inburgeringstermijn.<br>• Het doel is om inburgeringsplichtigen een betere startpositie te geven bij de brede intake en het leertraject.<br>• Activiteiten kunnen zijn: introductielessen Nederlandse taal, kennismaking met rechten en plichten, uitleg over wonen, zorg, werk en onderwijs.<br>• De activiteiten worden gecoördineerd door het COA in samenwerking met lokale partners, en vormen geen wettelijk verplicht onderdeel van de inburgeringsplicht.<br>• Gemeenten kunnen bij de overdracht gebruikmaken van informatie over gevolgde voorbereidingsactiviteiten bij het opstellen van het PIP.#NOTES# • Deze voorbereiding vindt doorgaans plaats tijdens het verblijf in een AZC, nog vóór de inschrijving in de BRP en het officiële begin van de inburgeringstermijn.<br>• Het doel is om inburgeringsplichtigen een betere startpositie te geven bij de brede intake en het leertraject.<br>• Activiteiten kunnen zijn: introductielessen Nederlandse taal, kennismaking met rechten en plichten, uitleg over wonen, zorg, werk en onderwijs.<br>• De activiteiten worden gecoördineerd door het COA in samenwerking met lokale partners, en vormen geen wettelijk verplicht onderdeel van de inburgeringsplicht.<br>• Gemeenten kunnen bij de overdracht gebruikmaken van informatie over gevolgde voorbereidingsactiviteiten bij het opstellen van het PIP. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2024-09-16 11:41:43 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:37 |
     | id | EAID\_6AEA0314\_895B\_46be\_B525\_96F4657E7F0D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1340,14 +1340,14 @@ Attributen van objecttype Vreemdeling
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vrijstelling |
-    | toelichting | #NOTES# Vrijstelling verschilt van ontheffing: een vrijstelling is gebaseerd op reeds behaalde resultaten of bestaande omstandigheden, terwijl een ontheffing wordt verleend op grond van overmacht of belemmeringen.<br>• Voorbeelden van vrijstellingen:<br>• Een diploma dat voldoet aan de taaleis (zoals NT2-B1);<br>• Eerder gevolgde participatieprogramma’s die het Participatieverklaringstraject overbodig maken;<br>• Werkervaring of opleiding in Nederland die voldoet aan de doelen van een leerroute.<br>• De gemeente of DUO beslist over de vrijstelling, afhankelijk van het onderdeel waarop het betrekking heeft.<br>• Vrijstellingen worden geregistreerd en meegenomen in het opstellen en uitvoeren van het PIP, zodat geen dubbel aanbod wordt ingezet.#NOTES# Vrijstelling verschilt van ontheffing: een vrijstelling is gebaseerd op reeds behaalde resultaten of bestaande omstandigheden, terwijl een ontheffing wordt verleend op grond van overmacht of belemmeringen.<br>• Voorbeelden van vrijstellingen:<br>• Een diploma dat voldoet aan de taaleis (zoals NT2-B1);<br>• Eerder gevolgde participatieprogramma’s die het Participatieverklaringstraject overbodig maken;<br>• Werkervaring of opleiding in Nederland die voldoet aan de doelen van een leerroute.<br>• De gemeente of DUO beslist over de vrijstelling, afhankelijk van het onderdeel waarop het betrekking heeft.<br>• Vrijstellingen worden geregistreerd en meegenomen in het opstellen en uitvoeren van het PIP, zodat geen dubbel aanbod wordt ingezet.#NOTES# Vrijstelling verschilt van ontheffing: een vrijstelling is gebaseerd op reeds behaalde resultaten of bestaande omstandigheden, terwijl een ontheffing wordt verleend op grond van overmacht of belemmeringen.<br>• Voorbeelden van vrijstellingen:<br>• Een diploma dat voldoet aan de taaleis (zoals NT2-B1);<br>• Eerder gevolgde participatieprogramma’s die het Participatieverklaringstraject overbodig maken;<br>• Werkervaring of opleiding in Nederland die voldoet aan de doelen van een leerroute.<br>• De gemeente of DUO beslist over de vrijstelling, afhankelijk van het onderdeel waarop het betrekking heeft.<br>• Vrijstellingen worden geregistreerd en meegenomen in het opstellen en uitvoeren van het PIP, zodat geen dubbel aanbod wordt ingezet.#NOTES# Vrijstelling verschilt van ontheffing: een vrijstelling is gebaseerd op reeds behaalde resultaten of bestaande omstandigheden, terwijl een ontheffing wordt verleend op grond van overmacht of belemmeringen.<br>• Voorbeelden van vrijstellingen:<br>• Een diploma dat voldoet aan de taaleis (zoals NT2-B1);<br>• Eerder gevolgde participatieprogramma’s die het Participatieverklaringstraject overbodig maken;<br>• Werkervaring of opleiding in Nederland die voldoet aan de doelen van een leerroute.<br>• De gemeente of DUO beslist over de vrijstelling, afhankelijk van het onderdeel waarop het betrekking heeft.<br>• Vrijstellingen worden geregistreerd en meegenomen in het opstellen en uitvoeren van het PIP, zodat geen dubbel aanbod wordt ingezet. |
+    | toelichting | #NOTES# Vrijstelling verschilt van ontheffing: een vrijstelling is gebaseerd op reeds behaalde resultaten of bestaande omstandigheden, terwijl een ontheffing wordt verleend op grond van overmacht of belemmeringen.<br>• Voorbeelden van vrijstellingen:<br>• Een diploma dat voldoet aan de taaleis (zoals NT2-B1);<br>• Eerder gevolgde participatieprogramma’s die het Participatieverklaringstraject overbodig maken;<br>• Werkervaring of opleiding in Nederland die voldoet aan de doelen van een leerroute.<br>• De gemeente of DUO beslist over de vrijstelling, afhankelijk van het onderdeel waarop het betrekking heeft.<br>• Vrijstellingen worden geregistreerd en meegenomen in het opstellen en uitvoeren van het PIP, zodat geen dubbel aanbod wordt ingezet.#NOTES# Vrijstelling verschilt van ontheffing: een vrijstelling is gebaseerd op reeds behaalde resultaten of bestaande omstandigheden, terwijl een ontheffing wordt verleend op grond van overmacht of belemmeringen.<br>• Voorbeelden van vrijstellingen:<br>• Een diploma dat voldoet aan de taaleis (zoals NT2-B1);<br>• Eerder gevolgde participatieprogramma’s die het Participatieverklaringstraject overbodig maken;<br>• Werkervaring of opleiding in Nederland die voldoet aan de doelen van een leerroute.<br>• De gemeente of DUO beslist over de vrijstelling, afhankelijk van het onderdeel waarop het betrekking heeft.<br>• Vrijstellingen worden geregistreerd en meegenomen in het opstellen en uitvoeren van het PIP, zodat geen dubbel aanbod wordt ingezet.#NOTES# Vrijstelling verschilt van ontheffing: een vrijstelling is gebaseerd op reeds behaalde resultaten of bestaande omstandigheden, terwijl een ontheffing wordt verleend op grond van overmacht of belemmeringen.<br>• Voorbeelden van vrijstellingen:<br>• Een diploma dat voldoet aan de taaleis (zoals NT2-B1);<br>• Eerder gevolgde participatieprogramma’s die het Participatieverklaringstraject overbodig maken;<br>• Werkervaring of opleiding in Nederland die voldoet aan de doelen van een leerroute.<br>• De gemeente of DUO beslist over de vrijstelling, afhankelijk van het onderdeel waarop het betrekking heeft.<br>• Vrijstellingen worden geregistreerd en meegenomen in het opstellen en uitvoeren van het PIP, zodat geen dubbel aanbod wordt ingezet.#NOTES# Vrijstelling verschilt van ontheffing: een vrijstelling is gebaseerd op reeds behaalde resultaten of bestaande omstandigheden, terwijl een ontheffing wordt verleend op grond van overmacht of belemmeringen.<br>• Voorbeelden van vrijstellingen:<br>• Een diploma dat voldoet aan de taaleis (zoals NT2-B1);<br>• Eerder gevolgde participatieprogramma’s die het Participatieverklaringstraject overbodig maken;<br>• Werkervaring of opleiding in Nederland die voldoet aan de doelen van een leerroute.<br>• De gemeente of DUO beslist over de vrijstelling, afhankelijk van het onderdeel waarop het betrekking heeft.<br>• Vrijstellingen worden geregistreerd en meegenomen in het opstellen en uitvoeren van het PIP, zodat geen dubbel aanbod wordt ingezet.#NOTES# Vrijstelling verschilt van ontheffing: een vrijstelling is gebaseerd op reeds behaalde resultaten of bestaande omstandigheden, terwijl een ontheffing wordt verleend op grond van overmacht of belemmeringen.<br>• Voorbeelden van vrijstellingen:<br>• Een diploma dat voldoet aan de taaleis (zoals NT2-B1);<br>• Eerder gevolgde participatieprogramma’s die het Participatieverklaringstraject overbodig maken;<br>• Werkervaring of opleiding in Nederland die voldoet aan de doelen van een leerroute.<br>• De gemeente of DUO beslist over de vrijstelling, afhankelijk van het onderdeel waarop het betrekking heeft.<br>• Vrijstellingen worden geregistreerd en meegenomen in het opstellen en uitvoeren van het PIP, zodat geen dubbel aanbod wordt ingezet. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2024-09-16 13:10:49 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_C31D4A7E\_1F25\_4b85\_B49C\_AEC45EB3DB54 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1377,14 +1377,14 @@ Attributen van objecttype Vrijstelling
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Werk |
-    | toelichting | #NOTES# • Werk kan zowel als einddoel worden vastgesteld in het PIP (bijvoorbeeld in de B1-route), als een middel zijn binnen een duale leerroute of participatiecomponent.<br>• De gemeente kan betaalde arbeid erkennen als invulling van (delen van) het inburgeringsaanbod, mits het bijdraagt aan taalverwerving en maatschappelijke integratie.<br>• Relevante gegevens zijn: soort werk, werkgever, start- en einddatum, aantal uren per week, en eventuele begeleiding op de werkvloer.<br>• Werkervaring kan ook aanleiding zijn tot vrijstelling van bepaalde onderdelen (zoals MAP), of worden gebruikt als verantwoordingsgrond in rapportages aan DUO of bij herziening van het PIP.<br>• Het objecttype wordt onderscheiden van onbetaalde participatievormen zoals vrijwilligerswerk.#NOTES# • Werk kan zowel als einddoel worden vastgesteld in het PIP (bijvoorbeeld in de B1-route), als een middel zijn binnen een duale leerroute of participatiecomponent.<br>• De gemeente kan betaalde arbeid erkennen als invulling van (delen van) het inburgeringsaanbod, mits het bijdraagt aan taalverwerving en maatschappelijke integratie.<br>• Relevante gegevens zijn: soort werk, werkgever, start- en einddatum, aantal uren per week, en eventuele begeleiding op de werkvloer.<br>• Werkervaring kan ook aanleiding zijn tot vrijstelling van bepaalde onderdelen (zoals MAP), of worden gebruikt als verantwoordingsgrond in rapportages aan DUO of bij herziening van het PIP.<br>• Het objecttype wordt onderscheiden van onbetaalde participatievormen zoals vrijwilligerswerk.#NOTES# • Werk kan zowel als einddoel worden vastgesteld in het PIP (bijvoorbeeld in de B1-route), als een middel zijn binnen een duale leerroute of participatiecomponent.<br>• De gemeente kan betaalde arbeid erkennen als invulling van (delen van) het inburgeringsaanbod, mits het bijdraagt aan taalverwerving en maatschappelijke integratie.<br>• Relevante gegevens zijn: soort werk, werkgever, start- en einddatum, aantal uren per week, en eventuele begeleiding op de werkvloer.<br>• Werkervaring kan ook aanleiding zijn tot vrijstelling van bepaalde onderdelen (zoals MAP), of worden gebruikt als verantwoordingsgrond in rapportages aan DUO of bij herziening van het PIP.<br>• Het objecttype wordt onderscheiden van onbetaalde participatievormen zoals vrijwilligerswerk.#NOTES# • Werk kan zowel als einddoel worden vastgesteld in het PIP (bijvoorbeeld in de B1-route), als een middel zijn binnen een duale leerroute of participatiecomponent.<br>• De gemeente kan betaalde arbeid erkennen als invulling van (delen van) het inburgeringsaanbod, mits het bijdraagt aan taalverwerving en maatschappelijke integratie.<br>• Relevante gegevens zijn: soort werk, werkgever, start- en einddatum, aantal uren per week, en eventuele begeleiding op de werkvloer.<br>• Werkervaring kan ook aanleiding zijn tot vrijstelling van bepaalde onderdelen (zoals MAP), of worden gebruikt als verantwoordingsgrond in rapportages aan DUO of bij herziening van het PIP.<br>• Het objecttype wordt onderscheiden van onbetaalde participatievormen zoals vrijwilligerswerk. |
+    | toelichting | #NOTES# • Werk kan zowel als einddoel worden vastgesteld in het PIP (bijvoorbeeld in de B1-route), als een middel zijn binnen een duale leerroute of participatiecomponent.<br>• De gemeente kan betaalde arbeid erkennen als invulling van (delen van) het inburgeringsaanbod, mits het bijdraagt aan taalverwerving en maatschappelijke integratie.<br>• Relevante gegevens zijn: soort werk, werkgever, start- en einddatum, aantal uren per week, en eventuele begeleiding op de werkvloer.<br>• Werkervaring kan ook aanleiding zijn tot vrijstelling van bepaalde onderdelen (zoals MAP), of worden gebruikt als verantwoordingsgrond in rapportages aan DUO of bij herziening van het PIP.<br>• Het objecttype wordt onderscheiden van onbetaalde participatievormen zoals vrijwilligerswerk.#NOTES# • Werk kan zowel als einddoel worden vastgesteld in het PIP (bijvoorbeeld in de B1-route), als een middel zijn binnen een duale leerroute of participatiecomponent.<br>• De gemeente kan betaalde arbeid erkennen als invulling van (delen van) het inburgeringsaanbod, mits het bijdraagt aan taalverwerving en maatschappelijke integratie.<br>• Relevante gegevens zijn: soort werk, werkgever, start- en einddatum, aantal uren per week, en eventuele begeleiding op de werkvloer.<br>• Werkervaring kan ook aanleiding zijn tot vrijstelling van bepaalde onderdelen (zoals MAP), of worden gebruikt als verantwoordingsgrond in rapportages aan DUO of bij herziening van het PIP.<br>• Het objecttype wordt onderscheiden van onbetaalde participatievormen zoals vrijwilligerswerk.#NOTES# • Werk kan zowel als einddoel worden vastgesteld in het PIP (bijvoorbeeld in de B1-route), als een middel zijn binnen een duale leerroute of participatiecomponent.<br>• De gemeente kan betaalde arbeid erkennen als invulling van (delen van) het inburgeringsaanbod, mits het bijdraagt aan taalverwerving en maatschappelijke integratie.<br>• Relevante gegevens zijn: soort werk, werkgever, start- en einddatum, aantal uren per week, en eventuele begeleiding op de werkvloer.<br>• Werkervaring kan ook aanleiding zijn tot vrijstelling van bepaalde onderdelen (zoals MAP), of worden gebruikt als verantwoordingsgrond in rapportages aan DUO of bij herziening van het PIP.<br>• Het objecttype wordt onderscheiden van onbetaalde participatievormen zoals vrijwilligerswerk.#NOTES# • Werk kan zowel als einddoel worden vastgesteld in het PIP (bijvoorbeeld in de B1-route), als een middel zijn binnen een duale leerroute of participatiecomponent.<br>• De gemeente kan betaalde arbeid erkennen als invulling van (delen van) het inburgeringsaanbod, mits het bijdraagt aan taalverwerving en maatschappelijke integratie.<br>• Relevante gegevens zijn: soort werk, werkgever, start- en einddatum, aantal uren per week, en eventuele begeleiding op de werkvloer.<br>• Werkervaring kan ook aanleiding zijn tot vrijstelling van bepaalde onderdelen (zoals MAP), of worden gebruikt als verantwoordingsgrond in rapportages aan DUO of bij herziening van het PIP.<br>• Het objecttype wordt onderscheiden van onbetaalde participatievormen zoals vrijwilligerswerk.#NOTES# • Werk kan zowel als einddoel worden vastgesteld in het PIP (bijvoorbeeld in de B1-route), als een middel zijn binnen een duale leerroute of participatiecomponent.<br>• De gemeente kan betaalde arbeid erkennen als invulling van (delen van) het inburgeringsaanbod, mits het bijdraagt aan taalverwerving en maatschappelijke integratie.<br>• Relevante gegevens zijn: soort werk, werkgever, start- en einddatum, aantal uren per week, en eventuele begeleiding op de werkvloer.<br>• Werkervaring kan ook aanleiding zijn tot vrijstelling van bepaalde onderdelen (zoals MAP), of worden gebruikt als verantwoordingsgrond in rapportages aan DUO of bij herziening van het PIP.<br>• Het objecttype wordt onderscheiden van onbetaalde participatievormen zoals vrijwilligerswerk. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2024-09-16 12:05:16 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_45BB12F8\_C796\_43aa\_A4D0\_FDC724601EB9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1428,9 +1428,9 @@ Attributen van objecttype Werk
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.2.0 |
+    | version | 1.3.0 |
     | created | 2024-09-16 14:29:20 |
-    | modified | 2025-12-17 09:00:30 |
+    | modified | 2025-12-17 10:18:38 |
     | id | EAID\_42CA98D5\_0E2F\_4110\_AED0\_6B8ADB955BBF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1487,7 +1487,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_7bbf4e61\_5692\_4b02\_a3e0\_a0e62e81346f |
+    | id | EAID\_3af17ee0\_eb75\_424a\_9583\_1e7be61b6d79 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1524,7 +1524,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_ba34c202\_f48c\_4915\_85b0\_bed96ad2047c |
+    | id | EAID\_9027e007\_86c8\_4253\_88c0\_efdfc90701fd |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1555,15 +1555,15 @@ De enumeratie CodeNiveauOpleiding heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | CodeNiveauOpleiding |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-06-17 16:01:14 |
-    | modified | 2025-12-17 09:00:43 |
-    | id | EAID\_9f656a6e\_fa3b\_4d09\_8073\_48336cbc7de1 |
+    | modified | 2025-12-17 10:18:48 |
+    | id | EAID\_55447537\_16c2\_405b\_81a6\_323f87dffc8f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1602,9 +1602,9 @@ De enumeratie Aandachtspunt heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 07:29:22 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_B16DEA22\_40DB\_45a9\_ADD9\_5C1410F499B8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1637,9 +1637,9 @@ De enumeratie BeoordelingAanvraagVerlenging heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-26 15:56:07 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_ACBF6B07\_C3E2\_466f\_B2B4\_A65657A365BE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1675,9 +1675,9 @@ De enumeratie ClassificatieArmTotUitstekend heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-28 11:24:00 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_AC2F4B40\_AD01\_0B7D\_B713\_7CBB564649D0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1710,9 +1710,9 @@ De enumeratie ClassificatieVoldoendeOnvoldoende  heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-26 16:39:49 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_6C8100BB\_7885\_4267\_BF88\_B9BC76D10892 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1749,9 +1749,9 @@ De enumeratie Doel heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 06:29:40 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_C83708A0\_F5E8\_4016\_BC90\_916160CDC918 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1835,9 +1835,9 @@ De enumeratie Doelgroep heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | arjen |
-    | version | 1.2.0 |
+    | version | 1.3.0 |
     | created | 2025-12-16 11:41:02 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_2D012E2E\_4BD5\_4465\_B7E4\_3E4268E43B13 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1872,9 +1872,9 @@ De enumeratie EindoordeelVrijstelling heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-26 15:42:07 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_2A5627B6\_B527\_45ed\_9B6D\_BEF9C7309E32 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1915,9 +1915,9 @@ De enumeratie Ontwikkelwens heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 06:49:08 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_2FCD9A74\_460D\_4042\_A207\_FF78590CEBE6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1955,9 +1955,9 @@ De enumeratie Opleidingsniveau heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-26 18:00:44 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_6828324F\_D2D9\_4d4b\_8337\_606BF522C8CC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1990,9 +1990,9 @@ De enumeratie ParticipatieDeelname heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-26 16:41:13 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_34632CBF\_89DE\_496f\_9679\_6EE3D724EC7F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2026,9 +2026,9 @@ De enumeratie PresentieTaalles heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-26 17:58:35 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_E6674A80\_A87E\_4b1e\_B223\_707C45E091A0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2080,14 +2080,14 @@ De enumeratie SETU job category heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | SETU job category |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-29 11:18:16 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_B085E84B\_BC20\_5199\_A56E\_86CD393F1542 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2118,14 +2118,14 @@ De enumeratie SoortWerk heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | SoortWerk |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-29 11:18:51 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_92859227\_EB07\_3E39\_8641\_39C5765453D0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2156,9 +2156,9 @@ De enumeratie Subdoel betaald werken heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 17:04:35 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_D33B52FA\_CEC1\_490f\_BE5E\_ECFA05F544E2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2192,9 +2192,9 @@ De enumeratie Subdoel betaald werken met een opleiding heeft de volgende kenmerk
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 17:19:32 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_BA9C46B9\_483E\_4ba5\_9073\_07B354392B84 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2231,9 +2231,9 @@ De enumeratie Subdoel betaald werken naar vermogen heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 17:15:39 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_FAAA0B16\_6595\_49ee\_9A77\_53A88DFBBC6D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2266,9 +2266,9 @@ De enumeratie Subdoel digitale vaardigheden heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 18:02:48 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_0AD20B37\_952E\_49c4\_B400\_16010211AD9D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2301,9 +2301,9 @@ De enumeratie Subdoel eenzaamheid heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 17:56:32 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_66FD4C23\_5CC0\_4cc1\_AF24\_3DFA6C1F9D3A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2338,9 +2338,9 @@ De enumeratie Subdoel Financien heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 17:44:34 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_3D53D7B8\_F991\_419d\_9970\_7CE4C137C695 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2373,9 +2373,9 @@ De enumeratie Subdoel Justitie heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 17:53:48 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_A5E09CFE\_E708\_40ce\_BC9F\_20376978B3B9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2411,9 +2411,9 @@ De enumeratie Subdoel lichamelijke gezondheid heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 18:04:33 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_012213A5\_85A0\_4f66\_BD45\_E62CEBA2F418 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2448,9 +2448,9 @@ De enumeratie Subdoel ondernemen heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 17:38:21 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_E206FD3D\_D9C6\_4c07\_AEA5\_44BA9925FC89 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2483,9 +2483,9 @@ De enumeratie Subdoel opleiding volgen heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 17:39:56 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_9DC1A38B\_104E\_4219\_9259\_F1724F729077 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2517,9 +2517,9 @@ De enumeratie Subdoel passende dagbesteding hebben (maatschappelijk fit worden) 
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 17:42:12 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_0A4EE232\_E486\_4535\_94EC\_AC5C81286629 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2555,9 +2555,9 @@ De enumeratie Subdoel psychische gezondheid heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 18:07:33 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_DB49A2E8\_2201\_47aa\_94F6\_5E3E7554D505 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2591,9 +2591,9 @@ De enumeratie Subdoel Taal heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 17:57:39 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_A4EA988A\_3DC7\_4b76\_9363\_7692B4A338F1 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2625,9 +2625,9 @@ De enumeratie Subdoel taalvaardigheden opdoen heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 17:36:29 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_AB7EA982\_1495\_4875\_9660\_E9485AD3C7C6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2662,9 +2662,9 @@ De enumeratie Subdoel verslaving heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 17:46:28 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_1795C338\_A4B1\_495f\_A091\_51AE710B8AA6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2696,9 +2696,9 @@ De enumeratie Subdoel vrijwilligerswerk doen (maatschappelijk fit worden) heeft 
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 17:41:08 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_5C24829E\_282B\_4e61\_8A99\_C74033C05221 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2733,9 +2733,9 @@ De enumeratie Subdoel Werkervaring opdoen (werkfit worden) heeft de volgende ken
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 17:34:26 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_F45C2D7F\_F892\_4b00\_AA35\_478EFB05129D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2771,9 +2771,9 @@ De enumeratie Subdoel Werknemersvaardigheden ontwikkelen (werkfit worden) heeft 
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 17:32:16 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_1EFAE495\_D46C\_459a\_ADA6\_0215066F7FC7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2806,9 +2806,9 @@ De enumeratie Subdoel woonsituatie heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 18:09:36 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_CD72AB31\_CB45\_4a79\_9464\_373847342C1D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2844,9 +2844,9 @@ De enumeratie Subdoel zorgtaken heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-27 17:48:28 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_32AC2751\_F23B\_4495\_92A2\_BD6A49666A26 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2880,9 +2880,9 @@ De enumeratie UitkomstLeerbaarheidstoets heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-26 15:29:40 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_D736A972\_6151\_47ed\_86CD\_FBA92F15189A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2916,9 +2916,9 @@ De enumeratie WordtBehandeldAls heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2025-07-26 15:34:29 |
-    | modified | 2025-12-17 09:00:43 |
+    | modified | 2025-12-17 10:18:48 |
     | id | EAID\_39F3CA70\_4E74\_407b\_B1AC\_A70F64F1A657 |
     | domein_iv3 |  |
     | domein_dcat |  |
