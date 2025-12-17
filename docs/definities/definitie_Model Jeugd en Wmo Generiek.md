@@ -335,7 +335,7 @@ Attributen van objecttype Beschikking
 | code | AN20 |  |
 | grondslagen | int |  |
 | commentaar | AN200 |  |
-| wet |  |  |
+| wet | AN200 |  |
 
 
 

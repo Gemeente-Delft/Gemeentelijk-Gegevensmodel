@@ -293,11 +293,11 @@ Attributen van objecttype Betrokkene
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| rol |  |  |
 | naam | AN200 | De benaming van de BETROKKENE indien dit een (NIET) NATUURLIJK PERSOON, VESTIGING of specialisatie daarvan is. |
 | identificatie | AN50 | De unieke identificatie van de BETROKKENE |
 | adresBinnenland |  | De aanduiding van het adres van de BETROKKENE indien dit adres in Nederland gelegen is. |
 | adresBuitenland | AN200 | De aanduiding van het adres waar specialisaties van de BETROKKENE zijnde een (NIET) NATUURLIJK PERSOON of VESTIGING dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland. |
+| rol |  |  |
 | betrokkene | Class: "NatuurlijkPersoon" |  |
 | organisatorische eenheid | Class: "OrganisatorischeEenheid" |  |
 | vestiging | Class: "NietNatuurlijkPersoon" |  |
@@ -388,14 +388,14 @@ Attributen van objecttype Deelprocestype
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Document |
-    | toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
+    | toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2010-08-19 12:15:35 |
-    | modified | 2025-12-17 10:18:38 |
+    | modified | 2025-12-17 11:00:54 |
     | id | EAID\_5641C50A\_C0FA\_4e71\_B07B\_26C7B1CE94ED |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -990,7 +990,6 @@ Attributen van objecttype Zaak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| document |  |  |
 | zaakidentificatie | AN40 | Een identificatie van de zaak. |
 | datumEinde | Datum | De datum waarop de uitvoering van de zaak afgerond is. |
 | datumEindeGepland | Datum | De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt. |
@@ -1015,6 +1014,7 @@ Attributen van objecttype Zaak
 | vertrouwelijkheid | AN40 |  |
 | leges | AN100 |  |
 | type | Class: "Zaaktype" |  |
+| document |  |  |
 | status | Class: "Status" |  |
 
 
@@ -1155,7 +1155,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_62bbb6ee\_72a5\_4367\_b8e6\_443925234479 |
+    | id | EAID\_f42fecb2\_34ab\_44d9\_8aa4\_d2285476fcc9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1187,10 +1187,10 @@ De enumeratie Heffingsoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2019-05-08 13:48:43 |
-    | modified | 2025-12-17 10:18:48 |
-    | id | EAID\_50575e66\_e1f3\_471d\_9260\_e1ec8543d73e |
+    | modified | 2025-12-17 11:01:04 |
+    | id | EAID\_e10dccc2\_f657\_40dd\_b883\_0ada63f6b7ba |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1228,7 +1228,7 @@ De enumeratie Soorten Klantcontact heeft de volgende kenmerken:
     | version | 1.11.0 |
     | created | 2025-03-26 11:13:26 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_5b1b280a\_0094\_408c\_b0cc\_8cc28ab23e2a |
+    | id | EAID\_7dfe9f40\_c6bf\_4b70\_9fe1\_8d1d591b7c17 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

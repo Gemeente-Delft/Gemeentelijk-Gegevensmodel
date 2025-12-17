@@ -327,7 +327,7 @@ Attributen van objecttype Database
 | omschrijving | AN80 |  |
 | DBMS | AN40 |  |
 | architectuur | AN40 |  |
-| OTAP |  |  |
+| OTAP | AN200 |  |
 | databaseVersie | AN40 |  |
 | vlan | AN40 |  |
 

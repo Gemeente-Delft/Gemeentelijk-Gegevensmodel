@@ -53,9 +53,9 @@ Het model 'Model Inkomen' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2022-06-08 14:19:54 |
-    | modified | 2025-12-17 10:18:38 |
+    | modified | 2025-12-17 11:00:53 |
     | id | EAID\_F4FD02F2\_9FFA\_4a35\_BA32\_B4CDE4002E7A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -100,9 +100,9 @@ Attributen van objecttype Component
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2022-06-08 14:20:08 |
-    | modified | 2025-12-17 10:18:38 |
+    | modified | 2025-12-17 11:00:53 |
     | id | EAID\_3372192D\_4773\_46b2\_BDA5\_C98B220F8954 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -141,9 +141,9 @@ Attributen van objecttype ComponentSoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2025-04-23 16:21:20 |
-    | modified | 2025-12-17 10:18:38 |
+    | modified | 2025-12-17 11:00:53 |
     | id | EAID\_8D999BE8\_96AB\_8418\_B94F\_289754CE1336 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -180,9 +180,9 @@ Attributen van objecttype Huisvestingsoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-04-23 11:53:14 |
-    | modified | 2025-12-17 10:18:38 |
+    | modified | 2025-12-17 11:00:53 |
     | id | EAID\_07784236\_3AA6\_45e5\_8253\_7D088C4020B0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -232,9 +232,9 @@ Attributen van objecttype Inkomensvoorziening
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-04-23 11:53:23 |
-    | modified | 2025-12-17 10:18:38 |
+    | modified | 2025-12-17 11:00:53 |
     | id | EAID\_AF18E7D3\_279D\_4323\_B785\_6C75B4701430 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -275,9 +275,9 @@ Attributen van objecttype Inkomensvoorzieningsoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2025-04-23 16:14:37 |
-    | modified | 2025-12-17 10:18:38 |
+    | modified | 2025-12-17 11:00:53 |
     | id | EAID\_88B0A7AB\_53E6\_4bc1\_8D99\_9BE896AB8418 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -314,9 +314,9 @@ Attributen van objecttype RedenBlokkering
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2025-04-23 16:16:48 |
-    | modified | 2025-12-17 10:18:38 |
+    | modified | 2025-12-17 11:00:53 |
     | id | EAID\_8D999BE8\_96AB\_8418\_99A2\_CB86335AFB97 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -355,9 +355,9 @@ Attributen van objecttype RedenInstroom
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2025-04-23 16:18:22 |
-    | modified | 2025-12-17 10:18:38 |
+    | modified | 2025-12-17 11:00:53 |
     | id | EAID\_99A2CB86\_335A\_FB97\_9C8F\_47170B1699EC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -396,9 +396,9 @@ Attributen van objecttype RedenUitstroom
     | uri |  |
     | bron | [https://www.begrippenxl.nl/dso/nl/page/Regeling](https://www.begrippenxl.nl/dso/nl/page/Regeling) |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-04-23 11:56:16 |
-    | modified | 2025-12-17 10:18:38 |
+    | modified | 2025-12-17 11:00:53 |
     | id | EAID\_C25455F3\_FEB0\_4c6d\_9AA4\_3B027718BEE3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -435,9 +435,9 @@ Attributen van objecttype Regeling
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-04-23 11:56:27 |
-    | modified | 2025-12-17 10:18:38 |
+    | modified | 2025-12-17 11:00:53 |
     | id | EAID\_14D3C960\_5EF2\_433c\_8E1C\_B493974280E2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -472,9 +472,9 @@ Attributen van objecttype Regelingsoort
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2022-06-08 14:20:23 |
-    | modified | 2025-12-17 10:18:38 |
+    | modified | 2025-12-17 11:00:53 |
     | id | EAID\_F787184D\_3AA8\_4132\_96C4\_23A363C3C1B7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -533,7 +533,7 @@ De enumeratie Wet heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:12:49 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_2ce8f188\_b1a1\_40f4\_873d\_628202ff201a |
+    | id | EAID\_56bd5874\_9290\_438f\_80c0\_6caf0922b568 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
