@@ -87,7 +87,7 @@ nav:
     - 'Veiligheid en Vergunningen': definities/definitie_Model VTH.md
     - 'Verkeer, Vervoer en waterstaat':
         - 'Parkeren': definities/definitie_Model Parkeren.md
-        - 'Verkeer': definities/definitie_Model Mobiliteit.md
+        - 'Mobiliteit': definities/definitie_Model Mobiliteit.md
     - 'Economie': definities/definitie_Model Economie.md
     - 'Onderwijs': 
         - 'Leerplicht en leerlingenvervoer': definities/definitie_Model Leerplicht en Leerlingenvervoer.md
@@ -121,6 +121,8 @@ nav:
             - 'Generieke definities Sociaal Domein': definities/definitie_Model Sociaal Domein Generiek.md
             - 'Generiek: Profiel inkomsten': definities/definitie_Model Inkomsten.md
             - 'Generiek: Profiel vermogen': definities/definitie_Model Vermogen.md
+    - 'Volksgezondheid en milieu':
+        - 'Afval': definities/definitie_Model /afval.md
     - 'Volkshuisvesting, leefomgeving en stedelijke vernieuwing':
         - 'Openbare ruimte': definities/definitie_Model Beheer Openbare Ruimte.md
         - 'Bouwen en Wonen': definities/definitie_Model Wonen.md

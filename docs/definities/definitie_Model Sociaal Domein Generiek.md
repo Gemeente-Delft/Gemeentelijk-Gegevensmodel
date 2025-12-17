@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Sociaal Domein Generiek:** 
 >
-> Geen definitie
+> Het domein met de generieke objecttypen die door de deeldomeinen van het sociaal domein gebruikt worden.
 
 ??? info "Kenmerken Model Model Sociaal Domein Generiek"
 
@@ -14,9 +14,9 @@
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.2 |
+    | version | 1.3.0 |
     | created | 2024-02-08 18:20:46 |
-    | modified | 2025-03-27 15:28:35 |
+    | modified | 2025-12-17 16:12:38 |
     | id | EAPK\_976B3937\_0D19\_4599\_A6D4\_E2BD0E0AB9EB |
     
 
@@ -28,7 +28,7 @@ Het model 'Model Sociaal Domein Generiek' kent de volgende objecttypen:
 * **Gerechtelijke uitspraak**: Een gerechtelijke uitspraak is een formele beslissing van een rechter of gerechtshof in een juridische procedure. Deze uitspraak bevat de beoordeling van de feiten, de toepassing van het recht en de uiteindelijke beslissing over het geschil dat aan de rechter is voorgelegd. Een gerechtelijke uitspraak kan verschillende vormen aannemen, zoals een vonnis, arrest, beschikking of een kortgedingbeslissing, afhankelijk van de aard van de procedure. Het doel van een gerechtelijke uitspraak is om een bindende oplossing te bieden voor het conflict tussen partijen, en het kan zowel betrekking hebben op civiele, strafrechtelijke, bestuursrechtelijke als andere juridische kwesties.
 * **Gezagsverhouding**: Een gezagsverhouding is een juridische of feitelijke relatie tussen twee partijen, waarbij de ene partij (de gezagsdrager) bevoegd is om instructies of richtlijnen te geven, en de andere partij (de ondergeschikte) verplicht is deze op te volgen. Deze verhouding speelt een belangrijke rol in verschillende contexten, zoals arbeidsrelaties, waarbij een werkgever zeggenschap heeft over een werknemer, of familierecht, waar ouders gezag uitoefenen over hun minderjarige kinderen. Een gezagsverhouding impliceert doorgaans een zekere mate van hiërarchie en verantwoordelijkheid, waarbij de gezagsdrager verplicht is om zijn bevoegdheden zorgvuldig en in het belang van de ondergeschikte uit te oefenen.
 * **Huishouden**: Persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continuïteit in de samenstelling ervan, die binnen een woning duurzaam gebruik maakt van dezelfde voorzieningen.
-* **Incident**: 
+* **Incident**: Een *incident* is een afzonderlijke gebeurtenis of voorval dat plaatsvindt en kan afwijken van de normale gang van zaken, vaak onverwacht of onvoorzien.
 * **Leverancier**: Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie
 * **Profiel**: 
 * **Relatie**: Betrekking waarin personen, zaken, begrippen of grootheden van nature tot elkaar staan.
@@ -56,9 +56,9 @@ Het model 'Model Sociaal Domein Generiek' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2018-05-07 11:54:57 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_16F94A03\_C376\_4314\_94AA\_4DB14AD00EB9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -90,10 +90,10 @@ Attributen van objecttype AanvraagStadspas
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.11.0 |
+    | author | Ashkan Ashkpour |
+    | version | 1.12.0 |
     | created | 2018-03-21 15:22:41 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_DAF09055\_A5A6\_4ff4\_A158\_21B20567B296 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -131,9 +131,9 @@ Attributen van objecttype Client
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-06-12 16:00:19 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_276E1BF9\_E902\_4303\_A9E7\_048627E0DC84 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -241,9 +241,9 @@ Attributen van objecttype Gezagsverhouding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2018-04-25 10:24:00 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_F0467610\_553B\_47cd\_A9F7\_3B1D20CC425E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -265,21 +265,21 @@ Attributen van objecttype Huishouden
 ### Incident
 > **Definitie Incident:** 
 >
-> Geen Definitie
+> Een *incident* is een afzonderlijke gebeurtenis of voorval dat plaatsvindt en kan afwijken van de normale gang van zaken, vaak onverwacht of onvoorzien.
 
 ??? info "Kenmerken Model Incident"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Incident |
-    | toelichting |  |
+    | toelichting | Het begrip \*incident\* duidt op een \*\*feitelijke gebeurtenis of voorval\*\* dat is gebeurd en als een op zichzelf staande situatie kan worden beschreven. In algemene taal- en beleidscontexten wordt het gebruikt voor situaties die onverwacht zijn, ongepland, en soms storend of onverwacht van aard. Het kan betrekking hebben op allerlei domeinen — van openbare orde en veiligheid tot administratieve processen — waarin iets plaatsvindt dat afwijkt van de gewone verwachting of routine. Synoniemen zijn onder andere \*voorval\*, \*gebeurtenis\* of \*zaakje\*. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.8.0 |
+    | version | 1.9.0 |
     | created | 2024-04-11 14:11:36 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_418C04F0\_F173\_4775\_9814\_D50F5EE79A38 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -318,9 +318,9 @@ Attributen van objecttype Incident
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-04-23 14:46:34 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_51A266C7\_3BDA\_457c\_9A32\_CD1B166CA5BF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -397,9 +397,9 @@ Attributen van objecttype Profiel
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2018-05-23 15:53:42 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_3DF01B79\_6712\_473e\_9878\_594CB5AE95A7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -433,9 +433,9 @@ Attributen van objecttype Relatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2018-05-23 16:01:41 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_F5FAF498\_F536\_4fb3\_9948\_73EBCDF61AD5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -547,9 +547,9 @@ Attributen van objecttype Sociale Relatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2018-05-07 11:53:42 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_810C273F\_0A2B\_4e68\_A94B\_46722FF9E19D |
     | domein_iv3 |  |
     | domein_dcat |  |

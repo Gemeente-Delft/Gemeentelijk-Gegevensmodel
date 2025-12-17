@@ -54,9 +54,9 @@ Het model 'Model Onderwijs' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-05-04 14:53:34 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_CFFD5F20\_5FA9\_4d93\_AD34\_6867D64A58B9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -90,9 +90,9 @@ Attributen van objecttype Inschrijving
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-05-04 15:34:24 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_D7ECEB92\_BE50\_4e30\_9F27\_54A008BC75DF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -127,9 +127,9 @@ Attributen van objecttype Leerjaar
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2018-05-28 16:42:46 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_266057AF\_58BD\_42e1\_B4D5\_16EB266B9B7A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -163,9 +163,9 @@ Attributen van objecttype Leerling
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-06-20 11:36:50 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_3119A4DB\_BB23\_4adc\_98BD\_82F2D7996C6B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -199,9 +199,9 @@ Attributen van objecttype Locatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-05-04 15:00:18 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_0E3DE26B\_C535\_4a03\_98A4\_8D36DC3D5297 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -237,9 +237,9 @@ Attributen van objecttype Loopbaanstap
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-05-04 14:59:08 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_F47ACE79\_C476\_479f\_A3A3\_729E65AF3D32 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -272,9 +272,9 @@ Attributen van objecttype Onderwijsloopbaan
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-10-07 17:01:21 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_96AB51D0\_52E5\_4515\_B21F\_98B30C4B9C42 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -307,9 +307,9 @@ Attributen van objecttype Onderwijsniveau
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-05-04 15:36:13 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_8AF9FAE6\_13D8\_484d\_97F5\_2A3839BC8618 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -344,9 +344,9 @@ Attributen van objecttype Onderwijssoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.14.0 |
     | created | 2018-05-28 16:44:50 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_51C8E3DF\_FFF4\_4a20\_9CB2\_AA5FA50579E2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -379,9 +379,9 @@ Attributen van objecttype Ouder Of Verzorger
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-05-04 14:54:30 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_32DFC5DD\_79D9\_45d5\_8F9D\_7D5125961817 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -415,9 +415,9 @@ Attributen van objecttype School
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-05-04 14:57:13 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_E8301577\_1A49\_43cf\_A2CA\_0F042584EBB3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -451,9 +451,9 @@ Attributen van objecttype Startkwalificatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-05-04 14:53:46 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_133AF611\_9FA0\_4a09\_BF12\_74C5FA5F6F60 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -505,7 +505,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_00693b9e\_6049\_4091\_9cf6\_2d4b50ed86c5 |
+    | id | EAID\_dd5142a1\_66aa\_432f\_b6dd\_c972990a90ca |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -542,7 +542,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_2999cada\_1674\_4bd0\_8b61\_b6f3f8206b27 |
+    | id | EAID\_081dd744\_8948\_4540\_bb3b\_856097c973aa |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

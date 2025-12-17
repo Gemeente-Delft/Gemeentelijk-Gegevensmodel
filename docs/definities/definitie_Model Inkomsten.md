@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Inkomsten:** 
 >
-> Geen definitie
+> Alle objecttypen overgenomen uit het GBI (Generieke Basisprocessen Inkomen) die de Inkomsten van clienten in het sociaal domein betreffen.
 
 ??? info "Kenmerken Model Model Inkomsten"
 
@@ -14,9 +14,9 @@
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1 |
+    | version | 1.2.0 |
     | created | 2024-06-27 21:51:28 |
-    | modified | 2025-03-27 15:44:03 |
+    | modified | 2025-12-17 16:12:38 |
     | id | EAPK\_2FF1DB74\_1407\_C3BE\_D193\_304A6309B694 |
     
 
@@ -96,7 +96,7 @@ Attributen van objecttype Alimentatie
 | :--- | :--- | :--- |
 | Bedrag aan andere rekeningen | Bedrag |  |
 | Bedrag in convenant | Boolean |  |
-| Bijdrage ex partner voor andere rekeningen | Boolean |  |
+| bijdrageExPartnerAndereRekeningen | Boolean | Bijdrage ex partner voor andere rekeningen<br>bijdrageExPartnerAndereRekeningen |
 | Inkomstensoort alimentatie |  |  |
 | Juiste bedrag betaald door ex partner | Boolean |  |
 | LBIO ingeschakeld | Boolean |  |

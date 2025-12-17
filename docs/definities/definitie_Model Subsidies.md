@@ -89,9 +89,9 @@ Attributen van objecttype Betaalmoment
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-11-28 15:40:55 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_20CA8283\_CE99\_455c\_BF4D\_EAE3DF41AE5B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -128,9 +128,9 @@ Attributen van objecttype Rapportagemoment
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-11-28 15:42:13 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_DA4F9850\_4CA0\_4508\_9D57\_F631BC30B360 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -165,9 +165,9 @@ Attributen van objecttype Sector
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-11-28 15:58:19 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_FD701A55\_6865\_44aa\_9A73\_C46E02481796 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -227,9 +227,9 @@ Attributen van objecttype Subsidie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-11-28 15:39:05 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_26C0D33A\_B15A\_4256\_A5BF\_5382A4E03539 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -267,9 +267,9 @@ Attributen van objecttype Subsidieaanvraag
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-11-28 15:39:58 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_F8BD6D83\_D3F8\_4dd3\_B12E\_22A991D1A0A2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -346,9 +346,9 @@ Attributen van objecttype Subsidiecomponent
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-11-28 15:41:40 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_8F1A719D\_C89A\_4194\_8FF4\_1F3E0F174D3D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -386,9 +386,9 @@ Attributen van objecttype Subsidieprogramma
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-11-28 15:41:15 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_156C82B1\_2641\_40c8\_9E99\_60031643C29A |
     | domein_iv3 |  |
     | domein_dcat |  |

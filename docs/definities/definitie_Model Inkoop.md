@@ -64,9 +64,9 @@ Het model 'Model Inkoop' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-11-26 15:10:12 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_44EC6082\_2682\_43c7\_A52E\_0AD05B06A046 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -110,9 +110,9 @@ Attributen van objecttype Aanbesteding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-11-26 15:14:45 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_01D90490\_C76A\_444a\_BFCE\_355AFC5FB012 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -164,9 +164,9 @@ Attributen van objecttype Aanbesteding Inhuur
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2019-11-26 15:09:54 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_BB135B0E\_A2C2\_4681\_BD91\_30863F8B3D70 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -204,9 +204,9 @@ Attributen van objecttype Aankondiging
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-10-29 11:10:05 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_33E5EA10\_F43A\_4966\_B9C1\_875F0E2C1B52 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -249,9 +249,9 @@ Attributen van objecttype Aanvraag Inkooporder
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-11-26 15:16:32 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_6CA060D0\_C5AC\_4b50\_8B64\_00DCAEA7EF48 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -286,9 +286,9 @@ Attributen van objecttype Categorie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-10-29 10:34:40 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_9FBF9FB8\_B28D\_4733\_8443\_607B8498F446 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -337,9 +337,9 @@ Attributen van objecttype Contract
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-11-27 14:11:20 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_6A4CF470\_3B0E\_4141\_9DB6\_C9E8A525CB49 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -374,9 +374,9 @@ Attributen van objecttype CPV-code
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-11-18 15:32:41 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_B598FF22\_CDD0\_486f\_B528\_99421D0FA608 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -413,9 +413,9 @@ Attributen van objecttype FormulierInhuur
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-11-18 15:34:04 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_1D87490A\_9F07\_424f\_BE6F\_5E9C11376B05 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -454,9 +454,9 @@ Attributen van objecttype FormulierVerlengingInhuur
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-11-26 15:11:46 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_3FB9B466\_D147\_42d7\_99D1\_2D14A007D16C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -493,10 +493,10 @@ Attributen van objecttype Gunning
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.11.0 |
+    | author | Ashkan Ashkpour |
+    | version | 1.12.0 |
     | created | 2020-11-12 16:59:28 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_170AF8F5\_8952\_407a\_91C4\_EAF910DE3304 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -532,9 +532,9 @@ Attributen van objecttype Inkooppakket
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-11-26 15:11:11 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_2902E8D6\_FF16\_45d6\_A0A4\_47E2857D2D19 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -570,9 +570,9 @@ Attributen van objecttype Inschrijving
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2019-11-27 10:37:40 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_75B4E818\_5ECD\_45c5\_98F9\_66F57FC6117E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -606,9 +606,9 @@ Attributen van objecttype Kandidaat
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-11-26 15:10:32 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_AB2AED85\_D2B0\_45cf\_9B1F\_C6005E894494 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -643,9 +643,9 @@ Attributen van objecttype Kwalificatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-05-29 13:54:06 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_EA7FE08E\_34F7\_45d2\_BE2E\_E4E3B8333BF3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -680,9 +680,9 @@ Attributen van objecttype Leverancier
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-11-27 13:29:18 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_BF21FFA3\_3EA6\_410a\_BC65\_7BE5547646B6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -719,9 +719,9 @@ Attributen van objecttype Offerte
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-11-26 15:22:25 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_1EF1AC66\_9563\_4cdd\_AE78\_0878D651907A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -758,9 +758,9 @@ Attributen van objecttype Offerteaanvraag
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-11-18 17:33:00 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_B2BD6C5B\_460E\_4f2a\_9B78\_3E101DAD8D6B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -798,9 +798,9 @@ Attributen van objecttype SelectietabelAanbesteding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-11-18 15:32:13 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_7694A657\_22D8\_4b00\_AAE2\_A78EF014B43A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -847,9 +847,9 @@ Attributen van objecttype StartformulierAanbesteden
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2019-11-27 14:27:00 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_BB182A6F\_6935\_4702\_ABEA\_B96E32A40B02 |
     | domein_iv3 |  |
     | domein_dcat |  |

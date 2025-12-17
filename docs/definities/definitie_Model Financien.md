@@ -66,9 +66,9 @@ Het model 'Model Financien' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-05-15 09:42:06 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_7B8D0A8F\_07BF\_42bf\_90B3\_28A72BD4401A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -103,9 +103,9 @@ Attributen van objecttype Activa
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-05-15 09:48:32 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_2483BD14\_7FA7\_4514\_A565\_C7F7967E226D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -140,9 +140,9 @@ Attributen van objecttype Activasoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-05-15 09:32:52 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_FC698CC3\_7A64\_4991\_A751\_B3B2A5DF77E3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -177,9 +177,9 @@ Attributen van objecttype Bankafschrift
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-06-20 13:54:30 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_764CE125\_55C1\_480d\_90BA\_745484CF3FC0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -216,9 +216,9 @@ Attributen van objecttype Bankafschriftregel
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-05-15 09:53:35 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_D87012E0\_D2EB\_4333\_AD6C\_1E43E6857304 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -254,9 +254,9 @@ Attributen van objecttype Bankrekening
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-05-15 10:16:46 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_A784A0ED\_4451\_4a92\_B7C8\_ABE528BA898F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -292,9 +292,9 @@ Attributen van objecttype Batch
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-06-20 14:15:19 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_9F935C8B\_5B7C\_4ce4\_9360\_04A91F4F70CC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -332,9 +332,9 @@ Attributen van objecttype Batchregel
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-06-20 15:07:32 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_C95CF400\_8487\_4ff3\_B475\_CA1E01EBCA78 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -370,9 +370,9 @@ Attributen van objecttype Begroting
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-06-20 15:07:04 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_87964E36\_9FEE\_4b8f\_A053\_C4EDAF000646 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -408,9 +408,9 @@ Attributen van objecttype Begrotingregel
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2018-05-14 14:40:52 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_E74D0D46\_66EB\_4deb\_A540\_7AB08E95F956 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -443,9 +443,9 @@ Attributen van objecttype Debiteur
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-06-20 14:52:02 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_2FFE3BAD\_CB0E\_43ea\_A435\_FD693B9255C3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -481,9 +481,9 @@ Attributen van objecttype Doelstelling
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-05-14 14:38:41 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_E1DA56C3\_6ECA\_4ec9\_8CF4\_FC57E1C43102 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -523,9 +523,9 @@ Attributen van objecttype Factuur
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-05-14 14:49:03 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_65E960EA\_CC92\_4af1\_AF2B\_B4625FA6AEA0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -564,9 +564,9 @@ Attributen van objecttype Factuurregel
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-05-14 14:24:29 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_0EEAF579\_3F47\_4551\_B9F9\_7367280EB3EB |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -606,9 +606,9 @@ Attributen van objecttype Hoofdrekening
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-06-20 14:50:09 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_FFAA30D3\_91C2\_44aa\_B52D\_B21C51DB0326 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -644,9 +644,9 @@ Attributen van objecttype Hoofdstuk
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-05-15 09:47:48 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_A91E9C27\_C4FA\_4e1b\_A4FF\_8AE74ED9B7EB |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -691,9 +691,9 @@ Attributen van objecttype Inkooporder
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-03-21 12:25:41 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_D90E822D\_7EF8\_4ea6\_AF5C\_4A4362577941 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -734,9 +734,9 @@ Attributen van objecttype Kostenplaats
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-06-20 14:17:00 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_CB0A6B53\_D263\_459e\_8C28\_AD97E5552FFF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -771,9 +771,9 @@ Attributen van objecttype Mutatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-06-20 15:01:14 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_C2520FC3\_622B\_4edf\_B911\_C661B0D710FE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -811,9 +811,9 @@ Attributen van objecttype Opdrachtgever
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-06-20 15:01:30 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_9ABE303F\_1E8D\_407c\_BBB8\_E7DAC383E0C3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -851,9 +851,9 @@ Attributen van objecttype Opdrachtnemer
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-06-20 14:52:11 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_04439F81\_75DB\_45cf\_BE7A\_352A54A95D73 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -889,9 +889,9 @@ Attributen van objecttype Product
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-06-20 14:30:43 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_1EC60172\_CB6B\_40c9\_9818\_C7A708C8540E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -926,10 +926,10 @@ Attributen van objecttype Subrekening
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.11.0 |
+    | author | Ashkan Ashkpour |
+    | version | 1.12.0 |
     | created | 2022-08-23 17:08:18 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_E81C0FA0\_2203\_489a\_98E9\_32F1CB200E75 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -970,9 +970,9 @@ Attributen van objecttype Taakveld
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-06-20 14:30:34 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_4AF7FA48\_DFB0\_474f\_B797\_A13D5FD37530 |
     | domein_iv3 |  |
     | domein_dcat |  |

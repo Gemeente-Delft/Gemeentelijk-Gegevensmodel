@@ -62,9 +62,9 @@ Het model 'Model Archeologie' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-06-06 15:56:31 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_836E51BF\_65E9\_4482\_B555\_C9AB737D264D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -97,9 +97,9 @@ Attributen van objecttype Archeologiebesluit
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2018-11-26 16:14:39 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_2C230EE7\_036D\_48be\_B82A\_FF45598170F7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -160,9 +160,9 @@ Attributen van objecttype Artefact
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-06-06 15:02:51 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_67CF25EB\_EBB0\_4185\_8171\_1F9DD3B5D212 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -201,9 +201,9 @@ Attributen van objecttype Artefactsoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.14.0 |
     | created | 2018-06-06 15:17:02 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_E11FDCA7\_7538\_4353\_83FF\_72164D928452 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -236,9 +236,9 @@ Attributen van objecttype boring
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-11-21 22:07:15 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_703CAFCF\_FDC0\_4861\_AA76\_1692303DE7BE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -277,9 +277,9 @@ Attributen van objecttype Doos
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-06-06 16:12:42 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_F28DDE36\_7BE4\_45f7\_A820\_FFF0261CAA4E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -296,7 +296,7 @@ Attributen van objecttype Kaart
 | :--- | :--- | :--- |
 | naam | AN200 |  |
 | omschrijving | text |  |
-| kaart | BLOB |  |
+| content | BLOB |  |
 
 
 
@@ -315,9 +315,9 @@ Attributen van objecttype Kaart
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.14.0 |
     | created | 2018-06-06 15:08:13 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_F25EE5A8\_2CF4\_498b\_8DAD\_8EEE48FAF3A5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -332,7 +332,7 @@ Attributen van objecttype locatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| locatie | Point |  |
+| locatieAanduiding | Point |  |
 
 
 
@@ -351,9 +351,9 @@ Attributen van objecttype locatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-02-05 16:18:27 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_4C1543FD\_250B\_4291\_9B23\_BC9D3D9C0C4A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -390,9 +390,9 @@ Attributen van objecttype Magazijnlocatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-02-05 16:22:28 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_F954FB72\_AE88\_4a0e\_A3D8\_555FCF8D9C9F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -433,9 +433,9 @@ Attributen van objecttype Magazijnplaatsing
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-06-06 15:00:39 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_E42A32F7\_262F\_4005\_9EB9\_4674B76E8825 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -479,9 +479,9 @@ Attributen van objecttype Project
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-06-06 15:01:44 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_17286CE1\_21F2\_454b\_95A6\_3E4C0C6E2453 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -517,9 +517,9 @@ Attributen van objecttype Put
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2018-06-06 15:02:07 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_14939C33\_2DCE\_41bf\_A2BE\_FF1EDD292FE7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -565,9 +565,9 @@ Attributen van objecttype Spoor
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2018-11-21 22:06:59 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_382D408F\_41A3\_49d2\_9F66\_DFFA6C75590D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -602,9 +602,9 @@ Attributen van objecttype Stelling
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2018-11-21 22:13:10 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_84DED9A9\_2D33\_4a77\_94F2\_29657024590F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -621,7 +621,7 @@ Attributen van objecttype Vindplaats
 | :--- | :--- | :--- |
 | projectcode | AN20 |  |
 | locatie | Point |  |
-| vindplaats | AN40 |  |
+| vindplaatsAanduiding | AN40 |  |
 | gemeente | AN40 |  |
 | datering | AN40 |  |
 | begindatering | AN40 |  |
@@ -651,9 +651,9 @@ Attributen van objecttype Vindplaats
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-06-06 15:01:55 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_0644BD52\_8C2B\_462d\_94B9\_9C99908952F5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -693,9 +693,9 @@ Attributen van objecttype Vlak
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2018-06-06 15:02:35 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_F8283401\_70F8\_41b8\_A97C\_32A9074AD4B1 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -741,9 +741,9 @@ Attributen van objecttype Vondst
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2018-06-06 15:02:19 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_8417459E\_2193\_44a2\_A1AC\_38C39EA93CBF |
     | domein_iv3 |  |
     | domein_dcat |  |

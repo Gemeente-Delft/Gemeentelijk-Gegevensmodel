@@ -43,9 +43,9 @@ Het model 'Model Gemeentebegrafenissen' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-09-17 16:00:33 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_F2DBE01F\_7535\_4f26\_9DF2\_081EF8632F36 |
     | domein_iv3 |  |
     | domein_dcat |  |

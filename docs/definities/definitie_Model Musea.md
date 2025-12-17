@@ -72,9 +72,9 @@ Het model 'Model Musea' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-12 13:24:51 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_A1C60F39\_3074\_4d1c\_A37D\_5F431F54DF92 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -110,9 +110,9 @@ Attributen van objecttype Activiteit
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-12 13:25:49 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_D77AB8CF\_E4B1\_49fd\_BE78\_FE358FF76F13 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -147,9 +147,9 @@ Attributen van objecttype Activiteitsoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-12 10:59:59 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_EA2D32A2\_5ED5\_45c8\_AC33\_57C35981B3BC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -185,9 +185,9 @@ Attributen van objecttype Balieverkoop
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-12 10:59:43 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_90E24064\_EBB7\_4ffc\_9640\_F7C31678899F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -224,9 +224,9 @@ Attributen van objecttype Balieverkoop Entreekaart
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-15 14:07:35 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_576642BA\_9AF9\_42fc\_831A\_F9D3138F20FC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -261,9 +261,9 @@ Attributen van objecttype Belanghebbende
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-15 09:07:44 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_452312FD\_05FB\_4abc\_A48B\_C605F7E3E193 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -301,9 +301,9 @@ Attributen van objecttype Bruikleen
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-15 09:06:40 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_6DC28A18\_DF54\_4b92\_A592\_5F717935CA67 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -338,9 +338,9 @@ Attributen van objecttype Collectie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-12 13:25:14 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_0598561F\_667E\_4926\_9BF5\_66A928358E9F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -377,9 +377,9 @@ Attributen van objecttype Doelgroep
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2019-08-12 11:40:09 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_E46CB962\_A2BC\_4656\_A0C1\_D7DBCCA0C528 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -413,9 +413,9 @@ Attributen van objecttype Entreekaart
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-15 09:10:20 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_CE85A5E9\_AD75\_40e7\_8EBF\_A484E4CBEEDC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -452,9 +452,9 @@ Attributen van objecttype Incident
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-15 09:10:04 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_68C42EEA\_6985\_483e\_99E6\_E0F1FB71D622 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -488,9 +488,9 @@ Attributen van objecttype Lener
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-12 13:23:59 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_48BCF2C2\_609C\_4e4c\_991E\_8BDA80E0C7C7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -526,9 +526,9 @@ Attributen van objecttype Mailing
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-15 09:06:54 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_BBCF9DBE\_70AD\_431c\_B698\_7F0D69D07050 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -566,9 +566,9 @@ Attributen van objecttype Museumobject
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-12 13:23:49 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_C73389B7\_7BCD\_4496\_888B\_6ABEE9DE01FB |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -602,9 +602,9 @@ Attributen van objecttype Museumrelatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-12 11:00:37 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_2A7D73D7\_87EA\_4b61\_88BB\_F061DDBF52D9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -639,9 +639,9 @@ Attributen van objecttype Omzetgroep
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-12 11:21:18 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_BF7BAB5F\_7025\_4792\_8288\_47F5B1C53E95 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -677,9 +677,9 @@ Attributen van objecttype Prijs
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-12 10:56:04 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_FF566C6B\_077B\_4914\_8AF7\_40EB1EDD388A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -718,9 +718,9 @@ Attributen van objecttype Product
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-12 11:00:54 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_42EBA101\_3E51\_46d5\_A234\_EC7BA991D3AF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -755,9 +755,9 @@ Attributen van objecttype Productgroep
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-12 13:25:37 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_D3EF17C3\_8100\_4a61\_9E67\_F20924C15CEA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -790,9 +790,9 @@ Attributen van objecttype Productie-eenheid
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-12 13:23:12 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_3B84D5F0\_FCA3\_47a5\_B90C\_F0834DAD6EBD |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -834,9 +834,9 @@ Attributen van objecttype Programma
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-12 13:26:00 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_43EF5733\_B976\_4f21\_9906\_5349FD861BB5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -871,9 +871,9 @@ Attributen van objecttype Programmasoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-14 15:02:48 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_11AB7925\_5C96\_4615\_92F6\_4055935221A0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -911,9 +911,9 @@ Attributen van objecttype Reservering
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-12 13:22:59 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_2EE54C3D\_0D8B\_440e\_A4A4\_031273313901 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -950,9 +950,9 @@ Attributen van objecttype Rondleiding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-15 10:58:21 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_E5566AF6\_3D43\_4b2f\_B658\_F67F6C1C511D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -986,9 +986,9 @@ Attributen van objecttype Samensteller
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-15 09:09:49 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_98F3132E\_F97A\_4f49\_B4F5\_28618BB693F8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1024,9 +1024,9 @@ Attributen van objecttype Standplaats
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-14 15:30:28 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_069C9894\_5E07\_4c95\_AC28\_EB4A5EBFD165 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1064,9 +1064,9 @@ Attributen van objecttype Tentoonstelling
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-12 13:22:46 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_8D3666E3\_F2DA\_4cba\_BF67\_EFED9AAD97CC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1102,9 +1102,9 @@ Attributen van objecttype Voorziening
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-12 13:23:38 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_CE76218E\_E56C\_4c15\_A29B\_5EB14B7E084F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1137,9 +1137,9 @@ Attributen van objecttype Winkelverkoopgroep
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-12 11:00:25 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_9D19BC40\_5EED\_408d\_AFA3\_7C16F8E7E65F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1176,9 +1176,9 @@ Attributen van objecttype Winkelvoorraaditem
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-08-12 13:22:35 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_6850BC5E\_444E\_4d33\_A8A7\_9B345502E275 |
     | domein_iv3 |  |
     | domein_dcat |  |

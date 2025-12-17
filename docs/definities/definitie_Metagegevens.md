@@ -47,9 +47,9 @@ Het model 'Metagegevens' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Debat\_E |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2011-02-08 15:04:00 |
-    | modified | 2025-12-16 10:28:35 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_C8CE34A2\_362A\_4c99\_A934\_C66A2E6A0793 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -87,9 +87,9 @@ Attributen van objecttype Brondocumenten
     | uri |  |
     | bron |  |
     | author | Debat\_E |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2011-02-08 14:57:38 |
-    | modified | 2025-12-16 10:28:35 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_BB4E5922\_F0E8\_40bb\_8BB6\_9B0DC648DD85 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -104,7 +104,7 @@ Attributen van objecttype FormeleHistorie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| tijdstipRegistratieGegevens | Time | De datum en tijd waarop één of meer gegevens van de entiteit gelijktijdig zijn opgenomen in de registratie. |
+| tijdstipRegistratieGegevens |  | De datum en tijd waarop één of meer gegevens van de entiteit gelijktijdig zijn opgenomen in de registratie. |
 
 
 
@@ -123,9 +123,9 @@ Attributen van objecttype FormeleHistorie
     | uri |  |
     | bron |  |
     | author | Debat\_E |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2011-02-08 14:41:15 |
-    | modified | 2025-12-16 10:28:35 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_E4DA500D\_AB53\_4e8a\_B1A5\_411F354F4AD2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -159,9 +159,9 @@ Attributen van objecttype InOnderzoek
     | uri |  |
     | bron |  |
     | author | Debat\_E |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2011-02-08 14:50:17 |
-    | modified | 2025-12-16 10:28:35 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_3D63DBCE\_3FD5\_4988\_81D5\_93A2D01A9D99 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -196,9 +196,9 @@ Attributen van objecttype MaterieleHistorie
     | uri |  |
     | bron |  |
     | author | Debat\_E |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2011-02-08 14:45:29 |
-    | modified | 2025-12-16 10:28:35 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_85741CBC\_594C\_43f9\_A2B5\_C50166F1A461 |
     | domein_iv3 |  |
     | domein_dcat |  |

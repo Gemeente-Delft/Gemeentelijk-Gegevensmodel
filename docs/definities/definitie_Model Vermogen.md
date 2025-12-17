@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Vermogen:** 
 >
-> Geen definitie
+> Alle objecttypen overgenomen uit het GBI (Generieke Basisprocessen Inkomen) die het vermogen van clienten in het sociaal domein betreffen.
 
 ??? info "Kenmerken Model Model Vermogen"
 
@@ -14,9 +14,9 @@
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1 |
+    | version | 1.2.0 |
     | created | 2024-06-27 21:51:28 |
-    | modified | 2025-03-27 15:44:12 |
+    | modified | 2025-12-17 16:12:38 |
     | id | EAPK\_267CE4D0\_488B\_88CF\_BF22\_3741D472C108 |
     
 
@@ -26,8 +26,8 @@ Het model 'Model Vermogen' kent de volgende objecttypen:
 * **Hypotheek**: Een hypotheek is een lening waarbij een onroerend goed, zoals een woning, dient als onderpand voor de schuld. Het wordt doorgaans verstrekt door een financiële instelling, zoals een bank, en stelt de lener in staat om een woning te kopen of te bouwen. De lening wordt over een afgesproken periode terugbetaald, inclusief rente. Als de lener niet aan de betalingsverplichtingen voldoet, heeft de kredietverstrekker het recht om het onderpand te verkopen om de openstaande schuld te vereffenen. Een hypotheek is daarmee zowel een financieringsvorm als een juridische zekerheid voor de kredietverstrekker.
 * **Motorvoertuig**: Een motorvoertuig is een voertuig dat is uitgerust met een motor als krachtbron en bedoeld is voor het vervoer van personen, goederen of het uitvoeren van specifieke taken. Het kan zich zelfstandig voortbewegen zonder de directe fysieke inspanning van een bestuurder of passagier. Voorbeelden van motorvoertuigen zijn auto’s, vrachtwagens, motorfietsen en bussen. Motorvoertuigen zijn doorgaans voorzien van wielen en rijden op de weg, en het gebruik ervan is vaak gebonden aan wettelijke regels, zoals registratie, verzekering en rijbewijsvereisten.
 * **Onroerend goed**: Onroerend goed is een juridische term die verwijst naar fysieke objecten die duurzaam met de grond zijn verbonden en niet zonder schade kunnen worden verplaatst. Dit omvat gronden, gebouwen, woningen en andere constructies die vast met de grond zijn verbonden, zoals bruggen of schuren. Onroerend goed wordt vaak onderscheiden van roerende zaken, die wel verplaatsbaar zijn. Het eigendom en de overdracht van onroerend goed zijn gebonden aan specifieke wettelijke regels, zoals registratie in openbare registers en het opstellen van notariële akten.
-* **Vermogenscomponent**: 
-* **Waardepeiling**: 
+* **Vermogenscomponent**: Een *vermogenscomponent* is een **onderdeel van het totale vermogen** van een persoon of huishouden, dat afzonderlijk wordt weergegeven (zoals spaargeld, beleggingen, eigen woning netto of pensioenvermogen).
+* **Waardepeiling**: *Waardepeiling* is een **bepaling of schatting van de waarde van een object, goed of situatie**, verkregen door middel van peiling of inschatting van wat het waard zou zijn.
 
 
 ## Objecttypen Model Vermogen
@@ -187,21 +187,21 @@ Attributen van objecttype Onroerend goed
 ### Vermogenscomponent
 > **Definitie Vermogenscomponent:** 
 >
-> Geen Definitie
+> Een *vermogenscomponent* is een **onderdeel van het totale vermogen** van een persoon of huishouden, dat afzonderlijk wordt weergegeven (zoals spaargeld, beleggingen, eigen woning netto of pensioenvermogen).
 
 ??? info "Kenmerken Model Vermogenscomponent"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vermogenscomponent |
-    | toelichting |  |
+    | toelichting | In statistische en economische analyses wordt vermogen gezien als het \*\*saldo van bezittingen minus schulden\*\* van een persoon of huishouden. Het totale vermogen kan worden opgesplitst in verschillende componenten — bijvoorbeeld financiële tegoeden, effecten, onroerend goed, pensioenvermogen of schulden — die elk afzonderlijk bijdragen aan het geheel. Zo helpt het beschrijven van afzonderlijke vermogenscomponenten bij het analyseren van \*\*de structuur en verdeling van vermogen\*\* binnen de bevolking. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_08000E15\_8AA2\_AE9A\_89F0\_262C7C061238 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -226,21 +226,21 @@ Attributen van objecttype Vermogenscomponent
 ### Waardepeiling
 > **Definitie Waardepeiling:** 
 >
-> Geen Definitie
+> *Waardepeiling* is een **bepaling of schatting van de waarde van een object, goed of situatie**, verkregen door middel van peiling of inschatting van wat het waard zou zijn.
 
 ??? info "Kenmerken Model Waardepeiling"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Waardepeiling |
-    | toelichting |  |
+    | toelichting | De term \*waardepeiling\* volgt uit de woorddelen: \*waarde\* (de bepaling van de waarde van iets) en \*peiling\* (een systematische inschatting of meting). In gebruik (bijvoorbeeld in online fora) betekent het dat iemand vraagt \*\*wat iets volgens anderen waard is\*\*, oftewel een inschatting van de marktwaarde van een object op basis van meningen of observable kenmerken. Dit is vergelijkbaar met een \*\*waardebepaling\*\*: de vaststelling of schatting van de waarde van iets in geld of andere maatstaven door een beoordeling of (markt)analyse. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_1C1EF3EA\_888E\_945B\_4A20\_27DB5B434D4C |
     | domein_iv3 |  |
     | domein_dcat |  |

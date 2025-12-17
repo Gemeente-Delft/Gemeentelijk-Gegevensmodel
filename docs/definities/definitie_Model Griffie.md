@@ -55,9 +55,9 @@ Het model 'Model Griffie' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-05-16 15:22:56 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_F1E55DC7\_0F33\_40ea\_8713\_2E1AC3D7EE8D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -95,9 +95,9 @@ Attributen van objecttype Aanwezige Deelnemer
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-05-16 11:55:17 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_73FB5212\_40ED\_40dc\_B837\_36588840445A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -133,9 +133,9 @@ Attributen van objecttype Agendapunt
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-05-16 11:44:01 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_B9B82B25\_5D7F\_4d2b\_84F9\_4DF74525EEAD |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -169,9 +169,9 @@ Attributen van objecttype Categorie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-05-16 11:26:04 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_7B9EDDFD\_57F7\_4ff2\_938F\_FDFA3B503DA8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -211,9 +211,9 @@ Attributen van objecttype Collegelid
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-05-16 11:44:26 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_475E24C9\_CC9A\_49cc\_AB80\_8CA0221441E5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -247,9 +247,9 @@ Attributen van objecttype Dossier
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-05-16 11:10:22 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_98CB3C6F\_588B\_479f\_9A2B\_F5D5362DD17C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -284,9 +284,9 @@ Attributen van objecttype Indiener
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-05-16 11:44:13 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_CA56A59A\_F855\_4c19\_89BE\_578B12481EA0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -320,9 +320,9 @@ Attributen van objecttype Programma
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2019-05-16 11:10:04 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_CB27D699\_F82B\_45ad\_823A\_B2B51BCAECBA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -356,9 +356,9 @@ Attributen van objecttype Raadscommissie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2019-05-16 11:09:46 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_5772BEBB\_97FA\_42a9\_B70D\_DB55EAD6D1EE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -392,14 +392,14 @@ Attributen van objecttype Raadslid
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Raadsstuk |
-    | toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
+    | toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.16.0 |
+    | version | 1.17.0 |
     | created | 2019-05-16 11:06:43 |
-    | modified | 2025-12-17 12:09:51 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_440219A4\_C64B\_4eac\_ADE5\_E79ED6AA9BFE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -437,9 +437,9 @@ Attributen van objecttype Raadsstuk
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-05-16 15:41:33 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_331C4A0B\_1505\_4945\_A0B0\_DCD8703AB50F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -474,9 +474,9 @@ Attributen van objecttype Stemming
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-05-16 11:44:21 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_01E83CEC\_D69D\_47eb\_9BAB\_252AABADDD18 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -505,14 +505,14 @@ Attributen van objecttype Taakveld
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vergadering |
-    | toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
+    | toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.17.0 |
+    | version | 1.18.0 |
     | created | 2019-05-16 11:09:27 |
-    | modified | 2025-12-17 12:09:51 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_257F4ABF\_7CCD\_453f\_B2E8\_5A6434383A9B |
     | domein_iv3 |  |
     | domein_dcat |  |

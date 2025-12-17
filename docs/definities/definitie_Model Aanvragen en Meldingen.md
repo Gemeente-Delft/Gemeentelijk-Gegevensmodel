@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model Aanvragen en Meldingen:** 
 >
-> Geen definitie
+> Het informatiedomein waarbinnen alle aanvragen en meldingen worden gedefinieerd als onderdeel van het model Dienstverlening
 
 ??? info "Kenmerken Model Model Aanvragen en Meldingen"
 
@@ -14,9 +14,9 @@
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2019-10-23 14:39:33 |
-    | modified | 2019-10-23 14:39:33 |
+    | modified | 2025-12-17 16:12:38 |
     | id | EAPK\_7610AA7C\_7D7D\_458f\_9A2B\_E0E02AC9DFAF |
     
 
@@ -51,9 +51,9 @@ Het model 'Model Aanvragen en Meldingen' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-09-23 13:44:30 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_FB771E02\_8FE3\_496b\_B99B\_CF4A496A7B80 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -86,9 +86,9 @@ Attributen van objecttype Bevoegd Gezag
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-09-23 13:30:23 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_02BDED5E\_9106\_4aed\_94C2\_513689353284 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -121,9 +121,9 @@ Attributen van objecttype Gemachtigde
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-09-23 13:29:40 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_E38BEAEF\_03C4\_439b\_8A64\_663886C1D6F9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -156,9 +156,9 @@ Attributen van objecttype Initiatiefnemer
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-09-23 14:13:19 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_E1FAE16A\_42AE\_4b7d\_88FC\_F429079D1C4D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -193,9 +193,9 @@ Attributen van objecttype Project
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-09-23 14:16:27 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_B31B867F\_061E\_42d4\_AB8A\_DB5589602969 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -228,9 +228,9 @@ Attributen van objecttype Projectactiviteit
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-09-23 14:13:34 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_D60910E1\_6E36\_4ebb\_9687\_2D2B1CE66E0B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -267,9 +267,9 @@ Attributen van objecttype Projectlocatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-09-23 13:54:41 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_DF63FBD0\_DCA2\_45bd\_81E8\_EE5E72D38EDE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -309,9 +309,9 @@ Attributen van objecttype Specificatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-09-23 13:44:45 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_1B3A22D3\_E2BA\_440a\_A2FD\_B3D322FB1171 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -345,9 +345,9 @@ Attributen van objecttype Uitvoerende instantie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-09-23 13:29:00 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_B18119D9\_5BF8\_498f\_B9D3\_ECCE7A770012 |
     | domein_iv3 |  |
     | domein_dcat |  |

@@ -80,9 +80,9 @@ Het model 'Model Dienstverlening' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-04-25 16:41:17 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_1F68C981\_7E16\_4368\_8867\_CA00AEB08A04 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -120,9 +120,9 @@ Attributen van objecttype Aanvraagdata
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-04-16 14:11:57 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_8E6BAEF8\_1878\_400f\_9244\_23575BD41EAB |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -174,9 +174,9 @@ Attributen van objecttype AanvraagOfMelding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.14.0 |
     | created | 2018-10-31 10:59:24 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_5AA9821A\_A88A\_480b\_9950\_70FE017593B3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -210,9 +210,9 @@ Attributen van objecttype Afspraakstatus
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-04-16 13:48:36 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_F38E71BC\_DDA2\_4a9c\_A438\_C486EC4C4646 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -245,9 +245,9 @@ Attributen van objecttype Artikel
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-10-31 10:43:28 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_631FEEF1\_88D3\_4d18\_ADB2\_BF999068493E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -290,9 +290,9 @@ Attributen van objecttype Balieafspraak
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-05-15 16:05:32 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_841FC453\_80B3\_4389\_A91F\_9498FDC629CF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -327,9 +327,9 @@ Attributen van objecttype ExterneBron
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-04-25 16:31:00 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_0567826D\_81EE\_4bbd\_8D62\_3073B74CDF11 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -367,9 +367,9 @@ Attributen van objecttype Formuliersoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-04-26 16:48:10 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_E512AEFD\_85FB\_4b57\_82FE\_709221307861 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -407,10 +407,10 @@ Attributen van objecttype Formuliersoortveld
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.11.0 |
+    | author | Ashkan Ashkpour |
+    | version | 1.12.0 |
     | created | 2024-02-05 15:32:39 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_881F95F7\_7096\_49ab\_B1CA\_4D9FA93BB4A9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -449,10 +449,10 @@ Attributen van objecttype Klantbeoordeling
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.11.0 |
+    | author | Ashkan Ashkpour |
+    | version | 1.12.0 |
     | created | 2024-02-05 15:32:50 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_40394EFE\_AD3E\_4fd9\_B9FC\_AF73442AF625 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -485,10 +485,10 @@ Attributen van objecttype Klantbeoordelingreden
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.12.0 |
+    | author | Ashkan Ashkpour |
+    | version | 1.13.0 |
     | created | 2020-03-23 15:15:46 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_A9B89FF7\_BCED\_49fc\_97A4\_2A98BCED5B17 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -527,9 +527,9 @@ Attributen van objecttype MOR-AanvraagOfMelding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-07-05 14:24:43 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_8D758F67\_6085\_4ac7\_BFDC\_8D97AB632A93 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -565,9 +565,9 @@ Attributen van objecttype Onderwerp
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-07-05 14:22:55 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_4B871112\_CB41\_4bfb\_BD43\_117C63D31BB4 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -603,9 +603,9 @@ Attributen van objecttype ProductOfDienst
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.14.0 |
     | created | 2018-11-22 16:24:16 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_48FE13A9\_2204\_4631\_BAEE\_E2D3B10E9A2D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -648,9 +648,9 @@ Attributen van objecttype Telefoononderwerp
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-11-22 16:22:06 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_D8A82A45\_03C3\_44d5\_AF32\_3138A55B2E75 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -685,9 +685,9 @@ Attributen van objecttype Telefoonstatus
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-11-21 16:33:33 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_EEB60E10\_C244\_4176\_AB68\_F0E30759269F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -746,7 +746,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_866ff1b5\_10d6\_4b88\_b5e1\_bbef83f89c4d |
+    | id | EAID\_bce6b12d\_8b8d\_4f06\_b9c5\_311f306af041 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

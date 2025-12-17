@@ -106,9 +106,9 @@ Het model 'Model Schuldhulpverlening' kent de volgende objecttypen:
     | uri |  |
     | bron | [https://www.nvvk.nl/kennisbank-detail/2021/04/13/Module-Aanmelding](https://www.nvvk.nl/kennisbank-detail/2021/04/13/Module-Aanmelding) |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-02-19 11:59:43 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_1CE06538\_3F4A\_45ac\_AE86\_30A4250D3608 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -144,9 +144,9 @@ Attributen van objecttype Aanmelding
     | uri |  |
     | bron | [https://www.nvvk.nl/ons-werkveld/gedragscodes-en-modules](https://www.nvvk.nl/ons-werkveld/gedragscodes-en-modules) |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-03-05 11:02:17 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_A1F16832\_3F28\_4441\_8538\_74BF04A48562 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -182,9 +182,9 @@ Attributen van objecttype Begeleiding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-03-05 11:58:54 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_158BE97A\_2031\_437b\_A5CC\_637188EB9968 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -218,9 +218,9 @@ Attributen van objecttype Begeleidingssoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-02-19 12:00:13 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_B9287881\_AD66\_4396\_A629\_ED5FE9196316 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -269,9 +269,9 @@ Attributen van objecttype Contactpersoon
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-05-31 15:31:48 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_0E3205DA\_BC88\_425b\_AF68\_882BFB316812 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -306,9 +306,9 @@ Attributen van objecttype Crisisinterventie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-08-30 10:20:15 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_7CC8C026\_91CB\_422c\_84C6\_90401889F260 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -343,9 +343,9 @@ Attributen van objecttype InformatieEnAdvies
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-02-19 12:07:52 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_B2A3D4C2\_236C\_457f\_A2C8\_8F889C1427E9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -384,9 +384,9 @@ Attributen van objecttype Inkomen
     | uri |  |
     | bron | [https://www.nvvk.nl/kennisbank-detail/2021/04/15/Module-Intake](https://www.nvvk.nl/kennisbank-detail/2021/04/15/Module-Intake) |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-02-19 12:03:03 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_F20A11B2\_0C6F\_4a52\_95BF\_AB73997C3378 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -423,9 +423,9 @@ Attributen van objecttype Intake
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2018-06-13 13:31:03 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_5CC59215\_5A63\_4ef8\_9D64\_C4FAC0619121 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -467,9 +467,9 @@ Attributen van objecttype Leefsituatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-05-31 15:41:29 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_5FC12BE5\_75F0\_4dd9\_8DA7\_993C03F3700A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -506,9 +506,9 @@ Attributen van objecttype Moratorium
     | uri |  |
     | bron | [https://www.nvvk.nl/kennisbank-detail/2022/07/07/Module-Nazorg?originNode=1401](https://www.nvvk.nl/kennisbank-detail/2022/07/07/Module-Nazorg?originNode=1401) |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-04-15 16:25:14 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_551A527B\_A2E2\_4409\_968B\_D1BE4612EB3C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -543,9 +543,9 @@ Attributen van objecttype Nazorg
     | uri |  |
     | bron | [https://ondernemersplein.kvk.nl/inschrijven-bij-kvk/](https://ondernemersplein.kvk.nl/inschrijven-bij-kvk/) |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-02-19 14:44:21 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_AA004853\_3565\_4634\_A434\_BD7F36ED0B1A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -580,9 +580,9 @@ Attributen van objecttype Ondernemer
     | uri |  |
     | bron | [https://www.nvvk.nl/l/library/download/urn:uuid:eba70d82-a0a0-40c4-9dd2-4c4aee7f0ed9/nvvk-module-12-oplossingen-221219.pdf](https://www.nvvk.nl/l/library/download/urn:uuid:eba70d82-a0a0-40c4-9dd2-4c4aee7f0ed9/nvvk-module-12-oplossingen-221219.pdf) |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-02-19 12:11:12 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_7E274EE0\_FB77\_43ef\_ABCB\_91ACF0ACD469 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -619,9 +619,9 @@ Attributen van objecttype Oplossing
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-03-05 11:56:51 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_677992F0\_3C05\_43b6\_82C7\_4A7EA57EDFED |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -655,9 +655,9 @@ Attributen van objecttype Oplossingssoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-05-17 15:05:39 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_093B2482\_D72E\_4f88\_931C\_75C9DABED007 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -700,9 +700,9 @@ Attributen van objecttype Partner
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-04-15 16:50:47 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_7DA4A554\_10BF\_47d1\_ACED\_966712B043F4 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -736,9 +736,9 @@ Attributen van objecttype PlanVanAanpak
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-02-19 14:36:05 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_93E12A3E\_71E3\_431e\_9871\_BF6075EAAEF1 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -775,9 +775,9 @@ Attributen van objecttype Schuld
     | uri |  |
     | bron | [https://www.ris-rijkschroeff.nl/Kennisbank/Verbintenissenrecht/Schuldeiser](https://www.ris-rijkschroeff.nl/Kennisbank/Verbintenissenrecht/Schuldeiser) |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-02-19 14:46:01 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_DCDAD212\_479E\_4fc3\_B886\_585AE57D8C21 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -814,9 +814,9 @@ Attributen van objecttype Schuldeiser
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-02-19 11:59:53 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_A947042E\_7CA6\_44f8\_902A\_1C1185A391F6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -850,9 +850,9 @@ Attributen van objecttype Schuldhulporganisatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2018-06-13 12:09:16 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_839017B2\_0F95\_42d0\_AB2B\_E873636340DA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -890,9 +890,9 @@ Attributen van objecttype Schuldhulptraject
     | uri |  |
     | bron | [https://www.nvvk.nl/kennisbank-detail/2022/04/20/Module-Schuldregeling](https://www.nvvk.nl/kennisbank-detail/2022/04/20/Module-Schuldregeling) |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-02-19 14:55:48 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_652A68C3\_618E\_4050\_AD4C\_E43469A7558C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -933,9 +933,9 @@ Attributen van objecttype Schuldregeling
     | uri |  |
     | bron | [https://www.nvvk.nl/kennisbank-detail/2021/08/16/Module-Stabilisatie](https://www.nvvk.nl/kennisbank-detail/2021/08/16/Module-Stabilisatie) |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-04-15 16:14:28 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_B0384246\_6784\_4724\_B538\_CE18197061CD |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -970,9 +970,9 @@ Attributen van objecttype Stabilisatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2018-06-13 12:11:45 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_42D33289\_422A\_4d94\_BE6B\_44B34CC230B5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1017,9 +1017,9 @@ Attributen van objecttype Uitstroom
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-08-29 12:19:39 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_5DD63EFE\_649F\_484e\_BB10\_A18096B9ABDF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1054,9 +1054,9 @@ Attributen van objecttype VoorlopigeVoorziening
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-02-19 12:06:51 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_DBFDE0B1\_FF6D\_422f\_BDDA\_42ED8A172260 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1092,9 +1092,9 @@ Attributen van objecttype Woningbezit
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-02-20 16:37:12 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_513A944D\_0FEC\_4f78\_B290\_63274D22C58C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1131,9 +1131,9 @@ Attributen van objecttype WSNP-traject
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-02-19 14:46:26 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_64E76A72\_8E62\_45fb\_A144\_149EFDB5EB46 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1188,9 +1188,9 @@ De enumeratie EnumBegeleidingssoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | arjen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-05-17 15:24:16 |
-    | modified | 2025-12-17 12:10:02 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_D13E7356\_94A7\_41ed\_B9B0\_945D7F7975AD |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1223,9 +1223,9 @@ De enumeratie EnumBeschikkingssoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | arjen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-08-29 12:10:27 |
-    | modified | 2025-12-17 12:10:03 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_C0C5D6A5\_1937\_460b\_A243\_90172A345B91 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1258,9 +1258,9 @@ De enumeratie EnumHuishoudenssoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | arjen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-05-17 14:52:54 |
-    | modified | 2025-12-17 12:10:03 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_76676076\_DDDA\_4427\_8ECB\_46565F915F49 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1296,9 +1296,9 @@ De enumeratie EnumOplossingssoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | arjen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-05-17 15:23:53 |
-    | modified | 2025-12-17 12:10:03 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_540A2D4C\_EF40\_457a\_A7DD\_C8E81DB692A6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1333,9 +1333,9 @@ De enumeratie EnumSchuldensoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | arjen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-05-17 14:51:51 |
-    | modified | 2025-12-17 12:10:03 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_D34DF6F1\_CC5C\_42c8\_A013\_D59698E9F530 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1375,9 +1375,9 @@ De enumeratie EnumUitstroomreden heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | arjen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-05-17 17:29:53 |
-    | modified | 2025-12-17 12:10:03 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_82A3029A\_D39E\_46e6\_AF4B\_1909FA0045EF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1412,9 +1412,9 @@ De enumeratie EnumWoningbezit heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | arjen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2024-06-28 16:27:30 |
-    | modified | 2025-12-17 12:10:03 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_702C2D3B\_5E5F\_4e2d\_990E\_7618C2FA4FCA |
     | domein_iv3 |  |
     | domein_dcat |  |

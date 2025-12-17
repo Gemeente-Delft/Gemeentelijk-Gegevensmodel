@@ -69,9 +69,9 @@ Het model 'Model Beheer Openbare Ruimte' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-11-06 16:52:08 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_DDE9A5B3\_1E56\_4058\_8D12\_A774F43B5D26 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -104,9 +104,9 @@ Attributen van objecttype Actie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2018-11-07 17:27:26 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_9507EE24\_6397\_4a9c\_B478\_8C2899EC0BFB |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -140,9 +140,9 @@ Attributen van objecttype Areaal
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2018-11-07 16:58:24 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_4A8E659E\_F088\_446d\_8614\_BA31B106A417 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -246,9 +246,9 @@ Attributen van objecttype Fase/Oplevering
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-09-19 11:50:45 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_05B355EF\_39EA\_4bfb\_B1F3\_AB31841C986E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -285,9 +285,9 @@ Attributen van objecttype Geo-Object
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-11-15 15:41:01 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_B53EC85A\_C731\_4fb6\_8379\_7D11802273B2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -320,9 +320,9 @@ Attributen van objecttype Grondbeheerder
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-11-06 16:50:09 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_C73E52A5\_F66E\_47f0\_8DEA\_467A54F64DD2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -355,9 +355,9 @@ Attributen van objecttype Inspectie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-12-06 16:14:13 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_5DC6EA71\_272C\_4392\_BA5E\_5C97DC3CA9D9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -390,9 +390,9 @@ Attributen van objecttype KadastraleMutatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-11-07 16:35:55 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_2C6C809D\_28B0\_4037\_BBFA\_3E438A2DF81D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -425,9 +425,9 @@ Attributen van objecttype Kwaliteitscatalogus Openbare Ruimte
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-09-19 11:58:59 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_0754CC1D\_48C7\_4275\_B909\_BFB747BCFCD8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -460,9 +460,9 @@ Attributen van objecttype Kwaliteitskenmerken
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-11-06 16:48:26 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_B1D48EFB\_81E7\_420d\_A080\_5B4C01798FFB |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -495,9 +495,9 @@ Attributen van objecttype Logboek
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-11-06 16:48:18 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_C6094F79\_D8EA\_4763\_90DF\_4E30EFABA1FA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -541,9 +541,9 @@ Attributen van objecttype Melding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-11-06 16:49:06 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_A888F22C\_45E9\_4494\_BA66\_533FB1F6C37E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -576,9 +576,9 @@ Attributen van objecttype MeldingOngeval
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-11-15 15:09:50 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_30D5F6E6\_DE8D\_46b6\_AC8A\_6CA1391ADFF7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -621,9 +621,9 @@ Attributen van objecttype MOOR-melding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-11-13 15:56:08 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_053B594A\_5E45\_4413\_9339\_D2D026ECCE20 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -656,9 +656,9 @@ Attributen van objecttype Omgevingsvergunning
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-12-05 14:33:05 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_960BB2E0\_C17F\_4c89\_90DD\_3006CC5F0F75 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -691,9 +691,9 @@ Attributen van objecttype Onderhoud
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-12-05 14:55:35 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_1EBA6DEB\_268D\_4339\_86C9\_7C1BA218A7A0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -726,9 +726,9 @@ Attributen van objecttype Opbreking
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-11-15 15:14:08 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_2587938E\_CF7F\_499b\_BB21\_9CB8BBCC1DD2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -764,9 +764,9 @@ Attributen van objecttype Proces-verbaal-MOOR-melding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-09-19 11:36:25 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_B011D584\_1E66\_4a21\_A9C4\_C922A8763AB2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -799,9 +799,9 @@ Attributen van objecttype Schouwronde
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-12-10 22:05:13 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_0EF67A8B\_AEBE\_4a00\_B1EF\_2EFD0DCC9F5D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -834,9 +834,9 @@ Attributen van objecttype Storing
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-11-07 09:52:55 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_0621D6BE\_A680\_4aad\_890D\_78684F2266B0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -869,9 +869,9 @@ Attributen van objecttype Taak
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-11-15 15:15:53 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_BBE1DC54\_1482\_4650\_BB7F\_930DDB823E09 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -904,9 +904,9 @@ Attributen van objecttype Uitvoerder Graafwerkzaamheden
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-12-05 16:01:25 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_620FF102\_974C\_43a6\_A6A0\_79BB71E8580D |
     | domein_iv3 |  |
     | domein_dcat |  |

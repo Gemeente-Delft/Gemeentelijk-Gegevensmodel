@@ -48,9 +48,9 @@ Het model 'Model Monumenten' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-07-03 15:42:28 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_54944273\_F312\_44b2\_A78D\_43488F915429 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -86,9 +86,9 @@ Attributen van objecttype Ambacht
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-07-03 15:12:51 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_32C02923\_EE3A\_4553\_B94B\_31E0C273A829 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -131,9 +131,9 @@ Attributen van objecttype Beschermde Status
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-07-03 15:45:18 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_4AD539EC\_A308\_43da\_B025\_17A1647303F3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -171,9 +171,9 @@ Attributen van objecttype Bouwactiviteit
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-07-03 15:39:34 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_8C0888C9\_7B2E\_4fcb\_AEFF\_E1733875CDCA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -210,9 +210,9 @@ Attributen van objecttype Bouwstijl
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-07-03 15:39:43 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_5E9DAFBB\_C9B5\_4706\_A43D\_07AD4979DED4 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -248,9 +248,9 @@ Attributen van objecttype Bouwtype
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-07-03 15:39:16 |
-    | modified | 2025-12-16 10:28:33 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_49993EF9\_ED8B\_49e0\_B8F7\_FC7C8C28669D |
     | domein_iv3 |  |
     | domein_dcat |  |

@@ -67,9 +67,9 @@ Het model 'Referentielijsten' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Haas\_R |
-    | version | 1.15.0 |
+    | version | 1.13.0 |
     | created | 2015-05-04 11:23:39 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_EBE4A0C9\_9281\_4750\_8E70\_AF70A549CD6B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -106,9 +106,9 @@ Attributen van objecttype AanduidingVerblijfsrecht
     | uri |  |
     | bron |  |
     | author | Debat\_E |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2015-11-26 12:09:05 |
-    | modified | 2025-12-16 10:28:35 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_E36F8A4C\_C487\_40ec\_9D4F\_4FDF5DCED461 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -124,7 +124,7 @@ Attributen van objecttype AutoriteitAfgifteNederlandsReisdocument
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | code | AN6 | De code van de autoriteit van afgifte. |
-| omschrijving | AN | De omschrijving van de autoriteit van afgifte |
+| omschrijving | AN255 | De omschrijving van de autoriteit van afgifte |
 | datumBeginGeldigheidAutoriteitVanAfgifte | DATUM | De datum waarop de autoriteit van afgifte is ontstaan. |
 | datumEindeGeldigheidAutoriteitVanAfgifte | DATUM | De datum waarop de autoriteit van aangifte is opgeheven. |
 
@@ -144,10 +144,10 @@ Attributen van objecttype AutoriteitAfgifteNederlandsReisdocument
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.12.0 |
+    | author | Ashkan Ashkpour |
+    | version | 1.13.0 |
     | created | 2021-10-05 17:15:12 |
-    | modified | 2025-12-16 10:28:35 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_0F51B100\_1C60\_4d54\_9B60\_1C9BF9C856A2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -179,14 +179,14 @@ Attributen van objecttype Verblijfstitel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AardAantekening |
-    | toelichting | #NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening |
+    | toelichting | #NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | debat\_e |
-    | version | 1.15.0 |
+    | version | 1.13.0 |
     | created | 2015-09-17 09:10:38 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_BE0C0747\_E9CD\_4ae1\_A83C\_94A724513C7B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -202,7 +202,7 @@ Attributen van objecttype AardAantekening
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | codeAardAantekening | AN2 | De code van het Aard Aantekening. |
-| naamAardAantekening | AN | De naam van de aard aantekening. |
+| naamAardAantekening | AN255 | De naam van de aard aantekening. |
 | datumBeginGeldigheidAardAantekening | DATUM | De datum waarop de aard aantekening is ontstaan. |
 | datumEindeGeldigheidAardAantekening | DATUM | De datum waarop de aard aantekening is opgeheven. |
 
@@ -223,9 +223,9 @@ Attributen van objecttype AardAantekening
     | uri |  |
     | bron |  |
     | author | debat\_e |
-    | version | 1.15.0 |
+    | version | 1.13.0 |
     | created | 2015-02-27 09:34:12 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_AC4F4A9C\_1623\_4447\_9813\_0722CDD58E66 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -241,7 +241,7 @@ Attributen van objecttype AardZakelijkRecht
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | codeAardZakelijkRecht | N2 | De code van het Aard Zakelijk Recht. |
-| naamAardZakelijkRecht | AN | De naam van het aard zakelijk recht. |
+| naamAardZakelijkRecht | AN255 | De naam van het aard zakelijk recht. |
 | datumBeginGeldigheidAardZakelijkRecht | DATUM | De datum waarop het aard zakelijk recht is ontstaan. |
 | datumEindeGeldigheidAardZakelijkRecht | DATUM | De datum waarop het aard zakelijk recht is opgeheven. |
 
@@ -262,9 +262,9 @@ Attributen van objecttype AardZakelijkRecht
     | uri |  |
     | bron |  |
     | author | debat\_e |
-    | version | 1.15.0 |
+    | version | 1.13.0 |
     | created | 2015-03-02 11:02:57 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_1453EF69\_1E5E\_49ae\_8510\_A68652374710 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -280,7 +280,7 @@ Attributen van objecttype AardFiliatie
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | codeAardFiliatie | N2 | De code van de aard filiatie. |
-| naamAardFiliatie | AN | De naam van de aard filiatie. |
+| naamAardFiliatie | AN255 | De naam van de aard filiatie. |
 | datumBeginGeldigheidAardFiliatie | DATUM | De datum waarop de aard filiatie is ontstaan. |
 | datumEindeGeldigheidAardFiliatie | DATUM | De datum waarop de aard filiatie is opgeheven. |
 
@@ -301,9 +301,9 @@ Attributen van objecttype AardFiliatie
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-03-21 15:46:58 |
-    | modified | 2025-12-16 10:28:35 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_B2857D85\_8135\_461e\_90FF\_A2E3DDD9981D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -341,9 +341,9 @@ Attributen van objecttype AcademischeTitel
     | uri |  |
     | bron |  |
     | author | debat\_e |
-    | version | 1.15.0 |
+    | version | 1.13.0 |
     | created | 2015-02-27 09:59:31 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_6BA8DD14\_1CC9\_4669\_BDCC\_856B5C628D6B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -359,7 +359,7 @@ Attributen van objecttype AkrKadastraleGemeentecode
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | codeAKRKadadastraleGemeentecode | AN5 | Een volgens de Dienst van het Kadaster unieke code behorende bij de ARK code kadastrale gemeente. |
-| AKRCode | AN | De AKR code van kadastrale gemeente volgens de Dienst van het Kadaster. |
+| AKRCode | AN255 | De AKR code van kadastrale gemeente volgens de Dienst van het Kadaster. |
 | datumBeginGeldigheidAKRCode | Datum | De datum waarop de AKR code kadastrale gemeente is ontstaan. |
 | datumEindeGeldigheidAKRCode | Datum | De datum waarop de AKR code kadastrale gemeente is opgeheven. |
 
@@ -380,9 +380,9 @@ Attributen van objecttype AkrKadastraleGemeentecode
     | uri |  |
     | bron |  |
     | author | debat\_e |
-    | version | 1.15.0 |
+    | version | 1.13.0 |
     | created | 2015-02-27 12:20:57 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_DADECD97\_1605\_4c24\_84A7\_46AB2327468D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -397,8 +397,8 @@ Attributen van objecttype CultuurcodeBebouwd
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| cultuurcodeBebouwd | N2 | De code van het gebruik van een bebouwd stuk grond. |
-| naamCultuurcodeBebouwd | AN | De naam van de cultuurcode bebouwd. |
+| code | N2 | De code van het gebruik van een bebouwd stuk grond. |
+| naamCultuurcodeBebouwd | AN255 | De naam van de cultuurcode bebouwd. |
 | datumBeginGeldigheidCultuurcodeBebouwd | DATUM | De datum waarop de cultuurcode bebouwd is ontstaan. |
 | datumEindeGeldigheidCultuurcodeBebouwd | DATUM | De datum waarop de cultuurcode bebouwd is opgeheven. |
 
@@ -419,9 +419,9 @@ Attributen van objecttype CultuurcodeBebouwd
     | uri |  |
     | bron |  |
     | author | debat\_e |
-    | version | 1.15.0 |
+    | version | 1.13.0 |
     | created | 2015-02-27 14:08:48 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_ACAF3418\_7E0F\_43eb\_B470\_4AF98C37A49B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -436,8 +436,8 @@ Attributen van objecttype CultuurcodeOnbebouwd
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| cultuurcodeOnbebouwd | N2 | De code van het gebruik van een onbebouwd stuk grond. |
-| naamCultuurcodeOnbebouwd | AN | De naam van de cultuurcode onbebouwd. |
+| code | N2 | De code van het gebruik van een onbebouwd stuk grond. |
+| naamCultuurcodeOnbebouwd | AN255 | De naam van de cultuurcode onbebouwd. |
 | datumBeginGeldigheidCultuurcodeOnbebouwd | DATUM | De datum waarop de cultuurcode onbebouwd is ontstaan. |
 | datumEindeGeldigheidCultuurcodeOnbebouwd | DATUM | De datum waarop de cultuurcode onbebouwd is opgeheven. |
 
@@ -458,9 +458,9 @@ Attributen van objecttype CultuurcodeOnbebouwd
     | uri |  |
     | bron |  |
     | author | debat\_e |
-    | version | 1.15.0 |
+    | version | 1.13.0 |
     | created | 2015-03-09 11:16:33 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_D8154D91\_27A5\_4cc1\_9B52\_639BF24CAC29 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -476,7 +476,7 @@ Attributen van objecttype WOZ-Deelobjectcode
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | deelobjectcode | AN4 | De code van een soort deelobject niet-woningen. |
-| naamDeelobjectcode | AN | De naam van de deelobjectcode. |
+| naamDeelobjectcode | AN255 | De naam van de deelobjectcode. |
 | datumBeginGeldigheidDeelojectcode | DATUM | De datum waarop de deelobjectcode is ontstaan. |
 | datumEindeGeldigheidDeelobjectcode | DATUM | De datum waarop de deelobjectcode is opgeheven. |
 
@@ -497,9 +497,9 @@ Attributen van objecttype WOZ-Deelobjectcode
     | uri |  |
     | bron |  |
     | author | debat\_e |
-    | version | 1.15.0 |
+    | version | 1.13.0 |
     | created | 2013-10-10 10:50:59 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_51BA37A4\_2E1D\_4704\_9153\_02759084D5E2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -536,9 +536,9 @@ Attributen van objecttype KadastraleGemeente
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.15.0 |
+    | version | 1.13.0 |
     | created | 2010-07-06 13:26:39 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_A17A01A9\_2A4F\_46e8\_A55A\_2B151F8ED46E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -576,9 +576,9 @@ Attributen van objecttype LandOfgebied
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.15.0 |
+    | version | 1.13.0 |
     | created | 2019-01-21 14:39:45 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_5A8F56B7\_AE35\_4212\_B059\_DAD064EDBAB8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -613,14 +613,14 @@ Attributen van objecttype Provincie
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Partij |
-    | toelichting | Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen. |
+    | toelichting | Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Haas\_R |
-    | version | 1.15.0 |
+    | version | 1.13.0 |
     | created | 2015-04-30 16:13:29 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_0F175713\_CEAB\_4c6e\_8A61\_27F93C1FC777 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -659,9 +659,9 @@ Attributen van objecttype Partij
     | uri |  |
     | bron |  |
     | author | Haas\_R |
-    | version | 1.15.0 |
+    | version | 1.13.0 |
     | created | 2015-05-01 13:49:06 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_61D1E99C\_DF5E\_48ee\_8BAB\_4ACA1745BC7C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -698,9 +698,9 @@ Attributen van objecttype RedenVerkrijgingNationaliteit
     | uri |  |
     | bron |  |
     | author | Haas\_R |
-    | version | 1.15.0 |
+    | version | 1.13.0 |
     | created | 2015-05-01 13:49:06 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_7F97B43F\_CCA1\_4bfc\_9824\_9BEC8D2A70E6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -737,9 +737,9 @@ Attributen van objecttype RedenVerliesNationaliteit
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.15.0 |
+    | version | 1.13.0 |
     | created | 2010-07-06 12:14:18 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_6B9EC881\_1112\_44bc\_B114\_203A793A54B1 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -771,14 +771,14 @@ Attributen van objecttype Reisdocumentsoort
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SBIActiviteit |
-    | toelichting | #NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten |
+    | toelichting | #NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | debat\_e |
-    | version | 1.15.0 |
+    | version | 1.13.0 |
     | created | 2015-02-03 09:46:54 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_B3F47842\_F9C5\_4417\_BC76\_05CA58D4998D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -819,9 +819,9 @@ Attributen van objecttype SBIActiviteit
     | uri |  |
     | bron |  |
     | author | debat\_e |
-    | version | 1.15.0 |
+    | version | 1.13.0 |
     | created | 2015-02-27 13:50:33 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_9D7F05BF\_414E\_4071\_9E78\_FAD2AA21D40E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -837,7 +837,7 @@ Attributen van objecttype SoortGrootte
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | codeSoortGrootte | N1 | De code van de soort grootte. |
-| naamSoortGrootte | AN | De naam van de soort grootte. |
+| naamSoortGrootte | AN255 | De naam van de soort grootte. |
 | datumBeginGeldigheidSoortGrootte | DATUM | De datum waarop de soort grootte is ontstaan. |
 | datumEindeGeldigheidSoortGrootte | DATUM | De datum waarop de soort grootte is opgeheven. |
 
@@ -858,9 +858,9 @@ Attributen van objecttype SoortGrootte
     | uri |  |
     | bron |  |
     | author | debat\_e |
-    | version | 1.15.0 |
+    | version | 1.13.0 |
     | created | 2015-03-09 11:36:08 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_3741181A\_07D0\_4f62\_B076\_B3318266500F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -876,8 +876,8 @@ Attributen van objecttype SoortWOZObject
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | soortobjectcode | N4 | De code van het soort object. |
-| naamSoortObjectcode | AN | De naam van de soort objectcode. |
-| opmerkingenSoortObjectcode | AN | Een toelichting op de soort objectcode. |
+| naamSoortObjectcode | AN255 | De naam van de soort objectcode. |
+| opmerkingenSoortObjectcode | AN255 | Een toelichting op de soort objectcode. |
 | datumBeginGeldigheidSoortObjectcode | DATUM | De datum waarop de soort objectcode is ontstaan. |
 | datumEindeGeldigheidSoortObjectcode | DATUM | De datum waarop de soort objectcode is opgeheven. |
 
@@ -898,9 +898,9 @@ Attributen van objecttype SoortWOZObject
     | uri |  |
     | bron |  |
     | author | debat\_e |
-    | version | 1.15.0 |
+    | version | 1.13.0 |
     | created | 2015-02-27 11:55:08 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_DC6C8DCB\_EE07\_4e2b\_9087\_648BD0D0D473 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -916,7 +916,7 @@ Attributen van objecttype Valutasoort
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | valutacode | AN3 | Een unieke code van de valuta. |
-| naamValuta | AN | De naam van de valuta. |
+| naamValuta | AN255 | De naam van de valuta. |
 | datumBeginGeldigheidValutasoort | Datum | De datum waarop de valuta is ontstaan. |
 | datumEindeGeldigheidValutasoort | Datum | De datum waarop de valuta is opgeheven. |
 
@@ -937,9 +937,9 @@ Attributen van objecttype Valutasoort
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-03-21 15:46:58 |
-    | modified | 2025-12-16 10:28:35 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_4B2CCD18\_9004\_4253\_B72E\_9243F3330F02 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -979,9 +979,9 @@ Attributen van objecttype Land
     | uri |  |
     | bron |  |
     | author | Ellen Debats |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-03-21 15:46:58 |
-    | modified | 2025-12-16 10:28:35 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_71B3BE0D\_2BF9\_4740\_9597\_A0EEC75AFE9B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1018,9 +1018,9 @@ Attributen van objecttype Nationaliteit
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-08-09 15:43:04 |
-    | modified | 2025-12-16 10:28:35 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_ABC4F2A1\_A1C6\_4db4\_9227\_4D7D63C5F94E |
     | domein_iv3 |  |
     | domein_dcat |  |

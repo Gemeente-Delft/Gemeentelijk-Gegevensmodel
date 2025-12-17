@@ -80,14 +80,14 @@ Attributen van objecttype None
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeA |
-    | toelichting | #NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default: |
+    | toelichting | #NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default: |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.13.0 |
+    | version | 1.11.0 |
     | created | 2010-11-01 04:24:25 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_AE553F3F\_B8B6\_4bd2\_A6A1\_8051145C823B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -115,14 +115,14 @@ Attributen van objecttype ObjecttypeA
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeB |
-    | toelichting | #NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default: |
+    | toelichting | #NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default: |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.13.0 |
+    | version | 1.11.0 |
     | created | 2010-11-01 04:24:41 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_0799B0D1\_5067\_43e2\_8A6F\_48FB972225E5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -150,14 +150,14 @@ Attributen van objecttype ObjecttypeB
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeC |
-    | toelichting | #NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default: |
+    | toelichting | #NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default: |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.13.0 |
+    | version | 1.11.0 |
     | created | 2010-11-01 04:26:37 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_889A7DC6\_B389\_4e02\_BB53\_CC0B2B5B0D91 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -185,14 +185,14 @@ Attributen van objecttype ObjecttypeC
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeD |
-    | toelichting | #NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default: |
+    | toelichting | #NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default: |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Debat\_E |
-    | version | 1.13.0 |
+    | version | 1.11.0 |
     | created | 2011-02-21 08:17:47 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_DE4D6CAB\_7798\_46cd\_AE1B\_328684681323 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -220,14 +220,14 @@ Attributen van objecttype ObjecttypeD
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeE |
-    | toelichting | #NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default: |
+    | toelichting | #NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default: |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Debat\_E |
-    | version | 1.13.0 |
+    | version | 1.11.0 |
     | created | 2011-02-24 10:21:56 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_EF4E7B58\_F178\_4a4f\_85C5\_A5CD93747A36 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -255,14 +255,14 @@ Attributen van objecttype ObjecttypeE
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeF |
-    | toelichting | #NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default: |
+    | toelichting | #NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default: |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Debat\_E |
-    | version | 1.13.0 |
+    | version | 1.11.0 |
     | created | 2011-02-24 10:22:10 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_23D170D0\_917E\_4873\_A622\_43214405AB3D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -290,14 +290,14 @@ Attributen van objecttype ObjecttypeF
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeG |
-    | toelichting | #NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default: |
+    | toelichting | #NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default:<br>#NOTES#Default: |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Debat\_E |
-    | version | 1.13.0 |
+    | version | 1.11.0 |
     | created | 2011-02-24 10:22:29 |
-    | modified | 2025-12-17 12:09:53 |
+    | modified | 2025-12-17 16:12:35 |
     | id | EAID\_97EE5348\_F06A\_44cb\_A792\_7371CF5D2E53 |
     | domein_iv3 |  |
     | domein_dcat |  |

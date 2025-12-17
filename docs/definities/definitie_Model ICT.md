@@ -52,7 +52,7 @@ Het model 'Model ICT' kent de volgende objecttypen:
 * **Linkbaar CMDB-item**: Niet opnemen
 * **Log**: Registratie van gegevens.
 * **Melding**: De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend
-* **Nertwerkcomponent**: 
+* **Netwerkcomponent**: Een *netwerkcomponent* is een hardware- of softwareonderdeel dat een **specifieke functie vervult binnen een netwerk** om communicatie, gegevensuitwisseling of het beheer van netwerkverkeer mogelijk te maken.
 * **Notitie**: Korte, zakelijke uiteenzetting op schrift
 * **Objecttype**: 
 > De typering van een groep objecten (in de werkelijkheid) die binnen een domein relevant zijn en als gelijksoortig worden beschouwd.
@@ -96,9 +96,9 @@ Het model 'Model ICT' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2019-01-10 11:40:16 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_446E3931\_B9F2\_4b5c\_80E7\_5B240B8F816F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -131,9 +131,9 @@ Attributen van objecttype Aanvraag
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-10 11:33:53 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_A8945FD7\_EA20\_418e\_8E7F\_18F13F16E338 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -177,9 +177,9 @@ Attributen van objecttype Applicatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2019-01-15 10:57:58 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_8D273DE5\_3529\_4652\_BCA1\_F86B28F26017 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -231,9 +231,9 @@ Attributen van objecttype Attribuutsoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-10 14:51:23 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_81F207D0\_A071\_48c7\_8C4C\_25F8D25A3DE8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -269,9 +269,9 @@ Attributen van objecttype Classificatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-10 15:17:26 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_B027D022\_41D9\_4c63\_A63D\_8F5111689564 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -306,9 +306,9 @@ Attributen van objecttype CMDB-item
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-10 11:48:48 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_FFD22E11\_7A3A\_459a\_B575\_928C67E8D1F3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -323,7 +323,7 @@ Attributen van objecttype Database
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| database | AN40 |  |
+| databaseNaam | AN40 |  |
 | omschrijving | AN80 |  |
 | DBMS | AN40 |  |
 | architectuur | AN40 |  |
@@ -351,9 +351,9 @@ Attributen van objecttype Database
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-15 15:05:26 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_7EFBF1CA\_EC6E\_4b8a\_B97F\_453CA32AB9A5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -397,9 +397,9 @@ Attributen van objecttype Datatype
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-02-07 14:51:15 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_45AFD4E2\_9909\_4c33\_93CE\_F2466B85CA0F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -432,9 +432,9 @@ Attributen van objecttype Dienst
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-02-07 14:40:39 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_BEFEC56A\_EF6C\_49f0\_9368\_7E46F75D9562 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -467,9 +467,9 @@ Attributen van objecttype Domein/Taakveld
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-10 14:50:29 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_144D1047\_35BB\_4926\_9472\_895D89DC2E0C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -504,9 +504,9 @@ Attributen van objecttype Externe Bron
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.1.0 |
+    | version | 1.2.0 |
     | created | 2019-01-14 16:27:33 |
-    | modified | 2025-12-17 10:18:38 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_12D137DD\_2B9F\_4c2a\_9041\_25E8DF1D3689 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -540,9 +540,9 @@ Attributen van objecttype Gebruikerrol
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.14.0 |
     | created | 2019-01-10 14:50:41 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_E846CC36\_DF4A\_4398\_AE4C\_122CAFEBAEAA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -585,9 +585,9 @@ Attributen van objecttype Gegeven
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-15 14:59:27 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_0CF1C34D\_8AD5\_4ac5\_8538\_87252E66A8C8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -629,9 +629,9 @@ Attributen van objecttype Generalisatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-10 11:35:52 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_6C92F0F8\_BC92\_428c\_B729\_1A10D515DAEF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -664,9 +664,9 @@ Attributen van objecttype Hardware
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-10 11:37:23 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_D0AB8CF6\_F6CC\_4337\_BE07\_DFE6B3CEFBB3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -699,9 +699,9 @@ Attributen van objecttype Inventaris
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-10 11:49:07 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_AB7CF266\_388F\_413a\_92D0\_B2FA67C75633 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -737,9 +737,9 @@ Attributen van objecttype Koppeling
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-10 11:36:55 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_2E5F9AF9\_D1BA\_4dc0\_9621\_4101D24B8ABD |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -772,9 +772,9 @@ Attributen van objecttype Licentie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-10 16:32:50 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_C0F1A08E\_C6CD\_4524\_A2E0\_0E5CA483DCFD |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -807,9 +807,9 @@ Attributen van objecttype Linkbaar CMDB-item
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-10 11:49:38 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_5492ED6D\_608E\_465e\_B975\_BCADAAA3EE7F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -845,9 +845,9 @@ Attributen van objecttype Log
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2019-01-10 11:38:45 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_6100B3C7\_FBCE\_434d\_BA48\_E067B9CF84A7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -865,24 +865,24 @@ Attributen van objecttype Melding
 
 
 
-### Nertwerkcomponent
-> **Definitie Nertwerkcomponent:** 
+### Netwerkcomponent
+> **Definitie Netwerkcomponent:** 
 >
-> Geen Definitie
+> Een *netwerkcomponent* is een hardware- of softwareonderdeel dat een **specifieke functie vervult binnen een netwerk** om communicatie, gegevensuitwisseling of het beheer van netwerkverkeer mogelijk te maken.
 
-??? info "Kenmerken Model Nertwerkcomponent"
+??? info "Kenmerken Model Netwerkcomponent"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
-    | name | Nertwerkcomponent |
-    | toelichting |  |
+    | name | Netwerkcomponent |
+    | toelichting | Een netwerk bestaat uit meerdere onderdelen die samenwerken om \*\*gegevens tussen apparaten te versturen, te ontvangen en te beheren\*\*. Dit kunnen fysieke apparaten zijn zoals routers, switches, netwerkkaarten en access points, maar ook software- of protocolonderdelen die nodig zijn voor de werking van het netwerk zelf. Deze componenten dragen bij aan het opzetten, \*\*onderhouden, sturen of beveiligen van de communicatie\*\* tussen verschillende netwerkdeelnemers. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.9.0 |
+    | version | 1.10.0 |
     | created | 2019-01-10 11:35:05 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_DD277E82\_0CA5\_4460\_918F\_9178B5F01886 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -893,7 +893,7 @@ Attributen van objecttype Melding
     | gemma_toelichting |  |
     
 
-Attributen van objecttype Nertwerkcomponent
+Attributen van objecttype Netwerkcomponent
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -915,9 +915,9 @@ Attributen van objecttype Nertwerkcomponent
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-14 16:44:58 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_354E5545\_D067\_4b81\_9D1D\_C5F5FFB532C7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -955,9 +955,9 @@ Attributen van objecttype Notitie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-10 14:50:11 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_A2451674\_6C19\_4bf9\_81F9\_57CDE2F60144 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1004,9 +1004,9 @@ Attributen van objecttype Objecttype
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-02-07 14:51:28 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_2AA9DB3B\_D79C\_490d\_8776\_DA1CB25E9B09 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1039,9 +1039,9 @@ Attributen van objecttype Onderwerp
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-14 16:49:18 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_ACE86CFF\_D6D0\_4cbd\_8395\_99BD763F1B37 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1079,9 +1079,9 @@ Attributen van objecttype Package
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-02-07 14:45:09 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_F1489610\_1E50\_4328\_8CD8\_F41E9CE0C0D8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1114,9 +1114,9 @@ Attributen van objecttype Prijzenboek
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-02-07 14:41:02 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_D5DD2F67\_6A1F\_46b0\_972E\_795ECC4B2E4F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1154,9 +1154,9 @@ Attributen van objecttype Product
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-15 14:49:11 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_DFD2814E\_7D36\_45e2\_B082\_2ED574A409E1 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1203,9 +1203,9 @@ Attributen van objecttype Relatiesoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-10 11:34:53 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_3AFD7E5F\_8061\_4776\_A332\_334AF4125E7D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1246,9 +1246,9 @@ Attributen van objecttype Server
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-10 11:36:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_0B3C37DD\_42A1\_4b6b\_B534\_CD276112FD3B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1281,9 +1281,9 @@ Attributen van objecttype Software
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-10 11:40:28 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_4E5F272E\_00CA\_481c\_A51B\_7D08B5E6B0A9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1316,9 +1316,9 @@ Attributen van objecttype Storing
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-10 11:37:09 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_DDD2167F\_4A0F\_468b\_894E\_6BB9ED9DA5E0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1351,9 +1351,9 @@ Attributen van objecttype Telefoniegegevens
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-10 11:37:51 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_D67A4AC2\_9A17\_4cd0\_82D7\_732A89018FDA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1386,9 +1386,9 @@ Attributen van objecttype Toegangsmiddel
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-14 16:36:00 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_39445166\_1EAB\_43f8\_9F5C\_89EA606605EE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1427,9 +1427,9 @@ Attributen van objecttype Versie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2019-01-10 11:37:36 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_E8C75DAB\_F9AE\_4fe2\_9114\_870434F2EA80 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1462,9 +1462,9 @@ Attributen van objecttype Vervoersmiddel
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2019-01-10 11:40:46 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_EFBF46D1\_6A51\_44fd\_BAEA\_47BCDFEEE27A |
     | domein_iv3 |  |
     | domein_dcat |  |

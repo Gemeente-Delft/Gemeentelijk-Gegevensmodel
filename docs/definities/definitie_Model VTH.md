@@ -2,7 +2,7 @@
 ## Inleiding
 > **Definitie Model VTH:** 
 >
-> Geen definitie
+> Alle objecttypen uit het domein VTH (Vergunningverlening Toezicht en Handhaving)
 
 ??? info "Kenmerken Model Model VTH"
 
@@ -14,9 +14,9 @@
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2019-04-16 10:33:38 |
-    | modified | 2019-04-16 10:33:56 |
+    | modified | 2025-12-17 16:12:38 |
     | id | EAPK\_AA7AC6CA\_3F75\_4f72\_9941\_AC3710C5F46A |
     
 
@@ -24,30 +24,30 @@ Het model 'Model VTH' kent de volgende objecttypen:
 
 * **Activiteit Omgevingswet**: Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd.
 * **AOMStatus**: 
-* **Bevinding**: 
+* **Bevinding**: Een *bevinding* is de uitkomst van een waarneming of onderzoek die aangeeft wat is geconstateerd bij beoordeling of inspectie.
 * **BOA**: Een buitengewoon opsporingsambtenaar (boa) is een ambtenaar met een specifieke opsporingsbevoegdheid.
-* **Combibon**: Arjen deze  is voor jou
+* **Combibon**: Een Combibon is een modelformulier dat handhavende ambtenaren gebruiken om geconstateerde overtredingen en de gekozen afdoeningsmodaliteit (bijv. bekeuring of strafbeschikking) vast te leggen.
 * **Fietsregistratie**: Adminstreren van fietsen
-* **Grondslag**: 
+* **Grondslag**: Een *grondslag* is de juridische of normatieve basis waarop een besluit, handeling of rechtspraak steunt; het is hetgeen zijn **basis vindt in wetgeving of andere geldende rechtsregels**.
 * **Heffinggrondslag**: De maatstaf waarop een belasting is gebaseerd, het bedrag op basis waarvan een bepaalde belasting wordt geheven of de premie voor sociale zekerheid wordt vastgesteld.
-* **Heffingsverordening**: 
+* **Heffingsverordening**: Een *heffingsverordening* is een door de gemeenteraad vastgestelde verordening die de **heffing en invordering van gemeentelijke belastingen en rechten** regelt, zoals afvalstoffenheffing, precariobelasting of marktgelden.
 * **Indiener**: Persoon die meldiing of aanvraag doet
 * **Inspectie**: het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen.
-* **Kosten**: 
-* **Leges_Grondslag**: 
+* **Kosten**: *Kosten* zijn de prijs of uitgaven die men moet betalen voor het gebruik, verkrijgen of verbruiken van een product, dienst of middel, doorgaans uitgedrukt in geld.
+* **Leges_Grondslag**: *Leges_Grondslag* is de basis of maatstaf waarop de heffing van leges wordt berekend, zoals de omvang van de werkzaamheden, bouwkosten of andere relevante parameters die in de legesverordening zijn vastgelegd.
 * **Ligplaatsontheffing**: Tijdelijke toestemming voor het innemen van een ligplaats op een locatie in een gebied met een verbod op ligplaatsen.
-* **MORAanvraagOfMelding**: 
+* **MORAanvraagOfMelding**: *MORAanvraagOfMelding* is een aanvraag of melding die een burger of organisatie doet bij de gemeente om een **situatie in de openbare ruimte te melden of te laten beoordelen**, zoals schade, overlast, gevaarlijke situaties of onderhoudsproblemen.
 * **OpenbareActiviteit**: Activiteit in het publieke domein
 * **Precario**: Belasting die specifiek wordt geheven voor het plaatsen van voorwerpen onder, op of boven voor de openbare dienst bestemde gemeentegrond.
-* **Producttype**: 
-* **SubProducttype**: 
+* **Producttype**: Een *producttype* is een categorie of variant van producten die dezelfde aard of kenmerken delen, waarmee producten binnen een groep worden ingedeeld op basis van gemeenschappelijke eigenschappen.
+* **SubProducttype**: *SubProducttype* is een afgeleide of meer specifieke categorie binnen een *Producttype* die producten verder onderscheidt op basis van gedetailleerde kenmerken.
 * **Vaartuig**: Een zee- of binnenvaartuig, tot de vaart gebruikt of bestemd, daaronder begrepen drijvende werktuigen, zoals baggerwerktuigen, kranen, bokken, elevators, alsmede woonschepen, glijboten en ponten.
 * **VOMAanvraagOfMelding**: VOM staat voor Vergunning, Ontheffing of Melding. Het betreft hier een melding of een aanvraag voor een vergunning of een ontheffing.
-* **Vordering**: 
-* **Vorderingregel**: 
+* **Vordering**: Een *vordering* is een juridisch recht dat een schuldeiser heeft om van een andere partij (schuldenaar) een prestatie te ontvangen, zoals een geldbedrag, levering van goederen of uitvoering van een dienst.
+* **Vorderingregel**: Een *vorderingregel* is een afzonderlijke regel of entry in een gegevensset of lijst die een specifieke *vordering* beschrijft, inclusief kenmerken zoals de omvang, datum, type en status van de vordering.
 * **VTH-Melding**: Melding met betrekking tot Vergunningen, Toezicht en Handhaving
 * **VTHAanvraagOfMelding**: VTH staat voor Vergunning, Toezicht en Handhaving. Het betreft hier een melding of een aanvraag voor een vergunning of een melding voor Toezicht en/of Handhaving.
-* **VTHzaak**: 
+* **VTHzaak**: Een *VTHzaak* is een zaak of dossier binnen de gemeentelijke administratie die betrekking heeft op **vergunningverlening, toezicht en handhaving (VTH)** van regels en voorschriften in de fysieke leefomgeving.
 * **Waarneming**: Handhavende taak in het kader van VTH
 * **WABOAanvraagOfMelding**: Aanvraag of medling in het kader van de Wet algemene bepalingen omgevingsrecht (WABO)
 * **WoonfraudeAanvraagOfMelding**: Melding of aanvraag van woonfraude
@@ -72,9 +72,9 @@ Het model 'Model VTH' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2022-02-14 14:40:41 |
-    | modified | 2025-12-17 12:09:51 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_9547BC67\_7488\_4d9a\_B651\_2B69A62D789F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -107,10 +107,10 @@ Attributen van objecttype Activiteit Omgevingswet
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.12.0 |
+    | author | Ashkan Ashkpour |
+    | version | 1.13.0 |
     | created | 2020-11-30 14:06:39 |
-    | modified | 2025-12-17 12:09:51 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_FDEB42B6\_5D93\_46bf\_9B5C\_10F42BA4AC26 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -136,21 +136,21 @@ Attributen van objecttype AOMStatus
 ### Bevinding
 > **Definitie Bevinding:** 
 >
-> Geen Definitie
+> Een *bevinding* is de uitkomst van een waarneming of onderzoek die aangeeft wat is geconstateerd bij beoordeling of inspectie.
 
 ??? info "Kenmerken Model Bevinding"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Bevinding |
-    | toelichting |  |
+    | toelichting | In algemene en bestuurlijke contexten verwijst \*bevinding\* naar wat er naar voren komt uit onderzoek, inspectie of waarneming, bijvoorbeeld tijdens een controle, audit of beoordeling van een situatie. Het is het resultaat dat aangeeft wat er feitelijk is geconstateerd of waargenomen, en vormt vaak de basis voor conclusies, adviezen of vervolgacties. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.12.0 |
+    | author | Ashkan Ashkpour |
+    | version | 1.13.0 |
     | created | 2022-08-10 13:59:39 |
-    | modified | 2025-12-17 12:09:51 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_ED0D0224\_0A30\_435b\_AB25\_87FDA8DF4078 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -194,9 +194,9 @@ Attributen van objecttype Bevinding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-04-16 10:36:35 |
-    | modified | 2025-12-17 12:09:51 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_90B2A249\_8D88\_4a14\_979F\_672223D98E8C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -217,21 +217,21 @@ Attributen van objecttype BOA
 ### Combibon
 > **Definitie Combibon:** 
 >
-> Arjen deze  is voor jou
+> Een Combibon is een modelformulier dat handhavende ambtenaren gebruiken om geconstateerde overtredingen en de gekozen afdoeningsmodaliteit (bijv. bekeuring of strafbeschikking) vast te leggen.
 
 ??? info "Kenmerken Model Combibon"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Combibon |
-    | toelichting |  |
+    | toelichting | • Het formulier is opgenomen in de Regeling modellen en formulieren ten behoeve van de handhaving Justitie en kan worden toegepast bij verschillende sanctiemodaliteiten zoals kennisgeving van bekeuring, aankondiging van strafbeschikking en administratieve besluiten.<br>• Op de combibon worden standaardcodes gebruikt voor de afdoening, de feitcode en een verkort proces-verbaal.<br>• Na invulling blijft een exemplaar achter bij de verbalisant en wordt een doorslag gegeven aan of achtergelaten bij de betrokkene of het voertuig.<br>• Zwaardere feiten waarvoor een volledig proces-verbaal vereist is, worden niet via combibon afgehandeld. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-05-09 14:51:11 |
-    | modified | 2025-12-17 12:09:51 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_43D57BB8\_C2E4\_4b5a\_A41C\_C5CEC9D3877D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -265,9 +265,9 @@ Attributen van objecttype Combibon
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-04-16 10:36:20 |
-    | modified | 2025-12-17 12:09:51 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_FF9A4A36\_6674\_4590\_BC33\_7B6DC5256490 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -290,21 +290,21 @@ Attributen van objecttype Fietsregistratie
 ### Grondslag
 > **Definitie Grondslag:** 
 >
-> Geen Definitie
+> Een *grondslag* is de juridische of normatieve basis waarop een besluit, handeling of rechtspraak steunt; het is hetgeen zijn **basis vindt in wetgeving of andere geldende rechtsregels**.
 
 ??? info "Kenmerken Model Grondslag"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Grondslag |
-    | toelichting |  |
+    | toelichting | In (bestuurs)recht en regelgeving verwijst \*grondslag\* naar de \*\*wet, regel of rechtsbron\*\* waarop een besluit of maatregel is gebaseerd. Het duidt op de formele reden waarom een bestuursorgaan, rechter of andere instantie bevoegd is om tot een maatregel, besluit of ingreep over te gaan. Voor besluiten moet de grondslag helder zijn zodat duidelijk is \*\*welke wettelijke bepaling, artikel of norm\*\* de basis vormt voor het genomen besluit |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2022-02-14 14:41:03 |
-    | modified | 2025-12-17 12:09:51 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_94E2B19A\_6942\_4164\_8A52\_3C0BBDE45808 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -339,9 +339,9 @@ Attributen van objecttype Grondslag
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-04-18 10:56:20 |
-    | modified | 2025-12-17 12:09:51 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_3D2D5426\_653C\_485c\_A99C\_8AD933E76D78 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -367,21 +367,21 @@ Attributen van objecttype Heffinggrondslag
 ### Heffingsverordening
 > **Definitie Heffingsverordening:** 
 >
-> Geen Definitie
+> Een *heffingsverordening* is een door de gemeenteraad vastgestelde verordening die de **heffing en invordering van gemeentelijke belastingen en rechten** regelt, zoals afvalstoffenheffing, precariobelasting of marktgelden.
 
 ??? info "Kenmerken Model Heffingsverordening"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Heffingsverordening |
-    | toelichting |  |
+    | toelichting | Gemeenten mogen alleen heffingen vaststellen binnen de kaders die de wet hen geeft. Een heffingsverordening bevat de regels over \*\*welke belastingen of rechten worden geheven, wie belastingplichtig is, wat de maatstaf en tarieven zijn, en hoe invordering plaatsvindt\*\*. Dit is de lokale juridische basis voor het innen van gemeentelijke heffingen waarvoor de gemeenteraad een verordening opstelt. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-04-18 10:54:17 |
-    | modified | 2025-12-17 12:09:51 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_C29CCD49\_04E2\_44b4\_A6B0\_AD8B10552628 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -414,9 +414,9 @@ Attributen van objecttype Heffingsverordening
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-04-18 15:45:30 |
-    | modified | 2025-12-17 12:09:51 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_E9AD325A\_49CF\_48a6\_AA9E\_7FB57E03E414 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -450,10 +450,10 @@ Attributen van objecttype Indiener
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.12.0 |
+    | author | Ashkan Ashkpour |
+    | version | 1.13.0 |
     | created | 2022-08-08 14:30:16 |
-    | modified | 2025-12-17 12:09:51 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_F73901FC\_A78E\_486f\_B6C6\_74CFCBE26CAB |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -485,21 +485,21 @@ Attributen van objecttype Inspectie
 ### Kosten
 > **Definitie Kosten:** 
 >
-> Geen Definitie
+> *Kosten* zijn de prijs of uitgaven die men moet betalen voor het gebruik, verkrijgen of verbruiken van een product, dienst of middel, doorgaans uitgedrukt in geld.
 
 ??? info "Kenmerken Model Kosten"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Kosten |
-    | toelichting |  |
+    | toelichting | Het begrip \*kosten\* verwijst naar wat iemand moet \*\*betalen of besteden\*\* om iets te verkrijgen, te gebruiken of te laten uitvoeren. Kosten kunnen betrekking hebben op directe betalingen, zoals de aanschafprijs van een product of dienst, maar ook op bredere uitgaven die met het gebruik of verbruik samenhangen. In bredere economische of administratieve contexten kunnen kosten ook betrekking hebben op de waarde van middelen die zijn ingezet binnen een bepaalde periode, functie of activiteit. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.12.0 |
+    | author | Ashkan Ashkpour |
+    | version | 1.13.0 |
     | created | 2022-05-30 14:45:46 |
-    | modified | 2025-12-17 12:09:51 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_0E4A8F94\_ED08\_43dc\_9F78\_C9DD17D34690 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -536,21 +536,21 @@ Attributen van objecttype Kosten
 ### Leges_Grondslag
 > **Definitie Leges_Grondslag:** 
 >
-> Geen Definitie
+> *Leges_Grondslag* is de basis of maatstaf waarop de heffing van leges wordt berekend, zoals de omvang van de werkzaamheden, bouwkosten of andere relevante parameters die in de legesverordening zijn vastgelegd.
 
 ??? info "Kenmerken Model Leges_Grondslag"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Leges\_Grondslag |
-    | toelichting |  |
+    | toelichting | In een \*legesverordening\* van een gemeente of provincie staat welke diensten leges plegen te worden geheven en \*\*op welke grondslagen\*\* dat gebeurt. De grondslag bepaalt de \*\*maatstaf voor de berekening van het legesbedrag\*\* (bijvoorbeeld een vast bedrag, oppervlakte, bouwkosten of andere objectieve gegevens die de hoogte van de leges bepalen). De aanvrager moet deze grondslag vaak opgeven (zoals bouwkosten bij een omgevingsvergunning) en de gemeente toetst deze op juistheid; onjuiste opgave kan leiden tot bijstelling van de leges. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.12.0 |
+    | author | Ashkan Ashkpour |
+    | version | 1.13.0 |
     | created | 2022-05-30 14:52:05 |
-    | modified | 2025-12-17 12:09:51 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_7F9392E5\_6E43\_4880\_AF14\_819E32A86204 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -593,9 +593,9 @@ Attributen van objecttype Leges_Grondslag
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-05-02 16:15:28 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_872A0342\_EA75\_418e\_9455\_E51875BFD771 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -617,21 +617,21 @@ Attributen van objecttype Ligplaatsontheffing
 ### MORAanvraagOfMelding
 > **Definitie MORAanvraagOfMelding:** 
 >
-> Geen Definitie
+> *MORAanvraagOfMelding* is een aanvraag of melding die een burger of organisatie doet bij de gemeente om een **situatie in de openbare ruimte te melden of te laten beoordelen**, zoals schade, overlast, gevaarlijke situaties of onderhoudsproblemen.
 
 ??? info "Kenmerken Model MORAanvraagOfMelding"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | MORAanvraagOfMelding |
-    | toelichting |  |
+    | toelichting | In gemeenten wordt met \*MORA\* (Melding Openbare Ruimte, soms ook Melding Openbare Ruimte Amsterdam) een dienst aangeduid waarbij inwoners, organisaties of bedrijven kunnen doorgeven wat er in de openbare ruimte \*\*niet in orde is\*\* of \*\*om beoordeling vraagt\*\* (bijv. kapotte bestrating, zwerfafval, vernieling, openbare verlichting of onveilige situaties). De melding wordt door de gemeente verwerkt en kan leiden tot actie of doorverwijzing naar de juiste afdeling voor herstel of handhaving. De toepassing kan verschillen per gemeente, maar het hoofddoel is het \*\*verbeteren van leefbaarheid en veiligheid\*\* in de openbare ruimte. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.12.0 |
+    | author | Ashkan Ashkpour |
+    | version | 1.13.0 |
     | created | 2020-09-09 16:09:39 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_80F23226\_8DD8\_4926\_B8F1\_F2A3C01A29BF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -669,9 +669,9 @@ Attributen van objecttype MORAanvraagOfMelding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-05-02 16:03:27 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_B2B423C3\_B9C9\_4b4f\_A47D\_85D29417B9B4 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -709,9 +709,9 @@ Attributen van objecttype OpenbareActiviteit
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-05-07 15:38:38 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_13BB343D\_A595\_43c9\_8208\_9BC5B05B618C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -732,21 +732,21 @@ Attributen van objecttype Precario
 ### Producttype
 > **Definitie Producttype:** 
 >
-> Geen Definitie
+> Een *producttype* is een categorie of variant van producten die dezelfde aard of kenmerken delen, waarmee producten binnen een groep worden ingedeeld op basis van gemeenschappelijke eigenschappen.
 
 ??? info "Kenmerken Model Producttype"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Producttype |
-    | toelichting |  |
+    | toelichting | Het begrip \*producttype\* verwijst naar de classificatie van producten binnen een bepaalde groep of categorie. In economische en administratieve contexten wordt dit gebruikt om producten te onderscheiden en te groeperen, bijvoorbeeld verschillende soorten melk binnen de zuivelcategorie (zoals magere melk, volle melk en karnemelk). Binnen data- of productcatalogi fungeert het producttype als \*\*label of sjabloon\*\* dat producten structureel groepeert zodat deze overzichtelijk beheerd en geanalyseerd kunnen worden. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2022-02-14 14:33:55 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_03B4B3C0\_3616\_4ea2\_A8B1\_3D6754325F02 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -768,21 +768,21 @@ Attributen van objecttype Producttype
 ### SubProducttype
 > **Definitie SubProducttype:** 
 >
-> Geen Definitie
+> *SubProducttype* is een afgeleide of meer specifieke categorie binnen een *Producttype* die producten verder onderscheidt op basis van gedetailleerde kenmerken.
 
 ??? info "Kenmerken Model SubProducttype"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SubProducttype |
-    | toelichting |  |
+    | toelichting | Waar een \*Producttype\* een groep varianten van een product beschrijft (bijv. melk als producttype met varianten als magere melk, volle melk enz.) kan een \*SubProducttype\* een \*\*nog fijnmaziger indeling\*\* zijn binnen dat type. SubProducttypes worden gebruikt in gegevens- en productcatalogi om producten te classificeren op een lager niveau van detail, wat helpt bij beheer, filtering en analyse van productdata binnen een hiërarchie van types en subtypes. Dit volgt uit algemene definities van producttypen en subtypes in data-modelbegrippen. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2022-02-14 14:34:17 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_0DB447E3\_B31B\_4f07\_8E35\_7E77D0AAEF80 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -817,9 +817,9 @@ Attributen van objecttype SubProducttype
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-05-09 15:32:41 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_D12123D3\_D62D\_4978\_B7D4\_8405F00A0D6A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -858,9 +858,9 @@ Attributen van objecttype Vaartuig
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-05-08 14:16:31 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_44B26957\_BAA4\_41c2\_ABBF\_CC1AC91D30D6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -892,21 +892,21 @@ Attributen van objecttype VOMAanvraagOfMelding
 ### Vordering
 > **Definitie Vordering:** 
 >
-> Geen Definitie
+> Een *vordering* is een juridisch recht dat een schuldeiser heeft om van een andere partij (schuldenaar) een prestatie te ontvangen, zoals een geldbedrag, levering van goederen of uitvoering van een dienst.
 
 ??? info "Kenmerken Model Vordering"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vordering |
-    | toelichting |  |
+    | toelichting | In de juridische context verwijst een vordering naar de \*\*eis of aanspraak\*\* die een persoon of organisatie tegenover een ander heeft op grond van een overeenkomst, wettelijke verplichting of andere rechtsgrond. Een vordering kan bestaan uit geld, goederen of diensten en ontstaat vaak omdat een prestatie is verricht of doordat schadevergoeding wordt gevorderd. Zodra de schuldenaar verplicht is tot de prestatie, is de vordering \*\*opeisbaar\*\* en kan deze eventueel via incasso of rechtsgang worden afgedwongen. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.12.0 |
+    | author | Ashkan Ashkpour |
+    | version | 1.13.0 |
     | created | 2022-05-30 14:18:38 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_341942C1\_0F72\_4e13\_ADD1\_235805BB81C0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -940,21 +940,21 @@ Attributen van objecttype Vordering
 ### Vorderingregel
 > **Definitie Vorderingregel:** 
 >
-> Geen Definitie
+> Een *vorderingregel* is een afzonderlijke regel of entry in een gegevensset of lijst die een specifieke *vordering* beschrijft, inclusief kenmerken zoals de omvang, datum, type en status van de vordering.
 
 ??? info "Kenmerken Model Vorderingregel"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vorderingregel |
-    | toelichting |  |
+    | toelichting | In administratieve en financiële gegevensverzamelingen (zoals lijsten van terugvorderingen in het sociaal domein) vormt een \*vorderingregel\* een enkele record waarin alle relevante gegevens van één specifieke vordering staan. Dit kan bijvoorbeeld betrekking hebben op de terugvordering van ten onrechte betaalde bijstand, boetes of andere openstaande schulden. Elke regel bevat de attributen die nodig zijn voor identificatie, berekening en verwerking van die vordering in administratieve of rapportagedoeleinden. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2022-12-01 11:08:58 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_E2B83F97\_FDFD\_4876\_9E66\_23D79D4A4C03 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -997,9 +997,9 @@ Attributen van objecttype Vorderingregel
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-04-16 10:36:04 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_E9AEF0A9\_11BC\_4d2a\_BC48\_FB77F04EF9A6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1048,9 +1048,9 @@ Attributen van objecttype VTH-Melding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-05-09 16:02:38 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_EAC249B9\_13F7\_472b\_A971\_05ED32006F04 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1072,21 +1072,21 @@ Attributen van objecttype VTHAanvraagOfMelding
 ### VTHzaak
 > **Definitie VTHzaak:** 
 >
-> Geen Definitie
+> Een *VTHzaak* is een zaak of dossier binnen de gemeentelijke administratie die betrekking heeft op **vergunningverlening, toezicht en handhaving (VTH)** van regels en voorschriften in de fysieke leefomgeving.
 
 ??? info "Kenmerken Model VTHzaak"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VTHzaak |
-    | toelichting |  |
+    | toelichting | \*VTH\* staat voor \*Vergunningverlening, Toezicht en Handhaving\*, de samenhangende taken waarmee gemeenten (en bevoegde overheden) controleren of activiteiten voldoen aan wettelijke eisen, vergunningen verlenen, toezicht houden en handhavend optreden bij overtredingen van regels. Een \*VTHzaak\* is het \*\*geautomatiseerde of administratieve traject\*\* waarin een specifieke melding, aanvraag, controle, overtreding of handhavingsactie wordt behandeld en geregistreerd. Dit kan bijvoorbeeld gaan over een omgevingsvergunning, een melding van overtreding, inspectieresultaten of een handhavingsbesluit in het kader van het omgevings-, milieu- of bouwrecht. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.12.0 |
+    | author | Ashkan Ashkpour |
+    | version | 1.13.0 |
     | created | 2020-09-09 16:33:02 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_88AF7A2E\_C508\_464a\_AD22\_DD9B156D570D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1125,9 +1125,9 @@ Attributen van objecttype VTHzaak
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-05-09 14:43:04 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_DDC990BC\_C026\_4c98\_BEE5\_6692EA0C2515 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1160,9 +1160,9 @@ Attributen van objecttype Waarneming
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-04-17 13:32:09 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_192EA281\_414F\_4d8d\_85D1\_5C1B75224942 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1199,10 +1199,10 @@ Attributen van objecttype WABOAanvraagOfMelding
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.12.0 |
+    | author | Ashkan Ashkpour |
+    | version | 1.13.0 |
     | created | 2021-06-15 17:18:45 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_5CE9E5F3\_BA9A\_47e4\_A4C1\_DE21E66E9F8E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1239,10 +1239,10 @@ Attributen van objecttype WoonfraudeAanvraagOfMelding
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.12.0 |
+    | author | Ashkan Ashkpour |
+    | version | 1.13.0 |
     | created | 2020-09-09 16:23:16 |
-    | modified | 2025-12-17 12:09:52 |
+    | modified | 2025-12-17 16:12:36 |
     | id | EAID\_CB5BCFAA\_01F3\_468d\_A5CE\_4E08D3E4FFC2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1296,7 +1296,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_ac89ec27\_8030\_4aed\_974c\_677fdcebe503 |
+    | id | EAID\_78106724\_4cff\_4245\_b6f2\_742472c2e554 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1333,7 +1333,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_f0b144a1\_bcc0\_45c9\_9837\_f139178ddacd |
+    | id | EAID\_92f4b93f\_1b28\_4910\_821d\_3c8041aa1e6e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1366,9 +1366,9 @@ De enumeratie Beoordelingsoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-06-03 11:53:25 |
-    | modified | 2025-12-17 12:10:02 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_3B4D2D66\_B801\_42a8\_A3FB\_CC4A29FF8320 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1401,9 +1401,9 @@ De enumeratie Heffingsoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-05-08 13:48:43 |
-    | modified | 2025-12-17 12:10:02 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_356C8F59\_3721\_46d0\_BCD0\_C17B0130035C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1437,9 +1437,9 @@ De enumeratie StatusOpenbareActiviteit heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.13.0 |
     | created | 2019-05-02 16:07:28 |
-    | modified | 2025-12-17 12:10:02 |
+    | modified | 2025-12-17 16:12:37 |
     | id | EAID\_A29EE01A\_118E\_4599\_BADD\_35B9393A78F4 |
     | domein_iv3 |  |
     | domein_dcat |  |
