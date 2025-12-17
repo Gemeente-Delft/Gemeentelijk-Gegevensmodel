@@ -122,7 +122,7 @@ nav:
             - 'Generiek: Profiel inkomsten': definities/definitie_Model Inkomsten.md
             - 'Generiek: Profiel vermogen': definities/definitie_Model Vermogen.md
     - 'Volksgezondheid en milieu':
-        - 'Afval': definities/definitie_Model /afval.md
+        - 'Afval': definities/definitie_Model Afval.md
     - 'Volkshuisvesting, leefomgeving en stedelijke vernieuwing':
         - 'Openbare ruimte': definities/definitie_Model Beheer Openbare Ruimte.md
         - 'Bouwen en Wonen': definities/definitie_Model Wonen.md
