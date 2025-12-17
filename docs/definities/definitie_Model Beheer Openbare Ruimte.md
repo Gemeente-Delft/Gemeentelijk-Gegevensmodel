@@ -522,7 +522,7 @@ Attributen van objecttype Melding
 | uitgevoerd | boolean |  |
 | datumUitvoering | DateTime |  |
 | foto | Image |  |
-| locatie | Locatie |  |
+| locatie | Point |  |
 
 
 

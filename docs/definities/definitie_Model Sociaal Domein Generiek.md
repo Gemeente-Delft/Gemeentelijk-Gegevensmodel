@@ -299,7 +299,7 @@ Attributen van objecttype Incident
 | omschrijving | Text |  |
 | toelichting | Text |  |
 | soort | Incidenttype |  |
-| locatie | Locatie |  |
+| locatie | Point |  |
 
 
 

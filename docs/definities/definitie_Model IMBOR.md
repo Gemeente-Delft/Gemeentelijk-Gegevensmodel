@@ -315,7 +315,7 @@ Attributen van objecttype Beheerobject
 | beheergebied | Beheergebied | Aanduiding van het beheergebied waarbinnen het beheerobject ligt. Indeling in beheergebieden is organisatiespecifiek. |
 | beheerobjectBeheervak | GUID | GUID van 1 of meerdere beheervakken waartoe het beheerobject behoort of waarbinnen het beheerobject zich bevindt. |
 | beheerobjectGebruiksfunctie | Gebruiksfunctie | Aanduiding van één of meer gebruiksfuncties van het beheerobject. |
-| beheerobjectMemo | Memo | Mogelijkheid om 1 of meerdere memovelden te registreren bij een beheerobject. |
+| beheerobjectMemo | Tekst | Mogelijkheid om 1 of meerdere memovelden te registreren bij een beheerobject. |
 | beschermdeFloraEnFauna | boolean | Aanduiding voor aanwezigheid beschermde plantensoort en beschermde diersoort. |
 | buurt | AN80 | Aanduiding van de buurt waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met buurtgrenzen<br>Toelichting: Link naar: www.definities.geostandaarden.nl |
 | conversieID | AN50 | Uniek kenmerk van een beheerobject uit een oude beheerindeling. |
@@ -1052,7 +1052,7 @@ Attributen van objecttype Groenobject
 | omtrek | integer | Omtrek van het beheerobject.<br>Eenheid: m |
 | ondergroei | Ondergroei | Bij Bos en Bosplantsoen mogelijke ondergroei aangeven. |
 | oppervlakte | integer | Oppervlakte van het beheerobject, overname van BGT/IMGeo.<br>Eenheid: m2 |
-| opTalud | nee | Aanduiding of het beheerobject wel of niet op een hellend vlak ligt. De taludsteilte wordt apart geregistreerd. Overname uit BGT-object |
+| opTalud | Boolean | Aanduiding of het beheerobject wel of niet op een hellend vlak ligt. De taludsteilte wordt apart geregistreerd. Overname uit BGT-object |
 | taludsteilte | Taludsteilte | Aanduiding van de steilte van het talud.<br>Toelichting: De helling van het talud, uitgedrukt in de verhouding hoogte:aanleg (hoogte is 1). De indeling in categorieen is afkomstig uit verschillende onderdelen van de RAW. |
 | type | Type | Typering van het beheerobject. |
 | typeBewerking | TypeBewerking | Wijze waarop een beheerobject verwerkt wordt (handmatig of machinaal). |
@@ -1426,7 +1426,7 @@ Attributen van objecttype Kunstwerk
 | objectnummer | AN20 | Nummer van het beheerobject, door de organisatie zelf in te delen. |
 | onderhoudsregime | Onderhoudsregime | Onderhoudsregime waarbinnen het beheerobject valt. |
 | oppervlakte | integer | Oppervlakte van het beheerobject, overname van BGT/IMGeo.<br>Eenheid: m2 |
-| orientatie | ntatie | Oriëntatie van het beheerobject t.o.v. een weg, vaarweg, etc. |
+| orientatie | orientatie | Oriëntatie van het beheerobject t.o.v. een weg, vaarweg, etc. |
 | technischeLevensduur | integer | Eenheid: Jaartal |
 | typeFundering | TypeFundering | Keuze uit lijst met funderingen van het beheerobject. Van toepassing bij wegobjecten en grassportvelden.<br>Toelichting: Deze waarde wordt opgenomen bij beheerobjecten waar de fundering van belang is. Bij beheerobjecten van het type ´gras- en kruidachtigen´ gaat het o.a. om sport- en evenemententerreinen. |
 | typeMonument | TypeMonument | Type monument. |
@@ -1479,7 +1479,7 @@ Attributen van objecttype Leiding
 | leverancier | Leverancier | Leverancier van het beheerobject. |
 | materiaal | Materiaal | Lijst met materialen waaruit het beheerobject opgebouwd is. |
 | themaIMKL | IMKLThema | Het thema geeft aan welk type leiding het betreft en welke functie de leidingen hebben. Bijvoorbeeld datatransport, gas lage druk, laagspanning, riool etc. Gekozen kan worden uit een lijst van themaâ€™s (zie paragraaf 6.4.21).Opmerking: Signaleringskabels die data vervoeren vallen onder datatrans-port.<br>Toelichting: Collectie van leidingen binnen een gebied van eenzelfde thema en van Ã©Ã©n beheerder |
-| verhoogdRisico | nee | Is welk of geen sprake van een net met gevaarlijke inhoud. Conditie: er is een verhoogd risico van toepassing. Vervolgens moet bij het beheerobject Themakaart met het attribuut â€˜eisVoor-zorgsmaatregelâ€™ aangegeven worden welke voorzorgsmaatregelen getroffen dienen te worden.Bij het thema â€˜Buisleiding gevaarlijke inhoudâ€™ is er per definitie sprake van een verhoogd risico. |
+| verhoogdRisico | Boolean | Is welk of geen sprake van een net met gevaarlijke inhoud. Conditie: er is een verhoogd risico van toepassing. Vervolgens moet bij het beheerobject Themakaart met het attribuut â€˜eisVoor-zorgsmaatregelâ€™ aangegeven worden welke voorzorgsmaatregelen getroffen dienen te worden.Bij het thema â€˜Buisleiding gevaarlijke inhoudâ€™ is er per definitie sprake van een verhoogd risico. |
 
 
 
@@ -1851,7 +1851,7 @@ Attributen van objecttype Put
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bovengrondsZichtbaar | nee | Is het ondergrondse beheerobject bovengronds zichtbaar. |
+| bovengrondsZichtbaar | Boolean | Is het ondergrondse beheerobject bovengronds zichtbaar. |
 | breedte | integer | Breedte van het beheerobject.<br>Eenheid: m |
 | diameter | integer | Diameter van het beheerobject.<br>Eenheid: mm |
 | hoogte | integer | Hoogte van het beheerobject in meters.<br>Eenheid: m |
@@ -2335,7 +2335,7 @@ Attributen van objecttype Terreindeel
 | cultuurhistorischWaardevol | CultuurhistorischWaardevol | Aanduiding voor een gebied of plek welke cultuurhistorisch waardevol is, wordt toegepast bij terreindelen en groenobjecten<br>op basis van een cultuurhistorische waardekaart. |
 | herplantplicht | boolean | Aanduiding of er in het kader van de Wet Natuurbescherming sprake is van een herplantplicht. |
 | oppervlakte | integer | Oppervlakte van het beheerobject, overname van BGT/IMGeo.<br>Eenheid: m2 |
-| opTalud | nee | Aanduiding of het beheerobject wel of niet op een hellend vlak ligt. De taludsteilte wordt apart geregistreerd. Overname uit BGT-object |
+| opTalud | Boolean | Aanduiding of het beheerobject wel of niet op een hellend vlak ligt. De taludsteilte wordt apart geregistreerd. Overname uit BGT-object |
 | percentageLoofbos | integer | Percentage loofbos (t.o.v. naaldbos) binnen een gemengd bos.<br>Eenheid: % |
 | terreindeelSoortnaam | Soortnaam | Beschrijving van één of meerdere soortnamen binnen het objecttype Terreindeel (Gemengd bos, loofbos en naaldbos). |
 | type | Type | Typering van het beheerobject. |
@@ -2540,8 +2540,8 @@ Attributen van objecttype Verhardingsobject
 | omtrek | integer | Omtrek van het beheerobject.<br>Eenheid: m |
 | ondergrondcode | AN10 | Code van een valdempende ondergrond. |
 | oppervlakte | integer | Oppervlakte van het beheerobject, overname van BGT/IMGeo.<br>Eenheid: m2 |
-| opTalud | nee | Aanduiding of het beheerobject wel of niet op een hellend vlak ligt. De taludsteilte wordt apart geregistreerd. Overname uit BGT-object |
-| plaatsorientatie | ntatie | Positie van het wegobject binnen het wegvak. |
+| opTalud | Boolean | Aanduiding of het beheerobject wel of niet op een hellend vlak ligt. De taludsteilte wordt apart geregistreerd. Overname uit BGT-object |
+| plaatsorientatie | orientatie | Positie van het wegobject binnen het wegvak. |
 | prijsAanschaf | bedrag | Aanschafprijs van het objecttype.<br>Eenheid: â‚¬ |
 | rijstrook | GUID | GUID van de rijstrook die "bovenop" de verharding ligt, dit indien er spraken is van een verkeerskundig model. |
 | soortVoeg | SoortVoeg | Aanduiding voor het soort voeg (plaatsing) in het Verhardingsobject. |

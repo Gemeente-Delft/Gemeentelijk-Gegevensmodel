@@ -388,14 +388,14 @@ Attributen van objecttype Deelprocestype
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Document |
-    | toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
+    | toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
     | version | 1.11.0 |
     | created | 2010-08-19 12:15:35 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_5641C50A\_C0FA\_4e71\_B07B\_26C7B1CE94ED |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -600,9 +600,9 @@ Attributen van objecttype Identificatiekenmerk
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-04-25 14:49:05 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_A3DAD553\_0E55\_4256\_824B\_CDB5E12CB545 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -664,7 +664,7 @@ Attributen van objecttype Medewerker
 | datumUitDienst | Datum | Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt. |
 | emailadres | AN254 | Elektronisch postadres waaronder de medewerker in de regel bereikbaar is. |
 | functie | AN50 | De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie. |
-| geslachtsaanduiding | A1 | Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is. |
+| geslachtsaanduiding | AN1 | Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is. |
 | medewerkerToelichting | AN1000 | Toelichting bij en/of over de medewerker. |
 | roepnaam | AN30 | Naam waarmee de werknemer wordt aangesproken. |
 | telefoonnummer | AN20 | Telefoonnummer waaronder de medewerker in de regel bereikbaar is. |
@@ -801,7 +801,7 @@ Attributen van objecttype OrganisatorischeEenheid
 | omschrijving | AN80 | Een omschrijving van de organisatorische eenheid. |
 | telefoonnummer | AN20 | Telefoonnummer waaronder de organisatorische eenheid in de regel bereikbaar is. |
 | toelichting | AN1000 | Toelichting bij de organisatorische eenheid. |
-| Formatie |  |  |
+| Formatie | AN255 |  |
 | vestiging | Class: "VestigingVanZaakbehandelendeOrganisatie" |  |
 | zaaktype | Class: "Zaaktype" |  |
 
@@ -1001,7 +1001,7 @@ Attributen van objecttype Zaak
 | toelichting | AN1000 | Een toelichting op de zaak. |
 | datumEindeUiterlijkeAfdoening | Datum | De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn. |
 | zaakniveau | N1 | Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken. |
-| indicatieDeelzaken | A1 | De aanduiding of een ZAAK behandeld wordt in deelzaken. |
+| indicatieDeelzaken | AN1 | De aanduiding of een ZAAK behandeld wordt in deelzaken. |
 | datumRegistratie | Datum | De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd |
 | datumPublicatie | datum | Datum waarop (het starten van) de zaak gepubliceerd is of wordt. |
 | archiefnominatie | AN1 | Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden |
@@ -1062,7 +1062,7 @@ Attributen van objecttype ZAAK - Origineel
 | toelichting | AN1000 | Een toelichting op de zaak. |
 | datumEindeUiterlijkeAfdoening | Datum | De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn. |
 | zaakniveau | N1 | Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken. |
-| indicatieDeelzaken | A1 | De aanduiding of een ZAAK behandeld wordt in deelzaken. |
+| indicatieDeelzaken | AN1 | De aanduiding of een ZAAK behandeld wordt in deelzaken. |
 | datumRegistratie | Datum | De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd |
 | datumPublicatie | datum | Datum waarop (het starten van) de zaak gepubliceerd is of wordt. |
 | archiefnominatie | AN1 | Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden |
@@ -1155,7 +1155,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_ba974c60\_db08\_4705\_8b42\_47dcfce76ef2 |
+    | id | EAID\_c41eceb3\_7499\_4dd0\_ba46\_5151ebd8f5ac |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1187,10 +1187,10 @@ De enumeratie Heffingsoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.7.0 |
+    | version | 1.9.0 |
     | created | 2019-05-08 13:48:43 |
-    | modified | 2025-12-16 14:00:30 |
-    | id | EAID\_76e5bcb6\_4e94\_45fa\_a81b\_2efb49478208 |
+    | modified | 2025-12-17 09:00:43 |
+    | id | EAID\_5f3ce4e5\_4ab5\_42a6\_ad1c\_b220b4bea54e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1228,7 +1228,7 @@ De enumeratie Soorten Klantcontact heeft de volgende kenmerken:
     | version | 1.11.0 |
     | created | 2025-03-26 11:13:26 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_07d6e2b2\_ec65\_429c\_9e33\_66c9f8b15190 |
+    | id | EAID\_26921236\_8547\_4364\_9e33\_2dc0e8a690ab |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

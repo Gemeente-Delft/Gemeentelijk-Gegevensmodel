@@ -69,7 +69,6 @@ Attributen van objecttype Bankrekening
 | Brontype | Brontype |  |
 | Datum aanvang bankrekening | Date |  |
 | Datum einde bankrekening | Date |  |
-| IBAN | CharacterString |  |
 | Rekeningtype | Rekeningtype |  |
 | Tenaamstelling | CharacterString |  |
 | Voorkeur bankrekening | Boolean |  |
@@ -220,7 +219,6 @@ Attributen van objecttype Vermogenscomponent
 | Code soort vermogenscomponent |  |  |
 | Datum vaststelling vermogencomponent | Date |  |
 | Nog aan te spreken vermogen | Bedrag |  |
-| Vermogenscomponent ID | Integer |  |
 | Vrij te laten vermogen | Bedrag |  |
 
 
@@ -263,7 +261,6 @@ Attributen van objecttype Waardepeiling
 | Link naar bewijs | CharacterString |  |
 | Peilmoment | Date |  |
 | Waarde vermogenscomponent | Bedrag |  |
-| WaardepeilingId | CharacterString |  |
 | WaardeSoort vermogenscomponent |  |  |
 
 

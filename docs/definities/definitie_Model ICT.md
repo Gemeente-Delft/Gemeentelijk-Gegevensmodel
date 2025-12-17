@@ -38,6 +38,7 @@ Het model 'Model ICT' kent de volgende objecttypen:
 * **Dienst**: Het uitvoeren van werkzaamheden met een continu of periodiek karakter om waarde te realiseren voor een afnemer.
 * **Domein/Taakveld**: Kennisgebied of activiteit gekarakteriseerd door een verzameling van concepten, begrippen en/of waarden
 * **Externe Bron**: Bron buiten de eigen organisatie
+* **Gebruikerrol**: Een samenhangende set van taken, bevoegdheden en verantwoordelijkheden van een gebruiker.
 * **Gegeven**: bekend feit waaruit je gevolgtrekkingen kunt maken
 * **Generalisatie**: 
 > De typering van het hiërarchische verband tussen een meer generiek object van een objecttype en een meer specifiek object van een ander objecttype waarbij het laatstgenoemde object eigenschappen van het eerstgenoemde object overerft.
@@ -485,6 +486,42 @@ Attributen van objecttype Externe Bron
 | :--- | :--- | :--- |
 | guid | guid |  |
 | naam | AN255 |  |
+
+
+
+### Gebruikerrol
+> **Definitie Gebruikerrol:** 
+>
+> Een samenhangende set van taken, bevoegdheden en verantwoordelijkheden van een gebruiker.
+
+??? info "Kenmerken Model Gebruikerrol"
+
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Gebruikerrol |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Arjen Brienen |
+    | version | 1.0 |
+    | created | 2019-01-14 16:27:33 |
+    | modified | 2025-03-26 16:14:46 |
+    | id | EAID\_12D137DD\_2B9F\_4c2a\_9041\_25E8DF1D3689 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | Gebruikerrol |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-93bf923a-a97c-463a-9363-6128ea2538b7](https://gemmaonline.nl/index.php/GEMMA/id-93bf923a-a97c-463a-9363-6128ea2538b7) |
+    | gemma_definitie | Een samenhangende set van taken, bevoegdheden en verantwoordelijkheden van een gebruiker. |
+    | gemma_toelichting |  |
+    
+
+Attributen van objecttype Gebruikerrol
+
+| Attribute | Datatype | Description |
+| :--- | :--- | :--- |
+| rol | Enumeratie: "Gebruikerrol" |  |
 
 
 

@@ -144,9 +144,9 @@ Attributen van objecttype Aantekening
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2022-03-23 15:17:23 |
-    | modified | 2025-12-16 10:28:35 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_3E5B2877\_D6CC\_487e\_BD79\_042E32D17550 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -232,9 +232,9 @@ Attributen van objecttype Briefadres
     | uri |  |
     | bron |  |
     | author | aashkpour |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2023-02-28 11:51:48 |
-    | modified | 2025-12-16 10:28:35 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_69B41CDD\_C3F1\_449b\_92B4\_8F7657840646 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -314,14 +314,14 @@ Attributen van objecttype Onbestemd Adres
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Appartementsrecht |
-    | toelichting | Een aandeel in een recht op een gebouw en daarmee onlosmakelijk verbonden het uitsluitend gebruiksrecht van een bepaald privé-gedeelte in dat gebouw. Dat kan ook een garage of een parkeerplaats zijn. De privé-gedeelten zijn dus niet altijd woongedeelten. Een splitsing in appartementsrechten komt tot stand door inschrijving van een notariële akte van splitsing bij het kadaster. Elke splitsing in appartementsrechten kent een Vereniging van Eigenaren (VVE). Een splitsing in appartementsrechten kan worden gewijzigd. Ook kan binnen een bestaande splitsing een appartementsrecht worden ondergesplitst, d.w.z. een splitsing binnen een splitsing. Tenslotte kan een splitsing in appartementsrechten weer worden opgeheven. Voor al de genoemde rechtshandelingen is een notariële akte nodig die in de Openbare Registers moet worden ingeschreven. Zie voor de wettelijke regeling van appartementsrechten Boek 5 Burgerlijk Wetboek.<br>#NOTES#Een aandeel in een recht op een gebouw en daarmee onlosmakelijk verbonden het uitsluitend gebruiksrecht van een bepaald privé-gedeelte in dat gebouw. Dat kan ook een garage of een parkeerplaats zijn. De privé-gedeelten zijn dus niet altijd woongedeelten. Een splitsing in appartementsrechten komt tot stand door inschrijving van een notariële akte van splitsing bij het kadaster. Elke splitsing in appartementsrechten kent een Vereniging van Eigenaren (VVE). Een splitsing in appartementsrechten kan worden gewijzigd. Ook kan binnen een bestaande splitsing een appartementsrecht worden ondergesplitst, d.w.z. een splitsing binnen een splitsing. Tenslotte kan een splitsing in appartementsrechten weer worden opgeheven. Voor al de genoemde rechtshandelingen is een notariële akte nodig die in de Openbare Registers moet worden ingeschreven. Zie voor de wettelijke regeling van appartementsrechten Boek 5 Burgerlijk Wetboek.<br>#NOTES#Een aandeel in een recht op een gebouw en daarmee onlosmakelijk verbonden het uitsluitend gebruiksrecht van een bepaald privé-gedeelte in dat gebouw. Dat kan ook een garage of een parkeerplaats zijn. De privé-gedeelten zijn dus niet altijd woongedeelten. Een splitsing in appartementsrechten komt tot stand door inschrijving van een notariële akte van splitsing bij het kadaster. Elke splitsing in appartementsrechten kent een Vereniging van Eigenaren (VVE). Een splitsing in appartementsrechten kan worden gewijzigd. Ook kan binnen een bestaande splitsing een appartementsrecht worden ondergesplitst, d.w.z. een splitsing binnen een splitsing. Tenslotte kan een splitsing in appartementsrechten weer worden opgeheven. Voor al de genoemde rechtshandelingen is een notariële akte nodig die in de Openbare Registers moet worden ingeschreven. Zie voor de wettelijke regeling van appartementsrechten Boek 5 Burgerlijk Wetboek. |
+    | toelichting | Een aandeel in een recht op een gebouw en daarmee onlosmakelijk verbonden het uitsluitend gebruiksrecht van een bepaald privé-gedeelte in dat gebouw. Dat kan ook een garage of een parkeerplaats zijn. De privé-gedeelten zijn dus niet altijd woongedeelten. Een splitsing in appartementsrechten komt tot stand door inschrijving van een notariële akte van splitsing bij het kadaster. Elke splitsing in appartementsrechten kent een Vereniging van Eigenaren (VVE). Een splitsing in appartementsrechten kan worden gewijzigd. Ook kan binnen een bestaande splitsing een appartementsrecht worden ondergesplitst, d.w.z. een splitsing binnen een splitsing. Tenslotte kan een splitsing in appartementsrechten weer worden opgeheven. Voor al de genoemde rechtshandelingen is een notariële akte nodig die in de Openbare Registers moet worden ingeschreven. Zie voor de wettelijke regeling van appartementsrechten Boek 5 Burgerlijk Wetboek.<br>#NOTES#Een aandeel in een recht op een gebouw en daarmee onlosmakelijk verbonden het uitsluitend gebruiksrecht van een bepaald privé-gedeelte in dat gebouw. Dat kan ook een garage of een parkeerplaats zijn. De privé-gedeelten zijn dus niet altijd woongedeelten. Een splitsing in appartementsrechten komt tot stand door inschrijving van een notariële akte van splitsing bij het kadaster. Elke splitsing in appartementsrechten kent een Vereniging van Eigenaren (VVE). Een splitsing in appartementsrechten kan worden gewijzigd. Ook kan binnen een bestaande splitsing een appartementsrecht worden ondergesplitst, d.w.z. een splitsing binnen een splitsing. Tenslotte kan een splitsing in appartementsrechten weer worden opgeheven. Voor al de genoemde rechtshandelingen is een notariële akte nodig die in de Openbare Registers moet worden ingeschreven. Zie voor de wettelijke regeling van appartementsrechten Boek 5 Burgerlijk Wetboek.<br>#NOTES#Een aandeel in een recht op een gebouw en daarmee onlosmakelijk verbonden het uitsluitend gebruiksrecht van een bepaald privé-gedeelte in dat gebouw. Dat kan ook een garage of een parkeerplaats zijn. De privé-gedeelten zijn dus niet altijd woongedeelten. Een splitsing in appartementsrechten komt tot stand door inschrijving van een notariële akte van splitsing bij het kadaster. Elke splitsing in appartementsrechten kent een Vereniging van Eigenaren (VVE). Een splitsing in appartementsrechten kan worden gewijzigd. Ook kan binnen een bestaande splitsing een appartementsrecht worden ondergesplitst, d.w.z. een splitsing binnen een splitsing. Tenslotte kan een splitsing in appartementsrechten weer worden opgeheven. Voor al de genoemde rechtshandelingen is een notariële akte nodig die in de Openbare Registers moet worden ingeschreven. Zie voor de wettelijke regeling van appartementsrechten Boek 5 Burgerlijk Wetboek.<br>#NOTES#Een aandeel in een recht op een gebouw en daarmee onlosmakelijk verbonden het uitsluitend gebruiksrecht van een bepaald privé-gedeelte in dat gebouw. Dat kan ook een garage of een parkeerplaats zijn. De privé-gedeelten zijn dus niet altijd woongedeelten. Een splitsing in appartementsrechten komt tot stand door inschrijving van een notariële akte van splitsing bij het kadaster. Elke splitsing in appartementsrechten kent een Vereniging van Eigenaren (VVE). Een splitsing in appartementsrechten kan worden gewijzigd. Ook kan binnen een bestaande splitsing een appartementsrecht worden ondergesplitst, d.w.z. een splitsing binnen een splitsing. Tenslotte kan een splitsing in appartementsrechten weer worden opgeheven. Voor al de genoemde rechtshandelingen is een notariële akte nodig die in de Openbare Registers moet worden ingeschreven. Zie voor de wettelijke regeling van appartementsrechten Boek 5 Burgerlijk Wetboek. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-07-05 15:13:48 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_869E0A04\_A663\_4839\_970D\_7FB82DF6C317 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -349,14 +349,14 @@ Attributen van objecttype Appartementsrecht
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Appartementsrechtsplitsing |
-    | toelichting | Een appartementsrechtsplitsing is een object dat beoogt ten behoeve van een splitsing in appartementsrechten, de in de splitsing betrokken rechten administratief samen te voegen. De appartementsrechtsplitsing omvat het geheel van rechten op een of meer kadastrale objecten dat is (onder) gesplitst in appartementsrechten. Een appartementsrechtsplitsing is een hoofdsplitsing of een ondersplitsing of een splitsingafkooperfpacht.#NOTES#Een appartementsrechtsplitsing is een object dat beoogt ten behoeve van een splitsing in appartementsrechten, de in de splitsing betrokken rechten administratief samen te voegen. De appartementsrechtsplitsing omvat het geheel van rechten op een of meer kadastrale objecten dat is (onder) gesplitst in appartementsrechten. Een appartementsrechtsplitsing is een hoofdsplitsing of een ondersplitsing of een splitsingafkooperfpacht.#NOTES#Een appartementsrechtsplitsing is een object dat beoogt ten behoeve van een splitsing in appartementsrechten, de in de splitsing betrokken rechten administratief samen te voegen. De appartementsrechtsplitsing omvat het geheel van rechten op een of meer kadastrale objecten dat is (onder) gesplitst in appartementsrechten. Een appartementsrechtsplitsing is een hoofdsplitsing of een ondersplitsing of een splitsingafkooperfpacht. |
+    | toelichting | Een appartementsrechtsplitsing is een object dat beoogt ten behoeve van een splitsing in appartementsrechten, de in de splitsing betrokken rechten administratief samen te voegen. De appartementsrechtsplitsing omvat het geheel van rechten op een of meer kadastrale objecten dat is (onder) gesplitst in appartementsrechten. Een appartementsrechtsplitsing is een hoofdsplitsing of een ondersplitsing of een splitsingafkooperfpacht.#NOTES#Een appartementsrechtsplitsing is een object dat beoogt ten behoeve van een splitsing in appartementsrechten, de in de splitsing betrokken rechten administratief samen te voegen. De appartementsrechtsplitsing omvat het geheel van rechten op een of meer kadastrale objecten dat is (onder) gesplitst in appartementsrechten. Een appartementsrechtsplitsing is een hoofdsplitsing of een ondersplitsing of een splitsingafkooperfpacht.#NOTES#Een appartementsrechtsplitsing is een object dat beoogt ten behoeve van een splitsing in appartementsrechten, de in de splitsing betrokken rechten administratief samen te voegen. De appartementsrechtsplitsing omvat het geheel van rechten op een of meer kadastrale objecten dat is (onder) gesplitst in appartementsrechten. Een appartementsrechtsplitsing is een hoofdsplitsing of een ondersplitsing of een splitsingafkooperfpacht.#NOTES#Een appartementsrechtsplitsing is een object dat beoogt ten behoeve van een splitsing in appartementsrechten, de in de splitsing betrokken rechten administratief samen te voegen. De appartementsrechtsplitsing omvat het geheel van rechten op een of meer kadastrale objecten dat is (onder) gesplitst in appartementsrechten. Een appartementsrechtsplitsing is een hoofdsplitsing of een ondersplitsing of een splitsingafkooperfpacht. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | debat\_e |
     | version | 1.12.0 |
     | created | 2013-10-14 14:33:29 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_C1542AC8\_2F3C\_4e62\_ADFA\_A9FB3358DAB1 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -386,14 +386,14 @@ Attributen van objecttype Appartementsrechtsplitsing
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | BegroeidTerreindeel |
-    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype BEGROEID TERREINDEEL is het equivalent van het city gml objecttype PLANTCOVER.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype BEGROEID TERREINDEEL is het equivalent van het city gml objecttype PLANTCOVER.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype BEGROEID TERREINDEEL is het equivalent van het city gml objecttype PLANTCOVER. |
+    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype BEGROEID TERREINDEEL is het equivalent van het city gml objecttype PLANTCOVER.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype BEGROEID TERREINDEEL is het equivalent van het city gml objecttype PLANTCOVER.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype BEGROEID TERREINDEEL is het equivalent van het city gml objecttype PLANTCOVER.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype BEGROEID TERREINDEEL is het equivalent van het city gml objecttype PLANTCOVER.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype BEGROEID TERREINDEEL is het equivalent van het city gml objecttype PLANTCOVER. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Ellen Debats |
     | version | 1.12.0 |
     | created | 2010-07-06 13:50:53 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_D872C213\_09D7\_4dca\_A020\_EA363480FC7D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -416,7 +416,7 @@ Attributen van objecttype BegroeidTerreindeel
 | kruinlijngeometrieBegroeidTerreindeel | Curve | Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling. |
 | geometrieBegroeidTerreindeel | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een begroeid terreindeel. |
 | LOD0GeometrieBegroeidTerreindeel | MultiSurface | De geometrische representatie van een begroeid terreindeel als multivlak in 2.5D op level of detail 0. |
-| begroeidTerreindeelOpTalud | INDIC | Indicatie of het object wel of niet op een hellend vlak ligt. |
+| begroeidTerreindeelOpTalud | Boolean | Indicatie of het object wel of niet op een hellend vlak ligt. |
 | datumBeginGeldigheidBegroeidTerreindeel | DATUM | De datum waarop het begroeid terreindeel is ontstaan. |
 | datumEindeGeldigheidBegroeidTerreindeel | DATUM | De datum waarop het begroeid terreindeel ongeldig is geworden. |
 
@@ -432,14 +432,14 @@ Attributen van objecttype BegroeidTerreindeel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Gebied |
-    | toelichting | #NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten.#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten.#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten. |
+    | toelichting | #NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten.#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten.#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten.#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten.#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-12-18 14:57:13 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_5835F691\_4452\_44de\_A1E9\_07088AC16D69 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -474,14 +474,14 @@ Attributen van objecttype Gebied
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | FunctioneelGebied |
-    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype FUNCTIONEEL GEBIED is een specialisatie van het city gml objecttype LANDUSE. Zie verder BGT.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype FUNCTIONEEL GEBIED is een specialisatie van het city gml objecttype LANDUSE. Zie verder BGT.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype FUNCTIONEEL GEBIED is een specialisatie van het city gml objecttype LANDUSE. Zie verder BGT. |
+    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype FUNCTIONEEL GEBIED is een specialisatie van het city gml objecttype LANDUSE. Zie verder BGT.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype FUNCTIONEEL GEBIED is een specialisatie van het city gml objecttype LANDUSE. Zie verder BGT.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype FUNCTIONEEL GEBIED is een specialisatie van het city gml objecttype LANDUSE. Zie verder BGT.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype FUNCTIONEEL GEBIED is een specialisatie van het city gml objecttype LANDUSE. Zie verder BGT.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype FUNCTIONEEL GEBIED is een specialisatie van het city gml objecttype LANDUSE. Zie verder BGT. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Ellen Debats |
     | version | 1.12.0 |
     | created | 2011-12-15 12:04:13 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_B8F44180\_1F2A\_4bbc\_8E17\_6C472111A92B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -515,14 +515,14 @@ Attributen van objecttype FunctioneelGebied
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Gebouwinstallatie |
-    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype GEBOUWINSTALLATIE is het equivalent van het city gml objecttype BUILDINGINSTALLATION.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype GEBOUWINSTALLATIE is het equivalent van het city gml objecttype BUILDINGINSTALLATION.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype GEBOUWINSTALLATIE is het equivalent van het city gml objecttype BUILDINGINSTALLATION. |
+    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype GEBOUWINSTALLATIE is het equivalent van het city gml objecttype BUILDINGINSTALLATION.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype GEBOUWINSTALLATIE is het equivalent van het city gml objecttype BUILDINGINSTALLATION.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype GEBOUWINSTALLATIE is het equivalent van het city gml objecttype BUILDINGINSTALLATION.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype GEBOUWINSTALLATIE is het equivalent van het city gml objecttype BUILDINGINSTALLATION.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype GEBOUWINSTALLATIE is het equivalent van het city gml objecttype BUILDINGINSTALLATION. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | debat\_e |
     | version | 1.12.0 |
     | created | 2011-09-05 08:47:51 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_6FDC646C\_F9E2\_4610\_8FFE\_1ECFA99FFBD7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -601,14 +601,14 @@ Attributen van objecttype Huishouden
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Inrichtingselement |
-    | toelichting | #NOTES#Inrichtingselementen vormen een diverse klasse. Het zijn objecten die niet zozeer op basis van fysiek voorkomen of hun gebruiksfunctie bij elkaar horen, maar op basis van hun eigenschap dat ze andere objecten inrichten.<br>Het zijn objecten die een relatief kleine geometrie hebben.<br>In het voorliggende model zijn de subklassen / specialisaties van INRICHTINGSELEMENT niet als afzonderlijke objecttypen gemodelleerd. De subklasse / specialisatie is te herkennen aan de attribuutsoort ‘Type inrichtingselement’.<br>Objecttype INRICHITNGSELEMENT is een specialisatie van het city gml objecttype CITYFURNITURE.<br>Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.#NOTES#Inrichtingselementen vormen een diverse klasse. Het zijn objecten die niet zozeer op basis van fysiek voorkomen of hun gebruiksfunctie bij elkaar horen, maar op basis van hun eigenschap dat ze andere objecten inrichten.<br>Het zijn objecten die een relatief kleine geometrie hebben.<br>In het voorliggende model zijn de subklassen / specialisaties van INRICHTINGSELEMENT niet als afzonderlijke objecttypen gemodelleerd. De subklasse / specialisatie is te herkennen aan de attribuutsoort ‘Type inrichtingselement’.<br>Objecttype INRICHITNGSELEMENT is een specialisatie van het city gml objecttype CITYFURNITURE.<br>Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.#NOTES#Inrichtingselementen vormen een diverse klasse. Het zijn objecten die niet zozeer op basis van fysiek voorkomen of hun gebruiksfunctie bij elkaar horen, maar op basis van hun eigenschap dat ze andere objecten inrichten.<br>Het zijn objecten die een relatief kleine geometrie hebben.<br>In het voorliggende model zijn de subklassen / specialisaties van INRICHTINGSELEMENT niet als afzonderlijke objecttypen gemodelleerd. De subklasse / specialisatie is te herkennen aan de attribuutsoort ‘Type inrichtingselement’.<br>Objecttype INRICHITNGSELEMENT is een specialisatie van het city gml objecttype CITYFURNITURE.<br>Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo. |
+    | toelichting | #NOTES#Inrichtingselementen vormen een diverse klasse. Het zijn objecten die niet zozeer op basis van fysiek voorkomen of hun gebruiksfunctie bij elkaar horen, maar op basis van hun eigenschap dat ze andere objecten inrichten.<br>Het zijn objecten die een relatief kleine geometrie hebben.<br>In het voorliggende model zijn de subklassen / specialisaties van INRICHTINGSELEMENT niet als afzonderlijke objecttypen gemodelleerd. De subklasse / specialisatie is te herkennen aan de attribuutsoort ‘Type inrichtingselement’.<br>Objecttype INRICHITNGSELEMENT is een specialisatie van het city gml objecttype CITYFURNITURE.<br>Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.#NOTES#Inrichtingselementen vormen een diverse klasse. Het zijn objecten die niet zozeer op basis van fysiek voorkomen of hun gebruiksfunctie bij elkaar horen, maar op basis van hun eigenschap dat ze andere objecten inrichten.<br>Het zijn objecten die een relatief kleine geometrie hebben.<br>In het voorliggende model zijn de subklassen / specialisaties van INRICHTINGSELEMENT niet als afzonderlijke objecttypen gemodelleerd. De subklasse / specialisatie is te herkennen aan de attribuutsoort ‘Type inrichtingselement’.<br>Objecttype INRICHITNGSELEMENT is een specialisatie van het city gml objecttype CITYFURNITURE.<br>Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.#NOTES#Inrichtingselementen vormen een diverse klasse. Het zijn objecten die niet zozeer op basis van fysiek voorkomen of hun gebruiksfunctie bij elkaar horen, maar op basis van hun eigenschap dat ze andere objecten inrichten.<br>Het zijn objecten die een relatief kleine geometrie hebben.<br>In het voorliggende model zijn de subklassen / specialisaties van INRICHTINGSELEMENT niet als afzonderlijke objecttypen gemodelleerd. De subklasse / specialisatie is te herkennen aan de attribuutsoort ‘Type inrichtingselement’.<br>Objecttype INRICHITNGSELEMENT is een specialisatie van het city gml objecttype CITYFURNITURE.<br>Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.#NOTES#Inrichtingselementen vormen een diverse klasse. Het zijn objecten die niet zozeer op basis van fysiek voorkomen of hun gebruiksfunctie bij elkaar horen, maar op basis van hun eigenschap dat ze andere objecten inrichten.<br>Het zijn objecten die een relatief kleine geometrie hebben.<br>In het voorliggende model zijn de subklassen / specialisaties van INRICHTINGSELEMENT niet als afzonderlijke objecttypen gemodelleerd. De subklasse / specialisatie is te herkennen aan de attribuutsoort ‘Type inrichtingselement’.<br>Objecttype INRICHITNGSELEMENT is een specialisatie van het city gml objecttype CITYFURNITURE.<br>Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.#NOTES#Inrichtingselementen vormen een diverse klasse. Het zijn objecten die niet zozeer op basis van fysiek voorkomen of hun gebruiksfunctie bij elkaar horen, maar op basis van hun eigenschap dat ze andere objecten inrichten.<br>Het zijn objecten die een relatief kleine geometrie hebben.<br>In het voorliggende model zijn de subklassen / specialisaties van INRICHTINGSELEMENT niet als afzonderlijke objecttypen gemodelleerd. De subklasse / specialisatie is te herkennen aan de attribuutsoort ‘Type inrichtingselement’.<br>Objecttype INRICHITNGSELEMENT is een specialisatie van het city gml objecttype CITYFURNITURE.<br>Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Ellen Debats |
     | version | 1.12.0 |
     | created | 2012-05-15 08:29:10 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_4DA0EB59\_963C\_4558\_B763\_44F542BC8D89 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -645,14 +645,14 @@ Attributen van objecttype Inrichtingselement
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | KadastraalPerceel |
-    | toelichting | Een KADASTRAAL PERCEEL behoort tezamen met het APPARTEMENTSRECHT tot de generalisatie KADASTRALE ONROERENDE ZAAK.<br>Percelen worden cartografisch gerepresenteerd door een tweedimensionale vlakbegrenzing. Tussen alle kadastrale percelen in Nederland geldt een topologische relatie (opdelende vlakstructuur), d.w.z. dat naburige perceelsvlakken naadloos moeten aansluiten en elkaar niet mogen overlappen.<br>#NOTES#Een KADASTRAAL PERCEEL behoort tezamen met het APPARTEMENTSRECHT tot de generalisatie KADASTRALE ONROERENDE ZAAK.<br>Percelen worden cartografisch gerepresenteerd door een tweedimensionale vlakbegrenzing. Tussen alle kadastrale percelen in Nederland geldt een topologische relatie (opdelende vlakstructuur), d.w.z. dat naburige perceelsvlakken naadloos moeten aansluiten en elkaar niet mogen overlappen.<br>#NOTES#Een KADASTRAAL PERCEEL behoort tezamen met het APPARTEMENTSRECHT tot de generalisatie KADASTRALE ONROERENDE ZAAK.<br>Percelen worden cartografisch gerepresenteerd door een tweedimensionale vlakbegrenzing. Tussen alle kadastrale percelen in Nederland geldt een topologische relatie (opdelende vlakstructuur), d.w.z. dat naburige perceelsvlakken naadloos moeten aansluiten en elkaar niet mogen overlappen. |
+    | toelichting | Een KADASTRAAL PERCEEL behoort tezamen met het APPARTEMENTSRECHT tot de generalisatie KADASTRALE ONROERENDE ZAAK.<br>Percelen worden cartografisch gerepresenteerd door een tweedimensionale vlakbegrenzing. Tussen alle kadastrale percelen in Nederland geldt een topologische relatie (opdelende vlakstructuur), d.w.z. dat naburige perceelsvlakken naadloos moeten aansluiten en elkaar niet mogen overlappen.<br>#NOTES#Een KADASTRAAL PERCEEL behoort tezamen met het APPARTEMENTSRECHT tot de generalisatie KADASTRALE ONROERENDE ZAAK.<br>Percelen worden cartografisch gerepresenteerd door een tweedimensionale vlakbegrenzing. Tussen alle kadastrale percelen in Nederland geldt een topologische relatie (opdelende vlakstructuur), d.w.z. dat naburige perceelsvlakken naadloos moeten aansluiten en elkaar niet mogen overlappen.<br>#NOTES#Een KADASTRAAL PERCEEL behoort tezamen met het APPARTEMENTSRECHT tot de generalisatie KADASTRALE ONROERENDE ZAAK.<br>Percelen worden cartografisch gerepresenteerd door een tweedimensionale vlakbegrenzing. Tussen alle kadastrale percelen in Nederland geldt een topologische relatie (opdelende vlakstructuur), d.w.z. dat naburige perceelsvlakken naadloos moeten aansluiten en elkaar niet mogen overlappen.<br>#NOTES#Een KADASTRAAL PERCEEL behoort tezamen met het APPARTEMENTSRECHT tot de generalisatie KADASTRALE ONROERENDE ZAAK.<br>Percelen worden cartografisch gerepresenteerd door een tweedimensionale vlakbegrenzing. Tussen alle kadastrale percelen in Nederland geldt een topologische relatie (opdelende vlakstructuur), d.w.z. dat naburige perceelsvlakken naadloos moeten aansluiten en elkaar niet mogen overlappen. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-07-05 15:08:37 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_172AFD36\_B400\_4660\_BFAC\_4BBC1077D666 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -668,7 +668,7 @@ Attributen van objecttype KadastraalPerceel
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | begrenzingPerceel | Surface | Het geheel van lijnketens waarmee de vlakomtrek van een perceel wordt gevormd. |
-| indicatieDeelperceel | INDIC | Geeft aan of het een deelperceel betreft. |
+| indicatieDeelperceel | Boolean | Geeft aan of het een deelperceel betreft. |
 | omschrijvingDeelperceel | AN20 | Het in een ter inschrijving aangeboden stuk beschreven tekst, dat een nadere omschrijving geeft van het gekochte deel van een perceel. |
 | groottePerceel | N10.2 | Een door de Dienst op grond van de kadastrale grenzen van een perceel berekende indicatieve grootte van een perceel ten tijde van vorming van dat perceel. |
 | aanduidingSoortGrootte |  | Een aanduiding die voorafgaand aan de meting middels een melding in de aktetekst wordt bepaald en aangeeft of er bij de afsplitsing van een deel van een perceel sprake zal zijn van een vastgestelde grootte, dan wel een indicatieve grootte. |
@@ -686,14 +686,14 @@ Attributen van objecttype KadastraalPerceel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | KadastraleOnroerendeZaak |
-    | toelichting | Zie de catalogus BRK. Daarin is sprake van een ‘onroerende zaak’ zijnde een ‘perceel’, ‘appartementsrecht’ of ‘leidingnetwerk’. Geoordeeld is dat alleen de eerste twee objecttypen zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als KADASTRALE ONROERENDE ZAAK.<br>In de BRK wordt de Kadaster identificatie onroerende zaak (hier: Kadastrale identificatie) als unieke aanduiding beschouwd Aangezien de gegevenslevering door het Kadaster hier nog niet op aangepast is hanteren we vooralsnog de Kadastrale aanduiding als unieke identificatie.<br>In de BRK wordt een relatie naar het adresseerbaar object (verblijfsobject, standplaats of ligplaats) onderkend teneinde via een adres (nummeraanduiding) een kadastraal object te kunnen lokaliseren. Vanwege de uitbreiding in dit model naar gebouwde objecten en benoemde terreinen is deze relatie naar deze beide laatstgenoemde objecttypen gelegd.<br>Niet alle kadastrale objecten komen qua ligging overeen met een gebouwd object of benoemd terrein. In die gevallen opteert de BRK om voor het aanduiden van de globale ligging gebruik te maken van een dichtbijgelegen adres i.c.m. de aanduiding ‘Bij’ of ‘Tegenover’ dan wel een locatieomschrijving met daarin de beschrijving van de locatie, veelal door middel van een woonplaatsnaam en een straatnaam. Beide wijzen van aanduiden van de locatie zijn hier opgenomen in Locatie-omschrijving zodat de relaties naar gebouwde objecten en benoemde terreinen alleen ruimtelijke relaties tussen de objecten betreffen.#NOTES#Zie de catalogus BRK. Daarin is sprake van een ‘onroerende zaak’ zijnde een ‘perceel’, ‘appartementsrecht’ of ‘leidingnetwerk’. Geoordeeld is dat alleen de eerste twee objecttypen zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als KADASTRALE ONROERENDE ZAAK.<br>In de BRK wordt de Kadaster identificatie onroerende zaak (hier: Kadastrale identificatie) als unieke aanduiding beschouwd Aangezien de gegevenslevering door het Kadaster hier nog niet op aangepast is hanteren we vooralsnog de Kadastrale aanduiding als unieke identificatie.<br>In de BRK wordt een relatie naar het adresseerbaar object (verblijfsobject, standplaats of ligplaats) onderkend teneinde via een adres (nummeraanduiding) een kadastraal object te kunnen lokaliseren. Vanwege de uitbreiding in dit model naar gebouwde objecten en benoemde terreinen is deze relatie naar deze beide laatstgenoemde objecttypen gelegd.<br>Niet alle kadastrale objecten komen qua ligging overeen met een gebouwd object of benoemd terrein. In die gevallen opteert de BRK om voor het aanduiden van de globale ligging gebruik te maken van een dichtbijgelegen adres i.c.m. de aanduiding ‘Bij’ of ‘Tegenover’ dan wel een locatieomschrijving met daarin de beschrijving van de locatie, veelal door middel van een woonplaatsnaam en een straatnaam. Beide wijzen van aanduiden van de locatie zijn hier opgenomen in Locatie-omschrijving zodat de relaties naar gebouwde objecten en benoemde terreinen alleen ruimtelijke relaties tussen de objecten betreffen.#NOTES#Zie de catalogus BRK. Daarin is sprake van een ‘onroerende zaak’ zijnde een ‘perceel’, ‘appartementsrecht’ of ‘leidingnetwerk’. Geoordeeld is dat alleen de eerste twee objecttypen zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als KADASTRALE ONROERENDE ZAAK.<br>In de BRK wordt de Kadaster identificatie onroerende zaak (hier: Kadastrale identificatie) als unieke aanduiding beschouwd Aangezien de gegevenslevering door het Kadaster hier nog niet op aangepast is hanteren we vooralsnog de Kadastrale aanduiding als unieke identificatie.<br>In de BRK wordt een relatie naar het adresseerbaar object (verblijfsobject, standplaats of ligplaats) onderkend teneinde via een adres (nummeraanduiding) een kadastraal object te kunnen lokaliseren. Vanwege de uitbreiding in dit model naar gebouwde objecten en benoemde terreinen is deze relatie naar deze beide laatstgenoemde objecttypen gelegd.<br>Niet alle kadastrale objecten komen qua ligging overeen met een gebouwd object of benoemd terrein. In die gevallen opteert de BRK om voor het aanduiden van de globale ligging gebruik te maken van een dichtbijgelegen adres i.c.m. de aanduiding ‘Bij’ of ‘Tegenover’ dan wel een locatieomschrijving met daarin de beschrijving van de locatie, veelal door middel van een woonplaatsnaam en een straatnaam. Beide wijzen van aanduiden van de locatie zijn hier opgenomen in Locatie-omschrijving zodat de relaties naar gebouwde objecten en benoemde terreinen alleen ruimtelijke relaties tussen de objecten betreffen. |
+    | toelichting | Zie de catalogus BRK. Daarin is sprake van een ‘onroerende zaak’ zijnde een ‘perceel’, ‘appartementsrecht’ of ‘leidingnetwerk’. Geoordeeld is dat alleen de eerste twee objecttypen zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als KADASTRALE ONROERENDE ZAAK.<br>In de BRK wordt de Kadaster identificatie onroerende zaak (hier: Kadastrale identificatie) als unieke aanduiding beschouwd Aangezien de gegevenslevering door het Kadaster hier nog niet op aangepast is hanteren we vooralsnog de Kadastrale aanduiding als unieke identificatie.<br>In de BRK wordt een relatie naar het adresseerbaar object (verblijfsobject, standplaats of ligplaats) onderkend teneinde via een adres (nummeraanduiding) een kadastraal object te kunnen lokaliseren. Vanwege de uitbreiding in dit model naar gebouwde objecten en benoemde terreinen is deze relatie naar deze beide laatstgenoemde objecttypen gelegd.<br>Niet alle kadastrale objecten komen qua ligging overeen met een gebouwd object of benoemd terrein. In die gevallen opteert de BRK om voor het aanduiden van de globale ligging gebruik te maken van een dichtbijgelegen adres i.c.m. de aanduiding ‘Bij’ of ‘Tegenover’ dan wel een locatieomschrijving met daarin de beschrijving van de locatie, veelal door middel van een woonplaatsnaam en een straatnaam. Beide wijzen van aanduiden van de locatie zijn hier opgenomen in Locatie-omschrijving zodat de relaties naar gebouwde objecten en benoemde terreinen alleen ruimtelijke relaties tussen de objecten betreffen.#NOTES#Zie de catalogus BRK. Daarin is sprake van een ‘onroerende zaak’ zijnde een ‘perceel’, ‘appartementsrecht’ of ‘leidingnetwerk’. Geoordeeld is dat alleen de eerste twee objecttypen zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als KADASTRALE ONROERENDE ZAAK.<br>In de BRK wordt de Kadaster identificatie onroerende zaak (hier: Kadastrale identificatie) als unieke aanduiding beschouwd Aangezien de gegevenslevering door het Kadaster hier nog niet op aangepast is hanteren we vooralsnog de Kadastrale aanduiding als unieke identificatie.<br>In de BRK wordt een relatie naar het adresseerbaar object (verblijfsobject, standplaats of ligplaats) onderkend teneinde via een adres (nummeraanduiding) een kadastraal object te kunnen lokaliseren. Vanwege de uitbreiding in dit model naar gebouwde objecten en benoemde terreinen is deze relatie naar deze beide laatstgenoemde objecttypen gelegd.<br>Niet alle kadastrale objecten komen qua ligging overeen met een gebouwd object of benoemd terrein. In die gevallen opteert de BRK om voor het aanduiden van de globale ligging gebruik te maken van een dichtbijgelegen adres i.c.m. de aanduiding ‘Bij’ of ‘Tegenover’ dan wel een locatieomschrijving met daarin de beschrijving van de locatie, veelal door middel van een woonplaatsnaam en een straatnaam. Beide wijzen van aanduiden van de locatie zijn hier opgenomen in Locatie-omschrijving zodat de relaties naar gebouwde objecten en benoemde terreinen alleen ruimtelijke relaties tussen de objecten betreffen.#NOTES#Zie de catalogus BRK. Daarin is sprake van een ‘onroerende zaak’ zijnde een ‘perceel’, ‘appartementsrecht’ of ‘leidingnetwerk’. Geoordeeld is dat alleen de eerste twee objecttypen zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als KADASTRALE ONROERENDE ZAAK.<br>In de BRK wordt de Kadaster identificatie onroerende zaak (hier: Kadastrale identificatie) als unieke aanduiding beschouwd Aangezien de gegevenslevering door het Kadaster hier nog niet op aangepast is hanteren we vooralsnog de Kadastrale aanduiding als unieke identificatie.<br>In de BRK wordt een relatie naar het adresseerbaar object (verblijfsobject, standplaats of ligplaats) onderkend teneinde via een adres (nummeraanduiding) een kadastraal object te kunnen lokaliseren. Vanwege de uitbreiding in dit model naar gebouwde objecten en benoemde terreinen is deze relatie naar deze beide laatstgenoemde objecttypen gelegd.<br>Niet alle kadastrale objecten komen qua ligging overeen met een gebouwd object of benoemd terrein. In die gevallen opteert de BRK om voor het aanduiden van de globale ligging gebruik te maken van een dichtbijgelegen adres i.c.m. de aanduiding ‘Bij’ of ‘Tegenover’ dan wel een locatieomschrijving met daarin de beschrijving van de locatie, veelal door middel van een woonplaatsnaam en een straatnaam. Beide wijzen van aanduiden van de locatie zijn hier opgenomen in Locatie-omschrijving zodat de relaties naar gebouwde objecten en benoemde terreinen alleen ruimtelijke relaties tussen de objecten betreffen.#NOTES#Zie de catalogus BRK. Daarin is sprake van een ‘onroerende zaak’ zijnde een ‘perceel’, ‘appartementsrecht’ of ‘leidingnetwerk’. Geoordeeld is dat alleen de eerste twee objecttypen zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als KADASTRALE ONROERENDE ZAAK.<br>In de BRK wordt de Kadaster identificatie onroerende zaak (hier: Kadastrale identificatie) als unieke aanduiding beschouwd Aangezien de gegevenslevering door het Kadaster hier nog niet op aangepast is hanteren we vooralsnog de Kadastrale aanduiding als unieke identificatie.<br>In de BRK wordt een relatie naar het adresseerbaar object (verblijfsobject, standplaats of ligplaats) onderkend teneinde via een adres (nummeraanduiding) een kadastraal object te kunnen lokaliseren. Vanwege de uitbreiding in dit model naar gebouwde objecten en benoemde terreinen is deze relatie naar deze beide laatstgenoemde objecttypen gelegd.<br>Niet alle kadastrale objecten komen qua ligging overeen met een gebouwd object of benoemd terrein. In die gevallen opteert de BRK om voor het aanduiden van de globale ligging gebruik te maken van een dichtbijgelegen adres i.c.m. de aanduiding ‘Bij’ of ‘Tegenover’ dan wel een locatieomschrijving met daarin de beschrijving van de locatie, veelal door middel van een woonplaatsnaam en een straatnaam. Beide wijzen van aanduiden van de locatie zijn hier opgenomen in Locatie-omschrijving zodat de relaties naar gebouwde objecten en benoemde terreinen alleen ruimtelijke relaties tussen de objecten betreffen. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-07-05 15:03:38 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_9775E778\_DBF8\_4122\_94CE\_551466B62F46 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -799,14 +799,14 @@ Attributen van objecttype IngeschrevenPersoon
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | KadastraleOnroerendeZaakAantekening |
-    | toelichting | Toegevoegd ten opzichte van de BRK is de begindatum. Aangezien een aantekening niet gewijzigd kan worden, bepaalt de begin- en einddatum de materiele historie van alle attribuutsoortensoorten. Deze hebben dan ook materiele historie ‘Nee’ gekregen.<br>Zie verder de catalogus BRK<br>#NOTES#Toegevoegd ten opzichte van de BRK is de begindatum. Aangezien een aantekening niet gewijzigd kan worden, bepaalt de begin- en einddatum de materiele historie van alle attribuutsoortensoorten. Deze hebben dan ook materiele historie ‘Nee’ gekregen.<br>Zie verder de catalogus BRK<br>#NOTES#Toegevoegd ten opzichte van de BRK is de begindatum. Aangezien een aantekening niet gewijzigd kan worden, bepaalt de begin- en einddatum de materiele historie van alle attribuutsoortensoorten. Deze hebben dan ook materiele historie ‘Nee’ gekregen.<br>Zie verder de catalogus BRK |
+    | toelichting | Toegevoegd ten opzichte van de BRK is de begindatum. Aangezien een aantekening niet gewijzigd kan worden, bepaalt de begin- en einddatum de materiele historie van alle attribuutsoortensoorten. Deze hebben dan ook materiele historie ‘Nee’ gekregen.<br>Zie verder de catalogus BRK<br>#NOTES#Toegevoegd ten opzichte van de BRK is de begindatum. Aangezien een aantekening niet gewijzigd kan worden, bepaalt de begin- en einddatum de materiele historie van alle attribuutsoortensoorten. Deze hebben dan ook materiele historie ‘Nee’ gekregen.<br>Zie verder de catalogus BRK<br>#NOTES#Toegevoegd ten opzichte van de BRK is de begindatum. Aangezien een aantekening niet gewijzigd kan worden, bepaalt de begin- en einddatum de materiele historie van alle attribuutsoortensoorten. Deze hebben dan ook materiele historie ‘Nee’ gekregen.<br>Zie verder de catalogus BRK<br>#NOTES#Toegevoegd ten opzichte van de BRK is de begindatum. Aangezien een aantekening niet gewijzigd kan worden, bepaalt de begin- en einddatum de materiele historie van alle attribuutsoortensoorten. Deze hebben dan ook materiele historie ‘Nee’ gekregen.<br>Zie verder de catalogus BRK |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-07-06 10:26:17 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_0BC18F79\_3560\_4e43\_8154\_7CCDC7D67A03 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -882,14 +882,14 @@ Attributen van objecttype Ingezetene
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Kunstwerkdeel |
-    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo. |
+    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-07-06 13:21:25 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_2EC96974\_F21E\_4bdb\_AF4D\_30D7091F5645 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -927,14 +927,14 @@ Attributen van objecttype Kunstwerkdeel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | MaatschappelijkeActiviteit |
-    | toelichting | #NOTES#De maatschappelijke activiteit is het totaal van alle activiteiten uitgeoefend door een natuurlijk persoon of een niet-natuurlijk persoon. Een maatschappelijke activiteit kan ook als onderneming voorkomen.#NOTES#De maatschappelijke activiteit is het totaal van alle activiteiten uitgeoefend door een natuurlijk persoon of een niet-natuurlijk persoon. Een maatschappelijke activiteit kan ook als onderneming voorkomen. |
+    | toelichting | #NOTES#De maatschappelijke activiteit is het totaal van alle activiteiten uitgeoefend door een natuurlijk persoon of een niet-natuurlijk persoon. Een maatschappelijke activiteit kan ook als onderneming voorkomen.#NOTES#De maatschappelijke activiteit is het totaal van alle activiteiten uitgeoefend door een natuurlijk persoon of een niet-natuurlijk persoon. Een maatschappelijke activiteit kan ook als onderneming voorkomen.#NOTES#De maatschappelijke activiteit is het totaal van alle activiteiten uitgeoefend door een natuurlijk persoon of een niet-natuurlijk persoon. Een maatschappelijke activiteit kan ook als onderneming voorkomen. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-07-06 11:43:52 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_3DC85114\_5C3F\_4930\_B98B\_6EB6ED71FC2E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -952,7 +952,7 @@ Attributen van objecttype MaatschappelijkeActiviteit
 | KVKnummer | AN8 | Landelijk uniek identificerend administratienummer van een MAATSCHAPPELIJKE ACTIVITEIT zoals toegewezen door de Kamer van Koophandel (KvK). |
 | datumAanvang | Date | De datum van aanvang van de MAATSCHAPPELIJKE ACTIVITEIT |
 | datumEindeGeldig | Date | De datum van beëindiging van de MAATSCHAPPELIJKE ACTIVITEIT |
-| indicatieEconomischActief | INDIC | Aanduiding of de maatschappelijke activiteit zich als onderneming manifesteert. |
+| indicatieEconomischActief | Boolean | Aanduiding of de maatschappelijke activiteit zich als onderneming manifesteert. |
 | statutaireNaam | AN100 |  |
 | rechtsvorm | AN100 |  |
 | URL | AN100 |  |
@@ -974,14 +974,14 @@ Attributen van objecttype MaatschappelijkeActiviteit
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OnbegroeidTerreindeel |
-    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype ONBEGROEID TERREINDEEL is een specialisatie van het city gml objecttype LANDUSE.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype ONBEGROEID TERREINDEEL is een specialisatie van het city gml objecttype LANDUSE.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype ONBEGROEID TERREINDEEL is een specialisatie van het city gml objecttype LANDUSE. |
+    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype ONBEGROEID TERREINDEEL is een specialisatie van het city gml objecttype LANDUSE.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype ONBEGROEID TERREINDEEL is een specialisatie van het city gml objecttype LANDUSE.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype ONBEGROEID TERREINDEEL is een specialisatie van het city gml objecttype LANDUSE.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype ONBEGROEID TERREINDEEL is een specialisatie van het city gml objecttype LANDUSE.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype ONBEGROEID TERREINDEEL is een specialisatie van het city gml objecttype LANDUSE. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2011-08-30 15:04:02 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_C32F1546\_F793\_4f13\_91A4\_2047E6DE6E91 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1003,7 +1003,7 @@ Attributen van objecttype OnbegroeidTerreindeel
 | plusFysiekVoorkomenOnbegroeidTerreindeel | Enumeratie: "fysiekVoorkomenOnbegroeidTerreinPlus" | Nadere classificatie van het soort terrein, ingedeeld naar de uiterlijke<br>verschijningsvorm. |
 | geometrieOnbegroeidTerreindeel | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een onbegroeid terreindeel. |
 | kruinlijngeometrieOnbegroeidTerreindeel | Curve | Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling. |
-| onbegroeidTerreindeelOpTalud | INDIC | Indicatie of het object wel of niet op een hellend vlak ligt. |
+| onbegroeidTerreindeelOpTalud | Boolean | Indicatie of het object wel of niet op een hellend vlak ligt. |
 | datumBeginGeldigheidOnbegroeidTerreindeel | DATUM | De datum waarop het onbegroeid terreindeel is ontstaan. |
 | datumEindeGeldigheidOnbegroeidTerreindeel | DATUM | De datum waarop het onbegroeid terreindeel ongeldig is geworden. |
 
@@ -1019,14 +1019,14 @@ Attributen van objecttype OnbegroeidTerreindeel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OndersteunendWaterdeel |
-    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>ONDERSTEUNEND WATEREEL is een specialisatie van het city gml objecttype WATERBODY.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>ONDERSTEUNEND WATEREEL is een specialisatie van het city gml objecttype WATERBODY.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>ONDERSTEUNEND WATEREEL is een specialisatie van het city gml objecttype WATERBODY. |
+    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>ONDERSTEUNEND WATEREEL is een specialisatie van het city gml objecttype WATERBODY.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>ONDERSTEUNEND WATEREEL is een specialisatie van het city gml objecttype WATERBODY.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>ONDERSTEUNEND WATEREEL is een specialisatie van het city gml objecttype WATERBODY.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>ONDERSTEUNEND WATEREEL is een specialisatie van het city gml objecttype WATERBODY.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>ONDERSTEUNEND WATEREEL is een specialisatie van het city gml objecttype WATERBODY. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Debat\_E |
     | version | 1.12.0 |
     | created | 2012-02-23 11:34:38 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_7B92809F\_CFAE\_4be8\_BE3A\_4E4B94E83F52 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1062,14 +1062,14 @@ Attributen van objecttype OndersteunendWaterdeel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OndersteunendWegdeel |
-    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>ONDERSTEUNEND WEGDEEL is het equivalent van het city gml objecttype AUXILIARY TRAFFIC AREA<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>ONDERSTEUNEND WEGDEEL is het equivalent van het city gml objecttype AUXILIARY TRAFFIC AREA<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>ONDERSTEUNEND WEGDEEL is het equivalent van het city gml objecttype AUXILIARY TRAFFIC AREA |
+    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>ONDERSTEUNEND WEGDEEL is het equivalent van het city gml objecttype AUXILIARY TRAFFIC AREA<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>ONDERSTEUNEND WEGDEEL is het equivalent van het city gml objecttype AUXILIARY TRAFFIC AREA<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>ONDERSTEUNEND WEGDEEL is het equivalent van het city gml objecttype AUXILIARY TRAFFIC AREA<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>ONDERSTEUNEND WEGDEEL is het equivalent van het city gml objecttype AUXILIARY TRAFFIC AREA<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>ONDERSTEUNEND WEGDEEL is het equivalent van het city gml objecttype AUXILIARY TRAFFIC AREA |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2011-09-01 09:13:19 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_F55A5977\_7E3B\_4cf4\_B8D1\_CFCEECA0DEA1 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1094,7 +1094,7 @@ Attributen van objecttype OndersteunendWegdeel
 | plusFunctieOndersteunendWegdeel | Enumeratie: "functieOndersteunendWegdeelPlus" | Specificatie van het soort ondersteunend wegdeel, nadere classificatie. |
 | fysiekVoorkomenOndersteunendWegdeel  | Enumeratie: "fysiekVoorkomenOndersteunendWegdeel" | Mate waarin het ondersteunend wegdeel al of niet verhard is. |
 | plusFysiekVoorkomenOndersteunendWegdeel | Enumeratie: "fysiekVoorkomenOndersteunendWegdeelPlus" | , nadere classificatie. |
-| ondersteunendWegdeelOpTalud | INDIC | Indicatie of het object wel of niet op een hellend vlak ligt. |
+| ondersteunendWegdeelOpTalud | Boolean | Indicatie of het object wel of niet op een hellend vlak ligt. |
 | datumBeginGeldigheidOndersteunendWegdeel | DATUM | De datum waarop het ondersteunend wegdeel is ontstaan. |
 | datumEindeGeldigheidOndersteunendWegdeel | DATUM | De datum waarop het ondersteunend wegdeel ongeldig is geworden. |
 
@@ -1110,14 +1110,14 @@ Attributen van objecttype OndersteunendWegdeel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Overbruggingsdeel |
-    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te ledien dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype OVERBRUGGINGSDEEL is het equivalent van het city gml objecttype BRIDGE CONSTRUCTION ELEMENT<br>Zie verder het BGT.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te ledien dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype OVERBRUGGINGSDEEL is het equivalent van het city gml objecttype BRIDGE CONSTRUCTION ELEMENT<br>Zie verder het BGT.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te ledien dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype OVERBRUGGINGSDEEL is het equivalent van het city gml objecttype BRIDGE CONSTRUCTION ELEMENT<br>Zie verder het BGT. |
+    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te ledien dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype OVERBRUGGINGSDEEL is het equivalent van het city gml objecttype BRIDGE CONSTRUCTION ELEMENT<br>Zie verder het BGT.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te ledien dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype OVERBRUGGINGSDEEL is het equivalent van het city gml objecttype BRIDGE CONSTRUCTION ELEMENT<br>Zie verder het BGT.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te ledien dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype OVERBRUGGINGSDEEL is het equivalent van het city gml objecttype BRIDGE CONSTRUCTION ELEMENT<br>Zie verder het BGT.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te ledien dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype OVERBRUGGINGSDEEL is het equivalent van het city gml objecttype BRIDGE CONSTRUCTION ELEMENT<br>Zie verder het BGT.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te ledien dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype OVERBRUGGINGSDEEL is het equivalent van het city gml objecttype BRIDGE CONSTRUCTION ELEMENT<br>Zie verder het BGT. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Debat\_E |
     | version | 1.12.0 |
     | created | 2012-02-23 13:02:34 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_2E45A5F3\_A685\_48c5\_98D4\_794BE382891E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1137,7 +1137,7 @@ Attributen van objecttype Overbruggingsdeel
 | relatieveHoogteliggingOverbruggingsdeel | N2 | Aanduiding voor de relatieve hoogte van de overbruggingsdeel. |
 | typeOverbruggingsdeel | Enumeratie: "typeringOverbruggingsdeel" | Het soort onderdeel van de brugconstructie. |
 | hoortBijTypeOverbrugging | Enumeratie: "typeOverbrugging" | Nadere classificatie van de overbrugging waar het overbruggingsdeel een onderdeel van is. |
-| overbruggingIsBeweegbaar | INDIC | Aanduiding of de brug waar het overbruggingsdeel bij hoort al dan niet beweegbaar is. |
+| overbruggingIsBeweegbaar |  | Aanduiding of de brug waar het overbruggingsdeel bij hoort al dan niet beweegbaar is. |
 | geometrieOverbruggingsdeel | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een overbruggingsdeel. |
 | LOD0GeometrieOverbruggingsdeel | Surface | De geometrische representatie van een overbruggingsdeel als vlak in 2.5D op level of detail 0. |
 | datumBeginGeldigheidOverbruggingsdeel | DATUM | De datum waarop de overbruggingsdeel is ontstaan. |
@@ -1155,14 +1155,14 @@ Attributen van objecttype Overbruggingsdeel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OverigBenoemdTerrein |
-    | toelichting | #NOTES#Een overig benoemd terrein is bedoeld om, naast stand- en ligplaatsen, terreinen te kunnen registreren waaraan de gemeente een weliswaar officieel maar niet authentiek adres wil toekennen. Het gaat om terreinen zoals autosloperijen, volkstuincomplexen en sportvelden (zonder opstallen). Overige benoemde terreinen worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij om terreinen met een verblijfsfunctie, naar analogie van de stand- en ligplaatsen, zijnde geen stand- en ligplaatsen en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is.<br>#NOTES#Een overig benoemd terrein is bedoeld om, naast stand- en ligplaatsen, terreinen te kunnen registreren waaraan de gemeente een weliswaar officieel maar niet authentiek adres wil toekennen. Het gaat om terreinen zoals autosloperijen, volkstuincomplexen en sportvelden (zonder opstallen). Overige benoemde terreinen worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij om terreinen met een verblijfsfunctie, naar analogie van de stand- en ligplaatsen, zijnde geen stand- en ligplaatsen en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is.<br>#NOTES#Een overig benoemd terrein is bedoeld om, naast stand- en ligplaatsen, terreinen te kunnen registreren waaraan de gemeente een weliswaar officieel maar niet authentiek adres wil toekennen. Het gaat om terreinen zoals autosloperijen, volkstuincomplexen en sportvelden (zonder opstallen). Overige benoemde terreinen worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij om terreinen met een verblijfsfunctie, naar analogie van de stand- en ligplaatsen, zijnde geen stand- en ligplaatsen en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is. |
+    | toelichting | #NOTES#Een overig benoemd terrein is bedoeld om, naast stand- en ligplaatsen, terreinen te kunnen registreren waaraan de gemeente een weliswaar officieel maar niet authentiek adres wil toekennen. Het gaat om terreinen zoals autosloperijen, volkstuincomplexen en sportvelden (zonder opstallen). Overige benoemde terreinen worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij om terreinen met een verblijfsfunctie, naar analogie van de stand- en ligplaatsen, zijnde geen stand- en ligplaatsen en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is.<br>#NOTES#Een overig benoemd terrein is bedoeld om, naast stand- en ligplaatsen, terreinen te kunnen registreren waaraan de gemeente een weliswaar officieel maar niet authentiek adres wil toekennen. Het gaat om terreinen zoals autosloperijen, volkstuincomplexen en sportvelden (zonder opstallen). Overige benoemde terreinen worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij om terreinen met een verblijfsfunctie, naar analogie van de stand- en ligplaatsen, zijnde geen stand- en ligplaatsen en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is.<br>#NOTES#Een overig benoemd terrein is bedoeld om, naast stand- en ligplaatsen, terreinen te kunnen registreren waaraan de gemeente een weliswaar officieel maar niet authentiek adres wil toekennen. Het gaat om terreinen zoals autosloperijen, volkstuincomplexen en sportvelden (zonder opstallen). Overige benoemde terreinen worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij om terreinen met een verblijfsfunctie, naar analogie van de stand- en ligplaatsen, zijnde geen stand- en ligplaatsen en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is.<br>#NOTES#Een overig benoemd terrein is bedoeld om, naast stand- en ligplaatsen, terreinen te kunnen registreren waaraan de gemeente een weliswaar officieel maar niet authentiek adres wil toekennen. Het gaat om terreinen zoals autosloperijen, volkstuincomplexen en sportvelden (zonder opstallen). Overige benoemde terreinen worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij om terreinen met een verblijfsfunctie, naar analogie van de stand- en ligplaatsen, zijnde geen stand- en ligplaatsen en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is.<br>#NOTES#Een overig benoemd terrein is bedoeld om, naast stand- en ligplaatsen, terreinen te kunnen registreren waaraan de gemeente een weliswaar officieel maar niet authentiek adres wil toekennen. Het gaat om terreinen zoals autosloperijen, volkstuincomplexen en sportvelden (zonder opstallen). Overige benoemde terreinen worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij om terreinen met een verblijfsfunctie, naar analogie van de stand- en ligplaatsen, zijnde geen stand- en ligplaatsen en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-07-05 00:26:43 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_CFA3D54E\_C8E0\_4559\_9475\_29D31AF2DECD |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1225,7 +1225,7 @@ Attributen van objecttype NatuurlijkPersoon
 | voorlettersAanschrijving | AN20 | De voorletters waarmee een persoon aangeschreven wil worden. |
 | datumOverlijden | AN22 | De datum van overlijden van een ANDER NATUURLIJK PERSOON |
 | geboorteland |  | Het LAND waar de INGESCHREVEN PERSOON is geboren. |
-| geslachtsaanduiding | Enumeratie: "geslacht" | Een aanduiding die aangeeft dat de ingeschrevene een man of een vrouw is, of dat het geslacht (nog) onbekend is. |
+| geslachtsaanduiding | A1 | Een aanduiding die aangeeft dat de ingeschrevene een man of een vrouw is, of dat het geslacht (nog) onbekend is. |
 | landOverlijden |  | Het LAND waar de INGESCHREVEN PERSOON is overleden. |
 | voornamenAanschrijving | AN200 | De voornamen waarmee een persoon aangeschreven wil worden. |
 | voorvoegselGeslachtsnaam | AN80 | Dat deel van de geslachtsnaam dat voorkomt in GBA Tabel 36, Voorvoegseltabel en, gescheiden door een spatie, vooraf gaat aan de rest van de geslachtsnaam. |
@@ -1252,14 +1252,14 @@ Attributen van objecttype NatuurlijkPersoon
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OverigBouwwerk |
-    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft.<br>Zie verder IMGeo.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft.<br>Zie verder IMGeo.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft.<br>Zie verder IMGeo. |
+    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft.<br>Zie verder IMGeo.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft.<br>Zie verder IMGeo.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft.<br>Zie verder IMGeo.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft.<br>Zie verder IMGeo.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft.<br>Zie verder IMGeo. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Ellen Debats |
     | version | 1.12.0 |
     | created | 2013-08-13 15:08:48 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_1DA7BC25\_CF02\_4161\_B9A2\_DE0BE27C5254 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1277,7 +1277,7 @@ Attributen van objecttype OverigBouwwerk
 | identificatieOverigBouwwerk | NEN3610ID | De unieke identificatie van het overig bouwwerk zoals is toegekend in de IMGeo administratie. |
 | statusOverigBouwwerk | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van het overig bouwwerk object |
 | relatieveHoogteliggingOverigBouwwerk | N2 | Aanduiding voor de relatieve hoogte van het overig bouwwerk. |
-| geometrieOverigBouwwerk | Vlak | De minimaal tweedimensionale geometrische representatie van de omtrekken van een overig bouwwerk. |
+| geometrieOverigBouwwerk | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een overig bouwwerk. |
 | LOD0GeometrieOverigBouwwerk | Surface | De geometrische representatie van een overig bouwwerk als punt, lijn of vlak 2.5D op level of detail 0. |
 | LOD1GeometrieOverigBouwwerk | Object | De geometrische representatie van een overig bouwwerk in 3D op level of detail 1. |
 | LOD2GeometrieOverigBouwwerk | Object | De geometrische representatie van een overig bouwwerk in 3D op level of detail 2. |
@@ -1297,14 +1297,14 @@ Attributen van objecttype OverigBouwwerk
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OverigGebouwdObject |
-    | toelichting | #NOTES#Een overig bouwwerk is een onderdeel van de gebouwde omgeving, bouwtechnisch op het niveau van panden en qua gebruik op het niveau van verblijfsobjecten. Door het registreren van overig bouwwerken, in aanvulling op de verblijfsobjecten en panden, verkrijgt de gemeente een – voor zover gewenst – totale registratie van de gebouwde omgeving. Verblijfsobjecten betreffen bouwvergunningplichtige gebouwde objecten waarin verbleven kan worden; overige bouwwerken bieden de mogelijkheid ook bouwvergunningplichtige gebouwde objecten te registreren waarin niet verbleven kan worden in de zin van de BAG.<br>Overige bouwwerken worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij primair om objecten met een verblijfsfunctie, naar analogie van de verblijfsobjecten, zijnde geen verblijfsobjecten en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is. Dit betreft bijvoorbeeld onbemande benzinestations en niet-afsluitbare parkeergarages. Het staat de gemeente vrij een bredere afbakening te hanteren vanuit het oogpunt van centraal beheer en voor zover de gemeente daarvan adressen wil vaststellen. Dit betreft bijvoorbeeld hoogspanningsmasten, GSMzendmasten en windturbines. Vermeldenswaard is dat bouwvergunningplichtige objecten zonder verblijfsfunctie al als INRICHTINGSELEMENT geregistreerd worden.<br>Essentieel is derhalve dat elk overig gebouwd object voorzien wordt van een (niet-authentiek) adres: een officieel vastgesteld OVERIGE ADRESSEERBAAR OBJECT AANDUIDING, een bestaande NUMMERAANDUIDING aangevuld met een locatie-aanduiding of een bestaande OPENBARE RUIMTE aangevuld met een locatie-aanduiding. Elk overig gebouwd object heeft dus precies één van de drie genoemde relaties waarmee het voorzien is van een adres.<br>De populatie van overige gebouwde objecten is een deelverzameling van de populatie overige bouwwerken zoals die in de BGT / IMGeo voorkomt. Maar omdat voor overige gebouwde objecten de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres essentieel is, heeft elk overig gebouwd object een adres en is als apart objecttype opgenomen.#NOTES#Een overig bouwwerk is een onderdeel van de gebouwde omgeving, bouwtechnisch op het niveau van panden en qua gebruik op het niveau van verblijfsobjecten. Door het registreren van overig bouwwerken, in aanvulling op de verblijfsobjecten en panden, verkrijgt de gemeente een – voor zover gewenst – totale registratie van de gebouwde omgeving. Verblijfsobjecten betreffen bouwvergunningplichtige gebouwde objecten waarin verbleven kan worden; overige bouwwerken bieden de mogelijkheid ook bouwvergunningplichtige gebouwde objecten te registreren waarin niet verbleven kan worden in de zin van de BAG.<br>Overige bouwwerken worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij primair om objecten met een verblijfsfunctie, naar analogie van de verblijfsobjecten, zijnde geen verblijfsobjecten en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is. Dit betreft bijvoorbeeld onbemande benzinestations en niet-afsluitbare parkeergarages. Het staat de gemeente vrij een bredere afbakening te hanteren vanuit het oogpunt van centraal beheer en voor zover de gemeente daarvan adressen wil vaststellen. Dit betreft bijvoorbeeld hoogspanningsmasten, GSMzendmasten en windturbines. Vermeldenswaard is dat bouwvergunningplichtige objecten zonder verblijfsfunctie al als INRICHTINGSELEMENT geregistreerd worden.<br>Essentieel is derhalve dat elk overig gebouwd object voorzien wordt van een (niet-authentiek) adres: een officieel vastgesteld OVERIGE ADRESSEERBAAR OBJECT AANDUIDING, een bestaande NUMMERAANDUIDING aangevuld met een locatie-aanduiding of een bestaande OPENBARE RUIMTE aangevuld met een locatie-aanduiding. Elk overig gebouwd object heeft dus precies één van de drie genoemde relaties waarmee het voorzien is van een adres.<br>De populatie van overige gebouwde objecten is een deelverzameling van de populatie overige bouwwerken zoals die in de BGT / IMGeo voorkomt. Maar omdat voor overige gebouwde objecten de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres essentieel is, heeft elk overig gebouwd object een adres en is als apart objecttype opgenomen.#NOTES#Een overig bouwwerk is een onderdeel van de gebouwde omgeving, bouwtechnisch op het niveau van panden en qua gebruik op het niveau van verblijfsobjecten. Door het registreren van overig bouwwerken, in aanvulling op de verblijfsobjecten en panden, verkrijgt de gemeente een – voor zover gewenst – totale registratie van de gebouwde omgeving. Verblijfsobjecten betreffen bouwvergunningplichtige gebouwde objecten waarin verbleven kan worden; overige bouwwerken bieden de mogelijkheid ook bouwvergunningplichtige gebouwde objecten te registreren waarin niet verbleven kan worden in de zin van de BAG.<br>Overige bouwwerken worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij primair om objecten met een verblijfsfunctie, naar analogie van de verblijfsobjecten, zijnde geen verblijfsobjecten en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is. Dit betreft bijvoorbeeld onbemande benzinestations en niet-afsluitbare parkeergarages. Het staat de gemeente vrij een bredere afbakening te hanteren vanuit het oogpunt van centraal beheer en voor zover de gemeente daarvan adressen wil vaststellen. Dit betreft bijvoorbeeld hoogspanningsmasten, GSMzendmasten en windturbines. Vermeldenswaard is dat bouwvergunningplichtige objecten zonder verblijfsfunctie al als INRICHTINGSELEMENT geregistreerd worden.<br>Essentieel is derhalve dat elk overig gebouwd object voorzien wordt van een (niet-authentiek) adres: een officieel vastgesteld OVERIGE ADRESSEERBAAR OBJECT AANDUIDING, een bestaande NUMMERAANDUIDING aangevuld met een locatie-aanduiding of een bestaande OPENBARE RUIMTE aangevuld met een locatie-aanduiding. Elk overig gebouwd object heeft dus precies één van de drie genoemde relaties waarmee het voorzien is van een adres.<br>De populatie van overige gebouwde objecten is een deelverzameling van de populatie overige bouwwerken zoals die in de BGT / IMGeo voorkomt. Maar omdat voor overige gebouwde objecten de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres essentieel is, heeft elk overig gebouwd object een adres en is als apart objecttype opgenomen. |
+    | toelichting | #NOTES#Een overig bouwwerk is een onderdeel van de gebouwde omgeving, bouwtechnisch op het niveau van panden en qua gebruik op het niveau van verblijfsobjecten. Door het registreren van overig bouwwerken, in aanvulling op de verblijfsobjecten en panden, verkrijgt de gemeente een – voor zover gewenst – totale registratie van de gebouwde omgeving. Verblijfsobjecten betreffen bouwvergunningplichtige gebouwde objecten waarin verbleven kan worden; overige bouwwerken bieden de mogelijkheid ook bouwvergunningplichtige gebouwde objecten te registreren waarin niet verbleven kan worden in de zin van de BAG.<br>Overige bouwwerken worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij primair om objecten met een verblijfsfunctie, naar analogie van de verblijfsobjecten, zijnde geen verblijfsobjecten en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is. Dit betreft bijvoorbeeld onbemande benzinestations en niet-afsluitbare parkeergarages. Het staat de gemeente vrij een bredere afbakening te hanteren vanuit het oogpunt van centraal beheer en voor zover de gemeente daarvan adressen wil vaststellen. Dit betreft bijvoorbeeld hoogspanningsmasten, GSMzendmasten en windturbines. Vermeldenswaard is dat bouwvergunningplichtige objecten zonder verblijfsfunctie al als INRICHTINGSELEMENT geregistreerd worden.<br>Essentieel is derhalve dat elk overig gebouwd object voorzien wordt van een (niet-authentiek) adres: een officieel vastgesteld OVERIGE ADRESSEERBAAR OBJECT AANDUIDING, een bestaande NUMMERAANDUIDING aangevuld met een locatie-aanduiding of een bestaande OPENBARE RUIMTE aangevuld met een locatie-aanduiding. Elk overig gebouwd object heeft dus precies één van de drie genoemde relaties waarmee het voorzien is van een adres.<br>De populatie van overige gebouwde objecten is een deelverzameling van de populatie overige bouwwerken zoals die in de BGT / IMGeo voorkomt. Maar omdat voor overige gebouwde objecten de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres essentieel is, heeft elk overig gebouwd object een adres en is als apart objecttype opgenomen.#NOTES#Een overig bouwwerk is een onderdeel van de gebouwde omgeving, bouwtechnisch op het niveau van panden en qua gebruik op het niveau van verblijfsobjecten. Door het registreren van overig bouwwerken, in aanvulling op de verblijfsobjecten en panden, verkrijgt de gemeente een – voor zover gewenst – totale registratie van de gebouwde omgeving. Verblijfsobjecten betreffen bouwvergunningplichtige gebouwde objecten waarin verbleven kan worden; overige bouwwerken bieden de mogelijkheid ook bouwvergunningplichtige gebouwde objecten te registreren waarin niet verbleven kan worden in de zin van de BAG.<br>Overige bouwwerken worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij primair om objecten met een verblijfsfunctie, naar analogie van de verblijfsobjecten, zijnde geen verblijfsobjecten en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is. Dit betreft bijvoorbeeld onbemande benzinestations en niet-afsluitbare parkeergarages. Het staat de gemeente vrij een bredere afbakening te hanteren vanuit het oogpunt van centraal beheer en voor zover de gemeente daarvan adressen wil vaststellen. Dit betreft bijvoorbeeld hoogspanningsmasten, GSMzendmasten en windturbines. Vermeldenswaard is dat bouwvergunningplichtige objecten zonder verblijfsfunctie al als INRICHTINGSELEMENT geregistreerd worden.<br>Essentieel is derhalve dat elk overig gebouwd object voorzien wordt van een (niet-authentiek) adres: een officieel vastgesteld OVERIGE ADRESSEERBAAR OBJECT AANDUIDING, een bestaande NUMMERAANDUIDING aangevuld met een locatie-aanduiding of een bestaande OPENBARE RUIMTE aangevuld met een locatie-aanduiding. Elk overig gebouwd object heeft dus precies één van de drie genoemde relaties waarmee het voorzien is van een adres.<br>De populatie van overige gebouwde objecten is een deelverzameling van de populatie overige bouwwerken zoals die in de BGT / IMGeo voorkomt. Maar omdat voor overige gebouwde objecten de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres essentieel is, heeft elk overig gebouwd object een adres en is als apart objecttype opgenomen.#NOTES#Een overig bouwwerk is een onderdeel van de gebouwde omgeving, bouwtechnisch op het niveau van panden en qua gebruik op het niveau van verblijfsobjecten. Door het registreren van overig bouwwerken, in aanvulling op de verblijfsobjecten en panden, verkrijgt de gemeente een – voor zover gewenst – totale registratie van de gebouwde omgeving. Verblijfsobjecten betreffen bouwvergunningplichtige gebouwde objecten waarin verbleven kan worden; overige bouwwerken bieden de mogelijkheid ook bouwvergunningplichtige gebouwde objecten te registreren waarin niet verbleven kan worden in de zin van de BAG.<br>Overige bouwwerken worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij primair om objecten met een verblijfsfunctie, naar analogie van de verblijfsobjecten, zijnde geen verblijfsobjecten en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is. Dit betreft bijvoorbeeld onbemande benzinestations en niet-afsluitbare parkeergarages. Het staat de gemeente vrij een bredere afbakening te hanteren vanuit het oogpunt van centraal beheer en voor zover de gemeente daarvan adressen wil vaststellen. Dit betreft bijvoorbeeld hoogspanningsmasten, GSMzendmasten en windturbines. Vermeldenswaard is dat bouwvergunningplichtige objecten zonder verblijfsfunctie al als INRICHTINGSELEMENT geregistreerd worden.<br>Essentieel is derhalve dat elk overig gebouwd object voorzien wordt van een (niet-authentiek) adres: een officieel vastgesteld OVERIGE ADRESSEERBAAR OBJECT AANDUIDING, een bestaande NUMMERAANDUIDING aangevuld met een locatie-aanduiding of een bestaande OPENBARE RUIMTE aangevuld met een locatie-aanduiding. Elk overig gebouwd object heeft dus precies één van de drie genoemde relaties waarmee het voorzien is van een adres.<br>De populatie van overige gebouwde objecten is een deelverzameling van de populatie overige bouwwerken zoals die in de BGT / IMGeo voorkomt. Maar omdat voor overige gebouwde objecten de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres essentieel is, heeft elk overig gebouwd object een adres en is als apart objecttype opgenomen.#NOTES#Een overig bouwwerk is een onderdeel van de gebouwde omgeving, bouwtechnisch op het niveau van panden en qua gebruik op het niveau van verblijfsobjecten. Door het registreren van overig bouwwerken, in aanvulling op de verblijfsobjecten en panden, verkrijgt de gemeente een – voor zover gewenst – totale registratie van de gebouwde omgeving. Verblijfsobjecten betreffen bouwvergunningplichtige gebouwde objecten waarin verbleven kan worden; overige bouwwerken bieden de mogelijkheid ook bouwvergunningplichtige gebouwde objecten te registreren waarin niet verbleven kan worden in de zin van de BAG.<br>Overige bouwwerken worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij primair om objecten met een verblijfsfunctie, naar analogie van de verblijfsobjecten, zijnde geen verblijfsobjecten en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is. Dit betreft bijvoorbeeld onbemande benzinestations en niet-afsluitbare parkeergarages. Het staat de gemeente vrij een bredere afbakening te hanteren vanuit het oogpunt van centraal beheer en voor zover de gemeente daarvan adressen wil vaststellen. Dit betreft bijvoorbeeld hoogspanningsmasten, GSMzendmasten en windturbines. Vermeldenswaard is dat bouwvergunningplichtige objecten zonder verblijfsfunctie al als INRICHTINGSELEMENT geregistreerd worden.<br>Essentieel is derhalve dat elk overig gebouwd object voorzien wordt van een (niet-authentiek) adres: een officieel vastgesteld OVERIGE ADRESSEERBAAR OBJECT AANDUIDING, een bestaande NUMMERAANDUIDING aangevuld met een locatie-aanduiding of een bestaande OPENBARE RUIMTE aangevuld met een locatie-aanduiding. Elk overig gebouwd object heeft dus precies één van de drie genoemde relaties waarmee het voorzien is van een adres.<br>De populatie van overige gebouwde objecten is een deelverzameling van de populatie overige bouwwerken zoals die in de BGT / IMGeo voorkomt. Maar omdat voor overige gebouwde objecten de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres essentieel is, heeft elk overig gebouwd object een adres en is als apart objecttype opgenomen.#NOTES#Een overig bouwwerk is een onderdeel van de gebouwde omgeving, bouwtechnisch op het niveau van panden en qua gebruik op het niveau van verblijfsobjecten. Door het registreren van overig bouwwerken, in aanvulling op de verblijfsobjecten en panden, verkrijgt de gemeente een – voor zover gewenst – totale registratie van de gebouwde omgeving. Verblijfsobjecten betreffen bouwvergunningplichtige gebouwde objecten waarin verbleven kan worden; overige bouwwerken bieden de mogelijkheid ook bouwvergunningplichtige gebouwde objecten te registreren waarin niet verbleven kan worden in de zin van de BAG.<br>Overige bouwwerken worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij primair om objecten met een verblijfsfunctie, naar analogie van de verblijfsobjecten, zijnde geen verblijfsobjecten en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is. Dit betreft bijvoorbeeld onbemande benzinestations en niet-afsluitbare parkeergarages. Het staat de gemeente vrij een bredere afbakening te hanteren vanuit het oogpunt van centraal beheer en voor zover de gemeente daarvan adressen wil vaststellen. Dit betreft bijvoorbeeld hoogspanningsmasten, GSMzendmasten en windturbines. Vermeldenswaard is dat bouwvergunningplichtige objecten zonder verblijfsfunctie al als INRICHTINGSELEMENT geregistreerd worden.<br>Essentieel is derhalve dat elk overig gebouwd object voorzien wordt van een (niet-authentiek) adres: een officieel vastgesteld OVERIGE ADRESSEERBAAR OBJECT AANDUIDING, een bestaande NUMMERAANDUIDING aangevuld met een locatie-aanduiding of een bestaande OPENBARE RUIMTE aangevuld met een locatie-aanduiding. Elk overig gebouwd object heeft dus precies één van de drie genoemde relaties waarmee het voorzien is van een adres.<br>De populatie van overige gebouwde objecten is een deelverzameling van de populatie overige bouwwerken zoals die in de BGT / IMGeo voorkomt. Maar omdat voor overige gebouwde objecten de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres essentieel is, heeft elk overig gebouwd object een adres en is als apart objecttype opgenomen. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-07-05 00:41:41 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_7CDF37D9\_26D7\_46a5\_9CF3\_392601BDCECA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1321,7 +1321,7 @@ Attributen van objecttype OverigGebouwdObject
 | :--- | :--- | :--- |
 | overigGebouwdObjectIdentificatie |  | De unieke identificatie van een OVERIG GEBOUWD OBJECT |
 | bouwjaar | JAAR | De aanduiding van het jaar waarin het OVERIG GEBOUWD OBJECT oorspronkelijk als bouwkundig gereed is opgeleverd. |
-| indicatiePlanobject | INDIC | Een aanduiding dat de verwijzing naar het overig bouwwerk in de BGT een geplande geometriewijziging van een bestaand overig bouwwerk betreft. |
+| indicatiePlanobject | Boolean | Een aanduiding dat de verwijzing naar het overig bouwwerk in de BGT een geplande geometriewijziging van een bestaand overig bouwwerk betreft. |
 
 
 
@@ -1384,14 +1384,14 @@ Attributen van objecttype NietNatuurlijkPersoon
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OverigeAdresseerbaarObjectAanduiding |
-    | toelichting | Het betreft alle gegevens en relaties van een officieel vastgesteld adres (van een overig gebouwd object of een overig benoemd terrein) zijnde geen NUMMERAANDUIDING zoals deze in de BAG gedefinieerd is. OVERIGE ADRESSEERBAAR OBJECT AANDUIDING is gemodelleerd als een specialisatie van ADRESSEERBAAR OBJECT AANDUIDING. Daar bij NUMMERAANDUIDINGen deels vergelijkbare gegevens en relaties van toepassing zijn, zijn desbetreffende gegevens en relaties gemodelleerd bij ADRESSEERBAAR OBJECT AANDUIDING, de verzameling van nummeraanduidingen en overige adressen. Het OVERIGE ADRESSEERBAAR OBJECT AANDUIDING heeft dientengevolge geen specifieke gegevens, wel is er sprake van specifieke relaties. Van belang is verder dat een specifiek overig adres slechts een adres kan zijn van of een overig gebouwd object of een overig benoemd terrein.<br>#NOTES#Het betreft alle gegevens en relaties van een officieel vastgesteld adres (van een overig gebouwd object of een overig benoemd terrein) zijnde geen NUMMERAANDUIDING zoals deze in de BAG gedefinieerd is. OVERIGE ADRESSEERBAAR OBJECT AANDUIDING is gemodelleerd als een specialisatie van ADRESSEERBAAR OBJECT AANDUIDING. Daar bij NUMMERAANDUIDINGen deels vergelijkbare gegevens en relaties van toepassing zijn, zijn desbetreffende gegevens en relaties gemodelleerd bij ADRESSEERBAAR OBJECT AANDUIDING, de verzameling van nummeraanduidingen en overige adressen. Het OVERIGE ADRESSEERBAAR OBJECT AANDUIDING heeft dientengevolge geen specifieke gegevens, wel is er sprake van specifieke relaties. Van belang is verder dat een specifiek overig adres slechts een adres kan zijn van of een overig gebouwd object of een overig benoemd terrein.<br>#NOTES#Het betreft alle gegevens en relaties van een officieel vastgesteld adres (van een overig gebouwd object of een overig benoemd terrein) zijnde geen NUMMERAANDUIDING zoals deze in de BAG gedefinieerd is. OVERIGE ADRESSEERBAAR OBJECT AANDUIDING is gemodelleerd als een specialisatie van ADRESSEERBAAR OBJECT AANDUIDING. Daar bij NUMMERAANDUIDINGen deels vergelijkbare gegevens en relaties van toepassing zijn, zijn desbetreffende gegevens en relaties gemodelleerd bij ADRESSEERBAAR OBJECT AANDUIDING, de verzameling van nummeraanduidingen en overige adressen. Het OVERIGE ADRESSEERBAAR OBJECT AANDUIDING heeft dientengevolge geen specifieke gegevens, wel is er sprake van specifieke relaties. Van belang is verder dat een specifiek overig adres slechts een adres kan zijn van of een overig gebouwd object of een overig benoemd terrein. |
+    | toelichting | Het betreft alle gegevens en relaties van een officieel vastgesteld adres (van een overig gebouwd object of een overig benoemd terrein) zijnde geen NUMMERAANDUIDING zoals deze in de BAG gedefinieerd is. OVERIGE ADRESSEERBAAR OBJECT AANDUIDING is gemodelleerd als een specialisatie van ADRESSEERBAAR OBJECT AANDUIDING. Daar bij NUMMERAANDUIDINGen deels vergelijkbare gegevens en relaties van toepassing zijn, zijn desbetreffende gegevens en relaties gemodelleerd bij ADRESSEERBAAR OBJECT AANDUIDING, de verzameling van nummeraanduidingen en overige adressen. Het OVERIGE ADRESSEERBAAR OBJECT AANDUIDING heeft dientengevolge geen specifieke gegevens, wel is er sprake van specifieke relaties. Van belang is verder dat een specifiek overig adres slechts een adres kan zijn van of een overig gebouwd object of een overig benoemd terrein.<br>#NOTES#Het betreft alle gegevens en relaties van een officieel vastgesteld adres (van een overig gebouwd object of een overig benoemd terrein) zijnde geen NUMMERAANDUIDING zoals deze in de BAG gedefinieerd is. OVERIGE ADRESSEERBAAR OBJECT AANDUIDING is gemodelleerd als een specialisatie van ADRESSEERBAAR OBJECT AANDUIDING. Daar bij NUMMERAANDUIDINGen deels vergelijkbare gegevens en relaties van toepassing zijn, zijn desbetreffende gegevens en relaties gemodelleerd bij ADRESSEERBAAR OBJECT AANDUIDING, de verzameling van nummeraanduidingen en overige adressen. Het OVERIGE ADRESSEERBAAR OBJECT AANDUIDING heeft dientengevolge geen specifieke gegevens, wel is er sprake van specifieke relaties. Van belang is verder dat een specifiek overig adres slechts een adres kan zijn van of een overig gebouwd object of een overig benoemd terrein.<br>#NOTES#Het betreft alle gegevens en relaties van een officieel vastgesteld adres (van een overig gebouwd object of een overig benoemd terrein) zijnde geen NUMMERAANDUIDING zoals deze in de BAG gedefinieerd is. OVERIGE ADRESSEERBAAR OBJECT AANDUIDING is gemodelleerd als een specialisatie van ADRESSEERBAAR OBJECT AANDUIDING. Daar bij NUMMERAANDUIDINGen deels vergelijkbare gegevens en relaties van toepassing zijn, zijn desbetreffende gegevens en relaties gemodelleerd bij ADRESSEERBAAR OBJECT AANDUIDING, de verzameling van nummeraanduidingen en overige adressen. Het OVERIGE ADRESSEERBAAR OBJECT AANDUIDING heeft dientengevolge geen specifieke gegevens, wel is er sprake van specifieke relaties. Van belang is verder dat een specifiek overig adres slechts een adres kan zijn van of een overig gebouwd object of een overig benoemd terrein.<br>#NOTES#Het betreft alle gegevens en relaties van een officieel vastgesteld adres (van een overig gebouwd object of een overig benoemd terrein) zijnde geen NUMMERAANDUIDING zoals deze in de BAG gedefinieerd is. OVERIGE ADRESSEERBAAR OBJECT AANDUIDING is gemodelleerd als een specialisatie van ADRESSEERBAAR OBJECT AANDUIDING. Daar bij NUMMERAANDUIDINGen deels vergelijkbare gegevens en relaties van toepassing zijn, zijn desbetreffende gegevens en relaties gemodelleerd bij ADRESSEERBAAR OBJECT AANDUIDING, de verzameling van nummeraanduidingen en overige adressen. Het OVERIGE ADRESSEERBAAR OBJECT AANDUIDING heeft dientengevolge geen specifieke gegevens, wel is er sprake van specifieke relaties. Van belang is verder dat een specifiek overig adres slechts een adres kan zijn van of een overig gebouwd object of een overig benoemd terrein. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-07-05 13:45:34 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_7B33EB93\_BAD8\_4b36\_90A1\_B3909415EDC3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1420,14 +1420,14 @@ Attributen van objecttype OverigeAdresseerbaarObjectAanduiding
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OverigeScheiding |
-    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo. |
+    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | debat\_e |
     | version | 1.12.0 |
     | created | 2011-09-01 08:41:26 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_EC57B722\_D4B4\_42d2\_AF3C\_31E085C63EBB |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1445,7 +1445,7 @@ Attributen van objecttype OverigeScheiding
 | identificatieOverigeScheiding | NEN3610ID | Een unieke identificatie voor een overige scheiding. |
 | statusOverigeScheiding | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van de overige scheiding. |
 | relatieveHoogteliggingOverigeScheiding | N2 | Aanduiding voor de relatieve hoogte van de overige scheiding. |
-| geometrieOverigeScheiding | Vlak | De minimaal tweedimensionale geometrische representatie van de omtrekken van een overige scheiding |
+| geometrieOverigeScheiding | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een overige scheiding |
 | typeOverigeScheiding | Enumeratie: "typeringOverigeScheiding" | Specificatie van het soort overige scheiding. |
 | LOD0GeometrieOverigeScheiding | Surface | De geometrische representatie van een overige scheiding als punt, lijn of vlak in 2.5D op level of detail 0. |
 | LOD1GeometrieOverigeScheiding | Object | De geometrische representatie van een overige scheiding in 3D op level of detail 1. |
@@ -1466,14 +1466,14 @@ Attributen van objecttype OverigeScheiding
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Reisdocument |
-    | toelichting | #NOTES# #NOTES# |
+    | toelichting | #NOTES# #NOTES# #NOTES# |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-07-06 11:37:30 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_CA9BC1BB\_D572\_4e47\_BECF\_17CFD379BD6A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1509,14 +1509,14 @@ Attributen van objecttype Reisdocument
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Scheiding |
-    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo. |
+    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | debat\_e |
     | version | 1.12.0 |
     | created | 2011-08-31 13:28:27 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_A637379F\_6E1D\_47aa\_AE75\_3E22FE0DC814 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1534,7 +1534,7 @@ Attributen van objecttype Scheiding
 | identificatieScheiding | NEN3610ID | Een unieke identificatie voor een scheiding. |
 | statusScheiding | Enumeratie: "statusGeoObject" | De status gekoppeld aan de levenscyclus van de scheiding. |
 | relatieveHoogteliggingScheiding | N2 | Aanduiding voor de relatieve hoogte van de scheiding. |
-| geometrieScheiding | Vlak | De minimaal tweedimensionale geometrische representatie van de omtrekken van een scheiding |
+| geometrieScheiding | Surface | De minimaal tweedimensionale geometrische representatie van de omtrekken van een scheiding |
 | LOD0GeometrieScheiding | Surface | De geometrische representatie van een scheiding als punt, lijn of vlak in 2.5D op level of detail 0. |
 | LOD1GeometrieScheiding | Object | De geometrische representatie van een scheiding in 3D op level of detail 1. |
 | LOD2GeometrieScheiding | Object | De geometrische representatie van een scheiding in 3D op level of detail 2. |
@@ -1554,14 +1554,14 @@ Attributen van objecttype Scheiding
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Spoor |
-    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype SPOOR is het equivalent van het city gml objecttype RAILWAY.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype SPOOR is het equivalent van het city gml objecttype RAILWAY.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype SPOOR is het equivalent van het city gml objecttype RAILWAY. |
+    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype SPOOR is het equivalent van het city gml objecttype RAILWAY.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype SPOOR is het equivalent van het city gml objecttype RAILWAY.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype SPOOR is het equivalent van het city gml objecttype RAILWAY.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype SPOOR is het equivalent van het city gml objecttype RAILWAY.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype SPOOR is het equivalent van het city gml objecttype RAILWAY. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Ellen Debats |
     | version | 1.12.0 |
     | created | 2010-07-06 13:45:46 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_B0EA89D8\_EE32\_410b\_B683\_8CA937E5009D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1642,14 +1642,14 @@ Attributen van objecttype Rechtspersoon
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Tenaamstelling |
-    | toelichting | Een tenaamstelling heeft betrekking op de eigendom van die Persoon van één Kadastraal object of op een beperkt recht van die Persoon op één Kadastraal object. Met een beperkt recht op een Kadastraal object wordt erfpacht, opstal, e.d. bedoeld, maar ook bijvoorbeeld huur en lease (van Luchtvaartuigen). Ook rechten die zijn verkregen onder ontbindende voorwaarden worden beschouwd als een vorm van recht.#NOTES#Een tenaamstelling heeft betrekking op de eigendom van die Persoon van één Kadastraal object of op een beperkt recht van die Persoon op één Kadastraal object. Met een beperkt recht op een Kadastraal object wordt erfpacht, opstal, e.d. bedoeld, maar ook bijvoorbeeld huur en lease (van Luchtvaartuigen). Ook rechten die zijn verkregen onder ontbindende voorwaarden worden beschouwd als een vorm van recht.#NOTES#Een tenaamstelling heeft betrekking op de eigendom van die Persoon van één Kadastraal object of op een beperkt recht van die Persoon op één Kadastraal object. Met een beperkt recht op een Kadastraal object wordt erfpacht, opstal, e.d. bedoeld, maar ook bijvoorbeeld huur en lease (van Luchtvaartuigen). Ook rechten die zijn verkregen onder ontbindende voorwaarden worden beschouwd als een vorm van recht. |
+    | toelichting | Een tenaamstelling heeft betrekking op de eigendom van die Persoon van één Kadastraal object of op een beperkt recht van die Persoon op één Kadastraal object. Met een beperkt recht op een Kadastraal object wordt erfpacht, opstal, e.d. bedoeld, maar ook bijvoorbeeld huur en lease (van Luchtvaartuigen). Ook rechten die zijn verkregen onder ontbindende voorwaarden worden beschouwd als een vorm van recht.#NOTES#Een tenaamstelling heeft betrekking op de eigendom van die Persoon van één Kadastraal object of op een beperkt recht van die Persoon op één Kadastraal object. Met een beperkt recht op een Kadastraal object wordt erfpacht, opstal, e.d. bedoeld, maar ook bijvoorbeeld huur en lease (van Luchtvaartuigen). Ook rechten die zijn verkregen onder ontbindende voorwaarden worden beschouwd als een vorm van recht.#NOTES#Een tenaamstelling heeft betrekking op de eigendom van die Persoon van één Kadastraal object of op een beperkt recht van die Persoon op één Kadastraal object. Met een beperkt recht op een Kadastraal object wordt erfpacht, opstal, e.d. bedoeld, maar ook bijvoorbeeld huur en lease (van Luchtvaartuigen). Ook rechten die zijn verkregen onder ontbindende voorwaarden worden beschouwd als een vorm van recht.#NOTES#Een tenaamstelling heeft betrekking op de eigendom van die Persoon van één Kadastraal object of op een beperkt recht van die Persoon op één Kadastraal object. Met een beperkt recht op een Kadastraal object wordt erfpacht, opstal, e.d. bedoeld, maar ook bijvoorbeeld huur en lease (van Luchtvaartuigen). Ook rechten die zijn verkregen onder ontbindende voorwaarden worden beschouwd als een vorm van recht. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | debat\_e |
     | version | 1.12.0 |
     | created | 2013-10-10 14:33:12 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_2651D6E0\_6AC8\_43a8\_A4F6\_4706209BAC8E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1685,14 +1685,14 @@ Attributen van objecttype Tenaamstelling
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Tunneldeel |
-    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype TUNNELDEEL is het equivalent van het city gml objecttype TUNNEL PART.<br>Zichtbare muren enz. die de buitenste delen van een tunnel vormen worden in de BGT als muur enz. geclassificeerd.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype TUNNELDEEL is het equivalent van het city gml objecttype TUNNEL PART.<br>Zichtbare muren enz. die de buitenste delen van een tunnel vormen worden in de BGT als muur enz. geclassificeerd.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype TUNNELDEEL is het equivalent van het city gml objecttype TUNNEL PART.<br>Zichtbare muren enz. die de buitenste delen van een tunnel vormen worden in de BGT als muur enz. geclassificeerd. |
+    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype TUNNELDEEL is het equivalent van het city gml objecttype TUNNEL PART.<br>Zichtbare muren enz. die de buitenste delen van een tunnel vormen worden in de BGT als muur enz. geclassificeerd.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype TUNNELDEEL is het equivalent van het city gml objecttype TUNNEL PART.<br>Zichtbare muren enz. die de buitenste delen van een tunnel vormen worden in de BGT als muur enz. geclassificeerd.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype TUNNELDEEL is het equivalent van het city gml objecttype TUNNEL PART.<br>Zichtbare muren enz. die de buitenste delen van een tunnel vormen worden in de BGT als muur enz. geclassificeerd.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype TUNNELDEEL is het equivalent van het city gml objecttype TUNNEL PART.<br>Zichtbare muren enz. die de buitenste delen van een tunnel vormen worden in de BGT als muur enz. geclassificeerd.#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype TUNNELDEEL is het equivalent van het city gml objecttype TUNNEL PART.<br>Zichtbare muren enz. die de buitenste delen van een tunnel vormen worden in de BGT als muur enz. geclassificeerd. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Debat\_E |
     | version | 1.12.0 |
     | created | 2012-02-23 13:08:09 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_EE07AE43\_1825\_4377\_9984\_9636AB015C11 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1727,14 +1727,14 @@ Attributen van objecttype Tunneldeel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vestiging |
-    | toelichting | Ofschoon de definitie in het NHR doet vermoeden dat het hier om een ruimtelijk object gaat, beschouwen we een VESTIGING in het RSGB als een specialisatie van SUBJECT. De toelichting in de catalogus NHR lijkt dit te bevestigen:<br>“De vestiging van een onderneming of een maatschappelijke activiteit (type niet onderneming) moet men opvatten als een (kleinste eenheid) bundeling van economische activiteiten. De vestiging is een combinatie van activiteiten en locatie. Wisseling van zowel de activiteiten als de locatie maakt dat er sprake is van een nieuwe vestiging. In de toekomstige situatie is er een eenduidige verwijzing naar een adresseerbaar object (een ligplaats, standplaats of verblijfsobject (BAG)) voor het bezoekadres. Als er sprake is van een inschrijfplichtige onderneming maar het adresseerbare object is nog niet bekend, omdat bijv. een bedrijfspand nog gebouwd wordt of er vanuit huis gewerkt wordt, kan als adres het woonadres (van de eigenaar) worden genomen.<br>De vestiging kan aldus verhuizen, heeft een bezoekadres en een postadres en een naam. Allemaal zeer ongewone aspecten voor een locatie c.q. gebouwd object. Het lijkt dan ook meer weg te hebben van een subject (die activiteiten uitvoert) in een gebouwd object. Dit wordt versterkt doordat het wenselijk is bij het registreren van de WOZ-belanghebbende of een vergunningaanvraag een contactpersoon vast te leggen: iemand die werkzaam is in een vestiging (een NNP kent geen medewerkers) en voor dat geval optreedt als vertegenwoordiger van de vestiging van de onderneming/NNP.<br>De definitie beperkt de locaties van VESTIGINGen tot gebouwen, In het RSGB gaan we er van uit dat een VESTIGING haar activiteiten ook kan uitoefenen op een STANDPLAATS, op een LIGPLAATS, op een OVERIG BENOEMD TERREIN of in een OVERIG GEBOUWD OBJECT. VESTIGING overerft gegevens van de generalisatie SUBJECT. Onder meer zijn dat de Datum begin geldigheid en Datum einde geldigheid voor resp. Datum in gebruikname en Datum beëindiging in het NHR. Ook het buitenlands adres indien een vestiging verplaatst wordt naar het buitenland.#NOTES#Ofschoon de definitie in het NHR doet vermoeden dat het hier om een ruimtelijk object gaat, beschouwen we een VESTIGING in het RSGB als een specialisatie van SUBJECT. De toelichting in de catalogus NHR lijkt dit te bevestigen:<br>“De vestiging van een onderneming of een maatschappelijke activiteit (type niet onderneming) moet men opvatten als een (kleinste eenheid) bundeling van economische activiteiten. De vestiging is een combinatie van activiteiten en locatie. Wisseling van zowel de activiteiten als de locatie maakt dat er sprake is van een nieuwe vestiging. In de toekomstige situatie is er een eenduidige verwijzing naar een adresseerbaar object (een ligplaats, standplaats of verblijfsobject (BAG)) voor het bezoekadres. Als er sprake is van een inschrijfplichtige onderneming maar het adresseerbare object is nog niet bekend, omdat bijv. een bedrijfspand nog gebouwd wordt of er vanuit huis gewerkt wordt, kan als adres het woonadres (van de eigenaar) worden genomen.<br>De vestiging kan aldus verhuizen, heeft een bezoekadres en een postadres en een naam. Allemaal zeer ongewone aspecten voor een locatie c.q. gebouwd object. Het lijkt dan ook meer weg te hebben van een subject (die activiteiten uitvoert) in een gebouwd object. Dit wordt versterkt doordat het wenselijk is bij het registreren van de WOZ-belanghebbende of een vergunningaanvraag een contactpersoon vast te leggen: iemand die werkzaam is in een vestiging (een NNP kent geen medewerkers) en voor dat geval optreedt als vertegenwoordiger van de vestiging van de onderneming/NNP.<br>De definitie beperkt de locaties van VESTIGINGen tot gebouwen, In het RSGB gaan we er van uit dat een VESTIGING haar activiteiten ook kan uitoefenen op een STANDPLAATS, op een LIGPLAATS, op een OVERIG BENOEMD TERREIN of in een OVERIG GEBOUWD OBJECT. VESTIGING overerft gegevens van de generalisatie SUBJECT. Onder meer zijn dat de Datum begin geldigheid en Datum einde geldigheid voor resp. Datum in gebruikname en Datum beëindiging in het NHR. Ook het buitenlands adres indien een vestiging verplaatst wordt naar het buitenland.#NOTES#Ofschoon de definitie in het NHR doet vermoeden dat het hier om een ruimtelijk object gaat, beschouwen we een VESTIGING in het RSGB als een specialisatie van SUBJECT. De toelichting in de catalogus NHR lijkt dit te bevestigen:<br>“De vestiging van een onderneming of een maatschappelijke activiteit (type niet onderneming) moet men opvatten als een (kleinste eenheid) bundeling van economische activiteiten. De vestiging is een combinatie van activiteiten en locatie. Wisseling van zowel de activiteiten als de locatie maakt dat er sprake is van een nieuwe vestiging. In de toekomstige situatie is er een eenduidige verwijzing naar een adresseerbaar object (een ligplaats, standplaats of verblijfsobject (BAG)) voor het bezoekadres. Als er sprake is van een inschrijfplichtige onderneming maar het adresseerbare object is nog niet bekend, omdat bijv. een bedrijfspand nog gebouwd wordt of er vanuit huis gewerkt wordt, kan als adres het woonadres (van de eigenaar) worden genomen.<br>De vestiging kan aldus verhuizen, heeft een bezoekadres en een postadres en een naam. Allemaal zeer ongewone aspecten voor een locatie c.q. gebouwd object. Het lijkt dan ook meer weg te hebben van een subject (die activiteiten uitvoert) in een gebouwd object. Dit wordt versterkt doordat het wenselijk is bij het registreren van de WOZ-belanghebbende of een vergunningaanvraag een contactpersoon vast te leggen: iemand die werkzaam is in een vestiging (een NNP kent geen medewerkers) en voor dat geval optreedt als vertegenwoordiger van de vestiging van de onderneming/NNP.<br>De definitie beperkt de locaties van VESTIGINGen tot gebouwen, In het RSGB gaan we er van uit dat een VESTIGING haar activiteiten ook kan uitoefenen op een STANDPLAATS, op een LIGPLAATS, op een OVERIG BENOEMD TERREIN of in een OVERIG GEBOUWD OBJECT. VESTIGING overerft gegevens van de generalisatie SUBJECT. Onder meer zijn dat de Datum begin geldigheid en Datum einde geldigheid voor resp. Datum in gebruikname en Datum beëindiging in het NHR. Ook het buitenlands adres indien een vestiging verplaatst wordt naar het buitenland. |
+    | toelichting | Ofschoon de definitie in het NHR doet vermoeden dat het hier om een ruimtelijk object gaat, beschouwen we een VESTIGING in het RSGB als een specialisatie van SUBJECT. De toelichting in de catalogus NHR lijkt dit te bevestigen:<br>“De vestiging van een onderneming of een maatschappelijke activiteit (type niet onderneming) moet men opvatten als een (kleinste eenheid) bundeling van economische activiteiten. De vestiging is een combinatie van activiteiten en locatie. Wisseling van zowel de activiteiten als de locatie maakt dat er sprake is van een nieuwe vestiging. In de toekomstige situatie is er een eenduidige verwijzing naar een adresseerbaar object (een ligplaats, standplaats of verblijfsobject (BAG)) voor het bezoekadres. Als er sprake is van een inschrijfplichtige onderneming maar het adresseerbare object is nog niet bekend, omdat bijv. een bedrijfspand nog gebouwd wordt of er vanuit huis gewerkt wordt, kan als adres het woonadres (van de eigenaar) worden genomen.<br>De vestiging kan aldus verhuizen, heeft een bezoekadres en een postadres en een naam. Allemaal zeer ongewone aspecten voor een locatie c.q. gebouwd object. Het lijkt dan ook meer weg te hebben van een subject (die activiteiten uitvoert) in een gebouwd object. Dit wordt versterkt doordat het wenselijk is bij het registreren van de WOZ-belanghebbende of een vergunningaanvraag een contactpersoon vast te leggen: iemand die werkzaam is in een vestiging (een NNP kent geen medewerkers) en voor dat geval optreedt als vertegenwoordiger van de vestiging van de onderneming/NNP.<br>De definitie beperkt de locaties van VESTIGINGen tot gebouwen, In het RSGB gaan we er van uit dat een VESTIGING haar activiteiten ook kan uitoefenen op een STANDPLAATS, op een LIGPLAATS, op een OVERIG BENOEMD TERREIN of in een OVERIG GEBOUWD OBJECT. VESTIGING overerft gegevens van de generalisatie SUBJECT. Onder meer zijn dat de Datum begin geldigheid en Datum einde geldigheid voor resp. Datum in gebruikname en Datum beëindiging in het NHR. Ook het buitenlands adres indien een vestiging verplaatst wordt naar het buitenland.#NOTES#Ofschoon de definitie in het NHR doet vermoeden dat het hier om een ruimtelijk object gaat, beschouwen we een VESTIGING in het RSGB als een specialisatie van SUBJECT. De toelichting in de catalogus NHR lijkt dit te bevestigen:<br>“De vestiging van een onderneming of een maatschappelijke activiteit (type niet onderneming) moet men opvatten als een (kleinste eenheid) bundeling van economische activiteiten. De vestiging is een combinatie van activiteiten en locatie. Wisseling van zowel de activiteiten als de locatie maakt dat er sprake is van een nieuwe vestiging. In de toekomstige situatie is er een eenduidige verwijzing naar een adresseerbaar object (een ligplaats, standplaats of verblijfsobject (BAG)) voor het bezoekadres. Als er sprake is van een inschrijfplichtige onderneming maar het adresseerbare object is nog niet bekend, omdat bijv. een bedrijfspand nog gebouwd wordt of er vanuit huis gewerkt wordt, kan als adres het woonadres (van de eigenaar) worden genomen.<br>De vestiging kan aldus verhuizen, heeft een bezoekadres en een postadres en een naam. Allemaal zeer ongewone aspecten voor een locatie c.q. gebouwd object. Het lijkt dan ook meer weg te hebben van een subject (die activiteiten uitvoert) in een gebouwd object. Dit wordt versterkt doordat het wenselijk is bij het registreren van de WOZ-belanghebbende of een vergunningaanvraag een contactpersoon vast te leggen: iemand die werkzaam is in een vestiging (een NNP kent geen medewerkers) en voor dat geval optreedt als vertegenwoordiger van de vestiging van de onderneming/NNP.<br>De definitie beperkt de locaties van VESTIGINGen tot gebouwen, In het RSGB gaan we er van uit dat een VESTIGING haar activiteiten ook kan uitoefenen op een STANDPLAATS, op een LIGPLAATS, op een OVERIG BENOEMD TERREIN of in een OVERIG GEBOUWD OBJECT. VESTIGING overerft gegevens van de generalisatie SUBJECT. Onder meer zijn dat de Datum begin geldigheid en Datum einde geldigheid voor resp. Datum in gebruikname en Datum beëindiging in het NHR. Ook het buitenlands adres indien een vestiging verplaatst wordt naar het buitenland.#NOTES#Ofschoon de definitie in het NHR doet vermoeden dat het hier om een ruimtelijk object gaat, beschouwen we een VESTIGING in het RSGB als een specialisatie van SUBJECT. De toelichting in de catalogus NHR lijkt dit te bevestigen:<br>“De vestiging van een onderneming of een maatschappelijke activiteit (type niet onderneming) moet men opvatten als een (kleinste eenheid) bundeling van economische activiteiten. De vestiging is een combinatie van activiteiten en locatie. Wisseling van zowel de activiteiten als de locatie maakt dat er sprake is van een nieuwe vestiging. In de toekomstige situatie is er een eenduidige verwijzing naar een adresseerbaar object (een ligplaats, standplaats of verblijfsobject (BAG)) voor het bezoekadres. Als er sprake is van een inschrijfplichtige onderneming maar het adresseerbare object is nog niet bekend, omdat bijv. een bedrijfspand nog gebouwd wordt of er vanuit huis gewerkt wordt, kan als adres het woonadres (van de eigenaar) worden genomen.<br>De vestiging kan aldus verhuizen, heeft een bezoekadres en een postadres en een naam. Allemaal zeer ongewone aspecten voor een locatie c.q. gebouwd object. Het lijkt dan ook meer weg te hebben van een subject (die activiteiten uitvoert) in een gebouwd object. Dit wordt versterkt doordat het wenselijk is bij het registreren van de WOZ-belanghebbende of een vergunningaanvraag een contactpersoon vast te leggen: iemand die werkzaam is in een vestiging (een NNP kent geen medewerkers) en voor dat geval optreedt als vertegenwoordiger van de vestiging van de onderneming/NNP.<br>De definitie beperkt de locaties van VESTIGINGen tot gebouwen, In het RSGB gaan we er van uit dat een VESTIGING haar activiteiten ook kan uitoefenen op een STANDPLAATS, op een LIGPLAATS, op een OVERIG BENOEMD TERREIN of in een OVERIG GEBOUWD OBJECT. VESTIGING overerft gegevens van de generalisatie SUBJECT. Onder meer zijn dat de Datum begin geldigheid en Datum einde geldigheid voor resp. Datum in gebruikname en Datum beëindiging in het NHR. Ook het buitenlands adres indien een vestiging verplaatst wordt naar het buitenland.#NOTES#Ofschoon de definitie in het NHR doet vermoeden dat het hier om een ruimtelijk object gaat, beschouwen we een VESTIGING in het RSGB als een specialisatie van SUBJECT. De toelichting in de catalogus NHR lijkt dit te bevestigen:<br>“De vestiging van een onderneming of een maatschappelijke activiteit (type niet onderneming) moet men opvatten als een (kleinste eenheid) bundeling van economische activiteiten. De vestiging is een combinatie van activiteiten en locatie. Wisseling van zowel de activiteiten als de locatie maakt dat er sprake is van een nieuwe vestiging. In de toekomstige situatie is er een eenduidige verwijzing naar een adresseerbaar object (een ligplaats, standplaats of verblijfsobject (BAG)) voor het bezoekadres. Als er sprake is van een inschrijfplichtige onderneming maar het adresseerbare object is nog niet bekend, omdat bijv. een bedrijfspand nog gebouwd wordt of er vanuit huis gewerkt wordt, kan als adres het woonadres (van de eigenaar) worden genomen.<br>De vestiging kan aldus verhuizen, heeft een bezoekadres en een postadres en een naam. Allemaal zeer ongewone aspecten voor een locatie c.q. gebouwd object. Het lijkt dan ook meer weg te hebben van een subject (die activiteiten uitvoert) in een gebouwd object. Dit wordt versterkt doordat het wenselijk is bij het registreren van de WOZ-belanghebbende of een vergunningaanvraag een contactpersoon vast te leggen: iemand die werkzaam is in een vestiging (een NNP kent geen medewerkers) en voor dat geval optreedt als vertegenwoordiger van de vestiging van de onderneming/NNP.<br>De definitie beperkt de locaties van VESTIGINGen tot gebouwen, In het RSGB gaan we er van uit dat een VESTIGING haar activiteiten ook kan uitoefenen op een STANDPLAATS, op een LIGPLAATS, op een OVERIG BENOEMD TERREIN of in een OVERIG GEBOUWD OBJECT. VESTIGING overerft gegevens van de generalisatie SUBJECT. Onder meer zijn dat de Datum begin geldigheid en Datum einde geldigheid voor resp. Datum in gebruikname en Datum beëindiging in het NHR. Ook het buitenlands adres indien een vestiging verplaatst wordt naar het buitenland. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-07-05 16:09:33 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_B60B8EF9\_D1C0\_4e36\_BF9B\_1C16F92518DD |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1775,14 +1775,14 @@ Attributen van objecttype Vestiging
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vegetatieobject |
-    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype VEGETATIEOBJECT is het equivalent van het city gml objecttype SOLITARY VEGETATION OBJECT.<br>Individuele bomen hoeven alleen te worden opgenomen indien dit gewenst is. Vaak zal dit in het stedelijk gebied wel gebeuren en in landelijk gebied niet, uitzonderingen daargelaten.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype VEGETATIEOBJECT is het equivalent van het city gml objecttype SOLITARY VEGETATION OBJECT.<br>Individuele bomen hoeven alleen te worden opgenomen indien dit gewenst is. Vaak zal dit in het stedelijk gebied wel gebeuren en in landelijk gebied niet, uitzonderingen daargelaten.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype VEGETATIEOBJECT is het equivalent van het city gml objecttype SOLITARY VEGETATION OBJECT.<br>Individuele bomen hoeven alleen te worden opgenomen indien dit gewenst is. Vaak zal dit in het stedelijk gebied wel gebeuren en in landelijk gebied niet, uitzonderingen daargelaten. |
+    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype VEGETATIEOBJECT is het equivalent van het city gml objecttype SOLITARY VEGETATION OBJECT.<br>Individuele bomen hoeven alleen te worden opgenomen indien dit gewenst is. Vaak zal dit in het stedelijk gebied wel gebeuren en in landelijk gebied niet, uitzonderingen daargelaten.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype VEGETATIEOBJECT is het equivalent van het city gml objecttype SOLITARY VEGETATION OBJECT.<br>Individuele bomen hoeven alleen te worden opgenomen indien dit gewenst is. Vaak zal dit in het stedelijk gebied wel gebeuren en in landelijk gebied niet, uitzonderingen daargelaten.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype VEGETATIEOBJECT is het equivalent van het city gml objecttype SOLITARY VEGETATION OBJECT.<br>Individuele bomen hoeven alleen te worden opgenomen indien dit gewenst is. Vaak zal dit in het stedelijk gebied wel gebeuren en in landelijk gebied niet, uitzonderingen daargelaten.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype VEGETATIEOBJECT is het equivalent van het city gml objecttype SOLITARY VEGETATION OBJECT.<br>Individuele bomen hoeven alleen te worden opgenomen indien dit gewenst is. Vaak zal dit in het stedelijk gebied wel gebeuren en in landelijk gebied niet, uitzonderingen daargelaten.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype VEGETATIEOBJECT is het equivalent van het city gml objecttype SOLITARY VEGETATION OBJECT.<br>Individuele bomen hoeven alleen te worden opgenomen indien dit gewenst is. Vaak zal dit in het stedelijk gebied wel gebeuren en in landelijk gebied niet, uitzonderingen daargelaten. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Ellen Debats |
     | version | 1.12.0 |
     | created | 2011-09-01 11:36:24 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:31 |
     | id | EAID\_9980DF6D\_0C86\_4039\_8400\_C54DAC77FB79 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1818,14 +1818,14 @@ Attributen van objecttype Vegetatieobject
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Waterdeel |
-    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype WATERDEEL is een specialisatie van het city gml objecttype WATERBODY.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype WATERDEEL is een specialisatie van het city gml objecttype WATERBODY.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype WATERDEEL is een specialisatie van het city gml objecttype WATERBODY. |
+    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype WATERDEEL is een specialisatie van het city gml objecttype WATERBODY.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype WATERDEEL is een specialisatie van het city gml objecttype WATERBODY.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype WATERDEEL is een specialisatie van het city gml objecttype WATERBODY.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype WATERDEEL is een specialisatie van het city gml objecttype WATERBODY.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype WATERDEEL is een specialisatie van het city gml objecttype WATERBODY. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-07-06 13:56:29 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_FD0B5F4D\_AE9B\_47bd\_8C60\_031D21AC24B1 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1861,14 +1861,14 @@ Attributen van objecttype Waterdeel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Wegdeel |
-    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype WEGDEEL is het equivalent van het city gml objecttype TRAFFIC AREA.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype WEGDEEL is het equivalent van het city gml objecttype TRAFFIC AREA.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype WEGDEEL is het equivalent van het city gml objecttype TRAFFIC AREA. |
+    | toelichting | #NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype WEGDEEL is het equivalent van het city gml objecttype TRAFFIC AREA.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype WEGDEEL is het equivalent van het city gml objecttype TRAFFIC AREA.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype WEGDEEL is het equivalent van het city gml objecttype TRAFFIC AREA.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype WEGDEEL is het equivalent van het city gml objecttype TRAFFIC AREA.<br>#NOTES#Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.<br>Objecttype WEGDEEL is het equivalent van het city gml objecttype TRAFFIC AREA. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-07-06 13:59:10 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_9B0F3F8B\_B79B\_46f7\_BF81\_96E4C63B9AC2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1893,7 +1893,7 @@ Attributen van objecttype Wegdeel
 | plusFunctieWegdeel | Enumeratie: "functieWegPlus" | Specificatie van het hoofdgebruiksdoel van het wegdeel, nadere classificatie. |
 | fysiekVoorkomenWegdeel | Enumeratie: "fysiekVoorkomenWeg" | Mate waarin het wegdeel al of niet verhard is. |
 | plusFysiekVoorkomenWegdeel | Enumeratie: "fysiekVoorkomenWegPlus" | Mate waarin het wegdeel al of niet verhard is, nadere classificatie. |
-| wegdeelOpTalud | INDIC | Indicatie of het object wel of niet op een hellend vlak ligt. |
+| wegdeelOpTalud | Boolean | Indicatie of het object wel of niet op een hellend vlak ligt. |
 | datumBeginGeldigheidWegdeel | Datum | De datum waarop het wegdeel is ontstaan. |
 | datumEindeGeldigheidWegdeel | Datum | De datum waarop het wegdeel ongeldig is geworden. |
 
@@ -1918,9 +1918,9 @@ Attributen van objecttype Wegdeel
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.11.0 |
+    | version | 1.12.0 |
     | created | 2018-03-21 15:46:55 |
-    | modified | 2025-12-16 10:28:35 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_A660422D\_E9ED\_47c9\_9978\_480E57572775 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1954,14 +1954,14 @@ Attributen van objecttype Verblijfstitel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | WOZ-deelobject |
-    | toelichting | Het betreft zowel (delen van) gebouwde objecten, benoemde terreinen en panden als (delen van) andersoortige objecten.<br>Het is vooral bedoeld om de doorsnede van WOZ-OBJECTen met VERBLIJFSOBJECTen en PANDen te kunnen maken. WOZDEELOBJECT- gegevens die vergelijkbaar zijn met (gemeentelijke) basisgegevens, maken deel uit van de gerelateerde objecttypen GEBOUWD OBJECT en PAND.<br>#NOTES#Het betreft zowel (delen van) gebouwde objecten, benoemde terreinen en panden als (delen van) andersoortige objecten.<br>Het is vooral bedoeld om de doorsnede van WOZ-OBJECTen met VERBLIJFSOBJECTen en PANDen te kunnen maken. WOZDEELOBJECT- gegevens die vergelijkbaar zijn met (gemeentelijke) basisgegevens, maken deel uit van de gerelateerde objecttypen GEBOUWD OBJECT en PAND.<br>#NOTES#Het betreft zowel (delen van) gebouwde objecten, benoemde terreinen en panden als (delen van) andersoortige objecten.<br>Het is vooral bedoeld om de doorsnede van WOZ-OBJECTen met VERBLIJFSOBJECTen en PANDen te kunnen maken. WOZDEELOBJECT- gegevens die vergelijkbaar zijn met (gemeentelijke) basisgegevens, maken deel uit van de gerelateerde objecttypen GEBOUWD OBJECT en PAND. |
+    | toelichting | Het betreft zowel (delen van) gebouwde objecten, benoemde terreinen en panden als (delen van) andersoortige objecten.<br>Het is vooral bedoeld om de doorsnede van WOZ-OBJECTen met VERBLIJFSOBJECTen en PANDen te kunnen maken. WOZDEELOBJECT- gegevens die vergelijkbaar zijn met (gemeentelijke) basisgegevens, maken deel uit van de gerelateerde objecttypen GEBOUWD OBJECT en PAND.<br>#NOTES#Het betreft zowel (delen van) gebouwde objecten, benoemde terreinen en panden als (delen van) andersoortige objecten.<br>Het is vooral bedoeld om de doorsnede van WOZ-OBJECTen met VERBLIJFSOBJECTen en PANDen te kunnen maken. WOZDEELOBJECT- gegevens die vergelijkbaar zijn met (gemeentelijke) basisgegevens, maken deel uit van de gerelateerde objecttypen GEBOUWD OBJECT en PAND.<br>#NOTES#Het betreft zowel (delen van) gebouwde objecten, benoemde terreinen en panden als (delen van) andersoortige objecten.<br>Het is vooral bedoeld om de doorsnede van WOZ-OBJECTen met VERBLIJFSOBJECTen en PANDen te kunnen maken. WOZDEELOBJECT- gegevens die vergelijkbaar zijn met (gemeentelijke) basisgegevens, maken deel uit van de gerelateerde objecttypen GEBOUWD OBJECT en PAND.<br>#NOTES#Het betreft zowel (delen van) gebouwde objecten, benoemde terreinen en panden als (delen van) andersoortige objecten.<br>Het is vooral bedoeld om de doorsnede van WOZ-OBJECTen met VERBLIJFSOBJECTen en PANDen te kunnen maken. WOZDEELOBJECT- gegevens die vergelijkbaar zijn met (gemeentelijke) basisgegevens, maken deel uit van de gerelateerde objecttypen GEBOUWD OBJECT en PAND. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-07-05 14:51:49 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_EEC30588\_0E12\_41c9\_977E\_C885A0A7EDC3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1994,14 +1994,14 @@ Attributen van objecttype WOZ-deelobject
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | WOZ-object |
-    | toelichting | Dit objecttype komt voort uit de objectafbakeningsvoorschriften van artikel 16 van de Wet WOZ.<br>De unieke identificatie van het WOZ-object is het WOZ-objectnummer. De WOZ-object-aanduiding, een secundaire identificatie, wordt samengesteld uit de adresgegevens van één van de, aan het WOZ-object via het WOZdeelobject, gerelateerde gebouwde objecten en/of benoemde terreinen dan wel van een nabij gelegen gebouwd object of benoemd terrein, in beide gevallen (eventueel) aangevuld met de locatie-omschrijving.<br>#NOTES#Dit objecttype komt voort uit de objectafbakeningsvoorschriften van artikel 16 van de Wet WOZ.<br>De unieke identificatie van het WOZ-object is het WOZ-objectnummer. De WOZ-object-aanduiding, een secundaire identificatie, wordt samengesteld uit de adresgegevens van één van de, aan het WOZ-object via het WOZdeelobject, gerelateerde gebouwde objecten en/of benoemde terreinen dan wel van een nabij gelegen gebouwd object of benoemd terrein, in beide gevallen (eventueel) aangevuld met de locatie-omschrijving.<br>#NOTES#Dit objecttype komt voort uit de objectafbakeningsvoorschriften van artikel 16 van de Wet WOZ.<br>De unieke identificatie van het WOZ-object is het WOZ-objectnummer. De WOZ-object-aanduiding, een secundaire identificatie, wordt samengesteld uit de adresgegevens van één van de, aan het WOZ-object via het WOZdeelobject, gerelateerde gebouwde objecten en/of benoemde terreinen dan wel van een nabij gelegen gebouwd object of benoemd terrein, in beide gevallen (eventueel) aangevuld met de locatie-omschrijving. |
+    | toelichting | Dit objecttype komt voort uit de objectafbakeningsvoorschriften van artikel 16 van de Wet WOZ.<br>De unieke identificatie van het WOZ-object is het WOZ-objectnummer. De WOZ-object-aanduiding, een secundaire identificatie, wordt samengesteld uit de adresgegevens van één van de, aan het WOZ-object via het WOZdeelobject, gerelateerde gebouwde objecten en/of benoemde terreinen dan wel van een nabij gelegen gebouwd object of benoemd terrein, in beide gevallen (eventueel) aangevuld met de locatie-omschrijving.<br>#NOTES#Dit objecttype komt voort uit de objectafbakeningsvoorschriften van artikel 16 van de Wet WOZ.<br>De unieke identificatie van het WOZ-object is het WOZ-objectnummer. De WOZ-object-aanduiding, een secundaire identificatie, wordt samengesteld uit de adresgegevens van één van de, aan het WOZ-object via het WOZdeelobject, gerelateerde gebouwde objecten en/of benoemde terreinen dan wel van een nabij gelegen gebouwd object of benoemd terrein, in beide gevallen (eventueel) aangevuld met de locatie-omschrijving.<br>#NOTES#Dit objecttype komt voort uit de objectafbakeningsvoorschriften van artikel 16 van de Wet WOZ.<br>De unieke identificatie van het WOZ-object is het WOZ-objectnummer. De WOZ-object-aanduiding, een secundaire identificatie, wordt samengesteld uit de adresgegevens van één van de, aan het WOZ-object via het WOZdeelobject, gerelateerde gebouwde objecten en/of benoemde terreinen dan wel van een nabij gelegen gebouwd object of benoemd terrein, in beide gevallen (eventueel) aangevuld met de locatie-omschrijving.<br>#NOTES#Dit objecttype komt voort uit de objectafbakeningsvoorschriften van artikel 16 van de Wet WOZ.<br>De unieke identificatie van het WOZ-object is het WOZ-objectnummer. De WOZ-object-aanduiding, een secundaire identificatie, wordt samengesteld uit de adresgegevens van één van de, aan het WOZ-object via het WOZdeelobject, gerelateerde gebouwde objecten en/of benoemde terreinen dan wel van een nabij gelegen gebouwd object of benoemd terrein, in beide gevallen (eventueel) aangevuld met de locatie-omschrijving. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-07-05 14:55:02 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_CB7BA76D\_0793\_4d5a\_9596\_533C5BC56BBF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2039,14 +2039,14 @@ Attributen van objecttype WOZ-object
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | WOZ-Waarde |
-    | toelichting | #NOTES#De vastgestelde waarde wordt meegedeeld in de WOZ-beschikking. Indien er op één datum meerdere beschikkingen worden afgegeven, dan wordt slechts één van deze geregistreerd.<br>Zie verder de toelichting in de BRWOZ.#NOTES#De vastgestelde waarde wordt meegedeeld in de WOZ-beschikking. Indien er op één datum meerdere beschikkingen worden afgegeven, dan wordt slechts één van deze geregistreerd.<br>Zie verder de toelichting in de BRWOZ.#NOTES#De vastgestelde waarde wordt meegedeeld in de WOZ-beschikking. Indien er op één datum meerdere beschikkingen worden afgegeven, dan wordt slechts één van deze geregistreerd.<br>Zie verder de toelichting in de BRWOZ. |
+    | toelichting | #NOTES#De vastgestelde waarde wordt meegedeeld in de WOZ-beschikking. Indien er op één datum meerdere beschikkingen worden afgegeven, dan wordt slechts één van deze geregistreerd.<br>Zie verder de toelichting in de BRWOZ.#NOTES#De vastgestelde waarde wordt meegedeeld in de WOZ-beschikking. Indien er op één datum meerdere beschikkingen worden afgegeven, dan wordt slechts één van deze geregistreerd.<br>Zie verder de toelichting in de BRWOZ.#NOTES#De vastgestelde waarde wordt meegedeeld in de WOZ-beschikking. Indien er op één datum meerdere beschikkingen worden afgegeven, dan wordt slechts één van deze geregistreerd.<br>Zie verder de toelichting in de BRWOZ.#NOTES#De vastgestelde waarde wordt meegedeeld in de WOZ-beschikking. Indien er op één datum meerdere beschikkingen worden afgegeven, dan wordt slechts één van deze geregistreerd.<br>Zie verder de toelichting in de BRWOZ.#NOTES#De vastgestelde waarde wordt meegedeeld in de WOZ-beschikking. Indien er op één datum meerdere beschikkingen worden afgegeven, dan wordt slechts één van deze geregistreerd.<br>Zie verder de toelichting in de BRWOZ. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-07-05 15:00:40 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_7C387F42\_EC1A\_4a78\_B09B\_533AAB03C0C2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2078,14 +2078,14 @@ Attributen van objecttype WOZ-Waarde
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ZakelijkRecht |
-    | toelichting | Zie de catalogus van de BRK. Daarin is sprake van een zowel rechten als zekerheidsrechten op onroerende zaken (zie de toelichting bij KADASTRALE ONROERENDE ZAAK). Geoordeeld is dat alleen de rechten zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als ZAKELIJK RECHT tussen KADASTRALE ONROERENDE ZAAK en TENAAMSTELLING van een persoon.<br>(Zakelijke) rechten worden beschouwd vanuit één onroerende zaak, in dit geval het kadastrale object. Recht vormt de relatie tussen één onroerende zaak en één of meer tenaamgestelde personen en heeft betrekking op het eigendom van deze tenaamgestelde personen van één onroerende zaak of op een beperkt recht van deze tenaamgestelde personen op één onroerende zaak. Met een beperkt recht op een onroerende zaak wordt erfpacht, opstal, e.d. bedoeld.#NOTES#Zie de catalogus van de BRK. Daarin is sprake van een zowel rechten als zekerheidsrechten op onroerende zaken (zie de toelichting bij KADASTRALE ONROERENDE ZAAK). Geoordeeld is dat alleen de rechten zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als ZAKELIJK RECHT tussen KADASTRALE ONROERENDE ZAAK en TENAAMSTELLING van een persoon.<br>(Zakelijke) rechten worden beschouwd vanuit één onroerende zaak, in dit geval het kadastrale object. Recht vormt de relatie tussen één onroerende zaak en één of meer tenaamgestelde personen en heeft betrekking op het eigendom van deze tenaamgestelde personen van één onroerende zaak of op een beperkt recht van deze tenaamgestelde personen op één onroerende zaak. Met een beperkt recht op een onroerende zaak wordt erfpacht, opstal, e.d. bedoeld.#NOTES#Zie de catalogus van de BRK. Daarin is sprake van een zowel rechten als zekerheidsrechten op onroerende zaken (zie de toelichting bij KADASTRALE ONROERENDE ZAAK). Geoordeeld is dat alleen de rechten zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als ZAKELIJK RECHT tussen KADASTRALE ONROERENDE ZAAK en TENAAMSTELLING van een persoon.<br>(Zakelijke) rechten worden beschouwd vanuit één onroerende zaak, in dit geval het kadastrale object. Recht vormt de relatie tussen één onroerende zaak en één of meer tenaamgestelde personen en heeft betrekking op het eigendom van deze tenaamgestelde personen van één onroerende zaak of op een beperkt recht van deze tenaamgestelde personen op één onroerende zaak. Met een beperkt recht op een onroerende zaak wordt erfpacht, opstal, e.d. bedoeld. |
+    | toelichting | Zie de catalogus van de BRK. Daarin is sprake van een zowel rechten als zekerheidsrechten op onroerende zaken (zie de toelichting bij KADASTRALE ONROERENDE ZAAK). Geoordeeld is dat alleen de rechten zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als ZAKELIJK RECHT tussen KADASTRALE ONROERENDE ZAAK en TENAAMSTELLING van een persoon.<br>(Zakelijke) rechten worden beschouwd vanuit één onroerende zaak, in dit geval het kadastrale object. Recht vormt de relatie tussen één onroerende zaak en één of meer tenaamgestelde personen en heeft betrekking op het eigendom van deze tenaamgestelde personen van één onroerende zaak of op een beperkt recht van deze tenaamgestelde personen op één onroerende zaak. Met een beperkt recht op een onroerende zaak wordt erfpacht, opstal, e.d. bedoeld.#NOTES#Zie de catalogus van de BRK. Daarin is sprake van een zowel rechten als zekerheidsrechten op onroerende zaken (zie de toelichting bij KADASTRALE ONROERENDE ZAAK). Geoordeeld is dat alleen de rechten zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als ZAKELIJK RECHT tussen KADASTRALE ONROERENDE ZAAK en TENAAMSTELLING van een persoon.<br>(Zakelijke) rechten worden beschouwd vanuit één onroerende zaak, in dit geval het kadastrale object. Recht vormt de relatie tussen één onroerende zaak en één of meer tenaamgestelde personen en heeft betrekking op het eigendom van deze tenaamgestelde personen van één onroerende zaak of op een beperkt recht van deze tenaamgestelde personen op één onroerende zaak. Met een beperkt recht op een onroerende zaak wordt erfpacht, opstal, e.d. bedoeld.#NOTES#Zie de catalogus van de BRK. Daarin is sprake van een zowel rechten als zekerheidsrechten op onroerende zaken (zie de toelichting bij KADASTRALE ONROERENDE ZAAK). Geoordeeld is dat alleen de rechten zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als ZAKELIJK RECHT tussen KADASTRALE ONROERENDE ZAAK en TENAAMSTELLING van een persoon.<br>(Zakelijke) rechten worden beschouwd vanuit één onroerende zaak, in dit geval het kadastrale object. Recht vormt de relatie tussen één onroerende zaak en één of meer tenaamgestelde personen en heeft betrekking op het eigendom van deze tenaamgestelde personen van één onroerende zaak of op een beperkt recht van deze tenaamgestelde personen op één onroerende zaak. Met een beperkt recht op een onroerende zaak wordt erfpacht, opstal, e.d. bedoeld.#NOTES#Zie de catalogus van de BRK. Daarin is sprake van een zowel rechten als zekerheidsrechten op onroerende zaken (zie de toelichting bij KADASTRALE ONROERENDE ZAAK). Geoordeeld is dat alleen de rechten zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als ZAKELIJK RECHT tussen KADASTRALE ONROERENDE ZAAK en TENAAMSTELLING van een persoon.<br>(Zakelijke) rechten worden beschouwd vanuit één onroerende zaak, in dit geval het kadastrale object. Recht vormt de relatie tussen één onroerende zaak en één of meer tenaamgestelde personen en heeft betrekking op het eigendom van deze tenaamgestelde personen van één onroerende zaak of op een beperkt recht van deze tenaamgestelde personen op één onroerende zaak. Met een beperkt recht op een onroerende zaak wordt erfpacht, opstal, e.d. bedoeld. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-07-06 11:00:41 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_8C809341\_AC60\_4378\_8BA0\_0843E8C06AF3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2126,7 +2126,7 @@ Attributen van objecttype ZakelijkRecht
     | author | debat\_e |
     | version | 1.12.0 |
     | created | 2015-02-24 10:05:15 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_3397A5B5\_E789\_46e6\_8559\_C528EA55F830 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2181,7 +2181,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_aa8a4ca5\_d5a8\_49d1\_9d2a\_7f7434f2a878 |
+    | id | EAID\_d5c5c5a1\_4257\_4af2\_8438\_3bf8f72b0544 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2240,7 +2240,7 @@ De enumeratie fysiekVoorkomenBegroeidTerrein heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:37 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_19cca504\_e54d\_4a5b\_8d88\_25a17dbd68fa |
+    | id | EAID\_31915375\_3bf2\_47bc\_9e11\_50528d1a736d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2318,7 +2318,7 @@ De enumeratie fysiekVoorkomenBegroeidTerreinPlus heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_49ca6952\_7e8f\_4981\_b10a\_5d345d7853b8 |
+    | id | EAID\_891182bf\_cf86\_4760\_a17e\_c3d6ed51beb0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2354,7 +2354,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_c4489597\_17cf\_412a\_b04a\_5f8b12df0f7f |
+    | id | EAID\_a0cfb802\_e0ba\_44c6\_9799\_f21c5b89ef2e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2390,7 +2390,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_9851c8dd\_57d1\_4f2a\_8f91\_fc53618c45f6 |
+    | id | EAID\_63c166db\_951d\_4511\_aecb\_4c1e4a1bf991 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2426,7 +2426,7 @@ De enumeratie typeringGebouwinstallatie heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_5a361c09\_5ece\_469d\_90fa\_84e9af4ffd91 |
+    | id | EAID\_855bec07\_92f0\_4252\_ae27\_24684520e99a |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2462,7 +2462,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_f32461d2\_4c12\_45e1\_bf28\_598cc1d4809c |
+    | id | EAID\_e1744908\_3f00\_4e3a\_be4b\_f762cc1cc1fa |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2516,7 +2516,7 @@ De enumeratie typeringInrichtingselement heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_4088c981\_ae24\_4e8d\_95d4\_c1c101b415a5 |
+    | id | EAID\_94932b4a\_ae89\_4a26\_9747\_92caa7c12806 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2664,7 +2664,7 @@ De enumeratie typeringInrichtingselementPlus heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_6faa1292\_9ac6\_4bf2\_8d0d\_a496cdd30176 |
+    | id | EAID\_e2d189e3\_d6c0\_4dc9\_8c8c\_1c6e2f80e5fd |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2701,7 +2701,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_f846e353\_9a2f\_494b\_993c\_b0f13e797129 |
+    | id | EAID\_b9a880c1\_3959\_44c4\_b060\_489ba7eca44b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2738,7 +2738,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_ffe2c781\_cb81\_46ea\_bcbf\_036ed3a829ee |
+    | id | EAID\_fdc27ed0\_6977\_4b9d\_83d7\_020402d57a94 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2775,7 +2775,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_8e614611\_af3b\_4953\_9649\_8f0e185eda00 |
+    | id | EAID\_1df3eecf\_e32e\_42b6\_95f4\_be5b1db7736d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2818,7 +2818,7 @@ De enumeratie Gezinsrelatie heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_ab8139d5\_3974\_4a11\_9875\_65a71a5f6c12 |
+    | id | EAID\_b9f49b2e\_264a\_42bc\_a319\_ca460de57f07 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2854,7 +2854,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_5e55498a\_645e\_4228\_a05a\_1c4cff79513e |
+    | id | EAID\_770a0355\_ffd4\_430b\_b439\_946459bc58a0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2890,7 +2890,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_90596bb1\_cab0\_4d5d\_acfc\_1e97283ad9ca |
+    | id | EAID\_205f6759\_0920\_4583\_80a3\_05533d092370 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2933,7 +2933,7 @@ De enumeratie fysiekVoorkomenOnbegroeidTerrein heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_c8c94630\_65cc\_4156\_b034\_2eb38de819e4 |
+    | id | EAID\_68eeac47\_e568\_4df4\_b6ac\_f3fc2230f719 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2994,7 +2994,7 @@ De enumeratie fysiekVoorkomenOnbegroeidTerreinPlus heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_81778200\_d310\_420a\_b85a\_fbadab62d522 |
+    | id | EAID\_0e04bbd9\_7d49\_49d3\_af6c\_2f8c6f384f55 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3030,7 +3030,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_5a5fdaa4\_2169\_4ca3\_899e\_18b535113cdf |
+    | id | EAID\_c5e2bd82\_a468\_4b8a\_bb10\_a18b33171c41 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3067,7 +3067,7 @@ De enumeratie typeringOndersteunendWater heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_db57cbcf\_ed50\_4051\_9095\_ab6bc2a5ec04 |
+    | id | EAID\_66872770\_d4df\_4844\_afd8\_d8f6cba28def |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3100,7 +3100,7 @@ De enumeratie typeringOndersteunendWaterPlus heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_9fa31c82\_f4c1\_4aa7\_aaa7\_dfe071b12696 |
+    | id | EAID\_cccb12e3\_5ba6\_4aa7\_846c\_b80d42029699 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3136,7 +3136,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_4b30520c\_c133\_4619\_9a76\_e285bcf36cce |
+    | id | EAID\_2e02fedc\_34ec\_4700\_b986\_4dd0917df8d4 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3171,7 +3171,7 @@ De enumeratie functieOndersteunendWegdeel heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:37 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_e6b6517f\_a75c\_49cf\_ac25\_fb991bd785da |
+    | id | EAID\_00019e29\_aca4\_4384\_a058\_426250341d09 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3204,7 +3204,7 @@ De enumeratie functieOndersteunendWegdeelPlus heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:37 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_78cf52e8\_0bfe\_41c9\_924f\_6f2fccdc6bf8 |
+    | id | EAID\_9fa3dd71\_82a2\_4db4\_958e\_2df2af3cc421 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3245,7 +3245,7 @@ De enumeratie fysiekVoorkomenOndersteunendWegdeel heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_6f589f6b\_31ba\_496d\_abbc\_9172d323cc90 |
+    | id | EAID\_aa14da8b\_afb9\_4f12\_8649\_ba1c9dd8b9ae |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3349,7 +3349,7 @@ De enumeratie fysiekVoorkomenOndersteunendWegdeelPlus heeft de volgende kenmerke
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_988bfe5c\_7e05\_487d\_b49d\_3c0e9c9d59d7 |
+    | id | EAID\_1369e927\_383c\_44f0\_9a6c\_c7546ae8dc01 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3385,7 +3385,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_1bca6219\_5a7d\_4667\_9da7\_2542e9df655a |
+    | id | EAID\_3f4edf90\_f1ed\_41f9\_9457\_a1d5ff9ada85 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3423,7 +3423,7 @@ De enumeratie typeringOverbruggingsdeel heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_c11da207\_cd45\_4cd6\_a044\_bfa2bc01741d |
+    | id | EAID\_e5524032\_929b\_416e\_accc\_7a5fe0195ee0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3463,7 +3463,7 @@ De enumeratie typeOverbrugging heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_f5eb716b\_5c32\_4f04\_a52e\_e7217bbf43a6 |
+    | id | EAID\_0c66ef46\_328f\_4392\_80bc\_c2832d889303 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3509,44 +3509,7 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
     | version | 1.11.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_7d93d65e\_f1b8\_408e\_825d\_353a4e90d83c |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### geslacht
-Geen Definitie
-
-Het enumeratie geslacht kent de volgende waarden:
-
-* **Man**: 
-* **Vrouw**: 
-* **Onbekend**: 
-* **Leeg**: 
-
-
-De enumeratie geslacht heeft de volgende kenmerken:
-
-??? info "Kenmerken Model geslacht"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | geslacht |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.10.0 |
-    | created | 2025-03-26 11:13:38 |
-    | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_79ed460b\_6359\_415d\_967b\_b28af7c373a2 |
+    | id | EAID\_174d82c1\_79eb\_4cc3\_823f\_9d3a5d184d89 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3592,7 +3555,7 @@ De enumeratie adelijkeTitel heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_44b0323f\_2ad8\_4b3a\_85ab\_f49e82b6deb8 |
+    | id | EAID\_900584fd\_3dd7\_4ac5\_a5c0\_dd063756ecb8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3628,7 +3591,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_b309d5a8\_3946\_416e\_b50f\_d472300939ea |
+    | id | EAID\_0d1e28bf\_b62d\_4813\_998e\_1a86d4a3641e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3690,7 +3653,7 @@ De enumeratie soortRechtsvorm heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_57fe5d5f\_d90b\_4cac\_a503\_aea779ef75ad |
+    | id | EAID\_0167be76\_7f19\_43f8\_8722\_54e5c9732e39 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3726,7 +3689,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_8119a018\_d7c3\_4bda\_982d\_21031133eee6 |
+    | id | EAID\_74ecc2e6\_5797\_4196\_b417\_d624d6b30f4e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3761,7 +3724,7 @@ De enumeratie typeringOverigeScheiding heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_2fdf6b77\_5752\_4b51\_a258\_6bba6f066f96 |
+    | id | EAID\_901dc7ff\_b647\_4f0a\_a1bd\_bcca49822d5b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3798,7 +3761,7 @@ De enumeratie aanduidingInhoudingVermissingReisdocument heeft de volgende kenmer
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_76e9e784\_2eb1\_4597\_b36c\_f6bced696925 |
+    | id | EAID\_2d6b16a9\_a33e\_4909\_9947\_28a9f109d344 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3834,7 +3797,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_f3c04b79\_b7ac\_4164\_a5bc\_151a89e110ee |
+    | id | EAID\_1cd3b20f\_af8b\_4351\_88a7\_e60e2357a264 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3870,7 +3833,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_619da58e\_d246\_4d80\_9c7b\_46089f654ecc |
+    | id | EAID\_02781372\_d951\_4b56\_8451\_f97b109ee099 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3932,7 +3895,7 @@ De enumeratie soortRechtsvorm heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_b4b5b630\_00e1\_4208\_af8c\_d00ea0239a6c |
+    | id | EAID\_5436212c\_3339\_4aaf\_a068\_85b49f77a28b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3975,7 +3938,7 @@ De enumeratie codeExploitant heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:37 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_ca8011db\_eadc\_4d0e\_836f\_e0469b64bd3b |
+    | id | EAID\_52db494d\_823d\_4087\_a035\_f190d7e293ad |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4016,7 +3979,7 @@ De enumeratie burgelijkeStaat heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_dee79991\_7fac\_4092\_b096\_989b9e46cbc6 |
+    | id | EAID\_eca0d7ca\_8093\_4731\_a432\_7ce7742e3bbc |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4052,7 +4015,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_647667d2\_9738\_4df0\_a69b\_ea827504dcd0 |
+    | id | EAID\_12868121\_88a4\_4bb9\_8ac1\_aa37c5e9c812 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4089,7 +4052,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_2a3bbf3f\_dfbc\_4e32\_856f\_bedd6c9adc4a |
+    | id | EAID\_883669c5\_2066\_4332\_912a\_684e31b0258a |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4125,7 +4088,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_4a3673ed\_5490\_4bde\_87dd\_a353268e11d6 |
+    | id | EAID\_e9d72031\_2033\_4c88\_b38b\_61c8191d0de7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4162,7 +4125,7 @@ De enumeratie typeringVegetatieobject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_4ecd553a\_8903\_49ca\_a169\_42e5df797646 |
+    | id | EAID\_7b3c394a\_3cc4\_4cf1\_9c6d\_c86143ee520e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4198,7 +4161,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_51470166\_6b3d\_414a\_be87\_a33b372c06cc |
+    | id | EAID\_489a4d84\_465d\_44c8\_8062\_d68a30ef014f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4235,7 +4198,7 @@ De enumeratie typeringWater heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_dfa6c107\_917a\_4c90\_83c4\_7536ace2637e |
+    | id | EAID\_c2662e4b\_464d\_41ee\_8b85\_87f7ad572b37 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4291,7 +4254,7 @@ De enumeratie typeringWaterPlus heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_3b33da31\_6b28\_4b18\_a749\_9814ba19be33 |
+    | id | EAID\_dadcde12\_6b49\_48eb\_9941\_a71d7ceeb225 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4327,7 +4290,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_1bfca1a7\_ac9a\_4e41\_9b7f\_233becc4b9e0 |
+    | id | EAID\_e1adb1dd\_f6b6\_4a40\_bce9\_b432876c37ea |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4382,7 +4345,7 @@ De enumeratie functieWeg heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:37 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_22dfcf98\_c31e\_4eba\_a361\_171535965780 |
+    | id | EAID\_e5196b86\_be2d\_4d07\_af6c\_308fd47f8019 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4430,7 +4393,7 @@ De enumeratie functieWegPlus heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:37 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_000785c8\_0307\_414d\_84fa\_e32cf720acc5 |
+    | id | EAID\_9ad3fdef\_e7c1\_4042\_8738\_b434c1965313 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4471,7 +4434,7 @@ De enumeratie fysiekVoorkomenWeg heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_d463c144\_2b9d\_4a86\_b535\_96320e450a95 |
+    | id | EAID\_91f91cbf\_7661\_40a8\_a9ca\_5601f0cc0a10 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4543,7 +4506,7 @@ De enumeratie fysiekVoorkomenWegPlus heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_e465d65e\_4ac7\_4084\_91ed\_989aa5956d39 |
+    | id | EAID\_7a6276c6\_989d\_4555\_be60\_f736748f84cc |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4580,7 +4543,7 @@ De enumeratie statusWOZ(Deel)Object heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_556e1ffb\_f306\_4acf\_b2e3\_c2f28ea7b13a |
+    | id | EAID\_707cd77a\_f4ac\_4155\_ba03\_76943fc8b735 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4617,7 +4580,7 @@ De enumeratie statusWOZ(Deel)Object heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_be3b5502\_23db\_4373\_9a10\_9ab34d176e0f |
+    | id | EAID\_3939326f\_2925\_4461\_8f63\_cecbe8d91353 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4660,7 +4623,7 @@ De enumeratie soortGebruik heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_a0c39bba\_e140\_43f0\_a92b\_5cc016a3a6cf |
+    | id | EAID\_53062696\_092e\_4137\_b97f\_f4ed1809c34e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4711,7 +4674,7 @@ De enumeratie statusWOZ-Beschikking heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_9a0d2f88\_0f38\_4b1c\_a117\_03ceb8b01c89 |
+    | id | EAID\_1399de9a\_945f\_4744\_8bbe\_dd68f3246170 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4746,7 +4709,7 @@ De enumeratie typeringZekerheidsrecht heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_9c4bb56c\_d380\_4da5\_afb3\_e9d855419f16 |
+    | id | EAID\_ac4c3405\_685c\_4572\_a618\_948a04e32ba9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

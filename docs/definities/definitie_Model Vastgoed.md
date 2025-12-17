@@ -530,7 +530,7 @@ Attributen van objecttype Locatieonroerendezaak
 | adrestype | Enumeratie: "TypeAdresseerbaarObject" |  |
 | datumBeginGeldigheid | Date |  |
 | datumEindeGeldigheid | Date |  |
-| geometrie | Vlak |  |
+| geometrie | Surface |  |
 
 
 
@@ -1178,7 +1178,7 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
     | version | 1.11.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_fb7930de\_d37e\_4486\_82be\_35af18fc2c3a |
+    | id | EAID\_755398c5\_4c5d\_4dc3\_bd72\_9aaaf84429ac |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1215,7 +1215,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_888e5a93\_1852\_4054\_bd5b\_67a9d1d62a34 |
+    | id | EAID\_1bf5aca8\_fa29\_4c22\_8b8d\_3c7f34d95be9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1252,7 +1252,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_4eeb3c08\_4388\_423b\_ba17\_91b86092d5b8 |
+    | id | EAID\_c191c525\_3ae2\_4775\_bf97\_b526e2cf9c0e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1289,7 +1289,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_1f78026a\_9ca6\_4722\_bbd5\_11b67ecf201f |
+    | id | EAID\_e16143b0\_bf90\_4c59\_aad9\_69377755d3a9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1328,7 +1328,7 @@ De enumeratie aanduidingEigenaarGebruiker heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_35d8bd15\_8ec2\_4118\_bc31\_6213522ec7a9 |
+    | id | EAID\_9c6b83fa\_506f\_4a52\_a5ac\_7cd337c0a0ec |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

@@ -131,14 +131,14 @@ Attributen van objecttype Andere reden verzoek
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Diensten::Aanvraag |
-    | toelichting | #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
+    | toelichting | #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.8.0 |
+    | version | 1.10.0 |
     | created | 2024-12-13 12:29:32 |
-    | modified | 2025-12-16 14:00:19 |
+    | modified | 2025-12-17 09:00:30 |
     | id | EAID\_2D94CF02\_97C5\_4621\_B225\_EA742445A235 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -166,14 +166,14 @@ Attributen van objecttype Diensten::Aanvraag
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Diensten::Aanvraag levensonderhoud |
-    | toelichting | #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
+    | toelichting | #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.8.0 |
+    | version | 1.10.0 |
     | created | 2025-03-17 10:52:35 |
-    | modified | 2025-12-16 14:00:19 |
+    | modified | 2025-12-17 09:00:30 |
     | id | EAID\_1F9DBD7C\_EBF3\_41c8\_8F00\_2F6169FE107C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -483,14 +483,14 @@ Attributen van objecttype Ingang bijstandsuitkering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Levenssituatie::Levenssituatie |
-    | toelichting | #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
+    | toelichting | #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.8.0 |
+    | version | 1.10.0 |
     | created | 2025-03-17 10:40:14 |
-    | modified | 2025-12-16 14:00:19 |
+    | modified | 2025-12-17 09:00:30 |
     | id | EAID\_4B7F5B5B\_CCC7\_465e\_9908\_E83620EEAE89 |
     | domein_iv3 |  |
     | domein_dcat |  |

@@ -69,7 +69,7 @@ Het model 'Referentielijsten' kent de volgende objecttypen:
     | author | Haas\_R |
     | version | 1.12.0 |
     | created | 2015-05-04 11:23:39 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_EBE4A0C9\_9281\_4750\_8E70\_AF70A549CD6B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -179,14 +179,14 @@ Attributen van objecttype Verblijfstitel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AardAantekening |
-    | toelichting | #NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening |
+    | toelichting | #NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | debat\_e |
     | version | 1.12.0 |
     | created | 2015-09-17 09:10:38 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_BE0C0747\_E9CD\_4ae1\_A83C\_94A724513C7B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -225,7 +225,7 @@ Attributen van objecttype AardAantekening
     | author | debat\_e |
     | version | 1.12.0 |
     | created | 2015-02-27 09:34:12 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_AC4F4A9C\_1623\_4447\_9813\_0722CDD58E66 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -264,7 +264,7 @@ Attributen van objecttype AardZakelijkRecht
     | author | debat\_e |
     | version | 1.12.0 |
     | created | 2015-03-02 11:02:57 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_1453EF69\_1E5E\_49ae\_8510\_A68652374710 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -343,7 +343,7 @@ Attributen van objecttype AcademischeTitel
     | author | debat\_e |
     | version | 1.12.0 |
     | created | 2015-02-27 09:59:31 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_6BA8DD14\_1CC9\_4669\_BDCC\_856B5C628D6B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -382,7 +382,7 @@ Attributen van objecttype AkrKadastraleGemeentecode
     | author | debat\_e |
     | version | 1.12.0 |
     | created | 2015-02-27 12:20:57 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_DADECD97\_1605\_4c24\_84A7\_46AB2327468D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -421,7 +421,7 @@ Attributen van objecttype CultuurcodeBebouwd
     | author | debat\_e |
     | version | 1.12.0 |
     | created | 2015-02-27 14:08:48 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_ACAF3418\_7E0F\_43eb\_B470\_4AF98C37A49B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -460,7 +460,7 @@ Attributen van objecttype CultuurcodeOnbebouwd
     | author | debat\_e |
     | version | 1.12.0 |
     | created | 2015-03-09 11:16:33 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_D8154D91\_27A5\_4cc1\_9B52\_639BF24CAC29 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -499,7 +499,7 @@ Attributen van objecttype WOZ-Deelobjectcode
     | author | debat\_e |
     | version | 1.12.0 |
     | created | 2013-10-10 10:50:59 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_51BA37A4\_2E1D\_4704\_9153\_02759084D5E2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -538,7 +538,7 @@ Attributen van objecttype KadastraleGemeente
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-07-06 13:26:39 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_A17A01A9\_2A4F\_46e8\_A55A\_2B151F8ED46E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -578,7 +578,7 @@ Attributen van objecttype LandOfgebied
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2019-01-21 14:39:45 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_5A8F56B7\_AE35\_4212\_B059\_DAD064EDBAB8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -613,14 +613,14 @@ Attributen van objecttype Provincie
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Partij |
-    | toelichting | Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen. |
+    | toelichting | Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Haas\_R |
     | version | 1.12.0 |
     | created | 2015-04-30 16:13:29 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_0F175713\_CEAB\_4c6e\_8A61\_27F93C1FC777 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -638,7 +638,7 @@ Attributen van objecttype Partij
 | code | AN6 | De code van de PARTIJ. |
 | naam | AN80 | De naam van de PARTIJ. |
 | soort | N2 |  |
-| verstrekkingsbeperkingMogelijk | INDIC | Indicator die aangeeft of van de betreffende PARTIJ een verstrekkingsbeperking mogelijk is. |
+| verstrekkingsbeperkingMogelijk |  | Indicator die aangeeft of van de betreffende PARTIJ een verstrekkingsbeperking mogelijk is. |
 | datumAanvangGeldigheidPartij | DATUM | De datum waarop de geldigheid van de partij is gestart. |
 | datumEindeGeldigheidPartij | DATUM | De datum waarop de geldigheid van de partij is beëindigd. |
 
@@ -661,7 +661,7 @@ Attributen van objecttype Partij
     | author | Haas\_R |
     | version | 1.12.0 |
     | created | 2015-05-01 13:49:06 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_61D1E99C\_DF5E\_48ee\_8BAB\_4ACA1745BC7C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -700,7 +700,7 @@ Attributen van objecttype RedenVerkrijgingNationaliteit
     | author | Haas\_R |
     | version | 1.12.0 |
     | created | 2015-05-01 13:49:06 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_7F97B43F\_CCA1\_4bfc\_9824\_9BEC8D2A70E6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -739,7 +739,7 @@ Attributen van objecttype RedenVerliesNationaliteit
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-07-06 12:14:18 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_6B9EC881\_1112\_44bc\_B114\_203A793A54B1 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -771,14 +771,14 @@ Attributen van objecttype Reisdocumentsoort
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SBIActiviteit |
-    | toelichting | #NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten |
+    | toelichting | #NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | debat\_e |
     | version | 1.12.0 |
     | created | 2015-02-03 09:46:54 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_B3F47842\_F9C5\_4417\_BC76\_05CA58D4998D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -821,7 +821,7 @@ Attributen van objecttype SBIActiviteit
     | author | debat\_e |
     | version | 1.12.0 |
     | created | 2015-02-27 13:50:33 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_9D7F05BF\_414E\_4071\_9E78\_FAD2AA21D40E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -860,7 +860,7 @@ Attributen van objecttype SoortGrootte
     | author | debat\_e |
     | version | 1.12.0 |
     | created | 2015-03-09 11:36:08 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_3741181A\_07D0\_4f62\_B076\_B3318266500F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -900,7 +900,7 @@ Attributen van objecttype SoortWOZObject
     | author | debat\_e |
     | version | 1.12.0 |
     | created | 2015-02-27 11:55:08 |
-    | modified | 2025-12-16 14:00:20 |
+    | modified | 2025-12-17 09:00:32 |
     | id | EAID\_DC6C8DCB\_EE07\_4e2b\_9087\_648BD0D0D473 |
     | domein_iv3 |  |
     | domein_dcat |  |

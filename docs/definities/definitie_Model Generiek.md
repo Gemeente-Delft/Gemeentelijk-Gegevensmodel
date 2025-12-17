@@ -181,7 +181,7 @@ Attributen van objecttype Lijn
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| lijn | Lijn |  |
+| lijn | Line |  |
 
 
 

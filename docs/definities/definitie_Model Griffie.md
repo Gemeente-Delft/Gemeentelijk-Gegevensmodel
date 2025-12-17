@@ -392,14 +392,14 @@ Attributen van objecttype Raadslid
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Raadsstuk |
-    | toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
+    | toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.11.0 |
+    | version | 1.13.0 |
     | created | 2019-05-16 11:06:43 |
-    | modified | 2025-12-16 14:00:18 |
+    | modified | 2025-12-17 09:00:30 |
     | id | EAID\_440219A4\_C64B\_4eac\_ADE5\_E79ED6AA9BFE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -505,14 +505,14 @@ Attributen van objecttype Taakveld
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vergadering |
-    | toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
+    | toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element.#NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.14.0 |
     | created | 2019-05-16 11:09:27 |
-    | modified | 2025-12-16 14:00:18 |
+    | modified | 2025-12-17 09:00:30 |
     | id | EAID\_257F4ABF\_7CCD\_453f\_B2E8\_5A6434383A9B |
     | domein_iv3 |  |
     | domein_dcat |  |
