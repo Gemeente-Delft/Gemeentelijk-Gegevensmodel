@@ -6,10 +6,10 @@ Het GGM biedt een uniforme datastructuur die onafhankelijk is van de organisator
 
 Voor het genereren van fysieke datamodellen op basis van het GGM is een set codegeneratietemplates beschikbaar. Deze templates zijn ontwikkeld voor het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html) van Enterprise Architect, en ondersteunen het genereren van DDL voor verschillende relationele databasesystemen (RDBMS’en), waaronder Oracle en – in ongeteste vorm – MySQL. Waar nodig zijn aanvullende uitbreidingen gemaakt om het model praktisch toepasbaar te maken in diverse technische omgevingen.
 
-> Belangrijk: het GGM is primair **conceptueel/logisch**. Technische implementaties (tabellen, JSON Schema, API’s, RDF) worden **afgeleid** op basis van het beoogde gebruik.
+> Belangrijk: het GGM is primair **logisch**. Technische implementaties (tabellen, JSON Schema, API’s, RDF) worden **afgeleid** op basis van het beoogde gebruik.
 
 <p align="center">
-  <img src="../image/Infographic.png" alt="Infographic model" style="width: 400px;" />
+  <img src="../image/Infographic.png" alt="Infographic model" />
 </p>
 
 ## Waarom een gemeentebreed informatiemodel?
@@ -36,6 +36,7 @@ Het gegevensmodel is uitgewerkt in een aantal verticale beleidsdomeinen en 4 hor
 
 Er is ontkoppeling tussen de verschillende (sub)domeinen nagestreefd, doordat in de gegevensdefinities van het gegevensmodel (sub)domeinen alleen definities uit onderliggende (sub)domeinen gebruiken. Zo gebruiken alle (sub)domeinen gegevensdefinities uit Kern en kunnen alle verticale (sub)domeinen gegevensdefinities gebruiken uit de 4 horizontale modellen.
 
+---
 ### Beleidsdomeinen
 
 Het gegevensmodel omvat de volgende beleidsdomeinen:
@@ -136,6 +137,7 @@ Het gegevensmodel omvat de volgende beleidsdomeinen:
 
 Naast bovengenoemde beleidsterreinen kent het GGM het onderdeel 'Kern', waarin alle gedeelde objecttypen zijn te vinden. Kern is afgeleid van het [Informatiemodel Basis- en Kerngegevens (RSGB)](https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_(RSGB)) en [Informatiemodel Zaken (RGBZ)](https://www.gemmaonline.nl/index.php/Informatiemodel_Zaken_(RGBZ)) (beiden onderdeel [GEMMA: Gemeentelijke Modelarchitectuur](https://www.gemmaonline.nl/index.php/Gemeentelijke_Model_Architectuur_(GEMMA))), aangevuld met een aantal generieke objecttypen.  
 
+---
 ### Toegepaste Landelijke standaarden
 
 Nederland kent op dit moment een lappendeken aan standaarden voor gegevensuitwisseling en informatiemodellen. Samenhang tussen deze standaarden en is beperkt. Relevante standaarden zijnn zoveel mogelijk in samenhang binnen de afzonderlijke domeinen in het GGM opgenomen. Het stelsel van basisregistraties, en het daarop gerichte RSGB geven hiervoor wel enige houvast. In het GGM heeft het RSGB daarom een centrale plek.

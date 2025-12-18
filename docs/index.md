@@ -5,13 +5,17 @@ hide:
 
 # Gemeentelijk Gegevensmodel (GGM)
 
-> **Het standaard informatiemodel voor gemeenten**
+> **Hét standaard informatiemodel voor gemeenten**
 
-Het Gemeentelijk Gegevensmodel (GGM) is het standaard informatiemodel voor alle 22 beleidsdomeinen van Nederlandse gemeenten. Het biedt één centrale, openbare taal voor hoe gemeentelijke data gedefinieerd, vastgelegd en uitgewisseld moeten worden.  
+Het Gemeentelijk Gegevensmodel (GGM) is het standaard informatiemodel voor alle 22 beleidsdomeinen van Nederlandse gemeenten. Het biedt één centrale, openbare taal voor hoe data gedefinieerd, vastgelegd en uitgewisseld moeten worden. Het GGM is geen software of applicatie, maar een afgesproken structuur die ervoor zorgt dat alle systemen dezelfde taal spreken – van burgerzaken en werk & inkomen tot ruimtelijke ordening en het sociaal domein. Het model is volledig open source, gratis beschikbaar en onderdeel van het Common Ground-stelsel, waarmee gemeenten bouwen aan een toekomstbestendige en samenhangende informatievoorziening.
 
-Het GGM is geen software of applicatie, het is een afgesproken structuur die ervoor zorgt dat alle systemen van een gemeente dezelfde taal spreken. Hieronder vallen alles van burgerzaken en werk & inkomen tot ruimtelijke ordening en het sociaal domein.  
+<p>
+  <img src="image/homepage_zwartetekst.png" alt="Overzicht_homepage" />
+</p>
 
-Het model is volledig open source, gratis beschikbaar, en onderdeel van het Common Ground-stelsel.
+## Internationale erkenning
+
+Het GGM trekt ook buiten Nederland aandacht. De Noorse gemeente Trondheim heeft het GGM geadopteerd voor hun eigen datamodel, wat bewijst dat het concept universeel toepasbaar is.
 
 ---
 
@@ -69,7 +73,7 @@ Het GGM krijgt de afgelopen jaren toenemende aandacht in vakmedia en bestuurlijk
 - **VDP (Vereniging Directeuren Publieksdiensten)** positioneert het GGM als bouwsteen voor een gezamenlijk datafundament in het publieke domein  
   <https://www.publieksdiensten.nl/kennisbank/het-gemeentelijk-gegevensmodel-bouwt-aan-een-gezamenlijk-datafundament/>
 
-
+---
 ## Wat zeggen andere gemeenten?
 
 > "Met het GGM hebben we ons datawarehouse veel effectiever ingericht. 
@@ -103,9 +107,3 @@ Het GGM krijgt de afgelopen jaren toenemende aandacht in vakmedia en bestuurlijk
 > — Arjan de Bruin, Data Architect Gemeente Leiden
 
 ---
-
-## Internationale erkenning
-
-Het GGM trekt ook buiten Nederland aandacht. De Noorse gemeente Trondheim heeft 
-het GGM geadopteerd voor hun eigen datamodel, wat bewijst dat het concept universeel 
-toepasbaar is.
