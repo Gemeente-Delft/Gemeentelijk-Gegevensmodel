@@ -43,9 +43,9 @@ Het model 'Model Dak- en thuislozen' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2019-09-10 15:28:20 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_A0F8E790\_518A\_4717\_88C2\_1143DE9F944A |
     | domein_iv3 |  |
     | domein_dcat |  |

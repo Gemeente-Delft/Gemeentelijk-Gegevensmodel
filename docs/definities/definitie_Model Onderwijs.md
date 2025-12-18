@@ -56,7 +56,7 @@ Het model 'Model Onderwijs' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-05-04 14:53:34 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_CFFD5F20\_5FA9\_4d93\_AD34\_6867D64A58B9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -92,7 +92,7 @@ Attributen van objecttype Inschrijving
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-05-04 15:34:24 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_D7ECEB92\_BE50\_4e30\_9F27\_54A008BC75DF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -129,7 +129,7 @@ Attributen van objecttype Leerjaar
     | author | Arjen Brienen |
     | version | 1.11.0 |
     | created | 2018-05-28 16:42:46 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_266057AF\_58BD\_42e1\_B4D5\_16EB266B9B7A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -165,7 +165,7 @@ Attributen van objecttype Leerling
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-20 11:36:50 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_3119A4DB\_BB23\_4adc\_98BD\_82F2D7996C6B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -201,7 +201,7 @@ Attributen van objecttype Locatie
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-05-04 15:00:18 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_0E3DE26B\_C535\_4a03\_98A4\_8D36DC3D5297 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -239,7 +239,7 @@ Attributen van objecttype Loopbaanstap
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-05-04 14:59:08 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_F47ACE79\_C476\_479f\_A3A3\_729E65AF3D32 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -274,7 +274,7 @@ Attributen van objecttype Onderwijsloopbaan
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-07 17:01:21 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_96AB51D0\_52E5\_4515\_B21F\_98B30C4B9C42 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -309,7 +309,7 @@ Attributen van objecttype Onderwijsniveau
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-05-04 15:36:13 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_8AF9FAE6\_13D8\_484d\_97F5\_2A3839BC8618 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -346,7 +346,7 @@ Attributen van objecttype Onderwijssoort
     | author | Arjen Brienen |
     | version | 1.14.0 |
     | created | 2018-05-28 16:44:50 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_51C8E3DF\_FFF4\_4a20\_9CB2\_AA5FA50579E2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -381,7 +381,7 @@ Attributen van objecttype Ouder Of Verzorger
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-05-04 14:54:30 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_32DFC5DD\_79D9\_45d5\_8F9D\_7D5125961817 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -417,7 +417,7 @@ Attributen van objecttype School
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-05-04 14:57:13 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_E8301577\_1A49\_43cf\_A2CA\_0F042584EBB3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -453,7 +453,7 @@ Attributen van objecttype Startkwalificatie
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-05-04 14:53:46 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_133AF611\_9FA0\_4a09\_BF12\_74C5FA5F6F60 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -505,7 +505,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_dd5142a1\_66aa\_432f\_b6dd\_c972990a90ca |
+    | id | EAID\_c2fbac16\_9107\_4d0a\_900b\_cd5e26c9b2f3 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -542,7 +542,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_081dd744\_8948\_4540\_bb3b\_856097c973aa |
+    | id | EAID\_81c8667b\_87b8\_49a3\_bf0e\_b4185aff943d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

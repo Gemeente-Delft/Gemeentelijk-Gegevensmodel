@@ -67,7 +67,7 @@ Het model 'Model Omgevingswet' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-22 09:49:52 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_8BE600D0\_EBF4\_475b\_8801\_F387A5D39009 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -105,7 +105,7 @@ Attributen van objecttype Activiteit
     | author | Arjen Brienen |
     | version | 1.11.0 |
     | created | 2019-10-22 10:45:15 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_E93E03EF\_259F\_4bda\_A875\_A0E60CB18E89 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -142,7 +142,7 @@ Attributen van objecttype Beperkingsgebied
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-22 10:45:10 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_3BDD29C7\_FBCD\_4c90\_A520\_8187E2D9BD57 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -179,7 +179,7 @@ Attributen van objecttype Functie
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-22 09:50:00 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_503BD06E\_E063\_46f2\_8B43\_BF75A143D6C4 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -217,7 +217,7 @@ Attributen van objecttype Gebiedsaanwijzing
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-23 12:19:30 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_4942AB0A\_804B\_4043\_BD3C\_7F65E2D697E0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -263,7 +263,7 @@ Attributen van objecttype Idealisatie
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-22 10:52:10 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_A6C71E4C\_CB46\_41ae\_8A61\_C8080BB92A55 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -300,7 +300,7 @@ Attributen van objecttype Instructieregel
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-22 10:47:00 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_DDFF98D8\_99FF\_47b5\_82D1\_7FF2376750D6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -342,7 +342,7 @@ Attributen van objecttype Juridische Regel
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-22 11:00:51 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_081F7413\_A4D0\_49e7\_98E2\_E0F3F4299750 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -378,7 +378,7 @@ Attributen van objecttype Norm
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-22 11:31:55 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_58656D46\_644B\_4779\_A473\_739C5636BA0A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -416,7 +416,7 @@ Attributen van objecttype Normwaarde
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-22 11:02:26 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_F90F8E5E\_7402\_4c44\_AC69\_91A4175E5D47 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -453,7 +453,7 @@ Attributen van objecttype Omgevingsnorm
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-22 11:02:39 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_6B1F7274\_19A7\_4349\_835E\_85CBEFFEE35A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -490,7 +490,7 @@ Attributen van objecttype Omgevingswaarde
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-22 10:52:33 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_2FC6C6EB\_DF35\_49e6\_9694\_1B8BD53537B0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -527,7 +527,7 @@ Attributen van objecttype Omgevingswaarderegel
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-22 10:52:02 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_3D9D2E7B\_525E\_43d9\_B08F\_EDE47F8A0C94 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -563,7 +563,7 @@ Attributen van objecttype Regel voor Iedereen
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-23 12:19:35 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_55FC829A\_906B\_4cb7\_87D7\_5BBAE59E07A8 |
     | domein_iv3 |  |
     | domein_dcat |  |

@@ -103,7 +103,7 @@ Attributen van objecttype Leefgebied
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | toelichting | Text |  |
-| soortLeefgebied | Enumeratie: "enum_Leefgebied" |  |
+| leefgebiedOmschrijving | Enumeratie: "enum_Leefgebied" |  |
 
 
 

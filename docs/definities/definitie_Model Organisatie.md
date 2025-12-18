@@ -46,7 +46,7 @@ Het model 'Model Organisatie' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-11-13 15:49:09 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_0E19C86B\_9088\_41bd\_9DD0\_15094426570E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -82,7 +82,7 @@ Attributen van objecttype Programma
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-05-14 14:32:41 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_7087D528\_7024\_4569\_876A\_C4605A00546D |
     | domein_iv3 |  |
     | domein_dcat |  |

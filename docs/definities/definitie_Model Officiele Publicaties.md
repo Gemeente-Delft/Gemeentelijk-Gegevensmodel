@@ -16,7 +16,7 @@
     | author | Arjen Brienen |
     | version | 1.1.0 |
     | created | 2019-10-23 14:40:55 |
-    | modified | 2025-12-17 16:12:38 |
+    | modified | 2025-12-18 15:38:53 |
     | id | EAPK\_DD661A2E\_8CE9\_4686\_B9C7\_B13EF5367803 |
     
 
@@ -46,7 +46,7 @@ Het model 'Model Officiele Publicaties' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-23 17:01:05 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_F5434F00\_CC0F\_4d7b\_91AE\_20CBD3C60DFC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -81,7 +81,7 @@ Attributen van objecttype Omgevingsdocument
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-23 17:00:53 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_A744FAF8\_16B7\_4e5d\_9C10\_203AA8E7C440 |
     | domein_iv3 |  |
     | domein_dcat |  |

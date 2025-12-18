@@ -53,7 +53,7 @@ Het model 'Model Generiek' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-09 14:47:49 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_7FE4B466\_B051\_4068\_9ED1\_6E60C3B2DBAD |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -95,7 +95,7 @@ Attributen van objecttype Foto
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-22 09:39:03 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_0303A7A4\_EF51\_4262\_AEE0\_642FA5064807 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -110,7 +110,7 @@ Attributen van objecttype Gebied
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| gebiedsOmschrijving | MultiSurface |  |
+| gebiedsAanduiding | MultiSurface |  |
 
 
 
@@ -131,7 +131,7 @@ Attributen van objecttype Gebied
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-22 09:40:17 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_85E3996B\_578D\_4313\_B078\_2773F98412D9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -166,7 +166,7 @@ Attributen van objecttype Gebiedengroep
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-22 09:38:52 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_FAB83AD1\_DC8C\_4f78\_B54F\_33466EB9B139 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -181,7 +181,7 @@ Attributen van objecttype Lijn
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| lijnData | Line |  |
+| lijnLocatie | Lijn |  |
 
 
 
@@ -202,7 +202,7 @@ Attributen van objecttype Lijn
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-22 09:40:05 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_CD06432A\_B69D\_4ab2\_A5B0\_C4C3092835A0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -237,7 +237,7 @@ Attributen van objecttype Lijnengroep
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-22 09:37:55 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_79284529\_B817\_4e3f\_BE51\_AEAFC60BDE44 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -275,7 +275,7 @@ Attributen van objecttype Locatie
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-22 09:38:45 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_20437683\_6777\_4c7b\_B44B\_1E3A216239AA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -290,7 +290,7 @@ Attributen van objecttype Punt
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| geopunt | Punt |  |
+| puntLocatie | Punt |  |
 
 
 
@@ -311,7 +311,7 @@ Attributen van objecttype Punt
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-22 09:39:56 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_4C0C5DDB\_E5BA\_42a0\_BA5B\_65E2D433B16C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -346,7 +346,7 @@ Attributen van objecttype Puntengroep
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-16 16:20:58 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_435883D2\_C399\_4590\_B4F5\_B07111103484 |
     | domein_iv3 |  |
     | domein_dcat |  |

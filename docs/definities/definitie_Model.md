@@ -45,7 +45,7 @@ Het model 'Model' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-05-15 10:31:56 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_137DECB4\_F249\_4039\_B4F3\_787852C4CB11 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -62,7 +62,7 @@ Attributen van objecttype Periode
 | :--- | :--- | :--- |
 | datumStart | date |  |
 | datumEinde | date |  |
-| omschrijving | Tekst |  |
+| omschrijving | AN255 |  |
 
 
 

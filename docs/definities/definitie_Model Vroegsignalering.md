@@ -16,7 +16,7 @@
     | author | Arjen Brienen |
     | version | 1.1.0 |
     | created | 2025-04-23 15:37:33 |
-    | modified | 2025-12-17 16:12:38 |
+    | modified | 2025-12-18 15:38:53 |
     | id | EAPK\_BB7B01A9\_44F5\_4e0f\_B158\_0DDAA5B6593D |
     
 
@@ -52,9 +52,9 @@ Het model 'Model Vroegsignalering' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2025-07-10 14:53:49 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_3109FEF3\_A1CB\_4f50\_800B\_376A18465F9F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -89,9 +89,9 @@ Attributen van objecttype AanleverendeOrganisatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2025-07-10 14:51:54 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_A629ED5F\_E919\_6316\_A279\_92891F2325BB |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -128,9 +128,9 @@ Attributen van objecttype Contactpersoon
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2025-04-09 16:07:30 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_C7000EFD\_826C\_4e47\_BD80\_075A6EF4E558 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -169,9 +169,9 @@ Attributen van objecttype Contactpoging
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2025-04-09 16:16:46 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_3643CF44\_EFAA\_4939\_9AEB\_ACA8D8EE11F9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -207,9 +207,9 @@ Attributen van objecttype Signaalpartner
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2025-04-09 16:03:55 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_C6DA2586\_C0E3\_4868\_93E8\_64AF6D118092 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -248,9 +248,9 @@ Attributen van objecttype Vroegsignaal
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2025-04-09 16:05:23 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_1AA67F0D\_3B94\_48a3\_A037\_A2ACC6D61CF0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -306,9 +306,9 @@ De enumeratie EnumContactsoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2025-04-09 16:10:41 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:53 |
     | id | EAID\_7BA37694\_65C5\_4cfb\_8804\_D7EB6CE344FB |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -342,9 +342,9 @@ De enumeratie EnumDagdeel heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2025-05-26 09:07:14 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:53 |
     | id | EAID\_3860D42A\_481D\_42cd\_86F9\_79B5D6230A58 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -452,9 +452,9 @@ De enumeratie EnumEindresultaat heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2025-04-09 16:10:26 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:53 |
     | id | EAID\_B78A9A0E\_65B0\_4c4b\_AA01\_99CFA196D740 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -501,9 +501,9 @@ De enumeratie EnumSignaalpartner heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2025-04-09 16:29:45 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:53 |
     | id | EAID\_ACE0EA25\_898C\_4de3\_8196\_49AD3AE5481F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -565,9 +565,9 @@ De enumeratie EnumSignaalstatus heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2025-05-07 11:25:56 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:53 |
     | id | EAID\_568499A3\_3FE7\_4342\_B1B4\_36A01AEAC1C9 |
     | domein_iv3 |  |
     | domein_dcat |  |

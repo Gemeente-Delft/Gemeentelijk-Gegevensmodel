@@ -53,7 +53,7 @@ Het model 'Model Sociale Teams' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-13 10:19:13 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_1B8CF61F\_3039\_4fc5\_A57D\_B758170FCA0E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -91,7 +91,7 @@ Attributen van objecttype Behandeling
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-13 09:55:13 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_4F518962\_5EA3\_4f56\_8379\_3A835FFE84CA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -128,7 +128,7 @@ Attributen van objecttype Behandelsoort
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-13 09:53:29 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_77A962E5\_889A\_4af6\_ADFD\_37C3EE8C48F0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -164,7 +164,7 @@ Attributen van objecttype Bijzonderheid
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-13 10:17:52 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_03BB6341\_7C3E\_4a4b\_9207\_6A2EB9D116FE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -201,7 +201,7 @@ Attributen van objecttype Bijzonderheidsoort
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-13 09:53:06 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_294E3981\_C1EF\_451e\_AE2B\_758EC4E4B284 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -237,7 +237,7 @@ Attributen van objecttype Caseaanmelding
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-13 09:54:57 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_28C572B5\_C147\_4b99\_B920\_00062C843FDE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -273,7 +273,7 @@ Attributen van objecttype Doelstelling
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-13 10:16:13 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_79A14AF2\_F1F9\_43a3\_914B\_FD04CB609F44 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -310,7 +310,7 @@ Attributen van objecttype Doelstellingsoort
     | author | Arjen Brienen |
     | version | 1.10.0 |
     | created | 2018-05-23 15:28:57 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_A22B8038\_3C04\_44a7\_8E75\_90A3A5E2615B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -350,7 +350,7 @@ Attributen van objecttype SociaalTeamDossier
     | author | Arjen Brienen |
     | version | 1.10.0 |
     | created | 2018-06-13 09:52:37 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_E81990BA\_1B6E\_4e2a\_9910\_1E02CDDD53A6 |
     | domein_iv3 |  |
     | domein_dcat |  |

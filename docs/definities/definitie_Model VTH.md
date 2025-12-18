@@ -16,7 +16,7 @@
     | author | Arjen Brienen |
     | version | 1.1.0 |
     | created | 2019-04-16 10:33:38 |
-    | modified | 2025-12-17 16:12:38 |
+    | modified | 2025-12-18 15:38:53 |
     | id | EAPK\_AA7AC6CA\_3F75\_4f72\_9941\_AC3710C5F46A |
     
 
@@ -72,9 +72,9 @@ Het model 'Model VTH' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2022-02-14 14:40:41 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_9547BC67\_7488\_4d9a\_B651\_2B69A62D789F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -108,9 +108,9 @@ Attributen van objecttype Activiteit Omgevingswet
     | uri |  |
     | bron |  |
     | author | Ashkan Ashkpour |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2020-11-30 14:06:39 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_FDEB42B6\_5D93\_46bf\_9B5C\_10F42BA4AC26 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -148,9 +148,9 @@ Attributen van objecttype AOMStatus
     | uri |  |
     | bron |  |
     | author | Ashkan Ashkpour |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2022-08-10 13:59:39 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_ED0D0224\_0A30\_435b\_AB25\_87FDA8DF4078 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -194,9 +194,9 @@ Attributen van objecttype Bevinding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2019-04-16 10:36:35 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_90B2A249\_8D88\_4a14\_979F\_672223D98E8C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -229,9 +229,9 @@ Attributen van objecttype BOA
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2019-05-09 14:51:11 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_43D57BB8\_C2E4\_4b5a\_A41C\_C5CEC9D3877D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -265,9 +265,9 @@ Attributen van objecttype Combibon
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2019-04-16 10:36:20 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_FF9A4A36\_6674\_4590\_BC33\_7B6DC5256490 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -302,9 +302,9 @@ Attributen van objecttype Fietsregistratie
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2022-02-14 14:41:03 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_94E2B19A\_6942\_4164\_8A52\_3C0BBDE45808 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -339,9 +339,9 @@ Attributen van objecttype Grondslag
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2019-04-18 10:56:20 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_3D2D5426\_653C\_485c\_A99C\_8AD933E76D78 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -379,9 +379,9 @@ Attributen van objecttype Heffinggrondslag
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2019-04-18 10:54:17 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_C29CCD49\_04E2\_44b4\_A6B0\_AD8B10552628 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -414,9 +414,9 @@ Attributen van objecttype Heffingsverordening
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2019-04-18 15:45:30 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_E9AD325A\_49CF\_48a6\_AA9E\_7FB57E03E414 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -431,8 +431,6 @@ Attributen van objecttype Indiener
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| naam | char |  |
-| melding | char |  |
 
 
 
@@ -451,9 +449,9 @@ Attributen van objecttype Indiener
     | uri |  |
     | bron |  |
     | author | Ashkan Ashkpour |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2022-08-08 14:30:16 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_F73901FC\_A78E\_486f\_B6C6\_74CFCBE26CAB |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -497,9 +495,9 @@ Attributen van objecttype Inspectie
     | uri |  |
     | bron |  |
     | author | Ashkan Ashkpour |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2022-05-30 14:45:46 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_0E4A8F94\_ED08\_43dc\_9F78\_C9DD17D34690 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -548,9 +546,9 @@ Attributen van objecttype Kosten
     | uri |  |
     | bron |  |
     | author | Ashkan Ashkpour |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2022-05-30 14:52:05 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_7F9392E5\_6E43\_4880\_AF14\_819E32A86204 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -593,9 +591,9 @@ Attributen van objecttype Leges_Grondslag
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2019-05-02 16:15:28 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_872A0342\_EA75\_418e\_9455\_E51875BFD771 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -629,9 +627,9 @@ Attributen van objecttype Ligplaatsontheffing
     | uri |  |
     | bron |  |
     | author | Ashkan Ashkpour |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2020-09-09 16:09:39 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_80F23226\_8DD8\_4926\_B8F1\_F2A3C01A29BF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -669,9 +667,9 @@ Attributen van objecttype MORAanvraagOfMelding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2019-05-02 16:03:27 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_B2B423C3\_B9C9\_4b4f\_A47D\_85D29417B9B4 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -709,9 +707,9 @@ Attributen van objecttype OpenbareActiviteit
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2019-05-07 15:38:38 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_13BB343D\_A595\_43c9\_8208\_9BC5B05B618C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -744,9 +742,9 @@ Attributen van objecttype Precario
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2022-02-14 14:33:55 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_03B4B3C0\_3616\_4ea2\_A8B1\_3D6754325F02 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -780,9 +778,9 @@ Attributen van objecttype Producttype
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2022-02-14 14:34:17 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_0DB447E3\_B31B\_4f07\_8E35\_7E77D0AAEF80 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -817,9 +815,9 @@ Attributen van objecttype SubProducttype
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2019-05-09 15:32:41 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_D12123D3\_D62D\_4978\_B7D4\_8405F00A0D6A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -858,9 +856,9 @@ Attributen van objecttype Vaartuig
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2019-05-08 14:16:31 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_44B26957\_BAA4\_41c2\_ABBF\_CC1AC91D30D6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -904,9 +902,9 @@ Attributen van objecttype VOMAanvraagOfMelding
     | uri |  |
     | bron |  |
     | author | Ashkan Ashkpour |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2022-05-30 14:18:38 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_341942C1\_0F72\_4e13\_ADD1\_235805BB81C0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -952,9 +950,9 @@ Attributen van objecttype Vordering
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2022-12-01 11:08:58 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_E2B83F97\_FDFD\_4876\_9E66\_23D79D4A4C03 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -997,9 +995,9 @@ Attributen van objecttype Vorderingregel
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2019-04-16 10:36:04 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_E9AEF0A9\_11BC\_4d2a\_BC48\_FB77F04EF9A6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1048,9 +1046,9 @@ Attributen van objecttype VTH-Melding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2019-05-09 16:02:38 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_EAC249B9\_13F7\_472b\_A971\_05ED32006F04 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1084,9 +1082,9 @@ Attributen van objecttype VTHAanvraagOfMelding
     | uri |  |
     | bron |  |
     | author | Ashkan Ashkpour |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2020-09-09 16:33:02 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_88AF7A2E\_C508\_464a\_AD22\_DD9B156D570D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1125,9 +1123,9 @@ Attributen van objecttype VTHzaak
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2019-05-09 14:43:04 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_DDC990BC\_C026\_4c98\_BEE5\_6692EA0C2515 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1160,9 +1158,9 @@ Attributen van objecttype Waarneming
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2019-04-17 13:32:09 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_192EA281\_414F\_4d8d\_85D1\_5C1B75224942 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1200,9 +1198,9 @@ Attributen van objecttype WABOAanvraagOfMelding
     | uri |  |
     | bron |  |
     | author | Ashkan Ashkpour |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2021-06-15 17:18:45 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_5CE9E5F3\_BA9A\_47e4\_A4C1\_DE21E66E9F8E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1240,9 +1238,9 @@ Attributen van objecttype WoonfraudeAanvraagOfMelding
     | uri |  |
     | bron |  |
     | author | Ashkan Ashkpour |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2020-09-09 16:23:16 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_CB5BCFAA\_01F3\_468d\_A5CE\_4E08D3E4FFC2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1296,7 +1294,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_78106724\_4cff\_4245\_b6f2\_742472c2e554 |
+    | id | EAID\_93a3d751\_1150\_43f7\_8ef6\_ace3b65f55bc |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1333,7 +1331,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_92f4b93f\_1b28\_4910\_821d\_3c8041aa1e6e |
+    | id | EAID\_698cc168\_7370\_4944\_afb4\_7727be135a61 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1366,9 +1364,9 @@ De enumeratie Beoordelingsoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2019-06-03 11:53:25 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_3B4D2D66\_B801\_42a8\_A3FB\_CC4A29FF8320 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1401,9 +1399,9 @@ De enumeratie Heffingsoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2019-05-08 13:48:43 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_356C8F59\_3721\_46d0\_BCD0\_C17B0130035C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1437,9 +1435,9 @@ De enumeratie StatusOpenbareActiviteit heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.9.0 |
     | created | 2019-05-02 16:07:28 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_A29EE01A\_118E\_4599\_BADD\_35B9393A78F4 |
     | domein_iv3 |  |
     | domein_dcat |  |

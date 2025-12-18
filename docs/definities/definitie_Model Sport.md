@@ -53,7 +53,7 @@ Het model 'Model Sport' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-07-11 15:31:28 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_9E01AD8B\_D856\_4a58\_9CE1\_06C70F628350 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -89,7 +89,7 @@ Attributen van objecttype Belijning
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-07-08 17:08:46 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_D9F56210\_BF72\_42e4\_A1BC\_AD7F683D55A0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -124,7 +124,7 @@ Attributen van objecttype Bezetting
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-07-08 17:08:39 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_6508657D\_7C3F\_4261\_B647\_5D3B077A20F9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -171,7 +171,7 @@ Attributen van objecttype Binnenlocatie
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-07-08 17:11:34 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_5C8F7563\_D1FF\_4622\_8565\_F48A1BCAB9E3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -206,7 +206,7 @@ Attributen van objecttype Onderhoudskosten
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-07-11 16:32:05 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_BE5E10D0\_FD83\_4b0a\_B5D2\_4A7EE6B9C53B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -242,7 +242,7 @@ Attributen van objecttype Sportlocatie
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-07-11 15:31:36 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_5B64A5F8\_64B5\_4d1b\_BEDD\_486ED2C2C493 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -278,7 +278,7 @@ Attributen van objecttype Sportmateriaal
     | author | Arjen Brienen |
     | version | 1.11.0 |
     | created | 2019-07-08 17:08:51 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_FE1A2EF2\_44FA\_46fa\_A583\_7BAB858E17FD |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -313,7 +313,7 @@ Attributen van objecttype Sportpark
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-07-08 17:08:29 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_852AD372\_B353\_49c2\_A4E7\_F87D8AA96AD7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -356,7 +356,7 @@ Attributen van objecttype Sportvereniging
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-07-08 17:08:54 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_D1889096\_CC76\_48a8\_A9DF\_8151FFF1E0AC |
     | domein_iv3 |  |
     | domein_dcat |  |

@@ -16,7 +16,7 @@
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-06-27 21:51:28 |
-    | modified | 2025-12-17 16:12:38 |
+    | modified | 2025-12-18 15:38:53 |
     | id | EAPK\_267CE4D0\_488B\_88CF\_BF22\_3741D472C108 |
     
 
@@ -69,6 +69,7 @@ Attributen van objecttype Bankrekening
 | Brontype | Brontype |  |
 | Datum aanvang bankrekening | Date |  |
 | Datum einde bankrekening | Date |  |
+| IBAN | CharacterString |  |
 | Rekeningtype | Rekeningtype |  |
 | Tenaamstelling | CharacterString |  |
 | Voorkeur bankrekening | Boolean |  |
@@ -201,7 +202,7 @@ Attributen van objecttype Onroerend goed
     | author | janbr |
     | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_08000E15\_8AA2\_AE9A\_89F0\_262C7C061238 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -219,6 +220,7 @@ Attributen van objecttype Vermogenscomponent
 | Code soort vermogenscomponent |  |  |
 | Datum vaststelling vermogencomponent | Date |  |
 | Nog aan te spreken vermogen | Bedrag |  |
+| Vermogenscomponent ID | Integer |  |
 | Vrij te laten vermogen | Bedrag |  |
 
 
@@ -240,7 +242,7 @@ Attributen van objecttype Vermogenscomponent
     | author | janbr |
     | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_1C1EF3EA\_888E\_945B\_4A20\_27DB5B434D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -261,6 +263,7 @@ Attributen van objecttype Waardepeiling
 | Link naar bewijs | CharacterString |  |
 | Peilmoment | Date |  |
 | Waarde vermogenscomponent | Bedrag |  |
+| WaardepeilingId | CharacterString |  |
 | WaardeSoort vermogenscomponent |  |  |
 
 

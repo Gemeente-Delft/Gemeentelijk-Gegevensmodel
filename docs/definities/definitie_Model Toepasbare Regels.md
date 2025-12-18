@@ -53,7 +53,7 @@ Het model 'Model Toepasbare Regels' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-23 15:46:18 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_C2A7756C\_87E9\_44f0\_85A9\_673F3956BB48 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -88,7 +88,7 @@ Attributen van objecttype Conclusie
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-23 15:46:26 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_8587D910\_7A9C\_46d8\_BF27\_27433E9B6DAD |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -123,7 +123,7 @@ Attributen van objecttype Indieningsvereisten
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-23 15:46:53 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_45591365\_C55F\_4735\_9533\_D3BBB0AB6571 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -161,7 +161,7 @@ Attributen van objecttype Maatregelen
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-23 15:45:54 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_10C06EB3\_F94A\_4005\_9C66\_0DAE61B96192 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -203,7 +203,7 @@ Attributen van objecttype Toepasbare Regel
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-23 15:49:18 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_3120D398\_95C1\_42fe\_B10F\_4F3B6BF15D1A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -240,7 +240,7 @@ Attributen van objecttype ToepasbareRegelBestand
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-23 15:47:28 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_1528D03C\_4F22\_4d6b\_A44F\_605802C195C4 |
     | domein_iv3 |  |
     | domein_dcat |  |

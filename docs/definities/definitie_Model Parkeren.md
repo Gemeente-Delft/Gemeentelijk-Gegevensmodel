@@ -57,7 +57,7 @@ Het model 'Model Parkeren' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-02-13 15:52:28 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_6C283ABA\_C1A3\_465b\_B267\_39E75D06E41F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -93,7 +93,7 @@ Attributen van objecttype Belprovider
     | author | Arjen Brienen |
     | version | 1.13.0 |
     | created | 2019-02-18 14:18:39 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_4EA4D754\_FAD7\_4caf\_8060\_342689EC16FE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -143,7 +143,7 @@ Attributen van objecttype MulderFeit
     | author | Arjen Brienen |
     | version | 1.11.0 |
     | created | 2019-02-13 16:05:29 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_4957AC99\_3F36\_4959\_A210\_9EC6759B87F8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -194,7 +194,7 @@ Attributen van objecttype Naheffing
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-02-14 16:11:43 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_8F492648\_6EF2\_4f8a\_87C9\_2440230D4137 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -229,7 +229,7 @@ Attributen van objecttype Parkeergarage
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-02-13 14:32:45 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_9E0936E5\_6B50\_4205\_BA5D\_FEB80486D6F1 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -271,7 +271,7 @@ Attributen van objecttype Parkeerrecht
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-02-13 14:50:52 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_653EEEA7\_ED82\_427d\_BD72\_86C847793AD6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -314,7 +314,7 @@ Attributen van objecttype Parkeerscan
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-03-21 11:47:02 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_FF448272\_AB9D\_4ec9\_B4BE\_E60E2552817A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -358,7 +358,7 @@ Attributen van objecttype Parkeervergunning
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-02-13 14:43:35 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_5E5C58AD\_1634\_4656\_A183\_EBA00F18F30E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -399,7 +399,7 @@ Attributen van objecttype Parkeervlak
     | author | Arjen Brienen |
     | version | 1.14.0 |
     | created | 2019-02-13 14:33:20 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_27219A32\_3B52\_4f54\_AA67\_A972F4B7D9D0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -453,7 +453,7 @@ Attributen van objecttype Parkeerzone
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-02-14 14:26:09 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_209ACADD\_34C7\_4dc8\_90AD\_C6B3E092FBFD |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -491,7 +491,7 @@ Attributen van objecttype Productgroep
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-02-14 15:08:29 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_1CB4051D\_B78A\_48f0\_AE3E\_A98D997A5612 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -530,7 +530,7 @@ Attributen van objecttype Productsoort
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-02-13 14:46:01 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_339ACCD5\_1D13\_4a48\_83DE\_05A0A4A54C43 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -568,7 +568,7 @@ Attributen van objecttype Straatsectie
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-02-13 14:31:44 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_6AD98160\_FFE6\_4105\_A724\_5D5733C87CD8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -623,7 +623,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_6ae81bdc\_3976\_4ed7\_b803\_a96b2558ad6b |
+    | id | EAID\_17dd54db\_bc10\_48d0\_a4e8\_9fb8ebc37ae4 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

@@ -50,7 +50,7 @@ Het model 'Model Economie' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-12-18 13:52:42 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_3BF6985C\_06AB\_4cfc\_9A0E\_5CC37C224245 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -88,7 +88,7 @@ Attributen van objecttype Contact
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-12-18 14:20:03 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_5805FA72\_C0CE\_43c1\_A53F\_B81166AEFDD4 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -124,7 +124,7 @@ Attributen van objecttype Hotel
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-12-18 14:09:16 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_669000E9\_25D6\_4346\_B718\_516CDB8B88B7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -161,7 +161,7 @@ Attributen van objecttype Hotelbezoek
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-12-18 14:19:47 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_8F05E7BA\_E7ED\_45d1\_9626\_C8D7FBDB2F1B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -197,7 +197,7 @@ Attributen van objecttype Verkooppunt
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-12-18 14:08:27 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_EB35F5B8\_9289\_49cc\_8DF4\_8BD20EC662A9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -237,7 +237,7 @@ Attributen van objecttype Werkgelegenheid
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-12-18 14:08:39 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_0EABA880\_434F\_41c3\_A41D\_0002222AAC2A |
     | domein_iv3 |  |
     | domein_dcat |  |

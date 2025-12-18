@@ -45,7 +45,7 @@ Het model 'Relatieklasse' kent de volgende objecttypen:
     | author | debat\_e |
     | version | 1.12.0 |
     | created | 2011-11-28 14:45:08 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:50 |
     | id | EAID\_DF81069D\_CBE4\_433e\_AB7C\_CB06170275C9 |
     | domein_iv3 |  |
     | domein_dcat |  |

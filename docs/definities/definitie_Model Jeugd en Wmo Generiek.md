@@ -75,7 +75,7 @@ Het model 'Model Jeugd en Wmo Generiek' kent de volgende objecttypen:
     | author | Ashkan Ashkpour |
     | version | 1.10.0 |
     | created | 2021-12-15 14:49:37 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_BE7C28C6\_0922\_4c6a\_A953\_3D598D991AB5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -120,7 +120,7 @@ Attributen van objecttype AOM_AanvraagWmoJeugd
     | author | Ashkan Ashkpour |
     | version | 1.10.0 |
     | created | 2021-12-15 14:38:21 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_0FA25A4F\_DF7F\_4feb\_9460\_19D054E874F8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -165,7 +165,7 @@ Attributen van objecttype AOMMeldingWmoJeugd
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-03-21 15:32:51 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_F110608E\_9C6A\_4d66\_BDCB\_F4B2465E3CFD |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -204,7 +204,7 @@ Attributen van objecttype Beperking
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-04-23 14:41:29 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_4E835898\_6623\_457f\_99B4\_C688D465F720 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -241,7 +241,7 @@ Attributen van objecttype Beperkingscategorie
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-03-21 15:33:15 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_5EDE0349\_8865\_4b90\_9A18\_235C5AA660C4 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -279,7 +279,7 @@ Attributen van objecttype Beperkingscore
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-04-23 14:41:43 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_6B63630A\_8A30\_454d\_B8C4\_252D4C30A3BF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -316,7 +316,7 @@ Attributen van objecttype Beperkingscoresoort
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-04-23 16:56:03 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_71D7E96D\_641A\_4b6a\_A325\_DED07C3B5836 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -335,7 +335,7 @@ Attributen van objecttype Beschikking
 | code | AN20 |  |
 | grondslagen | int |  |
 | commentaar | AN200 |  |
-| wet | AN200 |  |
+| wet |  |  |
 
 
 
@@ -356,7 +356,7 @@ Attributen van objecttype Beschikking
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-13 14:01:26 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_FD14E04F\_26A1\_42ba\_8E47\_5F43AF539877 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -391,7 +391,7 @@ Attributen van objecttype Beschikkingsoort
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-13 13:58:33 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_975C3DA3\_930A\_49d8\_B54F\_2A560DC2AD5A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -437,7 +437,7 @@ Attributen van objecttype Beschikte Voorziening
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-09-09 13:49:43 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_679162ED\_0B45\_4fb2\_B16E\_421C25A107F5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -474,7 +474,7 @@ Attributen van objecttype Budgetuitputting
     | author | Ashkan Ashkpour |
     | version | 1.12.0 |
     | created | 2021-11-15 14:24:21 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_5E542F35\_E413\_49c4\_8FB7\_335B6BE9667A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -512,7 +512,7 @@ Attributen van objecttype Declaratie
     | author | Arjen Brienen |
     | version | 1.10.0 |
     | created | 2018-06-12 15:34:16 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_F73F6BFE\_9CFE\_4497\_80E3\_CADAA344CF69 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -551,7 +551,7 @@ Attributen van objecttype Declaratieregel
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-05-23 15:34:35 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_C55180D9\_A5C3\_4859\_BD88\_7686F5384157 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -589,7 +589,7 @@ Attributen van objecttype Leefgebied
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-04-23 14:46:17 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_F0CE97B6\_3004\_4424\_A0AA\_5034BC0144D1 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -631,7 +631,7 @@ Attributen van objecttype Levering
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-04-23 16:43:06 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_F35DA519\_FA0C\_48ae\_9EFC\_C4EBEC4BF144 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -669,7 +669,7 @@ Attributen van objecttype Leveringsvorm
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-09-09 13:33:02 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_A9D093FB\_B3D1\_46e5\_B263\_6C4D61F0C5D1 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -708,7 +708,7 @@ Attributen van objecttype Melding Eigen bijdrage
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-09-09 13:42:53 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_84FE9B56\_158D\_4b65\_BCC1\_5FE29D071FCC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -746,7 +746,7 @@ Attributen van objecttype PGB-Toekenning
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-05-23 15:40:08 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_5A367DA9\_DE05\_4b3b\_954D\_24271FD4FB76 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -782,7 +782,7 @@ Attributen van objecttype Score
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-05-23 15:34:03 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_653EA248\_1547\_4f8b\_B026\_B44FEEC711B2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -818,7 +818,7 @@ Attributen van objecttype Scoresoort
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-13 14:26:29 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_57F01465\_EE56\_4c33\_9BD9\_8DB351A2C530 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -858,7 +858,7 @@ Attributen van objecttype Tarief
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-13 11:54:40 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_909A4134\_4697\_481e\_9110\_6386D0F6CAAD |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -895,7 +895,7 @@ Attributen van objecttype Team
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-04-23 16:56:03 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_01ECE551\_A7B0\_4b99\_B6E7\_F654D6AC15D5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -942,7 +942,7 @@ Attributen van objecttype Toewijzing
     | author | Ashkan Ashkpour |
     | version | 1.10.0 |
     | created | 2023-07-27 15:34:06 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_EC0FB9CB\_B407\_49b4\_8FCF\_8837E7A72DA9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -984,7 +984,7 @@ Attributen van objecttype Verplichting Wmo Jeugd
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-09-09 11:59:36 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_9F392B0B\_1654\_4b4e\_9261\_F0A90DA1F7BD |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1032,7 +1032,7 @@ Attributen van objecttype Verzoek om Toewijzing
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-04-23 16:56:03 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_EAAF2F59\_6BC0\_4243\_B126\_A8E604B32C5E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1073,7 +1073,7 @@ Attributen van objecttype Voorziening
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-13 14:31:08 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_462E3982\_56C3\_4442\_BE2F\_2C23A7ED6015 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1115,7 +1115,7 @@ Attributen van objecttype Voorzieningsoort
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-05-23 15:20:43 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_6C27D3D1\_FBCE\_4504\_AF1E\_48B4A4CB02EA |
     | domein_iv3 |  |
     | domein_dcat |  |

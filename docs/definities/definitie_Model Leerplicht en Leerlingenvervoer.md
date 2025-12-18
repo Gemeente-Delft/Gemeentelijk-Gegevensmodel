@@ -59,7 +59,7 @@ Het model 'Model Leerplicht en Leerlingenvervoer' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-08 14:25:36 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_07F40D10\_74AC\_4f56\_8B71\_A236A63C2122 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -94,7 +94,7 @@ Attributen van objecttype Aanvraag Leerlingenvervoer
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-08 13:41:08 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_66E2B5BA\_44A0\_4fde\_AE33\_E211EE4832C2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -133,7 +133,7 @@ Attributen van objecttype AanvraagOfMelding
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-07 17:08:58 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_450F47A7\_758F\_400c\_82EB\_05535EBDD426 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -170,7 +170,7 @@ Attributen van objecttype AanvraagVrijstelling
     | author | Arjen Brienen |
     | version | 1.14.0 |
     | created | 2019-10-08 14:24:29 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_81870665\_768C\_4fb2\_8A4F\_A9CB7989C884 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -205,7 +205,7 @@ Attributen van objecttype Beschikking Leerlingenvervoer
     | author | Arjen Brienen |
     | version | 1.11.0 |
     | created | 2019-10-07 17:07:12 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_B65280CD\_3429\_4966\_AD2D\_CB3EE76EE2E8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -243,7 +243,7 @@ Attributen van objecttype Beslissing
     | author | Arjen Brienen |
     | version | 1.14.0 |
     | created | 2019-10-07 17:09:13 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_90E49701\_2A06\_4669\_9199\_6FCFDFCA707A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -279,7 +279,7 @@ Attributen van objecttype Doorgeleiding OM
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-07 17:25:07 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_70E3C6AF\_1117\_4cfc\_B61F\_0D168010FFB9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -318,7 +318,7 @@ Attributen van objecttype HALT-verwijzing
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-17 11:16:59 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_07FE66E8\_8316\_406b\_A590\_922C2E7B4305 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -353,7 +353,7 @@ Attributen van objecttype Klacht Leerlingenvervoer
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-05-28 16:47:00 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_B369B374\_F560\_4ea6\_9A8B\_DBBCB4961EFF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -388,7 +388,7 @@ Attributen van objecttype Leerplichtambtenaar
     | author | Arjen Brienen |
     | version | 1.14.0 |
     | created | 2018-05-04 14:58:20 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_697F1730\_B439\_4b35\_8799\_1B2E9AB04548 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -436,7 +436,7 @@ Attributen van objecttype Procesverbaal Onderwijs
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-07 17:08:43 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_E9DECE41\_F7F5\_49f1\_94B5\_63DE941F6094 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -474,7 +474,7 @@ Attributen van objecttype Verlofaanvraag
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-17 11:24:55 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_613E192A\_D0F2\_4e67\_BE73\_51C09197EE3D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -509,7 +509,7 @@ Attributen van objecttype Vervoerder
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-05-04 14:57:49 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_252C70B1\_4E02\_4033\_B2B5\_86F65496D7AB |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -547,7 +547,7 @@ Attributen van objecttype Verzuimmelding
     | author | Arjen Brienen |
     | version | 1.14.0 |
     | created | 2018-05-04 14:58:11 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_B8584CD2\_A54A\_4a59\_82B6\_A597A0864CFA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -587,7 +587,7 @@ Attributen van objecttype Vrijstelling
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-10-17 11:17:22 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_7689A6B7\_2A9E\_42db\_A028\_E4601305DBFF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -637,7 +637,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_4f6305f4\_fa38\_4b83\_a73b\_455d56eabc22 |
+    | id | EAID\_de7d34e3\_38f7\_410e\_bfe9\_828a835c5339 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -674,7 +674,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_4500e6c2\_b957\_4b24\_9d81\_4c5441a0e4e5 |
+    | id | EAID\_efd44f8f\_85f3\_4820\_8875\_6fc159e3b9e6 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

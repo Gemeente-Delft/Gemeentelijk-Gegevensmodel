@@ -62,7 +62,7 @@ Het model 'Model Archief' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-28 15:40:55 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_2F2A3590\_9B34\_4ec5\_B0AE\_B487ED241155 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -98,7 +98,7 @@ Attributen van objecttype Aanvraag
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-28 15:26:01 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_E09E5B44\_4D39\_455a\_B0A5\_390A63AC0C43 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -137,7 +137,7 @@ Attributen van objecttype Archief
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-28 15:26:49 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_66DB38CC\_932D\_462c\_9791\_C60237EA9B7A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -175,7 +175,7 @@ Attributen van objecttype Archiefcategorie
     | author | Arjen Brienen |
     | version | 1.11.0 |
     | created | 2018-06-28 15:27:20 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_369E453B\_4C3A\_48dc\_9619\_C36232B339D9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -216,7 +216,7 @@ Attributen van objecttype Archiefstuk
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-07-02 10:18:05 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_BCAFBBCD\_851E\_4235\_9D85\_88EC71F2245B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -253,7 +253,7 @@ Attributen van objecttype Auteur
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-07-02 10:19:03 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_066C9C37\_0FAF\_4239\_8D7D\_B7EBE42E4918 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -288,7 +288,7 @@ Attributen van objecttype Bezoeker
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-28 15:43:33 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_604A6143\_DE7F\_4950\_B3D4\_DFB88C7F4670 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -325,7 +325,7 @@ Attributen van objecttype Depot
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-28 15:38:26 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_FEFE9DBE\_921F\_4cc4\_99C5\_972A9C5F4C6E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -364,7 +364,7 @@ Attributen van objecttype DigitaalBestand
     | author | Arjen Brienen |
     | version | 1.11.0 |
     | created | 2018-07-03 10:53:01 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_13119DEC\_D451\_4bec\_BB37\_7B1944ACCA9D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -403,7 +403,7 @@ Attributen van objecttype Indeling
     | author | Arjen Brienen |
     | version | 1.10.0 |
     | created | 2018-07-03 13:25:27 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_C45E0D5D\_3B2F\_40a7\_B12C\_B6E910C516FA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -440,7 +440,7 @@ Attributen van objecttype Index
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-28 15:46:17 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_CA844994\_4AAE\_417f\_82A3\_31CA5432237A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -476,7 +476,7 @@ Attributen van objecttype Kast
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-07-03 13:24:45 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_7A080605\_07C5\_4947\_9B35\_BC6EBE2041FA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -511,7 +511,7 @@ Attributen van objecttype Nadere Toegang
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-07-03 15:43:25 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_B61986A2\_B8E7\_4e69\_AD55\_E61771FDEEB4 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -548,7 +548,7 @@ Attributen van objecttype Ordeningsschema
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-28 15:46:46 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_D9693C25\_0F66\_4504\_BE2B\_4BBF66071026 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -584,7 +584,7 @@ Attributen van objecttype Plank
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-07-02 10:18:28 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_9AE5BCE3\_AD6D\_4241\_9651\_823400E3745F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -619,7 +619,7 @@ Attributen van objecttype Rechthebbende
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-28 15:45:19 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_78DA1B42\_4AF8\_4650\_81A0\_7F2C3A450B3D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -655,7 +655,7 @@ Attributen van objecttype Stelling
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-07-02 10:18:12 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_59CF7225\_3D61\_42e2\_A399\_7EB13450D97D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -690,7 +690,7 @@ Attributen van objecttype Uitgever
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-28 15:27:53 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_D7947186\_4317\_407b\_A456\_41DF5187E810 |
     | domein_iv3 |  |
     | domein_dcat |  |

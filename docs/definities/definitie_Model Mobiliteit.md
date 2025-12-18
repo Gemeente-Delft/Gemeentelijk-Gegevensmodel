@@ -51,7 +51,7 @@ Het model 'Model Mobiliteit' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-11-12 14:25:17 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_999725EE\_737F\_410e\_906B\_9865EBED3597 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -97,7 +97,7 @@ Attributen van objecttype Stremming
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-11-21 10:32:27 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_E2448A6D\_3AE0\_4884\_AD5C\_215A9E7166DE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -137,7 +137,7 @@ Attributen van objecttype Strooidag
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-11-21 10:31:32 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_73090FF8\_12FD\_471e\_80FD\_DBFB2FF97D7B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -173,7 +173,7 @@ Attributen van objecttype Strooiroute
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-11-21 10:32:13 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_B825D33A\_6DCE\_4263\_A031\_E6E92C4EE86B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -213,7 +213,7 @@ Attributen van objecttype StrooirouteUitvoering
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-03-06 14:05:18 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_3F83DAA3\_C37F\_42b2\_8D35\_D75B840172F8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -256,7 +256,7 @@ Attributen van objecttype Verkeersbesluit
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-11-21 13:11:36 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_DBE739FD\_EBC4\_4650\_8A2B\_714294A63A73 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -294,7 +294,7 @@ Attributen van objecttype Verkeerstelling
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-11-21 13:24:06 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_E4EEBD4D\_A41E\_4c9d\_8099\_CDA45BFF0056 |
     | domein_iv3 |  |
     | domein_dcat |  |

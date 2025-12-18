@@ -16,7 +16,7 @@
     | author | Arjen Brienen |
     | version | 1.3.0 |
     | created | 2019-08-15 11:30:03 |
-    | modified | 2025-12-17 16:12:38 |
+    | modified | 2025-12-18 15:38:53 |
     | id | EAPK\_EDBB2231\_6674\_457d\_84EF\_1E0815AAA9E6 |
     
 
@@ -47,7 +47,7 @@ Het model 'Model Erfgoed Generiek' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-08-15 11:32:27 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_71A5C565\_C2CC\_495f\_910A\_76C199C6AF0E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -86,7 +86,7 @@ Attributen van objecttype Erfgoed Object
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-08-15 11:08:20 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_3BBB3264\_592A\_4d8c\_A741\_C2A3C38E3932 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -128,7 +128,7 @@ Attributen van objecttype Historisch Persoon
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-08-15 13:21:48 |
-    | modified | 2025-12-17 16:12:36 |
+    | modified | 2025-12-18 15:38:51 |
     | id | EAID\_65792171\_62FA\_4c35\_930A\_8B9C999ADC14 |
     | domein_iv3 |  |
     | domein_dcat |  |

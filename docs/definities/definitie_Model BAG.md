@@ -55,10 +55,10 @@ Het model 'Model BAG' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
-    | created | 2025-12-17 10:09:32 |
-    | modified | 2025-12-17 16:12:35 |
-    | id | EAID\_B7ABBC0B\_7686\_FEF4\_8CB9\_9A5F181B5139 |
+    | version | 1.11.0 |
+    | created | 2025-12-18 15:09:35 |
+    | modified | 2025-12-18 15:09:55 |
+    | id | EAID\_B7ABBC0B\_7686\_FEF4\_AB14\_1E9E649A722C |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -79,7 +79,6 @@ Attributen van objecttype BinnenlandsAdres
 | huisnummertoevoeging | AN4 |  |
 | postcode | AN6 |  |
 | BAGID | NEN3610ID |  |
-| adresseerbaarObject |  |  |
 
 
 
@@ -98,9 +97,9 @@ Attributen van objecttype BinnenlandsAdres
     | uri |  |
     | bron |  |
     | author | Verho\_M |
-    | version | 1.11.0 |
+    | version | 1.7.0 |
     | created | 2025-03-20 14:36:37 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:50 |
     | id | EAID\_5DB3AE05\_D225\_403e\_B376\_F163CD463ECF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -146,9 +145,9 @@ Attributen van objecttype Onderzoek
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.16.0 |
+    | version | 1.12.0 |
     | created | 2023-09-27 10:06:15 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:50 |
     | id | EAID\_32A22BC6\_89EC\_44af\_8D7D\_79B12311AE2D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -166,7 +165,7 @@ Attributen van objecttype Nummeraanduiding
 | huisletter | AN1 | Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken. |
 | huisnummer | N5 | Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nummering. |
 | huisnummertoevoeging | AN4 | Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter. |
-| postcode | char | De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam van een woonplaats, naam van een openbare ruimte en een huisnummer |
+| postcode | AN6 | De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam van een woonplaats, naam van een openbare ruimte en een huisnummer |
 | beginGeldigheid | DATUM | Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum |
 | eindeGeldigheid | DATUM | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. |
 | status | Enumeratie: "statusNummeraanduiding" | De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.<br>\1- Naamgeving uitgegeven<br>\1- Naamgeving ingetrokken |
@@ -197,9 +196,9 @@ Attributen van objecttype Nummeraanduiding
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.16.0 |
+    | version | 1.12.0 |
     | created | 2023-09-27 10:29:27 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:50 |
     | id | EAID\_38649FF6\_88C6\_437d\_AF8E\_A9023D55E16C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -243,9 +242,9 @@ Attributen van objecttype Buurt
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.16.0 |
+    | version | 1.12.0 |
     | created | 2023-09-27 10:39:36 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:50 |
     | id | EAID\_EA6F820F\_C458\_4b24\_8055\_5C2CC76F5904 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -290,9 +289,9 @@ Attributen van objecttype Gemeente
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.16.0 |
+    | version | 1.12.0 |
     | created | 2023-09-27 10:26:44 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:50 |
     | id | EAID\_785E3B69\_19DA\_4952\_84A8\_592965B9229A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -336,9 +335,9 @@ Attributen van objecttype Ligplaats
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.16.0 |
+    | version | 1.12.0 |
     | created | 2023-09-27 10:26:44 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:50 |
     | id | EAID\_8A04280B\_E0B4\_4e36\_B448\_C99750393D0D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -374,9 +373,9 @@ Attributen van objecttype AdresseerbaarObject
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.16.0 |
+    | version | 1.12.0 |
     | created | 2023-09-27 10:26:44 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:50 |
     | id | EAID\_BFE30E32\_8CB9\_4272\_A559\_9FB3FD74DACC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -429,9 +428,9 @@ Attributen van objecttype OpenbareRuimte
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.16.0 |
+    | version | 1.12.0 |
     | created | 2023-09-27 10:25:15 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:50 |
     | id | EAID\_11595AD8\_CE67\_40dd\_BDA9\_489DC7D244ED |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -449,7 +448,7 @@ Attributen van objecttype Pand
 | identificatie | Varchar | De unieke aanduiding van een PAND |
 | status | Enumeratie: "statusPand" | De fase van de levenscyclus van een PAND, waarin het betreffende PAND zich bevindt.<br>\1- Bouwvergunning verleend<br>\1- Niet gerealiseerd pand<br>\1- Bouw gestart<br>\1- Pand in gebruik (niet ingemeten)<br>\1- Pand in gebruik<br>\1- Sloopvergunning verleend<br>\1- Pand gesloopt<br>\1- Pand buiten gebruik<br>\1- Verbouwing pand<br>\1- Pand ten onrechte opgevoerd |
 | statusVoortgangBouw | Enumeratie: "statusVoortgangBouw" | De fase van de bouw, verbouw of sloop waarin het betreffende PAND zich bevindt |
-| oorspronkelijkBouwjaar | JAAR | De aanduiding van het jaar waarin een PAND oorspronkelijk als bouwkundig gereed is of wordt opgeleverd. |
+| oorspronkelijkBouwjaar | N4 | De aanduiding van het jaar waarin een PAND oorspronkelijk als bouwkundig gereed is of wordt opgeleverd. |
 | oppervlakte | N6 | De gebruiksoppervlakte van een PAND in gehele vierkante meters. |
 | brutoInhoudPand | N6 | Aanduiding in kubieke meters van de bruto inhoud van het PAND. |
 | geconstateerd | boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname.<br>Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een feitelijke constatering en niet op basis van een regulier brondocument |
@@ -484,9 +483,9 @@ Attributen van objecttype Pand
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.16.0 |
+    | version | 1.12.0 |
     | created | 2023-09-27 10:26:45 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:50 |
     | id | EAID\_86952BDA\_ADF6\_4ff0\_B8C7\_BA3AA889A40B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -530,9 +529,9 @@ Attributen van objecttype Standplaats
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.16.0 |
+    | version | 1.12.0 |
     | created | 2023-09-27 10:26:45 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:50 |
     | id | EAID\_461EFCF0\_E65E\_4c7c\_B44D\_8F36C36FDCE4 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -584,9 +583,9 @@ Attributen van objecttype Verblijfsobject
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.16.0 |
+    | version | 1.12.0 |
     | created | 2023-09-27 10:29:27 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:50 |
     | id | EAID\_120EA50B\_B9A2\_4869\_A3BE\_46931F631D33 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -630,9 +629,9 @@ Attributen van objecttype Wijk
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.16.0 |
+    | version | 1.12.0 |
     | created | 2023-09-27 10:29:28 |
-    | modified | 2025-12-17 16:12:35 |
+    | modified | 2025-12-18 15:38:50 |
     | id | EAID\_24BDA4BA\_CFCC\_4e3f\_8305\_671F4ED7C502 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -696,9 +695,9 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.15.0 |
+    | version | 1.11.0 |
     | created | 2025-12-16 16:54:41 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_E44C5FB6\_67AB\_4efe\_B3F0\_C6AFE5B6192F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -732,9 +731,9 @@ De enumeratie TypeAdresseerbaarObject heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.15.0 |
+    | version | 1.11.0 |
     | created | 2025-12-16 16:54:40 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_8C51DCF1\_E81C\_4590\_88B2\_EE5661B15F9A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -778,9 +777,9 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.16.0 |
+    | version | 1.12.0 |
     | created | 2025-12-16 16:54:40 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_9DBACB9E\_CE04\_4fd6\_AB16\_2010C4C61B0A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -816,9 +815,9 @@ De enumeratie ontsluitingswijzeVerdieping heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.15.0 |
+    | version | 1.11.0 |
     | created | 2025-12-16 16:54:40 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_882C978E\_5150\_4811\_BC4E\_468B086C16EF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -856,9 +855,9 @@ De enumeratie soortWoonobject heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.15.0 |
+    | version | 1.11.0 |
     | created | 2025-12-16 16:54:41 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_C862F3C5\_9E96\_4755\_B8B6\_10A1508FD768 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -893,9 +892,9 @@ De enumeratie statusLigplaats heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.15.0 |
+    | version | 1.11.0 |
     | created | 2025-12-16 16:54:41 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_D641FF3C\_D321\_44c0\_A884\_AA50D9388598 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -930,9 +929,9 @@ De enumeratie statusStandplaats heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.15.0 |
+    | version | 1.11.0 |
     | created | 2025-12-16 16:54:40 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_582AFCD3\_412F\_4ef8\_B50C\_6F88AC9D54A0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -967,9 +966,9 @@ De enumeratie statusNummeraanduiding heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.15.0 |
+    | version | 1.11.0 |
     | created | 2025-12-16 16:54:40 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_AC4C45BD\_A76A\_4f63\_A0D4\_DB2194772B89 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1004,9 +1003,9 @@ De enumeratie statusOpenbareRuimte heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.15.0 |
+    | version | 1.11.0 |
     | created | 2025-12-16 16:54:41 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_E7BEEB2F\_CED6\_4fc0\_B1E7\_9330155482BA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1061,9 +1060,9 @@ De enumeratie statusPand heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.15.0 |
+    | version | 1.11.0 |
     | created | 2025-12-16 16:54:41 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_DA9E4ECA\_B93E\_4379\_9C75\_FBC6655E9CB2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1107,9 +1106,9 @@ De enumeratie statusVerblijfsobject heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.15.0 |
+    | version | 1.11.0 |
     | created | 2025-12-16 16:54:40 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_77D2A1A7\_BD0E\_4d9f\_B1AB\_4C150BBE9804 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1154,9 +1153,9 @@ De enumeratie statusVoortgangBouw heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.10.0 |
+    | version | 1.11.0 |
     | created | 2025-12-16 16:54:40 |
-    | modified | 2025-12-16 10:28:45 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_932D4E44\_A37E\_453e\_9EE7\_FD21C5D8D94D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1191,9 +1190,9 @@ De enumeratie statusWoonplaats heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.15.0 |
+    | version | 1.11.0 |
     | created | 2025-12-16 16:54:41 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_D83F4016\_ED80\_4c39\_A51C\_DB3E942890A7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1245,9 +1244,9 @@ De enumeratie typeringOpenbareRuimte heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.15.0 |
+    | version | 1.11.0 |
     | created | 2025-12-16 16:54:40 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_AB6C1EDC\_AF99\_48fa\_A1EB\_DB9EA1ED58A9 |
     | domein_iv3 |  |
     | domein_dcat |  |

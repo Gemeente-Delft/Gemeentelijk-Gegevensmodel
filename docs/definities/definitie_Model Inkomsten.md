@@ -16,7 +16,7 @@
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-06-27 21:51:28 |
-    | modified | 2025-12-17 16:12:38 |
+    | modified | 2025-12-18 15:38:53 |
     | id | EAPK\_2FF1DB74\_1407\_C3BE\_D193\_304A6309B694 |
     
 
@@ -96,7 +96,7 @@ Attributen van objecttype Alimentatie
 | :--- | :--- | :--- |
 | Bedrag aan andere rekeningen | Bedrag |  |
 | Bedrag in convenant | Boolean |  |
-| bijdrageExPartnerAndereRekeningen | Boolean | Bijdrage ex partner voor andere rekeningen<br>bijdrageExPartnerAndereRekeningen |
+| BijdrageExPartnerAndereRekeningen | Boolean |  |
 | Inkomstensoort alimentatie |  |  |
 | Juiste bedrag betaald door ex partner | Boolean |  |
 | LBIO ingeschakeld | Boolean |  |

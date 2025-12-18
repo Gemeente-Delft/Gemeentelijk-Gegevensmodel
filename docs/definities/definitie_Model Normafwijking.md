@@ -47,9 +47,9 @@ Het model 'Model Normafwijking' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.14.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_1BD0DD3A\_888E\_945B\_4A20\_276CADAE4D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -82,9 +82,9 @@ Attributen van objecttype Afwijkende maatregel
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.14.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_05E49616\_803F\_4C1B\_9663\_262C4A191DF9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -117,9 +117,9 @@ Attributen van objecttype Boete
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.14.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_0B63B508\_9F69\_A5D7\_4387\_2632D2C24782 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -152,9 +152,9 @@ Attributen van objecttype Maatregel
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.14.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_032C6459\_3922\_4AEF\_0D73\_262C4A138E25 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -187,9 +187,9 @@ Attributen van objecttype Maatregel op uitkering
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.14.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_167FF4C9\_6B66\_EEDA\_5189\_262C4A139258 |
     | domein_iv3 |  |
     | domein_dcat |  |

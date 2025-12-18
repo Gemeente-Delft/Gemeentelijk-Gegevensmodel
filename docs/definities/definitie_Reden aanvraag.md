@@ -68,7 +68,7 @@ Het model 'Reden aanvraag' kent de volgende objecttypen:
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_237c7e1c\_5893\_475f\_be3f\_49b629316e1e |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -103,7 +103,7 @@ Attributen van objecttype Andere reden afwijkende startdatum
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_1E8815BF\_5BAC\_6978\_BF60\_2791C1C96FC3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -136,9 +136,9 @@ Attributen van objecttype Andere reden verzoek
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.14.0 |
+    | version | 1.10.0 |
     | created | 2024-12-13 12:29:32 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_2D94CF02\_97C5\_4621\_B225\_EA742445A235 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -171,9 +171,9 @@ Attributen van objecttype Diensten::Aanvraag
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.14.0 |
+    | version | 1.10.0 |
     | created | 2025-03-17 10:52:35 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_1F9DBD7C\_EBF3\_41c8\_8F00\_2F6169FE107C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -208,7 +208,7 @@ Attributen van objecttype Diensten::Aanvraag levensonderhoud
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_16333246\_B1C9\_E9E9\_D5B6\_2791C02E05CB |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -243,7 +243,7 @@ Attributen van objecttype Gestopt betaald werk
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_0B7F7AD1\_661C\_8F1C\_4F9A\_2791C1C74BAB |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -278,7 +278,7 @@ Attributen van objecttype Gestopt of verkocht eigen bedrijf
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_15ABBF00\_EC46\_89CA\_680B\_2791C070D8E5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -313,7 +313,7 @@ Attributen van objecttype Gestopte bijstanduitkering
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_16F72E30\_A6E2\_CEC4\_6AB8\_2791C1C8CC09 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -348,7 +348,7 @@ Attributen van objecttype Gestopte detentie
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_1632E282\_377B\_77CF\_BF11\_2791C070C097 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -383,7 +383,7 @@ Attributen van objecttype Gestopte of verlaagde alimentatie
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_1F0AACC8\_0CDE\_849C\_C1CC\_2791C070CCF8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -418,7 +418,7 @@ Attributen van objecttype Gestopte studiefinanciering
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_1BDF5AAF\_EDC4\_87BC\_16F2\_2791C06DC1FA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -488,9 +488,9 @@ Attributen van objecttype Ingang bijstandsuitkering
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.14.0 |
+    | version | 1.10.0 |
     | created | 2025-03-17 10:40:14 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_4B7F5B5B\_CCC7\_465e\_9908\_E83620EEAE89 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -525,7 +525,7 @@ Attributen van objecttype Levenssituatie::Levenssituatie
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_1ac5aa8f\_eb60\_4683\_acb8\_ca3308da1c3d |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -560,7 +560,7 @@ Attributen van objecttype Opname instelling
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_201D0432\_BDE5\_700A\_13F6\_2791C071691F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -630,7 +630,7 @@ Attributen van objecttype Reden aanvraag
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_0BCC5755\_9F69\_A5D7\_4387\_2791BFCD4782 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -665,7 +665,7 @@ Attributen van objecttype Reden aanvraag Levensonderhoud
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_ed8f8dba\_b936\_40ad\_b443\_1ee91b8fe046 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -700,7 +700,7 @@ Attributen van objecttype Reden afwijkende startdatum
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_273AA921\_78AD\_0107\_6D04\_2791C07149E9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -735,7 +735,7 @@ Attributen van objecttype Verbroken relatie
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_109FA03E\_8C65\_8EF6\_C7F0\_2791C1C80AFE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -770,7 +770,7 @@ Attributen van objecttype Vertrek uit asielzoekerscentrum
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_008977a4\_1342\_42b2\_be93\_bda49931fa51 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -805,7 +805,7 @@ Attributen van objecttype Wachten beslissing instantie
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-17 16:12:37 |
+    | modified | 2025-12-18 15:38:52 |
     | id | EAID\_32633236\_e5f5\_40eb\_a083\_fc12c3e8a7f8 |
     | domein_iv3 |  |
     | domein_dcat |  |
