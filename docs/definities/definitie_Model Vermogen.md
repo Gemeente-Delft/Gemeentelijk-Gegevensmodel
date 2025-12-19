@@ -219,8 +219,8 @@ Attributen van objecttype Vermogenscomponent
 | :--- | :--- | :--- |
 | Code soort vermogenscomponent |  |  |
 | Datum vaststelling vermogencomponent | Date |  |
+| identificatie | Integer | Voorheen: Vermogenscomponent ID<br>Attribuut is een identificatie maar van het type Integer? |
 | Nog aan te spreken vermogen | Bedrag |  |
-| Vermogenscomponent ID | Integer |  |
 | Vrij te laten vermogen | Bedrag |  |
 
 

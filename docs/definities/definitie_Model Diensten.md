@@ -81,6 +81,9 @@ Attributen van objecttype Aanvraag
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Aanvraagdatum | Date |  |
+| AanvraagId | Date |  |
+| Code ontvangende gemeente | Date |  |
 
 
 
@@ -116,6 +119,11 @@ Attributen van objecttype Aanvraagtype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| AanvraagtypeId | CharacterString |  |
+| Einddatum | CharacterString |  |
+| Naam | CharacterString |  |
+| Soort Aanvraag | Enumeratie: "SoortAanvraag" |  |
+| Startdatum | CharacterString |  |
 
 
 
@@ -151,6 +159,7 @@ Attributen van objecttype Beschikking
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Datum beschikking | Date |  |
 
 
 
@@ -186,6 +195,7 @@ Attributen van objecttype Besluit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Datum beslissing | Date |  |
 
 
 
@@ -221,6 +231,10 @@ Attributen van objecttype Betalingsblokkade
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Aanduiding | CharacterString |  |
+| Direct blokkeren | Enumeratie: "StdIndJN" |  |
+| Initiële aanmaakdatum | CharacterString |  |
+| Reden | CharacterString |  |
 
 
 
@@ -256,6 +270,12 @@ Attributen van objecttype Dienst
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Aantal kostendelers | Integer |  |
+| Begindatum | Integer |  |
+| DienstId | Integer |  |
+| Einddatum | Integer |  |
+| Periodiciteit statusformulier | Enumeratie: "CdPeriodiciteitStatusformulier" |  |
+| Startdatum statusformulier | Integer |  |
 
 
 
@@ -291,6 +311,14 @@ Attributen van objecttype Diensttype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Duur referteperiode | CharacterString |  |
+| Einddatum | CharacterString |  |
+| minBetrouwbaarheidsniveau | Enumeratie: "CodeSTORKbetrouwbaarheid" |  |
+| Naam | CharacterString |  |
+| Periodiciteit | Enumeratie: "CdPeriode" |  |
+| Periodiciteit inkomstenformulier | Enumeratie: "CdPeriode" |  |
+| Startdatum | CharacterString |  |
+| Type referteperiodebepaling | Enumeratie: "Referteperiodebepalingtype" |  |
 
 
 
@@ -361,6 +389,13 @@ Attributen van objecttype Leveringscomponent
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Bedrag | bedrag |  |
+| Einddatum | bedrag |  |
+| Gevalsrubriek | Enumeratie: "OnderdeelDienstGevalsrubriek" |  |
+| Omschrijving afwijking | bedrag |  |
+| Percentage | bedrag |  |
+| Periode startdatum | bedrag |  |
+| Soort | bedrag |  |
 
 
 
@@ -396,6 +431,15 @@ Attributen van objecttype Leveringscomponenttype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Afwijkende norm | CharacterString |  |
+| Einddatum | CharacterString |  |
+| Fiscaal | Enumeratie: "StdIndJN" |  |
+| Kostensoort | Enumeratie: "CdSrtKostenBijzBijstand" |  |
+| Normbedrag | CharacterString |  |
+| Normpercentage | CharacterString |  |
+| Rubriek | Enumeratie: "OnderdeelDienstTypeRubriek" |  |
+| Soort wettelijke norm | CharacterString |  |
+| Startdatum | CharacterString |  |
 
 
 
@@ -431,6 +475,7 @@ Attributen van objecttype Leveringsopdracht
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Leveringskanaal | AN200 |  |
 
 
 
@@ -466,6 +511,9 @@ Attributen van objecttype Leveringsspecificatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Periode einddatum | CharacterString |  |
+| Periode startdatum | CharacterString |  |
+| Periodiciteit | Enumeratie: "CdPeriode" |  |
 
 
 
@@ -501,6 +549,8 @@ Attributen van objecttype Onderdeel beschikking
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Datum beschikking diensttype | CharacterString |  |
+| Reden beschikking diensttype | CharacterString |  |
 
 
 
@@ -536,6 +586,12 @@ Attributen van objecttype Periodiek dienst Bijz. bijstand
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Bedrag | Geldbedrag |  |
+| Einddatum | Geldbedrag |  |
+| Fiscaal | Enumeratie: "StdIndJN" |  |
+| Kostensoort | Enumeratie: "CdSrtKostenBijzBijstand" |  |
+| Periodiciteit | Enumeratie: "CdPeriode" |  |
+| Startdatum | Geldbedrag |  |
 
 
 
@@ -571,6 +627,11 @@ Attributen van objecttype Recht
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Begindatum van het recht | Date |  |
+| Beschrijving | Date |  |
+| Einddatum van het recht | Date |  |
+| RechtId | Date |  |
+| Vaststeldatum van het recht | Date |  |
 
 
 
@@ -606,6 +667,8 @@ Attributen van objecttype Referteperiode
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Einddatum | Date |  |
+| Startdatum | Date |  |
 
 
 
@@ -641,6 +704,10 @@ Attributen van objecttype Regeling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Beschrijving | CharacterString |  |
+| Einddatum | CharacterString |  |
+| Naam | CharacterString |  |
+| Startdatum | CharacterString |  |
 
 
 
@@ -676,6 +743,8 @@ Attributen van objecttype Uitsluitingsgrond
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Type | CharacterString |  |
+| Uitsluitingsgrond Id | CharacterString |  |
 
 
 
@@ -711,6 +780,8 @@ Attributen van objecttype Verstrekkingsvorm
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Naam | CharacterString |  |
+| Type | CharacterString |  |
 
 
 
@@ -746,6 +817,8 @@ Attributen van objecttype Voorliggende voorziening
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Type | Enumeratie: "CdTypeVerstrekkingsvorm" |  |
+| Voorliggende voorziening Id | CdTypeVerstrekkingsvorm |  |
 
 
 
@@ -781,6 +854,10 @@ Attributen van objecttype Voorwaarde
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Brontype | Enumeratie: "Brontype" |  |
+| Conclusie | Brontype |  |
+| Vastleggingsdatum | Brontype |  |
+| Verantwoording vaststelling | Enumeratie: "Brontype" |  |
 
 
 
@@ -816,7 +893,608 @@ Attributen van objecttype Voorwaardetype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Beschrijving | CharacterString |  |
+| VoorwaardetypeId | CharacterString |  |
 
 
+
+
+
+
+## Enumeraties Model Diensten
+
+
+### SoortAanvraag
+Geen Definitie
+
+Het enumeratie SoortAanvraag kent de volgende waarden:
+
+
+
+De enumeratie SoortAanvraag heeft de volgende kenmerken:
+
+??? info "Kenmerken Model SoortAanvraag"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | SoortAanvraag |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_2a984313\_4360\_4319\_9d07\_839d5d829f1b |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_6444b44e\_bc64\_4d5a\_8eb0\_4b9602dc21cb |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdPeriodiciteitStatusformulier
+Geen Definitie
+
+Het enumeratie CdPeriodiciteitStatusformulier kent de volgende waarden:
+
+
+
+De enumeratie CdPeriodiciteitStatusformulier heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdPeriodiciteitStatusformulier"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdPeriodiciteitStatusformulier |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_a26adc56\_be96\_41f6\_b3cd\_f12375fa7cac |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CodeSTORKbetrouwbaarheid
+Geen Definitie
+
+Het enumeratie CodeSTORKbetrouwbaarheid kent de volgende waarden:
+
+
+
+De enumeratie CodeSTORKbetrouwbaarheid heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CodeSTORKbetrouwbaarheid"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CodeSTORKbetrouwbaarheid |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_b055f915\_9381\_4dd4\_8806\_d744489339d2 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdPeriode
+Geen Definitie
+
+Het enumeratie CdPeriode kent de volgende waarden:
+
+
+
+De enumeratie CdPeriode heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdPeriode"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdPeriode |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_5e18f1c7\_477b\_4294\_9540\_741a23414360 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdPeriode
+Geen Definitie
+
+Het enumeratie CdPeriode kent de volgende waarden:
+
+
+
+De enumeratie CdPeriode heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdPeriode"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdPeriode |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_6bd2a7e1\_209c\_4062\_9c00\_c0d746d2bcd0 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### Referteperiodebepalingtype
+Geen Definitie
+
+Het enumeratie Referteperiodebepalingtype kent de volgende waarden:
+
+
+
+De enumeratie Referteperiodebepalingtype heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Referteperiodebepalingtype"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Referteperiodebepalingtype |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_a7ebd211\_5fc5\_41f6\_91d9\_7d5f6aa11e26 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### OnderdeelDienstGevalsrubriek
+Geen Definitie
+
+Het enumeratie OnderdeelDienstGevalsrubriek kent de volgende waarden:
+
+
+
+De enumeratie OnderdeelDienstGevalsrubriek heeft de volgende kenmerken:
+
+??? info "Kenmerken Model OnderdeelDienstGevalsrubriek"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | OnderdeelDienstGevalsrubriek |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_ff530671\_9d3f\_48ac\_ae07\_c97d830d94cc |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_f999d6d7\_9db2\_49ba\_973d\_df8b359d2e45 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdSrtKostenBijzBijstand
+Geen Definitie
+
+Het enumeratie CdSrtKostenBijzBijstand kent de volgende waarden:
+
+
+
+De enumeratie CdSrtKostenBijzBijstand heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdSrtKostenBijzBijstand"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdSrtKostenBijzBijstand |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_67f2511e\_a99e\_41a1\_8c9b\_5d1ebde789fe |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### OnderdeelDienstTypeRubriek
+Geen Definitie
+
+Het enumeratie OnderdeelDienstTypeRubriek kent de volgende waarden:
+
+
+
+De enumeratie OnderdeelDienstTypeRubriek heeft de volgende kenmerken:
+
+??? info "Kenmerken Model OnderdeelDienstTypeRubriek"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | OnderdeelDienstTypeRubriek |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_6c9ffa48\_afda\_4b9b\_a6bf\_0b9339754748 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdPeriode
+Geen Definitie
+
+Het enumeratie CdPeriode kent de volgende waarden:
+
+
+
+De enumeratie CdPeriode heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdPeriode"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdPeriode |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_574603a8\_c372\_4cee\_abdc\_70b42e5cdf85 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_a5fca309\_e954\_4b07\_a5e4\_5f685184c5da |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdSrtKostenBijzBijstand
+Geen Definitie
+
+Het enumeratie CdSrtKostenBijzBijstand kent de volgende waarden:
+
+
+
+De enumeratie CdSrtKostenBijzBijstand heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdSrtKostenBijzBijstand"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdSrtKostenBijzBijstand |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_6df50112\_c833\_4c93\_b0b5\_f244105d6960 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdPeriode
+Geen Definitie
+
+Het enumeratie CdPeriode kent de volgende waarden:
+
+
+
+De enumeratie CdPeriode heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdPeriode"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdPeriode |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_34855ec5\_6329\_4957\_840a\_463a18797d05 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdTypeVerstrekkingsvorm
+Geen Definitie
+
+Het enumeratie CdTypeVerstrekkingsvorm kent de volgende waarden:
+
+
+
+De enumeratie CdTypeVerstrekkingsvorm heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdTypeVerstrekkingsvorm"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdTypeVerstrekkingsvorm |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_1331c1ab\_b23f\_4e3a\_af47\_364a14398af5 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### Brontype
+Geen Definitie
+
+Het enumeratie Brontype kent de volgende waarden:
+
+
+
+De enumeratie Brontype heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Brontype"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Brontype |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_4618e130\_8852\_4e4a\_8ccc\_22ad46f8a1f2 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### Brontype
+Geen Definitie
+
+Het enumeratie Brontype kent de volgende waarden:
+
+
+
+De enumeratie Brontype heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Brontype"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Brontype |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_d5ed17bc\_7d70\_4edb\_862d\_9d8198be823d |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 

@@ -609,7 +609,7 @@ Attributen van objecttype InburgeringsAanbod
 | DatumInburgeringsAanbod | date |  |
 | DatumAanvangTaalschakelTraject | date |  |
 | DatumEindeCursus | date |  |
-| CursusInstelling | Onderwijsroute |  |
+| CursusInstelling |  |  |
 | IndicatorAlfabetisering | Enumeratie: "ClassificatieVoldoendeOnvoldoende " |  |
 | TaalschakelTraject | boolean |  |
 | DatumTaalschakelDiploma | date |  |
@@ -1487,7 +1487,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_2b15fa90\_67db\_4f89\_adfe\_edefbb6449f0 |
+    | id | EAID\_0224dc8b\_5357\_4711\_b809\_2aacbe7111ff |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1524,7 +1524,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_d35f8d01\_0d59\_4221\_99cf\_746d66bd378d |
+    | id | EAID\_37ab82c9\_3e62\_4db6\_bcb1\_9de19ed8f368 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1563,7 +1563,7 @@ De enumeratie CodeNiveauOpleiding heeft de volgende kenmerken:
     | version | 1.9.0 |
     | created | 2025-06-17 16:01:14 |
     | modified | 2025-12-18 15:38:53 |
-    | id | EAID\_ee817082\_303b\_4901\_a1ea\_4f310ba2beca |
+    | id | EAID\_274a5ebd\_4df1\_4f4c\_9a89\_3597cbeb818b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

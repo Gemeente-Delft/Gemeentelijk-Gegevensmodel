@@ -297,7 +297,7 @@ Attributen van objecttype Betrokkene
 | identificatie | AN50 | De unieke identificatie van de BETROKKENE |
 | adresBinnenland |  | De aanduiding van het adres van de BETROKKENE indien dit adres in Nederland gelegen is. |
 | adresBuitenland | AN200 | De aanduiding van het adres waar specialisaties van de BETROKKENE zijnde een (NIET) NATUURLIJK PERSOON of VESTIGING dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland. |
-| rol |  |  |
+| rol | Class: "Zaak" |  |
 | betrokkene | Class: "NatuurlijkPersoon" |  |
 | organisatorische eenheid | Class: "OrganisatorischeEenheid" |  |
 | vestiging | Class: "NietNatuurlijkPersoon" |  |
@@ -1014,7 +1014,7 @@ Attributen van objecttype Zaak
 | vertrouwelijkheid | AN40 |  |
 | leges | AN100 |  |
 | type | Class: "Zaaktype" |  |
-| document |  |  |
+| document | Class: "Document" |  |
 | status | Class: "Status" |  |
 
 
@@ -1155,7 +1155,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_79a855bf\_f1b0\_4b6e\_a59f\_07de82001c07 |
+    | id | EAID\_9b8f314c\_e267\_4cae\_9fc0\_e160bbb4b39d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1190,7 +1190,7 @@ De enumeratie Heffingsoort heeft de volgende kenmerken:
     | version | 1.9.0 |
     | created | 2019-05-08 13:48:43 |
     | modified | 2025-12-18 15:38:52 |
-    | id | EAID\_e9538ce3\_03f7\_417a\_8fc0\_826e74072759 |
+    | id | EAID\_831baf02\_ee93\_4996\_93ca\_cba6da29f9a4 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1228,7 +1228,7 @@ De enumeratie Soorten Klantcontact heeft de volgende kenmerken:
     | version | 1.11.0 |
     | created | 2025-03-26 11:13:26 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_083e7223\_c276\_4d34\_ba36\_273d68e18116 |
+    | id | EAID\_dedd2fff\_2409\_4118\_a29a\_61b0faa148f5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

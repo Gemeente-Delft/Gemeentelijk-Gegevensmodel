@@ -298,7 +298,7 @@ Attributen van objecttype Incident
 | datumTijdTot | DateTime |  |
 | omschrijving | Text |  |
 | toelichting | Text |  |
-| soort | Incidenttype |  |
+| soort | Enumeratie: "enum_Incidenttype" |  |
 | locatie | Point |  |
 
 
@@ -568,5 +568,43 @@ Attributen van objecttype Stadspas
 | einddatum | Date |  |
 
 
+
+
+
+
+## Enumeraties Model Sociaal Domein Generiek
+
+
+### enum_Incidenttype
+Geen Definitie
+
+Het enumeratie enum_Incidenttype kent de volgende waarden:
+
+
+
+De enumeratie enum_Incidenttype heeft de volgende kenmerken:
+
+??? info "Kenmerken Model enum_Incidenttype"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | enum\_Incidenttype |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.10.0 |
+    | created | 2025-03-26 11:12:50 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_374107c1\_97f8\_45ff\_a468\_1f993336fef8 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 

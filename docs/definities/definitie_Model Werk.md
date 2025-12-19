@@ -367,7 +367,7 @@ Attributen van objecttype BeschikbaarVoorArbeid
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | StartdatumBeschikbaarheid | date |  |
-| DagBeschikbaarheid | beschikbaarheid |  |
+| DagBeschikbaarheid | Enumeratie: "Dag beschikbaarheid" |  |
 | AantalUrenpwBeschikbaar | int |  |
 | Interval opzegtermijn | Enumeratie: "Interval opzegtermijn
 " |  |
@@ -640,7 +640,7 @@ Attributen van objecttype Mobiliteit
 | IndicatieBereidheidVerhuizen | bool |  |
 | MaximaleReistijd | int |  |
 | ToelichtingMaximaleReistijd | string |  |
-| CodeVervoermiddel | Vervoersmogelijkheden |  |
+| CodeVervoermiddel |  |  |
 | ToelichtingVervoermiddel | string |  |
 
 
@@ -685,7 +685,8 @@ Attributen van objecttype Ontheffing
 | IngangsdatumOntheffing | Date |  |
 | EinddatumOntheffing | Date |  |
 | ResultaatInstrumentbeoordeling | document |  |
-| OntheffenVerplichtingen | Ontheffingsverplichting |  |
+| OntheffenVerplichtingen | Enumeratie: "Ontheffingsverplichting
+" |  |
 | VersieNummerAanvraag | int |  |
 | BijlagenBijAanvraag |  |  |
 | BijlagenBijOntheffingsbesluit |  |  |
@@ -727,11 +728,11 @@ Attributen van objecttype Opleiding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Opleidingstype | Opleidingstype |  |
+| Opleidingstype | Enumeratie: "Opleidingsrichting" |  |
 | Instituutnaam | short |  |
 | DatumAanvang | date |  |
 | DatumEinde | date |  |
-| CodeStatusOpleiding | StatusOpleiding |  |
+| CodeStatusOpleiding | Enumeratie: "CodeStatusOpleiding" |  |
 | IndicatieDiploma | Bool |  |
 | DatumDiploma | date |  |
 | CodeNiveauOpleiding | CodeNiveauOpleiding |  |

@@ -1294,7 +1294,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_93a3d751\_1150\_43f7\_8ef6\_ace3b65f55bc |
+    | id | EAID\_c73a4bd4\_0f78\_4757\_877a\_231a28fd0344 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1331,7 +1331,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_698cc168\_7370\_4944\_afb4\_7727be135a61 |
+    | id | EAID\_428f58ff\_7a6f\_49fb\_9bd3\_cddd74bde3d0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
