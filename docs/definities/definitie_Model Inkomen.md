@@ -251,7 +251,7 @@ Attributen van objecttype Inkomensvoorzieningsoort
 | :--- | :--- | :--- |
 | naam | CharacterString |  |
 | omschrijving | CharacterString |  |
-| wet | Enumeratie: "Wet" |  |
+| wet | Wet |  |
 | vergoeding | CharacterString |  |
 | vergoedingscode | CharacterString |  |
 | regeling | CharacterString |  |
@@ -533,7 +533,7 @@ De enumeratie Wet heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:12:49 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_25740629\_b165\_4552\_b924\_bc712190d540 |
+    | id | EAID\_4af5f9c0\_5684\_40b5\_b1fe\_da2cd113d42c |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

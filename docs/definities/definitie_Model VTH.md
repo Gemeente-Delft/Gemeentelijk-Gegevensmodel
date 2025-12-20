@@ -648,7 +648,7 @@ Attributen van objecttype MORAanvraagOfMelding
 | locatieOmschrijving | AN300 |  |
 | meldingOmschrijving | AN40 |  |
 | meldingTekst | AN4000 |  |
-| CROW | Enumeratie: "Boolean" |  |
+| CROW | Boolean |  |
 
 
 
@@ -688,7 +688,7 @@ Attributen van objecttype OpenbareActiviteit
 | datumEinde | Date |  |
 | evenmentnaam | AN250 |  |
 | locatieOmschrijving | AN250 |  |
-| status | Enumeratie: "StatusOpenbareActiviteit" |  |
+| status | StatusOpenbareActiviteit |  |
 
 
 
@@ -1022,7 +1022,7 @@ Attributen van objecttype VTH-Melding
 | organisatieonderdeel | AN80 |  |
 | status | AN40 |  |
 | taaktype | AN80 |  |
-| beoordeling | Enumeratie: "Beoordelingsoort" |  |
+| beoordeling | Beoordelingsoort |  |
 | overtredingsgroep | AN200 |  |
 | resultaat | AN80 |  |
 | activiteit | AN80 |  |
@@ -1099,7 +1099,7 @@ Attributen van objecttype VTHzaak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| verkamering | Enumeratie: "Boolean" |  |
+| verkamering | Boolean |  |
 | bevoegdGezag | AN50 |  |
 | uitvoerendeInstantie | AN50 |  |
 | behandelaar | AN20 |  |
@@ -1294,7 +1294,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_c73a4bd4\_0f78\_4757\_877a\_231a28fd0344 |
+    | id | EAID\_a7099783\_667e\_4ac5\_8034\_8e09e1ffe249 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1331,7 +1331,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_428f58ff\_7a6f\_49fb\_9bd3\_cddd74bde3d0 |
+    | id | EAID\_4682cbe5\_2297\_432a\_90d7\_0c842478ec9d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

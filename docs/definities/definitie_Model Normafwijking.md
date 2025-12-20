@@ -64,10 +64,6 @@ Attributen van objecttype Afwijkende maatregel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Bedrag | Bedrag |  |
-| Code reden afwijking maatregel | Bedrag |  |
-| Motivatie afwijking maatregel | Bedrag |  |
-| Percentage | Bedrag |  |
 
 
 
@@ -103,10 +99,6 @@ Attributen van objecttype Boete
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Bedrag boete | Bedrag |  |
-| Boetevorm | Bedrag |  |
-| Reden boete | Bedrag |  |
-| Voorwaarde boete | Bedrag |  |
 
 
 
@@ -142,11 +134,6 @@ Attributen van objecttype Maatregel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Datum aanvang maatregel | Date |  |
-| Datum einde maatregel | Date |  |
-| Datum vaststelling maatregel | Date |  |
-| identificatie | Date | Voorheen: Maatregel ID<br>Opmerking: Attribuut is een identificatie maar van het type Date? |
-| Type maatregel | Enumeratie: "TypeMaatregel" |  |
 
 
 
@@ -182,9 +169,6 @@ Attributen van objecttype Maatregel op uitkering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Code reden maatregel | Enumeratie: "CodeRedenMaatregel" |  |
-| Motivatie vermindering maatregel | CodeRedenMaatregel |  |
-| Percentage maatregel | CodeRedenMaatregel |  |
 
 
 
@@ -220,184 +204,7 @@ Attributen van objecttype Normafwijking
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Datum vaststelling normafwijking | Date |  |
-| Datum vaststelling verwijtbaarheid | Date |  |
-| identificatie | Date | Voorheen: Normafwijking ID<br>Opmerking: Dit attribuut heeft datatype Date maar is een identificatie? |
-| Motivatie verwijtbaarheid | Date |  |
-| Recidive | Enumeratie: "StdIndJN" |  |
-| Type normafwijking | Enumeratie: "TypeNormafwijking" |  |
-| Verwijtbaarheid | Enumeratie: "StdIndJN" |  |
 
 
-
-
-
-
-## Enumeraties Model Normafwijking
-
-
-### TypeMaatregel
-Geen Definitie
-
-Het enumeratie TypeMaatregel kent de volgende waarden:
-
-
-
-De enumeratie TypeMaatregel heeft de volgende kenmerken:
-
-??? info "Kenmerken Model TypeMaatregel"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | TypeMaatregel |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_c84a8463\_cfb9\_454a\_9b73\_e6850f5b32f8 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### CodeRedenMaatregel
-Geen Definitie
-
-Het enumeratie CodeRedenMaatregel kent de volgende waarden:
-
-
-
-De enumeratie CodeRedenMaatregel heeft de volgende kenmerken:
-
-??? info "Kenmerken Model CodeRedenMaatregel"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | CodeRedenMaatregel |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_5dbaa648\_8851\_4712\_bc40\_a13a23267df8 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### StdIndJN
-Geen Definitie
-
-Het enumeratie StdIndJN kent de volgende waarden:
-
-
-
-De enumeratie StdIndJN heeft de volgende kenmerken:
-
-??? info "Kenmerken Model StdIndJN"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | StdIndJN |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_2a5c4658\_ed1a\_4312\_8fee\_d4518a4bdbaf |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### TypeNormafwijking
-Geen Definitie
-
-Het enumeratie TypeNormafwijking kent de volgende waarden:
-
-
-
-De enumeratie TypeNormafwijking heeft de volgende kenmerken:
-
-??? info "Kenmerken Model TypeNormafwijking"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | TypeNormafwijking |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_aed2115f\_7e26\_44aa\_ba04\_fa3b037fc985 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### StdIndJN
-Geen Definitie
-
-Het enumeratie StdIndJN kent de volgende waarden:
-
-
-
-De enumeratie StdIndJN heeft de volgende kenmerken:
-
-??? info "Kenmerken Model StdIndJN"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | StdIndJN |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_9182b45f\_4515\_46f2\_9148\_5d3197c15ac1 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
 
 

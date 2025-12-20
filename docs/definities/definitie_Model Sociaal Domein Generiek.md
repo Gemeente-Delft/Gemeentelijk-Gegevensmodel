@@ -112,7 +112,7 @@ Attributen van objecttype Client
 | gezagsdragerGekend | boolean |  |
 | juridischeStatus | AN80 |  |
 | wettelijkeVertegenwoordiging | AN80 |  |
-| client | Class: "Schuldhulptraject" |  |
+| client | Schuldhulptraject |  |
 
 
 
@@ -298,7 +298,7 @@ Attributen van objecttype Incident
 | datumTijdTot | DateTime |  |
 | omschrijving | Text |  |
 | toelichting | Text |  |
-| soort | Enumeratie: "enum_Incidenttype" |  |
+| soort | enum_Incidenttype |  |
 | locatie | Point |  |
 
 
@@ -597,7 +597,7 @@ De enumeratie enum_Incidenttype heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:12:50 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_374107c1\_97f8\_45ff\_a468\_1f993336fef8 |
+    | id | EAID\_f2ccfb67\_8271\_4cb9\_a6ec\_48bd080d0691 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

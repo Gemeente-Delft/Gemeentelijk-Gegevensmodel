@@ -141,7 +141,7 @@ Attributen van objecttype CorrespondentieadresBuitenland
 | adresBuitenland4 | AN35 | Het vierde deel van het correspondentie(-post) adres in het buitenland van het SUBJECT. |
 | adresBuitenland5 | AN35 | Het vijfde deel van het correspondentie(-post) adres in het buitenland van het SUBJECT. |
 | adresBuitenland6 | AN35 | Het zesde deel van het correspondentie(-post) adres in het buitenland van het SUBJECT. |
-| landCorrespondentieadres |  | Het land van het correspondentie(-post) adres in het buitenland van het SUBJECT. |
+| landCorrespondentieadres | LandOfgebied | Het land van het correspondentie(-post) adres in het buitenland van het SUBJECT. |
 
 
 
@@ -181,7 +181,7 @@ Attributen van objecttype GeboorteIngeschrevenNatuurlijkPersoon
 | gemeenteGeboorte | AN80 | Gemeente waar de NATUURLIJK PERSOON geboren is. |
 | buitenlandsePlaatsGeboorte | AN40 | Buitenlandse plaats waar de NATUURLIJK PERSOON geboren is. |
 | buitenlandseRegioGeboorte | AN35 | Buitenlandse regio waar de NATUURLIJK PERSOON geboren is. |
-| landOfGebiedGeboorte |  | Het land of gebied waar de NATUURLIJK PERSOON is geboren. |
+| landOfGebiedGeboorte | LandOfgebied | Het land of gebied waar de NATUURLIJK PERSOON is geboren. |
 | omschrijvingLocatieGeboorte | AN40 | Omschrijving van de locatie waar de NATUURLIJK PERSOON geboren is. |
 
 
@@ -219,8 +219,8 @@ Attributen van objecttype GeboorteIngeschrevenPersoon
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datumGeboorte | Datum | De datum waarop de ingeschreven persoon is geboren. |
-| geboorteplaats |  | De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de ingeschreven persoon is geboren. |
-| geboorteland |  | Het LAND waar de INGESCHREVEN PERSOON is geboren. |
+| geboorteplaats | AN200 | De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de ingeschreven persoon is geboren. |
+| geboorteland | Land | Het LAND waar de INGESCHREVEN PERSOON is geboren. |
 
 
 
@@ -332,7 +332,7 @@ Attributen van objecttype KoopsomKadastraleOnroerendeZaak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| koopsom |  | Bedrag waarvoor belangrijkste recht van onroerende zaak is gekocht |
+| koopsom | TypeKoopsom | Bedrag waarvoor belangrijkste recht van onroerende zaak is gekocht |
 | datumTransactie | Datum | Datum en tijdstip waarop een ter inschrijving aangeboden stuk, waarmee één of meer onroerende zaken zijn overgedragen, is ondertekend door de opsteller van het stuk. |
 
 
@@ -370,7 +370,7 @@ Attributen van objecttype LocatieKadastraleOnroerendeZaak
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | locatieOmschrijving | AN40 | Omschrijving van de locatie van de onroerende zaak ingeval de locatie niet kan worden aangeduid met een relatie naar een GEBOUWD OBJECT of BENOEMD TERREIN. |
-| aardCultuurBebouwd |  | Een aanduiding van het gebruik van een locatie en alles wat erin of erop staat. |
+| aardCultuurBebouwd | CultuurcodeBebouwd | Een aanduiding van het gebruik van een locatie en alles wat erin of erop staat. |
 
 
 
@@ -406,9 +406,9 @@ Attributen van objecttype MigratieIngeschrevenNatuurlijkPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| soortMigratie | Enumeratie: "soortMigratie" | Aanduiding die aangeeft dat het een emigratie of een immigratie betreft. |
-| redenWijzigingMigratie | Enumeratie: "redenWijzigingAdres" | Aanduiding die aangeeft waarom de migratie is opgenomen. |
-| aangeverMigratie | Enumeratie: "aangever" | De hoedanigheid van de persoon die aangifte van emigratie heeft gedaan, ten opzichte van de persoon wiens emigratie is aangegeven. |
+| soortMigratie | soortMigratie | Aanduiding die aangeeft dat het een emigratie of een immigratie betreft. |
+| redenWijzigingMigratie | redenWijzigingAdres | Aanduiding die aangeeft waarom de migratie is opgenomen. |
+| aangeverMigratie | aangever | De hoedanigheid van de persoon die aangifte van emigratie heeft gedaan, ten opzichte van de persoon wiens emigratie is aangegeven. |
 
 
 
@@ -483,7 +483,7 @@ Attributen van objecttype NaamgebruikNatuurlijkPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| adellijkeTitelNaamgebruik | Enumeratie: "adelijkeTitel" | De adellijke titel die geplaatst wordt voor de geslachtsnaam. |
+| adellijkeTitelNaamgebruik | adelijkeTitel | De adellijke titel die geplaatst wordt voor de geslachtsnaam. |
 | geslachtsnaamstamNaamgebruik | AN200 | Geslachtsnaam die de persoon wenst te voeren. |
 | aanhefAanschrijving | AN50 | De aanhef waarmee de persoon aangeschreven wil worden. |
 
@@ -561,8 +561,8 @@ Attributen van objecttype NationaliteitIngeschrevenNatuurlijkPersoon
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | nationaliteit | NATIONALITEIT | Een aanduiding van de NATIONALITEIT die de INGESCHREVEN NATUURLIJK PERSOON bezit. |
-| redenVerkrijging |  | Een code die aanduidt op grond waarvan de INGESCHREVEN NATUURLIJK PERSOON de nationaliteit verkregen heeft. |
-| redenVerlies |  | Een code die aanduidt op grond waarvan de INGESCHREVEN NATUURLIJK PERSOON de nationaliteit verloren heeft. |
+| redenVerkrijging | RedenVerkrijgingNationaliteit | Een code die aanduidt op grond waarvan de INGESCHREVEN NATUURLIJK PERSOON de nationaliteit verkregen heeft. |
+| redenVerlies | RedenVerliesNationaliteit | Een code die aanduidt op grond waarvan de INGESCHREVEN NATUURLIJK PERSOON de nationaliteit verloren heeft. |
 | buitenlandsPersoonsnummer | AN40 | Buitenlands nummer ter identificatie van een persoon zonder de Nederlandse nationaliteit, maar met de nationaliteit van een andere lidstaat van de Europese Unie. |
 
 
@@ -599,10 +599,10 @@ Attributen van objecttype NederlandseNationaliteitIngeschrevenPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanduidingBijzonderNederlanderschap |  | Een aanduiding die of aangeeft dat de ingeschrevene behandeld wordt als Nederlander, of dat door de rechter is vastgesteld dat de ingeschrevene niet de Nederlandse nationaliteit bezit. |
-| redenVerkrijgingNederlandseNationaliteit |  | Een code die aanduidt op grond waarvan de ingeschrevene de Nederlandse nationaliteit verkregen heeft. |
-| redenVerliesNederlandseNationaliteit |  | Een code die aanduidt op grond waarvan de ingeschrevene de Nederlandse nationaliteit verloren heeft. |
-| nationaliteit |  | De NATIONALITEIT die op een zeker moment door de INGESCHREVEN PERSOON is verkregen. |
+| aanduidingBijzonderNederlanderschap | boolean | Een aanduiding die of aangeeft dat de ingeschrevene behandeld wordt als Nederlander, of dat door de rechter is vastgesteld dat de ingeschrevene niet de Nederlandse nationaliteit bezit. |
+| redenVerkrijgingNederlandseNationaliteit | AN200 | Een code die aanduidt op grond waarvan de ingeschrevene de Nederlandse nationaliteit verkregen heeft. |
+| redenVerliesNederlandseNationaliteit | AN200 | Een code die aanduidt op grond waarvan de ingeschrevene de Nederlandse nationaliteit verloren heeft. |
+| nationaliteit | Nationaliteit | De NATIONALITEIT die op een zeker moment door de INGESCHREVEN PERSOON is verkregen. |
 
 
 
@@ -638,12 +638,12 @@ Attributen van objecttype OntbindingHuwelijk/geregistreerdPartnerschap
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| redenEinde | Enumeratie: "redenEindeRelatie" | De reden van ontbinding huwelijk, dan wel beëindiging geregistreerd partnerschap. |
+| redenEinde | redenEindeRelatie | De reden van ontbinding huwelijk, dan wel beëindiging geregistreerd partnerschap. |
 | datumEinde | Datum | De datum waarop het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd. |
 | gemeenteEinde | AN80 | Gemeente waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd. |
 | buitenlandsePlaatsEinde | AN40 | Buitenlandse plaats waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd. |
 | buitenlandseRegioEinde | AN35 | Buitenlandse regio waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd. |
-| landOfGebiedEinde |  | Land of gebied waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd. |
+| landOfGebiedEinde | LandOfgebied | Land of gebied waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd. |
 | omschrijvingLocatieEinde | AN40 | Omschrijving van de locatie waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd. Dit veld wordt gebruikt voor situaties die zich niet laten vangen in een gemeente einde, woonplaatsnaam einde, buitenlandse plaats einde, buitenlandse regio einde, of land/gebied einde, bijvoorbeeld bij een einde van het huwelijk of geregistreerd partnerschap in internationale wateren. |
 
 
@@ -685,7 +685,7 @@ Attributen van objecttype OverlijdenIngeschrevenNatuurlijkPersoon
 | buitenlandsePlaatsOverlijden | AN40 | Buitenlandse plaats waar de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
 | buitenlandseRegioOverlijden | AN35 | Buitenlandse regio waar de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
 | omschrijvingLocatieOverlijden | AN40 | Omschrijving van de locatie waar de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
-| landOfGebiedOverlijden |  | Het land of gebied waar de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
+| landOfGebiedOverlijden | LandOfgebied | Het land of gebied waar de INGESCHREVEN NATUURLIJK PERSOON is overleden. |
 
 
 
@@ -722,8 +722,8 @@ Attributen van objecttype OverlijdenIngeschrevenPersoon
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datumOverlijden | Datum | De datum van overlijden |
-| overlijdensplaats |  | De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de persoon is overleden |
-| landOverlijden |  | Het LAND waar de INGESCHREVEN PERSOON is overleden. |
+| overlijdensplaats | AN200 | De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de persoon is overleden |
+| landOverlijden | Land | Het LAND waar de INGESCHREVEN PERSOON is overleden. |
 
 
 
@@ -838,8 +838,8 @@ Attributen van objecttype SamengesteldeNaamNatuurlijkPersoon
 | voorvoegsel | AN255 | Voorvoegsel behorende bij de stam van de geslachtsnaam. |
 | scheidingsteken | AN255 | Teken dat een eventueel voorvoegsel scheidt van de stam van de geslachtsnaam. |
 | geslachtsnaamstam | AN200 | De stam van de geslachtsnaam. |
-| predicaat | Enumeratie: "predicaat" | Predicaat dat door de persoon gevoerd mag worden voorafgaand aan de voornaam. |
-| adellijkeTitel | Enumeratie: "adelijkeTitel" | Adellijke titel die door de persoon gevoerd mag worden voorafgaand aan de geslachtsnaam. |
+| predicaat | predicaat | Predicaat dat door de persoon gevoerd mag worden voorafgaand aan de voornaam. |
+| adellijkeTitel | adelijkeTitel | Adellijke titel die door de persoon gevoerd mag worden voorafgaand aan de geslachtsnaam. |
 | namenreeks | boolean | Indicator die aangeeft dat er sprake is van een namenreeks. |
 
 
@@ -916,7 +916,7 @@ Attributen van objecttype SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap
 | datumAanvang | Datum | De datum waarop het huwelijk is gesloten, dan wel het geregistreerd partnerschap is aangegaan. |
 | gemeenteAanvang | AN80 | Gemeente waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
 | buitenlandsePlaatsAanvang | AN40 | Buitenlandse plaats waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
-| landOfGebiedAanvang |  | Land of gebied waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
+| landOfGebiedAanvang | LandOfgebied | Land of gebied waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
 | buitenlandseRegioAanvang | AN35 | Buitenlandse regio waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
 | omschrijvingLocatieAanvang | AN40 | Omschrijving van de locatie waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan. |
 
@@ -955,7 +955,7 @@ Attributen van objecttype SoortFunctioneelGebied
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | indicatiePlusBRPopulatie |  | Aanduiding of het soort functioneel gebied een uitbreiding van de populatie van BGT in IMGeo is. |
-| typeFunctioneelGebied | Enumeratie: "typeringFunctioneelGebied" | Specificatie van het soort Functioneel Gebied. |
+| typeFunctioneelGebied | typeringFunctioneelGebied | Specificatie van het soort Functioneel Gebied. |
 
 
 
@@ -992,7 +992,7 @@ Attributen van objecttype SoortKunstwerk
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | indicatiePlusBRPopulatie |  | Aanduiding of het soort kunstwerk een uitbreiding van de populatie van BGT in IMGeo is. |
-| typeKunstwerk | Enumeratie: "typeringKunstwerk" | Specificatie van het soort Kunstwerk waartoe het kunstwerkdeel behoort. |
+| typeKunstwerk | typeringKunstwerk | Specificatie van het soort Kunstwerk waartoe het kunstwerkdeel behoort. |
 
 
 
@@ -1029,7 +1029,7 @@ Attributen van objecttype SoortOverigBouwwerk
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | indicatiePlusBRPopulatie |  | Aanduiding of het soort overig bouwwerk een uitbreiding van de populatie van de basisregistratie is. |
-| typeOverigBouwwerk | Enumeratie: "typeringOverigBouwwerk" | Specificatie van het soort overig bouwwerk. |
+| typeOverigBouwwerk | typeringOverigBouwwerk | Specificatie van het soort overig bouwwerk. |
 
 
 
@@ -1066,7 +1066,7 @@ Attributen van objecttype SoortScheiding
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | indicatiePlusBRPopulatie |  | Aanduiding of het soort scheiding een uitbreiding van de populatie van de basisregistratie is. |
-| typeScheiding | Enumeratie: "typeringScheiding" | Specificatie van het soort scheiding. |
+| typeScheiding | typeringScheiding | Specificatie van het soort scheiding. |
 
 
 
@@ -1103,7 +1103,7 @@ Attributen van objecttype SoortSpoor
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | indicatiePlusBRPopulatie |  | Aanduiding of het soort gebruik van het spoor een uitbreiding van de populatie van BGT in IMGeo is. |
-| functieSpoor | Enumeratie: "functieSpoor" | Specificatie van het soort gebruik van het spoor. |
+| functieSpoor | functieSpoor | Specificatie van het soort gebruik van het spoor. |
 
 
 
@@ -1258,7 +1258,7 @@ Attributen van objecttype VerblijfBuitenland
 | adresregelBuitenland4 | AN35 | Het vierde deel van het adres in het buitenland dat het SUBJECT opgeeft bij vertrek naar het buitenland dan wel waar het SUBJECT in het buitenland verblijft. |
 | adresregelBuitenland5 | AN35 | Het vijfde deel van het adres in het buitenland dat het SUBJECT opgeeft bij vertrek naar het buitenland dan wel waar het SUBJECT in het buitenland verblijft. |
 | adresregelBuitenland6 | AN35 | Het zesde deel van het adres in het buitenland dat het SUBJECT opgeeft bij vertrek naar het buitenland dan wel waar het SUBJECT in het buitenland verblijft. |
-| landOfGebiedVerblijfadres |  | Het SUBJECT dat heeft aangegeven te (gaan) verblijven dan wel verblijft in het LAND |
+| landOfGebiedVerblijfadres | LandOfgebied | Het SUBJECT dat heeft aangegeven te (gaan) verblijven dan wel verblijft in het LAND |
 
 
 
@@ -1297,7 +1297,7 @@ Attributen van objecttype VerblijfBuitenlandSubject
 | adresBuitenland1 | AN200 | Het eerste deel van het adres in het buitenland dat het SUBJECT opgeeft bij vertrek naar het buitenland dan wel waar het SUBJECT in het buitenland verblijft. |
 | adresBuitenland2 | AN200 | Het tweede deel van het adres in het buitenland dat het SUBJECT opgeeft bij vertrek naar het buitenland dan wel waar het SUBJECT in het buitenland verblijft. |
 | adresBuitenland3 | AN200 | Het derde deel van het adres in het buitenland dat het SUBJECT opgeeft bij vertrek naar het buitenland dan wel waar het SUBJECT in het buitenland verblijft. |
-| landVerblijfadres |  | Het SUBJECT dat heeft aangegeven te (gaan) verblijven dan wel verblijft in het LAND |
+| landVerblijfadres | Land | Het SUBJECT dat heeft aangegeven te (gaan) verblijven dan wel verblijft in het LAND |
 
 
 
@@ -1333,7 +1333,7 @@ Attributen van objecttype VerblijfsrechtIngeschrevenNatuurlijkPersoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanduidingVerblijfsrecht |  | Aanduiding in verband met het verblijfsrecht van de persoon als bedoeld in de Vreemdelingenwet 2000. |
+| aanduidingVerblijfsrecht | AanduidingVerblijfsrecht | Aanduiding in verband met het verblijfsrecht van de persoon als bedoeld in de Vreemdelingenwet 2000. |
 | datumAanvangVerblijfsrecht | Datum | De datum waarop het verblijfsrecht van de Vreemdeling is aangegeven. |
 | datumVoorzienEindeVerblijfsrecht | Datum | De einddatum verblijfsrecht voor bepaalde duur in de mededeling van de Minister van Veiligheid en Justitie. |
 | datumMededelingVerblijfsrecht | Datum | De datum van de mededeling van de Minister van Veiligheid en Justitie inzake verblijfsrecht. |
@@ -1372,9 +1372,9 @@ Attributen van objecttype VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPe
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| partij |  | Een in de BRP gekende partij waarbij de persoon heeft gekozen voor verstrekkingsbeperking. |
+| partij | Partij | Een in de BRP gekende partij waarbij de persoon heeft gekozen voor verstrekkingsbeperking. |
 | omschrijvingDerde | AN250 | De derde waarvan de persoon heeft gekozen voor verstrekkingsbeperking. De hier bedoelde derde is een niet in de BRP gekende partij die benoemd is of opgenomen is in de gemeentelijke verordening. |
-| gemeenteVerordening |  | Gemeente waar derde in de plaatselijke verordening voorkomt. |
+| gemeenteVerordening | Partij | Gemeente waar derde in de plaatselijke verordening voorkomt. |
 
 
 
@@ -1408,7 +1408,7 @@ De enumeratie soortMigratie heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_45780b81\_d05d\_475b\_9708\_b1636acbf6de |
+    | id | EAID\_1d0c7a79\_809e\_4b6e\_90a6\_bd363380f84f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1447,7 +1447,7 @@ De enumeratie redenWijzigingAdres heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_93642872\_0498\_42e5\_aefd\_e76c6d0b533d |
+    | id | EAID\_5527e29e\_09a7\_4baa\_ba56\_e07dd97f39dc |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1488,7 +1488,7 @@ De enumeratie aangever heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_0a1e8be2\_9967\_4413\_90df\_fb14ae373170 |
+    | id | EAID\_e09828ee\_426d\_4a51\_823f\_91248de2f055 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1534,7 +1534,7 @@ De enumeratie adelijkeTitel heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_d63e0ce3\_f62b\_4a2c\_afbc\_06e33bf71da0 |
+    | id | EAID\_f631ff74\_c5f1\_4e22\_8299\_d8e4ac6c94de |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1575,7 +1575,7 @@ De enumeratie redenEindeRelatie heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_481aac3b\_84e7\_4b61\_af48\_3e22474e9658 |
+    | id | EAID\_7f4004e4\_a893\_4e70\_98f3\_4ed923abfdd1 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1614,7 +1614,7 @@ De enumeratie predicaat heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_74b2a9a1\_301d\_428e\_ab9e\_f65ff9fd9195 |
+    | id | EAID\_09cda616\_d486\_4d17\_b809\_ab377e9c2778 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1660,7 +1660,7 @@ De enumeratie adelijkeTitel heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_25372f0c\_ce9b\_42fe\_bee6\_e3c7069affee |
+    | id | EAID\_31455781\_725e\_400a\_8821\_5ec3ad00962c |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1731,7 +1731,7 @@ De enumeratie typeringFunctioneelGebied heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_305d42f5\_2fe2\_4b3e\_af8c\_b15bcb444a2f |
+    | id | EAID\_d1c7cb6a\_40f6\_413e\_8e45\_88fd8e1ec8ff |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1783,7 +1783,7 @@ De enumeratie typeringKunstwerk heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_daa71bbd\_5799\_4ac7\_8e01\_0575c170163e |
+    | id | EAID\_02ef969e\_2595\_4832\_8c92\_5167148a0132 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1828,7 +1828,7 @@ De enumeratie typeringOverigBouwwerk heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_90242990\_2d0d\_4f7c\_9fbf\_4e8f04240e38 |
+    | id | EAID\_7127beea\_a262\_4cea\_93a0\_b156d988d3ae |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1867,7 +1867,7 @@ De enumeratie typeringScheiding heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_260287eb\_9116\_4b66\_9352\_255e806370ce |
+    | id | EAID\_11a7bb78\_3b0a\_462d\_9ac5\_32624dc7e2bd |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1904,7 +1904,7 @@ De enumeratie functieSpoor heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:37 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_b427f575\_0ca4\_40eb\_b8ba\_a629107d77c9 |
+    | id | EAID\_4473c296\_5f27\_4418\_8fd6\_7c6cafc4c5dc |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

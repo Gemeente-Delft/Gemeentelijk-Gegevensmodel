@@ -69,8 +69,8 @@ Attributen van objecttype Gebouw
 | aantal | int |  |
 | aantalAdressen | int |  |
 | aantalKamers | int |  |
-| energielabel | Enumeratie: "Energielabel" |  |
-| oppervlakte | Enumeratie: "Oppervlakte Woning" |  |
+| energielabel | Energielabel |  |
+| oppervlakte | Oppervlakte Woning |  |
 | duurzaam | boolean |  |
 | natuurinclusief | boolean |  |
 | regenwater | boolean |  |
@@ -343,7 +343,7 @@ De enumeratie Energielabel heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:10 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_9d785583\_82fb\_4d65\_b3c8\_1f6a497dd114 |
+    | id | EAID\_f9f4ae86\_2bdb\_486d\_a0bd\_35ae358e92ba |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -383,7 +383,7 @@ De enumeratie Oppervlakte Woning heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:10 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_af7d9ed4\_fdd4\_4a48\_878d\_39bd200e62d3 |
+    | id | EAID\_3af2545a\_7880\_458e\_ac46\_8d91b12653be |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

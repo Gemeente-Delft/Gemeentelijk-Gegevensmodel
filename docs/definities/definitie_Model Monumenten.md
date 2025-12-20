@@ -107,7 +107,7 @@ Attributen van objecttype Beschermde Status
 | gemeentelijkMonumentCode | AN80 |  |
 | datumInschrijvingRegister | Date |  |
 | naam | AN200 |  |
-| type | Enumeratie: "TypeMonument" |  |
+| type | TypeMonument |  |
 | gezichtscode | AN20 |  |
 | complex | AN200 |  |
 | opmerkingen | text |  |

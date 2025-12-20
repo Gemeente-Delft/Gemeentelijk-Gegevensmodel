@@ -163,7 +163,7 @@ Attributen van objecttype Begeleiding
 | :--- | :--- | :--- |
 | startdatum | Date |  |
 | einddatum | Date |  |
-| soort | Enumeratie: "EnumBegeleidingssoort" |  |
+| soort | EnumBegeleidingssoort |  |
 
 
 
@@ -404,7 +404,7 @@ Attributen van objecttype Intake
 | startdatum | Datum | Het gesprek dat plaatsvindt na aanmelding of na ontvangst hulpvraag (bijv. bij doorverwijzing vanuit vroegsignalering). Doel van dit gesprek is om de hulpvraag vast te stellen en te beoordelen welke instrumenten, ondersteuning, activiteiten en gegevens nodig zijn om een persoon te helpen om een duurzaam financieel evenwicht te bereiken. |
 | einddatum | Datum | De datum van afronding van de intake. Een klant ontvangt een gemotiveerde afwijzing of een toelatingsbeschikking. |
 | beschikkingsdatum | Datum | De datum waarop de beschikking is afgegeven. |
-| beschikkingssoort | Enumeratie: "EnumBeschikkingssoort" |  |
+| beschikkingssoort | EnumBeschikkingssoort |  |
 
 
 
@@ -599,7 +599,7 @@ Attributen van objecttype Oplossing
 | :--- | :--- | :--- |
 | startdatum | Datum | Het gaat om het moment dat een schuldregeling (saneringskrediet/schuldbemiddeling) of volledige afbetalingsregeling (betalingsregeling/herfinanciering) daadwerkelijk start na goedkeuring van de aanvraag. |
 | einddatum | Datum | Het gaat om het moment dat een schuldregeling (saneringskrediet/schuldbemiddeling) of volledige afbetalingsregeling (betalingsregeling/herfinanciering) daadwerkelijk eindigt. Dit kan zijn na de formele afgesproken periode of een voortijdige beeindiging. |
-| soort | Enumeratie: "EnumOplossingssoort" |  |
+| soort | EnumOplossingssoort |  |
 | vtlb | Bedrag | Het “Vrij te laten bedrag” (VTLB) is het bedrag (in hele euro's per maand) dat een persoon of huishouden met schulden mag behouden om in de basisbehoeften te voorzien. Dit bedrag wordt vastgesteld tijdens schuldhulpverleningstrajecten. Het VTLB zorgt ervoor dat iemand niet verder in de problemen komt door schulden af te lossen en tegelijkertijd nog kan voorzien in noodzakelijke kosten van levensonderhoud. |
 
 
@@ -756,7 +756,7 @@ Attributen van objecttype Schuld
 | bedrag | Bedrag | Bedrag in hele euro's nauwkeurig |
 | peildatum | Date | Datum dat de schuld is vastgesteld. Het betreft hier het moment dat de vaststelling door de schuldhulpverlener in het kader van het schuldhulptraject is gedaan. |
 | zakelijkeSchuld | boolean | Betreft het een zakelijke schuld |
-| schuldsoort | Enumeratie: "EnumSchuldensoort" |  |
+| schuldsoort | EnumSchuldensoort |  |
 
 
 
@@ -989,7 +989,7 @@ Attributen van objecttype Uitstroom
 | :--- | :--- | :--- |
 | omschrijving | text |  |
 | datum | date | Datum dat clienten uit het schuldhulptraject zijn uitgestroomd. Deze datum is gelijk aan de datum beëindigingsbeschikking. |
-| reden | Enumeratie: "EnumUitstroomreden" | Reden dat de hulpverlening op enig moment na aanmelding bij schuldhulpverlening eindigt. |
+| reden | EnumUitstroomreden | Reden dat de hulpverlening op enig moment na aanmelding bij schuldhulpverlening eindigt. |
 | datumBeeindigingsbeschikking | Datum | Datum dat de Beëindigingsbeschikking is afgegeven. |
 
 
@@ -1073,7 +1073,7 @@ Attributen van objecttype Woningbezit
 | :--- | :--- | :--- |
 | startdatum | Datum |  |
 | einddatum | Datum |  |
-| soort | Enumeratie: "EnumWoningbezit" |  |
+| soort | EnumWoningbezit |  |
 
 
 

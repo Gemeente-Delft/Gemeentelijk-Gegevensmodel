@@ -148,7 +148,7 @@ Attributen van objecttype Applicatie
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | naam | AN255 |  |
-| categorie | Enumeratie: "Applicatiecategorie" |  |
+| categorie | Applicatiecategorie |  |
 | beheerstatus | int |  |
 | packagingstatus | int |  |
 | applicatieURL | AN255 |  |
@@ -326,7 +326,7 @@ Attributen van objecttype Database
 | omschrijving | AN80 |  |
 | DBMS | AN40 |  |
 | architectuur | AN40 |  |
-| OTAP |  |  |
+| OTAP | Boolean |  |
 | databaseVersie | AN40 |  |
 | vlan | AN40 |  |
 
@@ -948,7 +948,7 @@ Attributen van objecttype Objecttype
 | id | int |  |
 | stereotype | AN255 |  |
 | ea_guid | guid |  |
-| supertype | Class: "Generalisatie" |  |
+| supertype | Generalisatie |  |
 
 
 
@@ -1185,7 +1185,7 @@ Attributen van objecttype Server
 | :--- | :--- | :--- |
 | serverID | AN20 |  |
 | organisatie | AN80 |  |
-| servertype | Enumeratie: "Servertypes" |  |
+| servertype | Servertypes |  |
 | IPAdres | AN40 |  |
 | vlan | AN40 |  |
 | serienummer | AN40 |  |

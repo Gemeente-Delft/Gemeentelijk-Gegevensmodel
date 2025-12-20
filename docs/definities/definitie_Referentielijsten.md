@@ -597,7 +597,7 @@ Attributen van objecttype Provincie
 | provincienaam | AN40 | De naam van het land, zoals opgenomen in de Land/Gebied-tabel van de BRP. |
 | datumIngangProvincie | DATUM | De datum waarop het land/gebied is ontstaan. |
 | datumEindeProvincie | DATUM | De datum waarop het land/gebied is opgeheven. |
-| hoofdstad |  | De code van een huidig land of gebiedsdeel conform ISO 3166 |
+| hoofdstad | Gemeente | De code van een huidig land of gebiedsdeel conform ISO 3166 |
 | oppervlakte | int | Oppervlakte in km2 |
 | oppervlakteLand | int | Landoppervlakte in km2 |
 

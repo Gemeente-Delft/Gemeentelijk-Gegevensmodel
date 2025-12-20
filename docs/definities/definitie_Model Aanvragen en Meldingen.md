@@ -288,7 +288,7 @@ Attributen van objecttype Specificatie
 | groepering | AN200 |  |
 | publiceerbaar | Boolean |  |
 | vraagID | AN80 |  |
-| vraagClassificatie | Enumeratie: "Vraag Classificatie" |  |
+| vraagClassificatie | Vraag Classificatie |  |
 | vraagreferentie | AN200 |  |
 | vraagtekst | text |  |
 
@@ -364,14 +364,14 @@ Attributen van objecttype Verzoek
 | :--- | :--- | :--- |
 | akkoordverklaring | boolean |  |
 | ambtshalve | boolean |  |
-| doel | Enumeratie: "Doel verzoek" |  |
+| doel | Doel verzoek |  |
 | datumIndiening | Date |  |
 | naam | AN200 |  |
 | referentieAanvrager | AN200 |  |
 | toelichtingLaterAanTeLeverenInformatie | text |  |
 | toelichtingNietAanTeLeverenInformatie | text |  |
 | toelichtingVerzoek | text |  |
-| type | Enumeratie: "Doel verzoek" |  |
+| type | Doel verzoek |  |
 | verzoeknummer | An80 |  |
 | volgnummer | AN80 |  |
 

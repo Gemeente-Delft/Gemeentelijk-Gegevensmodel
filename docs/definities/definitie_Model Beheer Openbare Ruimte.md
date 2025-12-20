@@ -157,7 +157,7 @@ Attributen van objecttype CROW-Melding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| kwaliteitsniveau | Enumeratie: "CROW-Kwaliteitsniveaus" |  |
+| kwaliteitsniveau | CROW-Kwaliteitsniveaus |  |
 
 
 
@@ -595,7 +595,7 @@ Attributen van objecttype MOOR-melding
 | :--- | :--- | :--- |
 | datumAanmelding | DateTime |  |
 | wegbeheerder | AN80 |  |
-| adresaanduiding |  |  |
+| adresaanduiding | Adresaanduiding |  |
 | starttijd | DateTime |  |
 | eindtijd | DateTime |  |
 | datumGoedkeuring | DateTime |  |

@@ -374,7 +374,7 @@ Attributen van objecttype Parkeervlak
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | vlakID | AN40 |  |
-| doelgroep | Enumeratie: "Doelgroepenplaatsen" |  |
+| doelgroep | Doelgroepenplaatsen |  |
 | plaats | AN200 |  |
 | coordinaten | Point |  |
 | fiscaal | boolean |  |
@@ -432,7 +432,7 @@ Attributen van objecttype Parkeerzone
 | eindedag | AN20 |  |
 | starttijd | int |  |
 | eindtijd | int |  |
-| isParkeergarage | Enumeratie: "Boolean" |  |
+| isParkeergarage | Boolean |  |
 
 
 
@@ -547,7 +547,7 @@ Attributen van objecttype Straatsectie
 | :--- | :--- | :--- |
 | code | AN40 |  |
 | omschrijving | AN500 |  |
-| zoneCode | Enumeratie: "Zonesoort" |  |
+| zoneCode | Zonesoort |  |
 
 
 
@@ -623,7 +623,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_593912fb\_1a4d\_43d4\_b0ed\_03e0c5099319 |
+    | id | EAID\_5ac2d1b9\_0311\_49ad\_89a9\_6ca86a3d054f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

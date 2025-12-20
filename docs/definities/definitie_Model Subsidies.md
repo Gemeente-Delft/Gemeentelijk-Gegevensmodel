@@ -182,7 +182,7 @@ Attributen van objecttype Subsidie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| niveau | Enumeratie: "Subsidieniveau" |  |
+| niveau | Subsidieniveau |  |
 | deadlineIndiening | Date |  |
 | subsidiebedrag | Bedrag |  |
 | coFinanciering | Bedrag |  |

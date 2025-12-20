@@ -70,13 +70,13 @@ Attributen van objecttype Stremming
 | datumStart | DateTime |  |
 | datumEinde | DateTime |  |
 | datumAanmelding | DateTime |  |
-| status | Enumeratie: "Stremmingstatus" |  |
+| status | Stremmingstatus |  |
 | datumWijziging | DateTime |  |
 | geschiktVoorPublicatie | boolean |  |
 | delenToegestaan | boolean |  |
 | locatie | Point |  |
-| hinderklasse | Enumeratie: "Hinderklasse" |  |
-| aantalGehinderden | Enumeratie: "Aantal Gehinderden" |  |
+| hinderklasse | Hinderklasse |  |
+| aantalGehinderden | Aantal Gehinderden |  |
 
 
 

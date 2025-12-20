@@ -168,10 +168,10 @@ Attributen van objecttype Nummeraanduiding
 | postcode | AN6 | De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam van een woonplaats, naam van een openbare ruimte en een huisnummer |
 | beginGeldigheid | DATUM | Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum |
 | eindeGeldigheid | DATUM | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. |
-| status | Enumeratie: "statusNummeraanduiding" | De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.<br>\1- Naamgeving uitgegeven<br>\1- Naamgeving ingetrokken |
+| status | statusNummeraanduiding | De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.<br>\1- Naamgeving uitgegeven<br>\1- Naamgeving ingetrokken |
 | geconstateerd | boolean |  |
 | identificatie | Varchar | Unieke identificatiecode van het object |
-| typeAdresseerbaarObject | Enumeratie: "TypeAdresseerbaarObject" | Het type addresseerbaarobject (landelijke identificatie) wat door de nummeraanduiding wordt aangeduid. |
+| typeAdresseerbaarObject | TypeAdresseerbaarObject | Het type addresseerbaarobject (landelijke identificatie) wat door de nummeraanduiding wordt aangeduid. |
 | datumIngang | Date | Datum waarop het object is ontstaan |
 | datumEinde | DATUM | De datum waarop de object in de BAG formeel is ingetrokken. |
 | versie | int |  |
@@ -223,7 +223,7 @@ Attributen van objecttype Buurt
 | status | statusOpenbareRuimte |  |
 | datumEinde | Date | De datum waarop de object in de BAG formeel is ingetrokken. |
 | versie | int |  |
-| Geconstateerd | Enumeratie: "Boolean" |  |
+| Geconstateerd | Boolean |  |
 
 
 
@@ -270,7 +270,7 @@ Attributen van objecttype Gemeente
 | datumEinde | Date | De datum waarop de object in de BAG formeel is ingetrokken. |
 | versie | int |  |
 | Geconstateerd | boolean |  |
-| nieuwe gemeente | Class: "Gemeente" |  |
+| nieuwe gemeente | Gemeente |  |
 
 
 
@@ -307,8 +307,8 @@ Attributen van objecttype Ligplaats
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | identificatie | Varchar | De unieke aanduiding van een LIGPLAATS |
-| geconstateerd | Enumeratie: "Boolean" | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname. |
-| status | Enumeratie: "statusLigplaats" | De fase van de levenscyclus van een LIGPLAATS waarin de betreffende LIGPLAATS zich bevindt.<br>\1- Plaats aangewezen<br>\1- Plaats ingetrokken |
+| geconstateerd | Boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname. |
+| status | statusLigplaats | De fase van de levenscyclus van een LIGPLAATS waarin de betreffende LIGPLAATS zich bevindt.<br>\1- Plaats aangewezen<br>\1- Plaats ingetrokken |
 | documentdatum | Date | De datum waarop het brondocument is vastgesteld op basis waarvan een opname, mutatie of een verwijdering van gegevens ten aanzien van een object heeft plaatsgevonden. |
 | documentnummer | int | De unieke aanduiding van het brondocument op basis waarvan een opname, mutatie of een verwijdering van gegevens ten aanzien van een woonplaats heeft plaatsgevonden binnen een gemeente. |
 | versie | Number |  |
@@ -354,7 +354,7 @@ Attributen van objecttype AdresseerbaarObject
 | :--- | :--- | :--- |
 | identificatie | Varchar | De unieke aanduiding van een AdresseerbaarObject. |
 | versie | int |  |
-| typeAdresseerbaarObject | Enumeratie: "TypeAdresseerbaarObject" |  |
+| typeAdresseerbaarObject | TypeAdresseerbaarObject |  |
 
 
 
@@ -391,10 +391,10 @@ Attributen van objecttype OpenbareRuimte
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | identificatie | Varchar | De unieke aanduiding van een OPENBARE RUIMTE. |
-| status | Enumeratie: "statusOpenbareRuimte" | De fase van de levenscyclus van een OPENBARE RUIMTE, waarin de betreffende OPENBARE RUIMTE zich bevindt |
+| status | statusOpenbareRuimte | De fase van de levenscyclus van een OPENBARE RUIMTE, waarin de betreffende OPENBARE RUIMTE zich bevindt |
 | naamOpenbareruimte | AN80 | Een door het bevoegde gemeentelijke orgaan aan een OPENBARE RUIMTE toegekende benaming |
 | geconstateerd | boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname |
-| typeOpenbareruimte | Enumeratie: "typeringOpenbareRuimte" | De aard van de als zodanig benoemde OPENBARE<br>RUIMTE. |
+| typeOpenbareruimte | typeringOpenbareRuimte | De aard van de als zodanig benoemde OPENBARE<br>RUIMTE. |
 | straatnaam | AN24 | De officiële straatnaam zoals door het bevoegd gemeentelijk orgaan is vastgesteld, zo nodig ingekort conform de specificaties van de NEN 5825. |
 | Huisnummerrange even nummers | AN11 | Het laagste en het hoogste huisnummer, zijnde even getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE. |
 | Huisnummerrange oneven nummers | AN11 | Het laagste en het hoogste huisnummer, zijnde oneven getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE. |
@@ -446,8 +446,8 @@ Attributen van objecttype Pand
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | identificatie | Varchar | De unieke aanduiding van een PAND |
-| status | Enumeratie: "statusPand" | De fase van de levenscyclus van een PAND, waarin het betreffende PAND zich bevindt.<br>\1- Bouwvergunning verleend<br>\1- Niet gerealiseerd pand<br>\1- Bouw gestart<br>\1- Pand in gebruik (niet ingemeten)<br>\1- Pand in gebruik<br>\1- Sloopvergunning verleend<br>\1- Pand gesloopt<br>\1- Pand buiten gebruik<br>\1- Verbouwing pand<br>\1- Pand ten onrechte opgevoerd |
-| statusVoortgangBouw | Enumeratie: "statusVoortgangBouw" | De fase van de bouw, verbouw of sloop waarin het betreffende PAND zich bevindt |
+| status | statusPand | De fase van de levenscyclus van een PAND, waarin het betreffende PAND zich bevindt.<br>\1- Bouwvergunning verleend<br>\1- Niet gerealiseerd pand<br>\1- Bouw gestart<br>\1- Pand in gebruik (niet ingemeten)<br>\1- Pand in gebruik<br>\1- Sloopvergunning verleend<br>\1- Pand gesloopt<br>\1- Pand buiten gebruik<br>\1- Verbouwing pand<br>\1- Pand ten onrechte opgevoerd |
+| statusVoortgangBouw | statusVoortgangBouw | De fase van de bouw, verbouw of sloop waarin het betreffende PAND zich bevindt |
 | oorspronkelijkBouwjaar | N4 | De aanduiding van het jaar waarin een PAND oorspronkelijk als bouwkundig gereed is of wordt opgeleverd. |
 | oppervlakte | N6 | De gebruiksoppervlakte van een PAND in gehele vierkante meters. |
 | brutoInhoudPand | N6 | Aanduiding in kubieke meters van de bruto inhoud van het PAND. |
@@ -502,7 +502,7 @@ Attributen van objecttype Standplaats
 | :--- | :--- | :--- |
 | Identificatie | Varchar | De unieke aanduiding van een STANDPLAATS. |
 | Geconstateerd | boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname. |
-| Status | Enumeratie: "statusStandplaats" | De fase van de levenscyclus van een STANDPLAATS waarin de betreffende STANDPLAATS zich bevindt. |
+| Status | statusStandplaats | De fase van de levenscyclus van een STANDPLAATS waarin de betreffende STANDPLAATS zich bevindt. |
 | Versie | int |  |
 | Geometrie | Surface | Loodrechte bovenaanzicht van de standplaats in het Nationale Rijksdriehoekstelsel, inclusief alle zichbare en onzichtbare delen boven en onder de grond, maar exclusief alle delen die kunnen bewegen ten opzichte van de aarde |
 | documentdatum | Date | De datum waarop het brondocument is vastgesteld |
@@ -547,19 +547,19 @@ Attributen van objecttype Verblijfsobject
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | identificatie | Varchar | De unieke identificatie van een VERBLIJFSOBJECT. |
-| status | Enumeratie: "statusVerblijfsobject" | De fase van de levenscyclus van een VERBLIJFSOBJECT, waarin het betreffende VERBLIJFSOBJECT zich bevindt. |
+| status | statusVerblijfsobject | De fase van de levenscyclus van een VERBLIJFSOBJECT, waarin het betreffende VERBLIJFSOBJECT zich bevindt. |
 | geconstateerd | boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname. |
 | hoogsteBouwlaag | N3 | De ligging van de hoogste bouwlaag van het verblijfsobject gerekend ten opzichte van het straatpeil. |
 | laagsteBouwlaag | N3 | De ligging van de laagste bouwlaag van het verblijfsobject gerekend ten opzichte van het straatpeil. |
 | toegangBouwlaag | N3 | De ligging van de bouwlaag van het verblijfsobject, gerekend ten opzichte van het straatpeil, waarop zich de hoofdtoegang tot het verblijfsobject bevindt. |
-| soortWoonobject | Enumeratie: "soortWoonobject" | Indeling van woonverblijven volgens het CBS. |
+| soortWoonobject | soortWoonobject | Indeling van woonverblijven volgens het CBS. |
 | aantalKamers | N2 | Het aantal kamers van het Verblijfsobject in de situatie tijdens de bouw. |
-| ontsluitingVerdieping | Enumeratie: "ontsluitingswijzeVerdieping" | Aanduiding van de manier waarop de desbetreffende bouwlaag van een object toegankelijk is gemaakt. |
+| ontsluitingVerdieping | ontsluitingswijzeVerdieping | Aanduiding van de manier waarop de desbetreffende bouwlaag van een object toegankelijk is gemaakt. |
 | documentnummer | int | Het unieke nummer van het brondocument |
 | documentdatum | Date | De datum waarop het brondocument is vastgesteld |
 | geometrie | Point |  |
 | Versie | int |  |
-| gebruiksdoel | Enumeratie: "gebruiksdoel" | Een gebruiksdoel is een categorisering van de gebruiksdoelen van het betreffende verblijfsobject zoals in de vergunning is opgenomen of bij constatering is vastgesteld. |
+| gebruiksdoel | gebruiksdoel | Een gebruiksdoel is een categorisering van de gebruiksdoelen van het betreffende verblijfsobject zoals in de vergunning is opgenomen of bij constatering is vastgesteld. |
 | beginGeldigheid | Date | Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum |
 | eindGeldigheid | Date | Definitie EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid. Beschrijving Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. |
 | datumEinde | Date | De datum waarop de object in de BAG formeel is ingetrokken. |
@@ -649,8 +649,8 @@ Attributen van objecttype Woonplaats
 | identificatie | Varchar | De unieke aanduiding van een WOONPLAATS, zoals opgenomen in de landelijke woonplaatsentabel. |
 | woonplaatsnaam | AN80 | De door het bevoegde gemeentelijke orgaan aan een WOONPLAATS toegekende benaming. |
 | woonplaatsnaamNEN | AN24 | De officiële plaatsnaam conform NEN |
-| geconstateerd | Enumeratie: "Boolean" | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname. |
-| status | Enumeratie: "statusWoonplaats" | De fase van de levenscyclus van een WOONPLAATS, waarin de betreffende WOONPLAATS zich bevindt. |
+| geconstateerd | Boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname. |
+| status | statusWoonplaats | De fase van de levenscyclus van een WOONPLAATS, waarin de betreffende WOONPLAATS zich bevindt. |
 | geometrie | Surface | De tweedimensionale geometrische representatie van het vlak dat wordt gevormd door de omtrekken van een woonplaats. |
 | beginGeldigheid | DATUM | Definitie<br>BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.<br>Beschrijving<br>Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum |
 | eindGeldigheid | DATUM | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. |

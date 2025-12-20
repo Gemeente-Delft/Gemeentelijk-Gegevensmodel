@@ -111,7 +111,7 @@ Attributen van objecttype AanvraagOfMelding
 | :--- | :--- | :--- |
 | datum | Date |  |
 | opmerkingen | AN300 |  |
-| soortVerzuimOfAanvraag | Enumeratie: "Verzuimsoort" |  |
+| soortVerzuimOfAanvraag | Verzuimsoort |  |
 | reden | AN300 |  |
 
 
@@ -410,12 +410,12 @@ Attributen van objecttype Procesverbaal Onderwijs
 | uitspraak | AN500 |  |
 | proeftijd | int | Proeftijd in dagen |
 | geldboete | Bedrag |  |
-| verzuimsoort | Enumeratie: "Verzuimsoort" |  |
+| verzuimsoort | Verzuimsoort |  |
 | datumZitting | Date |  |
 | datumAfgehandeld | Date |  |
 | datumUitspraak | Date |  |
 | datumEindeProeftijd | Date |  |
-| geldboeteVoorwaardelijk | Enumeratie: "Boolean" |  |
+| geldboeteVoorwaardelijk | Boolean |  |
 
 
 
@@ -564,8 +564,8 @@ Attributen van objecttype Vrijstelling
 | :--- | :--- | :--- |
 | datumStart | Datum |  |
 | datumEinde | Datum |  |
-| aanvraagToegekend | Enumeratie: "Boolean" |  |
-| verzuimsoort | Enumeratie: "Verzuimsoort" |  |
+| aanvraagToegekend | Boolean |  |
+| verzuimsoort | Verzuimsoort |  |
 | buitenlandseSchoollocatie | AN500 |  |
 
 
@@ -637,7 +637,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_11b07759\_74ca\_4596\_a781\_b6777a494d2c |
+    | id | EAID\_4e0ec4d1\_d4af\_48d1\_8b0a\_47ec7aacc695 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -674,7 +674,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_6284cf6b\_dfd1\_458a\_ab58\_0421135c7355 |
+    | id | EAID\_23831b36\_5c77\_4e9f\_a2e3\_20dde6c1e467 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

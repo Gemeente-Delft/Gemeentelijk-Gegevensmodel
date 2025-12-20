@@ -74,7 +74,7 @@ Attributen van objecttype Aanwezige Deelnemer
 | :--- | :--- | :--- |
 | aanvangAanwezigheid | DateTime |  |
 | eindeAanwezigheid | DateTime |  |
-| rol | Enumeratie: "Deelnemersrol" |  |
+| rol | Deelnemersrol |  |
 | vertegenwoordigtOrganisatie | AN250 |  |
 | naam | AN250 |  |
 
@@ -454,8 +454,8 @@ Attributen van objecttype Stemming
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| resultaat | Enumeratie: "Stemmingsresultaattype" |  |
-| stemmingstype | Enumeratie: "Stemmingstype" |  |
+| resultaat | Stemmingsresultaattype |  |
+| stemmingstype | Stemmingstype |  |
 
 
 

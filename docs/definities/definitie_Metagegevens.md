@@ -104,7 +104,7 @@ Attributen van objecttype FormeleHistorie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| tijdstipRegistratieGegevens |  | De datum en tijd waarop één of meer gegevens van de entiteit gelijktijdig zijn opgenomen in de registratie. |
+| tijdstipRegistratieGegevens | DateTime | De datum en tijd waarop één of meer gegevens van de entiteit gelijktijdig zijn opgenomen in de registratie. |
 
 
 

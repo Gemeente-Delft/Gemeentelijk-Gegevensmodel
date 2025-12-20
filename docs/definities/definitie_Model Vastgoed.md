@@ -233,7 +233,7 @@ Attributen van objecttype CultuurOnbebouwd
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| cultuurcodeOnbebouwd |  |  |
+| cultuurcodeOnbebouwd | CultuurcodeOnbebouwd |  |
 
 
 
@@ -304,7 +304,7 @@ Attributen van objecttype Gebruiksdoel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| gebruiksdoelGebouwdObject | Enumeratie: "gebruiksdoel" |  |
+| gebruiksdoelGebouwdObject | <Orphan Class> |  |
 
 
 
@@ -489,7 +489,7 @@ Attributen van objecttype LocatieaanduidingWozObject
 | locatieOmschrijving | AN100 |  |
 | datumBeginGeldigheid | Date |  |
 | datumEindeGeldigheid | Date |  |
-| primair | Enumeratie: "Boolean" |  |
+| primair | Boolean |  |
 
 
 
@@ -526,8 +526,8 @@ Attributen van objecttype Locatieonroerendezaak
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | locatieOmschrijving | AN800 |  |
-| cultuurcodeBebouwd |  |  |
-| adrestype | Enumeratie: "TypeAdresseerbaarObject" |  |
+| cultuurcodeBebouwd | CultuurcodeBebouwd |  |
+| adrestype | TypeAdresseerbaarObject |  |
 | datumBeginGeldigheid | Date |  |
 | datumEindeGeldigheid | Date |  |
 | geometrie | Surface |  |
@@ -683,7 +683,7 @@ Attributen van objecttype Objectrelatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| rol | Enumeratie: "Objectrelatierol" |  |
+| rol | Objectrelatierol |  |
 
 
 
@@ -914,7 +914,7 @@ Attributen van objecttype Vastgoedobject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| adresaanduiding |  |  |
+| adresaanduiding | Adresaanduiding |  |
 | WOZWaarde | Bedrag |  |
 | marktwaarde | Bedrag |  |
 | boekwaarde | Bedrag |  |
@@ -924,34 +924,34 @@ Attributen van objecttype Vastgoedobject
 | naam | AN80 |  |
 | bedragAankoop | Bedrag |  |
 | aantalEtages | int |  |
-| afgekochteErfpacht |  |  |
+| afgekochteErfpacht | Boolean |  |
 | afkoopwaarde | Bedrag |  |
-| asbestrapportageAanwezig | Enumeratie: "Boolean" |  |
+| asbestrapportageAanwezig | Boolean |  |
 | datumAfstoten | Date |  |
 | datumBerekeningOppervlak | Date |  |
 | deelportefeuille | AN80 |  |
 | objecttype | AN80 |  |
 | fiscaleWaarde | Bedrag |  |
-| gearchiveerd | Enumeratie: "Boolean" |  |
+| gearchiveerd | Boolean |  |
 | herbouwwaarde | Bedrag |  |
-| monument | Enumeratie: "Monumenttypering" |  |
+| monument | Monumenttypering |  |
 | onderhoudscategorie | AN80 |  |
-| provincie |  |  |
+| provincie | Provincie |  |
 | verkoopbedrag | Bedrag |  |
 | waardeGrond | Bedrag |  |
 | waardeOpstal | Bedrag |  |
-| wijk |  |  |
-| energielabel | Enumeratie: "Energielabel Gebouwen" |  |
+| wijk | Wijk |  |
+| energielabel | Energielabel Gebouwen |  |
 | energieverbruik | int | jaarlijks energieverbruik in Kwh |
 | energiekosten | Bedrag | Jaarlijkse energiekosten |
 | CO2Uitstoot | int | Jaarlijkse CO2 uitstoot in ton CO2-e |
 | jaarLaatsteRenovatie | n4 |  |
 | aantalRioleringen | int |  |
 | oppervlakteKantoor | int |  |
-| conditiescore | Enumeratie: "NEN2767 Conditiescore" |  |
+| conditiescore | NEN2767 Conditiescore |  |
 | aantalParkeerplaatsen | int |  |
 | verkoopbaarheid | AN80 |  |
-| afgesprokenConditiescore | Enumeratie: "NEN2767 Conditiescore" |  |
+| afgesprokenConditiescore | NEN2767 Conditiescore |  |
 | kostenplaats | AN80 |  |
 | bovenliggendNiveau | AN80 |  |
 | bestemmingsplan | AN200 |  |
@@ -1094,7 +1094,7 @@ Attributen van objecttype WOZ-Belang
 | :--- | :--- | :--- |
 | datumBeginGeldigheid | DATUM |  |
 | datumEindeGeldigheid | DATUM |  |
-| eigenaarGebruiker | Enumeratie: "aanduidingEigenaarGebruiker" |  |
+| eigenaarGebruiker | aanduidingEigenaarGebruiker |  |
 
 
 
@@ -1132,7 +1132,7 @@ Attributen van objecttype Zakelijk Recht
 | :--- | :--- | :--- |
 | datumStart | Date |  |
 | datumEinde | Date |  |
-| soort | Enumeratie: "Zakelijkrecht" |  |
+| soort | Zakelijkrecht |  |
 | kosten | Bedrag |  |
 
 
@@ -1178,7 +1178,7 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
     | version | 1.11.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_25384fd5\_aa4f\_4fad\_9ef6\_4621b696b6bc |
+    | id | EAID\_d93cb747\_ad00\_45ae\_924e\_1e09ec6802e5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1215,7 +1215,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_539c9764\_1374\_43ad\_afc1\_0ad5c05a77d8 |
+    | id | EAID\_6eb28917\_f3a1\_419c\_922d\_367a6858a9fa |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1252,7 +1252,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_2bcb7165\_d825\_460f\_b797\_44b95b40192f |
+    | id | EAID\_1500c463\_8c49\_4243\_b67f\_9b093205c542 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1289,7 +1289,44 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_0ed035ed\_5f81\_4acc\_b761\_0936113740ce |
+    | id | EAID\_cb16b947\_4646\_4f34\_b012\_afc1415df3e0 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+* **Onbekend**: 
+* **Leeg**: 
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Boolean"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Boolean |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.10.0 |
+    | created | 2025-03-26 11:13:35 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_37ca5d05\_912b\_40f1\_90b1\_d15f3feb9060 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1328,7 +1365,7 @@ De enumeratie aanduidingEigenaarGebruiker heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_77420d3b\_0c72\_45e7\_90bb\_7631d5772c64 |
+    | id | EAID\_a0c71a5e\_6f9c\_4291\_a9a4\_5725f2b7629d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

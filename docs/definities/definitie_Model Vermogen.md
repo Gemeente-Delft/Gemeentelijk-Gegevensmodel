@@ -145,7 +145,7 @@ Attributen van objecttype Motorvoertuig
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | Kenteken | CharacterString |  |
-| Soort motorvoertuig |  |  |
+| Soort motorvoertuig | CdSrtVoertuig |  |
 
 
 
@@ -217,7 +217,7 @@ Attributen van objecttype Vermogenscomponent
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Code soort vermogenscomponent |  |  |
+| Code soort vermogenscomponent | CdSrtVermogenscomponent |  |
 | Datum vaststelling vermogencomponent | Date |  |
 | identificatie | Integer | Voorheen: Vermogenscomponent ID<br>Attribuut is een identificatie maar van het type Integer? |
 | Nog aan te spreken vermogen | Bedrag |  |
@@ -264,8 +264,112 @@ Attributen van objecttype Waardepeiling
 | Peilmoment | Date |  |
 | Waarde vermogenscomponent | Bedrag |  |
 | WaardepeilingId | CharacterString |  |
-| WaardeSoort vermogenscomponent |  |  |
+| WaardeSoort vermogenscomponent | CdSrtWaardeVermogenscomponent |  |
 
 
+
+
+
+
+## Enumeraties Model Vermogen
+
+
+### CdSrtVoertuig
+Geen Definitie
+
+Het enumeratie CdSrtVoertuig kent de volgende waarden:
+
+
+
+De enumeratie CdSrtVoertuig heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdSrtVoertuig"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdSrtVoertuig |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:36:00 |
+    | id | EAID\_34998fe1\_976c\_4d57\_b52e\_b140176422dc |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdSrtVermogenscomponent
+Geen Definitie
+
+Het enumeratie CdSrtVermogenscomponent kent de volgende waarden:
+
+
+
+De enumeratie CdSrtVermogenscomponent heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdSrtVermogenscomponent"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdSrtVermogenscomponent |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:35:54 |
+    | id | EAID\_7ba7c57d\_0875\_48e1\_a14b\_946efbcd4067 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdSrtWaardeVermogenscomponent
+Geen Definitie
+
+Het enumeratie CdSrtWaardeVermogenscomponent kent de volgende waarden:
+
+
+
+De enumeratie CdSrtWaardeVermogenscomponent heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdSrtWaardeVermogenscomponent"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdSrtWaardeVermogenscomponent |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:36:06 |
+    | id | EAID\_b672efea\_9f65\_4470\_83c2\_26861383738d |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 

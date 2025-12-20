@@ -88,10 +88,6 @@ Attributen van objecttype Aflossing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Aflossingskenmerk | CharacterString |  |
-| Bedrag | CharacterString |  |
-| Boekingsdatum | CharacterString |  |
-| Ontvangstdatum | CharacterString |  |
 
 
 
@@ -127,11 +123,6 @@ Attributen van objecttype Aflossingsafspraak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Bedrag | CharacterString |  |
-| Einddatum | CharacterString |  |
-| Indicatie inclusief vakantiegeld | Enumeratie: "StdIndJN" |  |
-| Periodiek | Enumeratie: "CdPeriode" |  |
-| Startdatum | CharacterString |  |
 
 
 
@@ -167,9 +158,6 @@ Attributen van objecttype Aflossingsplan
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Aflossingskenmerk | CharacterString |  |
-| Einddatum | CharacterString |  |
-| Startdatum | CharacterString |  |
 
 
 
@@ -205,8 +193,6 @@ Attributen van objecttype Afschrijving
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Aanmaakdatum | Date |  |
-| Reden afschrijving | CharacterString |  |
 
 
 
@@ -242,8 +228,6 @@ Attributen van objecttype Betaalcomponent
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Bedrag | bedrag |  |
-| Boekingsdatum | Date |  |
 
 
 
@@ -314,8 +298,6 @@ Attributen van objecttype Conservatoir beslag
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Aanvraagdatum | Date |  |
-| Toestemmingsdatum | Date |  |
 
 
 
@@ -351,9 +333,6 @@ Attributen van objecttype Correctie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Bedrag | Geldbedrag |  |
-| Boekingsdatum | Geldbedrag |  |
-| Reden | Enumeratie: "CdRedenAanvraagReden" |  |
 
 
 
@@ -389,9 +368,6 @@ Attributen van objecttype Debiteur
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Eigen kenmerk | CharacterString |  |
-| Opvoerdatum | CharacterString |  |
-| Soort debiteur | Enumeratie: "CodeSoortDebiteur" |  |
 
 
 
@@ -462,9 +438,6 @@ Attributen van objecttype Interventie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Beslisdatum | Date |  |
-| Ingangsdatum | Date |  |
-| Interventietype | Enumeratie: "CodeSoortInterventie" |  |
 
 
 
@@ -500,7 +473,6 @@ Attributen van objecttype Interventieverzoek
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Verzoekdatum | CharacterString |  |
 
 
 
@@ -536,13 +508,6 @@ Attributen van objecttype Invorderingsbasis
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Aflossingscapaciteit | Geldbedrag |  |
-| Beslagvrije voet | Geldbedrag |  |
-| Invorderingsmogelijkheid | Enumeratie: "StdIndJN" |  |
-| Type invorderingsmogelijkheid | Enumeratie: "CodeTypeInvorderingsmogelijkheid" |  |
-| Vaststeldatum aflossingscapaciteit | Geldbedrag |  |
-| Vaststeldatum beslagvrije voet | Geldbedrag |  |
-| Vaststeldatum invorderingsmogelijkheid | Geldbedrag |  |
 
 
 
@@ -578,8 +543,6 @@ Attributen van objecttype Krediethypotheek
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Bedrag | Geldbedrag |  |
-| Vestigingsdatum | Geldbedrag |  |
 
 
 
@@ -650,9 +613,6 @@ Attributen van objecttype Kwijtschelding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Bedrag | Geldbedrag |  |
-| Boekingsdatum | Geldbedrag |  |
-| Reden | Geldbedrag |  |
 
 
 
@@ -688,10 +648,6 @@ Attributen van objecttype Leenbijstand
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Aflossingskenmerk | CharacterString |  |
-| Bedrag | CharacterString |  |
-| Boekingsdatum | CharacterString |  |
-| Ontvangstdatum | CharacterString |  |
 
 
 
@@ -797,9 +753,6 @@ Attributen van objecttype Rechtmaand
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Boekjaar | Integer |  |
-| Jaar | Integer |  |
-| Maand | Integer |  |
 
 
 
@@ -870,9 +823,6 @@ Attributen van objecttype Restitutie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Bedrag | Geldbedrag |  |
-| Betaaldatum | Geldbedrag |  |
-| Boekingsdatum | Geldbedrag |  |
 
 
 
@@ -908,15 +858,6 @@ Attributen van objecttype Terugvorderingsverzoek
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Aanmaakdatum | Date |  |
-| Behandelstatus verzoek | Enumeratie: "Verwerkingsstatus" |  |
-| Categorie | Enumeratie: "CategorieVorderingCBS" |  |
-| Fiscaal | Enumeratie: "StdIndJN" |  |
-| Periode einddatum | Date |  |
-| Periode startdatum | Date |  |
-| Priotype | Date |  |
-| Regeling | Enumeratie: "Regeling" |  |
-| Subcategorie | Enumeratie: "SubCategorieVordering" |  |
 
 
 
@@ -952,10 +893,6 @@ Attributen van objecttype Uitstel aflossing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Aanmaakdatum | Date |  |
-| Periode einddatum | Date |  |
-| Periode startdatum | Date |  |
-| Reden uitstel | Enumeratie: "DefaultEnumeratie" |  |
 
 
 
@@ -991,11 +928,6 @@ Attributen van objecttype Vermindering terugvordering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Bedrag | Geldbedrag |  |
-| Boekingsdatum | Geldbedrag |  |
-| Motivatie vermindering | Geldbedrag |  |
-| Vaststeldatum | Geldbedrag |  |
-| Verminderingtype | Geldbedrag |  |
 
 
 
@@ -1101,18 +1033,6 @@ Attributen van objecttype Vordering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Categorie | Enumeratie: "CategorieAnderInkomen" |  |
-| Fiscaal | Enumeratie: "StdIndJN" |  |
-| Periode einddatum | CategorieAnderInkomen |  |
-| Periode startdatum | CategorieAnderInkomen |  |
-| Priotype | CategorieAnderInkomen |  |
-| Regeling | Enumeratie: "Regeling" |  |
-| Stuitingsvoortgangsindicator | CategorieAnderInkomen |  |
-| Subcategorie | Enumeratie: "SubCategorieVordering" |  |
-| Titel | Enumeratie: "StdIndJN" |  |
-| Vaststeldatum terugvordering | CategorieAnderInkomen |  |
-| Verjaringsdatum | CategorieAnderInkomen |  |
-| Verwerkingsstatus | Enumeratie: "Verwerkingsstatus" |  |
 
 
 
@@ -1148,9 +1068,7 @@ Attributen van objecttype Vorderingscomponent
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Periode einddatum | Date |  |
-| Periode startdatum | Date |  |
-| Priotype | Date |  |
+| Priotype | Verwerkingsstatus |  |
 
 
 
@@ -1160,237 +1078,6 @@ Attributen van objecttype Vorderingscomponent
 ## Enumeraties Model Terug- en invordering
 
 
-### StdIndJN
-Geen Definitie
-
-Het enumeratie StdIndJN kent de volgende waarden:
-
-
-
-De enumeratie StdIndJN heeft de volgende kenmerken:
-
-??? info "Kenmerken Model StdIndJN"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | StdIndJN |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_c5c1553f\_cf65\_4fbe\_9411\_3cdecb68c3bc |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### CdPeriode
-Geen Definitie
-
-Het enumeratie CdPeriode kent de volgende waarden:
-
-
-
-De enumeratie CdPeriode heeft de volgende kenmerken:
-
-??? info "Kenmerken Model CdPeriode"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | CdPeriode |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_95301039\_9cdc\_41af\_99e4\_75ca8291eb89 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### CdRedenAanvraagReden
-Geen Definitie
-
-Het enumeratie CdRedenAanvraagReden kent de volgende waarden:
-
-
-
-De enumeratie CdRedenAanvraagReden heeft de volgende kenmerken:
-
-??? info "Kenmerken Model CdRedenAanvraagReden"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | CdRedenAanvraagReden |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_b96e08e0\_a31d\_47bf\_b43a\_8b7997bff9ae |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### CodeSoortDebiteur
-Geen Definitie
-
-Het enumeratie CodeSoortDebiteur kent de volgende waarden:
-
-
-
-De enumeratie CodeSoortDebiteur heeft de volgende kenmerken:
-
-??? info "Kenmerken Model CodeSoortDebiteur"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | CodeSoortDebiteur |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_42d107e5\_6288\_4ac2\_920d\_29f70ddfd01a |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### CodeSoortInterventie
-Geen Definitie
-
-Het enumeratie CodeSoortInterventie kent de volgende waarden:
-
-
-
-De enumeratie CodeSoortInterventie heeft de volgende kenmerken:
-
-??? info "Kenmerken Model CodeSoortInterventie"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | CodeSoortInterventie |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_8105a5fc\_f2ed\_469f\_a2dc\_c39eb61a1e95 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### StdIndJN
-Geen Definitie
-
-Het enumeratie StdIndJN kent de volgende waarden:
-
-
-
-De enumeratie StdIndJN heeft de volgende kenmerken:
-
-??? info "Kenmerken Model StdIndJN"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | StdIndJN |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_d4343380\_240e\_4887\_b779\_674a5e014d8e |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### CodeTypeInvorderingsmogelijkheid
-Geen Definitie
-
-Het enumeratie CodeTypeInvorderingsmogelijkheid kent de volgende waarden:
-
-
-
-De enumeratie CodeTypeInvorderingsmogelijkheid heeft de volgende kenmerken:
-
-??? info "Kenmerken Model CodeTypeInvorderingsmogelijkheid"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | CodeTypeInvorderingsmogelijkheid |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_fca91f95\_a9ab\_471d\_9e85\_fe9998a0a4c2 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
 ### Verwerkingsstatus
 Geen Definitie
 
@@ -1413,370 +1100,7 @@ De enumeratie Verwerkingsstatus heeft de volgende kenmerken:
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_56189c34\_bfe3\_4d33\_8b29\_03c8dcad894c |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### CategorieVorderingCBS
-Geen Definitie
-
-Het enumeratie CategorieVorderingCBS kent de volgende waarden:
-
-
-
-De enumeratie CategorieVorderingCBS heeft de volgende kenmerken:
-
-??? info "Kenmerken Model CategorieVorderingCBS"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | CategorieVorderingCBS |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_43fff289\_3c8b\_4d93\_86c1\_eb2dcdc13928 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### StdIndJN
-Geen Definitie
-
-Het enumeratie StdIndJN kent de volgende waarden:
-
-
-
-De enumeratie StdIndJN heeft de volgende kenmerken:
-
-??? info "Kenmerken Model StdIndJN"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | StdIndJN |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_3772cd8e\_c185\_43b0\_b66d\_d44a716e37ad |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### Regeling
-Geen Definitie
-
-Het enumeratie Regeling kent de volgende waarden:
-
-
-
-De enumeratie Regeling heeft de volgende kenmerken:
-
-??? info "Kenmerken Model Regeling"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | Regeling |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_386af950\_4187\_4faf\_a32c\_5508a04417a5 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### SubCategorieVordering
-Geen Definitie
-
-Het enumeratie SubCategorieVordering kent de volgende waarden:
-
-
-
-De enumeratie SubCategorieVordering heeft de volgende kenmerken:
-
-??? info "Kenmerken Model SubCategorieVordering"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | SubCategorieVordering |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_334d5aa9\_0dac\_4f6f\_b296\_cf726e205ce6 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### DefaultEnumeratie
-Geen Definitie
-
-Het enumeratie DefaultEnumeratie kent de volgende waarden:
-
-
-
-De enumeratie DefaultEnumeratie heeft de volgende kenmerken:
-
-??? info "Kenmerken Model DefaultEnumeratie"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | DefaultEnumeratie |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_3d0e254d\_8a06\_421c\_802c\_b9c001871a41 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### CategorieAnderInkomen
-Geen Definitie
-
-Het enumeratie CategorieAnderInkomen kent de volgende waarden:
-
-
-
-De enumeratie CategorieAnderInkomen heeft de volgende kenmerken:
-
-??? info "Kenmerken Model CategorieAnderInkomen"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | CategorieAnderInkomen |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_c2a4672d\_c225\_4465\_89be\_7b072bb3f9b9 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### StdIndJN
-Geen Definitie
-
-Het enumeratie StdIndJN kent de volgende waarden:
-
-
-
-De enumeratie StdIndJN heeft de volgende kenmerken:
-
-??? info "Kenmerken Model StdIndJN"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | StdIndJN |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_fa8e611d\_fae8\_4b61\_be61\_fa10f2a2b357 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### Regeling
-Geen Definitie
-
-Het enumeratie Regeling kent de volgende waarden:
-
-
-
-De enumeratie Regeling heeft de volgende kenmerken:
-
-??? info "Kenmerken Model Regeling"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | Regeling |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_93088d10\_3ed2\_4cb8\_be74\_aa2617537957 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### SubCategorieVordering
-Geen Definitie
-
-Het enumeratie SubCategorieVordering kent de volgende waarden:
-
-
-
-De enumeratie SubCategorieVordering heeft de volgende kenmerken:
-
-??? info "Kenmerken Model SubCategorieVordering"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | SubCategorieVordering |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_c99a0d61\_1a27\_4032\_9a69\_6079c12189ed |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### StdIndJN
-Geen Definitie
-
-Het enumeratie StdIndJN kent de volgende waarden:
-
-
-
-De enumeratie StdIndJN heeft de volgende kenmerken:
-
-??? info "Kenmerken Model StdIndJN"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | StdIndJN |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_0938dc33\_9ca4\_46ee\_bd74\_2bcdd2297cb2 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### Verwerkingsstatus
-Geen Definitie
-
-Het enumeratie Verwerkingsstatus kent de volgende waarden:
-
-
-
-De enumeratie Verwerkingsstatus heeft de volgende kenmerken:
-
-??? info "Kenmerken Model Verwerkingsstatus"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | Verwerkingsstatus |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | janbr |
-    | version | 1.1.0 |
-    | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_1741f63c\_fa94\_4885\_ae1c\_b6e4433b359e |
+    | id | EAID\_53c622a0\_8130\_478e\_8852\_6715bbb3f635 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

@@ -103,7 +103,7 @@ Attributen van objecttype Leefgebied
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | toelichting | Text |  |
-| leefgebiedOmschrijving | Enumeratie: "enum_Leefgebied" |  |
+| leefgebiedOmschrijving | enum_Leefgebied |  |
 
 
 
@@ -178,7 +178,7 @@ Attributen van objecttype Zorgmelding
 | :--- | :--- | :--- |
 | zorgmeldingsoort | int |  |
 | terugkoppelingGewenst | boolean |  |
-| verzoek | Enumeratie: "enum_Verzoeksoort" |  |
+| verzoek | enum_Verzoeksoort |  |
 | omschrijving | Text |  |
 | nadereOmschrijving | Text |  |
 

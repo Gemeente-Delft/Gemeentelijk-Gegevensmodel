@@ -144,7 +144,7 @@ Attributen van objecttype Leerling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| kwetsbareJongere | Enumeratie: "Boolean" |  |
+| kwetsbareJongere | Boolean |  |
 
 
 
@@ -216,8 +216,8 @@ Attributen van objecttype Loopbaanstap
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| schooljaar |  |  |
-| onderwijstype | Enumeratie: "Onderwijstype" |  |
+| schooljaar | Leerjaar |  |
+| onderwijstype | Onderwijstype |  |
 | klas | int |  |
 
 
@@ -324,7 +324,7 @@ Attributen van objecttype Onderwijssoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| onderwijstype | Enumeratie: "Onderwijstype" |  |
+| onderwijstype | Onderwijstype |  |
 | omschrijving | AN80 |  |
 
 
@@ -469,7 +469,7 @@ Attributen van objecttype Uitschrijving
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datum | Datum |  |
-| diplomaBehaald | Enumeratie: "Boolean" |  |
+| diplomaBehaald | Boolean |  |
 
 
 
@@ -505,7 +505,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_b5118107\_022d\_482a\_b21a\_bb8d3a4b51b7 |
+    | id | EAID\_5b900f6e\_4bc9\_4ca2\_86ee\_0c98dd575573 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -542,7 +542,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_85c73432\_4f10\_45e9\_9f52\_1ec5792042e1 |
+    | id | EAID\_ef1a7cbb\_2654\_4af9\_a88c\_204cf756375f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

@@ -97,7 +97,7 @@ Attributen van objecttype Alimentatie
 | Bedrag aan andere rekeningen | Bedrag |  |
 | Bedrag in convenant | Boolean |  |
 | BijdrageExPartnerAndereRekeningen | Boolean |  |
-| Inkomstensoort alimentatie |  |  |
+| Inkomstensoort alimentatie | InkomstensoortAlimentatie |  |
 | Juiste bedrag betaald door ex partner | Boolean |  |
 | LBIO ingeschakeld | Boolean |  |
 
@@ -212,11 +212,11 @@ Attributen van objecttype Betaald werk
 | Begindatum contract | Date |  |
 | Einddatum contract | Date |  |
 | Inkomsten uit IKB-regeling | Boolean |  |
-| Inkomstensoort betaald werk |  |  |
+| Inkomstensoort betaald werk | InkomstensoortBetaaldWerk |  |
 | Loondienst | Boolean |  |
 | Loonheffingsnummer | Integer |  |
-| Periodiciteit uitbetaling loon |  |  |
-| Soort contract |  |  |
+| Periodiciteit uitbetaling loon | CdUitkeringsperiode |  |
+| Soort contract | SoortContract |  |
 | Urenvermindering | Integer |  |
 
 
@@ -516,9 +516,9 @@ Attributen van objecttype Inkomstencomponent
 | :--- | :--- | :--- |
 | Bijgevoegd bewijs | Boolean |  |
 | Boekingsdatum | Date |  |
-| Bruto-Netto |  |  |
+| Bruto-Netto | BrutoNettoInkomsten |  |
 | Inkomsten | Bedrag |  |
-| Inkomstencomponenttype |  |  |
+| Inkomstencomponenttype | Inkomstencomponenttype |  |
 | Link naar bewijs | CharacterString |  |
 | Peilmoment | Date |  |
 | Periode einddatum | Date |  |
@@ -558,7 +558,7 @@ Attributen van objecttype Inkomstenverhouding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Categorie Inkomsten |  |  |
+| Categorie Inkomsten | CdSrtInkomstenverhouding |  |
 | Periode einddatum | Date |  |
 | Periode startdatum | Date |  |
 
@@ -739,7 +739,7 @@ Attributen van objecttype Onderhoudsplicht
 | :--- | :--- | :--- |
 | Bijdrage | Bedrag |  |
 | Boekingsdatum | Date |  |
-| Onderhoudsplichttype |  |  |
+| Onderhoudsplichttype | Onderhoudsplichttype |  |
 | Peilmoment | Date |  |
 | Periode einddatum | Date |  |
 | Periode startdatum | Date |  |
@@ -852,9 +852,9 @@ Attributen van objecttype Pensioen
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | Beslag op pensioen | Boolean |  |
-| Inkomstensoort pensioen |  |  |
+| Inkomstensoort pensioen | InkomstensoortPensioen |  |
 | Loonheffingskorting | Boolean |  |
-| Periodiciteit uitbetaling pensioen |  |  |
+| Periodiciteit uitbetaling pensioen | CdUitkeringsperiode |  |
 | Uitbetaling vakantiegeld pensioen | CharacterString |  |
 
 
@@ -1034,7 +1034,7 @@ Attributen van objecttype Stage
 | :--- | :--- | :--- |
 | Maaltijdvergoeding | Boolean |  |
 | Onkostenvergoeding | Boolean |  |
-| Periodiciteit uitbetaling loon |  |  |
+| Periodiciteit uitbetaling loon | CdUitkeringsperiode |  |
 | Reiskostenvergoeding | Boolean |  |
 | Vergoeding in natura | Boolean |  |
 
@@ -1073,7 +1073,7 @@ Attributen van objecttype Studiefinanciering
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | Daadwerkelijk Genoten | Boolean |  |
-| Inkomstensoort studiefinanciering |  |  |
+| Inkomstensoort studiefinanciering | InkomstensoortStudiefinanciering |  |
 
 
 
@@ -1146,9 +1146,9 @@ Attributen van objecttype Uitkering
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | Beslag op uitkering | Boolean |  |
-| Inkomstensoort uitkering |  |  |
+| Inkomstensoort uitkering | CdSzWet |  |
 | Loonheffingskorting | Boolean |  |
-| Periodiciteit uitbetaling uitkering |  |  |
+| Periodiciteit uitbetaling uitkering | CdUitkeringsperiode |  |
 | Toeslag op uitkering | Boolean |  |
 | Uitkering verlaagd door boete | Boolean |  |
 | Uitkering verlaagd door maatregel | Boolean |  |
@@ -1363,13 +1363,546 @@ Attributen van objecttype Vrijlating inkomsten
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Doelgroep |  |  |
+| Doelgroep | JsonRuledGroupType |  |
 | Medisch | Boolean |  |
 | Periode einddatum | Date |  |
 | Periode startdatum | Date |  |
-| Soort vrijlating |  |  |
+| Soort vrijlating | CodeSoortVrijlating |  |
 | Vrijgelaten bedrag | Bedrag |  |
 
 
+
+
+
+
+## Enumeraties Model Inkomsten
+
+
+### InkomstensoortAlimentatie
+Geen Definitie
+
+Het enumeratie InkomstensoortAlimentatie kent de volgende waarden:
+
+
+
+De enumeratie InkomstensoortAlimentatie heeft de volgende kenmerken:
+
+??? info "Kenmerken Model InkomstensoortAlimentatie"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | InkomstensoortAlimentatie |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:36:49 |
+    | id | EAID\_44c0e9fe\_5f8b\_4328\_900f\_50e82b6a534b |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### InkomstensoortBetaaldWerk
+Geen Definitie
+
+Het enumeratie InkomstensoortBetaaldWerk kent de volgende waarden:
+
+
+
+De enumeratie InkomstensoortBetaaldWerk heeft de volgende kenmerken:
+
+??? info "Kenmerken Model InkomstensoortBetaaldWerk"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | InkomstensoortBetaaldWerk |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:36:53 |
+    | id | EAID\_16a7a61c\_688b\_45ac\_8ad3\_39ea459c06ff |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdUitkeringsperiode
+Geen Definitie
+
+Het enumeratie CdUitkeringsperiode kent de volgende waarden:
+
+
+
+De enumeratie CdUitkeringsperiode heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdUitkeringsperiode"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdUitkeringsperiode |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:36:30 |
+    | id | EAID\_85ff18bb\_04d7\_479a\_a498\_9ed7b1e52529 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### SoortContract
+Geen Definitie
+
+Het enumeratie SoortContract kent de volgende waarden:
+
+
+
+De enumeratie SoortContract heeft de volgende kenmerken:
+
+??? info "Kenmerken Model SoortContract"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | SoortContract |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:37:29 |
+    | id | EAID\_b33fb2d7\_4256\_41f8\_99f0\_c47c4e073365 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### BrutoNettoInkomsten
+Geen Definitie
+
+Het enumeratie BrutoNettoInkomsten kent de volgende waarden:
+
+
+
+De enumeratie BrutoNettoInkomsten heeft de volgende kenmerken:
+
+??? info "Kenmerken Model BrutoNettoInkomsten"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | BrutoNettoInkomsten |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:36:15 |
+    | id | EAID\_0bcf61c5\_8250\_4f48\_a7c2\_9eed92e1d2e2 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### Inkomstencomponenttype
+Geen Definitie
+
+Het enumeratie Inkomstencomponenttype kent de volgende waarden:
+
+
+
+De enumeratie Inkomstencomponenttype heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Inkomstencomponenttype"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Inkomstencomponenttype |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:36:42 |
+    | id | EAID\_bddf8622\_3069\_4271\_8aa0\_c6e0de46e5e4 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdSrtInkomstenverhouding
+Geen Definitie
+
+Het enumeratie CdSrtInkomstenverhouding kent de volgende waarden:
+
+
+
+De enumeratie CdSrtInkomstenverhouding heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdSrtInkomstenverhouding"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdSrtInkomstenverhouding |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:36:20 |
+    | id | EAID\_ea2f076c\_f394\_4bed\_a543\_e8cd340e4fb3 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### Onderhoudsplichttype
+Geen Definitie
+
+Het enumeratie Onderhoudsplichttype kent de volgende waarden:
+
+
+
+De enumeratie Onderhoudsplichttype heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Onderhoudsplichttype"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Onderhoudsplichttype |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:37:20 |
+    | id | EAID\_cbb1fba1\_c23b\_4236\_b752\_95ec5df0927c |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### InkomstensoortPensioen
+Geen Definitie
+
+Het enumeratie InkomstensoortPensioen kent de volgende waarden:
+
+
+
+De enumeratie InkomstensoortPensioen heeft de volgende kenmerken:
+
+??? info "Kenmerken Model InkomstensoortPensioen"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | InkomstensoortPensioen |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:36:59 |
+    | id | EAID\_cb5ff275\_1c29\_48a3\_97ff\_e9633daa1236 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdUitkeringsperiode
+Geen Definitie
+
+Het enumeratie CdUitkeringsperiode kent de volgende waarden:
+
+
+
+De enumeratie CdUitkeringsperiode heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdUitkeringsperiode"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdUitkeringsperiode |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:36:30 |
+    | id | EAID\_9edf3d22\_805f\_49b3\_99d6\_28ff92258307 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdUitkeringsperiode
+Geen Definitie
+
+Het enumeratie CdUitkeringsperiode kent de volgende waarden:
+
+
+
+De enumeratie CdUitkeringsperiode heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdUitkeringsperiode"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdUitkeringsperiode |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:36:30 |
+    | id | EAID\_16ad5071\_c477\_4453\_97dd\_0334d1ebdc44 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### InkomstensoortStudiefinanciering
+Geen Definitie
+
+Het enumeratie InkomstensoortStudiefinanciering kent de volgende waarden:
+
+
+
+De enumeratie InkomstensoortStudiefinanciering heeft de volgende kenmerken:
+
+??? info "Kenmerken Model InkomstensoortStudiefinanciering"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | InkomstensoortStudiefinanciering |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:37:04 |
+    | id | EAID\_656f4ad9\_6dd9\_4b57\_b525\_4f02b291541e |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdSzWet
+Geen Definitie
+
+Het enumeratie CdSzWet kent de volgende waarden:
+
+
+
+De enumeratie CdSzWet heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdSzWet"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdSzWet |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:36:25 |
+    | id | EAID\_7d2b2782\_1700\_42fb\_916d\_be87f3280650 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdUitkeringsperiode
+Geen Definitie
+
+Het enumeratie CdUitkeringsperiode kent de volgende waarden:
+
+
+
+De enumeratie CdUitkeringsperiode heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdUitkeringsperiode"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdUitkeringsperiode |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:36:30 |
+    | id | EAID\_44f81213\_2311\_4843\_b02f\_556e99baf350 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### JsonRuledGroupType
+Geen Definitie
+
+Het enumeratie JsonRuledGroupType kent de volgende waarden:
+
+
+
+De enumeratie JsonRuledGroupType heeft de volgende kenmerken:
+
+??? info "Kenmerken Model JsonRuledGroupType"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | JsonRuledGroupType |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:37:15 |
+    | id | EAID\_7d3b27b2\_c40b\_4da3\_8689\_4fa74fc6676e |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CodeSoortVrijlating
+Geen Definitie
+
+Het enumeratie CodeSoortVrijlating kent de volgende waarden:
+
+
+
+De enumeratie CodeSoortVrijlating heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CodeSoortVrijlating"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CodeSoortVrijlating |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:36:35 |
+    | id | EAID\_dc7c69f8\_03d5\_4867\_9f0e\_7b08890419f1 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 

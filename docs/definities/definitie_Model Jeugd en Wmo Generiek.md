@@ -183,7 +183,7 @@ Attributen van objecttype Beperking
 | duur | int |  |
 | categorie | int |  |
 | commentaar | int |  |
-| wet | Enumeratie: "Wet" |  |
+| wet | Wet |  |
 
 
 
@@ -220,7 +220,7 @@ Attributen van objecttype Beperkingscategorie
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | code | AN8 |  |
-| wet | Enumeratie: "Wet" |  |
+| wet | Wet |  |
 
 
 
@@ -258,7 +258,7 @@ Attributen van objecttype Beperkingscore
 | :--- | :--- | :--- |
 | score | int |  |
 | commentaar | AN200 |  |
-| wet | Enumeratie: "Wet" |  |
+| wet | Wet |  |
 
 
 
@@ -295,7 +295,7 @@ Attributen van objecttype Beperkingscoresoort
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | vraag | AN200 |  |
-| wet | Enumeratie: "Wet" |  |
+| wet | Wet |  |
 
 
 
@@ -335,7 +335,7 @@ Attributen van objecttype Beschikking
 | code | AN20 |  |
 | grondslagen | int |  |
 | commentaar | AN200 |  |
-| wet |  |  |
+| wet | Wet |  |
 
 
 
@@ -407,13 +407,13 @@ Attributen van objecttype Beschikte Voorziening
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | omvang | int |  |
-| eenheid | Enumeratie: "Eenheid" |  |
-| frequentie | Enumeratie: "Frequentie" |  |
-| wet | Enumeratie: "Wet" |  |
+| eenheid | Eenheid |  |
+| frequentie | Frequentie |  |
+| wet | Wet |  |
 | code | AN20 |  |
 | datumStart | Date |  |
 | datumEinde | Date |  |
-| leveringsvorm | Enumeratie: "Leveringsvorm" |  |
+| leveringsvorm | Leveringsvorm |  |
 | status | AN50 |  |
 | redenEinde | AN100 |  |
 | datumEindeOorspronkelijk | Date |  |
@@ -604,8 +604,8 @@ Attributen van objecttype Levering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| eenheid | Enumeratie: "Eenheid" |  |
-| frequentie | Enumeratie: "Frequentie" |  |
+| eenheid | Eenheid |  |
+| frequentie | Frequentie |  |
 | omvang | int |  |
 | code | AN20 |  |
 | datumStart | Date |  |
@@ -647,7 +647,7 @@ Attributen van objecttype Leveringsvorm
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | naam | AN3 |  |
-| wet | Enumeratie: "Wet" |  |
+| wet | Wet |  |
 | leveringsvormCode | An20 |  |
 
 
@@ -836,8 +836,8 @@ Attributen van objecttype Tarief
 | datumStart | Date |  |
 | datumEinde | Date |  |
 | bedrag | Bedrag |  |
-| wet | Enumeratie: "Wet" |  |
-| eenheid | Enumeratie: "Eenheid" |  |
+| wet | Wet |  |
+| eenheid | Eenheid |  |
 
 
 
@@ -917,11 +917,11 @@ Attributen van objecttype Toewijzing
 | redenWijziging | int |  |
 | omvang | N8 |  |
 | commentaar | Text |  |
-| eenheid | Enumeratie: "Eenheid" |  |
-| frequentie | Enumeratie: "Frequentie" |  |
+| eenheid | Eenheid |  |
+| frequentie | Frequentie |  |
 | datumAanschaf | Date |  |
 | code | AN20 |  |
-| wet | Enumeratie: "Wet" |  |
+| wet | Wet |  |
 
 
 
@@ -1005,13 +1005,13 @@ Attributen van objecttype Verzoek om Toewijzing
 | datumIngangToewijzing | Date |  |
 | datumEindeToewijzing | Date |  |
 | volume | int |  |
-| eenheid | Enumeratie: "Eenheid" |  |
-| frequentie | Enumeratie: "Frequentie" |  |
+| eenheid | Eenheid |  |
+| frequentie | Frequentie |  |
 | verwijzer | AN200 |  |
 | raamcontract | boolean |  |
 | commentaar | text |  |
 | datumOntvangst | Date |  |
-| soortVerwijzer | Enumeratie: "Soort Verwijzer" |  |
+| soortVerwijzer | Soort Verwijzer |  |
 
 
 
@@ -1050,7 +1050,7 @@ Attributen van objecttype Voorziening
 | productcode | AN5 |  |
 | naam | AN80 |  |
 | omschrijving | text |  |
-| wet | Enumeratie: "Wet" |  |
+| wet | Wet |  |
 | code | AN20 |  |
 | afhandelwijze | AN200 |  |
 
@@ -1090,7 +1090,7 @@ Attributen van objecttype Voorzieningsoort
 | :--- | :--- | :--- |
 | naam | AN80 |  |
 | omschrijving | text |  |
-| wet | Enumeratie: "Wet" |  |
+| wet | Wet |  |
 | code | An20 |  |
 | productcode | AN20 |  |
 | productcategoriecode | An20 |  |

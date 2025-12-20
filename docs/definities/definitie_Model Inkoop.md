@@ -86,8 +86,8 @@ Attributen van objecttype Aanbesteding
 | status | AN80 |  |
 | datumStart | Date |  |
 | volgendeSluiting | DateTime |  |
-| type | Enumeratie: "Opdrachtcategorie" |  |
-| procedure | Enumeratie: "Aanbestedingsoort" |  |
+| type | Opdrachtcategorie |  |
+| procedure | Aanbestedingsoort |  |
 | digitaal | Boolean |  |
 | referentienummer | AN80 |  |
 | datumPublicatie | DateTime |  |
@@ -130,7 +130,7 @@ Attributen van objecttype Aanbesteding Inhuur
 | datumVerzending | DateTime |  |
 | status | AN80 |  |
 | titel | AN200 |  |
-| type | Enumeratie: "Opdrachtcategorie" |  |
+| type | Opdrachtcategorie |  |
 | publicatie | AN80 |  |
 | perceel | AN80 |  |
 | datumSluiting | DateTime |  |
@@ -184,8 +184,8 @@ Attributen van objecttype Aankondiging
 | datum | DateTime |  |
 | naam | An200 |  |
 | beschrijving | text |  |
-| type | Enumeratie: "Aanbestedingsoort" |  |
-| categorie | Enumeratie: "Opdrachtcategorie" |  |
+| type | Aanbestedingsoort |  |
+| categorie | Opdrachtcategorie |  |
 
 
 
@@ -513,7 +513,7 @@ Attributen van objecttype Inkooppakket
 | :--- | :--- | :--- |
 | code | AN80 |  |
 | naam | AN200 |  |
-| type | Enumeratie: "Opdrachtcategorie" |  |
+| type | Opdrachtcategorie |  |
 
 
 
@@ -775,10 +775,10 @@ Attributen van objecttype SelectietabelAanbesteding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| opdrachtcategorie | Enumeratie: "Opdrachtcategorie" |  |
+| opdrachtcategorie | Opdrachtcategorie |  |
 | drempelbedragVanaf | Bedrag |  |
 | drempelbedragTot | Bedrag |  |
-| aanbestedingsoort | Enumeratie: "Aanbestedingsoort" |  |
+| aanbestedingsoort | Aanbestedingsoort |  |
 | openbaar | Boolean |  |
 
 
@@ -817,8 +817,8 @@ Attributen van objecttype StartformulierAanbesteden
 | :--- | :--- | :--- |
 | omschrijving | text |  |
 | indicatorOverkoepelendProject | Boolean |  |
-| opdrachtsoort | Enumeratie: "Opdrachtsoort" |  |
-| opdrachtcategorie | Enumeratie: "Opdrachtcategorie" |  |
+| opdrachtsoort | Opdrachtsoort |  |
+| opdrachtcategorie | Opdrachtcategorie |  |
 | indicatieEenmaligeLos | Boolean |  |
 | indicatieMeerjarigRepeterend | Boolean |  |
 | indicatieMeerjarigeRaamovereenkomst | boolean |  |

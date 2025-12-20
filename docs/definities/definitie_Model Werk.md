@@ -289,7 +289,7 @@ Attributen van objecttype Bemiddelingsberoep
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| ToelichtingBeroep |  |  |
+| ToelichtingBeroep | Document |  |
 
 
 
@@ -367,10 +367,10 @@ Attributen van objecttype BeschikbaarVoorArbeid
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | StartdatumBeschikbaarheid | date |  |
-| DagBeschikbaarheid | Enumeratie: "Dag beschikbaarheid" |  |
+| DagBeschikbaarheid | Dag beschikbaarheid |  |
 | AantalUrenpwBeschikbaar | int |  |
-| Interval opzegtermijn | Enumeratie: "Interval opzegtermijn
-" |  |
+| Interval opzegtermijn | Interval opzegtermijn
+ |  |
 | WaardeOpzegtermijn | int |  |
 | StartdagBeschikbaarheid | date |  |
 | EinddatumBeschikbaarheid | date |  |
@@ -486,10 +486,10 @@ Attributen van objecttype Doelgroepenregister
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| IndicatieDoelgroepenRegister | Enumeratie: "Indicatie doelgroepenregister
-" |  |
-| AdviesUWV |  |  |
-| Baanafspraak | Enumeratie: "SoortWerk" |  |
+| IndicatieDoelgroepenRegister | Indicatie doelgroepenregister
+ |  |
+| AdviesUWV | Document |  |
+| Baanafspraak | SoortWerk |  |
 
 
 
@@ -640,7 +640,7 @@ Attributen van objecttype Mobiliteit
 | IndicatieBereidheidVerhuizen | bool |  |
 | MaximaleReistijd | int |  |
 | ToelichtingMaximaleReistijd | string |  |
-| CodeVervoermiddel |  |  |
+| CodeVervoermiddel | Vervoermiddel |  |
 | ToelichtingVervoermiddel | string |  |
 
 
@@ -679,20 +679,20 @@ Attributen van objecttype Ontheffing
 | :--- | :--- | :--- |
 | RedenAanvraag | String |  |
 | AanvraagdatumOntheffing | Date |  |
-| Ontheffingsbesluit |  |  |
-| MotivatieOntheffingsbesluit |  |  |
+| Ontheffingsbesluit | Document |  |
+| MotivatieOntheffingsbesluit | Document |  |
 | SoortOntheffing | ontheffing |  |
 | IngangsdatumOntheffing | Date |  |
 | EinddatumOntheffing | Date |  |
 | ResultaatInstrumentbeoordeling | document |  |
-| OntheffenVerplichtingen | Enumeratie: "Ontheffingsverplichting
-" |  |
+| OntheffenVerplichtingen | Ontheffingsverplichting
+ |  |
 | VersieNummerAanvraag | int |  |
-| BijlagenBijAanvraag |  |  |
-| BijlagenBijOntheffingsbesluit |  |  |
+| BijlagenBijAanvraag | Document |  |
+| BijlagenBijOntheffingsbesluit | Document |  |
 | HerzieningsdatumOntheffing | date |  |
-| MotivatieHerzieningsbesluit |  |  |
-| BijlagenBijHerzieningsbesluit |  |  |
+| MotivatieHerzieningsbesluit | Document |  |
+| BijlagenBijHerzieningsbesluit | Document |  |
 
 
 
@@ -728,19 +728,19 @@ Attributen van objecttype Opleiding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Opleidingstype | Enumeratie: "Opleidingsrichting" |  |
+| Opleidingstype | Opleidingsrichting |  |
 | Instituutnaam | short |  |
 | DatumAanvang | date |  |
 | DatumEinde | date |  |
-| CodeStatusOpleiding | Enumeratie: "CodeStatusOpleiding" |  |
+| CodeStatusOpleiding | CodeStatusOpleiding |  |
 | IndicatieDiploma | Bool |  |
 | DatumDiploma | date |  |
 | CodeNiveauOpleiding | CodeNiveauOpleiding |  |
 | Opleidingsrichting | Opleidingsrichting |  |
 | CodeLeerwegMBO | CodeLeerwegMBO |  |
 | AantalJarenOpleiding | int |  |
-| CodeTijdsBeslagOpleiding | Enumeratie: "Code tijdsbeslag opleiding
-" |  |
+| CodeTijdsBeslagOpleiding | Code tijdsbeslag opleiding
+ |  |
 | IndicatieDeeltijdopleiding | Bool |  |
 | ToelichtingBeeindigenOpleiding | string |  |
 | Indicatiebuitenlandseopleiding | bool |  |
@@ -816,7 +816,7 @@ Attributen van objecttype OpleidingsnaamGecodeerd
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| CodeOpleidingsnaam | Enumeratie: "CodeOpleidingsnaam" |  |
+| CodeOpleidingsnaam | CodeOpleidingsnaam |  |
 | OmschrijvingOpleidingsnaam | string |  |
 | CodeSoortOpleidingsnaam | CodeSoortOpleidingsnaam |  |
 | IndicatieOpleidingsnaamActief | bool |  |
@@ -891,8 +891,8 @@ Attributen van objecttype Opleidingsniveau
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| CodeOpleidingsniveauClient | Enumeratie: "Code opleidingsniveau cliënt
-" |  |
+| CodeOpleidingsniveauClient | Code opleidingsniveau cliënt
+ |  |
 
 
 
@@ -1021,12 +1021,12 @@ Attributen van objecttype Taalbeheersing
 | Taalcode | ìnt |  |
 | Taalnaam | string |  |
 | Moedertaal | Bool |  |
-| Leesvaardigheid | Enumeratie: "Taalvaardigheid
-" |  |
-| Schrijfvaardigheid | Enumeratie: "Taalvaardigheid
-" |  |
-| Spreekvaardigheid | Enumeratie: "Taalvaardigheid
-" |  |
+| Leesvaardigheid | Taalvaardigheid
+ |  |
+| Schrijfvaardigheid | Taalvaardigheid
+ |  |
+| Spreekvaardigheid | Taalvaardigheid
+ |  |
 
 
 
@@ -1104,8 +1104,8 @@ Attributen van objecttype Vaardigheidsvaststelling
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datumLaatsteVaststelling | date |  |
-| Indicatie mate van vaardigheid | Enumeratie: "Taalvaardigheid
-" |  |
+| Indicatie mate van vaardigheid | Taalvaardigheid
+ |  |
 
 
 
@@ -1143,10 +1143,10 @@ Attributen van objecttype Voorkeur
 | :--- | :--- | :--- |
 | BrancheCode | int |  |
 | BrancheNaam | string |  |
-| SoortBaan | Enumeratie: "SETU job category" |  |
-| SoortWerk | Enumeratie: "SoortWerk" |  |
-| GegevensWerklocatie |  |  |
-| Vervoermiddel | Enumeratie: "Vervoermiddel" |  |
+| SoortBaan | SETU job category |  |
+| SoortWerk | SoortWerk |  |
+| GegevensWerklocatie | Nummeraanduiding |  |
+| Vervoermiddel | Vervoermiddel |  |
 | ToelichtingVervoersmiddel | string |  |
 | BezitPersoonlijkeOVkaart | bool |  |
 | NummerOVK | int |  |
@@ -1307,8 +1307,8 @@ Attributen van objecttype Werkzaamheden anders dan in arbeidsverhouding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Code maatschappelijke context | Enumeratie: "Code maatschappelijke context werkzaamheden anders dan in arbeidsverhouding
-" |  |
+| Code maatschappelijke context | Code maatschappelijke context werkzaamheden anders dan in arbeidsverhouding
+ |  |
 | Omschrijving werkzaamheden | string |  |
 | Datum aanvang werkzaamheden | date |  |
 | Datum einde werkzaamheden | date |  |
@@ -1389,13 +1389,13 @@ Attributen van objecttype ZelfredzaamheidScore
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Domein van Zelfredzaamheid | Enumeratie: "Domein van zelfredzaamheid
-" |  |
+| Domein van Zelfredzaamheid | Domein van zelfredzaamheid
+ |  |
 | ZRM score | score |  |
 | DatumBeoordeling | Date |  |
 | KenmerkBeoordelaar | AN200 |  |
 | IndicatieHulpAanwezig | Boolean |  |
-| Woongemeente |  |  |
+| Woongemeente | Gemeente |  |
 
 
 
