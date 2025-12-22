@@ -1487,7 +1487,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_3b5f6e39\_be80\_4950\_a388\_99e616643726 |
+    | id | EAID\_0dcd1a4b\_cbee\_41e2\_8460\_2b5d5074e60f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1524,7 +1524,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_45f933da\_f68c\_4cdc\_b618\_3392e0b23a3f |
+    | id | EAID\_eda83027\_4764\_457a\_b7f4\_cc02bf0b9b1f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1563,7 +1563,7 @@ De enumeratie CodeNiveauOpleiding heeft de volgende kenmerken:
     | version | 1.9.0 |
     | created | 2025-06-17 16:01:14 |
     | modified | 2025-12-18 15:38:53 |
-    | id | EAID\_2b4cca00\_648c\_4edf\_ae1c\_d2ad10101339 |
+    | id | EAID\_0dcb5fe9\_18e9\_4afb\_a6aa\_fc66fa076311 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

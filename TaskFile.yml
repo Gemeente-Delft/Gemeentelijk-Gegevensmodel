@@ -29,7 +29,9 @@ dotenv: ['.env']
 
 vars:
   VERSION_DIR: "./{{.VERSION}}"
+  PREVIOUS_VERSION_DIR: "./{{.PREVIOUS_VERSION}}"
   XMI: "{{.VERSION_DIR}}/{{.XMI_FILE}}"
+  PREVIOUS_XMI: "{{.PREVIOUS_VERSION_DIR}}/{{.XMI_FILE}}"
   GGM: "{{.VERSION_DIR}}/{{.GGM_FILE}}"
   EXCEL: "{{.VERSION_DIR}}/{{.EXCEL_FILE}}"
   LOD: "{{.VERSION_DIR}}/{{.LOD_FILE}}"
@@ -37,11 +39,14 @@ vars:
   TRANSLATIONS_DIR: "{{.VERSION_DIR}}/{{.TRANSLATIONS_DIR}}"
   i18N_FILE: "{{.TRANSLATIONS_DIR}}/{{.i18N_FILE}}"
   GGM_ROOT_SCHEMA: "GGM_ROOT_SCHEMA"
+  GGM_PREVIOUS_SCHEMA_RAW: "GGM_PREVIOUS_SCHEMA_RAW"
+  GGM_PREVIOUS_SCHEMA: "GGM_PREVIOUS_SCHEMA"
   CRUNCH_UML_DB: "./crunch_uml.db"
   DOCS: "./docs"
   DEFS: "./docs/definities"
   PUBLISH: "false"
   ROOT_GGM: "{{.ROOT_NODE_GGM}}"
+  CHANGES_MD: "{{.VERSION_DIR}}/{{.CHANGES_MD_FILE}}"
 
 tasks:
   check-tools:
@@ -117,6 +122,28 @@ tasks:
       - echo "Crunch database successfully created and setup..."
     shell: bash
     sources:
+      - "{{.XMI}}"
+    generates:
+      - "{{.CRUNCH_UML_DB}}"
+    run: when_changed
+
+  import-xmi-old-version:
+    desc: "Import the XMI file of previous version {{.PREVIOUS_VERSION}} into Crunch UML Database."
+    deps: [import-xmi]
+    cmds:
+      - |
+        if [ ! -f "{{.PREVIOUS_XMI}}" ]; then
+          echo "Error: XMI file '{{.PREVIOUS_XMI}}' does not exist."
+          exit 1
+        fi
+      - echo "Importing XMI file '{{.PREVIOUS_XMI}}' into Crunch UML schema {{.GGM_PREVIOUS_SCHEMA_RAW}}..."
+      - crunch_uml -sch {{.GGM_PREVIOUS_SCHEMA_RAW}} import -f "{{.PREVIOUS_XMI}}" -t eaxmi
+      - echo "Copying {{.GGM_PREVIOUS_SCHEMA_RAW}} GGM Model to {{.GGM_PREVIOUS_SCHEMA}}..."
+      - crunch_uml transform -ttp copy -sch_from "{{.GGM_PREVIOUS_SCHEMA_RAW}}" -sch_to "{{.GGM_PREVIOUS_SCHEMA}}" -rt_pkg "{{.ROOT_GGM}}"
+      - echo "Successfully added previous schema to Crunch database successfully created and setup..."
+    shell: bash
+    sources:
+      - "{{.PREVIOUS_XMI}}"
       - "{{.XMI}}"
     generates:
       - "{{.CRUNCH_UML_DB}}"
@@ -210,6 +237,14 @@ tasks:
       - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t eamimrepo -f "{{.MIM}}" --tag_strategy upsert
     shell: bash
 
+  generate-diff-md:
+    desc: "Generate Changes to previous version {{.PREVIOUS_VERSION}} in Markdown file {{.CHANGES_MD}}."
+    deps: [import-xmi, import-xmi-old-version]
+    cmds:
+      - echo "Generating changes between version {{.PREVIOUS_VERSION}} and {{.VERSION}} in file {{.CHANGES_MD}}..."
+      - crunch_uml -sch "{{.GGM_PREVIOUS_SCHEMA}}" export -t diff_md -f "{{.CHANGES_MD}}" --compare_schema_name "{{.GGM_ROOT_SCHEMA}}" --compare_title "Changes from {{.PREVIOUS_VERSION}} to {{.VERSION}}"
+    shell: bash
+
   generate-gemma:
     desc: "Generate the Excel specification from the model. Generating '{{.EXCEL}}'"
     deps: [import-xmi]
@@ -260,6 +295,7 @@ tasks:
       - task: deploy-docs 
       - task: generate-lod
       - task: generate-mim
+      - task: generate-diff-md
       - echo "Full deployment completed."
     shell: bash
 

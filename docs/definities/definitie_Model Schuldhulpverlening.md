@@ -199,7 +199,7 @@ Attributen van objecttype Begeleidingssoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| soort | BegeleidingsoortEnum |  |
+| soort | EnumBegeleidingssoort |  |
 
 
 
@@ -636,7 +636,7 @@ Attributen van objecttype Oplossingssoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| soort | SchuldregelingsoortEnum |  |
+| soort | EnumSchuldensoort |  |
 
 
 

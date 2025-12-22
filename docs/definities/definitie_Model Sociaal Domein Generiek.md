@@ -490,7 +490,7 @@ Attributen van objecttype Sociale Groep
 | omschrijving | Text |  |
 | startdatum | Date |  |
 | einddatum | Date |  |
-| typering | Groep |  |
+| typering | Text |  |
 
 
 
@@ -526,7 +526,7 @@ Attributen van objecttype Sociale Relatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| typering | Relatie |  |
+| typering | text |  |
 | startdatum | Date |  |
 | einddatum | Date |  |
 
@@ -597,7 +597,7 @@ De enumeratie enum_Incidenttype heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:12:50 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_f2ccfb67\_8271\_4cb9\_a6ec\_48bd080d0691 |
+    | id | EAID\_f3bb7818\_bb90\_4d4d\_80e8\_b248fe1f7335 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

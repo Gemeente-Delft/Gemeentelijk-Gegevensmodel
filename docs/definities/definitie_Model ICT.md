@@ -247,9 +247,8 @@ Attributen van objecttype Classificatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bevatPersoonsgegevens | Persoonsgegevens |  |
-| id | guid |  |
-| gerelateerdPersoonsgegevens | Persoonsgegevens |  |
+| bevatPersoonsgegevens | boolean |  |
+| gerelateerdPersoonsgegevens | AN200 |  |
 
 
 

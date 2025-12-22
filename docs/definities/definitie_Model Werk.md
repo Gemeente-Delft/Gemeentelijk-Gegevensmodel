@@ -729,7 +729,7 @@ Attributen van objecttype Opleiding
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | Opleidingstype | Opleidingsrichting |  |
-| Instituutnaam | short |  |
+| Instituutnaam | Text |  |
 | DatumAanvang | date |  |
 | DatumEinde | date |  |
 | CodeStatusOpleiding | CodeStatusOpleiding |  |
@@ -976,7 +976,7 @@ Attributen van objecttype Rijbewijs /Certificaat
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | CodeSoortRijbewijs | AN12 |  |
-| NummerCertificaat | RegEx |  |
+| NummerCertificaat | varchar |  |
 | NaamCertificaat | enum |  |
 | GeldigVanaf | date |  |
 | GeldigTot | date |  |
@@ -1018,7 +1018,7 @@ Attributen van objecttype Taalbeheersing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Taalcode | ìnt |  |
+| Taalcode | varchar |  |
 | Taalnaam | string |  |
 | Moedertaal | Bool |  |
 | Leesvaardigheid | Taalvaardigheid
