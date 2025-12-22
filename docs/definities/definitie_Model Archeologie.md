@@ -5,6 +5,7 @@
 > Het informatiedomein dat gegevens omvat over archeologische opgravingen, onderzoeken en besluitvorming, gericht op het behoud, de bescherming en de ontsluiting van archeologisch erfgoed binnen de kaders van de Erfgoedwet.
 
 ??? info "Kenmerken Model Model Archeologie"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Archeologie |
@@ -16,7 +17,7 @@
     | version | 1.4 |
     | created | 2018-06-06 14:59:46 |
     | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_BB091186_D934_4ff7_8B95_F086954A45F5 |
+    | id | EAPK\_BB091186\_D934\_4ff7\_8B95\_F086954A45F5 |
     
 
 Het model 'Model Archeologie' kent de volgende objecttypen:
@@ -52,6 +53,7 @@ Het model 'Model Archeologie' kent de volgende objecttypen:
 > Een professioneel oordeel dat gebaseerd is op algemeen aanvaarde wetenschap ten aanzien van de archeologie
 
 ??? info "Kenmerken Model Archeologiebesluit"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Archeologiebesluit |
@@ -60,10 +62,10 @@ Het model 'Model Archeologie' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-06 15:56:31 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_836E51BF_65E9_4482_B555_C9AB737D264D |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_836E51BF\_65E9\_4482\_B555\_C9AB737D264D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Archeologiebesluit |
@@ -86,6 +88,7 @@ Attributen van objecttype Archeologiebesluit
 > De benaming voor ieder verplaatsbaar object dat door de mens is vervaardigd, bewerkt en/of gebruikt.
 
 ??? info "Kenmerken Model Artefact"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Artefact |
@@ -94,10 +97,10 @@ Attributen van objecttype Archeologiebesluit
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.11.0 |
     | created | 2018-11-26 16:14:39 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_2C230EE7_036D_48be_B82A_FF45598170F7 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_2C230EE7\_036D\_48be\_B82A\_FF45598170F7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Artefact |
@@ -111,34 +114,34 @@ Attributen van objecttype Artefact
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| artefectnummer | AN20 |  |
-| beschrijving | text |  |
-| conserveren | boolean |  |
-| datering | AN40 |  |
-| dateringComplex | AN20 |  |
-| determinatieniveau | AN40 |  |
-| dianummer | AN200 |  |
-| doosnummer | AN40 |  |
-| exposabel | boolean |  |
-| fotonummer | AN200 |  |
-| functie | AN80 |  |
-| herkomst | AN80 |  |
-| key | AN40 |  |
-| keyDoos | AN40 |  |
-| keyMagazijnplaatsing | AN40 |  |
-| keyPut | AN40 |  |
-| keyVondst | An40 |  |
-| literatuur | AN200 |  |
-| maten | AN80 |  |
-| naam | AN40 |  |
-| opmerkingen | text |  |
-| origine | An80 |  |
 | projectCD | AN20 |  |
 | putnummer | AN20 |  |
-| restauratieWenselijk | boolean |  |
-| tekeningnummer | AN200 |  |
-| type | AN80 |  |
 | vondstnummer | An20 |  |
+| artefectnummer | AN20 |  |
+| datering | AN40 |  |
+| maten | AN80 |  |
+| type | AN80 |  |
+| beschrijving | text |  |
+| determinatieniveau | AN40 |  |
+| naam | AN40 |  |
+| doosnummer | AN40 |  |
+| tekeningnummer | AN200 |  |
+| dianummer | AN200 |  |
+| fotonummer | AN200 |  |
+| restauratieWenselijk | boolean |  |
+| exposabel | boolean |  |
+| conserveren | boolean |  |
+| key | AN40 |  |
+| keyPut | AN40 |  |
+| keyMagazijnplaatsing | AN40 |  |
+| keyDoos | AN40 |  |
+| dateringComplex | AN20 |  |
+| opmerkingen | text |  |
+| functie | AN80 |  |
+| origine | An80 |  |
+| literatuur | AN200 |  |
+| herkomst | AN80 |  |
+| keyVondst | An40 |  |
 
 
 
@@ -148,6 +151,7 @@ Attributen van objecttype Artefact
 > Typering van artefacten
 
 ??? info "Kenmerken Model Artefactsoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Artefactsoort |
@@ -156,10 +160,10 @@ Attributen van objecttype Artefact
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-06 15:02:51 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_67CF25EB_EBB0_4185_8171_1F9DD3B5D212 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_67CF25EB\_EBB0\_4185\_8171\_1F9DD3B5D212 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -188,6 +192,7 @@ Attributen van objecttype Artefactsoort
 > Een middel om door boren of steken toegang te krijgen tot de ondergrond om bijvoorbeeld geroerde en/of ongeroerde monsters aan de ondergrond te ontlenen voor nader onderzoek.
 
 ??? info "Kenmerken Model boring"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | boring |
@@ -196,10 +201,10 @@ Attributen van objecttype Artefactsoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.7 |
+    | version | 1.14.0 |
     | created | 2018-06-06 15:17:02 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_E11FDCA7_7538_4353_83FF_72164D928452 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_E11FDCA7\_7538\_4353\_83FF\_72164D928452 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Boring |
@@ -222,6 +227,7 @@ Attributen van objecttype boring
 > Een afsluitbaar object waar iets in wordt opgeborgen of verpakt.
 
 ??? info "Kenmerken Model Doos"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Doos |
@@ -230,10 +236,10 @@ Attributen van objecttype boring
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-11-21 22:07:15 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_703CAFCF_FDC0_4861_AA76_1692303DE7BE |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_703CAFCF\_FDC0\_4861\_AA76\_1692303DE7BE |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -247,12 +253,12 @@ Attributen van objecttype Doos
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| projectCD | AN40 |  |
 | doosnummer | An40 |  |
-| herkomst | AN200 |  |
 | inhoud | text |  |
+| herkomst | AN200 |  |
 | key | AN40 |  |
 | keyMagazijnlocatie | AN40 |  |
-| projectCD | AN40 |  |
 
 
 
@@ -262,6 +268,7 @@ Attributen van objecttype Doos
 > De geografische weergave van een gedeelte van het aardoppervlak
 
 ??? info "Kenmerken Model Kaart"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Kaart |
@@ -270,10 +277,10 @@ Attributen van objecttype Doos
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-06 16:12:42 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_F28DDE36_7BE4_45f7_A820_FFF0261CAA4E |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_F28DDE36\_7BE4\_45f7\_A820\_FFF0261CAA4E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Kaart |
@@ -287,9 +294,9 @@ Attributen van objecttype Kaart
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| kaart | BLOB |  |
 | naam | AN200 |  |
 | omschrijving | text |  |
+| content | BLOB |  |
 
 
 
@@ -299,6 +306,7 @@ Attributen van objecttype Kaart
 > Een specifieke plaats
 
 ??? info "Kenmerken Model locatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | locatie |
@@ -307,10 +315,10 @@ Attributen van objecttype Kaart
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.7 |
+    | version | 1.14.0 |
     | created | 2018-06-06 15:08:13 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_F25EE5A8_2CF4_498b_8DAD_8EEE48FAF3A5 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_F25EE5A8\_2CF4\_498b\_8DAD\_8EEE48FAF3A5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Locatie |
@@ -324,7 +332,7 @@ Attributen van objecttype locatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| locatie | GML |  |
+| locatiePunt | Point |  |
 
 
 
@@ -334,6 +342,7 @@ Attributen van objecttype locatie
 > Locatie van een magazijn
 
 ??? info "Kenmerken Model Magazijnlocatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Magazijnlocatie |
@@ -342,10 +351,10 @@ Attributen van objecttype locatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-02-05 16:18:27 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_4C1543FD_250B_4291_9B23_BC9D3D9C0C4A |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_4C1543FD\_250B\_4291\_9B23\_BC9D3D9C0C4A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Magazijnlocatie |
@@ -359,10 +368,10 @@ Attributen van objecttype Magazijnlocatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| key | AN20 |  |
-| stelling | AN8 |  |
 | vaknummer | AN8 |  |
 | volgletter | AN8 |  |
+| key | AN20 |  |
+| stelling | AN8 |  |
 
 
 
@@ -372,6 +381,7 @@ Attributen van objecttype Magazijnlocatie
 > Het ergens neerzetten van een object in een magazijn.
 
 ??? info "Kenmerken Model Magazijnplaatsing"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Magazijnplaatsing |
@@ -380,10 +390,10 @@ Attributen van objecttype Magazijnlocatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-02-05 16:22:28 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_F954FB72_AE88_4a0e_A3D8_555FCF8D9C9F |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_F954FB72\_AE88\_4a0e\_A3D8\_555FCF8D9C9F |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | MagazijnPlaatsing |
@@ -397,14 +407,14 @@ Attributen van objecttype Magazijnplaatsing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| uitgeleend | boolean |  |
 | beschrijving | Text |  |
 | datumGeplaatst | Date |  |
-| herkomst | AN250 |  |
 | key | AN40 |  |
 | keyDoos | AN40 |  |
 | keyMagazijnlocatie | AN40 |  |
 | projectCD | An40 |  |
-| uitgeleend | boolean |  |
+| herkomst | AN250 |  |
 
 
 
@@ -414,6 +424,7 @@ Attributen van objecttype Magazijnplaatsing
 > Geheel van activiteiten uitgevoerd in een tijdelijk samenwerkingsverband gericht op het binnen bepaalde randvoorwaarden (bv. tijd, geld) bereiken van een vooraf gedefinieerd resultaat.
 
 ??? info "Kenmerken Model Project"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Project |
@@ -422,10 +433,10 @@ Attributen van objecttype Magazijnplaatsing
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-06 15:00:39 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_E42A32F7_262F_4005_9EB9_4674B76E8825 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_E42A32F7\_262F\_4005\_9EB9\_4674B76E8825 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Project |
@@ -439,16 +450,16 @@ Attributen van objecttype Project
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| coordinaten | GML |  |
-| datumEinde | Date |  |
-| datumStart | Date |  |
-| jaarTot | N4 |  |
-| jaarVan | N4 |  |
-| locatie | Point |  |
-| naam | AN80 |  |
-| naamcode | AN40 |  |
 | projectCD | AN40 |  |
+| naam | AN80 |  |
+| datumStart | Date |  |
+| datumEinde | Date |  |
+| naamcode | AN40 |  |
 | toponiem | AN80 |  |
+| locatie | Point |  |
+| coordinaten | Point |  |
+| jaarVan | N4 |  |
+| jaarTot | N4 |  |
 | trefwoorden | AN250 |  |
 
 
@@ -459,6 +470,7 @@ Attributen van objecttype Project
 > Grondspoor, veelal verstevigd en gefundeerd aangelegd, bedoeld voor de tijdelijke opslag van danwel water (waterput) danwel uitwerpselen en afval (beerput).
 
 ??? info "Kenmerken Model Put"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Put |
@@ -467,10 +479,10 @@ Attributen van objecttype Project
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-06 15:01:44 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_17286CE1_21F2_454b_95A6_3E4C0C6E2453 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_17286CE1\_21F2\_454b\_95A6\_3E4C0C6E2453 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Put |
@@ -484,9 +496,9 @@ Attributen van objecttype Put
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| key | AN40 |  |
 | projectCD | AN40 |  |
 | putnummer | AN40 |  |
+| key | AN40 |  |
 
 
 
@@ -496,6 +508,7 @@ Attributen van objecttype Put
 > Een blijk van eerdere aanwezigheid.
 
 ??? info "Kenmerken Model Spoor"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Spoor |
@@ -504,10 +517,10 @@ Attributen van objecttype Put
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.11.0 |
     | created | 2018-06-06 15:02:07 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_14939C33_2DCE_41bf_A2BE_FF1EDD292FE7 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_14939C33\_2DCE\_41bf\_A2BE\_FF1EDD292FE7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Spoor |
@@ -521,19 +534,19 @@ Attributen van objecttype Spoor
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aard | AN80 |  |
-| beschrijving | text |  |
-| datering | AN20 |  |
-| datum | Date |  |
-| hoogteBoven | AN20 |  |
-| hoogteOnder | AN20 |  |
-| key | AN40 |  |
-| keyVlak | AN40 |  |
 | projectCD | AN40 |  |
 | putnummer | AN40 |  |
-| spoornummer | AN40 |  |
 | vlaknummer | AN40 |  |
+| spoornummer | AN40 |  |
+| hoogteBoven | AN20 |  |
+| hoogteOnder | AN20 |  |
+| aard | AN80 |  |
+| datering | AN20 |  |
+| datum | Date |  |
 | vorm | AN20 |  |
+| beschrijving | text |  |
+| key | AN40 |  |
+| keyVlak | AN40 |  |
 
 
 
@@ -543,6 +556,7 @@ Attributen van objecttype Spoor
 > Een systeem om goederen op te slaan die worden vervoerd en opgeslagen op pallets, in bundels of per stuk.(Wikipedia)
 
 ??? info "Kenmerken Model Stelling"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Stelling |
@@ -551,10 +565,10 @@ Attributen van objecttype Spoor
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.11.0 |
     | created | 2018-11-21 22:06:59 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_382D408F_41A3_49d2_9F66_DFFA6C75590D |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_382D408F\_41A3\_49d2\_9F66\_DFFA6C75590D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -568,8 +582,8 @@ Attributen van objecttype Stelling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| inhoud | text |  |
 | stellingcode | AN2 |  |
+| inhoud | text |  |
 
 
 
@@ -579,6 +593,7 @@ Attributen van objecttype Stelling
 > Een plek waar men iets gevonden heeft.
 
 ??? info "Kenmerken Model Vindplaats"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vindplaats |
@@ -587,10 +602,10 @@ Attributen van objecttype Stelling
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.11.0 |
     | created | 2018-11-21 22:13:10 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_84DED9A9_2D33_4a77_94F2_29657024590F |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_84DED9A9\_2D33\_4a77\_94F2\_29657024590F |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Vindplaats |
@@ -604,20 +619,20 @@ Attributen van objecttype Vindplaats
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aard | AN20 |  |
-| begindatering | AN40 |  |
-| beschrijving | text |  |
-| bibliografie | AN200 |  |
+| projectcode | AN20 |  |
+| locatie | Point |  |
+| vindplaatsOmschrijving | AN40 |  |
+| gemeente | AN40 |  |
 | datering | AN40 |  |
+| begindatering | AN40 |  |
+| einddatering | AN40 |  |
+| aard | AN20 |  |
+| onderzoek | text |  |
+| mobilia | AN40 |  |
 | depot | AN40 |  |
 | documentatie | AN200 |  |
-| einddatering | AN40 |  |
-| gemeente | AN40 |  |
-| locatie | GML |  |
-| mobilia | AN40 |  |
-| onderzoek | text |  |
-| projectcode | AN20 |  |
-| vindplaats | AN40 |  |
+| bibliografie | AN200 |  |
+| beschrijving | text |  |
 
 
 
@@ -627,6 +642,7 @@ Attributen van objecttype Vindplaats
 > Plat, oneindig oppervlak of variëteit zonder enige kromming.
 
 ??? info "Kenmerken Model Vlak"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vlak |
@@ -635,10 +651,10 @@ Attributen van objecttype Vindplaats
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-06 15:01:55 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_0644BD52_8C2B_462d_94B9_9C99908952F5 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_0644BD52\_8C2B\_462d\_94B9\_9C99908952F5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Vlak |
@@ -652,13 +668,13 @@ Attributen van objecttype Vlak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| diepteTot | N3 |  |
-| diepteVan | N3 |  |
-| key | AN40 |  |
-| keyPut | AN40 |  |
 | projectCD | AN20 |  |
 | putnummer | AN20 |  |
 | vlaknummer | AN20 |  |
+| diepteVan | N3 |  |
+| diepteTot | N3 |  |
+| key | AN40 |  |
+| keyPut | AN40 |  |
 
 
 
@@ -668,6 +684,7 @@ Attributen van objecttype Vlak
 > Overblijfsel, voorwerp of ander spoor van menselijke aanwezigheid in het verleden afkomstig van een archeologisch monument
 
 ??? info "Kenmerken Model Vondst"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vondst |
@@ -676,10 +693,10 @@ Attributen van objecttype Vlak
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.11.0 |
     | created | 2018-06-06 15:02:35 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_F8283401_70F8_41b8_A97C_32A9074AD4B1 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_F8283401\_70F8\_41b8\_A97C\_32A9074AD4B1 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Vondst |
@@ -693,17 +710,17 @@ Attributen van objecttype Vondst
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datum | Date |  |
+| projectCD | AN20 |  |
+| vondstnummer | AN20 |  |
+| putnummer | AN20 |  |
+| vlaknummer | AN20 |  |
+| spoornummer | AN20 |  |
+| vullingnummer | AN20 |  |
+| omstandigheden | text |  |
+| omschrijving | text |  |
 | key | AN40 |  |
 | keyVulling | AN40 |  |
-| omschrijving | text |  |
-| omstandigheden | text |  |
-| projectCD | AN20 |  |
-| putnummer | AN20 |  |
-| spoornummer | AN20 |  |
-| vlaknummer | AN20 |  |
-| vondstnummer | AN20 |  |
-| vullingnummer | AN20 |  |
+| datum | Date |  |
 | XCoordinaat | int |  |
 | YCoordinaat | int |  |
 
@@ -715,6 +732,7 @@ Attributen van objecttype Vondst
 > Dunne wegeringsplank gebruikt om de ruimte tussen de bovenste kimweger en de onderste balkweger op te vullen (Sopers, 1974).
 
 ??? info "Kenmerken Model Vulling"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vulling |
@@ -723,10 +741,10 @@ Attributen van objecttype Vondst
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.11.0 |
     | created | 2018-06-06 15:02:19 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_8417459E_2193_44a2_A1AC_38C39EA93CBF |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_8417459E\_2193\_44a2\_A1AC\_38C39EA93CBF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Vulling |
@@ -740,17 +758,16 @@ Attributen van objecttype Vulling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| grondsoort | AN80 |  |
-| key | AN40 |  |
-| keySpoor | AN40 |  |
-| kleur | AN80 |  |
 | projectCD | AN20 |  |
 | putnummer | An20 |  |
-| spoornummer | AN20 |  |
-| structuur | AN80 |  |
 | vlaknummer | AN20 |  |
+| spoornummer | AN20 |  |
 | vullingnummer | AN20 |  |
-
+| grondsoort | AN80 |  |
+| kleur | AN80 |  |
+| structuur | AN80 |  |
+| key | AN40 |  |
+| keySpoor | AN40 |  |
 
 
 

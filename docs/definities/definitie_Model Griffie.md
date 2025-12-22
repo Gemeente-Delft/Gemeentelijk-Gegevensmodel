@@ -5,6 +5,7 @@
 > Het informatiedomein dat gegevens omvat over de ondersteuning van de gemeenteraad en de organisatie van raadsprocessen, gericht op het faciliteren van besluitvorming en democratische controle.
 
 ??? info "Kenmerken Model Model Griffie"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Griffie |
@@ -13,10 +14,10 @@
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.6.0 |
     | created | 2019-05-13 16:48:32 |
-    | modified | 2025-03-27 15:29:27 |
-    | id | EAPK_9EBFD9E7_BB04_45c9_97BB_426207B40292 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAPK\_9EBFD9E7\_BB04\_45c9\_97BB\_426207B40292 |
     
 
 Het model 'Model Griffie' kent de volgende objecttypen:
@@ -45,6 +46,7 @@ Het model 'Model Griffie' kent de volgende objecttypen:
 > iemand die meedoet aan eencollege- of raadsvergadering
 
 ??? info "Kenmerken Model Aanwezige Deelnemer"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aanwezige Deelnemer |
@@ -53,10 +55,10 @@ Het model 'Model Griffie' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-05-16 15:22:56 |
-    | modified | 2025-03-26 16:14:34 |
-    | id | EAID_F1E55DC7_0F33_40ea_8713_2E1AC3D7EE8D |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_F1E55DC7\_0F33\_40ea\_8713\_2E1AC3D7EE8D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | MaatschappelijkeActiviteit |
@@ -72,9 +74,9 @@ Attributen van objecttype Aanwezige Deelnemer
 | :--- | :--- | :--- |
 | aanvangAanwezigheid | DateTime |  |
 | eindeAanwezigheid | DateTime |  |
-| naam | AN250 |  |
-| rol | Enumeratie: "Deelnemersrol" |  |
+| rol | Deelnemersrol |  |
 | vertegenwoordigtOrganisatie | AN250 |  |
+| naam | AN250 |  |
 
 
 
@@ -84,6 +86,7 @@ Attributen van objecttype Aanwezige Deelnemer
 > Een onderwerp dat in de vergadering wordt behandeld.
 
 ??? info "Kenmerken Model Agendapunt"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Agendapunt |
@@ -92,10 +95,10 @@ Attributen van objecttype Aanwezige Deelnemer
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-05-16 11:55:17 |
-    | modified | 2025-03-26 16:14:34 |
-    | id | EAID_73FB5212_40ED_40dc_B837_36588840445A |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_73FB5212\_40ED\_40dc\_B837\_36588840445A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Agendapunt |
@@ -110,8 +113,8 @@ Attributen van objecttype Agendapunt
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | nummer | int |  |
-| omschrijving | Text |  |
 | titel | AN250 |  |
+| omschrijving | Text |  |
 
 
 
@@ -121,6 +124,7 @@ Attributen van objecttype Agendapunt
 > Categorie waarop leveranciers zich voor de levering van personeel voor kunnen kwalificeren
 
 ??? info "Kenmerken Model Categorie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Categorie |
@@ -129,10 +133,10 @@ Attributen van objecttype Agendapunt
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-05-16 11:44:01 |
-    | modified | 2025-03-26 16:14:34 |
-    | id | EAID_B9B82B25_5D7F_4d2b_84F9_4DF74525EEAD |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_B9B82B25\_5D7F\_4d2b\_84F9\_4DF74525EEAD |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -156,6 +160,7 @@ Attributen van objecttype Categorie
 > Iemand die behoort het college van burgemeester en wethouders
 
 ??? info "Kenmerken Model Collegelid"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Collegelid |
@@ -164,10 +169,10 @@ Attributen van objecttype Categorie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-05-16 11:26:04 |
-    | modified | 2025-03-26 16:14:34 |
-    | id | EAID_7B9EDDFD_57F7_4ff2_938F_FDFA3B503DA8 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_7B9EDDFD\_57F7\_4ff2\_938F\_FDFA3B503DA8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Collegelid |
@@ -181,13 +186,13 @@ Attributen van objecttype Collegelid
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| voornaam | AN250 |  |
 | achternaam | AN250 |  |
-| datumAanstelling | Date |  |
-| datumUittreding | Date |  |
+| titel | AN80 |  |
 | fractie | AN250 |  |
 | portefeuille | AN200 |  |
-| titel | AN80 |  |
-| voornaam | AN250 |  |
+| datumAanstelling | Date |  |
+| datumUittreding | Date |  |
 
 
 
@@ -197,6 +202,7 @@ Attributen van objecttype Collegelid
 > Samenhangende set gegevens en informatie voor een specifiek doel
 
 ??? info "Kenmerken Model Dossier"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Dossier |
@@ -205,10 +211,10 @@ Attributen van objecttype Collegelid
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-05-16 11:44:26 |
-    | modified | 2025-03-26 16:14:34 |
-    | id | EAID_475E24C9_CC9A_49cc_AB80_8CA0221441E5 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_475E24C9\_CC9A\_49cc\_AB80\_8CA0221441E5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Dossier |
@@ -232,6 +238,7 @@ Attributen van objecttype Dossier
 > Persoon die meldiing of aanvraag doet
 
 ??? info "Kenmerken Model Indiener"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Indiener |
@@ -240,10 +247,10 @@ Attributen van objecttype Dossier
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-05-16 11:10:22 |
-    | modified | 2025-03-26 16:14:34 |
-    | id | EAID_98CB3C6F_588B_479f_9A2B_F5D5362DD17C |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_98CB3C6F\_588B\_479f\_9A2B\_F5D5362DD17C |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Indiener |
@@ -268,6 +275,7 @@ Attributen van objecttype Indiener
 > Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te coördineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie.
 
 ??? info "Kenmerken Model Programma"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Programma |
@@ -276,10 +284,10 @@ Attributen van objecttype Indiener
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-05-16 11:44:13 |
-    | modified | 2025-05-20 14:57:05 |
-    | id | EAID_CA56A59A_F855_4c19_89BE_578B12481EA0 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_CA56A59A\_F855\_4c19\_89BE\_578B12481EA0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -303,6 +311,7 @@ Attributen van objecttype Programma
 > Een raadscommissie binnen de Nederlandse gemeenteraad is een groep raadsleden die zich buigt over specifieke thema's of beleidsonderwerpen om de besluitvorming in de volledige raad voor te bereiden en te ondersteunen.
 
 ??? info "Kenmerken Model Raadscommissie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Raadscommissie |
@@ -311,10 +320,10 @@ Attributen van objecttype Programma
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.11.0 |
     | created | 2019-05-16 11:10:04 |
-    | modified | 2025-03-26 16:14:34 |
-    | id | EAID_CB27D699_F82B_45ad_823A_B2B51BCAECBA |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_CB27D699\_F82B\_45ad\_823A\_B2B51BCAECBA |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Raadscommissie |
@@ -338,6 +347,7 @@ Attributen van objecttype Raadscommissie
 > Iemand die behoort de gemeenteraad
 
 ??? info "Kenmerken Model Raadslid"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Raadslid |
@@ -346,10 +356,10 @@ Attributen van objecttype Raadscommissie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.11.0 |
     | created | 2019-05-16 11:09:46 |
-    | modified | 2025-03-26 16:14:34 |
-    | id | EAID_5772BEBB_97FA_42a9_B70D_DB55EAD6D1EE |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_5772BEBB\_97FA\_42a9\_B70D\_DB55EAD6D1EE |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Raadslid |
@@ -363,12 +373,12 @@ Attributen van objecttype Raadslid
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| voornaam | AN250 |  |
 | achternaam | AN250 |  |
+| titel | AN80 |  |
+| fractie | AN250 |  |
 | datumAanstelling | Date |  |
 | datumUittreding | Date |  |
-| fractie | AN250 |  |
-| titel | AN80 |  |
-| voornaam | AN250 |  |
 
 
 
@@ -378,6 +388,7 @@ Attributen van objecttype Raadslid
 > Stuk dat door de gemeenteraad wordt behandeld
 
 ??? info "Kenmerken Model Raadsstuk"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Raadsstuk |
@@ -386,10 +397,10 @@ Attributen van objecttype Raadslid
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.13.0 |
     | created | 2019-05-16 11:06:43 |
-    | modified | 2025-03-26 16:14:34 |
-    | id | EAID_440219A4_C64B_4eac_ADE5_E79ED6AA9BFE |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_440219A4\_C64B\_4eac\_ADE5\_E79ED6AA9BFE |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Raadsstuk |
@@ -403,10 +414,10 @@ Attributen van objecttype Raadsstuk
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| besloten | Boolean |  |
-| datumExpiratie | DateTime |  |
-| datumPublicatie | DateTime |  |
 | datumRegistratie | DateTime |  |
+| datumPublicatie | DateTime |  |
+| datumExpiratie | DateTime |  |
+| besloten | Boolean |  |
 | typeRaadsstuk | AN80 |  |
 
 
@@ -417,6 +428,7 @@ Attributen van objecttype Raadsstuk
 > Stem (openbaring van iemands mening (voor of tegen)),  uitbrengen bij verkiezingen of bij een vergadering
 
 ??? info "Kenmerken Model Stemming"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Stemming |
@@ -425,16 +437,16 @@ Attributen van objecttype Raadsstuk
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-05-16 15:41:33 |
-    | modified | 2025-03-26 16:14:34 |
-    | id | EAID_331C4A0B_1505_4945_A0B0_DCD8703AB50F |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_331C4A0B\_1505\_4945\_A0B0\_DCD8703AB50F |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Stemming |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-857327b0-3ab3-4578-869d-7b390aa1e3d3](https://gemmaonline.nl/index.php/GEMMA/id-857327b0-3ab3-4578-869d-7b390aa1e3d3) |
-    | gemma_definitie | Stem (openbaring van iemands mening (voor of tegen)),  uitbrengen bij verkiezingen of bij een vergadering |
+    | gemma_definitie | Stem (openbaring van iemands mening (voor of tegen)), uitbrengen bij verkiezingen of bij een vergadering |
     | gemma_toelichting |  |
     
 
@@ -442,8 +454,8 @@ Attributen van objecttype Stemming
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| resultaat | Enumeratie: "Stemmingsresultaattype" |  |
-| stemmingstype | Enumeratie: "Stemmingstype" |  |
+| resultaat | Stemmingsresultaattype |  |
+| stemmingstype | Stemmingstype |  |
 
 
 
@@ -453,6 +465,7 @@ Attributen van objecttype Stemming
 > Een samenhangend geheel van activiteiten en taken en hangt onder een programma.
 
 ??? info "Kenmerken Model Taakveld"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Taakveld |
@@ -461,10 +474,10 @@ Attributen van objecttype Stemming
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-05-16 11:44:21 |
-    | modified | 2025-03-26 16:14:34 |
-    | id | EAID_01E83CEC_D69D_47eb_9BAB_252AABADDD18 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_01E83CEC\_D69D\_47eb\_9BAB\_252AABADDD18 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -488,6 +501,7 @@ Attributen van objecttype Taakveld
 > Een bijeenkomst van meerdere mensen (meestal van eenzelfde organisatie) die met elkaar spreken en/of afspraken maken over de gemeenschappelijke toekomst.
 
 ??? info "Kenmerken Model Vergadering"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vergadering |
@@ -496,10 +510,10 @@ Attributen van objecttype Taakveld
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.14.0 |
     | created | 2019-05-16 11:09:27 |
-    | modified | 2025-03-26 16:14:34 |
-    | id | EAID_257F4ABF_7CCD_453f_B2E8_5A6434383A9B |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_257F4ABF\_7CCD\_453f\_B2E8\_5A6434383A9B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Vergadering |
@@ -514,9 +528,9 @@ Attributen van objecttype Vergadering
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | eindtijd | DateTime |  |
-| locatie | AN250 |  |
 | starttijd | DateTime |  |
 | titel | AN250 |  |
+| locatie | AN250 |  |
 
 
 
@@ -543,6 +557,7 @@ Het enumeratie Deelnemersrol kent de volgende waarden:
 De enumeratie Deelnemersrol heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Deelnemersrol"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Deelnemersrol |
@@ -551,10 +566,10 @@ De enumeratie Deelnemersrol heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:12:41 |
-    | modified | 2025-03-26 16:14:34 |
-    | id | EAID_E2EDC770_08EB_4298_A2BA_F7943ACD695F |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_E2EDC770\_08EB\_4298\_A2BA\_F7943ACD695F |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -578,6 +593,7 @@ Het enumeratie Stemmingsresultaattype kent de volgende waarden:
 De enumeratie Stemmingsresultaattype heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Stemmingsresultaattype"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Stemmingsresultaattype |
@@ -586,10 +602,10 @@ De enumeratie Stemmingsresultaattype heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:12:41 |
-    | modified | 2025-03-26 16:14:34 |
-    | id | EAID_0A3A2E20_2A67_4e16_B11E_36C09F94331D |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_0A3A2E20\_2A67\_4e16\_B11E\_36C09F94331D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -613,6 +629,7 @@ Het enumeratie Stemmingstype kent de volgende waarden:
 De enumeratie Stemmingstype heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Stemmingstype"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Stemmingstype |
@@ -621,10 +638,10 @@ De enumeratie Stemmingstype heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:12:41 |
-    | modified | 2025-03-26 16:14:34 |
-    | id | EAID_368EB061_7CF3_4115_BB21_3C618782F205 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_368EB061\_7CF3\_4115\_BB21\_3C618782F205 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -633,6 +650,5 @@ De enumeratie Stemmingstype heeft de volgende kenmerken:
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
-
 
 

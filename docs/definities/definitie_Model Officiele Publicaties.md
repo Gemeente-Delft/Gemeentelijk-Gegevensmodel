@@ -2,9 +2,10 @@
 ## Inleiding
 > **Definitie Model Officiele Publicaties:** 
 >
-> Geen definitie
+> Het informatiemodel met de officiele publicaties in het kader van de omgevingswet
 
 ??? info "Kenmerken Model Model Officiele Publicaties"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Officiele Publicaties |
@@ -13,10 +14,10 @@
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2019-10-23 14:40:55 |
-    | modified | 2019-10-23 14:40:55 |
-    | id | EAPK_DD661A2E_8CE9_4686_B9C7_B13EF5367803 |
+    | modified | 2025-12-18 15:38:53 |
+    | id | EAPK\_DD661A2E\_8CE9\_4686\_B9C7\_B13EF5367803 |
     
 
 Het model 'Model Officiele Publicaties' kent de volgende objecttypen:
@@ -34,6 +35,7 @@ Het model 'Model Officiele Publicaties' kent de volgende objecttypen:
 > In artikel 16.2 van de Omgevingswet aangemerkt instrument te weten: Omgevingsvisie, programma, omgevingsplan, waterschapsverordening, omgevingsverordening, projectbesluit of bij Algemene Maatregel van Bestuur (Omgevingsbesluit) aangewezen ander besluit of ander rechtsfiguur.
 
 ??? info "Kenmerken Model Omgevingsdocument"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Omgevingsdocument |
@@ -42,10 +44,10 @@ Het model 'Model Officiele Publicaties' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-23 17:01:05 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_F5434F00_CC0F_4d7b_91AE_20CBD3C60DFC |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_F5434F00\_CC0F\_4d7b\_91AE\_20CBD3C60DFC |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Omgevingsdocument |
@@ -68,6 +70,7 @@ Attributen van objecttype Omgevingsdocument
 > De kleinste zelfstandige eenheid van (een of meer) bij elkaar horende juridische regels: een artikel en lid.
 
 ??? info "Kenmerken Model Regeltekst"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Regeltekst |
@@ -76,10 +79,10 @@ Attributen van objecttype Omgevingsdocument
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-23 17:00:53 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_A744FAF8_16B7_4e5d_9C10_203AA8E7C440 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_A744FAF8\_16B7\_4e5d\_9C10\_203AA8E7C440 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -96,7 +99,6 @@ Attributen van objecttype Regeltekst
 | identificatie | AN200 |  |
 | omschrijving | text |  |
 | tekst | text |  |
-
 
 
 

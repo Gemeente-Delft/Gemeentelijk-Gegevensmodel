@@ -5,6 +5,7 @@
 > Het informatiedomein dat gegevens omvat over onderwijsvoorzieningen, leerlingenstromen, taken in het onderwijsveld  en educatieve ondersteuning.
 
 ??? info "Kenmerken Model Model Onderwijs"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Onderwijs |
@@ -16,7 +17,7 @@
     | version | 1.5 |
     | created | 2018-05-04 14:45:56 |
     | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_CD9BF007_85C6_4af9_B3F4_2CAB5BF26B5E |
+    | id | EAPK\_CD9BF007\_85C6\_4af9\_B3F4\_2CAB5BF26B5E |
     
 
 Het model 'Model Onderwijs' kent de volgende objecttypen:
@@ -44,6 +45,7 @@ Het model 'Model Onderwijs' kent de volgende objecttypen:
 > Deelname van iemand aan een opleiding bij een onderwijsinstelling.
 
 ??? info "Kenmerken Model Inschrijving"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Inschrijving |
@@ -51,11 +53,11 @@ Het model 'Model Onderwijs' kent de volgende objecttypen:
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-05-04 14:53:34 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_CFFD5F20_5FA9_4d93_AD34_6867D64A58B9 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_CFFD5F20\_5FA9\_4d93\_AD34\_6867D64A58B9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Inschrijving |
@@ -79,6 +81,7 @@ Attributen van objecttype Inschrijving
 > Is de codering van het jaar of het niveau waarin de leerling onderwijs volgt.
 
 ??? info "Kenmerken Model Leerjaar"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Leerjaar |
@@ -86,11 +89,11 @@ Attributen van objecttype Inschrijving
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-05-04 15:34:24 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_D7ECEB92_BE50_4e30_9F27_54A008BC75DF |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_D7ECEB92\_BE50\_4e30\_9F27\_54A008BC75DF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Leerjaar |
@@ -104,8 +107,8 @@ Attributen van objecttype Leerjaar
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| jaarEinde | int |  |
 | jaarStart | int |  |
+| jaarEinde | int |  |
 
 
 
@@ -115,6 +118,7 @@ Attributen van objecttype Leerjaar
 > Mens die een opleiding volgt, heeft gevolgd of gaat volgen of opgaat of is opgegaan voor een toets. (Bron: KOI)
 
 ??? info "Kenmerken Model Leerling"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Leerling |
@@ -123,10 +127,10 @@ Attributen van objecttype Leerjaar
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.11.0 |
     | created | 2018-05-28 16:42:46 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_266057AF_58BD_42e1_B4D5_16EB266B9B7A |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_266057AF\_58BD\_42e1\_B4D5\_16EB266B9B7A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Leerling |
@@ -140,7 +144,7 @@ Attributen van objecttype Leerling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| kwetsbareJongere | Enumeratie: "Boolean" |  |
+| kwetsbareJongere | Boolean |  |
 
 
 
@@ -150,6 +154,7 @@ Attributen van objecttype Leerling
 > De locatie beschrijft middels coördinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)
 
 ??? info "Kenmerken Model Locatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Locatie |
@@ -158,10 +163,10 @@ Attributen van objecttype Leerling
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-20 11:36:50 |
-    | modified | 2025-05-20 15:06:12 |
-    | id | EAID_3119A4DB_BB23_4adc_98BD_82F2D7996C6B |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_3119A4DB\_BB23\_4adc\_98BD\_82F2D7996C6B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -185,6 +190,7 @@ Attributen van objecttype Locatie
 > Een logische en ook uitdagende stap naar een volgende functie binnen dezelfde functiefamilie of een andere, op hetzelfde schaalniveau of op een schaalniveau hoger.
 
 ??? info "Kenmerken Model Loopbaanstap"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Loopbaanstap |
@@ -192,11 +198,11 @@ Attributen van objecttype Locatie
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-05-04 15:00:18 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_0E3DE26B_C535_4a03_98A4_8D36DC3D5297 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_0E3DE26B\_C535\_4a03\_98A4\_8D36DC3D5297 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Loopbaanstap |
@@ -210,9 +216,9 @@ Attributen van objecttype Loopbaanstap
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| schooljaar | Leerjaar |  |
+| onderwijstype | Onderwijstype |  |
 | klas | int |  |
-| onderwijstype | Enumeratie: "Onderwijstype" |  |
-| schooljaar |  |  |
 
 
 
@@ -222,6 +228,7 @@ Attributen van objecttype Loopbaanstap
 > Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijs carrière ; schoolloopbaan; school carrière ; schooltijd; de schooljaren
 
 ??? info "Kenmerken Model Onderwijsloopbaan"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Onderwijsloopbaan |
@@ -229,11 +236,11 @@ Attributen van objecttype Loopbaanstap
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-05-04 14:59:08 |
-    | modified | 2025-05-20 14:59:35 |
-    | id | EAID_F47ACE79_C476_479f_A3A3_729E65AF3D32 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_F47ACE79\_C476\_479f\_A3A3\_729E65AF3D32 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Onderwijsloopbaan |
@@ -256,6 +263,7 @@ Attributen van objecttype Onderwijsloopbaan
 > De hoogte van een soort onderwijs in relatie tot andere soorten onderwijs
 
 ??? info "Kenmerken Model Onderwijsniveau"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Onderwijsniveau |
@@ -264,10 +272,10 @@ Attributen van objecttype Onderwijsloopbaan
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-07 17:01:21 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_96AB51D0_52E5_4515_B21F_98B30C4B9C42 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_96AB51D0\_52E5\_4515\_B21F\_98B30C4B9C42 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Onderwijsniveau |
@@ -290,6 +298,7 @@ Attributen van objecttype Onderwijsniveau
 > Typologie voor onderwijs
 
 ??? info "Kenmerken Model Onderwijssoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Onderwijssoort |
@@ -297,11 +306,11 @@ Attributen van objecttype Onderwijsniveau
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-05-04 15:36:13 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_8AF9FAE6_13D8_484d_97F5_2A3839BC8618 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_8AF9FAE6\_13D8\_484d\_97F5\_2A3839BC8618 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -315,8 +324,8 @@ Attributen van objecttype Onderwijssoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| onderwijstype | Onderwijstype |  |
 | omschrijving | AN80 |  |
-| onderwijstype | Enumeratie: "Onderwijstype" |  |
 
 
 
@@ -326,6 +335,7 @@ Attributen van objecttype Onderwijssoort
 > Een persoon die wettelijk verantwoordelijk is voor de zorg en opvoeding van een kind.
 
 ??? info "Kenmerken Model Ouder Of Verzorger"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Ouder Of Verzorger |
@@ -334,10 +344,10 @@ Attributen van objecttype Onderwijssoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.7 |
+    | version | 1.14.0 |
     | created | 2018-05-28 16:44:50 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_51C8E3DF_FFF4_4a20_9CB2_AA5FA50579E2 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_51C8E3DF\_FFF4\_4a20\_9CB2\_AA5FA50579E2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | OuderOfVerzorger |
@@ -360,6 +370,7 @@ Attributen van objecttype Ouder Of Verzorger
 > Gebouw in gebruik voor basis, middelbaar of hoger onderwijs.
 
 ??? info "Kenmerken Model School"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | School |
@@ -367,11 +378,11 @@ Attributen van objecttype Ouder Of Verzorger
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-05-04 14:54:30 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_32DFC5DD_79D9_45d5_8F9D_7D5125961817 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_32DFC5DD\_79D9\_45d5\_8F9D\_7D5125961817 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | School |
@@ -395,6 +406,7 @@ Attributen van objecttype School
 > Diploma van een opleiding als bedoeld in de WEB of een diploma hoger algemeen voortgezet onderwijs of voorbereidend wetenschappelijk onderwijs als bedoeld in de WVO;
 
 ??? info "Kenmerken Model Startkwalificatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Startkwalificatie |
@@ -402,11 +414,11 @@ Attributen van objecttype School
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-05-04 14:57:13 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_E8301577_1A49_43cf_A2CA_0F042584EBB3 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_E8301577\_1A49\_43cf\_A2CA\_0F042584EBB3 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Startkwalificatie |
@@ -430,6 +442,7 @@ Attributen van objecttype Startkwalificatie
 > Beeindiging van een inschrijving van een leerling bij een school
 
 ??? info "Kenmerken Model Uitschrijving"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Uitschrijving |
@@ -437,11 +450,11 @@ Attributen van objecttype Startkwalificatie
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-05-04 14:53:46 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_133AF611_9FA0_4a09_BF12_74C5FA5F6F60 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_133AF611\_9FA0\_4a09\_BF12\_74C5FA5F6F60 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Uitschrijving |
@@ -456,7 +469,7 @@ Attributen van objecttype Uitschrijving
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datum | Datum |  |
-| diplomaBehaald | Enumeratie: "Boolean" |  |
+| diplomaBehaald | Boolean |  |
 
 
 
@@ -480,6 +493,7 @@ Het enumeratie Boolean kent de volgende waarden:
 De enumeratie Boolean heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Boolean"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Boolean |
@@ -488,10 +502,10 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_a794d16c_bb1a_46a0_9eee_2b419e071a9d |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_b0cb973b\_bab6\_453d\_bbab\_b0d29bc133b5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -516,6 +530,7 @@ Het enumeratie Boolean kent de volgende waarden:
 De enumeratie Boolean heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Boolean"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Boolean |
@@ -524,10 +539,10 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_f1f5785c_288c_4c3b_ae0e_85fe30d9ef6f |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_afe62b2f\_9cca\_4610\_adae\_aaa9113266fb |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -553,6 +568,7 @@ Het enumeratie Onderwijstype kent de volgende waarden:
 De enumeratie Onderwijstype heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Onderwijstype"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Onderwijstype |
@@ -561,10 +577,10 @@ De enumeratie Onderwijstype heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:12:45 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_354AA899_00C3_4c36_93F7_0B364D331C93 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_354AA899\_00C3\_4c36\_93F7\_0B364D331C93 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -573,6 +589,5 @@ De enumeratie Onderwijstype heeft de volgende kenmerken:
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
-
 
 

@@ -5,6 +5,7 @@
 > Het Dienstenmodel biedt een gestructureerde weergave van de processen en objecttypen die betrokken zijn bij het leveren van diensten binnen het sociaal domein. Het model richt zich op de relaties tussen aanvragen, besluiten, rechten en voorwaarden die de basis vormen voor het verstrekken van voorzieningen.
 
 ??? info "Kenmerken Model Model Diensten"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Diensten |
@@ -16,7 +17,7 @@
     | version | 1.1 |
     | created | 2024-06-27 21:51:28 |
     | modified | 2025-03-27 15:33:15 |
-    | id | EAPK_1020926F_B2F4_FAE2_4E83_392C441499AB |
+    | id | EAPK\_1020926F\_B2F4\_FAE2\_4E83\_392C441499AB |
     
 
 Het model 'Model Diensten' kent de volgende objecttypen:
@@ -34,7 +35,7 @@ Het model 'Model Diensten' kent de volgende objecttypen:
 * **Leveringsopdracht**: Een informatieobject dat wordt uitgewisseld tussen twee bedrijfsfuncties, waarvan de één de inhoudelijke afhandeling heeft gedaan en de ander de uitvoering moet verrichten. De leveringsopdracht bevat de nodige gegevens om de levering te kunnen uitvoeren.De daadwerkelijke levering van de dienst, hetzij in natura, hetzij in uitkering, wordt door een andere bedrijfsfunctie uitgevoerd. Hiertoe moet een leveringsopdracht worden opgesteld. Dit bedrijfsobject is meer een koppelvlakbeschrijving over gegevens uit het behandelproces, dan een uit te werken concept in de ontologie.
 * **Leveringsspecificatie**: De specificatie van de te leveren dienst.Nadat het recht is bepaald, wordt de levering gespecificeerd. Bij een financieel product is dat de hoogte van het bedrag. De hoogte van het bedrag is opgebouwd uit componenten waarvan de relevantie weer wordt bepaald door het recht en de situatie. Hoe het ook zij, de Leveringsspecificatie wordt in haar Leveringscomponenten vastgelegd.
 * **Onderdeel beschikking**: Een beschikking is een voor beroep vatbaar overheidsbesluit. Veelal de op schrift gestelde juridische motivering van de beslissing, met vermelding van de bezwaar en beroepsmogelijkheden. Omdat de aangevraagde dienst uit meerdere onderdelen bestaat en op elk onderdeel wordt beslist, zijn deze beslissingen en hun juridische motivering opgenomen als onderdelen in de beschikking.
-* **Periodiek dienst (Bijz. bijstand)**: Dit concept is redundant met leveringscomponenten in een leveringsspecificatie.De bijzondere bijstand hier bedoeld moet worden opgevoerd als een apart diensttypeDe kostensoort moet worden opgevoerd als een leveringscomponenttype bij het diensttype Bijzondere bijstandBij recht op de dienst bevat de leveringsspecificatie de relevante kostensoorten als leveringscomponenten met het vastgestelde bedrag.
+* **Periodiek dienst Bijz. bijstand**: Dit concept is redundant met leveringscomponenten in een leveringsspecificatie.De bijzondere bijstand hier bedoeld moet worden opgevoerd als een apart diensttypeDe kostensoort moet worden opgevoerd als een leveringscomponenttype bij het diensttype Bijzondere bijstandBij recht op de dienst bevat de leveringsspecificatie de relevante kostensoorten als leveringscomponenten met het vastgestelde bedrag.
 * **Recht**: Het bepaalde recht op het verkrijgen van een dienst. Het recht is opgebouwd uit conclusies op relevante voorwaarden voor het verkrijgen van een dienst.
 * **Referteperiode**: De referteperiode bij een dienst is die periode waarover gegevens bij de aanvraag worden verzameld om op basis daarvan tot een beslissing te komen.
 * **Regeling**: Bijvoorbeeld Participatiewet, IOAW/IOAZ e.d.
@@ -54,6 +55,7 @@ Het model 'Model Diensten' kent de volgende objecttypen:
 > Het officiële verzoek met het oogmerk om te komen tot toelating tot de dienstverlening zoals beschreven in de Participatiewet, schriftelijk ingediend bij het bestuursorgaan dat bevoegd is op het verzoek te beslissen. Het verzoek moet voldoen aan de wettelijke vereisten zoals bepaald in artikel 4.2 van de Algemene Bestuurswet.
 
 ??? info "Kenmerken Model Aanvraag"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aanvraag |
@@ -62,10 +64,10 @@ Het model 'Model Diensten' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_208D605F_BDE5_700A_13F6_281C3303691F |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_208D605F\_BDE5\_700A\_13F6\_281C3303691F |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -88,6 +90,7 @@ Attributen van objecttype Aanvraag
 > Een door de gemeente vastgestelde set van diensttypen die met één aanvraag kan worden aangevraagd.
 
 ??? info "Kenmerken Model Aanvraagtype"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aanvraagtype |
@@ -96,10 +99,10 @@ Attributen van objecttype Aanvraag
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_04035B37_1A5F_CC83_48D3_281C33030BAF |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_04035B37\_1A5F\_CC83\_48D3\_281C33030BAF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -122,6 +125,7 @@ Attributen van objecttype Aanvraagtype
 > Een voor beroep vatbaar overheidsbesluit. Veelal de op schrift gestelde juridische motivering van de beslissing, met vermelding van de bezwaar en beroepsmogelijkheden.
 
 ??? info "Kenmerken Model Beschikking"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Beschikking |
@@ -130,10 +134,10 @@ Attributen van objecttype Aanvraagtype
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_16ABCFF8_4817_6A73_59BA_281C3303F8D2 |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_16ABCFF8\_4817\_6A73\_59BA\_281C3303F8D2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -156,6 +160,7 @@ Attributen van objecttype Beschikking
 > Een na overweging of beraadslaging vastgestelde beslissing voor een individueel of concreet geval.
 
 ??? info "Kenmerken Model Besluit"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Besluit |
@@ -164,10 +169,10 @@ Attributen van objecttype Beschikking
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_0CA08ED2_6990_8292_BBC7_281C33037374 |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_0CA08ED2\_6990\_8292\_BBC7\_281C33037374 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -190,6 +195,7 @@ Attributen van objecttype Besluit
 > Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De belatingsblokkade wordt opgenomen bij de dienst, die wordt genten door de persoon.
 
 ??? info "Kenmerken Model Betalingsblokkade"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Betalingsblokkade |
@@ -198,10 +204,10 @@ Attributen van objecttype Besluit
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_24BA1E4E_CF1D_B8E9_E3C3_281C33039A81 |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_24BA1E4E\_CF1D\_B8E9\_E3C3\_281C33039A81 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -224,6 +230,7 @@ Attributen van objecttype Betalingsblokkade
 > Een door de burger of bedrijf afgenomen dienst als een uit het aanbod van een overheidsorgaan in het kader van de Participatiewet.Let wel! Het gaat hier om dienst als de uiteindelijke levering van een diensttype op een aanvraag.
 
 ??? info "Kenmerken Model Dienst"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Dienst |
@@ -232,10 +239,10 @@ Attributen van objecttype Betalingsblokkade
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_022154F4_817D_0DFB_5FFC_281C33037384 |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_022154F4\_817D\_0DFB\_5FFC\_281C33037384 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -258,6 +265,7 @@ Attributen van objecttype Dienst
 > Het resultaat of effect van een afgeronde inspanning die een overheidsorgaan op basis van wettelijke taken levert en waarmee in een behoefte van een burger (of bedrijf) wordt voorzien. De daadwerkelijke levering van een dienst, meestal in de vorm van een financiële betaling.
 
 ??? info "Kenmerken Model Diensttype"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Diensttype |
@@ -266,10 +274,10 @@ Attributen van objecttype Dienst
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_07F494EF_DD9B_36A7_4EE0_281C33030C21 |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_07F494EF\_DD9B\_36A7\_4EE0\_281C33030C21 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -292,6 +300,7 @@ Attributen van objecttype Diensttype
 > De individueel bepaalde vooraf gestelde eisen, los van de bij wet genoemde geldende toelatingseisen tot de dienstverlening, die gesteld worden om de dienst te kunnen (blijven) afnemen.
 
 ??? info "Kenmerken Model Individuele plicht"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Individuele plicht |
@@ -300,10 +309,10 @@ Attributen van objecttype Diensttype
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_1DF6D7C4_6EAB_C011_5CD9_281C3303C38C |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_1DF6D7C4\_6EAB\_C011\_5CD9\_281C3303C38C |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -326,6 +335,7 @@ Attributen van objecttype Individuele plicht
 > Een samenstellend deel van een Dienst. Bijvoorbeeld een gezinsnorm, een maatregel op de uitkering of bij een fysiek product: een koelkast.Nadat het recht is bepaald, wordt de levering gespecificeerd. Bij een financieel product is dat de hoogte van het bedrag. De hoogte van het bedrag is opgebouwd uit componenten waarvan de relevantie weer wordt bepaald door het recht en de situatie. Hoe het ook zij, de specificatie van de levering wordt in haar componenten vastgelegd als Leveringscomponent.
 
 ??? info "Kenmerken Model Leveringscomponent"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Leveringscomponent |
@@ -334,10 +344,10 @@ Attributen van objecttype Individuele plicht
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_117A52E7_D317_92C3_C4DB_281C33034B40 |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_117A52E7\_D317\_92C3\_C4DB\_281C33034B40 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -360,6 +370,7 @@ Attributen van objecttype Leveringscomponent
 > Een samenstellend deel van het product dat word geleverd, bijvoorbeeld in het geval van een fysieke product:Product = huisraadDeelproduct 1= bankstel,Deelproduct 2 = eettafel, etc.Of in het geval van een financieel product Product = IITIIT-norm alleenstaande
 
 ??? info "Kenmerken Model Leveringscomponenttype"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Leveringscomponenttype |
@@ -368,10 +379,10 @@ Attributen van objecttype Leveringscomponent
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_23F6E69F_CA5F_A12B_BCE4_281C3303F966 |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_23F6E69F\_CA5F\_A12B\_BCE4\_281C3303F966 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -394,6 +405,7 @@ Attributen van objecttype Leveringscomponenttype
 > Een informatieobject dat wordt uitgewisseld tussen twee bedrijfsfuncties, waarvan de één de inhoudelijke afhandeling heeft gedaan en de ander de uitvoering moet verrichten. De leveringsopdracht bevat de nodige gegevens om de levering te kunnen uitvoeren.De daadwerkelijke levering van de dienst, hetzij in natura, hetzij in uitkering, wordt door een andere bedrijfsfunctie uitgevoerd. Hiertoe moet een leveringsopdracht worden opgesteld. Dit bedrijfsobject is meer een koppelvlakbeschrijving over gegevens uit het behandelproces, dan een uit te werken concept in de ontologie.
 
 ??? info "Kenmerken Model Leveringsopdracht"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Leveringsopdracht |
@@ -402,10 +414,10 @@ Attributen van objecttype Leveringscomponenttype
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_1CDDED16_888E_945B_4A20_28EA07CB4D4C |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_1CDDED16\_888E\_945B\_4A20\_28EA07CB4D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -428,6 +440,7 @@ Attributen van objecttype Leveringsopdracht
 > De specificatie van de te leveren dienst.Nadat het recht is bepaald, wordt de levering gespecificeerd. Bij een financieel product is dat de hoogte van het bedrag. De hoogte van het bedrag is opgebouwd uit componenten waarvan de relevantie weer wordt bepaald door het recht en de situatie. Hoe het ook zij, de Leveringsspecificatie wordt in haar Leveringscomponenten vastgelegd.
 
 ??? info "Kenmerken Model Leveringsspecificatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Leveringsspecificatie |
@@ -436,10 +449,10 @@ Attributen van objecttype Leveringsopdracht
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_0EFDD70A_7D69_27D9_7976_2912C31741DC |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_0EFDD70A\_7D69\_27D9\_7976\_2912C31741DC |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -462,6 +475,7 @@ Attributen van objecttype Leveringsspecificatie
 > Een beschikking is een voor beroep vatbaar overheidsbesluit. Veelal de op schrift gestelde juridische motivering van de beslissing, met vermelding van de bezwaar en beroepsmogelijkheden. Omdat de aangevraagde dienst uit meerdere onderdelen bestaat en op elk onderdeel wordt beslist, zijn deze beslissingen en hun juridische motivering opgenomen als onderdelen in de beschikking.
 
 ??? info "Kenmerken Model Onderdeel beschikking"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Onderdeel beschikking |
@@ -470,10 +484,10 @@ Attributen van objecttype Leveringsspecificatie
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_0962936F_7373_4176_296A_281C33036B9B |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_0962936F\_7373\_4176\_296A\_281C33036B9B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -490,24 +504,25 @@ Attributen van objecttype Onderdeel beschikking
 
 
 
-### Periodiek dienst (Bijz. bijstand)
-> **Definitie Periodiek dienst (Bijz. bijstand):** 
+### Periodiek dienst Bijz. bijstand
+> **Definitie Periodiek dienst Bijz. bijstand:** 
 >
 > Dit concept is redundant met leveringscomponenten in een leveringsspecificatie.De bijzondere bijstand hier bedoeld moet worden opgevoerd als een apart diensttypeDe kostensoort moet worden opgevoerd als een leveringscomponenttype bij het diensttype Bijzondere bijstandBij recht op de dienst bevat de leveringsspecificatie de relevante kostensoorten als leveringscomponenten met het vastgestelde bedrag.
 
-??? info "Kenmerken Model Periodiek dienst (Bijz. bijstand)"
+??? info "Kenmerken Model Periodiek dienst Bijz. bijstand"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
-    | name | Periodiek dienst (Bijz. bijstand) |
+    | name | Periodiek dienst Bijz. bijstand |
     | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_1CE59AFB_AA35_C5DB_C243_2871BD384EF7 |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_1CE59AFB\_AA35\_C5DB\_C243\_2871BD384EF7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -517,7 +532,7 @@ Attributen van objecttype Onderdeel beschikking
     | gemma_toelichting |  |
     
 
-Attributen van objecttype Periodiek dienst (Bijz. bijstand)
+Attributen van objecttype Periodiek dienst Bijz. bijstand
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -530,6 +545,7 @@ Attributen van objecttype Periodiek dienst (Bijz. bijstand)
 > Het bepaalde recht op het verkrijgen van een dienst. Het recht is opgebouwd uit conclusies op relevante voorwaarden voor het verkrijgen van een dienst.
 
 ??? info "Kenmerken Model Recht"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Recht |
@@ -538,10 +554,10 @@ Attributen van objecttype Periodiek dienst (Bijz. bijstand)
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_1CC0F6E1_888E_945B_4A20_28C0FB594D4C |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_1CC0F6E1\_888E\_945B\_4A20\_28C0FB594D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -564,6 +580,7 @@ Attributen van objecttype Recht
 > De referteperiode bij een dienst is die periode waarover gegevens bij de aanvraag worden verzameld om op basis daarvan tot een beslissing te komen.
 
 ??? info "Kenmerken Model Referteperiode"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Referteperiode |
@@ -572,10 +589,10 @@ Attributen van objecttype Recht
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_1D0EFA3D_888E_945B_4A20_292F8D894D4C |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_1D0EFA3D\_888E\_945B\_4A20\_292F8D894D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -598,6 +615,7 @@ Attributen van objecttype Referteperiode
 > Bijvoorbeeld Participatiewet, IOAW/IOAZ e.d.
 
 ??? info "Kenmerken Model Regeling"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Regeling |
@@ -606,10 +624,10 @@ Attributen van objecttype Referteperiode
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_1E5BDB79_81B9_2C6D_472E_2A2CBF9C1656 |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_1E5BDB79\_81B9\_2C6D\_472E\_2A2CBF9C1656 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -632,6 +650,7 @@ Attributen van objecttype Regeling
 > Gronden waarop de klant in een situatie verkeert die maakt dat er per definitie geen recht op een dienst c.q. uitkering bestaat. Dit maakt een uitsluitingsgrond een verbijzondering van een voorwaarde.
 
 ??? info "Kenmerken Model Uitsluitingsgrond"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Uitsluitingsgrond |
@@ -640,10 +659,10 @@ Attributen van objecttype Regeling
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_15A983E0_2529_75FE_4ED9_281C3303D234 |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_15A983E0\_2529\_75FE\_4ED9\_281C3303D234 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -666,6 +685,7 @@ Attributen van objecttype Uitsluitingsgrond
 > De aard van afgifte van het product aan de burger (of bedrijf). Dit kan bijvoorbeeld zijn als gift, als lening, onder verband van hypotheek, …
 
 ??? info "Kenmerken Model Verstrekkingsvorm"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verstrekkingsvorm |
@@ -674,10 +694,10 @@ Attributen van objecttype Uitsluitingsgrond
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_1081AC17_59B0_A2F8_A83C_281C3303651D |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_1081AC17\_59B0\_A2F8\_A83C\_281C3303651D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -700,6 +720,7 @@ Attributen van objecttype Verstrekkingsvorm
 > Voorzieningen die de klant heeft, of waar hij voor in aanmerking komt, die de klant in een situatie doen verkeren die maakt dat er geen dienst c.q. uitkering toegekend wordt. Dit maakt dat de controle op een voorliggende voorziening een verbijzondering is van een voorwaarde.
 
 ??? info "Kenmerken Model Voorliggende voorziening"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Voorliggende voorziening |
@@ -708,10 +729,10 @@ Attributen van objecttype Verstrekkingsvorm
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_1361003F_38E9_A2A7_3128_281C33031270 |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_1361003F\_38E9\_A2A7\_3128\_281C33031270 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -734,6 +755,7 @@ Attributen van objecttype Voorliggende voorziening
 > De voorwaarde is de instantie van een **relevant** voorwaardetype bij een dienst, waarvan de conclusie wordt vastgelegd en daarmee een onderdeel vormt van het recht op het verkrijgen van een dienst.
 
 ??? info "Kenmerken Model Voorwaarde"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Voorwaarde |
@@ -742,10 +764,10 @@ Attributen van objecttype Voorliggende voorziening
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_1CC0F3FE_888E_945B_4A20_28C0F7424D4C |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_1CC0F3FE\_888E\_945B\_4A20\_28C0F7424D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -768,6 +790,7 @@ Attributen van objecttype Voorwaarde
 > Een by design ontworpen voorwaarde waarop de aanvraag voor een diensttype kan worden beoordeeld.Het betreft hier alle mogelijke voorwaarden voor elke situatie. Welke voorwaardetypen relevant zijn voor een situatie wordt bepaald uit het profiel van de aanvrager(s).De voorwaardetypen worden ontwikkeld en in compliance gehouden met geldende gezagsdragende documenten als wet-en regelgeving, circulaires en beleid.
 
 ??? info "Kenmerken Model Voorwaardetype"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Voorwaardetype |
@@ -776,10 +799,10 @@ Attributen van objecttype Voorwaarde
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.1.0 |
+    | version | 1.10.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID_20BA95B7_C12B_F23F_093F_281C3303B58A |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_20BA95B7\_C12B\_F23F\_093F\_281C3303B58A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -793,7 +816,6 @@ Attributen van objecttype Voorwaardetype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 

@@ -5,6 +5,7 @@
 > Het informatiedomein dat gegevens omvat over de uitvoering van de Omgevingswet, gericht op het integraal beheren en ontwikkelen van de fysieke leefomgeving.
 
 ??? info "Kenmerken Model Model Omgevingswet"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Omgevingswet |
@@ -16,7 +17,7 @@
     | version | 1.1 |
     | created | 2019-10-23 14:39:57 |
     | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_E2C175A5_F6CC_463e_A6FB_78EAD11E6008 |
+    | id | EAPK\_E2C175A5\_F6CC\_463e\_A6FB\_78EAD11E6008 |
     
 
 Het model 'Model Omgevingswet' kent de volgende objecttypen:
@@ -55,6 +56,7 @@ Het model 'Model Omgevingswet' kent de volgende objecttypen:
 > Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd.
 
 ??? info "Kenmerken Model Activiteit"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Activiteit |
@@ -63,10 +65,10 @@ Het model 'Model Omgevingswet' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-22 09:49:52 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_8BE600D0_EBF4_475b_8801_F387A5D39009 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_8BE600D0\_EBF4\_475b\_8801\_F387A5D39009 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Activiteit |
@@ -80,8 +82,8 @@ Attributen van objecttype Activiteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| groep | AN200 |  |
 | naam | AN200 |  |
+| groep | AN200 |  |
 | NEN3610ID | AN80 |  |
 
 
@@ -92,6 +94,7 @@ Attributen van objecttype Activiteit
 > Een bij of krachtens de wet aangewezen gebied, waar vanwege de aanwezigheid van een werk of object regels gelden, ten aanzien van het beperken van activiteiten die gevolgen hebben of kunnen hebben voor dat werk of object.
 
 ??? info "Kenmerken Model Beperkingsgebied"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Beperkingsgebied |
@@ -100,10 +103,10 @@ Attributen van objecttype Activiteit
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.11.0 |
     | created | 2019-10-22 10:45:15 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_E93E03EF_259F_4bda_A875_A0E60CB18E89 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_E93E03EF\_259F\_4bda\_A875\_A0E60CB18E89 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -117,8 +120,8 @@ Attributen van objecttype Beperkingsgebied
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| groep | AN200 |  |
 | naam | AN200 |  |
+| groep | AN200 |  |
 
 
 
@@ -128,6 +131,7 @@ Attributen van objecttype Beperkingsgebied
 > Een samenhangende verzameling van rollen
 
 ??? info "Kenmerken Model Functie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Functie |
@@ -136,10 +140,10 @@ Attributen van objecttype Beperkingsgebied
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-22 10:45:10 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_3BDD29C7_FBCD_4c90_A520_8187E2D9BD57 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_3BDD29C7\_FBCD\_4c90\_A520\_8187E2D9BD57 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -153,8 +157,8 @@ Attributen van objecttype Functie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| groep | AN200 |  |
 | naam | AN200 |  |
+| groep | AN200 |  |
 
 
 
@@ -164,6 +168,7 @@ Attributen van objecttype Functie
 > Functie of een Beperkingengebied, met een verwijzing naar locatie, veelal een gebied, waarbij aangegeven wordt hoe het gebied beschouwd wordt vanuit de bijbehorende regels.
 
 ??? info "Kenmerken Model Gebiedsaanwijzing"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Gebiedsaanwijzing |
@@ -172,10 +177,10 @@ Attributen van objecttype Functie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-22 09:50:00 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_503BD06E_E063_46f2_8B43_BF75A143D6C4 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_503BD06E\_E063\_46f2\_8B43\_BF75A143D6C4 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Gebiedsaanwijzing |
@@ -189,9 +194,9 @@ Attributen van objecttype Gebiedsaanwijzing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| NEN3610ID | AN80 |  |
 | groep | AN200 |  |
 | naam | AN200 |  |
-| NEN3610ID | AN80 |  |
 
 
 
@@ -201,6 +206,7 @@ Attributen van objecttype Gebiedsaanwijzing
 > Vastlegging van de manier de begrenzing van Locatie voor deze Juridische regel geïnterpreteerd moet worden en door het bevoegd gezag bedoeld is.
 
 ??? info "Kenmerken Model Idealisatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Idealisatie |
@@ -209,10 +215,10 @@ Attributen van objecttype Gebiedsaanwijzing
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-23 12:19:30 |
-    | modified | 2025-05-20 15:05:48 |
-    | id | EAID_4942AB0A_804B_4043_BD3C_7F65E2D697E0 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_4942AB0A\_804B\_4043\_BD3C\_7F65E2D697E0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Idealisatie |
@@ -246,6 +252,7 @@ Attributen van objecttype Idealisatie
 > Een instructieregel is alleen gericht op een Omgevingsnorm of een Gebiedsaanduiding, zoals een Functie of een Beperkingengebied (en eventueel meerdere).
 
 ??? info "Kenmerken Model Instructieregel"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Instructieregel |
@@ -254,22 +261,16 @@ Attributen van objecttype Idealisatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-22 10:52:10 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_A6C71E4C_CB46_41ae_8A61_C8080BB92A55 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_A6C71E4C\_CB46\_41ae\_8A61\_C8080BB92A55 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Instructieregel |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-367532e8-1d1c-4d6b-8a88-fcae7cae2303](https://gemmaonline.nl/index.php/GEMMA/id-367532e8-1d1c-4d6b-8a88-fcae7cae2303) |
-    | gemma_definitie | 
-> Objecttype Instructieregel
-> Naam Definitie
-> Toelichting
-> Instructieregel
-> De beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan.
-> Het betreft hier juridische regel die instructie geeft aan andere ov |
+    | gemma_definitie | Objecttype Instructieregel<br>Naam Definitie<br>Toelichting<br>Instructieregel<br>De beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan.<br>Het betreft hier juridische regel die instructie geeft aan andere ov |
     | gemma_toelichting | Het betreft hier juridische regel die instructie geeft aan andere overheden, gericht op externe omgevingsdocumenten, of een taakuitoefening. Een ander omgevingsdocument is bijvoorbeeld een Omgevingsplan, Omgevingsverordening en Waterschapsverordening. Een |
     
 
@@ -277,14 +278,7 @@ Attributen van objecttype Instructieregel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| instructieregelInstrument | AN200 | 
-> **Attribuutsoort instructieregel instrument**
-> Naam Definitie Formaat Toelichting
-> Instructieregel instrument
-> De naam van het instrument waartoe de instructieregel zich richt.
-> InstructieregelInstrument (waardelijst)
-> Bijvoorbeeld: Omgevingsverordening, projectbesluit.
-> Dit kenmerk geeft nadere informatie in aanvulling op het type instructieregel, in het geval dat de regel gericht is op een bepaald instrument. |
+| instructieregelInstrument | AN200 | **Attribuutsoort instructieregel instrument**<br>Naam Definitie Formaat Toelichting<br>Instructieregel instrument<br>De naam van het instrument waartoe de instructieregel zich richt.<br>InstructieregelInstrument (waardelijst)<br>Bijvoorbeeld: Omgevingsverordening, projectbesluit.<br>Dit kenmerk geeft nadere informatie in aanvulling op het type instructieregel, in het geval dat de regel gericht is op een bepaald instrument. |
 | instructieregelTaakuitoefening | AN200 |  |
 
 
@@ -295,38 +289,39 @@ Attributen van objecttype Instructieregel
 > De beschrijving van een regel met juridische werkingskracht. Een regel betreft binnen de Omgevingswet veelal activiteiten, en/of normen en/of functies en/of beperkingengebieden.
 
 ??? info "Kenmerken Model Juridische Regel"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Juridische Regel |
-    | toelichting | [https://geonovum.github.io/TPOD/CIMOW/CIMOW_v2.1.0.pdf](https://geonovum.github.io/TPOD/CIMOW/CIMOW_v2.1.0.pdf) |
+    | toelichting | [https://geonovum.github.io/TPOD/CIMOW/CIMOW\_v2.1.0.pdf](https://geonovum.github.io/TPOD/CIMOW/CIMOW\_v2.1.0.pdf) |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-22 10:47:00 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_DDFF98D8_99FF_47b5_82D1_7FF2376750D6 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_DDFF98D8\_99FF\_47b5\_82D1\_7FF2376750D6 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | JuridischeRegel |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-6f20ada6-28e9-4358-9b66-1575021ee431](https://gemmaonline.nl/index.php/GEMMA/id-6f20ada6-28e9-4358-9b66-1575021ee431) |
     | gemma_definitie | De beschrijving van een regel met juridische werkingskracht. Een regel betreft binnen de Omgevingswet veelal activiteiten, en/of normen en/of functies en/of beperkingengebieden. |
-    | gemma_toelichting | [https://geonovum.github.io/TPOD/CIMOW/CIMOW_v2.1.0.pdf](https://geonovum.github.io/TPOD/CIMOW/CIMOW_v2.1.0.pdf) |
+    | gemma_toelichting | [https://geonovum.github.io/TPOD/CIMOW/CIMOW\_v2.1.0.pdf](https://geonovum.github.io/TPOD/CIMOW/CIMOW\_v2.1.0.pdf) |
     
 
 Attributen van objecttype Juridische Regel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumBekend | Date |  |
+| omschrijving | text |  |
+| thema | AN200 |  |
+| regeltekst | AN200 | Verwijzing naar lid of artikel van regeltekst |
+| datumStart | Date |  |
 | datumEindeGeldigheid | Date |  |
 | datumInWerking | Date |  |
-| datumStart | Date |  |
-| omschrijving | text |  |
-| regeltekst | AN200 | Verwijzing naar lid of artikel van regeltekst |
-| thema | AN200 |  |
+| datumBekend | Date |  |
 
 
 
@@ -336,6 +331,7 @@ Attributen van objecttype Juridische Regel
 > Omgevingswaarde of een omgevingsnorm, met een normatief karakter, die beschreven worden middels normwaarden. Een normwaarde kan kwalitatief of kwantitatief zijn.
 
 ??? info "Kenmerken Model Norm"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Norm |
@@ -344,10 +340,10 @@ Attributen van objecttype Juridische Regel
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-22 11:00:51 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_081F7413_A4D0_49e7_98E2_E0F3F4299750 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_081F7413\_A4D0\_49e7\_98E2\_E0F3F4299750 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Norm |
@@ -371,6 +367,7 @@ Attributen van objecttype Norm
 > Een van de kwantitatieve of kwalitatieve waarden van een norm. De normwaarde geeft aan wat de specifieke kwantitatieve of kwalitatieve eisen zijn, inclusief de toewijzing ervan aan de specifieke locatie(s) waar de normwaarde voor geldt.
 
 ??? info "Kenmerken Model Normwaarde"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Normwaarde |
@@ -379,10 +376,10 @@ Attributen van objecttype Norm
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-22 11:31:55 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_58656D46_644B_4779_A473_739C5636BA0A |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_58656D46\_644B\_4779\_A473\_739C5636BA0A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Normwaarde |
@@ -397,8 +394,8 @@ Attributen van objecttype Normwaarde
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | kwalitatieveWaarde | AN80 |  |
-| kwantitatieveWaardeEenheid | AN80 |  |
 | kwantitatieveWaardeOmvang | decimal |  |
+| kwantitatieveWaardeEenheid | AN80 |  |
 
 
 
@@ -408,6 +405,7 @@ Attributen van objecttype Normwaarde
 > Een norm over de fysieke leefomgeving die in een kwantitatieve of kwalitatieve waarde wordt uitgedrukt en geen omgevingswaarde is.
 
 ??? info "Kenmerken Model Omgevingsnorm"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Omgevingsnorm |
@@ -416,10 +414,10 @@ Attributen van objecttype Normwaarde
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-22 11:02:26 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_F90F8E5E_7402_4c44_AC69_91A4175E5D47 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_F90F8E5E\_7402\_4c44\_AC69\_91A4175E5D47 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Omgevingsnorm |
@@ -444,6 +442,7 @@ Attributen van objecttype Omgevingsnorm
 > Een norm die voor (een onderdeel van) de fysieke leefomgeving de gewenste staat of kwaliteit, de toelaatbare belasting door activiteiten en/of de toelaatbare concentratie of depositie van stoffen als beleidsdoel vastlegt.
 
 ??? info "Kenmerken Model Omgevingswaarde"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Omgevingswaarde |
@@ -452,10 +451,10 @@ Attributen van objecttype Omgevingsnorm
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-22 11:02:39 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_6B1F7274_19A7_4349_835E_85CBEFFEE35A |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_6B1F7274\_19A7\_4349\_835E\_85CBEFFEE35A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Omgevingswaarde |
@@ -480,6 +479,7 @@ Attributen van objecttype Omgevingswaarde
 > De beschrijving van een juridische regel gericht op een gestelde omgevingswaarde. Het betreft hier een juridische regel die verplichtingen oplegt aan het bevoegd gezag dat deze regel opstelt. Een omgevingswaarderegel is alleen gericht op een Omgevingswaarde (eventueel meerdere).
 
 ??? info "Kenmerken Model Omgevingswaarderegel"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Omgevingswaarderegel |
@@ -488,10 +488,10 @@ Attributen van objecttype Omgevingswaarde
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-22 10:52:33 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_2FC6C6EB_DF35_49e6_9694_1B8BD53537B0 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_2FC6C6EB\_DF35\_49e6\_9694\_1B8BD53537B0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Omgevingswaarderegel |
@@ -505,8 +505,8 @@ Attributen van objecttype Omgevingswaarderegel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| groep | AN200 |  |
 | naam | AN200 |  |
+| groep | AN200 |  |
 
 
 
@@ -516,6 +516,7 @@ Attributen van objecttype Omgevingswaarderegel
 > Een Juridische regel die voor eenieder werking heeft
 
 ??? info "Kenmerken Model Regel voor Iedereen"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Regel voor Iedereen |
@@ -524,10 +525,10 @@ Attributen van objecttype Omgevingswaarderegel
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-22 10:52:02 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_3D9D2E7B_525E_43d9_B08F_EDE47F8A0C94 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_3D9D2E7B\_525E\_43d9\_B08F\_EDE47F8A0C94 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Regel voor Iedereen |
@@ -541,16 +542,7 @@ Attributen van objecttype Regel voor Iedereen
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| activiteitRegelKwalificatie | AN200 | 
-> **Attribuutsoort activiteitregelkwalificatie**
-> Naam Definitie Formaat Toelichting
-> Constraint(s)
-> activiteitregelkwalificatie
-> De naam van de kwalificatie van de Juridische regel over een activiteit.
-> Activiteitregelkwalificatie (waardelijst) Bijvoorbeeld: gebod, verbod.
-> Alleen te gebruiken wanneer bij Juridische regel is gekozen voor het type 'Regel voor iedereen' en de regel een Activiteit beschrijft.
-> Als activiteit, alleen dan activiteitregelkwalificatie.
-> Dit kenmerk heeft alleen betekenis wanneer de regel een activiteit beschrijft. Anders gezegd, dit kenmerk hoort alleen gevuld te worden wanneer de regel, ten minste, een activiteit beschrijft. |
+| activiteitRegelKwalificatie | AN200 | **Attribuutsoort activiteitregelkwalificatie**<br>Naam Definitie Formaat Toelichting<br>Constraint(s)<br>activiteitregelkwalificatie<br>De naam van de kwalificatie van de Juridische regel over een activiteit.<br>Activiteitregelkwalificatie (waardelijst) Bijvoorbeeld: gebod, verbod.<br>Alleen te gebruiken wanneer bij Juridische regel is gekozen voor het type 'Regel voor iedereen' en de regel een Activiteit beschrijft.<br>Als activiteit, alleen dan activiteitregelkwalificatie.<br>Dit kenmerk heeft alleen betekenis wanneer de regel een activiteit beschrijft. Anders gezegd, dit kenmerk hoort alleen gevuld te worden wanneer de regel, ten minste, een activiteit beschrijft. |
 
 
 
@@ -560,6 +552,7 @@ Attributen van objecttype Regel voor Iedereen
 > Kernachtige weergave van de grondgedachte achter een regel.
 
 ??? info "Kenmerken Model Thema"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Thema |
@@ -568,10 +561,10 @@ Attributen van objecttype Regel voor Iedereen
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-23 12:19:35 |
-    | modified | 2025-03-26 16:14:46 |
-    | id | EAID_55FC829A_906B_4cb7_87D7_5BBAE59E07A8 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_55FC829A\_906B\_4cb7\_87D7\_5BBAE59E07A8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -587,7 +580,6 @@ Attributen van objecttype Thema
 | :--- | :--- | :--- |
 | naam | AN200 |  |
 | omschrijving | text |  |
-
 
 
 
