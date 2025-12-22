@@ -96,9 +96,9 @@ Attributen van objecttype Regeltekst
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| tekst | text |  |
 | identificatie | AN200 |  |
 | omschrijving | text |  |
-| tekst | text |  |
 
 
 

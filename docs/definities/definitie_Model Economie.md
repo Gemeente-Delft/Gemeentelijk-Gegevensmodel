@@ -139,8 +139,8 @@ Attributen van objecttype Hotelbezoek
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumEinde | Date |  |
 | datumStart | Date |  |
+| datumEinde | Date |  |
 
 
 
@@ -214,8 +214,8 @@ Attributen van objecttype Werkgelegenheid
 | :--- | :--- | :--- |
 | aantalFulltimeMannen | int |  |
 | aantalFulltimeVrouwen | int |  |
-| aantalParttimeMannen | int |  |
 | aantalParttimeVrouwen | int |  |
+| aantalParttimeMannen | int |  |
 | grootteklasse | AN2 | Grootteklasse volgens handboek LISA, zie lisa.nl |
 
 
@@ -252,11 +252,11 @@ Attributen van objecttype Winkelvloeroppervlak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalKassa | int |  |
-| bronWVO | An40 |  |
-| leegstand | Boolean |  |
 | winkelvloeroppervlakte | int |  |
 | WVOKlasse | AN40 |  |
+| bronWVO | An40 |  |
+| leegstand | Boolean |  |
+| aantalKassa | int |  |
 
 
 

@@ -1155,7 +1155,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_f0bb8c0d\_81cc\_4bbb\_8cdb\_988a27bbf304 |
+    | id | EAID\_cae8f9e0\_989d\_4f61\_915b\_e2e01963471f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1190,7 +1190,7 @@ De enumeratie Heffingsoort heeft de volgende kenmerken:
     | version | 1.9.0 |
     | created | 2019-05-08 13:48:43 |
     | modified | 2025-12-18 15:38:52 |
-    | id | EAID\_92977315\_955b\_4ca6\_a535\_6fa8e41e1dab |
+    | id | EAID\_8c332a5d\_c398\_42c2\_83cd\_fa469ef2835e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1228,7 +1228,7 @@ De enumeratie Soorten Klantcontact heeft de volgende kenmerken:
     | version | 1.11.0 |
     | created | 2025-03-26 11:13:26 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_b0911f69\_adfd\_4244\_bc9d\_484c775884fb |
+    | id | EAID\_3bbd28db\_7827\_47e3\_99ed\_81829aee84ef |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

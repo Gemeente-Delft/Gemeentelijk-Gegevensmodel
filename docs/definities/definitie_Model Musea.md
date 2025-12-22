@@ -89,9 +89,9 @@ Attributen van objecttype Activiteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalPersonen | int |  |
 | naam | AN80 |  |
 | omschrijving | Text |  |
+| aantalPersonen | int |  |
 
 
 
@@ -164,9 +164,9 @@ Attributen van objecttype Balieverkoop
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantal | int |  |
-| kanaal | AN80 | Verkocht via kassa, online of ander kanaal |
 | verkooptijd | DateTime |  |
+| kanaal | AN80 | Verkocht via kassa, online of ander kanaal |
+| aantal | int |  |
 
 
 
@@ -202,10 +202,10 @@ Attributen van objecttype Balieverkoop Entreekaart
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumEindeGeldigheid | DateTime |  |
-| datumStart | DateTime |  |
-| gebruiktOp | DateTime |  |
 | rondleiding | Boolean |  |
+| datumStart | DateTime |  |
+| datumEindeGeldigheid | DateTime |  |
+| gebruiktOp | DateTime |  |
 
 
 
@@ -278,10 +278,10 @@ Attributen van objecttype Bruikleen
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanvraagDoor | AN80 |  |
 | datumAanvraag | Date |  |
-| datumEinde | Date |  |
 | datumStart | Date |  |
+| datumEinde | Date |  |
+| aanvraagDoor | AN80 |  |
 | toestemmingDoor | AN80 |  |
 
 
@@ -355,9 +355,9 @@ Attributen van objecttype Doelgroep
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| branch | AN80 |  |
 | naam | AN80 |  |
 | omschrijving | Text |  |
+| branch | AN80 |  |
 | segment | AN80 |  |
 
 
@@ -430,10 +430,10 @@ Attributen van objecttype Incident
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datum | Date |  |
-| locatie | AN300 |  |
 | naam | AN80 |  |
 | omschrijving | Text |  |
+| datum | Date |  |
+| locatie | AN300 |  |
 
 
 
@@ -505,9 +505,9 @@ Attributen van objecttype Mailing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datum | Date |  |
 | naam | AN80 |  |
 | omschrijving | Text |  |
+| datum | Date |  |
 
 
 
@@ -543,11 +543,11 @@ Attributen van objecttype Museumobject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| afmeting | AN300 | Omschrijving van afmeting |
-| bezitTot | Date |  |
-| bezitVanaf | Date |  |
-| medium | AN300 | Materiaal waarvan object is vervaardigd |
 | verkrijging | AN300 | Hoe en via wie object is verkregen. Informatie uit de Constituents-tabel. |
+| medium | AN300 | Materiaal waarvan object is vervaardigd |
+| afmeting | AN300 | Omschrijving van afmeting |
+| bezitVanaf | Date |  |
+| bezitTot | Date |  |
 
 
 
@@ -657,8 +657,8 @@ Attributen van objecttype Prijs
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | bedrag | Bedrag |  |
-| datumEindeGeldigheid | Datum |  |
 | datumStart | Datum |  |
+| datumEindeGeldigheid | Datum |  |
 
 
 
@@ -694,12 +694,12 @@ Attributen van objecttype Product
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| codeMuseumjaarkaart | AN40 |  |
-| datumEindeGeldigheid | Datum |  |
-| datumStart | Datum |  |
-| entreekaart | int |  |
 | omschrijving | AN80 |  |
 | prijs | Bedrag |  |
+| datumStart | Datum |  |
+| datumEindeGeldigheid | Datum |  |
+| codeMuseumjaarkaart | AN40 |  |
+| entreekaart | int |  |
 
 
 
@@ -807,15 +807,15 @@ Attributen van objecttype Programma
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| BTW | AN8 |  |
-| eindtijd | DateTime |  |
-| locatie | AN80 |  |
 | naam | AN80 |  |
 | omschrijving | Text |  |
+| starttijd | DateTime |  |
+| eindtijd | DateTime |  |
 | prijsExclusiefBTW | bedrag |  |
+| BTW | AN8 |  |
+| locatie | AN80 |  |
 | publiekstaak | AN80 |  |
 | schoolniveau | AN80 |  |
-| starttijd | DateTime |  |
 
 
 
@@ -889,10 +889,10 @@ Attributen van objecttype Reservering
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | aantal | int |  |
-| BTW | AN8 |  |
-| tijdTot | Datetime |  |
 | tijdVanaf | Datetime |  |
+| tijdTot | Datetime |  |
 | totaalprijs | bedrag | Bedrah exclusief BTW |
+| BTW | AN8 |  |
 
 
 
@@ -928,10 +928,10 @@ Attributen van objecttype Rondleiding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| eindtijd | Datetime |  |
 | naam | AN80 |  |
 | omschrijving | Text |  |
 | starttijd | Datetime |  |
+| eindtijd | Datetime |  |
 
 
 
@@ -1003,8 +1003,8 @@ Attributen van objecttype Standplaats
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| adres | An50 |  |
 | beschrijving | AN300 |  |
+| adres | An50 |  |
 | naamInstelling | AN80 |  |
 
 
@@ -1041,11 +1041,11 @@ Attributen van objecttype Tentoonstelling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumEinde | Date |  |
-| datumStart | Date |  |
-| omschrijving | Text |  |
-| subtitel | AN200 |  |
 | titel | AN80 |  |
+| omschrijving | Text |  |
+| datumStart | Date |  |
+| datumEinde | Date |  |
+| subtitel | AN200 |  |
 
 
 
@@ -1081,9 +1081,9 @@ Attributen van objecttype Voorziening
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalBeschikbaar | int |  |
 | naam | AN80 |  |
 | omschrijving | Text |  |
+| aantalBeschikbaar | int |  |
 
 
 
@@ -1155,9 +1155,9 @@ Attributen van objecttype Winkelvoorraaditem
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | aantal | int |  |
+| locatie | AN80 |  |
 | aantalInBestelling | int |  |
 | datumLeveringBestelling | Date |  |
-| locatie | AN80 |  |
 
 
 
@@ -1193,10 +1193,10 @@ Attributen van objecttype Zaal
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| capaciteit | int |  |
 | naam | AN80 |  |
-| nummer | int |  |
 | omschrijving | Text |  |
+| capaciteit | int |  |
+| nummer | int |  |
 
 
 

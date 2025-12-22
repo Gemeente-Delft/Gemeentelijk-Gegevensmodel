@@ -91,8 +91,8 @@ Attributen van objecttype Beoordeling
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datum | Date |  |
-| omschrijving | text |  |
 | oordeel | AN80 |  |
+| omschrijving | text |  |
 
 
 
@@ -128,11 +128,11 @@ Attributen van objecttype Declaratie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bedrag | Bedrag |  |
-| betreft | AN80 |  |
-| datumDeclaratie | Date |  |
 | datumIndiening | Date |  |
+| datumDeclaratie | Date |  |
+| betreft | AN80 |  |
 | omschrijving | text |  |
+| bedrag | Bedrag |  |
 
 
 
@@ -205,10 +205,10 @@ Attributen van objecttype Dienstverband
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumEinde | Date |  |
 | datumStart | Date |  |
-| periodiek | int |  |
+| datumEinde | Date |  |
 | salaris | Bedrag |  |
+| periodiek | int |  |
 | schaal | int |  |
 | urenPerWeek | int |  |
 
@@ -321,11 +321,11 @@ Attributen van objecttype Functie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Code | AN50 |  |
 | Naam | AN80 |  |
 | Omschrijving | text |  |
-| Schaal | AN20 |  |
 | Taken | text |  |
+| Schaal | AN20 |  |
+| Code | AN50 |  |
 
 
 
@@ -398,8 +398,8 @@ Attributen van objecttype GenotenOpleiding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumEinde | Date |  |
 | datumStart | Date |  |
+| datumEinde | Date |  |
 | datumToewijzing | Date |  |
 | prijs | Bedrag |  |
 | verrekenen | Boolean |  |
@@ -439,8 +439,8 @@ Attributen van objecttype Geweldsincident
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datum | Date |  |
-| omschrijving | text |  |
 | type | AN80 |  |
+| omschrijving | text |  |
 
 
 
@@ -476,10 +476,10 @@ Attributen van objecttype Individueel Keuzebudget
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bedrag | Bedrag |  |
-| datumEinde | Date |  |
 | datumStart | Date |  |
+| datumEinde | Date |  |
 | datumToekenning | Date |  |
+| bedrag | Bedrag |  |
 
 
 
@@ -554,8 +554,8 @@ Attributen van objecttype KeuzebudgetBesteding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bedrag | Bedrag |  |
 | datum | Date |  |
+| bedrag | Bedrag |  |
 
 
 
@@ -701,10 +701,10 @@ Attributen van objecttype Opleiding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| instituut | AN80 |  |
 | naam | AN80 |  |
 | omschrijving | text |  |
 | prijs | bedrag |  |
+| instituut | AN80 |  |
 
 
 
@@ -921,10 +921,10 @@ Attributen van objecttype Sollicitatiegesprek
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aangenomen | boolean |  |
 | datum | Date |  |
 | opmerkingen | text |  |
 | volgendGesprek | boolean |  |
+| aangenomen | boolean |  |
 
 
 
@@ -1033,11 +1033,11 @@ Attributen van objecttype Vacature
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumGesloten | Date |  |
 | datumOpengesteld | date |  |
-| deeltijd | boolean |  |
-| extern | boolean |  |
+| datumGesloten | Date |  |
 | intern | boolean |  |
+| extern | boolean |  |
+| deeltijd | boolean |  |
 | vastedienst | boolean |  |
 
 
@@ -1074,11 +1074,11 @@ Attributen van objecttype Verlof
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumAanvraag | Date |  |
-| datumtijdEinde | datetime |  |
 | datumtijdStart | datetime |  |
-| datumToekenning | Date |  |
+| datumtijdEinde | datetime |  |
 | goedgekeurd | boolean |  |
+| datumAanvraag | Date |  |
+| datumToekenning | Date |  |
 
 
 
@@ -1151,8 +1151,8 @@ Attributen van objecttype Verzuim
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumtijdEinde | datetime |  |
 | datumtijdStart | datetime |  |
+| datumtijdEinde | datetime |  |
 
 
 
@@ -1225,9 +1225,9 @@ Attributen van objecttype Werknemer
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| geboortedatum | Date |  |
 | naam | AN80 |  |
 | voornaam | AN40 |  |
+| geboortedatum | Date |  |
 | woonplaats | AN50 |  |
 
 
