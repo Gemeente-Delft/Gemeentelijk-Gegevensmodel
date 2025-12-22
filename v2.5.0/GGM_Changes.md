@@ -1,5 +1,8 @@
 # Changes from v2.4.0 to v2.5.0
 
+Dit bestand geeft alle wijzigingen. In een aantal gevallen hebben enumeraties dezelfde naam gehouden, maar is de interne sleutel gewijzigs, waardoor deze als verwijderd en opnieuw toegevoegd wordt gezien. Dit heeft geen effect op zaken als de generatie van de DDL's.
+
+
 ## Summary
 
 - **Classes**: +2 / -6 / ~1
@@ -10,771 +13,10 @@
 
 ## Overview
 
-**Packages touched:** `Complex datatype`, `Datatypes`, `Datatypes`, `Datatypes`, `Enumeratiesoort`, `Groepattribuutsoort`, `Groepattribuutsoort`, `Metagegevens`, `Model`, `Model Afval`, `Model Archeologie`, `Model BAG`, `Model Beheer Openbare Ruimte`, `Model Diensten`, `Model Dienstverlening`, `Model Generiek`, `Model HR`, `Model ICT`, `Model IMBOR`, `Model Inburgering`, `Model Inkomen`, `Model Inkomsten`, `Model Inkoop`, `Model Jeugd en Wmo Generiek`, `Model Jeugdbescherming`, `Model Kern RGBZ`, `Model Kern RSGB`, `Model Kern RSGB`, `Model Leerplicht en Leerlingenvervoer`, `Model Onderwijs`, `Model Parkeren`, `Model Schuldhulpverlening`, `Model Sociaal Domein Generiek`, `Model Sport`, `Model Terug- en invordering`, `Model VTH`, `Model Vastgoed`, `Model Vermogen`, `Model Vroegsignalering`, `Model Werk`, `Model Wonen`, `Referentielijsten`
+**Packages touched:** `Model Afval`, `Model Archeologie`, `Model BAG`, `Model Beheer Openbare Ruimte`, `Model Diensten`, `Model Dienstverlening`, `Model Generiek`, `Model HR`, `Model ICT`, `Model IMBOR`, `Model Inburgering`, `Model Inkomen`, `Model Inkomsten`, `Model Inkoop`, `Model Jeugd en Wmo Generiek`, `Model Jeugdbescherming`, `Model Kern RGBZ`, `Model Kern RSGB`, `Model Kern RSGB`, `Model Leerplicht en Leerlingenvervoer`, `Model Onderwijs`, `Model Parkeren`, `Model Schuldhulpverlening`, `Model Sociaal Domein Generiek`, `Model Sport`, `Model Terug- en invordering`, `Model VTH`, `Model Vastgoed`, `Model Vermogen`, `Model Vroegsignalering`, `Model Werk`, `Model Wonen`, `Referentielijsten`, `Complex datatype`, `Datatypes`, `Datatypes`, `Datatypes`, `Enumeratiesoort`, `Groepattribuutsoort`, `Groepattribuutsoort`
 
 
 ## Top-down changes
-
-## Package: Complex datatype
-
-_No class changes in this package._
-
-_No datatype changes in this package._
-
-### Enumerations
-
-#### typeObjectcode — **Added**
-
-##### Literals
-
-- `ligplaats` — **Added**
-- `nummeraanduiding` — **Added**
-- `openbare ruimte` — **Added**
-- `overig adreseerbaar object aanduiding` — **Added**
-- `overig benoemd terrein` — **Added**
-- `overig gebouwd object` — **Added**
-- `pand` — **Added**
-- `standplaats` — **Added**
-- `verblijfsobject` — **Added**
-
-#### typeObjectcode — **Removed**
-
-##### Literals
-
-- `ligplaats` — **Removed**
-- `nummeraanduiding` — **Removed**
-- `openbare ruimte` — **Removed**
-- `overig adreseerbaar object aanduiding` — **Removed**
-- `overig benoemd terrein` — **Removed**
-- `overig gebouwd object` — **Removed**
-- `pand` — **Removed**
-- `standplaats` — **Removed**
-- `verblijfsobject` — **Removed**
-
-## Package: Datatypes
-
-_No class changes in this package._
-
-_No datatype changes in this package._
-
-### Enumerations
-
-#### BrutoNettoInkomsten — **Added**
-
-#### CdSrtInkomstenverhouding — **Added**
-
-#### CdSzWet — **Added**
-
-#### CdUitkeringsperiode — **Added**
-
-#### CodeSoortVrijlating — **Added**
-
-#### Inkomstencomponenttype — **Added**
-
-#### InkomstensoortAlimentatie — **Added**
-
-#### InkomstensoortBetaaldWerk — **Added**
-
-#### InkomstensoortPensioen — **Added**
-
-#### InkomstensoortStudiefinanciering — **Added**
-
-#### JsonRuledGroupType — **Added**
-
-#### Onderhoudsplichttype — **Added**
-
-#### SoortContract — **Added**
-
-## Package: Datatypes
-
-_No class changes in this package._
-
-_No datatype changes in this package._
-
-### Enumerations
-
-#### AdresType — **Added**
-
-#### CdSrtVermogenscomponent — **Added**
-
-#### CdSrtVoertuig — **Added**
-
-#### CdSrtWaardeVermogenscomponent — **Added**
-
-## Package: Datatypes
-
-_No class changes in this package._
-
-_No datatype changes in this package._
-
-### Enumerations
-
-#### CdRedenAanvraagANWaangevraagd — **Added**
-
-#### CdRedenAanvraagANWafgewezenReden — **Added**
-
-#### CdRedenAanvraagContractperiode — **Added**
-
-#### CdRedenAanvraagEindeBijstand — **Added**
-
-#### CdRedenAanvraagEindeEigenBedrijf — **Added**
-
-#### CdRedenAanvraagEindeUitkering — **Added**
-
-#### CdRedenAanvraagEindeUitkeringReden — **Added**
-
-#### CdRedenAanvraagEindeWerk — **Added**
-
-#### CdRedenAanvraagOnvoldoendeInkomen — **Added**
-
-#### CdRedenAanvraagVerblijfstatus — **Added**
-
-#### CdRedenAanvraagWWgevraagd — **Added**
-
-#### CdRedenAanvraagWijzigingGezin — **Added**
-
-#### CdRedenAanvraagWwafgewezen — **Added**
-
-#### CdRedenAanvraagZelfstandige — **Added**
-
-#### CodeRedenAfwijkendeStartdatum — **Added**
-
-#### RedenKwijtscheldingVordering — **Added**
-
-## Package: Enumeratiesoort
-
-_No class changes in this package._
-
-_No datatype changes in this package._
-
-### Enumerations
-
-#### functieOndersteunendWegdeelPlus — **Removed**
-
-#### typeringOndersteunendWaterPlus — **Removed**
-
-## Package: Groepattribuutsoort
-
-### Classes
-
-#### GeboorteIngeschrevenNatuurlijkPersoon — **Unchanged**
-
-##### Attributes
-
-- datumGeboorte — **Changed**
-  - **primitive**: `` → `Datum`
-
-#### GeboorteIngeschrevenPersoon — **Unchanged**
-
-##### Attributes
-
-- datumGeboorte — **Changed**
-  - **primitive**: `` → `Datum`
-- geboorteplaats — **Changed**
-  - **primitive**: `` → `AN200`
-
-#### KoopsomKadastraleOnroerendeZaak — **Unchanged**
-
-##### Attributes
-
-- datumTransactie — **Changed**
-  - **primitive**: `` → `Datum`
-
-#### MigratieIngeschrevenNatuurlijkPersoon — **Unchanged**
-
-##### Attributes
-
-- aangeverMigratie — **Changed**
-  - **enumeration_id**: `Enumeratie: aangever` → `Enumeratie: aangever`
-- redenWijzigingMigratie — **Changed**
-  - **enumeration_id**: `Enumeratie: redenWijzigingAdres` → `Enumeratie: redenWijzigingAdres`
-- soortMigratie — **Changed**
-  - **enumeration_id**: `Enumeratie: soortMigratie` → `Enumeratie: soortMigratie`
-
-#### NaamNatuurlijkPersoon — **Unchanged**
-
-##### Attributes
-
-- geslachtsnaam — **Changed**
-  - **primitive**: `` → `AN255`
-- voornamen — **Changed**
-  - **primitive**: `` → `AN200`
-- voorvoegselGeslachtsnaam — **Changed**
-  - **primitive**: `` → `AN255`
-
-#### NaamgebruikNatuurlijkPersoon — **Unchanged**
-
-##### Attributes
-
-- adellijkeTitelNaamgebruik — **Changed**
-  - **enumeration_id**: `Enumeratie: adelijkeTitel` → `Enumeratie: adelijkeTitel`
-
-#### NederlandseNationaliteitIngeschrevenPersoon — **Unchanged**
-
-##### Attributes
-
-- aanduidingBijzonderNederlanderschap — **Changed**
-  - **primitive**: `` → `boolean`
-- redenVerkrijgingNederlandseNationaliteit — **Changed**
-  - **primitive**: `` → `AN200`
-- redenVerliesNederlandseNationaliteit — **Changed**
-  - **primitive**: `` → `AN200`
-
-#### OntbindingHuwelijk/geregistreerdPartnerschap — **Unchanged**
-
-##### Attributes
-
-- datumEinde — **Changed**
-  - **primitive**: `` → `Datum`
-- redenEinde — **Changed**
-  - **enumeration_id**: `Enumeratie: redenEindeRelatie` → `Enumeratie: redenEindeRelatie`
-
-#### OverlijdenIngeschrevenNatuurlijkPersoon — **Unchanged**
-
-##### Attributes
-
-- datumOverlijden — **Changed**
-  - **primitive**: `` → `Datum`
-
-#### OverlijdenIngeschrevenPersoon — **Unchanged**
-
-##### Attributes
-
-- datumOverlijden — **Changed**
-  - **primitive**: `` → `Datum`
-- overlijdensplaats — **Changed**
-  - **primitive**: `` → `AN200`
-
-#### Postadres — **Unchanged**
-
-##### Attributes
-
-- postadresType — **Changed**
-  - **primitive**: `postadresType` → `AN255`
-- postcodePostadres — **Changed**
-  - **primitive**: `POSTCODE` → `AN6`
-
-#### SamengesteldeNaamNatuurlijkPersoon — **Unchanged**
-
-##### Attributes
-
-- adellijkeTitel — **Changed**
-  - **enumeration_id**: `Enumeratie: adelijkeTitel` → `Enumeratie: adelijkeTitel`
-- namenreeks — **Changed**
-  - **primitive**: `INDIC` → `boolean`
-- predicaat — **Changed**
-  - **enumeration_id**: `Enumeratie: predicaat` → `Enumeratie: predicaat`
-- scheidingsteken — **Changed**
-  - **primitive**: `VOORVOEGSEL` → `AN255`
-- voorvoegsel — **Changed**
-  - **primitive**: `VOORVOEGSEL` → `AN255`
-
-#### SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap — **Unchanged**
-
-##### Attributes
-
-- datumAanvang — **Changed**
-  - **primitive**: `` → `Datum`
-
-#### SoortFunctioneelGebied — **Unchanged**
-
-##### Attributes
-
-- indicatiePlusBRPopulatie — **Changed**
-  - **primitive**: `INDIC` → ``
-- typeFunctioneelGebied — **Changed**
-  - **enumeration_id**: `Enumeratie: typeringFunctioneelGebied` → `Enumeratie: typeringFunctioneelGebied`
-
-#### SoortKunstwerk — **Unchanged**
-
-##### Attributes
-
-- indicatiePlusBRPopulatie — **Changed**
-  - **primitive**: `INDIC` → ``
-- typeKunstwerk — **Changed**
-  - **enumeration_id**: `Enumeratie: typeringKunstwerk` → `Enumeratie: typeringKunstwerk`
-
-#### SoortOverigBouwwerk — **Unchanged**
-
-##### Attributes
-
-- indicatiePlusBRPopulatie — **Changed**
-  - **primitive**: `INDIC` → ``
-- typeOverigBouwwerk — **Changed**
-  - **enumeration_id**: `Enumeratie: typeringOverigBouwwerk` → `Enumeratie: typeringOverigBouwwerk`
-
-#### SoortScheiding — **Unchanged**
-
-##### Attributes
-
-- indicatiePlusBRPopulatie — **Changed**
-  - **primitive**: `INDIC` → ``
-- typeScheiding — **Changed**
-  - **enumeration_id**: `Enumeratie: typeringScheiding` → `Enumeratie: typeringScheiding`
-
-#### SoortSpoor — **Unchanged**
-
-##### Attributes
-
-- functieSpoor — **Changed**
-  - **enumeration_id**: `Enumeratie: functieSpoor` → `Enumeratie: functieSpoor`
-- indicatiePlusBRPopulatie — **Changed**
-  - **primitive**: `INDIC` → ``
-
-#### VerblijfBuitenlandSubject — **Unchanged**
-
-##### Attributes
-
-- adresBuitenland1 — **Changed**
-  - **primitive**: `` → `AN200`
-- adresBuitenland2 — **Changed**
-  - **primitive**: `` → `AN200`
-- adresBuitenland3 — **Changed**
-  - **primitive**: `` → `AN200`
-
-#### VerblijfadresIngeschrevenPersoon — **Unchanged**
-
-##### Attributes
-
-- beschrijvingLocatie — **Changed**
-  - **primitive**: `` → `AN255`
-
-#### VerblijfsrechtIngeschrevenNatuurlijkPersoon — **Unchanged**
-
-##### Attributes
-
-- datumAanvangVerblijfsrecht — **Changed**
-  - **primitive**: `` → `Datum`
-- datumMededelingVerblijfsrecht — **Changed**
-  - **primitive**: `` → `Datum`
-- datumVoorzienEindeVerblijfsrecht — **Changed**
-  - **primitive**: `` → `Datum`
-
-_No datatype changes in this package._
-
-### Enumerations
-
-#### aangever — **Added**
-
-##### Literals
-
-- `Echtgenoot/geregistreerd partner` — **Added**
-- `Gezaghouder` — **Added**
-- `Hoofd instelling` — **Added**
-- `Ingeschrevene` — **Added**
-- `Inwonend ouder voor meerderjarig kind` — **Added**
-- `Meerderjarig gemachtigde` — **Added**
-- `Meerderjarig inwonend kind voor ouder` — **Added**
-- `Verzorger` — **Added**
-
-#### aangever — **Removed**
-
-##### Literals
-
-- `Echtgenoot/geregistreerd partner` — **Removed**
-- `Gezaghouder` — **Removed**
-- `Hoofd instelling` — **Removed**
-- `Ingeschrevene` — **Removed**
-- `Inwonend ouder voor meerderjarig kind` — **Removed**
-- `Meerderjarig gemachtigde` — **Removed**
-- `Meerderjarig inwonend kind voor ouder` — **Removed**
-- `Verzorger` — **Removed**
-
-#### adelijkeTitel — **Added**
-
-##### Literals
-
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `baron` — **Added**
-- `barones` — **Added**
-- `graaf` — **Added**
-- `gravin` — **Added**
-- `hertog` — **Added**
-- `hertogin` — **Added**
-- `markies` — **Added**
-- `markiezin` — **Added**
-- `prins` — **Added**
-- `prinses` — **Added**
-- `ridder` — **Added**
-
-#### adelijkeTitel — **Removed**
-
-##### Literals
-
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `baron` — **Removed**
-- `barones` — **Removed**
-- `graaf` — **Removed**
-- `gravin` — **Removed**
-- `hertog` — **Removed**
-- `hertogin` — **Removed**
-- `markies` — **Removed**
-- `markiezin` — **Removed**
-- `prins` — **Removed**
-- `prinses` — **Removed**
-- `ridder` — **Removed**
-
-#### adelijkeTitel — **Removed**
-
-##### Literals
-
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `baron` — **Removed**
-- `barones` — **Removed**
-- `graaf` — **Removed**
-- `gravin` — **Removed**
-- `hertog` — **Removed**
-- `hertogin` — **Removed**
-- `markies` — **Removed**
-- `markiezin` — **Removed**
-- `prins` — **Removed**
-- `prinses` — **Removed**
-- `ridder` — **Removed**
-
-#### adelijkeTitel — **Added**
-
-##### Literals
-
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `baron` — **Added**
-- `barones` — **Added**
-- `graaf` — **Added**
-- `gravin` — **Added**
-- `hertog` — **Added**
-- `hertogin` — **Added**
-- `markies` — **Added**
-- `markiezin` — **Added**
-- `prins` — **Added**
-- `prinses` — **Added**
-- `ridder` — **Added**
-
-#### functieSpoor — **Added**
-
-##### Literals
-
-- `(haven)kraan` — **Added**
-- `sneltram` — **Added**
-- `tram` — **Added**
-- `trein` — **Added**
-
-#### functieSpoor — **Removed**
-
-##### Literals
-
-- `(haven)kraan` — **Removed**
-- `sneltram` — **Removed**
-- `tram` — **Removed**
-- `trein` — **Removed**
-
-#### predicaat — **Added**
-
-##### Literals
-
-- `Hare Hoogheid` — **Added**
-- `Hare Koninklijke Hoogheid` — **Added**
-- `Zijne Hoogheid` — **Added**
-- `Zijne Koninklijke Hoogheid` — **Added**
-- `jonkheer` — **Added**
-- `jonkvrouw` — **Added**
-
-#### predicaat — **Removed**
-
-##### Literals
-
-- `Hare Hoogheid` — **Removed**
-- `Hare Koninklijke Hoogheid` — **Removed**
-- `Zijne Hoogheid` — **Removed**
-- `Zijne Koninklijke Hoogheid` — **Removed**
-- `jonkheer` — **Removed**
-- `jonkvrouw` — **Removed**
-
-#### redenEindeRelatie — **Removed**
-
-##### Literals
-
-- `Echtscheiding, ontbinding of eindigen conform Nederlands recht` — **Removed**
-- `Naar vreemd recht anders beëindigd` — **Removed**
-- `Nietigverklaring` — **Removed**
-- `Omzetting van soort verbintenis` — **Removed**
-- `Onbekend` — **Removed**
-- `Overlijden partner` — **Removed**
-- `Rechtsvermoeden van overlijden partner` — **Removed**
-- `Vermissing van een persoon gevolgd door andere verbintenis` — **Removed**
-
-#### redenEindeRelatie — **Added**
-
-##### Literals
-
-- `Echtscheiding, ontbinding of eindigen conform Nederlands recht` — **Added**
-- `Naar vreemd recht anders beëindigd` — **Added**
-- `Nietigverklaring` — **Added**
-- `Omzetting van soort verbintenis` — **Added**
-- `Onbekend` — **Added**
-- `Overlijden partner` — **Added**
-- `Rechtsvermoeden van overlijden partner` — **Added**
-- `Vermissing van een persoon gevolgd door andere verbintenis` — **Added**
-
-#### redenWijzigingAdres — **Added**
-
-##### Literals
-
-- `Aangifte door persoon` — **Added**
-- `Ambtshalve` — **Added**
-- `Infrastructurele wijziging` — **Added**
-- `Ministerieel besluit` — **Added**
-- `Onbekend` — **Added**
-- `Technische wijzigingen i.v.m. BAG` — **Added**
-
-#### redenWijzigingAdres — **Removed**
-
-##### Literals
-
-- `Aangifte door persoon` — **Removed**
-- `Ambtshalve` — **Removed**
-- `Infrastructurele wijziging` — **Removed**
-- `Ministerieel besluit` — **Removed**
-- `Onbekend` — **Removed**
-- `Technische wijzigingen i.v.m. BAG` — **Removed**
-
-#### soortMigratie — **Added**
-
-##### Literals
-
-- `Emigratie` — **Added**
-- `Immigratie` — **Added**
-
-#### soortMigratie — **Removed**
-
-##### Literals
-
-- `Emigratie` — **Removed**
-- `Immigratie` — **Removed**
-
-#### typeringFunctioneelGebied — **Removed**
-
-##### Literals
-
-- `bedrijvigheid` — **Removed**
-- `begraafplaats` — **Removed**
-- `benzinestation` — **Removed**
-- `bewoning` — **Removed**
-- `bushalte` — **Removed**
-- `carpoolplaats` — **Removed**
-- `functioneel beheer` — **Removed**
-- `functioneel beheer:hondenuitlaatplaats` — **Removed**
-- `infrastructuur verkeer en vervoer` — **Removed**
-- `infrastructuur waterstaatswerken` — **Removed**
-- `kering` — **Removed**
-- `landbouw` — **Removed**
-- `maatschappelijke en / of publieksvoorziening` — **Removed**
-- `natuur & landschap` — **Removed**
-- `recreatie` — **Removed**
-- `recreatie:bungalowpark` — **Removed**
-- `recreatie:camping` — **Removed**
-- `recreatie:park` — **Removed**
-- `recreatie:speeltuin` — **Removed**
-- `recreatie:sportterrein` — **Removed**
-- `recreatie:volkstuin` — **Removed**
-- `verzorgingsplaats` — **Removed**
-- `waterbergingsgebied` — **Removed**
-
-#### typeringFunctioneelGebied — **Added**
-
-##### Literals
-
-- `bedrijvigheid` — **Added**
-- `begraafplaats` — **Added**
-- `benzinestation` — **Added**
-- `bewoning` — **Added**
-- `bushalte` — **Added**
-- `carpoolplaats` — **Added**
-- `functioneel beheer` — **Added**
-- `functioneel beheer:hondenuitlaatplaats` — **Added**
-- `infrastructuur verkeer en vervoer` — **Added**
-- `infrastructuur waterstaatswerken` — **Added**
-- `kering` — **Added**
-- `landbouw` — **Added**
-- `maatschappelijke en / of publieksvoorziening` — **Added**
-- `natuur & landschap` — **Added**
-- `recreatie` — **Added**
-- `recreatie:bungalowpark` — **Added**
-- `recreatie:camping` — **Added**
-- `recreatie:park` — **Added**
-- `recreatie:speeltuin` — **Added**
-- `recreatie:sportterrein` — **Added**
-- `recreatie:volkstuin` — **Added**
-- `verzorgingsplaats` — **Added**
-- `waterbergingsgebied` — **Added**
-
-#### typeringKunstwerk — **Removed**
-
-##### Literals
-
-- `bodemval` — **Removed**
-- `coupure` — **Removed**
-- `duiker` — **Removed**
-- `faunavoorziening` — **Removed**
-- `gemaal` — **Removed**
-- `hoogspanningsmast` — **Removed**
-- `keermuur` — **Removed**
-- `overkluizing` — **Removed**
-- `perron` — **Removed**
-- `ponton` — **Removed**
-- `sluis` — **Removed**
-- `steiger` — **Removed**
-- `strekdam` — **Removed**
-- `stuw` — **Removed**
-- `vispassage` — **Removed**
-- `voorde` — **Removed**
-
-#### typeringKunstwerk — **Added**
-
-##### Literals
-
-- `bodemval` — **Added**
-- `coupure` — **Added**
-- `duiker` — **Added**
-- `faunavoorziening` — **Added**
-- `gemaal` — **Added**
-- `hoogspanningsmast` — **Added**
-- `keermuur` — **Added**
-- `overkluizing` — **Added**
-- `perron` — **Added**
-- `ponton` — **Added**
-- `sluis` — **Added**
-- `steiger` — **Added**
-- `strekdam` — **Added**
-- `stuw` — **Added**
-- `vispassage` — **Added**
-- `voorde` — **Added**
-
-#### typeringOverigBouwwerk — **Removed**
-
-##### Literals
-
-- `bassin` — **Removed**
-- `bezinkbak` — **Removed**
-- `bunker` — **Removed**
-- `lage trafo` — **Removed**
-- `open loods` — **Removed**
-- `opslagtank` — **Removed**
-- `overkapping` — **Removed**
-- `schuur` — **Removed**
-- `voedersilo` — **Removed**
-- `windturbine` — **Removed**
-
-#### typeringOverigBouwwerk — **Added**
-
-##### Literals
-
-- `bassin` — **Added**
-- `bezinkbak` — **Added**
-- `bunker` — **Added**
-- `lage trafo` — **Added**
-- `open loods` — **Added**
-- `opslagtank` — **Added**
-- `overkapping` — **Added**
-- `schuur` — **Added**
-- `voedersilo` — **Added**
-- `windturbine` — **Added**
-
-#### typeringScheiding — **Removed**
-
-##### Literals
-
-- `damwand` — **Removed**
-- `geluidsscherm` — **Removed**
-- `hek` — **Removed**
-- `kademuur` — **Removed**
-- `muur` — **Removed**
-- `walbescherming` — **Removed**
-
-#### typeringScheiding — **Added**
-
-##### Literals
-
-- `damwand` — **Added**
-- `geluidsscherm` — **Added**
-- `hek` — **Added**
-- `kademuur` — **Added**
-- `muur` — **Added**
-- `walbescherming` — **Added**
-
-## Package: Groepattribuutsoort
-
-### Classes
-
-#### AfwijkendBuitenlandsCorrespondentieadresRol — **Unchanged**
-
-##### Attributes
-
-- adresBuitenland1 — **Changed**
-  - **primitive**: `` → `AN200`
-- adresBuitenland2 — **Changed**
-  - **primitive**: `` → `AN200`
-- adresBuitenland3 — **Changed**
-  - **primitive**: `` → `AN200`
-
-#### AnderZaakobjectZaak — **Unchanged**
-
-##### Attributes
-
-- anderZaakobjectLocatie — **Changed**
-  - **primitive**: `GML` → `Point`
-
-_No datatype changes in this package._
-
-_No enumeration changes in this package._
-
-## Package: Metagegevens
-
-### Classes
-
-#### Brondocumenten — **Unchanged**
-
-##### Attributes
-
-- datumDocument — **Changed**
-  - **primitive**: `` → `Datum`
-
-#### FormeleHistorie — **Unchanged**
-
-##### Attributes
-
-- tijdstipRegistratieGegevens — **Changed**
-  - **primitive**: `` → `DateTime`
-
-#### MaterieleHistorie — **Unchanged**
-
-##### Attributes
-
-- datumBeginGeldigheidGegevens — **Changed**
-  - **primitive**: `` → `Datum`
-- datumEindeGeldigheidGegevens — **Changed**
-  - **primitive**: `` → `Datum`
-
-_No datatype changes in this package._
-
-_No enumeration changes in this package._
-
-## Package: Model
-
-### Classes
-
-#### Periode — **Unchanged**
-
-##### Attributes
-
-- omschrijving — **Changed**
-  - **primitive**: `` → `AN255`
-
-_No datatype changes in this package._
-
-_No enumeration changes in this package._
 
 ## Package: Model Afval
 
@@ -5634,3 +4876,633 @@ _No datatype changes in this package._
 _No datatype changes in this package._
 
 _No enumeration changes in this package._
+
+## Package: Datatypes
+
+_No class changes in this package._
+
+_No datatype changes in this package._
+
+### Enumerations
+
+#### CdRedenAanvraagANWaangevraagd — **Added**
+
+#### CdRedenAanvraagANWafgewezenReden — **Added**
+
+#### CdRedenAanvraagContractperiode — **Added**
+
+#### CdRedenAanvraagEindeBijstand — **Added**
+
+#### CdRedenAanvraagEindeEigenBedrijf — **Added**
+
+#### CdRedenAanvraagEindeUitkering — **Added**
+
+#### CdRedenAanvraagEindeUitkeringReden — **Added**
+
+#### CdRedenAanvraagEindeWerk — **Added**
+
+#### CdRedenAanvraagOnvoldoendeInkomen — **Added**
+
+#### CdRedenAanvraagVerblijfstatus — **Added**
+
+#### CdRedenAanvraagWWgevraagd — **Added**
+
+#### CdRedenAanvraagWijzigingGezin — **Added**
+
+#### CdRedenAanvraagWwafgewezen — **Added**
+
+#### CdRedenAanvraagZelfstandige — **Added**
+
+#### CodeRedenAfwijkendeStartdatum — **Added**
+
+#### RedenKwijtscheldingVordering — **Added**
+
+## Package: Enumeratiesoort
+
+_No class changes in this package._
+
+_No datatype changes in this package._
+
+### Enumerations
+
+#### functieOndersteunendWegdeelPlus — **Removed**
+
+#### typeringOndersteunendWaterPlus — **Removed**
+
+## Package: Groepattribuutsoort
+
+### Classes
+
+#### GeboorteIngeschrevenNatuurlijkPersoon — **Unchanged**
+
+##### Attributes
+
+- datumGeboorte — **Changed**
+  - **primitive**: `` → `Datum`
+
+#### GeboorteIngeschrevenPersoon — **Unchanged**
+
+##### Attributes
+
+- datumGeboorte — **Changed**
+  - **primitive**: `` → `Datum`
+- geboorteplaats — **Changed**
+  - **primitive**: `` → `AN200`
+
+#### KoopsomKadastraleOnroerendeZaak — **Unchanged**
+
+##### Attributes
+
+- datumTransactie — **Changed**
+  - **primitive**: `` → `Datum`
+
+#### MigratieIngeschrevenNatuurlijkPersoon — **Unchanged**
+
+##### Attributes
+
+- aangeverMigratie — **Changed**
+  - **enumeration_id**: `Enumeratie: aangever` → `Enumeratie: aangever`
+- redenWijzigingMigratie — **Changed**
+  - **enumeration_id**: `Enumeratie: redenWijzigingAdres` → `Enumeratie: redenWijzigingAdres`
+- soortMigratie — **Changed**
+  - **enumeration_id**: `Enumeratie: soortMigratie` → `Enumeratie: soortMigratie`
+
+#### NaamNatuurlijkPersoon — **Unchanged**
+
+##### Attributes
+
+- geslachtsnaam — **Changed**
+  - **primitive**: `` → `AN255`
+- voornamen — **Changed**
+  - **primitive**: `` → `AN200`
+- voorvoegselGeslachtsnaam — **Changed**
+  - **primitive**: `` → `AN255`
+
+#### NaamgebruikNatuurlijkPersoon — **Unchanged**
+
+##### Attributes
+
+- adellijkeTitelNaamgebruik — **Changed**
+  - **enumeration_id**: `Enumeratie: adelijkeTitel` → `Enumeratie: adelijkeTitel`
+
+#### NederlandseNationaliteitIngeschrevenPersoon — **Unchanged**
+
+##### Attributes
+
+- aanduidingBijzonderNederlanderschap — **Changed**
+  - **primitive**: `` → `boolean`
+- redenVerkrijgingNederlandseNationaliteit — **Changed**
+  - **primitive**: `` → `AN200`
+- redenVerliesNederlandseNationaliteit — **Changed**
+  - **primitive**: `` → `AN200`
+
+#### OntbindingHuwelijk/geregistreerdPartnerschap — **Unchanged**
+
+##### Attributes
+
+- datumEinde — **Changed**
+  - **primitive**: `` → `Datum`
+- redenEinde — **Changed**
+  - **enumeration_id**: `Enumeratie: redenEindeRelatie` → `Enumeratie: redenEindeRelatie`
+
+#### OverlijdenIngeschrevenNatuurlijkPersoon — **Unchanged**
+
+##### Attributes
+
+- datumOverlijden — **Changed**
+  - **primitive**: `` → `Datum`
+
+#### OverlijdenIngeschrevenPersoon — **Unchanged**
+
+##### Attributes
+
+- datumOverlijden — **Changed**
+  - **primitive**: `` → `Datum`
+- overlijdensplaats — **Changed**
+  - **primitive**: `` → `AN200`
+
+#### Postadres — **Unchanged**
+
+##### Attributes
+
+- postadresType — **Changed**
+  - **primitive**: `postadresType` → `AN255`
+- postcodePostadres — **Changed**
+  - **primitive**: `POSTCODE` → `AN6`
+
+#### SamengesteldeNaamNatuurlijkPersoon — **Unchanged**
+
+##### Attributes
+
+- adellijkeTitel — **Changed**
+  - **enumeration_id**: `Enumeratie: adelijkeTitel` → `Enumeratie: adelijkeTitel`
+- namenreeks — **Changed**
+  - **primitive**: `INDIC` → `boolean`
+- predicaat — **Changed**
+  - **enumeration_id**: `Enumeratie: predicaat` → `Enumeratie: predicaat`
+- scheidingsteken — **Changed**
+  - **primitive**: `VOORVOEGSEL` → `AN255`
+- voorvoegsel — **Changed**
+  - **primitive**: `VOORVOEGSEL` → `AN255`
+
+#### SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap — **Unchanged**
+
+##### Attributes
+
+- datumAanvang — **Changed**
+  - **primitive**: `` → `Datum`
+
+#### SoortFunctioneelGebied — **Unchanged**
+
+##### Attributes
+
+- indicatiePlusBRPopulatie — **Changed**
+  - **primitive**: `INDIC` → ``
+- typeFunctioneelGebied — **Changed**
+  - **enumeration_id**: `Enumeratie: typeringFunctioneelGebied` → `Enumeratie: typeringFunctioneelGebied`
+
+#### SoortKunstwerk — **Unchanged**
+
+##### Attributes
+
+- indicatiePlusBRPopulatie — **Changed**
+  - **primitive**: `INDIC` → ``
+- typeKunstwerk — **Changed**
+  - **enumeration_id**: `Enumeratie: typeringKunstwerk` → `Enumeratie: typeringKunstwerk`
+
+#### SoortOverigBouwwerk — **Unchanged**
+
+##### Attributes
+
+- indicatiePlusBRPopulatie — **Changed**
+  - **primitive**: `INDIC` → ``
+- typeOverigBouwwerk — **Changed**
+  - **enumeration_id**: `Enumeratie: typeringOverigBouwwerk` → `Enumeratie: typeringOverigBouwwerk`
+
+#### SoortScheiding — **Unchanged**
+
+##### Attributes
+
+- indicatiePlusBRPopulatie — **Changed**
+  - **primitive**: `INDIC` → ``
+- typeScheiding — **Changed**
+  - **enumeration_id**: `Enumeratie: typeringScheiding` → `Enumeratie: typeringScheiding`
+
+#### SoortSpoor — **Unchanged**
+
+##### Attributes
+
+- functieSpoor — **Changed**
+  - **enumeration_id**: `Enumeratie: functieSpoor` → `Enumeratie: functieSpoor`
+- indicatiePlusBRPopulatie — **Changed**
+  - **primitive**: `INDIC` → ``
+
+#### VerblijfBuitenlandSubject — **Unchanged**
+
+##### Attributes
+
+- adresBuitenland1 — **Changed**
+  - **primitive**: `` → `AN200`
+- adresBuitenland2 — **Changed**
+  - **primitive**: `` → `AN200`
+- adresBuitenland3 — **Changed**
+  - **primitive**: `` → `AN200`
+
+#### VerblijfadresIngeschrevenPersoon — **Unchanged**
+
+##### Attributes
+
+- beschrijvingLocatie — **Changed**
+  - **primitive**: `` → `AN255`
+
+#### VerblijfsrechtIngeschrevenNatuurlijkPersoon — **Unchanged**
+
+##### Attributes
+
+- datumAanvangVerblijfsrecht — **Changed**
+  - **primitive**: `` → `Datum`
+- datumMededelingVerblijfsrecht — **Changed**
+  - **primitive**: `` → `Datum`
+- datumVoorzienEindeVerblijfsrecht — **Changed**
+  - **primitive**: `` → `Datum`
+
+_No datatype changes in this package._
+
+### Enumerations
+
+#### aangever — **Added**
+
+##### Literals
+
+- `Echtgenoot/geregistreerd partner` — **Added**
+- `Gezaghouder` — **Added**
+- `Hoofd instelling` — **Added**
+- `Ingeschrevene` — **Added**
+- `Inwonend ouder voor meerderjarig kind` — **Added**
+- `Meerderjarig gemachtigde` — **Added**
+- `Meerderjarig inwonend kind voor ouder` — **Added**
+- `Verzorger` — **Added**
+
+#### aangever — **Removed**
+
+##### Literals
+
+- `Echtgenoot/geregistreerd partner` — **Removed**
+- `Gezaghouder` — **Removed**
+- `Hoofd instelling` — **Removed**
+- `Ingeschrevene` — **Removed**
+- `Inwonend ouder voor meerderjarig kind` — **Removed**
+- `Meerderjarig gemachtigde` — **Removed**
+- `Meerderjarig inwonend kind voor ouder` — **Removed**
+- `Verzorger` — **Removed**
+
+#### adelijkeTitel — **Added**
+
+##### Literals
+
+- `Leeg` — **Added**
+- `Onbekend` — **Added**
+- `baron` — **Added**
+- `barones` — **Added**
+- `graaf` — **Added**
+- `gravin` — **Added**
+- `hertog` — **Added**
+- `hertogin` — **Added**
+- `markies` — **Added**
+- `markiezin` — **Added**
+- `prins` — **Added**
+- `prinses` — **Added**
+- `ridder` — **Added**
+
+#### adelijkeTitel — **Removed**
+
+##### Literals
+
+- `Leeg` — **Removed**
+- `Onbekend` — **Removed**
+- `baron` — **Removed**
+- `barones` — **Removed**
+- `graaf` — **Removed**
+- `gravin` — **Removed**
+- `hertog` — **Removed**
+- `hertogin` — **Removed**
+- `markies` — **Removed**
+- `markiezin` — **Removed**
+- `prins` — **Removed**
+- `prinses` — **Removed**
+- `ridder` — **Removed**
+
+#### adelijkeTitel — **Removed**
+
+##### Literals
+
+- `Leeg` — **Removed**
+- `Onbekend` — **Removed**
+- `baron` — **Removed**
+- `barones` — **Removed**
+- `graaf` — **Removed**
+- `gravin` — **Removed**
+- `hertog` — **Removed**
+- `hertogin` — **Removed**
+- `markies` — **Removed**
+- `markiezin` — **Removed**
+- `prins` — **Removed**
+- `prinses` — **Removed**
+- `ridder` — **Removed**
+
+#### adelijkeTitel — **Added**
+
+##### Literals
+
+- `Leeg` — **Added**
+- `Onbekend` — **Added**
+- `baron` — **Added**
+- `barones` — **Added**
+- `graaf` — **Added**
+- `gravin` — **Added**
+- `hertog` — **Added**
+- `hertogin` — **Added**
+- `markies` — **Added**
+- `markiezin` — **Added**
+- `prins` — **Added**
+- `prinses` — **Added**
+- `ridder` — **Added**
+
+#### functieSpoor — **Added**
+
+##### Literals
+
+- `(haven)kraan` — **Added**
+- `sneltram` — **Added**
+- `tram` — **Added**
+- `trein` — **Added**
+
+#### functieSpoor — **Removed**
+
+##### Literals
+
+- `(haven)kraan` — **Removed**
+- `sneltram` — **Removed**
+- `tram` — **Removed**
+- `trein` — **Removed**
+
+#### predicaat — **Added**
+
+##### Literals
+
+- `Hare Hoogheid` — **Added**
+- `Hare Koninklijke Hoogheid` — **Added**
+- `Zijne Hoogheid` — **Added**
+- `Zijne Koninklijke Hoogheid` — **Added**
+- `jonkheer` — **Added**
+- `jonkvrouw` — **Added**
+
+#### predicaat — **Removed**
+
+##### Literals
+
+- `Hare Hoogheid` — **Removed**
+- `Hare Koninklijke Hoogheid` — **Removed**
+- `Zijne Hoogheid` — **Removed**
+- `Zijne Koninklijke Hoogheid` — **Removed**
+- `jonkheer` — **Removed**
+- `jonkvrouw` — **Removed**
+
+#### redenEindeRelatie — **Removed**
+
+##### Literals
+
+- `Echtscheiding, ontbinding of eindigen conform Nederlands recht` — **Removed**
+- `Naar vreemd recht anders beëindigd` — **Removed**
+- `Nietigverklaring` — **Removed**
+- `Omzetting van soort verbintenis` — **Removed**
+- `Onbekend` — **Removed**
+- `Overlijden partner` — **Removed**
+- `Rechtsvermoeden van overlijden partner` — **Removed**
+- `Vermissing van een persoon gevolgd door andere verbintenis` — **Removed**
+
+#### redenEindeRelatie — **Added**
+
+##### Literals
+
+- `Echtscheiding, ontbinding of eindigen conform Nederlands recht` — **Added**
+- `Naar vreemd recht anders beëindigd` — **Added**
+- `Nietigverklaring` — **Added**
+- `Omzetting van soort verbintenis` — **Added**
+- `Onbekend` — **Added**
+- `Overlijden partner` — **Added**
+- `Rechtsvermoeden van overlijden partner` — **Added**
+- `Vermissing van een persoon gevolgd door andere verbintenis` — **Added**
+
+#### redenWijzigingAdres — **Added**
+
+##### Literals
+
+- `Aangifte door persoon` — **Added**
+- `Ambtshalve` — **Added**
+- `Infrastructurele wijziging` — **Added**
+- `Ministerieel besluit` — **Added**
+- `Onbekend` — **Added**
+- `Technische wijzigingen i.v.m. BAG` — **Added**
+
+#### redenWijzigingAdres — **Removed**
+
+##### Literals
+
+- `Aangifte door persoon` — **Removed**
+- `Ambtshalve` — **Removed**
+- `Infrastructurele wijziging` — **Removed**
+- `Ministerieel besluit` — **Removed**
+- `Onbekend` — **Removed**
+- `Technische wijzigingen i.v.m. BAG` — **Removed**
+
+#### soortMigratie — **Added**
+
+##### Literals
+
+- `Emigratie` — **Added**
+- `Immigratie` — **Added**
+
+#### soortMigratie — **Removed**
+
+##### Literals
+
+- `Emigratie` — **Removed**
+- `Immigratie` — **Removed**
+
+#### typeringFunctioneelGebied — **Removed**
+
+##### Literals
+
+- `bedrijvigheid` — **Removed**
+- `begraafplaats` — **Removed**
+- `benzinestation` — **Removed**
+- `bewoning` — **Removed**
+- `bushalte` — **Removed**
+- `carpoolplaats` — **Removed**
+- `functioneel beheer` — **Removed**
+- `functioneel beheer:hondenuitlaatplaats` — **Removed**
+- `infrastructuur verkeer en vervoer` — **Removed**
+- `infrastructuur waterstaatswerken` — **Removed**
+- `kering` — **Removed**
+- `landbouw` — **Removed**
+- `maatschappelijke en / of publieksvoorziening` — **Removed**
+- `natuur & landschap` — **Removed**
+- `recreatie` — **Removed**
+- `recreatie:bungalowpark` — **Removed**
+- `recreatie:camping` — **Removed**
+- `recreatie:park` — **Removed**
+- `recreatie:speeltuin` — **Removed**
+- `recreatie:sportterrein` — **Removed**
+- `recreatie:volkstuin` — **Removed**
+- `verzorgingsplaats` — **Removed**
+- `waterbergingsgebied` — **Removed**
+
+#### typeringFunctioneelGebied — **Added**
+
+##### Literals
+
+- `bedrijvigheid` — **Added**
+- `begraafplaats` — **Added**
+- `benzinestation` — **Added**
+- `bewoning` — **Added**
+- `bushalte` — **Added**
+- `carpoolplaats` — **Added**
+- `functioneel beheer` — **Added**
+- `functioneel beheer:hondenuitlaatplaats` — **Added**
+- `infrastructuur verkeer en vervoer` — **Added**
+- `infrastructuur waterstaatswerken` — **Added**
+- `kering` — **Added**
+- `landbouw` — **Added**
+- `maatschappelijke en / of publieksvoorziening` — **Added**
+- `natuur & landschap` — **Added**
+- `recreatie` — **Added**
+- `recreatie:bungalowpark` — **Added**
+- `recreatie:camping` — **Added**
+- `recreatie:park` — **Added**
+- `recreatie:speeltuin` — **Added**
+- `recreatie:sportterrein` — **Added**
+- `recreatie:volkstuin` — **Added**
+- `verzorgingsplaats` — **Added**
+- `waterbergingsgebied` — **Added**
+
+#### typeringKunstwerk — **Removed**
+
+##### Literals
+
+- `bodemval` — **Removed**
+- `coupure` — **Removed**
+- `duiker` — **Removed**
+- `faunavoorziening` — **Removed**
+- `gemaal` — **Removed**
+- `hoogspanningsmast` — **Removed**
+- `keermuur` — **Removed**
+- `overkluizing` — **Removed**
+- `perron` — **Removed**
+- `ponton` — **Removed**
+- `sluis` — **Removed**
+- `steiger` — **Removed**
+- `strekdam` — **Removed**
+- `stuw` — **Removed**
+- `vispassage` — **Removed**
+- `voorde` — **Removed**
+
+#### typeringKunstwerk — **Added**
+
+##### Literals
+
+- `bodemval` — **Added**
+- `coupure` — **Added**
+- `duiker` — **Added**
+- `faunavoorziening` — **Added**
+- `gemaal` — **Added**
+- `hoogspanningsmast` — **Added**
+- `keermuur` — **Added**
+- `overkluizing` — **Added**
+- `perron` — **Added**
+- `ponton` — **Added**
+- `sluis` — **Added**
+- `steiger` — **Added**
+- `strekdam` — **Added**
+- `stuw` — **Added**
+- `vispassage` — **Added**
+- `voorde` — **Added**
+
+#### typeringOverigBouwwerk — **Removed**
+
+##### Literals
+
+- `bassin` — **Removed**
+- `bezinkbak` — **Removed**
+- `bunker` — **Removed**
+- `lage trafo` — **Removed**
+- `open loods` — **Removed**
+- `opslagtank` — **Removed**
+- `overkapping` — **Removed**
+- `schuur` — **Removed**
+- `voedersilo` — **Removed**
+- `windturbine` — **Removed**
+
+#### typeringOverigBouwwerk — **Added**
+
+##### Literals
+
+- `bassin` — **Added**
+- `bezinkbak` — **Added**
+- `bunker` — **Added**
+- `lage trafo` — **Added**
+- `open loods` — **Added**
+- `opslagtank` — **Added**
+- `overkapping` — **Added**
+- `schuur` — **Added**
+- `voedersilo` — **Added**
+- `windturbine` — **Added**
+
+#### typeringScheiding — **Removed**
+
+##### Literals
+
+- `damwand` — **Removed**
+- `geluidsscherm` — **Removed**
+- `hek` — **Removed**
+- `kademuur` — **Removed**
+- `muur` — **Removed**
+- `walbescherming` — **Removed**
+
+#### typeringScheiding — **Added**
+
+##### Literals
+
+- `damwand` — **Added**
+- `geluidsscherm` — **Added**
+- `hek` — **Added**
+- `kademuur` — **Added**
+- `muur` — **Added**
+- `walbescherming` — **Added**
+
+## Package: Groepattribuutsoort
+
+### Classes
+
+#### AfwijkendBuitenlandsCorrespondentieadresRol — **Unchanged**
+
+##### Attributes
+
+- adresBuitenland1 — **Changed**
+  - **primitive**: `` → `AN200`
+- adresBuitenland2 — **Changed**
+  - **primitive**: `` → `AN200`
+- adresBuitenland3 — **Changed**
+  - **primitive**: `` → `AN200`
+
+#### AnderZaakobjectZaak — **Unchanged**
+
+##### Attributes
+
+- anderZaakobjectLocatie — **Changed**
+  - **primitive**: `GML` → `Point`
+
+_No datatype changes in this package._
+
+_No enumeration changes in this package._
+
