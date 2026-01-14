@@ -2,9 +2,10 @@
 ## Inleiding
 > **Definitie Model Wonen:** 
 >
-> Geen definitie
+> Alle objecttypen uit het domein Wonen
 
 ??? info "Kenmerken Model Model Wonen"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Wonen |
@@ -12,11 +13,11 @@
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.0 |
+    | author | Ashkan Ashkpour |
+    | version | 1.1.0 |
     | created | 2023-10-12 14:56:19 |
-    | modified | 2023-10-12 14:56:32 |
-    | id | EAPK_9E5E0DB8_40DE_4857_9EE5_E0E43999EECE |
+    | modified | 2025-12-18 15:38:53 |
+    | id | EAPK\_9E5E0DB8\_40DE\_4857\_9EE5\_E0E43999EECE |
     
 
 Het model 'Model Wonen' kent de volgende objecttypen:
@@ -39,6 +40,7 @@ Het model 'Model Wonen' kent de volgende objecttypen:
 > Een complex van ruimten uitsluitend bedoeld voor de huisvesting van een afzonderlijk huishouden
 
 ??? info "Kenmerken Model Gebouw"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Gebouw |
@@ -47,10 +49,10 @@ Het model 'Model Wonen' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-11-13 15:42:45 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_681DB26F_D779_4796_B467_576E5A25F581 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_681DB26F\_D779\_4796\_B467\_576E5A25F581 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Gebouw |
@@ -67,12 +69,12 @@ Attributen van objecttype Gebouw
 | aantal | int |  |
 | aantalAdressen | int |  |
 | aantalKamers | int |  |
-| aardgasloos | boolean |  |
+| energielabel | Energielabel |  |
+| oppervlakte | Oppervlakte Woning |  |
 | duurzaam | boolean |  |
-| energielabel | Enumeratie: "Energielabel" |  |
 | natuurinclusief | boolean |  |
-| oppervlakte | Enumeratie: "Oppervlakte Woning" |  |
 | regenwater | boolean |  |
+| aardgasloos | boolean |  |
 
 
 
@@ -82,6 +84,7 @@ Attributen van objecttype Gebouw
 > Wen woning die de bewoner huurt van de eigenaar, veelal een woningcorporatie of een particulier.
 
 ??? info "Kenmerken Model Huurwoningen"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Huurwoningen |
@@ -90,10 +93,10 @@ Attributen van objecttype Gebouw
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-11-13 15:38:20 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_E0F7D3A0_46C8_4e70_AA10_3888B60D14C0 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_E0F7D3A0\_46C8\_4e70\_AA10\_3888B60D14C0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -117,6 +120,7 @@ Attributen van objecttype Huurwoningen
 > Een woning die eigendom is van een particulier (in het algemeen de bewoner van de woning).
 
 ??? info "Kenmerken Model Koopwoningen"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Koopwoningen |
@@ -125,10 +129,10 @@ Attributen van objecttype Huurwoningen
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-11-13 15:38:08 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_7FECB5B2_E6CB_4637_9FD4_6EBA2CA96BBA |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_7FECB5B2\_E6CB\_4637\_9FD4\_6EBA2CA96BBA |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -152,6 +156,7 @@ Attributen van objecttype Koopwoningen
 > Project waarin woningen worden gerealiseerd
 
 ??? info "Kenmerken Model Plan"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Plan |
@@ -160,10 +165,10 @@ Attributen van objecttype Koopwoningen
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-11-13 15:37:15 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_D857E285_1EA3_4ba3_9614_5FACAC8BA133 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_D857E285\_1EA3\_4ba3\_9614\_5FACAC8BA133 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Plan |
@@ -177,20 +182,20 @@ Attributen van objecttype Plan
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| 70ProcentVerkocht | boolean |  |
-| aardgasloos | boolean |  |
-| bestemmingGoedgekeurd | boolean |  |
-| eersteOplevering | Date |  |
-| eigendomGemeente | boolean |  |
-| gebiedstransformatie | boolean |  |
-| intentie | boolean |  |
-| laatsteOplevering | Date |  |
 | naam | AN80 |  |
 | nummer | AN40 |  |
+| aardgasloos | boolean |  |
+| gebiedstransformatie | boolean |  |
+| intentie | boolean |  |
+| bestemmingGoedgekeurd | boolean |  |
 | onherroepelijk | boolean |  |
-| percelen | MultiSurface |  |
-| startbouw | Date |  |
+| eigendomGemeente | boolean |  |
+| 70ProcentVerkocht | boolean |  |
 | startVerkoop | Date |  |
+| startbouw | Date |  |
+| eersteOplevering | Date |  |
+| laatsteOplevering | Date |  |
+| percelen | MultiSurface |  |
 
 
 
@@ -200,6 +205,7 @@ Attributen van objecttype Plan
 > De persoon die een project aanstuurt
 
 ??? info "Kenmerken Model Projectleider"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Projectleider |
@@ -208,10 +214,10 @@ Attributen van objecttype Plan
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-11-13 16:05:41 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_888BBB4F_BEBA_4b9a_BB2E_0E1F2A3606DF |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_888BBB4F\_BEBA\_4b9a\_BB2E\_0E1F2A3606DF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Projectleider |
@@ -235,6 +241,7 @@ Attributen van objecttype Projectleider
 > Een persoon of een firma die een project ontwikkelt voor financieel gewin.
 
 ??? info "Kenmerken Model Projectontwikkelaar"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Projectontwikkelaar |
@@ -243,10 +250,10 @@ Attributen van objecttype Projectleider
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-11-13 15:37:40 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_6BBB2AE0_6F42_4676_8C6C_E727032F5F47 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_6BBB2AE0\_6F42\_4676\_8C6C\_E727032F5F47 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Projectontwikkelaar |
@@ -260,8 +267,8 @@ Attributen van objecttype Projectontwikkelaar
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| adres | AN200 |  |
 | naam | AN80 |  |
+| adres | AN200 |  |
 
 
 
@@ -271,6 +278,7 @@ Attributen van objecttype Projectontwikkelaar
 > Een woning waar uitsluitend (meerdere) studenten (of soms ook werkende jongeren) een woongemeenschap vorme
 
 ??? info "Kenmerken Model Studentenwoningen"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Studentenwoningen |
@@ -279,10 +287,10 @@ Attributen van objecttype Projectontwikkelaar
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.11.0 |
     | created | 2018-11-13 15:38:41 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_98C74EAB_3411_4d1a_8321_FF30567B6877 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_98C74EAB\_3411\_4d1a\_8321\_FF30567B6877 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -296,8 +304,8 @@ Attributen van objecttype Studentenwoningen
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| huurprijs | Bedrag |  |
 | zelfstandig | boolean |  |
+| huurprijs | Bedrag |  |
 
 
 
@@ -323,6 +331,7 @@ Het enumeratie Energielabel kent de volgende waarden:
 De enumeratie Energielabel heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Energielabel"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Energielabel |
@@ -331,10 +340,15 @@ De enumeratie Energielabel heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:10 |
+<<<<<<< HEAD
     | modified | 2025-03-26 16:14:45 |
     | id | EAID_6d87df4f_2b98_47ba_86e8_fa539d45b2bd |
+=======
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_56a6a726\_aa44\_4f7f\_bbb7\_8f1d2a8c6a7f |
+>>>>>>> origin/master
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -362,6 +376,7 @@ Het enumeratie Oppervlakte Woning kent de volgende waarden:
 De enumeratie Oppervlakte Woning heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Oppervlakte Woning"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Oppervlakte Woning |
@@ -370,10 +385,15 @@ De enumeratie Oppervlakte Woning heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:10 |
+<<<<<<< HEAD
     | modified | 2025-03-26 16:14:45 |
     | id | EAID_54ef63bb_5a62_46dc_b353_7bbfaa7b35bc |
+=======
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_37149e15\_6709\_4421\_a936\_3fb997839c22 |
+>>>>>>> origin/master
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -382,6 +402,5 @@ De enumeratie Oppervlakte Woning heeft de volgende kenmerken:
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
-
 
 

@@ -2,9 +2,10 @@
 ## Inleiding
 > **Definitie Model Aanvragen en Meldingen:** 
 >
-> Geen definitie
+> Het informatiedomein waarbinnen alle aanvragen en meldingen worden gedefinieerd als onderdeel van het model Dienstverlening
 
 ??? info "Kenmerken Model Model Aanvragen en Meldingen"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Aanvragen en Meldingen |
@@ -13,10 +14,10 @@
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.1.0 |
     | created | 2019-10-23 14:39:33 |
-    | modified | 2019-10-23 14:39:33 |
-    | id | EAPK_7610AA7C_7D7D_458f_9A2B_E0E02AC9DFAF |
+    | modified | 2025-12-18 15:38:53 |
+    | id | EAPK\_7610AA7C\_7D7D\_458f\_9A2B\_E0E02AC9DFAF |
     
 
 Het model 'Model Aanvragen en Meldingen' kent de volgende objecttypen:
@@ -41,6 +42,7 @@ Het model 'Model Aanvragen en Meldingen' kent de volgende objecttypen:
 > Bestuursorgaan dat bevoegd is tot het geven van een beschikking of het nemen van een ander besluit.
 
 ??? info "Kenmerken Model Bevoegd Gezag"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Bevoegd Gezag |
@@ -49,10 +51,10 @@ Het model 'Model Aanvragen en Meldingen' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-09-23 13:44:30 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_FB771E02_8FE3_496b_B99B_CF4A496A7B80 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_FB771E02\_8FE3\_496b\_B99B\_CF4A496A7B80 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | BevoegdGezag |
@@ -75,6 +77,7 @@ Attributen van objecttype Bevoegd Gezag
 > Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die als vertegenwoordiger van een Initiatiefnemer optreedt.
 
 ??? info "Kenmerken Model Gemachtigde"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Gemachtigde |
@@ -83,10 +86,10 @@ Attributen van objecttype Bevoegd Gezag
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-09-23 13:30:23 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_02BDED5E_9106_4aed_94C2_513689353284 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_02BDED5E\_9106\_4aed\_94C2\_513689353284 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Gemachtigde |
@@ -109,6 +112,7 @@ Attributen van objecttype Gemachtigde
 > Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die het initiatief neemt tot (fysieke) ingrepen in de (leef)omgeving en daartoe een Verzoek bij het Bevoegd Gezag indient.
 
 ??? info "Kenmerken Model Initiatiefnemer"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Initiatiefnemer |
@@ -117,10 +121,10 @@ Attributen van objecttype Gemachtigde
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-09-23 13:29:40 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_E38BEAEF_03C4_439b_8A64_663886C1D6F9 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_E38BEAEF\_03C4\_439b\_8A64\_663886C1D6F9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Initiatiefnemer |
@@ -143,6 +147,7 @@ Attributen van objecttype Initiatiefnemer
 > Geheel van activiteiten uitgevoerd in een tijdelijk samenwerkingsverband gericht op het binnen bepaalde randvoorwaarden (bv. tijd, geld) bereiken van een vooraf gedefinieerd resultaat.
 
 ??? info "Kenmerken Model Project"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Project |
@@ -151,10 +156,10 @@ Attributen van objecttype Initiatiefnemer
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-09-23 14:13:19 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_E1FAE16A_42AE_4b7d_88FC_F429079D1C4D |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_E1FAE16A\_42AE\_4b7d\_88FC\_F429079D1C4D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Project |
@@ -179,6 +184,7 @@ Attributen van objecttype Project
 > Activiteit binnen het project
 
 ??? info "Kenmerken Model Projectactiviteit"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Projectactiviteit |
@@ -187,10 +193,10 @@ Attributen van objecttype Project
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-09-23 14:16:27 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_B31B867F_061E_42d4_AB8A_DB5589602969 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_B31B867F\_061E\_42d4\_AB8A\_DB5589602969 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -213,6 +219,7 @@ Attributen van objecttype Projectactiviteit
 > Fysieke locatie waar een project betrekking op heeft of wordt uitgevoerd.
 
 ??? info "Kenmerken Model Projectlocatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Projectlocatie |
@@ -221,10 +228,10 @@ Attributen van objecttype Projectactiviteit
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-09-23 14:13:34 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_D60910E1_6E36_4ebb_9687_2D2B1CE66E0B |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_D60910E1\_6E36\_4ebb\_9687\_2D2B1CE66E0B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Projectlocatie |
@@ -251,6 +258,7 @@ Attributen van objecttype Projectlocatie
 > Gesplitste opgave, vermelding van de afzonderlijke onderdelen waaruit een verzameling of een totaal bestaat
 
 ??? info "Kenmerken Model Specificatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Specificatie |
@@ -259,10 +267,10 @@ Attributen van objecttype Projectlocatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-09-23 13:54:41 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_DF63FBD0_DCA2_45bd_81E8_EE5E72D38EDE |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_DF63FBD0\_DCA2\_45bd\_81E8\_EE5E72D38EDE |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -279,8 +287,8 @@ Attributen van objecttype Specificatie
 | antwoord | An200 |  |
 | groepering | AN200 |  |
 | publiceerbaar | Boolean |  |
-| vraagClassificatie | Enumeratie: "Vraag Classificatie" |  |
 | vraagID | AN80 |  |
+| vraagClassificatie | Vraag Classificatie |  |
 | vraagreferentie | AN200 |  |
 | vraagtekst | text |  |
 
@@ -292,6 +300,7 @@ Attributen van objecttype Specificatie
 > Onderdeel van het bevoegd gezag dat uitvoering geeft aan wetten en besluiten
 
 ??? info "Kenmerken Model Uitvoerende instantie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Uitvoerende instantie |
@@ -300,10 +309,10 @@ Attributen van objecttype Specificatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-09-23 13:44:45 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_1B3A22D3_E2BA_440a_A2FD_B3D322FB1171 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_1B3A22D3\_E2BA\_440a\_A2FD\_B3D322FB1171 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | UitvoerendeInstantie |
@@ -327,6 +336,7 @@ Attributen van objecttype Uitvoerende instantie
 > Een vraag aan het bevoegd gezag om een speficieke product of dienst te leveren.
 
 ??? info "Kenmerken Model Verzoek"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verzoek |
@@ -335,10 +345,10 @@ Attributen van objecttype Uitvoerende instantie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-09-23 13:29:00 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_B18119D9_5BF8_498f_B9D3_ECCE7A770012 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_B18119D9\_5BF8\_498f\_B9D3\_ECCE7A770012 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Verzoek |
@@ -354,14 +364,14 @@ Attributen van objecttype Verzoek
 | :--- | :--- | :--- |
 | akkoordverklaring | boolean |  |
 | ambtshalve | boolean |  |
+| doel | Doel verzoek |  |
 | datumIndiening | Date |  |
-| doel | Enumeratie: "Doel verzoek" |  |
 | naam | AN200 |  |
 | referentieAanvrager | AN200 |  |
 | toelichtingLaterAanTeLeverenInformatie | text |  |
 | toelichtingNietAanTeLeverenInformatie | text |  |
 | toelichtingVerzoek | text |  |
-| type | Enumeratie: "Doel verzoek" |  |
+| type | Doel verzoek |  |
 | verzoeknummer | An80 |  |
 | volgnummer | AN80 |  |
 
@@ -387,6 +397,7 @@ Het enumeratie Doel verzoek kent de volgende waarden:
 De enumeratie Doel verzoek heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Doel verzoek"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Doel verzoek |
@@ -395,10 +406,10 @@ De enumeratie Doel verzoek heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:11 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_77B7DFE0_3E30_482d_AED9_F08D78E293E5 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_77B7DFE0\_3E30\_482d\_AED9\_F08D78E293E5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -426,6 +437,7 @@ Het enumeratie Type Verzoek kent de volgende waarden:
 De enumeratie Type Verzoek heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Type Verzoek"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Type Verzoek |
@@ -434,10 +446,10 @@ De enumeratie Type Verzoek heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:11 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_AC018290_7C62_49bd_A664_8A578EE97AFE |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_AC018290\_7C62\_49bd\_A664\_8A578EE97AFE |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -463,6 +475,7 @@ Het enumeratie Vraag Classificatie kent de volgende waarden:
 De enumeratie Vraag Classificatie heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Vraag Classificatie"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Vraag Classificatie |
@@ -471,10 +484,10 @@ De enumeratie Vraag Classificatie heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:11 |
-    | modified | 2025-03-26 16:14:45 |
-    | id | EAID_0B7DA4A7_C2D9_45c8_B957_94DFFB63FA25 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_0B7DA4A7\_C2D9\_45c8\_B957\_94DFFB63FA25 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -483,6 +496,5 @@ De enumeratie Vraag Classificatie heeft de volgende kenmerken:
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
-
 
 

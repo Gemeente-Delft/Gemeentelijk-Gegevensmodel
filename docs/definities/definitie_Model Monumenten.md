@@ -5,6 +5,7 @@
 > Het informatiedomein dat gegevens omvat over de aanwijzing, bescherming en instandhouding van monumenten, inclusief gebouwen, objecten en landschappen, die van cultuurhistorische, wetenschappelijke of esthetische waarde zijn.
 
 ??? info "Kenmerken Model Model Monumenten"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Monumenten |
@@ -16,7 +17,7 @@
     | version | 1.1 |
     | created | 2019-07-03 14:46:25 |
     | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_F7651B45_2B64_4197_A6E5_BFC56EC98466 |
+    | id | EAPK\_F7651B45\_2B64\_4197\_A6E5\_BFC56EC98466 |
     
 
 Het model 'Model Monumenten' kent de volgende objecttypen:
@@ -38,6 +39,7 @@ Het model 'Model Monumenten' kent de volgende objecttypen:
 > Beroep waarbij een handwerker met gereedschap eindproducten maakt.
 
 ??? info "Kenmerken Model Ambacht"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Ambacht |
@@ -46,10 +48,10 @@ Het model 'Model Monumenten' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-07-03 15:42:28 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_54944273_F312_44b2_A78D_43488F915429 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_54944273\_F312\_44b2\_A78D\_43488F915429 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Ambacht |
@@ -63,9 +65,9 @@ Attributen van objecttype Ambacht
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| ambachtsoort | AN300 |  |
-| jaarAmbachtTot | int |  |
 | jaarAmbachtVanaf | int |  |
+| jaarAmbachtTot | int |  |
+| ambachtsoort | AN300 |  |
 
 
 
@@ -75,6 +77,7 @@ Attributen van objecttype Ambacht
 > Status van de bescherming van een monument. Een monument / erfgoed is een overblijfsel van kunst, cultuur, architectuur of nijverheid dat van algemeen belang wordt geacht vanwege de historische, volkskundige, artistieke, wetenschappelijke, industrieel-archeologische of andere sociaal-culturele waarde. Vormen van monument / erfgoed met de status rijks- provinciaal- of gemeentelijke monument / erfgoed zijn beschermd op grond van een besluit van respectievelijk het Ministerie OCW, de provincie of de gemeente,
 
 ??? info "Kenmerken Model Beschermde Status"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Beschermde Status |
@@ -83,10 +86,10 @@ Attributen van objecttype Ambacht
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-07-03 15:12:51 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_32C02923_EE3A_4553_B94B_31E0C273A829 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_32C02923\_EE3A\_4553\_B94B\_31E0C273A829 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | BeschermdeStatus |
@@ -100,16 +103,16 @@ Attributen van objecttype Beschermde Status
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bronnen | AN400 |  |
-| complex | AN200 |  |
-| datumInschrijvingRegister | Date |  |
-| gemeentelijkMonumentCode | AN80 |  |
-| gezichtscode | AN20 |  |
-| naam | AN200 |  |
-| omschrijving | Text |  |
-| opmerkingen | text |  |
 | rijksmonumentcode | AN80 |  |
-| type | Enumeratie: "TypeMonument" |  |
+| gemeentelijkMonumentCode | AN80 |  |
+| datumInschrijvingRegister | Date |  |
+| naam | AN200 |  |
+| type | TypeMonument |  |
+| gezichtscode | AN20 |  |
+| complex | AN200 |  |
+| opmerkingen | text |  |
+| bronnen | AN400 |  |
+| omschrijving | Text |  |
 
 
 
@@ -119,6 +122,7 @@ Attributen van objecttype Beschermde Status
 > Het bouwen van een bouwwerk.
 
 ??? info "Kenmerken Model Bouwactiviteit"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Bouwactiviteit |
@@ -127,10 +131,10 @@ Attributen van objecttype Beschermde Status
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-07-03 15:45:18 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_4AD539EC_A308_43da_B025_17A1647303F3 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_4AD539EC\_A308\_43da\_B025\_17A1647303F3 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Bouwactiviteit |
@@ -144,10 +148,10 @@ Attributen van objecttype Bouwactiviteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bouwjaarklasse | AN80 |  |
-| bouwjaarTot | int |  |
 | bouwjaarVan | int |  |
+| bouwjaarTot | int |  |
 | indicatie | AN8 |  |
+| bouwjaarklasse | AN80 |  |
 | omschrijving | AN300 |  |
 
 
@@ -158,6 +162,7 @@ Attributen van objecttype Bouwactiviteit
 > Trant van bouwen met bepaalde kenmerken in een bepaalde periode. In de betrokken tijdperken waren het geen levende voorstellingen; het zijn later geformuleerde (generaliserende) geschiedkundige constructies. Doelbewust komt deze tendens op sedert c. 1830. (Haslinghuis)
 
 ??? info "Kenmerken Model Bouwstijl"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Bouwstijl |
@@ -166,10 +171,10 @@ Attributen van objecttype Bouwactiviteit
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-07-03 15:39:34 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_8C0888C9_7B2E_4fcb_AEFF_E1733875CDCA |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_8C0888C9\_7B2E\_4fcb\_AEFF\_E1733875CDCA |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Bouwstijl |
@@ -185,8 +190,8 @@ Attributen van objecttype Bouwstijl
 | :--- | :--- | :--- |
 | hoofdstijl | AN200 |  |
 | substijl | AN200 |  |
-| toelichting | text |  |
 | zuiverheid | AN200 |  |
+| toelichting | text |  |
 
 
 
@@ -196,6 +201,7 @@ Attributen van objecttype Bouwstijl
 > Typering van een bouwstijl
 
 ??? info "Kenmerken Model Bouwtype"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Bouwtype |
@@ -204,10 +210,10 @@ Attributen van objecttype Bouwstijl
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-07-03 15:39:43 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_5E9DAFBB_C9B5_4706_A43D_07AD4979DED4 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_5E9DAFBB\_C9B5\_4706\_A43D\_07AD4979DED4 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -233,6 +239,7 @@ Attributen van objecttype Bouwtype
 > De functie van een object na bouw of oplevering
 
 ??? info "Kenmerken Model OorspronkelijkeFunctie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OorspronkelijkeFunctie |
@@ -241,10 +248,10 @@ Attributen van objecttype Bouwtype
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-07-03 15:39:16 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_49993EF9_ED8B_49e0_B8F7_FC7C8C28669D |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_49993EF9\_ED8B\_49e0\_B8F7\_FC7C8C28669D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -258,13 +265,13 @@ Attributen van objecttype OorspronkelijkeFunctie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| functie | AN200 |  |
+| hoofdfunctie | Boolean |  |
 | functiesoort | An200 |  |
 | hoofdcategorie | AN200 |  |
-| hoofdfunctie | Boolean |  |
 | subcategorie | AN200 |  |
-| toelichting | Text |  |
+| functie | AN200 |  |
 | verbijzondering | AN200 |  |
+| toelichting | Text |  |
 
 
 
@@ -286,6 +293,7 @@ Het enumeratie TypeMonument kent de volgende waarden:
 De enumeratie TypeMonument heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model TypeMonument"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | TypeMonument |
@@ -294,10 +302,10 @@ De enumeratie TypeMonument heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:12:46 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_5C808AC9_CB09_4f4d_813E_821829856BA8 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_5C808AC9\_CB09\_4f4d\_813E\_821829856BA8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -306,6 +314,5 @@ De enumeratie TypeMonument heeft de volgende kenmerken:
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
-
 
 

@@ -8,9 +8,10 @@
 > {{ package.definitie|default("Geen definitie", true)|fix_and_format()|set_url() }}
 
 ??? info "Kenmerken Model {{ package.name }}"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
-    {% for kenmerk in package_kenmerken %}| {{ kenmerk }} | {{ package.to_dict().get(kenmerk,'')|default("", true)|fix_and_format()|set_url() }} |
+    {% for kenmerk in package_kenmerken %}| {{ kenmerk }} | {{ package.to_dict().get(kenmerk,'')|default("", true)|set_url()|fix_and_format_table() }} |
     {% endfor %}
 
 Het model '{{ package.name }}' kent de volgende objecttypen:
@@ -27,9 +28,10 @@ Het model '{{ package.name }}' kent de volgende objecttypen:
 > {{ class.definitie|default("Geen Definitie", true)|fix_and_format()|set_url() }}
 
 ??? info "Kenmerken Model {{ class.name }}"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
-    {% for kenmerk in object_kenmerken %}| {{ kenmerk }} | {{ class.to_dict().get(kenmerk,'')|default("", true)|fix_and_format()|set_url() }} |
+    {% for kenmerk in object_kenmerken %}| {{ kenmerk }} | {{ class.to_dict().get(kenmerk,'')|default("", true)|set_url()|fix_and_format_table() }} |
     {% endfor %}
 
 Attributen van objecttype {{ class.name }}
@@ -37,7 +39,7 @@ Attributen van objecttype {{ class.name }}
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 {% for attribute in class.attributes if attribute.name -%}
-| {{ attribute.name }} | {{ attribute.getDatatype()|default("", true) }} | {{ attribute.definitie|default("", true)|fix_and_format()|set_url() }} |
+| {{ attribute.name }} | {{ attribute.getDatatype()|default("", true) }} | {{ attribute.definitie|default("", true)|set_url()|fix_and_format_table() }} |
 {% endfor %}
 
 {% endfor %}
@@ -58,11 +60,11 @@ Het enumeratie {{ enumeration.name }} kent de volgende waarden:
 De enumeratie {{ enumeration.name }} heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model {{ enumeration.name }}"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
-    {% for kenmerk in object_kenmerken %}| {{ kenmerk }} | {{ enumeration.to_dict().get(kenmerk,'')|fix_and_format()|set_url() }} |
+    {% for kenmerk in object_kenmerken %}| {{ kenmerk }} | {{ enumeration.to_dict().get(kenmerk,'')|set_url()|fix_and_format_table() }} |
     {% endfor %}
 
 {% endfor %}
 {% endif %}
-

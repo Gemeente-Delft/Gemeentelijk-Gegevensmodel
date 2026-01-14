@@ -5,6 +5,7 @@
 > Geen definitie
 
 ??? info "Kenmerken Model Referentielijsten"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Referentielijsten |
@@ -12,11 +13,11 @@
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
+    | author | mante\_h |
     | version | 1.3 |
     | created | 2018-03-21 15:46:54 |
     | modified | 2024-11-21 08:38:15 |
-    | id | EAPK_38DBC4A7_96E3_4e93_AD37_84BF1310F685 |
+    | id | EAPK\_38DBC4A7\_96E3\_4e93\_AD37\_84BF1310F685 |
     
 
 Het model 'Referentielijsten' kent de volgende objecttypen:
@@ -57,6 +58,7 @@ Het model 'Referentielijsten' kent de volgende objecttypen:
 > Aanduiding in verband met het verblijfsrecht van de vreemdeling.
 
 ??? info "Kenmerken Model AanduidingVerblijfsrecht"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AanduidingVerblijfsrecht |
@@ -64,11 +66,11 @@ Het model 'Referentielijsten' kent de volgende objecttypen:
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Haas_R |
-    | version | 1.5 |
+    | author | Haas\_R |
+    | version | 1.12.0 |
     | created | 2015-05-04 11:23:39 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_EBE4A0C9_9281_4750_8E70_AF70A549CD6B |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_EBE4A0C9\_9281\_4750\_8E70\_AF70A549CD6B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | AanduidingVerblijfsrecht |
@@ -82,10 +84,10 @@ Attributen van objecttype AanduidingVerblijfsrecht
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumAanvangGeldigheidVerblijfsrecht | DATUM | Aanvang geldigheid van het verblijfsrecht |
-| datumEindeGeldigheidVerblijfsrecht | DATUM | Einde geldigheid van het verblijfsrecht |
 | verblijfsrechtnummer | AN2 | Het nummer van het verblijfsrecht |
 | verblijfsrechtomschrijving | AN250 | De omschrijving van het verblijfsrecht |
+| datumAanvangGeldigheidVerblijfsrecht | DATUM | Aanvang geldigheid van het verblijfsrecht |
+| datumEindeGeldigheidVerblijfsrecht | DATUM | Einde geldigheid van het verblijfsrecht |
 
 
 
@@ -95,6 +97,7 @@ Attributen van objecttype AanduidingVerblijfsrecht
 > Een opsomming van de diverse coderingen van de autoriteiten die een Nederlands reisdocument kunnen afgegeven
 
 ??? info "Kenmerken Model AutoriteitAfgifteNederlandsReisdocument"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AutoriteitAfgifteNederlandsReisdocument |
@@ -102,11 +105,11 @@ Attributen van objecttype AanduidingVerblijfsrecht
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Debat_E |
-    | version | 1.5 |
+    | author | Debat\_E |
+    | version | 1.12.0 |
     | created | 2015-11-26 12:09:05 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_E36F8A4C_C487_40ec_9D4F_4FDF5DCED461 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_E36F8A4C\_C487\_40ec\_9D4F\_4FDF5DCED461 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | AutoriteitAfgifteNederlandsReisdocument |
@@ -121,9 +124,9 @@ Attributen van objecttype AutoriteitAfgifteNederlandsReisdocument
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | code | AN6 | De code van de autoriteit van afgifte. |
+| omschrijving | AN255 | De omschrijving van de autoriteit van afgifte |
 | datumBeginGeldigheidAutoriteitVanAfgifte | DATUM | De datum waarop de autoriteit van afgifte is ontstaan. |
 | datumEindeGeldigheidAutoriteitVanAfgifte | DATUM | De datum waarop de autoriteit van aangifte is opgeheven. |
-| omschrijving | AN | De omschrijving van de autoriteit van afgifte |
 
 
 
@@ -133,6 +136,7 @@ Attributen van objecttype AutoriteitAfgifteNederlandsReisdocument
 > Rechtsgrond op basis waarvan men bevoegd is in een land te verblijven.
 
 ??? info "Kenmerken Model Verblijfstitel"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verblijfstitel |
@@ -140,11 +144,11 @@ Attributen van objecttype AutoriteitAfgifteNederlandsReisdocument
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.6 |
+    | author | Ashkan Ashkpour |
+    | version | 1.13.0 |
     | created | 2021-10-05 17:15:12 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_0F51B100_1C60_4d54_9B60_1C9BF9C856A2 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_0F51B100\_1C60\_4d54\_9B60\_1C9BF9C856A2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -171,18 +175,23 @@ Attributen van objecttype Verblijfstitel
 > Een opsomming van de diverse aarden van de aantekeningen zoals door de Dienst Kadaster is onderscheiden.
 
 ??? info "Kenmerken Model AardAantekening"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AardAantekening |
+<<<<<<< HEAD
     | toelichting | #NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening |
+=======
+    | toelichting | #NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening |
+>>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | debat_e |
-    | version | 1.5 |
+    | author | debat\_e |
+    | version | 1.12.0 |
     | created | 2015-09-17 09:10:38 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_BE0C0747_E9CD_4ae1_A83C_94A724513C7B |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_BE0C0747\_E9CD\_4ae1\_A83C\_94A724513C7B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -197,9 +206,9 @@ Attributen van objecttype AardAantekening
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | codeAardAantekening | AN2 | De code van het Aard Aantekening. |
-| datumBeginGeldigheidAardAantekening | DATUM | De datum waarop de aard aantekening  is ontstaan. |
+| naamAardAantekening | AN255 | De naam van de aard aantekening. |
+| datumBeginGeldigheidAardAantekening | DATUM | De datum waarop de aard aantekening is ontstaan. |
 | datumEindeGeldigheidAardAantekening | DATUM | De datum waarop de aard aantekening is opgeheven. |
-| naamAardAantekening | AN | De naam van de aard aantekening. |
 
 
 
@@ -209,6 +218,7 @@ Attributen van objecttype AardAantekening
 > Een opsomming van de diverse aarden van het zakelijk rechten zoals door de Dienst Kadaster is onderscheiden.
 
 ??? info "Kenmerken Model AardZakelijkRecht"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AardZakelijkRecht |
@@ -216,11 +226,11 @@ Attributen van objecttype AardAantekening
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | debat_e |
-    | version | 1.5 |
+    | author | debat\_e |
+    | version | 1.12.0 |
     | created | 2015-02-27 09:34:12 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_AC4F4A9C_1623_4447_9813_0722CDD58E66 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_AC4F4A9C\_1623\_4447\_9813\_0722CDD58E66 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -235,9 +245,9 @@ Attributen van objecttype AardZakelijkRecht
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | codeAardZakelijkRecht | N2 | De code van het Aard Zakelijk Recht. |
-| datumBeginGeldigheidAardZakelijkRecht | DATUM | De datum waarop het aard zakelijk recht  is ontstaan. |
+| naamAardZakelijkRecht | AN255 | De naam van het aard zakelijk recht. |
+| datumBeginGeldigheidAardZakelijkRecht | DATUM | De datum waarop het aard zakelijk recht is ontstaan. |
 | datumEindeGeldigheidAardZakelijkRecht | DATUM | De datum waarop het aard zakelijk recht is opgeheven. |
-| naamAardZakelijkRecht | AN | De naam van het aard zakelijk recht. |
 
 
 
@@ -247,6 +257,7 @@ Attributen van objecttype AardZakelijkRecht
 > Een opsomming van redenen waarom kadastrale onroerende zaken aan elkaar gerelateerd kunnen zijn
 
 ??? info "Kenmerken Model AardFiliatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AardFiliatie |
@@ -254,11 +265,11 @@ Attributen van objecttype AardZakelijkRecht
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | debat_e |
-    | version | 1.5 |
+    | author | debat\_e |
+    | version | 1.12.0 |
     | created | 2015-03-02 11:02:57 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_1453EF69_1E5E_49ae_8510_A68652374710 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_1453EF69\_1E5E\_49ae\_8510\_A68652374710 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -273,9 +284,9 @@ Attributen van objecttype AardFiliatie
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | codeAardFiliatie | N2 | De code van de aard filiatie. |
+| naamAardFiliatie | AN255 | De naam van de aard filiatie. |
 | datumBeginGeldigheidAardFiliatie | DATUM | De datum waarop de aard filiatie is ontstaan. |
 | datumEindeGeldigheidAardFiliatie | DATUM | De datum waarop de aard filiatie is opgeheven. |
-| naamAardFiliatie | AN | De naam van de aard filiatie. |
 
 
 
@@ -285,6 +296,7 @@ Attributen van objecttype AardFiliatie
 > Een formeel via het Staatsblad gepubliceerde aanduiding van een wetenschappelijke of andere graad van opleiding welke bij aanschrijving voorafgaat aan de voornamen (dan wel de daarvan afgeleide naamgegevens) dan wel volgt op de achternaam.
 
 ??? info "Kenmerken Model AcademischeTitel"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AcademischeTitel |
@@ -292,11 +304,11 @@ Attributen van objecttype AardFiliatie
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2018-03-21 15:46:58 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_B2857D85_8135_461e_90FF_A2E3DDD9981D |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_B2857D85\_8135\_461e\_90FF\_A2E3DDD9981D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -311,10 +323,10 @@ Attributen van objecttype AcademischeTitel
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | codeAcademischeTitel | AN3 | Een code die aangeeft welke academische titel behoort tot de naam. |
-| datumBeginGeldigheidTitel | OnvolledigeDatum | De datum waarop de ACADEMISCHE TITEL is ontstaan. |
-| datumEindeGeldigheidTitel | OnvolledigeDatum | De datum waarop de ACADEMISCHE TITEL is opgeheven. |
 | omschrijvingAcademischeTitel | AN80 | De omschrijving behorende bij NEN-tabel 'Academische titelcode'. |
 | positieAcademischeTitelTOVNaam | AN1 | Aanduiding of de academische titel voorafgaand aan de voornamen of achter de geslachtsnaam wordt geplaatst. |
+| datumBeginGeldigheidTitel | OnvolledigeDatum | De datum waarop de ACADEMISCHE TITEL is ontstaan. |
+| datumEindeGeldigheidTitel | OnvolledigeDatum | De datum waarop de ACADEMISCHE TITEL is opgeheven. |
 
 
 
@@ -324,6 +336,7 @@ Attributen van objecttype AcademischeTitel
 > De door de Dienst Kadaster onderkende AKR codes voor  kadastrale gemeenten
 
 ??? info "Kenmerken Model AkrKadastraleGemeentecode"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AkrKadastraleGemeentecode |
@@ -331,17 +344,17 @@ Attributen van objecttype AcademischeTitel
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | debat_e |
-    | version | 1.5 |
+    | author | debat\_e |
+    | version | 1.12.0 |
     | created | 2015-02-27 09:59:31 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_6BA8DD14_1CC9_4669_BDCC_856B5C628D6B |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_6BA8DD14\_1CC9\_4669\_BDCC\_856B5C628D6B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | AKRKadastraleGemeentecode |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-5bac73d2-8cbf-454b-8d23-692128387418](https://gemmaonline.nl/index.php/GEMMA/id-5bac73d2-8cbf-454b-8d23-692128387418) |
-    | gemma_definitie | De door de Dienst Kadaster onderkende AKR codes voor  kadastrale gemeenten |
+    | gemma_definitie | De door de Dienst Kadaster onderkende AKR codes voor kadastrale gemeenten |
     | gemma_toelichting |  |
     
 
@@ -349,9 +362,9 @@ Attributen van objecttype AkrKadastraleGemeentecode
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| AKRCode | AN | De AKR code van kadastrale gemeente  volgens de Dienst van het Kadaster. |
 | codeAKRKadadastraleGemeentecode | AN5 | Een volgens de Dienst van het Kadaster unieke code behorende bij de ARK code kadastrale gemeente. |
-| datumBeginGeldigheidAKRCode | Datum | De datum waarop de AKR code kadastrale gemeente  is ontstaan. |
+| AKRCode | AN255 | De AKR code van kadastrale gemeente volgens de Dienst van het Kadaster. |
+| datumBeginGeldigheidAKRCode | Datum | De datum waarop de AKR code kadastrale gemeente is ontstaan. |
 | datumEindeGeldigheidAKRCode | Datum | De datum waarop de AKR code kadastrale gemeente is opgeheven. |
 
 
@@ -362,6 +375,7 @@ Attributen van objecttype AkrKadastraleGemeentecode
 > De mogelijke cultuurcodes bebouwd conform de waardelijst Cultuurcode Bebouwd van het Kadaster
 
 ??? info "Kenmerken Model CultuurcodeBebouwd"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | CultuurcodeBebouwd |
@@ -369,11 +383,11 @@ Attributen van objecttype AkrKadastraleGemeentecode
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | debat_e |
-    | version | 1.5 |
+    | author | debat\_e |
+    | version | 1.12.0 |
     | created | 2015-02-27 12:20:57 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_DADECD97_1605_4c24_84A7_46AB2327468D |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_DADECD97\_1605\_4c24\_84A7\_46AB2327468D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | CultuurcodeBebouwd |
@@ -387,10 +401,10 @@ Attributen van objecttype CultuurcodeBebouwd
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| cultuurcodeBebouwd | N2 | De code van het gebruik van een bebouwd stuk grond. |
+| code | N2 | De code van het gebruik van een bebouwd stuk grond. |
+| naamCultuurcodeBebouwd | AN255 | De naam van de cultuurcode bebouwd. |
 | datumBeginGeldigheidCultuurcodeBebouwd | DATUM | De datum waarop de cultuurcode bebouwd is ontstaan. |
 | datumEindeGeldigheidCultuurcodeBebouwd | DATUM | De datum waarop de cultuurcode bebouwd is opgeheven. |
-| naamCultuurcodeBebouwd | AN | De naam van de cultuurcode bebouwd. |
 
 
 
@@ -400,6 +414,7 @@ Attributen van objecttype CultuurcodeBebouwd
 > De mogelijke cultuurcodes bebouwd conform de waardelijst Cultuurcode Bebouwd van het Kadaster
 
 ??? info "Kenmerken Model CultuurcodeOnbebouwd"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | CultuurcodeOnbebouwd |
@@ -407,11 +422,11 @@ Attributen van objecttype CultuurcodeBebouwd
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | debat_e |
-    | version | 1.5 |
+    | author | debat\_e |
+    | version | 1.12.0 |
     | created | 2015-02-27 14:08:48 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_ACAF3418_7E0F_43eb_B470_4AF98C37A49B |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_ACAF3418\_7E0F\_43eb\_B470\_4AF98C37A49B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | CultuurcodeOnbebouwd |
@@ -425,10 +440,10 @@ Attributen van objecttype CultuurcodeOnbebouwd
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| cultuurcodeOnbebouwd | N2 | De code van het gebruik van een onbebouwd stuk grond. |
+| code | N2 | De code van het gebruik van een onbebouwd stuk grond. |
+| naamCultuurcodeOnbebouwd | AN255 | De naam van de cultuurcode onbebouwd. |
 | datumBeginGeldigheidCultuurcodeOnbebouwd | DATUM | De datum waarop de cultuurcode onbebouwd is ontstaan. |
 | datumEindeGeldigheidCultuurcodeOnbebouwd | DATUM | De datum waarop de cultuurcode onbebouwd is opgeheven. |
-| naamCultuurcodeOnbebouwd | AN | De naam van de cultuurcode onbebouwd. |
 
 
 
@@ -438,6 +453,7 @@ Attributen van objecttype CultuurcodeOnbebouwd
 > De mogelijke codes  waarin een soort object kan worden uitgedrukt conform de uniforme deelobjectcodelijst van de Waarderingskamer
 
 ??? info "Kenmerken Model WOZ-Deelobjectcode"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | WOZ-Deelobjectcode |
@@ -445,11 +461,11 @@ Attributen van objecttype CultuurcodeOnbebouwd
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | debat_e |
-    | version | 1.5 |
+    | author | debat\_e |
+    | version | 1.12.0 |
     | created | 2015-03-09 11:16:33 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_D8154D91_27A5_4cc1_9B52_639BF24CAC29 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_D8154D91\_27A5\_4cc1\_9B52\_639BF24CAC29 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -463,10 +479,10 @@ Attributen van objecttype WOZ-Deelobjectcode
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| deelobjectcode | AN4 | De code van een soort deelobject niet-woningen. |
+| naamDeelobjectcode | AN255 | De naam van de deelobjectcode. |
 | datumBeginGeldigheidDeelojectcode | DATUM | De datum waarop de deelobjectcode is ontstaan. |
 | datumEindeGeldigheidDeelobjectcode | DATUM | De datum waarop de deelobjectcode is opgeheven. |
-| deelobjectcode | AN4 | De code van een soort deelobject niet-woningen. |
-| naamDeelobjectcode | AN | De naam van de deelobjectcode. |
 
 
 
@@ -476,6 +492,7 @@ Attributen van objecttype WOZ-Deelobjectcode
 > De mogelijke onderscheiden gedeeltes van het grondgebied van Nederland, volgens de Dienst Kadaster en de Openbare Registers, zoals nader omschreven in het Kadasterbesluit
 
 ??? info "Kenmerken Model KadastraleGemeente"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | KadastraleGemeente |
@@ -483,11 +500,11 @@ Attributen van objecttype WOZ-Deelobjectcode
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | debat_e |
-    | version | 1.5 |
+    | author | debat\_e |
+    | version | 1.12.0 |
     | created | 2013-10-10 10:50:59 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_51BA37A4_2E1D_4704_9153_02759084D5E2 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_51BA37A4\_2E1D\_4704\_9153\_02759084D5E2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | KadastraleGemeente |
@@ -501,10 +518,10 @@ Attributen van objecttype KadastraleGemeente
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumBeginGeldigheidKadastraleGemeente | DATUM | De datum waarop de kadastrale gemeente is ontstaan. |
-| datumEindeGeldigheidKadastraleGemeente | DATUM | De datum waarop de kadastrale gemeente is opgeheven. |
 | kadastraleGemeentecode | AN5 | De code van de KADASTRALE GEMEENTE volgens de Dienst van het Kadaster en de Openbare Registers, zoals nader omschreven in het Kadasterbesluit. |
 | naam | AN40 | De naam van de KADASTRALE GEMEENTE volgens de Dienst van het Kadaster en de Openbare Registers, zoals nader omschreven in het Kadasterbesluit |
+| datumBeginGeldigheidKadastraleGemeente | DATUM | De datum waarop de kadastrale gemeente is ontstaan. |
+| datumEindeGeldigheidKadastraleGemeente | DATUM | De datum waarop de kadastrale gemeente is opgeheven. |
 
 
 
@@ -514,6 +531,7 @@ Attributen van objecttype KadastraleGemeente
 > Een gedeelte van de wereld met een eigen bestuur, waarvan de soevereiniteit in ieder geval door Nederland is erkend.
 
 ??? info "Kenmerken Model LandOfgebied"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | LandOfgebied |
@@ -521,11 +539,11 @@ Attributen van objecttype KadastraleGemeente
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-07-06 13:26:39 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_A17A01A9_2A4F_46e8_A55A_2B151F8ED46E |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_A17A01A9\_2A4F\_46e8\_A55A\_2B151F8ED46E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | LandOfGebied |
@@ -539,11 +557,11 @@ Attributen van objecttype LandOfgebied
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumEindeLand | DATUM | De datum waarop het land/gebied is opgeheven. |
-| datumIngangLand | DATUM | De datum waarop het land/gebied is ontstaan. |
 | landcode | AN4 | De code, behorende bij de landnaam, zoals opgenomen in de Land/Gebied-tabel van de BRP. |
-| landcodeISO | AN2 | De code van een huidig land of gebiedsdeel conform ISO 3166 |
 | landnaam | AN40 | De naam van het land, zoals opgenomen in de Land/Gebied-tabel van de BRP. |
+| datumIngangLand | DATUM | De datum waarop het land/gebied is ontstaan. |
+| datumEindeLand | DATUM | De datum waarop het land/gebied is opgeheven. |
+| landcodeISO | AN2 | De code van een huidig land of gebiedsdeel conform ISO 3166 |
 
 
 
@@ -553,6 +571,7 @@ Attributen van objecttype LandOfgebied
 > Een gedeelte van de wereld met een eigen bestuur, waarvan de soevereiniteit in ieder geval door Nederland is erkend.
 
 ??? info "Kenmerken Model Provincie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Provincie |
@@ -560,11 +579,11 @@ Attributen van objecttype LandOfgebied
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2019-01-21 14:39:45 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_5A8F56B7_AE35_4212_B059_DAD064EDBAB8 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_5A8F56B7\_AE35\_4212\_B059\_DAD064EDBAB8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Provincie |
@@ -578,13 +597,13 @@ Attributen van objecttype Provincie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumEindeProvincie | DATUM | De datum waarop het land/gebied is opgeheven. |
-| datumIngangProvincie | DATUM | De datum waarop het land/gebied is ontstaan. |
-| hoofdstad |  | De code van een huidig land of gebiedsdeel conform ISO 3166 |
-| oppervlakte | int | Oppervlakte in km2 |
-| oppervlakteLand | int | Landoppervlakte in km2 |
 | provinciecode | AN4 | De code, behorende bij de landnaam, zoals opgenomen in de Land/Gebied-tabel van de BRP. |
 | provincienaam | AN40 | De naam van het land, zoals opgenomen in de Land/Gebied-tabel van de BRP. |
+| datumIngangProvincie | DATUM | De datum waarop het land/gebied is ontstaan. |
+| datumEindeProvincie | DATUM | De datum waarop het land/gebied is opgeheven. |
+| hoofdstad | Gemeente | De code van een huidig land of gebiedsdeel conform ISO 3166 |
+| oppervlakte | int | Oppervlakte in km2 |
+| oppervlakteLand | int | Landoppervlakte in km2 |
 
 
 
@@ -594,18 +613,19 @@ Attributen van objecttype Provincie
 > Een PARTIJ die bij de centrale voorzieningen van de BRP bekend is.
 
 ??? info "Kenmerken Model Partij"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Partij |
-    | toelichting | #NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen. |
+    | toelichting | Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Haas_R |
-    | version | 1.5 |
+    | author | Haas\_R |
+    | version | 1.12.0 |
     | created | 2015-04-30 16:13:29 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_0F175713_CEAB_4c6e_8A61_27F93C1FC777 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_0F175713\_CEAB\_4c6e\_8A61\_27F93C1FC777 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Partij |
@@ -620,11 +640,11 @@ Attributen van objecttype Partij
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | code | AN6 | De code van de PARTIJ. |
-| datumAanvangGeldigheidPartij | DATUM | De datum waarop de geldigheid van de partij is gestart. |
-| datumEindeGeldigheidPartij | DATUM | De datum waarop de geldigheid van de partij is beëindigd. |
 | naam | AN80 | De naam van de PARTIJ. |
 | soort | N2 |  |
-| verstrekkingsbeperkingMogelijk | INDIC | Indicator die aangeeft of van de betreffende PARTIJ een verstrekkingsbeperking mogelijk is. |
+| verstrekkingsbeperkingMogelijk |  | Indicator die aangeeft of van de betreffende PARTIJ een verstrekkingsbeperking mogelijk is. |
+| datumAanvangGeldigheidPartij | DATUM | De datum waarop de geldigheid van de partij is gestart. |
+| datumEindeGeldigheidPartij | DATUM | De datum waarop de geldigheid van de partij is beëindigd. |
 
 
 
@@ -634,6 +654,7 @@ Attributen van objecttype Partij
 > Tabel waarin de redenen staan voor opname van de Nederlandse nationaliteit.
 
 ??? info "Kenmerken Model RedenVerkrijgingNationaliteit"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | RedenVerkrijgingNationaliteit |
@@ -641,11 +662,11 @@ Attributen van objecttype Partij
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Haas_R |
-    | version | 1.5 |
+    | author | Haas\_R |
+    | version | 1.12.0 |
     | created | 2015-05-01 13:49:06 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_61D1E99C_DF5E_48ee_8BAB_4ACA1745BC7C |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_61D1E99C\_DF5E\_48ee\_8BAB\_4ACA1745BC7C |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | RedenVerkrijgingNationaliteit |
@@ -659,10 +680,10 @@ Attributen van objecttype RedenVerkrijgingNationaliteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| redennummerVerkrijging | AN3 | Het identificerende nummer van de reden van verkrijging van de nationaliteit |
+| omschrijvingVerkrijging | AN250 | De omschrijving van de reden van verkrijging van de Nederlandse nationaliteit |
 | datumAanvangGeldigheidVerkrijging | DATUM | De datum aanvang geldigheid van de reden van verkrijging van de nationaliteit |
 | datumEindeGeldigheidVerkrijging | DATUM | De datum einde geldigheid van de reden van verkrijging van de nationaliteit |
-| omschrijvingVerkrijging | AN250 | De omschrijving van de reden van verkrijging van de Nederlandse nationaliteit |
-| redennummerVerkrijging | AN3 | Het identificerende nummer van de reden van verkrijging van de nationaliteit |
 
 
 
@@ -672,6 +693,7 @@ Attributen van objecttype RedenVerkrijgingNationaliteit
 > Tabel waarin de redenen staan voor beëindiging van de Nederlandse nationaliteit.
 
 ??? info "Kenmerken Model RedenVerliesNationaliteit"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | RedenVerliesNationaliteit |
@@ -679,11 +701,11 @@ Attributen van objecttype RedenVerkrijgingNationaliteit
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Haas_R |
-    | version | 1.5 |
+    | author | Haas\_R |
+    | version | 1.12.0 |
     | created | 2015-05-01 13:49:06 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_7F97B43F_CCA1_4bfc_9824_9BEC8D2A70E6 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_7F97B43F\_CCA1\_4bfc\_9824\_9BEC8D2A70E6 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | RedenVerliesNationaliteit |
@@ -697,10 +719,10 @@ Attributen van objecttype RedenVerliesNationaliteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| redennummerVerlies | AN3 | Het identificerende nummer van de reden van verlies van de nationaliteit |
+| omschrijvingVerlies | AN250 | De omschrijving van de reden van de verlies van de nationaliteit |
 | datumAanvangGeldigheidVerlies | DATUM | De datum aanvang geldigheid van de reden van de verlies van de nationaliteit |
 | datumEindeGeldigheidVerlies | DATUM | De datum einde geldigheid van de reden van de verlies van de nationaliteit |
-| omschrijvingVerlies | AN250 | De omschrijving van de reden van de verlies van de nationaliteit |
-| redennummerVerlies | AN3 | Het identificerende nummer van de reden van verlies van de nationaliteit |
 
 
 
@@ -710,6 +732,7 @@ Attributen van objecttype RedenVerliesNationaliteit
 > Een opsomming van de modellen van de Nederlandse reisdocumenten.
 
 ??? info "Kenmerken Model Reisdocumentsoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Reisdocumentsoort |
@@ -717,11 +740,11 @@ Attributen van objecttype RedenVerliesNationaliteit
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-07-06 12:14:18 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_6B9EC881_1112_44bc_B114_203A793A54B1 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_6B9EC881\_1112\_44bc\_B114\_203A793A54B1 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -735,10 +758,10 @@ Attributen van objecttype Reisdocumentsoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumBeginGeldigheidReisdocumentsoort | DATUM | De datum waarop de reisdocumentsoort is ontstaan. |
-| datumEindeGeldigheidReisdocumentsoort | DATUM | De datum waarop de reisdocumentsoort is opgeheven. |
 | reisdocumentcode | AN2 | Een code voor het model van een Nederlands reisdocument. |
 | reisdocumentOmschrijving | AN250 | De omschrijving van het model van het Nederlands reisdocument. |
+| datumBeginGeldigheidReisdocumentsoort | DATUM | De datum waarop de reisdocumentsoort is ontstaan. |
+| datumEindeGeldigheidReisdocumentsoort | DATUM | De datum waarop de reisdocumentsoort is opgeheven. |
 
 
 
@@ -748,18 +771,23 @@ Attributen van objecttype Reisdocumentsoort
 > De hiërarchische indeling van economische activiteiten conform SBI (Standaard Bedrijfsindeling).
 
 ??? info "Kenmerken Model SBIActiviteit"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SBIActiviteit |
+<<<<<<< HEAD
     | toelichting | #NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten |
+=======
+    | toelichting | #NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten |
+>>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | debat_e |
-    | version | 1.5 |
+    | author | debat\_e |
+    | version | 1.12.0 |
     | created | 2015-02-03 09:46:54 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_B3F47842_F9C5_4417_BC76_05CA58D4998D |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_B3F47842\_F9C5\_4417\_BC76\_05CA58D4998D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -773,12 +801,12 @@ Attributen van objecttype SBIActiviteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumEindeSBIActiviteit | DATUM | De datum waarop de SBI code is ingetrokken. |
+| SBICode | AN10 | De code van de activiteit zoals opgenomen in de SBI 2008. |
+| naamActiviteit | AN60 | De naam van de SBI activiteit volgens de SBI 2008. |
 | datumIngangSBIActiviteit | DATUM | De datum waarop de SBI activiteit is ontstaan. |
+| datumEindeSBIActiviteit | DATUM | De datum waarop de SBI code is ingetrokken. |
 | hoofdniveau | AN60 |  |
 | hoofdniveauOmschrijving | AN100 |  |
-| naamActiviteit | AN60 | De naam van de SBI activiteit volgens de SBI 2008. |
-| SBICode | AN10 | De code van de activiteit zoals opgenomen in de SBI 2008. |
 | SBIGroep | AN10 |  |
 | SBIGroepOmschrijving | AN100 |  |
 
@@ -790,6 +818,7 @@ Attributen van objecttype SBIActiviteit
 > Een opsomming van de  soorten grootte zoals die kunnen voorkomen in een aktetekst van het Kadaster  en aanduiden op welke wijze de grootte van een perceel is vastgesteld conform de waardelijst SoortGrootte van het Kadaster
 
 ??? info "Kenmerken Model SoortGrootte"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SoortGrootte |
@@ -797,11 +826,11 @@ Attributen van objecttype SBIActiviteit
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | debat_e |
-    | version | 1.5 |
+    | author | debat\_e |
+    | version | 1.12.0 |
     | created | 2015-02-27 13:50:33 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_9D7F05BF_414E_4071_9E78_FAD2AA21D40E |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_9D7F05BF\_414E\_4071\_9E78\_FAD2AA21D40E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -816,9 +845,9 @@ Attributen van objecttype SoortGrootte
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | codeSoortGrootte | N1 | De code van de soort grootte. |
+| naamSoortGrootte | AN255 | De naam van de soort grootte. |
 | datumBeginGeldigheidSoortGrootte | DATUM | De datum waarop de soort grootte is ontstaan. |
 | datumEindeGeldigheidSoortGrootte | DATUM | De datum waarop de soort grootte is opgeheven. |
-| naamSoortGrootte | AN | De naam van de soort grootte. |
 
 
 
@@ -828,6 +857,7 @@ Attributen van objecttype SoortGrootte
 > De mogelijke codes  waarin een soort object kan worden uitgedrukt conform de uniforme soort objectcodelijst van de Waarderingskamer
 
 ??? info "Kenmerken Model SoortWOZObject"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SoortWOZObject |
@@ -835,11 +865,11 @@ Attributen van objecttype SoortGrootte
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | debat_e |
-    | version | 1.5 |
+    | author | debat\_e |
+    | version | 1.12.0 |
     | created | 2015-03-09 11:36:08 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_3741181A_07D0_4f62_B076_B3318266500F |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_3741181A\_07D0\_4f62\_B076\_B3318266500F |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -853,11 +883,11 @@ Attributen van objecttype SoortWOZObject
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| soortobjectcode | N4 | De code van het soort object. |
+| naamSoortObjectcode | AN255 | De naam van de soort objectcode. |
+| opmerkingenSoortObjectcode | AN255 | Een toelichting op de soort objectcode. |
 | datumBeginGeldigheidSoortObjectcode | DATUM | De datum waarop de soort objectcode is ontstaan. |
 | datumEindeGeldigheidSoortObjectcode | DATUM | De datum waarop de soort objectcode is opgeheven. |
-| naamSoortObjectcode | AN | De naam van de soort objectcode. |
-| opmerkingenSoortObjectcode | AN | Een toelichting op de soort objectcode. |
-| soortobjectcode | N4 | De code van het soort object. |
 
 
 
@@ -867,6 +897,7 @@ Attributen van objecttype SoortWOZObject
 > De mogelijke munteenheden waarin een geldbedrag kan worden uitgedrukt conform de waardelijst Valutasoort van het Kadaster
 
 ??? info "Kenmerken Model Valutasoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Valutasoort |
@@ -874,11 +905,11 @@ Attributen van objecttype SoortWOZObject
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | debat_e |
-    | version | 1.5 |
+    | author | debat\_e |
+    | version | 1.12.0 |
     | created | 2015-02-27 11:55:08 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_DC6C8DCB_EE07_4e2b_9087_648BD0D0D473 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_DC6C8DCB\_EE07\_4e2b\_9087\_648BD0D0D473 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -892,10 +923,10 @@ Attributen van objecttype Valutasoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| valutacode | AN3 | Een unieke code van de valuta. |
+| naamValuta | AN255 | De naam van de valuta. |
 | datumBeginGeldigheidValutasoort | Datum | De datum waarop de valuta is ontstaan. |
 | datumEindeGeldigheidValutasoort | Datum | De datum waarop de valuta is opgeheven. |
-| naamValuta | AN | De naam van de valuta. |
-| valutacode | AN3 | Een unieke  code van de valuta. |
 
 
 
@@ -905,6 +936,7 @@ Attributen van objecttype Valutasoort
 > Een gedeelte van de wereld met een eigen bestuur, waarvan de soevereiniteit in ieder geval door Nederland is erkend.
 
 ??? info "Kenmerken Model Land"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Land |
@@ -912,11 +944,11 @@ Attributen van objecttype Valutasoort
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2018-03-21 15:46:58 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_4B2CCD18_9004_4253_B72E_9243F3330F02 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_4B2CCD18\_9004\_4253\_B72E\_9243F3330F02 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Land |
@@ -930,13 +962,13 @@ Attributen van objecttype Land
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumEindeFictief | boolean |  |
-| datumEindeLand | OnvolledigeDatum | De datum waarop het land is opgeheven. |
-| datumIngangLand | Onvolledigedatum | De datum waarop het land is ontstaan. |
 | landcode | N4 | De code, behorende bij de landnaam, opgenomen in de Landentabel van de GBA. |
-| landcodeISODrieletterig | AN3 |  |
-| landcodeISOTweeletterig | AN2 | De code van een huidig land of gebiedsdeel conform ISO 3166 |
 | landnaam | AN40 | De naam van het land, zoals opgenomen in de Landentabel van de GBA. |
+| datumIngangLand | Onvolledigedatum | De datum waarop het land is ontstaan. |
+| datumEindeLand | OnvolledigeDatum | De datum waarop het land is opgeheven. |
+| landcodeISOTweeletterig | AN2 | De code van een huidig land of gebiedsdeel conform ISO 3166 |
+| datumEindeFictief | boolean |  |
+| landcodeISODrieletterig | AN3 |  |
 
 
 
@@ -946,6 +978,7 @@ Attributen van objecttype Land
 > De hoedanigheid van tot een bepaalde natie te behoren.
 
 ??? info "Kenmerken Model Nationaliteit"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Nationaliteit |
@@ -954,10 +987,10 @@ Attributen van objecttype Land
     | uri |  |
     | bron |  |
     | author | Ellen Debats |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-03-21 15:46:58 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_71B3BE0D_2BF9_4740_9597_A0EEC75AFE9B |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_71B3BE0D\_2BF9\_4740\_9597\_A0EEC75AFE9B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Nationaliteit |
@@ -972,9 +1005,9 @@ Attributen van objecttype Nationaliteit
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | codeNationaliteit | N4 | Een code die aangeeft welke nationaliteit de ingeschrevene bezit. |
+| nationaliteitOmschrijving | AN42 | De omschrijving van de nationaliteit. |
 | datumBeginGeldigheidNationaliteit | datum | De datum waarop de nationaliteit is ontstaan. |
 | datumEindeGeldigheidNationaliteit | datum | De datum waarop de nationaliteit is opgeheven. |
-| nationaliteitOmschrijving | AN42 | De omschrijving van de nationaliteit. |
 
 
 
@@ -984,6 +1017,7 @@ Attributen van objecttype Nationaliteit
 > De hoedanigheid van tot een bepaalde natie te behoren.
 
 ??? info "Kenmerken Model Valuta"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Valuta |
@@ -992,10 +1026,10 @@ Attributen van objecttype Nationaliteit
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-08-09 15:43:04 |
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_ABC4F2A1_A1C6_4db4_9227_4D7D63C5F94E |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_ABC4F2A1\_A1C6\_4db4\_9227\_4D7D63C5F94E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1009,11 +1043,10 @@ Attributen van objecttype Valuta
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| valutacode | AN3 | Een code die aangeeft welke nationaliteit de ingeschrevene bezit. |
+| naam | AN42 | De omschrijving van de nationaliteit. |
 | datumBeginGeldigheid | datum | De datum waarop de nationaliteit is ontstaan. |
 | datumEindeGeldigheid | datum | De datum waarop de nationaliteit is opgeheven. |
-| naam | AN42 | De omschrijving van de nationaliteit. |
-| valutacode | AN3 | Een code die aangeeft welke nationaliteit de ingeschrevene bezit. |
-
 
 
 

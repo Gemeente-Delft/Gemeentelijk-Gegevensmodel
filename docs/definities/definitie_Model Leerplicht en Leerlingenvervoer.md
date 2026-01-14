@@ -5,6 +5,7 @@
 > Het informatiedomein dat gegevens omvat over de naleving van de leerplichtwet en de organisatie van leerlingenvervoer, gericht op het waarborgen van toegang tot onderwijs voor alle kinderen en jongeren.
 
 ??? info "Kenmerken Model Model Leerplicht en Leerlingenvervoer"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Leerplicht en Leerlingenvervoer |
@@ -16,7 +17,7 @@
     | version | 1.1 |
     | created | 2019-10-07 17:03:22 |
     | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_6F2E0E52_6244_4227_B563_738DCF19E6C9 |
+    | id | EAPK\_6F2E0E52\_6244\_4227\_B563\_738DCF19E6C9 |
     
 
 Het model 'Model Leerplicht en Leerlingenvervoer' kent de volgende objecttypen:
@@ -47,6 +48,7 @@ Het model 'Model Leerplicht en Leerlingenvervoer' kent de volgende objecttypen:
 > Een aanvraag voor een leerling die recht heeft op vervoer van en naar onderwijs.
 
 ??? info "Kenmerken Model Aanvraag Leerlingenvervoer"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aanvraag Leerlingenvervoer |
@@ -55,10 +57,10 @@ Het model 'Model Leerplicht en Leerlingenvervoer' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-08 14:25:36 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_07F40D10_74AC_4f56_8B71_A236A63C2122 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_07F40D10\_74AC\_4f56\_8B71\_A236A63C2122 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | AanvraagLeerlingenvervoer |
@@ -81,6 +83,7 @@ Attributen van objecttype Aanvraag Leerlingenvervoer
 > Komt overeen met een VJV
 
 ??? info "Kenmerken Model AanvraagOfMelding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AanvraagOfMelding |
@@ -89,10 +92,10 @@ Attributen van objecttype Aanvraag Leerlingenvervoer
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-08 13:41:08 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_66E2B5BA_44A0_4fde_AE33_E211EE4832C2 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_66E2B5BA\_44A0\_4fde\_AE33\_E211EE4832C2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | AanvraagOfMelding |
@@ -108,8 +111,8 @@ Attributen van objecttype AanvraagOfMelding
 | :--- | :--- | :--- |
 | datum | Date |  |
 | opmerkingen | AN300 |  |
+| soortVerzuimOfAanvraag | Verzuimsoort |  |
 | reden | AN300 |  |
-| soortVerzuimOfAanvraag | Enumeratie: "Verzuimsoort" |  |
 
 
 
@@ -119,6 +122,7 @@ Attributen van objecttype AanvraagOfMelding
 > Vrijstelling van een aanvraag voor leerlingenvervoer
 
 ??? info "Kenmerken Model AanvraagVrijstelling"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AanvraagVrijstelling |
@@ -127,10 +131,10 @@ Attributen van objecttype AanvraagOfMelding
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-07 17:08:58 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_450F47A7_758F_400c_82EB_05535EBDD426 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_450F47A7\_758F\_400c\_82EB\_05535EBDD426 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -144,8 +148,8 @@ Attributen van objecttype AanvraagVrijstelling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| buitenlandseSchoollocatie | AN300 |  |
 | datumAanvraag | Date |  |
+| buitenlandseSchoollocatie | AN300 |  |
 
 
 
@@ -155,6 +159,7 @@ Attributen van objecttype AanvraagVrijstelling
 > Een formeel besluit dat genomen wordt door een bevoegde instantie over het al dan niet toekennen van leerlingenvervoer aan een bepaalde leerling.
 
 ??? info "Kenmerken Model Beschikking Leerlingenvervoer"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Beschikking Leerlingenvervoer |
@@ -163,10 +168,10 @@ Attributen van objecttype AanvraagVrijstelling
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.7 |
+    | version | 1.14.0 |
     | created | 2019-10-08 14:24:29 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_81870665_768C_4fb2_8A4F_A9CB7989C884 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_81870665\_768C\_4fb2\_8A4F\_A9CB7989C884 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | BeschikkingLeerlingenvervoer |
@@ -189,6 +194,7 @@ Attributen van objecttype Beschikking Leerlingenvervoer
 > Selectie van een voorstelbare werkelijkheid (voorkeursvariant) uit een aantal mogelijke werkelijkheden (varianten) op basis van een verzameling van criteria.
 
 ??? info "Kenmerken Model Beslissing"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Beslissing |
@@ -197,10 +203,10 @@ Attributen van objecttype Beschikking Leerlingenvervoer
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.11.0 |
     | created | 2019-10-07 17:07:12 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_B65280CD_3429_4966_AD2D_CB3EE76EE2E8 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_B65280CD\_3429\_4966\_AD2D\_CB3EE76EE2E8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Beslissing |
@@ -215,8 +221,8 @@ Attributen van objecttype Beslissing
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datum | Date |  |
-| opmerkingen | text |  |
 | reden | AN200 |  |
+| opmerkingen | text |  |
 
 
 
@@ -226,6 +232,7 @@ Attributen van objecttype Beslissing
 > De overdracht van een leerplichtzaak aan het Openbaar Ministerie voor juridische vervolging.
 
 ??? info "Kenmerken Model Doorgeleiding OM"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Doorgeleiding OM |
@@ -234,10 +241,10 @@ Attributen van objecttype Beslissing
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.7 |
+    | version | 1.14.0 |
     | created | 2019-10-07 17:09:13 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_90E49701_2A06_4669_9199_6FCFDFCA707A |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_90E49701\_2A06\_4669\_9199\_6FCFDFCA707A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | DoorgeleidingOM |
@@ -261,6 +268,7 @@ Attributen van objecttype Doorgeleiding OM
 > Jongeren van 12 tot 18 jaar die strafbare feiten plegen, zoals bijvoorbeeld: winkeldiefstal, vernieling, openbaar dronkenschap of oplichting kunnen naar Halt worden verwezen. In sommige gevallen is daarvoor toestemming nodig van het Openbaar Ministerie.
 
 ??? info "Kenmerken Model HALT-verwijzing"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | HALT-verwijzing |
@@ -269,10 +277,10 @@ Attributen van objecttype Doorgeleiding OM
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-07 17:25:07 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_70E3C6AF_1117_4cfc_B61F_0D168010FFB9 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_70E3C6AF\_1117\_4cfc\_B61F\_0D168010FFB9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | HALTVerwijzing |
@@ -287,8 +295,8 @@ Attributen van objecttype HALT-verwijzing
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | afdoening | AN300 |  |
-| datumMutatie | Date |  |
 | datumRetour | Date |  |
+| datumMutatie | Date |  |
 | memo | Text |  |
 
 
@@ -299,6 +307,7 @@ Attributen van objecttype HALT-verwijzing
 > Een uiting van ontevredenheid over het vervoer van leerlingen.
 
 ??? info "Kenmerken Model Klacht Leerlingenvervoer"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Klacht Leerlingenvervoer |
@@ -307,10 +316,10 @@ Attributen van objecttype HALT-verwijzing
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-17 11:16:59 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_07FE66E8_8316_406b_A590_922C2E7B4305 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_07FE66E8\_8316\_406b\_A590\_922C2E7B4305 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | KlachtLeerlingenvervoer |
@@ -333,6 +342,7 @@ Attributen van objecttype Klacht Leerlingenvervoer
 > Ambtenaar die toezicht houdt op de uitvoering van de leerplichtwet.
 
 ??? info "Kenmerken Model Leerplichtambtenaar"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Leerplichtambtenaar |
@@ -341,10 +351,10 @@ Attributen van objecttype Klacht Leerlingenvervoer
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-05-28 16:47:00 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_B369B374_F560_4ea6_9A8B_DBBCB4961EFF |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_B369B374\_F560\_4ea6\_9A8B\_DBBCB4961EFF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Leerplichtambtenaar |
@@ -367,6 +377,7 @@ Attributen van objecttype Leerplichtambtenaar
 > Een officieel document dat een overtreding van de leerplichtwet vastlegt.
 
 ??? info "Kenmerken Model Procesverbaal Onderwijs"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Procesverbaal Onderwijs |
@@ -374,11 +385,11 @@ Attributen van objecttype Leerplichtambtenaar
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.7 |
+    | author | Arjen Brienen |
+    | version | 1.14.0 |
     | created | 2018-05-04 14:58:20 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_697F1730_B439_4b35_8799_1B2E9AB04548 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_697F1730\_B439\_4b35\_8799\_1B2E9AB04548 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | ProcesverbaalOnderwijs |
@@ -392,19 +403,19 @@ Attributen van objecttype Procesverbaal Onderwijs
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumAfgehandeld | Date |  |
-| datumEindeProeftijd | Date |  |
-| datumIngelicht | Date |  |
-| datumUitspraak | Date |  |
-| datumZitting | Date |  |
-| geldboete | Bedrag |  |
-| geldboeteVoorwaardelijk | Enumeratie: "Boolean" |  |
-| opmerkingen | An1000 |  |
-| proeftijd | int | Proeftijd in dagen |
 | reden | AN255 |  |
+| opmerkingen | An1000 |  |
+| datumIngelicht | Date |  |
 | sanctiesoort | AN100 |  |
 | uitspraak | AN500 |  |
-| verzuimsoort | Enumeratie: "Verzuimsoort" |  |
+| proeftijd | int | Proeftijd in dagen |
+| geldboete | Bedrag |  |
+| verzuimsoort | Verzuimsoort |  |
+| datumZitting | Date |  |
+| datumAfgehandeld | Date |  |
+| datumUitspraak | Date |  |
+| datumEindeProeftijd | Date |  |
+| geldboeteVoorwaardelijk | Boolean |  |
 
 
 
@@ -414,6 +425,7 @@ Attributen van objecttype Procesverbaal Onderwijs
 > Een verzoek om toestemming te krijgen iets te doen, bijvoorbeeld vakantie of studie
 
 ??? info "Kenmerken Model Verlofaanvraag"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verlofaanvraag |
@@ -422,10 +434,10 @@ Attributen van objecttype Procesverbaal Onderwijs
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-07 17:08:43 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_E9DECE41_F7F5_49f1_94B5_63DE941F6094 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_E9DECE41\_F7F5\_49f1\_94B5\_63DE941F6094 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -451,6 +463,7 @@ Attributen van objecttype Verlofaanvraag
 > Degene die openbaar vervoer of besloten busvervoer verricht, niet in de hoedanigheid van bestuurder van een auto, bus, trein, metro, tram of een via een geleidesysteem voortbewogen voertuig.
 
 ??? info "Kenmerken Model Vervoerder"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vervoerder |
@@ -459,10 +472,10 @@ Attributen van objecttype Verlofaanvraag
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-17 11:24:55 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_613E192A_D0F2_4e67_BE73_51C09197EE3D |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_613E192A\_D0F2\_4e67\_BE73\_51C09197EE3D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Vervoerder |
@@ -485,6 +498,7 @@ Attributen van objecttype Vervoerder
 > Een melding dat een leerling niet op school verschijnt. De school moet actie ondernemen naar de leerling (en zijn ouders). Een school moet het verzuim melden bij de gemeente.
 
 ??? info "Kenmerken Model Verzuimmelding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verzuimmelding |
@@ -492,11 +506,11 @@ Attributen van objecttype Vervoerder
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-05-04 14:57:49 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_252C70B1_4E02_4033_B2B5_86F65496D7AB |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_252C70B1\_4E02\_4033\_B2B5\_86F65496D7AB |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Verzuimmelding |
@@ -510,8 +524,8 @@ Attributen van objecttype Verzuimmelding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumEinde | Datum |  |
 | datumStart | Datum |  |
+| datumEinde | Datum |  |
 | voorstelSchool | AN300 |  |
 
 
@@ -522,6 +536,7 @@ Attributen van objecttype Verzuimmelding
 > Een formeel besluit waarbij een leerling wordt ontheven van de leerplicht.
 
 ??? info "Kenmerken Model Vrijstelling"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vrijstelling |
@@ -529,11 +544,11 @@ Attributen van objecttype Verzuimmelding
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.7 |
+    | author | Arjen Brienen |
+    | version | 1.14.0 |
     | created | 2018-05-04 14:58:11 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_B8584CD2_A54A_4a59_82B6_A597A0864CFA |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_B8584CD2\_A54A\_4a59\_82B6\_A597A0864CFA |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Vrijstelling |
@@ -547,11 +562,11 @@ Attributen van objecttype Vrijstelling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aanvraagToegekend | Enumeratie: "Boolean" |  |
-| buitenlandseSchoollocatie | AN500 |  |
-| datumEinde | Datum |  |
 | datumStart | Datum |  |
-| verzuimsoort | Enumeratie: "Verzuimsoort" |  |
+| datumEinde | Datum |  |
+| aanvraagToegekend | Boolean |  |
+| verzuimsoort | Verzuimsoort |  |
+| buitenlandseSchoollocatie | AN500 |  |
 
 
 
@@ -561,6 +576,7 @@ Attributen van objecttype Vrijstelling
 > Een melding van een zieke leerling die recht heeft op vervoer van en naar onderwijs.
 
 ??? info "Kenmerken Model Ziekmelding Leerlingenvervoer"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Ziekmelding Leerlingenvervoer |
@@ -569,10 +585,10 @@ Attributen van objecttype Vrijstelling
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-17 11:17:22 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_7689A6B7_2A9E_42db_A028_E4601305DBFF |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_7689A6B7\_2A9E\_42db\_A028\_E4601305DBFF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | ZiekmeldingLeerlingenvervoer |
@@ -609,6 +625,7 @@ Het enumeratie Boolean kent de volgende waarden:
 De enumeratie Boolean heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Boolean"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Boolean |
@@ -617,10 +634,15 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
+<<<<<<< HEAD
     | modified | 2025-03-26 16:14:54 |
     | id | EAID_e34a7c4f_819a_4d1f_b594_9db50919078d |
+=======
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_24374790\_0a5d\_4442\_abd6\_43347a7479b2 |
+>>>>>>> origin/master
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -645,6 +667,7 @@ Het enumeratie Boolean kent de volgende waarden:
 De enumeratie Boolean heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Boolean"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Boolean |
@@ -653,10 +676,15 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
+<<<<<<< HEAD
     | modified | 2025-03-26 16:14:54 |
     | id | EAID_daae75ff_1819_4431_8226_8fe57468c372 |
+=======
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_887085df\_37ed\_4faf\_9651\_cee8f8b03ed9 |
+>>>>>>> origin/master
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -677,6 +705,7 @@ Het enumeratie Sanctiesoort kent de volgende waarden:
 De enumeratie Sanctiesoort heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Sanctiesoort"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Sanctiesoort |
@@ -685,10 +714,10 @@ De enumeratie Sanctiesoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:12:44 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_BA10C3E6_8F44_4f8d_B532_DED61E368F5E |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_BA10C3E6\_8F44\_4f8d\_B532\_DED61E368F5E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -711,6 +740,7 @@ Het enumeratie Verzuimsoort kent de volgende waarden:
 De enumeratie Verzuimsoort heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Verzuimsoort"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Verzuimsoort |
@@ -719,10 +749,10 @@ De enumeratie Verzuimsoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:12:44 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_0060D931_6BBA_480d_ADCA_0A74908C39A4 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_0060D931\_6BBA\_480d\_ADCA\_0A74908C39A4 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -743,6 +773,7 @@ Het enumeratie Vrijstellingsoort kent de volgende waarden:
 De enumeratie Vrijstellingsoort heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Vrijstellingsoort"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Vrijstellingsoort |
@@ -751,10 +782,10 @@ De enumeratie Vrijstellingsoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:12:44 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_BAB0BE8C_4084_4618_BAC0_50B383B94D79 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_BAB0BE8C\_4084\_4618\_BAC0\_50B383B94D79 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -763,6 +794,5 @@ De enumeratie Vrijstellingsoort heeft de volgende kenmerken:
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
-
 
 

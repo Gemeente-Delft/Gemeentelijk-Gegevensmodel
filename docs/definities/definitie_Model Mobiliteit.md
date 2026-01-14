@@ -5,6 +5,7 @@
 > Het informatiedomein dat de structuur, definities en relaties van gegevens omvat met betrekking tot verkeer en vervoer van personen en goederen, gericht op het faciliteren van efficiënte en duurzame mobiliteit.
 
 ??? info "Kenmerken Model Model Mobiliteit"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Mobiliteit |
@@ -16,7 +17,7 @@
     | version | 1.4 |
     | created | 2018-03-21 11:47:02 |
     | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_13DD932C_4F69_4c62_B2D5_6676B5E5E24A |
+    | id | EAPK\_13DD932C\_4F69\_4c62\_B2D5\_6676B5E5E24A |
     
 
 Het model 'Model Mobiliteit' kent de volgende objecttypen:
@@ -39,6 +40,7 @@ Het model 'Model Mobiliteit' kent de volgende objecttypen:
 > Situatie waarbij de doorstroming van het (vaar)wegverkeer plaatselijk is geblokkeerd als gevolg van een incident
 
 ??? info "Kenmerken Model Stremming"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Stremming |
@@ -47,10 +49,10 @@ Het model 'Model Mobiliteit' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-11-12 14:25:17 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_999725EE_737F_410e_906B_9865EBED3597 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_999725EE\_737F\_410e\_906B\_9865EBED3597 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Stremming |
@@ -64,17 +66,17 @@ Attributen van objecttype Stremming
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantalGehinderden | Enumeratie: "Aantal Gehinderden" |  |
-| datumAanmelding | DateTime |  |
-| datumEinde | DateTime |  |
-| datumStart | DateTime |  |
-| datumWijziging | DateTime |  |
-| delenToegestaan | boolean |  |
-| geschiktVoorPublicatie | boolean |  |
-| hinderklasse | Enumeratie: "Hinderklasse" |  |
-| locatie | Point |  |
 | naam | AN250 |  |
-| status | Enumeratie: "Stremmingstatus" |  |
+| datumStart | DateTime |  |
+| datumEinde | DateTime |  |
+| datumAanmelding | DateTime |  |
+| status | Stremmingstatus |  |
+| datumWijziging | DateTime |  |
+| geschiktVoorPublicatie | boolean |  |
+| delenToegestaan | boolean |  |
+| locatie | Point |  |
+| hinderklasse | Hinderklasse |  |
+| aantalGehinderden | Aantal Gehinderden |  |
 
 
 
@@ -84,6 +86,7 @@ Attributen van objecttype Stremming
 > Dag waarop op wegen gestrooid wordt ter voorkoming van gladheid
 
 ??? info "Kenmerken Model Strooidag"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Strooidag |
@@ -92,10 +95,10 @@ Attributen van objecttype Stremming
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-11-21 10:32:27 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_E2448A6D_3AE0_4884_AD5C_215A9E7166DE |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_E2448A6D\_3AE0\_4884\_AD5C\_215A9E7166DE |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -110,10 +113,10 @@ Attributen van objecttype Strooidag
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datum | Date |  |
-| maximumtemperatuur | double |  |
 | minimumtemperatuur | double |  |
-| tijdMaximumtemperatuur | Time |  |
 | tijdMinimumtemperatuur | Time |  |
+| maximumtemperatuur | double |  |
+| tijdMaximumtemperatuur | Time |  |
 
 
 
@@ -123,6 +126,7 @@ Attributen van objecttype Strooidag
 > Traject waarop het strooien plaatsvindt
 
 ??? info "Kenmerken Model Strooiroute"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Strooiroute |
@@ -131,10 +135,10 @@ Attributen van objecttype Strooidag
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-11-21 10:31:32 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_73090FF8_12FD_471e_80FD_DBFB2FF97D7B |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_73090FF8\_12FD\_471e\_80FD\_DBFB2FF97D7B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Strooiroute |
@@ -158,6 +162,7 @@ Attributen van objecttype Strooiroute
 > De route die uiteindelijk is gevolgd voor het strooien
 
 ??? info "Kenmerken Model StrooirouteUitvoering"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | StrooirouteUitvoering |
@@ -166,10 +171,10 @@ Attributen van objecttype Strooiroute
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-11-21 10:32:13 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_B825D33A_6DCE_4263_A031_E6E92C4EE86B |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_B825D33A\_6DCE\_4263\_A031\_E6E92C4EE86B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -183,11 +188,11 @@ Attributen van objecttype StrooirouteUitvoering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| geplandEinde | DateTime |  |
-| geplandStart | DateTime |  |
 | route | MultiCurve |  |
-| werkelijkEinde | DateTime |  |
+| geplandStart | DateTime |  |
+| geplandEinde | DateTime |  |
 | werkelijkeStart | DateTime |  |
+| werkelijkEinde | DateTime |  |
 
 
 
@@ -197,6 +202,7 @@ Attributen van objecttype StrooirouteUitvoering
 > Een besluit van een wegbeheerder om een bepaald verkeersteken te plaatsen, te wijzigen of in te trekken of een bepaalde fysieke maatregel te treffen.
 
 ??? info "Kenmerken Model Verkeersbesluit"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verkeersbesluit |
@@ -205,10 +211,10 @@ Attributen van objecttype StrooirouteUitvoering
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-03-06 14:05:18 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_3F83DAA3_C37F_42b2_8D35_D75B840172F8 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_3F83DAA3\_C37F\_42b2\_8D35\_D75B840172F8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Verkeersbesluit |
@@ -222,14 +228,14 @@ Attributen van objecttype Verkeersbesluit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumBesluit | Date |  |
-| datumEinde | Datetime |  |
-| datumStart | Datetime |  |
-| huisnummer | AN40 |  |
-| postcode | AN6 |  |
 | referentienummer | AN80 |  |
-| straat | An200 |  |
+| datumBesluit | Date |  |
+| datumStart | Datetime |  |
 | titel | AN250 |  |
+| straat | An200 |  |
+| postcode | AN6 |  |
+| huisnummer | AN40 |  |
+| datumEinde | Datetime |  |
 
 
 
@@ -239,6 +245,7 @@ Attributen van objecttype Verkeersbesluit
 > Een onderzoek om inzicht te krijgen in het verkeer, in de hoeveelheid verkeer, de verdeling en de gereden snelheid.
 
 ??? info "Kenmerken Model Verkeerstelling"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verkeerstelling |
@@ -247,10 +254,10 @@ Attributen van objecttype Verkeersbesluit
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-11-21 13:11:36 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_DBE739FD_EBC4_4650_8A2B_714294A63A73 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_DBE739FD\_EBC4\_4650\_8A2B\_714294A63A73 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Verkeerstelling |
@@ -264,9 +271,9 @@ Attributen van objecttype Verkeerstelling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aantal | int |  |
-| tijdTot | DateTime |  |
 | tijdVanaf | DateTime |  |
+| tijdTot | DateTime |  |
+| aantal | int |  |
 
 
 
@@ -276,6 +283,7 @@ Attributen van objecttype Verkeerstelling
 > V-log is een open standaard voor datalogging van een verkeersregelinstallatie.
 
 ??? info "Kenmerken Model VLogInfo"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VLogInfo |
@@ -284,10 +292,10 @@ Attributen van objecttype Verkeerstelling
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-11-21 13:24:06 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_E4EEBD4D_A41E_4c9d_8099_CDA45BFF0056 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_E4EEBD4D\_A41E\_4c9d\_8099\_CDA45BFF0056 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -301,13 +309,13 @@ Attributen van objecttype VLogInfo
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| detectieVerkeer | int |  |
-| eindegroen | boolean |  |
+| tijdstip | DateTime |  |
 | snelheid | int |  |
 | startgroen | boolean |  |
-| tijdstip | DateTime |  |
+| eindegroen | boolean |  |
 | verkeerWilGroen | boolean |  |
 | wachttijd | int |  |
+| detectieVerkeer | int |  |
 
 
 
@@ -332,6 +340,7 @@ Het enumeratie Aantal Gehinderden kent de volgende waarden:
 De enumeratie Aantal Gehinderden heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Aantal Gehinderden"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Aantal Gehinderden |
@@ -340,10 +349,10 @@ De enumeratie Aantal Gehinderden heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:12:43 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_C00A2866_8F7D_4be3_A676_794C9A477556 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_C00A2866\_8F7D\_4be3\_A676\_794C9A477556 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -369,6 +378,7 @@ Het enumeratie Hindercategorie kent de volgende waarden:
 De enumeratie Hindercategorie heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Hindercategorie"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Hindercategorie |
@@ -377,10 +387,10 @@ De enumeratie Hindercategorie heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:12:43 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_A1A8B6C1_3607_4c64_92CC_364470368C3E |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_A1A8B6C1\_3607\_4c64\_92CC\_364470368C3E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -406,6 +416,7 @@ Het enumeratie Hinderklasse kent de volgende waarden:
 De enumeratie Hinderklasse heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Hinderklasse"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Hinderklasse |
@@ -414,10 +425,10 @@ De enumeratie Hinderklasse heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:12:43 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_9387D652_A431_4f4c_9F35_4DB0A102B1EF |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_9387D652\_A431\_4f4c\_9F35\_4DB0A102B1EF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -443,6 +454,7 @@ Het enumeratie Stremmingstatus kent de volgende waarden:
 De enumeratie Stremmingstatus heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Stremmingstatus"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Stremmingstatus |
@@ -451,10 +463,10 @@ De enumeratie Stremmingstatus heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:12:43 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_94230A7B_8876_4a0b_B660_424E397045B2 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_94230A7B\_8876\_4a0b\_B660\_424E397045B2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -463,6 +475,5 @@ De enumeratie Stremmingstatus heeft de volgende kenmerken:
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
-
 
 

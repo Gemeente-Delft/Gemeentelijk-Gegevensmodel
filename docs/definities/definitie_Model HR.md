@@ -5,6 +5,7 @@
 > Het informatiesubdomein dat gegevens omvat over het beheer en de ontwikkeling van personeel, gericht op het ondersteunen van de organisatie en haar medewerkers.
 
 ??? info "Kenmerken Model Model HR"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model HR |
@@ -16,7 +17,7 @@
     | version | 1.4 |
     | created | 2018-04-04 15:09:18 |
     | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_9ADEFB08_F150_4278_8D32_32465C57E8A7 |
+    | id | EAPK\_9ADEFB08\_F150\_4278\_8D32\_32465C57E8A7 |
     
 
 Het model 'Model HR' kent de volgende objecttypen:
@@ -63,6 +64,7 @@ Het model 'Model HR' kent de volgende objecttypen:
 > Beoordeling is het oordeel van de professional over het functioneren van een leerling
 
 ??? info "Kenmerken Model Beoordeling"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Beoordeling |
@@ -71,10 +73,10 @@ Het model 'Model HR' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-04-04 16:57:17 |
-    | modified | 2025-03-26 16:14:47 |
-    | id | EAID_2A0CC803_9017_4fad_99B5_9347623090F5 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_2A0CC803\_9017\_4fad\_99B5\_9347623090F5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Beoordeling |
@@ -89,8 +91,8 @@ Attributen van objecttype Beoordeling
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datum | Date |  |
-| omschrijving | text |  |
 | oordeel | AN80 |  |
+| omschrijving | text |  |
 
 
 
@@ -100,6 +102,7 @@ Attributen van objecttype Beoordeling
 > Een opgave van te vergoeden kosten.
 
 ??? info "Kenmerken Model Declaratie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Declaratie |
@@ -108,10 +111,10 @@ Attributen van objecttype Beoordeling
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-12 16:24:09 |
-    | modified | 2025-03-26 16:14:47 |
-    | id | EAID_E611CEB2_F4FA_49e2_AA6B_B380BC1918AC |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_E611CEB2\_F4FA\_49e2\_AA6B\_B380BC1918AC |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Declaratie |
@@ -125,11 +128,11 @@ Attributen van objecttype Declaratie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bedrag | Bedrag |  |
-| betreft | AN80 |  |
-| datumDeclaratie | Date |  |
 | datumIndiening | Date |  |
+| datumDeclaratie | Date |  |
+| betreft | AN80 |  |
 | omschrijving | text |  |
+| bedrag | Bedrag |  |
 
 
 
@@ -139,6 +142,7 @@ Attributen van objecttype Declaratie
 > Typering van een declaratie
 
 ??? info "Kenmerken Model Declaratiesoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Declaratiesoort |
@@ -147,10 +151,10 @@ Attributen van objecttype Declaratie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-12 16:24:23 |
-    | modified | 2025-03-26 16:14:47 |
-    | id | EAID_9D4FB9DF_D68A_4503_96C0_272B6777A4FC |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_9D4FB9DF\_D68A\_4503\_96C0\_272B6777A4FC |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -175,6 +179,7 @@ Attributen van objecttype Declaratiesoort
 > De rechtsbetrekking tussen werkgever en werknemer zoals vastgelegd in een arbeidsovereenkomst.
 
 ??? info "Kenmerken Model Dienstverband"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Dienstverband |
@@ -183,10 +188,10 @@ Attributen van objecttype Declaratiesoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-04-04 15:27:50 |
-    | modified | 2025-03-26 16:14:47 |
-    | id | EAID_63FF86E2_1BB0_48f6_8D95_3D82E8D2FA06 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_63FF86E2\_1BB0\_48f6\_8D95\_3D82E8D2FA06 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Dienstverband |
@@ -200,10 +205,10 @@ Attributen van objecttype Dienstverband
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumEinde | Date |  |
 | datumStart | Date |  |
-| periodiek | int |  |
+| datumEinde | Date |  |
 | salaris | Bedrag |  |
+| periodiek | int |  |
 | schaal | int |  |
 | urenPerWeek | int |  |
 
@@ -215,6 +220,7 @@ Attributen van objecttype Dienstverband
 > Een besluit dat wordt opgelegd wanneer een persoon zijn verplichtingen niet of niet op de juiste wijze nakomt, of zich op andere wijze misdraagt.
 
 ??? info "Kenmerken Model Disciplinaire Maatregel"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Disciplinaire Maatregel |
@@ -223,10 +229,10 @@ Attributen van objecttype Dienstverband
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-12 16:30:20 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_50F3F931_38F4_4ff0_8CE4_8A51056767E0 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_50F3F931\_38F4\_4ff0\_8CE4\_8A51056767E0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | DisciplinaireMaatregel |
@@ -253,6 +259,7 @@ Attributen van objecttype Disciplinaire Maatregel
 > Uitgangspunt is het vastgestelde formatieplan, dus niet de werkelijke bezetting. Het gaat hier om de toegestane formatie in fte van het ambtelijk apparaat van uw organisatie voor het begrotingsjaar
 
 ??? info "Kenmerken Model Formatieplaats"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Formatieplaats |
@@ -260,11 +267,11 @@ Attributen van objecttype Disciplinaire Maatregel
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.4 |
+    | author | Ashkan Ashkpour |
+    | version | 1.11.0 |
     | created | 2024-01-24 13:12:38 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_81EFBDCE_E500_4090_A37A_D3F799517866 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_81EFBDCE\_E500\_4090\_A37A\_D3F799517866 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Formatieplaats |
@@ -288,6 +295,7 @@ Attributen van objecttype Formatieplaats
 > Een samenhangende verzameling van rollen. Een functie kan worden gedefinieerd als het samenstel van feitelijk opgedragen taken en werkzaamheden
 
 ??? info "Kenmerken Model Functie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Functie |
@@ -296,10 +304,10 @@ Attributen van objecttype Formatieplaats
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-04-04 15:28:03 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_F29C11C1_477C_4b90_985C_43F94D08230A |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_F29C11C1\_477C\_4b90\_985C\_43F94D08230A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Functie |
@@ -313,11 +321,11 @@ Attributen van objecttype Functie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Code | AN50 |  |
 | Naam | AN80 |  |
 | Omschrijving | text |  |
-| Schaal | AN20 |  |
 | Taken | text |  |
+| Schaal | AN20 |  |
+| Code | AN50 |  |
 
 
 
@@ -327,6 +335,7 @@ Attributen van objecttype Functie
 > Model waarin functies van een organisatie worden beschreven.
 
 ??? info "Kenmerken Model Functiehuis"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Functiehuis |
@@ -334,11 +343,11 @@ Attributen van objecttype Functie
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-04-19 11:24:27 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_D69EE16A_390C_4d6f_BC01_2B13FB3B22F1 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_D69EE16A\_390C\_4d6f\_BC01\_2B13FB3B22F1 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Functiehuis |
@@ -363,6 +372,7 @@ Attributen van objecttype Functiehuis
 > Afgeronde opleiding, een samenhangend geheel van vakken, gericht op de verwezenlijking van welomschreven doelstellingen op het gebied van kennis, inzicht en vaardigheden
 
 ??? info "Kenmerken Model GenotenOpleiding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | GenotenOpleiding |
@@ -371,10 +381,10 @@ Attributen van objecttype Functiehuis
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-12 16:13:16 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_261363C5_1E00_4b6a_B570_2129DC044010 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_261363C5\_1E00\_4b6a\_B570\_2129DC044010 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -388,8 +398,8 @@ Attributen van objecttype GenotenOpleiding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumEinde | Date |  |
 | datumStart | Date |  |
+| datumEinde | Date |  |
 | datumToewijzing | Date |  |
 | prijs | Bedrag |  |
 | verrekenen | Boolean |  |
@@ -402,6 +412,7 @@ Attributen van objecttype GenotenOpleiding
 > Een gebeurtenis met betrekking tot agressie en omvat het veroorzaken van verwondingen of schade bij mensen, dieren, of voorwerpen.
 
 ??? info "Kenmerken Model Geweldsincident"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Geweldsincident |
@@ -409,11 +420,11 @@ Attributen van objecttype GenotenOpleiding
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-04-19 14:48:54 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_41AFF74F_ADBE_4f3f_AB2F_25027A70E573 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_41AFF74F\_ADBE\_4f3f\_AB2F\_25027A70E573 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Geweldsincident |
@@ -428,8 +439,8 @@ Attributen van objecttype Geweldsincident
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datum | Date |  |
-| omschrijving | text |  |
 | type | AN80 |  |
+| omschrijving | text |  |
 
 
 
@@ -439,6 +450,7 @@ Attributen van objecttype Geweldsincident
 > Bedrag dat feitelijk beschikbaar gesteld wordt voor een individu om een bepaalde keus te kunnen maken
 
 ??? info "Kenmerken Model Individueel Keuzebudget"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Individueel Keuzebudget |
@@ -446,11 +458,11 @@ Attributen van objecttype Geweldsincident
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-04-23 16:11:55 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_B64178F1_7D37_4a77_BEF7_97E8C9DDA4E8 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_B64178F1\_7D37\_4a77\_BEF7\_97E8C9DDA4E8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | IndividueelKeuzebudget |
@@ -464,10 +476,10 @@ Attributen van objecttype Individueel Keuzebudget
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bedrag | Bedrag |  |
-| datumEinde | Date |  |
 | datumStart | Date |  |
+| datumEinde | Date |  |
 | datumToekenning | Date |  |
+| bedrag | Bedrag |  |
 
 
 
@@ -477,6 +489,7 @@ Attributen van objecttype Individueel Keuzebudget
 > Uren inzet die gepleegd wordt in een bepaalde periode op een organisatorische eenheid en het percentage dat ook daadwerkelijk wordt uitgevoerd.Dit kan afwijken van de contractuele uren.
 
 ??? info "Kenmerken Model Inzet"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Inzet |
@@ -484,11 +497,11 @@ Attributen van objecttype Individueel Keuzebudget
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.4 |
+    | author | Ashkan Ashkpour |
+    | version | 1.11.0 |
     | created | 2024-01-24 13:04:04 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_532191CA_13CC_4500_93C9_54AB2862F38D |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_532191CA\_13CC\_4500\_93C9\_54AB2862F38D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -515,6 +528,7 @@ Attributen van objecttype Inzet
 > De daadwerkelijk uitgave van een keuzebudget
 
 ??? info "Kenmerken Model KeuzebudgetBesteding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | KeuzebudgetBesteding |
@@ -522,11 +536,11 @@ Attributen van objecttype Inzet
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-04-23 16:12:39 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_B9288D01_0B8F_4f8c_BAE1_AFD1B0EF6FDF |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_B9288D01\_0B8F\_4f8c\_BAE1\_AFD1B0EF6FDF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -540,8 +554,8 @@ Attributen van objecttype KeuzebudgetBesteding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bedrag | Bedrag |  |
 | datum | Date |  |
+| bedrag | Bedrag |  |
 
 
 
@@ -551,6 +565,7 @@ Attributen van objecttype KeuzebudgetBesteding
 > Typering van een keuzebudgetbesteding
 
 ??? info "Kenmerken Model KeuzebudgetBestedingsoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | KeuzebudgetBestedingsoort |
@@ -558,11 +573,11 @@ Attributen van objecttype KeuzebudgetBesteding
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-04-23 16:15:08 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_A0051651_4772_436d_9553_B432BDCE3A52 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_A0051651\_4772\_436d\_9553\_B432BDCE3A52 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -587,6 +602,7 @@ Attributen van objecttype KeuzebudgetBestedingsoort
 > Normprofiel of Normfunctie:nGenerieke functie zoals beschreven in HR21. Een functie kan worden gedefinieerd als het samenstel van feitelijk opgedragen taken en werkzaamheden
 
 ??? info "Kenmerken Model NormProfiel"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | NormProfiel |
@@ -594,11 +610,11 @@ Attributen van objecttype KeuzebudgetBestedingsoort
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.4 |
+    | author | Ashkan Ashkpour |
+    | version | 1.11.0 |
     | created | 2024-01-24 13:18:48 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_E1C6E98B_20B2_43b0_8EC1_5C0905B3A139 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_E1C6E98B\_20B2\_43b0\_8EC1\_5C0905B3A139 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -624,6 +640,7 @@ Attributen van objecttype NormProfiel
 > Een instituut waar onderwijs wordt gegeven.
 
 ??? info "Kenmerken Model Onderwijsinstituut"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Onderwijsinstituut |
@@ -632,10 +649,10 @@ Attributen van objecttype NormProfiel
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.11.0 |
     | created | 2018-06-12 16:21:11 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_59F3063A_13A6_4cbc_A387_045A6B126746 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_59F3063A\_13A6\_4cbc\_A387\_045A6B126746 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Onderwijsinstituut |
@@ -658,6 +675,7 @@ Attributen van objecttype Onderwijsinstituut
 > Een samenhangend geheel van vakken, gericht op de verwezenlijking van welomschreven doelstellingen op het gebied van kennis, inzicht en vaardigheden.
 
 ??? info "Kenmerken Model Opleiding"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Opleiding |
@@ -666,10 +684,10 @@ Attributen van objecttype Onderwijsinstituut
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-12 16:12:57 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_E07D60DE_CD26_4cef_A18B_6F72CC76C1B6 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_E07D60DE\_CD26\_4cef\_A18B\_6F72CC76C1B6 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Opleiding |
@@ -683,10 +701,10 @@ Attributen van objecttype Opleiding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| instituut | AN80 |  |
 | naam | AN80 |  |
 | omschrijving | text |  |
 | prijs | bedrag |  |
+| instituut | AN80 |  |
 
 
 
@@ -696,6 +714,7 @@ Attributen van objecttype Opleiding
 > Specialisatie van de Organisatorische eenheid uit het RGBZ voor het HR domein.
 
 ??? info "Kenmerken Model OrganisatorischeEenheidHR"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OrganisatorischeEenheidHR |
@@ -703,11 +722,11 @@ Attributen van objecttype Opleiding
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.4 |
+    | author | Ashkan Ashkpour |
+    | version | 1.11.0 |
     | created | 2024-01-24 13:23:35 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_53B0C49F_1BDE_4fee_BB0B_0D82517177CC |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_53B0C49F\_1BDE\_4fee\_BB0B\_0D82517177CC |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -732,6 +751,7 @@ Attributen van objecttype OrganisatorischeEenheidHR
 > Betrekking waarin personen, zaken, begrippen of grootheden van nature tot elkaar staan.
 
 ??? info "Kenmerken Model Relatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Relatie |
@@ -740,10 +760,10 @@ Attributen van objecttype OrganisatorischeEenheidHR
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-05-28 16:57:07 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_FE559B58_A6CD_4108_82BE_98E1AEBFD9BD |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_FE559B58\_A6CD\_4108\_82BE\_98E1AEBFD9BD |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Relatie |
@@ -766,6 +786,7 @@ Attributen van objecttype Relatie
 > De rol van de medewerker, zoals afdelingshoofd of manager
 
 ??? info "Kenmerken Model Rol"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Rol |
@@ -773,11 +794,11 @@ Attributen van objecttype Relatie
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.4 |
+    | author | Ashkan Ashkpour |
+    | version | 1.11.0 |
     | created | 2024-01-24 13:25:10 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_BF424764_453D_46cc_817C_3A7BDC4134A7 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_BF424764\_453D\_46cc\_817C\_3A7BDC4134A7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Rol |
@@ -793,7 +814,7 @@ Attributen van objecttype Rol
 | :--- | :--- | :--- |
 | datumBegin | Date |  |
 | datumEinde | Date |  |
-| rol | AN50 |  |
+| omschrijving | AN50 |  |
 
 
 
@@ -803,6 +824,7 @@ Attributen van objecttype Rol
 > Persoon die werk zoekt
 
 ??? info "Kenmerken Model Sollicitant"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Sollicitant |
@@ -811,10 +833,10 @@ Attributen van objecttype Rol
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-04 16:29:44 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_131BDD67_2A31_43c5_9125_F12DE2D98D2D |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_131BDD67\_2A31\_43c5\_9125\_F12DE2D98D2D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Sollicitant |
@@ -837,6 +859,7 @@ Attributen van objecttype Sollicitant
 > Verzoek om in een functie te worden aangesteld.
 
 ??? info "Kenmerken Model Sollicitatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Sollicitatie |
@@ -844,11 +867,11 @@ Attributen van objecttype Sollicitant
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-04-19 11:49:11 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_3BD1368C_23F1_4f42_99DB_C81581A646A0 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_3BD1368C\_23F1\_4f42\_99DB\_C81581A646A0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Sollicitatie |
@@ -872,6 +895,7 @@ Attributen van objecttype Sollicitatie
 > Onderhoud tussen sollicitant en werkgever met betrekking tot een sollicatie
 
 ??? info "Kenmerken Model Sollicitatiegesprek"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Sollicitatiegesprek |
@@ -879,11 +903,11 @@ Attributen van objecttype Sollicitatie
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-04-19 11:55:37 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_1D4DA0E6_DA20_4ff7_A415_B937712C6F6D |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_1D4DA0E6\_DA20\_4ff7\_A415\_B937712C6F6D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Sollicitatiegesprek |
@@ -897,10 +921,10 @@ Attributen van objecttype Sollicitatiegesprek
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aangenomen | boolean |  |
 | datum | Date |  |
 | opmerkingen | text |  |
 | volgendGesprek | boolean |  |
+| aangenomen | boolean |  |
 
 
 
@@ -910,6 +934,7 @@ Attributen van objecttype Sollicitatiegesprek
 > Typering van een disciplinaire maatregel
 
 ??? info "Kenmerken Model SoortDisciplinaireMaatregel"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SoortDisciplinaireMaatregel |
@@ -918,10 +943,10 @@ Attributen van objecttype Sollicitatiegesprek
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-12 16:30:49 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_B0747DFC_DFC8_4ef2_8E1E_C2E8606036FC |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_B0747DFC\_DFC8\_4ef2\_8E1E\_C2E8606036FC |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -946,6 +971,7 @@ Attributen van objecttype SoortDisciplinaireMaatregel
 > Aantal besteedde uren aan een activiteit
 
 ??? info "Kenmerken Model Uren"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Uren |
@@ -954,10 +980,10 @@ Attributen van objecttype SoortDisciplinaireMaatregel
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-07 10:59:08 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_93165DEC_ECB7_4225_9484_E1727524A1B5 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_93165DEC\_ECB7\_4225\_9484\_E1727524A1B5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -981,6 +1007,7 @@ Attributen van objecttype Uren
 > Een arbeidsplaats binnen een bedrijf of organisatie die nog gevuld dient te worden door werkzoekenden.
 
 ??? info "Kenmerken Model Vacature"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vacature |
@@ -988,11 +1015,11 @@ Attributen van objecttype Uren
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-04-19 14:40:43 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_DC978807_5F36_4148_B816_D6886D026DD8 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_DC978807\_5F36\_4148\_B816\_D6886D026DD8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Vacature |
@@ -1006,11 +1033,11 @@ Attributen van objecttype Vacature
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumGesloten | Date |  |
 | datumOpengesteld | date |  |
-| deeltijd | boolean |  |
-| extern | boolean |  |
+| datumGesloten | Date |  |
 | intern | boolean |  |
+| extern | boolean |  |
+| deeltijd | boolean |  |
 | vastedienst | boolean |  |
 
 
@@ -1021,6 +1048,7 @@ Attributen van objecttype Vacature
 > Een periode waarin iemand toestemming heeft om iets te doen, in het bijzonder om afwezig te zijn.
 
 ??? info "Kenmerken Model Verlof"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verlof |
@@ -1028,11 +1056,11 @@ Attributen van objecttype Vacature
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-04-19 11:32:12 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_D04135BF_C2F0_46dd_B332_F1BE36C358EF |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_D04135BF\_C2F0\_46dd\_B332\_F1BE36C358EF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Verlof |
@@ -1046,11 +1074,11 @@ Attributen van objecttype Verlof
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumAanvraag | Date |  |
-| datumtijdEinde | datetime |  |
 | datumtijdStart | datetime |  |
-| datumToekenning | Date |  |
+| datumtijdEinde | datetime |  |
 | goedgekeurd | boolean |  |
+| datumAanvraag | Date |  |
+| datumToekenning | Date |  |
 
 
 
@@ -1060,6 +1088,7 @@ Attributen van objecttype Verlof
 > Typering van verlof
 
 ??? info "Kenmerken Model Verlofsoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verlofsoort |
@@ -1067,11 +1096,11 @@ Attributen van objecttype Verlof
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-04-19 11:32:24 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_ED741EE1_E773_40e3_B0E6_8D9886EB792F |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_ED741EE1\_E773\_40e3\_B0E6\_8D9886EB792F |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1096,6 +1125,7 @@ Attributen van objecttype Verlofsoort
 > Een afwezigheid van een werknemer van werk.
 
 ??? info "Kenmerken Model Verzuim"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verzuim |
@@ -1103,11 +1133,11 @@ Attributen van objecttype Verlofsoort
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-04-19 11:32:37 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_610B18E6_B675_4cc0_A883_BAB9D384C668 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_610B18E6\_B675\_4cc0\_A883\_BAB9D384C668 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Verzuim |
@@ -1121,8 +1151,8 @@ Attributen van objecttype Verzuim
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| datumtijdEinde | datetime |  |
 | datumtijdStart | datetime |  |
+| datumtijdEinde | datetime |  |
 
 
 
@@ -1132,6 +1162,7 @@ Attributen van objecttype Verzuim
 > Typologie van verzuim
 
 ??? info "Kenmerken Model Verzuimsoort"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Verzuimsoort |
@@ -1139,11 +1170,11 @@ Attributen van objecttype Verzuim
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-04-19 11:33:03 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_45900108_585D_45ec_A042_BF4928B7F6DC |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_45900108\_585D\_45ec\_A042\_BF4928B7F6DC |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1168,6 +1199,7 @@ Attributen van objecttype Verzuimsoort
 > De contractuele wederpartij van de werkgever bij de arbeidsovereenkomst.
 
 ??? info "Kenmerken Model Werknemer"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Werknemer |
@@ -1176,10 +1208,10 @@ Attributen van objecttype Verzuimsoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-05-28 16:55:02 |
-    | modified | 2025-03-26 16:14:48 |
-    | id | EAID_BBBB63AC_B546_409b_B6D4_53DB561253B7 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_BBBB63AC\_B546\_409b\_B6D4\_53DB561253B7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Werknemer |
@@ -1193,11 +1225,10 @@ Attributen van objecttype Werknemer
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| geboortedatum | Date |  |
 | naam | AN80 |  |
 | voornaam | AN40 |  |
+| geboortedatum | Date |  |
 | woonplaats | AN50 |  |
-
 
 
 

@@ -5,6 +5,7 @@
 > Geen definitie
 
 ??? info "Kenmerken Model Relatieklasse"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Relatieklasse |
@@ -12,11 +13,11 @@
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Debat_E |
+    | author | Debat\_E |
     | version | 1.3 |
     | created | 2018-03-21 15:46:54 |
     | modified | 2024-11-21 08:38:15 |
-    | id | EAPK_B654E255_2E53_4ed6_BF3D_F8C88EE4F63A |
+    | id | EAPK\_B654E255\_2E53\_4ed6\_BF3D\_F8C88EE4F63A |
     
 
 Het model 'Relatieklasse' kent de volgende objecttypen:
@@ -33,6 +34,7 @@ Het model 'Relatieklasse' kent de volgende objecttypen:
 > Nadere aanduiding van het WOZ-object middels een locatieomschrijving van ADRESSEERBAAR OBJECT AANDUIDING.
 
 ??? info "Kenmerken Model LocatieaanduidingAdresWOZObject"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | LocatieaanduidingAdresWOZObject |
@@ -40,11 +42,11 @@ Het model 'Relatieklasse' kent de volgende objecttypen:
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | debat_e |
-    | version | 1.5 |
+    | author | debat\_e |
+    | version | 1.12.0 |
     | created | 2011-11-28 14:45:08 |
-    | modified | 2025-03-26 16:14:53 |
-    | id | EAID_DF81069D_CBE4_433e_AB7C_CB06170275C9 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_DF81069D\_CBE4\_433e\_AB7C\_CB06170275C9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -59,7 +61,6 @@ Attributen van objecttype LocatieaanduidingAdresWOZObject
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | locatieOmschrijving | AN40 | De aanvullende omschrijving van de ligging van een WOZ-OBJECT ten opzichte van een betrokken of het dichtstbijzijnde VERBLIJFSOBJECT, STANDPLAATS, LIGPLAATS, OVERIG GEBOUWD OBJECT of OVERIG BENOEMD TERREIN. |
-
 
 
 

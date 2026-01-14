@@ -5,6 +5,7 @@
 > Geen definitie
 
 ??? info "Kenmerken Model Tekenwijze"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Tekenwijze |
@@ -12,11 +13,11 @@
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
+    | author | mante\_h |
     | version | 1.3 |
     | created | 2010-11-01 04:24:10 |
     | modified | 2024-11-21 08:38:15 |
-    | id | EAPK_E7F4648E_AF2D_42d5_A524_700F87CC82B6 |
+    | id | EAPK\_E7F4648E\_AF2D\_42d5\_A524\_700F87CC82B6 |
     
 
 Het model 'Tekenwijze' kent de volgende objecttypen:
@@ -40,6 +41,7 @@ Het model 'Tekenwijze' kent de volgende objecttypen:
 > Geen Definitie
 
 ??? info "Kenmerken Model None"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name |  |
@@ -51,7 +53,7 @@ Het model 'Tekenwijze' kent de volgende objecttypen:
     | version |  |
     | created |  |
     | modified |  |
-    | id | EAID_47EA6A95_24DD_4ff9_BC2C_1B9BBC08C694 |
+    | id | EAID\_47EA6A95\_24DD\_4ff9\_BC2C\_1B9BBC08C694 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -74,18 +76,23 @@ Attributen van objecttype None
 > Geen Definitie
 
 ??? info "Kenmerken Model ObjecttypeA"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeA |
+<<<<<<< HEAD
     | toelichting | #NOTES#Default: |
+=======
+    | toelichting | #NOTES#Default:<br>#NOTES#Default: |
+>>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.3 |
+    | author | mante\_h |
+    | version | 1.10.0 |
     | created | 2010-11-01 04:24:25 |
-    | modified | 2025-03-26 16:14:57 |
-    | id | EAID_AE553F3F_B8B6_4bd2_A6A1_8051145C823B |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_AE553F3F\_B8B6\_4bd2\_A6A1\_8051145C823B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -108,18 +115,23 @@ Attributen van objecttype ObjecttypeA
 > Geen Definitie
 
 ??? info "Kenmerken Model ObjecttypeB"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeB |
+<<<<<<< HEAD
     | toelichting | #NOTES#Default: |
+=======
+    | toelichting | #NOTES#Default:<br>#NOTES#Default: |
+>>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.3 |
+    | author | mante\_h |
+    | version | 1.10.0 |
     | created | 2010-11-01 04:24:41 |
-    | modified | 2025-03-26 16:14:57 |
-    | id | EAID_0799B0D1_5067_43e2_8A6F_48FB972225E5 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_0799B0D1\_5067\_43e2\_8A6F\_48FB972225E5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -142,18 +154,23 @@ Attributen van objecttype ObjecttypeB
 > Geen Definitie
 
 ??? info "Kenmerken Model ObjecttypeC"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeC |
+<<<<<<< HEAD
     | toelichting | #NOTES#Default: |
+=======
+    | toelichting | #NOTES#Default:<br>#NOTES#Default: |
+>>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.3 |
+    | author | mante\_h |
+    | version | 1.10.0 |
     | created | 2010-11-01 04:26:37 |
-    | modified | 2025-03-26 16:14:57 |
-    | id | EAID_889A7DC6_B389_4e02_BB53_CC0B2B5B0D91 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_889A7DC6\_B389\_4e02\_BB53\_CC0B2B5B0D91 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -176,18 +193,23 @@ Attributen van objecttype ObjecttypeC
 > Geen Definitie
 
 ??? info "Kenmerken Model ObjecttypeD"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeD |
+<<<<<<< HEAD
     | toelichting | #NOTES#Default: |
+=======
+    | toelichting | #NOTES#Default:<br>#NOTES#Default: |
+>>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Debat_E |
-    | version | 1.3 |
+    | author | Debat\_E |
+    | version | 1.10.0 |
     | created | 2011-02-21 08:17:47 |
-    | modified | 2025-03-26 16:14:57 |
-    | id | EAID_DE4D6CAB_7798_46cd_AE1B_328684681323 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_DE4D6CAB\_7798\_46cd\_AE1B\_328684681323 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -210,18 +232,23 @@ Attributen van objecttype ObjecttypeD
 > Geen Definitie
 
 ??? info "Kenmerken Model ObjecttypeE"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeE |
+<<<<<<< HEAD
     | toelichting | #NOTES#Default: |
+=======
+    | toelichting | #NOTES#Default:<br>#NOTES#Default: |
+>>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Debat_E |
-    | version | 1.3 |
+    | author | Debat\_E |
+    | version | 1.10.0 |
     | created | 2011-02-24 10:21:56 |
-    | modified | 2025-03-26 16:14:57 |
-    | id | EAID_EF4E7B58_F178_4a4f_85C5_A5CD93747A36 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_EF4E7B58\_F178\_4a4f\_85C5\_A5CD93747A36 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -244,18 +271,23 @@ Attributen van objecttype ObjecttypeE
 > Geen Definitie
 
 ??? info "Kenmerken Model ObjecttypeF"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeF |
+<<<<<<< HEAD
     | toelichting | #NOTES#Default: |
+=======
+    | toelichting | #NOTES#Default:<br>#NOTES#Default: |
+>>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Debat_E |
-    | version | 1.3 |
+    | author | Debat\_E |
+    | version | 1.10.0 |
     | created | 2011-02-24 10:22:10 |
-    | modified | 2025-03-26 16:14:57 |
-    | id | EAID_23D170D0_917E_4873_A622_43214405AB3D |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_23D170D0\_917E\_4873\_A622\_43214405AB3D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -278,18 +310,23 @@ Attributen van objecttype ObjecttypeF
 > Geen Definitie
 
 ??? info "Kenmerken Model ObjecttypeG"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeG |
+<<<<<<< HEAD
     | toelichting | #NOTES#Default: |
+=======
+    | toelichting | #NOTES#Default:<br>#NOTES#Default: |
+>>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Debat_E |
-    | version | 1.3 |
+    | author | Debat\_E |
+    | version | 1.10.0 |
     | created | 2011-02-24 10:22:29 |
-    | modified | 2025-03-26 16:14:57 |
-    | id | EAID_97EE5348_F06A_44cb_A792_7371CF5D2E53 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_97EE5348\_F06A\_44cb\_A792\_7371CF5D2E53 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -303,7 +340,6 @@ Attributen van objecttype ObjecttypeG
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 

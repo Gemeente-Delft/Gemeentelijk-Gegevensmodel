@@ -2,9 +2,10 @@
 ## Inleiding
 > **Definitie Model Erfgoed Generiek:** 
 >
-> Geen definitie
+> Alle generieke objecttypen die door de subdomeinen van Erfgoed worden gebruikt.
 
 ??? info "Kenmerken Model Model Erfgoed Generiek"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Erfgoed Generiek |
@@ -13,10 +14,10 @@
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.2 |
+    | version | 1.3.0 |
     | created | 2019-08-15 11:30:03 |
-    | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_EDBB2231_6674_457d_84EF_1E0815AAA9E6 |
+    | modified | 2025-12-18 15:38:53 |
+    | id | EAPK\_EDBB2231\_6674\_457d\_84EF\_1E0815AAA9E6 |
     
 
 Het model 'Model Erfgoed Generiek' kent de volgende objecttypen:
@@ -35,6 +36,7 @@ Het model 'Model Erfgoed Generiek' kent de volgende objecttypen:
 > Uit het verleden geërfde materiële en immateriële objecten
 
 ??? info "Kenmerken Model Erfgoed Object"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Erfgoed Object |
@@ -42,11 +44,11 @@ Het model 'Model Erfgoed Generiek' kent de volgende objecttypen:
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2019-08-15 11:32:27 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_71A5C565_C2CC_495f_910A_76C199C6AF0E |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_71A5C565\_C2CC\_495f\_910A\_76C199C6AF0E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | ErfgoedObject |
@@ -60,10 +62,10 @@ Attributen van objecttype Erfgoed Object
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| dateringTot | int |  |
-| dateringVanaf | int |  |
-| omschrijving | Text |  |
 | titel | AN80 |  |
+| omschrijving | Text |  |
+| dateringVanaf | int |  |
+| dateringTot | int |  |
 
 
 
@@ -73,6 +75,7 @@ Attributen van objecttype Erfgoed Object
 > Natuurlijk persoon waarvan informatie beschikbaar is uit het verleden.
 
 ??? info "Kenmerken Model Historisch Persoon "
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Historisch Persoon |
@@ -80,11 +83,11 @@ Attributen van objecttype Erfgoed Object
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2019-08-15 11:08:20 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_3BBB3264_592A_4d8c_A741_C2A3C38E3932 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_3BBB3264\_592A\_4d8c\_A741\_C2A3C38E3932 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | HistorischPersoon |
@@ -98,13 +101,13 @@ Attributen van objecttype Historisch Persoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| beroep | AN200 |  |
+| naam | AN200 |  |
 | datumGeboorte | Date |  |
 | datumOverlijden | Date |  |
-| naam | AN200 |  |
 | omschrijving | Text |  |
-| publiekToegankelijk | Boolean |  |
 | woondeOp | AN50 |  |
+| beroep | AN200 |  |
+| publiekToegankelijk | Boolean |  |
 
 
 
@@ -114,6 +117,7 @@ Attributen van objecttype Historisch Persoon
 > Systematische identificatie en ordening van objecten in categorieën overeenkomstig logisch gestructureerde conventies, methoden en procedureregels weergegeven in een classificatiesysteem.
 
 ??? info "Kenmerken Model Objectclassificatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Objectclassificatie |
@@ -121,11 +125,11 @@ Attributen van objecttype Historisch Persoon
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Arjen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2019-08-15 13:21:48 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_65792171_62FA_4c35_930A_8B9C999ADC14 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_65792171\_62FA\_4c35\_930A\_8B9C999ADC14 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -141,7 +145,6 @@ Attributen van objecttype Objectclassificatie
 | :--- | :--- | :--- |
 | naam | AN80 |  |
 | omschrijving | Text |  |
-
 
 
 

@@ -5,6 +5,7 @@
 > Geen definitie
 
 ??? info "Kenmerken Model Model Generiek"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Generiek |
@@ -16,7 +17,7 @@
     | version | 1.0 |
     | created | 2019-05-09 15:50:58 |
     | modified | 2019-05-09 15:51:05 |
-    | id | EAPK_1738C6AD_81AA_423a_B053_982B95D9468A |
+    | id | EAPK\_1738C6AD\_81AA\_423a\_B053\_982B95D9468A |
     
 
 Het model 'Model Generiek' kent de volgende objecttypen:
@@ -41,6 +42,7 @@ Het model 'Model Generiek' kent de volgende objecttypen:
 > Afbeelding op een plat vlak vervaardigd door middel van fotografie
 
 ??? info "Kenmerken Model Foto"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Foto |
@@ -49,10 +51,10 @@ Het model 'Model Generiek' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-05-09 14:47:49 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_7FE4B466_B051_4068_9ED1_6E60C3B2DBAD |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_7FE4B466\_B051\_4068\_9ED1\_6E60C3B2DBAD |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Foto |
@@ -66,13 +68,13 @@ Attributen van objecttype Foto
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bestandsgrootte | int | Bestandsgrootte in bytes |
 | bestandsnaam | AN200 |  |
 | bestandstype | AN80 |  |
 | datumtijd | DateTime |  |
-| locatie | GML |  |
+| bestandsgrootte | int | Bestandsgrootte in bytes |
 | pixelsX | int |  |
 | pixelsY | int |  |
+| locatie | Point |  |
 
 
 
@@ -82,6 +84,7 @@ Attributen van objecttype Foto
 > Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen.
 
 ??? info "Kenmerken Model Gebied"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Gebied |
@@ -90,10 +93,10 @@ Attributen van objecttype Foto
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-22 09:39:03 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_0303A7A4_EF51_4262_AEE0_642FA5064807 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_0303A7A4\_EF51\_4262\_AEE0\_642FA5064807 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -107,7 +110,7 @@ Attributen van objecttype Gebied
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| gebied | Polygoon |  |
+| gebiedsAanduiding | MultiSurface |  |
 
 
 
@@ -117,6 +120,7 @@ Attributen van objecttype Gebied
 > Verzameling van gebieden
 
 ??? info "Kenmerken Model Gebiedengroep"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Gebiedengroep |
@@ -125,10 +129,10 @@ Attributen van objecttype Gebied
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-22 09:40:17 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_85E3996B_578D_4313_B078_2773F98412D9 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_85E3996B\_578D\_4313\_B078\_2773F98412D9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -151,6 +155,7 @@ Attributen van objecttype Gebiedengroep
 > Denkbeeldige streep op de aardoppervlakte
 
 ??? info "Kenmerken Model Lijn"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Lijn |
@@ -159,10 +164,10 @@ Attributen van objecttype Gebiedengroep
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-22 09:38:52 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_FAB83AD1_DC8C_4f78_B54F_33466EB9B139 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_FAB83AD1\_DC8C\_4f78\_B54F\_33466EB9B139 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -176,7 +181,7 @@ Attributen van objecttype Lijn
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| lijn | Lijn |  |
+| lijnLocatie | Lijn |  |
 
 
 
@@ -186,6 +191,7 @@ Attributen van objecttype Lijn
 > Verzameling van lijnen
 
 ??? info "Kenmerken Model Lijnengroep"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Lijnengroep |
@@ -194,10 +200,10 @@ Attributen van objecttype Lijn
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-22 09:40:05 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_CD06432A_B69D_4ab2_A5B0_C4C3092835A0 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_CD06432A\_B69D\_4ab2\_A5B0\_C4C3092835A0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -220,6 +226,7 @@ Attributen van objecttype Lijnengroep
 > De locatie beschrijft middels co√∂rdinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)
 
 ??? info "Kenmerken Model Locatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Locatie |
@@ -228,10 +235,10 @@ Attributen van objecttype Lijnengroep
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-22 09:37:55 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_79284529_B817_4e3f_BE51_AEAFC60BDE44 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_79284529\_B817\_4e3f\_BE51\_AEAFC60BDE44 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Locatie |
@@ -245,8 +252,8 @@ Attributen van objecttype Locatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| hoogte | int | Hoogte in meters. Negatief is onder het maaiveld en positief boven het maaiveld |
 | naam | AN200 |  |
+| hoogte | int | Hoogte in meters. Negatief is onder het maaiveld en positief boven het maaiveld |
 | NEN3610ID | AN80 |  |
 
 
@@ -257,6 +264,7 @@ Attributen van objecttype Locatie
 > Plaats in de ruimte
 
 ??? info "Kenmerken Model Punt"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Punt |
@@ -265,10 +273,10 @@ Attributen van objecttype Locatie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-22 09:38:45 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_20437683_6777_4c7b_B44B_1E3A216239AA |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_20437683\_6777\_4c7b\_B44B\_1E3A216239AA |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -282,7 +290,7 @@ Attributen van objecttype Punt
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| punt | Punt |  |
+| puntLocatie | Punt |  |
 
 
 
@@ -292,6 +300,7 @@ Attributen van objecttype Punt
 > Verzameling van punten
 
 ??? info "Kenmerken Model Puntengroep"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Puntengroep |
@@ -300,10 +309,10 @@ Attributen van objecttype Punt
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-10-22 09:39:56 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_4C0C5DDB_E5BA_42a0_BA5B_65E2D433B16C |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_4C0C5DDB\_E5BA\_42a0\_BA5B\_65E2D433B16C |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -326,6 +335,7 @@ Attributen van objecttype Puntengroep
 > Opnametechniek om bewegende beelden als een elektronisch signaal te registreren en weer te geven.
 
 ??? info "Kenmerken Model Video-opname"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Video-opname |
@@ -334,10 +344,10 @@ Attributen van objecttype Puntengroep
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2019-05-16 16:20:58 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_435883D2_C399_4590_B4F5_B07111103484 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_435883D2\_C399\_4590\_B4F5\_B07111103484 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | VideoOpname |
@@ -351,11 +361,10 @@ Attributen van objecttype Video-opname
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| bestandsgrootte | int |  |
 | datumtijd | DateTime |  |
 | lengte | int |  |
 | videoformaat | AN80 |  |
-
+| bestandsgrootte | int |  |
 
 
 

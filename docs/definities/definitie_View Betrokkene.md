@@ -5,6 +5,7 @@
 > Geen definitie
 
 ??? info "Kenmerken Model View Betrokkene"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | View Betrokkene |
@@ -12,11 +13,11 @@
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | Debat_E |
+    | author | Debat\_E |
     | version | 1.3 |
     | created | 2011-02-15 15:29:51 |
     | modified | 2024-11-21 08:38:15 |
-    | id | EAPK_6730FD25_4759_4575_9642_C5332AEC187E |
+    | id | EAPK\_6730FD25\_4759\_4575\_9642\_C5332AEC187E |
     
 
 Het model 'View Betrokkene' kent de volgende objecttypen:
@@ -33,6 +34,7 @@ Het model 'View Betrokkene' kent de volgende objecttypen:
 > Geen Definitie
 
 ??? info "Kenmerken Model RSGB"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | RSGB |
@@ -44,7 +46,7 @@ Het model 'View Betrokkene' kent de volgende objecttypen:
     | version |  |
     | created |  |
     | modified |  |
-    | id | EAID_47012752_161F_4b30_BB79_4F4F04B9C734 |
+    | id | EAID\_47012752\_161F\_4b30\_BB79\_4F4F04B9C734 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -58,7 +60,6 @@ Attributen van objecttype RSGB
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 

@@ -5,6 +5,7 @@
 > Het informatiedomein dat gegevens omvat over de vorming, het beheer, de toegankelijkheid en de duurzame bewaring van archieven, inclusief documenten en collecties van cultuurhistorische waarde.
 
 ??? info "Kenmerken Model Model Archief"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Archief |
@@ -16,7 +17,7 @@
     | version | 1.1 |
     | created | 2018-06-28 14:28:07 |
     | modified | 2025-03-27 15:28:35 |
-    | id | EAPK_43857236_06A8_4277_864D_3C7A6277442B |
+    | id | EAPK\_43857236\_06A8\_4277\_864D\_3C7A6277442B |
     
 
 Het model 'Model Archief' kent de volgende objecttypen:
@@ -50,6 +51,7 @@ Het model 'Model Archief' kent de volgende objecttypen:
 > (officieel) verzoek, iets (officieel) vragen aan een bevoegde macht.
 
 ??? info "Kenmerken Model Aanvraag"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Aanvraag |
@@ -58,10 +60,10 @@ Het model 'Model Archief' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-28 15:40:55 |
-    | modified | 2025-03-26 16:14:35 |
-    | id | EAID_2F2A3590_9B34_4ec5_B0AE_B487ED241155 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_2F2A3590\_9B34\_4ec5\_B0AE\_B487ED241155 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Aanvraag |
@@ -85,6 +87,7 @@ Attributen van objecttype Aanvraag
 > De bewaarplaats van belangrijke gegevens die zijn vastgelegd in documentvorm alsook de verzameling van documenten die voor een bepaald doel vervaardigd zijn.
 
 ??? info "Kenmerken Model Archief"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Archief |
@@ -93,10 +96,10 @@ Attributen van objecttype Aanvraag
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-28 15:26:01 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_E09E5B44_4D39_455a_B0A5_390A63AC0C43 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_E09E5B44\_4D39\_455a\_B0A5\_390A63AC0C43 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Archief |
@@ -110,10 +113,10 @@ Attributen van objecttype Archief
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| archiefnummer | AN20 |  |
 | naam | AN80 |  |
 | omschrijving | text |  |
 | openbaarheidsbeperking | int |  |
+| archiefnummer | AN20 |  |
 
 
 
@@ -123,6 +126,7 @@ Attributen van objecttype Archief
 > Typologie van een archief conform landelijke indeling
 
 ??? info "Kenmerken Model Archiefcategorie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Archiefcategorie |
@@ -131,10 +135,10 @@ Attributen van objecttype Archief
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-28 15:26:49 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_66DB38CC_932D_462c_9791_C60237EA9B7A |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_66DB38CC\_932D\_462c\_9791\_C60237EA9B7A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -149,8 +153,8 @@ Attributen van objecttype Archiefcategorie
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | naam | AN80 |  |
-| nummer | AN20 |  |
 | omschrijving | text |  |
+| nummer | AN20 |  |
 
 
 
@@ -160,6 +164,7 @@ Attributen van objecttype Archiefcategorie
 > Bijeengebrachte informatie, ongeacht het medium, die wordt gecreëerd, ontvangen en gearchiveerd door een bureau, een instelling, een organisatie of een individu met het oog op het nakomen van wettelijke verplichtingen of het uitvoeren van zakelijke transacties.(AAT)
 
 ??? info "Kenmerken Model Archiefstuk"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Archiefstuk |
@@ -168,10 +173,10 @@ Attributen van objecttype Archiefcategorie
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.11.0 |
     | created | 2018-06-28 15:27:20 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_369E453B_4C3A_48dc_9619_C36232B339D9 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_369E453B\_4C3A\_48dc\_9619\_C36232B339D9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Archiefstuk |
@@ -185,11 +190,11 @@ Attributen van objecttype Archiefstuk
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| beschrijving | text |  |
+| trefwoorden | AN200 |  |
+| openbaarheidsbeperking | Boolean |  |
 | inventarisnummer | AN20 |  |
 | omvang | AN40 |  |
-| openbaarheidsbeperking | Boolean |  |
-| trefwoorden | AN200 |  |
+| beschrijving | text |  |
 | uiterlijkeVorm | AN40 |  |
 
 
@@ -200,6 +205,7 @@ Attributen van objecttype Archiefstuk
 > De persoon die verantwoordelijk is voor de inhoud van een (digitaal) document
 
 ??? info "Kenmerken Model Auteur"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Auteur |
@@ -208,10 +214,10 @@ Attributen van objecttype Archiefstuk
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-07-02 10:18:05 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_BCAFBBCD_851E_4235_9D85_88EC71F2245B |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_BCAFBBCD\_851E\_4235\_9D85\_88EC71F2245B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Auteur |
@@ -236,6 +242,7 @@ Attributen van objecttype Auteur
 > Een persoon die iemand of iets bezoekt.
 
 ??? info "Kenmerken Model Bezoeker"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Bezoeker |
@@ -244,10 +251,10 @@ Attributen van objecttype Auteur
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-07-02 10:19:03 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_066C9C37_0FAF_4239_8D7D_B7EBE42E4918 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_066C9C37\_0FAF\_4239\_8D7D\_B7EBE42E4918 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Bezoeker |
@@ -270,6 +277,7 @@ Attributen van objecttype Bezoeker
 > Plaats waar iets bewaard wordt.
 
 ??? info "Kenmerken Model Depot"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Depot |
@@ -278,10 +286,10 @@ Attributen van objecttype Bezoeker
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-28 15:43:33 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_604A6143_DE7F_4950_B3D4_DFB88C7F4670 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_604A6143\_DE7F\_4950\_B3D4\_DFB88C7F4670 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Depot |
@@ -306,6 +314,7 @@ Attributen van objecttype Depot
 > Bestand dat uitsluitend met behulp van besturingsprogrammatuur of toepassingsprogrammatuur geraadpleegd kunnen worden
 
 ??? info "Kenmerken Model DigitaalBestand"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | DigitaalBestand |
@@ -314,10 +323,10 @@ Attributen van objecttype Depot
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-28 15:38:26 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_FEFE9DBE_921F_4cc4_99C5_972A9C5F4C6E |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_FEFE9DBE\_921F\_4cc4\_99C5\_972A9C5F4C6E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -331,10 +340,10 @@ Attributen van objecttype DigitaalBestand
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| blob | Blob |  |
-| mimetype | AN20 |  |
 | naam | AN80 |  |
 | omschrijving | text |  |
+| mimetype | AN20 |  |
+| blob | Blob |  |
 
 
 
@@ -344,6 +353,7 @@ Attributen van objecttype DigitaalBestand
 > Onderwerpen groeperen in samenhangende categorieën.
 
 ??? info "Kenmerken Model Indeling"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Indeling |
@@ -352,10 +362,10 @@ Attributen van objecttype DigitaalBestand
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.4 |
+    | version | 1.11.0 |
     | created | 2018-07-03 10:53:01 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_13119DEC_D451_4bec_BB37_7B1944ACCA9D |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_13119DEC\_D451\_4bec\_BB37\_7B1944ACCA9D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -369,10 +379,10 @@ Attributen van objecttype Indeling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| indelingsoort | AN20 |  |
 | naam | AN80 |  |
 | nummer | AN20 |  |
 | omschrijving | text |  |
+| indelingsoort | AN20 |  |
 
 
 
@@ -382,6 +392,7 @@ Attributen van objecttype Indeling
 > Geen Definitie
 
 ??? info "Kenmerken Model Index"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Index |
@@ -390,10 +401,10 @@ Attributen van objecttype Indeling
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.3 |
+    | version | 1.10.0 |
     | created | 2018-07-03 13:25:27 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_C45E0D5D_3B2F_40a7_B12C_B6E910C516FA |
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_C45E0D5D\_3B2F\_40a7\_B12C\_B6E910C516FA |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -418,6 +429,7 @@ Attributen van objecttype Index
 > Object met een permanent karakter dat dient om iets in te bergen en te beschermen.
 
 ??? info "Kenmerken Model Kast"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Kast |
@@ -426,10 +438,10 @@ Attributen van objecttype Index
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-28 15:46:17 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_CA844994_4AAE_417f_82A3_31CA5432237A |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_CA844994\_4AAE\_417f\_82A3\_31CA5432237A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -453,6 +465,7 @@ Attributen van objecttype Kast
 > De bevoegdheid om gegevens te raadplegen, bepaalde plaatsen te betreden of een bepaalde taak uit te oefenen.
 
 ??? info "Kenmerken Model Nadere Toegang"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Nadere Toegang |
@@ -461,10 +474,10 @@ Attributen van objecttype Kast
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-07-03 13:24:45 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_7A080605_07C5_4947_9B35_BC6EBE2041FA |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_7A080605\_07C5\_4947\_9B35\_BC6EBE2041FA |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | NadereToegang |
@@ -487,6 +500,7 @@ Attributen van objecttype Nadere Toegang
 > Ordening om archief en collecties beter vindbaar en bruikbaar voor betrokkenen.
 
 ??? info "Kenmerken Model Ordeningsschema"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Ordeningsschema |
@@ -495,10 +509,10 @@ Attributen van objecttype Nadere Toegang
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-07-03 15:43:25 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_B61986A2_B8E7_4e69_AD55_E61771FDEEB4 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_B61986A2\_B8E7\_4e69\_AD55\_E61771FDEEB4 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -523,6 +537,7 @@ Attributen van objecttype Ordeningsschema
 > Deel, plaat; stuk hout breder dan het dik is en langer dan breed.
 
 ??? info "Kenmerken Model Plank"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Plank |
@@ -531,10 +546,10 @@ Attributen van objecttype Ordeningsschema
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-28 15:46:46 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_D9693C25_0F66_4504_BE2B_4BBF66071026 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_D9693C25\_0F66\_4504\_BE2B\_4BBF66071026 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -558,6 +573,7 @@ Attributen van objecttype Plank
 > Een rechthebbende is iemand die rechten heeft op een goed.
 
 ??? info "Kenmerken Model Rechthebbende"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Rechthebbende |
@@ -566,10 +582,10 @@ Attributen van objecttype Plank
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-07-02 10:18:28 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_9AE5BCE3_AD6D_4241_9651_823400E3745F |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_9AE5BCE3\_AD6D\_4241\_9651\_823400E3745F |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Rechthebbende |
@@ -592,6 +608,7 @@ Attributen van objecttype Rechthebbende
 > Een systeem om goederen op te slaan die worden vervoerd en opgeslagen op pallets, in bundels of per stuk.(Wikipedia)
 
 ??? info "Kenmerken Model Stelling"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Stelling |
@@ -600,10 +617,10 @@ Attributen van objecttype Rechthebbende
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-28 15:45:19 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_78DA1B42_4AF8_4650_81A0_7F2C3A450B3D |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_78DA1B42\_4AF8\_4650\_81A0\_7F2C3A450B3D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -627,6 +644,7 @@ Attributen van objecttype Stelling
 > Iemand die iets op de markt brengt; iemand die iets uitgeeft
 
 ??? info "Kenmerken Model Uitgever"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Uitgever |
@@ -635,10 +653,10 @@ Attributen van objecttype Stelling
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-07-02 10:18:12 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_59CF7225_3D61_42e2_A399_7EB13450D97D |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_59CF7225\_3D61\_42e2\_A399\_7EB13450D97D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Uitgever |
@@ -661,6 +679,7 @@ Attributen van objecttype Uitgever
 > Een plek waar men iets gevonden heeft.
 
 ??? info "Kenmerken Model Vindplaats"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vindplaats |
@@ -669,10 +688,10 @@ Attributen van objecttype Uitgever
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-06-28 15:27:53 |
-    | modified | 2025-03-26 16:14:36 |
-    | id | EAID_D7947186_4317_407b_A456_41DF5187E810 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_D7947186\_4317\_407b\_A456\_41DF5187E810 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -686,7 +705,6 @@ Attributen van objecttype Vindplaats
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-
 
 
 

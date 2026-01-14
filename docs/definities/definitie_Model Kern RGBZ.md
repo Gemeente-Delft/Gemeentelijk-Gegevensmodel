@@ -2,9 +2,10 @@
 ## Inleiding
 > **Definitie Model Kern RGBZ:** 
 >
-> Geen definitie
+> Het subdomein RGBZ met alle objecttypen betreffend zaakgericht werken.
 
 ??? info "Kenmerken Model Model Kern RGBZ"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Model Kern RGBZ |
@@ -12,11 +13,11 @@
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.3 |
+    | author | mante\_h |
+    | version | 1.4.0 |
     | created | 2010-10-19 17:21:37 |
-    | modified | 2024-11-21 08:38:15 |
-    | id | EAPK_2EDFFA95_0A05_4292_84C5_2A912A6B6718 |
+    | modified | 2025-12-18 15:38:53 |
+    | id | EAPK\_2EDFFA95\_0A05\_4292\_84C5\_2A912A6B6718 |
     
 
 Het model 'Model Kern RGBZ' kent de volgende objecttypen:
@@ -59,6 +60,7 @@ Het model 'Model Kern RGBZ' kent de volgende objecttypen:
 > Reeks opeenvolgend uit te voeren activiteiten die bijdraagt aan een specifiek resultaat, zoals de levering van een product of product of dienst.
 
 ??? info "Kenmerken Model Bedrijfsproces"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Bedrijfsproces |
@@ -66,11 +68,11 @@ Het model 'Model Kern RGBZ' kent de volgende objecttypen:
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.7 |
+    | author | Ashkan Ashkpour |
+    | version | 1.14.0 |
     | created | 2023-05-15 13:27:23 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_EDB5D3CD_CE4D_4317_81C6_C01CC7325148 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_EDB5D3CD\_CE4D\_4317\_81C6\_C01CC7325148 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Bedrijfsproces |
@@ -84,11 +86,11 @@ Attributen van objecttype Bedrijfsproces
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Afgerond | Enumeratie: "Boolean" |  |
-| Datum_eind | Date |  |
-| Datum_start | Date |  |
-| Naam | AN200 |  |
 | Omschrijving | AN200 |  |
+| Datum_start | Date |  |
+| Datum_eind | Date |  |
+| Afgerond | Boolean |  |
+| Naam | AN200 |  |
 
 
 
@@ -98,6 +100,7 @@ Attributen van objecttype Bedrijfsproces
 > soort Bedrijfsproces met bepaalde kenmerken
 
 ??? info "Kenmerken Model Bedrijfsprocestype"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Bedrijfsprocestype |
@@ -105,11 +108,11 @@ Attributen van objecttype Bedrijfsproces
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.5 |
+    | author | Ashkan Ashkpour |
+    | version | 1.12.0 |
     | created | 2023-05-15 13:29:43 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_14E4AF23_21E9_412a_B78D_C208EE9F419D |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_14E4AF23\_21E9\_412a\_B78D\_C208EE9F419D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -123,7 +126,7 @@ Attributen van objecttype Bedrijfsprocestype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Omschrijving | AM200 |  |
+| Omschrijving | AN200 |  |
 
 
 
@@ -133,6 +136,7 @@ Attributen van objecttype Bedrijfsprocestype
 > Een na overweging of beraadslaging vastgestelde beslissing voor een individueel of concreet geval.
 
 ??? info "Kenmerken Model Besluit"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Besluit |
@@ -140,11 +144,11 @@ Attributen van objecttype Bedrijfsprocestype
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-08-19 09:41:46 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_AFB100D2_8C68_4488_8949_13E945D15920 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_AFB100D2\_8C68\_4488\_8949\_13E945D15920 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Besluit |
@@ -158,6 +162,7 @@ Attributen van objecttype Besluit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+<<<<<<< HEAD
 | besluit | AN200 |  |
 | besluitidentificatie | AN50 | Identificatie van het besluit. |
 | besluittoelichting | AN1000 | Toelichting bij het besluit. |
@@ -171,6 +176,21 @@ Attributen van objecttype Besluit
 | document | Class: "Document" |  |
 | zaak | Class: "Zaak" |  |
 | type | Class: "Besluittype" |  |
+=======
+| besluitidentificatie | AN50 | Identificatie van het besluit. |
+| datumBesluit | Datum | De beslisdatum (AWB) van het besluit. |
+| besluittoelichting | AN1000 | Toelichting bij het besluit. |
+| datumStart | Datum | Ingangsdatum van de werkingsperiode van het besluit. |
+| datumVerval | Datum | Datum waarop de werkingsperiode van het besluit eindigt. |
+| redenVerval | AN40 | De omschrijving die aangeeft op grond waarvan het besluit is of komt te vervallen. |
+| datumPublicatie | Datum | Datum waarop het besluit gepubliceerd wordt. |
+| datumVerzending | Datum | Datum waarop het besluit verzonden is. |
+| datumUiterlijkeReactie | Datum | De datum tot wanneer verweer tegen het besluit mogelijk is. |
+| omschrijving | AN200 |  |
+| document | Document |  |
+| zaak | Zaak |  |
+| type | Besluittype |  |
+>>>>>>> origin/master
 
 
 
@@ -180,6 +200,7 @@ Attributen van objecttype Besluit
 > Generieke aanduiding van de aard van een besluit
 
 ??? info "Kenmerken Model Besluittype"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Besluittype |
@@ -187,11 +208,11 @@ Attributen van objecttype Besluit
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-08-19 10:01:32 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_922D3938_A0EA_42bf_9EFC_23A6A236AF9B |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_922D3938\_A0EA\_42bf\_9EFC\_23A6A236AF9B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -205,6 +226,7 @@ Attributen van objecttype Besluittype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+<<<<<<< HEAD
 | besluitcategorie | AN40 | Typering van de aard van BESLUITen van het BESLUITTYPE. |
 | besluittypeOmschrijving | AN80 | Omschrijving van de aard van BESLUITen van het BESLUITTYPE. |
 | besluittypeOmschrijvingGeneriek | AN80 | Algemeen gehanteerde omschrijving van de aard van BESLUITen van het BESLUITTYPE |
@@ -214,6 +236,17 @@ Attributen van objecttype Besluittype
 | publicatietekst | AN1000 | De generieke tekst van de publicatie van BESLUITen van dit BESLUITTYPE |
 | publicatietermijn | N3 | Het aantal dagen, gerekend vanaf de verzend- of publicatiedatum, dat BESLUITen van dit BESLUITTYPE gepubliceerd moeten blijven. |
 | reactietermijn | N3 | Het aantal dagen, gerekend vanaf de verzend- of publicatiedatum, waarbinnen verweer tegen een besluit van het besluittype mogelijk is. |
+=======
+| besluittypeOmschrijving | AN80 | Omschrijving van de aard van BESLUITen van het BESLUITTYPE. |
+| besluittypeOmschrijvingGeneriek | AN80 | Algemeen gehanteerde omschrijving van de aard van BESLUITen van het BESLUITTYPE |
+| besluitcategorie | AN40 | Typering van de aard van BESLUITen van het BESLUITTYPE. |
+| reactietermijn | N3 | Het aantal dagen, gerekend vanaf de verzend- of publicatiedatum, waarbinnen verweer tegen een besluit van het besluittype mogelijk is. |
+| indicatiePublicatie | AN1 | Aanduiding of BESLUITen van dit BESLUITTYPE gepubliceerd moeten worden. |
+| publicatietekst | AN1000 | De generieke tekst van de publicatie van BESLUITen van dit BESLUITTYPE |
+| publicatietermijn | N3 | Het aantal dagen, gerekend vanaf de verzend- of publicatiedatum, dat BESLUITen van dit BESLUITTYPE gepubliceerd moeten blijven. |
+| datumBeginGeldigheidBesluittype | OnvolledigeDatum | De datum waarop het BESLUITTYPE is ontstaan. |
+| datumEindeGeldigheidBesluittype | OnvolledigeDatum | De datum waarop het BESLUITTYPE is opgeheven. |
+>>>>>>> origin/master
 
 
 
@@ -223,6 +256,7 @@ Attributen van objecttype Besluittype
 > het onderhandigen of overboeken van geld in ruil voor goed of dienst
 
 ??? info "Kenmerken Model Betaling"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Betaling |
@@ -230,11 +264,11 @@ Attributen van objecttype Besluittype
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.7 |
+    | author | Arjen Brienen |
+    | version | 1.14.0 |
     | created | 2018-04-23 11:51:28 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_FC488929_8721_402f_A073_1DFDB76A816E |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_FC488929\_8721\_402f\_A073\_1DFDB76A816E |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Betaling |
@@ -250,8 +284,8 @@ Attributen van objecttype Betaling
 | :--- | :--- | :--- |
 | bedrag | Bedrag |  |
 | datumtijd | datetime |  |
-| omschrijving | AN200 |  |
 | valuta | AN3 |  |
+| omschrijving | AN200 |  |
 
 
 
@@ -261,6 +295,7 @@ Attributen van objecttype Betaling
 > Een SUBJECT, zijnde een NATUURLIJK PERSOON, NIET-NATUURLIJK PERSOON of VESTIGING, ORGANISATORISCHE EENHEID (binnen een vestiging van de zaak-behandelende niet-natuurlijk persoon), of MEDEWERKER (van die organisatorische eenheid) die een rol kan spelen bij een ZAAK.
 
 ??? info "Kenmerken Model Betrokkene"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Betrokkene |
@@ -268,11 +303,11 @@ Attributen van objecttype Betaling
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-08-19 10:58:19 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_16FB8171_A9ED_4027_A663_C035509501C8 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_16FB8171\_A9ED\_4027\_A663\_C035509501C8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Betrokkene |
@@ -286,6 +321,7 @@ Attributen van objecttype Betrokkene
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+<<<<<<< HEAD
 | adresBinnenland |  | De aanduiding van het adres van de BETROKKENE indien dit adres in Nederland gelegen is. |
 | adresBuitenland |  | De aanduiding van het adres waar specialisaties van de BETROKKENE  zijnde een (NIET) NATUURLIJK PERSOON of VESTIGING dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland. |
 | identificatie | AN50 | De unieke identificatie van de BETROKKENE |
@@ -295,6 +331,17 @@ Attributen van objecttype Betrokkene
 | organisatorische eenheid | Class: "OrganisatorischeEenheid" |  |
 | vestiging | Class: "NietNatuurlijkPersoon" |  |
 | medewerker | Class: "Medewerker" |  |
+=======
+| naam | AN200 | De benaming van de BETROKKENE indien dit een (NIET) NATUURLIJK PERSOON, VESTIGING of specialisatie daarvan is. |
+| identificatie | AN50 | De unieke identificatie van de BETROKKENE |
+| adresBinnenland | BinnenlandsAdres | De aanduiding van het adres van de BETROKKENE indien dit adres in Nederland gelegen is. |
+| adresBuitenland | AN200 | De aanduiding van het adres waar specialisaties van de BETROKKENE zijnde een (NIET) NATUURLIJK PERSOON of VESTIGING dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland. |
+| rol | Zaak |  |
+| betrokkene | NatuurlijkPersoon |  |
+| organisatorische eenheid | OrganisatorischeEenheid |  |
+| vestiging | NietNatuurlijkPersoon |  |
+| medewerker | Medewerker |  |
+>>>>>>> origin/master
 
 
 
@@ -304,6 +351,7 @@ Attributen van objecttype Betrokkene
 > Een geordende reeks van processtappen die binnen één organisatorische eenheid binnen een organisatie wordt uitgevoerd met als doel een specifieke bijdrage (prestatie) te leveren aan een dienst die uiteindelijke zal worden geleverd aan een burger, een bedrijf of een andere organisatie. Voorheen 'werkproces' genoemd.
 
 ??? info "Kenmerken Model Deelproces"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Deelproces |
@@ -311,11 +359,11 @@ Attributen van objecttype Betrokkene
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.5 |
+    | author | Ashkan Ashkpour |
+    | version | 1.12.0 |
     | created | 2023-05-15 13:30:05 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_1B65D674_DC17_40e8_B663_85DA82FD7E94 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_1B65D674\_DC17\_40e8\_B663\_85DA82FD7E94 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -329,8 +377,8 @@ Attributen van objecttype Deelproces
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Datum_afgehandeld | Date |  |
 | Datum_gepland | Date |  |
+| Datum_afgehandeld | Date |  |
 
 
 
@@ -340,6 +388,7 @@ Attributen van objecttype Deelproces
 > soort Deelproces met bepaalde kenmerken
 
 ??? info "Kenmerken Model Deelprocestype"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Deelprocestype |
@@ -347,11 +396,11 @@ Attributen van objecttype Deelproces
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | aashkpour |
-    | version | 1.5 |
+    | author | Ashkan Ashkpour |
+    | version | 1.12.0 |
     | created | 2023-05-15 13:30:19 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_710A1D2B_3C7B_41cf_A947_727186C40A98 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_710A1D2B\_3C7B\_41cf\_A947\_727186C40A98 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -375,6 +424,7 @@ Attributen van objecttype Deelprocestype
 > Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT.
 
 ??? info "Kenmerken Model Document"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Document |
@@ -382,11 +432,11 @@ Attributen van objecttype Deelprocestype
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.4 |
+    | author | mante\_h |
+    | version | 1.11.0 |
     | created | 2010-08-19 12:15:35 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_5641C50A_C0FA_4e71_B07B_26C7B1CE94ED |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_5641C50A\_C0FA\_4e71\_B07B\_26C7B1CE94ED |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Document |
@@ -400,6 +450,7 @@ Attributen van objecttype Document
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+<<<<<<< HEAD
 | cocumentBeschrijving | AN1000 | Een generieke beschrijving van de inhoud van het document. |
 | datumCreatieDocument |  | Een datum of een gebeurtenis in de levenscyclus van het document. |
 | datumOntvangstdocument |  | De datum waarop het DOCUMENT ontvangen is. |
@@ -411,6 +462,17 @@ Attributen van objecttype Document
 | documentTitel | AN200 | De naam waaronder het document formeel bekend is. |
 | vertrouwelijkAanduiding | AN20 | Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is. |
 | type | Class: "Documenttype" |  |
+=======
+| documentIdentificatie | AN40 | Een binnen een gegeven context ondubbelzinnige referentie naar het document.<br>Bijvoorbeeld potsregistratienummer |
+| datumCreatieDocument | Datum | Een datum of een gebeurtenis in de levenscyclus van het document. |
+| datumOntvangstdocument | Datum | De datum waarop het DOCUMENT ontvangen is. |
+| documentTitel | AN200 | De naam waaronder het document formeel bekend is. |
+| cocumentBeschrijving | AN1000 | Een generieke beschrijving van de inhoud van het document. |
+| datumVerzendingDocument | Datum | De datum waarop het DOCUMENT verzonden is. |
+| vertrouwelijkAanduiding | AN20 | Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is. |
+| documentAuteur | AN200 | De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document. |
+| type | Documenttype |  |
+>>>>>>> origin/master
 
 
 
@@ -420,6 +482,7 @@ Attributen van objecttype Document
 > Aanduiding van de aard van een DOCUMENT zoals gehanteerd door de zaakbehandelende organisatie
 
 ??? info "Kenmerken Model Documenttype"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Documenttype |
@@ -427,11 +490,11 @@ Attributen van objecttype Document
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-08-19 11:30:39 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_77C7D6B6_44DE_44c0_A662_8E1A0A226EA8 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_77C7D6B6\_44DE\_44c0\_A662\_8E1A0A226EA8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -445,12 +508,21 @@ Attributen van objecttype Documenttype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+<<<<<<< HEAD
 | datumBeginGeldigheidDocumenttype | OnvolledigeDatum | De datum waarop het DOCUMENTTYPE is ontstaan. |
 | datumEindeGeldigheidDocumenttype | OnvolledigeDatum | De datum waarop het DOCUMENTTYPE is opgeheven. |
 | documentCategorie | AN80 | Typering van de aard van DOCUMENTen van dit DOCUMENTTYPE. |
 | documenttypeOmschrijving | AN80 | Omschrijving van de aard van DOCUMENTen van dit DOCUMENTTYPE. |
 | documenttypeOmschrijvingGeneriek | AN80 | Algemeen gehanteerde omschrijving van het DOCUMENTTYPE |
 | documenttypeTrefwoord | AN30 | Trefwoord(en) waarmee DOCUMENTen van het DOCUMENTTYPE kunnen worden gekarakteriseerd. |
+=======
+| documenttypeOmschrijving | AN80 | Omschrijving van de aard van DOCUMENTen van dit DOCUMENTTYPE. |
+| documenttypeOmschrijvingGeneriek | AN80 | Algemeen gehanteerde omschrijving van het DOCUMENTTYPE |
+| documentCategorie | AN80 | Typering van de aard van DOCUMENTen van dit DOCUMENTTYPE. |
+| documenttypeTrefwoord | AN30 | Trefwoord(en) waarmee DOCUMENTen van het DOCUMENTTYPE kunnen worden gekarakteriseerd. |
+| datumBeginGeldigheidDocumenttype | OnvolledigeDatum | De datum waarop het DOCUMENTTYPE is ontstaan. |
+| datumEindeGeldigheidDocumenttype | OnvolledigeDatum | De datum waarop het DOCUMENTTYPE is opgeheven. |
+>>>>>>> origin/master
 
 
 
@@ -460,6 +532,7 @@ Attributen van objecttype Documenttype
 > Een DOCUMENT waarvan aard, omvang en/of vorm aanleiding geven het als één geheel te behandelen en te beheren.
 
 ??? info "Kenmerken Model EnkelvoudigDocument"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | EnkelvoudigDocument |
@@ -467,11 +540,11 @@ Attributen van objecttype Documenttype
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-08-19 11:32:47 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_547FD48D_F885_4816_BCFA_4048995C8D83 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_547FD48D\_F885\_4816\_BCFA\_4048995C8D83 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -485,6 +558,7 @@ Attributen van objecttype EnkelvoudigDocument
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+<<<<<<< HEAD
 | bestandsnaam | AN255 | De naam van het fysieke bestand waarin de documentinhoud is vastgelegd. |
 | documentFormaat | AN10 | De digitale manifestatie van het ENKELVOUDIG DOCUMENT. |
 | documentInhoud | Documentformaat | Datgene wat in een ENKELVOUDIG DOCUMENT wordt meegedeeld. |
@@ -492,6 +566,15 @@ Attributen van objecttype EnkelvoudigDocument
 | documentStatus | AN20 | Aanduiding van de stand van zaken van een ENKELVOUDIG DOCUMENTDOCUMENT. |
 | documentTaal | AN20 | Een taal van de intellectuele inhoud van het ENKELVOUDIG DOCUMENT |
 | documentVersie | AN5 | Aanduiding van de bewerkingsfase van het ENKELVOUDIG DOCUMENT |
+=======
+| documentFormaat | AN10 | De digitale manifestatie van het ENKELVOUDIG DOCUMENT. |
+| documentTaal | AN20 | Een taal van de intellectuele inhoud van het ENKELVOUDIG DOCUMENT |
+| documentVersie | AN5 | Aanduiding van de bewerkingsfase van het ENKELVOUDIG DOCUMENT |
+| documentStatus | AN20 | Aanduiding van de stand van zaken van een ENKELVOUDIG DOCUMENTDOCUMENT. |
+| documentInhoud | AN255 | Datgene wat in een ENKELVOUDIG DOCUMENT wordt meegedeeld. |
+| documentLink | AN200 | De URL waarmee de documentinhoud op te vragen is. |
+| bestandsnaam | AN255 | De naam van het fysieke bestand waarin de documentinhoud is vastgelegd. |
+>>>>>>> origin/master
 
 
 
@@ -501,6 +584,7 @@ Attributen van objecttype EnkelvoudigDocument
 > Een door de overheid opgelegde verplichting tot betaling
 
 ??? info "Kenmerken Model Heffing"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Heffing |
@@ -509,10 +593,10 @@ Attributen van objecttype EnkelvoudigDocument
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.7 |
+    | version | 1.14.0 |
     | created | 2019-04-17 13:44:30 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_B3371695_97AD_49d2_9AF1_15591B422007 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_B3371695\_97AD\_49d2\_9AF1\_15591B422007 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Heffing |
@@ -528,11 +612,11 @@ Attributen van objecttype Heffing
 | :--- | :--- | :--- |
 | bedrag | bedrag |  |
 | code | AN80 |  |
-| datumIndiening | datum |  |
-| gefactureerd | boolean |  |
 | inrekening | bedrag |  |
-| nummer | int |  |
+| gefactureerd | boolean |  |
 | runnummer | int |  |
+| datumIndiening | datum |  |
+| nummer | int |  |
 
 
 
@@ -542,6 +626,7 @@ Attributen van objecttype Heffing
 > Nodig voor archivering om verschillende typen identificatie te kunnen onderscheiden:
 
 ??? info "Kenmerken Model Identificatiekenmerk"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Identificatiekenmerk |
@@ -550,10 +635,10 @@ Attributen van objecttype Heffing
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.5 |
+    | version | 1.12.0 |
     | created | 2018-07-02 10:30:07 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_D73AFAEC_3BF1_4309_93FE_5354EF26DA51 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_D73AFAEC\_3BF1\_4309\_93FE\_5354EF26DA51 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -579,6 +664,7 @@ Attributen van objecttype Identificatiekenmerk
 > Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje).
 
 ??? info "Kenmerken Model Klantcontact"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Klantcontact |
@@ -586,11 +672,11 @@ Attributen van objecttype Identificatiekenmerk
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | crossover |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2018-04-25 14:49:05 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_A3DAD553_0E55_4256_824B_CDB5E12CB545 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_A3DAD553\_0E55\_4256\_824B\_CDB5E12CB545 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Klantcontact |
@@ -604,6 +690,7 @@ Attributen van objecttype Klantcontact
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+<<<<<<< HEAD
 | eindtijd | Datetime | 
 > Werkelijke eindtijd van het klantcontact. Het moment dat de conversatie ten einde is.
 > Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk |
@@ -612,9 +699,15 @@ Attributen van objecttype Klantcontact
 | starttijd | Datetime | 
 > Werkelijke starttijd van het klantcontact, dus het moment dat klant en medewerker van de gemeente elkaar spreken.
 > Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk |
+=======
+| eindtijd | Datetime | Werkelijke eindtijd van het klantcontact. Het moment dat de conversatie ten einde is.<br>Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk |
+| starttijd | Datetime | Werkelijke starttijd van het klantcontact, dus het moment dat klant en medewerker van de gemeente elkaar spreken.<br>Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk |
+>>>>>>> origin/master
 | tijdsduur | int | Werkelijke tijdsduur in seconden |
-| toelichting | text |  |
 | wachttijdTotaal | int | De totale wachttijd voor de starttijd van het klantcontact. Dit inclusief eventueel te vroeg verschijnen op een afspraak |
+| kanaal | AN20 |  |
+| toelichting | text |  |
+| notitie | text |  |
 
 
 
@@ -624,6 +717,7 @@ Attributen van objecttype Klantcontact
 > Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID.
 
 ??? info "Kenmerken Model Medewerker"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Medewerker |
@@ -631,11 +725,11 @@ Attributen van objecttype Klantcontact
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-08-19 11:35:05 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_16EB3936_03CB_4854_9CD8_9F0911EEA51B |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_16EB3936\_03CB\_4854\_9CD8\_9F0911EEA51B |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Medewerker |
@@ -649,6 +743,7 @@ Attributen van objecttype Medewerker
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+<<<<<<< HEAD
 | achternaam | AN200 | De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt. |
 | datumInDienst | Date |  |
 | datumUitDienst |  | Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt. |
@@ -666,6 +761,23 @@ Attributen van objecttype Medewerker
 > gescheiden. |
 | organisatorische eenheid | Class: "OrganisatorischeEenheid" |  |
 | organisatorische eenheid | Class: "OrganisatorischeEenheid" |  |
+=======
+| medewerkerIdentificatie | AN24 | Een korte unieke aanduiding van de medewerker. |
+| achternaam | AN200 | De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt. |
+| datumUitDienst | Datum | Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt. |
+| emailadres | AN254 | Elektronisch postadres waaronder de medewerker in de regel bereikbaar is. |
+| functie | AN50 | De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie. |
+| geslachtsaanduiding | A1 | Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is. |
+| medewerkerToelichting | AN1000 | Toelichting bij en/of over de medewerker. |
+| roepnaam | AN30 | Naam waarmee de werknemer wordt aangesproken. |
+| telefoonnummer | AN20 | Telefoonnummer waaronder de medewerker in de regel bereikbaar is. |
+| voorletters | AN20 | De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen. |
+| voorvoegselAchternaam | AN10 | Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is<br>gescheiden. |
+| extern |  | Medewerker is een externe? |
+| datumInDienst | Date |  |
+| organisatorische eenheid | OrganisatorischeEenheid |  |
+| organisatorische eenheid | OrganisatorischeEenheid |  |
+>>>>>>> origin/master
 
 
 
@@ -675,6 +787,7 @@ Attributen van objecttype Medewerker
 > Het OBJECT waarop een ZAAK betrekking kan hebben zijnde één of meer voorkomens van de in het RSGB en het RGBZ onderscheiden objecttypen.
 
 ??? info "Kenmerken Model Object"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Object |
@@ -682,11 +795,11 @@ Attributen van objecttype Medewerker
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-08-19 11:37:35 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_91F9D39E_0322_42c6_AE7F_5027B36F3EC3 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_91F9D39E\_0322\_42c6\_AE7F\_5027B36F3EC3 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Object |
@@ -700,6 +813,7 @@ Attributen van objecttype Object
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+<<<<<<< HEAD
 | adresBinnenland |  | De aanduiding van het adres van het OBJECT indien dit adres in Nederland gelegen is. |
 | adresBuitenland |  | De aanduiding van het adres waar specialisaties van het OBJECT zijnde een SUBJECT dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland. |
 | domein | AN200 | Het toepassingsgebied of de sector DOMEIN waarbinnen handhaving op het object plaatsvindt |
@@ -716,6 +830,20 @@ Attributen van objecttype Object
 | toelichting |  |  |
 | huishouden | Class: "Huishouden" |  |
 | besluit | Class: "Besluit" |  |
+=======
+| identificatie | AN50 | De unieke identificatie van het OBJECT |
+| objecttype | AN3 | Het onderscheid van een OBJECT naar haar specialisatiies.<br>De code voor de Objecttypering gevolgd door de unieke aanduiding van de specialisatie (van OBJECT):<br>ADRESSEERBAAR OBJECT AANDUIDING, BENOEMD OBJECT, BESLUIT, BUURT, ENKELVOUDIG INFORMATIEOBJECT, GEMEENTE, GEMEENTELIJKE OPENBARE RUIMTE, HUISHOUDEN, INRICHTINGSELEMENT, KADASTRALE ONROERENDE ZAAK, KUNSTWERKDEEL, MAATSSCHAPPELIJKE ACTIVITEIT, MEDEWERKER, OPENBARE RUIMTE, SAMENGESTELD INFORMATIEOBJECT, ORGANISATORISCHE EENHEID, PAND, SPOORBAANDEEL, STATUS, SUBJECT, TERREINDEEL, WATERDEEL, WEGDEEL, WIJK, WOONPLAATS, WOZ- DEELOBJECT, WOZ-OBJECT, WOZ-WAARDE of<br>ZAKELIJK RECHT (of afleidbare identificatie). |
+| naam | AN200 | De benaming van het OBJECT indien dit een SUBJECT of specialisatie daarvan is. |
+| adresBinnenland | BinnenlandsAdres | De aanduiding van het adres van het OBJECT indien dit adres in Nederland gelegen is. |
+| adresBuitenland | AN200 | De aanduiding van het adres waar specialisaties van het OBJECT zijnde een SUBJECT dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland. |
+| kadastraleAanduiding | AN30 | De kadastrale aanduiding van het OBJECT |
+| geometrie | Point | De minimaal tweedimensionale geometrische representatie van het OBJECT. |
+| toelichting | Tekst |  |
+| domein | AN200 | Het toepassingsgebied of de sector DOMEIN waarbinnen handhaving op het object plaatsvindt |
+| indicatieRisico |  | Indicatie van de risico's van (de uitvoering van activiteiten in) het handhavingsobject op gevolgen voor het handhavingsobject zelf, de daarin aanwezige personen, de omgeving van het handhavingsobject en/of de samenleving. |
+| huishouden | Huishouden |  |
+| besluit | Besluit |  |
+>>>>>>> origin/master
 
 
 
@@ -725,6 +853,7 @@ Attributen van objecttype Object
 > Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs.
 
 ??? info "Kenmerken Model Offerte"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Offerte |
@@ -732,11 +861,11 @@ Attributen van objecttype Object
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | abrienen |
-    | version | 1.5 |
+    | author | Arjen Brienen |
+    | version | 1.12.0 |
     | created | 2019-11-26 15:21:20 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_B259BE5F_AC3A_4e0f_A149_D1F165277CC2 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_B259BE5F\_AC3A\_4e0f\_A149\_D1F165277CC2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Offerte |
@@ -759,6 +888,7 @@ Attributen van objecttype Offerte
 > Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken.
 
 ??? info "Kenmerken Model OrganisatorischeEenheid"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OrganisatorischeEenheid |
@@ -766,11 +896,11 @@ Attributen van objecttype Offerte
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-08-19 13:30:16 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_936A4E8B_3E5A_44b6_8A5D_EFB39F83FB6D |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_936A4E8B\_3E5A\_44b6\_8A5D\_EFB39F83FB6D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | OrganisatorischeEenheid |
@@ -784,6 +914,7 @@ Attributen van objecttype OrganisatorischeEenheid
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+<<<<<<< HEAD
 | datumOntstaan |  | De datum waarop de organisatorische eenheid is ontstaan. |
 | datumOpheffing |  | De datum waarop de organisatorische eenheid is opgeheven. |
 | emailadres | AN254 | Elektronisch postadres waaronder de organisatorische eenheid in de regel bereikbaar is. |
@@ -797,6 +928,21 @@ Attributen van objecttype OrganisatorischeEenheid
 | toelichting | AN1000 | Toelichting bij de organisatorische eenheid. |
 | vestiging | Class: "VestigingVanZaakbehandelendeOrganisatie" |  |
 | zaaktype | Class: "Zaaktype" |  |
+=======
+| organisatieIdentificatie | AN24 | Een korte identificatie van de organisatorische eenheid. |
+| datumOntstaan | Datum | De datum waarop de organisatorische eenheid is ontstaan. |
+| datumOpheffing | Datum | De datum waarop de organisatorische eenheid is opgeheven. |
+| emailadres | AN254 | Elektronisch postadres waaronder de organisatorische eenheid in de regel bereikbaar is. |
+| faxnummer | AN20 | Faxnummer waaronder de organisatorische eenheid in de regel bereikbaar is. |
+| naam | AN50 | De feitelijke naam van de organisatorische eenheid. |
+| naamVerkort | AN25 | Een verkorte naam voor de organisatorische eenheid. |
+| omschrijving | AN80 | Een omschrijving van de organisatorische eenheid. |
+| telefoonnummer | AN20 | Telefoonnummer waaronder de organisatorische eenheid in de regel bereikbaar is. |
+| toelichting | AN1000 | Toelichting bij de organisatorische eenheid. |
+| Formatie | AN255 |  |
+| vestiging | VestigingVanZaakbehandelendeOrganisatie |  |
+| zaaktype | Zaaktype |  |
+>>>>>>> origin/master
 
 
 
@@ -806,6 +952,7 @@ Attributen van objecttype OrganisatorischeEenheid
 > Een DOCUMENT waarbinnen twee of meer ENKELVOUDIGe DOCUMENTen onderscheiden worden die vanwege gezamenlijke vervaardiging en/of ontvangst en/of vanwege aard en/of omvang als één geheel beschouwd moeten worden dan wel behandeld worden.,
 
 ??? info "Kenmerken Model SamengesteldDocument"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SamengesteldDocument |
@@ -813,11 +960,11 @@ Attributen van objecttype OrganisatorischeEenheid
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-08-19 13:42:59 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_47DA1FC8_F181_41bc_B16A_CE80D2CA13B1 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_47DA1FC8\_F181\_41bc\_B16A\_CE80D2CA13B1 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -831,7 +978,7 @@ Attributen van objecttype SamengesteldDocument
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| document | Class: "EnkelvoudigDocument" |  |
+| document | EnkelvoudigDocument |  |
 
 
 
@@ -841,6 +988,7 @@ Attributen van objecttype SamengesteldDocument
 > Een aanduiding van de stand van zaken van een zaak op basis van betekenisvol behaald resultaat voor de initiator van de zaak.
 
 ??? info "Kenmerken Model Status"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Status |
@@ -848,11 +996,11 @@ Attributen van objecttype SamengesteldDocument
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-08-19 13:44:49 |
-    | modified | 2025-03-26 16:14:50 |
-    | id | EAID_7C975D37_670B_405e_B825_924BCAFA74C7 |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_7C975D37\_670B\_405e\_B825\_924BCAFA74C7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Status |
@@ -866,10 +1014,17 @@ Attributen van objecttype Status
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+<<<<<<< HEAD
 | datumStatusGezet |  | De datum waarop de zaak de status heeft verkregen. |
 | indicatieIaatstGezetteStatus | AN1 | Aanduding of het de laatst bekende bereikte status betreft. |
 | statustoelichting | AN1000 | Een, voor de initiator van de zaak relevante, toelichting op de status van een zaak. |
 | type | Class: "Statustype" |  |
+=======
+| datumStatusGezet | Datum | De datum waarop de zaak de status heeft verkregen. |
+| statustoelichting | AN1000 | Een, voor de initiator van de zaak relevante, toelichting op de status van een zaak. |
+| indicatieIaatstGezetteStatus | AN1 | Aanduding of het de laatst bekende bereikte status betreft. |
+| type | Statustype |  |
+>>>>>>> origin/master
 
 
 
@@ -879,6 +1034,7 @@ Attributen van objecttype Status
 > Generieke aanduiding van de aard van een STATUS
 
 ??? info "Kenmerken Model Statustype"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Statustype |
@@ -886,11 +1042,11 @@ Attributen van objecttype Status
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-08-19 13:47:35 |
-    | modified | 2025-03-26 16:14:51 |
-    | id | EAID_AA496B7B_913C_40fd_943E_52F1A6E89440 |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_AA496B7B\_913C\_40fd\_943E\_52F1A6E89440 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -904,12 +1060,21 @@ Attributen van objecttype Statustype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+<<<<<<< HEAD
 | datumBeginGeldigheidStatustype | OnvolledigeDatum | De datum waarop het STATUSTYPE is ontstaan. |
 | datumEindeGeldigheidStatustype | OnvolledigeDatum | De datum waarop het STATUSTYPE is opgeheven. |
 | doorlooptijdStatus | N3 | De door de zaakbehandelende organisatie(s) gestelde norm voor de doorlooptijd voor het bereiken van STATUSsen van dit STATUSTYPE bij het desbetreffende ZAAKTYPE. |
 | statustypeOmschrijving | AN80 | Een korte, voor de initiator van de zaak relevante, omschrijving van de aard van de STATUS van zaken van een ZAAKTYPE. |
 | statustypeOmschrijvingGeneriek | AN80 | Algemeen gehanteerde omschrijving van de aard van STATUSsen van het STATUSTYPE |
 | statustypeVolgnummer | N4 | Een volgnummer voor de status binnen een zaak. |
+=======
+| statustypeOmschrijving | AN80 | Een korte, voor de initiator van de zaak relevante, omschrijving van de aard van de STATUS van zaken van een ZAAKTYPE. |
+| statustypeVolgnummer | N4 | Een volgnummer voor de status binnen een zaak. |
+| doorlooptijdStatus | N3 | De door de zaakbehandelende organisatie(s) gestelde norm voor de doorlooptijd voor het bereiken van STATUSsen van dit STATUSTYPE bij het desbetreffende ZAAKTYPE. |
+| statustypeOmschrijvingGeneriek | AN80 | Algemeen gehanteerde omschrijving van de aard van STATUSsen van het STATUSTYPE |
+| datumBeginGeldigheidStatustype | OnvolledigeDatum | De datum waarop het STATUSTYPE is ontstaan. |
+| datumEindeGeldigheidStatustype | OnvolledigeDatum | De datum waarop het STATUSTYPE is opgeheven. |
+>>>>>>> origin/master
 
 
 
@@ -919,6 +1084,7 @@ Attributen van objecttype Statustype
 > Een VESTIGING van een onderneming of rechtspersoon zijnde de zaakbehandelende organisatie.
 
 ??? info "Kenmerken Model VestigingVanZaakbehandelendeOrganisatie"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VestigingVanZaakbehandelendeOrganisatie |
@@ -926,11 +1092,11 @@ Attributen van objecttype Statustype
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-08-19 11:03:44 |
-    | modified | 2025-03-26 16:14:51 |
-    | id | EAID_D8142B98_64CB_408e_9941_92423543F08A |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_D8142B98\_64CB\_408e\_9941\_92423543F08A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | VestigingVanZaakbehandelendeOrganisatie |
@@ -953,6 +1119,7 @@ Attributen van objecttype VestigingVanZaakbehandelendeOrganisatie
 > Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden.
 
 ??? info "Kenmerken Model Zaak"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Zaak |
@@ -960,11 +1127,11 @@ Attributen van objecttype VestigingVanZaakbehandelendeOrganisatie
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-08-19 13:48:52 |
-    | modified | 2025-04-09 16:59:38 |
-    | id | EAID_649EFD86_ED52_4293_8577_DBE5445845BF |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_649EFD86\_ED52\_4293\_8577\_DBE5445845BF |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | Zaak |
@@ -978,6 +1145,7 @@ Attributen van objecttype Zaak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+<<<<<<< HEAD
 | archiefnominatie | AN1 | Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden |
 | datumEinde |  | De datum waarop de uitvoering van de zaak afgerond is. |
 | datumEindeGepland |  | De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt. |
@@ -1004,6 +1172,34 @@ Attributen van objecttype Zaak
 | zaakniveau | N1 | Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken. |
 | type | Class: "Zaaktype" |  |
 | status | Class: "Status" |  |
+=======
+| zaakidentificatie | AN40 | Een identificatie van de zaak. |
+| datumEinde | Datum | De datum waarop de uitvoering van de zaak afgerond is. |
+| datumEindeGepland | Datum | De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt. |
+| omschrijving | AN80 | Een korte omschrijving van de zaak. |
+| omschrijvingResultaat | AN80 | Een korte omschrijving wat het resultaat van de zaak inhoudt. |
+| toelichtingResultaat | AN1000 | Een toelichting op wat het resultaat van de zaak inhoudt. |
+| datumStart | Datum | De datum waarop met de uitvoering van de zaak is gestart. |
+| toelichting | AN1000 | Een toelichting op de zaak. |
+| datumEindeUiterlijkeAfdoening | Datum | De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn. |
+| zaakniveau | N1 | Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken. |
+| indicatieDeelzaken |  | De aanduiding of een ZAAK behandeld wordt in deelzaken. |
+| datumRegistratie | Datum | De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd |
+| datumPublicatie | datum | Datum waarop (het starten van) de zaak gepubliceerd is of wordt. |
+| archiefnominatie | AN1 | Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden |
+| datumVernietigingDossier | Datum | De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden. |
+| indicatieBetaling | AN12 | Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene. |
+| datumLaatsteBetaling | Datum | De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak. |
+| indicatieOpschorting | AN1 |  |
+| duurVerlenging | N3 |  |
+| redenOpschorting | AN200 |  |
+| redenVerlenging | AN200 |  |
+| vertrouwelijkheid | AN40 |  |
+| leges | AN100 |  |
+| type | Zaaktype |  |
+| document | Document |  |
+| status | Status |  |
+>>>>>>> origin/master
 
 
 
@@ -1013,6 +1209,7 @@ Attributen van objecttype Zaak
 > Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden.
 
 ??? info "Kenmerken Model ZAAK - Origineel"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ZAAK - Origineel |
@@ -1020,11 +1217,11 @@ Attributen van objecttype Zaak
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2018-05-28 13:18:59 |
-    | modified | 2025-03-26 16:14:51 |
-    | id | EAID_766265DF_56DD_4560_A55C_FF82E3B9751A |
+    | modified | 2025-12-18 15:38:50 |
+    | id | EAID\_766265DF\_56DD\_4560\_A55C\_FF82E3B9751A |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam | ZaakOrigineel |
@@ -1038,6 +1235,7 @@ Attributen van objecttype ZAAK - Origineel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+<<<<<<< HEAD
 | anderZaakobject |  |  |
 | archiefnominatie | AN1 | Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden |
 | datumEinde |  | De datum waarop de uitvoering van de zaak afgerond is. |
@@ -1059,6 +1257,29 @@ Attributen van objecttype ZAAK - Origineel
 | verlenging |  |  |
 | zaakidentificatie | AN40 | Een identificatie van de zaak. |
 | zaakniveau | N1 | Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken. |
+=======
+| zaakidentificatie | AN40 | Een identificatie van de zaak. |
+| datumEinde | Datum | De datum waarop de uitvoering van de zaak afgerond is. |
+| datumEindeGepland | Datum | De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt. |
+| omschrijving | AN80 | Een korte omschrijving van de zaak. |
+| kenmerk | KenmerkenZaak |  |
+| omschrijvingResultaat | AN80 | Een korte omschrijving wat het resultaat van de zaak inhoudt. |
+| toelichtingResultaat | AN1000 | Een toelichting op wat het resultaat van de zaak inhoudt. |
+| datumStart | Datum | De datum waarop met de uitvoering van de zaak is gestart. |
+| toelichting | AN1000 | Een toelichting op de zaak. |
+| datumEindeUiterlijkeAfdoening | Datum | De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn. |
+| zaakniveau | N1 | Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken. |
+| indicatieDeelzaken |  | De aanduiding of een ZAAK behandeld wordt in deelzaken. |
+| datumRegistratie | Datum | De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd |
+| datumPublicatie | datum | Datum waarop (het starten van) de zaak gepubliceerd is of wordt. |
+| archiefnominatie | AN1 | Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden |
+| datumVernietigingDossier | Datum | De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden. |
+| indicatieBetaling | AN12 | Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene. |
+| datumLaatsteBetaling | Datum | De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak. |
+| opschorting | OpschortingZaak |  |
+| verlenging | VerlengingZaak |  |
+| anderZaakobject | AnderZaakobjectZaak |  |
+>>>>>>> origin/master
 
 
 
@@ -1068,6 +1289,7 @@ Attributen van objecttype ZAAK - Origineel
 > Generieke aanduiding van de aard van een zaak
 
 ??? info "Kenmerken Model Zaaktype"
+
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Zaaktype |
@@ -1075,11 +1297,11 @@ Attributen van objecttype ZAAK - Origineel
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author | mante_h |
-    | version | 1.5 |
+    | author | mante\_h |
+    | version | 1.12.0 |
     | created | 2010-08-19 13:54:55 |
-    | modified | 2025-03-26 16:14:51 |
-    | id | EAID_7210A379_17EE_4143_A106_ECD9414B2A0D |
+    | modified | 2025-12-18 15:38:51 |
+    | id | EAID\_7210A379\_17EE\_4143\_A106\_ECD9414B2A0D |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1093,6 +1315,7 @@ Attributen van objecttype Zaaktype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+<<<<<<< HEAD
 | archiefcode | AN20 | De systematische identificatie van zaakdossiers van dit ZAAKTYPE overeenkomstig logisch gestructureerde conventies, methoden en procedureregels. |
 | datumBeginGeldigheidZaaktype | OnvolledigeDatum | De datum waarop het ZAAKTYPE is ontstaan. |
 | datumEindeGeldigheidZaaktype | OnvolledigeDatum | De datum waarop het ZAAKTYPE is opgeheven. |
@@ -1106,6 +1329,21 @@ Attributen van objecttype Zaaktype
 | zaaktypeOmschrijving | AN80 | Omschrijving van de aard van ZAAKen van het ZAAKTYPE. |
 | zaaktypeOmschrijvingGeneriek | AN80 | Algemeen gehanteerde omschrijving van de aard van ZAAKen van het ZAAKTYPE |
 | statustype | Class: "Statustype" |  |
+=======
+| zaaktypeOmschrijving | AN80 | Omschrijving van de aard van ZAAKen van het ZAAKTYPE. |
+| zaaktypeOmschrijvingGeneriek | AN80 | Algemeen gehanteerde omschrijving van de aard van ZAAKen van het ZAAKTYPE |
+| trefwoord | AN30 | Een trefwoord waarmee ZAAKen van het ZAAKTYPE kunnen worden gekarakteriseerd. |
+| doorlooptijdBehandeling | N3 | De periode waarbinnen volgens wet- en regelgeving een ZAAk van het ZAAKTYPE afgerond dient te zijn. |
+| servicenormBehandeling | N3 | De periode waarbinnen verwacht wordt dat een ZAAk van het ZAAKTYPE afgerond wordt coform de geldende servicenormen van de zaakbehandelende organisatie(s). |
+| archiefcode | AN20 | De systematische identificatie van zaakdossiers van dit ZAAKTYPE overeenkomstig logisch gestructureerde conventies, methoden en procedureregels. |
+| vertrouwelijkAanduiding | AN20 | Aanduiding van de mate waarin zaakdossiers van ZAAKen van dit ZAAKTYPE voor de openbaarheid bestemd zijn. |
+| indicatiePublicatie | AN1 | Aanduiding of (het starten van) een ZAAK van dit ZAAKTYPE gepubliceerd moet worden. |
+| zaakcategorie | AN40 | Typering van de aard van ZAAKen van het ZAAKTYPE. |
+| publicatietekst | AN1000 | De generieke tekst van de publicatie van ZAAKen van dit ZAAKTYPE |
+| datumBeginGeldigheidZaaktype | OnvolledigeDatum | De datum waarop het ZAAKTYPE is ontstaan. |
+| datumEindeGeldigheidZaaktype | OnvolledigeDatum | De datum waarop het ZAAKTYPE is opgeheven. |
+| statustype | Statustype |  |
+>>>>>>> origin/master
 
 
 
@@ -1129,6 +1367,7 @@ Het enumeratie Boolean kent de volgende waarden:
 De enumeratie Boolean heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Boolean"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Boolean |
@@ -1137,10 +1376,15 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.4 |
+    | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
+<<<<<<< HEAD
     | modified | 2025-03-26 16:14:54 |
     | id | EAID_5f46afec_a603_422d_9e57_6de87ab043ef |
+=======
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_cae8f9e0\_989d\_4f61\_915b\_e2e01963471f |
+>>>>>>> origin/master
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1163,6 +1407,7 @@ Het enumeratie Heffingsoort kent de volgende waarden:
 De enumeratie Heffingsoort heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Heffingsoort"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Heffingsoort |
@@ -1171,10 +1416,15 @@ De enumeratie Heffingsoort heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.0 |
+    | version | 1.9.0 |
     | created | 2019-05-08 13:48:43 |
+<<<<<<< HEAD
     | modified | 2025-07-22 16:28:36 |
     | id | EAID_79c77ce6_9b9d_47d3_9ba6_ecd8e33b4eaa |
+=======
+    | modified | 2025-12-18 15:38:52 |
+    | id | EAID\_8c332a5d\_c398\_42c2\_83cd\_fa469ef2835e |
+>>>>>>> origin/master
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1200,6 +1450,7 @@ Het enumeratie Soorten Klantcontact kent de volgende waarden:
 De enumeratie Soorten Klantcontact heeft de volgende kenmerken:
 
 ??? info "Kenmerken Model Soorten Klantcontact"
+
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Soorten Klantcontact |
@@ -1208,10 +1459,15 @@ De enumeratie Soorten Klantcontact heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author |  |
-    | version | 1.5 |
+    | version | 1.11.0 |
     | created | 2025-03-26 11:13:26 |
+<<<<<<< HEAD
     | modified | 2025-03-26 16:14:51 |
     | id | EAID_2aa6a572_5da2_4367_a3f8_d9e4c95e7ff6 |
+=======
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_3bbd28db\_7827\_47e3\_99ed\_81829aee84ef |
+>>>>>>> origin/master
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1220,6 +1476,5 @@ De enumeratie Soorten Klantcontact heeft de volgende kenmerken:
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
-
 
 
