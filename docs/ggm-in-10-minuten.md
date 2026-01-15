@@ -4,7 +4,7 @@ Het Gemeentelijk Gegevensmodel (GGM) is een logisch informatiemodel dat alle bel
 
 Het GGM biedt een uniforme datastructuur die onafhankelijk is van de organisatorische inrichting van een gemeente. Of taken nu intern worden uitgevoerd of zijn uitbesteed, het model zorgt voor eenduidige definities en uitwisselbaarheid van gegevens. De indeling van beleidsterreinen is gebaseerd op de [IV3-taakvelden](https://www.rijksoverheid.nl/onderwerpen/financien-gemeenten-en-provincies/uitwisseling-financiele-gegevens-met-sisa-en-iv3/informatie-voor-derden-iv3).
 
-Voor het genereren van fysieke datamodellen op basis van het GGM is een set codegeneratietemplates beschikbaar. Deze templates zijn ontwikkeld voor het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html) van Enterprise Architect, en ondersteunen het genereren van DDL voor verschillende relationele databasesystemen (RDBMS’en), waaronder Oracle en – in ongeteste vorm – MySQL. Waar nodig zijn aanvullende uitbreidingen gemaakt om het model praktisch toepasbaar te maken in diverse technische omgevingen.
+Voor het genereren van fysieke datamodellen op basis van het GGM is een set [codegeneratietemplates](generatie.md) beschikbaar. Deze templates zijn ontwikkeld voor het [Code Template Framework](https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html) van Enterprise Architect, en ondersteunen het genereren van DDL voor verschillende relationele databasesystemen (RDBMS’en), waaronder Oracle en – in ongeteste vorm – MySQL. Waar nodig zijn aanvullende uitbreidingen gemaakt om het model praktisch toepasbaar te maken in diverse technische omgevingen.
 
 > Belangrijk: het GGM is primair **logisch**. Technische implementaties (tabellen, JSON Schema, API’s, RDF) worden **afgeleid** op basis van het beoogde gebruik.
 
@@ -36,14 +36,13 @@ Het gegevensmodel is uitgewerkt in een aantal verticale beleidsdomeinen en 4 hor
 
 Er is ontkoppeling tussen de verschillende (sub)domeinen nagestreefd, doordat in de gegevensdefinities van het gegevensmodel (sub)domeinen alleen definities uit onderliggende (sub)domeinen gebruiken. Zo gebruiken alle (sub)domeinen gegevensdefinities uit Kern en kunnen alle verticale (sub)domeinen gegevensdefinities gebruiken uit de 4 horizontale modellen.
 
----
 ### Beleidsdomeinen
 
 Het gegevensmodel omvat de volgende beleidsdomeinen:
 
 ---
 
-**Bestuur, politiek en ondersteuning**: Domein dat gegevens bevat die worden vastgelegd bij en voortkomen uit bestuurlijke en politieke processen en  beleidsvorming en gegevens die in het kader van de gemeentelijke taak rond burgerzaklen worden vastgelegd. 
+**Bestuur, politiek en ondersteuning**: Het informatiedomein dat gegevens bevat die worden vastgelegd tijdens bestuurlijke en politieke processen en beleidsvorming, evenals gegevens die voortkomen uit de gemeentelijke uitvoering van burgerzaken.
 
 - **[Burgerzaken](domeinen/burgerzaken.md)**: Het informatiedomein dat gegevens omvat over de registratie en dienstverlening met betrekking tot de persoonlijke levenssfeer van inwoners, gericht op het vastleggen en verstrekken van officiële documenten en informatie.
 - **[Griffie](domeinen/griffie.md)**: Het informatiedomein dat gegevens omvat over de ondersteuning van de gemeenteraad en de organisatie van raadsprocessen, gericht op het faciliteren van besluitvorming en democratische controle.
@@ -159,7 +158,7 @@ De volgende standaarden zijn gebruikt bij de totstandkoming van het GGM, en make
 * [NEN3610: 2011 (Basismodel geo-informatie)](https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen). Het Basismodel geo-informatie. Het bevat de termen, definities, relaties en algemene regels voor de uitwisseling van informatie over ruimtelijke objecteninformatiemodellen). De standaard NEN3610 staat op de Pas-toe-of-leg-uit-lijst van het Forum Standaardisatie.
 * [IMBGT/IMGeo versie 2.1.1: (Informatiemodel Basisregistratie grootschalige Topografie/ Informatiemodel Geo)](https://www.geonovum.nl/geo-standaarden/bgt-imgeo/gegevenscatalogus-imgeo-versie-211). De kern van dit model (BGT) definieert informatie zoals die via de BGT beschikbaar is, en als basis/ondergrond dient voor de overige modellen.
 * [IMBAG versie 0.99: (Gegevenscatalogus Basisregistratie Adressen en Gebouwen)](https://www.geonovum.nl/geo-standaarden/informatiemodellen-nen3610-familie/gegevenscatalogus-basisregistratie-adressen-en). De Basisregistraties Adressen en Gebouwen (BAG) bevatten gegevens van alle adressen en gebouwen in Nederland. In de Gegevenscatalogus BAG zijn de afspraken vastgelegd om digitale uitwisseling mogelijk te maken. Het informatiemodel voor de BAG is geënt op de principes van NEN3610.
-* [MIM (Metamodel voor Informatiemodellen)](https://www.geonovum.nl/geo-standaarden/metamodel-informatiemodellering-mim). Deze is toegepast in de uitwerking van het ICT-deel. Het GGM is echter (nog) niet MIM-compliant.
+* [MIM (Metamodel voor Informatiemodellen)](https://www.geonovum.nl/geo-standaarden/metamodel-informatiemodellering-mim). Deze is toegepast in de uitwerking van het ICT-deel. Het GGM is sinds versie 2.5.0 MIM-compliant.
 * [RiHA 2.0 (Gegevensmodel toezicht en handhaven)](https://samenwerken.pleio.nl/groups/view/8b832827-e91b-476c-bb4f-c228b8e5e934/standaardisatie-toezicht-handhaving-milieu/wiki/view/2b38214e-cfc7-42ff-9d5d-eaf069671c42/riha-referentieinformatiemodel-handhaving). Toegepast in de uitwerking van Vergunningverlening, toezicht en handhaving.
 
 [importXMI]: image/ImportPackage.png "Import XMI via tabblad Publish"

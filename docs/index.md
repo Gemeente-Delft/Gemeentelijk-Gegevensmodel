@@ -13,9 +13,15 @@ Het Gemeentelijk Gegevensmodel (GGM) is het standaard informatiemodel voor alle 
   <img src="image/homepage_zwartetekst.png" alt="Overzicht_homepage" />
 </p>
 
-## Internationale erkenning
 
-Het GGM trekt ook buiten Nederland aandacht. De Noorse gemeente Trondheim heeft het GGM geadopteerd voor hun eigen datamodel, wat bewijst dat het concept universeel toepasbaar is.
+## Wat is het Gemeentelijk Gegevensmodel
+
+Het GGM helpt gemeenten om gegevens los te maken van individuele systemen en ze betekenisvol te verbinden voor analyse, uitvoering en beleid.
+
+- Eén samenhangend informatiemodel voor alle gemeentelijke beleidsdomeinen  
+- Gericht op eenduidige betekenis, niet op specifieke applicaties  
+- Opensource en publiek beschikbaar  
+- Ontwikkeld vanuit de praktijk, toegepast door steeds meer gemeenten  
 
 ---
 
@@ -27,15 +33,6 @@ Het GGM trekt ook buiten Nederland aandacht. De Noorse gemeente Trondheim heeft 
 
 ---
 
-## Wat is het Gemeentelijke Gegevensmodel
-
-Het GGM helpt gemeenten om gegevens los te maken van individuele systemen en ze betekenisvol te verbinden voor analyse, uitvoering en beleid.
-
-- Eén samenhangend informatiemodel voor alle gemeentelijke beleidsdomeinen  
-- Gericht op eenduidige betekenis, niet op specifieke applicaties  
-- Opensource en publiek beschikbaar  
-- Ontwikkeld vanuit de praktijk, toegepast door steeds meer gemeenten  
-
 ### Gemeentelijk Gegevensmodel in getallen
 
 - 22 beleidsdomeinen - volledige dekking van alle gemeentelijke taken
@@ -43,6 +40,10 @@ Het GGM helpt gemeenten om gegevens los te maken van individuele systemen en ze 
 - 17 landelijke standaarden geïntegreerd (RSGB, RGBZ, iWmo, iJw, iPgb, Suwi, en meer)
 - 150+ gemeenten en organisaties in actieve gebruikersgroep
 - 500+ deelnemers op Pleio-community (88% van de 50.000+ gemeenten en 64% van alle gemeenten)
+
+### Internationale erkenning
+
+Het GGM trekt ook buiten Nederland aandacht. De Noorse gemeente Trondheim heeft het GGM geadopteerd voor hun eigen datamodel, wat bewijst dat het concept universeel toepasbaar is.
 
 ### Goud-status Common Ground
 
