@@ -7,3 +7,5 @@ crunch_uml.db
 linkchecker.log
 .task
 .npm
+.cspell
+cspell.json
