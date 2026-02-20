@@ -36,6 +36,7 @@ vars:
   EXCEL: "{{.VERSION_DIR}}/{{.EXCEL_FILE}}"
   LOD: "{{.VERSION_DIR}}/{{.LOD_FILE}}"
   MIM: "{{.VERSION_DIR}}/{{.GGM_MIM_FILE}}"
+  GEMMA_DIR: "{{.VERSION_DIR}}/gemma"
   TRANSLATIONS_DIR: "{{.VERSION_DIR}}/{{.TRANSLATIONS_DIR}}"
   i18N_FILE: "{{.TRANSLATIONS_DIR}}/{{.i18N_FILE}}"
   GGM_ROOT_SCHEMA: "GGM_ROOT_SCHEMA"
@@ -59,6 +60,7 @@ tasks:
           ["mkdocs"]="https://www.mkdocs.org"
           ["mike"]="https://github.com/jimporter/mike"
           ["jq"]="https://stedolan.github.io/jq"
+          ["python3"]="https://www.python.org/downloads/"
         )
 
         # Controleer of tools geïnstalleerd zijn
@@ -246,15 +248,27 @@ tasks:
     shell: bash
 
   generate-gemma:
-    desc: "Generate the Excel specification from the model. Generating '{{.EXCEL}}'"
-    deps: [import-xmi]
+    desc: "Generate GEMMA CSV export from model '{{.GGM}}' to '{{.GEMMA_DIR}}'."
+    deps: [check-tools, check_vars]
     cmds:
-      - mkdir -p "{{.GEMMA_DIR}}"
-      - echo "Generating CSV's for upload in GEMMA..."
-      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t csv -f "{{.GEMMA_DIR}}/{{.GEMMA_FILE_PREFIX}}" --mapper '{{.GEMMA_CLASS_MAPPER}}' --entity_name classes
-      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t csv -f "{{.GEMMA_DIR}}/{{.GEMMA_FILE_PREFIX}}" --mapper '{{.GEMMA_CLASS_MAPPER}}' --entity_name associations
-      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t csv -f "{{.GEMMA_DIR}}/{{.GEMMA_FILE_PREFIX}}" --mapper '{{.GEMMA_CLASS_MAPPER}}' --entity_name packages
-      - echo "Generation ready."
+      - |
+        if [ ! -f "{{.GGM}}" ]; then
+          echo "Error: GGM file '{{.GGM}}' does not exist."
+          exit 1
+        fi
+      - echo "Preparing Python virtual environment..."
+      - |
+        if [ ! -d ".venv" ]; then
+          python3 -m venv .venv
+          echo "Virtual environment created."
+        fi
+      - |
+        source .venv/bin/activate
+        pip install --quiet pandas treelib
+        echo "Generating GEMMA CSV export from '{{.GGM}}'..."
+        mkdir -p "{{.GEMMA_DIR}}"
+        python3 tools/export_to_gemma.py --db_uri "{{.GGM}}" --output_dir "{{.GEMMA_DIR}}"
+        echo "GEMMA export completed."
     shell: bash
 
   deploy-docs:
@@ -296,6 +310,7 @@ tasks:
       - task: generate-lod
       - task: generate-mim
       - task: generate-diff-md
+      - task: generate-gemma 
       - echo "Full deployment completed."
     shell: bash
 

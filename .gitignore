@@ -9,3 +9,4 @@ linkchecker.log
 .npm
 .cspell
 cspell.json
+.venv
