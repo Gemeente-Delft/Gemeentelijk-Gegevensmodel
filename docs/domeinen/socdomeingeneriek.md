@@ -47,6 +47,14 @@ Bij meerderjarigen in Nederland wordt niet gesproken over gezag, maar over mento
 
 Deze maatregelen moeten door de rechter worden ingesteld, en het is mogelijk dat een natuurlijke persoon of een professionele instantie (zoals een stichting) de rol van mentor, bewindvoerder, of curator op zich neemt. Het doel van deze maatregelen is om de belangen van de meerderjarige te beschermen en te bevorderen.
 
+## Inkomsten en Vermogen
+
+Vanuit het GBI (Generieke Basisprocessen Inkomen) zijn de deelmodellen *Inkomsten* en *Vermogen* als generieke profielen aan het objecttype Client gekoppeld. Deze deelmodellen bevatten objecttypen die breder toepasbaar zijn dan alleen het inkomensdomein en zijn daarom in het Sociaal Domein Generiek opgenomen.
+
+Het deelmodel *Inkomsten* omvat objecttypen voor de verschillende inkomstenbronnen van een cliënt, zoals alimentatie, betaald werk, uitkeringen en overige inkomsten, inclusief de draagkrachtberekening.
+
+Het deelmodel *Vermogen* omvat objecttypen voor de vermogensbestanddelen van een cliënt, zoals bankrekeningen, onroerend goed, motorvoertuigen en hypotheken, aangevuld met waardepeilingen.
+
 [sockern]: image/EAID_D7287848_8118_4aab_8823_D555A599063C.jpg "Gegevensmodel Generieke entiteit Relaties tot kern"
 [socclient]: image/EAID_FD6966FF_E4FC_437d_983E_71B33445A62C.jpg "Gegevensmodel Generieke entiteit Client, huishouden en relaties"
 [huishouden]: image/EAID_CABB9F3F_A6ED_479a_A175_6F61BE2BE8F8.jpg "Gegevensmodel Huishouden"

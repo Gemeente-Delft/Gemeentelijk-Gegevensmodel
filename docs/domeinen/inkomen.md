@@ -2,10 +2,12 @@
 
 Dit deeldomein is gebaseerd op het [GBI (Generieke Basisprocessen Inkomen)](https://vngr-gbi.gitlab.io/ontologie-inkomen/), waarvan een aantal onderdelen zijn opgenomen in het GGM. Het betreft hier de volgende onderdelen:
 
-1. Normafwijking: gaat rechtmatigheid, dus over maatregelen en boetes bij afwijkingen;
+1. Normafwijking: gaat over rechtmatigheid, dus over maatregelen en boetes bij afwijkingen;
 2. Terug- en invordering: gedetailleerd model met daarin alle vorderingen en andere correcties op personen;
 3. Reden aanvraag: geeft de achterliggende reden voor de aanvraag van een inkomensvoorziening;
-3. Dienstenmodel: generiek model waarmee diensten op het gebied van inkomen kunnen worden vormgegeven.
+4. Dienstenmodel: generiek model waarmee diensten op het gebied van inkomen kunnen worden vormgegeven.
+
+Daarnaast zijn uit het GBI de deelmodellen *Inkomsten* en *Vermogen* als generieke profielen opgenomen in [Sociaal Domein Generiek](socdomeingeneriek.md), omdat deze breder toepasbaar zijn dan alleen het inkomensdomein.
 
 De basis van dit deeldomein gevormd door `Inkomen (Basis objecttypen)`, aan te vullen met de GBI-deelmodellen. Deze worden in de volgende paragrafen beschreven. 
 
@@ -23,8 +25,8 @@ Het informatiemodel *Inkomen* biedt een gestructureerde weergave van de gegevens
 1. **UitkeringsRun**  
    Dit object representeert een proces waarbij uitkeringen worden berekend en uitgekeerd. Een *UitkeringsRun* bevat meerdere componenten die samen de uitkering vormen.
 
-2. **Component**  
-   Een *Component* is een bouwsteen van een uitkering en kan verschillende soorten bevatten, zoals toeslagen of inhoudingen. Elke component heeft een relatie met een *ComponentSoort*, die het type van de component specificeert.
+2. **Component**
+   Een *Component* is een bouwsteen van een uitkering. Componenten omvatten alle onderdelen waaruit een uitkering is opgebouwd: zowel de posten die de opbouw van de uitkering bepalen (zoals basisnorm, toeslagen en inhoudingen) als de automatisch berekende tussen- en eindresultaten die uit een uitkeringsrun volgen. Elke component heeft een relatie met een *ComponentSoort*, die het type van de component specificeert. Informatie over de uitkeringssamenstelling moet op basis van historische componentdata worden gereconstrueerd, wat deskundigheid vereist.
 
 3. **ComponentSoort**  
    Dit object definieert het type van een component, bijvoorbeeld een basisuitkering of een specifieke toeslag.
@@ -41,8 +43,20 @@ Het informatiemodel *Inkomen* biedt een gestructureerde weergave van de gegevens
 7. **RegelingSoort**  
    Dit object definieert het type van de regeling, bijvoorbeeld algemene bijstand of specifieke ondersteuning.
 
-8. **Ingeschreven Persoon (Client)**  
+8. **Ingeschreven Persoon (Client)**
    Dit object vertegenwoordigt de persoon die recht heeft op inkomensondersteuning en mogelijk ook schuldhulpverlening ontvangt.
+
+9. **Huisvestingsoort**
+   Dit objecttype beschrijft het type huisvesting van de cliënt, zoals zelfstandig wonend, inwonend of verblijvend in een instelling. De huisvestingssituatie kan van invloed zijn op de hoogte en samenstelling van de inkomensvoorziening.
+
+10. **RedenBlokkering**
+    Als een uitkering periodiek wordt uitgekeerd, kan de betaling om bepaalde redenen worden geblokkeerd. *RedenBlokkering* legt vast waarom een blokkade is ingesteld, bijvoorbeeld in afwachting van beëindiging van de uitkering.
+
+11. **RedenInstroom**
+    De reden waarom een persoon een uitkering heeft gekregen. Dit objecttype legt vast waarom cliënten instromen, bijvoorbeeld door verlies van werk, beëindiging van een andere uitkering of verhuizing. Dit is nodig voor analyse van de stand van uitkeringen.
+
+12. **RedenUitstroom**
+    De reden waarom de uitkering aan een persoon is beëindigd. Dit objecttype legt de uitstroomreden vast, bijvoorbeeld uitstroom naar werk. Dit ondersteunt beleidsanalyse over de effectiviteit van re-integratie.
 
 ### **Relaties Tussen Entiteiten**
 - Een *UitkeringsRun* bestaat uit één of meerdere *Componenten*.
@@ -80,7 +94,7 @@ Deze sub-domeinen worden als volgt aan het GGM gekoppeld:
 
 ### Normafwijking
 
-Het onderdeel *Normafwijking* bricht zich op de registratie en afhandeling van situaties waarin een afwijking van de gestelde normen wordt geconstateerd bij inkomensvoorzieningen. De bijgevoegde afbeelding visualiseert de structuur van dit model en toont de relaties tussen verschillende objecttypen die betrokken zijn bij normafwijkingen. Hieronder volgt een gedetailleerde beschrijving van de elementen en hun onderlinge relaties.
+Het onderdeel *Normafwijking* richt zich op de registratie en afhandeling van situaties waarin een afwijking van de gestelde normen wordt geconstateerd bij inkomensvoorzieningen. De bijgevoegde afbeelding visualiseert de structuur van dit model en toont de relaties tussen verschillende objecttypen die betrokken zijn bij normafwijkingen. Hieronder volgt een gedetailleerde beschrijving van de elementen en hun onderlinge relaties.
 
 ![Normafwijking][normafwijking]
 
