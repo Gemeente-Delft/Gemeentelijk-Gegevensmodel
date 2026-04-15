@@ -5,6 +5,7 @@ site_url: https://www.gemeentelijkgegevensmodel.nl/
 repo_url: https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/
 theme:
     name: 'material'
+    custom_dir: overrides
     language: 'nl'
     palette:
         primary: 'blue'
@@ -12,6 +13,9 @@ theme:
     logo: 'img/logo.png'
     favicon: 'img/favicon.ico'
     toc_depth: 2
+
+hooks:
+  - tools/mkdocs_hooks.py
 extra:
   version:
     provider: mike

@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+
+{#
+  Theme override voor mkdocs-material.
+  Injecteert schema.org JSON-LD in de <head> van elke pagina, zodat Google,
+  Bing en andere zoekmachines het onderwerp (Dataset: GGM), de uitgever
+  (Gemeente Delft) en de auteurs (Arjen Brienen, Ashkan Ashkpour) met hun
+  externe profielen (LinkedIn, GitHub, ORCID) kunnen koppelen aan deze site.
+
+  Data-bron: docs/_data/authors.yml, ingeladen door tools/mkdocs_hooks.py
+  naar config.extra.authors / config.extra.organization.
+#}
+
+{% block extrahead %}
+  {{ super() }}
+
+  {%- set org = config.extra.organization or {} -%}
+  {%- set authors = config.extra.authors or [] -%}
+  {%- set site_id = config.site_url ~ '#website' -%}
+  {%- set dataset_id = config.site_url ~ '#ggm' -%}
+  {%- set org_id = config.site_url ~ '#' ~ (org.id or 'publisher') -%}
+
+  {%- set graph = [] -%}
+
+  {# Organization #}
+  {%- set org_node = {
+        '@type': 'Organization',
+        '@id': org_id,
+        'name': org.name or 'Gemeente Delft',
+        'url': org.url or 'https://www.delft.nl/',
+  } -%}
+  {%- if org.logo -%}
+    {%- set _ = org_node.update({'logo': org.logo}) -%}
+  {%- endif -%}
+  {%- set _ = graph.append(org_node) -%}
+
+  {# WebSite #}
+  {%- set _ = graph.append({
+        '@type': 'WebSite',
+        '@id': site_id,
+        'url': config.site_url,
+        'name': config.site_name,
+        'description': config.site_description,
+        'inLanguage': 'nl',
+        'publisher': {'@id': org_id},
+        'potentialAction': {
+          '@type': 'SearchAction',
+          'target': {
+            '@type': 'EntryPoint',
+            'urlTemplate': config.site_url ~ '?q={search_term_string}'
+          },
+          'query-input': 'required name=search_term_string'
+        }
+  }) -%}
+
+  {# Person-nodes #}
+  {%- set author_refs = [] -%}
+  {%- for a in authors -%}
+    {%- set person_id = config.site_url ~ '#' ~ a.id -%}
+    {%- set person = {
+          '@type': 'Person',
+          '@id': person_id,
+          'name': a.name,
+    } -%}
+    {%- if a.jobTitle and not a.jobTitle.startswith('<') -%}
+      {%- set _ = person.update({'jobTitle': a.jobTitle}) -%}
+    {%- endif -%}
+    {%- if a.affiliation -%}
+      {%- set _ = person.update({'affiliation': {'@id': org_id}}) -%}
+    {%- endif -%}
+    {%- if a.email and not a.email.startswith('<') -%}
+      {%- set _ = person.update({'email': a.email}) -%}
+    {%- endif -%}
+    {%- set links = [] -%}
+    {%- for url in (a.sameAs or []) -%}
+      {%- if not url.startswith('<') and '<vul aan>' not in url -%}
+        {%- set _ = links.append(url) -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if links -%}
+      {%- set _ = person.update({'sameAs': links}) -%}
+    {%- endif -%}
+    {%- set _ = graph.append(person) -%}
+    {%- set _ = author_refs.append({'@id': person_id}) -%}
+  {%- endfor -%}
+
+  {# Dataset #}
+  {%- set dataset = {
+        '@type': 'Dataset',
+        '@id': dataset_id,
+        'name': config.site_name,
+        'description': config.site_description,
+        'url': config.site_url,
+        'inLanguage': 'nl',
+        'isAccessibleForFree': true,
+        'license': 'https://creativecommons.org/licenses/by/4.0/',
+        'publisher': {'@id': org_id},
+        'keywords': [
+          'Gemeentelijk Gegevensmodel',
+          'GGM',
+          'informatiemodel',
+          'gemeente',
+          'Gemeente Delft',
+          'Common Ground',
+          'IV3',
+          'semantische interoperabiliteit'
+        ]
+  } -%}
+  {%- if author_refs -%}
+    {%- set _ = dataset.update({'creator': author_refs}) -%}
+  {%- endif -%}
+  {%- set _ = graph.append(dataset) -%}
+
+  {%- set ld = {'@context': 'https://schema.org', '@graph': graph} -%}
+
+  <script type="application/ld+json">
+  {{- ld | tojson -}}
+  </script>
+{% endblock %}

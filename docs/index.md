@@ -1,3 +1,7 @@
+---
+description: "Het Gemeentelijk Gegevensmodel (GGM) is een integraal logisch gegevensmodel dat alle gemeentelijke beleidsdomeinen beschrijft, ontwikkeld door Gemeente Delft ter ondersteuning van informatiegestuurd werken en semantische interoperabiliteit."
+---
+
 # Gemeentelijk Gegevensmodel
 
 Het Gemeentelijk Gegevensmodel (GGM) is een logisch gegevensmodel met daarin vertegenwoodigd alle beleidsterreinen van de gemeente. Het GGM is ontwikkeld in opdracht van de Gemeente Delft ter ondersteuning van de visie op het gebied van informatiegestuurd werken. Onder andere wordt het GGM gebruikt als centraal datamodel in het datawarehouse. Hiertoe is een generator beschikbaar om het GGM te vertalen naar fysieke databasetabellen.
