@@ -6,3 +6,6 @@ thumbs.db
 crunch_uml.db
 linkchecker.log
 .task
+.log
+*.log
+*.tmp
