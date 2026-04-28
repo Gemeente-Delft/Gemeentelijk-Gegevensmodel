@@ -158,6 +158,28 @@ nav:
     - Backup maken: backup.md
     - Tooling voor manipulatie repository: tools.md
 
+not_in_nav: |
+  /definities/definitie_Complex datatype.md
+  /definities/definitie_Datatypes.md
+  /definities/definitie_Diagram.md
+  /definities/definitie_Groepattribuutsoort.md
+  /definities/definitie_Metagegevens.md
+  /definities/definitie_Model Aanvragen en Meldingen.md
+  /definities/definitie_Model IMBOR.md
+  /definities/definitie_Model Officiele Publicaties.md
+  /definities/definitie_Model Toepasbare Regels.md
+  /definities/definitie_Model.md
+  /definities/definitie_Referentielijsten.md
+  /definities/definitie_Relatieklasse.md
+  /definities/definitie_Semantische relaties.md
+  /definities/definitie_Tekenwijze.md
+  /definities/definitie_Union.md
+  /definities/definitie_View (Zaak)objecten.md
+  /definities/definitie_View Betrokkene.md
+  /startersgids/format-proposal.md
+  /startersgids/word/Startdocument.md
+  /startersgids/word/format-proposal.md
+
 
 markdown_extensions:
   - admonition
