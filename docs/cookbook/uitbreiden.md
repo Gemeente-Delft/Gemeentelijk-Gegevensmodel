@@ -29,7 +29,7 @@ In onderstaande diagram zijn ook de details van het ontwerp weergegeven.
 Je ziet in het model de volgende (correcte) invulling:
 
 1. Alle objecttypen hebben attributen
-2. De datatypes van de attributen zijn [ondersteunde datatypes](../modelelementen/#ondersteunde-datatypes), als het primitieven betreft staan ze in de lijst [ondersteunde primitieve datatypes](../modelelementen/#ondersteunde-primitieve-datatypes)
+2. De datatypes van de attributen zijn [ondersteunde datatypes](modelelementen.md#ondersteunde-datatypes), als het primitieven betreft staan ze in de lijst [ondersteunde primitieve datatypes](modelelementen.md#ondersteunde-primitieve-datatypes)
 3. De Enumeratie `Grafsoort` bestaat uit een lijst met meer dan één waarde
 4. Alle Objecttypen en Enumeraties zijn voorzien van een definitie (zie onderstaande afbeelding)
 

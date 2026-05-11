@@ -1,0 +1,33 @@
+# Auteurs-metadata voor de GGM-site.
+# Wordt door docs/overrides/main.html ingelezen en in schema.org JSON-LD
+# gepubliceerd als Person-nodes in de <head> van elke pagina.
+#
+# Vul de velden gemarkeerd met "<vul aan>" in. Velden die leeg blijven
+# worden overgeslagen in de JSON-LD output.
+
+organization:
+  id: "gemeente-delft"
+  name: "Gemeente Delft"
+  url: "https://www.delft.nl/"
+  logo: "https://www.gemeentelijkgegevensmodel.nl/img/logo.png"
+
+authors:
+  - id: "arjen-brienen"
+    name: "Arjen Brienen"
+    jobTitle: "Senior Informatie-architect"
+    affiliation: "Gemeente Delft"
+    email: "abrienen@delft.nl"
+    sameAs:
+      - "https://www.linkedin.com/in/arjenbrienen/"
+      - "https://github.com/brienen"
+      - "https://orcid.org/0009-0004-1676-2605"
+
+  - id: "ashkan-ashkpour"
+    name: "Ashkan Ashkpour"
+    jobTitle: "Senior Informatie-architect"
+    affiliation: "Gemeente Delft"
+    email: "aashkpour@delft.nl"
+    sameAs:
+      - "https://www.linkedin.com/in/ashkanashkpour/"
+      - "https://github.com/AshkanA"
+      - "https://orcid.org/0000-0001-6606-6633"
