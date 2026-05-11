@@ -21,7 +21,7 @@ Of taken nu intern worden uitgevoerd of zijn uitbesteed, het model zorgt voor ee
 Het GGM kent een gelaagde opbouw, waarbij verschillende objecttypen over beleidsdomeinen heen zoveel mogelijk zijn ontkoppeld. Alleen objecttypen in de onderste lagen van het model worden gebruikt door de bovenliggende onderdelen.
 
 <p>
-  <img src="/image/GelaagdheidDomeinen.jpg" alt="gelaagdheid_domeinen" />
+  <img src="/docs/image/GelaagdheidDomeinen.jpg" alt="gelaagdheid_domeinen" />
 </p>
 
 
