@@ -52,7 +52,7 @@ Een voorbeeld binnen het GGM is het gebruik van een generiek "Persoon" model dat
 
 ![Voorbeeld Overerving](../image/OverervingVoorbeeld.jpeg)
 
-In bovenstaand voorbeeld is te zien hoe in het deelmodel Sociaal doemin generiek en in het model Jeugd en Wmo generiek via overerving gebruik gemaakt wordt van IngeschrevenPersoon die op zijn beurt weer een NatuurlijkPersoon is.  
+In bovenstaand voorbeeld is te zien hoe in het deelmodel Sociaal domein generiek en in het model Jeugd en Wmo generiek via overerving gebruik gemaakt wordt van IngeschrevenPersoon die op zijn beurt weer een NatuurlijkPersoon is.  
 
 !!! rule "Ontwerpregel p2: Gebruik overerving om gemeenschappelijke eigenschappen te centraliseren"
     - Vermijd het creëren van te diepe of te brede erfhiërarchieën

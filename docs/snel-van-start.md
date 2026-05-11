@@ -1,48 +1,37 @@
-# Snel van start met het GGM 
+# Technische Quick-Start Guide
 
-De gemakkelijkste manier om te starten met het Gemeentelijk Gegevensmodel is via Enterprice Architect.
+> **Implementeer het GGM in jouw technische omgeving.**
 
-1. Installeer Enterprise Architect of de [viewer van Enterprise Architect](https://sparxsystems.com/enterprise_architect_user_guide/17.1/getting_started/ea_lite.html). 
-2. Download het bestand 'Gemeentelijk_Gegevensmodel.qea'.
-3. Open 'Gemeentelijk_Gegevensmodel.qua' met de Enterprise Architect.
+Klaar om te bouwen? Deze gids helpt je om binnen een uur de eerste structuren van het GGM in je eigen database of modelleer-omgeving te krijgen.
 
-## Installatie en gebruik
+## Stappenplan
 
-Het Gemeentelijk Gegevensmodel is beschikbaar in [XMI-vorm](https://www.omg.org/spec/XMI/About-XMI/), en is ontwikkeld in, en toegepast met [Enterprise Architect](https://sparxsystems.com). Een aantal gemeenten gebruikt het GGM inmiddels ook met [Bizzdesign EnterpriseStudio](https://bizzdesign.com), en ook met [Blue Dolphin](https://www.valueblue.com/bluedolphin).
+### Stap 1: Voorbereiding
+Zorg dat je toegang hebt tot:
 
-Gebruik je Enterprise Acrhitect versie 16 of 17 ? In dit geval moet je het bestand 'gemeentelijk gegevensmodel EA.qea' gebruiken. Gebruik je versie 15, laad dan het bestand 'xmi' bestand.
+1. **Onze GitHub Repository:** [Github GGM](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/)
+2. **Modelleersoftware:** Bij voorkeur Enterprise Architect (EA), maar de documentatie is ook via de browser toegankelijk.
 
-> **Let op**: Het Gemeentetelijk Gegevensmodel is een [UML-model](http://www.uml.org) en bevat daarmee alle benodigde details zoals de attributen en bijbehorende datatypes. Er is ook een [Archimate-versie](https://prod.opengroup.org/archimate-forum/archimate-overview) beschikbaar die gebruikt wordt voor de GEMMA en die gebruikt kan worden voor Enterprise Architectuur; deze bevat echter niet alle details omdat Archimate niet hetzelfde detail kent als UML.    
+### Stap 2: Het model verkennen
+Download het meest recente ```.eapx``` of ```.qea``` bestand van GitHub. Open dit in Enterprise Architect.
 
-### Installatie Gemeentelijk Gegevensmodel
+- Navigeer naar de map ```Domeinen```.
+- Bekijk de Koppelvlakken om te zien hoe landelijke standaarden (RSGB/RGBZ) zijn geïntegreerd.
 
-Van het Gemeentelijk Gegevensmodel zijn verschillende versies beschikbaar: v1.0.3, v2.0.0, v2.1.0, v2.2.0, v2.3.0, v2.4.0 en de courante versie v2.5.0. Je vindt deze in de afzonderlijke versies van de repository. De hierna volgende uitleg betreft de laatste versie van het GGM. Hieronder vind je de installatiebeschrijving bij de verschillende ondersteunde tools:
+### Stap 3: Schema generatie
+Wil je een database inrichten op basis van het GGM? Gebruik onze scripts:
 
-1. [Enterprise Architect Viewer](https://sparxsystems.com/products/ea/downloads.html) of [Enterprise Architect versie 16 of 17](https://sparxsystems.com/products/ea/17.1/index.html): download hiervoor het bestand [QEA-bestand](../v2.5.0/) en open het in (de viewer van) Enterprise Architect.
-2. [Enterprise Architect versie 16](https://sparxsystems.com/products/ea/16.0/): de EAPX van versie 15 wordt niet meer ondersteund in de nieuwe release. Wil je het GGM alsnog in versie 15 laden, dan kan dat via het XMI bestand.
-3. Als [XMI-bestand in Enterprise Architect 16 en 17](../v2.5.0/Gemeentelijk%20Gegevensmodel%20XMI2.1.xml), om geladen te worden in een (nieuw) project in Enterprise Architect, of om geladen te worden in andere UML-tooling. Voor installatie-instructies kijk in de [handleiding](installatie.md).
-4. [Bizzdesign](https://bizzdesign.com): voor installatie-instructies kijk in de [handleiding laden in Bizzdesign](installatie/#installatie-gemeentelijk-gegevensmodel-in-bizzdesign) 
-5. [Blue Dolphin](https://www.valueblue.com/bluedolphin): hiervoor gebruik je het [AMEFF-bestand](https://github.com/VNG-Realisatie/GEMMA-GGM-Archi-repository/blob/develop/exports/GEMMA-GGM%20AMEFF.xml) van het GGM uit de GEMMA-repository voor de Architectuur module van BlueDolphin. Als BlueDolphin gebruiker met Beheerderrol kun je AMEFF-bestanden uploaden. Zie hiervoor de [handleiding: AMEFF bestanden importeren](https://support.valueblue.nl/hc/nl/articles/360013407860-AMEFF-bestanden-importeren-naar-BlueDolphin). Bij vragen contacteer jouw ValueBlue account- of customersuccess-manager.
+- Ga naar de folder ```Scripts/DDL```.
+- Kies het script voor jouw database-type (PostgreSQL, SQL Server, of Oracle).
+- **Let op:** Je kunt ervoor kiezen om het gehele model te genereren of alleen specifieke domeinen (bijv. 'Inburgering').
 
-### Installatie Codegeneratietemplates
+### Stap 4: Mappings raadplegen
+Hoe krijg je data uit je bronsysteem in deze nieuwe structuur?
+- Bekijk de [Mapping-tabel](https://wiewatstatus.web.app/) en [Mapping-pagina](https://github.com/Gemeente-Delft/GGM-Mappings). Hier vind je hoe velden uit populaire gemeentelijke applicaties (bijv. van Centric of PinkRoccade) vertaald worden naar het GGM.
 
-De installatie van de codegeneratietemplates staat [hier](generatie#installeren-codegeneratietemplates) beschreven. Voor verdere uitleg rond het gebruik van de codegeneratietemplates kijk [hier](generatie.md).
+---
 
-De codegeneratietemplates zijn alleen beschikbaar voor Enterprise Architect.
-
-### Versies en gebruikte tooling
-
-Het XMI-bestand van het Gemeentelijk Gegevensmodel is in theorie te gebruiken in andere tools naast Enterprise Architect, maar daar is geen ervaring mee. Ervaringen hierin zijn welkom!
-
-Het Gemeentelijk Gegevensmodel is beschikbaar in:
-
-* [XMI versie 2.1](https://www.omg.org/spec/XMI/About-XMI/)
-
-Het is Getest en gebruikt in de volgende omgevingen:
-
-* [Enterprise Architect versie 16](https://sparxsystems.com/products/ea/16.0/)
-* [Enterprise Architect versie 17](https://sparxsystems.com/products/ea/17.0/)
-* [Enterprise Architect Viewer](https://sparxsystems.com/products/ea/trial/request.html)
-* [Bizzdesign EnterpriseStudio](https://bizzdesign.com)
-* [Blue Dolphin](https://www.valueblue.com/bluedolphin)
-
+## Hulp nodig?
+- **Vragen over de techniek?** Open een issue op onze GitHub.
+- **Sparren met collega's?** Stel je vraag op de GGM Community op Pleio.
+- **Cookbook:** Voor geavanceerde modellering-tips, zie het GGM Cookbook.

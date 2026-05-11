@@ -7,20 +7,23 @@ hide:
 
 > **Hét standaard informatiemodel voor gemeenten**
 
-Het Gemeentelijk Gegevensmodel (GGM) is het standaard informatiemodel voor alle 22 beleidsdomeinen van Nederlandse gemeenten. Het biedt één centrale, openbare taal voor hoe data gedefinieerd, vastgelegd en uitgewisseld moeten worden. Het GGM is geen software of applicatie, maar een afgesproken structuur die ervoor zorgt dat alle systemen dezelfde taal spreken – van burgerzaken en werk & inkomen tot ruimtelijke ordening en het sociaal domein. Het model is volledig open source, gratis beschikbaar en onderdeel van het Common Ground-stelsel, waarmee gemeenten bouwen aan een toekomstbestendige en samenhangende informatievoorziening.
+Het Gemeentelijk Gegevensmodel (GGM) is de universele taal voor Nederlandse gemeenten. Het verbindt data uit alle 22 beleidsdomeinen tot één samenhangend geheel. Het model is volledig open source, gratis beschikbaar en onderdeel van het Common Ground-stelsel. Hiermee bouw je aan een toekomstbestendige en samenhangende informatievoorziening.
+
+| [ direct naar GGM in 10 minuten ](ggm-in-10-minuten.md) | [ bekijk de snel van start ](snel-van-start.md) | [ word lid van de community ](https://kennisnetwerkdata.pleio.nl/groups/view/1e7df5c5-e537-46cd-9d09-de2ef29beef8/gemeentelijk-gegevensmodel-ggm) | 
 
 <p>
   <img src="image/homepage_zwartetekst.png" alt="Overzicht_homepage" />
 </p>
 
 
-## Wat is het Gemeentelijk Gegevensmodel
+## Waarom kiezen voor het GGM?
 
-Het GGM helpt gemeenten om gegevens los te maken van individuele systemen en ze betekenisvol te verbinden voor analyse, uitvoering en beleid.
+In een complexe informatievoorziening is een eenduidige taal essentieel. Het GGM helpt gemeenten om gegevens los te maken van individuele systemen en ze betekenisvol te verbinden voor analyse, uitvoering en beleid.
 
 - Eén samenhangend informatiemodel voor alle gemeentelijke beleidsdomeinen  
 - Gericht op eenduidige betekenis, niet op specifieke applicaties  
 - Opensource en publiek beschikbaar  
+- Common Ground Proof
 - Ontwikkeld vanuit de praktijk, toegepast door steeds meer gemeenten  
 
 ---
@@ -33,15 +36,24 @@ Het GGM helpt gemeenten om gegevens los te maken van individuele systemen en ze 
 
 ---
 
-### Gemeentelijk Gegevensmodel in getallen
+## Gemeentelijk Gegevensmodel in cijfers
+Het succes van het GGM is geworteld in de praktijk en groeit dagelijks:
 
-- 22 beleidsdomeinen - volledige dekking van alle gemeentelijke taken
-- 2.000+ gedefinieerde objecttypen met exacte datatypen en validatieregels
-- 17 landelijke standaarden geïntegreerd (RSGB, RGBZ, iWmo, iJw, iPgb, Suwi, en meer)
-- 150+ gemeenten en organisaties in actieve gebruikersgroep
-- 500+ deelnemers op Pleio-community (88% van de 50.000+ gemeenten en 64% van alle gemeenten)
+| Statistiek | Impact | 
+| :--- | :--- |
+| **22 Domeinen** | volledige dekking van alle gemeentelijke taken |
+| **2.000+ Objecten** | met exacte datatypen en validatieregels |
+| **17 Landelijke standaarden** | integratie van o.a. RSGB, RGBZ, iWmo en Suwi|
+| **10 Gemeenten** | in de expertgroep die samenwerken aan doorontwikkeling, verbetering en onderhoud van het GGM |
+| **150+ Gemeenten** | in een actieve gebruikersgroep |
+| **500+ Deelnemers** | op Pleio-community (88% van de 50.000+ gemeenten en 64% van alle gemeenten) |
 
-### Internationale erkenning
+---
+
+## Erkende kwaliteit
+Het GGM is niet zomaar een initiatief; het is een bekroonde standaard.
+
+### Internationale Adoptie:
 
 Het GGM trekt ook buiten Nederland aandacht. De Noorse gemeente Trondheim heeft het GGM geadopteerd voor hun eigen datamodel, wat bewijst dat het concept universeel toepasbaar is.
 
@@ -58,24 +70,7 @@ Gemeente Delft is winnaar van de [GemeenteDelers](https://www.gemeentedelers.nl)
 </p>
 
 ---
-## GGM in de pers
-
-Het GGM krijgt de afgelopen jaren toenemende aandacht in vakmedia en bestuurlijke publicaties. Dit laat zien dat het GGM zich ontwikkelt van een lokaal initiatief naar een **breed gedragen standaard** binnen het gemeentelijk datalandschap. Enkele voorbeelden:
-
-- **iBestuur** beschrijft waarom steeds meer gemeenten aan de slag gaan met het GGM en hoe het bijdraagt aan datagedreven werken en Common Ground  
-  <https://ibestuur.nl/data-en-ai/vng/waarom-gemeenten-aan-de-slag-gaan-met-het-gemeentelijk>
-
-- **VNG** laat zien hoe het GGM in de praktijk wordt toegepast en welke lessen gemeenten daarbij leren  
-  <https://vng.nl/praktijkvoorbeelden/het-gemeentelijk-gegevensmodel>
-
-- **Computable** signaleert dat het GGM sterk in opmars is en steeds breder wordt omarmd door gemeenten en leveranciers  
-  <https://www.computable.nl/2024/10/22/gemeentelijk-gegevensmodel-sterk-in-opmars/>
-
-- **VDP (Vereniging Directeuren Publieksdiensten)** positioneert het GGM als bouwsteen voor een gezamenlijk datafundament in het publieke domein  
-  <https://www.publieksdiensten.nl/kennisbank/het-gemeentelijk-gegevensmodel-bouwt-aan-een-gezamenlijk-datafundament/>
-
----
-## Wat zeggen andere gemeenten?
+## Ervaringen uit de praktijk
 
 > "Met het GGM hebben we ons datawarehouse veel effectiever ingericht. 
 > We kunnen nu veel sneller inzichten genereren voor beleidsmakers - 
@@ -106,5 +101,27 @@ Het GGM krijgt de afgelopen jaren toenemende aandacht in vakmedia en bestuurlijk
 > het model helpt zien hoe deze vraagstukken samenhangen in schaarse ruimte."
 >
 > — Arjan de Bruin, Data Architect Gemeente Leiden
+
+---
+
+## GGM in de pers
+
+Het GGM krijgt de afgelopen jaren toenemende aandacht in vakmedia en bestuurlijke publicaties. Dit laat zien dat het GGM zich ontwikkelt van een lokaal initiatief naar een **breed gedragen standaard** binnen het gemeentelijk datalandschap. Enkele voorbeelden:
+
+- **iBestuur** beschrijft waarom steeds meer gemeenten aan de slag gaan met het GGM en hoe het bijdraagt aan datagedreven werken en Common Ground  
+  <https://ibestuur.nl/data-en-ai/vng/waarom-gemeenten-aan-de-slag-gaan-met-het-gemeentelijk>
+
+- **VNG** laat zien hoe het GGM in de praktijk wordt toegepast en welke lessen gemeenten daarbij leren  
+  <https://vng.nl/praktijkvoorbeelden/het-gemeentelijk-gegevensmodel>
+
+- **Computable** signaleert dat het GGM sterk in opmars is en steeds breder wordt omarmd door gemeenten en leveranciers  
+  <https://www.computable.nl/2024/10/22/gemeentelijk-gegevensmodel-sterk-in-opmars/>
+
+- **VDP (Vereniging Directeuren Publieksdiensten)** positioneert het GGM als bouwsteen voor een gezamenlijk datafundament in het publieke domein  
+  <https://www.publieksdiensten.nl/kennisbank/het-gemeentelijk-gegevensmodel-bouwt-aan-een-gezamenlijk-datafundament/>
+
+---
+
+> *Het GGM is volledig **Open Source** en gratis beschikbaar voor iedereen. Samen bouwen we aan een transparante overheid.*
 
 ---
