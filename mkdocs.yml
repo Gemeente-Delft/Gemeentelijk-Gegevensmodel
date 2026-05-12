@@ -29,14 +29,14 @@ nav:
         - 'Meierijstad: IV3 op het DGW-portaal': ggm-voor-gemeenten/voorbeelden/IV3-op-portaal-DGW.md
         - 'Delft: Aantal uitkeringen tellen mbv GGM': ggm-voor-gemeenten/voorbeelden/GGM-Stap-voor-stap-bron-naar-dashboard.md
         - 'Land van Cuijk: Praktische implementatie GGM': ggm-voor-gemeenten/voorbeelden/GGM-Land-van-Cuijk.md
+    - 'Mappings': ggm-voor-gemeenten/Mappings.md
+    - 'Uitdagingen': ggm-voor-gemeenten/GGM-uitdagingen.md
+    - 'Databasetabellen genereren': generatie.md 
  - 'Algemene informatie':
         - 'Beheerplan GGM': algemene-informatie/beheerplan-GGM.md
         - 'Installatie': installatie.md
         - 'Samenwerking aan GGM': samenwerking-GGM.md
         - 'Licentie': https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE
-        - 'Mappings': ggm-voor-gemeenten/Mappings.md
-        - 'Uitdagingen': ggm-voor-gemeenten/GGM-uitdagingen.md
-        - 'Databasetabellen genereren': generatie.md
  - Documentatie GGM:
     - 'Inleiding Documentatie': domeinen/inleiding.md
     - 'Beschrijving Domeinen':
