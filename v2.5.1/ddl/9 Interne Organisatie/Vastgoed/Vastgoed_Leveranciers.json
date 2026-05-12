@@ -1,0 +1,328 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Vastgoed Leveranciers",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Vastgoed Leveranciers",
+  "$defs": {
+    "AANBESTEDING_VASTGOED": {
+      "title": "AANBESTEDING_VASTGOED",
+      "description": "Een procedure waarbij een opdrachtgever bekendmaakt dat hij een opdracht of concessie wil laten uitvoeren en bedrijven uitnodigt om een offerte in te dienen. Dit in het kader van werkzaamheden rondom vastgoed.",
+      "type": "object",
+      "properties": {}
+    },
+    "OBJECTRELATIE": {
+      "title": "OBJECTRELATIE",
+      "description": "Relatie tot een object",
+      "type": "object",
+      "properties": {
+        "ROL": {
+          "type": "string",
+          "enum": [
+            "ACCOUNTMANAGER",
+            "ACCOUNTMANAGER_VERKOOP_JURIST_",
+            "BEHEERDER",
+            "SERVICE_PROVIDER",
+            "TAXATEUR",
+            "TECHNISCH_BEHEERDER"
+          ],
+          "description": "Enumeratie: OBJECTRELATIEROL"
+        }
+      }
+    },
+    "VASTGOEDOBJECT": {
+      "title": "VASTGOEDOBJECT",
+      "description": "Perceel of vastgoed waar de gemeente een zakelijk recht heeft, en optioneel verhuurd, verpacht of anderzinds aan een derde partij.",
+      "type": "object",
+      "properties": {
+        "AANTALETAGES": {
+          "type": "integer"
+        },
+        "AANTALPARKEERPLAATSEN": {
+          "type": "integer"
+        },
+        "AANTALRIOLERINGEN": {
+          "type": "integer"
+        },
+        "ADRESAANDUIDING": {
+          "type": "string"
+        },
+        "AFGEKOCHTEERFPACHT": {
+          "type": "boolean"
+        },
+        "AFGESPROKENCONDITIESCORE": {
+          "type": "string"
+        },
+        "AFKOOPWAARDE": {
+          "type": "string"
+        },
+        "ASBESTRAPPORTAGEAANWEZIG": {
+          "type": "boolean"
+        },
+        "BEDRAGAANKOOP": {
+          "type": "number"
+        },
+        "BESTEMMINGSPLAN": {
+          "type": "string"
+        },
+        "BOEKWAARDE": {
+          "type": "string"
+        },
+        "BOUWJAAR": {
+          "type": "integer"
+        },
+        "BOUWWERK": {
+          "type": "string"
+        },
+        "BOVENLIGGENDNIVEAU": {
+          "type": "string"
+        },
+        "BOVENLIGGENDNIVEAUCODE": {
+          "type": "string"
+        },
+        "BRUTOVLOEROPPERVLAKTE": {
+          "type": "integer"
+        },
+        "CO2UITSTOOT": {
+          "type": "integer",
+          "description": "Jaarlijkse CO2 uitstoot in ton CO2-e"
+        },
+        "CONDITIESCORE": {
+          "type": "string"
+        },
+        "DATUMAFSTOTEN": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMBEREKENINGOPPERVLAK": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEIGENDOM": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMVERKOOP": {
+          "type": "string",
+          "format": "date"
+        },
+        "DEELPORTEFEUILLE": {
+          "type": "string"
+        },
+        "ENERGIEKOSTEN": {
+          "type": "number",
+          "description": "Jaarlijkse energiekosten"
+        },
+        "ENERGIELABEL": {
+          "type": "string"
+        },
+        "ENERGIEVERBRUIK": {
+          "type": "integer",
+          "description": "jaarlijks energieverbruik in Kwh"
+        },
+        "FISCALEWAARDE": {
+          "type": "string"
+        },
+        "FOTO": {
+          "type": "string"
+        },
+        "GEARCHIVEERD": {
+          "type": "boolean"
+        },
+        "HERBOUWWAARDE": {
+          "type": "string"
+        },
+        "HOOFDSTUK": {
+          "type": "string"
+        },
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "JAARLAATSTERENOVATIE": {
+          "type": "string"
+        },
+        "KOSTENPLAATS": {
+          "type": "number"
+        },
+        "LOCATIE": {
+          "type": "string"
+        },
+        "MARKTWAARDE": {
+          "type": "string"
+        },
+        "MONUMENT": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OBJECTSTATUS": {
+          "type": "string"
+        },
+        "OBJECTSTATUSCODE": {
+          "type": "string"
+        },
+        "OBJECTTYPE": {
+          "type": "string"
+        },
+        "OBJECTTYPECODE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "ONDERHOUDSCATEGORIE": {
+          "type": "string"
+        },
+        "OPPERVLAKTEKANTOOR": {
+          "type": "integer"
+        },
+        "PORTEFEUILLE": {
+          "type": "string"
+        },
+        "PORTEFEUILLECODE": {
+          "type": "string"
+        },
+        "PROVINCIE": {
+          "type": "string"
+        },
+        "TOELICHTING": {
+          "type": "string"
+        },
+        "VERHUURBAARVLOEROPPERVLAK": {
+          "type": "integer"
+        },
+        "VERKOOPBAARHEID": {
+          "type": "string"
+        },
+        "VERKOOPBEDRAG": {
+          "type": "number"
+        },
+        "VERZEKERDEWAARDE": {
+          "type": "string"
+        },
+        "WAARDEGROND": {
+          "type": "string"
+        },
+        "WAARDEOPSTAL": {
+          "type": "string"
+        },
+        "WIJK": {
+          "type": "string"
+        },
+        "WOZWAARDE": {
+          "type": "string"
+        }
+      }
+    },
+    "WERKBON": {
+      "title": "WERKBON",
+      "description": "Document waarin een heoveelheid werk is beschreven",
+      "type": "object",
+      "properties": {}
+    },
+    "AANBESTEDING": {
+      "title": "AANBESTEDING",
+      "description": "Kan een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding",
+      "type": "object",
+      "properties": {
+        "DATUMPUBLICATIE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "DIGITAAL": {
+          "type": "boolean"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "PROCEDURE": {
+          "type": "string"
+        },
+        "REFERENTIENUMMER": {
+          "type": "string"
+        },
+        "SCOREMAXIMAAL": {
+          "type": "integer"
+        },
+        "STATUS": {
+          "type": "string"
+        },
+        "TENDERNEDKENMERK": {
+          "type": "string"
+        },
+        "TYPE": {
+          "type": "string"
+        },
+        "VOLGENDESLUITING": {
+          "type": "string"
+        }
+      }
+    },
+    "LEVERANCIER": {
+      "title": "LEVERANCIER",
+      "description": "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        }
+      }
+    },
+    "RECHTSPERSOON": {
+      "title": "RECHTSPERSOON",
+      "description": "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "ADRESBINNENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."
+        },
+        "ADRESBUITENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."
+        },
+        "ADRESCORRESPONDENTIE": {
+          "type": "string",
+          "description": "postbus of antwoordnummer"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "Elektronisch postadres waaronder het subject in de regel bereikbaar is."
+        },
+        "FAXNUMMER": {
+          "type": "string",
+          "description": "Faxnummer waaronder het subject in de regel bereikbaar is."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke identificatie van het SUBJECT"
+        },
+        "KVKNUMMER": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string",
+          "description": "De benaming van het SUBJECT"
+        },
+        "RECHTSVORM": {
+          "type": "string",
+          "description": "Bron: Handelsregister"
+        },
+        "REKENINGNUMMER": {
+          "type": "string",
+          "description": "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "Telefoonnummer waaronder het subject in de regel bereikbaar is."
+        }
+      }
+    }
+  }
+}

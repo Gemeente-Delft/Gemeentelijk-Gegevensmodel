@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diagram Afval Meldingen",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Diagram Afval Meldingen",
+  "$defs": {
+    "CATEGORIE": {
+      "title": "CATEGORIE",
+      "description": "Categorie waarop leveranciers zich voor de levering van personeel voor kunnen kwalificeren",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "integer"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "CONTAINERTYPE": {
+      "title": "CONTAINERTYPE",
+      "description": "Typologie van container",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "FRACTIE": {
+      "title": "FRACTIE",
+      "description": "Onderdeel, deeltje",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "LOCATIE": {
+      "title": "LOCATIE",
+      "description": "Locaties die worden aangedaan tijdens het rijden van een route. Dit kunnen adressen zijn en/of GML-punten met een x- en y-coordinaat. Avalex hanteert op het moment van schrijven alleen adressen, ook voor de containers.",
+      "type": "object",
+      "properties": {
+        "ADRESAANDUIDING": {
+          "type": "string"
+        },
+        "LOCATIEPUNT": {
+          "type": "string"
+        },
+        "LOCATIECODE": {
+          "type": "string"
+        }
+      }
+    },
+    "MELDING": {
+      "title": "MELDING",
+      "description": "De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend",
+      "type": "object",
+      "properties": {
+        "24UURS": {
+          "type": "boolean"
+        },
+        "DATUMTIJD": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "ILLEGAAL": {
+          "type": "boolean"
+        },
+        "MELDINGNUMMER": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "AANVRAAGOFMELDING": {
+      "title": "AANVRAAGOFMELDING",
+      "description": "Komt overeen met een VJV\n\nBron: GEM_VJV (Distinct op REQ_ID)\nID: REQ_ID",
+      "type": "object",
+      "properties": {
+        "AFGEHANDELD": {
+          "type": "boolean"
+        },
+        "CATEGORIE": {
+          "type": "string"
+        },
+        "CATEGORIECODE": {
+          "type": "string"
+        },
+        "DATUMAANMAAK": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMAFHANDELING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMBEGINSTATUS": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDESTATUS": {
+          "type": "string",
+          "format": "date"
+        },
+        "HOOFDCATEGORIE": {
+          "type": "string"
+        },
+        "HOOFDCATEGORIECODE": {
+          "type": "string"
+        },
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "KANAAL": {
+          "type": "string"
+        },
+        "ONDERWERP": {
+          "type": "string"
+        },
+        "ONDERWERPCODE": {
+          "type": "string"
+        },
+        "SOORT": {
+          "type": "string",
+          "description": "Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding...."
+        },
+        "STATUS": {
+          "type": "string"
+        },
+        "STATUSCODE": {
+          "type": "string"
+        },
+        "STATUSVOLGORDE": {
+          "type": "string"
+        },
+        "SUBCATEGORIE": {
+          "type": "string"
+        },
+        "SUBCATEGORIECODE": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

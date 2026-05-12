@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Basismodel CMDB-Items Diversen",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Basismodel CMDB-Items Diversen",
+  "$defs": {
+    "CMDB_ITEM_": {
+      "title": "CMDB_ITEM_",
+      "description": "Item in een Configuratie Management DataBase",
+      "type": "object",
+      "properties": {
+        "BESCHRIJVING": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "HARDWARE": {
+      "title": "HARDWARE",
+      "description": "Alle fysieke componenten of onderdelen die in een computer een rol spelen.",
+      "type": "object",
+      "properties": {}
+    },
+    "INVENTARIS": {
+      "title": "INVENTARIS",
+      "description": "Een inboedel of een opsomming van voorwerpen op een bepaalde plaats, gemaakt volgens een vaste procedure.",
+      "type": "object",
+      "properties": {}
+    },
+    "LICENTIE": {
+      "title": "LICENTIE",
+      "description": "Een gebruiksrecht en autorisatie om van een product of dienst gebruik te maken binnen bepaalde voorwaarden",
+      "type": "object",
+      "properties": {}
+    },
+    "NERTWERKCOMPONENT": {
+      "title": "NERTWERKCOMPONENT",
+      "description": "Een *netwerkcomponent* is een hardware- of softwareonderdeel dat een **specifieke functie vervult binnen een netwerk** om communicatie, gegevensuitwisseling of het beheer van netwerkverkeer mogelijk te maken.",
+      "type": "object",
+      "properties": {}
+    },
+    "SOFTWARE": {
+      "title": "SOFTWARE",
+      "description": "Een geheel van computerprogramma's met bijbehorende data, die bewerkingen en taken uitvoeren",
+      "type": "object",
+      "properties": {}
+    },
+    "TOEGANGSMIDDEL": {
+      "title": "TOEGANGSMIDDEL",
+      "description": "Een middel waarmee men zich toegang tot iets kan verschaffen.",
+      "type": "object",
+      "properties": {}
+    },
+    "VERVOERSMIDDEL": {
+      "title": "VERVOERSMIDDEL",
+      "description": "Een voertuig dat zich over het land verplaatst.",
+      "type": "object",
+      "properties": {}
+    }
+  }
+}

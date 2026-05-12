@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Tenaamstelling",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Tenaamstelling",
+  "$defs": {
+    "TENAAMSTELLING": {
+      "title": "TENAAMSTELLING",
+      "description": "Een TENAAMSTELLING  vormt de relatie tussen een Recht en een Persoon en geeft aan welk recht, met uitzondering van hypotheek en beslag, door een Persoon wordt uitgeoefend op een Kadastraal object.",
+      "type": "object",
+      "properties": {
+        "AANDEELINRECHT": {
+          "type": "string",
+          "description": "Het aandeel waarvoor de gerechtigde deelneemt in het recht."
+        },
+        "BURGERLIJKESTAATTENTIJDEVANVERKRIJGING": {
+          "type": "string",
+          "format": "date-time",
+          "description": "De burgerlijke staat is een aanduiding voor de leefvorm van een persoon, zoals deze volgens het brondocument ten tijde van de verkrijging van het recht bestond. Leefvorm van een persoon heeft betrekking op huwelijk c.q. geregistreerd partnerschap."
+        },
+        "DATUMBEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "EXPLOITANTCODE": {
+          "type": "string",
+          "description": "<font color=\"#000080\">Het recht wat de exploitant van de eigenaar te weten de gemeente heeft gekregen.</font>"
+        },
+        "IDENTIFICATIETENAAMSTELLING": {
+          "type": "string",
+          "description": "Een door het Kadaster toegekende landelijk uniek nummer aan een tenaamstelling"
+        },
+        "VERKLARINGINZAKEDERDENBESCHERMING": {
+          "type": "string"
+        },
+        "VERKREGENNAMENSSAMENWERKINGSVERBAND": {
+          "type": "string",
+          "description": "De aard van het samenwerkingsverband (zoals Maatschap, VOF of CV) namens welke een natuurlijk persoon deze tenaamstelling heeft verkregen."
+        }
+      }
+    },
+    "AANTEKENING": {
+      "title": "AANTEKENING",
+      "description": "Een Aantekening is een aanvulling op de registratie van een registergoed met betrekking tot feiten die gevolgen kunnen hebben voor de uitoefening van de rechten op dit registergoed.",
+      "type": "object",
+      "properties": {
+        "AARD": {
+          "type": "string"
+        },
+        "BEGRENZING": {
+          "type": "string",
+          "description": "Begrenzing beschrijft de omtrek van het gebied waarop de aantekening betrekking heeft."
+        },
+        "BETREFTGEDEELTEVANPERCEEL": {
+          "type": "boolean",
+          "description": "BetreftGedeelteVanPerceel is een aanduiding of de aantekening het gehele perceel (nee of niet gevuld) betreft of slechts een gedeelte (ja)."
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "Einddatum is de datum waarop de geldigheid van de aantekening eindigt."
+        },
+        "DATUMEINDERECHT": {
+          "type": "string",
+          "format": "date",
+          "description": "EinddatumRecht is de datum waarop een recht eindigt."
+        },
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

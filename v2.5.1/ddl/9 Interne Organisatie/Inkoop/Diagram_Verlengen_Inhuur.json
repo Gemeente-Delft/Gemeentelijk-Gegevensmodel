@@ -1,0 +1,329 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diagram Verlengen Inhuur",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Diagram Verlengen Inhuur",
+  "$defs": {
+    "INKOOPORDER": {
+      "title": "INKOOPORDER",
+      "description": "Een opdracht (gezien vanuit de klant) voor één of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen.",
+      "type": "object",
+      "properties": {
+        "ARTIKELCODE": {
+          "type": "string"
+        },
+        "BETALINGMEERDEREJAREN": {
+          "type": "boolean"
+        },
+        "BETREFT": {
+          "type": "string"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMINGEDIEND": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "GOEDERENCODE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "ORDERNUMMER": {
+          "type": "string"
+        },
+        "SALDO": {
+          "type": "string"
+        },
+        "TOTAALNETTOBEDRAG": {
+          "type": "number"
+        },
+        "WIJZEVANAANBESTEDEN": {
+          "type": "string"
+        }
+      }
+    },
+    "KOSTENPLAATS": {
+      "title": "KOSTENPLAATS",
+      "description": "Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven.",
+      "type": "object",
+      "properties": {
+        "BTWCODE": {
+          "type": "string"
+        },
+        "BTWOMSCHRIJVING": {
+          "type": "string"
+        },
+        "KOSTENPLAATSSOORTCODE": {
+          "type": "number"
+        },
+        "KOSTENPLAATSSOORTOMSCHRIJVING": {
+          "type": "number"
+        },
+        "KOSTENPLAATSTYPECODE": {
+          "type": "number"
+        },
+        "KOSTENPLAATSTYPEOMSCHRIJVING": {
+          "type": "number"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "CONTRACT": {
+      "title": "CONTRACT",
+      "description": "Bindende overeenkomst",
+      "type": "object",
+      "properties": {
+        "AUTORISATIEGROEP": {
+          "type": "string"
+        },
+        "BESCHRIJVING": {
+          "type": "string"
+        },
+        "CATEGORIE": {
+          "type": "string"
+        },
+        "CLASSIFICATIE": {
+          "type": "string"
+        },
+        "CONTRACTREVISIE": {
+          "type": "integer"
+        },
+        "DATUMCREATIE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "GROEP": {
+          "type": "string"
+        },
+        "INTERNCONTRACTID": {
+          "type": "string"
+        },
+        "INTERNCONTRACTREVISIE": {
+          "type": "integer"
+        },
+        "OPMERKINGEN": {
+          "type": "string"
+        },
+        "STATUS": {
+          "type": "string"
+        },
+        "TYPE": {
+          "type": "string"
+        },
+        "VOORWAARDE": {
+          "type": "string"
+        },
+        "ZOEKWOORDEN": {
+          "type": "string"
+        }
+      }
+    },
+    "FORMULIERVERLENGINGINHUUR": {
+      "title": "FORMULIERVERLENGINGINHUUR",
+      "description": "Formulier ten behoeve van verlenging inhuur personeel",
+      "type": "object",
+      "properties": {
+        "DATUMEINDENIEUW": {
+          "type": "string",
+          "format": "date"
+        },
+        "INDICATIEREDENINHUURGEWIJZIGD": {
+          "type": "boolean"
+        },
+        "INDICATIEVERHOGENINKOOPORDER": {
+          "type": "boolean"
+        },
+        "TOELICHTING": {
+          "type": "string"
+        }
+      }
+    },
+    "LEVERANCIER": {
+      "title": "LEVERANCIER",
+      "description": "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        }
+      }
+    },
+    "MEDEWERKER": {
+      "title": "MEDEWERKER",
+      "description": "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID.",
+      "type": "object",
+      "properties": {
+        "ACHTERNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt.</font>"
+        },
+        "DATUMINDIENST": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMUITDIENST": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt.</font>"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font>"
+        },
+        "EXTERN": {
+          "type": "boolean",
+          "description": "Medewerker is een externe?"
+        },
+        "FUNCTIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie.</font>"
+        },
+        "GESLACHTSAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is.</font>"
+        },
+        "MEDEWERKERIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte unieke aanduiding van de medewerker.</font>"
+        },
+        "MEDEWERKERTOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Toelichting bij en/of over de medewerker.</font>"
+        },
+        "ROEPNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Naam waarmee de werknemer wordt aangesproken.</font>"
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Telefoonnummer waaronder de medewerker in de regel bereikbaar is.</font>"
+        },
+        "VOORLETTERS": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen.</font>"
+        },
+        "VOORVOEGSELACHTERNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font>\r\n<font color=\"#610e6a\">gescheiden.</font>"
+        }
+      }
+    },
+    "DOCUMENT": {
+      "title": "DOCUMENT",
+      "description": "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT.",
+      "type": "object",
+      "properties": {
+        "COCUMENTBESCHRIJVING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een generieke beschrijving van de inhoud van het document.</font>"
+        },
+        "DATUMCREATIEDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Een datum of een gebeurtenis in de levenscyclus van het document.</font>"
+        },
+        "DATUMONTVANGSTDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het DOCUMENT ontvangen is.</font>"
+        },
+        "DATUMVERZENDINGDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het DOCUMENT verzonden is.</font>"
+        },
+        "DOCUMENTAUTEUR": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document.</font>"
+        },
+        "DOCUMENTIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een binnen een gegeven context ondubbelzinnige referentie naar het document.</font>\r\n<font color=\"#610e6a\">Bijvoorbeeld potsregistratienummer</font>"
+        },
+        "DOCUMENTTITEL": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De naam waaronder het document formeel bekend is.</font>"
+        },
+        "VERTROUWELIJKAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is.</font>"
+        }
+      }
+    },
+    "ORGANISATORISCHEEENHEID": {
+      "title": "ORGANISATORISCHEEENHEID",
+      "description": "Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken.",
+      "type": "object",
+      "properties": {
+        "DATUMONTSTAAN": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de organisatorische eenheid is ontstaan.</font>"
+        },
+        "DATUMOPHEFFING": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de organisatorische eenheid is opgeheven.</font>"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Elektronisch postadres waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"
+        },
+        "FAXNUMMER": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Faxnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"
+        },
+        "FORMATIE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De feitelijke naam van de organisatorische eenheid.</font>"
+        },
+        "NAAMVERKORT": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een verkorte naam voor de organisatorische eenheid.</font>"
+        },
+        "OMSCHRIJVING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een omschrijving van de organisatorische eenheid.</font>"
+        },
+        "ORGANISATIEIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte identificatie van de organisatorische eenheid.</font>"
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Telefoonnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"
+        },
+        "TOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Toelichting bij de organisatorische eenheid.</font>"
+        }
+      }
+    }
+  }
+}

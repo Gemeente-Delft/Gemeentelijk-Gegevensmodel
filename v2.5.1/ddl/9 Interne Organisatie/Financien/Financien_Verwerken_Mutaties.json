@@ -1,0 +1,321 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Financien Verwerken Mutaties",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Financien Verwerken Mutaties",
+  "$defs": {
+    "APPLICATIE": {
+      "title": "APPLICATIE",
+      "description": "Een applicatiecomponent die gericht is op het ondersteunen van eindgebruikers.",
+      "type": "object",
+      "properties": {
+        "APPLICATIEURL": {
+          "type": "string"
+        },
+        "BEHEERSTATUS": {
+          "type": "integer"
+        },
+        "BELEIDSDOMEIN": {
+          "type": "string"
+        },
+        "CATEGORIE": {
+          "type": "string"
+        },
+        "GUID": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "PACKAGINGSTATUS": {
+          "type": "integer"
+        }
+      }
+    },
+    "BANKAFSCHRIFT": {
+      "title": "BANKAFSCHRIFT",
+      "description": "Overzicht van de bij- en afschrijvingen van een rekening",
+      "type": "object",
+      "properties": {
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "NUMMER": {
+          "type": "string"
+        }
+      }
+    },
+    "BANKAFSCHRIFTREGEL": {
+      "title": "BANKAFSCHRIFTREGEL",
+      "description": "Een item op het bankafschrift",
+      "type": "object",
+      "properties": {
+        "BEDRAG": {
+          "type": "number"
+        },
+        "BIJ": {
+          "type": "boolean"
+        },
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "REKENINGVAN": {
+          "type": "string"
+        }
+      }
+    },
+    "BANKREKENING": {
+      "title": "BANKREKENING",
+      "description": "Een rekening-courant bij een bank",
+      "type": "object",
+      "properties": {
+        "BANK": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        },
+        "TENNAAMSTELLING": {
+          "type": "string"
+        }
+      }
+    },
+    "BATCH": {
+      "title": "BATCH",
+      "description": "Verzameling van posten die in het kader van automatische verwerking een logisch geheel vormen.",
+      "type": "object",
+      "properties": {
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "NUMMER": {
+          "type": "string"
+        },
+        "TIJD": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "BATCHREGEL": {
+      "title": "BATCHREGEL",
+      "description": "Een item uit een batch",
+      "type": "object",
+      "properties": {
+        "BEDRAG": {
+          "type": "number"
+        },
+        "DATUMBETALING": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "REKENINGNAAR": {
+          "type": "string"
+        },
+        "REKENINGVAN": {
+          "type": "string"
+        }
+      }
+    },
+    "FACTUUR": {
+      "title": "FACTUUR",
+      "description": "Schriftelijke rekening of nota voor de geleverde zaken of verrichte diensten.",
+      "type": "object",
+      "properties": {
+        "BETAALBAARPER": {
+          "type": "string",
+          "format": "date"
+        },
+        "BETAALTERMIJN": {
+          "type": "string"
+        },
+        "CODE": {
+          "type": "string"
+        },
+        "DATUMFACTUUR": {
+          "type": "string",
+          "format": "date"
+        },
+        "FACTUURBEDRAGBTW": {
+          "type": "number"
+        },
+        "FACTUURBEDRAGEXCLUSIEFBTW": {
+          "type": "number"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "FACTUURREGEL": {
+      "title": "FACTUURREGEL",
+      "description": "Een item op de factuur",
+      "type": "object",
+      "properties": {
+        "AANTAL": {
+          "type": "string"
+        },
+        "BEDRAGBTW": {
+          "type": "number"
+        },
+        "BEDRAGEXBTW": {
+          "type": "number"
+        },
+        "BTWPERCENTAGE": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "HOOFDREKENING": {
+      "title": "HOOFDREKENING",
+      "description": "is kostensoort",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "PIAHOOFCATEGORIEOMSCHRIJVING": {
+          "type": "string"
+        },
+        "PIAHOOFDCATEGORIECODE": {
+          "type": "string"
+        },
+        "SUBCODE": {
+          "type": "string"
+        },
+        "SUBCODEOMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "KOSTENPLAATS": {
+      "title": "KOSTENPLAATS",
+      "description": "Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven.",
+      "type": "object",
+      "properties": {
+        "BTWCODE": {
+          "type": "string"
+        },
+        "BTWOMSCHRIJVING": {
+          "type": "string"
+        },
+        "KOSTENPLAATSSOORTCODE": {
+          "type": "number"
+        },
+        "KOSTENPLAATSSOORTOMSCHRIJVING": {
+          "type": "number"
+        },
+        "KOSTENPLAATSTYPECODE": {
+          "type": "number"
+        },
+        "KOSTENPLAATSTYPEOMSCHRIJVING": {
+          "type": "number"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "MUTATIE": {
+      "title": "MUTATIE",
+      "description": "Wijziging van een situatie",
+      "type": "object",
+      "properties": {
+        "BEDRAG": {
+          "type": "number"
+        },
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "SUBREKENING": {
+      "title": "SUBREKENING",
+      "description": "Ondergeschikte rekening van een hoofdrekening",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "WERKORDER": {
+      "title": "WERKORDER",
+      "description": "Opdracht voor de uitvoering van een activiteit of een stap in een proces.",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "DOCUMENTNUMMER": {
+          "type": "integer"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "WERKORDERTYPE": {
+          "type": "string"
+        }
+      }
+    },
+    "EXTERNEBRON": {
+      "title": "EXTERNEBRON",
+      "description": "Bron buiten de eigen organisatie",
+      "type": "object",
+      "properties": {}
+    },
+    "BETALING": {
+      "title": "BETALING",
+      "description": "het onderhandigen of overboeken van geld in ruil voor goed of dienst",
+      "type": "object",
+      "properties": {
+        "BEDRAG": {
+          "type": "number"
+        },
+        "DATUMTIJD": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "VALUTA": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

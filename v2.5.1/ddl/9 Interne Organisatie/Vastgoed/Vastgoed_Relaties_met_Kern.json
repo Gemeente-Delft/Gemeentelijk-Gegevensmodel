@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Vastgoed Relaties met Kern ",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Vastgoed Relaties met Kern ",
+  "$defs": {
+    "EIGENAAR": {
+      "title": "EIGENAAR",
+      "description": "Eigenaar is een persoon die de eigenaar is van een gebouw of stuk grond en ook alle rechten daarvan bezit.",
+      "type": "object",
+      "properties": {}
+    },
+    "HUURDER": {
+      "title": "HUURDER",
+      "description": "Een partij die een zaak of een gedeelte daarvan in gebruik verstrekt heeft gekregen en zich heeft verbonden tot een tegenprestatie.",
+      "type": "object",
+      "properties": {}
+    },
+    "PACHTER": {
+      "title": "PACHTER",
+      "description": "Een persoon die een pachtovereenkomst heeft met de eigenaar van een perceel voor het gebruik als landbouwgrond.",
+      "type": "object",
+      "properties": {}
+    },
+    "LEVERANCIER": {
+      "title": "LEVERANCIER",
+      "description": "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        }
+      }
+    },
+    "RECHTSPERSOON": {
+      "title": "RECHTSPERSOON",
+      "description": "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "ADRESBINNENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."
+        },
+        "ADRESBUITENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."
+        },
+        "ADRESCORRESPONDENTIE": {
+          "type": "string",
+          "description": "postbus of antwoordnummer"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "Elektronisch postadres waaronder het subject in de regel bereikbaar is."
+        },
+        "FAXNUMMER": {
+          "type": "string",
+          "description": "Faxnummer waaronder het subject in de regel bereikbaar is."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke identificatie van het SUBJECT"
+        },
+        "KVKNUMMER": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string",
+          "description": "De benaming van het SUBJECT"
+        },
+        "RECHTSVORM": {
+          "type": "string",
+          "description": "Bron: Handelsregister"
+        },
+        "REKENINGNUMMER": {
+          "type": "string",
+          "description": "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "Telefoonnummer waaronder het subject in de regel bereikbaar is."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Verkeer en Vervoer: Stremmingen",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Verkeer en Vervoer: Stremmingen",
+  "$defs": {
+    "STREMMING": {
+      "title": "STREMMING",
+      "description": "Situatie waarbij de doorstroming van het (vaar)wegverkeer plaatselijk is geblokkeerd als gevolg van een incident",
+      "type": "object",
+      "properties": {
+        "AANTALGEHINDERDEN": {
+          "type": "integer"
+        },
+        "DATUMAANMELDING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMWIJZIGING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DELENTOEGESTAAN": {
+          "type": "boolean"
+        },
+        "GESCHIKTVOORPUBLICATIE": {
+          "type": "boolean"
+        },
+        "LOCATIE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "HINDERKLASSE": {
+          "type": "string",
+          "enum": [
+            "KLASSE_0_GEEN_HINDER",
+            "KLASSE_1_KLEINE_HINDER",
+            "KLASSE_2_MATIGE_HINDER",
+            "KLASSE_3_GROTE_HINDER",
+            "KLASSE_4_ZEER_GROTE_HINDER"
+          ],
+          "description": "Enumeratie: HINDERKLASSE"
+        },
+        "STATUS": {
+          "type": "string",
+          "enum": [
+            "AANGEMELD",
+            "AFGEROND",
+            "GEPULBLICEERD",
+            "IN_UITVOERING",
+            "PLAN_AFHANDELEN"
+          ],
+          "description": "Enumeratie: STREMMINGSTATUS"
+        }
+      }
+    },
+    "MEDEWERKER": {
+      "title": "MEDEWERKER",
+      "description": "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID.",
+      "type": "object",
+      "properties": {
+        "ACHTERNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt.</font>"
+        },
+        "DATUMINDIENST": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMUITDIENST": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt.</font>"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font>"
+        },
+        "EXTERN": {
+          "type": "boolean",
+          "description": "Medewerker is een externe?"
+        },
+        "FUNCTIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie.</font>"
+        },
+        "GESLACHTSAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is.</font>"
+        },
+        "MEDEWERKERIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte unieke aanduiding van de medewerker.</font>"
+        },
+        "MEDEWERKERTOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Toelichting bij en/of over de medewerker.</font>"
+        },
+        "ROEPNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Naam waarmee de werknemer wordt aangesproken.</font>"
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Telefoonnummer waaronder de medewerker in de regel bereikbaar is.</font>"
+        },
+        "VOORLETTERS": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen.</font>"
+        },
+        "VOORVOEGSELACHTERNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font>\r\n<font color=\"#610e6a\">gescheiden.</font>"
+        }
+      }
+    },
+    "WEGDEEL": {
+      "title": "WEGDEEL",
+      "description": "Kleinste functioneel onafhankelijk stukje van een NEN 3610 Weg,  met gelijkblijvende homogene eigenschappen en relaties en primair bedoeld voor gebruik door weg-, spoor- en vliegverkeer te land",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDWEGDEEL": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het wegdeel is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDWEGDEEL": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het wegdeel ongeldig is geworden."
+        },
+        "FUNCTIEWEGDEEL": {
+          "type": "string",
+          "description": "Specificatie van het hoofdgebruiksdoel van het wegdeel."
+        },
+        "FYSIEKVOORKOMENWEGDEEL": {
+          "type": "string",
+          "description": "Mate waarin het wegdeel al of niet verhard is."
+        },
+        "GEOMETRIEWEGDEEL": {
+          "type": "string",
+          "description": "De minimaal tweedimensionale geometrische representatie van de omtrekken van een wegdeel."
+        },
+        "IDENTIFICATIEWEGDEEL": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een wegdeel"
+        },
+        "KRUINLIJNGEOMETRIEWEGDEEL": {
+          "type": "string",
+          "description": "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."
+        },
+        "LOD0GEOMETRIEWEGDEEL": {
+          "type": "string",
+          "description": "De geometrische representatie van een wegdeel als vlak in 2.5D op level of detail 0."
+        },
+        "PLUSFUNCTIEWEGDEEL": {
+          "type": "string",
+          "description": "Specificatie van het hoofdgebruiksdoel van het wegdeel, nadere classificatie."
+        },
+        "PLUSFYSIEKVOORKOMENWEGDEEL": {
+          "type": "string",
+          "description": "Mate waarin het wegdeel al of niet verhard is, nadere classificatie."
+        },
+        "RELATIEVEHOOGTELIGGINGWEGDEEL": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het wegdeel"
+        },
+        "STATUSWEGDEEL": {
+          "type": "string",
+          "description": "De status gekoppeld aan de levenscyclus van het wegdeel."
+        },
+        "WEGDEELOPTALUD": {
+          "type": "boolean",
+          "description": "Indicatie of het object wel of niet op een hellend vlak ligt."
+        }
+      }
+    }
+  }
+}

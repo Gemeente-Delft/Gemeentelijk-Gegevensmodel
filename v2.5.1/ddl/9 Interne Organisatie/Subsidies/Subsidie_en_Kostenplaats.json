@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Subsidie en Kostenplaats",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Subsidie en Kostenplaats",
+  "$defs": {
+    "BETAALMOMENT": {
+      "title": "BETAALMOMENT",
+      "description": "Moment waarop er een bepaald deel van de subsidie betaald moet worden.",
+      "type": "object",
+      "properties": {
+        "BEDRAG": {
+          "type": "number"
+        },
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "VOORSCHOT": {
+          "type": "boolean"
+        }
+      }
+    },
+    "SUBSIDIE": {
+      "title": "SUBSIDIE",
+      "description": "Aan derden toegekende financiele middelen, bestemd voor het uitvoeren van bepaalde activiteiten",
+      "type": "object",
+      "properties": {
+        "ACCOUNTANTSCONTROLE": {
+          "type": "boolean"
+        },
+        "COFINANCIERING": {
+          "type": "string"
+        },
+        "DATUMBEHANDELTERMIJN": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMBEWAARTERMIJN": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSUBSIDIEVASTSTELLING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMVERZENDINGEINDEAFREKENING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DEADLINEINDIENING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DOELSTELLING": {
+          "type": "string"
+        },
+        "GEREALISEERDEPROJECTKOSTEN": {
+          "type": "number"
+        },
+        "HOOGTESUBSIDIE": {
+          "type": "string"
+        },
+        "NIVEAU": {
+          "type": "string"
+        },
+        "ONDERWERP": {
+          "type": "string"
+        },
+        "ONTVANGENBEDRAG": {
+          "type": "number"
+        },
+        "OPMERKINGEN": {
+          "type": "string"
+        },
+        "OPMERKINGENVOORSCHOTTEN": {
+          "type": "string"
+        },
+        "PRESTATIESUBSIDIE": {
+          "type": "boolean",
+          "description": "Als Nee dan is het een stimuleringssubsidie\n\nAlleen bij uitgaande subsidies, anders NULL!"
+        },
+        "SOCIALRETURNBEDRAG": {
+          "type": "number"
+        },
+        "SOCIALRETURNNAGEKOMEN": {
+          "type": "boolean"
+        },
+        "SOCIALRETURNVERPLICHTING": {
+          "type": "boolean"
+        },
+        "STATUS": {
+          "type": "string"
+        },
+        "SUBSIDIEBEDRAG": {
+          "type": "number"
+        },
+        "SUBSIDIESOORT": {
+          "type": "string"
+        },
+        "SUBSIDIEVASTSTELLINGBEDRAG": {
+          "type": "number"
+        },
+        "UITGAANDESUBSIDIE": {
+          "type": "boolean"
+        },
+        "VERANTWOORDENOP": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "SUBSIDIECOMPONENT": {
+      "title": "SUBSIDIECOMPONENT",
+      "description": "Onderdeel van een subisidie met een eigen kostenplaats.",
+      "type": "object",
+      "properties": {
+        "GERESERVEERDBEDRAG": {
+          "type": "number"
+        },
+        "TOEGEKENDBEDRAG": {
+          "type": "number"
+        }
+      }
+    },
+    "SUBSIDIEPROGRAMMA": {
+      "title": "SUBSIDIEPROGRAMMA",
+      "description": "Programma waarin meerdere subsidies worden verleend vanuit een bepaalde samenhang",
+      "type": "object",
+      "properties": {
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "PROGRAMMABEGROTING": {
+          "type": "string"
+        }
+      }
+    },
+    "KOSTENPLAATS": {
+      "title": "KOSTENPLAATS",
+      "description": "Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven.",
+      "type": "object",
+      "properties": {
+        "BTWCODE": {
+          "type": "string"
+        },
+        "BTWOMSCHRIJVING": {
+          "type": "string"
+        },
+        "KOSTENPLAATSSOORTCODE": {
+          "type": "number"
+        },
+        "KOSTENPLAATSSOORTOMSCHRIJVING": {
+          "type": "number"
+        },
+        "KOSTENPLAATSTYPECODE": {
+          "type": "number"
+        },
+        "KOSTENPLAATSTYPEOMSCHRIJVING": {
+          "type": "number"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "MUTATIE": {
+      "title": "MUTATIE",
+      "description": "Wijziging van een situatie",
+      "type": "object",
+      "properties": {
+        "BEDRAG": {
+          "type": "number"
+        },
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    }
+  }
+}

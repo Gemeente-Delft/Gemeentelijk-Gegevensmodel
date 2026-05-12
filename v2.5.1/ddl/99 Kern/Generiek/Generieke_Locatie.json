@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Generieke Locatie",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Generieke Locatie",
+  "$defs": {
+    "GEBIED": {
+      "title": "GEBIED",
+      "description": "Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen.",
+      "type": "object",
+      "properties": {
+        "GEBIEDSAANDUIDING": {
+          "type": "string"
+        }
+      }
+    },
+    "PUNT": {
+      "title": "PUNT",
+      "description": "Plaats in de ruimte",
+      "type": "object",
+      "properties": {
+        "PUNTLOCATIE": {
+          "type": "string"
+        }
+      }
+    },
+    "PUNTENGROEP": {
+      "title": "PUNTENGROEP",
+      "description": "Verzameling van punten",
+      "type": "object",
+      "properties": {}
+    },
+    "LOCATIE": {
+      "title": "LOCATIE",
+      "description": "De locatie beschrijft middels co√∂rdinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)",
+      "type": "object",
+      "properties": {
+        "HOOGTE": {
+          "type": "integer",
+          "description": "Hoogte in meters. Negatief is onder het maaiveld en positief boven het maaiveld"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "NEN3610ID": {
+          "type": "string"
+        }
+      }
+    },
+    "GEBIEDENGROEP": {
+      "title": "GEBIEDENGROEP",
+      "description": "Verzameling van gebieden",
+      "type": "object",
+      "properties": {}
+    },
+    "LIJNENGROEP": {
+      "title": "LIJNENGROEP",
+      "description": "Verzameling van lijnen",
+      "type": "object",
+      "properties": {}
+    },
+    "LIJN": {
+      "title": "LIJN",
+      "description": "Denkbeeldige streep op de aardoppervlakte",
+      "type": "object",
+      "properties": {
+        "LIJNLOCATIE": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

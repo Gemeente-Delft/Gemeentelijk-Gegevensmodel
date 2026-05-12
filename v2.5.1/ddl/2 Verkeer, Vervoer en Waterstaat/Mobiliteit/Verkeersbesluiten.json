@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Verkeersbesluiten",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Verkeersbesluiten",
+  "$defs": {
+    "VERKEERSBESLUIT": {
+      "title": "VERKEERSBESLUIT",
+      "description": "Een besluit van een wegbeheerder om een bepaald verkeersteken te plaatsen, te wijzigen of in te trekken of een bepaalde fysieke maatregel te treffen.",
+      "type": "object",
+      "properties": {
+        "DATUMBESLUIT": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "HUISNUMMER": {
+          "type": "string"
+        },
+        "POSTCODE": {
+          "type": "string"
+        },
+        "REFERENTIENUMMER": {
+          "type": "string"
+        },
+        "STRAAT": {
+          "type": "string"
+        },
+        "TITEL": {
+          "type": "string"
+        }
+      }
+    },
+    "DOCUMENT": {
+      "title": "DOCUMENT",
+      "description": "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT.",
+      "type": "object",
+      "properties": {
+        "COCUMENTBESCHRIJVING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een generieke beschrijving van de inhoud van het document.</font>"
+        },
+        "DATUMCREATIEDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Een datum of een gebeurtenis in de levenscyclus van het document.</font>"
+        },
+        "DATUMONTVANGSTDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het DOCUMENT ontvangen is.</font>"
+        },
+        "DATUMVERZENDINGDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het DOCUMENT verzonden is.</font>"
+        },
+        "DOCUMENTAUTEUR": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document.</font>"
+        },
+        "DOCUMENTIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een binnen een gegeven context ondubbelzinnige referentie naar het document.</font>\r\n<font color=\"#610e6a\">Bijvoorbeeld potsregistratienummer</font>"
+        },
+        "DOCUMENTTITEL": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De naam waaronder het document formeel bekend is.</font>"
+        },
+        "VERTROUWELIJKAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is.</font>"
+        }
+      }
+    }
+  }
+}

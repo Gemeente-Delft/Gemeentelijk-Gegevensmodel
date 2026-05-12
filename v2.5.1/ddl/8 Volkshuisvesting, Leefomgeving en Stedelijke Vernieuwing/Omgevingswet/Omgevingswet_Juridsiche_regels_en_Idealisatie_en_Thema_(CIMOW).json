@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Omgevingswet Juridsiche regels en Idealisatie en Thema (CIMOW)",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Omgevingswet Juridsiche regels en Idealisatie en Thema (CIMOW)",
+  "$defs": {
+    "REGELTEKST": {
+      "title": "REGELTEKST",
+      "description": "De kleinste zelfstandige eenheid van (een of meer) bij elkaar horende juridische regels: een artikel en lid.",
+      "type": "object",
+      "properties": {
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "TEKST": {
+          "type": "string"
+        }
+      }
+    },
+    "IDEALISATIE": {
+      "title": "IDEALISATIE",
+      "description": "Vastlegging van de manier de begrenzing van Locatie voor deze Juridische regel ge&#239;nterpreteerd moet worden en door het bevoegd gezag bedoeld is.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "JURIDISCHE_REGEL": {
+      "title": "JURIDISCHE_REGEL",
+      "description": "De beschrijving van een regel met juridische werkingskracht. Een regel betreft binnen de Omgevingswet veelal activiteiten, en/of normen en/of functies en/of beperkingengebieden.",
+      "type": "object",
+      "properties": {
+        "DATUMBEKEND": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMINWERKING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "REGELTEKST": {
+          "type": "string",
+          "description": "Verwijzing naar lid of artikel van regeltekst"
+        },
+        "THEMA": {
+          "type": "string"
+        }
+      }
+    },
+    "THEMA": {
+      "title": "THEMA",
+      "description": "Kernachtige weergave van de grondgedachte achter een regel.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

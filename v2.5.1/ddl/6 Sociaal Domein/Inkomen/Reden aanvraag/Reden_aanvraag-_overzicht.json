@@ -1,0 +1,430 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reden aanvraag- overzicht",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Reden aanvraag- overzicht",
+  "$defs": {
+    "ANDERE_REDEN_AFWIJKENDE_STARTDATUM": {
+      "title": "ANDERE_REDEN_AFWIJKENDE_STARTDATUM",
+      "description": "*Andere reden afwijkende startdatum* is een omschrijving van een **reden waarom de startdatum van een dienst of uitkering afwijkt van de standaard startdatum**, voor zover deze reden niet onder de standaardcategorieën valt.",
+      "type": "object",
+      "properties": {
+        "OMSCHRIJVINGBIJZONDEREREDEN": {
+          "type": "string"
+        }
+      }
+    },
+    "ANDERE_REDEN_VERZOEK": {
+      "title": "ANDERE_REDEN_VERZOEK",
+      "description": "*Andere reden verzoek* is een categorie voor een **overige reden** waarom een aanvraag wordt gedaan die niet onder de standaard-redencategorieën valt binnen het *Reden aanvraag*-model.",
+      "type": "object",
+      "properties": {
+        "OPGAVE_FINANCIËLE_ONDERSTEUNING": {
+          "type": "string"
+        },
+        "SPECIFICATIE_GELDTEKORT": {
+          "type": "string"
+        }
+      }
+    },
+    "DIENSTEN_AANVRAAG": {
+      "title": "DIENSTEN_AANVRAAG",
+      "description": "Een aanvraag is een verzoek van een burger, bedrijf of organisatie aan een overheid om een specifieke dienst te verkrijgen of een besluit te ontvangen (bijv. vergunning, subsidie, paspoort of beschikkingsbesluit).",
+      "type": "object",
+      "properties": {}
+    },
+    "DIENSTEN_AANVRAAG_LEVENSONDERHOUD": {
+      "title": "DIENSTEN_AANVRAAG_LEVENSONDERHOUD",
+      "description": "Een aanvraag levensonderhoud is het formele verzoek van een persoon aan een gemeentelijke of overheidsinstantie om een uitkering of financiële ondersteuning te verkrijgen die het inkomen aanvult zodat in het basislevensonderhoud kan worden voorzien.",
+      "type": "object",
+      "properties": {}
+    },
+    "GESTOPT_BETAALD_WERK": {
+      "title": "GESTOPT_BETAALD_WERK",
+      "description": "*Gestopt betaald werk* is de situatie waarin iemand **zijn of haar betaalde arbeidsrelatie heeft beëindigd**, waardoor het reguliere inkomen uit werk is komen te vervallen en dit relevant is voor de beoordeling van een uitkeringsaanvraag of inkomenssituatie.",
+      "type": "object",
+      "properties": {
+        "AFWIJSREDEN_WW_AANVRAAG": {
+          "type": "string"
+        },
+        "BEDRIJFSADRES": {
+          "type": "string"
+        },
+        "BEDRIJFSTELEFOONNUMMER": {
+          "type": "string"
+        },
+        "CONTRACTPERIODE": {
+          "type": "string"
+        },
+        "LAATSTE_SALARISDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "MINIMAAL_26_WEKEN_VAN_36_GEWERKT": {
+          "type": "string"
+        },
+        "NAAM_BEDRIJF": {
+          "type": "string"
+        },
+        "ONTSLAGBRIEF_ONTVANGEN": {
+          "type": "string"
+        },
+        "ONTSLAGVERGOEDING_ONTVANGEN": {
+          "type": "string"
+        },
+        "REDEN_EINDE_WERK": {
+          "type": "string",
+          "format": "date"
+        },
+        "SPECIFICATIE_REDEN_EINDE_WERK": {
+          "type": "string",
+          "format": "date"
+        },
+        "WETTELIJKE_STAPPEN_GEZET": {
+          "type": "string"
+        },
+        "WW_UITKERING_AANGEVRAAGD": {
+          "type": "string"
+        },
+        "ZIEKTEWET_UITKERING_AANGEVRAAGD": {
+          "type": "string"
+        }
+      }
+    },
+    "GESTOPT_OF_VERKOCHT_EIGEN_BEDRIJF": {
+      "title": "GESTOPT_OF_VERKOCHT_EIGEN_BEDRIJF",
+      "description": "*Gestopt of verkocht eigen bedrijf* is de situatie waarin een persoon zijn of haar **bedrijf volledig beëindigt of overdraagt/verkoopt**, waardoor de zelfstandige activiteit ophoudt en de reguliere inkomsten uit de onderneming verdwijnen.",
+      "type": "object",
+      "properties": {
+        "DATUM_GESTOPT_MET_EIGEN_BEDRIJF": {
+          "type": "string",
+          "format": "date"
+        },
+        "KVK_INSCHRIJFNUMMER": {
+          "type": "string",
+          "format": "date"
+        },
+        "REDEN_EIGEN_BEDRIJFS_GESTOPT": {
+          "type": "string"
+        },
+        "UITGESCHREVEN_BIJ_KAMER_VAN_KOOPHANDEL": {
+          "type": "string"
+        },
+        "VERKOOPBEDRAG": {
+          "type": "number"
+        }
+      }
+    },
+    "GESTOPTE_BIJSTANDUITKERING": {
+      "title": "GESTOPTE_BIJSTANDUITKERING",
+      "description": "*Gestopte bijstandsuitkering* is een reden van aanvraag binnen de GBI-Ontologie die aanduidt dat een cliënt een inkomensdienst aanvraagt omdat **een eerder ontvangen bijstandsuitkering is beëindigd**.",
+      "type": "object",
+      "properties": {
+        "REDEN_EINDE_BIJSTANDSUITKERING": {
+          "type": "string",
+          "format": "date"
+        },
+        "SITUATIE_GEWIJZIGD": {
+          "type": "string"
+        },
+        "SPECIFICATIE_REDEN_EINDE_BIJSTAND": {
+          "type": "string",
+          "format": "date"
+        },
+        "SPECIFICATIE_WIJZIGING_SITUATIE": {
+          "type": "string"
+        }
+      }
+    },
+    "GESTOPTE_DETENTIE": {
+      "title": "GESTOPTE_DETENTIE",
+      "description": "*Gestopte detentie* is een reden van aanvraag binnen het GBI-model die aangeeft dat een persoon **vrij is gekomen uit detentie**, waardoor de detentie-periode is beëindigd en dit relevant is voor de beoordeling van een nieuwe aanvraag of wijziging in de ondersteuningsbehoefte.",
+      "type": "object",
+      "properties": {
+        "DUUR_DETENTIE": {
+          "type": "string"
+        },
+        "EINDDATUM_DETENTIE": {
+          "type": "string",
+          "format": "date"
+        },
+        "SOORT_UITKERING_VOOR_DETENTIE": {
+          "type": "string"
+        },
+        "SPECIFICATIE_UITKERING_VOOR_DETENTIE": {
+          "type": "string"
+        },
+        "UITKERING_VOOR_DETENTIE": {
+          "type": "string"
+        }
+      }
+    },
+    "GESTOPTE_OF_VERLAAGDE_ALIMENTATIE": {
+      "title": "GESTOPTE_OF_VERLAAGDE_ALIMENTATIE",
+      "description": "*Gestopte of verlaagde alimentatie* is een reden van aanvraag binnen het GBI-Ontologiemodel die aangeeft dat een persoon een inkomensdienst aanvraagt omdat **alimentatiebetalingen zijn gestopt of verlaagd**, waardoor het reguliere ondersteuningsinkomen is verminderd.",
+      "type": "object",
+      "properties": {
+        "EINDDATUM_ALIMENTATIE": {
+          "type": "string",
+          "format": "date"
+        },
+        "LBIO_INGESCHAKELD": {
+          "type": "string"
+        },
+        "NABESTAANDEUITKERING_AANGEVRAAGD": {
+          "type": "string"
+        },
+        "OPGAVE_FINANCIËLE_ONDERSTEUNING": {
+          "type": "string",
+          "format": "date"
+        },
+        "REDEN_EINDE_OF_VERLAAGDE_ALIMENTATIE": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "GESTOPTE_STUDIEFINANCIERING": {
+      "title": "GESTOPTE_STUDIEFINANCIERING",
+      "description": "*Gestopte studiefinanciering* is een reden van aanvraag binnen de GBI-Ontologie die aangeeft dat een persoon een inkomensdienst aanvraagt omdat **de studiefinanciering is beëindigd of gestopt**, waardoor het (studie)inkomen wegvalt en inkomensondersteuning nodig kan zijn.",
+      "type": "object",
+      "properties": {
+        "EINDDATUM_STUDIEFINANCIERING": {
+          "type": "string",
+          "format": "date"
+        },
+        "SPECIFICATIE_STUDIEFINANCIERING": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "GESTOPTE_UITKERING": {
+      "title": "GESTOPTE_UITKERING",
+      "description": "*Gestopte uitkering* is een subtype van **Reden aanvraag** binnen het GBI-Ontologiemodel dat aangeeft dat een cliënt een inkomensdienst aanvraagt omdat **een eerdere uitkering is beëindigd**, waardoor opnieuw inkomensondersteuning nodig is.",
+      "type": "object",
+      "properties": {
+        "EINDDATUM_UITKERING": {
+          "type": "string",
+          "format": "date"
+        },
+        "EINDE_UITKERING_IN_BEZWAAR": {
+          "type": "string",
+          "format": "date"
+        },
+        "GEDEELTELIJK_ARBEIDSONGESCHIKT_NA_50E": {
+          "type": "string"
+        },
+        "INGANGSDATUM_WGA_BINNEN_PERIODE": {
+          "type": "string",
+          "format": "date"
+        },
+        "IOAW_UITKERING_ONTVANGEN": {
+          "type": "string"
+        },
+        "MINDERDAN35_AO": {
+          "type": "string"
+        },
+        "REDEN_EINDE_UITKERING": {
+          "type": "string",
+          "format": "date"
+        },
+        "SPECIFICATIE_ANDERE_UITKERING": {
+          "type": "string",
+          "format": "date"
+        },
+        "SPECIFICATIE_REDEN_EINDE_UITKERING": {
+          "type": "string",
+          "format": "date"
+        },
+        "STARTDATUM_WW_OF_WGA_UITKERING": {
+          "type": "string",
+          "format": "date"
+        },
+        "UITKERING": {
+          "type": "string"
+        },
+        "WERKLOOSPERIODE": {
+          "type": "string"
+        }
+      }
+    },
+    "INGANG_BIJSTANDSUITKERING": {
+      "title": "INGANG_BIJSTANDSUITKERING",
+      "description": "In de meeste gevallen is de startdatum van een dienst gelijk aan de datum eerste melding (melddatum). Echter, er zijn redenen om hiervan af te wijken. In dat geval wijkt de startdatum af van de melddatum. Ingangsdatum uitkering bevat een Reden afwijkende startdatum om op te nemen met welke reden een afwijkende ingangsdatum gehanteerd wordt.\n\nIngang bijstandsuitkering kan, zoals de naam al doet vermoeden, alleen van toepassing zijn indien het een aanvraag betreft van het diensttype 'Aanvulling levensonderhoud' (ALO)'.",
+      "type": "object",
+      "properties": {
+        "AFWIJKENDE_INGANGSDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUM_MELDING_BIJ_GEMEENTE": {
+          "type": "string",
+          "format": "date"
+        },
+        "GEWENSTE_STARTDATUM_UITKERING": {
+          "type": "string",
+          "format": "date"
+        },
+        "NA_MELDING_GEMEENTE_DIGITAAL_VERWEZEN": {
+          "type": "string"
+        }
+      }
+    },
+    "LEVENSSITUATIE_LEVENSSITUATIE": {
+      "title": "LEVENSSITUATIE_LEVENSSITUATIE",
+      "description": "De levenssituatie is de kwaliteit van de omgeving en omstandigheden waarin een persoon leeft en functioneert op een bepaald moment.",
+      "type": "object",
+      "properties": {}
+    },
+    "OPNAME_INSTELLING": {
+      "title": "OPNAME_INSTELLING",
+      "description": "*Opname instelling* is een reden van aanvraag binnen de GBI-Ontologie die aangeeft dat een persoon een inkomensdienst aanvraagt omdat hij of zij **(net) is opgenomen in of vrijgekomen uit een instelling**, wat financiële gevolgen heeft voor de inkomenssituatie.",
+      "type": "object",
+      "properties": {
+        "EINDDATUM_OPNAME": {
+          "type": "string",
+          "format": "date"
+        },
+        "STARTDATUM_OPNAME": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "OVERLEDEN_PARTNER": {
+      "title": "OVERLEDEN_PARTNER",
+      "description": "*Overleden partner* is een subtype van **Reden aanvraag** binnen het GBI-Ontologiemodel dat aangeeft dat een persoon een inkomensdienst aanvraagt omdat **de partner is overleden**, met als gevolg dat het huishoudinkomen is verminderd.",
+      "type": "object",
+      "properties": {
+        "MEER_DAN_45_ARBEIDSONGESCHIKT": {
+          "type": "string"
+        },
+        "NABESTAANDEUITKERING_AANGEVRAAGD": {
+          "type": "string"
+        },
+        "REDEN_ANW_AFGEWEZEN": {
+          "type": "string"
+        }
+      }
+    },
+    "REDEN_AANVRAAG": {
+      "title": "REDEN_AANVRAAG",
+      "description": "Reden waarom dienst wordt aanvraagd bij gemeente.",
+      "type": "object",
+      "properties": {
+        "DIENSTTYPE": {
+          "type": "string"
+        },
+        "GEWENSTE_INGANGSDATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "REDEN_AANVRAAG_LEVENSONDERHOUD": {
+      "title": "REDEN_AANVRAAG_LEVENSONDERHOUD",
+      "description": "*Reden aanvraag Levensonderhoud* is een categorie binnen het GBI-Ontologiemodel die aangeeft dat een cliënt een inkomensdienst aanvraagt vanwege een situatie waarin **middelen voor levensonderhoud ontbreken of zijn weggevallen**, en deze aanleiding geeft voor ondersteuning.",
+      "type": "object",
+      "properties": {
+        "ONVOLDOENDE_INKOMEN": {
+          "type": "string"
+        },
+        "REDEN": {
+          "type": "string"
+        },
+        "VERBLIJFSTATUS": {
+          "type": "string"
+        },
+        "WIJZIGING_GEZIN": {
+          "type": "string"
+        },
+        "ZELFSTANDIGE": {
+          "type": "string"
+        }
+      }
+    },
+    "REDEN_AFWIJKENDE_STARTDATUM": {
+      "title": "REDEN_AFWIJKENDE_STARTDATUM",
+      "description": "*Reden afwijkende startdatum* is een categorie binnen het GBI-Ontologiemodel die aangeeft **waarom de ingangsdatum van een dienst of uitkering afwijkt van de standaard startdatum** (bijv. de datum van eerste melding).",
+      "type": "object",
+      "properties": {
+        "REDEN_AFWIJKING_AANWEZIG": {
+          "type": "string"
+        },
+        "REDEN_NIET_EERDER_AANVRAGEN": {
+          "type": "string"
+        },
+        "REDENAFWIJKENDESTARTDATUMTYPE": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "VERBROKEN_RELATIE": {
+      "title": "VERBROKEN_RELATIE",
+      "description": "*Verbroken relatie* is een subtype van **Reden aanvraag** binnen het GBI-Ontologiemodel dat aangeeft dat een persoon een inkomensdienst aanvraagt doordat **de (huwelijkse/samenlevings)relatie is beëindigd**, met financiële gevolgen voor het levensonderhoud.",
+      "type": "object",
+      "properties": {
+        "AFSPRAAK_ONDERHOUDSBIJDRAGE_GEMAAKT": {
+          "type": "string"
+        },
+        "DATUM_RELATIE_VERBROKEN": {
+          "type": "string",
+          "format": "date"
+        },
+        "GEREGISTREERDE_PARTNER": {
+          "type": "string"
+        },
+        "OPGAVE_FINANCIËLE_ONDERSTEUNING": {
+          "type": "string"
+        }
+      }
+    },
+    "VERTREK_UIT_ASIELZOEKERSCENTRUM": {
+      "title": "VERTREK_UIT_ASIELZOEKERSCENTRUM",
+      "description": "*Vertrek uit asielzoekerscentrum* is een subtype van **Reden aanvraag** in het GBI-Ontologiemodel dat aangeeft dat een persoon een inkomensdienst aanvraagt omdat hij of zij **recentelijk een asielzoekerscentrum heeft verlaten**, waardoor de financiële situatie is veranderd.",
+      "type": "object",
+      "properties": {
+        "BEDRAG_WEEKGELD_COA": {
+          "type": "number"
+        },
+        "EINDDATUM_WEEKGELD_COA": {
+          "type": "string",
+          "format": "date"
+        },
+        "INGANGSDATUM_HUURCONTRACT": {
+          "type": "string",
+          "format": "date"
+        },
+        "WEEKGELD_COA": {
+          "type": "string"
+        },
+        "WEEKGELD_COA_STOPT": {
+          "type": "string"
+        }
+      }
+    },
+    "WACHTEN_BESLISSING_INSTANTIE": {
+      "title": "WACHTEN_BESLISSING_INSTANTIE",
+      "description": "*Wachten beslissing instantie* is een subtype van **Reden aanvraag** binnen het GBI-Ontologiemodel dat aangeeft dat een persoon een inkomensdienst aanvraagt omdat hij of zij **moet wachten op een besluit van een externe instantie**, waardoor de startdatum van de dienst afwijkt van de standaardprocedure.",
+      "type": "object",
+      "properties": {
+        "ONTVANGSTDATUM_BESLISSING_INSTANTIE": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "WACHTEN_DIGID": {
+      "title": "WACHTEN_DIGID",
+      "description": "*Wachten DigiD* is een subtype van **Reden afwijkende startdatum** binnen het GBI-Ontologiemodel dat aangeeft dat de ingangsdatum van een inkomensdienst **vertraging oploopt doordat een DigiD nog niet is aangevraagd, geactiveerd of bruikbaar is**.",
+      "type": "object",
+      "properties": {
+        "AANVRAAGDATUM_DIGID": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    }
+  }
+}

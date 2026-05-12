@@ -1,0 +1,156 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sollicitaties",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Sollicitaties",
+  "$defs": {
+    "FUNCTIE": {
+      "title": "FUNCTIE",
+      "description": "Een samenhangende verzameling van rollen. Een functie kan worden gedefinieerd als het samenstel van feitelijk opgedragen taken en werkzaamheden",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "SCHAAL": {
+          "type": "string"
+        },
+        "TAKEN": {
+          "type": "string"
+        }
+      }
+    },
+    "SOLLICITANT": {
+      "title": "SOLLICITANT",
+      "description": "Persoon die werk zoekt",
+      "type": "object",
+      "properties": {}
+    },
+    "SOLLICITATIE": {
+      "title": "SOLLICITATIE",
+      "description": "Verzoek om in een functie te worden aangesteld.",
+      "type": "object",
+      "properties": {
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "SOLLICITATIEGESPREK": {
+      "title": "SOLLICITATIEGESPREK",
+      "description": "Onderhoud tussen sollicitant en werkgever met betrekking tot een sollicatie",
+      "type": "object",
+      "properties": {
+        "AANGENOMEN": {
+          "type": "boolean"
+        },
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "OPMERKINGEN": {
+          "type": "string"
+        },
+        "VOLGENDGESPREK": {
+          "type": "boolean"
+        }
+      }
+    },
+    "VACATURE": {
+      "title": "VACATURE",
+      "description": "Een arbeidsplaats binnen een bedrijf of organisatie die nog gevuld dient te worden door werkzoekenden.",
+      "type": "object",
+      "properties": {
+        "DATUMGESLOTEN": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMOPENGESTELD": {
+          "type": "string",
+          "format": "date"
+        },
+        "DEELTIJD": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "EXTERN": {
+          "type": "boolean"
+        },
+        "INTERN": {
+          "type": "boolean"
+        },
+        "VASTEDIENST": {
+          "type": "boolean"
+        }
+      }
+    },
+    "WERKNEMER": {
+      "title": "WERKNEMER",
+      "description": "De contractuele wederpartij van de werkgever bij de arbeidsovereenkomst.",
+      "type": "object",
+      "properties": {
+        "GEBOORTEDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "VOORNAAM": {
+          "type": "string"
+        },
+        "WOONPLAATS": {
+          "type": "string"
+        }
+      }
+    },
+    "DOCUMENT": {
+      "title": "DOCUMENT",
+      "description": "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT.",
+      "type": "object",
+      "properties": {
+        "COCUMENTBESCHRIJVING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een generieke beschrijving van de inhoud van het document.</font>"
+        },
+        "DATUMCREATIEDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Een datum of een gebeurtenis in de levenscyclus van het document.</font>"
+        },
+        "DATUMONTVANGSTDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het DOCUMENT ontvangen is.</font>"
+        },
+        "DATUMVERZENDINGDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het DOCUMENT verzonden is.</font>"
+        },
+        "DOCUMENTAUTEUR": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document.</font>"
+        },
+        "DOCUMENTIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een binnen een gegeven context ondubbelzinnige referentie naar het document.</font>\r\n<font color=\"#610e6a\">Bijvoorbeeld potsregistratienummer</font>"
+        },
+        "DOCUMENTTITEL": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De naam waaronder het document formeel bekend is.</font>"
+        },
+        "VERTROUWELIJKAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is.</font>"
+        }
+      }
+    }
+  }
+}

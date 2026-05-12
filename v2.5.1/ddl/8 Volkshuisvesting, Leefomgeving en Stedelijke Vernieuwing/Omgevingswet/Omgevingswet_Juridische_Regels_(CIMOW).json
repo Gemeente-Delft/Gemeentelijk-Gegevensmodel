@@ -1,0 +1,221 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Omgevingswet Juridische Regels (CIMOW)",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Omgevingswet Juridische Regels (CIMOW)",
+  "$defs": {
+    "REGELTEKST": {
+      "title": "REGELTEKST",
+      "description": "De kleinste zelfstandige eenheid van (een of meer) bij elkaar horende juridische regels: een artikel en lid.",
+      "type": "object",
+      "properties": {
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "TEKST": {
+          "type": "string"
+        }
+      }
+    },
+    "ACTIVITEIT": {
+      "title": "ACTIVITEIT",
+      "description": "Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd.",
+      "type": "object",
+      "properties": {
+        "GROEP": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "NEN3610ID": {
+          "type": "string"
+        }
+      }
+    },
+    "BEPERKINGSGEBIED": {
+      "title": "BEPERKINGSGEBIED",
+      "description": "Een bij of krachtens de wet aangewezen gebied, waar vanwege de aanwezigheid van een werk of object regels gelden, ten aanzien van het beperken van activiteiten die gevolgen hebben of kunnen hebben voor dat werk of object.",
+      "type": "object",
+      "properties": {
+        "GROEP": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "FUNCTIE": {
+      "title": "FUNCTIE",
+      "description": "Een samenhangende verzameling van rollen",
+      "type": "object",
+      "properties": {
+        "GROEP": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "GEBIEDSAANWIJZING": {
+      "title": "GEBIEDSAANWIJZING",
+      "description": "Functie of een Beperkingengebied, met een verwijzing naar locatie, veelal een gebied, waarbij aangegeven wordt hoe het gebied beschouwd wordt vanuit de bijbehorende regels.",
+      "type": "object",
+      "properties": {
+        "GROEP": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "NEN3610ID": {
+          "type": "string"
+        }
+      }
+    },
+    "INSTRUCTIEREGEL": {
+      "title": "INSTRUCTIEREGEL",
+      "description": "Objecttype Instructieregel\nNaam Definitie\nToelichting\nInstructieregel\nDe beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan.\nHet betreft hier juridische regel die instructie geeft aan andere overheden, gericht op externe omgevingsdocumenten, of een taakuitoefening.\nEen ander omgevingsdocument is bijvoorbeeld een Omgevingsplan, Omgevingsverordening en Waterschapsverordening.\nEen taakuitoefening is voor bijvoorbeeld een gemeentebestuur of een wildbeheereenheid.\nEen instructieregel is alleen gericht op een Omgevingsnorm of een Gebiedsaanduiding, zoals een Functie of een Beperkingengebied (en eventueel meerdere).",
+      "type": "object",
+      "properties": {
+        "INSTRUCTIEREGELINSTRUMENT": {
+          "type": "string",
+          "description": "<font color=\"#032547\"><b>Attribuutsoort instructieregel instrument</b></font>\nNaam Definitie Formaat Toelichting\nInstructieregel instrument\nDe naam van het instrument waartoe de instructieregel zich richt.\nInstructieregelInstrument (waardelijst)\nBijvoorbeeld: Omgevingsverordening, projectbesluit.\nDit kenmerk geeft nadere informatie in aanvulling op het type instructieregel, in het geval dat de regel gericht is op een bepaald instrument."
+        },
+        "INSTRUCTIEREGELTAAKUITOEFENING": {
+          "type": "string"
+        }
+      }
+    },
+    "JURIDISCHE_REGEL": {
+      "title": "JURIDISCHE_REGEL",
+      "description": "De beschrijving van een regel met juridische werkingskracht. Een regel betreft binnen de Omgevingswet veelal activiteiten, en/of normen en/of functies en/of beperkingengebieden.",
+      "type": "object",
+      "properties": {
+        "DATUMBEKEND": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMINWERKING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "REGELTEKST": {
+          "type": "string",
+          "description": "Verwijzing naar lid of artikel van regeltekst"
+        },
+        "THEMA": {
+          "type": "string"
+        }
+      }
+    },
+    "NORM": {
+      "title": "NORM",
+      "description": "Omgevingswaarde of een omgevingsnorm, met een normatief karakter, die beschreven worden middels normwaarden. Een normwaarde kan kwalitatief of kwantitatief zijn.",
+      "type": "object",
+      "properties": {
+        "NEN3610ID": {
+          "type": "string"
+        }
+      }
+    },
+    "NORMWAARDE": {
+      "title": "NORMWAARDE",
+      "description": "Een van de kwantitatieve of kwalitatieve waarden van een norm. De normwaarde geeft aan wat de specifieke kwantitatieve of kwalitatieve eisen zijn, inclusief de toewijzing ervan aan de specifieke locatie(s) waar de normwaarde voor geldt.",
+      "type": "object",
+      "properties": {
+        "KWALITATIEVEWAARDE": {
+          "type": "string"
+        },
+        "KWANTITATIEVEWAARDEEENHEID": {
+          "type": "string"
+        },
+        "KWANTITATIEVEWAARDEOMVANG": {
+          "type": "string"
+        }
+      }
+    },
+    "OMGEVINGSNORM": {
+      "title": "OMGEVINGSNORM",
+      "description": "Een norm over de fysieke leefomgeving die in een kwantitatieve of kwalitatieve waarde wordt uitgedrukt en geen omgevingswaarde is.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMGEVINGSNORMGROEP": {
+          "type": "string"
+        }
+      }
+    },
+    "OMGEVINGSWAARDE": {
+      "title": "OMGEVINGSWAARDE",
+      "description": "Een norm die voor (een onderdeel van) de fysieke leefomgeving de gewenste staat of kwaliteit, de toelaatbare belasting door activiteiten en/of de toelaatbare concentratie of depositie van stoffen als beleidsdoel vastlegt.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMGEVINGSWAARDEGROEP": {
+          "type": "string"
+        }
+      }
+    },
+    "OMGEVINGSWAARDEREGEL": {
+      "title": "OMGEVINGSWAARDEREGEL",
+      "description": "De beschrijving van een juridische regel gericht op een gestelde omgevingswaarde. Het betreft hier een juridische regel die verplichtingen oplegt aan het bevoegd gezag dat deze regel opstelt. Een omgevingswaarderegel is alleen gericht op een Omgevingswaarde (eventueel meerdere).",
+      "type": "object",
+      "properties": {
+        "GROEP": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "REGEL_VOOR_IEDEREEN": {
+      "title": "REGEL_VOOR_IEDEREEN",
+      "description": "Een Juridische regel die voor eenieder werking heeft",
+      "type": "object",
+      "properties": {
+        "ACTIVITEITREGELKWALIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#032547\"><b>Attribuutsoort activiteitregelkwalificatie</b></font>\nNaam Definitie Formaat Toelichting\nConstraint(s)\n\nactiviteitregelkwalificatie\nDe naam van de kwalificatie van de Juridische regel over een activiteit.\nActiviteitregelkwalificatie (waardelijst) Bijvoorbeeld: gebod, verbod.\nAlleen te gebruiken wanneer bij Juridische regel is gekozen voor het type 'Regel voor iedereen' en de regel een Activiteit beschrijft.\nAls activiteit, alleen dan activiteitregelkwalificatie.\nDit kenmerk heeft alleen betekenis wanneer de regel een activiteit beschrijft. Anders gezegd, dit kenmerk hoort alleen gevuld te worden wanneer de regel, ten minste, een activiteit beschrijft."
+        }
+      }
+    },
+    "LOCATIE": {
+      "title": "LOCATIE",
+      "description": "De locatie beschrijft middels co√∂rdinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)",
+      "type": "object",
+      "properties": {
+        "HOOGTE": {
+          "type": "integer",
+          "description": "Hoogte in meters. Negatief is onder het maaiveld en positief boven het maaiveld"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "NEN3610ID": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

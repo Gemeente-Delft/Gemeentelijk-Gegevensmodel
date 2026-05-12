@@ -1,0 +1,502 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Domain Objects",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Domain Objects",
+  "$defs": {
+    "BEOORDELING": {
+      "title": "BEOORDELING",
+      "description": "Beoordeling is het oordeel van de professional over het functioneren van een leerling",
+      "type": "object",
+      "properties": {
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "OORDEEL": {
+          "type": "string"
+        }
+      }
+    },
+    "DECLARATIE": {
+      "title": "DECLARATIE",
+      "description": "Een opgave van te vergoeden kosten.",
+      "type": "object",
+      "properties": {
+        "BEDRAG": {
+          "type": "number"
+        },
+        "BETREFT": {
+          "type": "string"
+        },
+        "DATUMDECLARATIE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMINDIENING": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "DECLARATIESOORT": {
+      "title": "DECLARATIESOORT",
+      "description": "Typering van een declaratie",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "DIENSTVERBAND": {
+      "title": "DIENSTVERBAND",
+      "description": "De rechtsbetrekking tussen werkgever en werknemer zoals vastgelegd in een arbeidsovereenkomst.",
+      "type": "object",
+      "properties": {
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "PERIODIEK": {
+          "type": "integer"
+        },
+        "SALARIS": {
+          "type": "string"
+        },
+        "SCHAAL": {
+          "type": "integer"
+        },
+        "URENPERWEEK": {
+          "type": "integer"
+        }
+      }
+    },
+    "DISCIPLINAIRE_MAATREGEL": {
+      "title": "DISCIPLINAIRE_MAATREGEL",
+      "description": "Een besluit dat wordt opgelegd wanneer een persoon zijn verplichtingen niet of niet op de juiste wijze nakomt, of zich op andere wijze misdraagt.",
+      "type": "object",
+      "properties": {
+        "DATUMGECONSTATEERD": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMOPGELEGD": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "REDEN": {
+          "type": "string"
+        }
+      }
+    },
+    "FORMATIEPLAATS": {
+      "title": "FORMATIEPLAATS",
+      "description": "Uitgangspunt is het vastgestelde formatieplan, dus niet de werkelijke bezetting. Het gaat hier om de toegestane formatie in fte van het ambtelijk apparaat van uw organisatie voor het begrotingsjaar",
+      "type": "object",
+      "properties": {
+        "UREN_PER_WEEK": {
+          "type": "string"
+        }
+      }
+    },
+    "FUNCTIE": {
+      "title": "FUNCTIE",
+      "description": "Een samenhangende verzameling van rollen. Een functie kan worden gedefinieerd als het samenstel van feitelijk opgedragen taken en werkzaamheden",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "SCHAAL": {
+          "type": "string"
+        },
+        "TAKEN": {
+          "type": "string"
+        }
+      }
+    },
+    "FUNCTIEHUIS": {
+      "title": "FUNCTIEHUIS",
+      "description": "Model waarin functies van een organisatie worden beschreven.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "GENOTENOPLEIDING": {
+      "title": "GENOTENOPLEIDING",
+      "description": "Afgeronde opleiding, een samenhangend geheel van vakken, gericht op de verwezenlijking van welomschreven doelstellingen op het gebied van kennis, inzicht en vaardigheden",
+      "type": "object",
+      "properties": {
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMTOEWIJZING": {
+          "type": "string",
+          "format": "date"
+        },
+        "PRIJS": {
+          "type": "number"
+        },
+        "VERREKENEN": {
+          "type": "boolean"
+        }
+      }
+    },
+    "GEWELDSINCIDENT": {
+      "title": "GEWELDSINCIDENT",
+      "description": "Een gebeurtenis met betrekking tot agressie en omvat het veroorzaken van verwondingen of schade bij mensen, dieren, of voorwerpen.",
+      "type": "object",
+      "properties": {
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "TYPE": {
+          "type": "string"
+        }
+      }
+    },
+    "INDIVIDUEEL_KEUZEBUDGET": {
+      "title": "INDIVIDUEEL_KEUZEBUDGET",
+      "description": "Bedrag dat feitelijk beschikbaar gesteld wordt voor een individu om een bepaalde keus te kunnen maken",
+      "type": "object",
+      "properties": {
+        "BEDRAG": {
+          "type": "number"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMTOEKENNING": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "INZET": {
+      "title": "INZET",
+      "description": "Uren inzet die gepleegd wordt in een bepaalde periode op een organisatorische eenheid en het percentage dat ook daadwerkelijk wordt uitgevoerd.Dit kan afwijken van de contractuele uren.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGIN": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "PERCENTAGE": {
+          "type": "string"
+        },
+        "UREN": {
+          "type": "string"
+        }
+      }
+    },
+    "KEUZEBUDGETBESTEDING": {
+      "title": "KEUZEBUDGETBESTEDING",
+      "description": "De daadwerkelijk uitgave van een keuzebudget",
+      "type": "object",
+      "properties": {
+        "BEDRAG": {
+          "type": "number"
+        },
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "KEUZEBUDGETBESTEDINGSOORT": {
+      "title": "KEUZEBUDGETBESTEDINGSOORT",
+      "description": "Typering van een keuzebudgetbesteding",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "NORMPROFIEL": {
+      "title": "NORMPROFIEL",
+      "description": "Normprofiel of Normfunctie:nGenerieke functie zoals beschreven in HR21. Een functie kan worden gedefinieerd als het samenstel van feitelijk opgedragen taken en werkzaamheden",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "SCHAAL": {
+          "type": "string"
+        }
+      }
+    },
+    "ONDERWIJSINSTITUUT": {
+      "title": "ONDERWIJSINSTITUUT",
+      "description": "Een instituut waar onderwijs wordt gegeven.",
+      "type": "object",
+      "properties": {}
+    },
+    "OPLEIDING": {
+      "title": "OPLEIDING",
+      "description": "Een samenhangend geheel van vakken, gericht op de verwezenlijking van welomschreven doelstellingen op het gebied van kennis, inzicht en vaardigheden.",
+      "type": "object",
+      "properties": {
+        "INSTITUUT": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "PRIJS": {
+          "type": "number"
+        }
+      }
+    },
+    "ORGANISATORISCHEEENHEIDHR": {
+      "title": "ORGANISATORISCHEEENHEIDHR",
+      "description": "Specialisatie van de Organisatorische eenheid uit het RGBZ voor het HR domein.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "integer"
+        },
+        "TYPE": {
+          "type": "integer"
+        }
+      }
+    },
+    "RELATIE": {
+      "title": "RELATIE",
+      "description": "Betrekking waarin personen, zaken, begrippen of grootheden van nature tot elkaar staan.",
+      "type": "object",
+      "properties": {}
+    },
+    "ROL": {
+      "title": "ROL",
+      "description": "De rol van de medewerker, zoals afdelingshoofd of manager",
+      "type": "object",
+      "properties": {
+        "DATUMBEGIN": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "SOORTDISCIPLINAIREMAATREGEL": {
+      "title": "SOORTDISCIPLINAIREMAATREGEL",
+      "description": "Typering van een disciplinaire maatregel",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "VERLOF": {
+      "title": "VERLOF",
+      "description": "Een periode waarin iemand toestemming heeft om iets te doen, in het bijzonder om afwezig te zijn.",
+      "type": "object",
+      "properties": {
+        "DATUMAANVRAAG": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMTIJDEINDE": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "DATUMTIJDSTART": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "DATUMTOEKENNING": {
+          "type": "string",
+          "format": "date"
+        },
+        "GOEDGEKEURD": {
+          "type": "boolean"
+        }
+      }
+    },
+    "VERLOFSOORT": {
+      "title": "VERLOFSOORT",
+      "description": "Typering van verlof",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "VERZUIM": {
+      "title": "VERZUIM",
+      "description": "Een afwezigheid van een werknemer van werk.",
+      "type": "object",
+      "properties": {
+        "DATUMTIJDEINDE": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "DATUMTIJDSTART": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "VERZUIMSOORT": {
+      "title": "VERZUIMSOORT",
+      "description": "Typologie van verzuim",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "WERKNEMER": {
+      "title": "WERKNEMER",
+      "description": "De contractuele wederpartij van de werkgever bij de arbeidsovereenkomst.",
+      "type": "object",
+      "properties": {
+        "GEBOORTEDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "VOORNAAM": {
+          "type": "string"
+        },
+        "WOONPLAATS": {
+          "type": "string"
+        }
+      }
+    },
+    "ORGANISATORISCHEEENHEID": {
+      "title": "ORGANISATORISCHEEENHEID",
+      "description": "Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken.",
+      "type": "object",
+      "properties": {
+        "DATUMONTSTAAN": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de organisatorische eenheid is ontstaan.</font>"
+        },
+        "DATUMOPHEFFING": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de organisatorische eenheid is opgeheven.</font>"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Elektronisch postadres waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"
+        },
+        "FAXNUMMER": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Faxnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"
+        },
+        "FORMATIE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De feitelijke naam van de organisatorische eenheid.</font>"
+        },
+        "NAAMVERKORT": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een verkorte naam voor de organisatorische eenheid.</font>"
+        },
+        "OMSCHRIJVING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een omschrijving van de organisatorische eenheid.</font>"
+        },
+        "ORGANISATIEIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte identificatie van de organisatorische eenheid.</font>"
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Telefoonnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"
+        },
+        "TOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Toelichting bij de organisatorische eenheid.</font>"
+        }
+      }
+    },
+    "VESTIGINGVANZAAKBEHANDELENDEORGANISATIE": {
+      "title": "VESTIGINGVANZAAKBEHANDELENDEORGANISATIE",
+      "description": "Een VESTIGING van een onderneming of rechtspersoon zijnde de zaakbehandelende organisatie.",
+      "type": "object",
+      "properties": {}
+    }
+  }
+}

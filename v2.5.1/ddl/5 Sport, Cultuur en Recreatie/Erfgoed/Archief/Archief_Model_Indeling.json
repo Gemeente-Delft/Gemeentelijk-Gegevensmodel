@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Archief Model Indeling",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Archief Model Indeling",
+  "$defs": {
+    "ARCHIEF": {
+      "title": "ARCHIEF",
+      "description": "De bewaarplaats van belangrijke gegevens die zijn vastgelegd in documentvorm alsook de verzameling van documenten die voor een bepaald doel vervaardigd zijn.",
+      "type": "object",
+      "properties": {
+        "ARCHIEFNUMMER": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "OPENBAARHEIDSBEPERKING": {
+          "type": "integer"
+        }
+      }
+    },
+    "ARCHIEFCATEGORIE": {
+      "title": "ARCHIEFCATEGORIE",
+      "description": "Typologie van een archief conform landelijke indeling",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "ARCHIEFSTUK": {
+      "title": "ARCHIEFSTUK",
+      "description": "Bijeengebrachte informatie, ongeacht het medium, die wordt gecreëerd, ontvangen en gearchiveerd door een bureau, een instelling, een organisatie of een individu met het oog op het nakomen van wettelijke verplichtingen of het uitvoeren van zakelijke transacties.(AAT)",
+      "type": "object",
+      "properties": {
+        "BESCHRIJVING": {
+          "type": "string"
+        },
+        "INVENTARISNUMMER": {
+          "type": "string"
+        },
+        "OMVANG": {
+          "type": "string"
+        },
+        "OPENBAARHEIDSBEPERKING": {
+          "type": "boolean"
+        },
+        "TREFWOORDEN": {
+          "type": "string"
+        },
+        "UITERLIJKEVORM": {
+          "type": "string"
+        }
+      }
+    },
+    "INDELING": {
+      "title": "INDELING",
+      "description": "Onderwerpen groeperen in samenhangende categorieën.",
+      "type": "object",
+      "properties": {
+        "INDELINGSOORT": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "INDEX": {
+      "title": "INDEX",
+      "description": "Klasse uit het Gemeentelijk Gegevensmodel: INDEX",
+      "type": "object",
+      "properties": {
+        "INDEXNAAM": {
+          "type": "string"
+        },
+        "INDEXWAARDE": {
+          "type": "string"
+        }
+      }
+    },
+    "NADERE_TOEGANG": {
+      "title": "NADERE_TOEGANG",
+      "description": "De bevoegdheid om gegevens te raadplegen, bepaalde plaatsen te betreden of een bepaalde taak uit te oefenen.",
+      "type": "object",
+      "properties": {}
+    },
+    "ORDENINGSSCHEMA": {
+      "title": "ORDENINGSSCHEMA",
+      "description": "Ordening om archief en collecties beter vindbaar en bruikbaar voor betrokkenen.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "TEXT": {
+          "type": "string"
+        }
+      }
+    },
+    "RECHTHEBBENDE": {
+      "title": "RECHTHEBBENDE",
+      "description": "Een rechthebbende is iemand die rechten heeft op een goed.",
+      "type": "object",
+      "properties": {}
+    },
+    "PERIODE": {
+      "title": "PERIODE",
+      "description": "bepaalde tijdsduur.",
+      "type": "object",
+      "properties": {
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

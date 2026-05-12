@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Schouwrondes en Arealen",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Schouwrondes en Arealen",
+  "$defs": {
+    "AREAAL": {
+      "title": "AREAAL",
+      "description": "Het verspreidingsgebied van een een soort, een levensgemeenschap of een biotooptype.",
+      "type": "object",
+      "properties": {
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "Geometry value (WKT or GeoJSON string)"
+        }
+      }
+    },
+    "SCHOUWRONDE": {
+      "title": "SCHOUWRONDE",
+      "description": "Activiteit om te controleren of de opdrachtnemer aan de afspraken voldoet.",
+      "type": "object",
+      "properties": {}
+    },
+    "WIJK": {
+      "title": "WIJK",
+      "description": "Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken.",
+      "type": "object",
+      "properties": {
+        "BEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie\r\nBeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.\r\nBeschrijving\r\nVanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de object in de BAG formeel is ingetrokken."
+        },
+        "DATUMINGANG": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop het object is ontstaan"
+        },
+        "EINDGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie\r\nEindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.\r\nBeschrijving\r\nTot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."
+        },
+        "GECONSTATEERD": {
+          "type": "boolean"
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "De tweedimensionale geometrische representatie van de omtrekken van de wijk."
+        },
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "STATUS": {
+          "type": "string"
+        },
+        "VERSIE": {
+          "type": "integer"
+        },
+        "WIJKCODE": {
+          "type": "string",
+          "description": "De code behorende bij de naam van de wijk."
+        },
+        "WIJKNAAM": {
+          "type": "string",
+          "description": "De naam van de wijk, zoals die door het CBS wordt gebruikt."
+        }
+      }
+    },
+    "BUURT": {
+      "title": "BUURT",
+      "description": "Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen.",
+      "type": "object",
+      "properties": {
+        "BEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie\r\nBeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.\r\nBeschrijving\r\nVanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"
+        },
+        "CODE": {
+          "type": "string",
+          "description": "De code behorende bij de naam van de buurt."
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de object in de BAG formeel is ingetrokken."
+        },
+        "DATUMINGANG": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop het object is ontstaan"
+        },
+        "EINDGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie\r\nEindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.\r\nBeschrijving\r\nTot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."
+        },
+        "GECONSTATEERD": {
+          "type": "boolean"
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "De tweedimensionale geometrische representatie van de omtrekken van de buurt."
+        },
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string",
+          "description": "De naam van de buurt, zoals die door het CBS wordt gebruikt."
+        },
+        "STATUS": {
+          "type": "string"
+        },
+        "VERSIE": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

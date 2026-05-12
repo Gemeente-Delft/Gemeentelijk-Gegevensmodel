@@ -1,0 +1,336 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Prinsenhof Events en Relaties",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Prinsenhof Events en Relaties",
+  "$defs": {
+    "ACTIVITEIT": {
+      "title": "ACTIVITEIT",
+      "description": "Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd.",
+      "type": "object",
+      "properties": {
+        "AANTALPERSONEN": {
+          "type": "integer"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "ACTIVITEITSOORT": {
+      "title": "ACTIVITEITSOORT",
+      "description": "Typering van een activiteit",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "DOELGROEP": {
+      "title": "DOELGROEP",
+      "description": "Een groep mensen of klanten die een bedrijf of organisatie wil benaderen om een product, dienst of informatie onder de aandacht te brengen",
+      "type": "object",
+      "properties": {
+        "BRANCH": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "SEGMENT": {
+          "type": "string"
+        }
+      }
+    },
+    "MAILING": {
+      "title": "MAILING",
+      "description": "Per post verstuurde inhoud",
+      "type": "object",
+      "properties": {
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "MUSEUMRELATIE": {
+      "title": "MUSEUMRELATIE",
+      "description": "Betrekking waarin het museum en personen tot elkaar staan",
+      "type": "object",
+      "properties": {
+        "RELATIESOORT": {
+          "type": "string"
+        }
+      }
+    },
+    "PRODUCTIE_EENHEID": {
+      "title": "PRODUCTIE_EENHEID",
+      "description": "Een (deel van een) productiemiddel, dat zelfstandig (ofwel onafhankelijk van de andere delen van het desbetreffende productiemiddel) kan worden ingezet.",
+      "type": "object",
+      "properties": {}
+    },
+    "PROGRAMMA": {
+      "title": "PROGRAMMA",
+      "description": "Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co&#246;rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie.",
+      "type": "object",
+      "properties": {
+        "BTW": {
+          "type": "string"
+        },
+        "EINDTIJD": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "LOCATIE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "PRIJSEXCLUSIEFBTW": {
+          "type": "number"
+        },
+        "PUBLIEKSTAAK": {
+          "type": "string"
+        },
+        "SCHOOLNIVEAU": {
+          "type": "string"
+        },
+        "STARTTIJD": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "PROGRAMMASOORT": {
+      "title": "PROGRAMMASOORT",
+      "description": "Typering van een programma",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "RESERVERING": {
+      "title": "RESERVERING",
+      "description": "Het vooraf bespreken van een plaats in een openbare gelegenheid, vervoermiddel, restaurant e.d.",
+      "type": "object",
+      "properties": {
+        "AANTAL": {
+          "type": "integer"
+        },
+        "BTW": {
+          "type": "string"
+        },
+        "TIJDTOT": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "TIJDVANAF": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "TOTAALPRIJS": {
+          "type": "number",
+          "description": "Bedrah exclusief BTW"
+        }
+      }
+    },
+    "RONDLEIDING": {
+      "title": "RONDLEIDING",
+      "description": "Bezichtiging met toelichting",
+      "type": "object",
+      "properties": {
+        "EINDTIJD": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "STARTTIJD": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "TENTOONSTELLING": {
+      "title": "TENTOONSTELLING",
+      "description": "Een uitstalling van voorwerpen om door het grote publiek bekeken te worden.",
+      "type": "object",
+      "properties": {
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "SUBTITEL": {
+          "type": "string"
+        },
+        "TITEL": {
+          "type": "string"
+        }
+      }
+    },
+    "VOORZIENING": {
+      "title": "VOORZIENING",
+      "description": "Middel om services/maatregelen in te vullen.",
+      "type": "object",
+      "properties": {
+        "AANTALBESCHIKBAAR": {
+          "type": "integer"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "ZAAL": {
+      "title": "ZAAL",
+      "description": "Grote ruimte in een gebouw",
+      "type": "object",
+      "properties": {
+        "CAPACITEIT": {
+          "type": "integer"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "integer"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "KOSTENPLAATS": {
+      "title": "KOSTENPLAATS",
+      "description": "Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven.",
+      "type": "object",
+      "properties": {
+        "BTWCODE": {
+          "type": "string"
+        },
+        "BTWOMSCHRIJVING": {
+          "type": "string"
+        },
+        "KOSTENPLAATSSOORTCODE": {
+          "type": "number"
+        },
+        "KOSTENPLAATSSOORTOMSCHRIJVING": {
+          "type": "number"
+        },
+        "KOSTENPLAATSTYPECODE": {
+          "type": "number"
+        },
+        "KOSTENPLAATSTYPEOMSCHRIJVING": {
+          "type": "number"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "LEVERANCIER": {
+      "title": "LEVERANCIER",
+      "description": "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        }
+      }
+    },
+    "RECHTSPERSOON": {
+      "title": "RECHTSPERSOON",
+      "description": "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "ADRESBINNENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."
+        },
+        "ADRESBUITENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."
+        },
+        "ADRESCORRESPONDENTIE": {
+          "type": "string",
+          "description": "postbus of antwoordnummer"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "Elektronisch postadres waaronder het subject in de regel bereikbaar is."
+        },
+        "FAXNUMMER": {
+          "type": "string",
+          "description": "Faxnummer waaronder het subject in de regel bereikbaar is."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke identificatie van het SUBJECT"
+        },
+        "KVKNUMMER": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string",
+          "description": "De benaming van het SUBJECT"
+        },
+        "RECHTSVORM": {
+          "type": "string",
+          "description": "Bron: Handelsregister"
+        },
+        "REKENINGNUMMER": {
+          "type": "string",
+          "description": "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "Telefoonnummer waaronder het subject in de regel bereikbaar is."
+        }
+      }
+    }
+  }
+}

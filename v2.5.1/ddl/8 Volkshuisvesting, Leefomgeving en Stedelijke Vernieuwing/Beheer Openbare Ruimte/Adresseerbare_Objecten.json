@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Adresseerbare Objecten",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Adresseerbare Objecten",
+  "$defs": {
+    "NUMMERAANDUIDING": {
+      "title": "NUMMERAANDUIDING",
+      "description": "Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats.",
+      "type": "object",
+      "properties": {
+        "BEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de object in de BAG formeel is ingetrokken."
+        },
+        "DATUMINGANG": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop het object is ontstaan"
+        },
+        "DOCUMENTDATUM": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum op basis waarvan een opname of mutatie van gegevens ten aanzien van een BAG-object heeft plaatsgevonden."
+        },
+        "DOCUMENTNUMMER": {
+          "type": "integer",
+          "description": "Het unieke nummer van het brondocument"
+        },
+        "EINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie\r\nEindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.\r\nBeschrijving\r\nTot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."
+        },
+        "GECONSTATEERD": {
+          "type": "boolean"
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "Geometry value (WKT or GeoJSON string)"
+        },
+        "HUISLETTER": {
+          "type": "string",
+          "description": "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken."
+        },
+        "HUISNUMMER": {
+          "type": "string",
+          "description": "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nummering."
+        },
+        "HUISNUMMERTOEVOEGING": {
+          "type": "string",
+          "description": "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "Unieke identificatiecode van het object"
+        },
+        "POSTCODE": {
+          "type": "string",
+          "description": "De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam van een woonplaats, naam van een openbare ruimte en een huisnummer"
+        },
+        "STATUS": {
+          "type": "string",
+          "description": "De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.\r\n&nbsp;\r\n<ul>\r\n\t<li>Naamgeving uitgegeven</li>\r\n\t<li>Naamgeving ingetrokken</li>\r\n</ul>"
+        },
+        "TYPEADRESSEERBAAROBJECT": {
+          "type": "string",
+          "description": "Het type addresseerbaarobject (landelijke identificatie) wat door de nummeraanduiding wordt aangeduid."
+        },
+        "VERSIE": {
+          "type": "integer"
+        }
+      }
+    },
+    "ADRESSEERBAAROBJECT": {
+      "title": "ADRESSEERBAAROBJECT",
+      "description": "Een adresseerbaar object is een object waaraan formeel adressen kunnen en moeten worden toegekend: een verblijfsobject, standplaats of ligplaats. Toelichting: Een object dat een adres heeft of krijgt. Adresseerbare objecten zijn: een verblijfsobject, een standplaats en een ligplaats.",
+      "type": "object",
+      "properties": {
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke aanduiding van een AdresseerbaarObject."
+        },
+        "TYPEADRESSEERBAAROBJECT": {
+          "type": "string"
+        },
+        "VERSIE": {
+          "type": "integer"
+        }
+      }
+    },
+    "OVERIGEADRESSEERBAAROBJECTAANDUIDING": {
+      "title": "OVERIGEADRESSEERBAAROBJECTAANDUIDING",
+      "description": "Een door de gemeenteraad als zodanig toegekende aanduiding van een overig gebouwd object of een overig benoemd terrein.",
+      "type": "object",
+      "properties": {
+        "IDENTIFICATIECODE": {
+          "type": "string",
+          "description": "De unieke aanduiding van een OVERIG ADRESSEERBAAR OBJECT AANDUIDING"
+        }
+      }
+    }
+  }
+}

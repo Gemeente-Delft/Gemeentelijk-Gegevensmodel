@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diagram Dakloosheid",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Diagram Dakloosheid",
+  "$defs": {
+    "CLIENT": {
+      "title": "CLIENT",
+      "description": "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente.",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "GEZAGSDRAGERGEKEND": {
+          "type": "boolean"
+        },
+        "JURIDISCHESTATUS": {
+          "type": "string"
+        },
+        "WETTELIJKEVERTEGENWOORDIGING": {
+          "type": "string"
+        }
+      }
+    },
+    "DAKLOOSHEID": {
+      "title": "DAKLOOSHEID",
+      "description": "Informatie met betrekking tot dakloosheid",
+      "type": "object",
+      "properties": {
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date",
+          "description": "Startdatum dat een persoon als dakloze is geregistreerd"
+        },
+        "DATUMEIND": {
+          "type": "string",
+          "format": "date",
+          "description": "Einddatum dat een persoon als dakloze is geregistreerd"
+        },
+        "TOESTEMMINGGEMEENTELIJKBRIEFADRES": {
+          "type": "boolean",
+          "description": "Heeft de dakloze toestemming om een gemeentelijk briefadres te gebruiken"
+        },
+        "TOESTEMMINGNACHTOPVANG": {
+          "type": "boolean",
+          "description": "Heeft de dakloze toestemming om gebruik te maken van de gemeentelijke nachtopvang"
+        },
+        "GEMEENTEOORSPRONG": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

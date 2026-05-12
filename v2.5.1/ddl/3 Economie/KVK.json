@@ -1,0 +1,548 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KVK",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: KVK",
+  "$defs": {
+    "NUMMERAANDUIDING": {
+      "title": "NUMMERAANDUIDING",
+      "description": "Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats.",
+      "type": "object",
+      "properties": {
+        "BEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de object in de BAG formeel is ingetrokken."
+        },
+        "DATUMINGANG": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop het object is ontstaan"
+        },
+        "DOCUMENTDATUM": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum op basis waarvan een opname of mutatie van gegevens ten aanzien van een BAG-object heeft plaatsgevonden."
+        },
+        "DOCUMENTNUMMER": {
+          "type": "integer",
+          "description": "Het unieke nummer van het brondocument"
+        },
+        "EINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie\r\nEindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.\r\nBeschrijving\r\nTot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "Geometry value (WKT or GeoJSON string)"
+        },
+        "HUISLETTER": {
+          "type": "string",
+          "description": "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken."
+        },
+        "HUISNUMMER": {
+          "type": "string",
+          "description": "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nummering."
+        },
+        "HUISNUMMERTOEVOEGING": {
+          "type": "string",
+          "description": "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "Unieke identificatiecode van het object"
+        },
+        "POSTCODE": {
+          "type": "string",
+          "description": "De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam van een woonplaats, naam van een openbare ruimte en een huisnummer"
+        },
+        "STATUS": {
+          "type": "string",
+          "description": "De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.\r\n&nbsp;\r\n<ul>\r\n\t<li>Naamgeving uitgegeven</li>\r\n\t<li>Naamgeving ingetrokken</li>\r\n</ul>"
+        },
+        "TYPEADRESSEERBAAROBJECT": {
+          "type": "string",
+          "description": "Het type addresseerbaarobject (landelijke identificatie) wat door de nummeraanduiding wordt aangeduid."
+        },
+        "VERSIE": {
+          "type": "integer"
+        },
+        "GECONSTATEERD": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        }
+      }
+    },
+    "ADRESSEERBAAROBJECT": {
+      "title": "ADRESSEERBAAROBJECT",
+      "description": "Een adresseerbaar object is een object waaraan formeel adressen kunnen en moeten worden toegekend: een verblijfsobject, standplaats of ligplaats. Toelichting: Een object dat een adres heeft of krijgt. Adresseerbare objecten zijn: een verblijfsobject, een standplaats en een ligplaats.",
+      "type": "object",
+      "properties": {
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke aanduiding van een AdresseerbaarObject."
+        },
+        "TYPEADRESSEERBAAROBJECT": {
+          "type": "string"
+        },
+        "VERSIE": {
+          "type": "integer"
+        }
+      }
+    },
+    "NIETNATUURLIJKPERSOON": {
+      "title": "NIETNATUURLIJKPERSOON",
+      "description": "Een INGESCHREVEN NIET-NATUURLIJK PERSOON of een ANDER BUITENLANDS NIET-NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "DATUMAANVANG": {
+          "type": "string",
+          "format": "date",
+          "description": "{nog niet in NHR uitgewerkt"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "{nog niet in NHR uitgewerkt"
+        },
+        "DATUMUITSCHRIJVING": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum dat de de Niet-Natuurlijk persoon is uitgeschreven."
+        },
+        "DATUMVOORTZETTING": {
+          "type": "string",
+          "format": "date",
+          "description": "{nog niet in NHR uitgewerkt"
+        },
+        "FAXNUMMER": {
+          "type": "string",
+          "description": "Faxnummer waaronder het subject in de regel bereikbaar is."
+        },
+        "KVKNUMMER": {
+          "type": "string",
+          "description": "Landelijk uniek identificerend administratienummer van een MAATSCHAPPELIJKE ACTIVITEIT behorend bij een SUBJECT zoals toegewezen door de Kamer van Koophandel (KvK)."
+        },
+        "NNPID": {
+          "type": "string",
+          "description": "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties."
+        },
+        "RSINNUMMER": {
+          "type": "string"
+        },
+        "STATUTAIRENAAM": {
+          "type": "string",
+          "description": "Naam van de niet-natuurlijke persoon zoals deze is vastgelegd in de statuten (rechtspersoon) of in de vennootschapsovereenkomst is overeengekomen (Vennootschap onder firma of Commanditaire vennootschap)."
+        },
+        "STATUTAIREZETEL": {
+          "type": "string",
+          "description": "De plaats waar de INGESCHREVEN NIET-NATUURLIJKE PERSOON volgens haar statuten gevestigd is."
+        },
+        "WEBSITEURL": {
+          "type": "string",
+          "description": "Het label of etiket dat aan de specifieke informatiebron, zoals een webpagina, een bestand of een plaatje op internet is toegewezen waar het SUBJECT in de regel op het internet vindbaar is."
+        },
+        "INOPRICHTING": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        },
+        "RECHTSVORM": {
+          "type": "string",
+          "enum": [
+            "BESLOTEN_VENNOOTSCHAP",
+            "COMMANDITAIRE_VENNOOTSCHAP",
+            "COOPERATIE_EUROPEES_ECONOMISCHE_SAMENWERKING",
+            "EUROPESE_COOPERATIEVE_VENNOOTSCHAP",
+            "EUROPESE_NAAMLOZE_VENNOOTSCHAP",
+            "KAPITAALVENNOOTSCHAP_BINNEN_EER",
+            "KAPITAALVENNOOTSCHAP_BUITEN_EER",
+            "KERKELIJKE_ORGANISATIE",
+            "LEEG",
+            "MAATSCHAP",
+            "NAAMLOZE_VENNOOTSCHAP",
+            "ONBEKEND",
+            "ONDERLINGE_WAARBORG_MAATSCHAPPIJ",
+            "OVERIGE_BUITENLANDSE_RECHTSPERSOON_VENNOOTSCHAP",
+            "OVERIG_PRIVAATRECHTELIJKE_RECHTSPERSOON",
+            "PUBLIEKRECHTELIJKE_RECHTSPERSOON",
+            "REDERIJ",
+            "STICHTING",
+            "VENNOOTSCHAP_ONDER_FIRMA",
+            "VERENIGING",
+            "VERENIGING_VAN_EIGENAARS"
+          ],
+          "description": "Enumeratie: SOORTRECHTSVORM"
+        },
+        "INGESCHREVEN": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        }
+      }
+    },
+    "MAATSCHAPPELIJKEACTIVITEIT": {
+      "title": "MAATSCHAPPELIJKEACTIVITEIT",
+      "description": "Een verband tussen één of meer personen met voldoende mate van zelfstandigheid, inbreng van arbeid of middelen, winstoogmerk en extern optreden (i.g.v. een onderneming) dan wel een in een organisatorisch verband, dat toebehoort aan een niet-natuurlijk persoon welke registratieplichtig is, uitgeoefende activiteit die niet valt onder de criteria voor onderneming of bedrijfsmatigheid welke adresseerbaar is middels ofwel een vestiging ofwel het adres van een bepaalde vertegenwoordiger (i.g.v. een niet-ondernemings-activiteit).",
+      "type": "object",
+      "properties": {
+        "ADRESBINNENLAND": {
+          "type": "string"
+        },
+        "ADRESCORRESPONDENTIE": {
+          "type": "string"
+        },
+        "DATUMAANVANG": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum van aanvang van de MAATSCHAPPELIJKE ACTIVITEIT"
+        },
+        "DATUMEINDEGELDIG": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum van beëindiging van de MAATSCHAPPELIJKE ACTIVITEIT"
+        },
+        "DATUMFAILLISEMENT": {
+          "type": "string",
+          "format": "date"
+        },
+        "KVKNUMMER": {
+          "type": "string",
+          "description": "Landelijk uniek identificerend administratienummer van een MAATSCHAPPELIJKE ACTIVITEIT zoals toegewezen door de Kamer van Koophandel (KvK)."
+        },
+        "RECHTSVORM": {
+          "type": "string"
+        },
+        "RSIN": {
+          "type": "string"
+        },
+        "STATUTAIRENAAM": {
+          "type": "string"
+        },
+        "TELEFOONNUMMER": {
+          "type": "string"
+        },
+        "URL": {
+          "type": "string"
+        },
+        "INDICATIEECONOMISCHACTIEF": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        }
+      }
+    },
+    "RECHTSPERSOON": {
+      "title": "RECHTSPERSOON",
+      "description": "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "ADRESBINNENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."
+        },
+        "ADRESBUITENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."
+        },
+        "ADRESCORRESPONDENTIE": {
+          "type": "string",
+          "description": "postbus of antwoordnummer"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "Elektronisch postadres waaronder het subject in de regel bereikbaar is."
+        },
+        "FAXNUMMER": {
+          "type": "string",
+          "description": "Faxnummer waaronder het subject in de regel bereikbaar is."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke identificatie van het SUBJECT"
+        },
+        "KVKNUMMER": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string",
+          "description": "De benaming van het SUBJECT"
+        },
+        "RECHTSVORM": {
+          "type": "string",
+          "description": "Bron: Handelsregister"
+        },
+        "REKENINGNUMMER": {
+          "type": "string",
+          "description": "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "Telefoonnummer waaronder het subject in de regel bereikbaar is."
+        }
+      }
+    },
+    "NATUURLIJKPERSOON": {
+      "title": "NATUURLIJKPERSOON",
+      "description": "Een INGESCHREVEN PERSOON of ANDER NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "BIJZONDERNEDERLANDERSCHAP": {
+          "type": "string"
+        },
+        "AANDUIDINGNAAMGEBRUIK": {
+          "type": "string",
+          "description": "Een aanduiding voor de wijze van aanschrijving van de ingeschrevene."
+        },
+        "AANHEFAANSCHRIJVING": {
+          "type": "string",
+          "description": "De aanhef waarmee de persoon aangeschreven wil worden."
+        },
+        "ACADEMISCHETITEL": {
+          "type": "string",
+          "description": "De ACADEMISCHE TITELs van een NATUURLIJK PERSOON."
+        },
+        "ACHTERNAAM": {
+          "type": "string"
+        },
+        "ADELLIJKETITELOFPREDIKAAT": {
+          "type": "string",
+          "description": "Een omschrijving die aangeeft welke titel of welk predikaat behoort tot de naam (bij adellijke titel geslachtsnaam, bij predikaat voornaam)."
+        },
+        "ANUMMER": {
+          "type": "string",
+          "description": "Het administratienummer van het kind, bedoeld in de Wet BRP."
+        },
+        "BURGERSERVICENUMMER": {
+          "type": "string"
+        },
+        "DATUMGEBOORTE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de ander natuurljjk persoon is geboren."
+        },
+        "DATUMOVERLIJDEN": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum van overlijden van een ANDER NATUURLIJK PERSOON"
+        },
+        "GEBOORTELAND": {
+          "type": "string",
+          "description": "Het LAND waar de INGESCHREVEN PERSOON is geboren."
+        },
+        "GEBOORTEPLAATS": {
+          "type": "string",
+          "description": "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de ingeschreven persoon is geboren."
+        },
+        "GESLACHTSAANDUIDING": {
+          "type": "string",
+          "description": "Een aanduiding die aangeeft dat de ingeschrevene een man of een vrouw is, of dat het geslacht (nog) onbekend is."
+        },
+        "GESLACHTSNAAM": {
+          "type": "string",
+          "description": "De (geslachts)naam waarvan de eventueel aanwezige voorvoegsels en adellijke titel/predikaat zijn afgesplitst."
+        },
+        "GESLACHTSNAAMAANSCHRIJVING": {
+          "type": "string",
+          "description": "De geslachtsnaam waarmee de persoon aangeschreven wil worden."
+        },
+        "HANDLICHTING": {
+          "type": "string",
+          "description": "Geeft aan of de rechter handlichting heeft verleend aan: - De Natuurlijk Persoon als eigenaar van een MaatschappelijkeActiviteit - De Natuurlijk Persoon als aansprakelijke"
+        },
+        "LANDOVERLIJDEN": {
+          "type": "string",
+          "description": "Het LAND waar de INGESCHREVEN PERSOON is overleden."
+        },
+        "NATIONALITEIT": {
+          "type": "string"
+        },
+        "OVERLIJDENSPLAATS": {
+          "type": "string",
+          "description": "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de persoon is overleden"
+        },
+        "VOORLETTERSAANSCHRIJVING": {
+          "type": "string",
+          "description": "De voorletters waarmee een persoon aangeschreven wil worden."
+        },
+        "VOORNAMEN": {
+          "type": "string",
+          "description": "De verzameling namen die, gescheiden door spaties, aan de\r\ngeslachtsnaam voorafgaat.."
+        },
+        "VOORNAMENAANSCHRIJVING": {
+          "type": "string",
+          "description": "De voornamen waarmee een persoon aangeschreven wil worden."
+        },
+        "VOORVOEGSELGESLACHTSNAAM": {
+          "type": "string",
+          "description": "Dat deel van de geslachtsnaam dat voorkomt in GBA Tabel 36, Voorvoegseltabel en, gescheiden door een spatie, vooraf gaat aan de rest van de geslachtsnaam."
+        },
+        "INDICATIEOVERLEDEN": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        },
+        "INDICATIEAFSCHERMINGPERSOONSGEGEVENS": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        }
+      }
+    },
+    "VESTIGING": {
+      "title": "VESTIGING",
+      "description": "Een gebouw of complex van gebouwen waar duurzame uitoefening van de activiteiten van een onderneming of rechtspersoon plaatsvindt.",
+      "type": "object",
+      "properties": {
+        "DATUMAANVANG": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum van aanvang van de vestiging."
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum  van<b> </b>beëindiging van de vestiging"
+        },
+        "DATUMVOORTZETTING": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum van voortzetting van de vestiging."
+        },
+        "FULLTIMEWERKZAMEMANNEN": {
+          "type": "string",
+          "description": "Het aantal mannen dat minimaal 12 uur per week werkzaam is in of vanuit de vestiging."
+        },
+        "FULLTIMEWERKZAMEVROUWEN": {
+          "type": "string",
+          "description": "Het aantal vrouwen dat minimaal 12 uur per week werkzaam is in of vanuit de vestiging"
+        },
+        "HANDELSNAAM": {
+          "type": "string",
+          "description": "De naam van de vestiging waaronder gehandeld wordt."
+        },
+        "PARTTIMEWERKZAMEMANNEN": {
+          "type": "string",
+          "description": "Het aantal mannen dat minder dan 12 uur per week werkzaam is in of vanuit de vestiging"
+        },
+        "PARTTIMEWERKZAMEVROUWEN": {
+          "type": "string",
+          "description": "Het aantal vrouwen dat minder dan 12 uur per week werkzaam is in of vanuit de vestiging."
+        },
+        "TOEVOEGINGADRES": {
+          "type": "string",
+          "description": "Nadere aanduiding van het adres van een vestiging"
+        },
+        "TOTAALWERKZAMEPERSONEN": {
+          "type": "string"
+        },
+        "VERKORTENAAM": {
+          "type": "string",
+          "description": "De administratieve naam in het handelsregister indien de naam langer is dan 45 karakters"
+        },
+        "VESTIGINGSNUMMER": {
+          "type": "string",
+          "description": "Landelijk uniek identificerend administratienummer van een VESTIGING zoals toegewezen door de Kamer van Koophandel (KvK)."
+        },
+        "COMMERCIELEVESTIGING": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        }
+      }
+    },
+    "SBIACTIVITEITVESTIGING": {
+      "title": "SBIACTIVITEITVESTIGING",
+      "description": "Aanduiding van de activiteit (en) van een vestiging  conform de Standaard BedrijfsIndeling",
+      "type": "object",
+      "properties": {
+        "INDICATIEHOOFDACTIVITEIT": {
+          "type": "string",
+          "description": "Indicatie die aangeeft welke van de activiteiten de hoofdactiviteit is van de VESTIGING."
+        },
+        "SBICODE": {
+          "type": "string",
+          "description": "De codering van de activiteit conform de Standaard Bedrijfs Indeling."
+        }
+      }
+    },
+    "SBIACTIVITEIT": {
+      "title": "SBIACTIVITEIT",
+      "description": "De hiërarchische indeling van economische activiteiten conform SBI (Standaard Bedrijfsindeling).",
+      "type": "object",
+      "properties": {
+        "DATUMEINDESBIACTIVITEIT": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de SBI code is ingetrokken."
+        },
+        "DATUMINGANGSBIACTIVITEIT": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de SBI activiteit is ontstaan."
+        },
+        "HOOFDNIVEAU": {
+          "type": "string"
+        },
+        "HOOFDNIVEAUOMSCHRIJVING": {
+          "type": "string"
+        },
+        "NAAMACTIVITEIT": {
+          "type": "string",
+          "description": "De naam van de SBI activiteit volgens de SBI 2008."
+        },
+        "SBICODE": {
+          "type": "string",
+          "description": "De code van de activiteit zoals opgenomen in de SBI 2008."
+        },
+        "SBIGROEP": {
+          "type": "string"
+        },
+        "SBIGROEPOMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
