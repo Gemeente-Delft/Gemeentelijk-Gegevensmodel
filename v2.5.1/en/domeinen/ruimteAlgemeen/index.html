@@ -1,0 +1,4322 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="The Delft Municipal Data Model (Gemeentelijk Gegevensmodel, GGM): an integral information model covering all municipal policy domains.">
+      
+      
+        <meta name="author" content="Arjen Brienen">
+      
+      
+        <link rel="canonical" href="https://www.gemeentelijkgegevensmodel.nl/latest/en/domeinen/ruimteAlgemeen/">
+      
+      
+        <link rel="prev" href="../afval/">
+      
+      
+        <link rel="next" href="../bouwenenwonen/">
+      
+      
+      <link rel="icon" href="../../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.26">
+    
+    
+      
+        <title>Public Space - Delft Municipal Data Model (GGM)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6543a935.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#gemeente-delft", "@type": "Organization", "logo": "https://www.gemeentelijkgegevensmodel.nl/img/logo.png", "name": "Gemeente Delft", "url": "https://www.delft.nl/"}, {"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#website", "@type": "WebSite", "description": "The Delft Municipal Data Model (Gemeentelijk Gegevensmodel, GGM): an integral information model covering all municipal policy domains.", "inLanguage": "nl", "name": "Delft Municipal Data Model (GGM)", "potentialAction": {"@type": "SearchAction", "query-input": "required name=search_term_string", "target": {"@type": "EntryPoint", "urlTemplate": "https://www.gemeentelijkgegevensmodel.nl/latest?q={search_term_string}"}}, "publisher": {"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#gemeente-delft"}, "url": "https://www.gemeentelijkgegevensmodel.nl/latest"}, {"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#arjen-brienen", "@type": "Person", "affiliation": {"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#gemeente-delft"}, "email": "abrienen@delft.nl", "jobTitle": "Senior Informatie-architect", "name": "Arjen Brienen", "sameAs": ["https://www.linkedin.com/in/arjenbrienen/", "https://github.com/brienen", "https://orcid.org/0009-0004-1676-2605"]}, {"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#ashkan-ashkpour", "@type": "Person", "affiliation": {"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#gemeente-delft"}, "email": "aashkpour@delft.nl", "jobTitle": "Senior Informatie-architect", "name": "Ashkan Ashkpour", "sameAs": ["https://www.linkedin.com/in/ashkanashkpour/", "https://github.com/AshkanA", "https://orcid.org/0000-0001-6606-6633"]}, {"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#ggm", "@type": "Dataset", "creator": [{"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#arjen-brienen"}, {"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#ashkan-ashkpour"}], "description": "The Delft Municipal Data Model (Gemeentelijk Gegevensmodel, GGM): an integral information model covering all municipal policy domains.", "inLanguage": "nl", "isAccessibleForFree": true, "keywords": ["Gemeentelijk Gegevensmodel", "GGM", "informatiemodel", "gemeente", "Gemeente Delft", "Common Ground", "IV3", "semantische interoperabiliteit"], "license": "https://creativecommons.org/licenses/by/4.0/", "name": "Delft Municipal Data Model (GGM)", "publisher": {"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#gemeente-delft"}, "url": "https://www.gemeentelijkgegevensmodel.nl/latest"}]}</script>
+
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#public-space" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../" title="Delft Municipal Data Model (GGM)" class="md-header__button md-logo" aria-label="Delft Municipal Data Model (GGM)" data-md-component="logo">
+      
+  <img src="../../../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Delft Municipal Data Model (GGM)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Public Space
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../../domeinen/ruimteAlgemeen/" hreflang="nl" class="md-select__link">
+              Nederlands
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../" title="Delft Municipal Data Model (GGM)" class="md-nav__button md-logo" aria-label="Delft Municipal Data Model (GGM)" data-md-component="logo">
+      
+  <img src="../../../img/logo.png" alt="logo">
+
+    </a>
+    Delft Municipal Data Model (GGM)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../installatie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Starter's Guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Starter's Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../startersgids/Startdocument/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Before You Start
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Before You Start
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../startersgids/Waarom-het-GGM/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Why the GGM?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../startersgids/vooraf/IV3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IV3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../startersgids/vooraf_portaal/IV3-op-portaal-DGW/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IV3 on the DGW portal
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../startersgids/start/Mapping-zelf-maken-of-niet/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Start
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../startersgids/GGM-Stap-voor-stap-bron-naar-dashboard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    First Use
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../startersgids/Wat-als-het-niet-past/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Next Steps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../startersgids/GGM-Startersgids-Totale-Presentatie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Starter's Guide Mini-conference
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Domain Descriptions
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Domain Descriptions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../inleiding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Governance, Politics and Support
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Governance, Politics and Support
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../burgerzaken/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Civil Affairs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../griffie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Council Office
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vth/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Safety and Permits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Traffic, Transport and Water
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            Traffic, Transport and Water
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../parkeren/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Parking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mobiliteit/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mobility
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../economie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Economy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Education
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            Education
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../leerplicht/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compulsory Education and Pupil Transport
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../onderwijs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Education
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sport, Culture and Recreation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_7">
+            <span class="md-nav__icon md-icon"></span>
+            Sport, Culture and Recreation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_7_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_7_1" id="__nav_4_7_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Heritage
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_7_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            Heritage
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../archeologie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Archaeology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../monumenten/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Monuments
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../archief/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Archives
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../erfgoedgeneriek/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generic Heritage Object Types
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../musea/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Museums
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sport/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sport
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_8" id="__nav_4_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Social Domain
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_8">
+            <span class="md-nav__icon md-icon"></span>
+            Social Domain
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../werk/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Employment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../inkomen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Income
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wmojeugd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Social Support (Wmo) and Youth
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../inburgering/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Civic Integration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_8_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_8_5" id="__nav_4_8_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Debt
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_8_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_8_5">
+            <span class="md-nav__icon md-icon"></span>
+            Debt
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../schuldhulp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Debt Counselling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vroegsignalering/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Early Warning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../socteam/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Social Teams
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gemeentebegraven/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Municipal Burials
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dakloos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Homelessness
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../socdomeingeneriek/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generic Social Domain Definitions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_9" id="__nav_4_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Public Health and Environment
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_9">
+            <span class="md-nav__icon md-icon"></span>
+            Public Health and Environment
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../afval/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Waste
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_10" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_10" id="__nav_4_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Housing, Living Environment and Urban Renewal
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_10_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_10">
+            <span class="md-nav__icon md-icon"></span>
+            Housing, Living Environment and Urban Renewal
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Public Space
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Public Space
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#base-object-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Base object types
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Base object types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Standards
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geo-objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Geo-objects
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#management-objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Management objects
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#management-objects-vs-geo-objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Management objects vs geo-objects
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#object-types-and-municipal-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Object types and Municipal Information
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Object types and Municipal Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inspections-and-reports" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inspections and reports
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#road-excavations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Road excavations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#housing-construction-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Housing-construction projects
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#base-registrations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Base registrations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Base registrations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bag-base-registration-of-addresses-and-buildings" class="md-nav__link">
+    <span class="md-ellipsis">
+      BAG (Base Registration of Addresses and Buildings)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cadastral-objects-and-restrictions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cadastral objects and restrictions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bouwenenwonen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Building and Housing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../omgevingswet/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Environment Act
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_11" id="__nav_4_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Internal Organisation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_11">
+            <span class="md-nav__icon md-icon"></span>
+            Internal Organisation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ict/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ICT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../subsidies/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Subsidies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vastgoed/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Municipal Real Estate
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../financien/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Finance
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../inkoop/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Procurement
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dienstverlening/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Service Delivery
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_13" id="__nav_4_13_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Core
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_13">
+            <span class="md-nav__icon md-icon"></span>
+            Core
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bag/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    BAG
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rsgb/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RSGB
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rgbz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RGBZ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Domain Definitions
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Domain Definitions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Governance, Politics and Support
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            Governance, Politics and Support
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Griffie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Council Office
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20VTH/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Safety and Permits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Traffic, Transport and Water
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Traffic, Transport and Water
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Parkeren/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Parking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Mobiliteit/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mobility
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Economie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Economy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Education
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            Education
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Leerplicht%20en%20Leerlingenvervoer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compulsory Education and Pupil Transport
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Onderwijs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Education
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_6" id="__nav_5_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sport, Culture and Recreation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_6">
+            <span class="md-nav__icon md-icon"></span>
+            Sport, Culture and Recreation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_6_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_6_1" id="__nav_5_6_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Heritage
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            Heritage
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Erfgoed%20Generiek/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generic Heritage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Archeologie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Archaeology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Archief/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Archives
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Monumenten/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Monuments
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Musea/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Museums
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Sport/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sport
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_7" id="__nav_5_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Social Domain
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_7">
+            <span class="md-nav__icon md-icon"></span>
+            Social Domain
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Werk/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Employment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_7_2" id="__nav_5_7_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Income
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            Income
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Inkomen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Basic Income
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Reden%20aanvraag/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Income: Reason for Application (GBI)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Terug-%20en%20invordering/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Income: Recovery and Collection (GBI)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Normafwijking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Income: Norm Deviation (GBI)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Diensten/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Income: Service Model (GBI)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Jeugd%20en%20Wmo%20Generiek/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Social Support (Wmo) and Youth
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Inburgering/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Civic Integration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_7_5" id="__nav_5_7_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Debt
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            Debt
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Schuldhulpverlening/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Debt Counselling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Vroegsignalering/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Early Warning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Sociale%20Teams/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Social Teams
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Jeugdbescherming/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Youth Protection
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Gemeentebegrafenissen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Municipal Funerals
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Dak-%20en%20thuislozen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Homelessness
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_7_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_7_10" id="__nav_5_7_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Generic Social Domain
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_7_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_7_10">
+            <span class="md-nav__icon md-icon"></span>
+            Generic Social Domain
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Sociaal%20Domein%20Generiek/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generic Social Domain Definitions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Inkomsten/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generic: Income Profile
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Vermogen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generic: Assets Profile
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_8" id="__nav_5_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Public Health and Environment
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_8">
+            <span class="md-nav__icon md-icon"></span>
+            Public Health and Environment
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Afval/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Waste
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_9" id="__nav_5_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Housing, Living Environment and Urban Renewal
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_9">
+            <span class="md-nav__icon md-icon"></span>
+            Housing, Living Environment and Urban Renewal
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Beheer%20Openbare%20Ruimte/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Public Space
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Wonen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Building and Housing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Omgevingswet/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Environment Act
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_10" id="__nav_5_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Internal Organisation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_10">
+            <span class="md-nav__icon md-icon"></span>
+            Internal Organisation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Organisatie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Organisation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20ICT/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ICT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Subsidies/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Subsidies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Vastgoed/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Municipal Real Estate
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20HR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Inkoop/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Procurement
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Financien/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Finance
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Dienstverlening/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Service Delivery
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_12" id="__nav_5_12_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Core
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_12">
+            <span class="md-nav__icon md-icon"></span>
+            Core
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Kern%20RSGB/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RSGB
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Kern%20RGBZ/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RGBZ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20BAG/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    BAG
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../definities/definitie_Model%20Generiek/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generic Core Definitions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../generatie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Database Schemas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    GGM Cookbook
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            GGM Cookbook
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cookbook/inleiding_en_uitgangspunten/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction and Principles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cookbook/patronen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Applied Patterns
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cookbook/modelelementen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Supported Model Elements
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cookbook/uitbreiden/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Get Started: Creating an Extension
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Information Analysis Approach
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            Information Analysis Approach
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cookbook/totstandkoming/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Methodology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monumenten/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Example: Municipal Monuments
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Other
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Other
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About the GGM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentatie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Editing the Documentation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../backup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Making a Backup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tooling for Repository Manipulation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#base-object-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Base object types
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Base object types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Standards
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geo-objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Geo-objects
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#management-objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Management objects
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#management-objects-vs-geo-objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Management objects vs geo-objects
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#object-types-and-municipal-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Object types and Municipal Information
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Object types and Municipal Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inspections-and-reports" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inspections and reports
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#road-excavations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Road excavations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#housing-construction-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Housing-construction projects
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#base-registrations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Base registrations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Base registrations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bag-base-registration-of-addresses-and-buildings" class="md-nav__link">
+    <span class="md-ellipsis">
+      BAG (Base Registration of Addresses and Buildings)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cadastral-objects-and-restrictions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cadastral objects and restrictions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="public-space">Public Space</h1>
+<h2 id="base-object-types">Base object types</h2>
+<h3 id="standards">Standards</h3>
+<p>A number of national and international data standards come together in the elaboration of public space; they do not line up seamlessly:</p>
+<ol>
+<li><a href="https://www.geonovum.nl/geo-standaarden/geography-markup-language-gml/gml-encoding-standard-321">GML 3.2.1 (Geography Markup Language)</a> — describes how geographic locations, lines, areas and combinations must be recorded and exchanged. Standardised by OGC and as ISO 19136:2007. The ISO variant is on the Dutch <em>comply-or-explain</em> list of the Standardisation Forum.</li>
+<li><a href="https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen">NEN 3610: 2011 (Base model for geo-information)</a> — terms, definitions, relationships and general rules for exchanging information about spatial objects. Also on the <em>comply-or-explain</em> list.</li>
+<li><a href="https://www.geonovum.nl/geo-standaarden/bgt-imgeo/gegevenscatalogus-imgeo-versie-211">IMBGT/IMGeo version 2.1.1</a> — the BGT defines information available via the BGT base registration, serving as a base layer for the other models.</li>
+<li><a href="https://www.geonovum.nl/geo-standaarden/informatiemodellen-nen3610-familie/gegevenscatalogus-basisregistratie-adressen-en">IMBAG version 0.99</a> — addresses and buildings in the Netherlands. Based on NEN 3610 principles.</li>
+<li><a href="https://www.gemmaonline.nl/index.php/RSGB_3.0_in_ontwikkeling">RSGB 3.0</a> — the semantic standard for municipal basic data.</li>
+<li><a href="https://www.crow.nl/thema-s/management-openbare-ruimte/imbor/project-imbor">IMBOR version 2018-1</a> — national agreements on object data for managing public space.</li>
+</ol>
+<p>Where applicable to Delft, these standards are used as much as possible. Some object types are not (yet) in these models, such as <a href="https://www.geonovum.nl/geo-standaarden/informatiemodellen-nen3610-familie/informatiemodel-kabels-en-leidingen-imkl">IMKL</a> (cables and pipelines), <a href="https://www.crow.nl/thema-s/wegontwerp/imwv-informatiemodel-wegen-en-verkeer">IMWV</a> (roads and traffic) and <a href="http://www.aquo.nl/over-aquo/aquo-onderdelen/aquo-modellen/imwa/">IMWA</a> (water). The next figure shows how the coherence of these standards is elaborated in the GGM.</p>
+<p><a class="glightbox" href="../../../domeinen/image/SamenhangRuimtelijkeStandaarden.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Coherence of Spatial Standards" src="../../../domeinen/image/SamenhangRuimtelijkeStandaarden.png" title="Coherence of Spatial Standards" /></a></p>
+<p><em>Diagram (in Dutch): coherence between GML, NEN 3610, IMBGT/IMGeo, IMBAG, RSGB and IMBOR in the GGM.</em></p>
+<h3 id="geo-objects">Geo-objects</h3>
+<p>Geo-objects are object types containing information about objects in space and how they can be rendered. IMGeo and the RSGB include geo-object types. RSGB 3.0 contains little to no information about managing public-space objects — that is in IMBOR.
+The GGM builds on the RSGB and supplements it with other standards when not covered by the RSGB. Where no standard is available, the GGM is extended with new object types. To stay aligned with the other spatial standards, GML and NEN 3610 are applied.</p>
+<p>RSGB version 3.0 (still in concept) was chosen because it incorporates IMGeo and IMBAG. A generic new object type, <em>Geo-Object</em>, has been added that is not in RSGB 3.0. The required RSGB 3.0 parts were added to the <em>Core</em> model.</p>
+<p><a class="glightbox" href="../../../domeinen/image/EAID_4896574A_C4DD_4b27_A3B9_4481F4B29CCB.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Geo-objects from RSGB" src="../../../domeinen/image/EAID_4896574A_C4DD_4b27_A3B9_4481F4B29CCB.jpg" title="Geo-objects from RSGB" /></a></p>
+<p><em>Diagram (in Dutch): how geo-objects from RSGB derive from Geo-Object, and link to Management Object from IMBOR.</em></p>
+<p>The figure shows how all geo-objects from the RSGB derive from the object type <em>Geo-Object</em>, and how it links to the object type <em>Management Object</em> from IMBOR. The shown object types are all adopted from IMGeo, establishing the connection with the BGT.</p>
+<p>In RSGB 3.0, the following object types are not adopted from IMGeo: Bak, Bord, Bouwwerk, Installatie, Kast, Mast, OverigeConstructie, Paal, Put, RegistratiefGebied, Sensor, Straatmeubilair, Waterinrichtingselement, Weginrichtingselement. The designers and reviewers of RSGB 3.0 chose this because these did not merit a full representation. Instead, the generic object type <em>Inrichtingselement</em> (furnishing element) was added to the RSGB. All of the above object types are to be seen as <em>Inrichtingselement</em>.</p>
+<h3 id="management-objects">Management objects</h3>
+<p>Management objects are object types from public space with their management aspects — in contrast to geo-objects, which describe how objects are rendered on a map. Management objects derive from IMBOR, and the object types that Delft manages or that otherwise play a role are adopted.</p>
+<p><a class="glightbox" href="../../../domeinen/image/EAID_E3EBD7A0_35C4_4bf4_BD01_6D97AD0B8BF3.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Management Objects" src="../../../domeinen/image/EAID_E3EBD7A0_35C4_4bf4_BD01_6D97AD0B8BF3.jpg" title="Management objects" /></a></p>
+<p><em>Diagram (in Dutch): management objects from IMBOR adopted into the GGM, and their relation to geo-objects.</em></p>
+<p>The figure above shows which management objects from IMBOR are adopted in the GGM and how they relate to the geo-objects. Only the main objects are adopted, all derived from <em>Management Object</em>. There is also a set of management objects derived from these main objects:</p>
+<div class="highlight"><pre><span></span><code>Aansluitput, Abri, AED, Afvalbak, Afwateringsgebied, Bank, Bemalingsgebied, Bergingsbassin, Beschoeiing, Boom, Brug, Container, Debietmeter, Dek, Depot, Detectielus, Drainageput, Drinkkraan, Drukknoppaal, Ecoduct, Fietsparkeervoorziening, Filterput, Flyover, Geluidsscherm, Gemaal, Halteplaats, Hondenpoeppaal, Hoogtebegrenzer, Hotspot, Huisnummerbord, Infiltratieput, InklapbarePaal, Inzamelpunt, Kademuur, Keermuur, Kering, Klimplant, Klok, Kolk, Landhoofd, Lichtmast, Ligplaatsstrook, Mottobord, OndergrondseContainer, Onttrekkingsput, OV-kast, Overstortconstructie, Park, Parkeerautomaat, Parkeerbeugel, Parkeerdek, Parkeerverwijssysteem, Picknicktafel, Pijlbak, Plaatsnaambord, Pomp, Putdeksel, Recreatie, Regenmeter, Rioleringsgebied, Rioolkast, Rioolput, Risicogebied, Rooster, Sloof, SolitairePlant, Speelterrein, Speeltoestel, Sportcomplex, Sportterrein, Steiger, Straatnaambord, Stuwgebied, Toilet, Trap, Tunnelbak, Tunnelbuis, Tunnelgang, Tunnelwand, Uitlaatconstructie, Urinoir, Vacuümopslagtank, Veldverlichting, Verkeersbord, Verkeersbordpaal, Verkeersdrempel, Verkeerskast, Verkeerslichtmast, Verkeerslichtportaal, Viaduct, Vlonder, VRI-locatie, VRI-paal, Walstroomkast, Zandkist, Zoutbak en Zuiveringsgebied
+</code></pre></div>
+<p>These are included in the model, but listing them all here goes beyond scope.</p>
+<h3 id="management-objects-vs-geo-objects">Management objects vs geo-objects</h3>
+<p>The next figure shows the relationship between geo-objects and management objects.</p>
+<p><a class="glightbox" href="../../../domeinen/image/IMGeoVSIMBOR.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="IMGeo vs IMBOR" src="../../../domeinen/image/IMGeoVSIMBOR.png" title="IMGeo vs IMBOR" /></a></p>
+<p><em>Diagram (in Dutch): two perspectives on a tree — IMGeo (rendering attributes) vs IMBOR (management attributes).</em></p>
+<p>Two perspectives on a tree are shown. In the BGT/IMGeo (RSGB 3.0) domain, attributes are shown for correctly rendering the tree. In the management part, attributes needed for managing the tree are held. The next figure shows the different kinds of information held about the same object type.</p>
+<p><a class="glightbox" href="../../../domeinen/image/EAID_B832F543_BBE3_421e_B76D_561E53237684.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="IMGeo vs IMBOR object types" src="../../../domeinen/image/EAID_B832F543_BBE3_421e_B76D_561E53237684.jpg" title="IMGeo vs IMBOR object types" /></a></p>
+<p><em>Diagram (in Dutch): IMGeo vs IMBOR object types for the same real-world object.</em></p>
+<h2 id="object-types-and-municipal-information">Object types and Municipal Information</h2>
+<h3 id="inspections-and-reports">Inspections and reports</h3>
+<p>Maintenance of management objects is carried out via inspection rounds. The GGM has a number of object types in addition to management objects. These are elaborated in the next figure.</p>
+<p>An <em>Inspection Round</em> may have multiple reports. Each report relates to a <em>Management Object</em>, and management objects have a <em>Logbook</em> in which reports are recorded. A <em>Report</em> has a reporter and a supplier who will resolve it.
+There are several kinds of report:</p>
+<ol>
+<li>CROW report, per the CROW methodology.</li>
+<li>Accident report — only for play equipment, where accidents per item are tracked.</li>
+<li>Malfunction — reports on traffic lights and street lighting, where malfunctions in the system become visible and are resolved by a supplier.</li>
+<li>Inspection — done by an inspector and reported as such.</li>
+<li>Action — planned maintenance actions.</li>
+</ol>
+<p><a class="glightbox" href="../../../domeinen/image/EAID_F9907E9B_BD04_439e_A0A9_C6E7BA7F6623.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Inspection rounds management objects" src="../../../domeinen/image/EAID_F9907E9B_BD04_439e_A0A9_C6E7BA7F6623.jpg" title="Inspection rounds management objects" /></a></p>
+<p><em>Diagram (in Dutch): data model for inspection rounds covering management objects.</em></p>
+<p>Inspection rounds are carried out within <em>Areas</em>, which fall within one or more <em>Districts</em> or <em>Neighbourhoods</em>.</p>
+<p><a class="glightbox" href="../../../domeinen/image/EAID_8BE01DD9_B915_4291_B190_AB69D0252391.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Inspection rounds within areas" src="../../../domeinen/image/EAID_8BE01DD9_B915_4291_B190_AB69D0252391.jpg" title="Inspection rounds within areas" /></a></p>
+<p><em>Diagram (in Dutch): inspection rounds and how they relate to areas, districts and neighbourhoods.</em></p>
+<h3 id="road-excavations">Road excavations</h3>
+<p>For planned road excavations a <em>MOOR report</em> (<em>Melding Opbreking Openbare Ruimte</em>) is submitted by the <em>Contractor</em> performing the digging work. A <em>Contractor</em> may be a <em>Supplier</em> or a <em>Landowner</em>, both <em>Legal Entity</em>.
+An applied-for <em>Environmental Permit</em> may require multiple MOOR reports. After the digging, an inspection is performed by a municipal <em>Staff Member</em>, who produces an <em>Official Report</em> recorded in a <em>Document</em>.</p>
+<p><a class="glightbox" href="../../../domeinen/image/EAID_1D1CC6D9_472B_4f91_8096_0260E27F641C.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Report of excavation work" src="../../../domeinen/image/EAID_1D1CC6D9_472B_4f91_8096_0260E27F641C.jpg" title="Excavation report" /></a></p>
+<p><em>Diagram (in Dutch): data model for MOOR-reports of excavation work.</em></p>
+<h3 id="housing-construction-projects">Housing-construction projects</h3>
+<p>Housing-construction projects executed in the context of area management are administered separately. Housing-construction projects may fall within a <em>Programme</em>. Each project delivers a number of homes of one of three kinds: owner-occupied, rented or student housing. A <em>Housing-construction Project</em> has one or more project developers and may have a <em>Project Leader</em>.</p>
+<p><a class="glightbox" href="../../../domeinen/image/EAID_5B2022A2_1DAB_476d_BBCD_CD27F56F169F.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Housing-construction projects" src="../../../domeinen/image/EAID_5B2022A2_1DAB_476d_BBCD_CD27F56F169F.jpg" title="Housing-construction projects" /></a></p>
+<p><em>Diagram (in Dutch): data model for housing-construction projects.</em></p>
+<p>Energy labels and home sizes use predefined lists/enumerations.</p>
+<h2 id="base-registrations">Base registrations</h2>
+<h3 id="bag-base-registration-of-addresses-and-buildings">BAG (Base Registration of Addresses and Buildings)</h3>
+<p>The IMBAG (Information Model for the Base Registration of Addresses and Buildings) is adopted in RSGB 3.0. For this reason, the object types are taken from RSGB 3.0.</p>
+<p>These are all object types addressable from the BAG and therefore have a BAG identification. All objects have a real address with postcode and house number. With the most generic object type <em>Addressable Object Designation</em> giving all underlying object types a real address, there are two generic object types below it: <em>Number Designation</em> and <em>Other Addressable Object Designation</em>, both giving all object types a BAG id. See the figure below.</p>
+<p><a class="glightbox" href="../../../domeinen/image/EAID_1279615F_663B_4c7f_BDF3_CD1DA37A87BC.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Addressable objects" src="../../../domeinen/image/EAID_1279615F_663B_4c7f_BDF3_CD1DA37A87BC.jpg" title="Addressable objects" /></a></p>
+<p><em>Diagram (in Dutch): the generic addressable-object types from the BAG, via RSGB 3.0.</em></p>
+<p>The next figure shows all BAG object types in coherence: the three generic ones and the five concrete ones.</p>
+<p><a class="glightbox" href="../../../domeinen/image/EAID_7561B00D_273B_425a_B2FE_1C3AE499ED2E.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Addresses, buildings and terrains" src="../../../domeinen/image/EAID_7561B00D_273B_425a_B2FE_1C3AE499ED2E.jpg" title="Addresses, buildings and terrains" /></a></p>
+<p><em>Diagram (in Dutch): all BAG object types in coherence — Ligplaats, Standplaats, Verblijfsobject, Overig Gebouwd Object, Overig benoemd terrein.</em></p>
+<p>All five concrete object types are actual addressable objects found in the BAG — all <em>"formally designated as such by the competent municipal body"</em>.</p>
+<p><strong>Ligplaats (mooring place)</strong>: place in the water, possibly supplemented with land or part thereof, intended for permanently mooring a vessel suitable for residential, business or recreational purposes.</p>
+<p><strong>Standplaats (pitch)</strong>: terrain or part thereof intended for permanently placing a space not directly and durably connected to the earth, suitable for residential, business or recreational purposes.</p>
+<p><strong>Verblijfsobject (residence object)</strong>: the smallest unit of use within one or more buildings, suitable for residential, business or recreational purposes, accessed via its own lockable entrance from the public road, a courtyard or shared traffic space; can be the subject of property-rights transactions; and is functionally self-contained.</p>
+<p><strong>Overig Gebouwd object (other built object)</strong>: the smallest unit of use, not being a residence object, within a functionally and constructively self-contained unit directly and durably connected to the earth.</p>
+<p><strong>Overig benoemd terrein (other named terrain)</strong>: unbuilt terrain (or part thereof), not a <em>standplaats</em> or part of a <em>ligplaats</em>, intended for performing a social activity over a longer period.</p>
+<h3 id="cadastral-objects-and-restrictions">Cadastral objects and restrictions</h3>
+<p>Cadastral objects are used for applying a property right to an object. In RSGB 3.0 this may be a parcel or an apartment right. A property right may be: ownership, co-ownership, apartment right, right of usufruct, right of use and occupation, easements, ground lease and the right of superficies. The holder of a property right may be a natural or non-natural person.</p>
+<p>The next figure shows how a <em>Property Right</em> rests on a <em>Cadastral Real Estate</em>. Such a <em>Cadastral Real Estate</em> may be a <em>Cadastral Parcel</em> or an <em>Apartment Right</em>, or may remain generic. A public-law restriction under the WKPB is established via a <em>Cadastral real-estate note</em>.
+The connection with addressable objects from the BAG is made via the relationship with the most generic type <em>Named Object</em>. A <em>Legal Entity</em> (natural person or business) holds a <em>property right</em> and can thus, for example, own a parcel.</p>
+<p><a class="glightbox" href="../../../domeinen/image/EAID_F9683FD0_4AA1_40c0_A132_4EA8F639B371.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Cadastral objects and restrictions" src="../../../domeinen/image/EAID_F9683FD0_4AA1_40c0_A132_4EA8F639B371.jpg" title="Cadastral objects and restrictions" /></a></p>
+<p><em>Diagram (in Dutch): data model for cadastral objects and property-right restrictions.</em></p>
+<p>A <em>Cadastral Mutation</em> may lead to establishing or changing a property right (e.g. transfer of ownership). A mutation always concerns one or more <em>Cadastral real-estate objects</em>; in the case of a sale one, but in the case of a split two or more.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"include": true, "provider": "mike"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.ad660dcc.min.js"></script>
+      
+        <script src="../../../scripts/ga4.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>

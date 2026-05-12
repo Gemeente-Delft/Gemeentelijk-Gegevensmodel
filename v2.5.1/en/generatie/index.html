@@ -1,0 +1,4586 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Generating database schemas (DDL) from the Municipal Information Model: ready-made DDL files and code-generation templates for Enterprise Architect.">
+      
+      
+        <meta name="author" content="Arjen Brienen">
+      
+      
+        <link rel="canonical" href="https://www.gemeentelijkgegevensmodel.nl/latest/en/generatie/">
+      
+      
+        <link rel="prev" href="../definities/definitie_Model%20Generiek/">
+      
+      
+        <link rel="next" href="../cookbook/inleiding_en_uitgangspunten/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.26">
+    
+    
+      
+        <title>Database Schemas - Delft Municipal Data Model (GGM)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6543a935.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#gemeente-delft", "@type": "Organization", "logo": "https://www.gemeentelijkgegevensmodel.nl/img/logo.png", "name": "Gemeente Delft", "url": "https://www.delft.nl/"}, {"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#website", "@type": "WebSite", "description": "The Delft Municipal Data Model (Gemeentelijk Gegevensmodel, GGM): an integral information model covering all municipal policy domains.", "inLanguage": "nl", "name": "Delft Municipal Data Model (GGM)", "potentialAction": {"@type": "SearchAction", "query-input": "required name=search_term_string", "target": {"@type": "EntryPoint", "urlTemplate": "https://www.gemeentelijkgegevensmodel.nl/latest?q={search_term_string}"}}, "publisher": {"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#gemeente-delft"}, "url": "https://www.gemeentelijkgegevensmodel.nl/latest"}, {"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#arjen-brienen", "@type": "Person", "affiliation": {"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#gemeente-delft"}, "email": "abrienen@delft.nl", "jobTitle": "Senior Informatie-architect", "name": "Arjen Brienen", "sameAs": ["https://www.linkedin.com/in/arjenbrienen/", "https://github.com/brienen", "https://orcid.org/0009-0004-1676-2605"]}, {"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#ashkan-ashkpour", "@type": "Person", "affiliation": {"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#gemeente-delft"}, "email": "aashkpour@delft.nl", "jobTitle": "Senior Informatie-architect", "name": "Ashkan Ashkpour", "sameAs": ["https://www.linkedin.com/in/ashkanashkpour/", "https://github.com/AshkanA", "https://orcid.org/0000-0001-6606-6633"]}, {"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#ggm", "@type": "Dataset", "creator": [{"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#arjen-brienen"}, {"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#ashkan-ashkpour"}], "description": "The Delft Municipal Data Model (Gemeentelijk Gegevensmodel, GGM): an integral information model covering all municipal policy domains.", "inLanguage": "nl", "isAccessibleForFree": true, "keywords": ["Gemeentelijk Gegevensmodel", "GGM", "informatiemodel", "gemeente", "Gemeente Delft", "Common Ground", "IV3", "semantische interoperabiliteit"], "license": "https://creativecommons.org/licenses/by/4.0/", "name": "Delft Municipal Data Model (GGM)", "publisher": {"@id": "https://www.gemeentelijkgegevensmodel.nl/latest#gemeente-delft"}, "url": "https://www.gemeentelijkgegevensmodel.nl/latest"}]}</script>
+
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#database-schemas" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../" title="Delft Municipal Data Model (GGM)" class="md-header__button md-logo" aria-label="Delft Municipal Data Model (GGM)" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Delft Municipal Data Model (GGM)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Database Schemas
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../generatie/" hreflang="nl" class="md-select__link">
+              Nederlands
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../" title="Delft Municipal Data Model (GGM)" class="md-nav__button md-logo" aria-label="Delft Municipal Data Model (GGM)" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    Delft Municipal Data Model (GGM)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../installatie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Starter's Guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Starter's Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../startersgids/Startdocument/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Before You Start
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Before You Start
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../startersgids/Waarom-het-GGM/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Why the GGM?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../startersgids/vooraf/IV3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IV3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../startersgids/vooraf_portaal/IV3-op-portaal-DGW/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IV3 on the DGW portal
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../startersgids/start/Mapping-zelf-maken-of-niet/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Start
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../startersgids/GGM-Stap-voor-stap-bron-naar-dashboard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    First Use
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../startersgids/Wat-als-het-niet-past/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Next Steps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../startersgids/GGM-Startersgids-Totale-Presentatie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Starter's Guide Mini-conference
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Domain Descriptions
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Domain Descriptions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/inleiding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Governance, Politics and Support
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Governance, Politics and Support
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/burgerzaken/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Civil Affairs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/griffie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Council Office
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/vth/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Safety and Permits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Traffic, Transport and Water
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            Traffic, Transport and Water
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/parkeren/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Parking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/mobiliteit/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mobility
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/economie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Economy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Education
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            Education
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/leerplicht/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compulsory Education and Pupil Transport
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/onderwijs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Education
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sport, Culture and Recreation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_7">
+            <span class="md-nav__icon md-icon"></span>
+            Sport, Culture and Recreation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_7_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_7_1" id="__nav_4_7_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Heritage
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_7_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            Heritage
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/archeologie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Archaeology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/monumenten/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Monuments
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/archief/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Archives
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/erfgoedgeneriek/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generic Heritage Object Types
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/musea/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Museums
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/sport/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sport
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_8" id="__nav_4_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Social Domain
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_8">
+            <span class="md-nav__icon md-icon"></span>
+            Social Domain
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/werk/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Employment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/inkomen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Income
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/wmojeugd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Social Support (Wmo) and Youth
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/inburgering/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Civic Integration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_8_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_8_5" id="__nav_4_8_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Debt
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_8_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_8_5">
+            <span class="md-nav__icon md-icon"></span>
+            Debt
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/schuldhulp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Debt Counselling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/vroegsignalering/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Early Warning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/socteam/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Social Teams
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/gemeentebegraven/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Municipal Burials
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/dakloos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Homelessness
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/socdomeingeneriek/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generic Social Domain Definitions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_9" id="__nav_4_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Public Health and Environment
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_9">
+            <span class="md-nav__icon md-icon"></span>
+            Public Health and Environment
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/afval/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Waste
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_10" id="__nav_4_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Housing, Living Environment and Urban Renewal
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_10">
+            <span class="md-nav__icon md-icon"></span>
+            Housing, Living Environment and Urban Renewal
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/ruimteAlgemeen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Public Space
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/bouwenenwonen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Building and Housing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/omgevingswet/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Environment Act
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_11" id="__nav_4_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Internal Organisation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_11">
+            <span class="md-nav__icon md-icon"></span>
+            Internal Organisation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/ict/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ICT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/subsidies/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Subsidies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/vastgoed/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Municipal Real Estate
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/financien/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Finance
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/hr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/inkoop/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Procurement
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/dienstverlening/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Service Delivery
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_13" id="__nav_4_13_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Core
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_13">
+            <span class="md-nav__icon md-icon"></span>
+            Core
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/bag/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    BAG
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/rsgb/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RSGB
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domeinen/rgbz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RGBZ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Domain Definitions
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Domain Definitions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Governance, Politics and Support
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            Governance, Politics and Support
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Griffie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Council Office
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20VTH/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Safety and Permits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Traffic, Transport and Water
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Traffic, Transport and Water
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Parkeren/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Parking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Mobiliteit/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mobility
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Economie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Economy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Education
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            Education
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Leerplicht%20en%20Leerlingenvervoer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compulsory Education and Pupil Transport
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Onderwijs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Education
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_6" id="__nav_5_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sport, Culture and Recreation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_6">
+            <span class="md-nav__icon md-icon"></span>
+            Sport, Culture and Recreation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_6_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_6_1" id="__nav_5_6_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Heritage
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            Heritage
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Erfgoed%20Generiek/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generic Heritage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Archeologie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Archaeology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Archief/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Archives
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Monumenten/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Monuments
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Musea/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Museums
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Sport/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sport
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_7" id="__nav_5_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Social Domain
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_7">
+            <span class="md-nav__icon md-icon"></span>
+            Social Domain
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Werk/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Employment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_7_2" id="__nav_5_7_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Income
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            Income
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Inkomen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Basic Income
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Reden%20aanvraag/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Income: Reason for Application (GBI)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Terug-%20en%20invordering/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Income: Recovery and Collection (GBI)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Normafwijking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Income: Norm Deviation (GBI)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Diensten/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Income: Service Model (GBI)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Jeugd%20en%20Wmo%20Generiek/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Social Support (Wmo) and Youth
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Inburgering/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Civic Integration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_7_5" id="__nav_5_7_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Debt
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            Debt
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Schuldhulpverlening/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Debt Counselling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Vroegsignalering/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Early Warning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Sociale%20Teams/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Social Teams
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Jeugdbescherming/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Youth Protection
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Gemeentebegrafenissen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Municipal Funerals
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Dak-%20en%20thuislozen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Homelessness
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_7_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_7_10" id="__nav_5_7_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Generic Social Domain
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_7_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_7_10">
+            <span class="md-nav__icon md-icon"></span>
+            Generic Social Domain
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Sociaal%20Domein%20Generiek/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generic Social Domain Definitions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Inkomsten/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generic: Income Profile
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Vermogen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generic: Assets Profile
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_8" id="__nav_5_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Public Health and Environment
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_8">
+            <span class="md-nav__icon md-icon"></span>
+            Public Health and Environment
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Afval/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Waste
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_9" id="__nav_5_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Housing, Living Environment and Urban Renewal
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_9">
+            <span class="md-nav__icon md-icon"></span>
+            Housing, Living Environment and Urban Renewal
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Beheer%20Openbare%20Ruimte/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Public Space
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Wonen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Building and Housing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Omgevingswet/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Environment Act
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_10" id="__nav_5_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Internal Organisation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_10">
+            <span class="md-nav__icon md-icon"></span>
+            Internal Organisation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Organisatie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Organisation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20ICT/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ICT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Subsidies/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Subsidies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Vastgoed/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Municipal Real Estate
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20HR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Inkoop/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Procurement
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Financien/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Finance
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Dienstverlening/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Service Delivery
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_12" id="__nav_5_12_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Core
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_12">
+            <span class="md-nav__icon md-icon"></span>
+            Core
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Kern%20RSGB/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RSGB
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Kern%20RGBZ/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RGBZ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20BAG/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    BAG
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../definities/definitie_Model%20Generiek/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generic Core Definitions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Database Schemas
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Database Schemas
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ready-made-database-schemas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ready-made database schemas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-generation-based-on-the-ggm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Code generation based on the GGM
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Code generation based on the GGM">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installing-the-code-generation-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installing the code-generation templates
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-the-code-generation-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using the code-generation templates
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Using the code-generation templates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#before-you-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      Before you start
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steps-to-generate-ddl" class="md-nav__link">
+    <span class="md-ellipsis">
+      Steps to generate DDL
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-it-works-internally" class="md-nav__link">
+    <span class="md-ellipsis">
+      How it works internally
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How it works internally">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#object-types-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Object types (Classes)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attributes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attributes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      Relationships
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Relationships">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-a" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example A
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-b" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example B
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-c" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example C
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-d" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example D
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#customising-templates-yourself" class="md-nav__link">
+    <span class="md-ellipsis">
+      Customising templates yourself
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Customising templates yourself">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-generation-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      First generation step
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#second-generation-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      Second generation step
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    GGM Cookbook
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            GGM Cookbook
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cookbook/inleiding_en_uitgangspunten/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction and Principles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cookbook/patronen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Applied Patterns
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cookbook/modelelementen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Supported Model Elements
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cookbook/uitbreiden/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Get Started: Creating an Extension
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Information Analysis Approach
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            Information Analysis Approach
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cookbook/totstandkoming/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Methodology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../monumenten/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Example: Municipal Monuments
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Other
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Other
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About the GGM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../documentatie/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Editing the Documentation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Making a Backup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tooling for Repository Manipulation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ready-made-database-schemas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ready-made database schemas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-generation-based-on-the-ggm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Code generation based on the GGM
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Code generation based on the GGM">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installing-the-code-generation-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installing the code-generation templates
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-the-code-generation-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using the code-generation templates
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Using the code-generation templates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#before-you-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      Before you start
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steps-to-generate-ddl" class="md-nav__link">
+    <span class="md-ellipsis">
+      Steps to generate DDL
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-it-works-internally" class="md-nav__link">
+    <span class="md-ellipsis">
+      How it works internally
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How it works internally">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#object-types-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Object types (Classes)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attributes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attributes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      Relationships
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Relationships">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-a" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example A
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-b" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example B
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-c" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example C
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-d" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example D
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#customising-templates-yourself" class="md-nav__link">
+    <span class="md-ellipsis">
+      Customising templates yourself
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Customising templates yourself">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-generation-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      First generation step
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#second-generation-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      Second generation step
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="database-schemas">Database schemas</h1>
+<h2 id="ready-made-database-schemas">Ready-made database schemas</h2>
+<p>From release v2.4.0 of the Delft Municipal Data Model (Dutch: <em>Gemeentelijk Gegevensmodel</em>, abbreviated <strong>GGM</strong>) onwards, a complete set of <a href="https://en.wikipedia.org/wiki/Data_definition_language">DDL files (Data Definition Language)</a> is also available — 488 DDLs in total, automatically generated using a batch version of the UML Database Generator (which will soon be released to a wider audience). This batch generator processes all relevant diagrams and exports the corresponding DDL scripts per diagram in several database formats:</p>
+<ul>
+<li>MySQL</li>
+<li>MSSQL</li>
+<li>Oracle</li>
+<li>PostgreSQL</li>
+</ul>
+<p>This gives you ready-made schemas for these common databases. The DDLs are intended for developers, data architects and administrators who want to apply the GGM in their own systems or environments. Thanks to this set, it is now possible to work with the GGM data models <strong>without using Enterprise Architect — fully tool-independent</strong>. The DDL files can be loaded or modified directly with standard SQL tools and editors.
+Note: this is an early version of the generator. Some imperfections may still occur in the generated files. Feedback is welcome.</p>
+<p>You will find the DDLs for the listed databases in the <a href="https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/tree/master/v2.5.0/ddl%20(early%20release)"><code>ddl</code> directory of the release directory</a>.</p>
+<h2 id="code-generation-based-on-the-ggm">Code generation based on the GGM</h2>
+<p>If you want to generate DDL yourself with Enterprise Architect, the GGM ships with a set of code-generation templates for use within Enterprise Architect to generate <a href="https://en.wikipedia.org/wiki/Data_definition_language">Data Definition Language (DDL)</a>. With this you can directly create tables in an RDBMS. Various templates are available for generating database tables and program code (for example: Python, C# and Java). Code generation works for all supported RDBMSs, except for some specific items such as enumerations. We have developed those for:</p>
+<ol>
+<li>Oracle</li>
+<li>MySQL (untested)</li>
+<li>We warmly invite developers to use these and improve their suitability for the GGM.</li>
+</ol>
+<p>The supplied templates are extensions to the standard templates of <a href="https://sparxsystems.com">Enterprise Architect</a>, as part of the <a href="https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_domains/codetemplates_2.html">Code Template Framework</a>.</p>
+<h3 id="installing-the-code-generation-templates">Installing the code-generation templates</h3>
+<ol>
+<li>Download the file <a href="https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/v2.5.0/CodegeneratieTemplates.xml">CodegeneratieTemplates.xml</a>.</li>
+<li>Start Enterprise Architect.</li>
+<li>(Optional) Create a new project.</li>
+<li>Choose <em>Import Reference Data</em>.</li>
+</ol>
+<p><a class="glightbox" href="../../image/ImportRefData.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Import Reference Data" src="../../image/ImportRefData.png" title="Import Reference Data" /></a></p>
+<p><em>Screenshot (in Dutch / Enterprise Architect UI): the "Import Reference Data" option.</em></p>
+<p>5. Select the just-downloaded <code>CodegeneratieTemplates.xml</code>, select all templates and press <em>Import</em>.</p>
+<p><a class="glightbox" href="../../image/KiesTemplates.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Import Templates" src="../../image/KiesTemplates.png" title="Choose templates" /></a></p>
+<p><em>Screenshot: selecting all templates in the import dialog.</em></p>
+<p>6. The templates are ready to use; you find them under <em>Transform</em>.</p>
+<p><a class="glightbox" href="../../image/GebruikTemplates.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Use Templates" src="../../image/GebruikTemplates.png" title="Use templates" /></a></p>
+<p><em>Screenshot: the imported templates available under the Transform menu.</em></p>
+<p>7. Done!</p>
+<h3 id="using-the-code-generation-templates">Using the code-generation templates</h3>
+<p>Generating DDL from the GGM consists of two steps:</p>
+<ol>
+<li>Transforming the logical model into a logical table representation.</li>
+<li>Generating DDL from the logical table representation.</li>
+</ol>
+<h4 id="before-you-start">Before you start</h4>
+<p>First make sure your project has, alongside the GGM, a place where you can write the tables. We use a separate node next to the root node — in the example, the folder <code>&lt;&lt;DataModel&gt;&gt; Tables/Ruimte/Afval</code>.</p>
+<p><a class="glightbox" href="../../image/TablesAfval.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Create a place to generate the tables" src="../../image/TablesAfval.png" title="Create a place to generate the tables" /></a></p>
+<p><em>Screenshot (in Dutch / Enterprise Architect UI): folder structure for generated tables.</em></p>
+<p>Then make sure the default RDBMS is selected in Enterprise Architect. Go to <em>Preferences</em>.</p>
+<p><a class="glightbox" href="../../image/KiesPreferences.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Go to Preferences to select the default RDBMS" src="../../image/KiesPreferences.png" title="Go to Preferences" /></a></p>
+<p><em>Screenshot: the Preferences menu.</em></p>
+<p>Then under <em>Source Code Engineering / Code Editors</em> choose <em>Default Database</em>. In our example, Oracle.</p>
+<p><a class="glightbox" href="../../image/SelecteerDefaultRDBMS.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Select the default RDBMS" src="../../image/SelecteerDefaultRDBMS.png" title="Select default RDBMS" /></a></p>
+<p><em>Screenshot: setting Oracle as the default database.</em></p>
+<h4 id="steps-to-generate-ddl">Steps to generate DDL</h4>
+<p>To generate DDL, take the following steps:</p>
+<p>1. Select the part of the model you want to generate. In the example, the folder <code>Gemeentelijk Gegevensmodel/Ruimte/Afval/Model</code>. You can also select the desired object types in a diagram.</p>
+<p><a class="glightbox" href="../../image/SelecteerInModel.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Select the folder in the model" src="../../image/SelecteerInModel.png" title="Select the folder in the model" /></a></p>
+<p><em>Screenshot: the model folder selected for generation.</em></p>
+<p>2. For the first step in generation, choose <em>Apply Transformation</em>.</p>
+<p><a class="glightbox" href="../../image/ApplyTransformation.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Choose Apply Transformation" src="../../image/ApplyTransformation.png" title="Apply Transformation" /></a></p>
+<p><em>Screenshot: the Apply Transformation menu option.</em></p>
+<p>3. On the right side of the popup, select <em>Tables</em> in the <em>Transformations</em> area. Make sure all object types that should be generated are selected on the left side.</p>
+<p><a class="glightbox" href="../../image/KiesTables.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Choose Tables under Transformation" src="../../image/KiesTables.png" title="Choose Tables under Transformation" /></a></p>
+<p><em>Screenshot: the Transformations dialog with "Tables" selected.</em></p>
+<p>4. In the new <em>Select Target Package</em> popup, select the place you created to write the tables. In our example, <code>&lt;&lt;DataModel&gt;&gt; Tables/Ruimte/Afval</code>.</p>
+<p><a class="glightbox" href="../../image/SelectTargetPackage.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Choose Target Package" src="../../image/SelectTargetPackage.png" title="Choose Target Package" /></a></p>
+<p><em>Screenshot: target package selection dialog.</em></p>
+<p>5. To start the first step, click <em>Do Transform</em>.</p>
+<p><a class="glightbox" href="../../image/SelectDoTransform.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Choose Do Transform" src="../../image/SelectDoTransform.png" title="Choose Do Transform" /></a></p>
+<p><em>Screenshot: "Do Transform" button highlighted.</em></p>
+<p>6. Wait a moment — the first generation step has been performed: the tables in Enterprise Architect have been created. A "logical" RDBMS-independent version of the tables now exists.</p>
+<p><a class="glightbox" href="../../image/TabellenAangemaakt.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Wait a moment… and the tables have been created" src="../../image/TabellenAangemaakt.png" title="Tables created" /></a></p>
+<p><em>Screenshot: the generated logical tables visible in the Project Browser.</em></p>
+<p>7. In the next step, you generate DDL from the "logical" RDBMS-independent table version. Select the folder containing the tables that were just generated.</p>
+<p><a class="glightbox" href="../../image/SelecteerTabellen.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Select the folder with the tables you want to generate" src="../../image/SelecteerTabellen.png" title="Select tables to generate" /></a></p>
+<p><em>Screenshot: selecting the table folder in the Project Browser.</em></p>
+<p>8. Under <em>Develop / Datamodelling</em>, choose <em>Generate</em>.</p>
+<p><a class="glightbox" href="../../image/KiesGenerate.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Under &quot;Develop / Datamodelling&quot; choose &quot;Generate&quot;" src="../../image/KiesGenerate.png" title="Generate" /></a></p>
+<p><em>Screenshot: the Generate option in the Datamodelling menu.</em></p>
+<p>9. Enter a file name and folder, and press <em>Generate</em>.</p>
+<p><a class="glightbox" href="../../image/KiesGenerateDDL.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Press Generate" src="../../image/KiesGenerateDDL.png" title="Generate DDL" /></a></p>
+<p><em>Screenshot: the Generate DDL dialog with file name filled in.</em></p>
+<p>10. Wait a moment — the DDL is ready. Done!</p>
+<h3 id="how-it-works-internally">How it works internally</h3>
+<p>The capabilities of the code-generation templates limit what you can do when modelling in the GGM. Data types and relationships not supported by the templates cannot be (automatically) converted to tables, and cannot be used well when applied. The following describes what you can use in the logical model and how it transforms to tables.</p>
+<h4 id="object-types-classes">Object types (Classes)</h4>
+<p>When generating table names, the following order applies (all names are truncated to a maximum of 30 characters):</p>
+<ol>
+<li>Alias</li>
+<li>Object-type name</li>
+</ol>
+<p>If the folder containing the object type has an Alias, it is used as a prefix for the table name. In addition, two columns are added to every table (intended to be filled when populating the data warehouse):</p>
+<ol>
+<li><code>DWH_Bronsysteem</code> (name of the source system from which data was loaded)</li>
+<li><code>DWH_DatumTijdGeladen</code> (system date/time when data was loaded)</li>
+<li><code>DWH_DatumTijdGeldigVanaf</code> (for history: date and time <strong>from</strong> which the record is valid)</li>
+<li><code>DWH_DatumTijdGeldigTotMet</code> (for history: date and time <strong>up to and including</strong> which the record is valid)</li>
+</ol>
+<p>If an object type has a Stereotype, it is used as follows:</p>
+<ul>
+<li>
+<p><code>enumeration</code> (Oracle and MySQL only): converted to a table with a <code>_ENUM_</code> table-name prefix. The table always has the columns: ID, value and description. The various attributes are converted to INSERT statements so the table is filled. Attribute fields map as follows:</p>
+<ul>
+<li>ID: attribute field <em>Alias</em></li>
+<li>value: attribute field <em>Name</em></li>
+<li>description: attribute field <em>Comment</em></li>
+</ul>
+</li>
+<li>
+<p><code>referentielijst</code>: table with table-name prefix <code>_LST_</code>.</p>
+</li>
+</ul>
+<h4 id="attributes">Attributes</h4>
+<p>The code-generation templates convert the various attributes of GGM object types based on <em>Datatype</em> and <em>Stereotype</em>. These extend the <a href="https://sparxsystems.com/enterprise_architect_user_guide/15.0/model_domains/codetemplates_2.html">Code Template Framework</a> of Enterprise Architect. For attribute (column) names the order is:</p>
+<ol>
+<li>Alias</li>
+<li>Attribute name</li>
+</ol>
+<p>Attributes are converted by data type as follows (case-insensitive):</p>
+<ul>
+<li><code>Datumtijd</code> or <code>Datetime</code>: attribute with both date and time (Oracle: DATE field).</li>
+<li><code>Datum</code> or <code>Date</code>: date only.</li>
+<li><code>Tijd</code> or <code>Time</code>: time only.</li>
+<li><code>ANxxx</code>: text field (alphanumeric) of length xxx. If no length is given, length 80 is used.</li>
+<li><code>Integer</code> or <code>Int</code>: numeric field (integers only).</li>
+<li><code>Double</code>: numeric values with decimals.</li>
+<li><code>Bedrag</code>: amount field (max 10 digits, 2 after the decimal).</li>
+<li><code>Tekst</code> or <code>Text</code>: text field for long memo fields.</li>
+<li><code>Boolean</code>: Boolean (Oracle numeric field: 'J'=1, 'N'=2, 'Other'=-1, 'Unknown'=null).</li>
+<li><code>GUID</code>: text field of 40 characters.</li>
+<li><code>GML</code> or <code>Punt</code>: location — split into two fields for <a href="https://nl.wikipedia.org/wiki/WGS_84">WGS84 coordinates</a> (<code>&lt;fieldname&gt;_lat</code> and <code>&lt;fieldname&gt;_long</code>) and two fields for <a href="https://zakelijk.kadaster.nl/rijksdriehoeksstelsel">Dutch RD coordinates</a> (<code>&lt;fieldname&gt;_rdx</code> and <code>&lt;fieldname&gt;_rdy</code>). All fields are doubles.</li>
+</ul>
+<p>Attributes are converted by Stereotype:</p>
+<ul>
+<li><code>Adresaanduiding</code> (address designation): the field is replaced by: municipality name, street name, house number, house letter, house-number suffix, postal code and BAG ID.</li>
+<li><code>enumeration</code>: a reference to the enumeration is included. See Example D.</li>
+</ul>
+<h4 id="relationships">Relationships</h4>
+<p>Translating relationships in the logical model is not always straightforward — particularly for the naming of <a href="https://en.wikipedia.org/wiki/Foreign_key">foreign keys</a> and <a href="https://www.w3schools.com/sql/sql_foreignkey.asp">foreign-key constraints</a>. Three examples follow.</p>
+<h5 id="example-a">Example A</h5>
+<p>The first example shows 4 object types/classes with three relationships:</p>
+<ol>
+<li>Relationship A: 1:N</li>
+<li>Relationship B: N:M</li>
+<li>Generalisation of Class A relative to Child Class A</li>
+</ol>
+<p><a class="glightbox" href="../../image/EAID_E7F774F3_E0B3_438e_80DC_4B2F2CD3C60B.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Example A before generating to tables" src="../../image/EAID_E7F774F3_E0B3_438e_80DC_4B2F2CD3C60B.gif" title="Example A before generation" /></a></p>
+<p><em>Diagram: four classes with three relationships before transformation to tables.</em></p>
+<p>After transformation, these relationships translate as follows:</p>
+<ol>
+<li>Relationship A: column <code>ClassAID</code> in table <code>ClassB</code> with a foreign key to table <code>ClassA</code>.</li>
+<li>Relationship B: a junction table <code>KP_classa_classc</code> with foreign-key relationships to <code>ClassA</code> and <code>ClassB</code>.</li>
+<li>Generalisation: the two tables remain separate; columns are not copied into the <em>child</em>. A regular 1:N relationship is created, like Relationship A.</li>
+</ol>
+<p><a class="glightbox" href="../../image/EAID_9259B8B6_DD2F_4632_9CAE_8A0D9F30DF1F.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Example A after generating to tables" src="../../image/EAID_9259B8B6_DD2F_4632_9CAE_8A0D9F30DF1F.gif" title="Example A after generation" /></a></p>
+<p><em>Diagram: the resulting tables with foreign-key columns and a junction table.</em></p>
+<h5 id="example-b">Example B</h5>
+<p>The naming of foreign keys, foreign-key constraints and junction tables can be influenced through relationship names and aliases. This avoids duplicate constraints and unreadable or overly long names. The order used (in priority) is:</p>
+<ol>
+<li>Alias of Source/Target</li>
+<li>Alias of relationship</li>
+<li>Relationship name</li>
+<li>Concatenation of Source and Target names</li>
+</ol>
+<p>The example covers:</p>
+<ol>
+<li>Relationship <code>Class A</code>–<code>Class B</code>: relationship name = "Relatienaam".</li>
+<li>Relationship <code>Class C</code>–<code>Class D</code>: relationship has Alias "Aliasnaam".</li>
+<li>Relationship <code>Class E</code>–<code>Class F</code>: both Source and Target have their own alias.</li>
+<li>Relationship <code>Class G</code>–<code>Class H</code>: relationship has no name and no aliases.</li>
+<li>Relationship <code>Class I</code>–<code>Class J</code>: same as 4 but Source and Target swapped.</li>
+</ol>
+<p><a class="glightbox" href="../../image/EAID_6FCF9303_410D_4ff2_A577_C323F426A500.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Example B before generating to tables" src="../../image/EAID_6FCF9303_410D_4ff2_A577_C323F426A500.gif" title="Example B before generation" /></a></p>
+<p><em>Diagram: the five relationship variants before transformation.</em></p>
+<p>After transformation:</p>
+<ol>
+<li>First: table <code>ClassA</code> gets column <code>ClassBID</code> (with index) and a foreign-key constraint (using the relationship name) on the relationship to <code>ClassB</code>.</li>
+<li>Second: table <code>ClassC</code> gets column <code>ClassCID</code> (with index) and a foreign-key constraint (using the alias) on the relationship to <code>ClassC</code>.</li>
+<li>Third: table <code>ClassE</code> gets column <code>AliasSourceCID</code> (with index) and a foreign-key constraint (using source/target aliases) on the relationship to <code>ClassF</code>.</li>
+<li>Fourth: table <code>ClassG</code> gets column <code>ClassHID</code> (with index) and a foreign-key constraint (using table names) on the relationship to <code>ClassH</code>.</li>
+<li>Fifth: table <code>ClassI</code> gets column <code>ClassJID</code> (with index) and a foreign-key constraint (using table names) on the relationship to <code>ClassJ</code> (same as 4).</li>
+</ol>
+<p><a class="glightbox" href="../../image/EAID_0435B59E_F272_4227_BE64_F7A8FC9A30EE.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Example B after generating to tables" src="../../image/EAID_0435B59E_F272_4227_BE64_F7A8FC9A30EE.gif" title="Example B after generation" /></a></p>
+<p><em>Diagram: resulting tables for the five relationship variants.</em></p>
+<h5 id="example-c">Example C</h5>
+<p>Cases that need special attention because the transformation process otherwise produces errors:</p>
+<ol>
+<li>Self-relationships (e.g. <em>pig sub-type</em> / <em>Varkensoortje</em>).</li>
+<li>Multiple relationships between the same object types.</li>
+</ol>
+<p><a class="glightbox" href="../../image/EAID_135DA4FB_69A6_4191_84A3_3B9F16641289.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Example C before generating to tables" src="../../image/EAID_135DA4FB_69A6_4191_84A3_3B9F16641289.gif" title="Example C before generation" /></a></p>
+<p><em>Diagram (in Dutch): the "Varkensoortje" example showing a self-relationship.</em></p>
+<p>To make these work in the transformation, you must provide an Alias on the Source of the relationship. The example shows it for <em>Varkensoortje</em>. You can also use this for multiple relationships. Due to Enterprise Architect's internals, the cardinality on the source side must be 0..1 or 1, otherwise the relationship is not generated correctly.</p>
+<p><a class="glightbox" href="../../image/Varkensoortje.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Enter an alias on the Source of &quot;Varkensoortje&quot;" src="../../image/Varkensoortje.png" /></a></p>
+<p><em>Screenshot (in Dutch / Enterprise Architect UI): setting the Source alias on the self-relationship.</em></p>
+<p>After transformation, the alias is used for the foreign keys and constraints, ensuring unique names.</p>
+<p><a class="glightbox" href="../../image/EAID_15C4CFF6_5DC6_456a_AE2B_0298FA9CDB6F.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Example C after generating to tables" src="../../image/EAID_15C4CFF6_5DC6_456a_AE2B_0298FA9CDB6F.gif" title="Example C after generation" /></a></p>
+<p><em>Diagram: the resulting tables with alias-based foreign-key naming.</em></p>
+<h5 id="example-d">Example D</h5>
+<p>Finally, an example with enumerations:</p>
+<p><a href="https://en.wikipedia.org/wiki/Enumerated_type">Enumerations</a> are an enumeration of possible values for a given attribute. They allow you to constrain attribute values within a set range in the GGM. To make these work in the transformation process, you must provide an Alias on the Source of the relationship. The example shows it for <em>Varkensoortje</em>; you can also use this for multiple relationships. The following shows how to define an enumeration.</p>
+<p><a class="glightbox" href="../../image/VoorbeeldD.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Example Enumeration" src="../../image/VoorbeeldD.png" title="Example D — using enumerations" /></a></p>
+<p><em>Diagram (in Dutch): an enumeration with two possible values (Optie 1, Optie 2), referenced by attribute B.</em></p>
+<p>The enumeration has two possible values: Option 1 and Option 2; attribute B refers to this enumeration.</p>
+<p><a class="glightbox" href="../../image/VoorbeeldD_Stereotype.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Coupling enumeration" src="../../image/VoorbeeldD_Stereotype.png" title="Example D — stereotype usage" /></a></p>
+<p><em>Screenshot (in Dutch / Enterprise Architect UI): linking an attribute to an enumeration via the "enumeration" stereotype.</em></p>
+<p>The screenshot shows how to link an attribute to an enumeration. It is important to set the stereotype value to <code>enumeration</code>.</p>
+<p><a class="glightbox" href="../../image/VoorbeeldD_EnumAttributen.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Creating value lists for enumerations" src="../../image/VoorbeeldD_EnumAttributen.png" title="Example D — enumeration attributes" /></a></p>
+<p><em>Screenshot (in Dutch / Enterprise Architect UI): defining the value list of an enumeration as attributes.</em></p>
+<p>The figure shows how to define value lists for an enumeration in Enterprise Architect. In the example the value list consists of two values: Optie 1 and Optie 2, defined as attributes of the class <em>Enumeration A</em>. Fill them in as follows:</p>
+<ol>
+<li>Name: in the <em>Name</em> field of the attribute (always fill in to avoid errors).</li>
+<li>Index: in the <em>Alias</em> field (always a unique integer to avoid errors).</li>
+<li>Description: in the <em>Notes</em> field.</li>
+<li>Stereotype: always <code>enum</code>.</li>
+</ol>
+<p>After transformation, both the class and the enumeration become tables, linked by a foreign-key constraint.</p>
+<p><a class="glightbox" href="../../image/VoorbeeldD_Tables.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Generating enumerations" src="../../image/VoorbeeldD_Tables.png" title="Example D — generating tables" /></a></p>
+<p><em>Diagram: the generated tables for the class and its enumeration, linked via a foreign key.</em></p>
+<p>In the generated model, the value lists are still attributes of the enumeration. Only when generating physical database schemas are they converted to value lists in the table.</p>
+<h3 id="customising-templates-yourself">Customising templates yourself</h3>
+<p>Once the templates are loaded in Enterprise Architect you can customise them to match your needs. Note that DDL generation runs in two steps, so you can adjust at two levels.</p>
+<ol>
+<li>First step: customise templates that generate database-independent tables.</li>
+<li>Second step: customise the generation of database-independent tables to DDL.</li>
+</ol>
+<h4 id="first-generation-step">First generation step</h4>
+<p>Go to <em>Transform templates</em>.</p>
+<p><a class="glightbox" href="../../image/templatesaanpassen_stap1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Customising templates step 1" src="../../image/templatesaanpassen_stap1.png" title="Customising templates step 1" /></a></p>
+<p><em>Screenshot: opening the Transform Templates editor.</em></p>
+<p>After opening, choose the language <em>Tables</em>. This collection of templates is used to convert to tables. All template parts used during generation are shown. The next screenshot shows the conversion from a Class.</p>
+<p><a class="glightbox" href="../../image/templatesaanpassen_stap2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Customising templates step 2" src="../../image/templatesaanpassen_stap2.png" title="Customising templates step 2" /></a></p>
+<p><em>Screenshot: editing the Class-to-Table transformation template.</em></p>
+<p>You are now ready to make your own changes. For more details see the <a href="https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_fundamentals/transformationtemplates.html">Sparx documentation on transformation templates</a>.</p>
+<h3 id="second-generation-step">Second generation step</h3>
+<p>To customise the templates that convert database-independent tables to DDL for specific databases, on the <em>Design</em> tab choose <em>Templates</em>. Once opened, you can pick different database types. The figure below shows Oracle, with the scripts that generate the DDL.</p>
+<p><a class="glightbox" href="../../image/ddlgeneratieaanpassen.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Templates for DDL generation" src="../../image/ddlgeneratieaanpassen.png" title="DDL generation templates" /></a></p>
+<p><em>Screenshot (in Dutch / Enterprise Architect UI): the DDL generation templates for Oracle.</em></p>
+<p>We have customised the standard Enterprise Architect behaviour for Oracle and MySQL.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"include": true, "provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
+      
+        <script src="../../scripts/ga4.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
