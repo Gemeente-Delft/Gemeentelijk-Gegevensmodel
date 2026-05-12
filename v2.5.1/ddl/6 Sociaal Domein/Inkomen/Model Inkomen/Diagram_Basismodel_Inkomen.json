@@ -1,0 +1,247 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diagram Basismodel Inkomen",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Diagram Basismodel Inkomen",
+  "$defs": {
+    "CLIENT": {
+      "title": "CLIENT",
+      "description": "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente.",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "GEZAGSDRAGERGEKEND": {
+          "type": "boolean"
+        },
+        "JURIDISCHESTATUS": {
+          "type": "string"
+        },
+        "WETTELIJKEVERTEGENWOORDIGING": {
+          "type": "string"
+        }
+      }
+    },
+    "COMPONENT": {
+      "title": "COMPONENT",
+      "description": "Een *inkomenscomponent* is een afzonderlijk onderdeel of bron van inkomen, zoals loon, winst uit onderneming, uitkeringen of andere inkomensbronnen, die samen het totale inkomen van een persoon of huishouden vormen.",
+      "type": "object",
+      "properties": {
+        "BEDRAG": {
+          "type": "number"
+        },
+        "BEGINDATUMBETREKKINGOP": {
+          "type": "string",
+          "format": "date"
+        },
+        "DEBETCREDIT": {
+          "type": "string"
+        },
+        "EINDATUMBETREKKINGOP": {
+          "type": "string",
+          "format": "date"
+        },
+        "GROEP": {
+          "type": "string"
+        },
+        "GROEPCODE": {
+          "type": "string"
+        },
+        "GROOTBOEKCODE": {
+          "type": "string"
+        },
+        "GROOTBOEKOMSCHRIJVING": {
+          "type": "string"
+        },
+        "KOSTENPLAATS": {
+          "type": "number"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "REKENINGNUMMER": {
+          "type": "string"
+        },
+        "TOELICHTING": {
+          "type": "string"
+        }
+      }
+    },
+    "COMPONENTSOORT": {
+      "title": "COMPONENTSOORT",
+      "description": "*ComponentSoort* is de classificatie of het type van een inkomenscomponent binnen een inkomen- of financiële administratie, waarmee wordt bepaald welke categorie of soort een specifieke component behoort.",
+      "type": "object",
+      "properties": {
+        "COMPONENTCODE": {
+          "type": "string"
+        },
+        "KOLOM": {
+          "type": "string"
+        },
+        "KOLOMCODE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "REGELING": {
+          "type": "string"
+        },
+        "REGELINGCODE": {
+          "type": "string"
+        }
+      }
+    },
+    "INKOMENSVOORZIENING": {
+      "title": "INKOMENSVOORZIENING",
+      "description": "Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving",
+      "type": "object",
+      "properties": {
+        "ADMINISTRATIEVEEINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "ADMINISTRATIEVESTARTDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "BEDRAG": {
+          "type": "number"
+        },
+        "BETALINGSMOMENTCODE": {
+          "type": "string"
+        },
+        "CODE": {
+          "type": "string"
+        },
+        "DATUMTOEKENNING": {
+          "type": "string",
+          "format": "date"
+        },
+        "EENMALIG": {
+          "type": "boolean"
+        },
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "GROEP": {
+          "type": "string"
+        },
+        "INDICATIEBLOKKERING": {
+          "type": "boolean"
+        },
+        "INDICATIESTUDIETOESLAG": {
+          "type": "boolean"
+        },
+        "INDICATIEUITKERINGSPLITSEN": {
+          "type": "boolean"
+        },
+        "INDICATIEUITKERINGSSPECIFICATIE": {
+          "type": "boolean"
+        },
+        "INGANGSDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "TOEKENNINGSDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "VERSTERKKINGSVORM": {
+          "type": "string"
+        },
+        "VERWERKTTOTENMETDATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "INKOMENSVOORZIENINGSOORT": {
+      "title": "INKOMENSVOORZIENINGSOORT",
+      "description": "Typering van een inkomensvoorziening",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "REGELING": {
+          "type": "string"
+        },
+        "REGELINGSCODE": {
+          "type": "string"
+        },
+        "VERGOEDING": {
+          "type": "string"
+        },
+        "VERGOEDINGSCODE": {
+          "type": "string"
+        },
+        "WET": {
+          "type": "string"
+        }
+      }
+    },
+    "REGELING": {
+      "title": "REGELING",
+      "description": "Een Regeling is gekoppeld aan een ingeschreven persoon (client) en beschrijft de specifieke afspraken of voorwaarden waaronder inkomensondersteuning wordt verleend. Een regeling heeft altijd een relatie met een RegelingSoort, die het type regeling specificeert.",
+      "type": "object",
+      "properties": {
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "TOEKENNINGSDATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "REGELINGSOORT": {
+      "title": "REGELINGSOORT",
+      "description": "Typologie van een regeling",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "UITKERINGSRUN": {
+      "title": "UITKERINGSRUN",
+      "description": "Een *UitkeringsRun* is een geautomatiseerde verwerking in een financieel of administratief systeem waarbij **een groep uitkeringen of betalingen tegelijk wordt berekend en uitgevoerd** als onderdeel van een periodieke batch-verwerking.",
+      "type": "object",
+      "properties": {
+        "DATUMRUN": {
+          "type": "string",
+          "format": "date"
+        },
+        "FREQUENTIE": {
+          "type": "string"
+        },
+        "PERIODERUN": {
+          "type": "string"
+        },
+        "SOORTRUN": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

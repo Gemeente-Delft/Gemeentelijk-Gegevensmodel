@@ -1,0 +1,1058 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sociaal Domein Beschikking en Voorziening: Domain Objects",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Sociaal Domein Beschikking en Voorziening: Domain Objects",
+  "$defs": {
+    "BESCHIKKING": {
+      "title": "BESCHIKKING",
+      "description": "In het bestuursrecht: Een beslissing van een overheidsorgaan in een concreet geval, bijvoorbeeld het verlenen van een bouwvergunning. In het civiele recht: een rechterlijke uitspraak in een procedure die begint met een verzoekschrift.",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "COMMENTAAR": {
+          "type": "string"
+        },
+        "DATUMAFGIFTE": {
+          "type": "string",
+          "format": "date"
+        },
+        "GRONDSLAGEN": {
+          "type": "integer"
+        },
+        "WET": {
+          "type": "string",
+          "enum": [
+            "ANDERE_WET",
+            "BIJZONDERE_BIJSTAND",
+            "I_O_A_W_I_O_A_Z_",
+            "JEUGDWET",
+            "LEEG",
+            "NIET_VAN_TOEPASSING",
+            "ONBEKEND",
+            "PARTICIPATIEWET_PW_I",
+            "WMO"
+          ],
+          "description": "Enumeratie: WET"
+        }
+      }
+    },
+    "BESCHIKTE_VOORZIENING": {
+      "title": "BESCHIKTE_VOORZIENING",
+      "description": "Een voorziening waarover een beschikking is gedaan.",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDEOORSPRONKELIJK": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMVANG": {
+          "type": "integer"
+        },
+        "REDENEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "STATUS": {
+          "type": "string"
+        },
+        "WET": {
+          "type": "string",
+          "enum": [
+            "ANDERE_WET",
+            "BIJZONDERE_BIJSTAND",
+            "I_O_A_W_I_O_A_Z_",
+            "JEUGDWET",
+            "LEEG",
+            "NIET_VAN_TOEPASSING",
+            "ONBEKEND",
+            "PARTICIPATIEWET_PW_I",
+            "WMO"
+          ],
+          "description": "Enumeratie: WET"
+        },
+        "FREQUENTIE": {
+          "type": "string",
+          "enum": [
+            "BINNEN_GELDIGHEID_BESCHIKKING",
+            "LEEG",
+            "ONBEKEND",
+            "PER_4_WEKEN",
+            "PER_DAG",
+            "PER_JAAR",
+            "PER_MAAND",
+            "PER_WEEK"
+          ],
+          "description": "Enumeratie: FREQUENTIE"
+        },
+        "LEVERINGSVORM_287": {
+          "type": "string",
+          "enum": [
+            "LEEG",
+            "ONBEKEND",
+            "PGB",
+            "ZIN"
+          ],
+          "description": "Enumeratie: LEVERINGSVORM_309"
+        },
+        "EENHEID": {
+          "type": "string",
+          "enum": [
+            "DAGDEEL_4_UUR_",
+            "ETMAAL",
+            "EUROS",
+            "LEEG",
+            "MINUUT",
+            "ONBEKEND",
+            "STUKS",
+            "UUR"
+          ],
+          "description": "Enumeratie: EENHEID"
+        }
+      }
+    },
+    "BUDGETUITPUTTING": {
+      "title": "BUDGETUITPUTTING",
+      "description": "Overzicht van de te verwachte inkomsten en uitgaven over een bepaalde periode",
+      "type": "object",
+      "properties": {
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "UITGENUTBEDRAG": {
+          "type": "number"
+        }
+      }
+    },
+    "DECLARATIE": {
+      "title": "DECLARATIE",
+      "description": "Een opgave van te vergoeden kosten.",
+      "type": "object",
+      "properties": {
+        "DATUMDECLARATIE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DECLARATIEBEDRAG": {
+          "type": "number"
+        },
+        "DECLARATIESTATUS": {
+          "type": "integer"
+        }
+      }
+    },
+    "DECLARATIEREGEL": {
+      "title": "DECLARATIEREGEL",
+      "description": "Een *declaratieregel* is de **administratieve regel** waarin het **volume van één product of geleverde prestatie** binnen een bepaalde declaratieperiode voor één cliënt wordt vastgelegd.",
+      "type": "object",
+      "properties": {
+        "BEDRAG": {
+          "type": "number"
+        },
+        "CODE": {
+          "type": "string"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "LEVERING": {
+      "title": "LEVERING",
+      "description": "Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk\n\nIn PxQ uren maal tarief",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTOP": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMVANG": {
+          "type": "integer"
+        },
+        "STOPREDEN": {
+          "type": "string"
+        },
+        "FREQUENTIE": {
+          "type": "string",
+          "enum": [
+            "BINNEN_GELDIGHEID_BESCHIKKING",
+            "LEEG",
+            "ONBEKEND",
+            "PER_4_WEKEN",
+            "PER_DAG",
+            "PER_JAAR",
+            "PER_MAAND",
+            "PER_WEEK"
+          ],
+          "description": "Enumeratie: FREQUENTIE"
+        },
+        "EENHEID": {
+          "type": "string",
+          "enum": [
+            "DAGDEEL_4_UUR_",
+            "ETMAAL",
+            "EUROS",
+            "LEEG",
+            "MINUUT",
+            "ONBEKEND",
+            "STUKS",
+            "UUR"
+          ],
+          "description": "Enumeratie: EENHEID"
+        }
+      }
+    },
+    "LEVERINGSVORM_293": {
+      "title": "LEVERINGSVORM_293",
+      "description": "Zorg die onder de Wlz, de Zvw-Wijkverpleging of de Wmo 2015 valt, kan aan personen als zorg in natura (zin) worden geleverd of bekostigd worden uit een persoonsgebonden budget (pgb).",
+      "type": "object",
+      "properties": {
+        "LEVERINGSVORMCODE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "WET": {
+          "type": "string",
+          "enum": [
+            "ANDERE_WET",
+            "BIJZONDERE_BIJSTAND",
+            "I_O_A_W_I_O_A_Z_",
+            "JEUGDWET",
+            "LEEG",
+            "NIET_VAN_TOEPASSING",
+            "ONBEKEND",
+            "PARTICIPATIEWET_PW_I",
+            "WMO"
+          ],
+          "description": "Enumeratie: WET"
+        }
+      }
+    },
+    "MELDING_EIGEN_BIJDRAGE": {
+      "title": "MELDING_EIGEN_BIJDRAGE",
+      "description": "Aangifte van de evetuele eigen bijdrage",
+      "type": "object",
+      "properties": {
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTOP": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "PGB_TOEKENNING": {
+      "title": "PGB_TOEKENNING",
+      "description": "Betreft alleen toegekende voorzieningen met als leveringsvorm PGB\nOpgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb",
+      "type": "object",
+      "properties": {
+        "BUDGET": {
+          "type": "string"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMTOEKENNING": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "TARIEF": {
+      "title": "TARIEF",
+      "description": "Hoogte van een bedrag voor een bepaald product of dient",
+      "type": "object",
+      "properties": {
+        "BEDRAG": {
+          "type": "number"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "WET": {
+          "type": "string",
+          "enum": [
+            "ANDERE_WET",
+            "BIJZONDERE_BIJSTAND",
+            "I_O_A_W_I_O_A_Z_",
+            "JEUGDWET",
+            "LEEG",
+            "NIET_VAN_TOEPASSING",
+            "ONBEKEND",
+            "PARTICIPATIEWET_PW_I",
+            "WMO"
+          ],
+          "description": "Enumeratie: WET"
+        },
+        "EENHEID": {
+          "type": "string",
+          "enum": [
+            "DAGDEEL_4_UUR_",
+            "ETMAAL",
+            "EUROS",
+            "LEEG",
+            "MINUUT",
+            "ONBEKEND",
+            "STUKS",
+            "UUR"
+          ],
+          "description": "Enumeratie: EENHEID"
+        }
+      }
+    },
+    "TOEWIJZING": {
+      "title": "TOEWIJZING",
+      "description": "Toewijzing die door gemeente aan zorgaanbieder wordt gestuurd. zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "COMMENTAAR": {
+          "type": "string"
+        },
+        "DATUMAANSCHAF": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDETOEWIJZING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTARTTOEWIJZING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMTOEWIJZING": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMVANG": {
+          "type": "string"
+        },
+        "REDENWIJZIGING": {
+          "type": "integer"
+        },
+        "TOEWIJZINGNUMMER": {
+          "type": "string"
+        },
+        "WET": {
+          "type": "string",
+          "enum": [
+            "ANDERE_WET",
+            "BIJZONDERE_BIJSTAND",
+            "I_O_A_W_I_O_A_Z_",
+            "JEUGDWET",
+            "LEEG",
+            "NIET_VAN_TOEPASSING",
+            "ONBEKEND",
+            "PARTICIPATIEWET_PW_I",
+            "WMO"
+          ],
+          "description": "Enumeratie: WET"
+        },
+        "FREQUENTIE": {
+          "type": "string",
+          "enum": [
+            "BINNEN_GELDIGHEID_BESCHIKKING",
+            "LEEG",
+            "ONBEKEND",
+            "PER_4_WEKEN",
+            "PER_DAG",
+            "PER_JAAR",
+            "PER_MAAND",
+            "PER_WEEK"
+          ],
+          "description": "Enumeratie: FREQUENTIE"
+        },
+        "EENHEID": {
+          "type": "string",
+          "enum": [
+            "DAGDEEL_4_UUR_",
+            "ETMAAL",
+            "EUROS",
+            "LEEG",
+            "MINUUT",
+            "ONBEKEND",
+            "STUKS",
+            "UUR"
+          ],
+          "description": "Enumeratie: EENHEID"
+        }
+      }
+    },
+    "VERZOEK_OM_TOEWIJZING": {
+      "title": "VERZOEK_OM_TOEWIJZING",
+      "description": "Verzoek tot toewijzing dat vanuit leverancier (via H10-portal) aan de gemeente wordt gestuurd. Zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html",
+      "type": "object",
+      "properties": {
+        "BESCHIKKINGSNUMMER": {
+          "type": "string"
+        },
+        "COMMENTAAR": {
+          "type": "string"
+        },
+        "DATUMEINDETOEWIJZING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMINGANGBESCHIKKING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMINGANGTOEWIJZING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMONTVANGST": {
+          "type": "string",
+          "format": "date"
+        },
+        "REFERENTIEAANBIEDER": {
+          "type": "string"
+        },
+        "VERWIJZER": {
+          "type": "string"
+        },
+        "VOLUME": {
+          "type": "integer"
+        },
+        "SOORTVERWIJZER": {
+          "type": "string",
+          "enum": [
+            "GECERTIFICEERDE_INSTELLING",
+            "GEMEENTE",
+            "HUISARTS",
+            "JEUGDARTS",
+            "LEEG",
+            "MEDISCH_SPECIALIST",
+            "ONBEKEND",
+            "RECHTER_OFFICIER_VAN_JUSTITIE_FUNCTIONARIS_JUSTITIËLE_JEUGDINRICHTING",
+            "ZELFVERWIJZER_GEEN_VERWIJZER"
+          ],
+          "description": "Enumeratie: SOORT_VERWIJZER"
+        },
+        "FREQUENTIE": {
+          "type": "string",
+          "enum": [
+            "BINNEN_GELDIGHEID_BESCHIKKING",
+            "LEEG",
+            "ONBEKEND",
+            "PER_4_WEKEN",
+            "PER_DAG",
+            "PER_JAAR",
+            "PER_MAAND",
+            "PER_WEEK"
+          ],
+          "description": "Enumeratie: FREQUENTIE"
+        },
+        "RAAMCONTRACT": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        },
+        "EENHEID": {
+          "type": "string",
+          "enum": [
+            "DAGDEEL_4_UUR_",
+            "ETMAAL",
+            "EUROS",
+            "LEEG",
+            "MINUUT",
+            "ONBEKEND",
+            "STUKS",
+            "UUR"
+          ],
+          "description": "Enumeratie: EENHEID"
+        }
+      }
+    },
+    "VOORZIENING": {
+      "title": "VOORZIENING",
+      "description": "Middel om services/maatregelen in te vullen.",
+      "type": "object",
+      "properties": {
+        "AFHANDELWIJZE": {
+          "type": "string"
+        },
+        "CODE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "PRODUCTCODE": {
+          "type": "string"
+        },
+        "WET": {
+          "type": "string",
+          "enum": [
+            "ANDERE_WET",
+            "BIJZONDERE_BIJSTAND",
+            "I_O_A_W_I_O_A_Z_",
+            "JEUGDWET",
+            "LEEG",
+            "NIET_VAN_TOEPASSING",
+            "ONBEKEND",
+            "PARTICIPATIEWET_PW_I",
+            "WMO"
+          ],
+          "description": "Enumeratie: WET"
+        }
+      }
+    },
+    "VOORZIENINGSOORT": {
+      "title": "VOORZIENINGSOORT",
+      "description": "Typering van een voorziening",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "PRODUCTCATEGORIE": {
+          "type": "string"
+        },
+        "PRODUCTCATEGORIECODE": {
+          "type": "string"
+        },
+        "PRODUCTCODE": {
+          "type": "string"
+        },
+        "WET": {
+          "type": "string",
+          "enum": [
+            "ANDERE_WET",
+            "BIJZONDERE_BIJSTAND",
+            "I_O_A_W_I_O_A_Z_",
+            "JEUGDWET",
+            "LEEG",
+            "NIET_VAN_TOEPASSING",
+            "ONBEKEND",
+            "PARTICIPATIEWET_PW_I",
+            "WMO"
+          ],
+          "description": "Enumeratie: WET"
+        }
+      }
+    },
+    "CLIENT": {
+      "title": "CLIENT",
+      "description": "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente.",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "JURIDISCHESTATUS": {
+          "type": "string"
+        },
+        "WETTELIJKEVERTEGENWOORDIGING": {
+          "type": "string"
+        },
+        "GEZAGSDRAGERGEKEND": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        }
+      }
+    },
+    "CLIENTBEGELEIDER": {
+      "title": "CLIENTBEGELEIDER",
+      "description": "De persoon die verantwoordelijk is voor het opstellen en uitvoeren van het  ondersteuningsplan in samenwering met de client en personen uit zijn/haar omgeving .",
+      "type": "object",
+      "properties": {
+        "BEGELEIDERSCODE": {
+          "type": "string"
+        }
+      }
+    },
+    "LEVERANCIER": {
+      "title": "LEVERANCIER",
+      "description": "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie",
+      "type": "object",
+      "properties": {
+        "AGBCODE": {
+          "type": "string"
+        },
+        "LEVERANCIERSCODE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "SOORTLEVERANCIER": {
+          "type": "string"
+        },
+        "SOORTLEVERANCIERCODE": {
+          "type": "string"
+        }
+      }
+    },
+    "CONTRACT": {
+      "title": "CONTRACT",
+      "description": "Bindende overeenkomst",
+      "type": "object",
+      "properties": {
+        "AUTORISATIEGROEP": {
+          "type": "string"
+        },
+        "BESCHRIJVING": {
+          "type": "string"
+        },
+        "CATEGORIE": {
+          "type": "string"
+        },
+        "CLASSIFICATIE": {
+          "type": "string"
+        },
+        "CONTRACTREVISIE": {
+          "type": "integer"
+        },
+        "DATUMCREATIE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "GROEP": {
+          "type": "string"
+        },
+        "INTERNCONTRACTID": {
+          "type": "string"
+        },
+        "INTERNCONTRACTREVISIE": {
+          "type": "integer"
+        },
+        "OPMERKINGEN": {
+          "type": "string"
+        },
+        "STATUS": {
+          "type": "string"
+        },
+        "TYPE": {
+          "type": "string"
+        },
+        "VOORWAARDE": {
+          "type": "string"
+        },
+        "ZOEKWOORDEN": {
+          "type": "string"
+        }
+      }
+    },
+    "MEDEWERKER": {
+      "title": "MEDEWERKER",
+      "description": "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID.",
+      "type": "object",
+      "properties": {
+        "ACHTERNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt.</font>"
+        },
+        "DATUMINDIENST": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMUITDIENST": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt.</font>"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font>"
+        },
+        "FUNCTIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie.</font>"
+        },
+        "GESLACHTSAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is.</font>"
+        },
+        "MEDEWERKERIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte unieke aanduiding van de medewerker.</font>"
+        },
+        "MEDEWERKERTOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Toelichting bij en/of over de medewerker.</font>"
+        },
+        "ROEPNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Naam waarmee de werknemer wordt aangesproken.</font>"
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Telefoonnummer waaronder de medewerker in de regel bereikbaar is.</font>"
+        },
+        "VOORLETTERS": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen.</font>"
+        },
+        "VOORVOEGSELACHTERNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font>\r\n<font color=\"#610e6a\">gescheiden.</font>"
+        },
+        "EXTERN": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        }
+      }
+    },
+    "RECHTSPERSOON": {
+      "title": "RECHTSPERSOON",
+      "description": "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "ADRESBINNENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."
+        },
+        "ADRESBUITENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."
+        },
+        "ADRESCORRESPONDENTIE": {
+          "type": "string",
+          "description": "postbus of antwoordnummer"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "Elektronisch postadres waaronder het subject in de regel bereikbaar is."
+        },
+        "FAXNUMMER": {
+          "type": "string",
+          "description": "Faxnummer waaronder het subject in de regel bereikbaar is."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke identificatie van het SUBJECT"
+        },
+        "KVKNUMMER": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string",
+          "description": "De benaming van het SUBJECT"
+        },
+        "RECHTSVORM": {
+          "type": "string",
+          "description": "Bron: Handelsregister"
+        },
+        "REKENINGNUMMER": {
+          "type": "string",
+          "description": "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "Telefoonnummer waaronder het subject in de regel bereikbaar is."
+        }
+      }
+    },
+    "NATUURLIJKPERSOON": {
+      "title": "NATUURLIJKPERSOON",
+      "description": "Een INGESCHREVEN PERSOON of ANDER NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "BIJZONDERNEDERLANDERSCHAP": {
+          "type": "string"
+        },
+        "AANDUIDINGNAAMGEBRUIK": {
+          "type": "string",
+          "description": "Een aanduiding voor de wijze van aanschrijving van de ingeschrevene."
+        },
+        "AANHEFAANSCHRIJVING": {
+          "type": "string",
+          "description": "De aanhef waarmee de persoon aangeschreven wil worden."
+        },
+        "ACADEMISCHETITEL": {
+          "type": "string",
+          "description": "De ACADEMISCHE TITELs van een NATUURLIJK PERSOON."
+        },
+        "ACHTERNAAM": {
+          "type": "string"
+        },
+        "ADELLIJKETITELOFPREDIKAAT": {
+          "type": "string",
+          "description": "Een omschrijving die aangeeft welke titel of welk predikaat behoort tot de naam (bij adellijke titel geslachtsnaam, bij predikaat voornaam)."
+        },
+        "ANUMMER": {
+          "type": "string",
+          "description": "Het administratienummer van het kind, bedoeld in de Wet BRP."
+        },
+        "BURGERSERVICENUMMER": {
+          "type": "string"
+        },
+        "DATUMGEBOORTE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de ander natuurljjk persoon is geboren."
+        },
+        "DATUMOVERLIJDEN": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum van overlijden van een ANDER NATUURLIJK PERSOON"
+        },
+        "GEBOORTELAND": {
+          "type": "string",
+          "description": "Het LAND waar de INGESCHREVEN PERSOON is geboren."
+        },
+        "GEBOORTEPLAATS": {
+          "type": "string",
+          "description": "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de ingeschreven persoon is geboren."
+        },
+        "GESLACHTSAANDUIDING": {
+          "type": "string",
+          "description": "Een aanduiding die aangeeft dat de ingeschrevene een man of een vrouw is, of dat het geslacht (nog) onbekend is."
+        },
+        "GESLACHTSNAAM": {
+          "type": "string",
+          "description": "De (geslachts)naam waarvan de eventueel aanwezige voorvoegsels en adellijke titel/predikaat zijn afgesplitst."
+        },
+        "GESLACHTSNAAMAANSCHRIJVING": {
+          "type": "string",
+          "description": "De geslachtsnaam waarmee de persoon aangeschreven wil worden."
+        },
+        "HANDLICHTING": {
+          "type": "string",
+          "description": "Geeft aan of de rechter handlichting heeft verleend aan: - De Natuurlijk Persoon als eigenaar van een MaatschappelijkeActiviteit - De Natuurlijk Persoon als aansprakelijke"
+        },
+        "LANDOVERLIJDEN": {
+          "type": "string",
+          "description": "Het LAND waar de INGESCHREVEN PERSOON is overleden."
+        },
+        "NATIONALITEIT": {
+          "type": "string"
+        },
+        "OVERLIJDENSPLAATS": {
+          "type": "string",
+          "description": "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de persoon is overleden"
+        },
+        "VOORLETTERSAANSCHRIJVING": {
+          "type": "string",
+          "description": "De voorletters waarmee een persoon aangeschreven wil worden."
+        },
+        "VOORNAMEN": {
+          "type": "string",
+          "description": "De verzameling namen die, gescheiden door spaties, aan de\r\ngeslachtsnaam voorafgaat.."
+        },
+        "VOORNAMENAANSCHRIJVING": {
+          "type": "string",
+          "description": "De voornamen waarmee een persoon aangeschreven wil worden."
+        },
+        "VOORVOEGSELGESLACHTSNAAM": {
+          "type": "string",
+          "description": "Dat deel van de geslachtsnaam dat voorkomt in GBA Tabel 36, Voorvoegseltabel en, gescheiden door een spatie, vooraf gaat aan de rest van de geslachtsnaam."
+        },
+        "INDICATIEOVERLEDEN": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        },
+        "INDICATIEAFSCHERMINGPERSOONSGEGEVENS": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        }
+      }
+    },
+    "INGESCHREVENPERSOON": {
+      "title": "INGESCHREVENPERSOON",
+      "description": "Een INGEZETENE of NIET-INGEZETENE",
+      "type": "object",
+      "properties": {
+        "ADRESHERKOMST": {
+          "type": "string",
+          "description": "Aanduiding welk adres van de INGESCHREVEN PERSOON ontleend is aan de GBA: het woonadres of het correspondentie-adres"
+        },
+        "ANUMMER": {
+          "type": "string",
+          "description": "Het administratienummer, bedoeld in artikel 50 van de Wet GBA."
+        },
+        "BESCHRIJVINGLOCATIE": {
+          "type": "string",
+          "description": "Een geheel of gedeeltelijke omschrijving van de ligging van een object."
+        },
+        "BUITENLANDSREISDOCUMENT": {
+          "type": "string",
+          "description": "Een aanduiding dat de ingeschrevene beschikt over één of meer buitenlandse reisdocumenten of is bijgeschreven in een buitenlands reisdocument."
+        },
+        "BURGERLIJKESTAAT": {
+          "type": "string",
+          "description": "Aanduiding van de burgerlijke staat van de INGESCHREVEN PERSOON"
+        },
+        "DATUMBEGINGELDIGHEIDVERBLIJFPLAATS": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de INGESCHREVEN PERSOON is ingeschreven op zijn of haar laatst bekende verblijfsplaats"
+        },
+        "DATUMEINDEGELDIGHEIDVERBLIJFSPLAATS": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMINSCHRIJVINGGEMEENTE": {
+          "type": "string",
+          "format": "date",
+          "description": "Bij inschrijving op grond van een aangifte door de burger van zijn vestiging in een (volgende) gemeente is dit de aangiftedatum. Bij inschrijving op grond van een geboorte-akte is dit de geboortedatum. Bij ambtshalve inschrijving is dit de datum waarop de betrokkene schriftelijk van het voornemen van ambtshalve opneming mededeling is gedaan."
+        },
+        "DATUMOPSCHORTINGBIJHOUDING": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de bijhouding van de persoonslijst is gestaakt."
+        },
+        "DATUMVERTREKUITNEDERLAND": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum van het vertrek naar het buitenland."
+        },
+        "DATUMVESTIGINGNEDERLAND": {
+          "type": "string",
+          "format": "date",
+          "description": "Zogenaamd afleidbaar gegeven (zie regels attribuutsoort). Bij ambtshalve inschrijving is dit de datum waarop de betrokkene schriftelijk van het voornemen tot ambtshalve inschrijving mededeling is gedaan. In andere gevallen is dit de datum waarop de aangifte is ontvangen."
+        },
+        "GEMEENTEVANINSCHRIJVING": {
+          "type": "string",
+          "description": "Een code die aangeeft in welke gemeente de PL zich bevindt of de gemeente waarnaar de PL is uitgeschreven of de gemeente waar de PL voor de eerste keer is opgenomen."
+        },
+        "GEZINSRELATIE": {
+          "type": "string"
+        },
+        "LANDWAARNAARVERTROKKEN": {
+          "type": "string",
+          "description": "Het LAND dat de INGESCHREVEN PERSOON opgeeft bij vertrek naar het buitenland"
+        },
+        "LANDWAARVANDAANINGESCHREVEN": {
+          "type": "string",
+          "description": "Het LAND waar de INGESCHREVEN PERSOON verblijf hield voor (her)vestiging in Nederland."
+        },
+        "OUDER1": {
+          "type": "string"
+        },
+        "OUDER2": {
+          "type": "string"
+        },
+        "PARTNERID": {
+          "type": "string"
+        },
+        "REDENEINDEBEWONING": {
+          "type": "string",
+          "format": "date"
+        },
+        "REDENOPSCHORTINGBIJHOUDING": {
+          "type": "string",
+          "description": "Een aanduiding van de reden waarom de bijhouding van de PL is opgeschort."
+        },
+        "VERBLIJFSTITEL": {
+          "type": "string"
+        },
+        "INDICATIEGEHEIM": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        },
+        "SIGNALERINGREISDOCUMENT": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        },
+        "INGEZETENE": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        }
+      }
+    }
+  }
+}

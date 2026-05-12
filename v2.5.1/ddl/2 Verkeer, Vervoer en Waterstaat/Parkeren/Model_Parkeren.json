@@ -1,0 +1,592 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Model Parkeren",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Model Parkeren",
+  "$defs": {
+    "BELPROVIDER": {
+      "title": "BELPROVIDER",
+      "description": "Leverancier of dienstverlener van modiele beldiensten",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        }
+      }
+    },
+    "MULDERFEIT": {
+      "title": "MULDERFEIT",
+      "description": "Een administratieve overtreding met betrekking tot parkeren, zoals bepaald onder de Wet administratiefrechtelijke handhaving verkeersvoorschriften (WAHV), ook wel bekend als de Mulderwet.",
+      "type": "object",
+      "properties": {
+        "BEDRAG": {
+          "type": "number"
+        },
+        "BEZWAARAFGEHANDELD": {
+          "type": "string",
+          "format": "date"
+        },
+        "BEZWAARINGETROKKEN": {
+          "type": "string",
+          "format": "date"
+        },
+        "BEZWAARTOEGEWEZEN": {
+          "type": "string",
+          "format": "date"
+        },
+        "BONNUMMER": {
+          "type": "integer"
+        },
+        "DATUMBETALING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMBEZWAAR": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMGESEPONEERD": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMINDIENING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DIENSTCD": {
+          "type": "string"
+        },
+        "ORGANISATIE": {
+          "type": "string"
+        },
+        "OVERTREDING": {
+          "type": "string"
+        },
+        "PARKEERTARIEF": {
+          "type": "number"
+        },
+        "REDENSEPONEREN": {
+          "type": "string"
+        },
+        "VORDERINGNUMMER": {
+          "type": "integer"
+        }
+      }
+    },
+    "NAHEFFING": {
+      "title": "NAHEFFING",
+      "description": "Het achteraf vorderen van te weinig betaalde belasting",
+      "type": "object",
+      "properties": {
+        "BEDRAG": {
+          "type": "number"
+        },
+        "BEZWAARAFGEHANDELD": {
+          "type": "string",
+          "format": "date"
+        },
+        "BEZWAARINGETROKKEN": {
+          "type": "string",
+          "format": "date"
+        },
+        "BEZWAARTOEGEWEZEN": {
+          "type": "string",
+          "format": "date"
+        },
+        "BONNUMMER": {
+          "type": "integer"
+        },
+        "DATUMBETALING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMBEZWAAR": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMGESEPONEERD": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMINDIENING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DIENSTCD": {
+          "type": "string"
+        },
+        "ORGANISATIE": {
+          "type": "string"
+        },
+        "OVERTREDING": {
+          "type": "string"
+        },
+        "PARKEERTARIEF": {
+          "type": "number"
+        },
+        "REDENSEPONEREN": {
+          "type": "string"
+        },
+        "VORDERINGNUMMER": {
+          "type": "integer"
+        },
+        "FISCAAL": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        }
+      }
+    },
+    "PARKEERGARAGE": {
+      "title": "PARKEERGARAGE",
+      "description": "Open constructie die geheel of gedeeltelijk in gebruik is als voorziening voor het parkeren van voertuigen",
+      "type": "object",
+      "properties": {}
+    },
+    "PARKEERRECHT": {
+      "title": "PARKEERRECHT",
+      "description": "Het onder bepaalde voorwaarden (zoals betaling parkeerbelasting of parkeergeld) ontstane recht om een voertuig gedurende een bepaalde of onbepaalde periode op een daartoe benoemde parkeerplaats of in/op een daartoe benoemde parkeervoorziening te parkeren.",
+      "type": "object",
+      "properties": {
+        "AANMAAKTIJD": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "BEDRAGAANKOOP": {
+          "type": "number",
+          "description": "Bedrag incl. BTW"
+        },
+        "BEDRAGBTW": {
+          "type": "number"
+        },
+        "DATUMTIJDEINDE": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "DATUMTIJDSTART": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "PRODUCTNAAM": {
+          "type": "string"
+        },
+        "PRODUCTOMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "PARKEERSCAN": {
+      "title": "PARKEERSCAN",
+      "description": "Waarneming van een parkeeractie door een scanauto",
+      "type": "object",
+      "properties": {
+        "CODEGEBRUIKER": {
+          "type": "string"
+        },
+        "CODESCANVOERTUIG": {
+          "type": "string"
+        },
+        "COORDINATEN": {
+          "type": "string",
+          "description": "Geometry value (WKT or GeoJSON string)"
+        },
+        "FOTO": {
+          "type": "string"
+        },
+        "KENTEKEN": {
+          "type": "string"
+        },
+        "TIJDSTIP": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "TRANSACTIEID": {
+          "type": "string"
+        },
+        "PARKEERRECHT": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        }
+      }
+    },
+    "PARKEERVERGUNNING": {
+      "title": "PARKEERVERGUNNING",
+      "description": "Officiele toestemming dat je op een bepaalde plek mag parkeren",
+      "type": "object",
+      "properties": {
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMRESERVERING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "KENTEKEN": {
+          "type": "string"
+        },
+        "MINUTENAFGESCHREVEN": {
+          "type": "integer"
+        },
+        "MINUTENGELDIG": {
+          "type": "integer"
+        },
+        "MINUTENRESTEREND": {
+          "type": "integer"
+        },
+        "NUMMER": {
+          "type": "integer"
+        },
+        "TYPE": {
+          "type": "string"
+        }
+      }
+    },
+    "PARKEERVLAK": {
+      "title": "PARKEERVLAK",
+      "description": "Parkeergelegenheid bestemd voor het parkeren van een of meerdere voertuigen direct langs de doorgaande weg gelegen.",
+      "type": "object",
+      "properties": {
+        "AANTAL": {
+          "type": "integer"
+        },
+        "COORDINATEN": {
+          "type": "string",
+          "description": "Geometry value (WKT or GeoJSON string)"
+        },
+        "PLAATS": {
+          "type": "string"
+        },
+        "VLAKID": {
+          "type": "string"
+        },
+        "DOELGROEP": {
+          "type": "string",
+          "enum": [
+            "DP01",
+            "DP02",
+            "DP03",
+            "DP04",
+            "DP05",
+            "LEEG"
+          ],
+          "description": "Enumeratie: DOELGROEPENPLAATSEN"
+        },
+        "FISCAAL": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        }
+      }
+    },
+    "PARKEERZONE": {
+      "title": "PARKEERZONE",
+      "description": "Een afgebakend gebied binnen een gemeente  waar specifieke parkeerregels en -voorwaarden van toepassing zijn.",
+      "type": "object",
+      "properties": {
+        "AANTALPARKEERVLAKKEN": {
+          "type": "integer"
+        },
+        "DAGTARIEF": {
+          "type": "number"
+        },
+        "EINDEDAG": {
+          "type": "string",
+          "format": "date"
+        },
+        "EINDTIJD": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "GEBRUIK": {
+          "type": "string"
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "Geometry value (WKT or GeoJSON string)"
+        },
+        "IPMCODE": {
+          "type": "string"
+        },
+        "IPMNAAM": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "SECTORCODE": {
+          "type": "string"
+        },
+        "SOORTCODE": {
+          "type": "string"
+        },
+        "STARTDAG": {
+          "type": "string",
+          "format": "date"
+        },
+        "STARTTARIEF": {
+          "type": "number"
+        },
+        "STARTTIJD": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "TYPECODE": {
+          "type": "string"
+        },
+        "TYPENAAM": {
+          "type": "string"
+        },
+        "UURTARIEF": {
+          "type": "number"
+        },
+        "ALLEENDAGTARIEF": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        },
+        "ISPARKEERGARAGE": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        }
+      }
+    },
+    "PRODUCTGROEP": {
+      "title": "PRODUCTGROEP",
+      "description": "Groepering van producten",
+      "type": "object",
+      "properties": {
+        "BESLISBOOM": {
+          "type": "string"
+        },
+        "CODE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "PRODUCTSOORT": {
+      "title": "PRODUCTSOORT",
+      "description": "Typologie van een product",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "TARIEF": {
+          "type": "number"
+        },
+        "TARIEFPERIODE": {
+          "type": "string"
+        }
+      }
+    },
+    "STRAATSECTIE": {
+      "title": "STRAATSECTIE",
+      "description": "Gedeelte van een straat",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "ZONECODE": {
+          "type": "string",
+          "enum": [
+            "GSM_ZONE",
+            "VERGUNNINGHOUDERZONE"
+          ],
+          "description": "Enumeratie: ZONESOORT"
+        }
+      }
+    },
+    "VOERTUIG": {
+      "title": "VOERTUIG",
+      "description": "Vervoermiddel bestemd voor het verkeer over wegen",
+      "type": "object",
+      "properties": {
+        "KENTEKEN": {
+          "type": "string"
+        },
+        "KLEUR": {
+          "type": "string"
+        },
+        "LAND": {
+          "type": "string"
+        },
+        "MERK": {
+          "type": "string"
+        },
+        "TYPE": {
+          "type": "string"
+        }
+      }
+    },
+    "LEVERANCIER": {
+      "title": "LEVERANCIER",
+      "description": "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        }
+      }
+    },
+    "MEDEWERKER": {
+      "title": "MEDEWERKER",
+      "description": "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID.",
+      "type": "object",
+      "properties": {
+        "ACHTERNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt.</font>"
+        },
+        "DATUMINDIENST": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMUITDIENST": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt.</font>"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font>"
+        },
+        "FUNCTIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie.</font>"
+        },
+        "GESLACHTSAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is.</font>"
+        },
+        "MEDEWERKERIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte unieke aanduiding van de medewerker.</font>"
+        },
+        "MEDEWERKERTOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Toelichting bij en/of over de medewerker.</font>"
+        },
+        "ROEPNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Naam waarmee de werknemer wordt aangesproken.</font>"
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Telefoonnummer waaronder de medewerker in de regel bereikbaar is.</font>"
+        },
+        "VOORLETTERS": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen.</font>"
+        },
+        "VOORVOEGSELACHTERNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font>\r\n<font color=\"#610e6a\">gescheiden.</font>"
+        },
+        "EXTERN": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        }
+      }
+    },
+    "RECHTSPERSOON": {
+      "title": "RECHTSPERSOON",
+      "description": "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "ADRESBINNENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."
+        },
+        "ADRESBUITENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."
+        },
+        "ADRESCORRESPONDENTIE": {
+          "type": "string",
+          "description": "postbus of antwoordnummer"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "Elektronisch postadres waaronder het subject in de regel bereikbaar is."
+        },
+        "FAXNUMMER": {
+          "type": "string",
+          "description": "Faxnummer waaronder het subject in de regel bereikbaar is."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke identificatie van het SUBJECT"
+        },
+        "KVKNUMMER": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string",
+          "description": "De benaming van het SUBJECT"
+        },
+        "RECHTSVORM": {
+          "type": "string",
+          "description": "Bron: Handelsregister"
+        },
+        "REKENINGNUMMER": {
+          "type": "string",
+          "description": "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "Telefoonnummer waaronder het subject in de regel bereikbaar is."
+        }
+      }
+    }
+  }
+}

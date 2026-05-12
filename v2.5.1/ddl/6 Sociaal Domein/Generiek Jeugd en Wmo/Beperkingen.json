@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Beperkingen",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Beperkingen",
+  "$defs": {
+    "BEPERKING": {
+      "title": "BEPERKING",
+      "description": "Een stoornis of conditie ‚ lichamelijk, zintuiglijk en-of geestelijk ‚ die een normaal maatschappelijk functioneren belemmert en nadelige sociale gevolgen met zich meebrengt.",
+      "type": "object",
+      "properties": {
+        "CATEGORIE": {
+          "type": "integer"
+        },
+        "COMMENTAAR": {
+          "type": "integer"
+        },
+        "DUUR": {
+          "type": "integer"
+        },
+        "WET": {
+          "type": "string"
+        }
+      }
+    },
+    "BEPERKINGSCATEGORIE": {
+      "title": "BEPERKINGSCATEGORIE",
+      "description": "Een categorisering van beperkingen",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "WET": {
+          "type": "string"
+        }
+      }
+    },
+    "BEPERKINGSCORE": {
+      "title": "BEPERKINGSCORE",
+      "description": "Getalsmatige duiding van een beperking",
+      "type": "object",
+      "properties": {
+        "COMMENTAAR": {
+          "type": "string"
+        },
+        "SCORE": {
+          "type": "integer"
+        },
+        "WET": {
+          "type": "string"
+        }
+      }
+    },
+    "BEPERKINGSCORESOORT": {
+      "title": "BEPERKINGSCORESOORT",
+      "description": "Typering van beperkingscores",
+      "type": "object",
+      "properties": {
+        "VRAAG": {
+          "type": "string"
+        },
+        "WET": {
+          "type": "string"
+        }
+      }
+    },
+    "BESCHIKKING": {
+      "title": "BESCHIKKING",
+      "description": "In het bestuursrecht: Een beslissing van een overheidsorgaan in een concreet geval, bijvoorbeeld het verlenen van een bouwvergunning. In het civiele recht: een rechterlijke uitspraak in een procedure die begint met een verzoekschrift.",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "COMMENTAAR": {
+          "type": "string"
+        },
+        "DATUMAFGIFTE": {
+          "type": "string",
+          "format": "date"
+        },
+        "GRONDSLAGEN": {
+          "type": "integer"
+        },
+        "WET": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

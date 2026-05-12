@@ -1,0 +1,688 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kern:Overige geo objecten op hoofdlijnen",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Kern:Overige geo objecten op hoofdlijnen",
+  "$defs": {
+    "GEO_OBJECT": {
+      "title": "GEO_OBJECT",
+      "description": "Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011]",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "GEOMETRIESOORT": {
+          "type": "string",
+          "description": "Geometry value (WKT or GeoJSON string)"
+        },
+        "IDENTIFICATIE": {
+          "type": "string"
+        }
+      }
+    },
+    "OVERIGBOUWWERK": {
+      "title": "OVERIGBOUWWERK",
+      "description": "Met de aarde verbonden duurzaam bouwwerk, dat niet valt onder de definities van een pand of kunstwerk.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDOVERIGBOUWWERK": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het overig bouwwerk  is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDOVERIGBOUWWERK": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het overig bouwwerk ongeldig is geworden."
+        },
+        "GEOMETRIEOVERIGBOUWWERK": {
+          "type": "string",
+          "description": "De minimaal tweedimensionale geometrische representatie van de omtrekken van een overig bouwwerk."
+        },
+        "IDENTIFICATIEOVERIGBOUWWERK": {
+          "type": "string",
+          "description": "De unieke identificatie van het overig bouwwerk zoals is toegekend in de IMGeo administratie."
+        },
+        "LOD0GEOMETRIEOVERIGBOUWWERK": {
+          "type": "string",
+          "description": "De geometrische representatie van een overig bouwwerk als punt, lijn of vlak 2.5D op level of detail 0."
+        },
+        "LOD1GEOMETRIEOVERIGBOUWWERK": {
+          "type": "string",
+          "description": "De geometrische representatie van een overig bouwwerk in 3D op level of detail 1."
+        },
+        "LOD2GEOMETRIEOVERIGBOUWWERK": {
+          "type": "string",
+          "description": "De geometrische representatie van een overig bouwwerk in 3D op level of detail 2."
+        },
+        "LOD3GEOMETRIEOVERIGBOUWWERK": {
+          "type": "string",
+          "description": "De geometrische representatie van een overig bouwwerk in 3D op level of detail 3."
+        },
+        "RELATIEVEHOOGTELIGGINGOVERIGBOUWWERK": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het overig bouwwerk."
+        },
+        "STATUSOVERIGBOUWWERK": {
+          "type": "string",
+          "enum": [
+            "BESTAAND",
+            "HISTORIE",
+            "PLAN"
+          ],
+          "description": "Enumeratie: STATUSGEOOBJECT"
+        }
+      }
+    },
+    "INRICHTINGSELEMENT": {
+      "title": "INRICHTINGSELEMENT",
+      "description": "Ruimtelijk object al dan niet ter detaillering dan wel ter inrichting van de\noverige benoemde ruimtelijke objecten of een ander inrichtingselement.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDINRICHTINGSELEMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het inrichtingselement is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDINRICHTINGSELEMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het inrichtingselement ongeldig is geworden."
+        },
+        "GEOMETRIEINRICHTINGSELEMENT": {
+          "type": "string",
+          "description": "De geometrische representatie van een inrichtingselement."
+        },
+        "IDENTIFICATIEINRICHTINGSELEMENT": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een inrichtingselement."
+        },
+        "LOD0GEOMETRIEINRICHTINGSELEMENT": {
+          "type": "string",
+          "description": "De geometrische representatie van een inrichtingselement als punt, lijn of vlak in 2.5D op level of detail 0."
+        },
+        "RELATIEVEHOOGTELIGGINGINRICHTINGSELEMENT": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het inrichtingselement."
+        },
+        "PLUSTYPEINRICHTINGSELEMENT": {
+          "type": "string",
+          "enum": [
+            "ABRI",
+            "AFSLUITPAAL",
+            "AFVALBAK",
+            "AFVAL_APARTE_PLAATS",
+            "BALUSTRADE",
+            "BANK",
+            "BENZINE_OLIEPUT",
+            "BETAALAUTOMAAT",
+            "BETONNING",
+            "BLOEMBAK",
+            "BOLDER",
+            "BOOMSPIEGEL_",
+            "BOVENLEIDINGMAST",
+            "BRANDKRAAN_PUT",
+            "BRIEVENBUS",
+            "CAI_KAST",
+            "CAMERA",
+            "CONTAINER",
+            "DEBIETMETER",
+            "DETECTIELUS",
+            "DIJKPAAL",
+            "DRAINAGEPUT",
+            "DRINKBAK",
+            "DRUKKNOPPAAL",
+            "DYNAMISCHE_SNELHEIDSINDICATOR",
+            "ELEKTRAKAST",
+            "FIETSENKLUIS",
+            "FIETSENREK",
+            "FLITSER",
+            "FONTEIN",
+            "GASKAST",
+            "GASPUT",
+            "GELEIDECONSTRUCTIE",
+            "GELEIDEWERK",
+            "GMS_KAST",
+            "GMS_SENSOR",
+            "GRENSMARKERING",
+            "HALTEPAAL",
+            "HECTOMETERPAAL",
+            "HERDENKINGSMONUMENT",
+            "HOOGTEDETECTIEAPPARAAT",
+            "HOOGTEMERK",
+            "INFORMATIEBORD",
+            "INSPECTIE_RIOOLPUT",
+            "KOLK",
+            "KUNSTOBJECT",
+            "LAAGSPANNINGSMAST",
+            "LICHTCEL",
+            "LICHTMAST",
+            "LICHTPUNT",
+            "LIJNAFWATERING",
+            "MEERPAAL",
+            "MOLGOOT",
+            "OPENBAAR_TOILET",
+            "OPENBARE_VERLICHTINGSKAST",
+            "PARKEERBEUGEL",
+            "PICKNICKTAFEL",
+            "PLAATSNAAMBORD",
+            "POLLER",
+            "POMP",
+            "PORTAAL",
+            "PRAATPAAL",
+            "RADARMAST",
+            "RADAR_DETECTOR",
+            "RECLAMEBORD",
+            "RECLAMEZUIL",
+            "REMMINGSWERK",
+            "RIOOLKAST",
+            "SCHEEPVAARTBORD",
+            "SIRENE",
+            "SLAGBOOM",
+            "SPEELVOORZIENING",
+            "STRAALZENDER",
+            "STRAATNAAMBORD",
+            "TELECOM_KAST",
+            "TELEFOONCEL",
+            "TELKAST",
+            "TELPAAL",
+            "VERBLINDINGSWERING",
+            "VERKEERSBORD",
+            "VERKEERSBORDPAAL",
+            "VERKEERSREGELINSTALLATIEKAST",
+            "VERKEERSREGELINSTALLATIEPAAL",
+            "VERKLIKKER_TRANSPORTLEIDING",
+            "VLAGGENMAST",
+            "VUILVANG",
+            "WAARSCHUWINGSHEK",
+            "WATERLEIDINGPUT",
+            "WATERSTANDMETER",
+            "WEERSTATION",
+            "WEGMARKERING",
+            "WEGWIJZER",
+            "WILDROOSTER",
+            "WINDMETER",
+            "ZAND_ZOUTBAK",
+            "ZENDMAST",
+            "ZONNEPANEEL"
+          ],
+          "description": "Enumeratie: TYPERINGINRICHTINGSELEMENTPLUS"
+        },
+        "STATUSINRICHTINGSELEMENT": {
+          "type": "string",
+          "enum": [
+            "BESTAAND",
+            "HISTORIE",
+            "PLAN"
+          ],
+          "description": "Enumeratie: STATUSGEOOBJECT"
+        },
+        "TYPEINRICHTINGSELEMENT": {
+          "type": "string",
+          "enum": [
+            "BAK",
+            "BORD",
+            "INSTALLATIE",
+            "KAST",
+            "MAST",
+            "PAAL",
+            "PUT",
+            "SENSOR",
+            "STRAATMEUBILAIR",
+            "WATERINRICHTINGSELEMENT",
+            "WEGINRICHTINGSELEMENT"
+          ],
+          "description": "Enumeratie: TYPERINGINRICHTINGSELEMENT"
+        }
+      }
+    },
+    "GEBOUWINSTALLATIE": {
+      "title": "GEBOUWINSTALLATIE",
+      "description": "Een component aan de buitenzijde van een gebouw, die het aanzicht van het gebouw mede bepaalt.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDGEBOUWINSTALLATIE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de gebouwinstallatie is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDGEBOUWINSTALLATIE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de gebouwinstallatie ongeldig is geworden."
+        },
+        "GEOMETRIEGEBOUWINSTALLATIE": {
+          "type": "string",
+          "description": "De minimaal tweedimensionale geometrische representatie van de omtrekken van een gebouwinstallatie."
+        },
+        "IDENTIFICATIEGEBOUWINSTALLATIE": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een gebouwinstallatie."
+        },
+        "LOD0GEOMETRIEGEBOUWINSTALLATIE": {
+          "type": "string",
+          "description": "De geometrische representatie van een gebouwinstallatie als vlak in 2.5D op level of detail 0."
+        },
+        "RELATIEVEHOOGTELIGGINGGEBOUWINSTALLATIE": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van de gebouwinstallatie."
+        },
+        "STATUSGEBOUWINSTALLATIE": {
+          "type": "string",
+          "enum": [
+            "BESTAAND",
+            "HISTORIE",
+            "PLAN"
+          ],
+          "description": "Enumeratie: STATUSGEOOBJECT"
+        },
+        "TYPEGEBOUWINSTALLATIE": {
+          "type": "string",
+          "enum": [
+            "BORDES",
+            "LUIFEL",
+            "TOEGANGSTRAP"
+          ],
+          "description": "Enumeratie: TYPERINGGEBOUWINSTALLATIE"
+        }
+      }
+    },
+    "VEGETATIEOBJECT": {
+      "title": "VEGETATIEOBJECT",
+      "description": "Solitair vegetatieobject of lijn- of vlakvormige groep gelijksoortige vegetatieobjecten met een beperkte omvang.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDVEGETATIEOBJECT": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het vegetatieobject is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDVEGETATIEOBJECT": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het vegetatieobject ongeldig is geworden."
+        },
+        "GEOMETRIEVEGETATIEOBJECT": {
+          "type": "string",
+          "description": "De geometrische representatie van een vegetatieobject als punt, lijn of vlak."
+        },
+        "IDENTIFICATIEVEGETATIEOBJECT": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een vegetatieobject."
+        },
+        "LOD0GEOMETRIEVEGETATIEOBJECT": {
+          "type": "string",
+          "description": "De geometrische representatie van een vegetatieobject als punt, lijn of vlak in 2.5D op level of detail 0."
+        },
+        "RELATIEVEHOOGTELIGGINGVEGETATIEOBJECT": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het vegetatieobject"
+        },
+        "STATUSVEGETATIEOBJECT": {
+          "type": "string",
+          "enum": [
+            "BESTAAND",
+            "HISTORIE",
+            "PLAN"
+          ],
+          "description": "Enumeratie: STATUSGEOOBJECT"
+        },
+        "TYPEVEGETATIEOBJECT": {
+          "type": "string",
+          "enum": [
+            "BOOM",
+            "HAAG"
+          ],
+          "description": "Enumeratie: TYPERINGVEGETATIEOBJECT"
+        }
+      }
+    },
+    "SCHEIDING": {
+      "title": "SCHEIDING",
+      "description": "Kunstmatig, meestal lineair obstakel met een werende functie.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDSCHEIDING": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de scheiding is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDSCHEIDING": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het scheiding ongeldig is geworden."
+        },
+        "GEOMETRIESCHEIDING": {
+          "type": "string",
+          "description": "De minimaal tweedimensionale geometrische representatie van de omtrekken van een scheiding"
+        },
+        "IDENTIFICATIESCHEIDING": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een scheiding."
+        },
+        "LOD0GEOMETRIESCHEIDING": {
+          "type": "string",
+          "description": "De geometrische representatie van een scheiding als punt, lijn of vlak in 2.5D op level of detail 0."
+        },
+        "LOD1GEOMETRIESCHEIDING": {
+          "type": "string",
+          "description": "De geometrische representatie van een scheiding in 3D op level of detail 1."
+        },
+        "LOD2GEOMETRIESCHEIDING": {
+          "type": "string",
+          "description": "De geometrische representatie van een scheiding in 3D op level of detail 2."
+        },
+        "LOD3GEOMETRIESCHEIDING": {
+          "type": "string",
+          "description": "De geometrische representatie van een scheiding in 3D op level of detail 3."
+        },
+        "RELATIEVEHOOGTELIGGINGSCHEIDING": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van de scheiding."
+        },
+        "STATUSSCHEIDING": {
+          "type": "string",
+          "enum": [
+            "BESTAAND",
+            "HISTORIE",
+            "PLAN"
+          ],
+          "description": "Enumeratie: STATUSGEOOBJECT"
+        }
+      }
+    },
+    "FUNCTIONEELGEBIED": {
+      "title": "FUNCTIONEELGEBIED",
+      "description": "Begrensd en benoemd gebied dat door een functionele eenheid beschreven wordt.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDFUNCTIONEELGEBIED": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het functioneel gebied is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDFUNCTIONEELGEBIED": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het functioneel gebied ongeldig is geworden."
+        },
+        "GEOMETRIEFUNCTIONEELGEBIED": {
+          "type": "string",
+          "description": "De tweedimensionale geometrische representatie van de omtrekken van het functioneel gebied."
+        },
+        "IDENTIFICATIEFUNCTIONEELGEBIED": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een functioneel gebied."
+        },
+        "NAAMFUNCTIONEELGEBIED": {
+          "type": "string",
+          "description": "De benaming van het functioneel gebied."
+        },
+        "STATUSFUNCTIONEELGEBIED": {
+          "type": "string",
+          "enum": [
+            "BESTAAND",
+            "HISTORIE",
+            "PLAN"
+          ],
+          "description": "Enumeratie: STATUSGEOOBJECT"
+        }
+      }
+    },
+    "ONBEGROEIDTERREINDEEL": {
+      "title": "ONBEGROEIDTERREINDEEL",
+      "description": "Kleinste functioneel onafhankelijk stukje van een terrein, dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, zonder aaneengesloten vegetatie.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het onbegroeid terreindeel is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het onbegroeid terreindeel ongeldig is geworden."
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "De minimaal tweedimensionale geometrische representatie van de omtrekken van een onbegroeid terreindeel."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een onbegroeid terreindeel"
+        },
+        "KRUINLIJNGEOMETRIE": {
+          "type": "string",
+          "description": "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."
+        },
+        "RELATIEVEHOOGTELIGGING": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het onbegroeid terreindeel"
+        },
+        "PLUSFYSIEKVOORKOMEN": {
+          "type": "string",
+          "enum": [
+            "ASFALT",
+            "BETONELEMENT",
+            "BETONSTRAATSTENEN",
+            "BOOMSCHORS",
+            "CEMENTBETON",
+            "GEBAKKEN_KLINKERS",
+            "GRASKLINKERS",
+            "GRAVEL",
+            "GRIND",
+            "KUNSTSTOF",
+            "PUIN",
+            "SCHELPEN",
+            "SIERBESTRATING",
+            "STRAND_EN_STRANDWAL",
+            "TEGELS",
+            "ZAND",
+            "ZANDVERSTUIVING"
+          ],
+          "description": "Enumeratie: FYSIEKVOORKOMENONBEGROEIDTERREINPLUS"
+        },
+        "STATUS": {
+          "type": "string",
+          "enum": [
+            "BESTAAND",
+            "HISTORIE",
+            "PLAN"
+          ],
+          "description": "Enumeratie: STATUSGEOOBJECT"
+        },
+        "ONBEGROEIDTERREINDEELOPTALUD": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        },
+        "FYSIEKVOORKOMEN": {
+          "type": "string",
+          "enum": [
+            "ERF",
+            "GESLOTEN_VERHARDING",
+            "HALF_VERHARD",
+            "ONVERHARD",
+            "OPEN_VERHARDING",
+            "ZAND"
+          ],
+          "description": "Enumeratie: FYSIEKVOORKOMENONBEGROEIDTERREIN"
+        }
+      }
+    },
+    "BEGROEIDTERREINDEEL": {
+      "title": "BEGROEIDTERREINDEEL",
+      "description": "Kleinste functioneel onafhankelijk stukje van een terrein dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, met aaneengesloten homogene vegetatie.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het begroeid terreindeel is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het begroeid terreindeel ongeldig is geworden."
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "De minimaal tweedimensionale geometrische representatie van de omtrekken van een begroeid terreindeel."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een begroeid terreindeel"
+        },
+        "KRUINLIJNGEOMETRIE": {
+          "type": "string",
+          "description": "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."
+        },
+        "LOD0GEOMETRIE": {
+          "type": "string",
+          "description": "De geometrische representatie van een begroeid terreindeel als multivlak in 2.5D op level of detail 0."
+        },
+        "RELATIEVEHOOGTELIGGING": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het begroeid terreindeel"
+        },
+        "PLUSFYSIEKVOORKOMEN": {
+          "type": "string",
+          "enum": [
+            "AKKERBOUW",
+            "BODEMBEDEKKERS",
+            "BOLLENTEELT",
+            "BOSPLANTSOEN",
+            "BRAAKLIGGEND",
+            "GESLOTEN_DUINVEGETATIE",
+            "GRAS_EN_KRUIDACHTIGEN",
+            "GRIEN_EN_HAKHOUT",
+            "HEESTERS",
+            "HOOGSTAM_BOOMGAARDEN",
+            "KLEIN_FRUIT",
+            "LAAGSTAM_BOOMGAARDEN",
+            "OPEN_DUINVEGETATIE",
+            "PLANTEN",
+            "STRUIKROZEN",
+            "VOLLEGRONDSTEELT",
+            "WIJNGAARDEN"
+          ],
+          "description": "Enumeratie: FYSIEKVOORKOMENBEGROEIDTERREINPLUS"
+        },
+        "STATUS": {
+          "type": "string",
+          "enum": [
+            "BESTAAND",
+            "HISTORIE",
+            "PLAN"
+          ],
+          "description": "Enumeratie: STATUSGEOOBJECT"
+        },
+        "OPTALUD": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        },
+        "FYSIEKVOORKOMEN": {
+          "type": "string",
+          "enum": [
+            "BOOMTEELT",
+            "BOUWLAND",
+            "DUIN",
+            "FRUITTEELT",
+            "GEMENGD_BOS",
+            "GRASLAND_AGRARISCH",
+            "GRASLAND_OVERIG",
+            "GROENVOORZIENING",
+            "HEIDE",
+            "HOUTWAL",
+            "KWELDER",
+            "LOOFBOS",
+            "MOERAS",
+            "NAALDBOS",
+            "RIETLAND",
+            "STRUIKEN"
+          ],
+          "description": "Enumeratie: FYSIEKVOORKOMENBEGROEIDTERREIN"
+        }
+      }
+    },
+    "OVERIGESCHEIDING": {
+      "title": "OVERIGESCHEIDING",
+      "description": "Kunstmatig, meestal lineair obstakel met een werende functie, met kleinere afmetingen dan toegestaan voor opname in de BGT.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDOVERIGESCHEIDING": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de overige scheiding is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDOVERIGESCHEIDING": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de overige scheiding ongeldig is geworden."
+        },
+        "GEOMETRIEOVERIGESCHEIDING": {
+          "type": "string",
+          "description": "De minimaal tweedimensionale geometrische representatie van de omtrekken van een overige scheiding"
+        },
+        "IDENTIFICATIEOVERIGESCHEIDING": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een overige scheiding."
+        },
+        "LOD0GEOMETRIEOVERIGESCHEIDING": {
+          "type": "string",
+          "description": "De geometrische representatie van een overige scheiding als punt, lijn of vlak in 2.5D op level of detail 0."
+        },
+        "LOD1GEOMETRIEOVERIGESCHEIDING": {
+          "type": "string",
+          "description": "De geometrische representatie van een overige scheiding in 3D op level of detail 1."
+        },
+        "LOD2GEOMETRIEOVERIGESCHEIDING": {
+          "type": "string",
+          "description": "De geometrische representatie van een overige scheiding in 3D op level of detail 2."
+        },
+        "LOD3GEOMETRIEOVERIGESCHEIDING": {
+          "type": "string",
+          "description": "De geometrische representatie van een overige scheiding in 3D op level of detail 3."
+        },
+        "RELATIEVEHOOGTELIGGINGOVERIGESCHEIDING": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van de overige scheiding."
+        },
+        "TYPEOVERIGESCHEIDING": {
+          "type": "string",
+          "enum": [
+            "DRAADRASTER",
+            "FAUNARASTER"
+          ],
+          "description": "Enumeratie: TYPERINGOVERIGESCHEIDING"
+        },
+        "STATUSOVERIGESCHEIDING": {
+          "type": "string",
+          "enum": [
+            "BESTAAND",
+            "HISTORIE",
+            "PLAN"
+          ],
+          "description": "Enumeratie: STATUSGEOOBJECT"
+        }
+      }
+    }
+  }
+}

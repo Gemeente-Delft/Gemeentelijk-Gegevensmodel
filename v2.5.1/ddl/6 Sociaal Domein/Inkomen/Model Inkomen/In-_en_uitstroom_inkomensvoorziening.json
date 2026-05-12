@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "In- en uitstroom inkomensvoorziening",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: In- en uitstroom inkomensvoorziening",
+  "$defs": {
+    "HUISVESTINGSOORT": {
+      "title": "HUISVESTINGSOORT",
+      "description": "Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen.",
+      "type": "object",
+      "properties": {
+        "BEGINDATUMGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "EINDDATUMGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "SOORTHUISVESTINGCODE": {
+          "type": "string"
+        }
+      }
+    },
+    "INKOMENSVOORZIENING": {
+      "title": "INKOMENSVOORZIENING",
+      "description": "Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving",
+      "type": "object",
+      "properties": {
+        "ADMINISTRATIEVEEINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "ADMINISTRATIEVESTARTDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "BEDRAG": {
+          "type": "number"
+        },
+        "BETALINGSMOMENTCODE": {
+          "type": "string"
+        },
+        "CODE": {
+          "type": "string"
+        },
+        "DATUMTOEKENNING": {
+          "type": "string",
+          "format": "date"
+        },
+        "EENMALIG": {
+          "type": "boolean"
+        },
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "GROEP": {
+          "type": "string"
+        },
+        "INDICATIEBLOKKERING": {
+          "type": "boolean"
+        },
+        "INDICATIESTUDIETOESLAG": {
+          "type": "boolean"
+        },
+        "INDICATIEUITKERINGSPLITSEN": {
+          "type": "boolean"
+        },
+        "INDICATIEUITKERINGSSPECIFICATIE": {
+          "type": "boolean"
+        },
+        "INGANGSDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "TOEKENNINGSDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "VERSTERKKINGSVORM": {
+          "type": "string"
+        },
+        "VERWERKTTOTENMETDATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "REDENBLOKKERING": {
+      "title": "REDENBLOKKERING",
+      "description": "Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen.",
+      "type": "object",
+      "properties": {
+        "BEGINDATUMGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "EINDDATUMGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "REDENBLOKKERINGCODE": {
+          "type": "string"
+        }
+      }
+    },
+    "REDENINSTROOM": {
+      "title": "REDENINSTROOM",
+      "description": "De reden waarom de persoon de uitkering heeft gekregen. Geeft de reden van aanvraag van uitkering weer. Nodig voor diepere analyse van stand van uitkeringen. Omdat we willen weten waarom mensen nstromen. Bv geen werk meer og geen andere uitkering, verhuizing.",
+      "type": "object",
+      "properties": {
+        "BEGINDATUMGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "CBS_CODE": {
+          "type": "string"
+        },
+        "CBS_OMSCHRIJVING": {
+          "type": "string"
+        },
+        "EINDDATUMGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "REDENINSTROOMCODE": {
+          "type": "string"
+        }
+      }
+    },
+    "REDENUITSTROOM": {
+      "title": "REDENUITSTROOM",
+      "description": "De reden waarom de uitkering aan een persoon is beeindgd. Reden toevoeging: Geeft de reden van uitstroom aan. Waarom is de uitkering be&#235;indigd. Nodig voor diepere analyse van stand. Meet of je beleid of het lukt om mensen naar werk te laten stromen. van uitkeringen.",
+      "type": "object",
+      "properties": {
+        "BEGINDATUMGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "CBS_CODE": {
+          "type": "string"
+        },
+        "CBS_OMSCHRIJVING": {
+          "type": "string"
+        },
+        "EINDDATUMGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "REDENUITSTROOMCODE": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

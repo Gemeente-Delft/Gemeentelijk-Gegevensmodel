@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Gladheid",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Gladheid",
+  "$defs": {
+    "STROOIDAG": {
+      "title": "STROOIDAG",
+      "description": "Dag waarop op wegen gestrooid wordt ter voorkoming van gladheid",
+      "type": "object",
+      "properties": {
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "MAXIMUMTEMPERATUUR": {
+          "type": "string"
+        },
+        "MINIMUMTEMPERATUUR": {
+          "type": "string"
+        },
+        "TIJDMAXIMUMTEMPERATUUR": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "TIJDMINIMUMTEMPERATUUR": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "STROOIROUTE": {
+      "title": "STROOIROUTE",
+      "description": "Traject waarop het strooien plaatsvindt",
+      "type": "object",
+      "properties": {
+        "ROUTE": {
+          "type": "string"
+        }
+      }
+    },
+    "STROOIROUTEUITVOERING": {
+      "title": "STROOIROUTEUITVOERING",
+      "description": "De route die uiteindelijk is gevolgd voor het strooien",
+      "type": "object",
+      "properties": {
+        "GEPLANDEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "GEPLANDSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "ROUTE": {
+          "type": "string"
+        },
+        "WERKELIJKEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "WERKELIJKESTART": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    }
+  }
+}

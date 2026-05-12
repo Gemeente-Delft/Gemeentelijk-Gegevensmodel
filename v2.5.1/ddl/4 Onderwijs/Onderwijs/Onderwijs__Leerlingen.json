@@ -1,0 +1,359 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Onderwijs: Leerlingen",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Onderwijs: Leerlingen",
+  "$defs": {
+    "INSCHRIJVING": {
+      "title": "INSCHRIJVING",
+      "description": "Deelname van iemand aan een opleiding bij een onderwijsinstelling.",
+      "type": "object",
+      "properties": {
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "LEERJAAR": {
+      "title": "LEERJAAR",
+      "description": "Is de codering van het jaar of het niveau waarin de leerling onderwijs volgt.",
+      "type": "object",
+      "properties": {
+        "JAAREINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "JAARSTART": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "LEERLING": {
+      "title": "LEERLING",
+      "description": "Mens die een opleiding volgt, heeft gevolgd of gaat volgen of opgaat of is opgegaan voor een toets. (Bron: KOI)",
+      "type": "object",
+      "properties": {
+        "KWETSBAREJONGERE": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        }
+      }
+    },
+    "LOCATIE": {
+      "title": "LOCATIE",
+      "description": "De locatie beschrijft middels co&#246;rdinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)",
+      "type": "object",
+      "properties": {
+        "ADRES": {
+          "type": "string"
+        }
+      }
+    },
+    "LOOPBAANSTAP": {
+      "title": "LOOPBAANSTAP",
+      "description": "Een logische en ook uitdagende stap naar een volgende functie binnen dezelfde functiefamilie of een andere, op hetzelfde schaalniveau of op een schaalniveau hoger.",
+      "type": "object",
+      "properties": {
+        "KLAS": {
+          "type": "integer"
+        },
+        "SCHOOLJAAR": {
+          "type": "string"
+        },
+        "ONDERWIJSTYPE": {
+          "type": "string",
+          "enum": [
+            "HAVO",
+            "VMBO_B",
+            "VMBO_K",
+            "VMBO_T",
+            "VWO"
+          ],
+          "description": "Enumeratie: ONDERWIJSTYPE"
+        }
+      }
+    },
+    "ONDERWIJSLOOPBAAN": {
+      "title": "ONDERWIJSLOOPBAAN",
+      "description": "Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijs<font color=\"#0e0e0e\">carri&#232;re</font>; schoolloopbaan; school<font color=\"#0e0e0e\">carri&#232;re</font>; schooltijd; de schooljaren",
+      "type": "object",
+      "properties": {}
+    },
+    "ONDERWIJSSOORT": {
+      "title": "ONDERWIJSSOORT",
+      "description": "Typologie voor onderwijs",
+      "type": "object",
+      "properties": {
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "ONDERWIJSTYPE": {
+          "type": "string",
+          "enum": [
+            "HAVO",
+            "VMBO_B",
+            "VMBO_K",
+            "VMBO_T",
+            "VWO"
+          ],
+          "description": "Enumeratie: ONDERWIJSTYPE"
+        }
+      }
+    },
+    "SCHOOL": {
+      "title": "SCHOOL",
+      "description": "Gebouw in gebruik voor basis, middelbaar of hoger onderwijs.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "STARTKWALIFICATIE": {
+      "title": "STARTKWALIFICATIE",
+      "description": "Diploma van een opleiding als bedoeld in de WEB of een diploma hoger algemeen voortgezet onderwijs of voorbereidend wetenschappelijk onderwijs als bedoeld in de WVO;",
+      "type": "object",
+      "properties": {
+        "DATUMBEHAALD": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "UITSCHRIJVING": {
+      "title": "UITSCHRIJVING",
+      "description": "Beeindiging van een inschrijving van een leerling bij een school",
+      "type": "object",
+      "properties": {
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "DIPLOMABEHAALD": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        }
+      }
+    },
+    "VASTGOEDOBJECT": {
+      "title": "VASTGOEDOBJECT",
+      "description": "Perceel of vastgoed waar de gemeente een zakelijk recht heeft, en optioneel verhuurd, verpacht of anderzinds aan een derde partij.",
+      "type": "object",
+      "properties": {
+        "AANTALETAGES": {
+          "type": "integer"
+        },
+        "AANTALPARKEERPLAATSEN": {
+          "type": "integer"
+        },
+        "AANTALRIOLERINGEN": {
+          "type": "integer"
+        },
+        "ADRESAANDUIDING": {
+          "type": "string"
+        },
+        "AFGESPROKENCONDITIESCORE": {
+          "type": "string"
+        },
+        "AFKOOPWAARDE": {
+          "type": "string"
+        },
+        "BEDRAGAANKOOP": {
+          "type": "number"
+        },
+        "BESTEMMINGSPLAN": {
+          "type": "string"
+        },
+        "BOEKWAARDE": {
+          "type": "string"
+        },
+        "BOUWJAAR": {
+          "type": "integer"
+        },
+        "BOUWWERK": {
+          "type": "string"
+        },
+        "BOVENLIGGENDNIVEAU": {
+          "type": "string"
+        },
+        "BOVENLIGGENDNIVEAUCODE": {
+          "type": "string"
+        },
+        "BRUTOVLOEROPPERVLAKTE": {
+          "type": "integer"
+        },
+        "CO2UITSTOOT": {
+          "type": "integer",
+          "description": "Jaarlijkse CO2 uitstoot in ton CO2-e"
+        },
+        "CONDITIESCORE": {
+          "type": "string"
+        },
+        "DATUMAFSTOTEN": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMBEREKENINGOPPERVLAK": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEIGENDOM": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMVERKOOP": {
+          "type": "string",
+          "format": "date"
+        },
+        "DEELPORTEFEUILLE": {
+          "type": "string"
+        },
+        "ENERGIEKOSTEN": {
+          "type": "number",
+          "description": "Jaarlijkse energiekosten"
+        },
+        "ENERGIELABEL": {
+          "type": "string"
+        },
+        "ENERGIEVERBRUIK": {
+          "type": "integer",
+          "description": "jaarlijks energieverbruik in Kwh"
+        },
+        "FISCALEWAARDE": {
+          "type": "string"
+        },
+        "FOTO": {
+          "type": "string"
+        },
+        "HERBOUWWAARDE": {
+          "type": "string"
+        },
+        "HOOFDSTUK": {
+          "type": "string"
+        },
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "JAARLAATSTERENOVATIE": {
+          "type": "string"
+        },
+        "KOSTENPLAATS": {
+          "type": "number"
+        },
+        "LOCATIE": {
+          "type": "string"
+        },
+        "MARKTWAARDE": {
+          "type": "string"
+        },
+        "MONUMENT": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OBJECTSTATUS": {
+          "type": "string"
+        },
+        "OBJECTSTATUSCODE": {
+          "type": "string"
+        },
+        "OBJECTTYPE": {
+          "type": "string"
+        },
+        "OBJECTTYPECODE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "ONDERHOUDSCATEGORIE": {
+          "type": "string"
+        },
+        "OPPERVLAKTEKANTOOR": {
+          "type": "integer"
+        },
+        "PORTEFEUILLE": {
+          "type": "string"
+        },
+        "PORTEFEUILLECODE": {
+          "type": "string"
+        },
+        "PROVINCIE": {
+          "type": "string"
+        },
+        "TOELICHTING": {
+          "type": "string"
+        },
+        "VERHUURBAARVLOEROPPERVLAK": {
+          "type": "integer"
+        },
+        "VERKOOPBAARHEID": {
+          "type": "string"
+        },
+        "VERKOOPBEDRAG": {
+          "type": "number"
+        },
+        "VERZEKERDEWAARDE": {
+          "type": "string"
+        },
+        "WAARDEGROND": {
+          "type": "string"
+        },
+        "WAARDEOPSTAL": {
+          "type": "string"
+        },
+        "WIJK": {
+          "type": "string"
+        },
+        "WOZWAARDE": {
+          "type": "string"
+        },
+        "GEARCHIVEERD": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        },
+        "AFGEKOCHTEERFPACHT": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        },
+        "ASBESTRAPPORTAGEAANWEZIG": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        }
+      }
+    }
+  }
+}

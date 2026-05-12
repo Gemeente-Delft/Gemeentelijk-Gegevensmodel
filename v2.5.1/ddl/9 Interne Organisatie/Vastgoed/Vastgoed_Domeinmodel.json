@@ -1,0 +1,647 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Vastgoed Domeinmodel ",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Vastgoed Domeinmodel ",
+  "$defs": {
+    "BOUWDEEL": {
+      "title": "BOUWDEEL",
+      "description": "Zelfstandig en aanwijsbaar deel van een element, onderscheiden naar samenstelling of constructiewijze, bestaande uit één of meer componenten waaraan technische eigenschappen en een onderhoudshistorie kunnen worden gerelateerd (bron: Conditiemeting gebouwde omgeving - Deel 1: Methodiek, code: 3.3)",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "BOUWDEELELEMENT": {
+      "title": "BOUWDEELELEMENT",
+      "description": "Onderdeeel van een bouwdeel",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "INSPECTIE": {
+      "title": "INSPECTIE",
+      "description": "het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen.",
+      "type": "object",
+      "properties": {
+        "BEVINDINGEN": {
+          "type": "string"
+        },
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "MJOP": {
+      "title": "MJOP",
+      "description": "Meerjaren Onderhoudsplanning",
+      "type": "object",
+      "properties": {
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "MJOP_ITEM": {
+      "title": "MJOP_ITEM",
+      "description": "Onderdeel van een MJOP",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMOPZEGGINGAANBIEDER": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMOPZEGGINGONTVANGER": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "KOSTEN": {
+          "type": "number"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "OPZEGTERMIJNAANBIEDER": {
+          "type": "integer"
+        },
+        "OPZEGTERMIJNONTVANGER": {
+          "type": "integer"
+        }
+      }
+    },
+    "PRIJZENBOEKITEM": {
+      "title": "PRIJZENBOEKITEM",
+      "description": "Onderdeel van een prijzenboek",
+      "type": "object",
+      "properties": {
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "PRIJS": {
+          "type": "number"
+        },
+        "VERRICHTING": {
+          "type": "string"
+        }
+      }
+    },
+    "VASTGOED_CONTRACT": {
+      "title": "VASTGOED_CONTRACT",
+      "description": "Een contract is een afspraak tussen 2 of meer partijen. Sluit u een contract, dan moet u een bepaalde prestatie leveren of u heeft recht op een prestatie. Een ander woord voor een contract is een overeenkomst. Daarnaast komt de term overeenkomst van opdracht ook voor.",
+      "type": "object",
+      "properties": {
+        "BESCHRIJVING": {
+          "type": "string"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "MAANDBEDRAG": {
+          "type": "number"
+        },
+        "OPZEGTERMIJN": {
+          "type": "string"
+        },
+        "STATUS": {
+          "type": "string"
+        },
+        "TYPE": {
+          "type": "string"
+        }
+      }
+    },
+    "VASTGOEDOBJECT": {
+      "title": "VASTGOEDOBJECT",
+      "description": "Perceel of vastgoed waar de gemeente een zakelijk recht heeft, en optioneel verhuurd, verpacht of anderzinds aan een derde partij.",
+      "type": "object",
+      "properties": {
+        "AANTALETAGES": {
+          "type": "integer"
+        },
+        "AANTALPARKEERPLAATSEN": {
+          "type": "integer"
+        },
+        "AANTALRIOLERINGEN": {
+          "type": "integer"
+        },
+        "ADRESAANDUIDING": {
+          "type": "string"
+        },
+        "AFGEKOCHTEERFPACHT": {
+          "type": "boolean"
+        },
+        "AFKOOPWAARDE": {
+          "type": "string"
+        },
+        "ASBESTRAPPORTAGEAANWEZIG": {
+          "type": "boolean"
+        },
+        "BEDRAGAANKOOP": {
+          "type": "number"
+        },
+        "BESTEMMINGSPLAN": {
+          "type": "string"
+        },
+        "BOEKWAARDE": {
+          "type": "string"
+        },
+        "BOUWJAAR": {
+          "type": "integer"
+        },
+        "BOUWWERK": {
+          "type": "string"
+        },
+        "BOVENLIGGENDNIVEAU": {
+          "type": "string"
+        },
+        "BOVENLIGGENDNIVEAUCODE": {
+          "type": "string"
+        },
+        "BRUTOVLOEROPPERVLAKTE": {
+          "type": "integer"
+        },
+        "CO2UITSTOOT": {
+          "type": "integer",
+          "description": "Jaarlijkse CO2 uitstoot in ton CO2-e"
+        },
+        "DATUMAFSTOTEN": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMBEREKENINGOPPERVLAK": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEIGENDOM": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMVERKOOP": {
+          "type": "string",
+          "format": "date"
+        },
+        "DEELPORTEFEUILLE": {
+          "type": "string"
+        },
+        "ENERGIEKOSTEN": {
+          "type": "number",
+          "description": "Jaarlijkse energiekosten"
+        },
+        "ENERGIEVERBRUIK": {
+          "type": "integer",
+          "description": "jaarlijks energieverbruik in Kwh"
+        },
+        "FISCALEWAARDE": {
+          "type": "string"
+        },
+        "FOTO": {
+          "type": "string"
+        },
+        "GEARCHIVEERD": {
+          "type": "boolean"
+        },
+        "HERBOUWWAARDE": {
+          "type": "string"
+        },
+        "HOOFDSTUK": {
+          "type": "string"
+        },
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "JAARLAATSTERENOVATIE": {
+          "type": "string"
+        },
+        "KOSTENPLAATS": {
+          "type": "number"
+        },
+        "LOCATIE": {
+          "type": "string"
+        },
+        "MARKTWAARDE": {
+          "type": "string"
+        },
+        "MONUMENT": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OBJECTSTATUS": {
+          "type": "string"
+        },
+        "OBJECTSTATUSCODE": {
+          "type": "string"
+        },
+        "OBJECTTYPE": {
+          "type": "string"
+        },
+        "OBJECTTYPECODE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "ONDERHOUDSCATEGORIE": {
+          "type": "string"
+        },
+        "OPPERVLAKTEKANTOOR": {
+          "type": "integer"
+        },
+        "PORTEFEUILLE": {
+          "type": "string"
+        },
+        "PORTEFEUILLECODE": {
+          "type": "string"
+        },
+        "PROVINCIE": {
+          "type": "string"
+        },
+        "TOELICHTING": {
+          "type": "string"
+        },
+        "VERHUURBAARVLOEROPPERVLAK": {
+          "type": "integer"
+        },
+        "VERKOOPBAARHEID": {
+          "type": "string"
+        },
+        "VERKOOPBEDRAG": {
+          "type": "number"
+        },
+        "VERZEKERDEWAARDE": {
+          "type": "string"
+        },
+        "WAARDEGROND": {
+          "type": "string"
+        },
+        "WAARDEOPSTAL": {
+          "type": "string"
+        },
+        "WIJK": {
+          "type": "string"
+        },
+        "WOZWAARDE": {
+          "type": "string"
+        },
+        "ENERGIELABEL": {
+          "type": "string",
+          "enum": [
+            "A",
+            "A_",
+            "A_",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "LEEG",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: ENERGIELABEL_GEBOUWEN"
+        },
+        "CONDITIESCORE": {
+          "type": "string",
+          "enum": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "LEEG",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: NEN2767_CONDITIESCORE"
+        },
+        "AFGESPROKENCONDITIESCORE": {
+          "type": "string",
+          "enum": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "LEEG",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: NEN2767_CONDITIESCORE"
+        }
+      }
+    },
+    "VERHUURBAAR_EENHEID": {
+      "title": "VERHUURBAAR_EENHEID",
+      "description": "Een Verhuurbare Eenheid (VHE) is een eenheid die individueel verhuurbaar is. Verhuurbaar komt voort uit 'exploitatie'",
+      "type": "object",
+      "properties": {
+        "ADRES": {
+          "type": "string"
+        },
+        "AFMETING": {
+          "type": "integer"
+        },
+        "BEZETTING": {
+          "type": "integer"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMWERKELIJKBEGIN": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMWERKELIJKEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "HUURPRIJS": {
+          "type": "number"
+        },
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "NETTOOMTREK": {
+          "type": "integer"
+        },
+        "NETTOOPPERVLAK": {
+          "type": "integer"
+        },
+        "OPMERKINGEN": {
+          "type": "string"
+        },
+        "TYPE": {
+          "type": "string"
+        }
+      }
+    },
+    "WERKBON": {
+      "title": "WERKBON",
+      "description": "Document waarin een heoveelheid werk is beschreven",
+      "type": "object",
+      "properties": {}
+    },
+    "ZAKELIJK_RECHT": {
+      "title": "ZAKELIJK_RECHT",
+      "description": "Geeft een recht op een goed, zoals een onroerende zaak of een roerende zaak.",
+      "type": "object",
+      "properties": {
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "KOSTEN": {
+          "type": "number"
+        },
+        "SOORT": {
+          "type": "string",
+          "enum": [
+            "EIGENDOM",
+            "HUUR",
+            "LEEG",
+            "ONBEKEND",
+            "PACHT",
+            "RECHT_VAN_OPSTAL"
+          ],
+          "description": "Enumeratie: ZAKELIJKRECHT_917"
+        }
+      }
+    },
+    "HOOFDREKENING": {
+      "title": "HOOFDREKENING",
+      "description": "is kostensoort",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "PIAHOOFCATEGORIEOMSCHRIJVING": {
+          "type": "string"
+        },
+        "PIAHOOFDCATEGORIECODE": {
+          "type": "string"
+        },
+        "SUBCODE": {
+          "type": "string"
+        },
+        "SUBCODEOMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "INKOOPORDER": {
+      "title": "INKOOPORDER",
+      "description": "Een opdracht (gezien vanuit de klant) voor één of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen.",
+      "type": "object",
+      "properties": {
+        "ARTIKELCODE": {
+          "type": "string"
+        },
+        "BETALINGMEERDEREJAREN": {
+          "type": "boolean"
+        },
+        "BETREFT": {
+          "type": "string"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMINGEDIEND": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "GOEDERENCODE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "ORDERNUMMER": {
+          "type": "string"
+        },
+        "SALDO": {
+          "type": "string"
+        },
+        "TOTAALNETTOBEDRAG": {
+          "type": "number"
+        },
+        "WIJZEVANAANBESTEDEN": {
+          "type": "string"
+        }
+      }
+    },
+    "KOSTENPLAATS": {
+      "title": "KOSTENPLAATS",
+      "description": "Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven.",
+      "type": "object",
+      "properties": {
+        "BTWCODE": {
+          "type": "string"
+        },
+        "BTWOMSCHRIJVING": {
+          "type": "string"
+        },
+        "KOSTENPLAATSSOORTCODE": {
+          "type": "number"
+        },
+        "KOSTENPLAATSSOORTOMSCHRIJVING": {
+          "type": "number"
+        },
+        "KOSTENPLAATSTYPECODE": {
+          "type": "number"
+        },
+        "KOSTENPLAATSTYPEOMSCHRIJVING": {
+          "type": "number"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "ZAKELIJKRECHT_2335": {
+      "title": "ZAKELIJKRECHT_2335",
+      "description": "Het eigendom van, of een beperkt recht van een natuurlijk of niet-natuurlijk persoon (PERSOON) op, een onroerende zaak (met uitzondering van hypotheken en beslagen).",
+      "type": "object",
+      "properties": {
+        "AARDZAKELIJKRECHT": {
+          "type": "string",
+          "description": "Een aanduiding voor de aard van het recht."
+        },
+        "DATUMEINDERECHT": {
+          "type": "string",
+          "format": "date",
+          "description": "De laatste dag waarop het recht volgens het brondocument, op grond waarvan het recht is opgevoerd, nog van toepassing zal zijn."
+        },
+        "DATUMINGANGRECHT": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de notariële akte is ingeschreven of anderszins een brondocument waar het zakelijk recht op berust is ingeschreven."
+        },
+        "IDENTIFICATIEZAKELIJKRECHT": {
+          "type": "string",
+          "description": "Een door het Kadaster toegekende landelijk uniek nummer aan een recht."
+        },
+        "TOELICHTINGBEWAARDER": {
+          "type": "string",
+          "description": "ToelichtingBewaarder is een toelichtende tekst die de bewaarder vermeld wil hebben bij de onroerende zaak."
+        }
+      }
+    },
+    "RECHTSPERSOON": {
+      "title": "RECHTSPERSOON",
+      "description": "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "ADRESBINNENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."
+        },
+        "ADRESBUITENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."
+        },
+        "ADRESCORRESPONDENTIE": {
+          "type": "string",
+          "description": "postbus of antwoordnummer"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "Elektronisch postadres waaronder het subject in de regel bereikbaar is."
+        },
+        "FAXNUMMER": {
+          "type": "string",
+          "description": "Faxnummer waaronder het subject in de regel bereikbaar is."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke identificatie van het SUBJECT"
+        },
+        "KVKNUMMER": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string",
+          "description": "De benaming van het SUBJECT"
+        },
+        "RECHTSVORM": {
+          "type": "string",
+          "description": "Bron: Handelsregister"
+        },
+        "REKENINGNUMMER": {
+          "type": "string",
+          "description": "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "Telefoonnummer waaronder het subject in de regel bereikbaar is."
+        }
+      }
+    }
+  }
+}

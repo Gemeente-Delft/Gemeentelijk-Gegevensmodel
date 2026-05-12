@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Omgevingswet Toepasbare Regels",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Omgevingswet Toepasbare Regels",
+  "$defs": {
+    "ACTIVITEIT": {
+      "title": "ACTIVITEIT",
+      "description": "Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd.",
+      "type": "object",
+      "properties": {
+        "GROEP": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "NEN3610ID": {
+          "type": "string"
+        }
+      }
+    },
+    "JURIDISCHE_REGEL": {
+      "title": "JURIDISCHE_REGEL",
+      "description": "De beschrijving van een regel met juridische werkingskracht. Een regel betreft binnen de Omgevingswet veelal activiteiten, en/of normen en/of functies en/of beperkingengebieden.",
+      "type": "object",
+      "properties": {
+        "DATUMBEKEND": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMINWERKING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "REGELTEKST": {
+          "type": "string",
+          "description": "Verwijzing naar lid of artikel van regeltekst"
+        },
+        "THEMA": {
+          "type": "string"
+        }
+      }
+    },
+    "CONCLUSIE": {
+      "title": "CONCLUSIE",
+      "description": "Conclusie van de check. Antwoord op de vraag of ik een melding moet doen of een vergunning aan moet vragen voor een bepaalde activiteit.",
+      "type": "object",
+      "properties": {}
+    },
+    "INDIENINGSVEREISTEN": {
+      "title": "INDIENINGSVEREISTEN",
+      "description": "Dat wat de initiatiefnemer moet aanleveren om het bevoegd gezag een aanvraag te kunnen laten beoordelen. De indieningsvereisten is de set aan informatie (gegevens en / of bijlagen) die aan een aanvraag moet worden toegevoegd voor een bepaalde vergunning of melding.",
+      "type": "object",
+      "properties": {}
+    },
+    "MAATREGELEN": {
+      "title": "MAATREGELEN",
+      "description": "Beschrijft welke handelingen iemand moet uitvoeren om aan Voorschriften te kunnen voldoen.",
+      "type": "object",
+      "properties": {}
+    },
+    "TOEPASBARE_REGEL": {
+      "title": "TOEPASBARE_REGEL",
+      "description": "Vanwege de leesbaarheid wordt gewerkt met de term Toepasbare regel ipv regelbeheersobject\n\nEen regelbeheerobject heeft een koppeling met een samenhangende set met regels om een afleiding te kunnen doen. Het regelbeheerobject ‘conclusie gevelaanpassing’ kan een vraag beantwoorden zoals: “Heb ik een vergunning nodig voor het veranderen van een kozijn, kozijninvulling of gevelpaneel”. Het regelbeheerobject ‘melding lozing’ beantwoordt de vraag “Wat moet ik aan informatie (gegevens en documenten) aanleveren als ik ga lozen vanuit particuliere huishoudens”. Het regelbeheerobject “Opslaan van gasolie smeerolie of afgewerkte olie in een bovengrondse opslagtank” geeft aan welke maatregelen genomen dienen te worden.\nHet regelbeheerobject is onderdeel van de functionele structuur. De set met regels is gedefinieerd in het Toepasbare regelbestand2.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "DOMEIN": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "SOORTAANSLUITPUNT": {
+          "type": "string",
+          "description": "uitbreiden, uitsluiten of vervangen"
+        },
+        "TOESTEMMING": {
+          "type": "string"
+        }
+      }
+    },
+    "TOEPASBAREREGELBESTAND": {
+      "title": "TOEPASBAREREGELBESTAND",
+      "description": "Bestand met aangeleverde toepasbare regels",
+      "type": "object",
+      "properties": {
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "UITVOERINGSREGEL": {
+      "title": "UITVOERINGSREGEL",
+      "description": "De uitvoeringsregels bepalen hoe de benodigde gegevens (input data) wordt uitgevraagd. Dit kan op verschillende manieren gebeuren zoals een vraag aan een initiatiefnemer of een bevraging van een registratie.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "REGEL": {
+          "type": "string"
+        }
+      }
+    },
+    "LOCATIE": {
+      "title": "LOCATIE",
+      "description": "De locatie beschrijft middels co√∂rdinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)",
+      "type": "object",
+      "properties": {
+        "HOOGTE": {
+          "type": "integer",
+          "description": "Hoogte in meters. Negatief is onder het maaiveld en positief boven het maaiveld"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "NEN3610ID": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

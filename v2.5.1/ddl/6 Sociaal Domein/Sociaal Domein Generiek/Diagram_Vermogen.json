@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diagram Vermogen",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Diagram Vermogen",
+  "$defs": {
+    "BANKREKENING": {
+      "title": "BANKREKENING",
+      "description": "De gegevens die betrekking hebben op een bankrekening van een PERSOON of een RECHTSPERSOON.Bron: SGR 16.0We kiezen er voor om bankrekening als zelfstandig concept op te nemen, omdat het mogelijk is dat eenzelfde bankrekening gekoppeld kan zijn aan meerdere personen. Voor rechtspersonen geldt dat een bankrekening maar aan ten hoogste 1 ORGANISATORISCHE EENHEID gekoppeld kan zijn.",
+      "type": "object",
+      "properties": {
+        "BANKREKENINGNUMMER": {
+          "type": "string"
+        },
+        "BRONTYPE": {
+          "type": "string"
+        },
+        "DATUM_AANVANG_BANKREKENING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUM_EINDE_BANKREKENING": {
+          "type": "string",
+          "format": "date"
+        },
+        "IBAN": {
+          "type": "string"
+        },
+        "REKENINGTYPE": {
+          "type": "string"
+        },
+        "TENAAMSTELLING": {
+          "type": "string"
+        },
+        "VOORKEUR_BANKREKENING": {
+          "type": "boolean"
+        }
+      }
+    },
+    "HYPOTHEEK": {
+      "title": "HYPOTHEEK",
+      "description": "Een hypotheek is een lening waarbij een onroerend goed, zoals een woning, dient als onderpand voor de schuld. Het wordt doorgaans verstrekt door een financiële instelling, zoals een bank, en stelt de lener in staat om een woning te kopen of te bouwen. De lening wordt over een afgesproken periode terugbetaald, inclusief rente. Als de lener niet aan de betalingsverplichtingen voldoet, heeft de kredietverstrekker het recht om het onderpand te verkopen om de openstaande schuld te vereffenen. Een hypotheek is daarmee zowel een financieringsvorm als een juridische zekerheid voor de kredietverstrekker.",
+      "type": "object",
+      "properties": {
+        "OVERWAARDE": {
+          "type": "string"
+        }
+      }
+    },
+    "MOTORVOERTUIG": {
+      "title": "MOTORVOERTUIG",
+      "description": "Een motorvoertuig is een voertuig dat is uitgerust met een motor als krachtbron en bedoeld is voor het vervoer van personen, goederen of het uitvoeren van specifieke taken. Het kan zich zelfstandig voortbewegen zonder de directe fysieke inspanning van een bestuurder of passagier. Voorbeelden van motorvoertuigen zijn auto’s, vrachtwagens, motorfietsen en bussen. Motorvoertuigen zijn doorgaans voorzien van wielen en rijden op de weg, en het gebruik ervan is vaak gebonden aan wettelijke regels, zoals registratie, verzekering en rijbewijsvereisten.",
+      "type": "object",
+      "properties": {
+        "KENTEKEN": {
+          "type": "string"
+        },
+        "SOORT_MOTORVOERTUIG": {
+          "type": "string"
+        }
+      }
+    },
+    "ONROEREND_GOED": {
+      "title": "ONROEREND_GOED",
+      "description": "Onroerend goed is een juridische term die verwijst naar fysieke objecten die duurzaam met de grond zijn verbonden en niet zonder schade kunnen worden verplaatst. Dit omvat gronden, gebouwen, woningen en andere constructies die vast met de grond zijn verbonden, zoals bruggen of schuren. Onroerend goed wordt vaak onderscheiden van roerende zaken, die wel verplaatsbaar zijn. Het eigendom en de overdracht van onroerend goed zijn gebonden aan specifieke wettelijke regels, zoals registratie in openbare registers en het opstellen van notariële akten.",
+      "type": "object",
+      "properties": {
+        "OVERWAARDE": {
+          "type": "string"
+        }
+      }
+    },
+    "VERMOGENSCOMPONENT": {
+      "title": "VERMOGENSCOMPONENT",
+      "description": "Een *vermogenscomponent* is een **onderdeel van het totale vermogen** van een persoon of huishouden, dat afzonderlijk wordt weergegeven (zoals spaargeld, beleggingen, eigen woning netto of pensioenvermogen).",
+      "type": "object",
+      "properties": {
+        "CODE_SOORT_VERMOGENSCOMPONENT": {
+          "type": "string"
+        },
+        "DATUM_VASTSTELLING_VERMOGENCOMPONENT": {
+          "type": "string",
+          "format": "date"
+        },
+        "NOG_AAN_TE_SPREKEN_VERMOGEN": {
+          "type": "string"
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "Voorheen: Vermogenscomponent ID\r\nAttribuut is een identificatie maar van het type Integer?"
+        },
+        "VRIJ_TE_LATEN_VERMOGEN": {
+          "type": "string"
+        }
+      }
+    },
+    "WAARDEPEILING": {
+      "title": "WAARDEPEILING",
+      "description": "*Waardepeiling* is een **bepaling of schatting van de waarde van een object, goed of situatie**, verkregen door middel van peiling of inschatting van wat het waard zou zijn.",
+      "type": "object",
+      "properties": {
+        "BIJGEVOEGD_BEWIJS": {
+          "type": "boolean"
+        },
+        "BRONTYPE": {
+          "type": "string"
+        },
+        "DATUM_AANSPRAAK_VERMOGENSCOMPONENT": {
+          "type": "string",
+          "format": "date"
+        },
+        "LINK_NAAR_BEWIJS": {
+          "type": "string"
+        },
+        "PEILMOMENT": {
+          "type": "string",
+          "format": "date"
+        },
+        "WAARDE_VERMOGENSCOMPONENT": {
+          "type": "string"
+        },
+        "WAARDESOORT_VERMOGENSCOMPONENT": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

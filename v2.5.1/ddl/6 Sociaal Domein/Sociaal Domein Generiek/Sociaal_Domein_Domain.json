@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sociaal Domein Domain",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Sociaal Domein Domain",
+  "$defs": {
+    "CLIENT": {
+      "title": "CLIENT",
+      "description": "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente.",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "GEZAGSDRAGERGEKEND": {
+          "type": "boolean"
+        },
+        "JURIDISCHESTATUS": {
+          "type": "string"
+        },
+        "WETTELIJKEVERTEGENWOORDIGING": {
+          "type": "string"
+        }
+      }
+    },
+    "HUISHOUDEN": {
+      "title": "HUISHOUDEN",
+      "description": "Persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continu&#239;teit in de samenstelling ervan, die binnen een woning duurzaam gebruik maakt van dezelfde voorzieningen.",
+      "type": "object",
+      "properties": {
+        "SOORT": {
+          "type": "string"
+        }
+      }
+    },
+    "RELATIE": {
+      "title": "RELATIE",
+      "description": "Betrekking waarin personen, zaken, begrippen of grootheden van nature tot elkaar staan.",
+      "type": "object",
+      "properties": {
+        "RELATIESOORT": {
+          "type": "integer"
+        }
+      }
+    },
+    "RELATIESOORT": {
+      "title": "RELATIESOORT",
+      "description": "De typering van het structurele verband tussen een object van een objecttype en een (ander) object van een ander (of hetzelfde) objecttype.",
+      "type": "object",
+      "properties": {
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

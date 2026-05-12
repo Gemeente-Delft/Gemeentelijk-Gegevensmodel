@@ -1,0 +1,556 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Erfgoed: Archeologie Domeinmodel",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Erfgoed: Archeologie Domeinmodel",
+  "$defs": {
+    "ARCHEOLOGIEBESLUIT": {
+      "title": "ARCHEOLOGIEBESLUIT",
+      "description": "Een professioneel oordeel dat gebaseerd is op algemeen aanvaarde wetenschap ten aanzien van de archeologie",
+      "type": "object",
+      "properties": {}
+    },
+    "ARTEFACT": {
+      "title": "ARTEFACT",
+      "description": "De benaming voor ieder verplaatsbaar object dat door de mens is vervaardigd, bewerkt en/of gebruikt.",
+      "type": "object",
+      "properties": {
+        "ARTEFECTNUMMER": {
+          "type": "string"
+        },
+        "BESCHRIJVING": {
+          "type": "string"
+        },
+        "CONSERVEREN": {
+          "type": "boolean"
+        },
+        "DATERING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATERINGCOMPLEX": {
+          "type": "string",
+          "format": "date"
+        },
+        "DETERMINATIENIVEAU": {
+          "type": "string"
+        },
+        "DIANUMMER": {
+          "type": "string"
+        },
+        "DOOSNUMMER": {
+          "type": "string"
+        },
+        "EXPOSABEL": {
+          "type": "boolean"
+        },
+        "FOTONUMMER": {
+          "type": "string"
+        },
+        "FUNCTIE": {
+          "type": "string"
+        },
+        "HERKOMST": {
+          "type": "string"
+        },
+        "KEY": {
+          "type": "string"
+        },
+        "KEYDOOS": {
+          "type": "string"
+        },
+        "KEYMAGAZIJNPLAATSING": {
+          "type": "string"
+        },
+        "KEYPUT": {
+          "type": "string"
+        },
+        "KEYVONDST": {
+          "type": "string"
+        },
+        "LITERATUUR": {
+          "type": "string"
+        },
+        "MATEN": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OPMERKINGEN": {
+          "type": "string"
+        },
+        "ORIGINE": {
+          "type": "string"
+        },
+        "PROJECTCD": {
+          "type": "string"
+        },
+        "PUTNUMMER": {
+          "type": "string"
+        },
+        "RESTAURATIEWENSELIJK": {
+          "type": "boolean"
+        },
+        "TEKENINGNUMMER": {
+          "type": "string"
+        },
+        "TYPE": {
+          "type": "string"
+        },
+        "VONDSTNUMMER": {
+          "type": "string"
+        }
+      }
+    },
+    "ARTEFACTSOORT": {
+      "title": "ARTEFACTSOORT",
+      "description": "Typering van artefacten",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "BORING": {
+      "title": "BORING",
+      "description": "Een verticale grondmonstername binnen een project\nDe gegevens over het geheel van activiteiten, voor zover relevant voor het onderzoek, dat tot doel heeft door boren een gat in de ondergrond te maken om monsters uit de ondergrond te nemen en/of metingen aan de ondergrond te doen.\nEen middel om door boren of steken toegang te krijgen tot de ondergrond om bijvoorbeeld geroerde en/of ongeroerde monsters aan de ondergrond te ontlenen voor nader onderzoek.",
+      "type": "object",
+      "properties": {}
+    },
+    "DOOS": {
+      "title": "DOOS",
+      "description": "Een afsluitbaar object waar iets in wordt opgeborgen of verpakt.",
+      "type": "object",
+      "properties": {
+        "DOOSNUMMER": {
+          "type": "string"
+        },
+        "HERKOMST": {
+          "type": "string"
+        },
+        "INHOUD": {
+          "type": "string"
+        },
+        "KEY": {
+          "type": "string"
+        },
+        "KEYMAGAZIJNLOCATIE": {
+          "type": "string"
+        },
+        "PROJECTCD": {
+          "type": "string"
+        }
+      }
+    },
+    "KAART": {
+      "title": "KAART",
+      "description": "De geografische weergave van een gedeelte van het aardoppervlak",
+      "type": "object",
+      "properties": {
+        "CONTENT": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "LOCATIE": {
+      "title": "LOCATIE",
+      "description": "Een specifieke plaats",
+      "type": "object",
+      "properties": {
+        "LOCATIEPUNT": {
+          "type": "string"
+        }
+      }
+    },
+    "MAGAZIJNLOCATIE": {
+      "title": "MAGAZIJNLOCATIE",
+      "description": "Locatie van een magazijn",
+      "type": "object",
+      "properties": {
+        "KEY": {
+          "type": "string"
+        },
+        "STELLING": {
+          "type": "string"
+        },
+        "VAKNUMMER": {
+          "type": "string"
+        },
+        "VOLGLETTER": {
+          "type": "string"
+        }
+      }
+    },
+    "MAGAZIJNPLAATSING": {
+      "title": "MAGAZIJNPLAATSING",
+      "description": "Het ergens neerzetten van een object in een magazijn.",
+      "type": "object",
+      "properties": {
+        "BESCHRIJVING": {
+          "type": "string"
+        },
+        "DATUMGEPLAATST": {
+          "type": "string",
+          "format": "date"
+        },
+        "HERKOMST": {
+          "type": "string"
+        },
+        "KEY": {
+          "type": "string"
+        },
+        "KEYDOOS": {
+          "type": "string"
+        },
+        "KEYMAGAZIJNLOCATIE": {
+          "type": "string"
+        },
+        "PROJECTCD": {
+          "type": "string"
+        },
+        "UITGELEEND": {
+          "type": "boolean"
+        }
+      }
+    },
+    "PROJECT": {
+      "title": "PROJECT",
+      "description": "Geheel van activiteiten uitgevoerd in een tijdelijk samenwerkingsverband gericht op het binnen bepaalde randvoorwaarden (bv. tijd, geld) bereiken van een vooraf gedefinieerd resultaat.",
+      "type": "object",
+      "properties": {
+        "COORDINATEN": {
+          "type": "string",
+          "description": "Geometry value (WKT or GeoJSON string)"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "JAARTOT": {
+          "type": "string"
+        },
+        "JAARVAN": {
+          "type": "string"
+        },
+        "LOCATIE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "NAAMCODE": {
+          "type": "string"
+        },
+        "PROJECTCD": {
+          "type": "string"
+        },
+        "TOPONIEM": {
+          "type": "string"
+        },
+        "TREFWOORDEN": {
+          "type": "string"
+        }
+      }
+    },
+    "PUT": {
+      "title": "PUT",
+      "description": "Grondspoor, veelal verstevigd en gefundeerd aangelegd, bedoeld voor de tijdelijke opslag van danwel water (waterput) danwel uitwerpselen en afval (beerput).",
+      "type": "object",
+      "properties": {
+        "KEY": {
+          "type": "string"
+        },
+        "PROJECTCD": {
+          "type": "string"
+        },
+        "PUTNUMMER": {
+          "type": "string"
+        }
+      }
+    },
+    "SPOOR": {
+      "title": "SPOOR",
+      "description": "Een blijk van eerdere aanwezigheid.",
+      "type": "object",
+      "properties": {
+        "AARD": {
+          "type": "string"
+        },
+        "BESCHRIJVING": {
+          "type": "string"
+        },
+        "DATERING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "HOOGTEBOVEN": {
+          "type": "string"
+        },
+        "HOOGTEONDER": {
+          "type": "string"
+        },
+        "KEY": {
+          "type": "string"
+        },
+        "KEYVLAK": {
+          "type": "string"
+        },
+        "PROJECTCD": {
+          "type": "string"
+        },
+        "PUTNUMMER": {
+          "type": "string"
+        },
+        "SPOORNUMMER": {
+          "type": "string"
+        },
+        "VLAKNUMMER": {
+          "type": "string"
+        },
+        "VORM": {
+          "type": "string"
+        }
+      }
+    },
+    "STELLING": {
+      "title": "STELLING",
+      "description": "Een systeem om goederen op te slaan die worden vervoerd en opgeslagen op pallets, in bundels of per stuk.(Wikipedia)",
+      "type": "object",
+      "properties": {
+        "INHOUD": {
+          "type": "string"
+        },
+        "STELLINGCODE": {
+          "type": "string"
+        }
+      }
+    },
+    "VINDPLAATS": {
+      "title": "VINDPLAATS",
+      "description": "Een plek waar men iets gevonden heeft.",
+      "type": "object",
+      "properties": {
+        "AARD": {
+          "type": "string"
+        },
+        "BEGINDATERING": {
+          "type": "string",
+          "format": "date"
+        },
+        "BESCHRIJVING": {
+          "type": "string"
+        },
+        "BIBLIOGRAFIE": {
+          "type": "string"
+        },
+        "DATERING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DEPOT": {
+          "type": "string"
+        },
+        "DOCUMENTATIE": {
+          "type": "string"
+        },
+        "EINDDATERING": {
+          "type": "string",
+          "format": "date"
+        },
+        "GEMEENTE": {
+          "type": "string"
+        },
+        "LOCATIE": {
+          "type": "string"
+        },
+        "MOBILIA": {
+          "type": "string"
+        },
+        "ONDERZOEK": {
+          "type": "string"
+        },
+        "PROJECTCODE": {
+          "type": "string"
+        },
+        "VINDPLAATSOMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "VLAK": {
+      "title": "VLAK",
+      "description": "Plat, oneindig oppervlak of variëteit zonder enige kromming.",
+      "type": "object",
+      "properties": {
+        "DIEPTETOT": {
+          "type": "string"
+        },
+        "DIEPTEVAN": {
+          "type": "string"
+        },
+        "KEY": {
+          "type": "string"
+        },
+        "KEYPUT": {
+          "type": "string"
+        },
+        "PROJECTCD": {
+          "type": "string"
+        },
+        "PUTNUMMER": {
+          "type": "string"
+        },
+        "VLAKNUMMER": {
+          "type": "string"
+        }
+      }
+    },
+    "VONDST": {
+      "title": "VONDST",
+      "description": "Overblijfsel, voorwerp of ander spoor van menselijke aanwezigheid in het verleden afkomstig van een archeologisch monument",
+      "type": "object",
+      "properties": {
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "KEY": {
+          "type": "string"
+        },
+        "KEYVULLING": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "OMSTANDIGHEDEN": {
+          "type": "string"
+        },
+        "PROJECTCD": {
+          "type": "string"
+        },
+        "PUTNUMMER": {
+          "type": "string"
+        },
+        "SPOORNUMMER": {
+          "type": "string"
+        },
+        "VLAKNUMMER": {
+          "type": "string"
+        },
+        "VONDSTNUMMER": {
+          "type": "string"
+        },
+        "VULLINGNUMMER": {
+          "type": "string"
+        },
+        "XCOORDINAAT": {
+          "type": "integer"
+        },
+        "YCOORDINAAT": {
+          "type": "integer"
+        }
+      }
+    },
+    "VULLING": {
+      "title": "VULLING",
+      "description": "Dunne wegeringsplank gebruikt om de ruimte tussen de bovenste kimweger en de onderste balkweger op te vullen (Sopers, 1974).",
+      "type": "object",
+      "properties": {
+        "GRONDSOORT": {
+          "type": "string"
+        },
+        "KEY": {
+          "type": "string"
+        },
+        "KEYSPOOR": {
+          "type": "string"
+        },
+        "KLEUR": {
+          "type": "string"
+        },
+        "PROJECTCD": {
+          "type": "string"
+        },
+        "PUTNUMMER": {
+          "type": "string"
+        },
+        "SPOORNUMMER": {
+          "type": "string"
+        },
+        "STRUCTUUR": {
+          "type": "string"
+        },
+        "VLAKNUMMER": {
+          "type": "string"
+        },
+        "VULLINGNUMMER": {
+          "type": "string"
+        }
+      }
+    },
+    "DOCUMENT": {
+      "title": "DOCUMENT",
+      "description": "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT.",
+      "type": "object",
+      "properties": {
+        "COCUMENTBESCHRIJVING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een generieke beschrijving van de inhoud van het document.</font>"
+        },
+        "DATUMCREATIEDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Een datum of een gebeurtenis in de levenscyclus van het document.</font>"
+        },
+        "DATUMONTVANGSTDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het DOCUMENT ontvangen is.</font>"
+        },
+        "DATUMVERZENDINGDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het DOCUMENT verzonden is.</font>"
+        },
+        "DOCUMENTAUTEUR": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document.</font>"
+        },
+        "DOCUMENTIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een binnen een gegeven context ondubbelzinnige referentie naar het document.</font>\r\n<font color=\"#610e6a\">Bijvoorbeeld potsregistratienummer</font>"
+        },
+        "DOCUMENTTITEL": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De naam waaronder het document formeel bekend is.</font>"
+        },
+        "VERTROUWELIJKAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is.</font>"
+        }
+      }
+    }
+  }
+}

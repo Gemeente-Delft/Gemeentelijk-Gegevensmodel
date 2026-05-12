@@ -1,0 +1,740 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diagram Inkoop Geen Inhuur",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Diagram Inkoop Geen Inhuur",
+  "$defs": {
+    "INKOOPORDER": {
+      "title": "INKOOPORDER",
+      "description": "Een opdracht (gezien vanuit de klant) voor één of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen.",
+      "type": "object",
+      "properties": {
+        "ARTIKELCODE": {
+          "type": "string"
+        },
+        "BETALINGMEERDEREJAREN": {
+          "type": "boolean"
+        },
+        "BETREFT": {
+          "type": "string"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMINGEDIEND": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "GOEDERENCODE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "ORDERNUMMER": {
+          "type": "string"
+        },
+        "SALDO": {
+          "type": "string"
+        },
+        "TOTAALNETTOBEDRAG": {
+          "type": "number"
+        },
+        "WIJZEVANAANBESTEDEN": {
+          "type": "string"
+        }
+      }
+    },
+    "KOSTENPLAATS": {
+      "title": "KOSTENPLAATS",
+      "description": "Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven.",
+      "type": "object",
+      "properties": {
+        "BTWCODE": {
+          "type": "string"
+        },
+        "BTWOMSCHRIJVING": {
+          "type": "string"
+        },
+        "KOSTENPLAATSSOORTCODE": {
+          "type": "number"
+        },
+        "KOSTENPLAATSSOORTOMSCHRIJVING": {
+          "type": "number"
+        },
+        "KOSTENPLAATSTYPECODE": {
+          "type": "number"
+        },
+        "KOSTENPLAATSTYPEOMSCHRIJVING": {
+          "type": "number"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "AANBESTEDING": {
+      "title": "AANBESTEDING",
+      "description": "Kan een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding",
+      "type": "object",
+      "properties": {
+        "DATUMPUBLICATIE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "DIGITAAL": {
+          "type": "boolean"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "REFERENTIENUMMER": {
+          "type": "string"
+        },
+        "SCOREMAXIMAAL": {
+          "type": "integer"
+        },
+        "STATUS": {
+          "type": "string"
+        },
+        "TENDERNEDKENMERK": {
+          "type": "string"
+        },
+        "VOLGENDESLUITING": {
+          "type": "string"
+        },
+        "TYPE": {
+          "type": "string",
+          "enum": [
+            "DIENSTEN_REGULIER",
+            "DIENSTEN_SOCIALE_OF_SPECIFIEKE_DIENSTEN",
+            "LEVERINGEN",
+            "WERKEN"
+          ],
+          "description": "Enumeratie: OPDRACHTCATEGORIE"
+        },
+        "PROCEDURE": {
+          "type": "string",
+          "enum": [
+            "ENKELVOUDIG_ONDERHANDS",
+            "EUROPESE_AANBESTEDING",
+            "MEERVOUDIG_ONDERHANDS",
+            "NATIONALE_AANBESTEDING"
+          ],
+          "description": "Enumeratie: AANBESTEDINGSOORT"
+        }
+      }
+    },
+    "AANKONDIGING": {
+      "title": "AANKONDIGING",
+      "description": "Aankondiging van een Nationale of Europese aanbesteding",
+      "type": "object",
+      "properties": {
+        "BESCHRIJVING": {
+          "type": "string"
+        },
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "TYPE": {
+          "type": "string",
+          "enum": [
+            "ENKELVOUDIG_ONDERHANDS",
+            "EUROPESE_AANBESTEDING",
+            "MEERVOUDIG_ONDERHANDS",
+            "NATIONALE_AANBESTEDING"
+          ],
+          "description": "Enumeratie: AANBESTEDINGSOORT"
+        },
+        "CATEGORIE": {
+          "type": "string",
+          "enum": [
+            "DIENSTEN_REGULIER",
+            "DIENSTEN_SOCIALE_OF_SPECIFIEKE_DIENSTEN",
+            "LEVERINGEN",
+            "WERKEN"
+          ],
+          "description": "Enumeratie: OPDRACHTCATEGORIE"
+        }
+      }
+    },
+    "CONTRACT": {
+      "title": "CONTRACT",
+      "description": "Bindende overeenkomst",
+      "type": "object",
+      "properties": {
+        "AUTORISATIEGROEP": {
+          "type": "string"
+        },
+        "BESCHRIJVING": {
+          "type": "string"
+        },
+        "CATEGORIE": {
+          "type": "string"
+        },
+        "CLASSIFICATIE": {
+          "type": "string"
+        },
+        "CONTRACTREVISIE": {
+          "type": "integer"
+        },
+        "DATUMCREATIE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "GROEP": {
+          "type": "string"
+        },
+        "INTERNCONTRACTID": {
+          "type": "string"
+        },
+        "INTERNCONTRACTREVISIE": {
+          "type": "integer"
+        },
+        "OPMERKINGEN": {
+          "type": "string"
+        },
+        "STATUS": {
+          "type": "string"
+        },
+        "TYPE": {
+          "type": "string"
+        },
+        "VOORWAARDE": {
+          "type": "string"
+        },
+        "ZOEKWOORDEN": {
+          "type": "string"
+        }
+      }
+    },
+    "CPV_CODE": {
+      "title": "CPV_CODE",
+      "description": "De Common Procurement Vocabulary (CPV-codes) is een gemeenschappelijke woordenlijst van de EU, alle mogelijke soorten overheidsopdrachten voor diensten, leveringen en werken hebben een eigen code gekregen. Aanbestedende diensten moeten bij Europese aanbestedingen dit classificatiesysteem toepassen.",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "GUNNING": {
+      "title": "GUNNING",
+      "description": "Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding \nOf voor levering personeel",
+      "type": "object",
+      "properties": {
+        "BERICHT": {
+          "type": "string"
+        },
+        "DATUMGUNNING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMPUBLICATIE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMVOORLOPIGEGUNNING": {
+          "type": "string",
+          "format": "date"
+        },
+        "GEGUNDEPRIJS": {
+          "type": "number"
+        }
+      }
+    },
+    "INKOOPPAKKET": {
+      "title": "INKOOPPAKKET",
+      "description": "Standaard indeling om de werken, diensten en leveringen die de aanbestedende dienst helpt bij het structureren van haar uitgaven. Samenhangende leveringen, diensten en producten zijn hierin gegroepeerd.",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "TYPE": {
+          "type": "string",
+          "enum": [
+            "DIENSTEN_REGULIER",
+            "DIENSTEN_SOCIALE_OF_SPECIFIEKE_DIENSTEN",
+            "LEVERINGEN",
+            "WERKEN"
+          ],
+          "description": "Enumeratie: OPDRACHTCATEGORIE"
+        }
+      }
+    },
+    "INSCHRIJVING": {
+      "title": "INSCHRIJVING",
+      "description": "Inschrijving op een nationale of Europese aanbesteding",
+      "type": "object",
+      "properties": {
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "PRIJS": {
+          "type": "number"
+        },
+        "SCORE": {
+          "type": "integer"
+        }
+      }
+    },
+    "KWALIFICATIE": {
+      "title": "KWALIFICATIE",
+      "description": "Kwalifificatie voor een nationale of europese aanbesteding",
+      "type": "object",
+      "properties": {
+        "EINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "STARTGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "LEVERANCIER": {
+      "title": "LEVERANCIER",
+      "description": "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        }
+      }
+    },
+    "OFFERTE": {
+      "title": "OFFERTE",
+      "description": "Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs.",
+      "type": "object",
+      "properties": {
+        "DATUMOFFERTE": {
+          "type": "string",
+          "format": "date"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "PRIJS": {
+          "type": "number"
+        }
+      }
+    },
+    "OFFERTEAANVRAAG": {
+      "title": "OFFERTEAANVRAAG",
+      "description": "Aanbesteding bij inschrijving",
+      "type": "object",
+      "properties": {
+        "DATUMAANVRAAG": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSLUITING": {
+          "type": "string",
+          "format": "date"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "SELECTIETABELAANBESTEDING": {
+      "title": "SELECTIETABELAANBESTEDING",
+      "description": "Gebaseerd op het procedureoverzicht inkoop. Hierin kan de tabel met drempelbedragen en bijbehorende procedures worden opgeslagen",
+      "type": "object",
+      "properties": {
+        "DREMPELBEDRAGTOT": {
+          "type": "number"
+        },
+        "DREMPELBEDRAGVANAF": {
+          "type": "number"
+        },
+        "OPENBAAR": {
+          "type": "boolean"
+        },
+        "OPDRACHTCATEGORIE": {
+          "type": "string",
+          "enum": [
+            "DIENSTEN_REGULIER",
+            "DIENSTEN_SOCIALE_OF_SPECIFIEKE_DIENSTEN",
+            "LEVERINGEN",
+            "WERKEN"
+          ],
+          "description": "Enumeratie: OPDRACHTCATEGORIE"
+        },
+        "AANBESTEDINGSOORT": {
+          "type": "string",
+          "enum": [
+            "ENKELVOUDIG_ONDERHANDS",
+            "EUROPESE_AANBESTEDING",
+            "MEERVOUDIG_ONDERHANDS",
+            "NATIONALE_AANBESTEDING"
+          ],
+          "description": "Enumeratie: AANBESTEDINGSOORT"
+        }
+      }
+    },
+    "STARTFORMULIERAANBESTEDEN": {
+      "title": "STARTFORMULIERAANBESTEDEN",
+      "description": "Formulier voor het starten van een aanbeseding",
+      "type": "object",
+      "properties": {
+        "BEOOGDELOOPTIJD": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Beoogde looptijd in jaren"
+        },
+        "BEOOGDETOTALEOPDRACHTWAARDE": {
+          "type": "string"
+        },
+        "INDICATIEAANVULLENDEOPDRACHTLEVERANCIER": {
+          "type": "boolean"
+        },
+        "INDICATIEBEOOGDEAANBESTEDINGONDERHANDS": {
+          "type": "boolean",
+          "description": "Welke aanbestedingsprocedure ben je voornemens te volgen? \n<ol>\n <li>1-op-1 (enkelvoudig onderhands) of 3 tot 5 offertes (meervoudig onderhands)</li>\n <li>Nationale of Europese aanbesteding </li>\n</ol>"
+        },
+        "INDICATIEBEOOGDEPROCKOMTOVEREEN": {
+          "type": "boolean",
+          "description": "Komt - op basis van de hierboven genoemde totale opdrachtwaarde - de beoogde aanbestedings-procedure overeen met de voorgeschreven procedure uit het Procedure-overzicht en/of het 'groene' gedeelte in de kleurentabel uit de gids proportionaliteit?"
+        },
+        "INDICATIEEENMALIGELOS": {
+          "type": "boolean"
+        },
+        "INDICATIEMEERJARIGERAAMOVEREENKOMST": {
+          "type": "boolean"
+        },
+        "INDICATIEMEERJARIGREPETEREND": {
+          "type": "boolean"
+        },
+        "INDICATOROVERKOEPELENDPROJECT": {
+          "type": "boolean"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "TOELICHTINGAANVULLENDEOPDRACHT": {
+          "type": "string",
+          "description": "Zijn er mogelijk nog aanvullende of gerelateerde opdrachten, die je ook wilt verstrekken aan de beoogde opdrachtnemer?"
+        },
+        "TOELICHTINGEENMALIGOFREPETEREND": {
+          "type": "string"
+        },
+        "OPDRACHTCATEGORIE": {
+          "type": "string",
+          "enum": [
+            "DIENSTEN_REGULIER",
+            "DIENSTEN_SOCIALE_OF_SPECIFIEKE_DIENSTEN",
+            "LEVERINGEN",
+            "WERKEN"
+          ],
+          "description": "Enumeratie: OPDRACHTCATEGORIE"
+        },
+        "OPDRACHTSOORT": {
+          "type": "string",
+          "enum": [
+            "INHUUR_EXTERN_PERSONEEL",
+            "OPDRACHT_VOOR_LEVERING_DIENSTEN_OF_WERKEN",
+            "SUBSIDIES"
+          ],
+          "description": "Enumeratie: OPDRACHTSOORT"
+        }
+      }
+    },
+    "MEDEWERKER": {
+      "title": "MEDEWERKER",
+      "description": "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID.",
+      "type": "object",
+      "properties": {
+        "ACHTERNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt.</font>"
+        },
+        "DATUMINDIENST": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMUITDIENST": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt.</font>"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font>"
+        },
+        "EXTERN": {
+          "type": "boolean",
+          "description": "Medewerker is een externe?"
+        },
+        "FUNCTIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie.</font>"
+        },
+        "GESLACHTSAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is.</font>"
+        },
+        "MEDEWERKERIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte unieke aanduiding van de medewerker.</font>"
+        },
+        "MEDEWERKERTOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Toelichting bij en/of over de medewerker.</font>"
+        },
+        "ROEPNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Naam waarmee de werknemer wordt aangesproken.</font>"
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Telefoonnummer waaronder de medewerker in de regel bereikbaar is.</font>"
+        },
+        "VOORLETTERS": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen.</font>"
+        },
+        "VOORVOEGSELACHTERNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font>\r\n<font color=\"#610e6a\">gescheiden.</font>"
+        }
+      }
+    },
+    "DOCUMENT": {
+      "title": "DOCUMENT",
+      "description": "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT.",
+      "type": "object",
+      "properties": {
+        "COCUMENTBESCHRIJVING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een generieke beschrijving van de inhoud van het document.</font>"
+        },
+        "DATUMCREATIEDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Een datum of een gebeurtenis in de levenscyclus van het document.</font>"
+        },
+        "DATUMONTVANGSTDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het DOCUMENT ontvangen is.</font>"
+        },
+        "DATUMVERZENDINGDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het DOCUMENT verzonden is.</font>"
+        },
+        "DOCUMENTAUTEUR": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document.</font>"
+        },
+        "DOCUMENTIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een binnen een gegeven context ondubbelzinnige referentie naar het document.</font>\r\n<font color=\"#610e6a\">Bijvoorbeeld potsregistratienummer</font>"
+        },
+        "DOCUMENTTITEL": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De naam waaronder het document formeel bekend is.</font>"
+        },
+        "VERTROUWELIJKAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is.</font>"
+        }
+      }
+    },
+    "ZAAK": {
+      "title": "ZAAK",
+      "description": "Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden.",
+      "type": "object",
+      "properties": {
+        "ARCHIEFNOMINATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden</font>"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de uitvoering van de zaak afgerond is.</font>"
+        },
+        "DATUMEINDEGEPLAND": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt.</font>"
+        },
+        "DATUMEINDEUITERLIJKEAFDOENING": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn.</font>"
+        },
+        "DATUMLAATSTEBETALING": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak.</font>"
+        },
+        "DATUMPUBLICATIE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Datum waarop (het starten van) de zaak gepubliceerd is of wordt.</font>"
+        },
+        "DATUMREGISTRATIE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd</font>"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop met de uitvoering van de zaak is gestart.</font>"
+        },
+        "DATUMVERNIETIGINGDOSSIER": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden.</font>"
+        },
+        "DUURVERLENGING": {
+          "type": "string"
+        },
+        "INDICATIEBETALING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene.</font>"
+        },
+        "INDICATIEDEELZAKEN": {
+          "type": "boolean",
+          "description": "<font color=\"#610e6a\">De aanduiding of een ZAAK behandeld wordt in deelzaken.</font>"
+        },
+        "INDICATIEOPSCHORTING": {
+          "type": "string"
+        },
+        "LEGES": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte omschrijving van de zaak.</font>"
+        },
+        "OMSCHRIJVINGRESULTAAT": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte omschrijving wat het resultaat van de zaak inhoudt.</font>"
+        },
+        "REDENOPSCHORTING": {
+          "type": "string"
+        },
+        "REDENVERLENGING": {
+          "type": "string"
+        },
+        "TOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een toelichting op de zaak.</font>"
+        },
+        "TOELICHTINGRESULTAAT": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een toelichting op wat het resultaat van de zaak inhoudt.</font>"
+        },
+        "VERTROUWELIJKHEID": {
+          "type": "string"
+        },
+        "ZAAKIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een identificatie van de zaak.</font>"
+        },
+        "ZAAKNIVEAU": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken.</font>"
+        }
+      }
+    },
+    "ORGANISATORISCHEEENHEID": {
+      "title": "ORGANISATORISCHEEENHEID",
+      "description": "Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken.",
+      "type": "object",
+      "properties": {
+        "DATUMONTSTAAN": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de organisatorische eenheid is ontstaan.</font>"
+        },
+        "DATUMOPHEFFING": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de organisatorische eenheid is opgeheven.</font>"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Elektronisch postadres waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"
+        },
+        "FAXNUMMER": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Faxnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"
+        },
+        "FORMATIE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De feitelijke naam van de organisatorische eenheid.</font>"
+        },
+        "NAAMVERKORT": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een verkorte naam voor de organisatorische eenheid.</font>"
+        },
+        "OMSCHRIJVING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een omschrijving van de organisatorische eenheid.</font>"
+        },
+        "ORGANISATIEIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte identificatie van de organisatorische eenheid.</font>"
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Telefoonnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"
+        },
+        "TOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Toelichting bij de organisatorische eenheid.</font>"
+        }
+      }
+    }
+  }
+}

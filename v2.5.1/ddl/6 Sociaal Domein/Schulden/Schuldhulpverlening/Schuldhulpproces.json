@@ -1,0 +1,433 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Schuldhulpproces",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Schuldhulpproces",
+  "$defs": {
+    "AANMELDING": {
+      "title": "AANMELDING",
+      "description": "Moment dat een persoon met een hulpvraag komt rondom (dreigende) schulden. Dit kan een persoonlijke, schriftelijke, digitale of telefonische vraag zijn.",
+      "type": "object",
+      "properties": {
+        "CRISISINTERVENTIE": {
+          "type": "boolean",
+          "description": "Is er sprake van een crisisinterventie? Indicator crisisinterventie. \"Het afwenden van een crisis- of dreigende situatie om zo de mogelijkheid te cre&#235;ren om de klant te helpen via de reguliere schuldhulpverlening.\nVolgens de Wgs gaat het in elk geval om de volgende situaties:\n■ gedwongen woningontruiming;\n■ be&#235;indiging van de levering van gas, water, elektriciteit of stadsverwarming;\n■ opzegging of ontbinding van de zorgverzekering.\nGemeenten kunnen extra situaties toevoegen aan hun crisisprotocol, zoals:\n■ aangekondigde boedelverkoop of verkoop van de eigen woning;\n■ loon- of bankbeslag;\n■ een faillissementsaanvraag.\nEn voor ondernemers:\n■ beslag op (on)roerende zaken dat het voortbestaan van de onderneming bedreigt;\n■ opzegging van het bankkrediet.\""
+        },
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "STARTDATUM": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop een persoon met een hulpvraag komt rondom (dreigende) schulden, en het eerste contact met schuldhulpverlening is geweest. Dit kan een persoonlijke, schriftelijke, digitale of telefonische vraag zijn."
+        }
+      }
+    },
+    "BEGELEIDING": {
+      "title": "BEGELEIDING",
+      "description": "Begeleiding voor clienten in het kader van schuldhulpdienstverlening.",
+      "type": "object",
+      "properties": {
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "SOORT": {
+          "type": "string",
+          "enum": [
+            "BESCHERMINGSBEWIND",
+            "BUDGETBEGELEIDING",
+            "BUDGETBEHEER",
+            "BUDGETCOACHING",
+            "LANGE_TERMIJN_BEGELEIDING_DFD_"
+          ],
+          "description": "Enumeratie: ENUMBEGELEIDINGSSOORT"
+        }
+      }
+    },
+    "CRISISINTERVENTIE": {
+      "title": "CRISISINTERVENTIE",
+      "description": "Het afwenden van een crisis- of dreigende situatie om zo de mogelijkheid te cre&#235;ren om de klant te helpen via de reguliere schuldhulpverlening.\nVolgens de Wgs gaat het in elk geval om de volgende situaties:\n■ gedwongen woningontruiming;\n■ be&#235;indiging van de levering van gas, water, elektriciteit of stadsverwarming;\n■ opzegging of ontbinding van de zorgverzekering.\nGemeenten kunnen extra situaties toevoegen aan hun crisisprotocol, zoals:\n■ aangekondigde boedelverkoop of verkoop van de eigen woning;\n■ loon- of bankbeslag;\n■ een faillissementsaanvraag.\nEn voor ondernemers:\n■ beslag op (on)roerende zaken dat het voortbestaan van de onderneming bedreigt;\n■ opzegging van het bankkrediet.",
+      "type": "object",
+      "properties": {
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "INFORMATIEENADVIES": {
+      "title": "INFORMATIEENADVIES",
+      "description": "<font color=\"#1e1d3a\">Het betreft hier de activiteiten die in het kader van Informatie en advies worden uitgevoerd. Het doel van Informatie en Advies is inwoners zelf in staat te stellen een duurzaam financieel evenwicht te bereiken. Het kan een beroep op uitgebreidere vormen van dienstverlening overbodig maken.</font>",
+      "type": "object",
+      "properties": {
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "INTAKE": {
+      "title": "INTAKE",
+      "description": "Dit is de fase tussen het eerste gesprek en het Plan van Aanpak. Tijdens de intakefase wordt geinventariseerd welke instrumenten, ondersteuning, activiteiten en gegevens nodig zijn om een duurzaam financieel evenwicht te bereiken.",
+      "type": "object",
+      "properties": {
+        "BESCHIKKINGSDATUM": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de beschikking is afgegeven."
+        },
+        "BESCHIKKINGSSOORT": {
+          "type": "string"
+        },
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum van afronding van de intake. Een klant ontvangt een gemotiveerde afwijzing of een toelatingsbeschikking."
+        },
+        "STARTDATUM": {
+          "type": "string",
+          "format": "date",
+          "description": "Het gesprek dat plaatsvindt na aanmelding of na ontvangst hulpvraag (bijv. bij doorverwijzing vanuit vroegsignalering). Doel van dit gesprek is om de hulpvraag vast te stellen en te beoordelen welke instrumenten, ondersteuning, activiteiten en gegevens nodig zijn om een persoon te helpen om een duurzaam financieel evenwicht te bereiken."
+        }
+      }
+    },
+    "LEEFSITUATIE": {
+      "title": "LEEFSITUATIE",
+      "description": "Leefsituatie is de combinatie van factoren zoals schulden, ondernemerschap, aanwezigheid van een partner, en inkomen, die samen de sociale en economische omstandigheden van een individu bepalen. Deze wordt in het kader van schuldhulpverlening gebruikt om alle relevante zaken van clienten aan te koppelen.",
+      "type": "object",
+      "properties": {
+        "DATUMGELDIGTOT": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMGELDIGVANAF": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "MORATORIUM": {
+      "title": "MORATORIUM",
+      "description": "Het gaat hier om de datum waarop een verzoek tot een moratorium (ex art. 287 b Fw) is ingediend bij de rechter.\n\nEr kan een verzoek tot een moratorium bij de rechter worden gedaan om te voorkomen dat een schuldeiser zijn specifieke inningsmogelijkheden gebruikt, terwijl een aanvraag voor een minnelijke schuldregeling in behandeling is. Het moratorium is bedoeld om het minnelijke traject te kunnen voortzetten.\n\nHet moratorium kan in de volgende situaties worden ingezet:\n- gedwongen woningontruiming;\n- be&#235;indiging van de levering van gas, water elektriciteit of stadsverwarming;\n- opzegging dan wel ontbinding van de zorgverzekering.\n\nHet moratorium duurt maximaal zes maanden.",
+      "type": "object",
+      "properties": {
+        "DATUMAANVRAAG": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMGOEDKEURING": {
+          "type": "string",
+          "format": "date"
+        },
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "NAZORG": {
+      "title": "NAZORG",
+      "description": "Ondersteuning die een persoon ontvangt n&#225; een schuldhulptraject, om zo bij de start van een schuldenvrij leven zelfredzaamheid verder te bevorderen &#233;n recidive (terugval) te voorkomen.",
+      "type": "object",
+      "properties": {
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "OPLOSSING": {
+      "title": "OPLOSSING",
+      "description": "<font color=\"#0e0e0e\">In de schuldhulpverlening verwijst een “oplossing” naar een regeling waarbij schulden op een beheersbare manier worden afgelost of kwijtgescholden, met als doel de financi&#235;le situatie van de schuldenaar te stabiliseren. Er worden verschillende oplossingsvormen onderscheiden, waaronder saneringskrediet, schuldbemiddeling, herfinanciering, betalingsregelingen en schuldregelingen zonder afloscapaciteit. Bij een saneringskrediet ontvangt de schuldenaar een lening om alle schuldeisers in &#233;&#233;n keer af te betalen, waarna hij deze lening aflost aan de kredietverstrekker. Schuldbemiddeling houdt in dat de schuldenaar gedurende een afgesproken periode periodiek bedragen aflost aan de schuldeisers. Herfinanciering betreft het vervangen van bestaande schulden door een nieuwe lening met gunstigere voorwaarden. Een betalingsregeling is een afspraak tussen schuldenaar en schuldeiser om de schuld in termijnen af te lossen. Bij een schuldregeling zonder afloscapaciteit wordt vastgesteld dat de schuldenaar geen financi&#235;le ruimte heeft om af te lossen, wat kan leiden tot kwijtschelding van de schuld. Deze oplossingsvormen worden ingezet afhankelijk van de specifieke situatie van de schuldenaar en zijn gericht op een duurzame oplossing van de schuldenproblematiek.  </font>",
+      "type": "object",
+      "properties": {
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date",
+          "description": "Het gaat om het moment dat een schuldregeling (saneringskrediet/schuldbemiddeling) of volledige afbetalingsregeling (betalingsregeling/herfinanciering) daadwerkelijk eindigt. Dit kan zijn na de formele afgesproken periode of een voortijdige beeindiging."
+        },
+        "STARTDATUM": {
+          "type": "string",
+          "format": "date",
+          "description": "Het gaat om het moment dat een schuldregeling (saneringskrediet/schuldbemiddeling) of volledige afbetalingsregeling (betalingsregeling/herfinanciering) daadwerkelijk start na goedkeuring van de aanvraag."
+        },
+        "VTLB": {
+          "type": "string",
+          "description": "Het “Vrij te laten bedrag” (VTLB) is het bedrag (in hele euro's per maand) dat een persoon of huishouden met schulden mag behouden om in de basisbehoeften te voorzien. Dit bedrag wordt vastgesteld tijdens schuldhulpverleningstrajecten. Het VTLB zorgt ervoor dat iemand niet verder in de problemen komt door schulden af te lossen en tegelijkertijd nog kan voorzien in noodzakelijke kosten van levensonderhoud."
+        },
+        "SOORT": {
+          "type": "string",
+          "enum": [
+            "0_AANBOD",
+            "BETALINGSREGELING",
+            "HERFINANCIERING",
+            "SANERINGSKREDIET",
+            "SCHULDBEMIDDELING"
+          ],
+          "description": "Enumeratie: ENUMOPLOSSINGSSOORT"
+        }
+      }
+    },
+    "PLANVANAANPAK": {
+      "title": "PLANVANAANPAK",
+      "description": "Een document waarin in elk geval het volgende staat:\n■ de hulpvraag van de persoon;\n■ de voorgestelde ondersteuning;\n■ eventueel de organisatie(s) waarnaar je hebt doorverwezen;\n■ de voorwaarden voor schuldhulpverlening (bijvoorbeeld dat de persoon geen nieuwe schulden mag maken).\n\nDe hoogte van beslagvrije voet voor de persoon (zie artikel 4a:5 van de Wgs) moet in acht worden genomen.",
+      "type": "object",
+      "properties": {
+        "DATUMAFRONDING": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "SCHULDHULPORGANISATIE": {
+      "title": "SCHULDHULPORGANISATIE",
+      "description": "Een schuldhulporganisatie is een instantie die individuen en gezinnen helpt met het beheren, verminderen en oplossen van hun schulden door middel van advies, begeleiding en bemiddeling.\nHet betreft een gemeenten of een SHV-organisatie die de gemeentelijke schuldhulpverleningstaak vanuit een gemeente gemandateerd of gedelegeerd heeft.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "SCHULDHULPTRAJECT": {
+      "title": "SCHULDHULPTRAJECT",
+      "description": "Samenstel van achtereenvolgens uit te voeren en onderling samenhangende deelhandelingen of van opeenvolgende stadia in een proces, voorgesteld als een route die via opeenvolgende bestemmingen naar de eindbestemming voert.",
+      "type": "object",
+      "properties": {
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "TOEKENNINGSDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "TOTAALSCHULDBEDRAGBIJAANVANGSCHULD": {
+          "type": "number",
+          "description": "Bedrag in hele euro's nauwkeurig voor elke schuld die meegaat in de schuldregeling. Per schuldeiser kunnen er meerdere openstaande schulden zijn. Deze afzonderlijk meenemen."
+        }
+      }
+    },
+    "SCHULDREGELING": {
+      "title": "SCHULDREGELING",
+      "description": "De schuldregeling heeft als doel een overeenkomst te sluiten tussen iemand met problematische schulden en zijn schuldeisers. Op basis van eventueel ingezet vermogen en de berekende afloscapaciteit (of op andere wijze vastgestelde minimale afdracht) lost de schuldenaar in maximaal 18 maanden zo veel mogelijk van de schuld af. Daarna schelden de schuldeisers de rest van hun vordering kwijt. Voordat de schuldregeling start, sluit je een schuldregelingsovereenkomst met de schuldenaar. Daarin staan de rechten en plichten van beide partijen. Een schuldregeling kan met een saneringskrediet of een schuldbemiddeling gerealiseerd worden. Als een of meer schuldeisers blijven weigeren in te stemmen met de minnelijke schuldregeling, informeer je de schuldenaar over mogelijke vervolgstappen, zoals het aanvragen van een dwangakkoord (artikel 287a Fw) of toelating tot de Wsnp.",
+      "type": "object",
+      "properties": {
+        "AFGEWEZEN": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop afwijzingheeft plaatgevonden. Leeg betekent: (nog) geen afwijzing plaatgevonden"
+        },
+        "DATUM": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum dat schuldregeling door de schuldhulpverlener is ingediend."
+        },
+        "DATUMVERZOEKDWANGAKKOORD": {
+          "type": "string",
+          "format": "date"
+        },
+        "DWANGAKKOORD": {
+          "type": "boolean",
+          "description": "Een vervolgstap die mogelijk is als een of meer schuldeisers blijven weigeren in te stemmen met de minnelijke schuldregelingaanvragen. Dit verzoek wordt ingediend bij de rechtbank (artikel 287a Fw)."
+        },
+        "INGETROKKEN": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop schuldregeling is ingetrokken. Leeg betekent: (nog) geen intrekking plaatgevonden"
+        },
+        "TOEGEKEND": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop toekenning heeft plaatgevonden. Leeg betekent: (nog) geen toekenning plaatgevonden"
+        }
+      }
+    },
+    "STABILISATIE": {
+      "title": "STABILISATIE",
+      "description": "Fase van het schuldhulpverleningstraject met als doel de inkomsten en uitgaven van een persoon in evenwicht te brengen. De stabilisatie van inkomen en uitgaven is een resultaat van werkzaamheden uit het plan van aanpak. Als stabilisatie bereikt is kan een betalingsregeling, herfinanciering of schuldregeling worden opgezet. Een belangrijk tweede doel is om de hulpvrager hierbij schuldenrust te bieden: stress wegnemen en tijd maken voor oplossingen naar een schuldenzorgvrije toekomst. \nIn de stabilisatiefase kan een schuldhulpverlener andere instrumenten, activiteiten of ondersteuning inzetten, die bijdragen aan de duurzame oplossing van het financi&#235;le probleem, zoals budgetcoaching, budgetbeheer, beschermingsbewind of flankerende hulp.",
+      "type": "object",
+      "properties": {
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "UITSTROOM": {
+      "title": "UITSTROOM",
+      "description": "Het betreft hier de gegevens die worden vastgelegd bij uitstroom en dus be&#235;indiging van een schuldhulptraject.",
+      "type": "object",
+      "properties": {
+        "DATUM": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum dat clienten uit het schuldhulptraject zijn uitgestroomd. Deze datum is gelijk aan de datum be&#235;indigingsbeschikking."
+        },
+        "DATUMBEEINDIGINGSBESCHIKKING": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum dat de Be&#235;indigingsbeschikking is afgegeven."
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "REDEN": {
+          "type": "string",
+          "enum": [
+            "AFGEROND",
+            "INGETROKKEN",
+            "NIETVERSCHENEN",
+            "NIET_PASSEND",
+            "OVERIG",
+            "OVERLEDEN",
+            "VERHUISD",
+            "VOLDOET_NIET",
+            "ZELF"
+          ],
+          "description": "Enumeratie: ENUMUITSTROOMREDEN"
+        }
+      }
+    },
+    "VOORLOPIGEVOORZIENING_": {
+      "title": "VOORLOPIGEVOORZIENING_",
+      "description": "<font color=\"#0e0e0e\">Een voorlopige voorziening is een tijdelijke regeling die de hulpvrager beschermt tegen verslechtering van zijn financi&#235;le situatie of het verlies van essenti&#235;le voorzieningen (zoals energie, woning, zorg), totdat een schuldregelingstraject is gestart of er meer duidelijkheid is over de vervolgstappen.</font>\n<font color=\"#0e0e0e\">\n</font><font color=\"#0e0e0e\">Voorbeelden van voorlopige voorzieningen:</font>\n<font color=\"#0e0e0e\">\t•\tTijdelijke betalingsregelingen met schuldeisers</font>\n<font color=\"#0e0e0e\">\t•\tEen moratorium (tijdelijke opschorting van afbetalingen)</font>\n<font color=\"#0e0e0e\">\t•\tHet aanvragen van uitstel van betaling bij woningcorporaties of energiebedrijven</font>\n<font color=\"#0e0e0e\">\t•\tHulp bij het voorkomen van afsluiting van gas, water, licht of ontruiming</font>\n<font color=\"#0e0e0e\">\t•\tBudgetbeheer of beschermingsbewind als tijdelijke maatregel</font>",
+      "type": "object",
+      "properties": {
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "WSNP_TRAJECT": {
+      "title": "WSNP_TRAJECT",
+      "description": "Een WSNP-traject (Wet schuldsanering natuurlijke personen) is een wettelijk regeling in Nederland waarmee individuen met problematische schulden via een saneringsplan onder toezicht van een bewindvoerder hun schulden kunnen aflossen en na drie jaar een schone lei kunnen krijgen.",
+      "type": "object",
+      "properties": {
+        "DATUMGOEDKEURING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMVERZOEK": {
+          "type": "string",
+          "format": "date"
+        },
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "CLIENT": {
+      "title": "CLIENT",
+      "description": "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente.",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "GEZAGSDRAGERGEKEND": {
+          "type": "boolean"
+        },
+        "JURIDISCHESTATUS": {
+          "type": "string"
+        },
+        "WETTELIJKEVERTEGENWOORDIGING": {
+          "type": "string"
+        }
+      }
+    },
+    "GEMEENTE": {
+      "title": "GEMEENTE",
+      "description": "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet.",
+      "type": "object",
+      "properties": {
+        "BEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie\r\nBeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.\r\nBeschrijving\r\nVanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de object in de BAG formeel is ingetrokken."
+        },
+        "DATUMINGANG": {
+          "type": "string",
+          "format": "date"
+        },
+        "EINDGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie\r\nEindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.\r\nBeschrijving\r\nTot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."
+        },
+        "GECONSTATEERD": {
+          "type": "boolean"
+        },
+        "GEMEENTECODE": {
+          "type": "string",
+          "description": "Een numerieke aanduiding waarmee een Nederlandse gemeente uniek wordt aangeduid"
+        },
+        "GEMEENTENAAM": {
+          "type": "string",
+          "description": "De officiële door de gemeente vastgestelde gemeentenaam."
+        },
+        "GEMEENTENAAM_NEN": {
+          "type": "string",
+          "description": "De officieel vastgestelde en waar nodig ingekorte naam van de gemeente"
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "De tweedimensionale geometrische representatie van de omtrekken van het grondgebied van een gemeente."
+        },
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "VERSIE": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

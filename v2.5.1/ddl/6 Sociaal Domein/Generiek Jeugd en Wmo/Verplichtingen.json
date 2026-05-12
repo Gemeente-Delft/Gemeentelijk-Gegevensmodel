@@ -1,0 +1,275 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Verplichtingen",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Verplichtingen",
+  "$defs": {
+    "AOM_AANVRAAGWMOJEUGD": {
+      "title": "AOM_AANVRAAGWMOJEUGD",
+      "description": "*AOM_AanvraagWmoJeugd* is een objecttype in het gegevensmodel voor Wmo en Jeugd dat een **aanvraagtraject voor ondersteuning onder de Wet maatschappelijke ondersteuning (Wmo) en/of Jeugdwet** representeert.",
+      "type": "object",
+      "properties": {
+        "CLIENTREACTIE": {
+          "type": "string"
+        },
+        "DATUMBESCHIKKING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEERSTEAFSPRAAK": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum van de eerste afspraak in het\nproces."
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "De daadwerkelijke einddatum van de\ngekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proces of niet van toepassing. Deze einddatum is afhankelijk van de gekozen doorloopmethodiek"
+        },
+        "DATUMPLANVASTGESTELD": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het plan is vastgesteld in de melding."
+        },
+        "DATUMSTARTAANVRAAG": {
+          "type": "string",
+          "format": "date",
+          "description": "Start van het proces=start vd aanvraag"
+        },
+        "DESKUNDIGHEID": {
+          "type": "string"
+        },
+        "DOORLOOPMETHODIEK": {
+          "type": "string"
+        },
+        "MAXIMALEDOORLOOPTIJD": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Het aantal dagen tussen de startdatum en de einddatum van de doorloopmethodiek ten tijde van het aanmaken van het proces. Dit veld geeft daarmee aan hoe lang men over een proces zou mogen doen."
+        },
+        "REDENAFSLUITING": {
+          "type": "string"
+        }
+      }
+    },
+    "BESCHIKTE_VOORZIENING": {
+      "title": "BESCHIKTE_VOORZIENING",
+      "description": "Een voorziening waarover een beschikking is gedaan.",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDEOORSPRONKELIJK": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "EENHEID": {
+          "type": "string"
+        },
+        "FREQUENTIE": {
+          "type": "string"
+        },
+        "LEVERINGSVORM": {
+          "type": "string"
+        },
+        "OMVANG": {
+          "type": "integer"
+        },
+        "REDENEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "STATUS": {
+          "type": "string"
+        },
+        "WET": {
+          "type": "string"
+        }
+      }
+    },
+    "VERPLICHTING_WMO_JEUGD": {
+      "title": "VERPLICHTING_WMO_JEUGD",
+      "description": "*Verplichting Wmo Jeugd* is de wettelijke plicht van gemeenten om inwoners ondersteuning, hulp of zorg te bieden wanneer zij dat nodig hebben op grond van de Wet maatschappelijke ondersteuning (Wmo) en de Jeugdwet.",
+      "type": "object",
+      "properties": {
+        "BUDGETSOORT": {
+          "type": "integer"
+        },
+        "BUDGETSOORTGROEP": {
+          "type": "integer"
+        },
+        "EINDDATUMGEPLAND": {
+          "type": "string",
+          "format": "date"
+        },
+        "FEITELIJKE_EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "JAAR": {
+          "type": "integer"
+        },
+        "PERIODICITEIT": {
+          "type": "integer"
+        },
+        "VERPLICHTINGSOORT": {
+          "type": "integer"
+        }
+      }
+    },
+    "CLIENT": {
+      "title": "CLIENT",
+      "description": "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente.",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "GEZAGSDRAGERGEKEND": {
+          "type": "boolean"
+        },
+        "JURIDISCHESTATUS": {
+          "type": "string"
+        },
+        "WETTELIJKEVERTEGENWOORDIGING": {
+          "type": "string"
+        }
+      }
+    },
+    "LEVERANCIER": {
+      "title": "LEVERANCIER",
+      "description": "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie",
+      "type": "object",
+      "properties": {
+        "AGBCODE": {
+          "type": "string"
+        },
+        "LEVERANCIERSCODE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "SOORTLEVERANCIER": {
+          "type": "string"
+        },
+        "SOORTLEVERANCIERCODE": {
+          "type": "string"
+        }
+      }
+    },
+    "HOOFDREKENING": {
+      "title": "HOOFDREKENING",
+      "description": "is kostensoort",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "PIAHOOFCATEGORIEOMSCHRIJVING": {
+          "type": "string"
+        },
+        "PIAHOOFDCATEGORIECODE": {
+          "type": "string"
+        },
+        "SUBCODE": {
+          "type": "string"
+        },
+        "SUBCODEOMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "INKOOPORDER": {
+      "title": "INKOOPORDER",
+      "description": "Een opdracht (gezien vanuit de klant) voor één of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen.",
+      "type": "object",
+      "properties": {
+        "ARTIKELCODE": {
+          "type": "string"
+        },
+        "BETALINGMEERDEREJAREN": {
+          "type": "boolean"
+        },
+        "BETREFT": {
+          "type": "string"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMINGEDIEND": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "GOEDERENCODE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "ORDERNUMMER": {
+          "type": "string"
+        },
+        "SALDO": {
+          "type": "string"
+        },
+        "TOTAALNETTOBEDRAG": {
+          "type": "number"
+        },
+        "WIJZEVANAANBESTEDEN": {
+          "type": "string"
+        }
+      }
+    },
+    "KOSTENPLAATS": {
+      "title": "KOSTENPLAATS",
+      "description": "Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven.",
+      "type": "object",
+      "properties": {
+        "BTWCODE": {
+          "type": "string"
+        },
+        "BTWOMSCHRIJVING": {
+          "type": "string"
+        },
+        "KOSTENPLAATSSOORTCODE": {
+          "type": "number"
+        },
+        "KOSTENPLAATSSOORTOMSCHRIJVING": {
+          "type": "number"
+        },
+        "KOSTENPLAATSTYPECODE": {
+          "type": "number"
+        },
+        "KOSTENPLAATSTYPEOMSCHRIJVING": {
+          "type": "number"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

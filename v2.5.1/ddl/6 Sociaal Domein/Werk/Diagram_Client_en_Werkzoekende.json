@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diagram Client en Werkzoekende",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Diagram Client en Werkzoekende",
+  "$defs": {
+    "CLIENT": {
+      "title": "CLIENT",
+      "description": "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente.",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "GEZAGSDRAGERGEKEND": {
+          "type": "boolean"
+        },
+        "JURIDISCHESTATUS": {
+          "type": "string"
+        },
+        "WETTELIJKEVERTEGENWOORDIGING": {
+          "type": "string"
+        }
+      }
+    },
+    "CLIENTBEGELEIDER": {
+      "title": "CLIENTBEGELEIDER",
+      "description": "De persoon die verantwoordelijk is voor het opstellen en uitvoeren van het  ondersteuningsplan in samenwering met de client en personen uit zijn/haar omgeving .",
+      "type": "object",
+      "properties": {
+        "BEGELEIDERSCODE": {
+          "type": "string"
+        }
+      }
+    },
+    "DOELGROEP": {
+      "title": "DOELGROEP",
+      "description": "<font color=\"#0e0e0e\">Een specifieke groep personen met gedeelde kenmerken (zoals afstand tot de arbeidsmarkt) die in aanmerking komt voor bepaalde voorzieningen of aangepaste begeleiding.</font>",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "WERKZOEKENDE": {
+      "title": "WERKZOEKENDE",
+      "description": "<font color=\"#0e0e0e\">Een generiek werkprofiel van een persoon waarin diens arbeidspositie, bemiddelbaarheid en begeleidingsbehoefte worden vastgelegd, als basis voor begeleiding naar arbeid.</font>",
+      "type": "object",
+      "properties": {
+        "DATUMAANVANGWERKZOEKENDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDEWERKZOEKENDE": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    }
+  }
+}

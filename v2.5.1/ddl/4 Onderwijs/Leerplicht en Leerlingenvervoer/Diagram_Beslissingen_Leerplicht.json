@@ -1,0 +1,383 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diagram Beslissingen Leerplicht",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Diagram Beslissingen Leerplicht",
+  "$defs": {
+    "AANVRAAGOFMELDING_116": {
+      "title": "AANVRAAGOFMELDING_116",
+      "description": "Komt overeen met een VJV",
+      "type": "object",
+      "properties": {
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "OPMERKINGEN": {
+          "type": "string"
+        },
+        "REDEN": {
+          "type": "string"
+        },
+        "SOORTVERZUIMOFAANVRAAG": {
+          "type": "string",
+          "enum": [
+            "ABSOLUUT",
+            "RELATIEF"
+          ],
+          "description": "Enumeratie: VERZUIMSOORT"
+        }
+      }
+    },
+    "AANVRAAGVRIJSTELLING": {
+      "title": "AANVRAAGVRIJSTELLING",
+      "description": "Vrijstelling van een aanvraag voor leerlingenvervoer",
+      "type": "object",
+      "properties": {
+        "BUITENLANDSESCHOOLLOCATIE": {
+          "type": "string"
+        },
+        "DATUMAANVRAAG": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "BESCHIKKING_LEERLINGENVERVOER": {
+      "title": "BESCHIKKING_LEERLINGENVERVOER",
+      "description": "Een formeel besluit dat genomen wordt door een bevoegde instantie over het al dan niet toekennen van leerlingenvervoer aan een bepaalde leerling.",
+      "type": "object",
+      "properties": {}
+    },
+    "BESLISSING": {
+      "title": "BESLISSING",
+      "description": "Selectie van een voorstelbare werkelijkheid (voorkeursvariant) uit een aantal mogelijke werkelijkheden (varianten) op basis van een verzameling van criteria.",
+      "type": "object",
+      "properties": {
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "OPMERKINGEN": {
+          "type": "string"
+        },
+        "REDEN": {
+          "type": "string"
+        }
+      }
+    },
+    "DOORGELEIDING_OM": {
+      "title": "DOORGELEIDING_OM",
+      "description": "De overdracht van een leerplichtzaak aan het Openbaar Ministerie voor juridische vervolging.",
+      "type": "object",
+      "properties": {
+        "AFDOENING": {
+          "type": "string"
+        }
+      }
+    },
+    "HALT_VERWIJZING": {
+      "title": "HALT_VERWIJZING",
+      "description": "Jongeren van 12 tot 18 jaar die strafbare feiten plegen, zoals bijvoorbeeld: winkeldiefstal, vernieling, openbaar dronkenschap of oplichting kunnen naar Halt worden verwezen. In sommige gevallen is daarvoor toestemming nodig van het Openbaar Ministerie.",
+      "type": "object",
+      "properties": {
+        "AFDOENING": {
+          "type": "string"
+        },
+        "DATUMMUTATIE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMRETOUR": {
+          "type": "string",
+          "format": "date"
+        },
+        "MEMO": {
+          "type": "string"
+        }
+      }
+    },
+    "KLACHT_LEERLINGENVERVOER": {
+      "title": "KLACHT_LEERLINGENVERVOER",
+      "description": "Een uiting van ontevredenheid over het vervoer van leerlingen.",
+      "type": "object",
+      "properties": {}
+    },
+    "LEERPLICHTAMBTENAAR": {
+      "title": "LEERPLICHTAMBTENAAR",
+      "description": "Ambtenaar die toezicht houdt op de uitvoering van de leerplichtwet.",
+      "type": "object",
+      "properties": {}
+    },
+    "PROCESVERBAAL_ONDERWIJS": {
+      "title": "PROCESVERBAAL_ONDERWIJS",
+      "description": "Een officieel document dat een overtreding van de leerplichtwet vastlegt.",
+      "type": "object",
+      "properties": {
+        "DATUMAFGEHANDELD": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDEPROEFTIJD": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "DATUMINGELICHT": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMUITSPRAAK": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMZITTING": {
+          "type": "string",
+          "format": "date"
+        },
+        "GELDBOETE": {
+          "type": "string"
+        },
+        "OPMERKINGEN": {
+          "type": "string"
+        },
+        "PROEFTIJD": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Proeftijd in dagen"
+        },
+        "REDEN": {
+          "type": "string"
+        },
+        "SANCTIESOORT": {
+          "type": "string"
+        },
+        "UITSPRAAK": {
+          "type": "string"
+        },
+        "GELDBOETEVOORWAARDELIJK": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        },
+        "VERZUIMSOORT": {
+          "type": "string",
+          "enum": [
+            "ABSOLUUT",
+            "RELATIEF"
+          ],
+          "description": "Enumeratie: VERZUIMSOORT"
+        }
+      }
+    },
+    "VERLOFAANVRAAG": {
+      "title": "VERLOFAANVRAAG",
+      "description": "Een verzoek om toestemming te krijgen iets te doen, bijvoorbeeld vakantie of studie",
+      "type": "object",
+      "properties": {
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMTOT": {
+          "type": "string",
+          "format": "date"
+        },
+        "SOORTVERLOF": {
+          "type": "string"
+        }
+      }
+    },
+    "VERVOERDER": {
+      "title": "VERVOERDER",
+      "description": "Degene die openbaar vervoer of besloten busvervoer verricht, niet in de hoedanigheid van bestuurder van een auto, bus, trein, metro, tram of een via een geleidesysteem voortbewogen voertuig.",
+      "type": "object",
+      "properties": {}
+    },
+    "VERZUIMMELDING": {
+      "title": "VERZUIMMELDING",
+      "description": "Een melding dat een leerling niet op school verschijnt. De school moet actie ondernemen naar de leerling (en zijn ouders). Een school moet het verzuim melden bij de gemeente.",
+      "type": "object",
+      "properties": {
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "VOORSTELSCHOOL": {
+          "type": "string"
+        }
+      }
+    },
+    "VRIJSTELLING": {
+      "title": "VRIJSTELLING",
+      "description": "Een formeel besluit waarbij een leerling wordt ontheven van de leerplicht.",
+      "type": "object",
+      "properties": {
+        "BUITENLANDSESCHOOLLOCATIE": {
+          "type": "string"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "AANVRAAGTOEGEKEND": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        },
+        "VERZUIMSOORT": {
+          "type": "string",
+          "enum": [
+            "ABSOLUUT",
+            "RELATIEF"
+          ],
+          "description": "Enumeratie: VERZUIMSOORT"
+        }
+      }
+    },
+    "ZIEKMELDING_LEERLINGENVERVOER": {
+      "title": "ZIEKMELDING_LEERLINGENVERVOER",
+      "description": "Een melding van een zieke leerling die recht heeft op vervoer van en naar onderwijs.",
+      "type": "object",
+      "properties": {}
+    },
+    "LEERLING": {
+      "title": "LEERLING",
+      "description": "Mens die een opleiding volgt, heeft gevolgd of gaat volgen of opgaat of is opgegaan voor een toets. (Bron: KOI)",
+      "type": "object",
+      "properties": {
+        "KWETSBAREJONGERE": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        }
+      }
+    },
+    "OUDER_OF_VERZORGER": {
+      "title": "OUDER_OF_VERZORGER",
+      "description": "Een persoon die wettelijk verantwoordelijk is voor de zorg en opvoeding van een kind.",
+      "type": "object",
+      "properties": {}
+    },
+    "SCHOOL": {
+      "title": "SCHOOL",
+      "description": "Gebouw in gebruik voor basis, middelbaar of hoger onderwijs.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "LEVERANCIER": {
+      "title": "LEVERANCIER",
+      "description": "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        }
+      }
+    },
+    "AANVRAAGOFMELDING_1020": {
+      "title": "AANVRAAGOFMELDING_1020",
+      "description": "Komt overeen met een VJV\n\nBron: GEM_VJV (Distinct op REQ_ID)\nID: REQ_ID",
+      "type": "object",
+      "properties": {
+        "CATEGORIE": {
+          "type": "string"
+        },
+        "CATEGORIECODE": {
+          "type": "string"
+        },
+        "DATUMAANMAAK": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMAFHANDELING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMBEGINSTATUS": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDESTATUS": {
+          "type": "string",
+          "format": "date"
+        },
+        "HOOFDCATEGORIE": {
+          "type": "string"
+        },
+        "HOOFDCATEGORIECODE": {
+          "type": "string"
+        },
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "KANAAL": {
+          "type": "string"
+        },
+        "ONDERWERP": {
+          "type": "string"
+        },
+        "ONDERWERPCODE": {
+          "type": "string"
+        },
+        "SOORT": {
+          "type": "string",
+          "description": "Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding...."
+        },
+        "STATUS": {
+          "type": "string"
+        },
+        "STATUSCODE": {
+          "type": "string"
+        },
+        "STATUSVOLGORDE": {
+          "type": "string"
+        },
+        "SUBCATEGORIE": {
+          "type": "string"
+        },
+        "SUBCATEGORIECODE": {
+          "type": "string"
+        },
+        "AFGEHANDELD": {
+          "type": "string",
+          "enum": [
+            "JA",
+            "LEEG",
+            "NEE",
+            "ONBEKEND"
+          ],
+          "description": "Enumeratie: BOOLEAN"
+        }
+      }
+    }
+  }
+}
