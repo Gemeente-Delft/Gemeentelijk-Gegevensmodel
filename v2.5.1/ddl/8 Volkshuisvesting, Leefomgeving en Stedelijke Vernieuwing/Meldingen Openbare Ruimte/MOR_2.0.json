@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MOR 2.0",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: MOR 2.0",
+  "$defs": {
+    "AANVRAAGOFMELDING": {
+      "title": "AANVRAAGOFMELDING",
+      "description": "Komt overeen met een VJV\n\nBron: GEM_VJV (Distinct op REQ_ID)\nID: REQ_ID",
+      "type": "object",
+      "properties": {
+        "AFGEHANDELD": {
+          "type": "boolean"
+        },
+        "CATEGORIE": {
+          "type": "string"
+        },
+        "CATEGORIECODE": {
+          "type": "string"
+        },
+        "DATUMAANMAAK": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMAFHANDELING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMBEGINSTATUS": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDESTATUS": {
+          "type": "string",
+          "format": "date"
+        },
+        "HOOFDCATEGORIE": {
+          "type": "string"
+        },
+        "HOOFDCATEGORIECODE": {
+          "type": "string"
+        },
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "KANAAL": {
+          "type": "string"
+        },
+        "ONDERWERP": {
+          "type": "string"
+        },
+        "ONDERWERPCODE": {
+          "type": "string"
+        },
+        "SOORT": {
+          "type": "string",
+          "description": "Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding...."
+        },
+        "STATUS": {
+          "type": "string"
+        },
+        "STATUSCODE": {
+          "type": "string"
+        },
+        "STATUSVOLGORDE": {
+          "type": "string"
+        },
+        "SUBCATEGORIE": {
+          "type": "string"
+        },
+        "SUBCATEGORIECODE": {
+          "type": "string"
+        }
+      }
+    },
+    "MOR_AANVRAAGOFMELDING": {
+      "title": "MOR_AANVRAAGOFMELDING",
+      "description": "Bericht van een inwoner over een gebrek of opvallendheid in de openbare ruimte",
+      "type": "object",
+      "properties": {
+        "LOCATIE": {
+          "type": "string"
+        },
+        "LOCATIEOMSCHRIJVING": {
+          "type": "string"
+        },
+        "MELDINGOMSCHRIJVING": {
+          "type": "string"
+        },
+        "MELDINGTEKST": {
+          "type": "string"
+        }
+      }
+    },
+    "RECHTSPERSOON": {
+      "title": "RECHTSPERSOON",
+      "description": "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "ADRESBINNENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."
+        },
+        "ADRESBUITENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."
+        },
+        "ADRESCORRESPONDENTIE": {
+          "type": "string",
+          "description": "postbus of antwoordnummer"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "Elektronisch postadres waaronder het subject in de regel bereikbaar is."
+        },
+        "FAXNUMMER": {
+          "type": "string",
+          "description": "Faxnummer waaronder het subject in de regel bereikbaar is."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke identificatie van het SUBJECT"
+        },
+        "KVKNUMMER": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string",
+          "description": "De benaming van het SUBJECT"
+        },
+        "RECHTSVORM": {
+          "type": "string",
+          "description": "Bron: Handelsregister"
+        },
+        "REKENINGNUMMER": {
+          "type": "string",
+          "description": "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "Telefoonnummer waaronder het subject in de regel bereikbaar is."
+        }
+      }
+    }
+  }
+}

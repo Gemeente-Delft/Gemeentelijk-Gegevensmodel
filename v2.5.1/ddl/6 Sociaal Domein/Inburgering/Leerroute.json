@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Leerroute",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Leerroute",
+  "$defs": {
+    "LEERROUTE": {
+      "title": "LEERROUTE",
+      "description": "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Leerroute</b></font><font color=\"#0e0e0e\"> is het door de gemeente vastgestelde traject dat een inburgeringsplichtige volgt om te voldoen aan de inburgeringsplicht, bestaande uit taallessen, participatieactiviteiten en aanvullende modules, afgestemd op het leervermogen en het hoofddoel van de inburgeraar.</font>",
+      "type": "object",
+      "properties": {
+        "LEERROUTETYPE": {
+          "type": "string"
+        },
+        "NIVEAU": {
+          "type": "string"
+        },
+        "GESCHATTEINTENSITEITB1ROUTE": {
+          "type": "string"
+        },
+        "INDICATORALFABETISERING": {
+          "type": "string"
+        },
+        "INDICATORTOESTEMMINGEXAMENA2": {
+          "type": "string"
+        },
+        "INDICATORMAGOPLEIDINGAFMAKEN": {
+          "type": "string"
+        },
+        "GEENLEERBAARHEIDSTOETSZB": {
+          "type": "string",
+          "description": "<font color=\"#0e0e0e\"><i>Indicator die aangeeft of de leerbaarheidstoets niet is afgenomen vanwege een zintuigelijke beperking van de inburgeraar.</i></font>"
+        },
+        "EXAMENA2": {
+          "type": "string"
+        }
+      }
+    },
+    "PIP": {
+      "title": "PIP",
+      "description": "<font color=\"#0e0e0e\">Het </font><font color=\"#0e0e0e\"><b>Persoonlijk Plan Inburgering en Participatie (PIP)</b></font><font color=\"#0e0e0e\"> is een individueel plan dat door de gemeente wordt vastgesteld in overleg met de inburgeringsplichtige, waarin het leerrouteadvies, het inburgeringsaanbod, het hoofddoel en de begeleidingsafspraken zijn vastgelegd, met als doel het succesvol afronden van de inburgering binnen de gestelde termijn.</font>",
+      "type": "object",
+      "properties": {
+        "DAGTEKENINGINITIELEPIP": {
+          "type": "string",
+          "format": "date"
+        },
+        "DAGTEKENINGPIP": {
+          "type": "string",
+          "format": "date"
+        },
+        "NAAMCONTACTPERSOON": {
+          "type": "string"
+        },
+        "EMAILCONTACTPERSOON": {
+          "type": "string"
+        },
+        "INDICATORMAGOPLEIDINGAFMAKEN": {
+          "type": "boolean"
+        }
+      }
+    },
+    "B1_ROUTE": {
+      "title": "B1_ROUTE",
+      "description": "<font color=\"#0e0e0e\">De </font><font color=\"#0e0e0e\"><b>B1-route</b></font><font color=\"#0e0e0e\"> is &#233;&#233;n van de drie leerroutes in het inburgeringsstelsel, waarbij de inburgeringsplichtige zich voorbereidt op het afleggen van het inburgeringsexamen op taalniveau B1, gericht op brede participatie in de Nederlandse samenleving en toeleiding naar arbeid.</font>",
+      "type": "object",
+      "properties": {
+        "EXAMENDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "RESULTAAT": {
+          "type": "integer"
+        },
+        "REDENGEENRESULTAAT": {
+          "type": "string"
+        },
+        "AANTALGRATISEXAMENPOGINGENTEGOED": {
+          "type": "integer"
+        },
+        "GEVOLGDEURENPARTICIPATIETAALLES": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

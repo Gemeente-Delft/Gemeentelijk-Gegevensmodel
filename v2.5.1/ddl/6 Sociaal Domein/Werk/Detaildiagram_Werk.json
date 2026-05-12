@@ -1,0 +1,884 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Detaildiagram Werk",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Detaildiagram Werk",
+  "$defs": {
+    "ARBEIDSMARKTKWALIFICATIES": {
+      "title": "ARBEIDSMARKTKWALIFICATIES",
+      "description": "<font color=\"#0e0e0e\">Een verzameling formele en informele kwalificaties, vaardigheden en eigenschappen die relevant zijn voor de inzetbaarheid van een persoon op de arbeidsmarkt.</font>",
+      "type": "object",
+      "properties": {
+        "KLANTTYPERING": {
+          "type": "string"
+        },
+        "CODE_TAALBEHEERSING_MONDELING": {
+          "type": "string"
+        },
+        "CODE_TAALBEHEERSING_SCHRIFTELIJK": {
+          "type": "string"
+        },
+        "CODE_WERK_EN_DENKNIVEAU": {
+          "type": "string"
+        },
+        "TOELICHTINGARBEIDSMARKTKWALIFICATIES": {
+          "type": "string"
+        }
+      }
+    },
+    "ARBEIDSPERIODE": {
+      "title": "ARBEIDSPERIODE",
+      "description": "<font color=\"#0e0e0e\">Een aaneengesloten periode waarin een persoon arbeid heeft verricht, met begin- en einddatum.</font>",
+      "type": "object",
+      "properties": {
+        "DATUM_AANVANG_ARBEIDSPERIODE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUM_EINDE_ARBEIDSPERIODE": {
+          "type": "string",
+          "format": "date"
+        },
+        "GEMIDDELD_AANTAL_UUR_PER_WEEK": {
+          "type": "integer"
+        },
+        "FUNCTIENAAM": {
+          "type": "string"
+        },
+        "FUNCTIEOMSCHRIJVING": {
+          "type": "string"
+        },
+        "CONTACT_PERSOON": {
+          "type": "string"
+        },
+        "CONTACT_EMAIL": {
+          "type": "string"
+        },
+        "CONTACT_TELEFOON": {
+          "type": "string"
+        }
+      }
+    },
+    "ARBEIDSVERHOUDING": {
+      "title": "ARBEIDSVERHOUDING",
+      "description": "<font color=\"#0e0e0e\">Een relatie waarin sprake is van afspraken tussen een werknemer en een werkgever over het verrichten van arbeid.</font>",
+      "type": "object",
+      "properties": {
+        "DATUM_AANVRAAG_ARBEIDSVERHOUDING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUM_EINDE_ARBEIDSVERHOUDING": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "ARBEIDSVERMOGEN": {
+      "title": "ARBEIDSVERMOGEN",
+      "description": "<font color=\"#0e0e0e\">Een inschatting van wat iemand op basis van fysieke, mentale en sociale capaciteiten aan arbeid kan verrichten.</font>",
+      "type": "object",
+      "properties": {
+        "CODEARBEIDSVERMOGEN": {
+          "type": "string"
+        }
+      }
+    },
+    "BEMIDDELINGSBEROEP": {
+      "title": "BEMIDDELINGSBEROEP",
+      "description": "<font color=\"#0e0e0e\">Het beoogde beroep waarvoor een persoon wordt begeleid of bemiddeld in een traject.</font>",
+      "type": "object",
+      "properties": {
+        "TOELICHTINGBEROEP": {
+          "type": "string"
+        }
+      }
+    },
+    "BEMIDDELINGSTRAJECT": {
+      "title": "BEMIDDELINGSTRAJECT",
+      "description": "<font color=\"#0e0e0e\">Een traject waarin een persoon begeleid wordt naar passend werk, bijvoorbeeld door een gemeente of uitvoeringsinstantie.</font>",
+      "type": "object",
+      "properties": {
+        "DATUMBEMIDDELING": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVINGCONTACTBEMIDDELING": {
+          "type": "string"
+        },
+        "OMSCHRIJVINGSTATUSBEMIDDELING": {
+          "type": "string"
+        },
+        "OMSCHRIJVINGRESULTAATBEMIDDELING": {
+          "type": "string"
+        },
+        "DATUMVACATURE": {
+          "type": "string",
+          "format": "date"
+        },
+        "INDICATIEPLAATSING": {
+          "type": "string"
+        }
+      }
+    },
+    "BESCHIKBAARVOORARBEID": {
+      "title": "BESCHIKBAARVOORARBEID",
+      "description": "<font color=\"#0e0e0e\">Een indicatie of iemand op dit moment inzetbaar is voor arbeid, los van begeleiding of ondersteuning.</font>",
+      "type": "object",
+      "properties": {
+        "STARTDATUMBESCHIKBAARHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "AANTALURENPWBESCHIKBAAR": {
+          "type": "integer"
+        },
+        "INTERVAL_OPZEGTERMIJN": {
+          "type": "string"
+        },
+        "WAARDEOPZEGTERMIJN": {
+          "type": "integer"
+        },
+        "STARTDAGBESCHIKBAARHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "EINDDATUMBESCHIKBAARHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "EINDTIJDDAGBESCHIKBAARHEID": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "TOELICHTINGBESCHIKBAARHEID": {
+          "type": "string"
+        },
+        "INDICATIE_NOG_WERKZAAM": {
+          "type": "string"
+        },
+        "DAGBESCHIKBAARHEID": {
+          "type": "string",
+          "enum": [
+            "DINSDAG",
+            "DONDERDAG",
+            "MAANDAG",
+            "VRIJDAG",
+            "WOENSDAG",
+            "ZATERDAG",
+            "ZONDAG"
+          ],
+          "description": "Enumeratie: DAG_BESCHIKBAARHEID"
+        }
+      }
+    },
+    "BESCHIKBAARVOORBEMIDDELING": {
+      "title": "BESCHIKBAARVOORBEMIDDELING",
+      "description": "<font color=\"#0e0e0e\">Een indicatie dat een persoon beschikbaar is voor bemiddeling richting arbeid, waarbij wordt gekeken naar inzetbaarheid, bereidheid en eventuele beperkingen.</font>",
+      "type": "object",
+      "properties": {
+        "INDICATIEDIRECTBEMIDDELBAAR": {
+          "type": "string"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "DOELGROEPENREGISTER": {
+      "title": "DOELGROEPENREGISTER",
+      "description": "<font color=\"#0e0e0e\">Een landelijk register waarin mensen met een afstand tot de arbeidsmarkt worden opgenomen, vaak ten behoeve van loonkostensubsidie of andere voorzieningen.</font>",
+      "type": "object",
+      "properties": {
+        "INDICATIEDOELGROEPENREGISTER": {
+          "type": "string"
+        },
+        "ADVIESUWV": {
+          "type": "string"
+        },
+        "BAANAFSPRAAK": {
+          "type": "string",
+          "enum": [
+            "AANPAKKEN",
+            "HELPEN",
+            "MAKEN",
+            "VERKOPEN",
+            "VERVOEREN"
+          ],
+          "description": "Enumeratie: SOORTWERK"
+        }
+      }
+    },
+    "DOELREINTEGRATIEVOORZIENING": {
+      "title": "DOELREINTEGRATIEVOORZIENING",
+      "description": "<font color=\"#0e0e0e\">Het beoogde effect van een ingezette voorziening, bijvoorbeeld toeleiding naar werk, dagbesteding of maatschappelijke participatie.</font>",
+      "type": "object",
+      "properties": {
+        "CODEDOELREINTEGRATIEVOORZIENING": {
+          "type": "integer"
+        }
+      }
+    },
+    "FLEXIBLITEIT": {
+      "title": "FLEXIBLITEIT",
+      "description": "<font color=\"#0e0e0e\">De mate waarin een persoon flexibel inzetbaar is qua werktijden, werkplek of werkzaamheden.</font>",
+      "type": "object",
+      "properties": {
+        "INGESCHREVENBIJUITZENDBUREAU": {
+          "type": "string"
+        },
+        "INDICATIEBEREIDBUITENBEROEPSWENS": {
+          "type": "string"
+        },
+        "INDICATIEBEREIDHEIDZOEKENONDERNIVEAU": {
+          "type": "string"
+        },
+        "INDICATIEBEREIDHEIDZWAARWERK": {
+          "type": "string"
+        },
+        "INDICATIEBEREIDHEIDONREGELMATIGWERK": {
+          "type": "string"
+        }
+      }
+    },
+    "LOONKOSTENSUBSIDIE": {
+      "title": "LOONKOSTENSUBSIDIE",
+      "description": "<font color=\"#0e0e0e\">Een tegemoetkoming aan een werkgever voor het in dienst nemen van een werknemer met verminderde loonwaarde.</font>",
+      "type": "object",
+      "properties": {
+        "PERCENTAGELOONWAARDEWML": {
+          "type": "string"
+        }
+      }
+    },
+    "MOBILITEIT": {
+      "title": "MOBILITEIT",
+      "description": "<font color=\"#0e0e0e\">De bereikbaarheid van werkplekken voor een persoon, afhankelijk van vervoermiddel, rijbewijs en fysieke mogelijkheden.</font>",
+      "type": "object",
+      "properties": {
+        "INDICATIEBEREIDHEIDVERHUIZEN": {
+          "type": "string"
+        },
+        "MAXIMALEREISTIJD": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "TOELICHTINGMAXIMALEREISTIJD": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "TOELICHTINGVERVOERMIDDEL": {
+          "type": "string"
+        },
+        "CODEVERVOERMIDDEL": {
+          "type": "string",
+          "enum": [
+            "ANDERS",
+            "AUTO",
+            "BROMFIETS_SCOOTER",
+            "FIETS",
+            "GEEN",
+            "LOPEN",
+            "MOTORFIETS",
+            "OPENBAAR_VERVOER",
+            "OPENBAAR_VERVOER_WEEKEND_OV_",
+            "OPENBAAR_VERVOER_WEEK_OV_"
+          ],
+          "description": "Enumeratie: VERVOERMIDDEL"
+        }
+      }
+    },
+    "ONTHEFFING": {
+      "title": "ONTHEFFING",
+      "description": "<font color=\"#0e0e0e\">Een formele vrijstelling van verplichtingen rond arbeidsparticipatie, zoals beschikbaarheid of tegenprestatie, op basis van persoonlijke of juridische gronden.</font>",
+      "type": "object",
+      "properties": {
+        "REDENAANVRAAG": {
+          "type": "string"
+        },
+        "AANVRAAGDATUMONTHEFFING": {
+          "type": "string",
+          "format": "date"
+        },
+        "ONTHEFFINGSBESLUIT": {
+          "type": "string"
+        },
+        "MOTIVATIEONTHEFFINGSBESLUIT": {
+          "type": "string"
+        },
+        "SOORTONTHEFFING": {
+          "type": "string"
+        },
+        "INGANGSDATUMONTHEFFING": {
+          "type": "string",
+          "format": "date"
+        },
+        "EINDDATUMONTHEFFING": {
+          "type": "string",
+          "format": "date"
+        },
+        "RESULTAATINSTRUMENTBEOORDELING": {
+          "type": "string"
+        },
+        "ONTHEFFENVERPLICHTINGEN": {
+          "type": "string"
+        },
+        "VERSIENUMMERAANVRAAG": {
+          "type": "integer"
+        },
+        "BIJLAGENBIJAANVRAAG": {
+          "type": "string"
+        },
+        "BIJLAGENBIJONTHEFFINGSBESLUIT": {
+          "type": "string"
+        },
+        "HERZIENINGSDATUMONTHEFFING": {
+          "type": "string",
+          "format": "date"
+        },
+        "MOTIVATIEHERZIENINGSBESLUIT": {
+          "type": "string"
+        },
+        "BIJLAGENBIJHERZIENINGSBESLUIT": {
+          "type": "string"
+        }
+      }
+    },
+    "OPLEIDING": {
+      "title": "OPLEIDING",
+      "description": "<font color=\"#0e0e0e\">Een formeel of informeel leertraject dat een persoon heeft gevolgd met als doel het verwerven van kennis, vaardigheden of competenties.</font>",
+      "type": "object",
+      "properties": {
+        "INSTITUUTNAAM": {
+          "type": "string"
+        },
+        "DATUMAANVANG": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "INDICATIEDIPLOMA": {
+          "type": "string"
+        },
+        "DATUMDIPLOMA": {
+          "type": "string",
+          "format": "date"
+        },
+        "AANTALJARENOPLEIDING": {
+          "type": "integer"
+        },
+        "CODETIJDSBESLAGOPLEIDING": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "INDICATIEDEELTIJDOPLEIDING": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "TOELICHTINGBEEINDIGENOPLEIDING": {
+          "type": "string",
+          "format": "date"
+        },
+        "INDICATIEBUITENLANDSEOPLEIDING": {
+          "type": "string"
+        },
+        "TOELICHTINGOPLEIDING": {
+          "type": "string"
+        },
+        "OPLEIDINGSTYPE": {
+          "type": "string",
+          "enum": [
+            "HOGER_ONDERWIJS_DERDE_FASE",
+            "HOGER_ONDERWIJS_EERSTE_FASE",
+            "HOGER_ONDERWIJS_TWEEDE_FASE",
+            "ONDERWIJS_AAN_KLEUTERS",
+            "PRIMAIR_ONDERWIJS",
+            "SECUNDAIR_ONDERWIJS_EERSTE_FASE",
+            "SECUNDAIR_ONDERWIJS_TWEEDE_FASE"
+          ],
+          "description": "Enumeratie: OPLEIDINGSRICHTING"
+        },
+        "OPLEIDINGSRICHTING": {
+          "type": "string",
+          "enum": [
+            "HOGER_ONDERWIJS_DERDE_FASE",
+            "HOGER_ONDERWIJS_EERSTE_FASE",
+            "HOGER_ONDERWIJS_TWEEDE_FASE",
+            "ONDERWIJS_AAN_KLEUTERS",
+            "PRIMAIR_ONDERWIJS",
+            "SECUNDAIR_ONDERWIJS_EERSTE_FASE",
+            "SECUNDAIR_ONDERWIJS_TWEEDE_FASE"
+          ],
+          "description": "Enumeratie: OPLEIDINGSRICHTING"
+        },
+        "CODESTATUSOPLEIDING": {
+          "type": "string",
+          "enum": [
+            "AFGEBROKEN",
+            "LOPEND",
+            "ONBEKEND",
+            "SUCCESVOL_AFGEROND"
+          ],
+          "description": "Enumeratie: CODESTATUSOPLEIDING"
+        },
+        "CODELEERWEGMBO": {
+          "type": "string",
+          "enum": [
+            "BBL_BEROEPSBEGELEIDENDE_LEERWEG",
+            "BOL_BEROEPSOPLEIDENDE_LEERWEG",
+            "CBL_COMBINATIE_BEROEPSBEGELEIDENDE_LEERWEG",
+            "COL_COMBINATIE_BEROEPSOPLEIDENDE_LEERWEG",
+            "OVO_OVERIG_ONDERWIJS_NIET_BEKOSTIGD_"
+          ],
+          "description": "Enumeratie: CODELEERWEGMBO"
+        },
+        "CODENIVEAUOPLEIDING": {
+          "type": "string",
+          "enum": [
+            "BASISONDERWIJS",
+            "HAVO_VWO",
+            "HBO_BACHELOR",
+            "MBO",
+            "VMBO_MBO_1",
+            "WO_MASTER"
+          ],
+          "description": "Enumeratie: CODENIVEAUOPLEIDING"
+        }
+      }
+    },
+    "OPLEIDINGSNAAM": {
+      "title": "OPLEIDINGSNAAM",
+      "description": "<font color=\"#0e0e0e\">De naam waarmee een gevolgde opleiding aangeduid wordt. Dit kan een offici&#235;le (gecodeerde) of vrije tekst zijn.</font>",
+      "type": "object",
+      "properties": {
+        "NAAMOPLEIDING": {
+          "type": "string"
+        }
+      }
+    },
+    "OPLEIDINGSNAAMGECODEERD": {
+      "title": "OPLEIDINGSNAAMGECODEERD",
+      "description": "Een OpleidingsnaamGecodeerd is een versleutelde/coderende aanduiding van de naam van een opleiding zoals vastgelegd in onderwijs-microdata, bedoeld om de opleiding te identificeren zonder de volledige tekstuele naam direct in de dataset op te nemen.",
+      "type": "object",
+      "properties": {
+        "OMSCHRIJVINGOPLEIDINGSNAAM": {
+          "type": "string"
+        },
+        "CODESOORTOPLEIDINGSNAAM": {
+          "type": "string"
+        },
+        "INDICATIEOPLEIDINGSNAAMACTIEF": {
+          "type": "string"
+        },
+        "CODEOPLEIDINGSNAAM": {
+          "type": "string",
+          "enum": [
+            "REFERENTIEOPLEIDING",
+            "SYNONIEM"
+          ],
+          "description": "Enumeratie: CODEOPLEIDINGSNAAM"
+        }
+      }
+    },
+    "OPLEIDINGSNAAMONGECODEERD": {
+      "title": "OPLEIDINGSNAAMONGECODEERD",
+      "description": "*OpleidingsnaamOngecodeerd* is de tekstuele naam van een opleiding zoals geregistreerd in CBS-onderwijsdata, weergegeven zonder codering om de opleidingsidentificatie leesbaar te maken.",
+      "type": "object",
+      "properties": {
+        "NAAMOPLEIDINGONGECODEERD": {
+          "type": "string"
+        }
+      }
+    },
+    "OPLEIDINGSNIVEAU": {
+      "title": "OPLEIDINGSNIVEAU",
+      "description": "<font color=\"#0e0e0e\">Het abstractieniveau waarop de opleiding is ingeschaald, vaak gebaseerd op landelijke of Europese onderwijsclassificaties.</font>",
+      "type": "object",
+      "properties": {
+        "CODEOPLEIDINGSNIVEAUCLIENT": {
+          "type": "string"
+        }
+      }
+    },
+    "REINTEGRATIEVOORZIENING": {
+      "title": "REINTEGRATIEVOORZIENING",
+      "description": "<font color=\"#0e0e0e\">Een voorziening of dienst die wordt ingezet om de kansen van een persoon op arbeidsparticipatie te vergroten.</font>",
+      "type": "object",
+      "properties": {
+        "REGISTRATIENUMMERREINTEGRATIEVOORZIENING": {
+          "type": "integer"
+        },
+        "DATUMSTARTVOORLOPIGETOEKENNING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMVERWACHTEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMINGEBRUIKNAME": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMINNAME": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDEVERLENGDEBESLISTERMIJN": {
+          "type": "string",
+          "format": "date"
+        },
+        "CODETYPE": {
+          "type": "integer"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "OMSCHRIJVINGTYPE": {
+          "type": "string"
+        },
+        "TOELICHTINGOMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "RIJBEWIJS_CERTIFICAAT": {
+      "title": "RIJBEWIJS_CERTIFICAAT",
+      "description": "<font color=\"#0e0e0e\">Een door een bevoegde instantie afgegeven document dat aangeeft dat een persoon bevoegd is tot het besturen van bepaalde typen voertuigen.</font>",
+      "type": "object",
+      "properties": {
+        "CODESOORTRIJBEWIJS": {
+          "type": "string"
+        },
+        "NUMMERCERTIFICAAT": {
+          "type": "string"
+        },
+        "NAAMCERTIFICAAT": {
+          "type": "string"
+        },
+        "GELDIGVANAF": {
+          "type": "string",
+          "format": "date"
+        },
+        "GELDIGTOT": {
+          "type": "string",
+          "format": "date"
+        },
+        "VERSTREKKENDEPARTIJ": {
+          "type": "string"
+        },
+        "BESCHRIJVING": {
+          "type": "string"
+        },
+        "INDICATIEGELDIGHEIDRIJBEWIJS": {
+          "type": "string"
+        }
+      }
+    },
+    "TAALBEHEERSING": {
+      "title": "TAALBEHEERSING",
+      "description": "<font color=\"#0e0e0e\">Het Europese of Nederlandse taalniveau (zoals A1 t/m C2) waarop de taalvaardigheid van een persoon is ingeschaald.</font>",
+      "type": "object",
+      "properties": {
+        "TAALCODE": {
+          "type": "string"
+        },
+        "TAALNAAM": {
+          "type": "string"
+        },
+        "MOEDERTAAL": {
+          "type": "string"
+        },
+        "LEESVAARDIGHEID": {
+          "type": "string"
+        },
+        "SCHRIJFVAARDIGHEID": {
+          "type": "string"
+        },
+        "SPREEKVAARDIGHEID": {
+          "type": "string"
+        }
+      }
+    },
+    "TAALBEHEERSINGNEDERLANDS": {
+      "title": "TAALBEHEERSINGNEDERLANDS",
+      "description": "<font color=\"#0e0e0e\">De mate waarin een persoon de Nederlandse taal beheerst, inclusief mondelinge en schriftelijke vaardigheden.</font>",
+      "type": "object",
+      "properties": {
+        "ONTHEFFINGTAALEIS": {
+          "type": "string"
+        },
+        "SPREEKSVAARDIGHEIDNEDERLANDS": {
+          "type": "string"
+        },
+        "LUISTERVAARDIGHEIDNEDERLANDS": {
+          "type": "string"
+        },
+        "LEESVAARDIGHEIDNEDERLANDS": {
+          "type": "string"
+        },
+        "SCHRIJFVAARDIGHEIDNEDERLANDS": {
+          "type": "string"
+        },
+        "GESPREKSVAARDIGHEIDNEDERLANDS": {
+          "type": "string"
+        }
+      }
+    },
+    "VAARDIGHEIDSVASTSTELLING": {
+      "title": "VAARDIGHEIDSVASTSTELLING",
+      "description": "<font color=\"#0e0e0e\">Het proces waarin specifieke vaardigheden van een persoon worden beoordeeld of gemeten, vaak ter ondersteuning van een werkprofiel of plaatsingsbeslissing.</font>",
+      "type": "object",
+      "properties": {
+        "DATUMLAATSTEVASTSTELLING": {
+          "type": "string",
+          "format": "date"
+        },
+        "INDICATIE_MATE_VAN_VAARDIGHEID": {
+          "type": "string"
+        }
+      }
+    },
+    "VOORKEUR": {
+      "title": "VOORKEUR",
+      "description": "<font color=\"#0e0e0e\"><b>Voorkeur</b></font><font color=\"#0e0e0e\"> is een door de klant geuite wens of voorkeur met betrekking tot werk, opleiding of ondersteuning, waarmee bij de invulling van het re-integratie- of participatietraject rekening kan worden gehouden voor zover dit past binnen de wettelijke kaders en mogelijkheden van de gemeente.</font>",
+      "type": "object",
+      "properties": {
+        "BRANCHECODE": {
+          "type": "integer"
+        },
+        "BRANCHENAAM": {
+          "type": "string"
+        },
+        "SOORTWERK": {
+          "type": "string"
+        },
+        "GEGEVENSWERKLOCATIE": {
+          "type": "string"
+        },
+        "TOELICHTINGVERVOERSMIDDEL": {
+          "type": "string"
+        },
+        "BEZITPERSOONLIJKEOVKAART": {
+          "type": "string"
+        },
+        "NUMMEROVK": {
+          "type": "integer"
+        },
+        "VERLOOPDATUMOVK": {
+          "type": "string",
+          "format": "date"
+        },
+        "SOORTBAAN": {
+          "type": "string",
+          "enum": [
+            "ADMINISTRATIEVE_SECRETARIAT",
+            "AGRICULTURAL_CATTLE_BREEDING_ANIMAL_CARE_NATURE_CONSERVATION",
+            "BUILDING_INDUSTRY",
+            "BUSINESS_SERVICES_RETAIL_TRADE",
+            "CATERING_TOURISM",
+            "CLEANING_HOUSEKEEING_CLEAN_UP",
+            "CONSULTING_STAFF_POLICY",
+            "CULTURE_ARTS_CREATIVE",
+            "CUSTOMER_SERVICE_CALL_CENTRE_RECEPTION",
+            "DESIGN_ARCHITECTURE_GRAPHICAL",
+            "EDITIOR_JOURNALISM",
+            "EDUCATION_TRAINING",
+            "FINANCIAL_ADMINISTRATIEVE_ACCOUNTING",
+            "GOVERNMENT_SERVICE_GOVERNMENT",
+            "HEALTH_CARE_MEDICAL_NURSING_PARAMEDICAL",
+            "IT_ICT_SOFTWARE_DEVELOPMENT_INTERNET",
+            "LEGAL",
+            "MARKETING_ADVERTISEMENT_PUBLIC_RELATIONS_COMMUNICATION",
+            "PERSONAL_HEALTH_CAR",
+            "PERSONNEL_MATTERS_HUMAN_RESOURCES_EMPLOYMENT_FINDING",
+            "PRODUCTION_CRAFTS",
+            "RESEARCH_SCIENCE_LABORATORY",
+            "SALES_COMMERCIAL",
+            "SECURITY_DEFENCE_AUXILIARY_SERVICE",
+            "SPORT_RELAXATION",
+            "TECHNOLOGY_ENGINEERING"
+          ],
+          "description": "Enumeratie: SETU_JOB_CATEGORY"
+        },
+        "VERVOERMIDDEL": {
+          "type": "string",
+          "enum": [
+            "ANDERS",
+            "AUTO",
+            "BROMFIETS_SCOOTER",
+            "FIETS",
+            "GEEN",
+            "LOPEN",
+            "MOTORFIETS",
+            "OPENBAAR_VERVOER",
+            "OPENBAAR_VERVOER_WEEKEND_OV_",
+            "OPENBAAR_VERVOER_WEEK_OV_"
+          ],
+          "description": "Enumeratie: VERVOERMIDDEL"
+        }
+      }
+    },
+    "VRIJSTELLINGARBEIDSPLICHT": {
+      "title": "VRIJSTELLINGARBEIDSPLICHT",
+      "description": "<font color=\"#0e0e0e\">Geeft aan of en waarom iemand tijdelijk of structureel is vrijgesteld van de plicht om arbeid te verrichten.</font>",
+      "type": "object",
+      "properties": {
+        "INDICATIEVRIJSTELLING": {
+          "type": "string"
+        },
+        "CODEVRIJSTELLING": {
+          "type": "integer"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "CODEREDENVRIJHEIDSTELLING": {
+          "type": "integer"
+        }
+      }
+    },
+    "WERKERVARING": {
+      "title": "WERKERVARING",
+      "description": "<font color=\"#0e0e0e\">Eerdere functies of werkzaamheden van een persoon, inclusief sector, duur en aard van de werkzaamheden.</font>",
+      "type": "object",
+      "properties": {
+        "AANTAL_JAREN_WERKZAAM_IN_BEROEP": {
+          "type": "string",
+          "format": "date"
+        },
+        "TOELICHTING_BEROEP": {
+          "type": "string"
+        }
+      }
+    },
+    "WERKZAAMHEDEN_ALS_MANTELZORGER": {
+      "title": "WERKZAAMHEDEN_ALS_MANTELZORGER",
+      "description": "<font color=\"#0e0e0e\">Activiteiten die een persoon uitvoert in de rol van mantelzorger, buiten een formele arbeidsverhouding, maar met mogelijke invloed op beschikbaarheid voor arbeid.</font>",
+      "type": "object",
+      "properties": {
+        "MANTELZORGVERKALRING_VERSTREKT": {
+          "type": "string"
+        },
+        "MANTELZORGOVEREENKOMST_AFGESLOTEN": {
+          "type": "string"
+        },
+        "HULP_BIJ_MEDICATIE": {
+          "type": "string"
+        },
+        "TOEZICHT_HOUDEN": {
+          "type": "string"
+        },
+        "VERZORGDE_ACTVITEITEN": {
+          "type": "string"
+        },
+        "VERVOER_EN_BEGELEIDING": {
+          "type": "string"
+        },
+        "ANDERE_MANTELZORGTAKEN": {
+          "type": "string"
+        },
+        "TE_BESPREKEN_MANTELZORGTAKEN": {
+          "type": "string"
+        },
+        "OMSCHRIJVING_ANDERE_MANTELZORGTAKEN": {
+          "type": "string"
+        }
+      }
+    },
+    "WERKZAAMHEDEN_ANDERS_DAN_IN_ARBEIDSVERHOUDING": {
+      "title": "WERKZAAMHEDEN_ANDERS_DAN_IN_ARBEIDSVERHOUDING",
+      "description": "<font color=\"#0e0e0e\">Taken of activiteiten die een persoon verricht zonder dat sprake is van een formele arbeidsovereenkomst, zoals vrijwilligerswerk of mantelzorg.</font>",
+      "type": "object",
+      "properties": {
+        "CODE_MAATSCHAPPELIJKE_CONTEXT": {
+          "type": "string"
+        },
+        "OMSCHRIJVING_WERKZAAMHEDEN": {
+          "type": "string"
+        },
+        "DATUM_AANVANG_WERKZAAMHEDEN": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUM_EINDE_WERKZAAMHEDEN": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING_REDEN_EINDE_WERKZAAMHEDEN": {
+          "type": "string",
+          "format": "date"
+        },
+        "AANTALURENGEMIDDELDWEEK": {
+          "type": "integer"
+        },
+        "FUNCTIENAAM": {
+          "type": "string"
+        },
+        "PERSOONORGANISATIEWAARBIJ": {
+          "type": "string"
+        },
+        "BEDRAG_NETTO_INKOMSTEN_UIT_WADIA": {
+          "type": "number"
+        }
+      }
+    },
+    "WERKZOEKENDE": {
+      "title": "WERKZOEKENDE",
+      "description": "<font color=\"#0e0e0e\">Een generiek werkprofiel van een persoon waarin diens arbeidspositie, bemiddelbaarheid en begeleidingsbehoefte worden vastgelegd, als basis voor begeleiding naar arbeid.</font>",
+      "type": "object",
+      "properties": {
+        "DATUMAANVANGWERKZOEKENDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDEWERKZOEKENDE": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "ZELFREDZAAMHEIDSCORE": {
+      "title": "ZELFREDZAAMHEIDSCORE",
+      "description": "<font color=\"#0e0e0e\">Een gekwantificeerde weergave van het niveau van zelfstandigheid van een persoon op meerdere levensgebieden, vaak volgens de methodiek van de ZRM (Zelfredzaamheidsmatrix).</font>",
+      "type": "object",
+      "properties": {
+        "DOMEIN_VAN_ZELFREDZAAMHEID": {
+          "type": "string"
+        },
+        "ZRM_SCORE": {
+          "type": "string"
+        },
+        "DATUMBEOORDELING": {
+          "type": "string",
+          "format": "date"
+        },
+        "KENMERKBEOORDELAAR": {
+          "type": "string"
+        },
+        "INDICATIEHULPAANWEZIG": {
+          "type": "boolean"
+        },
+        "WOONGEMEENTE": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diagram Domeinen, PDC en zaken",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Diagram Domeinen, PDC en zaken",
+  "$defs": {
+    "DIENST": {
+      "title": "DIENST",
+      "description": "Het uitvoeren van werkzaamheden met een continu of periodiek karakter om waarde te realiseren voor een afnemer.",
+      "type": "object",
+      "properties": {}
+    },
+    "DOMEIN_TAAKVELD": {
+      "title": "DOMEIN_TAAKVELD",
+      "description": "Kennisgebied of activiteit gekarakteriseerd door een verzameling van concepten, begrippen en/of waarden",
+      "type": "object",
+      "properties": {}
+    },
+    "ONDERWERP": {
+      "title": "ONDERWERP",
+      "description": "Op de meest karakteristieke elementen gebaseerde en in woord of eenvoudige zinstructuur samengevatte aanduiding van de inhoud van een document",
+      "type": "object",
+      "properties": {}
+    },
+    "PRIJZENBOEK": {
+      "title": "PRIJZENBOEK",
+      "description": "Beschrijving van gangbare onderhoudsactiviteiten met de bijbehorende, actuele prijzen en normen voor de uitvoering.",
+      "type": "object",
+      "properties": {}
+    },
+    "PRODUCT": {
+      "title": "PRODUCT",
+      "description": "Het resultaat van een proces dat in het economisch verkeer een waarde bezit.",
+      "type": "object",
+      "properties": {}
+    },
+    "ZAAKTYPE": {
+      "title": "ZAAKTYPE",
+      "description": "Generieke aanduiding van de aard van een zaak",
+      "type": "object",
+      "properties": {
+        "ARCHIEFCODE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De systematische identificatie van zaakdossiers van dit ZAAKTYPE overeenkomstig logisch gestructureerde conventies, methoden en procedureregels.</font>"
+        },
+        "DATUMBEGINGELDIGHEIDZAAKTYPE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het ZAAKTYPE is ontstaan.</font>"
+        },
+        "DATUMEINDEGELDIGHEIDZAAKTYPE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het ZAAKTYPE is opgeheven.</font>"
+        },
+        "DOORLOOPTIJDBEHANDELING": {
+          "type": "string",
+          "format": "date-time",
+          "description": "<font color=\"#610e6a\">De periode waarbinnen volgens wet- en regelgeving een ZAAk van het ZAAKTYPE afgerond dient te zijn.</font>"
+        },
+        "INDICATIEPUBLICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Aanduiding of (het starten van) een ZAAK van dit ZAAKTYPE gepubliceerd moet worden.</font>"
+        },
+        "PUBLICATIETEKST": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De generieke tekst van de publicatie van ZAAKen van dit ZAAKTYPE</font>"
+        },
+        "SERVICENORMBEHANDELING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De periode waarbinnen verwacht wordt dat een ZAAk van het ZAAKTYPE afgerond wordt coform de geldende servicenormen van de zaakbehandelende organisatie(s).</font>"
+        },
+        "TREFWOORD": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een trefwoord waarmee ZAAKen van het ZAAKTYPE kunnen worden gekarakteriseerd.</font>"
+        },
+        "VERTROUWELIJKAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Aanduiding van de mate waarin zaakdossiers van ZAAKen van dit ZAAKTYPE voor de openbaarheid bestemd zijn.</font>"
+        },
+        "ZAAKCATEGORIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Typering van de aard van ZAAKen van het ZAAKTYPE.</font>"
+        },
+        "ZAAKTYPEOMSCHRIJVING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Omschrijving van de aard van ZAAKen van het ZAAKTYPE.</font>"
+        },
+        "ZAAKTYPEOMSCHRIJVINGGENERIEK": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Algemeen gehanteerde omschrijving van de aard van ZAAKen van het ZAAKTYPE</font>"
+        }
+      }
+    }
+  }
+}

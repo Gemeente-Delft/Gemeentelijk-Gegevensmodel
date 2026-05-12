@@ -1,0 +1,244 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Klantbeoordelingen",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Klantbeoordelingen",
+  "$defs": {
+    "KLANTBEOORDELING": {
+      "title": "KLANTBEOORDELING",
+      "description": "goed- of afkeurende uitspraak; = mening, opvatting",
+      "type": "object",
+      "properties": {
+        "BEOORDELING": {
+          "type": "string",
+          "description": "cijfer voor de beoordeling (getal tussen 0 en 10)"
+        },
+        "CATEGORIE": {
+          "type": "string"
+        },
+        "CONTACTOPNEMEN": {
+          "type": "boolean",
+          "description": "of de klant het al dan niet goed vind dat naar aanleiding van zijn/haar beoordeling contact wordt opgenomen"
+        },
+        "DDBEOORDELING": {
+          "type": "string",
+          "format": "date",
+          "description": "datum en tijdstip van de klantbeoordeling"
+        },
+        "KANAAL": {
+          "type": "string",
+          "description": "waar de beoordeling is uitgevoerd, te weten op de website, naar aanleiding van een webformulier of na schriftelijke uitvraag vanuit onze organisatie"
+        },
+        "ONDERWERP": {
+          "type": "string"
+        },
+        "SUBCATEGORIE": {
+          "type": "string"
+        }
+      }
+    },
+    "KLANTBEOORDELINGREDEN": {
+      "title": "KLANTBEOORDELINGREDEN",
+      "description": "Reden voor de beoordeling",
+      "type": "object",
+      "properties": {
+        "REDEN": {
+          "type": "string"
+        }
+      }
+    },
+    "PRODUCTOFDIENST": {
+      "title": "PRODUCTOFDIENST",
+      "description": "Bron: QP_CALENDAR.CFM_SERVICES",
+      "type": "object",
+      "properties": {
+        "AFHANDELTIJD": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Standaard afhandeltijd in minuten"
+        },
+        "INGEBRUIK": {
+          "type": "boolean"
+        },
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "BETROKKENE": {
+      "title": "BETROKKENE",
+      "description": "Een SUBJECT, zijnde een NATUURLIJK PERSOON, NIET-NATUURLIJK PERSOON of VESTIGING, ORGANISATORISCHE EENHEID (binnen een vestiging van de zaak-behandelende niet-natuurlijk persoon), of MEDEWERKER (van die organisatorische eenheid) die een rol kan spelen bij een ZAAK.",
+      "type": "object",
+      "properties": {
+        "ADRESBINNENLAND": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De aanduiding van het adres van de BETROKKENE indien dit adres in Nederland gelegen is.</font>"
+        },
+        "ADRESBUITENLAND": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De aanduiding van het adres waar specialisaties van de BETROKKENE  zijnde een (NIET) NATUURLIJK PERSOON of VESTIGING dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland.</font>"
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De unieke identificatie van de BETROKKENE</font>"
+        },
+        "NAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De benaming van de BETROKKENE  indien dit een (NIET) NATUURLIJK PERSOON, VESTIGING of specialisatie daarvan is.</font>"
+        }
+      }
+    },
+    "ZAAK": {
+      "title": "ZAAK",
+      "description": "Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden.",
+      "type": "object",
+      "properties": {
+        "ARCHIEFNOMINATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden</font>"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de uitvoering van de zaak afgerond is.</font>"
+        },
+        "DATUMEINDEGEPLAND": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt.</font>"
+        },
+        "DATUMEINDEUITERLIJKEAFDOENING": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn.</font>"
+        },
+        "DATUMLAATSTEBETALING": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak.</font>"
+        },
+        "DATUMPUBLICATIE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Datum waarop (het starten van) de zaak gepubliceerd is of wordt.</font>"
+        },
+        "DATUMREGISTRATIE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd</font>"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop met de uitvoering van de zaak is gestart.</font>"
+        },
+        "DATUMVERNIETIGINGDOSSIER": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden.</font>"
+        },
+        "DUURVERLENGING": {
+          "type": "string"
+        },
+        "INDICATIEBETALING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene.</font>"
+        },
+        "INDICATIEDEELZAKEN": {
+          "type": "boolean",
+          "description": "<font color=\"#610e6a\">De aanduiding of een ZAAK behandeld wordt in deelzaken.</font>"
+        },
+        "INDICATIEOPSCHORTING": {
+          "type": "string"
+        },
+        "LEGES": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte omschrijving van de zaak.</font>"
+        },
+        "OMSCHRIJVINGRESULTAAT": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte omschrijving wat het resultaat van de zaak inhoudt.</font>"
+        },
+        "REDENOPSCHORTING": {
+          "type": "string"
+        },
+        "REDENVERLENGING": {
+          "type": "string"
+        },
+        "TOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een toelichting op de zaak.</font>"
+        },
+        "TOELICHTINGRESULTAAT": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een toelichting op wat het resultaat van de zaak inhoudt.</font>"
+        },
+        "VERTROUWELIJKHEID": {
+          "type": "string"
+        },
+        "ZAAKIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een identificatie van de zaak.</font>"
+        },
+        "ZAAKNIVEAU": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken.</font>"
+        }
+      }
+    },
+    "ORGANISATORISCHEEENHEID": {
+      "title": "ORGANISATORISCHEEENHEID",
+      "description": "Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken.",
+      "type": "object",
+      "properties": {
+        "DATUMONTSTAAN": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de organisatorische eenheid is ontstaan.</font>"
+        },
+        "DATUMOPHEFFING": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de organisatorische eenheid is opgeheven.</font>"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Elektronisch postadres waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"
+        },
+        "FAXNUMMER": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Faxnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"
+        },
+        "FORMATIE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De feitelijke naam van de organisatorische eenheid.</font>"
+        },
+        "NAAMVERKORT": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een verkorte naam voor de organisatorische eenheid.</font>"
+        },
+        "OMSCHRIJVING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een omschrijving van de organisatorische eenheid.</font>"
+        },
+        "ORGANISATIEIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte identificatie van de organisatorische eenheid.</font>"
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Telefoonnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"
+        },
+        "TOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Toelichting bij de organisatorische eenheid.</font>"
+        }
+      }
+    }
+  }
+}

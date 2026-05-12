@@ -1,0 +1,297 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diagram Monumenten",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Diagram Monumenten",
+  "$defs": {
+    "BESCHERMDE_STATUS": {
+      "title": "BESCHERMDE_STATUS",
+      "description": "Status van de bescherming van een monument. Een monument / erfgoed is een overblijfsel van kunst, cultuur, architectuur of nijverheid dat van algemeen belang wordt geacht vanwege de historische, volkskundige, artistieke, wetenschappelijke, industrieel-archeologische of andere sociaal-culturele waarde. Vormen van monument / erfgoed met de status rijks- provinciaal- of gemeentelijke monument / erfgoed zijn beschermd op grond van een besluit van respectievelijk het Ministerie OCW, de provincie of de gemeente,",
+      "type": "object",
+      "properties": {
+        "BRONNEN": {
+          "type": "string"
+        },
+        "COMPLEX": {
+          "type": "string"
+        },
+        "DATUMINSCHRIJVINGREGISTER": {
+          "type": "string",
+          "format": "date"
+        },
+        "GEMEENTELIJKMONUMENTCODE": {
+          "type": "string"
+        },
+        "GEZICHTSCODE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "OPMERKINGEN": {
+          "type": "string"
+        },
+        "RIJKSMONUMENTCODE": {
+          "type": "string"
+        },
+        "TYPE": {
+          "type": "string"
+        }
+      }
+    },
+    "NUMMERAANDUIDING": {
+      "title": "NUMMERAANDUIDING",
+      "description": "Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats.",
+      "type": "object",
+      "properties": {
+        "BEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de object in de BAG formeel is ingetrokken."
+        },
+        "DATUMINGANG": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop het object is ontstaan"
+        },
+        "DOCUMENTDATUM": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum op basis waarvan een opname of mutatie van gegevens ten aanzien van een BAG-object heeft plaatsgevonden."
+        },
+        "DOCUMENTNUMMER": {
+          "type": "integer",
+          "description": "Het unieke nummer van het brondocument"
+        },
+        "EINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie\r\nEindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.\r\nBeschrijving\r\nTot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."
+        },
+        "GECONSTATEERD": {
+          "type": "boolean"
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "Geometry value (WKT or GeoJSON string)"
+        },
+        "HUISLETTER": {
+          "type": "string",
+          "description": "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken."
+        },
+        "HUISNUMMER": {
+          "type": "string",
+          "description": "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nummering."
+        },
+        "HUISNUMMERTOEVOEGING": {
+          "type": "string",
+          "description": "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "Unieke identificatiecode van het object"
+        },
+        "POSTCODE": {
+          "type": "string",
+          "description": "De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam van een woonplaats, naam van een openbare ruimte en een huisnummer"
+        },
+        "STATUS": {
+          "type": "string",
+          "description": "De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.\r\n&nbsp;\r\n<ul>\r\n\t<li>Naamgeving uitgegeven</li>\r\n\t<li>Naamgeving ingetrokken</li>\r\n</ul>"
+        },
+        "TYPEADRESSEERBAAROBJECT": {
+          "type": "string",
+          "description": "Het type addresseerbaarobject (landelijke identificatie) wat door de nummeraanduiding wordt aangeduid."
+        },
+        "VERSIE": {
+          "type": "integer"
+        }
+      }
+    },
+    "ADRESSEERBAAROBJECT": {
+      "title": "ADRESSEERBAAROBJECT",
+      "description": "Een adresseerbaar object is een object waaraan formeel adressen kunnen en moeten worden toegekend: een verblijfsobject, standplaats of ligplaats. Toelichting: Een object dat een adres heeft of krijgt. Adresseerbare objecten zijn: een verblijfsobject, een standplaats en een ligplaats.",
+      "type": "object",
+      "properties": {
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke aanduiding van een AdresseerbaarObject."
+        },
+        "TYPEADRESSEERBAAROBJECT": {
+          "type": "string"
+        },
+        "VERSIE": {
+          "type": "integer"
+        }
+      }
+    },
+    "OPENBARERUIMTE": {
+      "title": "OPENBARERUIMTE",
+      "description": "Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen &#233;&#233;n woonplaats is gelegen. Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam).",
+      "type": "object",
+      "properties": {
+        "BEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de object in de BAG formeel is ingetrokken."
+        },
+        "DATUMINGANG": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop het object is ontstaan"
+        },
+        "DOCUMENTDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "DOCUMENTNUMMER": {
+          "type": "integer",
+          "description": "Het unieke nummer van het brondocument"
+        },
+        "EINDGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie\r\nEindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.\r\nBeschrijving\r\nTot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."
+        },
+        "GECONSTATEERD": {
+          "type": "boolean",
+          "description": "Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname"
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "De tweedimensionale geometrische representatie van de omtrekken van de openbare ruimte."
+        },
+        "HUISNUMMERRANGE_EVEN_EN_ONEVEN_NUMMERS": {
+          "type": "string",
+          "description": "Het laagste en het hoogste huisnummer van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE in die gevallen dat aan één of beide zijden van de OPENBARE RUIMTE zowel even als oneven huisnummers voorkomen dan wel dat even en/of oneven huisnummers aan beide zijden van de openbare ruimte voorkomen."
+        },
+        "HUISNUMMERRANGE_EVEN_NUMMERS": {
+          "type": "string",
+          "description": "Het laagste en het hoogste huisnummer, zijnde even getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE."
+        },
+        "HUISNUMMERRANGE_ONEVEN_NUMMERS": {
+          "type": "string",
+          "description": "Het laagste en het hoogste huisnummer, zijnde oneven getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke aanduiding van een OPENBARE RUIMTE."
+        },
+        "LABELNAAM": {
+          "type": "string",
+          "description": "<font color=\"#0f0f0f\">Bevat de naam van de openbare ruimte ten behoeve van visualisatie.</font>"
+        },
+        "NAAMOPENBARERUIMTE": {
+          "type": "string",
+          "description": "<font color=\"#0f0f0f\">Een door het bevoegde gemeentelijke orgaan aan een OPENBARE RUIMTE toegekende benaming</font>"
+        },
+        "STATUS": {
+          "type": "string",
+          "description": "De fase van de levenscyclus van een OPENBARE RUIMTE, waarin de betreffende  OPENBARE RUIMTE zich bevindt"
+        },
+        "STRAATCODE": {
+          "type": "string"
+        },
+        "STRAATNAAM": {
+          "type": "string",
+          "description": "De officiële straatnaam zoals door het bevoegd gemeentelijk orgaan is vastgesteld, zo nodig ingekort conform de specificaties van de NEN 5825."
+        },
+        "TYPEOPENBARERUIMTE": {
+          "type": "string",
+          "description": "De aard van de als zodanig benoemde OPENBARE\r\nRUIMTE."
+        },
+        "VERSIE": {
+          "type": "integer"
+        },
+        "WEGSEGMENT": {
+          "type": "string",
+          "description": "De geometrische representatie van de openbare ruimte als een lijn."
+        }
+      }
+    },
+    "KADASTRALEONROERENDEZAAK": {
+      "title": "KADASTRALEONROERENDEZAAK",
+      "description": "Een geregistreerd goed waarvoor bij overdracht of vestiging van rechten inschrijving in de openbare registers van het Kadaster is vereist zijnde een KADASTRAAL PERCEEL of een APPARTEMENTSRECHT.",
+      "type": "object",
+      "properties": {
+        "APPARTEMENTSRECHTVOLGNUMMER": {
+          "type": "string",
+          "description": "Nummer dat het kadastraal object uniek identificeert als een appartementsrecht binnen het complex."
+        },
+        "BEGRENZING": {
+          "type": "string"
+        },
+        "CULTUURCODEONBEBOUWD": {
+          "type": "string"
+        },
+        "DATUMBEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de gegevens van de kadastrale onroerende zaak voor het eerst geldig zijn geworden."
+        },
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de gegevens van de kadastrale onroerende zaak voor het laatst geldig zijn geweest."
+        },
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "KADASTRALEGEMEENTE": {
+          "type": "string",
+          "description": "De   KADASTRALE   GEMEENTE   waarin   de   KADASTRALE\r\nONROERENDE ZAAK gelegen is."
+        },
+        "KADASTRALEGEMEENTECODE": {
+          "type": "string",
+          "description": "AKR code voor de kadastrale gemeente."
+        },
+        "KOOPJAAR": {
+          "type": "integer"
+        },
+        "KOOPSOM": {
+          "type": "string"
+        },
+        "LANDINRICHTINGRENTEBEDRAG": {
+          "type": "number",
+          "description": "Het bedrag waarmee de Onroerende zaak is belast in het kader van de landinrichtingswet."
+        },
+        "LANDINRICHTINGRENTEEINDEJAAR": {
+          "type": "string",
+          "format": "date"
+        },
+        "LIGGING": {
+          "type": "string"
+        },
+        "LOCATIEOMSCHRIJVING": {
+          "type": "string"
+        },
+        "OPPERVLAKTE": {
+          "type": "integer"
+        },
+        "PERCEELNUMMER": {
+          "type": "string",
+          "description": "Het perceelnummer dat een geheel perceel of een complex uniek identificeert binnen de sectie."
+        },
+        "SECTIE": {
+          "type": "string",
+          "description": "De sectie die de sectie binnen de kadastrale gemeente uniek identificeert."
+        },
+        "VALUTACODE": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

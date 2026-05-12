@@ -1,0 +1,269 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diagram Sportbeleid Locaties",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Diagram Sportbeleid Locaties",
+  "$defs": {
+    "BINNENLOCATIE": {
+      "title": "BINNENLOCATIE",
+      "description": "Locatie binnen een gebouw",
+      "type": "object",
+      "properties": {
+        "ADRES": {
+          "type": "string"
+        },
+        "BOUWJAAR": {
+          "type": "string"
+        },
+        "GEMEENTELIJK": {
+          "type": "boolean"
+        },
+        "GESCHATTEKOSTENPERJAAR": {
+          "type": "number"
+        },
+        "GYMZAAL": {
+          "type": "boolean"
+        },
+        "KLOKURENONDERWIJS": {
+          "type": "string",
+          "description": "Aantal klokuren per week"
+        },
+        "KLOKURENVERENIGINGEN": {
+          "type": "string",
+          "description": "aantal klokuren per week"
+        },
+        "LOCATIE": {
+          "type": "string"
+        },
+        "ONDERHOUDSNIVEAU": {
+          "type": "string"
+        },
+        "ONDERHOUDSSTATUS": {
+          "type": "integer"
+        },
+        "SPORTHAL": {
+          "type": "boolean"
+        },
+        "VLOEROPPERVLAKTE": {
+          "type": "integer"
+        }
+      }
+    },
+    "SPORTLOCATIE": {
+      "title": "SPORTLOCATIE",
+      "description": "Locatie waar de betreffende sport plaatsvindt",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "SPORTPARK": {
+      "title": "SPORTPARK",
+      "description": "Geheel van terreinen, gebouwen en voorzieningen voor verschillende takken van sport.",
+      "type": "object",
+      "properties": {}
+    },
+    "VELD": {
+      "title": "VELD",
+      "description": "Een stuk land dat speciaal voor het bedrijven van een veldsport gereedgemaakt is",
+      "type": "object",
+      "properties": {}
+    },
+    "WIJK": {
+      "title": "WIJK",
+      "description": "Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken.",
+      "type": "object",
+      "properties": {
+        "BEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie\r\nBeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.\r\nBeschrijving\r\nVanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de object in de BAG formeel is ingetrokken."
+        },
+        "DATUMINGANG": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop het object is ontstaan"
+        },
+        "EINDGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie\r\nEindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.\r\nBeschrijving\r\nTot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."
+        },
+        "GECONSTATEERD": {
+          "type": "boolean"
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "De tweedimensionale geometrische representatie van de omtrekken van de wijk."
+        },
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "STATUS": {
+          "type": "string"
+        },
+        "VERSIE": {
+          "type": "integer"
+        },
+        "WIJKCODE": {
+          "type": "string",
+          "description": "De code behorende bij de naam van de wijk."
+        },
+        "WIJKNAAM": {
+          "type": "string",
+          "description": "De naam van de wijk, zoals die door het CBS wordt gebruikt."
+        }
+      }
+    },
+    "VERBLIJFSOBJECT": {
+      "title": "VERBLIJFSOBJECT",
+      "description": "Een verblijfsobject is een kleinste binnen &#233;&#233;n of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is. Beschrijving: Een verblijfsobject is een ruimte in 1 of meer panden en voldoet aan de volgende eisen: kan worden gebruikt om in te wonen, een bedrijf in te hebben of om voor plezier in te verblijven, is bereikbaar via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, kan worden gekocht en verkocht, kan helemaal zelf worden gebruikt voor het doel dat ervoor is gegeven. Deze eisen voor verblijfsobjecten worden toegelicht in de Catalogus BAG 2018. Een verblijfsobject krijgt een adres.",
+      "type": "object",
+      "properties": {
+        "AANTALKAMERS": {
+          "type": "string",
+          "description": "Het aantal kamers van het Verblijfsobject in de situatie tijdens de bouw."
+        },
+        "BEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de object in de BAG formeel is ingetrokken."
+        },
+        "DATUMINGANG": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop het object is ontstaan"
+        },
+        "DOCUMENTDATUM": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het brondocument is vastgesteld"
+        },
+        "DOCUMENTNUMMER": {
+          "type": "integer",
+          "description": "Het unieke nummer van het brondocument"
+        },
+        "EINDGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid. Beschrijving Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."
+        },
+        "GEBRUIKSDOEL": {
+          "type": "string",
+          "description": "Een gebruiksdoel is een categorisering van de gebruiksdoelen van het betreffende verblijfsobject zoals in de vergunning is opgenomen of bij constatering is vastgesteld."
+        },
+        "GECONSTATEERD": {
+          "type": "boolean",
+          "description": "Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname."
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "Geometry value (WKT or GeoJSON string)"
+        },
+        "HOOGSTEBOUWLAAG": {
+          "type": "string",
+          "description": "De ligging van de hoogste bouwlaag van het verblijfsobject gerekend ten opzichte van het straatpeil."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke identificatie van een VERBLIJFSOBJECT."
+        },
+        "LAAGSTEBOUWLAAG": {
+          "type": "string",
+          "description": "De ligging van de laagste bouwlaag van het verblijfsobject gerekend ten opzichte van het straatpeil."
+        },
+        "ONTSLUITINGVERDIEPING": {
+          "type": "string",
+          "description": "Aanduiding van de manier waarop de desbetreffende bouwlaag van een object toegankelijk is gemaakt."
+        },
+        "OPPERVLAKTE": {
+          "type": "integer",
+          "description": "De gebruiksoppervlakte van het verblijfsobject conform hetgeen in NEN 2580 is vastgelegd omtrent gebruiksoppervlakte"
+        },
+        "SOORTWOONOBJECT": {
+          "type": "string",
+          "description": "Indeling van woonverblijven volgens het CBS."
+        },
+        "STATUS": {
+          "type": "string",
+          "description": "De fase van de levenscyclus van een VERBLIJFSOBJECT, waarin het betreffende VERBLIJFSOBJECT zich bevindt."
+        },
+        "TOEGANGBOUWLAAG": {
+          "type": "string",
+          "description": "De ligging van de bouwlaag van het verblijfsobject, gerekend ten opzichte van het straatpeil, waarop zich de hoofdtoegang tot het verblijfsobject bevindt."
+        },
+        "VERSIE": {
+          "type": "integer"
+        }
+      }
+    },
+    "DOCUMENT": {
+      "title": "DOCUMENT",
+      "description": "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT.",
+      "type": "object",
+      "properties": {
+        "COCUMENTBESCHRIJVING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een generieke beschrijving van de inhoud van het document.</font>"
+        },
+        "DATUMCREATIEDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Een datum of een gebeurtenis in de levenscyclus van het document.</font>"
+        },
+        "DATUMONTVANGSTDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het DOCUMENT ontvangen is.</font>"
+        },
+        "DATUMVERZENDINGDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het DOCUMENT verzonden is.</font>"
+        },
+        "DOCUMENTAUTEUR": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document.</font>"
+        },
+        "DOCUMENTIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een binnen een gegeven context ondubbelzinnige referentie naar het document.</font>\r\n<font color=\"#610e6a\">Bijvoorbeeld potsregistratienummer</font>"
+        },
+        "DOCUMENTTITEL": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De naam waaronder het document formeel bekend is.</font>"
+        },
+        "VERTROUWELIJKAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is.</font>"
+        }
+      }
+    },
+    "OVERIGBENOEMDTERREIN": {
+      "title": "OVERIGBENOEMDTERREIN",
+      "description": "Een door het bevoegde gemeentelijke orgaan als zodanig aangewezen onbebouwd terrein of een gedeelte daarvan, geen standplaats of gedeelte van een ligplaats zijnde, dat bestemd is voor het gedurende langere tijd verrichten van een maatschappelijke activiteit.",
+      "type": "object",
+      "properties": {
+        "GEBRUIKSDOELOVERIGBENOEMDTERREIN": {
+          "type": "string",
+          "description": "Een categorisering van de gebruiksdoelen van het betreffende OVERIG BENOEMD TERREIN, zoals dit formeel door de overheid als zodanig is toegestaan."
+        },
+        "OVERIGBENOEMDTERREINIDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke aanduiding van een OVERIG BENOEMD TERREIN."
+        }
+      }
+    }
+  }
+}

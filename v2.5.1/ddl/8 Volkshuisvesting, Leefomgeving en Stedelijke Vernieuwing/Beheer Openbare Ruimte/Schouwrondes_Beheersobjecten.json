@@ -1,0 +1,476 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Schouwrondes Beheersobjecten",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Schouwrondes Beheersobjecten",
+  "$defs": {
+    "BEHEEROBJECT": {
+      "title": "BEHEEROBJECT",
+      "description": "Verzamelobject - niveau 1",
+      "type": "object",
+      "properties": {
+        "AANGEMAAKTDOOR": {
+          "type": "string",
+          "description": "Medewerker (ID) welke het beheerobject in het beheersysteem aangemaakt heeft."
+        },
+        "BEGINGARANTIEPERIODE": {
+          "type": "string",
+          "description": "Jaar waarin de garantieperiode van het opgeleverde beheerobject begint.\nEenheid: mmddyyyy"
+        },
+        "BEHEERGEBIED": {
+          "type": "string",
+          "description": "Aanduiding van het beheergebied waarbinnen het beheerobject ligt. Indeling in beheergebieden is organisatiespecifiek."
+        },
+        "BEHEEROBJECTBEHEERVAK": {
+          "type": "string",
+          "description": "GUID van 1 of meerdere beheervakken waartoe het beheerobject behoort of waarbinnen het beheerobject zich bevindt."
+        },
+        "BEHEEROBJECTGEBRUIKSFUNCTIE": {
+          "type": "string",
+          "description": "Aanduiding van Ã©Ã©n of meer gebruiksfuncties van het beheerobject."
+        },
+        "BEHEEROBJECTMEMO": {
+          "type": "string",
+          "description": "Mogelijkheid om 1 of meerdere memovelden te registreren bij een beheerobject."
+        },
+        "BESCHERMDEFLORAENFAUNA": {
+          "type": "boolean",
+          "description": "Aanduiding voor aanwezigheid  beschermde plantensoort en beschermde diersoort."
+        },
+        "BUURT": {
+          "type": "string",
+          "description": "Aanduiding van de buurt waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met buurtgrenzen\nToelichting: Link naar: www.definities.geostandaarden.nl"
+        },
+        "CONVERSIEID": {
+          "type": "string",
+          "description": "Uniek kenmerk van een beheerobject uit een oude beheerindeling."
+        },
+        "DATUMMUTATIE": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop de digitale gegevens van het beheerobject voor het laatst gewijzigd zijn.\nEenheid: mmddyyyy"
+        },
+        "DATUMOPLEVERING": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop het beheerobject daadwerkelijk opgeleverd is. Begin van de garantieperiode.\nEenheid: mmddyyyy"
+        },
+        "DATUMPUBLICATIELV": {
+          "type": "string",
+          "format": "date",
+          "description": "Tijdstip waarop deze instantie van het beheerobject is opgenomen in de landelijke voorziening.\nEenheid: mmddyyyy"
+        },
+        "DATUMVERWIJDERING": {
+          "type": "string",
+          "format": "date",
+          "description": "MateriÃ«le levensduur, EindeGeldigheid\nEenheid: mmddyyyy"
+        },
+        "EINDEGARANTIEPERIODE": {
+          "type": "string",
+          "format": "date",
+          "description": "Jaar waarin de garantieperiode van het opgeleverde beheerobject eindigt.\nEenheid: mmddyyyy"
+        },
+        "GEBIEDSTYPE": {
+          "type": "string",
+          "description": "Aanduiding van het gebiedstype waarbinnen het beheerobject ligt. Conform de indeling zoals toegepast bij de CROW Benchmark Beheerprestaties."
+        },
+        "GEMEENTE": {
+          "type": "string",
+          "description": "Naam van de gemeente waarbinnen het beheerobject ligt."
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "Aanduiding voor de geometrie van het beheerobject."
+        },
+        "GEWIJZIGDDOOR": {
+          "type": "string",
+          "description": "Medewerker (ID) welke het beheerobject in het beheersysteem gewijzigd heeft."
+        },
+        "GRONDSOORT": {
+          "type": "string",
+          "description": "Aanduiding van de grondsoort op de plaats van het beheerobject. Voor de CROW Systematiek Wegbeheer kunnen uitsluitend de volgende vier grondsoorten worden gebruikt: zand, klei, klei/veen, veen. Overname uit een bodemkaart met grondsoorten of uit een referentielijst."
+        },
+        "GRONDSOORTPLUS": {
+          "type": "string",
+          "description": "Verdere bijzondering van de grondsoort op de plaats van het beheerobject."
+        },
+        "IDENTIFICATIEIMBOR": {
+          "type": "string",
+          "description": "Uniek nummer van het IMBOR-object (GUID)\nToelichting: De IMBOR-objecten zijn identificeerbaar middels het attribuut identificatie dat als inhoud heeft   - namespace: Â´IMBORÂ´   - lokaalID: een numerieke identificatie\nConform NEN3610 zijn identificatiecodes persistent: ze wijzigen niet gedurende de levensduur van een object. Verder zijn de identificatiecodes uniek ten opzichte van elkaar."
+        },
+        "IDENTIFICATIEIMGEO": {
+          "type": "string",
+          "description": "Overerving van de geometrie van beheerobject uit bovenliggend informatiemodel of automatisch genereren."
+        },
+        "JAARVANAANLEG": {
+          "type": "string",
+          "description": "Jaar waarin het beheerobject is aangelegd of aangeplant. (kan ook voor de plaatsingsdatum gebruikt worden)\nEenheid: Jaartal\nToelichting: In de CROW Systematiek Wegbeheer staat het begrip 'ouderdom' (van de constructie). Deze wordt bepaald op basis van het jaar van aanleg. Aanvullende informatie voor het wegbeheer kan zijn: Jaar conservering, jaar laatste onderhoud. Voor het boombeheer geldt: in de situatie dat een boom is verplant, wordt het oorspronkelijke plantjaar aangehouden, teneinde de leeftijd en de groeifase van de boom zo goed mogelijk te kunnen benaderen. Als de boom in een zware maat is aangeplant, wordt een plantjaar aangehouden waarmee de leeftijd zo goed mogelijk wordt benaderd."
+        },
+        "OBJECTBEGINTIJD": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creatiedatum van het digitale beheerobject binnen het beheersysteem of in de bovenliggende georegistratie\nEenheid: mmddyyyy"
+        },
+        "OBJECTEINDTIJD": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Vervaldatum van het digitale beheerobject binnen het beheersysteem of in de bovenliggende georegistratie\nEenheid: mmddyyyy"
+        },
+        "ONDERHOUDSPLICHTIGE": {
+          "type": "string",
+          "description": "Organisatie welke verantwoordelijk is voor het onderhoud van het beheerobject."
+        },
+        "OPENBARERUIMTE": {
+          "type": "string",
+          "description": "Aanduiding van de openbare ruimte, zoals gedefinieerd in IMGeo of in de BAG, waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met grenzen openbare ruimtes of uit de Basisregistratie Adressen en Gebouwen (zonder begrenzing)\nToelichting: Link naar: www.definities.geostandaarden.nl        Definitie IMGeo: een openbare ruime is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen Ã©Ã©n woonplaats is gelegen."
+        },
+        "POSTCODE": {
+          "type": "string",
+          "description": "Aanduiding van het postcodegebied waarbinnen het beheerobject ligt. Overname uit 6 positie postcodekaart"
+        },
+        "RELATIEVEHOOGTELIGGING": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het beheerobject.\nEenheid: Reeks"
+        },
+        "STADSDEEL": {
+          "type": "string",
+          "description": "Aanduiding van het stadsdeel waarbinnen het beheerobject ligt.  Overname uit IMGeo-bestand met woonplaats- of stadsdeelgrenzen\nToelichting: Link naar: www.definities.geostandaarden.nl"
+        },
+        "STATUS": {
+          "type": "string",
+          "description": "Status van het beheerobject in het inwinningsproces van de geometrie. Wordt gebruikt voor schets- en deifinitieve geometrie."
+        },
+        "THEORETISCHEINDEJAAR": {
+          "type": "string",
+          "format": "date",
+          "description": "Jaar dat het beheerobject aan het theoretische einde van haar levensduur is.\nEenheid: Jaartal"
+        },
+        "TIJDSTIPREGISTRATIE": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Formele historie, tijdstip registratie beheerobject.\nEenheid: mmddyyyy"
+        },
+        "TYPEBEHEERDER": {
+          "type": "string",
+          "description": "Een publiekrechtelijke instantie of (rechts)persoon die toeziet op de instandhouding van o.a. een object, kunstwerk of waterstaatswerk. De typen beheerder zijn conform de indeling in bronhouders (BGT).\nToelichting: De waarde wordt gebruikt voor de duiding van het fysieke beheer. De beheerder is de organisatie die verantwoordelijk voor het beheer van het terrein. Dit hoeft niet dezelfde organisatie te zijn die de (juridisch) eigenaar is van het terrein. Beheerder en Bronhouder hebben daarmee geen overlap."
+        },
+        "TYPEBEHEERDERPLUS": {
+          "type": "string",
+          "description": "Nadere aanduiding van de beheerder van het beheerobject."
+        },
+        "TYPEEIGENAAR": {
+          "type": "string",
+          "description": "(rechts)persoon die het meest  omvattend recht op een zaak heeft . De typen eigenaren zijn conform de indeling in bronhouders (BGT)."
+        },
+        "TYPEEIGENAARPLUS": {
+          "type": "string",
+          "description": "Nadere aanduiding van de eigenaar van het beheerobject."
+        },
+        "TYPELIGGING": {
+          "type": "string",
+          "description": "Aanduiding van de ligging van het beheerobject binnen of buiten de bebouwde kom.\nToelichting: Voor de bebouwde komgrens zijn verschillende definities, vanuit verschillende wetten. Suggestie: bebouwde komgrens aanhouden zoals vastgesteld door de gemeente die de eigenaar is van het beheerobject. Zie ook: Wegenverkeerswet, Wegenwet, Omgevingswet"
+        },
+        "WATERSCHAP": {
+          "type": "string",
+          "description": "Aanduiding van het waterschap, waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met waterschapsgrenzen\nToelichting: Link naar: www.definities.geostandaarden.nl"
+        },
+        "WIJK": {
+          "type": "string",
+          "description": "Aanduiding van de wijk waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met wijkgrenzen\nToelichting: Link naar: www.definities.geostandaarden.nl"
+        },
+        "WOONPLAATS": {
+          "type": "string",
+          "description": "Aanduiding van de woonplaats waarbinnen het beheerobject ligt.  Overname uit IMGeo-bestand met woonplaats- of stadsdeelgrenzen\nToelichting: Link naar: www.definities.geostandaarden.nl"
+        },
+        "ZETTINGSGEVOELIGHEID": {
+          "type": "string",
+          "description": "â€˜Zettingsgevoeligâ€™ is de indicatie van de zettingsgevoeligheid van de ondergrond of bodem. Zetting is het proces waar grond onder invloed van een belasting wordt samengedrukt; ook wel het geleidelijk en min of meer gelijkmatig"
+        },
+        "ZETTINGSGEVOELIGHEIDPLUS": {
+          "type": "string",
+          "description": "Aanduiding voor de mate van zettingsgevoeligheid."
+        }
+      }
+    },
+    "ACTIE": {
+      "title": "ACTIE",
+      "description": "Kleinst mogelijke eenheid van werk die zinvol onderscheiden kan worden, uitgevoerd door een persoon of machine op 1 plek op 1 moment.",
+      "type": "object",
+      "properties": {}
+    },
+    "CROW_MELDING": {
+      "title": "CROW_MELDING",
+      "description": "BOR-MELD is een CROW-standaard voor het vastleggen van meldingen.",
+      "type": "object",
+      "properties": {
+        "KWALITEITSNIVEAU": {
+          "type": "string",
+          "enum": [
+            "NIVEAU_A",
+            "NIVEAU_A_",
+            "NIVEAU_B",
+            "NIVEAU_C",
+            "NIVEAU_D"
+          ],
+          "description": "Enumeratie: CROW_KWALITEITSNIVEAUS"
+        }
+      }
+    },
+    "INSPECTIE": {
+      "title": "INSPECTIE",
+      "description": "het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen.",
+      "type": "object",
+      "properties": {}
+    },
+    "KWALITEITSCATALOGUS_OPENBARE_RUIMTE": {
+      "title": "KWALITEITSCATALOGUS_OPENBARE_RUIMTE",
+      "description": "zie https://www.crow.nl/publicaties/kwaliteitscatalogus-openbare-ruimte-2018",
+      "type": "object",
+      "properties": {}
+    },
+    "LOGBOEK": {
+      "title": "LOGBOEK",
+      "description": "Registratie waarin gebeurtenissen worden bijgehouden.",
+      "type": "object",
+      "properties": {}
+    },
+    "MELDING": {
+      "title": "MELDING",
+      "description": "De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend",
+      "type": "object",
+      "properties": {
+        "ADVIES": {
+          "type": "string"
+        },
+        "CATEGORIE": {
+          "type": "string"
+        },
+        "CONSTATERING": {
+          "type": "string"
+        },
+        "DATUMADVIES": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMMELDING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMUITVOERING": {
+          "type": "string",
+          "format": "date"
+        },
+        "FOTO": {
+          "type": "string"
+        },
+        "LOCATIE": {
+          "type": "string"
+        },
+        "OPMERKINGEN": {
+          "type": "string"
+        },
+        "STATUS": {
+          "type": "string"
+        },
+        "UITGEVOERD": {
+          "type": "boolean"
+        }
+      }
+    },
+    "MELDINGONGEVAL": {
+      "title": "MELDINGONGEVAL",
+      "description": "Aangifte vna een ongeval",
+      "type": "object",
+      "properties": {}
+    },
+    "SCHOUWRONDE": {
+      "title": "SCHOUWRONDE",
+      "description": "Activiteit om te controleren of de opdrachtnemer aan de afspraken voldoet.",
+      "type": "object",
+      "properties": {}
+    },
+    "STORING": {
+      "title": "STORING",
+      "description": "Verlies van de mogelijkheid om volgens een specificatie te werken of om het vereiste resultaat te leveren.",
+      "type": "object",
+      "properties": {}
+    },
+    "LEVERANCIER": {
+      "title": "LEVERANCIER",
+      "description": "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        }
+      }
+    },
+    "MEDEWERKER": {
+      "title": "MEDEWERKER",
+      "description": "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID.",
+      "type": "object",
+      "properties": {
+        "ACHTERNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt.</font>"
+        },
+        "DATUMINDIENST": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMUITDIENST": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt.</font>"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font>"
+        },
+        "EXTERN": {
+          "type": "boolean",
+          "description": "Medewerker is een externe?"
+        },
+        "FUNCTIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie.</font>"
+        },
+        "GESLACHTSAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is.</font>"
+        },
+        "MEDEWERKERIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte unieke aanduiding van de medewerker.</font>"
+        },
+        "MEDEWERKERTOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Toelichting bij en/of over de medewerker.</font>"
+        },
+        "ROEPNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Naam waarmee de werknemer wordt aangesproken.</font>"
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Telefoonnummer waaronder de medewerker in de regel bereikbaar is.</font>"
+        },
+        "VOORLETTERS": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen.</font>"
+        },
+        "VOORVOEGSELACHTERNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font>\r\n<font color=\"#610e6a\">gescheiden.</font>"
+        }
+      }
+    },
+    "NATUURLIJKPERSOON": {
+      "title": "NATUURLIJKPERSOON",
+      "description": "Een INGESCHREVEN PERSOON of ANDER NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "BIJZONDERNEDERLANDERSCHAP": {
+          "type": "string"
+        },
+        "AANDUIDINGNAAMGEBRUIK": {
+          "type": "string",
+          "description": "Een aanduiding voor de wijze van aanschrijving van de ingeschrevene."
+        },
+        "AANHEFAANSCHRIJVING": {
+          "type": "string",
+          "description": "De aanhef waarmee de persoon aangeschreven wil worden."
+        },
+        "ACADEMISCHETITEL": {
+          "type": "string",
+          "description": "De ACADEMISCHE TITELs van een NATUURLIJK PERSOON."
+        },
+        "ACHTERNAAM": {
+          "type": "string"
+        },
+        "ADELLIJKETITELOFPREDIKAAT": {
+          "type": "string",
+          "description": "Een omschrijving die aangeeft welke titel of welk predikaat behoort tot de naam (bij adellijke titel geslachtsnaam, bij predikaat voornaam)."
+        },
+        "ANUMMER": {
+          "type": "string",
+          "description": "Het administratienummer van het kind, bedoeld in de Wet BRP."
+        },
+        "BURGERSERVICENUMMER": {
+          "type": "string"
+        },
+        "DATUMGEBOORTE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de ander natuurljjk persoon is geboren."
+        },
+        "DATUMOVERLIJDEN": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum van overlijden van een ANDER NATUURLIJK PERSOON"
+        },
+        "GEBOORTELAND": {
+          "type": "string",
+          "description": "Het LAND waar de INGESCHREVEN PERSOON is geboren."
+        },
+        "GEBOORTEPLAATS": {
+          "type": "string",
+          "description": "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de ingeschreven persoon is geboren."
+        },
+        "GESLACHTSAANDUIDING": {
+          "type": "string",
+          "description": "Een aanduiding die aangeeft dat de ingeschrevene een man of een vrouw is, of dat het geslacht (nog) onbekend is."
+        },
+        "GESLACHTSNAAM": {
+          "type": "string",
+          "description": "De (geslachts)naam waarvan de eventueel aanwezige voorvoegsels en adellijke titel/predikaat zijn afgesplitst."
+        },
+        "GESLACHTSNAAMAANSCHRIJVING": {
+          "type": "string",
+          "description": "De geslachtsnaam waarmee de persoon aangeschreven wil worden."
+        },
+        "HANDLICHTING": {
+          "type": "string",
+          "description": "Geeft aan of de rechter handlichting heeft verleend aan: - De Natuurlijk Persoon als eigenaar van een MaatschappelijkeActiviteit - De Natuurlijk Persoon als aansprakelijke"
+        },
+        "INDICATIEAFSCHERMINGPERSOONSGEGEVENS": {
+          "type": "boolean",
+          "description": "Indicatie Afscherming Persoonsgegevens is een indicatie om aan te geven dat de gegevens van een persoon zijn afgeschermd."
+        },
+        "INDICATIEOVERLEDEN": {
+          "type": "boolean",
+          "description": "Indicatie Overleden is een indicatie of de persoon al dan niet overleden is.\r\n\r\nDeze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar zijn De datum van overlijden is soms niet bekend, maar wel dat iemand overleden is."
+        },
+        "LANDOVERLIJDEN": {
+          "type": "string",
+          "description": "Het LAND waar de INGESCHREVEN PERSOON is overleden."
+        },
+        "NATIONALITEIT": {
+          "type": "string"
+        },
+        "OVERLIJDENSPLAATS": {
+          "type": "string",
+          "description": "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de persoon is overleden"
+        },
+        "VOORLETTERSAANSCHRIJVING": {
+          "type": "string",
+          "description": "De voorletters waarmee een persoon aangeschreven wil worden."
+        },
+        "VOORNAMEN": {
+          "type": "string",
+          "description": "De verzameling namen die, gescheiden door spaties, aan de\r\ngeslachtsnaam voorafgaat.."
+        },
+        "VOORNAMENAANSCHRIJVING": {
+          "type": "string",
+          "description": "De voornamen waarmee een persoon aangeschreven wil worden."
+        },
+        "VOORVOEGSELGESLACHTSNAAM": {
+          "type": "string",
+          "description": "Dat deel van de geslachtsnaam dat voorkomt in GBA Tabel 36, Voorvoegseltabel en, gescheiden door een spatie, vooraf gaat aan de rest van de geslachtsnaam."
+        }
+      }
+    }
+  }
+}

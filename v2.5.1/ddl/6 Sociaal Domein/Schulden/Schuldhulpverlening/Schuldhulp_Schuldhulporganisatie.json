@@ -1,0 +1,219 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Schuldhulp Schuldhulporganisatie",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Schuldhulp Schuldhulporganisatie",
+  "$defs": {
+    "BEGELEIDING": {
+      "title": "BEGELEIDING",
+      "description": "Begeleiding voor clienten in het kader van schuldhulpdienstverlening.",
+      "type": "object",
+      "properties": {
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "SOORT": {
+          "type": "string",
+          "enum": [
+            "BESCHERMINGSBEWIND",
+            "BUDGETBEGELEIDING",
+            "BUDGETBEHEER",
+            "BUDGETCOACHING",
+            "LANGE_TERMIJN_BEGELEIDING_DFD_"
+          ],
+          "description": "Enumeratie: ENUMBEGELEIDINGSSOORT"
+        }
+      }
+    },
+    "BEGELEIDINGSSOORT": {
+      "title": "BEGELEIDINGSSOORT",
+      "description": "Soort begeleiding in het kader van schuldhulpverlening",
+      "type": "object",
+      "properties": {
+        "SOORT": {
+          "type": "string",
+          "enum": [
+            "BESCHERMINGSBEWIND",
+            "BUDGETBEGELEIDING",
+            "BUDGETBEHEER",
+            "BUDGETCOACHING",
+            "LANGE_TERMIJN_BEGELEIDING_DFD_"
+          ],
+          "description": "Enumeratie: ENUMBEGELEIDINGSSOORT"
+        }
+      }
+    },
+    "CONTACTPERSOON": {
+      "title": "CONTACTPERSOON",
+      "description": "Contactpersoon van een organisatie",
+      "type": "object",
+      "properties": {
+        "EMAIL": {
+          "type": "string"
+        },
+        "FUNCTIETITEL": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "TELEFOONNUMMER": {
+          "type": "string"
+        }
+      }
+    },
+    "OPLOSSING": {
+      "title": "OPLOSSING",
+      "description": "<font color=\"#0e0e0e\">In de schuldhulpverlening verwijst een “oplossing” naar een regeling waarbij schulden op een beheersbare manier worden afgelost of kwijtgescholden, met als doel de financi&#235;le situatie van de schuldenaar te stabiliseren. Er worden verschillende oplossingsvormen onderscheiden, waaronder saneringskrediet, schuldbemiddeling, herfinanciering, betalingsregelingen en schuldregelingen zonder afloscapaciteit. Bij een saneringskrediet ontvangt de schuldenaar een lening om alle schuldeisers in &#233;&#233;n keer af te betalen, waarna hij deze lening aflost aan de kredietverstrekker. Schuldbemiddeling houdt in dat de schuldenaar gedurende een afgesproken periode periodiek bedragen aflost aan de schuldeisers. Herfinanciering betreft het vervangen van bestaande schulden door een nieuwe lening met gunstigere voorwaarden. Een betalingsregeling is een afspraak tussen schuldenaar en schuldeiser om de schuld in termijnen af te lossen. Bij een schuldregeling zonder afloscapaciteit wordt vastgesteld dat de schuldenaar geen financi&#235;le ruimte heeft om af te lossen, wat kan leiden tot kwijtschelding van de schuld. Deze oplossingsvormen worden ingezet afhankelijk van de specifieke situatie van de schuldenaar en zijn gericht op een duurzame oplossing van de schuldenproblematiek.  </font>",
+      "type": "object",
+      "properties": {
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date",
+          "description": "Het gaat om het moment dat een schuldregeling (saneringskrediet/schuldbemiddeling) of volledige afbetalingsregeling (betalingsregeling/herfinanciering) daadwerkelijk eindigt. Dit kan zijn na de formele afgesproken periode of een voortijdige beeindiging."
+        },
+        "STARTDATUM": {
+          "type": "string",
+          "format": "date",
+          "description": "Het gaat om het moment dat een schuldregeling (saneringskrediet/schuldbemiddeling) of volledige afbetalingsregeling (betalingsregeling/herfinanciering) daadwerkelijk start na goedkeuring van de aanvraag."
+        },
+        "VTLB": {
+          "type": "string",
+          "description": "Het “Vrij te laten bedrag” (VTLB) is het bedrag (in hele euro's per maand) dat een persoon of huishouden met schulden mag behouden om in de basisbehoeften te voorzien. Dit bedrag wordt vastgesteld tijdens schuldhulpverleningstrajecten. Het VTLB zorgt ervoor dat iemand niet verder in de problemen komt door schulden af te lossen en tegelijkertijd nog kan voorzien in noodzakelijke kosten van levensonderhoud."
+        },
+        "SOORT": {
+          "type": "string",
+          "enum": [
+            "0_AANBOD",
+            "BETALINGSREGELING",
+            "HERFINANCIERING",
+            "SANERINGSKREDIET",
+            "SCHULDBEMIDDELING"
+          ],
+          "description": "Enumeratie: ENUMOPLOSSINGSSOORT"
+        }
+      }
+    },
+    "OPLOSSINGSSOORT": {
+      "title": "OPLOSSINGSSOORT",
+      "description": "De soort oplossing in het kader van Schuldhulpverlening",
+      "type": "object",
+      "properties": {
+        "SOORT": {
+          "type": "string",
+          "enum": [
+            "NUTS",
+            "OVERIG",
+            "PUBLIEK",
+            "ZORG"
+          ],
+          "description": "Enumeratie: ENUMSCHULDENSOORT"
+        }
+      }
+    },
+    "SCHULDHULPORGANISATIE": {
+      "title": "SCHULDHULPORGANISATIE",
+      "description": "Een schuldhulporganisatie is een instantie die individuen en gezinnen helpt met het beheren, verminderen en oplossen van hun schulden door middel van advies, begeleiding en bemiddeling.\nHet betreft een gemeenten of een SHV-organisatie die de gemeentelijke schuldhulpverleningstaak vanuit een gemeente gemandateerd of gedelegeerd heeft.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "SCHULDHULPTRAJECT": {
+      "title": "SCHULDHULPTRAJECT",
+      "description": "Samenstel van achtereenvolgens uit te voeren en onderling samenhangende deelhandelingen of van opeenvolgende stadia in een proces, voorgesteld als een route die via opeenvolgende bestemmingen naar de eindbestemming voert.",
+      "type": "object",
+      "properties": {
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "TOEKENNINGSDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "TOTAALSCHULDBEDRAGBIJAANVANGSCHULD": {
+          "type": "number",
+          "description": "Bedrag in hele euro's nauwkeurig voor elke schuld die meegaat in de schuldregeling. Per schuldeiser kunnen er meerdere openstaande schulden zijn. Deze afzonderlijk meenemen."
+        }
+      }
+    },
+    "NIETNATUURLIJKPERSOON": {
+      "title": "NIETNATUURLIJKPERSOON",
+      "description": "Een INGESCHREVEN NIET-NATUURLIJK PERSOON of een ANDER BUITENLANDS NIET-NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "DATUMAANVANG": {
+          "type": "string",
+          "format": "date",
+          "description": "{nog niet in NHR uitgewerkt"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "{nog niet in NHR uitgewerkt"
+        },
+        "DATUMUITSCHRIJVING": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum dat de de Niet-Natuurlijk persoon is uitgeschreven."
+        },
+        "DATUMVOORTZETTING": {
+          "type": "string",
+          "format": "date",
+          "description": "{nog niet in NHR uitgewerkt"
+        },
+        "FAXNUMMER": {
+          "type": "string",
+          "description": "Faxnummer waaronder het subject in de regel bereikbaar is."
+        },
+        "INGESCHREVEN": {
+          "type": "boolean"
+        },
+        "INOPRICHTING": {
+          "type": "boolean"
+        },
+        "KVKNUMMER": {
+          "type": "string",
+          "description": "Landelijk uniek identificerend administratienummer van een MAATSCHAPPELIJKE ACTIVITEIT behorend bij een SUBJECT zoals toegewezen door de Kamer van Koophandel (KvK)."
+        },
+        "NNPID": {
+          "type": "string",
+          "description": "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties."
+        },
+        "RECHTSVORM": {
+          "type": "string",
+          "description": "Aanduiding van de vorm die in rechte bekend is van de INGESCHREVEN NIET-NATUURLIJKE PERSOON"
+        },
+        "RSINNUMMER": {
+          "type": "string"
+        },
+        "STATUTAIRENAAM": {
+          "type": "string",
+          "description": "Naam van de niet-natuurlijke persoon zoals deze is vastgelegd in de statuten (rechtspersoon) of in de vennootschapsovereenkomst is overeengekomen (Vennootschap onder firma of Commanditaire vennootschap)."
+        },
+        "STATUTAIREZETEL": {
+          "type": "string",
+          "description": "De plaats waar de INGESCHREVEN NIET-NATUURLIJKE PERSOON volgens haar statuten gevestigd is."
+        },
+        "WEBSITEURL": {
+          "type": "string",
+          "description": "Het label of etiket dat aan de specifieke informatiebron, zoals een webpagina, een bestand of een plaatje op internet is toegewezen waar het SUBJECT in de regel op het internet vindbaar is."
+        }
+      }
+    }
+  }
+}

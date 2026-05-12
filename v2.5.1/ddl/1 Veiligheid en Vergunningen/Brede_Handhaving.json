@@ -1,0 +1,250 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Brede Handhaving",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Brede Handhaving",
+  "$defs": {
+    "BOA": {
+      "title": "BOA",
+      "description": "Een buitengewoon opsporingsambtenaar (boa) is een ambtenaar met een specifieke opsporingsbevoegdheid.",
+      "type": "object",
+      "properties": {}
+    },
+    "COMBIBON": {
+      "title": "COMBIBON",
+      "description": "Een Combibon is een modelformulier dat handhavende ambtenaren gebruiken om geconstateerde overtredingen en de gekozen afdoeningsmodaliteit (bijv. bekeuring of strafbeschikking) vast te leggen.",
+      "type": "object",
+      "properties": {
+        "SANCTIE": {
+          "type": "string"
+        }
+      }
+    },
+    "FIETSREGISTRATIE": {
+      "title": "FIETSREGISTRATIE",
+      "description": "Adminstreren van fietsen",
+      "type": "object",
+      "properties": {
+        "GELABELD": {
+          "type": "boolean"
+        },
+        "VERWIJDERD": {
+          "type": "boolean"
+        }
+      }
+    },
+    "VTH_MELDING": {
+      "title": "VTH_MELDING",
+      "description": "Melding met betrekking tot Vergunningen, Toezicht en Handhaving",
+      "type": "object",
+      "properties": {
+        "ACTIVITEIT": {
+          "type": "string"
+        },
+        "DATUMSEPONERING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMTIJDTOT": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "GESEPONEERD": {
+          "type": "boolean"
+        },
+        "LOCATIE": {
+          "type": "string"
+        },
+        "ORGANISATIEONDERDEEL": {
+          "type": "string"
+        },
+        "OVERTREDINGSCODE": {
+          "type": "string"
+        },
+        "OVERTREDINGSGROEP": {
+          "type": "string"
+        },
+        "REFERENTIENUMMER": {
+          "type": "string"
+        },
+        "RESULTAAT": {
+          "type": "string"
+        },
+        "SOORTVTHMELDING": {
+          "type": "string"
+        },
+        "STATUS": {
+          "type": "string"
+        },
+        "STRAATNAAM": {
+          "type": "string"
+        },
+        "TAAKTYPE": {
+          "type": "string"
+        },
+        "ZAAKNUMMER": {
+          "type": "string"
+        },
+        "BEOORDELING": {
+          "type": "string",
+          "enum": [
+            "NIET_OKE",
+            "NIET_RELEVANT",
+            "OKE"
+          ],
+          "description": "Enumeratie: BEOORDELINGSOORT"
+        }
+      }
+    },
+    "WAARNEMING": {
+      "title": "WAARNEMING",
+      "description": "Handhavende taak in het kader van VTH",
+      "type": "object",
+      "properties": {}
+    },
+    "AANVRAAGOFMELDING": {
+      "title": "AANVRAAGOFMELDING",
+      "description": "Komt overeen met een VJV\n\nBron: GEM_VJV (Distinct op REQ_ID)\nID: REQ_ID",
+      "type": "object",
+      "properties": {
+        "AFGEHANDELD": {
+          "type": "boolean"
+        },
+        "CATEGORIE": {
+          "type": "string"
+        },
+        "CATEGORIECODE": {
+          "type": "string"
+        },
+        "DATUMAANMAAK": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMAFHANDELING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMBEGINSTATUS": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDESTATUS": {
+          "type": "string",
+          "format": "date"
+        },
+        "HOOFDCATEGORIE": {
+          "type": "string"
+        },
+        "HOOFDCATEGORIECODE": {
+          "type": "string"
+        },
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "KANAAL": {
+          "type": "string"
+        },
+        "ONDERWERP": {
+          "type": "string"
+        },
+        "ONDERWERPCODE": {
+          "type": "string"
+        },
+        "SOORT": {
+          "type": "string",
+          "description": "Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding...."
+        },
+        "STATUS": {
+          "type": "string"
+        },
+        "STATUSCODE": {
+          "type": "string"
+        },
+        "STATUSVOLGORDE": {
+          "type": "string"
+        },
+        "SUBCATEGORIE": {
+          "type": "string"
+        },
+        "SUBCATEGORIECODE": {
+          "type": "string"
+        }
+      }
+    },
+    "FOTO": {
+      "title": "FOTO",
+      "description": "Afbeelding op een plat vlak vervaardigd door middel van fotografie",
+      "type": "object",
+      "properties": {
+        "BESTANDSGROOTTE": {
+          "type": "integer",
+          "description": "Bestandsgrootte in bytes"
+        },
+        "BESTANDSNAAM": {
+          "type": "string"
+        },
+        "BESTANDSTYPE": {
+          "type": "string"
+        },
+        "DATUMTIJD": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "LOCATIE": {
+          "type": "string"
+        },
+        "PIXELSX": {
+          "type": "integer"
+        },
+        "PIXELSY": {
+          "type": "integer"
+        }
+      }
+    },
+    "OBJECT": {
+      "title": "OBJECT",
+      "description": "Het OBJECT waarop een ZAAK betrekking kan hebben zijnde één of meer voorkomens van de in het RSGB en het RGBZ onderscheiden objecttypen.",
+      "type": "object",
+      "properties": {
+        "ADRESBINNENLAND": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De aanduiding van het adres van het OBJECT indien dit adres in Nederland gelegen is.</font>"
+        },
+        "ADRESBUITENLAND": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De aanduiding van het adres waar specialisaties van het OBJECT zijnde een SUBJECT dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland.</font>"
+        },
+        "DOMEIN": {
+          "type": "string",
+          "description": "Het toepassingsgebied of de sector DOMEIN waarbinnen handhaving op het object plaatsvindt"
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De minimaal tweedimensionale geometrische representatie van het OBJECT.</font>"
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De unieke identificatie van het OBJECT</font>"
+        },
+        "INDICATIERISICO": {
+          "type": "boolean",
+          "description": "Indicatie van de risico's van (de uitvoering van activiteiten in) het handhavingsobject op gevolgen voor het handhavingsobject zelf, de daarin aanwezige personen, de omgeving van het handhavingsobject en/of de samenleving."
+        },
+        "KADASTRALEAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De kadastrale aanduiding van het OBJECT</font>"
+        },
+        "NAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De benaming van het OBJECT indien dit een SUBJECT of specialisatie daarvan is.</font>"
+        },
+        "OBJECTTYPE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Het onderscheid van een OBJECT naar haar specialisatiies.</font>\r\n<font color=\"#610e6a\">De code voor de Objecttypering gevolgd door de unieke aanduiding van de specialisatie (van OBJECT):</font>\r\n<font color=\"#610e6a\">ADRESSEERBAAR OBJECT AANDUIDING, BENOEMD OBJECT, BESLUIT, BUURT, ENKELVOUDIG INFORMATIEOBJECT, GEMEENTE, GEMEENTELIJKE OPENBARE RUIMTE, HUISHOUDEN, INRICHTINGSELEMENT, KADASTRALE ONROERENDE ZAAK, KUNSTWERKDEEL, MAATSSCHAPPELIJKE ACTIVITEIT, MEDEWERKER, OPENBARE RUIMTE, SAMENGESTELD INFORMATIEOBJECT, ORGANISATORISCHE EENHEID, PAND, SPOORBAANDEEL, STATUS, SUBJECT, TERREINDEEL, WATERDEEL, WEGDEEL, WIJK, WOONPLAATS, WOZ- DEELOBJECT, WOZ-OBJECT, WOZ-WAARDE of</font>\r\n<font color=\"#610e6a\">ZAKELIJK RECHT (of afleidbare identificatie).</font>"
+        },
+        "TOELICHTING": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,648 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Zorgmelding",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Zorgmelding",
+  "$defs": {
+    "INFORMERING": {
+      "title": "INFORMERING",
+      "description": "Klasse uit het Gemeentelijk Gegevensmodel: INFORMERING",
+      "type": "object",
+      "properties": {
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "INDICATIEGEINFORMEERD": {
+          "type": "boolean"
+        },
+        "REACTIE": {
+          "type": "string"
+        },
+        "REDENNIETGEINFORMEERD": {
+          "type": "string"
+        }
+      }
+    },
+    "LEEFGEBIED": {
+      "title": "LEEFGEBIED",
+      "description": "Een Leefgebied in het kader van jeugdbescherming verwijst naar een specifiek domein binnen het leven van een kind of jongere waarin factoren van invloed zijn op diens veiligheid, welzijn en ontwikkeling. Voorbeelden van leefgebieden zijn gezinssituatie, onderwijs, sociale relaties, gezondheid, vrije tijd en financiën. Bij jeugdbescherming wordt elk leefgebied onderzocht om risico’s en beschermende factoren te identificeren, zodat er een integraal plan kan worden opgesteld om de veiligheid en het welzijn van het kind of de jongere te waarborgen. Leefgebieden vormen daarmee een leidraad voor een holistische benadering in de ondersteuning en interventies.",
+      "type": "object",
+      "properties": {
+        "TOELICHTING": {
+          "type": "string"
+        },
+        "LEEFGEBIEDOMSCHRIJVING": {
+          "type": "string",
+          "description": "Enumeratie: ENUM_LEEFGEBIED"
+        }
+      }
+    },
+    "ZORGELIJKE_SITUATIE": {
+      "title": "ZORGELIJKE_SITUATIE",
+      "description": "Een zorgelijke situatie in de context van jeugdbescherming is een omstandigheid waarin de veiligheid, gezondheid, of ontwikkeling van een kind of jongere in het geding is door bijvoorbeeld verwaarlozing, mishandeling, huiselijk geweld, of andere risicofactoren. Deze situaties worden gekenmerkt door signalen van fysieke, emotionele of sociale schade of het ontbreken van een veilige en stabiele omgeving. Een zorgelijke situatie kan leiden tot interventie door jeugdbeschermingsorganisaties om de risico’s te verminderen en het kind of de jongere te beschermen en ondersteunen bij een gezonde en veilige ontwikkeling.",
+      "type": "object",
+      "properties": {
+        "NADEREOMSCHRIJVING": {
+          "type": "string"
+        },
+        "SITIUATIESCHETS": {
+          "type": "string"
+        }
+      }
+    },
+    "ZORGMELDING": {
+      "title": "ZORGMELDING",
+      "description": "Een Zorgmelding is een officiële melding bij een gemeente of jeugdhulporganisatie waarin zorgen worden geuit over de veiligheid, gezondheid, of ontwikkeling van een kind of jongere. Deze melding kan worden gedaan door professionals, zoals leraren, huisartsen of politie, maar ook door burgers of familieleden. Een zorgmelding bevat signalen of concrete aanwijzingen van mogelijke risico’s, zoals mishandeling, verwaarlozing, huiselijk geweld, of een onveilige thuissituatie. Het doel van een zorgmelding is om de situatie te laten beoordelen en, indien nodig, passende hulp of bescherming te organiseren om het welzijn van het kind of de jongere te waarborgen.",
+      "type": "object",
+      "properties": {
+        "NADEREOMSCHRIJVING": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "TERUGKOPPELINGGEWENST": {
+          "type": "boolean"
+        },
+        "ZORGMELDINGSOORT": {
+          "type": "integer"
+        },
+        "VERZOEK": {
+          "type": "string",
+          "description": "Enumeratie: ENUM_VERZOEKSOORT"
+        }
+      }
+    },
+    "INCIDENT": {
+      "title": "INCIDENT",
+      "description": "Een *incident* is een afzonderlijke gebeurtenis of voorval dat plaatsvindt en kan afwijken van de normale gang van zaken, vaak onverwacht of onvoorzien.",
+      "type": "object",
+      "properties": {
+        "DATUMTIJDTOT": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "DATUMTIJDVANAF": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "LOCATIE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "TOELICHTING": {
+          "type": "string"
+        },
+        "SOORT": {
+          "type": "string",
+          "description": "Enumeratie: ENUM_INCIDENTTYPE"
+        }
+      }
+    },
+    "AANVRAAGOFMELDING": {
+      "title": "AANVRAAGOFMELDING",
+      "description": "Komt overeen met een VJV\n\nBron: GEM_VJV (Distinct op REQ_ID)\nID: REQ_ID",
+      "type": "object",
+      "properties": {
+        "AFGEHANDELD": {
+          "type": "boolean"
+        },
+        "CATEGORIE": {
+          "type": "string"
+        },
+        "CATEGORIECODE": {
+          "type": "string"
+        },
+        "DATUMAANMAAK": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMAFHANDELING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMBEGINSTATUS": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDESTATUS": {
+          "type": "string",
+          "format": "date"
+        },
+        "HOOFDCATEGORIE": {
+          "type": "string"
+        },
+        "HOOFDCATEGORIECODE": {
+          "type": "string"
+        },
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "KANAAL": {
+          "type": "string"
+        },
+        "ONDERWERP": {
+          "type": "string"
+        },
+        "ONDERWERPCODE": {
+          "type": "string"
+        },
+        "SOORT": {
+          "type": "string",
+          "description": "Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding...."
+        },
+        "STATUS": {
+          "type": "string"
+        },
+        "STATUSCODE": {
+          "type": "string"
+        },
+        "STATUSVOLGORDE": {
+          "type": "string"
+        },
+        "SUBCATEGORIE": {
+          "type": "string"
+        },
+        "SUBCATEGORIECODE": {
+          "type": "string"
+        }
+      }
+    },
+    "ONDERWERP": {
+      "title": "ONDERWERP",
+      "description": "Bron: GEM_VJV_ONDERWERP\nID: ONDERWERP_ID",
+      "type": "object",
+      "properties": {
+        "ISACTIEF": {
+          "type": "boolean"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "TOELICHTING": {
+          "type": "string"
+        }
+      }
+    },
+    "MEDEWERKER": {
+      "title": "MEDEWERKER",
+      "description": "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID.",
+      "type": "object",
+      "properties": {
+        "ACHTERNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt.</font>"
+        },
+        "DATUMINDIENST": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMUITDIENST": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt.</font>"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font>"
+        },
+        "EXTERN": {
+          "type": "boolean",
+          "description": "Medewerker is een externe?"
+        },
+        "FUNCTIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie.</font>"
+        },
+        "GESLACHTSAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is.</font>"
+        },
+        "MEDEWERKERIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte unieke aanduiding van de medewerker.</font>"
+        },
+        "MEDEWERKERTOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Toelichting bij en/of over de medewerker.</font>"
+        },
+        "ROEPNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Naam waarmee de werknemer wordt aangesproken.</font>"
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Telefoonnummer waaronder de medewerker in de regel bereikbaar is.</font>"
+        },
+        "VOORLETTERS": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen.</font>"
+        },
+        "VOORVOEGSELACHTERNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font>\r\n<font color=\"#610e6a\">gescheiden.</font>"
+        }
+      }
+    },
+    "DOCUMENT": {
+      "title": "DOCUMENT",
+      "description": "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT.",
+      "type": "object",
+      "properties": {
+        "COCUMENTBESCHRIJVING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een generieke beschrijving van de inhoud van het document.</font>"
+        },
+        "DATUMCREATIEDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Een datum of een gebeurtenis in de levenscyclus van het document.</font>"
+        },
+        "DATUMONTVANGSTDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het DOCUMENT ontvangen is.</font>"
+        },
+        "DATUMVERZENDINGDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het DOCUMENT verzonden is.</font>"
+        },
+        "DOCUMENTAUTEUR": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document.</font>"
+        },
+        "DOCUMENTIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een binnen een gegeven context ondubbelzinnige referentie naar het document.</font>\r\n<font color=\"#610e6a\">Bijvoorbeeld potsregistratienummer</font>"
+        },
+        "DOCUMENTTITEL": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De naam waaronder het document formeel bekend is.</font>"
+        },
+        "VERTROUWELIJKAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is.</font>"
+        }
+      }
+    },
+    "ZAAK": {
+      "title": "ZAAK",
+      "description": "Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden.",
+      "type": "object",
+      "properties": {
+        "ARCHIEFNOMINATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden</font>"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de uitvoering van de zaak afgerond is.</font>"
+        },
+        "DATUMEINDEGEPLAND": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt.</font>"
+        },
+        "DATUMEINDEUITERLIJKEAFDOENING": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn.</font>"
+        },
+        "DATUMLAATSTEBETALING": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak.</font>"
+        },
+        "DATUMPUBLICATIE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Datum waarop (het starten van) de zaak gepubliceerd is of wordt.</font>"
+        },
+        "DATUMREGISTRATIE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd</font>"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop met de uitvoering van de zaak is gestart.</font>"
+        },
+        "DATUMVERNIETIGINGDOSSIER": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden.</font>"
+        },
+        "DUURVERLENGING": {
+          "type": "string"
+        },
+        "INDICATIEBETALING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene.</font>"
+        },
+        "INDICATIEDEELZAKEN": {
+          "type": "boolean",
+          "description": "<font color=\"#610e6a\">De aanduiding of een ZAAK behandeld wordt in deelzaken.</font>"
+        },
+        "INDICATIEOPSCHORTING": {
+          "type": "string"
+        },
+        "LEGES": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte omschrijving van de zaak.</font>"
+        },
+        "OMSCHRIJVINGRESULTAAT": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte omschrijving wat het resultaat van de zaak inhoudt.</font>"
+        },
+        "REDENOPSCHORTING": {
+          "type": "string"
+        },
+        "REDENVERLENGING": {
+          "type": "string"
+        },
+        "TOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een toelichting op de zaak.</font>"
+        },
+        "TOELICHTINGRESULTAAT": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een toelichting op wat het resultaat van de zaak inhoudt.</font>"
+        },
+        "VERTROUWELIJKHEID": {
+          "type": "string"
+        },
+        "ZAAKIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een identificatie van de zaak.</font>"
+        },
+        "ZAAKNIVEAU": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken.</font>"
+        }
+      }
+    },
+    "KLANTCONTACT": {
+      "title": "KLANTCONTACT",
+      "description": "Klantcontacten zijn contactmomenten die werkelijk hebben plaatsgevonden, terwijl Balieafspraken afspraken zijn voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.\n\nHetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje).",
+      "type": "object",
+      "properties": {
+        "EINDTIJD": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Werkelijke eindtijd van het klantcontact. Het moment dat de conversatie ten einde is.\r\nBij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk"
+        },
+        "KANAAL": {
+          "type": "string"
+        },
+        "NOTITIE": {
+          "type": "string"
+        },
+        "STARTTIJD": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Werkelijke starttijd van het klantcontact, dus het moment dat klant en medewerker van de gemeente elkaar spreken.\r\n\r\nBij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk"
+        },
+        "TIJDSDUUR": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Werkelijke tijdsduur in seconden"
+        },
+        "TOELICHTING": {
+          "type": "string"
+        },
+        "WACHTTIJDTOTAAL": {
+          "type": "string",
+          "format": "date-time",
+          "description": "De totale wachttijd voor de starttijd van het klantcontact. Dit inclusief eventueel te vroeg verschijnen op een afspraak"
+        }
+      }
+    },
+    "NIETNATUURLIJKPERSOON": {
+      "title": "NIETNATUURLIJKPERSOON",
+      "description": "Een INGESCHREVEN NIET-NATUURLIJK PERSOON of een ANDER BUITENLANDS NIET-NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "DATUMAANVANG": {
+          "type": "string",
+          "format": "date",
+          "description": "{nog niet in NHR uitgewerkt"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "{nog niet in NHR uitgewerkt"
+        },
+        "DATUMUITSCHRIJVING": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum dat de de Niet-Natuurlijk persoon is uitgeschreven."
+        },
+        "DATUMVOORTZETTING": {
+          "type": "string",
+          "format": "date",
+          "description": "{nog niet in NHR uitgewerkt"
+        },
+        "FAXNUMMER": {
+          "type": "string",
+          "description": "Faxnummer waaronder het subject in de regel bereikbaar is."
+        },
+        "INGESCHREVEN": {
+          "type": "boolean"
+        },
+        "INOPRICHTING": {
+          "type": "boolean"
+        },
+        "KVKNUMMER": {
+          "type": "string",
+          "description": "Landelijk uniek identificerend administratienummer van een MAATSCHAPPELIJKE ACTIVITEIT behorend bij een SUBJECT zoals toegewezen door de Kamer van Koophandel (KvK)."
+        },
+        "NNPID": {
+          "type": "string",
+          "description": "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties."
+        },
+        "RECHTSVORM": {
+          "type": "string",
+          "description": "Aanduiding van de vorm die in rechte bekend is van de INGESCHREVEN NIET-NATUURLIJKE PERSOON"
+        },
+        "RSINNUMMER": {
+          "type": "string"
+        },
+        "STATUTAIRENAAM": {
+          "type": "string",
+          "description": "Naam van de niet-natuurlijke persoon zoals deze is vastgelegd in de statuten (rechtspersoon) of in de vennootschapsovereenkomst is overeengekomen (Vennootschap onder firma of Commanditaire vennootschap)."
+        },
+        "STATUTAIREZETEL": {
+          "type": "string",
+          "description": "De plaats waar de INGESCHREVEN NIET-NATUURLIJKE PERSOON volgens haar statuten gevestigd is."
+        },
+        "WEBSITEURL": {
+          "type": "string",
+          "description": "Het label of etiket dat aan de specifieke informatiebron, zoals een webpagina, een bestand of een plaatje op internet is toegewezen waar het SUBJECT in de regel op het internet vindbaar is."
+        }
+      }
+    },
+    "RECHTSPERSOON": {
+      "title": "RECHTSPERSOON",
+      "description": "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "ADRESBINNENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."
+        },
+        "ADRESBUITENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."
+        },
+        "ADRESCORRESPONDENTIE": {
+          "type": "string",
+          "description": "postbus of antwoordnummer"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "Elektronisch postadres waaronder het subject in de regel bereikbaar is."
+        },
+        "FAXNUMMER": {
+          "type": "string",
+          "description": "Faxnummer waaronder het subject in de regel bereikbaar is."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke identificatie van het SUBJECT"
+        },
+        "KVKNUMMER": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string",
+          "description": "De benaming van het SUBJECT"
+        },
+        "RECHTSVORM": {
+          "type": "string",
+          "description": "Bron: Handelsregister"
+        },
+        "REKENINGNUMMER": {
+          "type": "string",
+          "description": "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "Telefoonnummer waaronder het subject in de regel bereikbaar is."
+        }
+      }
+    },
+    "NATUURLIJKPERSOON": {
+      "title": "NATUURLIJKPERSOON",
+      "description": "Een INGESCHREVEN PERSOON of ANDER NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "BIJZONDERNEDERLANDERSCHAP": {
+          "type": "string"
+        },
+        "AANDUIDINGNAAMGEBRUIK": {
+          "type": "string",
+          "description": "Een aanduiding voor de wijze van aanschrijving van de ingeschrevene."
+        },
+        "AANHEFAANSCHRIJVING": {
+          "type": "string",
+          "description": "De aanhef waarmee de persoon aangeschreven wil worden."
+        },
+        "ACADEMISCHETITEL": {
+          "type": "string",
+          "description": "De ACADEMISCHE TITELs van een NATUURLIJK PERSOON."
+        },
+        "ACHTERNAAM": {
+          "type": "string"
+        },
+        "ADELLIJKETITELOFPREDIKAAT": {
+          "type": "string",
+          "description": "Een omschrijving die aangeeft welke titel of welk predikaat behoort tot de naam (bij adellijke titel geslachtsnaam, bij predikaat voornaam)."
+        },
+        "ANUMMER": {
+          "type": "string",
+          "description": "Het administratienummer van het kind, bedoeld in de Wet BRP."
+        },
+        "BURGERSERVICENUMMER": {
+          "type": "string"
+        },
+        "DATUMGEBOORTE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de ander natuurljjk persoon is geboren."
+        },
+        "DATUMOVERLIJDEN": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum van overlijden van een ANDER NATUURLIJK PERSOON"
+        },
+        "GEBOORTELAND": {
+          "type": "string",
+          "description": "Het LAND waar de INGESCHREVEN PERSOON is geboren."
+        },
+        "GEBOORTEPLAATS": {
+          "type": "string",
+          "description": "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de ingeschreven persoon is geboren."
+        },
+        "GESLACHTSAANDUIDING": {
+          "type": "string",
+          "description": "Een aanduiding die aangeeft dat de ingeschrevene een man of een vrouw is, of dat het geslacht (nog) onbekend is."
+        },
+        "GESLACHTSNAAM": {
+          "type": "string",
+          "description": "De (geslachts)naam waarvan de eventueel aanwezige voorvoegsels en adellijke titel/predikaat zijn afgesplitst."
+        },
+        "GESLACHTSNAAMAANSCHRIJVING": {
+          "type": "string",
+          "description": "De geslachtsnaam waarmee de persoon aangeschreven wil worden."
+        },
+        "HANDLICHTING": {
+          "type": "string",
+          "description": "Geeft aan of de rechter handlichting heeft verleend aan: - De Natuurlijk Persoon als eigenaar van een MaatschappelijkeActiviteit - De Natuurlijk Persoon als aansprakelijke"
+        },
+        "INDICATIEAFSCHERMINGPERSOONSGEGEVENS": {
+          "type": "boolean",
+          "description": "Indicatie Afscherming Persoonsgegevens is een indicatie om aan te geven dat de gegevens van een persoon zijn afgeschermd."
+        },
+        "INDICATIEOVERLEDEN": {
+          "type": "boolean",
+          "description": "Indicatie Overleden is een indicatie of de persoon al dan niet overleden is.\r\n\r\nDeze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar zijn De datum van overlijden is soms niet bekend, maar wel dat iemand overleden is."
+        },
+        "LANDOVERLIJDEN": {
+          "type": "string",
+          "description": "Het LAND waar de INGESCHREVEN PERSOON is overleden."
+        },
+        "NATIONALITEIT": {
+          "type": "string"
+        },
+        "OVERLIJDENSPLAATS": {
+          "type": "string",
+          "description": "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de persoon is overleden"
+        },
+        "VOORLETTERSAANSCHRIJVING": {
+          "type": "string",
+          "description": "De voorletters waarmee een persoon aangeschreven wil worden."
+        },
+        "VOORNAMEN": {
+          "type": "string",
+          "description": "De verzameling namen die, gescheiden door spaties, aan de\r\ngeslachtsnaam voorafgaat.."
+        },
+        "VOORNAMENAANSCHRIJVING": {
+          "type": "string",
+          "description": "De voornamen waarmee een persoon aangeschreven wil worden."
+        },
+        "VOORVOEGSELGESLACHTSNAAM": {
+          "type": "string",
+          "description": "Dat deel van de geslachtsnaam dat voorkomt in GBA Tabel 36, Voorvoegseltabel en, gescheiden door een spatie, vooraf gaat aan de rest van de geslachtsnaam."
+        }
+      }
+    }
+  }
+}

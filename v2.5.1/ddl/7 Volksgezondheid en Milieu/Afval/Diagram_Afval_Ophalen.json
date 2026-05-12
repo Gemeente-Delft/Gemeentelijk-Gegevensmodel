@@ -1,0 +1,185 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diagram Afval Ophalen",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Diagram Afval Ophalen",
+  "$defs": {
+    "CONTAINER": {
+      "title": "CONTAINER",
+      "description": "Container voor het gescheiden inzamelen van huishoudelijke afvalstoffen dwz afvalstoffen afkomstig uit particuliere huishoudens behoudens voor zover het ingezamelde bestanddelen van die afvalstoffen betreft die zijn aangewezen als gevaarlijke afvalstoffen",
+      "type": "object",
+      "properties": {
+        "CONTAINERCODE": {
+          "type": "string"
+        },
+        "SENSORID": {
+          "type": "string"
+        }
+      }
+    },
+    "CONTAINERTYPE": {
+      "title": "CONTAINERTYPE",
+      "description": "Typologie van container",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "FRACTIE": {
+      "title": "FRACTIE",
+      "description": "Onderdeel, deeltje",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "LOCATIE": {
+      "title": "LOCATIE",
+      "description": "Locaties die worden aangedaan tijdens het rijden van een route. Dit kunnen adressen zijn en/of GML-punten met een x- en y-coordinaat. Avalex hanteert op het moment van schrijven alleen adressen, ook voor de containers.",
+      "type": "object",
+      "properties": {
+        "ADRESAANDUIDING": {
+          "type": "string"
+        },
+        "LOCATIEPUNT": {
+          "type": "string"
+        },
+        "LOCATIECODE": {
+          "type": "string"
+        }
+      }
+    },
+    "OPHAALMOMENT": {
+      "title": "OPHAALMOMENT",
+      "description": "Een stop die een vuilniswagen maakt tijdens het doen van een rit. Bijgehouden wordt de gewichtstoename van de lading",
+      "type": "object",
+      "properties": {
+        "GEWICHTSTOENAME": {
+          "type": "integer"
+        },
+        "TIJDSTIP": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "PRIJSAFSPRAAK": {
+      "title": "PRIJSAFSPRAAK",
+      "description": "Overeenkomst tussen concurrenten met betrekking tot de prijs van goederen of diensten.",
+      "type": "object",
+      "properties": {
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "TITEL": {
+          "type": "string"
+        }
+      }
+    },
+    "PRIJSREGEL": {
+      "title": "PRIJSREGEL",
+      "description": "Een *prijsregel* is een **regel die aangeeft hoe de prijs van een product, dienst of prestatie wordt vastgesteld of toegepast**, bijvoorbeeld binnen een declaratie- of tariefstructuur.",
+      "type": "object",
+      "properties": {
+        "BEDRAG": {
+          "type": "number"
+        },
+        "CREDIT": {
+          "type": "boolean"
+        }
+      }
+    },
+    "RIT": {
+      "title": "RIT",
+      "description": "Verplaatsing van een wegvoertuig over een wegpad",
+      "type": "object",
+      "properties": {
+        "EINDTIJD": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "RITCODE": {
+          "type": "string"
+        },
+        "STARTTIJD": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "ROUTE": {
+      "title": "ROUTE",
+      "description": "Routes die gereden worden om bepaalde fracties vuilnis op te halen. Routes gaan langs locaties, waar afhankelijk van de routesoort een containers, bepaalde plekken of adressen worden aangedaan.\n\n huis-aan-huis: er worden locaties met adressen aangedaan\n illegale dumping, grofvuil: er worden locaties aangedaan (evt met adres)\n containters: er worden locaties met containers aangedaan",
+      "type": "object",
+      "properties": {
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "Geometrie: lijnen die gezamenlijk de route bepalen. Nog onvoldoende ondersteund met GML. Ij dat geval leeglaten."
+        },
+        "ROUTECODE": {
+          "type": "string"
+        },
+        "ROUTESOORT": {
+          "type": "string",
+          "enum": [
+            "GROFVUIL",
+            "HOT_SPOT_LOCATIES",
+            "HUIS_AAN_HUIS",
+            "ILLEGALE_DUMPING",
+            "VANGNETREGELING"
+          ],
+          "description": "Enumeratie: ROUTESOORT"
+        }
+      }
+    },
+    "VUILNISWAGEN": {
+      "title": "VUILNISWAGEN",
+      "description": "Een vrachtwagen die gebruikt wordt om afval in te zamelen bij bedrijven en huishoudens (huisvuil)",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "KENTEKEN": {
+          "type": "string"
+        },
+        "TYPE": {
+          "type": "string"
+        }
+      }
+    },
+    "VULGRAADMETING": {
+      "title": "VULGRAADMETING",
+      "description": "Mate waarin een (afval)container gevuld is",
+      "type": "object",
+      "properties": {
+        "TIJDSTIP": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "VULGRAAD": {
+          "type": "integer",
+          "description": "Vulgraadpercentage"
+        },
+        "VULLINGGEWICHT": {
+          "type": "integer",
+          "description": "Gewicht vulling in kilo's"
+        }
+      }
+    }
+  }
+}

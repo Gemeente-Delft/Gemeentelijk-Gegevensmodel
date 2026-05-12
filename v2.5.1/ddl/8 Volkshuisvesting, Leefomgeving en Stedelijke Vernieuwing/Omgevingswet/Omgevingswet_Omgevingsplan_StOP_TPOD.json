@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Omgevingswet Omgevingsplan StOP TPOD",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Omgevingswet Omgevingsplan StOP TPOD",
+  "$defs": {
+    "OMGEVINGSDOCUMENT": {
+      "title": "OMGEVINGSDOCUMENT",
+      "description": "In artikel 16.2 van de Omgevingswet aangemerkt instrument te weten: Omgevingsvisie, programma, omgevingsplan, waterschapsverordening, omgevingsverordening, projectbesluit of bij Algemene Maatregel van Bestuur (Omgevingsbesluit) aangewezen ander besluit of ander rechtsfiguur.",
+      "type": "object",
+      "properties": {}
+    },
+    "REGELTEKST": {
+      "title": "REGELTEKST",
+      "description": "De kleinste zelfstandige eenheid van (een of meer) bij elkaar horende juridische regels: een artikel en lid.",
+      "type": "object",
+      "properties": {
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "TEKST": {
+          "type": "string"
+        }
+      }
+    },
+    "JURIDISCHE_REGEL": {
+      "title": "JURIDISCHE_REGEL",
+      "description": "De beschrijving van een regel met juridische werkingskracht. Een regel betreft binnen de Omgevingswet veelal activiteiten, en/of normen en/of functies en/of beperkingengebieden.",
+      "type": "object",
+      "properties": {
+        "DATUMBEKEND": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMINWERKING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "REGELTEKST": {
+          "type": "string",
+          "description": "Verwijzing naar lid of artikel van regeltekst"
+        },
+        "THEMA": {
+          "type": "string"
+        }
+      }
+    },
+    "THEMA": {
+      "title": "THEMA",
+      "description": "Kernachtige weergave van de grondgedachte achter een regel.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "LOCATIE": {
+      "title": "LOCATIE",
+      "description": "De locatie beschrijft middels co√∂rdinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)",
+      "type": "object",
+      "properties": {
+        "HOOGTE": {
+          "type": "integer",
+          "description": "Hoogte in meters. Negatief is onder het maaiveld en positief boven het maaiveld"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "NEN3610ID": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

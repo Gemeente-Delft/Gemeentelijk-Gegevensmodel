@@ -1,0 +1,236 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Omgevingswet Verzoek Activiteit op Locatie",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Omgevingswet Verzoek Activiteit op Locatie",
+  "$defs": {
+    "INITIATIEFNEMER": {
+      "title": "INITIATIEFNEMER",
+      "description": "Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die het initiatief neemt tot (fysieke) ingrepen in de (leef)omgeving en daartoe een Verzoek bij het Bevoegd Gezag indient.",
+      "type": "object",
+      "properties": {}
+    },
+    "UITVOERENDE_INSTANTIE": {
+      "title": "UITVOERENDE_INSTANTIE",
+      "description": "Onderdeel van het bevoegd gezag dat uitvoering geeft aan wetten en besluiten",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "VERZOEK": {
+      "title": "VERZOEK",
+      "description": "Een vraag aan het bevoegd gezag om een speficieke product of dienst te leveren.",
+      "type": "object",
+      "properties": {
+        "AKKOORDVERKLARING": {
+          "type": "boolean"
+        },
+        "AMBTSHALVE": {
+          "type": "boolean"
+        },
+        "DATUMINDIENING": {
+          "type": "string",
+          "format": "date"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "REFERENTIEAANVRAGER": {
+          "type": "string"
+        },
+        "TOELICHTINGLATERAANTELEVERENINFORMATIE": {
+          "type": "string"
+        },
+        "TOELICHTINGNIETAANTELEVERENINFORMATIE": {
+          "type": "string"
+        },
+        "TOELICHTINGVERZOEK": {
+          "type": "string"
+        },
+        "VERZOEKNUMMER": {
+          "type": "string"
+        },
+        "VOLGNUMMER": {
+          "type": "string"
+        },
+        "DOEL": {
+          "type": "string",
+          "enum": [
+            "AANVULLEN",
+            "INITIEREN",
+            "INTREKKEN",
+            "VOOROVERLEG"
+          ],
+          "description": "Enumeratie: DOEL_VERZOEK"
+        },
+        "TYPE": {
+          "type": "string",
+          "enum": [
+            "AANVULLEN",
+            "INITIEREN",
+            "INTREKKEN",
+            "VOOROVERLEG"
+          ],
+          "description": "Enumeratie: DOEL_VERZOEK"
+        }
+      }
+    },
+    "REGELTEKST": {
+      "title": "REGELTEKST",
+      "description": "De kleinste zelfstandige eenheid van (een of meer) bij elkaar horende juridische regels: een artikel en lid.",
+      "type": "object",
+      "properties": {
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "TEKST": {
+          "type": "string"
+        }
+      }
+    },
+    "ACTIVITEIT": {
+      "title": "ACTIVITEIT",
+      "description": "Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd.",
+      "type": "object",
+      "properties": {
+        "GROEP": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "NEN3610ID": {
+          "type": "string"
+        }
+      }
+    },
+    "BEPERKINGSGEBIED": {
+      "title": "BEPERKINGSGEBIED",
+      "description": "Een bij of krachtens de wet aangewezen gebied, waar vanwege de aanwezigheid van een werk of object regels gelden, ten aanzien van het beperken van activiteiten die gevolgen hebben of kunnen hebben voor dat werk of object.",
+      "type": "object",
+      "properties": {
+        "GROEP": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "FUNCTIE": {
+      "title": "FUNCTIE",
+      "description": "Een samenhangende verzameling van rollen",
+      "type": "object",
+      "properties": {
+        "GROEP": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "GEBIEDSAANWIJZING": {
+      "title": "GEBIEDSAANWIJZING",
+      "description": "Functie of een Beperkingengebied, met een verwijzing naar locatie, veelal een gebied, waarbij aangegeven wordt hoe het gebied beschouwd wordt vanuit de bijbehorende regels.",
+      "type": "object",
+      "properties": {
+        "GROEP": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "NEN3610ID": {
+          "type": "string"
+        }
+      }
+    },
+    "JURIDISCHE_REGEL": {
+      "title": "JURIDISCHE_REGEL",
+      "description": "De beschrijving van een regel met juridische werkingskracht. Een regel betreft binnen de Omgevingswet veelal activiteiten, en/of normen en/of functies en/of beperkingengebieden.",
+      "type": "object",
+      "properties": {
+        "DATUMBEKEND": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMINWERKING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "REGELTEKST": {
+          "type": "string",
+          "description": "Verwijzing naar lid of artikel van regeltekst"
+        },
+        "THEMA": {
+          "type": "string"
+        }
+      }
+    },
+    "TOEPASBARE_REGEL": {
+      "title": "TOEPASBARE_REGEL",
+      "description": "Vanwege de leesbaarheid wordt gewerkt met de term Toepasbare regel ipv regelbeheersobject\n\nEen regelbeheerobject heeft een koppeling met een samenhangende set met regels om een afleiding te kunnen doen. Het regelbeheerobject ‘conclusie gevelaanpassing’ kan een vraag beantwoorden zoals: “Heb ik een vergunning nodig voor het veranderen van een kozijn, kozijninvulling of gevelpaneel”. Het regelbeheerobject ‘melding lozing’ beantwoordt de vraag “Wat moet ik aan informatie (gegevens en documenten) aanleveren als ik ga lozen vanuit particuliere huishoudens”. Het regelbeheerobject “Opslaan van gasolie smeerolie of afgewerkte olie in een bovengrondse opslagtank” geeft aan welke maatregelen genomen dienen te worden.\nHet regelbeheerobject is onderdeel van de functionele structuur. De set met regels is gedefinieerd in het Toepasbare regelbestand2.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "DOMEIN": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "SOORTAANSLUITPUNT": {
+          "type": "string",
+          "description": "uitbreiden, uitsluiten of vervangen"
+        },
+        "TOESTEMMING": {
+          "type": "string"
+        }
+      }
+    },
+    "LOCATIE": {
+      "title": "LOCATIE",
+      "description": "De locatie beschrijft middels co√∂rdinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)",
+      "type": "object",
+      "properties": {
+        "HOOGTE": {
+          "type": "integer",
+          "description": "Hoogte in meters. Negatief is onder het maaiveld en positief boven het maaiveld"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "NEN3610ID": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

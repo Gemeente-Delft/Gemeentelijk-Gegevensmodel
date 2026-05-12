@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diagram Profiel",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Diagram Profiel",
+  "$defs": {
+    "CLIENT": {
+      "title": "CLIENT",
+      "description": "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente.",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "GEZAGSDRAGERGEKEND": {
+          "type": "boolean"
+        },
+        "JURIDISCHESTATUS": {
+          "type": "string"
+        },
+        "WETTELIJKEVERTEGENWOORDIGING": {
+          "type": "string"
+        }
+      }
+    },
+    "PROFIEL": {
+      "title": "PROFIEL",
+      "description": "Klasse uit het Gemeentelijk Gegevensmodel: PROFIEL",
+      "type": "object",
+      "properties": {
+        "DATUMAANVANGPROFIEL": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDEPROFIEL": {
+          "type": "string",
+          "format": "date"
+        },
+        "PROFIELTYPE": {
+          "type": "string"
+        }
+      }
+    },
+    "INKOMSTENVERHOUDING": {
+      "title": "INKOMSTENVERHOUDING",
+      "description": "Een persoon kan vanuit diverse bronnen inkomsten krijgen. Denk bijvoorbeeld aan alimentatie, loon, uitkering of zelfs vergoedingen voor maaltijden, onkosten, vervoer e.d. Er zijn nu twee gegevensbehoeften:Enerzijds het kunnen vastleggen van de inkomstencomponenten (zie daarvoor het gelijknamige concept)Anderzijds het vastleggen van de inkomstenverhouding.Een voorbeeld van zo'n inkomstenverhouding is een arbeidsverhouding.De inkomstenverhouding geeft per inkomstensoort aan:de partij die de inkomsten verstrekt, hetgeen een organisatie of een persoon kan zijn ende partij die de inkomsten ontvangtVerder zijn we geïnteresseerd in de periode waarin deze inkomstenverhouding bestond en de periodiciteit van de uitbetalingen.Inkomstenverhoudingen worden geadministreerd in het profiel van de klant. De klant is de ontvanger van de inkomsten. Vandaar dat in de inkomstenverhouding zelf geen expliciete verwijzing is opgenomen naar de ontvanger.Ten aanzien van de bekostiger van de inkomsten geldt, dat dit niet voor elke inkomstenverhouding relevant is. Bij uitkeringen, arbeid, studiefinanciering, stage en pensioen bijvoorbeeld wel, maar bij hobbies niet.",
+      "type": "object",
+      "properties": {
+        "CATEGORIE_INKOMSTEN": {
+          "type": "string"
+        },
+        "PERIODE_EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "PERIODE_STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "PRIMAIR_INKOMSTENCOMPONENT": {
+      "title": "PRIMAIR_INKOMSTENCOMPONENT",
+      "description": "Een persoon kan vanuit diverse bronnen inkomsten krijgen. Denk bijvoorbeeld aan alimentatie, loon, uitkering of zelfs vergoedingen voor maaltijden, onkosten, vervoer e.d. De inkomstencomponent vormt een deel van de totale inkomsten van een persoon. Hiermee leggen we vast het type inkomste, het bedrag en de periode waarover dat bedrag is ontvangen en de boekingsdatum waarop het bedrag is ontvangen.Dat laatste is belangrijk voor de verschillende perspectieven op inkomsten te onderscheiden naar loon-in en loon-over.Achtergrond hierbij zijn twee regelingenLoon wordt als regel toegerekend aan het tijdvak waarin het aan de werknemer is betaald (loon-in). Onder bepaalde voorwaarden mogen werkgevers het uitbetaalde loon toerekenen aan een verstreken loontijdvak. Dit wordt de 'loon-over-regeling' genoemd. Waarom populair: voor een werknemer kan het verstrekken van een uitkering e.d. niet in het kalenderjaar maar bijvoorbeeld in het jaar daarop, hem fiscaal gezien voordelen geven.Bij loon-over gaat het om twee regelingen:De eerste regeling houdt in dat een werkgever een in de maand januari van het nieuwe jaar gedane inhouding op loon dat de werknemer voor het voorgaande jaar nog toekomt, mag opnemen in de laatste aangifte over het oude jaar. Daarbij wordt de inhouding volgens de tarieven van het voorgaande jaar berekend. Deze regeling is structureel in de wet opgenomen.De tweede regeling houdt in dat de werkgever binnen het kalenderjaar loonbetalingen mag toerekenen aan de verstreken loontijdvakken waarop zij betrekking hebben, zo nodig door het indienen van correctieberichten.",
+      "type": "object",
+      "properties": {}
+    },
+    "BANKREKENING": {
+      "title": "BANKREKENING",
+      "description": "De gegevens die betrekking hebben op een bankrekening van een PERSOON of een RECHTSPERSOON.Bron: SGR 16.0We kiezen er voor om bankrekening als zelfstandig concept op te nemen, omdat het mogelijk is dat eenzelfde bankrekening gekoppeld kan zijn aan meerdere personen. Voor rechtspersonen geldt dat een bankrekening maar aan ten hoogste 1 ORGANISATORISCHE EENHEID gekoppeld kan zijn.",
+      "type": "object",
+      "properties": {
+        "BANKREKENINGNUMMER": {
+          "type": "string"
+        },
+        "BRONTYPE": {
+          "type": "string"
+        },
+        "DATUM_AANVANG_BANKREKENING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUM_EINDE_BANKREKENING": {
+          "type": "string",
+          "format": "date"
+        },
+        "IBAN": {
+          "type": "string"
+        },
+        "REKENINGTYPE": {
+          "type": "string"
+        },
+        "TENAAMSTELLING": {
+          "type": "string"
+        },
+        "VOORKEUR_BANKREKENING": {
+          "type": "boolean"
+        }
+      }
+    },
+    "VERMOGENSCOMPONENT": {
+      "title": "VERMOGENSCOMPONENT",
+      "description": "Een *vermogenscomponent* is een **onderdeel van het totale vermogen** van een persoon of huishouden, dat afzonderlijk wordt weergegeven (zoals spaargeld, beleggingen, eigen woning netto of pensioenvermogen).",
+      "type": "object",
+      "properties": {
+        "CODE_SOORT_VERMOGENSCOMPONENT": {
+          "type": "string"
+        },
+        "DATUM_VASTSTELLING_VERMOGENCOMPONENT": {
+          "type": "string",
+          "format": "date"
+        },
+        "NOG_AAN_TE_SPREKEN_VERMOGEN": {
+          "type": "string"
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "Voorheen: Vermogenscomponent ID\r\nAttribuut is een identificatie maar van het type Integer?"
+        },
+        "VRIJ_TE_LATEN_VERMOGEN": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

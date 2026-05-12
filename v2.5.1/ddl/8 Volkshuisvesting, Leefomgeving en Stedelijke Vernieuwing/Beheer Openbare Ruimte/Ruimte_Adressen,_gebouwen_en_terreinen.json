@@ -1,0 +1,429 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ruimte Adressen, gebouwen en terreinen",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Ruimte Adressen, gebouwen en terreinen",
+  "$defs": {
+    "NUMMERAANDUIDING": {
+      "title": "NUMMERAANDUIDING",
+      "description": "Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats.",
+      "type": "object",
+      "properties": {
+        "BEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de object in de BAG formeel is ingetrokken."
+        },
+        "DATUMINGANG": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop het object is ontstaan"
+        },
+        "DOCUMENTDATUM": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum op basis waarvan een opname of mutatie van gegevens ten aanzien van een BAG-object heeft plaatsgevonden."
+        },
+        "DOCUMENTNUMMER": {
+          "type": "integer",
+          "description": "Het unieke nummer van het brondocument"
+        },
+        "EINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie\r\nEindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.\r\nBeschrijving\r\nTot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."
+        },
+        "GECONSTATEERD": {
+          "type": "boolean"
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "Geometry value (WKT or GeoJSON string)"
+        },
+        "HUISLETTER": {
+          "type": "string",
+          "description": "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken."
+        },
+        "HUISNUMMER": {
+          "type": "string",
+          "description": "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nummering."
+        },
+        "HUISNUMMERTOEVOEGING": {
+          "type": "string",
+          "description": "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "Unieke identificatiecode van het object"
+        },
+        "POSTCODE": {
+          "type": "string",
+          "description": "De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam van een woonplaats, naam van een openbare ruimte en een huisnummer"
+        },
+        "STATUS": {
+          "type": "string",
+          "description": "De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.\r\n&nbsp;\r\n<ul>\r\n\t<li>Naamgeving uitgegeven</li>\r\n\t<li>Naamgeving ingetrokken</li>\r\n</ul>"
+        },
+        "TYPEADRESSEERBAAROBJECT": {
+          "type": "string",
+          "description": "Het type addresseerbaarobject (landelijke identificatie) wat door de nummeraanduiding wordt aangeduid."
+        },
+        "VERSIE": {
+          "type": "integer"
+        }
+      }
+    },
+    "VERBLIJFSOBJECT": {
+      "title": "VERBLIJFSOBJECT",
+      "description": "Een verblijfsobject is een kleinste binnen &#233;&#233;n of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is. Beschrijving: Een verblijfsobject is een ruimte in 1 of meer panden en voldoet aan de volgende eisen: kan worden gebruikt om in te wonen, een bedrijf in te hebben of om voor plezier in te verblijven, is bereikbaar via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, kan worden gekocht en verkocht, kan helemaal zelf worden gebruikt voor het doel dat ervoor is gegeven. Deze eisen voor verblijfsobjecten worden toegelicht in de Catalogus BAG 2018. Een verblijfsobject krijgt een adres.",
+      "type": "object",
+      "properties": {
+        "AANTALKAMERS": {
+          "type": "string",
+          "description": "Het aantal kamers van het Verblijfsobject in de situatie tijdens de bouw."
+        },
+        "BEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de object in de BAG formeel is ingetrokken."
+        },
+        "DATUMINGANG": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop het object is ontstaan"
+        },
+        "DOCUMENTDATUM": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het brondocument is vastgesteld"
+        },
+        "DOCUMENTNUMMER": {
+          "type": "integer",
+          "description": "Het unieke nummer van het brondocument"
+        },
+        "EINDGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid. Beschrijving Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."
+        },
+        "GEBRUIKSDOEL": {
+          "type": "string",
+          "description": "Een gebruiksdoel is een categorisering van de gebruiksdoelen van het betreffende verblijfsobject zoals in de vergunning is opgenomen of bij constatering is vastgesteld."
+        },
+        "GECONSTATEERD": {
+          "type": "boolean",
+          "description": "Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname."
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "Geometry value (WKT or GeoJSON string)"
+        },
+        "HOOGSTEBOUWLAAG": {
+          "type": "string",
+          "description": "De ligging van de hoogste bouwlaag van het verblijfsobject gerekend ten opzichte van het straatpeil."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke identificatie van een VERBLIJFSOBJECT."
+        },
+        "LAAGSTEBOUWLAAG": {
+          "type": "string",
+          "description": "De ligging van de laagste bouwlaag van het verblijfsobject gerekend ten opzichte van het straatpeil."
+        },
+        "ONTSLUITINGVERDIEPING": {
+          "type": "string",
+          "description": "Aanduiding van de manier waarop de desbetreffende bouwlaag van een object toegankelijk is gemaakt."
+        },
+        "OPPERVLAKTE": {
+          "type": "integer",
+          "description": "De gebruiksoppervlakte van het verblijfsobject conform hetgeen in NEN 2580 is vastgelegd omtrent gebruiksoppervlakte"
+        },
+        "SOORTWOONOBJECT": {
+          "type": "string",
+          "description": "Indeling van woonverblijven volgens het CBS."
+        },
+        "STATUS": {
+          "type": "string",
+          "description": "De fase van de levenscyclus van een VERBLIJFSOBJECT, waarin het betreffende VERBLIJFSOBJECT zich bevindt."
+        },
+        "TOEGANGBOUWLAAG": {
+          "type": "string",
+          "description": "De ligging van de bouwlaag van het verblijfsobject, gerekend ten opzichte van het straatpeil, waarop zich de hoofdtoegang tot het verblijfsobject bevindt."
+        },
+        "VERSIE": {
+          "type": "integer"
+        }
+      }
+    },
+    "LIGPLAATS": {
+      "title": "LIGPLAATS",
+      "description": "Definitie Een ligplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen plaats in het water al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, die bestemd is voor het permanent afmeren van een voor woon-, bedrijfsmatige of recreatieve doeleinden geschikt drijvend object Beschrijving Een plaats in het water met soms ook een (deel van een) terrein op de oever. Deze plaats moet kunnen worden gebruikt door een drijvend object dat langere tijd daar wordt vastgemaakt. Het drijvende object moet geschikt zijn om in te wonen, om een bedrijf in te hebben of om voor plezier in te verblijven. Bijvoorbeeld een woonboot. De gemeente mag zeggen of er voor de BAG ergens een ligplaats komt.",
+      "type": "object",
+      "properties": {
+        "BEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie\r\nBeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.\r\nBeschrijving\r\nVanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de object in de BAG formeel is ingetrokken."
+        },
+        "DATUMINGANG": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop het object is ontstaan"
+        },
+        "DOCUMENTDATUM": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het brondocument is vastgesteld op basis waarvan een opname, mutatie of een verwijdering van gegevens ten aanzien van een object heeft plaatsgevonden."
+        },
+        "DOCUMENTNUMMER": {
+          "type": "integer",
+          "description": "De unieke aanduiding van het brondocument op basis waarvan een opname, mutatie of een verwijdering van gegevens ten aanzien van een woonplaats heeft plaatsgevonden binnen een gemeente."
+        },
+        "EINDGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie\r\nEindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.\r\nBeschrijving\r\nTot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."
+        },
+        "GECONSTATEERD": {
+          "type": "boolean",
+          "description": "Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname."
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "Loodrechte bovenaanzicht van de ligplaats in het Nationale Rijksdriehoekstelsel, inclusief alle zichtbare en onzichtbare delen boven en onder de grond, maar exclusief alle delen die kunnen bewegen ten opzichte van de aarde"
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke aanduiding van een LIGPLAATS"
+        },
+        "STATUS": {
+          "type": "string",
+          "description": "De fase van de levenscyclus van een LIGPLAATS waarin de betreffende LIGPLAATS zich bevindt.\r\n&nbsp;\r\n<ul>\r\n\t<li>Plaats aangewezen</li>\r\n\t<li>Plaats ingetrokken</li>\r\n</ul>"
+        },
+        "VERSIE": {
+          "type": "string"
+        }
+      }
+    },
+    "STANDPLAATS": {
+      "title": "STANDPLAATS",
+      "description": "Een standplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen terrein of gedeelte daarvan dat bestemd is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte ruimte. Beschrijving: Een terrein of een deel daarvan dat moet kunnen worden gebruikt om langere tijd een object neer te zetten. Dit object moet geschikt zijn om in te wonen, om een bedrijf in te hebben of om voor plezier in te verblijven. Het moet verplaatsbaar zijn en mag dus niet helemaal vastgemaakt worden aan de grond. Bijvoorbeeld een woonwagen of strandtent. De gemeente mag zeggen of er voor de BAG ergens een standplaats komt.",
+      "type": "object",
+      "properties": {
+        "BEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie\r\nBeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.\r\nBeschrijving\r\nVanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de object in de BAG formeel is ingetrokken."
+        },
+        "EINDGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie\r\nEindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.\r\nBeschrijving\r\nTot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."
+        },
+        "DATUMINGANG": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop het object is ontstaan"
+        },
+        "DOCUMENTDATUM": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het brondocument is vastgesteld"
+        },
+        "DOCUMENTNUMMER": {
+          "type": "integer",
+          "description": "Het unieke nummer van het brondocument"
+        },
+        "GECONSTATEERD": {
+          "type": "boolean",
+          "description": "Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname."
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "Loodrechte bovenaanzicht van de standplaats in het Nationale Rijksdriehoekstelsel, inclusief alle zichbare en onzichtbare delen boven en onder de grond, maar exclusief alle delen die kunnen bewegen ten opzichte van de aarde"
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke aanduiding van een STANDPLAATS."
+        },
+        "STATUS": {
+          "type": "string",
+          "description": "De fase van de levenscyclus van een STANDPLAATS waarin de betreffende STANDPLAATS zich bevindt."
+        },
+        "VERSIE": {
+          "type": "integer"
+        }
+      }
+    },
+    "ADRESSEERBAAROBJECT": {
+      "title": "ADRESSEERBAAROBJECT",
+      "description": "Een adresseerbaar object is een object waaraan formeel adressen kunnen en moeten worden toegekend: een verblijfsobject, standplaats of ligplaats. Toelichting: Een object dat een adres heeft of krijgt. Adresseerbare objecten zijn: een verblijfsobject, een standplaats en een ligplaats.",
+      "type": "object",
+      "properties": {
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke aanduiding van een AdresseerbaarObject."
+        },
+        "TYPEADRESSEERBAAROBJECT": {
+          "type": "string"
+        },
+        "VERSIE": {
+          "type": "integer"
+        }
+      }
+    },
+    "OPENBARERUIMTE": {
+      "title": "OPENBARERUIMTE",
+      "description": "Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen &#233;&#233;n woonplaats is gelegen. Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam).",
+      "type": "object",
+      "properties": {
+        "BEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de object in de BAG formeel is ingetrokken."
+        },
+        "DATUMINGANG": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop het object is ontstaan"
+        },
+        "DOCUMENTDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "DOCUMENTNUMMER": {
+          "type": "integer",
+          "description": "Het unieke nummer van het brondocument"
+        },
+        "EINDGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie\r\nEindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.\r\nBeschrijving\r\nTot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."
+        },
+        "GECONSTATEERD": {
+          "type": "boolean",
+          "description": "Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname"
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "De tweedimensionale geometrische representatie van de omtrekken van de openbare ruimte."
+        },
+        "HUISNUMMERRANGE_EVEN_EN_ONEVEN_NUMMERS": {
+          "type": "string",
+          "description": "Het laagste en het hoogste huisnummer van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE in die gevallen dat aan één of beide zijden van de OPENBARE RUIMTE zowel even als oneven huisnummers voorkomen dan wel dat even en/of oneven huisnummers aan beide zijden van de openbare ruimte voorkomen."
+        },
+        "HUISNUMMERRANGE_EVEN_NUMMERS": {
+          "type": "string",
+          "description": "Het laagste en het hoogste huisnummer, zijnde even getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE."
+        },
+        "HUISNUMMERRANGE_ONEVEN_NUMMERS": {
+          "type": "string",
+          "description": "Het laagste en het hoogste huisnummer, zijnde oneven getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke aanduiding van een OPENBARE RUIMTE."
+        },
+        "LABELNAAM": {
+          "type": "string",
+          "description": "<font color=\"#0f0f0f\">Bevat de naam van de openbare ruimte ten behoeve van visualisatie.</font>"
+        },
+        "NAAMOPENBARERUIMTE": {
+          "type": "string",
+          "description": "<font color=\"#0f0f0f\">Een door het bevoegde gemeentelijke orgaan aan een OPENBARE RUIMTE toegekende benaming</font>"
+        },
+        "STATUS": {
+          "type": "string",
+          "description": "De fase van de levenscyclus van een OPENBARE RUIMTE, waarin de betreffende  OPENBARE RUIMTE zich bevindt"
+        },
+        "STRAATCODE": {
+          "type": "string"
+        },
+        "STRAATNAAM": {
+          "type": "string",
+          "description": "De officiële straatnaam zoals door het bevoegd gemeentelijk orgaan is vastgesteld, zo nodig ingekort conform de specificaties van de NEN 5825."
+        },
+        "TYPEOPENBARERUIMTE": {
+          "type": "string",
+          "description": "De aard van de als zodanig benoemde OPENBARE\r\nRUIMTE."
+        },
+        "VERSIE": {
+          "type": "integer"
+        },
+        "WEGSEGMENT": {
+          "type": "string",
+          "description": "De geometrische representatie van de openbare ruimte als een lijn."
+        }
+      }
+    },
+    "OVERIGEADRESSEERBAAROBJECTAANDUIDING": {
+      "title": "OVERIGEADRESSEERBAAROBJECTAANDUIDING",
+      "description": "Een door de gemeenteraad als zodanig toegekende aanduiding van een overig gebouwd object of een overig benoemd terrein.",
+      "type": "object",
+      "properties": {
+        "IDENTIFICATIECODE": {
+          "type": "string",
+          "description": "De unieke aanduiding van een OVERIG ADRESSEERBAAR OBJECT AANDUIDING"
+        }
+      }
+    },
+    "OVERIGGEBOUWDOBJECT": {
+      "title": "OVERIGGEBOUWDOBJECT",
+      "description": "De kleinste eenheid van gebruik, geen verblijfsobject zijnde, binnen een bij de totstandkoming functioneel en bouwkundig constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden.",
+      "type": "object",
+      "properties": {
+        "BOUWJAAR": {
+          "type": "string",
+          "description": "De aanduiding van het jaar waarin het OVERIG GEBOUWD OBJECT oorspronkelijk als bouwkundig gereed is opgeleverd."
+        },
+        "INDICATIEPLANOBJECT": {
+          "type": "boolean",
+          "description": "Een aanduiding dat de verwijzing naar het overig bouwwerk in de BGT een geplande geometriewijziging van een bestaand overig bouwwerk betreft."
+        },
+        "OVERIGGEBOUWDOBJECTIDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke identificatie van een OVERIG GEBOUWD OBJECT"
+        }
+      }
+    },
+    "OVERIGBENOEMDTERREIN": {
+      "title": "OVERIGBENOEMDTERREIN",
+      "description": "Een door het bevoegde gemeentelijke orgaan als zodanig aangewezen onbebouwd terrein of een gedeelte daarvan, geen standplaats of gedeelte van een ligplaats zijnde, dat bestemd is voor het gedurende langere tijd verrichten van een maatschappelijke activiteit.",
+      "type": "object",
+      "properties": {
+        "GEBRUIKSDOELOVERIGBENOEMDTERREIN": {
+          "type": "string",
+          "description": "Een categorisering van de gebruiksdoelen van het betreffende OVERIG BENOEMD TERREIN, zoals dit formeel door de overheid als zodanig is toegestaan."
+        },
+        "OVERIGBENOEMDTERREINIDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke aanduiding van een OVERIG BENOEMD TERREIN."
+        }
+      }
+    }
+  }
+}

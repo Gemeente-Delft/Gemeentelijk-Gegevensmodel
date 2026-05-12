@@ -1,0 +1,514 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diagram Inkomsten",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Diagram Inkomsten",
+  "$defs": {
+    "ALIMENTATIE": {
+      "title": "ALIMENTATIE",
+      "description": "Een persoon kan inkomsten hebben uit alimentatie.",
+      "type": "object",
+      "properties": {
+        "BEDRAG_AAN_ANDERE_REKENINGEN": {
+          "type": "number"
+        },
+        "BEDRAG_IN_CONVENANT": {
+          "type": "number"
+        },
+        "BIJDRAGEEXPARTNERANDEREREKENINGEN": {
+          "type": "boolean"
+        },
+        "INKOMSTENSOORT_ALIMENTATIE": {
+          "type": "string"
+        },
+        "JUISTE_BEDRAG_BETAALD_DOOR_EX_PARTNER": {
+          "type": "number"
+        },
+        "LBIO_INGESCHAKELD": {
+          "type": "boolean"
+        }
+      }
+    },
+    "ANDER_INKOMEN": {
+      "title": "ANDER_INKOMEN",
+      "description": "Een persoon kan inkomsten hebben uit ander inkomen.",
+      "type": "object",
+      "properties": {
+        "BESCHRIJVING_ANDER_INKOMEN": {
+          "type": "string"
+        },
+        "CATEGORIE": {
+          "type": "string"
+        }
+      }
+    },
+    "BESLAG_OP_INKOMEN": {
+      "title": "BESLAG_OP_INKOMEN",
+      "description": "Beslag op inkomen",
+      "type": "object",
+      "properties": {
+        "SOORT": {
+          "type": "string"
+        }
+      }
+    },
+    "BETAALD_WERK": {
+      "title": "BETAALD_WERK",
+      "description": "Een persoon kan inkomsten hebben uit betaald werk.",
+      "type": "object",
+      "properties": {
+        "ARBEIDSCONTRACT": {
+          "type": "boolean"
+        },
+        "BEGINDATUM_CONTRACT": {
+          "type": "string",
+          "format": "date"
+        },
+        "EINDDATUM_CONTRACT": {
+          "type": "string",
+          "format": "date"
+        },
+        "INKOMSTEN_UIT_IKB_REGELING": {
+          "type": "boolean"
+        },
+        "INKOMSTENSOORT_BETAALD_WERK": {
+          "type": "string"
+        },
+        "LOONDIENST": {
+          "type": "boolean"
+        },
+        "LOONHEFFINGSNUMMER": {
+          "type": "string"
+        },
+        "PERIODICITEIT_UITBETALING_LOON": {
+          "type": "string"
+        },
+        "SOORT_CONTRACT": {
+          "type": "string"
+        },
+        "URENVERMINDERING": {
+          "type": "string"
+        }
+      }
+    },
+    "DERTIENDE_MAAND_EINDEJAARSUITKERING": {
+      "title": "DERTIENDE_MAAND_EINDEJAARSUITKERING",
+      "description": "Een persoon kan inkomsten hebben uit dertiende maand/eindejaarsuitkering.",
+      "type": "object",
+      "properties": {}
+    },
+    "DRAAGKRACHT": {
+      "title": "DRAAGKRACHT",
+      "description": "Het gedeelte uit je inkomen of vermogen dat je zelf zou kunnen bijdragen in de kosten (?) voor de bijzondere bijstand(?).De draagkracht is de uitkomst van een ingewikkelde berekening maar wordt voor een jaar vastgesteld en gebruikt.Let wel: niet alle gegevens, die nodig zijn om de draagkracht te berekenen, zijn opgenomen in de ontologie inkomen, omdat bepaalde gegevens van buiten het inkomensdomein komen.",
+      "type": "object",
+      "properties": {
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "DRAAGKRACHTREGIME": {
+      "title": "DRAAGKRACHTREGIME",
+      "description": "Het regime wat van toepassing is op de draagkracht.",
+      "type": "object",
+      "properties": {
+        "INITIELE_DRAAGKRACHT": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "PEILDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "RESTERENDE_DRAAGKRACHT": {
+          "type": "string"
+        }
+      }
+    },
+    "EIGEN_BEDRIJF": {
+      "title": "EIGEN_BEDRIJF",
+      "description": "Een persoon kan inkomsten hebben uit eigen bedrijf.",
+      "type": "object",
+      "properties": {
+        "AANTAL_UREN_PER_WEEK_BESTEED_AAN_WERK": {
+          "type": "string"
+        },
+        "INGESCHREVEN_BIJ_KVK": {
+          "type": "boolean"
+        },
+        "RECHT_OP_ZELFSTANDIGENAFTREK": {
+          "type": "boolean"
+        },
+        "SOORT_BEDRIJF": {
+          "type": "string"
+        },
+        "TOESTEMMING_GEMEENTE_PARTTIME_ONDERNEMEN": {
+          "type": "boolean"
+        }
+      }
+    },
+    "EIGEN_BIJDRAGE": {
+      "title": "EIGEN_BIJDRAGE",
+      "description": "Eigen bijdrage bijvoorbeeld voor CAK of kinderopvang",
+      "type": "object",
+      "properties": {
+        "SOORT": {
+          "type": "string"
+        }
+      }
+    },
+    "HEFFINGSKORTING": {
+      "title": "HEFFINGSKORTING",
+      "description": "Een persoon kan inkomsten hebben uit heffingskorting.",
+      "type": "object",
+      "properties": {
+        "ALGEMENE_HEFFINGSKORTING": {
+          "type": "boolean"
+        },
+        "INKOMENSAFHANKELIJKE_COMBINATIEKORTING": {
+          "type": "boolean"
+        }
+      }
+    },
+    "HOBBY": {
+      "title": "HOBBY",
+      "description": "Een persoon kan inkomsten hebben uit hobbies.",
+      "type": "object",
+      "properties": {
+        "AANTAL_UREN_PER_WEEK_BESTEED_AAN_HOBBY": {
+          "type": "string"
+        },
+        "BESCHRIJVING_HOBBY": {
+          "type": "string"
+        }
+      }
+    },
+    "INKOMSTENCOMPONENT": {
+      "title": "INKOMSTENCOMPONENT",
+      "description": "Een persoon kan vanuit diverse bronnen inkomsten krijgen. Denk bijvoorbeeld aan alimentatie, loon, uitkering of zelfs vergoedingen voor maaltijden, onkosten, vervoer e.d. De inkomstencomponent vormt een deel van de totale inkomsten van een persoon. Hiermee leggen we vast het type inkomste, het bedrag en de periode waarover dat bedrag is ontvangen en de boekingsdatum waarop het bedrag is ontvangen.Dat laatste is belangrijk voor de verschillende perspectieven op inkomsten te onderscheiden naar loon-in en loon-over.Achtergrond hierbij zijn twee regelingenLoon wordt als regel toegerekend aan het tijdvak waarin het aan de werknemer is betaald (loon-in). Onder bepaalde voorwaarden mogen werkgevers het uitbetaalde loon toerekenen aan een verstreken loontijdvak. Dit wordt de 'loon-over-regeling' genoemd. Waarom populair: voor een werknemer kan het verstrekken van een uitkering e.d. niet in het kalenderjaar maar bijvoorbeeld in het jaar daarop, hem fiscaal gezien voordelen geven.Bij loon-over gaat het om twee regelingen:De eerste regeling houdt in dat een werkgever een in de maand januari van het nieuwe jaar gedane inhouding op loon dat de werknemer voor het voorgaande jaar nog toekomt, mag opnemen in de laatste aangifte over het oude jaar. Daarbij wordt de inhouding volgens de tarieven van het voorgaande jaar berekend. Deze regeling is structureel in de wet opgenomen.De tweede regeling houdt in dat de werkgever binnen het kalenderjaar loonbetalingen mag toerekenen aan de verstreken loontijdvakken waarop zij betrekking hebben, zo nodig door het indienen van correctieberichten.",
+      "type": "object",
+      "properties": {
+        "BIJGEVOEGD_BEWIJS": {
+          "type": "boolean"
+        },
+        "BOEKINGSDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "BRUTO_NETTO": {
+          "type": "string"
+        },
+        "INKOMSTEN": {
+          "type": "string"
+        },
+        "INKOMSTENCOMPONENTTYPE": {
+          "type": "string"
+        },
+        "LINK_NAAR_BEWIJS": {
+          "type": "string"
+        },
+        "PEILMOMENT": {
+          "type": "string",
+          "format": "date"
+        },
+        "PERIODE_EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "PERIODE_STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "INKOMSTENVERHOUDING": {
+      "title": "INKOMSTENVERHOUDING",
+      "description": "Een persoon kan vanuit diverse bronnen inkomsten krijgen. Denk bijvoorbeeld aan alimentatie, loon, uitkering of zelfs vergoedingen voor maaltijden, onkosten, vervoer e.d. Er zijn nu twee gegevensbehoeften:Enerzijds het kunnen vastleggen van de inkomstencomponenten (zie daarvoor het gelijknamige concept)Anderzijds het vastleggen van de inkomstenverhouding.Een voorbeeld van zo'n inkomstenverhouding is een arbeidsverhouding.De inkomstenverhouding geeft per inkomstensoort aan:de partij die de inkomsten verstrekt, hetgeen een organisatie of een persoon kan zijn ende partij die de inkomsten ontvangtVerder zijn we geïnteresseerd in de periode waarin deze inkomstenverhouding bestond en de periodiciteit van de uitbetalingen.Inkomstenverhoudingen worden geadministreerd in het profiel van de klant. De klant is de ontvanger van de inkomsten. Vandaar dat in de inkomstenverhouding zelf geen expliciete verwijzing is opgenomen naar de ontvanger.Ten aanzien van de bekostiger van de inkomsten geldt, dat dit niet voor elke inkomstenverhouding relevant is. Bij uitkeringen, arbeid, studiefinanciering, stage en pensioen bijvoorbeeld wel, maar bij hobbies niet.",
+      "type": "object",
+      "properties": {
+        "CATEGORIE_INKOMSTEN": {
+          "type": "string"
+        },
+        "PERIODE_EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "PERIODE_STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "INKOMSTENVERMINDERING": {
+      "title": "INKOMSTENVERMINDERING",
+      "description": "Een persoon kan vermindering van inkomsten hebben.",
+      "type": "object",
+      "properties": {}
+    },
+    "KOSTENCOMPONENT": {
+      "title": "KOSTENCOMPONENT",
+      "description": "Noodzakelijke kosten voor het bestaan welke leiden tot een lager (berekend) inkomen.",
+      "type": "object",
+      "properties": {
+        "BEDRAG": {
+          "type": "number"
+        }
+      }
+    },
+    "LOONBESLAG": {
+      "title": "LOONBESLAG",
+      "description": "Een persoon kan vermindering van inkomsten hebben door loonbeslag.",
+      "type": "object",
+      "properties": {}
+    },
+    "MAALTIJDVERGOEDING": {
+      "title": "MAALTIJDVERGOEDING",
+      "description": "Een persoon kan inkomsten hebben uit maaltijdvergoeding.",
+      "type": "object",
+      "properties": {}
+    },
+    "ONDERHOUDSPLICHT": {
+      "title": "ONDERHOUDSPLICHT",
+      "description": "Onderhoudsplicht is een wettelijke verplichting van iemand om een ander te onderhouden.Echtgenoten en geregistreerde partners hebben een onderhoudsplicht ten opzichte van elkaar. Ouders hebben een onderhoudsplicht voor hun kinderen tot ze 21 jaar zijn (ook al is het met 18 jaar al meerderjarig). Ex-partners hebben een onderhoudsplicht als een van de partners te weinig inkomen heeft om van te leven. Het in sommige gevallen moeten betalen van alimentatie is ook op de onderhoudsplicht gebaseerd. De inkomsten uit alimentatie zijn in het model zelf een inkomstencomponent.De onderhoudsplicht van ouders om hun kind te onderhouden staat geschreven als artikel: 395a van Boek 1 van het Nederlandse Burgerlijk Wetboek.Dit houdt in ieder geval in dat ouders ervoor moeten zorgen dat het kind de meest basale dingen krijgt, zoals onderdak, kleding, voeding, scholing en medische hulp.Het niet nakomen van de onderhoudsplicht, hetzij wel of niet bij vonnis gesteld, kan strafrechtelijke gevolgen hebben. Dit is strafbaar gesteld in artikel 255 van het Wetboek van Strafrecht.Het betreft hier een verhouding tussen een partij, zijnde een persoon of een organisatie, en de burger, waarbij de onderhoudsplichtige partij de betreffende burger onderhoudt in zijn bestaan.NB: Onderhoudsplicht en onderhoudsplichtverhouding leggen we vast als de onderhoudsplichtige (na verhaal) de onderhoudsplicht voldoet aan de gemeente. In alle gevallen dat een onderhoudsplichtige een onderhoudsbijdrage betaalt aan de onderhoudsgerechtigde spreken we van alimentatie. Dit is opgenomen als inkomstencomponent onder een inkomstenverhouding.",
+      "type": "object",
+      "properties": {
+        "BIJDRAGE": {
+          "type": "string"
+        },
+        "BOEKINGSDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "ONDERHOUDSPLICHTTYPE": {
+          "type": "string"
+        },
+        "PEILMOMENT": {
+          "type": "string",
+          "format": "date"
+        },
+        "PERIODE_EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "PERIODE_STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "ONDERHOUDSVERHOUDING": {
+      "title": "ONDERHOUDSVERHOUDING",
+      "description": "Onderhoudsplicht is een wettelijke verplichting van iemand om een ander te onderhouden. In de onderhoudsplichtverhouding wordt vastgelegd wie de onderhoudsplicht heeft. Omdat de onderhoudsplichtverhouding in het profiel van de klant is opgenomen, wordt de onderhoudsgerechtigde in deze verhouding niet opgenomen. De klant is de onderhoudsgerechtigde.NB:Onderhoudsplicht en onderhoudsplichtverhouding leggen we vast als de onderhoudsplichtige (na verhaal) de onderhoudsplicht voldoet aan de gemeente. In alle gevallen dat een onderhoudsplichtige een onderhoudsbijdrage betaalt aan de onderhoudsgerechtigde spreken we van alimentatie. Alimentatie is opgenomen als inkomstencomponent onder een inkomstenverhouding.Onderhoudsplicht kan gelden voor de ex-partner en/of voor kinderen.",
+      "type": "object",
+      "properties": {
+        "ONDERHOUDSVERHOUDINGTYPE": {
+          "type": "string"
+        },
+        "PERIODE_EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "PERIODE_STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "ONKOSTENVERGOEDING": {
+      "title": "ONKOSTENVERGOEDING",
+      "description": "Een persoon kan inkomsten hebben uit onkostenvergoeding.",
+      "type": "object",
+      "properties": {}
+    },
+    "PENSIOEN": {
+      "title": "PENSIOEN",
+      "description": "Een persoon kan inkomsten hebben uit pensioen.",
+      "type": "object",
+      "properties": {
+        "BESLAG_OP_PENSIOEN": {
+          "type": "boolean"
+        },
+        "INKOMSTENSOORT_PENSIOEN": {
+          "type": "string"
+        },
+        "LOONHEFFINGSKORTING": {
+          "type": "boolean"
+        },
+        "PERIODICITEIT_UITBETALING_PENSIOEN": {
+          "type": "string"
+        },
+        "UITBETALING_VAKANTIEGELD_PENSIOEN": {
+          "type": "string"
+        }
+      }
+    },
+    "PRIMAIR_INKOMSTENCOMPONENT": {
+      "title": "PRIMAIR_INKOMSTENCOMPONENT",
+      "description": "Een persoon kan vanuit diverse bronnen inkomsten krijgen. Denk bijvoorbeeld aan alimentatie, loon, uitkering of zelfs vergoedingen voor maaltijden, onkosten, vervoer e.d. De inkomstencomponent vormt een deel van de totale inkomsten van een persoon. Hiermee leggen we vast het type inkomste, het bedrag en de periode waarover dat bedrag is ontvangen en de boekingsdatum waarop het bedrag is ontvangen.Dat laatste is belangrijk voor de verschillende perspectieven op inkomsten te onderscheiden naar loon-in en loon-over.Achtergrond hierbij zijn twee regelingenLoon wordt als regel toegerekend aan het tijdvak waarin het aan de werknemer is betaald (loon-in). Onder bepaalde voorwaarden mogen werkgevers het uitbetaalde loon toerekenen aan een verstreken loontijdvak. Dit wordt de 'loon-over-regeling' genoemd. Waarom populair: voor een werknemer kan het verstrekken van een uitkering e.d. niet in het kalenderjaar maar bijvoorbeeld in het jaar daarop, hem fiscaal gezien voordelen geven.Bij loon-over gaat het om twee regelingen:De eerste regeling houdt in dat een werkgever een in de maand januari van het nieuwe jaar gedane inhouding op loon dat de werknemer voor het voorgaande jaar nog toekomt, mag opnemen in de laatste aangifte over het oude jaar. Daarbij wordt de inhouding volgens de tarieven van het voorgaande jaar berekend. Deze regeling is structureel in de wet opgenomen.De tweede regeling houdt in dat de werkgever binnen het kalenderjaar loonbetalingen mag toerekenen aan de verstreken loontijdvakken waarop zij betrekking hebben, zo nodig door het indienen van correctieberichten.",
+      "type": "object",
+      "properties": {}
+    },
+    "REISKOSTEN_NAAR_HET_WERK_": {
+      "title": "REISKOSTEN_NAAR_HET_WERK_",
+      "description": "Reiskosten naar het werk",
+      "type": "object",
+      "properties": {
+        "SOORT": {
+          "type": "string"
+        }
+      }
+    },
+    "REISKOSTENVERGOEDING": {
+      "title": "REISKOSTENVERGOEDING",
+      "description": "Een persoon kan inkomsten hebben uit reisvergoeding.",
+      "type": "object",
+      "properties": {}
+    },
+    "SECUNDAIR_INKOMSTENCOMPONENT": {
+      "title": "SECUNDAIR_INKOMSTENCOMPONENT",
+      "description": "Een persoon kan vanuit diverse bronnen inkomsten krijgen. Denk bijvoorbeeld aan alimentatie, loon, uitkering of zelfs vergoedingen voor maaltijden, onkosten, vervoer e.d. De inkomstencomponent vormt een deel van de totale inkomsten van een persoon. Hiermee leggen we vast het type inkomste, het bedrag en de periode waarover dat bedrag is ontvangen en de boekingsdatum waarop het bedrag is ontvangen.Dat laatste is belangrijk voor de verschillende perspectieven op inkomsten te onderscheiden naar loon-in en loon-over.Achtergrond hierbij zijn twee regelingenLoon wordt als regel toegerekend aan het tijdvak waarin het aan de werknemer is betaald (loon-in). Onder bepaalde voorwaarden mogen werkgevers het uitbetaalde loon toerekenen aan een verstreken loontijdvak. Dit wordt de 'loon-over-regeling' genoemd. Waarom populair: voor een werknemer kan het verstrekken van een uitkering e.d. niet in het kalenderjaar maar bijvoorbeeld in het jaar daarop, hem fiscaal gezien voordelen geven.Bij loon-over gaat het om twee regelingen:De eerste regeling houdt in dat een werkgever een in de maand januari van het nieuwe jaar gedane inhouding op loon dat de werknemer voor het voorgaande jaar nog toekomt, mag opnemen in de laatste aangifte over het oude jaar. Daarbij wordt de inhouding volgens de tarieven van het voorgaande jaar berekend. Deze regeling is structureel in de wet opgenomen.De tweede regeling houdt in dat de werkgever binnen het kalenderjaar loonbetalingen mag toerekenen aan de verstreken loontijdvakken waarop zij betrekking hebben, zo nodig door het indienen van correctieberichten.",
+      "type": "object",
+      "properties": {}
+    },
+    "STAGE": {
+      "title": "STAGE",
+      "description": "Een persoon kan inkomsten hebben uit stage.",
+      "type": "object",
+      "properties": {
+        "MAALTIJDVERGOEDING": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "ONKOSTENVERGOEDING": {
+          "type": "number"
+        },
+        "PERIODICITEIT_UITBETALING_LOON": {
+          "type": "string"
+        },
+        "REISKOSTENVERGOEDING": {
+          "type": "number"
+        },
+        "VERGOEDING_IN_NATURA": {
+          "type": "boolean"
+        }
+      }
+    },
+    "STUDIEFINANCIERING": {
+      "title": "STUDIEFINANCIERING",
+      "description": "Een persoon kan inkomsten hebben uit studiefinanciering.",
+      "type": "object",
+      "properties": {
+        "DAADWERKELIJK_GENOTEN": {
+          "type": "boolean"
+        },
+        "INKOMSTENSOORT_STUDIEFINANCIERING": {
+          "type": "string"
+        }
+      }
+    },
+    "TE_BETALEN_ALIMENTATIE": {
+      "title": "TE_BETALEN_ALIMENTATIE",
+      "description": "Te betalen alimentatie",
+      "type": "object",
+      "properties": {
+        "SOORT": {
+          "type": "string"
+        }
+      }
+    },
+    "UITKERING": {
+      "title": "UITKERING",
+      "description": "Een persoon kan inkomsten hebben uit uitkering.",
+      "type": "object",
+      "properties": {
+        "BESLAG_OP_UITKERING": {
+          "type": "boolean"
+        },
+        "INKOMSTENSOORT_UITKERING": {
+          "type": "string"
+        },
+        "LOONHEFFINGSKORTING": {
+          "type": "boolean"
+        },
+        "PERIODICITEIT_UITBETALING_UITKERING": {
+          "type": "string"
+        },
+        "TOESLAG_OP_UITKERING": {
+          "type": "boolean"
+        },
+        "UITKERING_VERLAAGD_DOOR_BOETE": {
+          "type": "boolean"
+        },
+        "UITKERING_VERLAAGD_DOOR_MAATREGEL": {
+          "type": "boolean"
+        },
+        "VAKANTIEGELD_JAARLIJKS_ONTVANGEN": {
+          "type": "boolean"
+        }
+      }
+    },
+    "VAKANTIEGELD": {
+      "title": "VAKANTIEGELD",
+      "description": "Een persoon kan inkomsten hebben uit vakantiegeld.",
+      "type": "object",
+      "properties": {}
+    },
+    "VERGOEDING": {
+      "title": "VERGOEDING",
+      "description": "Een persoon kan inkomsten hebben uit vergoedingen als voor maaltijden, onkosten of reizen",
+      "type": "object",
+      "properties": {}
+    },
+    "VERGOEDING_IN_NATURA": {
+      "title": "VERGOEDING_IN_NATURA",
+      "description": "Een persoon kan inkomsten hebben uit vergoeding in natura.",
+      "type": "object",
+      "properties": {}
+    },
+    "VERLAGING_DOOR_BOETE": {
+      "title": "VERLAGING_DOOR_BOETE",
+      "description": "Een persoon kan vermindering van inkomsten hebben door boete.",
+      "type": "object",
+      "properties": {}
+    },
+    "VERLAGING_DOOR_MAATREGEL": {
+      "title": "VERLAGING_DOOR_MAATREGEL",
+      "description": "Een persoon kan vermindering van inkomsten hebben door maatregel.",
+      "type": "object",
+      "properties": {}
+    },
+    "VRIJLATING_INKOMSTEN": {
+      "title": "VRIJLATING_INKOMSTEN",
+      "description": "Wanneer u aan het werk gaat dan mag u van het loon dat u krijgt 25 procent houden, met een maximum van € 224,-.(bedrag per 1 januari 2022). Dit noemen wij vrijlating. Dus: als u in een maand netto € 500,- verdient met werken, mag u € 125,- houden. Deze 500 euro zou in het geheel in mindering gebracht worden op de uitkering. 25% wordt vrijgelaten. Dus in plaats van 500 wordt er (500 – 125) = 375 gekort. De 125 wordt dan vrijgelaten en niet verrekend met de uitkering. U geeft altijd uw hele loon op. De gemeente berekent de vrijlating.Is uw inkomen hoger dan uw bijstandsnorm maar na aftrek van deze inkomstenvrijlating lager? Dan kunt u ervoor kiezen om nog een aanvullende bijstandsuitkering te blijven ontvangen. De verplichtingen blijven voor u gelden. Wijzigingen in uw woon- en leefsituatie, vermogen en inkomsten moet u blijven doorgeven. U behoudt ook de arbeidsverplichtingen. Dat houdt in dat u uw best moet doen het werk en het aantal uren dat u werkt te behouden.",
+      "type": "object",
+      "properties": {
+        "DOELGROEP": {
+          "type": "string"
+        },
+        "MEDISCH": {
+          "type": "boolean"
+        },
+        "PERIODE_EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "PERIODE_STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "SOORT_VRIJLATING": {
+          "type": "string"
+        },
+        "VRIJGELATEN_BEDRAG": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

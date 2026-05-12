@@ -1,0 +1,359 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Afspraken en Klantcontacten",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Afspraken en Klantcontacten",
+  "$defs": {
+    "AFSPRAAKSTATUS": {
+      "title": "AFSPRAAKSTATUS",
+      "description": "de toestand van de afspraak",
+      "type": "object",
+      "properties": {
+        "STATUS": {
+          "type": "string"
+        }
+      }
+    },
+    "BALIEAFSPRAAK": {
+      "title": "BALIEAFSPRAAK",
+      "description": "Balieafspraken zijn afspraken voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden of gaat plaatsvinden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.",
+      "type": "object",
+      "properties": {
+        "EINDTIJDGEPLAND": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "NOTITIE": {
+          "type": "string"
+        },
+        "STARTTIJDGEPLAND": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "TIJDAANGEMAAKT": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "TIJDSDUURGEPLAND": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Werkelijke tijdsduur in minuten"
+        },
+        "TOELICHTING": {
+          "type": "string"
+        },
+        "WACHTTIJDNASTARTAFSPRAAK": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Tijdsduur die iemand moet wachten na de starttijd van de afspraak"
+        },
+        "WACHTTIJDTOTAAL": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Wachttijd inclusief de tijd dat iemand te vroeg voor de afspraak verschijnt en de tijd dat iemand moet wachten na de geplande starttijd van de afspraak"
+        },
+        "WACHTTIJDVOORSTARTAFSPRAAK": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Tijdsduur dat iemand te vroeg is voor de afspraak"
+        },
+        "WERKELIJKETIJDSDUUR": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "PRODUCTOFDIENST": {
+      "title": "PRODUCTOFDIENST",
+      "description": "Bron: QP_CALENDAR.CFM_SERVICES",
+      "type": "object",
+      "properties": {
+        "AFHANDELTIJD": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Standaard afhandeltijd in minuten"
+        },
+        "INGEBRUIK": {
+          "type": "boolean"
+        },
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "TELEFOONONDERWERP": {
+      "title": "TELEFOONONDERWERP",
+      "description": "Onderwerp waarover het telefooncontact gaat",
+      "type": "object",
+      "properties": {
+        "ONDERWERP": {
+          "type": "string"
+        }
+      }
+    },
+    "TELEFOONSTATUS": {
+      "title": "TELEFOONSTATUS",
+      "description": "ABANDONEDALERTING: “Opgehangen tijdens overgaan telefoon”\n DROPPEDCANCELED: “Opgehangen door systeem”\n ABANDONEDQUEUED: “Opgehangen tijdens wachten, zonder boodschap. ”\n CONNECTEDDIRECT: “Direct verbonden”\n CONNECTEDQUEUEDANNOUNCE: “Verbonden na wachtrij met boodschap”\n AbandonedQUEUEDANNOUNCE: “Opgehangen in wachtrij met boodschap”\n DroppedBusy: “Opgehangen door systeem, te druk”\n REJECTED: “Geweigerd door systeem”\n Droppedoverload: “Opgehangen door systeem vanwege overbelasting”",
+      "type": "object",
+      "properties": {
+        "CONTACTCONNECTIONSTATE": {
+          "type": "string"
+        },
+        "STATUS": {
+          "type": "string"
+        }
+      }
+    },
+    "TELEFOONTJE": {
+      "title": "TELEFOONTJE",
+      "description": "De telefoontgesprekken zijn alle keren dat iemand naar de gemeente belt en het telefoonsysteem neemt deze telefoongesprekken aan. Ongeacht of iemand daarna ophangt, door het systeem uit de wachtrij wordt gezet, doorverbonden wordt met een derde partij of er werkelijk wordt opgenomen.",
+      "type": "object",
+      "properties": {
+        "AFHANDELTIJDNAGESPREK": {
+          "type": "string",
+          "format": "date-time",
+          "description": "De tijd die de medewerker nodig heeft om het telefoontje af te handelen totdat hij/zij klaar is voor een volgend telefoontje"
+        },
+        "DELTAISDNCONNECTIE": {
+          "type": "integer",
+          "description": "De totale tijd dat er een teelfoonverbinding was minus totale wachttijd, spreektijd en on hold-tijd."
+        },
+        "EINDTIJD": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Het moment dat de telefooncentrale het telefoontjes beeindigd"
+        },
+        "STARTTIJD": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Het moment dat de telefooncentrale een telefoontje in behandeling neemt. Dit ligt voor de starttijd van het klantcontact"
+        },
+        "TOTALEONHOLDTIJD": {
+          "type": "string",
+          "format": "date-time",
+          "description": "De totale tijd dat een beller tussen klantcontacten \"on hold\" wordt gezet."
+        },
+        "TOTALESPREEKTIJD": {
+          "type": "string",
+          "format": "date-time",
+          "description": "De totale tijd dat met een (of meer) medewerkers van de gemeente wordt gebeld."
+        },
+        "TOTALETIJDSDUUR": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Tijd tussen start- en eindtijd van telefoontje"
+        },
+        "TOTALEWACHTTIJD": {
+          "type": "string",
+          "format": "date-time",
+          "description": "De tijd tussen de starttijd van het telefoontje en het moment dat het telefoontje voor het eerst wordt opgenomen, of het telefoontje wordt afgesloten"
+        },
+        "TRACKID": {
+          "type": "string"
+        }
+      }
+    },
+    "MEDEWERKER": {
+      "title": "MEDEWERKER",
+      "description": "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID.",
+      "type": "object",
+      "properties": {
+        "ACHTERNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt.</font>"
+        },
+        "DATUMINDIENST": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMUITDIENST": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt.</font>"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font>"
+        },
+        "EXTERN": {
+          "type": "boolean",
+          "description": "Medewerker is een externe?"
+        },
+        "FUNCTIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie.</font>"
+        },
+        "GESLACHTSAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is.</font>"
+        },
+        "MEDEWERKERIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte unieke aanduiding van de medewerker.</font>"
+        },
+        "MEDEWERKERTOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Toelichting bij en/of over de medewerker.</font>"
+        },
+        "ROEPNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Naam waarmee de werknemer wordt aangesproken.</font>"
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Telefoonnummer waaronder de medewerker in de regel bereikbaar is.</font>"
+        },
+        "VOORLETTERS": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen.</font>"
+        },
+        "VOORVOEGSELACHTERNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font>\r\n<font color=\"#610e6a\">gescheiden.</font>"
+        }
+      }
+    },
+    "ZAAK": {
+      "title": "ZAAK",
+      "description": "Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden.",
+      "type": "object",
+      "properties": {
+        "ARCHIEFNOMINATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden</font>"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de uitvoering van de zaak afgerond is.</font>"
+        },
+        "DATUMEINDEGEPLAND": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt.</font>"
+        },
+        "DATUMEINDEUITERLIJKEAFDOENING": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn.</font>"
+        },
+        "DATUMLAATSTEBETALING": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak.</font>"
+        },
+        "DATUMPUBLICATIE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Datum waarop (het starten van) de zaak gepubliceerd is of wordt.</font>"
+        },
+        "DATUMREGISTRATIE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd</font>"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop met de uitvoering van de zaak is gestart.</font>"
+        },
+        "DATUMVERNIETIGINGDOSSIER": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden.</font>"
+        },
+        "DUURVERLENGING": {
+          "type": "string"
+        },
+        "INDICATIEBETALING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene.</font>"
+        },
+        "INDICATIEDEELZAKEN": {
+          "type": "boolean",
+          "description": "<font color=\"#610e6a\">De aanduiding of een ZAAK behandeld wordt in deelzaken.</font>"
+        },
+        "INDICATIEOPSCHORTING": {
+          "type": "string"
+        },
+        "LEGES": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte omschrijving van de zaak.</font>"
+        },
+        "OMSCHRIJVINGRESULTAAT": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte omschrijving wat het resultaat van de zaak inhoudt.</font>"
+        },
+        "REDENOPSCHORTING": {
+          "type": "string"
+        },
+        "REDENVERLENGING": {
+          "type": "string"
+        },
+        "TOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een toelichting op de zaak.</font>"
+        },
+        "TOELICHTINGRESULTAAT": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een toelichting op wat het resultaat van de zaak inhoudt.</font>"
+        },
+        "VERTROUWELIJKHEID": {
+          "type": "string"
+        },
+        "ZAAKIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een identificatie van de zaak.</font>"
+        },
+        "ZAAKNIVEAU": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken.</font>"
+        }
+      }
+    },
+    "KLANTCONTACT": {
+      "title": "KLANTCONTACT",
+      "description": "Klantcontacten zijn contactmomenten die werkelijk hebben plaatsgevonden, terwijl Balieafspraken afspraken zijn voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.\n\nHetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje).",
+      "type": "object",
+      "properties": {
+        "EINDTIJD": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Werkelijke eindtijd van het klantcontact. Het moment dat de conversatie ten einde is.\r\nBij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk"
+        },
+        "KANAAL": {
+          "type": "string"
+        },
+        "NOTITIE": {
+          "type": "string"
+        },
+        "STARTTIJD": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Werkelijke starttijd van het klantcontact, dus het moment dat klant en medewerker van de gemeente elkaar spreken.\r\n\r\nBij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk"
+        },
+        "TIJDSDUUR": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Werkelijke tijdsduur in seconden"
+        },
+        "TOELICHTING": {
+          "type": "string"
+        },
+        "WACHTTIJDTOTAAL": {
+          "type": "string",
+          "format": "date-time",
+          "description": "De totale wachttijd voor de starttijd van het klantcontact. Dit inclusief eventueel te vroeg verschijnen op een afspraak"
+        }
+      }
+    },
+    "VESTIGINGVANZAAKBEHANDELENDEORGANISATIE": {
+      "title": "VESTIGINGVANZAAKBEHANDELENDEORGANISATIE",
+      "description": "Een VESTIGING van een onderneming of rechtspersoon zijnde de zaakbehandelende organisatie.",
+      "type": "object",
+      "properties": {}
+    }
+  }
+}
