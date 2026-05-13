@@ -296,7 +296,7 @@ De enumeratie CdSrtVoertuig heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:00 |
-    | id | EAID\_e42d4858\_0879\_40a7\_a25d\_2a14dac2dead |
+    | id | EAID\_9bd1fdb9\_e01a\_439c\_a649\_0108b3b0dca2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -329,7 +329,7 @@ De enumeratie CdSrtVermogenscomponent heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:35:54 |
-    | id | EAID\_33b855b7\_8de1\_4200\_b7fc\_a4ee74c6a98f |
+    | id | EAID\_ec13c4f9\_8609\_4e79\_aabd\_9d8dc81817f5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -362,7 +362,7 @@ De enumeratie CdSrtWaardeVermogenscomponent heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:06 |
-    | id | EAID\_3ad80318\_89d5\_4fa4\_8332\_36574f558de8 |
+    | id | EAID\_f399d5f6\_dbc6\_4168\_9562\_39257df332bb |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
