@@ -546,8 +546,7 @@ De enumeratie Wet heeft de volgende kenmerken:
     | id | EAID_6dfa03f3_5d97_4e34_9f56_52934a911ade |
 =======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_7a763e21\_321a\_4888\_b9f8\_258fc16bfea3 |
->>>>>>> origin/master
+    | id | EAID\_06a6c220\_7c15\_47ee\_8186\_fece3e0fafc8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

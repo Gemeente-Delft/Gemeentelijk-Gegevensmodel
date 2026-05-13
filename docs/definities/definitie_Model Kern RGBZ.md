@@ -1383,8 +1383,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | id | EAID_5f46afec_a603_422d_9e57_6de87ab043ef |
 =======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_cae8f9e0\_989d\_4f61\_915b\_e2e01963471f |
->>>>>>> origin/master
+    | id | EAID\_fac05484\_05f0\_4a94\_a47e\_b49c227ae606 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1423,8 +1422,7 @@ De enumeratie Heffingsoort heeft de volgende kenmerken:
     | id | EAID_79c77ce6_9b9d_47d3_9ba6_ecd8e33b4eaa |
 =======
     | modified | 2025-12-18 15:38:52 |
-    | id | EAID\_8c332a5d\_c398\_42c2\_83cd\_fa469ef2835e |
->>>>>>> origin/master
+    | id | EAID\_39e4bd80\_d086\_4d83\_bff3\_2f66b4f8cffa |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1466,8 +1464,7 @@ De enumeratie Soorten Klantcontact heeft de volgende kenmerken:
     | id | EAID_2aa6a572_5da2_4367_a3f8_d9e4c95e7ff6 |
 =======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_3bbd28db\_7827\_47e3\_99ed\_81829aee84ef |
->>>>>>> origin/master
+    | id | EAID\_3e147ac4\_1daa\_4cba\_a772\_75b9db446770 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

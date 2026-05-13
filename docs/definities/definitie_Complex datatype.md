@@ -411,7 +411,7 @@ De enumeratie typeObjectcode heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_2b842cae\_ef56\_43ec\_a033\_3d0d7d368eea |
+    | id | EAID\_aaaa7935\_a4c3\_47e1\_a44d\_d0b7ea8bd87e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

@@ -1,0 +1,239 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Financien Begroting en Budgetverantwoordelijkheid",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Financien Begroting en Budgetverantwoordelijkheid",
+  "$defs": {
+    "BEGROTING": {
+      "title": "BEGROTING",
+      "description": "Een overzicht van de verwachte ontvangsten en voorziene uitgaven voor een bepaalde (meestal toekomstige) periode zodat hier een afstemming tussen plaats kan vinden om eventuele tekorten en overschotten vroegtijdig in kaart te kunnen brengen.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "BEGROTINGREGEL": {
+      "title": "BEGROTINGREGEL",
+      "description": "Een item op de begroting",
+      "type": "object",
+      "properties": {
+        "BATENLASTEN": {
+          "type": "string"
+        },
+        "BEDRAG": {
+          "type": "number"
+        },
+        "SOORTREGEL": {
+          "type": "string"
+        }
+      }
+    },
+    "DOELSTELLING": {
+      "title": "DOELSTELLING",
+      "description": "Een op korte of middellange termijn nagestreefde situatie",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "HOOFDREKENING": {
+      "title": "HOOFDREKENING",
+      "description": "is kostensoort",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "PIAHOOFCATEGORIEOMSCHRIJVING": {
+          "type": "string"
+        },
+        "PIAHOOFDCATEGORIECODE": {
+          "type": "string"
+        },
+        "SUBCODE": {
+          "type": "string"
+        },
+        "SUBCODEOMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "HOOFDSTUK": {
+      "title": "HOOFDSTUK",
+      "description": "Onderdeel van een langere tekst.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "KOSTENPLAATS": {
+      "title": "KOSTENPLAATS",
+      "description": "Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven.",
+      "type": "object",
+      "properties": {
+        "BTWCODE": {
+          "type": "string"
+        },
+        "BTWOMSCHRIJVING": {
+          "type": "string"
+        },
+        "KOSTENPLAATSSOORTCODE": {
+          "type": "number"
+        },
+        "KOSTENPLAATSSOORTOMSCHRIJVING": {
+          "type": "number"
+        },
+        "KOSTENPLAATSTYPECODE": {
+          "type": "number"
+        },
+        "KOSTENPLAATSTYPEOMSCHRIJVING": {
+          "type": "number"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "OPDRACHTGEVER": {
+      "title": "OPDRACHTGEVER",
+      "description": "Persoon die een opdracht verstrekt.",
+      "type": "object",
+      "properties": {
+        "CLUSTERCODE": {
+          "type": "string"
+        },
+        "CLUSTEROMSCHRIJVING": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "OPDRACHTNEMER": {
+      "title": "OPDRACHTNEMER",
+      "description": "Partij die een opdracht aanvaardt.",
+      "type": "object",
+      "properties": {
+        "CLUSTERCODE": {
+          "type": "string"
+        },
+        "CLUSTERCODEOMSCHRIJVING": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "PRODUCT": {
+      "title": "PRODUCT",
+      "description": "Het resultaat van een proces dat in het economisch verkeer een waarde bezit.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "TAAKVELD": {
+      "title": "TAAKVELD",
+      "description": "Een samenhangend geheel van activiteiten en taken en hangt onder een programma.",
+      "type": "object",
+      "properties": {
+        "FUNCTIECODEIV3": {
+          "type": "string"
+        },
+        "FUNCTIEOMSCHRIJVINGIV3": {
+          "type": "string"
+        },
+        "HOOFDFUNCTIE": {
+          "type": "string"
+        },
+        "HOOFDFUNCTIEOMSCHRIJVING": {
+          "type": "string"
+        },
+        "SUBTAAKVELDCODE": {
+          "type": "string"
+        },
+        "SUBTAAKVELDOMSCHRIJVING": {
+          "type": "string"
+        },
+        "TAAKVELDCODE": {
+          "type": "string"
+        },
+        "TAAKVELDOMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "PERIODE": {
+      "title": "PERIODE",
+      "description": "bepaalde tijdsduur.",
+      "type": "object",
+      "properties": {
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

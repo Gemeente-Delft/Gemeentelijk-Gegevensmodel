@@ -1,0 +1,1113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Hoofdobjecten IMGeo en Beheerobjecten ",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Hoofdobjecten IMGeo en Beheerobjecten ",
+  "$defs": {
+    "BEHEEROBJECT": {
+      "title": "BEHEEROBJECT",
+      "description": "Verzamelobject - niveau 1",
+      "type": "object",
+      "properties": {
+        "AANGEMAAKTDOOR": {
+          "type": "string",
+          "description": "Medewerker (ID) welke het beheerobject in het beheersysteem aangemaakt heeft."
+        },
+        "BEGINGARANTIEPERIODE": {
+          "type": "string",
+          "description": "Jaar waarin de garantieperiode van het opgeleverde beheerobject begint.\nEenheid: mmddyyyy"
+        },
+        "BEHEERGEBIED": {
+          "type": "string",
+          "description": "Aanduiding van het beheergebied waarbinnen het beheerobject ligt. Indeling in beheergebieden is organisatiespecifiek."
+        },
+        "BEHEEROBJECTBEHEERVAK": {
+          "type": "string",
+          "description": "GUID van 1 of meerdere beheervakken waartoe het beheerobject behoort of waarbinnen het beheerobject zich bevindt."
+        },
+        "BEHEEROBJECTGEBRUIKSFUNCTIE": {
+          "type": "string",
+          "description": "Aanduiding van Ã©Ã©n of meer gebruiksfuncties van het beheerobject."
+        },
+        "BEHEEROBJECTMEMO": {
+          "type": "string",
+          "description": "Mogelijkheid om 1 of meerdere memovelden te registreren bij een beheerobject."
+        },
+        "BESCHERMDEFLORAENFAUNA": {
+          "type": "boolean",
+          "description": "Aanduiding voor aanwezigheid  beschermde plantensoort en beschermde diersoort."
+        },
+        "BUURT": {
+          "type": "string",
+          "description": "Aanduiding van de buurt waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met buurtgrenzen\nToelichting: Link naar: www.definities.geostandaarden.nl"
+        },
+        "CONVERSIEID": {
+          "type": "string",
+          "description": "Uniek kenmerk van een beheerobject uit een oude beheerindeling."
+        },
+        "DATUMMUTATIE": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop de digitale gegevens van het beheerobject voor het laatst gewijzigd zijn.\nEenheid: mmddyyyy"
+        },
+        "DATUMOPLEVERING": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop het beheerobject daadwerkelijk opgeleverd is. Begin van de garantieperiode.\nEenheid: mmddyyyy"
+        },
+        "DATUMPUBLICATIELV": {
+          "type": "string",
+          "format": "date",
+          "description": "Tijdstip waarop deze instantie van het beheerobject is opgenomen in de landelijke voorziening.\nEenheid: mmddyyyy"
+        },
+        "DATUMVERWIJDERING": {
+          "type": "string",
+          "format": "date",
+          "description": "MateriÃ«le levensduur, EindeGeldigheid\nEenheid: mmddyyyy"
+        },
+        "EINDEGARANTIEPERIODE": {
+          "type": "string",
+          "format": "date",
+          "description": "Jaar waarin de garantieperiode van het opgeleverde beheerobject eindigt.\nEenheid: mmddyyyy"
+        },
+        "GEBIEDSTYPE": {
+          "type": "string",
+          "description": "Aanduiding van het gebiedstype waarbinnen het beheerobject ligt. Conform de indeling zoals toegepast bij de CROW Benchmark Beheerprestaties."
+        },
+        "GEMEENTE": {
+          "type": "string",
+          "description": "Naam van de gemeente waarbinnen het beheerobject ligt."
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "Aanduiding voor de geometrie van het beheerobject."
+        },
+        "GEWIJZIGDDOOR": {
+          "type": "string",
+          "description": "Medewerker (ID) welke het beheerobject in het beheersysteem gewijzigd heeft."
+        },
+        "GRONDSOORT": {
+          "type": "string",
+          "description": "Aanduiding van de grondsoort op de plaats van het beheerobject. Voor de CROW Systematiek Wegbeheer kunnen uitsluitend de volgende vier grondsoorten worden gebruikt: zand, klei, klei/veen, veen. Overname uit een bodemkaart met grondsoorten of uit een referentielijst."
+        },
+        "GRONDSOORTPLUS": {
+          "type": "string",
+          "description": "Verdere bijzondering van de grondsoort op de plaats van het beheerobject."
+        },
+        "IDENTIFICATIEIMBOR": {
+          "type": "string",
+          "description": "Uniek nummer van het IMBOR-object (GUID)\nToelichting: De IMBOR-objecten zijn identificeerbaar middels het attribuut identificatie dat als inhoud heeft   - namespace: Â´IMBORÂ´   - lokaalID: een numerieke identificatie\nConform NEN3610 zijn identificatiecodes persistent: ze wijzigen niet gedurende de levensduur van een object. Verder zijn de identificatiecodes uniek ten opzichte van elkaar."
+        },
+        "IDENTIFICATIEIMGEO": {
+          "type": "string",
+          "description": "Overerving van de geometrie van beheerobject uit bovenliggend informatiemodel of automatisch genereren."
+        },
+        "JAARVANAANLEG": {
+          "type": "string",
+          "description": "Jaar waarin het beheerobject is aangelegd of aangeplant. (kan ook voor de plaatsingsdatum gebruikt worden)\nEenheid: Jaartal\nToelichting: In de CROW Systematiek Wegbeheer staat het begrip 'ouderdom' (van de constructie). Deze wordt bepaald op basis van het jaar van aanleg. Aanvullende informatie voor het wegbeheer kan zijn: Jaar conservering, jaar laatste onderhoud. Voor het boombeheer geldt: in de situatie dat een boom is verplant, wordt het oorspronkelijke plantjaar aangehouden, teneinde de leeftijd en de groeifase van de boom zo goed mogelijk te kunnen benaderen. Als de boom in een zware maat is aangeplant, wordt een plantjaar aangehouden waarmee de leeftijd zo goed mogelijk wordt benaderd."
+        },
+        "OBJECTBEGINTIJD": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creatiedatum van het digitale beheerobject binnen het beheersysteem of in de bovenliggende georegistratie\nEenheid: mmddyyyy"
+        },
+        "OBJECTEINDTIJD": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Vervaldatum van het digitale beheerobject binnen het beheersysteem of in de bovenliggende georegistratie\nEenheid: mmddyyyy"
+        },
+        "ONDERHOUDSPLICHTIGE": {
+          "type": "string",
+          "description": "Organisatie welke verantwoordelijk is voor het onderhoud van het beheerobject."
+        },
+        "OPENBARERUIMTE": {
+          "type": "string",
+          "description": "Aanduiding van de openbare ruimte, zoals gedefinieerd in IMGeo of in de BAG, waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met grenzen openbare ruimtes of uit de Basisregistratie Adressen en Gebouwen (zonder begrenzing)\nToelichting: Link naar: www.definities.geostandaarden.nl        Definitie IMGeo: een openbare ruime is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen Ã©Ã©n woonplaats is gelegen."
+        },
+        "POSTCODE": {
+          "type": "string",
+          "description": "Aanduiding van het postcodegebied waarbinnen het beheerobject ligt. Overname uit 6 positie postcodekaart"
+        },
+        "RELATIEVEHOOGTELIGGING": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het beheerobject.\nEenheid: Reeks"
+        },
+        "STADSDEEL": {
+          "type": "string",
+          "description": "Aanduiding van het stadsdeel waarbinnen het beheerobject ligt.  Overname uit IMGeo-bestand met woonplaats- of stadsdeelgrenzen\nToelichting: Link naar: www.definities.geostandaarden.nl"
+        },
+        "STATUS": {
+          "type": "string",
+          "description": "Status van het beheerobject in het inwinningsproces van de geometrie. Wordt gebruikt voor schets- en deifinitieve geometrie."
+        },
+        "THEORETISCHEINDEJAAR": {
+          "type": "string",
+          "format": "date",
+          "description": "Jaar dat het beheerobject aan het theoretische einde van haar levensduur is.\nEenheid: Jaartal"
+        },
+        "TIJDSTIPREGISTRATIE": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Formele historie, tijdstip registratie beheerobject.\nEenheid: mmddyyyy"
+        },
+        "TYPEBEHEERDER": {
+          "type": "string",
+          "description": "Een publiekrechtelijke instantie of (rechts)persoon die toeziet op de instandhouding van o.a. een object, kunstwerk of waterstaatswerk. De typen beheerder zijn conform de indeling in bronhouders (BGT).\nToelichting: De waarde wordt gebruikt voor de duiding van het fysieke beheer. De beheerder is de organisatie die verantwoordelijk voor het beheer van het terrein. Dit hoeft niet dezelfde organisatie te zijn die de (juridisch) eigenaar is van het terrein. Beheerder en Bronhouder hebben daarmee geen overlap."
+        },
+        "TYPEBEHEERDERPLUS": {
+          "type": "string",
+          "description": "Nadere aanduiding van de beheerder van het beheerobject."
+        },
+        "TYPEEIGENAAR": {
+          "type": "string",
+          "description": "(rechts)persoon die het meest  omvattend recht op een zaak heeft . De typen eigenaren zijn conform de indeling in bronhouders (BGT)."
+        },
+        "TYPEEIGENAARPLUS": {
+          "type": "string",
+          "description": "Nadere aanduiding van de eigenaar van het beheerobject."
+        },
+        "TYPELIGGING": {
+          "type": "string",
+          "description": "Aanduiding van de ligging van het beheerobject binnen of buiten de bebouwde kom.\nToelichting: Voor de bebouwde komgrens zijn verschillende definities, vanuit verschillende wetten. Suggestie: bebouwde komgrens aanhouden zoals vastgesteld door de gemeente die de eigenaar is van het beheerobject. Zie ook: Wegenverkeerswet, Wegenwet, Omgevingswet"
+        },
+        "WATERSCHAP": {
+          "type": "string",
+          "description": "Aanduiding van het waterschap, waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met waterschapsgrenzen\nToelichting: Link naar: www.definities.geostandaarden.nl"
+        },
+        "WIJK": {
+          "type": "string",
+          "description": "Aanduiding van de wijk waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met wijkgrenzen\nToelichting: Link naar: www.definities.geostandaarden.nl"
+        },
+        "WOONPLAATS": {
+          "type": "string",
+          "description": "Aanduiding van de woonplaats waarbinnen het beheerobject ligt.  Overname uit IMGeo-bestand met woonplaats- of stadsdeelgrenzen\nToelichting: Link naar: www.definities.geostandaarden.nl"
+        },
+        "ZETTINGSGEVOELIGHEID": {
+          "type": "string",
+          "description": "â€˜Zettingsgevoeligâ€™ is de indicatie van de zettingsgevoeligheid van de ondergrond of bodem. Zetting is het proces waar grond onder invloed van een belasting wordt samengedrukt; ook wel het geleidelijk en min of meer gelijkmatig"
+        },
+        "ZETTINGSGEVOELIGHEIDPLUS": {
+          "type": "string",
+          "description": "Aanduiding voor de mate van zettingsgevoeligheid."
+        }
+      }
+    },
+    "GEO_OBJECT": {
+      "title": "GEO_OBJECT",
+      "description": "Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011]",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "GEOMETRIESOORT": {
+          "type": "string",
+          "description": "Geometry value (WKT or GeoJSON string)"
+        },
+        "IDENTIFICATIE": {
+          "type": "string"
+        }
+      }
+    },
+    "PAND": {
+      "title": "PAND",
+      "description": "Een pand is een kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is. Beschrijving: Een zelfstandig bouwwerk, zowel zelfstandig in de manier hoe het is gebouwd als waarvoor het is bedoeld om te gebruiken. Een pand voldoet ook aan de volgende eisen: een pand is direct en voor lange tijd met de aarde verbonden (een pand is niet makkelijk te verplaatsen) en een pand kun je binnengaan en afsluiten. Een eenheid kan alleen een pand zijn als het voldoet aan alle eisen uit de Catalogus BAG 2018.",
+      "type": "object",
+      "properties": {
+        "BEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"
+        },
+        "BRUTOINHOUDPAND": {
+          "type": "string",
+          "description": "Aanduiding in kubieke meters van de bruto inhoud van het PAND."
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de object in de BAG formeel is ingetrokken."
+        },
+        "DATUMINGANG": {
+          "type": "string",
+          "format": "date",
+          "description": "Datum waarop het object is ontstaan"
+        },
+        "DOCUMENTDATUM": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het brondocument is vastgesteld"
+        },
+        "DOCUMENTNUMMER": {
+          "type": "string",
+          "description": "Het unieke nummer van het brondocument"
+        },
+        "EINDGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "Definitie\r\nEindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.\r\nBeschrijving\r\nTot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."
+        },
+        "GECONSTATEERD": {
+          "type": "boolean",
+          "description": "Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname.\r\n\r\nDit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een feitelijke constatering en niet op basis van een regulier brondocument"
+        },
+        "GEOMETRIEBOVENAANZICHT": {
+          "type": "string",
+          "description": "<font color=\"#0f0f0f\">De minimaal tweedimensionale geometrische representatie van het bovenaanzicht van de omtrekken van een PAND</font>"
+        },
+        "GEOMETRIEMAAIVELD": {
+          "type": "string",
+          "description": "De tweedimensionale geometrische representatie van de omtrekken van een PAND op maaiveldniveau"
+        },
+        "GEOMETRIEPUNT": {
+          "type": "string",
+          "description": "Geometry value (WKT or GeoJSON string)"
+        },
+        "HOOGSTEBOUWLAAG": {
+          "type": "string",
+          "description": "De ligging van de hoogste bouwlaag van het pand gerekend ten opzichte van het straatpeil."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke aanduiding van een PAND"
+        },
+        "LAAGSTEBOUWLAAG": {
+          "type": "string",
+          "description": "De ligging van de laagste bouwlaag van het pand gerekend ten opzichte van het straatpeil."
+        },
+        "OORSPRONKELIJKBOUWJAAR": {
+          "type": "string",
+          "description": "<font color=\"#0f0f0f\">De aanduiding van het jaar waarin een PAND oorspronkelijk als bouwkundig gereed is of wordt opgeleverd.</font>"
+        },
+        "OPPERVLAKTE": {
+          "type": "string",
+          "description": "De gebruiksoppervlakte van een PAND in gehele vierkante meters."
+        },
+        "RELATIEVEHOOGTELIGGING": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het pand"
+        },
+        "STATUS": {
+          "type": "string",
+          "description": "De fase van de levenscyclus van een PAND, waarin het betreffende PAND zich bevindt.\r\n<ul>\r\n\t<li>Bouwvergunning verleend</li>\r\n\t<li>Niet gerealiseerd pand</li>\r\n\t<li>Bouw gestart</li>\r\n\t<li>Pand in gebruik (niet ingemeten)</li>\r\n\t<li>Pand in gebruik</li>\r\n\t<li>Sloopvergunning verleend</li>\r\n\t<li>Pand gesloopt</li>\r\n\t<li>Pand buiten gebruik</li>\r\n\t<li>Verbouwing pand</li>\r\n\t<li>Pand ten onrechte opgevoerd</li>\r\n</ul>"
+        },
+        "STATUSVOORTGANGBOUW": {
+          "type": "string",
+          "description": "De fase van de bouw, verbouw of sloop waarin het betreffende PAND zich bevindt"
+        },
+        "VERSIE": {
+          "type": "integer"
+        }
+      }
+    },
+    "OVERIGBOUWWERK": {
+      "title": "OVERIGBOUWWERK",
+      "description": "Met de aarde verbonden duurzaam bouwwerk, dat niet valt onder de definities van een pand of kunstwerk.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDOVERIGBOUWWERK": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het overig bouwwerk  is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDOVERIGBOUWWERK": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het overig bouwwerk ongeldig is geworden."
+        },
+        "GEOMETRIEOVERIGBOUWWERK": {
+          "type": "string",
+          "description": "De minimaal tweedimensionale geometrische representatie van de omtrekken van een overig bouwwerk."
+        },
+        "IDENTIFICATIEOVERIGBOUWWERK": {
+          "type": "string",
+          "description": "De unieke identificatie van het overig bouwwerk zoals is toegekend in de IMGeo administratie."
+        },
+        "LOD0GEOMETRIEOVERIGBOUWWERK": {
+          "type": "string",
+          "description": "De geometrische representatie van een overig bouwwerk als punt, lijn of vlak 2.5D op level of detail 0."
+        },
+        "LOD1GEOMETRIEOVERIGBOUWWERK": {
+          "type": "string",
+          "description": "De geometrische representatie van een overig bouwwerk in 3D op level of detail 1."
+        },
+        "LOD2GEOMETRIEOVERIGBOUWWERK": {
+          "type": "string",
+          "description": "De geometrische representatie van een overig bouwwerk in 3D op level of detail 2."
+        },
+        "LOD3GEOMETRIEOVERIGBOUWWERK": {
+          "type": "string",
+          "description": "De geometrische representatie van een overig bouwwerk in 3D op level of detail 3."
+        },
+        "RELATIEVEHOOGTELIGGINGOVERIGBOUWWERK": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het overig bouwwerk."
+        },
+        "STATUSOVERIGBOUWWERK": {
+          "type": "string",
+          "description": "De status gekoppeld aan de levenscyclus van het overig bouwwerk object"
+        }
+      }
+    },
+    "OVERBRUGGINGSDEEL": {
+      "title": "OVERBRUGGINGSDEEL",
+      "description": "Onderdeel van een beweegbare of vaste verbinding tussen twee punten, die door water, een weg of anderszins gescheiden zijn, dat essentieel is voor de constructie.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDOVERBRUGGINGSDEEL": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de overbruggingsdeel is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDOVERBRUGGINGSDEEL": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het overbruggingsdeel ongeldig is geworden."
+        },
+        "GEOMETRIEOVERBRUGGINGSDEEL": {
+          "type": "string",
+          "description": "De minimaal tweedimensionale geometrische representatie van de omtrekken van een overbruggingsdeel."
+        },
+        "HOORTBIJTYPEOVERBRUGGING": {
+          "type": "string",
+          "description": "Nadere classificatie van de overbrugging waar het overbruggingsdeel een onderdeel van is."
+        },
+        "IDENTIFICATIEOVERBRUGGINGSDEEL": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een overbruggingsdeel."
+        },
+        "LOD0GEOMETRIEOVERBRUGGINGSDEEL": {
+          "type": "string",
+          "description": "De geometrische representatie van een overbruggingsdeel als vlak in  2.5D op level of detail 0."
+        },
+        "OVERBRUGGINGISBEWEEGBAAR": {
+          "type": "boolean",
+          "description": "Aanduiding of de brug waar het overbruggingsdeel bij hoort al dan niet beweegbaar is."
+        },
+        "RELATIEVEHOOGTELIGGINGOVERBRUGGINGSDEEL": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van de overbruggingsdeel."
+        },
+        "STATUSOVERBRUGGINGSDEEL": {
+          "type": "string",
+          "description": "De status gekoppeld aan de levenscyclus van het overbruggingsdeel."
+        },
+        "TYPEOVERBRUGGINGSDEEL": {
+          "type": "string",
+          "description": "Het soort onderdeel van de brugconstructie."
+        }
+      }
+    },
+    "KUNSTWERKDEEL": {
+      "title": "KUNSTWERKDEEL",
+      "description": "Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDKUNSTWERKDEEL": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het kunstwerkdeel is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDKUNSTWERKDEEL": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het kunstwerkdeel ongeldig is geworden."
+        },
+        "GEOMETRIEKUNSTWERKDEEL": {
+          "type": "string",
+          "description": "De minimaal tweedimensionale geometrische representatie van de omtrekken van een kunstwerkdeel"
+        },
+        "IDENTIFICATIEKUNSTWERKDEEL": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een kunstwerkdeel"
+        },
+        "LOD0GEOMETRIEKUNSTWERKDEEL": {
+          "type": "string",
+          "description": "De geometrische representatie van een kunstwerkdeel als punt, lijn of vlak in 2.5D op level of detail 0."
+        },
+        "LOD1GEOMETRIEKUNSTWERKDEEL": {
+          "type": "string",
+          "description": "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 1."
+        },
+        "LOD2GEOMETRIEKUNSTWERKDEEL": {
+          "type": "string",
+          "description": "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 2."
+        },
+        "LOD3GEOMETRIEKUNSTWERKDEEL": {
+          "type": "string",
+          "description": "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 3."
+        },
+        "RELATIEVEHOOGTELIGGINGKUNSTWERKDEEL": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het kunstwerkdeel"
+        },
+        "STATUSKUNSTWERKDEEL": {
+          "type": "string",
+          "description": "De status gekoppeld aan de levenscyclus van het kunstwerkdeel."
+        }
+      }
+    },
+    "INRICHTINGSELEMENT": {
+      "title": "INRICHTINGSELEMENT",
+      "description": "Ruimtelijk object al dan niet ter detaillering dan wel ter inrichting van de\noverige benoemde ruimtelijke objecten of een ander inrichtingselement.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDINRICHTINGSELEMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het inrichtingselement is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDINRICHTINGSELEMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het inrichtingselement ongeldig is geworden."
+        },
+        "GEOMETRIEINRICHTINGSELEMENT": {
+          "type": "string",
+          "description": "De geometrische representatie van een inrichtingselement."
+        },
+        "IDENTIFICATIEINRICHTINGSELEMENT": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een inrichtingselement."
+        },
+        "LOD0GEOMETRIEINRICHTINGSELEMENT": {
+          "type": "string",
+          "description": "De geometrische representatie van een inrichtingselement als punt, lijn of vlak in 2.5D op level of detail 0."
+        },
+        "PLUSTYPEINRICHTINGSELEMENT": {
+          "type": "string",
+          "description": "Specificatie van het soort inrichtingselement."
+        },
+        "RELATIEVEHOOGTELIGGINGINRICHTINGSELEMENT": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het inrichtingselement."
+        },
+        "STATUSINRICHTINGSELEMENT": {
+          "type": "string",
+          "description": "De status gekoppeld aan de levenscyclus van een inrichtingselement."
+        },
+        "TYPEINRICHTINGSELEMENT": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Specificatie van de aard van het inrichtingselement.</font>"
+        }
+      }
+    },
+    "GEBOUWINSTALLATIE": {
+      "title": "GEBOUWINSTALLATIE",
+      "description": "Een component aan de buitenzijde van een gebouw, die het aanzicht van het gebouw mede bepaalt.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDGEBOUWINSTALLATIE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de gebouwinstallatie is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDGEBOUWINSTALLATIE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de gebouwinstallatie ongeldig is geworden."
+        },
+        "GEOMETRIEGEBOUWINSTALLATIE": {
+          "type": "string",
+          "description": "De minimaal tweedimensionale geometrische representatie van de omtrekken van een gebouwinstallatie."
+        },
+        "IDENTIFICATIEGEBOUWINSTALLATIE": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een gebouwinstallatie."
+        },
+        "LOD0GEOMETRIEGEBOUWINSTALLATIE": {
+          "type": "string",
+          "description": "De geometrische representatie van een gebouwinstallatie als vlak in 2.5D op level of detail 0."
+        },
+        "RELATIEVEHOOGTELIGGINGGEBOUWINSTALLATIE": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van de gebouwinstallatie."
+        },
+        "STATUSGEBOUWINSTALLATIE": {
+          "type": "string",
+          "description": "De status gekoppeld aan de levenscyclus van de gebouwinstallatie."
+        },
+        "TYPEGEBOUWINSTALLATIE": {
+          "type": "string",
+          "description": "Specificatie van het soort gebouwinstallatie."
+        }
+      }
+    },
+    "ONDERSTEUNENDWATERDEEL": {
+      "title": "ONDERSTEUNENDWATERDEEL",
+      "description": "Object dat in het kader van de waterhuishouding periodiek gedeeltelijk of geheel met water is bedekt.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het ondersteunend waterdeel is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het ondersteunend waterdeel ongeldig is geworden."
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "De minimaal tweedimensionale geometrische representatie van de omtrekken van een ondersteunend waterdeel."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een ondersteunend waterdeel"
+        },
+        "PLUSTYPE": {
+          "type": "string",
+          "description": "Specificatie van het soort water, nadere classificatie."
+        },
+        "RELATIEVEHOOGTELIGGING": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het ondersteunend waterdeel"
+        },
+        "STATUS": {
+          "type": "string",
+          "description": "De status gekoppeld aan de levenscyclus van het ondersteunend waterdeel."
+        },
+        "TYPE": {
+          "type": "string",
+          "description": "Specificatie van het soort water."
+        }
+      }
+    },
+    "VEGETATIEOBJECT": {
+      "title": "VEGETATIEOBJECT",
+      "description": "Solitair vegetatieobject of lijn- of vlakvormige groep gelijksoortige vegetatieobjecten met een beperkte omvang.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDVEGETATIEOBJECT": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het vegetatieobject is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDVEGETATIEOBJECT": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het vegetatieobject ongeldig is geworden."
+        },
+        "GEOMETRIEVEGETATIEOBJECT": {
+          "type": "string",
+          "description": "De geometrische representatie van een vegetatieobject als punt, lijn of vlak."
+        },
+        "IDENTIFICATIEVEGETATIEOBJECT": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een vegetatieobject."
+        },
+        "LOD0GEOMETRIEVEGETATIEOBJECT": {
+          "type": "string",
+          "description": "De geometrische representatie van een vegetatieobject als punt, lijn of vlak in 2.5D op level of detail 0."
+        },
+        "RELATIEVEHOOGTELIGGINGVEGETATIEOBJECT": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het vegetatieobject"
+        },
+        "STATUSVEGETATIEOBJECT": {
+          "type": "string",
+          "description": "De status gekoppeld aan de levenscyclus van he vegetatieobject."
+        },
+        "TYPEVEGETATIEOBJECT": {
+          "type": "string",
+          "description": "De specificatie van het soort vrijstaand vegetatieobject."
+        }
+      }
+    },
+    "WEGDEEL": {
+      "title": "WEGDEEL",
+      "description": "Kleinste functioneel onafhankelijk stukje van een NEN 3610 Weg,  met gelijkblijvende homogene eigenschappen en relaties en primair bedoeld voor gebruik door weg-, spoor- en vliegverkeer te land",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDWEGDEEL": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het wegdeel is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDWEGDEEL": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het wegdeel ongeldig is geworden."
+        },
+        "FUNCTIEWEGDEEL": {
+          "type": "string",
+          "description": "Specificatie van het hoofdgebruiksdoel van het wegdeel."
+        },
+        "FYSIEKVOORKOMENWEGDEEL": {
+          "type": "string",
+          "description": "Mate waarin het wegdeel al of niet verhard is."
+        },
+        "GEOMETRIEWEGDEEL": {
+          "type": "string",
+          "description": "De minimaal tweedimensionale geometrische representatie van de omtrekken van een wegdeel."
+        },
+        "IDENTIFICATIEWEGDEEL": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een wegdeel"
+        },
+        "KRUINLIJNGEOMETRIEWEGDEEL": {
+          "type": "string",
+          "description": "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."
+        },
+        "LOD0GEOMETRIEWEGDEEL": {
+          "type": "string",
+          "description": "De geometrische representatie van een wegdeel als vlak in 2.5D op level of detail 0."
+        },
+        "PLUSFUNCTIEWEGDEEL": {
+          "type": "string",
+          "description": "Specificatie van het hoofdgebruiksdoel van het wegdeel, nadere classificatie."
+        },
+        "PLUSFYSIEKVOORKOMENWEGDEEL": {
+          "type": "string",
+          "description": "Mate waarin het wegdeel al of niet verhard is, nadere classificatie."
+        },
+        "RELATIEVEHOOGTELIGGINGWEGDEEL": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het wegdeel"
+        },
+        "STATUSWEGDEEL": {
+          "type": "string",
+          "description": "De status gekoppeld aan de levenscyclus van het wegdeel."
+        },
+        "WEGDEELOPTALUD": {
+          "type": "boolean",
+          "description": "Indicatie of het object wel of niet op een hellend vlak ligt."
+        }
+      }
+    },
+    "SCHEIDING": {
+      "title": "SCHEIDING",
+      "description": "Kunstmatig, meestal lineair obstakel met een werende functie.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDSCHEIDING": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de scheiding is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDSCHEIDING": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het scheiding ongeldig is geworden."
+        },
+        "GEOMETRIESCHEIDING": {
+          "type": "string",
+          "description": "De minimaal tweedimensionale geometrische representatie van de omtrekken van een scheiding"
+        },
+        "IDENTIFICATIESCHEIDING": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een scheiding."
+        },
+        "LOD0GEOMETRIESCHEIDING": {
+          "type": "string",
+          "description": "De geometrische representatie van een scheiding als punt, lijn of vlak in 2.5D op level of detail 0."
+        },
+        "LOD1GEOMETRIESCHEIDING": {
+          "type": "string",
+          "description": "De geometrische representatie van een scheiding in 3D op level of detail 1."
+        },
+        "LOD2GEOMETRIESCHEIDING": {
+          "type": "string",
+          "description": "De geometrische representatie van een scheiding in 3D op level of detail 2."
+        },
+        "LOD3GEOMETRIESCHEIDING": {
+          "type": "string",
+          "description": "De geometrische representatie van een scheiding in 3D op level of detail 3."
+        },
+        "RELATIEVEHOOGTELIGGINGSCHEIDING": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van de scheiding."
+        },
+        "STATUSSCHEIDING": {
+          "type": "string",
+          "description": "De status gekoppeld aan de levenscyclus van de scheiding."
+        }
+      }
+    },
+    "SPOOR": {
+      "title": "SPOOR",
+      "description": "De as van het spoor, dat wil zeggen het midden van twee stalen staven op een onderling vaste afstand, waarover trein, tram, of sneltram rijdt.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDSPOOR": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het spoor is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDSPOOR": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het spoor ongeldig is geworden."
+        },
+        "GEOMETRIESPOOR": {
+          "type": "string",
+          "description": "De geometrische representatie van een spoor als lijn."
+        },
+        "IDENTIFICATIESPOOR": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een spoor"
+        },
+        "LOD0GEOMETRIESPOOR": {
+          "type": "string",
+          "description": "De geometrische representatie van een spoor als lijn in 2.5D op level of detail 0."
+        },
+        "RELATIEVEHOOGTELIGGINGSPOOR": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het spoor"
+        },
+        "STATUSSPOOR": {
+          "type": "string",
+          "description": "De status gekoppeld aan de levenscyclus van het spoor."
+        }
+      }
+    },
+    "FUNCTIONEELGEBIED": {
+      "title": "FUNCTIONEELGEBIED",
+      "description": "Begrensd en benoemd gebied dat door een functionele eenheid beschreven wordt.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDFUNCTIONEELGEBIED": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het functioneel gebied is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDFUNCTIONEELGEBIED": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het functioneel gebied ongeldig is geworden."
+        },
+        "GEOMETRIEFUNCTIONEELGEBIED": {
+          "type": "string",
+          "description": "De tweedimensionale geometrische representatie van de omtrekken van het functioneel gebied."
+        },
+        "IDENTIFICATIEFUNCTIONEELGEBIED": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een functioneel gebied."
+        },
+        "NAAMFUNCTIONEELGEBIED": {
+          "type": "string",
+          "description": "De benaming van het functioneel gebied."
+        },
+        "STATUSFUNCTIONEELGEBIED": {
+          "type": "string",
+          "description": "De status gekoppeld aan de levenscyclus van het functioneel gebied."
+        }
+      }
+    },
+    "ONBEGROEIDTERREINDEEL": {
+      "title": "ONBEGROEIDTERREINDEEL",
+      "description": "Kleinste functioneel onafhankelijk stukje van een terrein, dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, zonder aaneengesloten vegetatie.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het onbegroeid terreindeel is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het onbegroeid terreindeel ongeldig is geworden."
+        },
+        "FYSIEKVOORKOMEN": {
+          "type": "string",
+          "description": "Classificatie van het soort terrein, ingedeeld naar de uiterlijke\r\nverschijningsvorm."
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "De minimaal tweedimensionale geometrische representatie van de omtrekken van een onbegroeid terreindeel."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een onbegroeid terreindeel"
+        },
+        "KRUINLIJNGEOMETRIE": {
+          "type": "string",
+          "description": "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."
+        },
+        "ONBEGROEIDTERREINDEELOPTALUD": {
+          "type": "string",
+          "format": "date",
+          "description": "Indicatie of het object wel of niet op een hellend vlak ligt."
+        },
+        "PLUSFYSIEKVOORKOMEN": {
+          "type": "string",
+          "description": "Nadere classificatie van het soort terrein, ingedeeld naar de uiterlijke\r\nverschijningsvorm."
+        },
+        "RELATIEVEHOOGTELIGGING": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het onbegroeid terreindeel"
+        },
+        "STATUS": {
+          "type": "string",
+          "description": "De status gekoppeld aan de levenscyclus van het onbegroeid terreindeel."
+        }
+      }
+    },
+    "OVERIGBENOEMDTERREIN": {
+      "title": "OVERIGBENOEMDTERREIN",
+      "description": "Een door het bevoegde gemeentelijke orgaan als zodanig aangewezen onbebouwd terrein of een gedeelte daarvan, geen standplaats of gedeelte van een ligplaats zijnde, dat bestemd is voor het gedurende langere tijd verrichten van een maatschappelijke activiteit.",
+      "type": "object",
+      "properties": {
+        "GEBRUIKSDOELOVERIGBENOEMDTERREIN": {
+          "type": "string",
+          "description": "Een categorisering van de gebruiksdoelen van het betreffende OVERIG BENOEMD TERREIN, zoals dit formeel door de overheid als zodanig is toegestaan."
+        },
+        "OVERIGBENOEMDTERREINIDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke aanduiding van een OVERIG BENOEMD TERREIN."
+        }
+      }
+    },
+    "BEGROEIDTERREINDEEL": {
+      "title": "BEGROEIDTERREINDEEL",
+      "description": "Kleinste functioneel onafhankelijk stukje van een terrein dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, met aaneengesloten homogene vegetatie.",
+      "type": "object",
+      "properties": {
+        "OPTALUD": {
+          "type": "boolean",
+          "description": "Indicatie of het object wel of niet op een hellend vlak ligt."
+        },
+        "DATUMBEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het begroeid terreindeel is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het begroeid terreindeel ongeldig is geworden."
+        },
+        "FYSIEKVOORKOMEN": {
+          "type": "string",
+          "description": "Classificatie van het vegetatiedek, ingedeeld naar soort vegetatie."
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "De minimaal tweedimensionale geometrische representatie van de omtrekken van een begroeid terreindeel."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een begroeid terreindeel"
+        },
+        "KRUINLIJNGEOMETRIE": {
+          "type": "string",
+          "description": "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."
+        },
+        "LOD0GEOMETRIE": {
+          "type": "string",
+          "description": "De geometrische representatie van een begroeid terreindeel als multivlak in 2.5D op level of detail 0."
+        },
+        "PLUSFYSIEKVOORKOMEN": {
+          "type": "string",
+          "description": "Nadere classificatie van het vegetatiedek, ingedeeld naar soort vegetatie."
+        },
+        "RELATIEVEHOOGTELIGGING": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het begroeid terreindeel"
+        },
+        "STATUS": {
+          "type": "string",
+          "description": "De status gekoppeld aan de levenscyclus van het begroeid terreindeel."
+        }
+      }
+    },
+    "OVERIGESCHEIDING": {
+      "title": "OVERIGESCHEIDING",
+      "description": "Kunstmatig, meestal lineair obstakel met een werende functie, met kleinere afmetingen dan toegestaan voor opname in de BGT.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDOVERIGESCHEIDING": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de overige scheiding is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDOVERIGESCHEIDING": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de overige scheiding ongeldig is geworden."
+        },
+        "GEOMETRIEOVERIGESCHEIDING": {
+          "type": "string",
+          "description": "De minimaal tweedimensionale geometrische representatie van de omtrekken van een overige scheiding"
+        },
+        "IDENTIFICATIEOVERIGESCHEIDING": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een overige scheiding."
+        },
+        "LOD0GEOMETRIEOVERIGESCHEIDING": {
+          "type": "string",
+          "description": "De geometrische representatie van een overige scheiding als punt, lijn of vlak in 2.5D op level of detail 0."
+        },
+        "LOD1GEOMETRIEOVERIGESCHEIDING": {
+          "type": "string",
+          "description": "De geometrische representatie van een overige scheiding in 3D op level of detail 1."
+        },
+        "LOD2GEOMETRIEOVERIGESCHEIDING": {
+          "type": "string",
+          "description": "De geometrische representatie van een overige scheiding in 3D op level of detail 2."
+        },
+        "LOD3GEOMETRIEOVERIGESCHEIDING": {
+          "type": "string",
+          "description": "De geometrische representatie van een overige scheiding in 3D op level of detail 3."
+        },
+        "RELATIEVEHOOGTELIGGINGOVERIGESCHEIDING": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van de overige scheiding."
+        },
+        "STATUSOVERIGESCHEIDING": {
+          "type": "string",
+          "description": "De status gekoppeld aan de levenscyclus van de overige scheiding."
+        },
+        "TYPEOVERIGESCHEIDING": {
+          "type": "string",
+          "description": "Specificatie van het soort overige scheiding."
+        }
+      }
+    },
+    "TUNNELDEEL": {
+      "title": "TUNNELDEEL",
+      "description": "Onderdeel van een kunstmatig aangelegde, kokervormige onderdoorgang, dat essentieel is voor de constructie.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDTUNNELDEEL": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het tunneldeel is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDTUNNELDEEL": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het tunneldeel ongeldig is geworden."
+        },
+        "GEOMETRIETUNNELDEEL": {
+          "type": "string",
+          "description": "De minimaal tweedimensionale geometrische representatie van de omtrekken van een tunneldeel."
+        },
+        "IDENTIFICATIETUNNELDEEL": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een tunneldeel"
+        },
+        "LOD0GEOMETRIETUNNELDEEL": {
+          "type": "string",
+          "description": "De geometrische representatie van een tunneldeel als vlak in 2.5D op level of detail 0."
+        },
+        "RELATIEVEHOOGTELIGGINGTUNNELDEEL": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het tunneldeel"
+        },
+        "STATUSTUNNELDEEL": {
+          "type": "string",
+          "description": "De status gekoppeld aan de levenscyclus van het tunneldeel"
+        }
+      }
+    },
+    "ONDERSTEUNENDWEGDEEL": {
+      "title": "ONDERSTEUNENDWEGDEEL",
+      "description": "Een deel van de weg dat niet primair bedoeld is voor gebruik door het verkeer.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het ondersteunend wegdeel is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het ondersteunend wegdeel ongeldig is geworden."
+        },
+        "FUNCTIE": {
+          "type": "string",
+          "description": "Specificatie van het soort ondersteunend wegdeel."
+        },
+        "FYSIEKVOORKOMEN": {
+          "type": "string",
+          "description": "Mate waarin het ondersteunend wegdeel al of niet verhard is."
+        },
+        "GEOMETRIE": {
+          "type": "string",
+          "description": "De minimaal tweedimensionale geometrische representatie van de omtrekken van een ondersteunend wegdeel"
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een ondersteunend wegdeel"
+        },
+        "KRUINLIJNGEOMETRIE": {
+          "type": "string",
+          "description": "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."
+        },
+        "LOD0GEOMETRIE": {
+          "type": "string",
+          "description": "De geometrische representatie van een ondersteunend wegdeel als vlak in 2.5D op level of detail 0."
+        },
+        "OPTALUD": {
+          "type": "boolean",
+          "description": "Indicatie of het object wel of niet op een hellend vlak ligt."
+        },
+        "PLUSFUNCTIE": {
+          "type": "string",
+          "description": "Specificatie van het soort ondersteunend wegdeel, nadere classificatie."
+        },
+        "PLUSFYSIEKVOORKOMEN": {
+          "type": "string",
+          "description": ", nadere classificatie."
+        },
+        "RELATIEVEHOOGTELIGGING": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het ondersteunend wegdeel"
+        },
+        "STATUS": {
+          "type": "string",
+          "description": "De status gekoppeld aan de levenscyclus van het ondersteunend wegdeel."
+        }
+      }
+    },
+    "WATERDEEL": {
+      "title": "WATERDEEL",
+      "description": "Kleinste functioneel onafhankelijk stukje water met gelijkblijvende, homogene eigenschappen en relaties dat er binnen het objecttype Water van NEN 3610 wordt onderscheiden.",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDWATERDEEL": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het waterdeel is ontstaan."
+        },
+        "DATUMEINDEGELDIGHEIDWATERDEEL": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop het waterdeel ongeldig is geworden."
+        },
+        "GEOMETRIEWATERDEEL": {
+          "type": "string",
+          "description": "De minimaal tweedimensionale geometrische representatie van de omtrekken van een waterdeel."
+        },
+        "IDENTIFICATIEWATERDEEL": {
+          "type": "string",
+          "description": "Een unieke identificatie voor een waterdeel"
+        },
+        "PLUSTYPEWATERDEEL": {
+          "type": "string",
+          "description": "Specificatie van het soort water, nadere classificatie."
+        },
+        "RELATIEVEHOOGTELIGGINGWATERDEEL": {
+          "type": "string",
+          "description": "Aanduiding voor de relatieve hoogte van het waterdeel"
+        },
+        "STATUSWATERDEEL": {
+          "type": "string",
+          "description": "De status gekoppeld aan de levenscyclus van het waterdeel."
+        },
+        "TYPEWATERDEEL": {
+          "type": "string",
+          "description": "Specificatie van het soort water"
+        }
+      }
+    }
+  }
+}

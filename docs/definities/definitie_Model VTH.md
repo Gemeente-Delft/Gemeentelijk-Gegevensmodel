@@ -1325,8 +1325,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | id | EAID_b3801a1a_2997_484a_a526_6f1a5bb60ec7 |
 =======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_78b3a194\_51ab\_4822\_a4b0\_a11ce9931ceb |
->>>>>>> origin/master
+    | id | EAID\_1ff3f908\_a8e5\_4afd\_971c\_67d15759cd96 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1367,8 +1366,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | id | EAID_e3ad61b6_6cb5_421e_8d19_6d958689db8c |
 =======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_7ff9ff4d\_e24e\_4ffa\_9177\_806198dfccfc |
->>>>>>> origin/master
+    | id | EAID\_a48a78a3\_84c9\_4842\_afa3\_8064abfa530d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

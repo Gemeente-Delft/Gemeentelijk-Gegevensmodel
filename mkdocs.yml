@@ -1,10 +1,12 @@
 site_name: Gemeentelijk Gegevensmodel (GGM)
 site_description: Informatiemodel van alle gemeentelijke taakvelden
+site_author: Arjen Brienen
 site_url: https://www.gemeentelijkgegevensmodel.nl/
 repo_url: https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/
 
 theme:
     name: 'material'
+    custom_dir: overrides
     language: 'nl'
     palette:
         primary: 'blue'
@@ -12,6 +14,30 @@ theme:
     logo: 'img/logo.png'
     favicon: 'img/favicon.ico'
     toc_depth: 2
+
+hooks:
+  - tools/mkdocs_hooks.py
+
+# Definitie-pagina's worden gegenereerd en deep-linked, maar staan
+# bewust niet in de hoofdnavigatie. De startersgids-werkbestanden zijn
+# eveneens niet bedoeld voor publicatie via de menustructuur.
+not_in_nav: |
+  /definities/
+  /startersgids/format-proposal.md
+  /startersgids/word/
+
+# Maak van "niet in nav" een stille info; broken anchors en links blijven warns.
+validation:
+  nav:
+    omitted_files: ignore
+    not_found: warn
+    absolute_links: warn
+  links:
+    not_found: warn
+    absolute_links: warn
+    unrecognized_links: warn
+    anchors: warn
+
 extra:
   version:
     provider: mike
@@ -198,3 +224,115 @@ plugins:
 
   - search
   - glightbox
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: nl
+          default: true
+          name: Nederlands
+          build: true
+        - locale: en
+          name: English
+          build: true
+          site_name: "Delft Municipal Data Model (GGM)"
+          site_description: "The Delft Municipal Data Model (Gemeentelijk Gegevensmodel, GGM): an integral information model covering all municipal policy domains."
+          nav_translations:
+            # Top-level
+            Installatie: Installation
+            Startersgids: "Starter's Guide"
+            Beschrijving Domeinen: Domain Descriptions
+            Definitie Domeinen: Domain Definitions
+            "Databaseschema's": Database Schemas
+            GGM Cookbook: GGM Cookbook
+            Overige: Other
+            # Startersgids
+            Inleiding: Introduction
+            Vooraf: Before You Start
+            "Waarom het GGM?": "Why the GGM?"
+            "IV3 op het DGW-portaal": "IV3 on the DGW portal"
+            Start: Start
+            Eerste Gebruik: First Use
+            Daarna Verder: Next Steps
+            Startersgids Miniconferentie: Starter's Guide Mini-conference
+            # Domains: groupings
+            "Bestuur, Politiek en Ondersteuning": "Governance, Politics and Support"
+            "Veiligheid en Vergunningen": "Safety and Permits"
+            "Verkeer, Vervoer en waterstaat": "Traffic, Transport and Water"
+            Onderwijs: Education
+            "Sport, Cultuur en Recreatie": "Sport, Culture and Recreation"
+            Erfgoed: Heritage
+            "Sociaal domein": "Social Domain"
+            Schulden: Debt
+            "Volksgezondheid en milieu": "Public Health and Environment"
+            "Volkshuisvesting, leefomgeving en stedelijke vernieuwing": "Housing, Living Environment and Urban Renewal"
+            "Interne organisatie": "Internal Organisation"
+            Dienstverlening: Service Delivery
+            Kern: Core
+            # Domains: leaves
+            Burgerzaken: Civil Affairs
+            Griffie: Council Office
+            Parkeren: Parking
+            Mobiliteit: Mobility
+            Economie: Economy
+            "Leerplicht en leerlingenvervoer": "Compulsory Education and Pupil Transport"
+            Archeologie: Archaeology
+            Monumenten: Monuments
+            Archief: Archives
+            "Generieke objecttypen Erfgoed": "Generic Heritage Object Types"
+            Musea: Museums
+            Sport: Sport
+            Werk: Employment
+            Inkomen: Income
+            "Wmo en Jeugd": "Social Support (Wmo) and Youth"
+            Inburgering: Civic Integration
+            Schuldhulverlening: "Debt Counselling"
+            Vroegsignalering: "Early Warning"
+            Sociale Teams: "Social Teams"
+            Gemeentebegraven: "Municipal Burials"
+            "Dak- en thuislozen": "Homelessness"
+            "Generieke definities Sociaal Domein": "Generic Social Domain Definitions"
+            Afval: Waste
+            "Openbare ruimte": "Public Space"
+            "Bouwen en wonen": "Building and Housing"
+            Omgevingswet: "Environment Act"
+            ICT: ICT
+            Subsidies: Subsidies
+            "Gemeentelijk Vastgoed": "Municipal Real Estate"
+            Financiën: Finance
+            HR: HR
+            Inkoop: Procurement
+            BAG: BAG
+            RSGB: RSGB
+            RGBZ: RGBZ
+            # Definitie Domeinen extra labels
+            "Inkomen Basis": "Basic Income"
+            "Inkomen: Reden aanvraag (GBI)": "Income: Reason for Application (GBI)"
+            "Inkomen: Terug- en invordering (GBI)": "Income: Recovery and Collection (GBI)"
+            "Inkomen: Normafwijking (GBI)": "Income: Norm Deviation (GBI)"
+            "Inkomen: Dienstenmodel (GBI)": "Income: Service Model (GBI)"
+            "Erfgoed Generiek": "Generic Heritage"
+            Jeugdbescherming: "Youth Protection"
+            Gemeentebegrafenissen: "Municipal Funerals"
+            "Sociaal Domein Generiek": "Generic Social Domain"
+            "Generiek: Profiel inkomsten": "Generic: Income Profile"
+            "Generiek: Profiel vermogen": "Generic: Assets Profile"
+            "Bouwen en Wonen": "Building and Housing"
+            Organisatie: Organisation
+            "Generieke definities Kern": "Generic Core Definitions"
+            # GGM Cookbook
+            "Inleiding en uitgangspunten": "Introduction and Principles"
+            "Toegepaste patronen": "Applied Patterns"
+            "Ondersteunde Modelelementen": "Supported Model Elements"
+            "Aan de slag, een Uitbreiding maken": "Get Started: Creating an Extension"
+            "Aanpak informatieanalyse": "Information Analysis Approach"
+            "Uitleg Werkwijze": "Methodology"
+            "Voorbeeld: Gemeentelijke Monumenten": "Example: Municipal Monuments"
+            # Overige
+            "Over het GGM": "About the GGM"
+            Licentie: License
+            "Documentatie aanpassen": "Editing the Documentation"
+            "Backup maken": "Making a Backup"
+            "Tooling voor manipulatie repository": "Tooling for Repository Manipulation"

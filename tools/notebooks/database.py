@@ -207,7 +207,8 @@ def get_df_complete(uri, root_guid=None):
 def get_df_objectsHierar(uri, root_guid=None):
     df_classes = get_df(uri, sql_classes)
     
-    if root_guid and df_classes[df_classes.ea_guid.str.contains(root_guid)].count()[0] == 1:
+    mask = df_classes["ea_guid"].astype(str).str.contains(root_guid, na=False, regex=False)
+    if root_guid and mask.sum() == 1:
         lst_prop = [item for item in output_properties if item not in ['attributes','start_connectors','end_connectors']]
         return get_children(df_classes, root_guid, props=lst_prop)
     else:

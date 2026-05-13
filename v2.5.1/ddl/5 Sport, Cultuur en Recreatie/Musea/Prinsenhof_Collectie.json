@@ -1,0 +1,352 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Prinsenhof Collectie",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Prinsenhof Collectie",
+  "$defs": {
+    "HISTORISCH_PERSOON_": {
+      "title": "HISTORISCH_PERSOON_",
+      "description": "Natuurlijk persoon waarvan informatie beschikbaar is uit het verleden.",
+      "type": "object",
+      "properties": {
+        "BEROEP": {
+          "type": "string"
+        },
+        "DATUMGEBOORTE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMOVERLIJDEN": {
+          "type": "string",
+          "format": "date"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "PUBLIEKTOEGANKELIJK": {
+          "type": "boolean"
+        },
+        "WOONDEOP": {
+          "type": "string"
+        }
+      }
+    },
+    "BELANGHEBBENDE": {
+      "title": "BELANGHEBBENDE",
+      "description": "Een persoon wiens belang rechtstreeks bij een besluit is betrokken.",
+      "type": "object",
+      "properties": {
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMTOT": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "BELANGTYPE": {
+      "title": "BELANGTYPE",
+      "description": "Sort van belang",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "BRUIKLEEN": {
+      "title": "BRUIKLEEN",
+      "description": "Lening voor tijdelijk gebruik",
+      "type": "object",
+      "properties": {
+        "AANVRAAGDOOR": {
+          "type": "string"
+        },
+        "DATUMAANVRAAG": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "TOESTEMMINGDOOR": {
+          "type": "string"
+        }
+      }
+    },
+    "COLLECTIE": {
+      "title": "COLLECTIE",
+      "description": "Een verzameling van verworven voorwerpen die is samengesteld op grond van vastgestelde criteria.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "INCIDENT": {
+      "title": "INCIDENT",
+      "description": "Niet-gepland(e) gebeurtenis die of voorval dat tot schade of verlies leidt",
+      "type": "object",
+      "properties": {
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "LOCATIE": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "LENER": {
+      "title": "LENER",
+      "description": "Iemand die iets te leen krijgt, met name iemand die boeken, digitale bestanden of apparatuur leent bij een museum, bibliotheek, mediatheek of een andere uitleeninstantie",
+      "type": "object",
+      "properties": {
+        "OPMERKINGEN": {
+          "type": "string"
+        }
+      }
+    },
+    "MUSEUMOBJECT": {
+      "title": "MUSEUMOBJECT",
+      "description": "Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht.",
+      "type": "object",
+      "properties": {
+        "AFMETING": {
+          "type": "string",
+          "description": "Omschrijving van afmeting"
+        },
+        "BEZITTOT": {
+          "type": "string",
+          "format": "date"
+        },
+        "BEZITVANAF": {
+          "type": "string",
+          "format": "date"
+        },
+        "MEDIUM": {
+          "type": "string",
+          "description": "Materiaal waarvan object is vervaardigd"
+        },
+        "VERKRIJGING": {
+          "type": "string",
+          "description": "Hoe en via wie object is verkregen. Informatie uit de Constituents-tabel."
+        }
+      }
+    },
+    "ROL": {
+      "title": "ROL",
+      "description": "Een samenhangende set van taken, bevoegdheden en verantwoordelijkheden van een gebruiker.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "SAMENSTELLER": {
+      "title": "SAMENSTELLER",
+      "description": "Iemand die stukken informatie samenbrengt in tentoonstelingen, presentaties en naslagwerken.",
+      "type": "object",
+      "properties": {
+        "ROL": {
+          "type": "string"
+        }
+      }
+    },
+    "STANDPLAATS": {
+      "title": "STANDPLAATS",
+      "description": "vanaf een vaste locatie te koop aanbieden, verkopen of afleveren van goederen of aanbieden van diensten, gebruikmakend van fysieke middelen zoals een kraam, een wagen of een tafel",
+      "type": "object",
+      "properties": {
+        "ADRES": {
+          "type": "string"
+        },
+        "BESCHRIJVING": {
+          "type": "string"
+        },
+        "NAAMINSTELLING": {
+          "type": "string"
+        }
+      }
+    },
+    "TENTOONSTELLING": {
+      "title": "TENTOONSTELLING",
+      "description": "Een uitstalling van voorwerpen om door het grote publiek bekeken te worden.",
+      "type": "object",
+      "properties": {
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "SUBTITEL": {
+          "type": "string"
+        },
+        "TITEL": {
+          "type": "string"
+        }
+      }
+    },
+    "ZAAL": {
+      "title": "ZAAL",
+      "description": "Grote ruimte in een gebouw",
+      "type": "object",
+      "properties": {
+        "CAPACITEIT": {
+          "type": "integer"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "integer"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "MEDEWERKER": {
+      "title": "MEDEWERKER",
+      "description": "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID.",
+      "type": "object",
+      "properties": {
+        "ACHTERNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt.</font>"
+        },
+        "DATUMINDIENST": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMUITDIENST": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt.</font>"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font>"
+        },
+        "EXTERN": {
+          "type": "boolean",
+          "description": "Medewerker is een externe?"
+        },
+        "FUNCTIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie.</font>"
+        },
+        "GESLACHTSAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is.</font>"
+        },
+        "MEDEWERKERIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte unieke aanduiding van de medewerker.</font>"
+        },
+        "MEDEWERKERTOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Toelichting bij en/of over de medewerker.</font>"
+        },
+        "ROEPNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Naam waarmee de werknemer wordt aangesproken.</font>"
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Telefoonnummer waaronder de medewerker in de regel bereikbaar is.</font>"
+        },
+        "VOORLETTERS": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen.</font>"
+        },
+        "VOORVOEGSELACHTERNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font>\r\n<font color=\"#610e6a\">gescheiden.</font>"
+        }
+      }
+    },
+    "RECHTSPERSOON": {
+      "title": "RECHTSPERSOON",
+      "description": "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "ADRESBINNENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."
+        },
+        "ADRESBUITENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."
+        },
+        "ADRESCORRESPONDENTIE": {
+          "type": "string",
+          "description": "postbus of antwoordnummer"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "Elektronisch postadres waaronder het subject in de regel bereikbaar is."
+        },
+        "FAXNUMMER": {
+          "type": "string",
+          "description": "Faxnummer waaronder het subject in de regel bereikbaar is."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke identificatie van het SUBJECT"
+        },
+        "KVKNUMMER": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string",
+          "description": "De benaming van het SUBJECT"
+        },
+        "RECHTSVORM": {
+          "type": "string",
+          "description": "Bron: Handelsregister"
+        },
+        "REKENINGNUMMER": {
+          "type": "string",
+          "description": "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "Telefoonnummer waaronder het subject in de regel bereikbaar is."
+        }
+      }
+    }
+  }
+}

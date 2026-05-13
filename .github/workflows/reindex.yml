@@ -1,0 +1,64 @@
+name: Notify search engines
+
+# Stuurt na elke deploy naar GitHub Pages een IndexNow-signaal naar Bing,
+# Yandex, DuckDuckGo en Seznam zodat wijzigingen binnen uren i.p.v. weken
+# worden opgepakt. Google laten we passief discoveren via de sitemap;
+# zet later desgewenst google-sitemap-submit erbij.
+#
+# De IndexNow-key is GEEN geheim: hij staat publiek op
+# https://www.gemeentelijkgegevensmodel.nl/<key>.txt zodat IndexNow het
+# eigenaarschap kan verifiëren. Daarom hardcoden we de key hier in de
+# workflow; hij hoeft niet als repo-secret opgeslagen te worden.
+
+on:
+  push:
+    branches: [gh-pages]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  HOST: "www.gemeentelijkgegevensmodel.nl"
+  INDEXNOW_KEY: "33090353e09448e88b3854cf57edc839"
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'workflow_dispatch' || github.ref == 'refs/heads/gh-pages' }}
+    steps:
+      - name: Ping IndexNow (Bing, Yandex, DuckDuckGo, Seznam)
+        run: |
+          set -euo pipefail
+
+          echo "Ophalen sitemap van https://${HOST}/sitemap.xml ..."
+          curl -sfL "https://${HOST}/sitemap.xml" -o sitemap.xml
+
+          # Extraheer <loc>-waarden uit de sitemap.
+          grep -oP '(?<=<loc>)[^<]+' sitemap.xml \
+            | jq -R -s -c 'split("\n") | map(select(length>0))' > urls.json
+
+          COUNT=$(jq 'length' urls.json)
+          echo "Gevonden ${COUNT} URLs in sitemap."
+
+          jq -n \
+            --arg host "${HOST}" \
+            --arg key  "${INDEXNOW_KEY}" \
+            --arg kl   "https://${HOST}/${INDEXNOW_KEY}.txt" \
+            --slurpfile urls urls.json \
+            '{host:$host, key:$key, keyLocation:$kl, urlList:$urls[0]}' \
+            > payload.json
+
+          echo "Submitten aan IndexNow ..."
+          HTTP_CODE=$(curl -s -o response.txt -w "%{http_code}" \
+            -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            --data @payload.json)
+
+          echo "IndexNow response: ${HTTP_CODE}"
+          cat response.txt || true
+
+          case "${HTTP_CODE}" in
+            200|202) echo "OK — ${COUNT} URLs verzonden naar IndexNow." ;;
+            *)       echo "::warning::IndexNow gaf status ${HTTP_CODE}" ;;
+          esac

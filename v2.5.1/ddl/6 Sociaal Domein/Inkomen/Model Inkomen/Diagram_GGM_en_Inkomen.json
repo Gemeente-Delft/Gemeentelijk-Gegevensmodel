@@ -1,0 +1,275 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diagram GGM en Inkomen",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Diagram GGM en Inkomen",
+  "$defs": {
+    "CLIENT": {
+      "title": "CLIENT",
+      "description": "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente.",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "GEZAGSDRAGERGEKEND": {
+          "type": "boolean"
+        },
+        "JURIDISCHESTATUS": {
+          "type": "string"
+        },
+        "WETTELIJKEVERTEGENWOORDIGING": {
+          "type": "string"
+        }
+      }
+    },
+    "PROFIEL": {
+      "title": "PROFIEL",
+      "description": "Klasse uit het Gemeentelijk Gegevensmodel: PROFIEL",
+      "type": "object",
+      "properties": {
+        "DATUMAANVANGPROFIEL": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDEPROFIEL": {
+          "type": "string",
+          "format": "date"
+        },
+        "PROFIELTYPE": {
+          "type": "string"
+        }
+      }
+    },
+    "KOSTENPLAATS": {
+      "title": "KOSTENPLAATS",
+      "description": "Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven.",
+      "type": "object",
+      "properties": {
+        "BTWCODE": {
+          "type": "string"
+        },
+        "BTWOMSCHRIJVING": {
+          "type": "string"
+        },
+        "KOSTENPLAATSSOORTCODE": {
+          "type": "number"
+        },
+        "KOSTENPLAATSSOORTOMSCHRIJVING": {
+          "type": "number"
+        },
+        "KOSTENPLAATSTYPECODE": {
+          "type": "number"
+        },
+        "KOSTENPLAATSTYPEOMSCHRIJVING": {
+          "type": "number"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "AANVRAAG": {
+      "title": "AANVRAAG",
+      "description": "Het officiële verzoek met het oogmerk om te komen tot toelating tot de dienstverlening zoals beschreven in de Participatiewet, schriftelijk ingediend bij het bestuursorgaan dat bevoegd is op het verzoek te beslissen. Het verzoek moet voldoen aan de wettelijke vereisten zoals bepaald in artikel 4.2 van de Algemene Bestuurswet.",
+      "type": "object",
+      "properties": {
+        "AANVRAAGDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "CODE_ONTVANGENDE_GEMEENTE": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "DIENST": {
+      "title": "DIENST",
+      "description": "Een door de burger of bedrijf afgenomen dienst als een uit het aanbod van een overheidsorgaan in het kader van de Participatiewet.Let wel! Het gaat hier om dienst als de uiteindelijke levering van een diensttype op een aanvraag.",
+      "type": "object",
+      "properties": {
+        "AANTAL_KOSTENDELERS": {
+          "type": "number"
+        },
+        "BEGINDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "PERIODICITEIT_STATUSFORMULIER": {
+          "type": "string"
+        },
+        "STARTDATUM_STATUSFORMULIER": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "LEVERINGSCOMPONENT": {
+      "title": "LEVERINGSCOMPONENT",
+      "description": "Een samenstellend deel van een Dienst. Bijvoorbeeld een gezinsnorm, een maatregel op de uitkering of bij een fysiek product: een koelkast.Nadat het recht is bepaald, wordt de levering gespecificeerd. Bij een financieel product is dat de hoogte van het bedrag. De hoogte van het bedrag is opgebouwd uit componenten waarvan de relevantie weer wordt bepaald door het recht en de situatie. Hoe het ook zij, de specificatie van de levering wordt in haar componenten vastgelegd als Leveringscomponent.",
+      "type": "object",
+      "properties": {
+        "BEDRAG": {
+          "type": "number"
+        },
+        "EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "GEVALSRUBRIEK": {
+          "type": "string"
+        },
+        "OMSCHRIJVING_AFWIJKING": {
+          "type": "string"
+        },
+        "PERCENTAGE": {
+          "type": "string"
+        },
+        "PERIODE_STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "SOORT": {
+          "type": "string"
+        }
+      }
+    },
+    "LEVERINGSOPDRACHT": {
+      "title": "LEVERINGSOPDRACHT",
+      "description": "Een informatieobject dat wordt uitgewisseld tussen twee bedrijfsfuncties, waarvan de één de inhoudelijke afhandeling heeft gedaan en de ander de uitvoering moet verrichten. De leveringsopdracht bevat de nodige gegevens om de levering te kunnen uitvoeren.De daadwerkelijke levering van de dienst, hetzij in natura, hetzij in uitkering, wordt door een andere bedrijfsfunctie uitgevoerd. Hiertoe moet een leveringsopdracht worden opgesteld. Dit bedrijfsobject is meer een koppelvlakbeschrijving over gegevens uit het behandelproces, dan een uit te werken concept in de ontologie.",
+      "type": "object",
+      "properties": {
+        "LEVERINGSKANAAL": {
+          "type": "string"
+        }
+      }
+    },
+    "LEVERINGSSPECIFICATIE": {
+      "title": "LEVERINGSSPECIFICATIE",
+      "description": "De specificatie van de te leveren dienst.Nadat het recht is bepaald, wordt de levering gespecificeerd. Bij een financieel product is dat de hoogte van het bedrag. De hoogte van het bedrag is opgebouwd uit componenten waarvan de relevantie weer wordt bepaald door het recht en de situatie. Hoe het ook zij, de Leveringsspecificatie wordt in haar Leveringscomponenten vastgelegd.",
+      "type": "object",
+      "properties": {
+        "PERIODE_EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "PERIODE_STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "PERIODICITEIT": {
+          "type": "string"
+        }
+      }
+    },
+    "NORMAFWIJKING": {
+      "title": "NORMAFWIJKING",
+      "description": "Een *normafwijking* (in het kader van bijstand) is het constateren dat een bijstandsgerechtigde **afwijkt van de normatieve verplichtingen** die verbonden zijn aan het recht op bijstand (bijv. arbeids- of inlichtingenplicht), wat aanleiding kan geven tot toepassing van een maatregel op de uitkering.",
+      "type": "object",
+      "properties": {
+        "DATUM_VASTSTELLING_NORMAFWIJKING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUM_VASTSTELLING_VERWIJTBAARHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "MOTIVATIE_VERWIJTBAARHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "format": "date",
+          "description": "Voorheen: Normafwijking ID\r\nOpmerking: Dit attribuut heeft datatype Date maar is een identificatie?"
+        },
+        "RECIDIVE": {
+          "type": "string"
+        },
+        "TYPE_NORMAFWIJKING": {
+          "type": "string"
+        },
+        "VERWIJTBAARHEID": {
+          "type": "string"
+        }
+      }
+    },
+    "REDEN_AANVRAAG": {
+      "title": "REDEN_AANVRAAG",
+      "description": "Reden waarom dienst wordt aanvraagd bij gemeente.",
+      "type": "object",
+      "properties": {
+        "DIENSTTYPE": {
+          "type": "string"
+        },
+        "GEWENSTE_INGANGSDATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "DEBITEUR": {
+      "title": "DEBITEUR",
+      "description": "Binnen het domein van terug- en invorderen is een debiteur een persoon waarop de gemeente een of meerdere vorderingen heeft.",
+      "type": "object",
+      "properties": {
+        "EIGEN_KENMERK": {
+          "type": "string"
+        },
+        "OPVOERDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "SOORT_DEBITEUR": {
+          "type": "string"
+        }
+      }
+    },
+    "TERUGVORDERINGSVERZOEK": {
+      "title": "TERUGVORDERINGSVERZOEK",
+      "description": "Het vorderingsverzoek is de handshake tussen een voorliggend proces en de bedrijfsfunctie Terug- en Invorderen. In het kader van een bepaalde regeling is geconstateerd dat een zeker bedrag terug moet worden gevorderd. Dit wordt her gemakshalve het voorliggende proces genoemd. Het voorliggende proces moet de juiste, noodzakelijke en voldoende gegevens toeleveren aan Terug- en invorderen opdat het verzoek tot terugvorderen in behandeling kan worden genomen.Het vorderingsverzoek start een terugvorderingszaak. Op basis van de voortgang van die zaak kan het verzoekende voorliggende proces op de hoogte worden gehouden van de voortgang via zaakstatusinformatie.",
+      "type": "object",
+      "properties": {
+        "AANMAAKDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "BEHANDELSTATUS_VERZOEK": {
+          "type": "string"
+        },
+        "CATEGORIE": {
+          "type": "string"
+        },
+        "FISCAAL": {
+          "type": "string"
+        },
+        "PERIODE_EINDDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "PERIODE_STARTDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "PRIOTYPE": {
+          "type": "string",
+          "format": "date"
+        },
+        "REGELING": {
+          "type": "string"
+        },
+        "SUBCATEGORIE": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -509,8 +509,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | id | EAID_45e233e2_8779_4c03_bd1b_b1ef29a0836b |
 =======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_67b9fc7c\_23a1\_4ff5\_b300\_3e0f78b8948d |
->>>>>>> origin/master
+    | id | EAID\_53abc0b9\_7e82\_41e9\_96bc\_2842b129fee9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -551,8 +550,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | id | EAID_713e1c16_3941_46f0_842c_853a9fd2795d |
 =======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_264883da\_6ea3\_4458\_8b81\_5fbce35bdcc3 |
->>>>>>> origin/master
+    | id | EAID\_d46174dd\_c60e\_4d2e\_bbb0\_7f3c738cc27c |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

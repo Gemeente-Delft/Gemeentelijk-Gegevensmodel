@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Prinsenhof Verkoop",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Prinsenhof Verkoop",
+  "$defs": {
+    "BALIEVERKOOP": {
+      "title": "BALIEVERKOOP",
+      "description": "Verkoop aan de balie",
+      "type": "object",
+      "properties": {
+        "AANTAL": {
+          "type": "integer"
+        },
+        "KANAAL": {
+          "type": "string",
+          "description": "Verkocht via kassa, online of ander kanaal"
+        },
+        "VERKOOPTIJD": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "BALIEVERKOOP_ENTREEKAART": {
+      "title": "BALIEVERKOOP_ENTREEKAART",
+      "description": "Verkoop van een entreekaart aan de balie",
+      "type": "object",
+      "properties": {
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "GEBRUIKTOP": {
+          "type": "string"
+        },
+        "RONDLEIDING": {
+          "type": "boolean"
+        }
+      }
+    },
+    "ENTREEKAART": {
+      "title": "ENTREEKAART",
+      "description": "Bewijs van toegang tot een gebouw of voorstelling",
+      "type": "object",
+      "properties": {
+        "RONDLEIDING": {
+          "type": "boolean"
+        }
+      }
+    },
+    "OMZETGROEP": {
+      "title": "OMZETGROEP",
+      "description": "Artikelen worden gebruikt om omzet te registreren in de shop, de horeca of elders. De omzet wordt vervolgens getotaliseerd op rapportages. Om de artikelen te groeperen moet ieder artikel tot een omzetgroep behoren.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "PRODUCT": {
+      "title": "PRODUCT",
+      "description": "Het resultaat van een proces dat in het economisch verkeer een waarde bezit.",
+      "type": "object",
+      "properties": {
+        "CODEMUSEUMJAARKAART": {
+          "type": "string"
+        },
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "ENTREEKAART": {
+          "type": "integer"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "PRIJS": {
+          "type": "number"
+        }
+      }
+    },
+    "PRODUCTGROEP": {
+      "title": "PRODUCTGROEP",
+      "description": "Groepering van producten",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "WINKELVOORRAADITEM": {
+      "title": "WINKELVOORRAADITEM",
+      "description": "Onderdeel in de winkelvoorraad",
+      "type": "object",
+      "properties": {
+        "AANTAL": {
+          "type": "integer"
+        },
+        "AANTALINBESTELLING": {
+          "type": "integer"
+        },
+        "DATUMLEVERINGBESTELLING": {
+          "type": "string",
+          "format": "date"
+        },
+        "LOCATIE": {
+          "type": "string"
+        }
+      }
+    },
+    "LEVERANCIER": {
+      "title": "LEVERANCIER",
+      "description": "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

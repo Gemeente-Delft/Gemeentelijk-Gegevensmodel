@@ -1182,8 +1182,7 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
     | id | EAID_d6ca7f15_e421_4d33_ad99_f7ba13883ed4 |
 =======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_5c9c950a\_63ce\_4b5c\_b03f\_dff52cdc8e2d |
->>>>>>> origin/master
+    | id | EAID\_04ce73ee\_2ac6\_4bb8\_908b\_73cb5bce6a28 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1224,8 +1223,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | id | EAID_f4e276fb_284a_48aa_8997_71e11d94f813 |
 =======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_de40c3d0\_65f6\_4a99\_b518\_0d67dcdc47d9 |
->>>>>>> origin/master
+    | id | EAID\_009ecb3f\_405a\_4e1d\_8d3b\_e0f297352643 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1266,8 +1264,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | id | EAID_3a58a6a1_4ccf_4407_a4b7_caf0bcfa60e7 |
 =======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_b3bf4514\_ac6d\_427e\_9e0c\_54cbcd7e2b85 |
->>>>>>> origin/master
+    | id | EAID\_ddb80708\_aef0\_44b1\_8b7d\_dff9fb22e920 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1308,7 +1305,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | id | EAID_69de2178_1208_412f_a3ca_dc174672189e |
 =======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_d17aa3a6\_4c8b\_442c\_8e22\_76bfee23989e |
+    | id | EAID\_cf9b2ec2\_f39f\_44af\_aefb\_b9501c79a6e1 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1345,8 +1342,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_d0e566bf\_5265\_4e6e\_bdc0\_7f3b10a802ae |
->>>>>>> origin/master
+    | id | EAID\_ef2c6ba0\_bce9\_4395\_8786\_f2249e3cc584 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1389,8 +1385,7 @@ De enumeratie aanduidingEigenaarGebruiker heeft de volgende kenmerken:
     | id | EAID_1df453da_40bf_414d_9ae8_35c611ebed60 |
 =======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_d2f80762\_3048\_4027\_8053\_d1656926f5dc |
->>>>>>> origin/master
+    | id | EAID\_0785ccc8\_6f52\_4517\_b014\_60b548c34198 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

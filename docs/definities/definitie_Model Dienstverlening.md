@@ -769,8 +769,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | id | EAID_4ae844b8_74d2_42ec_abed_70eb1ee41435 |
 =======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_be7848ec\_8a72\_4f19\_8888\_39493104f57f |
->>>>>>> origin/master
+    | id | EAID\_96d24917\_9aef\_45ef\_bdfd\_5993531b784e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

@@ -1,0 +1,224 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sociale team:Domeinmodel",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Sociale team:Domeinmodel",
+  "$defs": {
+    "LEEFGEBIED": {
+      "title": "LEEFGEBIED",
+      "description": "Gebied waarin alle activiteiten van een inwoner zich kunnen afspelen",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "SCORE": {
+      "title": "SCORE",
+      "description": "Het aantal behaalde punten",
+      "type": "object",
+      "properties": {
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "SCORESOORT": {
+      "title": "SCORESOORT",
+      "description": "Typologie van score",
+      "type": "object",
+      "properties": {
+        "NIVEAU": {
+          "type": "string"
+        }
+      }
+    },
+    "ZELFREDZAAMHEIDMATRIX": {
+      "title": "ZELFREDZAAMHEIDMATRIX",
+      "description": "Een geordend systeem waarbij aan elf domeinen van het dagelijks leven (zoals inkomen en dagbesteding; zie figuur) een waarde voor zelfredzaamheid wordt toegekend.",
+      "type": "object",
+      "properties": {
+        "DATUMEINDEGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTARTGELDIGHEID": {
+          "type": "string",
+          "format": "date"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "CLIENT": {
+      "title": "CLIENT",
+      "description": "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente.",
+      "type": "object",
+      "properties": {
+        "CODE": {
+          "type": "string"
+        },
+        "GEZAGSDRAGERGEKEND": {
+          "type": "boolean"
+        },
+        "JURIDISCHESTATUS": {
+          "type": "string"
+        },
+        "WETTELIJKEVERTEGENWOORDIGING": {
+          "type": "string"
+        }
+      }
+    },
+    "CLIENTBEGELEIDER": {
+      "title": "CLIENTBEGELEIDER",
+      "description": "De persoon die verantwoordelijk is voor het opstellen en uitvoeren van het  ondersteuningsplan in samenwering met de client en personen uit zijn/haar omgeving .",
+      "type": "object",
+      "properties": {
+        "BEGELEIDERSCODE": {
+          "type": "string"
+        }
+      }
+    },
+    "RELATIE": {
+      "title": "RELATIE",
+      "description": "Betrekking waarin personen, zaken, begrippen of grootheden van nature tot elkaar staan.",
+      "type": "object",
+      "properties": {
+        "RELATIESOORT": {
+          "type": "integer"
+        }
+      }
+    },
+    "BEHANDELING": {
+      "title": "BEHANDELING",
+      "description": "Een verzameling van interventies om bepaalde behandeldoelen te bewerkstelligen.",
+      "type": "object",
+      "properties": {
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "TOELICHTING": {
+          "type": "string"
+        }
+      }
+    },
+    "BEHANDELSOORT": {
+      "title": "BEHANDELSOORT",
+      "description": "Typering van een behandeling",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "BIJZONDERHEID": {
+      "title": "BIJZONDERHEID",
+      "description": "Kenmerkende eigenschap",
+      "type": "object",
+      "properties": {
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "BIJZONDERHEIDSOORT": {
+      "title": "BIJZONDERHEIDSOORT",
+      "description": "Typering van een bijzonderheid",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "CASEAANMELDING": {
+      "title": "CASEAANMELDING",
+      "description": "Verzoek tot toelating",
+      "type": "object",
+      "properties": {
+        "DATUM": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "DOELSTELLING": {
+      "title": "DOELSTELLING",
+      "description": "Een op korte of middellange termijn nagestreefde situatie",
+      "type": "object",
+      "properties": {
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "DOELSTELLINGSOORT": {
+      "title": "DOELSTELLINGSOORT",
+      "description": "Typering van een doelstellig",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "SOCIAALTEAMDOSSIER": {
+      "title": "SOCIAALTEAMDOSSIER",
+      "description": "SociaalTeamDossier* is een dossier-entiteit binnen het Model Sociale Teams dat de **geïntegreerde registratie van gegevens over ondersteuning, gesprekken, interventies en casusontwikkeling van een sociaal team** voor een inwoner of gezin omvat.",
+      "type": "object",
+      "properties": {
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMVASTSTELLING": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "STATUS": {
+          "type": "string"
+        }
+      }
+    },
+    "SOCIAALTEAMDOSSIERSOORT": {
+      "title": "SOCIAALTEAMDOSSIERSOORT",
+      "description": "*SociaalteamDossiersoort* is de classificatie van een *SociaalTeamDossier* die aangeeft **het type of de categorie van het dossier** binnen de context van sociale ondersteuning en casemanagement in een sociaal team.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

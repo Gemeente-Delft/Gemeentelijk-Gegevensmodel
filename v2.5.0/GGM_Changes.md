@@ -1,5508 +1,11500 @@
 # Changes from v2.4.0 to v2.5.0
 
-Dit bestand geeft alle wijzigingen. In een aantal gevallen hebben enumeraties dezelfde naam gehouden, maar is de interne sleutel gewijzigs, waardoor deze als verwijderd en opnieuw toegevoegd wordt gezien. Dit heeft geen effect op zaken als de generatie van de DDL's.
+Entiteiten worden vergeleken op naam (gekwalificeerd met pakketpad), zodat een nieuwe `ea_guid` voor hetzelfde logische element niet als _Removed + Added_ verschijnt. Verwijzingen naar andere entiteiten (FK-velden zoals `enumeration_id`) worden vergeleken op de naam van het doel — niet op de interne sleutel.
+
+**Structurele wijzigingen** raken het model zelf: toegevoegde of verwijderde elementen, naamswijzigingen, type/verplicht/multipliciteit/lengte/patroon en links tussen elementen. **Beschrijvende wijzigingen** updaten alleen metadata of documentatie (definitie, toelichting, gemma-tags, versie, auteur, herkomst, …) zonder de structuur van het model te veranderen.
+
+## Samenvatting
+
+| Element | + (struct.) | − (struct.) | ~ (struct.) | ~ (beschr.) |
+| --- | ---: | ---: | ---: | ---: |
+| Classes | 1 | 5 | 16 | 953 |
+| Datatypes | 0 | 0 | 0 | 0 |
+| Enumeraties | 34 | 2 | 4 | 326 |
+| Attributen | 46 | 334 | 487 | 7 |
+| Associaties | 1 | 3 | 70 | 0 |
+| Generalisaties | 0 | 2 | 1 | 0 |
+| Enum-literals | 280 | 20 | — | — |
+| Pakketten (metadata) | 0 | 0 | 1 | 97 |
+
+## Geraakte packages
+
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/0 Bestuur, Politiek en Ondersteuning** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel0-bestuur-politiek-en-ondersteuning)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/0 Bestuur, Politiek en Ondersteuning/Burgerzaken** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel0-bestuur-politiek-en-ondersteuningburgerzaken)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/0 Bestuur, Politiek en Ondersteuning/Burgerzaken/Model Burgerzaken** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel0-bestuur-politiek-en-ondersteuningburgerzakenmodel-burgerzaken)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/0 Bestuur, Politiek en Ondersteuning/Griffie** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel0-bestuur-politiek-en-ondersteuninggriffie)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/0 Bestuur, Politiek en Ondersteuning/Griffie/Model Griffie** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel0-bestuur-politiek-en-ondersteuninggriffiemodel-griffie) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel0-bestuur-politiek-en-ondersteuninggriffiemodel-griffie)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/1 Veiligheid en Vergunningen** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel1-veiligheid-en-vergunningen)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/1 Veiligheid en Vergunningen/Model VTH** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel1-veiligheid-en-vergunningenmodel-vth) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel1-veiligheid-en-vergunningenmodel-vth)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/10 Dienstverlening** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel10-dienstverlening)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/10 Dienstverlening/Diagram** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel10-dienstverleningdiagram)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/10 Dienstverlening/Model Dienstverlening** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel10-dienstverleningmodel-dienstverlening)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/2 Verkeer, Vervoer en Waterstaat** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel2-verkeer-vervoer-en-waterstaat)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/2 Verkeer, Vervoer en Waterstaat/Mobiliteit/Model Mobiliteit** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel2-verkeer-vervoer-en-waterstaatmobiliteitmodel-mobiliteit) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel2-verkeer-vervoer-en-waterstaatmobiliteitmodel-mobiliteit)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/2 Verkeer, Vervoer en Waterstaat/Parkeren** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel2-verkeer-vervoer-en-waterstaatparkeren)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/2 Verkeer, Vervoer en Waterstaat/Parkeren/Model Parkeren** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel2-verkeer-vervoer-en-waterstaatparkerenmodel-parkeren) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel2-verkeer-vervoer-en-waterstaatparkerenmodel-parkeren)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/3 Economie** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel3-economie)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/3 Economie/Diagram** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel3-economiediagram)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/3 Economie/Model Economie** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel3-economiemodel-economie)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/4 Onderwijs** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel4-onderwijs)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/4 Onderwijs/Leerplicht en Leerlingenvervoer** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel4-onderwijsleerplicht-en-leerlingenvervoer)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/4 Onderwijs/Leerplicht en Leerlingenvervoer/Model Leerplicht en Leerlingenvervoer** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel4-onderwijsleerplicht-en-leerlingenvervoermodel-leerplicht-en-leerlingenvervoer)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/4 Onderwijs/Onderwijs** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel4-onderwijsonderwijs)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/4 Onderwijs/Onderwijs/Diagram** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel4-onderwijsonderwijsdiagram)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/4 Onderwijs/Onderwijs/Model Onderwijs** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel4-onderwijsonderwijsmodel-onderwijs) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel4-onderwijsonderwijsmodel-onderwijs)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatie)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Erfgoed/Archeologie** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatieerfgoedarcheologie)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Erfgoed/Archeologie/Model Archeologie** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatieerfgoedarcheologiemodel-archeologie) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatieerfgoedarcheologiemodel-archeologie)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Erfgoed/Archief** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatieerfgoedarchief)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Erfgoed/Archief/Model Archief** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatieerfgoedarchiefmodel-archief)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Erfgoed/Generieke Entiteiten Erfgoed** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatieerfgoedgenerieke-entiteiten-erfgoed)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Erfgoed/Generieke Entiteiten Erfgoed/Diagram** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatieerfgoedgenerieke-entiteiten-erfgoeddiagram)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Erfgoed/Generieke Entiteiten Erfgoed/Model Erfgoed Generiek** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatieerfgoedgenerieke-entiteiten-erfgoedmodel-erfgoed-generiek)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Erfgoed/Monumenten/Model Monumenten** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatieerfgoedmonumentenmodel-monumenten) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatieerfgoedmonumentenmodel-monumenten)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Musea/Diagram** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatiemuseadiagram)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Musea/Model Musea** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatiemuseamodel-musea) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatiemuseamodel-musea)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Sport** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatiesport)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Sport/Model Sport** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatiesportmodel-sport) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatiesportmodel-sport)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domein)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Dak- en thuislozen** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeindak--en-thuislozen)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Dak- en thuislozen/Diagram** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeindak--en-thuislozendiagram)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Dak- en thuislozen/Model Dak- en thuislozen** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeindak--en-thuislozenmodel-dak--en-thuislozen)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Gemeentebegrafenissen** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeingemeentebegrafenissen)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Gemeentebegrafenissen/Model Gemeentebegrafenissen** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeingemeentebegrafenissenmodel-gemeentebegrafenissen)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Generiek Jeugd en Wmo** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeingeneriek-jeugd-en-wmo)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Generiek Jeugd en Wmo/Model Jeugd en Wmo Generiek** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeingeneriek-jeugd-en-wmomodel-jeugd-en-wmo-generiek) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeingeneriek-jeugd-en-wmomodel-jeugd-en-wmo-generiek)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inburgering/Model Inburgering** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininburgeringmodel-inburgering) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininburgeringmodel-inburgering)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Diensten/Model Diensten** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomendienstenmodel-diensten) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomendienstenmodel-diensten)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Model Inkomen** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomenmodel-inkomen) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomenmodel-inkomen)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Normafwijking/Model Normafwijking** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomennormafwijkingmodel-normafwijking) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomennormafwijkingmodel-normafwijking)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Datatypes** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomenreden-aanvraagdatatypes)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Reden aanvraag** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomenreden-aanvraagreden-aanvraag) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomenreden-aanvraagreden-aanvraag)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Terug- en invordering/Model Terug- en invordering** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomenterug--en-invorderingmodel-terug--en-invordering) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomenterug--en-invorderingmodel-terug--en-invordering)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Jeugd** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinjeugd)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Jeugd/Model Jeugd** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinjeugdmodel-jeugd)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Jeugdbescherming en reclassering/Diagram** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinjeugdbescherming-en-reclasseringdiagram)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Jeugdbescherming en reclassering/Model Jeugdbescherming** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinjeugdbescherming-en-reclasseringmodel-jeugdbescherming) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinjeugdbescherming-en-reclasseringmodel-jeugdbescherming)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Schulden/Schuldhulpverlening/Model Schuldhulpverlening** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinschuldenschuldhulpverleningmodel-schuldhulpverlening) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinschuldenschuldhulpverleningmodel-schuldhulpverlening)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Schulden/Vroegsignalering/Model Vroegsignalering** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinschuldenvroegsignaleringmodel-vroegsignalering) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinschuldenvroegsignaleringmodel-vroegsignalering)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiek)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Diagram** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekdiagram)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekmodel-sociaal-domein-generiek) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekmodel-sociaal-domein-generiek)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekmodel-sociaal-domein-generiekinkomsten)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Datatypes** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekmodel-sociaal-domein-generiekinkomstendatatypes)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Model Inkomsten** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekmodel-sociaal-domein-generiekinkomstenmodel-inkomsten) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekmodel-sociaal-domein-generiekinkomstenmodel-inkomsten)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Vermogen** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekmodel-sociaal-domein-generiekvermogen)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Vermogen/Datatypes** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekmodel-sociaal-domein-generiekvermogendatatypes)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Vermogen/Model Vermogen** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekmodel-sociaal-domein-generiekvermogenmodel-vermogen) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekmodel-sociaal-domein-generiekvermogenmodel-vermogen)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociale Teams** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociale-teams)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociale Teams/Model Sociale Teams** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociale-teamsmodel-sociale-teams)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Werk** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinwerk)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Werk/Model Werk** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinwerkmodel-werk) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinwerkmodel-werk)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Wmo** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinwmo)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Wmo/Model Wmo** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinwmomodel-wmo)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel7-volksgezondheid-en-milieu)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel7-volksgezondheid-en-milieuafval)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel7-volksgezondheid-en-milieuafvalmodel-afval) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel7-volksgezondheid-en-milieuafvalmodel-afval)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Beheer Openbare Ruimte** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingbeheer-openbare-ruimte)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Beheer Openbare Ruimte/Model Basis IMBOR/Enumeratiesoort** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingbeheer-openbare-ruimtemodel-basis-imborenumeratiesoort)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Beheer Openbare Ruimte/Model Basis IMBOR/Model IMBOR** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingbeheer-openbare-ruimtemodel-basis-imbormodel-imbor) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingbeheer-openbare-ruimtemodel-basis-imbormodel-imbor)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Beheer Openbare Ruimte/Model Beheer Openbare Ruimte** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingbeheer-openbare-ruimtemodel-beheer-openbare-ruimte) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingbeheer-openbare-ruimtemodel-beheer-openbare-ruimte)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Bouwen en Wonen** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingbouwen-en-wonen)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Bouwen en Wonen/Model Wonen** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingbouwen-en-wonenmodel-wonen) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingbouwen-en-wonenmodel-wonen)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Meldingen Openbare Ruimte** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingmeldingen-openbare-ruimte)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingomgevingswet)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/Model Omgevingswet** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingomgevingswetmodel-omgevingswet)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/Model Omgevingswet/Model Aanvragen en Meldingen** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingomgevingswetmodel-omgevingswetmodel-aanvragen-en-meldingen)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/Model Omgevingswet/Model Officiele Publicaties** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingomgevingswetmodel-omgevingswetmodel-officiele-publicaties)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/Model Omgevingswet/Model Omgevingswet** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingomgevingswetmodel-omgevingswetmodel-omgevingswet)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/Model Omgevingswet/Model Toepasbare Regels** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingomgevingswetmodel-omgevingswetmodel-toepasbare-regels)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatie)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Financien** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatiefinancien)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Financien/Model Financien** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatiefinancienmodel-financien) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatiefinancienmodel-financien)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/HR** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatiehr)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/HR/Model HR** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatiehrmodel-hr) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatiehrmodel-hr)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/ICT** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatieict)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/ICT/Model ICT** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatieictmodel-ict) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatieictmodel-ict)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Inkoop** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatieinkoop)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Inkoop/Diagram** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatieinkoopdiagram)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Inkoop/Model Inkoop** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatieinkoopmodel-inkoop)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Organisatie-indeling/Model Organisatie** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatieorganisatie-indelingmodel-organisatie)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Subsidies** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatiesubsidies)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Subsidies/Diagram** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatiesubsidiesdiagram)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Subsidies/Model Subsidies** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatiesubsidiesmodel-subsidies)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Vastgoed** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatievastgoed)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Vastgoed/Model Vastgoed** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatievastgoedmodel-vastgoed) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatievastgoedmodel-vastgoed)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kern)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/BAG** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernbag)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/BAG/Model BAG** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernbagmodel-bag) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernbagmodel-bag)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/Dimensies/Model** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kerndimensiesmodel) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kerndimensiesmodel)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/Generiek/Model Generiek** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kerngeneriekmodel-generiek) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kerngeneriekmodel-generiek)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RGBZPlus** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrgbzplus)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RGBZPlus/Diagram** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrgbzplusdiagram)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RGBZPlus/Model RGBZ/Enumeratiesoort** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrgbzplusmodel-rgbzenumeratiesoort)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RGBZPlus/Model RGBZ/Groepattribuutsoort** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrgbzplusmodel-rgbzgroepattribuutsoort) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrgbzplusmodel-rgbzgroepattribuutsoort)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RGBZPlus/Model RGBZ/Metagegevens** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrgbzplusmodel-rgbzmetagegevens) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrgbzplusmodel-rgbzmetagegevens)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RGBZPlus/Model RGBZ/Model Kern RGBZ** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrgbzplusmodel-rgbzmodel-kern-rgbz) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrgbzplusmodel-rgbzmodel-kern-rgbz)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplus)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/Diagram** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusdiagram)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/Diagram RSGB/Catalogus RSGB/Tekenwijze** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusdiagram-rsgbcatalogus-rsgbtekenwijze)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/Enumeratiesoort** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelenumeratiesoort) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelenumeratiesoort)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/Groepattribuutsoort** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelgroepattribuutsoort) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelgroepattribuutsoort)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/Model Kern RSGB** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelmodel-kern-rsgb) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelmodel-kern-rsgb)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/Referentielijsten** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelreferentielijsten) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelreferentielijsten)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/Relatieklasse** — [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelrelatieklasse)
+- **Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/archief/Model Kern RSGB** — [structureel](#structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelarchiefmodel-kern-rsgb) · [beschrijvend](#beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelarchiefmodel-kern-rsgb)
 
+## Structurele wijzigingen
 
-## Summary
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel0-bestuur-politiek-en-ondersteuninggriffiemodel-griffie"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/0 Bestuur, Politiek en Ondersteuning/Griffie/Model Griffie
 
-- **Classes**: +2 / -6 / ~1
-- **Datatypes**: +0 / -0 / ~0
-- **Enumerations**: +165 / -114 / ~223
-- **Attributes**: +46 / -228 / ~419
-- **Literals**: +957 / -938
+#### Classes
 
-## Overview
+##### `Aanwezige Deelnemer` — 🟡 Attributen gewijzigd
 
-**Packages touched:** `Model Afval`, `Model Archeologie`, `Model BAG`, `Model Beheer Openbare Ruimte`, `Model Diensten`, `Model Dienstverlening`, `Model Generiek`, `Model HR`, `Model ICT`, `Model IMBOR`, `Model Inburgering`, `Model Inkomen`, `Model Inkomsten`, `Model Inkoop`, `Model Jeugd en Wmo Generiek`, `Model Jeugdbescherming`, `Model Kern RGBZ`, `Model Kern RSGB`, `Model Kern RSGB`, `Model Leerplicht en Leerlingenvervoer`, `Model Onderwijs`, `Model Parkeren`, `Model Schuldhulpverlening`, `Model Sociaal Domein Generiek`, `Model Sport`, `Model Terug- en invordering`, `Model VTH`, `Model Vastgoed`, `Model Vermogen`, `Model Vroegsignalering`, `Model Werk`, `Model Wonen`, `Referentielijsten`, `Complex datatype`, `Datatypes`, `Datatypes`, `Datatypes`, `Enumeratiesoort`, `Groepattribuutsoort`, `Groepattribuutsoort`
+**Attributen:**
 
+- 🟡 `aanvangAanwezigheid` — Gewijzigd
+    - **formele historie**: _(leeg)_ → `Nee`
 
-## Top-down changes
+#### Associaties
 
-## Package: Model Afval
+- 🟡 Gewijzigd: `Vergadering` → `Aanwezige Deelnemer`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `1`
+  - **dst mult. start**: _(leeg)_ → `0`
+  - **dst mult. end**: _(leeg)_ → `*`
 
-### Classes
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel1-veiligheid-en-vergunningenmodel-vth"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/1 Veiligheid en Vergunningen/Model VTH
 
-#### Locatie — **Unchanged**
+#### Classes
 
-##### Attributes
+##### `VOMAanvraagOfMelding` — 🟡 Attributen gewijzigd
 
-- locatiePunt — **Changed**
-  - **name**: `locatie` → `locatiePunt`
-  - **primitive**: `GML` → `Point`
+**Attributen:**
 
-#### Route — **Unchanged**
+- 🟡 `locatie` — Gewijzigd
+    - **primitieve type**: `GML` → `Point`
 
-##### Attributes
+##### `VTH-Melding` — 🟡 Attributen gewijzigd
 
-- geometrie — **Changed**
-  - **primitive**: `GML` → `Point`
+**Attributen:**
 
-_No datatype changes in this package._
+- 🟡 `locatie` — Gewijzigd
+    - **primitieve type**: `GML` → `Point`
 
-_No enumeration changes in this package._
+#### Associaties
 
-## Package: Model Archeologie
+- 🟡 Gewijzigd: `Bevinding` → `Bevinding`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `1`
+  - **dst mult. start**: _(leeg)_ → `0`
+  - **dst mult. end**: _(leeg)_ → `*`
 
-### Classes
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel2-verkeer-vervoer-en-waterstaatmobiliteitmodel-mobiliteit"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/2 Verkeer, Vervoer en Waterstaat/Mobiliteit/Model Mobiliteit
 
-#### Kaart — **Unchanged**
+#### Classes
 
-##### Attributes
+##### `Strooiroute` — 🟡 Attributen gewijzigd
 
-- content — **Changed**
-  - **name**: `kaart` → `content`
+**Attributen:**
 
-#### Project — **Unchanged**
+- 🟡 `route` — Gewijzigd
+    - **primitieve type**: `MultiCurve` → `GM_MultiCurve`
 
-##### Attributes
+##### `StrooirouteUitvoering` — 🟡 Attributen gewijzigd
 
-- coordinaten — **Changed**
-  - **primitive**: `GML` → `Point`
+**Attributen:**
 
-#### Vindplaats — **Unchanged**
+- 🟡 `route` — Gewijzigd
+    - **primitieve type**: `MultiCurve` → `GM_MultiCurve`
 
-##### Attributes
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel2-verkeer-vervoer-en-waterstaatparkerenmodel-parkeren"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/2 Verkeer, Vervoer en Waterstaat/Parkeren/Model Parkeren
 
-- locatie — **Changed**
-  - **primitive**: `GML` → `Point`
-- vindplaatsOmschrijving — **Changed**
-  - **name**: `vindplaats` → `vindplaatsOmschrijving`
+#### Classes
 
-#### locatie — **Unchanged**
+##### `Parkeerscan` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- locatiePunt — **Changed**
-  - **name**: `locatie` → `locatiePunt`
-  - **primitive**: `GML` → `Point`
+- 🟡 `coordinaten` — Gewijzigd
+    - **primitieve type**: `GML` → `Point`
 
-_No datatype changes in this package._
+##### `Parkeervlak` — 🟡 Attributen gewijzigd
 
-_No enumeration changes in this package._
+**Attributen:**
 
-## Package: Model BAG
+- 🟡 `coordinaten` — Gewijzigd
+    - **primitieve type**: `GML` → `Point`
 
-### Classes
+##### `Parkeerzone` — 🟡 Attributen gewijzigd
 
-#### BinnenlandsAdres — **Added**
+**Attributen:**
 
-##### Attributes
+- 🟡 `geometrie` — Gewijzigd
+    - **primitieve type**: `Multivlak` → `GM_MultiSurface`
 
-- BAGID — **Added**
-- gemeentenaam — **Added**
-- huisletter — **Added**
-- huisnummer — **Added**
-- huisnummertoevoeging — **Added**
-- postcode — **Added**
-- straatnaam — **Added**
+#### Associaties
 
-#### Nummeraanduiding — **Unchanged**
+- 🟡 Gewijzigd: `Parkeerscan` «verificatie» → `Parkeerrecht`
+  - **dst mult. start**: _(leeg)_ → `0`
+  - **dst mult. end**: _(leeg)_ → `1`
 
-##### Attributes
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel4-onderwijsonderwijsmodel-onderwijs"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/4 Onderwijs/Onderwijs/Model Onderwijs
 
-- postcode — **Changed**
-  - **primitive**: `char` → `AN6`
+#### Classes
 
-#### Pand — **Unchanged**
+##### `Onderwijssoort` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- oorspronkelijkBouwjaar — **Changed**
-  - **primitive**: `JAAR` → `N4`
+- 🟡 `onderwijstype` — Gewijzigd
+    - **formele historie**: _(leeg)_ → `Nee`
 
-_No datatype changes in this package._
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatieerfgoedarcheologiemodel-archeologie"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Erfgoed/Archeologie/Model Archeologie
 
-_No enumeration changes in this package._
+#### Classes
 
-## Package: Model Beheer Openbare Ruimte
+##### `Kaart` — 🟡 Attributen gewijzigd
 
-### Classes
+**Attributen:**
 
-#### Melding — **Unchanged**
+- 🟡 `content` — Gewijzigd
+    - **naam**: `kaart` → `content`
 
-##### Attributes
+##### `Project` — 🟡 Attributen gewijzigd
 
-- locatie — **Changed**
-  - **primitive**: `Locatie` → `Point`
+**Attributen:**
 
-_No datatype changes in this package._
+- 🟡 `coordinaten` — Gewijzigd
+    - **primitieve type**: `GML` → `Point`
 
-_No enumeration changes in this package._
+##### `Vindplaats` — 🟡 Attributen gewijzigd
 
-## Package: Model Diensten
+**Attributen:**
 
-### Classes
+- 🟡 `locatie` — Gewijzigd
+    - **primitieve type**: `GML` → `Point`
+- 🟡 `vindplaatsOmschrijving` — Gewijzigd
+    - **naam**: `vindplaats` → `vindplaatsOmschrijving`
 
-#### Periodiek dienst Bijz. bijstand — **Changed**
+##### `locatie` — 🟡 Attributen gewijzigd
 
-- **name**: `Periodiek dienst (Bijz. bijstand)` → `Periodiek dienst Bijz. bijstand`
+**Attributen:**
 
-_No datatype changes in this package._
+- 🟡 `locatiePunt` — Gewijzigd
+    - **naam**: `locatie` → `locatiePunt`
+    - **primitieve type**: `GML` → `GM_Point`
 
-_No enumeration changes in this package._
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatieerfgoedmonumentenmodel-monumenten"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Erfgoed/Monumenten/Model Monumenten
 
-## Package: Model Dienstverlening
+#### Associaties
 
-### Classes
+- 🟡 Gewijzigd: `Beschermde Status` «betreft» → `KadastraleOnroerendeZaak`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `1`
+  - **dst mult. start**: _(leeg)_ → `0`
+  - **dst mult. end**: _(leeg)_ → `*`
 
-#### AanvraagOfMelding — **Unchanged**
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatiemuseamodel-musea"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Musea/Model Musea
 
-##### Attributes
+#### Associaties
 
-- afgehandeld — **Changed**
-  - **enumeration_id**: `Enumeratie: Boolean` → `Enumeratie: Boolean`
+- 🟡 Gewijzigd: `Tentoonstelling` → `Zaal`
+  - **src mult. start**: _(leeg)_ → `0`
+  - **src mult. end**: _(leeg)_ → `*`
+  - **dst mult. start**: _(leeg)_ → `0`
+  - **dst mult. end**: _(leeg)_ → `*`
 
-_No datatype changes in this package._
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatiesportmodel-sport"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Sport/Model Sport
 
-### Enumerations
+#### Classes
 
-#### Boolean — **Added**
+##### `Aantal` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Ja` — **Added**
-- `Leeg` — **Added**
-- `Nee` — **Added**
-- `Onbekend` — **Added**
+- 🟡 `aantalMateriaal` — Gewijzigd
+    - **naam**: `aantal` → `aantalMateriaal`
 
-#### Boolean — **Removed**
+##### `Binnenlocatie` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Ja` — **Removed**
-- `Leeg` — **Removed**
-- `Nee` — **Removed**
-- `Onbekend` — **Removed**
+- 🟡 `locatie` — Gewijzigd
+    - **primitieve type**: `GML` → `Point`
 
-## Package: Model Generiek
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeingeneriek-jeugd-en-wmomodel-jeugd-en-wmo-generiek"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Generiek Jeugd en Wmo/Model Jeugd en Wmo Generiek
 
-### Classes
+#### Classes
 
-#### Foto — **Unchanged**
+##### `Beschikking` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- locatie — **Changed**
-  - **primitive**: `GML` → `Point`
+- 🟡 `wet` — Gewijzigd
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Generiek Jeugd en Wmo/Model Jeugd en Wmo Generiek::Wet`
 
-#### Gebied — **Unchanged**
+#### Associaties
 
-##### Attributes
+- 🟡 Gewijzigd: `AOM_AanvraagWmoJeugd` «heeft» → `Client`
+  - **src mult. start**: _(leeg)_ → `0`
+  - **src mult. end**: _(leeg)_ → `*`
+  - **dst mult. start**: _(leeg)_ → `1`
+  - **dst mult. end**: _(leeg)_ → `1`
+- 🟡 Gewijzigd: `AOMMeldingWmoJeugd` «heeft» → `Client`
+  - **src mult. start**: _(leeg)_ → `0`
+  - **src mult. end**: _(leeg)_ → `*`
+  - **dst mult. start**: _(leeg)_ → `1`
+  - **dst mult. end**: _(leeg)_ → `1`
+- 🟡 Gewijzigd: `Beschikking` «betreft» → `AOMMeldingWmoJeugd`
+  - **src mult. start**: _(leeg)_ → `0`
+  - **src mult. end**: _(leeg)_ → `*`
+  - **dst mult. start**: _(leeg)_ → `0`
+  - **dst mult. end**: _(leeg)_ → `*`
 
-- gebiedsAanduiding — **Changed**
-  - **name**: `gebied` → `gebiedsAanduiding`
-  - **primitive**: `Polygoon` → `MultiSurface`
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininburgeringmodel-inburgering"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inburgering/Model Inburgering
 
-#### Lijn — **Unchanged**
+#### Classes
 
-##### Attributes
+##### `KNM` — 🔴 Verwijderd
 
-- lijnLocatie — **Changed**
-  - **name**: `lijn` → `lijnLocatie`
+##### `Onderwijsroute` — 🔴 Verwijderd
 
-#### Punt — **Unchanged**
+##### `ParticipatieComponent` — 🔴 Verwijderd
 
-##### Attributes
+##### `Taalonderwijs deelname` — 🔴 Verwijderd
 
-- puntLocatie — **Changed**
-  - **name**: `punt` → `puntLocatie`
+##### `Verblijfplaats` — 🔴 Verwijderd
 
-_No datatype changes in this package._
+##### `Aandachtspunt` — 🟡 Attributen gewijzigd
 
-_No enumeration changes in this package._
+**Attributen:**
 
-## Package: Model HR
+- 🟡 `aandachtspuntOmschrijving` — Gewijzigd
+    - **naam**: `Aandachtspunt` → `aandachtspuntOmschrijving`
 
-### Classes
+##### `Brede Intake` — 🟡 Attributen gewijzigd
 
-#### Rol — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟢 `AantalUrenAlfabetiseringsOnderwijs` — Toegevoegd
+- 🟢 `DatumTot(Peildatum)` — Toegevoegd
+- 🟢 `einddatum` — Toegevoegd
+- 🟢 `GevolgdeUrenKNMenTaalles` — Toegevoegd
+- 🟢 `startdatum` — Toegevoegd
+- 🟢 `UrenGeoorloofdVerzuim` — Toegevoegd
+- 🟢 `UrenOngeoorloofdVerzuim` — Toegevoegd
 
-- omschrijving — **Changed**
-  - **name**: `rol` → `omschrijving`
+##### `Educatie` — 🟡 Attributen gewijzigd
 
-_No datatype changes in this package._
+**Attributen:**
 
-_No enumeration changes in this package._
+- 🟡 `EducatieLand` — Gewijzigd
+    - **primitieve type**: `Enum` → _(leeg)_
+    - **type (class)**: _(leeg)_ → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/Referentielijsten::Land`
 
-## Package: Model ICT
+##### `Examen` — 🟡 Attributen gewijzigd
 
-### Classes
+**Attributen:**
 
-#### Classificatie — **Unchanged**
+- 🟢 `ExamenResultaat` — Toegevoegd
 
-##### Attributes
+##### `Examenonderdeel` — 🟡 Attributen gewijzigd
 
-- bevatPersoonsgegevens — **Changed**
-  - **primitive**: `Persoonsgegevens` → `boolean`
-- gerelateerdPersoonsgegevens — **Changed**
-  - **primitive**: `Persoonsgegevens` → `AN200`
-- id — **Removed**
+**Attributen:**
 
-#### Database — **Unchanged**
+- 🟢 `BehaaldeScore` — Toegevoegd
+- 🟢 `DatumRegistratieUitslag` — Toegevoegd
+- 🟢 `ExamenOnderdeelSpecificatie` — Toegevoegd
+- 🟢 `Ontheffing` — Toegevoegd
+- 🟢 `RedenVrijstelling` — Toegevoegd
+- 🟢 `Resultaat` — Toegevoegd
 
-##### Attributes
+##### `Inburgeraar` — 🟡 Attributen gewijzigd
 
-- OTAP — **Changed**
-  - **primitive**: `` → `Boolean`
-- databaseInstantie — **Changed**
-  - **name**: `database` → `databaseInstantie`
+**Attributen:**
 
-_No datatype changes in this package._
+- 🟡 `Gedetailleerde Doelgroep` — Gewijzigd
+    - **enumeratie**: `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Generiek Jeugd en Wmo/Model Jeugd en Wmo Generiek::Doelgroep` → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inburgering/Model Inburgering::Doelgroep`
 
-_No enumeration changes in this package._
+##### `InburgeringsAanbod` — 🟡 Attributen gewijzigd
 
-## Package: Model IMBOR
+**Attributen:**
 
-### Classes
+- 🟡 `CursusInstelling` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `AN200`
+    - **type (class)**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inburgering/Model Inburgering::Onderwijsroute` → _(leeg)_
 
-#### Beheerobject — **Unchanged**
+##### `Inburgeringstraject` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- beheerobjectMemo — **Changed**
-  - **primitive**: `Memo` → `Tekst`
+- 🟢 `UItkomstLeerbaarheidstoets` — Toegevoegd
 
-#### Groenobject — **Unchanged**
+##### `Leerroute` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- opTalud — **Changed**
-  - **primitive**: `nee` → `Boolean`
+- 🟡 `geenLeerbaarheidstoetsZB` — Gewijzigd
+    - **naam**: `IndicatorLeerbaarheidstoetsOvergeslagenVanwegeZintuigelijkeBeperking` → `geenLeerbaarheidstoetsZB`
 
-#### Installatie — **Unchanged**
+##### `MAP` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- installateur — **Changed**
-  - **primitive**: `Installateur` → ``
+- 🟢 `DatumEindgesprekMAP` — Toegevoegd
+- 🟢 `IndicatorVerwijtbaar` — Toegevoegd
+- 🟢 `RedenNietSuccesvolVoltooid` — Toegevoegd
+- 🟢 `Resultaat` — Toegevoegd
 
-#### Leiding — **Unchanged**
+##### `Ontwikkelwens` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- verhoogdRisico — **Changed**
-  - **primitive**: `nee` → `Boolean`
+- 🟡 `ontwikkelwensOmschrijving` — Gewijzigd
+    - **naam**: `Ontwikkelwens` → `ontwikkelwensOmschrijving`
 
-#### Put — **Unchanged**
+##### `PIP` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- bovengrondsZichtbaar — **Changed**
-  - **primitive**: `nee` → `Boolean`
+- 🟢 `DagtekeningInitielePIP` — Toegevoegd
+- 🟢 `DagtekeningPIP` — Toegevoegd
+- 🟢 `EmailContactPersoon` — Toegevoegd
+- 🟢 `IndicatorMagOpleidingAfmaken` — Toegevoegd
+- 🟢 `NaamContactPersoon` — Toegevoegd
 
-#### Terreindeel — **Unchanged**
+##### `PVT` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- opTalud — **Changed**
-  - **primitive**: `nee` → `Boolean`
+- 🟢 `DatumOndertekening PVT` — Toegevoegd
+- 🟢 `RedenNietVoldaan` — Toegevoegd
+- 🟢 `Resultaat` — Toegevoegd
+- 🟢 `VerwijtbaarNietVoldaan` — Toegevoegd
 
-#### Verhardingsobject — **Unchanged**
+##### `Taalvaardigheid` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- opTalud — **Changed**
-  - **primitive**: `nee` → `Boolean`
+- 🟡 `TaalvaardigheidOverall` — Gewijzigd
+    - **naam**: `Taalvaardigheid` → `TaalvaardigheidOverall`
 
-_No datatype changes in this package._
+##### `Training` — 🟡 Attributen gewijzigd
 
-_No enumeration changes in this package._
+**Attributen:**
 
-## Package: Model Inburgering
+- 🟡 `TrainingGevolgd` — Gewijzigd
+    - **naam**: `Training` → `TrainingGevolgd`
 
-### Classes
+##### `Verblijfplaats AZC` — 🟡 Attributen gewijzigd
 
-#### Aandachtspunt — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟢 `Huisnummer` — Toegevoegd
+- 🟢 `Plaats` — Toegevoegd
+- 🟢 `Straatnummer` — Toegevoegd
 
-- aandachtspuntOmschrijving — **Changed**
-  - **name**: `Aandachtspunt` → `aandachtspuntOmschrijving`
+##### `Verlengingsgrond` — 🟡 Attributen gewijzigd
 
-#### Asielstatushouder — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `Verlengingsgrondslag` — Gewijzigd
+    - **naam**: `Verlengingsgrond` → `Verlengingsgrondslag`
 
-- DigiD aangevraagd — **Changed**
-  - **enumeration_id**: `Enumeratie: Boolean` → `Enumeratie: Boolean`
-- Rijbewijs — **Changed**
-  - **enumeration_id**: `Enumeratie: Boolean` → `Enumeratie: Boolean`
+##### `Z-route` — 🟡 Attributen gewijzigd
 
-#### Brede Intake — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟢 `AantalGratisExamenpogingenTegoed` — Toegevoegd
+- 🟢 `ExamenDatum` — Toegevoegd
+- 🟢 `GevolgdeUrenParticipatieActiviteiten` — Toegevoegd
+- 🟢 `Niveau` — Toegevoegd
+- 🟢 `Onderdeel` — Toegevoegd
+- 🟢 `RedenGeenResultaat` — Toegevoegd
+- 🟢 `Resultaat` — Toegevoegd
 
-- AantalUrenAlfabetiseringsOnderwijs — **Added**
-- DatumTot(Peildatum) — **Added**
-- GevolgdeUrenKNMenTaalles — **Added**
-- UrenGeoorloofdVerzuim — **Added**
-- UrenOngeoorloofdVerzuim — **Added**
-- einddatum — **Added**
-- startdatum — **Added**
+#### Enumeraties
 
-#### Educatie — **Unchanged**
+##### `Doelgroep` — 🟢 Toegevoegd
 
-##### Attributes
+**Literals:**
 
-- EducatieLand — **Changed**
-  - **primitive**: `Enum` → `Land`
-  - **type_class_id**: `` → `Objecttype: Land`
-- Opleiding — **Changed**
-  - **enumeration_id**: `Enumeratie: CodeNiveauOpleiding` → `Enumeratie: CodeNiveauOpleiding`
+- 🟢 `Arbeidsmigranten met vestigingsintentie` — Toegevoegd
+- 🟢 `EU-burgers` — Toegevoegd
+- 🟢 `Expats en kennismigranten` — Toegevoegd
+- 🟢 `Gezinsmigranten` — Toegevoegd
+- 🟢 `Internationale studenten (blijvers)` — Toegevoegd
+- 🟢 `Kwetsbare nieuwkomers` — Toegevoegd
+- 🟢 `Nieuwkomers` — Toegevoegd
+- 🟢 `Oudkomers` — Toegevoegd
 
-#### Examen — **Unchanged**
+#### Associaties
 
-##### Attributes
+- 🟢 Toegevoegd: `Z-route` «heeft (onderdeel van)» → `Leerroute`
+- 🔴 Verwijderd: `Inburgeraar` → `Taalonderwijs deelname`
+- 🔴 Verwijderd: `KNM` «Onderdeel van» → `Leerroute`
+- 🔴 Verwijderd: `ParticipatieComponent` «Activiteit van» → `Z-route`
+- 🟡 Gewijzigd: `Aanvraag verlenging Inburgeringstermijn` → `Verlengingsgrond`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `1`
+  - **dst mult. start**: _(leeg)_ → `1`
+  - **dst mult. end**: _(leeg)_ → `*`
+- 🟡 Gewijzigd: `Brede Intake` «onderdeel van» → `Inburgeringstraject`
+  - **src mult. start**: `0` → `1`
+- 🟡 Gewijzigd: `Inburgeraar` «heeft» → `Aandachtspunt `
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `1`
+- 🟡 Gewijzigd: `Inburgeraar` «heeft» → `Aanvraag verlenging Inburgeringstermijn`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `1`
+  - **dst mult. start**: _(leeg)_ → `0`
+  - **dst mult. end**: _(leeg)_ → `1`
+- 🟡 Gewijzigd: `Inburgeraar` «heeft» → `Hoofddoel`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `1`
+- 🟡 Gewijzigd: `Inburgeraar` «heeft» → `Ontwikkelwens `
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `1`
+- 🟡 Gewijzigd: `Inburgeringsplicht` «heeft» → `Inburgeringstermijn`
+  - **naam**: _(leeg)_ → `heeft`
+- 🟡 Gewijzigd: `Ontheffing` «ontheffing voor» → `Examenonderdeel`
+  - **dst mult. start**: _(leeg)_ → `0`
+  - **dst mult. end**: _(leeg)_ → `*`
+- 🟡 Gewijzigd: `Voorbereiding op Inburgering` «bestaat uit» → `Introductiemodule`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `1`
+  - **dst mult. start**: _(leeg)_ → `1`
+  - **dst mult. end**: _(leeg)_ → `*`
 
-- ExamenResultaat — **Added**
+#### Generalisaties
 
-#### Examenonderdeel — **Unchanged**
+- 🔴 Verwijderd: `Onderwijsroute` ⟶ `Leerroute`
+- 🔴 Verwijderd: `Z-route` ⟶ `Leerroute`
 
-##### Attributes
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomendienstenmodel-diensten"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Diensten/Model Diensten
 
-- BehaaldeScore — **Added**
-- DatumRegistratieUitslag — **Added**
-- ExamenOnderdeelSpecificatie — **Added**
-- Ontheffing — **Added**
-- RedenVrijstelling — **Added**
-- Resultaat — **Added**
+#### Classes
 
-#### Inburgeraar — **Unchanged**
+##### `Betalingsblokkade` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Gedetailleerde Doelgroep — **Changed**
-  - **enumeration_id**: `Enumeratie: Doelgroep` → `Enumeratie: Doelgroep`
+- 🔴 `Betalingsblokkade.Id` — Verwijderd
 
-#### InburgeringsAanbod — **Unchanged**
+##### `Diensttype` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- CursusInstelling — **Changed**
-  - **primitive**: `Onderwijsroute` → `AN200`
-  - **type_class_id**: `Objecttype: Onderwijsroute` → ``
+- 🔴 `Diensttype.Id` — Verwijderd
+- 🟡 `minBetrouwbaarheidsniveau` — Gewijzigd
+    - **naam**: `Minimaal vereist betrouwbaarheidsniveau eDienstverlening` → `minBetrouwbaarheidsniveau`
 
-#### Inburgeringstraject — **Unchanged**
+##### `Leveringscomponent` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- UItkomstLeerbaarheidstoets — **Added**
+- 🔴 `Leveringscomponent.Id` — Verwijderd
+- 🟡 `Bedrag` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `bedrag`
+- 🟡 `Einddatum` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `bedrag`
+- 🟡 `Omschrijving afwijking` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `bedrag`
+- 🟡 `Percentage` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `bedrag`
+- 🟡 `Periode startdatum` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `bedrag`
+- 🟡 `Soort` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `bedrag`
 
-#### KNM — **Removed**
+##### `Leveringscomponenttype` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
+- 🔴 `Leveringscomponenttype.Id` — Verwijderd
 
-#### Leerroute — **Unchanged**
+##### `Leveringsopdracht` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- geenLeerbaarheidstoetsZB — **Changed**
-  - **name**: `IndicatorLeerbaarheidstoetsOvergeslagenVanwegeZintuigelijkeBeperking` → `geenLeerbaarheidstoetsZB`
+- 🔴 `Leveringsopdracht.Id` — Verwijderd
+- 🟡 `Leveringskanaal` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `AN200`
+    - **enumeratie**: `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Terug- en invordering/Datatypes::DefaultEnumeratie` → _(leeg)_
 
-#### MAP — **Unchanged**
+##### `Leveringsspecificatie` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- DatumEindgesprekMAP — **Added**
-- IndicatorVerwijtbaar — **Added**
-- RedenNietSuccesvolVoltooid — **Added**
-- Resultaat — **Added**
+- 🔴 `Leveringsspecificatie.Id` — Verwijderd
 
-#### Onderwijsroute — **Removed**
+##### `Periodiek dienst Bijz. bijstand` — 🟡 Attributen gewijzigd
 
-#### Ontwikkelwens — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🔴 `PeriodiekDienstBijzBijstand.Id` — Verwijderd
 
-- ontwikkelwensOmschrijving — **Changed**
-  - **name**: `Ontwikkelwens` → `ontwikkelwensOmschrijving`
+##### `Referteperiode` — 🟡 Attributen gewijzigd
 
-#### PIP — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🔴 `Referteperiode.Id` — Verwijderd
 
-- DagtekeningInitielePIP — **Added**
-- DagtekeningPIP — **Added**
-- EmailContactPersoon — **Added**
-- IndicatorMagOpleidingAfmaken — **Added**
-- NaamContactPersoon — **Added**
+##### `Regeling` — 🟡 Attributen gewijzigd
 
-#### PVT — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🔴 `Regeling.Id` — Verwijderd
 
-- DatumOndertekening PVT — **Added**
-- RedenNietVoldaan — **Added**
-- Resultaat — **Added**
-- VerwijtbaarNietVoldaan — **Added**
+##### `Verstrekkingsvorm` — 🟡 Attributen gewijzigd
 
-#### ParticipatieComponent — **Removed**
+**Attributen:**
 
-##### Attributes
+- 🔴 `Verstrekkingsvorm.Id` — Verwijderd
 
+##### `Voorwaarde` — 🟡 Attributen gewijzigd
 
-#### Taalonderwijs deelname — **Removed**
+**Attributen:**
 
-#### Taalvaardigheid — **Unchanged**
+- 🔴 `VoorwaardeId` — Verwijderd
+- 🟡 `Verantwoording vaststelling` — Gewijzigd
+    - **primitieve type**: `Brontype` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Terug- en invordering/Datatypes::Brontype`
 
-##### Attributes
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomenmodel-inkomen"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Model Inkomen
 
-- TaalvaardigheidOverall — **Changed**
-  - **name**: `Taalvaardigheid` → `TaalvaardigheidOverall`
+#### Classes
 
-#### Training — **Unchanged**
+##### `Component` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- TrainingGevolgd — **Changed**
-  - **name**: `Training` → `TrainingGevolgd`
+- 🟡 `debetCredit` — Gewijzigd
+    - **lengte**: `50` → `50.0`
+- 🟡 `groep` — Gewijzigd
+    - **lengte**: `50` → `50.0`
+- 🟡 `groepcode` — Gewijzigd
+    - **lengte**: `20` → `20.0`
+- 🟡 `grootboekcode` — Gewijzigd
+    - **lengte**: `50` → `50.0`
+- 🟡 `grootboekomschrijving` — Gewijzigd
+    - **lengte**: `100` → `100.0`
+- 🟡 `kostenplaats` — Gewijzigd
+    - **lengte**: `50` → `50.0`
+- 🟡 `omschrijving` — Gewijzigd
+    - **lengte**: `100` → `100.0`
+- 🟡 `rekeningNummer` — Gewijzigd
+    - **lengte**: `50` → `50.0`
+- 🟡 `toelichting` — Gewijzigd
+    - **lengte**: `50` → `50.0`
 
-#### Verblijfplaats — **Removed**
+##### `ComponentSoort` — 🟡 Attributen gewijzigd
 
-#### Verblijfplaats AZC — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `componentcode` — Gewijzigd
+    - **lengte**: `50` → `50.0`
+- 🟡 `kolom` — Gewijzigd
+    - **lengte**: `50` → `50.0`
+- 🟡 `kolomcode` — Gewijzigd
+    - **lengte**: `50` → `50.0`
+- 🟡 `regeling` — Gewijzigd
+    - **lengte**: `100` → `100.0`
+- 🟡 `regelingcode` — Gewijzigd
+    - **lengte**: `50` → `50.0`
 
-- Huisnummer — **Added**
-- Plaats — **Added**
-- Straatnummer — **Added**
+##### `Huisvestingsoort` — 🟡 Attributen gewijzigd
 
-#### Verlengingsgrond — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `soorthuisvestingCode` — Gewijzigd
+    - **lengte**: `4` → `4.0`
 
-- Verlengingsgrondslag — **Changed**
-  - **name**: `Verlengingsgrond` → `Verlengingsgrondslag`
+##### `Inkomensvoorziening` — 🟡 Attributen gewijzigd
 
-#### Z-route — **Removed**
+**Attributen:**
 
-#### Z-route — **Added**
+- 🟡 `betalingsmomentcode` — Gewijzigd
+    - **lengte**: `4` → `4.0`
+- 🟡 `code` — Gewijzigd
+    - **lengte**: `4` → `4.0`
+- 🟡 `groep` — Gewijzigd
+    - **lengte**: `100` → `100.0`
+- 🟡 `versterkkingsvorm` — Gewijzigd
+    - **lengte**: `200` → `200.0`
 
-##### Attributes
+##### `Inkomensvoorzieningsoort` — 🟡 Attributen gewijzigd
 
-- AantalGratisExamenpogingenTegoed — **Added**
-- ExamenDatum — **Added**
-- GevolgdeUrenParticipatieActiviteiten — **Added**
-- Niveau — **Added**
-- Onderdeel — **Added**
-- RedenGeenResultaat — **Added**
-- Resultaat — **Added**
+**Attributen:**
 
-_No datatype changes in this package._
+- 🟡 `code` — Gewijzigd
+    - **lengte**: `20` → `20.0`
+- 🟡 `naam` — Gewijzigd
+    - **lengte**: `80` → `80.0`
+- 🟡 `regeling` — Gewijzigd
+    - **lengte**: `200` → `200.0`
+- 🟡 `regelingscode` — Gewijzigd
+    - **lengte**: `20` → `20.0`
+- 🟡 `vergoeding` — Gewijzigd
+    - **lengte**: `200` → `200.0`
+- 🟡 `vergoedingscode` — Gewijzigd
+    - **lengte**: `20` → `20.0`
 
-### Enumerations
+##### `RedenBlokkering` — 🟡 Attributen gewijzigd
 
-#### Boolean — **Removed**
+**Attributen:**
 
-##### Literals
+- 🟡 `redenBlokkeringCode` — Gewijzigd
+    - **lengte**: `4` → `4.0`
 
-- `Ja` — **Removed**
-- `Leeg` — **Removed**
-- `Nee` — **Removed**
-- `Onbekend` — **Removed**
+##### `RedenInstroom` — 🟡 Attributen gewijzigd
 
-#### Boolean — **Removed**
+**Attributen:**
 
-##### Literals
+- 🟡 `CBS-code` — Gewijzigd
+    - **lengte**: `4` → `4.0`
+- 🟡 `redenInstroomCode` — Gewijzigd
+    - **lengte**: `4` → `4.0`
 
-- `Ja` — **Removed**
-- `Leeg` — **Removed**
-- `Nee` — **Removed**
-- `Onbekend` — **Removed**
+##### `RedenUitstroom` — 🟡 Attributen gewijzigd
 
-#### Boolean — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `CBS-code` — Gewijzigd
+    - **lengte**: `4` → `4.0`
+- 🟡 `redenUitstroomCode` — Gewijzigd
+    - **lengte**: `4` → `4.0`
 
-- `Ja` — **Added**
-- `Leeg` — **Added**
-- `Nee` — **Added**
-- `Onbekend` — **Added**
+##### `Regelingsoort` — 🟡 Attributen gewijzigd
 
-#### Boolean — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `naam` — Gewijzigd
+    - **lengte**: `80` → `80.0`
 
-- `Ja` — **Added**
-- `Leeg` — **Added**
-- `Nee` — **Added**
-- `Onbekend` — **Added**
+##### `UitkeringsRun` — 🟡 Attributen gewijzigd
 
-#### CodeNiveauOpleiding — **Removed**
+**Attributen:**
 
-##### Literals
+- 🟡 `frequentie` — Gewijzigd
+    - **lengte**: `20` → `20.0`
+- 🟡 `periodeRun` — Gewijzigd
+    - **lengte**: `20` → `20.0`
+- 🟡 `soortRun` — Gewijzigd
+    - **lengte**: `50` → `50.0`
 
-- `Basisonderwijs` — **Removed**
-- `HAVO / VWO` — **Removed**
-- `HBO / Bachelor` — **Removed**
-- `MBO` — **Removed**
-- `VMBO / MBO-1` — **Removed**
-- `WO / Master` — **Removed**
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomennormafwijkingmodel-normafwijking"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Normafwijking/Model Normafwijking
 
-#### CodeNiveauOpleiding — **Added**
+#### Classes
 
-##### Literals
+##### `Afwijkende maatregel` — 🟡 Attributen gewijzigd
 
-- `Basisonderwijs` — **Added**
-- `HAVO / VWO` — **Added**
-- `HBO / Bachelor` — **Added**
-- `MBO` — **Added**
-- `VMBO / MBO-1` — **Added**
-- `WO / Master` — **Added**
+**Attributen:**
 
-#### Doelgroep — **Removed**
+- 🟡 `Bedrag` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Bedrag`
+- 🟡 `Code reden afwijking maatregel` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Bedrag`
+- 🟡 `Motivatie afwijking maatregel` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Bedrag`
+- 🟡 `Percentage` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Bedrag`
 
-##### Literals
+##### `Boete` — 🟡 Attributen gewijzigd
 
-- `Asielstatushouder` — **Removed**
-- `Geestelijk bedienaar` — **Removed**
-- `Gezinshereniger` — **Removed**
-- `Gezinshereniger met Asielstatushouder` — **Removed**
-- `Gezinsvormer` — **Removed**
-- `Gezinsvormer met Asielstatushouder` — **Removed**
-- `Overig` — **Removed**
+**Attributen:**
 
-#### Doelgroep — **Added**
+- 🟡 `Bedrag boete` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Bedrag`
+- 🟡 `Boetevorm` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Bedrag`
+- 🟡 `Reden boete` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Bedrag`
+- 🟡 `Voorwaarde boete` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Bedrag`
 
-##### Literals
+##### `Maatregel` — 🟡 Attributen gewijzigd
 
-- `Arbeidsmigranten met vestigingsintentie` — **Added**
-- `EU-burgers` — **Added**
-- `Expats en kennismigranten` — **Added**
-- `Gezinsmigranten` — **Added**
-- `Internationale studenten (blijvers)` — **Added**
-- `Kwetsbare nieuwkomers` — **Added**
-- `Nieuwkomers` — **Added**
-- `Oudkomers` — **Added**
+**Attributen:**
 
-## Package: Model Inkomen
+- 🟡 `identificatie` — Gewijzigd
+    - **naam**: `Maatregel ID` → `identificatie`
 
-### Classes
+##### `Normafwijking` — 🟡 Attributen gewijzigd
 
-#### Inkomensvoorzieningsoort — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `identificatie` — Gewijzigd
+    - **naam**: `Normafwijking ID` → `identificatie`
 
-- wet — **Changed**
-  - **enumeration_id**: `Enumeratie: Wet` → `Enumeratie: Wet`
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomenreden-aanvraagdatatypes"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Datatypes
 
-_No datatype changes in this package._
+#### Datatypes
 
-### Enumerations
+##### `CdRedenAanvraagANWaangevraagd` — 🟡 Attributen gewijzigd
 
-#### Wet — **Removed**
+**Attributen:**
 
-##### Literals
+- 🔴 `Ja, deze is afgewezen` — Verwijderd
+- 🔴 `Ja, deze is toegekend` — Verwijderd
+- 🔴 `Ja, ik wacht nog op een besluit` — Verwijderd
+- 🔴 `Nee` — Verwijderd
 
-- `Andere wet` — **Removed**
-- `Bijzondere Bijstand` — **Removed**
-- `I.O.A.W./I.O.A.Z.` — **Removed**
-- `Jeugdwet` — **Removed**
-- `Leeg` — **Removed**
-- `Niet van toepassing` — **Removed**
-- `Onbekend` — **Removed**
-- `Participatiewet PW-I` — **Removed**
-- `Wmo` — **Removed**
+##### `CdRedenAanvraagANWafgewezenReden` — 🟡 Attributen gewijzigd
 
-#### Wet — **Added**
+**Attributen:**
 
-##### Literals
+- 🔴 `Ik ben minder dan 45% arbeidsongeschikt` — Verwijderd
+- 🔴 `Ik heb geen minderjarige kinderen` — Verwijderd
 
-- `Andere wet` — **Added**
-- `Bijzondere Bijstand` — **Added**
-- `I.O.A.W./I.O.A.Z.` — **Added**
-- `Jeugdwet` — **Added**
-- `Leeg` — **Added**
-- `Niet van toepassing` — **Added**
-- `Onbekend` — **Added**
-- `Participatiewet PW-I` — **Added**
-- `Wmo` — **Added**
+##### `CdRedenAanvraagContractperiode` — 🟡 Attributen gewijzigd
 
-## Package: Model Inkomsten
+**Attributen:**
 
-### Classes
+- 🔴 `Ik had een contract van 6 maanden of langer` — Verwijderd
+- 🔴 `Ik had een contract van minder dan 6 maanden` — Verwijderd
 
-#### Alimentatie — **Unchanged**
+##### `CdRedenAanvraagEindeBijstand` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Alimentatie.Id — **Removed**
-- Bedrag aan andere rekeningen — **Changed**
-  - **primitive**: `Geldbedrag` → `Bedrag`
-- Bedrag in convenant — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- BijdrageExPartnerAndereRekeningen — **Changed**
-  - **name**: `Bijdrage ex partner voor andere rekeningen` → `BijdrageExPartnerAndereRekeningen`
-  - **primitive**: `StdIndJN` → `Boolean`
-- Inkomstensoort alimentatie — **Changed**
-  - **enumeration_id**: `` → `Enumeratie: InkomstensoortAlimentatie`
-  - **type_class_id**: `Objecttype: EAID_07E4E120_7D9E_3C43_1D1F_26EBD1635427` → ``
-- Juiste bedrag betaald door ex partner — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- LBIO ingeschakeld — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
+- 🔴 `Aangaan relatie met nieuwe partner` — Verwijderd
+- 🔴 `Andere reden` — Verwijderd
+- 🔴 `Verhuizing vanuit andere gemeente` — Verwijderd
 
-#### Ander inkomen — **Unchanged**
+##### `CdRedenAanvraagEindeEigenBedrijf` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- AnderInkomen.Id — **Removed**
+- 🔴 `Andere reden` — Verwijderd
+- 🔴 `Bedrijf verkocht` — Verwijderd
+- 🔴 `Faillissement` — Verwijderd
+- 🔴 `Financiële redenen` — Verwijderd
+- 🔴 `Sluiting opgelegd door de gemeente` — Verwijderd
+- 🔴 `Zelf gestopt` — Verwijderd
 
-#### Betaald werk — **Unchanged**
+##### `CdRedenAanvraagEindeUitkering` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Arbeidscontract — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- BetaaldWerk.Id — **Removed**
-- Inkomsten uit IKB-regeling — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- Inkomstensoort betaald werk — **Changed**
-  - **enumeration_id**: `` → `Enumeratie: InkomstensoortBetaaldWerk`
-  - **type_class_id**: `Objecttype: EAID_24104FB5_2F1C_EFBF_8AC3_26EBD163D2F4` → ``
-- Loondienst — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- Periodiciteit uitbetaling loon — **Changed**
-  - **enumeration_id**: `` → `Enumeratie: CdUitkeringsperiode`
-  - **type_class_id**: `Objecttype: EAID_1FA03C02_F7CE_31C4_506D_273ED24EBECD` → ``
-- Soort contract — **Changed**
-  - **enumeration_id**: `` → `Enumeratie: SoortContract`
-  - **type_class_id**: `Objecttype: EAID_0C0AD449_ECBB_8C03_B698_26EBD163CD95` → ``
+- 🔴 `Andere uitkering` — Verwijderd
+- 🔴 `Wao/Wia` — Verwijderd
+- 🔴 `Wga` — Verwijderd
+- 🔴 `WW` — Verwijderd
+- 🔴 `Ziektewet` — Verwijderd
 
-#### Dertiende maand - eindejaarsuitkering — **Unchanged**
+##### `CdRedenAanvraagEindeUitkeringReden` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- DertiendeMaandEindejaarsuitkering.Id — **Removed**
+- 🔴 `Andere reden` — Verwijderd
+- 🔴 `Arbeidsgeschikt verklaard` — Verwijderd
+- 🔴 `Gedeeltelijk arbeidsgeschikt verklaard` — Verwijderd
+- 🔴 `Maximale duur uitkering bereikt` — Verwijderd
+- 🔴 `Opgelegde maatregel` — Verwijderd
 
-#### Draagkracht — **Unchanged**
+##### `CdRedenAanvraagEindeWerk` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Draagkracht.Id — **Removed**
+- 🔴 `Andere reden` — Verwijderd
+- 🔴 `Faillissement bedrijf` — Verwijderd
+- 🔴 `Ontslagen` — Verwijderd
+- 🔴 `Ontslagen bij een reorganisatie` — Verwijderd
+- 🔴 `Tijdelijk contract is afgelopen` — Verwijderd
+- 🔴 `Zelf ontslag genomen` — Verwijderd
+- 🔴 `Ziekte` — Verwijderd
 
-#### Draagkrachtregime — **Unchanged**
+##### `CdRedenAanvraagOnvoldoendeInkomen` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Draagkrachtregime.Id — **Removed**
-- Initiele draagkracht — **Changed**
-  - **primitive**: `Geldbedrag` → `Bedrag`
-- Resterende draagkracht — **Changed**
-  - **primitive**: `Geldbedrag` → `Bedrag`
+- 🔴 `Ik heb geen werk meer` — Verwijderd
+- 🔴 `Ik heb wel inkomsten, maar die zijn te laag` — Verwijderd
+- 🔴 `In staking bij werkgever of als groep uitgesloten voor werk` — Verwijderd
+- 🔴 `Mijn alimentatie is gestopt` — Verwijderd
+- 🔴 `Mijn bijstandsuitkering is stopgezet` — Verwijderd
+- 🔴 `Mijn eerdere bijstandsaanvraag is afgewezen of niet in behandeling genomen` — Verwijderd
+- 🔴 `Mijn studiefinanciering is gestopt` — Verwijderd
+- 🔴 `Mijn uitkering (geen bijstandsuitkering) is stopgezet` — Verwijderd
+- 🔴 `Van spaargeld geleefd` — Verwijderd
 
-#### Eigen bedrijf — **Unchanged**
+##### `CdRedenAanvraagVerblijfstatus` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- EigenBedrijf.Id — **Removed**
-- Ingeschreven bij KvK — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- Recht op zelfstandigenaftrek — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- Toestemming gemeente parttime ondernemen — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
+- 🔴 `Ik heb een verblijfsvergunning gekregen` — Verwijderd
+- 🔴 `Ik heb een verblijfsvergunning gekregen en vertrek uit een asielzoekerscentrum` — Verwijderd
 
-#### Heffingskorting — **Unchanged**
+##### `CdRedenAanvraagWWgevraagd` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Algemene heffingskorting — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- Heffingskorting.Id — **Removed**
-- Inkomensafhankelijke combinatiekorting — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
+- 🔴 `Ja, ik ontvang nu een WW-uitkering` — Verwijderd
+- 🔴 `Ja, ik wacht nog op antwoord` — Verwijderd
+- 🔴 `Ja, maar mijn WW-aanvraag is afgewezen` — Verwijderd
+- 🔴 `Nee, ik heb geen WW-uitkering aangevraagd` — Verwijderd
 
-#### Hobby — **Unchanged**
+##### `CdRedenAanvraagWijzigingGezin` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Hobby.Id — **Removed**
+- 🔴 `Ik had een eigen uitkering, maar doe nu een nieuwe aanvraag samen met mijn partner` — Verwijderd
+- 🔴 `Mijn partner is overleden` — Verwijderd
+- 🔴 `Mijn relatie is verbroken` — Verwijderd
 
-#### Inkomstencomponent — **Unchanged**
+##### `CdRedenAanvraagWwafgewezen` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Bijgevoegd bewijs — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- Bruto-Netto — **Changed**
-  - **enumeration_id**: `` → `Enumeratie: BrutoNettoInkomsten`
-  - **type_class_id**: `Objecttype: EAID_189703AD_5462_E8C7_C523_293A5A46936C` → ``
-- Inkomsten — **Changed**
-  - **primitive**: `Geldbedrag` → `Bedrag`
-- Inkomstencomponent.Id — **Removed**
-- Inkomstencomponenttype — **Changed**
-  - **enumeration_id**: `` → `Enumeratie: Inkomstencomponenttype`
-  - **type_class_id**: `Objecttype: EAID_e92e0ca6_9e22_40f9_a1af_d8a44889963b` → ``
+- 🔴 `Ik ben door eigen schuld ontslagen of heb zelf ontslag genomen` — Verwijderd
+- 🔴 `Ik ben minder dan 5 uren per week achteruit gegaan in uren` — Verwijderd
+- 🔴 `Ik ben niet voldoende beschikbaar voor werk` — Verwijderd
+- 🔴 `Ik heb in de periode ervoor onvoldoende gewerkt (wekeneis)` — Verwijderd
 
-#### Inkomstenverhouding — **Unchanged**
+##### `CdRedenAanvraagZelfstandige` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Categorie Inkomsten — **Changed**
-  - **enumeration_id**: `` → `Enumeratie: CdSrtInkomstenverhouding`
-  - **type_class_id**: `Objecttype: EAID_1CFCC259_4648_55CC_95EC_273ED24D398A` → ``
-- Inkomstenverhouding.Id — **Removed**
+- 🔴 `Ik ben gestopt met mijn eigen bedrijf` — Verwijderd
+- 🔴 `Ik heb een eigen bedrijf, maar onvoldoende inkomen` — Verwijderd
 
-#### Inkomstenvermindering — **Unchanged**
+##### `CodeRedenAfwijkendeStartdatum` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Inkomstenvermindering.Id — **Removed**
+- 🔴 `Andere reden afwijkende startdatum` — Verwijderd
+- 🔴 `Opname instelling` — Verwijderd
+- 🔴 `Wachten beslissing instantie` — Verwijderd
+- 🔴 `Wachten DigiD` — Verwijderd
 
-#### Kostencomponent — **Unchanged**
+##### `RedenKwijtscheldingVordering` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Bedrag — **Changed**
-  - **primitive**: `Geldbedrag` → `Bedrag`
-- Kostencomponent.Id — **Removed**
+- 🔴 `Ambtshalve` — Verwijderd
+- 🔴 `Beleid - Nette betaling gedurende afgesproken periode` — Verwijderd
+- 🔴 `Beleid - Overig` — Verwijderd
+- 🔴 `Externe reden (schuldsanering)` — Verwijderd
 
-#### Loonbeslag — **Unchanged**
+#### Enumeraties
 
-##### Attributes
+##### `CdRedenAanvraagANWaangevraagd` — 🟢 Toegevoegd
 
-- Loonbeslag.Id — **Removed**
+**Literals:**
 
-#### Maaltijdvergoeding — **Unchanged**
+- 🟢 `Ja, deze is afgewezen` — Toegevoegd
+- 🟢 `Ja, deze is toegekend` — Toegevoegd
+- 🟢 `Ja, ik wacht nog op een besluit` — Toegevoegd
+- 🟢 `Nee` — Toegevoegd
 
-##### Attributes
+##### `CdRedenAanvraagANWafgewezenReden` — 🟢 Toegevoegd
 
-- Maaltijdvergoeding.Id — **Removed**
+**Literals:**
 
-#### Onderhoudsplicht — **Unchanged**
+- 🟢 `Ik ben minder dan 45% arbeidsongeschikt` — Toegevoegd
+- 🟢 `Ik heb geen minderjarige kinderen` — Toegevoegd
 
-##### Attributes
+##### `CdRedenAanvraagContractperiode` — 🟢 Toegevoegd
 
-- Bijdrage — **Changed**
-  - **primitive**: `Geldbedrag` → `Bedrag`
-- Onderhoudsplicht.Id — **Removed**
-- Onderhoudsplichttype — **Changed**
-  - **enumeration_id**: `` → `Enumeratie: Onderhoudsplichttype`
-  - **type_class_id**: `Objecttype: EAID_b4380c62_69ef_4b52_8585_5cccdc9c5d72` → ``
+**Literals:**
 
-#### Onderhoudsverhouding — **Unchanged**
+- 🟢 `Ik had een contract van 6 maanden of langer` — Toegevoegd
+- 🟢 `Ik had een contract van minder dan 6 maanden` — Toegevoegd
 
-##### Attributes
+##### `CdRedenAanvraagEindeBijstand` — 🟢 Toegevoegd
 
-- Onderhoudsverhouding.Id — **Removed**
+**Literals:**
 
-#### Onkostenvergoeding — **Unchanged**
+- 🟢 `Aangaan relatie met nieuwe partner` — Toegevoegd
+- 🟢 `Andere reden` — Toegevoegd
+- 🟢 `Verhuizing vanuit andere gemeente` — Toegevoegd
 
-##### Attributes
+##### `CdRedenAanvraagEindeEigenBedrijf` — 🟢 Toegevoegd
 
-- Onkostenvergoeding.Id — **Removed**
+**Literals:**
 
-#### Pensioen — **Unchanged**
+- 🟢 `Andere reden` — Toegevoegd
+- 🟢 `Bedrijf verkocht` — Toegevoegd
+- 🟢 `Faillissement` — Toegevoegd
+- 🟢 `Financiële redenen` — Toegevoegd
+- 🟢 `Sluiting opgelegd door de gemeente` — Toegevoegd
+- 🟢 `Zelf gestopt` — Toegevoegd
 
-##### Attributes
+##### `CdRedenAanvraagEindeUitkering` — 🟢 Toegevoegd
 
-- Beslag op pensioen — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- Inkomstensoort pensioen — **Changed**
-  - **enumeration_id**: `` → `Enumeratie: InkomstensoortPensioen`
-  - **type_class_id**: `Objecttype: EAID_10635E76_7AF2_1575_DDF8_26EBD163EC4C` → ``
-- Loonheffingskorting — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- Pensioen.Id — **Removed**
-- Periodiciteit uitbetaling pensioen — **Changed**
-  - **enumeration_id**: `` → `Enumeratie: CdUitkeringsperiode`
-  - **type_class_id**: `Objecttype: EAID_1FA03C02_F7CE_31C4_506D_273ED24EBECD` → ``
+**Literals:**
 
-#### Primair inkomstencomponent — **Unchanged**
+- 🟢 `Andere uitkering` — Toegevoegd
+- 🟢 `WW` — Toegevoegd
+- 🟢 `Wao/Wia` — Toegevoegd
+- 🟢 `Wga` — Toegevoegd
+- 🟢 `Ziektewet` — Toegevoegd
 
-##### Attributes
+##### `CdRedenAanvraagEindeUitkeringReden` — 🟢 Toegevoegd
 
-- PrimairInkomstencomponent.Id — **Removed**
+**Literals:**
 
-#### Reiskostenvergoeding — **Unchanged**
+- 🟢 `Andere reden` — Toegevoegd
+- 🟢 `Arbeidsgeschikt verklaard` — Toegevoegd
+- 🟢 `Gedeeltelijk arbeidsgeschikt verklaard` — Toegevoegd
+- 🟢 `Maximale duur uitkering bereikt` — Toegevoegd
+- 🟢 `Opgelegde maatregel` — Toegevoegd
 
-##### Attributes
+##### `CdRedenAanvraagEindeWerk` — 🟢 Toegevoegd
 
-- Reiskostenvergoeding.Id — **Removed**
+**Literals:**
 
-#### Secundair inkomstencomponent — **Unchanged**
+- 🟢 `Andere reden` — Toegevoegd
+- 🟢 `Faillissement bedrijf` — Toegevoegd
+- 🟢 `Ontslagen` — Toegevoegd
+- 🟢 `Ontslagen bij een reorganisatie` — Toegevoegd
+- 🟢 `Tijdelijk contract is afgelopen` — Toegevoegd
+- 🟢 `Zelf ontslag genomen` — Toegevoegd
+- 🟢 `Ziekte` — Toegevoegd
 
-##### Attributes
+##### `CdRedenAanvraagOnvoldoendeInkomen` — 🟢 Toegevoegd
 
-- SecundairInkomstencomponent.Id — **Removed**
+**Literals:**
 
-#### Stage — **Unchanged**
+- 🟢 `Ik heb geen werk meer` — Toegevoegd
+- 🟢 `Ik heb wel inkomsten, maar die zijn te laag` — Toegevoegd
+- 🟢 `In staking bij werkgever of als groep uitgesloten voor werk` — Toegevoegd
+- 🟢 `Mijn alimentatie is gestopt` — Toegevoegd
+- 🟢 `Mijn bijstandsuitkering is stopgezet` — Toegevoegd
+- 🟢 `Mijn eerdere bijstandsaanvraag is afgewezen of niet in behandeling genomen` — Toegevoegd
+- 🟢 `Mijn studiefinanciering is gestopt` — Toegevoegd
+- 🟢 `Mijn uitkering (geen bijstandsuitkering) is stopgezet` — Toegevoegd
+- 🟢 `Van spaargeld geleefd` — Toegevoegd
 
-##### Attributes
+##### `CdRedenAanvraagVerblijfstatus` — 🟢 Toegevoegd
 
-- Maaltijdvergoeding — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- Onkostenvergoeding — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- Periodiciteit uitbetaling loon — **Changed**
-  - **enumeration_id**: `` → `Enumeratie: CdUitkeringsperiode`
-  - **type_class_id**: `Objecttype: EAID_1FA03C02_F7CE_31C4_506D_273ED24EBECD` → ``
-- Reiskostenvergoeding — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- Stage.Id — **Removed**
-- Vergoeding in natura — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
+**Literals:**
 
-#### Studiefinanciering — **Unchanged**
+- 🟢 `Ik heb een verblijfsvergunning gekregen` — Toegevoegd
+- 🟢 `Ik heb een verblijfsvergunning gekregen en vertrek uit een asielzoekerscentrum` — Toegevoegd
 
-##### Attributes
+##### `CdRedenAanvraagWijzigingGezin` — 🟢 Toegevoegd
 
-- Daadwerkelijk Genoten — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- Inkomstensoort studiefinanciering — **Changed**
-  - **enumeration_id**: `` → `Enumeratie: InkomstensoortStudiefinanciering`
-  - **type_class_id**: `Objecttype: EAID_1A0F77A2_EC7C_BFAE_32D3_26EBD1630331` → ``
-- Studiefinanciering.Id — **Removed**
+**Literals:**
 
-#### Uitkering — **Unchanged**
+- 🟢 `Ik had een eigen uitkering, maar doe nu een nieuwe aanvraag samen met mijn partner` — Toegevoegd
+- 🟢 `Mijn partner is overleden` — Toegevoegd
+- 🟢 `Mijn relatie is verbroken` — Toegevoegd
 
-##### Attributes
+##### `CdRedenAanvraagWwafgewezen` — 🟢 Toegevoegd
 
-- Beslag op uitkering — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- Inkomstensoort uitkering — **Changed**
-  - **enumeration_id**: `` → `Enumeratie: CdSzWet`
-  - **type_class_id**: `Objecttype: EAID_0AFBC0B5_2217_3FED_8EE6_273ED24E9888` → ``
-- Loonheffingskorting — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- Periodiciteit uitbetaling uitkering — **Changed**
-  - **enumeration_id**: `` → `Enumeratie: CdUitkeringsperiode`
-  - **type_class_id**: `Objecttype: EAID_1FA03C02_F7CE_31C4_506D_273ED24EBECD` → ``
-- Toeslag op uitkering — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- Uitkering verlaagd door boete — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- Uitkering verlaagd door maatregel — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- Uitkering.Id — **Removed**
-- Vakantiegeld jaarlijks ontvangen — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
+**Literals:**
 
-#### Vakantiegeld — **Unchanged**
+- 🟢 `Ik ben door eigen schuld ontslagen of heb zelf ontslag genomen` — Toegevoegd
+- 🟢 `Ik ben minder dan 5 uren per week achteruit gegaan in uren` — Toegevoegd
+- 🟢 `Ik ben niet voldoende beschikbaar voor werk` — Toegevoegd
+- 🟢 `Ik heb in de periode ervoor onvoldoende gewerkt (wekeneis)` — Toegevoegd
 
-##### Attributes
+##### `CdRedenAanvraagWWgevraagd` — 🟢 Toegevoegd
 
-- Vakantiegeld.Id — **Removed**
+**Literals:**
 
-#### Vergoeding — **Unchanged**
+- 🟢 `Ja, ik ontvang nu een WW-uitkering` — Toegevoegd
+- 🟢 `Ja, ik wacht nog op antwoord` — Toegevoegd
+- 🟢 `Ja, maar mijn WW-aanvraag is afgewezen` — Toegevoegd
+- 🟢 `Nee, ik heb geen WW-uitkering aangevraagd` — Toegevoegd
 
-##### Attributes
+##### `CdRedenAanvraagZelfstandige` — 🟢 Toegevoegd
 
-- Vergoeding.Id — **Removed**
+**Literals:**
 
-#### Vergoeding in natura — **Unchanged**
+- 🟢 `Ik ben gestopt met mijn eigen bedrijf` — Toegevoegd
+- 🟢 `Ik heb een eigen bedrijf, maar onvoldoende inkomen` — Toegevoegd
 
-##### Attributes
+##### `CodeRedenAfwijkendeStartdatum` — 🟢 Toegevoegd
 
-- VergoedingInNatura.Id — **Removed**
+**Literals:**
 
-#### Verlaging door boete — **Unchanged**
+- 🟢 `Andere reden afwijkende startdatum` — Toegevoegd
+- 🟢 `Opname instelling` — Toegevoegd
+- 🟢 `Wachten DigiD` — Toegevoegd
+- 🟢 `Wachten beslissing instantie` — Toegevoegd
 
-##### Attributes
+##### `RedenKwijtscheldingVordering` — 🟢 Toegevoegd
 
-- VerlagingDoorBoete.Id — **Removed**
+**Literals:**
 
-#### Verlaging door maatregel — **Unchanged**
+- 🟢 `Ambtshalve` — Toegevoegd
+- 🟢 `Beleid - Nette betaling gedurende afgesproken periode` — Toegevoegd
+- 🟢 `Beleid - Overig` — Toegevoegd
+- 🟢 `Externe reden (schuldsanering)` — Toegevoegd
 
-##### Attributes
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomenreden-aanvraagreden-aanvraag"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Reden aanvraag
 
-- VerlagingDoorMaatregel.Id — **Removed**
+#### Classes
 
-#### Vrijlating inkomsten — **Unchanged**
+##### `Andere reden afwijkende startdatum` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Doelgroep — **Changed**
-  - **enumeration_id**: `` → `Enumeratie: JsonRuledGroupType`
-  - **type_class_id**: `Objecttype: EAID_05A0B109_A778_273A_32B0_28DF727D601A` → ``
-- Medisch — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- Soort vrijlating — **Changed**
-  - **enumeration_id**: `` → `Enumeratie: CodeSoortVrijlating`
-  - **type_class_id**: `Objecttype: EAID_0B35B810_5B49_6EF7_F1E9_2871B3C11F1D` → ``
-- Vrijgelaten bedrag — **Changed**
-  - **primitive**: `Geldbedrag` → `Bedrag`
-- VrijlatingInkomsten.Id — **Removed**
+- 🟡 `omschrijvingBijzondereReden` — Gewijzigd
+    - **naam**: `Specificatie bijzondere reden later ingaan startdatum aanvraag` → `omschrijvingBijzondereReden`
 
-_No datatype changes in this package._
+##### `Gestopt betaald werk` — 🟡 Attributen gewijzigd
 
-### Enumerations
+**Attributen:**
 
-#### BrutoNettoInkomsten — **Added**
+- 🟡 `Afwijsreden WW-aanvraag` — Gewijzigd
+    - **primitieve type**: `CdRedenAanvraagWwafgewezen` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Datatypes::CdRedenAanvraagWwafgewezen`
+- 🟡 `Contractperiode` — Gewijzigd
+    - **primitieve type**: `CdRedenAanvraagContractperiode` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Datatypes::CdRedenAanvraagContractperiode`
+- 🟡 `Reden einde werk` — Gewijzigd
+    - **primitieve type**: `CdRedenAanvraagEindeWerk` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Datatypes::CdRedenAanvraagEindeWerk`
+- 🟡 `WW-uitkering aangevraagd` — Gewijzigd
+    - **primitieve type**: `CdRedenAanvraagWWgevraagd` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Datatypes::CdRedenAanvraagWWgevraagd`
 
-#### CdSrtInkomstenverhouding — **Added**
+##### `Gestopt of verkocht eigen bedrijf` — 🟡 Attributen gewijzigd
 
-#### CdSzWet — **Added**
+**Attributen:**
 
-#### CdUitkeringsperiode — **Added**
+- 🟡 `Reden eigen bedrijfs gestopt` — Gewijzigd
+    - **primitieve type**: `CdRedenAanvraagEindeEigenBedrijf` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Datatypes::CdRedenAanvraagEindeEigenBedrijf`
 
-#### CdUitkeringsperiode — **Added**
+##### `Gestopte bijstanduitkering` — 🟡 Attributen gewijzigd
 
-#### CdUitkeringsperiode — **Added**
+**Attributen:**
 
-#### CdUitkeringsperiode — **Added**
+- 🟡 `Reden einde bijstandsuitkering` — Gewijzigd
+    - **primitieve type**: `CdRedenAanvraagEindeBijstand` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Datatypes::CdRedenAanvraagEindeBijstand`
 
-#### CodeSoortVrijlating — **Added**
+##### `Gestopte of verlaagde alimentatie` — 🟡 Attributen gewijzigd
 
-#### Inkomstencomponenttype — **Added**
+**Attributen:**
 
-#### InkomstensoortAlimentatie — **Added**
+- 🟡 `Nabestaandeuitkering aangevraagd` — Gewijzigd
+    - **primitieve type**: `CdRedenAanvraagANWaangevraagd` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Datatypes::CdRedenAanvraagANWaangevraagd`
 
-#### InkomstensoortBetaaldWerk — **Added**
+##### `Gestopte uitkering` — 🟡 Attributen gewijzigd
 
-#### InkomstensoortPensioen — **Added**
+**Attributen:**
 
-#### InkomstensoortStudiefinanciering — **Added**
+- 🟡 `minderDan35%AO` — Gewijzigd
+    - **naam**: `Minder dan 35% arbeidsongeschikt verklaard` → `minderDan35%AO`
+- 🟡 `Reden einde uitkering` — Gewijzigd
+    - **primitieve type**: `CdRedenAanvraagEindeUitkeringReden` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Datatypes::CdRedenAanvraagEindeUitkeringReden`
+- 🟡 `Uitkering` — Gewijzigd
+    - **primitieve type**: `CdRedenAanvraagEindeUitkering` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Datatypes::CdRedenAanvraagEindeUitkering`
 
-#### JsonRuledGroupType — **Added**
+##### `Overleden partner` — 🟡 Attributen gewijzigd
 
-#### Onderhoudsplichttype — **Added**
+**Attributen:**
 
-#### SoortContract — **Added**
+- 🟡 `Reden ANW afgewezen` — Gewijzigd
+    - **primitieve type**: `CdRedenAanvraagANWafgewezenReden` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Datatypes::CdRedenAanvraagANWafgewezenReden`
 
-## Package: Model Inkoop
+##### `Reden aanvraag Levensonderhoud` — 🟡 Attributen gewijzigd
 
-### Classes
+**Attributen:**
 
-#### Aanbesteding Inhuur — **Unchanged**
+- 🟡 `Onvoldoende inkomen` — Gewijzigd
+    - **primitieve type**: `CdRedenAanvraagOnvoldoendeInkomen` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Datatypes::CdRedenAanvraagOnvoldoendeInkomen`
+- 🟡 `Reden` — Gewijzigd
+    - **primitieve type**: `RedenKwijtscheldingVordering` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Datatypes::RedenKwijtscheldingVordering`
+- 🟡 `Verblijfstatus` — Gewijzigd
+    - **primitieve type**: `CdRedenAanvraagVerblijfstatus` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Datatypes::CdRedenAanvraagVerblijfstatus`
+- 🟡 `Wijziging gezin` — Gewijzigd
+    - **primitieve type**: `CdRedenAanvraagWijzigingGezin` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Datatypes::CdRedenAanvraagWijzigingGezin`
+- 🟡 `Zelfstandige` — Gewijzigd
+    - **primitieve type**: `CdRedenAanvraagZelfstandige` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Datatypes::CdRedenAanvraagZelfstandige`
 
-##### Attributes
+##### `Reden afwijkende startdatum` — 🟡 Attributen gewijzigd
 
-- datumSluiting — **Removed**
+**Attributen:**
 
-_No datatype changes in this package._
+- 🟡 `RedenAfwijkendeStartdatumType` — Gewijzigd
+    - **primitieve type**: `CodeRedenAfwijkendeStartdatum` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Datatypes::CodeRedenAfwijkendeStartdatum`
 
-_No enumeration changes in this package._
+##### `Vertrek uit asielzoekerscentrum` — 🟡 Attributen gewijzigd
 
-## Package: Model Jeugd en Wmo Generiek
+**Attributen:**
 
-### Classes
+- 🟡 `Bedrag weekgeld COA` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `bedrag`
+- 🟡 `Einddatum weekgeld COA` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `bedrag`
+- 🟡 `Ingangsdatum huurcontract` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `bedrag`
 
-#### Beschikking — **Unchanged**
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomenterug--en-invorderingmodel-terug--en-invordering"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Terug- en invordering/Model Terug- en invordering
 
-##### Attributes
+#### Classes
 
-- wet — **Changed**
-  - **primitive**: `` → `Wet`
-  - **enumeration_id**: `` → `Enumeratie: Wet`
+##### `Aflossing` — 🟡 Attributen gewijzigd
 
-_No datatype changes in this package._
+**Attributen:**
 
-_No enumeration changes in this package._
+- 🔴 `Aflossing.Id` — Verwijderd
 
-## Package: Model Jeugdbescherming
+##### `Aflossingsafspraak` — 🟡 Attributen gewijzigd
 
-### Classes
+**Attributen:**
 
-#### Leefgebied — **Unchanged**
+- 🔴 `Aflossingsafspraak.Id` — Verwijderd
 
-##### Attributes
+##### `Aflossingsplan` — 🟡 Attributen gewijzigd
 
-- leefgebiedOmschrijving — **Changed**
-  - **name**: `leefgebied` → `leefgebiedOmschrijving`
+**Attributen:**
 
-_No datatype changes in this package._
+- 🔴 `Aflossingsplan.Id` — Verwijderd
 
-_No enumeration changes in this package._
+##### `Afschrijving` — 🟡 Attributen gewijzigd
 
-## Package: Model Kern RGBZ
+**Attributen:**
 
-### Classes
+- 🔴 `Afschrijving.Id` — Verwijderd
+- 🟡 `Reden afschrijving` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `CharacterString`
+    - **enumeratie**: `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Terug- en invordering/Datatypes::DefaultEnumeratie` → _(leeg)_
 
-#### Bedrijfsproces — **Unchanged**
+##### `Betaalcomponent` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Afgerond — **Changed**
-  - **enumeration_id**: `Enumeratie: Boolean` → `Enumeratie: Boolean`
+- 🔴 `Betaalcomponent.Id` — Verwijderd
+- 🟡 `Bedrag` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `bedrag`
+- 🟡 `Boekingsdatum` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Date`
 
-#### Bedrijfsprocestype — **Unchanged**
+##### `Boetevordering` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Omschrijving — **Changed**
-  - **primitive**: `AM200` → `AN200`
+- 🔴 `Boetevordering.Id` — Verwijderd
 
-#### Besluit — **Unchanged**
+##### `Conservatoir beslag` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- datumBesluit — **Changed**
-  - **primitive**: `` → `Datum`
-- datumPublicatie — **Changed**
-  - **primitive**: `` → `Datum`
-- datumStart — **Changed**
-  - **primitive**: `` → `Datum`
-- datumUiterlijkeReactie — **Changed**
-  - **primitive**: `` → `Datum`
-- datumVerval — **Changed**
-  - **primitive**: `` → `Datum`
-- datumVerzending — **Changed**
-  - **primitive**: `` → `Datum`
-- omschrijving — **Changed**
-  - **name**: `besluit` → `omschrijving`
-- redenVerval — **Changed**
-  - **primitive**: `X40` → `AN40`
+- 🔴 `ConservatoirBeslag.Id` — Verwijderd
 
-#### Betrokkene — **Unchanged**
+##### `Correctie` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- adresBinnenland — **Changed**
-  - **primitive**: `` → `BinnenlandsAdres`
-  - **type_class_id**: `` → `Objecttype: BinnenlandsAdres`
-- adresBuitenland — **Changed**
-  - **primitive**: `` → `AN200`
+- 🔴 `Correctie.Id` — Verwijderd
 
-#### Document — **Unchanged**
+##### `Debiteur` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- datumCreatieDocument — **Changed**
-  - **primitive**: `` → `Datum`
-- datumOntvangstdocument — **Changed**
-  - **primitive**: `` → `Datum`
-- datumVerzendingDocument — **Changed**
-  - **primitive**: `` → `Datum`
+- 🔴 `Debiteur.Id` — Verwijderd
 
-#### EnkelvoudigDocument — **Unchanged**
+##### `Incassokostenvordering` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- documentInhoud — **Changed**
-  - **primitive**: `Documentformaat` → `AN255`
+- 🔴 `Incassokostenvordering.Id` — Verwijderd
 
-#### Heffing — **Unchanged**
+##### `Interventie` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
+- 🔴 `Interventie.Id` — Verwijderd
 
-#### Klantcontact — **Unchanged**
+##### `Interventieverzoek` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
+- 🔴 `Interventieverzoek.Id` — Verwijderd
 
-#### Medewerker — **Unchanged**
+##### `Krediethypotheek` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- datumUitDienst — **Changed**
-  - **primitive**: `` → `Datum`
+- 🔴 `Krediethypotheek.Id` — Verwijderd
 
-#### Object — **Unchanged**
+##### `Krediethypotheekvordering` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- adresBinnenland — **Changed**
-  - **primitive**: `` → `BinnenlandsAdres`
-  - **type_class_id**: `` → `Objecttype: BinnenlandsAdres`
-- adresBuitenland — **Changed**
-  - **primitive**: `` → `AN200`
-- geometrie — **Changed**
-  - **primitive**: `GML` → `Point`
-- toelichting — **Changed**
-  - **primitive**: `` → `Tekst`
+- 🔴 `Krediethypotheekvordering.Id` — Verwijderd
 
-#### OrganisatorischeEenheid — **Unchanged**
+##### `Kwijtschelding` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Formatie — **Changed**
-  - **stereotype**: `` → `Attribuutsoort`
-  - **primitive**: `` → `AN255`
-- datumOntstaan — **Changed**
-  - **primitive**: `` → `Datum`
-- datumOpheffing — **Changed**
-  - **primitive**: `` → `Datum`
+- 🔴 `Kwijtschelding.Id` — Verwijderd
 
-#### Status — **Unchanged**
+##### `Leenbijstand` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- datumStatusGezet — **Changed**
-  - **primitive**: `` → `Datum`
+- 🔴 `Leenbijstand.Id` — Verwijderd
 
-#### ZAAK - Origineel — **Unchanged**
+##### `Leenbijstandvordering` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- datumEinde — **Changed**
-  - **primitive**: `` → `Datum`
-- datumEindeGepland — **Changed**
-  - **primitive**: `` → `Datum`
-- datumEindeUiterlijkeAfdoening — **Changed**
-  - **primitive**: `` → `Datum`
-- datumLaatsteBetaling — **Changed**
-  - **primitive**: `` → `Datum`
-- datumRegistratie — **Changed**
-  - **primitive**: `` → `Datum`
-- datumStart — **Changed**
-  - **primitive**: `` → `Datum`
-- datumVernietigingDossier — **Changed**
-  - **primitive**: `` → `Datum`
-- indicatieDeelzaken — **Changed**
-  - **primitive**: `A1` → ``
+- 🔴 `Leenbijstandvordering.Id` — Verwijderd
 
-#### Zaak — **Unchanged**
+##### `Loonbeslagafspraak` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- datumEinde — **Changed**
-  - **primitive**: `` → `Datum`
-- datumEindeGepland — **Changed**
-  - **primitive**: `` → `Datum`
-- datumEindeUiterlijkeAfdoening — **Changed**
-  - **primitive**: `` → `Datum`
-- datumLaatsteBetaling — **Changed**
-  - **primitive**: `` → `Datum`
-- datumRegistratie — **Changed**
-  - **primitive**: `` → `Datum`
-- datumStart — **Changed**
-  - **primitive**: `` → `Datum`
-- datumVernietigingDossier — **Changed**
-  - **primitive**: `` → `Datum`
-- indicatieDeelzaken — **Changed**
-  - **primitive**: `A1` → ``
+- 🔴 `Loonbeslagafspraak.Id` — Verwijderd
 
-_No datatype changes in this package._
+##### `Rechtmaand` — 🟡 Attributen gewijzigd
 
-### Enumerations
+**Attributen:**
 
-#### Boolean — **Removed**
+- 🔴 `Rechtmaand.Id` — Verwijderd
 
-##### Literals
+##### `Rentevordering` — 🟡 Attributen gewijzigd
 
-- `Ja` — **Removed**
-- `Leeg` — **Removed**
-- `Nee` — **Removed**
-- `Onbekend` — **Removed**
+**Attributen:**
 
-#### Boolean — **Added**
+- 🔴 `Rentevordering.Id` — Verwijderd
 
-##### Literals
+##### `Restitutie` — 🟡 Attributen gewijzigd
 
-- `Ja` — **Added**
-- `Leeg` — **Added**
-- `Nee` — **Added**
-- `Onbekend` — **Added**
+**Attributen:**
 
-#### Heffingsoort — **Removed**
+- 🔴 `Restitutie.Id` — Verwijderd
 
-##### Literals
+##### `Terugvorderingsverzoek` — 🟡 Attributen gewijzigd
 
-- `leges` — **Removed**
-- `precario` — **Removed**
+**Attributen:**
 
-#### Heffingsoort — **Added**
+- 🔴 `Terugvorderingsverzoek.Id` — Verwijderd
 
-##### Literals
+##### `Uitstel aflossing` — 🟡 Attributen gewijzigd
 
-- `leges` — **Added**
-- `precario` — **Added**
+**Attributen:**
 
-#### Soorten Klantcontact — **Added**
+- 🔴 `UitstelAflossing.Id` — Verwijderd
 
-##### Literals
+##### `Vermindering terugvordering` — 🟡 Attributen gewijzigd
 
-- `balie` — **Added**
-- `brief` — **Added**
-- `internet` — **Added**
-- `selfserviceloket` — **Added**
-- `telefonisch` — **Added**
+**Attributen:**
 
-#### Soorten Klantcontact — **Removed**
+- 🔴 `VerminderingTerugvordering.Id` — Verwijderd
 
-##### Literals
+##### `Verrekening` — 🟡 Attributen gewijzigd
 
-- `balie` — **Removed**
-- `brief` — **Removed**
-- `internet` — **Removed**
-- `selfserviceloket` — **Removed**
-- `telefonisch` — **Removed**
+**Attributen:**
 
-## Package: Model Kern RSGB
+- 🔴 `Verrekening.Id` — Verwijderd
 
-### Classes
+##### `Verwijtbare vordering` — 🟡 Attributen gewijzigd
 
-#### GebouwdObject — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🔴 `VerwijtbareVordering.Id` — Verwijderd
 
-- bouwkundigeBestemmingActueel — **Changed**
-  - **enumeration_id**: `Enumeratie: bouwkundigeBestemming` → `Enumeratie: bouwkundigeBestemming`
-- inwinningOppervlakte — **Changed**
-  - **enumeration_id**: `Enumeratie: inwinningsmethodeOppervlakte` → `Enumeratie: inwinningsmethodeOppervlakte`
-- statusVoortgangBouw — **Changed**
-  - **primitive**: `` → `statusVoortgangBouw`
-  - **enumeration_id**: `` → `Enumeratie: statusVoortgangBouw`
+##### `Vordering` — 🟡 Attributen gewijzigd
 
-#### Ligplaats — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🔴 `Vordering.Id` — Verwijderd
 
-- indicatieGeconstateerdeLigplaats — **Changed**
-  - **primitive**: `INDIC` → `boolean`
-- ligplaatsstatus — **Changed**
-  - **enumeration_id**: `Enumeratie: StatLigplaatsStandplaats` → `Enumeratie: StatLigplaatsStandplaats`
+##### `Vorderingscomponent` — 🟡 Attributen gewijzigd
 
-#### Nummeraanduiding — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🔴 `Vorderingscomponent.Id` — Verwijderd
 
-- geconstateerd — **Changed**
-  - **primitive**: `INDIC` → `boolean`
-- postcode — **Changed**
-  - **primitive**: `POSTCODE` → `AN6`
-- status — **Changed**
-  - **enumeration_id**: `Enumeratie: statusNummeraanduiding` → `Enumeratie: statusNummeraanduiding`
-- typeAdresseerbaarObject — **Changed**
-  - **enumeration_id**: `Enumeratie: TypeAdresseerbaarObject` → `Enumeratie: TypeAdresseerbaarObject`
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinjeugdbescherming-en-reclasseringmodel-jeugdbescherming"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Jeugdbescherming en reclassering/Model Jeugdbescherming
 
-#### OpenbareRuimte — **Unchanged**
+#### Classes
 
-##### Attributes
+##### `Leefgebied` — 🟡 Attributen gewijzigd
 
-- statusOpenbareRuimte — **Changed**
-  - **enumeration_id**: `Enumeratie: statusOpenbareRuimte` → `Enumeratie: statusOpenbareRuimte`
-- typeOpenbareRuimte — **Changed**
-  - **enumeration_id**: `Enumeratie: typeringOpenbareRuimte` → `Enumeratie: typeringOpenbareRuimte`
+**Attributen:**
 
-#### Pand — **Unchanged**
+- 🟡 `leefgebiedOmschrijving` — Gewijzigd
+    - **naam**: `leefgebied` → `leefgebiedOmschrijving`
 
-##### Attributes
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinschuldenschuldhulpverleningmodel-schuldhulpverlening"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Schulden/Schuldhulpverlening/Model Schuldhulpverlening
 
-- indicatieGeconstateerdPand — **Changed**
-  - **primitive**: `INDIC` → `boolean`
-- indicatiePlanobject — **Changed**
-  - **primitive**: `INDIC` → `boolean`
-- inwinningGeometrieBovenaanzicht — **Changed**
-  - **enumeration_id**: `Enumeratie: inwinningsmethodeGeometrie` → `Enumeratie: inwinningsmethodeGeometrie`
-- inwinningGeometrieMaaiveld — **Changed**
-  - **enumeration_id**: `Enumeratie: inwinningsmethodeGeometrie` → `Enumeratie: inwinningsmethodeGeometrie`
-- oorspronkelijkBouwjaarPand — **Changed**
-  - **primitive**: `JAAR` → `N4`
-- pandstatus — **Changed**
-  - **enumeration_id**: `Enumeratie: statusPand` → `Enumeratie: statusPand`
-- statusVoortgangBouw — **Changed**
-  - **enumeration_id**: `Enumeratie: statusVoortgangBouw` → `Enumeratie: statusVoortgangBouw`
+#### Classes
 
-#### Standplaats — **Unchanged**
+##### `Begeleiding` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- indicatieGeconstateerdeStandplaats — **Changed**
-  - **primitive**: `INDIC` → `boolean`
-- standplaatsstatus — **Changed**
-  - **enumeration_id**: `Enumeratie: StatLigplaatsStandplaats` → `Enumeratie: StatLigplaatsStandplaats`
+- 🟡 `soort` — Gewijzigd
+    - **stereotype**: _(leeg)_ → `enum`
 
-#### Verblijfsobject — **Unchanged**
+##### `Begeleidingssoort` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- ontsluitingVerdieping — **Changed**
-  - **enumeration_id**: `Enumeratie: ontsluitingswijzeVerdieping` → `Enumeratie: ontsluitingswijzeVerdieping`
-- soortWoonobject — **Changed**
-  - **enumeration_id**: `Enumeratie: soortWoonobject` → `Enumeratie: soortWoonobject`
-- verblijfsobjectstatus — **Changed**
-  - **enumeration_id**: `Enumeratie: statusVerblijfsobject` → `Enumeratie: statusVerblijfsobject`
+- 🟡 `soort` — Gewijzigd
+    - **stereotype**: _(leeg)_ → `enum`
+    - **primitieve type**: `BegeleidingsoortEnum` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Schulden/Schuldhulpverlening/Model Schuldhulpverlening::EnumBegeleidingssoort`
 
-#### Woonplaats — **Unchanged**
+##### `Oplossing` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- woonplaatsStatus — **Changed**
-  - **enumeration_id**: `Enumeratie: statusWoonplaats` → `Enumeratie: statusWoonplaats`
+- 🟡 `soort` — Gewijzigd
+    - **stereotype**: _(leeg)_ → `enum`
 
-_No datatype changes in this package._
+##### `Oplossingssoort` — 🟡 Attributen gewijzigd
 
-### Enumerations
+**Attributen:**
 
-#### StatLigplaatsStandplaats — **Removed**
+- 🟡 `soort` — Gewijzigd
+    - **stereotype**: _(leeg)_ → `enum`
+    - **primitieve type**: `SchuldregelingsoortEnum` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Schulden/Schuldhulpverlening/Model Schuldhulpverlening::EnumSchuldensoort`
 
-##### Literals
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinschuldenvroegsignaleringmodel-vroegsignalering"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Schulden/Vroegsignalering/Model Vroegsignalering
 
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `plaats aangewezen` — **Removed**
-- `plaats ingetrokken` — **Removed**
+#### Enumeraties
 
-#### StatLigplaatsStandplaats — **Added**
+##### `EnumContactsoort` — 🟡 Gewijzigd
 
-##### Literals
+**Literals:**
 
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `plaats aangewezen` — **Added**
-- `plaats ingetrokken` — **Added**
+- 🟢 `Administratief` — Toegevoegd
+- 🟢 `Afspraak op locatie` — Toegevoegd
+- 🔴 `Overige` — Verwijderd
 
-#### StatLigplaatsStandplaats — **Added**
+##### `EnumEindresultaat` — 🟡 Gewijzigd
 
-##### Literals
+**Literals:**
 
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `plaats aangewezen` — **Added**
-- `plaats ingetrokken` — **Added**
+- 🟢 `Definitief geen contact kunnen krijgen` — Toegevoegd
+- 🟢 `Geen reactie na eerder contact` — Toegevoegd
+- 🟢 `Inwoner heeft zelf al betaald/betalingsregeling getroffen` — Toegevoegd
+- 🟢 `Inwoner hoeft geen hulp vanuit vroegsignalering` — Toegevoegd
+- 🟢 `Inwoner is overleden` — Toegevoegd
+- 🟢 `Niet opgepakt: andere reden` — Toegevoegd
+- 🟢 `Niet opgepakt: herhaalde melding` — Toegevoegd
+- 🟢 `Niet opgepakt: onterecht signaal` — Toegevoegd
+- 🟢 `Persoon is geen inwoner (meer) in de gemeente` — Toegevoegd
+- 🟢 `Vervolghulp en/of verwijzing financieel` — Toegevoegd
+- 🟢 `Vervolghulp en/of verwijzing niet financieel` — Toegevoegd
+- 🟢 `Verwijzing zonder contact` — Toegevoegd
+- 🔴 `Geen contact (meer) kunnen krijgen` — Verwijderd
+- 🔴 `Inwoner heeft betaald/betalingsregeling getroffen voor oppakken melding` — Verwijderd
+- 🔴 `Inwoner heeft zelf betaald/betalingsregeling getroffen na oppakken melding` — Verwijderd
+- 🔴 `Inwoner probeert het zelf op te lossen` — Verwijderd
+- 🔴 `Inwoner wil geen hulp` — Verwijderd
+- 🔴 `Niet opgepakt` — Verwijderd
+- 🔴 `Niet opgepakt: BRP-uitsluiting` — Verwijderd
+- 🔴 `Niet opgepakt: geen capaciteit` — Verwijderd
+- 🔴 `Niet opgepakt: inwoner wil geen contact` — Verwijderd
+- 🔴 `Verwijzing financieel` — Verwijderd
+- 🔴 `Verwijzing niet-financieel` — Verwijderd
+- 🔴 `Voorzien van informatie` — Verwijderd
 
-#### StatLigplaatsStandplaats — **Removed**
+##### `EnumSignaalstatus` — 🟡 Gewijzigd
 
-##### Literals
+**Literals:**
 
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `plaats aangewezen` — **Removed**
-- `plaats ingetrokken` — **Removed**
+- 🟢 `Inwoner is overleden` — Toegevoegd
+- 🟢 `Niet opgepakt: andere reden` — Toegevoegd
+- 🟢 `Niet opgepakt: herhaalde melding` — Toegevoegd
+- 🟢 `Niet opgepakt: onterecht signaal` — Toegevoegd
+- 🟢 `Persoon is geen inwoner (meer) in de gemeente` — Toegevoegd
+- 🔴 `Herhaalde melding` — Verwijderd
+- 🔴 `Niet opgepakt` — Verwijderd
+- 🔴 `Onterecht signaal` — Verwijderd
+- 🔴 `Opgepakt` — Verwijderd
+- 🔴 `Overleden` — Verwijderd
+- 🔴 `Woont niet in gemeente` — Verwijderd
+- 🔴 `Woont op een ander adres binnen gemeente` — Verwijderd
 
-#### TypeAdresseerbaarObject — **Removed**
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekmodel-sociaal-domein-generiek"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek
 
-##### Literals
+#### Classes
 
-- `KADbinnenlandsadres` — **Removed**
-- `Leeg` — **Removed**
-- `Ligplaats` — **Removed**
-- `Onbekend` — **Removed**
-- `Standplaats` — **Removed**
-- `Verblijfsobject` — **Removed**
+##### `Incident` — 🟡 Attributen gewijzigd
 
-#### TypeAdresseerbaarObject — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `locatie` — Gewijzigd
+    - **primitieve type**: `Locatie` → `GM_Point`
+- 🟡 `soort` — Gewijzigd
+    - **primitieve type**: `Incidenttype` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Jeugdbescherming en reclassering/Model Jeugdbescherming::enum_Incidenttype`
 
-- `KADbinnenlandsadres` — **Added**
-- `Leeg` — **Added**
-- `Ligplaats` — **Added**
-- `Onbekend` — **Added**
-- `Standplaats` — **Added**
-- `Verblijfsobject` — **Added**
+##### `Relatiesoort` — 🟡 Attributen gewijzigd
 
-#### bouwkundigeBestemming — **Removed**
+**Attributen:**
 
-##### Literals
+- 🟢 `Omschrijving` — Toegevoegd
 
-- `CAI` — **Removed**
-- `aanleunwoonverblijf` — **Removed**
-- `academisch onderwijs` — **Removed**
-- `akkerbouw` — **Removed**
-- `algemeen voortgezet onderwijs` — **Removed**
-- `andere doeleinden van openbaar nut` — **Removed**
-- `basisschool` — **Removed**
-- `begraafplaats/crematorium` — **Removed**
-- `bejaardenwoning` — **Removed**
-- `bejaardenwoonverblijf (in bejaardenoord, centrale keuken)` — **Removed**
-- `bibliotheek` — **Removed**
-- `bijzonder onderwijs` — **Removed**
-- `bioscoop` — **Removed**
-- `brandweer` — **Removed**
-- `cafe/bar/restaurant` — **Removed**
-- `congres` — **Removed**
-- `dagverblijf` — **Removed**
-- `defensie` — **Removed**
-- `detailhandel` — **Removed**
-- `dienstwoning` — **Removed**
-- `dierenverzorging` — **Removed**
-- `doeleinden voor agrarisch bedrijf` — **Removed**
-- `doeleinden voor cultuur` — **Removed**
-- `doeleinden voor gezondheidszorg` — **Removed**
-- `doeleinden voor handel, horeca en bedrijf` — **Removed**
-- `doeleinden voor niet-wonen` — **Removed**
-- `doeleinden voor nutsvoorzieningen` — **Removed**
-- `doeleinden voor onderwijs` — **Removed**
-- `doeleinden voor recreatie` — **Removed**
-- `doeleinden voor verkeer` — **Removed**
-- `doeleinden voor wonen` — **Removed**
-- `eengezinswoning` — **Removed**
-- `elektriciteit` — **Removed**
-- `expositie` — **Removed**
-- `fabricage en productie` — **Removed**
-- `gas` — **Removed**
-- `gehandicaptenwooneenheid` — **Removed**
-- `gemeentehuis` — **Removed**
-- `gemengd bedrijf` — **Removed**
-- `gevangenis/gesticht` — **Removed**
-- `godsdienst (kerk, klooster e.d.)` — **Removed**
-- `hoger beroepsonderwijs` — **Removed**
-- `hotel/logies` — **Removed**
-- `jongerenwooneenheid` — **Removed**
-- `kantoor` — **Removed**
-- `kinderopvang` — **Removed**
-- `laboratoria` — **Removed**
-- `luchtvaart` — **Removed**
-- `meergezinswoning` — **Removed**
-- `musea` — **Removed**
-- `natuur en landschap` — **Removed**
-- `onderhoud en reparatie` — **Removed**
-- `opslag en distributie` — **Removed**
-- `overige andere doeleinden van openbaar nut` — **Removed**
-- `overige doeleinden voor agrarisch bedrijf` — **Removed**
-- `overige doeleinden voor cultuur` — **Removed**
-- `overige doeleinden voor gezondheidszorg` — **Removed**
-- `overige doeleinden voor niet-wonen` — **Removed**
-- `overige doeleinden voor nutsvoorzieningen` — **Removed**
-- `overige doeleinden voor onderwijs` — **Removed**
-- `overige doeleinden voor recreatie` — **Removed**
-- `overige doeleinden voor verkeer` — **Removed**
-- `polikliniek` — **Removed**
-- `politie` — **Removed**
-- `praktijkruimte` — **Removed**
-- `psychiatrische inrichting` — **Removed**
-- `recreatie` — **Removed**
-- `recreatiewoning` — **Removed**
-- `scheepvaart` — **Removed**
-- `spoorwegverkeer` — **Removed**
-- `sport binnen` — **Removed**
-- `sport buiten` — **Removed**
-- `stalling (fietsen/auto's)` — **Removed**
-- `telecommunicatie` — **Removed**
-- `theater en concert` — **Removed**
-- `tuinbouw` — **Removed**
-- `veeteelt` — **Removed**
-- `verpleegtehuis` — **Removed**
-- `verzorgingstehuis en bejaardentehuis` — **Removed**
-- `vrijetijds onderwijs` — **Removed**
-- `waternuts doeleinden` — **Removed**
-- `waterschaps en waterverdediging` — **Removed**
-- `wegverkeer` — **Removed**
-- `wijk-/buurt-/verenigingsactiviteiten` — **Removed**
-- `wijkverzorging` — **Removed**
-- `ziekenhuis` — **Removed**
-- `zorgwoonverblijf` — **Removed**
-- `zwembad` — **Removed**
+##### `Sociale Groep` — 🟡 Attributen gewijzigd
 
-#### bouwkundigeBestemming — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `typering` — Gewijzigd
+    - **primitieve type**: `Groep` → `Text`
 
-- `CAI` — **Added**
-- `aanleunwoonverblijf` — **Added**
-- `academisch onderwijs` — **Added**
-- `akkerbouw` — **Added**
-- `algemeen voortgezet onderwijs` — **Added**
-- `andere doeleinden van openbaar nut` — **Added**
-- `basisschool` — **Added**
-- `begraafplaats/crematorium` — **Added**
-- `bejaardenwoning` — **Added**
-- `bejaardenwoonverblijf (in bejaardenoord, centrale keuken)` — **Added**
-- `bibliotheek` — **Added**
-- `bijzonder onderwijs` — **Added**
-- `bioscoop` — **Added**
-- `brandweer` — **Added**
-- `cafe/bar/restaurant` — **Added**
-- `congres` — **Added**
-- `dagverblijf` — **Added**
-- `defensie` — **Added**
-- `detailhandel` — **Added**
-- `dienstwoning` — **Added**
-- `dierenverzorging` — **Added**
-- `doeleinden voor agrarisch bedrijf` — **Added**
-- `doeleinden voor cultuur` — **Added**
-- `doeleinden voor gezondheidszorg` — **Added**
-- `doeleinden voor handel, horeca en bedrijf` — **Added**
-- `doeleinden voor niet-wonen` — **Added**
-- `doeleinden voor nutsvoorzieningen` — **Added**
-- `doeleinden voor onderwijs` — **Added**
-- `doeleinden voor recreatie` — **Added**
-- `doeleinden voor verkeer` — **Added**
-- `doeleinden voor wonen` — **Added**
-- `eengezinswoning` — **Added**
-- `elektriciteit` — **Added**
-- `expositie` — **Added**
-- `fabricage en productie` — **Added**
-- `gas` — **Added**
-- `gehandicaptenwooneenheid` — **Added**
-- `gemeentehuis` — **Added**
-- `gemengd bedrijf` — **Added**
-- `gevangenis/gesticht` — **Added**
-- `godsdienst (kerk, klooster e.d.)` — **Added**
-- `hoger beroepsonderwijs` — **Added**
-- `hotel/logies` — **Added**
-- `jongerenwooneenheid` — **Added**
-- `kantoor` — **Added**
-- `kinderopvang` — **Added**
-- `laboratoria` — **Added**
-- `luchtvaart` — **Added**
-- `meergezinswoning` — **Added**
-- `musea` — **Added**
-- `natuur en landschap` — **Added**
-- `onderhoud en reparatie` — **Added**
-- `opslag en distributie` — **Added**
-- `overige andere doeleinden van openbaar nut` — **Added**
-- `overige doeleinden voor agrarisch bedrijf` — **Added**
-- `overige doeleinden voor cultuur` — **Added**
-- `overige doeleinden voor gezondheidszorg` — **Added**
-- `overige doeleinden voor niet-wonen` — **Added**
-- `overige doeleinden voor nutsvoorzieningen` — **Added**
-- `overige doeleinden voor onderwijs` — **Added**
-- `overige doeleinden voor recreatie` — **Added**
-- `overige doeleinden voor verkeer` — **Added**
-- `polikliniek` — **Added**
-- `politie` — **Added**
-- `praktijkruimte` — **Added**
-- `psychiatrische inrichting` — **Added**
-- `recreatie` — **Added**
-- `recreatiewoning` — **Added**
-- `scheepvaart` — **Added**
-- `spoorwegverkeer` — **Added**
-- `sport binnen` — **Added**
-- `sport buiten` — **Added**
-- `stalling (fietsen/auto's)` — **Added**
-- `telecommunicatie` — **Added**
-- `theater en concert` — **Added**
-- `tuinbouw` — **Added**
-- `veeteelt` — **Added**
-- `verpleegtehuis` — **Added**
-- `verzorgingstehuis en bejaardentehuis` — **Added**
-- `vrijetijds onderwijs` — **Added**
-- `waternuts doeleinden` — **Added**
-- `waterschaps en waterverdediging` — **Added**
-- `wegverkeer` — **Added**
-- `wijk-/buurt-/verenigingsactiviteiten` — **Added**
-- `wijkverzorging` — **Added**
-- `ziekenhuis` — **Added**
-- `zorgwoonverblijf` — **Added**
-- `zwembad` — **Added**
+##### `Sociale Relatie` — 🟡 Attributen gewijzigd
 
-#### gebruiksdoel — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `typering` — Gewijzigd
+    - **primitieve type**: `Relatie` → `text`
 
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `bijeenkomstfunctie` — **Added**
-- `celfunctie` — **Added**
-- `gezondheidszorgfunctie` — **Added**
-- `industriefunctie` — **Added**
-- `kantoorfunctie` — **Added**
-- `logiesfunctie` — **Added**
-- `onderwijsfunctie` — **Added**
-- `overige gebruiksfunctie` — **Added**
-- `sportfunctie` — **Added**
-- `winkelfunctie` — **Added**
-- `woonfunctie` — **Added**
+#### Associaties
 
-#### gebruiksdoel — **Removed**
+- 🟡 Gewijzigd: `Client` «valt binnen» → `Doelgroep`
+  - **src mult. start**: _(leeg)_ → `0`
+  - **src mult. end**: _(leeg)_ → `*`
+  - **dst mult. start**: _(leeg)_ → `0`
+  - **dst mult. end**: _(leeg)_ → `*`
 
-##### Literals
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekmodel-sociaal-domein-generiekinkomstendatatypes"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Datatypes
 
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `bijeenkomstfunctie` — **Removed**
-- `celfunctie` — **Removed**
-- `gezondheidszorgfunctie` — **Removed**
-- `industriefunctie` — **Removed**
-- `kantoorfunctie` — **Removed**
-- `logiesfunctie` — **Removed**
-- `onderwijsfunctie` — **Removed**
-- `overige gebruiksfunctie` — **Removed**
-- `sportfunctie` — **Removed**
-- `winkelfunctie` — **Removed**
-- `woonfunctie` — **Removed**
+#### Datatypes
 
-#### inwinningsmethodeGeometrie — **Added**
+##### `BrutoNettoInkomsten` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `bouwtekening` — **Added**
-- `digitaliseren` — **Added**
-- `fotogrammetrisch` — **Added**
-- `geconstrueerd` — **Added**
-- `laser` — **Added**
-- `niet bekend` — **Added**
-- `panoramabeelden` — **Added**
-- `scannen` — **Added**
-- `terrestrisch` — **Added**
+- 🔴 `Bruto` — Verwijderd
+- 🔴 `Netto` — Verwijderd
 
-#### inwinningsmethodeGeometrie — **Removed**
+##### `CdSrtInkomstenverhouding` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `bouwtekening` — **Removed**
-- `digitaliseren` — **Removed**
-- `fotogrammetrisch` — **Removed**
-- `geconstrueerd` — **Removed**
-- `laser` — **Removed**
-- `niet bekend` — **Removed**
-- `panoramabeelden` — **Removed**
-- `scannen` — **Removed**
-- `terrestrisch` — **Removed**
+- 🔴 `11 Loon of salaris ambtenaren in de zin van de Ambtenarenwet` — Verwijderd
+- 🔴 `11 Loon of salaris ambtenaren in de zin van de Ambtenarenwet 1929` — Verwijderd
+- 🔴 `12 Loon of salaris werknemers van gepremieerde, gesubsidieerde of gebudgetteerde instellingen, inclusief uitvoeringsorganen sociale zekerheden` — Verwijderd
+- 🔴 `13 Loon of salaris directeuren van een nv/bv, wel verzekerd voor de werknemersverzekeringen` — Verwijderd
+- 🔴 `14 Loon of salaris overige werknemers niet verzekerd voor de Wet Werk en inkomen naar Arbeidsvermogen (WIA) of WAO` — Verwijderd
+- 🔴 `15 Loon of salaris niet onder te brengen onder 11 tot en met 14 of 17` — Verwijderd
+- 🔴 `15 Loon of salaris niet onder te brengen onder 11, 13 of 17` — Verwijderd
+- 🔴 `17 Loon of salaris directeuren van een nv/bv, niet verzekerd voor de werknemersverzekeringen` — Verwijderd
+- 🔴 `18 Wachtgeld van een overheidsinstelling` — Verwijderd
+- 🔴 `21 Overige pensioenen, lijfrenten, enz. (niet 23 (Oorlogs- en verzetspensioenen))` — Verwijderd
+- 🔴 `22 Uitkering in het kader van de Algemene Ouderdomswet (AOW)` — Verwijderd
+- 🔴 `23 Oorlogs- en verzetspensioenen` — Verwijderd
+- 🔴 `24 Uitkering in het kader van de Algemene nabestaandenwet (ANW)` — Verwijderd
+- 🔴 `31 Uitkering in het kader van de Ziektewet (ZW) en vrijwillige verzekering Ziektewet` — Verwijderd
+- 🔴 `32 Uitkering in het kader van de Wet op de Arbeids-ongeschiktheidsverzekering (WAO) en particuliere verzekering ziekte, invaliditeit en ongeval` — Verwijderd
+- 🔴 `33 Uitkering in het kader van de Nieuwe Werkloosheidswet (nWW)` — Verwijderd
+- 🔴 `34 Uitkering in het kader van de Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte werkloze werknemers (IOAW)` — Verwijderd
+- 🔴 `35 Vervolguitkering in het kader van de Nieuwe Werkloosheidswet (nWW)` — Verwijderd
+- 🔴 `36 Uitkering in het kader van de Wet arbeidsongeschiktheidsverzekering zelfstandigen (Waz)` — Verwijderd
+- 🔴 `37 Wet arbeidsongeschiktheidsvoorziening jonggehandicapten (Wajong)` — Verwijderd
+- 🔴 `37 Wet werk en ondersteuning jonggehandicapten (Wajong)` — Verwijderd
+- 🔴 `38 Samenloop (gelijktijdig of volgtijdelijk) van uitkeringen van Wajong met Waz, WAO/IVA of WGA` — Verwijderd
+- 🔴 `39 Uitkering in het kader van de Regeling inkomensvoorziening volledig arbeidsongeschikten (IVA)` — Verwijderd
+- 🔴 `40 Uitkering in het kader van de Regeling werkhervatting gedeeltelijk arbeidsgeschikten WGA)` — Verwijderd
+- 🔴 `42 Uitkering in het kader van bijstandsbesluit Zelfstandigen (Bbz)` — Verwijderd
+- 🔴 `43 Uitkering in het kader van de Participatiewet` — Verwijderd
+- 🔴 `43 Uitkering in het kader van de Participatiewet (voorheen WWB)` — Verwijderd
+- 🔴 `44 Uitkering in het kader van de Wet Werk en Inkomen (WWIK)` — Verwijderd
+- 🔴 `45 Uitkering in het kader van de Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte gewezen zelfstandigen (IOAZ)` — Verwijderd
+- 🔴 `46 Uitkering uit hoofde van de Toeslagenwet` — Verwijderd
+- 🔴 `50 Uitkeringen in het kader van overige sociale verzekeringswetten, hieronder vallen tevens: Ongevallenwet 1921, Land- en tuinbouwongevallenwet 1922 en Zeeongevallenwet 1919 (niet 22 of 24 tot en met 45)` — Verwijderd
+- 🔴 `50 Uitkeringen in het kader van overige sociale verzekeringswetten, hieronder vallen tevens: Ongevallenwet 1921, Land- en tuinbouwongevallenwet 1922 en Zeeongevallenwet 1919 (niet 22, 24 tot en met 45, 51 of 52)` — Verwijderd
+- 🔴 `51 Uitkering in het kader van de Wet Investeren in Jongeren (WIJ)` — Verwijderd
+- 🔴 `52 Uitkering in het kader van de wet Inkomensvoorziening Oudere Werklozen (IOW)` — Verwijderd
+- 🔴 `53 Uitkering in het kader van de vitaliteitsregeling` — Verwijderd
+- 🔴 `54 Opname levenslooptegoed door een werknemer die op 1 januari 61 jaar of ouder is` — Verwijderd
+- 🔴 `55 Uitkering in het kader van de Algemene Pensioenwet Politieke Ambtsdragers (APPA)` — Verwijderd
+- 🔴 `56 Ouderdomspensioen dat via de werkgever is opgebouwd` — Verwijderd
+- 🔴 `56 Ouderdomspensioen dat via de werkgever is opgebouwd of ouderdomspensioen opgebouwd via een verplichte beroepspensioenregeling/ bedrijfstakpensioenregeling` — Verwijderd
+- 🔴 `57 Nabestaandenpensioen dat via de werkgever is opgebouwd` — Verwijderd
+- 🔴 `57 Nabestaandenpensioen dat via de werkgever is opgebouwd of nabestaandenpensioen opgebouwd via een verplichte beroepspensioenregeling/ bedrijfstakpensioenregeling` — Verwijderd
+- 🔴 `58 Arbeidsongeschiktheidspensioen dat via de werkgever is opgebouwd` — Verwijderd
+- 🔴 `58 Arbeidsongeschiktheidspensioen dat via de werkgever is opgebouwd of arbeidsongeschiktheidspensioen opgebouwd via een verplichte beroepspensioenregeling/ bedrijfstakpensioenregeling` — Verwijderd
+- 🔴 `59 Lijfrenten die zijn afgesloten in het kader van een individuele of collectieve arbeidsovereenkomst` — Verwijderd
+- 🔴 `60 Lijfrenten die niet zijn afgesloten in het kader van een individuele of collectieve arbeidsovereenkomst` — Verwijderd
+- 🔴 `61 Aanvulling van de werkgever aan een werknemer op een uitkering werknemersverzekeringen, terwijl de dienstbetrekking is beëindigd` — Verwijderd
+- 🔴 `62 Ontslagvergoeding / transitievergoeding` — Verwijderd
+- 🔴 `63 Overige, niet hiervoor aangegeven, pensioenen of samenloop van meerdere pensioenen/lijfrenten of een betaling op grond van een afspraak na einde dienstbetrekking` — Verwijderd
 
-#### inwinningsmethodeGeometrie — **Added**
+##### `CdSzWet` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `bouwtekening` — **Added**
-- `digitaliseren` — **Added**
-- `fotogrammetrisch` — **Added**
-- `geconstrueerd` — **Added**
-- `laser` — **Added**
-- `niet bekend` — **Added**
-- `panoramabeelden` — **Added**
-- `scannen` — **Added**
-- `terrestrisch` — **Added**
+- 🔴 `(Tijdelijke Wet) Beperking Inkomensgevolgen Arbeidsongeschiktheidscriteria` — Verwijderd
+- 🔴 `(voormalige) Algemene Arbeidsongeschiktheidswet` — Verwijderd
+- 🔴 `(voormalige) Algemene Weduwen en Wezenwet` — Verwijderd
+- 🔴 `(voormalige) Rijksgroepregeling Werkloze Werknemers` — Verwijderd
+- 🔴 `Algemene bijstand (regeling)` — Verwijderd
+- 🔴 `Algemene Bijstandswet` — Verwijderd
+- 🔴 `Algemene Kinderbijslagwet` — Verwijderd
+- 🔴 `Algemene Nabestaandenwet` — Verwijderd
+- 🔴 `Algemene Ouderdomswet` — Verwijderd
+- 🔴 `Algemene Wet Bijzondere Ziektekosten` — Verwijderd
+- 🔴 `AOW-Overbruggingsregeling` — Verwijderd
+- 🔴 `AOW-Overbruggingsregeling` — Verwijderd
+- 🔴 `Besluit Bijstandverlening Zelfstandigen` — Verwijderd
+- 🔴 `Besluit Bijstandverlening Zelfstandigen – Bedrijfskapitaal` — Verwijderd
+- 🔴 `Besluit Bijstandverlening Zelfstandigen – Bijzondere Bijstand` — Verwijderd
+- 🔴 `Besluit Bijstandverlening Zelfstandigen – Levensonderhoud` — Verwijderd
+- 🔴 `Bijzondere Bijstand` — Verwijderd
+- 🔴 `Coördinatiewet Sociale Verzekering` — Verwijderd
+- 🔴 `Internationale wetten` — Verwijderd
+- 🔴 `Koninklijk besluit en aanverwante regelingen` — Verwijderd
+- 🔴 `Kopjesregeling` — Verwijderd
+- 🔴 `Organisatiewet Sociale Verzekering` — Verwijderd
+- 🔴 `Participatiewet Wajong` — Verwijderd
+- 🔴 `pensioenwetten` — Verwijderd
+- 🔴 `Regeling Inkomensvoorziening Volledig Arbeidsongeschikten` — Verwijderd
+- 🔴 `Regeling Werkhervatting Gedeeltelijk Arbeidsgeschikten` — Verwijderd
+- 🔴 `Remigratiewet` — Verwijderd
+- 🔴 `Tijdelijke Regeling Inkomensgevolgen herbeoordeelde arbeidsongeschikten` — Verwijderd
+- 🔴 `Toeslagenwet` — Verwijderd
+- 🔴 `VUT-regeling` — Verwijderd
+- 🔴 `Werkhervattingskas` — Verwijderd
+- 🔴 `Werkloosheidswet` — Verwijderd
+- 🔴 `Werkloosheidswet Faillissementen` — Verwijderd
+- 🔴 `Wet Arbeid en Zorg` — Verwijderd
+- 🔴 `Wet Arbeidsongeschiktheidsverzekering Zelfstandigen` — Verwijderd
+- 🔴 `Wet Arbeidsongeschiktheidsvoorziening Jonggehandicapten (WAJONG)` — Verwijderd
+- 🔴 `Wet Arbeidsongeschiktheidsvoorziening Militairen` — Verwijderd
+- 🔴 `Wet Inkomensvoorziening Oudere en gedeeltelijk Arbeidsongeschikte gewezen Zelfstandigen` — Verwijderd
+- 🔴 `Wet Inkomensvoorziening Oudere en gedeeltelijk Arbeidsongeschikte Werkloze Werknemers` — Verwijderd
+- 🔴 `Wet Inkomensvoorziening Oudere Werklozen` — Verwijderd
+- 🔴 `Wet Investeren in Jongeren` — Verwijderd
+- 🔴 `Wet Maatschappelijke Ondersteuning` — Verwijderd
+- 🔴 `Wet op de (RE)integratie Arbeidsgehandicapten` — Verwijderd
+- 🔴 `Wet op de Arbeidsongeschiktheidsverzekering` — Verwijderd
+- 🔴 `Wet Sociale Werkvooriening` — Verwijderd
+- 🔴 `Wet Voorzieningen Gehandicapten` — Verwijderd
+- 🔴 `Wet werk en arbeidsondersteuning jonggehandicapten (Wet Wajong)` — Verwijderd
+- 🔴 `Wet Werk en Arbeidsondersteuning Jonggehandicapten (Wet Wajong)` — Verwijderd
+- 🔴 `Wet Werk en Bijstand` — Verwijderd
+- 🔴 `Wet Werk en Inkomen Kunstenaars` — Verwijderd
+- 🔴 `Wet Werk en Inkomen naar Arbeidsvermogen` — Verwijderd
+- 🔴 `Ziekenfondswet` — Verwijderd
+- 🔴 `Ziektewet` — Verwijderd
+- 🔴 `Zorgverzekeringswet` — Verwijderd
 
-#### inwinningsmethodeGeometrie — **Removed**
+##### `CdUitkeringsperiode` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `bouwtekening` — **Removed**
-- `digitaliseren` — **Removed**
-- `fotogrammetrisch` — **Removed**
-- `geconstrueerd` — **Removed**
-- `laser` — **Removed**
-- `niet bekend` — **Removed**
-- `panoramabeelden` — **Removed**
-- `scannen` — **Removed**
-- `terrestrisch` — **Removed**
+- 🔴 `2 weken` — Verwijderd
+- 🔴 `4 weken (13 maanden)` — Verwijderd
+- 🔴 `5 weken` — Verwijderd
+- 🔴 `dag` — Verwijderd
+- 🔴 `eenmalig` — Verwijderd
+- 🔴 `jaar` — Verwijderd
+- 🔴 `kwartaal` — Verwijderd
+- 🔴 `maand` — Verwijderd
+- 🔴 `niet van toepassing` — Verwijderd
+- 🔴 `week` — Verwijderd
 
-#### inwinningsmethodeOppervlakte — **Removed**
+##### `CodeSoortVrijlating` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `gemeten op basis van de bouwtekening` — **Removed**
-- `initiële vulling d.m.v. conversietabel inhoud-oppervlak` — **Removed**
-- `initiële vulling d.m.v. gegevens bouw- en woningtoezicht` — **Removed**
-- `initiële vulling d.m.v. gegevens woningbouwvereniging` — **Removed**
-- `initiële vulling d.m.v. oppervlaktegegevens WOZ-administratie` — **Removed**
-- `initiële vulling d.m.v. overige brongegevens` — **Removed**
-- `overgenomen uit bouwaanvraag` — **Removed**
-- `ter plaatse ingemeten` — **Removed**
+- 🔴 `Inkomstenvrijlating 12,5% - Art. 31 lid 2r` — Verwijderd
+- 🔴 `Inkomstenvrijlating 15,0% - Art. 31 lid 2y` — Verwijderd
+- 🔴 `Inkomstenvrijlating 25,0% - Art. 31 lid 2n` — Verwijderd
 
-#### inwinningsmethodeOppervlakte — **Added**
+##### `Inkomstencomponenttype` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `gemeten op basis van de bouwtekening` — **Added**
-- `initiële vulling d.m.v. conversietabel inhoud-oppervlak` — **Added**
-- `initiële vulling d.m.v. gegevens bouw- en woningtoezicht` — **Added**
-- `initiële vulling d.m.v. gegevens woningbouwvereniging` — **Added**
-- `initiële vulling d.m.v. oppervlaktegegevens WOZ-administratie` — **Added**
-- `initiële vulling d.m.v. overige brongegevens` — **Added**
-- `overgenomen uit bouwaanvraag` — **Added**
-- `ter plaatse ingemeten` — **Added**
+- 🔴 `Alimentatie` — Verwijderd
+- 🔴 `Ander inkomen` — Verwijderd
+- 🔴 `Betaald werk` — Verwijderd
+- 🔴 `Eigen bedrijf` — Verwijderd
+- 🔴 `Heffingskorting` — Verwijderd
+- 🔴 `Hobby` — Verwijderd
+- 🔴 `Inkomstenvermindering` — Verwijderd
+- 🔴 `Pensioen` — Verwijderd
+- 🔴 `Stage` — Verwijderd
+- 🔴 `Studiefinanciering` — Verwijderd
+- 🔴 `Uitkering` — Verwijderd
+- 🔴 `Vergoeding` — Verwijderd
 
-#### ontsluitingswijzeVerdieping — **Added**
+##### `InkomstensoortAlimentatie` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `lift` — **Added**
-- `roltrap` — **Added**
-- `trap` — **Added**
+- 🔴 `Alimentatie ex-echtgenote/echtgenootg (geindexeerd)` — Verwijderd
+- 🔴 `Alimentatie ex-echtgenote/echtgenootg (niet geindexeerd)` — Verwijderd
+- 🔴 `Alimentatie kinderen (geindexeerd)` — Verwijderd
+- 🔴 `Alimentatie kinderen (niet geindexeerd)` — Verwijderd
 
-#### ontsluitingswijzeVerdieping — **Removed**
+##### `InkomstensoortBetaaldWerk` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `lift` — **Removed**
-- `roltrap` — **Removed**
-- `trap` — **Removed**
+- 🔴 `Betaald werk` — Verwijderd
+- 🔴 `Zelfstandige / ZZP` — Verwijderd
 
-#### soortWoonobject — **Added**
+##### `InkomstensoortPensioen` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `bijzonder woongebouw` — **Added**
-- `overig woonverblijf` — **Added**
-- `recreatiewoning` — **Added**
-- `woning` — **Added**
-- `wooneenheid` — **Added**
+- 🔴 `Bedrijfspensioen` — Verwijderd
+- 🔴 `Buitenlands pensioen` — Verwijderd
+- 🔴 `Invaliditeitspensioen` — Verwijderd
+- 🔴 `Nabestaandepensioen (weduwe/weduwnaar)` — Verwijderd
+- 🔴 `Nabestaandepensioen (wezen)` — Verwijderd
+- 🔴 `Pensioen ivm oorlog` — Verwijderd
 
-#### soortWoonobject — **Removed**
+##### `InkomstensoortStudiefinanciering` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `bijzonder woongebouw` — **Removed**
-- `overig woonverblijf` — **Removed**
-- `recreatiewoning` — **Removed**
-- `woning` — **Removed**
-- `wooneenheid` — **Removed**
+- 🔴 `WSF` — Verwijderd
+- 🔴 `WTOS` — Verwijderd
 
-#### statusNummeraanduiding — **Added**
+##### `JsonRuledGroupType` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `naamgeving ingetrokken` — **Added**
-- `naamgeving uitgegeven` — **Added**
+- 🔴 `allOf` — Verwijderd
+- 🔴 `anyOf` — Verwijderd
+- 🔴 `oneOf` — Verwijderd
 
-#### statusNummeraanduiding — **Removed**
+##### `Onderhoudsplichttype` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `naamgeving ingetrokken` — **Removed**
-- `naamgeving uitgegeven` — **Removed**
+- 🔴 `Kind` — Verwijderd
+- 🔴 `Partner` — Verwijderd
 
-#### statusOpenbareRuimte — **Removed**
+##### `SoortContract` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `naamgeving ingetrokken` — **Removed**
-- `naamgeving uitgegeven` — **Removed**
+- 🔴 `0-uren contract` — Verwijderd
+- 🔴 `Op oproepbasis` — Verwijderd
+- 🔴 `Uitzendbureau` — Verwijderd
+- 🔴 `Vast contract` — Verwijderd
+- 🔴 `Voor bepaalde tijd` — Verwijderd
 
-#### statusOpenbareRuimte — **Added**
+#### Enumeraties
 
-##### Literals
+##### `BrutoNettoInkomsten` — 🟢 Toegevoegd
 
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `naamgeving ingetrokken` — **Added**
-- `naamgeving uitgegeven` — **Added**
+**Literals:**
 
-#### statusPand — **Removed**
+- 🟢 `Bruto` — Toegevoegd
+- 🟢 `Netto` — Toegevoegd
 
-##### Literals
+##### `CdSrtInkomstenverhouding` — 🟢 Toegevoegd
 
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `bouw gestart` — **Removed**
-- `bouwaanvraag ontvangen` — **Removed**
-- `bouwvergunning verleend` — **Removed**
-- `niet gerealiseerd pand` — **Removed**
-- `pand buiten gebruik` — **Removed**
-- `pand gesloopt` — **Removed**
-- `pand in gebruik` — **Removed**
-- `pand in gebruik (niet ingemeten)` — **Removed**
-- `pand ten onrechte opgevoerd` — **Removed**
-- `sloopvergunning verleend` — **Removed**
-- `verbouwing pand` — **Removed**
+**Literals:**
 
-#### statusPand — **Added**
+- 🟢 `11 Loon of salaris ambtenaren in de zin van de Ambtenarenwet` — Toegevoegd
+- 🟢 `11 Loon of salaris ambtenaren in de zin van de Ambtenarenwet 1929` — Toegevoegd
+- 🟢 `12 Loon of salaris werknemers van gepremieerde, gesubsidieerde of gebudgetteerde instellingen, inclusief uitvoeringsorganen sociale zekerheden` — Toegevoegd
+- 🟢 `13 Loon of salaris directeuren van een nv/bv, wel verzekerd voor de werknemersverzekeringen` — Toegevoegd
+- 🟢 `14 Loon of salaris overige werknemers niet verzekerd voor de Wet Werk en inkomen naar Arbeidsvermogen (WIA) of WAO` — Toegevoegd
+- 🟢 `15 Loon of salaris niet onder te brengen onder 11 tot en met 14 of 17` — Toegevoegd
+- 🟢 `15 Loon of salaris niet onder te brengen onder 11, 13 of 17` — Toegevoegd
+- 🟢 `17 Loon of salaris directeuren van een nv/bv, niet verzekerd voor de werknemersverzekeringen` — Toegevoegd
+- 🟢 `18 Wachtgeld van een overheidsinstelling` — Toegevoegd
+- 🟢 `21 Overige pensioenen, lijfrenten, enz. (niet 23 (Oorlogs- en verzetspensioenen))` — Toegevoegd
+- 🟢 `22 Uitkering in het kader van de Algemene Ouderdomswet (AOW)` — Toegevoegd
+- 🟢 `23 Oorlogs- en verzetspensioenen` — Toegevoegd
+- 🟢 `24 Uitkering in het kader van de Algemene nabestaandenwet (ANW)` — Toegevoegd
+- 🟢 `31 Uitkering in het kader van de Ziektewet (ZW) en vrijwillige verzekering Ziektewet` — Toegevoegd
+- 🟢 `32 Uitkering in het kader van de Wet op de Arbeids-ongeschiktheidsverzekering (WAO) en particuliere verzekering ziekte, invaliditeit en ongeval` — Toegevoegd
+- 🟢 `33 Uitkering in het kader van de Nieuwe Werkloosheidswet (nWW)` — Toegevoegd
+- 🟢 `34 Uitkering in het kader van de Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte werkloze werknemers (IOAW)` — Toegevoegd
+- 🟢 `35 Vervolguitkering in het kader van de Nieuwe Werkloosheidswet (nWW)` — Toegevoegd
+- 🟢 `36 Uitkering in het kader van de Wet arbeidsongeschiktheidsverzekering zelfstandigen (Waz)` — Toegevoegd
+- 🟢 `37 Wet arbeidsongeschiktheidsvoorziening jonggehandicapten (Wajong)` — Toegevoegd
+- 🟢 `37 Wet werk en ondersteuning jonggehandicapten (Wajong)` — Toegevoegd
+- 🟢 `38 Samenloop (gelijktijdig of volgtijdelijk) van uitkeringen van Wajong met Waz, WAO/IVA of WGA` — Toegevoegd
+- 🟢 `39 Uitkering in het kader van de Regeling inkomensvoorziening volledig arbeidsongeschikten (IVA)` — Toegevoegd
+- 🟢 `40 Uitkering in het kader van de Regeling werkhervatting gedeeltelijk arbeidsgeschikten WGA)` — Toegevoegd
+- 🟢 `42 Uitkering in het kader van bijstandsbesluit Zelfstandigen (Bbz)` — Toegevoegd
+- 🟢 `43 Uitkering in het kader van de Participatiewet` — Toegevoegd
+- 🟢 `43 Uitkering in het kader van de Participatiewet (voorheen WWB)` — Toegevoegd
+- 🟢 `44 Uitkering in het kader van de Wet Werk en Inkomen (WWIK)` — Toegevoegd
+- 🟢 `45 Uitkering in het kader van de Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte gewezen zelfstandigen (IOAZ)` — Toegevoegd
+- 🟢 `46 Uitkering uit hoofde van de Toeslagenwet` — Toegevoegd
+- 🟢 `50 Uitkeringen in het kader van overige sociale verzekeringswetten, hieronder vallen tevens: Ongevallenwet 1921, Land- en tuinbouwongevallenwet 1922 en Zeeongevallenwet 1919 (niet 22 of 24 tot en met 45)` — Toegevoegd
+- 🟢 `50 Uitkeringen in het kader van overige sociale verzekeringswetten, hieronder vallen tevens: Ongevallenwet 1921, Land- en tuinbouwongevallenwet 1922 en Zeeongevallenwet 1919 (niet 22, 24 tot en met 45, 51 of 52)` — Toegevoegd
+- 🟢 `51 Uitkering in het kader van de Wet Investeren in Jongeren (WIJ)` — Toegevoegd
+- 🟢 `52 Uitkering in het kader van de wet Inkomensvoorziening Oudere Werklozen (IOW)` — Toegevoegd
+- 🟢 `53 Uitkering in het kader van de vitaliteitsregeling` — Toegevoegd
+- 🟢 `54 Opname levenslooptegoed door een werknemer die op 1 januari 61 jaar of ouder is` — Toegevoegd
+- 🟢 `55 Uitkering in het kader van de Algemene Pensioenwet Politieke Ambtsdragers (APPA)` — Toegevoegd
+- 🟢 `56 Ouderdomspensioen dat via de werkgever is opgebouwd` — Toegevoegd
+- 🟢 `56 Ouderdomspensioen dat via de werkgever is opgebouwd of ouderdomspensioen opgebouwd via een verplichte beroepspensioenregeling/ bedrijfstakpensioenregeling` — Toegevoegd
+- 🟢 `57 Nabestaandenpensioen dat via de werkgever is opgebouwd` — Toegevoegd
+- 🟢 `57 Nabestaandenpensioen dat via de werkgever is opgebouwd of nabestaandenpensioen opgebouwd via een verplichte beroepspensioenregeling/ bedrijfstakpensioenregeling` — Toegevoegd
+- 🟢 `58 Arbeidsongeschiktheidspensioen dat via de werkgever is opgebouwd` — Toegevoegd
+- 🟢 `58 Arbeidsongeschiktheidspensioen dat via de werkgever is opgebouwd of arbeidsongeschiktheidspensioen opgebouwd via een verplichte beroepspensioenregeling/ bedrijfstakpensioenregeling` — Toegevoegd
+- 🟢 `59 Lijfrenten die zijn afgesloten in het kader van een individuele of collectieve arbeidsovereenkomst` — Toegevoegd
+- 🟢 `60 Lijfrenten die niet zijn afgesloten in het kader van een individuele of collectieve arbeidsovereenkomst` — Toegevoegd
+- 🟢 `61 Aanvulling van de werkgever aan een werknemer op een uitkering werknemersverzekeringen, terwijl de dienstbetrekking is beëindigd` — Toegevoegd
+- 🟢 `62 Ontslagvergoeding / transitievergoeding` — Toegevoegd
+- 🟢 `63 Overige, niet hiervoor aangegeven, pensioenen of samenloop van meerdere pensioenen/lijfrenten of een betaling op grond van een afspraak na einde dienstbetrekking` — Toegevoegd
 
-##### Literals
+##### `CdSzWet` — 🟢 Toegevoegd
 
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `bouw gestart` — **Added**
-- `bouwaanvraag ontvangen` — **Added**
-- `bouwvergunning verleend` — **Added**
-- `niet gerealiseerd pand` — **Added**
-- `pand buiten gebruik` — **Added**
-- `pand gesloopt` — **Added**
-- `pand in gebruik` — **Added**
-- `pand in gebruik (niet ingemeten)` — **Added**
-- `pand ten onrechte opgevoerd` — **Added**
-- `sloopvergunning verleend` — **Added**
-- `verbouwing pand` — **Added**
+**Literals:**
 
-#### statusVerblijfsobject — **Removed**
+- 🟢 `(Tijdelijke Wet) Beperking Inkomensgevolgen Arbeidsongeschiktheidscriteria` — Toegevoegd
+- 🟢 `(voormalige) Algemene Arbeidsongeschiktheidswet` — Toegevoegd
+- 🟢 `(voormalige) Algemene Weduwen en Wezenwet` — Toegevoegd
+- 🟢 `(voormalige) Rijksgroepregeling Werkloze Werknemers` — Toegevoegd
+- 🟢 `AOW-Overbruggingsregeling` — Toegevoegd
+- 🟢 `Algemene Bijstandswet` — Toegevoegd
+- 🟢 `Algemene Kinderbijslagwet` — Toegevoegd
+- 🟢 `Algemene Nabestaandenwet` — Toegevoegd
+- 🟢 `Algemene Ouderdomswet` — Toegevoegd
+- 🟢 `Algemene Wet Bijzondere Ziektekosten` — Toegevoegd
+- 🟢 `Algemene bijstand (regeling)` — Toegevoegd
+- 🟢 `Besluit Bijstandverlening Zelfstandigen` — Toegevoegd
+- 🟢 `Besluit Bijstandverlening Zelfstandigen – Bedrijfskapitaal` — Toegevoegd
+- 🟢 `Besluit Bijstandverlening Zelfstandigen – Bijzondere Bijstand` — Toegevoegd
+- 🟢 `Besluit Bijstandverlening Zelfstandigen – Levensonderhoud` — Toegevoegd
+- 🟢 `Bijzondere Bijstand` — Toegevoegd
+- 🟢 `Coördinatiewet Sociale Verzekering` — Toegevoegd
+- 🟢 `Internationale wetten` — Toegevoegd
+- 🟢 `Koninklijk besluit en aanverwante regelingen` — Toegevoegd
+- 🟢 `Kopjesregeling` — Toegevoegd
+- 🟢 `Organisatiewet Sociale Verzekering` — Toegevoegd
+- 🟢 `Participatiewet Wajong` — Toegevoegd
+- 🟢 `Regeling Inkomensvoorziening Volledig Arbeidsongeschikten` — Toegevoegd
+- 🟢 `Regeling Werkhervatting Gedeeltelijk Arbeidsgeschikten` — Toegevoegd
+- 🟢 `Remigratiewet` — Toegevoegd
+- 🟢 `Tijdelijke Regeling Inkomensgevolgen herbeoordeelde arbeidsongeschikten` — Toegevoegd
+- 🟢 `Toeslagenwet` — Toegevoegd
+- 🟢 `VUT-regeling` — Toegevoegd
+- 🟢 `Werkhervattingskas` — Toegevoegd
+- 🟢 `Werkloosheidswet` — Toegevoegd
+- 🟢 `Werkloosheidswet Faillissementen` — Toegevoegd
+- 🟢 `Wet Arbeid en Zorg` — Toegevoegd
+- 🟢 `Wet Arbeidsongeschiktheidsverzekering Zelfstandigen` — Toegevoegd
+- 🟢 `Wet Arbeidsongeschiktheidsvoorziening Jonggehandicapten (WAJONG)` — Toegevoegd
+- 🟢 `Wet Arbeidsongeschiktheidsvoorziening Militairen` — Toegevoegd
+- 🟢 `Wet Inkomensvoorziening Oudere Werklozen` — Toegevoegd
+- 🟢 `Wet Inkomensvoorziening Oudere en gedeeltelijk Arbeidsongeschikte Werkloze Werknemers` — Toegevoegd
+- 🟢 `Wet Inkomensvoorziening Oudere en gedeeltelijk Arbeidsongeschikte gewezen Zelfstandigen` — Toegevoegd
+- 🟢 `Wet Investeren in Jongeren` — Toegevoegd
+- 🟢 `Wet Maatschappelijke Ondersteuning` — Toegevoegd
+- 🟢 `Wet Sociale Werkvooriening` — Toegevoegd
+- 🟢 `Wet Voorzieningen Gehandicapten` — Toegevoegd
+- 🟢 `Wet Werk en Arbeidsondersteuning Jonggehandicapten (Wet Wajong)` — Toegevoegd
+- 🟢 `Wet Werk en Bijstand` — Toegevoegd
+- 🟢 `Wet Werk en Inkomen Kunstenaars` — Toegevoegd
+- 🟢 `Wet Werk en Inkomen naar Arbeidsvermogen` — Toegevoegd
+- 🟢 `Wet op de (RE)integratie Arbeidsgehandicapten` — Toegevoegd
+- 🟢 `Wet op de Arbeidsongeschiktheidsverzekering` — Toegevoegd
+- 🟢 `Wet werk en arbeidsondersteuning jonggehandicapten (Wet Wajong)` — Toegevoegd
+- 🟢 `Ziekenfondswet` — Toegevoegd
+- 🟢 `Ziektewet` — Toegevoegd
+- 🟢 `Zorgverzekeringswet` — Toegevoegd
+- 🟢 `pensioenwetten` — Toegevoegd
 
-##### Literals
+##### `CdUitkeringsperiode` — 🟢 Toegevoegd
 
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `niet gerealiseerd verblijfsobject` — **Removed**
-- `verblijfsobject buiten gebruik` — **Removed**
-- `verblijfsobject gevormd` — **Removed**
-- `verblijfsobject in gebruik` — **Removed**
-- `verblijfsobject in gebruik (niet ingemeten)` — **Removed**
-- `verblijfsobject ingetrokken` — **Removed**
+**Literals:**
 
-#### statusVerblijfsobject — **Added**
+- 🟢 `2 weken` — Toegevoegd
+- 🟢 `4 weken (13 maanden)` — Toegevoegd
+- 🟢 `5 weken` — Toegevoegd
+- 🟢 `dag` — Toegevoegd
+- 🟢 `eenmalig` — Toegevoegd
+- 🟢 `jaar` — Toegevoegd
+- 🟢 `kwartaal` — Toegevoegd
+- 🟢 `maand` — Toegevoegd
+- 🟢 `niet van toepassing` — Toegevoegd
+- 🟢 `week` — Toegevoegd
 
-##### Literals
+##### `CodeSoortVrijlating` — 🟢 Toegevoegd
 
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `niet gerealiseerd verblijfsobject` — **Added**
-- `verblijfsobject buiten gebruik` — **Added**
-- `verblijfsobject gevormd` — **Added**
-- `verblijfsobject in gebruik` — **Added**
-- `verblijfsobject in gebruik (niet ingemeten)` — **Added**
-- `verblijfsobject ingetrokken` — **Added**
+**Literals:**
 
-#### statusVoortgangBouw — **Added**
+- 🟢 `Inkomstenvrijlating 12,5% - Art. 31 lid 2r` — Toegevoegd
+- 🟢 `Inkomstenvrijlating 15,0% - Art. 31 lid 2y` — Toegevoegd
+- 🟢 `Inkomstenvrijlating 25,0% - Art. 31 lid 2n` — Toegevoegd
 
-##### Literals
+##### `Inkomstencomponenttype` — 🟢 Toegevoegd
 
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `nieuwbouw gereed` — **Added**
-- `nieuwbouw gestart` — **Added**
-- `nieuwbouwvergunning ingetrokken` — **Added**
-- `nieuwbouwvergunning verleend` — **Added**
-- `sloop gereed` — **Added**
-- `sloop gestart` — **Added**
-- `sloopvergunning ingetrokken` — **Added**
-- `sloopvergunning verleend` — **Added**
-- `verbouw gereed` — **Added**
-- `verbouw gestart` — **Added**
-- `verbouwvergunning ingetrokken` — **Added**
-- `verbouwvergunning verleend` — **Added**
+**Literals:**
 
-#### statusVoortgangBouw — **Added**
+- 🟢 `Alimentatie` — Toegevoegd
+- 🟢 `Ander inkomen` — Toegevoegd
+- 🟢 `Betaald werk` — Toegevoegd
+- 🟢 `Eigen bedrijf` — Toegevoegd
+- 🟢 `Heffingskorting` — Toegevoegd
+- 🟢 `Hobby` — Toegevoegd
+- 🟢 `Inkomstenvermindering` — Toegevoegd
+- 🟢 `Pensioen` — Toegevoegd
+- 🟢 `Stage` — Toegevoegd
+- 🟢 `Studiefinanciering` — Toegevoegd
+- 🟢 `Uitkering` — Toegevoegd
+- 🟢 `Vergoeding` — Toegevoegd
 
-##### Literals
+##### `InkomstensoortAlimentatie` — 🟢 Toegevoegd
 
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `nieuwbouw gereed` — **Added**
-- `nieuwbouw gestart` — **Added**
-- `nieuwbouwvergunning ingetrokken` — **Added**
-- `nieuwbouwvergunning verleend` — **Added**
-- `sloop gereed` — **Added**
-- `sloop gestart` — **Added**
-- `sloopvergunning ingetrokken` — **Added**
-- `sloopvergunning verleend` — **Added**
-- `verbouw gereed` — **Added**
-- `verbouw gestart` — **Added**
-- `verbouwvergunning ingetrokken` — **Added**
-- `verbouwvergunning verleend` — **Added**
+**Literals:**
 
-#### statusVoortgangBouw — **Removed**
+- 🟢 `Alimentatie ex-echtgenote/echtgenootg (geindexeerd)` — Toegevoegd
+- 🟢 `Alimentatie ex-echtgenote/echtgenootg (niet geindexeerd)` — Toegevoegd
+- 🟢 `Alimentatie kinderen (geindexeerd)` — Toegevoegd
+- 🟢 `Alimentatie kinderen (niet geindexeerd)` — Toegevoegd
 
-##### Literals
+##### `InkomstensoortBetaaldWerk` — 🟢 Toegevoegd
 
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `nieuwbouw gereed` — **Removed**
-- `nieuwbouw gestart` — **Removed**
-- `nieuwbouwvergunning ingetrokken` — **Removed**
-- `nieuwbouwvergunning verleend` — **Removed**
-- `sloop gereed` — **Removed**
-- `sloop gestart` — **Removed**
-- `sloopvergunning ingetrokken` — **Removed**
-- `sloopvergunning verleend` — **Removed**
-- `verbouw gereed` — **Removed**
-- `verbouw gestart` — **Removed**
-- `verbouwvergunning ingetrokken` — **Removed**
-- `verbouwvergunning verleend` — **Removed**
+**Literals:**
 
-#### statusWoonplaats — **Added**
+- 🟢 `Betaald werk` — Toegevoegd
+- 🟢 `Zelfstandige / ZZP` — Toegevoegd
 
-##### Literals
+##### `InkomstensoortPensioen` — 🟢 Toegevoegd
 
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `woonplaats aangewezen` — **Added**
-- `woonplaats ingetrokken` — **Added**
+**Literals:**
 
-#### statusWoonplaats — **Removed**
+- 🟢 `Bedrijfspensioen` — Toegevoegd
+- 🟢 `Buitenlands pensioen` — Toegevoegd
+- 🟢 `Invaliditeitspensioen` — Toegevoegd
+- 🟢 `Nabestaandepensioen (weduwe/weduwnaar)` — Toegevoegd
+- 🟢 `Nabestaandepensioen (wezen)` — Toegevoegd
+- 🟢 `Pensioen ivm oorlog` — Toegevoegd
 
-##### Literals
+##### `InkomstensoortStudiefinanciering` — 🟢 Toegevoegd
 
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `woonplaats aangewezen` — **Removed**
-- `woonplaats ingetrokken` — **Removed**
+**Literals:**
 
-#### typeringOpenbareRuimte — **Removed**
+- 🟢 `WSF` — Toegevoegd
+- 🟢 `WTOS` — Toegevoegd
 
-##### Literals
+##### `JsonRuledGroupType` — 🟢 Toegevoegd
 
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `administratief gebied` — **Removed**
-- `functioneel gebied` — **Removed**
-- `kunstwerk` — **Removed**
-- `landschappelijk gebied` — **Removed**
-- `spoorbaan` — **Removed**
-- `terrein` — **Removed**
-- `water` — **Removed**
-- `weg` — **Removed**
+**Literals:**
 
-#### typeringOpenbareRuimte — **Added**
+- 🟢 `allOf` — Toegevoegd
+- 🟢 `anyOf` — Toegevoegd
+- 🟢 `oneOf` — Toegevoegd
 
-##### Literals
+##### `Onderhoudsplichttype` — 🟢 Toegevoegd
 
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `administratief gebied` — **Added**
-- `functioneel gebied` — **Added**
-- `kunstwerk` — **Added**
-- `landschappelijk gebied` — **Added**
-- `spoorbaan` — **Added**
-- `terrein` — **Added**
-- `water` — **Added**
-- `weg` — **Added**
+**Literals:**
 
-## Package: Model Kern RSGB
+- 🟢 `Kind` — Toegevoegd
+- 🟢 `Partner` — Toegevoegd
 
-### Classes
+##### `SoortContract` — 🟢 Toegevoegd
 
-#### Appartementsrechtsplitsing — **Unchanged**
+**Literals:**
 
-##### Attributes
+- 🟢 `0-uren contract` — Toegevoegd
+- 🟢 `Op oproepbasis` — Toegevoegd
+- 🟢 `Uitzendbureau` — Toegevoegd
+- 🟢 `Vast contract` — Toegevoegd
+- 🟢 `Voor bepaalde tijd` — Toegevoegd
 
-- typeSplitsing — **Changed**
-  - **primitive**: `` → `typeringAppartementsrechtsplitsing`
-  - **enumeration_id**: `` → `Enumeratie: typeringAppartementsrechtsplitsing`
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekmodel-sociaal-domein-generiekinkomstenmodel-inkomsten"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Model Inkomsten
 
-#### BegroeidTerreindeel — **Unchanged**
+#### Classes
 
-##### Attributes
+##### `Alimentatie` — 🟡 Attributen gewijzigd
 
-- LOD0Geometrie — **Changed**
-  - **name**: `LOD0GeometrieBegroeidTerreindeel` → `LOD0Geometrie`
-- datumBeginGeldigheid — **Changed**
-  - **name**: `datumBeginGeldigheidBegroeidTerreindeel` → `datumBeginGeldigheid`
-- datumEindeGeldigheid — **Changed**
-  - **name**: `datumEindeGeldigheidBegroeidTerreindeel` → `datumEindeGeldigheid`
-- fysiekVoorkomen — **Changed**
-  - **name**: `fysiekVoorkomenBegroeidTerreindeel` → `fysiekVoorkomen`
-  - **enumeration_id**: `Enumeratie: fysiekVoorkomenBegroeidTerrein` → `Enumeratie: fysiekVoorkomenBegroeidTerrein`
-- geometrie — **Changed**
-  - **name**: `geometrieBegroeidTerreindeel` → `geometrie`
-- identificatie — **Changed**
-  - **name**: `identificatieBegroeidTerreindeel` → `identificatie`
-- kruinlijngeometrie — **Changed**
-  - **name**: `kruinlijngeometrieBegroeidTerreindeel` → `kruinlijngeometrie`
-- opTalud — **Changed**
-  - **name**: `begroeidTerreindeelOpTalud` → `opTalud`
-  - **primitive**: `INDIC` → `boolean`
-- plusFysiekVoorkomen — **Changed**
-  - **name**: `plusFysiekVoorkomenBegroeidTerreindeel` → `plusFysiekVoorkomen`
-  - **enumeration_id**: `Enumeratie: fysiekVoorkomenBegroeidTerreinPlus` → `Enumeratie: fysiekVoorkomenBegroeidTerreinPlus`
-- relatieveHoogteligging — **Changed**
-  - **name**: `relatieveHoogteliggingBegroeidTerreindeel` → `relatieveHoogteligging`
-- status — **Changed**
-  - **name**: `statusBegroeidTerreindeel` → `status`
-  - **enumeration_id**: `Enumeratie: statusGeoObject` → `Enumeratie: statusGeoObject`
+**Attributen:**
 
-#### Briefadres — **Unchanged**
+- 🔴 `Alimentatie.Id` — Verwijderd
+- 🟡 `Bedrag aan andere rekeningen` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Bedrag`
+- 🟡 `Bedrag in convenant` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `BijdrageExPartnerAndereRekeningen` — Gewijzigd
+    - **naam**: `Bijdrage ex partner voor andere rekeningen` → `BijdrageExPartnerAndereRekeningen`
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Inkomstensoort alimentatie` — Gewijzigd
+    - **primitieve type**: `InkomstensoortAlimentatie` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Datatypes::InkomstensoortAlimentatie`
+- 🟡 `Juiste bedrag betaald door ex partner` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `LBIO ingeschakeld` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
 
-##### Attributes
+##### `Ander inkomen` — 🟡 Attributen gewijzigd
 
-- adresFunctie — **Changed**
-  - **primitive**: `` → `An200`
-- omschrijvingAangifte — **Changed**
-  - **primitive**: `Text` → `AN255`
+**Attributen:**
 
-#### FunctioneelGebied — **Unchanged**
+- 🔴 `AnderInkomen.Id` — Verwijderd
 
-##### Attributes
+##### `Betaald werk` — 🟡 Attributen gewijzigd
 
-- statusFunctioneelGebied — **Changed**
-  - **enumeration_id**: `Enumeratie: statusGeoObject` → `Enumeratie: statusGeoObject`
+**Attributen:**
 
-#### Gebouwinstallatie — **Unchanged**
+- 🔴 `BetaaldWerk.Id` — Verwijderd
+- 🟡 `Arbeidscontract` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Inkomsten uit IKB-regeling` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Inkomstensoort betaald werk` — Gewijzigd
+    - **primitieve type**: `InkomstensoortBetaaldWerk` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Datatypes::InkomstensoortBetaaldWerk`
+- 🟡 `Loondienst` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Periodiciteit uitbetaling loon` — Gewijzigd
+    - **primitieve type**: `CdUitkeringsperiode` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Datatypes::CdUitkeringsperiode`
+- 🟡 `Soort contract` — Gewijzigd
+    - **primitieve type**: `SoortContract` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Datatypes::SoortContract`
 
-##### Attributes
+##### `Dertiende maand - eindejaarsuitkering` — 🟡 Attributen gewijzigd
 
-- statusGebouwinstallatie — **Changed**
-  - **enumeration_id**: `Enumeratie: statusGeoObject` → `Enumeratie: statusGeoObject`
-- typeGebouwinstallatie — **Changed**
-  - **enumeration_id**: `Enumeratie: typeringGebouwinstallatie` → `Enumeratie: typeringGebouwinstallatie`
+**Attributen:**
 
-#### IngeschrevenPersoon — **Unchanged**
+- 🔴 `DertiendeMaandEindejaarsuitkering.Id` — Verwijderd
 
-##### Attributes
+##### `Draagkracht` — 🟡 Attributen gewijzigd
 
-- gezinsrelatie — **Changed**
-  - **enumeration_id**: `Enumeratie: Gezinsrelatie` → `Enumeratie: Gezinsrelatie`
-- indicatieGeheim — **Changed**
-  - **enumeration_id**: `Enumeratie: Boolean` → `Enumeratie: Boolean`
-- ingezetene — **Changed**
-  - **enumeration_id**: `Enumeratie: Boolean` → `Enumeratie: Boolean`
-- signaleringReisdocument — **Changed**
-  - **enumeration_id**: `Enumeratie: Boolean` → `Enumeratie: Boolean`
+**Attributen:**
 
-#### Inrichtingselement — **Unchanged**
+- 🔴 `Draagkracht.Id` — Verwijderd
 
-##### Attributes
+##### `Draagkrachtregime` — 🟡 Attributen gewijzigd
 
-- LOD0GeometrieInrichtingselement — **Changed**
-  - **primitive**: `PuntLijnVlak` → `Surface`
-- geometrieInrichtingselement — **Changed**
-  - **primitive**: `PuntLijnVlak` → `Surface`
-- plusTypeInrichtingselement — **Changed**
-  - **enumeration_id**: `Enumeratie: typeringInrichtingselementPlus` → `Enumeratie: typeringInrichtingselementPlus`
-- statusInrichtingselement — **Changed**
-  - **enumeration_id**: `Enumeratie: statusGeoObject` → `Enumeratie: statusGeoObject`
-- typeInrichtingselement — **Changed**
-  - **enumeration_id**: `Enumeratie: typeringInrichtingselement` → `Enumeratie: typeringInrichtingselement`
+**Attributen:**
 
-#### KadastraalPerceel — **Unchanged**
+- 🔴 `Draagkrachtregime.Id` — Verwijderd
+- 🟡 `Initiele draagkracht` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Bedrag`
+- 🟡 `Resterende draagkracht` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Bedrag`
 
-##### Attributes
+##### `Eigen bedrijf` — 🟡 Attributen gewijzigd
 
-- indicatieDeelperceel — **Changed**
-  - **primitive**: `INDIC` → `boolean`
+**Attributen:**
 
-#### KadastraleOnroerendeZaak — **Unchanged**
+- 🔴 `EigenBedrijf.Id` — Verwijderd
+- 🟡 `Ingeschreven bij KvK` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Recht op zelfstandigenaftrek` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Toestemming gemeente parttime ondernemen` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
 
-##### Attributes
+##### `Heffingskorting` — 🟡 Attributen gewijzigd
 
-- appartementsrechtvolgnummer — **Changed**
-  - **stereotype**: `Data element` → `Attribuutsoort`
-- datumBeginGeldigheid — **Changed**
-  - **name**: `datumBeginGeldigheidKadastraleOnroerendeZaak` → `datumBeginGeldigheid`
-- datumEindeGeldigheid — **Changed**
-  - **name**: `datumEindeGeldigheidKadastraleOnroerendeZaak` → `datumEindeGeldigheid`
-- perceelnummer — **Changed**
-  - **stereotype**: `Data element` → `Attribuutsoort`
+**Attributen:**
 
-#### Kunstwerkdeel — **Unchanged**
+- 🔴 `Heffingskorting.Id` — Verwijderd
+- 🟡 `Algemene heffingskorting` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Inkomensafhankelijke combinatiekorting` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
 
-##### Attributes
+##### `Hobby` — 🟡 Attributen gewijzigd
 
-- LOD0GeometrieKunstwerkdeel — **Changed**
-  - **primitive**: `PuntLijnVlak` → `Surface`
-- statusKunstwerkdeel — **Changed**
-  - **enumeration_id**: `Enumeratie: statusGeoObject` → `Enumeratie: statusGeoObject`
+**Attributen:**
 
-#### MaatschappelijkeActiviteit — **Unchanged**
+- 🔴 `Hobby.Id` — Verwijderd
 
-##### Attributes
+##### `Inkomstencomponent` — 🟡 Attributen gewijzigd
 
-- adresBinnenland — **Changed**
-  - **primitive**: `AN257` → `BinnenlandsAdres`
-  - **type_class_id**: `` → `Objecttype: BinnenlandsAdres`
-- indicatieEconomischActief — **Changed**
-  - **primitive**: `INDIC` → `boolean`
+**Attributen:**
 
-#### Nationaliteit — **Unchanged**
+- 🔴 `Inkomstencomponent.Id` — Verwijderd
+- 🟡 `Bijgevoegd bewijs` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Bruto-Netto` — Gewijzigd
+    - **primitieve type**: `BrutoNettoInkomsten` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Datatypes::BrutoNettoInkomsten`
+- 🟡 `Inkomsten` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Bedrag`
+- 🟡 `Inkomstencomponenttype` — Gewijzigd
+    - **primitieve type**: `Inkomstencomponenttype` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Datatypes::Inkomstencomponenttype`
 
-##### Attributes
+##### `Inkomstenverhouding` — 🟡 Attributen gewijzigd
 
-- omschrijving — **Changed**
-  - **name**: `Nationaliteit` → `omschrijving`
-- redenVerkrijgingNLNationaliteit — **Changed**
-  - **name**: `Reden verkrijging Nederlandse nationaliteit` → `redenVerkrijgingNLNationaliteit`
-- redenVerliesNLNationaliteit — **Changed**
-  - **name**: `Reden verlies Nederlandse nationaliteit` → `redenVerliesNLNationaliteit`
+**Attributen:**
 
-#### NatuurlijkPersoon — **Unchanged**
+- 🔴 `Inkomstenverhouding.Id` — Verwijderd
+- 🟡 `Categorie Inkomsten` — Gewijzigd
+    - **primitieve type**: `CdSrtInkomstenverhouding` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Datatypes::CdSrtInkomstenverhouding`
 
-##### Attributes
+##### `Inkomstenvermindering` — 🟡 Attributen gewijzigd
 
-- adellijkeTitelOfPredikaat — **Changed**
-  - **enumeration_id**: `Enumeratie: adelijkeTitel` → `Enumeratie: adelijkeTitel`
-- bijzonderNederlanderschap — **Changed**
-  - **name**: `aanduidingBijzonderNederlanderschapPersoon` → `bijzonderNederlanderschap`
-- geslachtsaanduiding — **Changed**
-  - **primitive**: `geslacht` → `A1`
-  - **enumeration_id**: `Enumeratie: geslacht` → ``
+**Attributen:**
 
-#### NietNatuurlijkPersoon — **Unchanged**
+- 🔴 `Inkomstenvermindering.Id` — Verwijderd
 
-##### Attributes
+##### `Kostencomponent` — 🟡 Attributen gewijzigd
 
-- rechtsvorm — **Changed**
-  - **enumeration_id**: `Enumeratie: soortRechtsvorm` → `Enumeratie: soortRechtsvorm`
+**Attributen:**
 
-#### OnbegroeidTerreindeel — **Unchanged**
+- 🔴 `Kostencomponent.Id` — Verwijderd
+- 🟡 `Bedrag` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Bedrag`
 
-##### Attributes
+##### `Loonbeslag` — 🟡 Attributen gewijzigd
 
-- datumBeginGeldigheid — **Changed**
-  - **name**: `datumBeginGeldigheidOnbegroeidTerreindeel` → `datumBeginGeldigheid`
-- datumEindeGeldigheid — **Changed**
-  - **name**: `datumEindeGeldigheidOnbegroeidTerreindeel` → `datumEindeGeldigheid`
-- fysiekVoorkomen — **Changed**
-  - **name**: `fysiekVoorkomenOnbegroeidTerreindeel` → `fysiekVoorkomen`
-  - **enumeration_id**: `Enumeratie: fysiekVoorkomenOnbegroeidTerrein` → `Enumeratie: fysiekVoorkomenOnbegroeidTerrein`
-- geometrie — **Changed**
-  - **name**: `geometrieOnbegroeidTerreindeel` → `geometrie`
-- identificatie — **Changed**
-  - **name**: `identificatieOnbegroeidTerreindeel` → `identificatie`
-- kruinlijngeometrie — **Changed**
-  - **name**: `kruinlijngeometrieOnbegroeidTerreindeel` → `kruinlijngeometrie`
-- onbegroeidTerreindeelOpTalud — **Changed**
-  - **primitive**: `INDIC` → `boolean`
-- plusFysiekVoorkomen — **Changed**
-  - **name**: `plusFysiekVoorkomenOnbegroeidTerreindeel` → `plusFysiekVoorkomen`
-  - **enumeration_id**: `Enumeratie: fysiekVoorkomenOnbegroeidTerreinPlus` → `Enumeratie: fysiekVoorkomenOnbegroeidTerreinPlus`
-- relatieveHoogteligging — **Changed**
-  - **name**: `relatieveHoogteliggingOnbegroeidTerreindeel` → `relatieveHoogteligging`
-- status — **Changed**
-  - **name**: `statusOnbegroeidTerreindeel` → `status`
-  - **enumeration_id**: `Enumeratie: statusGeoObject` → `Enumeratie: statusGeoObject`
+**Attributen:**
 
-#### Onbestemd Adres — **Unchanged**
+- 🔴 `Loonbeslag.Id` — Verwijderd
 
-##### Attributes
+##### `Maaltijdvergoeding` — 🟡 Attributen gewijzigd
 
-- postcode — **Changed**
-  - **primitive**: `postcode` → `AN6`
+**Attributen:**
 
-#### OndersteunendWaterdeel — **Unchanged**
+- 🔴 `Maaltijdvergoeding.Id` — Verwijderd
 
-##### Attributes
+##### `Onderhoudsplicht` — 🟡 Attributen gewijzigd
 
-- datumBeginGeldigheid — **Changed**
-  - **name**: `datumBeginGeldigheidOndersteunendWaterdeel` → `datumBeginGeldigheid`
-- datumEindeGeldigheid — **Changed**
-  - **name**: `datumEindeGeldigheidOndersteunendWaterdeel` → `datumEindeGeldigheid`
-- geometrie — **Changed**
-  - **name**: `geometrieOndersteunendWaterdeel` → `geometrie`
-- identificatie — **Changed**
-  - **name**: `identificatieOndersteunendWaterdeel` → `identificatie`
-- plusType — **Changed**
-  - **name**: `plusTypeOndersteunendWaterdeel` → `plusType`
-  - **enumeration_id**: `Enumeratie: typeringOndersteunendWaterPlus` → ``
-- relatieveHoogteligging — **Changed**
-  - **name**: `relatieveHoogteliggingOndersteunendWaterdeel` → `relatieveHoogteligging`
-- status — **Changed**
-  - **name**: `statusOndersteunendWaterdeel` → `status`
-  - **enumeration_id**: `Enumeratie: statusGeoObject` → `Enumeratie: statusGeoObject`
-- type — **Changed**
-  - **name**: `typeOndersteunendWaterdeel` → `type`
-  - **enumeration_id**: `Enumeratie: typeringOndersteunendWater` → `Enumeratie: typeringOndersteunendWater`
+**Attributen:**
 
-#### OndersteunendWegdeel — **Unchanged**
+- 🔴 `Onderhoudsplicht.Id` — Verwijderd
+- 🟡 `Bijdrage` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Bedrag`
+- 🟡 `Onderhoudsplichttype` — Gewijzigd
+    - **primitieve type**: `Onderhoudsplichttype` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Datatypes::Onderhoudsplichttype`
 
-##### Attributes
+##### `Onderhoudsverhouding` — 🟡 Attributen gewijzigd
 
-- LOD0Geometrie — **Changed**
-  - **name**: `LOD0GeometrieOndersteunendWegdeel` → `LOD0Geometrie`
-- datumBeginGeldigheid — **Changed**
-  - **name**: `datumBeginGeldigheidOndersteunendWegdeel` → `datumBeginGeldigheid`
-- datumEindeGeldigheid — **Changed**
-  - **name**: `datumEindeGeldigheidOndersteunendWegdeel` → `datumEindeGeldigheid`
-- functie — **Changed**
-  - **name**: `functieOndersteunendWegdeel` → `functie`
-  - **enumeration_id**: `Enumeratie: functieOndersteunendWegdeel` → `Enumeratie: functieOndersteunendWegdeel`
-- fysiekVoorkomen — **Changed**
-  - **name**: `fysiekVoorkomenOndersteunendWegdeel ` → `fysiekVoorkomen`
-  - **enumeration_id**: `Enumeratie: fysiekVoorkomenOndersteunendWegdeel` → `Enumeratie: fysiekVoorkomenOndersteunendWegdeel`
-- geometrie — **Changed**
-  - **name**: `geometrieOndersteunendWegdeel` → `geometrie`
-- identificatie — **Changed**
-  - **name**: `identificatieOndersteunendWegdeel` → `identificatie`
-- kruinlijngeometrie — **Changed**
-  - **name**: `kruinlijngeometrieOndersteunendWegdeel` → `kruinlijngeometrie`
-- opTalud — **Changed**
-  - **name**: `ondersteunendWegdeelOpTalud` → `opTalud`
-  - **primitive**: `INDIC` → `boolean`
-- plusFunctie — **Changed**
-  - **name**: `plusFunctieOndersteunendWegdeel` → `plusFunctie`
-  - **enumeration_id**: `Enumeratie: functieOndersteunendWegdeelPlus` → ``
-- plusFysiekVoorkomen — **Changed**
-  - **name**: `plusFysiekVoorkomenOndersteunendWegdeel` → `plusFysiekVoorkomen`
-  - **enumeration_id**: `Enumeratie: fysiekVoorkomenOndersteunendWegdeelPlus` → `Enumeratie: fysiekVoorkomenOndersteunendWegdeelPlus`
-- relatieveHoogteligging — **Changed**
-  - **name**: `relatieveHoogteliggingOndersteunendWegdeel` → `relatieveHoogteligging`
-- status — **Changed**
-  - **name**: `statusOndersteunendWegdeel` → `status`
-  - **enumeration_id**: `Enumeratie: statusGeoObject` → `Enumeratie: statusGeoObject`
+**Attributen:**
 
-#### Overbruggingsdeel — **Unchanged**
+- 🔴 `Onderhoudsverhouding.Id` — Verwijderd
 
-##### Attributes
+##### `Onkostenvergoeding` — 🟡 Attributen gewijzigd
 
-- hoortBijTypeOverbrugging — **Changed**
-  - **enumeration_id**: `Enumeratie: typeOverbrugging` → `Enumeratie: typeOverbrugging`
-- overbruggingIsBeweegbaar — **Changed**
-  - **primitive**: `INDIC` → ``
-- statusOverbruggingsdeel — **Changed**
-  - **enumeration_id**: `Enumeratie: statusGeoObject` → `Enumeratie: statusGeoObject`
-- typeOverbruggingsdeel — **Changed**
-  - **enumeration_id**: `Enumeratie: typeringOverbruggingsdeel` → `Enumeratie: typeringOverbruggingsdeel`
+**Attributen:**
 
-#### OverigBenoemdTerrein — **Unchanged**
+- 🔴 `Onkostenvergoeding.Id` — Verwijderd
 
-##### Attributes
+##### `Pensioen` — 🟡 Attributen gewijzigd
 
-- gebruiksdoelOverigBenoemdTerrein — **Changed**
-  - **enumeration_id**: `Enumeratie: gebruiksdoel` → `Enumeratie: gebruiksdoel`
+**Attributen:**
 
-#### OverigBouwwerk — **Unchanged**
+- 🔴 `Pensioen.Id` — Verwijderd
+- 🟡 `Beslag op pensioen` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Inkomstensoort pensioen` — Gewijzigd
+    - **primitieve type**: `InkomstensoortPensioen` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Datatypes::InkomstensoortPensioen`
+- 🟡 `Loonheffingskorting` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Periodiciteit uitbetaling pensioen` — Gewijzigd
+    - **primitieve type**: `CdUitkeringsperiode` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Datatypes::CdUitkeringsperiode`
 
-##### Attributes
+##### `Primair inkomstencomponent` — 🟡 Attributen gewijzigd
 
-- LOD0GeometrieOverigBouwwerk — **Changed**
-  - **primitive**: `PuntLijnVlak` → `Surface`
-- statusOverigBouwwerk — **Changed**
-  - **enumeration_id**: `Enumeratie: statusGeoObject` → `Enumeratie: statusGeoObject`
+**Attributen:**
 
-#### OverigGebouwdObject — **Unchanged**
+- 🔴 `PrimairInkomstencomponent.Id` — Verwijderd
 
-##### Attributes
+##### `Reiskostenvergoeding` — 🟡 Attributen gewijzigd
 
-- bouwjaar — **Changed**
-  - **primitive**: `JAAR` → `N4`
-- indicatiePlanobject — **Changed**
-  - **primitive**: `INDIC` → `boolean`
+**Attributen:**
 
-#### OverigeAdresseerbaarObjectAanduiding — **Unchanged**
+- 🔴 `Reiskostenvergoeding.Id` — Verwijderd
 
-##### Attributes
+##### `Secundair inkomstencomponent` — 🟡 Attributen gewijzigd
 
-- Identificatiecode — **Changed**
-  - **name**: `IdentificatiecodeOverigAdresseerbaarObjectAanduiding` → `Identificatiecode`
+**Attributen:**
 
-#### OverigeScheiding — **Unchanged**
+- 🔴 `SecundairInkomstencomponent.Id` — Verwijderd
 
-##### Attributes
+##### `Stage` — 🟡 Attributen gewijzigd
 
-- LOD0GeometrieOverigeScheiding — **Changed**
-  - **primitive**: `PuntLijnVlak` → `Surface`
-- statusOverigeScheiding — **Changed**
-  - **enumeration_id**: `Enumeratie: statusGeoObject` → `Enumeratie: statusGeoObject`
-- typeOverigeScheiding — **Changed**
-  - **enumeration_id**: `Enumeratie: typeringOverigeScheiding` → `Enumeratie: typeringOverigeScheiding`
+**Attributen:**
 
-#### Rechtspersoon — **Unchanged**
+- 🔴 `Stage.Id` — Verwijderd
+- 🟡 `Maaltijdvergoeding` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Onkostenvergoeding` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Periodiciteit uitbetaling loon` — Gewijzigd
+    - **primitieve type**: `CdUitkeringsperiode` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Datatypes::CdUitkeringsperiode`
+- 🟡 `Reiskostenvergoeding` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Vergoeding in natura` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
 
-##### Attributes
+##### `Studiefinanciering` — 🟡 Attributen gewijzigd
 
-- adresBinnenland — **Changed**
-  - **primitive**: `AN257` → `BinnenlandsAdres`
-  - **type_class_id**: `` → `Objecttype: BinnenlandsAdres`
+**Attributen:**
 
-#### Reisdocument — **Unchanged**
+- 🔴 `Studiefinanciering.Id` — Verwijderd
+- 🟡 `Daadwerkelijk Genoten` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Inkomstensoort studiefinanciering` — Gewijzigd
+    - **primitieve type**: `InkomstensoortStudiefinanciering` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Datatypes::InkomstensoortStudiefinanciering`
 
-##### Attributes
+##### `Uitkering` — 🟡 Attributen gewijzigd
 
-- aanduidingInhoudingVermissing — **Changed**
-  - **enumeration_id**: `Enumeratie: aanduidingInhoudingVermissingReisdocument` → `Enumeratie: aanduidingInhoudingVermissingReisdocument`
-- datumEindeGeldigheidDocument — **Changed**
-  - **primitive**: `` → `Datum`
-- datumIngangDocument — **Changed**
-  - **primitive**: `` → `Datum`
-- datumInhoudingOfVermissing — **Changed**
-  - **primitive**: `` → `Datum`
-- datumUitgifte — **Changed**
-  - **primitive**: `` → `Datum`
+**Attributen:**
 
-#### Scheiding — **Unchanged**
+- 🔴 `Uitkering.Id` — Verwijderd
+- 🟡 `Beslag op uitkering` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Inkomstensoort uitkering` — Gewijzigd
+    - **primitieve type**: `CdSzWet` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Datatypes::CdSzWet`
+- 🟡 `Loonheffingskorting` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Periodiciteit uitbetaling uitkering` — Gewijzigd
+    - **primitieve type**: `CdUitkeringsperiode` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Datatypes::CdUitkeringsperiode`
+- 🟡 `Toeslag op uitkering` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Uitkering verlaagd door boete` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Uitkering verlaagd door maatregel` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Vakantiegeld jaarlijks ontvangen` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
 
-##### Attributes
+##### `Vakantiegeld` — 🟡 Attributen gewijzigd
 
-- LOD0GeometrieScheiding — **Changed**
-  - **primitive**: `PuntLijnVlak` → `Surface`
-- statusScheiding — **Changed**
-  - **enumeration_id**: `Enumeratie: statusGeoObject` → `Enumeratie: statusGeoObject`
+**Attributen:**
 
-#### Spoor — **Unchanged**
+- 🔴 `Vakantiegeld.Id` — Verwijderd
 
-##### Attributes
+##### `Vergoeding` — 🟡 Attributen gewijzigd
 
-- statusSpoor — **Changed**
-  - **enumeration_id**: `Enumeratie: statusGeoObject` → `Enumeratie: statusGeoObject`
+**Attributen:**
 
-#### Tenaamstelling — **Unchanged**
+- 🔴 `Vergoeding.Id` — Verwijderd
 
-##### Attributes
+##### `Vergoeding in natura` — 🟡 Attributen gewijzigd
 
-- burgerlijkeStaatTenTijdeVanVerkrijging — **Changed**
-  - **enumeration_id**: `Enumeratie: burgelijkeStaat` → `Enumeratie: burgelijkeStaat`
-- exploitantcode — **Changed**
-  - **enumeration_id**: `Enumeratie: codeExploitant` → `Enumeratie: codeExploitant`
-- verkregenNamensSamenwerkingsverband — **Changed**
-  - **enumeration_id**: `Enumeratie: soortRechtsvorm` → `Enumeratie: soortRechtsvorm`
+**Attributen:**
 
-#### Tunneldeel — **Unchanged**
+- 🔴 `VergoedingInNatura.Id` — Verwijderd
 
-##### Attributes
+##### `Verlaging door boete` — 🟡 Attributen gewijzigd
 
-- statusTunneldeel — **Changed**
-  - **enumeration_id**: `Enumeratie: statusGeoObject` → `Enumeratie: statusGeoObject`
+**Attributen:**
 
-#### Vegetatieobject — **Unchanged**
+- 🔴 `VerlagingDoorBoete.Id` — Verwijderd
 
-##### Attributes
+##### `Verlaging door maatregel` — 🟡 Attributen gewijzigd
 
-- LOD0GeometrieVegetatieobject — **Changed**
-  - **primitive**: `PuntLijnVlak` → `Surface`
-- geometrieVegetatieobject — **Changed**
-  - **primitive**: `PuntLijnVlak` → `Surface`
-- statusVegetatieobject — **Changed**
-  - **enumeration_id**: `Enumeratie: statusGeoObject` → `Enumeratie: statusGeoObject`
-- typeVegetatieobject — **Changed**
-  - **enumeration_id**: `Enumeratie: typeringVegetatieobject` → `Enumeratie: typeringVegetatieobject`
+**Attributen:**
 
-#### Vestiging — **Unchanged**
+- 🔴 `VerlagingDoorMaatregel.Id` — Verwijderd
 
-##### Attributes
+##### `Vrijlating inkomsten` — 🟡 Attributen gewijzigd
 
-- commercieleVestiging — **Changed**
-  - **enumeration_id**: `Enumeratie: Boolean` → `Enumeratie: Boolean`
+**Attributen:**
 
-#### WOZ-Waarde — **Unchanged**
+- 🔴 `VrijlatingInkomsten.Id` — Verwijderd
+- 🟡 `Doelgroep` — Gewijzigd
+    - **primitieve type**: `JsonRuledGroupType` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Datatypes::JsonRuledGroupType`
+- 🟡 `Medisch` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Soort vrijlating` — Gewijzigd
+    - **primitieve type**: `CodeSoortVrijlating` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Datatypes::CodeSoortVrijlating`
+- 🟡 `Vrijgelaten bedrag` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Bedrag`
 
-##### Attributes
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekmodel-sociaal-domein-generiekvermogendatatypes"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Vermogen/Datatypes
 
-- statusBeschikking — **Changed**
-  - **enumeration_id**: `Enumeratie: statusWOZ-Beschikking` → `Enumeratie: statusWOZ-Beschikking`
+#### Datatypes
 
-#### WOZ-deelobject — **Unchanged**
+##### `AdresType` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- statusWOZDeelobject — **Changed**
-  - **enumeration_id**: `Enumeratie: statusWOZ(Deel)Object` → `Enumeratie: statusWOZ(Deel)Object`
+- 🔴 `Adres buitenland` — Verwijderd
+- 🔴 `Adres Nederland` — Verwijderd
 
-#### WOZ-object — **Unchanged**
+##### `CdSrtVermogenscomponent` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- gebruikscode — **Changed**
-  - **enumeration_id**: `Enumeratie: soortGebruik` → `Enumeratie: soortGebruik`
-- statusWOZObject — **Changed**
-  - **enumeration_id**: `Enumeratie: statusWOZ(Deel)Object` → `Enumeratie: statusWOZ(Deel)Object`
+- 🔴 `Aandeel onverdeelde boedel` — Verwijderd
+- 🔴 `Aanspraak op erfenis binnen zes maanden` — Verwijderd
+- 🔴 `Antiek/sieraden` — Verwijderd
+- 🔴 `Bank-/Girorekening` — Verwijderd
+- 🔴 `Beleggingsproduct (Aandeel, Lease, Effect, Obligatie, e.d.)` — Verwijderd
+- 🔴 `Caravans` — Verwijderd
+- 🔴 `Contanten` — Verwijderd
+- 🔴 `Digitale valuta (cryptomunten)` — Verwijderd
+- 🔴 `Eigen woning (huis/woonschip/woonwagen in eigendom)` — Verwijderd
+- 🔴 `Hypotheek eigen woning` — Verwijderd
+- 🔴 `Leningen aan derden` — Verwijderd
+- 🔴 `Levensverzekering` — Verwijderd
+- 🔴 `Levensverzekering/belegging gekoppeld aan hypotheek` — Verwijderd
+- 🔴 `Levensverzekering/belegging niet gekoppeld aan hypotheek` — Verwijderd
+- 🔴 `Motorvoertuigen` — Verwijderd
+- 🔴 `Overig onroerend goed` — Verwijderd
+- 🔴 `Overige bezittingen` — Verwijderd
+- 🔴 `Schulden` — Verwijderd
+- 🔴 `Schulden uitgezonderd studieschuld` — Verwijderd
+- 🔴 `Studieschuld` — Verwijderd
+- 🔴 `Waardepapieren` — Verwijderd
 
-#### Waterdeel — **Unchanged**
+##### `CdSrtVoertuig` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- plusTypeWaterdeel — **Changed**
-  - **enumeration_id**: `Enumeratie: typeringWaterPlus` → `Enumeratie: typeringWaterPlus`
-- statusWaterdeel — **Changed**
-  - **enumeration_id**: `Enumeratie: statusGeoObject` → `Enumeratie: statusGeoObject`
-- typeWaterdeel — **Changed**
-  - **enumeration_id**: `Enumeratie: typeringWater` → `Enumeratie: typeringWater`
+- 🔴 `Aanhangwagen` — Verwijderd
+- 🔴 `Bedrijfsauto` — Verwijderd
+- 🔴 `Bromfiets` — Verwijderd
+- 🔴 `Driewielig motorrijtuig` — Verwijderd
+- 🔴 `Motorfiets` — Verwijderd
+- 🔴 `Personenauto` — Verwijderd
 
-#### Wegdeel — **Unchanged**
+##### `CdSrtWaardeVermogenscomponent` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- functieWegdeel — **Changed**
-  - **enumeration_id**: `Enumeratie: functieWeg` → `Enumeratie: functieWeg`
-- fysiekVoorkomenWegdeel — **Changed**
-  - **enumeration_id**: `Enumeratie: fysiekVoorkomenWeg` → `Enumeratie: fysiekVoorkomenWeg`
-- plusFunctieWegdeel — **Changed**
-  - **enumeration_id**: `Enumeratie: functieWegPlus` → `Enumeratie: functieWegPlus`
-- plusFysiekVoorkomenWegdeel — **Changed**
-  - **enumeration_id**: `Enumeratie: fysiekVoorkomenWegPlus` → `Enumeratie: fysiekVoorkomenWegPlus`
-- statusWegdeel — **Changed**
-  - **enumeration_id**: `Enumeratie: statusGeoObject` → `Enumeratie: statusGeoObject`
-- wegdeelOpTalud — **Changed**
-  - **primitive**: `INDIC` → `boolean`
+- 🔴 `Banksaldo` — Verwijderd
+- 🔴 `Beleggingsproductsaldo` — Verwijderd
+- 🔴 `Cataloguswaarde` — Verwijderd
+- 🔴 `Hypotheekschuld` — Verwijderd
+- 🔴 `Marktwaarde` — Verwijderd
+- 🔴 `WOZwaarde` — Verwijderd
 
-#### Zekerheidsrecht — **Unchanged**
+#### Enumeraties
 
-##### Attributes
+##### `AdresType` — 🟢 Toegevoegd
 
-- omschrijvingBetrokkenRecht — **Changed**
-  - **primitive**: `AN` → `AN255`
-- typeZekerheidsrecht — **Changed**
-  - **enumeration_id**: `Enumeratie: typeringZekerheidsrecht` → `Enumeratie: typeringZekerheidsrecht`
+**Literals:**
 
-_No datatype changes in this package._
+- 🟢 `Adres Nederland` — Toegevoegd
+- 🟢 `Adres buitenland` — Toegevoegd
 
-### Enumerations
+##### `CdSrtVermogenscomponent` — 🟢 Toegevoegd
 
-#### Boolean — **Added**
+**Literals:**
 
-##### Literals
+- 🟢 `Aandeel onverdeelde boedel` — Toegevoegd
+- 🟢 `Aanspraak op erfenis binnen zes maanden` — Toegevoegd
+- 🟢 `Antiek/sieraden` — Toegevoegd
+- 🟢 `Bank-/Girorekening` — Toegevoegd
+- 🟢 `Beleggingsproduct (Aandeel, Lease, Effect, Obligatie, e.d.)` — Toegevoegd
+- 🟢 `Caravans` — Toegevoegd
+- 🟢 `Contanten` — Toegevoegd
+- 🟢 `Digitale valuta (cryptomunten)` — Toegevoegd
+- 🟢 `Eigen woning (huis/woonschip/woonwagen in eigendom)` — Toegevoegd
+- 🟢 `Hypotheek eigen woning` — Toegevoegd
+- 🟢 `Leningen aan derden` — Toegevoegd
+- 🟢 `Levensverzekering` — Toegevoegd
+- 🟢 `Levensverzekering/belegging gekoppeld aan hypotheek` — Toegevoegd
+- 🟢 `Levensverzekering/belegging niet gekoppeld aan hypotheek` — Toegevoegd
+- 🟢 `Motorvoertuigen` — Toegevoegd
+- 🟢 `Overig onroerend goed` — Toegevoegd
+- 🟢 `Overige bezittingen` — Toegevoegd
+- 🟢 `Schulden` — Toegevoegd
+- 🟢 `Schulden uitgezonderd studieschuld` — Toegevoegd
+- 🟢 `Studieschuld` — Toegevoegd
+- 🟢 `Waardepapieren` — Toegevoegd
 
-- `Ja` — **Added**
-- `Leeg` — **Added**
-- `Nee` — **Added**
-- `Onbekend` — **Added**
+##### `CdSrtVoertuig` — 🟢 Toegevoegd
 
-#### Boolean — **Removed**
+**Literals:**
 
-##### Literals
+- 🟢 `Aanhangwagen` — Toegevoegd
+- 🟢 `Bedrijfsauto` — Toegevoegd
+- 🟢 `Bromfiets` — Toegevoegd
+- 🟢 `Driewielig motorrijtuig` — Toegevoegd
+- 🟢 `Motorfiets` — Toegevoegd
+- 🟢 `Personenauto` — Toegevoegd
 
-- `Ja` — **Removed**
-- `Leeg` — **Removed**
-- `Nee` — **Removed**
-- `Onbekend` — **Removed**
+##### `CdSrtWaardeVermogenscomponent` — 🟢 Toegevoegd
 
-#### Boolean — **Added**
+**Literals:**
 
-##### Literals
+- 🟢 `Banksaldo` — Toegevoegd
+- 🟢 `Beleggingsproductsaldo` — Toegevoegd
+- 🟢 `Cataloguswaarde` — Toegevoegd
+- 🟢 `Hypotheekschuld` — Toegevoegd
+- 🟢 `Marktwaarde` — Toegevoegd
+- 🟢 `WOZwaarde` — Toegevoegd
 
-- `Ja` — **Added**
-- `Leeg` — **Added**
-- `Nee` — **Added**
-- `Onbekend` — **Added**
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekmodel-sociaal-domein-generiekvermogenmodel-vermogen"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Vermogen/Model Vermogen
 
-#### Boolean — **Removed**
+#### Classes
 
-##### Literals
+##### `Bankrekening` — 🟡 Attributen gewijzigd
 
-- `Ja` — **Removed**
-- `Leeg` — **Removed**
-- `Nee` — **Removed**
-- `Onbekend` — **Removed**
+**Attributen:**
 
-#### Boolean — **Removed**
+- 🔴 `Bankrekening ID` — Verwijderd
+- 🟡 `Voorkeur bankrekening` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
 
-##### Literals
+##### `Hypotheek` — 🟡 Attributen gewijzigd
 
-- `Ja` — **Removed**
-- `Leeg` — **Removed**
-- `Nee` — **Removed**
-- `Onbekend` — **Removed**
+**Attributen:**
 
-#### Boolean — **Removed**
+- 🟡 `Overwaarde` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Bedrag`
 
-##### Literals
+##### `Motorvoertuig` — 🟡 Attributen gewijzigd
 
-- `Ja` — **Removed**
-- `Leeg` — **Removed**
-- `Nee` — **Removed**
-- `Onbekend` — **Removed**
+**Attributen:**
 
-#### Boolean — **Added**
+- 🟡 `Soort motorvoertuig` — Gewijzigd
+    - **primitieve type**: `CdSrtVoertuig` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Vermogen/Datatypes::CdSrtVoertuig`
 
-##### Literals
+##### `Onroerend goed` — 🟡 Attributen gewijzigd
 
-- `Ja` — **Added**
-- `Leeg` — **Added**
-- `Nee` — **Added**
-- `Onbekend` — **Added**
+**Attributen:**
 
-#### Boolean — **Added**
+- 🟡 `Overwaarde` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Bedrag`
 
-##### Literals
+##### `Vermogenscomponent` — 🟡 Attributen gewijzigd
 
-- `Ja` — **Added**
-- `Leeg` — **Added**
-- `Nee` — **Added**
-- `Onbekend` — **Added**
+**Attributen:**
 
-#### Gezinsrelatie — **Removed**
+- 🟡 `Code soort vermogenscomponent` — Gewijzigd
+    - **primitieve type**: `CdSrtVermogenscomponent` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Vermogen/Datatypes::CdSrtVermogenscomponent`
+- 🟡 `identificatie` — Gewijzigd
+    - **naam**: `Vermogenscomponent ID` → `identificatie`
+- 🟡 `Nog aan te spreken vermogen` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Bedrag`
+- 🟡 `Vrij te laten vermogen` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Bedrag`
 
-##### Literals
+##### `Waardepeiling` — 🟡 Attributen gewijzigd
 
-- `Alleenstaand/Samenwonend` — **Removed**
-- `Echtgenote binnen gezin` — **Removed**
-- `Hoofd gezin met kind(eren)` — **Removed**
-- `Hoofd gezin zonder kind(eren)` — **Removed**
-- `Hoofd huwelijk gelijk geslacht` — **Removed**
-- `Hoofd partnerrelatie` — **Removed**
-- `Kind` — **Removed**
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `Ouder met kind(eren)` — **Removed**
+**Attributen:**
 
-#### Gezinsrelatie — **Added**
+- 🟡 `Bijgevoegd bewijs` — Gewijzigd
+    - **primitieve type**: `StdIndJN` → `Boolean`
+- 🟡 `Waarde vermogenscomponent` — Gewijzigd
+    - **primitieve type**: `Geldbedrag` → `Bedrag`
+- 🟡 `WaardeSoort vermogenscomponent` — Gewijzigd
+    - **primitieve type**: `CdSrtWaardeVermogenscomponent` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Vermogen/Datatypes::CdSrtWaardeVermogenscomponent`
 
-##### Literals
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinwerkmodel-werk"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Werk/Model Werk
 
-- `Alleenstaand/Samenwonend` — **Added**
-- `Echtgenote binnen gezin` — **Added**
-- `Hoofd gezin met kind(eren)` — **Added**
-- `Hoofd gezin zonder kind(eren)` — **Added**
-- `Hoofd huwelijk gelijk geslacht` — **Added**
-- `Hoofd partnerrelatie` — **Added**
-- `Kind` — **Added**
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `Ouder met kind(eren)` — **Added**
+#### Classes
 
-#### aanduidingInhoudingVermissingReisdocument — **Added**
+##### `Arbeidsvermogen` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Ingehouden, ingeleverd` — **Added**
-- `Onbekend` — **Added**
-- `Rechtswege` — **Added**
-- `Vermist` — **Added**
+- 🟡 `CodeArbeidsvermogen` — Gewijzigd
+    - **primitieve type**: `Code arbeidsvermogen` → `arbeidsvermogen`
 
-#### aanduidingInhoudingVermissingReisdocument — **Removed**
+##### `Bemiddelingsactiviteit` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Ingehouden, ingeleverd` — **Removed**
-- `Onbekend` — **Removed**
-- `Rechtswege` — **Removed**
-- `Vermist` — **Removed**
+- 🟡 `OmschrijvingSoortContactbemiddeling` — Gewijzigd
+    - **primitieve type**: `Kanaal contactmoment` → `contactmoment`
 
-#### adelijkeTitel — **Added**
+##### `BeschikbaarVoorArbeid` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `baron` — **Added**
-- `barones` — **Added**
-- `graaf` — **Added**
-- `gravin` — **Added**
-- `hertog` — **Added**
-- `hertogin` — **Added**
-- `markies` — **Added**
-- `markiezin` — **Added**
-- `prins` — **Added**
-- `prinses` — **Added**
-- `ridder` — **Added**
+- 🟡 `DagBeschikbaarheid` — Gewijzigd
+    - **primitieve type**: `Dag beschikbaarheid` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Werk/Model Werk::Dag beschikbaarheid`
 
-#### adelijkeTitel — **Removed**
+##### `Flexibliteit` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `baron` — **Removed**
-- `barones` — **Removed**
-- `graaf` — **Removed**
-- `gravin` — **Removed**
-- `hertog` — **Removed**
-- `hertogin` — **Removed**
-- `markies` — **Removed**
-- `markiezin` — **Removed**
-- `prins` — **Removed**
-- `prinses` — **Removed**
-- `ridder` — **Removed**
+- 🟡 `IndicatieBereidBuitenBeroepswens` — Gewijzigd
+    - **naam**: `IndicatieBereidheidZoekenBuitenBeroepswens` → `IndicatieBereidBuitenBeroepswens`
 
-#### burgelijkeStaat — **Added**
+##### `Mobiliteit` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `achtergebeleven partner` — **Added**
-- `gehuwd` — **Added**
-- `gescheiden` — **Added**
-- `onbekend` — **Added**
-- `ongehuwd en nooit gehuwd geweest` — **Added**
-- `parnetschap beeeindigd` — **Added**
-- `partnerschap` — **Added**
-- `weduwe / weduwnaar` — **Added**
+- 🟡 `CodeVervoermiddel` — Gewijzigd
+    - **primitieve type**: `Vervoersmogelijkheden` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Werk/Model Werk::Vervoermiddel`
 
-#### burgelijkeStaat — **Removed**
+##### `Ontheffing` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `achtergebeleven partner` — **Removed**
-- `gehuwd` — **Removed**
-- `gescheiden` — **Removed**
-- `onbekend` — **Removed**
-- `ongehuwd en nooit gehuwd geweest` — **Removed**
-- `parnetschap beeeindigd` — **Removed**
-- `partnerschap` — **Removed**
-- `weduwe / weduwnaar` — **Removed**
+- 🟡 `MotivatieOntheffingsbesluit` — Gewijzigd
+    - **primitieve type**: `document` → _(leeg)_
+    - **type (class)**: _(leeg)_ → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RGBZPlus/Model RGBZ/Model Kern RGBZ::Document`
+- 🟡 `OntheffenVerplichtingen` — Gewijzigd
+    - **primitieve type**: `Ontheffingsverplichting` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Werk/Model Werk::Ontheffingsverplichting`
+- 🟡 `Ontheffingsbesluit` — Gewijzigd
+    - **primitieve type**: `document` → _(leeg)_
+    - **type (class)**: _(leeg)_ → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RGBZPlus/Model RGBZ/Model Kern RGBZ::Document`
+- 🟡 `SoortOntheffing` — Gewijzigd
+    - **primitieve type**: `Soort ontheffing` → `ontheffing`
 
-#### codeExploitant — **Removed**
+##### `Opleiding` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `erfpacht uitgegeven` — **Removed**
-- `overige zakelijk rechten verkregen` — **Removed**
-- `recht van opstal verleend` — **Removed**
-- `derden (niet zijnde gemeente` — **Removed**
-- `erfpacht verkregen` — **Removed**
-- `gedeeltelijk eigendom` — **Removed**
-- `onbekend/handmatig oplossen` — **Removed**
-- `overige zakelijk rechten verleend` — **Removed**
-- `recht van opstal verkregen` — **Removed**
-- `vol eigendom` — **Removed**
+- 🟡 `CodeStatusOpleiding` — Gewijzigd
+    - **primitieve type**: `StatusOpleiding` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Werk/Model Werk::CodeStatusOpleiding`
+- 🟡 `CodeTijdsBeslagOpleiding` — Gewijzigd
+    - **primitieve type**: `Code tijdsbeslag opleiding` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Werk/Model Werk::Code tijdsbeslag opleiding`
+- 🟡 `Instituutnaam` — Gewijzigd
+    - **primitieve type**: `short` → `Text`
+- 🟡 `Opleidingstype` — Gewijzigd
+    - **stereotype**: _(leeg)_ → `enum`
+    - **primitieve type**: `Opleidingstype` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Werk/Model Werk::Opleidingsrichting`
 
-#### codeExploitant — **Added**
+##### `Opleidingsnaam` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `erfpacht uitgegeven` — **Added**
-- `overige zakelijk rechten verkregen` — **Added**
-- `recht van opstal verleend` — **Added**
-- `derden (niet zijnde gemeente` — **Added**
-- `erfpacht verkregen` — **Added**
-- `gedeeltelijk eigendom` — **Added**
-- `onbekend/handmatig oplossen` — **Added**
-- `overige zakelijk rechten verleend` — **Added**
-- `recht van opstal verkregen` — **Added**
-- `vol eigendom` — **Added**
+- 🟡 `naamOpleiding` — Gewijzigd
+    - **naam**: `Opleidingsnaam` → `naamOpleiding`
 
-#### functieOndersteunendWegdeel — **Removed**
+##### `OpleidingsnaamOngecodeerd` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `berm` — **Removed**
-- `verkeerseiland` — **Removed**
+- 🟡 `naamOpleidingOngecodeerd` — Gewijzigd
+    - **naam**: `OpleidingsnaamOngecodeerd` → `naamOpleidingOngecodeerd`
 
-#### functieOndersteunendWegdeel — **Added**
+##### `Opleidingsniveau` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `berm` — **Added**
-- `verkeerseiland` — **Added**
+- 🟡 `CodeOpleidingsniveauClient` — Gewijzigd
+    - **primitieve type**: `Code opleidingsniveau cliënt` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Werk/Model Werk::Code opleidingsniveau cliënt`
 
-#### functieOndersteunendWegdeelPlus — **Removed**
+##### `Rijbewijs /Certificaat` — 🟡 Attributen gewijzigd
 
-#### functieWeg — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `CodeSoortRijbewijs` — Gewijzigd
+    - **primitieve type**: `ENUM()` → `AN12`
+- 🟡 `NummerCertificaat` — Gewijzigd
+    - **primitieve type**: `RegEx` → `varchar`
 
-- `OV-baan` — **Added**
-- `baan voor vliegverkeer` — **Added**
-- `fietspad` — **Added**
-- `inrit` — **Added**
-- `overweg` — **Added**
-- `parkeervlak` — **Added**
-- `rijbaan autosnelweg` — **Added**
-- `rijbaan autoweg` — **Added**
-- `rijbaan lokale weg` — **Added**
-- `rijbaan regionale weg` — **Added**
-- `ruiterpad` — **Added**
-- `spoorbaan` — **Added**
-- `voetgangersgebied` — **Added**
-- `voetpad` — **Added**
-- `voetpad op trap` — **Added**
-- `woonerf` — **Added**
+##### `Taalbeheersing` — 🟡 Attributen gewijzigd
 
-#### functieWeg — **Removed**
+**Attributen:**
 
-##### Literals
+- 🟡 `Taalcode` — Gewijzigd
+    - **primitieve type**: `ìnt` → `varchar`
 
-- `OV-baan` — **Removed**
-- `baan voor vliegverkeer` — **Removed**
-- `fietspad` — **Removed**
-- `inrit` — **Removed**
-- `overweg` — **Removed**
-- `parkeervlak` — **Removed**
-- `rijbaan autosnelweg` — **Removed**
-- `rijbaan autoweg` — **Removed**
-- `rijbaan lokale weg` — **Removed**
-- `rijbaan regionale weg` — **Removed**
-- `ruiterpad` — **Removed**
-- `spoorbaan` — **Removed**
-- `voetgangersgebied` — **Removed**
-- `voetpad` — **Removed**
-- `voetpad op trap` — **Removed**
-- `woonerf` — **Removed**
+##### `Vaardigheidsvaststelling` — 🟡 Attributen gewijzigd
 
-#### functieWegPlus — **Removed**
+**Attributen:**
 
-##### Literals
+- 🟡 `datumLaatsteVaststelling` — Gewijzigd
+    - **naam**: `Datum laatste vaststelling van vaardigheid` → `datumLaatsteVaststelling`
+- 🟡 `Indicatie mate van vaardigheid` — Gewijzigd
+    - **primitieve type**: `Indicatie mate van vaardigheid` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Werk/Model Werk::Taalvaardigheid`
 
-- `calamiteitendoorstee` — **Removed**
-- `verbindingsweg` — **Removed**
-- `verkeersdrempel` — **Removed**
+##### `Voorkeur` — 🟡 Attributen gewijzigd
 
-#### functieWegPlus — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `SoortWerk` — Gewijzigd
+    - **primitieve type**: `enum` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Werk/Model Werk::SoortWerk`
 
-- `calamiteitendoorstee` — **Added**
-- `verbindingsweg` — **Added**
-- `verkeersdrempel` — **Added**
+##### `Werkzaamheden anders dan in arbeidsverhouding` — 🟡 Attributen gewijzigd
 
-#### fysiekVoorkomenBegroeidTerrein — **Removed**
+**Attributen:**
 
-##### Literals
+- 🟡 `aantalUrenGemiddeldWeek` — Gewijzigd
+    - **naam**: `Aantal uren werkzaamheden gemiddeld per week` → `aantalUrenGemiddeldWeek`
+- 🟡 `PersoonOrganisatieWaarbij` — Gewijzigd
+    - **naam**: `Naam persoon of organisatie bij wie of waar` → `PersoonOrganisatieWaarbij`
 
-- `boomteelt` — **Removed**
-- `bouwland` — **Removed**
-- `duin` — **Removed**
-- `fruitteelt` — **Removed**
-- `gemengd bos` — **Removed**
-- `grasland agrarisch` — **Removed**
-- `grasland overig` — **Removed**
-- `groenvoorziening` — **Removed**
-- `heide` — **Removed**
-- `houtwal` — **Removed**
-- `kwelder` — **Removed**
-- `loofbos` — **Removed**
-- `moeras` — **Removed**
-- `naaldbos` — **Removed**
-- `rietland` — **Removed**
-- `struiken` — **Removed**
+##### `ZelfredzaamheidScore` — 🟡 Attributen gewijzigd
 
-#### fysiekVoorkomenBegroeidTerrein — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `Domein van Zelfredzaamheid` — Gewijzigd
+    - **primitieve type**: `Domein van zelfredzaamheid` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Werk/Model Werk::Domein van zelfredzaamheid`
+- 🟡 `KenmerkBeoordelaar` — Gewijzigd
+    - **primitieve type**: `Name` → `AN200`
+- 🟡 `ZRM score` — Gewijzigd
+    - **primitieve type**: `ZRM score` → `score`
 
-- `boomteelt` — **Added**
-- `bouwland` — **Added**
-- `duin` — **Added**
-- `fruitteelt` — **Added**
-- `gemengd bos` — **Added**
-- `grasland agrarisch` — **Added**
-- `grasland overig` — **Added**
-- `groenvoorziening` — **Added**
-- `heide` — **Added**
-- `houtwal` — **Added**
-- `kwelder` — **Added**
-- `loofbos` — **Added**
-- `moeras` — **Added**
-- `naaldbos` — **Added**
-- `rietland` — **Added**
-- `struiken` — **Added**
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel7-volksgezondheid-en-milieuafvalmodel-afval"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval
 
-#### fysiekVoorkomenBegroeidTerreinPlus — **Added**
+**Pakket-metadata gewijzigd:**
 
-##### Literals
+- **naam**: `Model` → `Model Afval`
 
-- `akkerbouw` — **Added**
-- `bodembedekkers` — **Added**
-- `bollenteelt` — **Added**
-- `bosplantsoen` — **Added**
-- `braakliggend` — **Added**
-- `gesloten duinvegetatie` — **Added**
-- `gras en kruidachtigen` — **Added**
-- `grien en hakhout` — **Added**
-- `heesters` — **Added**
-- `hoogstam boomgaarden` — **Added**
-- `klein fruit` — **Added**
-- `laagstam boomgaarden` — **Added**
-- `open duinvegetatie` — **Added**
-- `planten` — **Added**
-- `struikrozen` — **Added**
-- `vollegrondsteelt` — **Added**
-- `wijngaarden` — **Added**
+#### Classes
 
-#### fysiekVoorkomenBegroeidTerreinPlus — **Removed**
+##### `Categorie` — 🟡 Gewijzigd
 
-##### Literals
+- **package**: `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model` → `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval`
 
-- `akkerbouw` — **Removed**
-- `bodembedekkers` — **Removed**
-- `bollenteelt` — **Removed**
-- `bosplantsoen` — **Removed**
-- `braakliggend` — **Removed**
-- `gesloten duinvegetatie` — **Removed**
-- `gras en kruidachtigen` — **Removed**
-- `grien en hakhout` — **Removed**
-- `heesters` — **Removed**
-- `hoogstam boomgaarden` — **Removed**
-- `klein fruit` — **Removed**
-- `laagstam boomgaarden` — **Removed**
-- `open duinvegetatie` — **Removed**
-- `planten` — **Removed**
-- `struikrozen` — **Removed**
-- `vollegrondsteelt` — **Removed**
-- `wijngaarden` — **Removed**
+**Attributen:**
 
-#### fysiekVoorkomenOnbegroeidTerrein — **Added**
+- 🟡 `code` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Categorie` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Categorie`
+- 🟡 `naam` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Categorie` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Categorie`
+- 🟡 `omschrijving` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Categorie` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Categorie`
 
-##### Literals
+##### `Container` — 🟡 Gewijzigd
 
-- `Gesloten verharding` — **Added**
-- `erf` — **Added**
-- `half verhard` — **Added**
-- `onverhard` — **Added**
-- `open verharding` — **Added**
-- `zand` — **Added**
+- **package**: `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model` → `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval`
 
-#### fysiekVoorkomenOnbegroeidTerrein — **Removed**
+**Attributen:**
 
-##### Literals
+- 🟡 `containercode` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Container` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Container`
+- 🟡 `sensorID` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Container` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Container`
 
-- `Gesloten verharding` — **Removed**
-- `erf` — **Removed**
-- `half verhard` — **Removed**
-- `onverhard` — **Removed**
-- `open verharding` — **Removed**
-- `zand` — **Removed**
+##### `Containertype` — 🟡 Gewijzigd
 
-#### fysiekVoorkomenOnbegroeidTerreinPlus — **Removed**
+- **package**: `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model` → `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval`
 
-##### Literals
+**Attributen:**
 
-- `asfalt` — **Removed**
-- `betonelement` — **Removed**
-- `betonstraatstenen` — **Removed**
-- `boomschors` — **Removed**
-- `cementbeton` — **Removed**
-- `gebakken klinkers` — **Removed**
-- `grasklinkers` — **Removed**
-- `gravel` — **Removed**
-- `grind` — **Removed**
-- `kunststof` — **Removed**
-- `puin` — **Removed**
-- `schelpen` — **Removed**
-- `sierbestrating` — **Removed**
-- `strand en strandwal` — **Removed**
-- `tegels` — **Removed**
-- `zand` — **Removed**
-- `zandverstuiving` — **Removed**
+- 🟡 `naam` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Containertype` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Containertype`
+- 🟡 `omschrijving` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Containertype` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Containertype`
 
-#### fysiekVoorkomenOnbegroeidTerreinPlus — **Added**
+##### `Fractie` — 🟡 Gewijzigd
 
-##### Literals
+- **package**: `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model` → `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval`
 
-- `asfalt` — **Added**
-- `betonelement` — **Added**
-- `betonstraatstenen` — **Added**
-- `boomschors` — **Added**
-- `cementbeton` — **Added**
-- `gebakken klinkers` — **Added**
-- `grasklinkers` — **Added**
-- `gravel` — **Added**
-- `grind` — **Added**
-- `kunststof` — **Added**
-- `puin` — **Added**
-- `schelpen` — **Added**
-- `sierbestrating` — **Added**
-- `strand en strandwal` — **Added**
-- `tegels` — **Added**
-- `zand` — **Added**
-- `zandverstuiving` — **Added**
+**Attributen:**
 
-#### fysiekVoorkomenOndersteunendWegdeel — **Removed**
+- 🟡 `naam` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Fractie` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Fractie`
+- 🟡 `omschrijving` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Fractie` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Fractie`
 
-##### Literals
+##### `Locatie` — 🟡 Gewijzigd
 
-- `gesloten verharding` — **Removed**
-- `groenvoorziening` — **Removed**
-- `half verhard` — **Removed**
-- `onverhard` — **Removed**
+- **package**: `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model` → `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval`
 
-#### fysiekVoorkomenOndersteunendWegdeel — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `adresaanduiding` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Locatie` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Locatie`
+- 🟡 `locatiecode` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Locatie` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Locatie`
+- 🟡 `locatiePunt` — Gewijzigd
+    - **naam**: `locatie` → `locatiePunt`
+    - **primitieve type**: `GML` → `GM_Point`
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Locatie` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Locatie`
 
-- `gesloten verharding` — **Added**
-- `groenvoorziening` — **Added**
-- `half verhard` — **Added**
-- `onverhard` — **Added**
+##### `Melding` — 🟡 Gewijzigd
 
-#### fysiekVoorkomenOndersteunendWegdeelPlus — **Removed**
+- **package**: `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model` → `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval`
 
-##### Literals
+**Attributen:**
 
-- `puin` — **Removed**
-- `asfalt` — **Removed**
-- `beton element` — **Removed**
-- `betonstraatstenen` — **Removed**
-- `bodembedekkers` — **Removed**
-- `boomschors` — **Removed**
-- `bosplantsoen` — **Removed**
-- `cementbeton` — **Removed**
-- `gebakken klinkers` — **Removed**
-- `gras- en kruidachtigen` — **Removed**
-- `grasklinkers` — **Removed**
-- `gravel` — **Removed**
-- `grind` — **Removed**
-- `heesters` — **Removed**
-- `planten` — **Removed**
-- `schelpen` — **Removed**
-- `sierbestrating` — **Removed**
-- `struikrozen` — **Removed**
-- `tegels` — **Removed**
-- `zand` — **Removed**
+- 🟡 `24uurs` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Melding` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Melding`
+- 🟡 `datumtijd` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Melding` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Melding`
+- 🟡 `illegaal` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Melding` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Melding`
+- 🟡 `meldingnummer` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Melding` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Melding`
+- 🟡 `omschrijving` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Melding` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Melding`
 
-#### fysiekVoorkomenOndersteunendWegdeelPlus — **Added**
+##### `Milieustraat` — 🟡 Gewijzigd
 
-##### Literals
+- **package**: `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model` → `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval`
 
-- `puin` — **Added**
-- `asfalt` — **Added**
-- `beton element` — **Added**
-- `betonstraatstenen` — **Added**
-- `bodembedekkers` — **Added**
-- `boomschors` — **Added**
-- `bosplantsoen` — **Added**
-- `cementbeton` — **Added**
-- `gebakken klinkers` — **Added**
-- `gras- en kruidachtigen` — **Added**
-- `grasklinkers` — **Added**
-- `gravel` — **Added**
-- `grind` — **Added**
-- `heesters` — **Added**
-- `planten` — **Added**
-- `schelpen` — **Added**
-- `sierbestrating` — **Added**
-- `struikrozen` — **Added**
-- `tegels` — **Added**
-- `zand` — **Added**
+**Attributen:**
 
-#### fysiekVoorkomenWeg — **Removed**
+- 🟡 `adresaanduiding` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Milieustraat` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Milieustraat`
+- 🟡 `naam` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Milieustraat` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Milieustraat`
+- 🟡 `omschrijving` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Milieustraat` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Milieustraat`
 
-##### Literals
+##### `Ophaalmoment` — 🟡 Gewijzigd
 
-- `gesloten verharding` — **Removed**
-- `half verhard` — **Removed**
-- `onverhard` — **Removed**
-- `open verharding` — **Removed**
+- **package**: `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model` → `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval`
 
-#### fysiekVoorkomenWeg — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `gewichtstoename` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Ophaalmoment` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Ophaalmoment`
+- 🟡 `tijdstip` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Ophaalmoment` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Ophaalmoment`
 
-- `gesloten verharding` — **Added**
-- `half verhard` — **Added**
-- `onverhard` — **Added**
-- `open verharding` — **Added**
+##### `Pas` — 🟡 Gewijzigd
 
-#### fysiekVoorkomenWegPlus — **Removed**
+- **package**: `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model` → `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval`
 
-##### Literals
+**Attributen:**
 
-- `asfalt` — **Removed**
-- `beton element` — **Removed**
-- `betonstraatstenen` — **Removed**
-- `boomschors` — **Removed**
-- `cementbeton` — **Removed**
-- `gebakken klinkers` — **Removed**
-- `grasklinkers` — **Removed**
-- `gravel` — **Removed**
-- `grind` — **Removed**
-- `puin` — **Removed**
-- `schelpen` — **Removed**
-- `sierbestrating` — **Removed**
-- `tegels` — **Removed**
-- `zand` — **Removed**
+- 🟡 `adresaanduiding` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Pas` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Pas`
+- 🟡 `pasnummer` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Pas` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Pas`
 
-#### fysiekVoorkomenWegPlus — **Added**
+##### `Prijsafspraak` — 🟡 Gewijzigd
 
-##### Literals
+- **package**: `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model` → `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval`
 
-- `asfalt` — **Added**
-- `beton element` — **Added**
-- `betonstraatstenen` — **Added**
-- `boomschors` — **Added**
-- `cementbeton` — **Added**
-- `gebakken klinkers` — **Added**
-- `grasklinkers` — **Added**
-- `gravel` — **Added**
-- `grind` — **Added**
-- `puin` — **Added**
-- `schelpen` — **Added**
-- `sierbestrating` — **Added**
-- `tegels` — **Added**
-- `zand` — **Added**
+**Attributen:**
 
-#### gebruiksdoel — **Removed**
+- 🟡 `datumEinde` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Prijsafspraak` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Prijsafspraak`
+- 🟡 `datumStart` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Prijsafspraak` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Prijsafspraak`
+- 🟡 `titel` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Prijsafspraak` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Prijsafspraak`
 
-##### Literals
+##### `Prijsregel` — 🟡 Gewijzigd
 
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `bijeenkomstfunctie` — **Removed**
-- `celfunctie` — **Removed**
-- `gezondheidszorgfunctie` — **Removed**
-- `industriefunctie` — **Removed**
-- `kantoorfunctie` — **Removed**
-- `logiesfunctie` — **Removed**
-- `onderwijsfunctie` — **Removed**
-- `overige gebruiksfunctie` — **Removed**
-- `sportfunctie` — **Removed**
-- `winkelfunctie` — **Removed**
-- `woonfunctie` — **Removed**
+- **package**: `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model` → `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval`
 
-#### gebruiksdoel — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `bedrag` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Prijsregel` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Prijsregel`
+- 🟡 `credit` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Prijsregel` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Prijsregel`
 
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `bijeenkomstfunctie` — **Added**
-- `celfunctie` — **Added**
-- `gezondheidszorgfunctie` — **Added**
-- `industriefunctie` — **Added**
-- `kantoorfunctie` — **Added**
-- `logiesfunctie` — **Added**
-- `onderwijsfunctie` — **Added**
-- `overige gebruiksfunctie` — **Added**
-- `sportfunctie` — **Added**
-- `winkelfunctie` — **Added**
-- `woonfunctie` — **Added**
+##### `Rit` — 🟡 Gewijzigd
 
-#### geslacht — **Removed**
+- **package**: `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model` → `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval`
 
-##### Literals
+**Attributen:**
 
-- `Leeg` — **Removed**
-- `Man` — **Removed**
-- `Onbekend` — **Removed**
-- `Vrouw` — **Removed**
+- 🟡 `eindtijd` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Rit` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Rit`
+- 🟡 `ritcode` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Rit` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Rit`
+- 🟡 `starttijd` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Rit` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Rit`
 
-#### soortGebruik — **Removed**
+##### `Route` — 🟡 Gewijzigd
 
-##### Literals
+- **package**: `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model` → `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval`
 
-- `terrein` — **Removed**
-- `boerderij` — **Removed**
-- `niet-woning` — **Removed**
-- `niet-woning deels in gebruik als woning` — **Removed**
-- `recreatiewoning en overige woningen` — **Removed**
-- `sluimerend WOZ-object` — **Removed**
-- `uitgezonderd gebouwd object` — **Removed**
-- `uitgezonderd ongebouwd object` — **Removed**
-- `woning dienend tot hoofdverblijf` — **Removed**
-- `woning met praktijkruimte` — **Removed**
+**Attributen:**
 
-#### soortGebruik — **Added**
+- 🟡 `geometrie` — Gewijzigd
+    - **primitieve type**: `GML` → `Point`
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Route` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Route`
+- 🟡 `routecode` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Route` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Route`
+- 🟡 `routesoort` — Gewijzigd
+    - **enumeratie**: `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Routesoort` → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Routesoort`
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Route` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Route`
 
-##### Literals
+##### `Storting` — 🟡 Gewijzigd
 
-- `terrein` — **Added**
-- `boerderij` — **Added**
-- `niet-woning` — **Added**
-- `niet-woning deels in gebruik als woning` — **Added**
-- `recreatiewoning en overige woningen` — **Added**
-- `sluimerend WOZ-object` — **Added**
-- `uitgezonderd gebouwd object` — **Added**
-- `uitgezonderd ongebouwd object` — **Added**
-- `woning dienend tot hoofdverblijf` — **Added**
-- `woning met praktijkruimte` — **Added**
+- **package**: `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model` → `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval`
 
-#### soortRechtsvorm — **Removed**
+**Attributen:**
 
-##### Literals
+- 🟡 `datumtijd` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Storting` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Storting`
+- 🟡 `gewicht` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Storting` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Storting`
 
-- `Besloten vennootschap` — **Removed**
-- `Europese Cooperatieve Vennootschap` — **Removed**
-- `Europese Naamloze Vennootschap` — **Removed**
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `commanditaire vennootschap` — **Removed**
-- `cooperatie, Europees Economische Samenwerking` — **Removed**
-- `kapitaalvennootschap binnen EER` — **Removed**
-- `kapitaalvennootschap buiten EER` — **Removed**
-- `kerkelijke Organisatie` — **Removed**
-- `maatschap` — **Removed**
-- `naamloze Vennootschap` — **Removed**
-- `onderlinge Waarborg Maatschappij` — **Removed**
-- `overig privaatrechtelijke rechtspersoon` — **Removed**
-- `overige buitenlandse rechtspersoon vennootschap` — **Removed**
-- `publiekrechtelijke Rechtspersoon` — **Removed**
-- `rederij` — **Removed**
-- `stichting` — **Removed**
-- `vennootschap onder Firma` — **Removed**
-- `vereniging` — **Removed**
-- `vereniging van Eigenaars` — **Removed**
+##### `Vuilniswagen` — 🟡 Gewijzigd
 
-#### soortRechtsvorm — **Added**
+- **package**: `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model` → `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval`
 
-##### Literals
+**Attributen:**
 
-- `Besloten vennootschap` — **Added**
-- `Europese Cooperatieve Vennootschap` — **Added**
-- `Europese Naamloze Vennootschap` — **Added**
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `commanditaire vennootschap` — **Added**
-- `cooperatie, Europees Economische Samenwerking` — **Added**
-- `kapitaalvennootschap binnen EER` — **Added**
-- `kapitaalvennootschap buiten EER` — **Added**
-- `kerkelijke Organisatie` — **Added**
-- `maatschap` — **Added**
-- `naamloze Vennootschap` — **Added**
-- `onderlinge Waarborg Maatschappij` — **Added**
-- `overig privaatrechtelijke rechtspersoon` — **Added**
-- `overige buitenlandse rechtspersoon vennootschap` — **Added**
-- `publiekrechtelijke Rechtspersoon` — **Added**
-- `rederij` — **Added**
-- `stichting` — **Added**
-- `vennootschap onder Firma` — **Added**
-- `vereniging` — **Added**
-- `vereniging van Eigenaars` — **Added**
+- 🟡 `code` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Vuilniswagen` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Vuilniswagen`
+- 🟡 `kenteken` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Vuilniswagen` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Vuilniswagen`
+- 🟡 `type` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Vuilniswagen` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Vuilniswagen`
 
-#### soortRechtsvorm — **Removed**
+##### `Vulgraadmeting` — 🟡 Gewijzigd
 
-##### Literals
+- **package**: `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model` → `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval`
 
-- `Besloten vennootschap` — **Removed**
-- `Europese Cooperatieve Vennootschap` — **Removed**
-- `Europese Naamloze Vennootschap` — **Removed**
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `commanditaire vennootschap` — **Removed**
-- `cooperatie, Europees Economische Samenwerking` — **Removed**
-- `kapitaalvennootschap binnen EER` — **Removed**
-- `kapitaalvennootschap buiten EER` — **Removed**
-- `kerkelijke Organisatie` — **Removed**
-- `maatschap` — **Removed**
-- `naamloze Vennootschap` — **Removed**
-- `onderlinge Waarborg Maatschappij` — **Removed**
-- `overig privaatrechtelijke rechtspersoon` — **Removed**
-- `overige buitenlandse rechtspersoon vennootschap` — **Removed**
-- `publiekrechtelijke Rechtspersoon` — **Removed**
-- `rederij` — **Removed**
-- `stichting` — **Removed**
-- `vennootschap onder Firma` — **Removed**
-- `vereniging` — **Removed**
-- `vereniging van Eigenaars` — **Removed**
+**Attributen:**
 
-#### soortRechtsvorm — **Added**
+- 🟡 `tijdstip` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Vulgraadmeting` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Vulgraadmeting`
+- 🟡 `vulgraad` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Vulgraadmeting` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Vulgraadmeting`
+- 🟡 `vullingGewicht` — Gewijzigd
+    - **class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Vulgraadmeting` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Vulgraadmeting`
 
-##### Literals
+#### Enumeraties
 
-- `Besloten vennootschap` — **Added**
-- `Europese Cooperatieve Vennootschap` — **Added**
-- `Europese Naamloze Vennootschap` — **Added**
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `commanditaire vennootschap` — **Added**
-- `cooperatie, Europees Economische Samenwerking` — **Added**
-- `kapitaalvennootschap binnen EER` — **Added**
-- `kapitaalvennootschap buiten EER` — **Added**
-- `kerkelijke Organisatie` — **Added**
-- `maatschap` — **Added**
-- `naamloze Vennootschap` — **Added**
-- `onderlinge Waarborg Maatschappij` — **Added**
-- `overig privaatrechtelijke rechtspersoon` — **Added**
-- `overige buitenlandse rechtspersoon vennootschap` — **Added**
-- `publiekrechtelijke Rechtspersoon` — **Added**
-- `rederij` — **Added**
-- `stichting` — **Added**
-- `vennootschap onder Firma` — **Added**
-- `vereniging` — **Added**
-- `vereniging van Eigenaars` — **Added**
+##### `Routesoort` — 🟡 Gewijzigd
 
-#### statusGeoObject — **Removed**
+- **package**: `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model` → `Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval`
 
-##### Literals
+#### Associaties
 
-- `bestaand` — **Removed**
-- `historie` — **Removed**
-- `plan` — **Removed**
+- 🟡 Gewijzigd: `Container` «geschikt voor» → `Fractie`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Container` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Container`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Fractie` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Fractie`
+- 🟡 Gewijzigd: `Container` «heeft» → `Locatie`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Container` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Container`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Locatie` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Locatie`
+- 🟡 Gewijzigd: `Container` «heeft» → `Vulgraadmeting`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Container` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Container`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Vulgraadmeting` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Vulgraadmeting`
+- 🟡 Gewijzigd: `Container` «soort» → `Containertype`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Container` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Container`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Containertype` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Containertype`
+- 🟡 Gewijzigd: `Melding` «betreft» → `Containertype`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Melding` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Melding`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Containertype` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Containertype`
+- 🟡 Gewijzigd: `Melding` «betreft» → `Fractie`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Melding` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Melding`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Fractie` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Fractie`
+- 🟡 Gewijzigd: `Melding` «betreft» → `Locatie`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Melding` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Melding`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Locatie` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Locatie`
+- 🟡 Gewijzigd: `Melding` «hoofdcategorie» → `Categorie`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Melding` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Melding`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Categorie` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Categorie`
+- 🟡 Gewijzigd: `Melding` «subcategorie» → `Categorie`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Melding` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Melding`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Categorie` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Categorie`
+- 🟡 Gewijzigd: `Milieustraat` «inzamelpunt van» → `Fractie`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Milieustraat` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Milieustraat`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Fractie` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Fractie`
+- 🟡 Gewijzigd: `Ophaalmoment` «gelost» → `Container`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Ophaalmoment` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Ophaalmoment`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Container` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Container`
+- 🟡 Gewijzigd: `Ophaalmoment` «gestopt op» → `Locatie`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Ophaalmoment` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Ophaalmoment`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Locatie` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Locatie`
+- 🟡 Gewijzigd: `Pas` «geldig voor» → `Milieustraat`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Pas` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Pas`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Milieustraat` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Milieustraat`
+- 🟡 Gewijzigd: `Pas` «uitgevoerde storting» → `Storting`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Pas` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Pas`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Storting` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Storting`
+- 🟡 Gewijzigd: `Prijsafspraak` «heeft» → `Prijsregel`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Prijsafspraak` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Prijsafspraak`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Prijsregel` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Prijsregel`
+- 🟡 Gewijzigd: `Prijsregel` «betreft» → `Fractie`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Prijsregel` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Prijsregel`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Fractie` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Fractie`
+- 🟡 Gewijzigd: `Rit` «heeft» → `Ophaalmoment`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Rit` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Rit`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Ophaalmoment` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Ophaalmoment`
+- 🟡 Gewijzigd: `Rit` «uitgevoerd met» → `Vuilniswagen`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Rit` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Rit`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Vuilniswagen` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Vuilniswagen`
+- 🟡 Gewijzigd: `Rit` «volgens» → `Route`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Rit` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Rit`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Route` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Route`
+- 🟡 Gewijzigd: `Route` «gaat langs» → `Locatie`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Route` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Route`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Locatie` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Locatie`
+- 🟡 Gewijzigd: `Route` «ophalen» → `Fractie`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Route` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Route`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Fractie` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Fractie`
+- 🟡 Gewijzigd: `Storting` «bij» → `Milieustraat`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Storting` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Storting`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Milieustraat` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Milieustraat`
+- 🟡 Gewijzigd: `Storting` «fractie» → `Fractie`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Storting` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Storting`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Fractie` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Fractie`
+- 🟡 Gewijzigd: `Vuilniswagen` «geschikt voor» → `Containertype`
+  - **src class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Vuilniswagen` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Vuilniswagen`
+  - **dst class**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Containertype` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Containertype`
 
-#### statusGeoObject — **Removed**
+#### Generalisaties
 
-##### Literals
+- 🟡 Gewijzigd: `Melding` ⟶ `AanvraagOfMelding`
+  - **subclass**: `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model::Melding` → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval::Melding`
 
-- `bestaand` — **Removed**
-- `historie` — **Removed**
-- `plan` — **Removed**
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingbeheer-openbare-ruimtemodel-basis-imbormodel-imbor"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Beheer Openbare Ruimte/Model Basis IMBOR/Model IMBOR
 
-#### statusGeoObject — **Removed**
+#### Classes
 
-##### Literals
+##### `Beheerobject` — 🟡 Attributen gewijzigd
 
-- `bestaand` — **Removed**
-- `historie` — **Removed**
-- `plan` — **Removed**
+**Attributen:**
 
-#### statusGeoObject — **Added**
+- 🟡 `beheerobjectMemo` — Gewijzigd
+    - **primitieve type**: `Memo` → `Tekst`
 
-##### Literals
+##### `Groenobject` — 🟡 Attributen gewijzigd
 
-- `bestaand` — **Added**
-- `historie` — **Added**
-- `plan` — **Added**
+**Attributen:**
 
-#### statusGeoObject — **Added**
+- 🟡 `opTalud` — Gewijzigd
+    - **primitieve type**: `nee` → `Boolean`
 
-##### Literals
+##### `Installatie` — 🟡 Attributen gewijzigd
 
-- `bestaand` — **Added**
-- `historie` — **Added**
-- `plan` — **Added**
+**Attributen:**
 
-#### statusGeoObject — **Removed**
+- 🟡 `installateur` — Gewijzigd
+    - **primitieve type**: `Installateur` → _(leeg)_
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Beheer Openbare Ruimte/Model Basis IMBOR/Enumeratiesoort::enum_Installateur`
 
-##### Literals
+##### `Leiding` — 🟡 Attributen gewijzigd
 
-- `bestaand` — **Removed**
-- `historie` — **Removed**
-- `plan` — **Removed**
+**Attributen:**
 
-#### statusGeoObject — **Added**
+- 🟡 `verhoogdRisico` — Gewijzigd
+    - **primitieve type**: `nee` → `Boolean`
 
-##### Literals
+##### `Put` — 🟡 Attributen gewijzigd
 
-- `bestaand` — **Added**
-- `historie` — **Added**
-- `plan` — **Added**
+**Attributen:**
 
-#### statusGeoObject — **Removed**
+- 🟡 `bovengrondsZichtbaar` — Gewijzigd
+    - **primitieve type**: `nee` → `Boolean`
 
-##### Literals
+##### `Terreindeel` — 🟡 Attributen gewijzigd
 
-- `bestaand` — **Removed**
-- `historie` — **Removed**
-- `plan` — **Removed**
+**Attributen:**
 
-#### statusGeoObject — **Removed**
+- 🟡 `opTalud` — Gewijzigd
+    - **primitieve type**: `nee` → `Boolean`
 
-##### Literals
+##### `Verhardingsobject` — 🟡 Attributen gewijzigd
 
-- `bestaand` — **Removed**
-- `historie` — **Removed**
-- `plan` — **Removed**
+**Attributen:**
 
-#### statusGeoObject — **Added**
+- 🟡 `opTalud` — Gewijzigd
+    - **primitieve type**: `nee` → `Boolean`
 
-##### Literals
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingbeheer-openbare-ruimtemodel-beheer-openbare-ruimte"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Beheer Openbare Ruimte/Model Beheer Openbare Ruimte
 
-- `bestaand` — **Added**
-- `historie` — **Added**
-- `plan` — **Added**
+#### Classes
 
-#### statusGeoObject — **Removed**
+##### `Areaal` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `bestaand` — **Removed**
-- `historie` — **Removed**
-- `plan` — **Removed**
+- 🟡 `geometrie` — Gewijzigd
+    - **primitieve type**: `MultiSurface` → `GM_MultiSurface`
 
-#### statusGeoObject — **Removed**
+##### `Melding` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `bestaand` — **Removed**
-- `historie` — **Removed**
-- `plan` — **Removed**
+- 🟡 `locatie` — Gewijzigd
+    - **primitieve type**: `Locatie` → `GM_Point`
 
-#### statusGeoObject — **Removed**
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingbouwen-en-wonenmodel-wonen"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Bouwen en Wonen/Model Wonen
 
-##### Literals
+#### Classes
 
-- `bestaand` — **Removed**
-- `historie` — **Removed**
-- `plan` — **Removed**
+##### `Plan` — 🟡 Attributen gewijzigd
 
-#### statusGeoObject — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `percelen` — Gewijzigd
+    - **primitieve type**: `MultiSurface` → `GM_MultiSurface`
 
-- `bestaand` — **Added**
-- `historie` — **Added**
-- `plan` — **Added**
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatiefinancienmodel-financien"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Financien/Model Financien
 
-#### statusGeoObject — **Removed**
+#### Associaties
 
-##### Literals
+- 🟡 Gewijzigd: `Begroting` «valt binnen» → `Periode`
+  - **dst mult. start**: _(leeg)_ → `1`
+  - **dst mult. end**: _(leeg)_ → `*`
 
-- `bestaand` — **Removed**
-- `historie` — **Removed**
-- `plan` — **Removed**
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatiehrmodel-hr"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/HR/Model HR
 
-#### statusGeoObject — **Added**
+#### Classes
 
-##### Literals
+##### `Rol` — 🟡 Attributen gewijzigd
 
-- `bestaand` — **Added**
-- `historie` — **Added**
-- `plan` — **Added**
+**Attributen:**
 
-#### statusGeoObject — **Removed**
+- 🟡 `omschrijving` — Gewijzigd
+    - **naam**: `rol` → `omschrijving`
 
-##### Literals
+#### Associaties
 
-- `bestaand` — **Removed**
-- `historie` — **Removed**
-- `plan` — **Removed**
+- 🟡 Gewijzigd: `Formatieplaats` «functie van formatieplaats» → `Functie`
+  - **src mult. start**: _(leeg)_ → `0`
+  - **src mult. end**: _(leeg)_ → `*`
+  - **dst mult. start**: _(leeg)_ → `1`
+  - **dst mult. end**: _(leeg)_ → `*`
+- 🟡 Gewijzigd: `Formatieplaats` «toegewezen aan» → `Dienstverband`
+  - **src mult. start**: _(leeg)_ → `0`
+  - **src mult. end**: _(leeg)_ → `*`
+  - **dst mult. start**: _(leeg)_ → `0`
+  - **dst mult. end**: _(leeg)_ → `*`
+- 🟡 Gewijzigd: `Functie` «gebaseerd op» → `NormProfiel`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `1`
+  - **dst mult. start**: _(leeg)_ → `1`
+  - **dst mult. end**: _(leeg)_ → `1`
+- 🟡 Gewijzigd: `Inzet` «inzet voor functie» → `Functie`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `1`
+  - **dst mult. start**: _(leeg)_ → `1`
+  - **dst mult. end**: _(leeg)_ → `1`
+- 🟡 Gewijzigd: `NormProfiel` «onderdeel van» → `Functiehuis`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `*`
+  - **dst mult. start**: _(leeg)_ → `1`
+  - **dst mult. end**: _(leeg)_ → `1`
+- 🟡 Gewijzigd: `Relatie` «is kind van» → `Werknemer`
+  - **dst mult. start**: _(leeg)_ → `1`
+  - **dst mult. end**: _(leeg)_ → `1`
+- 🟡 Gewijzigd: `Rol` «hoort bij» → `OrganisatorischeEenheidHR`
+  - **src mult. start**: _(leeg)_ → `0`
+  - **src mult. end**: _(leeg)_ → `*`
+  - **dst mult. start**: _(leeg)_ → `0`
+  - **dst mult. end**: _(leeg)_ → `1`
+- 🟡 Gewijzigd: `Werknemer` «Beoordeeld door» → `Beoordeling`
+  - **naam**: `Beoordeelt door` → `Beoordeeld door`
+- 🟡 Gewijzigd: `Werknemer` «is partner van» → `Relatie`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `1`
 
-#### statusGeoObject — **Removed**
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatieictmodel-ict"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/ICT/Model ICT
 
-##### Literals
+#### Classes
 
-- `bestaand` — **Removed**
-- `historie` — **Removed**
-- `plan` — **Removed**
+##### `Classificatie` — 🟡 Attributen gewijzigd
 
-#### statusGeoObject — **Added**
+**Attributen:**
 
-##### Literals
+- 🔴 `id` — Verwijderd
+- 🟡 `bevatPersoonsgegevens` — Gewijzigd
+    - **primitieve type**: `Persoonsgegevens` → `boolean`
+- 🟡 `gerelateerdPersoonsgegevens` — Gewijzigd
+    - **primitieve type**: `Persoonsgegevens` → `AN200`
 
-- `bestaand` — **Added**
-- `historie` — **Added**
-- `plan` — **Added**
+##### `Database` — 🟡 Attributen gewijzigd
 
-#### statusGeoObject — **Removed**
+**Attributen:**
 
-##### Literals
+- 🟡 `databaseInstantie` — Gewijzigd
+    - **naam**: `database` → `databaseInstantie`
+- 🟡 `OTAP` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Boolean`
 
-- `bestaand` — **Removed**
-- `historie` — **Removed**
-- `plan` — **Removed**
+#### Associaties
 
-#### statusGeoObject — **Added**
+- 🟡 Gewijzigd: `Prijzenboek` «heeft prijs» → `Product`
+  - **src mult. start**: _(leeg)_ → `0`
+  - **src mult. end**: _(leeg)_ → `*`
 
-##### Literals
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatievastgoedmodel-vastgoed"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Vastgoed/Model Vastgoed
 
-- `bestaand` — **Added**
-- `historie` — **Added**
-- `plan` — **Added**
+#### Classes
 
-#### statusGeoObject — **Removed**
+##### `Adresaanduiding` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `bestaand` — **Removed**
-- `historie` — **Removed**
-- `plan` — **Removed**
+- 🟡 `adres` — Gewijzigd
+    - **naam**: `adresaanduiding` → `adres`
 
-#### statusGeoObject — **Added**
+##### `Locatieonroerendezaak` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `bestaand` — **Added**
-- `historie` — **Added**
-- `plan` — **Added**
+- 🟡 `geometrie` — Gewijzigd
+    - **primitieve type**: `Vlak` → `GM_Surface`
 
-#### statusGeoObject — **Removed**
+##### `Vastgoedobject` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `bestaand` — **Removed**
-- `historie` — **Removed**
-- `plan` — **Removed**
+- 🟡 `afgekochteErfpacht` — Gewijzigd
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/Enumeratiesoort::Boolean`
 
-#### statusGeoObject — **Added**
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernbagmodel-bag"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/BAG/Model BAG
 
-##### Literals
+#### Classes
 
-- `bestaand` — **Added**
-- `historie` — **Added**
-- `plan` — **Added**
+##### `BinnenlandsAdres` — 🟢 Toegevoegd
 
-#### statusGeoObject — **Added**
+**Attributen:**
 
-##### Literals
+- 🟢 `BAGID` — Toegevoegd
+- 🟢 `gemeentenaam` — Toegevoegd
+- 🟢 `huisletter` — Toegevoegd
+- 🟢 `huisnummer` — Toegevoegd
+- 🟢 `huisnummertoevoeging` — Toegevoegd
+- 🟢 `postcode` — Toegevoegd
+- 🟢 `straatnaam` — Toegevoegd
 
-- `bestaand` — **Added**
-- `historie` — **Added**
-- `plan` — **Added**
+##### `Buurt` — 🟡 Attributen gewijzigd
 
-#### statusGeoObject — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `geometrie` — Gewijzigd
+    - **primitieve type**: `MultiSurface` → `GM_MultiSurface`
 
-- `bestaand` — **Added**
-- `historie` — **Added**
-- `plan` — **Added**
+##### `Gemeente` — 🟡 Attributen gewijzigd
 
-#### statusGeoObject — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `geometrie` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
 
-- `bestaand` — **Added**
-- `historie` — **Added**
-- `plan` — **Added**
+##### `Ligplaats` — 🟡 Attributen gewijzigd
 
-#### statusGeoObject — **Removed**
+**Attributen:**
 
-##### Literals
+- 🟡 `geometrie` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
 
-- `bestaand` — **Removed**
-- `historie` — **Removed**
-- `plan` — **Removed**
+##### `Nummeraanduiding` — 🟡 Attributen gewijzigd
 
-#### statusGeoObject — **Removed**
+**Attributen:**
 
-##### Literals
+- 🟡 `postcode` — Gewijzigd
+    - **primitieve type**: `char` → `AN6`
 
-- `bestaand` — **Removed**
-- `historie` — **Removed**
-- `plan` — **Removed**
+##### `OpenbareRuimte` — 🟡 Attributen gewijzigd
 
-#### statusGeoObject — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `geometrie` — Gewijzigd
+    - **primitieve type**: `MultiSurface` → `GM_MultiSurface`
+- 🟡 `wegsegment` — Gewijzigd
+    - **primitieve type**: `Curve` → `GM_Curve`
 
-- `bestaand` — **Added**
-- `historie` — **Added**
-- `plan` — **Added**
+##### `Pand` — 🟡 Attributen gewijzigd
 
-#### statusGeoObject — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `geometrieBovenaanzicht` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
+- 🟡 `geometrieMaaiveld` — Gewijzigd
+    - **primitieve type**: `MultiSurface` → `GM_MultiSurface`
+- 🟡 `oorspronkelijkBouwjaar` — Gewijzigd
+    - **primitieve type**: `JAAR` → `N4`
 
-- `bestaand` — **Added**
-- `historie` — **Added**
-- `plan` — **Added**
+##### `Standplaats` — 🟡 Attributen gewijzigd
 
-#### statusGeoObject — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `Geometrie` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
 
-- `bestaand` — **Added**
-- `historie` — **Added**
-- `plan` — **Added**
+##### `Wijk` — 🟡 Attributen gewijzigd
 
-#### statusGeoObject — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `geometrie` — Gewijzigd
+    - **primitieve type**: `MultiSurface` → `GM_MultiSurface`
 
-- `bestaand` — **Added**
-- `historie` — **Added**
-- `plan` — **Added**
+##### `Woonplaats` — 🟡 Attributen gewijzigd
 
-#### statusWOZ(Deel)Object — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `geometrie` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
 
-- `actief` — **Added**
-- `beëindigd` — **Added**
-- `gevormd, niet actief` — **Added**
-- `ten onrechte opgevoerd` — **Added**
+#### Associaties
 
-#### statusWOZ(Deel)Object — **Removed**
+- 🟡 Gewijzigd: `Gemeente` «is overgegaan in» → `Gemeente`
+  - **src mult. start**: _(leeg)_ → `0`
+  - **src mult. end**: _(leeg)_ → `*`
 
-##### Literals
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kerndimensiesmodel"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/Dimensies/Model
 
-- `actief` — **Removed**
-- `beëindigd` — **Removed**
-- `gevormd, niet actief` — **Removed**
-- `ten onrechte opgevoerd` — **Removed**
+#### Classes
 
-#### statusWOZ(Deel)Object — **Added**
+##### `Periode` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `actief` — **Added**
-- `beëindigd` — **Added**
-- `gevormd, niet actief` — **Added**
-- `ten onrechte opgevoerd` — **Added**
+- 🟡 `omschrijving` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `AN255`
 
-#### statusWOZ(Deel)Object — **Removed**
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kerngeneriekmodel-generiek"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/Generiek/Model Generiek
 
-##### Literals
+#### Classes
 
-- `actief` — **Removed**
-- `beëindigd` — **Removed**
-- `gevormd, niet actief` — **Removed**
-- `ten onrechte opgevoerd` — **Removed**
+##### `Foto` — 🟡 Attributen gewijzigd
 
-#### statusWOZ-Beschikking — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `locatie` — Gewijzigd
+    - **primitieve type**: `GML` → `GM_Point`
 
-- `uitspraak hoger beroep, vastgestelde waarde veranderd` — **Added**
-- `vernietiging beschikking` — **Added**
-- `arrest Hoge Raad, beschikking gehandhaafd` — **Added**
-- `arrest Hoge Raad, geding verwezen` — **Added**
-- `arrest Hoge Raad, vastgestelde waarde veranderd` — **Added**
-- `beroep aangetekend` — **Added**
-- `beschikking genomen` — **Added**
-- `bezwaar afgehandeld, beschikking gehandhaafd` — **Added**
-- `bezwaar afgehandeld, vastgestelde waarde veranderd` — **Added**
-- `bezwaar ingediend` — **Added**
-- `cassatie ingesteld` — **Added**
-- `herzieningsbeschikking` — **Added**
-- `hoger beroep aangetekend` — **Added**
-- `uitspraak beroep, beschikking gehandhaafd` — **Added**
-- `uitspraak beroep, vastgestelde waarde veranderd` — **Added**
-- `uitspraak hoger beroep, beschikking gehandhaafd` — **Added**
-- `waarde ambtshalve verminderd` — **Added**
-- `waarde te gebruiken voor voorlopige aanslag` — **Added**
+##### `Gebied` — 🟡 Attributen gewijzigd
 
-#### statusWOZ-Beschikking — **Removed**
+**Attributen:**
 
-##### Literals
+- 🟡 `gebiedsAanduiding` — Gewijzigd
+    - **naam**: `gebied` → `gebiedsAanduiding`
+    - **primitieve type**: `Polygoon` → `GM_MultiSurface`
 
-- `uitspraak hoger beroep, vastgestelde waarde veranderd` — **Removed**
-- `vernietiging beschikking` — **Removed**
-- `arrest Hoge Raad, beschikking gehandhaafd` — **Removed**
-- `arrest Hoge Raad, geding verwezen` — **Removed**
-- `arrest Hoge Raad, vastgestelde waarde veranderd` — **Removed**
-- `beroep aangetekend` — **Removed**
-- `beschikking genomen` — **Removed**
-- `bezwaar afgehandeld, beschikking gehandhaafd` — **Removed**
-- `bezwaar afgehandeld, vastgestelde waarde veranderd` — **Removed**
-- `bezwaar ingediend` — **Removed**
-- `cassatie ingesteld` — **Removed**
-- `herzieningsbeschikking` — **Removed**
-- `hoger beroep aangetekend` — **Removed**
-- `uitspraak beroep, beschikking gehandhaafd` — **Removed**
-- `uitspraak beroep, vastgestelde waarde veranderd` — **Removed**
-- `uitspraak hoger beroep, beschikking gehandhaafd` — **Removed**
-- `waarde ambtshalve verminderd` — **Removed**
-- `waarde te gebruiken voor voorlopige aanslag` — **Removed**
+##### `Lijn` — 🟡 Attributen gewijzigd
 
-#### typeOverbrugging — **Removed**
+**Attributen:**
 
-##### Literals
+- 🟡 `lijnLocatie` — Gewijzigd
+    - **naam**: `lijn` → `lijnLocatie`
+    - **primitieve type**: `Lijn` → `GM_Lijn`
 
-- `aquaduct` — **Removed**
-- `brug` — **Removed**
-- `ecoduct` — **Removed**
-- `fly-over` — **Removed**
-- `viaduct` — **Removed**
+##### `Punt` — 🟡 Attributen gewijzigd
 
-#### typeOverbrugging — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `puntLocatie` — Gewijzigd
+    - **naam**: `punt` → `puntLocatie`
+    - **primitieve type**: `Punt` → `GM_Punt`
 
-- `aquaduct` — **Added**
-- `brug` — **Added**
-- `ecoduct` — **Added**
-- `fly-over` — **Added**
-- `viaduct` — **Added**
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrgbzplusmodel-rgbzgroepattribuutsoort"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RGBZPlus/Model RGBZ/Groepattribuutsoort
 
-#### typeringAppartementsrechtsplitsing — **Added**
+#### Classes
 
-##### Literals
+##### `AfwijkendBuitenlandsCorrespondentieadresRol` — 🟡 Attributen gewijzigd
 
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `hoofdsplitsing` — **Added**
-- `ondersplitsing` — **Added**
-- `splitsingafkooperfpacht` — **Added**
+**Attributen:**
 
-#### typeringGebouwinstallatie — **Removed**
+- 🟡 `adresBuitenland1` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `AN200`
+- 🟡 `adresBuitenland2` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `AN200`
+- 🟡 `adresBuitenland3` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `AN200`
 
-##### Literals
+##### `AnderZaakobjectZaak` — 🟡 Attributen gewijzigd
 
-- `bordes` — **Removed**
-- `luifel` — **Removed**
-- `toegangstrap` — **Removed**
+**Attributen:**
 
-#### typeringGebouwinstallatie — **Added**
+- 🟡 `anderZaakobjectLocatie` — Gewijzigd
+    - **primitieve type**: `GML` → `GM_Point`
 
-##### Literals
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrgbzplusmodel-rgbzmetagegevens"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RGBZPlus/Model RGBZ/Metagegevens
 
-- `bordes` — **Added**
-- `luifel` — **Added**
-- `toegangstrap` — **Added**
+#### Classes
 
-#### typeringInrichtingselement — **Removed**
+##### `Brondocumenten` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `bak` — **Removed**
-- `bord` — **Removed**
-- `installatie` — **Removed**
-- `kast` — **Removed**
-- `mast` — **Removed**
-- `paal` — **Removed**
-- `put` — **Removed**
-- `sensor` — **Removed**
-- `straatmeubilair` — **Removed**
-- `waterinrichtingselement` — **Removed**
-- `weginrichtingselement` — **Removed**
+- 🟡 `datumDocument` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
 
-#### typeringInrichtingselement — **Added**
+##### `FormeleHistorie` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `bak` — **Added**
-- `bord` — **Added**
-- `installatie` — **Added**
-- `kast` — **Added**
-- `mast` — **Added**
-- `paal` — **Added**
-- `put` — **Added**
-- `sensor` — **Added**
-- `straatmeubilair` — **Added**
-- `waterinrichtingselement` — **Added**
-- `weginrichtingselement` — **Added**
+- 🟡 `tijdstipRegistratieGegevens` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `DateTime`
 
-#### typeringInrichtingselementPlus — **Added**
+##### `MaterieleHistorie` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `CAI-kast` — **Added**
-- `GMS kast` — **Added**
-- `GMS sensor` — **Added**
-- `abri` — **Added**
-- `afsluitpaal` — **Added**
-- `afval aparte plaats` — **Added**
-- `afvalbak` — **Added**
-- `balustrade` — **Added**
-- `bank` — **Added**
-- `benzine- / olieput` — **Added**
-- `betaalautomaat` — **Added**
-- `betonning` — **Added**
-- `bloembak` — **Added**
-- `bolder` — **Added**
-- `boomspiegel` — **Added**
-- `bovenleidingmast` — **Added**
-- `brandkraan / -put` — **Added**
-- `brievenbus` — **Added**
-- `camera` — **Added**
-- `container` — **Added**
-- `debietmeter` — **Added**
-- `detectielus` — **Added**
-- `dijkpaal` — **Added**
-- `drainageput` — **Added**
-- `drinkbak` — **Added**
-- `drukknoppaal` — **Added**
-- `dynamische snelheidsindicator` — **Added**
-- `elektrakast` — **Added**
-- `fietsenkluis` — **Added**
-- `fietsenrek` — **Added**
-- `flitser` — **Added**
-- `fontein` — **Added**
-- `gaskast` — **Added**
-- `gasput` — **Added**
-- `geleideconstructie` — **Added**
-- `geleidewerk` — **Added**
-- `grensmarkering` — **Added**
-- `haltepaal` — **Added**
-- `hectometerpaal` — **Added**
-- `herdenkingsmonument` — **Added**
-- `hoogtedetectieapparaat` — **Added**
-- `hoogtemerk` — **Added**
-- `informatiebord` — **Added**
-- `inspectie- / rioolput` — **Added**
-- `kolk` — **Added**
-- `kunstobject` — **Added**
-- `laagspanningsmast` — **Added**
-- `lichtcel` — **Added**
-- `lichtmast` — **Added**
-- `lichtpunt` — **Added**
-- `lijnafwatering` — **Added**
-- `meerpaal` — **Added**
-- `molgoot` — **Added**
-- `openbaar toilet` — **Added**
-- `openbare verlichtingskast` — **Added**
-- `parkeerbeugel` — **Added**
-- `picknicktafel` — **Added**
-- `plaatsnaambord` — **Added**
-- `poller` — **Added**
-- `pomp` — **Added**
-- `portaal` — **Added**
-- `praatpaal` — **Added**
-- `radar detector` — **Added**
-- `radarmast` — **Added**
-- `reclamebord` — **Added**
-- `reclamezuil` — **Added**
-- `remmingswerk` — **Added**
-- `rioolkast` — **Added**
-- `scheepvaartbord` — **Added**
-- `sirene` — **Added**
-- `slagboom` — **Added**
-- `speelvoorziening` — **Added**
-- `straalzender` — **Added**
-- `straatnaambord` — **Added**
-- `telecom kast` — **Added**
-- `telefooncel` — **Added**
-- `telkast` — **Added**
-- `telpaal` — **Added**
-- `verblindingswering` — **Added**
-- `verkeersbord` — **Added**
-- `verkeersbordpaal` — **Added**
-- `verkeersregelinstallatiekast` — **Added**
-- `verkeersregelinstallatiepaal` — **Added**
-- `verklikker transportleiding` — **Added**
-- `vlaggenmast` — **Added**
-- `vuilvang` — **Added**
-- `waarschuwingshek` — **Added**
-- `waterleidingput` — **Added**
-- `waterstandmeter` — **Added**
-- `weerstation` — **Added**
-- `wegmarkering` — **Added**
-- `wegwijzer` — **Added**
-- `wildrooster` — **Added**
-- `windmeter` — **Added**
-- `zand- / zoutbak` — **Added**
-- `zendmast` — **Added**
-- `zonnepaneel` — **Added**
+- 🟡 `datumBeginGeldigheidGegevens` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumEindeGeldigheidGegevens` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
 
-#### typeringInrichtingselementPlus — **Removed**
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrgbzplusmodel-rgbzmodel-kern-rgbz"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RGBZPlus/Model RGBZ/Model Kern RGBZ
 
-##### Literals
+#### Classes
 
-- `CAI-kast` — **Removed**
-- `GMS kast` — **Removed**
-- `GMS sensor` — **Removed**
-- `abri` — **Removed**
-- `afsluitpaal` — **Removed**
-- `afval aparte plaats` — **Removed**
-- `afvalbak` — **Removed**
-- `balustrade` — **Removed**
-- `bank` — **Removed**
-- `benzine- / olieput` — **Removed**
-- `betaalautomaat` — **Removed**
-- `betonning` — **Removed**
-- `bloembak` — **Removed**
-- `bolder` — **Removed**
-- `boomspiegel` — **Removed**
-- `bovenleidingmast` — **Removed**
-- `brandkraan / -put` — **Removed**
-- `brievenbus` — **Removed**
-- `camera` — **Removed**
-- `container` — **Removed**
-- `debietmeter` — **Removed**
-- `detectielus` — **Removed**
-- `dijkpaal` — **Removed**
-- `drainageput` — **Removed**
-- `drinkbak` — **Removed**
-- `drukknoppaal` — **Removed**
-- `dynamische snelheidsindicator` — **Removed**
-- `elektrakast` — **Removed**
-- `fietsenkluis` — **Removed**
-- `fietsenrek` — **Removed**
-- `flitser` — **Removed**
-- `fontein` — **Removed**
-- `gaskast` — **Removed**
-- `gasput` — **Removed**
-- `geleideconstructie` — **Removed**
-- `geleidewerk` — **Removed**
-- `grensmarkering` — **Removed**
-- `haltepaal` — **Removed**
-- `hectometerpaal` — **Removed**
-- `herdenkingsmonument` — **Removed**
-- `hoogtedetectieapparaat` — **Removed**
-- `hoogtemerk` — **Removed**
-- `informatiebord` — **Removed**
-- `inspectie- / rioolput` — **Removed**
-- `kolk` — **Removed**
-- `kunstobject` — **Removed**
-- `laagspanningsmast` — **Removed**
-- `lichtcel` — **Removed**
-- `lichtmast` — **Removed**
-- `lichtpunt` — **Removed**
-- `lijnafwatering` — **Removed**
-- `meerpaal` — **Removed**
-- `molgoot` — **Removed**
-- `openbaar toilet` — **Removed**
-- `openbare verlichtingskast` — **Removed**
-- `parkeerbeugel` — **Removed**
-- `picknicktafel` — **Removed**
-- `plaatsnaambord` — **Removed**
-- `poller` — **Removed**
-- `pomp` — **Removed**
-- `portaal` — **Removed**
-- `praatpaal` — **Removed**
-- `radar detector` — **Removed**
-- `radarmast` — **Removed**
-- `reclamebord` — **Removed**
-- `reclamezuil` — **Removed**
-- `remmingswerk` — **Removed**
-- `rioolkast` — **Removed**
-- `scheepvaartbord` — **Removed**
-- `sirene` — **Removed**
-- `slagboom` — **Removed**
-- `speelvoorziening` — **Removed**
-- `straalzender` — **Removed**
-- `straatnaambord` — **Removed**
-- `telecom kast` — **Removed**
-- `telefooncel` — **Removed**
-- `telkast` — **Removed**
-- `telpaal` — **Removed**
-- `verblindingswering` — **Removed**
-- `verkeersbord` — **Removed**
-- `verkeersbordpaal` — **Removed**
-- `verkeersregelinstallatiekast` — **Removed**
-- `verkeersregelinstallatiepaal` — **Removed**
-- `verklikker transportleiding` — **Removed**
-- `vlaggenmast` — **Removed**
-- `vuilvang` — **Removed**
-- `waarschuwingshek` — **Removed**
-- `waterleidingput` — **Removed**
-- `waterstandmeter` — **Removed**
-- `weerstation` — **Removed**
-- `wegmarkering` — **Removed**
-- `wegwijzer` — **Removed**
-- `wildrooster` — **Removed**
-- `windmeter` — **Removed**
-- `zand- / zoutbak` — **Removed**
-- `zendmast` — **Removed**
-- `zonnepaneel` — **Removed**
+##### `Bedrijfsprocestype` — 🟡 Attributen gewijzigd
 
-#### typeringOndersteunendWater — **Removed**
+**Attributen:**
 
-##### Literals
+- 🟡 `Omschrijving` — Gewijzigd
+    - **primitieve type**: `AM200` → `AN200`
 
-- `oever, slootkant` — **Removed**
-- `slik` — **Removed**
+##### `Besluit` — 🟡 Attributen gewijzigd
 
-#### typeringOndersteunendWater — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `datumBesluit` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumPublicatie` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumStart` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumUiterlijkeReactie` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumVerval` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumVerzending` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `omschrijving` — Gewijzigd
+    - **naam**: `besluit` → `omschrijving`
+- 🟡 `redenVerval` — Gewijzigd
+    - **primitieve type**: `X40` → `AN40`
 
-- `oever, slootkant` — **Added**
-- `slik` — **Added**
+##### `Betrokkene` — 🟡 Attributen gewijzigd
 
-#### typeringOndersteunendWaterPlus — **Removed**
+**Attributen:**
 
-#### typeringOverbruggingsdeel — **Removed**
+- 🔴 `rol` — Verwijderd
+- 🟡 `adresBinnenland` — Gewijzigd
+    - **type (class)**: _(leeg)_ → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/BAG/Model BAG::BinnenlandsAdres`
+- 🟡 `adresBuitenland` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `AN200`
 
-##### Literals
+##### `Document` — 🟡 Attributen gewijzigd
 
-- `dek` — **Removed**
-- `landhoofd` — **Removed**
-- `pijler` — **Removed**
-- `pyloon` — **Removed**
-- `sloof` — **Removed**
+**Attributen:**
 
-#### typeringOverbruggingsdeel — **Added**
+- 🟡 `datumCreatieDocument` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumOntvangstdocument` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumVerzendingDocument` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
 
-##### Literals
+##### `EnkelvoudigDocument` — 🟡 Attributen gewijzigd
 
-- `dek` — **Added**
-- `landhoofd` — **Added**
-- `pijler` — **Added**
-- `pyloon` — **Added**
-- `sloof` — **Added**
+**Attributen:**
 
-#### typeringOverigeScheiding — **Removed**
+- 🟡 `documentInhoud` — Gewijzigd
+    - **primitieve type**: `Documentformaat` → `AN255`
 
-##### Literals
+##### `Medewerker` — 🟡 Attributen gewijzigd
 
-- `draadraster` — **Removed**
-- `faunaraster` — **Removed**
+**Attributen:**
 
-#### typeringOverigeScheiding — **Added**
+- 🟡 `datumUitDienst` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `extern` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Boolean`
 
-##### Literals
+##### `Object` — 🟡 Attributen gewijzigd
 
-- `draadraster` — **Added**
-- `faunaraster` — **Added**
+**Attributen:**
 
-#### typeringVegetatieobject — **Added**
+- 🟡 `adresBinnenland` — Gewijzigd
+    - **type (class)**: _(leeg)_ → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/BAG/Model BAG::BinnenlandsAdres`
+- 🟡 `adresBuitenland` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `AN200`
+- 🟡 `geometrie` — Gewijzigd
+    - **primitieve type**: `GML` → `GM_Point`
+- 🟡 `indicatieRisico` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Boolean`
+- 🟡 `toelichting` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Tekst`
 
-##### Literals
+##### `OrganisatorischeEenheid` — 🟡 Attributen gewijzigd
 
-- `boom` — **Added**
-- `haag` — **Added**
+**Attributen:**
 
-#### typeringVegetatieobject — **Removed**
+- 🟡 `datumOntstaan` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumOpheffing` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `Formatie` — Gewijzigd
+    - **stereotype**: _(leeg)_ → `Attribuutsoort`
+    - **primitieve type**: _(leeg)_ → `AN255`
+    - **authentiek**: _(leeg)_ → `Authentiek`
 
-##### Literals
+##### `Status` — 🟡 Attributen gewijzigd
 
-- `boom` — **Removed**
-- `haag` — **Removed**
+**Attributen:**
 
-#### typeringWater — **Removed**
+- 🟡 `datumStatusGezet` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
 
-##### Literals
+##### `ZAAK - Origineel` — 🟡 Attributen gewijzigd
 
-- `greppel, droge sloot` — **Removed**
-- `waterloop` — **Removed**
-- `watervlakte` — **Removed**
-- `zee` — **Removed**
+**Attributen:**
 
-#### typeringWater — **Added**
+- 🟡 `datumEinde` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumEindeGepland` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumEindeUiterlijkeAfdoening` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumLaatsteBetaling` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumRegistratie` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumStart` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumVernietigingDossier` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `indicatieDeelzaken` — Gewijzigd
+    - **primitieve type**: `A1` → `Boolean`
 
-##### Literals
+##### `Zaak` — 🟡 Attributen gewijzigd
 
-- `greppel, droge sloot` — **Added**
-- `waterloop` — **Added**
-- `watervlakte` — **Added**
-- `zee` — **Added**
+**Attributen:**
 
-#### typeringWaterPlus — **Removed**
+- 🔴 `attribute` — Verwijderd
+- 🔴 `document` — Verwijderd
+- 🟡 `datumEinde` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumEindeGepland` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumEindeUiterlijkeAfdoening` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumLaatsteBetaling` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumRegistratie` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumStart` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumVernietigingDossier` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `indicatieDeelzaken` — Gewijzigd
+    - **primitieve type**: `A1` → `Boolean`
 
-##### Literals
+#### Associaties
 
-- `beek` — **Removed**
-- `bron` — **Removed**
-- `gracht` — **Removed**
-- `haven` — **Removed**
-- `kanaal` — **Removed**
-- `meer, plas, ven, vijver` — **Removed**
-- `rivier` — **Removed**
-- `sloot` — **Removed**
+- 🟡 Gewijzigd: `Bedrijfsprocestype` «is onderdeel van» → `Bedrijfsprocestype`
+  - **src mult. start**: _(leeg)_ → `0`
+  - **src mult. end**: _(leeg)_ → `*`
+  - **dst mult. start**: _(leeg)_ → `0`
+  - **dst mult. end**: _(leeg)_ → `*`
+- 🟡 Gewijzigd: `Zaak` «heeft betrekking op andere» → `Zaak`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `1`
+- 🟡 Gewijzigd: `Zaak` «is deelzaak van» → `Zaak`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `1`
 
-#### typeringWaterPlus — **Added**
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelenumeratiesoort"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/Enumeratiesoort
 
-##### Literals
+#### Enumeraties
 
-- `beek` — **Added**
-- `bron` — **Added**
-- `gracht` — **Added**
-- `haven` — **Added**
-- `kanaal` — **Added**
-- `meer, plas, ven, vijver` — **Added**
-- `rivier` — **Added**
-- `sloot` — **Added**
+##### `functieOndersteunendWegdeelPlus` — 🔴 Verwijderd
 
-#### typeringZekerheidsrecht — **Added**
+##### `typeringOndersteunendWaterPlus` — 🔴 Verwijderd
 
-##### Literals
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelgroepattribuutsoort"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/Groepattribuutsoort
 
-- `beslag` — **Added**
-- `recht van hypotheek` — **Added**
+#### Classes
 
-#### typeringZekerheidsrecht — **Removed**
+##### `GeboorteIngeschrevenNatuurlijkPersoon` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `beslag` — **Removed**
-- `recht van hypotheek` — **Removed**
+- 🟡 `datumGeboorte` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
 
-## Package: Model Leerplicht en Leerlingenvervoer
+##### `GeboorteIngeschrevenPersoon` — 🟡 Attributen gewijzigd
 
-### Classes
+**Attributen:**
 
-#### Procesverbaal Onderwijs — **Unchanged**
+- 🟡 `datumGeboorte` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `geboorteplaats` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `AN200`
 
-##### Attributes
+##### `KoopsomKadastraleOnroerendeZaak` — 🟡 Attributen gewijzigd
 
-- geldboeteVoorwaardelijk — **Changed**
-  - **enumeration_id**: `Enumeratie: Boolean` → `Enumeratie: Boolean`
+**Attributen:**
 
-#### Vrijstelling — **Unchanged**
+- 🟡 `datumTransactie` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
 
-##### Attributes
+##### `NaamNatuurlijkPersoon` — 🟡 Attributen gewijzigd
 
-- aanvraagToegekend — **Changed**
-  - **enumeration_id**: `Enumeratie: Boolean` → `Enumeratie: Boolean`
+**Attributen:**
 
-_No datatype changes in this package._
+- 🟡 `geslachtsnaam` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `AN255`
+- 🟡 `voornamen` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `AN200`
+- 🟡 `voorvoegselGeslachtsnaam` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `AN255`
 
-### Enumerations
+##### `NederlandseNationaliteitIngeschrevenPersoon` — 🟡 Attributen gewijzigd
 
-#### Boolean — **Removed**
+**Attributen:**
 
-##### Literals
+- 🟡 `aanduidingBijzonderNederlanderschap` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `boolean`
+- 🟡 `redenVerkrijgingNederlandseNationaliteit` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `AN200`
+- 🟡 `redenVerliesNederlandseNationaliteit` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `AN200`
 
-- `Ja` — **Removed**
-- `Leeg` — **Removed**
-- `Nee` — **Removed**
-- `Onbekend` — **Removed**
+##### `OntbindingHuwelijk/geregistreerdPartnerschap` — 🟡 Attributen gewijzigd
 
-#### Boolean — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `datumEinde` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
 
-- `Ja` — **Added**
-- `Leeg` — **Added**
-- `Nee` — **Added**
-- `Onbekend` — **Added**
+##### `OverlijdenIngeschrevenNatuurlijkPersoon` — 🟡 Attributen gewijzigd
 
-#### Boolean — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `datumOverlijden` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
 
-- `Ja` — **Added**
-- `Leeg` — **Added**
-- `Nee` — **Added**
-- `Onbekend` — **Added**
+##### `OverlijdenIngeschrevenPersoon` — 🟡 Attributen gewijzigd
 
-#### Boolean — **Removed**
+**Attributen:**
 
-##### Literals
+- 🟡 `datumOverlijden` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `overlijdensplaats` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `AN200`
 
-- `Ja` — **Removed**
-- `Leeg` — **Removed**
-- `Nee` — **Removed**
-- `Onbekend` — **Removed**
+##### `Postadres` — 🟡 Attributen gewijzigd
 
-## Package: Model Onderwijs
+**Attributen:**
 
-### Classes
+- 🟡 `postadresType` — Gewijzigd
+    - **primitieve type**: `postadresType` → `AN255`
+- 🟡 `postcodePostadres` — Gewijzigd
+    - **primitieve type**: `POSTCODE` → `AN6`
 
-#### Leerling — **Unchanged**
+##### `SamengesteldeNaamNatuurlijkPersoon` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- kwetsbareJongere — **Changed**
-  - **enumeration_id**: `Enumeratie: Boolean` → `Enumeratie: Boolean`
+- 🟡 `namenreeks` — Gewijzigd
+    - **primitieve type**: `INDIC` → `boolean`
+- 🟡 `scheidingsteken` — Gewijzigd
+    - **primitieve type**: `VOORVOEGSEL` → `AN255`
+- 🟡 `voorvoegsel` — Gewijzigd
+    - **primitieve type**: `VOORVOEGSEL` → `AN255`
 
-#### Uitschrijving — **Unchanged**
+##### `SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- diplomaBehaald — **Changed**
-  - **enumeration_id**: `Enumeratie: Boolean` → `Enumeratie: Boolean`
+- 🟡 `datumAanvang` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
 
-_No datatype changes in this package._
+##### `SoortFunctioneelGebied` — 🟡 Attributen gewijzigd
 
-### Enumerations
+**Attributen:**
 
-#### Boolean — **Added**
+- 🟡 `indicatiePlusBRPopulatie` — Gewijzigd
+    - **primitieve type**: `INDIC` → `Boolean`
 
-##### Literals
+##### `SoortKunstwerk` — 🟡 Attributen gewijzigd
 
-- `Ja` — **Added**
-- `Leeg` — **Added**
-- `Nee` — **Added**
-- `Onbekend` — **Added**
+**Attributen:**
 
-#### Boolean — **Removed**
+- 🟡 `indicatiePlusBRPopulatie` — Gewijzigd
+    - **primitieve type**: `INDIC` → `Boolean`
 
-##### Literals
+##### `SoortOverigBouwwerk` — 🟡 Attributen gewijzigd
 
-- `Ja` — **Removed**
-- `Leeg` — **Removed**
-- `Nee` — **Removed**
-- `Onbekend` — **Removed**
+**Attributen:**
 
-#### Boolean — **Removed**
+- 🟡 `indicatiePlusBRPopulatie` — Gewijzigd
+    - **primitieve type**: `INDIC` → `Boolean`
 
-##### Literals
+##### `SoortScheiding` — 🟡 Attributen gewijzigd
 
-- `Ja` — **Removed**
-- `Leeg` — **Removed**
-- `Nee` — **Removed**
-- `Onbekend` — **Removed**
+**Attributen:**
 
-#### Boolean — **Added**
+- 🟡 `indicatiePlusBRPopulatie` — Gewijzigd
+    - **primitieve type**: `INDIC` → `Boolean`
 
-##### Literals
+##### `SoortSpoor` — 🟡 Attributen gewijzigd
 
-- `Ja` — **Added**
-- `Leeg` — **Added**
-- `Nee` — **Added**
-- `Onbekend` — **Added**
+**Attributen:**
 
-## Package: Model Parkeren
+- 🟡 `indicatiePlusBRPopulatie` — Gewijzigd
+    - **primitieve type**: `INDIC` → `Boolean`
 
-### Classes
+##### `VerblijfBuitenlandSubject` — 🟡 Attributen gewijzigd
 
-#### Parkeerscan — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `adresBuitenland1` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `AN200`
+- 🟡 `adresBuitenland2` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `AN200`
+- 🟡 `adresBuitenland3` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `AN200`
 
-- coordinaten — **Changed**
-  - **primitive**: `GML` → `Point`
+##### `VerblijfadresIngeschrevenPersoon` — 🟡 Attributen gewijzigd
 
-#### Parkeervlak — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `beschrijvingLocatie` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `AN255`
 
-- coordinaten — **Changed**
-  - **primitive**: `GML` → `Point`
+##### `VerblijfsrechtIngeschrevenNatuurlijkPersoon` — 🟡 Attributen gewijzigd
 
-#### Parkeerzone — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `datumAanvangVerblijfsrecht` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumMededelingVerblijfsrecht` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumVoorzienEindeVerblijfsrecht` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
 
-- geometrie — **Changed**
-  - **primitive**: `Multivlak` → `MultiSurface`
-- isParkeergarage — **Changed**
-  - **enumeration_id**: `Enumeratie: Boolean` → `Enumeratie: Boolean`
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelmodel-kern-rsgb"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/Model Kern RSGB
 
-_No datatype changes in this package._
+#### Classes
 
-### Enumerations
+##### `Aantekening` — 🟡 Attributen gewijzigd
 
-#### Boolean — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `begrenzing` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
 
-- `Ja` — **Added**
-- `Leeg` — **Added**
-- `Nee` — **Added**
-- `Onbekend` — **Added**
+##### `Appartementsrechtsplitsing` — 🟡 Attributen gewijzigd
 
-#### Boolean — **Removed**
+**Attributen:**
 
-##### Literals
+- 🟡 `typeSplitsing` — Gewijzigd
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/Enumeratiesoort::typeringAppartementsrechtsplitsing`
 
-- `Ja` — **Removed**
-- `Leeg` — **Removed**
-- `Nee` — **Removed**
-- `Onbekend` — **Removed**
+##### `BegroeidTerreindeel` — 🟡 Attributen gewijzigd
 
-## Package: Model Schuldhulpverlening
+**Attributen:**
 
-### Classes
+- 🟡 `datumBeginGeldigheid` — Gewijzigd
+    - **naam**: `datumBeginGeldigheidBegroeidTerreindeel` → `datumBeginGeldigheid`
+- 🟡 `datumEindeGeldigheid` — Gewijzigd
+    - **naam**: `datumEindeGeldigheidBegroeidTerreindeel` → `datumEindeGeldigheid`
+- 🟡 `fysiekVoorkomen` — Gewijzigd
+    - **naam**: `fysiekVoorkomenBegroeidTerreindeel` → `fysiekVoorkomen`
+- 🟡 `geometrie` — Gewijzigd
+    - **naam**: `geometrieBegroeidTerreindeel` → `geometrie`
+    - **primitieve type**: `Surface` → `GM_Surface`
+- 🟡 `identificatie` — Gewijzigd
+    - **naam**: `identificatieBegroeidTerreindeel` → `identificatie`
+- 🟡 `kruinlijngeometrie` — Gewijzigd
+    - **naam**: `kruinlijngeometrieBegroeidTerreindeel` → `kruinlijngeometrie`
+    - **primitieve type**: `Curve` → `GM_Curve`
+- 🟡 `LOD0Geometrie` — Gewijzigd
+    - **naam**: `LOD0GeometrieBegroeidTerreindeel` → `LOD0Geometrie`
+    - **primitieve type**: `MultiSurface` → `GM_MultiSurface`
+- 🟡 `opTalud` — Gewijzigd
+    - **naam**: `begroeidTerreindeelOpTalud` → `opTalud`
+    - **primitieve type**: `INDIC` → `boolean`
+- 🟡 `plusFysiekVoorkomen` — Gewijzigd
+    - **naam**: `plusFysiekVoorkomenBegroeidTerreindeel` → `plusFysiekVoorkomen`
+- 🟡 `relatieveHoogteligging` — Gewijzigd
+    - **naam**: `relatieveHoogteliggingBegroeidTerreindeel` → `relatieveHoogteligging`
+- 🟡 `status` — Gewijzigd
+    - **naam**: `statusBegroeidTerreindeel` → `status`
 
-#### Begeleiding — **Unchanged**
+##### `Briefadres` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- soort — **Changed**
-  - **stereotype**: `` → `enum`
+- 🟡 `adresFunctie` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `An200`
+- 🟡 `omschrijvingAangifte` — Gewijzigd
+    - **primitieve type**: `Text` → `AN255`
 
-#### Begeleidingssoort — **Unchanged**
+##### `FunctioneelGebied` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- soort — **Changed**
-  - **stereotype**: `` → `enum`
-  - **primitive**: `BegeleidingsoortEnum` → `EnumBegeleidingssoort`
-  - **enumeration_id**: `` → `Enumeratie: EnumBegeleidingssoort`
+- 🟡 `geometrieFunctioneelGebied` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
 
-#### Oplossing — **Unchanged**
+##### `Gebied` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- soort — **Changed**
-  - **stereotype**: `` → `enum`
+- 🟡 `geometrie` — Gewijzigd
+    - **primitieve type**: `MultiSurface` → `GM_MultiSurface`
 
-#### Oplossingssoort — **Unchanged**
+##### `Gebouwinstallatie` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- soort — **Changed**
-  - **stereotype**: `` → `enum`
-  - **primitive**: `SchuldregelingsoortEnum` → `EnumSchuldensoort`
-  - **enumeration_id**: `` → `Enumeratie: EnumSchuldensoort`
+- 🟡 `geometrieGebouwinstallatie` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
+- 🟡 `LOD0GeometrieGebouwinstallatie` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
 
-_No datatype changes in this package._
+##### `Huishouden` — 🟡 Attributen gewijzigd
 
-_No enumeration changes in this package._
+**Attributen:**
 
-## Package: Model Sociaal Domein Generiek
+- 🔴 `relatie` — Verwijderd
 
-### Classes
+##### `Inrichtingselement` — 🟡 Attributen gewijzigd
 
-#### Incident — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `geometrieInrichtingselement` — Gewijzigd
+    - **primitieve type**: `PuntLijnVlak` → `GM_Surface`
+- 🟡 `LOD0GeometrieInrichtingselement` — Gewijzigd
+    - **primitieve type**: `PuntLijnVlak` → `GM_Surface`
 
-- locatie — **Changed**
-  - **primitive**: `Locatie` → `Point`
-- soort — **Changed**
-  - **primitive**: `Incidenttype` → `enum_Incidenttype`
-  - **enumeration_id**: `` → `Enumeratie: enum_Incidenttype`
+##### `KadastraalPerceel` — 🟡 Attributen gewijzigd
 
-#### Relatiesoort — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `begrenzingPerceel` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
+- 🟡 `indicatieDeelperceel` — Gewijzigd
+    - **primitieve type**: `INDIC` → `boolean`
 
-- Omschrijving — **Added**
+##### `KadastraleOnroerendeZaak` — 🟡 Attributen gewijzigd
 
-#### Sociale Groep — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🔴 `attribute` — Verwijderd
+- 🔴 `oud` — Verwijderd
+- 🟡 `appartementsrechtvolgnummer` — Gewijzigd
+    - **stereotype**: `Data element` → `Attribuutsoort`
+- 🟡 `begrenzing` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
+- 🟡 `datumBeginGeldigheid` — Gewijzigd
+    - **naam**: `datumBeginGeldigheidKadastraleOnroerendeZaak` → `datumBeginGeldigheid`
+- 🟡 `datumEindeGeldigheid` — Gewijzigd
+    - **naam**: `datumEindeGeldigheidKadastraleOnroerendeZaak` → `datumEindeGeldigheid`
+- 🟡 `perceelnummer` — Gewijzigd
+    - **stereotype**: `Data element` → `Attribuutsoort`
 
-- typering — **Changed**
-  - **primitive**: `Groep` → `Text`
+##### `Kunstwerkdeel` — 🟡 Attributen gewijzigd
 
-#### Sociale Relatie — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `LOD0GeometrieKunstwerkdeel` — Gewijzigd
+    - **primitieve type**: `PuntLijnVlak` → `GM_Surface`
 
-- typering — **Changed**
-  - **primitive**: `Relatie` → `text`
+##### `MaatschappelijkeActiviteit` — 🟡 Attributen gewijzigd
 
-_No datatype changes in this package._
+**Attributen:**
 
-### Enumerations
+- 🟡 `adresBinnenland` — Gewijzigd
+    - **primitieve type**: `AN257` → _(leeg)_
+    - **type (class)**: _(leeg)_ → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/BAG/Model BAG::BinnenlandsAdres`
+- 🟡 `indicatieEconomischActief` — Gewijzigd
+    - **primitieve type**: `INDIC` → `boolean`
 
-#### enum_Incidenttype — **Added**
+##### `Nationaliteit` — 🟡 Attributen gewijzigd
 
-## Package: Model Sport
+**Attributen:**
 
-### Classes
+- 🟡 `omschrijving` — Gewijzigd
+    - **naam**: `Nationaliteit` → `omschrijving`
+- 🟡 `redenVerkrijgingNLNationaliteit` — Gewijzigd
+    - **naam**: `Reden verkrijging Nederlandse nationaliteit` → `redenVerkrijgingNLNationaliteit`
+- 🟡 `redenVerliesNLNationaliteit` — Gewijzigd
+    - **naam**: `Reden verlies Nederlandse nationaliteit` → `redenVerliesNLNationaliteit`
 
-#### Binnenlocatie — **Unchanged**
+##### `NatuurlijkPersoon` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- locatie — **Changed**
-  - **primitive**: `GML` → `Point`
+- 🔴 `attribute` — Verwijderd
+- 🟡 `bijzonderNederlanderschap` — Gewijzigd
+    - **naam**: `aanduidingBijzonderNederlanderschapPersoon` → `bijzonderNederlanderschap`
+- 🟡 `geslachtsaanduiding` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `A1`
+    - **enumeratie**: `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/Enumeratiesoort::geslacht` → _(leeg)_
 
-_No datatype changes in this package._
+##### `OnbegroeidTerreindeel` — 🟡 Attributen gewijzigd
 
-_No enumeration changes in this package._
+**Attributen:**
 
-## Package: Model Terug- en invordering
+- 🟡 `datumBeginGeldigheid` — Gewijzigd
+    - **naam**: `datumBeginGeldigheidOnbegroeidTerreindeel` → `datumBeginGeldigheid`
+- 🟡 `datumEindeGeldigheid` — Gewijzigd
+    - **naam**: `datumEindeGeldigheidOnbegroeidTerreindeel` → `datumEindeGeldigheid`
+- 🟡 `fysiekVoorkomen` — Gewijzigd
+    - **naam**: `fysiekVoorkomenOnbegroeidTerreindeel` → `fysiekVoorkomen`
+- 🟡 `geometrie` — Gewijzigd
+    - **naam**: `geometrieOnbegroeidTerreindeel` → `geometrie`
+    - **primitieve type**: `Surface` → `GM_Surface`
+- 🟡 `identificatie` — Gewijzigd
+    - **naam**: `identificatieOnbegroeidTerreindeel` → `identificatie`
+- 🟡 `kruinlijngeometrie` — Gewijzigd
+    - **naam**: `kruinlijngeometrieOnbegroeidTerreindeel` → `kruinlijngeometrie`
+    - **primitieve type**: `Curve` → `GM_Curve`
+- 🟡 `onbegroeidTerreindeelOpTalud` — Gewijzigd
+    - **primitieve type**: `INDIC` → `boolean`
+- 🟡 `plusFysiekVoorkomen` — Gewijzigd
+    - **naam**: `plusFysiekVoorkomenOnbegroeidTerreindeel` → `plusFysiekVoorkomen`
+- 🟡 `relatieveHoogteligging` — Gewijzigd
+    - **naam**: `relatieveHoogteliggingOnbegroeidTerreindeel` → `relatieveHoogteligging`
+- 🟡 `status` — Gewijzigd
+    - **naam**: `statusOnbegroeidTerreindeel` → `status`
 
-### Classes
+##### `Onbestemd Adres` — 🟡 Attributen gewijzigd
 
-#### Vorderingscomponent — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `postcode` — Gewijzigd
+    - **primitieve type**: `postcode` → `AN6`
 
-- Priotype — **Changed**
-  - **name**: `Vorderingscomponent.Id` → `Priotype`
-  - **primitive**: `RedenKwijtscheldingVordering` → `Verwerkingsstatus`
-  - **enumeration_id**: `Enumeratie: Verwerkingsstatus` → `Enumeratie: Verwerkingsstatus`
-  - **type_class_id**: `Objecttype: EAID_63ede881_e81f_4445_9e93_7180d30a2390` → ``
+##### `OndersteunendWaterdeel` — 🟡 Attributen gewijzigd
 
-_No datatype changes in this package._
+**Attributen:**
 
-### Enumerations
+- 🟡 `datumBeginGeldigheid` — Gewijzigd
+    - **naam**: `datumBeginGeldigheidOndersteunendWaterdeel` → `datumBeginGeldigheid`
+- 🟡 `datumEindeGeldigheid` — Gewijzigd
+    - **naam**: `datumEindeGeldigheidOndersteunendWaterdeel` → `datumEindeGeldigheid`
+- 🟡 `geometrie` — Gewijzigd
+    - **naam**: `geometrieOndersteunendWaterdeel` → `geometrie`
+    - **primitieve type**: `Surface` → `GM_Surface`
+- 🟡 `identificatie` — Gewijzigd
+    - **naam**: `identificatieOndersteunendWaterdeel` → `identificatie`
+- 🟡 `plusType` — Gewijzigd
+    - **naam**: `plusTypeOndersteunendWaterdeel` → `plusType`
+    - **primitieve type**: _(leeg)_ → `typeringOndersteunendWaterPlus`
+    - **enumeratie**: `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/Enumeratiesoort::typeringOndersteunendWaterPlus` → _(leeg)_
+- 🟡 `relatieveHoogteligging` — Gewijzigd
+    - **naam**: `relatieveHoogteliggingOndersteunendWaterdeel` → `relatieveHoogteligging`
+- 🟡 `status` — Gewijzigd
+    - **naam**: `statusOndersteunendWaterdeel` → `status`
+- 🟡 `type` — Gewijzigd
+    - **naam**: `typeOndersteunendWaterdeel` → `type`
 
-#### Verwerkingsstatus — **Removed**
+##### `OndersteunendWegdeel` — 🟡 Attributen gewijzigd
 
-#### Verwerkingsstatus — **Added**
+**Attributen:**
 
-## Package: Model VTH
+- 🟡 `datumBeginGeldigheid` — Gewijzigd
+    - **naam**: `datumBeginGeldigheidOndersteunendWegdeel` → `datumBeginGeldigheid`
+- 🟡 `datumEindeGeldigheid` — Gewijzigd
+    - **naam**: `datumEindeGeldigheidOndersteunendWegdeel` → `datumEindeGeldigheid`
+- 🟡 `functie` — Gewijzigd
+    - **naam**: `functieOndersteunendWegdeel` → `functie`
+- 🟡 `fysiekVoorkomen` — Gewijzigd
+    - **naam**: `fysiekVoorkomenOndersteunendWegdeel` → `fysiekVoorkomen`
+- 🟡 `geometrie` — Gewijzigd
+    - **naam**: `geometrieOndersteunendWegdeel` → `geometrie`
+    - **primitieve type**: `Surface` → `GM_Surface`
+- 🟡 `identificatie` — Gewijzigd
+    - **naam**: `identificatieOndersteunendWegdeel` → `identificatie`
+- 🟡 `kruinlijngeometrie` — Gewijzigd
+    - **naam**: `kruinlijngeometrieOndersteunendWegdeel` → `kruinlijngeometrie`
+    - **primitieve type**: `Curve` → `GM_Curve`
+- 🟡 `LOD0Geometrie` — Gewijzigd
+    - **naam**: `LOD0GeometrieOndersteunendWegdeel` → `LOD0Geometrie`
+    - **primitieve type**: `Surface` → `GM_Surface`
+- 🟡 `opTalud` — Gewijzigd
+    - **naam**: `ondersteunendWegdeelOpTalud` → `opTalud`
+    - **primitieve type**: `INDIC` → `boolean`
+- 🟡 `plusFunctie` — Gewijzigd
+    - **naam**: `plusFunctieOndersteunendWegdeel` → `plusFunctie`
+    - **primitieve type**: _(leeg)_ → `functieOndersteunendWegdeelPlus`
+    - **enumeratie**: `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/Enumeratiesoort::functieOndersteunendWegdeelPlus` → _(leeg)_
+- 🟡 `plusFysiekVoorkomen` — Gewijzigd
+    - **naam**: `plusFysiekVoorkomenOndersteunendWegdeel` → `plusFysiekVoorkomen`
+- 🟡 `relatieveHoogteligging` — Gewijzigd
+    - **naam**: `relatieveHoogteliggingOndersteunendWegdeel` → `relatieveHoogteligging`
+- 🟡 `status` — Gewijzigd
+    - **naam**: `statusOndersteunendWegdeel` → `status`
 
-### Classes
+##### `Overbruggingsdeel` — 🟡 Attributen gewijzigd
 
-#### Inspectie — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `geometrieOverbruggingsdeel` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
+- 🟡 `LOD0GeometrieOverbruggingsdeel` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
+- 🟡 `overbruggingIsBeweegbaar` — Gewijzigd
+    - **primitieve type**: `INDIC` → `Boolean`
 
+##### `OverigBouwwerk` — 🟡 Attributen gewijzigd
 
-#### Kosten — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `LOD0GeometrieOverigBouwwerk` — Gewijzigd
+    - **primitieve type**: `PuntLijnVlak` → `GM_Surface`
 
+##### `OverigGebouwdObject` — 🟡 Attributen gewijzigd
 
-#### Leges_Grondslag — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `bouwjaar` — Gewijzigd
+    - **primitieve type**: `JAAR` → `N4`
+- 🟡 `indicatiePlanobject` — Gewijzigd
+    - **primitieve type**: `INDIC` → `boolean`
 
+##### `OverigeAdresseerbaarObjectAanduiding` — 🟡 Attributen gewijzigd
 
-#### MORAanvraagOfMelding — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `Identificatiecode` — Gewijzigd
+    - **naam**: `IdentificatiecodeOverigAdresseerbaarObjectAanduiding` → `Identificatiecode`
 
-- CROW — **Changed**
-  - **enumeration_id**: `Enumeratie: Boolean` → `Enumeratie: Boolean`
+##### `OverigeScheiding` — 🟡 Attributen gewijzigd
 
-#### VOMAanvraagOfMelding — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `LOD0GeometrieOverigeScheiding` — Gewijzigd
+    - **primitieve type**: `PuntLijnVlak` → `GM_Surface`
 
-- locatie — **Changed**
-  - **primitive**: `GML` → `Point`
+##### `Rechtspersoon` — 🟡 Attributen gewijzigd
 
-#### VTH-Melding — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `adresBinnenland` — Gewijzigd
+    - **primitieve type**: `AN257` → _(leeg)_
+    - **type (class)**: _(leeg)_ → `Class: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/BAG/Model BAG::BinnenlandsAdres`
 
-- locatie — **Changed**
-  - **primitive**: `GML` → `Point`
+##### `Reisdocument` — 🟡 Attributen gewijzigd
 
-#### VTHzaak — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `datumEindeGeldigheidDocument` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumIngangDocument` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumInhoudingOfVermissing` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
+- 🟡 `datumUitgifte` — Gewijzigd
+    - **primitieve type**: _(leeg)_ → `Datum`
 
-- verkamering — **Changed**
-  - **enumeration_id**: `Enumeratie: Boolean` → `Enumeratie: Boolean`
+##### `Scheiding` — 🟡 Attributen gewijzigd
 
-#### Vordering — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `LOD0GeometrieScheiding` — Gewijzigd
+    - **primitieve type**: `PuntLijnVlak` → `GM_Surface`
 
+##### `Spoor` — 🟡 Attributen gewijzigd
 
-_No datatype changes in this package._
+**Attributen:**
 
-### Enumerations
+- 🟡 `geometrieSpoor` — Gewijzigd
+    - **primitieve type**: `Curve` → `GM_Curve`
+- 🟡 `LOD0GeometrieSpoor` — Gewijzigd
+    - **primitieve type**: `Curve` → `GM_Curve`
 
-#### Boolean — **Added**
+##### `Tunneldeel` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Ja` — **Added**
-- `Leeg` — **Added**
-- `Nee` — **Added**
-- `Onbekend` — **Added**
+- 🟡 `geometrieTunneldeel` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
+- 🟡 `LOD0GeometrieTunneldeel` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
 
-#### Boolean — **Added**
+##### `Vegetatieobject` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Ja` — **Added**
-- `Leeg` — **Added**
-- `Nee` — **Added**
-- `Onbekend` — **Added**
+- 🟡 `geometrieVegetatieobject` — Gewijzigd
+    - **primitieve type**: `PuntLijnVlak` → `GM_Surface`
+- 🟡 `LOD0GeometrieVegetatieobject` — Gewijzigd
+    - **primitieve type**: `PuntLijnVlak` → `GM_Surface`
 
-#### Boolean — **Removed**
+##### `WOZ-object` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Ja` — **Removed**
-- `Leeg` — **Removed**
-- `Nee` — **Removed**
-- `Onbekend` — **Removed**
+- 🔴 `attribute` — Verwijderd
+- 🟡 `geometrieWOZObject` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
 
-#### Boolean — **Removed**
+##### `Waterdeel` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Ja` — **Removed**
-- `Leeg` — **Removed**
-- `Nee` — **Removed**
-- `Onbekend` — **Removed**
+- 🟡 `geometrieWaterdeel` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
 
-## Package: Model Vastgoed
+##### `Wegdeel` — 🟡 Attributen gewijzigd
 
-### Classes
+**Attributen:**
 
-#### Adresaanduiding — **Unchanged**
+- 🟡 `geometrieWegdeel` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
+- 🟡 `kruinlijngeometrieWegdeel` — Gewijzigd
+    - **primitieve type**: `Curve` → `GM_Curve`
+- 🟡 `LOD0GeometrieWegdeel` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
+- 🟡 `wegdeelOpTalud` — Gewijzigd
+    - **primitieve type**: `INDIC` → `boolean`
 
-##### Attributes
+##### `Zekerheidsrecht` — 🟡 Attributen gewijzigd
 
-- adres — **Changed**
-  - **name**: `adresaanduiding` → `adres`
+**Attributen:**
 
-#### Gebruiksdoel — **Unchanged**
+- 🟡 `omschrijvingBetrokkenRecht` — Gewijzigd
+    - **primitieve type**: `AN` → `AN255`
 
-##### Attributes
+#### Associaties
 
-- gebruiksdoelGebouwdObject — **Changed**
-  - **enumeration_id**: `Enumeratie: gebruiksdoel` → `Enumeratie: gebruiksdoel`
+- 🟡 Gewijzigd: `Appartementsrechtsplitsing` → `SplitsingstekeningReferentie`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `1`
+- 🟡 Gewijzigd: `FunctioneelGebied` → `SoortFunctioneelGebied`
+  - **src mult. start**: _(leeg)_ → `0`
+  - **src mult. end**: _(leeg)_ → `*`
+- 🟡 Gewijzigd: `IngeschrevenPersoon` «Ouder 1» → `IngeschrevenPersoon`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `1`
+  - **dst mult. start**: _(leeg)_ → `1`
+  - **dst mult. end**: _(leeg)_ → `1`
+- 🟡 Gewijzigd: `IngeschrevenPersoon` «Ouder 2» → `IngeschrevenPersoon`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `1`
+  - **dst mult. start**: _(leeg)_ → `1`
+  - **dst mult. end**: _(leeg)_ → `1`
+- 🟡 Gewijzigd: `KadastraleOnroerendeZaak` → `KoopsomKadastraleOnroerendeZaak`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `1`
+- 🟡 Gewijzigd: `KadastraleOnroerendeZaak` → `LocatieKadastraleOnroerendeZaak`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `1`
+- 🟡 Gewijzigd: `Kunstwerkdeel` → `SoortKunstwerk`
+  - **src mult. start**: _(leeg)_ → `0`
+  - **src mult. end**: _(leeg)_ → `*`
+- 🟡 Gewijzigd: `OverigBouwwerk` → `SoortOverigBouwwerk`
+  - **src mult. start**: _(leeg)_ → `0`
+  - **src mult. end**: _(leeg)_ → `*`
+- 🟡 Gewijzigd: `Scheiding` → `SoortScheiding`
+  - **src mult. start**: _(leeg)_ → `0`
+  - **src mult. end**: _(leeg)_ → `*`
+- 🟡 Gewijzigd: `Spoor` → `SoortSpoor`
+  - **src mult. start**: _(leeg)_ → `0`
+  - **src mult. end**: _(leeg)_ → `*`
+- 🟡 Gewijzigd: `Vestiging` → `SBIActiviteitVestiging`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `1`
 
-#### LocatieaanduidingWozObject — **Unchanged**
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelreferentielijsten"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/Referentielijsten
 
-##### Attributes
+#### Classes
 
-- primair — **Changed**
-  - **enumeration_id**: `Enumeratie: Boolean` → `Enumeratie: Boolean`
+##### `AardAantekening` — 🟡 Attributen gewijzigd
 
-#### Locatieonroerendezaak — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `naamAardAantekening` — Gewijzigd
+    - **primitieve type**: `AN` → `AN255`
 
-- geometrie — **Changed**
-  - **primitive**: `Vlak` → `Surface`
+##### `AardFiliatie` — 🟡 Attributen gewijzigd
 
-#### Vastgoedobject — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `naamAardFiliatie` — Gewijzigd
+    - **primitieve type**: `AN` → `AN255`
 
-- afgekochteErfpacht — **Changed**
-  - **primitive**: `` → `Boolean`
-  - **enumeration_id**: `` → `Enumeratie: Boolean`
-- asbestrapportageAanwezig — **Changed**
-  - **enumeration_id**: `Enumeratie: Boolean` → `Enumeratie: Boolean`
-- gearchiveerd — **Changed**
-  - **enumeration_id**: `Enumeratie: Boolean` → `Enumeratie: Boolean`
+##### `AardZakelijkRecht` — 🟡 Attributen gewijzigd
 
-#### WOZ-Belang — **Unchanged**
+**Attributen:**
 
-##### Attributes
+- 🟡 `naamAardZakelijkRecht` — Gewijzigd
+    - **primitieve type**: `AN` → `AN255`
 
-- eigenaarGebruiker — **Changed**
-  - **enumeration_id**: `Enumeratie: aanduidingEigenaarGebruiker` → `Enumeratie: aanduidingEigenaarGebruiker`
+##### `AkrKadastraleGemeentecode` — 🟡 Attributen gewijzigd
 
-_No datatype changes in this package._
+**Attributen:**
 
-### Enumerations
+- 🟡 `AKRCode` — Gewijzigd
+    - **primitieve type**: `AN` → `AN255`
 
-#### Boolean — **Added**
+##### `AutoriteitAfgifteNederlandsReisdocument` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Ja` — **Added**
-- `Leeg` — **Added**
-- `Nee` — **Added**
-- `Onbekend` — **Added**
+- 🟡 `omschrijving` — Gewijzigd
+    - **primitieve type**: `AN` → `AN255`
 
-#### Boolean — **Removed**
+##### `CultuurcodeBebouwd` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Ja` — **Removed**
-- `Leeg` — **Removed**
-- `Nee` — **Removed**
-- `Onbekend` — **Removed**
+- 🟡 `code` — Gewijzigd
+    - **naam**: `cultuurcodeBebouwd` → `code`
+- 🟡 `naamCultuurcodeBebouwd` — Gewijzigd
+    - **primitieve type**: `AN` → `AN255`
 
-#### Boolean — **Removed**
+##### `CultuurcodeOnbebouwd` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Ja` — **Removed**
-- `Leeg` — **Removed**
-- `Nee` — **Removed**
-- `Onbekend` — **Removed**
+- 🟡 `code` — Gewijzigd
+    - **naam**: `cultuurcodeOnbebouwd` → `code`
+- 🟡 `naamCultuurcodeOnbebouwd` — Gewijzigd
+    - **primitieve type**: `AN` → `AN255`
 
-#### Boolean — **Added**
+##### `Partij` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Ja` — **Added**
-- `Leeg` — **Added**
-- `Nee` — **Added**
-- `Onbekend` — **Added**
+- 🟡 `verstrekkingsbeperkingMogelijk` — Gewijzigd
+    - **primitieve type**: `INDIC` → `Boolean`
 
-#### Boolean — **Added**
+##### `SoortGrootte` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Ja` — **Added**
-- `Leeg` — **Added**
-- `Nee` — **Added**
-- `Onbekend` — **Added**
+- 🟡 `naamSoortGrootte` — Gewijzigd
+    - **primitieve type**: `AN` → `AN255`
 
-#### Boolean — **Added**
+##### `SoortWOZObject` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Ja` — **Added**
-- `Leeg` — **Added**
-- `Nee` — **Added**
-- `Onbekend` — **Added**
+- 🟡 `naamSoortObjectcode` — Gewijzigd
+    - **primitieve type**: `AN` → `AN255`
+- 🟡 `opmerkingenSoortObjectcode` — Gewijzigd
+    - **primitieve type**: `AN` → `AN255`
 
-#### Boolean — **Removed**
+##### `Valutasoort` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Ja` — **Removed**
-- `Leeg` — **Removed**
-- `Nee` — **Removed**
-- `Onbekend` — **Removed**
+- 🟡 `naamValuta` — Gewijzigd
+    - **primitieve type**: `AN` → `AN255`
 
-#### aanduidingEigenaarGebruiker — **Added**
+##### `WOZ-Deelobjectcode` — 🟡 Attributen gewijzigd
 
-##### Literals
+**Attributen:**
 
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `eigenaar` — **Added**
-- `eigenaar-gebruiker` — **Added**
-- `gebruiker` — **Added**
-- `medebelanghebbende` — **Added**
+- 🟡 `naamDeelobjectcode` — Gewijzigd
+    - **primitieve type**: `AN` → `AN255`
 
-#### aanduidingEigenaarGebruiker — **Removed**
+<a id="structureel-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelarchiefmodel-kern-rsgb"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/archief/Model Kern RSGB
 
-##### Literals
+#### Classes
 
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `eigenaar` — **Removed**
-- `eigenaar-gebruiker` — **Removed**
-- `gebruiker` — **Removed**
-- `medebelanghebbende` — **Removed**
+##### `BenoemdObject` — 🟡 Attributen gewijzigd
 
-#### gebruiksdoel — **Removed**
+**Attributen:**
 
-##### Literals
+- 🟡 `geometrieVlak` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
 
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `bijeenkomstfunctie` — **Removed**
-- `celfunctie` — **Removed**
-- `gezondheidszorgfunctie` — **Removed**
-- `industriefunctie` — **Removed**
-- `kantoorfunctie` — **Removed**
-- `logiesfunctie` — **Removed**
-- `onderwijsfunctie` — **Removed**
-- `overige gebruiksfunctie` — **Removed**
-- `sportfunctie` — **Removed**
-- `winkelfunctie` — **Removed**
-- `woonfunctie` — **Removed**
+##### `Buurt` — 🟡 Attributen gewijzigd
 
-#### gebruiksdoel — **Added**
+**Attributen:**
 
-##### Literals
+- 🟡 `buurtgeometrie` — Gewijzigd
+    - **primitieve type**: `MultiSurface` → `GM_MultiSurface`
 
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `bijeenkomstfunctie` — **Added**
-- `celfunctie` — **Added**
-- `gezondheidszorgfunctie` — **Added**
-- `industriefunctie` — **Added**
-- `kantoorfunctie` — **Added**
-- `logiesfunctie` — **Added**
-- `onderwijsfunctie` — **Added**
-- `overige gebruiksfunctie` — **Added**
-- `sportfunctie` — **Added**
-- `winkelfunctie` — **Added**
-- `woonfunctie` — **Added**
+##### `GebouwdObject` — 🟡 Attributen gewijzigd
 
-## Package: Model Vermogen
+**Attributen:**
 
-### Classes
+- 🟡 `statusVoortgangBouw` — Gewijzigd
+    - **enumeratie**: _(leeg)_ → `Enumeratie: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/BAG/Model BAG::statusVoortgangBouw`
 
-#### Bankrekening — **Unchanged**
+##### `Gemeente` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Bankrekening ID — **Removed**
-- Voorkeur bankrekening — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
+- 🟡 `gemeenteGeometrie` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
 
-#### Hypotheek — **Unchanged**
+##### `Ligplaats` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Overwaarde — **Changed**
-  - **primitive**: `Geldbedrag` → `Bedrag`
+- 🟡 `indicatieGeconstateerdeLigplaats` — Gewijzigd
+    - **primitieve type**: `INDIC` → `boolean`
 
-#### Motorvoertuig — **Unchanged**
+##### `Nummeraanduiding` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Soort motorvoertuig — **Changed**
-  - **enumeration_id**: `` → `Enumeratie: CdSrtVoertuig`
-  - **type_class_id**: `Objecttype: EAID_04EB2E57_05B5_0E41_7859_273ED24D9EDF` → ``
+- 🟡 `geconstateerd` — Gewijzigd
+    - **primitieve type**: `INDIC` → `boolean`
+- 🟡 `postcode` — Gewijzigd
+    - **primitieve type**: `POSTCODE` → `AN6`
 
-#### Onroerend goed — **Unchanged**
+##### `OpenbareRuimte` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Overwaarde — **Changed**
-  - **primitive**: `Geldbedrag` → `Bedrag`
+- 🟡 `openbareRuimteGeometrie` — Gewijzigd
+    - **primitieve type**: `MultiSurface` → `GM_MultiSurface`
+- 🟡 `wegsegment` — Gewijzigd
+    - **primitieve type**: `Curve` → `GM_Curve`
 
-#### Vermogenscomponent — **Unchanged**
+##### `Pand` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Code soort vermogenscomponent — **Changed**
-  - **enumeration_id**: `` → `Enumeratie: CdSrtVermogenscomponent`
-  - **type_class_id**: `Objecttype: EAID_051FB82B_E809_143E_3F7B_273ED24D1E2E` → ``
-- Nog aan te spreken vermogen — **Changed**
-  - **primitive**: `Geldbedrag` → `Bedrag`
-- Vrij te laten vermogen — **Changed**
-  - **primitive**: `Geldbedrag` → `Bedrag`
-- identificatie — **Changed**
-  - **name**: `Vermogenscomponent ID` → `identificatie`
+- 🟡 `indicatieGeconstateerdPand` — Gewijzigd
+    - **primitieve type**: `INDIC` → `boolean`
+- 🟡 `indicatiePlanobject` — Gewijzigd
+    - **primitieve type**: `INDIC` → `boolean`
+- 🟡 `oorspronkelijkBouwjaarPand` — Gewijzigd
+    - **primitieve type**: `JAAR` → `N4`
+- 🟡 `pandgeometrieBovenaanzicht` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
+- 🟡 `pandgeometrieMaaiveld` — Gewijzigd
+    - **primitieve type**: `MultiSurface` → `GM_MultiSurface`
 
-#### Waardepeiling — **Unchanged**
+##### `Standplaats` — 🟡 Attributen gewijzigd
 
-##### Attributes
+**Attributen:**
 
-- Bijgevoegd bewijs — **Changed**
-  - **primitive**: `StdIndJN` → `Boolean`
-- Waarde vermogenscomponent — **Changed**
-  - **primitive**: `Geldbedrag` → `Bedrag`
-- WaardeSoort vermogenscomponent — **Changed**
-  - **enumeration_id**: `` → `Enumeratie: CdSrtWaardeVermogenscomponent`
-  - **type_class_id**: `Objecttype: EAID_1721EBD6_A6E2_CEC4_6AB8_27DB661BCC09` → ``
+- 🟡 `indicatieGeconstateerdeStandplaats` — Gewijzigd
+    - **primitieve type**: `INDIC` → `boolean`
 
-_No datatype changes in this package._
+##### `Wijk` — 🟡 Attributen gewijzigd
 
-### Enumerations
+**Attributen:**
 
-#### CdSrtVermogenscomponent — **Added**
+- 🟡 `geometrieWijk` — Gewijzigd
+    - **primitieve type**: `MultiSurface` → `GM_MultiSurface`
 
-#### CdSrtVoertuig — **Added**
+##### `Woonplaats` — 🟡 Attributen gewijzigd
 
-#### CdSrtWaardeVermogenscomponent — **Added**
+**Attributen:**
 
-## Package: Model Vroegsignalering
+- 🟡 `geometrieWoonplaats` — Gewijzigd
+    - **primitieve type**: `Surface` → `GM_Surface`
 
-_No class changes in this package._
+#### Associaties
 
-_No datatype changes in this package._
+- 🟡 Gewijzigd: `BenoemdObject` «is ontstaan uit / overgegaan in» → `BenoemdObject`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `*`
+- 🟡 Gewijzigd: `Gemeente` «is overgegaan in» → `Gemeente`
+  - **src mult. start**: _(leeg)_ → `1`
+  - **src mult. end**: _(leeg)_ → `*`
 
-### Enumerations
+## Beschrijvende wijzigingen
 
-#### EnumContactsoort — **Changed**
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel
 
-##### Literals
+**Pakket-metadata gewijzigd:**
 
-- `Administratief` — **Added**
-- `Afspraak op locatie` — **Added**
-- `Overige` — **Removed**
+- **versie**: `2.4.0` → `2.5.0`
 
-#### EnumEindresultaat — **Changed**
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel0-bestuur-politiek-en-ondersteuning"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/0 Bestuur, Politiek en Ondersteuning
 
-##### Literals
+**Pakket-metadata gewijzigd:**
 
-- `Definitief geen contact kunnen krijgen` — **Added**
-- `Geen reactie na eerder contact` — **Added**
-- `Inwoner heeft zelf al betaald/betalingsregeling getroffen` — **Added**
-- `Inwoner hoeft geen hulp vanuit vroegsignalering` — **Added**
-- `Inwoner is overleden` — **Added**
-- `Niet opgepakt: andere reden` — **Added**
-- `Niet opgepakt: herhaalde melding` — **Added**
-- `Niet opgepakt: onterecht signaal` — **Added**
-- `Persoon is geen inwoner (meer) in de gemeente` — **Added**
-- `Vervolghulp en/of verwijzing financieel` — **Added**
-- `Vervolghulp en/of verwijzing niet financieel` — **Added**
-- `Verwijzing zonder contact` — **Added**
-- `Geen contact (meer) kunnen krijgen` — **Removed**
-- `Inwoner heeft betaald/betalingsregeling getroffen voor oppakken melding` — **Removed**
-- `Inwoner heeft zelf betaald/betalingsregeling getroffen na oppakken melding` — **Removed**
-- `Inwoner probeert het zelf op te lossen` — **Removed**
-- `Inwoner wil geen hulp` — **Removed**
-- `Niet opgepakt` — **Removed**
-- `Niet opgepakt: BRP-uitsluiting` — **Removed**
-- `Niet opgepakt: geen capaciteit` — **Removed**
-- `Niet opgepakt: inwoner wil geen contact` — **Removed**
-- `Verwijzing financieel` — **Removed**
-- `Verwijzing niet-financieel` — **Removed**
-- `Voorzien van informatie` — **Removed**
+- **versie**: `1.0` → `1.9.0`
 
-#### EnumSignaalstatus — **Changed**
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel0-bestuur-politiek-en-ondersteuningburgerzaken"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/0 Bestuur, Politiek en Ondersteuning/Burgerzaken
 
-##### Literals
+**Pakket-metadata gewijzigd:**
 
-- `Inwoner is overleden` — **Added**
-- `Niet opgepakt: andere reden` — **Added**
-- `Niet opgepakt: herhaalde melding` — **Added**
-- `Niet opgepakt: onterecht signaal` — **Added**
-- `Persoon is geen inwoner (meer) in de gemeente` — **Added**
-- `Herhaalde melding` — **Removed**
-- `Niet opgepakt` — **Removed**
-- `Onterecht signaal` — **Removed**
-- `Opgepakt` — **Removed**
-- `Overleden` — **Removed**
-- `Woont niet in gemeente` — **Removed**
-- `Woont op een ander adres binnen gemeente` — **Removed**
+- **versie**: `1.0` → `1.9.0`
 
-## Package: Model Werk
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel0-bestuur-politiek-en-ondersteuningburgerzakenmodel-burgerzaken"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/0 Bestuur, Politiek en Ondersteuning/Burgerzaken/Model Burgerzaken
 
-### Classes
+**Pakket-metadata gewijzigd:**
 
-#### BeschikbaarVoorArbeid — **Unchanged**
+- **versie**: `1.0` → `1.9.0`
 
-##### Attributes
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel0-bestuur-politiek-en-ondersteuninggriffie"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/0 Bestuur, Politiek en Ondersteuning/Griffie
 
-- DagBeschikbaarheid — **Changed**
-  - **primitive**: `beschikbaarheid` → `Dag beschikbaarheid`
-  - **enumeration_id**: `` → `Enumeratie: Dag beschikbaarheid`
+**Pakket-metadata gewijzigd:**
 
-#### Flexibliteit — **Unchanged**
+- **versie**: `1.0` → `1.9.0`
 
-##### Attributes
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel0-bestuur-politiek-en-ondersteuninggriffiemodel-griffie"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/0 Bestuur, Politiek en Ondersteuning/Griffie/Model Griffie
 
-- IndicatieBereidBuitenBeroepswens — **Changed**
-  - **name**: `IndicatieBereidheidZoekenBuitenBeroepswens` → `IndicatieBereidBuitenBeroepswens`
+**Pakket-metadata gewijzigd:**
 
-#### Mobiliteit — **Unchanged**
+- **versie**: `1.0` → `1.3.0`
 
-##### Attributes
+#### Classes
 
-- CodeVervoermiddel — **Changed**
-  - **primitive**: `Vervoersmogelijkheden` → `Vervoermiddel`
-  - **enumeration_id**: `` → `Enumeratie: Vervoermiddel`
+##### `Aanwezige Deelnemer` — 🟡 Gewijzigd
 
-#### Ontheffing — **Unchanged**
+- **versie**: `1.5` → `1.12.0`
 
-##### Attributes
+##### `Agendapunt` — 🟡 Gewijzigd
 
-- MotivatieOntheffingsbesluit — **Changed**
-  - **primitive**: `document` → `Document`
-  - **type_class_id**: `` → `Objecttype: Document`
-- OntheffenVerplichtingen — **Changed**
-  - **primitive**: `Ontheffingsverplichting` → `Ontheffingsverplichting
-`
-  - **enumeration_id**: `` → `Enumeratie: Ontheffingsverplichting
-`
-- Ontheffingsbesluit — **Changed**
-  - **primitive**: `document` → `Document`
-  - **type_class_id**: `` → `Objecttype: Document`
+- **versie**: `1.5` → `1.12.0`
 
-#### Opleiding — **Unchanged**
+##### `Categorie` — 🟡 Gewijzigd
 
-##### Attributes
+- **versie**: `1.5` → `1.12.0`
 
-- CodeStatusOpleiding — **Changed**
-  - **primitive**: `StatusOpleiding` → `CodeStatusOpleiding`
-  - **enumeration_id**: `` → `Enumeratie: CodeStatusOpleiding`
-- CodeTijdsBeslagOpleiding — **Changed**
-  - **primitive**: `opleiding` → `Code tijdsbeslag opleiding
-`
-  - **enumeration_id**: `` → `Enumeratie: Code tijdsbeslag opleiding
-`
-- Instituutnaam — **Changed**
-  - **primitive**: `short` → `Text`
-- Opleidingstype — **Changed**
-  - **stereotype**: `` → `enum`
-  - **primitive**: `Opleidingstype` → `Opleidingsrichting`
-  - **enumeration_id**: `` → `Enumeratie: Opleidingsrichting`
+##### `Collegelid` — 🟡 Gewijzigd
 
-#### Opleidingsnaam — **Unchanged**
+- **versie**: `1.5` → `1.12.0`
 
-##### Attributes
+##### `Dossier` — 🟡 Gewijzigd
 
-- naamOpleiding — **Changed**
-  - **name**: `Opleidingsnaam` → `naamOpleiding`
+- **versie**: `1.5` → `1.12.0`
 
-#### OpleidingsnaamOngecodeerd — **Unchanged**
+##### `Indiener` — 🟡 Gewijzigd
 
-##### Attributes
+- **versie**: `1.5` → `1.12.0`
 
-- naamOpleidingOngecodeerd — **Changed**
-  - **name**: `OpleidingsnaamOngecodeerd` → `naamOpleidingOngecodeerd`
+##### `Programma` — 🟡 Gewijzigd
 
-#### Opleidingsniveau — **Unchanged**
+- **versie**: `1.5` → `1.12.0`
 
-##### Attributes
+##### `Raadscommissie` — 🟡 Gewijzigd
 
-- CodeOpleidingsniveauClient — **Changed**
-  - **primitive**: `cliënt` → `Code opleidingsniveau cliënt
-`
-  - **enumeration_id**: `` → `Enumeratie: Code opleidingsniveau cliënt
-`
+- **versie**: `1.4` → `1.11.0`
 
-#### Rijbewijs /Certificaat — **Unchanged**
+##### `Raadslid` — 🟡 Gewijzigd
 
-##### Attributes
+- **versie**: `1.4` → `1.11.0`
 
-- CodeSoortRijbewijs — **Changed**
-  - **primitive**: `` → `AN12`
-- NummerCertificaat — **Changed**
-  - **primitive**: `RegEx` → `varchar`
+##### `Raadsstuk` — 🟡 Gewijzigd
 
-#### Taalbeheersing — **Unchanged**
+- **versie**: `1.4` → `1.13.0`
+- **populatie**: `<memo>` → `<memo>#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttype…`
 
-##### Attributes
+##### `Stemming` — 🟡 Gewijzigd
 
-- Taalcode — **Changed**
-  - **primitive**: `ìnt` → `varchar`
+- **versie**: `1.5` → `1.12.0`
 
-#### Vaardigheidsvaststelling — **Unchanged**
+##### `Taakveld` — 🟡 Gewijzigd
 
-##### Attributes
+- **versie**: `1.5` → `1.12.0`
 
-- Indicatie mate van vaardigheid — **Changed**
-  - **primitive**: `vaardigheid` → `Taalvaardigheid
-`
-  - **enumeration_id**: `` → `Enumeratie: Taalvaardigheid
-`
-- datumLaatsteVaststelling — **Changed**
-  - **name**: `Datum laatste vaststelling van vaardigheid` → `datumLaatsteVaststelling`
+##### `Vergadering` — 🟡 Gewijzigd
 
-#### Voorkeur — **Unchanged**
+- **versie**: `1.5` → `1.14.0`
+- **populatie**: `<memo>` → `<memo>#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttype…`
 
-##### Attributes
+#### Enumeraties
 
-- SoortWerk — **Changed**
-  - **primitive**: `enum` → `SoortWerk`
-  - **enumeration_id**: `` → `Enumeratie: SoortWerk`
+##### `Deelnemersrol` — 🟡 Gewijzigd
 
-#### Werkzaamheden anders dan in arbeidsverhouding — **Unchanged**
+- **versie**: `1.4` → `1.10.0`
 
-##### Attributes
+##### `Stemmingsresultaattype` — 🟡 Gewijzigd
 
-- PersoonOrganisatieWaarbij — **Changed**
-  - **name**: `Naam persoon of organisatie bij wie of waar` → `PersoonOrganisatieWaarbij`
-- aantalUrenGemiddeldWeek — **Changed**
-  - **name**: `Aantal uren werkzaamheden gemiddeld per week` → `aantalUrenGemiddeldWeek`
+- **versie**: `1.4` → `1.10.0`
 
-#### ZelfredzaamheidScore — **Unchanged**
+##### `Stemmingstype` — 🟡 Gewijzigd
 
-##### Attributes
+- **versie**: `1.4` → `1.10.0`
 
-- Domein van Zelfredzaamheid — **Changed**
-  - **primitive**: `zelfredzaamheid` → `Domein van zelfredzaamheid
-`
-  - **enumeration_id**: `` → `Enumeratie: Domein van zelfredzaamheid
-`
-- KenmerkBeoordelaar — **Changed**
-  - **primitive**: `Name` → `AN200`
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel1-veiligheid-en-vergunningen"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/1 Veiligheid en Vergunningen
 
-_No datatype changes in this package._
+**Pakket-metadata gewijzigd:**
 
-_No enumeration changes in this package._
+- **versie**: `1.0` → `1.9.0`
 
-## Package: Model Wonen
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel1-veiligheid-en-vergunningenmodel-vth"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/1 Veiligheid en Vergunningen/Model VTH
 
-### Classes
+#### Classes
 
-#### Gebouw — **Unchanged**
+##### `Activiteit Omgevingswet` — 🟡 Gewijzigd
 
-##### Attributes
+- **versie**: `1.0` → `1.9.0`
+- **populatie**: `<memo>` → _(leeg)_
 
-- energielabel — **Changed**
-  - **enumeration_id**: `Enumeratie: Energielabel` → `Enumeratie: Energielabel`
-- oppervlakte — **Changed**
-  - **enumeration_id**: `Enumeratie: Oppervlakte Woning` → `Enumeratie: Oppervlakte Woning`
+##### `AOMStatus` — 🟡 Gewijzigd
 
-_No datatype changes in this package._
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+- **populatie**: `<memo>` → _(leeg)_
 
-### Enumerations
+##### `Bevinding` — 🟡 Gewijzigd
 
-#### Energielabel — **Removed**
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+- **definitie**: _(leeg)_ → `Een *bevinding* is de uitkomst van een waarneming of onderzoek die aangeeft wat is geconstateerd bij beoordeling of inspectie.`
+- **toelichting**: _(leeg)_ → `In algemene en bestuurlijke contexten verwijst *bevinding* naar wat er naar voren komt uit onderzoek, inspectie of waarneming, bijvoorbeeld tijdens een controle, audit of beoordeling van een situatie. Het is het resultaat dat aangeeft wa…`
+- **herkomst definitie**: _(leeg)_ → `https://nl.wiktionary.org/wiki/bevinding`
+- **populatie**: `<memo>` → _(leeg)_
 
-##### Literals
+##### `BOA` — 🟡 Gewijzigd
 
-- `A` — **Removed**
-- `B` — **Removed**
-- `C` — **Removed**
-- `D` — **Removed**
-- `E` — **Removed**
-- `F` — **Removed**
+- **versie**: `1.0` → `1.9.0`
+- **populatie**: `<memo>` → _(leeg)_
 
-#### Energielabel — **Added**
+##### `Combibon` — 🟡 Gewijzigd
 
-##### Literals
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: `Arjen deze  is voor jou` → `Een Combibon is een modelformulier dat handhavende ambtenaren gebruiken om geconstateerde overtredingen en de gekozen afdoeningsmodaliteit (bijv. bekeuring of strafbeschikking) vast te leggen.`
+- **toelichting**: _(leeg)_ → `•	Het formulier is opgenomen in de Regeling modellen en formulieren ten behoeve van de handhaving Justitie en kan worden toegepast bij verschillende sanctiemodaliteiten zoals kennisgeving van bekeuring, aankondiging van strafbeschikking …`
+- **herkomst**: _(leeg)_ → `https://toezichttafel.wordpress.com/kenniskaart/handhaving-en-interventies/combibon/`
+- **herkomst definitie**: _(leeg)_ → `https://toezichttafel.wordpress.com/kenniskaart/handhaving-en-interventies/combibon/`
+- **populatie**: `<memo>` → _(leeg)_
 
-- `A` — **Added**
-- `B` — **Added**
-- `C` — **Added**
-- `D` — **Added**
-- `E` — **Added**
-- `F` — **Added**
+##### `Fietsregistratie` — 🟡 Gewijzigd
 
-#### Oppervlakte Woning — **Added**
+- **versie**: `1.0` → `1.9.0`
+- **populatie**: `<memo>` → _(leeg)_
 
-##### Literals
+##### `Grondslag` — 🟡 Gewijzigd
 
-- `100 - 124 m2` — **Added**
-- `125 - 149 m2` — **Added**
-- `15 - 49 m2` — **Added**
-- `150 en groter` — **Added**
-- `50 - 74 m2` — **Added**
-- `75 - 99 m2` — **Added**
-- `kleiner dan 15 m2` — **Added**
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `Een *grondslag* is de juridische of normatieve basis waarop een besluit, handeling of rechtspraak steunt; het is hetgeen zijn **basis vindt in wetgeving of andere geldende rechtsregels**.`
+- **toelichting**: _(leeg)_ → `In (bestuurs)recht en regelgeving verwijst *grondslag* naar de **wet, regel of rechtsbron** waarop een besluit of maatregel is gebaseerd. Het duidt op de formele reden waarom een bestuursorgaan, rechter of andere instantie bevoegd is om …`
+- **herkomst definitie**: _(leeg)_ → `https://www.juridischwoordenboek.nl/zoek/grondslag`
+- **populatie**: `<memo>` → _(leeg)_
 
-#### Oppervlakte Woning — **Removed**
+##### `Heffinggrondslag` — 🟡 Gewijzigd
 
-##### Literals
+- **versie**: `1.0` → `1.9.0`
+- **populatie**: `<memo>` → _(leeg)_
 
-- `100 - 124 m2` — **Removed**
-- `125 - 149 m2` — **Removed**
-- `15 - 49 m2` — **Removed**
-- `150 en groter` — **Removed**
-- `50 - 74 m2` — **Removed**
-- `75 - 99 m2` — **Removed**
-- `kleiner dan 15 m2` — **Removed**
+##### `Heffingsverordening` — 🟡 Gewijzigd
 
-## Package: Referentielijsten
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `Een *heffingsverordening* is een door de gemeenteraad vastgestelde verordening die de **heffing en invordering van gemeentelijke belastingen en rechten** regelt, zoals afvalstoffenheffing, precariobelasting of marktgelden.`
+- **toelichting**: _(leeg)_ → `Gemeenten mogen alleen heffingen vaststellen binnen de kaders die de wet hen geeft. Een heffingsverordening bevat de regels over **welke belastingen of rechten worden geheven, wie belastingplichtig is, wat de maatstaf en tarieven zijn, e…`
+- **herkomst definitie**: _(leeg)_ → `https://www.rijksoverheid.nl/onderwerpen/gemeenten/vraag-en-antwoord/welke-belastingen-heft-de-gemeente`
+- **populatie**: `<memo>` → _(leeg)_
 
-### Classes
+##### `Indiener` — 🟡 Gewijzigd
 
-#### AardAantekening — **Unchanged**
+- **versie**: `1.0` → `1.9.0`
+- **populatie**: `<memo>` → _(leeg)_
 
-##### Attributes
+##### `Inspectie` — 🟡 Gewijzigd
 
-- naamAardAantekening — **Changed**
-  - **primitive**: `AN` → `AN255`
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+- **populatie**: `<memo>` → _(leeg)_
 
-#### AardFiliatie — **Unchanged**
+##### `Kosten` — 🟡 Gewijzigd
 
-##### Attributes
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+- **definitie**: _(leeg)_ → `*Kosten* zijn de prijs of uitgaven die men moet betalen voor het gebruik, verkrijgen of verbruiken van een product, dienst of middel, doorgaans uitgedrukt in geld.`
+- **toelichting**: _(leeg)_ → `Het begrip *kosten* verwijst naar wat iemand moet **betalen of besteden** om iets te verkrijgen, te gebruiken of te laten uitvoeren. Kosten kunnen betrekking hebben op directe betalingen, zoals de aanschafprijs van een product of dienst,…`
+- **herkomst definitie**: _(leeg)_ → `https://www.ensie.nl/betekenis/kosten`
+- **populatie**: `<memo>` → _(leeg)_
 
-- naamAardFiliatie — **Changed**
-  - **primitive**: `AN` → `AN255`
+##### `Leges_Grondslag` — 🟡 Gewijzigd
 
-#### AardZakelijkRecht — **Unchanged**
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+- **definitie**: _(leeg)_ → `*Leges_Grondslag* is de basis of maatstaf waarop de heffing van leges wordt berekend, zoals de omvang van de werkzaamheden, bouwkosten of andere relevante parameters die in de legesverordening zijn vastgelegd.`
+- **toelichting**: _(leeg)_ → `In een *legesverordening* van een gemeente of provincie staat welke diensten leges plegen te worden geheven en **op welke grondslagen** dat gebeurt. De grondslag bepaalt de **maatstaf voor de berekening van het legesbedrag** (bijvoorbeel…`
+- **herkomst definitie**: _(leeg)_ → `https://www.igg.nl/expertises/leges-kostendekkendheid/grondslag/`
+- **populatie**: `<memo>` → _(leeg)_
 
-##### Attributes
+##### `Ligplaatsontheffing` — 🟡 Gewijzigd
 
-- naamAardZakelijkRecht — **Changed**
-  - **primitive**: `AN` → `AN255`
+- **versie**: `1.0` → `1.9.0`
+- **populatie**: `<memo>` → _(leeg)_
 
-#### AkrKadastraleGemeentecode — **Unchanged**
+##### `MORAanvraagOfMelding` — 🟡 Gewijzigd
 
-##### Attributes
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+- **definitie**: _(leeg)_ → `*MORAanvraagOfMelding* is een aanvraag of melding die een burger of organisatie doet bij de gemeente om een **situatie in de openbare ruimte te melden of te laten beoordelen**, zoals schade, overlast, gevaarlijke situaties of onderhoudsp…`
+- **toelichting**: _(leeg)_ → `In gemeenten wordt met *MORA* (Melding Openbare Ruimte, soms ook Melding Openbare Ruimte Amsterdam) een dienst aangeduid waarbij inwoners, organisaties of bedrijven kunnen doorgeven wat er in de openbare ruimte **niet in orde is** of **o…`
+- **herkomst definitie**: _(leeg)_ → `https://www.almere.nl/wonen/beheer-en-onderhoud/melding-openbare-ruimte-mor`
+- **populatie**: `<memo>` → _(leeg)_
 
-- AKRCode — **Changed**
-  - **primitive**: `AN` → `AN255`
+##### `OpenbareActiviteit` — 🟡 Gewijzigd
 
-#### AutoriteitAfgifteNederlandsReisdocument — **Unchanged**
+- **versie**: `1.0` → `1.9.0`
+- **populatie**: `<memo>` → _(leeg)_
 
-##### Attributes
+##### `Precario` — 🟡 Gewijzigd
 
-- omschrijving — **Changed**
-  - **primitive**: `AN` → `AN255`
+- **versie**: `1.0` → `1.9.0`
+- **populatie**: `<memo>` → _(leeg)_
 
-#### CultuurcodeBebouwd — **Unchanged**
+##### `Producttype` — 🟡 Gewijzigd
 
-##### Attributes
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `Een *producttype* is een categorie of variant van producten die dezelfde aard of kenmerken delen, waarmee producten binnen een groep worden ingedeeld op basis van gemeenschappelijke eigenschappen.`
+- **toelichting**: _(leeg)_ → `Het begrip *producttype* verwijst naar de classificatie van producten binnen een bepaalde groep of categorie. In economische en administratieve contexten wordt dit gebruikt om producten te onderscheiden en te groeperen, bijvoorbeeld vers…`
+- **herkomst definitie**: _(leeg)_ → `https://nl.wikipedia.org/wiki/Producttype`
+- **populatie**: `<memo>` → _(leeg)_
 
-- code — **Changed**
-  - **name**: `cultuurcodeBebouwd` → `code`
-- naamCultuurcodeBebouwd — **Changed**
-  - **primitive**: `AN` → `AN255`
+##### `SubProducttype` — 🟡 Gewijzigd
 
-#### CultuurcodeOnbebouwd — **Unchanged**
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `*SubProducttype* is een afgeleide of meer specifieke categorie binnen een *Producttype* die producten verder onderscheidt op basis van gedetailleerde kenmerken.`
+- **toelichting**: _(leeg)_ → `Waar een *Producttype* een groep varianten van een product beschrijft (bijv. melk als producttype met varianten als magere melk, volle melk enz.) kan een *SubProducttype* een **nog fijnmaziger indeling** zijn binnen dat type. SubProductt…`
+- **herkomst definitie**: _(leeg)_ → `https://nl.wikipedia.org/wiki/Producttype`
+- **populatie**: `<memo>` → _(leeg)_
 
-##### Attributes
+##### `Vaartuig` — 🟡 Gewijzigd
 
-- code — **Changed**
-  - **name**: `cultuurcodeOnbebouwd` → `code`
-- naamCultuurcodeOnbebouwd — **Changed**
-  - **primitive**: `AN` → `AN255`
+- **versie**: `1.0` → `1.9.0`
+- **populatie**: `<memo>` → _(leeg)_
 
-#### Partij — **Unchanged**
+##### `VOMAanvraagOfMelding` — 🟡 Gewijzigd
 
-##### Attributes
+- **versie**: `1.0` → `1.9.0`
+- **populatie**: `<memo>` → _(leeg)_
 
-- verstrekkingsbeperkingMogelijk — **Changed**
-  - **primitive**: `INDIC` → ``
+##### `Vordering` — 🟡 Gewijzigd
 
-#### SoortGrootte — **Unchanged**
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+- **definitie**: _(leeg)_ → `Een *vordering* is een juridisch recht dat een schuldeiser heeft om van een andere partij (schuldenaar) een prestatie te ontvangen, zoals een geldbedrag, levering van goederen of uitvoering van een dienst.`
+- **toelichting**: _(leeg)_ → `In de juridische context verwijst een vordering naar de **eis of aanspraak** die een persoon of organisatie tegenover een ander heeft op grond van een overeenkomst, wettelijke verplichting of andere rechtsgrond. Een vordering kan bestaan…`
+- **herkomst definitie**: _(leeg)_ → `https://incasso.nl/wiki/incassotermen/wat-is-een-vordering`
+- **populatie**: `<memo>` → _(leeg)_
 
-##### Attributes
+##### `Vorderingregel` — 🟡 Gewijzigd
 
-- naamSoortGrootte — **Changed**
-  - **primitive**: `AN` → `AN255`
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `Een *vorderingregel* is een afzonderlijke regel of entry in een gegevensset of lijst die een specifieke *vordering* beschrijft, inclusief kenmerken zoals de omvang, datum, type en status van de vordering.`
+- **toelichting**: _(leeg)_ → `In administratieve en financiële gegevensverzamelingen (zoals lijsten van terugvorderingen in het sociaal domein) vormt een *vorderingregel* een enkele record waarin alle relevante gegevens van één specifieke vordering staan. Dit kan bij…`
+- **herkomst definitie**: _(leeg)_ → `https://incasso.nl/wiki/incassotermen/wat-is-een-vordering`
+- **populatie**: `<memo>` → _(leeg)_
 
-#### SoortWOZObject — **Unchanged**
+##### `VTH-Melding` — 🟡 Gewijzigd
 
-##### Attributes
+- **versie**: `1.0` → `1.9.0`
+- **populatie**: `<memo>` → _(leeg)_
 
-- naamSoortObjectcode — **Changed**
-  - **primitive**: `AN` → `AN255`
-- opmerkingenSoortObjectcode — **Changed**
-  - **primitive**: `AN` → `AN255`
+##### `VTHAanvraagOfMelding` — 🟡 Gewijzigd
 
-#### Valutasoort — **Unchanged**
+- **versie**: `1.0` → `1.9.0`
+- **populatie**: `<memo>` → _(leeg)_
 
-##### Attributes
+##### `VTHzaak` — 🟡 Gewijzigd
 
-- naamValuta — **Changed**
-  - **primitive**: `AN` → `AN255`
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+- **definitie**: _(leeg)_ → `Een *VTHzaak* is een zaak of dossier binnen de gemeentelijke administratie die betrekking heeft op **vergunningverlening, toezicht en handhaving (VTH)** van regels en voorschriften in de fysieke leefomgeving.`
+- **toelichting**: _(leeg)_ → `*VTH* staat voor *Vergunningverlening, Toezicht en Handhaving*, de samenhangende taken waarmee gemeenten (en bevoegde overheden) controleren of activiteiten voldoen aan wettelijke eisen, vergunningen verlenen, toezicht houden en handhave…`
+- **herkomst definitie**: _(leeg)_ → `Model VTH uit het Gemeentelijk Gegevensmodel (GEMMA/GBI), waarin *VTH* staat voor Vergunning, Toezicht en Handhaving en gekoppeld is aan de registratie van bijbehorende aanvragen of meldingen.`
+- **populatie**: `<memo>` → _(leeg)_
 
-#### WOZ-Deelobjectcode — **Unchanged**
+##### `Waarneming` — 🟡 Gewijzigd
 
-##### Attributes
+- **versie**: `1.0` → `1.9.0`
+- **populatie**: `<memo>` → _(leeg)_
 
-- naamDeelobjectcode — **Changed**
-  - **primitive**: `AN` → `AN255`
+##### `WABOAanvraagOfMelding` — 🟡 Gewijzigd
 
-_No datatype changes in this package._
+- **versie**: `1.0` → `1.9.0`
+- **populatie**: `<memo>` → _(leeg)_
 
-_No enumeration changes in this package._
+##### `WoonfraudeAanvraagOfMelding` — 🟡 Gewijzigd
 
-## Package: Datatypes
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+- **populatie**: `<memo>` → _(leeg)_
 
-_No class changes in this package._
+##### `WoonoverlastAanvraagOfMelding` — 🟡 Gewijzigd
 
-_No datatype changes in this package._
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+- **populatie**: `<memo>` → _(leeg)_
 
-### Enumerations
+#### Enumeraties
 
-#### CdRedenAanvraagANWaangevraagd — **Added**
+##### `Beoordelingsoort` — 🟡 Gewijzigd
 
-#### CdRedenAanvraagANWafgewezenReden — **Added**
+- **versie**: `1.0` → `1.9.0`
 
-#### CdRedenAanvraagContractperiode — **Added**
+##### `Heffingsoort` — 🟡 Gewijzigd
 
-#### CdRedenAanvraagEindeBijstand — **Added**
+- **versie**: `1.0` → `1.9.0`
 
-#### CdRedenAanvraagEindeEigenBedrijf — **Added**
+##### `StatusOpenbareActiviteit` — 🟡 Gewijzigd
 
-#### CdRedenAanvraagEindeUitkering — **Added**
+- **versie**: `1.0` → `1.9.0`
 
-#### CdRedenAanvraagEindeUitkeringReden — **Added**
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel10-dienstverlening"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/10 Dienstverlening
 
-#### CdRedenAanvraagEindeWerk — **Added**
+**Pakket-metadata gewijzigd:**
 
-#### CdRedenAanvraagOnvoldoendeInkomen — **Added**
+- **versie**: `1.0` → `1.9.0`
 
-#### CdRedenAanvraagVerblijfstatus — **Added**
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel10-dienstverleningdiagram"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/10 Dienstverlening/Diagram
 
-#### CdRedenAanvraagWWgevraagd — **Added**
+**Pakket-metadata gewijzigd:**
 
-#### CdRedenAanvraagWijzigingGezin — **Added**
+- **versie**: `1.0` → `1.9.0`
 
-#### CdRedenAanvraagWwafgewezen — **Added**
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel10-dienstverleningmodel-dienstverlening"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/10 Dienstverlening/Model Dienstverlening
 
-#### CdRedenAanvraagZelfstandige — **Added**
+**Pakket-metadata gewijzigd:**
 
-#### CodeRedenAfwijkendeStartdatum — **Added**
+- **versie**: `1.3` → `1.12.0`
 
-#### RedenKwijtscheldingVordering — **Added**
+#### Classes
 
-## Package: Enumeratiesoort
+##### `Aanvraagdata` — 🟡 Gewijzigd
 
-_No class changes in this package._
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
 
-_No datatype changes in this package._
+##### `AanvraagOfMelding` — 🟡 Gewijzigd
 
-### Enumerations
+- **versie**: `1.5` → `1.12.0`
 
-#### functieOndersteunendWegdeelPlus — **Removed**
+##### `Afspraakstatus` — 🟡 Gewijzigd
 
-#### typeringOndersteunendWaterPlus — **Removed**
+- **versie**: `1.7` → `1.14.0`
 
-## Package: Groepattribuutsoort
+##### `Artikel` — 🟡 Gewijzigd
 
-### Classes
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
 
-#### GeboorteIngeschrevenNatuurlijkPersoon — **Unchanged**
+##### `Balieafspraak` — 🟡 Gewijzigd
 
-##### Attributes
+- **versie**: `1.5` → `1.12.0`
 
-- datumGeboorte — **Changed**
-  - **primitive**: `` → `Datum`
+##### `ExterneBron` — 🟡 Gewijzigd
 
-#### GeboorteIngeschrevenPersoon — **Unchanged**
+- **versie**: `1.5` → `1.12.0`
 
-##### Attributes
+##### `Formuliersoort` — 🟡 Gewijzigd
 
-- datumGeboorte — **Changed**
-  - **primitive**: `` → `Datum`
-- geboorteplaats — **Changed**
-  - **primitive**: `` → `AN200`
+- **versie**: `1.5` → `1.12.0`
 
-#### KoopsomKadastraleOnroerendeZaak — **Unchanged**
+##### `Formuliersoortveld` — 🟡 Gewijzigd
 
-##### Attributes
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
 
-- datumTransactie — **Changed**
-  - **primitive**: `` → `Datum`
+##### `Klantbeoordeling` — 🟡 Gewijzigd
 
-#### MigratieIngeschrevenNatuurlijkPersoon — **Unchanged**
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
 
-##### Attributes
+##### `Klantbeoordelingreden` — 🟡 Gewijzigd
 
-- aangeverMigratie — **Changed**
-  - **enumeration_id**: `Enumeratie: aangever` → `Enumeratie: aangever`
-- redenWijzigingMigratie — **Changed**
-  - **enumeration_id**: `Enumeratie: redenWijzigingAdres` → `Enumeratie: redenWijzigingAdres`
-- soortMigratie — **Changed**
-  - **enumeration_id**: `Enumeratie: soortMigratie` → `Enumeratie: soortMigratie`
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
 
-#### NaamNatuurlijkPersoon — **Unchanged**
+##### `MOR-AanvraagOfMelding` — 🟡 Gewijzigd
 
-##### Attributes
+- **versie**: `1.6` → `1.13.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
 
-- geslachtsnaam — **Changed**
-  - **primitive**: `` → `AN255`
-- voornamen — **Changed**
-  - **primitive**: `` → `AN200`
-- voorvoegselGeslachtsnaam — **Changed**
-  - **primitive**: `` → `AN255`
+##### `Onderwerp` — 🟡 Gewijzigd
 
-#### NaamgebruikNatuurlijkPersoon — **Unchanged**
+- **versie**: `1.5` → `1.12.0`
 
-##### Attributes
+##### `ProductOfDienst` — 🟡 Gewijzigd
 
-- adellijkeTitelNaamgebruik — **Changed**
-  - **enumeration_id**: `Enumeratie: adelijkeTitel` → `Enumeratie: adelijkeTitel`
+- **versie**: `1.5` → `1.12.0`
 
-#### NederlandseNationaliteitIngeschrevenPersoon — **Unchanged**
+##### `Telefoononderwerp` — 🟡 Gewijzigd
 
-##### Attributes
+- **versie**: `1.7` → `1.14.0`
 
-- aanduidingBijzonderNederlanderschap — **Changed**
-  - **primitive**: `` → `boolean`
-- redenVerkrijgingNederlandseNationaliteit — **Changed**
-  - **primitive**: `` → `AN200`
-- redenVerliesNederlandseNationaliteit — **Changed**
-  - **primitive**: `` → `AN200`
+##### `Telefoonstatus` — 🟡 Gewijzigd
 
-#### OntbindingHuwelijk/geregistreerdPartnerschap — **Unchanged**
+- **versie**: `1.5` → `1.12.0`
 
-##### Attributes
+##### `Telefoontje` — 🟡 Gewijzigd
 
-- datumEinde — **Changed**
-  - **primitive**: `` → `Datum`
-- redenEinde — **Changed**
-  - **enumeration_id**: `Enumeratie: redenEindeRelatie` → `Enumeratie: redenEindeRelatie`
+- **versie**: `1.5` → `1.12.0`
 
-#### OverlijdenIngeschrevenNatuurlijkPersoon — **Unchanged**
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel2-verkeer-vervoer-en-waterstaat"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/2 Verkeer, Vervoer en Waterstaat
 
-##### Attributes
+**Pakket-metadata gewijzigd:**
 
-- datumOverlijden — **Changed**
-  - **primitive**: `` → `Datum`
+- **versie**: `1.0` → `1.9.0`
 
-#### OverlijdenIngeschrevenPersoon — **Unchanged**
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel2-verkeer-vervoer-en-waterstaatmobiliteitmodel-mobiliteit"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/2 Verkeer, Vervoer en Waterstaat/Mobiliteit/Model Mobiliteit
 
-##### Attributes
+**Pakket-metadata gewijzigd:**
 
-- datumOverlijden — **Changed**
-  - **primitive**: `` → `Datum`
-- overlijdensplaats — **Changed**
-  - **primitive**: `` → `AN200`
+- **versie**: `1.3` → `1.12.0`
 
-#### Postadres — **Unchanged**
+#### Classes
 
-##### Attributes
+##### `Stremming` — 🟡 Gewijzigd
 
-- postadresType — **Changed**
-  - **primitive**: `postadresType` → `AN255`
-- postcodePostadres — **Changed**
-  - **primitive**: `POSTCODE` → `AN6`
+- **versie**: `1.5` → `1.12.0`
 
-#### SamengesteldeNaamNatuurlijkPersoon — **Unchanged**
+##### `Strooidag` — 🟡 Gewijzigd
 
-##### Attributes
+- **versie**: `1.5` → `1.12.0`
 
-- adellijkeTitel — **Changed**
-  - **enumeration_id**: `Enumeratie: adelijkeTitel` → `Enumeratie: adelijkeTitel`
-- namenreeks — **Changed**
-  - **primitive**: `INDIC` → `boolean`
-- predicaat — **Changed**
-  - **enumeration_id**: `Enumeratie: predicaat` → `Enumeratie: predicaat`
-- scheidingsteken — **Changed**
-  - **primitive**: `VOORVOEGSEL` → `AN255`
-- voorvoegsel — **Changed**
-  - **primitive**: `VOORVOEGSEL` → `AN255`
+##### `Strooiroute` — 🟡 Gewijzigd
 
-#### SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap — **Unchanged**
+- **versie**: `1.5` → `1.12.0`
 
-##### Attributes
+##### `StrooirouteUitvoering` — 🟡 Gewijzigd
 
-- datumAanvang — **Changed**
-  - **primitive**: `` → `Datum`
+- **versie**: `1.5` → `1.12.0`
 
-#### SoortFunctioneelGebied — **Unchanged**
+##### `Verkeersbesluit` — 🟡 Gewijzigd
 
-##### Attributes
+- **versie**: `1.5` → `1.12.0`
 
-- indicatiePlusBRPopulatie — **Changed**
-  - **primitive**: `INDIC` → ``
-- typeFunctioneelGebied — **Changed**
-  - **enumeration_id**: `Enumeratie: typeringFunctioneelGebied` → `Enumeratie: typeringFunctioneelGebied`
+##### `Verkeerstelling` — 🟡 Gewijzigd
 
-#### SoortKunstwerk — **Unchanged**
+- **versie**: `1.5` → `1.12.0`
 
-##### Attributes
+##### `VLogInfo` — 🟡 Gewijzigd
 
-- indicatiePlusBRPopulatie — **Changed**
-  - **primitive**: `INDIC` → ``
-- typeKunstwerk — **Changed**
-  - **enumeration_id**: `Enumeratie: typeringKunstwerk` → `Enumeratie: typeringKunstwerk`
+- **versie**: `1.5` → `1.12.0`
 
-#### SoortOverigBouwwerk — **Unchanged**
+#### Enumeraties
 
-##### Attributes
+##### `Aantal Gehinderden` — 🟡 Gewijzigd
 
-- indicatiePlusBRPopulatie — **Changed**
-  - **primitive**: `INDIC` → ``
-- typeOverigBouwwerk — **Changed**
-  - **enumeration_id**: `Enumeratie: typeringOverigBouwwerk` → `Enumeratie: typeringOverigBouwwerk`
+- **versie**: `1.4` → `1.10.0`
 
-#### SoortScheiding — **Unchanged**
+##### `Hindercategorie` — 🟡 Gewijzigd
 
-##### Attributes
+- **versie**: `1.4` → `1.10.0`
 
-- indicatiePlusBRPopulatie — **Changed**
-  - **primitive**: `INDIC` → ``
-- typeScheiding — **Changed**
-  - **enumeration_id**: `Enumeratie: typeringScheiding` → `Enumeratie: typeringScheiding`
+##### `Hinderklasse` — 🟡 Gewijzigd
 
-#### SoortSpoor — **Unchanged**
+- **versie**: `1.4` → `1.10.0`
 
-##### Attributes
+##### `Stremmingstatus` — 🟡 Gewijzigd
 
-- functieSpoor — **Changed**
-  - **enumeration_id**: `Enumeratie: functieSpoor` → `Enumeratie: functieSpoor`
-- indicatiePlusBRPopulatie — **Changed**
-  - **primitive**: `INDIC` → ``
+- **versie**: `1.4` → `1.10.0`
 
-#### VerblijfBuitenlandSubject — **Unchanged**
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel2-verkeer-vervoer-en-waterstaatparkeren"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/2 Verkeer, Vervoer en Waterstaat/Parkeren
 
-##### Attributes
+**Pakket-metadata gewijzigd:**
 
-- adresBuitenland1 — **Changed**
-  - **primitive**: `` → `AN200`
-- adresBuitenland2 — **Changed**
-  - **primitive**: `` → `AN200`
-- adresBuitenland3 — **Changed**
-  - **primitive**: `` → `AN200`
+- **versie**: `1.0` → `1.9.0`
 
-#### VerblijfadresIngeschrevenPersoon — **Unchanged**
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel2-verkeer-vervoer-en-waterstaatparkerenmodel-parkeren"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/2 Verkeer, Vervoer en Waterstaat/Parkeren/Model Parkeren
 
-##### Attributes
+**Pakket-metadata gewijzigd:**
 
-- beschrijvingLocatie — **Changed**
-  - **primitive**: `` → `AN255`
+- **versie**: `1.0` → `1.9.0`
 
-#### VerblijfsrechtIngeschrevenNatuurlijkPersoon — **Unchanged**
+#### Classes
 
-##### Attributes
+##### `Belprovider` — 🟡 Gewijzigd
 
-- datumAanvangVerblijfsrecht — **Changed**
-  - **primitive**: `` → `Datum`
-- datumMededelingVerblijfsrecht — **Changed**
-  - **primitive**: `` → `Datum`
-- datumVoorzienEindeVerblijfsrecht — **Changed**
-  - **primitive**: `` → `Datum`
+- **versie**: `1.5` → `1.12.0`
 
-_No datatype changes in this package._
+##### `MulderFeit` — 🟡 Gewijzigd
 
-### Enumerations
+- **versie**: `1.6` → `1.13.0`
 
-#### aangever — **Added**
+##### `Naheffing` — 🟡 Gewijzigd
 
-##### Literals
+- **versie**: `1.4` → `1.11.0`
 
-- `Echtgenoot/geregistreerd partner` — **Added**
-- `Gezaghouder` — **Added**
-- `Hoofd instelling` — **Added**
-- `Ingeschrevene` — **Added**
-- `Inwonend ouder voor meerderjarig kind` — **Added**
-- `Meerderjarig gemachtigde` — **Added**
-- `Meerderjarig inwonend kind voor ouder` — **Added**
-- `Verzorger` — **Added**
+##### `Parkeergarage` — 🟡 Gewijzigd
 
-#### aangever — **Removed**
+- **versie**: `1.5` → `1.12.0`
 
-##### Literals
+##### `Parkeerrecht` — 🟡 Gewijzigd
 
-- `Echtgenoot/geregistreerd partner` — **Removed**
-- `Gezaghouder` — **Removed**
-- `Hoofd instelling` — **Removed**
-- `Ingeschrevene` — **Removed**
-- `Inwonend ouder voor meerderjarig kind` — **Removed**
-- `Meerderjarig gemachtigde` — **Removed**
-- `Meerderjarig inwonend kind voor ouder` — **Removed**
-- `Verzorger` — **Removed**
+- **versie**: `1.5` → `1.12.0`
 
-#### adelijkeTitel — **Added**
+##### `Parkeerscan` — 🟡 Gewijzigd
 
-##### Literals
+- **versie**: `1.5` → `1.12.0`
 
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `baron` — **Added**
-- `barones` — **Added**
-- `graaf` — **Added**
-- `gravin` — **Added**
-- `hertog` — **Added**
-- `hertogin` — **Added**
-- `markies` — **Added**
-- `markiezin` — **Added**
-- `prins` — **Added**
-- `prinses` — **Added**
-- `ridder` — **Added**
+##### `Parkeervergunning` — 🟡 Gewijzigd
 
-#### adelijkeTitel — **Removed**
+- **versie**: `1.5` → `1.12.0`
 
-##### Literals
+##### `Parkeervlak` — 🟡 Gewijzigd
 
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `baron` — **Removed**
-- `barones` — **Removed**
-- `graaf` — **Removed**
-- `gravin` — **Removed**
-- `hertog` — **Removed**
-- `hertogin` — **Removed**
-- `markies` — **Removed**
-- `markiezin` — **Removed**
-- `prins` — **Removed**
-- `prinses` — **Removed**
-- `ridder` — **Removed**
+- **versie**: `1.5` → `1.12.0`
 
-#### adelijkeTitel — **Removed**
+##### `Parkeerzone` — 🟡 Gewijzigd
 
-##### Literals
+- **versie**: `1.7` → `1.14.0`
 
-- `Leeg` — **Removed**
-- `Onbekend` — **Removed**
-- `baron` — **Removed**
-- `barones` — **Removed**
-- `graaf` — **Removed**
-- `gravin` — **Removed**
-- `hertog` — **Removed**
-- `hertogin` — **Removed**
-- `markies` — **Removed**
-- `markiezin` — **Removed**
-- `prins` — **Removed**
-- `prinses` — **Removed**
-- `ridder` — **Removed**
+##### `Productgroep` — 🟡 Gewijzigd
 
-#### adelijkeTitel — **Added**
+- **versie**: `1.5` → `1.12.0`
 
-##### Literals
+##### `Productsoort` — 🟡 Gewijzigd
 
-- `Leeg` — **Added**
-- `Onbekend` — **Added**
-- `baron` — **Added**
-- `barones` — **Added**
-- `graaf` — **Added**
-- `gravin` — **Added**
-- `hertog` — **Added**
-- `hertogin` — **Added**
-- `markies` — **Added**
-- `markiezin` — **Added**
-- `prins` — **Added**
-- `prinses` — **Added**
-- `ridder` — **Added**
+- **versie**: `1.5` → `1.12.0`
 
-#### functieSpoor — **Added**
+##### `Straatsectie` — 🟡 Gewijzigd
 
-##### Literals
+- **versie**: `1.5` → `1.12.0`
 
-- `(haven)kraan` — **Added**
-- `sneltram` — **Added**
-- `tram` — **Added**
-- `trein` — **Added**
+##### `Voertuig` — 🟡 Gewijzigd
 
-#### functieSpoor — **Removed**
+- **versie**: `1.5` → `1.12.0`
 
-##### Literals
+#### Enumeraties
 
-- `(haven)kraan` — **Removed**
-- `sneltram` — **Removed**
-- `tram` — **Removed**
-- `trein` — **Removed**
+##### `Doelgroepenplaatsen` — 🟡 Gewijzigd
 
-#### predicaat — **Added**
+- **versie**: `1.4` → `1.10.0`
 
-##### Literals
+##### `Zonesoort` — 🟡 Gewijzigd
 
-- `Hare Hoogheid` — **Added**
-- `Hare Koninklijke Hoogheid` — **Added**
-- `Zijne Hoogheid` — **Added**
-- `Zijne Koninklijke Hoogheid` — **Added**
-- `jonkheer` — **Added**
-- `jonkvrouw` — **Added**
+- **versie**: `1.4` → `1.10.0`
 
-#### predicaat — **Removed**
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel3-economie"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/3 Economie
 
-##### Literals
+**Pakket-metadata gewijzigd:**
 
-- `Hare Hoogheid` — **Removed**
-- `Hare Koninklijke Hoogheid` — **Removed**
-- `Zijne Hoogheid` — **Removed**
-- `Zijne Koninklijke Hoogheid` — **Removed**
-- `jonkheer` — **Removed**
-- `jonkvrouw` — **Removed**
+- **versie**: `1.0` → `1.9.0`
 
-#### redenEindeRelatie — **Removed**
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel3-economiediagram"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/3 Economie/Diagram
 
-##### Literals
+**Pakket-metadata gewijzigd:**
 
-- `Echtscheiding, ontbinding of eindigen conform Nederlands recht` — **Removed**
-- `Naar vreemd recht anders beëindigd` — **Removed**
-- `Nietigverklaring` — **Removed**
-- `Omzetting van soort verbintenis` — **Removed**
-- `Onbekend` — **Removed**
-- `Overlijden partner` — **Removed**
-- `Rechtsvermoeden van overlijden partner` — **Removed**
-- `Vermissing van een persoon gevolgd door andere verbintenis` — **Removed**
+- **versie**: `1.0` → `1.9.0`
 
-#### redenEindeRelatie — **Added**
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel3-economiemodel-economie"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/3 Economie/Model Economie
 
-##### Literals
+**Pakket-metadata gewijzigd:**
 
-- `Echtscheiding, ontbinding of eindigen conform Nederlands recht` — **Added**
-- `Naar vreemd recht anders beëindigd` — **Added**
-- `Nietigverklaring` — **Added**
-- `Omzetting van soort verbintenis` — **Added**
-- `Onbekend` — **Added**
-- `Overlijden partner` — **Added**
-- `Rechtsvermoeden van overlijden partner` — **Added**
-- `Vermissing van een persoon gevolgd door andere verbintenis` — **Added**
+- **versie**: `1.0` → `1.9.0`
 
-#### redenWijzigingAdres — **Added**
+#### Classes
 
-##### Literals
+##### `Contact` — 🟡 Gewijzigd
 
-- `Aangifte door persoon` — **Added**
-- `Ambtshalve` — **Added**
-- `Infrastructurele wijziging` — **Added**
-- `Ministerieel besluit` — **Added**
-- `Onbekend` — **Added**
-- `Technische wijzigingen i.v.m. BAG` — **Added**
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
 
-#### redenWijzigingAdres — **Removed**
+##### `Hotel` — 🟡 Gewijzigd
 
-##### Literals
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
 
-- `Aangifte door persoon` — **Removed**
-- `Ambtshalve` — **Removed**
-- `Infrastructurele wijziging` — **Removed**
-- `Ministerieel besluit` — **Removed**
-- `Onbekend` — **Removed**
-- `Technische wijzigingen i.v.m. BAG` — **Removed**
+##### `Hotelbezoek` — 🟡 Gewijzigd
 
-#### soortMigratie — **Added**
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
 
-##### Literals
+##### `Verkooppunt` — 🟡 Gewijzigd
 
-- `Emigratie` — **Added**
-- `Immigratie` — **Added**
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
 
-#### soortMigratie — **Removed**
+##### `Werkgelegenheid` — 🟡 Gewijzigd
 
-##### Literals
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
 
-- `Emigratie` — **Removed**
-- `Immigratie` — **Removed**
+##### `Winkelvloeroppervlak` — 🟡 Gewijzigd
 
-#### typeringFunctioneelGebied — **Removed**
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
 
-##### Literals
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel4-onderwijs"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/4 Onderwijs
 
-- `bedrijvigheid` — **Removed**
-- `begraafplaats` — **Removed**
-- `benzinestation` — **Removed**
-- `bewoning` — **Removed**
-- `bushalte` — **Removed**
-- `carpoolplaats` — **Removed**
-- `functioneel beheer` — **Removed**
-- `functioneel beheer:hondenuitlaatplaats` — **Removed**
-- `infrastructuur verkeer en vervoer` — **Removed**
-- `infrastructuur waterstaatswerken` — **Removed**
-- `kering` — **Removed**
-- `landbouw` — **Removed**
-- `maatschappelijke en / of publieksvoorziening` — **Removed**
-- `natuur & landschap` — **Removed**
-- `recreatie` — **Removed**
-- `recreatie:bungalowpark` — **Removed**
-- `recreatie:camping` — **Removed**
-- `recreatie:park` — **Removed**
-- `recreatie:speeltuin` — **Removed**
-- `recreatie:sportterrein` — **Removed**
-- `recreatie:volkstuin` — **Removed**
-- `verzorgingsplaats` — **Removed**
-- `waterbergingsgebied` — **Removed**
+**Pakket-metadata gewijzigd:**
 
-#### typeringFunctioneelGebied — **Added**
+- **versie**: `1.0` → `1.9.0`
 
-##### Literals
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel4-onderwijsleerplicht-en-leerlingenvervoer"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/4 Onderwijs/Leerplicht en Leerlingenvervoer
 
-- `bedrijvigheid` — **Added**
-- `begraafplaats` — **Added**
-- `benzinestation` — **Added**
-- `bewoning` — **Added**
-- `bushalte` — **Added**
-- `carpoolplaats` — **Added**
-- `functioneel beheer` — **Added**
-- `functioneel beheer:hondenuitlaatplaats` — **Added**
-- `infrastructuur verkeer en vervoer` — **Added**
-- `infrastructuur waterstaatswerken` — **Added**
-- `kering` — **Added**
-- `landbouw` — **Added**
-- `maatschappelijke en / of publieksvoorziening` — **Added**
-- `natuur & landschap` — **Added**
-- `recreatie` — **Added**
-- `recreatie:bungalowpark` — **Added**
-- `recreatie:camping` — **Added**
-- `recreatie:park` — **Added**
-- `recreatie:speeltuin` — **Added**
-- `recreatie:sportterrein` — **Added**
-- `recreatie:volkstuin` — **Added**
-- `verzorgingsplaats` — **Added**
-- `waterbergingsgebied` — **Added**
+**Pakket-metadata gewijzigd:**
 
-#### typeringKunstwerk — **Removed**
+- **versie**: `1.0` → `1.9.0`
 
-##### Literals
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel4-onderwijsleerplicht-en-leerlingenvervoermodel-leerplicht-en-leerlingenvervoer"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/4 Onderwijs/Leerplicht en Leerlingenvervoer/Model Leerplicht en Leerlingenvervoer
 
-- `bodemval` — **Removed**
-- `coupure` — **Removed**
-- `duiker` — **Removed**
-- `faunavoorziening` — **Removed**
-- `gemaal` — **Removed**
-- `hoogspanningsmast` — **Removed**
-- `keermuur` — **Removed**
-- `overkluizing` — **Removed**
-- `perron` — **Removed**
-- `ponton` — **Removed**
-- `sluis` — **Removed**
-- `steiger` — **Removed**
-- `strekdam` — **Removed**
-- `stuw` — **Removed**
-- `vispassage` — **Removed**
-- `voorde` — **Removed**
+**Pakket-metadata gewijzigd:**
 
-#### typeringKunstwerk — **Added**
+- **versie**: `1.0` → `1.9.0`
 
-##### Literals
+#### Classes
 
-- `bodemval` — **Added**
-- `coupure` — **Added**
-- `duiker` — **Added**
-- `faunavoorziening` — **Added**
-- `gemaal` — **Added**
-- `hoogspanningsmast` — **Added**
-- `keermuur` — **Added**
-- `overkluizing` — **Added**
-- `perron` — **Added**
-- `ponton` — **Added**
-- `sluis` — **Added**
-- `steiger` — **Added**
-- `strekdam` — **Added**
-- `stuw` — **Added**
-- `vispassage` — **Added**
-- `voorde` — **Added**
+##### `Aanvraag Leerlingenvervoer` — 🟡 Gewijzigd
 
-#### typeringOverigBouwwerk — **Removed**
+- **versie**: `1.5` → `1.12.0`
 
-##### Literals
+##### `AanvraagOfMelding` — 🟡 Gewijzigd
 
-- `bassin` — **Removed**
-- `bezinkbak` — **Removed**
-- `bunker` — **Removed**
-- `lage trafo` — **Removed**
-- `open loods` — **Removed**
-- `opslagtank` — **Removed**
-- `overkapping` — **Removed**
-- `schuur` — **Removed**
-- `voedersilo` — **Removed**
-- `windturbine` — **Removed**
+- **versie**: `1.5` → `1.12.0`
 
-#### typeringOverigBouwwerk — **Added**
+##### `AanvraagVrijstelling` — 🟡 Gewijzigd
 
-##### Literals
+- **versie**: `1.5` → `1.12.0`
 
-- `bassin` — **Added**
-- `bezinkbak` — **Added**
-- `bunker` — **Added**
-- `lage trafo` — **Added**
-- `open loods` — **Added**
-- `opslagtank` — **Added**
-- `overkapping` — **Added**
-- `schuur` — **Added**
-- `voedersilo` — **Added**
-- `windturbine` — **Added**
+##### `Beschikking Leerlingenvervoer` — 🟡 Gewijzigd
 
-#### typeringScheiding — **Removed**
+- **versie**: `1.7` → `1.14.0`
 
-##### Literals
+##### `Beslissing` — 🟡 Gewijzigd
 
-- `damwand` — **Removed**
-- `geluidsscherm` — **Removed**
-- `hek` — **Removed**
-- `kademuur` — **Removed**
-- `muur` — **Removed**
-- `walbescherming` — **Removed**
+- **versie**: `1.4` → `1.11.0`
 
-#### typeringScheiding — **Added**
+##### `Doorgeleiding OM` — 🟡 Gewijzigd
 
-##### Literals
+- **versie**: `1.7` → `1.14.0`
 
-- `damwand` — **Added**
-- `geluidsscherm` — **Added**
-- `hek` — **Added**
-- `kademuur` — **Added**
-- `muur` — **Added**
-- `walbescherming` — **Added**
+##### `HALT-verwijzing` — 🟡 Gewijzigd
 
-## Package: Groepattribuutsoort
+- **versie**: `1.5` → `1.12.0`
 
-### Classes
+##### `Klacht Leerlingenvervoer` — 🟡 Gewijzigd
 
-#### AfwijkendBuitenlandsCorrespondentieadresRol — **Unchanged**
+- **versie**: `1.5` → `1.12.0`
 
-##### Attributes
+##### `Leerplichtambtenaar` — 🟡 Gewijzigd
 
-- adresBuitenland1 — **Changed**
-  - **primitive**: `` → `AN200`
-- adresBuitenland2 — **Changed**
-  - **primitive**: `` → `AN200`
-- adresBuitenland3 — **Changed**
-  - **primitive**: `` → `AN200`
+- **versie**: `1.5` → `1.12.0`
 
-#### AnderZaakobjectZaak — **Unchanged**
+##### `Procesverbaal Onderwijs` — 🟡 Gewijzigd
 
-##### Attributes
+- **versie**: `1.7` → `1.14.0`
+- **auteur**: `crossover` → `Arjen Brienen`
 
-- anderZaakobjectLocatie — **Changed**
-  - **primitive**: `GML` → `Point`
+##### `Verlofaanvraag` — 🟡 Gewijzigd
 
-_No datatype changes in this package._
+- **versie**: `1.5` → `1.12.0`
 
-_No enumeration changes in this package._
+##### `Vervoerder` — 🟡 Gewijzigd
 
+- **versie**: `1.5` → `1.12.0`
+
+##### `Verzuimmelding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Vrijstelling` — 🟡 Gewijzigd
+
+- **versie**: `1.7` → `1.14.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Ziekmelding Leerlingenvervoer` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+#### Enumeraties
+
+##### `Sanctiesoort` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Verzuimsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Vrijstellingsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel4-onderwijsonderwijs"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/4 Onderwijs/Onderwijs
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel4-onderwijsonderwijsdiagram"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/4 Onderwijs/Onderwijs/Diagram
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.3` → `1.12.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel4-onderwijsonderwijsmodel-onderwijs"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/4 Onderwijs/Onderwijs/Model Onderwijs
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.3` → `1.12.0`
+
+#### Classes
+
+##### `Inschrijving` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Leerjaar` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Leerling` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `Locatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Loopbaanstap` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Onderwijsloopbaan` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Onderwijsniveau` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Onderwijssoort` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Ouder Of Verzorger` — 🟡 Gewijzigd
+
+- **versie**: `1.7` → `1.14.0`
+
+##### `School` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Startkwalificatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Uitschrijving` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+#### Enumeraties
+
+##### `Onderwijstype` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatie"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatieerfgoedarcheologie"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Erfgoed/Archeologie
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatieerfgoedarcheologiemodel-archeologie"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Erfgoed/Archeologie/Model Archeologie
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.3` → `1.12.0`
+
+#### Classes
+
+##### `Archeologiebesluit` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Artefact` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `Artefactsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `boring` — 🟡 Gewijzigd
+
+- **versie**: `1.7` → `1.14.0`
+
+##### `Doos` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Kaart` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `locatie` — 🟡 Gewijzigd
+
+- **versie**: `1.7` → `1.14.0`
+
+##### `Magazijnlocatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Magazijnplaatsing` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Project` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Put` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Spoor` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `Stelling` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `Vindplaats` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `Vlak` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Vondst` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `Vulling` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatieerfgoedarchief"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Erfgoed/Archief
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.3` → `1.12.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatieerfgoedarchiefmodel-archief"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Erfgoed/Archief/Model Archief
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+#### Classes
+
+##### `Aanvraag` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Archief` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Archiefcategorie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Archiefstuk` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `Auteur` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Bezoeker` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Depot` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `DigitaalBestand` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Indeling` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `Index` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+
+##### `Kast` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Nadere Toegang` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Ordeningsschema` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Plank` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Rechthebbende` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Stelling` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Uitgever` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Vindplaats` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatieerfgoedgenerieke-entiteiten-erfgoed"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Erfgoed/Generieke Entiteiten Erfgoed
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatieerfgoedgenerieke-entiteiten-erfgoeddiagram"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Erfgoed/Generieke Entiteiten Erfgoed/Diagram
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatieerfgoedgenerieke-entiteiten-erfgoedmodel-erfgoed-generiek"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Erfgoed/Generieke Entiteiten Erfgoed/Model Erfgoed Generiek
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+#### Classes
+
+##### `Erfgoed Object` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Historisch Persoon` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Objectclassificatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatieerfgoedmonumentenmodel-monumenten"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Erfgoed/Monumenten/Model Monumenten
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+#### Classes
+
+##### `Ambacht` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Beschermde Status` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Bouwactiviteit` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Bouwstijl` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Bouwtype` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `OorspronkelijkeFunctie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+#### Enumeraties
+
+##### `TypeMonument` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatiemuseadiagram"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Musea/Diagram
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatiemuseamodel-musea"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Musea/Model Musea
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.1` → `1.10.0`
+
+#### Classes
+
+##### `Activiteit` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Activiteitsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Balieverkoop` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Balieverkoop Entreekaart` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Belanghebbende` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Bruikleen` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Collectie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Doelgroep` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Entreekaart` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Incident` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Lener` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Mailing` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Museumobject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Museumrelatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Omzetgroep` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Prijs` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Product` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Productgroep` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Productie-eenheid` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Programma` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Programmasoort` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Reservering` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Rondleiding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Samensteller` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Standplaats` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Tentoonstelling` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Voorziening` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Winkelverkoopgroep` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Winkelvoorraaditem` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Zaal` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatiesport"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Sport
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel5-sport-cultuur-en-recreatiesportmodel-sport"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/5 Sport, Cultuur en Recreatie/Sport/Model Sport
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+#### Classes
+
+##### `Belijning` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Bezetting` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Binnenlocatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Onderhoudskosten` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Sportlocatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Sportmateriaal` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Sportpark` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `Sportvereniging` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Veld` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domein"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeindak--en-thuislozen"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Dak- en thuislozen
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeindak--en-thuislozendiagram"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Dak- en thuislozen/Diagram
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeindak--en-thuislozenmodel-dak--en-thuislozen"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Dak- en thuislozen/Model Dak- en thuislozen
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+#### Classes
+
+##### `Dakloosheid` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **populatie**: `<memo>` → `<memo>#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttype…`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeingemeentebegrafenissen"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Gemeentebegrafenissen
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeingemeentebegrafenissenmodel-gemeentebegrafenissen"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Gemeentebegrafenissen/Model Gemeentebegrafenissen
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+#### Classes
+
+##### `Gemeentebegrafenis` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeingeneriek-jeugd-en-wmo"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Generiek Jeugd en Wmo
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeingeneriek-jeugd-en-wmomodel-jeugd-en-wmo-generiek"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Generiek Jeugd en Wmo/Model Jeugd en Wmo Generiek
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.3` → `1.12.0`
+
+#### Classes
+
+##### `AOM_AanvraagWmoJeugd` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+- **definitie**: _(leeg)_ → `*AOM_AanvraagWmoJeugd* is een objecttype in het gegevensmodel voor Wmo en Jeugd dat een **aanvraagtraject voor ondersteuning onder de Wet maatschappelijke ondersteuning (Wmo) en/of Jeugdwet** representeert.`
+- **toelichting**: _(leeg)_ → `In het *Model Jeugd en Wmo Generiek* binnen het gemeentelijke gegevenslandschap beschrijft **AOM_AanvraagWmoJeugd** het proces rond een individuele **aanvraag van een cliënt** voor Wmo- en/of jeugdhulpvoorzieningen. Dit omvat gegevens zo…`
+
+##### `AOMMeldingWmoJeugd` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+- **definitie**: _(leeg)_ → `*AOMMeldingWMOJeugd* is een objecttype in het gemeentelijk gegevensmodel dat een **melding van een situatie of hulpvraag binnen het kader van de Wet maatschappelijke ondersteuning (Wmo) en/of Jeugdwet** representeert.`
+- **toelichting**: _(leeg)_ → `**Toelichting:**   In het *Model Jeugd en Wmo Generiek* komt *AOMMeldingWMOJeugd* voor als één van de kernentiteiten naast *AOM_AanvraagWmoJeugd*. Het type representeert **meldingen die cliënten (of hun vertegenwoordigers/aanmelder) doen…`
+
+##### `Beperking` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Beperkingscategorie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Beperkingscore` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Beperkingscoresoort` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Beschikking` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Beschikkingsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Beschikte Voorziening` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Budgetuitputting` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Declaratie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Declaratieregel` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+- **definitie**: _(leeg)_ → `Een *declaratieregel* is de **administratieve regel** waarin het **volume van één product of geleverde prestatie** binnen een bepaalde declaratieperiode voor één cliënt wordt vastgelegd.`
+- **toelichting**: _(leeg)_ → `Een declaratieregel vormt een afzonderlijke **regelpost binnen een declaratie** en omvat de specificatie van wat er is geleverd (bijvoorbeeld een zorgprestatie of een dienst), **hoeveelheid/volume** daarvan en de periode waarvoor deze le…`
+- **herkomst definitie**: _(leeg)_ → `https://www.istandaarden.nl/over-istandaarden/istandaarden/begrippenlijst`
+
+##### `Leefgebied` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Levering` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Leveringsvorm` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Melding Eigen bijdrage` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `PGB-Toekenning` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Score` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Scoresoort` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Tarief` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Team` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Toewijzing` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Verplichting Wmo Jeugd` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+- **definitie**: _(leeg)_ → `*Verplichting Wmo Jeugd* is de wettelijke plicht van gemeenten om inwoners ondersteuning, hulp of zorg te bieden wanneer zij dat nodig hebben op grond van de Wet maatschappelijke ondersteuning (Wmo) en de Jeugdwet.`
+- **toelichting**: _(leeg)_ → `Onder de **Wmo 2015** zijn gemeenten verplicht om **maatschappelijke ondersteuning en jeugdhulp** te bieden aan inwoners die niet op eigen kracht zelfredzaam zijn of ondersteuning nodig hebben om mee te doen in de samenleving. Voor de **…`
+- **herkomst definitie**: _(leeg)_ → `https://lokaleregelgeving.overheid.nl/CVDR672737/1`
+
+##### `Verzoek om Toewijzing` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Voorziening` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Voorzieningsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Zelfredzaamheidmatrix` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+#### Enumeraties
+
+##### `Doelgroep` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Eenheid` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Frequentie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Leveringsvorm` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Soort Verwijzer` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Wet` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininburgeringmodel-inburgering"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inburgering/Model Inburgering
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+#### Classes
+
+##### `Aandachtspunt` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → `•	Het betreft hier signalen of omstandigheden die invloed kunnen hebben op de voortgang, begeleiding of ondersteuning. 	•	In het model wordt Aandachtspunt gekoppeld aan onder meer de objecttypen Traject en Ondersteuningsactiviteit. 	•	Mo…`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Aanvraag verlenging Inburgeringstermijn` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → `•	De aanvraag wordt ingediend bij de gemeente waarin de inburgeringsplichtige woont. 	•	Redenen voor verlenging kunnen onder andere zijn: medische beperkingen, zwangerschap, mantelzorg, psychische problematiek of detentie. 	•	De verlengi…`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Asielstatushouder` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `B1-route` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → `•	De B1-route is bedoeld voor inburgeringsplichtigen die voldoende leervermogen hebben om Nederlands op B1-niveau te leren (Europees Referentiekader). 	•	De route omvat onder andere taallessen, KNM (Kennis van de Nederlandse Maatschappij…`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Brede Intake` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.3.0`
+
+##### `Diplomawaardering` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Educatie` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Examen` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.3.0`
+
+##### `Examenonderdeel` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.3.0`
+
+##### `Gezinsmigrant en Overige migrant` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.3.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Hoofddoel` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → `•	Het hoofddoel geeft richting aan de inrichting van het persoonlijk plan inburgering en participatie (PIP), zoals bedoeld in artikel 17 van de Wet inburgering 2021. 	•	De gemeente stelt het hoofddoel vast in samenspraak met de inburgeri…`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `ICT-Vaardigheid` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Inburgeraar` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `InburgeringsAanbod` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Inburgeringsplicht` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Inburgeringstermijn` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Inburgeringstraject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.3.0`
+
+##### `Introductiemodule` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → `•	De introductiemodule wordt georganiseerd door de gemeente en dient als startpunt voor het inburgeringstraject (zie artikel 17, tweede lid, van de Wet inburgering 2021). 	•	De module informeert over rechten en plichten, verwachtingen va…`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Leerroute` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **populatie**: `<memo>` → _(leeg)_
+
+**Attributen:**
+
+- 🟡 `geenLeerbaarheidstoetsZB` — Gewijzigd
+    - **definitie**: _(leeg)_ → `<font color="#0e0e0e"><i>Indicator die aangeeft of de leerbaarheidstoets niet is afgenomen vanwege een zintuigelijke beperking van de inburgeraar.</i></font>`
+
+##### `MAP` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.3.0`
+
+##### `Ontheffing` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → `•	Er zijn verschillende typen ontheffingen binnen de Wet inburgering 2021, onder andere: 	•	Medische ontheffing (artikel 7.4): bij fysieke of psychische belemmeringen; 	•	Ontheffing wegens aantoonbare inspanning (artikel 7.5): als iemand…`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Ontwikkelwens` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `PIP` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.3.0`
+
+##### `PVT` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.3.0`
+
+##### `Subdoel Aandachtspunt` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Subdoel Ontwikkelwens` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Taalvaardigheid` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → `•	De Wet inburgering 2021 vereist dat inburgeringsplichtigen taalvaardigheid verwerven op ten minste niveau B1 (B1-route en Onderwijsroute) of niveau A1/A2 (Z-route), afhankelijk van leervermogen en leerroute (artikel 23 van het Besluit …`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Training` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → `•	Een training maakt geen verplicht onderdeel uit van het wettelijk minimumaanbod, maar wordt vaak als aanvullende voorziening ingezet door gemeenten, bijvoorbeeld in de Z-route of als maatwerk binnen de B1-route. 	•	Voorbeelden zijn: so…`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Verblijfplaats AZC` — 🟡 Gewijzigd
+
+- **versie**: `1.2` → `1.3.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Verlengingsgrond` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → `•	De standaard inburgeringstermijn is drie jaar, maar deze kan op verzoek van de inburgeringsplichtige worden verlengd als er sprake is van bijzondere omstandigheden. 	•	Wettelijk geldige verlengingsgronden zijn onder andere: 	•	Zwangers…`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Voorbereiding op Inburgering` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → `•	Deze voorbereiding vindt doorgaans plaats tijdens het verblijf in een AZC, nog vóór de inschrijving in de BRP en het officiële begin van de inburgeringstermijn. 	•	Het doel is om inburgeringsplichtigen een betere startpositie te geven …`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Vreemdeling` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Vrijstelling` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Werk` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Z-route` — 🟡 Gewijzigd
+
+- **alias**: `Zelfredzaamheidsroute` → _(leeg)_
+- **versie**: `1.2` → `1.2.0`
+- **auteur**: `mkampen` → `Eigenaar`
+- **definitie**: `<font color="#0e0e0e">De </font><font color="#0e0e0e"><b>Z-route</b></font><font color="#0e0e0e"> (zelfredzaamheidsroute) is &#233;&#233;n van de drie leerroutes binnen het inburgeringsstelsel, bedoeld voor inburgeringsplichtigen met bep…` → `De *Z-route* (Zelfredzaamheidsroute) is een van de drie leerroutes onder de Nederlandse Wet inburgering 2021 en is bedoeld voor inburgeringsplichtigen met een lage leerbaarheid die moeite hebben met het leren van de Nederlandse taal, ger…`
+- **toelichting**: `•	De Z-route is bedoeld voor inburgeraars die naar verwachting het taalniveau B1 niet kunnen behalen binnen de gestelde termijn (artikel 18 van de Wet inburgering 2021 en artikel 23 van het Besluit inburgering 2021). 	•	De route richt zi…` → `De Z-route is een intensief traject voor inburgeraars voor wie het behalen van taalniveau B1 of het volgen van een onderwijsroute niet haalbaar wordt geacht. De route omvat minimaal 800 uur Nederlandse taalles inclusief eventuele alfabet…`
+- **herkomst definitie**: _(leeg)_ → `https://www.divosa.nl/publicaties/handreiking-leerroutes/de-zelfredzaamheidsroute-z-route/wat-de-z-route`
+
+#### Enumeraties
+
+##### `Aandachtspunt` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `BeoordelingAanvraagVerlenging` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `ClassificatieArmTotUitstekend` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `ClassificatieVoldoendeOnvoldoende` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Doel` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `EindoordeelVrijstelling` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Ontwikkelwens` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Opleidingsniveau` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `ParticipatieDeelname` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `PresentieTaalles` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `SETU job category` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Beroepscategorie&#235;n volgens de SETU-standaard. Voorbeelden: <i>Engineering</i>, <i>Healthcare</i>, <i>ICT</i>.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `SoortWerk` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Soorten werkzaamheden die iemand uitvoert of nastreeft. Voorbeelden: <i>maken</i>, <i>helpen</i>, <i>vervoeren</i>.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `Subdoel betaald werken` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Subdoel betaald werken met een opleiding` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Subdoel betaald werken naar vermogen` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Subdoel digitale vaardigheden` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Subdoel eenzaamheid` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Subdoel Financien` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Subdoel Justitie` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Subdoel lichamelijke gezondheid` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Subdoel ondernemen` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Subdoel opleiding volgen` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Subdoel passende dagbesteding hebben (maatschappelijk fit worden)` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Subdoel psychische gezondheid` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Subdoel Taal` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Subdoel taalvaardigheden opdoen` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Subdoel verslaving` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Subdoel vrijwilligerswerk doen (maatschappelijk fit worden)` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Subdoel Werkervaring opdoen (werkfit worden)` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Subdoel Werknemersvaardigheden ontwikkelen (werkfit worden)` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Subdoel woonsituatie` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `Subdoel zorgtaken` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `UitkomstLeerbaarheidstoets` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `WordtBehandeldAls` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomendienstenmodel-diensten"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Diensten/Model Diensten
+
+#### Classes
+
+##### `Aanvraag` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Aanvraagtype` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Beschikking` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Besluit` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Betalingsblokkade` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Dienst` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Diensttype` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Individuele plicht` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Leveringscomponent` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Leveringscomponenttype` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Leveringsopdracht` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Leveringsspecificatie` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Onderdeel beschikking` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Periodiek dienst Bijz. bijstand` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Recht` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Referteperiode` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Regeling` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Uitsluitingsgrond` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Verstrekkingsvorm` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Voorliggende voorziening` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Voorwaarde` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Voorwaardetype` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomenmodel-inkomen"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Model Inkomen
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.1.0` → `1.4.0`
+
+#### Classes
+
+##### `Component` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+- **definitie**: _(leeg)_ → `Een *inkomenscomponent* is een afzonderlijk onderdeel of bron van inkomen, zoals loon, winst uit onderneming, uitkeringen of andere inkomensbronnen, die samen het totale inkomen van een persoon of huishouden vormen.`
+- **toelichting**: _(leeg)_ → `In inkomensstatistiek wordt inkomen vaak opgebouwd uit verschillende componenten (zoals arbeid, uitkeringen, kapitaalinkomen, etc.), waarbij elke component een **bron of type inkomen** vertegenwoordigt. Door inkomens te decomponeren in c…`
+- **herkomst definitie**: _(leeg)_ → `https://ec.europa.eu/eurostat/cache/metadata/EN/ilc_simsilc_fr.htm (Eurostat – *income components* in de context van inkomensstatistiek)`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `ComponentSoort` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+- **definitie**: _(leeg)_ → `*ComponentSoort* is de classificatie of het type van een inkomenscomponent binnen een inkomen- of financiële administratie, waarmee wordt bepaald welke categorie of soort een specifieke component behoort.`
+- **toelichting**: _(leeg)_ → `In gegevensmodellen zoals het **Gemeentelijk Gegevensmodel (GGM)** maakt *ComponentSoort* het mogelijk inkomens- of financiële componenten verder te categoriseren. Dit helpt bij het structureren, analyseren en rapporteren van verschillen…`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Huisvestingsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Inkomensvoorziening` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Inkomensvoorzieningsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `RedenBlokkering` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `RedenInstroom` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `RedenUitstroom` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Regeling` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Regelingsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `UitkeringsRun` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+- **definitie**: _(leeg)_ → `Een *UitkeringsRun* is een geautomatiseerde verwerking in een financieel of administratief systeem waarbij **een groep uitkeringen of betalingen tegelijk wordt berekend en uitgevoerd** als onderdeel van een periodieke batch-verwerking.`
+- **toelichting**: _(leeg)_ → `In financiële systemen en salaris-/uitkeringsadministraties verwijst een *run* naar het **proces van uitvoeren van een set berekeningen en betalingen** op een gepland moment (bijv. maandelijks of wekelijks). Een *uitkeringsrun* omvat nor…`
+- **herkomst definitie**: _(leeg)_ → `https://onpay.com/glossary/payroll-run/`
+- **populatie**: `<memo>` → _(leeg)_
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomennormafwijkingmodel-normafwijking"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Normafwijking/Model Normafwijking
+
+#### Classes
+
+##### `Afwijkende maatregel` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **definitie**: _(leeg)_ → `Een *afwijkende maatregel* is een maatregel die afwijkt van de standaardregel of wettelijke norm en die op basis van een wettelijke grondslag, beleidsregel of gemotiveerde beslissing in een concreet geval wordt toegepast.`
+- **toelichting**: `<memo>` → `In de bestuursrechtelijke en juridische context duidt een afwijkende maatregel op een *uitzondering* van de reguliere toepassing van een wettelijke regeling of standaardprocedure, waarbij een bestuursorgaan in bijzondere gevallen kiest v…`
+- **herkomst definitie**: _(leeg)_ → `Algemene uitleg bestuursrechtelijke toepassing van afwijkingen van regels in Nederlandse wet- en regelgeving (interpretatie; geen vaste CBS-definitie beschikbaar).`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Boete` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Maatregel` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **definitie**: _(leeg)_ → `Een *maatregel* is een besluit of handeling waarmee een bestuursorgaan of rechter ingrijpt om een doel te bereiken, een probleem op te lossen of een regel te handhaven.`
+- **toelichting**: `<memo>` → `In (bestuurs)recht en beleid duidt *maatregel* op een actie, handeling of besluit van een overheid of instantie dat gericht is op het beïnvloeden van gedrag, de toepassing van regels of de situatie van betrokkenen. Dit kan variëren van e…`
+- **herkomst definitie**: _(leeg)_ → `https://www.ensie.nl/meaning/maatregel`
+- **populatie**: `<memo>` → _(leeg)_
+
+**Attributen:**
+
+- 🟡 `identificatie` — Gewijzigd
+    - **definitie**: _(leeg)_ → `Voorheen: Maatregel ID Opmerking: Attribuut is een identificatie maar van het type Date?`
+
+##### `Maatregel op uitkering` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **definitie**: _(leeg)_ → `Een *maatregel op uitkering* is een sanctie van een uitvoerend orgaan (zoals een gemeente) waarbij de hoogte van een uitkering tijdelijk wordt verlaagd of aangepast omdat de uitkeringsgerechtigde niet heeft voldaan aan de aan de uitkerin…`
+- **toelichting**: `<memo>` → `In het kader van bijstandsuitkeringen (Participatiewet/Wet werk en bijstand) kan een maatregel worden toegepast als iemand bijvoorbeeld niet of onvoldoende meewerkt aan verplichtingen zoals het zoeken naar werk of het voldoen aan informa…`
+- **herkomst definitie**: _(leeg)_ → `https://lokaleregelgeving.overheid.nl/CVDR210284`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Normafwijking` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **definitie**: _(leeg)_ → `Een *normafwijking* (in het kader van bijstand) is het constateren dat een bijstandsgerechtigde **afwijkt van de normatieve verplichtingen** die verbonden zijn aan het recht op bijstand (bijv. arbeids- of inlichtingenplicht), wat aanleid…`
+- **toelichting**: `<memo>` → `In de uitvoering van de Participatiewet moet een bijstandsgerechtigde voldoen aan verschillende normen en verplichtingen (zoals het zoeken naar werk, voldoen aan inlichtingen- en medewerkingsplichten, of andere door de gemeente opgelegde…`
+- **herkomst definitie**: _(leeg)_ → `https://lokaleregelgeving.overheid.nl/CVDR358905/1`
+- **populatie**: `<memo>` → _(leeg)_
+
+**Attributen:**
+
+- 🟡 `identificatie` — Gewijzigd
+    - **definitie**: _(leeg)_ → `Voorheen: Normafwijking ID Opmerking: Dit attribuut heeft datatype Date maar is een identificatie?`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomenreden-aanvraagreden-aanvraag"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Reden aanvraag/Reden aanvraag
+
+#### Classes
+
+##### `Andere reden afwijkende startdatum` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.2.0`
+- **definitie**: _(leeg)_ → `*Andere reden afwijkende startdatum* is een omschrijving van een **reden waarom de startdatum van een dienst of uitkering afwijkt van de standaard startdatum**, voor zover deze reden niet onder de standaardcategorieën valt.`
+- **toelichting**: _(leeg)_ → `In het GBI-model voor *Reden aanvraag* geeft *Andere reden afwijkende startdatum* een aanvullende aanduiding van een bijzondere reden waarom de startdatum van een dienst (zoals een uitkering) niet samenvalt met de eerste melding of stand…`
+
+##### `Andere reden verzoek` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.2.0`
+- **definitie**: _(leeg)_ → `*Andere reden verzoek* is een categorie voor een **overige reden** waarom een aanvraag wordt gedaan die niet onder de standaard-redencategorieën valt binnen het *Reden aanvraag*-model.`
+- **toelichting**: _(leeg)_ → `Binnen het GBI-Ontologiemodel *Reden aanvraag* worden standaardredenen voor een aanvraag (zoals gestopt werk, overlijdenssituaties of veranderingen in inkomenssituaties) onderscheiden. *Andere reden verzoek* omvat **restcategorieën van o…`
+
+##### `Diensten::Aanvraag` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **definitie**: _(leeg)_ → `Een aanvraag is een verzoek van een burger, bedrijf of organisatie aan een overheid om een specifieke dienst te verkrijgen of een besluit te ontvangen (bijv. vergunning, subsidie, paspoort of beschikkingsbesluit).`
+- **toelichting**: _(leeg)_ → `•	In de context van diensten bij de overheid betreft een aanvraag het formele indienen van informatie of documenten door een aanvrager zodat de overheid een dienst kan verlenen of een besluit kan nemen. 	•	Diensten omvatten dienstverleni…`
+- **herkomst**: _(leeg)_ → `https://www.overheid.nl/help/producten-en-diensten`
+- **herkomst definitie**: _(leeg)_ → `https://www.overheid.nl/help/producten-en-diensten`
+
+##### `Diensten::Aanvraag levensonderhoud` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **definitie**: _(leeg)_ → `Een aanvraag levensonderhoud is het formele verzoek van een persoon aan een gemeentelijke of overheidsinstantie om een uitkering of financiële ondersteuning te verkrijgen die het inkomen aanvult zodat in het basislevensonderhoud kan word…`
+- **toelichting**: _(leeg)_ → `•	Het begrip verwijst in de praktijk meestal naar de aanvraag van een bijstandsuitkering of andere sociale uitkering die bedoeld is om een tekort aan inkomen voor noodzakelijke kosten van bestaan (zoals voedsel, huisvesting en basisbehoe…`
+- **herkomst definitie**: _(leeg)_ → `ttps://www.rijksoverheid.nl/onderwerpen/bijstand/regels-voor-bijstand`
+
+##### `Gestopt betaald werk` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.2.0`
+- **definitie**: _(leeg)_ → `*Gestopt betaald werk* is de situatie waarin iemand **zijn of haar betaalde arbeidsrelatie heeft beëindigd**, waardoor het reguliere inkomen uit werk is komen te vervallen en dit relevant is voor de beoordeling van een uitkeringsaanvraag…`
+- **toelichting**: _(leeg)_ → `Binnen gemeentelijke inkomens- en bijstandsadministraties (zoals onder de Participatiewet) speelt de situatie *gestopt betaald werk* een rol bij de vaststelling van rechten en verplichtingen. Het duidt op het moment waarop een persoon ni…`
+
+##### `Gestopt of verkocht eigen bedrijf` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.2.0`
+- **definitie**: _(leeg)_ → `*Gestopt of verkocht eigen bedrijf* is de situatie waarin een persoon zijn of haar **bedrijf volledig beëindigt of overdraagt/verkoopt**, waardoor de zelfstandige activiteit ophoudt en de reguliere inkomsten uit de onderneming verdwijnen.`
+- **toelichting**: _(leeg)_ → `Deze aanduiding wordt gebruikt in inkomens- of uitkeringsadministraties om aan te geven dat iemand **niet langer actief is als ondernemer** doordat het bedrijf is gestopt (bijvoorbeeld definitieve beëindiging van de bedrijfsactiviteiten …`
+
+##### `Gestopte bijstanduitkering` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.2.0`
+- **definitie**: _(leeg)_ → `*Gestopte bijstandsuitkering* is een reden van aanvraag binnen de GBI-Ontologie die aanduidt dat een cliënt een inkomensdienst aanvraagt omdat **een eerder ontvangen bijstandsuitkering is beëindigd**.`
+- **toelichting**: _(leeg)_ → `Binnen het GBI-model voor *Reden aanvraag* fungeert *Gestopte bijstandsuitkering* als een specifieke **categorie van terugkerende instroomreden**. Het beschrijft de situatie waarin een persoon **weer inkomensondersteuning aanvraagt** nad…`
+
+##### `Gestopte detentie` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.2.0`
+- **definitie**: _(leeg)_ → `*Gestopte detentie* is een reden van aanvraag binnen het GBI-model die aangeeft dat een persoon **vrij is gekomen uit detentie**, waardoor de detentie-periode is beëindigd en dit relevant is voor de beoordeling van een nieuwe aanvraag of…`
+- **toelichting**: _(leeg)_ → `Binnen het GBI-Ontologiemodel (bijv. *Reden aanvraag* of *Reden instroom*) geeft *Gestopte detentie* aan dat de vorige situatie van detentie **afgelopen is** en dat dit de aanleiding vormt voor een nieuwe aanvraag, bijvoorbeeld voor inko…`
+
+##### `Gestopte of verlaagde alimentatie` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.2.0`
+- **definitie**: _(leeg)_ → `*Gestopte of verlaagde alimentatie* is een reden van aanvraag binnen het GBI-Ontologiemodel die aangeeft dat een persoon een inkomensdienst aanvraagt omdat **alimentatiebetalingen zijn gestopt of verlaagd**, waardoor het reguliere onders…`
+- **toelichting**: _(leeg)_ → `Binnen het GBI-model *Reden aanvraag* fungeert *Gestopte of verlaagde alimentatie* als een **specifieke instroomreden** voor inkomensondersteuning (zoals bijstand). Het duidt op een situatie waarin alimentatie — bijvoorbeeld partneralime…`
+
+##### `Gestopte studiefinanciering` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.2.0`
+- **definitie**: _(leeg)_ → `*Gestopte studiefinanciering* is een reden van aanvraag binnen de GBI-Ontologie die aangeeft dat een persoon een inkomensdienst aanvraagt omdat **de studiefinanciering is beëindigd of gestopt**, waardoor het (studie)inkomen wegvalt en in…`
+- **toelichting**: _(leeg)_ → `Binnen het **GBI-model ‘Reden aanvraag’** functioneert *Gestopte studiefinanciering* als een **specifieke subtype-reden** voor het aanvragen van een gemeentelijke inkomensvoorziening (zoals bijstand of andere ondersteuning). De term duid…`
+
+##### `Gestopte uitkering` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.2.0`
+- **definitie**: _(leeg)_ → `*Gestopte uitkering* is een subtype van **Reden aanvraag** binnen het GBI-Ontologiemodel dat aangeeft dat een cliënt een inkomensdienst aanvraagt omdat **een eerdere uitkering is beëindigd**, waardoor opnieuw inkomensondersteuning nodig is.`
+- **toelichting**: _(leeg)_ → `In het GBI-model *Reden aanvraag* worden meerdere specifieke **aanvraagredenen** onderscheiden om te registreren waarom iemand een inkomensvoorziening aanvraagt. *Gestopte uitkering* duidt op de situatie waarin een vorige uitkering (bijv…`
+
+##### `Ingang bijstandsuitkering` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.7.0`
+
+##### `Levenssituatie::Levenssituatie` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **definitie**: _(leeg)_ → `De levenssituatie is de kwaliteit van de omgeving en omstandigheden waarin een persoon leeft en functioneert op een bepaald moment.`
+- **toelichting**: _(leeg)_ → `•	Levenssituatie beschrijft de samenhang van persoonlijke omstandigheden zoals inkomen, woonomgeving, gezinssituatie, gezondheid, werk en sociale relaties die samen de leefwereld van een individu bepalen. 	•	Het begrip wordt gebruikt in …`
+- **herkomst definitie**: _(leeg)_ → `https://nl.wiktionary.org/wiki/levenssituatie`
+
+##### `Opname instelling` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.2.0`
+- **definitie**: _(leeg)_ → `*Opname instelling* is een reden van aanvraag binnen de GBI-Ontologie die aangeeft dat een persoon een inkomensdienst aanvraagt omdat hij of zij **(net) is opgenomen in of vrijgekomen uit een instelling**, wat financiële gevolgen heeft v…`
+- **toelichting**: _(leeg)_ → `Binnen het GBI-model *Reden aanvraag* functioneert *Opname instelling* als een specifieke categorie om vast te leggen dat de aanvraag voor een inkomensvoorziening voortkomt uit een situatie rond verblijf in een **instelling** (bijvoorbee…`
+
+##### `Overleden partner` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.2.0`
+- **definitie**: _(leeg)_ → `*Overleden partner* is een subtype van **Reden aanvraag** binnen het GBI-Ontologiemodel dat aangeeft dat een persoon een inkomensdienst aanvraagt omdat **de partner is overleden**, met als gevolg dat het huishoudinkomen is verminderd.`
+- **toelichting**: _(leeg)_ → `Binnen het GBI-model *Reden aanvraag* fungeert *Overleden partner* als een specifieke reden voor het aanvragen van een inkomensvoorziening (zoals bijstand of andere ondersteuning). Het duidt op de situatie waarin het overlijden van een p…`
+
+##### `Reden aanvraag Levensonderhoud` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.2.0`
+- **definitie**: _(leeg)_ → `*Reden aanvraag Levensonderhoud* is een categorie binnen het GBI-Ontologiemodel die aangeeft dat een cliënt een inkomensdienst aanvraagt vanwege een situatie waarin **middelen voor levensonderhoud ontbreken of zijn weggevallen**, en deze…`
+- **toelichting**: _(leeg)_ → `Binnen het GBI-model *Reden aanvraag* worden verschillende specifieke redenen gegroepeerd onder *Levensonderhoud* om vast te leggen waarom een persoon inkomensondersteuning aanvraagt. Dit omvat situaties waarin het inkomen is weggevallen…`
+
+##### `Reden afwijkende startdatum` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.2.0`
+- **definitie**: _(leeg)_ → `*Reden afwijkende startdatum* is een categorie binnen het GBI-Ontologiemodel die aangeeft **waarom de ingangsdatum van een dienst of uitkering afwijkt van de standaard startdatum** (bijv. de datum van eerste melding).`
+- **toelichting**: _(leeg)_ → `In het **GBI-model *Reden aanvraag*** representeert *Reden afwijkende startdatum* situaties waarin de **startdatum van een dienst (zoals een bijstandsuitkering)** niet samenvalt met de datum van eerste melding of aanvraag. Dit kan bijvoo…`
+
+##### `Verbroken relatie` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.2.0`
+- **definitie**: _(leeg)_ → `*Verbroken relatie* is een subtype van **Reden aanvraag** binnen het GBI-Ontologiemodel dat aangeeft dat een persoon een inkomensdienst aanvraagt doordat **de (huwelijkse/samenlevings)relatie is beëindigd**, met financiële gevolgen voor …`
+- **toelichting**: _(leeg)_ → `In het GBI-model *Reden aanvraag* representeert *Verbroken relatie* een specifieke reden waarom iemand inkomensondersteuning aanvraagt, namelijk omdat het beëindigen van een relatie (bijvoorbeeld echtscheiding of einde van een geregistre…`
+
+##### `Vertrek uit asielzoekerscentrum` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.2.0`
+- **definitie**: _(leeg)_ → `*Vertrek uit asielzoekerscentrum* is een subtype van **Reden aanvraag** in het GBI-Ontologiemodel dat aangeeft dat een persoon een inkomensdienst aanvraagt omdat hij of zij **recentelijk een asielzoekerscentrum heeft verlaten**, waardoor…`
+- **toelichting**: _(leeg)_ → `Binnen het GBI-model *Reden aanvraag* functioneert *Vertrek uit asielzoekerscentrum* als een specifieke reden voor het aanvragen van inkomensondersteuning (zoals bijstand). Het duidt op de situatie waarin iemand **niet langer verblijft i…`
+
+##### `Wachten beslissing instantie` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.2.0`
+- **definitie**: _(leeg)_ → `*Wachten beslissing instantie* is een subtype van **Reden aanvraag** binnen het GBI-Ontologiemodel dat aangeeft dat een persoon een inkomensdienst aanvraagt omdat hij of zij **moet wachten op een besluit van een externe instantie**, waar…`
+- **toelichting**: _(leeg)_ → `Binnen het GBI-model *Reden aanvraag* representeert *Wachten beslissing instantie* een specifieke *Reden afwijkende startdatum*. Het duidt op situaties waarin de ingangsdatum van een bijstandsuitkering of andere inkomensdienst **wordt ui…`
+
+##### `Wachten DigiD` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.2.0`
+- **definitie**: _(leeg)_ → `*Wachten DigiD* is een subtype van **Reden afwijkende startdatum** binnen het GBI-Ontologiemodel dat aangeeft dat de ingangsdatum van een inkomensdienst **vertraging oploopt doordat een DigiD nog niet is aangevraagd, geactiveerd of bruik…`
+- **toelichting**: _(leeg)_ → `In het **GBI-model *Reden aanvraag*** wordt *Wachten DigiD* gebruikt om te registreren dat de startdatum van een uitkering of andere inkomensdienst **niet gelijk kan zijn aan de datum van eerste melding** omdat de cliënt moet wachten op …`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeininkomenterug--en-invorderingmodel-terug--en-invordering"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Inkomen/Terug- en invordering/Model Terug- en invordering
+
+#### Classes
+
+##### `Aflossing` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Aflossingsafspraak` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Aflossingsplan` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Afschrijving` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Betaalcomponent` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Boetevordering` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Conservatoir beslag` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Correctie` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Debiteur` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Incassokostenvordering` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Interventie` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Interventieverzoek` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Invorderingsbasis` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Krediethypotheek` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Krediethypotheekvordering` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Kwijtschelding` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Leenbijstand` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Leenbijstandvordering` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Loonbeslagafspraak` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Rechtmaand` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Rentevordering` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Restitutie` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Terugvorderingsverzoek` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Uitstel aflossing` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Vermindering terugvordering` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Verrekening` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Verwijtbare vordering` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Vordering` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Vorderingscomponent` — 🟡 Gewijzigd
+
+- **versie**: `1.1.0` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinjeugd"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Jeugd
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinjeugdmodel-jeugd"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Jeugd/Model Jeugd
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.3` → `1.12.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinjeugdbescherming-en-reclasseringdiagram"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Jeugdbescherming en reclassering/Diagram
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinjeugdbescherming-en-reclasseringmodel-jeugdbescherming"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Jeugdbescherming en reclassering/Model Jeugdbescherming
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+#### Classes
+
+##### `Informering` — 🟡 Gewijzigd
+
+- **versie**: `1.2` → `1.8.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+
+##### `Leefgebied` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+
+##### `Zorgelijke Situatie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+
+##### `Zorgmelding` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+
+#### Enumeraties
+
+##### `Enum Sociale Groep` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Enum Sociale Relatie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Incidenttype` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Leefgebied` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Verzoeksoort` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinschuldenschuldhulpverleningmodel-schuldhulpverlening"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Schulden/Schuldhulpverlening/Model Schuldhulpverlening
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.3` → `1.12.0`
+
+#### Classes
+
+##### `Aanmelding` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Begeleiding` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Begeleidingssoort` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Contactpersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Crisisinterventie` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `InformatieEnAdvies` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `https://www.nvvk.nl/kennisbank-detail/2022/04/20/Module-Informatie--Advies?originNode=1401` → `https://www.nvvk.nl/kennisbank-detail/2022/04/20/Module-Informatie--Advies?originNode=1401#NOTES#Description: De registratie of het informatiemodel waaraan het modelelement ontleend is dan wel de eigen organisatie indien het door de eige…`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Inkomen` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Intake` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Leefsituatie` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Moratorium` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Nazorg` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Ondernemer` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Oplossing` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Oplossingssoort` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Partner` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `PlanVanAanpak` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Schuld` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Schuldeiser` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Schuldhulporganisatie` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Schuldhulptraject` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Schuldregeling` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Stabilisatie` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Uitstroom` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `VoorlopigeVoorziening` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Woningbezit` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `WSNP-traject` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `WSNP-verklaring` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+#### Enumeraties
+
+##### `EnumBegeleidingssoort` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `EnumBeschikkingssoort` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `EnumHuishoudenssoort` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `EnumOplossingssoort` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `EnumSchuldensoort` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `EnumUitstroomreden` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+##### `EnumWoningbezit` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinschuldenvroegsignaleringmodel-vroegsignalering"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Schulden/Vroegsignalering/Model Vroegsignalering
+
+#### Classes
+
+##### `AanleverendeOrganisatie` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **definitie**: _(leeg)_ → `Organisatie de data aanlevert aan het CBS. Het kan hier gaan om de gemeente zelf, of een partij die namens de gemeente uitvoering geeft aan de afhandeling van vroegsignalen.`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Contactpersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **definitie**: `Contactpersoon van een organisatie` → `Contactpersoon bij de aanleverende organisatie.`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Contactpoging` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Signaalpartner` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Vroegsignaal` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Vroegsignaalzaak` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+#### Enumeraties
+
+##### `EnumContactsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+
+##### `EnumDagdeel` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+
+##### `EnumEindresultaat` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+
+##### `EnumSignaalpartner` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+
+##### `EnumSignaalstatus` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiek"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekdiagram"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Diagram
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekmodel-sociaal-domein-generiek"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+#### Classes
+
+##### `AanvraagStadspas` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Client` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Clientbegeleider` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Gerechtelijke uitspraak` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+
+##### `Gezagsverhouding` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+
+##### `Huishouden` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Incident` — 🟡 Gewijzigd
+
+- **versie**: `1.2` → `1.9.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+- **definitie**: _(leeg)_ → `Een *incident* is een afzonderlijke gebeurtenis of voorval dat plaatsvindt en kan afwijken van de normale gang van zaken, vaak onverwacht of onvoorzien.`
+- **toelichting**: _(leeg)_ → `Het begrip *incident* duidt op een **feitelijke gebeurtenis of voorval** dat is gebeurd en als een op zichzelf staande situatie kan worden beschreven. In algemene taal- en beleidscontexten wordt het gebruikt voor situaties die onverwacht…`
+- **herkomst definitie**: _(leeg)_ → `https://www.woorden.org/woord/incident`
+
+##### `Leverancier` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Profiel` — 🟡 Gewijzigd
+
+- **versie**: `1.2` → `1.8.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+
+##### `Relatie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `Relatiesoort` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `Sociale Groep` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+
+##### `Sociale Relatie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+
+##### `Stadspas` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+- **definitie**: `Te specifiek, voorstel "gemeentepas"?` → `Te specifiek, voorstel gemeentepas?`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekmodel-sociaal-domein-generiekinkomsten"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.3` → `1.6.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekmodel-sociaal-domein-generiekinkomstenmodel-inkomsten"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Inkomsten/Model Inkomsten
+
+#### Classes
+
+##### `Alimentatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Ander inkomen` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Beslag op inkomen` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Betaald werk` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Dertiende maand - eindejaarsuitkering` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Draagkracht` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Draagkrachtregime` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Eigen bedrijf` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Eigen bijdrage` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Heffingskorting` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Hobby` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Inkomstencomponent` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Inkomstenverhouding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Inkomstenvermindering` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Kostencomponent` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Loonbeslag` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Maaltijdvergoeding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Onderhoudsplicht` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Onderhoudsverhouding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Onkostenvergoeding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Pensioen` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Primair inkomstencomponent` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Reiskosten naar het werk` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Reiskostenvergoeding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Secundair inkomstencomponent` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Stage` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Studiefinanciering` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Te betalen alimentatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Uitkering` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Vakantiegeld` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Vergoeding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Vergoeding in natura` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Verlaging door boete` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Verlaging door maatregel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Vrijlating inkomsten` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekmodel-sociaal-domein-generiekvermogen"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Vermogen
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.3` → `1.12.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociaal-domein-generiekmodel-sociaal-domein-generiekvermogenmodel-vermogen"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociaal Domein Generiek/Model Sociaal Domein Generiek/Vermogen/Model Vermogen
+
+#### Classes
+
+##### `Bankrekening` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Hypotheek` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Motorvoertuig` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Onroerend goed` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Vermogenscomponent` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+- **definitie**: _(leeg)_ → `Een *vermogenscomponent* is een **onderdeel van het totale vermogen** van een persoon of huishouden, dat afzonderlijk wordt weergegeven (zoals spaargeld, beleggingen, eigen woning netto of pensioenvermogen).`
+- **toelichting**: _(leeg)_ → `In statistische en economische analyses wordt vermogen gezien als het **saldo van bezittingen minus schulden** van een persoon of huishouden. Het totale vermogen kan worden opgesplitst in verschillende componenten — bijvoorbeeld financië…`
+- **herkomst definitie**: _(leeg)_ → `https://www.cbs.nl/nl-nl/onze-diensten/methoden/begrippen/vermogen`
+
+**Attributen:**
+
+- 🟡 `identificatie` — Gewijzigd
+    - **definitie**: _(leeg)_ → `Voorheen: Vermogenscomponent ID Attribuut is een identificatie maar van het type Integer?`
+
+##### `Waardepeiling` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+- **definitie**: _(leeg)_ → `*Waardepeiling* is een **bepaling of schatting van de waarde van een object, goed of situatie**, verkregen door middel van peiling of inschatting van wat het waard zou zijn.`
+- **toelichting**: _(leeg)_ → `De term *waardepeiling* volgt uit de woorddelen: *waarde* (de bepaling van de waarde van iets) en *peiling* (een systematische inschatting of meting). In gebruik (bijvoorbeeld in online fora) betekent het dat iemand vraagt **wat iets vol…`
+- **herkomst definitie**: _(leeg)_ → `De betekenis van *waarde* als bepaling van waarde is afgeleid van het lemma *waardebepaling* — de bepaling van de waarde van iets.  [oai_citation:1‡WikiWoordenboek](https://nl.wiktionary.org/wiki/waardebepaling)`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociale-teams"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociale Teams
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinsociale-teamsmodel-sociale-teams"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Sociale Teams/Model Sociale Teams
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.3` → `1.12.0`
+
+#### Classes
+
+##### `Behandeling` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Behandelsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Bijzonderheid` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Bijzonderheidsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Caseaanmelding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Doelstelling` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Doelstellingsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `SociaalTeamDossier` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+- **definitie**: _(leeg)_ → `SociaalTeamDossier* is een dossier-entiteit binnen het Model Sociale Teams dat de **geïntegreerde registratie van gegevens over ondersteuning, gesprekken, interventies en casusontwikkeling van een sociaal team** voor een inwoner of gezin…`
+- **toelichting**: _(leeg)_ → `In het *Model Sociale Teams* van het gemeentelijke gegevenslandschap representeert *SociaalTeamDossier* het **centrale dossier** dat ontstaat rond een casus die een sociaal team oppakt. Sociale teams — zoals wijkteams of gebiedsteams — b…`
+
+##### `SociaalteamDossiersoort` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+- **definitie**: _(leeg)_ → `*SociaalteamDossiersoort* is de classificatie van een *SociaalTeamDossier* die aangeeft **het type of de categorie van het dossier** binnen de context van sociale ondersteuning en casemanagement in een sociaal team.`
+- **toelichting**: _(leeg)_ → `In het *Model Sociale Teams* van het gemeentelijke gegevenslandschap wordt *SociaalteamDossiersoort* gebruikt om **dossiers van sociale teams te typeren** naar aard of categorie, bijvoorbeeld om verschillende trajecten of casustypen te o…`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinwerk"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Werk
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinwerkmodel-werk"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Werk/Model Werk
+
+#### Classes
+
+##### `Arbeidsmarktkwalificaties` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Een verzameling formele en informele kwalificaties, vaardigheden en eigenschappen die relevant zijn voor de inzetbaarheid van een persoon op de arbeidsmarkt.</font>`
+
+##### `Arbeidsperiode` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Een aaneengesloten periode waarin een persoon arbeid heeft verricht, met begin- en einddatum.</font>`
+
+##### `Arbeidsverhouding` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Een relatie waarin sprake is van afspraken tussen een werknemer en een werkgever over het verrichten van arbeid.</font>`
+
+##### `Arbeidsvermogen` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Een inschatting van wat iemand op basis van fysieke, mentale en sociale capaciteiten aan arbeid kan verrichten.</font>`
+
+##### `Bemiddelingsactiviteit` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Een activiteit in het kader van arbeidstoeleiding waarbij de gemeente of uitvoeringsinstantie gericht handelt om de persoon in contact te brengen met een werkgever of werkplek.</font>`
+
+##### `Bemiddelingsberoep` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Het beoogde beroep waarvoor een persoon wordt begeleid of bemiddeld in een traject.</font>`
+
+##### `Bemiddelingstraject` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Een traject waarin een persoon begeleid wordt naar passend werk, bijvoorbeeld door een gemeente of uitvoeringsinstantie.</font>`
+
+##### `BeschikbaarVoorArbeid` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Een indicatie of iemand op dit moment inzetbaar is voor arbeid, los van begeleiding of ondersteuning.</font>`
+
+##### `BeschikbaarVoorBemiddeling` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Een indicatie dat een persoon beschikbaar is voor bemiddeling richting arbeid, waarbij wordt gekeken naar inzetbaarheid, bereidheid en eventuele beperkingen.</font>`
+
+##### `Doelgroep` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Een specifieke groep personen met gedeelde kenmerken (zoals afstand tot de arbeidsmarkt) die in aanmerking komt voor bepaalde voorzieningen of aangepaste begeleiding.</font>`
+
+##### `Doelgroepenregister` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Een landelijk register waarin mensen met een afstand tot de arbeidsmarkt worden opgenomen, vaak ten behoeve van loonkostensubsidie of andere voorzieningen.</font>`
+
+##### `DoelReintegratievoorziening` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Het beoogde effect van een ingezette voorziening, bijvoorbeeld toeleiding naar werk, dagbesteding of maatschappelijke participatie.</font>`
+
+##### `Flexibliteit` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">De mate waarin een persoon flexibel inzetbaar is qua werktijden, werkplek of werkzaamheden.</font>`
+
+##### `Loonkostensubsidie` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Een tegemoetkoming aan een werkgever voor het in dienst nemen van een werknemer met verminderde loonwaarde.</font>`
+
+##### `Mobiliteit` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">De bereikbaarheid van werkplekken voor een persoon, afhankelijk van vervoermiddel, rijbewijs en fysieke mogelijkheden.</font>`
+
+##### `Ontheffing` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Een formele vrijstelling van verplichtingen rond arbeidsparticipatie, zoals beschikbaarheid of tegenprestatie, op basis van persoonlijke of juridische gronden.</font>`
+
+##### `Opleiding` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Een formeel of informeel leertraject dat een persoon heeft gevolgd met als doel het verwerven van kennis, vaardigheden of competenties.</font>`
+
+##### `Opleidingsnaam` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">De naam waarmee een gevolgde opleiding aangeduid wordt. Dit kan een offici&#235;le (gecodeerde) of vrije tekst zijn.</font>`
+
+##### `OpleidingsnaamGecodeerd` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `Een OpleidingsnaamGecodeerd is een versleutelde/coderende aanduiding van de naam van een opleiding zoals vastgelegd in onderwijs-microdata, bedoeld om de opleiding te identificeren zonder de volledige tekstuele naam direct in de dataset …`
+- **toelichting**: _(leeg)_ → `•	Deze variabele representeert de opleidingsnaam in gecodeerde vorm, waarbij de feitelijke naam van de opleiding niet als open tekst in het microdata bestand staat. 	•	De gecodeerde naam wordt gebruikt om consistent te koppelen met refer…`
+- **herkomst definitie**: _(leeg)_ → `https://www.cbs.nl/nl-nl/onze-diensten/maatwerk-en-microdata/microdata-zelf-onderzoek-doen/microdatabestanden/gebruikershandleiding-onderwijsinformatie?utm_source=chatgpt.com`
+
+##### `OpleidingsnaamOngecodeerd` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `*OpleidingsnaamOngecodeerd* is de tekstuele naam van een opleiding zoals geregistreerd in CBS-onderwijsdata, weergegeven zonder codering om de opleidingsidentificatie leesbaar te maken.`
+- **toelichting**: _(leeg)_ → `In CBS-microdata-bestanden over onderwijs worden opleidingskenmerken vaak vastgelegd via referentietabellen met een opleidingsnummer (bijv. OPLNR) dat gekoppeld kan worden aan meerdere beschrijvende variabelen:   - *OpleidingsnaamOngecod…`
+- **herkomst definitie**: _(leeg)_ → `https://www.cbs.nl/-/media/cbs-op-maat/microdatabestanden/documents/2025/08/onderwijsinschrtab.pdf`
+
+##### `Opleidingsniveau` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Het abstractieniveau waarop de opleiding is ingeschaald, vaak gebaseerd op landelijke of Europese onderwijsclassificaties.</font>`
+
+##### `Reintegratievoorziening` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Een voorziening of dienst die wordt ingezet om de kansen van een persoon op arbeidsparticipatie te vergroten.</font>`
+
+##### `Rijbewijs /Certificaat` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Een door een bevoegde instantie afgegeven document dat aangeeft dat een persoon bevoegd is tot het besturen van bepaalde typen voertuigen.</font>`
+
+##### `Taalbeheersing` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Het Europese of Nederlandse taalniveau (zoals A1 t/m C2) waarop de taalvaardigheid van een persoon is ingeschaald.</font>`
+
+##### `TaalbeheersingNederlands` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">De mate waarin een persoon de Nederlandse taal beheerst, inclusief mondelinge en schriftelijke vaardigheden.</font>`
+
+##### `Vaardigheidsvaststelling` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Het proces waarin specifieke vaardigheden van een persoon worden beoordeeld of gemeten, vaak ter ondersteuning van een werkprofiel of plaatsingsbeslissing.</font>`
+
+##### `Voorkeur` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e"><b>Voorkeur</b></font><font color="#0e0e0e"> is een door de klant geuite wens of voorkeur met betrekking tot werk, opleiding of ondersteuning, waarmee bij de invulling van het re-integratie- of participatietraject r…`
+- **toelichting**: `•	Een voorkeur kan betrekking hebben op type werkzaamheden, branche, werkomgeving, werktijden, opleidingsrichting of gewenste ondersteuning.` → `•	Een voorkeur kan betrekking hebben op type werkzaamheden, branche, werkomgeving, werktijden, opleidingsrichting of gewenste ondersteuning.#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of na…`
+
+##### `VrijstellingArbeidsplicht` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Geeft aan of en waarom iemand tijdelijk of structureel is vrijgesteld van de plicht om arbeid te verrichten.</font>`
+
+##### `Werkervaring` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Eerdere functies of werkzaamheden van een persoon, inclusief sector, duur en aard van de werkzaamheden.</font>`
+
+##### `Werkzaamheden als mantelzorger` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Activiteiten die een persoon uitvoert in de rol van mantelzorger, buiten een formele arbeidsverhouding, maar met mogelijke invloed op beschikbaarheid voor arbeid.</font>`
+
+##### `Werkzaamheden anders dan in arbeidsverhouding` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Taken of activiteiten die een persoon verricht zonder dat sprake is van een formele arbeidsovereenkomst, zoals vrijwilligerswerk of mantelzorg.</font>`
+
+##### `Werkzoekende` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Een generiek werkprofiel van een persoon waarin diens arbeidspositie, bemiddelbaarheid en begeleidingsbehoefte worden vastgelegd, als basis voor begeleiding naar arbeid.</font>`
+
+##### `ZelfredzaamheidScore` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Een gekwantificeerde weergave van het niveau van zelfstandigheid van een persoon op meerdere levensgebieden, vaak volgens de methodiek van de ZRM (Zelfredzaamheidsmatrix).</font>`
+
+#### Enumeraties
+
+##### `Code arbeidsvermogen` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Indeling van het arbeidsvermogen van een persoon in functionele categorie&#235;n zoals “kan werken”, “kan beperkt werken”, of “is (tijdelijk) niet inzetbaar voor arbeid”.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `Code maatschappelijke context werkzaamheden anders dan in arbeidsverhouding` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Typologie van werkzaamheden buiten formeel dienstverband, zoals mantelzorg, vrijwilligerswerk of informele zorg.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `Code opleidingsniveau cliënt` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Schatting van het opleidingsniveau van de cli&#235;nt, vaak gebaseerd op zelfrapportage. Voorbeelden: <i>vmbo / praktijkonderwijs</i>, <i>mbo-2</i>, <i>hbo</i>.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `Code tijdsbeslag opleiding` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Geeft aan hoeveel tijd een opleiding per week vraagt, zoals voltijd, deeltijd of duaal.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `CodeLeerwegMBO` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Geeft de leerweg aan binnen het mbo. Voorbeelden: <i>BOL</i>, <i>BBL</i></font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `CodeNiveauOpleiding` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: <i>mbo-3</i>, <i>hbo</i>, <i>wo-bachelor</i>.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `CodeOpleidingsnaam` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Gecodeerde of vrije naam van een opleiding. Voorbeeld: <i>Sociaal Werk (mbo-4)</i>.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `CodeSoortOpleidingsnaam` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Geeft het type naamgebruik aan. Voorbeelden: <i>referentie</i>, <i>synoniem</i>.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `CodeStatusOpleiding` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">tatus van de opleiding op het moment van registratie. Waarden zijn onder andere <i>bezig</i>, <i>afgerond</i>, <i>gestopt</i>.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `Dag beschikbaarheid` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Beschikbare dagen in de week voor werk of activiteiten. Voorbeelden: <i>maandag</i>, <i>vrijdag</i>.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `Domein van zelfredzaamheid` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Levensgebied waarop zelfredzaamheid wordt beoordeeld. Voorbeelden: <i>Financi&#235;n</i>, <i>Psychische gezondheid</i>, <i>Dagbesteding</i>.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `Hulp aanwezig` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Geeft aan of er op een domein hulp wordt ontvangen. Waarden zijn: <i>ja</i>, <i>nee</i>, <i>onbekend</i>.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `Indicatie doelgroepenregister` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Geeft aan of iemand valt onder het doelgroepregister voor de banenafspraak. Voorbeelden: <i>Wajong</i>, <i>Participatiewet</i>.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `Indicatie mate van vaardigheid` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Schatting van het vaardigheidsniveau op een bepaald gebied. Voorbeelden: <i>voldoende</i>, <i>goed</i>.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `Interval opzegtermijn` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">De geldende opzegtermijn bij een arbeidsverhouding. Voorbeelden: <i>1 maand</i>, <i>2 weken</i>.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `Kanaal contactmoment` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Het gebruikte communicatiekanaal bij een contactmoment. Voorbeelden: <i>telefoon</i>, <i>email</i>, <i>huisbezoek</i>.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `Ontheffingsverplichting` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Geeft aan of een persoon verplicht is tot arbeidsparticipatie. Voorbeelden: <i>geen ontheffing</i>, <i>medische gronden</i>.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `Opleidingsrichting` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Het vakgebied waarop een opleiding betrekking heeft. </font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `SETU job category` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Beroepscategorie&#235;n volgens de SETU-standaard. Voorbeelden: <i>Engineering</i>, <i>Healthcare</i>, <i>ICT</i>.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `Soort ontheffing` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Het type ontheffing van arbeidsplicht. Voorbeelden: <i>structureel</i>, <i>tijdelijk</i>.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `SoortWerk` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Soorten werkzaamheden die iemand uitvoert of nastreeft. Voorbeelden: <i>maken</i>, <i>helpen</i>, <i>vervoeren</i>.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `Taalvaardigheid` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Beheersingsniveau van de Nederlandse taal. </font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `Vervoermiddel` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Beschikbare of gebruikte vervoermiddelen. Voorbeelden: <i>fiets</i>, <i>openbaar vervoer</i>, <i>auto</i>.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `Vervoersmogelijkheden` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Mate waarin iemand zich kan verplaatsen naar werk of activiteiten.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+##### `ZRM-score` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.9.0`
+- **definitie**: _(leeg)_ → `<font color="#0e0e0e">Zelfredzaamheidsscore op een domein volgens de ZRM. Voorbeelden: <i>onvoldoende</i>, <i>voldoende</i>, <i>volledig zelfredzaam</i>.</font>`
+- **toelichting**: _(leeg)_ → `#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. #NOTES#Descript…`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinwmo"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Wmo
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel6-sociaal-domeinwmomodel-wmo"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/6 Sociaal Domein/Wmo/Model Wmo
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.3` → `1.12.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel7-volksgezondheid-en-milieu"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel7-volksgezondheid-en-milieuafval"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel7-volksgezondheid-en-milieuafvalmodel-afval"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/7 Volksgezondheid en Milieu/Afval/Model Afval
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.1` → `1.2.0`
+
+#### Classes
+
+##### `Categorie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Container` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Containertype` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Fractie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Locatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Melding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Milieustraat` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Ophaalmoment` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Pas` — 🟡 Gewijzigd
+
+- **versie**: `1.7` → `1.14.0`
+
+##### `Prijsafspraak` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Prijsregel` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+- **definitie**: _(leeg)_ → `Een *prijsregel* is een **regel die aangeeft hoe de prijs van een product, dienst of prestatie wordt vastgesteld of toegepast**, bijvoorbeeld binnen een declaratie- of tariefstructuur.`
+- **toelichting**: _(leeg)_ → `In administratieve en financiële systemen geeft een *prijsregel* aan **welke tarieven of prijsinstellingen** gehanteerd moeten worden voor het berekenen van het te factureren bedrag bij een levering of prestatie. Het kan bijvoorbeeld de …`
+- **herkomst definitie**: _(leeg)_ → `https://www.zorgprestatiemodel.nl/content/uploads/2023/07/20230628-Spelregels-correct-registreren-en-declareren_definitief.pdf`
+
+##### `Rit` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Route` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Storting` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Vuilniswagen` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Vulgraadmeting` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+#### Enumeraties
+
+##### `Routesoort` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingbeheer-openbare-ruimte"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Beheer Openbare Ruimte
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingbeheer-openbare-ruimtemodel-basis-imborenumeratiesoort"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Beheer Openbare Ruimte/Model Basis IMBOR/Enumeratiesoort
+
+#### Enumeraties
+
+##### `enum_AanOfVrijliggend` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Afmeting` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Bedienaar` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Beheergebied` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_BeheerobjectGebruiksfunctie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Belasting` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_BelastingklasseNieuw` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_BelastingklasseOud` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Beleidsstatus` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_BeoogdeOmlooptijd` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Bereikbaarheid` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_BereikbaarheidKolk` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Boombeeld` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Boomgroep` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_BoomhoogteklasseActueel` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_BoomTypeBeschermingsstatusPlus` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Boomveiligheidsklasse` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Boomvoorziening` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_BreedteklasseHaag` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Certificeringsinstantie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Constructielaagsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Constructietype` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Controlefrequentie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_CultuurhistorischWaardevol` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Doelsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Fabrikant` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Formaat` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_FunderingLeiding` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Gebiedstype` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_GewenstSluitingspercentage` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Groeifase` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_GroenobjectBereikbaarheidPlus` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Grondsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_GrondsoortPlus` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_HoogteklasseHaag` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_IMKLThema` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Installateur` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Kleur` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_KroondiameterklasseActueel` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_KwaliteitsniveauGewenst` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Kweker` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_LengteKunstgras` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Leverancier` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_LiningType` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Markeringsbreedte` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Markeringsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Markeringspatroon` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Materiaal` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Ondergroei` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Onderhoudsplichtige` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Onderhoudsregime` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Ondersteuningsvorm` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_OriÃ«ntatie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `enum_OverbruggingsobjectModaliteit` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_PlaatsoriÃ«ntatie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `enum_RioolputConstructieonderdeel` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Snoeifase` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Soortnaam` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_SoortPlantenbak` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_SoortVoeg` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_SpeelterreinLeeftijdDoelgroep` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_SpeeltoestelToestelonderdeel` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_SportterreinTypeSport` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Stamdiameterklasse` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Status` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TakvrijeStam` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Taludsteilte` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Toestelgroep` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Type` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeAfdekking` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeAsbesthoudend` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeBediening` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeBeheerder` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeBeheerderPlus` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeBeschermingsstatus` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeBewerking` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeBouwdeel` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeBovenkantKademuur` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeCommunicatie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeConstructie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeDeurbediening` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeEigenaar` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeEigenaarPlus` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeElement` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeFundering` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeLigging` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeMantel` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeMonument` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeNivelleerschijf` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeOmgevingsrisicoklasse` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeOnderdeelMetPomp` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypePlus` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeSlot` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeStandplaats` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeStandplaatsPlus` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeTeerhoudend` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeVaarwater` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeVermeerderingsvorm` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeVoeg` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeVoegvulling` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeWaaier` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_TypeWaterplant` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Vegen` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Verbindingstype` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_VerhardingsobjectWegfunctie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Vorm` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_VrijeDoorrijhoogte` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_VrijeTakval` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_VulmateriaalKunstgras` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Waterdoorlatendheid` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_WegasTypeRoute` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_WegcategorieDV` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_WegtypeBestaand` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_Zettingsgevoeligheid` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `enum_ZettingsgevoeligheidPlus` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingbeheer-openbare-ruimtemodel-basis-imbormodel-imbor"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Beheer Openbare Ruimte/Model Basis IMBOR/Model IMBOR
+
+#### Classes
+
+##### `Aansluitput` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Afvalbak` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Bak` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Bank` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Beheerobject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Bemalingsgebied` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Bergingsbassin` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Boom` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Bord` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Bouwwerk` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Brug` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Drainageput` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Ecoduct` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Fietsparkeervoorziening` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Filterput` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Flyover` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `FunctioneelGebied` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Geluidsscherm` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Gemaal` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Groenobject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Infiltratieput` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Installatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Kademuur` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Kast` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Keermuur` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Klimplant` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Kolk` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Kunstwerk` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Leiding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Leidingelement` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Mast` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Meubilair` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Overbruggingsobject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Overstortconstructie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Paal` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Pomp` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Put` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Putdeksel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Rioleringsgebied` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Rioolput` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Scheiding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Sensor` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `SolitairePlant` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Speelterrein` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Speeltoestel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Sportterrein` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Stuwgebied` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Terreindeel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Tunnelobject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Uitlaatconstructie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Vegetatieobject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Verhardingsobject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Verkeersdrempel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Verlichtingsobject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Viaduct` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Waterinrichtingsobject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Waterobject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Weginrichtingsobject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingbeheer-openbare-ruimtemodel-beheer-openbare-ruimte"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Beheer Openbare Ruimte/Model Beheer Openbare Ruimte
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+#### Classes
+
+##### `Actie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Areaal` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `CROW-Melding` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `Deelplan/Veld` — 🟡 Gewijzigd
+
+- **versie**: `1.2` → `1.8.0`
+
+##### `Fase/Oplevering` — 🟡 Gewijzigd
+
+- **versie**: `1.2` → `1.8.0`
+
+##### `Geo-Object` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Grondbeheerder` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Inspectie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `KadastraleMutatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Kwaliteitscatalogus Openbare Ruimte` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Kwaliteitskenmerken` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Logboek` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Melding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `MeldingOngeval` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `MOOR-melding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Omgevingsvergunning` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Onderhoud` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Opbreking` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Proces-verbaal-MOOR-melding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Schouwronde` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Storing` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Taak` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Uitvoerder Graafwerkzaamheden` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Verkeerslicht` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+#### Enumeraties
+
+##### `CROW-Kwaliteitsniveaus` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Energielabel` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Oppervlakte Woning` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingbouwen-en-wonen"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Bouwen en Wonen
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingbouwen-en-wonenmodel-wonen"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Bouwen en Wonen/Model Wonen
+
+#### Classes
+
+##### `Gebouw` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Huurwoningen` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Koopwoningen` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Plan` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Projectleider` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Projectontwikkelaar` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Studentenwoningen` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingmeldingen-openbare-ruimte"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Meldingen Openbare Ruimte
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingomgevingswet"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingomgevingswetmodel-omgevingswet"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/Model Omgevingswet
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingomgevingswetmodel-omgevingswetmodel-aanvragen-en-meldingen"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/Model Omgevingswet/Model Aanvragen en Meldingen
+
+#### Classes
+
+##### `Bevoegd Gezag` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Gemachtigde` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Initiatiefnemer` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Project` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Projectactiviteit` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Projectlocatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Specificatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Uitvoerende instantie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Verzoek` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+#### Enumeraties
+
+##### `Doel verzoek` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Type Verzoek` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Vraag Classificatie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingomgevingswetmodel-omgevingswetmodel-officiele-publicaties"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/Model Omgevingswet/Model Officiele Publicaties
+
+#### Classes
+
+##### `Omgevingsdocument` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Regeltekst` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingomgevingswetmodel-omgevingswetmodel-omgevingswet"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/Model Omgevingswet/Model Omgevingswet
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+#### Classes
+
+##### `Activiteit` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Beperkingsgebied` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `Functie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Gebiedsaanwijzing` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Idealisatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Instructieregel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Juridische Regel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Norm` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Normwaarde` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Omgevingsnorm` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Omgevingswaarde` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Omgevingswaarderegel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Regel voor Iedereen` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Thema` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwingomgevingswetmodel-omgevingswetmodel-toepasbare-regels"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/Model Omgevingswet/Model Toepasbare Regels
+
+#### Classes
+
+##### `Conclusie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Indieningsvereisten` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Maatregelen` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Toepasbare Regel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `ToepasbareRegelBestand` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Uitvoeringsregel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatie"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatiefinancien"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Financien
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatiefinancienmodel-financien"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Financien/Model Financien
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.3` → `1.12.0`
+
+#### Classes
+
+##### `Activa` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Activasoort` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Bankafschrift` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Bankafschriftregel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Bankrekening` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Batch` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Batchregel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Begroting` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Begrotingregel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Debiteur` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `Doelstelling` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Factuur` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Factuurregel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Hoofdrekening` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Hoofdstuk` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Inkooporder` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Kostenplaats` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Mutatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Opdrachtgever` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Opdrachtnemer` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Product` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Subrekening` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Taakveld` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Werkorder` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatiehr"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/HR
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatiehrmodel-hr"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/HR/Model HR
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.3` → `1.12.0`
+
+#### Classes
+
+##### `Beoordeling` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Declaratie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Declaratiesoort` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Dienstverband` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Disciplinaire Maatregel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Formatieplaats` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Functie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Functiehuis` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `GenotenOpleiding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Geweldsincident` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Individueel Keuzebudget` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Inzet` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `KeuzebudgetBesteding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `KeuzebudgetBestedingsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `NormProfiel` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Onderwijsinstituut` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `Opleiding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `OrganisatorischeEenheidHR` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Relatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Rol` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Sollicitant` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Sollicitatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Sollicitatiegesprek` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `SoortDisciplinaireMaatregel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Uren` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Vacature` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Verlof` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Verlofsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Verzuim` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Verzuimsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Werknemer` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatieict"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/ICT
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatieictmodel-ict"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/ICT/Model ICT
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+#### Classes
+
+##### `Aanvraag` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `Applicatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Attribuutsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `Classificatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `CMDB-item` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Database` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Datatype` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Dienst` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Domein/Taakveld` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Externe Bron` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Gebruikerrol` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.1.0`
+
+##### `Gegeven` — 🟡 Gewijzigd
+
+- **versie**: `1.7` → `1.14.0`
+
+##### `Generalisatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Hardware` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Inventaris` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Koppeling` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Licentie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Linkbaar CMDB-item` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Log` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Melding` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `Nertwerkcomponent` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+- **definitie**: _(leeg)_ → `Een *netwerkcomponent* is een hardware- of softwareonderdeel dat een **specifieke functie vervult binnen een netwerk** om communicatie, gegevensuitwisseling of het beheer van netwerkverkeer mogelijk te maken.`
+- **toelichting**: _(leeg)_ → `Een netwerk bestaat uit meerdere onderdelen die samenwerken om **gegevens tussen apparaten te versturen, te ontvangen en te beheren**. Dit kunnen fysieke apparaten zijn zoals routers, switches, netwerkkaarten en access points, maar ook s…`
+- **herkomst definitie**: _(leeg)_ → `https://www.shiksha.com/online-courses/articles/network-component/`
+
+##### `Notitie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Objecttype` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Onderwerp` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Package` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Prijzenboek` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Product` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Relatiesoort` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Server` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Software` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Storing` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Telefoniegegevens` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Toegangsmiddel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Versie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Vervoersmiddel` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `Wijzigingsverzoek` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+#### Enumeraties
+
+##### `Applicatiecategorie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Beheerstatus` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Gebruikerrol` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Packagingstatus` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Servertypes` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatieinkoop"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Inkoop
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatieinkoopdiagram"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Inkoop/Diagram
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatieinkoopmodel-inkoop"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Inkoop/Model Inkoop
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+#### Classes
+
+##### `Aanbesteding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `Aanbesteding Inhuur` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `Aankondiging` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `Aanvraag Inkooporder` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `Categorie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `Contract` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `CPV-code` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `FormulierInhuur` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `FormulierVerlengingInhuur` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `Gunning` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `Inkooppakket` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Inschrijving` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `Kandidaat` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `Kwalificatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `Leverancier` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Offerte` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `Offerteaanvraag` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `SelectietabelAanbesteding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `StartformulierAanbesteden` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `Uitnodiging` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+#### Enumeraties
+
+##### `Aanbestedingsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Inkooprol` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Opdrachtcategorie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Opdrachtsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatieorganisatie-indelingmodel-organisatie"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Organisatie-indeling/Model Organisatie
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.3` → `1.12.0`
+
+#### Classes
+
+##### `Programma` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Project` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatiesubsidies"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Subsidies
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatiesubsidiesdiagram"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Subsidies/Diagram
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.4` → `1.13.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatiesubsidiesmodel-subsidies"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Subsidies/Model Subsidies
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.4` → `1.13.0`
+
+#### Classes
+
+##### `Betaalmoment` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+
+##### `Rapportagemoment` — 🟡 Gewijzigd
+
+- **versie**: `1.6` → `1.13.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `Sector` — 🟡 Gewijzigd
+
+- **versie**: `1.6` → `1.13.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `Subsidie` — 🟡 Gewijzigd
+
+- **versie**: `1.6` → `1.13.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `Subsidieaanvraag` — 🟡 Gewijzigd
+
+- **versie**: `1.6` → `1.13.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `Subsidiebeschikking` — 🟡 Gewijzigd
+
+- **versie**: `1.6` → `1.13.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `Subsidiecomponent` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+- **auteur**: `arjen` → `Arjen Brienen`
+
+##### `Subsidieprogramma` — 🟡 Gewijzigd
+
+- **versie**: `1.6` → `1.13.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `Taak` — 🟡 Gewijzigd
+
+- **versie**: `1.6` → `1.13.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+#### Enumeraties
+
+##### `Subsidieniveau` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatievastgoed"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Vastgoed
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.9.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel9-interne-organisatievastgoedmodel-vastgoed"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/9 Interne Organisatie/Vastgoed/Model Vastgoed
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.3` → `1.12.0`
+
+#### Classes
+
+##### `Aanbesteding Vastgoed` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Adresaanduiding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `Arjen` → `Arjen Brienen`
+
+##### `Bouwdeel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Bouwdeelelement` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `CultuurOnbebouwd` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Eigenaar` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Gebruiksdoel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Huurder` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Inspectie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `KpBetrokkenBij` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+
+##### `KpOnstaanUit` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+
+##### `LocatieaanduidingWozObject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Locatieonroerendezaak` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `MJOP` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `MJOP-Item` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `NADAanvullingBRP` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Objectrelatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Offerte` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Pachter` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Prijzenboekitem` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Vastgoed Contract` — 🟡 Gewijzigd
+
+- **versie**: `1.7` → `1.14.0`
+
+##### `Vastgoedcontractregel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Vastgoedobject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Verhuurbaar Eenheid` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Werkbon` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `WOZ-Belang` — 🟡 Gewijzigd
+
+- **versie**: `1.6` → `1.13.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Zakelijk Recht` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+#### Enumeraties
+
+##### `Energielabel Gebouwen` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Monumenttypering` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `NEN2767 Conditiescore` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Objectrelatierol` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `TypeAdresseerbaarObject` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Zakelijkrecht` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kern"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.7.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernbag"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/BAG
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.7.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernbagmodel-bag"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/BAG/Model BAG
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.7.0`
+
+#### Classes
+
+##### `AdresseerbaarObject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Buurt` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten.#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten.#NOTES#Het betreft hier de in overleg met het CBS bepaalde indel…`
+- **herkomst**: `IMBAG` → _(leeg)_
+- **herkomst definitie**: `IMBAG` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → `<memo>#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.  #NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onde…`
+
+##### `Gemeente` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **herkomst**: `Door KING toegevoegd objecttype,ontleend aan het GFO BG (maakt geen deel uit van enige basisregistratie).` → `Door KING toegevoegd objecttype,ontleend aan het GFO BG (maakt geen deel uit van enige basisregistratie).#NOTES#Description: De basisregistratie in wiens catalogus het objecttype is gespecificeerd (oftewel de basisregistratie waar het ob…`
+- **herkomst definitie**: `IMBAG` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Ligplaats` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Nummeraanduiding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Onderzoek` — 🟡 Gewijzigd
+
+- **versie**: `1.0` → `1.7.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `OpenbareRuimte` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+**Attributen:**
+
+- 🟡 `Huisnummerrange even en oneven nummers` — Gewijzigd
+    - **definitie**: _(leeg)_ → `Het laagste en het hoogste huisnummer van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE in die gevallen dat aan één of beide zijden van de OPENBARE RUIMTE zowel even als oneven huisnumm…`
+- 🟡 `Huisnummerrange even nummers` — Gewijzigd
+    - **definitie**: _(leeg)_ → `Het laagste en het hoogste huisnummer, zijnde even getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE.`
+- 🟡 `Huisnummerrange oneven nummers` — Gewijzigd
+    - **definitie**: _(leeg)_ → `Het laagste en het hoogste huisnummer, zijnde oneven getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE.`
+
+##### `Pand` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Standplaats` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Verblijfsobject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Wijk` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken. #NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken. #NOTES#Het betreft hier de in overleg met het CBS bepa…`
+- **herkomst**: `IMBAG` → _(leeg)_
+- **herkomst definitie**: `IMBAG` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → `<memo>#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel …`
+
+##### `Woonplaats` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+#### Enumeraties
+
+##### `Boolean` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `gebruiksdoel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `ontsluitingswijzeVerdieping` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `soortWoonobject` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `statusLigplaats` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `statusNummeraanduiding` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `statusOpenbareRuimte` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `statusPand` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `statusStandplaats` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `statusVerblijfsobject` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `statusVoortgangBouw` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `statusWoonplaats` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `TypeAdresseerbaarObject` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+##### `typeringOpenbareRuimte` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kerndimensiesmodel"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/Dimensies/Model
+
+#### Classes
+
+##### `Periode` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kerngeneriekmodel-generiek"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/Generiek/Model Generiek
+
+#### Classes
+
+##### `Foto` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Gebied` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Gebiedengroep` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Lijn` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Lijnengroep` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Locatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Punt` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Puntengroep` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Video-opname` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrgbzplus"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RGBZPlus
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.7.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrgbzplusdiagram"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RGBZPlus/Diagram
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.7.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrgbzplusmodel-rgbzenumeratiesoort"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RGBZPlus/Model RGBZ/Enumeratiesoort
+
+#### Enumeraties
+
+##### `Geslachtsaanduiding MEDEWERKER` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Soorten Klantcontact` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `Vertrouwelijk aanduiding DOCUMENT` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Vervalreden BESLUIT` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrgbzplusmodel-rgbzgroepattribuutsoort"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RGBZPlus/Model RGBZ/Groepattribuutsoort
+
+#### Classes
+
+##### `AfwijkendBuitenlandsCorrespondentieadresRol` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `AfwijkendCorrespondentiePostadresRol` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `AnderZaakobjectZaak` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `ContactpersoonRol` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `KenmerkenZaak` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `OpschortingZaak` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `VerlengingZaak` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrgbzplusmodel-rgbzmetagegevens"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RGBZPlus/Model RGBZ/Metagegevens
+
+#### Classes
+
+##### `Brondocumenten` — 🟡 Gewijzigd
+
+- **versie**: `1.6` → `1.13.0`
+
+##### `FormeleHistorie` — 🟡 Gewijzigd
+
+- **versie**: `1.6` → `1.13.0`
+
+##### `InOnderzoek` — 🟡 Gewijzigd
+
+- **versie**: `1.6` → `1.13.0`
+
+##### `MaterieleHistorie` — 🟡 Gewijzigd
+
+- **versie**: `1.6` → `1.13.0`
+
+##### `StrijdigheidOfNietigheid` — 🟡 Gewijzigd
+
+- **versie**: `1.6` → `1.13.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrgbzplusmodel-rgbzmodel-kern-rgbz"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RGBZPlus/Model RGBZ/Model Kern RGBZ
+
+#### Classes
+
+##### `Bedrijfsproces` — 🟡 Gewijzigd
+
+- **versie**: `1.7` → `1.14.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Bedrijfsprocestype` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Besluit` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Besluittype` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Betaling` — 🟡 Gewijzigd
+
+- **versie**: `1.7` → `1.14.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Betrokkene` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Deelproces` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Deelprocestype` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Document` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.11.0`
+- **populatie**: `<memo>` → `<memo>#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttype…`
+
+##### `Documenttype` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `EnkelvoudigDocument` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Heffing` — 🟡 Gewijzigd
+
+- **versie**: `1.7` → `1.14.0`
+
+##### `Identificatiekenmerk` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Klantcontact` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `crossover` → `Arjen Brienen`
+
+##### `Medewerker` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Object` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Offerte` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `OrganisatorischeEenheid` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `SamengesteldDocument` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Status` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Statustype` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `VestigingVanZaakbehandelendeOrganisatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Zaak` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `ZAAK - Origineel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Zaaktype` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplus"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.7.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusdiagram"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/Diagram
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.7.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusdiagram-rsgbcatalogus-rsgbtekenwijze"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/Diagram RSGB/Catalogus RSGB/Tekenwijze
+
+#### Classes
+
+##### `ObjecttypeA` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → `<memo>#NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #…`
+
+##### `ObjecttypeB` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → `<memo>#NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #…`
+
+##### `ObjecttypeC` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → `<memo>#NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #…`
+
+##### `ObjecttypeD` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → `<memo>#NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #…`
+
+##### `ObjecttypeE` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → `<memo>#NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #…`
+
+##### `ObjecttypeF` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → `<memo>#NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #…`
+
+##### `ObjecttypeG` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **populatie**: `<memo>` → `<memo>#NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #NOTES#Default: <memo> #…`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelenumeratiesoort"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/Enumeratiesoort
+
+#### Enumeraties
+
+##### `aanduidingEigenaarGebruiker` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `aanduidingInhoudingVermissingReisdocument` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `aangever` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `adelijkeTitel` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Boolean` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `bouwkundigeBestemming` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `bronAdresBuitenland` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `burgelijkeStaat` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `codeExploitant` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `functieOndersteunendWegdeel` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `functieSpoor` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `functieWeg` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `functieWegPlus` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `fysiekVoorkomenBegroeidTerrein` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `fysiekVoorkomenBegroeidTerreinPlus` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `fysiekVoorkomenOnbegroeidTerrein` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `fysiekVoorkomenOnbegroeidTerreinPlus` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `fysiekVoorkomenOndersteunendWegdeel` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `fysiekVoorkomenOndersteunendWegdeelPlus` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `fysiekVoorkomenWeg` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `fysiekVoorkomenWegPlus` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `gebruiksdoel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.11.0`
+
+##### `geslacht` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Gezinsrelatie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `Huishoudensoort` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `inwinningsmethodeGeometrie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `inwinningsmethodeOppervlakte` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `naamgebruik` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `ontsluitingswijzeVerdieping` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `predicaat` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `redenEindeRelatie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `redenWijzigingAdres` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `soortBewind` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `soortBijzondereRechtstoestandNatuurlijkPersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `soortBijzondereRechtstoestandNietNatuurlijkPersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `soortGebruik` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `soortMigratie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `soortPubliekrechtelijkRechtsvorm` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `soortRechtsvorm` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `soortWoonobject` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `StatLigplaatsStandplaats` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `statusGeoObject` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `statusNummeraanduiding` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `statusOpenbareRuimte` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `statusPand` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `statusVerblijfsobject` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `statusVoortgangBouw` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `statusWoonplaats` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `statusWOZ(Deel)Object` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `statusWOZ-Beschikking` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeObjectcode` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeOverbrugging` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeringAppartementsrechtsplitsing` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeringFunctie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeringFunctionaris` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeringFunctioneelGebied` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeringGebouwinstallatie` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeringIngeschrevenNietNatuurlijkPersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeringInrichtingselement` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeringInrichtingselementPlus` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeringKunstwerk` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeringOndersteunendWater` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeringOpenbareRuimte` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeringOverbruggingsdeel` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeringOverigBouwwerk` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeringOverigeScheiding` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeringScheiding` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeringVegetatieobject` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeringWater` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeringWaterPlus` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+##### `typeringZekerheidsrecht` — 🟡 Gewijzigd
+
+- **versie**: `1.4` → `1.10.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelgroepattribuutsoort"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/Groepattribuutsoort
+
+#### Classes
+
+##### `Adresaanduiding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `CorrespondentieadresBuitenland` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `KING` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+##### `GeboorteIngeschrevenNatuurlijkPersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BRP` → _(leeg)_
+- **herkomst definitie**: `KING o.b.v. BRP` → _(leeg)_
+- **datum opname**: `1 november 2008` → `2008-11-01 00:00:00`
+
+##### `GeboorteIngeschrevenPersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `HandelsnamenMaatschappelijkeActiviteit` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `HandelsnamenVestiging` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `KoopsomKadastraleOnroerendeZaak` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BRK` → _(leeg)_
+- **herkomst definitie**: `BRK` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+
+##### `LocatieKadastraleOnroerendeZaak` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `KING o.b.v. BRK` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+
+##### `MigratieIngeschrevenNatuurlijkPersoon` — 🟡 Gewijzigd
+
+- **versie**: `3.5` → `3.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BRP` → _(leeg)_
+- **herkomst definitie**: `KING op basis van BRP` → _(leeg)_
+
+##### `NaamAanschrijvingNatuurlijkPersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `NaamgebruikNatuurlijkPersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BRP` → _(leeg)_
+- **herkomst definitie**: `KING o.b.v. BRP` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+
+##### `NaamNatuurlijkPersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `NationaliteitIngeschrevenNatuurlijkPersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → `<memo>#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verde…`
+- **herkomst**: `BRP` → _(leeg)_
+- **herkomst definitie**: `KING o.b.v. BRP` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+
+##### `NederlandseNationaliteitIngeschrevenPersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `OntbindingHuwelijk/geregistreerdPartnerschap` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BRP` → _(leeg)_
+- **herkomst definitie**: `KING o.b.v. BRP` → _(leeg)_
+- **datum opname**: `1 mei 2008` → `1 mei 2016`
+
+##### `OverlijdenIngeschrevenNatuurlijkPersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → `<memo>#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verde…`
+- **herkomst**: `BRP` → _(leeg)_
+- **herkomst definitie**: `KING o.b.v. BRP` → _(leeg)_
+- **datum opname**: `18 november 2008` → `2008-11-18 00:00:00`
+
+##### `OverlijdenIngeschrevenPersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Postadres` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `KING` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+
+##### `Rekeningnummer` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `KING` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+##### `SamengesteldeNaamNatuurlijkPersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → `<memo>#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voo…`
+- **herkomst**: `BRP` → _(leeg)_
+- **herkomst definitie**: `KING op basis van BRP` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+
+##### `SBIActiviteitVestiging` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `NHR` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+##### `SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BRP` → _(leeg)_
+- **herkomst definitie**: `KING o.b.v. BRP` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+
+##### `SoortFunctioneelGebied` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `KING` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+##### `SoortKunstwerk` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `KING` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+##### `SoortOverigBouwwerk` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `KING` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+##### `SoortScheiding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `KING` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+##### `SoortSpoor` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `KING` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+##### `SplitsingstekeningReferentie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `KING` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+##### `VerblijfadresIngeschrevenNatuurlijkPersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BRP` → _(leeg)_
+- **herkomst definitie**: `KING o.b.v. BRP` → _(leeg)_
+- **datum opname**: `1 november 2008` → `2008-11-01 00:00:00`
+
+##### `VerblijfadresIngeschrevenPersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `VerblijfBuitenland` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `KING op basis van BRP` → _(leeg)_
+- **herkomst definitie**: `KING op basis van BRP` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+
+##### `VerblijfBuitenlandSubject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `VerblijfsrechtIngeschrevenNatuurlijkPersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BRP` → _(leeg)_
+- **herkomst definitie**: `KING op basis van LO BRP` → _(leeg)_
+
+##### `VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon` — 🟡 Gewijzigd
+
+- **versie**: `3.5` → `3.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BRP` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelmodel-kern-rsgb"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/Model Kern RSGB
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.3` → `1.10.0`
+
+#### Classes
+
+##### `Aantekening` — 🟡 Gewijzigd
+
+- **versie**: `1.6` → `1.13.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `AdresBuitenland` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `Appartementsrecht` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Een aandeel in een recht op een gebouw en daarmee onlosmakelijk verbonden het uitsluitend gebruiksrecht van een bepaald privé-gedeelte in dat gebouw. Dat kan ook een garage of een parkeerplaats zijn. De privé-gedeelten zijn dus niet alti…`
+- **herkomst**: `BRK` → _(leeg)_
+- **herkomst definitie**: `BRK` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Appartementsrechtsplitsing` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Een appartementsrechtsplitsing is een object dat beoogt ten behoeve van een splitsing in appartementsrechten, de in de splitsing betrokken rechten administratief samen te voegen. De appartementsrechtsplitsing omvat het geheel van rechten…`
+- **herkomst**: `BRK` → _(leeg)_
+- **herkomst definitie**: `BRK` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `BegroeidTerreindeel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BGT` → _(leeg)_
+- **herkomst definitie**: `BGT` → _(leeg)_
+- **populatie**: `<memo>` → `<memo>#NOTES#Begroeid terreindeel objecten met status plan en een einddatum maken geen deel uit van de verzameling begroeide terreindelen.   Zie verder BGT en IMGeo #NOTES#Begroeid terreindeel objecten met status plan en een einddatum ma…`
+
+##### `Briefadres` — 🟡 Gewijzigd
+
+- **versie**: `1.7` → `1.14.0`
+- **auteur**: `abrienen` → `Arjen Brienen`
+
+##### `FunctioneelGebied` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `IMGeo` → _(leeg)_
+- **herkomst definitie**: `BRT` → _(leeg)_
+- **populatie**: `<memo>` → `<memo>#NOTES#Functioneel gebied objecten met status plan en een einddatum maken geen deel uit van de verzameling functionele gebieden.   Zie verder BGT en IMGeo  #NOTES#Functioneel gebied objecten met status plan en een einddatum maken g…`
+
+##### `Gebied` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `GFO BG` → _(leeg)_
+- **herkomst definitie**: `GFO BG` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → `<memo>#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.  #NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onde…`
+
+##### `Gebouwinstallatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `IMGeo` → _(leeg)_
+- **herkomst definitie**: `CityGML` → _(leeg)_
+- **populatie**: `<memo>` → `<memo>#NOTES#Gebouwinstallatie objecten met status plan en een einddatum maken geen deel uit van de verzameling gebouwinstallaties.   Zie ver IMGeo.#NOTES#Gebouwinstallatie objecten met status plan en een einddatum maken geen deel uit va…`
+
+##### `Huishouden` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `IngeschrevenPersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Ingezetene` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Inrichtingselement` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `IMGeo` → _(leeg)_
+- **herkomst definitie**: `NEN3610` → _(leeg)_
+- **populatie**: `<memo>` → `<memo>#NOTES#Inrichtingselement objecten met status plan en een einddatum maken geen deel uit van de verzameling inrichtingselementen. #NOTES#Inrichtingselement objecten met status plan en een einddatum maken geen deel uit van de verzame…`
+
+##### `KadastraalPerceel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Een KADASTRAAL PERCEEL behoort tezamen met het APPARTEMENTSRECHT tot de generalisatie KADASTRALE ONROERENDE ZAAK.  Percelen worden cartografisch gerepresenteerd door een tweedimensionale vlakbegrenzing. Tussen alle kadastrale percelen in…`
+- **herkomst**: `BRK.` → _(leeg)_
+- **herkomst definitie**: `KING op basis van BRK` → `KING op basis van BRK#NOTES#Description: Voor objecttypen die deel uitmaken van een basisregistratie is de definitie hieruit overgenomen. De herkomst van de definitie wordt dan ook alleen vermeld indien het een door KING toegevoegd objec…`
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `KadastraleOnroerendeZaak` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Zie de catalogus BRK. Daarin is sprake van een ‘onroerende zaak’ zijnde een ‘perceel’, ‘appartementsrecht’ of ‘leidingnetwerk’. Geoordeeld is dat alleen de eerste twee objecttypen zodanig van belang zijn voor de gemeentelijke taakuitoefe…`
+- **herkomst**: `BRK` → _(leeg)_
+- **herkomst definitie**: `KING O.B.V. BRK` → `KING O.B.V. BRK#NOTES#Description: Voor objecttypen die deel uitmaken van een basisregistratie is de definitie hieruit overgenomen. De herkomst van de definitie wordt dan ook alleen vermeld indien het een door KING toegevoegd objecttype …`
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `KadastraleOnroerendeZaakAantekening` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Toegevoegd ten opzichte van de BRK is de begindatum. Aangezien een aantekening niet gewijzigd kan worden, bepaalt de begin- en einddatum de materiele historie van alle attribuutsoortensoorten. Deze hebben dan ook materiele historie ‘Nee’…`
+- **herkomst**: `BRK` → _(leeg)_
+- **herkomst definitie**: `BRK` → _(leeg)_
+- **datum opname**: `1 november 2008` → `2008-11-01 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Kunstwerkdeel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BGT` → _(leeg)_
+- **herkomst definitie**: `IMGeo` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → `<memo>#NOTES#Kunstwerkdeel objecten met status plan en een einddatum maken geen deel uit van de verzameling kunstwerkdelen.   Zie verder BGT en IMGeo.#NOTES#Kunstwerkdeel objecten met status plan en een einddatum maken geen deel uit van …`
+
+##### `MaatschappelijkeActiviteit` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **herkomst**: `NHR` → _(leeg)_
+- **herkomst definitie**: `KING o.b.v NHR` → `KING o.b.v NHR#NOTES#Description: Voor objecttypen die deel uitmaken van een basisregistratie is de definitie hieruit overgenomen. De herkomst van de definitie wordt dan ook alleen vermeld indien het een door KING toegevoegd objecttype b…`
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Nationaliteit` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `NatuurlijkPersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `NietNatuurlijkPersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `OnbegroeidTerreindeel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BGT` → _(leeg)_
+- **herkomst definitie**: `BGT` → _(leeg)_
+- **populatie**: `<memo>` → `<memo>#NOTES#Onbegroeide terreindeel objecten met status plan en een einddatum maken geen deel uit van de verzameling onbegroeide terreindelen.   Zie verder BGT en IMGeo.#NOTES#Onbegroeide terreindeel objecten met status plan en een eind…`
+
+##### `Onbestemd Adres` — 🟡 Gewijzigd
+
+- **versie**: `1.3` → `1.10.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+- **definitie**: _(leeg)_ → `*Onbestemd Adres* is een adres-aanduiding die officieel door een bevoegde gemeentelijke instantie is vastgelegd, maar waarbij niet kan worden vastgesteld dat het een regulier woon- of verblijfsadres betreft.`
+- **toelichting**: _(leeg)_ → `In gemeentelijke en basisregistratiecontexten (zoals in het RSGB/GBI-model en de BAG/BRP-administraties) wordt een *Onbestemd Adres* gebruikt voor adressen die wel geregistreerd zijn, maar **niet eenduidig kunnen worden gekoppeld aan een…`
+
+##### `OndersteunendWaterdeel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BGT` → _(leeg)_
+- **herkomst definitie**: `BGT` → _(leeg)_
+- **populatie**: `<memo>` → `<memo>#NOTES#Ondersteunende waterdeel objecten met status plan en een einddatum maken geen deel uit van de verzameling ondersteunende waterdelen.   Zie verder BGT.#NOTES#Ondersteunende waterdeel objecten met status plan en een einddatum …`
+
+##### `OndersteunendWegdeel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BGT` → _(leeg)_
+- **herkomst definitie**: `CityGML` → _(leeg)_
+- **populatie**: `<memo>` → `<memo>#NOTES#Ondersteunende wegdelen met status plan en een einddatum maken geen deel uit van de verzameling ondersteunend wegdelen.   Zie verder BGT.#NOTES#Ondersteunende wegdelen met status plan en een einddatum maken geen deel uit van…`
+
+##### `Overbruggingsdeel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BGT` → _(leeg)_
+- **herkomst definitie**: `BGT` → _(leeg)_
+- **populatie**: `<memo>` → `<memo>#NOTES#Overbruggingsdeel objecten met status plan en een einddatum maken geen deel uit van de verzameling overbruggingsdelen.   Zie verder IMGeo #NOTES#Overbruggingsdeel objecten met status plan en een einddatum maken geen deel uit…`
+
+##### `OverigBenoemdTerrein` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `Door KING toegevoegd objecttype (maakt geen deel uit van enige basisregistratie).` → `Door KING toegevoegd objecttype (maakt geen deel uit van enige basisregistratie).#NOTES#Description: De basisregistratie in wiens catalogus het objecttype is gespecificeerd (oftewel de basisregistratie waar het objecttype deel van uitmaa…`
+- **herkomst definitie**: `KING` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `OverigBouwwerk` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BGT` → _(leeg)_
+- **herkomst definitie**: `BGT` → _(leeg)_
+- **populatie**: `<memo>` → `<memo>#NOTES#Overige bouwwerk objecten met status plan en een einddatum maken geen deel uit van de verzameling overige bouwwerken.   Zie verder BGT en IMGeo.#NOTES#Overige bouwwerk objecten met status plan en een einddatum maken geen dee…`
+
+##### `OverigeAdresseerbaarObjectAanduiding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Het betreft alle gegevens en relaties van een officieel vastgesteld adres (van een overig gebouwd object of een overig benoemd terrein) zijnde geen NUMMERAANDUIDING zoals deze in de BAG gedefinieerd is. OVERIGE ADRESSEERBAAR OBJECT AANDU…`
+- **herkomst**: `Door KING toegevoegd objecttype (maakt geen deel uit van enige basisregistratie).` → `Door KING toegevoegd objecttype (maakt geen deel uit van enige basisregistratie).#NOTES#Description: De basisregistratie in wiens catalogus het objecttype is gespecificeerd (oftewel de basisregistratie waar het objecttype deel van uitmaa…`
+- **herkomst definitie**: `KING` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `OverigeScheiding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `IMGeo` → _(leeg)_
+- **herkomst definitie**: `IMGeo` → _(leeg)_
+- **populatie**: `<memo>` → `<memo>#NOTES#Overige scheidingsobjecten met status plan en een einddatum maken geen deel uit van de verzameling overige scheidingen.   Zie verder IMGeo.#NOTES#Overige scheidingsobjecten met status plan en een einddatum maken geen deel ui…`
+
+##### `OverigGebouwdObject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `KING` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → `<memo>#NOTES#Is deelpopulatie van OVERIG BOUWWERK#NOTES#Is deelpopulatie van OVERIG BOUWWERK#NOTES#Is deelpopulatie van OVERIG BOUWWERK#NOTES#Is deelpopulatie van OVERIG BOUWWERK#NOTES#Is deelpopulatie van OVERIG BOUWWERK#NOTES#Is deelpo…`
+
+##### `Rechtspersoon` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Reisdocument` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **herkomst**: `BRP` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+- **datum opname**: `1 mei 2008` → `1 mei 2016`
+- **populatie**: `<memo>` → `<memo>#NOTES#Het gaat hier om verstrekte Nederlandse reisdocumenten, zoals een paspoort of identiteitskaart.#NOTES#Het gaat hier om verstrekte Nederlandse reisdocumenten, zoals een paspoort of identiteitskaart.#NOTES#Het gaat hier om ver…`
+
+##### `Scheiding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BGT` → _(leeg)_
+- **herkomst definitie**: `BGT` → _(leeg)_
+- **populatie**: `<memo>` → `<memo>#NOTES#Terreinobjecten met status plan en een einddatum maken geen deel uit van de verzameling scheidingen.   Zie verder BGT en IMGeo.#NOTES#Terreinobjecten met status plan en een einddatum maken geen deel uit van de verzameling sc…`
+
+##### `Spoor` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BGT` → _(leeg)_
+- **herkomst definitie**: `IMGeo` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → `<memo>#NOTES#Spoorobjecten met status plan en een einddatum maken geen deel uit van de verzameling sporen.   Zie verder BGT en IMGeo.#NOTES#Spoorobjecten met status plan en een einddatum maken geen deel uit van de verzameling sporen.   Z…`
+
+##### `Tenaamstelling` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Een tenaamstelling heeft betrekking op de eigendom van die Persoon van één Kadastraal object of op een beperkt recht van die Persoon op één Kadastraal object. Met een beperkt recht op een Kadastraal object wordt erfpacht, opstal, e.d. be…`
+- **herkomst**: `BRK` → _(leeg)_
+- **herkomst definitie**: `BRK` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Tunneldeel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BGT` → _(leeg)_
+- **herkomst definitie**: `BGT` → _(leeg)_
+- **populatie**: `<memo>` → `<memo>#NOTES#Tunneldeelobjecten met status plan en een einddatum maken geen deel uit van de verzameling tunneldelen.   Zie verder BGT.#NOTES#Tunneldeelobjecten met status plan en een einddatum maken geen deel uit van de verzameling tunne…`
+
+##### `Vegetatieobject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `IMGeo` → _(leeg)_
+- **herkomst definitie**: `CityGML` → _(leeg)_
+- **populatie**: `<memo>` → `<memo>#NOTES#Vegetatieobjecten met status plan en een einddatum maken geen deel uit van de verzameling vegetatieobjecten.   Zie verder IMGeo.#NOTES#Vegetatieobjecten met status plan en een einddatum maken geen deel uit van de verzameling…`
+
+##### `Verblijfstitel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Vestiging` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Ofschoon de definitie in het NHR doet vermoeden dat het hier om een ruimtelijk object gaat, beschouwen we een VESTIGING in het RSGB als een specialisatie van SUBJECT. De toelichting in de catalogus NHR lijkt dit te bevestigen: “De vestig…`
+- **herkomst**: `NHR` → _(leeg)_
+- **herkomst definitie**: `NHR` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Waterdeel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BGT` → _(leeg)_
+- **herkomst definitie**: `BGT` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → `<memo>#NOTES#Waterdeelobjecten met status plan en een einddatum maken geen deel uit van de verzameling waterdelen.   Zie verder BGT en IMGeo.#NOTES#Waterdeelobjecten met status plan en een einddatum maken geen deel uit van de verzameling…`
+
+##### `Wegdeel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BGT` → _(leeg)_
+- **herkomst definitie**: `BGT` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → `<memo>#NOTES#Wegdeelobjecten met status plan en een einddatum maken geen deel uit van de verzameling wegdelen  Zie verder BGT en IMGeo.#NOTES#Wegdeelobjecten met status plan en een einddatum maken geen deel uit van de verzameling wegdele…`
+
+##### `WOZ-deelobject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Het betreft zowel (delen van) gebouwde objecten, benoemde terreinen en panden als (delen van) andersoortige objecten. Het is vooral bedoeld om de doorsnede van WOZ-OBJECTen met VERBLIJFSOBJECTen en PANDen te kunnen maken. WOZDEELOBJECT- …`
+- **herkomst**: `Gegevenswoordenboek WOZ` → `Gegevenswoordenboek WOZ#NOTES#Description: De basisregistratie in wiens catalogus het objecttype is gespecificeerd (oftewel de basisregistratie waar het objecttype deel van uitmaakt). #NOTES#Description: De basisregistratie in wiens cata…`
+- **herkomst definitie**: `Gegevenswoordenboek WOZ` → `Gegevenswoordenboek WOZ#NOTES#Description: Voor objecttypen die deel uitmaken van een basisregistratie is de definitie hieruit overgenomen. De herkomst van de definitie wordt dan ook alleen vermeld indien het een door KING toegevoegd obj…`
+- **datum opname**: `1 februari 2008` → `2009-02-02 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `WOZ-object` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Dit objecttype komt voort uit de objectafbakeningsvoorschriften van artikel 16 van de Wet WOZ. De unieke identificatie van het WOZ-object is het WOZ-objectnummer. De WOZ-object-aanduiding, een secundaire identificatie, wordt samengesteld…`
+- **herkomst**: `BRWOZ` → _(leeg)_
+- **herkomst definitie**: `BRWOZ` → _(leeg)_
+- **datum opname**: `1 februari 2008` → `2009-02-02 00:00:00`
+- **populatie**: `<memo>` → `<memo>#NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden gere…`
+
+##### `WOZ-Waarde` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BRWOZ` → _(leeg)_
+- **herkomst definitie**: `BRWOZ` → _(leeg)_
+- **datum opname**: `2 februari 2009` → `2009-02-02 00:00:00`
+- **populatie**: `<memo>` → `<memo>#NOTES#De BR WOZ bevat voor alle geregistreerde WOZ-objecten de waarde naar de opeenvolgende waardepeildata, wanneer voor dat WOZ-object en die waardepeildatum een WOZ beschikking is genomen.#NOTES#De BR WOZ bevat voor alle geregis…`
+
+##### `ZakelijkRecht` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Zie de catalogus van de BRK. Daarin is sprake van een zowel rechten als zekerheidsrechten op onroerende zaken (zie de toelichting bij KADASTRALE ONROERENDE ZAAK). Geoordeeld is dat alleen de rechten zodanig van belang zijn voor de gemeen…`
+- **herkomst**: `BRK` → _(leeg)_
+- **herkomst definitie**: `<niet gespecificeerd>` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Zekerheidsrecht` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **herkomst**: `BRK` → _(leeg)_
+- **herkomst definitie**: `BRK` → _(leeg)_
+- **populatie**: `<memo>` → _(leeg)_
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelreferentielijsten"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/Referentielijsten
+
+#### Classes
+
+##### `AanduidingVerblijfsrecht` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **herkomst**: `BRP` → _(leeg)_
+- **herkomst definitie**: `KING o.b.v. BRP` → `KING o.b.v. BRP#NOTES#Description: De basisregistratie of het informatiemodel waaruit de definitie is overgenomen dan wel een aanduiding die aangeeft uit welke bronnen de defintie is samengesteld. #NOTES#Description: De basisregistratie …`
+
+##### `AardAantekening` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → `<memo>#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://…`
+- **herkomst**: `BRK` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+##### `AardFiliatie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BRK` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+##### `AardZakelijkRecht` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BRK` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+##### `AcademischeTitel` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `AkrKadastraleGemeentecode` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **herkomst**: `BRK` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+##### `AutoriteitAfgifteNederlandsReisdocument` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `CultuurcodeBebouwd` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **herkomst**: `BRK` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+##### `CultuurcodeOnbebouwd` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **herkomst**: `BRK` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+##### `KadastraleGemeente` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **herkomst**: `BRK` → _(leeg)_
+- **herkomst definitie**: `KING o.b.v. BRK` → `KING o.b.v. BRK#NOTES#Description: Voor referentielijsten die deel uitmaken van een basisregistratie is de definitie hieruit overgenomen. De herkomst van de definitie wordt dan ook alleen vermeld indien het een door KING toegevoegde refe…`
+
+##### `Land` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `LandOfgebied` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **herkomst**: `GFO BG` → _(leeg)_
+- **herkomst definitie**: `GFO BG` → `GFO BG#NOTES#Description: Voor referentielijsten die deel uitmaken van een basisregistratie is de definitie hieruit overgenomen. De herkomst van de definitie wordt dan ook alleen vermeld indien het een door KING toegevoegde referentielij…`
+- **datum opname**: `1 november 2008` → `2008-11-01 00:00:00`
+
+##### `Nationaliteit` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Partij` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.  #NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijho…`
+- **herkomst**: `BRP` → _(leeg)_
+- **herkomst definitie**: `KING o.b.v. BRP` → _(leeg)_
+
+##### `Provincie` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **herkomst**: `GFO BG` → _(leeg)_
+- **herkomst definitie**: `GFO BG` → `GFO BG#NOTES#Description: Voor referentielijsten die deel uitmaken van een basisregistratie is de definitie hieruit overgenomen. De herkomst van de definitie wordt dan ook alleen vermeld indien het een door KING toegevoegde referentielij…`
+- **datum opname**: `1 november 2008` → `2008-11-01 00:00:00`
+
+##### `RedenVerkrijgingNationaliteit` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **herkomst**: `BRP` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+##### `RedenVerliesNationaliteit` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **herkomst**: `BRP` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+##### `Reisdocumentsoort` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BRP` → _(leeg)_
+- **herkomst definitie**: `GBA` → _(leeg)_
+- **datum opname**: `1 maart 2009` → `1 mei 2016`
+
+##### `SBIActiviteit` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `CBS` → _(leeg)_
+- **herkomst definitie**: `KING o.b.v. CBS` → _(leeg)_
+
+##### `SoortGrootte` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BRK` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+##### `SoortWOZObject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BRWOZ` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+##### `Valuta` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+##### `Valutasoort` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BRK` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+##### `Verblijfstitel` — 🟡 Gewijzigd
+
+- **versie**: `1.6` → `1.13.0`
+- **auteur**: `aashkpour` → `Ashkan Ashkpour`
+
+##### `WOZ-Deelobjectcode` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BRWOZ` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelrelatieklasse"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/Relatieklasse
+
+#### Classes
+
+##### `LocatieaanduidingAdresWOZObject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+
+<a id="beschrijvend-delfts-gemeentelijk-gegevensmodeldelfts-gemeentelijk-gegevensmodel99-kernrsgbplusrsgb-modelarchiefmodel-kern-rsgb"></a>
+### Package: Delfts Gemeentelijk Gegevensmodel/Delfts Gemeentelijk Gegevensmodel/99 Kern/RSGBPlus/RSGB Model/archief/Model Kern RSGB
+
+**Pakket-metadata gewijzigd:**
+
+- **versie**: `1.0` → `1.7.0`
+
+#### Classes
+
+##### `AdresseerbaarObjectAanduiding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Zie de toelichting in de Catalogus BAG. In aanvulling hierop het volgende. Het betreft alle gegevens en relaties van de NUMMERAANDUIDING zoals deze in de BAG gedefinieerd zijn. NUMMERAANDUIDING is gemodelleerd als een specialisatie van A…`
+- **herkomst**: `BAG` → _(leeg)_
+- **herkomst definitie**: `<niet gespecificeerd>` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `BenoemdObject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Het objecttype betreft alle objecten die van een, al dan niet authentieke, nummeraanduiding voorzien worden. Anders gezegd, alle objecten ‘met een adres’. Het is aldus de generalisatie van zowel GEBOUWD OBJECT en BENOEMD TERREIN en daarm…`
+- **herkomst**: `KING` → _(leeg)_
+- **herkomst definitie**: `KING` → _(leeg)_
+- **datum opname**: `1 maart 2009` → `1 mei 2016`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `BenoemdTerrein` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Een benoemd terrein is de groepering van de authentieke stand- en ligplaatsen en de overige benoemde terreinen en modelleert daarmee de terreinen op het niveau van stand- en ligplaatsen en daarmee vergelijkbare onbe- en ongebouwde object…`
+- **herkomst**: `Door KING toegevoegd objecttype (maakt geen deel uit van enige basisregistratie).` → `Door KING toegevoegd objecttype (maakt geen deel uit van enige basisregistratie).#NOTES#Description: De basisregistratie in wiens catalogus het objecttype is gespecificeerd (oftewel de basisregistratie waar het objecttype deel van uitmaa…`
+- **herkomst definitie**: `KING` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Buurt` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten.#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten.#NOTES#Het betreft hier de in overleg met het CBS bepaalde indel…`
+- **herkomst**: `GFO BG` → _(leeg)_
+- **herkomst definitie**: `GFO BG` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → `<memo>#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.  #NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onde…`
+
+##### `GebouwdObject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Een gebouwd object is de groepering van de authentieke verblijfsobjecten en de overige bouwwerken en modelleert daarmee de gebouwde omgeving op het niveau van het verblijfsobject en daarmee vergelijkbare objecten voor zover dat door de g…`
+- **herkomst**: `Door KING toegevoegd objecttype (maakt geen deel uit van enige basisregistratie).` → `Door KING toegevoegd objecttype (maakt geen deel uit van enige basisregistratie).#NOTES#Description: De basisregistratie in wiens catalogus het objecttype is gespecificeerd (oftewel de basisregistratie waar het objecttype deel van uitmaa…`
+- **herkomst definitie**: `KING` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Gemeente` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **herkomst**: `Door KING toegevoegd objecttype, ontleend aan het GFO BG (maakt geen deel uit van enige basisregistratie).` → `Door KING toegevoegd objecttype, ontleend aan het GFO BG (maakt geen deel uit van enige basisregistratie).#NOTES#Description: De basisregistratie in wiens catalogus het objecttype is gespecificeerd (oftewel de basisregistratie waar het o…`
+- **herkomst definitie**: `GFO BG` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Ligplaats` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BAG` → _(leeg)_
+- **herkomst definitie**: `KING o.b.v. BAG` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Nummeraanduiding` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Het betreft de verzameling van, tot de BAG behorende, officieel vastgestelde nummeraanduidingen (van verblijfsobjecten, stand- en ligplaatsen, in de BAG gezamenlijk aangeduid als adresseerbare objecten) en overige, eveneens officieel doo…`
+- **herkomst**: `Door KING toegevoegd objecttype (maakt geen deel uit van enige basisregistratie).` → `Door KING toegevoegd objecttype (maakt geen deel uit van enige basisregistratie).#NOTES#Description: De basisregistratie in wiens catalogus het objecttype is gespecificeerd (oftewel de basisregistratie waar het objecttype deel van uitmaa…`
+- **herkomst definitie**: `KING` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `OpenbareRuimte` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **herkomst**: `BAG` → _(leeg)_
+- **herkomst definitie**: `<niet gespecificeerd>` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Pand` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Objecttype PAND  is het equivalent van het city gml objecttype BUILDING PART.   #NOTES#Objecttype PAND  is het equivalent van het city gml objecttype BUILDING PART.   #NOTES#Objecttype PAND  is het equivalent van het city gml objecttype …`
+- **herkomst**: `BAG` → _(leeg)_
+- **herkomst definitie**: `BAG` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Standplaats` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: `<memo>` → _(leeg)_
+- **herkomst**: `BAG` → _(leeg)_
+- **herkomst definitie**: `<niet gespecificeerd>` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Verblijfsobject` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Zie de catalogus BAG. #NOTES#Zie de catalogus BAG. #NOTES#Zie de catalogus BAG. #NOTES#Zie de catalogus BAG. #NOTES#Zie de catalogus BAG. #NOTES#Zie de catalogus BAG. #NOTES#Zie de catalogus BAG.`
+- **herkomst**: `BAG` → _(leeg)_
+- **herkomst definitie**: `BAG` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_
+
+##### `Wijk` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken. #NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken. #NOTES#Het betreft hier de in overleg met het CBS bepa…`
+- **herkomst**: `GFO BG` → _(leeg)_
+- **herkomst definitie**: `GFO BG` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → `<memo>#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel …`
+
+##### `Woonplaats` — 🟡 Gewijzigd
+
+- **versie**: `1.5` → `1.12.0`
+- **toelichting**: _(leeg)_ → `In incidentele gevallen komt het voor dat een woonplaats (in de zin van het gebied dat in de praktijk aangeduid wordt met dezelfde woonplaatsnaam) doorsneden wordt door een gemeentegrens. Volgens de definitie zou dit niet kunnen c.q. is …`
+- **herkomst**: `BAG` → _(leeg)_
+- **herkomst definitie**: `BAG` → _(leeg)_
+- **datum opname**: `9 april 2007` → `2007-04-09 00:00:00`
+- **populatie**: `<memo>` → _(leeg)_

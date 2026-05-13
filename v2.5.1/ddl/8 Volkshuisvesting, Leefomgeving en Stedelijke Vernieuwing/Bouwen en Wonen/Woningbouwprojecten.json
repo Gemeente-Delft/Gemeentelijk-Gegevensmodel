@@ -1,0 +1,354 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Woningbouwprojecten",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Woningbouwprojecten",
+  "$defs": {
+    "OMGEVINGSVERGUNNING": {
+      "title": "OMGEVINGSVERGUNNING",
+      "description": "Vergunning als bedoeld in afdeling 5.1 van de Omgevingswet",
+      "type": "object",
+      "properties": {}
+    },
+    "GEBOUW": {
+      "title": "GEBOUW",
+      "description": "Een complex van ruimten uitsluitend bedoeld voor de huisvesting van een afzonderlijk huishouden",
+      "type": "object",
+      "properties": {
+        "AANTAL": {
+          "type": "integer"
+        },
+        "AANTALADRESSEN": {
+          "type": "integer"
+        },
+        "AANTALKAMERS": {
+          "type": "integer"
+        },
+        "AARDGASLOOS": {
+          "type": "boolean"
+        },
+        "DUURZAAM": {
+          "type": "boolean"
+        },
+        "NATUURINCLUSIEF": {
+          "type": "boolean"
+        },
+        "REGENWATER": {
+          "type": "boolean"
+        },
+        "ENERGIELABEL": {
+          "type": "string",
+          "enum": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "description": "Enumeratie: ENERGIELABEL"
+        },
+        "OPPERVLAKTE": {
+          "type": "string",
+          "enum": [
+            "100_124_M2",
+            "125_149_M2",
+            "150_EN_GROTER",
+            "15_49_M2",
+            "50_74_M2",
+            "75_99_M2",
+            "KLEINER_DAN_15_M2"
+          ],
+          "description": "Enumeratie: OPPERVLAKTE_WONING"
+        }
+      }
+    },
+    "HUURWONINGEN": {
+      "title": "HUURWONINGEN",
+      "description": "Wen woning die de bewoner huurt van de eigenaar, veelal een woningcorporatie of een particulier.",
+      "type": "object",
+      "properties": {
+        "HUURPRIJS": {
+          "type": "number"
+        }
+      }
+    },
+    "KOOPWONINGEN": {
+      "title": "KOOPWONINGEN",
+      "description": "Een woning die eigendom is van een particulier (in het algemeen de bewoner van de woning).",
+      "type": "object",
+      "properties": {
+        "KOOPPRIJS": {
+          "type": "number"
+        }
+      }
+    },
+    "PLAN": {
+      "title": "PLAN",
+      "description": "Project waarin woningen worden gerealiseerd",
+      "type": "object",
+      "properties": {
+        "70PROCENTVERKOCHT": {
+          "type": "boolean"
+        },
+        "AARDGASLOOS": {
+          "type": "boolean"
+        },
+        "BESTEMMINGGOEDGEKEURD": {
+          "type": "boolean"
+        },
+        "EERSTEOPLEVERING": {
+          "type": "string",
+          "format": "date"
+        },
+        "EIGENDOMGEMEENTE": {
+          "type": "boolean"
+        },
+        "GEBIEDSTRANSFORMATIE": {
+          "type": "boolean"
+        },
+        "INTENTIE": {
+          "type": "boolean"
+        },
+        "LAATSTEOPLEVERING": {
+          "type": "string",
+          "format": "date"
+        },
+        "NAAM": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "string"
+        },
+        "ONHERROEPELIJK": {
+          "type": "boolean"
+        },
+        "PERCELEN": {
+          "type": "string"
+        },
+        "STARTBOUW": {
+          "type": "string",
+          "format": "date"
+        },
+        "STARTVERKOOP": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "PROJECTLEIDER": {
+      "title": "PROJECTLEIDER",
+      "description": "De persoon die een project aanstuurt",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "PROJECTONTWIKKELAAR": {
+      "title": "PROJECTONTWIKKELAAR",
+      "description": "Een persoon of een firma die een project ontwikkelt voor financieel gewin.",
+      "type": "object",
+      "properties": {
+        "ADRES": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "STUDENTENWONINGEN": {
+      "title": "STUDENTENWONINGEN",
+      "description": "Een woning waar uitsluitend (meerdere) studenten (of soms ook werkende jongeren) een woongemeenschap vorme",
+      "type": "object",
+      "properties": {
+        "HUURPRIJS": {
+          "type": "number"
+        },
+        "ZELFSTANDIG": {
+          "type": "boolean"
+        }
+      }
+    },
+    "PROGRAMMA": {
+      "title": "PROGRAMMA",
+      "description": "Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co√∂rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "NIETNATUURLIJKPERSOON": {
+      "title": "NIETNATUURLIJKPERSOON",
+      "description": "Een INGESCHREVEN NIET-NATUURLIJK PERSOON of een ANDER BUITENLANDS NIET-NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "DATUMAANVANG": {
+          "type": "string",
+          "format": "date",
+          "description": "{nog niet in NHR uitgewerkt"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "{nog niet in NHR uitgewerkt"
+        },
+        "DATUMUITSCHRIJVING": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum dat de de Niet-Natuurlijk persoon is uitgeschreven."
+        },
+        "DATUMVOORTZETTING": {
+          "type": "string",
+          "format": "date",
+          "description": "{nog niet in NHR uitgewerkt"
+        },
+        "FAXNUMMER": {
+          "type": "string",
+          "description": "Faxnummer waaronder het subject in de regel bereikbaar is."
+        },
+        "INGESCHREVEN": {
+          "type": "boolean"
+        },
+        "INOPRICHTING": {
+          "type": "boolean"
+        },
+        "KVKNUMMER": {
+          "type": "string",
+          "description": "Landelijk uniek identificerend administratienummer van een MAATSCHAPPELIJKE ACTIVITEIT behorend bij een SUBJECT zoals toegewezen door de Kamer van Koophandel (KvK)."
+        },
+        "NNPID": {
+          "type": "string",
+          "description": "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties."
+        },
+        "RECHTSVORM": {
+          "type": "string",
+          "description": "Aanduiding van de vorm die in rechte bekend is van de INGESCHREVEN NIET-NATUURLIJKE PERSOON"
+        },
+        "RSINNUMMER": {
+          "type": "string"
+        },
+        "STATUTAIRENAAM": {
+          "type": "string",
+          "description": "Naam van de niet-natuurlijke persoon zoals deze is vastgelegd in de statuten (rechtspersoon) of in de vennootschapsovereenkomst is overeengekomen (Vennootschap onder firma of Commanditaire vennootschap)."
+        },
+        "STATUTAIREZETEL": {
+          "type": "string",
+          "description": "De plaats waar de INGESCHREVEN NIET-NATUURLIJKE PERSOON volgens haar statuten gevestigd is."
+        },
+        "WEBSITEURL": {
+          "type": "string",
+          "description": "Het label of etiket dat aan de specifieke informatiebron, zoals een webpagina, een bestand of een plaatje op internet is toegewezen waar het SUBJECT in de regel op het internet vindbaar is."
+        }
+      }
+    },
+    "NATUURLIJKPERSOON": {
+      "title": "NATUURLIJKPERSOON",
+      "description": "Een INGESCHREVEN PERSOON of ANDER NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "BIJZONDERNEDERLANDERSCHAP": {
+          "type": "string"
+        },
+        "AANDUIDINGNAAMGEBRUIK": {
+          "type": "string",
+          "description": "Een aanduiding voor de wijze van aanschrijving van de ingeschrevene."
+        },
+        "AANHEFAANSCHRIJVING": {
+          "type": "string",
+          "description": "De aanhef waarmee de persoon aangeschreven wil worden."
+        },
+        "ACADEMISCHETITEL": {
+          "type": "string",
+          "description": "De ACADEMISCHE TITELs van een NATUURLIJK PERSOON."
+        },
+        "ACHTERNAAM": {
+          "type": "string"
+        },
+        "ADELLIJKETITELOFPREDIKAAT": {
+          "type": "string",
+          "description": "Een omschrijving die aangeeft welke titel of welk predikaat behoort tot de naam (bij adellijke titel geslachtsnaam, bij predikaat voornaam)."
+        },
+        "ANUMMER": {
+          "type": "string",
+          "description": "Het administratienummer van het kind, bedoeld in de Wet BRP."
+        },
+        "BURGERSERVICENUMMER": {
+          "type": "string"
+        },
+        "DATUMGEBOORTE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de ander natuurljjk persoon is geboren."
+        },
+        "DATUMOVERLIJDEN": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum van overlijden van een ANDER NATUURLIJK PERSOON"
+        },
+        "GEBOORTELAND": {
+          "type": "string",
+          "description": "Het LAND waar de INGESCHREVEN PERSOON is geboren."
+        },
+        "GEBOORTEPLAATS": {
+          "type": "string",
+          "description": "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de ingeschreven persoon is geboren."
+        },
+        "GESLACHTSAANDUIDING": {
+          "type": "string",
+          "description": "Een aanduiding die aangeeft dat de ingeschrevene een man of een vrouw is, of dat het geslacht (nog) onbekend is."
+        },
+        "GESLACHTSNAAM": {
+          "type": "string",
+          "description": "De (geslachts)naam waarvan de eventueel aanwezige voorvoegsels en adellijke titel/predikaat zijn afgesplitst."
+        },
+        "GESLACHTSNAAMAANSCHRIJVING": {
+          "type": "string",
+          "description": "De geslachtsnaam waarmee de persoon aangeschreven wil worden."
+        },
+        "HANDLICHTING": {
+          "type": "string",
+          "description": "Geeft aan of de rechter handlichting heeft verleend aan: - De Natuurlijk Persoon als eigenaar van een MaatschappelijkeActiviteit - De Natuurlijk Persoon als aansprakelijke"
+        },
+        "INDICATIEAFSCHERMINGPERSOONSGEGEVENS": {
+          "type": "boolean",
+          "description": "Indicatie Afscherming Persoonsgegevens is een indicatie om aan te geven dat de gegevens van een persoon zijn afgeschermd."
+        },
+        "INDICATIEOVERLEDEN": {
+          "type": "boolean",
+          "description": "Indicatie Overleden is een indicatie of de persoon al dan niet overleden is.\r\n\r\nDeze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar zijn De datum van overlijden is soms niet bekend, maar wel dat iemand overleden is."
+        },
+        "LANDOVERLIJDEN": {
+          "type": "string",
+          "description": "Het LAND waar de INGESCHREVEN PERSOON is overleden."
+        },
+        "NATIONALITEIT": {
+          "type": "string"
+        },
+        "OVERLIJDENSPLAATS": {
+          "type": "string",
+          "description": "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de persoon is overleden"
+        },
+        "VOORLETTERSAANSCHRIJVING": {
+          "type": "string",
+          "description": "De voorletters waarmee een persoon aangeschreven wil worden."
+        },
+        "VOORNAMEN": {
+          "type": "string",
+          "description": "De verzameling namen die, gescheiden door spaties, aan de\r\ngeslachtsnaam voorafgaat.."
+        },
+        "VOORNAMENAANSCHRIJVING": {
+          "type": "string",
+          "description": "De voornamen waarmee een persoon aangeschreven wil worden."
+        },
+        "VOORVOEGSELGESLACHTSNAAM": {
+          "type": "string",
+          "description": "Dat deel van de geslachtsnaam dat voorkomt in GBA Tabel 36, Voorvoegseltabel en, gescheiden door een spatie, vooraf gaat aan de rest van de geslachtsnaam."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diagram Verkeer en Vervoer",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Diagram Verkeer en Vervoer",
+  "$defs": {
+    "VERKEERSTELLING": {
+      "title": "VERKEERSTELLING",
+      "description": "Een onderzoek om inzicht te krijgen in het verkeer, in de hoeveelheid verkeer, de verdeling en de gereden snelheid.",
+      "type": "object",
+      "properties": {
+        "AANTAL": {
+          "type": "integer"
+        },
+        "TIJDTOT": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "TIJDVANAF": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "VLOGINFO": {
+      "title": "VLOGINFO",
+      "description": "V-log is een open standaard voor datalogging van een verkeersregelinstallatie.",
+      "type": "object",
+      "properties": {
+        "DETECTIEVERKEER": {
+          "type": "integer"
+        },
+        "EINDEGROEN": {
+          "type": "string",
+          "format": "date"
+        },
+        "SNELHEID": {
+          "type": "integer"
+        },
+        "STARTGROEN": {
+          "type": "string",
+          "format": "date"
+        },
+        "TIJDSTIP": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "VERKEERWILGROEN": {
+          "type": "boolean"
+        },
+        "WACHTTIJD": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "KAST": {
+      "title": "KAST",
+      "description": "Object met een permanent karakter dat dient om iets in te bergen en te beschermen.",
+      "type": "object",
+      "properties": {
+        "AANTALDEUREN": {
+          "type": "string",
+          "description": "Aantal deuren in de kast\nEenheid: Aantal"
+        },
+        "ADRESTELECOM": {
+          "type": "string",
+          "description": "Identificatie van het beheerobject bij de telecommunicatieaanbieder."
+        },
+        "BAGCODE": {
+          "type": "string",
+          "description": "GUID van het bijbehorende beheerobject in de BAG-administratie."
+        },
+        "BREEDTE": {
+          "type": "string",
+          "description": "Breedte van het beheerobject.\nEenheid: m"
+        },
+        "EANCODE": {
+          "type": "string",
+          "description": "Aansluiting identificatie code."
+        },
+        "FABRIKANT": {
+          "type": "string",
+          "description": "Fabrikant van het beheerobject."
+        },
+        "HOOGTE": {
+          "type": "string",
+          "description": "Hoogte van het beheerobject in meters.\nEenheid: m"
+        },
+        "INBELGEGEVENS": {
+          "type": "string",
+          "description": "Inbelgegevens om contact te leggen met het beheerobject."
+        },
+        "INSTALLATEUR": {
+          "type": "string",
+          "description": "Naam van de installateur."
+        },
+        "JAARONDERHOUDUITGEVOERD": {
+          "type": "string",
+          "description": "Jaar waarin het onderhoud van het beheerobject is uitgevoerd.\nEenheid: Jaartal"
+        },
+        "KLEUR": {
+          "type": "string",
+          "description": "Kleur van het beheerobject."
+        },
+        "LENGTE": {
+          "type": "string",
+          "description": "Lengte van het beheerobject.\nEenheid: m"
+        },
+        "LEVERANCIER": {
+          "type": "string",
+          "description": "Leverancier van het beheerobject."
+        },
+        "TYPECOMMUNICATIE": {
+          "type": "string",
+          "description": "Aanduiding van de wijze van communiceren met het beheerobject."
+        },
+        "TYPEFUNDERING": {
+          "type": "string",
+          "description": "Keuze uit lijst met funderingen van het beheerobject. Van toepassing bij wegobjecten en grassportvelden.\nToelichting: Deze waarde wordt opgenomen bij beheerobjecten waar de fundering van belang is. Bij beheerobjecten van het type Â´gras- en kruidachtigenÂ´ gaat het o.a. om sport- en evenemententerreinen."
+        },
+        "TYPESLOT": {
+          "type": "string",
+          "description": "Type slot ter beveiliging van het beheerobject."
+        },
+        "VERMOGEN": {
+          "type": "string",
+          "description": "Vermogen van het object in kW.\nEenheid: kW"
+        }
+      }
+    },
+    "PAAL": {
+      "title": "PAAL",
+      "description": "Langwerpig stuk hout, ijzer, steen enz., dat in de grond staat.",
+      "type": "object",
+      "properties": {
+        "BREEDTE": {
+          "type": "string",
+          "description": "Breedte van het beheerobject.\nEenheid: m"
+        },
+        "DIAMETER": {
+          "type": "string",
+          "description": "Diameter van het beheerobject.\nEenheid: mm"
+        },
+        "HOOGTE": {
+          "type": "string",
+          "description": "Hoogte van het beheerobject in meters.\nEenheid: m"
+        },
+        "JAARONDERHOUDUITGEVOERD": {
+          "type": "string",
+          "description": "Jaar waarin het onderhoud van het beheerobject is uitgevoerd.\nEenheid: Jaartal"
+        },
+        "KWALITEITSNIVEAUACTUEEL": {
+          "type": "string",
+          "description": "Aanduiding van het actuele kwaliteitsniveau  (na schouwen of inspecteren) conform de CROW Kwaliteitscatalogus (A+, A, B, C, D)"
+        },
+        "KWALITEITSNIVEAUGEWENST": {
+          "type": "string",
+          "description": "Aanduiding van het gewenste kwaliteitsniveau conform de CROW Kwaliteitscatalogus (A+, A, B, C, D)"
+        },
+        "LENGTE": {
+          "type": "string",
+          "description": "Lengte van het beheerobject.\nEenheid: m"
+        },
+        "LEVERANCIER": {
+          "type": "string",
+          "description": "Leverancier van het beheerobject."
+        },
+        "MATERIAAL": {
+          "type": "string",
+          "description": "Lijst met materialen waaruit het beheerobject opgebouwd is."
+        },
+        "VORM": {
+          "type": "string",
+          "description": "Vorm van een beheerobject."
+        }
+      }
+    },
+    "SENSOR": {
+      "title": "SENSOR",
+      "description": "Apparaat voor de meting van een fysieke grootheid (bijv. temperatuur, licht, druk, elektriciteit).",
+      "type": "object",
+      "properties": {
+        "AANLEGHOOGTE": {
+          "type": "string",
+          "description": "Hoogte van het beheerobject t.o.v. NAP in meters.\nEenheid: m"
+        },
+        "ELEKTRAKAST": {
+          "type": "string",
+          "description": "GUID van de kast waarop een voedingskabel aangesloten is."
+        },
+        "FREQUENTIEOMVORMER": {
+          "type": "string",
+          "description": "GUID van de frequentie-omvormerÂ welke aan het meetinstument gekoppeld kan zijn."
+        },
+        "HOOGTE": {
+          "type": "string",
+          "description": "Hoogte van het beheerobject in meters.\nEenheid: m"
+        },
+        "JAARONDERHOUDUITGEVOERD": {
+          "type": "string",
+          "description": "Jaar waarin het onderhoud van het beheerobject is uitgevoerd.\nEenheid: Jaartal"
+        },
+        "LEVERANCIER": {
+          "type": "string",
+          "description": "Leverancier van het beheerobject."
+        },
+        "MEETPUNT": {
+          "type": "string",
+          "description": "GUID van het meetpunt welke bij de sensor of het meetinstrument hoort."
+        },
+        "PLC": {
+          "type": "string",
+          "description": "GUID van de PLC (microprocessor)Â welke aan het meetinstument gekoppeld kan zijn."
+        }
+      }
+    }
+  }
+}

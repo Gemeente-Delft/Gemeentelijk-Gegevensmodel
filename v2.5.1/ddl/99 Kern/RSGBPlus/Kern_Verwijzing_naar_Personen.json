@@ -1,0 +1,251 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kern:Verwijzing naar Personen ",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Kern:Verwijzing naar Personen ",
+  "$defs": {
+    "NATUURLIJKPERSOON": {
+      "title": "NATUURLIJKPERSOON",
+      "description": "Een INGESCHREVEN PERSOON of ANDER NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "BIJZONDERNEDERLANDERSCHAP": {
+          "type": "string"
+        },
+        "AANDUIDINGNAAMGEBRUIK": {
+          "type": "string",
+          "description": "Een aanduiding voor de wijze van aanschrijving van de ingeschrevene."
+        },
+        "AANHEFAANSCHRIJVING": {
+          "type": "string",
+          "description": "De aanhef waarmee de persoon aangeschreven wil worden."
+        },
+        "ACADEMISCHETITEL": {
+          "type": "string",
+          "description": "De ACADEMISCHE TITELs van een NATUURLIJK PERSOON."
+        },
+        "ACHTERNAAM": {
+          "type": "string"
+        },
+        "ADELLIJKETITELOFPREDIKAAT": {
+          "type": "string",
+          "description": "Een omschrijving die aangeeft welke titel of welk predikaat behoort tot de naam (bij adellijke titel geslachtsnaam, bij predikaat voornaam)."
+        },
+        "ANUMMER": {
+          "type": "string",
+          "description": "Het administratienummer van het kind, bedoeld in de Wet BRP."
+        },
+        "BURGERSERVICENUMMER": {
+          "type": "string"
+        },
+        "DATUMGEBOORTE": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de ander natuurljjk persoon is geboren."
+        },
+        "DATUMOVERLIJDEN": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum van overlijden van een ANDER NATUURLIJK PERSOON"
+        },
+        "GEBOORTELAND": {
+          "type": "string",
+          "description": "Het LAND waar de INGESCHREVEN PERSOON is geboren."
+        },
+        "GEBOORTEPLAATS": {
+          "type": "string",
+          "description": "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de ingeschreven persoon is geboren."
+        },
+        "GESLACHTSAANDUIDING": {
+          "type": "string",
+          "description": "Een aanduiding die aangeeft dat de ingeschrevene een man of een vrouw is, of dat het geslacht (nog) onbekend is."
+        },
+        "GESLACHTSNAAM": {
+          "type": "string",
+          "description": "De (geslachts)naam waarvan de eventueel aanwezige voorvoegsels en adellijke titel/predikaat zijn afgesplitst."
+        },
+        "GESLACHTSNAAMAANSCHRIJVING": {
+          "type": "string",
+          "description": "De geslachtsnaam waarmee de persoon aangeschreven wil worden."
+        },
+        "HANDLICHTING": {
+          "type": "string",
+          "description": "Geeft aan of de rechter handlichting heeft verleend aan: - De Natuurlijk Persoon als eigenaar van een MaatschappelijkeActiviteit - De Natuurlijk Persoon als aansprakelijke"
+        },
+        "INDICATIEAFSCHERMINGPERSOONSGEGEVENS": {
+          "type": "boolean",
+          "description": "Indicatie Afscherming Persoonsgegevens is een indicatie om aan te geven dat de gegevens van een persoon zijn afgeschermd."
+        },
+        "INDICATIEOVERLEDEN": {
+          "type": "boolean",
+          "description": "Indicatie Overleden is een indicatie of de persoon al dan niet overleden is.\r\n\r\nDeze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar zijn De datum van overlijden is soms niet bekend, maar wel dat iemand overleden is."
+        },
+        "LANDOVERLIJDEN": {
+          "type": "string",
+          "description": "Het LAND waar de INGESCHREVEN PERSOON is overleden."
+        },
+        "NATIONALITEIT": {
+          "type": "string"
+        },
+        "OVERLIJDENSPLAATS": {
+          "type": "string",
+          "description": "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de persoon is overleden"
+        },
+        "VOORLETTERSAANSCHRIJVING": {
+          "type": "string",
+          "description": "De voorletters waarmee een persoon aangeschreven wil worden."
+        },
+        "VOORNAMEN": {
+          "type": "string",
+          "description": "De verzameling namen die, gescheiden door spaties, aan de\r\ngeslachtsnaam voorafgaat.."
+        },
+        "VOORNAMENAANSCHRIJVING": {
+          "type": "string",
+          "description": "De voornamen waarmee een persoon aangeschreven wil worden."
+        },
+        "VOORVOEGSELGESLACHTSNAAM": {
+          "type": "string",
+          "description": "Dat deel van de geslachtsnaam dat voorkomt in GBA Tabel 36, Voorvoegseltabel en, gescheiden door een spatie, vooraf gaat aan de rest van de geslachtsnaam."
+        }
+      }
+    },
+    "INGESCHREVENPERSOON": {
+      "title": "INGESCHREVENPERSOON",
+      "description": "Een INGEZETENE of NIET-INGEZETENE",
+      "type": "object",
+      "properties": {
+        "ADRESHERKOMST": {
+          "type": "string",
+          "description": "Aanduiding welk adres van de INGESCHREVEN PERSOON ontleend is aan de GBA: het woonadres of het correspondentie-adres"
+        },
+        "ANUMMER": {
+          "type": "string",
+          "description": "Het administratienummer, bedoeld in artikel 50 van de Wet GBA."
+        },
+        "BESCHRIJVINGLOCATIE": {
+          "type": "string",
+          "description": "Een geheel of gedeeltelijke omschrijving van de ligging van een object."
+        },
+        "BUITENLANDSREISDOCUMENT": {
+          "type": "string",
+          "description": "Een aanduiding dat de ingeschrevene beschikt over één of meer buitenlandse reisdocumenten of is bijgeschreven in een buitenlands reisdocument."
+        },
+        "BURGERLIJKESTAAT": {
+          "type": "string",
+          "description": "Aanduiding van de burgerlijke staat van de INGESCHREVEN PERSOON"
+        },
+        "DATUMBEGINGELDIGHEIDVERBLIJFPLAATS": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de INGESCHREVEN PERSOON is ingeschreven op zijn of haar laatst bekende verblijfsplaats"
+        },
+        "DATUMEINDEGELDIGHEIDVERBLIJFSPLAATS": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMINSCHRIJVINGGEMEENTE": {
+          "type": "string",
+          "format": "date",
+          "description": "Bij inschrijving op grond van een aangifte door de burger van zijn vestiging in een (volgende) gemeente is dit de aangiftedatum. Bij inschrijving op grond van een geboorte-akte is dit de geboortedatum. Bij ambtshalve inschrijving is dit de datum waarop de betrokkene schriftelijk van het voornemen van ambtshalve opneming mededeling is gedaan."
+        },
+        "DATUMOPSCHORTINGBIJHOUDING": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de bijhouding van de persoonslijst is gestaakt."
+        },
+        "DATUMVERTREKUITNEDERLAND": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum van het vertrek naar het buitenland."
+        },
+        "DATUMVESTIGINGNEDERLAND": {
+          "type": "string",
+          "format": "date",
+          "description": "Zogenaamd afleidbaar gegeven (zie regels attribuutsoort). Bij ambtshalve inschrijving is dit de datum waarop de betrokkene schriftelijk van het voornemen tot ambtshalve inschrijving mededeling is gedaan. In andere gevallen is dit de datum waarop de aangifte is ontvangen."
+        },
+        "GEMEENTEVANINSCHRIJVING": {
+          "type": "string",
+          "description": "Een code die aangeeft in welke gemeente de PL zich bevindt of de gemeente waarnaar de PL is uitgeschreven of de gemeente waar de PL voor de eerste keer is opgenomen."
+        },
+        "GEZINSRELATIE": {
+          "type": "string"
+        },
+        "INDICATIEGEHEIM": {
+          "type": "boolean",
+          "description": "Een aanduiding die aangeeft dat gegevens wel of niet verstrekt mogen worden."
+        },
+        "INGEZETENE": {
+          "type": "boolean"
+        },
+        "LANDWAARNAARVERTROKKEN": {
+          "type": "string",
+          "description": "Het LAND dat de INGESCHREVEN PERSOON opgeeft bij vertrek naar het buitenland"
+        },
+        "LANDWAARVANDAANINGESCHREVEN": {
+          "type": "string",
+          "description": "Het LAND waar de INGESCHREVEN PERSOON verblijf hield voor (her)vestiging in Nederland."
+        },
+        "OUDER1": {
+          "type": "string"
+        },
+        "OUDER2": {
+          "type": "string"
+        },
+        "PARTNERID": {
+          "type": "string"
+        },
+        "REDENEINDEBEWONING": {
+          "type": "string",
+          "format": "date"
+        },
+        "REDENOPSCHORTINGBIJHOUDING": {
+          "type": "string",
+          "description": "Een aanduiding van de reden waarom de bijhouding van de PL is opgeschort."
+        },
+        "SIGNALERINGREISDOCUMENT": {
+          "type": "boolean",
+          "description": "Een aanduiding dat aan de ingeschrevene geen reisdocument mag worden verstrekt."
+        },
+        "VERBLIJFSTITEL": {
+          "type": "string"
+        }
+      }
+    },
+    "INGEZETENE": {
+      "title": "INGEZETENE",
+      "description": "Een individueel menselijk wezen, ingeschreven in het Nederlands Bevolkingsregister.",
+      "type": "object",
+      "properties": {
+        "AANDUIDINGEUROPEESKIESRECHT": {
+          "type": "boolean",
+          "description": "Een aanduiding die aangeeft of de persoon een oproep moet ontvangen voor verkiezingen voor het Europees parlement."
+        },
+        "AANDUIDINGUITGESLOTENKIESRECHT": {
+          "type": "boolean",
+          "description": "Een aanduiding ter uitvoering van de Kieswet."
+        },
+        "DATUMVERKRIJGINGVERBLIJFSTITEL": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de verblijfstitel van een natuurlijke persoon zijn geldigheid heeft verkregen."
+        },
+        "DATUMVERLIESVERBLIJFSTITEL": {
+          "type": "string",
+          "format": "date",
+          "description": "De datum waarop de verblijfstitel van een natuurlijke persoon zijn geldigheid zal verliezen."
+        },
+        "INDICATIEBLOKKERING": {
+          "type": "string",
+          "description": "De indicatie dat de PL is geblokkeerd wegens een intergemeentelijke verhuizing."
+        },
+        "INDICATIECURATELEREGISTER": {
+          "type": "string",
+          "description": "Een aanduiding dat de ingezetene onder curatele is gesteld."
+        },
+        "INDICATIEGEZAGMINDERJARIGE": {
+          "type": "string",
+          "description": "Een aanduiding die aangeeft wie belast is met het gezag over de minderjarige ingezetene."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diagram Raadsstukken",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Diagram Raadsstukken",
+  "$defs": {
+    "CATEGORIE": {
+      "title": "CATEGORIE",
+      "description": "Categorie waarop leveranciers zich voor de levering van personeel voor kunnen kwalificeren",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "DOSSIER": {
+      "title": "DOSSIER",
+      "description": "Samenhangende set gegevens en informatie voor een specifiek doel",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "PROGRAMMA": {
+      "title": "PROGRAMMA",
+      "description": "Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co&#246;rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    },
+    "RAADSSTUK": {
+      "title": "RAADSSTUK",
+      "description": "Stuk dat door de gemeenteraad wordt behandeld",
+      "type": "object",
+      "properties": {
+        "BESLOTEN": {
+          "type": "boolean"
+        },
+        "DATUMEXPIRATIE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMPUBLICATIE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMREGISTRATIE": {
+          "type": "string",
+          "format": "date"
+        },
+        "TYPERAADSSTUK": {
+          "type": "string"
+        }
+      }
+    },
+    "TAAKVELD": {
+      "title": "TAAKVELD",
+      "description": "Een samenhangend geheel van activiteiten en taken en hangt onder een programma.",
+      "type": "object",
+      "properties": {
+        "NAAM": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1882,8 +1882,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | id | EAID_d161fdf2_1828_4939_ab71_7e6e3d5303b6 |
 =======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_99c23b38\_9414\_46ed\_bd39\_ef24357124ec |
->>>>>>> origin/master
+    | id | EAID\_32fdec14\_b110\_452c\_a225\_c668ef83cb3b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1924,8 +1923,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | id | EAID_e273058b_c86d_4c81_a3fc_f5a4981a3b2b |
 =======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_231e6538\_9e6f\_4794\_9933\_bd2945143a14 |
->>>>>>> origin/master
+    | id | EAID\_a61723e2\_a33a\_4bea\_beeb\_fc3da1722189 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2007,8 +2005,7 @@ De enumeratie Doelgroep heeft de volgende kenmerken:
     | id | EAID_b4e20791_971a_4e15_95cb_2412befeec7c |
 =======
     | modified | 2025-12-18 15:38:53 |
-    | id | EAID\_3c20b2be\_2b86\_4af2\_b431\_f4c3321eb552 |
->>>>>>> origin/master
+    | id | EAID\_a548cefa\_1451\_4c59\_bdc8\_814bca9c0571 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

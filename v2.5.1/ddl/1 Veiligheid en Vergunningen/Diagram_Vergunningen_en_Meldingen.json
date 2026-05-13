@@ -1,0 +1,850 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diagram Vergunningen en Meldingen",
+  "description": "JSON Schema gegenereerd vanuit het Gemeentelijk Gegevensmodel voor diagram: Diagram Vergunningen en Meldingen",
+  "$defs": {
+    "BEVINDING": {
+      "title": "BEVINDING",
+      "description": "Een *bevinding* is de uitkomst van een waarneming of onderzoek die aangeeft wat is geconstateerd bij beoordeling of inspectie.",
+      "type": "object",
+      "properties": {
+        "AANGEMAAKTDOOR": {
+          "type": "string"
+        },
+        "ACTIVITEIT": {
+          "type": "string"
+        },
+        "CONTROLEELEMENT": {
+          "type": "string"
+        },
+        "CONTROLENIVEAU": {
+          "type": "string"
+        },
+        "DATUMAANMAAK": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMMUTATIE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DIEPTE": {
+          "type": "string"
+        },
+        "FASE": {
+          "type": "string"
+        },
+        "GEMUTEERDDOOR": {
+          "type": "string"
+        },
+        "RESULTAAT": {
+          "type": "string"
+        },
+        "RISICO": {
+          "type": "string"
+        }
+      }
+    },
+    "HEFFINGGRONDSLAG": {
+      "title": "HEFFINGGRONDSLAG",
+      "description": "De maatstaf waarop een belasting is gebaseerd, het bedrag op basis waarvan een bepaalde belasting wordt geheven of de premie voor sociale zekerheid wordt vastgesteld.",
+      "type": "object",
+      "properties": {
+        "BEDRAG": {
+          "type": "number"
+        },
+        "DOMEIN": {
+          "type": "string"
+        },
+        "HOOFDSTUK": {
+          "type": "integer"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "PARAGRAAF": {
+          "type": "string"
+        }
+      }
+    },
+    "HEFFINGSVERORDENING": {
+      "title": "HEFFINGSVERORDENING",
+      "description": "Een *heffingsverordening* is een door de gemeenteraad vastgestelde verordening die de **heffing en invordering van gemeentelijke belastingen en rechten** regelt, zoals afvalstoffenheffing, precariobelasting of marktgelden.",
+      "type": "object",
+      "properties": {}
+    },
+    "INDIENER": {
+      "title": "INDIENER",
+      "description": "Persoon die meldiing of aanvraag doet",
+      "type": "object",
+      "properties": {}
+    },
+    "INSPECTIE": {
+      "title": "INSPECTIE",
+      "description": "het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen.",
+      "type": "object",
+      "properties": {
+        "AANGEMAAKTDOOR": {
+          "type": "string"
+        },
+        "DATUMAANMAAK": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMGEPLAND": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMINSPECTIE": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMMUTATIE": {
+          "type": "string",
+          "format": "date"
+        },
+        "GEMUTEERDDOOR": {
+          "type": "string"
+        },
+        "INSPECTIETYPE": {
+          "type": "string"
+        },
+        "KENMERK": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "OPMERKINGEN": {
+          "type": "string"
+        },
+        "STATUS": {
+          "type": "string"
+        }
+      }
+    },
+    "VOMAANVRAAGOFMELDING": {
+      "title": "VOMAANVRAAGOFMELDING",
+      "description": "VOM staat voor Vergunning, Ontheffing of Melding. Het betreft hier een melding of een aanvraag voor een vergunning of een ontheffing.",
+      "type": "object",
+      "properties": {
+        "ACTIVITEITEN": {
+          "type": "string"
+        },
+        "ADRES": {
+          "type": "string"
+        },
+        "BAGID": {
+          "type": "string"
+        },
+        "DOSSIERNUMMER": {
+          "type": "string"
+        },
+        "INTAKETYPE": {
+          "type": "string"
+        },
+        "INTERNNUMMER": {
+          "type": "string"
+        },
+        "KADASTRALEAANDUIDING": {
+          "type": "string"
+        },
+        "KENMERK": {
+          "type": "string"
+        },
+        "LOCATIE": {
+          "type": "string"
+        },
+        "LOCATIEOMSCHRIJVING": {
+          "type": "string"
+        },
+        "TOELICHTING": {
+          "type": "string"
+        }
+      }
+    },
+    "VORDERING": {
+      "title": "VORDERING",
+      "description": "Een *vordering* is een juridisch recht dat een schuldeiser heeft om van een andere partij (schuldenaar) een prestatie te ontvangen, zoals een geldbedrag, levering van goederen of uitvoering van een dienst.",
+      "type": "object",
+      "properties": {
+        "AANGEMAAKTDOOR": {
+          "type": "string"
+        },
+        "BEDRAGBTW": {
+          "type": "number"
+        },
+        "DATUMAANMAAK": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMMUTATIE": {
+          "type": "string",
+          "format": "date"
+        },
+        "GEACCORDEERD": {
+          "type": "string"
+        },
+        "GEACCORDEERDDOOR": {
+          "type": "string"
+        },
+        "GEACCORDEERDOP": {
+          "type": "string",
+          "format": "date"
+        },
+        "GEEXPORTEERD": {
+          "type": "string"
+        },
+        "GEMUTEERDDOOR": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "TOTAALBEDRAG": {
+          "type": "number"
+        },
+        "TOTAALBEDRAGINCLUSIEF": {
+          "type": "number"
+        },
+        "VORDERINGNUMMER": {
+          "type": "string"
+        }
+      }
+    },
+    "VORDERINGREGEL": {
+      "title": "VORDERINGREGEL",
+      "description": "Een *vorderingregel* is een afzonderlijke regel of entry in een gegevensset of lijst die een specifieke *vordering* beschrijft, inclusief kenmerken zoals de omvang, datum, type en status van de vordering.",
+      "type": "object",
+      "properties": {
+        "AANGEMAAKT_DOOR": {
+          "type": "string"
+        },
+        "AANMAAKDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "BEDRAG_EXCL_BTW": {
+          "type": "number"
+        },
+        "BEDRAG_INCL_BTW": {
+          "type": "number"
+        },
+        "BTWCATEGORIE": {
+          "type": "string"
+        },
+        "GEMUTEERD_DOOR": {
+          "type": "string"
+        },
+        "MUTATIEDATUM": {
+          "type": "string",
+          "format": "date"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "PERIODIEK": {
+          "type": "string"
+        },
+        "TYPE": {
+          "type": "string"
+        }
+      }
+    },
+    "VTHAANVRAAGOFMELDING": {
+      "title": "VTHAANVRAAGOFMELDING",
+      "description": "VTH staat voor Vergunning, Toezicht en Handhaving. Het betreft hier een melding of een aanvraag voor een vergunning of een melding voor Toezicht en/of Handhaving.",
+      "type": "object",
+      "properties": {
+        "OMSCHRIJVING": {
+          "type": "string"
+        }
+      }
+    },
+    "VTHZAAK": {
+      "title": "VTHZAAK",
+      "description": "Een *VTHzaak* is een zaak of dossier binnen de gemeentelijke administratie die betrekking heeft op **vergunningverlening, toezicht en handhaving (VTH)** van regels en voorschriften in de fysieke leefomgeving.",
+      "type": "object",
+      "properties": {
+        "BEHANDELAAR": {
+          "type": "string"
+        },
+        "BEVOEGDGEZAG": {
+          "type": "string"
+        },
+        "PRIORITERING": {
+          "type": "integer"
+        },
+        "TEAMBEHANDELAAR": {
+          "type": "string"
+        },
+        "UITVOERENDEINSTANTIE": {
+          "type": "string"
+        },
+        "VERKAMERING": {
+          "type": "boolean"
+        }
+      }
+    },
+    "WABOAANVRAAGOFMELDING": {
+      "title": "WABOAANVRAAGOFMELDING",
+      "description": "Aanvraag of medling in het kader van de Wet algemene bepalingen omgevingsrecht (WABO)",
+      "type": "object",
+      "properties": {
+        "BOUWKOSTEN": {
+          "type": "number"
+        },
+        "OLONUMMER": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "PROJECTKOSTEN": {
+          "type": "number"
+        },
+        "REGISTRATIENUMMER": {
+          "type": "string"
+        }
+      }
+    },
+    "AANVRAAGOFMELDING": {
+      "title": "AANVRAAGOFMELDING",
+      "description": "Komt overeen met een VJV\n\nBron: GEM_VJV (Distinct op REQ_ID)\nID: REQ_ID",
+      "type": "object",
+      "properties": {
+        "AFGEHANDELD": {
+          "type": "boolean"
+        },
+        "CATEGORIE": {
+          "type": "string"
+        },
+        "CATEGORIECODE": {
+          "type": "string"
+        },
+        "DATUMAANMAAK": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMAFHANDELING": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMBEGINSTATUS": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMEINDESTATUS": {
+          "type": "string",
+          "format": "date"
+        },
+        "HOOFDCATEGORIE": {
+          "type": "string"
+        },
+        "HOOFDCATEGORIECODE": {
+          "type": "string"
+        },
+        "IDENTIFICATIE": {
+          "type": "string"
+        },
+        "KANAAL": {
+          "type": "string"
+        },
+        "ONDERWERP": {
+          "type": "string"
+        },
+        "ONDERWERPCODE": {
+          "type": "string"
+        },
+        "SOORT": {
+          "type": "string",
+          "description": "Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding...."
+        },
+        "STATUS": {
+          "type": "string"
+        },
+        "STATUSCODE": {
+          "type": "string"
+        },
+        "STATUSVOLGORDE": {
+          "type": "string"
+        },
+        "SUBCATEGORIE": {
+          "type": "string"
+        },
+        "SUBCATEGORIECODE": {
+          "type": "string"
+        }
+      }
+    },
+    "MEDEWERKER": {
+      "title": "MEDEWERKER",
+      "description": "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID.",
+      "type": "object",
+      "properties": {
+        "ACHTERNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt.</font>"
+        },
+        "DATUMINDIENST": {
+          "type": "string",
+          "format": "date"
+        },
+        "DATUMUITDIENST": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt.</font>"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font>"
+        },
+        "EXTERN": {
+          "type": "boolean",
+          "description": "Medewerker is een externe?"
+        },
+        "FUNCTIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie.</font>"
+        },
+        "GESLACHTSAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is.</font>"
+        },
+        "MEDEWERKERIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte unieke aanduiding van de medewerker.</font>"
+        },
+        "MEDEWERKERTOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Toelichting bij en/of over de medewerker.</font>"
+        },
+        "ROEPNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Naam waarmee de werknemer wordt aangesproken.</font>"
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Telefoonnummer waaronder de medewerker in de regel bereikbaar is.</font>"
+        },
+        "VOORLETTERS": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen.</font>"
+        },
+        "VOORVOEGSELACHTERNAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font>\r\n<font color=\"#610e6a\">gescheiden.</font>"
+        }
+      }
+    },
+    "BETROKKENE": {
+      "title": "BETROKKENE",
+      "description": "Een SUBJECT, zijnde een NATUURLIJK PERSOON, NIET-NATUURLIJK PERSOON of VESTIGING, ORGANISATORISCHE EENHEID (binnen een vestiging van de zaak-behandelende niet-natuurlijk persoon), of MEDEWERKER (van die organisatorische eenheid) die een rol kan spelen bij een ZAAK.",
+      "type": "object",
+      "properties": {
+        "ADRESBINNENLAND": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De aanduiding van het adres van de BETROKKENE indien dit adres in Nederland gelegen is.</font>"
+        },
+        "ADRESBUITENLAND": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De aanduiding van het adres waar specialisaties van de BETROKKENE  zijnde een (NIET) NATUURLIJK PERSOON of VESTIGING dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland.</font>"
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De unieke identificatie van de BETROKKENE</font>"
+        },
+        "NAAM": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De benaming van de BETROKKENE  indien dit een (NIET) NATUURLIJK PERSOON, VESTIGING of specialisatie daarvan is.</font>"
+        }
+      }
+    },
+    "DOCUMENT": {
+      "title": "DOCUMENT",
+      "description": "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT.",
+      "type": "object",
+      "properties": {
+        "COCUMENTBESCHRIJVING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een generieke beschrijving van de inhoud van het document.</font>"
+        },
+        "DATUMCREATIEDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Een datum of een gebeurtenis in de levenscyclus van het document.</font>"
+        },
+        "DATUMONTVANGSTDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het DOCUMENT ontvangen is.</font>"
+        },
+        "DATUMVERZENDINGDOCUMENT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het DOCUMENT verzonden is.</font>"
+        },
+        "DOCUMENTAUTEUR": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document.</font>"
+        },
+        "DOCUMENTIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een binnen een gegeven context ondubbelzinnige referentie naar het document.</font>\r\n<font color=\"#610e6a\">Bijvoorbeeld potsregistratienummer</font>"
+        },
+        "DOCUMENTTITEL": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De naam waaronder het document formeel bekend is.</font>"
+        },
+        "VERTROUWELIJKAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is.</font>"
+        }
+      }
+    },
+    "ZAAK": {
+      "title": "ZAAK",
+      "description": "Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden.",
+      "type": "object",
+      "properties": {
+        "ARCHIEFNOMINATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden</font>"
+        },
+        "DATUMEINDE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de uitvoering van de zaak afgerond is.</font>"
+        },
+        "DATUMEINDEGEPLAND": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt.</font>"
+        },
+        "DATUMEINDEUITERLIJKEAFDOENING": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn.</font>"
+        },
+        "DATUMLAATSTEBETALING": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak.</font>"
+        },
+        "DATUMPUBLICATIE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Datum waarop (het starten van) de zaak gepubliceerd is of wordt.</font>"
+        },
+        "DATUMREGISTRATIE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd</font>"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop met de uitvoering van de zaak is gestart.</font>"
+        },
+        "DATUMVERNIETIGINGDOSSIER": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden.</font>"
+        },
+        "DUURVERLENGING": {
+          "type": "string"
+        },
+        "INDICATIEBETALING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene.</font>"
+        },
+        "INDICATIEDEELZAKEN": {
+          "type": "boolean",
+          "description": "<font color=\"#610e6a\">De aanduiding of een ZAAK behandeld wordt in deelzaken.</font>"
+        },
+        "INDICATIEOPSCHORTING": {
+          "type": "string"
+        },
+        "LEGES": {
+          "type": "string"
+        },
+        "OMSCHRIJVING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte omschrijving van de zaak.</font>"
+        },
+        "OMSCHRIJVINGRESULTAAT": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte omschrijving wat het resultaat van de zaak inhoudt.</font>"
+        },
+        "REDENOPSCHORTING": {
+          "type": "string"
+        },
+        "REDENVERLENGING": {
+          "type": "string"
+        },
+        "TOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een toelichting op de zaak.</font>"
+        },
+        "TOELICHTINGRESULTAAT": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een toelichting op wat het resultaat van de zaak inhoudt.</font>"
+        },
+        "VERTROUWELIJKHEID": {
+          "type": "string"
+        },
+        "ZAAKIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een identificatie van de zaak.</font>"
+        },
+        "ZAAKNIVEAU": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken.</font>"
+        }
+      }
+    },
+    "ZAAKTYPE": {
+      "title": "ZAAKTYPE",
+      "description": "Generieke aanduiding van de aard van een zaak",
+      "type": "object",
+      "properties": {
+        "ARCHIEFCODE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De systematische identificatie van zaakdossiers van dit ZAAKTYPE overeenkomstig logisch gestructureerde conventies, methoden en procedureregels.</font>"
+        },
+        "DATUMBEGINGELDIGHEIDZAAKTYPE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het ZAAKTYPE is ontstaan.</font>"
+        },
+        "DATUMEINDEGELDIGHEIDZAAKTYPE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het ZAAKTYPE is opgeheven.</font>"
+        },
+        "DOORLOOPTIJDBEHANDELING": {
+          "type": "string",
+          "format": "date-time",
+          "description": "<font color=\"#610e6a\">De periode waarbinnen volgens wet- en regelgeving een ZAAk van het ZAAKTYPE afgerond dient te zijn.</font>"
+        },
+        "INDICATIEPUBLICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Aanduiding of (het starten van) een ZAAK van dit ZAAKTYPE gepubliceerd moet worden.</font>"
+        },
+        "PUBLICATIETEKST": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De generieke tekst van de publicatie van ZAAKen van dit ZAAKTYPE</font>"
+        },
+        "SERVICENORMBEHANDELING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De periode waarbinnen verwacht wordt dat een ZAAk van het ZAAKTYPE afgerond wordt coform de geldende servicenormen van de zaakbehandelende organisatie(s).</font>"
+        },
+        "TREFWOORD": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een trefwoord waarmee ZAAKen van het ZAAKTYPE kunnen worden gekarakteriseerd.</font>"
+        },
+        "VERTROUWELIJKAANDUIDING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Aanduiding van de mate waarin zaakdossiers van ZAAKen van dit ZAAKTYPE voor de openbaarheid bestemd zijn.</font>"
+        },
+        "ZAAKCATEGORIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Typering van de aard van ZAAKen van het ZAAKTYPE.</font>"
+        },
+        "ZAAKTYPEOMSCHRIJVING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Omschrijving van de aard van ZAAKen van het ZAAKTYPE.</font>"
+        },
+        "ZAAKTYPEOMSCHRIJVINGGENERIEK": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Algemeen gehanteerde omschrijving van de aard van ZAAKen van het ZAAKTYPE</font>"
+        }
+      }
+    },
+    "STATUS": {
+      "title": "STATUS",
+      "description": "Een aanduiding van de stand van zaken van een zaak op basis van betekenisvol behaald resultaat voor de initiator van de zaak.",
+      "type": "object",
+      "properties": {
+        "DATUMSTATUSGEZET": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop de zaak de status heeft verkregen.</font>"
+        },
+        "INDICATIEIAATSTGEZETTESTATUS": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Aanduding of het de laatst bekende bereikte status betreft.</font>"
+        },
+        "STATUSTOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een, voor de initiator van de zaak relevante, toelichting op de status van een zaak.</font>"
+        }
+      }
+    },
+    "STATUSTYPE": {
+      "title": "STATUSTYPE",
+      "description": "Generieke aanduiding van de aard van een STATUS",
+      "type": "object",
+      "properties": {
+        "DATUMBEGINGELDIGHEIDSTATUSTYPE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het STATUSTYPE is ontstaan.</font>"
+        },
+        "DATUMEINDEGELDIGHEIDSTATUSTYPE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum waarop het STATUSTYPE is opgeheven.</font>"
+        },
+        "DOORLOOPTIJDSTATUS": {
+          "type": "string",
+          "format": "date-time",
+          "description": "<font color=\"#610e6a\">De door de zaakbehandelende organisatie(s) gestelde norm voor de doorlooptijd voor het bereiken van STATUSsen van dit STATUSTYPE bij het desbetreffende ZAAKTYPE.</font>"
+        },
+        "STATUSTYPEOMSCHRIJVING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een korte, voor de initiator van de zaak relevante, omschrijving van de aard van de STATUS van zaken van een ZAAKTYPE.</font>"
+        },
+        "STATUSTYPEOMSCHRIJVINGGENERIEK": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Algemeen gehanteerde omschrijving van de aard van STATUSsen van het STATUSTYPE</font>"
+        },
+        "STATUSTYPEVOLGNUMMER": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Een volgnummer voor de status binnen een zaak.</font>"
+        }
+      }
+    },
+    "BESLUIT": {
+      "title": "BESLUIT",
+      "description": "Een na overweging of beraadslaging vastgestelde beslissing voor een individueel of concreet geval.",
+      "type": "object",
+      "properties": {
+        "OMSCHRIJVING": {
+          "type": "string"
+        },
+        "BESLUITIDENTIFICATIE": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Identificatie van het besluit.</font>"
+        },
+        "BESLUITTOELICHTING": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">Toelichting bij het besluit.</font>"
+        },
+        "DATUMBESLUIT": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De beslisdatum (AWB) van het besluit.</font>"
+        },
+        "DATUMPUBLICATIE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Datum waarop het besluit gepubliceerd wordt.</font>"
+        },
+        "DATUMSTART": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Ingangsdatum van de werkingsperiode van het besluit.</font>"
+        },
+        "DATUMUITERLIJKEREACTIE": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">De datum tot wanneer verweer tegen het besluit mogelijk is.</font>"
+        },
+        "DATUMVERVAL": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Datum waarop de werkingsperiode van het besluit eindigt.</font>"
+        },
+        "DATUMVERZENDING": {
+          "type": "string",
+          "format": "date",
+          "description": "<font color=\"#610e6a\">Datum waarop het besluit verzonden is.</font>"
+        },
+        "REDENVERVAL": {
+          "type": "string",
+          "description": "<font color=\"#610e6a\">De omschrijving die aangeeft op grond waarvan het besluit is of komt te vervallen.</font>"
+        }
+      }
+    },
+    "HEFFING": {
+      "title": "HEFFING",
+      "description": "Een door de overheid opgelegde verplichting tot betaling",
+      "type": "object",
+      "properties": {
+        "BEDRAG": {
+          "type": "number"
+        },
+        "CODE": {
+          "type": "string"
+        },
+        "DATUMINDIENING": {
+          "type": "string",
+          "format": "date"
+        },
+        "GEFACTUREERD": {
+          "type": "boolean"
+        },
+        "INREKENING": {
+          "type": "string"
+        },
+        "NUMMER": {
+          "type": "integer"
+        },
+        "RUNNUMMER": {
+          "type": "integer"
+        }
+      }
+    },
+    "RECHTSPERSOON": {
+      "title": "RECHTSPERSOON",
+      "description": "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON",
+      "type": "object",
+      "properties": {
+        "ADRESBINNENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."
+        },
+        "ADRESBUITENLAND": {
+          "type": "string",
+          "description": "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."
+        },
+        "ADRESCORRESPONDENTIE": {
+          "type": "string",
+          "description": "postbus of antwoordnummer"
+        },
+        "EMAILADRES": {
+          "type": "string",
+          "description": "Elektronisch postadres waaronder het subject in de regel bereikbaar is."
+        },
+        "FAXNUMMER": {
+          "type": "string",
+          "description": "Faxnummer waaronder het subject in de regel bereikbaar is."
+        },
+        "IDENTIFICATIE": {
+          "type": "string",
+          "description": "De unieke identificatie van het SUBJECT"
+        },
+        "KVKNUMMER": {
+          "type": "string"
+        },
+        "NAAM": {
+          "type": "string",
+          "description": "De benaming van het SUBJECT"
+        },
+        "RECHTSVORM": {
+          "type": "string",
+          "description": "Bron: Handelsregister"
+        },
+        "REKENINGNUMMER": {
+          "type": "string",
+          "description": "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."
+        },
+        "TELEFOONNUMMER": {
+          "type": "string",
+          "description": "Telefoonnummer waaronder het subject in de regel bereikbaar is."
+        }
+      }
+    }
+  }
+}
