@@ -125,7 +125,7 @@ Attributen van objecttype Onderzoek
 | objecttype | char | Geeft aan welke objectklasse in onderzoek staat.<br>Herkomst: BAG Plus |
 | inOnderzoek | boolean | Indicatie of het kenmerk wel of niet in onderzoek staat.<br>Herkomst BAG Plus |
 | datumActueelTot | DateTime | Einddatum van de cyclus, eventueel in combinatie met het kenmerk Status.<br>Herkomst: BAG Plus |
-| kenmerk | char | De naam van het kenmerk van het object dat in onderzoek is geplaatst. Het kenmerk kan ook een relatie zijn met een ander object.<br>Per object kunnen de volgende kenmerken of relaties in onderzoek worden geplaatst:<br>Woonplaats:<br>\1- naam<br>\1- geometrie<br>\1- status<br>Openbare ruimte:<br>\1- naam<br>\1- type<br>\1- status<br>\1- ligt in woonplaats<br>Nummeraanduiding:<br>\1- huisnummer<br>\1- huisletter<br>\1- huisnummertoevoeging<br>\1- postcode<br>\1- type adresseerbaar object<br>\1- status<br>\1- ligt in woonplaats<br>\1- ligt aan openbare ruimte<br>Pand:<br>\1- geometrie<br>\1- bouwjaar<br>\1- status<br>Verblijfsobject:<br>\1- geometrie<br>\1- gebruiksdoel<br>\1- oppervlakte<br>\1- status<br>\1- ligt in pand<br>\1- heeft hoofdadres<br>\1- heeft nevenadres<br>Standplaats:<br>\1- geometrie<br>\1- status<br>\1- heeft hoofdadres<br>\1- heeft nevenadres<br>Ligplaats:<br>\1- geometrie<br>\1- status<br>\1- heeft hoofdadres<br>\1- heeft nevenadres<br>Herkomst: BAG |
+| kenmerk | char | De naam van het kenmerk van het object dat in onderzoek is geplaatst. Het kenmerk kan ook een relatie zijn met een ander object.<br>Per object kunnen de volgende kenmerken of relaties in onderzoek worden geplaatst:<br>Woonplaats:<br>- naam<br>- geometrie<br>- status<br>Openbare ruimte:<br>- naam<br>- type<br>- status<br>- ligt in woonplaats<br>Nummeraanduiding:<br>- huisnummer<br>- huisletter<br>- huisnummertoevoeging<br>- postcode<br>- type adresseerbaar object<br>- status<br>- ligt in woonplaats<br>- ligt aan openbare ruimte<br>Pand:<br>- geometrie<br>- bouwjaar<br>- status<br>Verblijfsobject:<br>- geometrie<br>- gebruiksdoel<br>- oppervlakte<br>- status<br>- ligt in pand<br>- heeft hoofdadres<br>- heeft nevenadres<br>Standplaats:<br>- geometrie<br>- status<br>- heeft hoofdadres<br>- heeft nevenadres<br>Ligplaats:<br>- geometrie<br>- status<br>- heeft hoofdadres<br>- heeft nevenadres<br>Herkomst: BAG |
 | objectIdentificatie | char | Unieke identificatie van het object dat in onderzoek is geplaatst.<br>Herkomst BAG |
 
 
@@ -168,7 +168,7 @@ Attributen van objecttype Nummeraanduiding
 | postcode | AN6 | De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam van een woonplaats, naam van een openbare ruimte en een huisnummer |
 | beginGeldigheid | DATUM | Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum |
 | eindeGeldigheid | DATUM | Definitie<br>EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.<br>Beschrijving<br>Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig. |
-| status | statusNummeraanduiding | De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.<br>\1- Naamgeving uitgegeven<br>\1- Naamgeving ingetrokken |
+| status | statusNummeraanduiding | De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.<br>- Naamgeving uitgegeven<br>- Naamgeving ingetrokken |
 | geconstateerd | boolean |  |
 | identificatie | Varchar | Unieke identificatiecode van het object |
 | typeAdresseerbaarObject | TypeAdresseerbaarObject | Het type addresseerbaarobject (landelijke identificatie) wat door de nummeraanduiding wordt aangeduid. |
@@ -308,7 +308,7 @@ Attributen van objecttype Ligplaats
 | :--- | :--- | :--- |
 | identificatie | Varchar | De unieke aanduiding van een LIGPLAATS |
 | geconstateerd | Boolean | Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname. |
-| status | statusLigplaats | De fase van de levenscyclus van een LIGPLAATS waarin de betreffende LIGPLAATS zich bevindt.<br>\1- Plaats aangewezen<br>\1- Plaats ingetrokken |
+| status | statusLigplaats | De fase van de levenscyclus van een LIGPLAATS waarin de betreffende LIGPLAATS zich bevindt.<br>- Plaats aangewezen<br>- Plaats ingetrokken |
 | documentdatum | Date | De datum waarop het brondocument is vastgesteld op basis waarvan een opname, mutatie of een verwijdering van gegevens ten aanzien van een object heeft plaatsgevonden. |
 | documentnummer | int | De unieke aanduiding van het brondocument op basis waarvan een opname, mutatie of een verwijdering van gegevens ten aanzien van een woonplaats heeft plaatsgevonden binnen een gemeente. |
 | versie | Number |  |
@@ -446,7 +446,7 @@ Attributen van objecttype Pand
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | identificatie | Varchar | De unieke aanduiding van een PAND |
-| status | statusPand | De fase van de levenscyclus van een PAND, waarin het betreffende PAND zich bevindt.<br>\1- Bouwvergunning verleend<br>\1- Niet gerealiseerd pand<br>\1- Bouw gestart<br>\1- Pand in gebruik (niet ingemeten)<br>\1- Pand in gebruik<br>\1- Sloopvergunning verleend<br>\1- Pand gesloopt<br>\1- Pand buiten gebruik<br>\1- Verbouwing pand<br>\1- Pand ten onrechte opgevoerd |
+| status | statusPand | De fase van de levenscyclus van een PAND, waarin het betreffende PAND zich bevindt.<br>- Bouwvergunning verleend<br>- Niet gerealiseerd pand<br>- Bouw gestart<br>- Pand in gebruik (niet ingemeten)<br>- Pand in gebruik<br>- Sloopvergunning verleend<br>- Pand gesloopt<br>- Pand buiten gebruik<br>- Verbouwing pand<br>- Pand ten onrechte opgevoerd |
 | statusVoortgangBouw | statusVoortgangBouw | De fase van de bouw, verbouw of sloop waarin het betreffende PAND zich bevindt |
 | oorspronkelijkBouwjaar | N4 | De aanduiding van het jaar waarin een PAND oorspronkelijk als bouwkundig gereed is of wordt opgeleverd. |
 | oppervlakte | N6 | De gebruiksoppervlakte van een PAND in gehele vierkante meters. |
