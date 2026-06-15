@@ -1,5 +1,5 @@
 site_name: Gemeentelijk Gegevensmodel (GGM)
-site_description: Informatiemodel van alle gemeentelijke taakvelden
+site_description: "Integraal informatiemodel voor alle gemeentelijke taakvelden, met definities, relaties en semantiek als basis voor data-uitwisseling en interoperabiliteit binnen de gemeente."
 site_author: Arjen Brienen
 site_url: https://www.gemeentelijkgegevensmodel.nl/
 repo_url: https://github.com/gemeente-delft/Gemeentelijk-Gegevensmodel/

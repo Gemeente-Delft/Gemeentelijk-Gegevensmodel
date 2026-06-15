@@ -278,13 +278,27 @@ tasks:
       - echo "Building and deploying MkDocs and Mike..."
       - mkdocs build --clean
       - mike deploy "{{.VERSION}}" latest --update-aliases
-      - mike set-default "{{.VERSION}}"
+      - mike set-default latest
       - echo "Documentation deployed. Use 'mike serve' to view results..."
+    shell: bash
+
+  verify:seo:
+    desc: "SEO-sanity: geen /latesten/ paden, sitemap-URLs resolveren, canonicals naar juist domein, noindex op v*-mappen."
+    cmds:
+      - echo "Running SEO sanity checks against ./site ..."
+      - python tools/verify_seo.py site/
+    shell: bash
+
+  cleanup:ghpages:
+    desc: "Schoon de pre-mike content op uit de gh-pages worktree (geef pad als CLI_ARGS)."
+    cmds:
+      - ./tools/cleanup_ghpages_root.sh "{{.CLI_ARGS}}"
+      - ./tools/noindex_old_versions.sh "{{.CLI_ARGS}}"
     shell: bash
 
   publish:github:
     desc: "Publish the documentation directly to GitHub Pages."
-    deps: [publish:local]
+    deps: [publish:local, verify:seo]
     prompt:
      - Dit commando publiceert de documentatie direct naar de LIVE GitHub pages. Doorgaan?
      - Weet je het zeker?
