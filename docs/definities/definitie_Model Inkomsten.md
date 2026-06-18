@@ -83,10 +83,10 @@ Het model 'Model Inkomsten' kent de volgende objecttypen:
     | id | EAID\_0CAB2134\_E295\_ADCD\_A732\_293A6ED5D9E0 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Alimentatie |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-95db9453-8775-42c2-98c0-63c2c43049dc](https://gemmaonline.nl/index.php/GEMMA/id-95db9453-8775-42c2-98c0-63c2c43049dc) |
+    | gemma_definitie | Een persoon kan inkomsten hebben uit alimentatie. |
     | gemma_toelichting |  |
     
 
@@ -124,10 +124,10 @@ Attributen van objecttype Alimentatie
     | id | EAID\_1A880B88\_29D8\_FB84\_538B\_293A707D1452 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Ander inkomen |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-4bf4c8ef-3d44-45db-a6d9-bd2f418f06d9](https://gemmaonline.nl/index.php/GEMMA/id-4bf4c8ef-3d44-45db-a6d9-bd2f418f06d9) |
+    | gemma_definitie | Een persoon kan inkomsten hebben uit ander inkomen. |
     | gemma_toelichting |  |
     
 
@@ -197,10 +197,10 @@ Attributen van objecttype Beslag op inkomen
     | id | EAID\_0624AE2E\_52A2\_7A26\_ECA8\_293A6E0F09FE |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Betaald werk |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-4f60f29e-6db1-476c-846c-1795ca4b880c](https://gemmaonline.nl/index.php/GEMMA/id-4f60f29e-6db1-476c-846c-1795ca4b880c) |
+    | gemma_definitie | Een persoon kan inkomsten hebben uit betaald werk. |
     | gemma_toelichting |  |
     
 
@@ -242,10 +242,10 @@ Attributen van objecttype Betaald werk
     | id | EAID\_2771AFDF\_11F9\_592A\_1883\_293A9241CBB3 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Dertiende maand - eindejaarsuitkering |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-984043fe-9c64-4eae-a238-8980da3b8b0c](https://gemmaonline.nl/index.php/GEMMA/id-984043fe-9c64-4eae-a238-8980da3b8b0c) |
+    | gemma_definitie | Een persoon kan inkomsten hebben uit dertiende maand/eindejaarsuitkering. |
     | gemma_toelichting |  |
     
 
@@ -353,10 +353,10 @@ Attributen van objecttype Draagkrachtregime
     | id | EAID\_1FB8E23E\_DC06\_2C59\_6AED\_293A6F67508F |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Eigen bedrijf |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-bb0e24e1-cbe2-4ceb-b8b1-ec7e2b87ceb1](https://gemmaonline.nl/index.php/GEMMA/id-bb0e24e1-cbe2-4ceb-b8b1-ec7e2b87ceb1) |
+    | gemma_definitie | Een persoon kan inkomsten hebben uit eigen bedrijf. |
     | gemma_toelichting |  |
     
 
@@ -429,10 +429,10 @@ Attributen van objecttype Eigen bijdrage
     | id | EAID\_1075821F\_E399\_53E2\_3994\_293A6EAD14DA |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Heffingskorting |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-94191fd7-9c25-4fea-b5c4-06389ae6cf31](https://gemmaonline.nl/index.php/GEMMA/id-94191fd7-9c25-4fea-b5c4-06389ae6cf31) |
+    | gemma_definitie | Een persoon kan inkomsten hebben uit heffingskorting. |
     | gemma_toelichting |  |
     
 
@@ -466,10 +466,10 @@ Attributen van objecttype Heffingskorting
     | id | EAID\_1D176A0D\_B1C8\_BCD5\_8439\_293A705AA468 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Hobby |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-5d86ab84-8792-49bc-834c-3d1c13855de6](https://gemmaonline.nl/index.php/GEMMA/id-5d86ab84-8792-49bc-834c-3d1c13855de6) |
+    | gemma_definitie | Een persoon kan inkomsten hebben uit hobbies. |
     | gemma_toelichting |  |
     
 
@@ -503,10 +503,10 @@ Attributen van objecttype Hobby
     | id | EAID\_2235FE95\_D319\_96D3\_FC70\_293A52BBE934 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Inkomstencomponent |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-1260e613-448c-415b-87a6-58486bdded32](https://gemmaonline.nl/index.php/GEMMA/id-1260e613-448c-415b-87a6-58486bdded32) |
+    | gemma_definitie | Een persoon kan vanuit diverse bronnen inkomsten krijgen. Denk bijvoorbeeld aan alimentatie, loon, uitkering of zelfs vergoedingen voor maaltijden, onkosten, vervoer e.d. De inkomstencomponent vormt een deel van de totale inkomsten van een persoon. Hiermee leggen we vast het type inkomste, het bedrag en de periode waarover dat bedrag is ontvangen en de boekingsdatum waarop het bedrag is ontvangen.Dat laatste is belangrijk voor de verschillende perspectieven op inkomsten te onderscheiden naar loon-in en loon-over.Achtergrond hierbij zijn twee regelingenLoon wordt als regel toegerekend aan het tijdvak waarin het aan de werknemer is betaald (loon-in). Onder bepaalde voorwaarden mogen werkgevers het uitbetaalde loon toerekenen aan een verstreken loontijdvak. Dit wordt de 'loon-over-regeling' genoemd. Waarom populair: voor een werknemer kan het verstrekken van een uitkering e.d. niet in het kalenderjaar maar bijvoorbeeld in het jaar daarop, hem fiscaal gezien voordelen geven.Bij loon-over gaat het om twee regelingen:De eerste regeling houdt in dat een werkgever een in de maand januari van het nieuwe jaar gedane inhouding op loon dat de werknemer voor het voorgaande jaar nog toekomt, mag opnemen in de laatste aangifte over het oude jaar. Daarbij wordt de inhouding volgens de tarieven van het voorgaande jaar berekend. Deze regeling is structureel in de wet opgenomen.De tweede regeling houdt in dat de werkgever binnen het kalenderjaar loonbetalingen mag toerekenen aan de verstreken loontijdvakken waarop zij betrekking hebben, zo nodig door het indienen van correctieberichten. |
     | gemma_toelichting |  |
     
 
@@ -547,10 +547,10 @@ Attributen van objecttype Inkomstencomponent
     | id | EAID\_0463EA7D\_FFD9\_AD19\_0405\_294621AE933F |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Inkomstenverhouding |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-10e2e536-26cb-4934-b6bb-7c88cee5841f](https://gemmaonline.nl/index.php/GEMMA/id-10e2e536-26cb-4934-b6bb-7c88cee5841f) |
+    | gemma_definitie | Een persoon kan vanuit diverse bronnen inkomsten krijgen. Denk bijvoorbeeld aan alimentatie, loon, uitkering of zelfs vergoedingen voor maaltijden, onkosten, vervoer e.d. Er zijn nu twee gegevensbehoeften:Enerzijds het kunnen vastleggen van de inkomstencomponenten (zie daarvoor het gelijknamige concept)Anderzijds het vastleggen van de inkomstenverhouding.Een voorbeeld van zo'n inkomstenverhouding is een arbeidsverhouding.De inkomstenverhouding geeft per inkomstensoort aan:de partij die de inkomsten verstrekt, hetgeen een organisatie of een persoon kan zijn ende partij die de inkomsten ontvangtVerder zijn we geïnteresseerd in de periode waarin deze inkomstenverhouding bestond en de periodiciteit van de uitbetalingen.Inkomstenverhoudingen worden geadministreerd in het profiel van de klant. De klant is de ontvanger van de inkomsten. Vandaar dat in de inkomstenverhouding zelf geen expliciete verwijzing is opgenomen naar de ontvanger.Ten aanzien van de bekostiger van de inkomsten geldt, dat dit niet voor elke inkomstenverhouding relevant is. Bij uitkeringen, arbeid, studiefinanciering, stage en pensioen bijvoorbeeld wel, maar bij hobbies niet. |
     | gemma_toelichting |  |
     
 
@@ -585,10 +585,10 @@ Attributen van objecttype Inkomstenverhouding
     | id | EAID\_0B6D4C44\_7D22\_03E3\_23BC\_293A778017DC |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Inkomstenvermindering |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-c6836894-f033-450c-9a96-5c2db8e68b42](https://gemmaonline.nl/index.php/GEMMA/id-c6836894-f033-450c-9a96-5c2db8e68b42) |
+    | gemma_definitie | Een persoon kan vermindering van inkomsten hebben. |
     | gemma_toelichting |  |
     
 
@@ -620,10 +620,10 @@ Attributen van objecttype Inkomstenvermindering
     | id | EAID\_98746714\_07f9\_4942\_b7d1\_096f9631f90f |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Kostencomponent |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-7172e91b-152c-4d7d-889e-2dba101dcb3e](https://gemmaonline.nl/index.php/GEMMA/id-7172e91b-152c-4d7d-889e-2dba101dcb3e) |
+    | gemma_definitie | Noodzakelijke kosten voor het bestaan welke leiden tot een lager (berekend) inkomen. |
     | gemma_toelichting |  |
     
 
@@ -840,10 +840,10 @@ Attributen van objecttype Onkostenvergoeding
     | id | EAID\_28CBC627\_9980\_C06E\_492F\_293A6E4EE649 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Pensioen |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-78c663af-21a2-41b8-8f17-d350ddb4efb8](https://gemmaonline.nl/index.php/GEMMA/id-78c663af-21a2-41b8-8f17-d350ddb4efb8) |
+    | gemma_definitie | Een persoon kan inkomsten hebben uit pensioen. |
     | gemma_toelichting |  |
     
 
@@ -880,10 +880,10 @@ Attributen van objecttype Pensioen
     | id | EAID\_e0a328b0\_21ff\_469d\_912e\_63465279b5a1 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Primair inkomstencomponent |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f10a3726-8305-4f9f-bdf0-cb297eb26a54](https://gemmaonline.nl/index.php/GEMMA/id-f10a3726-8305-4f9f-bdf0-cb297eb26a54) |
+    | gemma_definitie | Een persoon kan vanuit diverse bronnen inkomsten krijgen. Denk bijvoorbeeld aan alimentatie, loon, uitkering of zelfs vergoedingen voor maaltijden, onkosten, vervoer e.d. De inkomstencomponent vormt een deel van de totale inkomsten van een persoon. Hiermee leggen we vast het type inkomste, het bedrag en de periode waarover dat bedrag is ontvangen en de boekingsdatum waarop het bedrag is ontvangen.Dat laatste is belangrijk voor de verschillende perspectieven op inkomsten te onderscheiden naar loon-in en loon-over.Achtergrond hierbij zijn twee regelingenLoon wordt als regel toegerekend aan het tijdvak waarin het aan de werknemer is betaald (loon-in). Onder bepaalde voorwaarden mogen werkgevers het uitbetaalde loon toerekenen aan een verstreken loontijdvak. Dit wordt de 'loon-over-regeling' genoemd. Waarom populair: voor een werknemer kan het verstrekken van een uitkering e.d. niet in het kalenderjaar maar bijvoorbeeld in het jaar daarop, hem fiscaal gezien voordelen geven.Bij loon-over gaat het om twee regelingen:De eerste regeling houdt in dat een werkgever een in de maand januari van het nieuwe jaar gedane inhouding op loon dat de werknemer voor het voorgaande jaar nog toekomt, mag opnemen in de laatste aangifte over het oude jaar. Daarbij wordt de inhouding volgens de tarieven van het voorgaande jaar berekend. Deze regeling is structureel in de wet opgenomen.De tweede regeling houdt in dat de werkgever binnen het kalenderjaar loonbetalingen mag toerekenen aan de verstreken loontijdvakken waarop zij betrekking hebben, zo nodig door het indienen van correctieberichten. |
     | gemma_toelichting |  |
     
 
@@ -986,10 +986,10 @@ Attributen van objecttype Reiskostenvergoeding
     | id | EAID\_4ead37c5\_f83b\_423d\_b51e\_92a60e7fa2d9 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Secundair inkomstencomponent |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-fa30449f-d0e6-41d3-bf48-e7de10e7dada](https://gemmaonline.nl/index.php/GEMMA/id-fa30449f-d0e6-41d3-bf48-e7de10e7dada) |
+    | gemma_definitie | Een persoon kan vanuit diverse bronnen inkomsten krijgen. Denk bijvoorbeeld aan alimentatie, loon, uitkering of zelfs vergoedingen voor maaltijden, onkosten, vervoer e.d. De inkomstencomponent vormt een deel van de totale inkomsten van een persoon. Hiermee leggen we vast het type inkomste, het bedrag en de periode waarover dat bedrag is ontvangen en de boekingsdatum waarop het bedrag is ontvangen.Dat laatste is belangrijk voor de verschillende perspectieven op inkomsten te onderscheiden naar loon-in en loon-over.Achtergrond hierbij zijn twee regelingenLoon wordt als regel toegerekend aan het tijdvak waarin het aan de werknemer is betaald (loon-in). Onder bepaalde voorwaarden mogen werkgevers het uitbetaalde loon toerekenen aan een verstreken loontijdvak. Dit wordt de 'loon-over-regeling' genoemd. Waarom populair: voor een werknemer kan het verstrekken van een uitkering e.d. niet in het kalenderjaar maar bijvoorbeeld in het jaar daarop, hem fiscaal gezien voordelen geven.Bij loon-over gaat het om twee regelingen:De eerste regeling houdt in dat een werkgever een in de maand januari van het nieuwe jaar gedane inhouding op loon dat de werknemer voor het voorgaande jaar nog toekomt, mag opnemen in de laatste aangifte over het oude jaar. Daarbij wordt de inhouding volgens de tarieven van het voorgaande jaar berekend. Deze regeling is structureel in de wet opgenomen.De tweede regeling houdt in dat de werkgever binnen het kalenderjaar loonbetalingen mag toerekenen aan de verstreken loontijdvakken waarop zij betrekking hebben, zo nodig door het indienen van correctieberichten. |
     | gemma_toelichting |  |
     
 
@@ -1021,10 +1021,10 @@ Attributen van objecttype Secundair inkomstencomponent
     | id | EAID\_28FCE4B4\_AFCD\_AFE7\_63A5\_293A6F895C47 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Stage |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-a45c83b0-e0c2-405e-8a7e-56e774be3019](https://gemmaonline.nl/index.php/GEMMA/id-a45c83b0-e0c2-405e-8a7e-56e774be3019) |
+    | gemma_definitie | Een persoon kan inkomsten hebben uit stage. |
     | gemma_toelichting |  |
     
 
@@ -1061,10 +1061,10 @@ Attributen van objecttype Stage
     | id | EAID\_23245F44\_F332\_6237\_D733\_293A6E6E621D |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Studiefinanciering |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-41b27c27-c186-4027-9d9a-8d8c7a211997](https://gemmaonline.nl/index.php/GEMMA/id-41b27c27-c186-4027-9d9a-8d8c7a211997) |
+    | gemma_definitie | Een persoon kan inkomsten hebben uit studiefinanciering. |
     | gemma_toelichting |  |
     
 
@@ -1134,10 +1134,10 @@ Attributen van objecttype Te betalen alimentatie
     | id | EAID\_079F0BBE\_0EBA\_3EFE\_32BE\_293A6C49F9DC |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Uitkering |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-51e61a31-37b2-43e1-b5c0-e909bc568761](https://gemmaonline.nl/index.php/GEMMA/id-51e61a31-37b2-43e1-b5c0-e909bc568761) |
+    | gemma_definitie | Een persoon kan inkomsten hebben uit uitkering. |
     | gemma_toelichting |  |
     
 
@@ -1177,10 +1177,10 @@ Attributen van objecttype Uitkering
     | id | EAID\_24B39342\_7142\_86B3\_3DBD\_293A7780A28B |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Vakantiegeld |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-0692f33f-39d7-4cbc-b655-96e2e0ea0c56](https://gemmaonline.nl/index.php/GEMMA/id-0692f33f-39d7-4cbc-b655-96e2e0ea0c56) |
+    | gemma_definitie | Een persoon kan inkomsten hebben uit vakantiegeld. |
     | gemma_toelichting |  |
     
 
@@ -1212,10 +1212,10 @@ Attributen van objecttype Vakantiegeld
     | id | EAID\_1FCFBA02\_5BAC\_6978\_BF60\_293A629C6FC3 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Vergoeding |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-41df2323-da4d-457e-bdd4-d0e8a4cbf351](https://gemmaonline.nl/index.php/GEMMA/id-41df2323-da4d-457e-bdd4-d0e8a4cbf351) |
+    | gemma_definitie | Een persoon kan inkomsten hebben uit vergoedingen als voor maaltijden, onkosten of reizen |
     | gemma_toelichting |  |
     
 
@@ -1400,7 +1400,7 @@ De enumeratie InkomstensoortAlimentatie heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:49 |
-    | id | EAID\_f004b9f0\_3acc\_4d6b\_bb6c\_5bda302233bb |
+    | id | EAID\_23853718\_93d4\_4229\_b635\_491b07df9a18 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1433,7 +1433,7 @@ De enumeratie InkomstensoortBetaaldWerk heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:53 |
-    | id | EAID\_14f1a55f\_30e5\_42eb\_8478\_6833f591fb6b |
+    | id | EAID\_9dfa8810\_c5a5\_4b16\_9b94\_54e63f9cbdd5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1466,7 +1466,7 @@ De enumeratie CdUitkeringsperiode heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:30 |
-    | id | EAID\_75cdc855\_f098\_48f5\_a532\_5dfbcd38bb47 |
+    | id | EAID\_ad6bb393\_17ae\_42e7\_9c91\_d32dbd788bca |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1499,7 +1499,7 @@ De enumeratie SoortContract heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:37:29 |
-    | id | EAID\_603ea3e3\_b6d4\_4dfb\_a41b\_b7e71ab25199 |
+    | id | EAID\_668ebecf\_e1f7\_4991\_9a72\_7a7585cb3464 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1532,7 +1532,7 @@ De enumeratie BrutoNettoInkomsten heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:15 |
-    | id | EAID\_3d78ed71\_fbd9\_405e\_ba2c\_043e0fc0d2e6 |
+    | id | EAID\_b0b43e69\_9118\_4a10\_87b1\_d7858ce60095 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1565,7 +1565,7 @@ De enumeratie Inkomstencomponenttype heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:42 |
-    | id | EAID\_84a3de15\_10bf\_4a6a\_8b8e\_6c2794068380 |
+    | id | EAID\_d2c55daa\_3456\_4cd6\_9d4b\_d095f9dea9d8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1598,7 +1598,7 @@ De enumeratie CdSrtInkomstenverhouding heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:20 |
-    | id | EAID\_2ff65829\_dcc3\_463b\_ba14\_3be64c835238 |
+    | id | EAID\_15c226cf\_586a\_4863\_90cb\_ffb29769942a |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1631,7 +1631,7 @@ De enumeratie Onderhoudsplichttype heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:37:20 |
-    | id | EAID\_bb9c6356\_2ef2\_43e6\_accd\_8b4866116507 |
+    | id | EAID\_bcbcb498\_7e3a\_4483\_b024\_c316e911692e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1664,7 +1664,7 @@ De enumeratie InkomstensoortPensioen heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:59 |
-    | id | EAID\_32913f80\_042e\_4823\_b329\_fdbc78769b8d |
+    | id | EAID\_5e47b480\_a8bf\_4cdf\_aadb\_4e909ff20a39 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1697,7 +1697,7 @@ De enumeratie CdUitkeringsperiode heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:30 |
-    | id | EAID\_4b5cbaa0\_51f4\_4b5d\_9029\_7907ff32bda9 |
+    | id | EAID\_5eb12d81\_06ea\_4a74\_8873\_5608445e07c5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1730,7 +1730,7 @@ De enumeratie CdUitkeringsperiode heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:30 |
-    | id | EAID\_4b3a1098\_2ed4\_42e1\_85cb\_06be201a11af |
+    | id | EAID\_41f14eb2\_244b\_4dac\_8214\_c0ade0cb7143 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1763,7 +1763,7 @@ De enumeratie InkomstensoortStudiefinanciering heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:37:04 |
-    | id | EAID\_67479984\_8f04\_4d78\_859a\_bcc7f1e6dcd3 |
+    | id | EAID\_766ada3c\_822e\_409f\_98b1\_8ffe27a6791b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1796,7 +1796,7 @@ De enumeratie CdSzWet heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:25 |
-    | id | EAID\_8a61ea76\_b67e\_4ebb\_9f74\_565aa0204ae1 |
+    | id | EAID\_552c2659\_f862\_43a3\_b01d\_eb7498aac275 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1829,7 +1829,7 @@ De enumeratie CdUitkeringsperiode heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:30 |
-    | id | EAID\_948924e8\_3423\_468c\_bede\_c5a113b67671 |
+    | id | EAID\_dd4c1aac\_c7d2\_4ccb\_a9b3\_07da82442069 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1862,7 +1862,7 @@ De enumeratie JsonRuledGroupType heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:37:15 |
-    | id | EAID\_5010d5ef\_73cd\_43fc\_bfd5\_c93d6a2ae9ea |
+    | id | EAID\_2bd15e08\_6ce6\_4b1c\_a5a6\_c568dd24e65e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1895,7 +1895,7 @@ De enumeratie CodeSoortVrijlating heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:35 |
-    | id | EAID\_00827cbd\_9e29\_4abb\_b781\_b30988b9c1c7 |
+    | id | EAID\_f69bf6a4\_e7ea\_443a\_9f90\_6ed5f9c71622 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

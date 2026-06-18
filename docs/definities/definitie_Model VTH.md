@@ -202,7 +202,7 @@ Attributen van objecttype Bevinding
     | domein_dcat |  |
     | gemma_naam | BOA |
     | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7aae6aa2-cf47-491b-a0c0-a311729edcbf](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-7aae6aa2-cf47-491b-a0c0-a311729edcbf) |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-7aae6aa2-cf47-491b-a0c0-a311729edcbf](https://gemmaonline.nl/index.php/GEMMA/id-7aae6aa2-cf47-491b-a0c0-a311729edcbf) |
     | gemma_definitie | Een buitengewoon opsporingsambtenaar (boa) is een ambtenaar met een specifieke opsporingsbevoegdheid. |
     | gemma_toelichting |  |
     
@@ -347,7 +347,7 @@ Attributen van objecttype Grondslag
     | domein_dcat |  |
     | gemma_naam | Heffinggrondslag |
     | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-654000c4-9d8b-4453-b3e8-4f77fb1b15a2](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-654000c4-9d8b-4453-b3e8-4f77fb1b15a2) |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-654000c4-9d8b-4453-b3e8-4f77fb1b15a2](https://gemmaonline.nl/index.php/GEMMA/id-654000c4-9d8b-4453-b3e8-4f77fb1b15a2) |
     | gemma_definitie | De maatstaf waarop een belasting is gebaseerd, het bedrag op basis waarvan een bepaalde belasting wordt geheven of de premie voor sociale zekerheid wordt vastgesteld. |
     | gemma_toelichting |  |
     
@@ -387,8 +387,8 @@ Attributen van objecttype Heffinggrondslag
     | domein_dcat |  |
     | gemma_naam | Heffingsverordening |
     | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f94b299a-c9eb-4bdb-82e7-5752360494cd](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f94b299a-c9eb-4bdb-82e7-5752360494cd) |
-    | gemma_definitie |  |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f94b299a-c9eb-4bdb-82e7-5752360494cd](https://gemmaonline.nl/index.php/GEMMA/id-f94b299a-c9eb-4bdb-82e7-5752360494cd) |
+    | gemma_definitie | Een vastgestelde regeling waarin de grondslagen, tarieven en voorwaarden voor belastingen en heffingen zijn vastgelegd. |
     | gemma_toelichting |  |
     
 
@@ -422,7 +422,7 @@ Attributen van objecttype Heffingsverordening
     | domein_dcat |  |
     | gemma_naam | Indiener |
     | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d4b0a5ba-7c38-44eb-8856-e3cb971dca37](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-d4b0a5ba-7c38-44eb-8856-e3cb971dca37) |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-d4b0a5ba-7c38-44eb-8856-e3cb971dca37](https://gemmaonline.nl/index.php/GEMMA/id-d4b0a5ba-7c38-44eb-8856-e3cb971dca37) |
     | gemma_definitie | Persoon die meldiing of aanvraag doet |
     | gemma_toelichting |  |
     
@@ -457,7 +457,7 @@ Attributen van objecttype Indiener
     | domein_dcat |  |
     | gemma_naam | Inspectie |
     | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8922cc29-6d1c-4a9c-abd6-6a53dda41cdf](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8922cc29-6d1c-4a9c-abd6-6a53dda41cdf) |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-8922cc29-6d1c-4a9c-abd6-6a53dda41cdf](https://gemmaonline.nl/index.php/GEMMA/id-8922cc29-6d1c-4a9c-abd6-6a53dda41cdf) |
     | gemma_definitie | het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen. |
     | gemma_toelichting |  |
     
@@ -503,8 +503,8 @@ Attributen van objecttype Inspectie
     | domein_dcat |  |
     | gemma_naam | Kosten |
     | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b3ca70ae-c2de-4728-ac7d-a144a95c858e](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-b3ca70ae-c2de-4728-ac7d-a144a95c858e) |
-    | gemma_definitie |  |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-b3ca70ae-c2de-4728-ac7d-a144a95c858e](https://gemmaonline.nl/index.php/GEMMA/id-b3ca70ae-c2de-4728-ac7d-a144a95c858e) |
+    | gemma_definitie | De uitgaven of lasten die de gemeente maakt in het kader van haar taken en dienstverlening. |
     | gemma_toelichting |  |
     
 
@@ -554,8 +554,8 @@ Attributen van objecttype Kosten
     | domein_dcat |  |
     | gemma_naam | Leges\_Grondslag |
     | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ce320796-17d5-4134-ade8-7b87211272dd](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ce320796-17d5-4134-ade8-7b87211272dd) |
-    | gemma_definitie |  |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-ce320796-17d5-4134-ade8-7b87211272dd](https://gemmaonline.nl/index.php/GEMMA/id-ce320796-17d5-4134-ade8-7b87211272dd) |
+    | gemma_definitie | Leges zijn kosten die officiële overheidsinstanties in rekening brengen voor een dienst. Grondslag is een gegeven waarop het oordeel gebaseerd is. |
     | gemma_toelichting |  |
     
 
@@ -599,7 +599,7 @@ Attributen van objecttype Leges_Grondslag
     | domein_dcat |  |
     | gemma_naam | Ligplaatsontheffing |
     | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8bdfd1d2-6e07-40d4-9696-881968048f6f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-8bdfd1d2-6e07-40d4-9696-881968048f6f) |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-8bdfd1d2-6e07-40d4-9696-881968048f6f](https://gemmaonline.nl/index.php/GEMMA/id-8bdfd1d2-6e07-40d4-9696-881968048f6f) |
     | gemma_definitie | Tijdelijke toestemming voor het innemen van een ligplaats op een locatie in een gebied met een verbod op ligplaatsen. |
     | gemma_toelichting |  |
     
@@ -635,8 +635,8 @@ Attributen van objecttype Ligplaatsontheffing
     | domein_dcat |  |
     | gemma_naam | MORAanvraagOfMelding |
     | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-51d717fc-7e1e-466e-92eb-58c3d8b225d7](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-51d717fc-7e1e-466e-92eb-58c3d8b225d7) |
-    | gemma_definitie |  |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-51d717fc-7e1e-466e-92eb-58c3d8b225d7](https://gemmaonline.nl/index.php/GEMMA/id-51d717fc-7e1e-466e-92eb-58c3d8b225d7) |
+    | gemma_definitie | Een door een burger of organisatie ingediend verzoek een besluit te nemen of om informatie te verstrekken, of een ingediende melding betreffende een waargenomen probleem, gebrek of gevaar in de openbare ruimte, die valt onder de verantwoordelijkheid van de lokale overheid voor onderhoud, beheer of handhaving. |
     | gemma_toelichting |  |
     
 
@@ -675,7 +675,7 @@ Attributen van objecttype MORAanvraagOfMelding
     | domein_dcat |  |
     | gemma_naam | OpenbareActiviteit |
     | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9ffbd7f6-a815-4edd-9252-5ed7e873c6a0](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9ffbd7f6-a815-4edd-9252-5ed7e873c6a0) |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-9ffbd7f6-a815-4edd-9252-5ed7e873c6a0](https://gemmaonline.nl/index.php/GEMMA/id-9ffbd7f6-a815-4edd-9252-5ed7e873c6a0) |
     | gemma_definitie | Activiteit in het publieke domein |
     | gemma_toelichting |  |
     
@@ -715,7 +715,7 @@ Attributen van objecttype OpenbareActiviteit
     | domein_dcat |  |
     | gemma_naam | Precario |
     | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-01e036d1-b350-4782-b31b-7ac54ea39339](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-01e036d1-b350-4782-b31b-7ac54ea39339) |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-01e036d1-b350-4782-b31b-7ac54ea39339](https://gemmaonline.nl/index.php/GEMMA/id-01e036d1-b350-4782-b31b-7ac54ea39339) |
     | gemma_definitie | Belasting die specifiek wordt geheven voor het plaatsen van voorwerpen onder, op of boven voor de openbare dienst bestemde gemeentegrond. |
     | gemma_toelichting |  |
     
@@ -823,7 +823,7 @@ Attributen van objecttype SubProducttype
     | domein_dcat |  |
     | gemma_naam | Vaartuig |
     | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3d86eebe-43ff-498e-9f8c-7c77a35f8730](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3d86eebe-43ff-498e-9f8c-7c77a35f8730) |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-3d86eebe-43ff-498e-9f8c-7c77a35f8730](https://gemmaonline.nl/index.php/GEMMA/id-3d86eebe-43ff-498e-9f8c-7c77a35f8730) |
     | gemma_definitie | Een zee- of binnenvaartuig, tot de vaart gebruikt of bestemd, daaronder begrepen drijvende werktuigen, zoals baggerwerktuigen, kranen, bokken, elevators, alsmede woonschepen, glijboten en ponten. |
     | gemma_toelichting |  |
     
@@ -864,7 +864,7 @@ Attributen van objecttype Vaartuig
     | domein_dcat |  |
     | gemma_naam | VOMAanvraagOfMelding |
     | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f10ba880-2051-4fd8-8495-f34f1a617dc0](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-f10ba880-2051-4fd8-8495-f34f1a617dc0) |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f10ba880-2051-4fd8-8495-f34f1a617dc0](https://gemmaonline.nl/index.php/GEMMA/id-f10ba880-2051-4fd8-8495-f34f1a617dc0) |
     | gemma_definitie | VOM staat voor Vergunning, Ontheffing of Melding. Het betreft hier een melding of een aanvraag voor een vergunning of een ontheffing. |
     | gemma_toelichting |  |
     
@@ -908,10 +908,10 @@ Attributen van objecttype VOMAanvraagOfMelding
     | id | EAID\_341942C1\_0F72\_4e13\_ADD1\_235805BB81C0 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Vordering |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-b7161d86-f784-418b-9a78-48662d3dc83b](https://gemmaonline.nl/index.php/GEMMA/id-b7161d86-f784-418b-9a78-48662d3dc83b) |
+    | gemma_definitie | Een recht om een bedrag aan geld te ontvangen van een natuurlijke persoon of rechtspersoon, vaak voortvloeiend uit belastingaanslagen, heffingen of andere diensten. |
     | gemma_toelichting |  |
     
 
@@ -1003,7 +1003,7 @@ Attributen van objecttype Vorderingregel
     | domein_dcat |  |
     | gemma_naam | VTH-Melding |
     | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-44f31c7d-6347-4e52-a809-c48563f4b7f1](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-44f31c7d-6347-4e52-a809-c48563f4b7f1) |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-44f31c7d-6347-4e52-a809-c48563f4b7f1](https://gemmaonline.nl/index.php/GEMMA/id-44f31c7d-6347-4e52-a809-c48563f4b7f1) |
     | gemma_definitie | Melding met betrekking tot Vergunningen, Toezicht en Handhaving |
     | gemma_toelichting |  |
     
@@ -1090,7 +1090,7 @@ Attributen van objecttype VTHAanvraagOfMelding
     | domein_dcat |  |
     | gemma_naam | VTHzaak |
     | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0080f5e8-d0d2-4a34-816d-24c8ec6b185a](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-0080f5e8-d0d2-4a34-816d-24c8ec6b185a) |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-0080f5e8-d0d2-4a34-816d-24c8ec6b185a](https://gemmaonline.nl/index.php/GEMMA/id-0080f5e8-d0d2-4a34-816d-24c8ec6b185a) |
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
@@ -1206,7 +1206,7 @@ Attributen van objecttype WABOAanvraagOfMelding
     | domein_dcat |  |
     | gemma_naam | WoonfraudeAanvraagOfMelding |
     | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2856ae2a-1424-41ad-ab9c-0e166972fb2f](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-2856ae2a-1424-41ad-ab9c-0e166972fb2f) |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-2856ae2a-1424-41ad-ab9c-0e166972fb2f](https://gemmaonline.nl/index.php/GEMMA/id-2856ae2a-1424-41ad-ab9c-0e166972fb2f) |
     | gemma_definitie | Melding of aanvraag van woonfraude |
     | gemma_toelichting |  |
     
@@ -1246,7 +1246,7 @@ Attributen van objecttype WoonfraudeAanvraagOfMelding
     | domein_dcat |  |
     | gemma_naam | WoonoverlastAanvraagOfMelding |
     | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ee5a2678-e98b-44af-ae3f-f0c620a66681](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ee5a2678-e98b-44af-ae3f-f0c620a66681) |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-ee5a2678-e98b-44af-ae3f-f0c620a66681](https://gemmaonline.nl/index.php/GEMMA/id-ee5a2678-e98b-44af-ae3f-f0c620a66681) |
     | gemma_definitie | Melding of aanvraag met betrekking tot Woonoverlast |
     | gemma_toelichting |  |
     
@@ -1294,7 +1294,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_1ff3f908\_a8e5\_4afd\_971c\_67d15759cd96 |
+    | id | EAID\_17c3da0e\_56ac\_43fb\_b624\_f805a7230a5f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1331,7 +1331,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_a48a78a3\_84c9\_4842\_afa3\_8064abfa530d |
+    | id | EAID\_c756cb92\_8f98\_4259\_b3d7\_32aa81288633 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

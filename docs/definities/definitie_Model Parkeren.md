@@ -406,7 +406,7 @@ Attributen van objecttype Parkeervlak
     | gemma_naam | Perkeerzone |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-e5293eea-47b8-4091-8ac3-b28139a17c9f](https://gemmaonline.nl/index.php/GEMMA/id-e5293eea-47b8-4091-8ac3-b28139a17c9f) |
-    | gemma_definitie |  |
+    | gemma_definitie | Een afgebakend gebied binnen een gemeente waar specifieke parkeerregels en -voorwaarden van toepassing zijn. |
     | gemma_toelichting |  |
     
 
@@ -623,7 +623,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_ae85ce60\_8dfb\_4fba\_b255\_6926ac237912 |
+    | id | EAID\_b754516c\_21b7\_41e9\_b104\_daf65826f25b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

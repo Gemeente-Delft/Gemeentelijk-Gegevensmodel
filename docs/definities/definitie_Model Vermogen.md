@@ -54,10 +54,10 @@ Het model 'Model Vermogen' kent de volgende objecttypen:
     | id | EAID\_03EFE25A\_4FE5\_1447\_088D\_262C4A161776 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Bankrekening |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-7afada33-db86-4f1b-9ad9-b61b65d6f5f5](https://gemmaonline.nl/index.php/GEMMA/id-7afada33-db86-4f1b-9ad9-b61b65d6f5f5) |
+    | gemma_definitie | De gegevens die betrekking hebben op een bankrekening van een PERSOON of een RECHTSPERSOON.Bron: SGR 16.0We kiezen er voor om bankrekening als zelfstandig concept op te nemen, omdat het mogelijk is dat eenzelfde bankrekening gekoppeld kan zijn aan meerdere personen. Voor rechtspersonen geldt dat een bankrekening maar aan ten hoogste 1 ORGANISATORISCHE EENHEID gekoppeld kan zijn. |
     | gemma_toelichting |  |
     
 
@@ -97,10 +97,10 @@ Attributen van objecttype Bankrekening
     | id | EAID\_ea276d3a\_268a\_4fd6\_b14e\_65ebe5b00fd1 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Hypotheek |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-58ef9445-7e2a-45cc-89c3-926d7702ac69](https://gemmaonline.nl/index.php/GEMMA/id-58ef9445-7e2a-45cc-89c3-926d7702ac69) |
+    | gemma_definitie | Een hypotheek is een lening waarbij een onroerend goed, zoals een woning, dient als onderpand voor de schuld. Het wordt doorgaans verstrekt door een financiële instelling, zoals een bank, en stelt de lener in staat om een woning te kopen of te bouwen. De lening wordt over een afgesproken periode terugbetaald, inclusief rente. Als de lener niet aan de betalingsverplichtingen voldoet, heeft de kredietverstrekker het recht om het onderpand te verkopen om de openstaande schuld te vereffenen. Een hypotheek is daarmee zowel een financieringsvorm als een juridische zekerheid voor de kredietverstrekker. |
     | gemma_toelichting |  |
     
 
@@ -133,10 +133,10 @@ Attributen van objecttype Hypotheek
     | id | EAID\_22B75B20\_9449\_DC93\_CF41\_2775EC76C492 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Motorvoertuig |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-aa204066-990d-44c0-adfd-e95bd3ef9cf5](https://gemmaonline.nl/index.php/GEMMA/id-aa204066-990d-44c0-adfd-e95bd3ef9cf5) |
+    | gemma_definitie | Een motorvoertuig is een voertuig dat is uitgerust met een motor als krachtbron en bedoeld is voor het vervoer van personen, goederen of het uitvoeren van specifieke taken. Het kan zich zelfstandig voortbewegen zonder de directe fysieke inspanning van een bestuurder of passagier. Voorbeelden van motorvoertuigen zijn auto’s, vrachtwagens, motorfietsen en bussen. Motorvoertuigen zijn doorgaans voorzien van wielen en rijden op de weg, en het gebruik ervan is vaak gebonden aan wettelijke regels, zoals registratie, verzekering en rijbewijsvereisten. |
     | gemma_toelichting |  |
     
 
@@ -170,10 +170,10 @@ Attributen van objecttype Motorvoertuig
     | id | EAID\_bed1faca\_3a71\_4ca5\_b9f7\_85f766a1c118 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Onroerend goed |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-4dda171a-92e0-46c4-bf32-16d930e97118](https://gemmaonline.nl/index.php/GEMMA/id-4dda171a-92e0-46c4-bf32-16d930e97118) |
+    | gemma_definitie | Onroerend goed is een juridische term die verwijst naar fysieke objecten die duurzaam met de grond zijn verbonden en niet zonder schade kunnen worden verplaatst. Dit omvat gronden, gebouwen, woningen en andere constructies die vast met de grond zijn verbonden, zoals bruggen of schuren. Onroerend goed wordt vaak onderscheiden van roerende zaken, die wel verplaatsbaar zijn. Het eigendom en de overdracht van onroerend goed zijn gebonden aan specifieke wettelijke regels, zoals registratie in openbare registers en het opstellen van notariële akten. |
     | gemma_toelichting |  |
     
 
@@ -206,9 +206,9 @@ Attributen van objecttype Onroerend goed
     | id | EAID\_08000E15\_8AA2\_AE9A\_89F0\_262C7C061238 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
+    | gemma_naam | Vermogenscomponent |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f7635b68-9821-40ae-b5e9-dbb6e941499f](https://gemmaonline.nl/index.php/GEMMA/id-f7635b68-9821-40ae-b5e9-dbb6e941499f) |
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
@@ -246,9 +246,9 @@ Attributen van objecttype Vermogenscomponent
     | id | EAID\_1C1EF3EA\_888E\_945B\_4A20\_27DB5B434D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
+    | gemma_naam | Waardepeiling |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-dd963202-c501-4bb9-86aa-acb9f0e0095b](https://gemmaonline.nl/index.php/GEMMA/id-dd963202-c501-4bb9-86aa-acb9f0e0095b) |
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
@@ -296,7 +296,7 @@ De enumeratie CdSrtVoertuig heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:00 |
-    | id | EAID\_9bd1fdb9\_e01a\_439c\_a649\_0108b3b0dca2 |
+    | id | EAID\_14ae53d7\_665b\_42ee\_aafd\_fdee8bf3a1ea |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -329,7 +329,7 @@ De enumeratie CdSrtVermogenscomponent heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:35:54 |
-    | id | EAID\_ec13c4f9\_8609\_4e79\_aabd\_9d8dc81817f5 |
+    | id | EAID\_0af8c6dc\_c4e8\_4cdc\_bf0c\_c58b42ab5db3 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -362,7 +362,7 @@ De enumeratie CdSrtWaardeVermogenscomponent heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:06 |
-    | id | EAID\_f399d5f6\_dbc6\_4168\_9562\_39257df332bb |
+    | id | EAID\_8c567118\_7b77\_49b8\_91de\_13b105992180 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

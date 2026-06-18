@@ -53,7 +53,7 @@ Het model 'Model Organisatie' kent de volgende objecttypen:
     | gemma_naam | Programma |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-5c865df8-3c62-4302-9a7b-eb5bd9ba6785](https://gemmaonline.nl/index.php/GEMMA/id-5c865df8-3c62-4302-9a7b-eb5bd9ba6785) |
-    | gemma_definitie | Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co√∂rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresulta |
+    | gemma_definitie | Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co√∂rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie. |
     | gemma_toelichting |  |
     
 

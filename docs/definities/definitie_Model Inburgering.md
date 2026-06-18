@@ -245,7 +245,7 @@ Attributen van objecttype B1-route
     | gemma_naam | Brede Intake |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-2d7f4231-96e8-4424-a656-c52473ea36dc](https://gemmaonline.nl/index.php/GEMMA/id-2d7f4231-96e8-4424-a656-c52473ea36dc) |
-    | gemma_definitie |  |
+    | gemma_definitie | De Brede Intake in het sociaal domein is een gestructureerd proces waarbij een hulpverlener samen met een inwoner diens situatie, behoeften, en problemen in kaart brengt om tot een integraal beeld te komen van wat nodig is om passende ondersteuning te bieden. Hierbij wordt niet alleen gekeken naar specifieke hulpvragen, zoals schulden of werkloosheid, maar ook naar onderliggende factoren, zoals gezondheidsproblemen, woonsituatie, en sociaal netwerk. Het doel is om vanuit een holistisch perspectief samenhangende oplossingen te vinden en de inwoner te ondersteunen bij het versterken van zelfredzaamheid en participatie. |
     | gemma_toelichting |  |
     
 
@@ -368,7 +368,7 @@ Attributen van objecttype Educatie
     | gemma_naam | Examen |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-ccce5500-2140-4928-9716-0132a31e9686](https://gemmaonline.nl/index.php/GEMMA/id-ccce5500-2140-4928-9716-0132a31e9686) |
-    | gemma_definitie |  |
+    | gemma_definitie | Een Examen in de context van onderwijs is een formele toetsingsactiviteit waarmee de kennis, vaardigheden en competenties van een leerling of student worden beoordeeld ten opzichte van vooraf vastgestelde leerdoelen of eindtermen. Het examen kan schriftelijk, mondeling, digitaal of praktijkgericht zijn en vormt doorgaans een afsluiting van een cursus, module of opleiding. Het behalen van een examen kan leiden tot het verkrijgen van een diploma, certificaat of overgangsbewijs en is bedoeld om de voortgang en geschiktheid voor verdere studie of beroep te waarborgen. |
     | gemma_toelichting |  |
     
 
@@ -450,7 +450,7 @@ Attributen van objecttype Examenonderdeel
     | gemma_naam | Gezinsmigrant en Overige migrant |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-61601c33-5b61-4bab-9191-e7eb1b1bca07](https://gemmaonline.nl/index.php/GEMMA/id-61601c33-5b61-4bab-9191-e7eb1b1bca07) |
-    | gemma_definitie | Object Inburgeraar is gespecialiseerd in Asielstatushouder en Gezinsmigrant en Overige Migrant.<br>Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties te leggen met objecten die alleen van toepassing zijn voor Gezinsmigrant en |
+    | gemma_definitie | Object Inburgeraar is gespecialiseerd in Asielstatushouder en Gezinsmigrant en Overige Migrant.<br>Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties te leggen met objecten die alleen van toepassing zijn voor Gezinsmigrant en Overige Migrant zoals bijvoorbeeld: object Aanvraag Sociale Lening. Hetzelfde geldt ook voor object Asielstatushouder, deze heeft overigens wel kenmerken. |
     | gemma_toelichting |  |
     
 
@@ -728,7 +728,7 @@ Attributen van objecttype Inburgeringstermijn
     | gemma_naam | Inburgeringstraject |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-e1620918-61a7-4cef-b0e2-6b8e206608c8](https://gemmaonline.nl/index.php/GEMMA/id-e1620918-61a7-4cef-b0e2-6b8e206608c8) |
-    | gemma_definitie |  |
+    | gemma_definitie | Een Inburgeringstraject in de context van inburgering bij gemeenten is een persoonlijk begeleidingstraject dat nieuwkomers ondersteunt bij het leren van de Nederlandse taal, het begrijpen van de samenleving, en het ontwikkelen van vaardigheden om zelfstandig te participeren in de Nederlandse maatschappij. Het traject omvat doorgaans onderdelen zoals taallessen (NT2), kennis van de Nederlandse maatschappij (KNM), en participatieactiviteiten, zoals vrijwilligerswerk of een werkstage. Het inburgeringstraject wordt afgestemd op de behoeften, achtergrond en mogelijkheden van de nieuwkomer en heeft als doel hen te begeleiden naar maatschappelijke zelfredzaamheid en een actieve rol in de samenleving. |
     | gemma_toelichting |  |
     
 
@@ -800,8 +800,8 @@ Attributen van objecttype Introductiemodule
     | domein_dcat |  |
     | gemma_naam | Leerroute |
     | gemma_type | business-object |
-    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ab441c2e-d5a6-4546-b1b8-a08d3bee1c07](https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ab441c2e-d5a6-4546-b1b8-a08d3bee1c07) |
-    | gemma_definitie |  |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-ab441c2e-d5a6-4546-b1b8-a08d3bee1c07](https://gemmaonline.nl/index.php/GEMMA/id-ab441c2e-d5a6-4546-b1b8-a08d3bee1c07) |
+    | gemma_definitie | Een Leerroute in het kader van inburgering is een gepersonaliseerd traject dat is afgestemd op de leer- en ontwikkelbehoeften van een inburgeringsplichtige, gericht op het behalen van de inburgeringsdoelen zoals vastgelegd in de Wet inburgering. Er zijn drie hoofdleerroutes: de B1-route, gericht op het leren van de Nederlandse taal op B1-niveau en voorbereiding op werk of opleiding; de Onderwijsroute, die nieuwkomers voorbereidt op vervolgonderwijs door het behalen van taalniveau B1 of hoger; en de Zelfredzaamheidsroute, bedoeld voor nieuwkomers met een grotere afstand tot de arbeidsmarkt, waarbij de nadruk ligt op het ontwikkelen van praktische taalvaardigheden en maatschappelijke zelfredzaamheid. Iedere leerroute combineert taalonderwijs met participatieactiviteiten en begeleiding, passend bij de persoonlijke situatie van de inburgeraar. |
     | gemma_toelichting |  |
     
 
@@ -1487,7 +1487,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_32fdec14\_b110\_452c\_a225\_c668ef83cb3b |
+    | id | EAID\_ceb0306d\_8b9c\_4da8\_b325\_58ee3ee0f273 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1524,7 +1524,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_a61723e2\_a33a\_4bea\_beeb\_fc3da1722189 |
+    | id | EAID\_b4dbf05e\_e256\_412e\_9bd9\_505cbcce0a90 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1563,7 +1563,7 @@ De enumeratie CodeNiveauOpleiding heeft de volgende kenmerken:
     | version | 1.9.0 |
     | created | 2025-06-17 16:01:14 |
     | modified | 2025-12-18 15:38:53 |
-    | id | EAID\_a548cefa\_1451\_4c59\_bdc8\_814bca9c0571 |
+    | id | EAID\_205e582f\_856b\_4e4f\_bcfd\_bcdacec1160e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

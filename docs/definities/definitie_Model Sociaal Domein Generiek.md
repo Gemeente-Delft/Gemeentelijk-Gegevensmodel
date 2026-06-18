@@ -173,10 +173,10 @@ Attributen van objecttype Clientbegeleider
     | id | EAID\_28BCD751\_DDE7\_42b6\_9E6B\_579B382BC84A |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Gerechtelijke uitspraak |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-ca96f3b1-dc95-4755-be20-c65951ad6f21](https://gemmaonline.nl/index.php/GEMMA/id-ca96f3b1-dc95-4755-be20-c65951ad6f21) |
+    | gemma_definitie | Een gerechtelijke uitspraak is een formele beslissing van een rechter of gerechtshof in een juridische procedure. Deze uitspraak bevat de beoordeling van de feiten, de toepassing van het recht en de uiteindelijke beslissing over het geschil dat aan de rechter is voorgelegd. Een gerechtelijke uitspraak kan verschillende vormen aannemen, zoals een vonnis, arrest, beschikking of een kortgedingbeslissing, afhankelijk van de aard van de procedure. Het doel van een gerechtelijke uitspraak is om een bindende oplossing te bieden voor het conflict tussen partijen, en het kan zowel betrekking hebben op civiele, strafrechtelijke, bestuursrechtelijke als andere juridische kwesties. |
     | gemma_toelichting |  |
     
 
@@ -208,10 +208,10 @@ Attributen van objecttype Gerechtelijke uitspraak
     | id | EAID\_C18BB25F\_536F\_4b80\_BC7C\_7855DF2D7389 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Gezagsverhouding |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-06225120-f05f-4ee7-b7c5-3e3ca208daba](https://gemmaonline.nl/index.php/GEMMA/id-06225120-f05f-4ee7-b7c5-3e3ca208daba) |
+    | gemma_definitie | Een gezagsverhouding is een juridische of feitelijke relatie tussen twee partijen, waarbij de ene partij (de gezagsdrager) bevoegd is om instructies of richtlijnen te geven, en de andere partij (de ondergeschikte) verplicht is deze op te volgen. Deze verhouding speelt een belangrijke rol in verschillende contexten, zoals arbeidsrelaties, waarbij een werkgever zeggenschap heeft over een werknemer, of familierecht, waar ouders gezag uitoefenen over hun minderjarige kinderen. Een gezagsverhouding impliceert doorgaans een zekere mate van hiërarchie en verantwoordelijkheid, waarbij de gezagsdrager verplicht is om zijn bevoegdheden zorgvuldig en in het belang van de ondergeschikte uit te oefenen. |
     | gemma_toelichting |  |
     
 
@@ -250,7 +250,7 @@ Attributen van objecttype Gezagsverhouding
     | gemma_naam | Huishouden |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-ffca91bc-ed2b-4885-9e04-7a459fd67cad](https://gemmaonline.nl/index.php/GEMMA/id-ffca91bc-ed2b-4885-9e04-7a459fd67cad) |
-    | gemma_definitie | persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continu√Øteit in de samenstelling ervan, die binnen een woning gebruik maakt van dezelfde voorzieningen |
+    | gemma_definitie | Persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continuiteit in de samenstelling ervan, die binnen een woning duurzaam gebruik maakt van dezelfde voorzieningen. |
     | gemma_toelichting |  |
     
 
@@ -283,9 +283,9 @@ Attributen van objecttype Huishouden
     | id | EAID\_418C04F0\_F173\_4775\_9814\_D50F5EE79A38 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
+    | gemma_naam | Incident |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-31a96e2b-cabe-4bb6-9bc7-efa2ab12e674](https://gemmaonline.nl/index.php/GEMMA/id-31a96e2b-cabe-4bb6-9bc7-efa2ab12e674) |
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
@@ -324,10 +324,10 @@ Attributen van objecttype Incident
     | id | EAID\_51A266C7\_3BDA\_457c\_9A32\_CD1B166CA5BF |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Leverancier |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-a83c4dc2-0e6c-472c-929c-1a2878c2f012](https://gemmaonline.nl/index.php/GEMMA/id-a83c4dc2-0e6c-472c-929c-1a2878c2f012) |
+    | gemma_definitie | Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie |
     | gemma_toelichting |  |
     
 
@@ -364,9 +364,9 @@ Attributen van objecttype Leverancier
     | id | EAID\_D8F2EAAD\_7C80\_4164\_8171\_C632F18A6742 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
+    | gemma_naam | Profiel |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-77d6fccd-a702-4c76-a90b-88df92d81d6c](https://gemmaonline.nl/index.php/GEMMA/id-77d6fccd-a702-4c76-a90b-88df92d81d6c) |
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
@@ -475,10 +475,10 @@ Attributen van objecttype Relatiesoort
     | id | EAID\_A0D437D2\_BE13\_45a2\_8C8D\_1AE953B9404C |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Sociale Groep |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f66e8c3b-0492-493a-a087-84bcc834581a](https://gemmaonline.nl/index.php/GEMMA/id-f66e8c3b-0492-493a-a087-84bcc834581a) |
+    | gemma_definitie | Een sociale groep is een verzameling van twee of meer individuen die met elkaar interacteren, gemeenschappelijke waarden, normen of doelen delen, en een gevoel van saamhorigheid of identiteit hebben. Sociale groepen kunnen variëren in omvang en structuur, van kleine, informele groepen zoals een gezin of vriendengroep tot grote, formele organisaties zoals verenigingen of professionele netwerken. Het lidmaatschap van een sociale groep beïnvloedt vaak het gedrag en de sociale interacties van de leden en speelt een belangrijke rol in de vorming van persoonlijke en sociale identiteiten. |
     | gemma_toelichting |  |
     
 
@@ -515,10 +515,10 @@ Attributen van objecttype Sociale Groep
     | id | EAID\_CD519902\_210F\_4355\_8B24\_EAD513F61966 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Sociale Relatie |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-fbd8e696-0ad0-4dfb-883f-c21d24da3579](https://gemmaonline.nl/index.php/GEMMA/id-fbd8e696-0ad0-4dfb-883f-c21d24da3579) |
+    | gemma_definitie | Een sociale relatie is een duurzame en wederzijdse verbinding tussen twee of meer individuen, gebaseerd op interactie, communicatie en sociale normen. Sociale relaties kunnen verschillende vormen aannemen, zoals persoonlijke (bijvoorbeeld vriendschappen of familiebanden), professionele (zoals collega’s of werkgever-werknemer) of maatschappelijke relaties (bijvoorbeeld tussen buren of leden van een gemeenschap). Ze worden gekenmerkt door wederzijdse verwachtingen en beïnvloeden vaak het gedrag, de gevoelens en de sociale positie van de betrokken personen. Sociale relaties spelen een cruciale rol in het opbouwen van sociale netwerken en het functioneren van samenlevingen. |
     | gemma_toelichting |  |
     
 
@@ -597,7 +597,7 @@ De enumeratie enum_Incidenttype heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:12:50 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_61d1f9b8\_763e\_42f1\_bc44\_fb970a5ed70c |
+    | id | EAID\_f8c799d8\_6dc0\_48ec\_b701\_869e29111c42 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

@@ -183,7 +183,7 @@ Attributen van objecttype AanvraagOfMelding
     | gemma_naam | Afspraakstatus |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-93731fcf-2b7f-42f2-9f94-6f6f80ce0067](https://gemmaonline.nl/index.php/GEMMA/id-93731fcf-2b7f-42f2-9f94-6f6f80ce0067) |
-    | gemma_definitie |  |
+    | gemma_definitie | de toestand van de afspraak |
     | gemma_toelichting |  |
     
 
@@ -254,7 +254,7 @@ Attributen van objecttype Artikel
     | gemma_naam | Balieafspraak |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-8fd2ff34-a208-4924-bec3-b5ee7e5e7a18](https://gemmaonline.nl/index.php/GEMMA/id-8fd2ff34-a208-4924-bec3-b5ee7e5e7a18) |
-    | gemma_definitie | Balieafspraken zijn afspraken voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden of gaat plaatsvinden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaats |
+    | gemma_definitie | Balieafspraken zijn afspraken voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden of gaat plaatsvinden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden. |
     | gemma_toelichting | Dit ongeacht of deze werkelijk heeft plaatsgevonden of gaat plaatsvinden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden. |
     
 
@@ -612,7 +612,7 @@ Attributen van objecttype ProductOfDienst
     | gemma_naam | Telefoononderwerp |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-c604ce01-282e-4d1a-ade9-d1a4c1938f4e](https://gemmaonline.nl/index.php/GEMMA/id-c604ce01-282e-4d1a-ade9-d1a4c1938f4e) |
-    | gemma_definitie |  |
+    | gemma_definitie | Onderwerp waarover het telefooncontact gaat |
     | gemma_toelichting |  |
     
 
@@ -694,7 +694,7 @@ Attributen van objecttype Telefoonstatus
     | gemma_naam | Telefoontje |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-32052c54-e099-47e7-8ded-599537226dfa](https://gemmaonline.nl/index.php/GEMMA/id-32052c54-e099-47e7-8ded-599537226dfa) |
-    | gemma_definitie | De telefoontjes zijn alle keren dat iemand naar de gemeente belt en het telefoonsysteem neemt deze telefoontjes aan. Ongeacht of iemand daarna ophangt, door het systeem uit de wachtrij wordt gezet, doorverbonden wordt met een derde partij of er werkelijk |
+    | gemma_definitie | De telefoontgesprekken zijn alle keren dat iemand naar de gemeente belt en het telefoonsysteem neemt deze telefoongesprekken aan. Ongeacht of iemand daarna ophangt, door het systeem uit de wachtrij wordt gezet, doorverbonden wordt met een derde partij of er werkelijk wordt opgenomen. |
     | gemma_toelichting |  |
     
 
@@ -746,7 +746,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_96d24917\_9aef\_45ef\_bdfd\_5993531b784e |
+    | id | EAID\_b9b43f97\_80e5\_4c73\_aed3\_c490afbc8e23 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

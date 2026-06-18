@@ -186,10 +186,10 @@ Attributen van objecttype Huisvestingsoort
     | id | EAID\_07784236\_3AA6\_45e5\_8253\_7D088C4020B0 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Inkomensvoorziening |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-9f48e45c-d6d8-4208-b4ea-d1b8317d79f2](https://gemmaonline.nl/index.php/GEMMA/id-9f48e45c-d6d8-4208-b4ea-d1b8317d79f2) |
+    | gemma_definitie | Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving |
     | gemma_toelichting |  |
     
 
@@ -402,10 +402,10 @@ Attributen van objecttype RedenUitstroom
     | id | EAID\_C25455F3\_FEB0\_4c6d\_9AA4\_3B027718BEE3 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Regeling |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-4613c364-53f2-445d-a392-3b6661533a71](https://gemmaonline.nl/index.php/GEMMA/id-4613c364-53f2-445d-a392-3b6661533a71) |
+    | gemma_definitie | Verzamelnaam voor AMvB’s, Ministeriële regelingen, lokale verordeningen, etc. De regeling is de meest concrete uitleg van de wet. |
     | gemma_toelichting |  |
     
 
@@ -533,7 +533,7 @@ De enumeratie Wet heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:12:49 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_06a6c220\_7c15\_47ee\_8186\_fece3e0fafc8 |
+    | id | EAID\_060cd9ef\_31d4\_426d\_8d2e\_afe71d76a174 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

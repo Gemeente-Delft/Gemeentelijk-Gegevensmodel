@@ -45,6 +45,11 @@ vars:
   GGM_PREVIOUS_SCHEMA_RAW: "GGM_PREVIOUS_SCHEMA_RAW"
   GGM_PREVIOUS_SCHEMA: "GGM_PREVIOUS_SCHEMA"
   CRUNCH_UML_DB: "./crunch_uml.db"
+  # crunch_uml draait in een eigen venv (eigen site-packages) i.p.v. de systeem-homebrew-python,
+  # zodat een 'brew upgrade python' de pipeline niet meer breekt. Zie taak prepare:venv-crunch.
+  CRUNCH_UML_VERSION: "0.4.11"
+  CRUNCH_VENV: "tools/.venv-crunch"
+  CRUNCH: "tools/.venv-crunch/bin/crunch_uml"
   DOCS: "./docs"
   DEFS: "./docs/definities"
   PUBLISH: "false"
@@ -59,9 +64,9 @@ tasks:
     desc: "Check for pre conditions. Verify required tools are installed."
     cmds:
       - |
-        # Lijst van vereiste tools en hun download-URLs
+        # Lijst van vereiste tools en hun download-URLs.
+        # crunch_uml staat hier NIET meer in: dat draait in een eigen venv (prepare:venv-crunch).
         declare -A tools=(
-          ["crunch_uml"]="https://github.com/brienen/crunch_uml"
           ["mkdocs"]="https://www.mkdocs.org"
           ["mike"]="https://github.com/jimporter/mike"
           ["jq"]="https://stedolan.github.io/jq"
@@ -112,12 +117,30 @@ tasks:
         echo "VERSION {{.VERSION}} and Versiondir {{.VERSION_DIR}} are valid..."
     shell: bash
 
+  prepare:venv-crunch:
+    desc: "Zorg voor een geïsoleerde venv met crunch_uml, ongevoelig voor brew-python-upgrades."
+    cmds:
+      - |
+        # crunch_uml draait in een eigen venv ({{.CRUNCH_VENV}}) met eigen site-packages,
+        # zodat 'brew upgrade python' de tool niet meer breekt. De venv wordt (her)opgebouwd
+        # zodra hij ontbreekt of stuk is (bv. nadat een python-upgrade het symlink brak).
+        VENV="{{.CRUNCH_VENV}}"
+        if ! "$VENV/bin/python" -c "import crunch_uml" >/dev/null 2>&1; then
+          echo "Aanmaken/herstellen crunch_uml-venv in $VENV (crunch_uml=={{.CRUNCH_UML_VERSION}})..."
+          rm -rf "$VENV"
+          { command -v python3.11 >/dev/null 2>&1 && python3.11 -m venv "$VENV"; } || python3 -m venv "$VENV"
+          "$VENV/bin/python" -m pip install --quiet --upgrade pip
+          "$VENV/bin/python" -m pip install --quiet "crunch_uml=={{.CRUNCH_UML_VERSION}}"
+          echo "crunch_uml-venv klaar."
+        fi
+    shell: bash
+
   # ==========================================================================
   # Import; model(len) inladen in Crunch UML vanuit de XMI export
   # ==========================================================================
   import:model:
     desc: "Import the XMI file into Crunch UML Database."
-    deps: [prepare:check-tools, prepare:check-vars]
+    deps: [prepare:check-tools, prepare:check-vars, prepare:venv-crunch]
     cmds:
       - |
         if [ ! -f "{{.XMI}}" ]; then
@@ -125,9 +148,9 @@ tasks:
           exit 1
         fi
       - echo "Importing XMI file '{{.XMI}}' into Crunch UML..."
-      - crunch_uml import -f "{{.XMI}}" -t eaxmi -db_create
+      - '{{.CRUNCH}} import -f "{{.XMI}}" -t eaxmi -db_create'
       - echo "Copying Core GGM Model to {{.GGM_ROOT_SCHEMA}}..."
-      - crunch_uml transform -ttp copy -sch_to "{{.GGM_ROOT_SCHEMA}}" -rt_pkg "{{.ROOT_GGM}}"
+      - '{{.CRUNCH}} transform -ttp copy -sch_to "{{.GGM_ROOT_SCHEMA}}" -rt_pkg "{{.ROOT_GGM}}"'
       - echo "Crunch database successfully created and setup..."
     shell: bash
     sources:
@@ -146,9 +169,9 @@ tasks:
           exit 1
         fi
       - echo "Importing XMI file '{{.PREVIOUS_XMI}}' into Crunch UML schema {{.GGM_PREVIOUS_SCHEMA_RAW}}..."
-      - crunch_uml -sch {{.GGM_PREVIOUS_SCHEMA_RAW}} import -f "{{.PREVIOUS_XMI}}" -t eaxmi
+      - '{{.CRUNCH}} -sch {{.GGM_PREVIOUS_SCHEMA_RAW}} import -f "{{.PREVIOUS_XMI}}" -t eaxmi'
       - echo "Copying {{.GGM_PREVIOUS_SCHEMA_RAW}} GGM Model to {{.GGM_PREVIOUS_SCHEMA}}..."
-      - crunch_uml transform -ttp copy -sch_from "{{.GGM_PREVIOUS_SCHEMA_RAW}}" -sch_to "{{.GGM_PREVIOUS_SCHEMA}}" -rt_pkg "{{.ROOT_GGM}}"
+      - '{{.CRUNCH}} transform -ttp copy -sch_from "{{.GGM_PREVIOUS_SCHEMA_RAW}}" -sch_to "{{.GGM_PREVIOUS_SCHEMA}}" -rt_pkg "{{.ROOT_GGM}}"'
       - echo "Successfully added previous schema to Crunch database..."
     shell: bash
     sources:
@@ -168,7 +191,7 @@ tasks:
       - echo "Generating Markdown documentation..."
       - mkdir -p "{{.DEFS}}"
       - rm -rf "{{.DEFS}}"/*.md
-      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t jinja2 --output_jinja2_template ggm_markdown.j2 -f "{{.DEFS}}/definitie.md" --output_jinja2_templatedir ./tools/
+      - '{{.CRUNCH}} -sch "{{.GGM_ROOT_SCHEMA}}" export -t jinja2 --output_jinja2_template ggm_markdown.j2 -f "{{.DEFS}}/definitie.md" --output_jinja2_templatedir ./tools/'
       - |
         # Vervang de versies in de uitwisselspecificatie-templates
         # Loop door alle .template-bestanden in de directory en submappen
@@ -211,11 +234,11 @@ tasks:
         for LANG in $LANGUAGES; do
           TRANSLATION_SCHEMA="translation_$LANG"
           echo "Processing language: $LANG..."
-          crunch_uml transform -ttp copy -sch_to $TRANSLATION_SCHEMA --root_package "{{.ROOT_GGM}}"
-          crunch_uml -sch $TRANSLATION_SCHEMA import -f "{{.i18N_FILE}}" -t i18n --language $LANG
+          {{.CRUNCH}} transform -ttp copy -sch_to $TRANSLATION_SCHEMA --root_package "{{.ROOT_GGM}}"
+          {{.CRUNCH}} -sch $TRANSLATION_SCHEMA import -f "{{.i18N_FILE}}" -t i18n --language $LANG
           TRANSLATION_FILE="{{.TRANSLATIONS_DIR}}/${FILENAME}_${LANG}.qea"
           cp -f "{{.GGM}}" "$TRANSLATION_FILE"
-          crunch_uml -sch $TRANSLATION_SCHEMA export -f "$TRANSLATION_FILE" -t earepo --tag_strategy update
+          {{.CRUNCH}} -sch $TRANSLATION_SCHEMA export -f "$TRANSLATION_FILE" -t earepo --tag_strategy update
         done
     shell: bash
     sources:
@@ -229,7 +252,7 @@ tasks:
     deps: [import:model]
     cmds:
       - echo "Generating Excel specification..."
-      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t xlsx -f "{{.EXCEL}}"
+      - '{{.CRUNCH}} -sch "{{.GGM_ROOT_SCHEMA}}" export -t xlsx -f "{{.EXCEL}}"'
     shell: bash
 
   generate:lod:
@@ -237,7 +260,7 @@ tasks:
     deps: [import:model]
     cmds:
       - echo "Generating Lod specification..."
-      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t ttl -f "{{.LOD}}" --linked_data_namespace {{.LINKED_DATA_NS}}
+      - '{{.CRUNCH}} -sch "{{.GGM_ROOT_SCHEMA}}" export -t ttl -f "{{.LOD}}" --linked_data_namespace {{.LINKED_DATA_NS}}'
     shell: bash
 
   generate:mim:
@@ -245,7 +268,7 @@ tasks:
     deps: [import:model]
     cmds:
       - echo "Generating MIM version in repo "{{.MIM}}"..."
-      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t eamimrepo -f "{{.MIM}}" --tag_strategy upsert
+      - '{{.CRUNCH}} -sch "{{.GGM_ROOT_SCHEMA}}" export -t eamimrepo -f "{{.MIM}}" --tag_strategy upsert'
     shell: bash
 
   generate:diff:
@@ -253,7 +276,7 @@ tasks:
     deps: [import:model, import:previous]
     cmds:
       - echo "Generating changes between version {{.PREVIOUS_VERSION}} and {{.VERSION}} in file {{.CHANGES_MD}}..."
-      - crunch_uml -sch "{{.GGM_PREVIOUS_SCHEMA}}" export -t diff_md -f "{{.CHANGES_MD}}" --compare_schema_name "{{.GGM_ROOT_SCHEMA}}" --compare_title "Changes from {{.PREVIOUS_VERSION}} to {{.VERSION}}"
+      - '{{.CRUNCH}} -sch "{{.GGM_PREVIOUS_SCHEMA}}" export -t diff_md -f "{{.CHANGES_MD}}" --compare_schema_name "{{.GGM_ROOT_SCHEMA}}" --compare_title "Changes from {{.PREVIOUS_VERSION}} to {{.VERSION}}"'
     shell: bash
 
   generate:gemma:
@@ -380,7 +403,7 @@ tasks:
   # ==========================================================================
   util:import-xlsx:
     desc: "Import an Excel file into Crunch UML Database and apply changes to the EA-repository."
-    deps: [prepare:check-tools, prepare:check-vars]
+    deps: [prepare:check-tools, prepare:check-vars, prepare:venv-crunch]
     cmds:
       - |
         if [ ! -f "{{.EXCEL}}" ]; then
@@ -388,12 +411,12 @@ tasks:
           exit 1
         fi
       - echo "Importing Excel file '{{.EXCEL}}' into Crunch UML..."
-      - crunch_uml import -f "{{.EXCEL}}" -t xlsx -db_create
+      - '{{.CRUNCH}} import -f "{{.EXCEL}}" -t xlsx -db_create'
       - echo "Copying Core GGM Model to {{.GGM_ROOT_SCHEMA}}..."
-      - crunch_uml transform -ttp copy -sch_to "{{.GGM_ROOT_SCHEMA}}" -rt_pkg "{{.ROOT_GGM}}"
+      - '{{.CRUNCH}} transform -ttp copy -sch_to "{{.GGM_ROOT_SCHEMA}}" -rt_pkg "{{.ROOT_GGM}}"'
       - echo "Crunch database successfully created and loaded with Excel file..."
       - echo "Loading changes into EA-repository..."
-      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -f "{{.GGM}}" -t earepo --tag_strategy upsert
+      - '{{.CRUNCH}} -sch "{{.GGM_ROOT_SCHEMA}}" export -f "{{.GGM}}" -t earepo --tag_strategy upsert'
       - echo "Data successfully loaded into repository..."
     shell: bash
 
@@ -413,7 +436,7 @@ tasks:
           for LANG in "${LANG_ARRAY[@]}"; do
             LANG=$(echo "$LANG" | xargs)  # trim spaties
             echo "Translating GGM to language $LANG..."
-            crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t i18n -f "{{.i18N_FILE}}" --language "$LANG" --translate True --from_language "nl"
+            {{.CRUNCH}} -sch "{{.GGM_ROOT_SCHEMA}}" export -t i18n -f "{{.i18N_FILE}}" --language "$LANG" --translate True --from_language "nl"
 
             if [ $? -eq 0 ]; then
               echo "Translation for language $LANG completed successfully."

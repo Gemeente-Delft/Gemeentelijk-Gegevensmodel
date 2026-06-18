@@ -235,7 +235,7 @@ Attributen van objecttype Dienstverband
     | id | EAID\_50F3F931\_38F4\_4ff0\_8CE4\_8A51056767E0 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | DisciplinaireMaatregel |
+    | gemma_naam | Disciplinaire Maatregel |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-fd61984f-002e-465f-90c7-6a68cc692094](https://gemmaonline.nl/index.php/GEMMA/id-fd61984f-002e-465f-90c7-6a68cc692094) |
     | gemma_definitie | Een besluit dat wordt opgelegd wanneer een persoon zijn verplichtingen niet of niet op de juiste wijze nakomt, of zich op andere wijze misdraagt. |
@@ -465,7 +465,7 @@ Attributen van objecttype Geweldsincident
     | id | EAID\_B64178F1\_7D37\_4a77\_BEF7\_97E8C9DDA4E8 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | IndividueelKeuzebudget |
+    | gemma_naam | Individueel Keuzebudget |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-3272f8ca-9302-4da5-810b-7b8c4d02d79b](https://gemmaonline.nl/index.php/GEMMA/id-3272f8ca-9302-4da5-810b-7b8c4d02d79b) |
     | gemma_definitie | Bedrag dat feitelijk beschikbaar gesteld wordt voor een individu om een bepaalde keus te kunnen maken |

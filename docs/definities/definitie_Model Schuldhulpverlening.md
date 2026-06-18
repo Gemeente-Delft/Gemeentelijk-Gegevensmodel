@@ -123,10 +123,10 @@ Het model 'Model Schuldhulpverlening' kent de volgende objecttypen:
     | id | EAID\_1CE06538\_3F4A\_45ac\_AE86\_30A4250D3608 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Aanmelding |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f97aa7c4-dcb8-4965-9a15-e83a46aaeb03](https://gemmaonline.nl/index.php/GEMMA/id-f97aa7c4-dcb8-4965-9a15-e83a46aaeb03) |
+    | gemma_definitie | Moment dat een persoon met een hulpvraag komt rondom (dreigende) schulden. Dit kan een persoonlijke, schriftelijke, digitale of telefonische vraag zijn. |
     | gemma_toelichting |  |
     
 
@@ -161,10 +161,10 @@ Attributen van objecttype Aanmelding
     | id | EAID\_A1F16832\_3F28\_4441\_8538\_74BF04A48562 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Begeleiding |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-a023e4d1-100a-45e9-a8c8-2f30e4692738](https://gemmaonline.nl/index.php/GEMMA/id-a023e4d1-100a-45e9-a8c8-2f30e4692738) |
+    | gemma_definitie | Begeleiding voor clienten in het kader van schuldhulpdienstverlening, die kan bestaan uit:<br>1. budgetbeheer<br>2. beschermingsbewind<br>3. budgetcoaching |
     | gemma_toelichting |  |
     
 
@@ -235,10 +235,10 @@ Attributen van objecttype Begeleidingssoort
     | id | EAID\_B9287881\_AD66\_4396\_A629\_ED5FE9196316 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Contactpersoon |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-c5b61ad3-a1e4-479f-9a91-9197c67ae07f](https://gemmaonline.nl/index.php/GEMMA/id-c5b61ad3-a1e4-479f-9a91-9197c67ae07f) |
+    | gemma_definitie | Contactpersoon van een organisatie |
     | gemma_toelichting |  |
     
 
@@ -291,10 +291,10 @@ Attributen van objecttype Contactpersoon
     | id | EAID\_0E3205DA\_BC88\_425b\_AF68\_882BFB316812 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Crisisinterventie |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-51f30421-e6f3-4a40-ae96-5bf68287dbd0](https://gemmaonline.nl/index.php/GEMMA/id-51f30421-e6f3-4a40-ae96-5bf68287dbd0) |
+    | gemma_definitie | Het afwenden van een crisis- of dreigende situatie om zo de mogelijkheid te creëren om de klant te helpen via de reguliere schuldhulpverlening.<br>Volgens de Wgs gaat het in elk geval om de volgende situaties:<br>- gedwongen woningontruiming;<br>- beëindiging van de levering van gas, water, elektriciteit of stadsverwarming;<br>- opzegging of ontbinding van de zorgverzekering.<br>Gemeenten kunnen extra situaties toevoegen aan hun crisisprotocol, zoals:<br>- aangekondigde boedelverkoop of verkoop van de eigen woning;<br>- loon- of bankbeslag;<br>- een faillissementsaanvraag.<br>En voor ondernemers:<br>- beslag op (on)roerende zaken dat het voortbestaan van de onderneming bedreigt;<br>- opzegging van het bankkrediet. |
     | gemma_toelichting |  |
     
 
@@ -328,9 +328,9 @@ Attributen van objecttype Crisisinterventie
     | id | EAID\_7CC8C026\_91CB\_422c\_84C6\_90401889F260 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
+    | gemma_naam | InformatieEnAdvies |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-fa48cf8d-0b1d-4be2-8003-9b905d9eafde](https://gemmaonline.nl/index.php/GEMMA/id-fa48cf8d-0b1d-4be2-8003-9b905d9eafde) |
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
@@ -365,10 +365,10 @@ Attributen van objecttype InformatieEnAdvies
     | id | EAID\_B2A3D4C2\_236C\_457f\_A2C8\_8F889C1427E9 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Inkomen |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-bcd66a92-7fc3-4957-bccb-41acfbc8ea73](https://gemmaonline.nl/index.php/GEMMA/id-bcd66a92-7fc3-4957-bccb-41acfbc8ea73) |
+    | gemma_definitie | Inkomen dat door een persoon wordt verworven uit verschillende mogelijke inkomstenbronnen: inkomen uit arbeid, inkomen uit eigen onderneming, uitkering inkomensverzekeringen en uitkering sociale voorzieningen (m.u.v. kinderbijslag en kindgebonden budget). Premies inkomensverzekeringen (m.u.v. premies voor volksverzekeringen) zijn hierop in mindering gebracht. |
     | gemma_toelichting |  |
     
 
@@ -406,10 +406,10 @@ Attributen van objecttype Inkomen
     | id | EAID\_F20A11B2\_0C6F\_4a52\_95BF\_AB73997C3378 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Intake |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-7b29c26c-3fd0-478f-9715-f8f3d42a11e0](https://gemmaonline.nl/index.php/GEMMA/id-7b29c26c-3fd0-478f-9715-f8f3d42a11e0) |
+    | gemma_definitie | Dit is de fase tussen het eerste gesprek en het Plan van Aanpak. Tijdens de<br>intakefase wordt geinventariseerd welke instrumenten, ondersteuning, activiteiten en gegevens nodig zijn om een duurzaam financieel<br>evenwicht te bereiken. |
     | gemma_toelichting |  |
     
 
@@ -445,10 +445,10 @@ Attributen van objecttype Intake
     | id | EAID\_5CC59215\_5A63\_4ef8\_9D64\_C4FAC0619121 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Leefsituatie |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-fd84565d-63d3-44a1-84e0-cd0f580cb2ad](https://gemmaonline.nl/index.php/GEMMA/id-fd84565d-63d3-44a1-84e0-cd0f580cb2ad) |
+    | gemma_definitie | Leefsituatie is de combinatie van factoren zoals schulden, ondernemerschap, aanwezigheid van een partner, en inkomen, die samen de sociale en economische omstandigheden van een individu bepalen. Deze wordt in het kader van schuldhulpverlening gebruikt om alle relevante zaken van clienten aan te koppelen. |
     | gemma_toelichting |  |
     
 
@@ -493,10 +493,10 @@ Attributen van objecttype Leefsituatie
     | id | EAID\_5FC12BE5\_75F0\_4dd9\_8DA7\_993C03F3700A |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Moratorium |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-2a311135-75e3-4a0e-a73a-4b79c14c4a85](https://gemmaonline.nl/index.php/GEMMA/id-2a311135-75e3-4a0e-a73a-4b79c14c4a85) |
+    | gemma_definitie | Het gaat hier om de datum waarop een verzoek tot een moratorium (ex art. 287 b Fw) is ingediend bij de rechter.<br>Er kan een verzoek tot een moratorium bij de rechter worden gedaan om te voorkomen dat een schuldeiser zijn specifieke inningsmogelijkheden gebruikt, terwijl een aanvraag voor een minnelijke schuldregeling in behandeling is. Het moratorium is bedoeld om het minnelijke traject te kunnen voortzetten.<br>Het moratorium kan in de volgende situaties worden ingezet:<br>- gedwongen woningontruiming;<br>- beëindiging van de levering van gas, water elektriciteit of stadsverwarming;<br>- opzegging dan wel ontbinding van de zorgverzekering.<br>Het moratorium duurt maximaal zes maanden. |
     | gemma_toelichting |  |
     
 
@@ -532,10 +532,10 @@ Attributen van objecttype Moratorium
     | id | EAID\_551A527B\_A2E2\_4409\_968B\_D1BE4612EB3C |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Nazorg |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-1bc6ead2-f8ee-40e9-9dc4-297be3546b4e](https://gemmaonline.nl/index.php/GEMMA/id-1bc6ead2-f8ee-40e9-9dc4-297be3546b4e) |
+    | gemma_definitie | Ondersteuning die een persoon ontvangt ná een schuldhulptraject, om zo bij de start van een schuldenvrij leven zelfredzaamheid verder te bevorderen én recidive (terugval) te voorkomen. |
     | gemma_toelichting |  |
     
 
@@ -569,10 +569,10 @@ Attributen van objecttype Nazorg
     | id | EAID\_AA004853\_3565\_4634\_A434\_BD7F36ED0B1A |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Ondernemer |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-348721fc-a795-4292-8d90-f4951d252c5a](https://gemmaonline.nl/index.php/GEMMA/id-348721fc-a795-4292-8d90-f4951d252c5a) |
+    | gemma_definitie | Een ondernemer is een individu die die goederen of diensten levert aan anderen om winst te maken. |
     | gemma_toelichting |  |
     
 
@@ -606,10 +606,10 @@ Attributen van objecttype Ondernemer
     | id | EAID\_7E274EE0\_FB77\_43ef\_ABCB\_91ACF0ACD469 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Oplossing |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-9b4aa5f0-e7f3-46c1-b0c5-fabfd2b215e4](https://gemmaonline.nl/index.php/GEMMA/id-9b4aa5f0-e7f3-46c1-b0c5-fabfd2b215e4) |
+    | gemma_definitie | De Oplossing beschrijft in 5 submodules wat de schuldhulpverlener doet om een oplossing te realiseren, en kent de volgende submodules:<br>- submodule Herfinanciering;<br>- submodule Betalingsregeling;<br>- submodule Saneringskrediet;<br>- submodule Schuldbemiddeling.<br>Het kan ook gaan om een 0%-aanbod |
     | gemma_toelichting |  |
     
 
@@ -681,10 +681,10 @@ Attributen van objecttype Oplossingssoort
     | id | EAID\_093B2482\_D72E\_4f88\_931C\_75C9DABED007 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Partner |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-00235c33-37bf-44d9-a511-91ab8a5256f1](https://gemmaonline.nl/index.php/GEMMA/id-00235c33-37bf-44d9-a511-91ab8a5256f1) |
+    | gemma_definitie | Een partner is een persoon met wie iemand een romantische en vaak langdurige relatie heeft, gebaseerd op wederzijdse liefde, steun en commitment. |
     | gemma_toelichting |  |
     
 
@@ -728,10 +728,10 @@ Attributen van objecttype Partner
     | id | EAID\_7DA4A554\_10BF\_47d1\_ACED\_966712B043F4 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | PlanVanAanpak |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-c88738dc-57a8-4da0-9364-89596483740e](https://gemmaonline.nl/index.php/GEMMA/id-c88738dc-57a8-4da0-9364-89596483740e) |
+    | gemma_definitie | Een document waarin in elk geval het volgende staat:<br>- de hulpvraag van de persoon;<br>- de voorgestelde ondersteuning;<br>- eventueel de organisatie(s) waarnaar je hebt doorverwezen;<br>- de voorwaarden voor schuldhulpverlening (bijvoorbeeld dat de persoon geen nieuwe schulden mag maken).<br>De hoogte van beslagvrije voet voor de persoon (zie artikel 4a:5 van de Wgs) moet in acht worden genomen. |
     | gemma_toelichting |  |
     
 
@@ -764,10 +764,10 @@ Attributen van objecttype PlanVanAanpak
     | id | EAID\_93E12A3E\_71E3\_431e\_9871\_BF6075EAAEF1 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Schuld |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-1255cd88-29f9-41e2-8b27-5baae5b4cef1](https://gemmaonline.nl/index.php/GEMMA/id-1255cd88-29f9-41e2-8b27-5baae5b4cef1) |
+    | gemma_definitie | Een schuld is een financiële verplichting waarbij een persoon nu of in de toekomst een bedrag moet betalen aan een derde. In het kader van schuldhulpverlening wordt over een schuld gesproken als de persoon niet aan deze verplichting kan voldoen. . |
     | gemma_toelichting |  |
     
 
@@ -803,10 +803,10 @@ Attributen van objecttype Schuld
     | id | EAID\_DCDAD212\_479E\_4fc3\_B886\_585AE57D8C21 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Schuldeiser |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-8f1471e4-efcb-45e9-bc31-4ebf39e6abff](https://gemmaonline.nl/index.php/GEMMA/id-8f1471e4-efcb-45e9-bc31-4ebf39e6abff) |
+    | gemma_definitie | Een schuldeiser is bedrijf of persoon die recht heeft op een prestatie van een ander, de schuldenaar. In de meeste gevallen is de prestatie het betalen van geld. Dit geldbedrag is dan de schuld die de schuldenaar aan de schuldeiser moet betalen. De schuld is meestal het gevolg van het niet nakomen van een verplichting uit een overeenkomst tussen de partijen. De schuldeiser kan de schuldenaar dwingen om de schuld te voldoen. |
     | gemma_toelichting |  |
     
 
@@ -842,10 +842,10 @@ Attributen van objecttype Schuldeiser
     | id | EAID\_A947042E\_7CA6\_44f8\_902A\_1C1185A391F6 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Schuldhulporganisatie |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-25eb4ce3-0e90-4313-be1b-f5bee162f788](https://gemmaonline.nl/index.php/GEMMA/id-25eb4ce3-0e90-4313-be1b-f5bee162f788) |
+    | gemma_definitie | Een schuldhulporganisatie is een instantie die individuen en gezinnen helpt met het beheren, verminderen en oplossen van hun schulden door middel van advies, begeleiding en bemiddeling.<br>Het betreft een gemeenten of een SHV-organisatie die de gemeentelijke schuldhulpverleningstaak vanuit een gemeente gemandateerd of gedelegeerd heeft. |
     | gemma_toelichting |  |
     
 
@@ -878,10 +878,10 @@ Attributen van objecttype Schuldhulporganisatie
     | id | EAID\_839017B2\_0F95\_42d0\_AB2B\_E873636340DA |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Schuldhulptraject |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-a639deb6-a955-4f22-b6db-2c64f3abe044](https://gemmaonline.nl/index.php/GEMMA/id-a639deb6-a955-4f22-b6db-2c64f3abe044) |
+    | gemma_definitie | Samenstel van achtereenvolgens uit te voeren en onderling samenhangende deelhandelingen of van opeenvolgende stadia in een proces, voorgesteld als een route die via opeenvolgende bestemmingen naar de eindbestemming voert. |
     | gemma_toelichting |  |
     
 
@@ -918,10 +918,10 @@ Attributen van objecttype Schuldhulptraject
     | id | EAID\_652A68C3\_618E\_4050\_AD4C\_E43469A7558C |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Schuldregeling |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-a5527ada-f26c-4fe6-8f8b-adba3920f398](https://gemmaonline.nl/index.php/GEMMA/id-a5527ada-f26c-4fe6-8f8b-adba3920f398) |
+    | gemma_definitie | De schuldregeling heeft als doel een overeenkomst te sluiten tussen iemand met problematische schulden en zijn schuldeisers. Op basis van eventueel ingezet vermogen en de berekende afloscapaciteit (of op andere wijze vastgestelde minimale afdracht) lost de schuldenaar in maximaal 18 maanden zo veel mogelijk van de schuld af. Daarna schelden de schuldeisers de rest van hun vordering kwijt. Voordat de schuldregeling start, sluit je een schuldregelingsovereenkomst met de schuldenaar. Daarin staan de rechten en plichten van beide partijen. Een schuldregeling kan met een saneringskrediet of een schuldbemiddeling gerealiseerd worden. Als een of meer schuldeisers blijven weigeren in te stemmen met de minnelijke schuldregeling, informeer je de schuldenaar over mogelijke vervolgstappen, zoals het aanvragen van een dwangakkoord (artikel 287a Fw) of toelating tot de Wsnp. |
     | gemma_toelichting |  |
     
 
@@ -961,10 +961,10 @@ Attributen van objecttype Schuldregeling
     | id | EAID\_B0384246\_6784\_4724\_B538\_CE18197061CD |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Stabilisatie |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-862c6b72-864b-44d0-8ad7-1b5271a1787a](https://gemmaonline.nl/index.php/GEMMA/id-862c6b72-864b-44d0-8ad7-1b5271a1787a) |
+    | gemma_definitie | Fase van het schuldhulpverleningstraject met als doel de inkomsten en uitgaven van een persoon in evenwicht te brengen. De stabilisatie van inkomen en uitgaven is een resultaat van<br>werkzaamheden uit het integrale plan van aanpak. Als stabilisatie bereikt is kan een betalingsregeling, herfinanciering of schuldregeling worden opgezet. Een belangrijk tweede doel is om de hulpvrager hierbij schuldenrust te bieden: stress wegnemen en tijd maken voor oplossingen naar een schuldenzorgvrije toekomst. In de stabilisatiefase kan een schuldhulpverlener andere instrumenten, activiteiten of ondersteuning inzetten, die bijdragen aan de duurzame oplossing van het financiële probleem, zoals budgetcoaching, budgetbeheer, beschermingsbewind of flankerende hulp. |
     | gemma_toelichting |  |
     
 
@@ -998,10 +998,10 @@ Attributen van objecttype Stabilisatie
     | id | EAID\_42D33289\_422A\_4d94\_BE6B\_44B34CC230B5 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Uitstroom |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-310e7b8f-87b6-4493-8b66-1b222428dea4](https://gemmaonline.nl/index.php/GEMMA/id-310e7b8f-87b6-4493-8b66-1b222428dea4) |
+    | gemma_definitie | Motivatie voor uitstroom |
     | gemma_toelichting |  |
     
 
@@ -1045,10 +1045,10 @@ Attributen van objecttype Uitstroom
     | id | EAID\_5DD63EFE\_649F\_484e\_BB10\_A18096B9ABDF |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | VoorlopigeVoorziening |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-c4244bc1-5e09-4f2d-be8d-79b71b84af5f](https://gemmaonline.nl/index.php/GEMMA/id-c4244bc1-5e09-4f2d-be8d-79b71b84af5f) |
+    | gemma_definitie | Een voorlopige voorziening in het kader van schuldhulpverlening door gemeenten is een tijdelijke maatregel die wordt getroffen om acute financiële problemen of crises van een inwoner direct te verlichten terwijl een duurzaam schuldhulpverleningstraject wordt voorbereid. Voorlopige voorzieningen kunnen bijvoorbeeld bestaan uit het tijdelijk betalen van huur om huisuitzetting te voorkomen, het treffen van betalingsregelingen met schuldeisers, of het bieden van een financiële overbrugging. Het doel is om stabiliteit te creëren in de financiële situatie van de inwoner en te voorkomen dat de problematiek verder escaleert. Deze maatregel wordt ingezet op basis van urgentie en maatwerk. |
     | gemma_toelichting |  |
     
 
@@ -1082,10 +1082,10 @@ Attributen van objecttype VoorlopigeVoorziening
     | id | EAID\_DBFDE0B1\_FF6D\_422f\_BDDA\_42ED8A172260 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Woningbezit |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-b9c3890e-3a79-4073-a697-d604a289cd79](https://gemmaonline.nl/index.php/GEMMA/id-b9c3890e-3a79-4073-a697-d604a289cd79) |
+    | gemma_definitie | Een koopwoning is een woning die eigendom is van een individu of een entiteit, die het heeft gekocht en waarvoor meestal een hypotheek is afgesloten. |
     | gemma_toelichting |  |
     
 
@@ -1120,10 +1120,10 @@ Attributen van objecttype Woningbezit
     | id | EAID\_513A944D\_0FEC\_4f78\_B290\_63274D22C58C |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | WSNP-traject |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-8d2857b1-033b-4f3c-ac2a-0a3b8037369a](https://gemmaonline.nl/index.php/GEMMA/id-8d2857b1-033b-4f3c-ac2a-0a3b8037369a) |
+    | gemma_definitie | Een WSNP-traject (Wet schuldsanering natuurlijke personen) is een wettelijk regeling in Nederland waarmee individuen met problematische schulden via een saneringsplan onder toezicht van een bewindvoerder hun schulden kunnen aflossen en na drie jaar een schone lei kunnen krijgen. |
     | gemma_toelichting |  |
     
 
@@ -1159,10 +1159,10 @@ Attributen van objecttype WSNP-traject
     | id | EAID\_64E76A72\_8E62\_45fb\_A144\_149EFDB5EB46 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | WSNP-verklaring |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-2218e2b5-dd67-41d8-bae4-4f2031991466](https://gemmaonline.nl/index.php/GEMMA/id-2218e2b5-dd67-41d8-bae4-4f2031991466) |
+    | gemma_definitie | Een WSNP-verklaring is een officieel document dat bevestigt dat een persoon toegelaten is tot de Wet Schuldsanering Natuurlijke Personen (WSNP) om hun schulden onder toezicht van een bewindvoerder af te lossen. |
     | gemma_toelichting |  |
     
 

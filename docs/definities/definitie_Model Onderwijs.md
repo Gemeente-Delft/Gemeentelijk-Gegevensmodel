@@ -246,7 +246,7 @@ Attributen van objecttype Loopbaanstap
     | gemma_naam | Onderwijsloopbaan |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-153ea543-3a96-4878-b661-f7c3d0f07d20](https://gemmaonline.nl/index.php/GEMMA/id-153ea543-3a96-4878-b661-f7c3d0f07d20) |
-    | gemma_definitie | Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijscarri√®re; sc |
+    | gemma_definitie | Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijscarri√®re; schoolloopbaan; schoolcarri√®re; schooltijd; de schooljaren |
     | gemma_toelichting |  |
     
 
@@ -350,10 +350,10 @@ Attributen van objecttype Onderwijssoort
     | id | EAID\_51C8E3DF\_FFF4\_4a20\_9CB2\_AA5FA50579E2 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | OuderOfVerzorger |
+    | gemma_naam | Ouder Of Verzorger |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-91982611-d658-4c52-8869-0bbf87b487d3](https://gemmaonline.nl/index.php/GEMMA/id-91982611-d658-4c52-8869-0bbf87b487d3) |
-    | gemma_definitie |  |
+    | gemma_definitie | Een persoon die wettelijk verantwoordelijk is voor de zorg en opvoeding van een kind. |
     | gemma_toelichting |  |
     
 
@@ -505,7 +505,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_53abc0b9\_7e82\_41e9\_96bc\_2842b129fee9 |
+    | id | EAID\_10b971bc\_c281\_4995\_88b4\_5455bc403ef8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -542,7 +542,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_d46174dd\_c60e\_4d2e\_bbb0\_7f3c738cc27c |
+    | id | EAID\_6fb57547\_7853\_4047\_b64a\_fa444b7da7fc |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

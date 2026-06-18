@@ -116,7 +116,7 @@ Attributen van objecttype Aanbesteding
     | id | EAID\_01D90490\_C76A\_444a\_BFCE\_355AFC5FB012 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | AanbestedingInhuur |
+    | gemma_naam | Aanbesteding Inhuur |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-686c0af1-67b2-42a4-8690-060705617c13](https://gemmaonline.nl/index.php/GEMMA/id-686c0af1-67b2-42a4-8690-060705617c13) |
     | gemma_definitie | Aanbesteding voor inhuur van personen of diensten |
@@ -210,7 +210,7 @@ Attributen van objecttype Aankondiging
     | id | EAID\_33E5EA10\_F43A\_4966\_B9C1\_875F0E2C1B52 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | AanvraagInkooporder |
+    | gemma_naam | Aanvraag Inkooporder |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-8d9233d7-dfb9-4b87-bab2-61631a632f95](https://gemmaonline.nl/index.php/GEMMA/id-8d9233d7-dfb9-4b87-bab2-61631a632f95) |
     | gemma_definitie | het betreft hier het formulier 'Aanvraag Inkooporder' |
@@ -343,10 +343,10 @@ Attributen van objecttype Contract
     | id | EAID\_6A4CF470\_3B0E\_4141\_9DB6\_C9E8A525CB49 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | CPVCode |
+    | gemma_naam | CPV-code |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-b6c26d6b-c773-4b50-ba03-a8463f23889a](https://gemmaonline.nl/index.php/GEMMA/id-b6c26d6b-c773-4b50-ba03-a8463f23889a) |
-    | gemma_definitie | De Common Procurement Vocabulary (CPV-codes) is een gemeenschappelijke woordenlijst van de EU, alle mogelijke soorten overheidsopdrachten voor diensten, leveringen en werken hebben een eigen code gekregen. Aanbestedende diensten moeten bij Europese aanbes |
+    | gemma_definitie | De Common Procurement Vocabulary (CPV-codes) is een gemeenschappelijke woordenlijst van de EU, alle mogelijke soorten overheidsopdrachten voor diensten, leveringen en werken hebben een eigen code gekregen. Aanbestedende diensten moeten bij Europese aanbestedingen dit classificatiesysteem toepassen. |
     | gemma_toelichting |  |
     
 

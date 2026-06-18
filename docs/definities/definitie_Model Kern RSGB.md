@@ -198,7 +198,7 @@ Attributen van objecttype AdresBuitenland
     | gemma_naam | Briefadres |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-af282ab4-d6c4-4a5f-8126-db9b70cff048](https://gemmaonline.nl/index.php/GEMMA/id-af282ab4-d6c4-4a5f-8126-db9b70cff048) |
-    | gemma_definitie |  |
+    | gemma_definitie | Een briefadres is een adres waar door de overheid verzonden stukken voor een persoon in ontvangst wordt genomen. |
     | gemma_toelichting |  |
     
 
@@ -238,10 +238,10 @@ Attributen van objecttype Briefadres
     | id | EAID\_69B41CDD\_C3F1\_449b\_92B4\_8F7657840646 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Nationaliteit |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-5f589328-3e58-4117-99c2-8ef7f020c0df](https://gemmaonline.nl/index.php/GEMMA/id-5f589328-3e58-4117-99c2-8ef7f020c0df) |
+    | gemma_definitie | De hoedanigheid van tot een bepaalde natie te behoren.<br>Het wettelijk onderdaan zijn van een bepaalde staat (staatsburgerschap).<br>Nationale oorsprong.<br>De rechtsverhouding tussen de betrokkene en de staat. |
     | gemma_toelichting |  |
     
 
@@ -282,7 +282,7 @@ Attributen van objecttype Nationaliteit
     | id | EAID\_75E93FC5\_3EF8\_40b6\_B170\_ED5A2C36B354 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | OnbestemdAdres |
+    | gemma_naam | Onbestemd Adres |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-ced72a4a-9aa5-485a-8535-206b97fd494f](https://gemmaonline.nl/index.php/GEMMA/id-ced72a4a-9aa5-485a-8535-206b97fd494f) |
     | gemma_definitie |  |
@@ -328,7 +328,7 @@ Attributen van objecttype Onbestemd Adres
     | gemma_naam | Appartementsrecht |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-b84fbae7-cecd-4c24-96cb-427a00d862c6](https://gemmaonline.nl/index.php/GEMMA/id-b84fbae7-cecd-4c24-96cb-427a00d862c6) |
-    | gemma_definitie | Een KADASTRALE ONROERENDE ZAAK dat een aandeel is in de<br>goederen die in de splitsing zijn betrokken, dat de bevoegdheid omvat tot het uitsluitend gebruik van bepaalde gedeelten van het gebouw die blijkens hun inrichting bestemd zijn of worden om als afz |
+    | gemma_definitie | Een KADASTRALE ONROERENDE ZAAK dat een aandeel is in de<br>goederen die in de splitsing zijn betrokken, dat de bevoegdheid omvat tot het uitsluitend gebruik van bepaalde gedeelten van het gebouw die blijkens hun inrichting bestemd zijn of worden om als afzonderlijk geheel te worden<br>gebruikt (art. 5:106 lid 4 BW). |
     | gemma_toelichting |  |
     
 
@@ -938,10 +938,10 @@ Attributen van objecttype Kunstwerkdeel
     | id | EAID\_3DC85114\_5C3F\_4930\_B98B\_6EB6ED71FC2E |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | MAATSCHAPPELIJKE ACTIVITEIT |
+    | gemma_naam | MaatschappelijkeActiviteit |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-82773f8d-3aa1-4e1f-b6de-9284a1851960](https://gemmaonline.nl/index.php/GEMMA/id-82773f8d-3aa1-4e1f-b6de-9284a1851960) |
-    | gemma_definitie | Een verband tussen één of meer personen met voldoende mate van zelfstandigheid, inbreng van arbeid of middelen, winstoogmerk en extern optreden (i.g.v. een onderneming) dan wel een in een organisatorisch verband, dat toebehoort aan een niet-natuurlijk per |
+    | gemma_definitie | Een verband tussen één of meer personen met voldoende mate van zelfstandigheid, inbreng van arbeid of middelen, winstoogmerk en extern optreden (i.g.v. een onderneming) dan wel een in een organisatorisch verband, dat toebehoort aan een niet-natuurlijk persoon welke registratieplichtig is, uitgeoefende activiteit die niet valt onder de criteria voor onderneming of bedrijfsmatigheid welke adresseerbaar is middels ofwel een vestiging ofwel het adres van een bepaalde vertegenwoordiger (i.g.v. een niet-ondernemings-activiteit). |
     | gemma_toelichting |  |
     
 
@@ -1927,7 +1927,7 @@ Attributen van objecttype Wegdeel
     | gemma_naam | Verblijfstitel |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-fd0e38fd-ce78-454e-9d27-268a9e15ca40](https://gemmaonline.nl/index.php/GEMMA/id-fd0e38fd-ce78-454e-9d27-268a9e15ca40) |
-    | gemma_definitie | Rechtsgrond op basis waarvan men bevoegd is in een land te verblijven.<br>Opmerkingen obv Key2Burgerzaken:<br>De verblijfstitel heeft een ingangs- en vervaldatum, datum geldig en een opname datum<br>RSGB3.0 onderkent alleen Datum einde en Datum ingang. Dat is o |
+    | gemma_definitie | Rechtsgrond op basis waarvan men bevoegd is in een land te verblijven.<br>Opmerkingen obv Key2Burgerzaken:<br>De verblijfstitel heeft een ingangs- en vervaldatum, datum geldig en een opname datum<br>RSGB3.0 onderkent alleen Datum einde en Datum ingang. Dat is onvoldoende om volgorde en geldigheid in tijd correct te bepalen |
     | gemma_toelichting |  |
     
 
@@ -1965,7 +1965,7 @@ Attributen van objecttype Verblijfstitel
     | id | EAID\_EEC30588\_0E12\_41c9\_977E\_C885A0A7EDC3 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | WOZDeelobject |
+    | gemma_naam | WOZ-deelobject |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-8047febd-3ee4-4a35-83ce-5f538c607446](https://gemmaonline.nl/index.php/GEMMA/id-8047febd-3ee4-4a35-83ce-5f538c607446) |
     | gemma_definitie | Aanduiding van afzonderlijke elementen (delen van het object, bijzondere waarderelevante factoren) die voor de onderbouwing van de vastgestelde waarde van belang zijn. |
@@ -2005,7 +2005,7 @@ Attributen van objecttype WOZ-deelobject
     | id | EAID\_CB7BA76D\_0793\_4d5a\_9596\_533C5BC56BBF |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | WOZObject |
+    | gemma_naam | WOZ-object |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-3f1aeea3-a5a8-4df6-af1e-51d5ef4ad32f](https://gemmaonline.nl/index.php/GEMMA/id-3f1aeea3-a5a8-4df6-af1e-51d5ef4ad32f) |
     | gemma_definitie | De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet worden bepaald en vastgesteld. |
@@ -2183,7 +2183,7 @@ De enumeratie typeringAppartementsrechtsplitsing heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_881c47eb\_8fca\_43b1\_bb83\_9c34bb44ba86 |
+    | id | EAID\_1f899874\_e333\_4e8a\_8f44\_cc1ffdd2103e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2219,7 +2219,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_6ee25be3\_e7a1\_47d8\_8ef6\_a6e1d73c4413 |
+    | id | EAID\_17cdf37c\_eae8\_4dce\_9865\_db7cd424a50f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2278,7 +2278,7 @@ De enumeratie fysiekVoorkomenBegroeidTerrein heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:37 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_b92cabae\_175d\_4acc\_94f3\_5f8a5a19f783 |
+    | id | EAID\_8384fa50\_cd7f\_48c1\_9786\_aa0216c58f64 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2356,7 +2356,7 @@ De enumeratie fysiekVoorkomenBegroeidTerreinPlus heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_5b75d1b0\_10cb\_40c7\_86d4\_747c3f7f4497 |
+    | id | EAID\_a9c0dbac\_040d\_4a36\_a8ef\_7df79166be11 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2393,7 +2393,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_0e3d6a25\_2cab\_47ab\_a4c3\_0e3565f53e58 |
+    | id | EAID\_093e04b0\_b84f\_4989\_98b1\_21b2d252f793 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2429,7 +2429,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_d374d6e8\_44c6\_4773\_9b83\_45c2cc780fd0 |
+    | id | EAID\_4574c5a1\_94f0\_4803\_876e\_63d3b2937aaf |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2465,7 +2465,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_9fc7ef61\_3591\_4816\_b140\_6f2b5b321d68 |
+    | id | EAID\_b41c7716\_5486\_4ac8\_9f4b\_f5501a6716bd |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2501,7 +2501,7 @@ De enumeratie typeringGebouwinstallatie heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_8cfbe155\_0918\_4081\_ba95\_d398bb97524e |
+    | id | EAID\_ced4716f\_b73b\_4d63\_8790\_a8e1be8bc8af |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2537,7 +2537,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_18e80aa1\_410d\_4b36\_8d14\_3be9e9e1ea69 |
+    | id | EAID\_e0520292\_4e20\_4a6f\_92d1\_6d9ac48738b1 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2591,7 +2591,7 @@ De enumeratie typeringInrichtingselement heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_4a96f49c\_b533\_43de\_87ea\_9b7c6357a06a |
+    | id | EAID\_0364a7f2\_de6c\_4946\_b76d\_e3af11047bc7 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2739,7 +2739,7 @@ De enumeratie typeringInrichtingselementPlus heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_092fd4c4\_c462\_4ca9\_8eb1\_75cec62b3446 |
+    | id | EAID\_368224f2\_0d7e\_4769\_8f10\_9362f4965643 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2776,7 +2776,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_3dc352cb\_786a\_4ae8\_aec3\_aa6a627bea06 |
+    | id | EAID\_30a283d3\_7545\_4083\_a1f7\_f1b50d6b205d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2813,7 +2813,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_d7ae4a68\_5b4d\_49fe\_b320\_81159436bde1 |
+    | id | EAID\_08e80368\_fbf1\_4ec6\_9b12\_7da3ba764c4d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2850,7 +2850,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_ed444257\_c13e\_4ebd\_b776\_4d13af684950 |
+    | id | EAID\_89e4c4fd\_0ff8\_453c\_b18e\_ae27d012460d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2893,7 +2893,7 @@ De enumeratie Gezinsrelatie heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_15619820\_0523\_4ad2\_8403\_1f3ce24657d8 |
+    | id | EAID\_762f972e\_7399\_434c\_bf4f\_fe0feb08fedb |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2929,7 +2929,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_2c92e8b1\_1328\_4f1c\_9c0b\_8dcf66ca7cb8 |
+    | id | EAID\_0204294b\_ed1d\_4ef1\_8b09\_84f4353f6d7b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2965,7 +2965,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_5ea54abd\_c91f\_4211\_8c6a\_8edec2c19757 |
+    | id | EAID\_e3313957\_4f4e\_4de6\_a7d2\_cccbefad315f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3008,7 +3008,7 @@ De enumeratie fysiekVoorkomenOnbegroeidTerrein heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_c65c0c15\_9085\_4a98\_9014\_bf0cff949fce |
+    | id | EAID\_b5e54b35\_d67a\_4d29\_89e0\_8b75249d8064 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3069,7 +3069,7 @@ De enumeratie fysiekVoorkomenOnbegroeidTerreinPlus heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_12b6e369\_d418\_48a1\_988f\_d788aa51f626 |
+    | id | EAID\_e588530c\_7c34\_4b50\_b750\_5ea0d0a2b4ab |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3106,7 +3106,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_42555bad\_32d5\_472d\_b903\_8b02b1303635 |
+    | id | EAID\_d16cf69d\_6739\_4368\_bed2\_9875e62e352a |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3142,7 +3142,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_600b9107\_4665\_4ec6\_bbce\_806be2fb2673 |
+    | id | EAID\_5aa79662\_535e\_456b\_b94c\_397d420a740b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3179,7 +3179,7 @@ De enumeratie typeringOndersteunendWater heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_0784bb7d\_f00a\_48cf\_929e\_b0ec6bc165c4 |
+    | id | EAID\_87c697bc\_3ac2\_4aaf\_8b36\_e43b515a63b9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3215,7 +3215,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_36b61778\_2e03\_4a8a\_9f2c\_9bd3be98c2d3 |
+    | id | EAID\_2d61f451\_c78a\_454a\_832e\_4536c7498b64 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3250,7 +3250,7 @@ De enumeratie functieOndersteunendWegdeel heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:37 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_c3730512\_f158\_4c13\_af4d\_ec1db0180fce |
+    | id | EAID\_532d8d90\_6c5b\_4bc5\_b418\_a7c96b38d167 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3291,7 +3291,7 @@ De enumeratie fysiekVoorkomenOndersteunendWegdeel heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_d4c792a0\_bda3\_4d34\_b608\_b3ec7e27e213 |
+    | id | EAID\_caa18c6a\_a68d\_4369\_be25\_405785af33dd |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3395,7 +3395,7 @@ De enumeratie fysiekVoorkomenOndersteunendWegdeelPlus heeft de volgende kenmerke
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_d1e7bddc\_2716\_4e25\_8290\_80247d5271ca |
+    | id | EAID\_c7b76c6a\_6f50\_4274\_90be\_3f8f54b2c232 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3431,7 +3431,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_55a2ac20\_adde\_41f9\_8afd\_fcac6968da46 |
+    | id | EAID\_09459076\_e77c\_45e6\_a1c0\_162efd9a1873 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3469,7 +3469,7 @@ De enumeratie typeringOverbruggingsdeel heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_bbe3fc30\_0d9d\_42ad\_b9b2\_a61bd067a00b |
+    | id | EAID\_b5ec7af1\_dba2\_4d73\_8b45\_7a2404ad25ea |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3509,7 +3509,7 @@ De enumeratie typeOverbrugging heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_f12aa917\_10c5\_4812\_b352\_0b69dd6b759e |
+    | id | EAID\_581f101b\_d63f\_4e7f\_a098\_2b4504a20a67 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3555,7 +3555,7 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
     | version | 1.11.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_4f517064\_d7eb\_4dca\_812d\_7cd2778098f7 |
+    | id | EAID\_0cddc6d2\_aadb\_4b5b\_9fb5\_8badec5769a5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3601,7 +3601,7 @@ De enumeratie adelijkeTitel heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_e3809ca3\_27c5\_4e54\_a744\_c323b307c117 |
+    | id | EAID\_79042206\_6cee\_4017\_b665\_67afb03bd47f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3637,7 +3637,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_29fec260\_4694\_41c4\_88af\_ffa5bbba172f |
+    | id | EAID\_adbf8e8b\_69c6\_446d\_80b7\_c55148309e96 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3699,7 +3699,7 @@ De enumeratie soortRechtsvorm heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_f61ec0d4\_88e3\_42a7\_9b11\_fe1b13fc4e29 |
+    | id | EAID\_fb16376f\_5b2a\_4a0a\_afd1\_f8b8bcc5dfa2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3735,7 +3735,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_03c3b585\_f1df\_40e9\_b4b7\_ecfd5ada9542 |
+    | id | EAID\_057c0705\_86a4\_4fac\_bc7c\_08d73fcc3bdb |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3770,7 +3770,7 @@ De enumeratie typeringOverigeScheiding heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_f453313c\_093d\_45c4\_b5e4\_a283d8af8f2c |
+    | id | EAID\_af403793\_f8d2\_415b\_9aef\_64522da40a8a |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3807,7 +3807,7 @@ De enumeratie aanduidingInhoudingVermissingReisdocument heeft de volgende kenmer
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_d9c5f927\_4fba\_4ab0\_ad96\_3a8d943fe766 |
+    | id | EAID\_cd609951\_2e34\_4755\_be49\_b5170e53ed84 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3843,7 +3843,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_587bc537\_2fe4\_4d1f\_b162\_0ab230febfdb |
+    | id | EAID\_335d96e9\_4815\_4cff\_8654\_e924ad9377b3 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3879,7 +3879,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_a47cdabe\_9b9e\_46c1\_a6c7\_42ee9a105105 |
+    | id | EAID\_e2bf9893\_2f98\_4986\_9e49\_1e9a7acbaf6a |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3941,7 +3941,7 @@ De enumeratie soortRechtsvorm heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_b1c3e027\_7a53\_43ad\_851f\_b2843e6a8ef5 |
+    | id | EAID\_4380b0c9\_d3f3\_4792\_a8dd\_3e53c17eedb1 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -3984,7 +3984,7 @@ De enumeratie codeExploitant heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:37 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_739a2815\_bd94\_498e\_a935\_a23e24e1913f |
+    | id | EAID\_88036925\_922d\_4278\_aba4\_3aef10075209 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4025,7 +4025,7 @@ De enumeratie burgelijkeStaat heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_6066e8c3\_485c\_4db1\_b14e\_005baf23e33f |
+    | id | EAID\_638798ba\_cf4e\_4911\_a081\_60378e8d20f4 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4061,7 +4061,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_f7e1450c\_fb26\_4a19\_8700\_049725496bb9 |
+    | id | EAID\_7be21579\_49f2\_41bc\_96d4\_dea02c777db9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4098,7 +4098,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_46ad8d01\_7028\_4239\_af8e\_4830543973cb |
+    | id | EAID\_e083eaaf\_a33c\_477e\_a0e4\_f2ccf13fee28 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4134,7 +4134,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_db31bbf0\_1ac4\_4aa6\_8144\_7182c8f5a144 |
+    | id | EAID\_af474797\_f97b\_4aa7\_b0d7\_d21daf2c519e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4171,7 +4171,7 @@ De enumeratie typeringVegetatieobject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_a9e738f3\_93da\_4ba9\_9203\_5b580b0f4c80 |
+    | id | EAID\_cd10cc2d\_18c9\_42cb\_a40d\_fb2a59aad0da |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4207,7 +4207,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_b81de2a9\_6e07\_4a97\_ba70\_bd718f1a2952 |
+    | id | EAID\_fe139703\_f5f2\_4b16\_ae1d\_5196e3ca2c1b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4244,7 +4244,7 @@ De enumeratie typeringWater heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_89b8d785\_ad43\_4180\_9fc2\_8a1de496adda |
+    | id | EAID\_1d6c9fba\_4364\_4178\_9031\_a4279f0fb0e3 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4300,7 +4300,7 @@ De enumeratie typeringWaterPlus heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_c982a0b9\_5456\_4297\_b7e0\_9e4aaebc0611 |
+    | id | EAID\_118a0e3e\_4717\_42b6\_8b96\_501b68261643 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4336,7 +4336,7 @@ De enumeratie statusGeoObject heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_754eb49a\_cf14\_422a\_82e0\_4ef0d7ba25f5 |
+    | id | EAID\_9cd71a6e\_cfce\_4dd6\_a735\_4fce703b2ffb |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4391,7 +4391,7 @@ De enumeratie functieWeg heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:37 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_2451f7ce\_d8c5\_4504\_b4ed\_6d4d2e6e52f4 |
+    | id | EAID\_7f47a579\_ad4d\_4de8\_9881\_b44df8eed797 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4439,7 +4439,7 @@ De enumeratie functieWegPlus heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:37 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_43e43fff\_bc5b\_471a\_be88\_1279ac324947 |
+    | id | EAID\_3eb2b1c5\_ceee\_4d14\_acb7\_3f4b495b9ad0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4480,7 +4480,7 @@ De enumeratie fysiekVoorkomenWeg heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_703b795c\_4d61\_4e01\_ac11\_1b72104e8d35 |
+    | id | EAID\_1b7e4c7c\_8084\_4e22\_af9c\_e3dec9bf2cb4 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4552,7 +4552,7 @@ De enumeratie fysiekVoorkomenWegPlus heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_7464a312\_7003\_42f2\_a63a\_9124542d9685 |
+    | id | EAID\_d06edfe4\_3ebd\_467a\_b046\_de0a9d5ea65a |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4589,7 +4589,7 @@ De enumeratie statusWOZ(Deel)Object heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_dd1b29a9\_c7cc\_4d08\_9bb7\_faf674813c1f |
+    | id | EAID\_35990777\_2f12\_41be\_ae5c\_2e6633607818 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4626,7 +4626,7 @@ De enumeratie statusWOZ(Deel)Object heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:40 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_b0dad57a\_1f0c\_48d3\_8973\_11d16fc67316 |
+    | id | EAID\_e30f3de1\_7130\_452a\_93aa\_b35524a75021 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4669,7 +4669,7 @@ De enumeratie soortGebruik heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_bcf7ea69\_5e91\_45f2\_92dd\_3cde1798728d |
+    | id | EAID\_ea7d17c9\_8418\_4aa1\_86fd\_65cab3c928c4 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4720,7 +4720,7 @@ De enumeratie statusWOZ-Beschikking heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:39 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_6862adf2\_e742\_4e89\_a2f0\_029c2bbe9d18 |
+    | id | EAID\_8bacc677\_fc44\_4311\_9a92\_aed7594aba0d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -4755,7 +4755,7 @@ De enumeratie typeringZekerheidsrecht heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_eae4c58b\_0daf\_48a9\_8be4\_eb425d0534ad |
+    | id | EAID\_019c52e1\_771f\_45b6\_a4f2\_03576ab9baf8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

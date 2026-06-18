@@ -1389,7 +1389,7 @@ Attributen van objecttype Kolk
     | gemma_naam | Kunstwerk |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-0e1bf1cd-7cce-4904-8470-40cb9d6a5bb6](https://gemmaonline.nl/index.php/GEMMA/id-0e1bf1cd-7cce-4904-8470-40cb9d6a5bb6) |
-    | gemma_definitie | Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf. https://definities.geostandaarden.nl/nl/ |
+    | gemma_definitie | Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf. https://definities.geostandaarden.nl |
     | gemma_toelichting |  |
     
 

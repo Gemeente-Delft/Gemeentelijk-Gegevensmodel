@@ -63,7 +63,7 @@ Het model 'Model Leerplicht en Leerlingenvervoer' kent de volgende objecttypen:
     | id | EAID\_07F40D10\_74AC\_4f56\_8B71\_A236A63C2122 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | AanvraagLeerlingenvervoer |
+    | gemma_naam | Aanvraag Leerlingenvervoer |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-41c1c340-9952-4bd9-8f45-fec2c0a1ddd7](https://gemmaonline.nl/index.php/GEMMA/id-41c1c340-9952-4bd9-8f45-fec2c0a1ddd7) |
     | gemma_definitie | Een aanvraag voor een leerling die recht heeft op vervoer van en naar onderwijs. |
@@ -102,7 +102,7 @@ Attributen van objecttype Aanvraag Leerlingenvervoer
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-13ede1f8-bf63-4da6-abbd-cdc18b7ec39a](https://gemmaonline.nl/index.php/GEMMA/id-13ede1f8-bf63-4da6-abbd-cdc18b7ec39a) |
     | gemma_definitie | Komt overeen met een VJV |
-    | gemma_toelichting | Via het Omgevingsloket kunnen initiatiefnemers een vergunningaanvraag of een melding indienen in het Digitaal Stelsel Omgevingswet (DSO). Duidelijke stappen en vragen leiden hen door dit proces. De overheid vertaalt hiervoor indieningsvereisten naar toepa |
+    | gemma_toelichting | Via het Omgevingsloket kunnen initiatiefnemers een vergunningaanvraag of een melding indienen in het Digitaal Stelsel Omgevingswet (DSO). Duidelijke stappen en vragen leiden hen door dit proces. De overheid vertaalt hiervoor indieningsvereisten naar toepasbare regels voor het loket. |
     
 
 Attributen van objecttype AanvraagOfMelding
@@ -174,10 +174,10 @@ Attributen van objecttype AanvraagVrijstelling
     | id | EAID\_81870665\_768C\_4fb2\_8A4F\_A9CB7989C884 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | BeschikkingLeerlingenvervoer |
+    | gemma_naam | Beschikking Leerlingenvervoer |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-3f048a6b-523c-4e8e-a581-0fcc089f1ec6](https://gemmaonline.nl/index.php/GEMMA/id-3f048a6b-523c-4e8e-a581-0fcc089f1ec6) |
-    | gemma_definitie |  |
+    | gemma_definitie | Een formeel besluit dat genomen wordt door een bevoegde instantie over het al dan niet toekennen van leerlingenvervoer aan een bepaalde leerling. |
     | gemma_toelichting |  |
     
 
@@ -247,10 +247,10 @@ Attributen van objecttype Beslissing
     | id | EAID\_90E49701\_2A06\_4669\_9199\_6FCFDFCA707A |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | DoorgeleidingOM |
+    | gemma_naam | Doorgeleiding OM |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-341c4296-ac61-426e-b1d8-668052c53ea9](https://gemmaonline.nl/index.php/GEMMA/id-341c4296-ac61-426e-b1d8-668052c53ea9) |
-    | gemma_definitie |  |
+    | gemma_definitie | De overdracht van een leerplichtzaak aan het Openbaar Ministerie voor juridische vervolging. |
     | gemma_toelichting |  |
     
 
@@ -283,11 +283,11 @@ Attributen van objecttype Doorgeleiding OM
     | id | EAID\_70E3C6AF\_1117\_4cfc\_B61F\_0D168010FFB9 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | HALTVerwijzing |
+    | gemma_naam | HALT-verwijzing |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-1bd77fef-f3da-40cc-b94f-e325b0781719](https://gemmaonline.nl/index.php/GEMMA/id-1bd77fef-f3da-40cc-b94f-e325b0781719) |
     | gemma_definitie | Jongeren van 12 tot 18 jaar die strafbare feiten plegen, zoals bijvoorbeeld: winkeldiefstal, vernieling, openbaar dronkenschap of oplichting kunnen naar Halt worden verwezen. In sommige gevallen is daarvoor toestemming nodig van het Openbaar Ministerie. |
-    | gemma_toelichting | Halt heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt. Halt legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogeheten Halt- |
+    | gemma_toelichting | Halt heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt. Halt legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogeheten Halt-straf. Halt heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt. Halt legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogeheten Halt-straf. Halt heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt. Halt legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogeheten Halt-straf. |
     
 
 Attributen van objecttype HALT-verwijzing
@@ -322,7 +322,7 @@ Attributen van objecttype HALT-verwijzing
     | id | EAID\_07FE66E8\_8316\_406b\_A590\_922C2E7B4305 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | KlachtLeerlingenvervoer |
+    | gemma_naam | Klacht Leerlingenvervoer |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-df24e948-819b-4201-8dde-3c6865c09230](https://gemmaonline.nl/index.php/GEMMA/id-df24e948-819b-4201-8dde-3c6865c09230) |
     | gemma_definitie | Een uiting van ontevredenheid over het vervoer van leerlingen. |
@@ -392,10 +392,10 @@ Attributen van objecttype Leerplichtambtenaar
     | id | EAID\_697F1730\_B439\_4b35\_8799\_1B2E9AB04548 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | ProcesverbaalOnderwijs |
+    | gemma_naam | Procesverbaal Onderwijs |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-aa2cb2d9-8482-473c-a5bf-c042cb39352a](https://gemmaonline.nl/index.php/GEMMA/id-aa2cb2d9-8482-473c-a5bf-c042cb39352a) |
-    | gemma_definitie |  |
+    | gemma_definitie | Een officieel document dat een overtreding van de leerplichtwet vastlegt. |
     | gemma_toelichting |  |
     
 
@@ -554,7 +554,7 @@ Attributen van objecttype Verzuimmelding
     | gemma_naam | Vrijstelling |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-e09e0c4d-1c6f-474b-8abc-7fd36f6fd699](https://gemmaonline.nl/index.php/GEMMA/id-e09e0c4d-1c6f-474b-8abc-7fd36f6fd699) |
-    | gemma_definitie |  |
+    | gemma_definitie | Een formeel besluit waarbij een leerling wordt ontheven van de leerplicht. |
     | gemma_toelichting |  |
     
 
@@ -591,7 +591,7 @@ Attributen van objecttype Vrijstelling
     | id | EAID\_7689A6B7\_2A9E\_42db\_A028\_E4601305DBFF |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | ZiekmeldingLeerlingenvervoer |
+    | gemma_naam | Ziekmelding Leerlingenvervoer |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-7c4345ce-0561-47eb-ad3d-4b21f15687e3](https://gemmaonline.nl/index.php/GEMMA/id-7c4345ce-0561-47eb-ad3d-4b21f15687e3) |
     | gemma_definitie | Een melding van een zieke leerling die recht heeft op vervoer van en naar onderwijs. |
@@ -637,7 +637,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_aeedda0d\_8e88\_4593\_9105\_dc76e5779eae |
+    | id | EAID\_9bf5ce3b\_bd80\_4c39\_ac53\_863d48eaa63b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -674,7 +674,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_26f9b701\_f97a\_4393\_bdea\_41bccbc371f5 |
+    | id | EAID\_e2570efe\_7f4e\_405f\_be4c\_c6c76be78828 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

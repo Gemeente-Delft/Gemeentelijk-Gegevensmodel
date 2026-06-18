@@ -373,7 +373,7 @@ Attributen van objecttype Ophaalmoment
     | gemma_naam | Pas |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-4f840a95-77ba-47ae-b554-a00db6f905b4](https://gemmaonline.nl/index.php/GEMMA/id-4f840a95-77ba-47ae-b554-a00db6f905b4) |
-    | gemma_definitie |  |
+    | gemma_definitie | klein kaartje met je naam en soms je foto erop, dat je toegang geeft tot bepaalde diensten |
     | gemma_toelichting |  |
     
 
@@ -527,7 +527,7 @@ Attributen van objecttype Rit
     | gemma_naam | Route |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-024bb42f-38cf-42ba-859d-184221eff16c](https://gemmaonline.nl/index.php/GEMMA/id-024bb42f-38cf-42ba-859d-184221eff16c) |
-    | gemma_definitie | Routes die gereden worden om bepaalde fracties vuilnis op te halen. Routes gaan langs locaties, waar afhankelijk van de routesoort een containers, bepaalde plekken of adressen worden aangedaan.<br>huis-aan-huis: er worden locaties met adressen aangedaan |
+    | gemma_definitie | Routes die gereden worden om bepaalde fracties vuilnis op te halen. Routes gaan langs locaties, waar afhankelijk van de routesoort een containers, bepaalde plekken of adressen worden aangedaan.<br>huis-aan-huis: er worden locaties met adressen aangedaan<br>illegale dumping, grofvuil: er worden locaties aangedaan (evt met adres)<br>containters: er worden locaties met containers aangedaan |
     | gemma_toelichting |  |
     
 

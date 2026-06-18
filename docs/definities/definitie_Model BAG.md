@@ -151,7 +151,7 @@ Attributen van objecttype Onderzoek
     | id | EAID\_32A22BC6\_89EC\_44af\_8D7D\_79B12311AE2D |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | NUMMERAANDUIDING |
+    | gemma_naam | Nummeraanduiding |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f152bdf8-bd60-4c88-b739-e3091afdbf7a](https://gemmaonline.nl/index.php/GEMMA/id-f152bdf8-bd60-4c88-b739-e3091afdbf7a) |
     | gemma_definitie | Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats. Het is het samenstel van postcode, huisnummer, huisletter en huisnummertoevoeging. |
@@ -202,7 +202,7 @@ Attributen van objecttype Nummeraanduiding
     | id | EAID\_38649FF6\_88C6\_437d\_AF8E\_A9023D55E16C |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | BUURT |
+    | gemma_naam | Buurt |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-55246c30-a3e2-400f-89c4-c5b01f7f7da8](https://gemmaonline.nl/index.php/GEMMA/id-55246c30-a3e2-400f-89c4-c5b01f7f7da8) |
     | gemma_definitie | Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen. |
@@ -248,7 +248,7 @@ Attributen van objecttype Buurt
     | id | EAID\_EA6F820F\_C458\_4b24\_8055\_5C2CC76F5904 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | GEMEENTE |
+    | gemma_naam | Gemeente |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f830bbc9-38d5-4f61-be23-79091f18282e](https://gemmaonline.nl/index.php/GEMMA/id-f830bbc9-38d5-4f61-be23-79091f18282e) |
     | gemma_definitie | Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet. |
@@ -341,7 +341,7 @@ Attributen van objecttype Ligplaats
     | id | EAID\_8A04280B\_E0B4\_4e36\_B448\_C99750393D0D |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | ADRESSEERBAAR OBJECT |
+    | gemma_naam | AdresseerbaarObject |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-460ada62-9cdd-478f-9555-4fb161ebc0b3](https://gemmaonline.nl/index.php/GEMMA/id-460ada62-9cdd-478f-9555-4fb161ebc0b3) |
     | gemma_definitie | Een adresseerbaar object is een object waaraan formeel adressen kunnen en moeten worden toegekend: een verblijfsobject, standplaats of ligplaats.<br>Toelichting: Een object dat een adres heeft of krijgt. Adresseerbare objecten zijn: een verblijfsobject, een standplaats en een ligplaats. |
@@ -379,7 +379,7 @@ Attributen van objecttype AdresseerbaarObject
     | id | EAID\_BFE30E32\_8CB9\_4272\_A559\_9FB3FD74DACC |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | OPENBARE RUIMTE |
+    | gemma_naam | OpenbareRuimte |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-d2f8867b-fce6-4932-8b1a-ec8b9392f0d5](https://gemmaonline.nl/index.php/GEMMA/id-d2f8867b-fce6-4932-8b1a-ec8b9392f0d5) |
     | gemma_definitie | Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen.<br>Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam). |
@@ -434,7 +434,7 @@ Attributen van objecttype OpenbareRuimte
     | id | EAID\_11595AD8\_CE67\_40dd\_BDA9\_489DC7D244ED |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | PAND |
+    | gemma_naam | Pand |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-bcdc30f3-c919-4d3a-b768-b62da7bc755e](https://gemmaonline.nl/index.php/GEMMA/id-bcdc30f3-c919-4d3a-b768-b62da7bc755e) |
     | gemma_definitie | Een pand is een kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is.<br>Beschrijving: Een zelfstandig bouwwerk, zowel zelfstandig in de manier hoe het is gebouwd als waarvoor het is bedoeld om te gebruiken. Een pand voldoet ook aan de volgende eisen: een pand is direct en voor lange tijd met de aarde verbonden (een pand is niet makkelijk te verplaatsen) en een pand kun je binnengaan en afsluiten. Een eenheid kan alleen een pand zijn als het voldoet aan alle eisen uit de Catalogus BAG 2018. |
@@ -589,7 +589,7 @@ Attributen van objecttype Verblijfsobject
     | id | EAID\_120EA50B\_B9A2\_4869\_A3BE\_46931F631D33 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | WIJK |
+    | gemma_naam | Wijk |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-938a3b10-79fd-4571-aaed-cb7069369465](https://gemmaonline.nl/index.php/GEMMA/id-938a3b10-79fd-4571-aaed-cb7069369465) |
     | gemma_definitie | Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken. |
@@ -635,7 +635,7 @@ Attributen van objecttype Wijk
     | id | EAID\_24BDA4BA\_CFCC\_4e3f\_8305\_671F4ED7C502 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | WOONPLAATS |
+    | gemma_naam | Woonplaats |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-bedf86fb-8710-49fc-addb-e48a11b551ed](https://gemmaonline.nl/index.php/GEMMA/id-bedf86fb-8710-49fc-addb-e48a11b551ed) |
     | gemma_definitie | Een woonplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente<br>Beschrijving: Een stuk grond binnen de gemeente dat als woonplaats is aangewezen en waaraan de gemeente ook een naam heeft gegeven. |

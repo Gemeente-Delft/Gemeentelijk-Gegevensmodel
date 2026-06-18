@@ -51,11 +51,11 @@ Het model 'Model Erfgoed Generiek' kent de volgende objecttypen:
     | id | EAID\_71A5C565\_C2CC\_495f\_910A\_76C199C6AF0E |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | ErfgoedObject |
+    | gemma_naam | Erfgoed Object |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-9d218c7e-64e5-45e1-9bac-ec9f27d50fe3](https://gemmaonline.nl/index.php/GEMMA/id-9d218c7e-64e5-45e1-9bac-ec9f27d50fe3) |
     | gemma_definitie | Uit het verleden geërfde materiële en immateriële objecten |
-    | gemma_toelichting | In de loop van de tijd tot stand gebracht door de mens of ontstaan uit de wisselwerking tussen mens en omgeving, die mensen, onafhankelijk van het bezit ervan, identificeren als een weerspiegeling en uitdrukking van zich voortdurend ontwikkelende waarden, |
+    | gemma_toelichting | In de loop van de tijd tot stand gebracht door de mens of ontstaan uit de wisselwerking tussen mens en omgeving, die mensen, onafhankelijk van het bezit ervan, identificeren als een weerspiegeling en uitdrukking van zich voortdurend ontwikkelende waarden, overtuigingen, kennis en tradities, en die aan hen en toekomstige generaties een referentiekader bieden. |
     
 
 Attributen van objecttype Erfgoed Object
@@ -90,7 +90,7 @@ Attributen van objecttype Erfgoed Object
     | id | EAID\_3BBB3264\_592A\_4d8c\_A741\_C2A3C38E3932 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | HistorischPersoon |
+    | gemma_naam | Historisch Persoon |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-36e81522-45dc-4859-a86a-92f9d1d879ba](https://gemmaonline.nl/index.php/GEMMA/id-36e81522-45dc-4859-a86a-92f9d1d879ba) |
     | gemma_definitie | Natuurlijk persoon waarvan informatie beschikbaar is uit het verleden. |

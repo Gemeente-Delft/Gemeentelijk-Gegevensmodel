@@ -207,10 +207,10 @@ Attributen van objecttype Artefactsoort
     | id | EAID\_E11FDCA7\_7538\_4353\_83FF\_72164D928452 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | Boring |
+    | gemma_naam | boring |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-6897cf81-2661-4676-80b2-588cb1f4e42d](https://gemmaonline.nl/index.php/GEMMA/id-6897cf81-2661-4676-80b2-588cb1f4e42d) |
-    | gemma_definitie |  |
+    | gemma_definitie | Een verticale grondmonstername binnen een project<br>De gegevens over het geheel van activiteiten, voor zover relevant voor het onderzoek, dat tot doel heeft door boren een gat in de ondergrond te maken om monsters uit de ondergrond te nemen en/of metingen aan de ondergrond te doen.<br>Een middel om door boren of steken toegang te krijgen tot de ondergrond om bijvoorbeeld geroerde en/of ongeroerde monsters aan de ondergrond te ontlenen voor nader onderzoek. |
     | gemma_toelichting |  |
     
 
@@ -321,10 +321,10 @@ Attributen van objecttype Kaart
     | id | EAID\_F25EE5A8\_2CF4\_498b\_8DAD\_8EEE48FAF3A5 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | Locatie |
+    | gemma_naam | locatie |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-ede94eee-d934-40f8-adcc-dc4b1703d333](https://gemmaonline.nl/index.php/GEMMA/id-ede94eee-d934-40f8-adcc-dc4b1703d333) |
-    | gemma_definitie |  |
+    | gemma_definitie | Een specifieke plaats |
     | gemma_toelichting |  |
     
 
@@ -396,7 +396,7 @@ Attributen van objecttype Magazijnlocatie
     | id | EAID\_F954FB72\_AE88\_4a0e\_A3D8\_555FCF8D9C9F |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | MagazijnPlaatsing |
+    | gemma_naam | Magazijnplaatsing |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-b46a7928-928b-4ad4-9c27-f3d112073ea0](https://gemmaonline.nl/index.php/GEMMA/id-b46a7928-928b-4ad4-9c27-f3d112073ea0) |
     | gemma_definitie | Het ergens neerzetten van een object in een magazijn. |
@@ -660,7 +660,7 @@ Attributen van objecttype Vindplaats
     | gemma_naam | Vlak |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-c74cb377-1926-4afd-a50d-14b2643b04b2](https://gemmaonline.nl/index.php/GEMMA/id-c74cb377-1926-4afd-a50d-14b2643b04b2) |
-    | gemma_definitie | Plat, oneindig oppervlak of vari√´teit zonder enige kromming. |
+    | gemma_definitie | Plat, oneindig oppervlak of variëteit zonder enige kromming. |
     | gemma_toelichting |  |
     
 

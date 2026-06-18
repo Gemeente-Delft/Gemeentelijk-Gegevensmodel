@@ -78,7 +78,7 @@ Het model 'Model Kern RGBZ' kent de volgende objecttypen:
     | gemma_naam | Bedrijfsproces |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-7e054df1-48a3-46c3-91a5-5ce10e326f9b](https://gemmaonline.nl/index.php/GEMMA/id-7e054df1-48a3-46c3-91a5-5ce10e326f9b) |
-    | gemma_definitie |  |
+    | gemma_definitie | Reeks opeenvolgend uit te voeren activiteiten die bijdraagt aan een specifiek resultaat, zoals de levering van een product of product of dienst. |
     | gemma_toelichting |  |
     
 
@@ -246,7 +246,7 @@ Attributen van objecttype Besluittype
     | gemma_naam | Betaling |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-8cec89b8-6174-42ac-937f-9500bfb8901b](https://gemmaonline.nl/index.php/GEMMA/id-8cec89b8-6174-42ac-937f-9500bfb8901b) |
-    | gemma_definitie |  |
+    | gemma_definitie | het onderhandigen of overboeken van geld in ruil voor goed of dienst |
     | gemma_toelichting |  |
     
 
@@ -285,7 +285,7 @@ Attributen van objecttype Betaling
     | gemma_naam | Betrokkene |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-62c91622-cc32-4560-8427-d00101f4847e](https://gemmaonline.nl/index.php/GEMMA/id-62c91622-cc32-4560-8427-d00101f4847e) |
-    | gemma_definitie | Een SUBJECT, zijnde een NATUURLIJK PERSOON, NIET-NATUURLIJK PERSOON of VESTIGING, ORGANISATORISCHE EENHEID (binnen een vestiging van de zaak-behandelende niet-natuurlijk persoon), of MEDEWERKER (van die organisatorische eenheid) die een rol kan spelen bij |
+    | gemma_definitie | Een SUBJECT, zijnde een NATUURLIJK PERSOON, NIET-NATUURLIJK PERSOON of VESTIGING, ORGANISATORISCHE EENHEID (binnen een vestiging van de zaak-behandelende niet-natuurlijk persoon), of MEDEWERKER (van die organisatorische eenheid) die een rol kan spelen bij een ZAAK. |
     | gemma_toelichting |  |
     
 
@@ -529,7 +529,7 @@ Attributen van objecttype EnkelvoudigDocument
     | gemma_naam | Heffing |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-ff9366e3-dd65-48ce-9051-9d6b01b2c6db](https://gemmaonline.nl/index.php/GEMMA/id-ff9366e3-dd65-48ce-9051-9d6b01b2c6db) |
-    | gemma_definitie |  |
+    | gemma_definitie | Een door de overheid opgelegde verplichting tot betaling |
     | gemma_toelichting |  |
     
 
@@ -609,7 +609,7 @@ Attributen van objecttype Identificatiekenmerk
     | gemma_naam | Klantcontact |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-a9cb919f-a224-4ab5-9825-40d54104f90d](https://gemmaonline.nl/index.php/GEMMA/id-a9cb919f-a224-4ab5-9825-40d54104f90d) |
-    | gemma_definitie | Klantcontacten zijn contactmomenten die werkelijk hebben plaatsgevonden, terwijl Balieafspraken afspraken zijn voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of |
+    | gemma_definitie | Klantcontacten zijn contactmomenten die werkelijk hebben plaatsgevonden, terwijl Balieafspraken afspraken zijn voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.<br>Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje). |
     | gemma_toelichting |  |
     
 
@@ -1040,7 +1040,7 @@ Attributen van objecttype Zaak
     | id | EAID\_766265DF\_56DD\_4560\_A55C\_FF82E3B9751A |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | ZaakOrigineel |
+    | gemma_naam | ZAAK - Origineel |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-ce925d18-fde7-4bd6-9865-a7030a276a3c](https://gemmaonline.nl/index.php/GEMMA/id-ce925d18-fde7-4bd6-9865-a7030a276a3c) |
     | gemma_definitie | Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden. |
@@ -1155,7 +1155,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_fac05484\_05f0\_4a94\_a47e\_b49c227ae606 |
+    | id | EAID\_f4005f4e\_9384\_4b72\_842e\_12107ad61bb5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1190,7 +1190,7 @@ De enumeratie Heffingsoort heeft de volgende kenmerken:
     | version | 1.9.0 |
     | created | 2019-05-08 13:48:43 |
     | modified | 2025-12-18 15:38:52 |
-    | id | EAID\_39e4bd80\_d086\_4d83\_bff3\_2f66b4f8cffa |
+    | id | EAID\_29ff6d50\_97d7\_4bdf\_8ee5\_a45db4782a39 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1228,7 +1228,7 @@ De enumeratie Soorten Klantcontact heeft de volgende kenmerken:
     | version | 1.11.0 |
     | created | 2025-03-26 11:13:26 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_3e147ac4\_1daa\_4cba\_a772\_75b9db446770 |
+    | id | EAID\_222138fd\_5a3e\_4e43\_949b\_40987430df83 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
