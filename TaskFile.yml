@@ -257,8 +257,8 @@ tasks:
     shell: bash
 
   generate:gemma:
-    desc: "Generate spec-conforme GEMMA CSV-export (objects + relations + subdomeinen) uit '{{.GGM}}' naar '{{.VERSION_DIR}}/{{.GEMMA_DIR}}'."
-    deps: [prepare:check-vars]
+    desc: "Genereer spec-conforme GEMMA CSV-export (objects + relations + subdomeinen) uit '{{.GGM}}'. Importeert eerst de GEMMA-gegevens (import:gemma) zodat de GEMMA-kolommen gevuld zijn; bij een onbereikbare bron wordt de import overgeslagen."
+    deps: [prepare:check-vars, import:gemma]
     cmds:
       - |
         if [ ! -f "{{.GGM}}" ]; then
@@ -285,6 +285,32 @@ tasks:
           --output_relations "{{.VERSION_DIR}}/{{.GEMMA_DIR}}/ggm_export_relations_for_gemma.csv" \
           --output_packages "{{.VERSION_DIR}}/{{.GEMMA_DIR}}/ggm_export_subdomains_for_gemma.csv"
       - echo "Generatie gereed."
+    shell: bash
+
+  import:gemma:
+    desc: "Importeer door GEMMA teruggeleverde gegevens (element + relatie) in '{{.GGM}}', zodat de GEMMA-kolommen bij de export gevuld worden. Muteert de master-.qea (maakt eerst .qea.bak)."
+    deps: [prepare:check-vars]
+    cmds:
+      - |
+        if [ ! -f "{{.GGM}}" ]; then
+          echo "Error: EA-bestand '{{.GGM}}' bestaat niet."
+          exit 1
+        fi
+      - echo "Importeren GEMMA-gegevens in '{{.GGM}}'..."
+      - |
+        # import_gemma.py leest de door GEMMA gepubliceerde CSV's (standaard de
+        # VNG-repo) en schrijft de GEMMA-* tagged values in de EA .qea. Dezelfde venv
+        # als generate:gemma (pandas). Gebruik CLI_ARGS voor opties, bv.
+        # 'task import:gemma -- --dry-run' of '... --import_objects ./element.csv'.
+        VENV="tools/.venv-gemma"
+        if [ ! -x "$VENV/bin/python" ]; then
+          echo "Aanmaken Python-venv $VENV met pandas/treelib..."
+          python3 -m venv "$VENV"
+          "$VENV/bin/python" -m pip install --quiet --upgrade pip
+          "$VENV/bin/python" -m pip install --quiet -r tools/requirements-gemma.txt
+        fi
+        "$VENV/bin/python" tools/import_gemma.py --db_uri "{{.GGM}}" {{.CLI_ARGS}}
+      - echo "Import gereed. Draai 'task generate:gemma' om de export met GEMMA-kolommen te verversen."
     shell: bash
 
   # ==========================================================================

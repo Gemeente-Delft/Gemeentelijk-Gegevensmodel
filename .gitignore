@@ -11,3 +11,4 @@ linkchecker.log
 cspell.json
 .venv
 tools/.venv-gemma
+*.qea.bak
