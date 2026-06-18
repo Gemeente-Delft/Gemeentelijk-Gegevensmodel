@@ -11,6 +11,8 @@ Gebruik:
 """
 
 import argparse
+import csv
+import io
 import os
 import re
 import sqlite3
@@ -191,6 +193,48 @@ def exportColumns(df, col_list: list, col_mapping: dict = None):
 # ---------------------------------------------------------------------------
 # Standaardwaarden
 # ---------------------------------------------------------------------------
+
+def normalize_eol(val):
+    """Normaliseer regeleindes binnen tekstvelden naar LF: verwijder carriage returns
+    (CR/CRLF -> LF). De (valide) newlines blijven behouden en worden door pandas correct
+    gequote; er wordt NIET door spaties vervangen. Voorkomt de losse CR-tekens die de
+    CSV-weergave (o.a. op GitHub) breken."""
+    if not isinstance(val, str):
+        return val
+    return val.replace('\r\n', '\n').replace('\r', '\n')
+
+
+def validate_csv(path, expected_columns):
+    """Valideer een weggeschreven CSV op correctheid en gooi een ValueError bij afwijking:
+    - de header is exact de verwachte kolommen (en volgorde);
+    - elk record heeft precies evenveel velden (consistente quoting van multiline-velden);
+    - er staan geen carriage returns (CR) in het bestand (alleen LF);
+    - het bestand is met een strikte CSV-parser uitleesbaar.
+    """
+    with open(path, newline='', encoding='utf-8') as fh:
+        raw = fh.read()
+    if '\r' in raw:
+        raise ValueError(f"{path}: bevat carriage returns (CR); verwacht uitsluitend LF.")
+    try:
+        rows = list(csv.reader(io.StringIO(raw)))
+    except csv.Error as exc:
+        raise ValueError(f"{path}: niet parseerbaar als CSV ({exc}).")
+    if not rows:
+        raise ValueError(f"{path}: leeg bestand.")
+    expected = list(expected_columns)
+    if rows[0] != expected:
+        raise ValueError(
+            f"{path}: header wijkt af.\n  verwacht: {expected}\n  gevonden: {rows[0]}"
+        )
+    ncol = len(expected)
+    bad = [i + 1 for i, row in enumerate(rows) if len(row) != ncol]
+    if bad:
+        raise ValueError(
+            f"{path}: {len(bad)} rij(en) met een afwijkend aantal kolommen "
+            f"(eerste op regel {bad[0]}); duidt op kapotte quoting."
+        )
+    print(f"Validatie OK: {os.path.basename(path)} ({len(rows) - 1} records, {ncol} kolommen)")
+
 
 DEFAULT_ROOT_GUID = '{D7FD597E-1F40-48df-AFFC-EA3B5B5D3FBF}'  # Root GGM
 
@@ -412,14 +456,18 @@ def export_to_gemma(
     df_obj_export = df_obj_export.fillna('').reset_index(drop=True)
     df_obj_export['nr'] = range(len(df_obj_export))
     df_obj_export = df_obj_export.reindex(columns=['nr'] + OBJ_COLUMNS, fill_value='')
-    df_obj_export.to_csv(output_objects, index=False)
+    df_obj_export = df_obj_export.map(normalize_eol)
+    df_obj_export.to_csv(output_objects, index=False, lineterminator='\n')
+    validate_csv(output_objects, ['nr'] + OBJ_COLUMNS)
 
     print(f"Exporteren naar {output_relations}")
     df_con_export = df_con_export.loc[:, ~df_con_export.columns.duplicated()].copy()
     df_con_export = df_con_export.fillna('').reset_index(drop=True)
     df_con_export['nr'] = range(len(df_con_export))
     df_con_export = df_con_export.reindex(columns=['nr'] + CON_COLUMNS, fill_value='')
-    df_con_export.to_csv(output_relations, index=False)
+    df_con_export = df_con_export.map(normalize_eol)
+    df_con_export.to_csv(output_relations, index=False, lineterminator='\n')
+    validate_csv(output_relations, ['nr'] + CON_COLUMNS)
 
     # -----------------------------------------------------------------------
     # Stap 7: Subdomeinen wegschrijven — alleen de inhoudelijke domein-/subdomein-
@@ -470,7 +518,9 @@ def export_to_gemma(
     df_pkg_export = df_pkg_export.reset_index(drop=True)
     df_pkg_export['nr'] = range(len(df_pkg_export))
     df_pkg_export = df_pkg_export.reindex(columns=['nr'] + PKG_COLUMNS, fill_value='')
-    df_pkg_export.to_csv(output_packages, index=False)
+    df_pkg_export = df_pkg_export.map(normalize_eol)
+    df_pkg_export.to_csv(output_packages, index=False, lineterminator='\n')
+    validate_csv(output_packages, ['nr'] + PKG_COLUMNS)
 
     print("Export geslaagd!")
 

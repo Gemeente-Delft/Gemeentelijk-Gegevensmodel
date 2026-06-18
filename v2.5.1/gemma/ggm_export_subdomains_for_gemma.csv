@@ -1,62 +1,62 @@
 nr,GGM-naam,GGM-guid,GGM-definitie,GGM-toelichting,GGM-parent-guid,GGM-uml-type,domein-iv3,Datum-tijd-export
-0,"Bestuur, Politiek en Ondersteuning",{47DC5ADA-17D7-49e1-8BC6-F798EE72B111},,,,Package,"Bestuur, Politiek en Ondersteuning",18062026-11:27:19
-1,Burgerzaken,{C84D590F-615F-4671-B4C2-7610C80F33F4},,,{47DC5ADA-17D7-49e1-8BC6-F798EE72B111},Package,"Bestuur, Politiek en Ondersteuning",18062026-11:27:19
-2,Griffie,{462ADAB3-19AB-405b-9BB5-0951DA70BFA0},,,{47DC5ADA-17D7-49e1-8BC6-F798EE72B111},Package,"Bestuur, Politiek en Ondersteuning",18062026-11:27:19
-3,Politiek,{FA375616-AD70-403d-87B1-659E433E7EC2},"Het informatiesubdomein dat gegevens omvat over de politieke organen van de gemeente, hun activiteiten en de ondersteuning daarvan.",,{47DC5ADA-17D7-49e1-8BC6-F798EE72B111},Package,"Bestuur, Politiek en Ondersteuning",18062026-11:27:19
-4,Dienstverlening,{5CA50A0D-7FDC-40ea-B3F3-F85E008D3549},,,,Package,Dienstverlening,18062026-11:27:19
-5,Economie,{97C39FF1-DCAE-4b67-9249-015E2D795AE8},,,,Package,Economie,18062026-11:27:19
-6,Financien,{4F010A09-D9D0-4bcf-A233-8430F8EFE54A},,,{BB0CE95E-98B3-48ec-905F-5512A5AB221C},Package,Interne Organisatie,18062026-11:27:19
-7,HR,{1825F01E-BA3C-4e53-B3B3-BD1E69F94A10},,,{BB0CE95E-98B3-48ec-905F-5512A5AB221C},Package,Interne Organisatie,18062026-11:27:19
-8,ICT,{A2C234C7-A5F7-4e4a-9EE3-8C37A4469F01},,,{BB0CE95E-98B3-48ec-905F-5512A5AB221C},Package,Interne Organisatie,18062026-11:27:19
-9,Inkoop,{E593FB18-D458-4462-B5F2-0B37FA3AA722},,,{BB0CE95E-98B3-48ec-905F-5512A5AB221C},Package,Interne Organisatie,18062026-11:27:19
-10,Interne Organisatie,{BB0CE95E-98B3-48ec-905F-5512A5AB221C},,,,Package,Interne Organisatie,18062026-11:27:19
-11,Organisatie-indeling,{2883DC11-62ED-42cd-A0D6-855258F32079},,,{BB0CE95E-98B3-48ec-905F-5512A5AB221C},Package,Interne Organisatie,18062026-11:27:19
-12,Subsidies,{F079A58E-FB65-422e-BA86-5E810092E5E5},,,{BB0CE95E-98B3-48ec-905F-5512A5AB221C},Package,Interne Organisatie,18062026-11:27:19
-13,Vastgoed,{64927CCE-C5AB-447e-BB41-C961BE1EA1BD},,,{BB0CE95E-98B3-48ec-905F-5512A5AB221C},Package,Interne Organisatie,18062026-11:27:19
-14,BAG,{FC04420D-2055-4fcf-A2DB-E4C12E2150F1},,,{2EEC0A24-2953-49cb-9CF1-1A19CCE84E97},Package,Kern,18062026-11:27:19
-15,Kern,{2EEC0A24-2953-49cb-9CF1-1A19CCE84E97},,,,Package,Kern,18062026-11:27:19
-16,RGBZPlus,{DF1A3AF5-E138-4f54-AAB1-1716247A2F1D},,,{2EEC0A24-2953-49cb-9CF1-1A19CCE84E97},Package,Kern,18062026-11:27:19
-17,RSGBPlus,{58A5214F-E56C-4707-BE2D-AB36DD6976A3},,,{2EEC0A24-2953-49cb-9CF1-1A19CCE84E97},Package,Kern,18062026-11:27:19
-18,Leerplicht en Leerlingenvervoer,{F717C1C4-7FF4-4024-BDFE-7F424C8EC0E9},,,{604AC59D-D038-4e78-A5FA-80E4748DED5B},Package,Onderwijs,18062026-11:27:19
-19,Onderwijs,{604AC59D-D038-4e78-A5FA-80E4748DED5B},,,,Package,Onderwijs,18062026-11:27:19
-20,Onderwijs,{914BE44C-2654-456f-A20E-C196DCEB20D9},,,{604AC59D-D038-4e78-A5FA-80E4748DED5B},Package,Onderwijs,18062026-11:27:19
-21,Dak- en thuislozen,{7EBCDBB1-6E9C-4f09-AE96-71822F2CC050},,,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:27:19
-22,Diensten,{21489181-D319-96D3-FC70-281C3303E934},"Het Dienstenmodel biedt een gestructureerde weergave van de processen en objecttypen die betrokken zijn bij het leveren van diensten binnen het sociaal domein. Het model richt zich op de relaties tussen aanvragen, besluiten, rechten en voorwaarden die de basis vormen voor het verstrekken van voorzieningen.",,{2AB7A09D-D0B6-4159-A23A-119C7935966B},Package,Sociaal Domein,18062026-11:27:19
-23,Gemeentebegrafenissen,{69713AD3-FECC-4964-8F11-79C8755F710E},,,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:27:19
-24,Generiek Jeugd en Wmo,{189DA897-DDC8-4956-B8E3-5E04D3E1AEA3},,,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:27:19
-25,Inburgering,{59E49EEB-D8EB-4e49-A5E2-62244987690E},"Het informatiedomein dat gegevens omvat over de uitvoering van de Wet inburgering, gericht op het ondersteunen van inburgeraars bij hun integratie en participatie in de Nederlandse samenleving.",,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:27:19
-26,Inkomen,{2AB7A09D-D0B6-4159-A23A-119C7935966B},"Het informatiedomein dat gegevens omvat over inkomensvoorzieningen, -regelingen en financiële ondersteuning voor inwoners, gericht op het waarborgen van bestaanszekerheid en participatie in de samenleving.",,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:27:19
-27,Jeugd,{361CB2CF-EE61-4679-A249-0B7B4A013226},,,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:27:19
-28,Jeugdbescherming en reclassering,{62D673ED-9400-4c5a-904C-A4DB16775C5B},"Het informatiedomein dat gegevens omvat over de uitvoering van kinderbeschermingsmaatregelen, gericht op het waarborgen van een veilige ontwikkeling van kinderen en jongeren.",,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:27:19
+0,"Bestuur, Politiek en Ondersteuning",{47DC5ADA-17D7-49e1-8BC6-F798EE72B111},,,,Package,"Bestuur, Politiek en Ondersteuning",18062026-11:55:11
+1,Burgerzaken,{C84D590F-615F-4671-B4C2-7610C80F33F4},,,{47DC5ADA-17D7-49e1-8BC6-F798EE72B111},Package,"Bestuur, Politiek en Ondersteuning",18062026-11:55:11
+2,Griffie,{462ADAB3-19AB-405b-9BB5-0951DA70BFA0},,,{47DC5ADA-17D7-49e1-8BC6-F798EE72B111},Package,"Bestuur, Politiek en Ondersteuning",18062026-11:55:11
+3,Politiek,{FA375616-AD70-403d-87B1-659E433E7EC2},"Het informatiesubdomein dat gegevens omvat over de politieke organen van de gemeente, hun activiteiten en de ondersteuning daarvan.",,{47DC5ADA-17D7-49e1-8BC6-F798EE72B111},Package,"Bestuur, Politiek en Ondersteuning",18062026-11:55:11
+4,Dienstverlening,{5CA50A0D-7FDC-40ea-B3F3-F85E008D3549},,,,Package,Dienstverlening,18062026-11:55:11
+5,Economie,{97C39FF1-DCAE-4b67-9249-015E2D795AE8},,,,Package,Economie,18062026-11:55:11
+6,Financien,{4F010A09-D9D0-4bcf-A233-8430F8EFE54A},,,{BB0CE95E-98B3-48ec-905F-5512A5AB221C},Package,Interne Organisatie,18062026-11:55:11
+7,HR,{1825F01E-BA3C-4e53-B3B3-BD1E69F94A10},,,{BB0CE95E-98B3-48ec-905F-5512A5AB221C},Package,Interne Organisatie,18062026-11:55:11
+8,ICT,{A2C234C7-A5F7-4e4a-9EE3-8C37A4469F01},,,{BB0CE95E-98B3-48ec-905F-5512A5AB221C},Package,Interne Organisatie,18062026-11:55:11
+9,Inkoop,{E593FB18-D458-4462-B5F2-0B37FA3AA722},,,{BB0CE95E-98B3-48ec-905F-5512A5AB221C},Package,Interne Organisatie,18062026-11:55:11
+10,Interne Organisatie,{BB0CE95E-98B3-48ec-905F-5512A5AB221C},,,,Package,Interne Organisatie,18062026-11:55:11
+11,Organisatie-indeling,{2883DC11-62ED-42cd-A0D6-855258F32079},,,{BB0CE95E-98B3-48ec-905F-5512A5AB221C},Package,Interne Organisatie,18062026-11:55:11
+12,Subsidies,{F079A58E-FB65-422e-BA86-5E810092E5E5},,,{BB0CE95E-98B3-48ec-905F-5512A5AB221C},Package,Interne Organisatie,18062026-11:55:11
+13,Vastgoed,{64927CCE-C5AB-447e-BB41-C961BE1EA1BD},,,{BB0CE95E-98B3-48ec-905F-5512A5AB221C},Package,Interne Organisatie,18062026-11:55:11
+14,BAG,{FC04420D-2055-4fcf-A2DB-E4C12E2150F1},,,{2EEC0A24-2953-49cb-9CF1-1A19CCE84E97},Package,Kern,18062026-11:55:11
+15,Kern,{2EEC0A24-2953-49cb-9CF1-1A19CCE84E97},,,,Package,Kern,18062026-11:55:11
+16,RGBZPlus,{DF1A3AF5-E138-4f54-AAB1-1716247A2F1D},,,{2EEC0A24-2953-49cb-9CF1-1A19CCE84E97},Package,Kern,18062026-11:55:11
+17,RSGBPlus,{58A5214F-E56C-4707-BE2D-AB36DD6976A3},,,{2EEC0A24-2953-49cb-9CF1-1A19CCE84E97},Package,Kern,18062026-11:55:11
+18,Leerplicht en Leerlingenvervoer,{F717C1C4-7FF4-4024-BDFE-7F424C8EC0E9},,,{604AC59D-D038-4e78-A5FA-80E4748DED5B},Package,Onderwijs,18062026-11:55:11
+19,Onderwijs,{604AC59D-D038-4e78-A5FA-80E4748DED5B},,,,Package,Onderwijs,18062026-11:55:11
+20,Onderwijs,{914BE44C-2654-456f-A20E-C196DCEB20D9},,,{604AC59D-D038-4e78-A5FA-80E4748DED5B},Package,Onderwijs,18062026-11:55:11
+21,Dak- en thuislozen,{7EBCDBB1-6E9C-4f09-AE96-71822F2CC050},,,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:55:11
+22,Diensten,{21489181-D319-96D3-FC70-281C3303E934},"Het Dienstenmodel biedt een gestructureerde weergave van de processen en objecttypen die betrokken zijn bij het leveren van diensten binnen het sociaal domein. Het model richt zich op de relaties tussen aanvragen, besluiten, rechten en voorwaarden die de basis vormen voor het verstrekken van voorzieningen.",,{2AB7A09D-D0B6-4159-A23A-119C7935966B},Package,Sociaal Domein,18062026-11:55:11
+23,Gemeentebegrafenissen,{69713AD3-FECC-4964-8F11-79C8755F710E},,,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:55:11
+24,Generiek Jeugd en Wmo,{189DA897-DDC8-4956-B8E3-5E04D3E1AEA3},,,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:55:11
+25,Inburgering,{59E49EEB-D8EB-4e49-A5E2-62244987690E},"Het informatiedomein dat gegevens omvat over de uitvoering van de Wet inburgering, gericht op het ondersteunen van inburgeraars bij hun integratie en participatie in de Nederlandse samenleving.",,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:55:11
+26,Inkomen,{2AB7A09D-D0B6-4159-A23A-119C7935966B},"Het informatiedomein dat gegevens omvat over inkomensvoorzieningen, -regelingen en financiële ondersteuning voor inwoners, gericht op het waarborgen van bestaanszekerheid en participatie in de samenleving.",,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:55:11
+27,Jeugd,{361CB2CF-EE61-4679-A249-0B7B4A013226},,,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:55:11
+28,Jeugdbescherming en reclassering,{62D673ED-9400-4c5a-904C-A4DB16775C5B},"Het informatiedomein dat gegevens omvat over de uitvoering van kinderbeschermingsmaatregelen, gericht op het waarborgen van een veilige ontwikkeling van kinderen en jongeren.",,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:55:11
 29,Model Inkomen,{7A13550B-AC75-4783-BD16-A9ED6E86172A},"Het informatiedomein dat gegevens omvat over inkomensvoorzieningen, -regelingen en financi&#235;le ondersteuning voor inwoners, gericht op het waarborgen van bestaanszekerheid en participatie in de samenleving.
-",,{2AB7A09D-D0B6-4159-A23A-119C7935966B},Package,Sociaal Domein,18062026-11:27:19
-30,Normafwijking,{1AF36C69-888E-945B-4A20-2632D26A4D4C},Het onderdeel Normafwijking bricht zich op de registratie en afhandeling van situaties waarin een afwijking van de gestelde normen wordt geconstateerd bij inkomensvoorzieningen.,,{2AB7A09D-D0B6-4159-A23A-119C7935966B},Package,Sociaal Domein,18062026-11:27:19
-31,Reden aanvraag,{1BEB04DF-888E-945B-4A20-2791BFAE4D4C},"Het onderdeel Reden aanvraag richt zich op de registratie en categorisatie van redenen waarom een cli&#235;nt een inkomensvoorziening aanvraagt. Dit model biedt een overzicht van de verschillende soorten redenen en hun onderlinge relaties, waardoor gemeenten deze informatie gestructureerd kunnen vastleggen en verwerken.",,{2AB7A09D-D0B6-4159-A23A-119C7935966B},Package,Sociaal Domein,18062026-11:27:19
-32,Schulden,{58435230-9E6D-406f-BC24-E07C11CD5CA6},"Het informatiedomein dat gegevens omvat over de ondersteuning en begeleiding van inwoners met problematische schulden, gericht op het bevorderen van financiële stabiliteit en maatschappelijke participatie.",,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:27:19
-33,Schuldhulpverlening,{B9861718-A0E9-4f16-B9CE-F1A09D0AD642},,,{58435230-9E6D-406f-BC24-E07C11CD5CA6},Package,Sociaal Domein,18062026-11:27:19
-34,Sociaal Domein,{B88A8152-6617-4451-B7EF-FBFB5A06159F},,,,Package,Sociaal Domein,18062026-11:27:19
-35,Sociaal Domein Generiek,{4F047F89-F482-48c9-810A-EC0B55B40AEE},,,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:27:19
-36,Sociale Teams,{AD5F9E9A-447A-43a0-A356-9913F19AB555},,,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:27:19
-37,Terug- en invordering,{1AF9ED18-888E-945B-4A20-263C09D54D4C},Het onderdeel Terug- en Invordering richt zich op de processen en gegevens rondom het terugvorderen en invorderen van onterecht verstrekte inkomensvoorzieningen. Dit model biedt een gestructureerde weergave van de objecttypen en hun onderlinge relaties die nodig zijn om deze financi&#235;le processen effectief te beheren.,,{2AB7A09D-D0B6-4159-A23A-119C7935966B},Package,Sociaal Domein,18062026-11:27:19
-38,Vroegsignalering,{680EBF5D-22CC-4678-BD03-1026113302CD},,,{58435230-9E6D-406f-BC24-E07C11CD5CA6},Package,Sociaal Domein,18062026-11:27:19
-39,Werk,{0CC177F3-B29B-4247-B010-1423D1561952},,,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:27:19
-40,Wmo,{75F72563-7EBB-494b-B561-A24114C49BC4},,,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:27:19
-41,Archeologie,{CDBD96D1-44EA-401b-A0EF-9D235D437D17},,,{44E38F87-AE1C-45c6-B0AB-1366F32ADB28},Package,"Sport, Cultuur en Recreatie",18062026-11:27:19
-42,Archief,{10EED4F6-744C-40c0-8B37-EFFC7E5EEC21},,,{44E38F87-AE1C-45c6-B0AB-1366F32ADB28},Package,"Sport, Cultuur en Recreatie",18062026-11:27:19
-43,Erfgoed,{44E38F87-AE1C-45c6-B0AB-1366F32ADB28},,,{40A8E0F6-63CB-4ac6-B378-95CC70E4A840},Package,"Sport, Cultuur en Recreatie",18062026-11:27:19
-44,Generieke Entiteiten Erfgoed,{4D0C0DDA-ACE2-4e71-8915-2295B450CE2A},,,{44E38F87-AE1C-45c6-B0AB-1366F32ADB28},Package,"Sport, Cultuur en Recreatie",18062026-11:27:19
-45,Monumenten,{45B88627-6F44-4b6d-BE77-3EC51BBE679E},"Het informatiedomein dat gegevens omvat over de aanwijzing, bescherming en instandhouding van monumenten, inclusief gebouwen, objecten en landschappen, die van cultuurhistorische, wetenschappelijke of esthetische waarde zijn.",,{44E38F87-AE1C-45c6-B0AB-1366F32ADB28},Package,"Sport, Cultuur en Recreatie",18062026-11:27:19
-46,Musea,{968E06DC-172D-4e4f-9084-1F7B097620CC},,,{40A8E0F6-63CB-4ac6-B378-95CC70E4A840},Package,"Sport, Cultuur en Recreatie",18062026-11:27:19
-47,Sport,{02364A0F-CCFA-46ba-BB30-BFCAB446F602},,,{40A8E0F6-63CB-4ac6-B378-95CC70E4A840},Package,"Sport, Cultuur en Recreatie",18062026-11:27:19
-48,"Sport, Cultuur en Recreatie",{40A8E0F6-63CB-4ac6-B378-95CC70E4A840},,,,Package,"Sport, Cultuur en Recreatie",18062026-11:27:19
-49,Veiligheid en Vergunningen,{0A4C6DE8-608E-4626-A40E-0C432A5B0F9C},,,,Package,Veiligheid en Vergunningen,18062026-11:27:19
-50,Mobiliteit,{02FD7722-6B39-4e67-A30D-D501E2716B6F},,,{C048FE46-1774-4ade-A25D-6DB87794B8A7},Package,"Verkeer, Vervoer en Waterstaat",18062026-11:27:19
-51,Parkeren,{AF9ED49C-3050-4403-98C8-8DC06A705338},,,{C048FE46-1774-4ade-A25D-6DB87794B8A7},Package,"Verkeer, Vervoer en Waterstaat",18062026-11:27:19
-52,"Verkeer, Vervoer en Waterstaat",{C048FE46-1774-4ade-A25D-6DB87794B8A7},,,,Package,"Verkeer, Vervoer en Waterstaat",18062026-11:27:19
-53,Afval,{639DFBCF-D24B-4b32-A2A4-D6386E0EF744},,,{BA63AB75-03F5-44e6-8A07-377EA0F44E62},Package,Volksgezondheid en Milieu,18062026-11:27:19
-54,Volksgezondheid en Milieu,{BA63AB75-03F5-44e6-8A07-377EA0F44E62},,,,Package,Volksgezondheid en Milieu,18062026-11:27:19
-55,Beheer Openbare Ruimte,{C3BA35EC-ABFA-4a7d-BEE9-07FF7563442D},,,{91A0DA15-8CF6-4dc6-83E4-4A6DBE3A67AA},Package,"Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing",18062026-11:27:19
-56,Bouwen en Wonen,{993A1256-FC98-487a-BAB2-EE71CAC76F98},,,{91A0DA15-8CF6-4dc6-83E4-4A6DBE3A67AA},Package,"Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing",18062026-11:27:19
-57,Meldingen Openbare Ruimte,{F02E1A98-4C66-444a-B20C-D4BA9AB6E121},,,{91A0DA15-8CF6-4dc6-83E4-4A6DBE3A67AA},Package,"Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing",18062026-11:27:19
-58,Omgevingswet,{65922C38-D066-4e06-8EC6-1AB64A23DFA6},,,{91A0DA15-8CF6-4dc6-83E4-4A6DBE3A67AA},Package,"Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing",18062026-11:27:19
-59,"Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing",{91A0DA15-8CF6-4dc6-83E4-4A6DBE3A67AA},,,,Package,"Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing",18062026-11:27:19
+",,{2AB7A09D-D0B6-4159-A23A-119C7935966B},Package,Sociaal Domein,18062026-11:55:11
+30,Normafwijking,{1AF36C69-888E-945B-4A20-2632D26A4D4C},Het onderdeel Normafwijking bricht zich op de registratie en afhandeling van situaties waarin een afwijking van de gestelde normen wordt geconstateerd bij inkomensvoorzieningen.,,{2AB7A09D-D0B6-4159-A23A-119C7935966B},Package,Sociaal Domein,18062026-11:55:11
+31,Reden aanvraag,{1BEB04DF-888E-945B-4A20-2791BFAE4D4C},"Het onderdeel Reden aanvraag richt zich op de registratie en categorisatie van redenen waarom een cli&#235;nt een inkomensvoorziening aanvraagt. Dit model biedt een overzicht van de verschillende soorten redenen en hun onderlinge relaties, waardoor gemeenten deze informatie gestructureerd kunnen vastleggen en verwerken.",,{2AB7A09D-D0B6-4159-A23A-119C7935966B},Package,Sociaal Domein,18062026-11:55:11
+32,Schulden,{58435230-9E6D-406f-BC24-E07C11CD5CA6},"Het informatiedomein dat gegevens omvat over de ondersteuning en begeleiding van inwoners met problematische schulden, gericht op het bevorderen van financiële stabiliteit en maatschappelijke participatie.",,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:55:11
+33,Schuldhulpverlening,{B9861718-A0E9-4f16-B9CE-F1A09D0AD642},,,{58435230-9E6D-406f-BC24-E07C11CD5CA6},Package,Sociaal Domein,18062026-11:55:11
+34,Sociaal Domein,{B88A8152-6617-4451-B7EF-FBFB5A06159F},,,,Package,Sociaal Domein,18062026-11:55:11
+35,Sociaal Domein Generiek,{4F047F89-F482-48c9-810A-EC0B55B40AEE},,,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:55:11
+36,Sociale Teams,{AD5F9E9A-447A-43a0-A356-9913F19AB555},,,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:55:11
+37,Terug- en invordering,{1AF9ED18-888E-945B-4A20-263C09D54D4C},Het onderdeel Terug- en Invordering richt zich op de processen en gegevens rondom het terugvorderen en invorderen van onterecht verstrekte inkomensvoorzieningen. Dit model biedt een gestructureerde weergave van de objecttypen en hun onderlinge relaties die nodig zijn om deze financi&#235;le processen effectief te beheren.,,{2AB7A09D-D0B6-4159-A23A-119C7935966B},Package,Sociaal Domein,18062026-11:55:11
+38,Vroegsignalering,{680EBF5D-22CC-4678-BD03-1026113302CD},,,{58435230-9E6D-406f-BC24-E07C11CD5CA6},Package,Sociaal Domein,18062026-11:55:11
+39,Werk,{0CC177F3-B29B-4247-B010-1423D1561952},,,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:55:11
+40,Wmo,{75F72563-7EBB-494b-B561-A24114C49BC4},,,{B88A8152-6617-4451-B7EF-FBFB5A06159F},Package,Sociaal Domein,18062026-11:55:11
+41,Archeologie,{CDBD96D1-44EA-401b-A0EF-9D235D437D17},,,{44E38F87-AE1C-45c6-B0AB-1366F32ADB28},Package,"Sport, Cultuur en Recreatie",18062026-11:55:11
+42,Archief,{10EED4F6-744C-40c0-8B37-EFFC7E5EEC21},,,{44E38F87-AE1C-45c6-B0AB-1366F32ADB28},Package,"Sport, Cultuur en Recreatie",18062026-11:55:11
+43,Erfgoed,{44E38F87-AE1C-45c6-B0AB-1366F32ADB28},,,{40A8E0F6-63CB-4ac6-B378-95CC70E4A840},Package,"Sport, Cultuur en Recreatie",18062026-11:55:11
+44,Generieke Entiteiten Erfgoed,{4D0C0DDA-ACE2-4e71-8915-2295B450CE2A},,,{44E38F87-AE1C-45c6-B0AB-1366F32ADB28},Package,"Sport, Cultuur en Recreatie",18062026-11:55:11
+45,Monumenten,{45B88627-6F44-4b6d-BE77-3EC51BBE679E},"Het informatiedomein dat gegevens omvat over de aanwijzing, bescherming en instandhouding van monumenten, inclusief gebouwen, objecten en landschappen, die van cultuurhistorische, wetenschappelijke of esthetische waarde zijn.",,{44E38F87-AE1C-45c6-B0AB-1366F32ADB28},Package,"Sport, Cultuur en Recreatie",18062026-11:55:11
+46,Musea,{968E06DC-172D-4e4f-9084-1F7B097620CC},,,{40A8E0F6-63CB-4ac6-B378-95CC70E4A840},Package,"Sport, Cultuur en Recreatie",18062026-11:55:11
+47,Sport,{02364A0F-CCFA-46ba-BB30-BFCAB446F602},,,{40A8E0F6-63CB-4ac6-B378-95CC70E4A840},Package,"Sport, Cultuur en Recreatie",18062026-11:55:11
+48,"Sport, Cultuur en Recreatie",{40A8E0F6-63CB-4ac6-B378-95CC70E4A840},,,,Package,"Sport, Cultuur en Recreatie",18062026-11:55:11
+49,Veiligheid en Vergunningen,{0A4C6DE8-608E-4626-A40E-0C432A5B0F9C},,,,Package,Veiligheid en Vergunningen,18062026-11:55:11
+50,Mobiliteit,{02FD7722-6B39-4e67-A30D-D501E2716B6F},,,{C048FE46-1774-4ade-A25D-6DB87794B8A7},Package,"Verkeer, Vervoer en Waterstaat",18062026-11:55:11
+51,Parkeren,{AF9ED49C-3050-4403-98C8-8DC06A705338},,,{C048FE46-1774-4ade-A25D-6DB87794B8A7},Package,"Verkeer, Vervoer en Waterstaat",18062026-11:55:11
+52,"Verkeer, Vervoer en Waterstaat",{C048FE46-1774-4ade-A25D-6DB87794B8A7},,,,Package,"Verkeer, Vervoer en Waterstaat",18062026-11:55:11
+53,Afval,{639DFBCF-D24B-4b32-A2A4-D6386E0EF744},,,{BA63AB75-03F5-44e6-8A07-377EA0F44E62},Package,Volksgezondheid en Milieu,18062026-11:55:11
+54,Volksgezondheid en Milieu,{BA63AB75-03F5-44e6-8A07-377EA0F44E62},,,,Package,Volksgezondheid en Milieu,18062026-11:55:11
+55,Beheer Openbare Ruimte,{C3BA35EC-ABFA-4a7d-BEE9-07FF7563442D},,,{91A0DA15-8CF6-4dc6-83E4-4A6DBE3A67AA},Package,"Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing",18062026-11:55:11
+56,Bouwen en Wonen,{993A1256-FC98-487a-BAB2-EE71CAC76F98},,,{91A0DA15-8CF6-4dc6-83E4-4A6DBE3A67AA},Package,"Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing",18062026-11:55:11
+57,Meldingen Openbare Ruimte,{F02E1A98-4C66-444a-B20C-D4BA9AB6E121},,,{91A0DA15-8CF6-4dc6-83E4-4A6DBE3A67AA},Package,"Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing",18062026-11:55:11
+58,Omgevingswet,{65922C38-D066-4e06-8EC6-1AB64A23DFA6},,,{91A0DA15-8CF6-4dc6-83E4-4A6DBE3A67AA},Package,"Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing",18062026-11:55:11
+59,"Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing",{91A0DA15-8CF6-4dc6-83E4-4A6DBE3A67AA},,,,Package,"Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing",18062026-11:55:11
