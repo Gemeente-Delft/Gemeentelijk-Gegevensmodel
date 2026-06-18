@@ -257,15 +257,34 @@ tasks:
     shell: bash
 
   generate:gemma:
-    desc: "Generate GEMMA CSV export from the model to '{{.VERSION_DIR}}/{{.GEMMA_DIR}}'."
-    deps: [import:model]
+    desc: "Generate spec-conforme GEMMA CSV-export (objects + relations + subdomeinen) uit '{{.GGM}}' naar '{{.VERSION_DIR}}/{{.GEMMA_DIR}}'."
+    deps: [prepare:check-vars]
     cmds:
+      - |
+        if [ ! -f "{{.GGM}}" ]; then
+          echo "Error: EA-bestand '{{.GGM}}' bestaat niet."
+          exit 1
+        fi
       - mkdir -p "{{.VERSION_DIR}}/{{.GEMMA_DIR}}"
-      - echo "Generating CSV's for upload in GEMMA..."
-      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t csv -f "{{.VERSION_DIR}}/{{.GEMMA_DIR}}/{{.GEMMA_FILE_PREFIX}}" --mapper '{{.GEMMA_CLASS_MAPPER}}' --entity_name classes
-      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t csv -f "{{.VERSION_DIR}}/{{.GEMMA_DIR}}/{{.GEMMA_FILE_PREFIX}}" --mapper '{{.GEMMA_CLASS_MAPPER}}' --entity_name associations
-      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t csv -f "{{.VERSION_DIR}}/{{.GEMMA_DIR}}/{{.GEMMA_FILE_PREFIX}}" --mapper '{{.GEMMA_CLASS_MAPPER}}' --entity_name packages
-      - echo "Generation ready."
+      - echo "Genereren van GEMMA-CSV's (objects + relations) uit '{{.GGM}}'..."
+      - |
+        # export_to_gemma.py leest de EA .qea (SQLite) rechtstreeks en levert de twee
+        # bestanden conform de VNG-spec "GGM-GEMMA data-uitwisseling" (braced GUID's,
+        # nr-kolom, associations + generalizations samen in het relatiebestand).
+        # Afhankelijkheden (pandas, treelib) leven in een lokale venv.
+        VENV="tools/.venv-gemma"
+        if [ ! -x "$VENV/bin/python" ]; then
+          echo "Aanmaken Python-venv $VENV met pandas/treelib..."
+          python3 -m venv "$VENV"
+          "$VENV/bin/python" -m pip install --quiet --upgrade pip
+          "$VENV/bin/python" -m pip install --quiet -r tools/requirements-gemma.txt
+        fi
+        "$VENV/bin/python" tools/export_to_gemma.py \
+          --db_uri "{{.GGM}}" \
+          --output_objects "{{.VERSION_DIR}}/{{.GEMMA_DIR}}/ggm_export_objects_for_gemma.csv" \
+          --output_relations "{{.VERSION_DIR}}/{{.GEMMA_DIR}}/ggm_export_relations_for_gemma.csv" \
+          --output_packages "{{.VERSION_DIR}}/{{.GEMMA_DIR}}/ggm_export_subdomains_for_gemma.csv"
+      - echo "Generatie gereed."
     shell: bash
 
   # ==========================================================================

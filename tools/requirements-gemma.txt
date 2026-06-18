@@ -1,0 +1,4 @@
+# Python-afhankelijkheden voor tools/export_to_gemma.py (GGM -> GEMMA CSV-export).
+# Geïnstalleerd in de venv tools/.venv-gemma door de Taskfile-taak `generate:gemma`.
+pandas
+treelib

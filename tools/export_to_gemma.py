@@ -194,12 +194,14 @@ def exportColumns(df, col_list: list, col_mapping: dict = None):
 
 DEFAULT_ROOT_GUID = '{D7FD597E-1F40-48df-AFFC-EA3B5B5D3FBF}'  # Root GGM
 
+# Kolommen conform de VNG-spec "GGM-GEMMA data-uitwisseling" (elementen/objecten),
+# exacte naam, casing en volgorde. 'nr' wordt bij het wegschrijven vooraan toegevoegd.
 OBJ_COLUMNS = [
-    'GGM-naam', 'GGM-definitie', 'GGM-uml-type', 'GGM-toelichting',
-    'GGM-synoniemen', 'GGM-guid', 'GGM-bron', 'domein-iv3', 'domein-dcat',
-    'domein-gemma', 'GEMMA-naam', 'GEMMA-definitie', 'GEMMA-toelichting',
-    'GEMMA-synoniemen', 'GEMMA-bron', 'GEMMA-URL', 'GEMMA-alternate-name',
-    'GEMMA-guid', 'GEMMA-type', 'datum-tijd-export',
+    'GEMMA-naam', 'GGM-naam', 'GEMMA-guid', 'GGM-guid', 'GEMMA-type',
+    'GGM-uml-type', 'GEMMA-definitie', 'GGM-definitie', 'GEMMA-toelichting',
+    'GGM-toelichting', 'GEMMA-synoniemen', 'GGM-synoniemen', 'GEMMA-bron',
+    'GGM-bron', 'GEMMA-url', 'GEMMA-alternate-name', 'domein-iv3',
+    'domein-iv3-guid', 'domein-dcat', 'Datum-tijd-export',
 ]
 OBJ_COLUMN_MAPPING = {
     'name': 'GGM-naam',
@@ -211,13 +213,17 @@ OBJ_COLUMN_MAPPING = {
     'synoniemen': 'GGM-synoniemen',
     'archimate-type': 'GEMMA-type',
     'gemma-guid': 'GEMMA-guid',
+    # EA-tag heet 'GEMMA-URL'; spec-kolom is 'GEMMA-url' (kleine letters).
+    'GEMMA-URL': 'GEMMA-url',
 }
 
+# Kolommen conform de VNG-spec (relaties), exacte naam, casing en volgorde.
+# 'nr' wordt bij het wegschrijven vooraan toegevoegd.
 CON_COLUMNS = [
-    'GGM-naam', 'GGM-definitie', 'GGM-uml-type', 'GGM-toelichting',
-    'GGM-guid', 'GGM-source-guid', 'GGM-target-guid', 'GEMMA-naam',
-    'GEMMA-definitie', 'GEMMA-toelichting', 'GEMMA-type', 'GEMMA-guid',
-    'GEMMA-source-guid', 'GEMMA-target-guid', 'datum-tijd-export',
+    'GEMMA-naam', 'GGM-naam', 'GEMMA-guid', 'GGM-guid', 'GEMMA-type',
+    'GGM-uml-type', 'GEMMA-definitie', 'GGM-definitie', 'GEMMA-toelichting',
+    'GGM-toelichting', 'GEMMA-source-guid', 'GGM-source-guid',
+    'GEMMA-target-guid', 'GGM-target-guid', 'Datum-tijd-export',
 ]
 CON_COLUMN_MAPPING = {
     'connector_name': 'GGM-naam',
@@ -229,24 +235,41 @@ CON_COLUMN_MAPPING = {
     'ea_guid_target': 'GGM-target-guid',
 }
 
+# Kolommen voor het subdomeinen-bestand (domein-/subdomein-packages). Geen VNG-spec;
+# zelfde schone stijl als objects/relations. 'nr' wordt bij het wegschrijven vooraan
+# toegevoegd. 'GGM-parent-guid' verwijst naar het bovenliggende (sub)domein.
+PKG_COLUMNS = [
+    'GGM-naam', 'GGM-guid', 'GGM-definitie', 'GGM-toelichting',
+    'GGM-parent-guid', 'GGM-uml-type', 'domein-iv3', 'Datum-tijd-export',
+]
+
 
 # ---------------------------------------------------------------------------
 # Hoofdlogica
 # ---------------------------------------------------------------------------
 
-def export_to_gemma(db_uri: str, root_guid: str, output_objects: str, output_relations: str) -> None:
+def export_to_gemma(
+    db_uri: str,
+    root_guid: str,
+    output_objects: str,
+    output_relations: str,
+    output_packages: str,
+) -> None:
     """Voer de volledige export uit en sla de resultaten op als CSV."""
 
     now = datetime.now()
-    dt_string = now.strftime("%d%m%Y-%H%M%S")
+    dt_string = now.strftime("%d%m%Y-%H:%M:%S")  # waarde in CSV, conform spec (ddmmyyyy-hh:mm:ss)
+    dt_file = now.strftime("%d%m%Y-%H%M%S")       # bestandsnaam-veilige variant (geen dubbele punten)
 
     # Vervang timestamp-placeholders in outputpaden als die er in zitten
-    output_objects = output_objects.format(dt=dt_string)
-    output_relations = output_relations.format(dt=dt_string)
+    output_objects = output_objects.format(dt=dt_file)
+    output_relations = output_relations.format(dt=dt_file)
+    output_packages = output_packages.format(dt=dt_file)
 
     # Zorg dat de outputmap bestaat
     os.makedirs(os.path.dirname(os.path.abspath(output_objects)), exist_ok=True)
     os.makedirs(os.path.dirname(os.path.abspath(output_relations)), exist_ok=True)
+    os.makedirs(os.path.dirname(os.path.abspath(output_packages)), exist_ok=True)
 
     # -----------------------------------------------------------------------
     # Stap 1: Packages inlezen en omzetten naar tree-structuur
@@ -259,6 +282,26 @@ def export_to_gemma(db_uri: str, root_guid: str, output_objects: str, output_rel
 
     root_id = df_package[df_package.ea_guid == root_guid]['Package_ID'].values[0]  # noqa: F841
     package_tree = DataframeToTree(df_package, 'Package_ID', 'Parent_ID', 3)
+
+    # Domein-/subdomein-packages zijn in EA gemarkeerd met stereotype 'Domein'
+    # (zo bepaalt ook crunch_uml is_domain). Deze set wordt gebruikt voor zowel het
+    # subdomeinen-bestand als de 'domein-iv3'(-guid) bij de objecten, zodat objecten
+    # altijd naar een subdomein verwijzen dat ook in het subdomeinen-bestand staat.
+    df_domains = get_df(
+        db_uri,
+        "select ea_guid from t_object where Object_Type = 'Package' and Stereotype = 'Domein'",
+    )
+    domain_guids = set(df_domains['ea_guid'].dropna())
+    domain_pids = set(df_package[df_package['ea_guid'].isin(domain_guids)]['Package_ID'])
+
+    def get_domein_node(package_id):
+        """Dichtstbijzijnde voorouder-package (incl. zichzelf) met stereotype 'Domein'."""
+        node = package_tree.get_node(package_id)
+        while node is not None:
+            if node.identifier in domain_pids:
+                return node
+            node = package_tree.parent(node.identifier)
+        return None
 
     # -----------------------------------------------------------------------
     # Stap 2: Objecttypes inlezen
@@ -282,28 +325,19 @@ def export_to_gemma(db_uri: str, root_guid: str, output_objects: str, output_rel
         suffixes=('', '_y'),
     )
 
-    # IV3-domein afleiden uit de package-tree
-    def getIV3Domein(packageID):
-        node = package_tree.get_node(packageID)
-        if not node:
-            return None
-        tag = node.tag
-        tag = verwijder_getallen_en_blanks_vooraan(tag)
-        if not tag.startswith('Model') and not tag.startswith('Diagram'):
-            return tag
-        parent = package_tree.parent(packageID)
-        if parent is None:
-            return None
-        return getIV3Domein(parent.identifier)
-
-    df_obj['domein-iv3'] = df_obj.apply(lambda x: getIV3Domein(x['package_id']), axis=1)
+    # Subdomein (stereotype 'Domein') per object: naam + guid. De naam is al ontdaan
+    # van een ordenend cijfer vooraan (zie verwijder_getallen_en_blanks_vooraan in
+    # Stap 1) en is identiek aan de GGM-naam in het subdomeinen-bestand.
+    domein_nodes = df_obj['package_id'].apply(get_domein_node)
+    df_obj['domein-iv3'] = domein_nodes.apply(lambda n: n.tag if n is not None else '')
+    df_obj['domein-iv3-guid'] = domein_nodes.apply(lambda n: n.data['ea_guid'] if n is not None else '')
 
     # -----------------------------------------------------------------------
     # Stap 3: Objecten exportklaar maken
     # -----------------------------------------------------------------------
     print("Objectkolommen filteren en hernoemen...")
     df_obj_export = exportColumns(df_obj, OBJ_COLUMNS, OBJ_COLUMN_MAPPING)
-    df_obj_export['datum-tijd-export'] = dt_string
+    df_obj_export['Datum-tijd-export'] = dt_string
 
     # Correctie voor dubbele toelichting-kolom
     df_obj_export['toelichting_save'] = df_obj_export.apply(
@@ -362,26 +396,81 @@ def export_to_gemma(db_uri: str, root_guid: str, output_objects: str, output_rel
     print("Relatiekolommen filteren en hernoemen...")
     df_con_export = exportColumns(df_con, CON_COLUMNS, CON_COLUMN_MAPPING)
     df_con_export = df_con_export.loc[:, ~df_con_export.columns.duplicated()].copy()
-    df_con_export['datum-tijd-export'] = dt_string
+    df_con_export['Datum-tijd-export'] = dt_string
 
     # NaN opruimen
     df_con_export = df_con_export.fillna('')
     df_con_export = df_con_export.replace(to_replace=r'^\s*nan\s*$', value='', regex=True)
 
     # -----------------------------------------------------------------------
-    # Stap 6: CSV's wegschrijven
+    # Stap 6: CSV's wegschrijven — exact de spec-kolommen en -volgorde, met een
+    # doorlopend 'nr' (0-gebaseerd regelnummer) vooraan. De reindex dwingt de
+    # exacte volgorde af en verwijdert eventuele extra (ruis-)kolommen.
     # -----------------------------------------------------------------------
     print(f"Exporteren naar {output_objects}")
-    df_obj_export.drop(columns='nr', inplace=True, errors='ignore')
-    df_obj_export.index.name = 'nr'
-    df_obj_export = df_obj_export.reset_index()
+    df_obj_export = df_obj_export.loc[:, ~df_obj_export.columns.duplicated()].copy()
+    df_obj_export = df_obj_export.fillna('').reset_index(drop=True)
+    df_obj_export['nr'] = range(len(df_obj_export))
+    df_obj_export = df_obj_export.reindex(columns=['nr'] + OBJ_COLUMNS, fill_value='')
     df_obj_export.to_csv(output_objects, index=False)
 
     print(f"Exporteren naar {output_relations}")
-    df_con_export.drop(columns=['nr', ''], inplace=True, errors='ignore')
-    df_con_export.index.name = 'nr'
-    df_con_export = df_con_export.reset_index()
+    df_con_export = df_con_export.loc[:, ~df_con_export.columns.duplicated()].copy()
+    df_con_export = df_con_export.fillna('').reset_index(drop=True)
+    df_con_export['nr'] = range(len(df_con_export))
+    df_con_export = df_con_export.reindex(columns=['nr'] + CON_COLUMNS, fill_value='')
     df_con_export.to_csv(output_relations, index=False)
+
+    # -----------------------------------------------------------------------
+    # Stap 7: Subdomeinen wegschrijven — alleen de inhoudelijke domein-/subdomein-
+    # packages onder de root. De technische 'Diagram'- en 'Model ...'-packages
+    # worden overgeslagen. GGM-parent-guid verwijst naar het bovenliggende
+    # (sub)domein (leeg voor een top-domein); domein-iv3 is het top-level domein.
+    # -----------------------------------------------------------------------
+    print(f"Exporteren naar {output_packages}")
+
+    # Domein-/subdomein-packages = de in Stap 1 bepaalde 'Domein'-packages (domain_guids).
+    # Technische packages (Model ..., Diagram, datatypes, enumeratiesoorten, klassegroepen)
+    # hebben dat stereotype niet en vallen dus vanzelf af.
+    def in_domains(node):
+        return node is not None and node.data is not None and node.data['ea_guid'] in domain_guids
+
+    def getTopDomein(packageID):
+        # Hoogste 'Domein'-voorouder (het IV3-domein) waaronder dit (sub)domein valt.
+        node = package_tree.get_node(packageID)
+        if node is None:
+            return ''
+        parent = package_tree.parent(packageID)
+        while in_domains(parent):
+            node = parent
+            parent = package_tree.parent(node.identifier)
+        return node.tag
+
+    pkg_records = []
+    for node in package_tree.all_nodes():
+        if not in_domains(node):
+            continue
+        data = node.data
+        parent = package_tree.parent(node.identifier)
+        parent_guid = parent.data['ea_guid'] if in_domains(parent) else ''
+        pkg_records.append({
+            'GGM-naam': node.tag,
+            'GGM-guid': data['ea_guid'],
+            'GGM-definitie': data['Notes'] if 'Notes' in data else '',
+            'GGM-toelichting': '',
+            'GGM-parent-guid': parent_guid,
+            'GGM-uml-type': 'Package',
+            'domein-iv3': getTopDomein(node.identifier),
+            'Datum-tijd-export': dt_string,
+        })
+
+    df_pkg_export = pd.DataFrame(pkg_records, columns=PKG_COLUMNS).fillna('')
+    if not df_pkg_export.empty:
+        df_pkg_export = df_pkg_export.sort_values(['domein-iv3', 'GGM-naam'])
+    df_pkg_export = df_pkg_export.reset_index(drop=True)
+    df_pkg_export['nr'] = range(len(df_pkg_export))
+    df_pkg_export = df_pkg_export.reindex(columns=['nr'] + PKG_COLUMNS, fill_value='')
+    df_pkg_export.to_csv(output_packages, index=False)
 
     print("Export geslaagd!")
 
@@ -392,7 +481,7 @@ def export_to_gemma(db_uri: str, root_guid: str, output_objects: str, output_rel
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Exporteer GGM-objecttypes en -relaties naar CSV voor de GEMMA.",
+        description="Exporteer GGM-objecttypes, -relaties en -subdomeinen naar CSV voor de GEMMA.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=__doc__,
     )
@@ -432,6 +521,15 @@ def parse_args() -> argparse.Namespace:
             'Overschrijft --output_dir voor dit bestand.'
         ),
     )
+    parser.add_argument(
+        '--output_packages',
+        default=None,
+        help=(
+            'Volledig pad voor het subdomeinen-CSV-bestand (domein-/subdomein-packages). '
+            'Gebruik {dt} als tijdstempel-placeholder. '
+            'Overschrijft --output_dir voor dit bestand.'
+        ),
+    )
     return parser.parse_args()
 
 
@@ -445,11 +543,15 @@ def main() -> None:
     output_relations = args.output_relations or os.path.join(
         args.output_dir, "ggm_export_relations_for_gemma.csv"
     )
+    output_packages = args.output_packages or os.path.join(
+        args.output_dir, "ggm_export_subdomains_for_gemma.csv"
+    )
 
-    print(f"Database  : {args.db_uri}")
-    print(f"Root GUID : {args.root_guid}")
-    print(f"Objecten  : {output_objects}")
-    print(f"Relaties  : {output_relations}")
+    print(f"Database    : {args.db_uri}")
+    print(f"Root GUID   : {args.root_guid}")
+    print(f"Objecten    : {output_objects}")
+    print(f"Relaties    : {output_relations}")
+    print(f"Subdomeinen : {output_packages}")
     print()
 
     try:
@@ -458,6 +560,7 @@ def main() -> None:
             root_guid=args.root_guid,
             output_objects=output_objects,
             output_relations=output_relations,
+            output_packages=output_packages,
         )
     except Exception as exc:
         print(f"FOUT: {exc}", file=sys.stderr)
