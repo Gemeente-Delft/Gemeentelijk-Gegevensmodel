@@ -21,7 +21,7 @@ Zodra je een nieuwe versie van het model in XMI-formaat hebt, wil je daaruit aut
 2. **Import**: Het XMI-bestand wordt geïmporteerd in een lokale Crunch UML-database.
 3. **Documentatie**: Markdown-bestanden worden gegenereerd uit het model.
 4. **Excel**: Een Excel-specificatie wordt automatisch aangemaakt.
-5. **Vertalingen**: Voor elke taal in het i18n-bestand wordt een `.qea` gemaakt.
+5. **Vertalingen**: Het i18n-bestand wordt bijgewerkt via lokale Ollama (of na bevestiging via Google/Bing) en vervolgens wordt per taal een `.qea` gemaakt. Bij `full-deploy` wordt gevraagd of de bestaande vertaling hergebruikt wordt (alleen ontbrekende waarden aanvullen) of dat de hele vertaling opnieuw moet.
 6. **Publicatie**: De documentatie wordt gepubliceerd via GitHub Pages met versiebeheer via `mike`.
 
 ---
@@ -43,6 +43,22 @@ pip install mkdocs mkdocs-material mike \
     typing_extensions \
     mkdocs-glightbox
 ```
+
+### Vertaling via lokale Ollama (aanbevolen)
+
+Vanaf `crunch_uml` 0.4.11 kunnen vertalingen lokaal via [Ollama](https://ollama.com/) worden gedaan, zonder dat tekst naar publieke endpoints wordt gestuurd. Voor de aanbevolen lokale modus moet Ollama draaien op `http://localhost:11434` en het aanbevolen model gepulld zijn:
+
+```bash
+ollama serve &
+ollama pull mistral-small3.1:24b
+```
+
+`OLLAMA_MODEL` en `OLLAMA_URL` zijn in `.env` instelbaar.
+
+Als Ollama niet draait, of het aanbevolen model is niet gepulld, dan vraagt `task util:generate-i18n` expliciet:
+
+- of een ander gepulld model gebruikt moet worden (met lijst van beschikbare modellen), óf
+- of de vertaling via de publieke `translators`-backend (Google/Bing) mag — zodat de vertaling nooit ongemerkt over het internet loopt.
 
 ### Benodigde bestanden onder de versie-directory
 
@@ -84,9 +100,10 @@ Gebruik onderstaand overzicht om losse taken uit te voeren en zo delen van de de
 | `generate-docs`         | Genereert Markdown-bestanden vanuit het model                              |
 | `generate-excel`        | Maakt een Excel-specificatie                                               |
 | `generate-translations` | Maakt per taal een vertaalde `.qea`-versie (o.b.v. `translations.json`)    |
+| `util:generate-i18n`    | Bouwt/vernieuwt het i18n-bestand via lokale Ollama (met fallback-bevestiging voor Google/Bing). Standaard worden alleen ontbrekende vertalingen aangevuld; met `task util:generate-i18n UPDATE_I18N=False` wordt alles opnieuw vertaald. |
 | `deploy-docs`           | Bouwt de documentatie lokaal met MkDocs en mike zodat deze lokaal gestest kunnen worden, en later gepubliceerd. |
 | `publish-docs`          | Publiceert de documentatie naar GitHub Pages (`gh-pages` branch)           |
-| `full-deploy`           | Voert alles hierboven in één keer uit. Publicatie via `publish-docs` op GitHub pages zit hier niet in. |
+| `full-deploy`           | Voert alles hierboven in één keer uit. Vraagt voorafgaand aan de vertalingen of de bestaande vertaling hergebruikt wordt of dat alles opnieuw moet. Publicatie via `publish-docs` op GitHub pages zit hier niet in. |
 
 ### Taken uitvoeren
 

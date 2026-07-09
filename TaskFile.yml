@@ -297,13 +297,61 @@ tasks:
       - lftp -e "set ssl:verify-certificate no; cd {{.FTP_REMOTE_DIR}}; mirror -R --delete --verbose ./{{.FTP_LOCAL_DIR}} .; bye" {{.FTP_HOST}}
     shell: bash
 
+  publish:lod:
+    desc: "Rsync de LOD-TTL van {{.VERSION}} naar de dropmap op de server; lod-watch laadt 'm in Virtuoso (geen stack-redeploy)."
+    deps: [prepare:check-vars]
+    vars:
+      # Defaults; overschrijf desgewenst in .env. SSH_HOST is een ssh-config profiel.
+      SSH_HOST: '{{.SSH_HOST | default "lod-ggm"}}'
+      LOD_DROP: '{{.LOD_DROP | default "/home/gemeentelijkgegevensmodel-lod/ggm-lod"}}'
+    prompt:
+      - "rsync de LOD-TTL van {{.VERSION}} naar '{{.SSH_HOST}}:{{.LOD_DROP}}'. lod-watch zet 'm daarna live. Doorgaan?"
+    cmds:
+      - |
+        set -euo pipefail
+        if [ ! -f "{{.LOD}}" ]; then
+          echo "Error: LOD-bestand '{{.LOD}}' bestaat niet. Draai eerst: task generate:lod VERSION={{.VERSION}}"
+          exit 1
+        fi
+        DROP="{{.LOD_DROP}}"
+        DEST="${DROP%/}/ggm-{{.VERSION}}.ttl"
+        # macOS openrsync kent geen --chmod=F644; zet de bron op 644 (no-op als
+        # 'ie dat al is) en laat rsync -a die rechten meenemen naar de server.
+        chmod 644 "{{.LOD}}"
+        echo "publish:lod: rsync '{{.LOD}}' -> {{.SSH_HOST}}:$DEST"
+        rsync -az "{{.LOD}}" "{{.SSH_HOST}}:$DEST"
+        echo "publish:lod: klaar — lod-watch laadt versie {{.VERSION}} binnen ~${WATCH_INTERVAL:-20}s. Controleer met: task publish:lod-list"
+    shell: bash
+
+  publish:lod-list:
+    desc: "Toon welke named graphs nu in de LIVE Virtuoso staan (via SSH, read-only)."
+    cmds:
+      - |
+        set -euo pipefail
+        : "${SSH_HOST:?Zet SSH_HOST in .env}"
+        PORT="${LOD_LOCAL_PORT:-8080}"
+        ssh "$SSH_HOST" "curl -fsS -H 'Accept: text/csv' --data-urlencode 'query=SELECT ?g (COUNT(*) AS ?triples) WHERE { GRAPH ?g { ?s ?p ?o } } GROUP BY ?g ORDER BY ?g' 'http://127.0.0.1:${PORT}/sparql'"
+    shell: bash
+
   # ==========================================================================
   # Orchestratie
   # ==========================================================================
   full-deploy:
-    desc: "Execute the entire deployment process."
+    desc: "Execute the entire deployment process, inclusief i18n-hervertaling via Ollama."
     cmds:
       - task: generate:excel
+      - |
+        echo ""
+        echo "=== Vertalingen genereren via lokale Ollama ==="
+        echo "Hele vertaling opnieuw uitvoeren, of bestaande vertaling hergebruiken?"
+        read -p "Bestaande vertaling hergebruiken (alleen ontbrekende aanvullen)? [Y/n]: " ANS
+        if [[ "$ANS" =~ ^[Nn]$ ]]; then
+          echo ">> Volledige hervertaling..."
+          task util:generate-i18n UPDATE_I18N=False
+        else
+          echo ">> Bestaande vertaling hergebruiken; alleen ontbrekende waarden worden aangevuld..."
+          task util:generate-i18n UPDATE_I18N=True
+        fi
       - task: generate:translations
       - task: publish:local
       - task: generate:lod
@@ -335,8 +383,10 @@ tasks:
     shell: bash
 
   util:generate-i18n:
-    desc: "Genereer vertalingen voor alle talen opgegeven in de .env variabele LANGUAGES. Output naar '{{.i18N_FILE}}'"
+    desc: "Genereer vertalingen voor alle talen in LANGUAGES via de crunch_uml vertaalpijplijn (termbanken + lokale LLM's, config in .env). Zet UPDATE_I18N=False voor volledige hervertaling."
     deps: [import:model]
+    vars:
+      UPDATE_I18N: '{{.UPDATE_I18N | default "True"}}'
     cmds:
       - |
         if [ -z "{{.LANGUAGES}}" ]; then
@@ -344,22 +394,34 @@ tasks:
           exit 1
         fi
 
-        echo "Reading GGM Datamodel {{.XMI}}..."
-        # crunch_uml import -f "{{.XMI}}" -t eaxmi -db_create
+        # De backendkeuze en capability-detectie zitten in crunch_uml zelf
+        # (CRUNCH_UML_* variabelen in .env; de preflight logt per run welke
+        # modellen en termbanken actief zijn). Eén harde controle vooraf:
+        # zonder bereikbare Ollama zou een batchrun "slagen" terwijl
+        # onvertaalde bronwaarden in het i18n-bestand belanden — en die
+        # worden bij volgende runs als bestaande vertaling hergebruikt.
+        if ! curl -fsS --max-time 3 "${CRUNCH_UML_OLLAMA_URL:-http://localhost:11434}/api/tags" >/dev/null 2>&1; then
+          echo "Error: Ollama is niet bereikbaar op ${CRUNCH_UML_OLLAMA_URL:-http://localhost:11434}."
+          echo "Start de server met 'ollama serve' en probeer opnieuw."
+          exit 1
+        fi
+
+        echo "Vertaalmodus: UPDATE_I18N={{.UPDATE_I18N}} (True = alleen ontbrekende, False = alles opnieuw)"
 
         for LANG in $(echo "{{.LANGUAGES}}" | tr ',' ' '); do
-          for LANG in "${LANG_ARRAY[@]}"; do
-            LANG=$(echo "$LANG" | xargs)  # trim spaties
-            echo "Translating GGM to language $LANG..."
-            crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t i18n -f "{{.i18N_FILE}}" --language "$LANG" --translate True --from_language "nl"
+          LANG=$(echo "$LANG" | xargs)
+          echo "Translating GGM to language $LANG..."
+          crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export \
+            -t i18n -f "{{.i18N_FILE}}" \
+            --language "$LANG" --from_language "nl" \
+            --translate True \
+            --update_i18n {{.UPDATE_I18N}}
 
-            if [ $? -eq 0 ]; then
-              echo "Translation for language $LANG completed successfully."
-            else
-              echo "Error: Translation for language $LANG failed."
-              exit 1
-            fi
-          done
+          if [ $? -ne 0 ]; then
+            echo "Error: Translation for language $LANG failed."
+            exit 1
+          fi
+          echo "Translation for language $LANG completed successfully."
         done
     env:
       LANGUAGES: "{{.LANGUAGES}}"

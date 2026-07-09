@@ -6,7 +6,7 @@
 
 <https://lod.gemeentelijkgegevensmodel.nl/semantische%20relaties/aanbesteding-inhuur/eigenaar> a owl:ObjectProperty ;
     rdfs:label "eigenaar" ;
-    dcterms:identifier "EAID_BE6176A2_C180_4e8e_8CA5_83E21A1A70CC" ;
+    dcterms:identifier "BE6176A2_C180_4e8e_8CA5_83E21A1A70CC" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/inkoop/aanbesteding-inhuur> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern%20rgbz/medewerker> .
 

@@ -7,3 +7,6 @@ crunch_uml.db
 linkchecker.log
 .task
 .npm
+
+# Secrets: nooit committen. Gebruik .env.example als sjabloon.
+.env
