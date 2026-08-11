@@ -89,13 +89,7 @@ Het model 'Model Dienstverlening' kent de volgende objecttypen:
     | gemma_naam | Aanvraagdata |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-6f15e2ca-531d-4879-b087-f43559d8c3fd](https://gemmaonline.nl/index.php/GEMMA/id-6f15e2ca-531d-4879-b087-f43559d8c3fd) |
-<<<<<<< HEAD
-    | gemma_definitie | 
-> Bron: GEN\_REQ\_DATA
-> ID: REQ\_DATA icm VELD\_NAAM |
-=======
     | gemma_definitie | Bron: GEN\_REQ\_DATA<br>ID: REQ\_DATA icm VELD\_NAAM |
->>>>>>> origin/master
     | gemma_toelichting |  |
     
 
@@ -135,14 +129,7 @@ Attributen van objecttype Aanvraagdata
     | gemma_naam | AanvraagOfMelding |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f14fa1cf-f2c7-4bd6-862d-28ff1616a882](https://gemmaonline.nl/index.php/GEMMA/id-f14fa1cf-f2c7-4bd6-862d-28ff1616a882) |
-<<<<<<< HEAD
-    | gemma_definitie | 
-> Komt overeen met een VJV
-> Bron: GEM\_VJV (Distinct op REQ\_ID)
-> ID: REQ\_ID |
-=======
     | gemma_definitie | Komt overeen met een VJV<br>Bron: GEM\_VJV (Distinct op REQ\_ID)<br>ID: REQ\_ID |
->>>>>>> origin/master
     | gemma_toelichting |  |
     
 
@@ -549,13 +536,7 @@ Attributen van objecttype MOR-AanvraagOfMelding
     | gemma_naam | Onderwerp |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-bc793405-f822-4a23-a8dc-74206f1d45df](https://gemmaonline.nl/index.php/GEMMA/id-bc793405-f822-4a23-a8dc-74206f1d45df) |
-<<<<<<< HEAD
-    | gemma_definitie | 
-> Bron: GEM\_VJV\_ONDERWERP
-> ID: ONDERWERP\_ID |
-=======
     | gemma_definitie | Bron: GEM\_VJV\_ONDERWERP<br>ID: ONDERWERP\_ID |
->>>>>>> origin/master
     | gemma_toelichting |  |
     
 
@@ -764,12 +745,8 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
-<<<<<<< HEAD
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_4ae844b8_74d2_42ec_abed_70eb1ee41435 |
-=======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_96d24917\_9aef\_45ef\_bdfd\_5993531b784e |
+    | id | EAID\_e3cf80d1\_d70a\_4857\_93ca\_4192e87f367e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

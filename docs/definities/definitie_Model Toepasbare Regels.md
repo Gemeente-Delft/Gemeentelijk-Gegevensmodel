@@ -168,9 +168,7 @@ Attributen van objecttype Maatregelen
     | gemma_naam | ToepasbareRegel |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-b2498fa2-f9ff-48dd-946d-8b8ed395da81](https://gemmaonline.nl/index.php/GEMMA/id-b2498fa2-f9ff-48dd-946d-8b8ed395da81) |
-    | gemma_definitie | 
-> Vanwege de leesbaarheid wordt gewerkt met de term Toepasbare regel ipv regelbeheersobject
-> Een regelbeheerobject heeft een koppeling met een samenhangende set met regels om een afleiding te kunnen doen. Het regelbeheerobject ‘conclusie gevelaanpassing’ |
+    | gemma_definitie | Vanwege de leesbaarheid wordt gewerkt met de term Toepasbare regel ipv regelbeheersobject<br>Een regelbeheerobject heeft een koppeling met een samenhangende set met regels om een afleiding te kunnen doen. Het regelbeheerobject ‘conclusie gevelaanpassing’ |
     | gemma_toelichting |  |
     
 

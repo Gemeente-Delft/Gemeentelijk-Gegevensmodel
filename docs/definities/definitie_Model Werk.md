@@ -40,13 +40,8 @@ Het model 'Model Werk' kent de volgende objecttypen:
 * **Ontheffing**: Een formele vrijstelling van verplichtingen rond arbeidsparticipatie, zoals beschikbaarheid of tegenprestatie, op basis van persoonlijke of juridische gronden.
 * **Opleiding**: Een formeel of informeel leertraject dat een persoon heeft gevolgd met als doel het verwerven van kennis, vaardigheden of competenties.
 * **Opleidingsnaam**: De naam waarmee een gevolgde opleiding aangeduid wordt. Dit kan een officiële (gecodeerde) of vrije tekst zijn.
-<<<<<<< HEAD
-* **OpleidingsnaamGecodeerd**: 
-* **OpleidingsnaamOngecodeerd**: 
-=======
 * **OpleidingsnaamGecodeerd**: Een OpleidingsnaamGecodeerd is een versleutelde/coderende aanduiding van de naam van een opleiding zoals vastgelegd in onderwijs-microdata, bedoeld om de opleiding te identificeren zonder de volledige tekstuele naam direct in de dataset op te nemen.
 * **OpleidingsnaamOngecodeerd**: *OpleidingsnaamOngecodeerd* is de tekstuele naam van een opleiding zoals geregistreerd in CBS-onderwijsdata, weergegeven zonder codering om de opleidingsidentificatie leesbaar te maken.
->>>>>>> origin/master
 * **Opleidingsniveau**: Het abstractieniveau waarop de opleiding is ingeschaald, vaak gebaseerd op landelijke of Europese onderwijsclassificaties.
 * **Reintegratievoorziening**: Een voorziening of dienst die wordt ingezet om de kansen van een persoon op arbeidsparticipatie te vergroten.
 * **Rijbewijs /Certificaat**: Een door een bevoegde instantie afgegeven document dat aangeeft dat een persoon bevoegd is tot het besturen van bepaalde typen voertuigen.
@@ -1124,11 +1119,7 @@ Attributen van objecttype Vaardigheidsvaststelling
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Voorkeur |
-<<<<<<< HEAD
-    | toelichting | •	Een voorkeur kan betrekking hebben op type werkzaamheden, branche, werkomgeving, werktijden, opleidingsrichting of gewenste ondersteuning.#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
-=======
     | toelichting | • Een voorkeur kan betrekking hebben op type werkzaamheden, branche, werkomgeving, werktijden, opleidingsrichting of gewenste ondersteuning.#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
->>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |

@@ -22,32 +22,6 @@
 
 Het model 'Reden aanvraag' kent de volgende objecttypen:
 
-<<<<<<< HEAD
-* **Andere reden afwijkende startdatum**: 
-* **Andere reden verzoek**: 
-* **Diensten::Aanvraag**: 
-* **Diensten::Aanvraag levensonderhoud**: 
-* **Gestopt betaald werk**: 
-* **Gestopt of verkocht eigen bedrijf**: 
-* **Gestopte bijstanduitkering**: 
-* **Gestopte detentie**: 
-* **Gestopte of verlaagde alimentatie**: 
-* **Gestopte studiefinanciering**: 
-* **Gestopte uitkering**: 
-* **Ingang bijstandsuitkering**: 
-> In de meeste gevallen is de startdatum van een dienst gelijk aan de datum eerste melding (melddatum). Echter, er zijn redenen om hiervan af te wijken. In dat geval wijkt de startdatum af van de melddatum. Ingangsdatum uitkering bevat een Reden afwijkende startdatum om op te nemen met welke reden een afwijkende ingangsdatum gehanteerd wordt.
-> Ingang bijstandsuitkering kan, zoals de naam al doet vermoeden, alleen van toepassing zijn indien het een aanvraag betreft van het diensttype 'Aanvulling levensonderhoud' (ALO)'.
-* **Levenssituatie::Levenssituatie**: 
-* **Opname instelling**: 
-* **Overleden partner**: 
-* **Reden aanvraag**: Reden waarom dienst wordt aanvraagd bij gemeente.
-* **Reden aanvraag Levensonderhoud**: 
-* **Reden afwijkende startdatum**: 
-* **Verbroken relatie**: 
-* **Vertrek uit asielzoekerscentrum**: 
-* **Wachten beslissing instantie**: 
-* **Wachten DigiD**: 
-=======
 * **Andere reden afwijkende startdatum**: *Andere reden afwijkende startdatum* is een omschrijving van een **reden waarom de startdatum van een dienst of uitkering afwijkt van de standaard startdatum**, voor zover deze reden niet onder de standaardcategorieën valt.
 * **Andere reden verzoek**: *Andere reden verzoek* is een categorie voor een **overige reden** waarom een aanvraag wordt gedaan die niet onder de standaard-redencategorieën valt binnen het *Reden aanvraag*-model.
 * **Diensten::Aanvraag**: Een aanvraag is een verzoek van een burger, bedrijf of organisatie aan een overheid om een specifieke dienst te verkrijgen of een besluit te ontvangen (bijv. vergunning, subsidie, paspoort of beschikkingsbesluit).
@@ -72,7 +46,6 @@ Het model 'Reden aanvraag' kent de volgende objecttypen:
 * **Vertrek uit asielzoekerscentrum**: *Vertrek uit asielzoekerscentrum* is een subtype van **Reden aanvraag** in het GBI-Ontologiemodel dat aangeeft dat een persoon een inkomensdienst aanvraagt omdat hij of zij **recentelijk een asielzoekerscentrum heeft verlaten**, waardoor de financiële situatie is veranderd.
 * **Wachten beslissing instantie**: *Wachten beslissing instantie* is een subtype van **Reden aanvraag** binnen het GBI-Ontologiemodel dat aangeeft dat een persoon een inkomensdienst aanvraagt omdat hij of zij **moet wachten op een besluit van een externe instantie**, waardoor de startdatum van de dienst afwijkt van de standaardprocedure.
 * **Wachten DigiD**: *Wachten DigiD* is een subtype van **Reden afwijkende startdatum** binnen het GBI-Ontologiemodel dat aangeeft dat de ingangsdatum van een inkomensdienst **vertraging oploopt doordat een DigiD nog niet is aangevraagd, geactiveerd of bruikbaar is**.
->>>>>>> origin/master
 
 
 ## Objecttypen Reden aanvraag
@@ -158,13 +131,7 @@ Attributen van objecttype Andere reden verzoek
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Diensten::Aanvraag |
-<<<<<<< HEAD
-    | toelichting | 
-> #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.
-> #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
-=======
     | toelichting | • In de context van diensten bij de overheid betreft een aanvraag het formele indienen van informatie of documenten door een aanvrager zodat de overheid een dienst kan verlenen of een besluit kan nemen.<br>• Diensten omvatten dienstverlening zoals vergunningen, belastingen, subsidies, uitkeringen en andere producten die een grondslag hebben in wet- en regelgeving en waarvoor een aanvraagprocedure geldt.<br>• De aanvraag kan schriftelijk, digitaal of via een online formulier plaatsvinden en vormt vaak de start van een bestuurlijke procedure met termen zoals ontvangstbevestiging, beoordeling en besluitvorming.#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
->>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -199,13 +166,7 @@ Attributen van objecttype Diensten::Aanvraag
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Diensten::Aanvraag levensonderhoud |
-<<<<<<< HEAD
-    | toelichting | 
-> #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.
-> #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
-=======
     | toelichting | • Het begrip verwijst in de praktijk meestal naar de aanvraag van een bijstandsuitkering of andere sociale uitkering die bedoeld is om een tekort aan inkomen voor noodzakelijke kosten van bestaan (zoals voedsel, huisvesting en basisbehoeften) aan te vullen.<br>• Deze aanvraag wordt beoordeeld op basis van wettelijke regelingen zoals de Participatiewet: de gemeente bepaalt of de aanvrager voldoet aan voorwaarden zoals inkomen, vermogen en leefsituatie.<br>• Een aanvraag levensonderhoud start de procedure voor het vaststellen van recht op bijstand of soortgelijke ondersteuning en kan digitaal of schriftelijk worden ingediend.#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
->>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -522,13 +483,7 @@ Attributen van objecttype Ingang bijstandsuitkering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Levenssituatie::Levenssituatie |
-<<<<<<< HEAD
-    | toelichting | 
-> #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.
-> #NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
-=======
     | toelichting | • Levenssituatie beschrijft de samenhang van persoonlijke omstandigheden zoals inkomen, woonomgeving, gezinssituatie, gezondheid, werk en sociale relaties die samen de leefwereld van een individu bepalen.<br>• Het begrip wordt gebruikt in beleid, statistiek en sociale analyses om te duiden hoe iemands omstandigheden de mogelijkheden en het welzijn beïnvloeden.<br>• In sociale contexten kan een instabiele of kwetsbare levenssituatie aanleiding zijn voor (extra) ondersteuning of interventies door gemeenten en andere instanties.#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
->>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |

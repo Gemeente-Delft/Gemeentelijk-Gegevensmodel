@@ -28,11 +28,7 @@ Het model 'Model Sociaal Domein Generiek' kent de volgende objecttypen:
 * **Gerechtelijke uitspraak**: Een gerechtelijke uitspraak is een formele beslissing van een rechter of gerechtshof in een juridische procedure. Deze uitspraak bevat de beoordeling van de feiten, de toepassing van het recht en de uiteindelijke beslissing over het geschil dat aan de rechter is voorgelegd. Een gerechtelijke uitspraak kan verschillende vormen aannemen, zoals een vonnis, arrest, beschikking of een kortgedingbeslissing, afhankelijk van de aard van de procedure. Het doel van een gerechtelijke uitspraak is om een bindende oplossing te bieden voor het conflict tussen partijen, en het kan zowel betrekking hebben op civiele, strafrechtelijke, bestuursrechtelijke als andere juridische kwesties.
 * **Gezagsverhouding**: Een gezagsverhouding is een juridische of feitelijke relatie tussen twee partijen, waarbij de ene partij (de gezagsdrager) bevoegd is om instructies of richtlijnen te geven, en de andere partij (de ondergeschikte) verplicht is deze op te volgen. Deze verhouding speelt een belangrijke rol in verschillende contexten, zoals arbeidsrelaties, waarbij een werkgever zeggenschap heeft over een werknemer, of familierecht, waar ouders gezag uitoefenen over hun minderjarige kinderen. Een gezagsverhouding impliceert doorgaans een zekere mate van hiërarchie en verantwoordelijkheid, waarbij de gezagsdrager verplicht is om zijn bevoegdheden zorgvuldig en in het belang van de ondergeschikte uit te oefenen.
 * **Huishouden**: Persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continuïteit in de samenstelling ervan, die binnen een woning duurzaam gebruik maakt van dezelfde voorzieningen.
-<<<<<<< HEAD
-* **Incident**: 
-=======
 * **Incident**: Een *incident* is een afzonderlijke gebeurtenis of voorval dat plaatsvindt en kan afwijken van de normale gang van zaken, vaak onverwacht of onvoorzien.
->>>>>>> origin/master
 * **Leverancier**: Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie
 * **Profiel**: 
 * **Relatie**: Betrekking waarin personen, zaken, begrippen of grootheden van nature tot elkaar staan.
@@ -601,7 +597,7 @@ De enumeratie enum_Incidenttype heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:12:50 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_61d1f9b8\_763e\_42f1\_bc44\_fb970a5ed70c |
+    | id | EAID\_5b8c4d0c\_b273\_40e9\_9822\_a693164fc8e6 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

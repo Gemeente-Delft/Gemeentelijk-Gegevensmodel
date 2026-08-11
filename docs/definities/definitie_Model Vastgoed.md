@@ -1177,135 +1177,8 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
     | author |  |
     | version | 1.11.0 |
     | created | 2025-03-26 11:13:38 |
-<<<<<<< HEAD
-    | modified | 2025-03-26 16:14:55 |
-    | id | EAID_d6ca7f15_e421_4d33_ad99_f7ba13883ed4 |
-=======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_04ce73ee\_2ac6\_4bb8\_908b\_73cb5bce6a28 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### Boolean
-Geen Definitie
-
-Het enumeratie Boolean kent de volgende waarden:
-
-* **Ja**: 
-* **Nee**: 
-* **Onbekend**: 
-* **Leeg**: 
-
-
-De enumeratie Boolean heeft de volgende kenmerken:
-
-??? info "Kenmerken Model Boolean"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | Boolean |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.10.0 |
-    | created | 2025-03-26 11:13:35 |
-<<<<<<< HEAD
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_f4e276fb_284a_48aa_8997_71e11d94f813 |
-=======
-    | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_009ecb3f\_405a\_4e1d\_8d3b\_e0f297352643 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### Boolean
-Geen Definitie
-
-Het enumeratie Boolean kent de volgende waarden:
-
-* **Ja**: 
-* **Nee**: 
-* **Onbekend**: 
-* **Leeg**: 
-
-
-De enumeratie Boolean heeft de volgende kenmerken:
-
-??? info "Kenmerken Model Boolean"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | Boolean |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.10.0 |
-    | created | 2025-03-26 11:13:35 |
-<<<<<<< HEAD
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_3a58a6a1_4ccf_4407_a4b7_caf0bcfa60e7 |
-=======
-    | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_ddb80708\_aef0\_44b1\_8b7d\_dff9fb22e920 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### Boolean
-Geen Definitie
-
-Het enumeratie Boolean kent de volgende waarden:
-
-* **Ja**: 
-* **Nee**: 
-* **Onbekend**: 
-* **Leeg**: 
-
-
-De enumeratie Boolean heeft de volgende kenmerken:
-
-??? info "Kenmerken Model Boolean"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | Boolean |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.10.0 |
-    | created | 2025-03-26 11:13:35 |
-<<<<<<< HEAD
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_69de2178_1208_412f_a3ca_dc174672189e |
-=======
-    | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_cf9b2ec2\_f39f\_44af\_aefb\_b9501c79a6e1 |
+    | id | EAID\_42a85b4e\_0d98\_4e12\_a0ae\_6f50490c4d14 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1342,7 +1215,118 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_ef2c6ba0\_bce9\_4395\_8786\_f2249e3cc584 |
+    | id | EAID\_7d1c12c0\_b305\_4377\_879a\_c49d6029c33f |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+* **Onbekend**: 
+* **Leeg**: 
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Boolean"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Boolean |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.10.0 |
+    | created | 2025-03-26 11:13:35 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_3e16917f\_1334\_4d9b\_9b87\_98104d3ee09d |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+* **Onbekend**: 
+* **Leeg**: 
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Boolean"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Boolean |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.10.0 |
+    | created | 2025-03-26 11:13:35 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_e845d566\_c3f1\_4f0c\_ab9b\_9d3b5a996cda |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### Boolean
+Geen Definitie
+
+Het enumeratie Boolean kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+* **Onbekend**: 
+* **Leeg**: 
+
+
+De enumeratie Boolean heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Boolean"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Boolean |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author |  |
+    | version | 1.10.0 |
+    | created | 2025-03-26 11:13:35 |
+    | modified | 2025-12-16 10:28:45 |
+    | id | EAID\_07ffd297\_ea79\_467e\_8bc1\_f5e63698cf97 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1380,12 +1364,8 @@ De enumeratie aanduidingEigenaarGebruiker heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
-<<<<<<< HEAD
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_1df453da_40bf_414d_9ae8_35c611ebed60 |
-=======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_0785ccc8\_6f52\_4517\_b014\_60b548c34198 |
+    | id | EAID\_1b4ae983\_e8cb\_41b6\_8a5c\_4016eee94a47 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

@@ -463,9 +463,7 @@ Attributen van objecttype FormulierVerlengingInhuur
     | gemma_naam | Gunning |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-70e40543-6a99-433d-8a01-f4273e308410](https://gemmaonline.nl/index.php/GEMMA/id-70e40543-6a99-433d-8a01-f4273e308410) |
-    | gemma_definitie | 
-> Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding
-> Of voor levering personeel |
+    | gemma_definitie | Gunning van een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding<br>Of voor levering personeel |
     | gemma_toelichting |  |
     
 
@@ -829,16 +827,7 @@ Attributen van objecttype StartformulierAanbesteden
 | toelichtingAanvullendeOpdracht | text | Zijn er mogelijk nog aanvullende of gerelateerde opdrachten, die je ook wilt verstrekken aan de beoogde opdrachtnemer? |
 | beoogdeLooptijd | int | Beoogde looptijd in jaren |
 | beoogdeTotaleOpdrachtwaarde | Bedrag |  |
-<<<<<<< HEAD
-| indicatieAanvullendeOpdrachtLeverancier | boolean |  |
-| indicatieBeoogdeAanbestedingOnderhands | Boolean | 
-> Welke aanbestedingsprocedure ben je voornemens te volgen?
->
-> 1. 1-op-1 (enkelvoudig onderhands) of 3 tot 5 offertes (meervoudig onderhands)
-> 2. Nationale of Europese aanbesteding |
-=======
 | indicatieBeoogdeAanbestedingOnderhands | Boolean | Welke aanbestedingsprocedure ben je voornemens te volgen?<br>1. 1-op-1 (enkelvoudig onderhands) of 3 tot 5 offertes (meervoudig onderhands)<br>2. Nationale of Europese aanbesteding |
->>>>>>> origin/master
 | indicatieBeoogdeProcKomtOvereen | boolean | Komt - op basis van de hierboven genoemde totale opdrachtwaarde - de beoogde aanbestedings-procedure overeen met de voorgeschreven procedure uit het Procedure-overzicht en/of het 'groene' gedeelte in de kleurentabel uit de gids proportionaliteit? |
 
 

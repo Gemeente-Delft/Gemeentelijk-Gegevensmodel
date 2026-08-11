@@ -22,13 +22,8 @@
 
 Het model 'Model Vroegsignalering' kent de volgende objecttypen:
 
-<<<<<<< HEAD
-* **AanleverendeOrganisatie**: 
-* **Contactpersoon**: Contactpersoon van een organisatie
-=======
 * **AanleverendeOrganisatie**: Organisatie de data aanlevert aan het CBS. Het kan hier gaan om de gemeente zelf, of een partij die namens de gemeente uitvoering geeft aan de afhandeling van vroegsignalen.
 * **Contactpersoon**: Contactpersoon bij de aanleverende organisatie.
->>>>>>> origin/master
 * **Contactpoging**: Een Contactpoging is de actie die de gemeente onderneemt om in contact te treden met de inwoner naar aanleiding van een vroegsignaal. Een contactpoging maakt onderdeel uit van de vroegsignaalzaak en kan verschillende vormen aannemen, zoals een telefoongesprek, huisbezoek, brief of digitaal bericht. Van elke contactpoging wordt vastgelegd wanneer deze is gedaan, op welke wijze, met welk doel en wat het resultaat was (bijvoorbeeld: geen gehoor, gesprek gevoerd, brief retour ontvangen).
 * **Signaalpartner**: 
 > Een signaalpartner is een organisatie die op grond van artikel 2.2.1 van de Wet gemeentelijke schuldhulpverlening (Wgs) bevoegd is om signalen van betalingsachterstanden door te geven aan de gemeente met het doel vroegtijdige hulpverlening bij schulden mogelijk te maken. Signaalpartners zijn dienstverleners met een maatschappelijk belang, zoals zorgverzekeraars, energieleveranciers, drinkwaterbedrijven en woningverhuurders.
@@ -366,23 +361,6 @@ Enumeratie met de soorten Eindresultaten van een Vroegsignaalzaak.
 
 Het enumeratie EnumEindresultaat kent de volgende waarden:
 
-<<<<<<< HEAD
-* **Niet opgepakt: inwoner wil geen contact**: 
-* **Niet opgepakt: geen capaciteit**: 
-* **Niet opgepakt**: [overig]
-* **Inwoner al bekend bij schuldhulpverlening**: 
-* **Geen contact (meer) kunnen krijgen**: 
-* **Inwoner wil geen hulp**: 
-* **Inwoner probeert het zelf op te lossen**: 
-* **Inwoner heeft betaald/betalingsregeling getroffen voor oppakken melding**: 
-* **Inwoner heeft zelf betaald/betalingsregeling getroffen na oppakken melding**: 
-* **(Budget)advies en/of quick fix**: 
-* **Verwijzing financieel**: [bijv. naar schuldhulpverlening, budgetcoach, bewindvoerder]
-* **Voorzien van informatie**: 
-* **Niet opgepakt: BRP-uitsluiting**: 
-* **Verwijzing niet-financieel**: [bijv. naar maatschappelijk werk, verslavingszorg, gezinszorg]
-* **Inwoner heeft al een ander lopend traject**: [bijv. bij externe netwerkpartner, bij ander onderdeel sociaal domein, is onder bewind]
-=======
 * **Niet opgepakt: herhaalde melding**: 
 > Een signaal dat niet wordt opgepakt, omdat er recent al een signaal is ontvangen en opgepakt over dezelfde betalingsachterstand van dezelfde vastelastenpartner. De betalingsachterstand is niet hoger geworden. Als de achterstand wel hoger is geworden, moet deze wel worden opgepakt.
 > Dit eindresultaat wordt teruggekoppeld aan de vastelastenpartner.
@@ -460,7 +438,6 @@ Het enumeratie EnumEindresultaat kent de volgende waarden:
 * **Vervolghulp en/of verwijzing niet financieel**: 
 > Hiervan is sprake als er een langer hulptraject wordt ingezet na (afronding van) de vroegsignalering. De vervolghulp en/of doorverwijzing is niet-financieel: maatschappelijk werk, verslavingszorg of gezinszorg etc.
 > De vervolghulp kan binnen de eigen organisatie zijn (zelfs door dezelfde persoon) of een doorverwijzing naar een externe organisatie betekenen. Dit hangt af van wie en welke organisatie de vroegsignalering uitvoert en de beschikbare expertises binnen de organisatie.
->>>>>>> origin/master
 
 
 De enumeratie EnumEindresultaat heeft de volgende kenmerken:
@@ -496,20 +473,6 @@ Het enumeratie EnumSignaalpartner kent de volgende waarden:
 
 * **Energie**: Inzake de energierekening (elektriciteit, gas en/of warmte) vanaf 30 dagen
 * **Huur**: Inzake de huur vanaf 30 dagen.
-<<<<<<< HEAD
-* **Hypotheek**: 
-* **CAK Zorgverzekeringen**: Als de zorgverzekering meer dan 6 maanden niet is betaald, wordt deze door CAK overgenomen.
-* **Zorg**: Inzake de zorgverzekeringspremie inclusief premie voor aanvullende verzekering, eigen risico en eigen bijdragen van 30 tot 100 dagen.
-* **Water**: Inzake de drinkwaterrekening vanaf 30 dagen
-* **DUO**: 
-* **Belastingdienst**: Mensen die na een aanmaning hun belasting niet hebben betaald of terugbetaald.
-* **CAK Eigen bijdrage**: 
-> Achterstand bij het betalen van de Eigen bijdrage in het kader van WLZ, en WMO. De doelgroep voldoet aan deze drie voorwaarden:
-> 1.Inwoners van de Gemeenten die het incassotraject hebben doorlopen (schriftelijke herinnering, aanmaning, minnelijk deurwaarders traject en telefonische poging tot persoonlijk contact). Het betreft hier achterstanden op gebied van eigen bijdrage Wmo of Wlz, geïncasseerd door het CAK. Het gaat hierbij specifiek om de groep die terugkeert van een minnelijk deurwaarderstraject.
-> 2.Er is nog geen sprake van een gerechtelijke dwangmaatregel. De vroegsignalering gaat vooraf aan de inzet van een gerechtelijke procedure (doorgaans wordt die ingezet bij vorderingen > € 100,= achterstand).
-> 3.Het lukt CAK niet om contact te krijgen of een betaalafspraak te maken met de klant.
-* **Overige**: 
-=======
 * **Hypotheek**: Inzake hypotheek
 * **CAK Zorgverzekeringen**: Als de zorgverzekering meer dan 6 maanden niet is betaald, wordt deze door CAK overgenomen.
 * **Zorg**: Inzake de zorgverzekeringspremie inclusief premie voor aanvullende verzekering, eigen risico en eigen bijdragen van 30 tot 100 dagen.
@@ -523,7 +486,6 @@ Het enumeratie EnumSignaalpartner kent de volgende waarden:
 > * Er is nog geen sprake van een gerechtelijke dwangmaatregel. De vroegsignalering gaat vooraf aan de inzet van een gerechtelijke procedure (doorgaans wordt die ingezet bij vorderingen > € 100,= achterstand).
 > * Het lukt CAK niet om contact te krijgen of een betaalafspraak te maken met de klant.
 * **Overige**: Overige partijen
->>>>>>> origin/master
 * **Dienst Toeslagen**: Mensen die na een aanmaning te veel ontvangen toeslag niet hebben betaald of terugbetaald.
 
 
@@ -558,16 +520,6 @@ Geen Definitie
 
 Het enumeratie EnumSignaalstatus kent de volgende waarden:
 
-<<<<<<< HEAD
-* **Nog niet opgepakt**: 
-* **Onterecht signaal**: 
-* **Overleden**: 
-* **Woont niet in gemeente**: 
-* **Herhaalde melding**: 
-* **Niet opgepakt**: 
-* **Opgepakt**: 
-* **Woont op een ander adres binnen gemeente**: 
-=======
 * **Nog niet opgepakt**: De gemeente heeft het signaal nog niet opgepakt.
 * **Niet opgepakt: onterecht signaal**: 
 > Een signaal dat niet wordt opgepakt, omdat:
@@ -599,7 +551,6 @@ Het enumeratie EnumSignaalstatus kent de volgende waarden:
 >
 > **Verhuizing binnen de gemeente**
 > Woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan in principe op. Als onbekend is waar ieHet eindresultaat hangt dan af van de uitkomst van het contact.
->>>>>>> origin/master
 
 
 De enumeratie EnumSignaalstatus heeft de volgende kenmerken:

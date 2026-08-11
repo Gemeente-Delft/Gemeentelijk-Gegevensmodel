@@ -270,13 +270,7 @@ Attributen van objecttype Idealisatie
     | gemma_naam | Instructieregel |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-367532e8-1d1c-4d6b-8a88-fcae7cae2303](https://gemmaonline.nl/index.php/GEMMA/id-367532e8-1d1c-4d6b-8a88-fcae7cae2303) |
-    | gemma_definitie | 
-> Objecttype Instructieregel
-> Naam Definitie
-> Toelichting
-> Instructieregel
-> De beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan.
-> Het betreft hier juridische regel die instructie geeft aan andere ov |
+    | gemma_definitie | Objecttype Instructieregel<br>Naam Definitie<br>Toelichting<br>Instructieregel<br>De beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan.<br>Het betreft hier juridische regel die instructie geeft aan andere ov |
     | gemma_toelichting | Het betreft hier juridische regel die instructie geeft aan andere overheden, gericht op externe omgevingsdocumenten, of een taakuitoefening. Een ander omgevingsdocument is bijvoorbeeld een Omgevingsplan, Omgevingsverordening en Waterschapsverordening. Een |
     
 
@@ -284,18 +278,7 @@ Attributen van objecttype Instructieregel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-<<<<<<< HEAD
-| instructieregelInstrument | AN200 | 
-> **Attribuutsoort instructieregel instrument**
-> Naam Definitie Formaat Toelichting
-> Instructieregel instrument
-> De naam van het instrument waartoe de instructieregel zich richt.
-> InstructieregelInstrument (waardelijst)
-> Bijvoorbeeld: Omgevingsverordening, projectbesluit.
-> Dit kenmerk geeft nadere informatie in aanvulling op het type instructieregel, in het geval dat de regel gericht is op een bepaald instrument. |
-=======
 | instructieregelInstrument | AN200 | **Attribuutsoort instructieregel instrument**<br>Naam Definitie Formaat Toelichting<br>Instructieregel instrument<br>De naam van het instrument waartoe de instructieregel zich richt.<br>InstructieregelInstrument (waardelijst)<br>Bijvoorbeeld: Omgevingsverordening, projectbesluit.<br>Dit kenmerk geeft nadere informatie in aanvulling op het type instructieregel, in het geval dat de regel gericht is op een bepaald instrument. |
->>>>>>> origin/master
 | instructieregelTaakuitoefening | AN200 |  |
 
 
@@ -559,20 +542,7 @@ Attributen van objecttype Regel voor Iedereen
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-<<<<<<< HEAD
-| activiteitRegelKwalificatie | AN200 | 
-> **Attribuutsoort activiteitregelkwalificatie**
-> Naam Definitie Formaat Toelichting
-> Constraint(s)
-> activiteitregelkwalificatie
-> De naam van de kwalificatie van de Juridische regel over een activiteit.
-> Activiteitregelkwalificatie (waardelijst) Bijvoorbeeld: gebod, verbod.
-> Alleen te gebruiken wanneer bij Juridische regel is gekozen voor het type 'Regel voor iedereen' en de regel een Activiteit beschrijft.
-> Als activiteit, alleen dan activiteitregelkwalificatie.
-> Dit kenmerk heeft alleen betekenis wanneer de regel een activiteit beschrijft. Anders gezegd, dit kenmerk hoort alleen gevuld te worden wanneer de regel, ten minste, een activiteit beschrijft. |
-=======
 | activiteitRegelKwalificatie | AN200 | **Attribuutsoort activiteitregelkwalificatie**<br>Naam Definitie Formaat Toelichting<br>Constraint(s)<br>activiteitregelkwalificatie<br>De naam van de kwalificatie van de Juridische regel over een activiteit.<br>Activiteitregelkwalificatie (waardelijst) Bijvoorbeeld: gebod, verbod.<br>Alleen te gebruiken wanneer bij Juridische regel is gekozen voor het type 'Regel voor iedereen' en de regel een Activiteit beschrijft.<br>Als activiteit, alleen dan activiteitregelkwalificatie.<br>Dit kenmerk heeft alleen betekenis wanneer de regel een activiteit beschrijft. Anders gezegd, dit kenmerk hoort alleen gevuld te worden wanneer de regel, ten minste, een activiteit beschrijft. |
->>>>>>> origin/master
 
 
 

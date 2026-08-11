@@ -22,13 +22,8 @@
 
 Het model 'Model Jeugd en Wmo Generiek' kent de volgende objecttypen:
 
-<<<<<<< HEAD
-* **AOM_AanvraagWmoJeugd**: 
-* **AOMMeldingWmoJeugd**: 
-=======
 * **AOM_AanvraagWmoJeugd**: *AOM_AanvraagWmoJeugd* is een objecttype in het gegevensmodel voor Wmo en Jeugd dat een **aanvraagtraject voor ondersteuning onder de Wet maatschappelijke ondersteuning (Wmo) en/of Jeugdwet** representeert.
 * **AOMMeldingWmoJeugd**: *AOMMeldingWMOJeugd* is een objecttype in het gemeentelijk gegevensmodel dat een **melding van een situatie of hulpvraag binnen het kader van de Wet maatschappelijke ondersteuning (Wmo) en/of Jeugdwet** representeert.
->>>>>>> origin/master
 * **Beperking**: Een stoornis of conditie ‚ lichamelijk, zintuiglijk en-of geestelijk ‚ die een normaal maatschappelijk functioneren belemmert en nadelige sociale gevolgen met zich meebrengt.
 * **Beperkingscategorie**: Een categorisering van beperkingen
 * **Beperkingscore**: Getalsmatige duiding van een beperking
@@ -38,11 +33,7 @@ Het model 'Model Jeugd en Wmo Generiek' kent de volgende objecttypen:
 * **Beschikte Voorziening**: Een voorziening waarover een beschikking is gedaan.
 * **Budgetuitputting**: Overzicht van de te verwachte inkomsten en uitgaven over een bepaalde periode
 * **Declaratie**: Een opgave van te vergoeden kosten.
-<<<<<<< HEAD
-* **Declaratieregel**: 
-=======
 * **Declaratieregel**: Een *declaratieregel* is de **administratieve regel** waarin het **volume van één product of geleverde prestatie** binnen een bepaalde declaratieperiode voor één cliënt wordt vastgelegd.
->>>>>>> origin/master
 * **Leefgebied**: Gebied waarin alle activiteiten van een inwoner zich kunnen afspelen
 * **Levering**: 
 > Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk
@@ -57,11 +48,7 @@ Het model 'Model Jeugd en Wmo Generiek' kent de volgende objecttypen:
 * **Tarief**: Hoogte van een bedrag voor een bepaald product of dient
 * **Team**: Een groep personen die door middel van samenwerking een gezamenlijk doel nastreeft, waarbij de teamleden afhankelijk van elkaar zijn om het doel te bereiken.
 * **Toewijzing**: Toewijzing die door gemeente aan zorgaanbieder wordt gestuurd. zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html
-<<<<<<< HEAD
-* **Verplichting Wmo Jeugd**: 
-=======
 * **Verplichting Wmo Jeugd**: *Verplichting Wmo Jeugd* is de wettelijke plicht van gemeenten om inwoners ondersteuning, hulp of zorg te bieden wanneer zij dat nodig hebben op grond van de Wet maatschappelijke ondersteuning (Wmo) en de Jeugdwet.
->>>>>>> origin/master
 * **Verzoek om Toewijzing**: Verzoek tot toewijzing dat vanuit leverancier (via H10-portal) aan de gemeente wordt gestuurd. Zie https://informatiemodel.istandaarden.nl/2019/views/view_274300.html
 * **Voorziening**: Middel om services/maatregelen in te vullen.
 * **Voorzieningsoort**: Typering van een voorziening
@@ -105,16 +92,7 @@ Attributen van objecttype AOM_AanvraagWmoJeugd
 | :--- | :--- | :--- |
 | clientReactie | AN100 |  |
 | datumBeschikking | Date |  |
-<<<<<<< HEAD
-| datumEersteAfspraak | Date | 
-> De datum van de eerste afspraak in het
-> proces. |
-| datumEinde | Date | 
-> De daadwerkelijke einddatum van de
-> gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proces of niet van toepassing. Deze einddatum is afhankelijk van de gekozen doorloopmethodiek |
-=======
 | datumEersteAfspraak | Date | De datum van de eerste afspraak in het<br>proces. |
->>>>>>> origin/master
 | datumPlanVastgesteld | Date | De datum waarop het plan is vastgesteld in de melding. |
 | datumStartAanvraag | Date | Start van het proces=start vd aanvraag |
 | datumEinde | Date | De daadwerkelijke einddatum van de<br>gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proces of niet van toepassing. Deze einddatum is afhankelijk van de gekozen doorloopmethodiek |
@@ -618,9 +596,7 @@ Attributen van objecttype Leefgebied
     | gemma_naam | Levering |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-cc667191-bb35-45a0-a231-504b663b70f1](https://gemmaonline.nl/index.php/GEMMA/id-cc667191-bb35-45a0-a231-504b663b70f1) |
-    | gemma_definitie | 
-> Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk
-> In PxQ uren maal tarief |
+    | gemma_definitie | Levering van zorg door leverancier. Is in het geval van resultaatverplichting steeds: 1 stuk<br>In PxQ uren maal tarief |
     | gemma_toelichting |  |
     
 
@@ -739,9 +715,7 @@ Attributen van objecttype Melding Eigen bijdrage
     | gemma_naam | PGBToekenning |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-2cc8ad38-97f9-4462-83af-cb5556bffd88](https://gemmaonline.nl/index.php/GEMMA/id-2cc8ad38-97f9-4462-83af-cb5556bffd88) |
-    | gemma_definitie | 
-> Betreft alleen toegekende voorzieningen met als leveringsvorm PGB
-> Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb |
+    | gemma_definitie | Betreft alleen toegekende voorzieningen met als leveringsvorm PGB<br>Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb |
     | gemma_toelichting |  |
     
 

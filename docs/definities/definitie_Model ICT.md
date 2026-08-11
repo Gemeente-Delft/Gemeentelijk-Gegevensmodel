@@ -51,11 +51,7 @@ Het model 'Model ICT' kent de volgende objecttypen:
 * **Linkbaar CMDB-item**: Niet opnemen
 * **Log**: Registratie van gegevens.
 * **Melding**: De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend
-<<<<<<< HEAD
-* **Nertwerkcomponent**: 
-=======
 * **Nertwerkcomponent**: Een *netwerkcomponent* is een hardware- of softwareonderdeel dat een **specifieke functie vervult binnen een netwerk** om communicatie, gegevensuitwisseling of het beheer van netwerkverkeer mogelijk te maken.
->>>>>>> origin/master
 * **Notitie**: Korte, zakelijke uiteenzetting op schrift
 * **Objecttype**: 
 > De typering van een groep objecten (in de werkelijkheid) die binnen een domein relevant zijn en als gelijksoortig worden beschouwd.
@@ -197,39 +193,6 @@ Attributen van objecttype Attribuutsoort
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-<<<<<<< HEAD
-| authentiek | boolean |  |
-| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
-| definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
-| domein | AN80 | Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen. |
-| ea_guid | guid |  |
-| herkomst | AN80 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
-| herkomstDefinitie | AN80 |  |
-| id | int |  |
-| identificerend | boolean | Aanduiding dat attribuutsoort onderdeel uitmaakt van de unieke aanduiding van een object |
-| indicatieAfleidbaar | boolean | Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten. |
-| indicatieMaterieleHistorie | boolean | Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde. |
-| kardinaliteit | AN40 | 
-> Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
-> 0..1: is soms niet beschikbaar
-> 1 : is altijd beschikbaar
-> 0..\*: is niet altijd beschikbaar, kan
-> meerdere malen voorkomen 1..\*: is altijd beschikbaar, kan
-> meerdere malen voorkomen
-> Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
-| lengte | AN40 | 
-> De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
-> *Bijvoorbeeld:*
-> *‘1’ als de lengte exact 1 is;*
-> *‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna.* Dit is van -9,99 tot +9,99; |
-| mogelijkGeenWaarde | boolean |  |
-| naam | AN80 |  |
-| patroon | AN40 | 
-> Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.
-> De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur. |
-| precisie | int |  |
-| stereotype | AN40 |  |
-=======
 | naam | AN80 |  |
 | herkomst | AN80 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
 | definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
@@ -238,7 +201,6 @@ Attributen van objecttype Attribuutsoort
 | domein | AN80 | *Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.* |
 | lengte | AN40 | De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.<br>*Bijvoorbeeld:*<br>*‘1’ als de lengte exact 1 is;*<br>*‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna.* Dit is van -9,99 tot +9,99; |
 | patroon | AN40 | Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.<br>De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur. |
->>>>>>> origin/master
 | toelichting | Text |  |
 | indicatieMaterieleHistorie | boolean | Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde. |
 | kardinaliteit | AN40 | Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:<br>0..1: is soms niet beschikbaar<br>1 : is altijd beschikbaar<br>0..\*: is niet altijd beschikbaar, kan<br>meerdere malen voorkomen 1..\*: is altijd beschikbaar, kan<br>meerdere malen voorkomen<br>Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
@@ -404,31 +366,6 @@ Attributen van objecttype Datatype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-<<<<<<< HEAD
-| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
-| definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
-| domein | AN255 | Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen. |
-| ea_guid | guid |  |
-| herkomst | AN255 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
-| id | int |  |
-| kardinaliteit | AN40 | 
-> Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
-> 0..1: is soms niet beschikbaar
-> 1 : is altijd beschikbaar
-> 0..\*: is niet altijd beschikbaar, kan
-> meerdere malen voorkomen 1..\*: is altijd beschikbaar, kan
-> meerdere malen voorkomen
-> Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
-| lengte | AN40 | 
-> De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
-> *Bijvoorbeeld:*
-> *‘1’ als de lengte exact 1 is;*
-> *‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna.* Dit is van -9,99 tot +9,99; |
-| naam | AN255 |  |
-| patroon | AN40 | 
-> Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.
-> De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur. |
-=======
 | naam | AN255 |  |
 | herkomst | AN255 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
 | definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
@@ -436,7 +373,6 @@ Attributen van objecttype Datatype
 | domein | AN255 | *Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.* |
 | lengte | AN40 | De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.<br>*Bijvoorbeeld:*<br>*‘1’ als de lengte exact 1 is;*<br>*‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna.* Dit is van -9,99 tot +9,99; |
 | patroon | AN40 | Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.<br>De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur. |
->>>>>>> origin/master
 | toelichting | Text |  |
 | id | int |  |
 | ea_guid | guid |  |
@@ -998,20 +934,6 @@ Attributen van objecttype Objecttype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-<<<<<<< HEAD
-| datumOpname | Date | De datum waarop het objecttype is opgenomen in het informatiemodel. |
-| definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
-| ea_guid | guid |  |
-| herkomst | AN255 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
-| herkomstDefinitie | AN255 |  |
-| id | int |  |
-| indicatieAbstract | boolean | 
-> Conceptueel model: indicatie dat het objecttype een generalisatie is,
-> waarvan een object als specialisatie altijd voorkomt in de hoedanigheid van een (en slechts één) van de specialisaties van het betreffende objecttype.
-> Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende objecttype mogen voorkomen. |
-| kwaliteit | AN255 | Voor objecttypen die deel uitmaken van een registratie betreft dit de waarborgen voor de juistheid van de in de registratie opgenomen objecten van het desbetreffende type. |
-=======
->>>>>>> origin/master
 | naam | AN255 |  |
 | herkomst | AN255 | De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing). |
 | definitie | Text | De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel. |
@@ -1223,26 +1145,8 @@ Attributen van objecttype Relatiesoort
 | unidirectioneel | AN40 | Het gerelateerde objecttype (de target) waarvan het objecttype, die de eigenaar is van deze relatie (de source), kennis heeft.<br>Alle relaties zijn altijd gericht van het objecttype (source) naar het gerelateerde objecttype (target). |
 | id | int |  |
 | indicatieAfleidbaar | boolean | Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten. |
-<<<<<<< HEAD
-| indicatieMaterieleHistorie | boolean | Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde. |
-| kardinaliteit | AN40 | 
-> Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
-> 0..1: is soms niet beschikbaar
-> 1 : is altijd beschikbaar
-> 0..\*: is niet altijd beschikbaar, kan
-> meerdere malen voorkomen 1..\*: is altijd beschikbaar, kan
-> meerdere malen voorkomen
-> Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort. |
-| mogelijkGeenWaarde | boolean |  |
-| naam | AN80 |  |
-| toelichting | Text |  |
-| unidirectioneel | AN40 | 
-> Het gerelateerde objecttype (de target) waarvan het objecttype, die de eigenaar is van deze relatie (de source), kennis heeft.
-> Alle relaties zijn altijd gericht van het objecttype (source) naar het gerelateerde objecttype (target). |
-=======
 | ea_guid | guid |  |
 | mogelijkGeenWaarde | boolean |  |
->>>>>>> origin/master
 
 
 

@@ -162,21 +162,6 @@ Attributen van objecttype Besluit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-<<<<<<< HEAD
-| besluit | AN200 |  |
-| besluitidentificatie | AN50 | Identificatie van het besluit. |
-| besluittoelichting | AN1000 | Toelichting bij het besluit. |
-| datumBesluit |  | De beslisdatum (AWB) van het besluit. |
-| datumPublicatie |  | Datum waarop het besluit gepubliceerd wordt. |
-| datumStart |  | Ingangsdatum van de werkingsperiode van het besluit. |
-| datumUiterlijkeReactie |  | De datum tot wanneer verweer tegen het besluit mogelijk is. |
-| datumVerval |  | Datum waarop de werkingsperiode van het besluit eindigt. |
-| datumVerzending |  | Datum waarop het besluit verzonden is. |
-| redenVerval | X40 | De omschrijving die aangeeft op grond waarvan het besluit is of komt te vervallen. |
-| document | Class: "Document" |  |
-| zaak | Class: "Zaak" |  |
-| type | Class: "Besluittype" |  |
-=======
 | besluitidentificatie | AN50 | Identificatie van het besluit. |
 | datumBesluit | Datum | De beslisdatum (AWB) van het besluit. |
 | besluittoelichting | AN1000 | Toelichting bij het besluit. |
@@ -190,7 +175,6 @@ Attributen van objecttype Besluit
 | document | Document |  |
 | zaak | Zaak |  |
 | type | Besluittype |  |
->>>>>>> origin/master
 
 
 
@@ -226,17 +210,6 @@ Attributen van objecttype Besluittype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-<<<<<<< HEAD
-| besluitcategorie | AN40 | Typering van de aard van BESLUITen van het BESLUITTYPE. |
-| besluittypeOmschrijving | AN80 | Omschrijving van de aard van BESLUITen van het BESLUITTYPE. |
-| besluittypeOmschrijvingGeneriek | AN80 | Algemeen gehanteerde omschrijving van de aard van BESLUITen van het BESLUITTYPE |
-| datumBeginGeldigheidBesluittype | OnvolledigeDatum | De datum waarop het BESLUITTYPE is ontstaan. |
-| datumEindeGeldigheidBesluittype | OnvolledigeDatum | De datum waarop het BESLUITTYPE is opgeheven. |
-| indicatiePublicatie | AN1 | Aanduiding of BESLUITen van dit BESLUITTYPE gepubliceerd moeten worden. |
-| publicatietekst | AN1000 | De generieke tekst van de publicatie van BESLUITen van dit BESLUITTYPE |
-| publicatietermijn | N3 | Het aantal dagen, gerekend vanaf de verzend- of publicatiedatum, dat BESLUITen van dit BESLUITTYPE gepubliceerd moeten blijven. |
-| reactietermijn | N3 | Het aantal dagen, gerekend vanaf de verzend- of publicatiedatum, waarbinnen verweer tegen een besluit van het besluittype mogelijk is. |
-=======
 | besluittypeOmschrijving | AN80 | Omschrijving van de aard van BESLUITen van het BESLUITTYPE. |
 | besluittypeOmschrijvingGeneriek | AN80 | Algemeen gehanteerde omschrijving van de aard van BESLUITen van het BESLUITTYPE |
 | besluitcategorie | AN40 | Typering van de aard van BESLUITen van het BESLUITTYPE. |
@@ -246,7 +219,6 @@ Attributen van objecttype Besluittype
 | publicatietermijn | N3 | Het aantal dagen, gerekend vanaf de verzend- of publicatiedatum, dat BESLUITen van dit BESLUITTYPE gepubliceerd moeten blijven. |
 | datumBeginGeldigheidBesluittype | OnvolledigeDatum | De datum waarop het BESLUITTYPE is ontstaan. |
 | datumEindeGeldigheidBesluittype | OnvolledigeDatum | De datum waarop het BESLUITTYPE is opgeheven. |
->>>>>>> origin/master
 
 
 
@@ -321,17 +293,6 @@ Attributen van objecttype Betrokkene
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-<<<<<<< HEAD
-| adresBinnenland |  | De aanduiding van het adres van de BETROKKENE indien dit adres in Nederland gelegen is. |
-| adresBuitenland |  | De aanduiding van het adres waar specialisaties van de BETROKKENE  zijnde een (NIET) NATUURLIJK PERSOON of VESTIGING dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland. |
-| identificatie | AN50 | De unieke identificatie van de BETROKKENE |
-| naam | AN200 | De benaming van de BETROKKENE  indien dit een (NIET) NATUURLIJK PERSOON, VESTIGING of specialisatie daarvan is. |
-| rol |  |  |
-| betrokkene | Class: "NatuurlijkPersoon" |  |
-| organisatorische eenheid | Class: "OrganisatorischeEenheid" |  |
-| vestiging | Class: "NietNatuurlijkPersoon" |  |
-| medewerker | Class: "Medewerker" |  |
-=======
 | naam | AN200 | De benaming van de BETROKKENE indien dit een (NIET) NATUURLIJK PERSOON, VESTIGING of specialisatie daarvan is. |
 | identificatie | AN50 | De unieke identificatie van de BETROKKENE |
 | adresBinnenland | BinnenlandsAdres | De aanduiding van het adres van de BETROKKENE indien dit adres in Nederland gelegen is. |
@@ -341,7 +302,6 @@ Attributen van objecttype Betrokkene
 | organisatorische eenheid | OrganisatorischeEenheid |  |
 | vestiging | NietNatuurlijkPersoon |  |
 | medewerker | Medewerker |  |
->>>>>>> origin/master
 
 
 
@@ -450,19 +410,6 @@ Attributen van objecttype Document
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-<<<<<<< HEAD
-| cocumentBeschrijving | AN1000 | Een generieke beschrijving van de inhoud van het document. |
-| datumCreatieDocument |  | Een datum of een gebeurtenis in de levenscyclus van het document. |
-| datumOntvangstdocument |  | De datum waarop het DOCUMENT ontvangen is. |
-| datumVerzendingDocument |  | De datum waarop het DOCUMENT verzonden is. |
-| documentAuteur | AN200 | De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document. |
-| documentIdentificatie | AN40 | 
-> Een binnen een gegeven context ondubbelzinnige referentie naar het document.
-> Bijvoorbeeld potsregistratienummer |
-| documentTitel | AN200 | De naam waaronder het document formeel bekend is. |
-| vertrouwelijkAanduiding | AN20 | Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is. |
-| type | Class: "Documenttype" |  |
-=======
 | documentIdentificatie | AN40 | Een binnen een gegeven context ondubbelzinnige referentie naar het document.<br>Bijvoorbeeld potsregistratienummer |
 | datumCreatieDocument | Datum | Een datum of een gebeurtenis in de levenscyclus van het document. |
 | datumOntvangstdocument | Datum | De datum waarop het DOCUMENT ontvangen is. |
@@ -472,7 +419,6 @@ Attributen van objecttype Document
 | vertrouwelijkAanduiding | AN20 | Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is. |
 | documentAuteur | AN200 | De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document. |
 | type | Documenttype |  |
->>>>>>> origin/master
 
 
 
@@ -508,21 +454,12 @@ Attributen van objecttype Documenttype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-<<<<<<< HEAD
-| datumBeginGeldigheidDocumenttype | OnvolledigeDatum | De datum waarop het DOCUMENTTYPE is ontstaan. |
-| datumEindeGeldigheidDocumenttype | OnvolledigeDatum | De datum waarop het DOCUMENTTYPE is opgeheven. |
-| documentCategorie | AN80 | Typering van de aard van DOCUMENTen van dit DOCUMENTTYPE. |
-| documenttypeOmschrijving | AN80 | Omschrijving van de aard van DOCUMENTen van dit DOCUMENTTYPE. |
-| documenttypeOmschrijvingGeneriek | AN80 | Algemeen gehanteerde omschrijving van het DOCUMENTTYPE |
-| documenttypeTrefwoord | AN30 | Trefwoord(en) waarmee DOCUMENTen van het DOCUMENTTYPE kunnen worden gekarakteriseerd. |
-=======
 | documenttypeOmschrijving | AN80 | Omschrijving van de aard van DOCUMENTen van dit DOCUMENTTYPE. |
 | documenttypeOmschrijvingGeneriek | AN80 | Algemeen gehanteerde omschrijving van het DOCUMENTTYPE |
 | documentCategorie | AN80 | Typering van de aard van DOCUMENTen van dit DOCUMENTTYPE. |
 | documenttypeTrefwoord | AN30 | Trefwoord(en) waarmee DOCUMENTen van het DOCUMENTTYPE kunnen worden gekarakteriseerd. |
 | datumBeginGeldigheidDocumenttype | OnvolledigeDatum | De datum waarop het DOCUMENTTYPE is ontstaan. |
 | datumEindeGeldigheidDocumenttype | OnvolledigeDatum | De datum waarop het DOCUMENTTYPE is opgeheven. |
->>>>>>> origin/master
 
 
 
@@ -558,15 +495,6 @@ Attributen van objecttype EnkelvoudigDocument
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-<<<<<<< HEAD
-| bestandsnaam | AN255 | De naam van het fysieke bestand waarin de documentinhoud is vastgelegd. |
-| documentFormaat | AN10 | De digitale manifestatie van het ENKELVOUDIG DOCUMENT. |
-| documentInhoud | Documentformaat | Datgene wat in een ENKELVOUDIG DOCUMENT wordt meegedeeld. |
-| documentLink | AN200 | De URL waarmee de documentinhoud op te vragen is. |
-| documentStatus | AN20 | Aanduiding van de stand van zaken van een ENKELVOUDIG DOCUMENTDOCUMENT. |
-| documentTaal | AN20 | Een taal van de intellectuele inhoud van het ENKELVOUDIG DOCUMENT |
-| documentVersie | AN5 | Aanduiding van de bewerkingsfase van het ENKELVOUDIG DOCUMENT |
-=======
 | documentFormaat | AN10 | De digitale manifestatie van het ENKELVOUDIG DOCUMENT. |
 | documentTaal | AN20 | Een taal van de intellectuele inhoud van het ENKELVOUDIG DOCUMENT |
 | documentVersie | AN5 | Aanduiding van de bewerkingsfase van het ENKELVOUDIG DOCUMENT |
@@ -574,7 +502,6 @@ Attributen van objecttype EnkelvoudigDocument
 | documentInhoud | AN255 | Datgene wat in een ENKELVOUDIG DOCUMENT wordt meegedeeld. |
 | documentLink | AN200 | De URL waarmee de documentinhoud op te vragen is. |
 | bestandsnaam | AN255 | De naam van het fysieke bestand waarin de documentinhoud is vastgelegd. |
->>>>>>> origin/master
 
 
 
@@ -690,19 +617,8 @@ Attributen van objecttype Klantcontact
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-<<<<<<< HEAD
-| eindtijd | Datetime | 
-> Werkelijke eindtijd van het klantcontact. Het moment dat de conversatie ten einde is.
-> Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk |
-| kanaal | AN20 |  |
-| notitie | text |  |
-| starttijd | Datetime | 
-> Werkelijke starttijd van het klantcontact, dus het moment dat klant en medewerker van de gemeente elkaar spreken.
-> Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk |
-=======
 | eindtijd | Datetime | Werkelijke eindtijd van het klantcontact. Het moment dat de conversatie ten einde is.<br>Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk |
 | starttijd | Datetime | Werkelijke starttijd van het klantcontact, dus het moment dat klant en medewerker van de gemeente elkaar spreken.<br>Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk |
->>>>>>> origin/master
 | tijdsduur | int | Werkelijke tijdsduur in seconden |
 | wachttijdTotaal | int | De totale wachttijd voor de starttijd van het klantcontact. Dit inclusief eventueel te vroeg verschijnen op een afspraak |
 | kanaal | AN20 |  |
@@ -743,25 +659,6 @@ Attributen van objecttype Medewerker
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-<<<<<<< HEAD
-| achternaam | AN200 | De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt. |
-| datumInDienst | Date |  |
-| datumUitDienst |  | Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt. |
-| emailadres | AN254 | Elektronisch postadres waaronder de medewerker in de regel bereikbaar is. |
-| extern |  | Medewerker is een externe? |
-| functie | AN50 | De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie. |
-| geslachtsaanduiding | A1 | Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is. |
-| medewerkerIdentificatie | AN24 | Een korte unieke aanduiding van de medewerker. |
-| medewerkerToelichting | AN1000 | Toelichting bij en/of over de medewerker. |
-| roepnaam | AN30 | Naam waarmee de werknemer wordt aangesproken. |
-| telefoonnummer | AN20 | Telefoonnummer waaronder de medewerker in de regel bereikbaar is. |
-| voorletters | AN20 | De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen. |
-| voorvoegselAchternaam | AN10 | 
-> Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is
-> gescheiden. |
-| organisatorische eenheid | Class: "OrganisatorischeEenheid" |  |
-| organisatorische eenheid | Class: "OrganisatorischeEenheid" |  |
-=======
 | medewerkerIdentificatie | AN24 | Een korte unieke aanduiding van de medewerker. |
 | achternaam | AN200 | De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt. |
 | datumUitDienst | Datum | Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt. |
@@ -777,7 +674,6 @@ Attributen van objecttype Medewerker
 | datumInDienst | Date |  |
 | organisatorische eenheid | OrganisatorischeEenheid |  |
 | organisatorische eenheid | OrganisatorischeEenheid |  |
->>>>>>> origin/master
 
 
 
@@ -813,24 +709,6 @@ Attributen van objecttype Object
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-<<<<<<< HEAD
-| adresBinnenland |  | De aanduiding van het adres van het OBJECT indien dit adres in Nederland gelegen is. |
-| adresBuitenland |  | De aanduiding van het adres waar specialisaties van het OBJECT zijnde een SUBJECT dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland. |
-| domein | AN200 | Het toepassingsgebied of de sector DOMEIN waarbinnen handhaving op het object plaatsvindt |
-| geometrie | GML | De minimaal tweedimensionale geometrische representatie van het OBJECT. |
-| identificatie | AN50 | De unieke identificatie van het OBJECT |
-| indicatieRisico |  | Indicatie van de risico's van (de uitvoering van activiteiten in) het handhavingsobject op gevolgen voor het handhavingsobject zelf, de daarin aanwezige personen, de omgeving van het handhavingsobject en/of de samenleving. |
-| kadastraleAanduiding | AN30 | De kadastrale aanduiding van het OBJECT |
-| naam | AN200 | De benaming van het OBJECT indien dit een SUBJECT of specialisatie daarvan is. |
-| objecttype | AN3 | 
-> Het onderscheid van een OBJECT naar haar specialisatiies.
-> De code voor de Objecttypering gevolgd door de unieke aanduiding van de specialisatie (van OBJECT):
-> ADRESSEERBAAR OBJECT AANDUIDING, BENOEMD OBJECT, BESLUIT, BUURT, ENKELVOUDIG INFORMATIEOBJECT, GEMEENTE, GEMEENTELIJKE OPENBARE RUIMTE, HUISHOUDEN, INRICHTINGSELEMENT, KADASTRALE ONROERENDE ZAAK, KUNSTWERKDEEL, MAATSSCHAPPELIJKE ACTIVITEIT, MEDEWERKER, OPENBARE RUIMTE, SAMENGESTELD INFORMATIEOBJECT, ORGANISATORISCHE EENHEID, PAND, SPOORBAANDEEL, STATUS, SUBJECT, TERREINDEEL, WATERDEEL, WEGDEEL, WIJK, WOONPLAATS, WOZ- DEELOBJECT, WOZ-OBJECT, WOZ-WAARDE of
-> ZAKELIJK RECHT (of afleidbare identificatie). |
-| toelichting |  |  |
-| huishouden | Class: "Huishouden" |  |
-| besluit | Class: "Besluit" |  |
-=======
 | identificatie | AN50 | De unieke identificatie van het OBJECT |
 | objecttype | AN3 | Het onderscheid van een OBJECT naar haar specialisatiies.<br>De code voor de Objecttypering gevolgd door de unieke aanduiding van de specialisatie (van OBJECT):<br>ADRESSEERBAAR OBJECT AANDUIDING, BENOEMD OBJECT, BESLUIT, BUURT, ENKELVOUDIG INFORMATIEOBJECT, GEMEENTE, GEMEENTELIJKE OPENBARE RUIMTE, HUISHOUDEN, INRICHTINGSELEMENT, KADASTRALE ONROERENDE ZAAK, KUNSTWERKDEEL, MAATSSCHAPPELIJKE ACTIVITEIT, MEDEWERKER, OPENBARE RUIMTE, SAMENGESTELD INFORMATIEOBJECT, ORGANISATORISCHE EENHEID, PAND, SPOORBAANDEEL, STATUS, SUBJECT, TERREINDEEL, WATERDEEL, WEGDEEL, WIJK, WOONPLAATS, WOZ- DEELOBJECT, WOZ-OBJECT, WOZ-WAARDE of<br>ZAKELIJK RECHT (of afleidbare identificatie). |
 | naam | AN200 | De benaming van het OBJECT indien dit een SUBJECT of specialisatie daarvan is. |
@@ -843,7 +721,6 @@ Attributen van objecttype Object
 | indicatieRisico |  | Indicatie van de risico's van (de uitvoering van activiteiten in) het handhavingsobject op gevolgen voor het handhavingsobject zelf, de daarin aanwezige personen, de omgeving van het handhavingsobject en/of de samenleving. |
 | huishouden | Huishouden |  |
 | besluit | Besluit |  |
->>>>>>> origin/master
 
 
 
@@ -914,21 +791,6 @@ Attributen van objecttype OrganisatorischeEenheid
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-<<<<<<< HEAD
-| datumOntstaan |  | De datum waarop de organisatorische eenheid is ontstaan. |
-| datumOpheffing |  | De datum waarop de organisatorische eenheid is opgeheven. |
-| emailadres | AN254 | Elektronisch postadres waaronder de organisatorische eenheid in de regel bereikbaar is. |
-| faxnummer | AN20 | Faxnummer waaronder de organisatorische eenheid in de regel bereikbaar is. |
-| Formatie |  |  |
-| naam | AN50 | De feitelijke naam van de organisatorische eenheid. |
-| naamVerkort | AN25 | Een verkorte naam voor de organisatorische eenheid. |
-| omschrijving | AN80 | Een omschrijving van de organisatorische eenheid. |
-| organisatieIdentificatie | AN24 | Een korte identificatie van de organisatorische eenheid. |
-| telefoonnummer | AN20 | Telefoonnummer waaronder de organisatorische eenheid in de regel bereikbaar is. |
-| toelichting | AN1000 | Toelichting bij de organisatorische eenheid. |
-| vestiging | Class: "VestigingVanZaakbehandelendeOrganisatie" |  |
-| zaaktype | Class: "Zaaktype" |  |
-=======
 | organisatieIdentificatie | AN24 | Een korte identificatie van de organisatorische eenheid. |
 | datumOntstaan | Datum | De datum waarop de organisatorische eenheid is ontstaan. |
 | datumOpheffing | Datum | De datum waarop de organisatorische eenheid is opgeheven. |
@@ -942,7 +804,6 @@ Attributen van objecttype OrganisatorischeEenheid
 | Formatie | AN255 |  |
 | vestiging | VestigingVanZaakbehandelendeOrganisatie |  |
 | zaaktype | Zaaktype |  |
->>>>>>> origin/master
 
 
 
@@ -1014,17 +875,10 @@ Attributen van objecttype Status
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-<<<<<<< HEAD
-| datumStatusGezet |  | De datum waarop de zaak de status heeft verkregen. |
-| indicatieIaatstGezetteStatus | AN1 | Aanduding of het de laatst bekende bereikte status betreft. |
-| statustoelichting | AN1000 | Een, voor de initiator van de zaak relevante, toelichting op de status van een zaak. |
-| type | Class: "Statustype" |  |
-=======
 | datumStatusGezet | Datum | De datum waarop de zaak de status heeft verkregen. |
 | statustoelichting | AN1000 | Een, voor de initiator van de zaak relevante, toelichting op de status van een zaak. |
 | indicatieIaatstGezetteStatus | AN1 | Aanduding of het de laatst bekende bereikte status betreft. |
 | type | Statustype |  |
->>>>>>> origin/master
 
 
 
@@ -1060,21 +914,12 @@ Attributen van objecttype Statustype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-<<<<<<< HEAD
-| datumBeginGeldigheidStatustype | OnvolledigeDatum | De datum waarop het STATUSTYPE is ontstaan. |
-| datumEindeGeldigheidStatustype | OnvolledigeDatum | De datum waarop het STATUSTYPE is opgeheven. |
-| doorlooptijdStatus | N3 | De door de zaakbehandelende organisatie(s) gestelde norm voor de doorlooptijd voor het bereiken van STATUSsen van dit STATUSTYPE bij het desbetreffende ZAAKTYPE. |
-| statustypeOmschrijving | AN80 | Een korte, voor de initiator van de zaak relevante, omschrijving van de aard van de STATUS van zaken van een ZAAKTYPE. |
-| statustypeOmschrijvingGeneriek | AN80 | Algemeen gehanteerde omschrijving van de aard van STATUSsen van het STATUSTYPE |
-| statustypeVolgnummer | N4 | Een volgnummer voor de status binnen een zaak. |
-=======
 | statustypeOmschrijving | AN80 | Een korte, voor de initiator van de zaak relevante, omschrijving van de aard van de STATUS van zaken van een ZAAKTYPE. |
 | statustypeVolgnummer | N4 | Een volgnummer voor de status binnen een zaak. |
 | doorlooptijdStatus | N3 | De door de zaakbehandelende organisatie(s) gestelde norm voor de doorlooptijd voor het bereiken van STATUSsen van dit STATUSTYPE bij het desbetreffende ZAAKTYPE. |
 | statustypeOmschrijvingGeneriek | AN80 | Algemeen gehanteerde omschrijving van de aard van STATUSsen van het STATUSTYPE |
 | datumBeginGeldigheidStatustype | OnvolledigeDatum | De datum waarop het STATUSTYPE is ontstaan. |
 | datumEindeGeldigheidStatustype | OnvolledigeDatum | De datum waarop het STATUSTYPE is opgeheven. |
->>>>>>> origin/master
 
 
 
@@ -1145,34 +990,6 @@ Attributen van objecttype Zaak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-<<<<<<< HEAD
-| archiefnominatie | AN1 | Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden |
-| datumEinde |  | De datum waarop de uitvoering van de zaak afgerond is. |
-| datumEindeGepland |  | De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt. |
-| datumEindeUiterlijkeAfdoening |  | De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn. |
-| datumLaatsteBetaling |  | De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak. |
-| datumPublicatie | datum | Datum waarop (het starten van) de zaak gepubliceerd is of wordt. |
-| datumRegistratie |  | De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd |
-| datumStart |  | De datum waarop met de uitvoering van de zaak is gestart. |
-| datumVernietigingDossier |  | De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden. |
-| document |  |  |
-| duurVerlenging | N3 |  |
-| indicatieBetaling | AN12 | Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene. |
-| indicatieDeelzaken | A1 | De aanduiding of een ZAAK behandeld wordt in deelzaken. |
-| indicatieOpschorting | AN1 |  |
-| leges | AN100 |  |
-| omschrijving | AN80 | Een korte omschrijving van de zaak. |
-| omschrijvingResultaat | AN80 | Een korte omschrijving wat het resultaat van de zaak inhoudt. |
-| redenOpschorting | AN200 |  |
-| redenVerlenging | AN200 |  |
-| toelichting | AN1000 | Een toelichting op de zaak. |
-| toelichtingResultaat | AN1000 | Een toelichting op wat het resultaat van de zaak inhoudt. |
-| vertrouwelijkheid | AN40 |  |
-| zaakidentificatie | AN40 | Een identificatie van de zaak. |
-| zaakniveau | N1 | Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken. |
-| type | Class: "Zaaktype" |  |
-| status | Class: "Status" |  |
-=======
 | zaakidentificatie | AN40 | Een identificatie van de zaak. |
 | datumEinde | Datum | De datum waarop de uitvoering van de zaak afgerond is. |
 | datumEindeGepland | Datum | De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt. |
@@ -1199,7 +1016,6 @@ Attributen van objecttype Zaak
 | type | Zaaktype |  |
 | document | Document |  |
 | status | Status |  |
->>>>>>> origin/master
 
 
 
@@ -1235,29 +1051,6 @@ Attributen van objecttype ZAAK - Origineel
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-<<<<<<< HEAD
-| anderZaakobject |  |  |
-| archiefnominatie | AN1 | Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden |
-| datumEinde |  | De datum waarop de uitvoering van de zaak afgerond is. |
-| datumEindeGepland |  | De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt. |
-| datumEindeUiterlijkeAfdoening |  | De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn. |
-| datumLaatsteBetaling |  | De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak. |
-| datumPublicatie | datum | Datum waarop (het starten van) de zaak gepubliceerd is of wordt. |
-| datumRegistratie |  | De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd |
-| datumStart |  | De datum waarop met de uitvoering van de zaak is gestart. |
-| datumVernietigingDossier |  | De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden. |
-| indicatieBetaling | AN12 | Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene. |
-| indicatieDeelzaken | A1 | De aanduiding of een ZAAK behandeld wordt in deelzaken. |
-| kenmerk |  |  |
-| omschrijving | AN80 | Een korte omschrijving van de zaak. |
-| omschrijvingResultaat | AN80 | Een korte omschrijving wat het resultaat van de zaak inhoudt. |
-| opschorting |  |  |
-| toelichting | AN1000 | Een toelichting op de zaak. |
-| toelichtingResultaat | AN1000 | Een toelichting op wat het resultaat van de zaak inhoudt. |
-| verlenging |  |  |
-| zaakidentificatie | AN40 | Een identificatie van de zaak. |
-| zaakniveau | N1 | Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken. |
-=======
 | zaakidentificatie | AN40 | Een identificatie van de zaak. |
 | datumEinde | Datum | De datum waarop de uitvoering van de zaak afgerond is. |
 | datumEindeGepland | Datum | De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt. |
@@ -1279,7 +1072,6 @@ Attributen van objecttype ZAAK - Origineel
 | opschorting | OpschortingZaak |  |
 | verlenging | VerlengingZaak |  |
 | anderZaakobject | AnderZaakobjectZaak |  |
->>>>>>> origin/master
 
 
 
@@ -1315,21 +1107,6 @@ Attributen van objecttype Zaaktype
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-<<<<<<< HEAD
-| archiefcode | AN20 | De systematische identificatie van zaakdossiers van dit ZAAKTYPE overeenkomstig logisch gestructureerde conventies, methoden en procedureregels. |
-| datumBeginGeldigheidZaaktype | OnvolledigeDatum | De datum waarop het ZAAKTYPE is ontstaan. |
-| datumEindeGeldigheidZaaktype | OnvolledigeDatum | De datum waarop het ZAAKTYPE is opgeheven. |
-| doorlooptijdBehandeling | N3 | De periode waarbinnen volgens wet- en regelgeving een ZAAk van het ZAAKTYPE afgerond dient te zijn. |
-| indicatiePublicatie | AN1 | Aanduiding of (het starten van) een ZAAK van dit ZAAKTYPE gepubliceerd moet worden. |
-| publicatietekst | AN1000 | De generieke tekst van de publicatie van ZAAKen van dit ZAAKTYPE |
-| servicenormBehandeling | N3 | De periode waarbinnen verwacht wordt dat een ZAAk van het ZAAKTYPE afgerond wordt coform de geldende servicenormen van de zaakbehandelende organisatie(s). |
-| trefwoord | AN30 | Een trefwoord waarmee ZAAKen van het ZAAKTYPE kunnen worden gekarakteriseerd. |
-| vertrouwelijkAanduiding | AN20 | Aanduiding van de mate waarin zaakdossiers van ZAAKen van dit ZAAKTYPE voor de openbaarheid bestemd zijn. |
-| zaakcategorie | AN40 | Typering van de aard van ZAAKen van het ZAAKTYPE. |
-| zaaktypeOmschrijving | AN80 | Omschrijving van de aard van ZAAKen van het ZAAKTYPE. |
-| zaaktypeOmschrijvingGeneriek | AN80 | Algemeen gehanteerde omschrijving van de aard van ZAAKen van het ZAAKTYPE |
-| statustype | Class: "Statustype" |  |
-=======
 | zaaktypeOmschrijving | AN80 | Omschrijving van de aard van ZAAKen van het ZAAKTYPE. |
 | zaaktypeOmschrijvingGeneriek | AN80 | Algemeen gehanteerde omschrijving van de aard van ZAAKen van het ZAAKTYPE |
 | trefwoord | AN30 | Een trefwoord waarmee ZAAKen van het ZAAKTYPE kunnen worden gekarakteriseerd. |
@@ -1343,7 +1120,6 @@ Attributen van objecttype Zaaktype
 | datumBeginGeldigheidZaaktype | OnvolledigeDatum | De datum waarop het ZAAKTYPE is ontstaan. |
 | datumEindeGeldigheidZaaktype | OnvolledigeDatum | De datum waarop het ZAAKTYPE is opgeheven. |
 | statustype | Statustype |  |
->>>>>>> origin/master
 
 
 
@@ -1378,12 +1154,8 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
-<<<<<<< HEAD
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_5f46afec_a603_422d_9e57_6de87ab043ef |
-=======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_fac05484\_05f0\_4a94\_a47e\_b49c227ae606 |
+    | id | EAID\_08d37c92\_774a\_45b0\_97a2\_caf39731b129 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1417,12 +1189,8 @@ De enumeratie Heffingsoort heeft de volgende kenmerken:
     | author | Arjen Brienen |
     | version | 1.9.0 |
     | created | 2019-05-08 13:48:43 |
-<<<<<<< HEAD
-    | modified | 2025-07-22 16:28:36 |
-    | id | EAID_79c77ce6_9b9d_47d3_9ba6_ecd8e33b4eaa |
-=======
     | modified | 2025-12-18 15:38:52 |
-    | id | EAID\_39e4bd80\_d086\_4d83\_bff3\_2f66b4f8cffa |
+    | id | EAID\_0c7ee906\_51f3\_4b18\_b57e\_0ea57ffd63da |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1459,12 +1227,8 @@ De enumeratie Soorten Klantcontact heeft de volgende kenmerken:
     | author |  |
     | version | 1.11.0 |
     | created | 2025-03-26 11:13:26 |
-<<<<<<< HEAD
-    | modified | 2025-03-26 16:14:51 |
-    | id | EAID_2aa6a572_5da2_4367_a3f8_d9e4c95e7ff6 |
-=======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_3e147ac4\_1daa\_4cba\_a772\_75b9db446770 |
+    | id | EAID\_d75e9b1e\_ee40\_4427\_a5f2\_6931e802693e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

@@ -194,25 +194,8 @@ Attributen van objecttype Subsidie
 | datumVerzendingEindeafrekening | Date |  |
 | gerealiseerdeProjectkosten | Date |  |
 | hoogteSubsidie | Bedrag |  |
-<<<<<<< HEAD
-| niveau | Enumeratie: "Subsidieniveau" |  |
-| onderwerp | AN200 |  |
-| ontvangenBedrag | Bedrag |  |
-| opmerkingen | Text |  |
-| opmerkingenVoorschotten | Text |  |
-| prestatiesubsidie | Boolean | 
-> Als Nee dan is het een stimuleringssubsidie
-> Alleen bij uitgaande subsidies, anders NULL! |
-| socialReturnBedrag | Bedrag |  |
-| socialReturnNagekomen | Boolean |  |
-| socialReturnVerplichting | Boolean |  |
-| status | AN80 |  |
-| subsidiebedrag | Bedrag |  |
-| subsidiesoort | AN80 |  |
-=======
 | datumBehandeltermijn | Date |  |
 | datumSubsidievaststelling | Date |  |
->>>>>>> origin/master
 | subsidievaststellingBedrag | Bedrag |  |
 | ontvangenBedrag | Bedrag |  |
 | datumBewaartermijn | Date |  |

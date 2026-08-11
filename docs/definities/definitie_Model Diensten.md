@@ -513,11 +513,7 @@ Attributen van objecttype Onderdeel beschikking
 
     | Eigenschap | Waarde |
     | :--- | :------ |
-<<<<<<< HEAD
-    | name | Periodiek dienst (Bijz. bijstand) |
-=======
     | name | Periodiek dienst Bijz. bijstand |
->>>>>>> origin/master
     | toelichting |  |
     | synoniemen |  |
     | uri |  |

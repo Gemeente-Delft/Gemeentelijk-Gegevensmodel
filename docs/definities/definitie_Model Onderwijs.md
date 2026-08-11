@@ -504,12 +504,8 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
-<<<<<<< HEAD
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_45e233e2_8779_4c03_bd1b_b1ef29a0836b |
-=======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_53abc0b9\_7e82\_41e9\_96bc\_2842b129fee9 |
+    | id | EAID\_ceb6e2ac\_ebf2\_40f2\_a994\_771993cfd966 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -545,12 +541,8 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
-<<<<<<< HEAD
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_713e1c16_3941_46f0_842c_853a9fd2795d |
-=======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_d46174dd\_c60e\_4d2e\_bbb0\_7f3c738cc27c |
+    | id | EAID\_1d5f9874\_07e9\_4fa7\_843e\_d4f8053272a1 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

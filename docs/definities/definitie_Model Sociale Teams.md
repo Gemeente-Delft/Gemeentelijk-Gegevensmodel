@@ -29,13 +29,8 @@ Het model 'Model Sociale Teams' kent de volgende objecttypen:
 * **Caseaanmelding**: Verzoek tot toelating
 * **Doelstelling**: Een op korte of middellange termijn nagestreefde situatie
 * **Doelstellingsoort**: Typering van een doelstellig
-<<<<<<< HEAD
-* **SociaalTeamDossier**: 
-* **SociaalteamDossiersoort**: 
-=======
 * **SociaalTeamDossier**: SociaalTeamDossier* is een dossier-entiteit binnen het Model Sociale Teams dat de **geïntegreerde registratie van gegevens over ondersteuning, gesprekken, interventies en casusontwikkeling van een sociaal team** voor een inwoner of gezin omvat.
 * **SociaalteamDossiersoort**: *SociaalteamDossiersoort* is de classificatie van een *SociaalTeamDossier* die aangeeft **het type of de categorie van het dossier** binnen de context van sociale ondersteuning en casemanagement in een sociaal team.
->>>>>>> origin/master
 
 
 ## Objecttypen Model Sociale Teams

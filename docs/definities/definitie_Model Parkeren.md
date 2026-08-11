@@ -622,12 +622,8 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
-<<<<<<< HEAD
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_f26d8671_84b8_43a4_8908_f321062430c6 |
-=======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_ae85ce60\_8dfb\_4fba\_b255\_6926ac237912 |
+    | id | EAID\_e19b9a66\_31ee\_4cae\_b997\_4c85fbcf31c5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

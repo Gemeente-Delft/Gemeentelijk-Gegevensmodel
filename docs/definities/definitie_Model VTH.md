@@ -24,36 +24,10 @@ Het model 'Model VTH' kent de volgende objecttypen:
 
 * **Activiteit Omgevingswet**: Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd.
 * **AOMStatus**: 
-<<<<<<< HEAD
-* **Bevinding**: 
-=======
 * **Bevinding**: Een *bevinding* is de uitkomst van een waarneming of onderzoek die aangeeft wat is geconstateerd bij beoordeling of inspectie.
->>>>>>> origin/master
 * **BOA**: Een buitengewoon opsporingsambtenaar (boa) is een ambtenaar met een specifieke opsporingsbevoegdheid.
 * **Combibon**: Een Combibon is een modelformulier dat handhavende ambtenaren gebruiken om geconstateerde overtredingen en de gekozen afdoeningsmodaliteit (bijv. bekeuring of strafbeschikking) vast te leggen.
 * **Fietsregistratie**: Adminstreren van fietsen
-<<<<<<< HEAD
-* **Grondslag**: 
-* **Heffinggrondslag**: De maatstaf waarop een belasting is gebaseerd, het bedrag op basis waarvan een bepaalde belasting wordt geheven of de premie voor sociale zekerheid wordt vastgesteld.
-* **Heffingsverordening**: 
-* **Indiener**: Persoon die meldiing of aanvraag doet
-* **Inspectie**: het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen.
-* **Kosten**: 
-* **Leges_Grondslag**: 
-* **Ligplaatsontheffing**: Tijdelijke toestemming voor het innemen van een ligplaats op een locatie in een gebied met een verbod op ligplaatsen.
-* **MORAanvraagOfMelding**: 
-* **OpenbareActiviteit**: Activiteit in het publieke domein
-* **Precario**: Belasting die specifiek wordt geheven voor het plaatsen van voorwerpen onder, op of boven voor de openbare dienst bestemde gemeentegrond.
-* **Producttype**: 
-* **SubProducttype**: 
-* **Vaartuig**: Een zee- of binnenvaartuig, tot de vaart gebruikt of bestemd, daaronder begrepen drijvende werktuigen, zoals baggerwerktuigen, kranen, bokken, elevators, alsmede woonschepen, glijboten en ponten.
-* **VOMAanvraagOfMelding**: VOM staat voor Vergunning, Ontheffing of Melding. Het betreft hier een melding of een aanvraag voor een vergunning of een ontheffing.
-* **Vordering**: 
-* **Vorderingregel**: 
-* **VTHAanvraagOfMelding**: VTH staat voor Vergunning, Toezicht en Handhaving. Het betreft hier een melding of een aanvraag voor een vergunning of een melding voor Toezicht en/of Handhaving.
-* **VTH-Melding**: Melding met betrekking tot Vergunningen, Toezicht en Handhaving
-* **VTHzaak**: 
-=======
 * **Grondslag**: Een *grondslag* is de juridische of normatieve basis waarop een besluit, handeling of rechtspraak steunt; het is hetgeen zijn **basis vindt in wetgeving of andere geldende rechtsregels**.
 * **Heffinggrondslag**: De maatstaf waarop een belasting is gebaseerd, het bedrag op basis waarvan een bepaalde belasting wordt geheven of de premie voor sociale zekerheid wordt vastgesteld.
 * **Heffingsverordening**: Een *heffingsverordening* is een door de gemeenteraad vastgestelde verordening die de **heffing en invordering van gemeentelijke belastingen en rechten** regelt, zoals afvalstoffenheffing, precariobelasting of marktgelden.
@@ -74,7 +48,6 @@ Het model 'Model VTH' kent de volgende objecttypen:
 * **VTH-Melding**: Melding met betrekking tot Vergunningen, Toezicht en Handhaving
 * **VTHAanvraagOfMelding**: VTH staat voor Vergunning, Toezicht en Handhaving. Het betreft hier een melding of een aanvraag voor een vergunning of een melding voor Toezicht en/of Handhaving.
 * **VTHzaak**: Een *VTHzaak* is een zaak of dossier binnen de gemeentelijke administratie die betrekking heeft op **vergunningverlening, toezicht en handhaving (VTH)** van regels en voorschriften in de fysieke leefomgeving.
->>>>>>> origin/master
 * **Waarneming**: Handhavende taak in het kader van VTH
 * **WABOAanvraagOfMelding**: Aanvraag of medling in het kader van de Wet algemene bepalingen omgevingsrecht (WABO)
 * **WoonfraudeAanvraagOfMelding**: Melding of aanvraag van woonfraude
@@ -1320,12 +1293,8 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
-<<<<<<< HEAD
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_b3801a1a_2997_484a_a526_6f1a5bb60ec7 |
-=======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_1ff3f908\_a8e5\_4afd\_971c\_67d15759cd96 |
+    | id | EAID\_bd504649\_42c1\_4c53\_8fc7\_d48d9bff0233 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1361,12 +1330,8 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
-<<<<<<< HEAD
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_e3ad61b6_6cb5_421e_8d19_6d958689db8c |
-=======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_a48a78a3\_84c9\_4842\_afa3\_8064abfa530d |
+    | id | EAID\_1ad174ff\_80aa\_45fa\_9561\_a9b5598aa7e9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

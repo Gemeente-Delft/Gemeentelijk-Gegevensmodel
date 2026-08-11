@@ -179,11 +179,7 @@ Attributen van objecttype Verblijfstitel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AardAantekening |
-<<<<<<< HEAD
-    | toelichting | #NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening |
-=======
     | toelichting | #NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening |
->>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -775,11 +771,7 @@ Attributen van objecttype Reisdocumentsoort
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SBIActiviteit |
-<<<<<<< HEAD
-    | toelichting | #NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten |
-=======
     | toelichting | #NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten |
->>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |

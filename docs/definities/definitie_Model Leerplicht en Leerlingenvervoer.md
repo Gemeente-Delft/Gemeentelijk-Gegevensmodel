@@ -636,12 +636,8 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
-<<<<<<< HEAD
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_e34a7c4f_819a_4d1f_b594_9db50919078d |
-=======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_aeedda0d\_8e88\_4593\_9105\_dc76e5779eae |
+    | id | EAID\_78f0d8ab\_4ab9\_48d6\_9b1a\_80de34adfe6a |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -677,12 +673,8 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
-<<<<<<< HEAD
-    | modified | 2025-03-26 16:14:54 |
-    | id | EAID_daae75ff_1819_4431_8226_8fe57468c372 |
-=======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_26f9b701\_f97a\_4393\_bdea\_41bccbc371f5 |
+    | id | EAID\_f91f08cd\_3dad\_41c9\_972c\_ccf572c8edbf |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

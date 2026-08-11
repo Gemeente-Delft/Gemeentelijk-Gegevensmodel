@@ -344,9 +344,7 @@ Attributen van objecttype Ligplaats
     | gemma_naam | ADRESSEERBAAR OBJECT |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-460ada62-9cdd-478f-9555-4fb161ebc0b3](https://gemmaonline.nl/index.php/GEMMA/id-460ada62-9cdd-478f-9555-4fb161ebc0b3) |
-    | gemma_definitie | 
-> Een adresseerbaar object is een object waaraan formeel adressen kunnen en moeten worden toegekend: een verblijfsobject, standplaats of ligplaats.
-> Toelichting: Een object dat een adres heeft of krijgt. Adresseerbare objecten zijn: een verblijfsobject, een standplaats en een ligplaats. |
+    | gemma_definitie | Een adresseerbaar object is een object waaraan formeel adressen kunnen en moeten worden toegekend: een verblijfsobject, standplaats of ligplaats.<br>Toelichting: Een object dat een adres heeft of krijgt. Adresseerbare objecten zijn: een verblijfsobject, een standplaats en een ligplaats. |
     | gemma_toelichting |  |
     
 
@@ -384,9 +382,7 @@ Attributen van objecttype AdresseerbaarObject
     | gemma_naam | OPENBARE RUIMTE |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-d2f8867b-fce6-4932-8b1a-ec8b9392f0d5](https://gemmaonline.nl/index.php/GEMMA/id-d2f8867b-fce6-4932-8b1a-ec8b9392f0d5) |
-    | gemma_definitie | 
-> Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen.
-> Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam). |
+    | gemma_definitie | Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen.<br>Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam). |
     | gemma_toelichting |  |
     
 
@@ -441,9 +437,7 @@ Attributen van objecttype OpenbareRuimte
     | gemma_naam | PAND |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-bcdc30f3-c919-4d3a-b768-b62da7bc755e](https://gemmaonline.nl/index.php/GEMMA/id-bcdc30f3-c919-4d3a-b768-b62da7bc755e) |
-    | gemma_definitie | 
-> Een pand is een kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is.
-> Beschrijving: Een zelfstandig bouwwerk, zowel zelfstandig in de manier hoe het is gebouwd als waarvoor het is bedoeld om te gebruiken. Een pand voldoet ook aan de volgende eisen: een pand is direct en voor lange tijd met de aarde verbonden (een pand is niet makkelijk te verplaatsen) en een pand kun je binnengaan en afsluiten. Een eenheid kan alleen een pand zijn als het voldoet aan alle eisen uit de Catalogus BAG 2018. |
+    | gemma_definitie | Een pand is een kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is.<br>Beschrijving: Een zelfstandig bouwwerk, zowel zelfstandig in de manier hoe het is gebouwd als waarvoor het is bedoeld om te gebruiken. Een pand voldoet ook aan de volgende eisen: een pand is direct en voor lange tijd met de aarde verbonden (een pand is niet makkelijk te verplaatsen) en een pand kun je binnengaan en afsluiten. Een eenheid kan alleen een pand zijn als het voldoet aan alle eisen uit de Catalogus BAG 2018. |
     | gemma_toelichting |  |
     
 
@@ -644,9 +638,7 @@ Attributen van objecttype Wijk
     | gemma_naam | WOONPLAATS |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-bedf86fb-8710-49fc-addb-e48a11b551ed](https://gemmaonline.nl/index.php/GEMMA/id-bedf86fb-8710-49fc-addb-e48a11b551ed) |
-    | gemma_definitie | 
-> Een woonplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente
-> Beschrijving: Een stuk grond binnen de gemeente dat als woonplaats is aangewezen en waaraan de gemeente ook een naam heeft gegeven. |
+    | gemma_definitie | Een woonplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente<br>Beschrijving: Een stuk grond binnen de gemeente dat als woonplaats is aangewezen en waaraan de gemeente ook een naam heeft gegeven. |
     | gemma_toelichting |  |
     
 

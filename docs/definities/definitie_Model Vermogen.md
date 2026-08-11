@@ -26,13 +26,8 @@ Het model 'Model Vermogen' kent de volgende objecttypen:
 * **Hypotheek**: Een hypotheek is een lening waarbij een onroerend goed, zoals een woning, dient als onderpand voor de schuld. Het wordt doorgaans verstrekt door een financiële instelling, zoals een bank, en stelt de lener in staat om een woning te kopen of te bouwen. De lening wordt over een afgesproken periode terugbetaald, inclusief rente. Als de lener niet aan de betalingsverplichtingen voldoet, heeft de kredietverstrekker het recht om het onderpand te verkopen om de openstaande schuld te vereffenen. Een hypotheek is daarmee zowel een financieringsvorm als een juridische zekerheid voor de kredietverstrekker.
 * **Motorvoertuig**: Een motorvoertuig is een voertuig dat is uitgerust met een motor als krachtbron en bedoeld is voor het vervoer van personen, goederen of het uitvoeren van specifieke taken. Het kan zich zelfstandig voortbewegen zonder de directe fysieke inspanning van een bestuurder of passagier. Voorbeelden van motorvoertuigen zijn auto’s, vrachtwagens, motorfietsen en bussen. Motorvoertuigen zijn doorgaans voorzien van wielen en rijden op de weg, en het gebruik ervan is vaak gebonden aan wettelijke regels, zoals registratie, verzekering en rijbewijsvereisten.
 * **Onroerend goed**: Onroerend goed is een juridische term die verwijst naar fysieke objecten die duurzaam met de grond zijn verbonden en niet zonder schade kunnen worden verplaatst. Dit omvat gronden, gebouwen, woningen en andere constructies die vast met de grond zijn verbonden, zoals bruggen of schuren. Onroerend goed wordt vaak onderscheiden van roerende zaken, die wel verplaatsbaar zijn. Het eigendom en de overdracht van onroerend goed zijn gebonden aan specifieke wettelijke regels, zoals registratie in openbare registers en het opstellen van notariële akten.
-<<<<<<< HEAD
-* **Vermogenscomponent**: 
-* **Waardepeiling**: 
-=======
 * **Vermogenscomponent**: Een *vermogenscomponent* is een **onderdeel van het totale vermogen** van een persoon of huishouden, dat afzonderlijk wordt weergegeven (zoals spaargeld, beleggingen, eigen woning netto of pensioenvermogen).
 * **Waardepeiling**: *Waardepeiling* is een **bepaling of schatting van de waarde van een object, goed of situatie**, verkregen door middel van peiling of inschatting van wat het waard zou zijn.
->>>>>>> origin/master
 
 
 ## Objecttypen Model Vermogen
@@ -301,7 +296,7 @@ De enumeratie CdSrtVoertuig heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:00 |
-    | id | EAID\_9bd1fdb9\_e01a\_439c\_a649\_0108b3b0dca2 |
+    | id | EAID\_aaf6527a\_9345\_4582\_abe9\_f371fae09526 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -334,7 +329,7 @@ De enumeratie CdSrtVermogenscomponent heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:35:54 |
-    | id | EAID\_ec13c4f9\_8609\_4e79\_aabd\_9d8dc81817f5 |
+    | id | EAID\_481083f8\_db8f\_4360\_a6fd\_2787b09244c2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -367,7 +362,7 @@ De enumeratie CdSrtWaardeVermogenscomponent heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:06 |
-    | id | EAID\_f399d5f6\_dbc6\_4168\_9562\_39257df332bb |
+    | id | EAID\_085e5232\_5cde\_4477\_9b2e\_5c409fcdcd02 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

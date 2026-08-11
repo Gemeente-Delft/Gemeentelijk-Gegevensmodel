@@ -22,13 +22,8 @@
 
 Het model 'Model Inkomen' kent de volgende objecttypen:
 
-<<<<<<< HEAD
-* **Component**: 
-* **ComponentSoort**: 
-=======
 * **Component**: Een *inkomenscomponent* is een afzonderlijk onderdeel of bron van inkomen, zoals loon, winst uit onderneming, uitkeringen of andere inkomensbronnen, die samen het totale inkomen van een persoon of huishouden vormen.
 * **ComponentSoort**: *ComponentSoort* is de classificatie of het type van een inkomenscomponent binnen een inkomen- of financiële administratie, waarmee wordt bepaald welke categorie of soort een specifieke component behoort.
->>>>>>> origin/master
 * **Huisvestingsoort**: Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen.
 * **Inkomensvoorziening**: Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving
 * **Inkomensvoorzieningsoort**: Typering van een inkomensvoorziening
@@ -37,11 +32,7 @@ Het model 'Model Inkomen' kent de volgende objecttypen:
 * **RedenUitstroom**: De reden waarom de uitkering aan een persoon is beeindgd. Reden toevoeging: Geeft de reden van uitstroom aan. Waarom is de uitkering beëindigd. Nodig voor diepere analyse van stand. Meet of je beleid of het lukt om mensen naar werk te laten stromen. van uitkeringen.
 * **Regeling**: Een Regeling is gekoppeld aan een ingeschreven persoon (client) en beschrijft de specifieke afspraken of voorwaarden waaronder inkomensondersteuning wordt verleend. Een regeling heeft altijd een relatie met een RegelingSoort, die het type regeling specificeert.
 * **Regelingsoort**: Typologie van een regeling
-<<<<<<< HEAD
-* **UitkeringsRun**: 
-=======
 * **UitkeringsRun**: Een *UitkeringsRun* is een geautomatiseerde verwerking in een financieel of administratief systeem waarbij **een groep uitkeringen of betalingen tegelijk wordt berekend en uitgevoerd** als onderdeel van een periodieke batch-verwerking.
->>>>>>> origin/master
 
 
 ## Objecttypen Model Inkomen
@@ -541,12 +532,8 @@ De enumeratie Wet heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:12:49 |
-<<<<<<< HEAD
-    | modified | 2025-03-26 16:14:37 |
-    | id | EAID_6dfa03f3_5d97_4e34_9f56_52934a911ade |
-=======
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_06a6c220\_7c15\_47ee\_8186\_fece3e0fafc8 |
+    | id | EAID\_ba3169df\_9e7e\_4037\_89b6\_e9852fe07834 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

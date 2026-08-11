@@ -80,11 +80,7 @@ Attributen van objecttype None
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeA |
-<<<<<<< HEAD
-    | toelichting | #NOTES#Default: |
-=======
     | toelichting | #NOTES#Default:<br>#NOTES#Default: |
->>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -119,11 +115,7 @@ Attributen van objecttype ObjecttypeA
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeB |
-<<<<<<< HEAD
-    | toelichting | #NOTES#Default: |
-=======
     | toelichting | #NOTES#Default:<br>#NOTES#Default: |
->>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -158,11 +150,7 @@ Attributen van objecttype ObjecttypeB
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeC |
-<<<<<<< HEAD
-    | toelichting | #NOTES#Default: |
-=======
     | toelichting | #NOTES#Default:<br>#NOTES#Default: |
->>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -197,11 +185,7 @@ Attributen van objecttype ObjecttypeC
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeD |
-<<<<<<< HEAD
-    | toelichting | #NOTES#Default: |
-=======
     | toelichting | #NOTES#Default:<br>#NOTES#Default: |
->>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -236,11 +220,7 @@ Attributen van objecttype ObjecttypeD
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeE |
-<<<<<<< HEAD
-    | toelichting | #NOTES#Default: |
-=======
     | toelichting | #NOTES#Default:<br>#NOTES#Default: |
->>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -275,11 +255,7 @@ Attributen van objecttype ObjecttypeE
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeF |
-<<<<<<< HEAD
-    | toelichting | #NOTES#Default: |
-=======
     | toelichting | #NOTES#Default:<br>#NOTES#Default: |
->>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -314,11 +290,7 @@ Attributen van objecttype ObjecttypeF
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeG |
-<<<<<<< HEAD
-    | toelichting | #NOTES#Default: |
-=======
     | toelichting | #NOTES#Default:<br>#NOTES#Default: |
->>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |

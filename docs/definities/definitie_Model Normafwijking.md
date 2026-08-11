@@ -22,19 +22,11 @@
 
 Het model 'Model Normafwijking' kent de volgende objecttypen:
 
-<<<<<<< HEAD
-* **Afwijkende maatregel**: 
-* **Boete**: Een boete is de uitkomst van een onderzoek naar rechtmatigheid. Dit leidt in principe tot een terug te vorderen bedrag. Er is voor gekozen om dit als aparte klasse te modelleren en niet als typering van een vordering, omdat we dit gegeven ook willen gebruiken bij risicoprofilering. Als de vordering niet (meer) bestaat, zou dit gegeven daarmee niet beschikbaar zijn.Daarnaast kan dit ook helpen bij het vastleggen van een boete van een poging tot fraude (zonder financiele consequenties, waardoor geen vordering is ontstaan. (tijdig ondekte valsheid in geschifte e.d.).Bij bedragen hoger dan 50.000 euro, wordt aangifte van fraude gedaan en volgt strafrechtelijk onderzoek.Feitelijk is het uitgangspunt bij het opleggen van een boete dat er altijd sprake is van opzet. Daarom is een apart gegeven Fraude niet opgenomen.
-* **Maatregel**: 
-* **Maatregel op uitkering**: 
-* **Normafwijking**: 
-=======
 * **Afwijkende maatregel**: Een *afwijkende maatregel* is een maatregel die afwijkt van de standaardregel of wettelijke norm en die op basis van een wettelijke grondslag, beleidsregel of gemotiveerde beslissing in een concreet geval wordt toegepast.
 * **Boete**: Een boete is de uitkomst van een onderzoek naar rechtmatigheid. Dit leidt in principe tot een terug te vorderen bedrag. Er is voor gekozen om dit als aparte klasse te modelleren en niet als typering van een vordering, omdat we dit gegeven ook willen gebruiken bij risicoprofilering. Als de vordering niet (meer) bestaat, zou dit gegeven daarmee niet beschikbaar zijn.Daarnaast kan dit ook helpen bij het vastleggen van een boete van een poging tot fraude (zonder financiele consequenties, waardoor geen vordering is ontstaan. (tijdig ondekte valsheid in geschifte e.d.).Bij bedragen hoger dan 50.000 euro, wordt aangifte van fraude gedaan en volgt strafrechtelijk onderzoek.Feitelijk is het uitgangspunt bij het opleggen van een boete dat er altijd sprake is van opzet. Daarom is een apart gegeven Fraude niet opgenomen.
 * **Maatregel**: Een *maatregel* is een besluit of handeling waarmee een bestuursorgaan of rechter ingrijpt om een doel te bereiken, een probleem op te lossen of een regel te handhaven.
 * **Maatregel op uitkering**: Een *maatregel op uitkering* is een sanctie van een uitvoerend orgaan (zoals een gemeente) waarbij de hoogte van een uitkering tijdelijk wordt verlaagd of aangepast omdat de uitkeringsgerechtigde niet heeft voldaan aan de aan de uitkering verbonden verplichtingen.
 * **Normafwijking**: Een *normafwijking* (in het kader van bijstand) is het constateren dat een bijstandsgerechtigde **afwijkt van de normatieve verplichtingen** die verbonden zijn aan het recht op bijstand (bijv. arbeids- of inlichtingenplicht), wat aanleiding kan geven tot toepassing van een maatregel op de uitkering.
->>>>>>> origin/master
 
 
 ## Objecttypen Model Normafwijking
@@ -50,11 +42,7 @@ Het model 'Model Normafwijking' kent de volgende objecttypen:
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Afwijkende maatregel |
-<<<<<<< HEAD
-    | toelichting |  |
-=======
     | toelichting | In de bestuursrechtelijke en juridische context duidt een afwijkende maatregel op een \*uitzondering\* van de reguliere toepassing van een wettelijke regeling of standaardprocedure, waarbij een bestuursorgaan in bijzondere gevallen kiest voor een aangepaste aanpak, binnen de grenzen van de wet. Deze afwijking moet objectief worden gemotiveerd en steunen op een wettelijke grondslag of beleidskader, zodat rechtszekerheid en evenredigheid worden gewaarborgd. De term wordt in diverse beleids- en regelgevingsteksten gebruikt om aan te geven dat een maatregel op een specifiek punt anders wordt vormgegeven dan de hoofdregel, bijvoorbeeld bij maatwerk in bijstandsverordeningen of afwijkingsbevoegdheden in bestemmingsplannen. |
->>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -124,11 +112,7 @@ Attributen van objecttype Boete
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Maatregel |
-<<<<<<< HEAD
-    | toelichting |  |
-=======
     | toelichting | In (bestuurs)recht en beleid duidt \*maatregel\* op een actie, handeling of besluit van een overheid of instantie dat gericht is op het beïnvloeden van gedrag, de toepassing van regels of de situatie van betrokkenen. Dit kan variëren van een administratieve beslissing in een individuele zaak tot een ingreep die een persoon, organisatie of situatie raakt. Een maatregel kan ook in een strafrechtelijke context worden opgelegd ter bescherming van de maatschappij, zoals een maatregel in plaats van of naast een straf. |
->>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -163,11 +147,7 @@ Attributen van objecttype Maatregel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Maatregel op uitkering |
-<<<<<<< HEAD
-    | toelichting |  |
-=======
     | toelichting | In het kader van bijstandsuitkeringen (Participatiewet/Wet werk en bijstand) kan een maatregel worden toegepast als iemand bijvoorbeeld niet of onvoldoende meewerkt aan verplichtingen zoals het zoeken naar werk of het voldoen aan informatieverplichtingen. De maatregel bestaat doorgaans uit een \*\*verlaging van de uitkering met een bepaald percentage voor één of meerdere maanden\*\*, afgestemd op de ernst van de gedraging en de mate van verwijtbaarheid. Gemeenten leggen deze maatregelen vast in een maatregelenverordening. |
->>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -202,11 +182,7 @@ Attributen van objecttype Maatregel op uitkering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Normafwijking |
-<<<<<<< HEAD
-    | toelichting |  |
-=======
     | toelichting | In de uitvoering van de Participatiewet moet een bijstandsgerechtigde voldoen aan verschillende normen en verplichtingen (zoals het zoeken naar werk, voldoen aan inlichtingen- en medewerkingsplichten, of andere door de gemeente opgelegde verplichtingen). Wanneer deze verplichtingen niet of onvoldoende worden nagekomen, kan dit worden aangemerkt als een normafwijking die leidt tot \*\*sanctionering via maatregelen op de uitkering\*\* (zoals verlaging van de bijstandsuitkering). Maatregelen worden in gemeentelijke maatregelenverordeningen vastgelegd en zijn verbonden aan de wettelijke kaders van de Participatiewet. |
->>>>>>> origin/master
     | synoniemen |  |
     | uri |  |
     | bron |  |
