@@ -10,3 +10,6 @@ linkchecker.log
 
 # Secrets: nooit committen. Gebruik .env.example als sjabloon.
 .env
+eurovoc_in_skos_core_concepts.rdf
+tools/.venv-crunch
+tools/termbanken/IATE_export.tbx

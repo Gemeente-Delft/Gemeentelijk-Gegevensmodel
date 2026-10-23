@@ -22,7 +22,7 @@
 # - To publish documentation to GitHub Pages: `task publish:github`
 #
 # Author: Arjen Brienen
-# Last Updated: 27 januari 2024
+# Last Updated: 23 oktober 2026
 version: '3'
 
 dotenv: ['.env']
@@ -42,6 +42,24 @@ vars:
   GGM_PREVIOUS_SCHEMA_RAW: "GGM_PREVIOUS_SCHEMA_RAW"
   GGM_PREVIOUS_SCHEMA: "GGM_PREVIOUS_SCHEMA"
   CRUNCH_UML_DB: "./crunch_uml.db"
+  # crunch_uml draait in een eigen venv (eigen site-packages) in plaats van de homebrew-python,
+  # zodat een 'brew upgrade python' de pipeline niet breekt en de versie per release vastligt.
+  # 0.8.0 is de eerste uitgebrachte versie met de herziene Linked Data-renderer (IRI's zonder
+  # spaties, generalisaties in de juiste richting, unieke property-IRI's, technische packages
+  # uitgesloten) en de MIM 1.2-laag (mim:-typering, metagegevens, kardinaliteit, taaltags).
+  # Oudere versies (t/m 0.7.0) leveren een LOD-export met de bekende gebreken; niet terugzetten.
+  # Zie taak prepare:venv-crunch.
+  CRUNCH_UML_VERSION: "0.8.0"
+  CRUNCH_VENV: "tools/.venv-crunch"
+  CRUNCH: "tools/.venv-crunch/bin/crunch_uml"
+  # Metagegevens van het informatiemodel in de Linked Data-export (MIM 1.2: mim:Informatiemodel
+  # op de basis-URI met dcterms:title/publisher/license; owl:versionInfo komt uit VERSION).
+  LOD_TITLE: "Gemeentelijk Gegevensmodel"
+  LOD_PUBLISHER: "https://www.delft.nl/"
+  LOD_LICENSE: "https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE"
+  LOD_INFORMATIEDOMEIN: "Gemeentelijke overheid"
+  # Technische EA-packages die niet in de Linked Data horen (met subpackages; patronen, hoofdletterongevoelig).
+  LOD_EXCLUDE_PACKAGES: "Diagram,Diagrammen intern gebruik,Tekenwijze,View*"
   DOCS: "./docs"
   DEFS: "./docs/definities"
   PUBLISH: "false"
@@ -56,9 +74,9 @@ tasks:
     desc: "Check for pre conditions. Verify required tools are installed."
     cmds:
       - |
-        # Lijst van vereiste tools en hun download-URLs
+        # Lijst van vereiste tools en hun download-URLs.
+        # crunch_uml staat hier NIET in: dat draait in een eigen venv (prepare:venv-crunch).
         declare -A tools=(
-          ["crunch_uml"]="https://github.com/brienen/crunch_uml"
           ["mkdocs"]="https://www.mkdocs.org"
           ["mike"]="https://github.com/jimporter/mike"
           ["jq"]="https://stedolan.github.io/jq"
@@ -109,12 +127,40 @@ tasks:
         echo "VERSION {{.VERSION}} and Versiondir {{.VERSION_DIR}} are valid..."
     shell: bash
 
+  prepare:venv-crunch:
+    desc: "Zorg voor een geïsoleerde venv met crunch_uml {{.CRUNCH_UML_VERSION}}, ongevoelig voor brew-python-upgrades."
+    cmds:
+      - |
+        # crunch_uml draait in een eigen venv ({{.CRUNCH_VENV}}) met eigen site-packages. De venv
+        # wordt (her)opgebouwd zodra hij ontbreekt, stuk is (bv. na een python-upgrade) of een
+        # andere crunch_uml-versie bevat dan CRUNCH_UML_VERSION, zodat een versiewissel in deze
+        # TaskFile altijd doorwerkt. crunch_uml vereist Python 3.10 t/m 3.13 (gepinde lxml-wheels).
+        VENV="{{.CRUNCH_VENV}}"; : "${VENV:?CRUNCH_VENV is leeg}"
+        WANT="{{.CRUNCH_UML_VERSION}}"
+        if ! "$VENV/bin/python" -c "import importlib.metadata as m, sys; sys.exit(0 if m.version('crunch_uml') == '$WANT' else 1)" >/dev/null 2>&1; then
+          echo "Aanmaken/herstellen crunch_uml-venv in $VENV (crunch_uml==$WANT)..."
+          rm -rf "$VENV"
+          PY=""
+          for c in python3.11 python3.12 python3.13; do
+            if command -v "$c" >/dev/null 2>&1; then PY="$c"; break; fi
+          done
+          if [ -z "$PY" ]; then
+            echo "Error: geen python3.11, python3.12 of python3.13 gevonden (bv. 'brew install python@3.12')."
+            exit 1
+          fi
+          "$PY" -m venv "$VENV"
+          "$VENV/bin/python" -m pip install --quiet --upgrade pip
+          "$VENV/bin/python" -m pip install --quiet "crunch_uml==$WANT"
+          echo "crunch_uml-venv klaar ($("$VENV/bin/python" --version), crunch_uml $WANT)."
+        fi
+    shell: bash
+
   # ==========================================================================
   # Import — Model(len) inladen in Crunch UML
   # ==========================================================================
   import:model:
     desc: "Import the XMI file into Crunch UML Database."
-    deps: [prepare:check-tools, prepare:check-vars]
+    deps: [prepare:check-tools, prepare:check-vars, prepare:venv-crunch]
     cmds:
       - |
         if [ ! -f "{{.XMI}}" ]; then
@@ -122,9 +168,9 @@ tasks:
           exit 1
         fi
       - echo "Importing XMI file '{{.XMI}}' into Crunch UML..."
-      - crunch_uml import -f "{{.XMI}}" -t eaxmi -db_create
+      - '{{.CRUNCH}} import -f "{{.XMI}}" -t eaxmi -db_create'
       - echo "Copying Core GGM Model to {{.GGM_ROOT_SCHEMA}}..."
-      - crunch_uml transform -ttp copy -sch_to "{{.GGM_ROOT_SCHEMA}}" -rt_pkg "{{.ROOT_GGM}}"
+      - '{{.CRUNCH}} transform -ttp copy -sch_to "{{.GGM_ROOT_SCHEMA}}" -rt_pkg "{{.ROOT_GGM}}"'
       - echo "Crunch database successfully created and setup..."
     shell: bash
     sources:
@@ -143,9 +189,9 @@ tasks:
           exit 1
         fi
       - echo "Importing XMI file '{{.PREVIOUS_XMI}}' into Crunch UML schema {{.GGM_PREVIOUS_SCHEMA_RAW}}..."
-      - crunch_uml -sch {{.GGM_PREVIOUS_SCHEMA_RAW}} import -f "{{.PREVIOUS_XMI}}" -t eaxmi
+      - '{{.CRUNCH}} -sch {{.GGM_PREVIOUS_SCHEMA_RAW}} import -f "{{.PREVIOUS_XMI}}" -t eaxmi'
       - echo "Copying {{.GGM_PREVIOUS_SCHEMA_RAW}} GGM Model to {{.GGM_PREVIOUS_SCHEMA}}..."
-      - crunch_uml transform -ttp copy -sch_from "{{.GGM_PREVIOUS_SCHEMA_RAW}}" -sch_to "{{.GGM_PREVIOUS_SCHEMA}}" -rt_pkg "{{.ROOT_GGM}}"
+      - '{{.CRUNCH}} transform -ttp copy -sch_from "{{.GGM_PREVIOUS_SCHEMA_RAW}}" -sch_to "{{.GGM_PREVIOUS_SCHEMA}}" -rt_pkg "{{.ROOT_GGM}}"'
       - echo "Successfully added previous schema to Crunch database successfully created and setup..."
     shell: bash
     sources:
@@ -165,7 +211,7 @@ tasks:
       - echo "Generating Markdown documentation..."
       - mkdir -p "{{.DEFS}}"
       - rm -rf "{{.DEFS}}"/*.md
-      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t jinja2 --output_jinja2_template ggm_markdown.j2 -f "{{.DEFS}}/definitie.md" --output_jinja2_templatedir ./tools/
+      - '{{.CRUNCH}} -sch "{{.GGM_ROOT_SCHEMA}}" export -t jinja2 --output_jinja2_template ggm_markdown.j2 -f "{{.DEFS}}/definitie.md" --output_jinja2_templatedir ./tools/'
       - |
         # Vervang de versies in de uitwisselspecificatie-templates
         # Loop door alle .template-bestanden in de directory en submappen
@@ -208,11 +254,11 @@ tasks:
         for LANG in $LANGUAGES; do
           TRANSLATION_SCHEMA="translation_$LANG"
           echo "Processing language: $LANG..."
-          crunch_uml transform -ttp copy -sch_to $TRANSLATION_SCHEMA --root_package "{{.ROOT_GGM}}"
-          crunch_uml -sch $TRANSLATION_SCHEMA import -f "{{.i18N_FILE}}" -t i18n --language $LANG
+          {{.CRUNCH}} transform -ttp copy -sch_to $TRANSLATION_SCHEMA --root_package "{{.ROOT_GGM}}"
+          {{.CRUNCH}} -sch $TRANSLATION_SCHEMA import -f "{{.i18N_FILE}}" -t i18n --language $LANG
           TRANSLATION_FILE="{{.TRANSLATIONS_DIR}}/${FILENAME}_${LANG}.qea"
           cp -f "{{.GGM}}" "$TRANSLATION_FILE"
-          crunch_uml -sch $TRANSLATION_SCHEMA export -f "$TRANSLATION_FILE" -t earepo --tag_strategy update
+          {{.CRUNCH}} -sch $TRANSLATION_SCHEMA export -f "$TRANSLATION_FILE" -t earepo --tag_strategy update
         done
     shell: bash
     sources:
@@ -226,15 +272,28 @@ tasks:
     deps: [import:model]
     cmds:
       - echo "Generating Excel specification..."
-      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t xlsx -f "{{.EXCEL}}"
+      - '{{.CRUNCH}} -sch "{{.GGM_ROOT_SCHEMA}}" export -t xlsx -f "{{.EXCEL}}"'
     shell: bash
 
   generate:lod:
-    desc: "Generate the LOD specification from the model. Generating '{{.LOD}}'"
+    desc: "Generate the Linked Data specification (Turtle met MIM 1.2-laag) from the model. Generating '{{.LOD}}'"
     deps: [import:model]
     cmds:
       - echo "Generating Lod specification..."
-      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t ttl -f "{{.LOD}}" --linked_data_namespace {{.LINKED_DATA_NS}}
+      # Eén shell-regel (gevouwen YAML). Opties: technische packages weglaten (-xpn), Nederlandse
+      # taaltags op labels/definities/toelichtingen, de GGM-versie als owl:versionInfo/versionIRI
+      # en de MIM 1.2-metagegevens van het informatiemodel. Zie docs/handleiding/export.md van crunch_uml.
+      - >-
+        {{.CRUNCH}} -sch "{{.GGM_ROOT_SCHEMA}}" export -t ttl -f "{{.LOD}}"
+        --linked_data_namespace {{.LINKED_DATA_NS}}
+        --output_exclude_package_names "{{.LOD_EXCLUDE_PACKAGES}}"
+        --lod_language nl
+        --lod_version {{.VERSION}}
+        --lod_title "{{.LOD_TITLE}}"
+        --lod_publisher {{.LOD_PUBLISHER}}
+        --lod_license {{.LOD_LICENSE}}
+        --lod_informatiedomein "{{.LOD_INFORMATIEDOMEIN}}"
+        --lod_informatiemodeltype logisch
     shell: bash
 
   generate:mim:
@@ -242,7 +301,7 @@ tasks:
     deps: [import:model]
     cmds:
       - echo "Generating MIM version in repo "{{.MIM}}"..."
-      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t eamimrepo -f "{{.MIM}}" --tag_strategy upsert
+      - '{{.CRUNCH}} -sch "{{.GGM_ROOT_SCHEMA}}" export -t eamimrepo -f "{{.MIM}}" --tag_strategy upsert'
     shell: bash
 
   generate:diff:
@@ -250,7 +309,7 @@ tasks:
     deps: [import:model, import:previous]
     cmds:
       - echo "Generating changes between version {{.PREVIOUS_VERSION}} and {{.VERSION}} in file {{.CHANGES_MD}}..."
-      - crunch_uml -sch "{{.GGM_PREVIOUS_SCHEMA}}" export -t diff_md -f "{{.CHANGES_MD}}" --compare_schema_name "{{.GGM_ROOT_SCHEMA}}" --compare_title "Changes from {{.PREVIOUS_VERSION}} to {{.VERSION}}"
+      - '{{.CRUNCH}} -sch "{{.GGM_PREVIOUS_SCHEMA}}" export -t diff_md -f "{{.CHANGES_MD}}" --compare_schema_name "{{.GGM_ROOT_SCHEMA}}" --compare_title "Changes from {{.PREVIOUS_VERSION}} to {{.VERSION}}"'
     shell: bash
 
   generate:gemma:
@@ -259,9 +318,12 @@ tasks:
     cmds:
       - mkdir -p "{{.GEMMA_DIR}}"
       - echo "Generating CSV's for upload in GEMMA..."
-      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t csv -f "{{.GEMMA_DIR}}/{{.GEMMA_FILE_PREFIX}}" --mapper '{{.GEMMA_CLASS_MAPPER}}' --entity_name classes
-      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t csv -f "{{.GEMMA_DIR}}/{{.GEMMA_FILE_PREFIX}}" --mapper '{{.GEMMA_CLASS_MAPPER}}' --entity_name associations
-      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -t csv -f "{{.GEMMA_DIR}}/{{.GEMMA_FILE_PREFIX}}" --mapper '{{.GEMMA_CLASS_MAPPER}}' --entity_name packages
+      - >-
+        {{.CRUNCH}} -sch "{{.GGM_ROOT_SCHEMA}}" export -t csv -f "{{.GEMMA_DIR}}/{{.GEMMA_FILE_PREFIX}}" --mapper '{{.GEMMA_CLASS_MAPPER}}' --entity_name classes
+      - >-
+        {{.CRUNCH}} -sch "{{.GGM_ROOT_SCHEMA}}" export -t csv -f "{{.GEMMA_DIR}}/{{.GEMMA_FILE_PREFIX}}" --mapper '{{.GEMMA_CLASS_MAPPER}}' --entity_name associations
+      - >-
+        {{.CRUNCH}} -sch "{{.GGM_ROOT_SCHEMA}}" export -t csv -f "{{.GEMMA_DIR}}/{{.GEMMA_FILE_PREFIX}}" --mapper '{{.GEMMA_CLASS_MAPPER}}' --entity_name packages
       - echo "Generation ready."
     shell: bash
 
@@ -298,14 +360,15 @@ tasks:
     shell: bash
 
   publish:lod:
-    desc: "Rsync de LOD-TTL van {{.VERSION}} naar de dropmap op de server; lod-watch laadt 'm in Virtuoso (geen stack-redeploy)."
+    desc: "Rsync de LOD-export van {{.VERSION}} naar de dropmap van de lod-browser-stack; de loader daar herlaadt de named graph binnen ~30 s."
     deps: [prepare:check-vars]
     vars:
-      # Defaults; overschrijf desgewenst in .env. SSH_HOST is een ssh-config profiel.
+      # Defaults; overschrijf desgewenst in .env. SSH_HOST is een ssh-config-profiel (user arjen,
+      # eigen sleutel) voor de server 51.158.201.157 (lod.gemeentelijkgegevensmodel.nl).
       SSH_HOST: '{{.SSH_HOST | default "lod-ggm"}}'
       LOD_DROP: '{{.LOD_DROP | default "/home/gemeentelijkgegevensmodel-lod/ggm-lod"}}'
     prompt:
-      - "rsync de LOD-TTL van {{.VERSION}} naar '{{.SSH_HOST}}:{{.LOD_DROP}}'. lod-watch zet 'm daarna live. Doorgaan?"
+      - "rsync de LOD-TTL van {{.VERSION}} naar '{{.SSH_HOST}}:{{.LOD_DROP}}/ggm-{{.VERSION}}.ttl'. Het bestand daar wordt overschreven en de loader herlaadt de graph {{.LINKED_DATA_NS}}/ggm-{{.VERSION}} (alle IRI's van die versie gaan mee). Doorgaan?"
     cmds:
       - |
         set -euo pipefail
@@ -315,12 +378,15 @@ tasks:
         fi
         DROP="{{.LOD_DROP}}"
         DEST="${DROP%/}/ggm-{{.VERSION}}.ttl"
-        # macOS openrsync kent geen --chmod=F644; zet de bron op 644 (no-op als
-        # 'ie dat al is) en laat rsync -a die rechten meenemen naar de server.
-        chmod 644 "{{.LOD}}"
+        # De stack (github.com/AshkanA/lod-browser, docker compose achter CloudPanel) bewaakt de
+        # dropmap: elke *.ttl wordt als named graph <LINKED_DATA_NS>/<bestandsnaam zonder .ttl>
+        # geladen (CLEAR GRAPH + herladen zodra de md5 van het bestand wijzigt; poll elke 30 s).
+        # Er is geen laadscript meer op de server: het bestand neerzetten volstaat.
+        # Rechten 644: de loader-container leest als een andere gebruiker. macOS openrsync kent
+        # --chmod=F644 niet, de symbolische vorm wel; GNU rsync op de server past 'm toe.
         echo "publish:lod: rsync '{{.LOD}}' -> {{.SSH_HOST}}:$DEST"
-        rsync -az "{{.LOD}}" "{{.SSH_HOST}}:$DEST"
-        echo "publish:lod: klaar — lod-watch laadt versie {{.VERSION}} binnen ~${WATCH_INTERVAL:-20}s. Controleer met: task publish:lod-list"
+        rsync -az --chmod=Fu=rw,Fgo=r "{{.LOD}}" "{{.SSH_HOST}}:$DEST"
+        echo "publish:lod: klaar; de loader laadt ggm-{{.VERSION}} binnen ~30 s. Controleer met: task publish:lod-list"
     shell: bash
 
   publish:lod-list:
@@ -365,7 +431,7 @@ tasks:
   # ==========================================================================
   util:import-xlsx:
     desc: "Import an Excel file into Crunch UML Database and apply changes to the EA-repository."
-    deps: [prepare:check-tools, prepare:check-vars]
+    deps: [prepare:check-tools, prepare:check-vars, prepare:venv-crunch]
     cmds:
       - |
         if [ ! -f "{{.EXCEL}}" ]; then
@@ -373,12 +439,12 @@ tasks:
           exit 1
         fi
       - echo "Importing Excel file '{{.EXCEL}}' into Crunch UML..."
-      - crunch_uml import -f "{{.EXCEL}}" -t xlsx -db_create
+      - '{{.CRUNCH}} import -f "{{.EXCEL}}" -t xlsx -db_create'
       - echo "Copying Core GGM Model to {{.GGM_ROOT_SCHEMA}}..."
-      - crunch_uml transform -ttp copy -sch_to "{{.GGM_ROOT_SCHEMA}}" -rt_pkg "{{.ROOT_GGM}}"
+      - '{{.CRUNCH}} transform -ttp copy -sch_to "{{.GGM_ROOT_SCHEMA}}" -rt_pkg "{{.ROOT_GGM}}"'
       - echo "Crunch database successfully created and loaded with Excel file..."
       - echo "Loading changes into EA-repository..."
-      - crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export -f "{{.GGM}}" -t earepo --tag_strategy upsert
+      - '{{.CRUNCH}} -sch "{{.GGM_ROOT_SCHEMA}}" export -f "{{.GGM}}" -t earepo --tag_strategy upsert'
       - echo "Data successfully loaded into repository..."
     shell: bash
 
@@ -411,7 +477,7 @@ tasks:
         for LANG in $(echo "{{.LANGUAGES}}" | tr ',' ' '); do
           LANG=$(echo "$LANG" | xargs)
           echo "Translating GGM to language $LANG..."
-          crunch_uml -sch "{{.GGM_ROOT_SCHEMA}}" export \
+          {{.CRUNCH}} -sch "{{.GGM_ROOT_SCHEMA}}" export \
             -t i18n -f "{{.i18N_FILE}}" \
             --language "$LANG" --from_language "nl" \
             --translate True \
