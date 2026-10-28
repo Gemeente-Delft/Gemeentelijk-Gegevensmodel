@@ -13,3 +13,6 @@ linkchecker.log
 eurovoc_in_skos_core_concepts.rdf
 tools/.venv-crunch
 tools/termbanken/IATE_export.tbx
+
+# Lokale back-ups van de EA-repository (bv. voor scriptmatige correcties); nooit committen.
+*.qea.backup-*
