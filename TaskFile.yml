@@ -20,9 +20,11 @@
 # - To generate excel-file: `task generate:excel`
 # - To generate documentation: `task generate:docs`
 # - To publish documentation to GitHub Pages: `task publish:github`
+# - To publish the LOD sub-models (one graph per diagram) to the LOD server: `task publish:lod`
+# - To merge the LOD sub-models into one downloadable Turtle file: `task generate:lod-views-merged`
 #
 # Author: Arjen Brienen
-# Last Updated: 23 oktober 2026
+# Last Updated: 28 oktober 2026
 version: '3'
 
 dotenv: ['.env']
@@ -60,6 +62,14 @@ vars:
   LOD_INFORMATIEDOMEIN: "Gemeentelijke overheid"
   # Technische EA-packages die niet in de Linked Data horen (met subpackages; patronen, hoofdletterongevoelig).
   LOD_EXCLUDE_PACKAGES: "Diagram,Diagrammen intern gebruik,Tekenwijze,View*"
+  # Deelmodellen (views): één Turtle-bestand per EA-diagram in <release>/ttl, elk met als eerste
+  # regel '# graph: <LINKED_DATA_NS/pad>' (nu nog door de generator van Ashkan gemaakt). publish:lod
+  # zet ze als graphs onder <LINKED_DATA_NS>/<LOD_VIEWS_PREFIX>/<pad> op de server;
+  # generate:lod-views-merged voegt ze samen tot één bestand in dezelfde map, dat in git staat
+  # zodat het geheel te downloaden is. Overschrijfbaar op de commandline (task ... VAR=waarde).
+  LOD_VIEWS_SRC: "{{.VERSION_DIR}}/ttl"
+  LOD_VIEWS_PREFIX: "{{.VERSION}}"
+  LOD_VIEWS_MERGED: "{{.LOD_VIEWS_SRC}}/ggm-deelmodellen-{{.VERSION}}.ttl"
   DOCS: "./docs"
   DEFS: "./docs/definities"
   PUBLISH: "false"
@@ -296,6 +306,19 @@ tasks:
         --lod_informatiemodeltype logisch
     shell: bash
 
+  generate:lod-views-merged:
+    desc: "Voeg de deelmodellen uit '{{.LOD_VIEWS_SRC}}' samen tot één Turtle-bestand '{{.LOD_VIEWS_MERGED}}' (om te committen en te downloaden)."
+    deps: [prepare:check-vars, prepare:venv-crunch]
+    cmds:
+      # Zelfde controles als publish:lod (kopregel, uniek graph-pad, geldige Turtle). De uitvoer
+      # is deterministisch: ongewijzigde deelmodellen geven een byte-gelijk bestand en dus geen
+      # git-diff. publish:lod werkt het bestand ook bij.
+      - >-
+        "{{.CRUNCH_VENV}}/bin/python" tools/stage_lod_views.py "{{.LOD_VIEWS_SRC}}"
+        --namespace "{{.LINKED_DATA_NS}}" --prefix "{{.LOD_VIEWS_PREFIX}}"
+        --merged "{{.LOD_VIEWS_MERGED}}"
+    shell: bash
+
   generate:mim:
     desc: "Generate MIM Version from model to repository {{.MIM}}."
     deps: [import:model]
@@ -359,34 +382,94 @@ tasks:
       - lftp -e "set ssl:verify-certificate no; cd {{.FTP_REMOTE_DIR}}; mirror -R --delete --verbose ./{{.FTP_LOCAL_DIR}} .; bye" {{.FTP_HOST}}
     shell: bash
 
+  # --------------------------------------------------------------------------
+  # UITGESCHAKELD (28 oktober 2026): de oude publish:lod rsyncte de volledige crunch_uml-export
+  # ({{.LOD}}) als één graph <LINKED_DATA_NS>/ggm-<versie>. Vervangen door publish:lod
+  # hieronder (de deelmodellen per diagram). generate:lod maakt de volledige export nog wel.
+  # Let op: op de server blijven ggm-<versie>.ttl in de dropmap en de graph in Virtuoso staan
+  # tot ze daar worden weggehaald (bestand verwijderen + SPARQL CLEAR GRAPH via isql).
+  # --------------------------------------------------------------------------
+  # publish:lod:
+  #   desc: "Rsync de LOD-export van {{.VERSION}} naar de dropmap van de lod-browser-stack; de loader daar herlaadt de named graph binnen ~30 s."
+  #   deps: [prepare:check-vars]
+  #   vars:
+  #     # Defaults; overschrijf desgewenst in .env. SSH_HOST is een ssh-config-profiel (user arjen,
+  #     # eigen sleutel) voor de server 51.158.201.157 (lod.gemeentelijkgegevensmodel.nl).
+  #     SSH_HOST: '{{.SSH_HOST | default "lod-ggm"}}'
+  #     LOD_DROP: '{{.LOD_DROP | default "/home/gemeentelijkgegevensmodel-lod/ggm-lod"}}'
+  #   prompt:
+  #     - "rsync de LOD-TTL van {{.VERSION}} naar '{{.SSH_HOST}}:{{.LOD_DROP}}/ggm-{{.VERSION}}.ttl'. Het bestand daar wordt overschreven en de loader herlaadt de graph {{.LINKED_DATA_NS}}/ggm-{{.VERSION}} (alle IRI's van die versie gaan mee). Doorgaan?"
+  #   cmds:
+  #     - |
+  #       set -euo pipefail
+  #       if [ ! -f "{{.LOD}}" ]; then
+  #         echo "Error: LOD-bestand '{{.LOD}}' bestaat niet. Draai eerst: task generate:lod VERSION={{.VERSION}}"
+  #         exit 1
+  #       fi
+  #       DROP="{{.LOD_DROP}}"
+  #       DEST="${DROP%/}/ggm-{{.VERSION}}.ttl"
+  #       # De stack (github.com/AshkanA/lod-browser, docker compose achter CloudPanel) bewaakt de
+  #       # dropmap: elke *.ttl wordt als named graph <LINKED_DATA_NS>/<bestandsnaam zonder .ttl>
+  #       # geladen (CLEAR GRAPH + herladen zodra de md5 van het bestand wijzigt; poll elke 30 s).
+  #       # Er is geen laadscript meer op de server: het bestand neerzetten volstaat.
+  #       # Rechten 644: de loader-container leest als een andere gebruiker. macOS openrsync kent
+  #       # --chmod=F644 niet, de symbolische vorm wel; GNU rsync op de server past 'm toe.
+  #       echo "publish:lod: rsync '{{.LOD}}' -> {{.SSH_HOST}}:$DEST"
+  #       rsync -az --chmod=Fu=rw,Fgo=r "{{.LOD}}" "{{.SSH_HOST}}:$DEST"
+  #       echo "publish:lod: klaar; de loader laadt ggm-{{.VERSION}} binnen ~30 s. Controleer met: task publish:lod-list"
+  #   shell: bash
+
   publish:lod:
-    desc: "Rsync de LOD-export van {{.VERSION}} naar de dropmap van de lod-browser-stack; de loader daar herlaadt de named graph binnen ~30 s."
-    deps: [prepare:check-vars]
+    desc: "Rsync de deelmodellen (één TTL per diagram uit {{.LOD_VIEWS_SRC}}) als named graphs onder {{.LINKED_DATA_NS}}/{{.LOD_VIEWS_PREFIX}}/ naar de dropmap van de lod-browser-stack en werk '{{.LOD_VIEWS_MERGED}}' bij."
+    deps: [prepare:check-vars, prepare:venv-crunch]
     vars:
       # Defaults; overschrijf desgewenst in .env. SSH_HOST is een ssh-config-profiel (user arjen,
       # eigen sleutel) voor de server 51.158.201.157 (lod.gemeentelijkgegevensmodel.nl).
       SSH_HOST: '{{.SSH_HOST | default "lod-ggm"}}'
       LOD_DROP: '{{.LOD_DROP | default "/home/gemeentelijkgegevensmodel-lod/ggm-lod"}}'
+      # DRY_RUN=true: wel controleren en samenvoegen, rsync alleen tonen (-n --itemize-changes).
+      DRY_RUN: '{{.DRY_RUN | default "false"}}'
     prompt:
-      - "rsync de LOD-TTL van {{.VERSION}} naar '{{.SSH_HOST}}:{{.LOD_DROP}}/ggm-{{.VERSION}}.ttl'. Het bestand daar wordt overschreven en de loader herlaadt de graph {{.LINKED_DATA_NS}}/ggm-{{.VERSION}} (alle IRI's van die versie gaan mee). Doorgaan?"
+      - "rsync de deelmodellen uit '{{.LOD_VIEWS_SRC}}' naar '{{.SSH_HOST}}:{{.LOD_DROP}}/{{.LOD_VIEWS_PREFIX}}/' (met --delete binnen die map; de rest van de dropmap blijft staan) en werk '{{.LOD_VIEWS_MERGED}}' bij. De loader laadt elk bestand als graph {{.LINKED_DATA_NS}}/{{.LOD_VIEWS_PREFIX}}/<pad> en herlaadt gewijzigde graphs binnen ~30 s. Doorgaan?"
     cmds:
       - |
         set -euo pipefail
-        if [ ! -f "{{.LOD}}" ]; then
-          echo "Error: LOD-bestand '{{.LOD}}' bestaat niet. Draai eerst: task generate:lod VERSION={{.VERSION}}"
-          exit 1
+        SRC="{{.LOD_VIEWS_SRC}}"; NS="{{.LINKED_DATA_NS}}"
+        PREFIX="{{.LOD_VIEWS_PREFIX}}"; PREFIX="${PREFIX#/}"; PREFIX="${PREFIX%/}"
+        DROP="{{.LOD_DROP}}"; DEST="${DROP%/}/${PREFIX:+$PREFIX/}"
+        STAGE="$(mktemp -d "${TMPDIR:-/tmp}/lod-views.XXXXXX")"; trap 'rm -rf "$STAGE"' EXIT
+        chmod 755 "$STAGE"  # mktemp maakt 700 en rsync -a neemt dat over als rechten van <dropmap>/<prefix>/
+        # 1. Controleren, klaarzetten en samenvoegen (tools/stage_lod_views.py, rdflib uit de
+        #    crunch-venv). De loader op de server leest de kopregel '# graph: <...>' NIET: hij
+        #    leidt de graph-URI af uit het relatieve pad in de dropmap (GRAPH_BASE + pad zonder
+        #    .ttl). De dropmap moet dus de graph-URI's volgen, niet de EA-packagestructuur van de
+        #    bronmap (3_Economie/Diagram/kvk.ttl -> v3.0.0/economie/kvk.ttl). Het script zet per
+        #    TTL het bestand op <STAGE>/<pad>.ttl, herschrijft de kopregel naar de graph die het
+        #    op de server wordt (<NS>/<prefix>/<pad>) en parset alles vooraf, zodat een kapot
+        #    bestand hier faalt en niet elke ronde opnieuw bij de loader. Daarnaast schrijft het
+        #    het samengevoegde bestand LOD_VIEWS_MERGED (zie generate:lod-views-merged); dat gaat
+        #    niet naar de server en wordt niet als deelmodel meegelezen.
+        #    Bewust een script en geen shell-lus: Task draait cmds in zijn eigen Go-shell
+        #    (mvdan/sh), waarin een while-read-lus en < <(...) blijven hangen.
+        "{{.CRUNCH_VENV}}/bin/python" tools/stage_lod_views.py "$SRC" --namespace "$NS" --prefix "$PREFIX" \
+          --stage "$STAGE" --merged "{{.LOD_VIEWS_MERGED}}"
+        # 2. Rsync van de boom naar <dropmap>/<prefix>/. --delete werkt alleen binnen die map:
+        #    verdwenen deelmodellen gaan daar weg, de rest van de dropmap blijft staan.
+        #    Een verwijderd bestand haalt de loader NIET uit Virtuoso; die graph wissen is
+        #    (nog) handwerk, zie publish:lod-list. Rechten: bestanden 644, mappen 755 (de
+        #    loader-container leest als een andere gebruiker). macOS openrsync kent --chmod=F644
+        #    niet, de symbolische vorm wel; voor mappen past openrsync --chmod NIET toe, daarom
+        #    zet het script (en de chmod hierboven) de rechten al in de staging en neemt -a ze over.
+        #    -c: vergelijken op inhoud. De staging heeft elke run nieuwe bestandsdatums; zonder -c
+        #    gaan alle bestanden opnieuw over, met -c alleen de gewijzigde (in DRY_RUN: regels die
+        #    met '<f' beginnen; '.f..t' is alleen een nieuwe datum).
+        OPTS=(-azc --delete --exclude='/*.ttl' --exclude='/*.graph' --chmod=Du=rwx,Dgo=rx,Fu=rw,Fgo=r)
+        if [ "{{.DRY_RUN}}" = "true" ]; then
+          OPTS+=(-n --itemize-changes); echo "publish:lod: DRY RUN, er wordt niets verstuurd"
         fi
-        DROP="{{.LOD_DROP}}"
-        DEST="${DROP%/}/ggm-{{.VERSION}}.ttl"
-        # De stack (github.com/AshkanA/lod-browser, docker compose achter CloudPanel) bewaakt de
-        # dropmap: elke *.ttl wordt als named graph <LINKED_DATA_NS>/<bestandsnaam zonder .ttl>
-        # geladen (CLEAR GRAPH + herladen zodra de md5 van het bestand wijzigt; poll elke 30 s).
-        # Er is geen laadscript meer op de server: het bestand neerzetten volstaat.
-        # Rechten 644: de loader-container leest als een andere gebruiker. macOS openrsync kent
-        # --chmod=F644 niet, de symbolische vorm wel; GNU rsync op de server past 'm toe.
-        echo "publish:lod: rsync '{{.LOD}}' -> {{.SSH_HOST}}:$DEST"
-        rsync -az --chmod=Fu=rw,Fgo=r "{{.LOD}}" "{{.SSH_HOST}}:$DEST"
-        echo "publish:lod: klaar; de loader laadt ggm-{{.VERSION}} binnen ~30 s. Controleer met: task publish:lod-list"
+        echo "publish:lod: rsync $STAGE/ -> {{.SSH_HOST}}:$DEST"
+        rsync "${OPTS[@]}" "$STAGE/" "{{.SSH_HOST}}:$DEST"
+        echo "publish:lod: klaar; de loader laadt gewijzigde graphs binnen ~30 s. Controleer met: task publish:lod-list"
     shell: bash
 
   publish:lod-list:
