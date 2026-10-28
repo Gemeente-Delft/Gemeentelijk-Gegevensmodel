@@ -1,0 +1,78 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/archief_aanvragen>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/aanvraag> a owl:Class ;
+    rdfs:label "Aanvraag"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "(officieel) verzoek, iets (officieel) vragen aan een bevoegde macht."@nl ;
+    dct:identifier "2F2A3590-9B34-4ec5-B0AE-B487ED241155" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/archiefstuk> a owl:Class ;
+    rdfs:label "Archiefstuk"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Bijeengebrachte informatie, ongeacht het medium, die wordt gecreëerd, ontvangen en gearchiveerd door een bureau, een instelling, een organisatie of een individu met het oog op het nakomen van wettelijke verplichtingen of het uitvoeren van zakelijke transacties.(AAT)"@nl ;
+    dct:identifier "369E453B-4C3A-48dc-9619-C36232B339D9" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/bezoeker> a owl:Class ;
+    rdfs:label "Bezoeker"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon die iemand of iets bezoekt."@nl ;
+    dct:identifier "066C9C37-0FAF-4239-8D7D-B7EBE42E4918" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/archiefstuk/beschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/archiefstuk> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E4AD5012-EBB3-4511-B676-5083EC9AF51E" ;
+    rdfs:label "beschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/aanvraag/datumtijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/aanvraag> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "C787C0B7-4079-479c-943C-61B126F89D8B" ;
+    rdfs:label "datumtijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/archiefstuk/inventarisnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/archiefstuk> ;
+    rdfs:range xsd:string ;
+    dct:identifier "53C0365D-4113-4910-91F1-49B655B411A0" ;
+    rdfs:label "inventarisnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/archiefstuk/omvang> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/archiefstuk> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6555CACF-12B4-4b3a-B689-D16FF11204CC" ;
+    rdfs:label "omvang"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/archiefstuk/openbaarheidsbeperking> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/archiefstuk> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "C1A3ED4F-E2DF-4381-8E28-E41035E4CE5B" ;
+    rdfs:label "openbaarheidsbeperking"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/archiefstuk/trefwoorden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/archiefstuk> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AB82E5B0-9E72-4b49-902E-010EC60AB00A" ;
+    rdfs:label "trefwoorden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/archiefstuk/uiterlijkevorm> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/archiefstuk> ;
+    rdfs:range xsd:string ;
+    dct:identifier "87F279D2-1031-4d09-98E7-8D0CA6C8BEAE" ;
+    rdfs:label "uiterlijkeVorm"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/bezoeker/doet> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/bezoeker> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/aanvraag> ;
+    rdfs:label "doet"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/aanvraag/voor> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/aanvraag> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/archiefstuk> ;
+    rdfs:label "voor"@nl .

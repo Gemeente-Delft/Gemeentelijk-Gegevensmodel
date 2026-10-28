@@ -1,0 +1,280 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/in_en_uitstroom_inkomensvoorziening>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/huisvestingsoort> a owl:Class ;
+    rdfs:label "Huisvestingsoort"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen."@nl ;
+    dct:identifier "8D999BE8-96AB-8418-B94F-289754CE1336" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> a owl:Class ;
+    rdfs:label "Inkomensvoorziening"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving"@nl ;
+    dct:identifier "07784236-3AA6-45e5-8253-7D088C4020B0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenblokkering> a owl:Class ;
+    rdfs:label "RedenBlokkering"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen."@nl ;
+    dct:identifier "88B0A7AB-53E6-4bc1-8D99-9BE896AB8418" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redeninstroom> a owl:Class ;
+    rdfs:label "RedenInstroom"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De reden waarom de persoon de uitkering heeft gekregen. Geeft de reden van aanvraag van uitkering weer. Nodig voor diepere analyse van stand van uitkeringen. Omdat we willen weten waarom mensen nstromen. Bv geen werk meer og geen andere uitkering, verhuizing."@nl ;
+    dct:identifier "8D999BE8-96AB-8418-99A2-CB86335AFB97" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenuitstroom> a owl:Class ;
+    rdfs:label "RedenUitstroom"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De reden waarom de uitkering aan een persoon is beeindgd. Reden toevoeging: Geeft de reden van uitstroom aan. Waarom is de uitkering beëindigd. Nodig voor diepere analyse van stand. Meet of je beleid of het lukt om mensen naar werk te laten stromen. van uitkeringen."@nl ;
+    dct:identifier "99A2CB86-335A-FB97-9C8F-47170B1699EC" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redeninstroom/cbs_code> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redeninstroom> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F01A88D7-CE98-468b-BCF8-9F56E72EEB0B" ;
+    rdfs:label "CBS-code"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenuitstroom/cbs_code> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenuitstroom> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BCF89F56-E72E-EB0B-838B-F3B444A2554F" ;
+    rdfs:label "CBS-code"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redeninstroom/cbs_omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redeninstroom> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1D668F64-59C7-4221-9890-F942293E8C37" ;
+    rdfs:label "CBS-omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenuitstroom/cbs_omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenuitstroom> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9890F942-293E-8C37-AA08-C0EE48886684" ;
+    rdfs:label "CBS-omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/administratieveeinddatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range xsd:date ;
+    dct:identifier "39BBE0BD-A3B6-4fca-8DA4-6C1F4F910813" ;
+    rdfs:label "administratieveEinddatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/administratievestartdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range xsd:date ;
+    dct:identifier "328C1293-48FD-421e-BF9B-040348B4A2C2" ;
+    rdfs:label "administratieveStartdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/bedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "043CEBFE-0427-466d-9959-F8B407FF905D" ;
+    rdfs:label "bedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/huisvestingsoort/begindatumgeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/huisvestingsoort> ;
+    rdfs:range xsd:date ;
+    dct:identifier "BEF09DE0-9FE7-99A8-AB58-29472308BC53" ;
+    rdfs:label "begindatumGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redeninstroom/begindatumgeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redeninstroom> ;
+    rdfs:range xsd:date ;
+    dct:identifier "BEF09DE0-9FE7-99A8-96F0-04C6811D16F0" ;
+    rdfs:label "begindatumGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenblokkering/begindatumgeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenblokkering> ;
+    rdfs:range xsd:date ;
+    dct:identifier "F4B7B793-AF3F-4641-BEF0-9DE09FE799A8" ;
+    rdfs:label "begindatumGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenuitstroom/begindatumgeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenuitstroom> ;
+    rdfs:range xsd:date ;
+    dct:identifier "96F004C6-811D-16F0-827B-6EDF42C793C6" ;
+    rdfs:label "begindatumGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/betalingsmomentcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5055D91C-9362-45dd-A4B7-44EFF06D0DDC" ;
+    rdfs:label "betalingsmomentcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/code> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C16A9D8A-71AF-47fd-8349-B56ADA08C63A" ;
+    rdfs:label "code"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/datumtoekenning> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range xsd:date ;
+    dct:identifier "620D3FE7-6C69-4bd2-96A0-14847C489294" ;
+    rdfs:label "datumToekenning"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/eenmalig> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "D6CDF20E-6C91-47da-BDCE-9317391B7A16" ;
+    rdfs:label "eenmalig"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/einddatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range xsd:date ;
+    dct:identifier "9990347E-56DC-43dc-A542-C23781469BDD" ;
+    rdfs:label "einddatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenblokkering/einddatumgeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenblokkering> ;
+    rdfs:range xsd:date ;
+    dct:identifier "3F2C6DC1-6672-495b-BDAA-15D5AF087A1B" ;
+    rdfs:label "einddatumGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenuitstroom/einddatumgeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenuitstroom> ;
+    rdfs:range xsd:date ;
+    dct:identifier "AE934A90-9CB6-24E5-A333-AA74BAD5B75D" ;
+    rdfs:label "einddatumGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/huisvestingsoort/einddatumgeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/huisvestingsoort> ;
+    rdfs:range xsd:date ;
+    dct:identifier "BDAA15D5-AF08-7A1B-BD91-36614720B29C" ;
+    rdfs:label "einddatumGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redeninstroom/einddatumgeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redeninstroom> ;
+    rdfs:range xsd:date ;
+    dct:identifier "BDAA15D5-AF08-7A1B-AE93-4A909CB624E5" ;
+    rdfs:label "einddatumGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/groep> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A09700B8-C564-4a1d-8522-DED5E5E853F8" ;
+    rdfs:label "groep"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/indicatieblokkering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "158A5E6D-8644-4bd1-BB26-BF23B61B3B81" ;
+    rdfs:label "indicatieBlokkering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/indicatiestudietoeslag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "D2285FBB-1393-470e-B609-88D10926CBE4" ;
+    rdfs:label "indicatieStudietoeslag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/indicatieuitkeringsplitsen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "BAA4D389-C1BB-4585-A15D-C2F11C5DF5D4" ;
+    rdfs:label "indicatieUitkeringSplitsen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/indicatieuitkeringsspecificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "569B3B74-4919-47f5-A9FC-373142D953C5" ;
+    rdfs:label "indicatieUitkeringsspecificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/ingangsdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D0479595-1C0C-436c-BBCE-EDDD2F102C0C" ;
+    rdfs:label "ingangsdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenuitstroom/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenuitstroom> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B3677FC2-6DEB-FD80-93D6-E6DAC2B72A7B" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenblokkering/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenblokkering> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CB6C6AC8-C166-42c2-AB79-E44D90D64AC4" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/huisvestingsoort/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/huisvestingsoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AB79E44D-90D6-4AC4-80C3-707F225B3043" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redeninstroom/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redeninstroom> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AB79E44D-90D6-4AC4-B367-7FC26DEBFD80" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenblokkering/redenblokkeringcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenblokkering> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1F1384A6-6683-4cbe-8E1D-BF5455E46FF9" ;
+    rdfs:label "redenBlokkeringCode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redeninstroom/redeninstroomcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redeninstroom> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8E1DBF54-55E4-6FF9-BC2C-3A90AB3037B3" ;
+    rdfs:label "redenInstroomCode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenuitstroom/redenuitstroomcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenuitstroom> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BC2C3A90-AB30-37B3-939D-9066480A532B" ;
+    rdfs:label "redenUitstroomCode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/huisvestingsoort/soorthuisvestingcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/huisvestingsoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8E1DBF54-55E4-6FF9-A233-DDF22D828917" ;
+    rdfs:label "soorthuisvestingCode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/toekenningsdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range xsd:date ;
+    dct:identifier "12511E3A-7F92-435b-A365-0A4C955992AA" ;
+    rdfs:label "toekenningsdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/versterkkingsvorm> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3015EDBE-B5A4-44c9-AA42-5F3796AE80BE" ;
+    rdfs:label "versterkkingsvorm"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/verwerkttotenmetdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range xsd:date ;
+    dct:identifier "1482188C-9F22-4cf1-B215-8163F9957A9A" ;
+    rdfs:label "verwerktTotEnMetDatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/redenblokkering> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenblokkering> ;
+    rdfs:label "redenBlokkering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/redeninstroom> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redeninstroom> ;
+    rdfs:label "redenInstroom"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/redenuitstroom> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/redenuitstroom> ;
+    rdfs:label "redenUitstroom"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening/soorthuisvesting> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/inkomensvoorziening> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/huisvestingsoort> ;
+    rdfs:label "soortHuisvesting"@nl .

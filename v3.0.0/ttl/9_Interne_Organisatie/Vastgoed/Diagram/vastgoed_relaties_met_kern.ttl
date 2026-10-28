@@ -1,0 +1,134 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoed_relaties_met_kern>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/eigenaar> a owl:Class ;
+    rdfs:label "Eigenaar"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Eigenaar is een persoon die de eigenaar is van een gebouw of stuk grond en ook alle rechten daarvan bezit."@nl ;
+    dct:identifier "5E06339C-13EE-44ca-BC40-0FC4B9DC8349" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/huurder> a owl:Class ;
+    rdfs:label "Huurder"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een partij die een zaak of een gedeelte daarvan in gebruik verstrekt heeft gekregen en zich heeft verbonden tot een tegenprestatie."@nl ;
+    dct:identifier "B75EE7EF-DC1F-47da-A95C-B9662075684D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/pachter> a owl:Class ;
+    rdfs:label "Pachter"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon die een pachtovereenkomst heeft met de eigenaar van een perceel voor het gebruik als landbouwgrond."@nl ;
+    dct:identifier "EDC8B01F-4802-4562-BC41-C2CAD76880B6" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> a owl:Class ;
+    rdfs:label "Leverancier"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie"@nl ;
+    dct:identifier "EA7FE08E-34F7-45d2-BE2E-E4E3B8333BF3" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> a owl:Class ;
+    rdfs:label "Rechtspersoon"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON"@nl ;
+    dct:identifier "9DF5AC43-3673-4b9a-BB5E-6DCA7BE28835" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/kvknummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C43F0DE4-C49D-442f-B7F6-157CF378EBE8" ;
+    rdfs:label "KVKnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adresbinnenland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0F55857A-1582-46f5-9621-0E93F8C13310" ;
+    dct:description "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."@nl ;
+    rdfs:label "adresBinnenland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adresbuitenland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F6185DF1-173C-47b0-A94A-55D055A89104" ;
+    dct:description "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."@nl ;
+    rdfs:label "adresBuitenland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adrescorrespondentie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3A5CEB3F-40E2-4890-92D1-61133EE48E9D" ;
+    dct:description "postbus of antwoordnummer"@nl ;
+    rdfs:label "adresCorrespondentie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/emailadres> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D003FAB1-3C25-4b00-9247-B6D6CA5155F9" ;
+    dct:description "Elektronisch postadres waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "emailadres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/faxnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6E61DBA6-E0F0-47bd-9BA5-1D8A04C0EAA6" ;
+    dct:description "Faxnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "faxnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5581C29C-3143-42f6-970E-CFB7282258C9" ;
+    dct:description "De unieke identificatie van het SUBJECT"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> ;
+    rdfs:range xsd:string ;
+    dct:identifier "85177091-8693-4b6d-9DDF-C431625705F6" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0BBB4DB3-7F02-4dda-82D4-38976334D948" ;
+    dct:description "De benaming van het SUBJECT"@nl ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier/nummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DC8AB48D-FBB8-437d-8FD6-799019175583" ;
+    rdfs:label "nummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/rechtsvorm> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9FB55106-DB14-4192-B325-75B7272FDE36" ;
+    dct:description "Bron: Handelsregister"@nl ;
+    rdfs:label "rechtsvorm"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/rekeningnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6BB892F7-1C6E-4aeb-8BFA-3012FEB03B78" ;
+    dct:description "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
+    rdfs:label "rekeningnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/telefoonnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6B41E997-26A2-4f32-AE3B-A46BA0E3BE20" ;
+    dct:description "Telefoonnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "telefoonnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/pachter> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/huurder> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/eigenaar> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> .

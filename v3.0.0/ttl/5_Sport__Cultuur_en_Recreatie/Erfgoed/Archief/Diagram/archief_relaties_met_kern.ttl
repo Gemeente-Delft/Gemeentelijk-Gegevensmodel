@@ -1,0 +1,425 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/archief_relaties_met_kern>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/bezoeker> a owl:Class ;
+    rdfs:label "Bezoeker"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon die iemand of iets bezoekt."@nl ;
+    dct:identifier "066C9C37-0FAF-4239-8D7D-B7EBE42E4918" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/rechthebbende> a owl:Class ;
+    rdfs:label "Rechthebbende"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een rechthebbende is iemand die rechten heeft op een goed."@nl ;
+    dct:identifier "9AE5BCE3-AD6D-4241-9651-823400E3745F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/uitgever> a owl:Class ;
+    rdfs:label "Uitgever"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Iemand die iets op de markt brengt; iemand die iets uitgeeft"@nl ;
+    dct:identifier "59CF7225-3D61-42e2-A399-7EB13450D97D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> a owl:Class ;
+    rdfs:label "Document"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
+    dct:identifier "5641C50A-C0FA-4e71-B07B-26C7B1CE94ED" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/documenttype> a owl:Class ;
+    rdfs:label "Documenttype"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Aanduiding van de aard van een DOCUMENT zoals gehanteerd door de zaakbehandelende organisatie"@nl ;
+    dct:identifier "77C7D6B6-44DE-44c0-A662-8E1A0A226EA8" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/identificatiekenmerk> a owl:Class ;
+    rdfs:label "Identificatiekenmerk"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Nodig voor archivering om verschillende typen identificatie te kunnen onderscheiden:"@nl ;
+    dct:identifier "D73AFAEC-3BF1-4309-93FE-5354EF26DA51" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> a owl:Class ;
+    rdfs:label "Rechtspersoon"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON"@nl ;
+    dct:identifier "9DF5AC43-3673-4b9a-BB5E-6DCA7BE28835" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> a owl:Class ;
+    rdfs:label "NatuurlijkPersoon"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een INGESCHREVEN PERSOON of ANDER NATUURLIJK PERSOON"@nl ;
+    dct:identifier "9F4E12E4-B228-4931-AC83-1B1F60958A89" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/indicatieafschermingpersoonsgegevens> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> ;
+    dct:identifier "62B6A074-CBC7-4f2a-9623-C83252FBBB0E" ;
+    dct:description "Indicatie Afscherming Persoonsgegevens is een indicatie om aan te geven dat de gegevens van een persoon zijn afgeschermd."@nl ;
+    rdfs:label "IndicatieAfschermingPersoonsgegevens"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/kvknummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C43F0DE4-C49D-442f-B7F6-157CF378EBE8" ;
+    rdfs:label "KVKnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/aanduidingnaamgebruik> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A4B50421-E428-4def-96B7-3639F0BA8F33" ;
+    dct:description "Een aanduiding voor de wijze van aanschrijving van de ingeschrevene."@nl ;
+    rdfs:label "aanduidingNaamgebruik"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/aanhefaanschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B491C4DA-C2E1-4b77-93A7-938116B72F22" ;
+    dct:description "De aanhef waarmee de persoon aangeschreven wil worden."@nl ;
+    rdfs:label "aanhefAanschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/academischetitel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F361C95F-53F8-4625-9D3D-030CD1EA48BA" ;
+    dct:description "De ACADEMISCHE TITELs van een NATUURLIJK PERSOON."@nl ;
+    rdfs:label "academischeTitel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/achternaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AA122FC9-8F67-4178-9D72-BF098EA63E92" ;
+    rdfs:label "achternaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/adellijketitelofpredikaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/adelijketitel> ;
+    dct:identifier "5CB3C6B2-826C-4645-AC21-6E4F8A103B29" ;
+    dct:description "Een omschrijving die aangeeft welke titel of welk predikaat behoort tot de naam (bij adellijke titel geslachtsnaam, bij predikaat voornaam)."@nl ;
+    rdfs:label "adellijkeTitelOfPredikaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adresbinnenland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0F55857A-1582-46f5-9621-0E93F8C13310" ;
+    dct:description "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."@nl ;
+    rdfs:label "adresBinnenland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adresbuitenland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F6185DF1-173C-47b0-A94A-55D055A89104" ;
+    dct:description "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."@nl ;
+    rdfs:label "adresBuitenland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adrescorrespondentie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3A5CEB3F-40E2-4890-92D1-61133EE48E9D" ;
+    dct:description "postbus of antwoordnummer"@nl ;
+    rdfs:label "adresCorrespondentie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/anummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7F6A767D-6AA4-4ada-8935-8A4A052FEF5D" ;
+    dct:description "Het administratienummer van het kind, bedoeld in de Wet BRP."@nl ;
+    rdfs:label "anummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/bijzondernederlanderschap> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "91D5A910-8573-42d9-81FF-0745067097A3" ;
+    rdfs:label "bijzonderNederlanderschap"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/burgerservicenummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D0D31A65-6ADD-4d9e-94E4-F232D261A053" ;
+    rdfs:label "burgerservicenummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/cocumentbeschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1DB068B6-3EAE-4d79-B1EC-73905A5994FC" ;
+    dct:description "Een generieke beschrijving van de inhoud van het document."@nl ;
+    rdfs:label "cocumentBeschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/documenttype/datumbegingeldigheiddocumenttype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/documenttype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4B14CA84-1C6E-4419-B23B-B87F4B425C0B" ;
+    dct:description "De datum waarop het DOCUMENTTYPE is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidDocumenttype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumcreatiedocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "61F9ED59-4DA5-4099-ADAC-8D7FEFDD0F37" ;
+    dct:description "Een datum of een gebeurtenis in de levenscyclus van het document."@nl ;
+    rdfs:label "datumCreatieDocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/documenttype/datumeindegeldigheiddocumenttype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/documenttype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EDBAF1CD-6F90-4451-A74C-4E33FA12C9AC" ;
+    dct:description "De datum waarop het DOCUMENTTYPE is opgeheven."@nl ;
+    rdfs:label "datumEindeGeldigheidDocumenttype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/datumgeboorte> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E1EB6152-0130-4649-A547-DFE890DDB884" ;
+    dct:description "De datum waarop de ander natuurljjk persoon is geboren."@nl ;
+    rdfs:label "datumGeboorte"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumontvangstdocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FFEE3095-1146-4106-A1ED-70A253812FA6" ;
+    dct:description "De datum waarop het DOCUMENT ontvangen is."@nl ;
+    rdfs:label "datumOntvangstdocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/datumoverlijden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0C911D2A-0457-4a6e-9178-1089A4632DB1" ;
+    dct:description "De datum van overlijden van een ANDER NATUURLIJK PERSOON"@nl ;
+    rdfs:label "datumOverlijden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumverzendingdocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C06162CD-CFEA-4c04-BE26-76BC4DF42A16" ;
+    dct:description "De datum waarop het DOCUMENT verzonden is."@nl ;
+    rdfs:label "datumVerzendingDocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documentauteur> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "24277038-EF81-4e10-92BC-68AB8969FE4D" ;
+    dct:description "De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document."@nl ;
+    rdfs:label "documentAuteur"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/documenttype/documentcategorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/documenttype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "08AF4B30-8122-4256-B996-F3D23E7F3CE6" ;
+    dct:description "Typering van de aard van DOCUMENTen van dit DOCUMENTTYPE."@nl ;
+    rdfs:label "documentCategorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documentidentificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CB08FF35-EE64-4504-90CF-835DA32E636C" ;
+    dct:description "Een binnen een gegeven context ondubbelzinnige referentie naar het document. Bijvoorbeeld potsregistratienummer"@nl ;
+    rdfs:label "documentIdentificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documenttitel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "21E0EC21-5217-4582-A8B8-CA0EE3EFDFAD" ;
+    dct:description "De naam waaronder het document formeel bekend is."@nl ;
+    rdfs:label "documentTitel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/documenttype/documenttypeomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/documenttype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F76EB624-0E5B-48dd-A1D0-FBB1CE3B3D89" ;
+    dct:description "Omschrijving van de aard van DOCUMENTen van dit DOCUMENTTYPE."@nl ;
+    rdfs:label "documenttypeOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/documenttype/documenttypeomschrijvinggeneriek> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/documenttype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7BC04198-B6DB-4124-BE49-62F586E940F4" ;
+    dct:description "Algemeen gehanteerde omschrijving van het DOCUMENTTYPE"@nl ;
+    rdfs:label "documenttypeOmschrijvingGeneriek"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/documenttype/documenttypetrefwoord> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/documenttype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "25D6500A-29BE-4be5-8732-E75DEBA124A3" ;
+    dct:description "Trefwoord(en) waarmee DOCUMENTen van het DOCUMENTTYPE kunnen worden gekarakteriseerd."@nl ;
+    rdfs:label "documenttypeTrefwoord"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/emailadres> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D003FAB1-3C25-4b00-9247-B6D6CA5155F9" ;
+    dct:description "Elektronisch postadres waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "emailadres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/faxnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6E61DBA6-E0F0-47bd-9BA5-1D8A04C0EAA6" ;
+    dct:description "Faxnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "faxnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/geboorteland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "708A75AE-B2FD-4238-88D3-FA9DBBAED68F" ;
+    dct:description "Het LAND waar de INGESCHREVEN PERSOON is geboren."@nl ;
+    rdfs:label "geboorteland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/geboorteplaats> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E486F2A3-7B55-4ea9-8E76-E5D220B6D941" ;
+    dct:description "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de ingeschreven persoon is geboren."@nl ;
+    rdfs:label "geboorteplaats"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/geslachtsaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F29526BB-3DEC-44f4-A715-9E5F9D4B2100" ;
+    dct:description "Een aanduiding die aangeeft dat de ingeschrevene een man of een vrouw is, of dat het geslacht (nog) onbekend is."@nl ;
+    rdfs:label "geslachtsaanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/geslachtsnaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4A6908C9-7E08-4b71-A64F-266AFD891312" ;
+    dct:description "De (geslachts)naam waarvan de eventueel aanwezige voorvoegsels en adellijke titel/predikaat zijn afgesplitst."@nl ;
+    rdfs:label "geslachtsnaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/geslachtsnaamaanschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A86FDD6B-4A48-4a8a-9847-E2A3D08E96AA" ;
+    dct:description "De geslachtsnaam waarmee de persoon aangeschreven wil worden."@nl ;
+    rdfs:label "geslachtsnaamAanschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/handlichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "48FEE9C7-1102-4b53-92B3-F5E6B9EE2A26" ;
+    dct:description "Geeft aan of de rechter handlichting heeft verleend aan: - De Natuurlijk Persoon als eigenaar van een MaatschappelijkeActiviteit - De Natuurlijk Persoon als aansprakelijke"@nl ;
+    rdfs:label "handlichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5581C29C-3143-42f6-970E-CFB7282258C9" ;
+    dct:description "De unieke identificatie van het SUBJECT"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/indicatieoverleden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> ;
+    dct:identifier "36DFE2DA-EF18-4895-8568-9353F5A00D13" ;
+    dct:description "Indicatie Overleden is een indicatie of de persoon al dan niet overleden is. Deze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar zijn De datum van overlijden is soms niet bekend, maar wel dat iemand overleden is."@nl ;
+    rdfs:label "indicatieOverleden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/identificatiekenmerk/kenmerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/identificatiekenmerk> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8AA0BF8D-2B0B-4ad0-BDBC-7090085B3123" ;
+    rdfs:label "kenmerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/landoverlijden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EAB0BBFA-3CE5-4266-9796-8C723D9A4E26" ;
+    dct:description "Het LAND waar de INGESCHREVEN PERSOON is overleden."@nl ;
+    rdfs:label "landOverlijden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0BBB4DB3-7F02-4dda-82D4-38976334D948" ;
+    dct:description "De benaming van het SUBJECT"@nl ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/nationaliteit> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CF70E207-96C2-4e3d-8CD9-5AC73411F894" ;
+    rdfs:label "nationaliteit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/overlijdensplaats> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "023ECDE1-3AB6-4651-BBA4-50EDED6CCFA1" ;
+    dct:description "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de persoon is overleden"@nl ;
+    rdfs:label "overlijdensplaats"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/rechtsvorm> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9FB55106-DB14-4192-B325-75B7272FDE36" ;
+    dct:description "Bron: Handelsregister"@nl ;
+    rdfs:label "rechtsvorm"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/rekeningnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6BB892F7-1C6E-4aeb-8BFA-3012FEB03B78" ;
+    dct:description "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
+    rdfs:label "rekeningnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/telefoonnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6B41E997-26A2-4f32-AE3B-A46BA0E3BE20" ;
+    dct:description "Telefoonnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "telefoonnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/vertrouwelijkaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A7A897CF-ECB5-45c1-A0CD-698E1D66F2CF" ;
+    dct:description "Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is."@nl ;
+    rdfs:label "vertrouwelijkAanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/voorlettersaanschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A382AFC3-D788-4fe3-B113-B30741AD4C64" ;
+    dct:description "De voorletters waarmee een persoon aangeschreven wil worden."@nl ;
+    rdfs:label "voorlettersAanschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/voornamen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9C21549F-71E7-4ae3-8994-FAA7F0E8F0CE" ;
+    dct:description "De verzameling namen die, gescheiden door spaties, aan de geslachtsnaam voorafgaat.."@nl ;
+    rdfs:label "voornamen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/voornamenaanschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8F033F41-25A8-4aaa-B0E9-73A0D9B46BC5" ;
+    dct:description "De voornamen waarmee een persoon aangeschreven wil worden."@nl ;
+    rdfs:label "voornamenAanschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/voorvoegselgeslachtsnaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B5EA0A95-1308-40a1-ADC8-ADFB148FFE87" ;
+    dct:description "Dat deel van de geslachtsnaam dat voorkomt in GBA Tabel 36, Voorvoegseltabel en, gescheiden door een spatie, vooraf gaat aan de rest van de geslachtsnaam."@nl ;
+    rdfs:label "voorvoegselGeslachtsnaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/uitgever> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/rechthebbende> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archief/bezoeker> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/is_van> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/documenttype> ;
+    rdfs:label "is van"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/heeft_kenmerk> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/identificatiekenmerk> ;
+    rdfs:label "heeft kenmerk"@nl .

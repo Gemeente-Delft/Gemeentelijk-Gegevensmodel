@@ -1,0 +1,2034 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgering>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder> a owl:Class ;
+    rdfs:label "Asielstatushouder"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De Inburgeringsplichtige die rechtmatig verblijf heeft"@nl ;
+    dct:identifier "598F7015-C6B5-4eed-80A6-139B62324678" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/brede_intake> a owl:Class ;
+    rdfs:label "Brede Intake"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De Brede Intake in het sociaal domein is een gestructureerd proces waarbij een hulpverlener samen met een inwoner diens situatie, behoeften, en problemen in kaart brengt om tot een integraal beeld te komen van wat nodig is om passende ondersteuning te bieden. Hierbij wordt niet alleen gekeken naar specifieke hulpvragen, zoals schulden of werkloosheid, maar ook naar onderliggende factoren, zoals gezondheidsproblemen, woonsituatie, en sociaal netwerk. Het doel is om vanuit een holistisch perspectief samenhangende oplossingen te vinden en de inwoner te ondersteunen bij het versterken van zelfredzaamheid en participatie."@nl ;
+    dct:identifier "8B394DCE-C3C4-4262-9460-8EF130E90D83" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examen> a owl:Class ;
+    rdfs:label "Examen"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Examen in de context van onderwijs is een formele toetsingsactiviteit waarmee de kennis, vaardigheden en competenties van een leerling of student worden beoordeeld ten opzichte van vooraf vastgestelde leerdoelen of eindtermen. Het examen kan schriftelijk, mondeling, digitaal of praktijkgericht zijn en vormt doorgaans een afsluiting van een cursus, module of opleiding. Het behalen van een examen kan leiden tot het verkrijgen van een diploma, certificaat of overgangsbewijs en is bedoeld om de voortgang en geschiktheid voor verdere studie of beroep te waarborgen."@nl ;
+    dct:identifier "DCE46ABA-613D-4204-86F4-35F517FF680F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examenonderdeel> a owl:Class ;
+    rdfs:label "Examenonderdeel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Examenonderdeel in de context van onderwijs is een specifieke, afgebakende component van een examen waarin een deelaspect van de leerdoelen of eindtermen wordt getoetst. Het kan betrekking hebben op een specifiek vak, thema of vaardigheid en kan bestaan uit verschillende toetsvormen, zoals meerkeuzevragen, essays, praktijkopdrachten of mondelinge presentaties. Het examenonderdeel draagt bij aan de totaalscore of het eindresultaat van het examen en kan afzonderlijk beoordeeld en gewaardeerd worden."@nl ;
+    dct:identifier "D41DCE2D-4AD5-45b8-9527-EC416F4A4CC7" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/gezinsmigrant_en_overige_migrant> a owl:Class ;
+    rdfs:label "Gezinsmigrant en Overige migrant"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Object Inburgeraar is gespecialiseerd in Asielstatushouder en Gezinsmigrant en Overige Migrant. Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties te leggen met objecten die alleen van toepassing zijn voor Gezinsmigrant en Overige Migrant zoals bijvoorbeeld: object Aanvraag Sociale Lening. Hetzelfde geldt ook voor object Asielstatushouder, deze heeft overigens wel kenmerken."@nl ;
+    dct:identifier "526489DC-4D57-4e6d-8338-5F7C898162F6" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeraar> a owl:Class ;
+    rdfs:label "Inburgeraar"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De gemeente gaat inburgeringsplichtige nieuwkomers begeleiden bij hun inburgering. Voor asielstatushouders doen zij dit vanaf het moment van koppeling aan een gemeente"@nl ;
+    dct:identifier "EE5472C2-193E-4432-B175-78D6DF1D357B" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringstraject> a owl:Class ;
+    rdfs:label "Inburgeringstraject"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Inburgeringstraject in de context van inburgering bij gemeenten is een persoonlijk begeleidingstraject dat nieuwkomers ondersteunt bij het leren van de Nederlandse taal, het begrijpen van de samenleving, en het ontwikkelen van vaardigheden om zelfstandig te participeren in de Nederlandse maatschappij. Het traject omvat doorgaans onderdelen zoals taallessen (NT2), kennis van de Nederlandse maatschappij (KNM), en participatieactiviteiten, zoals vrijwilligerswerk of een werkstage. Het inburgeringstraject wordt afgestemd op de behoeften, achtergrond en mogelijkheden van de nieuwkomer en heeft als doel hen te begeleiden naar maatschappelijke zelfredzaamheid en een actieve rol in de samenleving."@nl ;
+    dct:identifier "F9B2A863-63C8-4229-906A-D0891BB4F021" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> a owl:Class ;
+    rdfs:label "Leerroute"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Leerroute is het door de gemeente vastgestelde traject dat een inburgeringsplichtige volgt om te voldoen aan de inburgeringsplicht, bestaande uit taallessen, participatieactiviteiten en aanvullende modules, afgestemd op het leervermogen en het hoofddoel van de inburgeraar."@nl ;
+    dct:identifier "51285531-9529-4b2d-9EC6-B6BAEA729D9A" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/map> a owl:Class ;
+    rdfs:label "MAP"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De Module Arbeidsmarkt en Participatie (MAP) is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige wordt voorbereid op deelname aan de Nederlandse arbeidsmarkt, door middel van voorlichting, oriëntatie en arbeidsmarktgerichte activiteiten."@nl ;
+    dct:identifier "2177E7F0-0F76-41b7-B5CA-5FE182355E94" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip> a owl:Class ;
+    rdfs:label "PIP"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Het Persoonlijk Plan Inburgering en Participatie (PIP) is een individueel plan dat door de gemeente wordt vastgesteld in overleg met de inburgeringsplichtige, waarin het leerrouteadvies, het inburgeringsaanbod, het hoofddoel en de begeleidingsafspraken zijn vastgelegd, met als doel het succesvol afronden van de inburgering binnen de gestelde termijn."@nl ;
+    dct:identifier "94EB7844-F863-4330-A15A-06ED4D1401E0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pvt> a owl:Class ;
+    rdfs:label "PVT"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Het Participatieverklaringstraject (PVT) is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige kennismaakt met de basiswaarden van de Nederlandse samenleving, en deze onderschrijft door het ondertekenen van de participatieverklaring."@nl ;
+    dct:identifier "783B026E-E993-467c-85E0-E90E9E01BAA0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verblijfplaats_azc> a owl:Class ;
+    rdfs:label "Verblijfplaats AZC"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Verblijfplaats AZC is de formele verblijfslocatie van een asielgerechtigde of inburgeringsplichtige binnen een Asielzoekerscentrum (AZC), beheerd door het Centraal Orgaan opvang Asielzoekers (COA), voorafgaand aan of tijdens het inburgeringstraject."@nl ;
+    dct:identifier "40C9655E-15CF-4b46-8B59-FD8D4CBC57B5" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/vreemdeling> a owl:Class ;
+    rdfs:label "Vreemdeling"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Vreemdeling is een Natuurlijk Persoon die de Nederlandse Nationaliteit niet bezit en niet op grond van een wettelijke bepaling als Nederlander wordt behandeld."@nl ;
+    dct:identifier "3BBDD95F-6586-4591-BBD0-D04D1CF2801E" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_aandachtspunt> a owl:Class ;
+    rdfs:label "Subdoel Aandachtspunt"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Subdoel aandachtspunt is een concreet, afgebakend leer- of begeleidingsdoel dat voortvloeit uit een gesignaleerd aandachtspunt in de persoonlijke situatie van de inburgeringsplichtige, en dat bijdraagt aan het wegnemen van belemmeringen voor het volgen van de leerroute of het behalen van het PIP-doel."@nl ;
+    dct:identifier "0279048D-E742-400c-9D86-03085E5EF917" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route> a owl:Class ;
+    rdfs:label "B1-route"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De B1-route is één van de drie leerroutes in het inburgeringsstelsel, waarbij de inburgeringsplichtige zich voorbereidt op het afleggen van het inburgeringsexamen op taalniveau B1, gericht op brede participatie in de Nederlandse samenleving en toeleiding naar arbeid."@nl ;
+    dct:identifier "09D462A9-94C8-4803-A0A0-B7DB4363B45D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid> a owl:Class ;
+    rdfs:label "Taalvaardigheid"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Taalvaardigheid is het niveau van beheersing van de Nederlandse taal door de inburgeringsplichtige, gemeten op onderdelen zoals luisteren, spreken, lezen en schrijven, overeenkomstig het Europees Referentiekader voor Talen (ERK)."@nl ;
+    dct:identifier "0C74C068-BA3A-4394-AA76-16B47FEFC88C" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ict_vaardigheid> a owl:Class ;
+    rdfs:label "ICT-Vaardigheid"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "ICT-vaardigheid betreft het vermogen van de inburgeringsplichtige om digitale middelen en toepassingen zelfstandig en doelgericht te gebruiken voor communicatie, informatieverwerking en deelname aan de samenleving."@nl ;
+    dct:identifier "1095BF0E-087F-4341-8B3C-E0DD4C9AF269" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontheffing> a owl:Class ;
+    rdfs:label "Ontheffing"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Ontheffing is een formeel besluit van de gemeente of van DUO waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt vrijgesteld van onderdelen van de inburgeringsplicht, op grond van persoonlijke omstandigheden zoals medische beperkingen, psychische problematiek of aantoonbare inspanning."@nl ;
+    dct:identifier "3F5932BD-C721-402d-8154-74A1CE097825" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk> a owl:Class ;
+    rdfs:label "Werk"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Werk betreft het verrichten van betaalde arbeid door een inburgeringsplichtige, als onderdeel van of resultaat uit het inburgeringstraject, en wordt meegenomen in de beoordeling van participatie, uitstroom en leerroutegeschiktheid."@nl ;
+    dct:identifier "45BB12F8-C796-43aa-A4D0-FDC724601EB9" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_ontwikkelwens> a owl:Class ;
+    rdfs:label "Subdoel Ontwikkelwens"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Subdoel ontwikkelwens is een concreet, haalbaar leer- of ontwikkeldoel dat is afgeleid van een door de inburgeringsplichtige geuite ontwikkelwens, en dat richting geeft aan de invulling van het inburgeringstraject binnen het PIP."@nl ;
+    dct:identifier "564CEF80-C5BE-4d74-8BC7-B48BEFDEE655" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aanvraag_verlenging_inburgeringstermijn> a owl:Class ;
+    rdfs:label "Aanvraag verlenging Inburgeringstermijn"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Aanvraag verlenging inburgeringstermijn is een verzoek van een inburgeringsplichtige aan het college van burgemeester en wethouders tot verlenging van de inburgeringstermijn op grond van persoonlijke omstandigheden als bedoeld in artikel 7.3, tweede lid, van de Wet inburgering 2021."@nl ;
+    dct:identifier "63D30089-AD78-4c29-9D17-160FE4A242E8" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/voorbereiding_op_inburgering> a owl:Class ;
+    rdfs:label "Voorbereiding op Inburgering"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Voorbereiding op inburgering omvat de activiteiten die worden aangeboden aan asielstatushouders vóór de start van de formele inburgeringsplicht, gericht op oriëntatie op de Nederlandse samenleving, taal en het inburgeringsstelsel."@nl ;
+    dct:identifier "6AEA0314-895B-46be-B525-96F4657E7F0D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/introductiemodule> a owl:Class ;
+    rdfs:label "Introductiemodule"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De Introductiemodule is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige basisinformatie ontvangt over de Nederlandse samenleving, de inburgeringsplicht en het lokale voorzieningenaanbod, direct na de brede intake."@nl ;
+    dct:identifier "7328FC95-FA03-405d-8EC4-5C4B3D5CF042" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/training> a owl:Class ;
+    rdfs:label "Training"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Training is een gestructureerde leeractiviteit binnen het inburgeringstraject, gericht op het aanleren of versterken van specifieke vaardigheden of kennis ter ondersteuning van taalverwerving, participatie of persoonlijke ontwikkeling."@nl ;
+    dct:identifier "88DF555F-9F2F-4274-A1ED-B201EEE0E62E" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/educatie> a owl:Class ;
+    rdfs:label "Educatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Educatie betreft het formele en non-formele onderwijsaanbod dat gericht is op het vergroten van basisvaardigheden, zoals taalvaardigheid, rekenen en digitale vaardigheden, ter ondersteuning van participatie en zelfredzaamheid van (laagopgeleide) volwassenen, waaronder inburgeringsplichtigen."@nl ;
+    dct:identifier "8C5FEEDF-1AE5-44a6-8A13-53A70F06DBBC" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/diplomawaardering> a owl:Class ;
+    rdfs:label "Diplomawaardering"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Diplomawaardering is de beoordeling van een buitenlands diploma, certificaat of graad door het Informatiecentrum Diplomawaardering (IDW), met als doel het vaststellen van het Nederlandse opleidingsniveau waarmee dit diploma vergelijkbaar is."@nl ;
+    dct:identifier "950DD620-01C0-4594-875F-AE23C9154826" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verlengingsgrond> a owl:Class ;
+    rdfs:label "Verlengingsgrond"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Verlengingsgrond is een wettelijk erkende reden op basis waarvan de gemeente de inburgeringstermijn van een inburgeringsplichtige kan verlengen, zoals vastgelegd in artikel 7.3, tweede lid, van de Wet inburgering 2021."@nl ;
+    dct:identifier "951AC549-985D-4bdb-BEE0-65AD3C1ED9E2" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens> a owl:Class ;
+    rdfs:label "Ontwikkelwens"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Ontwikkelwens is een door de inburgeringsplichtige geuite persoonlijke ambitie of leerdoel die richting kan geven aan het inburgeringstraject, en wordt meegenomen bij het opstellen van het Persoonlijk Plan Inburgering en Participatie (PIP)."@nl ;
+    dct:identifier "AE33D54A-A105-4fac-B378-D5651B66F0F0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/vrijstelling> a owl:Class ;
+    rdfs:label "Vrijstelling"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Vrijstelling is een formeel besluit waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt ontheven van specifieke onderdelen van de inburgeringsplicht, omdat deze reeds op andere wijze zijn behaald of niet van toepassing zijn, zoals bedoeld in artikel 7.2 van de Wet inburgering 2021."@nl ;
+    dct:identifier "C31D4A7E-1F25-4b85-B49C-AEC45EB3DB54" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/hoofddoel> a owl:Class ;
+    rdfs:label "Hoofddoel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Het Hoofddoel is de door de gemeente vastgestelde eindbestemming van het inburgeringstraject, waarin wordt vastgelegd of de inburgeringsplichtige wordt begeleid richting werk, onderwijs of (maatschappelijke) participatie, op basis van de brede intake en het leerrouteadvies."@nl ;
+    dct:identifier "CEAAEBFB-9CB8-4c5e-98F7-11791C0A21D2" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod> a owl:Class ;
+    rdfs:label "InburgeringsAanbod"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Het Inburgeringsaanbod is het geheel van activiteiten, voorzieningen en ondersteuning dat door de gemeente wordt aangeboden aan de inburgeringsplichtige om de inburgeringsdoelen te behalen, zoals vastgelegd in het persoonlijk plan inburgering en participatie (PIP)."@nl ;
+    dct:identifier "D9FAEFEC-2B8E-48dc-A1E8-E134754E9943" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringstermijn> a owl:Class ;
+    rdfs:label "Inburgeringstermijn"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De Inburgeringstermijn is de wettelijke periode waarbinnen een inburgeringsplichtige moet voldoen aan de inburgeringsplicht, gerekend vanaf de startdatum van de verplichting zoals vastgesteld door DUO of de gemeente."@nl ;
+    dct:identifier "E07490AD-C5DE-4665-8540-92B19656A027" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht> a owl:Class ;
+    rdfs:label "Inburgeringsplicht"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Bevat de uitkomst Leerbaarheidstoets dat een groot deel van de leerroutes bepaalt. Bevat mogelijk ook de Examenresultaten (nog toe te voegen als Ja). Dit zijn DUO berichten (Opvragen en per API beschikbaar stellen aan deze Entiteit/Attributen."@nl ;
+    dct:identifier "E2C66E88-930E-460f-93F8-8CD160DCEE15" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt> a owl:Class ;
+    rdfs:label "Aandachtspunt"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Aandachtspunt is een bijzonder aspect of omstandigheid in de persoonlijke situatie van de inburgeraar, dat extra aandacht vereist bij de begeleiding of dienstverlening in het kader van inburgering."@nl ;
+    dct:identifier "F188F63C-0033-4164-9F73-413AE6943497" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/archief/gemeente> a owl:Class ;
+    rdfs:label "Gemeente"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."@nl ;
+    dct:identifier "B0D9792B-46E7-4b88-B267-C72691616733" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> a owl:Class ;
+    rdfs:label "NatuurlijkPersoon"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een INGESCHREVEN PERSOON of ANDER NATUURLIJK PERSOON"@nl ;
+    dct:identifier "9F4E12E4-B228-4931-AC83-1B1F60958A89" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_lichamelijke_gezondheid> a owl:Class ;
+    rdfs:label "Subdoel lichamelijke gezondheid"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "012213A5-85A0-4f66-BD45-E62CEBA2F418" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_passende_dagbesteding_hebben_maatschappelijk_fit_worden> a owl:Class ;
+    rdfs:label "Subdoel passende dagbesteding hebben (maatschappelijk fit worden)"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "0A4EE232-E486-4535-94EC-AC5C81286629" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_digitale_vaardigheden> a owl:Class ;
+    rdfs:label "Subdoel digitale vaardigheden"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "0AD20B37-952E-49c4-B400-16010211AD9D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_verslaving> a owl:Class ;
+    rdfs:label "Subdoel verslaving"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "1795C338-A4B1-495f-A091-51AE710B8AA6" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_werknemersvaardigheden_ontwikkelen_werkfit_worden> a owl:Class ;
+    rdfs:label "Subdoel Werknemersvaardigheden ontwikkelen (werkfit worden)"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "1EFAE495-D46C-459a-ADA6-0215066F7FC7" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens> a owl:Class ;
+    rdfs:label "Ontwikkelwens"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "2FCD9A74-460D-4042-A207-FF78590CEBE6" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_zorgtaken> a owl:Class ;
+    rdfs:label "Subdoel zorgtaken"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "32AC2751-F23B-4495-92A2-BD6A49666A26" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/participatiedeelname> a owl:Class ;
+    rdfs:label "ParticipatieDeelname"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "34632CBF-89DE-496f-9679-6EE3D724EC7F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/wordtbehandeldals> a owl:Class ;
+    rdfs:label "WordtBehandeldAls"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "39F3CA70-4E74-407b-B1AC-A70F64F1A657" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_financien> a owl:Class ;
+    rdfs:label "Subdoel Financien"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "3D53D7B8-F991-419d-9970-7CE4C137C695" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_vrijwilligerswerk_doen_maatschappelijk_fit_worden> a owl:Class ;
+    rdfs:label "Subdoel vrijwilligerswerk doen (maatschappelijk fit worden)"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "5C24829E-282B-4e61-8A99-C74033C05221" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_eenzaamheid> a owl:Class ;
+    rdfs:label "Subdoel eenzaamheid"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "66FD4C23-5CC0-4cc1-AF24-3DFA6C1F9D3A" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/opleidingsniveau> a owl:Class ;
+    rdfs:label "Opleidingsniveau"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "6828324F-D2D9-4d4b-8337-606BF522C8CC" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatievoldoendeonvoldoende> a owl:Class ;
+    rdfs:label "ClassificatieVoldoendeOnvoldoende"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "6C8100BB-7885-4267-BF88-B9BC76D10892" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_opleiding_volgen> a owl:Class ;
+    rdfs:label "Subdoel opleiding volgen"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "9DC1A38B-104E-4219-9259-F1724F729077" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_taal> a owl:Class ;
+    rdfs:label "Subdoel Taal"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "A4EA988A-3DC7-4b76-9363-7692B4A338F1" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_justitie> a owl:Class ;
+    rdfs:label "Subdoel Justitie"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "A5E09CFE-E708-40ce-BC9F-20376978B3B9" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_taalvaardigheden_opdoen> a owl:Class ;
+    rdfs:label "Subdoel taalvaardigheden opdoen"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "AB7EA982-1495-4875-9660-E9485AD3C7C6" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatiearmtotuitstekend> a owl:Class ;
+    rdfs:label "ClassificatieArmTotUitstekend"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "AC2F4B40-AD01-0B7D-B713-7CBB564649D0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/beoordelingaanvraagverlenging> a owl:Class ;
+    rdfs:label "BeoordelingAanvraagVerlenging"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "ACBF6B07-C3E2-466f-B2B4-A65657A365BE" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt> a owl:Class ;
+    rdfs:label "Aandachtspunt"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "B16DEA22-40DB-45a9-ADD9-5C1410F499B8" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_betaald_werken_met_een_opleiding> a owl:Class ;
+    rdfs:label "Subdoel betaald werken met een opleiding"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "BA9C46B9-483E-4ba5-9073-07B354392B84" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/doel> a owl:Class ;
+    rdfs:label "Doel"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "C83708A0-F5E8-4016-BC90-916160CDC918" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_woonsituatie> a owl:Class ;
+    rdfs:label "Subdoel woonsituatie"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "CD72AB31-CB45-4a79-9464-373847342C1D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_betaald_werken> a owl:Class ;
+    rdfs:label "Subdoel betaald werken"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "D33B52FA-CEC1-490f-BE5E-ECFA05F544E2" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/uitkomstleerbaarheidstoets> a owl:Class ;
+    rdfs:label "UitkomstLeerbaarheidstoets"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "D736A972-6151-47ed-86CD-FBA92F15189A" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_psychische_gezondheid> a owl:Class ;
+    rdfs:label "Subdoel psychische gezondheid"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "DB49A2E8-2201-47aa-94F6-5E3E7554D505" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_ondernemen> a owl:Class ;
+    rdfs:label "Subdoel ondernemen"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "E206FD3D-D9C6-4c07-AEA5-44BA9925FC89" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/presentietaalles> a owl:Class ;
+    rdfs:label "PresentieTaalles"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "E6674A80-A87E-4b1e-B223-707C45E091A0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_werkervaring_opdoen_werkfit_worden> a owl:Class ;
+    rdfs:label "Subdoel Werkervaring opdoen (werkfit worden)"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "F45C2D7F-F892-4b00-AA35-478EFB05129D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_betaald_werken_naar_vermogen> a owl:Class ;
+    rdfs:label "Subdoel betaald werken naar vermogen"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "FAAA0B16-6595-49ee-9A77-53A88DFBBC6D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/doelgroep> a owl:Class ;
+    rdfs:label "Doelgroep"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "2D012E2E-4BD5-4465-B7E4-3E4268E43B13" .
+
+# Enumeration: AANDACHTSPUNT
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt/digitale_vaardigheden>
+    rdfs:label "Digitale vaardigheden"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt/financien>
+    rdfs:label "Financien"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt/justitie>
+    rdfs:label "Justitie"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt/lichaamelijke_gezondheid>
+    rdfs:label "Lichaamelijke gezondheid"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt/psychische_gezondheid>
+    rdfs:label "Psychische gezondheid"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt/taal>
+    rdfs:label "Taal"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt/verslaving>
+    rdfs:label "Verslaving"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt/woonsituatie>
+    rdfs:label "Woonsituatie"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt/zorgtaken>
+    rdfs:label "Zorgtaken"@nl .
+
+# Enumeration: BEOORDELINGAANVRAAGVERLENGING
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/beoordelingaanvraagverlenging/niettoegestaan>
+    rdfs:label "NietToegestaan"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/beoordelingaanvraagverlenging/toegestaan>
+    rdfs:label "Toegestaan"@nl .
+
+# Enumeration: CLASSIFICATIEARMTOTUITSTEKEND
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatiearmtotuitstekend/arm>
+    rdfs:label "Arm"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatiearmtotuitstekend/goed>
+    rdfs:label "Goed"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatiearmtotuitstekend/middelmatig>
+    rdfs:label "Middelmatig"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatiearmtotuitstekend/uitstekend>
+    rdfs:label "Uitstekend"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatiearmtotuitstekend/voldoende>
+    rdfs:label "Voldoende"@nl .
+
+# Enumeration: CLASSIFICATIEVOLDOENDEONVOLDOENDE
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatievoldoendeonvoldoende/onvoldoende>
+    rdfs:label "Onvoldoende"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatievoldoendeonvoldoende/voldoende>
+    rdfs:label "Voldoende"@nl .
+
+# Enumeration: DOEL
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/doel/betaal_werken_naar_vermogen>
+    rdfs:label "Betaal werken naar vermogen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/doel/betaald_werken>
+    rdfs:label "Betaald Werken"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/doel/maatschappelijk_fit_worden>
+    rdfs:label "Maatschappelijk fit worden"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/doel/ondernemen>
+    rdfs:label "Ondernemen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/doel/opleiding_met_studiefinanciering>
+    rdfs:label "Opleiding met studiefinanciering"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/doel/werkfit_worden>
+    rdfs:label "Werkfit worden"@nl .
+
+# Enumeration: DOELGROEP
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/doelgroep/arbeidsmigranten_met_vestigingsintentie>
+    rdfs:label "Arbeidsmigranten met vestigingsintentie"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/doelgroep/eu_burgers>
+    rdfs:label "EU-burgers"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/doelgroep/expats_en_kennismigranten>
+    rdfs:label "Expats en kennismigranten"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/doelgroep/gezinsmigranten>
+    rdfs:label "Gezinsmigranten"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/doelgroep/internationale_studenten_blijvers>
+    rdfs:label "Internationale studenten (blijvers)"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/doelgroep/kwetsbare_nieuwkomers>
+    rdfs:label "Kwetsbare nieuwkomers"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/doelgroep/nieuwkomers>
+    rdfs:label "Nieuwkomers"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/doelgroep/oudkomers>
+    rdfs:label "Oudkomers"@nl .
+
+# Enumeration: ONTWIKKELWENS
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens/betaald_werken>
+    rdfs:label "Betaald werken"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens/betaald_werken_met_een_opleiding>
+    rdfs:label "Betaald werken met een opleiding"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens/betaald_werken_naar_vermogen>
+    rdfs:label "Betaald werken naar vermogen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens/ondernemen>
+    rdfs:label "Ondernemen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens/opleiding_volgen>
+    rdfs:label "Opleiding volgen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens/passende_dagbesteding_hebben>
+    rdfs:label "Passende dagbesteding hebben"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens/taalvaardigheden_opdoen>
+    rdfs:label "Taalvaardigheden opdoen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens/vrijwilligerswerk>
+    rdfs:label "Vrijwilligerswerk"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens/werkervaring_opdoen>
+    rdfs:label "Werkervaring opdoen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens/werknemersvaardigheden_ontwikkelen>
+    rdfs:label "Werknemersvaardigheden ontwikkelen"@nl .
+
+# Enumeration: OPLEIDINGSNIVEAU
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/opleidingsniveau/basisniveau>
+    rdfs:label "Basisniveau"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/opleidingsniveau/geen_basisopleiding>
+    rdfs:label "Geen basisopleiding"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/opleidingsniveau/hbo_niveau>
+    rdfs:label "HBO-niveau"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/opleidingsniveau/lbo_mavo_niveau>
+    rdfs:label "LBO/MAVO-niveau"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/opleidingsniveau/mbo_havo_vwo_niveau>
+    rdfs:label "MBO/HAVO/VWO-niveau"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/opleidingsniveau/niet_van_toepassing>
+    rdfs:label "Niet van toepassing"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/opleidingsniveau/wetenschappelijk_onderwijs>
+    rdfs:label "Wetenschappelijk onderwijs"@nl .
+
+# Enumeration: PARTICIPATIEDEELNAME
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/participatiedeelname/onvoldoende>
+    rdfs:label "Onvoldoende"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/participatiedeelname/voldoende>
+    rdfs:label "Voldoende"@nl .
+
+# Enumeration: PRESENTIETAALLES
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/presentietaalles/altijd_aanwezig>
+    rdfs:label "Altijd aanwezig"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/presentietaalles/nooit_aanwezig>
+    rdfs:label "Nooit aanwezig"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/presentietaalles/wel_niet_aanwezig>
+    rdfs:label "Wel/niet aanwezig"@nl .
+
+# Enumeration: SUBDOEL_BETAALD_WERKEN
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_betaald_werken/ik_ben_gestart_met_werken_en_behoud_mijn_werk_succesvol>
+    rdfs:label "ik ben gestart met werken en behoud mijn werk succesvol"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_betaald_werken/ik_heb_mijn_sollicitatievaardigheden_ontwikkeld>
+    rdfs:label "Ik heb mijn sollicitatievaardigheden ontwikkeld"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_betaald_werken/ik_heb_urenuitbreiding_gekregen>
+    rdfs:label "ik heb urenuitbreiding gekregen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_betaald_werken/ik_heb_werk_gevonden_waarmee_ik_uit_de_bijstand_ga>
+    rdfs:label "Ik heb werk gevonden waarmee ik uit de bijstand ga"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_betaald_werken/ik_weet_wat_mijn_kwaliteiten_zijn>
+    rdfs:label "ik weet wat mijn kwaliteiten zijn"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_betaald_werken/ik_weet_welk_werk_bij_mij_past>
+    rdfs:label "ik weet welk werk bij mij past"@nl .
+
+# Enumeration: SUBDOEL_BETAALD_WERKEN_MET_EEN_OPLEIDING
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_betaald_werken_met_een_opleiding/ik_ben_gestart_met_een_bbl_opleiding_werken_en_leren>
+    rdfs:label "ik ben gestart met een BBL opleiding (werken en leren)"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_betaald_werken_met_een_opleiding/ik_volg_een_opleiding_naast_mijn_parttime_betaalde_baan>
+    rdfs:label "ik volg een opleiding naast mijn parttime betaalde baan"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_betaald_werken_met_een_opleiding/ik_weet_welke_opleiding_past_bij_mijn_mogelijkheden>
+    rdfs:label "ik weet welke opleiding past bij mijn mogelijkheden"@nl .
+
+# Enumeration: SUBDOEL_BETAALD_WERKEN_NAAR_VERMOGEN
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_betaald_werken_naar_vermogen/ik_ben_gestart_met_werken_en_behoud_mijn_werk_succesvol>
+    rdfs:label "ik ben gestart met werken en behoud mijn werk succesvol"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_betaald_werken_naar_vermogen/ik_heb_urenuitbreiding_gekregen>
+    rdfs:label "ik heb urenuitbreiding gekregen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_betaald_werken_naar_vermogen/ik_heb_werk_gevonden_waarmee_ik_uit_de_bijstand_ga>
+    rdfs:label "ik heb werk gevonden waarmee ik uit de bijstand ga"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_betaald_werken_naar_vermogen/ik_weet_hoeveel_uur_ik_kan_werken>
+    rdfs:label "ik weet hoeveel uur ik kan werken"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_betaald_werken_naar_vermogen/ik_weet_wat_mijn_kwaliteiten_zijn>
+    rdfs:label "ik weet wat mijn kwaliteiten zijn"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_betaald_werken_naar_vermogen/ik_weet_welk_werk_bij_mijn_past>
+    rdfs:label "ik weet welk werk bij mijn past"@nl .
+
+# Enumeration: SUBDOEL_DIGITALE_VAARDIGHEDEN
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_digitale_vaardigheden/ik_heb_voldoende_digitale_vaardigheden_om_een_stap_te_zetten_richting_de_arbeidsmarkt>
+    rdfs:label "ik heb voldoende digitale vaardigheden om een stap te zetten richting de arbeidsmarkt"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_digitale_vaardigheden/ik_kan_omgaan_met_computer_smartphone_en_tablet_en_kan_zelfstandig_mailen_en_zoeken_op_internet>
+    rdfs:label "ik kan omgaan met computer, smartphone en tablet en kan zelfstandig mailen en zoeken op internet"@nl .
+
+# Enumeration: SUBDOEL_EENZAAMHEID
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_eenzaamheid/ik_heb_een_netwerk_waarmee_ik_sociale_contacten_heb>
+    rdfs:label "ik heb een netwerk waarmee ik sociale contacten heb"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_eenzaamheid/ik_heb_vertrouwen_in_mijzelf>
+    rdfs:label "ik heb vertrouwen in mijzelf"@nl .
+
+# Enumeration: SUBDOEL_FINANCIEN
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_financien/ik_ben_gestart_met_de_hulp_voor_mijn_schulden>
+    rdfs:label "ik ben gestart met de hulp voor mijn schulden"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_financien/ik_heb_geen_financiele_belemmeringen_om_aan_het_werk_te_gaan>
+    rdfs:label "ik heb geen financiele belemmeringen om aan het werk te gaan"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_financien/ik_heb_hulp_bij_het_regelen_van_mijn_financien>
+    rdfs:label "ik heb hulp bij het regelen van mijn financien"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_financien/ik_heb_overzicht_over_mijn_financiele_situatie_en_het_lukt_mij_om_rond_te_komen>
+    rdfs:label "ik heb overzicht over mijn financiele situatie en het lukt mij om rond te komen"@nl .
+
+# Enumeration: SUBDOEL_JUSTITIE
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_justitie/ik_heb_mijn_penitentair_programma_succesvol_afgerond>
+    rdfs:label "ik heb mijn penitentair programma succesvol afgerond"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_justitie/ik_weet_wat_mijn_mogelijkheden_zijn_met_mijn_justitiele_verleden>
+    rdfs:label "ik weet wat mijn mogelijkheden zijn met mijn justitiele verleden"@nl .
+
+# Enumeration: SUBDOEL_LICHAMELIJKE_GEZONDHEID
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_lichamelijke_gezondheid/ik_ben_onder_behandeling_voor_mijn_lichamelijke_klachten>
+    rdfs:label "ik ben onder behandeling voor mijn lichamelijke klachten"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_lichamelijke_gezondheid/ik_heb_een_beoordeling_arbeidsvermogen_aangevraagd_bij_het_uwv>
+    rdfs:label "ik heb een beoordeling arbeidsvermogen aangevraagd bij het UWV"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_lichamelijke_gezondheid/ik_heb_hulp_gevraagd_voor_mijn_lichamelijke_klachten>
+    rdfs:label "ik heb hulp gevraagd voor mijn lichamelijke klachten"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_lichamelijke_gezondheid/ik_heb_vertrouwen_in_mijzelf>
+    rdfs:label "ik heb vertrouwen in mijzelf"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_lichamelijke_gezondheid/ik_weet_wat_mijn_mogelijkheden_zijn_ondanks_mijn_lichamelijke_klachten>
+    rdfs:label "ik weet wat mijn mogelijkheden zijn ondanks mijn lichamelijke klachten"@nl .
+
+# Enumeration: SUBDOEL_ONDERNEMEN
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_ondernemen/ik_heb_een_ondernemingsplan_geschreven>
+    rdfs:label "ik heb een ondernemingsplan geschreven"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_ondernemen/ik_heb_mijn_bbz_aanvraag_ingediend>
+    rdfs:label "ik heb mijn BBZ aanvraag ingediend"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_ondernemen/ik_weet_of_ik_in_aanmerking_kom_om_te_ondernemen_vanuit_bijstand>
+    rdfs:label "ik weet of ik in aanmerking kom om te ondernemen vanuit bijstand"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_ondernemen/mijn_bbz_aanvraag_is_toegekend>
+    rdfs:label "Mijn BBZ aanvraag is toegekend"@nl .
+
+# Enumeration: SUBDOEL_OPLEIDING_VOLGEN
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_opleiding_volgen/ik_ben_gestart_met_een_opleiding>
+    rdfs:label "ik ben gestart met een opleiding"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_opleiding_volgen/ik_weet_welke_opleiding_past_bij_mijn_mogelijkheden>
+    rdfs:label "ik weet welke opleiding past bij mijn mogelijkheden"@nl .
+
+# Enumeration: SUBDOEL_PASSENDE_DAGBESTEDING_HEBBEN_MAATSCHAPPELIJK_FIT_WORDEN
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_passende_dagbesteding_hebben_maatschappelijk_fit_worden/ik_ben_gestart_met_een_passende_dagbesteding>
+    rdfs:label "ik ben gestart met een passende dagbesteding"@nl .
+
+# Enumeration: SUBDOEL_PSYCHISCHE_GEZONDHEID
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_psychische_gezondheid/ik_ben_onder_behandeling_voor_mijn_psychische_klachten>
+    rdfs:label "ik ben onder behandeling voor mijn psychische klachten"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_psychische_gezondheid/ik_heb_een_beoordeling_arbeidsvermogen_aangevraagd_bij_het_uwv>
+    rdfs:label "ik heb een beoordeling arbeidsvermogen aangevraagd bij het UWV"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_psychische_gezondheid/ik_heb_hulp_gevraagd_voor_mijn_psychische_klachten>
+    rdfs:label "ik heb hulp gevraagd voor mijn psychische klachten"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_psychische_gezondheid/ik_heb_vertrouwen_in_mijzelf>
+    rdfs:label "ik heb vertrouwen in mijzelf"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_psychische_gezondheid/ik_weet_wat_mijn_mogelijkkheden_zijn_ondanks_de_psychische_klachten>
+    rdfs:label "ik weet wat mijn mogelijkkheden zijn ondanks de psychische klachten"@nl .
+
+# Enumeration: SUBDOEL_TAAL
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_taal/ik_beheers_de_nederlandse_taal_op_het_voor_mij_hoogst_haalbare_niveau>
+    rdfs:label "ik beheers de Nederlandse taal op het voor mij hoogst haalbare niveau"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_taal/ik_beheers_de_nederlandse_taal_voldoende_om_een_volgende_stap_te_kunnen_zetten>
+    rdfs:label "ik beheers de Nederlandse taal voldoende om een volgende stap te kunnen zetten"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_taal/ik_weet_wat_mijn_nederlands_taalniveau_is>
+    rdfs:label "ik weet wat mijn Nederlands taalniveau is"@nl .
+
+# Enumeration: SUBDOEL_TAALVAARDIGHEDEN_OPDOEN
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_taalvaardigheden_opdoen/ik_beheers_de_nederlandse_taal_voldoende_om_aan_het_werk_te_gaan_of_te_ondernemen>
+    rdfs:label "ik beheers de nederlandse taal voldoende om aan het werk te gaan of te ondernemen"@nl .
+
+# Enumeration: SUBDOEL_VERSLAVING
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_verslaving/ik_ben_onder_behandeling_voor_mijn_verslavingsproblematiek>
+    rdfs:label "ik ben onder behandeling voor mijn verslavingsproblematiek"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_verslaving/ik_heb_hulp_gevraagd_voor_mijn_verslavingsproblematiek>
+    rdfs:label "ik heb hulp gevraagd voor mijn verslavingsproblematiek"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_verslaving/ik_heb_vertrouwen_in_mijzelf>
+    rdfs:label "Ik heb vertrouwen in mijzelf"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_verslaving/ik_weet_wat_mijn_mogelijkheden_zijn_ondanks_de_verslavingsproblematiek>
+    rdfs:label "ik weet wat mijn mogelijkheden zijn ondanks de verslavingsproblematiek"@nl .
+
+# Enumeration: SUBDOEL_VRIJWILLIGERSWERK_DOEN_MAATSCHAPPELIJK_FIT_WORDEN
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_vrijwilligerswerk_doen_maatschappelijk_fit_worden/ik_ben_gestart_met_vrijwilligerswerk>
+    rdfs:label "ik ben gestart met vrijwilligerswerk"@nl .
+
+# Enumeration: SUBDOEL_WERKERVARING_OPDOEN_WERKFIT_WORDEN
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_werkervaring_opdoen_werkfit_worden/ik_heb_opgebouwd_in_het_aantal_uren_wat_ik_kan_werken>
+    rdfs:label "ik heb opgebouwd in het aantal uren wat ik kan werken"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_werkervaring_opdoen_werkfit_worden/ik_heb_werkervaring_opgedaan_in_een_functie>
+    rdfs:label "ik heb werkervaring opgedaan in een functie"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_werkervaring_opdoen_werkfit_worden/ik_weet_hoeveel_uren_ik_kan_werken>
+    rdfs:label "ik weet hoeveel uren ik kan werken"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_werkervaring_opdoen_werkfit_worden/ik_weet_wat_mijn_kwaltiteiten_zijn>
+    rdfs:label "ik weet wat mijn kwaltiteiten zijn"@nl .
+
+# Enumeration: SUBDOEL_WERKNEMERSVAARDIGHEDEN_ONTWIKKELEN_WERKFIT_WORDEN
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_werknemersvaardigheden_ontwikkelen_werkfit_worden/ik_heb_een_werkritme>
+    rdfs:label "ik heb een werkritme"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_werknemersvaardigheden_ontwikkelen_werkfit_worden/ik_heb_opgebouwd_in_het_aantal_uren_wat_ik_kan_werken>
+    rdfs:label "ik heb opgebouwd in het aantal uren wat ik kan werken"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_werknemersvaardigheden_ontwikkelen_werkfit_worden/ik_weet_hoeveel_uren_ik_kan_werken>
+    rdfs:label "ik weet hoeveel uren ik kan werken"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_werknemersvaardigheden_ontwikkelen_werkfit_worden/ik_weet_wat_er_van_mijn_verwacht_wordt_als_werknemer>
+    rdfs:label "ik weet wat er van mijn verwacht wordt als werknemer"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_werknemersvaardigheden_ontwikkelen_werkfit_worden/ik_weet_wat_mijn_kwaliteiten_zijn>
+    rdfs:label "ik weet wat mijn kwaliteiten zijn"@nl .
+
+# Enumeration: SUBDOEL_WOONSITUATIE
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_woonsituatie/ik_heb_ervoor_gezorgd_dat_mijn_woonsituatie_verbeterd>
+    rdfs:label "ik heb ervoor gezorgd dat mijn woonsituatie verbeterd"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_woonsituatie/ik_heb_hulp_gevraagd_om_mijn_woonsituatie_te_verbeteren>
+    rdfs:label "ik heb hulp gevraagd om mijn woonsituatie te verbeteren"@nl .
+
+# Enumeration: SUBDOEL_ZORGTAKEN
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_zorgtaken/ik_heb_kinderopvang_voor_mijn_kinderen>
+    rdfs:label "ik heb kinderopvang voor mijn kinderen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_zorgtaken/ik_kan_mijn_zorgtaken_mantelzorg_overdragen_aan_anderen>
+    rdfs:label "ik kan mijn zorgtaken (mantelzorg) overdragen aan anderen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_zorgtaken/ik_krijg_betaald_voor_mijn_werkzaamheden_als_mantelzorger_vanuit_pgb>
+    rdfs:label "ik krijg betaald voor mijn werkzaamheden als mantelzorger (vanuit PGB)"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_zorgtaken/ik_weet_hoe_ik_mijn_zorgtaken_kan_combineren_met_een_baan_opleiding_of_andere_activiteit>
+    rdfs:label "ik weet hoe ik mijn zorgtaken kan combineren met een baan, opleiding of andere activiteit"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_zorgtaken/ik_weet_of_ik_vanuit_pgb_betaald_kan_krijgen_voor_mijn_werkzaamheden_als_mantelzorger>
+    rdfs:label "ik weet of ik (vanuit PGB) betaald kan krijgen voor mijn werkzaamheden als mantelzorger"@nl .
+
+# Enumeration: UITKOMSTLEERBAARHEIDSTOETS
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/uitkomstleerbaarheidstoets/b1_route>
+    rdfs:label "B1-route"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/uitkomstleerbaarheidstoets/onderwijsroute>
+    rdfs:label "Onderwijsroute"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/uitkomstleerbaarheidstoets/z_route>
+    rdfs:label "Z-route"@nl .
+
+# Enumeration: WORDTBEHANDELDALS
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/wordtbehandeldals/asielstatushouder>
+    rdfs:label "AsielStatushouder"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/wordtbehandeldals/gezinsmigrant>
+    rdfs:label "GezinsMigrant"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/wordtbehandeldals/overigemigrant>
+    rdfs:label "OverigeMigrant"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route/aantalgratisexamenpogingentegoed> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "BADDA31A-CDD2-4fb5-B8B7-4BE88BC4C6BF" ;
+    rdfs:label "AantalGratisExamenpogingenTegoed"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/brede_intake/aantalurenalfabetiseringsonderwijs> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/brede_intake> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "ABCED87A-63FB-4312-ACE6-BDEB0FD8EAC3" ;
+    rdfs:label "AantalUrenAlfabetiseringsOnderwijs"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verlengingsgrond/aanwezigheidaanvraagverlening> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verlengingsgrond> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "3B0452FC-9675-44d6-B497-1B8D6D9C3569" ;
+    rdfs:label "AanwezigheidAanvraagVerlening"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk/ambitie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3615EF25-4491-40b8-8168-FC6A8A61CE8F" ;
+    rdfs:label "Ambitie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examenonderdeel/behaaldescore> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examenonderdeel> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "E96CCFF8-C633-4cb4-96C0-81DBD212D465" ;
+    rdfs:label "BehaaldeScore"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aanvraag_verlenging_inburgeringstermijn/beoordelingaanvraagverlenging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aanvraag_verlenging_inburgeringstermijn> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/beoordelingaanvraagverlenging> ;
+    dct:identifier "A2AE301D-B003-4783-8B88-BC063ADB5533" ;
+    rdfs:label "BeoordelingAanvraagVerlenging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk/beroep> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/setu_job_category> ;
+    dct:identifier "D9CEC3E4-BED3-471b-BAD7-550179559D5C" ;
+    rdfs:label "Beroep"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk/beroeptot> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk> ;
+    rdfs:range xsd:date ;
+    dct:identifier "57605BB3-3964-427d-BEE2-237C7D75FFF0" ;
+    rdfs:label "BeroepTot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk/beroepvan> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk> ;
+    rdfs:range xsd:date ;
+    dct:identifier "9D1C677E-3580-4db9-B126-DAE42056AB95" ;
+    rdfs:label "BeroepVan"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht/beschikkingvoldaaninburgeringsplicht> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8F10D933-C08B-4d68-9390-E7B2C70C4639" ;
+    rdfs:label "BeschikkingVoldaanInburgeringsplicht"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontheffing/beslissingontheffing> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontheffing> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "77BA05DC-288F-4aff-9FD6-BB8428F6F757" ;
+    rdfs:label "BeslissingOntheffing"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringstermijn/boetebedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringstermijn> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "B54EA3B4-D019-460b-8972-EC1C86276D83" ;
+    rdfs:label "BoeteBedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk/cvgemaakt> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "E9B0EE6C-894B-4d83-9B93-17F5542BE6AB" ;
+    rdfs:label "CVGemaakt"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk/contactuaf> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4C8B8F1D-CCA9-4193-9FC3-3603E0165B0A" ;
+    rdfs:label "ContactUAF"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod/contractid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "75D0BC44-63E4-47a8-9513-7D5048907607" ;
+    rdfs:label "ContractId"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod/cursusinstelling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod> ;
+    rdfs:range xsd:string ;
+    dct:identifier "858430F1-2BC1-4131-BE15-B1654E6D9199" ;
+    rdfs:label "CursusInstelling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip/dagtekeninginitielepip> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip> ;
+    rdfs:range xsd:date ;
+    dct:identifier "40B1974C-CBC5-448e-93FA-3B2CC4A2D47D" ;
+    rdfs:label "DagtekeningInitielePIP"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip/dagtekeningpip> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip> ;
+    rdfs:range xsd:date ;
+    dct:identifier "9F620EDC-FD4C-4b38-8AD7-DCEFC40A35E2" ;
+    rdfs:label "DagtekeningPIP"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringstermijn/datumaanvanginburgeringstermijn> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringstermijn> ;
+    rdfs:range xsd:date ;
+    dct:identifier "525524D8-BAB6-4695-AA83-CA6017EC2512" ;
+    rdfs:label "DatumAanvangInburgeringstermijn"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod/datumaanvangtaalschakeltraject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod> ;
+    rdfs:range xsd:date ;
+    dct:identifier "ABCA2E81-1E52-4d60-9200-376ED3CF42C0" ;
+    rdfs:label "DatumAanvangTaalschakelTraject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verlengingsgrond/datumaanvangverlengingsgrond> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verlengingsgrond> ;
+    rdfs:range xsd:date ;
+    dct:identifier "549D0DDA-F6CE-4ec6-A397-A18C8099C433" ;
+    rdfs:label "DatumAanvangVerlengingsgrond"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verlengingsgrond/datumbeoordelingverlengingsgrond> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verlengingsgrond> ;
+    rdfs:range xsd:date ;
+    dct:identifier "B3F13C4F-41BF-4390-96C4-61E3326C3F8F" ;
+    rdfs:label "DatumBeoordelingVerlengingsgrond"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringstermijn/datumboete> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringstermijn> ;
+    rdfs:range xsd:date ;
+    dct:identifier "350929ED-B531-4d66-853D-4268C3769831" ;
+    rdfs:label "DatumBoete"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht/datumeind> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht> ;
+    rdfs:range xsd:date ;
+    dct:identifier "6670BAA9-E124-4fce-9D03-D5A92A4BB50E" ;
+    rdfs:label "DatumEind"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod/datumeindecursus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod> ;
+    rdfs:range xsd:date ;
+    dct:identifier "17BE54FD-4E80-4b9e-AE87-6F1A688EB3F8" ;
+    rdfs:label "DatumEindeCursus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringstermijn/datumeindeinburgeringstermijn> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringstermijn> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D1F9AD3A-FE17-4c3b-B532-DD513B7767AE" ;
+    rdfs:label "DatumEindeInburgeringstermijn"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verlengingsgrond/datumeindeverlengingsgrond> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verlengingsgrond> ;
+    rdfs:range xsd:date ;
+    dct:identifier "1D739A35-4C5A-43d7-B374-C75E7B81959F" ;
+    rdfs:label "DatumEindeVerlengingsgrond"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/map/datumeindgesprekmap> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/map> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "48066A01-0599-4757-B34D-8AB23E78E869" ;
+    rdfs:label "DatumEindgesprekMAP"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht/datumgewijzigdinburgeringsplicht> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht> ;
+    rdfs:range xsd:date ;
+    dct:identifier "588A2D8E-DCCA-4177-BC04-31C48AA3A901" ;
+    rdfs:label "DatumGewijzigdInburgeringsplicht"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht/datumgewijzigdwordtbehandeldals> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D22A512F-ED05-46dd-A652-90672BCD1201" ;
+    rdfs:label "DatumGewijzigdWordtBehandeldAls"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod/datuminburgeringsaanbod> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod> ;
+    rdfs:range xsd:date ;
+    dct:identifier "4AE4E032-CAD6-4e9c-A5FE-063E76601BAC" ;
+    rdfs:label "DatumInburgeringsAanbod"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/voorbereiding_op_inburgering/datuminstemming> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/voorbereiding_op_inburgering> ;
+    rdfs:range xsd:date ;
+    dct:identifier "DCB6616B-5D36-49bd-8102-D745A3761778" ;
+    rdfs:label "DatumInstemming"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pvt/datumondertekening_pvt> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pvt> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D9D53554-D77E-494c-85A5-B558E42ADAAA" ;
+    rdfs:label "DatumOndertekening PVT"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontheffing/datumontheffing> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontheffing> ;
+    rdfs:range xsd:date ;
+    dct:identifier "5B080A45-9FE3-4a91-AF81-DB16EEAADF3A" ;
+    rdfs:label "DatumOntheffing"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examenonderdeel/datumregistratieuitslag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examenonderdeel> ;
+    rdfs:range xsd:date ;
+    dct:identifier "F7231AD7-B555-465f-882B-5D1765D8DBA3" ;
+    rdfs:label "DatumRegistratieUitslag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht/datumstart> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht> ;
+    rdfs:range xsd:date ;
+    dct:identifier "6785DDAD-3782-474e-9BC5-C362F9AA2E76" ;
+    rdfs:label "DatumStart"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod/datumtaalschakeldiploma> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod> ;
+    rdfs:range xsd:date ;
+    dct:identifier "C89C875D-D26A-4e3f-BB19-317D35610259" ;
+    rdfs:label "DatumTaalschakelDiploma"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/brede_intake/datumtot_peildatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/brede_intake> ;
+    rdfs:range xsd:date ;
+    dct:identifier "18C2DE86-3E9E-43a6-BAF8-664A5BF90C66" ;
+    rdfs:label "DatumTot(Peildatum)"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/vrijstelling/datumvrijstelling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/vrijstelling> ;
+    rdfs:range xsd:date ;
+    dct:identifier "84158990-7A09-4058-95DE-68CB817DCD3E" ;
+    rdfs:label "DatumVrijstelling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/introductiemodule/deelnameintroductiemodule> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/introductiemodule> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "F52011DD-6BF5-4468-9C7F-7C4A03BDF29E" ;
+    rdfs:label "DeelnameIntroductieModule"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder/digid_aangevraagd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "68D39EF7-0422-44dd-801A-F2F77059C49D" ;
+    dct:description "Heeft de Asielstatushouder een DigiD aangevraagd? Mogelijke waarden: ja, nee of onbekend."@nl ;
+    rdfs:label "DigiD aangevraagd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/diplomawaardering/diplomawaarderingnederlandsniveau> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/diplomawaardering> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "8FB11E16-73D2-43b6-A5E2-DC1BF9B9DFBC" ;
+    rdfs:label "DiplomaWaarderingNederlandsNiveau"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/diplomawaardering/diplomawaarderingrichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/diplomawaardering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/opleidingsniveau> ;
+    dct:identifier "1FABD832-9487-483c-BF21-CE768BD28532" ;
+    rdfs:label "DiplomaWaarderingRichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/diplomawaardering/diplomawaarderingvoor> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/diplomawaardering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/opleidingsniveau> ;
+    dct:identifier "08A04511-FADD-4ce8-B70A-8ED3FE034302" ;
+    rdfs:label "DiplomaWaarderingVoor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/hoofddoel/doel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/hoofddoel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/doel> ;
+    dct:identifier "44685142-A816-42c5-8191-36BDBE438CA9" ;
+    rdfs:label "Doel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeraar/doelgroep> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeraar> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "93348651-3BD2-4fc8-8FBF-8105F3CD7D25" ;
+    dct:description "Een indeling (op basis van een verblijfsdoen van een Inburgeraar en het onderscheid dat de Wi2021 maakt tussen de verschillende waarden in een groep. Zie ook de objecten Asielstatushouder en Gezinsmigrant / overige migrant."@nl ;
+    rdfs:label "Doelgroep"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/educatie/educatiediploma> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/educatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/opleidingsniveau> ;
+    dct:identifier "838FC9FE-1031-43b8-9333-1897A384E6D9" ;
+    rdfs:label "EducatieDiploma"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/educatie/educatieinbezit> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/educatie> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "12F59727-013C-488b-9F2C-5508983FFE6F" ;
+    rdfs:label "EducatieInBezit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/educatie/educatieland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/educatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D45D46EB-E7BB-400a-BEF4-D632070BCE39" ;
+    rdfs:label "EducatieLand"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/educatie/educatietot> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/educatie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "BE5D140F-0F44-4262-8C4B-4A5F73275452" ;
+    rdfs:label "EducatieTot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/educatie/educatievan> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/educatie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "006FA451-8312-4abf-B3B7-46FAE6758F5E" ;
+    rdfs:label "EducatieVan"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_ontwikkelwens/einddatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_ontwikkelwens> ;
+    rdfs:range xsd:date ;
+    dct:identifier "4FD12E0D-413E-45e4-B17C-F51EA2D7BA7E" ;
+    rdfs:label "EindDatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt/einddatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt> ;
+    rdfs:range xsd:date ;
+    dct:identifier "B5679335-0D40-44f4-989F-D30432EE741A" ;
+    rdfs:label "EindDatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/hoofddoel/einddatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/hoofddoel> ;
+    rdfs:range xsd:date ;
+    dct:identifier "2279DB96-88D9-4c83-BCEB-456B2607DEB5" ;
+    rdfs:label "EindDatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens/einddatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens> ;
+    rdfs:range xsd:date ;
+    dct:identifier "90EC984D-BE16-4c58-B0B8-4C40B5406CBC" ;
+    rdfs:label "EindDatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_aandachtspunt/einddatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_aandachtspunt> ;
+    rdfs:range xsd:date ;
+    dct:identifier "EE1E1EB6-320C-44b2-8D31-486D25B272AF" ;
+    rdfs:label "Einddatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid/eindevantaallesactviteit> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid> ;
+    rdfs:range xsd:date ;
+    dct:identifier "F2463EF4-6576-4bbb-9623-D6C523F78732" ;
+    rdfs:label "EindeVanTaallesActviteit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/vrijstelling/eindoordeelvrijstelling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/vrijstelling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0648F34A-E6AF-48e6-9B80-7E8DCB556B00" ;
+    rdfs:label "EindoordeelVrijstelling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip/emailcontactpersoon> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3DEA6F23-647A-4412-AC2A-019CB56944E3" ;
+    rdfs:label "EmailContactPersoon"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder/emailadres_verblijf_azc> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder> ;
+    rdfs:range xsd:string ;
+    dct:identifier "87348FFE-9B4A-4ae6-B944-15EB8129C5E7" ;
+    dct:description "Het emailadres van Asielstatushouder tijdens verblijf in het AZC. Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder het AZC verlaat."@nl ;
+    rdfs:label "Emailadres verblijf AZC"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute/examena2> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "58603A41-15A5-46ee-A4AC-64C74BCF6E29" ;
+    rdfs:label "ExamenA2"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route/examendatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route> ;
+    rdfs:range xsd:date ;
+    dct:identifier "73C8B043-DEC8-44cd-935C-D53BE810316C" ;
+    rdfs:label "ExamenDatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examenonderdeel/examenonderdeelspecificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examenonderdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5E64E7BC-F2CC-4326-9CE4-7CCA75D2E963" ;
+    rdfs:label "ExamenOnderdeelSpecificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examen/examenresultaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examen> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0FDE3686-4586-48f6-A04A-511AD92F95CE" ;
+    rdfs:label "ExamenResultaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeraar/gedetailleerde_doelgroep> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeraar> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/doelgroep> ;
+    dct:identifier "21ACE524-122C-4b30-85CB-7852119EE57E" ;
+    dct:description "Is een indeling (op basis van een verblijfsdoel van een Inburgeraar) in een groep."@nl ;
+    rdfs:label "Gedetailleerde Doelgroep"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute/geschatteintensiteitb1route> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D5A39C32-0902-486b-9433-4ACCC99DD49D" ;
+    rdfs:label "GeschatteIntensiteitB1Route"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/brede_intake/gevolgdeurenknmentaalles> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/brede_intake> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "78416731-9724-48c4-8F98-A1251204A74C" ;
+    rdfs:label "GevolgdeUrenKNMenTaalles"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route/gevolgdeurenparticipatietaalles> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "0B4524FD-8D69-47bf-B831-A02A8E48467E" ;
+    rdfs:label "GevolgdeUrenParticipatieTaalles"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verblijfplaats_azc/huisnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verblijfplaats_azc> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2DC6485D-3836-4d69-A252-757D286D5D76" ;
+    rdfs:label "Huisnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ict_vaardigheid/ictvaardigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ict_vaardigheid> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "754FF00A-C353-438e-8AA0-877919D93F17" ;
+    rdfs:label "ICTVaardigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht/inburgeraarspecialisatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9DC0DD7C-44CF-46cc-9324-AE070E61F93C" ;
+    rdfs:label "InburgeraarSpecialisatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/indicatieafschermingpersoonsgegevens> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> ;
+    dct:identifier "62B6A074-CBC7-4f2a-9623-C83252FBBB0E" ;
+    dct:description "Indicatie Afscherming Persoonsgegevens is een indicatie om aan te geven dat de gegevens van een persoon zijn afgeschermd."@nl ;
+    rdfs:label "IndicatieAfschermingPersoonsgegevens"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod/indicatoralfabetisering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatievoldoendeonvoldoende> ;
+    dct:identifier "2320535A-DD2F-4315-9633-3B7EC6260CE6" ;
+    rdfs:label "IndicatorAlfabetisering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute/indicatoralfabetisering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatiearmtotuitstekend> ;
+    dct:identifier "DC3EBB1E-E4BA-4e74-BE09-7FDFCD468D67" ;
+    rdfs:label "IndicatorAlfabetisering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht/indicatorinburgeringsplicht> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "BD3AE99B-108E-4783-B883-DEDDA891C2FB" ;
+    rdfs:label "IndicatorInburgeringsplicht"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute/indicatormagopleidingafmaken> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "DE12E70C-5581-435a-A448-F7358DD55B11" ;
+    rdfs:label "IndicatorMagOpleidingAfmaken"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip/indicatormagopleidingafmaken> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "8C9A59E7-6FFB-4f7e-8562-8CFD279FE6EA" ;
+    rdfs:label "IndicatorMagOpleidingAfmaken"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute/indicatortoestemmingexamena2> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7D8B18EE-E406-4be2-A20A-3B692013E36F" ;
+    rdfs:label "IndicatorToestemmingExamenA2"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/map/indicatorverwijtbaar> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/map> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "7B19E8D6-55CE-4644-B88D-8D27CE61EF5B" ;
+    rdfs:label "IndicatorVerwijtbaar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/voorbereiding_op_inburgering/instemmingdeelnamevoorinburgering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/voorbereiding_op_inburgering> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "30750E49-D093-4b52-B897-E4CDAAC8C83F" ;
+    rdfs:label "InstemmingDeelnameVoorinburgering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder/is_gekoppeld_aan> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder> ;
+    rdfs:range xsd:string ;
+    dct:identifier "96CFC029-0F02-4845-B119-27597FD92C7B" ;
+    dct:description "Is de naam van de Gemeente waar de Asielstatushouder aan is gekoppeld voor huisvesting en verdere inburgering."@nl ;
+    rdfs:label "Is gekoppeld aan"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder/land_rijbewijs> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder> ;
+    rdfs:range xsd:string ;
+    dct:identifier "68C62C2F-50D4-4008-A667-9313A31B3FAD" ;
+    dct:description "Het land waar het rijbewijs is gehaald door Asielstatushouder."@nl ;
+    rdfs:label "Land Rijbewijs"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute/leerroutetype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3E056AF0-E2C3-4300-9FD3-2B45A252A656" ;
+    rdfs:label "LeerrouteType"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/introductiemodule/modulenaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/introductiemodule> ;
+    rdfs:range xsd:string ;
+    dct:identifier "644472BA-72C2-4822-955B-77CD1FC44139" ;
+    rdfs:label "ModuleNaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip/naamcontactpersoon> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EA936667-DF94-4ce0-8635-CF292269B3C7" ;
+    rdfs:label "NaamContactPersoon"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute/niveau> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:range xsd:string ;
+    dct:identifier "12E40A47-B424-4c17-8513-3852A4DC288D" ;
+    rdfs:label "Niveau"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/diplomawaardering/niveaucompetentie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/diplomawaardering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatiearmtotuitstekend> ;
+    dct:identifier "F22C406F-BFAF-43e6-90D4-FA840EA836EE" ;
+    rdfs:label "NiveauCompetentie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ict_vaardigheid/niveauictvaardigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ict_vaardigheid> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatiearmtotuitstekend> ;
+    dct:identifier "B0F7F649-4703-422f-88D8-A214795D9567" ;
+    rdfs:label "NiveauICTVaardigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examenonderdeel/ontheffing> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examenonderdeel> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "397A2B8A-9E5B-4b9f-89C2-43C4A6BEDC54" ;
+    rdfs:label "Ontheffing"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/educatie/opleiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/educatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BB555A5C-C4FB-4995-9288-49440293C836" ;
+    rdfs:label "Opleiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid/opleidingsniveaugeschat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "57D5730F-1FC9-4555-B396-2090B9B92A68" ;
+    rdfs:label "OpleidingsniveauGeschat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod/participatiedeelname> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatievoldoendeonvoldoende> ;
+    dct:identifier "3EE6CB56-7E19-4adf-83D7-A5F706DF7F3C" ;
+    rdfs:label "ParticipatieDeelname"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/training/periodetraining> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/training> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2EB3E869-4CBA-4808-9D41-E81A8CE42C60" ;
+    rdfs:label "PeriodeTraining"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verblijfplaats_azc/plaats> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verblijfplaats_azc> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7CBA6083-A430-441d-B447-659B8FF90711" ;
+    rdfs:label "Plaats"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid/presentietaalles> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DBA88FAD-BE98-4445-A53A-9BA2701A6DFF" ;
+    rdfs:label "PresentieTaalles"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/voorbereiding_op_inburgering/reden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/voorbereiding_op_inburgering> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C209014D-FA68-42b2-8C79-71D90E0F58F9" ;
+    rdfs:label "Reden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht/redengeeninburgeringsplicht> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DB9B7C23-1A35-4771-B06C-E8D29C6CCAE0" ;
+    rdfs:label "RedenGeenInburgeringsplicht"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route/redengeenresultaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C079CC85-DB34-4745-AA44-ECC9250DC277" ;
+    rdfs:label "RedenGeenResultaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/map/redennietsuccesvolvoltooid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/map> ;
+    rdfs:range xsd:string ;
+    dct:identifier "85E88BA3-581C-4882-BAB8-CB964CB03EB6" ;
+    rdfs:label "RedenNietSuccesvolVoltooid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pvt/redennietvoldaan> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pvt> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2F3479C8-2638-4f12-B835-5F4B29D8AF6D" ;
+    rdfs:label "RedenNietVoldaan"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examenonderdeel/redenvrijstelling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examenonderdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CD3A0E5D-259C-4900-9876-ACC89EA500C0" ;
+    rdfs:label "RedenVrijstelling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route/resultaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "1D4978F6-968D-4ec1-86FD-ACC605C9F6D6" ;
+    rdfs:label "Resultaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/map/resultaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/map> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "FD315A5E-3114-4198-A0D0-27959A9FA6A8" ;
+    rdfs:label "Resultaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examenonderdeel/resultaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examenonderdeel> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "ACA329D0-D0EF-46d0-B9DB-587C23CC18F7" ;
+    rdfs:label "Resultaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pvt/resultaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pvt> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "088A2208-094D-4984-A02A-A5A3F63C164C" ;
+    rdfs:label "Resultaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid/resultaattaalles> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatiearmtotuitstekend> ;
+    dct:identifier "0B13FEB6-9966-4f91-9E15-07533948BF26" ;
+    rdfs:label "ResultaatTaalles"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid/resultaattoetsspreekvaardigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "C24C5244-F5FF-4ec7-AA51-B978C7703316" ;
+    rdfs:label "ResultaatToetsSpreekvaardigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid/resultaattoetstaalleerbaarheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "1078AD31-4AE7-4cf0-B3A2-CD8BD5044D18" ;
+    rdfs:label "ResultaatToetsTaalleerbaarheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/training/resultaattraining> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/training> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatiearmtotuitstekend> ;
+    dct:identifier "35A152B9-2E2A-4a05-B80C-5EB10B430855" ;
+    rdfs:label "ResultaatTraining"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder/rijbewijs> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "DAFE7210-D45C-4e55-BC0F-A56D8E3138BA" ;
+    dct:description "Is de Asielstatushouder in het bezit van een rijbewijs? Mogelijke waarden: ja, nee of onbekend"@nl ;
+    rdfs:label "Rijbewijs"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid/score> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "E36BC027-8072-4a82-8D54-2845F5CA9DF2" ;
+    rdfs:label "Score"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/vreemdeling/sociaal_referent> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/vreemdeling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D1F2D170-1DFB-4667-995F-5E170D7D5F86" ;
+    dct:description "een"@nl ;
+    rdfs:label "Sociaal Referent"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk/soortaanstelling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/soortwerk> ;
+    dct:identifier "ABDDA2F1-B370-409d-A7EA-36FBCB793203" ;
+    rdfs:label "SoortAanstelling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_ontwikkelwens/startdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_ontwikkelwens> ;
+    rdfs:range xsd:date ;
+    dct:identifier "0B0A2D39-9546-4879-9049-3296DA782EC0" ;
+    rdfs:label "StartDatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/hoofddoel/startdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/hoofddoel> ;
+    rdfs:range xsd:date ;
+    dct:identifier "4AAB6E39-6329-48b4-9F6E-C23C8388D778" ;
+    rdfs:label "StartDatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens/startdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens> ;
+    rdfs:range xsd:date ;
+    dct:identifier "4ACFB20B-2772-4761-BFA9-C1FA8B815106" ;
+    rdfs:label "StartDatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt/startdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt> ;
+    rdfs:range xsd:date ;
+    dct:identifier "8ABB5A4C-3E83-4d1e-8F10-9209E91400F3" ;
+    rdfs:label "StartDatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid/startvantaallesactviteit> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid> ;
+    rdfs:range xsd:date ;
+    dct:identifier "7DBA8AF0-76EB-4772-9FCB-DB2F632D0149" ;
+    rdfs:label "StartVanTaallesActviteit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_aandachtspunt/startdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_aandachtspunt> ;
+    rdfs:range xsd:date ;
+    dct:identifier "A3052DF5-A3D5-45ba-9C26-13D977B42578" ;
+    rdfs:label "Startdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verblijfplaats_azc/straatnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verblijfplaats_azc> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E9811F6D-DB15-42ec-818A-D912D01408C9" ;
+    rdfs:label "Straatnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_ontwikkelwens/subdoel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_ontwikkelwens> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D18463FA-9967-4d80-B74B-7C89338C489D" ;
+    rdfs:label "Subdoel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_aandachtspunt/subdoel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_aandachtspunt> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8A36A101-A162-4832-94F6-551690CB5BEB" ;
+    rdfs:label "Subdoel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk/taak> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk> ;
+    rdfs:range xsd:string ;
+    dct:identifier "287D9806-7CE9-4340-B987-098CEFC1C968" ;
+    rdfs:label "Taak"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk/taaktot> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk> ;
+    rdfs:range xsd:date ;
+    dct:identifier "81DC1FCB-ABA6-44f0-BABC-98CE7A0E8018" ;
+    rdfs:label "TaakTot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk/taakvan> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D557EB23-F0CF-4825-A8ED-19F131917C84" ;
+    rdfs:label "TaakVan"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid/taallesactiviteit> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "1D45871D-6449-447c-AB2F-510F1315F277" ;
+    rdfs:label "TaallesActiviteit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod/taalschakeltraject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "9F59FA7A-2C64-4cf4-9856-A5CF4C522F2E" ;
+    rdfs:label "TaalschakelTraject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid/taalvaardigheidmondeling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatiearmtotuitstekend> ;
+    dct:identifier "3F9E8B67-F895-4642-AFD6-A7E12AB5F7A6" ;
+    rdfs:label "TaalvaardigheidMondeling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid/taalvaardigheidoverall> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatiearmtotuitstekend> ;
+    dct:identifier "6993A745-9351-45ff-8548-04073D62DABE" ;
+    rdfs:label "TaalvaardigheidOverall"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid/taalvaardigheidschriftelijk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatiearmtotuitstekend> ;
+    dct:identifier "00557403-1F2E-4c23-AFE8-0D598241691C" ;
+    rdfs:label "TaalvaardigheidSchriftelijk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder/telefoonnummer_verblijf_azc> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9F85C878-6766-41cb-AD23-DD968E71EE48" ;
+    dct:description "Het telefoonummer van Asielstatushouder tijdens het verblijf in het AZC. Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder het AZV verlaat."@nl ;
+    rdfs:label "Telefoonnummer verblijf AZC"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid/toetsspreekvaardigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatiearmtotuitstekend> ;
+    dct:identifier "725484B2-FA8C-44ed-90CC-2883E00A8926" ;
+    rdfs:label "ToetsSpreekvaardigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid/toetstaalleerbaarheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatiearmtotuitstekend> ;
+    dct:identifier "A6BD801F-4DD1-4eed-924C-28A44CFA66DA" ;
+    rdfs:label "ToetsTaalleerbaarheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/training/traininggevolgd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/training> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "40A35B96-E846-47f4-A95A-3AAD750DC38B" ;
+    rdfs:label "TrainingGevolgd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringstraject/uitkomstleerbaarheidstoets> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringstraject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DD513644-6813-46ea-ABAC-2E5E18A0FBE9" ;
+    rdfs:label "UItkomstLeerbaarheidstoets"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht/uitkomstleerbaarheidstoets> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/uitkomstleerbaarheidstoets> ;
+    dct:identifier "CFA6CC85-1A85-4c20-BB4F-CF1AD166914A" ;
+    dct:description "B1 Z1"@nl ;
+    rdfs:label "UitkomstLeerbaarheidstoets"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/brede_intake/urengeoorloofdverzuim> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/brede_intake> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "BF625319-EB97-488f-A346-5224C66B385F" ;
+    rdfs:label "UrenGeoorloofdVerzuim"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/brede_intake/urenongeoorloofdverzuim> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/brede_intake> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "EC855E92-D95F-44aa-9F56-4A0DC9D84C36" ;
+    rdfs:label "UrenOngeoorloofdVerzuim"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht/v_nummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "F6EB4885-4958-4fa5-80B4-20750FF336EC" ;
+    rdfs:label "V-nummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verlengingsgrond/verlenginginweken> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verlengingsgrond> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "0CDBEFFA-A666-426c-BA18-CD658DE9A8CC" ;
+    rdfs:label "VerlengingInWeken"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aanvraag_verlenging_inburgeringstermijn/verlengingsgrond> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aanvraag_verlenging_inburgeringstermijn> ;
+    rdfs:range xsd:string ;
+    dct:identifier "00805620-15F5-42f3-A80A-51FE1C3F3240" ;
+    rdfs:label "VerlengingsGrond"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verlengingsgrond/verlengingsgrondslag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verlengingsgrond> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3B28D9BD-064C-4f37-B7E9-CF372EA7BEDD" ;
+    rdfs:label "Verlengingsgrondslag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pvt/verwijtbaarnietvoldaan> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pvt> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "EE6C039D-90C9-4d9b-AE48-6062FDE9ABD9" ;
+    rdfs:label "VerwijtbaarNietVoldaan"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringstermijn/vooraankondigingboete> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringstermijn> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "165C436A-7634-49e6-8510-5309D2728AB1" ;
+    rdfs:label "VooraankondigingBoete"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk/vrijetekstbesteding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk> ;
+    rdfs:range xsd:string ;
+    dct:identifier "04750C1C-BA48-4606-A7F1-1952EFB845A8" ;
+    rdfs:label "VrijeTekstBesteding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/diplomawaardering/waarderingaangevraagd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/diplomawaardering> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "3E907618-161D-416e-BEEF-DAB91C853064" ;
+    rdfs:label "WaarderingAangevraagd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht/wordtbehandelsals> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A52EFFFE-7553-458c-A919-B2A0A2F1B2A1" ;
+    rdfs:label "WordtBehandelsAls"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt/aandachtspuntomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt> ;
+    dct:identifier "7A3EB062-E899-421e-9FCF-20F6169C31AC" ;
+    rdfs:label "aandachtspuntOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/aanduidingnaamgebruik> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A4B50421-E428-4def-96B7-3639F0BA8F33" ;
+    dct:description "Een aanduiding voor de wijze van aanschrijving van de ingeschrevene."@nl ;
+    rdfs:label "aanduidingNaamgebruik"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/aanhefaanschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B491C4DA-C2E1-4b77-93A7-938116B72F22" ;
+    dct:description "De aanhef waarmee de persoon aangeschreven wil worden."@nl ;
+    rdfs:label "aanhefAanschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/academischetitel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F361C95F-53F8-4625-9D3D-030CD1EA48BA" ;
+    dct:description "De ACADEMISCHE TITELs van een NATUURLIJK PERSOON."@nl ;
+    rdfs:label "academischeTitel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/achternaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AA122FC9-8F67-4178-9D72-BF098EA63E92" ;
+    rdfs:label "achternaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/adellijketitelofpredikaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/adelijketitel> ;
+    dct:identifier "5CB3C6B2-826C-4645-AC21-6E4F8A103B29" ;
+    dct:description "Een omschrijving die aangeeft welke titel of welk predikaat behoort tot de naam (bij adellijke titel geslachtsnaam, bij predikaat voornaam)."@nl ;
+    rdfs:label "adellijkeTitelOfPredikaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/anummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7F6A767D-6AA4-4ada-8935-8A4A052FEF5D" ;
+    dct:description "Het administratienummer van het kind, bedoeld in de Wet BRP."@nl ;
+    rdfs:label "anummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/bijzondernederlanderschap> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "91D5A910-8573-42d9-81FF-0745067097A3" ;
+    rdfs:label "bijzonderNederlanderschap"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/burgerservicenummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D0D31A65-6ADD-4d9e-94E4-F232D261A053" ;
+    rdfs:label "burgerservicenummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/archief/gemeente/datumbegingeldigheidgemeente> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/archief/gemeente> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EDAAE650-F8DC-4e8a-8EE5-6B36FC48EFEA" ;
+    dct:description "De datum waarop de gemeente is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidGemeente"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/archief/gemeente/datumeindegeldigheidgemeente> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/archief/gemeente> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EBED2048-F23D-4893-B799-046500178BBB" ;
+    dct:description "De datum waarop de gemeente is opgeheven."@nl ;
+    rdfs:label "datumEindeGeldigheidGemeente"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/datumgeboorte> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E1EB6152-0130-4649-A547-DFE890DDB884" ;
+    dct:description "De datum waarop de ander natuurljjk persoon is geboren."@nl ;
+    rdfs:label "datumGeboorte"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/datumoverlijden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0C911D2A-0457-4a6e-9178-1089A4632DB1" ;
+    dct:description "De datum van overlijden van een ANDER NATUURLIJK PERSOON"@nl ;
+    rdfs:label "datumOverlijden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/brede_intake/einddatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/brede_intake> ;
+    rdfs:range xsd:date ;
+    dct:identifier "A9C0449E-2746-4d07-8F6D-DDA348CA4B06" ;
+    rdfs:label "einddatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/geboorteland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "708A75AE-B2FD-4238-88D3-FA9DBBAED68F" ;
+    dct:description "Het LAND waar de INGESCHREVEN PERSOON is geboren."@nl ;
+    rdfs:label "geboorteland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/geboorteplaats> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E486F2A3-7B55-4ea9-8E76-E5D220B6D941" ;
+    dct:description "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de ingeschreven persoon is geboren."@nl ;
+    rdfs:label "geboorteplaats"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute/geenleerbaarheidstoetszb> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "C743FEA5-C42B-44d0-943A-2DF805D9FED3" ;
+    dct:description "Indicator die aangeeft of de leerbaarheidstoets niet is afgenomen vanwege een zintuigelijke beperking van de inburgeraar."@nl ;
+    rdfs:label "geenLeerbaarheidstoetsZB"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/archief/gemeente/gemeentegeometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/archief/gemeente> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "30DE7B8F-4A1F-4a1b-B389-2DCF34CDEC96" ;
+    dct:description "De tweedimensionale geometrische representatie van de omtrekken van het grondgebied van een gemeente."@nl ;
+    rdfs:label "gemeenteGeometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/archief/gemeente/gemeentecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/archief/gemeente> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D9C46837-81EB-486d-9460-8C9E3675ABD0" ;
+    dct:description "Een numerieke aanduiding waarmee een Nederlandse gemeente uniek wordt aangeduid"@nl ;
+    rdfs:label "gemeentecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/archief/gemeente/gemeentenaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/archief/gemeente> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D7DCFB9C-9635-4b73-9C90-8B1FE09352E2" ;
+    dct:description "De officiële door de gemeente vastgestelde gemeentenaam."@nl ;
+    rdfs:label "gemeentenaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/archief/gemeente/gemeentenaamnen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/archief/gemeente> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B4A96FC9-88EF-42d2-8180-423CE868C8F7" ;
+    dct:description "De officieel vastgestelde en waar nodig ingekorte naam van de gemeente"@nl ;
+    rdfs:label "gemeentenaamNEN"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/geslachtsaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F29526BB-3DEC-44f4-A715-9E5F9D4B2100" ;
+    dct:description "Een aanduiding die aangeeft dat de ingeschrevene een man of een vrouw is, of dat het geslacht (nog) onbekend is."@nl ;
+    rdfs:label "geslachtsaanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/geslachtsnaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4A6908C9-7E08-4b71-A64F-266AFD891312" ;
+    dct:description "De (geslachts)naam waarvan de eventueel aanwezige voorvoegsels en adellijke titel/predikaat zijn afgesplitst."@nl ;
+    rdfs:label "geslachtsnaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/geslachtsnaamaanschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A86FDD6B-4A48-4a8a-9847-E2A3D08E96AA" ;
+    dct:description "De geslachtsnaam waarmee de persoon aangeschreven wil worden."@nl ;
+    rdfs:label "geslachtsnaamAanschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/handlichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "48FEE9C7-1102-4b53-92B3-F5E6B9EE2A26" ;
+    dct:description "Geeft aan of de rechter handlichting heeft verleend aan: - De Natuurlijk Persoon als eigenaar van een MaatschappelijkeActiviteit - De Natuurlijk Persoon als aansprakelijke"@nl ;
+    rdfs:label "handlichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/archief/gemeente/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/archief/gemeente> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7CE85BD7-AEB2-4506-AC42-51406E2532C2" ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/indicatieoverleden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> ;
+    dct:identifier "36DFE2DA-EF18-4895-8568-9353F5A00D13" ;
+    dct:description "Indicatie Overleden is een indicatie of de persoon al dan niet overleden is. Deze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar zijn De datum van overlijden is soms niet bekend, maar wel dat iemand overleden is."@nl ;
+    rdfs:label "indicatieOverleden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/landoverlijden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EAB0BBFA-3CE5-4266-9796-8C723D9A4E26" ;
+    dct:description "Het LAND waar de INGESCHREVEN PERSOON is overleden."@nl ;
+    rdfs:label "landOverlijden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/nationaliteit> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CF70E207-96C2-4e3d-8CD9-5AC73411F894" ;
+    rdfs:label "nationaliteit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens/ontwikkelwensomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens> ;
+    dct:identifier "13A1B438-EEC9-47fa-9486-E63599B73316" ;
+    rdfs:label "ontwikkelwensOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/overlijdensplaats> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "023ECDE1-3AB6-4651-BBA4-50EDED6CCFA1" ;
+    dct:description "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de persoon is overleden"@nl ;
+    rdfs:label "overlijdensplaats"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/brede_intake/startdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/brede_intake> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D4D301DA-D020-4413-ABF3-A47E653978BC" ;
+    rdfs:label "startdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/vreemdeling/v_nummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/vreemdeling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9420EB4C-6F2F-475e-866A-2C4A40A0970A" ;
+    dct:description "Vreemdelingennummer, uniek, identificerend nummer dat door de Nederlandse overheid wordt uitgereikt aan een Vreemdeling na registratie in de vreemdelingenadministratie."@nl ;
+    rdfs:label "v-nummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/voorlettersaanschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A382AFC3-D788-4fe3-B113-B30741AD4C64" ;
+    dct:description "De voorletters waarmee een persoon aangeschreven wil worden."@nl ;
+    rdfs:label "voorlettersAanschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/voornamen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9C21549F-71E7-4ae3-8994-FAA7F0E8F0CE" ;
+    dct:description "De verzameling namen die, gescheiden door spaties, aan de geslachtsnaam voorafgaat.."@nl ;
+    rdfs:label "voornamen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/voornamenaanschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8F033F41-25A8-4aaa-B0E9-73A0D9B46BC5" ;
+    dct:description "De voornamen waarmee een persoon aangeschreven wil worden."@nl ;
+    rdfs:label "voornamenAanschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/voorvoegselgeslachtsnaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B5EA0A95-1308-40a1-ADC8-ADFB148FFE87" ;
+    dct:description "Dat deel van de geslachtsnaam dat voorkomt in GBA Tabel 36, Voorvoegseltabel en, gescheiden door een spatie, vooraf gaat aan de rest van de geslachtsnaam."@nl ;
+    rdfs:label "voorvoegselGeslachtsnaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/vreemdeling> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeraar> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/vreemdeling> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/gezinsmigrant_en_overige_migrant> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeraar> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examenonderdeel/> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examenonderdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examen> ;
+    rdfs:label ""@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examen/afgerond_met> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examen> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringstraject> ;
+    rdfs:label "Afgerond met"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/brede_intake/onderdeel_van> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/brede_intake> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringstraject> ;
+    rdfs:label "onderdeel van"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder/verblijft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verblijfplaats_azc> ;
+    rdfs:label "verblijft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder/is_gekoppeld_aan> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/archief/gemeente> ;
+    rdfs:label "is gekoppeld aan"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeraar> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeraar/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeraar> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringstraject/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringstraject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht> ;
+    rdfs:label "Heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeraar/heeft_een> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeraar> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht> ;
+    rdfs:label "heeft een"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringstermijn> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod/voor> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeraar> ;
+    rdfs:label "voor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip/bevat> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsaanbod> ;
+    rdfs:label "bevat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeraar/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeraar> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/hoofddoel> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht/vrijstelling> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/vrijstelling> ;
+    rdfs:label "Vrijstelling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/vrijstelling/vrijstelling_voor> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/vrijstelling> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examenonderdeel> ;
+    rdfs:label "vrijstelling voor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeraar/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeraar> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder/heeft_aangevraagd> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/diplomawaardering> ;
+    rdfs:label "heeft aangevraagd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder/heeft_gevolgd> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/educatie> ;
+    rdfs:label "heeft gevolgd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder/heeft_gevolgd> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/training> ;
+    rdfs:label "heeft gevolgd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/voorbereiding_op_inburgering/bestaat_uit> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/voorbereiding_op_inburgering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/introductiemodule> ;
+    rdfs:label "bestaat uit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder/neemt_deel> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/voorbereiding_op_inburgering> ;
+    rdfs:label "neemt deel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aanvraag_verlenging_inburgeringstermijn/> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aanvraag_verlenging_inburgeringstermijn> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/verlengingsgrond> ;
+    rdfs:label ""@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeraar/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeraar> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aanvraag_verlenging_inburgeringstermijn> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aanvraag_verlenging_inburgeringstermijn/beoordeling_aanvraag> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aanvraag_verlenging_inburgeringstermijn> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringstermijn> ;
+    rdfs:label "beoordeling Aanvraag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens/> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontwikkelwens> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_ontwikkelwens> ;
+    rdfs:label ""@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/map/onderdeel_van> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/map> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:label "Onderdeel van"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute/afgesproken_in> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip> ;
+    rdfs:label "afgesproken in"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/brede_intake/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/brede_intake> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pvt/onderdeel_van> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pvt> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:label "Onderdeel van"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder/> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/werk> ;
+    rdfs:label ""@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontheffing/ontheffing_voor> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontheffing> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/examenonderdeel> ;
+    rdfs:label "ontheffing voor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht/ontheffing> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/inburgeringsplicht> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ontheffing> ;
+    rdfs:label "Ontheffing"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder/bezit> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/ict_vaardigheid> ;
+    rdfs:label "bezit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/asielstatushouder> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/taalvaardigheid> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route/onderdeel_van> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:label "onderdeel van"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt/> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/aandachtspunt> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/subdoel_aandachtspunt> ;
+    rdfs:label ""@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/archief/gemeente/is_overgegaan_in> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/archief/gemeente> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/archief/gemeente> ;
+    rdfs:label "is overgegaan in"@nl .

@@ -1,0 +1,646 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/basismodel_ict_applicatie_en_gegevens>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie> a owl:Class ;
+    rdfs:label "Applicatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een applicatiecomponent die gericht is op het ondersteunen van eindgebruikers."@nl ;
+    dct:identifier "A8945FD7-EA20-418e-8E7F-18F13F16E338" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> a owl:Class ;
+    rdfs:label "Attribuutsoort"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Attribuutsoort – Stereotype «Attribuutsoort»: De UML-representatie van een attribuutsoort, uitgedrukt in een stereotype van UML-Property3 (metaclass). Er zijn verschillende modelelementen die gebaseerd zijn op UML-property, zoals aangegeven in §2.1.2. Wanneer een UML-property in het informatiemodel de betekenis heeft van een attribuut van een objecttype, dan heeft deze het stereotype «Attribuutsoort». Een attribuutsoort is een type van gelijksoortige attributen of gegevens. Daartoe kijken we eerst naar het begrip ‘gegeven’."@nl ;
+    dct:identifier "8D273DE5-3529-4652-BCA1-F86B28F26017" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/classificatie> a owl:Class ;
+    rdfs:label "Classificatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Ordening van informatieobjecten in een logisch verband, zoals vastgelegd in een classificatieschema."@nl ;
+    dct:identifier "81F207D0-A071-48c7-8C4C-25F8D25A3DE8" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype> a owl:Class ;
+    rdfs:label "Datatype"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Attribuutsoort – Stereotype «Attribuutsoort»: De UML-representatie van een attribuutsoort, uitgedrukt in een stereotype van UML-Property3 (metaclass). Er zijn verschillende modelelementen die gebaseerd zijn op UML-property, zoals aangegeven in §2.1.2. Wanneer een UML-property in het informatiemodel de betekenis heeft van een attribuut van een objecttype, dan heeft deze het stereotype «Attribuutsoort». Een attribuutsoort is een type van gelijksoortige attributen of gegevens. Daartoe kijken we eerst naar het begrip ‘gegeven’."@nl ;
+    dct:identifier "7EFBF1CA-EC6E-4b8a-B97F-453CA32AB9A5" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/externe_bron> a owl:Class ;
+    rdfs:label "Externe Bron"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Bron buiten de eigen organisatie"@nl ;
+    dct:identifier "144D1047-35BB-4926-9472-895D89DC2E0C" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/gegeven> a owl:Class ;
+    rdfs:label "Gegeven"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "bekend feit waaruit je gevolgtrekkingen kunt maken"@nl ;
+    dct:identifier "E846CC36-DF4A-4398-AE4C-122CAFEBAEAA" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/generalisatie> a owl:Class ;
+    rdfs:label "Generalisatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De typering van het hiërarchische verband tussen een meer generiek object van een objecttype en een meer specifiek object van een ander objecttype waarbij het laatstgenoemde object eigenschappen van het eerstgenoemde object overerft. Toelichting Een generalisatierelatie geeft aan dat bepaalde eigenschappen van een objecttype (vaak attribuutsoorten en/of relatiesoorten) ook gelden voor de gerelateerde objecttypen, én dat deze qua semantiek, structuur en syntax gelijk zijn. We spreken dan van een supertype met subtypen. De modelelementen die generiek gelden worden in een generiek objecttype, het supertype, gemodelleerd en deze worden overerft door elk subtype (minimaal twee) die de generalisatie relatie legt naar dit generieke objecttype. Voorbeeld: PERCEEL is specialisatie van KADASTRAAL ONROERENDE ZAAK, APPARTEMENTSRECHT is specialisatie van KADASTRAAL ONROERENDE ZAAK. PERCEEL en APPARTEMENTSRECHT hebben beide ‘Kadastrale aanduiding’ en een ‘relatie met ONROERENDE ZAAK FILIATIE’."@nl ;
+    dct:identifier "0CF1C34D-8AD5-4ac5-8538-87252E66A8C8" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype> a owl:Class ;
+    rdfs:label "Objecttype"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De typering van een groep objecten (in de werkelijkheid) die binnen een domein relevant zijn en als gelijksoortig worden beschouwd. Toelichting Jan, Piet en Marie zijn mensen die vanuit het Burgerzaken-domein beschouwd worden als objecten van het type ‘natuurlijk persoon’. In een ander domein, ‘de volksmond’, noemen we dit ‘mens’ wat ook een objecttype is. In weer een ander domein is Jan van het type ‘vergunninghouder’ en Piet en Marie niet, omdat aan hen (nog) nooit een vergunning verleend is. Objecttypen zijn een abstractie van de werkelijkheid oftewel we beogen hiermee de werkelijkheid zo getrouw mogelijk te beschrijven, binnen de context van het domein. Dit staat geheel los van het vastleggen van gegevens over objecten van een type in een registratie. Daartoe is veelal een interpretatie nodig (van die werkelijkheid cq. die objecttypen) naar eenheden die in een registratie vastgelegd kunnen worden (records, entiteiten e.d.) op basis van andere overwegingen."@nl ;
+    dct:identifier "A2451674-6C19-4bf9-81F9-57CDE2F60144" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort> a owl:Class ;
+    rdfs:label "Relatiesoort"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De typering van het structurele verband tussen een object van een objecttype en een (ander) object van een ander (of hetzelfde) objecttype. Toelichting Objecten hebben eigenschappen die gemodelleerd kunnen worden met attribuutsoorten maar ook met relatiesoorten naar andere objecttypen. Als het voor het desbetreffende domein van belang is om die eigenschap te modelleren als onderdeel van een ander objecttype, dan maakt de relatiesoort die eigenschap beschikbaar voor het eerstgenoemde objecttype. Bijvoorbeeld, een attribuutsoort van het objecttype PERSOON zou kunnen zijn ‘Naam geregistreerd partner’ (naast de attribuutsoort ‘Naam’ van PERSOON). De naam van de geregistreerde partner komt evenwel ook beschikbaar met een relatiesoort van PERSOON naar PERSOON: “heeft geregistreerd partnerschap met”. Zie ook het eerder genoemde voorbeeld van SCHIP en MOTOR. Voorbeeld: relatiesoorten “VERBLIJFSOBJECT is gelegen in een PAND” en “SUBJECT heeft als correspondentieadres WOONPLAATS”, of korter, “gelegen in”, “postadres”. Wanneer een relatie (UML-assocation) gebruikt wordt om objecten aan elkaar te verbinden, zonder dat er eigenschappen over deze relatie worden vastgelegd, dan heeft deze het stereotype «Relatiesoort»."@nl ;
+    dct:identifier "DFD2814E-7D36-45e2-B082-2ED574A409E1" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/gegeven/alias> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/gegeven> ;
+    rdfs:range xsd:string ;
+    dct:identifier "61E3A965-0C05-4f9d-8012-59CC2F76D40C" ;
+    rdfs:label "alias"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie/applicatieurl> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DD4A3B0F-AF84-4284-83C8-A33C983ADE9F" ;
+    rdfs:label "applicatieURL"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort/authentiek> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "8D106E09-346A-4310-BB97-EE9DB0B5B4F5" ;
+    rdfs:label "authentiek"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort/authentiek> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "6E424435-CE60-4fc2-9CC5-979004843801" ;
+    rdfs:label "authentiek"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie/beheerstatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "AA0A47E5-166F-4bbb-9EB3-78B41273151E" ;
+    rdfs:label "beheerstatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie/beleidsdomein> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "434004EF-99B9-4fb6-B691-01C845DAEE3B" ;
+    rdfs:label "beleidsdomein"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/classificatie/bevatpersoonsgegevens> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/classificatie> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "B3FF267B-D850-47b3-A0E9-156D744B4A4D" ;
+    rdfs:label "bevatPersoonsgegevens"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie/categorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatiecategorie> ;
+    dct:identifier "185E15A4-FAD3-4e31-BEFC-E048C7B6C720" ;
+    rdfs:label "categorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype/datumopname> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype> ;
+    rdfs:range xsd:date ;
+    dct:identifier "F6CE55CB-8D44-40a2-9285-A52D1C7A11C1" ;
+    dct:description "De datum waarop het objecttype is opgenomen in het informatiemodel."@nl ;
+    rdfs:label "datumOpname"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/generalisatie/datumopname> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/generalisatie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "12BA17F0-BE8D-4d50-9AC4-2203928DD969" ;
+    dct:description "De datum waarop het objecttype is opgenomen in het informatiemodel."@nl ;
+    rdfs:label "datumOpname"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort/datumopname> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:range xsd:date ;
+    dct:identifier "877A5578-E121-4690-9600-92536C56D633" ;
+    dct:description "De datum waarop het objecttype is opgenomen in het informatiemodel."@nl ;
+    rdfs:label "datumOpname"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort/datumopname> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort> ;
+    rdfs:range xsd:date ;
+    dct:identifier "4DF31FA8-C5F5-48d3-B8ED-06731D27ABA2" ;
+    dct:description "De datum waarop het objecttype is opgenomen in het informatiemodel."@nl ;
+    rdfs:label "datumOpname"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype/datumopname> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype> ;
+    rdfs:range xsd:date ;
+    dct:identifier "0E1547FF-55AB-4a36-B2E7-ECBAE0C472AE" ;
+    dct:description "De datum waarop het objecttype is opgenomen in het informatiemodel."@nl ;
+    rdfs:label "datumOpname"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype/definitie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A692710A-934C-4bb0-933C-371CC23F86DB" ;
+    dct:description "De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel."@nl ;
+    rdfs:label "definitie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/generalisatie/definitie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/generalisatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "55F17A4D-4AA6-4179-BFCD-80614542A079" ;
+    dct:description "De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel."@nl ;
+    rdfs:label "definitie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort/definitie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0CCA74C0-E691-4548-805B-7608351E23DD" ;
+    dct:description "De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel."@nl ;
+    rdfs:label "definitie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype/definitie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "660B2450-D612-4489-BD0B-8D1127662394" ;
+    dct:description "De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel."@nl ;
+    rdfs:label "definitie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort/definitie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CA374334-C281-4ab7-B2F7-A2E5E62F076E" ;
+    dct:description "De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel."@nl ;
+    rdfs:label "definitie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort/domein> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8417A62B-538D-44ca-8077-01E548BA0F68" ;
+    dct:description "Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen."@nl ;
+    rdfs:label "domein"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype/domein> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "97D23359-0986-4f80-BC78-2FF05445894A" ;
+    dct:description "Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen."@nl ;
+    rdfs:label "domein"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/generalisatie/ea_guid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/generalisatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "99C28C71-9046-4b26-8EA3-8BC464B20406" ;
+    rdfs:label "ea_guid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/gegeven/ea_guid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/gegeven> ;
+    rdfs:range xsd:string ;
+    dct:identifier "889CAF39-198D-4648-8B66-479363C050B5" ;
+    rdfs:label "ea_guid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort/ea_guid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3E47F103-76FF-458c-B708-2D87726692F8" ;
+    rdfs:label "ea_guid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort/ea_guid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "625D1101-025F-4c69-B79A-582765971169" ;
+    rdfs:label "ea_guid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype/ea_guid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7D7786C7-1A76-4be1-9C0C-69C368FF6044" ;
+    rdfs:label "ea_guid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype/ea_guid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "96269AFD-9770-4894-BF7E-78A2A431248B" ;
+    rdfs:label "ea_guid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/classificatie/gerelateerdpersoonsgegevens> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/classificatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F0FBE7D4-8259-4345-976E-ED89681BF764" ;
+    rdfs:label "gerelateerdPersoonsgegevens"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie/guid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "534B87CE-5639-4ed6-A269-5FEADC3B32E4" ;
+    rdfs:label "guid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/externe_bron/guid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/externe_bron> ;
+    rdfs:range xsd:string ;
+    dct:identifier "97018EF6-2928-420a-9D87-72446C28E1DD" ;
+    rdfs:label "guid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort/herkomst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A45FB378-4196-4d34-BFE5-87A3AA9160F0" ;
+    dct:description "De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing)."@nl ;
+    rdfs:label "herkomst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/generalisatie/herkomst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/generalisatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EF6AA149-2B0E-4769-B0C2-BCAEB4227408" ;
+    dct:description "De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing)."@nl ;
+    rdfs:label "herkomst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype/herkomst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BD3FA19F-6899-4497-AD3F-3E8562B9B9EE" ;
+    dct:description "De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing)."@nl ;
+    rdfs:label "herkomst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype/herkomst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D1B9AF8F-67DF-4199-B3B3-460318EC8407" ;
+    dct:description "De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing)."@nl ;
+    rdfs:label "herkomst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort/herkomst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "92F49561-149B-454a-8411-EC6A2AA27969" ;
+    dct:description "De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing)."@nl ;
+    rdfs:label "herkomst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype/herkomstdefinitie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AD87879D-9545-474d-9DDC-079E44902A6D" ;
+    rdfs:label "herkomstDefinitie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort/herkomstdefinitie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7B277913-BEBD-4780-97F9-4AC3F8591BB2" ;
+    rdfs:label "herkomstDefinitie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/generalisatie/herkomstdefinitie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/generalisatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "19DE13CA-56C9-4a05-ADA7-091BBA3DAEF5" ;
+    rdfs:label "herkomstDefinitie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort/herkomstdefinitie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4B7390C0-E524-45a9-B8E6-8FD799BD0AFB" ;
+    rdfs:label "herkomstDefinitie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort/id> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "ACF103BB-0C28-44ff-B7CF-C4F738D3CA27" ;
+    rdfs:label "id"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype/id> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "D96573A1-0FB1-4cb0-B9EB-67136F4D9CE7" ;
+    rdfs:label "id"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype/id> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "3C2D5CD8-59AC-409a-AB6B-7D4246117009" ;
+    rdfs:label "id"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort/id> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "1C6CDF87-9C52-4d40-8AD6-5ECF98D165C4" ;
+    rdfs:label "id"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/generalisatie/id> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/generalisatie> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "6B65B7E4-A323-463b-995B-C0DE6F26C086" ;
+    rdfs:label "id"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/gegeven/id> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/gegeven> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "6B3544C9-70EE-46fe-B559-C5BAE8D87275" ;
+    rdfs:label "id"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort/identificerend> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "AB5B0BE1-C2A3-4651-A00B-7C34D9A86088" ;
+    dct:description "Aanduiding dat attribuutsoort onderdeel uitmaakt van de unieke aanduiding van een object"@nl ;
+    rdfs:label "identificerend"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype/indicatieabstract> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "E611C449-395F-40ac-A727-97F168B9C1F9" ;
+    dct:description "Conceptueel model: indicatie dat het objecttype een generalisatie is, waarvan een object als specialisatie altijd voorkomt in de hoedanigheid van een (en slechts één) van de specialisaties van het betreffende objecttype. Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende objecttype mogen voorkomen."@nl ;
+    rdfs:label "indicatieAbstract"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort/indicatieafleidbaar> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "CCB32051-C798-425f-B092-AA93745C7BA9" ;
+    dct:description "Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten."@nl ;
+    rdfs:label "indicatieAfleidbaar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort/indicatieafleidbaar> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "F1E02642-CCD7-487b-9E20-8FD69649D36D" ;
+    dct:description "Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten."@nl ;
+    rdfs:label "indicatieAfleidbaar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort/indicatiematerielehistorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "E42E0D75-E4CD-46cb-9C79-310B20CB8373" ;
+    dct:description "Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde."@nl ;
+    rdfs:label "indicatieMaterieleHistorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/generalisatie/indicatiematerielehistorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/generalisatie> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "3EC78F9B-A208-492d-8773-20AA4ABCFECC" ;
+    dct:description "Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde."@nl ;
+    rdfs:label "indicatieMaterieleHistorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort/indicatiematerielehistorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "0ED04F07-C17B-47e2-ABED-2C46F00744A7" ;
+    dct:description "Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde."@nl ;
+    rdfs:label "indicatieMaterieleHistorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort/kardinaliteit> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "680911FB-0CD9-40e2-9FB2-9A1E3902AFD1" ;
+    dct:description "Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype: 0..1: is soms niet beschikbaar 1 : is altijd beschikbaar 0..*: is niet altijd beschikbaar, kan meerdere malen voorkomen 1..*: is altijd beschikbaar, kan meerdere malen voorkomen Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort."@nl ;
+    rdfs:label "kardinaliteit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort/kardinaliteit> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DC1BFADD-BD7F-4660-B661-8AA83FA00AEF" ;
+    dct:description "Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype: 0..1: is soms niet beschikbaar 1 : is altijd beschikbaar 0..*: is niet altijd beschikbaar, kan meerdere malen voorkomen 1..*: is altijd beschikbaar, kan meerdere malen voorkomen Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort."@nl ;
+    rdfs:label "kardinaliteit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype/kardinaliteit> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F95996F0-6871-463c-AD52-AF9243E9332D" ;
+    dct:description "Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype: 0..1: is soms niet beschikbaar 1 : is altijd beschikbaar 0..*: is niet altijd beschikbaar, kan meerdere malen voorkomen 1..*: is altijd beschikbaar, kan meerdere malen voorkomen Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort."@nl ;
+    rdfs:label "kardinaliteit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype/kwaliteit> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7747284F-FA69-427b-B161-85DE34C21D1D" ;
+    dct:description "Voor objecttypen die deel uitmaken van een registratie betreft dit de waarborgen voor de juistheid van de in de registratie opgenomen objecten van het desbetreffende type."@nl ;
+    rdfs:label "kwaliteit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort/lengte> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2A694ECB-063B-4706-8DF1-30276464306A" ;
+    dct:description "De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn. Bijvoorbeeld: ‘1’ als de lengte exact 1 is; ‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. Dit is van -9,99 tot +9,99;"@nl ;
+    rdfs:label "lengte"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype/lengte> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6E342D72-808F-4e7a-AA37-B633F2DA55AF" ;
+    dct:description "De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn. Bijvoorbeeld: ‘1’ als de lengte exact 1 is; ‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. Dit is van -9,99 tot +9,99;"@nl ;
+    rdfs:label "lengte"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort/mogelijkgeenwaarde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "8A8199A5-6B24-49a3-B6E8-9FC36C117ABF" ;
+    rdfs:label "mogelijkGeenWaarde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort/mogelijkgeenwaarde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "D499A6DD-AEE3-4921-8737-ECB8D318D97D" ;
+    rdfs:label "mogelijkGeenWaarde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6382493D-95BC-4bd3-A4BD-618F44DBBAB4" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "ECCA41CB-3F24-42ca-9CF7-A131F0172A80" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/externe_bron/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/externe_bron> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9C8E2778-F456-49ac-B36E-3C0E75D4960B" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/generalisatie/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/generalisatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "53AF10BC-794D-470c-B5EC-8425C46EE891" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "42C49964-2324-49ee-A13B-F9C420B219B6" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/gegeven/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/gegeven> ;
+    rdfs:range xsd:string ;
+    dct:identifier "16CFB711-C5F9-4e84-A809-0CC4C8D14CB0" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3B589A2C-4FB7-4457-99BA-6E1CCE70AC23" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F19BD0F4-D947-4e1a-90F4-35F109E01F9E" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4C205861-D87B-4acf-99D2-ACC310BD05F3" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie/packagingstatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "7CA641E0-C200-46d9-B376-C3AA74638CC4" ;
+    rdfs:label "packagingstatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort/patroon> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "706DFD72-B93B-445c-9415-499A6AA9BF97" ;
+    dct:description "Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is. De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur."@nl ;
+    rdfs:label "patroon"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype/patroon> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "29E35085-2DDE-438a-9747-BE32EA8F6E9C" ;
+    dct:description "Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is. De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur."@nl ;
+    rdfs:label "patroon"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype/populatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "98F38FF5-2BAF-4cb2-842C-77D46AA5917E" ;
+    dct:description "Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)- registratie voorhanden zijn."@nl ;
+    rdfs:label "populatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort/precisie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "8A535F4D-CD6A-46ce-9C01-C0E93B840D0C" ;
+    rdfs:label "precisie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort/stereotype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EDC2DD58-760B-4f93-8CE8-17AE8D8BABD3" ;
+    rdfs:label "stereotype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype/stereotype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AA243C1F-99C4-4e2c-B333-906BF837C7FE" ;
+    rdfs:label "stereotype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/gegeven/stereotype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/gegeven> ;
+    rdfs:range xsd:string ;
+    dct:identifier "31EAB486-5FE8-41f1-85BD-3BE658602D6C" ;
+    rdfs:label "stereotype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype/toelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4CCED040-4A45-4a25-9B16-06F6F856549D" ;
+    rdfs:label "toelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/generalisatie/toelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/generalisatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4835371E-41AB-47c5-BC85-3A15B6638561" ;
+    rdfs:label "toelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort/toelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EC4C24F2-319E-46ef-B1C9-79F0BF01C7EF" ;
+    rdfs:label "toelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype/toelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "941A047F-895C-41e3-B9FB-2D8D35F73497" ;
+    rdfs:label "toelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/gegeven/toelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/gegeven> ;
+    rdfs:range xsd:string ;
+    dct:identifier "62522B13-875B-493f-B44C-80313FF72D08" ;
+    rdfs:label "toelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort/toelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8DE8EDBC-4AE1-45f7-9360-44E8C76F5B24" ;
+    rdfs:label "toelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort/unidirectioneel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F8E1C1CD-1389-427d-8108-4DD554FBE58E" ;
+    dct:description "Het gerelateerde objecttype (de target) waarvan het objecttype, die de eigenaar is van deze relatie (de source), kennis heeft. Alle relaties zijn altijd gericht van het objecttype (source) naar het gerelateerde objecttype (target)."@nl ;
+    rdfs:label "unidirectioneel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype/uniekeaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "ACE74036-222D-421e-823E-4BB67554D6E8" ;
+    dct:description "Voor objecttypen die deel uitmaken van een (basis)registratie of informatiemodel betreft dit de wijze waarop daarin voorkomende objecten (van dit type) uniek in de registratie worden aangeduid."@nl ;
+    rdfs:label "uniekeAanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort/gerelateerdobjecttype> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype> ;
+    rdfs:label "gerelateerdObjecttype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype/bezit> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/relatiesoort> ;
+    rdfs:label "bezit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype/> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/generalisatie> ;
+    rdfs:label ""@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/gegeven/gedefinieerd_door> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/gegeven> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype> ;
+    rdfs:label "gedefinieerd door"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/externe_bron/levert> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/externe_bron> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/gegeven> ;
+    rdfs:label "levert"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/gegeven/geclassificeerd_als> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/gegeven> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/classificatie> ;
+    rdfs:label "geclassificeerd als"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype/bezit> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/objecttype> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:label "bezit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/attribuutsoort> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/datatype> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie/bevat> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/gegeven> ;
+    rdfs:label "bevat"@nl .

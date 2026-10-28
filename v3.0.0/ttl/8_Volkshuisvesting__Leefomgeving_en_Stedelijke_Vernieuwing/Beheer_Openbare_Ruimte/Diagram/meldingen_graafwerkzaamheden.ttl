@@ -1,0 +1,428 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/meldingen_graafwerkzaamheden>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/grondbeheerder> a owl:Class ;
+    rdfs:label "Grondbeheerder"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Beheerder van grondgrondbeheer., oplossing voor duurzaam landbeheer en voedselproductie"@nl ;
+    dct:identifier "B53EC85A-C731-4fb6-8379-7D11802273B2" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding> a owl:Class ;
+    rdfs:label "MOOR-melding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Meldingsproces rondom werkzaamheden aan kabels en leidingen."@nl ;
+    dct:identifier "30D5F6E6-DE8D-46b6-AC8A-6CA1391ADFF7" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/omgevingsvergunning> a owl:Class ;
+    rdfs:label "Omgevingsvergunning"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Vergunning als bedoeld in afdeling 5.1 van de Omgevingswet"@nl ;
+    dct:identifier "053B594A-5E45-4413-9339-D2D026ECCE20" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/opbreking> a owl:Class ;
+    rdfs:label "Opbreking"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Vorm van wegwerkzaamheid"@nl ;
+    dct:identifier "1EBA6DEB-268D-4339-86C9-7C1BA218A7A0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/proces_verbaal_moor_melding> a owl:Class ;
+    rdfs:label "Proces-verbaal-MOOR-melding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Officieel op papier gesteld verslag met betrekking tot heen MOOR-melding"@nl ;
+    dct:identifier "2587938E-CF7F-499b-BB21-9CB8BBCC1DD2" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/uitvoerder_graafwerkzaamheden> a owl:Class ;
+    rdfs:label "Uitvoerder Graafwerkzaamheden"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Degene die op de bouwlocatie van een project de leiding heeft met betrekking tot de graafwerkzaamheden"@nl ;
+    dct:identifier "BBE1DC54-1482-4650-BB7F-930DDB823E09" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> a owl:Class ;
+    rdfs:label "Leverancier"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie"@nl ;
+    dct:identifier "EA7FE08E-34F7-45d2-BE2E-E4E3B8333BF3" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> a owl:Class ;
+    rdfs:label "Medewerker"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
+    dct:identifier "16EB3936-03CB-4854-9CD8-9F0911EEA51B" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> a owl:Class ;
+    rdfs:label "Document"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
+    dct:identifier "5641C50A-C0FA-4e71-B07B-26C7B1CE94ED" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> a owl:Class ;
+    rdfs:label "Rechtspersoon"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON"@nl ;
+    dct:identifier "9DF5AC43-3673-4b9a-BB5E-6DCA7BE28835" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/kvknummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C43F0DE4-C49D-442f-B7F6-157CF378EBE8" ;
+    rdfs:label "KVKnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/achternaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "79457AE1-2585-4ce0-A864-D4ADE30A2135" ;
+    dct:description "De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt."@nl ;
+    rdfs:label "achternaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adresbinnenland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0F55857A-1582-46f5-9621-0E93F8C13310" ;
+    dct:description "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."@nl ;
+    rdfs:label "adresBinnenland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adresbuitenland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F6185DF1-173C-47b0-A94A-55D055A89104" ;
+    dct:description "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."@nl ;
+    rdfs:label "adresBuitenland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adrescorrespondentie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3A5CEB3F-40E2-4890-92D1-61133EE48E9D" ;
+    dct:description "postbus of antwoordnummer"@nl ;
+    rdfs:label "adresCorrespondentie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding/adresaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "88445A7C-B0F5-487e-A5FE-2AF3BD1CA32C" ;
+    rdfs:label "adresaanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/cocumentbeschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1DB068B6-3EAE-4d79-B1EC-73905A5994FC" ;
+    dct:description "Een generieke beschrijving van de inhoud van het document."@nl ;
+    rdfs:label "cocumentBeschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/proces_verbaal_moor_melding/datum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/proces_verbaal_moor_melding> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "799BDBDA-7E9C-42a9-8BF4-27AE5380EE89" ;
+    rdfs:label "datum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding/datumaanmelding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "593AE7BE-8BBF-428e-A16A-56859939BC86" ;
+    rdfs:label "datumAanmelding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumcreatiedocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "61F9ED59-4DA5-4099-ADAC-8D7FEFDD0F37" ;
+    dct:description "Een datum of een gebeurtenis in de levenscyclus van het document."@nl ;
+    rdfs:label "datumCreatieDocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding/datumgoedkeuring> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "49763D48-AF69-485a-9EC9-1A612D9DDBA6" ;
+    rdfs:label "datumGoedkeuring"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/datumindienst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:date ;
+    dct:identifier "4BD35398-345A-4d24-84A5-34D79A764C7F" ;
+    rdfs:label "datumInDienst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumontvangstdocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FFEE3095-1146-4106-A1ED-70A253812FA6" ;
+    dct:description "De datum waarop het DOCUMENT ontvangen is."@nl ;
+    rdfs:label "datumOntvangstdocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/datumuitdienst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AE3CF305-B845-40cf-A9E3-2DE97CB31F46" ;
+    dct:description "Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt."@nl ;
+    rdfs:label "datumUitDienst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumverzendingdocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C06162CD-CFEA-4c04-BE26-76BC4DF42A16" ;
+    dct:description "De datum waarop het DOCUMENT verzonden is."@nl ;
+    rdfs:label "datumVerzendingDocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documentauteur> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "24277038-EF81-4e10-92BC-68AB8969FE4D" ;
+    dct:description "De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document."@nl ;
+    rdfs:label "documentAuteur"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documentidentificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CB08FF35-EE64-4504-90CF-835DA32E636C" ;
+    dct:description "Een binnen een gegeven context ondubbelzinnige referentie naar het document. Bijvoorbeeld potsregistratienummer"@nl ;
+    rdfs:label "documentIdentificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documenttitel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "21E0EC21-5217-4582-A8B8-CA0EE3EFDFAD" ;
+    dct:description "De naam waaronder het document formeel bekend is."@nl ;
+    rdfs:label "documentTitel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding/eindtijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "43B4955A-2F03-47ce-B9ED-483CC7E7F58C" ;
+    rdfs:label "eindtijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/emailadres> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D003FAB1-3C25-4b00-9247-B6D6CA5155F9" ;
+    dct:description "Elektronisch postadres waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "emailadres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/emailadres> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2EEFDDE3-164E-4dc6-8573-205834C1AF47" ;
+    dct:description "Elektronisch postadres waaronder de medewerker in de regel bereikbaar is."@nl ;
+    rdfs:label "emailadres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/extern> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "8DDB6FA2-A79D-4423-9969-7AF045B86351" ;
+    dct:description "Medewerker is een externe?"@nl ;
+    rdfs:label "extern"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/faxnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6E61DBA6-E0F0-47bd-9BA5-1D8A04C0EAA6" ;
+    dct:description "Faxnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "faxnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/functie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F17EE707-8A6A-483b-9ED7-204707E1F384" ;
+    dct:description "De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie."@nl ;
+    rdfs:label "functie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/geslachtsaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AA40C186-C355-457e-99D9-24BE43B05301" ;
+    dct:description "Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is."@nl ;
+    rdfs:label "geslachtsaanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding/goedgekeurd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "ECF1E46D-1E3B-4be8-8F59-1D2FCC00068D" ;
+    rdfs:label "goedgekeurd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/proces_verbaal_moor_melding/goedkeuring> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/proces_verbaal_moor_melding> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "E2CC3D8A-98E1-4dc4-82C4-FED4E2160688" ;
+    rdfs:label "goedkeuring"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding/herstelwerkzaamhedenvereist> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "2058E0E0-0295-4ba2-8430-1568B55688E8" ;
+    rdfs:label "herstelwerkzaamhedenVereist"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5581C29C-3143-42f6-970E-CFB7282258C9" ;
+    dct:description "De unieke identificatie van het SUBJECT"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/medewerkeridentificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FF819D54-0C4A-4cf7-A828-6587669A8702" ;
+    dct:description "Een korte unieke aanduiding van de medewerker."@nl ;
+    rdfs:label "medewerkerIdentificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/medewerkertoelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C59B1A14-1E2F-4a54-B273-6D4C84713390" ;
+    dct:description "Toelichting bij en/of over de medewerker."@nl ;
+    rdfs:label "medewerkerToelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> ;
+    rdfs:range xsd:string ;
+    dct:identifier "85177091-8693-4b6d-9DDF-C431625705F6" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0BBB4DB3-7F02-4dda-82D4-38976334D948" ;
+    dct:description "De benaming van het SUBJECT"@nl ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier/nummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DC8AB48D-FBB8-437d-8FD6-799019175583" ;
+    rdfs:label "nummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding/omschrijvingherstelwerkzaamheden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8F10B05D-03A2-4ec0-87EA-C95145ED5835" ;
+    rdfs:label "omschrijvingHerstelwerkzaamheden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/proces_verbaal_moor_melding/opmerkingen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/proces_verbaal_moor_melding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "805313B4-C060-464e-8026-0E7E84135B8F" ;
+    rdfs:label "opmerkingen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding/publiceren> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "BFC089CA-82BD-4bba-A941-F2432DD39685" ;
+    rdfs:label "publiceren"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/rechtsvorm> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9FB55106-DB14-4192-B325-75B7272FDE36" ;
+    dct:description "Bron: Handelsregister"@nl ;
+    rdfs:label "rechtsvorm"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/rekeningnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6BB892F7-1C6E-4aeb-8BFA-3012FEB03B78" ;
+    dct:description "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
+    rdfs:label "rekeningnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/roepnaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A7726010-7E58-40b6-9523-A4CC9844F5DD" ;
+    dct:description "Naam waarmee de werknemer wordt aangesproken."@nl ;
+    rdfs:label "roepnaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding/starttijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "4298A1D4-AE03-43c8-BD84-45B455A1B6A4" ;
+    rdfs:label "starttijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/telefoonnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0BE56460-275E-4dcb-9946-5B88658BF3BD" ;
+    dct:description "Telefoonnummer waaronder de medewerker in de regel bereikbaar is."@nl ;
+    rdfs:label "telefoonnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/telefoonnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6B41E997-26A2-4f32-AE3B-A46BA0E3BE20" ;
+    dct:description "Telefoonnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "telefoonnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/vertrouwelijkaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A7A897CF-ECB5-45c1-A0CD-698E1D66F2CF" ;
+    dct:description "Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is."@nl ;
+    rdfs:label "vertrouwelijkAanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/voorletters> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "65D1582C-5922-4ebb-8CE6-3B0F1BBD0941" ;
+    dct:description "De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen."@nl ;
+    rdfs:label "voorletters"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/voorvoegselachternaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "01234EAF-833A-4cd6-8EA0-045F889301FF" ;
+    dct:description "Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is gescheiden."@nl ;
+    rdfs:label "voorvoegselAchternaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding/wegbeheerder> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2E81E9BD-FDDE-4405-B669-D774251992D2" ;
+    rdfs:label "wegbeheerder"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/uitvoerder_graafwerkzaamheden> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/grondbeheerder> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/uitvoerder_graafwerkzaamheden> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/proces_verbaal_moor_melding/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/proces_verbaal_moor_melding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/uitvoerder_graafwerkzaamheden/maakt> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/uitvoerder_graafwerkzaamheden> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/opbreking> ;
+    rdfs:label "maakt"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/uitvoerder_graafwerkzaamheden/doet> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/uitvoerder_graafwerkzaamheden> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding> ;
+    rdfs:label "doet"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding/verplicht_tot> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/omgevingsvergunning> ;
+    rdfs:label "verplicht tot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/opbreking> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/moor_melding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/proces_verbaal_moor_melding> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/grondbeheerder> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/verleent> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/proces_verbaal_moor_melding> ;
+    rdfs:label "verleent"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/geleverd_via> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> ;
+    rdfs:label "geleverd via"@nl .

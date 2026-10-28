@@ -1,0 +1,333 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/diagram_afval_ophalen>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/container> a owl:Class ;
+    rdfs:label "Container"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Container voor het gescheiden inzamelen van huishoudelijke afvalstoffen dwz afvalstoffen afkomstig uit particuliere huishoudens behoudens voor zover het ingezamelde bestanddelen van die afvalstoffen betreft die zijn aangewezen als gevaarlijke afvalstoffen"@nl ;
+    dct:identifier "7D3D98F0-664C-4605-9D95-F68C88ECBA9A" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/containertype> a owl:Class ;
+    rdfs:label "Containertype"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Typologie van container"@nl ;
+    dct:identifier "0A7769C7-FE3E-45eb-A644-22E5CB207B42" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie> a owl:Class ;
+    rdfs:label "Fractie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Onderdeel, deeltje"@nl ;
+    dct:identifier "80A7D18F-7C7E-4ee6-9F07-055559BCEF9F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/locatie> a owl:Class ;
+    rdfs:label "Locatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Locaties die worden aangedaan tijdens het rijden van een route. Dit kunnen adressen zijn en/of GML-punten met een x- en y-coordinaat. Avalex hanteert op het moment van schrijven alleen adressen, ook voor de containers."@nl ;
+    dct:identifier "7F4E17A3-0EC2-4bee-B4E0-BFA26D653EB9" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/ophaalmoment> a owl:Class ;
+    rdfs:label "Ophaalmoment"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een stop die een vuilniswagen maakt tijdens het doen van een rit. Bijgehouden wordt de gewichtstoename van de lading"@nl ;
+    dct:identifier "9079F098-1084-4484-ACCC-6C6C07043193" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsafspraak> a owl:Class ;
+    rdfs:label "Prijsafspraak"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Overeenkomst tussen concurrenten met betrekking tot de prijs van goederen of diensten."@nl ;
+    dct:identifier "21BBA828-AAE0-4785-9E44-45C1B866C882" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsregel> a owl:Class ;
+    rdfs:label "Prijsregel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een *prijsregel* is een **regel die aangeeft hoe de prijs van een product, dienst of prestatie wordt vastgesteld of toegepast**, bijvoorbeeld binnen een declaratie- of tariefstructuur."@nl ;
+    dct:identifier "E79C6C20-3D05-49fb-96ED-105B5CD0ABA5" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/rit> a owl:Class ;
+    rdfs:label "Rit"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Verplaatsing van een wegvoertuig over een wegpad"@nl ;
+    dct:identifier "832DA9A0-0E64-4d41-8266-38418B095919" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/route> a owl:Class ;
+    rdfs:label "Route"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Routes die gereden worden om bepaalde fracties vuilnis op te halen. Routes gaan langs locaties, waar afhankelijk van de routesoort een containers, bepaalde plekken of adressen worden aangedaan. huis-aan-huis: er worden locaties met adressen aangedaan illegale dumping, grofvuil: er worden locaties aangedaan (evt met adres) containters: er worden locaties met containers aangedaan"@nl ;
+    dct:identifier "55A58838-3877-4e76-B5BF-26C68FAD463D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/vuilniswagen> a owl:Class ;
+    rdfs:label "Vuilniswagen"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een vrachtwagen die gebruikt wordt om afval in te zamelen bij bedrijven en huishoudens (huisvuil)"@nl ;
+    dct:identifier "9A422266-783E-4f48-9B12-F442C1B22A45" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/vulgraadmeting> a owl:Class ;
+    rdfs:label "Vulgraadmeting"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Mate waarin een (afval)container gevuld is"@nl ;
+    dct:identifier "3650DB98-AC7B-46c0-A607-C54D69E38E42" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/routesoort> a owl:Class ;
+    rdfs:label "Routesoort"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "0121B2BE-F262-4433-8AA5-49FC7866EF68" .
+
+# Enumeration: ROUTESOORT
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/routesoort/grofvuil>
+    rdfs:label "grofvuil"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/routesoort/hot_spot_locaties>
+    rdfs:label "hot-spot-locaties"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/routesoort/huis_aan_huis>
+    rdfs:label "huis-aan-huis"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/routesoort/illegale_dumping>
+    rdfs:label "illegale dumping"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/routesoort/vangnetregeling>
+    rdfs:label "vangnetregeling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/locatie/adresaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/locatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EEDF5A2A-11A0-44b6-87CC-41AE8E4C66A6" ;
+    rdfs:label "adresaanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsregel/bedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsregel> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "B8474925-5686-4b63-A6E5-78B72CA48A8F" ;
+    rdfs:label "bedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/vuilniswagen/code> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/vuilniswagen> ;
+    rdfs:range xsd:string ;
+    dct:identifier "22757D93-E464-4486-8593-576FA128B61B" ;
+    rdfs:label "code"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/container/containercode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/container> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EAF73966-4627-4622-BE7D-3BF4A4302C2F" ;
+    rdfs:label "containercode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsregel/credit> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsregel> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "BBB63AAE-87EA-40eb-8E0E-D40B850D50D0" ;
+    rdfs:label "credit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsafspraak/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsafspraak> ;
+    rdfs:range xsd:date ;
+    dct:identifier "34ACB021-8E1E-43d5-BD29-97F4EAE95C6D" ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsafspraak/datumstart> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsafspraak> ;
+    rdfs:range xsd:date ;
+    dct:identifier "2FC3ECC9-7676-4b83-A7A1-9795497228C4" ;
+    rdfs:label "datumStart"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/rit/eindtijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/rit> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "3D9DDD6F-848E-4c64-87A4-D49543AAD0A7" ;
+    rdfs:label "eindtijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/route/geometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/route> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "4F22BB61-A2F8-4b3c-B2B5-A66C6BAA2685" ;
+    dct:description "Geometrie: lijnen die gezamenlijk de route bepalen. Nog onvoldoende ondersteund met GML. Ij dat geval leeglaten."@nl ;
+    rdfs:label "geometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/ophaalmoment/gewichtstoename> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/ophaalmoment> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "44829426-C0C9-45ae-B636-2C580EC777B8" ;
+    rdfs:label "gewichtstoename"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/vuilniswagen/kenteken> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/vuilniswagen> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0C2B6E67-2350-49bc-A447-9B1A42645889" ;
+    rdfs:label "kenteken"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/locatie/locatiepunt> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/locatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FAE8EDF4-8515-4ae0-8E77-3AB5C3C6270A" ;
+    rdfs:label "locatiePunt"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/locatie/locatiecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/locatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C0076BED-1245-45e6-99AE-11EEE2693EBB" ;
+    rdfs:label "locatiecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/containertype/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/containertype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E680E358-90CA-4a54-BDF9-629A38F1552D" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F66CC356-50B7-49b8-9982-C5BFCE331CE1" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/containertype/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/containertype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "56083901-A7EA-4dfc-9718-985A7D414C80" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "19DB02EE-F4B9-46d9-BFCA-FFD860F8E4D1" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/rit/ritcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/rit> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3C559529-86C7-4855-8B84-5A6CBD98F5A3" ;
+    rdfs:label "ritcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/route/routecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/route> ;
+    rdfs:range xsd:string ;
+    dct:identifier "35A00788-DB70-4af5-99E2-D40F05F01B6C" ;
+    rdfs:label "routecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/route/routesoort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/route> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/routesoort> ;
+    dct:identifier "995CF172-F9D9-4b5a-A0FE-6A0D0107D4E1" ;
+    rdfs:label "routesoort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/container/sensorid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/container> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8B5A9096-6DBF-4b86-AEBC-1E4C2A545495" ;
+    rdfs:label "sensorID"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/rit/starttijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/rit> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "D0F65549-FCFD-4fab-BFAF-8C27507A3797" ;
+    rdfs:label "starttijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/vulgraadmeting/tijdstip> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/vulgraadmeting> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "59D17BF9-7FF9-4cdb-A485-D14A8E859E51" ;
+    rdfs:label "tijdstip"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/ophaalmoment/tijdstip> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/ophaalmoment> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "9A8749EF-5B24-4c73-A9CB-6183D84303BB" ;
+    rdfs:label "tijdstip"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsafspraak/titel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsafspraak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "19C286C0-5061-4afd-82B6-5DD85A09E335" ;
+    rdfs:label "titel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/vuilniswagen/type> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/vuilniswagen> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5BD00866-24F7-4244-88BD-679A8040E205" ;
+    rdfs:label "type"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/vulgraadmeting/vulgraad> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/vulgraadmeting> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "85567414-601F-48ef-8659-2C4DC6D58302" ;
+    dct:description "Vulgraadpercentage"@nl ;
+    rdfs:label "vulgraad"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/vulgraadmeting/vullinggewicht> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/vulgraadmeting> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "C723B221-4835-4676-8C6C-501FB16C95FE" ;
+    dct:description "Gewicht vulling in kilo's"@nl ;
+    rdfs:label "vullingGewicht"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/rit/uitgevoerd_met> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/rit> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/vuilniswagen> ;
+    rdfs:label "uitgevoerd met"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/rit/volgens> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/rit> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/route> ;
+    rdfs:label "volgens"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsafspraak/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsafspraak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsregel> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/rit/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/rit> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/ophaalmoment> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/ophaalmoment/gestopt_op> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/ophaalmoment> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/locatie> ;
+    rdfs:label "gestopt op"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/route/gaat_langs> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/route> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/locatie> ;
+    rdfs:label "gaat langs"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/route/ophalen> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/route> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie> ;
+    rdfs:label "ophalen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsregel/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsregel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/vuilniswagen/geschikt_voor> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/vuilniswagen> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/containertype> ;
+    rdfs:label "geschikt voor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/ophaalmoment/gelost> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/ophaalmoment> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/container> ;
+    rdfs:label "gelost"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/container/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/container> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/vulgraadmeting> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/container/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/container> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/locatie> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/container/soort> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/container> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/containertype> ;
+    rdfs:label "soort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/container/geschikt_voor> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/container> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie> ;
+    rdfs:label "geschikt voor"@nl .

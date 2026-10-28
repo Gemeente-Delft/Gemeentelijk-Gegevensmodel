@@ -1,0 +1,1487 @@
+{
+    "Burgerzaken": [
+        "Burgerzaken.json",
+        "Burgerzaken_mssql.sql",
+        "Burgerzaken_oracle.sql"
+    ],
+    "Burgerzaken_postgres.sql": [
+        "Burgerzaken_postgres.sql"
+    ],
+    "Burgerzaken.sql": [
+        "Burgerzaken_sql.sql"
+    ],
+    "Diagram_Griffie": [
+        "Diagram_Griffie.json",
+        "Diagram_Griffie_mssql.sql",
+        "Diagram_Griffie_oracle.sql"
+    ],
+    "Diagram_Griffie_postgres.sql": [
+        "Diagram_Griffie_postgres.sql"
+    ],
+    "Diagram_Griffie.sql": [
+        "Diagram_Griffie_sql.sql"
+    ],
+    "Diagram_Raadsstukken": [
+        "Diagram_Raadsstukken.json",
+        "Diagram_Raadsstukken_mssql.sql",
+        "Diagram_Raadsstukken_oracle.sql"
+    ],
+    "Diagram_Raadsstukken_postgres.sql": [
+        "Diagram_Raadsstukken_postgres.sql"
+    ],
+    "Diagram_Raadsstukken.sql": [
+        "Diagram_Raadsstukken_sql.sql"
+    ],
+    "Brede_Handhaving": [
+        "Brede_Handhaving.json",
+        "Brede_Handhaving_mssql.sql",
+        "Brede_Handhaving_oracle.sql"
+    ],
+    "Brede_Handhaving_postgres.sql": [
+        "Brede_Handhaving_postgres.sql"
+    ],
+    "Brede_Handhaving.sql": [
+        "Brede_Handhaving_sql.sql"
+    ],
+    "Diagram_Aanvragen,_Zaken_en_Besluiten": [
+        "Diagram_Aanvragen,_Zaken_en_Besluiten.json",
+        "Diagram_Aanvragen,_Zaken_en_Besluiten_mssql.sql",
+        "Diagram_Aanvragen,_Zaken_en_Besluiten_oracle.sql"
+    ],
+    "Diagram_Aanvragen,_Zaken_en_Besluiten_postgres.sql": [
+        "Diagram_Aanvragen,_Zaken_en_Besluiten_postgres.sql"
+    ],
+    "Diagram_Aanvragen,_Zaken_en_Besluiten.sql": [
+        "Diagram_Aanvragen,_Zaken_en_Besluiten_sql.sql"
+    ],
+    "Diagram_Vergunningen_en_Meldingen": [
+        "Diagram_Vergunningen_en_Meldingen.json",
+        "Diagram_Vergunningen_en_Meldingen_mssql.sql",
+        "Diagram_Vergunningen_en_Meldingen_oracle.sql"
+    ],
+    "Diagram_Vergunningen_en_Meldingen_postgres.sql": [
+        "Diagram_Vergunningen_en_Meldingen_postgres.sql"
+    ],
+    "Diagram_Vergunningen_en_Meldingen.sql": [
+        "Diagram_Vergunningen_en_Meldingen_sql.sql"
+    ],
+    "Objecten_bij_Vergunningaanvraag": [
+        "Objecten_bij_Vergunningaanvraag.json",
+        "Objecten_bij_Vergunningaanvraag_mssql.sql",
+        "Objecten_bij_Vergunningaanvraag_oracle.sql"
+    ],
+    "Objecten_bij_Vergunningaanvraag_postgres.sql": [
+        "Objecten_bij_Vergunningaanvraag_postgres.sql"
+    ],
+    "Objecten_bij_Vergunningaanvraag.sql": [
+        "Objecten_bij_Vergunningaanvraag_sql.sql"
+    ],
+    "Verkamering_en_Woonoverlast": [
+        "Verkamering_en_Woonoverlast.json",
+        "Verkamering_en_Woonoverlast_mssql.sql",
+        "Verkamering_en_Woonoverlast_oracle.sql"
+    ],
+    "Verkamering_en_Woonoverlast_postgres.sql": [
+        "Verkamering_en_Woonoverlast_postgres.sql"
+    ],
+    "Verkamering_en_Woonoverlast.sql": [
+        "Verkamering_en_Woonoverlast_sql.sql"
+    ],
+    "Afspraken_en_Klantcontacten": [
+        "Afspraken_en_Klantcontacten.json",
+        "Afspraken_en_Klantcontacten_mssql.sql",
+        "Afspraken_en_Klantcontacten_oracle.sql"
+    ],
+    "Afspraken_en_Klantcontacten_postgres.sql": [
+        "Afspraken_en_Klantcontacten_postgres.sql"
+    ],
+    "Afspraken_en_Klantcontacten.sql": [
+        "Afspraken_en_Klantcontacten_sql.sql"
+    ],
+    "Dienstverlening_en_Klanten": [
+        "Dienstverlening_en_Klanten.json",
+        "Dienstverlening_en_Klanten_mssql.sql",
+        "Dienstverlening_en_Klanten_oracle.sql"
+    ],
+    "Dienstverlening_en_Klanten_postgres.sql": [
+        "Dienstverlening_en_Klanten_postgres.sql"
+    ],
+    "Dienstverlening_en_Klanten.sql": [
+        "Dienstverlening_en_Klanten_sql.sql"
+    ],
+    "Entiteiten_Dienstverlening": [
+        "Entiteiten_Dienstverlening.json",
+        "Entiteiten_Dienstverlening_mssql.sql",
+        "Entiteiten_Dienstverlening_oracle.sql"
+    ],
+    "Entiteiten_Dienstverlening_postgres.sql": [
+        "Entiteiten_Dienstverlening_postgres.sql"
+    ],
+    "Entiteiten_Dienstverlening.sql": [
+        "Entiteiten_Dienstverlening_sql.sql"
+    ],
+    "Entiteiten_Klantcontact": [
+        "Entiteiten_Klantcontact.json",
+        "Entiteiten_Klantcontact_mssql.sql",
+        "Entiteiten_Klantcontact_oracle.sql"
+    ],
+    "Entiteiten_Klantcontact_postgres.sql": [
+        "Entiteiten_Klantcontact_postgres.sql"
+    ],
+    "Entiteiten_Klantcontact.sql": [
+        "Entiteiten_Klantcontact_sql.sql"
+    ],
+    "Kern_Klantcontact": [
+        "Kern_Klantcontact.json",
+        "Kern_Klantcontact_mssql.sql",
+        "Kern_Klantcontact_oracle.sql"
+    ],
+    "Kern_Klantcontact_postgres.sql": [
+        "Kern_Klantcontact_postgres.sql"
+    ],
+    "Kern_Klantcontact.sql": [
+        "Kern_Klantcontact_sql.sql"
+    ],
+    "Klantbeoordelingen": [
+        "Klantbeoordelingen.json",
+        "Klantbeoordelingen_mssql.sql",
+        "Klantbeoordelingen_oracle.sql"
+    ],
+    "Klantbeoordelingen_postgres.sql": [
+        "Klantbeoordelingen_postgres.sql"
+    ],
+    "Klantbeoordelingen.sql": [
+        "Klantbeoordelingen_sql.sql"
+    ],
+    "Diagram_Verkeer_en_Vervoer": [
+        "Diagram_Verkeer_en_Vervoer.json",
+        "Diagram_Verkeer_en_Vervoer_mssql.sql",
+        "Diagram_Verkeer_en_Vervoer_oracle.sql"
+    ],
+    "Diagram_Verkeer_en_Vervoer_postgres.sql": [
+        "Diagram_Verkeer_en_Vervoer_postgres.sql"
+    ],
+    "Diagram_Verkeer_en_Vervoer.sql": [
+        "Diagram_Verkeer_en_Vervoer_sql.sql"
+    ],
+    "Gladheid": [
+        "Gladheid.json",
+        "Gladheid_mssql.sql",
+        "Gladheid_oracle.sql"
+    ],
+    "Gladheid_postgres.sql": [
+        "Gladheid_postgres.sql"
+    ],
+    "Gladheid.sql": [
+        "Gladheid_sql.sql"
+    ],
+    "Verkeersbesluiten": [
+        "Verkeersbesluiten.json",
+        "Verkeersbesluiten_mssql.sql",
+        "Verkeersbesluiten_oracle.sql"
+    ],
+    "Verkeersbesluiten_postgres.sql": [
+        "Verkeersbesluiten_postgres.sql"
+    ],
+    "Verkeersbesluiten.sql": [
+        "Verkeersbesluiten_sql.sql"
+    ],
+    "Verkeer_en_Vervoer__Stremmingen": [
+        "Verkeer_en_Vervoer__Stremmingen.json",
+        "Verkeer_en_Vervoer__Stremmingen_mssql.sql",
+        "Verkeer_en_Vervoer__Stremmingen_oracle.sql"
+    ],
+    "Verkeer_en_Vervoer__Stremmingen_postgres.sql": [
+        "Verkeer_en_Vervoer__Stremmingen_postgres.sql"
+    ],
+    "Verkeer_en_Vervoer__Stremmingen.sql": [
+        "Verkeer_en_Vervoer__Stremmingen_sql.sql"
+    ],
+    "Model_Parkeren": [
+        "Model_Parkeren.json",
+        "Model_Parkeren_mssql.sql",
+        "Model_Parkeren_oracle.sql"
+    ],
+    "Model_Parkeren_postgres.sql": [
+        "Model_Parkeren_postgres.sql"
+    ],
+    "Model_Parkeren.sql": [
+        "Model_Parkeren_sql.sql"
+    ],
+    "Diagram_Economie": [
+        "Diagram_Economie.json",
+        "Diagram_Economie_mssql.sql",
+        "Diagram_Economie_oracle.sql"
+    ],
+    "Diagram_Economie_postgres.sql": [
+        "Diagram_Economie_postgres.sql"
+    ],
+    "Diagram_Economie.sql": [
+        "Diagram_Economie_sql.sql"
+    ],
+    "KVK": [
+        "KVK.json",
+        "KVK_mssql.sql",
+        "KVK_oracle.sql"
+    ],
+    "KVK_postgres.sql": [
+        "KVK_postgres.sql"
+    ],
+    "KVK.sql": [
+        "KVK_sql.sql"
+    ],
+    "Diagram_Beslissingen_Leerplicht": [
+        "Diagram_Beslissingen_Leerplicht.json",
+        "Diagram_Beslissingen_Leerplicht_mssql.sql",
+        "Diagram_Beslissingen_Leerplicht_oracle.sql"
+    ],
+    "Diagram_Beslissingen_Leerplicht_postgres.sql": [
+        "Diagram_Beslissingen_Leerplicht_postgres.sql"
+    ],
+    "Diagram_Beslissingen_Leerplicht.sql": [
+        "Diagram_Beslissingen_Leerplicht_sql.sql"
+    ],
+    "Onderwijs__Leerlingen": [
+        "Onderwijs__Leerlingen.json",
+        "Onderwijs__Leerlingen_mssql.sql",
+        "Onderwijs__Leerlingen_oracle.sql"
+    ],
+    "Onderwijs__Leerlingen_postgres.sql": [
+        "Onderwijs__Leerlingen_postgres.sql"
+    ],
+    "Onderwijs__Leerlingen.sql": [
+        "Onderwijs__Leerlingen_sql.sql"
+    ],
+    "Onderwijs__Relaties_met_Kern": [
+        "Onderwijs__Relaties_met_Kern.json",
+        "Onderwijs__Relaties_met_Kern_mssql.sql",
+        "Onderwijs__Relaties_met_Kern_oracle.sql"
+    ],
+    "Onderwijs__Relaties_met_Kern_postgres.sql": [
+        "Onderwijs__Relaties_met_Kern_postgres.sql"
+    ],
+    "Onderwijs__Relaties_met_Kern.sql": [
+        "Onderwijs__Relaties_met_Kern_sql.sql"
+    ],
+    "Erfgoed__Archeologie_Domeinmodel": [
+        "Erfgoed__Archeologie_Domeinmodel.json",
+        "Erfgoed__Archeologie_Domeinmodel_mssql.sql",
+        "Erfgoed__Archeologie_Domeinmodel_oracle.sql"
+    ],
+    "Erfgoed__Archeologie_Domeinmodel_postgres.sql": [
+        "Erfgoed__Archeologie_Domeinmodel_postgres.sql"
+    ],
+    "Erfgoed__Archeologie_Domeinmodel.sql": [
+        "Erfgoed__Archeologie_Domeinmodel_sql.sql"
+    ],
+    "Archief_Aanvragen": [
+        "Archief_Aanvragen.json",
+        "Archief_Aanvragen_mssql.sql",
+        "Archief_Aanvragen_oracle.sql"
+    ],
+    "Archief_Aanvragen_postgres.sql": [
+        "Archief_Aanvragen_postgres.sql"
+    ],
+    "Archief_Aanvragen.sql": [
+        "Archief_Aanvragen_sql.sql"
+    ],
+    "Archief_Model": [
+        "Archief_Model.json",
+        "Archief_Model_mssql.sql",
+        "Archief_Model_oracle.sql"
+    ],
+    "Archief_Model_Indeling": [
+        "Archief_Model_Indeling.json",
+        "Archief_Model_Indeling_mssql.sql",
+        "Archief_Model_Indeling_oracle.sql"
+    ],
+    "Archief_Model_Indeling_postgres.sql": [
+        "Archief_Model_Indeling_postgres.sql"
+    ],
+    "Archief_Model_Indeling.sql": [
+        "Archief_Model_Indeling_sql.sql"
+    ],
+    "Archief_Model_postgres.sql": [
+        "Archief_Model_postgres.sql"
+    ],
+    "Archief_Model.sql": [
+        "Archief_Model_sql.sql"
+    ],
+    "Archief_Relaties_met_Kern": [
+        "Archief_Relaties_met_Kern.json",
+        "Archief_Relaties_met_Kern_mssql.sql",
+        "Archief_Relaties_met_Kern_oracle.sql"
+    ],
+    "Archief_Relaties_met_Kern_postgres.sql": [
+        "Archief_Relaties_met_Kern_postgres.sql"
+    ],
+    "Archief_Relaties_met_Kern.sql": [
+        "Archief_Relaties_met_Kern_sql.sql"
+    ],
+    "Generieke_entiteiten_Erfgoed": [
+        "Generieke_entiteiten_Erfgoed.json",
+        "Generieke_entiteiten_Erfgoed_mssql.sql",
+        "Generieke_entiteiten_Erfgoed_oracle.sql"
+    ],
+    "Generieke_entiteiten_Erfgoed_postgres.sql": [
+        "Generieke_entiteiten_Erfgoed_postgres.sql"
+    ],
+    "Generieke_entiteiten_Erfgoed.sql": [
+        "Generieke_entiteiten_Erfgoed_sql.sql"
+    ],
+    "Diagram_Monumenten": [
+        "Diagram_Monumenten.json",
+        "Diagram_Monumenten_mssql.sql",
+        "Diagram_Monumenten_oracle.sql"
+    ],
+    "Diagram_Monumenten_Detail": [
+        "Diagram_Monumenten_Detail.json",
+        "Diagram_Monumenten_Detail_mssql.sql",
+        "Diagram_Monumenten_Detail_oracle.sql"
+    ],
+    "Diagram_Monumenten_Detail_postgres.sql": [
+        "Diagram_Monumenten_Detail_postgres.sql"
+    ],
+    "Diagram_Monumenten_Detail.sql": [
+        "Diagram_Monumenten_Detail_sql.sql"
+    ],
+    "Diagram_Monumenten_postgres.sql": [
+        "Diagram_Monumenten_postgres.sql"
+    ],
+    "Diagram_Monumenten.sql": [
+        "Diagram_Monumenten_sql.sql"
+    ],
+    "Prinsenhof_Collectie": [
+        "Prinsenhof_Collectie.json",
+        "Prinsenhof_Collectie_mssql.sql",
+        "Prinsenhof_Collectie_oracle.sql"
+    ],
+    "Prinsenhof_Collectie_postgres.sql": [
+        "Prinsenhof_Collectie_postgres.sql"
+    ],
+    "Prinsenhof_Collectie.sql": [
+        "Prinsenhof_Collectie_sql.sql"
+    ],
+    "Prinsenhof_Events_en_Relaties": [
+        "Prinsenhof_Events_en_Relaties.json",
+        "Prinsenhof_Events_en_Relaties_mssql.sql",
+        "Prinsenhof_Events_en_Relaties_oracle.sql"
+    ],
+    "Prinsenhof_Events_en_Relaties_postgres.sql": [
+        "Prinsenhof_Events_en_Relaties_postgres.sql"
+    ],
+    "Prinsenhof_Events_en_Relaties.sql": [
+        "Prinsenhof_Events_en_Relaties_sql.sql"
+    ],
+    "Prinsenhof_Verkoop": [
+        "Prinsenhof_Verkoop.json",
+        "Prinsenhof_Verkoop_mssql.sql",
+        "Prinsenhof_Verkoop_oracle.sql"
+    ],
+    "Prinsenhof_Verkoop_postgres.sql": [
+        "Prinsenhof_Verkoop_postgres.sql"
+    ],
+    "Prinsenhof_Verkoop.sql": [
+        "Prinsenhof_Verkoop_sql.sql"
+    ],
+    "Diagram_Sportbeleid": [
+        "Diagram_Sportbeleid.json",
+        "Diagram_Sportbeleid_mssql.sql",
+        "Diagram_Sportbeleid_oracle.sql"
+    ],
+    "Diagram_Sportbeleid_Locaties": [
+        "Diagram_Sportbeleid_Locaties.json",
+        "Diagram_Sportbeleid_Locaties_mssql.sql",
+        "Diagram_Sportbeleid_Locaties_oracle.sql"
+    ],
+    "Diagram_Sportbeleid_Locaties_postgres.sql": [
+        "Diagram_Sportbeleid_Locaties_postgres.sql"
+    ],
+    "Diagram_Sportbeleid_Locaties.sql": [
+        "Diagram_Sportbeleid_Locaties_sql.sql"
+    ],
+    "Diagram_Sportbeleid_postgres.sql": [
+        "Diagram_Sportbeleid_postgres.sql"
+    ],
+    "Diagram_Sportbeleid.sql": [
+        "Diagram_Sportbeleid_sql.sql"
+    ],
+    "Diagram_Dakloosheid": [
+        "Diagram_Dakloosheid.json",
+        "Diagram_Dakloosheid_mssql.sql",
+        "Diagram_Dakloosheid_oracle.sql"
+    ],
+    "Diagram_Dakloosheid_postgres.sql": [
+        "Diagram_Dakloosheid_postgres.sql"
+    ],
+    "Diagram_Dakloosheid.sql": [
+        "Diagram_Dakloosheid_sql.sql"
+    ],
+    "Gemeente_Begrafenissen": [
+        "Gemeente_Begrafenissen.json",
+        "Gemeente_Begrafenissen_mssql.sql",
+        "Gemeente_Begrafenissen_oracle.sql"
+    ],
+    "Gemeente_Begrafenissen_postgres.sql": [
+        "Gemeente_Begrafenissen_postgres.sql"
+    ],
+    "Gemeente_Begrafenissen.sql": [
+        "Gemeente_Begrafenissen_sql.sql"
+    ],
+    "AanvraagOfMelding": [
+        "AanvraagOfMelding.json",
+        "AanvraagOfMelding_mssql.sql",
+        "AanvraagOfMelding_oracle.sql"
+    ],
+    "AanvraagOfMelding_postgres.sql": [
+        "AanvraagOfMelding_postgres.sql"
+    ],
+    "AanvraagOfMelding.sql": [
+        "AanvraagOfMelding_sql.sql"
+    ],
+    "Beperkingen": [
+        "Beperkingen.json",
+        "Beperkingen_mssql.sql",
+        "Beperkingen_oracle.sql"
+    ],
+    "Beperkingen_postgres.sql": [
+        "Beperkingen_postgres.sql"
+    ],
+    "Beperkingen.sql": [
+        "Beperkingen_sql.sql"
+    ],
+    "Sociaal_Domein_Beschikking_en_Voorziening__Domain_Objects": [
+        "Sociaal_Domein_Beschikking_en_Voorziening__Domain_Objects.json",
+        "Sociaal_Domein_Beschikking_en_Voorziening__Domain_Objects_mssql.sql",
+        "Sociaal_Domein_Beschikking_en_Voorziening__Domain_Objects_oracle.sql"
+    ],
+    "Sociaal_Domein_Beschikking_en_Voorziening__Domain_Objects_postgres.sql": [
+        "Sociaal_Domein_Beschikking_en_Voorziening__Domain_Objects_postgres.sql"
+    ],
+    "Sociaal_Domein_Beschikking_en_Voorziening__Domain_Objects.sql": [
+        "Sociaal_Domein_Beschikking_en_Voorziening__Domain_Objects_sql.sql"
+    ],
+    "Verplichtingen": [
+        "Verplichtingen.json",
+        "Verplichtingen_mssql.sql",
+        "Verplichtingen_oracle.sql"
+    ],
+    "Verplichtingen_postgres.sql": [
+        "Verplichtingen_postgres.sql"
+    ],
+    "Verplichtingen.sql": [
+        "Verplichtingen_sql.sql"
+    ],
+    "Inburgering": [
+        "Inburgering.json",
+        "Inburgering_mssql.sql",
+        "Inburgering_oracle.sql"
+    ],
+    "Inburgering_postgres.sql": [
+        "Inburgering_postgres.sql"
+    ],
+    "Inburgering.sql": [
+        "Inburgering_sql.sql"
+    ],
+    "Leerroute": [
+        "Leerroute.json",
+        "Leerroute_mssql.sql",
+        "Leerroute_oracle.sql"
+    ],
+    "Leerroute_postgres.sql": [
+        "Leerroute_postgres.sql"
+    ],
+    "Leerroute.sql": [
+        "Leerroute_sql.sql"
+    ],
+    "Diagram_Diensten": [
+        "Diagram_Diensten.json",
+        "Diagram_Diensten_mssql.sql",
+        "Diagram_Diensten_oracle.sql"
+    ],
+    "Diagram_Diensten_postgres.sql": [
+        "Diagram_Diensten_postgres.sql"
+    ],
+    "Diagram_Diensten.sql": [
+        "Diagram_Diensten_sql.sql"
+    ],
+    "Diagram_Basismodel_Inkomen": [
+        "Diagram_Basismodel_Inkomen.json",
+        "Diagram_Basismodel_Inkomen_mssql.sql",
+        "Diagram_Basismodel_Inkomen_oracle.sql"
+    ],
+    "Diagram_Basismodel_Inkomen_postgres.sql": [
+        "Diagram_Basismodel_Inkomen_postgres.sql"
+    ],
+    "Diagram_Basismodel_Inkomen.sql": [
+        "Diagram_Basismodel_Inkomen_sql.sql"
+    ],
+    "Diagram_GGM_en_Inkomen": [
+        "Diagram_GGM_en_Inkomen.json",
+        "Diagram_GGM_en_Inkomen_mssql.sql",
+        "Diagram_GGM_en_Inkomen_oracle.sql"
+    ],
+    "Diagram_GGM_en_Inkomen_postgres.sql": [
+        "Diagram_GGM_en_Inkomen_postgres.sql"
+    ],
+    "Diagram_GGM_en_Inkomen.sql": [
+        "Diagram_GGM_en_Inkomen_sql.sql"
+    ],
+    "In-_en_uitstroom_inkomensvoorziening": [
+        "In-_en_uitstroom_inkomensvoorziening.json",
+        "In-_en_uitstroom_inkomensvoorziening_mssql.sql",
+        "In-_en_uitstroom_inkomensvoorziening_oracle.sql"
+    ],
+    "In-_en_uitstroom_inkomensvoorziening_postgres.sql": [
+        "In-_en_uitstroom_inkomensvoorziening_postgres.sql"
+    ],
+    "In-_en_uitstroom_inkomensvoorziening.sql": [
+        "In-_en_uitstroom_inkomensvoorziening_sql.sql"
+    ],
+    "Normafwijking": [
+        "Normafwijking.json",
+        "Normafwijking_mssql.sql",
+        "Normafwijking_oracle.sql"
+    ],
+    "Normafwijking_postgres.sql": [
+        "Normafwijking_postgres.sql"
+    ],
+    "Normafwijking.sql": [
+        "Normafwijking_sql.sql"
+    ],
+    "Reden_aanvraag-_overzicht": [
+        "Reden_aanvraag-_overzicht.json",
+        "Reden_aanvraag-_overzicht_mssql.sql",
+        "Reden_aanvraag-_overzicht_oracle.sql"
+    ],
+    "Reden_aanvraag-_overzicht_postgres.sql": [
+        "Reden_aanvraag-_overzicht_postgres.sql"
+    ],
+    "Reden_aanvraag-_overzicht.sql": [
+        "Reden_aanvraag-_overzicht_sql.sql"
+    ],
+    "Diagram_Terug-_en_invordering": [
+        "Diagram_Terug-_en_invordering.json",
+        "Diagram_Terug-_en_invordering_mssql.sql",
+        "Diagram_Terug-_en_invordering_oracle.sql"
+    ],
+    "Diagram_Terug-_en_invordering_postgres.sql": [
+        "Diagram_Terug-_en_invordering_postgres.sql"
+    ],
+    "Diagram_Terug-_en_invordering.sql": [
+        "Diagram_Terug-_en_invordering_sql.sql"
+    ],
+    "Zorgmelding": [
+        "Zorgmelding.json",
+        "Zorgmelding_mssql.sql",
+        "Zorgmelding_oracle.sql"
+    ],
+    "Zorgmelding_Detail": [
+        "Zorgmelding_Detail.json",
+        "Zorgmelding_Detail_mssql.sql",
+        "Zorgmelding_Detail_oracle.sql"
+    ],
+    "Zorgmelding_Detail_postgres.sql": [
+        "Zorgmelding_Detail_postgres.sql"
+    ],
+    "Zorgmelding_Detail.sql": [
+        "Zorgmelding_Detail_sql.sql"
+    ],
+    "Zorgmelding_postgres.sql": [
+        "Zorgmelding_postgres.sql"
+    ],
+    "Zorgmelding.sql": [
+        "Zorgmelding_sql.sql"
+    ],
+    "Schuldhulpproces": [
+        "Schuldhulpproces.json",
+        "Schuldhulpproces_mssql.sql",
+        "Schuldhulpproces_oracle.sql"
+    ],
+    "Schuldhulpproces_postgres.sql": [
+        "Schuldhulpproces_postgres.sql"
+    ],
+    "Schuldhulpproces.sql": [
+        "Schuldhulpproces_sql.sql"
+    ],
+    "Schuldhulp_Client": [
+        "Schuldhulp_Client.json",
+        "Schuldhulp_Client_mssql.sql",
+        "Schuldhulp_Client_oracle.sql"
+    ],
+    "Schuldhulp_Client_postgres.sql": [
+        "Schuldhulp_Client_postgres.sql"
+    ],
+    "Schuldhulp_Client.sql": [
+        "Schuldhulp_Client_sql.sql"
+    ],
+    "Schuldhulp_Hoofdlijnen": [
+        "Schuldhulp_Hoofdlijnen.json",
+        "Schuldhulp_Hoofdlijnen_mssql.sql",
+        "Schuldhulp_Hoofdlijnen_oracle.sql"
+    ],
+    "Schuldhulp_Hoofdlijnen_postgres.sql": [
+        "Schuldhulp_Hoofdlijnen_postgres.sql"
+    ],
+    "Schuldhulp_Hoofdlijnen.sql": [
+        "Schuldhulp_Hoofdlijnen_sql.sql"
+    ],
+    "Schuldhulp_Schuldhulporganisatie": [
+        "Schuldhulp_Schuldhulporganisatie.json",
+        "Schuldhulp_Schuldhulporganisatie_mssql.sql",
+        "Schuldhulp_Schuldhulporganisatie_oracle.sql"
+    ],
+    "Schuldhulp_Schuldhulporganisatie_postgres.sql": [
+        "Schuldhulp_Schuldhulporganisatie_postgres.sql"
+    ],
+    "Schuldhulp_Schuldhulporganisatie.sql": [
+        "Schuldhulp_Schuldhulporganisatie_sql.sql"
+    ],
+    "Vroegsignalering": [
+        "Vroegsignalering.json",
+        "Vroegsignalering_mssql.sql",
+        "Vroegsignalering_oracle.sql"
+    ],
+    "Vroegsignalering_Details": [
+        "Vroegsignalering_Details.json",
+        "Vroegsignalering_Details_mssql.sql",
+        "Vroegsignalering_Details_oracle.sql"
+    ],
+    "Vroegsignalering_Details_postgres.sql": [
+        "Vroegsignalering_Details_postgres.sql"
+    ],
+    "Vroegsignalering_Details.sql": [
+        "Vroegsignalering_Details_sql.sql"
+    ],
+    "Vroegsignalering_Klein": [
+        "Vroegsignalering_Klein.json",
+        "Vroegsignalering_Klein_mssql.sql",
+        "Vroegsignalering_Klein_oracle.sql"
+    ],
+    "Vroegsignalering_Klein_postgres.sql": [
+        "Vroegsignalering_Klein_postgres.sql"
+    ],
+    "Vroegsignalering_Klein.sql": [
+        "Vroegsignalering_Klein_sql.sql"
+    ],
+    "Vroegsignalering_postgres.sql": [
+        "Vroegsignalering_postgres.sql"
+    ],
+    "Vroegsignalering.sql": [
+        "Vroegsignalering_sql.sql"
+    ],
+    "Diagram_Inkomsten": [
+        "Diagram_Inkomsten.json",
+        "Diagram_Inkomsten_mssql.sql",
+        "Diagram_Inkomsten_oracle.sql"
+    ],
+    "Diagram_Inkomsten_postgres.sql": [
+        "Diagram_Inkomsten_postgres.sql"
+    ],
+    "Diagram_Inkomsten.sql": [
+        "Diagram_Inkomsten_sql.sql"
+    ],
+    "Diagram_Profiel": [
+        "Diagram_Profiel.json",
+        "Diagram_Profiel_mssql.sql",
+        "Diagram_Profiel_oracle.sql"
+    ],
+    "Diagram_Profiel_postgres.sql": [
+        "Diagram_Profiel_postgres.sql"
+    ],
+    "Diagram_Profiel.sql": [
+        "Diagram_Profiel_sql.sql"
+    ],
+    "Diagram_Vermogen": [
+        "Diagram_Vermogen.json",
+        "Diagram_Vermogen_mssql.sql",
+        "Diagram_Vermogen_oracle.sql"
+    ],
+    "Diagram_Vermogen_postgres.sql": [
+        "Diagram_Vermogen_postgres.sql"
+    ],
+    "Diagram_Vermogen.sql": [
+        "Diagram_Vermogen_sql.sql"
+    ],
+    "Gezag": [
+        "Gezag.json",
+        "Gezag_mssql.sql",
+        "Gezag_oracle.sql"
+    ],
+    "Gezag_postgres.sql": [
+        "Gezag_postgres.sql"
+    ],
+    "Gezag.sql": [
+        "Gezag_sql.sql"
+    ],
+    "Huishouden_en_Huwelijk": [
+        "Huishouden_en_Huwelijk.json",
+        "Huishouden_en_Huwelijk_mssql.sql",
+        "Huishouden_en_Huwelijk_oracle.sql"
+    ],
+    "Huishouden_en_Huwelijk_postgres.sql": [
+        "Huishouden_en_Huwelijk_postgres.sql"
+    ],
+    "Huishouden_en_Huwelijk.sql": [
+        "Huishouden_en_Huwelijk_sql.sql"
+    ],
+    "Relaties_Sociaal_Domein_tot_Kern": [
+        "Relaties_Sociaal_Domein_tot_Kern.json",
+        "Relaties_Sociaal_Domein_tot_Kern_mssql.sql",
+        "Relaties_Sociaal_Domein_tot_Kern_oracle.sql"
+    ],
+    "Relaties_Sociaal_Domein_tot_Kern_postgres.sql": [
+        "Relaties_Sociaal_Domein_tot_Kern_postgres.sql"
+    ],
+    "Relaties_Sociaal_Domein_tot_Kern.sql": [
+        "Relaties_Sociaal_Domein_tot_Kern_sql.sql"
+    ],
+    "Relaties_tot_kern_details": [
+        "Relaties_tot_kern_details.json",
+        "Relaties_tot_kern_details_mssql.sql",
+        "Relaties_tot_kern_details_oracle.sql"
+    ],
+    "Relaties_tot_kern_details_postgres.sql": [
+        "Relaties_tot_kern_details_postgres.sql"
+    ],
+    "Relaties_tot_kern_details.sql": [
+        "Relaties_tot_kern_details_sql.sql"
+    ],
+    "Sociaal_Domein_Domain": [
+        "Sociaal_Domein_Domain.json",
+        "Sociaal_Domein_Domain_mssql.sql",
+        "Sociaal_Domein_Domain_oracle.sql"
+    ],
+    "Sociaal_Domein_Domain_postgres.sql": [
+        "Sociaal_Domein_Domain_postgres.sql"
+    ],
+    "Sociaal_Domein_Domain.sql": [
+        "Sociaal_Domein_Domain_sql.sql"
+    ],
+    "Sociale_Relaties": [
+        "Sociale_Relaties.json",
+        "Sociale_Relaties_mssql.sql",
+        "Sociale_Relaties_oracle.sql"
+    ],
+    "Sociale_Relaties_postgres.sql": [
+        "Sociale_Relaties_postgres.sql"
+    ],
+    "Sociale_Relaties.sql": [
+        "Sociale_Relaties_sql.sql"
+    ],
+    "Sociale_team_Domeinmodel": [
+        "Sociale_team_Domeinmodel.json",
+        "Sociale_team_Domeinmodel_mssql.sql",
+        "Sociale_team_Domeinmodel_oracle.sql"
+    ],
+    "Sociale_team_Domeinmodel_postgres.sql": [
+        "Sociale_team_Domeinmodel_postgres.sql"
+    ],
+    "Sociale_team_Domeinmodel.sql": [
+        "Sociale_team_Domeinmodel_sql.sql"
+    ],
+    "Detaildiagram_Werk": [
+        "Detaildiagram_Werk.json",
+        "Detaildiagram_Werk_mssql.sql",
+        "Detaildiagram_Werk_oracle.sql"
+    ],
+    "Detaildiagram_Werk_postgres.sql": [
+        "Detaildiagram_Werk_postgres.sql"
+    ],
+    "Detaildiagram_Werk.sql": [
+        "Detaildiagram_Werk_sql.sql"
+    ],
+    "Diagram_Client_en_Werkzoekende": [
+        "Diagram_Client_en_Werkzoekende.json",
+        "Diagram_Client_en_Werkzoekende_mssql.sql",
+        "Diagram_Client_en_Werkzoekende_oracle.sql"
+    ],
+    "Diagram_Client_en_Werkzoekende_postgres.sql": [
+        "Diagram_Client_en_Werkzoekende_postgres.sql"
+    ],
+    "Diagram_Client_en_Werkzoekende.sql": [
+        "Diagram_Client_en_Werkzoekende_sql.sql"
+    ],
+    "Diagram_Afval_Meldingen": [
+        "Diagram_Afval_Meldingen.json",
+        "Diagram_Afval_Meldingen_mssql.sql",
+        "Diagram_Afval_Meldingen_oracle.sql"
+    ],
+    "Diagram_Afval_Meldingen_postgres.sql": [
+        "Diagram_Afval_Meldingen_postgres.sql"
+    ],
+    "Diagram_Afval_Meldingen.sql": [
+        "Diagram_Afval_Meldingen_sql.sql"
+    ],
+    "Diagram_Afval_Milieustraat": [
+        "Diagram_Afval_Milieustraat.json",
+        "Diagram_Afval_Milieustraat_mssql.sql",
+        "Diagram_Afval_Milieustraat_oracle.sql"
+    ],
+    "Diagram_Afval_Milieustraat_postgres.sql": [
+        "Diagram_Afval_Milieustraat_postgres.sql"
+    ],
+    "Diagram_Afval_Milieustraat.sql": [
+        "Diagram_Afval_Milieustraat_sql.sql"
+    ],
+    "Diagram_Afval_Ophalen": [
+        "Diagram_Afval_Ophalen.json",
+        "Diagram_Afval_Ophalen_mssql.sql",
+        "Diagram_Afval_Ophalen_oracle.sql"
+    ],
+    "Diagram_Afval_Ophalen_postgres.sql": [
+        "Diagram_Afval_Ophalen_postgres.sql"
+    ],
+    "Diagram_Afval_Ophalen.sql": [
+        "Diagram_Afval_Ophalen_sql.sql"
+    ],
+    "Adresseerbare_Objecten": [
+        "Adresseerbare_Objecten.json",
+        "Adresseerbare_Objecten_mssql.sql",
+        "Adresseerbare_Objecten_oracle.sql"
+    ],
+    "Adresseerbare_Objecten_postgres.sql": [
+        "Adresseerbare_Objecten_postgres.sql"
+    ],
+    "Adresseerbare_Objecten.sql": [
+        "Adresseerbare_Objecten_sql.sql"
+    ],
+    "Diagram_IMBOR_vs_IMGeo": [
+        "Diagram_IMBOR_vs_IMGeo.json",
+        "Diagram_IMBOR_vs_IMGeo_mssql.sql",
+        "Diagram_IMBOR_vs_IMGeo_oracle.sql"
+    ],
+    "Diagram_IMBOR_vs_IMGeo_postgres.sql": [
+        "Diagram_IMBOR_vs_IMGeo_postgres.sql"
+    ],
+    "Diagram_IMBOR_vs_IMGeo.sql": [
+        "Diagram_IMBOR_vs_IMGeo_sql.sql"
+    ],
+    "Hoofdobjecten_IMBOR_en_Geo-object": [
+        "Hoofdobjecten_IMBOR_en_Geo-object.json",
+        "Hoofdobjecten_IMBOR_en_Geo-object_mssql.sql",
+        "Hoofdobjecten_IMBOR_en_Geo-object_oracle.sql"
+    ],
+    "Hoofdobjecten_IMBOR_en_Geo-object_postgres.sql": [
+        "Hoofdobjecten_IMBOR_en_Geo-object_postgres.sql"
+    ],
+    "Hoofdobjecten_IMBOR_en_Geo-object.sql": [
+        "Hoofdobjecten_IMBOR_en_Geo-object_sql.sql"
+    ],
+    "Hoofdobjecten_IMGeo_en_Beheerobjecten": [
+        "Hoofdobjecten_IMGeo_en_Beheerobjecten.json",
+        "Hoofdobjecten_IMGeo_en_Beheerobjecten_mssql.sql",
+        "Hoofdobjecten_IMGeo_en_Beheerobjecten_oracle.sql"
+    ],
+    "Hoofdobjecten_IMGeo_en_Beheerobjecten_postgres.sql": [
+        "Hoofdobjecten_IMGeo_en_Beheerobjecten_postgres.sql"
+    ],
+    "Hoofdobjecten_IMGeo_en_Beheerobjecten.sql": [
+        "Hoofdobjecten_IMGeo_en_Beheerobjecten_sql.sql"
+    ],
+    "Meldingen_Graafwerkzaamheden": [
+        "Meldingen_Graafwerkzaamheden.json",
+        "Meldingen_Graafwerkzaamheden_mssql.sql",
+        "Meldingen_Graafwerkzaamheden_oracle.sql"
+    ],
+    "Meldingen_Graafwerkzaamheden_postgres.sql": [
+        "Meldingen_Graafwerkzaamheden_postgres.sql"
+    ],
+    "Meldingen_Graafwerkzaamheden.sql": [
+        "Meldingen_Graafwerkzaamheden_sql.sql"
+    ],
+    "Ruimte_Adressen,_gebouwen_en_terreinen": [
+        "Ruimte_Adressen,_gebouwen_en_terreinen.json",
+        "Ruimte_Adressen,_gebouwen_en_terreinen_mssql.sql",
+        "Ruimte_Adressen,_gebouwen_en_terreinen_oracle.sql"
+    ],
+    "Ruimte_Adressen,_gebouwen_en_terreinen_postgres.sql": [
+        "Ruimte_Adressen,_gebouwen_en_terreinen_postgres.sql"
+    ],
+    "Ruimte_Adressen,_gebouwen_en_terreinen.sql": [
+        "Ruimte_Adressen,_gebouwen_en_terreinen_sql.sql"
+    ],
+    "Ruimte_WOZ_en_Benoemd_Object": [
+        "Ruimte_WOZ_en_Benoemd_Object.json",
+        "Ruimte_WOZ_en_Benoemd_Object_mssql.sql",
+        "Ruimte_WOZ_en_Benoemd_Object_oracle.sql"
+    ],
+    "Ruimte_WOZ_en_Benoemd_Object_postgres.sql": [
+        "Ruimte_WOZ_en_Benoemd_Object_postgres.sql"
+    ],
+    "Ruimte_WOZ_en_Benoemd_Object.sql": [
+        "Ruimte_WOZ_en_Benoemd_Object_sql.sql"
+    ],
+    "Schouwrondes_Beheersobjecten": [
+        "Schouwrondes_Beheersobjecten.json",
+        "Schouwrondes_Beheersobjecten_mssql.sql",
+        "Schouwrondes_Beheersobjecten_oracle.sql"
+    ],
+    "Schouwrondes_Beheersobjecten_postgres.sql": [
+        "Schouwrondes_Beheersobjecten_postgres.sql"
+    ],
+    "Schouwrondes_Beheersobjecten.sql": [
+        "Schouwrondes_Beheersobjecten_sql.sql"
+    ],
+    "Schouwrondes_en_Arealen": [
+        "Schouwrondes_en_Arealen.json",
+        "Schouwrondes_en_Arealen_mssql.sql",
+        "Schouwrondes_en_Arealen_oracle.sql"
+    ],
+    "Schouwrondes_en_Arealen_postgres.sql": [
+        "Schouwrondes_en_Arealen_postgres.sql"
+    ],
+    "Schouwrondes_en_Arealen.sql": [
+        "Schouwrondes_en_Arealen_sql.sql"
+    ],
+    "Woningbouwprojecten": [
+        "Woningbouwprojecten.json",
+        "Woningbouwprojecten_mssql.sql",
+        "Woningbouwprojecten_oracle.sql"
+    ],
+    "Woningbouwprojecten_postgres.sql": [
+        "Woningbouwprojecten_postgres.sql"
+    ],
+    "Woningbouwprojecten.sql": [
+        "Woningbouwprojecten_sql.sql"
+    ],
+    "MOR_2.0": [
+        "MOR_2.0.json",
+        "MOR_2.0_mssql.sql",
+        "MOR_2.0_oracle.sql"
+    ],
+    "MOR_2.0_postgres.sql": [
+        "MOR_2.0_postgres.sql"
+    ],
+    "MOR_2.0.sql": [
+        "MOR_2.0_sql.sql"
+    ],
+    "Omgevingswet_Juridische_Regels_(CIMOW)": [
+        "Omgevingswet_Juridische_Regels_(CIMOW).json",
+        "Omgevingswet_Juridische_Regels_(CIMOW)_mssql.sql",
+        "Omgevingswet_Juridische_Regels_(CIMOW)_oracle.sql"
+    ],
+    "Omgevingswet_Juridische_Regels_(CIMOW)_postgres.sql": [
+        "Omgevingswet_Juridische_Regels_(CIMOW)_postgres.sql"
+    ],
+    "Omgevingswet_Juridische_Regels_(CIMOW).sql": [
+        "Omgevingswet_Juridische_Regels_(CIMOW)_sql.sql"
+    ],
+    "Omgevingswet_Juridsiche_regels_en_Idealisatie_en_Thema_(CIMOW)": [
+        "Omgevingswet_Juridsiche_regels_en_Idealisatie_en_Thema_(CIMOW).json",
+        "Omgevingswet_Juridsiche_regels_en_Idealisatie_en_Thema_(CIMOW)_mssql.sql",
+        "Omgevingswet_Juridsiche_regels_en_Idealisatie_en_Thema_(CIMOW)_oracle.sql"
+    ],
+    "Omgevingswet_Juridsiche_regels_en_Idealisatie_en_Thema_(CIMOW)_postgres.sql": [
+        "Omgevingswet_Juridsiche_regels_en_Idealisatie_en_Thema_(CIMOW)_postgres.sql"
+    ],
+    "Omgevingswet_Juridsiche_regels_en_Idealisatie_en_Thema_(CIMOW).sql": [
+        "Omgevingswet_Juridsiche_regels_en_Idealisatie_en_Thema_(CIMOW)_sql.sql"
+    ],
+    "Omgevingswet_Omgevingsplan_StOP_TPOD": [
+        "Omgevingswet_Omgevingsplan_StOP_TPOD.json",
+        "Omgevingswet_Omgevingsplan_StOP_TPOD_mssql.sql",
+        "Omgevingswet_Omgevingsplan_StOP_TPOD_oracle.sql"
+    ],
+    "Omgevingswet_Omgevingsplan_StOP_TPOD_postgres.sql": [
+        "Omgevingswet_Omgevingsplan_StOP_TPOD_postgres.sql"
+    ],
+    "Omgevingswet_Omgevingsplan_StOP_TPOD.sql": [
+        "Omgevingswet_Omgevingsplan_StOP_TPOD_sql.sql"
+    ],
+    "Omgevingswet_Toepasbare_Regels": [
+        "Omgevingswet_Toepasbare_Regels.json",
+        "Omgevingswet_Toepasbare_Regels_mssql.sql",
+        "Omgevingswet_Toepasbare_Regels_oracle.sql"
+    ],
+    "Omgevingswet_Toepasbare_Regels_postgres.sql": [
+        "Omgevingswet_Toepasbare_Regels_postgres.sql"
+    ],
+    "Omgevingswet_Toepasbare_Regels.sql": [
+        "Omgevingswet_Toepasbare_Regels_sql.sql"
+    ],
+    "Omgevingswet_Verzoeken_(IMAM)": [
+        "Omgevingswet_Verzoeken_(IMAM).json",
+        "Omgevingswet_Verzoeken_(IMAM)_mssql.sql",
+        "Omgevingswet_Verzoeken_(IMAM)_oracle.sql"
+    ],
+    "Omgevingswet_Verzoeken_(IMAM)_postgres.sql": [
+        "Omgevingswet_Verzoeken_(IMAM)_postgres.sql"
+    ],
+    "Omgevingswet_Verzoeken_(IMAM).sql": [
+        "Omgevingswet_Verzoeken_(IMAM)_sql.sql"
+    ],
+    "Omgevingswet_Verzoek_Activiteit_op_Locatie": [
+        "Omgevingswet_Verzoek_Activiteit_op_Locatie.json",
+        "Omgevingswet_Verzoek_Activiteit_op_Locatie_mssql.sql",
+        "Omgevingswet_Verzoek_Activiteit_op_Locatie_oracle.sql"
+    ],
+    "Omgevingswet_Verzoek_Activiteit_op_Locatie_postgres.sql": [
+        "Omgevingswet_Verzoek_Activiteit_op_Locatie_postgres.sql"
+    ],
+    "Omgevingswet_Verzoek_Activiteit_op_Locatie.sql": [
+        "Omgevingswet_Verzoek_Activiteit_op_Locatie_sql.sql"
+    ],
+    "Omgevingswet_Verzoek_met_Project_(IMAM)": [
+        "Omgevingswet_Verzoek_met_Project_(IMAM).json",
+        "Omgevingswet_Verzoek_met_Project_(IMAM)_mssql.sql",
+        "Omgevingswet_Verzoek_met_Project_(IMAM)_oracle.sql"
+    ],
+    "Omgevingswet_Verzoek_met_Project_(IMAM)_postgres.sql": [
+        "Omgevingswet_Verzoek_met_Project_(IMAM)_postgres.sql"
+    ],
+    "Omgevingswet_Verzoek_met_Project_(IMAM).sql": [
+        "Omgevingswet_Verzoek_met_Project_(IMAM)_sql.sql"
+    ],
+    "Financien_Begroting_en_Budgetverantwoordelijkheid": [
+        "Financien_Begroting_en_Budgetverantwoordelijkheid.json",
+        "Financien_Begroting_en_Budgetverantwoordelijkheid_mssql.sql",
+        "Financien_Begroting_en_Budgetverantwoordelijkheid_oracle.sql"
+    ],
+    "Financien_Begroting_en_Budgetverantwoordelijkheid_postgres.sql": [
+        "Financien_Begroting_en_Budgetverantwoordelijkheid_postgres.sql"
+    ],
+    "Financien_Begroting_en_Budgetverantwoordelijkheid.sql": [
+        "Financien_Begroting_en_Budgetverantwoordelijkheid_sql.sql"
+    ],
+    "Financien_Personen": [
+        "Financien_Personen.json",
+        "Financien_Personen_mssql.sql",
+        "Financien_Personen_oracle.sql"
+    ],
+    "Financien_Personen_postgres.sql": [
+        "Financien_Personen_postgres.sql"
+    ],
+    "Financien_Personen.sql": [
+        "Financien_Personen_sql.sql"
+    ],
+    "Financien_Verplichtingen_en_Facturen": [
+        "Financien_Verplichtingen_en_Facturen.json",
+        "Financien_Verplichtingen_en_Facturen_mssql.sql",
+        "Financien_Verplichtingen_en_Facturen_oracle.sql"
+    ],
+    "Financien_Verplichtingen_en_Facturen_postgres.sql": [
+        "Financien_Verplichtingen_en_Facturen_postgres.sql"
+    ],
+    "Financien_Verplichtingen_en_Facturen.sql": [
+        "Financien_Verplichtingen_en_Facturen_sql.sql"
+    ],
+    "Financien_Verwerken_Mutaties": [
+        "Financien_Verwerken_Mutaties.json",
+        "Financien_Verwerken_Mutaties_mssql.sql",
+        "Financien_Verwerken_Mutaties_oracle.sql"
+    ],
+    "Financien_Verwerken_Mutaties_postgres.sql": [
+        "Financien_Verwerken_Mutaties_postgres.sql"
+    ],
+    "Financien_Verwerken_Mutaties.sql": [
+        "Financien_Verwerken_Mutaties_sql.sql"
+    ],
+    "Bezetting_en_Formatie": [
+        "Bezetting_en_Formatie.json",
+        "Bezetting_en_Formatie_mssql.sql",
+        "Bezetting_en_Formatie_oracle.sql"
+    ],
+    "Bezetting_en_Formatie_postgres.sql": [
+        "Bezetting_en_Formatie_postgres.sql"
+    ],
+    "Bezetting_en_Formatie.sql": [
+        "Bezetting_en_Formatie_sql.sql"
+    ],
+    "Domain_Objects": [
+        "Domain_Objects.json",
+        "Domain_Objects_mssql.sql",
+        "Domain_Objects_oracle.sql"
+    ],
+    "Domain_Objects_postgres.sql": [
+        "Domain_Objects_postgres.sql"
+    ],
+    "Domain_Objects.sql": [
+        "Domain_Objects_sql.sql"
+    ],
+    "Relaties_met_Kern": [
+        "Relaties_met_Kern.json",
+        "Relaties_met_Kern_mssql.sql",
+        "Relaties_met_Kern_oracle.sql"
+    ],
+    "Relaties_met_Kern_postgres.sql": [
+        "Relaties_met_Kern_postgres.sql"
+    ],
+    "Relaties_met_Kern.sql": [
+        "Relaties_met_Kern_sql.sql"
+    ],
+    "Sollicitaties": [
+        "Sollicitaties.json",
+        "Sollicitaties_mssql.sql",
+        "Sollicitaties_oracle.sql"
+    ],
+    "Sollicitaties_postgres.sql": [
+        "Sollicitaties_postgres.sql"
+    ],
+    "Sollicitaties.sql": [
+        "Sollicitaties_sql.sql"
+    ],
+    "Basismodel_CMDB-Items": [
+        "Basismodel_CMDB-Items.json",
+        "Basismodel_CMDB-Items_mssql.sql",
+        "Basismodel_CMDB-Items_oracle.sql"
+    ],
+    "Basismodel_CMDB-Items_Diversen": [
+        "Basismodel_CMDB-Items_Diversen.json",
+        "Basismodel_CMDB-Items_Diversen_mssql.sql",
+        "Basismodel_CMDB-Items_Diversen_oracle.sql"
+    ],
+    "Basismodel_CMDB-Items_Diversen_postgres.sql": [
+        "Basismodel_CMDB-Items_Diversen_postgres.sql"
+    ],
+    "Basismodel_CMDB-Items_Diversen.sql": [
+        "Basismodel_CMDB-Items_Diversen_sql.sql"
+    ],
+    "Basismodel_CMDB-Items_postgres.sql": [
+        "Basismodel_CMDB-Items_postgres.sql"
+    ],
+    "Basismodel_CMDB-Items.sql": [
+        "Basismodel_CMDB-Items_sql.sql"
+    ],
+    "Basismodel_ICT_Applicatie_en_Gegevens": [
+        "Basismodel_ICT_Applicatie_en_Gegevens.json",
+        "Basismodel_ICT_Applicatie_en_Gegevens_mssql.sql",
+        "Basismodel_ICT_Applicatie_en_Gegevens_oracle.sql"
+    ],
+    "Basismodel_ICT_Applicatie_en_Gegevens_postgres.sql": [
+        "Basismodel_ICT_Applicatie_en_Gegevens_postgres.sql"
+    ],
+    "Basismodel_ICT_Applicatie_en_Gegevens.sql": [
+        "Basismodel_ICT_Applicatie_en_Gegevens_sql.sql"
+    ],
+    "Diagram_Domeinen,_PDC_en_zaken": [
+        "Diagram_Domeinen,_PDC_en_zaken.json",
+        "Diagram_Domeinen,_PDC_en_zaken_mssql.sql",
+        "Diagram_Domeinen,_PDC_en_zaken_oracle.sql"
+    ],
+    "Diagram_Domeinen,_PDC_en_zaken_postgres.sql": [
+        "Diagram_Domeinen,_PDC_en_zaken_postgres.sql"
+    ],
+    "Diagram_Domeinen,_PDC_en_zaken.sql": [
+        "Diagram_Domeinen,_PDC_en_zaken_sql.sql"
+    ],
+    "Diagram_Inkoop_Geen_Inhuur": [
+        "Diagram_Inkoop_Geen_Inhuur.json",
+        "Diagram_Inkoop_Geen_Inhuur_mssql.sql",
+        "Diagram_Inkoop_Geen_Inhuur_oracle.sql"
+    ],
+    "Diagram_Inkoop_Geen_Inhuur_postgres.sql": [
+        "Diagram_Inkoop_Geen_Inhuur_postgres.sql"
+    ],
+    "Diagram_Inkoop_Geen_Inhuur.sql": [
+        "Diagram_Inkoop_Geen_Inhuur_sql.sql"
+    ],
+    "Diagram_Inkoop_Inhuur": [
+        "Diagram_Inkoop_Inhuur.json",
+        "Diagram_Inkoop_Inhuur_mssql.sql",
+        "Diagram_Inkoop_Inhuur_oracle.sql"
+    ],
+    "Diagram_Inkoop_Inhuur_postgres.sql": [
+        "Diagram_Inkoop_Inhuur_postgres.sql"
+    ],
+    "Diagram_Inkoop_Inhuur.sql": [
+        "Diagram_Inkoop_Inhuur_sql.sql"
+    ],
+    "Diagram_Verlengen_Inhuur": [
+        "Diagram_Verlengen_Inhuur.json",
+        "Diagram_Verlengen_Inhuur_mssql.sql",
+        "Diagram_Verlengen_Inhuur_oracle.sql"
+    ],
+    "Diagram_Verlengen_Inhuur_postgres.sql": [
+        "Diagram_Verlengen_Inhuur_postgres.sql"
+    ],
+    "Diagram_Verlengen_Inhuur.sql": [
+        "Diagram_Verlengen_Inhuur_sql.sql"
+    ],
+    "Subsidies": [
+        "Subsidies.json",
+        "Subsidies_mssql.sql",
+        "Subsidies_oracle.sql"
+    ],
+    "Subsidies_postgres.sql": [
+        "Subsidies_postgres.sql"
+    ],
+    "Subsidies.sql": [
+        "Subsidies_sql.sql"
+    ],
+    "Subsidie_en_Kostenplaats": [
+        "Subsidie_en_Kostenplaats.json",
+        "Subsidie_en_Kostenplaats_mssql.sql",
+        "Subsidie_en_Kostenplaats_oracle.sql"
+    ],
+    "Subsidie_en_Kostenplaats_postgres.sql": [
+        "Subsidie_en_Kostenplaats_postgres.sql"
+    ],
+    "Subsidie_en_Kostenplaats.sql": [
+        "Subsidie_en_Kostenplaats_sql.sql"
+    ],
+    "POC_Vastgoed": [
+        "POC_Vastgoed.json",
+        "POC_Vastgoed_mssql.sql",
+        "POC_Vastgoed_oracle.sql"
+    ],
+    "POC_Vastgoed_postgres.sql": [
+        "POC_Vastgoed_postgres.sql"
+    ],
+    "POC_Vastgoed.sql": [
+        "POC_Vastgoed_sql.sql"
+    ],
+    "Vastgoed_Domeinmodel": [
+        "Vastgoed_Domeinmodel.json",
+        "Vastgoed_Domeinmodel_mssql.sql",
+        "Vastgoed_Domeinmodel_oracle.sql"
+    ],
+    "Vastgoed_Domeinmodel_postgres.sql": [
+        "Vastgoed_Domeinmodel_postgres.sql"
+    ],
+    "Vastgoed_Domeinmodel.sql": [
+        "Vastgoed_Domeinmodel_sql.sql"
+    ],
+    "Vastgoed_Leveranciers": [
+        "Vastgoed_Leveranciers.json",
+        "Vastgoed_Leveranciers_mssql.sql",
+        "Vastgoed_Leveranciers_oracle.sql"
+    ],
+    "Vastgoed_Leveranciers_postgres.sql": [
+        "Vastgoed_Leveranciers_postgres.sql"
+    ],
+    "Vastgoed_Leveranciers.sql": [
+        "Vastgoed_Leveranciers_sql.sql"
+    ],
+    "Vastgoed_Relaties_met_Kern": [
+        "Vastgoed_Relaties_met_Kern.json",
+        "Vastgoed_Relaties_met_Kern_mssql.sql",
+        "Vastgoed_Relaties_met_Kern_oracle.sql"
+    ],
+    "Vastgoed_Relaties_met_Kern_postgres.sql": [
+        "Vastgoed_Relaties_met_Kern_postgres.sql"
+    ],
+    "Vastgoed_Relaties_met_Kern.sql": [
+        "Vastgoed_Relaties_met_Kern_sql.sql"
+    ],
+    "Vastgoed_verankering_RSGB_IMBAG": [
+        "Vastgoed_verankering_RSGB_IMBAG.json",
+        "Vastgoed_verankering_RSGB_IMBAG_mssql.sql",
+        "Vastgoed_verankering_RSGB_IMBAG_oracle.sql"
+    ],
+    "Vastgoed_verankering_RSGB_IMBAG_postgres.sql": [
+        "Vastgoed_verankering_RSGB_IMBAG_postgres.sql"
+    ],
+    "Vastgoed_verankering_RSGB_IMBAG.sql": [
+        "Vastgoed_verankering_RSGB_IMBAG_sql.sql"
+    ],
+    "Vastgoed_WOZ": [
+        "Vastgoed_WOZ.json",
+        "Vastgoed_WOZ_mssql.sql",
+        "Vastgoed_WOZ_oracle.sql"
+    ],
+    "Vastgoed_WOZ_postgres.sql": [
+        "Vastgoed_WOZ_postgres.sql"
+    ],
+    "Vastgoed_WOZ.sql": [
+        "Vastgoed_WOZ_sql.sql"
+    ],
+    "BAG": [
+        "BAG.json",
+        "BAG_mssql.sql",
+        "BAG_oracle.sql"
+    ],
+    "BAG_postgres.sql": [
+        "BAG_postgres.sql"
+    ],
+    "BAG.sql": [
+        "BAG_sql.sql"
+    ],
+    "ONDERZOEK": [
+        "ONDERZOEK.json",
+        "ONDERZOEK_mssql.sql",
+        "ONDERZOEK_oracle.sql"
+    ],
+    "ONDERZOEK_postgres.sql": [
+        "ONDERZOEK_postgres.sql"
+    ],
+    "ONDERZOEK.sql": [
+        "ONDERZOEK_sql.sql"
+    ],
+    "Buurten_en_Wijken": [
+        "Buurten_en_Wijken.json",
+        "Buurten_en_Wijken_mssql.sql",
+        "Buurten_en_Wijken_oracle.sql"
+    ],
+    "Buurten_en_Wijken_postgres.sql": [
+        "Buurten_en_Wijken_postgres.sql"
+    ],
+    "Buurten_en_Wijken.sql": [
+        "Buurten_en_Wijken_sql.sql"
+    ],
+    "Generieke_Locatie": [
+        "Generieke_Locatie.json",
+        "Generieke_Locatie_mssql.sql",
+        "Generieke_Locatie_oracle.sql"
+    ],
+    "Generieke_Locatie_postgres.sql": [
+        "Generieke_Locatie_postgres.sql"
+    ],
+    "Generieke_Locatie.sql": [
+        "Generieke_Locatie_sql.sql"
+    ],
+    "Relatie_BRP_en_BAG": [
+        "Relatie_BRP_en_BAG.json",
+        "Relatie_BRP_en_BAG_mssql.sql",
+        "Relatie_BRP_en_BAG_oracle.sql"
+    ],
+    "Relatie_BRP_en_BAG_postgres.sql": [
+        "Relatie_BRP_en_BAG_postgres.sql"
+    ],
+    "Relatie_BRP_en_BAG.sql": [
+        "Relatie_BRP_en_BAG_sql.sql"
+    ],
+    "(Zaak)objecten": [
+        "(Zaak)objecten.json",
+        "(Zaak)objecten_mssql.sql",
+        "(Zaak)objecten_oracle.sql"
+    ],
+    "(Zaak)objecten_postgres.sql": [
+        "(Zaak)objecten_postgres.sql"
+    ],
+    "(Zaak)objecten.sql": [
+        "(Zaak)objecten_sql.sql"
+    ],
+    "Bedrijfsprocessen": [
+        "Bedrijfsprocessen.json",
+        "Bedrijfsprocessen_mssql.sql",
+        "Bedrijfsprocessen_oracle.sql"
+    ],
+    "Bedrijfsprocessen_postgres.sql": [
+        "Bedrijfsprocessen_postgres.sql"
+    ],
+    "Bedrijfsprocessen.sql": [
+        "Bedrijfsprocessen_sql.sql"
+    ],
+    "Betrokkene": [
+        "Betrokkene.json",
+        "Betrokkene_mssql.sql",
+        "Betrokkene_oracle.sql"
+    ],
+    "Betrokkene_postgres.sql": [
+        "Betrokkene_postgres.sql"
+    ],
+    "Betrokkene.sql": [
+        "Betrokkene_sql.sql"
+    ],
+    "Documenten": [
+        "Documenten.json",
+        "Documenten_mssql.sql",
+        "Documenten_oracle.sql"
+    ],
+    "Documenten_postgres.sql": [
+        "Documenten_postgres.sql"
+    ],
+    "Documenten.sql": [
+        "Documenten_sql.sql"
+    ],
+    "Referentiemodel_Gemeentelijke_Basisgegevens_Zaken_in_schema": [
+        "Referentiemodel_Gemeentelijke_Basisgegevens_Zaken_in_schema.json",
+        "Referentiemodel_Gemeentelijke_Basisgegevens_Zaken_in_schema_mssql.sql",
+        "Referentiemodel_Gemeentelijke_Basisgegevens_Zaken_in_schema_oracle.sql"
+    ],
+    "Referentiemodel_Gemeentelijke_Basisgegevens_Zaken_in_schema_postgres.sql": [
+        "Referentiemodel_Gemeentelijke_Basisgegevens_Zaken_in_schema_postgres.sql"
+    ],
+    "Referentiemodel_Gemeentelijke_Basisgegevens_Zaken_in_schema.sql": [
+        "Referentiemodel_Gemeentelijke_Basisgegevens_Zaken_in_schema_sql.sql"
+    ],
+    "Diagram_Adresaanduiding_en_BAG": [
+        "Diagram_Adresaanduiding_en_BAG.json",
+        "Diagram_Adresaanduiding_en_BAG_mssql.sql",
+        "Diagram_Adresaanduiding_en_BAG_oracle.sql"
+    ],
+    "Diagram_Adresaanduiding_en_BAG_postgres.sql": [
+        "Diagram_Adresaanduiding_en_BAG_postgres.sql"
+    ],
+    "Diagram_Adresaanduiding_en_BAG.sql": [
+        "Diagram_Adresaanduiding_en_BAG_sql.sql"
+    ],
+    "Diagram_Gebied_Vestiging_en_Adres": [
+        "Diagram_Gebied_Vestiging_en_Adres.json",
+        "Diagram_Gebied_Vestiging_en_Adres_mssql.sql",
+        "Diagram_Gebied_Vestiging_en_Adres_oracle.sql"
+    ],
+    "Diagram_Gebied_Vestiging_en_Adres_postgres.sql": [
+        "Diagram_Gebied_Vestiging_en_Adres_postgres.sql"
+    ],
+    "Diagram_Gebied_Vestiging_en_Adres.sql": [
+        "Diagram_Gebied_Vestiging_en_Adres_sql.sql"
+    ],
+    "Kern_Gemeente_Wijk_en_buurt": [
+        "Kern_Gemeente_Wijk_en_buurt.json",
+        "Kern_Gemeente_Wijk_en_buurt_mssql.sql",
+        "Kern_Gemeente_Wijk_en_buurt_oracle.sql"
+    ],
+    "Kern_Gemeente_Wijk_en_buurt_postgres.sql": [
+        "Kern_Gemeente_Wijk_en_buurt_postgres.sql"
+    ],
+    "Kern_Gemeente_Wijk_en_buurt.sql": [
+        "Kern_Gemeente_Wijk_en_buurt_sql.sql"
+    ],
+    "Kern_Overige_geo_objecten_op_hoofdlijnen": [
+        "Kern_Overige_geo_objecten_op_hoofdlijnen.json",
+        "Kern_Overige_geo_objecten_op_hoofdlijnen_mssql.sql",
+        "Kern_Overige_geo_objecten_op_hoofdlijnen_oracle.sql"
+    ],
+    "Kern_Overige_geo_objecten_op_hoofdlijnen_postgres.sql": [
+        "Kern_Overige_geo_objecten_op_hoofdlijnen_postgres.sql"
+    ],
+    "Kern_Overige_geo_objecten_op_hoofdlijnen.sql": [
+        "Kern_Overige_geo_objecten_op_hoofdlijnen_sql.sql"
+    ],
+    "Kern_Personen": [
+        "Kern_Personen.json",
+        "Kern_Personen_mssql.sql",
+        "Kern_Personen_oracle.sql"
+    ],
+    "Kern_Personen_postgres.sql": [
+        "Kern_Personen_postgres.sql"
+    ],
+    "Kern_Personen.sql": [
+        "Kern_Personen_sql.sql"
+    ],
+    "Kern_Verwijzing_naar_Personen": [
+        "Kern_Verwijzing_naar_Personen.json",
+        "Kern_Verwijzing_naar_Personen_mssql.sql",
+        "Kern_Verwijzing_naar_Personen_oracle.sql"
+    ],
+    "Kern_Verwijzing_naar_Personen_postgres.sql": [
+        "Kern_Verwijzing_naar_Personen_postgres.sql"
+    ],
+    "Kern_Verwijzing_naar_Personen.sql": [
+        "Kern_Verwijzing_naar_Personen_sql.sql"
+    ],
+    "Kern__Detaillering_in_Subjecten": [
+        "Kern__Detaillering_in_Subjecten.json",
+        "Kern__Detaillering_in_Subjecten_mssql.sql",
+        "Kern__Detaillering_in_Subjecten_oracle.sql"
+    ],
+    "Kern__Detaillering_in_Subjecten_postgres.sql": [
+        "Kern__Detaillering_in_Subjecten_postgres.sql"
+    ],
+    "Kern__Detaillering_in_Subjecten.sql": [
+        "Kern__Detaillering_in_Subjecten_sql.sql"
+    ],
+    "Tenaamstelling": [
+        "Tenaamstelling.json",
+        "Tenaamstelling_mssql.sql",
+        "Tenaamstelling_oracle.sql"
+    ],
+    "Tenaamstelling_postgres.sql": [
+        "Tenaamstelling_postgres.sql"
+    ],
+    "Tenaamstelling.sql": [
+        "Tenaamstelling_sql.sql"
+    ]
+}

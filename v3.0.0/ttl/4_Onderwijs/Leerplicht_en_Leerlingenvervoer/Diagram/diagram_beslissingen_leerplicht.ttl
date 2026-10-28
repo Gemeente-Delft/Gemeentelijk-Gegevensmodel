@@ -1,0 +1,626 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/diagram_beslissingen_leerplicht>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagofmelding> a owl:Class ;
+    rdfs:label "AanvraagOfMelding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Komt overeen met een VJV"@nl ;
+    dct:identifier "66E2B5BA-44A0-4fde-AE33-E211EE4832C2" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagvrijstelling> a owl:Class ;
+    rdfs:label "AanvraagVrijstelling"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Vrijstelling van een aanvraag voor leerlingenvervoer"@nl ;
+    dct:identifier "450F47A7-758F-400c-82EB-05535EBDD426" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beschikking_leerlingenvervoer> a owl:Class ;
+    rdfs:label "Beschikking Leerlingenvervoer"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een formeel besluit dat genomen wordt door een bevoegde instantie over het al dan niet toekennen van leerlingenvervoer aan een bepaalde leerling."@nl ;
+    dct:identifier "81870665-768C-4fb2-8A4F-A9CB7989C884" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beslissing> a owl:Class ;
+    rdfs:label "Beslissing"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Selectie van een voorstelbare werkelijkheid (voorkeursvariant) uit een aantal mogelijke werkelijkheden (varianten) op basis van een verzameling van criteria."@nl ;
+    dct:identifier "B65280CD-3429-4966-AD2D-CB3EE76EE2E8" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/doorgeleiding_om> a owl:Class ;
+    rdfs:label "Doorgeleiding OM"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De overdracht van een leerplichtzaak aan het Openbaar Ministerie voor juridische vervolging."@nl ;
+    dct:identifier "90E49701-2A06-4669-9199-6FCFDFCA707A" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/halt_verwijzing> a owl:Class ;
+    rdfs:label "HALT-verwijzing"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Jongeren van 12 tot 18 jaar die strafbare feiten plegen, zoals bijvoorbeeld: winkeldiefstal, vernieling, openbaar dronkenschap of oplichting kunnen naar Halt worden verwezen. In sommige gevallen is daarvoor toestemming nodig van het Openbaar Ministerie."@nl ;
+    dct:identifier "70E3C6AF-1117-4cfc-B61F-0D168010FFB9" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/klacht_leerlingenvervoer> a owl:Class ;
+    rdfs:label "Klacht Leerlingenvervoer"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een uiting van ontevredenheid over het vervoer van leerlingen."@nl ;
+    dct:identifier "07FE66E8-8316-406b-A590-922C2E7B4305" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/leerplichtambtenaar> a owl:Class ;
+    rdfs:label "Leerplichtambtenaar"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Ambtenaar die toezicht houdt op de uitvoering van de leerplichtwet."@nl ;
+    dct:identifier "B369B374-F560-4ea6-9A8B-DBBCB4961EFF" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs> a owl:Class ;
+    rdfs:label "Procesverbaal Onderwijs"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een officieel document dat een overtreding van de leerplichtwet vastlegt."@nl ;
+    dct:identifier "697F1730-B439-4b35-8799-1B2E9AB04548" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verlofaanvraag> a owl:Class ;
+    rdfs:label "Verlofaanvraag"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een verzoek om toestemming te krijgen iets te doen, bijvoorbeeld vakantie of studie"@nl ;
+    dct:identifier "E9DECE41-F7F5-49f1-94B5-63DE941F6094" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/vervoerder> a owl:Class ;
+    rdfs:label "Vervoerder"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Degene die openbaar vervoer of besloten busvervoer verricht, niet in de hoedanigheid van bestuurder van een auto, bus, trein, metro, tram of een via een geleidesysteem voortbewogen voertuig."@nl ;
+    dct:identifier "613E192A-D0F2-4e67-BE73-51C09197EE3D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verzuimmelding> a owl:Class ;
+    rdfs:label "Verzuimmelding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een melding dat een leerling niet op school verschijnt. De school moet actie ondernemen naar de leerling (en zijn ouders). Een school moet het verzuim melden bij de gemeente."@nl ;
+    dct:identifier "252C70B1-4E02-4033-B2B5-86F65496D7AB" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/vrijstelling> a owl:Class ;
+    rdfs:label "Vrijstelling"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een formeel besluit waarbij een leerling wordt ontheven van de leerplicht."@nl ;
+    dct:identifier "B8584CD2-A54A-4a59-82B6-A597A0864CFA" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/ziekmelding_leerlingenvervoer> a owl:Class ;
+    rdfs:label "Ziekmelding Leerlingenvervoer"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een melding van een zieke leerling die recht heeft op vervoer van en naar onderwijs."@nl ;
+    dct:identifier "7689A6B7-2A9E-42db-A028-E4601305DBFF" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling> a owl:Class ;
+    rdfs:label "Leerling"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Mens die een opleiding volgt, heeft gevolgd of gaat volgen of opgaat of is opgegaan voor een toets. (Bron: KOI)"@nl ;
+    dct:identifier "266057AF-58BD-42e1-B4D5-16EB266B9B7A" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/ouder_of_verzorger> a owl:Class ;
+    rdfs:label "Ouder Of Verzorger"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon die wettelijk verantwoordelijk is voor de zorg en opvoeding van een kind."@nl ;
+    dct:identifier "51C8E3DF-FFF4-4a20-9CB2-AA5FA50579E2" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/school> a owl:Class ;
+    rdfs:label "School"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Gebouw in gebruik voor basis, middelbaar of hoger onderwijs."@nl ;
+    dct:identifier "32DFC5DD-79D9-45d5-8F9D-7D5125961817" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> a owl:Class ;
+    rdfs:label "Leverancier"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie"@nl ;
+    dct:identifier "EA7FE08E-34F7-45d2-BE2E-E4E3B8333BF3" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> a owl:Class ;
+    rdfs:label "AanvraagOfMelding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Komt overeen met een VJV Bron: GEM_VJV (Distinct op REQ_ID) ID: REQ_ID"@nl ;
+    dct:identifier "8E6BAEF8-1878-400f-9244-23575BD41EAB" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verzuimsoort> a owl:Class ;
+    rdfs:label "Verzuimsoort"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "0060D931-6BBA-480d-ADCA-0A74908C39A4" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> a owl:Class ;
+    rdfs:label "Boolean"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "9BD0FBCB-1A9E-4cab-9280-0EBC428E38F7" .
+
+# Enumeration: BOOLEAN
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean/ja>
+    rdfs:label "Ja"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean/leeg>
+    rdfs:label "Leeg"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean/nee>
+    rdfs:label "Nee"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean/onbekend>
+    rdfs:label "Onbekend"@nl .
+
+# Enumeration: VERZUIMSOORT
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verzuimsoort/absoluut>
+    rdfs:label "absoluut"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verzuimsoort/relatief>
+    rdfs:label "relatief"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/vrijstelling/aanvraagtoegekend> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/vrijstelling> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "9BB5E44A-DAE0-4ab1-9112-ADAECCF38A6D" ;
+    rdfs:label "aanvraagToegekend"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/doorgeleiding_om/afdoening> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/doorgeleiding_om> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AB751E54-787E-492e-AAD8-19A9E5C3D2F5" ;
+    rdfs:label "afdoening"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/halt_verwijzing/afdoening> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/halt_verwijzing> ;
+    rdfs:range xsd:string ;
+    dct:identifier "770276CF-FBB1-4c35-93EE-DB03DD6FEABC" ;
+    rdfs:label "afdoening"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/afgehandeld> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "AC248AAD-192D-40e3-B2C3-107CBA34CB21" ;
+    rdfs:label "afgehandeld"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagvrijstelling/buitenlandseschoollocatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagvrijstelling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A3805005-E062-4a65-A98D-ABE83662DECC" ;
+    rdfs:label "buitenlandseSchoollocatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/vrijstelling/buitenlandseschoollocatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/vrijstelling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B4245A78-86EB-4618-90C3-7568914989E3" ;
+    rdfs:label "buitenlandseSchoollocatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "70BB6DC2-EA35-451f-A307-0DCE9F6C1341" ;
+    rdfs:label "categorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categoriecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E6803836-B435-454b-BFF2-EC300A1E160A" ;
+    rdfs:label "categoriecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagofmelding/datum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "38938865-72C3-4910-AF34-5A16D9EEE8DA" ;
+    rdfs:label "datum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beslissing/datum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beslissing> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D2C34B13-CF3C-49de-80CA-5458E441F6B5" ;
+    rdfs:label "datum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumaanmaak> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D6A1055B-7FFE-4e0e-9D51-7BCB34BC902E" ;
+    rdfs:label "datumAanmaak"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagvrijstelling/datumaanvraag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagvrijstelling> ;
+    rdfs:range xsd:date ;
+    dct:identifier "6C45EFC0-8453-42a3-B958-C663FA42216D" ;
+    rdfs:label "datumAanvraag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs/datumafgehandeld> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs> ;
+    rdfs:range xsd:date ;
+    dct:identifier "8DC2A73B-653D-437d-96F2-C610894735FF" ;
+    rdfs:label "datumAfgehandeld"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumafhandeling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "11348F20-D423-473f-B6E8-3197F6634F91" ;
+    rdfs:label "datumAfhandeling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumbeginstatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "386AAA3D-8C77-4be7-84DC-C221439D58C6" ;
+    rdfs:label "datumBeginStatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/vrijstelling/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/vrijstelling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9C8C2FF1-3101-4e16-A390-F9DFD81B57DA" ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verzuimmelding/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verzuimmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "277C6E49-37BE-4a63-8A85-BE38C76773C9" ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs/datumeindeproeftijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs> ;
+    rdfs:range xsd:date ;
+    dct:identifier "489735F0-DECA-4274-B411-7184CBC3C1E1" ;
+    rdfs:label "datumEindeProeftijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeindestatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "214166B2-C303-49f3-A008-648E47E58D65" ;
+    rdfs:label "datumEindeStatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs/datumingelicht> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs> ;
+    rdfs:range xsd:date ;
+    dct:identifier "104E2E04-EBF8-44a8-B87C-F094A9E5E139" ;
+    rdfs:label "datumIngelicht"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/halt_verwijzing/datummutatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/halt_verwijzing> ;
+    rdfs:range xsd:date ;
+    dct:identifier "A5D7C7FE-3285-43c8-9EE7-14E3106D7B80" ;
+    rdfs:label "datumMutatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/halt_verwijzing/datumretour> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/halt_verwijzing> ;
+    rdfs:range xsd:date ;
+    dct:identifier "BF772607-AB51-4fba-97B9-5E220186D2AD" ;
+    rdfs:label "datumRetour"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/vrijstelling/datumstart> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/vrijstelling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4E2A97B8-4BA7-4561-9411-A8F5AC7DA176" ;
+    rdfs:label "datumStart"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verlofaanvraag/datumstart> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verlofaanvraag> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D6699B6B-4CA1-4db2-927B-C1E0A2F63B29" ;
+    rdfs:label "datumStart"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verzuimmelding/datumstart> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verzuimmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5ACB2CD6-C697-4524-8242-1DFFD809A017" ;
+    rdfs:label "datumStart"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verlofaanvraag/datumtot> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verlofaanvraag> ;
+    rdfs:range xsd:date ;
+    dct:identifier "E39B1AF7-F348-41a8-B079-976A68425F5A" ;
+    rdfs:label "datumTot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs/datumuitspraak> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs> ;
+    rdfs:range xsd:date ;
+    dct:identifier "33DF051B-535C-4019-A8AC-C5024E5EE22C" ;
+    rdfs:label "datumUitspraak"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs/datumzitting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs> ;
+    rdfs:range xsd:date ;
+    dct:identifier "34B2E055-8250-43b2-A91D-F48853D3F164" ;
+    rdfs:label "datumZitting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs/geldboete> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs> ;
+    rdfs:range xsd:string ;
+    dct:identifier "67593ABD-E263-44e4-ABE5-E9CEFCC8A8A8" ;
+    rdfs:label "geldboete"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs/geldboetevoorwaardelijk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "E7F9C9A0-9142-4dc3-9BB3-8BC257E25899" ;
+    rdfs:label "geldboeteVoorwaardelijk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "59BA1A2C-9DA8-4258-8668-F2B35AF57DD8" ;
+    rdfs:label "hoofdcategorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategoriecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5DC7B481-6724-4769-B6D3-B4AC0B578177" ;
+    rdfs:label "hoofdcategoriecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8DD9E909-55C1-45d8-8B02-F174324A6E5C" ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/kanaal> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "32B1052C-88E9-498e-86F6-AF5B340D1132" ;
+    rdfs:label "kanaal"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling/kwetsbarejongere> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "70DE2997-48B9-4f71-B6BF-2B9C3163F429" ;
+    rdfs:label "kwetsbareJongere"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/halt_verwijzing/memo> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/halt_verwijzing> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6821D6A8-7915-4064-A274-80905B3EBB0E" ;
+    rdfs:label "memo"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> ;
+    rdfs:range xsd:string ;
+    dct:identifier "85177091-8693-4b6d-9DDF-C431625705F6" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/school/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/school> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0620C831-06F0-4948-B7C4-0A6DB4213CA0" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier/nummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DC8AB48D-FBB8-437d-8FD6-799019175583" ;
+    rdfs:label "nummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerp> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6D92FCD5-F8C8-41c7-A524-0102186ED5E2" ;
+    rdfs:label "onderwerp"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerpcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3A678FBE-3890-41b5-9E6B-9C9C0A59E8D8" ;
+    rdfs:label "onderwerpcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs/opmerkingen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6EED3937-398B-42b4-9B8C-0FBC47C3DA8D" ;
+    rdfs:label "opmerkingen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beslissing/opmerkingen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beslissing> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CC43FEA1-7467-4c84-8A21-35AF184971F9" ;
+    rdfs:label "opmerkingen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagofmelding/opmerkingen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C2130C1F-8BE2-4b7a-8B01-85C38DC3639C" ;
+    rdfs:label "opmerkingen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs/proeftijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "DDDDF09F-8467-468c-AB0C-4424D08D47DC" ;
+    dct:description "Proeftijd in dagen"@nl ;
+    rdfs:label "proeftijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beslissing/reden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beslissing> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CF5833E0-F6B9-4198-963E-A9F0B5F9E3DD" ;
+    rdfs:label "reden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagofmelding/reden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "36808339-FABD-4ce3-929E-688CBA9D9953" ;
+    rdfs:label "reden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs/reden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D21F2F0C-B625-4c5b-9D79-1310E3B798FA" ;
+    rdfs:label "reden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs/sanctiesoort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs> ;
+    rdfs:range xsd:string ;
+    dct:identifier "025FF2C4-494F-4010-BB1E-B07573D7BED5" ;
+    rdfs:label "sanctiesoort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/soort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "812E18D0-9678-4b27-ACFF-9C8D774CD8C1" ;
+    dct:description "Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding...."@nl ;
+    rdfs:label "soort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verlofaanvraag/soortverlof> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verlofaanvraag> ;
+    rdfs:range xsd:string ;
+    dct:identifier "38CCE5BA-2E10-4181-9376-9C010FD69119" ;
+    rdfs:label "soortVerlof"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagofmelding/soortverzuimofaanvraag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagofmelding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verzuimsoort> ;
+    dct:identifier "692C2217-6906-4305-9B35-2A000E8B0168" ;
+    rdfs:label "soortVerzuimOfAanvraag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E5274E49-1775-4b24-B45E-366A77511B7E" ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statusvolgorde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A313E848-F5A4-4b9f-B8EA-479435ACC1BF" ;
+    rdfs:label "statusVolgorde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statuscode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A8DEE2BF-1051-4f4c-89FD-DD4E8A8714E3" ;
+    rdfs:label "statuscode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "61C0AE53-1473-483b-84F9-FC173AD4D5FB" ;
+    rdfs:label "subcategorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategoriecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BBFFE25E-9DFA-4ac2-AAA7-48104E0ADD60" ;
+    rdfs:label "subcategoriecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs/uitspraak> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3EEA4FEA-ACF5-489d-8764-F8CE992261BC" ;
+    rdfs:label "uitspraak"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/vrijstelling/verzuimsoort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/vrijstelling> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verzuimsoort> ;
+    dct:identifier "5F85359A-5C5B-451b-8BCE-C9C93022FCCF" ;
+    rdfs:label "verzuimsoort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs/verzuimsoort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verzuimsoort> ;
+    dct:identifier "CC96AE94-EF5F-4e99-B5F2-7D783E502B4E" ;
+    rdfs:label "verzuimsoort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verzuimmelding/voorstelschool> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verzuimmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4427151E-A927-40a1-8B71-769675EB52CF" ;
+    rdfs:label "voorstelSchool"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/ziekmelding_leerlingenvervoer> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/vrijstelling> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/vrijstelling/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/vrijstelling> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/school> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/vrijstelling> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beslissing> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verzuimmelding> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verzuimmelding/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verzuimmelding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/school> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verzuimmelding> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagofmelding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/vervoerder> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/verlofaanvraag> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagofmelding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling/betreft_leerling> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs> ;
+    rdfs:label "betreft leerling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs/verantwoordelijke_ouder> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/ouder_of_verzorger> ;
+    rdfs:label "verantwoordelijke ouder"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beslissing> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/leerplichtambtenaar/opgelegd_door> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/leerplichtambtenaar> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/procesverbaal_onderwijs> ;
+    rdfs:label "opgelegd door"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/klacht_leerlingenvervoer/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/klacht_leerlingenvervoer> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/vervoerder> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/klacht_leerlingenvervoer/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/klacht_leerlingenvervoer> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/halt_verwijzing> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beslissing> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/doorgeleiding_om/verantwoordelijk_ouder> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/doorgeleiding_om> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/ouder_of_verzorger> ;
+    rdfs:label "verantwoordelijk ouder"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/doorgeleiding_om> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beslissing> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beslissing/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beslissing> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/school> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beslissing/behandelaar> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beslissing> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/leerplichtambtenaar> ;
+    rdfs:label "behandelaar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beslissing/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beslissing> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beschikking_leerlingenvervoer/vervoerder> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beschikking_leerlingenvervoer> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/vervoerder> ;
+    rdfs:label "vervoerder"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beschikking_leerlingenvervoer> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beslissing> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagvrijstelling> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagofmelding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagofmelding/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagofmelding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/school> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagofmelding/leidt_tot> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagofmelding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/beslissing> ;
+    rdfs:label "leidt tot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagofmelding/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagofmelding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht_en_leerlingenvervoer/aanvraagofmelding> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> .

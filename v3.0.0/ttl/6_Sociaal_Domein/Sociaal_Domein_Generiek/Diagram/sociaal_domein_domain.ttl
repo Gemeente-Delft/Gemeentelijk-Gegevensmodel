@@ -1,0 +1,94 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/sociaal_domein_domain>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client> a owl:Class ;
+    rdfs:label "Client"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente."@nl ;
+    dct:identifier "DAF09055-A5A6-4ff4-A158-21B20567B296" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/huishouden> a owl:Class ;
+    rdfs:label "Huishouden"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continuïteit in de samenstelling ervan, die binnen een woning duurzaam gebruik maakt van dezelfde voorzieningen."@nl ;
+    dct:identifier "F0467610-553B-47cd-A9F7-3B1D20CC425E" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/relatie> a owl:Class ;
+    rdfs:label "Relatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Betrekking waarin personen, zaken, begrippen of grootheden van nature tot elkaar staan."@nl ;
+    dct:identifier "3DF01B79-6712-473e-9878-594CB5AE95A7" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/relatiesoort> a owl:Class ;
+    rdfs:label "Relatiesoort"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De typering van het structurele verband tussen een object van een objecttype en een (ander) object van een ander (of hetzelfde) objecttype."@nl ;
+    dct:identifier "F5FAF498-F536-4fb3-9948-73EBCDF61AD5" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/relatiesoort/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/relatiesoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2DCF29CE-45A1-43ca-B4E9-5B9A130A926D" ;
+    rdfs:label "Omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client/code> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2F053C54-0964-436c-8943-4727C5809CAB" ;
+    rdfs:label "code"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client/gezagsdragergekend> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "98ACDCD3-78C0-4f19-9D7F-3D6E9117633C" ;
+    rdfs:label "gezagsdragerGekend"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client/juridischestatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3002E65F-86D7-473e-91BF-98F5877E12D0" ;
+    rdfs:label "juridischeStatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/relatie/relatiesoort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/relatie> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "464B194B-8F87-4271-BCF1-F993BA3D5658" ;
+    rdfs:label "relatiesoort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/huishouden/soort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/huishouden> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C7B158AE-F459-4556-B750-FC38DCFF86E0" ;
+    rdfs:label "soort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client/wettelijkevertegenwoordiging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9CC38D5F-DED2-409b-B94B-2A733C2B7BB0" ;
+    rdfs:label "wettelijkeVertegenwoordiging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/relatie/is_soort> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/relatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/relatiesoort> ;
+    rdfs:label "is soort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/relatie/maakt_onderdeel_van> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/relatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/huishouden> ;
+    rdfs:label "maakt onderdeel van"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client/maakt_onderdeel_uit_van> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/huishouden> ;
+    rdfs:label "maakt onderdeel uit van"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client/heeft_relatie> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/relatie> ;
+    rdfs:label "heeft relatie"@nl .

@@ -1,0 +1,171 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/normafwijking>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/afwijkende_maatregel> a owl:Class ;
+    rdfs:label "Afwijkende maatregel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een *afwijkende maatregel* is een maatregel die afwijkt van de standaardregel of wettelijke norm en die op basis van een wettelijke grondslag, beleidsregel of gemotiveerde beslissing in een concreet geval wordt toegepast."@nl ;
+    dct:identifier "1BD0DD3A-888E-945B-4A20-276CADAE4D4C" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/boete> a owl:Class ;
+    rdfs:label "Boete"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een boete is de uitkomst van een onderzoek naar rechtmatigheid. Dit leidt in principe tot een terug te vorderen bedrag. Er is voor gekozen om dit als aparte klasse te modelleren en niet als typering van een vordering, omdat we dit gegeven ook willen gebruiken bij risicoprofilering. Als de vordering niet (meer) bestaat, zou dit gegeven daarmee niet beschikbaar zijn.Daarnaast kan dit ook helpen bij het vastleggen van een boete van een poging tot fraude (zonder financiele consequenties, waardoor geen vordering is ontstaan. (tijdig ondekte valsheid in geschifte e.d.).Bij bedragen hoger dan 50.000 euro, wordt aangifte van fraude gedaan en volgt strafrechtelijk onderzoek.Feitelijk is het uitgangspunt bij het opleggen van een boete dat er altijd sprake is van opzet. Daarom is een apart gegeven Fraude niet opgenomen."@nl ;
+    dct:identifier "05E49616-803F-4C1B-9663-262C4A191DF9" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel> a owl:Class ;
+    rdfs:label "Maatregel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een *maatregel* is een besluit of handeling waarmee een bestuursorgaan of rechter ingrijpt om een doel te bereiken, een probleem op te lossen of een regel te handhaven."@nl ;
+    dct:identifier "0B63B508-9F69-A5D7-4387-2632D2C24782" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel_op_uitkering> a owl:Class ;
+    rdfs:label "Maatregel op uitkering"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een *maatregel op uitkering* is een sanctie van een uitvoerend orgaan (zoals een gemeente) waarbij de hoogte van een uitkering tijdelijk wordt verlaagd of aangepast omdat de uitkeringsgerechtigde niet heeft voldaan aan de aan de uitkering verbonden verplichtingen."@nl ;
+    dct:identifier "032C6459-3922-4AEF-0D73-262C4A138E25" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/normafwijking> a owl:Class ;
+    rdfs:label "Normafwijking"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een *normafwijking* (in het kader van bijstand) is het constateren dat een bijstandsgerechtigde **afwijkt van de normatieve verplichtingen** die verbonden zijn aan het recht op bijstand (bijv. arbeids- of inlichtingenplicht), wat aanleiding kan geven tot toepassing van een maatregel op de uitkering."@nl ;
+    dct:identifier "167FF4C9-6B66-EEDA-5189-262C4A139258" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/afwijkende_maatregel/bedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/afwijkende_maatregel> ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Bedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/boete/bedrag_boete> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/boete> ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Bedrag boete"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/boete/boetevorm> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/boete> ;
+    rdfs:range xsd:string ;
+    rdfs:label "Boetevorm"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/afwijkende_maatregel/code_reden_afwijking_maatregel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/afwijkende_maatregel> ;
+    rdfs:range xsd:string ;
+    rdfs:label "Code reden afwijking maatregel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel_op_uitkering/code_reden_maatregel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel_op_uitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/coderedenmaatregel> ;
+    rdfs:label "Code reden maatregel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel/datum_aanvang_maatregel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel> ;
+    rdfs:range xsd:date ;
+    rdfs:label "Datum aanvang maatregel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel/datum_einde_maatregel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel> ;
+    rdfs:range xsd:date ;
+    rdfs:label "Datum einde maatregel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel/datum_vaststelling_maatregel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel> ;
+    rdfs:range xsd:date ;
+    rdfs:label "Datum vaststelling maatregel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/normafwijking/datum_vaststelling_normafwijking> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/normafwijking> ;
+    rdfs:range xsd:date ;
+    rdfs:label "Datum vaststelling normafwijking"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/normafwijking/datum_vaststelling_verwijtbaarheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/normafwijking> ;
+    rdfs:range xsd:date ;
+    rdfs:label "Datum vaststelling verwijtbaarheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/afwijkende_maatregel/motivatie_afwijking_maatregel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/afwijkende_maatregel> ;
+    rdfs:range xsd:string ;
+    rdfs:label "Motivatie afwijking maatregel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel_op_uitkering/motivatie_vermindering_maatregel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel_op_uitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/coderedenmaatregel> ;
+    rdfs:label "Motivatie vermindering maatregel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/normafwijking/motivatie_verwijtbaarheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/normafwijking> ;
+    rdfs:range xsd:date ;
+    rdfs:label "Motivatie verwijtbaarheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/afwijkende_maatregel/percentage> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/afwijkende_maatregel> ;
+    rdfs:range xsd:string ;
+    rdfs:label "Percentage"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel_op_uitkering/percentage_maatregel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel_op_uitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/coderedenmaatregel> ;
+    rdfs:label "Percentage maatregel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/normafwijking/recidive> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/normafwijking> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Recidive"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/boete/reden_boete> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/boete> ;
+    rdfs:range xsd:string ;
+    rdfs:label "Reden boete"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel/type_maatregel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/typemaatregel> ;
+    rdfs:label "Type maatregel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/normafwijking/type_normafwijking> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/normafwijking> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/typenormafwijking> ;
+    rdfs:label "Type normafwijking"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/normafwijking/verwijtbaarheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/normafwijking> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Verwijtbaarheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/boete/voorwaarde_boete> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/boete> ;
+    rdfs:range xsd:string ;
+    rdfs:label "Voorwaarde boete"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/normafwijking/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/normafwijking> ;
+    rdfs:range xsd:date ;
+    dct:description "Voorheen: Normafwijking ID Opmerking: Dit attribuut heeft datatype Date maar is een identificatie?"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel> ;
+    rdfs:range xsd:date ;
+    dct:description "Voorheen: Maatregel ID Opmerking: Attribuut is een identificatie maar van het type Date?"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel_op_uitkering> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/normafwijking/normafwijking_leidt_tot_maatregel> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/normafwijking> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel> ;
+    rdfs:label "Normafwijking leidt tot Maatregel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/boete> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/afwijkende_maatregel/refereert> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/afwijkende_maatregel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel_op_uitkering> ;
+    rdfs:label "refereert"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/afwijkende_maatregel> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/maatregel> .

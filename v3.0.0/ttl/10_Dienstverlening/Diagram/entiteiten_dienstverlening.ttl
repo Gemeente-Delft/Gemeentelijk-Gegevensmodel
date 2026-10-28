@@ -1,0 +1,917 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/entiteiten_dienstverlening>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagdata> a owl:Class ;
+    rdfs:label "Aanvraagdata"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Bron: GEN_REQ_DATA ID: REQ_DATA icm VELD_NAAM"@nl ;
+    dct:identifier "1F68C981-7E16-4368-8867-CA00AEB08A04" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> a owl:Class ;
+    rdfs:label "AanvraagOfMelding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Komt overeen met een VJV Bron: GEM_VJV (Distinct op REQ_ID) ID: REQ_ID"@nl ;
+    dct:identifier "8E6BAEF8-1878-400f-9244-23575BD41EAB" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort> a owl:Class ;
+    rdfs:label "Formuliersoort"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Bron: GEM_FORM ID: FORM_ID"@nl ;
+    dct:identifier "0567826D-81EE-4bbd-8D62-3073B74CDF11" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld> a owl:Class ;
+    rdfs:label "Formuliersoortveld"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Bron: GEM_VELD ID: FORM_ID en VELD_NAAM"@nl ;
+    dct:identifier "E512AEFD-85FB-4b57-82FE-709221307861" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp> a owl:Class ;
+    rdfs:label "Onderwerp"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Bron: GEM_VJV_ONDERWERP ID: ONDERWERP_ID"@nl ;
+    dct:identifier "8D758F67-6085-4ac7-BFDC-8D97AB632A93" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/productofdienst> a owl:Class ;
+    rdfs:label "ProductOfDienst"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Bron: QP_CALENDAR.CFM_SERVICES"@nl ;
+    dct:identifier "4B871112-CB41-4bfb-BD43-117C63D31BB4" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> a owl:Class ;
+    rdfs:label "Medewerker"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
+    dct:identifier "16EB3936-03CB-4854-9CD8-9F0911EEA51B" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> a owl:Class ;
+    rdfs:label "Document"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
+    dct:identifier "5641C50A-C0FA-4e71-B07B-26C7B1CE94ED" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> a owl:Class ;
+    rdfs:label "Zaak"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden."@nl ;
+    dct:identifier "649EFD86-ED52-4293-8577-DBE5445845BF" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> a owl:Class ;
+    rdfs:label "Zaaktype"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Generieke aanduiding van de aard van een zaak"@nl ;
+    dct:identifier "7210A379-17EE-4143-A106-ECD9414B2A0D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> a owl:Class ;
+    rdfs:label "Klantcontact"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Klantcontacten zijn contactmomenten die werkelijk hebben plaatsgevonden, terwijl Balieafspraken afspraken zijn voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden. Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje)."@nl ;
+    dct:identifier "A3DAD553-0E55-4256-824B-CDB5E12CB545" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/heffing> a owl:Class ;
+    rdfs:label "Heffing"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een door de overheid opgelegde verplichting tot betaling"@nl ;
+    dct:identifier "B3371695-97AD-49d2-9AF1-15591B422007" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/vestigingvanzaakbehandelendeorganisatie> a owl:Class ;
+    rdfs:label "VestigingVanZaakbehandelendeOrganisatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een VESTIGING van een onderneming of rechtspersoon zijnde de zaakbehandelende organisatie."@nl ;
+    dct:identifier "D8142B98-64CB-408e-9941-92423543F08A" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling> a owl:Class ;
+    rdfs:label "Betaling"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "het onderhandigen of overboeken van geld in ruil voor goed of dienst"@nl ;
+    dct:identifier "FC488929-8721-402f-A073-1DFDB76A816E" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/achternaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "79457AE1-2585-4ce0-A864-D4ADE30A2135" ;
+    dct:description "De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt."@nl ;
+    rdfs:label "achternaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/afgehandeld> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "AC248AAD-192D-40e3-B2C3-107CBA34CB21" ;
+    rdfs:label "afgehandeld"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/productofdienst/afhandeltijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/productofdienst> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "1631BA4E-F28E-41f8-8E70-40AB329D79E2" ;
+    dct:description "Standaard afhandeltijd in minuten"@nl ;
+    rdfs:label "afhandeltijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/archiefcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EA3C4D9F-1F0E-42bb-AF6C-468862470DEA" ;
+    dct:description "De systematische identificatie van zaakdossiers van dit ZAAKTYPE overeenkomstig logisch gestructureerde conventies, methoden en procedureregels."@nl ;
+    rdfs:label "archiefcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/archiefnominatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7CD86512-436C-4d63-9BC0-2724FAE4CA2F" ;
+    dct:description "Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden"@nl ;
+    rdfs:label "archiefnominatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/heffing/bedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/heffing> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "05C9F7C0-804B-48c7-AC72-17B7F5DA0B36" ;
+    rdfs:label "bedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling/bedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "DA1EA6F8-0994-4481-9025-16D9446C2467" ;
+    rdfs:label "bedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "70BB6DC2-EA35-451f-A307-0DCE9F6C1341" ;
+    rdfs:label "categorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categoriecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E6803836-B435-454b-BFF2-EC300A1E160A" ;
+    rdfs:label "categoriecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/cocumentbeschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1DB068B6-3EAE-4d79-B1EC-73905A5994FC" ;
+    dct:description "Een generieke beschrijving van de inhoud van het document."@nl ;
+    rdfs:label "cocumentBeschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/heffing/code> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/heffing> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7796795E-5773-4286-BD2D-583E558BA20E" ;
+    rdfs:label "code"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagdata/data> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagdata> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F8061047-6B7A-48a7-960E-EC8C48BC298D" ;
+    rdfs:label "data"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumaanmaak> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D6A1055B-7FFE-4e0e-9D51-7BCB34BC902E" ;
+    rdfs:label "datumAanmaak"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumafhandeling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "11348F20-D423-473f-B6E8-3197F6634F91" ;
+    rdfs:label "datumAfhandeling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/datumbegingeldigheidzaaktype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "18396FA2-8AF3-4690-9F6D-30A688A9859B" ;
+    dct:description "De datum waarop het ZAAKTYPE is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidZaaktype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumbeginstatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "386AAA3D-8C77-4be7-84DC-C221439D58C6" ;
+    rdfs:label "datumBeginStatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumcreatiedocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "61F9ED59-4DA5-4099-ADAC-8D7FEFDD0F37" ;
+    dct:description "Een datum of een gebeurtenis in de levenscyclus van het document."@nl ;
+    rdfs:label "datumCreatieDocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "94D60B00-F31B-4d52-95FB-2C2D916FE91E" ;
+    dct:description "De datum waarop de uitvoering van de zaak afgerond is."@nl ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/datumeindegeldigheidzaaktype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CD96679E-7E9B-4ae4-B47B-AFEDB831F847" ;
+    dct:description "De datum waarop het ZAAKTYPE is opgeheven."@nl ;
+    rdfs:label "datumEindeGeldigheidZaaktype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/datumeindegepland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5B057B5C-A885-4f60-846E-080CA164352C" ;
+    dct:description "De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt."@nl ;
+    rdfs:label "datumEindeGepland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeindestatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "214166B2-C303-49f3-A008-648E47E58D65" ;
+    rdfs:label "datumEindeStatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/datumeindeuiterlijkeafdoening> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E6F82191-D298-4848-92D9-7D52B8C8805F" ;
+    dct:description "De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn."@nl ;
+    rdfs:label "datumEindeUiterlijkeAfdoening"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/datumindienst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:date ;
+    dct:identifier "4BD35398-345A-4d24-84A5-34D79A764C7F" ;
+    rdfs:label "datumInDienst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/heffing/datumindiening> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/heffing> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F5EC76D1-5906-4f11-9C23-022471579B4D" ;
+    rdfs:label "datumIndiening"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/datumlaatstebetaling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A7A56294-D2F6-46a5-802F-07883A4947F2" ;
+    dct:description "De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak."@nl ;
+    rdfs:label "datumLaatsteBetaling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumontvangstdocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FFEE3095-1146-4106-A1ED-70A253812FA6" ;
+    dct:description "De datum waarop het DOCUMENT ontvangen is."@nl ;
+    rdfs:label "datumOntvangstdocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/datumpublicatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2EF856F4-5F31-4a7c-96B6-D8366C1A7CD6" ;
+    dct:description "Datum waarop (het starten van) de zaak gepubliceerd is of wordt."@nl ;
+    rdfs:label "datumPublicatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/datumregistratie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "200CCB8B-C5C7-41ed-8EA1-6C2143FAEE8E" ;
+    dct:description "De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd"@nl ;
+    rdfs:label "datumRegistratie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/datumstart> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6888533D-41DF-4209-A351-189A1C7E73CB" ;
+    dct:description "De datum waarop met de uitvoering van de zaak is gestart."@nl ;
+    rdfs:label "datumStart"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/datumuitdienst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AE3CF305-B845-40cf-A9E3-2DE97CB31F46" ;
+    dct:description "Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt."@nl ;
+    rdfs:label "datumUitDienst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/datumvernietigingdossier> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "95D1CF5F-7994-46f6-84FF-0EC1C5E55606" ;
+    dct:description "De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden."@nl ;
+    rdfs:label "datumVernietigingDossier"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumverzendingdocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C06162CD-CFEA-4c04-BE26-76BC4DF42A16" ;
+    dct:description "De datum waarop het DOCUMENT verzonden is."@nl ;
+    rdfs:label "datumVerzendingDocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling/datumtijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "4F2385C7-3724-42da-A218-DEF21ED7DA36" ;
+    rdfs:label "datumtijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documentauteur> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "24277038-EF81-4e10-92BC-68AB8969FE4D" ;
+    dct:description "De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document."@nl ;
+    rdfs:label "documentAuteur"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documentidentificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CB08FF35-EE64-4504-90CF-835DA32E636C" ;
+    dct:description "Een binnen een gegeven context ondubbelzinnige referentie naar het document. Bijvoorbeeld potsregistratienummer"@nl ;
+    rdfs:label "documentIdentificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documenttitel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "21E0EC21-5217-4582-A8B8-CA0EE3EFDFAD" ;
+    dct:description "De naam waaronder het document formeel bekend is."@nl ;
+    rdfs:label "documentTitel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/doorlooptijdbehandeling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7FC0FD86-BD22-4080-814C-E17637DC8605" ;
+    dct:description "De periode waarbinnen volgens wet- en regelgeving een ZAAk van het ZAAKTYPE afgerond dient te zijn."@nl ;
+    rdfs:label "doorlooptijdBehandeling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/duurverlenging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E67A081E-4398-4ba4-B3CA-68AE25DB9027" ;
+    rdfs:label "duurVerlenging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/eindtijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "295C8300-34C3-4504-8E1F-A0F6745DCE56" ;
+    dct:description "Werkelijke eindtijd van het klantcontact. Het moment dat de conversatie ten einde is. Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk"@nl ;
+    rdfs:label "eindtijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/emailadres> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2EEFDDE3-164E-4dc6-8573-205834C1AF47" ;
+    dct:description "Elektronisch postadres waaronder de medewerker in de regel bereikbaar is."@nl ;
+    rdfs:label "emailadres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/extern> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "8DDB6FA2-A79D-4423-9969-7AF045B86351" ;
+    dct:description "Medewerker is een externe?"@nl ;
+    rdfs:label "extern"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/functie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F17EE707-8A6A-483b-9ED7-204707E1F384" ;
+    dct:description "De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie."@nl ;
+    rdfs:label "functie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/heffing/gefactureerd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/heffing> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "1BFEDA46-C39E-4f9f-9DA7-52CDC09E0B98" ;
+    rdfs:label "gefactureerd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/geslachtsaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AA40C186-C355-457e-99D9-24BE43B05301" ;
+    dct:description "Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is."@nl ;
+    rdfs:label "geslachtsaanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld/helptekst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9BB22DDB-4C78-4a82-AAAF-31A3C92BC59A" ;
+    rdfs:label "helptekst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "59BA1A2C-9DA8-4258-8668-F2B35AF57DD8" ;
+    rdfs:label "hoofdcategorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategoriecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5DC7B481-6724-4769-B6D3-B4AC0B578177" ;
+    rdfs:label "hoofdcategoriecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8DD9E909-55C1-45d8-8B02-F174324A6E5C" ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/indicatiebetaling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AB37B072-E532-4ac1-93CA-EF6ECFC85551" ;
+    dct:description "Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene."@nl ;
+    rdfs:label "indicatieBetaling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/indicatiedeelzaken> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "2CE7ABD9-EEC4-4346-908D-098C68A2CE12" ;
+    dct:description "De aanduiding of een ZAAK behandeld wordt in deelzaken."@nl ;
+    rdfs:label "indicatieDeelzaken"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/indicatieopschorting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1709F1A0-E022-46eb-BBDB-67F561618FFA" ;
+    rdfs:label "indicatieOpschorting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/indicatiepublicatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0F36D8CC-8F45-4e89-9A49-795AAF96EA04" ;
+    dct:description "Aanduiding of (het starten van) een ZAAK van dit ZAAKTYPE gepubliceerd moet worden."@nl ;
+    rdfs:label "indicatiePublicatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort/ingebruik> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "FA5F0235-B6DB-4a05-B4CF-E83477450AC5" ;
+    rdfs:label "ingebruik"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/productofdienst/ingebruik> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/productofdienst> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "0E59912F-4F9F-46ec-836A-FC62638D2D61" ;
+    rdfs:label "ingebruik"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/heffing/inrekening> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/heffing> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CF04BABC-4C62-4687-8DDC-EEB4601CBF28" ;
+    rdfs:label "inrekening"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp/isactief> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "C2295E91-E303-4f86-8F1F-55C8E7CFC72D" ;
+    rdfs:label "isActief"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld/isverplicht> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "39E26CF1-0CEC-40c5-ADC3-F6322CA816A3" ;
+    rdfs:label "isVerplicht"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/kanaal> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F0743215-858A-4c61-A619-91A70AC13CF0" ;
+    rdfs:label "kanaal"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/kanaal> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "32B1052C-88E9-498e-86F6-AF5B340D1132" ;
+    rdfs:label "kanaal"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld/label> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D7DA73F8-E2D2-466c-87A4-1F0EC0F81CCC" ;
+    rdfs:label "label"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/leges> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DCD29BDC-C41D-49d2-BB71-00BA81A954AA" ;
+    rdfs:label "leges"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld/maxlengte> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "8EE926A5-6D4A-4c5c-B917-DA2DD3214875" ;
+    rdfs:label "maxLengte"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/medewerkeridentificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FF819D54-0C4A-4cf7-A828-6587669A8702" ;
+    dct:description "Een korte unieke aanduiding van de medewerker."@nl ;
+    rdfs:label "medewerkerIdentificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/medewerkertoelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C59B1A14-1E2F-4a54-B273-6D4C84713390" ;
+    dct:description "Toelichting bij en/of over de medewerker."@nl ;
+    rdfs:label "medewerkerToelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5E57CA4D-DAAE-4d28-A313-93A560652A32" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6D704244-53FB-4754-AFA4-E457CE13E905" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/productofdienst/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/productofdienst> ;
+    rdfs:range xsd:string ;
+    dct:identifier "69E4CC8D-A151-479b-A2C3-FEA3F357A42F" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/notitie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "24C871CC-2C0F-4f06-B155-07878F7E0708" ;
+    rdfs:label "notitie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/heffing/nummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/heffing> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "707205A8-B1E6-4751-B45B-25D9DF6DD3DF" ;
+    rdfs:label "nummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2852AE1B-482F-458c-BE56-1830D2721B4E" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EA5C69D7-7B05-41cd-B82D-03C85D2B624D" ;
+    dct:description "Een korte omschrijving van de zaak."@nl ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/omschrijvingresultaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "776327B3-71E8-41f8-A7F0-06C21BC8F79C" ;
+    dct:description "Een korte omschrijving wat het resultaat van de zaak inhoudt."@nl ;
+    rdfs:label "omschrijvingResultaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerp> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6D92FCD5-F8C8-41c7-A524-0102186ED5E2" ;
+    rdfs:label "onderwerp"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort/onderwerp> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E6C30B23-CD84-4ab5-A1F3-F724E8C9E9D9" ;
+    rdfs:label "onderwerp"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerpcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3A678FBE-3890-41b5-9E6B-9C9C0A59E8D8" ;
+    rdfs:label "onderwerpcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/publicatietekst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E7C21283-8D81-4da2-A284-3E0F6E76788C" ;
+    dct:description "De generieke tekst van de publicatie van ZAAKen van dit ZAAKTYPE"@nl ;
+    rdfs:label "publicatietekst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/redenopschorting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A562B929-90E2-4d6d-8E7A-22843F6DFBD8" ;
+    rdfs:label "redenOpschorting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/redenverlenging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "101F7002-1142-4212-A589-B06566152328" ;
+    rdfs:label "redenVerlenging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/roepnaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A7726010-7E58-40b6-9523-A4CC9844F5DD" ;
+    dct:description "Naam waarmee de werknemer wordt aangesproken."@nl ;
+    rdfs:label "roepnaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/heffing/runnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/heffing> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "DA8ADFE0-262D-4805-A597-23DDDBD7ECF6" ;
+    rdfs:label "runnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/servicenormbehandeling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "43E2E9F2-6A2C-44e0-A5B1-CEC8325D9C1F" ;
+    dct:description "De periode waarbinnen verwacht wordt dat een ZAAk van het ZAAKTYPE afgerond wordt coform de geldende servicenormen van de zaakbehandelende organisatie(s)."@nl ;
+    rdfs:label "servicenormBehandeling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/soort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "812E18D0-9678-4b27-ACFF-9C8D774CD8C1" ;
+    dct:description "Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding...."@nl ;
+    rdfs:label "soort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/starttijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "9DA228C0-5534-43a2-9211-C355B59DD4DB" ;
+    dct:description "Werkelijke starttijd van het klantcontact, dus het moment dat klant en medewerker van de gemeente elkaar spreken. Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk"@nl ;
+    rdfs:label "starttijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E5274E49-1775-4b24-B45E-366A77511B7E" ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statusvolgorde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A313E848-F5A4-4b9f-B8EA-479435ACC1BF" ;
+    rdfs:label "statusVolgorde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statuscode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A8DEE2BF-1051-4f4c-89FD-DD4E8A8714E3" ;
+    rdfs:label "statuscode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "61C0AE53-1473-483b-84F9-FC173AD4D5FB" ;
+    rdfs:label "subcategorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategoriecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BBFFE25E-9DFA-4ac2-AAA7-48104E0ADD60" ;
+    rdfs:label "subcategoriecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/telefoonnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0BE56460-275E-4dcb-9946-5B88658BF3BD" ;
+    dct:description "Telefoonnummer waaronder de medewerker in de regel bereikbaar is."@nl ;
+    rdfs:label "telefoonnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/tijdsduur> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "046BE1FC-98D3-4f70-9CE0-7EECDAAEE28A" ;
+    dct:description "Werkelijke tijdsduur in seconden"@nl ;
+    rdfs:label "tijdsduur"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp/toelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AA9DF4EC-0A9E-4700-A0F3-5A106282ACFC" ;
+    rdfs:label "toelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/toelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6E576A27-E64E-4f8a-B6D6-DCEA9E5972F9" ;
+    rdfs:label "toelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/toelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C27D84E1-1C87-4ec6-A0F7-2DB5C6143D18" ;
+    dct:description "Een toelichting op de zaak."@nl ;
+    rdfs:label "toelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/toelichtingresultaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1EFA2D76-E623-429e-BF3A-700E3E1611FD" ;
+    dct:description "Een toelichting op wat het resultaat van de zaak inhoudt."@nl ;
+    rdfs:label "toelichtingResultaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/trefwoord> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A0C90878-FDB3-4f79-99E8-F99309D1D4E6" ;
+    dct:description "Een trefwoord waarmee ZAAKen van het ZAAKTYPE kunnen worden gekarakteriseerd."@nl ;
+    rdfs:label "trefwoord"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling/valuta> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1AFCA1F7-3004-4694-AF61-2172DBA2688D" ;
+    rdfs:label "valuta"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagdata/veld> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagdata> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1A09DE14-E07B-4b9a-8DAF-439E366E7EB3" ;
+    rdfs:label "veld"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld/veldnaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B390468F-8959-4cdc-AEC6-11D48BC0D3ED" ;
+    rdfs:label "veldnaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld/veldtype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A3A88F4B-81F0-4ea6-BF95-FC9064F1CFDB" ;
+    rdfs:label "veldtype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/vertrouwelijkaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7AA3DD6A-2FBC-4873-9B86-C80E9F87CDF8" ;
+    dct:description "Aanduiding van de mate waarin zaakdossiers van ZAAKen van dit ZAAKTYPE voor de openbaarheid bestemd zijn."@nl ;
+    rdfs:label "vertrouwelijkAanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/vertrouwelijkaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A7A897CF-ECB5-45c1-A0CD-698E1D66F2CF" ;
+    dct:description "Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is."@nl ;
+    rdfs:label "vertrouwelijkAanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/vertrouwelijkheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "99D97BF6-D2F2-472b-8088-D520B7A0D45E" ;
+    rdfs:label "vertrouwelijkheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/voorletters> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "65D1582C-5922-4ebb-8CE6-3B0F1BBD0941" ;
+    dct:description "De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen."@nl ;
+    rdfs:label "voorletters"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/voorvoegselachternaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "01234EAF-833A-4cd6-8EA0-045F889301FF" ;
+    dct:description "Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is gescheiden."@nl ;
+    rdfs:label "voorvoegselAchternaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/wachttijdtotaal> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "8223E0BC-CBEE-4813-A322-FF366A1D8654" ;
+    dct:description "De totale wachttijd voor de starttijd van het klantcontact. Dit inclusief eventueel te vroeg verschijnen op een afspraak"@nl ;
+    rdfs:label "wachttijdTotaal"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/zaakcategorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1706776B-9325-44fb-84CB-F0637097EAC3" ;
+    dct:description "Typering van de aard van ZAAKen van het ZAAKTYPE."@nl ;
+    rdfs:label "zaakcategorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/zaakidentificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "363632A5-8F1E-43ae-AD8A-8156697E72B5" ;
+    dct:description "Een identificatie van de zaak."@nl ;
+    rdfs:label "zaakidentificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/zaakniveau> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AE7374FB-745D-4f5e-A713-CF67EDDF9498" ;
+    dct:description "Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken."@nl ;
+    rdfs:label "zaakniveau"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/zaaktypeomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "189BD3BF-9167-4891-B937-73EBAAB53BD1" ;
+    dct:description "Omschrijving van de aard van ZAAKen van het ZAAKTYPE."@nl ;
+    rdfs:label "zaaktypeOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/zaaktypeomschrijvinggeneriek> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8AC6178D-D605-4238-A0FE-5C5E40A12B60" ;
+    dct:description "Algemeen gehanteerde omschrijving van de aard van ZAAKen van het ZAAKTYPE"@nl ;
+    rdfs:label "zaaktypeOmschrijvingGeneriek"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp/hoofdonderwerp> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp> ;
+    rdfs:label "hoofdonderwerp"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort/heeft_velden> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld> ;
+    rdfs:label "heeft velden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort/is_aanleiding_voor> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:label "is aanleiding voor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/heeft_documenten> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:label "heeft documenten"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/aanvraag_met> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort> ;
+    rdfs:label "aanvraag met"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/kan_leiden_tot> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:label "kan leiden tot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/heeft_data> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagdata> ;
+    rdfs:label "heeft data"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagdata/is_conform> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagdata> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld> ;
+    rdfs:label "is conform"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/locatie> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/vestigingvanzaakbehandelendeorganisatie> ;
+    rdfs:label "locatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/productofdienst> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/kan_leiden_tot> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:label "kan leiden tot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/heffing> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/heeft_betrekking_op_andere> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:label "heeft betrekking op andere"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/heeft_betaling> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling> ;
+    rdfs:label "heeft betaling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/heeft_betrekking_op> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:label "heeft betrekking op"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/is_van> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:label "is van"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/is_deelzaak_van> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:label "is deelzaak van"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/kent> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:label "kent"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/is_verantwoordelijke_voor> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:label "is verantwoordelijke voor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/is_gevoerd_door> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:label "is gevoerd door"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/afhandelend_medewerker> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:label "afhandelend medewerker"@nl .

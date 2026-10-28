@@ -1,0 +1,145 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> a owl:Class ;
+    rdfs:label "Leerroute"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Leerroute is het door de gemeente vastgestelde traject dat een inburgeringsplichtige volgt om te voldoen aan de inburgeringsplicht, bestaande uit taallessen, participatieactiviteiten en aanvullende modules, afgestemd op het leervermogen en het hoofddoel van de inburgeraar."@nl ;
+    dct:identifier "51285531-9529-4b2d-9EC6-B6BAEA729D9A" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip> a owl:Class ;
+    rdfs:label "PIP"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Het Persoonlijk Plan Inburgering en Participatie (PIP) is een individueel plan dat door de gemeente wordt vastgesteld in overleg met de inburgeringsplichtige, waarin het leerrouteadvies, het inburgeringsaanbod, het hoofddoel en de begeleidingsafspraken zijn vastgelegd, met als doel het succesvol afronden van de inburgering binnen de gestelde termijn."@nl ;
+    dct:identifier "94EB7844-F863-4330-A15A-06ED4D1401E0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route> a owl:Class ;
+    rdfs:label "B1-route"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De B1-route is één van de drie leerroutes in het inburgeringsstelsel, waarbij de inburgeringsplichtige zich voorbereidt op het afleggen van het inburgeringsexamen op taalniveau B1, gericht op brede participatie in de Nederlandse samenleving en toeleiding naar arbeid."@nl ;
+    dct:identifier "09D462A9-94C8-4803-A0A0-B7DB4363B45D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route/aantalgratisexamenpogingentegoed> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "BADDA31A-CDD2-4fb5-B8B7-4BE88BC4C6BF" ;
+    rdfs:label "AantalGratisExamenpogingenTegoed"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip/dagtekeninginitielepip> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip> ;
+    rdfs:range xsd:date ;
+    dct:identifier "40B1974C-CBC5-448e-93FA-3B2CC4A2D47D" ;
+    rdfs:label "DagtekeningInitielePIP"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip/dagtekeningpip> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip> ;
+    rdfs:range xsd:date ;
+    dct:identifier "9F620EDC-FD4C-4b38-8AD7-DCEFC40A35E2" ;
+    rdfs:label "DagtekeningPIP"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip/emailcontactpersoon> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3DEA6F23-647A-4412-AC2A-019CB56944E3" ;
+    rdfs:label "EmailContactPersoon"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute/examena2> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "58603A41-15A5-46ee-A4AC-64C74BCF6E29" ;
+    rdfs:label "ExamenA2"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route/examendatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route> ;
+    rdfs:range xsd:date ;
+    dct:identifier "73C8B043-DEC8-44cd-935C-D53BE810316C" ;
+    rdfs:label "ExamenDatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute/geschatteintensiteitb1route> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D5A39C32-0902-486b-9433-4ACCC99DD49D" ;
+    rdfs:label "GeschatteIntensiteitB1Route"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route/gevolgdeurenparticipatietaalles> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "0B4524FD-8D69-47bf-B831-A02A8E48467E" ;
+    rdfs:label "GevolgdeUrenParticipatieTaalles"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute/indicatoralfabetisering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/classificatiearmtotuitstekend> ;
+    dct:identifier "DC3EBB1E-E4BA-4e74-BE09-7FDFCD468D67" ;
+    rdfs:label "IndicatorAlfabetisering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute/indicatormagopleidingafmaken> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "DE12E70C-5581-435a-A448-F7358DD55B11" ;
+    rdfs:label "IndicatorMagOpleidingAfmaken"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip/indicatormagopleidingafmaken> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "8C9A59E7-6FFB-4f7e-8562-8CFD279FE6EA" ;
+    rdfs:label "IndicatorMagOpleidingAfmaken"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute/indicatortoestemmingexamena2> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7D8B18EE-E406-4be2-A20A-3B692013E36F" ;
+    rdfs:label "IndicatorToestemmingExamenA2"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute/leerroutetype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3E056AF0-E2C3-4300-9FD3-2B45A252A656" ;
+    rdfs:label "LeerrouteType"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip/naamcontactpersoon> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EA936667-DF94-4ce0-8635-CF292269B3C7" ;
+    rdfs:label "NaamContactPersoon"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute/niveau> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:range xsd:string ;
+    dct:identifier "12E40A47-B424-4c17-8513-3852A4DC288D" ;
+    rdfs:label "Niveau"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route/redengeenresultaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C079CC85-DB34-4745-AA44-ECC9250DC277" ;
+    rdfs:label "RedenGeenResultaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route/resultaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "1D4978F6-968D-4ec1-86FD-ACC605C9F6D6" ;
+    rdfs:label "Resultaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute/geenleerbaarheidstoetszb> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "C743FEA5-C42B-44d0-943A-2DF805D9FED3" ;
+    dct:description "Indicator die aangeeft of de leerbaarheidstoets niet is afgenomen vanwege een zintuigelijke beperking van de inburgeraar."@nl ;
+    rdfs:label "geenLeerbaarheidstoetsZB"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute/afgesproken_in> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/pip> ;
+    rdfs:label "afgesproken in"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route/onderdeel_van> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/b1_route> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inburgering/leerroute> ;
+    rdfs:label "onderdeel van"@nl .

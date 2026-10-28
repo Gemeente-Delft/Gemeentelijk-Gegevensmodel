@@ -1,0 +1,610 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/financien_verwerken_mutaties>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie> a owl:Class ;
+    rdfs:label "Applicatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een applicatiecomponent die gericht is op het ondersteunen van eindgebruikers."@nl ;
+    dct:identifier "A8945FD7-EA20-418e-8E7F-18F13F16E338" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschrift> a owl:Class ;
+    rdfs:label "Bankafschrift"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Overzicht van de bij- en afschrijvingen van een rekening"@nl ;
+    dct:identifier "FC698CC3-7A64-4991-A751-B3B2A5DF77E3" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschriftregel> a owl:Class ;
+    rdfs:label "Bankafschriftregel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een item op het bankafschrift"@nl ;
+    dct:identifier "764CE125-55C1-480d-90BA-745484CF3FC0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankrekening> a owl:Class ;
+    rdfs:label "Bankrekening"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een rekening-courant bij een bank"@nl ;
+    dct:identifier "D87012E0-D2EB-4333-AD6C-1E43E6857304" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batch> a owl:Class ;
+    rdfs:label "Batch"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Verzameling van posten die in het kader van automatische verwerking een logisch geheel vormen."@nl ;
+    dct:identifier "A784A0ED-4451-4a92-B7C8-ABE528BA898F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batchregel> a owl:Class ;
+    rdfs:label "Batchregel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een item uit een batch"@nl ;
+    dct:identifier "9F935C8B-5B7C-4ce4-9360-04A91F4F70CC" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuur> a owl:Class ;
+    rdfs:label "Factuur"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Schriftelijke rekening of nota voor de geleverde zaken of verrichte diensten."@nl ;
+    dct:identifier "E1DA56C3-6ECA-4ec9-8CF4-FC57E1C43102" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuurregel> a owl:Class ;
+    rdfs:label "Factuurregel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een item op de factuur"@nl ;
+    dct:identifier "65E960EA-CC92-4af1-AF2B-B4625FA6AEA0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening> a owl:Class ;
+    rdfs:label "Hoofdrekening"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "is kostensoort"@nl ;
+    dct:identifier "0EEAF579-3F47-4551-B9F9-7367280EB3EB" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> a owl:Class ;
+    rdfs:label "Kostenplaats"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven."@nl ;
+    dct:identifier "D90E822D-7EF8-4ea6-AF5C-4A4362577941" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie> a owl:Class ;
+    rdfs:label "Mutatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Wijziging van een situatie"@nl ;
+    dct:identifier "CB0A6B53-D263-459e-8C28-AD97E5552FFF" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/subrekening> a owl:Class ;
+    rdfs:label "Subrekening"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Ondergeschikte rekening van een hoofdrekening"@nl ;
+    dct:identifier "1EC60172-CB6B-40c9-9818-C7A708C8540E" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/werkorder> a owl:Class ;
+    rdfs:label "Werkorder"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Opdracht voor de uitvoering van een activiteit of een stap in een proces."@nl ;
+    dct:identifier "4AF7FA48-DFB0-474f-B797-A13D5FD37530" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/externebron> a owl:Class ;
+    rdfs:label "ExterneBron"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Bron buiten de eigen organisatie"@nl ;
+    dct:identifier "841FC453-80B3-4389-A91F-9498FDC629CF" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling> a owl:Class ;
+    rdfs:label "Betaling"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "het onderhandigen of overboeken van geld in ruil voor goed of dienst"@nl ;
+    dct:identifier "FC488929-8721-402f-A073-1DFDB76A816E" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/btwcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9D7D98E8-08E8-45c9-8356-F3D2464C2C91" ;
+    rdfs:label "BTWCode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/btwomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0D24CB15-7D1B-4c27-AA12-2EC8C596A099" ;
+    rdfs:label "BTWOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuurregel/btwpercentage> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuurregel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FFB28054-B2B3-4c7b-A09A-3F737B0B43FE" ;
+    rdfs:label "BTWPercentage"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening/piahoofcategorieomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "135105B1-1966-484e-9D10-F160ECFA119B" ;
+    rdfs:label "PIAHoofcategorieOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening/piahoofdcategoriecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E7F09EB3-A9E5-4e75-A487-D8068558AF3B" ;
+    rdfs:label "PIAHoofdcategorieCode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuurregel/aantal> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuurregel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9041298D-0FFE-4a7e-918A-D93DD8080DD1" ;
+    rdfs:label "aantal"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie/applicatieurl> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DD4A3B0F-AF84-4284-83C8-A33C983ADE9F" ;
+    rdfs:label "applicatieURL"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankrekening/bank> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankrekening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "97CD1D61-7F62-4b66-8EBF-CC3182FD7B8E" ;
+    rdfs:label "bank"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling/bedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "DA1EA6F8-0994-4481-9025-16D9446C2467" ;
+    rdfs:label "bedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie/bedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "46973899-E826-43f6-A20F-66F0B7D64518" ;
+    rdfs:label "bedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batchregel/bedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batchregel> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "F9FA6D41-81EF-463d-86BD-2F1EDB337139" ;
+    rdfs:label "bedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschriftregel/bedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschriftregel> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "D138C865-72A0-4098-A152-8D6D69DA1356" ;
+    rdfs:label "bedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuurregel/bedragbtw> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuurregel> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "985525AC-0BD8-4a9f-A433-6D27F7C11B12" ;
+    rdfs:label "bedragBTW"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuurregel/bedragexbtw> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuurregel> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "F3BA9C6D-E7F2-4f0c-9DBD-42A2BCF701CD" ;
+    rdfs:label "bedragExBTW"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie/beheerstatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "AA0A47E5-166F-4bbb-9EB3-78B41273151E" ;
+    rdfs:label "beheerstatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie/beleidsdomein> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "434004EF-99B9-4fb6-B691-01C845DAEE3B" ;
+    rdfs:label "beleidsdomein"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuur/betaalbaarper> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuur> ;
+    rdfs:range xsd:date ;
+    dct:identifier "43DE6E8A-7162-4116-9861-A462F5498991" ;
+    rdfs:label "betaalbaarPer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuur/betaaltermijn> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuur> ;
+    rdfs:range xsd:string ;
+    dct:identifier "85AB6128-D177-4d42-9720-D18DDF281E2B" ;
+    rdfs:label "betaaltermijn"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschriftregel/bij> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschriftregel> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "81459158-D865-45e1-AB43-D32FD5A919B8" ;
+    rdfs:label "bij"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie/categorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatiecategorie> ;
+    dct:identifier "185E15A4-FAD3-4e31-BEFC-E048C7B6C720" ;
+    rdfs:label "categorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/werkorder/code> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/werkorder> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E517ABA3-2A3C-4b93-8FE4-2264D0DFCCD8" ;
+    rdfs:label "code"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuur/code> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuur> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B077B7C0-6182-4e52-B6A2-72080AA83B45" ;
+    rdfs:label "code"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie/datum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "9572E927-60DE-4ade-B4CF-511FA67E553D" ;
+    rdfs:label "datum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschriftregel/datum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschriftregel> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D423BA4C-6CE5-4598-AEA9-055362F40290" ;
+    rdfs:label "datum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batch/datum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batch> ;
+    rdfs:range xsd:date ;
+    dct:identifier "20ADDE2F-06B5-4ced-9210-9364C9735BCB" ;
+    rdfs:label "datum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschrift/datum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschrift> ;
+    rdfs:range xsd:date ;
+    dct:identifier "F23D1C64-BF03-404a-A35E-39E0C5199F08" ;
+    rdfs:label "datum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batchregel/datumbetaling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batchregel> ;
+    rdfs:range xsd:date ;
+    dct:identifier "5B1B8E37-9F9C-4524-B4F3-A4C31A8A537B" ;
+    rdfs:label "datumBetaling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuur/datumfactuur> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuur> ;
+    rdfs:range xsd:date ;
+    dct:identifier "0A720195-77F4-4f05-A69D-F78D6D4DBD54" ;
+    rdfs:label "datumFactuur"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling/datumtijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "4F2385C7-3724-42da-A218-DEF21ED7DA36" ;
+    rdfs:label "datumtijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/werkorder/documentnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/werkorder> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "48D6824D-1442-4738-BA60-FB4DE98713E0" ;
+    rdfs:label "documentnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuur/factuurbedragbtw> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuur> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "2C12A7DB-3D7C-4292-B184-6480A49EA49B" ;
+    rdfs:label "factuurbedragBTW"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuur/factuurbedragexclusiefbtw> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuur> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "56E3A62D-BEE2-44e1-856C-43A70A871133" ;
+    rdfs:label "factuurbedragExclusiefBTW"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie/guid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "534B87CE-5639-4ed6-A269-5FEADC3B32E4" ;
+    rdfs:label "guid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/kostenplaatssoortcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "DCE6B912-D2FC-4423-8B0E-56EEE769D6A3" ;
+    rdfs:label "kostenplaatssoortCode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/kostenplaatssoortomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "1F6364ED-FFA9-4c8b-8191-788C76B4E943" ;
+    rdfs:label "kostenplaatssoortOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/kostenplaatstypecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "AB200DBB-A697-4dcd-8077-C7F0C25380F5" ;
+    rdfs:label "kostenplaatstypeCode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/kostenplaatstypeomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "E07EE47E-E183-4654-887A-7E6FD0B17219" ;
+    rdfs:label "kostenplaatstypeOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/subrekening/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/subrekening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D4B8E535-94F4-4b88-8CB5-149DF5B2B61F" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8D468FC2-DFFB-4b16-9239-CB0AB54E8147" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6F38439B-23A4-4dd3-9C4E-F6B6E57027BF" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/werkorder/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/werkorder> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4BBA836A-9EE7-4a4e-AB53-2DC3959CF14B" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "42C49964-2324-49ee-A13B-F9C420B219B6" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/subrekening/nummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/subrekening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2895E9E9-758A-4df9-A2FA-DAE257F2EA04" ;
+    rdfs:label "nummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening/nummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F7742F46-B501-412f-BEC7-8D099990C631" ;
+    rdfs:label "nummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuurregel/nummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuurregel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "ED4A13C2-B5D1-4519-9BF3-41761A92B846" ;
+    rdfs:label "nummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschrift/nummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschrift> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FAFCD7B3-0E86-41af-A80B-FD9736ACBFDA" ;
+    rdfs:label "nummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batch/nummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batch> ;
+    rdfs:range xsd:string ;
+    dct:identifier "49FF38F0-B416-41b1-83C6-BB8BF4325775" ;
+    rdfs:label "nummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankrekening/nummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankrekening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6A56A190-E709-4ab8-ABA8-AE10C1842E5B" ;
+    rdfs:label "nummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D6D48C7B-9C71-4013-90F0-AE46781F32D9" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuurregel/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuurregel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "86C8AFD8-DAC9-46ef-A06A-BDB587761718" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/subrekening/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/subrekening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "00B4AFE9-91C0-4e68-9716-84829AD53D49" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2852AE1B-482F-458c-BE56-1830D2721B4E" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuur/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuur> ;
+    rdfs:range xsd:string ;
+    dct:identifier "62FBF9C8-0818-42f2-B8CA-A837AC0A297A" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/werkorder/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/werkorder> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A478B8A3-5681-431c-9B8C-72FB058952D3" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9DB35FBA-DC20-439a-8DC5-6488438E4DE1" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batchregel/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batchregel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E27D754F-348B-492c-8711-3DFFDCD55CA4" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4C205861-D87B-4acf-99D2-ACC310BD05F3" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie/packagingstatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "7CA641E0-C200-46d9-B376-C3AA74638CC4" ;
+    rdfs:label "packagingstatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batchregel/rekeningnaar> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batchregel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1C5EF370-95BA-4eea-95EF-1A4FAC23BE70" ;
+    rdfs:label "rekeningNaar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschriftregel/rekeningvan> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschriftregel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7A9F4F0C-E86F-4682-84D4-1FEB4F41EABB" ;
+    rdfs:label "rekeningVan"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batchregel/rekeningvan> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batchregel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8C97CA78-5BD3-402a-95BC-8140FB76993F" ;
+    rdfs:label "rekeningVan"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening/subcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6B4397C5-40F1-4e1f-B531-5BAB45C86E2B" ;
+    rdfs:label "subcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening/subcodeomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "787DADA7-F9D4-4efc-88BD-862EBC834662" ;
+    rdfs:label "subcodeOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankrekening/tennaamstelling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankrekening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "02C51E43-E5A5-4a29-AA8E-DF11F6B11704" ;
+    rdfs:label "tennaamstelling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batch/tijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batch> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9E70B393-F097-48c2-BB7F-703C4F02D2B2" ;
+    rdfs:label "tijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling/valuta> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1AFCA1F7-3004-4694-AF61-2172DBA2688D" ;
+    rdfs:label "valuta"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/werkorder/werkordertype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/werkorder> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1E1979CD-28B0-4685-9DDF-81D546A90432" ;
+    rdfs:label "werkordertype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie/heeft_betrekking_op> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:label "heeft betrekking op"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/subrekening> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/werkorder> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie/naar> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening> ;
+    rdfs:label "naar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie/van> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening> ;
+    rdfs:label "van"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/werkorder> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/subrekening> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening/valt_binnen> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening> ;
+    rdfs:label "valt binnen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/hoofdrekening> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuurregel/leidt_tot> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuurregel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie> ;
+    rdfs:label "leidt tot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuur/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuur> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuurregel> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuur/schrijft_op> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/factuur> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:label "schrijft op"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batchregel/leidt_tot> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batchregel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie> ;
+    rdfs:label "leidt tot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batch/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batch> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batchregel> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batch/heeft_herkomst> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batch> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/externebron> ;
+    rdfs:label "heeft herkomst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankrekening/naar> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankrekening> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling> ;
+    rdfs:label "naar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankrekening/van> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankrekening> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling> ;
+    rdfs:label "van"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschriftregel/leidt_tot> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschriftregel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie> ;
+    rdfs:label "leidt tot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankrekening/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankrekening> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschrift> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschrift/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschrift> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschriftregel> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie/heeft_herkomst> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/applicatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/batch> ;
+    rdfs:label "heeft herkomst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling/komt_voor_op> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/betaling> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/bankafschriftregel> ;
+    rdfs:label "komt voor op"@nl .

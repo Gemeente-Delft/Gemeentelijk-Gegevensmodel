@@ -1,0 +1,357 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/verkeer_en_vervoer_stremmingen>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming> a owl:Class ;
+    rdfs:label "Stremming"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Situatie waarbij de doorstroming van het (vaar)wegverkeer plaatselijk is geblokkeerd als gevolg van een incident"@nl ;
+    dct:identifier "999725EE-737F-410e-906B-9865EBED3597" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> a owl:Class ;
+    rdfs:label "Medewerker"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
+    dct:identifier "16EB3936-03CB-4854-9CD8-9F0911EEA51B" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> a owl:Class ;
+    rdfs:label "Wegdeel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Kleinste functioneel onafhankelijk stukje van een NEN 3610 Weg, met gelijkblijvende homogene eigenschappen en relaties en primair bedoeld voor gebruik door weg-, spoor- en vliegverkeer te land"@nl ;
+    dct:identifier "9B0F3F8B-B79B-46f7-BF81-96E4C63B9AC2" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/aantal_gehinderden> a owl:Class ;
+    rdfs:label "Aantal Gehinderden"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "C00A2866-8F7D-4be3-A676-794C9A477556" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/hindercategorie> a owl:Class ;
+    rdfs:label "Hindercategorie"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "A1A8B6C1-3607-4c64-92CC-364470368C3E" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/hinderklasse> a owl:Class ;
+    rdfs:label "Hinderklasse"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "9387D652-A431-4f4c-9F35-4DB0A102B1EF" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremmingstatus> a owl:Class ;
+    rdfs:label "Stremmingstatus"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "94230A7B-8876-4a0b-B660-424E397045B2" .
+
+# Enumeration: AANTAL_GEHINDERDEN
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/aantal_gehinderden/100_000_tot_1_000_000>
+    rdfs:label "100.000 tot 1.000.000"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/aantal_gehinderden/10_000_tot_100_000>
+    rdfs:label "10.000 tot 100.000"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/aantal_gehinderden/1_000_tot_10_000>
+    rdfs:label "1.000 tot 10.000"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/aantal_gehinderden/meer_dan_1_000_000>
+    rdfs:label "meer dan 1.000.000"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/aantal_gehinderden/minder_dan_1000>
+    rdfs:label "minder dan 1000"@nl .
+
+# Enumeration: HINDERCATEGORIE
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/hindercategorie/a>
+    rdfs:label "A"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/hindercategorie/b>
+    rdfs:label "B"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/hindercategorie/c>
+    rdfs:label "C"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/hindercategorie/d>
+    rdfs:label "D"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/hindercategorie/e>
+    rdfs:label "E"@nl .
+
+# Enumeration: HINDERKLASSE
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/hinderklasse/klasse_0_geen_hinder>
+    rdfs:label "Klasse 0: Geen hinder"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/hinderklasse/klasse_1_kleine_hinder>
+    rdfs:label "Klasse 1: Kleine hinder"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/hinderklasse/klasse_2_matige_hinder>
+    rdfs:label "Klasse 2: Matige hinder"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/hinderklasse/klasse_3_grote_hinder>
+    rdfs:label "Klasse 3: Grote hinder"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/hinderklasse/klasse_4_zeer_grote_hinder>
+    rdfs:label "Klasse 4: Zeer grote hinder"@nl .
+
+# Enumeration: STREMMINGSTATUS
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremmingstatus/aangemeld>
+    rdfs:label "Aangemeld"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremmingstatus/afgerond>
+    rdfs:label "Afgerond"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremmingstatus/gepulbliceerd>
+    rdfs:label "Gepulbliceerd"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremmingstatus/in_uitvoering>
+    rdfs:label "In Uitvoering"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremmingstatus/plan_afhandelen>
+    rdfs:label "Plan Afhandelen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/lod0geometriewegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "11438698-6342-4ba6-9160-2D334486D531" ;
+    dct:description "De geometrische representatie van een wegdeel als vlak in 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0GeometrieWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming/aantalgehinderden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "B92FD1BB-181A-49e0-8914-F2C5202780D9" ;
+    rdfs:label "aantalGehinderden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/achternaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "79457AE1-2585-4ce0-A864-D4ADE30A2135" ;
+    dct:description "De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt."@nl ;
+    rdfs:label "achternaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming/datumaanmelding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "6EE64543-A0DF-4912-B088-03981C83E9DD" ;
+    rdfs:label "datumAanmelding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/datumbegingeldigheidwegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "200ABDCD-A9F0-43cb-AEFE-6E60DE9707FB" ;
+    dct:description "De datum waarop het wegdeel is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "6FF88125-493E-4340-8B50-5F163333F861" ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/datumeindegeldigheidwegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EE38C1CE-CF90-4cd4-A401-D5D54B746931" ;
+    dct:description "De datum waarop het wegdeel ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/datumindienst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:date ;
+    dct:identifier "4BD35398-345A-4d24-84A5-34D79A764C7F" ;
+    rdfs:label "datumInDienst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming/datumstart> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "FA47E32C-2723-4fcd-87D9-2B3929568D76" ;
+    rdfs:label "datumStart"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/datumuitdienst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AE3CF305-B845-40cf-A9E3-2DE97CB31F46" ;
+    dct:description "Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt."@nl ;
+    rdfs:label "datumUitDienst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming/datumwijziging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "5C5B4BDF-4201-43f0-9F41-B092131BCB23" ;
+    rdfs:label "datumWijziging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming/delentoegestaan> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "7B49E318-D37E-46e5-86F5-792CCBCB8F37" ;
+    rdfs:label "delenToegestaan"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/emailadres> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2EEFDDE3-164E-4dc6-8573-205834C1AF47" ;
+    dct:description "Elektronisch postadres waaronder de medewerker in de regel bereikbaar is."@nl ;
+    rdfs:label "emailadres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/extern> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "8DDB6FA2-A79D-4423-9969-7AF045B86351" ;
+    dct:description "Medewerker is een externe?"@nl ;
+    rdfs:label "extern"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/functie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F17EE707-8A6A-483b-9ED7-204707E1F384" ;
+    dct:description "De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie."@nl ;
+    rdfs:label "functie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/functiewegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/functieweg> ;
+    dct:identifier "0293B525-513C-4ad1-B225-A5BD397CA7E8" ;
+    dct:description "Specificatie van het hoofdgebruiksdoel van het wegdeel."@nl ;
+    rdfs:label "functieWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/fysiekvoorkomenwegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenweg> ;
+    dct:identifier "4447539D-30FB-4273-84AA-4B425C8EFB50" ;
+    dct:description "Mate waarin het wegdeel al of niet verhard is."@nl ;
+    rdfs:label "fysiekVoorkomenWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/geometriewegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "DC71B3C2-0AAF-471d-A07E-7B8B5886A3C2" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een wegdeel."@nl ;
+    rdfs:label "geometrieWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming/geschiktvoorpublicatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "6D1DD493-3102-4b3a-A618-1CCFCB126948" ;
+    rdfs:label "geschiktVoorPublicatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/geslachtsaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AA40C186-C355-457e-99D9-24BE43B05301" ;
+    dct:description "Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is."@nl ;
+    rdfs:label "geslachtsaanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming/hinderklasse> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/hinderklasse> ;
+    dct:identifier "6EA37309-2B05-46ea-820A-DA593DC95B3F" ;
+    rdfs:label "hinderklasse"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/identificatiewegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "38A87B7E-B2EE-4130-8633-49FDB498EB8F" ;
+    dct:description "Een unieke identificatie voor een wegdeel"@nl ;
+    rdfs:label "identificatieWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/kruinlijngeometriewegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "6F442520-2884-499f-9B72-DB6F3C5316A9" ;
+    dct:description "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."@nl ;
+    rdfs:label "kruinlijngeometrieWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming/locatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8530C437-A5E3-49fa-96AA-28CA8E535FFE" ;
+    rdfs:label "locatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/medewerkeridentificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FF819D54-0C4A-4cf7-A828-6587669A8702" ;
+    dct:description "Een korte unieke aanduiding van de medewerker."@nl ;
+    rdfs:label "medewerkerIdentificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/medewerkertoelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C59B1A14-1E2F-4a54-B273-6D4C84713390" ;
+    dct:description "Toelichting bij en/of over de medewerker."@nl ;
+    rdfs:label "medewerkerToelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7477AB1E-6EE5-4850-AA90-04189A616AEE" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/plusfunctiewegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/functiewegplus> ;
+    dct:identifier "7EB0CB23-5E58-46bb-98F3-F208760B7F16" ;
+    dct:description "Specificatie van het hoofdgebruiksdoel van het wegdeel, nadere classificatie."@nl ;
+    rdfs:label "plusFunctieWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/plusfysiekvoorkomenwegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenwegplus> ;
+    dct:identifier "8FB407D2-282F-4a11-874E-BF4424A00F1F" ;
+    dct:description "Mate waarin het wegdeel al of niet verhard is, nadere classificatie."@nl ;
+    rdfs:label "plusFysiekVoorkomenWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/relatievehoogteliggingwegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1DF32627-1A89-4452-9C25-CEA12239E5CF" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het wegdeel"@nl ;
+    rdfs:label "relatieveHoogteliggingWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/roepnaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A7726010-7E58-40b6-9523-A4CC9844F5DD" ;
+    dct:description "Naam waarmee de werknemer wordt aangesproken."@nl ;
+    rdfs:label "roepnaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremmingstatus> ;
+    dct:identifier "320B7226-7E8C-48e4-BA65-E8C7E7222394" ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/statuswegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "2E6FA44F-B1B3-4fbc-ACD4-28214BE0BF48" ;
+    dct:description "De status gekoppeld aan de levenscyclus van het wegdeel."@nl ;
+    rdfs:label "statusWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/telefoonnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0BE56460-275E-4dcb-9946-5B88658BF3BD" ;
+    dct:description "Telefoonnummer waaronder de medewerker in de regel bereikbaar is."@nl ;
+    rdfs:label "telefoonnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/voorletters> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "65D1582C-5922-4ebb-8CE6-3B0F1BBD0941" ;
+    dct:description "De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen."@nl ;
+    rdfs:label "voorletters"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/voorvoegselachternaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "01234EAF-833A-4cd6-8EA0-045F889301FF" ;
+    dct:description "Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is gescheiden."@nl ;
+    rdfs:label "voorvoegselAchternaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/wegdeeloptalud> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> ;
+    dct:identifier "8D454A46-8068-4606-A66E-731C17B2A842" ;
+    dct:description "Indicatie of het object wel of niet op een hellend vlak ligt."@nl ;
+    rdfs:label "wegdeelOpTalud"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/gewijzigd_door> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming> ;
+    rdfs:label "gewijzigd door"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/ingevoerd_door> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer_vervoer_en_waterstaat/mobiliteit/stremming> ;
+    rdfs:label "ingevoerd door"@nl .

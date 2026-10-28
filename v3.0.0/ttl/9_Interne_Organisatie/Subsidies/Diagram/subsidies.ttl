@@ -1,0 +1,1089 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidies>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/rapportagemoment> a owl:Class ;
+    rdfs:label "Rapportagemoment"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een vantevoren bepaald tijdstip waarom een gegevensanalyse wordt uitgevoerd"@nl ;
+    dct:identifier "20CA8283-CE99-455c-BF4D-EAE3DF41AE5B" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/sector> a owl:Class ;
+    rdfs:label "Sector"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Sector is de verzameling van werkzaamheden, gericht op de productie van bepaalde goederen en diensten. Het gaat hierbij niet alleen om activiteiten van het bedrijfsleven, maar ook om activiteiten van niet op winst gerichte instellingen en de overheid."@nl ;
+    dct:identifier "DA4F9850-4CA0-4508-9D57-F631BC30B360" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> a owl:Class ;
+    rdfs:label "Subsidie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Aan derden toegekende financiele middelen, bestemd voor het uitvoeren van bepaalde activiteiten"@nl ;
+    dct:identifier "FD701A55-6865-44aa-9A73-C46E02481796" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieaanvraag> a owl:Class ;
+    rdfs:label "Subsidieaanvraag"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Aanvraag voor een subsidie"@nl ;
+    dct:identifier "26C0D33A-B15A-4256-A5BF-5382A4E03539" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiebeschikking> a owl:Class ;
+    rdfs:label "Subsidiebeschikking"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Besluit over het al dan niet toekennen van een subsidie"@nl ;
+    dct:identifier "F8BD6D83-D3F8-4dd3-B12E-22A991D1A0A2" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiecomponent> a owl:Class ;
+    rdfs:label "Subsidiecomponent"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Onderdeel van een subisidie met een eigen kostenplaats."@nl ;
+    dct:identifier "DB093A73-BE89-462b-8FBA-19B2629072ED" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma> a owl:Class ;
+    rdfs:label "Subsidieprogramma"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Programma waarin meerdere subsidies worden verleend vanuit een bepaalde samenhang"@nl ;
+    dct:identifier "8F1A719D-C89A-4194-8FF4-1F3E0F174D3D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/taak> a owl:Class ;
+    rdfs:label "Taak"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een samenhangende set activiteiten in het kader van een subsidie."@nl ;
+    dct:identifier "156C82B1-2641-40c8-9E99-60031643C29A" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> a owl:Class ;
+    rdfs:label "Kostenplaats"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven."@nl ;
+    dct:identifier "D90E822D-7EF8-4ea6-AF5C-4A4362577941" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> a owl:Class ;
+    rdfs:label "Medewerker"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
+    dct:identifier "16EB3936-03CB-4854-9CD8-9F0911EEA51B" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> a owl:Class ;
+    rdfs:label "Document"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
+    dct:identifier "5641C50A-C0FA-4e71-B07B-26C7B1CE94ED" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> a owl:Class ;
+    rdfs:label "Zaak"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden."@nl ;
+    dct:identifier "649EFD86-ED52-4293-8577-DBE5445845BF" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> a owl:Class ;
+    rdfs:label "OrganisatorischeEenheid"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken."@nl ;
+    dct:identifier "936A4E8B-3E5A-44b6-8A5D-EFB39F83FB6D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> a owl:Class ;
+    rdfs:label "Rechtspersoon"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON"@nl ;
+    dct:identifier "9DF5AC43-3673-4b9a-BB5E-6DCA7BE28835" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieniveau> a owl:Class ;
+    rdfs:label "Subsidieniveau"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "B4CF1D3E-D000-467d-A9D5-4519704F4A6D" .
+
+# Enumeration: SUBSIDIENIVEAU
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieniveau/europees>
+    rdfs:label "Europees"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieniveau/gemeente>
+    rdfs:label "Gemeente"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieniveau/nationaal>
+    rdfs:label "Nationaal"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieniveau/provincie>
+    rdfs:label "Provincie"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieniveau/regionaal>
+    rdfs:label "Regionaal"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/btwcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9D7D98E8-08E8-45c9-8356-F3D2464C2C91" ;
+    rdfs:label "BTWCode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/btwomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0D24CB15-7D1B-4c27-AA12-2EC8C596A099" ;
+    rdfs:label "BTWOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/formatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "81696C38-5012-41f8-8719-E7EE39568CDA" ;
+    rdfs:label "Formatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/kvknummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C43F0DE4-C49D-442f-B7F6-157CF378EBE8" ;
+    rdfs:label "KVKnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieaanvraag/aangevraagdbedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieaanvraag> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "26503518-5E3E-4baf-871C-6598D53771E4" ;
+    rdfs:label "aangevraagdBedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/accountantscontrole> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "B8ED7D22-918D-4835-807B-B8EEB9D4B334" ;
+    rdfs:label "accountantscontrole"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/achternaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "79457AE1-2585-4ce0-A864-D4ADE30A2135" ;
+    dct:description "De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt."@nl ;
+    rdfs:label "achternaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adresbinnenland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0F55857A-1582-46f5-9621-0E93F8C13310" ;
+    dct:description "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."@nl ;
+    rdfs:label "adresBinnenland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adresbuitenland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F6185DF1-173C-47b0-A94A-55D055A89104" ;
+    dct:description "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."@nl ;
+    rdfs:label "adresBuitenland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adrescorrespondentie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3A5CEB3F-40E2-4890-92D1-61133EE48E9D" ;
+    dct:description "postbus of antwoordnummer"@nl ;
+    rdfs:label "adresCorrespondentie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/archiefnominatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7CD86512-436C-4d63-9BC0-2724FAE4CA2F" ;
+    dct:description "Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden"@nl ;
+    rdfs:label "archiefnominatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiebeschikking/beschikkingsnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiebeschikking> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EAEE056A-A59E-4f25-AFC1-0E0C03FA46E8" ;
+    rdfs:label "beschikkingsnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiebeschikking/beschiktbedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiebeschikking> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "6CAF17F7-D490-407f-A6FE-9D2200D929FC" ;
+    rdfs:label "beschiktBedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiebeschikking/besluit> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiebeschikking> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B781C10E-F159-4383-9210-240DC312ED4C" ;
+    rdfs:label "besluit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/cofinanciering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CE4D711B-45C9-4856-B374-255F1FBE2751" ;
+    rdfs:label "coFinanciering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/cocumentbeschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1DB068B6-3EAE-4d79-B1EC-73905A5994FC" ;
+    dct:description "Een generieke beschrijving van de inhoud van het document."@nl ;
+    rdfs:label "cocumentBeschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/rapportagemoment/datum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/rapportagemoment> ;
+    rdfs:range xsd:date ;
+    dct:identifier "5CD5FEE0-7777-4908-8BE5-5484DCF13154" ;
+    rdfs:label "datum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/datumbehandeltermijn> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "14E302B1-B7C9-48b7-8BA3-870D491736E6" ;
+    rdfs:label "datumBehandeltermijn"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/datumbewaartermijn> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "41600117-C42E-4cd1-B4C3-236DBDA76BD7" ;
+    rdfs:label "datumBewaartermijn"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumcreatiedocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "61F9ED59-4DA5-4099-ADAC-8D7FEFDD0F37" ;
+    dct:description "Een datum of een gebeurtenis in de levenscyclus van het document."@nl ;
+    rdfs:label "datumCreatieDocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "24B8A578-BDC8-42d5-947F-4663B0E9266A" ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/taak/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/taak> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D83C4834-7113-4090-9D33-C647CC4CAF74" ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma> ;
+    rdfs:range xsd:date ;
+    dct:identifier "22AAB700-1306-443a-B768-247CD0639A46" ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "94D60B00-F31B-4d52-95FB-2C2D916FE91E" ;
+    dct:description "De datum waarop de uitvoering van de zaak afgerond is."@nl ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/datumeindegepland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5B057B5C-A885-4f60-846E-080CA164352C" ;
+    dct:description "De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt."@nl ;
+    rdfs:label "datumEindeGepland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/datumeindeuiterlijkeafdoening> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E6F82191-D298-4848-92D9-7D52B8C8805F" ;
+    dct:description "De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn."@nl ;
+    rdfs:label "datumEindeUiterlijkeAfdoening"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/datumindienst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:date ;
+    dct:identifier "4BD35398-345A-4d24-84A5-34D79A764C7F" ;
+    rdfs:label "datumInDienst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieaanvraag/datumindiening> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieaanvraag> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D2B14D1F-9E56-4f97-8141-75DB29C63A21" ;
+    rdfs:label "datumIndiening"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/datumlaatstebetaling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A7A56294-D2F6-46a5-802F-07883A4947F2" ;
+    dct:description "De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak."@nl ;
+    rdfs:label "datumLaatsteBetaling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/datumontstaan> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "034DF486-CDDD-4f7a-B42A-3C6A19F2903E" ;
+    dct:description "De datum waarop de organisatorische eenheid is ontstaan."@nl ;
+    rdfs:label "datumOntstaan"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumontvangstdocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FFEE3095-1146-4106-A1ED-70A253812FA6" ;
+    dct:description "De datum waarop het DOCUMENT ontvangen is."@nl ;
+    rdfs:label "datumOntvangstdocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/datumopheffing> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "91E44BF9-97BF-4c2b-8835-9B5D61343BE3" ;
+    dct:description "De datum waarop de organisatorische eenheid is opgeheven."@nl ;
+    rdfs:label "datumOpheffing"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/datumpublicatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2EF856F4-5F31-4a7c-96B6-D8366C1A7CD6" ;
+    dct:description "Datum waarop (het starten van) de zaak gepubliceerd is of wordt."@nl ;
+    rdfs:label "datumPublicatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/datumregistratie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "200CCB8B-C5C7-41ed-8EA1-6C2143FAEE8E" ;
+    dct:description "De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd"@nl ;
+    rdfs:label "datumRegistratie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/taak/datumstart> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/taak> ;
+    rdfs:range xsd:date ;
+    dct:identifier "7219B2CC-7834-4e62-A758-8944ABEC0BB4" ;
+    rdfs:label "datumStart"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma/datumstart> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma> ;
+    rdfs:range xsd:date ;
+    dct:identifier "4F573BBA-FB46-49b4-9A9A-ECD4C7FA63DD" ;
+    rdfs:label "datumStart"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/datumstart> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6888533D-41DF-4209-A351-189A1C7E73CB" ;
+    dct:description "De datum waarop met de uitvoering van de zaak is gestart."@nl ;
+    rdfs:label "datumStart"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/datumstart> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "072EB263-E656-4fe0-BC67-2910D7F07317" ;
+    rdfs:label "datumStart"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/datumsubsidievaststelling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D4919303-FD26-42b0-954F-3FB09D6AB9EE" ;
+    rdfs:label "datumSubsidievaststelling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/datumuitdienst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AE3CF305-B845-40cf-A9E3-2DE97CB31F46" ;
+    dct:description "Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt."@nl ;
+    rdfs:label "datumUitDienst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/datumvernietigingdossier> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "95D1CF5F-7994-46f6-84FF-0EC1C5E55606" ;
+    dct:description "De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden."@nl ;
+    rdfs:label "datumVernietigingDossier"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumverzendingdocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C06162CD-CFEA-4c04-BE26-76BC4DF42A16" ;
+    dct:description "De datum waarop het DOCUMENT verzonden is."@nl ;
+    rdfs:label "datumVerzendingDocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/datumverzendingeindeafrekening> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D7903486-EA31-404d-B2B9-631DA63DD3BB" ;
+    rdfs:label "datumVerzendingEindeafrekening"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/deadlineindiening> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "05FDCBCA-0BAE-4a43-A374-B662B94408C8" ;
+    rdfs:label "deadlineIndiening"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documentauteur> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "24277038-EF81-4e10-92BC-68AB8969FE4D" ;
+    dct:description "De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document."@nl ;
+    rdfs:label "documentAuteur"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documentidentificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CB08FF35-EE64-4504-90CF-835DA32E636C" ;
+    dct:description "Een binnen een gegeven context ondubbelzinnige referentie naar het document. Bijvoorbeeld potsregistratienummer"@nl ;
+    rdfs:label "documentIdentificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documenttitel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "21E0EC21-5217-4582-A8B8-CA0EE3EFDFAD" ;
+    dct:description "De naam waaronder het document formeel bekend is."@nl ;
+    rdfs:label "documentTitel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/doelstelling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "36963E27-D251-4ca2-ACE7-177764A60D2D" ;
+    rdfs:label "doelstelling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/duurverlenging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E67A081E-4398-4ba4-B3CA-68AE25DB9027" ;
+    rdfs:label "duurVerlenging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/emailadres> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2EEFDDE3-164E-4dc6-8573-205834C1AF47" ;
+    dct:description "Elektronisch postadres waaronder de medewerker in de regel bereikbaar is."@nl ;
+    rdfs:label "emailadres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/emailadres> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4AE8DAEC-78F6-4b89-8FE6-2BADE0E8D539" ;
+    dct:description "Elektronisch postadres waaronder de organisatorische eenheid in de regel bereikbaar is."@nl ;
+    rdfs:label "emailadres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/emailadres> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D003FAB1-3C25-4b00-9247-B6D6CA5155F9" ;
+    dct:description "Elektronisch postadres waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "emailadres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/extern> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "8DDB6FA2-A79D-4423-9969-7AF045B86351" ;
+    dct:description "Medewerker is een externe?"@nl ;
+    rdfs:label "extern"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/faxnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6E61DBA6-E0F0-47bd-9BA5-1D8A04C0EAA6" ;
+    dct:description "Faxnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "faxnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/faxnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8C18F19B-24D1-433d-B435-194735264036" ;
+    dct:description "Faxnummer waaronder de organisatorische eenheid in de regel bereikbaar is."@nl ;
+    rdfs:label "faxnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/functie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F17EE707-8A6A-483b-9ED7-204707E1F384" ;
+    dct:description "De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie."@nl ;
+    rdfs:label "functie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/gerealiseerdeprojectkosten> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "1538451F-8A9B-404d-B995-F5089CA4A53F" ;
+    rdfs:label "gerealiseerdeProjectkosten"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiecomponent/gereserveerdbedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiecomponent> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "0486A079-408F-4e3b-9A00-8B8E403C5E6B" ;
+    rdfs:label "gereserveerdBedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/geslachtsaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AA40C186-C355-457e-99D9-24BE43B05301" ;
+    dct:description "Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is."@nl ;
+    rdfs:label "geslachtsaanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/hoogtesubsidie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0964DC9B-6FA6-486a-934E-639A7E0D15F7" ;
+    rdfs:label "hoogteSubsidie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5581C29C-3143-42f6-970E-CFB7282258C9" ;
+    dct:description "De unieke identificatie van het SUBJECT"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/indicatiebetaling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AB37B072-E532-4ac1-93CA-EF6ECFC85551" ;
+    dct:description "Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene."@nl ;
+    rdfs:label "indicatieBetaling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/indicatiedeelzaken> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "2CE7ABD9-EEC4-4346-908D-098C68A2CE12" ;
+    dct:description "De aanduiding of een ZAAK behandeld wordt in deelzaken."@nl ;
+    rdfs:label "indicatieDeelzaken"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/indicatieopschorting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1709F1A0-E022-46eb-BBDB-67F561618FFA" ;
+    rdfs:label "indicatieOpschorting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiebeschikking/internkenmerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiebeschikking> ;
+    rdfs:range xsd:string ;
+    dct:identifier "227D4B69-52B3-4293-B23B-4BFB99D753FE" ;
+    rdfs:label "internKenmerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiebeschikking/kenmerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiebeschikking> ;
+    rdfs:range xsd:string ;
+    dct:identifier "699B6C68-3C1C-473f-910C-EC82A06D81F5" ;
+    rdfs:label "kenmerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieaanvraag/kenmerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieaanvraag> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E1107BE0-25F9-47b9-9C94-D1CDA94300EC" ;
+    rdfs:label "kenmerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/kostenplaatssoortcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "DCE6B912-D2FC-4423-8B0E-56EEE769D6A3" ;
+    rdfs:label "kostenplaatssoortCode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/kostenplaatssoortomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "1F6364ED-FFA9-4c8b-8191-788C76B4E943" ;
+    rdfs:label "kostenplaatssoortOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/kostenplaatstypecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "AB200DBB-A697-4dcd-8077-C7F0C25380F5" ;
+    rdfs:label "kostenplaatstypeCode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/kostenplaatstypeomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "E07EE47E-E183-4654-887A-7E6FD0B17219" ;
+    rdfs:label "kostenplaatstypeOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/leges> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DCD29BDC-C41D-49d2-BB71-00BA81A954AA" ;
+    rdfs:label "leges"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/medewerkeridentificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FF819D54-0C4A-4cf7-A828-6587669A8702" ;
+    dct:description "Een korte unieke aanduiding van de medewerker."@nl ;
+    rdfs:label "medewerkerIdentificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/medewerkertoelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C59B1A14-1E2F-4a54-B273-6D4C84713390" ;
+    dct:description "Toelichting bij en/of over de medewerker."@nl ;
+    rdfs:label "medewerkerToelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0BBB4DB3-7F02-4dda-82D4-38976334D948" ;
+    dct:description "De benaming van het SUBJECT"@nl ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "62135F33-66B8-435f-804E-C86312DEFA0D" ;
+    dct:description "De feitelijke naam van de organisatorische eenheid."@nl ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6F38439B-23A4-4dd3-9C4E-F6B6E57027BF" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/sector/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/sector> ;
+    rdfs:range xsd:string ;
+    dct:identifier "75B02F94-FCD1-456c-8E99-DAAE60B390B4" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/rapportagemoment/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/rapportagemoment> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AF7CEC88-E7B2-4196-8845-C5EB521CA5E2" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma> ;
+    rdfs:range xsd:string ;
+    dct:identifier "61BBFC19-D117-452b-845E-44032C7EF713" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/naamverkort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FE9B02D3-DE16-4c7f-8B02-166657BCFE77" ;
+    dct:description "Een verkorte naam voor de organisatorische eenheid."@nl ;
+    rdfs:label "naamVerkort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/niveau> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieniveau> ;
+    dct:identifier "5589F4A4-46AB-475b-88FE-4C0079E28B46" ;
+    rdfs:label "niveau"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EA5C69D7-7B05-41cd-B82D-03C85D2B624D" ;
+    dct:description "Een korte omschrijving van de zaak."@nl ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/rapportagemoment/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/rapportagemoment> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5F34B71C-1BBC-4db7-9DAD-53B667EF83FA" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C099E5FE-6128-4dd1-BB8C-EDC3A713FCE6" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9DB35FBA-DC20-439a-8DC5-6488438E4DE1" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BE46B281-992C-4153-94DF-6E8ADEB407CC" ;
+    dct:description "Een omschrijving van de organisatorische eenheid."@nl ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/sector/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/sector> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C78EC35D-6DEA-4e26-BECA-C9FEEA4EC6CA" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/omschrijvingresultaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "776327B3-71E8-41f8-A7F0-06C21BC8F79C" ;
+    dct:description "Een korte omschrijving wat het resultaat van de zaak inhoudt."@nl ;
+    rdfs:label "omschrijvingResultaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/onderwerp> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1D0EF8E2-C95D-43bd-9A77-E045EED5C5F9" ;
+    rdfs:label "onderwerp"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiebeschikking/ontvangen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiebeschikking> ;
+    rdfs:range xsd:date ;
+    dct:identifier "B1848D5A-5B76-4dda-8F1A-0EEFE8415030" ;
+    rdfs:label "ontvangen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/ontvangenbedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "DA571385-CF64-4cfa-A790-673286B142DA" ;
+    rdfs:label "ontvangenBedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieaanvraag/ontvangstbevestiging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieaanvraag> ;
+    rdfs:range xsd:date ;
+    dct:identifier "E407C792-81FA-4995-A21E-0BBFE65B8BCA" ;
+    rdfs:label "ontvangstbevestiging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/opmerkingen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7C75F8F0-8433-4516-9D80-0FEAF0F6B80A" ;
+    rdfs:label "opmerkingen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiebeschikking/opmerkingen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiebeschikking> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B6A6E81F-03FF-42cb-913C-10732AD5BE17" ;
+    rdfs:label "opmerkingen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/opmerkingenvoorschotten> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "69461BEC-F4EA-457a-98EF-574236FAC2C7" ;
+    rdfs:label "opmerkingenVoorschotten"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/organisatieidentificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "59CD4AEE-EF70-4ac1-8728-80096C4DA80F" ;
+    dct:description "Een korte identificatie van de organisatorische eenheid."@nl ;
+    rdfs:label "organisatieIdentificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/prestatiesubsidie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "9E2BDAC6-4E69-4c36-9FC9-880185447D62" ;
+    dct:description "Als Nee dan is het een stimuleringssubsidie Alleen bij uitgaande subsidies, anders NULL!"@nl ;
+    rdfs:label "prestatiesubsidie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma/programmabegroting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C9EDC05D-7479-4637-8C53-DF2CC553ED69" ;
+    rdfs:label "programmabegroting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/rechtsvorm> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9FB55106-DB14-4192-B325-75B7272FDE36" ;
+    dct:description "Bron: Handelsregister"@nl ;
+    rdfs:label "rechtsvorm"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/redenopschorting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A562B929-90E2-4d6d-8E7A-22843F6DFBD8" ;
+    rdfs:label "redenOpschorting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/redenverlenging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "101F7002-1142-4212-A589-B06566152328" ;
+    rdfs:label "redenVerlenging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/rekeningnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6BB892F7-1C6E-4aeb-8BFA-3012FEB03B78" ;
+    dct:description "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
+    rdfs:label "rekeningnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/roepnaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A7726010-7E58-40b6-9523-A4CC9844F5DD" ;
+    dct:description "Naam waarmee de werknemer wordt aangesproken."@nl ;
+    rdfs:label "roepnaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/socialreturnbedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "72C50385-5D0E-46e6-8B56-9A93FD61BE1A" ;
+    rdfs:label "socialReturnBedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/socialreturnnagekomen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "45FCC9C7-A6D1-43d1-9EF5-FAB9CB86864F" ;
+    rdfs:label "socialReturnNagekomen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/socialreturnverplichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "E802FF26-0222-45b7-A552-9D29C716D2EA" ;
+    rdfs:label "socialReturnVerplichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FAF06DD6-3C57-490b-B67D-A68339AC7606" ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/subsidiebedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "87B2B630-9852-4dc2-AEE5-112C326BC0E7" ;
+    rdfs:label "subsidiebedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/subsidiesoort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E826A298-97A3-4d85-A96F-922A5C81A8A3" ;
+    rdfs:label "subsidiesoort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/subsidievaststellingbedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "88E60FE0-8069-4ca6-BFBA-9F6730DAB750" ;
+    rdfs:label "subsidievaststellingBedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/taak/taakomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/taak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EB529051-F9E2-4dc1-8D0E-4CD6BFD51112" ;
+    rdfs:label "taakomschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/telefoonnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6B41E997-26A2-4f32-AE3B-A46BA0E3BE20" ;
+    dct:description "Telefoonnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "telefoonnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/telefoonnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0BE56460-275E-4dcb-9946-5B88658BF3BD" ;
+    dct:description "Telefoonnummer waaronder de medewerker in de regel bereikbaar is."@nl ;
+    rdfs:label "telefoonnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/telefoonnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7D7E7DCC-9938-43df-A3E6-CD6A6CD80564" ;
+    dct:description "Telefoonnummer waaronder de organisatorische eenheid in de regel bereikbaar is."@nl ;
+    rdfs:label "telefoonnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/taak/termijn> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/taak> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "E5897525-BF02-4454-880E-B7C348B0628D" ;
+    dct:description "Termijn in dagen"@nl ;
+    rdfs:label "termijn"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/rapportagemoment/termijn> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/rapportagemoment> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "49B7710A-AC9E-4eec-A08E-65CB249F1751" ;
+    dct:description "Termijn in dagen"@nl ;
+    rdfs:label "termijn"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiecomponent/toegekendbedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiecomponent> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "576920EB-CAFC-40fd-B597-46A724255C0C" ;
+    rdfs:label "toegekendBedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/toelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C27D84E1-1C87-4ec6-A0F7-2DB5C6143D18" ;
+    dct:description "Een toelichting op de zaak."@nl ;
+    rdfs:label "toelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/toelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F40EF4CB-AF65-4c93-8B9D-7D78F5D0A0DC" ;
+    dct:description "Toelichting bij de organisatorische eenheid."@nl ;
+    rdfs:label "toelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/toelichtingresultaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1EFA2D76-E623-429e-BF3A-700E3E1611FD" ;
+    dct:description "Een toelichting op wat het resultaat van de zaak inhoudt."@nl ;
+    rdfs:label "toelichtingResultaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/uitgaandesubsidie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "839E173C-B038-43e2-9593-86B8E93400FE" ;
+    rdfs:label "uitgaandeSubsidie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/verantwoordenop> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "145C79D9-4556-491d-AB42-68DF75F07318" ;
+    rdfs:label "verantwoordenOp"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/vertrouwelijkaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A7A897CF-ECB5-45c1-A0CD-698E1D66F2CF" ;
+    dct:description "Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is."@nl ;
+    rdfs:label "vertrouwelijkAanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/vertrouwelijkheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "99D97BF6-D2F2-472b-8088-D520B7A0D45E" ;
+    rdfs:label "vertrouwelijkheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieaanvraag/verwachtebeschikking> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieaanvraag> ;
+    rdfs:range xsd:date ;
+    dct:identifier "4D5D3E91-6765-4f45-8343-8DBF8D002F03" ;
+    rdfs:label "verwachteBeschikking"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/voorletters> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "65D1582C-5922-4ebb-8CE6-3B0F1BBD0941" ;
+    dct:description "De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen."@nl ;
+    rdfs:label "voorletters"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/voorvoegselachternaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "01234EAF-833A-4cd6-8EA0-045F889301FF" ;
+    dct:description "Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is gescheiden."@nl ;
+    rdfs:label "voorvoegselAchternaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/zaakidentificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "363632A5-8F1E-43ae-AD8A-8156697E72B5" ;
+    dct:description "Een identificatie van de zaak."@nl ;
+    rdfs:label "zaakidentificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/zaakniveau> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AE7374FB-745D-4f5e-A713-CF67EDDF9498" ;
+    dct:description "Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken."@nl ;
+    rdfs:label "zaakniveau"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/taak/projectleider> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/taak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:label "projectleider"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma/verantwoordelijk_voor> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:label "verantwoordelijk voor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiecomponent/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiecomponent> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieaanvraag/mondt_uit> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieaanvraag> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiebeschikking> ;
+    rdfs:label "mondt uit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma/gaat_over> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:label "gaat over"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiebeschikking/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiebeschikking> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieaanvraag/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieaanvraag> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/taak> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/verstrekker> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:label "verstrekker"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/behandelaar> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:label "behandelaar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/valt_binnen> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/sector> ;
+    rdfs:label "valt binnen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/rapportagemoment> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/rapportagemoment/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/rapportagemoment> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/projectleider> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/rapportagemoment> ;
+    rdfs:label "projectleider"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/aanvrager> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:label "aanvrager"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/is_deel_van> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:label "Is deel van"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/heeft_betrekking_op_andere> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:label "heeft betrekking op andere"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/is_deelzaak_van> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:label "is deelzaak van"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/kent> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:label "kent"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/is_verantwoordelijk_voor> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:label "is verantwoordelijk voor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/hoort_bij> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:label "hoort bij"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/aanvrager> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:label "aanvrager"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/is_contactpersoon_voor> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:label "is contactpersoon voor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak/afhandelend_medewerker> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:label "afhandelend medewerker"@nl .

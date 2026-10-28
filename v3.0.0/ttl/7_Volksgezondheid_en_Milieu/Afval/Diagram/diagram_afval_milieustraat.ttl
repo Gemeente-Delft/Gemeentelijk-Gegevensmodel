@@ -1,0 +1,135 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/diagram_afval_milieustraat>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie> a owl:Class ;
+    rdfs:label "Fractie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Onderdeel, deeltje"@nl ;
+    dct:identifier "80A7D18F-7C7E-4ee6-9F07-055559BCEF9F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/milieustraat> a owl:Class ;
+    rdfs:label "Milieustraat"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een locatie die specifiek bestemd is voor het brengen van gescheiden huishoudelijk afval en grofvuil."@nl ;
+    dct:identifier "1638F2AF-F1E8-4360-BA47-D975F2135168" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/pas> a owl:Class ;
+    rdfs:label "Pas"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "klein kaartje met je naam en soms je foto erop, dat je toegang geeft tot bepaalde diensten"@nl ;
+    dct:identifier "F6D7A83B-30BC-44f4-91E2-74C04DCE87AE" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsregel> a owl:Class ;
+    rdfs:label "Prijsregel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een *prijsregel* is een **regel die aangeeft hoe de prijs van een product, dienst of prestatie wordt vastgesteld of toegepast**, bijvoorbeeld binnen een declaratie- of tariefstructuur."@nl ;
+    dct:identifier "E79C6C20-3D05-49fb-96ED-105B5CD0ABA5" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/storting> a owl:Class ;
+    rdfs:label "Storting"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Activiteit, inhoudende a. het zich ontdoen van stoffen"@nl ;
+    dct:identifier "15910FE7-D323-45ff-AA7F-CE3C636CE953" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/milieustraat/adresaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/milieustraat> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9330F941-E4BA-4af4-91C9-98CFA6388928" ;
+    rdfs:label "adresaanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/pas/adresaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/pas> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6B0469BD-62D1-442f-BE5A-D98F78ED6E12" ;
+    rdfs:label "adresaanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsregel/bedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsregel> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "B8474925-5686-4b63-A6E5-78B72CA48A8F" ;
+    rdfs:label "bedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsregel/credit> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsregel> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "BBB63AAE-87EA-40eb-8E0E-D40B850D50D0" ;
+    rdfs:label "credit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/storting/datumtijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/storting> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "98661CD9-B8E4-49c6-887C-DE517AE385F8" ;
+    rdfs:label "datumtijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/storting/gewicht> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/storting> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "0C3B0DF0-5987-4f93-B578-4A02B95FF6F7" ;
+    dct:description "Gewicht in kilo's"@nl ;
+    rdfs:label "gewicht"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F66CC356-50B7-49b8-9982-C5BFCE331CE1" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/milieustraat/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/milieustraat> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C4EA5A0B-C915-4b40-90D8-BA308653C5ED" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "19DB02EE-F4B9-46d9-BFCA-FFD860F8E4D1" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/milieustraat/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/milieustraat> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4597B9DF-0D97-40c8-859C-F08A260C8D79" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/pas/pasnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/pas> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1EA42C5B-49F8-4881-A6B4-F37E59B71AF2" ;
+    rdfs:label "pasnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/pas/uitgevoerde_storting> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/pas> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/storting> ;
+    rdfs:label "uitgevoerde storting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/pas/geldig_voor> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/pas> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/milieustraat> ;
+    rdfs:label "geldig voor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/storting/bij> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/storting> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/milieustraat> ;
+    rdfs:label "bij"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/storting/fractie> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/storting> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie> ;
+    rdfs:label "fractie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/milieustraat/inzamelpunt_van> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/milieustraat> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie> ;
+    rdfs:label "inzamelpunt van"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsregel/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/prijsregel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie> ;
+    rdfs:label "betreft"@nl .

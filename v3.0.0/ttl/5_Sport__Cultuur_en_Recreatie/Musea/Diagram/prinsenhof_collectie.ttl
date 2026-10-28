@@ -1,0 +1,591 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/prinsenhof_collectie>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/generieke_entiteiten_erfgoed/historisch_persoon> a owl:Class ;
+    rdfs:label "Historisch Persoon"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Natuurlijk persoon waarvan informatie beschikbaar is uit het verleden."@nl ;
+    dct:identifier "3BBB3264-592A-4d8c-A741-C2A3C38E3932" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/belanghebbende> a owl:Class ;
+    rdfs:label "Belanghebbende"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon wiens belang rechtstreeks bij een besluit is betrokken."@nl ;
+    dct:identifier "576642BA-9AF9-42fc-831A-F9D3138F20FC" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/belangtype> a owl:Class ;
+    rdfs:label "Belangtype"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Sort van belang"@nl ;
+    dct:identifier "3F7BCCE5-7292-40d6-A4EB-21F7B9F25236" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/bruikleen> a owl:Class ;
+    rdfs:label "Bruikleen"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Lening voor tijdelijk gebruik"@nl ;
+    dct:identifier "452312FD-05FB-4abc-A48B-C605F7E3E193" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/collectie> a owl:Class ;
+    rdfs:label "Collectie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een verzameling van verworven voorwerpen die is samengesteld op grond van vastgestelde criteria."@nl ;
+    dct:identifier "6DC28A18-DF54-4b92-A592-5F717935CA67" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/incident> a owl:Class ;
+    rdfs:label "Incident"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Niet-gepland(e) gebeurtenis die of voorval dat tot schade of verlies leidt"@nl ;
+    dct:identifier "CE85A5E9-AD75-40e7-8EBF-A484E4CBEEDC" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/lener> a owl:Class ;
+    rdfs:label "Lener"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Iemand die iets te leen krijgt, met name iemand die boeken, digitale bestanden of apparatuur leent bij een museum, bibliotheek, mediatheek of een andere uitleeninstantie"@nl ;
+    dct:identifier "68C42EEA-6985-483e-99E6-E0F1FB71D622" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject> a owl:Class ;
+    rdfs:label "Museumobject"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht."@nl ;
+    dct:identifier "BBCF9DBE-70AD-431c-B698-7F0D69D07050" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/rol> a owl:Class ;
+    rdfs:label "Rol"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een samenhangende set van taken, bevoegdheden en verantwoordelijkheden van een gebruiker."@nl ;
+    dct:identifier "78C6EB53-77EB-4e9a-B012-E9CD989BDD06" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/samensteller> a owl:Class ;
+    rdfs:label "Samensteller"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Iemand die stukken informatie samenbrengt in tentoonstelingen, presentaties en naslagwerken."@nl ;
+    dct:identifier "E5566AF6-3D43-4b2f-B658-F67F6C1C511D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/standplaats> a owl:Class ;
+    rdfs:label "Standplaats"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "vanaf een vaste locatie te koop aanbieden, verkopen of afleveren van goederen of aanbieden van diensten, gebruikmakend van fysieke middelen zoals een kraam, een wagen of een tafel"@nl ;
+    dct:identifier "98F3132E-F97A-4f49-B4F5-28618BB693F8" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/tentoonstelling> a owl:Class ;
+    rdfs:label "Tentoonstelling"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een uitstalling van voorwerpen om door het grote publiek bekeken te worden."@nl ;
+    dct:identifier "069C9894-5E07-4c95-AC28-EB4A5EBFD165" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/zaal> a owl:Class ;
+    rdfs:label "Zaal"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Grote ruimte in een gebouw"@nl ;
+    dct:identifier "6850BC5E-444E-4d33-A8A7-9B345502E275" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> a owl:Class ;
+    rdfs:label "Medewerker"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
+    dct:identifier "16EB3936-03CB-4854-9CD8-9F0911EEA51B" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> a owl:Class ;
+    rdfs:label "Rechtspersoon"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON"@nl ;
+    dct:identifier "9DF5AC43-3673-4b9a-BB5E-6DCA7BE28835" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/kvknummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C43F0DE4-C49D-442f-B7F6-157CF378EBE8" ;
+    rdfs:label "KVKnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/bruikleen/aanvraagdoor> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/bruikleen> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4EFB6001-0D2D-4e1a-AC99-AFFAA7D05ED3" ;
+    rdfs:label "aanvraagDoor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/achternaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "79457AE1-2585-4ce0-A864-D4ADE30A2135" ;
+    dct:description "De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt."@nl ;
+    rdfs:label "achternaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/standplaats/adres> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/standplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "34E6CFB6-8C51-4c11-97F9-79C2084EB231" ;
+    rdfs:label "adres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adresbinnenland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0F55857A-1582-46f5-9621-0E93F8C13310" ;
+    dct:description "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."@nl ;
+    rdfs:label "adresBinnenland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adresbuitenland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F6185DF1-173C-47b0-A94A-55D055A89104" ;
+    dct:description "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."@nl ;
+    rdfs:label "adresBuitenland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adrescorrespondentie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3A5CEB3F-40E2-4890-92D1-61133EE48E9D" ;
+    dct:description "postbus of antwoordnummer"@nl ;
+    rdfs:label "adresCorrespondentie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject/afmeting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "70B6A9D4-FCAB-47d5-9D34-1A4CB9AA1016" ;
+    dct:description "Omschrijving van afmeting"@nl ;
+    rdfs:label "afmeting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/generieke_entiteiten_erfgoed/historisch_persoon/beroep> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/generieke_entiteiten_erfgoed/historisch_persoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CABDFAA1-BBA6-4ba4-8922-3369482F0506" ;
+    rdfs:label "beroep"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/standplaats/beschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/standplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "70900B94-5A5B-4a44-AA10-FCAC9DF0DB54" ;
+    rdfs:label "beschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject/bezittot> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject> ;
+    rdfs:range xsd:date ;
+    dct:identifier "302F8E53-A99B-448f-8F40-C2F3689DE581" ;
+    rdfs:label "bezitTot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject/bezitvanaf> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D31004F9-8C53-419e-9932-C79602D1B18B" ;
+    rdfs:label "bezitVanaf"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/zaal/capaciteit> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/zaal> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "EF0BCC82-A172-4174-A0F8-ECF1FD5F8A0E" ;
+    rdfs:label "capaciteit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/incident/datum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/incident> ;
+    rdfs:range xsd:date ;
+    dct:identifier "491D6324-01A6-419a-937C-C2DFA323E6F7" ;
+    rdfs:label "datum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/bruikleen/datumaanvraag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/bruikleen> ;
+    rdfs:range xsd:date ;
+    dct:identifier "FF1FAC90-697A-4e1f-83FF-DC34A9FB9CCA" ;
+    rdfs:label "datumAanvraag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/tentoonstelling/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/tentoonstelling> ;
+    rdfs:range xsd:date ;
+    dct:identifier "41C330C5-077E-421a-AE5C-74517A72AF3F" ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/bruikleen/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/bruikleen> ;
+    rdfs:range xsd:date ;
+    dct:identifier "5D8923E4-8567-457f-BE65-938CC10EF519" ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/generieke_entiteiten_erfgoed/historisch_persoon/datumgeboorte> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/generieke_entiteiten_erfgoed/historisch_persoon> ;
+    rdfs:range xsd:date ;
+    dct:identifier "44789EDD-D403-41ae-8E2B-E64A7FF93A3C" ;
+    rdfs:label "datumGeboorte"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/datumindienst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:date ;
+    dct:identifier "4BD35398-345A-4d24-84A5-34D79A764C7F" ;
+    rdfs:label "datumInDienst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/generieke_entiteiten_erfgoed/historisch_persoon/datumoverlijden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/generieke_entiteiten_erfgoed/historisch_persoon> ;
+    rdfs:range xsd:date ;
+    dct:identifier "7A1D1454-4726-4f72-8B91-187C10CD0560" ;
+    rdfs:label "datumOverlijden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/tentoonstelling/datumstart> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/tentoonstelling> ;
+    rdfs:range xsd:date ;
+    dct:identifier "AD7E422D-E94F-47ac-BB24-199B6062E062" ;
+    rdfs:label "datumStart"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/bruikleen/datumstart> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/bruikleen> ;
+    rdfs:range xsd:date ;
+    dct:identifier "BF9A32E8-80BF-4d7c-98C4-61DB6092F101" ;
+    rdfs:label "datumStart"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/belanghebbende/datumstart> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/belanghebbende> ;
+    rdfs:range xsd:date ;
+    dct:identifier "E3E60BCB-143B-40bc-B1FD-6E404E1AD25E" ;
+    rdfs:label "datumStart"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/belanghebbende/datumtot> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/belanghebbende> ;
+    rdfs:range xsd:date ;
+    dct:identifier "F4DFD768-C09F-418e-A9A8-A32EBB2FEB62" ;
+    rdfs:label "datumTot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/datumuitdienst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AE3CF305-B845-40cf-A9E3-2DE97CB31F46" ;
+    dct:description "Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt."@nl ;
+    rdfs:label "datumUitDienst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/emailadres> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2EEFDDE3-164E-4dc6-8573-205834C1AF47" ;
+    dct:description "Elektronisch postadres waaronder de medewerker in de regel bereikbaar is."@nl ;
+    rdfs:label "emailadres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/emailadres> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D003FAB1-3C25-4b00-9247-B6D6CA5155F9" ;
+    dct:description "Elektronisch postadres waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "emailadres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/extern> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "8DDB6FA2-A79D-4423-9969-7AF045B86351" ;
+    dct:description "Medewerker is een externe?"@nl ;
+    rdfs:label "extern"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/faxnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6E61DBA6-E0F0-47bd-9BA5-1D8A04C0EAA6" ;
+    dct:description "Faxnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "faxnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/functie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F17EE707-8A6A-483b-9ED7-204707E1F384" ;
+    dct:description "De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie."@nl ;
+    rdfs:label "functie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/geslachtsaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AA40C186-C355-457e-99D9-24BE43B05301" ;
+    dct:description "Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is."@nl ;
+    rdfs:label "geslachtsaanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5581C29C-3143-42f6-970E-CFB7282258C9" ;
+    dct:description "De unieke identificatie van het SUBJECT"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/incident/locatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/incident> ;
+    rdfs:range xsd:string ;
+    dct:identifier "86EECEC9-746D-44da-BBE6-3D2366B907B9" ;
+    rdfs:label "locatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/medewerkeridentificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FF819D54-0C4A-4cf7-A828-6587669A8702" ;
+    dct:description "Een korte unieke aanduiding van de medewerker."@nl ;
+    rdfs:label "medewerkerIdentificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/medewerkertoelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C59B1A14-1E2F-4a54-B273-6D4C84713390" ;
+    dct:description "Toelichting bij en/of over de medewerker."@nl ;
+    rdfs:label "medewerkerToelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject/medium> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A03DED42-518E-417e-8ADB-5DDE74F8FE17" ;
+    dct:description "Materiaal waarvan object is vervaardigd"@nl ;
+    rdfs:label "medium"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0BBB4DB3-7F02-4dda-82D4-38976334D948" ;
+    dct:description "De benaming van het SUBJECT"@nl ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/incident/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/incident> ;
+    rdfs:range xsd:string ;
+    dct:identifier "993E0F3E-46F3-41f0-85C1-C0FA7F44A3D5" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/belangtype/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/belangtype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BF042BBA-42CA-4561-B86F-45847FAC3B5D" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/collectie/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/collectie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A5A4846F-7A7D-4c73-A65D-2A3A23F3FA81" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/zaal/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/zaal> ;
+    rdfs:range xsd:string ;
+    dct:identifier "05410BE9-5FE9-47ce-86CE-9C4B886A3CB7" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/rol/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/rol> ;
+    rdfs:range xsd:string ;
+    dct:identifier "018F02BF-BC86-45fd-B268-031F76A08E55" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/generieke_entiteiten_erfgoed/historisch_persoon/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/generieke_entiteiten_erfgoed/historisch_persoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AD1EA092-3467-48bb-90D7-FD378EDD0F9F" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/standplaats/naaminstelling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/standplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "90B48777-FBD8-40f2-A7D2-65D4627F22F7" ;
+    rdfs:label "naamInstelling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/zaal/nummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/zaal> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "26B89EC0-61D1-4141-B536-31422C1C3A96" ;
+    rdfs:label "nummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/tentoonstelling/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/tentoonstelling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D577CECF-3682-4340-8F89-C3653B8CF2EB" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/rol/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/rol> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F5A2072A-AC7F-4354-B983-7251ABC6FBAE" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/generieke_entiteiten_erfgoed/historisch_persoon/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/generieke_entiteiten_erfgoed/historisch_persoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A1670451-07EC-4549-8146-AA8000892179" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/belangtype/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/belangtype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5E326AF9-17EB-4334-806A-BD873E1DB33F" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/zaal/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/zaal> ;
+    rdfs:range xsd:string ;
+    dct:identifier "46A5C6A8-ECAF-4464-B1E2-3AFE0B564FA1" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/incident/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/incident> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F5E3FC2D-E341-4955-A085-86DF2E58D95E" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/collectie/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/collectie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CA05756C-EF85-42bb-985B-EAC5A6053461" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/lener/opmerkingen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/lener> ;
+    rdfs:range xsd:string ;
+    dct:identifier "64257928-BFC9-4133-B414-19A9B8CCD5FA" ;
+    rdfs:label "opmerkingen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/generieke_entiteiten_erfgoed/historisch_persoon/publiektoegankelijk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/generieke_entiteiten_erfgoed/historisch_persoon> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "C771A73E-BD16-4139-ACAC-A9D4A6B59787" ;
+    rdfs:label "publiekToegankelijk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/rechtsvorm> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9FB55106-DB14-4192-B325-75B7272FDE36" ;
+    dct:description "Bron: Handelsregister"@nl ;
+    rdfs:label "rechtsvorm"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/rekeningnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6BB892F7-1C6E-4aeb-8BFA-3012FEB03B78" ;
+    dct:description "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
+    rdfs:label "rekeningnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/roepnaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A7726010-7E58-40b6-9523-A4CC9844F5DD" ;
+    dct:description "Naam waarmee de werknemer wordt aangesproken."@nl ;
+    rdfs:label "roepnaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/samensteller/rol> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/samensteller> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A11C3FCF-F837-42b6-B87F-8BF3910FFE12" ;
+    rdfs:label "rol"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/tentoonstelling/subtitel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/tentoonstelling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A93B337C-6A66-4523-A0F4-2B1ABCC3298F" ;
+    rdfs:label "subtitel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/telefoonnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6B41E997-26A2-4f32-AE3B-A46BA0E3BE20" ;
+    dct:description "Telefoonnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "telefoonnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/telefoonnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0BE56460-275E-4dcb-9946-5B88658BF3BD" ;
+    dct:description "Telefoonnummer waaronder de medewerker in de regel bereikbaar is."@nl ;
+    rdfs:label "telefoonnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/tentoonstelling/titel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/tentoonstelling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B00FA600-4A7C-4bac-A91F-1802FB518181" ;
+    rdfs:label "titel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/bruikleen/toestemmingdoor> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/bruikleen> ;
+    rdfs:range xsd:string ;
+    dct:identifier "826D6488-95EA-4c71-BC80-4774881B282E" ;
+    rdfs:label "toestemmingDoor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject/verkrijging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "286AA582-9949-4adc-8528-E17DAAD09B48" ;
+    dct:description "Hoe en via wie object is verkregen. Informatie uit de Constituents-tabel."@nl ;
+    rdfs:label "verkrijging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/voorletters> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "65D1582C-5922-4ebb-8CE6-3B0F1BBD0941" ;
+    dct:description "De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen."@nl ;
+    rdfs:label "voorletters"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/voorvoegselachternaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "01234EAF-833A-4cd6-8EA0-045F889301FF" ;
+    dct:description "Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is gescheiden."@nl ;
+    rdfs:label "voorvoegselAchternaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/generieke_entiteiten_erfgoed/historisch_persoon/woondeop> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/generieke_entiteiten_erfgoed/historisch_persoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2BE01C54-1387-4f73-B8D1-E1F5E5AEAE42" ;
+    rdfs:label "woondeOp"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/tentoonstelling/> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/tentoonstelling> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/zaal> ;
+    rdfs:label ""@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/samensteller/stelt_samen> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/samensteller> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/tentoonstelling> ;
+    rdfs:label "stelt samen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/samensteller> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject/heeft_verbinding> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/generieke_entiteiten_erfgoed/historisch_persoon> ;
+    rdfs:label "heeft verbinding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject/locatie> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/standplaats> ;
+    rdfs:label "locatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject/onderdeel> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/tentoonstelling> ;
+    rdfs:label "onderdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/lener> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/incident/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/incident> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/collectie/bevat> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/collectie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject> ;
+    rdfs:label "bevat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/bruikleen> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/lener/is> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/lener> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/bruikleen> ;
+    rdfs:label "is"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/bruikleen/is_bedoeld_voor> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/bruikleen> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/tentoonstelling> ;
+    rdfs:label "is bedoeld voor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/museumobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/belanghebbende> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/belanghebbende> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/tentoonstelling/is_gewijd_aan> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/musea/tentoonstelling> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/generieke_entiteiten_erfgoed/historisch_persoon> ;
+    rdfs:label "is gewijd aan"@nl .

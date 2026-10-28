@@ -1,0 +1,882 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/diagram_inkomsten>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/alimentatie> a owl:Class ;
+    rdfs:label "Alimentatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan inkomsten hebben uit alimentatie."@nl ;
+    dct:identifier "0CAB2134-E295-ADCD-A732-293A6ED5D9E0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/ander_inkomen> a owl:Class ;
+    rdfs:label "Ander inkomen"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan inkomsten hebben uit ander inkomen."@nl ;
+    dct:identifier "1A880B88-29D8-FB84-538B-293A707D1452" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/beslag_op_inkomen> a owl:Class ;
+    rdfs:label "Beslag op inkomen"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Beslag op inkomen"@nl ;
+    dct:identifier "95cf7a63-ea13-4ab8-965b-51cdbb68fc29" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk> a owl:Class ;
+    rdfs:label "Betaald werk"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan inkomsten hebben uit betaald werk."@nl ;
+    dct:identifier "0624AE2E-52A2-7A26-ECA8-293A6E0F09FE" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/dertiende_maand_eindejaarsuitkering> a owl:Class ;
+    rdfs:label "Dertiende maand - eindejaarsuitkering"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan inkomsten hebben uit dertiende maand/eindejaarsuitkering."@nl ;
+    dct:identifier "2771AFDF-11F9-592A-1883-293A9241CBB3" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/draagkracht> a owl:Class ;
+    rdfs:label "Draagkracht"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Het gedeelte uit je inkomen of vermogen dat je zelf zou kunnen bijdragen in de kosten (?) voor de bijzondere bijstand(?).De draagkracht is de uitkomst van een ingewikkelde berekening maar wordt voor een jaar vastgesteld en gebruikt.Let wel: niet alle gegevens, die nodig zijn om de draagkracht te berekenen, zijn opgenomen in de ontologie inkomen, omdat bepaalde gegevens van buiten het inkomensdomein komen."@nl ;
+    dct:identifier "9e03b696-a4f8-4486-a5d3-52483f259ed2" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/draagkrachtregime> a owl:Class ;
+    rdfs:label "Draagkrachtregime"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Het regime wat van toepassing is op de draagkracht."@nl ;
+    dct:identifier "0de9912b-3c6f-4d8a-b2b1-67de0c81ae16" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/eigen_bedrijf> a owl:Class ;
+    rdfs:label "Eigen bedrijf"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan inkomsten hebben uit eigen bedrijf."@nl ;
+    dct:identifier "1FB8E23E-DC06-2C59-6AED-293A6F67508F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/eigen_bijdrage> a owl:Class ;
+    rdfs:label "Eigen bijdrage"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Eigen bijdrage bijvoorbeeld voor CAK of kinderopvang"@nl ;
+    dct:identifier "87acd5ea-3ed9-40d8-96b0-8c29ce9296da" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/heffingskorting> a owl:Class ;
+    rdfs:label "Heffingskorting"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan inkomsten hebben uit heffingskorting."@nl ;
+    dct:identifier "1075821F-E399-53E2-3994-293A6EAD14DA" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/hobby> a owl:Class ;
+    rdfs:label "Hobby"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan inkomsten hebben uit hobbies."@nl ;
+    dct:identifier "1D176A0D-B1C8-BCD5-8439-293A705AA468" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent> a owl:Class ;
+    rdfs:label "Inkomstencomponent"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan vanuit diverse bronnen inkomsten krijgen. Denk bijvoorbeeld aan alimentatie, loon, uitkering of zelfs vergoedingen voor maaltijden, onkosten, vervoer e.d. De inkomstencomponent vormt een deel van de totale inkomsten van een persoon. Hiermee leggen we vast het type inkomste, het bedrag en de periode waarover dat bedrag is ontvangen en de boekingsdatum waarop het bedrag is ontvangen.Dat laatste is belangrijk voor de verschillende perspectieven op inkomsten te onderscheiden naar loon-in en loon-over.Achtergrond hierbij zijn twee regelingenLoon wordt als regel toegerekend aan het tijdvak waarin het aan de werknemer is betaald (loon-in). Onder bepaalde voorwaarden mogen werkgevers het uitbetaalde loon toerekenen aan een verstreken loontijdvak. Dit wordt de 'loon-over-regeling' genoemd. Waarom populair: voor een werknemer kan het verstrekken van een uitkering e.d. niet in het kalenderjaar maar bijvoorbeeld in het jaar daarop, hem fiscaal gezien voordelen geven.Bij loon-over gaat het om twee regelingen:De eerste regeling houdt in dat een werkgever een in de maand januari van het nieuwe jaar gedane inhouding op loon dat de werknemer voor het voorgaande jaar nog toekomt, mag opnemen in de laatste aangifte over het oude jaar. Daarbij wordt de inhouding volgens de tarieven van het voorgaande jaar berekend. Deze regeling is structureel in de wet opgenomen.De tweede regeling houdt in dat de werkgever binnen het kalenderjaar loonbetalingen mag toerekenen aan de verstreken loontijdvakken waarop zij betrekking hebben, zo nodig door het indienen van correctieberichten."@nl ;
+    dct:identifier "2235FE95-D319-96D3-FC70-293A52BBE934" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenverhouding> a owl:Class ;
+    rdfs:label "Inkomstenverhouding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan vanuit diverse bronnen inkomsten krijgen. Denk bijvoorbeeld aan alimentatie, loon, uitkering of zelfs vergoedingen voor maaltijden, onkosten, vervoer e.d. Er zijn nu twee gegevensbehoeften:Enerzijds het kunnen vastleggen van de inkomstencomponenten (zie daarvoor het gelijknamige concept)Anderzijds het vastleggen van de inkomstenverhouding.Een voorbeeld van zo'n inkomstenverhouding is een arbeidsverhouding.De inkomstenverhouding geeft per inkomstensoort aan:de partij die de inkomsten verstrekt, hetgeen een organisatie of een persoon kan zijn ende partij die de inkomsten ontvangtVerder zijn we geïnteresseerd in de periode waarin deze inkomstenverhouding bestond en de periodiciteit van de uitbetalingen.Inkomstenverhoudingen worden geadministreerd in het profiel van de klant. De klant is de ontvanger van de inkomsten. Vandaar dat in de inkomstenverhouding zelf geen expliciete verwijzing is opgenomen naar de ontvanger.Ten aanzien van de bekostiger van de inkomsten geldt, dat dit niet voor elke inkomstenverhouding relevant is. Bij uitkeringen, arbeid, studiefinanciering, stage en pensioen bijvoorbeeld wel, maar bij hobbies niet."@nl ;
+    dct:identifier "0463EA7D-FFD9-AD19-0405-294621AE933F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenvermindering> a owl:Class ;
+    rdfs:label "Inkomstenvermindering"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan vermindering van inkomsten hebben."@nl ;
+    dct:identifier "0B6D4C44-7D22-03E3-23BC-293A778017DC" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/kostencomponent> a owl:Class ;
+    rdfs:label "Kostencomponent"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Noodzakelijke kosten voor het bestaan welke leiden tot een lager (berekend) inkomen."@nl ;
+    dct:identifier "98746714-07f9-4942-b7d1-096f9631f90f" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/loonbeslag> a owl:Class ;
+    rdfs:label "Loonbeslag"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan vermindering van inkomsten hebben door loonbeslag."@nl ;
+    dct:identifier "08266C73-A8CD-3503-F3FB-293A7989FC40" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/maaltijdvergoeding> a owl:Class ;
+    rdfs:label "Maaltijdvergoeding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan inkomsten hebben uit maaltijdvergoeding."@nl ;
+    dct:identifier "02F81CCD-E82B-4A54-E9C5-293A778069AE" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsplicht> a owl:Class ;
+    rdfs:label "Onderhoudsplicht"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Onderhoudsplicht is een wettelijke verplichting van iemand om een ander te onderhouden.Echtgenoten en geregistreerde partners hebben een onderhoudsplicht ten opzichte van elkaar. Ouders hebben een onderhoudsplicht voor hun kinderen tot ze 21 jaar zijn (ook al is het met 18 jaar al meerderjarig). Ex-partners hebben een onderhoudsplicht als een van de partners te weinig inkomen heeft om van te leven. Het in sommige gevallen moeten betalen van alimentatie is ook op de onderhoudsplicht gebaseerd. De inkomsten uit alimentatie zijn in het model zelf een inkomstencomponent.De onderhoudsplicht van ouders om hun kind te onderhouden staat geschreven als artikel: 395a van Boek 1 van het Nederlandse Burgerlijk Wetboek.Dit houdt in ieder geval in dat ouders ervoor moeten zorgen dat het kind de meest basale dingen krijgt, zoals onderdak, kleding, voeding, scholing en medische hulp.Het niet nakomen van de onderhoudsplicht, hetzij wel of niet bij vonnis gesteld, kan strafrechtelijke gevolgen hebben. Dit is strafbaar gesteld in artikel 255 van het Wetboek van Strafrecht.Het betreft hier een verhouding tussen een partij, zijnde een persoon of een organisatie, en de burger, waarbij de onderhoudsplichtige partij de betreffende burger onderhoudt in zijn bestaan.NB: Onderhoudsplicht en onderhoudsplichtverhouding leggen we vast als de onderhoudsplichtige (na verhaal) de onderhoudsplicht voldoet aan de gemeente. In alle gevallen dat een onderhoudsplichtige een onderhoudsbijdrage betaalt aan de onderhoudsgerechtigde spreken we van alimentatie. Dit is opgenomen als inkomstencomponent onder een inkomstenverhouding."@nl ;
+    dct:identifier "1DB40092-C231-63A1-27BE-2685FBFA9223" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsverhouding> a owl:Class ;
+    rdfs:label "Onderhoudsverhouding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Onderhoudsplicht is een wettelijke verplichting van iemand om een ander te onderhouden. In de onderhoudsplichtverhouding wordt vastgelegd wie de onderhoudsplicht heeft. Omdat de onderhoudsplichtverhouding in het profiel van de klant is opgenomen, wordt de onderhoudsgerechtigde in deze verhouding niet opgenomen. De klant is de onderhoudsgerechtigde.NB:Onderhoudsplicht en onderhoudsplichtverhouding leggen we vast als de onderhoudsplichtige (na verhaal) de onderhoudsplicht voldoet aan de gemeente. In alle gevallen dat een onderhoudsplichtige een onderhoudsbijdrage betaalt aan de onderhoudsgerechtigde spreken we van alimentatie. Alimentatie is opgenomen als inkomstencomponent onder een inkomstenverhouding.Onderhoudsplicht kan gelden voor de ex-partner en/of voor kinderen."@nl ;
+    dct:identifier "01CD1BE5-E952-7DA0-ABA1-2685FBDC10DA" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onkostenvergoeding> a owl:Class ;
+    rdfs:label "Onkostenvergoeding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan inkomsten hebben uit onkostenvergoeding."@nl ;
+    dct:identifier "21A42BF6-C12B-F23F-093F-293A7780B58A" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/pensioen> a owl:Class ;
+    rdfs:label "Pensioen"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan inkomsten hebben uit pensioen."@nl ;
+    dct:identifier "28CBC627-9980-C06E-492F-293A6E4EE649" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/primair_inkomstencomponent> a owl:Class ;
+    rdfs:label "Primair inkomstencomponent"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan vanuit diverse bronnen inkomsten krijgen. Denk bijvoorbeeld aan alimentatie, loon, uitkering of zelfs vergoedingen voor maaltijden, onkosten, vervoer e.d. De inkomstencomponent vormt een deel van de totale inkomsten van een persoon. Hiermee leggen we vast het type inkomste, het bedrag en de periode waarover dat bedrag is ontvangen en de boekingsdatum waarop het bedrag is ontvangen.Dat laatste is belangrijk voor de verschillende perspectieven op inkomsten te onderscheiden naar loon-in en loon-over.Achtergrond hierbij zijn twee regelingenLoon wordt als regel toegerekend aan het tijdvak waarin het aan de werknemer is betaald (loon-in). Onder bepaalde voorwaarden mogen werkgevers het uitbetaalde loon toerekenen aan een verstreken loontijdvak. Dit wordt de 'loon-over-regeling' genoemd. Waarom populair: voor een werknemer kan het verstrekken van een uitkering e.d. niet in het kalenderjaar maar bijvoorbeeld in het jaar daarop, hem fiscaal gezien voordelen geven.Bij loon-over gaat het om twee regelingen:De eerste regeling houdt in dat een werkgever een in de maand januari van het nieuwe jaar gedane inhouding op loon dat de werknemer voor het voorgaande jaar nog toekomt, mag opnemen in de laatste aangifte over het oude jaar. Daarbij wordt de inhouding volgens de tarieven van het voorgaande jaar berekend. Deze regeling is structureel in de wet opgenomen.De tweede regeling houdt in dat de werkgever binnen het kalenderjaar loonbetalingen mag toerekenen aan de verstreken loontijdvakken waarop zij betrekking hebben, zo nodig door het indienen van correctieberichten."@nl ;
+    dct:identifier "e0a328b0-21ff-469d-912e-63465279b5a1" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/reiskosten_naar_het_werk> a owl:Class ;
+    rdfs:label "Reiskosten naar het werk"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Reiskosten naar het werk"@nl ;
+    dct:identifier "4c49fb46-4d05-49d0-8e99-f5d25c625d91" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/reiskostenvergoeding> a owl:Class ;
+    rdfs:label "Reiskostenvergoeding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan inkomsten hebben uit reisvergoeding."@nl ;
+    dct:identifier "029BA63B-D3DD-B855-6C7A-293A77805B65" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/secundair_inkomstencomponent> a owl:Class ;
+    rdfs:label "Secundair inkomstencomponent"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan vanuit diverse bronnen inkomsten krijgen. Denk bijvoorbeeld aan alimentatie, loon, uitkering of zelfs vergoedingen voor maaltijden, onkosten, vervoer e.d. De inkomstencomponent vormt een deel van de totale inkomsten van een persoon. Hiermee leggen we vast het type inkomste, het bedrag en de periode waarover dat bedrag is ontvangen en de boekingsdatum waarop het bedrag is ontvangen.Dat laatste is belangrijk voor de verschillende perspectieven op inkomsten te onderscheiden naar loon-in en loon-over.Achtergrond hierbij zijn twee regelingenLoon wordt als regel toegerekend aan het tijdvak waarin het aan de werknemer is betaald (loon-in). Onder bepaalde voorwaarden mogen werkgevers het uitbetaalde loon toerekenen aan een verstreken loontijdvak. Dit wordt de 'loon-over-regeling' genoemd. Waarom populair: voor een werknemer kan het verstrekken van een uitkering e.d. niet in het kalenderjaar maar bijvoorbeeld in het jaar daarop, hem fiscaal gezien voordelen geven.Bij loon-over gaat het om twee regelingen:De eerste regeling houdt in dat een werkgever een in de maand januari van het nieuwe jaar gedane inhouding op loon dat de werknemer voor het voorgaande jaar nog toekomt, mag opnemen in de laatste aangifte over het oude jaar. Daarbij wordt de inhouding volgens de tarieven van het voorgaande jaar berekend. Deze regeling is structureel in de wet opgenomen.De tweede regeling houdt in dat de werkgever binnen het kalenderjaar loonbetalingen mag toerekenen aan de verstreken loontijdvakken waarop zij betrekking hebben, zo nodig door het indienen van correctieberichten."@nl ;
+    dct:identifier "4ead37c5-f83b-423d-b51e-92a60e7fa2d9" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/stage> a owl:Class ;
+    rdfs:label "Stage"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan inkomsten hebben uit stage."@nl ;
+    dct:identifier "28FCE4B4-AFCD-AFE7-63A5-293A6F895C47" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/studiefinanciering> a owl:Class ;
+    rdfs:label "Studiefinanciering"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan inkomsten hebben uit studiefinanciering."@nl ;
+    dct:identifier "23245F44-F332-6237-D733-293A6E6E621D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/te_betalen_alimentatie> a owl:Class ;
+    rdfs:label "Te betalen alimentatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Te betalen alimentatie"@nl ;
+    dct:identifier "86ad0007-f0b8-4cc2-8bec-acc4c9f12dec" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering> a owl:Class ;
+    rdfs:label "Uitkering"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan inkomsten hebben uit uitkering."@nl ;
+    dct:identifier "079F0BBE-0EBA-3EFE-32BE-293A6C49F9DC" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vakantiegeld> a owl:Class ;
+    rdfs:label "Vakantiegeld"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan inkomsten hebben uit vakantiegeld."@nl ;
+    dct:identifier "24B39342-7142-86B3-3DBD-293A7780A28B" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vergoeding> a owl:Class ;
+    rdfs:label "Vergoeding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan inkomsten hebben uit vergoedingen als voor maaltijden, onkosten of reizen"@nl ;
+    dct:identifier "1FCFBA02-5BAC-6978-BF60-293A629C6FC3" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vergoeding_in_natura> a owl:Class ;
+    rdfs:label "Vergoeding in natura"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan inkomsten hebben uit vergoeding in natura."@nl ;
+    dct:identifier "247066AC-FBF9-A511-B717-293A77808921" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/verlaging_door_boete> a owl:Class ;
+    rdfs:label "Verlaging door boete"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan vermindering van inkomsten hebben door boete."@nl ;
+    dct:identifier "21BB5EF1-DBEF-1C98-AA4A-293A7780C22E" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/verlaging_door_maatregel> a owl:Class ;
+    rdfs:label "Verlaging door maatregel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan vermindering van inkomsten hebben door maatregel."@nl ;
+    dct:identifier "147DA394-B3B3-61F8-2424-293A778066AE" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vrijlating_inkomsten> a owl:Class ;
+    rdfs:label "Vrijlating inkomsten"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Wanneer u aan het werk gaat dan mag u van het loon dat u krijgt 25 procent houden, met een maximum van € 224,-.(bedrag per 1 januari 2022). Dit noemen wij vrijlating. Dus: als u in een maand netto € 500,- verdient met werken, mag u € 125,- houden. Deze 500 euro zou in het geheel in mindering gebracht worden op de uitkering. 25% wordt vrijgelaten. Dus in plaats van 500 wordt er (500 – 125) = 375 gekort. De 125 wordt dan vrijgelaten en niet verrekend met de uitkering. U geeft altijd uw hele loon op. De gemeente berekent de vrijlating.Is uw inkomen hoger dan uw bijstandsnorm maar na aftrek van deze inkomstenvrijlating lager? Dan kunt u ervoor kiezen om nog een aanvullende bijstandsuitkering te blijven ontvangen. De verplichtingen blijven voor u gelden. Wijzigingen in uw woon- en leefsituatie, vermogen en inkomsten moet u blijven doorgeven. U behoudt ook de arbeidsverplichtingen. Dat houdt in dat u uw best moet doen het werk en het aantal uren dat u werkt te behouden."@nl ;
+    dct:identifier "1DC195DD-888E-945B-4A20-2A2CB3694D4C" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/hobby/aantal_uren_per_week_besteed_aan_hobby> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/hobby> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "33B1BBD6-91FB-4a4c-BA95-A0537A8123B0" ;
+    rdfs:label "Aantal uren per week besteed aan hobby"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/eigen_bedrijf/aantal_uren_per_week_besteed_aan_werk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/eigen_bedrijf> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "8E5ED1EF-B7CF-4eaa-BFF7-99F6AD257A16" ;
+    rdfs:label "Aantal uren per week besteed aan werk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/heffingskorting/algemene_heffingskorting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/heffingskorting> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "901E27DF-293E-4fda-BE12-7A76B10154AD" ;
+    rdfs:label "Algemene heffingskorting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk/arbeidscontract> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "49777BCB-00E2-47d6-99A0-E400EB578A98" ;
+    rdfs:label "Arbeidscontract"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/kostencomponent/bedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/kostencomponent> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "9347232D-F75D-453c-835F-1D17D798E511" ;
+    rdfs:label "Bedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/alimentatie/bedrag_aan_andere_rekeningen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/alimentatie> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "F684333F-ED27-4c39-8CAF-B34546D2AF70" ;
+    rdfs:label "Bedrag aan andere rekeningen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/alimentatie/bedrag_in_convenant> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/alimentatie> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "E432C0C6-4AD3-4d0b-9541-C44CA50F8D49" ;
+    rdfs:label "Bedrag in convenant"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk/begindatum_contract> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk> ;
+    rdfs:range xsd:date ;
+    dct:identifier "F6330CC0-7880-47b1-8737-09BFAFABC4EB" ;
+    rdfs:label "Begindatum contract"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/ander_inkomen/beschrijving_ander_inkomen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/ander_inkomen> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D543F695-D811-411b-BA15-2B01B0F696F5" ;
+    rdfs:label "Beschrijving ander inkomen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/hobby/beschrijving_hobby> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/hobby> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E5B5ED49-0E2A-46fa-A4A9-18E0F0D594AA" ;
+    rdfs:label "Beschrijving hobby"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/pensioen/beslag_op_pensioen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/pensioen> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "0B10C6FA-CD42-4686-B390-5EAFDDE53587" ;
+    rdfs:label "Beslag op pensioen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering/beslag_op_uitkering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "BC753C0B-C601-4ce6-8AFF-862EA7FE5FF7" ;
+    rdfs:label "Beslag op uitkering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsplicht/bijdrage> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsplicht> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7169359E-DE6A-407e-A464-05C8C196A42B" ;
+    rdfs:label "Bijdrage"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/alimentatie/bijdrageexpartnerandererekeningen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/alimentatie> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "EDDDCBDD-7235-43b6-A4E2-6982E9BBB99A" ;
+    rdfs:label "BijdrageExPartnerAndereRekeningen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent/bijgevoegd_bewijs> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "5309A7D6-056B-4469-AF35-DA03461432FF" ;
+    rdfs:label "Bijgevoegd bewijs"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent/boekingsdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent> ;
+    rdfs:range xsd:date ;
+    dct:identifier "2FB69525-5D64-4fc5-9E36-D953B02A739F" ;
+    rdfs:label "Boekingsdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsplicht/boekingsdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsplicht> ;
+    rdfs:range xsd:date ;
+    dct:identifier "95474551-9F08-49e0-B317-288829BAAD63" ;
+    rdfs:label "Boekingsdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent/bruto_netto> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/datatypes/brutonettoinkomsten> ;
+    dct:identifier "F3812793-FFD0-4eff-9854-39D346509C87" ;
+    rdfs:label "Bruto-Netto"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/ander_inkomen/categorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/ander_inkomen> ;
+    rdfs:range xsd:string ;
+    dct:identifier "198C3A5E-5AD7-4e4e-A248-5C5F68A9DB04" ;
+    rdfs:label "Categorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenverhouding/categorie_inkomsten> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenverhouding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
+    dct:identifier "B24A1486-25ED-4936-AB00-5E5C56C1152E" ;
+    rdfs:label "Categorie Inkomsten"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/studiefinanciering/daadwerkelijk_genoten> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/studiefinanciering> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "1C52B213-343C-4fe5-9C97-EA70315F3217" ;
+    rdfs:label "Daadwerkelijk Genoten"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vrijlating_inkomsten/doelgroep> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vrijlating_inkomsten> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/datatypes/jsonruledgrouptype> ;
+    dct:identifier "39D9B7D7-6C76-4c92-AFB7-D117818E4917" ;
+    rdfs:label "Doelgroep"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/draagkracht/einddatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/draagkracht> ;
+    rdfs:range xsd:date ;
+    dct:identifier "DBE06D04-646F-4ccd-99BF-C9AC93E3719C" ;
+    rdfs:label "Einddatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk/einddatum_contract> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk> ;
+    rdfs:range xsd:date ;
+    dct:identifier "BBB6716A-DA9A-4225-A7B9-DDB278AF94E6" ;
+    rdfs:label "Einddatum contract"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/eigen_bedrijf/ingeschreven_bij_kvk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/eigen_bedrijf> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "8D86F614-3E67-45e3-851B-886ACC5E2BF6" ;
+    rdfs:label "Ingeschreven bij KvK"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/draagkrachtregime/initiele_draagkracht> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/draagkrachtregime> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3AC8D53D-375F-445e-968E-152DC09D70F0" ;
+    rdfs:label "Initiele draagkracht"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/heffingskorting/inkomensafhankelijke_combinatiekorting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/heffingskorting> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "86D763C0-DBAE-4c45-88EB-10A38071B416" ;
+    rdfs:label "Inkomensafhankelijke combinatiekorting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent/inkomsten> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5CEAB7DA-EC00-47db-9130-DD9B5752A949" ;
+    rdfs:label "Inkomsten"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk/inkomsten_uit_ikb_regeling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "CBA2B605-CCA3-442f-BFA3-4E1F21E3FF7A" ;
+    rdfs:label "Inkomsten uit IKB-regeling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent/inkomstencomponenttype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/datatypes/inkomstencomponenttype> ;
+    dct:identifier "C0DA6323-CD1D-4c62-9A68-F10FDF1ED3FB" ;
+    rdfs:label "Inkomstencomponenttype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/alimentatie/inkomstensoort_alimentatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/alimentatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/datatypes/inkomstensoortalimentatie> ;
+    dct:identifier "B457C5BF-8ED1-4849-816A-5A90F879CDEE" ;
+    rdfs:label "Inkomstensoort alimentatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk/inkomstensoort_betaald_werk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/datatypes/inkomstensoortbetaaldwerk> ;
+    dct:identifier "B9DC6381-7D02-4c93-A2C0-E35B9DAD1F5E" ;
+    rdfs:label "Inkomstensoort betaald werk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/pensioen/inkomstensoort_pensioen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/pensioen> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/datatypes/inkomstensoortpensioen> ;
+    dct:identifier "87796B00-1F72-497b-B1D2-5458036D5025" ;
+    rdfs:label "Inkomstensoort pensioen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/studiefinanciering/inkomstensoort_studiefinanciering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/studiefinanciering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/datatypes/inkomstensoortstudiefinanciering> ;
+    dct:identifier "AE96FA47-FB45-47f2-A350-048BC7069291" ;
+    rdfs:label "Inkomstensoort studiefinanciering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering/inkomstensoort_uitkering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/datatypes/cdszwet> ;
+    dct:identifier "04174294-FA65-48ac-81E6-9A31C96422B4" ;
+    rdfs:label "Inkomstensoort uitkering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/alimentatie/juiste_bedrag_betaald_door_ex_partner> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/alimentatie> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "051C04EF-9807-4f2d-BE72-DA960DDF4EFD" ;
+    rdfs:label "Juiste bedrag betaald door ex partner"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/alimentatie/lbio_ingeschakeld> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/alimentatie> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "C7FE80E5-0A9C-4fb4-BDFB-B109CC6519F6" ;
+    rdfs:label "LBIO ingeschakeld"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent/link_naar_bewijs> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E989C9FF-C8FD-42e0-9AD5-330FF8E6581A" ;
+    rdfs:label "Link naar bewijs"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk/loondienst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "7E3AA435-5C9B-45cd-9A6C-2242028CB7BF" ;
+    rdfs:label "Loondienst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering/loonheffingskorting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "3DB17B7D-35E5-4c8d-B21C-69AC5F02CAA1" ;
+    rdfs:label "Loonheffingskorting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/pensioen/loonheffingskorting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/pensioen> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "B7AE58DA-32B3-45f7-B58A-DDEDD7F16191" ;
+    rdfs:label "Loonheffingskorting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk/loonheffingsnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "34E43652-E3FB-4a71-9CAF-7767279CE71D" ;
+    rdfs:label "Loonheffingsnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/stage/maaltijdvergoeding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/stage> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "92BF36B6-9243-404c-891B-25E81887E6A0" ;
+    rdfs:label "Maaltijdvergoeding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vrijlating_inkomsten/medisch> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vrijlating_inkomsten> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "D2C077B1-15DD-4c75-BD7C-5C3CBBC81B8F" ;
+    rdfs:label "Medisch"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/draagkrachtregime/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/draagkrachtregime> ;
+    rdfs:range xsd:string ;
+    dct:identifier "53AD066E-1D7D-4385-9D94-60912B01BBDE" ;
+    rdfs:label "Naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsplicht/onderhoudsplichttype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsplicht> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/datatypes/onderhoudsplichttype> ;
+    dct:identifier "8676D5C2-9648-4ece-A826-D6838273C895" ;
+    rdfs:label "Onderhoudsplichttype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsverhouding/onderhoudsverhoudingtype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsverhouding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6EB128E9-2EB3-4c3a-BE13-08D4AF195AAC" ;
+    rdfs:label "Onderhoudsverhoudingtype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/stage/onkostenvergoeding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/stage> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "CE8F237D-9C0E-4600-B920-BCA69AEAB54C" ;
+    rdfs:label "Onkostenvergoeding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/draagkrachtregime/peildatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/draagkrachtregime> ;
+    rdfs:range xsd:date ;
+    dct:identifier "7E7DF3F5-C45C-455a-855B-486F7C130B8C" ;
+    rdfs:label "Peildatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsplicht/peilmoment> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsplicht> ;
+    rdfs:range xsd:date ;
+    dct:identifier "757F82E0-4B4F-4bb2-908E-40E1FA000011" ;
+    rdfs:label "Peilmoment"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent/peilmoment> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent> ;
+    rdfs:range xsd:date ;
+    dct:identifier "3C67FA39-0941-48f3-8BC9-C4BDCDCF4A63" ;
+    rdfs:label "Peilmoment"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vrijlating_inkomsten/periode_einddatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vrijlating_inkomsten> ;
+    rdfs:range xsd:date ;
+    dct:identifier "8BAD0A0D-A5DB-458f-8E46-D3059ED14148" ;
+    rdfs:label "Periode einddatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsverhouding/periode_einddatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsverhouding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "6AB4B2F2-73F2-4ddd-8051-8ED4F3BC4F99" ;
+    rdfs:label "Periode einddatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent/periode_einddatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent> ;
+    rdfs:range xsd:date ;
+    dct:identifier "7DE54421-9AE8-4a15-A439-1008DA0E39C3" ;
+    rdfs:label "Periode einddatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsplicht/periode_einddatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsplicht> ;
+    rdfs:range xsd:date ;
+    dct:identifier "FD5D5E0E-D835-4903-977A-DCDDBAA98E58" ;
+    rdfs:label "Periode einddatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenverhouding/periode_einddatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenverhouding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "8FBE3718-842F-4964-A1D0-B8FE72D5FFB6" ;
+    rdfs:label "Periode einddatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenverhouding/periode_startdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenverhouding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "7B4691EE-EB0F-4d37-83AA-D696E5719CE2" ;
+    rdfs:label "Periode startdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsverhouding/periode_startdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsverhouding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "E055E6B1-A75F-41b0-B0DF-A7CEA99AC2A5" ;
+    rdfs:label "Periode startdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent/periode_startdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent> ;
+    rdfs:range xsd:date ;
+    dct:identifier "B33E69F7-3892-4f03-8B98-D227A8E85F06" ;
+    rdfs:label "Periode startdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vrijlating_inkomsten/periode_startdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vrijlating_inkomsten> ;
+    rdfs:range xsd:date ;
+    dct:identifier "21F12E86-7FB7-49bb-8024-FB73B0421E7C" ;
+    rdfs:label "Periode startdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsplicht/periode_startdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsplicht> ;
+    rdfs:range xsd:date ;
+    dct:identifier "E7F70A88-8585-4b15-9765-42F4A60D7CB1" ;
+    rdfs:label "Periode startdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk/periodiciteit_uitbetaling_loon> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/datatypes/cduitkeringsperiode> ;
+    dct:identifier "85B38E41-D246-4594-991D-B15E1475F332" ;
+    rdfs:label "Periodiciteit uitbetaling loon"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/stage/periodiciteit_uitbetaling_loon> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/stage> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/datatypes/cduitkeringsperiode> ;
+    dct:identifier "C3E5F4E0-F7B0-4ee1-9257-74970B60A9FD" ;
+    rdfs:label "Periodiciteit uitbetaling loon"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/pensioen/periodiciteit_uitbetaling_pensioen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/pensioen> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/datatypes/cduitkeringsperiode> ;
+    dct:identifier "30C296E4-E061-4bef-A820-A2FDD480DEE1" ;
+    rdfs:label "Periodiciteit uitbetaling pensioen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering/periodiciteit_uitbetaling_uitkering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/datatypes/cduitkeringsperiode> ;
+    dct:identifier "33D8FB38-5064-4cca-9552-D9A931B4C02F" ;
+    rdfs:label "Periodiciteit uitbetaling uitkering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/eigen_bedrijf/recht_op_zelfstandigenaftrek> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/eigen_bedrijf> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "13912673-8150-4f87-8A48-7E65EE55A40D" ;
+    rdfs:label "Recht op zelfstandigenaftrek"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/stage/reiskostenvergoeding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/stage> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "D16DC212-E7A7-41aa-8068-3EB9C8FE9AB5" ;
+    rdfs:label "Reiskostenvergoeding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/draagkrachtregime/resterende_draagkracht> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/draagkrachtregime> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B0F64E97-A7A9-4460-B05C-E4580C5C1C57" ;
+    rdfs:label "Resterende draagkracht"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/eigen_bijdrage/soort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/eigen_bijdrage> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9B06322F-9B73-4732-86BE-00A72A56F6CC" ;
+    rdfs:label "Soort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/te_betalen_alimentatie/soort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/te_betalen_alimentatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3470A7BE-F398-449a-AB62-9AD7BEB05527" ;
+    rdfs:label "Soort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/beslag_op_inkomen/soort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/beslag_op_inkomen> ;
+    rdfs:range xsd:string ;
+    dct:identifier "08F4A1CD-071A-45f1-A648-2867A373A4A4" ;
+    rdfs:label "Soort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/reiskosten_naar_het_werk/soort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/reiskosten_naar_het_werk> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0EBBAA80-7B8E-4d0c-B62A-E9E183E4060E" ;
+    rdfs:label "Soort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/eigen_bedrijf/soort_bedrijf> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/eigen_bedrijf> ;
+    rdfs:range xsd:string ;
+    dct:identifier "944610D6-4CAA-4511-BC4B-8B62FCF71D77" ;
+    rdfs:label "Soort bedrijf"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk/soort_contract> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/datatypes/soortcontract> ;
+    dct:identifier "2228C44B-A0CB-41f1-B373-2A53D0C43D2A" ;
+    rdfs:label "Soort contract"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vrijlating_inkomsten/soort_vrijlating> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vrijlating_inkomsten> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/datatypes/codesoortvrijlating> ;
+    dct:identifier "8E65E7A7-7562-4918-BC57-137EC0E94136" ;
+    rdfs:label "Soort vrijlating"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/draagkracht/startdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/draagkracht> ;
+    rdfs:range xsd:date ;
+    dct:identifier "34037076-FA2C-481f-BE7A-0F1084355946" ;
+    rdfs:label "Startdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering/toeslag_op_uitkering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "5536D7C6-A4EC-494f-9D7E-3E9145F5DF3E" ;
+    rdfs:label "Toeslag op uitkering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/eigen_bedrijf/toestemming_gemeente_parttime_ondernemen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/eigen_bedrijf> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "36F31413-E481-4528-9C3A-4D2EAFE7C362" ;
+    rdfs:label "Toestemming gemeente parttime ondernemen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/pensioen/uitbetaling_vakantiegeld_pensioen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/pensioen> ;
+    rdfs:range xsd:string ;
+    dct:identifier "760986AF-4A8F-4449-999B-C4FE54F52624" ;
+    rdfs:label "Uitbetaling vakantiegeld pensioen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering/uitkering_verlaagd_door_boete> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "D74B459A-F195-4d62-9BE3-4F0886713789" ;
+    rdfs:label "Uitkering verlaagd door boete"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering/uitkering_verlaagd_door_maatregel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "DAE14D30-07C8-4e30-8728-4F02852C106A" ;
+    rdfs:label "Uitkering verlaagd door maatregel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk/urenvermindering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "63CA3F49-D8AB-4668-B363-DE0EC8D1BB12" ;
+    rdfs:label "Urenvermindering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering/vakantiegeld_jaarlijks_ontvangen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "E9BDC23E-B23D-441c-870A-DE85CD71F8A5" ;
+    rdfs:label "Vakantiegeld jaarlijks ontvangen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/stage/vergoeding_in_natura> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/stage> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "774AC3B1-432B-44c1-B0A8-33FC0B042ABF" ;
+    rdfs:label "Vergoeding in natura"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vrijlating_inkomsten/vrijgelaten_bedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vrijlating_inkomsten> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "6E8C412A-BB5A-4ce5-BA19-03C83A0ECDE6" ;
+    rdfs:label "Vrijgelaten bedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/verlaging_door_maatregel> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenvermindering> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/verlaging_door_boete> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenvermindering> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vergoeding_in_natura> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vergoeding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vergoeding> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/secundair_inkomstencomponent> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vakantiegeld> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/secundair_inkomstencomponent> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering/uitkering_heeft_verlaging_door_boete> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/verlaging_door_boete> ;
+    rdfs:label "Uitkering heeft Verlaging door boete"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering/uitkering_heeft_vakantiegeld> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vakantiegeld> ;
+    rdfs:label "Uitkering heeft Vakantiegeld"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering/uitkering_heeft_verlaging_door_maatregel> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/verlaging_door_maatregel> ;
+    rdfs:label "Uitkering heeft Verlaging door maatregel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/primair_inkomstencomponent> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/te_betalen_alimentatie> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/kostencomponent> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/studiefinanciering> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/primair_inkomstencomponent> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/stage/stage_heeft_vergoeding_in_natura> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/stage> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vergoeding_in_natura> ;
+    rdfs:label "Stage heeft Vergoeding in natura"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/stage> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/primair_inkomstencomponent> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/secundair_inkomstencomponent> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/stage/stage_heeft_reiskostenvergoeding> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/stage> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/reiskostenvergoeding> ;
+    rdfs:label "Stage heeft Reiskostenvergoeding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/reiskostenvergoeding> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vergoeding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/reiskosten_naar_het_werk> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/kostencomponent> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/primair_inkomstencomponent> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstencomponent> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/pensioen/pensioen_heeft_vakantiegeld> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/pensioen> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vakantiegeld> ;
+    rdfs:label "Pensioen heeft Vakantiegeld"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/pensioen> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/primair_inkomstencomponent> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/stage/stage_heeft_onkostenvergoeding> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/stage> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onkostenvergoeding> ;
+    rdfs:label "Stage heeft Onkostenvergoeding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onkostenvergoeding> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vergoeding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsverhouding/onderhoudsverhouding_bevat_onderhoudsplicht> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsverhouding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onderhoudsplicht> ;
+    rdfs:label "Onderhoudsverhouding bevat Onderhoudsplicht"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/stage/stage_heeft_maaltijdvergoeding> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/stage> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/maaltijdvergoeding> ;
+    rdfs:label "Stage heeft Maaltijdvergoeding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/maaltijdvergoeding> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vergoeding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering/uitkering_heeft_loonbeslag> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/uitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/loonbeslag> ;
+    rdfs:label "Uitkering heeft Loonbeslag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/pensioen/pensioen_heeft_loonbeslag> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/pensioen> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/loonbeslag> ;
+    rdfs:label "Pensioen heeft Loonbeslag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/loonbeslag> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenvermindering> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenvermindering> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/secundair_inkomstencomponent> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenverhouding/inkomstenverhouding_bevat_primair_inkomstencomponent> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenverhouding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/primair_inkomstencomponent> ;
+    rdfs:label "Inkomstenverhouding bevat Primair inkomstencomponent"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/hobby> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/primair_inkomstencomponent> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/heffingskorting> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/secundair_inkomstencomponent> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/eigen_bijdrage> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/kostencomponent> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/eigen_bedrijf> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/primair_inkomstencomponent> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/draagkracht/draagkracht_heeft_draagkrachtregime> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/draagkracht> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/draagkrachtregime> ;
+    rdfs:label "Draagkracht heeft Draagkrachtregime"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/dertiende_maand_eindejaarsuitkering> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/secundair_inkomstencomponent> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk/betaald_werk_heeft_maaltijdvergoeding> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/maaltijdvergoeding> ;
+    rdfs:label "Betaald werk heeft Maaltijdvergoeding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk/betaald_werk_heeft_dertiende_maand_eindejaarsuitkering> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/dertiende_maand_eindejaarsuitkering> ;
+    rdfs:label "Betaald werk heeft Dertiende maand - eindejaarsuitkering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk/betaald_werk_heeft_reiskostenvergoeding> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/reiskostenvergoeding> ;
+    rdfs:label "Betaald werk heeft Reiskostenvergoeding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk/betaald_werk_heeft_onkostenvergoeding> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/onkostenvergoeding> ;
+    rdfs:label "Betaald werk heeft Onkostenvergoeding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk/betaald_werk_heeft_loonbeslag> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/loonbeslag> ;
+    rdfs:label "Betaald werk heeft Loonbeslag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk/betaald_werk_heeft_heffingskorting> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/heffingskorting> ;
+    rdfs:label "Betaald werk heeft Heffingskorting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk/betaald_werk_heeft_vakantiegeld> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/vakantiegeld> ;
+    rdfs:label "Betaald werk heeft Vakantiegeld"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/betaald_werk> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/primair_inkomstencomponent> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/beslag_op_inkomen> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/kostencomponent> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/ander_inkomen> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/primair_inkomstencomponent> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/alimentatie> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/primair_inkomstencomponent> .

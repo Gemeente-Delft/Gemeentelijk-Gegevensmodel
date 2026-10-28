@@ -1,0 +1,82 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/basismodel_cmdb_items_diversen>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/cmdb_item> a owl:Class ;
+    rdfs:label "CMDB-item"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Item in een Configuratie Management DataBase"@nl ;
+    dct:identifier "B027D022-41D9-4c63-A63D-8F5111689564" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/hardware> a owl:Class ;
+    rdfs:label "Hardware"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Alle fysieke componenten of onderdelen die in een computer een rol spelen."@nl ;
+    dct:identifier "6C92F0F8-BC92-428c-B729-1A10D515DAEF" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/inventaris> a owl:Class ;
+    rdfs:label "Inventaris"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een inboedel of een opsomming van voorwerpen op een bepaalde plaats, gemaakt volgens een vaste procedure."@nl ;
+    dct:identifier "D0AB8CF6-F6CC-4337-BE07-DFE6B3CEFBB3" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/licentie> a owl:Class ;
+    rdfs:label "Licentie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een gebruiksrecht en autorisatie om van een product of dienst gebruik te maken binnen bepaalde voorwaarden"@nl ;
+    dct:identifier "2E5F9AF9-D1BA-4dc0-9621-4101D24B8ABD" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/nertwerkcomponent> a owl:Class ;
+    rdfs:label "Nertwerkcomponent"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een *netwerkcomponent* is een hardware- of softwareonderdeel dat een **specifieke functie vervult binnen een netwerk** om communicatie, gegevensuitwisseling of het beheer van netwerkverkeer mogelijk te maken."@nl ;
+    dct:identifier "DD277E82-0CA5-4460-918F-9178B5F01886" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/software> a owl:Class ;
+    rdfs:label "Software"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een geheel van computerprogramma's met bijbehorende data, die bewerkingen en taken uitvoeren"@nl ;
+    dct:identifier "0B3C37DD-42A1-4b6b-B534-CD276112FD3B" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/toegangsmiddel> a owl:Class ;
+    rdfs:label "Toegangsmiddel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een middel waarmee men zich toegang tot iets kan verschaffen."@nl ;
+    dct:identifier "D67A4AC2-9A17-4cd0-82D7-732A89018FDA" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/vervoersmiddel> a owl:Class ;
+    rdfs:label "Vervoersmiddel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een voertuig dat zich over het land verplaatst."@nl ;
+    dct:identifier "E8C75DAB-F9AE-4fe2-9114-870434F2EA80" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/cmdb_item/beschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/cmdb_item> ;
+    rdfs:range xsd:string ;
+    dct:identifier "471F4E53-033B-4d04-ACEE-B9B0DD5CB4CC" ;
+    rdfs:label "beschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/cmdb_item/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/cmdb_item> ;
+    rdfs:range xsd:string ;
+    dct:identifier "45E75BF3-B09B-4a82-BBDA-18DF026975C7" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/vervoersmiddel> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/cmdb_item> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/toegangsmiddel> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/cmdb_item> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/software> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/cmdb_item> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/nertwerkcomponent> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/cmdb_item> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/licentie> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/cmdb_item> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/inventaris> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/cmdb_item> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/hardware> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/cmdb_item> .

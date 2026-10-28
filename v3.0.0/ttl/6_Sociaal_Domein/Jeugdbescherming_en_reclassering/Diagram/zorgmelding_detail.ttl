@@ -1,0 +1,237 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgmelding_detail>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgelijke_situatie> a owl:Class ;
+    rdfs:label "Zorgelijke Situatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een zorgelijke situatie in de context van jeugdbescherming is een omstandigheid waarin de veiligheid, gezondheid, of ontwikkeling van een kind of jongere in het geding is door bijvoorbeeld verwaarlozing, mishandeling, huiselijk geweld, of andere risicofactoren. Deze situaties worden gekenmerkt door signalen van fysieke, emotionele of sociale schade of het ontbreken van een veilige en stabiele omgeving. Een zorgelijke situatie kan leiden tot interventie door jeugdbeschermingsorganisaties om de risico’s te verminderen en het kind of de jongere te beschermen en ondersteunen bij een gezonde en veilige ontwikkeling."@nl ;
+    dct:identifier "AEF1825F-C554-4490-975D-93AEA24991A9" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgmelding> a owl:Class ;
+    rdfs:label "Zorgmelding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Zorgmelding is een officiële melding bij een gemeente of jeugdhulporganisatie waarin zorgen worden geuit over de veiligheid, gezondheid, of ontwikkeling van een kind of jongere. Deze melding kan worden gedaan door professionals, zoals leraren, huisartsen of politie, maar ook door burgers of familieleden. Een zorgmelding bevat signalen of concrete aanwijzingen van mogelijke risico’s, zoals mishandeling, verwaarlozing, huiselijk geweld, of een onveilige thuissituatie. Het doel van een zorgmelding is om de situatie te laten beoordelen en, indien nodig, passende hulp of bescherming te organiseren om het welzijn van het kind of de jongere te waarborgen."@nl ;
+    dct:identifier "B852AF03-A5E0-4148-AFC1-108509FF8BBD" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/incident> a owl:Class ;
+    rdfs:label "Incident"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een *incident* is een afzonderlijke gebeurtenis of voorval dat plaatsvindt en kan afwijken van de normale gang van zaken, vaak onverwacht of onvoorzien."@nl ;
+    dct:identifier "418C04F0-F173-4775-9814-D50F5EE79A38" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> a owl:Class ;
+    rdfs:label "AanvraagOfMelding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Komt overeen met een VJV Bron: GEM_VJV (Distinct op REQ_ID) ID: REQ_ID"@nl ;
+    dct:identifier "8E6BAEF8-1878-400f-9244-23575BD41EAB" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/afgehandeld> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "AC248AAD-192D-40e3-B2C3-107CBA34CB21" ;
+    rdfs:label "afgehandeld"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "70BB6DC2-EA35-451f-A307-0DCE9F6C1341" ;
+    rdfs:label "categorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categoriecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E6803836-B435-454b-BFF2-EC300A1E160A" ;
+    rdfs:label "categoriecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumaanmaak> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D6A1055B-7FFE-4e0e-9D51-7BCB34BC902E" ;
+    rdfs:label "datumAanmaak"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumafhandeling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "11348F20-D423-473f-B6E8-3197F6634F91" ;
+    rdfs:label "datumAfhandeling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumbeginstatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "386AAA3D-8C77-4be7-84DC-C221439D58C6" ;
+    rdfs:label "datumBeginStatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeindestatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "214166B2-C303-49f3-A008-648E47E58D65" ;
+    rdfs:label "datumEindeStatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/incident/datumtijdtot> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/incident> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "8AA99CA6-AAC7-4d92-97DB-A4B7D68FF1BD" ;
+    rdfs:label "datumTijdTot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/incident/datumtijdvanaf> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/incident> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "F46D0A73-54AF-4f1d-AF07-2F3B49D9D0E8" ;
+    rdfs:label "datumtijdVanaf"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "59BA1A2C-9DA8-4258-8668-F2B35AF57DD8" ;
+    rdfs:label "hoofdcategorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategoriecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5DC7B481-6724-4769-B6D3-B4AC0B578177" ;
+    rdfs:label "hoofdcategoriecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8DD9E909-55C1-45d8-8B02-F174324A6E5C" ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/kanaal> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "32B1052C-88E9-498e-86F6-AF5B340D1132" ;
+    rdfs:label "kanaal"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/incident/locatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/incident> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2105A3E2-C40D-4535-8E41-6FD5A62338AC" ;
+    rdfs:label "locatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgelijke_situatie/nadereomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgelijke_situatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2825E2CC-2A63-46dd-AFAE-BC8A4A51CA5A" ;
+    rdfs:label "nadereOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgmelding/nadereomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "03CCF636-AA1A-4b5f-8328-B7A96BDFE3F1" ;
+    rdfs:label "nadereOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/incident/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/incident> ;
+    rdfs:range xsd:string ;
+    dct:identifier "50F9AE67-3B6C-4f2f-AA5F-7C618CA450EE" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgmelding/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3E51B9FF-9C46-41c6-B90B-C08FB7890025" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerp> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6D92FCD5-F8C8-41c7-A524-0102186ED5E2" ;
+    rdfs:label "onderwerp"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerpcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3A678FBE-3890-41b5-9E6B-9C9C0A59E8D8" ;
+    rdfs:label "onderwerpcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgelijke_situatie/sitiuatieschets> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgelijke_situatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "33486C74-0AB9-44e2-AD78-7FA9DD95449F" ;
+    rdfs:label "sitiuatieschets"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/incident/soort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/incident> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0CE138DD-E96A-4561-9CAD-55C5D4C49D0E" ;
+    rdfs:label "soort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/soort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "812E18D0-9678-4b27-ACFF-9C8D774CD8C1" ;
+    dct:description "Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding...."@nl ;
+    rdfs:label "soort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E5274E49-1775-4b24-B45E-366A77511B7E" ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statusvolgorde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A313E848-F5A4-4b9f-B8EA-479435ACC1BF" ;
+    rdfs:label "statusVolgorde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statuscode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A8DEE2BF-1051-4f4c-89FD-DD4E8A8714E3" ;
+    rdfs:label "statuscode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "61C0AE53-1473-483b-84F9-FC173AD4D5FB" ;
+    rdfs:label "subcategorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategoriecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BBFFE25E-9DFA-4ac2-AAA7-48104E0ADD60" ;
+    rdfs:label "subcategoriecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgmelding/terugkoppelinggewenst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgmelding> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "1F985DB1-A6E9-4607-8DE4-381A8EB22306" ;
+    rdfs:label "terugkoppelingGewenst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/incident/toelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/incident> ;
+    rdfs:range xsd:string ;
+    dct:identifier "42E68931-1130-4f35-8F9F-9D890DB6E369" ;
+    rdfs:label "toelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgmelding/verzoek> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgmelding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/enum_verzoeksoort> ;
+    dct:identifier "75535181-7FB8-45b7-BD86-EE41E8B44690" ;
+    rdfs:label "verzoek"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgmelding/zorgmeldingsoort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgmelding> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "F726274C-BB91-4d67-A6DE-D4449EE7AC48" ;
+    rdfs:label "zorgmeldingsoort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgmelding> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgmelding/naar_aanleiding_van> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgmelding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgelijke_situatie> ;
+    rdfs:label "naar aanleiding van"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgelijke_situatie/berust_op> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/jeugdbescherming_en_reclassering/zorgelijke_situatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/incident> ;
+    rdfs:label "berust op"@nl .

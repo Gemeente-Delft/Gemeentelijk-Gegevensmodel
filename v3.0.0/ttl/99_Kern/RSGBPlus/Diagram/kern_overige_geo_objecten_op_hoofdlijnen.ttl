@@ -1,0 +1,1125 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/kern_overige_geo_objecten_op_hoofdlijnen>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> a owl:Class ;
+    rdfs:label "Geo-Object"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011]"@nl ;
+    dct:identifier "05B355EF-39EA-4bfb-B1F3-AB31841C986E" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> a owl:Class ;
+    rdfs:label "OverigBouwwerk"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Met de aarde verbonden duurzaam bouwwerk, dat niet valt onder de definities van een pand of kunstwerk."@nl ;
+    dct:identifier "1DA7BC25-CF02-4161-B9A2-DE0BE27C5254" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> a owl:Class ;
+    rdfs:label "Inrichtingselement"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Ruimtelijk object al dan niet ter detaillering dan wel ter inrichting van de overige benoemde ruimtelijke objecten of een ander inrichtingselement."@nl ;
+    dct:identifier "4DA0EB59-963C-4558-B763-44F542BC8D89" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie> a owl:Class ;
+    rdfs:label "Gebouwinstallatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een component aan de buitenzijde van een gebouw, die het aanzicht van het gebouw mede bepaalt."@nl ;
+    dct:identifier "6FDC646C-F9E2-4610-8FFE-1ECFA99FFBD7" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject> a owl:Class ;
+    rdfs:label "Vegetatieobject"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Solitair vegetatieobject of lijn- of vlakvormige groep gelijksoortige vegetatieobjecten met een beperkte omvang."@nl ;
+    dct:identifier "9980DF6D-0C86-4039-8400-C54DAC77FB79" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> a owl:Class ;
+    rdfs:label "Scheiding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Kunstmatig, meestal lineair obstakel met een werende functie."@nl ;
+    dct:identifier "A637379F-6E1D-47aa-AE75-3E22FE0DC814" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied> a owl:Class ;
+    rdfs:label "FunctioneelGebied"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Begrensd en benoemd gebied dat door een functionele eenheid beschreven wordt."@nl ;
+    dct:identifier "B8F44180-1F2A-4bbc-8E17-6C472111A92B" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> a owl:Class ;
+    rdfs:label "OnbegroeidTerreindeel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Kleinste functioneel onafhankelijk stukje van een terrein, dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, zonder aaneengesloten vegetatie."@nl ;
+    dct:identifier "C32F1546-F793-4f13-91A4-2047E6DE6E91" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> a owl:Class ;
+    rdfs:label "BegroeidTerreindeel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Kleinste functioneel onafhankelijk stukje van een terrein dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, met aaneengesloten homogene vegetatie."@nl ;
+    dct:identifier "D872C213-09D7-4dca-A020-EA363480FC7D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> a owl:Class ;
+    rdfs:label "OverigeScheiding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Kunstmatig, meestal lineair obstakel met een werende functie, met kleinere afmetingen dan toegestaan voor opname in de BGT."@nl ;
+    dct:identifier "EC57B722-D4B4-42d2-AF3C-31E085C63EBB" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> a owl:Class ;
+    rdfs:label "statusGeoObject"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "0F81E79F-B306-40b9-ADCA-59A1E3F55D2B" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringoverigescheiding> a owl:Class ;
+    rdfs:label "typeringOverigeScheiding"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "25785008-A2F4-4725-A525-B0E4FF470D9D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterrein> a owl:Class ;
+    rdfs:label "fysiekVoorkomenOnbegroeidTerrein"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "3E70AED6-A01D-4482-8158-BC4EA16804CF" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselement> a owl:Class ;
+    rdfs:label "typeringInrichtingselement"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "4A445D67-F0F4-47a9-834F-F99508939495" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus> a owl:Class ;
+    rdfs:label "typeringInrichtingselementPlus"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "587CF5D6-8528-45ed-9AA0-8E446F48B71F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterrein> a owl:Class ;
+    rdfs:label "fysiekVoorkomenBegroeidTerrein"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "62B611C8-140B-42dd-8327-D258EB9D9E92" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterreinplus> a owl:Class ;
+    rdfs:label "fysiekVoorkomenBegroeidTerreinPlus"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "7EC13CE7-ECD4-4a02-8844-3FD6AC4C52C7" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> a owl:Class ;
+    rdfs:label "Boolean"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "9BD0FBCB-1A9E-4cab-9280-0EBC428E38F7" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterreinplus> a owl:Class ;
+    rdfs:label "fysiekVoorkomenOnbegroeidTerreinPlus"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "A9A8DD54-7906-4a59-85CF-1D32B7806A68" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringvegetatieobject> a owl:Class ;
+    rdfs:label "typeringVegetatieobject"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "B92F9DEF-A728-4425-BF33-2CCA3090CE70" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringgebouwinstallatie> a owl:Class ;
+    rdfs:label "typeringGebouwinstallatie"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "EAAA0011-DD1F-4430-90EC-73150DE47D9C" .
+
+# Enumeration: BOOLEAN
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean/ja>
+    rdfs:label "Ja"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean/leeg>
+    rdfs:label "Leeg"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean/nee>
+    rdfs:label "Nee"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean/onbekend>
+    rdfs:label "Onbekend"@nl .
+
+# Enumeration: FYSIEKVOORKOMENBEGROEIDTERREIN
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterrein/boomteelt>
+    rdfs:label "boomteelt"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterrein/bouwland>
+    rdfs:label "bouwland"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterrein/duin>
+    rdfs:label "duin"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterrein/fruitteelt>
+    rdfs:label "fruitteelt"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterrein/gemengd_bos>
+    rdfs:label "gemengd bos"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterrein/grasland_agrarisch>
+    rdfs:label "grasland agrarisch"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterrein/grasland_overig>
+    rdfs:label "grasland overig"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterrein/groenvoorziening>
+    rdfs:label "groenvoorziening"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterrein/heide>
+    rdfs:label "heide"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterrein/houtwal>
+    rdfs:label "houtwal"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterrein/kwelder>
+    rdfs:label "kwelder"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterrein/loofbos>
+    rdfs:label "loofbos"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterrein/moeras>
+    rdfs:label "moeras"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterrein/naaldbos>
+    rdfs:label "naaldbos"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterrein/rietland>
+    rdfs:label "rietland"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterrein/struiken>
+    rdfs:label "struiken"@nl .
+
+# Enumeration: FYSIEKVOORKOMENBEGROEIDTERREINPLUS
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterreinplus/akkerbouw>
+    rdfs:label "akkerbouw"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterreinplus/bodembedekkers>
+    rdfs:label "bodembedekkers"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterreinplus/bollenteelt>
+    rdfs:label "bollenteelt"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterreinplus/bosplantsoen>
+    rdfs:label "bosplantsoen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterreinplus/braakliggend>
+    rdfs:label "braakliggend"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterreinplus/gesloten_duinvegetatie>
+    rdfs:label "gesloten duinvegetatie"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterreinplus/gras_en_kruidachtigen>
+    rdfs:label "gras en kruidachtigen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterreinplus/grien_en_hakhout>
+    rdfs:label "grien en hakhout"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterreinplus/heesters>
+    rdfs:label "heesters"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterreinplus/hoogstam_boomgaarden>
+    rdfs:label "hoogstam boomgaarden"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterreinplus/klein_fruit>
+    rdfs:label "klein fruit"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterreinplus/laagstam_boomgaarden>
+    rdfs:label "laagstam boomgaarden"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterreinplus/open_duinvegetatie>
+    rdfs:label "open duinvegetatie"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterreinplus/planten>
+    rdfs:label "planten"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterreinplus/struikrozen>
+    rdfs:label "struikrozen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterreinplus/vollegrondsteelt>
+    rdfs:label "vollegrondsteelt"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterreinplus/wijngaarden>
+    rdfs:label "wijngaarden"@nl .
+
+# Enumeration: FYSIEKVOORKOMENONBEGROEIDTERREIN
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterrein/erf>
+    rdfs:label "erf"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterrein/gesloten_verharding>
+    rdfs:label "Gesloten verharding"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterrein/half_verhard>
+    rdfs:label "half verhard"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterrein/onverhard>
+    rdfs:label "onverhard"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterrein/open_verharding>
+    rdfs:label "open verharding"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterrein/zand>
+    rdfs:label "zand"@nl .
+
+# Enumeration: FYSIEKVOORKOMENONBEGROEIDTERREINPLUS
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterreinplus/asfalt>
+    rdfs:label "asfalt"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterreinplus/betonelement>
+    rdfs:label "betonelement"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterreinplus/betonstraatstenen>
+    rdfs:label "betonstraatstenen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterreinplus/boomschors>
+    rdfs:label "boomschors"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterreinplus/cementbeton>
+    rdfs:label "cementbeton"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterreinplus/gebakken_klinkers>
+    rdfs:label "gebakken klinkers"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterreinplus/grasklinkers>
+    rdfs:label "grasklinkers"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterreinplus/gravel>
+    rdfs:label "gravel"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterreinplus/grind>
+    rdfs:label "grind"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterreinplus/kunststof>
+    rdfs:label "kunststof"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterreinplus/puin>
+    rdfs:label "puin"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterreinplus/schelpen>
+    rdfs:label "schelpen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterreinplus/sierbestrating>
+    rdfs:label "sierbestrating"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterreinplus/strand_en_strandwal>
+    rdfs:label "strand en strandwal"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterreinplus/tegels>
+    rdfs:label "tegels"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterreinplus/zand>
+    rdfs:label "zand"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterreinplus/zandverstuiving>
+    rdfs:label "zandverstuiving"@nl .
+
+# Enumeration: STATUSGEOOBJECT
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject/bestaand>
+    rdfs:label "bestaand"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject/historie>
+    rdfs:label "historie"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject/plan>
+    rdfs:label "plan"@nl .
+
+# Enumeration: TYPERINGGEBOUWINSTALLATIE
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringgebouwinstallatie/bordes>
+    rdfs:label "bordes"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringgebouwinstallatie/luifel>
+    rdfs:label "luifel"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringgebouwinstallatie/toegangstrap>
+    rdfs:label "toegangstrap"@nl .
+
+# Enumeration: TYPERINGINRICHTINGSELEMENT
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselement/bak>
+    rdfs:label "bak"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselement/bord>
+    rdfs:label "bord"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselement/installatie>
+    rdfs:label "installatie"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselement/kast>
+    rdfs:label "kast"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselement/mast>
+    rdfs:label "mast"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselement/paal>
+    rdfs:label "paal"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselement/put>
+    rdfs:label "put"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselement/sensor>
+    rdfs:label "sensor"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselement/straatmeubilair>
+    rdfs:label "straatmeubilair"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselement/waterinrichtingselement>
+    rdfs:label "waterinrichtingselement"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselement/weginrichtingselement>
+    rdfs:label "weginrichtingselement"@nl .
+
+# Enumeration: TYPERINGINRICHTINGSELEMENTPLUS
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/abri>
+    rdfs:label "abri"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/afsluitpaal>
+    rdfs:label "afsluitpaal"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/afval_aparte_plaats>
+    rdfs:label "afval aparte plaats"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/afvalbak>
+    rdfs:label "afvalbak"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/balustrade>
+    rdfs:label "balustrade"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/bank>
+    rdfs:label "bank"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/benzine_olieput>
+    rdfs:label "benzine- / olieput"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/betaalautomaat>
+    rdfs:label "betaalautomaat"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/betonning>
+    rdfs:label "betonning"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/bloembak>
+    rdfs:label "bloembak"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/bolder>
+    rdfs:label "bolder"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/boomspiegel>
+    rdfs:label "boomspiegel"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/bovenleidingmast>
+    rdfs:label "bovenleidingmast"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/brandkraan_put>
+    rdfs:label "brandkraan / -put"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/brievenbus>
+    rdfs:label "brievenbus"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/cai_kast>
+    rdfs:label "CAI-kast"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/camera>
+    rdfs:label "camera"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/container>
+    rdfs:label "container"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/debietmeter>
+    rdfs:label "debietmeter"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/detectielus>
+    rdfs:label "detectielus"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/dijkpaal>
+    rdfs:label "dijkpaal"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/drainageput>
+    rdfs:label "drainageput"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/drinkbak>
+    rdfs:label "drinkbak"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/drukknoppaal>
+    rdfs:label "drukknoppaal"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/dynamische_snelheidsindicator>
+    rdfs:label "dynamische snelheidsindicator"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/elektrakast>
+    rdfs:label "elektrakast"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/fietsenkluis>
+    rdfs:label "fietsenkluis"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/fietsenrek>
+    rdfs:label "fietsenrek"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/flitser>
+    rdfs:label "flitser"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/fontein>
+    rdfs:label "fontein"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/gaskast>
+    rdfs:label "gaskast"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/gasput>
+    rdfs:label "gasput"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/geleideconstructie>
+    rdfs:label "geleideconstructie"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/geleidewerk>
+    rdfs:label "geleidewerk"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/gms_kast>
+    rdfs:label "GMS kast"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/gms_sensor>
+    rdfs:label "GMS sensor"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/grensmarkering>
+    rdfs:label "grensmarkering"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/haltepaal>
+    rdfs:label "haltepaal"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/hectometerpaal>
+    rdfs:label "hectometerpaal"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/herdenkingsmonument>
+    rdfs:label "herdenkingsmonument"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/hoogtedetectieapparaat>
+    rdfs:label "hoogtedetectieapparaat"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/hoogtemerk>
+    rdfs:label "hoogtemerk"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/informatiebord>
+    rdfs:label "informatiebord"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/inspectie_rioolput>
+    rdfs:label "inspectie- / rioolput"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/kolk>
+    rdfs:label "kolk"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/kunstobject>
+    rdfs:label "kunstobject"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/laagspanningsmast>
+    rdfs:label "laagspanningsmast"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/lichtcel>
+    rdfs:label "lichtcel"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/lichtmast>
+    rdfs:label "lichtmast"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/lichtpunt>
+    rdfs:label "lichtpunt"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/lijnafwatering>
+    rdfs:label "lijnafwatering"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/meerpaal>
+    rdfs:label "meerpaal"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/molgoot>
+    rdfs:label "molgoot"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/openbaar_toilet>
+    rdfs:label "openbaar toilet"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/openbare_verlichtingskast>
+    rdfs:label "openbare verlichtingskast"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/parkeerbeugel>
+    rdfs:label "parkeerbeugel"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/picknicktafel>
+    rdfs:label "picknicktafel"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/plaatsnaambord>
+    rdfs:label "plaatsnaambord"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/poller>
+    rdfs:label "poller"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/pomp>
+    rdfs:label "pomp"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/portaal>
+    rdfs:label "portaal"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/praatpaal>
+    rdfs:label "praatpaal"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/radar_detector>
+    rdfs:label "radar detector"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/radarmast>
+    rdfs:label "radarmast"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/reclamebord>
+    rdfs:label "reclamebord"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/reclamezuil>
+    rdfs:label "reclamezuil"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/remmingswerk>
+    rdfs:label "remmingswerk"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/rioolkast>
+    rdfs:label "rioolkast"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/scheepvaartbord>
+    rdfs:label "scheepvaartbord"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/sirene>
+    rdfs:label "sirene"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/slagboom>
+    rdfs:label "slagboom"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/speelvoorziening>
+    rdfs:label "speelvoorziening"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/straalzender>
+    rdfs:label "straalzender"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/straatnaambord>
+    rdfs:label "straatnaambord"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/telecom_kast>
+    rdfs:label "telecom kast"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/telefooncel>
+    rdfs:label "telefooncel"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/telkast>
+    rdfs:label "telkast"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/telpaal>
+    rdfs:label "telpaal"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/verblindingswering>
+    rdfs:label "verblindingswering"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/verkeersbord>
+    rdfs:label "verkeersbord"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/verkeersbordpaal>
+    rdfs:label "verkeersbordpaal"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/verkeersregelinstallatiekast>
+    rdfs:label "verkeersregelinstallatiekast"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/verkeersregelinstallatiepaal>
+    rdfs:label "verkeersregelinstallatiepaal"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/verklikker_transportleiding>
+    rdfs:label "verklikker transportleiding"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/vlaggenmast>
+    rdfs:label "vlaggenmast"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/vuilvang>
+    rdfs:label "vuilvang"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/waarschuwingshek>
+    rdfs:label "waarschuwingshek"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/waterleidingput>
+    rdfs:label "waterleidingput"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/waterstandmeter>
+    rdfs:label "waterstandmeter"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/weerstation>
+    rdfs:label "weerstation"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/wegmarkering>
+    rdfs:label "wegmarkering"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/wegwijzer>
+    rdfs:label "wegwijzer"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/wildrooster>
+    rdfs:label "wildrooster"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/windmeter>
+    rdfs:label "windmeter"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/zand_zoutbak>
+    rdfs:label "zand- / zoutbak"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/zendmast>
+    rdfs:label "zendmast"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus/zonnepaneel>
+    rdfs:label "zonnepaneel"@nl .
+
+# Enumeration: TYPERINGOVERIGESCHEIDING
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringoverigescheiding/draadraster>
+    rdfs:label "draadraster"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringoverigescheiding/faunaraster>
+    rdfs:label "faunaraster"@nl .
+
+# Enumeration: TYPERINGVEGETATIEOBJECT
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringvegetatieobject/boom>
+    rdfs:label "boom"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringvegetatieobject/haag>
+    rdfs:label "haag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/lod0geometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "772AD202-A31D-409f-A757-8DE022B5635D" ;
+    dct:description "De geometrische representatie van een begroeid terreindeel als multivlak in 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0Geometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie/lod0geometriegebouwinstallatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "DB25DC92-25C0-4216-AAAB-C638AB92DCDB" ;
+    dct:description "De geometrische representatie van een gebouwinstallatie als vlak in 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0GeometrieGebouwinstallatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement/lod0geometrieinrichtingselement> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "2A8E5666-8876-4cde-B523-5F39B8DD336B" ;
+    dct:description "De geometrische representatie van een inrichtingselement als punt, lijn of vlak in 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0GeometrieInrichtingselement"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk/lod0geometrieoverigbouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "2D6CC484-5AFE-45fc-A9E1-B6072837338F" ;
+    dct:description "De geometrische representatie van een overig bouwwerk als punt, lijn of vlak 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0GeometrieOverigBouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/lod0geometrieoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "B33C3D5D-0E6E-402e-A7B6-896B08BD34E5" ;
+    dct:description "De geometrische representatie van een overige scheiding als punt, lijn of vlak in 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0GeometrieOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding/lod0geometriescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "6D07B2D2-ADF1-46a9-A95B-36BF574171B5" ;
+    dct:description "De geometrische representatie van een scheiding als punt, lijn of vlak in 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0GeometrieScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject/lod0geometrievegetatieobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "134BAE4D-B34A-4b3d-BDEF-B02BB75F8838" ;
+    dct:description "De geometrische representatie van een vegetatieobject als punt, lijn of vlak in 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0GeometrieVegetatieobject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk/lod1geometrieoverigbouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "57A99AAE-ACD4-4493-8453-EC7D719EBD52" ;
+    dct:description "De geometrische representatie van een overig bouwwerk in 3D op level of detail 1."@nl ;
+    rdfs:label "LOD1GeometrieOverigBouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/lod1geometrieoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "B77C6C59-DAA0-4000-B826-AEAD98175685" ;
+    dct:description "De geometrische representatie van een overige scheiding in 3D op level of detail 1."@nl ;
+    rdfs:label "LOD1GeometrieOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding/lod1geometriescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "BFFB5484-1C56-4dbe-B42B-9C71E11D97D8" ;
+    dct:description "De geometrische representatie van een scheiding in 3D op level of detail 1."@nl ;
+    rdfs:label "LOD1GeometrieScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk/lod2geometrieoverigbouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "D9F02679-7AC8-4730-B57E-649A06ED9579" ;
+    dct:description "De geometrische representatie van een overig bouwwerk in 3D op level of detail 2."@nl ;
+    rdfs:label "LOD2GeometrieOverigBouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/lod2geometrieoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "70ED0378-ED9C-4978-AF8C-4A6EA27BB1CA" ;
+    dct:description "De geometrische representatie van een overige scheiding in 3D op level of detail 2."@nl ;
+    rdfs:label "LOD2GeometrieOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding/lod2geometriescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "5CE66422-85CE-477d-B2B5-072C607A9881" ;
+    dct:description "De geometrische representatie van een scheiding in 3D op level of detail 2."@nl ;
+    rdfs:label "LOD2GeometrieScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object/datumbegingeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DBB38A52-9A43-4a15-9117-669DF9D852B4" ;
+    rdfs:label "datumBeginGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel/datumbegingeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "782326A2-BC26-4e1b-B67F-5F49F351B112" ;
+    dct:description "De datum waarop het onbegroeid terreindeel is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/datumbegingeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DB92496A-C2E5-42e2-BC32-E52837333090" ;
+    dct:description "De datum waarop het begroeid terreindeel is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied/datumbegingeldigheidfunctioneelgebied> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A3D69C5C-3786-4bb5-9943-62AACF27C123" ;
+    dct:description "De datum waarop het functioneel gebied is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidFunctioneelGebied"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie/datumbegingeldigheidgebouwinstallatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "754CB973-827D-4c03-92BC-73CC4378FA10" ;
+    dct:description "De datum waarop de gebouwinstallatie is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidGebouwinstallatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement/datumbegingeldigheidinrichtingselement> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4906417E-E81C-42a0-8555-2DBA7367A5BB" ;
+    dct:description "De datum waarop het inrichtingselement is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidInrichtingselement"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk/datumbegingeldigheidoverigbouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2A5F377F-088B-464a-BF11-15260E813F8C" ;
+    dct:description "De datum waarop het overig bouwwerk is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidOverigBouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/datumbegingeldigheidoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9BB9E83D-CD79-4a5b-883A-E9728E410E18" ;
+    dct:description "De datum waarop de overige scheiding is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding/datumbegingeldigheidscheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5D6C441D-6B11-4295-810E-BB3F1FA25313" ;
+    dct:description "De datum waarop de scheiding is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject/datumbegingeldigheidvegetatieobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0ED82C2C-96F3-4004-9ED6-79EFD931CDBC" ;
+    dct:description "De datum waarop het vegetatieobject is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidVegetatieobject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/datumeindegeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EB409FAC-92D4-4f9b-BDBA-E17F56F98003" ;
+    dct:description "De datum waarop het begroeid terreindeel ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel/datumeindegeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6BC5D209-0976-4573-991F-5C368E2FE747" ;
+    dct:description "De datum waarop het onbegroeid terreindeel ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object/datumeindegeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9B703F1C-15CC-4395-85B1-72F20C074184" ;
+    rdfs:label "datumEindeGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied/datumeindegeldigheidfunctioneelgebied> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BCE7B03B-E96E-4750-8457-6F2D544734B6" ;
+    dct:description "De datum waarop het functioneel gebied ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidFunctioneelGebied"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie/datumeindegeldigheidgebouwinstallatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D71086E8-A81B-428a-A9F5-098C423CF451" ;
+    dct:description "De datum waarop de gebouwinstallatie ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidGebouwinstallatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement/datumeindegeldigheidinrichtingselement> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EE9EB156-8BAB-46c9-B937-8C64E48BC464" ;
+    dct:description "De datum waarop het inrichtingselement ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidInrichtingselement"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk/datumeindegeldigheidoverigbouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A5A72783-02CD-4e2a-B891-CA17CFB0F2C5" ;
+    dct:description "De datum waarop het overig bouwwerk ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidOverigBouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/datumeindegeldigheidoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C24CA271-88A3-4a75-BDC7-B212B6DD0B7C" ;
+    dct:description "De datum waarop de overige scheiding ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding/datumeindegeldigheidscheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "05272652-8657-4b14-8D5E-BCCFFC07CFC7" ;
+    dct:description "De datum waarop het scheiding ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject/datumeindegeldigheidvegetatieobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A6250647-2723-4619-AB0B-28AD0D904674" ;
+    dct:description "De datum waarop het vegetatieobject ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidVegetatieobject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/fysiekvoorkomen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterrein> ;
+    dct:identifier "E2F89AD4-0F7C-4a00-BE45-6FFD8D911D04" ;
+    dct:description "Classificatie van het vegetatiedek, ingedeeld naar soort vegetatie."@nl ;
+    rdfs:label "fysiekVoorkomen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel/fysiekvoorkomen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterrein> ;
+    dct:identifier "4AE58642-5151-48b2-A96D-F75D6725B5E3" ;
+    dct:description "Classificatie van het soort terrein, ingedeeld naar de uiterlijke verschijningsvorm."@nl ;
+    rdfs:label "fysiekVoorkomen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel/geometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "159C897F-7DD2-49c8-9928-4A6AA2CE4605" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een onbegroeid terreindeel."@nl ;
+    rdfs:label "geometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/geometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "87E470ED-905A-4062-8DD2-4830F390AE76" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een begroeid terreindeel."@nl ;
+    rdfs:label "geometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied/geometriefunctioneelgebied> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "46F8D5C6-FE99-4770-86A8-810E1BE4FA9F" ;
+    dct:description "De tweedimensionale geometrische representatie van de omtrekken van het functioneel gebied."@nl ;
+    rdfs:label "geometrieFunctioneelGebied"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie/geometriegebouwinstallatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "32EF584E-2B2E-4929-A6E5-EE9D2D32C265" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een gebouwinstallatie."@nl ;
+    rdfs:label "geometrieGebouwinstallatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement/geometrieinrichtingselement> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "426FE3C3-423C-44d3-AEE0-00270B6AC471" ;
+    dct:description "De geometrische representatie van een inrichtingselement."@nl ;
+    rdfs:label "geometrieInrichtingselement"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk/geometrieoverigbouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "8549439C-A49F-456c-A149-2AFD9A2188EF" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een overig bouwwerk."@nl ;
+    rdfs:label "geometrieOverigBouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/geometrieoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "A69C2ECF-D47D-41d0-8F6D-FE9292127FBF" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een overige scheiding"@nl ;
+    rdfs:label "geometrieOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding/geometriescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "61890AD1-FAFC-4bb7-AC44-827A26F30004" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een scheiding"@nl ;
+    rdfs:label "geometrieScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object/geometriesoort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "C74D9FF9-3F64-4b9c-8DEF-45EB9DA7CA6A" ;
+    rdfs:label "geometrieSoort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject/geometrievegetatieobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "DDC99691-D4EB-44a8-9F67-43936D0B0A14" ;
+    dct:description "De geometrische representatie van een vegetatieobject als punt, lijn of vlak."@nl ;
+    rdfs:label "geometrieVegetatieobject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "95E06D83-DFB0-44d0-B3A4-1B29F6332C7D" ;
+    dct:description "Een unieke identificatie voor een onbegroeid terreindeel"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E5DE47F4-61AF-4297-B789-BB857F109648" ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2B33176F-FD86-460e-B18E-37B114C7830A" ;
+    dct:description "Een unieke identificatie voor een begroeid terreindeel"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied/identificatiefunctioneelgebied> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied> ;
+    rdfs:range xsd:string ;
+    dct:identifier "615FC188-4144-4716-B745-A7EA6CEA8787" ;
+    dct:description "Een unieke identificatie voor een functioneel gebied."@nl ;
+    rdfs:label "identificatieFunctioneelGebied"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie/identificatiegebouwinstallatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B47DDC83-027D-4d80-B86F-A8FC389F3014" ;
+    dct:description "Een unieke identificatie voor een gebouwinstallatie."@nl ;
+    rdfs:label "identificatieGebouwinstallatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement/identificatieinrichtingselement> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C866C4A0-D914-44fa-BF7D-AF201C5B2C86" ;
+    dct:description "Een unieke identificatie voor een inrichtingselement."@nl ;
+    rdfs:label "identificatieInrichtingselement"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk/identificatieoverigbouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4DD7EF04-28AB-4cab-B86E-325C6BA37D63" ;
+    dct:description "De unieke identificatie van het overig bouwwerk zoals is toegekend in de IMGeo administratie."@nl ;
+    rdfs:label "identificatieOverigBouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/identificatieoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "15115DF0-FC69-4271-A655-31C9C68142DE" ;
+    dct:description "Een unieke identificatie voor een overige scheiding."@nl ;
+    rdfs:label "identificatieOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding/identificatiescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E9A63893-A16F-44b2-8215-4CD5EA9FEAF9" ;
+    dct:description "Een unieke identificatie voor een scheiding."@nl ;
+    rdfs:label "identificatieScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject/identificatievegetatieobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "718FB892-68B7-4adf-A396-EFFAF5B9B858" ;
+    dct:description "Een unieke identificatie voor een vegetatieobject."@nl ;
+    rdfs:label "identificatieVegetatieobject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel/kruinlijngeometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "298C47DC-9CDF-4589-961E-0D308A08B291" ;
+    dct:description "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."@nl ;
+    rdfs:label "kruinlijngeometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/kruinlijngeometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "77FF5087-AB67-41c3-AEE0-76C1C6538AF2" ;
+    dct:description "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."@nl ;
+    rdfs:label "kruinlijngeometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk/lod3geometrieoverigbouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "CC182190-E732-4e00-8F98-5A6312FA893E" ;
+    dct:description "De geometrische representatie van een overig bouwwerk in 3D op level of detail 3."@nl ;
+    rdfs:label "lod3GeometrieOverigBouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/lod3geometrieoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "28CB1B99-3324-4e1a-A749-491B77B6D81C" ;
+    dct:description "De geometrische representatie van een overige scheiding in 3D op level of detail 3."@nl ;
+    rdfs:label "lod3GeometrieOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding/lod3geometriescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "0B52794C-01CD-4b9a-9737-FB01A24DDD16" ;
+    dct:description "De geometrische representatie van een scheiding in 3D op level of detail 3."@nl ;
+    rdfs:label "lod3GeometrieScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied/naamfunctioneelgebied> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5B0814B4-B825-416e-8664-3D0127E43700" ;
+    dct:description "De benaming van het functioneel gebied."@nl ;
+    rdfs:label "naamFunctioneelGebied"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel/onbegroeidterreindeeloptalud> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> ;
+    dct:identifier "2AB7A3A0-E835-4560-9486-4AD3EF26D4EB" ;
+    dct:description "Indicatie of het object wel of niet op een hellend vlak ligt."@nl ;
+    rdfs:label "onbegroeidTerreindeelOpTalud"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/optalud> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> ;
+    dct:identifier "C8B5A686-BBB1-4ee1-A3BA-177E64E86445" ;
+    dct:description "Indicatie of het object wel of niet op een hellend vlak ligt."@nl ;
+    rdfs:label "opTalud"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel/plusfysiekvoorkomen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterreinplus> ;
+    dct:identifier "A9D0C5D4-9039-48c7-B770-D3E231430280" ;
+    dct:description "Nadere classificatie van het soort terrein, ingedeeld naar de uiterlijke verschijningsvorm."@nl ;
+    rdfs:label "plusFysiekVoorkomen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/plusfysiekvoorkomen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterreinplus> ;
+    dct:identifier "8533C7DF-1960-410e-ADDE-7D9DA68A1FCD" ;
+    dct:description "Nadere classificatie van het vegetatiedek, ingedeeld naar soort vegetatie."@nl ;
+    rdfs:label "plusFysiekVoorkomen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement/plustypeinrichtingselement> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus> ;
+    dct:identifier "19BCDF8D-2515-449d-AFC4-F42705FC0C47" ;
+    dct:description "Specificatie van het soort inrichtingselement."@nl ;
+    rdfs:label "plusTypeInrichtingselement"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/relatievehoogteligging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "44D8C1ED-4A4A-4d78-962C-B225656646DA" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het begroeid terreindeel"@nl ;
+    rdfs:label "relatieveHoogteligging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel/relatievehoogteligging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A4A8DA6F-E095-4292-8D9F-52326E5E1B4E" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het onbegroeid terreindeel"@nl ;
+    rdfs:label "relatieveHoogteligging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie/relatievehoogteligginggebouwinstallatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4DB6B5ED-A802-4530-A4FA-8C55E26017E4" ;
+    dct:description "Aanduiding voor de relatieve hoogte van de gebouwinstallatie."@nl ;
+    rdfs:label "relatieveHoogteliggingGebouwinstallatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement/relatievehoogteligginginrichtingselement> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F519AFED-F353-415c-9404-A0698A6847D7" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het inrichtingselement."@nl ;
+    rdfs:label "relatieveHoogteliggingInrichtingselement"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk/relatievehoogteliggingoverigbouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> ;
+    rdfs:range xsd:string ;
+    dct:identifier "74D941DD-9D4F-4f04-917A-E63D2F3DCA57" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het overig bouwwerk."@nl ;
+    rdfs:label "relatieveHoogteliggingOverigBouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/relatievehoogteliggingoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "66963A96-11F9-4da4-9474-B5717651D2DA" ;
+    dct:description "Aanduiding voor de relatieve hoogte van de overige scheiding."@nl ;
+    rdfs:label "relatieveHoogteliggingOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding/relatievehoogteliggingscheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "20D63D8F-037F-4111-B493-8CD4141B72C2" ;
+    dct:description "Aanduiding voor de relatieve hoogte van de scheiding."@nl ;
+    rdfs:label "relatieveHoogteliggingScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject/relatievehoogteliggingvegetatieobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E5A40653-7542-4ca0-ADFF-6DB70013DC4C" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het vegetatieobject"@nl ;
+    rdfs:label "relatieveHoogteliggingVegetatieobject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "DE216C25-2452-4e59-A65F-9F383E2544D5" ;
+    dct:description "De status gekoppeld aan de levenscyclus van het begroeid terreindeel."@nl ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "A701EFAF-129B-47f6-A647-625FCBD592D3" ;
+    dct:description "De status gekoppeld aan de levenscyclus van het onbegroeid terreindeel."@nl ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied/statusfunctioneelgebied> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "F853A34E-C541-4d62-9968-FDA1EBC2835C" ;
+    dct:description "De status gekoppeld aan de levenscyclus van het functioneel gebied."@nl ;
+    rdfs:label "statusFunctioneelGebied"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie/statusgebouwinstallatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "33EA2FAD-99A6-4755-976E-C3ADBCD3F5AF" ;
+    dct:description "De status gekoppeld aan de levenscyclus van de gebouwinstallatie."@nl ;
+    rdfs:label "statusGebouwinstallatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement/statusinrichtingselement> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "5E045283-1808-49c0-AEBB-BA41EFF06669" ;
+    dct:description "De status gekoppeld aan de levenscyclus van een inrichtingselement."@nl ;
+    rdfs:label "statusInrichtingselement"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk/statusoverigbouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "9B430C7A-137D-4332-AF84-18323DE935AA" ;
+    dct:description "De status gekoppeld aan de levenscyclus van het overig bouwwerk object"@nl ;
+    rdfs:label "statusOverigBouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/statusoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "319F6A03-307C-43dc-A013-8A1EEE3549FA" ;
+    dct:description "De status gekoppeld aan de levenscyclus van de overige scheiding."@nl ;
+    rdfs:label "statusOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding/statusscheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "94F07EDF-BCC6-4326-B29D-1FAE74D224AB" ;
+    dct:description "De status gekoppeld aan de levenscyclus van de scheiding."@nl ;
+    rdfs:label "statusScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject/statusvegetatieobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "C14289B3-AB85-4323-A1AC-2322CE288438" ;
+    dct:description "De status gekoppeld aan de levenscyclus van he vegetatieobject."@nl ;
+    rdfs:label "statusVegetatieobject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie/typegebouwinstallatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringgebouwinstallatie> ;
+    dct:identifier "138C92E8-36C5-49e8-A463-17A1B409595A" ;
+    dct:description "Specificatie van het soort gebouwinstallatie."@nl ;
+    rdfs:label "typeGebouwinstallatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement/typeinrichtingselement> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselement> ;
+    dct:identifier "72FF19B2-0473-418e-A582-EFEAED4410F0" ;
+    dct:description "Specificatie van de aard van het inrichtingselement."@nl ;
+    rdfs:label "typeInrichtingselement"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/typeoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringoverigescheiding> ;
+    dct:identifier "C3ACF502-F201-4ec9-9993-E0301B09E9CB" ;
+    dct:description "Specificatie van het soort overige scheiding."@nl ;
+    rdfs:label "typeOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject/typevegetatieobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringvegetatieobject> ;
+    dct:identifier "82EE7F79-7BF1-4034-8538-1479ACA349AA" ;
+    dct:description "De specificatie van het soort vrijstaand vegetatieobject."@nl ;
+    rdfs:label "typeVegetatieobject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .

@@ -1,0 +1,434 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/brede_handhaving>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/boa> a owl:Class ;
+    rdfs:label "BOA"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een buitengewoon opsporingsambtenaar (boa) is een ambtenaar met een specifieke opsporingsbevoegdheid."@nl ;
+    dct:identifier "90B2A249-8D88-4a14-979F-672223D98E8C" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/combibon> a owl:Class ;
+    rdfs:label "Combibon"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Combibon is een modelformulier dat handhavende ambtenaren gebruiken om geconstateerde overtredingen en de gekozen afdoeningsmodaliteit (bijv. bekeuring of strafbeschikking) vast te leggen."@nl ;
+    dct:identifier "43D57BB8-C2E4-4b5a-A41C-C5CEC9D3877D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/fietsregistratie> a owl:Class ;
+    rdfs:label "Fietsregistratie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Adminstreren van fietsen"@nl ;
+    dct:identifier "FF9A4A36-6674-4590-BC33-7B6DC5256490" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> a owl:Class ;
+    rdfs:label "VTH-Melding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Melding met betrekking tot Vergunningen, Toezicht en Handhaving"@nl ;
+    dct:identifier "E9AEF0A9-11BC-4d2a-BC48-FB77F04EF9A6" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/waarneming> a owl:Class ;
+    rdfs:label "Waarneming"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Handhavende taak in het kader van VTH"@nl ;
+    dct:identifier "DDC990BC-C026-4c98-BEE5-6692EA0C2515" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> a owl:Class ;
+    rdfs:label "AanvraagOfMelding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Komt overeen met een VJV Bron: GEM_VJV (Distinct op REQ_ID) ID: REQ_ID"@nl ;
+    dct:identifier "8E6BAEF8-1878-400f-9244-23575BD41EAB" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto> a owl:Class ;
+    rdfs:label "Foto"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Afbeelding op een plat vlak vervaardigd door middel van fotografie"@nl ;
+    dct:identifier "7FE4B466-B051-4068-9ED1-6E60C3B2DBAD" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object> a owl:Class ;
+    rdfs:label "Object"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Het OBJECT waarop een ZAAK betrekking kan hebben zijnde één of meer voorkomens van de in het RSGB en het RGBZ onderscheiden objecttypen."@nl ;
+    dct:identifier "91F9D39E-0322-42c6-AE7F-5027B36F3EC3" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/beoordelingsoort> a owl:Class ;
+    rdfs:label "Beoordelingsoort"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "3B4D2D66-B801-42a8-A3FB-CC4A29FF8320" .
+
+# Enumeration: BEOORDELINGSOORT
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/beoordelingsoort/niet_oke>
+    rdfs:label "Niet Oke"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/beoordelingsoort/niet_relevant>
+    rdfs:label "Niet Relevant"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/beoordelingsoort/oke>
+    rdfs:label "Oke"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding/activiteit> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "19DFA6CD-19D3-4ce0-A217-86460FDAAD65" ;
+    rdfs:label "activiteit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object/adresbinnenland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6EDA0027-C339-409b-8074-868049945E06" ;
+    dct:description "De aanduiding van het adres van het OBJECT indien dit adres in Nederland gelegen is."@nl ;
+    rdfs:label "adresBinnenland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object/adresbuitenland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "ACCB6EC2-C40B-471f-BE6E-2FA826B0B977" ;
+    dct:description "De aanduiding van het adres waar specialisaties van het OBJECT zijnde een SUBJECT dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland."@nl ;
+    rdfs:label "adresBuitenland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/afgehandeld> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "AC248AAD-192D-40e3-B2C3-107CBA34CB21" ;
+    rdfs:label "afgehandeld"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding/beoordeling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/beoordelingsoort> ;
+    dct:identifier "451A2A9F-487D-4845-AC29-9DD67BA99A15" ;
+    rdfs:label "beoordeling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/bestandsgrootte> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "1C984BE6-7A98-4035-87EE-7BE0B46D60F3" ;
+    dct:description "Bestandsgrootte in bytes"@nl ;
+    rdfs:label "bestandsgrootte"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/bestandsnaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C73265E0-FDD8-4395-B415-FDA308170C29" ;
+    rdfs:label "bestandsnaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/bestandstype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AE808154-29AC-4ccd-A660-B83E02BBF5FD" ;
+    rdfs:label "bestandstype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "70BB6DC2-EA35-451f-A307-0DCE9F6C1341" ;
+    rdfs:label "categorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categoriecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E6803836-B435-454b-BFF2-EC300A1E160A" ;
+    rdfs:label "categoriecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumaanmaak> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D6A1055B-7FFE-4e0e-9D51-7BCB34BC902E" ;
+    rdfs:label "datumAanmaak"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumafhandeling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "11348F20-D423-473f-B6E8-3197F6634F91" ;
+    rdfs:label "datumAfhandeling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumbeginstatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "386AAA3D-8C77-4be7-84DC-C221439D58C6" ;
+    rdfs:label "datumBeginStatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeindestatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "214166B2-C303-49f3-A008-648E47E58D65" ;
+    rdfs:label "datumEindeStatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding/datumseponering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "F6192158-62C4-4952-B2C7-BC8FE790E0A3" ;
+    rdfs:label "datumSeponering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/datumtijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "42FCED71-6F75-4c2b-9702-A1745F0225A3" ;
+    rdfs:label "datumtijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding/datumtijdtot> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "7FB40969-92E7-4e2a-8840-B9A31682DC76" ;
+    rdfs:label "datumtijdTot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object/domein> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B291A568-6A53-4406-9D25-DB246ED309E4" ;
+    dct:description "Het toepassingsgebied of de sector DOMEIN waarbinnen handhaving op het object plaatsvindt"@nl ;
+    rdfs:label "domein"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/fietsregistratie/gelabeld> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/fietsregistratie> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "4A44129A-E8E9-4513-BA05-D753352A229E" ;
+    rdfs:label "gelabeld"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object/geometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "304BC3DE-C85F-4ba0-9DD4-9B728BFEC683" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van het OBJECT."@nl ;
+    rdfs:label "geometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding/geseponeerd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "8595B627-230B-410d-90FF-F27768D60022" ;
+    rdfs:label "geseponeerd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "59BA1A2C-9DA8-4258-8668-F2B35AF57DD8" ;
+    rdfs:label "hoofdcategorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategoriecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5DC7B481-6724-4769-B6D3-B4AC0B578177" ;
+    rdfs:label "hoofdcategoriecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5DEDC77B-B226-4066-8F66-F3AF4C7DF322" ;
+    dct:description "De unieke identificatie van het OBJECT"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8DD9E909-55C1-45d8-8B02-F174324A6E5C" ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object/indicatierisico> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "16CEF89F-7860-485d-977B-41B0B5ACE7E0" ;
+    dct:description "Indicatie van de risico's van (de uitvoering van activiteiten in) het handhavingsobject op gevolgen voor het handhavingsobject zelf, de daarin aanwezige personen, de omgeving van het handhavingsobject en/of de samenleving."@nl ;
+    rdfs:label "indicatieRisico"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object/kadastraleaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CA61EE89-9AC3-469b-B10E-3655E4B9F73E" ;
+    dct:description "De kadastrale aanduiding van het OBJECT"@nl ;
+    rdfs:label "kadastraleAanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/kanaal> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "32B1052C-88E9-498e-86F6-AF5B340D1132" ;
+    rdfs:label "kanaal"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding/locatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "84C5B413-B592-4deb-B4EB-5EA2755B1977" ;
+    rdfs:label "locatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/locatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E940C72E-D575-4bb2-9954-8D482DE286C6" ;
+    rdfs:label "locatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3A5FE771-F110-440c-B469-47D993BB6C85" ;
+    dct:description "De benaming van het OBJECT indien dit een SUBJECT of specialisatie daarvan is."@nl ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object/objecttype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3E9763FA-E158-4e08-99A6-735E61E2247A" ;
+    dct:description "Het onderscheid van een OBJECT naar haar specialisatiies. De code voor de Objecttypering gevolgd door de unieke aanduiding van de specialisatie (van OBJECT): ADRESSEERBAAR OBJECT AANDUIDING, BENOEMD OBJECT, BESLUIT, BUURT, ENKELVOUDIG INFORMATIEOBJECT, GEMEENTE, GEMEENTELIJKE OPENBARE RUIMTE, HUISHOUDEN, INRICHTINGSELEMENT, KADASTRALE ONROERENDE ZAAK, KUNSTWERKDEEL, MAATSSCHAPPELIJKE ACTIVITEIT, MEDEWERKER, OPENBARE RUIMTE, SAMENGESTELD INFORMATIEOBJECT, ORGANISATORISCHE EENHEID, PAND, SPOORBAANDEEL, STATUS, SUBJECT, TERREINDEEL, WATERDEEL, WEGDEEL, WIJK, WOONPLAATS, WOZ- DEELOBJECT, WOZ-OBJECT, WOZ-WAARDE of ZAKELIJK RECHT (of afleidbare identificatie)."@nl ;
+    rdfs:label "objecttype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerp> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6D92FCD5-F8C8-41c7-A524-0102186ED5E2" ;
+    rdfs:label "onderwerp"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerpcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3A678FBE-3890-41b5-9E6B-9C9C0A59E8D8" ;
+    rdfs:label "onderwerpcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding/organisatieonderdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0AB0BD21-D1E6-4de1-AD68-C8D18120E394" ;
+    rdfs:label "organisatieonderdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding/overtredingscode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "62F66169-96B9-468a-AC67-AA0B332775DD" ;
+    rdfs:label "overtredingscode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding/overtredingsgroep> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "41CEDD94-4E05-40ac-AA3B-AFDA68973CCD" ;
+    rdfs:label "overtredingsgroep"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/pixelsx> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "496C79A7-0BB7-4488-957F-5F641632C07A" ;
+    rdfs:label "pixelsX"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/pixelsy> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "DFCE5483-A58F-4591-92C0-3E2BD7276FF6" ;
+    rdfs:label "pixelsY"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding/referentienummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E3FFEB71-B471-4469-8585-9FA9598A7AE2" ;
+    rdfs:label "referentienummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding/resultaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C3FFC6ED-4274-462a-AA14-09CC6AC87668" ;
+    rdfs:label "resultaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/combibon/sanctie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/combibon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A5A68799-D9E8-493b-8693-21C369295C50" ;
+    rdfs:label "sanctie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/soort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "812E18D0-9678-4b27-ACFF-9C8D774CD8C1" ;
+    dct:description "Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding...."@nl ;
+    rdfs:label "soort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding/soortvthmelding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6B89FF55-AE95-4122-B1F7-56DF3F6A719A" ;
+    rdfs:label "soortVTHMelding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E5274E49-1775-4b24-B45E-366A77511B7E" ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0C1D1DFC-8476-492b-A828-42AE79DACA5D" ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statusvolgorde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A313E848-F5A4-4b9f-B8EA-479435ACC1BF" ;
+    rdfs:label "statusVolgorde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statuscode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A8DEE2BF-1051-4f4c-89FD-DD4E8A8714E3" ;
+    rdfs:label "statuscode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding/straatnaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1A828FE6-95DD-4174-A913-36F315FA2232" ;
+    rdfs:label "straatnaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "61C0AE53-1473-483b-84F9-FC173AD4D5FB" ;
+    rdfs:label "subcategorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategoriecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BBFFE25E-9DFA-4ac2-AAA7-48104E0ADD60" ;
+    rdfs:label "subcategoriecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding/taaktype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "10CF92E8-7EC5-4b1d-BDF9-5C9B1AE7216B" ;
+    rdfs:label "taaktype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object/toelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7EFAD120-1653-4c6c-8727-CAA817673F32" ;
+    rdfs:label "toelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/fietsregistratie/verwijderd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/fietsregistratie> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "E6508314-4459-4834-A47F-E8146CF144B2" ;
+    rdfs:label "verwijderd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding/zaaknummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "68A9F1D4-6AD4-46a3-9FB2-08EA7A8A44B4" ;
+    rdfs:label "zaaknummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/waarneming> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/object> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/fietsregistratie> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/combibon> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/boa/verbalisant> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/boa> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/veiligheid_en_vergunningen/vth_melding> ;
+    rdfs:label "verbalisant"@nl .

@@ -1,0 +1,168 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/diagram_domeinen_pdc_en_zaken>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/dienst> a owl:Class ;
+    rdfs:label "Dienst"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Het uitvoeren van werkzaamheden met een continu of periodiek karakter om waarde te realiseren voor een afnemer."@nl ;
+    dct:identifier "45AFD4E2-9909-4c33-93CE-F2466B85CA0F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/domein_taakveld> a owl:Class ;
+    rdfs:label "Domein/Taakveld"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Kennisgebied of activiteit gekarakteriseerd door een verzameling van concepten, begrippen en/of waarden"@nl ;
+    dct:identifier "BEFEC56A-EF6C-49f0-9368-7E46F75D9562" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/onderwerp> a owl:Class ;
+    rdfs:label "Onderwerp"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Op de meest karakteristieke elementen gebaseerde en in woord of eenvoudige zinstructuur samengevatte aanduiding van de inhoud van een document"@nl ;
+    dct:identifier "2AA9DB3B-D79C-490d-8776-DA1CB25E9B09" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/prijzenboek> a owl:Class ;
+    rdfs:label "Prijzenboek"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Beschrijving van gangbare onderhoudsactiviteiten met de bijbehorende, actuele prijzen en normen voor de uitvoering."@nl ;
+    dct:identifier "F1489610-1E50-4328-8CD8-F41E9CE0C0D8" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/product> a owl:Class ;
+    rdfs:label "Product"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Het resultaat van een proces dat in het economisch verkeer een waarde bezit."@nl ;
+    dct:identifier "D5DD2F67-6A1F-46b0-972E-795ECC4B2E4F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> a owl:Class ;
+    rdfs:label "Zaaktype"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Generieke aanduiding van de aard van een zaak"@nl ;
+    dct:identifier "7210A379-17EE-4143-A106-ECD9414B2A0D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/archiefcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EA3C4D9F-1F0E-42bb-AF6C-468862470DEA" ;
+    dct:description "De systematische identificatie van zaakdossiers van dit ZAAKTYPE overeenkomstig logisch gestructureerde conventies, methoden en procedureregels."@nl ;
+    rdfs:label "archiefcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/datumbegingeldigheidzaaktype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "18396FA2-8AF3-4690-9F6D-30A688A9859B" ;
+    dct:description "De datum waarop het ZAAKTYPE is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidZaaktype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/datumeindegeldigheidzaaktype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CD96679E-7E9B-4ae4-B47B-AFEDB831F847" ;
+    dct:description "De datum waarop het ZAAKTYPE is opgeheven."@nl ;
+    rdfs:label "datumEindeGeldigheidZaaktype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/doorlooptijdbehandeling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7FC0FD86-BD22-4080-814C-E17637DC8605" ;
+    dct:description "De periode waarbinnen volgens wet- en regelgeving een ZAAk van het ZAAKTYPE afgerond dient te zijn."@nl ;
+    rdfs:label "doorlooptijdBehandeling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/indicatiepublicatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0F36D8CC-8F45-4e89-9A49-795AAF96EA04" ;
+    dct:description "Aanduiding of (het starten van) een ZAAK van dit ZAAKTYPE gepubliceerd moet worden."@nl ;
+    rdfs:label "indicatiePublicatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/publicatietekst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E7C21283-8D81-4da2-A284-3E0F6E76788C" ;
+    dct:description "De generieke tekst van de publicatie van ZAAKen van dit ZAAKTYPE"@nl ;
+    rdfs:label "publicatietekst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/servicenormbehandeling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "43E2E9F2-6A2C-44e0-A5B1-CEC8325D9C1F" ;
+    dct:description "De periode waarbinnen verwacht wordt dat een ZAAk van het ZAAKTYPE afgerond wordt coform de geldende servicenormen van de zaakbehandelende organisatie(s)."@nl ;
+    rdfs:label "servicenormBehandeling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/trefwoord> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A0C90878-FDB3-4f79-99E8-F99309D1D4E6" ;
+    dct:description "Een trefwoord waarmee ZAAKen van het ZAAKTYPE kunnen worden gekarakteriseerd."@nl ;
+    rdfs:label "trefwoord"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/vertrouwelijkaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7AA3DD6A-2FBC-4873-9B86-C80E9F87CDF8" ;
+    dct:description "Aanduiding van de mate waarin zaakdossiers van ZAAKen van dit ZAAKTYPE voor de openbaarheid bestemd zijn."@nl ;
+    rdfs:label "vertrouwelijkAanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/zaakcategorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1706776B-9325-44fb-84CB-F0637097EAC3" ;
+    dct:description "Typering van de aard van ZAAKen van het ZAAKTYPE."@nl ;
+    rdfs:label "zaakcategorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/zaaktypeomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "189BD3BF-9167-4891-B937-73EBAAB53BD1" ;
+    dct:description "Omschrijving van de aard van ZAAKen van het ZAAKTYPE."@nl ;
+    rdfs:label "zaaktypeOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype/zaaktypeomschrijvinggeneriek> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8AC6178D-D605-4238-A0FE-5C5E40A12B60" ;
+    dct:description "Algemeen gehanteerde omschrijving van de aard van ZAAKen van het ZAAKTYPE"@nl ;
+    rdfs:label "zaaktypeOmschrijvingGeneriek"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/product/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/product> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/prijzenboek/heeft_prijs> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/prijzenboek> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/product> ;
+    rdfs:label "heeft prijs"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/domein_taakveld/valt_binnen> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/domein_taakveld> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/product> ;
+    rdfs:label "valt binnen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/domein_taakveld/valt_binnen> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/domein_taakveld> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/onderwerp> ;
+    rdfs:label "valt binnen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/dienst/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/dienst> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/product> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/dienst/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/dienst> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/onderwerp> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/dienst/start> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/dienst> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/zaaktype> ;
+    rdfs:label "start"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/dienst/valt_binnen> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/dienst> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/ict/domein_taakveld> ;
+    rdfs:label "valt binnen"@nl .

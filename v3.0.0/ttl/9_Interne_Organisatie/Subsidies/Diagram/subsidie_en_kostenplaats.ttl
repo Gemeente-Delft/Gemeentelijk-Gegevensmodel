@@ -1,0 +1,352 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie_en_kostenplaats>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/betaalmoment> a owl:Class ;
+    rdfs:label "Betaalmoment"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Moment waarop er een bepaald deel van de subsidie betaald moet worden."@nl ;
+    dct:identifier "E403A215-A367-4eef-8716-075AF54388D0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> a owl:Class ;
+    rdfs:label "Subsidie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Aan derden toegekende financiele middelen, bestemd voor het uitvoeren van bepaalde activiteiten"@nl ;
+    dct:identifier "FD701A55-6865-44aa-9A73-C46E02481796" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiecomponent> a owl:Class ;
+    rdfs:label "Subsidiecomponent"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Onderdeel van een subisidie met een eigen kostenplaats."@nl ;
+    dct:identifier "DB093A73-BE89-462b-8FBA-19B2629072ED" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma> a owl:Class ;
+    rdfs:label "Subsidieprogramma"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Programma waarin meerdere subsidies worden verleend vanuit een bepaalde samenhang"@nl ;
+    dct:identifier "8F1A719D-C89A-4194-8FF4-1F3E0F174D3D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> a owl:Class ;
+    rdfs:label "Kostenplaats"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven."@nl ;
+    dct:identifier "D90E822D-7EF8-4ea6-AF5C-4A4362577941" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie> a owl:Class ;
+    rdfs:label "Mutatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Wijziging van een situatie"@nl ;
+    dct:identifier "CB0A6B53-D263-459e-8C28-AD97E5552FFF" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/btwcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9D7D98E8-08E8-45c9-8356-F3D2464C2C91" ;
+    rdfs:label "BTWCode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/btwomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0D24CB15-7D1B-4c27-AA12-2EC8C596A099" ;
+    rdfs:label "BTWOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/accountantscontrole> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "B8ED7D22-918D-4835-807B-B8EEB9D4B334" ;
+    rdfs:label "accountantscontrole"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/betaalmoment/bedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/betaalmoment> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "A7FD5BC6-DBAF-4413-8DBB-08E873748AD2" ;
+    rdfs:label "bedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie/bedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "46973899-E826-43f6-A20F-66F0B7D64518" ;
+    rdfs:label "bedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/cofinanciering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CE4D711B-45C9-4856-B374-255F1FBE2751" ;
+    rdfs:label "coFinanciering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie/datum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "9572E927-60DE-4ade-B4CF-511FA67E553D" ;
+    rdfs:label "datum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/betaalmoment/datum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/betaalmoment> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2046D830-D90B-4d4d-87B4-3AAC297E261D" ;
+    rdfs:label "datum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/datumbehandeltermijn> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "14E302B1-B7C9-48b7-8BA3-870D491736E6" ;
+    rdfs:label "datumBehandeltermijn"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/datumbewaartermijn> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "41600117-C42E-4cd1-B4C3-236DBDA76BD7" ;
+    rdfs:label "datumBewaartermijn"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma> ;
+    rdfs:range xsd:date ;
+    dct:identifier "22AAB700-1306-443a-B768-247CD0639A46" ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "24B8A578-BDC8-42d5-947F-4663B0E9266A" ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma/datumstart> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma> ;
+    rdfs:range xsd:date ;
+    dct:identifier "4F573BBA-FB46-49b4-9A9A-ECD4C7FA63DD" ;
+    rdfs:label "datumStart"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/datumstart> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "072EB263-E656-4fe0-BC67-2910D7F07317" ;
+    rdfs:label "datumStart"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/datumsubsidievaststelling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D4919303-FD26-42b0-954F-3FB09D6AB9EE" ;
+    rdfs:label "datumSubsidievaststelling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/datumverzendingeindeafrekening> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D7903486-EA31-404d-B2B9-631DA63DD3BB" ;
+    rdfs:label "datumVerzendingEindeafrekening"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/deadlineindiening> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "05FDCBCA-0BAE-4a43-A374-B662B94408C8" ;
+    rdfs:label "deadlineIndiening"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/doelstelling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "36963E27-D251-4ca2-ACE7-177764A60D2D" ;
+    rdfs:label "doelstelling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/gerealiseerdeprojectkosten> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "1538451F-8A9B-404d-B995-F5089CA4A53F" ;
+    rdfs:label "gerealiseerdeProjectkosten"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiecomponent/gereserveerdbedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiecomponent> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "0486A079-408F-4e3b-9A00-8B8E403C5E6B" ;
+    rdfs:label "gereserveerdBedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/hoogtesubsidie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0964DC9B-6FA6-486a-934E-639A7E0D15F7" ;
+    rdfs:label "hoogteSubsidie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/kostenplaatssoortcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "DCE6B912-D2FC-4423-8B0E-56EEE769D6A3" ;
+    rdfs:label "kostenplaatssoortCode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/kostenplaatssoortomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "1F6364ED-FFA9-4c8b-8191-788C76B4E943" ;
+    rdfs:label "kostenplaatssoortOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/kostenplaatstypecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "AB200DBB-A697-4dcd-8077-C7F0C25380F5" ;
+    rdfs:label "kostenplaatstypeCode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/kostenplaatstypeomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "E07EE47E-E183-4654-887A-7E6FD0B17219" ;
+    rdfs:label "kostenplaatstypeOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma> ;
+    rdfs:range xsd:string ;
+    dct:identifier "61BBFC19-D117-452b-845E-44032C7EF713" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6F38439B-23A4-4dd3-9C4E-F6B6E57027BF" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/niveau> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieniveau> ;
+    dct:identifier "5589F4A4-46AB-475b-88FE-4C0079E28B46" ;
+    rdfs:label "niveau"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C099E5FE-6128-4dd1-BB8C-EDC3A713FCE6" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9DB35FBA-DC20-439a-8DC5-6488438E4DE1" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/onderwerp> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1D0EF8E2-C95D-43bd-9A77-E045EED5C5F9" ;
+    rdfs:label "onderwerp"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/ontvangenbedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "DA571385-CF64-4cfa-A790-673286B142DA" ;
+    rdfs:label "ontvangenBedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/opmerkingen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7C75F8F0-8433-4516-9D80-0FEAF0F6B80A" ;
+    rdfs:label "opmerkingen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/opmerkingenvoorschotten> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "69461BEC-F4EA-457a-98EF-574236FAC2C7" ;
+    rdfs:label "opmerkingenVoorschotten"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/prestatiesubsidie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "9E2BDAC6-4E69-4c36-9FC9-880185447D62" ;
+    dct:description "Als Nee dan is het een stimuleringssubsidie Alleen bij uitgaande subsidies, anders NULL!"@nl ;
+    rdfs:label "prestatiesubsidie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma/programmabegroting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C9EDC05D-7479-4637-8C53-DF2CC553ED69" ;
+    rdfs:label "programmabegroting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/socialreturnbedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "72C50385-5D0E-46e6-8B56-9A93FD61BE1A" ;
+    rdfs:label "socialReturnBedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/socialreturnnagekomen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "45FCC9C7-A6D1-43d1-9EF5-FAB9CB86864F" ;
+    rdfs:label "socialReturnNagekomen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/socialreturnverplichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "E802FF26-0222-45b7-A552-9D29C716D2EA" ;
+    rdfs:label "socialReturnVerplichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FAF06DD6-3C57-490b-B67D-A68339AC7606" ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/subsidiebedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "87B2B630-9852-4dc2-AEE5-112C326BC0E7" ;
+    rdfs:label "subsidiebedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/subsidiesoort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E826A298-97A3-4d85-A96F-922A5C81A8A3" ;
+    rdfs:label "subsidiesoort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/subsidievaststellingbedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "88E60FE0-8069-4ca6-BFBA-9F6730DAB750" ;
+    rdfs:label "subsidievaststellingBedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiecomponent/toegekendbedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiecomponent> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "576920EB-CAFC-40fd-B597-46A724255C0C" ;
+    rdfs:label "toegekendBedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/uitgaandesubsidie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "839E173C-B038-43e2-9593-86B8E93400FE" ;
+    rdfs:label "uitgaandeSubsidie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/verantwoordenop> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range xsd:date ;
+    dct:identifier "145C79D9-4556-491d-AB42-68DF75F07318" ;
+    rdfs:label "verantwoordenOp"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/betaalmoment/voorschot> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/betaalmoment> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "2CB67A45-90D7-4503-9CD8-F88C2C659AFE" ;
+    rdfs:label "voorschot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie/heeft_betrekking_op> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/mutatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:label "heeft betrekking op"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiecomponent/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiecomponent> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma/gaat_over> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidieprogramma> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:label "gaat over"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiecomponent/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/subsidiecomponent> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/subsidies/betaalmoment> ;
+    rdfs:label "heeft"@nl .

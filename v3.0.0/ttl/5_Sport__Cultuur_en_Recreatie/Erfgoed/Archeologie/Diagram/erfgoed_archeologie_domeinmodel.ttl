@@ -1,0 +1,1029 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/erfgoed_archeologie_domeinmodel>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/archeologiebesluit> a owl:Class ;
+    rdfs:label "Archeologiebesluit"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een professioneel oordeel dat gebaseerd is op algemeen aanvaarde wetenschap ten aanzien van de archeologie"@nl ;
+    dct:identifier "836E51BF-65E9-4482-B555-C9AB737D264D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> a owl:Class ;
+    rdfs:label "Artefact"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De benaming voor ieder verplaatsbaar object dat door de mens is vervaardigd, bewerkt en/of gebruikt."@nl ;
+    dct:identifier "2C230EE7-036D-48be-B82A-FF45598170F7" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefactsoort> a owl:Class ;
+    rdfs:label "Artefactsoort"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Typering van artefacten"@nl ;
+    dct:identifier "67CF25EB-EBB0-4185-8171-1F9DD3B5D212" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/boring> a owl:Class ;
+    rdfs:label "boring"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een verticale grondmonstername binnen een project De gegevens over het geheel van activiteiten, voor zover relevant voor het onderzoek, dat tot doel heeft door boren een gat in de ondergrond te maken om monsters uit de ondergrond te nemen en/of metingen aan de ondergrond te doen. Een middel om door boren of steken toegang te krijgen tot de ondergrond om bijvoorbeeld geroerde en/of ongeroerde monsters aan de ondergrond te ontlenen voor nader onderzoek."@nl ;
+    dct:identifier "E11FDCA7-7538-4353-83FF-72164D928452" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/doos> a owl:Class ;
+    rdfs:label "Doos"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een afsluitbaar object waar iets in wordt opgeborgen of verpakt."@nl ;
+    dct:identifier "703CAFCF-FDC0-4861-AA76-1692303DE7BE" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/kaart> a owl:Class ;
+    rdfs:label "Kaart"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De geografische weergave van een gedeelte van het aardoppervlak"@nl ;
+    dct:identifier "F28DDE36-7BE4-45f7-A820-FFF0261CAA4E" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/locatie> a owl:Class ;
+    rdfs:label "locatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een specifieke plaats"@nl ;
+    dct:identifier "F25EE5A8-2CF4-498b-8DAD-8EEE48FAF3A5" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnlocatie> a owl:Class ;
+    rdfs:label "Magazijnlocatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Locatie van een magazijn"@nl ;
+    dct:identifier "4C1543FD-250B-4291-9B23-BC9D3D9C0C4A" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing> a owl:Class ;
+    rdfs:label "Magazijnplaatsing"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Het ergens neerzetten van een object in een magazijn."@nl ;
+    dct:identifier "F954FB72-AE88-4a0e-A3D8-555FCF8D9C9F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project> a owl:Class ;
+    rdfs:label "Project"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Geheel van activiteiten uitgevoerd in een tijdelijk samenwerkingsverband gericht op het binnen bepaalde randvoorwaarden (bv. tijd, geld) bereiken van een vooraf gedefinieerd resultaat."@nl ;
+    dct:identifier "E42A32F7-262F-4005-9EB9-4674B76E8825" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/put> a owl:Class ;
+    rdfs:label "Put"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Grondspoor, veelal verstevigd en gefundeerd aangelegd, bedoeld voor de tijdelijke opslag van danwel water (waterput) danwel uitwerpselen en afval (beerput)."@nl ;
+    dct:identifier "17286CE1-21F2-454b-95A6-3E4C0C6E2453" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor> a owl:Class ;
+    rdfs:label "Spoor"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een blijk van eerdere aanwezigheid."@nl ;
+    dct:identifier "14939C33-2DCE-41bf-A2BE-FF1EDD292FE7" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/stelling> a owl:Class ;
+    rdfs:label "Stelling"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een systeem om goederen op te slaan die worden vervoerd en opgeslagen op pallets, in bundels of per stuk.(Wikipedia)"@nl ;
+    dct:identifier "382D408F-41A3-49d2-9F66-DFFA6C75590D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats> a owl:Class ;
+    rdfs:label "Vindplaats"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een plek waar men iets gevonden heeft."@nl ;
+    dct:identifier "84DED9A9-2D33-4a77-94F2-29657024590F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vlak> a owl:Class ;
+    rdfs:label "Vlak"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Plat, oneindig oppervlak of variëteit zonder enige kromming."@nl ;
+    dct:identifier "0644BD52-8C2B-462d-94B9-9C99908952F5" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst> a owl:Class ;
+    rdfs:label "Vondst"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Overblijfsel, voorwerp of ander spoor van menselijke aanwezigheid in het verleden afkomstig van een archeologisch monument"@nl ;
+    dct:identifier "F8283401-70F8-41b8-A97C-32A9074AD4B1" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling> a owl:Class ;
+    rdfs:label "Vulling"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Dunne wegeringsplank gebruikt om de ruimte tussen de bovenste kimweger en de onderste balkweger op te vullen (Sopers, 1974)."@nl ;
+    dct:identifier "8417459E-2193-44a2-A1AC-38C39EA93CBF" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> a owl:Class ;
+    rdfs:label "Document"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
+    dct:identifier "5641C50A-C0FA-4e71-B07B-26C7B1CE94ED" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst/xcoordinaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "8AFBC68D-AE63-47ac-9434-ED6876315415" ;
+    rdfs:label "XCoordinaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst/ycoordinaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "42513958-1418-4239-8171-426FF23B6686" ;
+    rdfs:label "YCoordinaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor/aard> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor> ;
+    rdfs:range xsd:string ;
+    dct:identifier "075E60BD-A003-4dd5-8B62-D9EEDB185C69" ;
+    rdfs:label "aard"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats/aard> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "382F5736-5111-4d49-B0D6-C97261F637B3" ;
+    rdfs:label "aard"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/artefectnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "148E5EDE-51BA-4952-8267-4AD574352CD5" ;
+    rdfs:label "artefectnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats/begindatering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B4CB60E6-6F1C-4fb0-BDBC-93DFD6838B02" ;
+    rdfs:label "begindatering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/beschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0E597CE2-24A5-4dd0-9D95-84E9D6D2C13A" ;
+    rdfs:label "beschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing/beschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing> ;
+    rdfs:range xsd:string ;
+    dct:identifier "94944C29-B56B-4429-85C8-95EF98D27A99" ;
+    rdfs:label "beschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor/beschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E2573531-74F7-48d6-9E0D-C40D5A826A9A" ;
+    rdfs:label "beschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats/beschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "ED2A4D5F-7633-4ed1-96D6-4ADF443E0E82" ;
+    rdfs:label "beschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats/bibliografie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6EA5D987-3B57-4f3d-8E0D-B7B5FD664362" ;
+    rdfs:label "bibliografie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/cocumentbeschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1DB068B6-3EAE-4d79-B1EC-73905A5994FC" ;
+    dct:description "Een generieke beschrijving van de inhoud van het document."@nl ;
+    rdfs:label "cocumentBeschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefactsoort/code> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefactsoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "671CF8E6-AA24-4a38-8C68-EA5427DA1FEB" ;
+    rdfs:label "code"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/conserveren> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "EB06E1A0-5752-4aa8-8662-62EA149125D7" ;
+    rdfs:label "conserveren"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/kaart/content> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/kaart> ;
+    rdfs:range xsd:string ;
+    dct:identifier "31A4F782-EAF5-4cdb-986B-0E3BEAC4DC55" ;
+    rdfs:label "content"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project/coordinaten> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "B5DA1AB3-B056-464a-91D5-ADB1C314E6BB" ;
+    rdfs:label "coordinaten"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor/datering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BDF5250C-A582-42c5-9771-68A42DEA25FD" ;
+    rdfs:label "datering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats/datering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A0F1A57A-7227-456f-892B-49CDECBD30A2" ;
+    rdfs:label "datering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/datering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "484718AC-7130-49e4-824F-169B47826158" ;
+    rdfs:label "datering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/dateringcomplex> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3B1BF1AF-818D-4bc4-81D5-D947C2F92C2B" ;
+    rdfs:label "dateringComplex"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst/datum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst> ;
+    rdfs:range xsd:date ;
+    dct:identifier "92B61D83-C305-48db-B999-95C4C59715EA" ;
+    rdfs:label "datum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor/datum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor> ;
+    rdfs:range xsd:date ;
+    dct:identifier "FBFAB8FF-5CCB-404d-9DFA-A5E78786AD71" ;
+    rdfs:label "datum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumcreatiedocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "61F9ED59-4DA5-4099-ADAC-8D7FEFDD0F37" ;
+    dct:description "Een datum of een gebeurtenis in de levenscyclus van het document."@nl ;
+    rdfs:label "datumCreatieDocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project> ;
+    rdfs:range xsd:date ;
+    dct:identifier "62A6DB6B-5943-44e9-965E-DE72E9631162" ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing/datumgeplaatst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing> ;
+    rdfs:range xsd:date ;
+    dct:identifier "5365ECE7-A04C-4568-93EB-0ACE182AC9F4" ;
+    rdfs:label "datumGeplaatst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumontvangstdocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FFEE3095-1146-4106-A1ED-70A253812FA6" ;
+    dct:description "De datum waarop het DOCUMENT ontvangen is."@nl ;
+    rdfs:label "datumOntvangstdocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project/datumstart> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project> ;
+    rdfs:range xsd:date ;
+    dct:identifier "F6A38401-1FAB-432b-95FB-5F751E77683D" ;
+    rdfs:label "datumStart"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumverzendingdocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C06162CD-CFEA-4c04-BE26-76BC4DF42A16" ;
+    dct:description "De datum waarop het DOCUMENT verzonden is."@nl ;
+    rdfs:label "datumVerzendingDocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats/depot> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "85EC0B32-78BD-43d4-8CD0-20C9B2AA7FBF" ;
+    rdfs:label "depot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/determinatieniveau> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "562B6B9F-6C5F-4b60-9B71-50BC44D8A3F6" ;
+    rdfs:label "determinatieniveau"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/dianummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F117B758-5EDE-48af-B79F-32AC947B4FB2" ;
+    rdfs:label "dianummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vlak/dieptetot> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vlak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C8E6322B-30DD-4525-9561-44EE750E1261" ;
+    rdfs:label "diepteTot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vlak/dieptevan> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vlak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "61041B57-98D3-4421-87AC-650684EA9991" ;
+    rdfs:label "diepteVan"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documentauteur> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "24277038-EF81-4e10-92BC-68AB8969FE4D" ;
+    dct:description "De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document."@nl ;
+    rdfs:label "documentAuteur"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documentidentificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CB08FF35-EE64-4504-90CF-835DA32E636C" ;
+    dct:description "Een binnen een gegeven context ondubbelzinnige referentie naar het document. Bijvoorbeeld potsregistratienummer"@nl ;
+    rdfs:label "documentIdentificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documenttitel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "21E0EC21-5217-4582-A8B8-CA0EE3EFDFAD" ;
+    dct:description "De naam waaronder het document formeel bekend is."@nl ;
+    rdfs:label "documentTitel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats/documentatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8AD5D0D9-5BCB-4a13-91E7-6683FABBA30E" ;
+    rdfs:label "documentatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/doos/doosnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/doos> ;
+    rdfs:range xsd:string ;
+    dct:identifier "97A2D4BD-B7DB-4cca-8A4A-3AC70F2C4663" ;
+    rdfs:label "doosnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/doosnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "27C6210F-B552-4ed3-918B-5FFC400A58F6" ;
+    rdfs:label "doosnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats/einddatering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1230CA75-A1A8-4ed8-8ACA-A3D1C2D5000B" ;
+    rdfs:label "einddatering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/exposabel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "7B6C4E7E-D04F-4cd1-B875-2E2AF88E22B7" ;
+    rdfs:label "exposabel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/fotonummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7105B09B-B042-4990-AB41-CF0D4421B4DE" ;
+    rdfs:label "fotonummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/functie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "93AA9007-5D2C-414c-B26D-59E8F6178E7D" ;
+    rdfs:label "functie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats/gemeente> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2DFB4EBD-FB9A-453c-A205-CD94788DA56A" ;
+    rdfs:label "gemeente"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling/grondsoort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "577A0100-3837-4f27-8DA8-44975CC0423D" ;
+    rdfs:label "grondsoort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/herkomst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DF22B4B3-C92C-4d5f-951B-5A0CD4C8C404" ;
+    rdfs:label "herkomst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/doos/herkomst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/doos> ;
+    rdfs:range xsd:string ;
+    dct:identifier "689043C3-1E54-4480-88DE-6848851C0127" ;
+    rdfs:label "herkomst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing/herkomst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A3BF40B8-73D6-47c5-8C25-1780DD594E38" ;
+    rdfs:label "herkomst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor/hoogteboven> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FF88FD28-86BC-4af4-B0BA-9FCA6F91EF70" ;
+    rdfs:label "hoogteBoven"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor/hoogteonder> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EBF7BA56-6D65-4c07-88EC-22909D55C86F" ;
+    rdfs:label "hoogteOnder"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/doos/inhoud> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/doos> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A07FDC1D-4183-4833-98DF-0F0D5906EEF4" ;
+    rdfs:label "inhoud"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/stelling/inhoud> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/stelling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "670810C3-8DDD-436b-9A63-31890EB0E355" ;
+    rdfs:label "inhoud"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project/jaartot> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7996E3FD-2745-4671-B052-BF54C9EF9735" ;
+    rdfs:label "jaarTot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project/jaarvan> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8C51A326-AC36-4c12-AA15-B10C64AC4F8B" ;
+    rdfs:label "jaarVan"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling/key> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "391B6C43-11C3-419f-9AB5-5CBC64AD1955" ;
+    rdfs:label "key"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor/key> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4F9C6C76-4EC8-4636-848D-D3A29D15D272" ;
+    rdfs:label "key"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vlak/key> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vlak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "40050D73-B755-4deb-A1F2-55DF585E6EE0" ;
+    rdfs:label "key"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/put/key> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/put> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E706AE12-3077-4a9d-A0DF-C33D8CBA5BA6" ;
+    rdfs:label "key"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst/key> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FC4A9B8F-BF0D-40a3-A721-EEB1952B95F5" ;
+    rdfs:label "key"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnlocatie/key> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnlocatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C4DAAC1E-D3FB-42ac-A4C7-8A8C27DB9DBA" ;
+    rdfs:label "key"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/key> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "486E5B6D-EF38-4716-8D2B-93C677041C9F" ;
+    rdfs:label "key"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing/key> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing> ;
+    rdfs:range xsd:string ;
+    dct:identifier "21BD1E11-1E95-40ee-80BD-425BB127CCEC" ;
+    rdfs:label "key"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/doos/key> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/doos> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9B1C57D5-221D-42f3-868F-7D8539A043B1" ;
+    rdfs:label "key"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/keydoos> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4D556870-A3B3-489d-9DA5-C8054C93D95C" ;
+    rdfs:label "keyDoos"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing/keydoos> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B4F99E9E-93BE-4842-8B95-13481705DDDE" ;
+    rdfs:label "keyDoos"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing/keymagazijnlocatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F959A29F-3AA7-4e77-AEFF-9E36747876CE" ;
+    rdfs:label "keyMagazijnlocatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/doos/keymagazijnlocatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/doos> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A336FE01-95BF-469c-BB70-A20E25E7C23B" ;
+    rdfs:label "keyMagazijnlocatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/keymagazijnplaatsing> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2E6E1E3A-D159-4758-9A00-389D38B5E634" ;
+    rdfs:label "keyMagazijnplaatsing"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vlak/keyput> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vlak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6B275078-16CE-42c4-97FA-0D54C9ED9316" ;
+    rdfs:label "keyPut"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/keyput> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "76A9A273-3336-47ba-AB65-8FD2C3C2CC5F" ;
+    rdfs:label "keyPut"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling/keyspoor> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7397B1E4-460B-430e-8D4C-C494D23B6837" ;
+    rdfs:label "keySpoor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor/keyvlak> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor> ;
+    rdfs:range xsd:string ;
+    dct:identifier "38A16B7B-A428-41d2-AA1C-19E357AF5807" ;
+    rdfs:label "keyVlak"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/keyvondst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BCC736DF-F977-42be-8FEB-3C7A9E4100B5" ;
+    rdfs:label "keyVondst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst/keyvulling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst> ;
+    rdfs:range xsd:string ;
+    dct:identifier "93527C53-31AA-4911-AF97-50967E43A1B3" ;
+    rdfs:label "keyVulling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling/kleur> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "48AB8E13-4B03-42f5-9D40-0D0AC3B5AFD9" ;
+    rdfs:label "kleur"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/literatuur> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0F3AA3E6-89BD-472d-AE5F-F20239420946" ;
+    rdfs:label "literatuur"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats/locatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AFEC18A7-C058-413d-8155-70BC2BE0A3E7" ;
+    rdfs:label "locatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project/locatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D041E8C5-A770-441c-82AF-E219701871AE" ;
+    rdfs:label "locatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/locatie/locatiepunt> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/locatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C712EB22-C5D4-4212-B4C8-15F6EBD0ACE6" ;
+    rdfs:label "locatiePunt"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/maten> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4B4F5D1B-ED73-4c28-AFC2-6E719DCF209F" ;
+    rdfs:label "maten"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats/mobilia> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "91F5C694-6E9D-4998-833D-3170E3C5E7AF" ;
+    rdfs:label "mobilia"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3A1D6F40-844F-4765-BACA-C75EF783A320" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C16954EB-51BF-46c8-85DD-34514F4824D9" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/kaart/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/kaart> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5AFDBE84-6021-4d18-B52B-787EA848B747" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefactsoort/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefactsoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F3EFC72A-C615-4f17-8372-CF19DF218F7C" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project/naamcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project> ;
+    rdfs:range xsd:string ;
+    dct:identifier "39EA8A05-E0B3-4e76-BDE2-DBC209EB1353" ;
+    rdfs:label "naamcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefactsoort/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefactsoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C4E554A2-70C2-4ae8-94C2-751B14E5A8C2" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst> ;
+    rdfs:range xsd:string ;
+    dct:identifier "328A118D-9E67-42af-B44A-E20ED4D8CD54" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/kaart/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/kaart> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A22A44BF-B045-4657-A876-C667116DCAA4" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst/omstandigheden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst> ;
+    rdfs:range xsd:string ;
+    dct:identifier "985599B0-CF61-479a-9F14-6CDA5B6309BB" ;
+    rdfs:label "omstandigheden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats/onderzoek> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "47155978-6BF1-4413-B95D-0B7EF4498C59" ;
+    rdfs:label "onderzoek"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/opmerkingen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "13D1AC4F-63FE-4b54-AF91-9D2AF8A702BA" ;
+    rdfs:label "opmerkingen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/origine> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E271D38F-A5B1-4f0d-B0D9-A37BFD58D164" ;
+    rdfs:label "origine"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vlak/projectcd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vlak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1D0A9354-27B1-445d-A162-F59C265FD3D3" ;
+    rdfs:label "projectCD"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project/projectcd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7E46A0A1-E164-4650-A976-D08E01B09B41" ;
+    rdfs:label "projectCD"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing/projectcd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing> ;
+    rdfs:range xsd:string ;
+    dct:identifier "336E4FC1-545E-49d2-A5FB-94CE8D0E17E7" ;
+    rdfs:label "projectCD"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/put/projectcd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/put> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2B0A3569-59FB-4a3f-9C82-AD849F4D4E43" ;
+    rdfs:label "projectCD"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/projectcd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3054F2AE-6CD7-4261-B92F-401824424C2E" ;
+    rdfs:label "projectCD"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor/projectcd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor> ;
+    rdfs:range xsd:string ;
+    dct:identifier "63110C67-01EE-4309-8B4F-74C70C27D23E" ;
+    rdfs:label "projectCD"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/doos/projectcd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/doos> ;
+    rdfs:range xsd:string ;
+    dct:identifier "227405F1-F4E1-49fa-8B7A-6114B45F14E5" ;
+    rdfs:label "projectCD"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling/projectcd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5581B107-1CA9-490a-9777-1A876E031F7A" ;
+    rdfs:label "projectCD"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst/projectcd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst> ;
+    rdfs:range xsd:string ;
+    dct:identifier "790411A5-CCFF-4e46-A878-79715DDFD9B9" ;
+    rdfs:label "projectCD"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats/projectcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F2F91BA6-0D7A-4841-B908-8C882BEE1E96" ;
+    rdfs:label "projectcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling/putnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B5DCB9FD-A013-47e0-99EB-06A1320EFDC8" ;
+    rdfs:label "putnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst/putnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3F06E059-42AD-432e-8D19-F41EF4D2182F" ;
+    rdfs:label "putnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/put/putnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/put> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CA821CD7-A419-4434-A211-E0A4D2CAB030" ;
+    rdfs:label "putnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vlak/putnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vlak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9802BA7E-84F6-4542-82D2-073864D941DB" ;
+    rdfs:label "putnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/putnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DDF41769-3591-4a02-A81F-68B7FDFA54BE" ;
+    rdfs:label "putnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor/putnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3A51A221-7357-4f6a-A31E-A5938B5E5007" ;
+    rdfs:label "putnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/restauratiewenselijk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "08B240C2-24D9-49b4-B79C-249C5000F86D" ;
+    rdfs:label "restauratieWenselijk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst/spoornummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5D8A871B-49F5-4c20-BDF4-40FD482B3D32" ;
+    rdfs:label "spoornummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor/spoornummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A62E2358-D2DB-400d-9EBB-5BDAD9FAA91A" ;
+    rdfs:label "spoornummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling/spoornummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1E81F705-D0C3-4c63-BD83-D1F45349EB52" ;
+    rdfs:label "spoornummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnlocatie/stelling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnlocatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "38125C22-E75B-4b2d-BB0F-A14B1B6BE763" ;
+    rdfs:label "stelling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/stelling/stellingcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/stelling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "27E16435-F23F-4832-A2D7-F57823D95B82" ;
+    rdfs:label "stellingcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling/structuur> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "386F544E-486A-4a6e-B4AE-252170DED93B" ;
+    rdfs:label "structuur"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/tekeningnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "469907FA-1A09-4b9f-9A23-594FE6EB67DA" ;
+    rdfs:label "tekeningnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project/toponiem> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EE475C16-9B0E-4439-952C-F235F9C78457" ;
+    rdfs:label "toponiem"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project/trefwoorden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A859CF32-AA92-4e7b-9072-0A987EFFB651" ;
+    rdfs:label "trefwoorden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/type> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "42FE6B12-4EC9-4650-96C8-4DBCD9355257" ;
+    rdfs:label "type"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing/uitgeleend> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "C9D2D30B-1786-4973-B8FC-EFCE0B48407E" ;
+    rdfs:label "uitgeleend"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnlocatie/vaknummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnlocatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C469EA24-B397-46a1-8CFA-CF6C45176A51" ;
+    rdfs:label "vaknummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/vertrouwelijkaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A7A897CF-ECB5-45c1-A0CD-698E1D66F2CF" ;
+    dct:description "Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is."@nl ;
+    rdfs:label "vertrouwelijkAanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats/vindplaatsomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FB41B20D-F31D-4f13-A719-A0F96BDA298E" ;
+    rdfs:label "vindplaatsOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vlak/vlaknummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vlak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3D2E8987-8AF2-4baf-BC9F-43B91BBF58A2" ;
+    rdfs:label "vlaknummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor/vlaknummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E3D2B0C9-EF76-40f7-9AA8-C59A2A485601" ;
+    rdfs:label "vlaknummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling/vlaknummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "97705FA0-9805-4ead-AF64-D3714A37CED4" ;
+    rdfs:label "vlaknummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst/vlaknummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst> ;
+    rdfs:range xsd:string ;
+    dct:identifier "09180DF7-54A9-4ac2-B220-856148C25280" ;
+    rdfs:label "vlaknummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnlocatie/volgletter> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnlocatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1BF41165-AB52-44e3-A434-031BFAFC3D6E" ;
+    rdfs:label "volgletter"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/vondstnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "478ADF38-9BAC-42c1-BBF9-276A3E752BC7" ;
+    rdfs:label "vondstnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst/vondstnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B49874E4-C31A-4209-8784-E997B2450581" ;
+    rdfs:label "vondstnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor/vorm> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BD955530-7D00-47d4-9E90-8A76F914C628" ;
+    rdfs:label "vorm"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling/vullingnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling> ;
+    rdfs:range xsd:string ;
+    dct:identifier "657EED7D-5675-4394-963A-13FC492238B9" ;
+    rdfs:label "vullingnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst/vullingnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst> ;
+    rdfs:range xsd:string ;
+    dct:identifier "84703636-D005-4e4f-8E1E-2B2872BC5C54" ;
+    rdfs:label "vullingnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project/vastlegging> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:label "vastlegging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vlak/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vlak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/spoor> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vulling> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/put/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/put> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vlak> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats/hoort_bij> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vindplaats> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project> ;
+    rdfs:label "hoort bij"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/put> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing/hoort_bij> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project> ;
+    rdfs:label "hoort bij"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/stelling/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/stelling> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnlocatie> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing/staat_op> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnlocatie> ;
+    rdfs:label "staat op"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project/wordt_begrensd_door> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/locatie> ;
+    rdfs:label "wordt begrensd door"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/put/heeft_locatie> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/put> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/locatie> ;
+    rdfs:label "heeft locatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing/zit_in> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/doos> ;
+    rdfs:label "zit in"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/doos/staat_op> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/doos> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnlocatie> ;
+    rdfs:label "staat op"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/boring> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst/bevat> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/vondst> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:label "bevat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/is_van_soort> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefactsoort> ;
+    rdfs:label "is van soort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/zit_in> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/doos> ;
+    rdfs:label "zit in"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact/vindbaar_op> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/artefact> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/magazijnplaatsing> ;
+    rdfs:label "vindbaar op"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/project> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport_cultuur_en_recreatie/erfgoed/archeologie/archeologiebesluit> ;
+    rdfs:label "heeft"@nl .

@@ -1,0 +1,1768 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/hoofdobjecten_imgeo_en_beheerobjecten>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> a owl:Class ;
+    rdfs:label "Beheerobject"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Verzamelobject - niveau 1"@nl ;
+    dct:identifier "E060DC30-E4F2-4794-A16E-7207032E250" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> a owl:Class ;
+    rdfs:label "Geo-Object"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011]"@nl ;
+    dct:identifier "05B355EF-39EA-4bfb-B1F3-AB31841C986E" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> a owl:Class ;
+    rdfs:label "Pand"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een pand is een kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is. Beschrijving: Een zelfstandig bouwwerk, zowel zelfstandig in de manier hoe het is gebouwd als waarvoor het is bedoeld om te gebruiken. Een pand voldoet ook aan de volgende eisen: een pand is direct en voor lange tijd met de aarde verbonden (een pand is niet makkelijk te verplaatsen) en een pand kun je binnengaan en afsluiten. Een eenheid kan alleen een pand zijn als het voldoet aan alle eisen uit de Catalogus BAG 2018."@nl ;
+    dct:identifier "11595AD8-CE67-40dd-BDA9-489DC7D244ED" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> a owl:Class ;
+    rdfs:label "OverigBouwwerk"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Met de aarde verbonden duurzaam bouwwerk, dat niet valt onder de definities van een pand of kunstwerk."@nl ;
+    dct:identifier "1DA7BC25-CF02-4161-B9A2-DE0BE27C5254" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel> a owl:Class ;
+    rdfs:label "Overbruggingsdeel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Onderdeel van een beweegbare of vaste verbinding tussen twee punten, die door water, een weg of anderszins gescheiden zijn, dat essentieel is voor de constructie."@nl ;
+    dct:identifier "2E45A5F3-A685-48c5-98D4-794BE382891E" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel> a owl:Class ;
+    rdfs:label "Kunstwerkdeel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen."@nl ;
+    dct:identifier "2EC96974-F21E-4bdb-AF4D-30D7091F5645" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> a owl:Class ;
+    rdfs:label "Inrichtingselement"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Ruimtelijk object al dan niet ter detaillering dan wel ter inrichting van de overige benoemde ruimtelijke objecten of een ander inrichtingselement."@nl ;
+    dct:identifier "4DA0EB59-963C-4558-B763-44F542BC8D89" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie> a owl:Class ;
+    rdfs:label "Gebouwinstallatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een component aan de buitenzijde van een gebouw, die het aanzicht van het gebouw mede bepaalt."@nl ;
+    dct:identifier "6FDC646C-F9E2-4610-8FFE-1ECFA99FFBD7" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwaterdeel> a owl:Class ;
+    rdfs:label "OndersteunendWaterdeel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Object dat in het kader van de waterhuishouding periodiek gedeeltelijk of geheel met water is bedekt."@nl ;
+    dct:identifier "7B92809F-CFAE-4be8-BE3A-4E4B94E83F52" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject> a owl:Class ;
+    rdfs:label "Vegetatieobject"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Solitair vegetatieobject of lijn- of vlakvormige groep gelijksoortige vegetatieobjecten met een beperkte omvang."@nl ;
+    dct:identifier "9980DF6D-0C86-4039-8400-C54DAC77FB79" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> a owl:Class ;
+    rdfs:label "Wegdeel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Kleinste functioneel onafhankelijk stukje van een NEN 3610 Weg, met gelijkblijvende homogene eigenschappen en relaties en primair bedoeld voor gebruik door weg-, spoor- en vliegverkeer te land"@nl ;
+    dct:identifier "9B0F3F8B-B79B-46f7-BF81-96E4C63B9AC2" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> a owl:Class ;
+    rdfs:label "Scheiding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Kunstmatig, meestal lineair obstakel met een werende functie."@nl ;
+    dct:identifier "A637379F-6E1D-47aa-AE75-3E22FE0DC814" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/spoor> a owl:Class ;
+    rdfs:label "Spoor"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De as van het spoor, dat wil zeggen het midden van twee stalen staven op een onderling vaste afstand, waarover trein, tram, of sneltram rijdt."@nl ;
+    dct:identifier "B0EA89D8-EE32-410b-B683-8CA937E5009D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied> a owl:Class ;
+    rdfs:label "FunctioneelGebied"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Begrensd en benoemd gebied dat door een functionele eenheid beschreven wordt."@nl ;
+    dct:identifier "B8F44180-1F2A-4bbc-8E17-6C472111A92B" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> a owl:Class ;
+    rdfs:label "OnbegroeidTerreindeel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Kleinste functioneel onafhankelijk stukje van een terrein, dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, zonder aaneengesloten vegetatie."@nl ;
+    dct:identifier "C32F1546-F793-4f13-91A4-2047E6DE6E91" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbenoemdterrein> a owl:Class ;
+    rdfs:label "OverigBenoemdTerrein"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een door het bevoegde gemeentelijke orgaan als zodanig aangewezen onbebouwd terrein of een gedeelte daarvan, geen standplaats of gedeelte van een ligplaats zijnde, dat bestemd is voor het gedurende langere tijd verrichten van een maatschappelijke activiteit."@nl ;
+    dct:identifier "CFA3D54E-C8E0-4559-9475-29D31AF2DECD" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> a owl:Class ;
+    rdfs:label "BegroeidTerreindeel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Kleinste functioneel onafhankelijk stukje van een terrein dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, met aaneengesloten homogene vegetatie."@nl ;
+    dct:identifier "D872C213-09D7-4dca-A020-EA363480FC7D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> a owl:Class ;
+    rdfs:label "OverigeScheiding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Kunstmatig, meestal lineair obstakel met een werende functie, met kleinere afmetingen dan toegestaan voor opname in de BGT."@nl ;
+    dct:identifier "EC57B722-D4B4-42d2-AF3C-31E085C63EBB" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/tunneldeel> a owl:Class ;
+    rdfs:label "Tunneldeel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Onderdeel van een kunstmatig aangelegde, kokervormige onderdoorgang, dat essentieel is voor de constructie."@nl ;
+    dct:identifier "EE07AE43-1825-4377-9984-9636AB015C11" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel> a owl:Class ;
+    rdfs:label "OndersteunendWegdeel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een deel van de weg dat niet primair bedoeld is voor gebruik door het verkeer."@nl ;
+    dct:identifier "F55A5977-7E3B-4cf4-B8D1-CFCEECA0DEA1" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/waterdeel> a owl:Class ;
+    rdfs:label "Waterdeel"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Kleinste functioneel onafhankelijk stukje water met gelijkblijvende, homogene eigenschappen en relaties dat er binnen het objecttype Water van NEN 3610 wordt onderscheiden."@nl ;
+    dct:identifier "FD0B5F4D-AE9B-47bd-8C60-031D21AC24B1" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/lod0geometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "772AD202-A31D-409f-A757-8DE022B5635D" ;
+    dct:description "De geometrische representatie van een begroeid terreindeel als multivlak in 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0Geometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel/lod0geometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "A18296A4-AE72-4657-AD14-C38DE0BF2F1D" ;
+    dct:description "De geometrische representatie van een ondersteunend wegdeel als vlak in 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0Geometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie/lod0geometriegebouwinstallatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "DB25DC92-25C0-4216-AAAB-C638AB92DCDB" ;
+    dct:description "De geometrische representatie van een gebouwinstallatie als vlak in 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0GeometrieGebouwinstallatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement/lod0geometrieinrichtingselement> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "2A8E5666-8876-4cde-B523-5F39B8DD336B" ;
+    dct:description "De geometrische representatie van een inrichtingselement als punt, lijn of vlak in 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0GeometrieInrichtingselement"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel/lod0geometriekunstwerkdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "5DA85ED5-2440-4b98-A502-A65A0800137F" ;
+    dct:description "De geometrische representatie van een kunstwerkdeel als punt, lijn of vlak in 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0GeometrieKunstwerkdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel/lod0geometrieoverbruggingsdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "042944AE-33EA-4431-B1A4-6B33D968254F" ;
+    dct:description "De geometrische representatie van een overbruggingsdeel als vlak in 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0GeometrieOverbruggingsdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk/lod0geometrieoverigbouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "2D6CC484-5AFE-45fc-A9E1-B6072837338F" ;
+    dct:description "De geometrische representatie van een overig bouwwerk als punt, lijn of vlak 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0GeometrieOverigBouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/lod0geometrieoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "B33C3D5D-0E6E-402e-A7B6-896B08BD34E5" ;
+    dct:description "De geometrische representatie van een overige scheiding als punt, lijn of vlak in 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0GeometrieOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding/lod0geometriescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "6D07B2D2-ADF1-46a9-A95B-36BF574171B5" ;
+    dct:description "De geometrische representatie van een scheiding als punt, lijn of vlak in 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0GeometrieScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/spoor/lod0geometriespoor> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/spoor> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "34ED5BDB-A049-45c3-A5BF-4FD47280EBE1" ;
+    dct:description "De geometrische representatie van een spoor als lijn in 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0GeometrieSpoor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/tunneldeel/lod0geometrietunneldeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/tunneldeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "558FB6D2-7C46-4801-B09B-041FA15A101B" ;
+    dct:description "De geometrische representatie van een tunneldeel als vlak in 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0GeometrieTunneldeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject/lod0geometrievegetatieobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "134BAE4D-B34A-4b3d-BDEF-B02BB75F8838" ;
+    dct:description "De geometrische representatie van een vegetatieobject als punt, lijn of vlak in 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0GeometrieVegetatieobject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/lod0geometriewegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "11438698-6342-4ba6-9160-2D334486D531" ;
+    dct:description "De geometrische representatie van een wegdeel als vlak in 2.5D op level of detail 0."@nl ;
+    rdfs:label "LOD0GeometrieWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel/lod1geometriekunstwerkdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "286CFDB0-8EE5-4883-A5A0-A8AD341D4CED" ;
+    dct:description "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 1."@nl ;
+    rdfs:label "LOD1GeometrieKunstwerkdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk/lod1geometrieoverigbouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "57A99AAE-ACD4-4493-8453-EC7D719EBD52" ;
+    dct:description "De geometrische representatie van een overig bouwwerk in 3D op level of detail 1."@nl ;
+    rdfs:label "LOD1GeometrieOverigBouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/lod1geometrieoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "B77C6C59-DAA0-4000-B826-AEAD98175685" ;
+    dct:description "De geometrische representatie van een overige scheiding in 3D op level of detail 1."@nl ;
+    rdfs:label "LOD1GeometrieOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding/lod1geometriescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "BFFB5484-1C56-4dbe-B42B-9C71E11D97D8" ;
+    dct:description "De geometrische representatie van een scheiding in 3D op level of detail 1."@nl ;
+    rdfs:label "LOD1GeometrieScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel/lod2geometriekunstwerkdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "9DC71661-BA52-4e02-826E-CA15921B26D8" ;
+    dct:description "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 2."@nl ;
+    rdfs:label "LOD2GeometrieKunstwerkdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk/lod2geometrieoverigbouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "D9F02679-7AC8-4730-B57E-649A06ED9579" ;
+    dct:description "De geometrische representatie van een overig bouwwerk in 3D op level of detail 2."@nl ;
+    rdfs:label "LOD2GeometrieOverigBouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/lod2geometrieoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "70ED0378-ED9C-4978-AF8C-4A6EA27BB1CA" ;
+    dct:description "De geometrische representatie van een overige scheiding in 3D op level of detail 2."@nl ;
+    rdfs:label "LOD2GeometrieOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding/lod2geometriescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "5CE66422-85CE-477d-B2B5-072C607A9881" ;
+    dct:description "De geometrische representatie van een scheiding in 3D op level of detail 2."@nl ;
+    rdfs:label "LOD2GeometrieScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/aangemaaktdoor> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4986551d-7070-4c9a-bbe4-0954b158cc6e" ;
+    dct:description "Medewerker (ID) welke het beheerobject in het beheersysteem aangemaakt heeft."@nl ;
+    rdfs:label "aangemaaktDoor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/begingarantieperiode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "a157de7f-7343-4076-b057-25ed47fd8db7" ;
+    dct:description "Jaar waarin de garantieperiode van het opgeleverde beheerobject begint. Eenheid: mmddyyyy"@nl ;
+    rdfs:label "beginGarantieperiode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/begingeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "68117115-FD7B-457d-A3CC-26B80D331D3A" ;
+    dct:description "Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"@nl ;
+    rdfs:label "beginGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/beheergebied> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "36545a0e-121b-448e-837b-05f61f1dac6d" ;
+    dct:description "Aanduiding van het beheergebied waarbinnen het beheerobject ligt. Indeling in beheergebieden is organisatiespecifiek."@nl ;
+    rdfs:label "beheergebied"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/beheerobjectbeheervak> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1d39ac16-c05d-4f31-bf95-548edd29ed45" ;
+    dct:description "GUID van 1 of meerdere beheervakken waartoe het beheerobject behoort of waarbinnen het beheerobject zich bevindt."@nl ;
+    rdfs:label "beheerobjectBeheervak"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/beheerobjectgebruiksfunctie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "913d2973-73e1-4757-b93e-f0a33c4d8a54" ;
+    dct:description "Aanduiding van Ã©Ã©n of meer gebruiksfuncties van het beheerobject."@nl ;
+    rdfs:label "beheerobjectGebruiksfunctie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/beheerobjectmemo> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4fbb1c59-773c-41d0-b199-74ce75366f62" ;
+    dct:description "Mogelijkheid om 1 of meerdere memovelden te registreren bij een beheerobject."@nl ;
+    rdfs:label "beheerobjectMemo"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/beschermdefloraenfauna> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "9049d645-84db-46cf-a6fd-d57c69951501" ;
+    dct:description "Aanduiding voor aanwezigheid beschermde plantensoort en beschermde diersoort."@nl ;
+    rdfs:label "beschermdeFloraEnFauna"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/brutoinhoudpand> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E44327A5-F55F-4e94-98A9-97C73A80AC03" ;
+    dct:description "Aanduiding in kubieke meters van de bruto inhoud van het PAND."@nl ;
+    rdfs:label "brutoInhoudPand"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/buurt> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "662c3fd2-a39a-4299-ad80-35c939a0f297" ;
+    dct:description "Aanduiding van de buurt waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met buurtgrenzen Toelichting: Link naar: www.definities.geostandaarden.nl"@nl ;
+    rdfs:label "buurt"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/conversieid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9d5682fe-a740-4d0a-8737-f99510e73115" ;
+    dct:description "Uniek kenmerk van een beheerobject uit een oude beheerindeling."@nl ;
+    rdfs:label "conversieID"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object/datumbegingeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DBB38A52-9A43-4a15-9117-669DF9D852B4" ;
+    rdfs:label "datumBeginGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel/datumbegingeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "782326A2-BC26-4e1b-B67F-5F49F351B112" ;
+    dct:description "De datum waarop het onbegroeid terreindeel is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/datumbegingeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DB92496A-C2E5-42e2-BC32-E52837333090" ;
+    dct:description "De datum waarop het begroeid terreindeel is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel/datumbegingeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "85B86965-7C52-44f3-AB50-FB60866E8CF8" ;
+    dct:description "De datum waarop het ondersteunend wegdeel is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwaterdeel/datumbegingeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwaterdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FB4A9274-6473-4fca-AE86-2737B90B1FF5" ;
+    dct:description "De datum waarop het ondersteunend waterdeel is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied/datumbegingeldigheidfunctioneelgebied> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A3D69C5C-3786-4bb5-9943-62AACF27C123" ;
+    dct:description "De datum waarop het functioneel gebied is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidFunctioneelGebied"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie/datumbegingeldigheidgebouwinstallatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "754CB973-827D-4c03-92BC-73CC4378FA10" ;
+    dct:description "De datum waarop de gebouwinstallatie is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidGebouwinstallatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement/datumbegingeldigheidinrichtingselement> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4906417E-E81C-42a0-8555-2DBA7367A5BB" ;
+    dct:description "De datum waarop het inrichtingselement is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidInrichtingselement"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel/datumbegingeldigheidkunstwerkdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "65BFB3B2-12A8-4948-8D6C-09EA97A32412" ;
+    dct:description "De datum waarop het kunstwerkdeel is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidKunstwerkdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel/datumbegingeldigheidoverbruggingsdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "03AB925A-85A6-4e77-8B56-406570A8A3BD" ;
+    dct:description "De datum waarop de overbruggingsdeel is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidOverbruggingsdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk/datumbegingeldigheidoverigbouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2A5F377F-088B-464a-BF11-15260E813F8C" ;
+    dct:description "De datum waarop het overig bouwwerk is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidOverigBouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/datumbegingeldigheidoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9BB9E83D-CD79-4a5b-883A-E9728E410E18" ;
+    dct:description "De datum waarop de overige scheiding is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding/datumbegingeldigheidscheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5D6C441D-6B11-4295-810E-BB3F1FA25313" ;
+    dct:description "De datum waarop de scheiding is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/spoor/datumbegingeldigheidspoor> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/spoor> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1D32BFCA-56ED-4c9f-B4A9-092EC1D2CA90" ;
+    dct:description "De datum waarop het spoor is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidSpoor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/tunneldeel/datumbegingeldigheidtunneldeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/tunneldeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8219505A-2592-4de7-9432-EFD5E048047F" ;
+    dct:description "De datum waarop het tunneldeel is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidTunneldeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject/datumbegingeldigheidvegetatieobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0ED82C2C-96F3-4004-9ED6-79EFD931CDBC" ;
+    dct:description "De datum waarop het vegetatieobject is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidVegetatieobject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/waterdeel/datumbegingeldigheidwaterdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/waterdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "82BFFEB1-DF09-4b7d-97A3-B8DF4083F57B" ;
+    dct:description "De datum waarop het waterdeel is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidWaterdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/datumbegingeldigheidwegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "200ABDCD-A9F0-43cb-AEFE-6E60DE9707FB" ;
+    dct:description "De datum waarop het wegdeel is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0D4C18D6-F315-433a-BC40-19DEE0012474" ;
+    dct:description "De datum waarop de object in de BAG formeel is ingetrokken."@nl ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/datumeindegeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EB409FAC-92D4-4f9b-BDBA-E17F56F98003" ;
+    dct:description "De datum waarop het begroeid terreindeel ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel/datumeindegeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6BC5D209-0976-4573-991F-5C368E2FE747" ;
+    dct:description "De datum waarop het onbegroeid terreindeel ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwaterdeel/datumeindegeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwaterdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F8CC4F45-3167-4748-8EFB-CF7B7273902A" ;
+    dct:description "De datum waarop het ondersteunend waterdeel ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object/datumeindegeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9B703F1C-15CC-4395-85B1-72F20C074184" ;
+    rdfs:label "datumEindeGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel/datumeindegeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "435B6EC7-DE15-4992-ACC3-D039136A3ED8" ;
+    dct:description "De datum waarop het ondersteunend wegdeel ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied/datumeindegeldigheidfunctioneelgebied> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BCE7B03B-E96E-4750-8457-6F2D544734B6" ;
+    dct:description "De datum waarop het functioneel gebied ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidFunctioneelGebied"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie/datumeindegeldigheidgebouwinstallatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D71086E8-A81B-428a-A9F5-098C423CF451" ;
+    dct:description "De datum waarop de gebouwinstallatie ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidGebouwinstallatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement/datumeindegeldigheidinrichtingselement> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EE9EB156-8BAB-46c9-B937-8C64E48BC464" ;
+    dct:description "De datum waarop het inrichtingselement ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidInrichtingselement"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel/datumeindegeldigheidkunstwerkdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "19E426D3-4F0E-4b6c-9D17-FC160176D759" ;
+    dct:description "De datum waarop het kunstwerkdeel ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidKunstwerkdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel/datumeindegeldigheidoverbruggingsdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E301BC30-8F23-489a-9701-8316844821D3" ;
+    dct:description "De datum waarop het overbruggingsdeel ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidOverbruggingsdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk/datumeindegeldigheidoverigbouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A5A72783-02CD-4e2a-B891-CA17CFB0F2C5" ;
+    dct:description "De datum waarop het overig bouwwerk ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidOverigBouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/datumeindegeldigheidoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C24CA271-88A3-4a75-BDC7-B212B6DD0B7C" ;
+    dct:description "De datum waarop de overige scheiding ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding/datumeindegeldigheidscheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "05272652-8657-4b14-8D5E-BCCFFC07CFC7" ;
+    dct:description "De datum waarop het scheiding ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/spoor/datumeindegeldigheidspoor> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/spoor> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C788AE05-4AE9-4dea-B1F1-7048E1B3818C" ;
+    dct:description "De datum waarop het spoor ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidSpoor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/tunneldeel/datumeindegeldigheidtunneldeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/tunneldeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AD69665C-DB80-40c8-AC00-55889B980BF9" ;
+    dct:description "De datum waarop het tunneldeel ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidTunneldeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject/datumeindegeldigheidvegetatieobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A6250647-2723-4619-AB0B-28AD0D904674" ;
+    dct:description "De datum waarop het vegetatieobject ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidVegetatieobject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/waterdeel/datumeindegeldigheidwaterdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/waterdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B60ACA15-C66E-484b-9406-69E81EC22F5D" ;
+    dct:description "De datum waarop het waterdeel ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidWaterdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/datumeindegeldigheidwegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EE38C1CE-CF90-4cd4-A401-D5D54B746931" ;
+    dct:description "De datum waarop het wegdeel ongeldig is geworden."@nl ;
+    rdfs:label "datumEindeGeldigheidWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/datumingang> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DD689A3D-FFDB-4724-96D8-60C37EF5B4CD" ;
+    dct:description "Datum waarop het object is ontstaan"@nl ;
+    rdfs:label "datumIngang"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/datummutatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0022671b-28bb-483e-b795-208f21d305b4" ;
+    dct:description "Datum waarop de digitale gegevens van het beheerobject voor het laatst gewijzigd zijn. Eenheid: mmddyyyy"@nl ;
+    rdfs:label "datumMutatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/datumoplevering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5921c9d2-f834-44d6-b150-71054df35455" ;
+    dct:description "Datum waarop het beheerobject daadwerkelijk opgeleverd is. Begin van de garantieperiode. Eenheid: mmddyyyy"@nl ;
+    rdfs:label "datumOplevering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/datumpublicatielv> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2b955408-7a35-4a23-9415-7f7cd81708d4" ;
+    dct:description "Tijdstip waarop deze instantie van het beheerobject is opgenomen in de landelijke voorziening. Eenheid: mmddyyyy"@nl ;
+    rdfs:label "datumPublicatieLV"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/datumverwijdering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "e62ee4b7-b58c-45aa-88e2-8d2964141c2c" ;
+    dct:description "MateriÃ«le levensduur, EindeGeldigheid Eenheid: mmddyyyy"@nl ;
+    rdfs:label "datumVerwijdering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/documentdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "6F3B39DF-602D-4788-8EA6-74AC4CF91C57" ;
+    dct:description "De datum waarop het brondocument is vastgesteld"@nl ;
+    rdfs:label "documentdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/documentnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AC7539E7-401A-453e-A3E2-8C83E6F4B3D8" ;
+    dct:description "Het unieke nummer van het brondocument"@nl ;
+    rdfs:label "documentnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/eindgeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2FC0D831-3DD1-4e7d-9F3A-660A03F61DFE" ;
+    dct:description "Definitie EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid. Beschrijving Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."@nl ;
+    rdfs:label "eindGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/eindegarantieperiode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "e2392701-d5b4-4dcf-8658-4a15914c1e1a" ;
+    dct:description "Jaar waarin de garantieperiode van het opgeleverde beheerobject eindigt. Eenheid: mmddyyyy"@nl ;
+    rdfs:label "eindeGarantieperiode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel/functie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/functieondersteunendwegdeel> ;
+    dct:identifier "0AFE79AE-7823-436a-A3FA-516C68B982DB" ;
+    dct:description "Specificatie van het soort ondersteunend wegdeel."@nl ;
+    rdfs:label "functie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/functiewegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/functieweg> ;
+    dct:identifier "0293B525-513C-4ad1-B225-A5BD397CA7E8" ;
+    dct:description "Specificatie van het hoofdgebruiksdoel van het wegdeel."@nl ;
+    rdfs:label "functieWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/fysiekvoorkomen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterrein> ;
+    dct:identifier "E2F89AD4-0F7C-4a00-BE45-6FFD8D911D04" ;
+    dct:description "Classificatie van het vegetatiedek, ingedeeld naar soort vegetatie."@nl ;
+    rdfs:label "fysiekVoorkomen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel/fysiekvoorkomen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenondersteunendwegdeel> ;
+    dct:identifier "BBB0566E-D705-4d8e-B2BA-DE14D52841F6" ;
+    dct:description "Mate waarin het ondersteunend wegdeel al of niet verhard is."@nl ;
+    rdfs:label "fysiekVoorkomen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel/fysiekvoorkomen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterrein> ;
+    dct:identifier "4AE58642-5151-48b2-A96D-F75D6725B5E3" ;
+    dct:description "Classificatie van het soort terrein, ingedeeld naar de uiterlijke verschijningsvorm."@nl ;
+    rdfs:label "fysiekVoorkomen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/fysiekvoorkomenwegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenweg> ;
+    dct:identifier "4447539D-30FB-4273-84AA-4B425C8EFB50" ;
+    dct:description "Mate waarin het wegdeel al of niet verhard is."@nl ;
+    rdfs:label "fysiekVoorkomenWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/gebiedstype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "b7c90c21-7959-40d9-872b-6dad3aec8127" ;
+    dct:description "Aanduiding van het gebiedstype waarbinnen het beheerobject ligt. Conform de indeling zoals toegepast bij de CROW Benchmark Beheerprestaties."@nl ;
+    rdfs:label "gebiedstype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbenoemdterrein/gebruiksdoeloverigbenoemdterrein> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbenoemdterrein> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/gebruiksdoel> ;
+    dct:identifier "12195899-466D-4429-952B-1D5949346406" ;
+    dct:description "Een categorisering van de gebruiksdoelen van het betreffende OVERIG BENOEMD TERREIN, zoals dit formeel door de overheid als zodanig is toegestaan."@nl ;
+    rdfs:label "gebruiksdoelOverigBenoemdTerrein"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/geconstateerd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
+    dct:identifier "D35B377F-FD7B-4324-BAC5-7E604D41370B" ;
+    dct:description "Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname. Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een feitelijke constatering en niet op basis van een regulier brondocument"@nl ;
+    rdfs:label "geconstateerd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/gemeente> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "342b602c-c6ce-4eab-8c04-be09449e8a7e" ;
+    dct:description "Naam van de gemeente waarbinnen het beheerobject ligt."@nl ;
+    rdfs:label "gemeente"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/geometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "2f67459a-c613-48c5-b4fc-c994ff8d3548" ;
+    dct:description "Aanduiding voor de geometrie van het beheerobject."@nl ;
+    rdfs:label "geometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel/geometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "E38DBEFA-1572-4ffc-B0CE-FD60EB536524" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een ondersteunend wegdeel"@nl ;
+    rdfs:label "geometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel/geometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "159C897F-7DD2-49c8-9928-4A6AA2CE4605" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een onbegroeid terreindeel."@nl ;
+    rdfs:label "geometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwaterdeel/geometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwaterdeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "46DEE001-8F17-4047-BA93-0BC9750276DE" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een ondersteunend waterdeel."@nl ;
+    rdfs:label "geometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/geometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "87E470ED-905A-4062-8DD2-4830F390AE76" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een begroeid terreindeel."@nl ;
+    rdfs:label "geometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/geometriebovenaanzicht> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "203A64ED-F28E-48f8-A0E6-EA1CB2925F41" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van het bovenaanzicht van de omtrekken van een PAND"@nl ;
+    rdfs:label "geometrieBovenaanzicht"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied/geometriefunctioneelgebied> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "46F8D5C6-FE99-4770-86A8-810E1BE4FA9F" ;
+    dct:description "De tweedimensionale geometrische representatie van de omtrekken van het functioneel gebied."@nl ;
+    rdfs:label "geometrieFunctioneelGebied"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie/geometriegebouwinstallatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "32EF584E-2B2E-4929-A6E5-EE9D2D32C265" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een gebouwinstallatie."@nl ;
+    rdfs:label "geometrieGebouwinstallatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement/geometrieinrichtingselement> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "426FE3C3-423C-44d3-AEE0-00270B6AC471" ;
+    dct:description "De geometrische representatie van een inrichtingselement."@nl ;
+    rdfs:label "geometrieInrichtingselement"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel/geometriekunstwerkdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "0C68BDF6-D144-4208-8C00-D26337130D95" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een kunstwerkdeel"@nl ;
+    rdfs:label "geometrieKunstwerkdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/geometriemaaiveld> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "BD33C5E2-0F05-4d48-8AB3-6C04354A5E06" ;
+    dct:description "De tweedimensionale geometrische representatie van de omtrekken van een PAND op maaiveldniveau"@nl ;
+    rdfs:label "geometrieMaaiveld"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel/geometrieoverbruggingsdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "A9351CC9-8ACE-4b37-A5E3-1D8B8CEA019B" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een overbruggingsdeel."@nl ;
+    rdfs:label "geometrieOverbruggingsdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk/geometrieoverigbouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "8549439C-A49F-456c-A149-2AFD9A2188EF" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een overig bouwwerk."@nl ;
+    rdfs:label "geometrieOverigBouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/geometrieoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "A69C2ECF-D47D-41d0-8F6D-FE9292127FBF" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een overige scheiding"@nl ;
+    rdfs:label "geometrieOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/geometriepunt> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "3649B913-F912-47b4-97C8-6858E00C62E6" ;
+    rdfs:label "geometriePunt"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding/geometriescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "61890AD1-FAFC-4bb7-AC44-827A26F30004" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een scheiding"@nl ;
+    rdfs:label "geometrieScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object/geometriesoort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "C74D9FF9-3F64-4b9c-8DEF-45EB9DA7CA6A" ;
+    rdfs:label "geometrieSoort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/spoor/geometriespoor> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/spoor> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "CB5F12EC-E4F5-4d73-8F62-AA49585DFF56" ;
+    dct:description "De geometrische representatie van een spoor als lijn."@nl ;
+    rdfs:label "geometrieSpoor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/tunneldeel/geometrietunneldeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/tunneldeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "0F72D1CD-F7CA-4e4d-814C-16307B674C90" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een tunneldeel."@nl ;
+    rdfs:label "geometrieTunneldeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject/geometrievegetatieobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "DDC99691-D4EB-44a8-9F67-43936D0B0A14" ;
+    dct:description "De geometrische representatie van een vegetatieobject als punt, lijn of vlak."@nl ;
+    rdfs:label "geometrieVegetatieobject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/waterdeel/geometriewaterdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/waterdeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "93F10105-6A12-4367-8212-28E8B33AA11B" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een waterdeel."@nl ;
+    rdfs:label "geometrieWaterdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/geometriewegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "DC71B3C2-0AAF-471d-A07E-7B8B5886A3C2" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een wegdeel."@nl ;
+    rdfs:label "geometrieWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/gewijzigddoor> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "c6ad4c60-02bf-437f-94a6-b69e6f8e00bd" ;
+    dct:description "Medewerker (ID) welke het beheerobject in het beheersysteem gewijzigd heeft."@nl ;
+    rdfs:label "gewijzigdDoor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/grondsoort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7dfd68a6-e9e1-49e8-8157-3559ede9887b" ;
+    dct:description "Aanduiding van de grondsoort op de plaats van het beheerobject. Voor de CROW Systematiek Wegbeheer kunnen uitsluitend de volgende vier grondsoorten worden gebruikt: zand, klei, klei/veen, veen. Overname uit een bodemkaart met grondsoorten of uit een referentielijst."@nl ;
+    rdfs:label "grondsoort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/grondsoortplus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0872e7e9-bebb-43a5-8f23-65ac8e3c78e2" ;
+    dct:description "Verdere bijzondering van de grondsoort op de plaats van het beheerobject."@nl ;
+    rdfs:label "grondsoortPlus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/hoogstebouwlaag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3336EA16-EE3F-40e0-BA49-77AB06A03048" ;
+    dct:description "De ligging van de hoogste bouwlaag van het pand gerekend ten opzichte van het straatpeil."@nl ;
+    rdfs:label "hoogsteBouwlaag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel/hoortbijtypeoverbrugging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeoverbrugging> ;
+    dct:identifier "14A4F88F-5BED-4515-81EC-A6A87B4DEC1C" ;
+    dct:description "Nadere classificatie van de overbrugging waar het overbruggingsdeel een onderdeel van is."@nl ;
+    rdfs:label "hoortBijTypeOverbrugging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E4369822-165F-4639-BEE1-1F9F52CA7CAE" ;
+    dct:description "Een unieke identificatie voor een ondersteunend wegdeel"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwaterdeel/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwaterdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "58028055-0F8B-47d8-8BF2-DD005EB86D7D" ;
+    dct:description "Een unieke identificatie voor een ondersteunend waterdeel"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "95E06D83-DFB0-44d0-B3A4-1B29F6332C7D" ;
+    dct:description "Een unieke identificatie voor een onbegroeid terreindeel"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E5DE47F4-61AF-4297-B789-BB857F109648" ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DBE3F190-2F79-461e-BA8D-E9DF0C1301DC" ;
+    dct:description "De unieke aanduiding van een PAND"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2B33176F-FD86-460e-B18E-37B114C7830A" ;
+    dct:description "Een unieke identificatie voor een begroeid terreindeel"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied/identificatiefunctioneelgebied> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied> ;
+    rdfs:range xsd:string ;
+    dct:identifier "615FC188-4144-4716-B745-A7EA6CEA8787" ;
+    dct:description "Een unieke identificatie voor een functioneel gebied."@nl ;
+    rdfs:label "identificatieFunctioneelGebied"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie/identificatiegebouwinstallatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B47DDC83-027D-4d80-B86F-A8FC389F3014" ;
+    dct:description "Een unieke identificatie voor een gebouwinstallatie."@nl ;
+    rdfs:label "identificatieGebouwinstallatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/identificatieimbor> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5180b552-4e65-4fdc-b241-471012fc9f16" ;
+    dct:description "Uniek nummer van het IMBOR-object (GUID) Toelichting: De IMBOR-objecten zijn identificeerbaar middels het attribuut identificatie dat als inhoud heeft - namespace: Â´IMBORÂ´ - lokaalID: een numerieke identificatie Conform NEN3610 zijn identificatiecodes persistent: ze wijzigen niet gedurende de levensduur van een object. Verder zijn de identificatiecodes uniek ten opzichte van elkaar."@nl ;
+    rdfs:label "identificatieIMBOR"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/identificatieimgeo> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "66ef0f9a-63e6-45b4-b39e-9f6d7131804c" ;
+    dct:description "Overerving van de geometrie van beheerobject uit bovenliggend informatiemodel of automatisch genereren."@nl ;
+    rdfs:label "identificatieIMGeo"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement/identificatieinrichtingselement> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C866C4A0-D914-44fa-BF7D-AF201C5B2C86" ;
+    dct:description "Een unieke identificatie voor een inrichtingselement."@nl ;
+    rdfs:label "identificatieInrichtingselement"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel/identificatiekunstwerkdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B5AB5746-E904-4878-A93C-0A7F0578EC1E" ;
+    dct:description "Een unieke identificatie voor een kunstwerkdeel"@nl ;
+    rdfs:label "identificatieKunstwerkdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel/identificatieoverbruggingsdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3C751309-248A-4d26-8AD1-18E0B6F6D8AD" ;
+    dct:description "Een unieke identificatie voor een overbruggingsdeel."@nl ;
+    rdfs:label "identificatieOverbruggingsdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk/identificatieoverigbouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4DD7EF04-28AB-4cab-B86E-325C6BA37D63" ;
+    dct:description "De unieke identificatie van het overig bouwwerk zoals is toegekend in de IMGeo administratie."@nl ;
+    rdfs:label "identificatieOverigBouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/identificatieoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "15115DF0-FC69-4271-A655-31C9C68142DE" ;
+    dct:description "Een unieke identificatie voor een overige scheiding."@nl ;
+    rdfs:label "identificatieOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding/identificatiescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E9A63893-A16F-44b2-8215-4CD5EA9FEAF9" ;
+    dct:description "Een unieke identificatie voor een scheiding."@nl ;
+    rdfs:label "identificatieScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/spoor/identificatiespoor> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/spoor> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4F04857F-A374-4113-98A2-4F70C630F7A3" ;
+    dct:description "Een unieke identificatie voor een spoor"@nl ;
+    rdfs:label "identificatieSpoor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/tunneldeel/identificatietunneldeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/tunneldeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DFF7614A-5970-4bf0-98B0-DB846F79B653" ;
+    dct:description "Een unieke identificatie voor een tunneldeel"@nl ;
+    rdfs:label "identificatieTunneldeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject/identificatievegetatieobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "718FB892-68B7-4adf-A396-EFFAF5B9B858" ;
+    dct:description "Een unieke identificatie voor een vegetatieobject."@nl ;
+    rdfs:label "identificatieVegetatieobject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/waterdeel/identificatiewaterdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/waterdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "33DE3C39-98FD-4464-9284-211DA046B077" ;
+    dct:description "Een unieke identificatie voor een waterdeel"@nl ;
+    rdfs:label "identificatieWaterdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/identificatiewegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "38A87B7E-B2EE-4130-8633-49FDB498EB8F" ;
+    dct:description "Een unieke identificatie voor een wegdeel"@nl ;
+    rdfs:label "identificatieWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/jaarvanaanleg> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "8474d991-1f44-4553-97d2-df94d905564d" ;
+    dct:description "Jaar waarin het beheerobject is aangelegd of aangeplant. (kan ook voor de plaatsingsdatum gebruikt worden) Eenheid: Jaartal Toelichting: In de CROW Systematiek Wegbeheer staat het begrip 'ouderdom' (van de constructie). Deze wordt bepaald op basis van het jaar van aanleg. Aanvullende informatie voor het wegbeheer kan zijn: Jaar conservering, jaar laatste onderhoud. Voor het boombeheer geldt: in de situatie dat een boom is verplant, wordt het oorspronkelijke plantjaar aangehouden, teneinde de leeftijd en de groeifase van de boom zo goed mogelijk te kunnen benaderen. Als de boom in een zware maat is aangeplant, wordt een plantjaar aangehouden waarmee de leeftijd zo goed mogelijk wordt benaderd."@nl ;
+    rdfs:label "jaarVanAanleg"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel/kruinlijngeometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "298C47DC-9CDF-4589-961E-0D308A08B291" ;
+    dct:description "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."@nl ;
+    rdfs:label "kruinlijngeometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/kruinlijngeometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "77FF5087-AB67-41c3-AEE0-76C1C6538AF2" ;
+    dct:description "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."@nl ;
+    rdfs:label "kruinlijngeometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel/kruinlijngeometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "DDFEFC44-4778-4e3d-99A6-89C0ED38663C" ;
+    dct:description "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."@nl ;
+    rdfs:label "kruinlijngeometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/kruinlijngeometriewegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "6F442520-2884-499f-9B72-DB6F3C5316A9" ;
+    dct:description "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."@nl ;
+    rdfs:label "kruinlijngeometrieWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/laagstebouwlaag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "46953586-71AC-4835-8D31-BA6B1505A3F2" ;
+    dct:description "De ligging van de laagste bouwlaag van het pand gerekend ten opzichte van het straatpeil."@nl ;
+    rdfs:label "laagsteBouwlaag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel/lod3geometriekunstwerkdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "7A7AD09F-2A4B-44f2-9F3E-9C88FA6E61FF" ;
+    dct:description "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 3."@nl ;
+    rdfs:label "lod3GeometrieKunstwerkdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk/lod3geometrieoverigbouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "CC182190-E732-4e00-8F98-5A6312FA893E" ;
+    dct:description "De geometrische representatie van een overig bouwwerk in 3D op level of detail 3."@nl ;
+    rdfs:label "lod3GeometrieOverigBouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/lod3geometrieoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "28CB1B99-3324-4e1a-A749-491B77B6D81C" ;
+    dct:description "De geometrische representatie van een overige scheiding in 3D op level of detail 3."@nl ;
+    rdfs:label "lod3GeometrieOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding/lod3geometriescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "0B52794C-01CD-4b9a-9737-FB01A24DDD16" ;
+    dct:description "De geometrische representatie van een scheiding in 3D op level of detail 3."@nl ;
+    rdfs:label "lod3GeometrieScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied/naamfunctioneelgebied> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5B0814B4-B825-416e-8664-3D0127E43700" ;
+    dct:description "De benaming van het functioneel gebied."@nl ;
+    rdfs:label "naamFunctioneelGebied"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/objectbegintijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "d060d9c6-5f5d-44bd-b256-0bf7c54a5f0f" ;
+    dct:description "Creatiedatum van het digitale beheerobject binnen het beheersysteem of in de bovenliggende georegistratie Eenheid: mmddyyyy"@nl ;
+    rdfs:label "objectBeginTijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/objecteindtijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "7ed103f5-4a8a-4b27-b992-f94277116a13" ;
+    dct:description "Vervaldatum van het digitale beheerobject binnen het beheersysteem of in de bovenliggende georegistratie Eenheid: mmddyyyy"@nl ;
+    rdfs:label "objectEindtijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel/onbegroeidterreindeeloptalud> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> ;
+    dct:identifier "2AB7A3A0-E835-4560-9486-4AD3EF26D4EB" ;
+    dct:description "Indicatie of het object wel of niet op een hellend vlak ligt."@nl ;
+    rdfs:label "onbegroeidTerreindeelOpTalud"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/onderhoudsplichtige> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7c94218f-89af-4558-aa0c-1ddd7974ddc6" ;
+    dct:description "Organisatie welke verantwoordelijk is voor het onderhoud van het beheerobject."@nl ;
+    rdfs:label "onderhoudsplichtige"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/oorspronkelijkbouwjaar> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "ECE8BAE7-5731-423f-A398-5C3B4164C83B" ;
+    dct:description "De aanduiding van het jaar waarin een PAND oorspronkelijk als bouwkundig gereed is of wordt opgeleverd."@nl ;
+    rdfs:label "oorspronkelijkBouwjaar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel/optalud> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> ;
+    dct:identifier "4B52088C-996F-450b-9DB9-7B0FF465D796" ;
+    dct:description "Indicatie of het object wel of niet op een hellend vlak ligt."@nl ;
+    rdfs:label "opTalud"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/optalud> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> ;
+    dct:identifier "C8B5A686-BBB1-4ee1-A3BA-177E64E86445" ;
+    dct:description "Indicatie of het object wel of niet op een hellend vlak ligt."@nl ;
+    rdfs:label "opTalud"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/openbareruimte> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "b46981a3-4802-480d-bbde-08552f289d9e" ;
+    dct:description "Aanduiding van de openbare ruimte, zoals gedefinieerd in IMGeo of in de BAG, waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met grenzen openbare ruimtes of uit de Basisregistratie Adressen en Gebouwen (zonder begrenzing) Toelichting: Link naar: www.definities.geostandaarden.nl Definitie IMGeo: een openbare ruime is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen Ã©Ã©n woonplaats is gelegen."@nl ;
+    rdfs:label "openbareRuimte"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/oppervlakte> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "ED227DEE-AE20-48ce-BCBB-713E73525F12" ;
+    dct:description "De gebruiksoppervlakte van een PAND in gehele vierkante meters."@nl ;
+    rdfs:label "oppervlakte"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel/overbruggingisbeweegbaar> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> ;
+    dct:identifier "D93945A0-F2F6-43bd-B715-B800F476F033" ;
+    dct:description "Aanduiding of de brug waar het overbruggingsdeel bij hoort al dan niet beweegbaar is."@nl ;
+    rdfs:label "overbruggingIsBeweegbaar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbenoemdterrein/overigbenoemdterreinidentificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbenoemdterrein> ;
+    rdfs:range xsd:string ;
+    dct:identifier "36805A09-9486-463a-8F72-25044E2C3CAB" ;
+    dct:description "De unieke aanduiding van een OVERIG BENOEMD TERREIN."@nl ;
+    rdfs:label "overigBenoemdTerreinIdentificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel/plusfunctie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "902E9ABF-371D-4c3c-A4EE-F2296AFAA8A7" ;
+    dct:description "Specificatie van het soort ondersteunend wegdeel, nadere classificatie."@nl ;
+    rdfs:label "plusFunctie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/plusfunctiewegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/functiewegplus> ;
+    dct:identifier "7EB0CB23-5E58-46bb-98F3-F208760B7F16" ;
+    dct:description "Specificatie van het hoofdgebruiksdoel van het wegdeel, nadere classificatie."@nl ;
+    rdfs:label "plusFunctieWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel/plusfysiekvoorkomen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenonbegroeidterreinplus> ;
+    dct:identifier "A9D0C5D4-9039-48c7-B770-D3E231430280" ;
+    dct:description "Nadere classificatie van het soort terrein, ingedeeld naar de uiterlijke verschijningsvorm."@nl ;
+    rdfs:label "plusFysiekVoorkomen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/plusfysiekvoorkomen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenbegroeidterreinplus> ;
+    dct:identifier "8533C7DF-1960-410e-ADDE-7D9DA68A1FCD" ;
+    dct:description "Nadere classificatie van het vegetatiedek, ingedeeld naar soort vegetatie."@nl ;
+    rdfs:label "plusFysiekVoorkomen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel/plusfysiekvoorkomen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenondersteunendwegdeelplus> ;
+    dct:identifier "7B5C4E43-F9C4-440d-9BB6-C21D02BF4582" ;
+    dct:description ", nadere classificatie."@nl ;
+    rdfs:label "plusFysiekVoorkomen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/plusfysiekvoorkomenwegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/fysiekvoorkomenwegplus> ;
+    dct:identifier "8FB407D2-282F-4a11-874E-BF4424A00F1F" ;
+    dct:description "Mate waarin het wegdeel al of niet verhard is, nadere classificatie."@nl ;
+    rdfs:label "plusFysiekVoorkomenWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwaterdeel/plustype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwaterdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2CE40486-E044-44f5-AA59-75C2ACA82E4E" ;
+    dct:description "Specificatie van het soort water, nadere classificatie."@nl ;
+    rdfs:label "plusType"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement/plustypeinrichtingselement> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselementplus> ;
+    dct:identifier "19BCDF8D-2515-449d-AFC4-F42705FC0C47" ;
+    dct:description "Specificatie van het soort inrichtingselement."@nl ;
+    rdfs:label "plusTypeInrichtingselement"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/waterdeel/plustypewaterdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/waterdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringwaterplus> ;
+    dct:identifier "80256EB0-F776-4af5-806E-6475AF6D43C0" ;
+    dct:description "Specificatie van het soort water, nadere classificatie."@nl ;
+    rdfs:label "plusTypeWaterdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/postcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "f3b39102-1884-447d-977b-29ed0bee321d" ;
+    dct:description "Aanduiding van het postcodegebied waarbinnen het beheerobject ligt. Overname uit 6 positie postcodekaart"@nl ;
+    rdfs:label "postcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/relatievehoogteligging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "faace423-02f7-45a7-9e15-8d7d47599077" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het beheerobject. Eenheid: Reeks"@nl ;
+    rdfs:label "relatieveHoogteligging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel/relatievehoogteligging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3D4F6BFD-DC1F-468f-A7E4-BE99E3BE9258" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het ondersteunend wegdeel"@nl ;
+    rdfs:label "relatieveHoogteligging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/relatievehoogteligging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "44D8C1ED-4A4A-4d78-962C-B225656646DA" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het begroeid terreindeel"@nl ;
+    rdfs:label "relatieveHoogteligging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel/relatievehoogteligging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A4A8DA6F-E095-4292-8D9F-52326E5E1B4E" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het onbegroeid terreindeel"@nl ;
+    rdfs:label "relatieveHoogteligging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwaterdeel/relatievehoogteligging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwaterdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1AD6558B-CDAD-4c8d-92C2-82934B4C9B02" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het ondersteunend waterdeel"@nl ;
+    rdfs:label "relatieveHoogteligging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/relatievehoogteligging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BE596B0E-CA84-4f1c-A044-727B2D140CEA" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het pand"@nl ;
+    rdfs:label "relatieveHoogteligging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie/relatievehoogteligginggebouwinstallatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4DB6B5ED-A802-4530-A4FA-8C55E26017E4" ;
+    dct:description "Aanduiding voor de relatieve hoogte van de gebouwinstallatie."@nl ;
+    rdfs:label "relatieveHoogteliggingGebouwinstallatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement/relatievehoogteligginginrichtingselement> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F519AFED-F353-415c-9404-A0698A6847D7" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het inrichtingselement."@nl ;
+    rdfs:label "relatieveHoogteliggingInrichtingselement"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel/relatievehoogteliggingkunstwerkdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7A0E9CB8-637E-4a21-B74E-8C54FE6601D5" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het kunstwerkdeel"@nl ;
+    rdfs:label "relatieveHoogteliggingKunstwerkdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel/relatievehoogteliggingoverbruggingsdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7E592151-FDB1-415b-8576-15AD19D61D65" ;
+    dct:description "Aanduiding voor de relatieve hoogte van de overbruggingsdeel."@nl ;
+    rdfs:label "relatieveHoogteliggingOverbruggingsdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk/relatievehoogteliggingoverigbouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> ;
+    rdfs:range xsd:string ;
+    dct:identifier "74D941DD-9D4F-4f04-917A-E63D2F3DCA57" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het overig bouwwerk."@nl ;
+    rdfs:label "relatieveHoogteliggingOverigBouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/relatievehoogteliggingoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "66963A96-11F9-4da4-9474-B5717651D2DA" ;
+    dct:description "Aanduiding voor de relatieve hoogte van de overige scheiding."@nl ;
+    rdfs:label "relatieveHoogteliggingOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding/relatievehoogteliggingscheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "20D63D8F-037F-4111-B493-8CD4141B72C2" ;
+    dct:description "Aanduiding voor de relatieve hoogte van de scheiding."@nl ;
+    rdfs:label "relatieveHoogteliggingScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/spoor/relatievehoogteliggingspoor> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/spoor> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9BEE1C2F-A905-40dd-8650-6F01B1658260" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het spoor"@nl ;
+    rdfs:label "relatieveHoogteliggingSpoor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/tunneldeel/relatievehoogteliggingtunneldeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/tunneldeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FB6E00EC-CE8D-4211-A718-6EF9680F1512" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het tunneldeel"@nl ;
+    rdfs:label "relatieveHoogteliggingTunneldeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject/relatievehoogteliggingvegetatieobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E5A40653-7542-4ca0-ADFF-6DB70013DC4C" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het vegetatieobject"@nl ;
+    rdfs:label "relatieveHoogteliggingVegetatieobject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/waterdeel/relatievehoogteliggingwaterdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/waterdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "68A66A77-6B87-4c77-A7E5-2AC021F1A452" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het waterdeel"@nl ;
+    rdfs:label "relatieveHoogteliggingWaterdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/relatievehoogteliggingwegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1DF32627-1A89-4452-9C25-CEA12239E5CF" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het wegdeel"@nl ;
+    rdfs:label "relatieveHoogteliggingWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/stadsdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "e01153ca-aad8-4bf6-9e9d-dee8b6597637" ;
+    dct:description "Aanduiding van het stadsdeel waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met woonplaats- of stadsdeelgrenzen Toelichting: Link naar: www.definities.geostandaarden.nl"@nl ;
+    rdfs:label "stadsdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "DE216C25-2452-4e59-A65F-9F383E2544D5" ;
+    dct:description "De status gekoppeld aan de levenscyclus van het begroeid terreindeel."@nl ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwaterdeel/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwaterdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "89448FCB-5740-4c62-92BF-80DB3EA80307" ;
+    dct:description "De status gekoppeld aan de levenscyclus van het ondersteunend waterdeel."@nl ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
+    dct:identifier "E9E38009-52E2-47b4-8F70-C51240C72D0D" ;
+    dct:description "De fase van de levenscyclus van een PAND, waarin het betreffende PAND zich bevindt. Bouwvergunning verleend Niet gerealiseerd pand Bouw gestart Pand in gebruik (niet ingemeten) Pand in gebruik Sloopvergunning verleend Pand gesloopt Pand buiten gebruik Verbouwing pand Pand ten onrechte opgevoerd"@nl ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "08F82F00-1602-4076-9D30-BA3FF30AC153" ;
+    dct:description "De status gekoppeld aan de levenscyclus van het ondersteunend wegdeel."@nl ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "01fa347b-7cb8-4f84-88fa-bc289187b160" ;
+    dct:description "Status van het beheerobject in het inwinningsproces van de geometrie. Wordt gebruikt voor schets- en deifinitieve geometrie."@nl ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "A701EFAF-129B-47f6-A647-625FCBD592D3" ;
+    dct:description "De status gekoppeld aan de levenscyclus van het onbegroeid terreindeel."@nl ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied/statusfunctioneelgebied> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "F853A34E-C541-4d62-9968-FDA1EBC2835C" ;
+    dct:description "De status gekoppeld aan de levenscyclus van het functioneel gebied."@nl ;
+    rdfs:label "statusFunctioneelGebied"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie/statusgebouwinstallatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "33EA2FAD-99A6-4755-976E-C3ADBCD3F5AF" ;
+    dct:description "De status gekoppeld aan de levenscyclus van de gebouwinstallatie."@nl ;
+    rdfs:label "statusGebouwinstallatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement/statusinrichtingselement> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "5E045283-1808-49c0-AEBB-BA41EFF06669" ;
+    dct:description "De status gekoppeld aan de levenscyclus van een inrichtingselement."@nl ;
+    rdfs:label "statusInrichtingselement"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel/statuskunstwerkdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "69629E68-9DC5-4edf-B544-0BEF3E8AFD55" ;
+    dct:description "De status gekoppeld aan de levenscyclus van het kunstwerkdeel."@nl ;
+    rdfs:label "statusKunstwerkdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel/statusoverbruggingsdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "DC869671-B7CC-4972-9884-C4895EE2FBBF" ;
+    dct:description "De status gekoppeld aan de levenscyclus van het overbruggingsdeel."@nl ;
+    rdfs:label "statusOverbruggingsdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk/statusoverigbouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "9B430C7A-137D-4332-AF84-18323DE935AA" ;
+    dct:description "De status gekoppeld aan de levenscyclus van het overig bouwwerk object"@nl ;
+    rdfs:label "statusOverigBouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/statusoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "319F6A03-307C-43dc-A013-8A1EEE3549FA" ;
+    dct:description "De status gekoppeld aan de levenscyclus van de overige scheiding."@nl ;
+    rdfs:label "statusOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding/statusscheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "94F07EDF-BCC6-4326-B29D-1FAE74D224AB" ;
+    dct:description "De status gekoppeld aan de levenscyclus van de scheiding."@nl ;
+    rdfs:label "statusScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/spoor/statusspoor> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/spoor> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "61393BE6-B1E9-438e-A658-8A473C1EFAC0" ;
+    dct:description "De status gekoppeld aan de levenscyclus van het spoor."@nl ;
+    rdfs:label "statusSpoor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/tunneldeel/statustunneldeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/tunneldeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "3390A0A2-482E-4ebd-B483-B8310CC7615A" ;
+    dct:description "De status gekoppeld aan de levenscyclus van het tunneldeel"@nl ;
+    rdfs:label "statusTunneldeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject/statusvegetatieobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "C14289B3-AB85-4323-A1AC-2322CE288438" ;
+    dct:description "De status gekoppeld aan de levenscyclus van he vegetatieobject."@nl ;
+    rdfs:label "statusVegetatieobject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/statusvoortgangbouw> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
+    dct:identifier "9C9C03AB-3ACF-460f-AACE-C47C1BBEB2DC" ;
+    dct:description "De fase van de bouw, verbouw of sloop waarin het betreffende PAND zich bevindt"@nl ;
+    rdfs:label "statusVoortgangBouw"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/waterdeel/statuswaterdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/waterdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "9F50588A-DA02-4e90-B214-7649755F17BB" ;
+    dct:description "De status gekoppeld aan de levenscyclus van het waterdeel."@nl ;
+    rdfs:label "statusWaterdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/statuswegdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statusgeoobject> ;
+    dct:identifier "2E6FA44F-B1B3-4fbc-ACD4-28214BE0BF48" ;
+    dct:description "De status gekoppeld aan de levenscyclus van het wegdeel."@nl ;
+    rdfs:label "statusWegdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/theoretischeindejaar> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "f7908537-267b-4af3-bab5-5474cbd22047" ;
+    dct:description "Jaar dat het beheerobject aan het theoretische einde van haar levensduur is. Eenheid: Jaartal"@nl ;
+    rdfs:label "theoretischEindejaar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/tijdstipregistratie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "93476453-e1ec-499f-af00-f16d9c308cd3" ;
+    dct:description "Formele historie, tijdstip registratie beheerobject. Eenheid: mmddyyyy"@nl ;
+    rdfs:label "tijdstipRegistratie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwaterdeel/type> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwaterdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringondersteunendwater> ;
+    dct:identifier "E049D77D-4A43-4d14-92B9-F5762E19D580" ;
+    dct:description "Specificatie van het soort water."@nl ;
+    rdfs:label "type"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/typebeheerder> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "ef5708fb-d86b-4223-84d3-5e0346e279ba" ;
+    dct:description "Een publiekrechtelijke instantie of (rechts)persoon die toeziet op de instandhouding van o.a. een object, kunstwerk of waterstaatswerk. De typen beheerder zijn conform de indeling in bronhouders (BGT). Toelichting: De waarde wordt gebruikt voor de duiding van het fysieke beheer. De beheerder is de organisatie die verantwoordelijk voor het beheer van het terrein. Dit hoeft niet dezelfde organisatie te zijn die de (juridisch) eigenaar is van het terrein. Beheerder en Bronhouder hebben daarmee geen overlap."@nl ;
+    rdfs:label "typeBeheerder"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/typebeheerderplus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "70fabccb-5b2b-4dad-93a0-9e9882b6b37b" ;
+    dct:description "Nadere aanduiding van de beheerder van het beheerobject."@nl ;
+    rdfs:label "typeBeheerderPlus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/typeeigenaar> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "25ea7bd0-ffbd-4cf8-8abb-810599d99643" ;
+    dct:description "(rechts)persoon die het meest omvattend recht op een zaak heeft . De typen eigenaren zijn conform de indeling in bronhouders (BGT)."@nl ;
+    rdfs:label "typeEigenaar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/typeeigenaarplus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "998821f1-48a1-4e1b-b1a1-24c3301dd7b4" ;
+    dct:description "Nadere aanduiding van de eigenaar van het beheerobject."@nl ;
+    rdfs:label "typeEigenaarPlus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie/typegebouwinstallatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringgebouwinstallatie> ;
+    dct:identifier "138C92E8-36C5-49e8-A463-17A1B409595A" ;
+    dct:description "Specificatie van het soort gebouwinstallatie."@nl ;
+    rdfs:label "typeGebouwinstallatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement/typeinrichtingselement> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringinrichtingselement> ;
+    dct:identifier "72FF19B2-0473-418e-A582-EFEAED4410F0" ;
+    dct:description "Specificatie van de aard van het inrichtingselement."@nl ;
+    rdfs:label "typeInrichtingselement"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/typeligging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0839d438-b285-4a06-b69d-ca1476b566f9" ;
+    dct:description "Aanduiding van de ligging van het beheerobject binnen of buiten de bebouwde kom. Toelichting: Voor de bebouwde komgrens zijn verschillende definities, vanuit verschillende wetten. Suggestie: bebouwde komgrens aanhouden zoals vastgesteld door de gemeente die de eigenaar is van het beheerobject. Zie ook: Wegenverkeerswet, Wegenwet, Omgevingswet"@nl ;
+    rdfs:label "typeLigging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel/typeoverbruggingsdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringoverbruggingsdeel> ;
+    dct:identifier "A23696BB-3CB6-4795-A553-3D01810D3218" ;
+    dct:description "Het soort onderdeel van de brugconstructie."@nl ;
+    rdfs:label "typeOverbruggingsdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding/typeoverigescheiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringoverigescheiding> ;
+    dct:identifier "C3ACF502-F201-4ec9-9993-E0301B09E9CB" ;
+    dct:description "Specificatie van het soort overige scheiding."@nl ;
+    rdfs:label "typeOverigeScheiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject/typevegetatieobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringvegetatieobject> ;
+    dct:identifier "82EE7F79-7BF1-4034-8538-1479ACA349AA" ;
+    dct:description "De specificatie van het soort vrijstaand vegetatieobject."@nl ;
+    rdfs:label "typeVegetatieobject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/waterdeel/typewaterdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/waterdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/typeringwater> ;
+    dct:identifier "E75857C8-752E-43d9-893E-EFC14F1EF5DD" ;
+    dct:description "Specificatie van het soort water"@nl ;
+    rdfs:label "typeWaterdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/versie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "33984FB7-DFB8-495e-932B-C93C77502C0A" ;
+    rdfs:label "versie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/waterschap> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5a41b07f-2d0c-4457-8f05-12f57a37b696" ;
+    dct:description "Aanduiding van het waterschap, waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met waterschapsgrenzen Toelichting: Link naar: www.definities.geostandaarden.nl"@nl ;
+    rdfs:label "waterschap"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel/wegdeeloptalud> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> ;
+    dct:identifier "8D454A46-8068-4606-A66E-731C17B2A842" ;
+    dct:description "Indicatie of het object wel of niet op een hellend vlak ligt."@nl ;
+    rdfs:label "wegdeelOpTalud"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/wijk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "ed77ee65-88fe-4c7c-93c2-3bc64039d298" ;
+    dct:description "Aanduiding van de wijk waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met wijkgrenzen Toelichting: Link naar: www.definities.geostandaarden.nl"@nl ;
+    rdfs:label "wijk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/woonplaats> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "525ec572-c8ab-4b18-805d-b60344ca37d2" ;
+    dct:description "Aanduiding van de woonplaats waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met woonplaats- of stadsdeelgrenzen Toelichting: Link naar: www.definities.geostandaarden.nl"@nl ;
+    rdfs:label "woonplaats"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/zettingsgevoeligheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "e579d633-b325-4861-900b-e730ffd7f19f" ;
+    dct:description "â€˜Zettingsgevoeligâ€™ is de indicatie van de zettingsgevoeligheid van de ondergrond of bodem. Zetting is het proces waar grond onder invloed van een belasting wordt samengedrukt; ook wel het geleidelijk en min of meer gelijkmatig"@nl ;
+    rdfs:label "zettingsgevoeligheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject/zettingsgevoeligheidplus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8a36fdb3-e75c-4b53-9b96-84ed60601895" ;
+    dct:description "Aanduiding voor de mate van zettingsgevoeligheid."@nl ;
+    rdfs:label "zettingsgevoeligheidPlus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object/verwijst_naar> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/beheerobject> ;
+    rdfs:label "verwijst naar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/waterdeel> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwegdeel> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/tunneldeel> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigescheiding> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/begroeidterreindeel> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbenoemdterrein> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/onbegroeidterreindeel> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/functioneelgebied> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/spoor> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/scheiding> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/wegdeel> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/vegetatieobject> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ondersteunendwaterdeel> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/gebouwinstallatie> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/inrichtingselement> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kunstwerkdeel> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overbruggingsdeel> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/overigbouwwerk> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/beheer_openbare_ruimte/geo_object> .

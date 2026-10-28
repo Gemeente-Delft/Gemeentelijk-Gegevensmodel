@@ -1,0 +1,587 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/onderwijs_leerlingen>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/inschrijving> a owl:Class ;
+    rdfs:label "Inschrijving"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Deelname van iemand aan een opleiding bij een onderwijsinstelling."@nl ;
+    dct:identifier "CFFD5F20-5FA9-4d93-AD34-6867D64A58B9" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerjaar> a owl:Class ;
+    rdfs:label "Leerjaar"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Is de codering van het jaar of het niveau waarin de leerling onderwijs volgt."@nl ;
+    dct:identifier "D7ECEB92-BE50-4e30-9F27-54A008BC75DF" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling> a owl:Class ;
+    rdfs:label "Leerling"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Mens die een opleiding volgt, heeft gevolgd of gaat volgen of opgaat of is opgegaan voor een toets. (Bron: KOI)"@nl ;
+    dct:identifier "266057AF-58BD-42e1-B4D5-16EB266B9B7A" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/locatie> a owl:Class ;
+    rdfs:label "Locatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De locatie beschrijft middels coördinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)"@nl ;
+    dct:identifier "3119A4DB-BB23-4adc-98BD-82F2D7996C6B" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/loopbaanstap> a owl:Class ;
+    rdfs:label "Loopbaanstap"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een logische en ook uitdagende stap naar een volgende functie binnen dezelfde functiefamilie of een andere, op hetzelfde schaalniveau of op een schaalniveau hoger."@nl ;
+    dct:identifier "0E3DE26B-C535-4a03-98A4-8D36DC3D5297" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/onderwijsloopbaan> a owl:Class ;
+    rdfs:label "Onderwijsloopbaan"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Loopbaan als leerling in het onderwijs; loopbaan als leerling op school; tijd die iemand als leerling heeft doorgebracht op school, vaak met de bijgedachte aan de daarbij opgedane kennis en ervaring; tijd die men schoolgegaan heeft; onderwijscarrière; schoolloopbaan; schoolcarrière; schooltijd; de schooljaren"@nl ;
+    dct:identifier "F47ACE79-C476-479f-A3A3-729E65AF3D32" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/onderwijssoort> a owl:Class ;
+    rdfs:label "Onderwijssoort"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Typologie voor onderwijs"@nl ;
+    dct:identifier "8AF9FAE6-13D8-484d-97F5-2A3839BC8618" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/school> a owl:Class ;
+    rdfs:label "School"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Gebouw in gebruik voor basis, middelbaar of hoger onderwijs."@nl ;
+    dct:identifier "32DFC5DD-79D9-45d5-8F9D-7D5125961817" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/startkwalificatie> a owl:Class ;
+    rdfs:label "Startkwalificatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Diploma van een opleiding als bedoeld in de WEB of een diploma hoger algemeen voortgezet onderwijs of voorbereidend wetenschappelijk onderwijs als bedoeld in de WVO;"@nl ;
+    dct:identifier "E8301577-1A49-43cf-A2CA-0F042584EBB3" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/uitschrijving> a owl:Class ;
+    rdfs:label "Uitschrijving"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Beeindiging van een inschrijving van een leerling bij een school"@nl ;
+    dct:identifier "133AF611-9FA0-4a09-BF12-74C5FA5F6F60" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> a owl:Class ;
+    rdfs:label "Vastgoedobject"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Perceel of vastgoed waar de gemeente een zakelijk recht heeft, en optioneel verhuurd, verpacht of anderzinds aan een derde partij."@nl ;
+    dct:identifier "28A6F2AC-5AB1-4f25-8876-931152CA28E0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/onderwijstype> a owl:Class ;
+    rdfs:label "Onderwijstype"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "354AA899-00C3-4c36-93F7-0B364D331C93" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> a owl:Class ;
+    rdfs:label "Boolean"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "9BD0FBCB-1A9E-4cab-9280-0EBC428E38F7" .
+
+# Enumeration: BOOLEAN
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean/ja>
+    rdfs:label "Ja"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean/leeg>
+    rdfs:label "Leeg"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean/nee>
+    rdfs:label "Nee"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean/onbekend>
+    rdfs:label "Onbekend"@nl .
+
+# Enumeration: ONDERWIJSTYPE
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/onderwijstype/havo>
+    rdfs:label "HAVO"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/onderwijstype/vmbo_b>
+    rdfs:label "VMBO-B"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/onderwijstype/vmbo_k>
+    rdfs:label "VMBO-K"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/onderwijstype/vmbo_t>
+    rdfs:label "VMBO-T"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/onderwijstype/vwo>
+    rdfs:label "VWO"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/co2uitstoot> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "E3142621-85D0-440b-9AF6-6F1FEA09537F" ;
+    dct:description "Jaarlijkse CO2 uitstoot in ton CO2-e"@nl ;
+    rdfs:label "CO2Uitstoot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/wozwaarde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "58B023FA-6BE5-4d19-B610-49FF44127625" ;
+    rdfs:label "WOZWaarde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/aantaletages> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "AA2D81C2-63BE-433b-BB31-EB646C491F3C" ;
+    rdfs:label "aantalEtages"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/aantalparkeerplaatsen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "299B6BC3-B7C4-49b6-BAED-A024283E7D04" ;
+    rdfs:label "aantalParkeerplaatsen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/aantalrioleringen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "522B15B0-0C55-4243-81F9-A4360C7995F1" ;
+    rdfs:label "aantalRioleringen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/locatie/adres> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/locatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FB97AF5F-4C8D-49ee-8CBC-47A2362EAFBA" ;
+    rdfs:label "adres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/adresaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A97A81BF-C5BC-49e0-9101-9732D3DFD040" ;
+    rdfs:label "adresaanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/afgekochteerfpacht> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "D64A858C-3726-42c3-8663-CFE49FBFF0D9" ;
+    rdfs:label "afgekochteErfpacht"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/afgesprokenconditiescore> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/nen2767_conditiescore> ;
+    dct:identifier "6853B752-006D-49ae-923D-AC97B53B0229" ;
+    rdfs:label "afgesprokenConditiescore"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/afkoopwaarde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "09914432-1061-48f2-B199-ED98AB2B5C5D" ;
+    rdfs:label "afkoopwaarde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/asbestrapportageaanwezig> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "5B5F0462-9CCC-40fc-95CA-20F1A8CFB5C7" ;
+    rdfs:label "asbestrapportageAanwezig"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/bedragaankoop> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "179DAA12-727F-433d-96EC-0A4E5F22816C" ;
+    rdfs:label "bedragAankoop"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/bestemmingsplan> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "ACD164B1-E1B4-4592-B076-6F3876FDEB7E" ;
+    rdfs:label "bestemmingsplan"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/boekwaarde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "884FF02D-5C9C-4fee-8600-AD87EC62294E" ;
+    rdfs:label "boekwaarde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/bouwjaar> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "00D8AEB1-1030-47f4-814A-8DA2011856EF" ;
+    rdfs:label "bouwjaar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/bouwwerk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "717965C1-2785-4f8b-9D16-FCBE4428F7D2" ;
+    rdfs:label "bouwwerk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/bovenliggendniveau> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "86AADC85-1264-4834-9DE5-F4478198B998" ;
+    rdfs:label "bovenliggendNiveau"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/bovenliggendniveaucode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7BE787BE-BDAF-4a3d-B571-83E8C4746631" ;
+    rdfs:label "bovenliggendNiveaucode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/brutovloeroppervlakte> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "A2306622-C899-4357-8F7B-7D45298AF3DA" ;
+    rdfs:label "brutoVloeroppervlakte"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/conditiescore> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/nen2767_conditiescore> ;
+    dct:identifier "B433712B-A1EB-4e37-ABFC-08407ADAA718" ;
+    rdfs:label "conditiescore"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/inschrijving/datum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/inschrijving> ;
+    rdfs:range xsd:string ;
+    dct:identifier "ADBA3E5C-CAAC-44f1-AE93-396D86091B42" ;
+    rdfs:label "datum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/uitschrijving/datum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/uitschrijving> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C07B8612-93C7-460b-8E51-4D7D4C2DC031" ;
+    rdfs:label "datum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/datumafstoten> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:date ;
+    dct:identifier "6C30B407-E956-485a-B9F3-30B2731956BF" ;
+    rdfs:label "datumAfstoten"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/startkwalificatie/datumbehaald> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/startkwalificatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FE76A273-A0B3-4028-9EAE-8E546A29B153" ;
+    rdfs:label "datumBehaald"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/datumberekeningoppervlak> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:date ;
+    dct:identifier "19113077-AEA1-426e-8DBB-EA3C83F0423D" ;
+    rdfs:label "datumBerekeningOppervlak"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/datumeigendom> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:date ;
+    dct:identifier "C3D7BE2F-7C18-4ce0-B9E3-A6E36D334864" ;
+    rdfs:label "datumEigendom"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/datumverkoop> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:date ;
+    dct:identifier "69027EB4-D944-4623-9EFF-325589265042" ;
+    rdfs:label "datumVerkoop"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/deelportefeuille> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C3FCB8BA-88CB-4cc3-9CAE-E43344A61C8F" ;
+    rdfs:label "deelportefeuille"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/uitschrijving/diplomabehaald> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/uitschrijving> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "C80129DA-1725-46ff-828A-A57944C5E46E" ;
+    rdfs:label "diplomaBehaald"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/energiekosten> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "3EBA54DF-9C3E-4d47-9F73-75B10A5E04B9" ;
+    dct:description "Jaarlijkse energiekosten"@nl ;
+    rdfs:label "energiekosten"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/energielabel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/energielabel_gebouwen> ;
+    dct:identifier "3B58F194-3105-4041-B99B-90D011830879" ;
+    rdfs:label "energielabel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/energieverbruik> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "96A03580-3DBD-4d09-808B-79ADC4C1BA7C" ;
+    dct:description "jaarlijks energieverbruik in Kwh"@nl ;
+    rdfs:label "energieverbruik"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/fiscalewaarde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5ED1B87F-F1F4-4451-9BAE-242C267E9D1F" ;
+    rdfs:label "fiscaleWaarde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/foto> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BA3834D8-2614-4115-9A00-0DE6745BB44F" ;
+    rdfs:label "foto"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/gearchiveerd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "0CC22B7C-CAD3-4494-A244-04986EEADA11" ;
+    rdfs:label "gearchiveerd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/herbouwwaarde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B2487EEF-53FD-4463-A5DD-DD54217D4152" ;
+    rdfs:label "herbouwwaarde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/hoofdstuk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AF97ACEB-152F-4574-8A99-6B45395A18DB" ;
+    rdfs:label "hoofdstuk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7341B753-2057-49cd-9449-293719957072" ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerjaar/jaareinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerjaar> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "9BCB2AB1-71BF-45e8-A456-E3C4641E0ECC" ;
+    rdfs:label "jaarEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/jaarlaatsterenovatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FFB98B25-354A-4845-AA9E-C733A4A9D1A7" ;
+    rdfs:label "jaarLaatsteRenovatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerjaar/jaarstart> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerjaar> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "3E99966A-6450-416c-97AC-BECA7CFBC2F5" ;
+    rdfs:label "jaarStart"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/loopbaanstap/klas> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/loopbaanstap> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "3B384706-724F-4ee4-BC93-6932E3BEF3DC" ;
+    rdfs:label "klas"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/kostenplaats> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "3905E9D7-1972-49c7-B74D-7EB6A0510101" ;
+    rdfs:label "kostenplaats"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling/kwetsbarejongere> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "70DE2997-48B9-4f71-B6BF-2B9C3163F429" ;
+    rdfs:label "kwetsbareJongere"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/locatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9490FB83-B960-4c74-B22B-38ADAADB67C8" ;
+    rdfs:label "locatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/marktwaarde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6D4A37AC-3A78-46e3-B990-F742930C0DD2" ;
+    rdfs:label "marktwaarde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/monument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/monumenttypering> ;
+    dct:identifier "AA070C19-03E6-4c20-A9BE-92F926BA1405" ;
+    rdfs:label "monument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/school/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/school> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0620C831-06F0-4948-B7C4-0A6DB4213CA0" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "276F36DB-67AF-4d06-B244-10BD6F479146" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/objectstatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9C532F8C-638F-45b6-9FA4-DB7836358443" ;
+    rdfs:label "objectstatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/objectstatuscode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4FE919E5-7EE7-431b-97AD-FFB771FF0483" ;
+    rdfs:label "objectstatuscode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/objecttype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3A4B46CC-C9E8-43ff-9448-8DAEFF8C5C3C" ;
+    rdfs:label "objecttype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/objecttypecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1E6968B9-F940-4cf7-BA5D-34579D8BF458" ;
+    rdfs:label "objecttypecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7FD90F1D-7CBB-42f8-89F4-2662C6A8CC23" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/onderwijssoort/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/onderwijssoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "72EAD612-12AF-4035-ACF0-76987D815004" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/onderhoudscategorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9A1B28B7-AC46-4e1d-BA4C-9B45B8480021" ;
+    rdfs:label "onderhoudscategorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/loopbaanstap/onderwijstype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/loopbaanstap> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/onderwijstype> ;
+    dct:identifier "D730A5E4-33C0-46e8-B3D5-8A5ADF0255B6" ;
+    rdfs:label "onderwijstype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/onderwijssoort/onderwijstype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/onderwijssoort> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/onderwijstype> ;
+    dct:identifier "506E17EC-B911-448e-A485-D944629C43EE" ;
+    rdfs:label "onderwijstype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/oppervlaktekantoor> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "7B706FA1-779F-4322-AADC-85E0E6F9F275" ;
+    rdfs:label "oppervlakteKantoor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/portefeuille> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8629AC6C-D35A-4acf-AFEF-4926C119CCF2" ;
+    rdfs:label "portefeuille"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/portefeuillecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FE722782-3E48-4fa0-9651-C939A0AA360A" ;
+    rdfs:label "portefeuillecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/provincie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5AFC63B7-07DE-4a67-A3FF-31A1743E20A9" ;
+    rdfs:label "provincie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/loopbaanstap/schooljaar> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/loopbaanstap> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6795B05F-6349-404c-A5E5-B0D9D8F8B82A" ;
+    rdfs:label "schooljaar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/toelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "68EB19D7-769F-488b-9D53-5699CC5946B9" ;
+    rdfs:label "toelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/verhuurbaarvloeroppervlak> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "865074AF-B55C-4bd0-B4B2-1219C141F845" ;
+    rdfs:label "verhuurbaarVloeroppervlak"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/verkoopbaarheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "762102CC-B9F8-4270-8D75-ECECD95F286A" ;
+    rdfs:label "verkoopbaarheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/verkoopbedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "55E22C81-289E-4e5f-AF60-68D665915FD1" ;
+    rdfs:label "verkoopbedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/verzekerdewaarde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A7252277-C7DB-42ad-8F54-EE768D2D7675" ;
+    rdfs:label "verzekerdeWaarde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/waardegrond> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "324D4BE8-BE1B-4d7c-AD28-A3E9D0068EBE" ;
+    rdfs:label "waardeGrond"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/waardeopstal> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "752A37F4-680B-4a16-B29F-10D094064735" ;
+    rdfs:label "waardeOpstal"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject/wijk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3377FAC7-7098-4fcf-997D-B37CED2CFCE6" ;
+    rdfs:label "wijk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/school/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/school> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/uitschrijving> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/school/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/school> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/onderwijssoort> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/school/kent> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/school> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/onderwijsloopbaan> ;
+    rdfs:label "kent"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/onderwijsloopbaan/> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/onderwijsloopbaan> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/loopbaanstap> ;
+    rdfs:label ""@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/school/school_heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/school> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/locatie> ;
+    rdfs:label "school heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/locatie> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoedobject> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/uitschrijving> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/onderwijsloopbaan> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/startkwalificatie> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/leerling> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/inschrijving> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/inschrijving/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/inschrijving> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijs/school> ;
+    rdfs:label "heeft"@nl .

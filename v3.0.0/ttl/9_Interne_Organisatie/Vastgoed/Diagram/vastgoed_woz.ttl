@@ -1,0 +1,1000 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/vastgoed_woz>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/locatieaanduidingwozobject> a owl:Class ;
+    rdfs:label "LocatieaanduidingWozObject"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Nadere aanduiding van het WOZ-object"@nl ;
+    dct:identifier "0B3F8A89-F21E-4bea-9620-8D6713AB632C" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/woz_belang> a owl:Class ;
+    rdfs:label "WOZ-Belang"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "hetgeen waaraan een persoon waarde hecht; zaak die of vorderingsrecht dat op geld waardeerbaar is, aan gevaar onderhevig en bij de wet niet uitgezonderd. De (rechts-)persoon die door de gemeente is aangewezen als \"belanghebbende eigenaar\", \"belanghebbende gebruiker\" of eventueel \"medebelanghebbende\" van het WOZ-object."@nl ;
+    dct:identifier "E71DC5EC-EEEB-4d27-A3C1-B46FD34AD41B" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> a owl:Class ;
+    rdfs:label "Pand"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een pand is een kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is. Beschrijving: Een zelfstandig bouwwerk, zowel zelfstandig in de manier hoe het is gebouwd als waarvoor het is bedoeld om te gebruiken. Een pand voldoet ook aan de volgende eisen: een pand is direct en voor lange tijd met de aarde verbonden (een pand is niet makkelijk te verplaatsen) en een pand kun je binnengaan en afsluiten. Een eenheid kan alleen een pand zijn als het voldoet aan alle eisen uit de Catalogus BAG 2018."@nl ;
+    dct:identifier "11595AD8-CE67-40dd-BDA9-489DC7D244ED" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> a owl:Class ;
+    rdfs:label "Nummeraanduiding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats."@nl ;
+    dct:identifier "32A22BC6-89EC-44af-8D7D-79B12311AE2D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/adresseerbaarobject> a owl:Class ;
+    rdfs:label "AdresseerbaarObject"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een adresseerbaar object is een object waaraan formeel adressen kunnen en moeten worden toegekend: een verblijfsobject, standplaats of ligplaats. Toelichting: Een object dat een adres heeft of krijgt. Adresseerbare objecten zijn: een verblijfsobject, een standplaats en een ligplaats."@nl ;
+    dct:identifier "8A04280B-E0B4-4e36-B448-C99750393D0D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> a owl:Class ;
+    rdfs:label "OpenbareRuimte"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen. Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam)."@nl ;
+    dct:identifier "BFE30E32-8CB9-4272-A559-9FB3FD74DACC" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_waarde> a owl:Class ;
+    rdfs:label "WOZ-Waarde"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De op grond van de Wet WOZ vastgestelde waarde van het WOZ-object naar de genoemde waardepeildatum."@nl ;
+    dct:identifier "7C387F42-EC1A-4a78-B09B-533AAB03C0C2" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> a owl:Class ;
+    rdfs:label "KadastraleOnroerendeZaak"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een geregistreerd goed waarvoor bij overdracht of vestiging van rechten inschrijving in de openbare registers van het Kadaster is vereist zijnde een KADASTRAAL PERCEEL of een APPARTEMENTSRECHT."@nl ;
+    dct:identifier "9775E778-DBF8-4122-94CE-551466B62F46" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> a owl:Class ;
+    rdfs:label "Rechtspersoon"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON"@nl ;
+    dct:identifier "9DF5AC43-3673-4b9a-BB5E-6DCA7BE28835" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object> a owl:Class ;
+    rdfs:label "WOZ-object"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet worden bepaald en vastgesteld."@nl ;
+    dct:identifier "CB7BA76D-0793-4d5a-9596-533C5BC56BBF" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_deelobject> a owl:Class ;
+    rdfs:label "WOZ-deelobject"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Aanduiding van afzonderlijke elementen (delen van het object, bijzondere waarderelevante factoren) die voor de onderbouwing van de vastgestelde waarde van belang zijn."@nl ;
+    dct:identifier "EEC30588-0E12-41c9-977E-C885A0A7EDC3" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/referentielijsten/soortwozobject> a owl:Class ;
+    rdfs:label "SoortWOZObject"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De mogelijke codes waarin een soort object kan worden uitgedrukt conform de uniforme soort objectcodelijst van de Waarderingskamer"@nl ;
+    dct:identifier "3741181A-07D0-4f62-B076-B3318266500F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> a owl:Class ;
+    rdfs:label "Boolean"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "9BD0FBCB-1A9E-4cab-9280-0EBC428E38F7" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/aanduidingeigenaargebruiker> a owl:Class ;
+    rdfs:label "aanduidingEigenaarGebruiker"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "E5990F7B-3BD5-4e8f-9595-1F50FD952BD5" .
+
+# Enumeration: AANDUIDINGEIGENAARGEBRUIKER
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/aanduidingeigenaargebruiker/eigenaar>
+    rdfs:label "eigenaar"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/aanduidingeigenaargebruiker/eigenaar_gebruiker>
+    rdfs:label "eigenaar-gebruiker"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/aanduidingeigenaargebruiker/gebruiker>
+    rdfs:label "gebruiker"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/aanduidingeigenaargebruiker/leeg>
+    rdfs:label "Leeg"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/aanduidingeigenaargebruiker/medebelanghebbende>
+    rdfs:label "medebelanghebbende"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/aanduidingeigenaargebruiker/onbekend>
+    rdfs:label "Onbekend"@nl .
+
+# Enumeration: BOOLEAN
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean/ja>
+    rdfs:label "Ja"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean/leeg>
+    rdfs:label "Leeg"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean/nee>
+    rdfs:label "Nee"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean/onbekend>
+    rdfs:label "Onbekend"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/huisnummerrange_even_en_oneven_nummers> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5866E686-87DC-45eb-B3B5-ADFD4F4D16E1" ;
+    dct:description "Het laagste en het hoogste huisnummer van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE in die gevallen dat aan één of beide zijden van de OPENBARE RUIMTE zowel even als oneven huisnummers voorkomen dan wel dat even en/of oneven huisnummers aan beide zijden van de openbare ruimte voorkomen."@nl ;
+    rdfs:label "Huisnummerrange even en oneven nummers"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/huisnummerrange_even_nummers> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E02CA437-4A78-428d-A283-CBB4B281112B" ;
+    dct:description "Het laagste en het hoogste huisnummer, zijnde even getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE."@nl ;
+    rdfs:label "Huisnummerrange even nummers"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/huisnummerrange_oneven_nummers> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1C1E6E3F-DE0F-4975-BC32-7924F24AA023" ;
+    dct:description "Het laagste en het hoogste huisnummer, zijnde oneven getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE."@nl ;
+    rdfs:label "Huisnummerrange oneven nummers"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/kvknummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C43F0DE4-C49D-442f-B7F6-157CF378EBE8" ;
+    rdfs:label "KVKnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_deelobject/wozdeelobjectnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_deelobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "53F98DF1-FDCA-471d-9729-A082B4D943C9" ;
+    dct:description "Uniek identificatienummer voor het deelobject binnen een WOZ-object."@nl ;
+    rdfs:label "WOZDeelobjectNummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object/wozobjectnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "27BCD38C-2DC8-40c4-B174-C4B0EB402D05" ;
+    dct:description "De unieke aanduiding van een WOZ-OBJECT."@nl ;
+    rdfs:label "WOZObjectnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adresbinnenland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0F55857A-1582-46f5-9621-0E93F8C13310" ;
+    dct:description "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."@nl ;
+    rdfs:label "adresBinnenland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adresbuitenland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F6185DF1-173C-47b0-A94A-55D055A89104" ;
+    dct:description "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."@nl ;
+    rdfs:label "adresBuitenland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adrescorrespondentie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3A5CEB3F-40E2-4890-92D1-61133EE48E9D" ;
+    dct:description "postbus of antwoordnummer"@nl ;
+    rdfs:label "adresCorrespondentie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak/appartementsrechtvolgnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5C7FF171-7066-4b7d-BF03-DE2377256EDC" ;
+    dct:description "Nummer dat het kadastraal object uniek identificeert als een appartementsrecht binnen het complex."@nl ;
+    rdfs:label "appartementsrechtvolgnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/begingeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "68117115-FD7B-457d-A3CC-26B80D331D3A" ;
+    dct:description "Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"@nl ;
+    rdfs:label "beginGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/begingeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "468C1EFF-D57B-4401-B79D-05185F4AD592" ;
+    dct:description "Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"@nl ;
+    rdfs:label "beginGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/begingeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:range xsd:string ;
+    dct:identifier "26197D64-F886-4996-9F5A-A20048F663EE" ;
+    dct:description "Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"@nl ;
+    rdfs:label "begingeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak/begrenzing> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9C5D09AB-2838-4e13-81CB-A4991283B757" ;
+    rdfs:label "begrenzing"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/brutoinhoudpand> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E44327A5-F55F-4e94-98A9-97C73A80AC03" ;
+    dct:description "Aanduiding in kubieke meters van de bruto inhoud van het PAND."@nl ;
+    rdfs:label "brutoInhoudPand"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_deelobject/codewozdeelobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_deelobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "00F26A1A-9D7E-4ca8-B80A-0F9146347826" ;
+    dct:description "Aanduiding van het soort deelobject ten behoeve van een correcte interpretatie van de onderbouwing van de taxatie."@nl ;
+    rdfs:label "codeWOZDeelobject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak/cultuurcodeonbebouwd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "65BFF3F5-9825-4c25-B51B-0C67CB65A899" ;
+    rdfs:label "cultuurcodeOnbebouwd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak/datumbegingeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DE40E6DF-2675-472c-AEB6-C2B605CFDD72" ;
+    dct:description "De datum waarop de gegevens van de kadastrale onroerende zaak voor het eerst geldig zijn geworden."@nl ;
+    rdfs:label "datumBeginGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/locatieaanduidingwozobject/datumbegingeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/locatieaanduidingwozobject> ;
+    rdfs:range xsd:date ;
+    dct:identifier "1B25E7B1-3072-4d28-9142-77D1CE9A3AF5" ;
+    rdfs:label "datumBeginGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/woz_belang/datumbegingeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/woz_belang> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5328D6C0-4200-4052-B044-C9279F5C0A02" ;
+    rdfs:label "datumBeginGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_deelobject/datumbegingeldigheiddeelobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_deelobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5CDB5EA8-D0DE-45df-B5DE-B49C6E48859D" ;
+    dct:description "Een aanduiding op welk tijdstip een deelobject is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidDeelobject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/referentielijsten/soortwozobject/datumbegingeldigheidsoortobjectcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/referentielijsten/soortwozobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F29EED5E-9542-4b0a-A259-6E22B424AABF" ;
+    dct:description "De datum waarop de soort objectcode is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidSoortObjectcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object/datumbegingeldigheidwozobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CED76C75-69FF-48bc-AD06-73B5A6D12503" ;
+    dct:description "Een aanduiding op welk tijdstip een object is ontstaan."@nl ;
+    rdfs:label "datumBeginGeldigheidWOZObject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0D4C18D6-F315-433a-BC40-19DEE0012474" ;
+    dct:description "De datum waarop de object in de BAG formeel is ingetrokken."@nl ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "39766222-EB47-436e-A46A-1FBE5A34BC0E" ;
+    dct:description "De datum waarop de object in de BAG formeel is ingetrokken."@nl ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:range xsd:date ;
+    dct:identifier "94129BBF-FCE1-40b4-BA52-B9D57C598980" ;
+    dct:description "De datum waarop de object in de BAG formeel is ingetrokken."@nl ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/locatieaanduidingwozobject/datumeindegeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/locatieaanduidingwozobject> ;
+    rdfs:range xsd:date ;
+    dct:identifier "99A106BB-060E-44d5-9C01-226519AC6AF4" ;
+    rdfs:label "datumEindeGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak/datumeindegeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7BC9A1AB-479E-482b-A469-700FC66F7A5F" ;
+    dct:description "De datum waarop de gegevens van de kadastrale onroerende zaak voor het laatst geldig zijn geweest."@nl ;
+    rdfs:label "datumEindeGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/woz_belang/datumeindegeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/woz_belang> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3260389B-F22F-475a-A244-C70B419B27A2" ;
+    rdfs:label "datumEindeGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_deelobject/datumeindegeldigheiddeelobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_deelobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D3873A5F-CA86-4689-B2F0-A8309A2572E3" ;
+    dct:description "Een aanduiding op welk tijdstip een deelobject is beëindigd."@nl ;
+    rdfs:label "datumEindeGeldigheidDeelobject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/referentielijsten/soortwozobject/datumeindegeldigheidsoortobjectcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/referentielijsten/soortwozobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0F0D181F-218A-4c20-9925-23846CACC95E" ;
+    dct:description "De datum waarop de soort objectcode is opgeheven."@nl ;
+    rdfs:label "datumEindeGeldigheidSoortObjectcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object/datumeindegeldigheidwozobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "670E4E61-818F-43fd-94FE-F217951942C3" ;
+    dct:description "Een aanduiding op welk tijdstip een object is beëindigd."@nl ;
+    rdfs:label "datumEindeGeldigheidWOZObject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/datumingang> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:range xsd:date ;
+    dct:identifier "9F7067E1-9622-4116-8F6A-E803F9057162" ;
+    dct:description "Datum waarop het object is ontstaan"@nl ;
+    rdfs:label "datumIngang"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/datumingang> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DD689A3D-FFDB-4724-96D8-60C37EF5B4CD" ;
+    dct:description "Datum waarop het object is ontstaan"@nl ;
+    rdfs:label "datumIngang"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/datumingang> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "72A9A375-C988-4049-A15C-9842A5CF1FE4" ;
+    dct:description "Datum waarop het object is ontstaan"@nl ;
+    rdfs:label "datumIngang"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_waarde/datumpeilingtoestand> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_waarde> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D5ABCC68-D69F-40d3-BCE9-918254C46256" ;
+    dct:description "Het in artikel 18 van de Wet WOZ bedoelde moment waarop de staat van de onroerende zaak in formele zin maatgevend is voor de waardebepaling."@nl ;
+    rdfs:label "datumPeilingToestand"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_waarde/datumwaardepeiling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_waarde> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CD24F25E-AC4B-4b42-9CEB-500DE79D7307" ;
+    dct:description "De datum waarnaar de waarde van het WOZ-object wordt bepaald."@nl ;
+    rdfs:label "datumWaardepeiling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object/datumwaardepeiling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3130F896-2F5F-4011-B9CA-F7764966EFE5" ;
+    dct:description "De laatst bekende datum waarnaar de waarde van het WOZ-object wordt bepaald."@nl ;
+    rdfs:label "datumWaardepeiling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/documentdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "6F3B39DF-602D-4788-8EA6-74AC4CF91C57" ;
+    dct:description "De datum waarop het brondocument is vastgesteld"@nl ;
+    rdfs:label "documentdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/documentdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "26F0FB4F-570B-418b-80C2-0EB7E4D31140" ;
+    dct:description "De datum op basis waarvan een opname of mutatie van gegevens ten aanzien van een BAG-object heeft plaatsgevonden."@nl ;
+    rdfs:label "documentdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/documentdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "C988BAFF-5040-464e-8AE0-C7B6F9A0D51D" ;
+    rdfs:label "documentdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/documentnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "67F64B20-A54C-46c4-9543-3BA9DD8CF0C9" ;
+    dct:description "Het unieke nummer van het brondocument"@nl ;
+    rdfs:label "documentnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/documentnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "4811C4E7-CD29-4f94-B5C3-70889D122E3A" ;
+    dct:description "Het unieke nummer van het brondocument"@nl ;
+    rdfs:label "documentnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/documentnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AC7539E7-401A-453e-A3E2-8C83E6F4B3D8" ;
+    dct:description "Het unieke nummer van het brondocument"@nl ;
+    rdfs:label "documentnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/woz_belang/eigenaargebruiker> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/woz_belang> ;
+    rdfs:range xsd:string ;
+    dct:identifier "41D10A20-6622-4240-AC87-0B9AB1E5F345" ;
+    rdfs:label "eigenaarGebruiker"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/eindgeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2FC0D831-3DD1-4e7d-9F3A-660A03F61DFE" ;
+    dct:description "Definitie EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid. Beschrijving Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."@nl ;
+    rdfs:label "eindGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/eindgeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E5EA4B2D-B8B9-48da-AE7A-078898615F40" ;
+    dct:description "Definitie EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid. Beschrijving Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."@nl ;
+    rdfs:label "eindGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/eindegeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E1673E1A-81E0-4995-B7A4-608018C47346" ;
+    dct:description "Definitie EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid. Beschrijving Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."@nl ;
+    rdfs:label "eindeGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/emailadres> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D003FAB1-3C25-4b00-9247-B6D6CA5155F9" ;
+    dct:description "Elektronisch postadres waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "emailadres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/faxnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6E61DBA6-E0F0-47bd-9BA5-1D8A04C0EAA6" ;
+    dct:description "Faxnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "faxnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object/gebruikscode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/soortgebruik> ;
+    dct:identifier "5994AACA-C8F3-470f-A38E-18039CC329C2" ;
+    dct:description "Aanduiding van het feitelijk gebruik van een object zoals dat ten grondslag heeft gelegen aan de waardebepaling en voor zover relevant voor de afnemers, uitgedrukt in een code."@nl ;
+    rdfs:label "gebruikscode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/geconstateerd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
+    dct:identifier "D5F1A8EA-14DD-4c27-AC7B-902242F1E034" ;
+    dct:description "Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname"@nl ;
+    rdfs:label "geconstateerd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/geconstateerd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
+    dct:identifier "75A91710-56B3-4cb5-8B20-E5BE6A868AFA" ;
+    rdfs:label "geconstateerd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/geconstateerd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
+    dct:identifier "D35B377F-FD7B-4324-BAC5-7E604D41370B" ;
+    dct:description "Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname. Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een feitelijke constatering en niet op basis van een regulier brondocument"@nl ;
+    rdfs:label "geconstateerd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/geometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "C0987BF8-E01C-49af-AF3E-814D39E90620" ;
+    dct:description "De tweedimensionale geometrische representatie van de omtrekken van de openbare ruimte."@nl ;
+    rdfs:label "geometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/geometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "9DA708DF-59E5-4fe4-B85C-DC0FE8EA7F21" ;
+    rdfs:label "geometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/geometriebovenaanzicht> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "203A64ED-F28E-48f8-A0E6-EA1CB2925F41" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van het bovenaanzicht van de omtrekken van een PAND"@nl ;
+    rdfs:label "geometrieBovenaanzicht"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/geometriemaaiveld> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "BD33C5E2-0F05-4d48-8AB3-6C04354A5E06" ;
+    dct:description "De tweedimensionale geometrische representatie van de omtrekken van een PAND op maaiveldniveau"@nl ;
+    rdfs:label "geometrieMaaiveld"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/geometriepunt> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "3649B913-F912-47b4-97C8-6858E00C62E6" ;
+    rdfs:label "geometriePunt"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object/geometriewozobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "C9236527-31F2-4c7a-BB64-E10494E6E6A8" ;
+    dct:description "De minimaal tweedimensionale geometrische representatie van de omtrekken van een WOZ-OBJECT."@nl ;
+    rdfs:label "geometrieWOZObject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object/grondoppervlakte> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6956D00A-A766-43d2-9DCC-D98DF4F7A783" ;
+    dct:description "De oppervlakte grond in vierkante meters die behoort tot het WOZ-object."@nl ;
+    rdfs:label "grondoppervlakte"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/hoogstebouwlaag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3336EA16-EE3F-40e0-BA49-77AB06A03048" ;
+    dct:description "De ligging van de hoogste bouwlaag van het pand gerekend ten opzichte van het straatpeil."@nl ;
+    rdfs:label "hoogsteBouwlaag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/huisletter> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F5B40051-0C28-444f-940C-76297C577968" ;
+    dct:description "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken."@nl ;
+    rdfs:label "huisletter"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/huisnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BD2DECBB-831B-4fbc-8B81-8494B76C6F0E" ;
+    dct:description "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nummering."@nl ;
+    rdfs:label "huisnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/huisnummertoevoeging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "801D1ED4-27DE-4afc-B2BB-B0EADC56992B" ;
+    dct:description "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter."@nl ;
+    rdfs:label "huisnummertoevoeging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5581C29C-3143-42f6-970E-CFB7282258C9" ;
+    dct:description "De unieke identificatie van het SUBJECT"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4CDFC875-8A6C-464c-9284-67F10EB34128" ;
+    dct:description "Unieke identificatiecode van het object"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/adresseerbaarobject/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/adresseerbaarobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4229A920-E47B-4e22-8309-0F41F8CCE3F8" ;
+    dct:description "De unieke aanduiding van een AdresseerbaarObject."@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EAF627DA-ED68-4dd1-90FB-84E3EBDF332C" ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3DA8B140-DFDD-43ac-A405-F34F7BDFF879" ;
+    dct:description "De unieke aanduiding van een OPENBARE RUIMTE."@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DBE3F190-2F79-461e-BA8D-E9DF0C1301DC" ;
+    dct:description "De unieke aanduiding van een PAND"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak/kadastralegemeente> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B22181E2-917B-48d4-B426-68508E07AC8E" ;
+    dct:description "De KADASTRALE GEMEENTE waarin de KADASTRALE ONROERENDE ZAAK gelegen is."@nl ;
+    rdfs:label "kadastraleGemeente"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak/kadastralegemeentecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9139A52A-814B-4611-A787-49517441943D" ;
+    dct:description "AKR code voor de kadastrale gemeente."@nl ;
+    rdfs:label "kadastraleGemeentecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak/koopjaar> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "413F678C-F957-4819-8089-86A3FD46BD34" ;
+    rdfs:label "koopjaar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak/koopsom> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FDE2EF5A-3F03-4b04-97E4-D8EA4CA7280D" ;
+    rdfs:label "koopsom"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/laagstebouwlaag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "46953586-71AC-4835-8D31-BA6B1505A3F2" ;
+    dct:description "De ligging van de laagste bouwlaag van het pand gerekend ten opzichte van het straatpeil."@nl ;
+    rdfs:label "laagsteBouwlaag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/labelnaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CE2EE44D-6BD6-4d0c-B3D8-6020CA8A8F19" ;
+    dct:description "Bevat de naam van de openbare ruimte ten behoeve van visualisatie."@nl ;
+    rdfs:label "labelNaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak/landinrichtingrentebedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "A6851C93-52A7-4e45-A30D-C4F97B231C3E" ;
+    dct:description "Het bedrag waarmee de Onroerende zaak is belast in het kader van de landinrichtingswet."@nl ;
+    rdfs:label "landInrichtingRenteBedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak/landinrichtingrenteeindejaar> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "71E3AD7F-FFDE-4c61-AE71-9CC9288E1577" ;
+    rdfs:label "landInrichtingRenteEindejaar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak/ligging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8DFA2FA3-E6A2-4763-86DE-8174533594F2" ;
+    rdfs:label "ligging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak/locatieomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0D0309CA-C29A-44c0-84BB-42A251AC352E" ;
+    rdfs:label "locatieOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/locatieaanduidingwozobject/locatieomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/locatieaanduidingwozobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8BC7A41F-DBBD-4317-A815-C36FAEAB061E" ;
+    rdfs:label "locatieOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0BBB4DB3-7F02-4dda-82D4-38976334D948" ;
+    dct:description "De benaming van het SUBJECT"@nl ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/naamopenbareruimte> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:range xsd:string ;
+    dct:identifier "77B5FC93-6AFF-42d8-A94B-155DC2933668" ;
+    dct:description "Een door het bevoegde gemeentelijke orgaan aan een OPENBARE RUIMTE toegekende benaming"@nl ;
+    rdfs:label "naamOpenbareruimte"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/referentielijsten/soortwozobject/naamsoortobjectcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/referentielijsten/soortwozobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D5C199BA-5870-4466-85CB-DCE5F902CB66" ;
+    dct:description "De naam van de soort objectcode."@nl ;
+    rdfs:label "naamSoortObjectcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/oorspronkelijkbouwjaar> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "ECE8BAE7-5731-423f-A398-5C3B4164C83B" ;
+    dct:description "De aanduiding van het jaar waarin een PAND oorspronkelijk als bouwkundig gereed is of wordt opgeleverd."@nl ;
+    rdfs:label "oorspronkelijkBouwjaar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/referentielijsten/soortwozobject/opmerkingensoortobjectcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/referentielijsten/soortwozobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0DBC99EA-F939-4972-8487-14CD18733EC8" ;
+    dct:description "Een toelichting op de soort objectcode."@nl ;
+    rdfs:label "opmerkingenSoortObjectcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak/oppervlakte> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "522E0C4B-8039-4e4f-849A-84FD4C0DC26B" ;
+    rdfs:label "oppervlakte"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/oppervlakte> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "ED227DEE-AE20-48ce-BCBB-713E73525F12" ;
+    dct:description "De gebruiksoppervlakte van een PAND in gehele vierkante meters."@nl ;
+    rdfs:label "oppervlakte"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak/perceelnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A94CB032-D8A6-4119-AF0F-3F9A80597A0D" ;
+    dct:description "Het perceelnummer dat een geheel perceel of een complex uniek identificeert binnen de sectie."@nl ;
+    rdfs:label "perceelnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/postcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "71729B95-9E18-4172-81CF-D2B0421D3C37" ;
+    dct:description "De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam van een woonplaats, naam van een openbare ruimte en een huisnummer"@nl ;
+    rdfs:label "postcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/locatieaanduidingwozobject/primair> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/locatieaanduidingwozobject> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "CF6C7C2E-83D4-4ab5-842D-F1760E274AB9" ;
+    rdfs:label "primair"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/rechtsvorm> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9FB55106-DB14-4192-B325-75B7272FDE36" ;
+    dct:description "Bron: Handelsregister"@nl ;
+    rdfs:label "rechtsvorm"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/rekeningnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6BB892F7-1C6E-4aeb-8BFA-3012FEB03B78" ;
+    dct:description "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
+    rdfs:label "rekeningnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/relatievehoogteligging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BE596B0E-CA84-4f1c-A044-727B2D140CEA" ;
+    dct:description "Aanduiding voor de relatieve hoogte van het pand"@nl ;
+    rdfs:label "relatieveHoogteligging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak/sectie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "10CB743D-4A15-408e-BF22-E5C6F7A4D236" ;
+    dct:description "De sectie die de sectie binnen de kadastrale gemeente uniek identificeert."@nl ;
+    rdfs:label "sectie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/referentielijsten/soortwozobject/soortobjectcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/referentielijsten/soortwozobject> ;
+    rdfs:range xsd:string ;
+    dct:identifier "507BF44E-ED56-413e-BC78-C5B92999F1DE" ;
+    dct:description "De code van het soort object."@nl ;
+    rdfs:label "soortobjectcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object/soortobjectcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "24DDEB50-81B8-4ddb-BE79-AC535703E2CA" ;
+    dct:description "Aanduiding van het soort object ten behoeve van een correcte bepaling van de waarde."@nl ;
+    rdfs:label "soortobjectcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
+    dct:identifier "C5D0D5C3-1292-457f-A381-3E7594A0CB9E" ;
+    dct:description "De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt. Naamgeving uitgegeven Naamgeving ingetrokken"@nl ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
+    dct:identifier "E9E38009-52E2-47b4-8F70-C51240C72D0D" ;
+    dct:description "De fase van de levenscyclus van een PAND, waarin het betreffende PAND zich bevindt. Bouwvergunning verleend Niet gerealiseerd pand Bouw gestart Pand in gebruik (niet ingemeten) Pand in gebruik Sloopvergunning verleend Pand gesloopt Pand buiten gebruik Verbouwing pand Pand ten onrechte opgevoerd"@nl ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
+    dct:identifier "E1D694DF-132E-407b-BE69-54FF5A954254" ;
+    dct:description "De fase van de levenscyclus van een OPENBARE RUIMTE, waarin de betreffende OPENBARE RUIMTE zich bevindt"@nl ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_waarde/statusbeschikking> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_waarde> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statuswoz_beschikking> ;
+    dct:identifier "9910752B-0E8B-4bea-97DF-AD99288C956F" ;
+    dct:description "De fase van de levenscyclus van een WAARDE, zoals tot uitdrukking komt in de juridische status van de WOZ-beschikking."@nl ;
+    rdfs:label "statusBeschikking"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/statusvoortgangbouw> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
+    dct:identifier "9C9C03AB-3ACF-460f-AACE-C47C1BBEB2DC" ;
+    dct:description "De fase van de bouw, verbouw of sloop waarin het betreffende PAND zich bevindt"@nl ;
+    rdfs:label "statusVoortgangBouw"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_deelobject/statuswozdeelobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_deelobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statuswoz_deel_object> ;
+    dct:identifier "24CDA222-8FE5-47e5-ACED-0DC9B123C845" ;
+    dct:description "De fase van de levenscyclus van een WOZ-DEELOBJECT, waarin het betreffende WOZ-DEELOBJECT zich bevindt."@nl ;
+    rdfs:label "statusWOZDeelobject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object/statuswozobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/statuswoz_deel_object> ;
+    dct:identifier "8352A7C6-4948-4c3c-AA42-02DC18EC50E0" ;
+    dct:description "De fase van de levenscyclus van een WOZ-OBJECT, waarin het betreffende WOZ-OBJECT zich bevindt."@nl ;
+    rdfs:label "statusWOZObject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/straatcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EA25CAA7-A685-4d76-BDDC-A9CD73329CC4" ;
+    rdfs:label "straatcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/straatnaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CFD0365F-B863-42cb-A49A-D0AFA60DBC74" ;
+    dct:description "De officiële straatnaam zoals door het bevoegd gemeentelijk orgaan is vastgesteld, zo nodig ingekort conform de specificaties van de NEN 5825."@nl ;
+    rdfs:label "straatnaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/telefoonnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6B41E997-26A2-4f32-AE3B-A46BA0E3BE20" ;
+    dct:description "Telefoonnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "telefoonnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/adresseerbaarobject/typeadresseerbaarobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/adresseerbaarobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeadresseerbaarobject> ;
+    dct:identifier "90FE518D-3759-4825-A60D-74B616B26963" ;
+    rdfs:label "typeAdresseerbaarObject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/typeadresseerbaarobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeadresseerbaarobject> ;
+    dct:identifier "F9292BB8-D038-43ca-8D2B-E9C88E064CB8" ;
+    dct:description "Het type addresseerbaarobject (landelijke identificatie) wat door de nummeraanduiding wordt aangeduid."@nl ;
+    rdfs:label "typeAdresseerbaarObject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/typeopenbareruimte> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    dct:identifier "5854D6D8-E71F-4b5e-BAA5-3A56B203FF25" ;
+    dct:description "De aard van de als zodanig benoemde OPENBARE RUIMTE."@nl ;
+    rdfs:label "typeOpenbareruimte"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak/valutacode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1203832A-064B-44c1-92B9-739D1C22121B" ;
+    rdfs:label "valutacode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object/vastgesteldewaarde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object> ;
+    rdfs:range xsd:string ;
+    dct:identifier "99460BB6-FB22-46b1-AF50-479A1E6DC941" ;
+    dct:description "Waarde van het WOZ-object op de laatst bekende peildatum zoals deze in het kader van de Wet WOZ is vastgesteld."@nl ;
+    rdfs:label "vastgesteldeWaarde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_waarde/vastgesteldewaarde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_waarde> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D9471AF0-34CE-4ca7-A7E1-1378CA53B1B3" ;
+    dct:description "Waarde van het WOZ-object zoals deze in het kader van de Wet WOZ is vastgesteld."@nl ;
+    rdfs:label "vastgesteldeWaarde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/adresseerbaarobject/versie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/adresseerbaarobject> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "874AFCF8-C5DB-45a8-B354-B45683A383AD" ;
+    rdfs:label "versie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/versie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "B75A364E-FB16-45ec-BAE1-5E7E03A27420" ;
+    rdfs:label "versie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/versie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "33984FB7-DFB8-495e-932B-C93C77502C0A" ;
+    rdfs:label "versie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/versie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "55F0028B-B320-4529-927F-C2AC7029C19D" ;
+    rdfs:label "versie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/wegsegment> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BCC760A4-FCF9-416c-ADA2-F75BE3A4D5AE" ;
+    dct:description "De geometrische representatie van de openbare ruimte als een lijn."@nl ;
+    rdfs:label "wegsegment"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/locatieaanduidingwozobject/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/locatieaanduidingwozobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_deelobject/is_onderdeel_van> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_deelobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object> ;
+    rdfs:label "is onderdeel van"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/woz_belang> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/woz_belang> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object/bevat> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:label "bevat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object/bevat> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:label "bevat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak/is_ontstaan_uit_andere_kadastrale_onroerende_zaak_bij> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:label "is ontstaan uit andere kadastrale onroerende zaak bij"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak/gerelateerd> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/kadastraleonroerendezaak> ;
+    rdfs:label "gerelateerd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_waarde/is_voor> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_waarde> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object> ;
+    rdfs:label "is voor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object/ligt_aan> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_object> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:label "ligt aan"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_deelobject/bestaat_uit> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_deelobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/adresseerbaarobject> ;
+    rdfs:label "bestaat uit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/adresseerbaarobject/heeft_als_nevenadres> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/adresseerbaarobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:label "Heeft als Nevenadres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/adresseerbaarobject/heeft_als_hoofdadres> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/adresseerbaarobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:label "Heeft als hoofdadres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/verwijst_naar> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/vastgoed/locatieaanduidingwozobject> ;
+    rdfs:label "verwijst naar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/ligt_aan> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    rdfs:label "Ligt aan"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_deelobject/bestaat_uit> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/woz_deelobject> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
+    rdfs:label "bestaat uit"@nl .

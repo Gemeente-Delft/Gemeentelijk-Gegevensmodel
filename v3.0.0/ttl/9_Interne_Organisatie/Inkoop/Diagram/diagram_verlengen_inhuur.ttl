@@ -1,0 +1,625 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/diagram_verlengen_inhuur>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> a owl:Class ;
+    rdfs:label "Inkooporder"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een opdracht (gezien vanuit de klant) voor één of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen."@nl ;
+    dct:identifier "A91E9C27-C4FA-4e1b-A4FF-8AE74ED9B7EB" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> a owl:Class ;
+    rdfs:label "Kostenplaats"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven."@nl ;
+    dct:identifier "D90E822D-7EF8-4ea6-AF5C-4A4362577941" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> a owl:Class ;
+    rdfs:label "Contract"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Bindende overeenkomst"@nl ;
+    dct:identifier "9FBF9FB8-B28D-4733-8443-607B8498F446" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/formulierverlenginginhuur> a owl:Class ;
+    rdfs:label "FormulierVerlengingInhuur"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Formulier ten behoeve van verlenging inhuur personeel"@nl ;
+    dct:identifier "1D87490A-9F07-424f-BE6F-5E9C11376B05" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> a owl:Class ;
+    rdfs:label "Leverancier"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie"@nl ;
+    dct:identifier "EA7FE08E-34F7-45d2-BE2E-E4E3B8333BF3" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> a owl:Class ;
+    rdfs:label "Medewerker"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
+    dct:identifier "16EB3936-03CB-4854-9CD8-9F0911EEA51B" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> a owl:Class ;
+    rdfs:label "Document"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
+    dct:identifier "5641C50A-C0FA-4e71-B07B-26C7B1CE94ED" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> a owl:Class ;
+    rdfs:label "OrganisatorischeEenheid"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken."@nl ;
+    dct:identifier "936A4E8B-3E5A-44b6-8A5D-EFB39F83FB6D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/btwcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9D7D98E8-08E8-45c9-8356-F3D2464C2C91" ;
+    rdfs:label "BTWCode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/btwomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0D24CB15-7D1B-4c27-AA12-2EC8C596A099" ;
+    rdfs:label "BTWOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/formatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "81696C38-5012-41f8-8719-E7EE39568CDA" ;
+    rdfs:label "Formatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/achternaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "79457AE1-2585-4ce0-A864-D4ADE30A2135" ;
+    dct:description "De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt."@nl ;
+    rdfs:label "achternaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder/artikelcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> ;
+    rdfs:range xsd:string ;
+    dct:identifier "213664CF-BCFB-4fcb-8B44-D9D1CB011008" ;
+    rdfs:label "artikelcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract/autorisatiegroep> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EABD0FDE-0D04-4236-868A-7B80E05F2425" ;
+    rdfs:label "autorisatiegroep"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract/beschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F5A8BEEF-9AAA-4c80-9B69-2FDC3A704E24" ;
+    rdfs:label "beschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder/betalingmeerderejaren> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "291CBFF9-3536-4d7a-A0B3-52AE20DF7770" ;
+    rdfs:label "betalingMeerdereJaren"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder/betreft> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> ;
+    rdfs:range xsd:string ;
+    dct:identifier "24D8A44A-63FD-48ef-BC9F-F2FA5D9B8EC5" ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract/categorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E5F4B5E6-A56B-4e3d-83F7-9F5FCB503442" ;
+    rdfs:label "categorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract/classificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7E3D6EA6-C49D-4421-9235-0DB7EF4FD7AE" ;
+    rdfs:label "classificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/cocumentbeschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1DB068B6-3EAE-4d79-B1EC-73905A5994FC" ;
+    dct:description "Een generieke beschrijving van de inhoud van het document."@nl ;
+    rdfs:label "cocumentBeschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract/contractrevisie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "C38DA921-3A77-4712-B0B9-D61658CB58AD" ;
+    rdfs:label "contractRevisie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract/datumcreatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:range xsd:date ;
+    dct:identifier "C0A533E0-52CC-4084-AD88-0D41B5AE5402" ;
+    rdfs:label "datumCreatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumcreatiedocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "61F9ED59-4DA5-4099-ADAC-8D7FEFDD0F37" ;
+    dct:description "Een datum of een gebeurtenis in de levenscyclus van het document."@nl ;
+    rdfs:label "datumCreatieDocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> ;
+    rdfs:range xsd:date ;
+    dct:identifier "33EBCB03-C218-47a6-888B-667D9A9D3338" ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:range xsd:date ;
+    dct:identifier "51314721-C112-49cb-8154-9BA957580542" ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/formulierverlenginginhuur/datumeindenieuw> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/formulierverlenginginhuur> ;
+    rdfs:range xsd:date ;
+    dct:identifier "3E600BDC-37E5-4754-A3B5-38CD5F23DD09" ;
+    rdfs:label "datumEindeNieuw"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/datumindienst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:date ;
+    dct:identifier "4BD35398-345A-4d24-84A5-34D79A764C7F" ;
+    rdfs:label "datumInDienst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder/datumingediend> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> ;
+    rdfs:range xsd:date ;
+    dct:identifier "58315276-42AA-4432-A87E-F69B1D2F4F6E" ;
+    rdfs:label "datumIngediend"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/datumontstaan> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "034DF486-CDDD-4f7a-B42A-3C6A19F2903E" ;
+    dct:description "De datum waarop de organisatorische eenheid is ontstaan."@nl ;
+    rdfs:label "datumOntstaan"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumontvangstdocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FFEE3095-1146-4106-A1ED-70A253812FA6" ;
+    dct:description "De datum waarop het DOCUMENT ontvangen is."@nl ;
+    rdfs:label "datumOntvangstdocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/datumopheffing> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "91E44BF9-97BF-4c2b-8835-9B5D61343BE3" ;
+    dct:description "De datum waarop de organisatorische eenheid is opgeheven."@nl ;
+    rdfs:label "datumOpheffing"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder/datumstart> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> ;
+    rdfs:range xsd:date ;
+    dct:identifier "342B36A6-98A0-4e92-85E3-02B2B7B098BD" ;
+    rdfs:label "datumStart"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract/datumstart> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:range xsd:date ;
+    dct:identifier "560733B1-0F90-4c83-B059-3B177A783579" ;
+    rdfs:label "datumStart"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/datumuitdienst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AE3CF305-B845-40cf-A9E3-2DE97CB31F46" ;
+    dct:description "Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt."@nl ;
+    rdfs:label "datumUitDienst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumverzendingdocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C06162CD-CFEA-4c04-BE26-76BC4DF42A16" ;
+    dct:description "De datum waarop het DOCUMENT verzonden is."@nl ;
+    rdfs:label "datumVerzendingDocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documentauteur> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "24277038-EF81-4e10-92BC-68AB8969FE4D" ;
+    dct:description "De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document."@nl ;
+    rdfs:label "documentAuteur"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documentidentificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CB08FF35-EE64-4504-90CF-835DA32E636C" ;
+    dct:description "Een binnen een gegeven context ondubbelzinnige referentie naar het document. Bijvoorbeeld potsregistratienummer"@nl ;
+    rdfs:label "documentIdentificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documenttitel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "21E0EC21-5217-4582-A8B8-CA0EE3EFDFAD" ;
+    dct:description "De naam waaronder het document formeel bekend is."@nl ;
+    rdfs:label "documentTitel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/emailadres> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2EEFDDE3-164E-4dc6-8573-205834C1AF47" ;
+    dct:description "Elektronisch postadres waaronder de medewerker in de regel bereikbaar is."@nl ;
+    rdfs:label "emailadres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/emailadres> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4AE8DAEC-78F6-4b89-8FE6-2BADE0E8D539" ;
+    dct:description "Elektronisch postadres waaronder de organisatorische eenheid in de regel bereikbaar is."@nl ;
+    rdfs:label "emailadres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/extern> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "8DDB6FA2-A79D-4423-9969-7AF045B86351" ;
+    dct:description "Medewerker is een externe?"@nl ;
+    rdfs:label "extern"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/faxnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8C18F19B-24D1-433d-B435-194735264036" ;
+    dct:description "Faxnummer waaronder de organisatorische eenheid in de regel bereikbaar is."@nl ;
+    rdfs:label "faxnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/functie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F17EE707-8A6A-483b-9ED7-204707E1F384" ;
+    dct:description "De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie."@nl ;
+    rdfs:label "functie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/geslachtsaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AA40C186-C355-457e-99D9-24BE43B05301" ;
+    dct:description "Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is."@nl ;
+    rdfs:label "geslachtsaanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder/goederencode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CFD1DBF7-CEF4-4a71-A470-36C6F839FBB9" ;
+    rdfs:label "goederencode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract/groep> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EE3AF0E3-6C40-4e68-9E57-6E85F1A65559" ;
+    rdfs:label "groep"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/formulierverlenginginhuur/indicatieredeninhuurgewijzigd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/formulierverlenginginhuur> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "A6CF1416-C4D8-4ade-9F5F-2D87793EEC33" ;
+    rdfs:label "indicatieRedenInhuurGewijzigd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/formulierverlenginginhuur/indicatieverhogeninkooporder> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/formulierverlenginginhuur> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "B03C37ED-7E3E-4ace-A50B-A49C4006B929" ;
+    rdfs:label "indicatieVerhogenInkooporder"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract/interncontractid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:range xsd:string ;
+    dct:identifier "17055DF1-1247-4e48-81CB-B57CFB4DC412" ;
+    rdfs:label "internContractID"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract/interncontractrevisie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "3B647A48-7BF3-44dc-AF6C-4F03075819FE" ;
+    rdfs:label "internContractRevisie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/kostenplaatssoortcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "DCE6B912-D2FC-4423-8B0E-56EEE769D6A3" ;
+    rdfs:label "kostenplaatssoortCode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/kostenplaatssoortomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "1F6364ED-FFA9-4c8b-8191-788C76B4E943" ;
+    rdfs:label "kostenplaatssoortOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/kostenplaatstypecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "AB200DBB-A697-4dcd-8077-C7F0C25380F5" ;
+    rdfs:label "kostenplaatstypeCode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/kostenplaatstypeomschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "E07EE47E-E183-4654-887A-7E6FD0B17219" ;
+    rdfs:label "kostenplaatstypeOmschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/medewerkeridentificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FF819D54-0C4A-4cf7-A828-6587669A8702" ;
+    dct:description "Een korte unieke aanduiding van de medewerker."@nl ;
+    rdfs:label "medewerkerIdentificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/medewerkertoelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C59B1A14-1E2F-4a54-B273-6D4C84713390" ;
+    dct:description "Toelichting bij en/of over de medewerker."@nl ;
+    rdfs:label "medewerkerToelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "62135F33-66B8-435f-804E-C86312DEFA0D" ;
+    dct:description "De feitelijke naam van de organisatorische eenheid."@nl ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6F38439B-23A4-4dd3-9C4E-F6B6E57027BF" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> ;
+    rdfs:range xsd:string ;
+    dct:identifier "85177091-8693-4b6d-9DDF-C431625705F6" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/naamverkort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FE9B02D3-DE16-4c7f-8B02-166657BCFE77" ;
+    dct:description "Een verkorte naam voor de organisatorische eenheid."@nl ;
+    rdfs:label "naamVerkort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier/nummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DC8AB48D-FBB8-437d-8FD6-799019175583" ;
+    rdfs:label "nummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BE46B281-992C-4153-94DF-6E8ADEB407CC" ;
+    dct:description "Een omschrijving van de organisatorische eenheid."@nl ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9DB35FBA-DC20-439a-8DC5-6488438E4DE1" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> ;
+    rdfs:range xsd:string ;
+    dct:identifier "64339A52-69A7-4266-BCA7-E665ADE07063" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract/opmerkingen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CF1B5BD3-CD82-40b1-BB4D-455534FD7241" ;
+    rdfs:label "opmerkingen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder/ordernummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F4F666D7-349F-460a-BFEB-53BFC6DDE6F2" ;
+    rdfs:label "ordernummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/organisatieidentificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "59CD4AEE-EF70-4ac1-8728-80096C4DA80F" ;
+    dct:description "Een korte identificatie van de organisatorische eenheid."@nl ;
+    rdfs:label "organisatieIdentificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/roepnaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A7726010-7E58-40b6-9523-A4CC9844F5DD" ;
+    dct:description "Naam waarmee de werknemer wordt aangesproken."@nl ;
+    rdfs:label "roepnaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder/saldo> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7471D5D6-012A-43b9-98DE-65CF44D7A442" ;
+    rdfs:label "saldo"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CD615E1B-74F7-4619-A392-4B24486BE67A" ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/telefoonnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7D7E7DCC-9938-43df-A3E6-CD6A6CD80564" ;
+    dct:description "Telefoonnummer waaronder de organisatorische eenheid in de regel bereikbaar is."@nl ;
+    rdfs:label "telefoonnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/telefoonnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0BE56460-275E-4dcb-9946-5B88658BF3BD" ;
+    dct:description "Telefoonnummer waaronder de medewerker in de regel bereikbaar is."@nl ;
+    rdfs:label "telefoonnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/formulierverlenginginhuur/toelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/formulierverlenginginhuur> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FDA46077-D4C9-44db-85A7-9DCF0287FBEE" ;
+    rdfs:label "toelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/toelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F40EF4CB-AF65-4c93-8B9D-7D78F5D0A0DC" ;
+    dct:description "Toelichting bij de organisatorische eenheid."@nl ;
+    rdfs:label "toelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder/totaalnettobedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "91940D85-521C-477e-8433-7742B9DC5279" ;
+    rdfs:label "totaalNettoBedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract/type> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B93E6658-5BDC-4ba4-9AF5-3185D71D6227" ;
+    rdfs:label "type"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/vertrouwelijkaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A7A897CF-ECB5-45c1-A0CD-698E1D66F2CF" ;
+    dct:description "Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is."@nl ;
+    rdfs:label "vertrouwelijkAanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/voorletters> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "65D1582C-5922-4ebb-8CE6-3B0F1BBD0941" ;
+    dct:description "De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen."@nl ;
+    rdfs:label "voorletters"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/voorvoegselachternaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range xsd:string ;
+    dct:identifier "01234EAF-833A-4cd6-8EA0-045F889301FF" ;
+    dct:description "Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is gescheiden."@nl ;
+    rdfs:label "voorvoegselAchternaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract/voorwaarde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F73B9B3B-D257-4e06-8DB1-2FAB254CE2C4" ;
+    rdfs:label "voorwaarde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder/wijzevanaanbesteden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8A51856E-F9ED-40d6-A897-999D146AD3AC" ;
+    rdfs:label "wijzeVanAanbesteden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract/zoekwoorden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C65BDC92-8B7B-41a7-90D7-DEEE1F8327A3" ;
+    rdfs:label "zoekwoorden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/formulierverlenginginhuur/> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/formulierverlenginginhuur> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:label ""@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract/vastlegging_als_contract> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:label "vastlegging als contract"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/formulierverlenginginhuur/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/formulierverlenginginhuur> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/formulierverlenginginhuur/ingehuurd_via> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/formulierverlenginginhuur> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> ;
+    rdfs:label "ingehuurd via"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/formulierverlenginginhuur/aanvrager> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/formulierverlenginginhuur> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:label "aanvrager"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier/contractant> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:label "contractant"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract/bovenliggend> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:label "bovenliggend"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/formulierverlenginginhuur/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/formulierverlenginginhuur> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder/oorspronkelijk> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> ;
+    rdfs:label "oorspronkelijk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder/gerelateerd> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> ;
+    rdfs:label "gerelateerd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/contract> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder/verplichting_aan> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/inkooporder> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> ;
+    rdfs:label "verplichting aan"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/is_deel_van> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:label "Is deel van"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/financien/kostenplaats> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/is_verantwoordelijk_voor> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:label "is verantwoordelijk voor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/hoort_bij> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:label "hoort bij"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/is_contactpersoon_voor> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/organisatorischeeenheid> ;
+    rdfs:label "is contactpersoon voor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker/geleverd_via> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/medewerker> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne_organisatie/inkoop/leverancier> ;
+    rdfs:label "geleverd via"@nl .

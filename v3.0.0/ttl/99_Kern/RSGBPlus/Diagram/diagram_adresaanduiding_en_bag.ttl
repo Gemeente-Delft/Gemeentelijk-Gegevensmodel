@@ -1,0 +1,177 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/diagram_adresaanduiding_en_bag>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> a owl:Class ;
+    rdfs:label "Nummeraanduiding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats."@nl ;
+    dct:identifier "32A22BC6-89EC-44af-8D7D-79B12311AE2D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/groepattribuutsoort/adresaanduiding> a owl:Class ;
+    rdfs:label "Adresaanduiding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De adresaanduiding van het WOZ-OBJECT"@nl ;
+    dct:identifier "C14C1D0E-2EE3-4d79-B7AB-BC0B7686FEF4" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/groepattribuutsoort/adresaanduiding/bagid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/groepattribuutsoort/adresaanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "113ACBCB-17EF-4329-AC83-40925A0CC4C3" ;
+    rdfs:label "BAGID"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/begingeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "468C1EFF-D57B-4401-B79D-05185F4AD592" ;
+    dct:description "Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"@nl ;
+    rdfs:label "beginGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "39766222-EB47-436e-A46A-1FBE5A34BC0E" ;
+    dct:description "De datum waarop de object in de BAG formeel is ingetrokken."@nl ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/datumingang> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "72A9A375-C988-4049-A15C-9842A5CF1FE4" ;
+    dct:description "Datum waarop het object is ontstaan"@nl ;
+    rdfs:label "datumIngang"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/documentdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "26F0FB4F-570B-418b-80C2-0EB7E4D31140" ;
+    dct:description "De datum op basis waarvan een opname of mutatie van gegevens ten aanzien van een BAG-object heeft plaatsgevonden."@nl ;
+    rdfs:label "documentdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/documentnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "67F64B20-A54C-46c4-9543-3BA9DD8CF0C9" ;
+    dct:description "Het unieke nummer van het brondocument"@nl ;
+    rdfs:label "documentnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/eindegeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E1673E1A-81E0-4995-B7A4-608018C47346" ;
+    dct:description "Definitie EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid. Beschrijving Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."@nl ;
+    rdfs:label "eindeGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/geconstateerd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
+    dct:identifier "75A91710-56B3-4cb5-8B20-E5BE6A868AFA" ;
+    rdfs:label "geconstateerd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/groepattribuutsoort/adresaanduiding/gemeentenaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/groepattribuutsoort/adresaanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E84EF395-444E-4950-9F45-C2D4D0F111A0" ;
+    rdfs:label "gemeentenaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/geometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "9DA708DF-59E5-4fe4-B85C-DC0FE8EA7F21" ;
+    rdfs:label "geometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/huisletter> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F5B40051-0C28-444f-940C-76297C577968" ;
+    dct:description "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken."@nl ;
+    rdfs:label "huisletter"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/groepattribuutsoort/adresaanduiding/huisletter> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/groepattribuutsoort/adresaanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9AF1EAF9-82A6-4ef8-8164-9487538CDF8F" ;
+    rdfs:label "huisletter"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/huisnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BD2DECBB-831B-4fbc-8B81-8494B76C6F0E" ;
+    dct:description "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nummering."@nl ;
+    rdfs:label "huisnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/groepattribuutsoort/adresaanduiding/huisnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/groepattribuutsoort/adresaanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E20E096D-B71C-4cd9-8A0D-181B96FE2000" ;
+    rdfs:label "huisnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/huisnummertoevoeging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "801D1ED4-27DE-4afc-B2BB-B0EADC56992B" ;
+    dct:description "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter."@nl ;
+    rdfs:label "huisnummertoevoeging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/groepattribuutsoort/adresaanduiding/huisnummertoevoeging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/groepattribuutsoort/adresaanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BB886D40-7182-4036-995C-A62C1B804265" ;
+    rdfs:label "huisnummertoevoeging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4CDFC875-8A6C-464c-9284-67F10EB34128" ;
+    dct:description "Unieke identificatiecode van het object"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/postcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "71729B95-9E18-4172-81CF-D2B0421D3C37" ;
+    dct:description "De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam van een woonplaats, naam van een openbare ruimte en een huisnummer"@nl ;
+    rdfs:label "postcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/groepattribuutsoort/adresaanduiding/postcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/groepattribuutsoort/adresaanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C2CF9C39-87B6-4f49-8A67-0AF3A9650972" ;
+    rdfs:label "postcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
+    dct:identifier "C5D0D5C3-1292-457f-A381-3E7594A0CB9E" ;
+    dct:description "De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt. Naamgeving uitgegeven Naamgeving ingetrokken"@nl ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/groepattribuutsoort/adresaanduiding/straatnaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/groepattribuutsoort/adresaanduiding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F0086B3F-28CE-4e1c-BEF2-684C3AA7EC65" ;
+    rdfs:label "straatnaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/typeadresseerbaarobject> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeadresseerbaarobject> ;
+    dct:identifier "F9292BB8-D038-43ca-8D2B-E9C88E064CB8" ;
+    dct:description "Het type addresseerbaarobject (landelijke identificatie) wat door de nummeraanduiding wordt aangeduid."@nl ;
+    rdfs:label "typeAdresseerbaarObject"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/versie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "B75A364E-FB16-45ec-BAE1-5E7E03A27420" ;
+    rdfs:label "versie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/groepattribuutsoort/adresaanduiding/verwijst_naar> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/groepattribuutsoort/adresaanduiding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
+    rdfs:label "verwijst naar"@nl .

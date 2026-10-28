@@ -1,0 +1,826 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/diagram_griffie>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/aanwezige_deelnemer> a owl:Class ;
+    rdfs:label "Aanwezige Deelnemer"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "iemand die meedoet aan eencollege- of raadsvergadering"@nl ;
+    dct:identifier "F1E55DC7-0F33-40ea-8713-2E1AC3D7EE8D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/agendapunt> a owl:Class ;
+    rdfs:label "Agendapunt"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een onderwerp dat in de vergadering wordt behandeld."@nl ;
+    dct:identifier "73FB5212-40ED-40dc-B837-36588840445A" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/collegelid> a owl:Class ;
+    rdfs:label "Collegelid"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Iemand die behoort het college van burgemeester en wethouders"@nl ;
+    dct:identifier "7B9EDDFD-57F7-4ff2-938F-FDFA3B503DA8" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/indiener> a owl:Class ;
+    rdfs:label "Indiener"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Persoon die meldiing of aanvraag doet"@nl ;
+    dct:identifier "98CB3C6F-588B-479f-9A2B-F5D5362DD17C" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadscommissie> a owl:Class ;
+    rdfs:label "Raadscommissie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een raadscommissie binnen de Nederlandse gemeenteraad is een groep raadsleden die zich buigt over specifieke thema's of beleidsonderwerpen om de besluitvorming in de volledige raad voor te bereiden en te ondersteunen."@nl ;
+    dct:identifier "CB27D699-F82B-45ad-823A-B2B51BCAECBA" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadslid> a owl:Class ;
+    rdfs:label "Raadslid"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Iemand die behoort de gemeenteraad"@nl ;
+    dct:identifier "5772BEBB-97FA-42a9-B70D-DB55EAD6D1EE" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadsstuk> a owl:Class ;
+    rdfs:label "Raadsstuk"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Stuk dat door de gemeenteraad wordt behandeld"@nl ;
+    dct:identifier "440219A4-C64B-4eac-ADE5-E79ED6AA9BFE" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/stemming> a owl:Class ;
+    rdfs:label "Stemming"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Stem (openbaring van iemands mening (voor of tegen)), uitbrengen bij verkiezingen of bij een vergadering"@nl ;
+    dct:identifier "331C4A0B-1505-4945-A0B0-DCD8703AB50F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/vergadering> a owl:Class ;
+    rdfs:label "Vergadering"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een bijeenkomst van meerdere mensen (meestal van eenzelfde organisatie) die met elkaar spreken en/of afspraken maken over de gemeenschappelijke toekomst."@nl ;
+    dct:identifier "257F4ABF-7CCD-453f-B2E8-5A6434383A9B" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video_opname> a owl:Class ;
+    rdfs:label "Video-opname"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Opnametechniek om bewegende beelden als een elektronisch signaal te registreren en weer te geven."@nl ;
+    dct:identifier "435883D2-C399-4590-B4F5-B07111103484" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> a owl:Class ;
+    rdfs:label "Document"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
+    dct:identifier "5641C50A-C0FA-4e71-B07B-26C7B1CE94ED" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> a owl:Class ;
+    rdfs:label "Rechtspersoon"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON"@nl ;
+    dct:identifier "9DF5AC43-3673-4b9a-BB5E-6DCA7BE28835" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> a owl:Class ;
+    rdfs:label "NatuurlijkPersoon"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een INGESCHREVEN PERSOON of ANDER NATUURLIJK PERSOON"@nl ;
+    dct:identifier "9F4E12E4-B228-4931-AC83-1B1F60958A89" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ingezetene> a owl:Class ;
+    rdfs:label "Ingezetene"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een individueel menselijk wezen, ingeschreven in het Nederlands Bevolkingsregister."@nl ;
+    dct:identifier "CA19D17F-3EB7-459d-9883-16F0C0B5D35E" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/deelnemersrol> a owl:Class ;
+    rdfs:label "Deelnemersrol"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "E2EDC770-08EB-4298-A2BA-F7943ACD695F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/stemmingsresultaattype> a owl:Class ;
+    rdfs:label "Stemmingsresultaattype"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "0A3A2E20-2A67-4e16-B11E-36C09F94331D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/stemmingstype> a owl:Class ;
+    rdfs:label "Stemmingstype"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "368EB061-7CF3-4115-BB21-3C618782F205" .
+
+# Enumeration: DEELNEMERSROL
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/deelnemersrol/inspreker>
+    rdfs:label "Inspreker"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/deelnemersrol/overig>
+    rdfs:label "Overig"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/deelnemersrol/portefeuillehouder>
+    rdfs:label "Portefeuillehouder"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/deelnemersrol/raadslid>
+    rdfs:label "Raadslid"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/deelnemersrol/statenlid>
+    rdfs:label "Statenlid"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/deelnemersrol/vice_voorzitter>
+    rdfs:label "Vice-voorzitter"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/deelnemersrol/voorzitter>
+    rdfs:label "Voorzitter"@nl .
+
+# Enumeration: STEMMINGSRESULTAATTYPE
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/stemmingsresultaattype/gelijk>
+    rdfs:label "Gelijk"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/stemmingsresultaattype/tegen>
+    rdfs:label "Tegen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/stemmingsresultaattype/voor>
+    rdfs:label "Voor"@nl .
+
+# Enumeration: STEMMINGSTYPE
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/stemmingstype/hoofdelijk>
+    rdfs:label "Hoofdelijk"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/stemmingstype/regulier>
+    rdfs:label "Regulier"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/stemmingstype/schriftelijk>
+    rdfs:label "Schriftelijk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/indicatieafschermingpersoonsgegevens> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> ;
+    dct:identifier "62B6A074-CBC7-4f2a-9623-C83252FBBB0E" ;
+    dct:description "Indicatie Afscherming Persoonsgegevens is een indicatie om aan te geven dat de gegevens van een persoon zijn afgeschermd."@nl ;
+    rdfs:label "IndicatieAfschermingPersoonsgegevens"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/kvknummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C43F0DE4-C49D-442f-B7F6-157CF378EBE8" ;
+    rdfs:label "KVKnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ingezetene/aanduidingeuropeeskiesrecht> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ingezetene> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> ;
+    dct:identifier "C1A983FD-C68F-4da8-924A-20A89D2C1385" ;
+    dct:description "Een aanduiding die aangeeft of de persoon een oproep moet ontvangen voor verkiezingen voor het Europees parlement."@nl ;
+    rdfs:label "aanduidingEuropeesKiesrecht"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/aanduidingnaamgebruik> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A4B50421-E428-4def-96B7-3639F0BA8F33" ;
+    dct:description "Een aanduiding voor de wijze van aanschrijving van de ingeschrevene."@nl ;
+    rdfs:label "aanduidingNaamgebruik"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ingezetene/aanduidinguitgeslotenkiesrecht> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ingezetene> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> ;
+    dct:identifier "FC38DEF4-EB44-4a47-937A-04A0FEBEFEB3" ;
+    dct:description "Een aanduiding ter uitvoering van de Kieswet."@nl ;
+    rdfs:label "aanduidingUitgeslotenKiesrecht"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/aanhefaanschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B491C4DA-C2E1-4b77-93A7-938116B72F22" ;
+    dct:description "De aanhef waarmee de persoon aangeschreven wil worden."@nl ;
+    rdfs:label "aanhefAanschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/aanwezige_deelnemer/aanvangaanwezigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/aanwezige_deelnemer> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "8E91C8DE-D513-4907-9180-A44CEED1B1DA" ;
+    rdfs:label "aanvangAanwezigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/academischetitel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F361C95F-53F8-4625-9D3D-030CD1EA48BA" ;
+    dct:description "De ACADEMISCHE TITELs van een NATUURLIJK PERSOON."@nl ;
+    rdfs:label "academischeTitel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/collegelid/achternaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/collegelid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A3BBDA79-17AC-48a1-8DD2-164CE824183B" ;
+    rdfs:label "achternaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/achternaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AA122FC9-8F67-4178-9D72-BF098EA63E92" ;
+    rdfs:label "achternaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadslid/achternaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadslid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "52C6F6A2-D06E-4e34-A2B0-9E6DD47386DE" ;
+    rdfs:label "achternaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/adellijketitelofpredikaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/adelijketitel> ;
+    dct:identifier "5CB3C6B2-826C-4645-AC21-6E4F8A103B29" ;
+    dct:description "Een omschrijving die aangeeft welke titel of welk predikaat behoort tot de naam (bij adellijke titel geslachtsnaam, bij predikaat voornaam)."@nl ;
+    rdfs:label "adellijkeTitelOfPredikaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adresbinnenland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0F55857A-1582-46f5-9621-0E93F8C13310" ;
+    dct:description "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."@nl ;
+    rdfs:label "adresBinnenland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adresbuitenland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F6185DF1-173C-47b0-A94A-55D055A89104" ;
+    dct:description "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."@nl ;
+    rdfs:label "adresBuitenland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/adrescorrespondentie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3A5CEB3F-40E2-4890-92D1-61133EE48E9D" ;
+    dct:description "postbus of antwoordnummer"@nl ;
+    rdfs:label "adresCorrespondentie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/anummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7F6A767D-6AA4-4ada-8935-8A4A052FEF5D" ;
+    dct:description "Het administratienummer van het kind, bedoeld in de Wet BRP."@nl ;
+    rdfs:label "anummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadsstuk/besloten> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadsstuk> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "5F0B0086-4B20-4ad6-A0E3-8473792DCCA3" ;
+    rdfs:label "besloten"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video_opname/bestandsgrootte> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video_opname> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "1BD88347-A95D-4d6b-8CBE-C1FFE22D5ECE" ;
+    rdfs:label "bestandsgrootte"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/bijzondernederlanderschap> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "91D5A910-8573-42d9-81FF-0745067097A3" ;
+    rdfs:label "bijzonderNederlanderschap"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/burgerservicenummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D0D31A65-6ADD-4d9e-94E4-F232D261A053" ;
+    rdfs:label "burgerservicenummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/cocumentbeschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1DB068B6-3EAE-4d79-B1EC-73905A5994FC" ;
+    dct:description "Een generieke beschrijving van de inhoud van het document."@nl ;
+    rdfs:label "cocumentBeschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadslid/datumaanstelling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadslid> ;
+    rdfs:range xsd:date ;
+    dct:identifier "376E6EF1-A184-4d7c-B962-DFC9B1C3E40F" ;
+    rdfs:label "datumAanstelling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/collegelid/datumaanstelling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/collegelid> ;
+    rdfs:range xsd:date ;
+    dct:identifier "4206FC6F-BAE8-4240-A6D9-FF57FDF68E78" ;
+    rdfs:label "datumAanstelling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumcreatiedocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "61F9ED59-4DA5-4099-ADAC-8D7FEFDD0F37" ;
+    dct:description "Een datum of een gebeurtenis in de levenscyclus van het document."@nl ;
+    rdfs:label "datumCreatieDocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadsstuk/datumexpiratie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadsstuk> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "2727F559-44D0-4e2b-892B-849D1FA4EFA6" ;
+    rdfs:label "datumExpiratie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/datumgeboorte> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E1EB6152-0130-4649-A547-DFE890DDB884" ;
+    dct:description "De datum waarop de ander natuurljjk persoon is geboren."@nl ;
+    rdfs:label "datumGeboorte"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumontvangstdocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FFEE3095-1146-4106-A1ED-70A253812FA6" ;
+    dct:description "De datum waarop het DOCUMENT ontvangen is."@nl ;
+    rdfs:label "datumOntvangstdocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/datumoverlijden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0C911D2A-0457-4a6e-9178-1089A4632DB1" ;
+    dct:description "De datum van overlijden van een ANDER NATUURLIJK PERSOON"@nl ;
+    rdfs:label "datumOverlijden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadsstuk/datumpublicatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadsstuk> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "334CE3A8-8E8D-4b06-8DA9-C4D03BD38C1D" ;
+    rdfs:label "datumPublicatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadsstuk/datumregistratie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadsstuk> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "72642A6B-AF2F-4dbd-98C1-16C0DD3FDF69" ;
+    rdfs:label "datumRegistratie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadslid/datumuittreding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadslid> ;
+    rdfs:range xsd:date ;
+    dct:identifier "1C4FF02E-B6B9-41e9-9C41-9BE807D5D562" ;
+    rdfs:label "datumUittreding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/collegelid/datumuittreding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/collegelid> ;
+    rdfs:range xsd:date ;
+    dct:identifier "DC01DF7E-947A-4ca4-9FD6-A8A9198F5865" ;
+    rdfs:label "datumUittreding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ingezetene/datumverkrijgingverblijfstitel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ingezetene> ;
+    rdfs:range xsd:string ;
+    dct:identifier "96310131-84AC-45e0-995B-0DE8FD4DE9F9" ;
+    dct:description "De datum waarop de verblijfstitel van een natuurlijke persoon zijn geldigheid heeft verkregen."@nl ;
+    rdfs:label "datumVerkrijgingVerblijfstitel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ingezetene/datumverliesverblijfstitel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ingezetene> ;
+    rdfs:range xsd:string ;
+    dct:identifier "419F3359-8B97-4508-8575-08DD152300C4" ;
+    dct:description "De datum waarop de verblijfstitel van een natuurlijke persoon zijn geldigheid zal verliezen."@nl ;
+    rdfs:label "datumVerliesVerblijfstitel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumverzendingdocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C06162CD-CFEA-4c04-BE26-76BC4DF42A16" ;
+    dct:description "De datum waarop het DOCUMENT verzonden is."@nl ;
+    rdfs:label "datumVerzendingDocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video_opname/datumtijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video_opname> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "4769AA29-96D2-4b4d-AA1D-7C12144E3C40" ;
+    rdfs:label "datumtijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documentauteur> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "24277038-EF81-4e10-92BC-68AB8969FE4D" ;
+    dct:description "De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document."@nl ;
+    rdfs:label "documentAuteur"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documentidentificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CB08FF35-EE64-4504-90CF-835DA32E636C" ;
+    dct:description "Een binnen een gegeven context ondubbelzinnige referentie naar het document. Bijvoorbeeld potsregistratienummer"@nl ;
+    rdfs:label "documentIdentificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documenttitel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "21E0EC21-5217-4582-A8B8-CA0EE3EFDFAD" ;
+    dct:description "De naam waaronder het document formeel bekend is."@nl ;
+    rdfs:label "documentTitel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/aanwezige_deelnemer/eindeaanwezigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/aanwezige_deelnemer> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "A5E50423-238E-466b-BE99-907CEBEFC748" ;
+    rdfs:label "eindeAanwezigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/vergadering/eindtijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/vergadering> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "AA242888-6A4A-4fda-B0EC-6D2A25EAB5C2" ;
+    rdfs:label "eindtijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/emailadres> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D003FAB1-3C25-4b00-9247-B6D6CA5155F9" ;
+    dct:description "Elektronisch postadres waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "emailadres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/faxnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6E61DBA6-E0F0-47bd-9BA5-1D8A04C0EAA6" ;
+    dct:description "Faxnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "faxnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/collegelid/fractie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/collegelid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E9883025-3926-46ad-AE57-15F566F195DE" ;
+    rdfs:label "fractie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadslid/fractie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadslid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C055E0D3-A0A1-422b-8918-C1B5D7552E16" ;
+    rdfs:label "fractie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/geboorteland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "708A75AE-B2FD-4238-88D3-FA9DBBAED68F" ;
+    dct:description "Het LAND waar de INGESCHREVEN PERSOON is geboren."@nl ;
+    rdfs:label "geboorteland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/geboorteplaats> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E486F2A3-7B55-4ea9-8E76-E5D220B6D941" ;
+    dct:description "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de ingeschreven persoon is geboren."@nl ;
+    rdfs:label "geboorteplaats"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/geslachtsaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F29526BB-3DEC-44f4-A715-9E5F9D4B2100" ;
+    dct:description "Een aanduiding die aangeeft dat de ingeschrevene een man of een vrouw is, of dat het geslacht (nog) onbekend is."@nl ;
+    rdfs:label "geslachtsaanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/geslachtsnaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4A6908C9-7E08-4b71-A64F-266AFD891312" ;
+    dct:description "De (geslachts)naam waarvan de eventueel aanwezige voorvoegsels en adellijke titel/predikaat zijn afgesplitst."@nl ;
+    rdfs:label "geslachtsnaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/geslachtsnaamaanschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A86FDD6B-4A48-4a8a-9847-E2A3D08E96AA" ;
+    dct:description "De geslachtsnaam waarmee de persoon aangeschreven wil worden."@nl ;
+    rdfs:label "geslachtsnaamAanschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/handlichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "48FEE9C7-1102-4b53-92B3-F5E6B9EE2A26" ;
+    dct:description "Geeft aan of de rechter handlichting heeft verleend aan: - De Natuurlijk Persoon als eigenaar van een MaatschappelijkeActiviteit - De Natuurlijk Persoon als aansprakelijke"@nl ;
+    rdfs:label "handlichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5581C29C-3143-42f6-970E-CFB7282258C9" ;
+    dct:description "De unieke identificatie van het SUBJECT"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ingezetene/indicatieblokkering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ingezetene> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6EB4EDEA-35FF-41fa-9CF6-DC583EA00E3A" ;
+    dct:description "De indicatie dat de PL is geblokkeerd wegens een intergemeentelijke verhuizing."@nl ;
+    rdfs:label "indicatieBlokkering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ingezetene/indicatiecurateleregister> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ingezetene> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BF5CEB65-1045-4cd9-9F43-8F9E2EDAFBE5" ;
+    dct:description "Een aanduiding dat de ingezetene onder curatele is gesteld."@nl ;
+    rdfs:label "indicatieCurateleregister"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ingezetene/indicatiegezagminderjarige> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ingezetene> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F8BC786F-E926-440d-9049-A12253E30135" ;
+    dct:description "Een aanduiding die aangeeft wie belast is met het gezag over de minderjarige ingezetene."@nl ;
+    rdfs:label "indicatieGezagMinderjarige"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/indicatieoverleden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> ;
+    dct:identifier "36DFE2DA-EF18-4895-8568-9353F5A00D13" ;
+    dct:description "Indicatie Overleden is een indicatie of de persoon al dan niet overleden is. Deze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar zijn De datum van overlijden is soms niet bekend, maar wel dat iemand overleden is."@nl ;
+    rdfs:label "indicatieOverleden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/landoverlijden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EAB0BBFA-3CE5-4266-9796-8C723D9A4E26" ;
+    dct:description "Het LAND waar de INGESCHREVEN PERSOON is overleden."@nl ;
+    rdfs:label "landOverlijden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video_opname/lengte> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video_opname> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "8EBDBA0F-E6BC-49d0-9499-794676BF0FA2" ;
+    rdfs:label "lengte"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/vergadering/locatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/vergadering> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C7634B88-1168-4245-B186-9F8FEE605A7D" ;
+    rdfs:label "locatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0BBB4DB3-7F02-4dda-82D4-38976334D948" ;
+    dct:description "De benaming van het SUBJECT"@nl ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/aanwezige_deelnemer/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/aanwezige_deelnemer> ;
+    rdfs:range xsd:string ;
+    dct:identifier "085F1605-6837-440f-AA02-0875ADA2C3A0" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/indiener/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/indiener> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A1720378-DC9B-439c-840B-11C0E7B4FD23" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadscommissie/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadscommissie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5ED5FC16-1ACE-4fe7-B748-8677B183B356" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/nationaliteit> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CF70E207-96C2-4e3d-8CD9-5AC73411F894" ;
+    rdfs:label "nationaliteit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/agendapunt/nummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/agendapunt> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "4D5223CC-0D01-4159-A332-D79F62EF6EFF" ;
+    rdfs:label "nummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/agendapunt/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/agendapunt> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0F87B143-8CC4-425b-866A-4CBAAE62EC83" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/indiener/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/indiener> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5867D459-ADC9-4490-9DE3-DFE7EC7BA423" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/overlijdensplaats> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "023ECDE1-3AB6-4651-BBA4-50EDED6CCFA1" ;
+    dct:description "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de persoon is overleden"@nl ;
+    rdfs:label "overlijdensplaats"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/collegelid/portefeuille> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/collegelid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "35D6D541-038F-406d-A91C-94E9919D6F55" ;
+    rdfs:label "portefeuille"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/rechtsvorm> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9FB55106-DB14-4192-B325-75B7272FDE36" ;
+    dct:description "Bron: Handelsregister"@nl ;
+    rdfs:label "rechtsvorm"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/rekeningnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6BB892F7-1C6E-4aeb-8BFA-3012FEB03B78" ;
+    dct:description "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
+    rdfs:label "rekeningnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/stemming/resultaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/stemming> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/stemmingsresultaattype> ;
+    dct:identifier "8654495F-602B-4ba4-B14E-06E462B83DA9" ;
+    rdfs:label "resultaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/aanwezige_deelnemer/rol> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/aanwezige_deelnemer> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/deelnemersrol> ;
+    dct:identifier "87E80E09-D1E1-405a-B523-7B0325C6036C" ;
+    rdfs:label "rol"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/vergadering/starttijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/vergadering> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "0EAB7C95-2804-4e6a-9934-5DA9EC5BAA62" ;
+    rdfs:label "starttijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/stemming/stemmingstype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/stemming> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/stemmingstype> ;
+    dct:identifier "7492724B-9665-4ca6-A759-F6DFA6A9810A" ;
+    rdfs:label "stemmingstype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon/telefoonnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6B41E997-26A2-4f32-AE3B-A46BA0E3BE20" ;
+    dct:description "Telefoonnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "telefoonnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/collegelid/titel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/collegelid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2A2262E6-663D-4ca0-86BF-87DA49620F6C" ;
+    rdfs:label "titel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadslid/titel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadslid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D61B8A6C-8F0B-4c2e-B088-054A75439C29" ;
+    rdfs:label "titel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/vergadering/titel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/vergadering> ;
+    rdfs:range xsd:string ;
+    dct:identifier "348F1F0F-8E7C-4850-BCD6-A91DAE640565" ;
+    rdfs:label "titel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/agendapunt/titel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/agendapunt> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A65D3FAE-0680-4993-8B07-517C8AE0CA63" ;
+    rdfs:label "titel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadsstuk/typeraadsstuk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadsstuk> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CBF2C174-7F93-4c2f-A6E7-F501D9E3291D" ;
+    rdfs:label "typeRaadsstuk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/aanwezige_deelnemer/vertegenwoordigtorganisatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/aanwezige_deelnemer> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7320C8AA-C6D0-4002-AA34-83215D0387AA" ;
+    rdfs:label "vertegenwoordigtOrganisatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/vertrouwelijkaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A7A897CF-ECB5-45c1-A0CD-698E1D66F2CF" ;
+    dct:description "Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is."@nl ;
+    rdfs:label "vertrouwelijkAanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video_opname/videoformaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video_opname> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4285A8AE-803F-4192-8010-E58BC7E9FD6B" ;
+    rdfs:label "videoformaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/voorlettersaanschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A382AFC3-D788-4fe3-B113-B30741AD4C64" ;
+    dct:description "De voorletters waarmee een persoon aangeschreven wil worden."@nl ;
+    rdfs:label "voorlettersAanschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/collegelid/voornaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/collegelid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CE0E980A-7BEF-4e17-81AE-596CA5C630D6" ;
+    rdfs:label "voornaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadslid/voornaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadslid> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2B43A0B4-AFDE-41c9-A980-68E6DED35EAB" ;
+    rdfs:label "voornaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/voornamen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9C21549F-71E7-4ae3-8994-FAA7F0E8F0CE" ;
+    dct:description "De verzameling namen die, gescheiden door spaties, aan de geslachtsnaam voorafgaat.."@nl ;
+    rdfs:label "voornamen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/voornamenaanschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8F033F41-25A8-4aaa-B0E9-73A0D9B46BC5" ;
+    dct:description "De voornamen waarmee een persoon aangeschreven wil worden."@nl ;
+    rdfs:label "voornamenAanschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon/voorvoegselgeslachtsnaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B5EA0A95-1308-40a1-ADC8-ADFB148FFE87" ;
+    dct:description "Dat deel van de geslachtsnaam dat voorkomt in GBA Tabel 36, Voorvoegseltabel en, gescheiden door een spatie, vooraf gaat aan de rest van de geslachtsnaam."@nl ;
+    rdfs:label "voorvoegselGeslachtsnaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/vergadering/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/vergadering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video_opname> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/stemming/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/stemming> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadsstuk> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/vergadering/heeft_verslag> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/vergadering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadsstuk> ;
+    rdfs:label "heeft verslag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadsstuk/wordt_behandeld_in> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadsstuk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/vergadering> ;
+    rdfs:label "wordt behandeld in"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadsstuk/> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadsstuk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:label ""@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadslid> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ingezetene> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadslid/is_lid_van> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadslid> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadscommissie> ;
+    rdfs:label "is lid van"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadscommissie/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadscommissie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/vergadering> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/indiener/is> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/indiener> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> ;
+    rdfs:label "is"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/indiener/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/indiener> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadsstuk> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/indiener/is> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/indiener> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadslid> ;
+    rdfs:label "is"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/indiener/is> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/indiener> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/collegelid> ;
+    rdfs:label "is"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/collegelid> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/ingezetene> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadsstuk/behandelt> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadsstuk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/agendapunt> ;
+    rdfs:label "behandelt"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/vergadering/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/vergadering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/agendapunt> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/stemming/hoort_bij> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/stemming> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/agendapunt> ;
+    rdfs:label "hoort bij"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadslid/is> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/raadslid> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/aanwezige_deelnemer> ;
+    rdfs:label "is"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/vergadering/> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/vergadering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/aanwezige_deelnemer> ;
+    rdfs:label ""@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/aanwezige_deelnemer/is> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/aanwezige_deelnemer> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> ;
+    rdfs:label "is"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/aanwezige_deelnemer/is> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/aanwezige_deelnemer> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/collegelid> ;
+    rdfs:label "is"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/natuurlijkpersoon> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/rechtspersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video_opname/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video_opname> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur_politiek_en_ondersteuning/griffie/agendapunt> ;
+    rdfs:label "betreft"@nl .

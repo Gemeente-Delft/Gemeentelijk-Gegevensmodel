@@ -1,0 +1,507 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignalering_details>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client> a owl:Class ;
+    rdfs:label "Client"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente."@nl ;
+    dct:identifier "DAF09055-A5A6-4ff4-A158-21B20567B296" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaal> a owl:Class ;
+    rdfs:label "Vroegsignaal"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Vroegsignaal is een bericht dat door een signaalpartner (zoals een zorgverzekeraar, energieleverancier of verhuurder) aan de gemeente wordt verstrekt, met als doel de gemeente te informeren over een mogelijk beginnende schuldsituatie van een inwoner. Het vroegsignaal vormt het startpunt van het gemeentelijk proces van vroegsignalering van schulden. De juridische grondslag voor het ontvangen en verwerken van vroegsignalen is vastgelegd in artikel 2.2.1 van de Wet gemeentelijke schuldhulpverlening (Wgs). Deze wet verplicht gemeenten om vroegtijdig signalen van betalingsachterstanden te ontvangen en op basis daarvan inwoners passende hulp aan te bieden."@nl ;
+    dct:identifier "C6DA2586-C0E3-4868-93E8-64AF6D118092" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaalzaak> a owl:Class ;
+    rdfs:label "Vroegsignaalzaak"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Vroegsignaalzaak is procesmatige eenheid binnen de gemeentelijke organisatie waarin de behandeling van één of meerdere vroegsigna(a)len is/zijn ondergebracht. De vroegsignaalzaak omvat alle handelingen die de gemeente verricht naar aanleiding van het ontvangen vroegsignaal, zoals het vastleggen van het signaal, het uitvoeren van een eerste beoordeling, het leggen van contact met de inwoner, het registreren van contactpogingen en -resultaten, en het eventueel toeleiden naar schuldhulpverlening of andere passende ondersteuning."@nl ;
+    dct:identifier "1AA67F0D-3B94-48a3-A037-A2ACC6D61CF0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/contactpoging> a owl:Class ;
+    rdfs:label "Contactpoging"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een Contactpoging is de actie die de gemeente onderneemt om in contact te treden met de inwoner naar aanleiding van een vroegsignaal. Een contactpoging maakt onderdeel uit van de vroegsignaalzaak en kan verschillende vormen aannemen, zoals een telefoongesprek, huisbezoek, brief of digitaal bericht. Van elke contactpoging wordt vastgelegd wanneer deze is gedaan, op welke wijze, met welk doel en wat het resultaat was (bijvoorbeeld: geen gehoor, gesprek gevoerd, brief retour ontvangen)."@nl ;
+    dct:identifier "C7000EFD-826C-4e47-BD80-075A6EF4E558" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/signaalpartner> a owl:Class ;
+    rdfs:label "Signaalpartner"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een signaalpartner is een organisatie die op grond van artikel 2.2.1 van de Wet gemeentelijke schuldhulpverlening (Wgs) bevoegd is om signalen van betalingsachterstanden door te geven aan de gemeente met het doel vroegtijdige hulpverlening bij schulden mogelijk te maken. Signaalpartners zijn dienstverleners met een maatschappelijk belang, zoals zorgverzekeraars, energieleveranciers, drinkwaterbedrijven en woningverhuurders. Een signaalpartner verstrekt een vroegsignaal aan de gemeente wanneer bij een klant of huurder sprake is van een betalingsachterstand die voldoet aan de wettelijke en/of contractuele criteria voor signalering."@nl ;
+    dct:identifier "3643CF44-EFAA-4939-9AEB-ACA8D8EE11F9" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> a owl:Class ;
+    rdfs:label "Gemeente"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."@nl ;
+    dct:identifier "EA6F820F-C458-4b24-8055-5C2CC76F5904" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon> a owl:Class ;
+    rdfs:label "NietNatuurlijkPersoon"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een INGESCHREVEN NIET-NATUURLIJK PERSOON of een ANDER BUITENLANDS NIET-NATUURLIJK PERSOON"@nl ;
+    dct:identifier "3D5CCB29-91E4-458e-8BCD-6741198E45B8" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumeindresultaat> a owl:Class ;
+    rdfs:label "EnumEindresultaat"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:description "Enumeratie met de soorten Eindresultaten van een Vroegsignaalzaak."@nl ;
+    dct:identifier "B78A9A0E-65B0-4c4b-AA01-99CFA196D740" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumcontactsoort> a owl:Class ;
+    rdfs:label "EnumContactsoort"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:description "Enumeratie met daarin de soorten onderscheiden contactsoorten bij een contactpoging."@nl ;
+    dct:identifier "7BA37694-65C5-4cfb-8804-D7EB6CE344FB" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalpartner> a owl:Class ;
+    rdfs:label "EnumSignaalpartner"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:description "Enumeratie met de soorten te onderscheiden Signaalpartners."@nl ;
+    dct:identifier "ACE0EA25-898C-4de3-8196-49AD3AE5481F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalstatus> a owl:Class ;
+    rdfs:label "EnumSignaalstatus"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "568499A3-3FE7-4342-B1B4-36A01AEAC1C9" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumdagdeel> a owl:Class ;
+    rdfs:label "EnumDagdeel"@nl ;
+    ggm:objectType "Enumeration" ;
+    dct:identifier "3860D42A-481D-42cd-86F9-79B5D6230A58" .
+
+# Enumeration: ENUMCONTACTSOORT
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumcontactsoort/administratief>
+    rdfs:label "Administratief"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumcontactsoort/afspraak_op_locatie>
+    rdfs:label "Afspraak op locatie"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumcontactsoort/brief>
+    rdfs:label "Brief"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumcontactsoort/huisbezoek>
+    rdfs:label "Huisbezoek"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumcontactsoort/kaartje>
+    rdfs:label "Kaartje"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumcontactsoort/mail>
+    rdfs:label "Mail"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumcontactsoort/sms_whatsapp>
+    rdfs:label "SMS/Whatsapp"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumcontactsoort/telefoon>
+    rdfs:label "Telefoon"@nl .
+
+# Enumeration: ENUMDAGDEEL
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumdagdeel/avond>
+    rdfs:label "Avond"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumdagdeel/middag>
+    rdfs:label "Middag"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumdagdeel/ochtend>
+    rdfs:label "Ochtend"@nl .
+
+# Enumeration: ENUMEINDRESULTAAT
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumeindresultaat/budget_advies_en_of_quick_fix>
+    rdfs:label "(Budget)advies en/of quick fix"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumeindresultaat/definitief_geen_contact_kunnen_krijgen>
+    rdfs:label "Definitief geen contact kunnen krijgen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumeindresultaat/geen_reactie_na_eerder_contact>
+    rdfs:label "Geen reactie na eerder contact"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumeindresultaat/inwoner_al_bekend_bij_schuldhulpverlening>
+    rdfs:label "Inwoner al bekend bij schuldhulpverlening"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumeindresultaat/inwoner_heeft_al_een_ander_lopend_traject>
+    rdfs:label "Inwoner heeft al een ander lopend traject"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumeindresultaat/inwoner_heeft_zelf_al_betaald_betalingsregeling_getroffen>
+    rdfs:label "Inwoner heeft zelf al betaald/betalingsregeling getroffen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumeindresultaat/inwoner_hoeft_geen_hulp_vanuit_vroegsignalering>
+    rdfs:label "Inwoner hoeft geen hulp vanuit vroegsignalering"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumeindresultaat/inwoner_is_overleden>
+    rdfs:label "Inwoner is overleden"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumeindresultaat/niet_opgepakt_andere_reden>
+    rdfs:label "Niet opgepakt: andere reden"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumeindresultaat/niet_opgepakt_herhaalde_melding>
+    rdfs:label "Niet opgepakt: herhaalde melding"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumeindresultaat/niet_opgepakt_onterecht_signaal>
+    rdfs:label "Niet opgepakt: onterecht signaal"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumeindresultaat/persoon_is_geen_inwoner_meer_in_de_gemeente>
+    rdfs:label "Persoon is geen inwoner (meer) in de gemeente"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumeindresultaat/vervolghulp_en_of_verwijzing_financieel>
+    rdfs:label "Vervolghulp en/of verwijzing financieel"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumeindresultaat/vervolghulp_en_of_verwijzing_niet_financieel>
+    rdfs:label "Vervolghulp en/of verwijzing niet financieel"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumeindresultaat/verwijzing_zonder_contact>
+    rdfs:label "Verwijzing zonder contact"@nl .
+
+# Enumeration: ENUMSIGNAALPARTNER
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalpartner/belastingdienst>
+    rdfs:label "Belastingdienst"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalpartner/cak_eigen_bijdrage>
+    rdfs:label "CAK Eigen bijdrage"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalpartner/cak_zorgverzekeringen>
+    rdfs:label "CAK Zorgverzekeringen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalpartner/dienst_toeslagen>
+    rdfs:label "Dienst Toeslagen"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalpartner/duo>
+    rdfs:label "DUO"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalpartner/energie>
+    rdfs:label "Energie"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalpartner/huur>
+    rdfs:label "Huur"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalpartner/hypotheek>
+    rdfs:label "Hypotheek"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalpartner/overige>
+    rdfs:label "Overige"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalpartner/water>
+    rdfs:label "Water"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalpartner/zorg>
+    rdfs:label "Zorg"@nl .
+
+# Enumeration: ENUMSIGNAALSTATUS
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalstatus/inwoner_is_overleden>
+    rdfs:label "Inwoner is overleden"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalstatus/niet_opgepakt_andere_reden>
+    rdfs:label "Niet opgepakt: andere reden"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalstatus/niet_opgepakt_herhaalde_melding>
+    rdfs:label "Niet opgepakt: herhaalde melding"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalstatus/niet_opgepakt_onterecht_signaal>
+    rdfs:label "Niet opgepakt: onterecht signaal"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalstatus/nog_niet_opgepakt>
+    rdfs:label "Nog niet opgepakt"@nl .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalstatus/persoon_is_geen_inwoner_meer_in_de_gemeente>
+    rdfs:label "Persoon is geen inwoner (meer) in de gemeente"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/geconstateerd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
+    dct:identifier "1495BB67-4244-411a-BD67-3E6FDBB4DF3E" ;
+    rdfs:label "Geconstateerd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon/kvknummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D7CD3AD8-4867-4c14-94C4-34741A1C8FE7" ;
+    dct:description "Landelijk uniek identificerend administratienummer van een MAATSCHAPPELIJKE ACTIVITEIT behorend bij een SUBJECT zoals toegewezen door de Kamer van Koophandel (KvK)."@nl ;
+    rdfs:label "KVKnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon/nnpid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "53D269C1-BBFD-4e2f-9166-5165EBBFBD9F" ;
+    dct:description "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege ‘ambtelijke’ correcties."@nl ;
+    rdfs:label "NNPID"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon/rsinnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "06E77E04-431E-437b-91E5-5BBEAA6D2A91" ;
+    rdfs:label "RSINNummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaal/bedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaal> ;
+    rdfs:range xsd:decimal ;
+    dct:identifier "1356A07B-E822-49a4-BFF8-96A4B2D3F721" ;
+    rdfs:label "bedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/begingeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:range xsd:string ;
+    dct:identifier "97DCF1DA-8BDA-4c54-9082-E9FE5029EF33" ;
+    dct:description "Definitie BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen. Beschrijving Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"@nl ;
+    rdfs:label "beginGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/contactpoging/bereikt> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/contactpoging> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "2F9C3566-EAE3-40e7-B182-8BF3F8E740EE" ;
+    dct:description "Er is succesvol contact met de client gemaakt."@nl ;
+    rdfs:label "bereikt"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client/code> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2F053C54-0964-436c-8943-4727C5809CAB" ;
+    rdfs:label "code"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaal/crisissignaal> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaal> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "66BCDE30-2AC1-4f5b-8CE0-9B1AAC5D4B39" ;
+    dct:description "Betreft het een crisis?"@nl ;
+    rdfs:label "crisissignaal"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/contactpoging/dagdeel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/contactpoging> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumdagdeel> ;
+    dct:identifier "1D552330-BA39-4684-A980-FF08E9D48E01" ;
+    dct:description "Ochtend, middag of avond"@nl ;
+    rdfs:label "dagdeel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/contactpoging/datum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/contactpoging> ;
+    rdfs:range xsd:date ;
+    dct:identifier "728F455C-E145-4f01-939C-3278ADE853D4" ;
+    rdfs:label "datum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon/datumaanvang> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "06D585D5-E6E0-4b11-B966-158F841E0E9C" ;
+    dct:description "{nog niet in NHR uitgewerkt"@nl ;
+    rdfs:label "datumAanvang"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D5B18FDC-16E7-4ebd-9D01-950766A89142" ;
+    dct:description "{nog niet in NHR uitgewerkt"@nl ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/datumeinde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:range xsd:date ;
+    dct:identifier "76AC47A1-DB41-4b6c-BB26-4A52D266F3A1" ;
+    dct:description "De datum waarop de object in de BAG formeel is ingetrokken."@nl ;
+    rdfs:label "datumEinde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/datumingang> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:range xsd:date ;
+    dct:identifier "0267D7A4-44E8-4491-AE8D-04B810394855" ;
+    rdfs:label "datumIngang"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon/datumuitschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B1B7167E-F4D5-4ff7-B03B-195C5A93D1B6" ;
+    dct:description "De datum dat de de Niet-Natuurlijk persoon is uitgeschreven."@nl ;
+    rdfs:label "datumUitschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon/datumvoortzetting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "ACB0B6B5-094C-4ab3-AFED-031A9F0A077B" ;
+    dct:description "{nog niet in NHR uitgewerkt"@nl ;
+    rdfs:label "datumVoortzetting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaalzaak/datum_opgepakt> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    rdfs:range xsd:date ;
+    dct:identifier "CB19AC62-5F96-4bc3-ADDC-CB26B1494985" ;
+    dct:description "De datum waarop de gemeente de zaak heeft opgepakt."@nl ;
+    rdfs:label "datum_opgepakt"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/eindgeldigheid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:range xsd:string ;
+    dct:identifier "0F6C083A-7EC5-4aef-BCDF-000952FBA82E" ;
+    dct:description "Definitie EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid. Beschrijving Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."@nl ;
+    rdfs:label "eindGeldigheid"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaalzaak/einddatum_matchingperiode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    rdfs:range xsd:date ;
+    dct:identifier "667A4A4F-76D7-4f5e-B0AE-505BAF24880F" ;
+    dct:description "De matchingperiode is het tijdvak waarover de matching plaatsvindt. Hier de einddatum van de matching, die binnen de matchingsperiode valt."@nl ;
+    rdfs:label "einddatum_matchingperiode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon/faxnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4BA30750-DAFC-41ed-9FD6-89AC2245B21B" ;
+    dct:description "Faxnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:label "faxnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A0D1CAD2-51F6-4a90-B56F-D5BE251BAB12" ;
+    dct:description "Een numerieke aanduiding waarmee een Nederlandse gemeente uniek wordt aangeduid"@nl ;
+    rdfs:label "gemeentecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentenaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:range xsd:string ;
+    dct:identifier "91EAE994-CC72-482a-A4B3-4B28B1EB4DBA" ;
+    dct:description "De officiële door de gemeente vastgestelde gemeentenaam."@nl ;
+    rdfs:label "gemeentenaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentenaam_nen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FA5E013E-DB9E-4df3-9850-53FC868F6BF4" ;
+    dct:description "De officieel vastgestelde en waar nodig ingekorte naam van de gemeente"@nl ;
+    rdfs:label "gemeentenaam NEN"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/geometrie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:range geo:Geometry ;
+    dct:identifier "ABD61FAB-0454-4cd7-8D1B-E3F71E858937" ;
+    dct:description "De tweedimensionale geometrische representatie van de omtrekken van het grondgebied van een gemeente."@nl ;
+    rdfs:label "geometrie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client/gezagsdragergekend> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "98ACDCD3-78C0-4f19-9D7F-3D6E9117633C" ;
+    rdfs:label "gezagsdragerGekend"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F937167E-2F00-47fb-A2AF-FF18E8F1403F" ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon/inoprichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> ;
+    dct:identifier "4FE7D979-9C8D-422e-BF58-056E7FA923A0" ;
+    rdfs:label "inOprichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon/ingeschreven> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/boolean> ;
+    dct:identifier "A8568F89-4EDD-45c1-9079-BBC84EE70484" ;
+    rdfs:label "ingeschreven"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client/juridischestatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3002E65F-86D7-473e-91BF-98F5877E12D0" ;
+    rdfs:label "juridischeStatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaalzaak/matchingsdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    rdfs:range xsd:date ;
+    dct:identifier "3CC612B0-1F47-446e-8173-F45F54288FFF" ;
+    dct:description "De datum waarop de matching wordt uitgevoerd."@nl ;
+    rdfs:label "matchingsdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaal/ontstaansdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaal> ;
+    rdfs:range xsd:date ;
+    dct:identifier "97889083-6B3F-46ee-A65F-63B67DFBD831" ;
+    rdfs:label "ontstaansdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon/rechtsvorm> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/enumeratiesoort/soortrechtsvorm> ;
+    dct:identifier "2912AA27-945C-4e90-B95D-CA80312F884E" ;
+    dct:description "Aanduiding van de vorm die in rechte bekend is van de INGESCHREVEN NIET-NATUURLIJKE PERSOON"@nl ;
+    rdfs:label "rechtsvorm"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaalzaak/resultaat> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumeindresultaat> ;
+    dct:identifier "BCEEEE4D-E8DF-4cd2-8960-58A6CB5E7955" ;
+    rdfs:label "resultaat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaal/signaaldatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaal> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D02AE809-205C-482a-865D-81E1593B86B2" ;
+    dct:description "Datum waarop de signaalpartner het signaal heeft verstuurd."@nl ;
+    rdfs:label "signaaldatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/contactpoging/soort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/contactpoging> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumcontactsoort> ;
+    dct:identifier "786391BB-51AD-4657-93DB-806FA7E37159" ;
+    rdfs:label "soort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaalzaak/startdatum_matchtingperiode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    rdfs:range xsd:date ;
+    dct:identifier "A190C58A-2150-4251-8B34-186A5468DB27" ;
+    dct:description "De matchingperiode is het tijdvak waarover de matching plaatsvindt. Hier de startdatum van de matching, die binnen de matchingsperiode valt."@nl ;
+    rdfs:label "startdatum_matchtingperiode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaal/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaal> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalstatus> ;
+    dct:identifier "2E4EA218-470F-4845-A2B7-B49113DF227C" ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon/statutairenaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "96573FB8-102E-41d7-A5A3-0097AFBA37C3" ;
+    dct:description "Naam van de niet-natuurlijke persoon zoals deze is vastgelegd in de statuten (rechtspersoon) of in de vennootschapsovereenkomst is overeengekomen (Vennootschap onder firma of Commanditaire vennootschap)."@nl ;
+    rdfs:label "statutaireNaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon/statutairezetel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "919162D1-B0D7-48ad-A2AF-AC71B55736A1" ;
+    dct:description "De plaats waar de INGESCHREVEN NIET-NATUURLIJKE PERSOON volgens haar statuten gevestigd is."@nl ;
+    rdfs:label "statutaireZetel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/signaalpartner/type> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/signaalpartner> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    dct:identifier "2B44A309-F184-4f2e-B2A8-45175DD4073B" ;
+    rdfs:label "type"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/versie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "F0BD0F33-CBA1-4954-9C66-14E0C2FF1EC1" ;
+    rdfs:label "versie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaal/warmeoverdracht> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaal> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "A3CB2C9F-0C74-4899-BF54-207EA79CB79E" ;
+    dct:description "Er is al contact met persoon. Betreft verzoek deze persoon op te pakken in het kader van vroegsignalering."@nl ;
+    rdfs:label "warmeOverdracht"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon/websiteurl> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon> ;
+    rdfs:range xsd:string ;
+    dct:identifier "DDC08AE5-061E-4d41-963A-91A092F53573" ;
+    dct:description "Het label of etiket dat aan de specifieke informatiebron, zoals een webpagina, een bestand of een plaatje op internet is toegewezen waar het SUBJECT in de regel op het internet vindbaar is."@nl ;
+    rdfs:label "websiteURL"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client/wettelijkevertegenwoordiging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9CC38D5F-DED2-409b-B94B-2A733C2B7BB0" ;
+    rdfs:label "wettelijkeVertegenwoordiging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaal/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaal> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaal/opgepaktin> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaal> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    rdfs:label "opgepaktIn"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaalzaak/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/contactpoging> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaal/verzondendoor> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaal> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/signaalpartner> ;
+    rdfs:label "verzondenDoor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaalzaak/opgepaktnamens> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:label "opgepaktNamens"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaalzaak/opgepaktdoor> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb_model/nietnatuurlijkpersoon> ;
+    rdfs:label "opgepaktDoor"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/is_overgegaan_in> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:label "is overgegaan in"@nl .

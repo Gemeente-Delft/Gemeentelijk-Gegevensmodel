@@ -1,0 +1,594 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag_overzicht>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/andere_reden_afwijkende_startdatum> a owl:Class ;
+    rdfs:label "Andere reden afwijkende startdatum"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "*Andere reden afwijkende startdatum* is een omschrijving van een **reden waarom de startdatum van een dienst of uitkering afwijkt van de standaard startdatum**, voor zover deze reden niet onder de standaardcategorieën valt."@nl ;
+    dct:identifier "237c7e1c-5893-475f-be3f-49b629316e1e" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/andere_reden_verzoek> a owl:Class ;
+    rdfs:label "Andere reden verzoek"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "*Andere reden verzoek* is een categorie voor een **overige reden** waarom een aanvraag wordt gedaan die niet onder de standaard-redencategorieën valt binnen het *Reden aanvraag*-model."@nl ;
+    dct:identifier "1E8815BF-5BAC-6978-BF60-2791C1C96FC3" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/diensten_aanvraag> a owl:Class ;
+    rdfs:label "Diensten::Aanvraag"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een aanvraag is een verzoek van een burger, bedrijf of organisatie aan een overheid om een specifieke dienst te verkrijgen of een besluit te ontvangen (bijv. vergunning, subsidie, paspoort of beschikkingsbesluit)."@nl ;
+    dct:identifier "2D94CF02-97C5-4621-B225-EA742445A235" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/diensten_aanvraag_levensonderhoud> a owl:Class ;
+    rdfs:label "Diensten::Aanvraag levensonderhoud"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een aanvraag levensonderhoud is het formele verzoek van een persoon aan een gemeentelijke of overheidsinstantie om een uitkering of financiële ondersteuning te verkrijgen die het inkomen aanvult zodat in het basislevensonderhoud kan worden voorzien."@nl ;
+    dct:identifier "1F9DBD7C-EBF3-41c8-8F00-2F6169FE107C" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk> a owl:Class ;
+    rdfs:label "Gestopt betaald werk"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "*Gestopt betaald werk* is de situatie waarin iemand **zijn of haar betaalde arbeidsrelatie heeft beëindigd**, waardoor het reguliere inkomen uit werk is komen te vervallen en dit relevant is voor de beoordeling van een uitkeringsaanvraag of inkomenssituatie."@nl ;
+    dct:identifier "16333246-B1C9-E9E9-D5B6-2791C02E05CB" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_of_verkocht_eigen_bedrijf> a owl:Class ;
+    rdfs:label "Gestopt of verkocht eigen bedrijf"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "*Gestopt of verkocht eigen bedrijf* is de situatie waarin een persoon zijn of haar **bedrijf volledig beëindigt of overdraagt/verkoopt**, waardoor de zelfstandige activiteit ophoudt en de reguliere inkomsten uit de onderneming verdwijnen."@nl ;
+    dct:identifier "0B7F7AD1-661C-8F1C-4F9A-2791C1C74BAB" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_bijstanduitkering> a owl:Class ;
+    rdfs:label "Gestopte bijstanduitkering"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "*Gestopte bijstandsuitkering* is een reden van aanvraag binnen de GBI-Ontologie die aanduidt dat een cliënt een inkomensdienst aanvraagt omdat **een eerder ontvangen bijstandsuitkering is beëindigd**."@nl ;
+    dct:identifier "15ABBF00-EC46-89CA-680B-2791C070D8E5" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_detentie> a owl:Class ;
+    rdfs:label "Gestopte detentie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "*Gestopte detentie* is een reden van aanvraag binnen het GBI-model die aangeeft dat een persoon **vrij is gekomen uit detentie**, waardoor de detentie-periode is beëindigd en dit relevant is voor de beoordeling van een nieuwe aanvraag of wijziging in de ondersteuningsbehoefte."@nl ;
+    dct:identifier "16F72E30-A6E2-CEC4-6AB8-2791C1C8CC09" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_of_verlaagde_alimentatie> a owl:Class ;
+    rdfs:label "Gestopte of verlaagde alimentatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "*Gestopte of verlaagde alimentatie* is een reden van aanvraag binnen het GBI-Ontologiemodel die aangeeft dat een persoon een inkomensdienst aanvraagt omdat **alimentatiebetalingen zijn gestopt of verlaagd**, waardoor het reguliere ondersteuningsinkomen is verminderd."@nl ;
+    dct:identifier "1632E282-377B-77CF-BF11-2791C070C097" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_studiefinanciering> a owl:Class ;
+    rdfs:label "Gestopte studiefinanciering"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "*Gestopte studiefinanciering* is een reden van aanvraag binnen de GBI-Ontologie die aangeeft dat een persoon een inkomensdienst aanvraagt omdat **de studiefinanciering is beëindigd of gestopt**, waardoor het (studie)inkomen wegvalt en inkomensondersteuning nodig kan zijn."@nl ;
+    dct:identifier "1F0AACC8-0CDE-849C-C1CC-2791C070CCF8" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering> a owl:Class ;
+    rdfs:label "Gestopte uitkering"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "*Gestopte uitkering* is een subtype van **Reden aanvraag** binnen het GBI-Ontologiemodel dat aangeeft dat een cliënt een inkomensdienst aanvraagt omdat **een eerdere uitkering is beëindigd**, waardoor opnieuw inkomensondersteuning nodig is."@nl ;
+    dct:identifier "1BDF5AAF-EDC4-87BC-16F2-2791C06DC1FA" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/ingang_bijstandsuitkering> a owl:Class ;
+    rdfs:label "Ingang bijstandsuitkering"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "In de meeste gevallen is de startdatum van een dienst gelijk aan de datum eerste melding (melddatum). Echter, er zijn redenen om hiervan af te wijken. In dat geval wijkt de startdatum af van de melddatum. Ingangsdatum uitkering bevat een Reden afwijkende startdatum om op te nemen met welke reden een afwijkende ingangsdatum gehanteerd wordt. Ingang bijstandsuitkering kan, zoals de naam al doet vermoeden, alleen van toepassing zijn indien het een aanvraag betreft van het diensttype 'Aanvulling levensonderhoud' (ALO)'."@nl ;
+    dct:identifier "0572BF37-A778-273A-32B0-2791C2CC601A" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/levenssituatie_levenssituatie> a owl:Class ;
+    rdfs:label "Levenssituatie::Levenssituatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De levenssituatie is de kwaliteit van de omgeving en omstandigheden waarin een persoon leeft en functioneert op een bepaald moment."@nl ;
+    dct:identifier "4B7F5B5B-CCC7-465e-9908-E83620EEAE89" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/opname_instelling> a owl:Class ;
+    rdfs:label "Opname instelling"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "*Opname instelling* is een reden van aanvraag binnen de GBI-Ontologie die aangeeft dat een persoon een inkomensdienst aanvraagt omdat hij of zij **(net) is opgenomen in of vrijgekomen uit een instelling**, wat financiële gevolgen heeft voor de inkomenssituatie."@nl ;
+    dct:identifier "1ac5aa8f-eb60-4683-acb8-ca3308da1c3d" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/overleden_partner> a owl:Class ;
+    rdfs:label "Overleden partner"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "*Overleden partner* is een subtype van **Reden aanvraag** binnen het GBI-Ontologiemodel dat aangeeft dat een persoon een inkomensdienst aanvraagt omdat **de partner is overleden**, met als gevolg dat het huishoudinkomen is verminderd."@nl ;
+    dct:identifier "201D0432-BDE5-700A-13F6-2791C071691F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag> a owl:Class ;
+    rdfs:label "Reden aanvraag"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Reden waarom dienst wordt aanvraagd bij gemeente."@nl ;
+    dct:identifier "cac6d8c1-42e6-41cb-9907-3c65c081afba" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud> a owl:Class ;
+    rdfs:label "Reden aanvraag Levensonderhoud"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "*Reden aanvraag Levensonderhoud* is een categorie binnen het GBI-Ontologiemodel die aangeeft dat een cliënt een inkomensdienst aanvraagt vanwege een situatie waarin **middelen voor levensonderhoud ontbreken of zijn weggevallen**, en deze aanleiding geeft voor ondersteuning."@nl ;
+    dct:identifier "0BCC5755-9F69-A5D7-4387-2791BFCD4782" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_afwijkende_startdatum> a owl:Class ;
+    rdfs:label "Reden afwijkende startdatum"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "*Reden afwijkende startdatum* is een categorie binnen het GBI-Ontologiemodel die aangeeft **waarom de ingangsdatum van een dienst of uitkering afwijkt van de standaard startdatum** (bijv. de datum van eerste melding)."@nl ;
+    dct:identifier "ed8f8dba-b936-40ad-b443-1ee91b8fe046" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/verbroken_relatie> a owl:Class ;
+    rdfs:label "Verbroken relatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "*Verbroken relatie* is een subtype van **Reden aanvraag** binnen het GBI-Ontologiemodel dat aangeeft dat een persoon een inkomensdienst aanvraagt doordat **de (huwelijkse/samenlevings)relatie is beëindigd**, met financiële gevolgen voor het levensonderhoud."@nl ;
+    dct:identifier "273AA921-78AD-0107-6D04-2791C07149E9" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/vertrek_uit_asielzoekerscentrum> a owl:Class ;
+    rdfs:label "Vertrek uit asielzoekerscentrum"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "*Vertrek uit asielzoekerscentrum* is een subtype van **Reden aanvraag** in het GBI-Ontologiemodel dat aangeeft dat een persoon een inkomensdienst aanvraagt omdat hij of zij **recentelijk een asielzoekerscentrum heeft verlaten**, waardoor de financiële situatie is veranderd."@nl ;
+    dct:identifier "109FA03E-8C65-8EF6-C7F0-2791C1C80AFE" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/wachten_beslissing_instantie> a owl:Class ;
+    rdfs:label "Wachten beslissing instantie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "*Wachten beslissing instantie* is een subtype van **Reden aanvraag** binnen het GBI-Ontologiemodel dat aangeeft dat een persoon een inkomensdienst aanvraagt omdat hij of zij **moet wachten op een besluit van een externe instantie**, waardoor de startdatum van de dienst afwijkt van de standaardprocedure."@nl ;
+    dct:identifier "008977a4-1342-42b2-be93-bda49931fa51" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/wachten_digid> a owl:Class ;
+    rdfs:label "Wachten DigiD"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "*Wachten DigiD* is een subtype van **Reden afwijkende startdatum** binnen het GBI-Ontologiemodel dat aangeeft dat de ingangsdatum van een inkomensdienst **vertraging oploopt doordat een DigiD nog niet is aangevraagd, geactiveerd of bruikbaar is**."@nl ;
+    dct:identifier "32633236-e5f5-40eb-a083-fc12c3e8a7f8" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/wachten_digid/aanvraagdatum_digid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/wachten_digid> ;
+    rdfs:range xsd:date ;
+    rdfs:label "Aanvraagdatum DigiD"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/verbroken_relatie/afspraak_onderhoudsbijdrage_gemaakt> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/verbroken_relatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Afspraak onderhoudsbijdrage gemaakt"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/ingang_bijstandsuitkering/afwijkende_ingangsdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/ingang_bijstandsuitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Afwijkende ingangsdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk/afwijsreden_ww_aanvraag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraagwwafgewezen> ;
+    rdfs:label "Afwijsreden WW-aanvraag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/vertrek_uit_asielzoekerscentrum/bedrag_weekgeld_coa> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/vertrek_uit_asielzoekerscentrum> ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Bedrag weekgeld COA"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk/bedrijfsadres> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraagwwafgewezen> ;
+    rdfs:label "Bedrijfsadres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk/bedrijfstelefoonnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraagwwafgewezen> ;
+    rdfs:label "Bedrijfstelefoonnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk/contractperiode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraagcontractperiode> ;
+    rdfs:label "Contractperiode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_of_verkocht_eigen_bedrijf/datum_gestopt_met_eigen_bedrijf> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_of_verkocht_eigen_bedrijf> ;
+    rdfs:range xsd:date ;
+    rdfs:label "Datum gestopt met eigen bedrijf"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/ingang_bijstandsuitkering/datum_melding_bij_gemeente> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/ingang_bijstandsuitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Datum melding bij gemeente"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/verbroken_relatie/datum_relatie_verbroken> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/verbroken_relatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Datum relatie verbroken"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag/diensttype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag> ;
+    rdfs:range xsd:string ;
+    rdfs:label "Diensttype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_detentie/duur_detentie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_detentie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Duur detentie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_of_verlaagde_alimentatie/einddatum_alimentatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_of_verlaagde_alimentatie> ;
+    rdfs:range xsd:date ;
+    rdfs:label "Einddatum alimentatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_detentie/einddatum_detentie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_detentie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Einddatum detentie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/opname_instelling/einddatum_opname> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/opname_instelling> ;
+    rdfs:range xsd:date ;
+    rdfs:label "Einddatum opname"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_studiefinanciering/einddatum_studiefinanciering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_studiefinanciering> ;
+    rdfs:range xsd:date ;
+    rdfs:label "Einddatum studiefinanciering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering/einddatum_uitkering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering> ;
+    rdfs:range xsd:date ;
+    rdfs:label "Einddatum uitkering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/vertrek_uit_asielzoekerscentrum/einddatum_weekgeld_coa> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/vertrek_uit_asielzoekerscentrum> ;
+    rdfs:range xsd:string ;
+    rdfs:label "Einddatum weekgeld COA"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering/einde_uitkering_in_bezwaar> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Einde uitkering in bezwaar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering/gedeeltelijk_arbeidsongeschikt_na_50e> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Gedeeltelijk arbeidsongeschikt na 50e"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/verbroken_relatie/geregistreerde_partner> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/verbroken_relatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Geregistreerde partner"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag/gewenste_ingangsdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag> ;
+    rdfs:range xsd:string ;
+    rdfs:label "Gewenste ingangsdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/ingang_bijstandsuitkering/gewenste_startdatum_uitkering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/ingang_bijstandsuitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Gewenste startdatum uitkering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering/ioaw_uitkering_ontvangen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "IOAW-uitkering ontvangen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering/ingangsdatum_wga_binnen_periode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Ingangsdatum WGA binnen periode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/vertrek_uit_asielzoekerscentrum/ingangsdatum_huurcontract> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/vertrek_uit_asielzoekerscentrum> ;
+    rdfs:range xsd:string ;
+    rdfs:label "Ingangsdatum huurcontract"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_of_verkocht_eigen_bedrijf/kvk_inschrijfnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_of_verkocht_eigen_bedrijf> ;
+    rdfs:range xsd:date ;
+    rdfs:label "KvK-inschrijfnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_of_verlaagde_alimentatie/lbio_ingeschakeld> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_of_verlaagde_alimentatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "LBIO ingeschakeld"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk/laatste_salarisdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraagwwafgewezen> ;
+    rdfs:label "Laatste salarisdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/overleden_partner/meer_dan_45_arbeidsongeschikt> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/overleden_partner> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Meer dan 45% arbeidsongeschikt"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk/minimaal_26_weken_van_36_gewerkt> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Minimaal 26 weken van 36 gewerkt"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/ingang_bijstandsuitkering/na_melding_gemeente_digitaal_verwezen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/ingang_bijstandsuitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Na melding gemeente digitaal verwezen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk/naam_bedrijf> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraagwwafgewezen> ;
+    rdfs:label "Naam bedrijf"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_of_verlaagde_alimentatie/nabestaandeuitkering_aangevraagd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_of_verlaagde_alimentatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraaganwaangevraagd> ;
+    rdfs:label "Nabestaandeuitkering aangevraagd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/overleden_partner/nabestaandeuitkering_aangevraagd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/overleden_partner> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Nabestaandeuitkering aangevraagd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk/ontslagbrief_ontvangen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Ontslagbrief ontvangen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk/ontslagvergoeding_ontvangen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Ontslagvergoeding ontvangen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/wachten_beslissing_instantie/ontvangstdatum_beslissing_instantie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/wachten_beslissing_instantie> ;
+    rdfs:range xsd:date ;
+    rdfs:label "Ontvangstdatum beslissing instantie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud/onvoldoende_inkomen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraagonvoldoendeinkomen> ;
+    rdfs:label "Onvoldoende inkomen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/andere_reden_verzoek/opgave_financi_le_ondersteuning> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/andere_reden_verzoek> ;
+    rdfs:range xsd:string ;
+    rdfs:label "Opgave financiële ondersteuning"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_of_verlaagde_alimentatie/opgave_financi_le_ondersteuning> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_of_verlaagde_alimentatie> ;
+    rdfs:range xsd:date ;
+    rdfs:label "Opgave financiële ondersteuning"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/verbroken_relatie/opgave_financi_le_ondersteuning> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/verbroken_relatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Opgave financiële ondersteuning"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud/reden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/redenkwijtscheldingvordering> ;
+    rdfs:label "Reden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/overleden_partner/reden_anw_afgewezen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/overleden_partner> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraaganwafgewezenreden> ;
+    rdfs:label "Reden ANW afgewezen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_afwijkende_startdatum/reden_niet_eerder_aanvragen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_afwijkende_startdatum> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Reden Niet Eerder Aanvragen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_afwijkende_startdatum/reden_afwijking_aanwezig> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_afwijkende_startdatum> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Reden afwijking aanwezig"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_of_verkocht_eigen_bedrijf/reden_eigen_bedrijfs_gestopt> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_of_verkocht_eigen_bedrijf> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraageindeeigenbedrijf> ;
+    rdfs:label "Reden eigen bedrijfs gestopt"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_bijstanduitkering/reden_einde_bijstandsuitkering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_bijstanduitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraageindebijstand> ;
+    rdfs:label "Reden einde bijstandsuitkering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_of_verlaagde_alimentatie/reden_einde_of_verlaagde_alimentatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_of_verlaagde_alimentatie> ;
+    rdfs:range xsd:date ;
+    rdfs:label "Reden einde of verlaagde alimentatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering/reden_einde_uitkering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraageindeuitkeringreden> ;
+    rdfs:label "Reden einde uitkering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk/reden_einde_werk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraageindewerk> ;
+    rdfs:label "Reden einde werk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_afwijkende_startdatum/redenafwijkendestartdatumtype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_afwijkende_startdatum> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/coderedenafwijkendestartdatum> ;
+    rdfs:label "RedenAfwijkendeStartdatumType"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_bijstanduitkering/situatie_gewijzigd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_bijstanduitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Situatie gewijzigd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_detentie/soort_uitkering_voor_detentie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_detentie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Soort uitkering voor detentie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering/specificatie_andere_uitkering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering> ;
+    rdfs:range xsd:date ;
+    rdfs:label "Specificatie andere uitkering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/andere_reden_verzoek/specificatie_geldtekort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/andere_reden_verzoek> ;
+    rdfs:range xsd:string ;
+    rdfs:label "Specificatie geldtekort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_bijstanduitkering/specificatie_reden_einde_bijstand> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_bijstanduitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraageindebijstand> ;
+    rdfs:label "Specificatie reden einde bijstand"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering/specificatie_reden_einde_uitkering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering> ;
+    rdfs:range xsd:date ;
+    rdfs:label "Specificatie reden einde uitkering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk/specificatie_reden_einde_werk> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraagwwafgewezen> ;
+    rdfs:label "Specificatie reden einde werk"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_studiefinanciering/specificatie_studiefinanciering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_studiefinanciering> ;
+    rdfs:range xsd:date ;
+    rdfs:label "Specificatie studiefinanciering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_detentie/specificatie_uitkering_voor_detentie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_detentie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Specificatie uitkering voor detentie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_bijstanduitkering/specificatie_wijziging_situatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_bijstanduitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraageindebijstand> ;
+    rdfs:label "Specificatie wijziging situatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering/startdatum_ww_of_wga_uitkering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering> ;
+    rdfs:range xsd:date ;
+    rdfs:label "Startdatum WW- of WGA-uitkering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/opname_instelling/startdatum_opname> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/opname_instelling> ;
+    rdfs:range xsd:date ;
+    rdfs:label "Startdatum opname"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_of_verkocht_eigen_bedrijf/uitgeschreven_bij_kamer_van_koophandel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_of_verkocht_eigen_bedrijf> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Uitgeschreven bij Kamer van Koophandel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering/uitkering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraageindeuitkering> ;
+    rdfs:label "Uitkering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_detentie/uitkering_voor_detentie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_detentie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Uitkering voor detentie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud/verblijfstatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraagverblijfstatus> ;
+    rdfs:label "Verblijfstatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_of_verkocht_eigen_bedrijf/verkoopbedrag> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_of_verkocht_eigen_bedrijf> ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Verkoopbedrag"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk/ww_uitkering_aangevraagd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraagwwgevraagd> ;
+    rdfs:label "WW-uitkering aangevraagd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/vertrek_uit_asielzoekerscentrum/weekgeld_coa> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/vertrek_uit_asielzoekerscentrum> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Weekgeld COA"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/vertrek_uit_asielzoekerscentrum/weekgeld_coa_stopt> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/vertrek_uit_asielzoekerscentrum> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Weekgeld COA stopt"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering/werkloosperiode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Werkloosperiode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk/wettelijke_stappen_gezet> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Wettelijke stappen gezet"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud/wijziging_gezin> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraagwijziginggezin> ;
+    rdfs:label "Wijziging gezin"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud/zelfstandige> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/datatypes/cdredenaanvraagzelfstandige> ;
+    rdfs:label "Zelfstandige"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk/ziektewet_uitkering_aangevraagd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "Ziektewet-uitkering aangevraagd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering/minderdan35_ao> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    rdfs:label "minderDan35%AO"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/andere_reden_afwijkende_startdatum/omschrijvingbijzonderereden> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/andere_reden_afwijkende_startdatum> ;
+    rdfs:range xsd:string ;
+    rdfs:label "omschrijvingBijzondereReden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/wachten_digid> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_afwijkende_startdatum> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/wachten_beslissing_instantie> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_afwijkende_startdatum> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/vertrek_uit_asielzoekerscentrum> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/verbroken_relatie> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/overleden_partner> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/opname_instelling> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_afwijkende_startdatum> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/levenssituatie_levenssituatie/is_reden_tot> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/levenssituatie_levenssituatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag> ;
+    rdfs:label "Is reden tot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/ingang_bijstandsuitkering/bevat> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/ingang_bijstandsuitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_afwijkende_startdatum> ;
+    rdfs:label "bevat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_uitkering> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_studiefinanciering> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_of_verlaagde_alimentatie> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_detentie> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopte_bijstanduitkering> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_of_verkocht_eigen_bedrijf> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/gestopt_betaald_werk> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/ingang_bijstandsuitkering/bevat> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/ingang_bijstandsuitkering> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/diensten_aanvraag_levensonderhoud> ;
+    rdfs:label "Bevat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/diensten_aanvraag_levensonderhoud> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/diensten_aanvraag> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/diensten_aanvraag/is_aanleiding_tot> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/diensten_aanvraag> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag> ;
+    rdfs:label "Is aanleiding tot"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/andere_reden_verzoek> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_aanvraag_levensonderhoud> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/andere_reden_afwijkende_startdatum> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/inkomen/reden_aanvraag/reden_aanvraag/reden_afwijkende_startdatum> .

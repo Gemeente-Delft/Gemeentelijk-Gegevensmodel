@@ -1,0 +1,276 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/diagram_afval_meldingen>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/categorie> a owl:Class ;
+    rdfs:label "Categorie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Categorie waarop leveranciers zich voor de levering van personeel voor kunnen kwalificeren"@nl ;
+    dct:identifier "9EC6B40B-0C87-4453-B567-E0D3572F86AF" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/containertype> a owl:Class ;
+    rdfs:label "Containertype"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Typologie van container"@nl ;
+    dct:identifier "0A7769C7-FE3E-45eb-A644-22E5CB207B42" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie> a owl:Class ;
+    rdfs:label "Fractie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Onderdeel, deeltje"@nl ;
+    dct:identifier "80A7D18F-7C7E-4ee6-9F07-055559BCEF9F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/locatie> a owl:Class ;
+    rdfs:label "Locatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Locaties die worden aangedaan tijdens het rijden van een route. Dit kunnen adressen zijn en/of GML-punten met een x- en y-coordinaat. Avalex hanteert op het moment van schrijven alleen adressen, ook voor de containers."@nl ;
+    dct:identifier "7F4E17A3-0EC2-4bee-B4E0-BFA26D653EB9" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding> a owl:Class ;
+    rdfs:label "Melding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend"@nl ;
+    dct:identifier "8A02DCF5-E568-4d45-96A2-FD4FB53F414C" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> a owl:Class ;
+    rdfs:label "AanvraagOfMelding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Komt overeen met een VJV Bron: GEM_VJV (Distinct op REQ_ID) ID: REQ_ID"@nl ;
+    dct:identifier "8E6BAEF8-1878-400f-9244-23575BD41EAB" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding/24uurs> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "1389FB8D-8698-4bcb-AA1F-BB876738E3CF" ;
+    rdfs:label "24uurs"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/locatie/adresaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/locatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "EEDF5A2A-11A0-44b6-87CC-41AE8E4C66A6" ;
+    rdfs:label "adresaanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/afgehandeld> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "AC248AAD-192D-40e3-B2C3-107CBA34CB21" ;
+    rdfs:label "afgehandeld"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "70BB6DC2-EA35-451f-A307-0DCE9F6C1341" ;
+    rdfs:label "categorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categoriecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E6803836-B435-454b-BFF2-EC300A1E160A" ;
+    rdfs:label "categoriecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/categorie/code> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/categorie> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "39697D12-9DB9-4de3-95D9-AC230406E71A" ;
+    rdfs:label "code"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumaanmaak> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D6A1055B-7FFE-4e0e-9D51-7BCB34BC902E" ;
+    rdfs:label "datumAanmaak"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumafhandeling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "11348F20-D423-473f-B6E8-3197F6634F91" ;
+    rdfs:label "datumAfhandeling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumbeginstatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "386AAA3D-8C77-4be7-84DC-C221439D58C6" ;
+    rdfs:label "datumBeginStatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeindestatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "214166B2-C303-49f3-A008-648E47E58D65" ;
+    rdfs:label "datumEindeStatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding/datumtijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "35D9BB49-077A-4a91-BF5F-FC5FD96D791F" ;
+    rdfs:label "datumtijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "59BA1A2C-9DA8-4258-8668-F2B35AF57DD8" ;
+    rdfs:label "hoofdcategorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategoriecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5DC7B481-6724-4769-B6D3-B4AC0B578177" ;
+    rdfs:label "hoofdcategoriecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8DD9E909-55C1-45d8-8B02-F174324A6E5C" ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding/illegaal> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "0D7C478A-7063-459c-90BA-4277CB68073F" ;
+    rdfs:label "illegaal"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/kanaal> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "32B1052C-88E9-498e-86F6-AF5B340D1132" ;
+    rdfs:label "kanaal"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/locatie/locatiepunt> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/locatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FAE8EDF4-8515-4ae0-8E77-3AB5C3C6270A" ;
+    rdfs:label "locatiePunt"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/locatie/locatiecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/locatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C0076BED-1245-45e6-99AE-11EEE2693EBB" ;
+    rdfs:label "locatiecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding/meldingnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6799A7BC-EE28-4791-97FC-8BE1B5793ACD" ;
+    rdfs:label "meldingnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/containertype/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/containertype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E680E358-90CA-4a54-BDF9-629A38F1552D" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/categorie/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/categorie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D7EAD1DC-C51F-48f2-8E97-2714FDB87A49" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F66CC356-50B7-49b8-9982-C5BFCE331CE1" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "19DB02EE-F4B9-46d9-BFCA-FFD860F8E4D1" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/categorie/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/categorie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "26A7FCCD-BE00-428c-9D97-4F85D0870269" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D71BB500-A6BF-4018-966B-F5BBD2BD9A6D" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/containertype/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/containertype> ;
+    rdfs:range xsd:string ;
+    dct:identifier "56083901-A7EA-4dfc-9718-985A7D414C80" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerp> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6D92FCD5-F8C8-41c7-A524-0102186ED5E2" ;
+    rdfs:label "onderwerp"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerpcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3A678FBE-3890-41b5-9E6B-9C9C0A59E8D8" ;
+    rdfs:label "onderwerpcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/soort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "812E18D0-9678-4b27-ACFF-9C8D774CD8C1" ;
+    dct:description "Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding...."@nl ;
+    rdfs:label "soort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E5274E49-1775-4b24-B45E-366A77511B7E" ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statusvolgorde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A313E848-F5A4-4b9f-B8EA-479435ACC1BF" ;
+    rdfs:label "statusVolgorde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statuscode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A8DEE2BF-1051-4f4c-89FD-DD4E8A8714E3" ;
+    rdfs:label "statuscode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "61C0AE53-1473-483b-84F9-FC173AD4D5FB" ;
+    rdfs:label "subcategorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategoriecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BBFFE25E-9DFA-4ac2-AAA7-48104E0ADD60" ;
+    rdfs:label "subcategoriecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/locatie> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/fractie> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/containertype> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding/subcategorie> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/categorie> ;
+    rdfs:label "subcategorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding/hoofdcategorie> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/melding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid_en_milieu/afval/categorie> ;
+    rdfs:label "hoofdcategorie"@nl .

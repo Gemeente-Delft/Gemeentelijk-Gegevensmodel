@@ -1,0 +1,569 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/entiteiten_klantcontact>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagdata> a owl:Class ;
+    rdfs:label "Aanvraagdata"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Bron: GEN_REQ_DATA ID: REQ_DATA icm VELD_NAAM"@nl ;
+    dct:identifier "1F68C981-7E16-4368-8867-CA00AEB08A04" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> a owl:Class ;
+    rdfs:label "AanvraagOfMelding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Komt overeen met een VJV Bron: GEM_VJV (Distinct op REQ_ID) ID: REQ_ID"@nl ;
+    dct:identifier "8E6BAEF8-1878-400f-9244-23575BD41EAB" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/afspraakstatus> a owl:Class ;
+    rdfs:label "Afspraakstatus"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "de toestand van de afspraak"@nl ;
+    dct:identifier "5AA9821A-A88A-480b-9950-70FE017593B3" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak> a owl:Class ;
+    rdfs:label "Balieafspraak"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Balieafspraken zijn afspraken voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden of gaat plaatsvinden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden."@nl ;
+    dct:identifier "631FEEF1-88D3-4d18-ADB2-BF999068493E" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort> a owl:Class ;
+    rdfs:label "Formuliersoort"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Bron: GEM_FORM ID: FORM_ID"@nl ;
+    dct:identifier "0567826D-81EE-4bbd-8D62-3073B74CDF11" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld> a owl:Class ;
+    rdfs:label "Formuliersoortveld"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Bron: GEM_VELD ID: FORM_ID en VELD_NAAM"@nl ;
+    dct:identifier "E512AEFD-85FB-4b57-82FE-709221307861" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp> a owl:Class ;
+    rdfs:label "Onderwerp"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Bron: GEM_VJV_ONDERWERP ID: ONDERWERP_ID"@nl ;
+    dct:identifier "8D758F67-6085-4ac7-BFDC-8D97AB632A93" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/productofdienst> a owl:Class ;
+    rdfs:label "ProductOfDienst"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Bron: QP_CALENDAR.CFM_SERVICES"@nl ;
+    dct:identifier "4B871112-CB41-4bfb-BD43-117C63D31BB4" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoononderwerp> a owl:Class ;
+    rdfs:label "Telefoononderwerp"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Onderwerp waarover het telefooncontact gaat"@nl ;
+    dct:identifier "48FE13A9-2204-4631-BAEE-E2D3B10E9A2D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoonstatus> a owl:Class ;
+    rdfs:label "Telefoonstatus"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "ABANDONEDALERTING: “Opgehangen tijdens overgaan telefoon” DROPPEDCANCELED: “Opgehangen door systeem” ABANDONEDQUEUED: “Opgehangen tijdens wachten, zonder boodschap. ” CONNECTEDDIRECT: “Direct verbonden” CONNECTEDQUEUEDANNOUNCE: “Verbonden na wachtrij met boodschap” AbandonedQUEUEDANNOUNCE: “Opgehangen in wachtrij met boodschap” DroppedBusy: “Opgehangen door systeem, te druk” REJECTED: “Geweigerd door systeem” Droppedoverload: “Opgehangen door systeem vanwege overbelasting”"@nl ;
+    dct:identifier "D8A82A45-03C3-44d5-AF32-3138A55B2E75" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje> a owl:Class ;
+    rdfs:label "Telefoontje"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De telefoontgesprekken zijn alle keren dat iemand naar de gemeente belt en het telefoonsysteem neemt deze telefoongesprekken aan. Ongeacht of iemand daarna ophangt, door het systeem uit de wachtrij wordt gezet, doorverbonden wordt met een derde partij of er werkelijk wordt opgenomen."@nl ;
+    dct:identifier "EEB60E10-C244-4176-AB68-F0E30759269F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> a owl:Class ;
+    rdfs:label "Klantcontact"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Klantcontacten zijn contactmomenten die werkelijk hebben plaatsgevonden, terwijl Balieafspraken afspraken zijn voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden. Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje)."@nl ;
+    dct:identifier "A3DAD553-0E55-4256-824B-CDB5E12CB545" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/afgehandeld> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "AC248AAD-192D-40e3-B2C3-107CBA34CB21" ;
+    rdfs:label "afgehandeld"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/productofdienst/afhandeltijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/productofdienst> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "1631BA4E-F28E-41f8-8E70-40AB329D79E2" ;
+    dct:description "Standaard afhandeltijd in minuten"@nl ;
+    rdfs:label "afhandeltijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje/afhandeltijdnagesprek> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "02D25371-7665-4213-9C39-8B1B54DB3089" ;
+    dct:description "De tijd die de medewerker nodig heeft om het telefoontje af te handelen totdat hij/zij klaar is voor een volgend telefoontje"@nl ;
+    rdfs:label "afhandeltijdNaGesprek"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "70BB6DC2-EA35-451f-A307-0DCE9F6C1341" ;
+    rdfs:label "categorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categoriecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E6803836-B435-454b-BFF2-EC300A1E160A" ;
+    rdfs:label "categoriecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoonstatus/contactconnectionstate> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoonstatus> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A32AFF26-16F1-4235-80E0-D88054F7F98E" ;
+    rdfs:label "contactConnectionState"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagdata/data> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagdata> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F8061047-6B7A-48a7-960E-EC8C48BC298D" ;
+    rdfs:label "data"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumaanmaak> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "D6A1055B-7FFE-4e0e-9D51-7BCB34BC902E" ;
+    rdfs:label "datumAanmaak"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumafhandeling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "11348F20-D423-473f-B6E8-3197F6634F91" ;
+    rdfs:label "datumAfhandeling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumbeginstatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "386AAA3D-8C77-4be7-84DC-C221439D58C6" ;
+    rdfs:label "datumBeginStatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeindestatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "214166B2-C303-49f3-A008-648E47E58D65" ;
+    rdfs:label "datumEindeStatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje/deltaisdnconnectie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "4FBCD564-63D7-41f2-99A7-F43585B91FC7" ;
+    dct:description "De totale tijd dat er een teelfoonverbinding was minus totale wachttijd, spreektijd en on hold-tijd."@nl ;
+    rdfs:label "deltaISDNConnectie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/eindtijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "295C8300-34C3-4504-8E1F-A0F6745DCE56" ;
+    dct:description "Werkelijke eindtijd van het klantcontact. Het moment dat de conversatie ten einde is. Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk"@nl ;
+    rdfs:label "eindtijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje/eindtijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "5AFC2AC6-CC62-4e76-A889-75AC88B10E6D" ;
+    dct:description "Het moment dat de telefooncentrale het telefoontjes beeindigd"@nl ;
+    rdfs:label "eindtijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak/eindtijdgepland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "7CA17F09-75FA-4c23-AB96-99FA435B3E23" ;
+    rdfs:label "eindtijdGepland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld/helptekst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9BB22DDB-4C78-4a82-AAAF-31A3C92BC59A" ;
+    rdfs:label "helptekst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "59BA1A2C-9DA8-4258-8668-F2B35AF57DD8" ;
+    rdfs:label "hoofdcategorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategoriecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5DC7B481-6724-4769-B6D3-B4AC0B578177" ;
+    rdfs:label "hoofdcategoriecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8DD9E909-55C1-45d8-8B02-F174324A6E5C" ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/productofdienst/ingebruik> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/productofdienst> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "0E59912F-4F9F-46ec-836A-FC62638D2D61" ;
+    rdfs:label "ingebruik"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort/ingebruik> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "FA5F0235-B6DB-4a05-B4CF-E83477450AC5" ;
+    rdfs:label "ingebruik"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp/isactief> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "C2295E91-E303-4f86-8F1F-55C8E7CFC72D" ;
+    rdfs:label "isActief"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld/isverplicht> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "39E26CF1-0CEC-40c5-ADC3-F6322CA816A3" ;
+    rdfs:label "isVerplicht"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/kanaal> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F0743215-858A-4c61-A619-91A70AC13CF0" ;
+    rdfs:label "kanaal"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/kanaal> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "32B1052C-88E9-498e-86F6-AF5B340D1132" ;
+    rdfs:label "kanaal"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld/label> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D7DA73F8-E2D2-466c-87A4-1F0EC0F81CCC" ;
+    rdfs:label "label"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld/maxlengte> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "8EE926A5-6D4A-4c5c-B917-DA2DD3214875" ;
+    rdfs:label "maxLengte"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/productofdienst/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/productofdienst> ;
+    rdfs:range xsd:string ;
+    dct:identifier "69E4CC8D-A151-479b-A2C3-FEA3F357A42F" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5E57CA4D-DAAE-4d28-A313-93A560652A32" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6D704244-53FB-4754-AFA4-E457CE13E905" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak/notitie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "F13D79A5-1765-4b1a-88A5-779D41BF70F8" ;
+    rdfs:label "notitie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/notitie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "24C871CC-2C0F-4f06-B155-07878F7E0708" ;
+    rdfs:label "notitie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoononderwerp/onderwerp> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoononderwerp> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8EE08A56-DE16-4abc-BA27-64EB518B5DA4" ;
+    rdfs:label "onderwerp"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerp> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6D92FCD5-F8C8-41c7-A524-0102186ED5E2" ;
+    rdfs:label "onderwerp"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort/onderwerp> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E6C30B23-CD84-4ab5-A1F3-F724E8C9E9D9" ;
+    rdfs:label "onderwerp"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerpcode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3A678FBE-3890-41b5-9E6B-9C9C0A59E8D8" ;
+    rdfs:label "onderwerpcode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/soort> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "812E18D0-9678-4b27-ACFF-9C8D774CD8C1" ;
+    dct:description "Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding...."@nl ;
+    rdfs:label "soort"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje/starttijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "DD7D6A2C-FFF7-4143-9A41-9B55B918BB79" ;
+    dct:description "Het moment dat de telefooncentrale een telefoontje in behandeling neemt. Dit ligt voor de starttijd van het klantcontact"@nl ;
+    rdfs:label "starttijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/starttijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "9DA228C0-5534-43a2-9211-C355B59DD4DB" ;
+    dct:description "Werkelijke starttijd van het klantcontact, dus het moment dat klant en medewerker van de gemeente elkaar spreken. Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en eindtijd aan elkaar gelijk"@nl ;
+    rdfs:label "starttijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak/starttijdgepland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "FB67B97D-32E2-4a51-B29E-82D0BD350FFD" ;
+    rdfs:label "starttijdGepland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E5274E49-1775-4b24-B45E-366A77511B7E" ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/afspraakstatus/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/afspraakstatus> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A6254FC0-8179-4e8d-ABBD-B8AB5C3E2C07" ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoonstatus/status> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoonstatus> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D023F08C-72A6-41be-B0EC-8BE90BCE7CFA" ;
+    rdfs:label "status"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statusvolgorde> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A313E848-F5A4-4b9f-B8EA-479435ACC1BF" ;
+    rdfs:label "statusVolgorde"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statuscode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A8DEE2BF-1051-4f4c-89FD-DD4E8A8714E3" ;
+    rdfs:label "statuscode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategorie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "61C0AE53-1473-483b-84F9-FC173AD4D5FB" ;
+    rdfs:label "subcategorie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategoriecode> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range xsd:string ;
+    dct:identifier "BBFFE25E-9DFA-4ac2-AAA7-48104E0ADD60" ;
+    rdfs:label "subcategoriecode"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak/tijdaangemaakt> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak> ;
+    rdfs:range xsd:dateTime ;
+    dct:identifier "6E53A915-AD2B-4c5d-A04F-882A20D5AFE7" ;
+    rdfs:label "tijdAangemaakt"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/tijdsduur> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "046BE1FC-98D3-4f70-9CE0-7EECDAAEE28A" ;
+    dct:description "Werkelijke tijdsduur in seconden"@nl ;
+    rdfs:label "tijdsduur"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak/tijdsduurgepland> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "2FE76E49-D7F7-4c68-9682-3136020AEF74" ;
+    dct:description "Werkelijke tijdsduur in minuten"@nl ;
+    rdfs:label "tijdsduurGepland"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp/toelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp> ;
+    rdfs:range xsd:string ;
+    dct:identifier "AA9DF4EC-0A9E-4700-A0F3-5A106282ACFC" ;
+    rdfs:label "toelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/toelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6E576A27-E64E-4f8a-B6D6-DCEA9E5972F9" ;
+    rdfs:label "toelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak/toelichting> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A5380C38-8DF2-4ce6-8594-242BA6DE4CAB" ;
+    rdfs:label "toelichting"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje/totaleonholdtijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "A207B08D-E07C-481d-9093-B16A8EC30EB4" ;
+    dct:description "De totale tijd dat een beller tussen klantcontacten \"on hold\" wordt gezet."@nl ;
+    rdfs:label "totaleOnHoldTijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje/totalespreektijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "A9B00F5D-25B8-4552-B70A-EDC38D506462" ;
+    dct:description "De totale tijd dat met een (of meer) medewerkers van de gemeente wordt gebeld."@nl ;
+    rdfs:label "totaleSpreektijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje/totaletijdsduur> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "F9075511-6645-4b0e-8DD5-018CA8C048DD" ;
+    dct:description "Tijd tussen start- en eindtijd van telefoontje"@nl ;
+    rdfs:label "totaleTijdsduur"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje/totalewachttijd> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "96280065-4AD3-4242-97E7-80B89BF4F326" ;
+    dct:description "De tijd tussen de starttijd van het telefoontje en het moment dat het telefoontje voor het eerst wordt opgenomen, of het telefoontje wordt afgesloten"@nl ;
+    rdfs:label "totaleWachttijd"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje/trackid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9F43576C-EA20-40d7-805A-9C4013D7EEB8" ;
+    rdfs:label "trackID"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagdata/veld> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagdata> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1A09DE14-E07B-4b9a-8DAF-439E366E7EB3" ;
+    rdfs:label "veld"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld/veldnaam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld> ;
+    rdfs:range xsd:string ;
+    dct:identifier "B390468F-8959-4cdc-AEC6-11D48BC0D3ED" ;
+    rdfs:label "veldnaam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld/veldtype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A3A88F4B-81F0-4ea6-BF95-FC9064F1CFDB" ;
+    rdfs:label "veldtype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak/wachttijdnastartafspraak> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "07BA1929-069F-4ff1-9E6B-BBEF25BE8AD0" ;
+    dct:description "Tijdsduur die iemand moet wachten na de starttijd van de afspraak"@nl ;
+    rdfs:label "wachttijdNaStartAfspraak"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak/wachttijdtotaal> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "C869E5F7-254F-46ca-84B4-2D4891CB38F5" ;
+    dct:description "Wachttijd inclusief de tijd dat iemand te vroeg voor de afspraak verschijnt en de tijd dat iemand moet wachten na de geplande starttijd van de afspraak"@nl ;
+    rdfs:label "wachttijdTotaal"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/wachttijdtotaal> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "8223E0BC-CBEE-4813-A322-FF366A1D8654" ;
+    dct:description "De totale wachttijd voor de starttijd van het klantcontact. Dit inclusief eventueel te vroeg verschijnen op een afspraak"@nl ;
+    rdfs:label "wachttijdTotaal"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak/wachttijdvoorstartafspraak> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "4454E394-160E-4169-B167-4AA96907F280" ;
+    dct:description "Tijdsduur dat iemand te vroeg is voor de afspraak"@nl ;
+    rdfs:label "wachttijdVoorStartAfspraak"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak/werkelijketijdsduur> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "264C05F1-4BC5-4091-8D13-C132912911A0" ;
+    rdfs:label "werkelijkeTijdsduur"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje/mondt_uit_in> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:label "mondt uit in"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoonstatus> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoononderwerp/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoononderwerp> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoontje> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoononderwerp/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/telefoononderwerp> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp/hoofdonderwerp> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp> ;
+    rdfs:label "hoofdonderwerp"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort/heeft_velden> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld> ;
+    rdfs:label "heeft velden"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/productofdienst> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak/mondt_uit_in> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:label "mondt uit in"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/balieafspraak> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/afspraakstatus> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/aanvraag_met> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoort> ;
+    rdfs:label "aanvraag met"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/onderwerp> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/heeft_data> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagdata> ;
+    rdfs:label "heeft data"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagdata/is_conform> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagdata> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/formuliersoortveld> ;
+    rdfs:label "is conform"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/productofdienst> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact/kan_leiden_tot> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/klantcontact> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:label "kan leiden tot"@nl .

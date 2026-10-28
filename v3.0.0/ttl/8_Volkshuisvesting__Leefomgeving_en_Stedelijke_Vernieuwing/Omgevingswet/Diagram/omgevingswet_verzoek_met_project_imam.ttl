@@ -1,0 +1,305 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/omgevingswet_verzoek_met_project_imam>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/project> a owl:Class ;
+    rdfs:label "Project"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Geheel van activiteiten uitgevoerd in een tijdelijk samenwerkingsverband gericht op het binnen bepaalde randvoorwaarden (bv. tijd, geld) bereiken van een vooraf gedefinieerd resultaat."@nl ;
+    dct:identifier "E1FAE16A-42AE-4b7d-88FC-F429079D1C4D" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/projectactiviteit> a owl:Class ;
+    rdfs:label "Projectactiviteit"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Activiteit binnen het project"@nl ;
+    dct:identifier "B31B867F-061E-42d4-AB8A-DB5589602969" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/projectlocatie> a owl:Class ;
+    rdfs:label "Projectlocatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Fysieke locatie waar een project betrekking op heeft of wordt uitgevoerd."@nl ;
+    dct:identifier "D60910E1-6E36-4ebb-9687-2D2B1CE66E0B" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/specificatie> a owl:Class ;
+    rdfs:label "Specificatie"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Gesplitste opgave, vermelding van de afzonderlijke onderdelen waaruit een verzameling of een totaal bestaat"@nl ;
+    dct:identifier "DF63FBD0-DCA2-45bd-81E8-EE5E72D38EDE" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek> a owl:Class ;
+    rdfs:label "Verzoek"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een vraag aan het bevoegd gezag om een speficieke product of dienst te leveren."@nl ;
+    dct:identifier "B18119D9-5BF8-498f-B9D3-ECCE7A770012" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> a owl:Class ;
+    rdfs:label "Document"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
+    dct:identifier "5641C50A-C0FA-4e71-B07B-26C7B1CE94ED" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/projectlocatie/adres> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/projectlocatie> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "39379F2A-C3E1-4bc7-AEC1-061DEDF13279" ;
+    rdfs:label "adres"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek/akkoordverklaring> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "67EEE39D-2AD1-4f8d-B36E-FD264F29A56C" ;
+    rdfs:label "akkoordverklaring"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek/ambtshalve> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "E72FA75C-9C22-44b1-AB42-256B71CC2601" ;
+    rdfs:label "ambtshalve"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/specificatie/antwoord> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/specificatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "69998471-54C2-42c9-ADF5-63AACBCE5561" ;
+    rdfs:label "antwoord"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/cocumentbeschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "1DB068B6-3EAE-4d79-B1EC-73905A5994FC" ;
+    dct:description "Een generieke beschrijving van de inhoud van het document."@nl ;
+    rdfs:label "cocumentBeschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumcreatiedocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "61F9ED59-4DA5-4099-ADAC-8D7FEFDD0F37" ;
+    dct:description "Een datum of een gebeurtenis in de levenscyclus van het document."@nl ;
+    rdfs:label "datumCreatieDocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek/datumindiening> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek> ;
+    rdfs:range xsd:date ;
+    dct:identifier "0ECA77BC-0171-4bfe-B470-AA73888D18E2" ;
+    rdfs:label "datumIndiening"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumontvangstdocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FFEE3095-1146-4106-A1ED-70A253812FA6" ;
+    dct:description "De datum waarop het DOCUMENT ontvangen is."@nl ;
+    rdfs:label "datumOntvangstdocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/datumverzendingdocument> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C06162CD-CFEA-4c04-BE26-76BC4DF42A16" ;
+    dct:description "De datum waarop het DOCUMENT verzonden is."@nl ;
+    rdfs:label "datumVerzendingDocument"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documentauteur> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "24277038-EF81-4e10-92BC-68AB8969FE4D" ;
+    dct:description "De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document."@nl ;
+    rdfs:label "documentAuteur"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documentidentificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "CB08FF35-EE64-4504-90CF-835DA32E636C" ;
+    dct:description "Een binnen een gegeven context ondubbelzinnige referentie naar het document. Bijvoorbeeld potsregistratienummer"@nl ;
+    rdfs:label "documentIdentificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/documenttitel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "21E0EC21-5217-4582-A8B8-CA0EE3EFDFAD" ;
+    dct:description "De naam waaronder het document formeel bekend is."@nl ;
+    rdfs:label "documentTitel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek/doel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/doel_verzoek> ;
+    dct:identifier "C97A0C02-57E0-45e8-A302-01F0E8A8C073" ;
+    rdfs:label "doel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/specificatie/groepering> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/specificatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "64D9CD89-FC8B-420d-8BBC-91216FE14F79" ;
+    rdfs:label "groepering"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/projectlocatie/kadastraalperceel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/projectlocatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "6995380F-7076-4012-92FA-98F8C56B8063" ;
+    rdfs:label "kadastraalPerceel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/projectlocatie/kadastralegemeente> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/projectlocatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "4555D017-ED4A-495f-B6FE-F752B7DA8028" ;
+    rdfs:label "kadastraleGemeente"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/projectlocatie/kadastralesectie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/projectlocatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3AF39E98-005E-4c7f-9E83-B393DB136F58" ;
+    rdfs:label "kadastraleSectie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/project/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/project> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2D681ACA-85B4-405b-B67B-0748A6CD3936" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek/naam> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek> ;
+    rdfs:range xsd:string ;
+    dct:identifier "140AE800-8410-4b4e-A3F2-6C9724D1F12A" ;
+    rdfs:label "naam"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/project/omschrijving> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/project> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8E9D0BDF-D116-4b77-8FA9-ECF6181A9EB2" ;
+    rdfs:label "omschrijving"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/specificatie/publiceerbaar> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/specificatie> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "9EED3B0D-9F06-454c-84D0-53DF82F9B9E1" ;
+    rdfs:label "publiceerbaar"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek/referentieaanvrager> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9D682452-13B4-4d35-82A3-24F79CF0D6D3" ;
+    rdfs:label "referentieAanvrager"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek/toelichtinglateraantelevereninformatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek> ;
+    rdfs:range xsd:string ;
+    dct:identifier "7B232828-6993-48b6-BCFF-6AAC77AF3B11" ;
+    rdfs:label "toelichtingLaterAanTeLeverenInformatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek/toelichtingnietaantelevereninformatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek> ;
+    rdfs:range xsd:string ;
+    dct:identifier "05F07AA0-E707-44da-BE1F-624185D5C802" ;
+    rdfs:label "toelichtingNietAanTeLeverenInformatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek/toelichtingverzoek> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek> ;
+    rdfs:range xsd:string ;
+    dct:identifier "915122DC-1002-454b-97FA-F32782D6B58E" ;
+    rdfs:label "toelichtingVerzoek"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek/type> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/doel_verzoek> ;
+    dct:identifier "E131B1E5-B7E1-4d81-B9DD-16BF4A154AEE" ;
+    rdfs:label "type"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document/vertrouwelijkaanduiding> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A7A897CF-ECB5-45c1-A0CD-698E1D66F2CF" ;
+    dct:description "Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is."@nl ;
+    rdfs:label "vertrouwelijkAanduiding"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek/verzoeknummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek> ;
+    rdfs:range xsd:string ;
+    dct:identifier "04E93FA1-A52D-494d-98C0-D33686399173" ;
+    rdfs:label "verzoeknummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek/volgnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek> ;
+    rdfs:range xsd:string ;
+    dct:identifier "D201F8D5-205B-48da-846D-79DF85C74CD2" ;
+    rdfs:label "volgnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/specificatie/vraagclassificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/specificatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/vraag_classificatie> ;
+    dct:identifier "799673EE-B602-4dfe-AB26-1160FFFC8EB5" ;
+    rdfs:label "vraagClassificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/specificatie/vraagid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/specificatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "379AF117-27F1-4ea5-AE87-0F8EF40A0ED8" ;
+    rdfs:label "vraagID"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/specificatie/vraagreferentie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/specificatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "A0621498-C9E3-4747-8010-EDEA6F176E81" ;
+    rdfs:label "vraagreferentie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/specificatie/vraagtekst> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/specificatie> ;
+    rdfs:range xsd:string ;
+    dct:identifier "C54E5F91-0229-4c6c-B644-61DADF161A37" ;
+    rdfs:label "vraagtekst"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/projectactiviteit/heeft_betrekking_op> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/projectactiviteit> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:label "heeft betrekking op"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/projectlocatie> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek/heeft_bijlagen> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/document> ;
+    rdfs:label "heeft bijlagen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek/betreft_eerder_verzoek> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek> ;
+    rdfs:label "betreft eerder verzoek"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek/bevat> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/specificatie> ;
+    rdfs:label "bevat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/projectactiviteit> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/specificatie/gedefinieerd_door> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/specificatie> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/projectactiviteit> ;
+    rdfs:label "gedefinieerd door"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/projectactiviteit/uitgevoerd_op> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/projectactiviteit> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/projectlocatie> ;
+    rdfs:label "uitgevoerd op"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek/betreft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/verzoek> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/project> ;
+    rdfs:label "betreft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/project/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/project> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/projectactiviteit> ;
+    rdfs:label "heeft"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/project/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/project> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting_leefomgeving_en_stedelijke_vernieuwing/omgevingswet/projectlocatie> ;
+    rdfs:label "heeft"@nl .

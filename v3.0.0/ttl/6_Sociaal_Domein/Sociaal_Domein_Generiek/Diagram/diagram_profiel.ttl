@@ -1,0 +1,215 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/diagram_profiel>
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ggm: <https://lod.gemeentelijkgegevensmodel.nl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client> a owl:Class ;
+    rdfs:label "Client"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente."@nl ;
+    dct:identifier "DAF09055-A5A6-4ff4-A158-21B20567B296" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/profiel> a owl:Class ;
+    rdfs:label "Profiel"@nl ;
+    ggm:objectType "Class" ;
+    dct:identifier "D8F2EAAD-7C80-4164-8171-C632F18A6742" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenverhouding> a owl:Class ;
+    rdfs:label "Inkomstenverhouding"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan vanuit diverse bronnen inkomsten krijgen. Denk bijvoorbeeld aan alimentatie, loon, uitkering of zelfs vergoedingen voor maaltijden, onkosten, vervoer e.d. Er zijn nu twee gegevensbehoeften:Enerzijds het kunnen vastleggen van de inkomstencomponenten (zie daarvoor het gelijknamige concept)Anderzijds het vastleggen van de inkomstenverhouding.Een voorbeeld van zo'n inkomstenverhouding is een arbeidsverhouding.De inkomstenverhouding geeft per inkomstensoort aan:de partij die de inkomsten verstrekt, hetgeen een organisatie of een persoon kan zijn ende partij die de inkomsten ontvangtVerder zijn we geïnteresseerd in de periode waarin deze inkomstenverhouding bestond en de periodiciteit van de uitbetalingen.Inkomstenverhoudingen worden geadministreerd in het profiel van de klant. De klant is de ontvanger van de inkomsten. Vandaar dat in de inkomstenverhouding zelf geen expliciete verwijzing is opgenomen naar de ontvanger.Ten aanzien van de bekostiger van de inkomsten geldt, dat dit niet voor elke inkomstenverhouding relevant is. Bij uitkeringen, arbeid, studiefinanciering, stage en pensioen bijvoorbeeld wel, maar bij hobbies niet."@nl ;
+    dct:identifier "0463EA7D-FFD9-AD19-0405-294621AE933F" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/primair_inkomstencomponent> a owl:Class ;
+    rdfs:label "Primair inkomstencomponent"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een persoon kan vanuit diverse bronnen inkomsten krijgen. Denk bijvoorbeeld aan alimentatie, loon, uitkering of zelfs vergoedingen voor maaltijden, onkosten, vervoer e.d. De inkomstencomponent vormt een deel van de totale inkomsten van een persoon. Hiermee leggen we vast het type inkomste, het bedrag en de periode waarover dat bedrag is ontvangen en de boekingsdatum waarop het bedrag is ontvangen.Dat laatste is belangrijk voor de verschillende perspectieven op inkomsten te onderscheiden naar loon-in en loon-over.Achtergrond hierbij zijn twee regelingenLoon wordt als regel toegerekend aan het tijdvak waarin het aan de werknemer is betaald (loon-in). Onder bepaalde voorwaarden mogen werkgevers het uitbetaalde loon toerekenen aan een verstreken loontijdvak. Dit wordt de 'loon-over-regeling' genoemd. Waarom populair: voor een werknemer kan het verstrekken van een uitkering e.d. niet in het kalenderjaar maar bijvoorbeeld in het jaar daarop, hem fiscaal gezien voordelen geven.Bij loon-over gaat het om twee regelingen:De eerste regeling houdt in dat een werkgever een in de maand januari van het nieuwe jaar gedane inhouding op loon dat de werknemer voor het voorgaande jaar nog toekomt, mag opnemen in de laatste aangifte over het oude jaar. Daarbij wordt de inhouding volgens de tarieven van het voorgaande jaar berekend. Deze regeling is structureel in de wet opgenomen.De tweede regeling houdt in dat de werkgever binnen het kalenderjaar loonbetalingen mag toerekenen aan de verstreken loontijdvakken waarop zij betrekking hebben, zo nodig door het indienen van correctieberichten."@nl ;
+    dct:identifier "e0a328b0-21ff-469d-912e-63465279b5a1" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/bankrekening> a owl:Class ;
+    rdfs:label "Bankrekening"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "De gegevens die betrekking hebben op een bankrekening van een PERSOON of een RECHTSPERSOON.Bron: SGR 16.0We kiezen er voor om bankrekening als zelfstandig concept op te nemen, omdat het mogelijk is dat eenzelfde bankrekening gekoppeld kan zijn aan meerdere personen. Voor rechtspersonen geldt dat een bankrekening maar aan ten hoogste 1 ORGANISATORISCHE EENHEID gekoppeld kan zijn."@nl ;
+    dct:identifier "03EFE25A-4FE5-1447-088D-262C4A161776" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/vermogenscomponent> a owl:Class ;
+    rdfs:label "Vermogenscomponent"@nl ;
+    ggm:objectType "Class" ;
+    dct:description "Een *vermogenscomponent* is een **onderdeel van het totale vermogen** van een persoon of huishouden, dat afzonderlijk wordt weergegeven (zoals spaargeld, beleggingen, eigen woning netto of pensioenvermogen)."@nl ;
+    dct:identifier "08000E15-8AA2-AE9A-89F0-262C7C061238" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/bankrekening/bankrekeningnummer> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/bankrekening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FA128EA9-0DFB-46a8-A0A0-7328E6208A7F" ;
+    rdfs:label "Bankrekeningnummer"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/bankrekening/brontype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/bankrekening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E1056DAE-8BF8-4006-B27F-31CA5D486A4B" ;
+    rdfs:label "Brontype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenverhouding/categorie_inkomsten> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenverhouding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
+    dct:identifier "B24A1486-25ED-4936-AB00-5E5C56C1152E" ;
+    rdfs:label "Categorie Inkomsten"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/vermogenscomponent/code_soort_vermogenscomponent> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/vermogenscomponent> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
+    dct:identifier "E04DFEEA-A7A1-4fd9-A5AA-28A00017B396" ;
+    rdfs:label "Code soort vermogenscomponent"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/bankrekening/datum_aanvang_bankrekening> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/bankrekening> ;
+    rdfs:range xsd:date ;
+    dct:identifier "636CB2FB-3918-472a-B865-7953FA8EEFDE" ;
+    rdfs:label "Datum aanvang bankrekening"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/bankrekening/datum_einde_bankrekening> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/bankrekening> ;
+    rdfs:range xsd:date ;
+    dct:identifier "6D40147A-8983-4498-8AD3-DB7E09870C80" ;
+    rdfs:label "Datum einde bankrekening"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/vermogenscomponent/datum_vaststelling_vermogencomponent> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/vermogenscomponent> ;
+    rdfs:range xsd:date ;
+    dct:identifier "DC698246-9654-456a-8AFE-C42D354E5EBE" ;
+    rdfs:label "Datum vaststelling vermogencomponent"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/bankrekening/iban> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/bankrekening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "70C085F2-90EB-4d69-9D5B-36CC7C13A26D" ;
+    rdfs:label "IBAN"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/vermogenscomponent/nog_aan_te_spreken_vermogen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/vermogenscomponent> ;
+    rdfs:range xsd:string ;
+    dct:identifier "FEA65A07-8D2D-48e9-8870-D84226203A2E" ;
+    rdfs:label "Nog aan te spreken vermogen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenverhouding/periode_einddatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenverhouding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "8FBE3718-842F-4964-A1D0-B8FE72D5FFB6" ;
+    rdfs:label "Periode einddatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenverhouding/periode_startdatum> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenverhouding> ;
+    rdfs:range xsd:date ;
+    dct:identifier "7B4691EE-EB0F-4d37-83AA-D696E5719CE2" ;
+    rdfs:label "Periode startdatum"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/bankrekening/rekeningtype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/bankrekening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "8AECECDF-B41A-4774-A945-363880B07275" ;
+    rdfs:label "Rekeningtype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/bankrekening/tenaamstelling> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/bankrekening> ;
+    rdfs:range xsd:string ;
+    dct:identifier "E6B38CC1-487D-4c4f-8F17-F0C4226E5BFC" ;
+    rdfs:label "Tenaamstelling"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/bankrekening/voorkeur_bankrekening> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/bankrekening> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "A4EBD92D-BF03-487a-9941-66BCD201A6C0" ;
+    rdfs:label "Voorkeur bankrekening"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/vermogenscomponent/vrij_te_laten_vermogen> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/vermogenscomponent> ;
+    rdfs:range xsd:string ;
+    dct:identifier "310A4BDE-C100-4bc3-8F30-E6B53050ED57" ;
+    rdfs:label "Vrij te laten vermogen"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client/code> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client> ;
+    rdfs:range xsd:string ;
+    dct:identifier "2F053C54-0964-436c-8943-4727C5809CAB" ;
+    rdfs:label "code"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/profiel/datumaanvangprofiel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/profiel> ;
+    rdfs:range xsd:date ;
+    dct:identifier "23CB9937-3C89-4c04-9B82-DFEAEA5CC349" ;
+    rdfs:label "datumAanvangProfiel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/profiel/datumeindeprofiel> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/profiel> ;
+    rdfs:range xsd:date ;
+    dct:identifier "1BB4EAE8-CEAB-414d-9762-C18A20DB4C47" ;
+    rdfs:label "datumEindeProfiel"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client/gezagsdragergekend> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client> ;
+    rdfs:range xsd:boolean ;
+    dct:identifier "98ACDCD3-78C0-4f19-9D7F-3D6E9117633C" ;
+    rdfs:label "gezagsdragerGekend"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/vermogenscomponent/identificatie> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/vermogenscomponent> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "C86B9FEA-E66C-412f-8756-83458483651F" ;
+    dct:description "Voorheen: Vermogenscomponent ID Attribuut is een identificatie maar van het type Integer?"@nl ;
+    rdfs:label "identificatie"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client/juridischestatus> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client> ;
+    rdfs:range xsd:string ;
+    dct:identifier "3002E65F-86D7-473e-91BF-98F5877E12D0" ;
+    rdfs:label "juridischeStatus"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/profiel/profielid> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/profiel> ;
+    rdfs:range xsd:integer ;
+    dct:identifier "B6478D7B-B20A-4677-9149-E60649F6BEED" ;
+    rdfs:label "profielID"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/profiel/profieltype> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/profiel> ;
+    rdfs:range xsd:string ;
+    dct:identifier "5B5354A2-A0BC-42fa-9584-375EFCF1989E" ;
+    rdfs:label "profieltype"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client/wettelijkevertegenwoordiging> a rdf:Property ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client> ;
+    rdfs:range xsd:string ;
+    dct:identifier "9CC38D5F-DED2-409b-B94B-2A733C2B7BB0" ;
+    rdfs:label "wettelijkeVertegenwoordiging"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/bankrekening> rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/vermogenscomponent> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenverhouding/inkomstenverhouding_bevat_primair_inkomstencomponent> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenverhouding> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/primair_inkomstencomponent> ;
+    rdfs:label "Inkomstenverhouding bevat Primair inkomstencomponent"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/profiel/bevat> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/profiel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/vermogenscomponent> ;
+    rdfs:label "bevat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/profiel/bevat> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/profiel> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/inkomsten/inkomstenverhouding> ;
+    rdfs:label "bevat"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client/bezit> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/vermogen/bankrekening> ;
+    rdfs:label "bezit"@nl .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client/heeft> a owl:ObjectProperty ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/client> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal_domein/sociaal_domein_generiek/profiel> ;
+    rdfs:label "heeft"@nl .
