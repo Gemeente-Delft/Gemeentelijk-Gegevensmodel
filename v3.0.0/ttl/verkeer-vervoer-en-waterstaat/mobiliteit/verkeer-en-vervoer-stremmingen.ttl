@@ -353,223 +353,223 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/baan-voor-vliegverkeer> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/baan-voor-vliegverkeer> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     rdfs:label "baan voor vliegverkeer"@nl ;
     mim:definitie "Wegdeel uitsluitend bedoeld voor vliegverkeer."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/baan-voor-vliegverkeer"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/baan-voor-vliegverkeer"^^xsd:anyURI ;
     mim:naam "baan voor vliegverkeer"@nl ;
-    dcterms:identifier "EAID_4868978c_94be_40a0_bf57_9d6a25e94742" ;
+    dcterms:identifier "EAID_0206099C_8498_4e47_B181_86FAC7C05281" ;
     skos:definition "Wegdeel uitsluitend bedoeld voor vliegverkeer."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     skos:prefLabel "baan voor vliegverkeer"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/fietspad> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/fietspad> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     rdfs:label "fietspad"@nl ;
     mim:definitie "Wegdeel met name bestemd voor fietsers en, indien toegestaan, bromfietsers en dat afgescheiden is van de andere wegdelen niet uitsluitend door markering."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/fietspad"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/fietspad"^^xsd:anyURI ;
     mim:naam "fietspad"@nl ;
-    dcterms:identifier "EAID_edac27c7_af50_40c4_bca4_3e13cfcf04c9" ;
+    dcterms:identifier "EAID_00CE26F8_7C3C_4061_95EE_AB65E2F46E5D" ;
     skos:definition "Wegdeel met name bestemd voor fietsers en, indien toegestaan, bromfietsers en dat afgescheiden is van de andere wegdelen niet uitsluitend door markering."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     skos:prefLabel "fietspad"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/inrit> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/inrit> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     rdfs:label "inrit"@nl ;
     mim:definitie "Toegangswegen, oprijlanen en dergelijke met verkeersfunctie die leiden naar afgelegen erven en terreinen."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/inrit"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/inrit"^^xsd:anyURI ;
     mim:naam "inrit"@nl ;
-    dcterms:identifier "EAID_088340bf_1eae_4e9a_942c_0eb411fe2bec" ;
+    dcterms:identifier "EAID_A87F030C_C769_4bf1_AC34_4591656DA690" ;
     skos:definition "Toegangswegen, oprijlanen en dergelijke met verkeersfunctie die leiden naar afgelegen erven en terreinen."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     skos:prefLabel "inrit"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/ov-baan> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/ov-baan> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     rdfs:label "OV-baan"@nl ;
     mim:definitie """Wegdeel dat uitsluitend is bestemd en gemarkeerd voor openbaar vervoer en 
 afgescheiden is van de andere wegdelen niet uitsluitend door markering."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/ov-baan"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/ov-baan"^^xsd:anyURI ;
     mim:naam "OV-baan"@nl ;
-    dcterms:identifier "EAID_ea0dcdf9_e993_4ea1_bbbd_dd8f9c857fcd" ;
+    dcterms:identifier "EAID_C3718BFC_0053_427a_96D6_21A7E7846E92" ;
     skos:definition """Wegdeel dat uitsluitend is bestemd en gemarkeerd voor openbaar vervoer en 
 afgescheiden is van de andere wegdelen niet uitsluitend door markering."""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     skos:prefLabel "OV-baan"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/overweg> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/overweg> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     rdfs:label "overweg"@nl ;
     mim:definitie "Een gelijkvloerse kruising van een wegdeel en een wegdeel type ov-baan met spoor type trein of sneltram."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/overweg"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/overweg"^^xsd:anyURI ;
     mim:naam "overweg"@nl ;
-    dcterms:identifier "EAID_8a9f5930_b271_4dab_a740_2ef9250e9426" ;
+    dcterms:identifier "EAID_08DC8588_F044_491f_B901_CAA34CA45F40" ;
     skos:definition "Een gelijkvloerse kruising van een wegdeel en een wegdeel type ov-baan met spoor type trein of sneltram."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     skos:prefLabel "overweg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/parkeervlak> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/parkeervlak> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     rdfs:label "parkeervlak"@nl ;
     mim:definitie "Wegdeel bestemd voor het parkeren van motorvoertuigen."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/parkeervlak"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/parkeervlak"^^xsd:anyURI ;
     mim:naam "parkeervlak"@nl ;
-    dcterms:identifier "EAID_1baa87b5_2ee6_488c_9f9a_d123fc5d6679" ;
+    dcterms:identifier "EAID_135ED099_E4B6_42f1_B90F_40C0A3CF37BB" ;
     skos:definition "Wegdeel bestemd voor het parkeren van motorvoertuigen."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     skos:prefLabel "parkeervlak"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/rijbaan-autosnelweg> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/rijbaan-autosnelweg> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     rdfs:label "rijbaan autosnelweg"@nl ;
     mim:definitie """Wegdeel dat onderdeel is van een weg uitsluitend bestemd voor snelverkeer en met gescheiden rijbanen en ongelijkvloerse kruisingen, daartoe aangeduid met 
 het betreffende verkeersbord."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/rijbaan-autosnelweg"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/rijbaan-autosnelweg"^^xsd:anyURI ;
     mim:naam "rijbaan autosnelweg"@nl ;
-    dcterms:identifier "EAID_b6036c23_a446_446a_ae07_dc8a041a383c" ;
+    dcterms:identifier "EAID_51877CC5_FD65_47eb_B9B8_461C8E86597E" ;
     skos:definition """Wegdeel dat onderdeel is van een weg uitsluitend bestemd voor snelverkeer en met gescheiden rijbanen en ongelijkvloerse kruisingen, daartoe aangeduid met 
 het betreffende verkeersbord."""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     skos:prefLabel "rijbaan autosnelweg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/rijbaan-autoweg> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/rijbaan-autoweg> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     rdfs:label "rijbaan autoweg"@nl ;
     mim:definitie "Wegdeel dat onderdeel is van een weg uitsluitend bestemd voor snelverkeer, daartoe aangeduid met het betreffende verkeersbord."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/rijbaan-autoweg"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/rijbaan-autoweg"^^xsd:anyURI ;
     mim:naam "rijbaan autoweg"@nl ;
-    dcterms:identifier "EAID_4ef678f9_531b_4ba8_ae9f_23cef77ee01a" ;
+    dcterms:identifier "EAID_C4E7590E_496E_434b_ABBF_6ECC5B0EC880" ;
     skos:definition "Wegdeel dat onderdeel is van een weg uitsluitend bestemd voor snelverkeer, daartoe aangeduid met het betreffende verkeersbord."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     skos:prefLabel "rijbaan autoweg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/rijbaan-lokale-weg> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/rijbaan-lokale-weg> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     rdfs:label "rijbaan lokale weg"@nl ;
     mim:definitie "Wegdeel dat onderdeel is van een weg van lokaal belang."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/rijbaan-lokale-weg"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/rijbaan-lokale-weg"^^xsd:anyURI ;
     mim:naam "rijbaan lokale weg"@nl ;
-    dcterms:identifier "EAID_388ae429_fdf3_4f00_95eb_40c35620f94e" ;
+    dcterms:identifier "EAID_9017FD5A_96F0_4b66_A773_0869E2ACA045" ;
     skos:definition "Wegdeel dat onderdeel is van een weg van lokaal belang."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     skos:prefLabel "rijbaan lokale weg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/rijbaan-regionale-weg> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/rijbaan-regionale-weg> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     rdfs:label "rijbaan regionale weg"@nl ;
     mim:definitie """Wegdeel dat onderdeel is van een weg die een verbinding vormt tussen 
 bewoonde oorden of tussen wijken binnen een dorp of stad"""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/rijbaan-regionale-weg"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/rijbaan-regionale-weg"^^xsd:anyURI ;
     mim:naam "rijbaan regionale weg"@nl ;
-    dcterms:identifier "EAID_a262d70e_b504_4ce2_b906_5eebfbae1a23" ;
+    dcterms:identifier "EAID_FF873820_5F6A_4c03_90C3_0489B49F1C93" ;
     skos:definition """Wegdeel dat onderdeel is van een weg die een verbinding vormt tussen 
 bewoonde oorden of tussen wijken binnen een dorp of stad"""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     skos:prefLabel "rijbaan regionale weg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/ruiterpad> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/ruiterpad> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     rdfs:label "ruiterpad"@nl ;
     mim:definitie "Een wegdeel primair aangelegd voor het gebruik door ruiters."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/ruiterpad"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/ruiterpad"^^xsd:anyURI ;
     mim:naam "ruiterpad"@nl ;
-    dcterms:identifier "EAID_3d353e8b_73f5_4ff5_b18d_c996f4cc5c30" ;
+    dcterms:identifier "EAID_D3CFFD93_41C4_4731_9B9B_9208A92B27D0" ;
     skos:definition "Een wegdeel primair aangelegd voor het gebruik door ruiters."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     skos:prefLabel "ruiterpad"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/spoorbaan> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/spoorbaan> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     rdfs:label "spoorbaan"@nl ;
     mim:definitie "Gebaand gedeelte voor het verkeer over rails."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/spoorbaan"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/spoorbaan"^^xsd:anyURI ;
     mim:naam "spoorbaan"@nl ;
-    dcterms:identifier "EAID_ff3a291e_5c39_4841_a626_99b0e6aaf065" ;
+    dcterms:identifier "EAID_DD9B5EB3_1ED4_484b_AE03_9074043AB7C6" ;
     skos:definition "Gebaand gedeelte voor het verkeer over rails."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     skos:prefLabel "spoorbaan"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/voetgangersgebied> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/voetgangersgebied> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     rdfs:label "voetgangersgebied"@nl ;
     mim:definitie "Wegdeel alleen voor het gebruik door voetgangers, waarbij het door voetgangers te gebruiken gebied de volle breedte van de weg beslaat en het gebied een nadrukkelijk openbaar karakter heeft."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/voetgangersgebied"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/voetgangersgebied"^^xsd:anyURI ;
     mim:naam "voetgangersgebied"@nl ;
-    dcterms:identifier "EAID_3451bf10_e936_4e40_b114_6a2db0bade14" ;
+    dcterms:identifier "EAID_978B73F1_CBE4_476e_9CFB_CB3B62DC53F6" ;
     skos:definition "Wegdeel alleen voor het gebruik door voetgangers, waarbij het door voetgangers te gebruiken gebied de volle breedte van de weg beslaat en het gebied een nadrukkelijk openbaar karakter heeft."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     skos:prefLabel "voetgangersgebied"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/voetpad> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/voetpad> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     rdfs:label "voetpad"@nl ;
     mim:definitie "Wegdeel waar voetgangers gebruik van moeten maken."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/voetpad"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/voetpad"^^xsd:anyURI ;
     mim:naam "voetpad"@nl ;
-    dcterms:identifier "EAID_441b29ec_80f4_4657_9f22_3a546d3fa338" ;
+    dcterms:identifier "EAID_68B23E50_7901_43da_BD84_905C4F7BC8FC" ;
     skos:definition "Wegdeel waar voetgangers gebruik van moeten maken."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     skos:prefLabel "voetpad"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/voetpad-op-trap> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/voetpad-op-trap> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     rdfs:label "voetpad op trap"@nl ;
     mim:definitie "Voetpad op verkeersinfrastructurele voorziening bestaande uit een constructie van treden, waarop men een hoger of lager gelegen plaats kan bereiken"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/voetpad-op-trap"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/voetpad-op-trap"^^xsd:anyURI ;
     mim:naam "voetpad op trap"@nl ;
-    dcterms:identifier "EAID_31337cd7_c21b_4b3d_a8ad_49cc18f34a91" ;
+    dcterms:identifier "EAID_FB11CCF8_6265_48f2_BFDA_90F230BEEC3B" ;
     skos:definition "Voetpad op verkeersinfrastructurele voorziening bestaande uit een constructie van treden, waarop men een hoger of lager gelegen plaats kan bereiken"@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     skos:prefLabel "voetpad op trap"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/woonerf> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/woonerf> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     rdfs:label "woonerf"@nl ;
     mim:definitie "Wegdeel waar de verblijfsfunctie (lopen, spelen, ontmoeten enzovoorts) prioriteit heeft boven de verkeersfunctie. Daartoe aangeduid met de verplichte verkeersborden."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/woonerf"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/woonerf"^^xsd:anyURI ;
     mim:naam "woonerf"@nl ;
-    dcterms:identifier "EAID_96ff82dc_b932_44fe_be2b_b4ba6fb7ff4f" ;
+    dcterms:identifier "EAID_73E9DD1F_2AC1_49d5_BFAC_4859F0409799" ;
     skos:definition "Wegdeel waar de verblijfsfunctie (lopen, spelen, ontmoeten enzovoorts) prioriteit heeft boven de verkeersfunctie. Daartoe aangeduid met de verplichte verkeersborden."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     skos:prefLabel "woonerf"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus/calamiteitendoorstee> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus/calamiteitendoorstee> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus> ;
     rdfs:label "calamiteitendoorstee"@nl ;
     mim:definitie """Een (Calamiteiten doorsteek) CADO heeft tot doel het 
 verkeer op een rijbaan via een doorsteek van de weg te 
@@ -577,407 +577,359 @@ kunnen geleiden in geval van een calamiteit of
 werkzaamheden op de rijbaan. Een tweede doel is het
 faciliteren van toegang tot rijbanen voor hulpdiensten vanaf 
 andere rijbanen of van een parallelweg."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus/calamiteitendoorstee"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus/calamiteitendoorstee"^^xsd:anyURI ;
     mim:naam "calamiteitendoorstee"@nl ;
-    dcterms:identifier "EAID_0bfd5aec_0c05_4414_a2ba_4660e35ec960" ;
+    dcterms:identifier "EAID_30348692_F327_41b2_AD1F_02AAA959263E" ;
     skos:definition """Een (Calamiteiten doorsteek) CADO heeft tot doel het 
 verkeer op een rijbaan via een doorsteek van de weg te 
 kunnen geleiden in geval van een calamiteit of 
 werkzaamheden op de rijbaan. Een tweede doel is het
 faciliteren van toegang tot rijbanen voor hulpdiensten vanaf 
 andere rijbanen of van een parallelweg."""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus> ;
     skos:prefLabel "calamiteitendoorstee"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus/verbindingsweg> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus/verbindingsweg> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus> ;
     rdfs:label "verbindingsweg"@nl ;
     mim:definitie """Een verbindingsweg is (in principe) een eenrichtingsweg, 
 gelegen binnen een knooppunt of aansluiting, die onderdeel 
 is van de wijze waarop de ongelijkvloersheid is gerealiseerd."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus/verbindingsweg"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus/verbindingsweg"^^xsd:anyURI ;
     mim:naam "verbindingsweg"@nl ;
-    dcterms:identifier "EAID_c73a7126_4c39_4c32_84f5_4278de205f2f" ;
+    dcterms:identifier "EAID_1C60336E_7261_45e8_A1A8_E84E61FA43A4" ;
     skos:definition """Een verbindingsweg is (in principe) een eenrichtingsweg, 
 gelegen binnen een knooppunt of aansluiting, die onderdeel 
 is van de wijze waarop de ongelijkvloersheid is gerealiseerd."""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus> ;
     skos:prefLabel "verbindingsweg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus/verkeersdrempel> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus/verkeersdrempel> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus> ;
     rdfs:label "verkeersdrempel"@nl ;
     mim:definitie """Verhoging in een regionale rijbaan, bedoeld om het 
 gemotoriseerde verkeer met een lage snelheid te laten 
 rijden."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus/verkeersdrempel"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus/verkeersdrempel"^^xsd:anyURI ;
     mim:naam "verkeersdrempel"@nl ;
-    dcterms:identifier "EAID_4fc21067_6cba_4dd8_b1e6_6aa5efbe5c98" ;
+    dcterms:identifier "EAID_99A04599_6B9D_4ede_9185_C7776A873033" ;
     skos:definition """Verhoging in een regionale rijbaan, bedoeld om het 
 gemotoriseerde verkeer met een lage snelheid te laten 
 rijden."""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus> ;
     skos:prefLabel "verkeersdrempel"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg/gesloten-verharding> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg/gesloten-verharding> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg> ;
     rdfs:label "gesloten verharding"@nl ;
     mim:definitie """Verharding bestaande uit een materiaal dat niet verwijderbaar is zonder 
 definitieve destructie, zoals bitumen, cement of kunststof."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg/gesloten-verharding"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg/gesloten-verharding"^^xsd:anyURI ;
     mim:naam "gesloten verharding"@nl ;
-    dcterms:identifier "EAID_5ac0b24b_8c9b_49b9_b24a_e1e4fe14f4e3" ;
+    dcterms:identifier "EAID_C4863993_D7DC_4822_9490_330DD4202D48" ;
     skos:definition """Verharding bestaande uit een materiaal dat niet verwijderbaar is zonder 
 definitieve destructie, zoals bitumen, cement of kunststof."""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg> ;
     skos:prefLabel "gesloten verharding"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg/half-verhard> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg/half-verhard> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg> ;
     rdfs:label "half verhard"@nl ;
     mim:definitie """Verharding bestaande uit een door verdichting gebonden materiaal, of 
 onsamenhangend materiaal."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg/half-verhard"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg/half-verhard"^^xsd:anyURI ;
     mim:naam "half verhard"@nl ;
-    dcterms:identifier "EAID_6c4924cc_073c_44ca_bd05_a9042fe813ef" ;
+    dcterms:identifier "EAID_9C70FA41_810C_4a5e_8F69_C27AE002C804" ;
     skos:definition """Verharding bestaande uit een door verdichting gebonden materiaal, of 
 onsamenhangend materiaal."""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg> ;
     skos:prefLabel "half verhard"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg/onverhard> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg/onverhard> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg> ;
     rdfs:label "onverhard"@nl ;
     mim:definitie "Wegdelen waar geen verharding of aaneengesloten vegetatie aanwezig is."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg/onverhard"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg/onverhard"^^xsd:anyURI ;
     mim:naam "onverhard"@nl ;
-    dcterms:identifier "EAID_400ab168_c854_43b4_9096_a3126a91f87c" ;
+    dcterms:identifier "EAID_93204782_714F_432b_87A4_3DDFBEF19696" ;
     skos:definition "Wegdelen waar geen verharding of aaneengesloten vegetatie aanwezig is."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg> ;
     skos:prefLabel "onverhard"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg/open-verharding> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg/open-verharding> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg> ;
     rdfs:label "open verharding"@nl ;
     mim:definitie "Verharding gevormd door in verband aangebrachte elementen van beperkte afmetingen, zoals klinkers en tegels."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg/open-verharding"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg/open-verharding"^^xsd:anyURI ;
     mim:naam "open verharding"@nl ;
-    dcterms:identifier "EAID_7598edce_5b66_4611_a44f_ffc3b619b6bc" ;
+    dcterms:identifier "EAID_56FD8355_5A45_4cf2_A9C3_3E6717B51866" ;
     skos:definition "Verharding gevormd door in verband aangebrachte elementen van beperkte afmetingen, zoals klinkers en tegels."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg> ;
     skos:prefLabel "open verharding"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/asfalt> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/asfalt> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     rdfs:label "asfalt"@nl ;
     mim:definitie """Gesloten verharding bestaande uit asfaltbeton of andere met 
 bitumen gebonden materialen."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/asfalt"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/asfalt"^^xsd:anyURI ;
     mim:naam "asfalt"@nl ;
-    dcterms:identifier "EAID_7c14baae_636c_4a4a_8114_e942f410c594" ;
+    dcterms:identifier "EAID_EBE993DD_FDB0_4095_B318_2AAFBD6AA005" ;
     skos:definition """Gesloten verharding bestaande uit asfaltbeton of andere met 
 bitumen gebonden materialen."""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     skos:prefLabel "asfalt"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/beton-element> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/beton-element> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     rdfs:label "beton element"@nl ;
     mim:definitie """Geprepareerde elementen van beton zoals, trottoirbanden, 
 opsluitbanden en stelconplaten."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/beton-element"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/beton-element"^^xsd:anyURI ;
     mim:naam "beton element"@nl ;
-    dcterms:identifier "EAID_d557cd06_ec69_489a_b54a_5b0ace875d80" ;
+    dcterms:identifier "EAID_5A5F2194_3B7C_41bc_9A03_51F3500671E4" ;
     skos:definition """Geprepareerde elementen van beton zoals, trottoirbanden, 
 opsluitbanden en stelconplaten."""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     skos:prefLabel "beton element"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/betonstraatstenen> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/betonstraatstenen> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     rdfs:label "betonstraatstenen"@nl ;
     mim:definitie """Verharding gemaakt van betonstraatstenen. Straatsteen die als 
 goedkope vervanging van de gebakken klinkers is ontwikkeld."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/betonstraatstenen"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/betonstraatstenen"^^xsd:anyURI ;
     mim:naam "betonstraatstenen"@nl ;
-    dcterms:identifier "EAID_f7deefc5_8261_43e4_b901_8316cb34ecc3" ;
+    dcterms:identifier "EAID_A64DADAD_9524_4f38_BC10_A1AF1D3FF9D0" ;
     skos:definition """Verharding gemaakt van betonstraatstenen. Straatsteen die als 
 goedkope vervanging van de gebakken klinkers is ontwikkeld."""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     skos:prefLabel "betonstraatstenen"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/boomschors> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/boomschors> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     rdfs:label "boomschors"@nl ;
     mim:definitie "Onverhard met als deklaag boomschors."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/boomschors"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/boomschors"^^xsd:anyURI ;
     mim:naam "boomschors"@nl ;
-    dcterms:identifier "EAID_188d5fcb_c0ca_4a7b_871a_221b4b4e039a" ;
+    dcterms:identifier "EAID_B9CA1371_9D50_4cab_B261_81863A43C373" ;
     skos:definition "Onverhard met als deklaag boomschors."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     skos:prefLabel "boomschors"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/cementbeton> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/cementbeton> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     rdfs:label "cementbeton"@nl ;
     mim:definitie """Gesloten verharding bestaande uit gewapend of ongewapend 
 beton."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/cementbeton"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/cementbeton"^^xsd:anyURI ;
     mim:naam "cementbeton"@nl ;
-    dcterms:identifier "EAID_89d33341_ff69_4200_9223_04c8f3996403" ;
+    dcterms:identifier "EAID_3D03C80F_13D8_417d_83E0_773CE02804DD" ;
     skos:definition """Gesloten verharding bestaande uit gewapend of ongewapend 
 beton."""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     skos:prefLabel "cementbeton"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/gebakken-klinkers> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/gebakken-klinkers> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     rdfs:label "gebakken klinkers"@nl ;
     mim:definitie """Verharding gemaakt van straatbakstenen. Gebakken klinkers 
 worden voornamelijk geproduceerd uit grondstof van eigen 
 bodem; de beddingen van onze rivieren."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/gebakken-klinkers"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/gebakken-klinkers"^^xsd:anyURI ;
     mim:naam "gebakken klinkers"@nl ;
-    dcterms:identifier "EAID_1cad637d_c4ab_4955_9599_a723ecaaaef7" ;
+    dcterms:identifier "EAID_571491A9_423F_40e2_B3F1_FF6808DD002C" ;
     skos:definition """Verharding gemaakt van straatbakstenen. Gebakken klinkers 
 worden voornamelijk geproduceerd uit grondstof van eigen 
 bodem; de beddingen van onze rivieren."""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     skos:prefLabel "gebakken klinkers"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/grasklinkers> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/grasklinkers> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     rdfs:label "grasklinkers"@nl ;
     mim:definitie """Elementenverharding bestaande uit elementen van beperkte 
 afmetingen die ten behoeve van de doorgroei van grassen en 
 kruiden, zijn voorzien van openingen of met tussenruimten 
 aangebracht."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/grasklinkers"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/grasklinkers"^^xsd:anyURI ;
     mim:naam "grasklinkers"@nl ;
-    dcterms:identifier "EAID_30693a2d_aa2a_4ed5_bf48_d276ea94aded" ;
+    dcterms:identifier "EAID_DCCC836F_E203_4d63_AFA7_10D5C19F35A2" ;
     skos:definition """Elementenverharding bestaande uit elementen van beperkte 
 afmetingen die ten behoeve van de doorgroei van grassen en 
 kruiden, zijn voorzien van openingen of met tussenruimten 
 aangebracht."""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     skos:prefLabel "grasklinkers"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/gravel> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/gravel> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     rdfs:label "gravel"@nl ;
     mim:definitie """Gravel is een ondergrond van gemalen baksteen die veel wordt 
 gebruikt bij tennis en ook wel op atletiekbanen."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/gravel"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/gravel"^^xsd:anyURI ;
     mim:naam "gravel"@nl ;
-    dcterms:identifier "EAID_dd0124d3_c5e0_4094_a760_af7933cceae2" ;
+    dcterms:identifier "EAID_4CE65079_D48C_4cb1_B752_3CD509E66559" ;
     skos:definition """Gravel is een ondergrond van gemalen baksteen die veel wordt 
 gebruikt bij tennis en ook wel op atletiekbanen."""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     skos:prefLabel "gravel"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/grind> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/grind> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     rdfs:label "grind"@nl ;
     mim:definitie """Ongebonden verharding bestaande uit kiezelmateriaal, waarvan 
 de stenen in doorsnede variëren van 1 tot 5 cm."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/grind"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/grind"^^xsd:anyURI ;
     mim:naam "grind"@nl ;
-    dcterms:identifier "EAID_555c6230_0fd4_4eef_baab_36ab9ca1c6dd" ;
+    dcterms:identifier "EAID_485C2D47_1B2E_4e98_AFCA_E8CB76B9004C" ;
     skos:definition """Ongebonden verharding bestaande uit kiezelmateriaal, waarvan 
 de stenen in doorsnede variëren van 1 tot 5 cm."""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     skos:prefLabel "grind"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/puin> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/puin> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     rdfs:label "puin"@nl ;
     mim:definitie """Puin is afvalmateriaal dat bestaat uit losse brokstukken, 
 grotendeels bestaande uit stenen en beton, van gesloopte of 
 ingestorte gebouwen, viaducten, bruggen en andere objecten."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/puin"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/puin"^^xsd:anyURI ;
     mim:naam "puin"@nl ;
-    dcterms:identifier "EAID_df0532e3_c1dc_4ff1_abbb_c91b49a5abdb" ;
+    dcterms:identifier "EAID_F9D8A24A_0C81_4ce1_B2C0_333A99C73932" ;
     skos:definition """Puin is afvalmateriaal dat bestaat uit losse brokstukken, 
 grotendeels bestaande uit stenen en beton, van gesloopte of 
 ingestorte gebouwen, viaducten, bruggen en andere objecten."""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     skos:prefLabel "puin"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/schelpen> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/schelpen> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     rdfs:label "schelpen"@nl ;
     mim:definitie "Ongebonden verharding bestaande uit schelpenmateriaal."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/schelpen"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/schelpen"^^xsd:anyURI ;
     mim:naam "schelpen"@nl ;
-    dcterms:identifier "EAID_66ce90a8_40a4_494b_91bf_533c4238eb13" ;
+    dcterms:identifier "EAID_19598EBE_96A0_4d66_8D5B_5940A0B4CF4D" ;
     skos:definition "Ongebonden verharding bestaande uit schelpenmateriaal."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     skos:prefLabel "schelpen"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/sierbestrating> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/sierbestrating> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     rdfs:label "sierbestrating"@nl ;
     mim:definitie """Bestrating, uitgevoerd in verschillende bestratingsverbanden en 
 -materialen, of in een sierverband, die vooral wordt toegepast 
 uit esthetische overwegingen."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/sierbestrating"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/sierbestrating"^^xsd:anyURI ;
     mim:naam "sierbestrating"@nl ;
-    dcterms:identifier "EAID_523283a0_58d0_4c0a_92ee_abdaba405913" ;
+    dcterms:identifier "EAID_B21ABBB0_6FE0_488a_8D21_8C6ADA3F742C" ;
     skos:definition """Bestrating, uitgevoerd in verschillende bestratingsverbanden en 
 -materialen, of in een sierverband, die vooral wordt toegepast 
 uit esthetische overwegingen."""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     skos:prefLabel "sierbestrating"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/tegels> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/tegels> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     rdfs:label "tegels"@nl ;
     mim:definitie "Bestrating van tegels, een platte vaak vierkante betonnen steen; veelal gebruikt voor trottoirbestrating."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/tegels"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/tegels"^^xsd:anyURI ;
     mim:naam "tegels"@nl ;
-    dcterms:identifier "EAID_99fb45c3_6fdb_4434_b56f_3a54b2fc2e5f" ;
+    dcterms:identifier "EAID_E20B204D_7BFD_4eec_BED0_E312912AA9A8" ;
     skos:definition "Bestrating van tegels, een platte vaak vierkante betonnen steen; veelal gebruikt voor trottoirbestrating."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     skos:prefLabel "tegels"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/zand> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/zand> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     rdfs:label "zand"@nl ;
     mim:definitie "Onverhard met als deklaag zand."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/zand"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/zand"^^xsd:anyURI ;
     mim:naam "zand"@nl ;
-    dcterms:identifier "EAID_4a7ab2bf_c348_47ec_b714_722de5cf5869" ;
+    dcterms:identifier "EAID_417B7A0C_4C53_4b67_8F6B_385DB6CCBD1F" ;
     skos:definition "Onverhard met als deklaag zand."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     skos:prefLabel "zand"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject/bestaand> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject/bestaand> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject> ;
     rdfs:label "bestaand"@nl ;
     mim:definitie "Situatie waarin het object wordt / kan worden gebruikt voor het doel waarvoor het is gebouwd / aangelegd."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject/bestaand"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject/bestaand"^^xsd:anyURI ;
     mim:naam "bestaand"@nl ;
-    dcterms:identifier "EAID_077713f7_656c_48df_ab66_7417904d0358",
-        "EAID_0bb8cdbf_87b1_49f6_81c9_aa6cd296755c",
-        "EAID_296ec203_5c6b_4152_a5bf_0d5f14c934f5",
-        "EAID_2bef982e_64db_497f_962f_64eb7a05fed9",
-        "EAID_2e0a1156_b12f_4c8c_9f77_32c690f2e5f7",
-        "EAID_31ed9ef7_dc2f_434b_89d4_52127e0c7912",
-        "EAID_37023026_d60d_4df0_9ed2_df039fab5b9b",
-        "EAID_3fdc9bb0_a37d_47e5_a158_15a01711058c",
-        "EAID_59590115_a8bf_4ca2_be6e_e9c4a99cb39e",
-        "EAID_61afbddb_865b_4909_978c_ea1998c7f735",
-        "EAID_76b7bb9d_9ca5_46bc_bbc9_77c58a7cd6b5",
-        "EAID_7c0956f3_ac5b_456d_843b_dacf59ec27b3",
-        "EAID_7c6a3db5_a00f_49ea_802e_bbfaf25a919b",
-        "EAID_86381132_0011_4dc6_a3c3_6cca123fab83",
-        "EAID_b61e827b_2d2b_4cb5_b092_a85bb3ba7ac1",
-        "EAID_b8f501ee_1c9e_4134_a38e_e335a1b9ce68",
-        "EAID_f35623d8_0628_4c6d_a2d1_66170c58c796" ;
+    dcterms:identifier "EAID_4A5A2354_132E_45c1_BC31_6D0EC8BF6E00" ;
     skos:definition "Situatie waarin het object wordt / kan worden gebruikt voor het doel waarvoor het is gebouwd / aangelegd."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject> ;
     skos:prefLabel "bestaand"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject/historie> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject/historie> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject> ;
     rdfs:label "historie"@nl ;
     mim:definitie "Situatie waarin het geregistreerde object fysiek niet meer bestaat."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject/historie"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject/historie"^^xsd:anyURI ;
     mim:naam "historie"@nl ;
-    dcterms:identifier "EAID_08adcd70_bd05_4c90_be71_c9ad34414df7",
-        "EAID_1052f923_8ecb_401d_80d6_88263fa6e73c",
-        "EAID_1d50cb1d_56e8_42ce_a90c_dbec25cfcb06",
-        "EAID_2b41a5f5_d73c_4079_9a91_a56a5fac11b0",
-        "EAID_397dbdf0_b7ed_4250_868c_2369cd5dd3f8",
-        "EAID_4505767d_1131_46bf_b00a_cd83d40927df",
-        "EAID_477065cf_8bc1_4483_a450_150c9946d0c8",
-        "EAID_825a5312_fd70_4b0f_9c3a_8d4b458488e4",
-        "EAID_8b356ef1_b389_4bb9_a985_37b44f27ca3e",
-        "EAID_9c691c5a_4e6e_476d_81a6_053531f3dbb3",
-        "EAID_a1fffaa0_6f58_4991_81f6_efe860d9ea18",
-        "EAID_b740b1ba_45c4_4f96_889e_fbfb5eb966e8",
-        "EAID_c2b1871d_c96f_4694_90db_1959d874c60a",
-        "EAID_c7bc62c5_e14f_4055_b6e6_72acaa933196",
-        "EAID_d7c7800a_1299_4751_98f6_55d12956d0f8",
-        "EAID_de322192_feaf_4c17_bdd8_1898c029a1c0",
-        "EAID_f430f042_4b2e_4ab0_9b65_c63b8ebd38f7" ;
+    dcterms:identifier "EAID_7565EA81_7E17_4f3a_917C_936C1BD6C73F" ;
     skos:definition "Situatie waarin het geregistreerde object fysiek niet meer bestaat."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject> ;
     skos:prefLabel "historie"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject/plan> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject/plan> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject> ;
     rdfs:label "plan"@nl ;
     mim:definitie "Situatie die ontstaat op het moment van verlening van een beschikking voor bouw of aanleg en duurt tot het moment waarop het object gereed is voor het beoogde gebruik."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject/plan"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject/plan"^^xsd:anyURI ;
     mim:naam "plan"@nl ;
-    dcterms:identifier "EAID_008bbf27_272e_4624_b263_768c25f89efa",
-        "EAID_03746405_4af3_4761_ab32_e991fa650f76",
-        "EAID_529141bb_00de_46df_9fe6_2e898f4dd6c2",
-        "EAID_55c20feb_cdcf_454d_bad9_b95ec271a6f0",
-        "EAID_57f634cf_3aa4_47b6_b97e_37d17ec05830",
-        "EAID_77586f58_4709_4fbc_b8b2_598ca16d58c5",
-        "EAID_7b288809_210d_40e4_abe0_ccb974d5ad36",
-        "EAID_7bba66d5_2ca0_404e_800e_0abb48d73162",
-        "EAID_8cd86451_3507_48cd_839f_4da4d4aff82a",
-        "EAID_90350b54_b472_4db4_a844_e8bbc06b6b34",
-        "EAID_9b4610e7_d59d_413a_8e8d_ede9557b1288",
-        "EAID_9ca2f406_0022_499e_9ba0_853586dad87c",
-        "EAID_9ea4d6b3_6e42_4755_9acf_bfad19819bbb",
-        "EAID_b3420950_0db6_4bd4_a303_2437ace03427",
-        "EAID_cef9f25e_9f4f_4187_8387_13c7e0483933",
-        "EAID_d53213d0_9a97_4376_ad8e_6d8384e761b7",
-        "EAID_e4e00537_ebdf_4bca_8fef_704ab8dc65b2" ;
+    dcterms:identifier "EAID_491F43B6_F3AB_4d95_982D_B25953BB78F3" ;
     skos:definition "Situatie die ontstaat op het moment van verlening van een beschikking voor bouw of aanleg en duurt tot het moment waarop het object gereed is voor het beoogde gebruik."@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject> ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject> ;
     skos:prefLabel "plan"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/wegdeel/datumbegingeldigheidwegdeel> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1044,12 +996,12 @@ uit esthetische overwegingen."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "functieWegdeel"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> ;
     dcterms:identifier "EAID_0293B525_513C_4ad1_B225_A5BD397CA7E8" ;
     rdfs:comment "Specificatie van het hoofdgebruiksdoel van het wegdeel."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/wegdeel> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/wegdeel/fysiekvoorkomenwegdeel> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -1068,12 +1020,12 @@ uit esthetische overwegingen."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "fysiekVoorkomenWegdeel"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg> ;
     dcterms:identifier "EAID_4447539D_30FB_4273_84AA_4B425C8EFB50" ;
     rdfs:comment "Mate waarin het wegdeel al of niet verhard is."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/wegdeel> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/wegdeel/geometriewegdeel> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1188,12 +1140,12 @@ uit esthetische overwegingen."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "plusFunctieWegdeel"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus> ;
     dcterms:identifier "EAID_7EB0CB23_5E58_46bb_98F3_F208760B7F16" ;
     rdfs:comment "Specificatie van het hoofdgebruiksdoel van het wegdeel, nadere classificatie."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/wegdeel> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/wegdeel/plusfysiekvoorkomenwegdeel> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -1212,12 +1164,12 @@ uit esthetische overwegingen."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "plusFysiekVoorkomenWegdeel"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> ;
     dcterms:identifier "EAID_8FB407D2_282F_4a11_874E_BF4424A00F1F" ;
     rdfs:comment "Mate waarin het wegdeel al of niet verhard is, nadere classificatie."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/wegdeel> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/wegdeel/relatievehoogteliggingwegdeel> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1260,12 +1212,12 @@ uit esthetische overwegingen."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "statusWegdeel"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject> ;
     dcterms:identifier "EAID_2E6FA44F_B1B3_4fbc_ACD4_28214BE0BF48" ;
     rdfs:comment "De status gekoppeld aan de levenscyclus van het wegdeel."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/wegdeel> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/wegdeel/wegdeeloptalud> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1728,60 +1680,44 @@ uit esthetische overwegingen."""@nl ;
     skos:prefLabel "Plan Afhandelen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/stremmingstatus> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "functieWegPlus"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus"^^xsd:anyURI ;
     mim:naam "functieWegPlus"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus/calamiteitendoorstee>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus/verbindingsweg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functiewegplus/verkeersdrempel> ;
-    dcterms:identifier "EAID_4b635f66_0027_460a_855f_66d656124991" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus/calamiteitendoorstee>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus/verbindingsweg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functiewegplus/verkeersdrempel> ;
+    dcterms:identifier "EAID_0A81C802_DF17_453f_B136_57844E8EA5CD" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/> ;
     rdfs:subClassOf skos:Concept .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "statusGeoObject"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject"^^xsd:anyURI ;
     mim:naam "statusGeoObject"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject/bestaand>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject/historie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject/plan> ;
-    dcterms:identifier "EAID_010c090c_1185_4937_a6a1_2f0113f033d8",
-        "EAID_1f813055_c08d_444b_93c5_da90f72dc993",
-        "EAID_27174ce6_dfbe_42b0_aae1_9822bf18b5b6",
-        "EAID_2aedaeff_c6ce_4ada_974f_b5cc3b0afd89",
-        "EAID_317f9b7b_c00b_4736_9a19_75654edba12a",
-        "EAID_499e776e_d2aa_41ac_a609_ec022dbf0b3a",
-        "EAID_608e487f_8b92_4a96_b7fa_1888a5c79473",
-        "EAID_6aed5df5_7157_4dff_961f_c3c14271ff96",
-        "EAID_6ca27aec_a501_4044_b351_2e96a6c484f2",
-        "EAID_710aaeee_c1a9_4510_8848_bcdbe02dfe17",
-        "EAID_753fe9a9_3d48_4dc0_87b1_29653cea95ad",
-        "EAID_7f4e5f6a_f45e_4968_b7bc_343b4496ca32",
-        "EAID_8419bdd6_b2d8_4a1f_80a0_ac31edf17483",
-        "EAID_a24e5bf1_7d44_42e1_8407_ab977b3efcb1",
-        "EAID_b2b7f98a_c3a4_4fe0_926c_07ad4e653230",
-        "EAID_df14cdff_4dfe_4eff_9093_490bddf99b55",
-        "EAID_fb6c04a1_25ba_4f8f_92ac_a49cdcfc0d45" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject/bestaand>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject/historie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject/plan> ;
+    dcterms:identifier "EAID_0F81E79F_B306_40b9_ADCA_59A1E3F55D2B" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/> ;
     rdfs:subClassOf skos:Concept .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "fysiekVoorkomenWeg"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg"^^xsd:anyURI ;
     mim:naam "fysiekVoorkomenWeg"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg/gesloten-verharding>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg/half-verhard>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg/onverhard>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenweg/open-verharding> ;
-    dcterms:identifier "EAID_5bc8d880_d3f4_42cd_8647_105625f186f5" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg/gesloten-verharding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg/half-verhard>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg/onverhard>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenweg/open-verharding> ;
+    dcterms:identifier "EAID_A9215E2C_A24F_41b3_A44B_DA59870AB17D" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/> ;
     rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/wegdeel> a mim:Objecttype,
@@ -1929,53 +1865,53 @@ Zie verder BGT en IMGeo.""" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
     rdfs:subClassOf skos:Concept .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "fysiekVoorkomenWegPlus"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus"^^xsd:anyURI ;
     mim:naam "fysiekVoorkomenWegPlus"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/asfalt>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/beton-element>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/betonstraatstenen>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/boomschors>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/cementbeton>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/gebakken-klinkers>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/grasklinkers>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/gravel>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/grind>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/puin>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/schelpen>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/sierbestrating>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/tegels>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/fysiekvoorkomenwegplus/zand> ;
-    dcterms:identifier "EAID_ac966bd0_2da0_4b71_8370_173c6bff1531" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/asfalt>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/beton-element>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/betonstraatstenen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/boomschors>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/cementbeton>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/gebakken-klinkers>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/grasklinkers>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/gravel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/grind>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/puin>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/schelpen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/sierbestrating>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/tegels>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenwegplus/zand> ;
+    dcterms:identifier "EAID_9E1309B5_D4B2_4413_AE03_5EFA7EAF8041" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/> ;
     rdfs:subClassOf skos:Concept .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "functieWeg"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg"^^xsd:anyURI ;
     mim:naam "functieWeg"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/baan-voor-vliegverkeer>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/fietspad>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/inrit>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/ov-baan>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/overweg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/parkeervlak>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/rijbaan-autosnelweg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/rijbaan-autoweg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/rijbaan-lokale-weg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/rijbaan-regionale-weg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/ruiterpad>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/spoorbaan>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/voetgangersgebied>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/voetpad>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/voetpad-op-trap>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functieweg/woonerf> ;
-    dcterms:identifier "EAID_cb9d45e4_ef4b_4197_adf7_6d3e8eddca20" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/baan-voor-vliegverkeer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/fietspad>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/inrit>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/ov-baan>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/overweg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/parkeervlak>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/rijbaan-autosnelweg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/rijbaan-autoweg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/rijbaan-lokale-weg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/rijbaan-regionale-weg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/ruiterpad>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/spoorbaan>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/voetgangersgebied>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/voetpad>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/voetpad-op-trap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/functieweg/woonerf> ;
+    dcterms:identifier "EAID_7BDE072F_0E66_475b_9E1B_87112E0E538C" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/> ;
     rdfs:subClassOf skos:Concept .
 

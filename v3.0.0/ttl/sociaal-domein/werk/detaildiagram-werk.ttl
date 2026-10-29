@@ -1067,84 +1067,6 @@
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/basisonderwijs> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
-    rdfs:label "Basisonderwijs"@nl ;
-    mim:code "1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/basisonderwijs"^^xsd:anyURI ;
-    mim:naam "Basisonderwijs"@nl ;
-    dcterms:identifier "EAID_de1ca9f2_2882_4ecc_98a0_f2ce91f4fecd" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
-    skos:notation "1" ;
-    skos:prefLabel "Basisonderwijs"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/havo-vwo> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
-    rdfs:label "HAVO / VWO"@nl ;
-    mim:code "4" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/havo-vwo"^^xsd:anyURI ;
-    mim:naam "HAVO / VWO"@nl ;
-    dcterms:identifier "EAID_fe9fd5b1_3c98_42f0_af56_53e7100881e2" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
-    skos:notation "4" ;
-    skos:prefLabel "HAVO / VWO"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/hbo-bachelor> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
-    rdfs:label "HBO / Bachelor"@nl ;
-    mim:code "5" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/hbo-bachelor"^^xsd:anyURI ;
-    mim:naam "HBO / Bachelor"@nl ;
-    dcterms:identifier "EAID_31d3800a_f725_495e_a530_060949e2ca8b" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
-    skos:notation "5" ;
-    skos:prefLabel "HBO / Bachelor"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/mbo> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
-    rdfs:label "MBO"@nl ;
-    mim:code "3" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/mbo"^^xsd:anyURI ;
-    mim:naam "MBO"@nl ;
-    dcterms:identifier "EAID_ecb6cb13_2408_4a51_a385_9952f64ae314" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
-    skos:notation "3" ;
-    skos:prefLabel "MBO"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/vmbo-mbo-1> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
-    rdfs:label "VMBO / MBO-1"@nl ;
-    mim:code "2" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/vmbo-mbo-1"^^xsd:anyURI ;
-    mim:naam "VMBO / MBO-1"@nl ;
-    dcterms:identifier "EAID_11172e39_3759_43c8_9fa8_7541cc956099" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
-    skos:notation "2" ;
-    skos:prefLabel "VMBO / MBO-1"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/wo-master> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
-    rdfs:label "WO / Master"@nl ;
-    mim:code "6" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/wo-master"^^xsd:anyURI ;
-    mim:naam "WO / Master"@nl ;
-    dcterms:identifier "EAID_5e857c2d_f15b_43dd_b625_ebc8286458c9" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
-    skos:notation "6" ;
-    skos:prefLabel "WO / Master"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsmarktkwalificaties/klanttypering> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "KlantTypering"@nl ;
@@ -3217,11 +3139,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "CodeNiveauOpleiding"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> ;
     dcterms:identifier "EAID_CC173EEB_83CB_4cdf_95C7_E9AE7AE7984E" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleiding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleiding/codestatusopleiding> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -6446,24 +6368,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "CodeNiveauOpleiding"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: <i>mbo-3</i>, <i>hbo</i>, <i>wo-bachelor</i>.</font>"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding"^^xsd:anyURI ;
-    mim:naam "CodeNiveauOpleiding"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/basisonderwijs>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/havo-vwo>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/hbo-bachelor>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/mbo>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/vmbo-mbo-1>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/wo-master> ;
-    dcterms:identifier "EAID_EF820B1A_DCDA_4a11_9953_2BF164FFFF8B" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: <i>mbo-3</i>, <i>hbo</i>, <i>wo-bachelor</i>.</font>"@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
-    rdfs:subClassOf skos:Concept .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
@@ -6499,24 +6403,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "CodeNiveauOpleiding"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: <i>mbo-3</i>, <i>hbo</i>, <i>wo-bachelor</i>.</font>"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding"^^xsd:anyURI ;
-    mim:naam "CodeNiveauOpleiding"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/basisonderwijs>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/havo-vwo>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/hbo-bachelor>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/mbo>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/vmbo-mbo-1>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/wo-master> ;
-    dcterms:identifier "EAID_83dc4498_871f_4f64_a621_83fe0e1b587a" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: <i>mbo-3</i>, <i>hbo</i>, <i>wo-bachelor</i>.</font>"@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
-    rdfs:subClassOf skos:Concept .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
@@ -6550,6 +6436,24 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding/schriftelijk> ;
     dcterms:identifier "EAID_5B31FFA6_B0C4_4d12_8753_6E4028F1FD81" ;
     rdfs:comment "<font color=\"#0e0e0e\">Geeft aan hoeveel tijd een opleiding per week vraagt, zoals voltijd, deeltijd of duaal.</font>"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "CodeNiveauOpleiding"@nl ;
+    mim:definitie "<font color=\"#0e0e0e\">Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: <i>mbo-3</i>, <i>hbo</i>, <i>wo-bachelor</i>.</font>"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding"^^xsd:anyURI ;
+    mim:naam "CodeNiveauOpleiding"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/basisonderwijs>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/havo-vwo>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/hbo-bachelor>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/mbo>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/vmbo-mbo-1>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/wo-master> ;
+    dcterms:identifier "EAID_EF820B1A_DCDA_4a11_9953_2BF164FFFF8B" ;
+    rdfs:comment "<font color=\"#0e0e0e\">Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: <i>mbo-3</i>, <i>hbo</i>, <i>wo-bachelor</i>.</font>"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 

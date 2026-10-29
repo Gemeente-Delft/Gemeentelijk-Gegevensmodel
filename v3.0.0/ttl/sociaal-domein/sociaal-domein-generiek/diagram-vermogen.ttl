@@ -59,53 +59,82 @@
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/externe-bron> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/externe-bron> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> ;
     rdfs:label "Externe bron"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/externe-bron"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/externe-bron"^^xsd:anyURI ;
     mim:naam "Externe bron"@nl ;
-    dcterms:identifier "EAID_703fa7db_5a0c_4a34_b4f0_137adfc48f9f",
-        "EAID_c012c35d_eddc_4e7a_819c_986e8771577e" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> ;
+    dcterms:identifier "EAID_syn_67a8fb4f03fc63150f4452909d0cac5caead65cb" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> ;
     skos:prefLabel "Externe bron"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/klant> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/klant> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> ;
     rdfs:label "Klant"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/klant"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/klant"^^xsd:anyURI ;
     mim:naam "Klant"@nl ;
-    dcterms:identifier "EAID_74f91a9e_d3b2_4494_a8bb_7bb951ed9246",
-        "EAID_9d9df59f_ba33_4424_b569_c435c0daf120" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> ;
+    dcterms:identifier "EAID_syn_95917d1fad633a6eecea1c4a7cad9383e3a6ce9e" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> ;
     skos:prefLabel "Klant"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/professional> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/professional> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> ;
     rdfs:label "Professional"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/professional"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/professional"^^xsd:anyURI ;
     mim:naam "Professional"@nl ;
-    dcterms:identifier "EAID_72b62c10_035c_4d11_b32f_0349f5c680dd",
-        "EAID_913e5ead_283c_46d3_8c1b_f9d1f4e9f7cf" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> ;
+    dcterms:identifier "EAID_syn_bdcdf61d0886ab895ab14e6b099ff7ab715ec108" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> ;
     skos:prefLabel "Professional"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/register> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/register> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> ;
     rdfs:label "Register"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/register"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/register"^^xsd:anyURI ;
     mim:naam "Register"@nl ;
-    dcterms:identifier "EAID_9cc83f97_8949_46a0_8d00_fda24f22473b",
-        "EAID_e5148c9c_a545_459b_9ade_185a69e03321" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> ;
+    dcterms:identifier "EAID_syn_0b89006fd8d9def35dc54aeb2c6644e0ee62d59b" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> ;
     skos:prefLabel "Register"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype/betaalrekening> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> ;
+    rdfs:label "Betaalrekening"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype/betaalrekening"^^xsd:anyURI ;
+    mim:naam "Betaalrekening"@nl ;
+    dcterms:identifier "EAID_syn_59c86281887917537ae2c77961852de689586418" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> ;
+    skos:prefLabel "Betaalrekening"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype/deposito> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> ;
+    rdfs:label "Deposito"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype/deposito"^^xsd:anyURI ;
+    mim:naam "Deposito"@nl ;
+    dcterms:identifier "EAID_syn_caebecbbebbcad363ca303d0b48a360c90e100ce" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> ;
+    skos:prefLabel "Deposito"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype/spaarrekening> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> ;
+    rdfs:label "Spaarrekening"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype/spaarrekening"^^xsd:anyURI ;
+    mim:naam "Spaarrekening"@nl ;
+    dcterms:identifier "EAID_syn_369c813725bfc8abf0fd4ba8eb6d271b199d63e4" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> ;
+    skos:prefLabel "Spaarrekening"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/bankrekening/bankrekeningnummer> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -139,11 +168,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Brontype"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> ;
     dcterms:identifier "EAID_E1056DAE_8BF8_4006_B27F_31CA5D486A4B" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/bankrekening> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/bankrekening/datum-aanvang-bankrekening> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -203,7 +232,7 @@
     rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/bankrekening/rekeningtype> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
+        owl:ObjectProperty ;
     rdfs:label "Rekeningtype"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -215,11 +244,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Rekeningtype"@nl ;
-    mim:type mim:CharacterString ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> ;
     dcterms:identifier "EAID_8AECECDF_B41A_4774_A945_363880B07275" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/bankrekening> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/> ;
-    rdfs:range xsd:string .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/bankrekening/tenaamstelling> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -259,368 +288,368 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/> ;
     rdfs:range xsd:boolean .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/aandeel-onverdeelde-boedel> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/aandeel-onverdeelde-boedel> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Aandeel onverdeelde boedel"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/aandeel-onverdeelde-boedel"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/aandeel-onverdeelde-boedel"^^xsd:anyURI ;
     mim:naam "Aandeel onverdeelde boedel"@nl ;
-    dcterms:identifier "EAID_b74e6e96_d09a_442d_a72d_982513cbce7c" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_0B8D21A9_E67D_43c7_A3E2_7293EA15B5BF" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Aandeel onverdeelde boedel"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/aanspraak-op-erfenis-binnen-zes-maanden> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/aanspraak-op-erfenis-binnen-zes-maanden> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Aanspraak op erfenis binnen zes maanden"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/aanspraak-op-erfenis-binnen-zes-maanden"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/aanspraak-op-erfenis-binnen-zes-maanden"^^xsd:anyURI ;
     mim:naam "Aanspraak op erfenis binnen zes maanden"@nl ;
-    dcterms:identifier "EAID_35831580_5e2c_48cd_98bc_0d92fbd7ae55" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_4D9B55C3_7AB5_494c_A6DF_6739865EEF2F" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Aanspraak op erfenis binnen zes maanden"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/antiek-sieraden> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/antiek-sieraden> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Antiek/sieraden"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/antiek-sieraden"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/antiek-sieraden"^^xsd:anyURI ;
     mim:naam "Antiek/sieraden"@nl ;
-    dcterms:identifier "EAID_07fd0fef_db12_4499_a3b8_ddfd0b9b37cb" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_3494288F_AC62_41bd_B502_7090E5CDEE9A" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Antiek/sieraden"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/bank-girorekening> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/bank-girorekening> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Bank-/Girorekening"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/bank-girorekening"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/bank-girorekening"^^xsd:anyURI ;
     mim:naam "Bank-/Girorekening"@nl ;
-    dcterms:identifier "EAID_fa28ca77_95a2_46ca_bf01_20f7037709e3" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_4C716A8E_FBCB_4cb6_8782_6ABDC0D8AC2F" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Bank-/Girorekening"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/beleggingsproduct-aandeel-lease-effect-obligatie-e-d> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/beleggingsproduct-aandeel-lease-effect-obligatie-e-d> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Beleggingsproduct (Aandeel, Lease, Effect, Obligatie, e.d.)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/beleggingsproduct-aandeel-lease-effect-obligatie-e-d"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/beleggingsproduct-aandeel-lease-effect-obligatie-e-d"^^xsd:anyURI ;
     mim:naam "Beleggingsproduct (Aandeel, Lease, Effect, Obligatie, e.d.)"@nl ;
-    dcterms:identifier "EAID_fb5607b7_e03b_4fa0_bd32_201b3d1fc8ac" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_B48BEB46_B44F_43e1_B690_3F466EC14955" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Beleggingsproduct (Aandeel, Lease, Effect, Obligatie, e.d.)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/caravans> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/caravans> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Caravans"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/caravans"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/caravans"^^xsd:anyURI ;
     mim:naam "Caravans"@nl ;
-    dcterms:identifier "EAID_cf41002c_5a56_4f08_8172_1caf57675089" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_9D01CA3F_12B7_4a93_B98C_6FD450C44A15" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Caravans"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/contanten> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/contanten> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Contanten"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/contanten"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/contanten"^^xsd:anyURI ;
     mim:naam "Contanten"@nl ;
-    dcterms:identifier "EAID_461038c0_b0cd_4c83_8221_15bb7ee5e123" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_D48CDE64_EDA5_4b3a_80FC_DB86A0F85435" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Contanten"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/digitale-valuta-cryptomunten> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/digitale-valuta-cryptomunten> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Digitale valuta (cryptomunten)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/digitale-valuta-cryptomunten"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/digitale-valuta-cryptomunten"^^xsd:anyURI ;
     mim:naam "Digitale valuta (cryptomunten)"@nl ;
-    dcterms:identifier "EAID_1007b3cf_f169_45e2_9272_82c7ff19e0bd" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_68F4B5BB_390B_4200_B657_96A207CCA626" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Digitale valuta (cryptomunten)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/eigen-woning-huis-woonschip-woonwagen-in-eigendom> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/eigen-woning-huis-woonschip-woonwagen-in-eigendom> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Eigen woning (huis/woonschip/woonwagen in eigendom)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/eigen-woning-huis-woonschip-woonwagen-in-eigendom"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/eigen-woning-huis-woonschip-woonwagen-in-eigendom"^^xsd:anyURI ;
     mim:naam "Eigen woning (huis/woonschip/woonwagen in eigendom)"@nl ;
-    dcterms:identifier "EAID_cb42a55d_342d_4461_9c64_1ecb350311ed" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_443D60A5_9CE0_447f_BC61_AEB0FE8434C6" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Eigen woning (huis/woonschip/woonwagen in eigendom)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/hypotheek-eigen-woning> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/hypotheek-eigen-woning> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Hypotheek eigen woning"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/hypotheek-eigen-woning"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/hypotheek-eigen-woning"^^xsd:anyURI ;
     mim:naam "Hypotheek eigen woning"@nl ;
-    dcterms:identifier "EAID_0deb4329_5078_41d0_b410_0ab3d6144071" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_024DEDEB_2BD1_465e_8387_C8C149053D1B" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Hypotheek eigen woning"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/leningen-aan-derden> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/leningen-aan-derden> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Leningen aan derden"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/leningen-aan-derden"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/leningen-aan-derden"^^xsd:anyURI ;
     mim:naam "Leningen aan derden"@nl ;
-    dcterms:identifier "EAID_2b536670_1527_43c8_8fb3_caa4939b0993" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_3ED9B3E2_780D_4741_954F_406BFECD1F93" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Leningen aan derden"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/levensverzekering> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/levensverzekering> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Levensverzekering"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/levensverzekering"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/levensverzekering"^^xsd:anyURI ;
     mim:naam "Levensverzekering"@nl ;
-    dcterms:identifier "EAID_0df281f4_7c7b_409b_beb0_dd07831fb177" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_90A1F6B9_E225_4c49_9021_A3BD3D6FFB82" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Levensverzekering"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/levensverzekering-belegging-gekoppeld-aan-hypotheek> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/levensverzekering-belegging-gekoppeld-aan-hypotheek> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Levensverzekering/belegging gekoppeld aan hypotheek"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/levensverzekering-belegging-gekoppeld-aan-hypotheek"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/levensverzekering-belegging-gekoppeld-aan-hypotheek"^^xsd:anyURI ;
     mim:naam "Levensverzekering/belegging gekoppeld aan hypotheek"@nl ;
-    dcterms:identifier "EAID_c2e2a87b_a5b0_454a_9a60_8d8ecd67c6bc" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_75184391_AFB6_49c1_9D7D_30FB481D9218" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Levensverzekering/belegging gekoppeld aan hypotheek"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/levensverzekering-belegging-niet-gekoppeld-aan-hypotheek> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/levensverzekering-belegging-niet-gekoppeld-aan-hypotheek> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Levensverzekering/belegging niet gekoppeld aan hypotheek"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/levensverzekering-belegging-niet-gekoppeld-aan-hypotheek"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/levensverzekering-belegging-niet-gekoppeld-aan-hypotheek"^^xsd:anyURI ;
     mim:naam "Levensverzekering/belegging niet gekoppeld aan hypotheek"@nl ;
-    dcterms:identifier "EAID_6cbe97f0_b2f8_43ad_b381_31cc4e38b025" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_5A699425_6B63_4f15_946B_E873ABDD080B" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Levensverzekering/belegging niet gekoppeld aan hypotheek"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/motorvoertuigen> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/motorvoertuigen> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Motorvoertuigen"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/motorvoertuigen"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/motorvoertuigen"^^xsd:anyURI ;
     mim:naam "Motorvoertuigen"@nl ;
-    dcterms:identifier "EAID_9dce0f94_9b19_402c_afbd_f90c94bed81f" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_72BC37C3_CB67_412c_B96F_6D53CC470377" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Motorvoertuigen"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/overig-onroerend-goed> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/overig-onroerend-goed> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Overig onroerend goed"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/overig-onroerend-goed"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/overig-onroerend-goed"^^xsd:anyURI ;
     mim:naam "Overig onroerend goed"@nl ;
-    dcterms:identifier "EAID_19aa7686_210d_414d_8238_b697d77d0f16" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_F6BE21CA_0780_4364_8AD8_535C6171A16A" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Overig onroerend goed"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/overige-bezittingen> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/overige-bezittingen> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Overige bezittingen"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/overige-bezittingen"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/overige-bezittingen"^^xsd:anyURI ;
     mim:naam "Overige bezittingen"@nl ;
-    dcterms:identifier "EAID_26f31d11_4fd7_484e_a39e_e5b98ad06d34" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_BE3D6CF1_EF0F_4ba1_BF30_BFE04E5408A2" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Overige bezittingen"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/schulden> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/schulden> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Schulden"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/schulden"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/schulden"^^xsd:anyURI ;
     mim:naam "Schulden"@nl ;
-    dcterms:identifier "EAID_1b6c9465_a54a_424c_99b0_205d94c5a4d9" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_A3541CC7_F092_433b_BD87_671094F81F65" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Schulden"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/schulden-uitgezonderd-studieschuld> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/schulden-uitgezonderd-studieschuld> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Schulden uitgezonderd studieschuld"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/schulden-uitgezonderd-studieschuld"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/schulden-uitgezonderd-studieschuld"^^xsd:anyURI ;
     mim:naam "Schulden uitgezonderd studieschuld"@nl ;
-    dcterms:identifier "EAID_bb2bd201_7000_476b_aedc_8b8f49ab7627" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_447E7F83_3960_44b8_914B_F0CA25B90BE7" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Schulden uitgezonderd studieschuld"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/studieschuld> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/studieschuld> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Studieschuld"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/studieschuld"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/studieschuld"^^xsd:anyURI ;
     mim:naam "Studieschuld"@nl ;
-    dcterms:identifier "EAID_2b6c58fc_fd95_4fa2_9a6a_639902ff4e39" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_F49E701F_7612_400b_A146_0AA681D8BD93" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Studieschuld"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/waardepapieren> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/waardepapieren> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Waardepapieren"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/waardepapieren"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/waardepapieren"^^xsd:anyURI ;
     mim:naam "Waardepapieren"@nl ;
-    dcterms:identifier "EAID_625be4c3_e2d9_475d_a772_fcf824d5ba3b" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_40E1AA84_F414_4151_9953_71531C4AD4C7" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Waardepapieren"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig/aanhangwagen> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig/aanhangwagen> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> ;
     rdfs:label "Aanhangwagen"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig/aanhangwagen"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig/aanhangwagen"^^xsd:anyURI ;
     mim:naam "Aanhangwagen"@nl ;
-    dcterms:identifier "EAID_5eb714ea_df6b_42f9_91e9_c1db6850c9a4" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> ;
+    dcterms:identifier "EAID_F65D4992_ED5D_4e15_8B48_7A914D301B85" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> ;
     skos:prefLabel "Aanhangwagen"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig/bedrijfsauto> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig/bedrijfsauto> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> ;
     rdfs:label "Bedrijfsauto"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig/bedrijfsauto"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig/bedrijfsauto"^^xsd:anyURI ;
     mim:naam "Bedrijfsauto"@nl ;
-    dcterms:identifier "EAID_e7e5e209_2a8d_4050_be41_57097a64c0dd" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> ;
+    dcterms:identifier "EAID_4148C8CF_20C5_487e_BE6E_61AA09193BDA" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> ;
     skos:prefLabel "Bedrijfsauto"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig/bromfiets> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig/bromfiets> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> ;
     rdfs:label "Bromfiets"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig/bromfiets"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig/bromfiets"^^xsd:anyURI ;
     mim:naam "Bromfiets"@nl ;
-    dcterms:identifier "EAID_1eaa9412_62e1_4797_a2ba_9f391baac45e" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> ;
+    dcterms:identifier "EAID_AE385A16_A8A6_4871_8F26_97A7B8E9BA18" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> ;
     skos:prefLabel "Bromfiets"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig/driewielig-motorrijtuig> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig/driewielig-motorrijtuig> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> ;
     rdfs:label "Driewielig motorrijtuig"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig/driewielig-motorrijtuig"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig/driewielig-motorrijtuig"^^xsd:anyURI ;
     mim:naam "Driewielig motorrijtuig"@nl ;
-    dcterms:identifier "EAID_28aacb96_eb86_4fdc_a2ba_ad74d4cde35c" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> ;
+    dcterms:identifier "EAID_7B266CD9_47EB_4d87_B8D9_2531EF3B7570" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> ;
     skos:prefLabel "Driewielig motorrijtuig"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig/motorfiets> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig/motorfiets> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> ;
     rdfs:label "Motorfiets"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig/motorfiets"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig/motorfiets"^^xsd:anyURI ;
     mim:naam "Motorfiets"@nl ;
-    dcterms:identifier "EAID_49adc339_15d7_44ce_990d_8e38a7dacfcc" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> ;
+    dcterms:identifier "EAID_9E5023D6_ABCA_4cc3_97B6_D5EDE24602F0" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> ;
     skos:prefLabel "Motorfiets"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig/personenauto> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig/personenauto> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> ;
     rdfs:label "Personenauto"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig/personenauto"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig/personenauto"^^xsd:anyURI ;
     mim:naam "Personenauto"@nl ;
-    dcterms:identifier "EAID_485137ff_4067_4b5c_813f_9b9b4bb2cb6e" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> ;
+    dcterms:identifier "EAID_83F2418C_9818_4669_A55F_5F7B7D6360D6" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> ;
     skos:prefLabel "Personenauto"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent/banksaldo> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent/banksaldo> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> ;
     rdfs:label "Banksaldo"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent/banksaldo"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent/banksaldo"^^xsd:anyURI ;
     mim:naam "Banksaldo"@nl ;
-    dcterms:identifier "EAID_9d223004_77b3_4f0b_a846_59a5ec7fbff6" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> ;
+    dcterms:identifier "EAID_2CF12C53_BAA7_4b0b_A4E8_312202320A8B" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> ;
     skos:prefLabel "Banksaldo"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent/beleggingsproductsaldo> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent/beleggingsproductsaldo> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> ;
     rdfs:label "Beleggingsproductsaldo"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent/beleggingsproductsaldo"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent/beleggingsproductsaldo"^^xsd:anyURI ;
     mim:naam "Beleggingsproductsaldo"@nl ;
-    dcterms:identifier "EAID_7647e3e0_406c_4b83_ba7f_5862ffd4e224" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> ;
+    dcterms:identifier "EAID_EAF2C816_EB04_4d05_8975_4753EA5850C8" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> ;
     skos:prefLabel "Beleggingsproductsaldo"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent/cataloguswaarde> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent/cataloguswaarde> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> ;
     rdfs:label "Cataloguswaarde"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent/cataloguswaarde"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent/cataloguswaarde"^^xsd:anyURI ;
     mim:naam "Cataloguswaarde"@nl ;
-    dcterms:identifier "EAID_b0db5eeb_e3d8_423a_a05c_b46e0fe134d8" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> ;
+    dcterms:identifier "EAID_7F5FAB5B_16DB_4f6e_B58A_2E9A07D3F9D4" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> ;
     skos:prefLabel "Cataloguswaarde"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent/hypotheekschuld> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent/hypotheekschuld> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> ;
     rdfs:label "Hypotheekschuld"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent/hypotheekschuld"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent/hypotheekschuld"^^xsd:anyURI ;
     mim:naam "Hypotheekschuld"@nl ;
-    dcterms:identifier "EAID_afae78d8_a5ec_44ac_bb3d_7b683b71c979" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> ;
+    dcterms:identifier "EAID_8CADC2EA_8FD3_4efd_8D12_FD3097563F67" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> ;
     skos:prefLabel "Hypotheekschuld"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent/marktwaarde> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent/marktwaarde> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> ;
     rdfs:label "Marktwaarde"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent/marktwaarde"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent/marktwaarde"^^xsd:anyURI ;
     mim:naam "Marktwaarde"@nl ;
-    dcterms:identifier "EAID_de44e0a2_e6fe_421b_88a0_69dc349ac9cc" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> ;
+    dcterms:identifier "EAID_9539168B_D4C9_48f9_ADF3_F70FB3B5244E" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> ;
     skos:prefLabel "Marktwaarde"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent/wozwaarde> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent/wozwaarde> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> ;
     rdfs:label "WOZwaarde"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent/wozwaarde"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent/wozwaarde"^^xsd:anyURI ;
     mim:naam "WOZwaarde"@nl ;
-    dcterms:identifier "EAID_c406960f_0dac_4824_b50d_a682d0eee6bc" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> ;
+    dcterms:identifier "EAID_CB925F9B_20A4_4b14_8784_48350564BA36" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> ;
     skos:prefLabel "WOZwaarde"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/hypotheek/overwaarde> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -673,11 +702,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Soort motorvoertuig"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> ;
     dcterms:identifier "EAID_B795AF1D_4757_4278_A4D2_D49942D2B0E5" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/motorvoertuig> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/onroerend-goed/overwaarde> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -711,11 +740,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Code soort vermogenscomponent"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     dcterms:identifier "EAID_E04DFEEA_A7A1_4fd9_A5AA_28A00017B396" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/vermogenscomponent> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/vermogenscomponent/datum-vaststelling-vermogencomponent> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -829,11 +858,11 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Brontype"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> ;
     dcterms:identifier "EAID_EF88F82A_E17E_4ad5_8520_52829F9AAD71" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/waardepeiling> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/waardepeiling/datum-aanspraak-vermogenscomponent> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -943,11 +972,11 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "WaardeSoort vermogenscomponent"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> ;
     dcterms:identifier "EAID_2915E3F9_F138_4e7f_9729_6C3E62205030" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/waardepeiling> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/motorvoertuig> a mim:Objecttype,
         owl:Class ;
@@ -1030,6 +1059,19 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
     rdfs:comment "*Waardepeiling* is een **bepaling of schatting van de waarde van een object, goed of situatie**, verkregen door middel van peiling of inschatting van wat het waard zou zijn."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Rekeningtype"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype"^^xsd:anyURI ;
+    mim:naam "Rekeningtype"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype/betaalrekening>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype/deposito>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype/spaarrekening> ;
+    dcterms:identifier "EAID_26EDEDFD_5254_4A15_1FCD_27988F6C57B3" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/> ;
+    rdfs:subClassOf skos:Concept .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/vermogenscomponent> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Vermogenscomponent"@nl ;
@@ -1048,81 +1090,80 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
     rdfs:comment "Een *vermogenscomponent* is een **onderdeel van het totale vermogen** van een persoon of huishouden, dat afzonderlijk wordt weergegeven (zoals spaargeld, beleggingen, eigen woning netto of pensioenvermogen)."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Brontype"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype"^^xsd:anyURI ;
     mim:naam "Brontype"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/externe-bron>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/klant>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/professional>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/register> ;
-    dcterms:identifier "EAID_1597884a_a400_4cb5_a00a_00c5c47a5be8",
-        "EAID_673ab62b_fb64_48ed_96c4_4d195d6b2ba8" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/> ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/externe-bron>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/klant>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/professional>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/register> ;
+    dcterms:identifier "EAID_0DA8897C_3C14_4045_E2EE_26EBD163DD40" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/> ;
     rdfs:subClassOf skos:Concept .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "CdSrtVoertuig"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig"^^xsd:anyURI ;
     mim:naam "CdSrtVoertuig"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig/aanhangwagen>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig/bedrijfsauto>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig/bromfiets>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig/driewielig-motorrijtuig>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig/motorfiets>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvoertuig/personenauto> ;
-    dcterms:identifier "EAID_a112b84f_1845_4983_9ad4_09f44847018f" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/> ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig/aanhangwagen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig/bedrijfsauto>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig/bromfiets>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig/driewielig-motorrijtuig>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig/motorfiets>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvoertuig/personenauto> ;
+    dcterms:identifier "EAID_04EB2E57_05B5_0E41_7859_273ED24D9EDF" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/> ;
     rdfs:subClassOf skos:Concept .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "CdSrtWaardeVermogenscomponent"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent"^^xsd:anyURI ;
     mim:naam "CdSrtWaardeVermogenscomponent"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent/banksaldo>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent/beleggingsproductsaldo>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent/cataloguswaarde>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent/hypotheekschuld>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent/marktwaarde>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtwaardevermogenscomponent/wozwaarde> ;
-    dcterms:identifier "EAID_d7ef464f_f615_49eb_91b7_be62c33736cd" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/> ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent/banksaldo>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent/beleggingsproductsaldo>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent/cataloguswaarde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent/hypotheekschuld>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent/marktwaarde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtwaardevermogenscomponent/wozwaarde> ;
+    dcterms:identifier "EAID_1721EBD6_A6E2_CEC4_6AB8_27DB661BCC09" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/> ;
     rdfs:subClassOf skos:Concept .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "CdSrtVermogenscomponent"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent"^^xsd:anyURI ;
     mim:naam "CdSrtVermogenscomponent"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/aandeel-onverdeelde-boedel>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/aanspraak-op-erfenis-binnen-zes-maanden>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/antiek-sieraden>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/bank-girorekening>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/beleggingsproduct-aandeel-lease-effect-obligatie-e-d>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/caravans>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/contanten>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/digitale-valuta-cryptomunten>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/eigen-woning-huis-woonschip-woonwagen-in-eigendom>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/hypotheek-eigen-woning>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/leningen-aan-derden>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/levensverzekering>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/levensverzekering-belegging-gekoppeld-aan-hypotheek>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/levensverzekering-belegging-niet-gekoppeld-aan-hypotheek>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/motorvoertuigen>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/overig-onroerend-goed>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/overige-bezittingen>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/schulden>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/schulden-uitgezonderd-studieschuld>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/studieschuld>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/waardepapieren> ;
-    dcterms:identifier "EAID_12f80591_0066_44b0_9c71_c7e2e1310810" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/> ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/aandeel-onverdeelde-boedel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/aanspraak-op-erfenis-binnen-zes-maanden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/antiek-sieraden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/bank-girorekening>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/beleggingsproduct-aandeel-lease-effect-obligatie-e-d>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/caravans>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/contanten>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/digitale-valuta-cryptomunten>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/eigen-woning-huis-woonschip-woonwagen-in-eigendom>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/hypotheek-eigen-woning>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/leningen-aan-derden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/levensverzekering>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/levensverzekering-belegging-gekoppeld-aan-hypotheek>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/levensverzekering-belegging-niet-gekoppeld-aan-hypotheek>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/motorvoertuigen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/overig-onroerend-goed>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/overige-bezittingen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/schulden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/schulden-uitgezonderd-studieschuld>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/studieschuld>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/waardepapieren> ;
+    dcterms:identifier "EAID_051FB82B_E809_143E_3F7B_273ED24D1E2E" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/> ;
     rdfs:subClassOf skos:Concept .
 

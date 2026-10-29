@@ -4,6 +4,7 @@
 @prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/klantcontact/heeft-betrekking-op> a mim:Relatiesoort,
@@ -147,6 +148,61 @@
     dcterms:identifier "EAID_4F55A673_8DCE_448b_BFAB_1BE924283AB1" ;
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact/balie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact> ;
+    rdfs:label "balie"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact/balie"^^xsd:anyURI ;
+    mim:naam "balie"@nl ;
+    dcterms:identifier "EAID_064280BB_6C21_44eb_97C9_B9D890EBE5C4" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact> ;
+    skos:prefLabel "balie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact/brief> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact> ;
+    rdfs:label "brief"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact/brief"^^xsd:anyURI ;
+    mim:naam "brief"@nl ;
+    dcterms:identifier "EAID_FA2B50CB_6498_4b1a_BCE2_E42610C150E3" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact> ;
+    skos:prefLabel "brief"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact/internet> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact> ;
+    rdfs:label "internet"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact/internet"^^xsd:anyURI ;
+    mim:naam "internet"@nl ;
+    dcterms:identifier "EAID_7E43760C_CB26_4cdc_B216_9F1C0330FDB6" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact> ;
+    skos:prefLabel "internet"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact/selfserviceloket> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact> ;
+    rdfs:label "selfserviceloket"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact/selfserviceloket"^^xsd:anyURI ;
+    mim:naam "selfserviceloket"@nl ;
+    dcterms:identifier "EAID_732A3C17_312F_4c2a_BA59_A89E11912217" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact> ;
+    skos:prefLabel "selfserviceloket"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact/telefonisch> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact> ;
+    rdfs:label "telefonisch"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact/telefonisch"^^xsd:anyURI ;
+    mim:naam "telefonisch"@nl ;
+    dcterms:identifier "EAID_C9CE1C14_C173_405a_93B4_F8F8B8D4DCA1" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact> ;
+    skos:prefLabel "telefonisch"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/klantcontact/eindtijd> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1071,6 +1127,21 @@ Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, 
 
 Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, dat zijn alle telefoontjes die werkelijk met een medewerker (of een gedelegeerde) hebben plaatsgevonden (soms zelfs meerdere binnen 1 telefoontje)."""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Soorten Klantcontact"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact"^^xsd:anyURI ;
+    mim:naam "Soorten Klantcontact"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact/balie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact/brief>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact/internet>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact/selfserviceloket>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/soorten-klantcontact/telefonisch> ;
+    dcterms:identifier "EAID_D2F0A41E_E49A_4d27_B0A2_DEF81C612A5B" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/enumeratiesoort/> ;
+    rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> a mim:Objecttype,
         owl:Class ;

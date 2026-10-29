@@ -124,53 +124,82 @@
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/externe-bron> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/externe-bron> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> ;
     rdfs:label "Externe bron"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/externe-bron"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/externe-bron"^^xsd:anyURI ;
     mim:naam "Externe bron"@nl ;
-    dcterms:identifier "EAID_703fa7db_5a0c_4a34_b4f0_137adfc48f9f",
-        "EAID_c012c35d_eddc_4e7a_819c_986e8771577e" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> ;
+    dcterms:identifier "EAID_syn_67a8fb4f03fc63150f4452909d0cac5caead65cb" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> ;
     skos:prefLabel "Externe bron"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/klant> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/klant> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> ;
     rdfs:label "Klant"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/klant"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/klant"^^xsd:anyURI ;
     mim:naam "Klant"@nl ;
-    dcterms:identifier "EAID_74f91a9e_d3b2_4494_a8bb_7bb951ed9246",
-        "EAID_9d9df59f_ba33_4424_b569_c435c0daf120" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> ;
+    dcterms:identifier "EAID_syn_95917d1fad633a6eecea1c4a7cad9383e3a6ce9e" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> ;
     skos:prefLabel "Klant"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/professional> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/professional> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> ;
     rdfs:label "Professional"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/professional"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/professional"^^xsd:anyURI ;
     mim:naam "Professional"@nl ;
-    dcterms:identifier "EAID_72b62c10_035c_4d11_b32f_0349f5c680dd",
-        "EAID_913e5ead_283c_46d3_8c1b_f9d1f4e9f7cf" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> ;
+    dcterms:identifier "EAID_syn_bdcdf61d0886ab895ab14e6b099ff7ab715ec108" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> ;
     skos:prefLabel "Professional"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/register> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/register> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> ;
     rdfs:label "Register"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/register"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/register"^^xsd:anyURI ;
     mim:naam "Register"@nl ;
-    dcterms:identifier "EAID_9cc83f97_8949_46a0_8d00_fda24f22473b",
-        "EAID_e5148c9c_a545_459b_9ade_185a69e03321" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> ;
+    dcterms:identifier "EAID_syn_0b89006fd8d9def35dc54aeb2c6644e0ee62d59b" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> ;
     skos:prefLabel "Register"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype/betaalrekening> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> ;
+    rdfs:label "Betaalrekening"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype/betaalrekening"^^xsd:anyURI ;
+    mim:naam "Betaalrekening"@nl ;
+    dcterms:identifier "EAID_syn_59c86281887917537ae2c77961852de689586418" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> ;
+    skos:prefLabel "Betaalrekening"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype/deposito> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> ;
+    rdfs:label "Deposito"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype/deposito"^^xsd:anyURI ;
+    mim:naam "Deposito"@nl ;
+    dcterms:identifier "EAID_syn_caebecbbebbcad363ca303d0b48a360c90e100ce" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> ;
+    skos:prefLabel "Deposito"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype/spaarrekening> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> ;
+    rdfs:label "Spaarrekening"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype/spaarrekening"^^xsd:anyURI ;
+    mim:naam "Spaarrekening"@nl ;
+    dcterms:identifier "EAID_syn_369c813725bfc8abf0fd4ba8eb6d271b199d63e4" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> ;
+    skos:prefLabel "Spaarrekening"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/code> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -248,533 +277,533 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
     rdfs:range xsd:string .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/11-loon-of-salaris-ambtenaren-in-de-zin-van-de-ambtenarenwet> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/11-loon-of-salaris-ambtenaren-in-de-zin-van-de-ambtenarenwet> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "11 Loon of salaris ambtenaren in de zin van de Ambtenarenwet"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/11-loon-of-salaris-ambtenaren-in-de-zin-van-de-ambtenarenwet"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/11-loon-of-salaris-ambtenaren-in-de-zin-van-de-ambtenarenwet"^^xsd:anyURI ;
     mim:naam "11 Loon of salaris ambtenaren in de zin van de Ambtenarenwet"@nl ;
-    dcterms:identifier "EAID_f2d5ff6d_71ee_4ba8_8f46_89c62248deb5" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_61601DFC_0B57_45a6_97DE_B4FBAD50F539" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "11 Loon of salaris ambtenaren in de zin van de Ambtenarenwet"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/11-loon-of-salaris-ambtenaren-in-de-zin-van-de-ambtenarenwet-1929> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/11-loon-of-salaris-ambtenaren-in-de-zin-van-de-ambtenarenwet-1929> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "11 Loon of salaris ambtenaren in de zin van de Ambtenarenwet 1929"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/11-loon-of-salaris-ambtenaren-in-de-zin-van-de-ambtenarenwet-1929"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/11-loon-of-salaris-ambtenaren-in-de-zin-van-de-ambtenarenwet-1929"^^xsd:anyURI ;
     mim:naam "11 Loon of salaris ambtenaren in de zin van de Ambtenarenwet 1929"@nl ;
-    dcterms:identifier "EAID_9e81e535_c441_4512_a656_a3bc4b1f0ac5" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_1DF73A20_F4B7_4801_B5D6_8EF87A7127F7" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "11 Loon of salaris ambtenaren in de zin van de Ambtenarenwet 1929"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/12-loon-of-salaris-werknemers-van-gepremieerde-gesubsidieerde-of-gebudgetteerde-instellingen-inclusief-uitvoeringsorganen-sociale-zekerheden> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/12-loon-of-salaris-werknemers-van-gepremieerde-gesubsidieerde-of-gebudgetteerde-instellingen-inclusief-uitvoeringsorganen-sociale-zekerheden> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "12 Loon of salaris werknemers van gepremieerde, gesubsidieerde of gebudgetteerde instellingen, inclusief uitvoeringsorganen sociale zekerheden"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/12-loon-of-salaris-werknemers-van-gepremieerde-gesubsidieerde-of-gebudgetteerde-instellingen-inclusief-uitvoeringsorganen-sociale-zekerheden"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/12-loon-of-salaris-werknemers-van-gepremieerde-gesubsidieerde-of-gebudgetteerde-instellingen-inclusief-uitvoeringsorganen-sociale-zekerheden"^^xsd:anyURI ;
     mim:naam "12 Loon of salaris werknemers van gepremieerde, gesubsidieerde of gebudgetteerde instellingen, inclusief uitvoeringsorganen sociale zekerheden"@nl ;
-    dcterms:identifier "EAID_594e5dec_6eff_405c_bcc8_754d35221e92" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_92CB2E9B_09D8_4156_8F37_8FCEBCB18156" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "12 Loon of salaris werknemers van gepremieerde, gesubsidieerde of gebudgetteerde instellingen, inclusief uitvoeringsorganen sociale zekerheden"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/13-loon-of-salaris-directeuren-van-een-nv-bv-wel-verzekerd-voor-de-werknemersverzekeringen> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/13-loon-of-salaris-directeuren-van-een-nv-bv-wel-verzekerd-voor-de-werknemersverzekeringen> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "13 Loon of salaris directeuren van een nv/bv, wel verzekerd voor de werknemersverzekeringen"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/13-loon-of-salaris-directeuren-van-een-nv-bv-wel-verzekerd-voor-de-werknemersverzekeringen"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/13-loon-of-salaris-directeuren-van-een-nv-bv-wel-verzekerd-voor-de-werknemersverzekeringen"^^xsd:anyURI ;
     mim:naam "13 Loon of salaris directeuren van een nv/bv, wel verzekerd voor de werknemersverzekeringen"@nl ;
-    dcterms:identifier "EAID_2014a23b_fff8_45ca_8878_03555af8ed31" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_1CEF2E71_3C67_48ca_9A7C_344083845553" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "13 Loon of salaris directeuren van een nv/bv, wel verzekerd voor de werknemersverzekeringen"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/14-loon-of-salaris-overige-werknemers-niet-verzekerd-voor-de-wet-werk-en-inkomen-naar-arbeidsvermogen-wia-of-wao> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/14-loon-of-salaris-overige-werknemers-niet-verzekerd-voor-de-wet-werk-en-inkomen-naar-arbeidsvermogen-wia-of-wao> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "14 Loon of salaris overige werknemers niet verzekerd voor de Wet Werk en inkomen naar Arbeidsvermogen (WIA) of WAO"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/14-loon-of-salaris-overige-werknemers-niet-verzekerd-voor-de-wet-werk-en-inkomen-naar-arbeidsvermogen-wia-of-wao"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/14-loon-of-salaris-overige-werknemers-niet-verzekerd-voor-de-wet-werk-en-inkomen-naar-arbeidsvermogen-wia-of-wao"^^xsd:anyURI ;
     mim:naam "14 Loon of salaris overige werknemers niet verzekerd voor de Wet Werk en inkomen naar Arbeidsvermogen (WIA) of WAO"@nl ;
-    dcterms:identifier "EAID_7bdbd73a_2911_4423_9a29_f54726e2d21f" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_22821A3A_DEF5_43e3_AC45_58E28AA0B0FA" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "14 Loon of salaris overige werknemers niet verzekerd voor de Wet Werk en inkomen naar Arbeidsvermogen (WIA) of WAO"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/15-loon-of-salaris-niet-onder-te-brengen-onder-11-13-of-17> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/15-loon-of-salaris-niet-onder-te-brengen-onder-11-13-of-17> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "15 Loon of salaris niet onder te brengen onder 11, 13 of 17"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/15-loon-of-salaris-niet-onder-te-brengen-onder-11-13-of-17"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/15-loon-of-salaris-niet-onder-te-brengen-onder-11-13-of-17"^^xsd:anyURI ;
     mim:naam "15 Loon of salaris niet onder te brengen onder 11, 13 of 17"@nl ;
-    dcterms:identifier "EAID_cb1b2696_4c28_40a2_9fb6_b8df93e33372" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_8C4901A8_AC82_465b_8A03_253AEC7B1D2B" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "15 Loon of salaris niet onder te brengen onder 11, 13 of 17"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/15-loon-of-salaris-niet-onder-te-brengen-onder-11-tot-en-met-14-of-17> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/15-loon-of-salaris-niet-onder-te-brengen-onder-11-tot-en-met-14-of-17> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "15 Loon of salaris niet onder te brengen onder 11 tot en met 14 of 17"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/15-loon-of-salaris-niet-onder-te-brengen-onder-11-tot-en-met-14-of-17"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/15-loon-of-salaris-niet-onder-te-brengen-onder-11-tot-en-met-14-of-17"^^xsd:anyURI ;
     mim:naam "15 Loon of salaris niet onder te brengen onder 11 tot en met 14 of 17"@nl ;
-    dcterms:identifier "EAID_6d5c0feb_f110_4412_abd8_509b54993fbe" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_E71200B9_1CDE_4e0f_95E9_688E16DD4412" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "15 Loon of salaris niet onder te brengen onder 11 tot en met 14 of 17"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/17-loon-of-salaris-directeuren-van-een-nv-bv-niet-verzekerd-voor-de-werknemersverzekeringen> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/17-loon-of-salaris-directeuren-van-een-nv-bv-niet-verzekerd-voor-de-werknemersverzekeringen> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "17 Loon of salaris directeuren van een nv/bv, niet verzekerd voor de werknemersverzekeringen"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/17-loon-of-salaris-directeuren-van-een-nv-bv-niet-verzekerd-voor-de-werknemersverzekeringen"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/17-loon-of-salaris-directeuren-van-een-nv-bv-niet-verzekerd-voor-de-werknemersverzekeringen"^^xsd:anyURI ;
     mim:naam "17 Loon of salaris directeuren van een nv/bv, niet verzekerd voor de werknemersverzekeringen"@nl ;
-    dcterms:identifier "EAID_e784cf4d_9104_4033_878a_feeb171b1cf1" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_ECDEA190_6E29_47f5_B3DD_E1DF09A7E763" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "17 Loon of salaris directeuren van een nv/bv, niet verzekerd voor de werknemersverzekeringen"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/18-wachtgeld-van-een-overheidsinstelling> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/18-wachtgeld-van-een-overheidsinstelling> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "18 Wachtgeld van een overheidsinstelling"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/18-wachtgeld-van-een-overheidsinstelling"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/18-wachtgeld-van-een-overheidsinstelling"^^xsd:anyURI ;
     mim:naam "18 Wachtgeld van een overheidsinstelling"@nl ;
-    dcterms:identifier "EAID_d1ccfba7_ba21_4136_8412_2e061dd250fe" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_54F9B1C7_EDC9_4b20_A4F0_4A18DC711191" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "18 Wachtgeld van een overheidsinstelling"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/21-overige-pensioenen-lijfrenten-enz-niet-23-oorlogs-en-verzetspensioenen> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/21-overige-pensioenen-lijfrenten-enz-niet-23-oorlogs-en-verzetspensioenen> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "21 Overige pensioenen, lijfrenten, enz. (niet 23 (Oorlogs- en verzetspensioenen))"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/21-overige-pensioenen-lijfrenten-enz-niet-23-oorlogs-en-verzetspensioenen"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/21-overige-pensioenen-lijfrenten-enz-niet-23-oorlogs-en-verzetspensioenen"^^xsd:anyURI ;
     mim:naam "21 Overige pensioenen, lijfrenten, enz. (niet 23 (Oorlogs- en verzetspensioenen))"@nl ;
-    dcterms:identifier "EAID_54bf6ffc_8bec_45c2_99b3_27de809be960" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_C3246650_6EE3_48c2_8CB9_314CEC373FDC" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "21 Overige pensioenen, lijfrenten, enz. (niet 23 (Oorlogs- en verzetspensioenen))"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/22-uitkering-in-het-kader-van-de-algemene-ouderdomswet-aow> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/22-uitkering-in-het-kader-van-de-algemene-ouderdomswet-aow> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "22 Uitkering in het kader van de Algemene Ouderdomswet (AOW)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/22-uitkering-in-het-kader-van-de-algemene-ouderdomswet-aow"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/22-uitkering-in-het-kader-van-de-algemene-ouderdomswet-aow"^^xsd:anyURI ;
     mim:naam "22 Uitkering in het kader van de Algemene Ouderdomswet (AOW)"@nl ;
-    dcterms:identifier "EAID_b2779f2d_b857_4bdb_8982_7043b79840a7" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_9C708A20_9F6D_4508_845E_BD9778A7A03B" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "22 Uitkering in het kader van de Algemene Ouderdomswet (AOW)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/23-oorlogs-en-verzetspensioenen> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/23-oorlogs-en-verzetspensioenen> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "23 Oorlogs- en verzetspensioenen"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/23-oorlogs-en-verzetspensioenen"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/23-oorlogs-en-verzetspensioenen"^^xsd:anyURI ;
     mim:naam "23 Oorlogs- en verzetspensioenen"@nl ;
-    dcterms:identifier "EAID_dfd8bb6a_ffd6_4ade_956b_e81c431376f3" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_33F1E8A0_ABE9_4281_B741_8EA2977A399E" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "23 Oorlogs- en verzetspensioenen"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/24-uitkering-in-het-kader-van-de-algemene-nabestaandenwet-anw> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/24-uitkering-in-het-kader-van-de-algemene-nabestaandenwet-anw> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "24 Uitkering in het kader van de Algemene nabestaandenwet (ANW)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/24-uitkering-in-het-kader-van-de-algemene-nabestaandenwet-anw"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/24-uitkering-in-het-kader-van-de-algemene-nabestaandenwet-anw"^^xsd:anyURI ;
     mim:naam "24 Uitkering in het kader van de Algemene nabestaandenwet (ANW)"@nl ;
-    dcterms:identifier "EAID_9536dd6a_54cc_42ff_8b88_102e66d8ab40" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_67AC5D4D_B462_4ae9_B830_6A7F9C8E30C0" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "24 Uitkering in het kader van de Algemene nabestaandenwet (ANW)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/31-uitkering-in-het-kader-van-de-ziektewet-zw-en-vrijwillige-verzekering-ziektewet> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/31-uitkering-in-het-kader-van-de-ziektewet-zw-en-vrijwillige-verzekering-ziektewet> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "31 Uitkering in het kader van de Ziektewet (ZW) en vrijwillige verzekering Ziektewet"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/31-uitkering-in-het-kader-van-de-ziektewet-zw-en-vrijwillige-verzekering-ziektewet"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/31-uitkering-in-het-kader-van-de-ziektewet-zw-en-vrijwillige-verzekering-ziektewet"^^xsd:anyURI ;
     mim:naam "31 Uitkering in het kader van de Ziektewet (ZW) en vrijwillige verzekering Ziektewet"@nl ;
-    dcterms:identifier "EAID_26f17e60_4fbc_415d_965b_83f31818c2b4" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_E0CB89BF_FE9A_479d_B5DA_61B2D6FE82B3" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "31 Uitkering in het kader van de Ziektewet (ZW) en vrijwillige verzekering Ziektewet"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/32-uitkering-in-het-kader-van-de-wet-op-de-arbeids-ongeschiktheidsverzekering-wao-en-particuliere-verzekering-ziekte-invaliditeit-en-ongeval> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/32-uitkering-in-het-kader-van-de-wet-op-de-arbeids-ongeschiktheidsverzekering-wao-en-particuliere-verzekering-ziekte-invaliditeit-en-ongeval> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "32 Uitkering in het kader van de Wet op de Arbeids-ongeschiktheidsverzekering (WAO) en particuliere verzekering ziekte, invaliditeit en ongeval"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/32-uitkering-in-het-kader-van-de-wet-op-de-arbeids-ongeschiktheidsverzekering-wao-en-particuliere-verzekering-ziekte-invaliditeit-en-ongeval"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/32-uitkering-in-het-kader-van-de-wet-op-de-arbeids-ongeschiktheidsverzekering-wao-en-particuliere-verzekering-ziekte-invaliditeit-en-ongeval"^^xsd:anyURI ;
     mim:naam "32 Uitkering in het kader van de Wet op de Arbeids-ongeschiktheidsverzekering (WAO) en particuliere verzekering ziekte, invaliditeit en ongeval"@nl ;
-    dcterms:identifier "EAID_52065800_b4a3_4a48_8ce4_e983de81ad81" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_A2BD899F_2416_4d1d_9076_30E5A411E5F4" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "32 Uitkering in het kader van de Wet op de Arbeids-ongeschiktheidsverzekering (WAO) en particuliere verzekering ziekte, invaliditeit en ongeval"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/33-uitkering-in-het-kader-van-de-nieuwe-werkloosheidswet-nww> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/33-uitkering-in-het-kader-van-de-nieuwe-werkloosheidswet-nww> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "33 Uitkering in het kader van de Nieuwe Werkloosheidswet (nWW)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/33-uitkering-in-het-kader-van-de-nieuwe-werkloosheidswet-nww"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/33-uitkering-in-het-kader-van-de-nieuwe-werkloosheidswet-nww"^^xsd:anyURI ;
     mim:naam "33 Uitkering in het kader van de Nieuwe Werkloosheidswet (nWW)"@nl ;
-    dcterms:identifier "EAID_69acc495_abae_4490_b89b_1a68cc52a775" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_2077144E_B57A_4438_BDD9_FF52A02C094A" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "33 Uitkering in het kader van de Nieuwe Werkloosheidswet (nWW)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/34-uitkering-in-het-kader-van-de-wet-inkomensvoorziening-oudere-en-gedeeltelijk-arbeidsongeschikte-werkloze-werknemers-ioaw> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/34-uitkering-in-het-kader-van-de-wet-inkomensvoorziening-oudere-en-gedeeltelijk-arbeidsongeschikte-werkloze-werknemers-ioaw> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "34 Uitkering in het kader van de Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte werkloze werknemers (IOAW)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/34-uitkering-in-het-kader-van-de-wet-inkomensvoorziening-oudere-en-gedeeltelijk-arbeidsongeschikte-werkloze-werknemers-ioaw"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/34-uitkering-in-het-kader-van-de-wet-inkomensvoorziening-oudere-en-gedeeltelijk-arbeidsongeschikte-werkloze-werknemers-ioaw"^^xsd:anyURI ;
     mim:naam "34 Uitkering in het kader van de Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte werkloze werknemers (IOAW)"@nl ;
-    dcterms:identifier "EAID_e6000c8c_59c7_4e49_8c2c_2e3182b5b791" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_20C4C460_1D4D_4acd_A112_1493DBDF4F38" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "34 Uitkering in het kader van de Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte werkloze werknemers (IOAW)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/35-vervolguitkering-in-het-kader-van-de-nieuwe-werkloosheidswet-nww> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/35-vervolguitkering-in-het-kader-van-de-nieuwe-werkloosheidswet-nww> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "35 Vervolguitkering in het kader van de Nieuwe Werkloosheidswet (nWW)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/35-vervolguitkering-in-het-kader-van-de-nieuwe-werkloosheidswet-nww"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/35-vervolguitkering-in-het-kader-van-de-nieuwe-werkloosheidswet-nww"^^xsd:anyURI ;
     mim:naam "35 Vervolguitkering in het kader van de Nieuwe Werkloosheidswet (nWW)"@nl ;
-    dcterms:identifier "EAID_951fc1c1_4d2f_4de2_97d9_db441ce5c361" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_191FE976_3083_49fa_8F46_845B36FB15AD" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "35 Vervolguitkering in het kader van de Nieuwe Werkloosheidswet (nWW)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/36-uitkering-in-het-kader-van-de-wet-arbeidsongeschiktheidsverzekering-zelfstandigen-waz> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/36-uitkering-in-het-kader-van-de-wet-arbeidsongeschiktheidsverzekering-zelfstandigen-waz> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "36 Uitkering in het kader van de Wet arbeidsongeschiktheidsverzekering zelfstandigen (Waz)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/36-uitkering-in-het-kader-van-de-wet-arbeidsongeschiktheidsverzekering-zelfstandigen-waz"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/36-uitkering-in-het-kader-van-de-wet-arbeidsongeschiktheidsverzekering-zelfstandigen-waz"^^xsd:anyURI ;
     mim:naam "36 Uitkering in het kader van de Wet arbeidsongeschiktheidsverzekering zelfstandigen (Waz)"@nl ;
-    dcterms:identifier "EAID_b9d7ae9f_035c_4165_9319_6ef6a341d7c1" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_48E48660_B560_4b30_B7CB_856782328A0A" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "36 Uitkering in het kader van de Wet arbeidsongeschiktheidsverzekering zelfstandigen (Waz)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/37-wet-arbeidsongeschiktheidsvoorziening-jonggehandicapten-wajong> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/37-wet-arbeidsongeschiktheidsvoorziening-jonggehandicapten-wajong> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "37 Wet arbeidsongeschiktheidsvoorziening jonggehandicapten (Wajong)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/37-wet-arbeidsongeschiktheidsvoorziening-jonggehandicapten-wajong"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/37-wet-arbeidsongeschiktheidsvoorziening-jonggehandicapten-wajong"^^xsd:anyURI ;
     mim:naam "37 Wet arbeidsongeschiktheidsvoorziening jonggehandicapten (Wajong)"@nl ;
-    dcterms:identifier "EAID_6eba921b_ce33_4e52_98d7_d030cb502266" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_29A6C688_D701_4484_8565_CC009DC2E240" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "37 Wet arbeidsongeschiktheidsvoorziening jonggehandicapten (Wajong)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/37-wet-werk-en-ondersteuning-jonggehandicapten-wajong> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/37-wet-werk-en-ondersteuning-jonggehandicapten-wajong> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "37 Wet werk en ondersteuning jonggehandicapten (Wajong)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/37-wet-werk-en-ondersteuning-jonggehandicapten-wajong"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/37-wet-werk-en-ondersteuning-jonggehandicapten-wajong"^^xsd:anyURI ;
     mim:naam "37 Wet werk en ondersteuning jonggehandicapten (Wajong)"@nl ;
-    dcterms:identifier "EAID_a69b62b4_9212_4f12_bbcd_b4a234cdf231" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_2B75B9BC_FD3D_47cd_8279_4464CD11DF12" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "37 Wet werk en ondersteuning jonggehandicapten (Wajong)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/38-samenloop-gelijktijdig-of-volgtijdelijk-van-uitkeringen-van-wajong-met-waz-wao-iva-of-wga> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/38-samenloop-gelijktijdig-of-volgtijdelijk-van-uitkeringen-van-wajong-met-waz-wao-iva-of-wga> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "38 Samenloop (gelijktijdig of volgtijdelijk) van uitkeringen van Wajong met Waz, WAO/IVA of WGA"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/38-samenloop-gelijktijdig-of-volgtijdelijk-van-uitkeringen-van-wajong-met-waz-wao-iva-of-wga"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/38-samenloop-gelijktijdig-of-volgtijdelijk-van-uitkeringen-van-wajong-met-waz-wao-iva-of-wga"^^xsd:anyURI ;
     mim:naam "38 Samenloop (gelijktijdig of volgtijdelijk) van uitkeringen van Wajong met Waz, WAO/IVA of WGA"@nl ;
-    dcterms:identifier "EAID_70ddb6dd_232c_4737_b623_058a83464535" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_3D9BE600_2BBA_4a64_9FCC_15DA8FA4FFBA" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "38 Samenloop (gelijktijdig of volgtijdelijk) van uitkeringen van Wajong met Waz, WAO/IVA of WGA"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/39-uitkering-in-het-kader-van-de-regeling-inkomensvoorziening-volledig-arbeidsongeschikten-iva> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/39-uitkering-in-het-kader-van-de-regeling-inkomensvoorziening-volledig-arbeidsongeschikten-iva> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "39 Uitkering in het kader van de Regeling inkomensvoorziening volledig arbeidsongeschikten (IVA)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/39-uitkering-in-het-kader-van-de-regeling-inkomensvoorziening-volledig-arbeidsongeschikten-iva"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/39-uitkering-in-het-kader-van-de-regeling-inkomensvoorziening-volledig-arbeidsongeschikten-iva"^^xsd:anyURI ;
     mim:naam "39 Uitkering in het kader van de Regeling inkomensvoorziening volledig arbeidsongeschikten (IVA)"@nl ;
-    dcterms:identifier "EAID_1e1317dd_2121_40c1_a8a3_f03564a1eed2" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_0136A46D_0349_4cef_AE6D_633AA35C524D" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "39 Uitkering in het kader van de Regeling inkomensvoorziening volledig arbeidsongeschikten (IVA)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/40-uitkering-in-het-kader-van-de-regeling-werkhervatting-gedeeltelijk-arbeidsgeschikten-wga> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/40-uitkering-in-het-kader-van-de-regeling-werkhervatting-gedeeltelijk-arbeidsgeschikten-wga> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "40 Uitkering in het kader van de Regeling werkhervatting gedeeltelijk arbeidsgeschikten WGA)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/40-uitkering-in-het-kader-van-de-regeling-werkhervatting-gedeeltelijk-arbeidsgeschikten-wga"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/40-uitkering-in-het-kader-van-de-regeling-werkhervatting-gedeeltelijk-arbeidsgeschikten-wga"^^xsd:anyURI ;
     mim:naam "40 Uitkering in het kader van de Regeling werkhervatting gedeeltelijk arbeidsgeschikten WGA)"@nl ;
-    dcterms:identifier "EAID_d650f9b7_842e_42ae_abac_186bae566607" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_295B1012_6619_453c_90F3_BE0CE3B7B0EB" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "40 Uitkering in het kader van de Regeling werkhervatting gedeeltelijk arbeidsgeschikten WGA)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/42-uitkering-in-het-kader-van-bijstandsbesluit-zelfstandigen-bbz> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/42-uitkering-in-het-kader-van-bijstandsbesluit-zelfstandigen-bbz> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "42 Uitkering in het kader van bijstandsbesluit Zelfstandigen (Bbz)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/42-uitkering-in-het-kader-van-bijstandsbesluit-zelfstandigen-bbz"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/42-uitkering-in-het-kader-van-bijstandsbesluit-zelfstandigen-bbz"^^xsd:anyURI ;
     mim:naam "42 Uitkering in het kader van bijstandsbesluit Zelfstandigen (Bbz)"@nl ;
-    dcterms:identifier "EAID_5a7f80b1_9087_499f_a850_be56a5a9332d" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_1F0E80BF_D147_4433_A836_2FF28202ED21" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "42 Uitkering in het kader van bijstandsbesluit Zelfstandigen (Bbz)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/43-uitkering-in-het-kader-van-de-participatiewet> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/43-uitkering-in-het-kader-van-de-participatiewet> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "43 Uitkering in het kader van de Participatiewet"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/43-uitkering-in-het-kader-van-de-participatiewet"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/43-uitkering-in-het-kader-van-de-participatiewet"^^xsd:anyURI ;
     mim:naam "43 Uitkering in het kader van de Participatiewet"@nl ;
-    dcterms:identifier "EAID_6572916e_3584_41b7_8d6f_37735893d868" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_6C33C597_A940_432e_962E_2A8BAD8B50C6" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "43 Uitkering in het kader van de Participatiewet"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/43-uitkering-in-het-kader-van-de-participatiewet-voorheen-wwb> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/43-uitkering-in-het-kader-van-de-participatiewet-voorheen-wwb> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "43 Uitkering in het kader van de Participatiewet (voorheen WWB)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/43-uitkering-in-het-kader-van-de-participatiewet-voorheen-wwb"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/43-uitkering-in-het-kader-van-de-participatiewet-voorheen-wwb"^^xsd:anyURI ;
     mim:naam "43 Uitkering in het kader van de Participatiewet (voorheen WWB)"@nl ;
-    dcterms:identifier "EAID_9487c0ea_6e1d_42cb_bc92_26d7db6d949b" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_F67CF1BD_45DB_4443_AA88_D289D880158C" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "43 Uitkering in het kader van de Participatiewet (voorheen WWB)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/44-uitkering-in-het-kader-van-de-wet-werk-en-inkomen-wwik> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/44-uitkering-in-het-kader-van-de-wet-werk-en-inkomen-wwik> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "44 Uitkering in het kader van de Wet Werk en Inkomen (WWIK)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/44-uitkering-in-het-kader-van-de-wet-werk-en-inkomen-wwik"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/44-uitkering-in-het-kader-van-de-wet-werk-en-inkomen-wwik"^^xsd:anyURI ;
     mim:naam "44 Uitkering in het kader van de Wet Werk en Inkomen (WWIK)"@nl ;
-    dcterms:identifier "EAID_3cf9dd2b_3885_4fa7_baad_49ae5fe18844" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_108F9153_FCE1_4661_8236_E3E1EEE56961" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "44 Uitkering in het kader van de Wet Werk en Inkomen (WWIK)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/45-uitkering-in-het-kader-van-de-wet-inkomensvoorziening-oudere-en-gedeeltelijk-arbeidsongeschikte-gewezen-zelfstandigen-ioaz> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/45-uitkering-in-het-kader-van-de-wet-inkomensvoorziening-oudere-en-gedeeltelijk-arbeidsongeschikte-gewezen-zelfstandigen-ioaz> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "45 Uitkering in het kader van de Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte gewezen zelfstandigen (IOAZ)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/45-uitkering-in-het-kader-van-de-wet-inkomensvoorziening-oudere-en-gedeeltelijk-arbeidsongeschikte-gewezen-zelfstandigen-ioaz"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/45-uitkering-in-het-kader-van-de-wet-inkomensvoorziening-oudere-en-gedeeltelijk-arbeidsongeschikte-gewezen-zelfstandigen-ioaz"^^xsd:anyURI ;
     mim:naam "45 Uitkering in het kader van de Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte gewezen zelfstandigen (IOAZ)"@nl ;
-    dcterms:identifier "EAID_aaa3fbab_174e_4384_85a4_b12d70152ef8" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_B5E42084_DB98_48d9_9274_E958FB36F006" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "45 Uitkering in het kader van de Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte gewezen zelfstandigen (IOAZ)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/46-uitkering-uit-hoofde-van-de-toeslagenwet> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/46-uitkering-uit-hoofde-van-de-toeslagenwet> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "46 Uitkering uit hoofde van de Toeslagenwet"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/46-uitkering-uit-hoofde-van-de-toeslagenwet"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/46-uitkering-uit-hoofde-van-de-toeslagenwet"^^xsd:anyURI ;
     mim:naam "46 Uitkering uit hoofde van de Toeslagenwet"@nl ;
-    dcterms:identifier "EAID_9182d538_998c_4395_80f9_5dbe5a2ca8b9" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_324BA847_FC88_46ec_A3C0_5EBBF6C1DF35" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "46 Uitkering uit hoofde van de Toeslagenwet"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/50-uitkeringen-in-het-kader-van-overige-sociale-verzekeringswetten-hieronder-vallen-tevens-ongevallenwet-1921-land-en-tuinbouwongevallenwet-1922-en-zeeongevallenwet-1919-niet-22-24-tot-en-met-45-51-of-52> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/50-uitkeringen-in-het-kader-van-overige-sociale-verzekeringswetten-hieronder-vallen-tevens-ongevallenwet-1921-land-en-tuinbouwongevallenwet-1922-en-zeeongevallenwet-1919-niet-22-24-tot-en-met-45-51-of-52> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "50 Uitkeringen in het kader van overige sociale verzekeringswetten, hieronder vallen tevens: Ongevallenwet 1921, Land- en tuinbouwongevallenwet 1922 en Zeeongevallenwet 1919 (niet 22, 24 tot en met 45, 51 of 52)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/50-uitkeringen-in-het-kader-van-overige-sociale-verzekeringswetten-hieronder-vallen-tevens-ongevallenwet-1921-land-en-tuinbouwongevallenwet-1922-en-zeeongevallenwet-1919-niet-22-24-tot-en-met-45-51-of-52"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/50-uitkeringen-in-het-kader-van-overige-sociale-verzekeringswetten-hieronder-vallen-tevens-ongevallenwet-1921-land-en-tuinbouwongevallenwet-1922-en-zeeongevallenwet-1919-niet-22-24-tot-en-met-45-51-of-52"^^xsd:anyURI ;
     mim:naam "50 Uitkeringen in het kader van overige sociale verzekeringswetten, hieronder vallen tevens: Ongevallenwet 1921, Land- en tuinbouwongevallenwet 1922 en Zeeongevallenwet 1919 (niet 22, 24 tot en met 45, 51 of 52)"@nl ;
-    dcterms:identifier "EAID_3c9e418d_3435_4cd8_b0fd_5785efa30fa1" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_C2A70B2A_23E7_4d83_B742_F32AFA38E395" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "50 Uitkeringen in het kader van overige sociale verzekeringswetten, hieronder vallen tevens: Ongevallenwet 1921, Land- en tuinbouwongevallenwet 1922 en Zeeongevallenwet 1919 (niet 22, 24 tot en met 45, 51 of 52)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/50-uitkeringen-in-het-kader-van-overige-sociale-verzekeringswetten-hieronder-vallen-tevens-ongevallenwet-1921-land-en-tuinbouwongevallenwet-1922-en-zeeongevallenwet-1919-niet-22-of-24-tot-en-met-45> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/50-uitkeringen-in-het-kader-van-overige-sociale-verzekeringswetten-hieronder-vallen-tevens-ongevallenwet-1921-land-en-tuinbouwongevallenwet-1922-en-zeeongevallenwet-1919-niet-22-of-24-tot-en-met-45> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "50 Uitkeringen in het kader van overige sociale verzekeringswetten, hieronder vallen tevens: Ongevallenwet 1921, Land- en tuinbouwongevallenwet 1922 en Zeeongevallenwet 1919 (niet 22 of 24 tot en met 45)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/50-uitkeringen-in-het-kader-van-overige-sociale-verzekeringswetten-hieronder-vallen-tevens-ongevallenwet-1921-land-en-tuinbouwongevallenwet-1922-en-zeeongevallenwet-1919-niet-22-of-24-tot-en-met-45"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/50-uitkeringen-in-het-kader-van-overige-sociale-verzekeringswetten-hieronder-vallen-tevens-ongevallenwet-1921-land-en-tuinbouwongevallenwet-1922-en-zeeongevallenwet-1919-niet-22-of-24-tot-en-met-45"^^xsd:anyURI ;
     mim:naam "50 Uitkeringen in het kader van overige sociale verzekeringswetten, hieronder vallen tevens: Ongevallenwet 1921, Land- en tuinbouwongevallenwet 1922 en Zeeongevallenwet 1919 (niet 22 of 24 tot en met 45)"@nl ;
-    dcterms:identifier "EAID_3c23569c_e2e0_49e3_a2fe_f9c24106a090" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_B6E015B1_8503_40f4_9604_5FCD114B6835" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "50 Uitkeringen in het kader van overige sociale verzekeringswetten, hieronder vallen tevens: Ongevallenwet 1921, Land- en tuinbouwongevallenwet 1922 en Zeeongevallenwet 1919 (niet 22 of 24 tot en met 45)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/51-uitkering-in-het-kader-van-de-wet-investeren-in-jongeren-wij> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/51-uitkering-in-het-kader-van-de-wet-investeren-in-jongeren-wij> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "51 Uitkering in het kader van de Wet Investeren in Jongeren (WIJ)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/51-uitkering-in-het-kader-van-de-wet-investeren-in-jongeren-wij"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/51-uitkering-in-het-kader-van-de-wet-investeren-in-jongeren-wij"^^xsd:anyURI ;
     mim:naam "51 Uitkering in het kader van de Wet Investeren in Jongeren (WIJ)"@nl ;
-    dcterms:identifier "EAID_77dc649c_eb2a_451f_8838_24dd071d2740" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_622D28DA_D355_4244_A116_A59C6D63924F" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "51 Uitkering in het kader van de Wet Investeren in Jongeren (WIJ)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/52-uitkering-in-het-kader-van-de-wet-inkomensvoorziening-oudere-werklozen-iow> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/52-uitkering-in-het-kader-van-de-wet-inkomensvoorziening-oudere-werklozen-iow> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "52 Uitkering in het kader van de wet Inkomensvoorziening Oudere Werklozen (IOW)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/52-uitkering-in-het-kader-van-de-wet-inkomensvoorziening-oudere-werklozen-iow"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/52-uitkering-in-het-kader-van-de-wet-inkomensvoorziening-oudere-werklozen-iow"^^xsd:anyURI ;
     mim:naam "52 Uitkering in het kader van de wet Inkomensvoorziening Oudere Werklozen (IOW)"@nl ;
-    dcterms:identifier "EAID_0915cebb_2d4e_4d0f_82fe_7418589814b7" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_F7C7A52D_B3A5_4e51_8B80_B8EAB2673A82" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "52 Uitkering in het kader van de wet Inkomensvoorziening Oudere Werklozen (IOW)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/53-uitkering-in-het-kader-van-de-vitaliteitsregeling> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/53-uitkering-in-het-kader-van-de-vitaliteitsregeling> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "53 Uitkering in het kader van de vitaliteitsregeling"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/53-uitkering-in-het-kader-van-de-vitaliteitsregeling"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/53-uitkering-in-het-kader-van-de-vitaliteitsregeling"^^xsd:anyURI ;
     mim:naam "53 Uitkering in het kader van de vitaliteitsregeling"@nl ;
-    dcterms:identifier "EAID_0a524c09_b694_4669_8279_2dbd200c3153" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_9314E269_6322_4b38_A729_48275D2EB5D3" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "53 Uitkering in het kader van de vitaliteitsregeling"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/54-opname-levenslooptegoed-door-een-werknemer-die-op-1-januari-61-jaar-of-ouder-is> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/54-opname-levenslooptegoed-door-een-werknemer-die-op-1-januari-61-jaar-of-ouder-is> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "54 Opname levenslooptegoed door een werknemer die op 1 januari 61 jaar of ouder is"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/54-opname-levenslooptegoed-door-een-werknemer-die-op-1-januari-61-jaar-of-ouder-is"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/54-opname-levenslooptegoed-door-een-werknemer-die-op-1-januari-61-jaar-of-ouder-is"^^xsd:anyURI ;
     mim:naam "54 Opname levenslooptegoed door een werknemer die op 1 januari 61 jaar of ouder is"@nl ;
-    dcterms:identifier "EAID_71051405_1c11_430a_b0b7_d96563802694" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_C492C87C_573F_462f_B593_1C251DADDDD0" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "54 Opname levenslooptegoed door een werknemer die op 1 januari 61 jaar of ouder is"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/55-uitkering-in-het-kader-van-de-algemene-pensioenwet-politieke-ambtsdragers-appa> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/55-uitkering-in-het-kader-van-de-algemene-pensioenwet-politieke-ambtsdragers-appa> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "55 Uitkering in het kader van de Algemene Pensioenwet Politieke Ambtsdragers (APPA)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/55-uitkering-in-het-kader-van-de-algemene-pensioenwet-politieke-ambtsdragers-appa"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/55-uitkering-in-het-kader-van-de-algemene-pensioenwet-politieke-ambtsdragers-appa"^^xsd:anyURI ;
     mim:naam "55 Uitkering in het kader van de Algemene Pensioenwet Politieke Ambtsdragers (APPA)"@nl ;
-    dcterms:identifier "EAID_ac1a6aa4_af2d_4bf0_a227_d57c66142312" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_CC38E093_7993_4112_A2C0_EC013FB65D79" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "55 Uitkering in het kader van de Algemene Pensioenwet Politieke Ambtsdragers (APPA)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/56-ouderdomspensioen-dat-via-de-werkgever-is-opgebouwd> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/56-ouderdomspensioen-dat-via-de-werkgever-is-opgebouwd> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "56 Ouderdomspensioen dat via de werkgever is opgebouwd"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/56-ouderdomspensioen-dat-via-de-werkgever-is-opgebouwd"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/56-ouderdomspensioen-dat-via-de-werkgever-is-opgebouwd"^^xsd:anyURI ;
     mim:naam "56 Ouderdomspensioen dat via de werkgever is opgebouwd"@nl ;
-    dcterms:identifier "EAID_e6b48190_82ad_4ed3_a169_1dcd4361445c" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_BE95EB8B_9D39_40c8_88FF_B789B092F286" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "56 Ouderdomspensioen dat via de werkgever is opgebouwd"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/56-ouderdomspensioen-dat-via-de-werkgever-is-opgebouwd-of-ouderdomspensioen-opgebouwd-via-een-verplichte-beroepspensioenregeling-bedrijfstakpensioenregeling> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/56-ouderdomspensioen-dat-via-de-werkgever-is-opgebouwd-of-ouderdomspensioen-opgebouwd-via-een-verplichte-beroepspensioenregeling-bedrijfstakpensioenregeling> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "56 Ouderdomspensioen dat via de werkgever is opgebouwd of ouderdomspensioen opgebouwd via een verplichte beroepspensioenregeling/ bedrijfstakpensioenregeling"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/56-ouderdomspensioen-dat-via-de-werkgever-is-opgebouwd-of-ouderdomspensioen-opgebouwd-via-een-verplichte-beroepspensioenregeling-bedrijfstakpensioenregeling"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/56-ouderdomspensioen-dat-via-de-werkgever-is-opgebouwd-of-ouderdomspensioen-opgebouwd-via-een-verplichte-beroepspensioenregeling-bedrijfstakpensioenregeling"^^xsd:anyURI ;
     mim:naam "56 Ouderdomspensioen dat via de werkgever is opgebouwd of ouderdomspensioen opgebouwd via een verplichte beroepspensioenregeling/ bedrijfstakpensioenregeling"@nl ;
-    dcterms:identifier "EAID_d63982fa_fae2_48a4_9fdc_c32469890300" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_0BE89D2B_686F_4836_996A_C41FD4567EEA" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "56 Ouderdomspensioen dat via de werkgever is opgebouwd of ouderdomspensioen opgebouwd via een verplichte beroepspensioenregeling/ bedrijfstakpensioenregeling"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/57-nabestaandenpensioen-dat-via-de-werkgever-is-opgebouwd> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/57-nabestaandenpensioen-dat-via-de-werkgever-is-opgebouwd> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "57 Nabestaandenpensioen dat via de werkgever is opgebouwd"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/57-nabestaandenpensioen-dat-via-de-werkgever-is-opgebouwd"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/57-nabestaandenpensioen-dat-via-de-werkgever-is-opgebouwd"^^xsd:anyURI ;
     mim:naam "57 Nabestaandenpensioen dat via de werkgever is opgebouwd"@nl ;
-    dcterms:identifier "EAID_031270e4_0c3b_4fb1_8008_4c47f926448e" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_B9146A41_9813_46c2_B472_7DB35B22F286" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "57 Nabestaandenpensioen dat via de werkgever is opgebouwd"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/57-nabestaandenpensioen-dat-via-de-werkgever-is-opgebouwd-of-nabestaandenpensioen-opgebouwd-via-een-verplichte-beroepspensioenregeling-bedrijfstakpensioenregeling> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/57-nabestaandenpensioen-dat-via-de-werkgever-is-opgebouwd-of-nabestaandenpensioen-opgebouwd-via-een-verplichte-beroepspensioenregeling-bedrijfstakpensioenregeling> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "57 Nabestaandenpensioen dat via de werkgever is opgebouwd of nabestaandenpensioen opgebouwd via een verplichte beroepspensioenregeling/ bedrijfstakpensioenregeling"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/57-nabestaandenpensioen-dat-via-de-werkgever-is-opgebouwd-of-nabestaandenpensioen-opgebouwd-via-een-verplichte-beroepspensioenregeling-bedrijfstakpensioenregeling"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/57-nabestaandenpensioen-dat-via-de-werkgever-is-opgebouwd-of-nabestaandenpensioen-opgebouwd-via-een-verplichte-beroepspensioenregeling-bedrijfstakpensioenregeling"^^xsd:anyURI ;
     mim:naam "57 Nabestaandenpensioen dat via de werkgever is opgebouwd of nabestaandenpensioen opgebouwd via een verplichte beroepspensioenregeling/ bedrijfstakpensioenregeling"@nl ;
-    dcterms:identifier "EAID_c107f36e_542f_4486_9683_241cee85fd5b" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_827A8EA2_4499_4ca8_934B_B4C6E1093F71" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "57 Nabestaandenpensioen dat via de werkgever is opgebouwd of nabestaandenpensioen opgebouwd via een verplichte beroepspensioenregeling/ bedrijfstakpensioenregeling"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/58-arbeidsongeschiktheidspensioen-dat-via-de-werkgever-is-opgebouwd> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/58-arbeidsongeschiktheidspensioen-dat-via-de-werkgever-is-opgebouwd> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "58 Arbeidsongeschiktheidspensioen dat via de werkgever is opgebouwd"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/58-arbeidsongeschiktheidspensioen-dat-via-de-werkgever-is-opgebouwd"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/58-arbeidsongeschiktheidspensioen-dat-via-de-werkgever-is-opgebouwd"^^xsd:anyURI ;
     mim:naam "58 Arbeidsongeschiktheidspensioen dat via de werkgever is opgebouwd"@nl ;
-    dcterms:identifier "EAID_37c6fe39_f01d_4cc4_9d4a_f35bf5e0bd9f" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_CE01903E_BAF5_4eed_9D24_D68FC018986D" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "58 Arbeidsongeschiktheidspensioen dat via de werkgever is opgebouwd"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/58-arbeidsongeschiktheidspensioen-dat-via-de-werkgever-is-opgebouwd-of-arbeidsongeschiktheidspensioen-opgebouwd-via-een-verplichte-beroepspensioenregeling-bedrijfstakpensioenregeling> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/58-arbeidsongeschiktheidspensioen-dat-via-de-werkgever-is-opgebouwd-of-arbeidsongeschiktheidspensioen-opgebouwd-via-een-verplichte-beroepspensioenregeling-bedrijfstakpensioenregeling> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "58 Arbeidsongeschiktheidspensioen dat via de werkgever is opgebouwd of arbeidsongeschiktheidspensioen opgebouwd via een verplichte beroepspensioenregeling/ bedrijfstakpensioenregeling"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/58-arbeidsongeschiktheidspensioen-dat-via-de-werkgever-is-opgebouwd-of-arbeidsongeschiktheidspensioen-opgebouwd-via-een-verplichte-beroepspensioenregeling-bedrijfstakpensioenregeling"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/58-arbeidsongeschiktheidspensioen-dat-via-de-werkgever-is-opgebouwd-of-arbeidsongeschiktheidspensioen-opgebouwd-via-een-verplichte-beroepspensioenregeling-bedrijfstakpensioenregeling"^^xsd:anyURI ;
     mim:naam "58 Arbeidsongeschiktheidspensioen dat via de werkgever is opgebouwd of arbeidsongeschiktheidspensioen opgebouwd via een verplichte beroepspensioenregeling/ bedrijfstakpensioenregeling"@nl ;
-    dcterms:identifier "EAID_221d410b_be78_46c0_8cf3_bea3ed4082e6" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_E719C733_F174_4e9d_9869_E2BE0F8FA0AC" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "58 Arbeidsongeschiktheidspensioen dat via de werkgever is opgebouwd of arbeidsongeschiktheidspensioen opgebouwd via een verplichte beroepspensioenregeling/ bedrijfstakpensioenregeling"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/59-lijfrenten-die-zijn-afgesloten-in-het-kader-van-een-individuele-of-collectieve-arbeidsovereenkomst> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/59-lijfrenten-die-zijn-afgesloten-in-het-kader-van-een-individuele-of-collectieve-arbeidsovereenkomst> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "59 Lijfrenten die zijn afgesloten in het kader van een individuele of collectieve arbeidsovereenkomst"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/59-lijfrenten-die-zijn-afgesloten-in-het-kader-van-een-individuele-of-collectieve-arbeidsovereenkomst"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/59-lijfrenten-die-zijn-afgesloten-in-het-kader-van-een-individuele-of-collectieve-arbeidsovereenkomst"^^xsd:anyURI ;
     mim:naam "59 Lijfrenten die zijn afgesloten in het kader van een individuele of collectieve arbeidsovereenkomst"@nl ;
-    dcterms:identifier "EAID_3e15608c_1253_4763_a4d1_5e8832598b8f" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_8B3E46FD_8B25_4e6e_B3F0_97CFAC05F802" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "59 Lijfrenten die zijn afgesloten in het kader van een individuele of collectieve arbeidsovereenkomst"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/60-lijfrenten-die-niet-zijn-afgesloten-in-het-kader-van-een-individuele-of-collectieve-arbeidsovereenkomst> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/60-lijfrenten-die-niet-zijn-afgesloten-in-het-kader-van-een-individuele-of-collectieve-arbeidsovereenkomst> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "60 Lijfrenten die niet zijn afgesloten in het kader van een individuele of collectieve arbeidsovereenkomst"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/60-lijfrenten-die-niet-zijn-afgesloten-in-het-kader-van-een-individuele-of-collectieve-arbeidsovereenkomst"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/60-lijfrenten-die-niet-zijn-afgesloten-in-het-kader-van-een-individuele-of-collectieve-arbeidsovereenkomst"^^xsd:anyURI ;
     mim:naam "60 Lijfrenten die niet zijn afgesloten in het kader van een individuele of collectieve arbeidsovereenkomst"@nl ;
-    dcterms:identifier "EAID_fc80ecb1_f1f6_4dde_808c_286b08401d01" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_313C4597_E2CC_4299_BF8F_C83B39A8051A" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "60 Lijfrenten die niet zijn afgesloten in het kader van een individuele of collectieve arbeidsovereenkomst"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/61-aanvulling-van-de-werkgever-aan-een-werknemer-op-een-uitkering-werknemersverzekeringen-terwijl-de-dienstbetrekking-is-be-indigd> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/61-aanvulling-van-de-werkgever-aan-een-werknemer-op-een-uitkering-werknemersverzekeringen-terwijl-de-dienstbetrekking-is-be-indigd> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "61 Aanvulling van de werkgever aan een werknemer op een uitkering werknemersverzekeringen, terwijl de dienstbetrekking is beëindigd"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/61-aanvulling-van-de-werkgever-aan-een-werknemer-op-een-uitkering-werknemersverzekeringen-terwijl-de-dienstbetrekking-is-be-indigd"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/61-aanvulling-van-de-werkgever-aan-een-werknemer-op-een-uitkering-werknemersverzekeringen-terwijl-de-dienstbetrekking-is-be-indigd"^^xsd:anyURI ;
     mim:naam "61 Aanvulling van de werkgever aan een werknemer op een uitkering werknemersverzekeringen, terwijl de dienstbetrekking is beëindigd"@nl ;
-    dcterms:identifier "EAID_9d7aae90_d9d1_4156_9032_9a1b228a22a0" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_627A2D29_B196_4e23_AAB1_EA1C548EA74C" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "61 Aanvulling van de werkgever aan een werknemer op een uitkering werknemersverzekeringen, terwijl de dienstbetrekking is beëindigd"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/62-ontslagvergoeding-transitievergoeding> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/62-ontslagvergoeding-transitievergoeding> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "62 Ontslagvergoeding / transitievergoeding"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/62-ontslagvergoeding-transitievergoeding"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/62-ontslagvergoeding-transitievergoeding"^^xsd:anyURI ;
     mim:naam "62 Ontslagvergoeding / transitievergoeding"@nl ;
-    dcterms:identifier "EAID_d698f53f_4d3b_46c7_907b_11c3580b1765" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_7ACD404E_050F_4499_B2BD_EB5955A6043E" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "62 Ontslagvergoeding / transitievergoeding"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/63-overige-niet-hiervoor-aangegeven-pensioenen-of-samenloop-van-meerdere-pensioenen-lijfrenten-of-een-betaling-op-grond-van-een-afspraak-na-einde-dienstbetrekking> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/63-overige-niet-hiervoor-aangegeven-pensioenen-of-samenloop-van-meerdere-pensioenen-lijfrenten-of-een-betaling-op-grond-van-een-afspraak-na-einde-dienstbetrekking> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     rdfs:label "63 Overige, niet hiervoor aangegeven, pensioenen of samenloop van meerdere pensioenen/lijfrenten of een betaling op grond van een afspraak na einde dienstbetrekking"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/63-overige-niet-hiervoor-aangegeven-pensioenen-of-samenloop-van-meerdere-pensioenen-lijfrenten-of-een-betaling-op-grond-van-een-afspraak-na-einde-dienstbetrekking"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/63-overige-niet-hiervoor-aangegeven-pensioenen-of-samenloop-van-meerdere-pensioenen-lijfrenten-of-een-betaling-op-grond-van-een-afspraak-na-einde-dienstbetrekking"^^xsd:anyURI ;
     mim:naam "63 Overige, niet hiervoor aangegeven, pensioenen of samenloop van meerdere pensioenen/lijfrenten of een betaling op grond van een afspraak na einde dienstbetrekking"@nl ;
-    dcterms:identifier "EAID_4407d461_81ba_4d6a_bc54_9b6cbcf36eed" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    dcterms:identifier "EAID_7E98BC61_D414_4a46_A93C_0E2B30463A60" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     skos:prefLabel "63 Overige, niet hiervoor aangegeven, pensioenen of samenloop van meerdere pensioenen/lijfrenten of een betaling op grond van een afspraak na einde dienstbetrekking"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/inkomstenverhouding/categorie-inkomsten> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -789,11 +818,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Categorie Inkomsten"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> ;
     dcterms:identifier "EAID_B24A1486_25ED_4936_AB00_5E5C56C1152E" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/inkomstenverhouding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/inkomstenverhouding/periode-einddatum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -941,11 +970,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Brontype"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> ;
     dcterms:identifier "EAID_E1056DAE_8BF8_4006_B27F_31CA5D486A4B" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/bankrekening> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/bankrekening/datum-aanvang-bankrekening> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1005,7 +1034,7 @@
     rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/bankrekening/rekeningtype> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
+        owl:ObjectProperty ;
     rdfs:label "Rekeningtype"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -1017,11 +1046,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Rekeningtype"@nl ;
-    mim:type mim:CharacterString ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> ;
     dcterms:identifier "EAID_8AECECDF_B41A_4774_A945_363880B07275" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/bankrekening> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/> ;
-    rdfs:range xsd:string .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/bankrekening/tenaamstelling> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1061,236 +1090,236 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/> ;
     rdfs:range xsd:boolean .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/aandeel-onverdeelde-boedel> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/aandeel-onverdeelde-boedel> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Aandeel onverdeelde boedel"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/aandeel-onverdeelde-boedel"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/aandeel-onverdeelde-boedel"^^xsd:anyURI ;
     mim:naam "Aandeel onverdeelde boedel"@nl ;
-    dcterms:identifier "EAID_b74e6e96_d09a_442d_a72d_982513cbce7c" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_0B8D21A9_E67D_43c7_A3E2_7293EA15B5BF" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Aandeel onverdeelde boedel"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/aanspraak-op-erfenis-binnen-zes-maanden> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/aanspraak-op-erfenis-binnen-zes-maanden> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Aanspraak op erfenis binnen zes maanden"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/aanspraak-op-erfenis-binnen-zes-maanden"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/aanspraak-op-erfenis-binnen-zes-maanden"^^xsd:anyURI ;
     mim:naam "Aanspraak op erfenis binnen zes maanden"@nl ;
-    dcterms:identifier "EAID_35831580_5e2c_48cd_98bc_0d92fbd7ae55" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_4D9B55C3_7AB5_494c_A6DF_6739865EEF2F" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Aanspraak op erfenis binnen zes maanden"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/antiek-sieraden> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/antiek-sieraden> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Antiek/sieraden"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/antiek-sieraden"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/antiek-sieraden"^^xsd:anyURI ;
     mim:naam "Antiek/sieraden"@nl ;
-    dcterms:identifier "EAID_07fd0fef_db12_4499_a3b8_ddfd0b9b37cb" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_3494288F_AC62_41bd_B502_7090E5CDEE9A" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Antiek/sieraden"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/bank-girorekening> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/bank-girorekening> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Bank-/Girorekening"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/bank-girorekening"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/bank-girorekening"^^xsd:anyURI ;
     mim:naam "Bank-/Girorekening"@nl ;
-    dcterms:identifier "EAID_fa28ca77_95a2_46ca_bf01_20f7037709e3" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_4C716A8E_FBCB_4cb6_8782_6ABDC0D8AC2F" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Bank-/Girorekening"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/beleggingsproduct-aandeel-lease-effect-obligatie-e-d> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/beleggingsproduct-aandeel-lease-effect-obligatie-e-d> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Beleggingsproduct (Aandeel, Lease, Effect, Obligatie, e.d.)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/beleggingsproduct-aandeel-lease-effect-obligatie-e-d"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/beleggingsproduct-aandeel-lease-effect-obligatie-e-d"^^xsd:anyURI ;
     mim:naam "Beleggingsproduct (Aandeel, Lease, Effect, Obligatie, e.d.)"@nl ;
-    dcterms:identifier "EAID_fb5607b7_e03b_4fa0_bd32_201b3d1fc8ac" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_B48BEB46_B44F_43e1_B690_3F466EC14955" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Beleggingsproduct (Aandeel, Lease, Effect, Obligatie, e.d.)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/caravans> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/caravans> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Caravans"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/caravans"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/caravans"^^xsd:anyURI ;
     mim:naam "Caravans"@nl ;
-    dcterms:identifier "EAID_cf41002c_5a56_4f08_8172_1caf57675089" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_9D01CA3F_12B7_4a93_B98C_6FD450C44A15" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Caravans"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/contanten> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/contanten> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Contanten"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/contanten"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/contanten"^^xsd:anyURI ;
     mim:naam "Contanten"@nl ;
-    dcterms:identifier "EAID_461038c0_b0cd_4c83_8221_15bb7ee5e123" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_D48CDE64_EDA5_4b3a_80FC_DB86A0F85435" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Contanten"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/digitale-valuta-cryptomunten> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/digitale-valuta-cryptomunten> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Digitale valuta (cryptomunten)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/digitale-valuta-cryptomunten"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/digitale-valuta-cryptomunten"^^xsd:anyURI ;
     mim:naam "Digitale valuta (cryptomunten)"@nl ;
-    dcterms:identifier "EAID_1007b3cf_f169_45e2_9272_82c7ff19e0bd" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_68F4B5BB_390B_4200_B657_96A207CCA626" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Digitale valuta (cryptomunten)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/eigen-woning-huis-woonschip-woonwagen-in-eigendom> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/eigen-woning-huis-woonschip-woonwagen-in-eigendom> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Eigen woning (huis/woonschip/woonwagen in eigendom)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/eigen-woning-huis-woonschip-woonwagen-in-eigendom"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/eigen-woning-huis-woonschip-woonwagen-in-eigendom"^^xsd:anyURI ;
     mim:naam "Eigen woning (huis/woonschip/woonwagen in eigendom)"@nl ;
-    dcterms:identifier "EAID_cb42a55d_342d_4461_9c64_1ecb350311ed" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_443D60A5_9CE0_447f_BC61_AEB0FE8434C6" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Eigen woning (huis/woonschip/woonwagen in eigendom)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/hypotheek-eigen-woning> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/hypotheek-eigen-woning> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Hypotheek eigen woning"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/hypotheek-eigen-woning"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/hypotheek-eigen-woning"^^xsd:anyURI ;
     mim:naam "Hypotheek eigen woning"@nl ;
-    dcterms:identifier "EAID_0deb4329_5078_41d0_b410_0ab3d6144071" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_024DEDEB_2BD1_465e_8387_C8C149053D1B" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Hypotheek eigen woning"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/leningen-aan-derden> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/leningen-aan-derden> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Leningen aan derden"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/leningen-aan-derden"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/leningen-aan-derden"^^xsd:anyURI ;
     mim:naam "Leningen aan derden"@nl ;
-    dcterms:identifier "EAID_2b536670_1527_43c8_8fb3_caa4939b0993" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_3ED9B3E2_780D_4741_954F_406BFECD1F93" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Leningen aan derden"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/levensverzekering> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/levensverzekering> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Levensverzekering"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/levensverzekering"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/levensverzekering"^^xsd:anyURI ;
     mim:naam "Levensverzekering"@nl ;
-    dcterms:identifier "EAID_0df281f4_7c7b_409b_beb0_dd07831fb177" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_90A1F6B9_E225_4c49_9021_A3BD3D6FFB82" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Levensverzekering"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/levensverzekering-belegging-gekoppeld-aan-hypotheek> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/levensverzekering-belegging-gekoppeld-aan-hypotheek> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Levensverzekering/belegging gekoppeld aan hypotheek"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/levensverzekering-belegging-gekoppeld-aan-hypotheek"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/levensverzekering-belegging-gekoppeld-aan-hypotheek"^^xsd:anyURI ;
     mim:naam "Levensverzekering/belegging gekoppeld aan hypotheek"@nl ;
-    dcterms:identifier "EAID_c2e2a87b_a5b0_454a_9a60_8d8ecd67c6bc" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_75184391_AFB6_49c1_9D7D_30FB481D9218" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Levensverzekering/belegging gekoppeld aan hypotheek"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/levensverzekering-belegging-niet-gekoppeld-aan-hypotheek> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/levensverzekering-belegging-niet-gekoppeld-aan-hypotheek> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Levensverzekering/belegging niet gekoppeld aan hypotheek"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/levensverzekering-belegging-niet-gekoppeld-aan-hypotheek"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/levensverzekering-belegging-niet-gekoppeld-aan-hypotheek"^^xsd:anyURI ;
     mim:naam "Levensverzekering/belegging niet gekoppeld aan hypotheek"@nl ;
-    dcterms:identifier "EAID_6cbe97f0_b2f8_43ad_b381_31cc4e38b025" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_5A699425_6B63_4f15_946B_E873ABDD080B" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Levensverzekering/belegging niet gekoppeld aan hypotheek"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/motorvoertuigen> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/motorvoertuigen> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Motorvoertuigen"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/motorvoertuigen"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/motorvoertuigen"^^xsd:anyURI ;
     mim:naam "Motorvoertuigen"@nl ;
-    dcterms:identifier "EAID_9dce0f94_9b19_402c_afbd_f90c94bed81f" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_72BC37C3_CB67_412c_B96F_6D53CC470377" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Motorvoertuigen"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/overig-onroerend-goed> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/overig-onroerend-goed> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Overig onroerend goed"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/overig-onroerend-goed"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/overig-onroerend-goed"^^xsd:anyURI ;
     mim:naam "Overig onroerend goed"@nl ;
-    dcterms:identifier "EAID_19aa7686_210d_414d_8238_b697d77d0f16" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_F6BE21CA_0780_4364_8AD8_535C6171A16A" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Overig onroerend goed"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/overige-bezittingen> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/overige-bezittingen> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Overige bezittingen"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/overige-bezittingen"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/overige-bezittingen"^^xsd:anyURI ;
     mim:naam "Overige bezittingen"@nl ;
-    dcterms:identifier "EAID_26f31d11_4fd7_484e_a39e_e5b98ad06d34" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_BE3D6CF1_EF0F_4ba1_BF30_BFE04E5408A2" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Overige bezittingen"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/schulden> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/schulden> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Schulden"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/schulden"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/schulden"^^xsd:anyURI ;
     mim:naam "Schulden"@nl ;
-    dcterms:identifier "EAID_1b6c9465_a54a_424c_99b0_205d94c5a4d9" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_A3541CC7_F092_433b_BD87_671094F81F65" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Schulden"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/schulden-uitgezonderd-studieschuld> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/schulden-uitgezonderd-studieschuld> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Schulden uitgezonderd studieschuld"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/schulden-uitgezonderd-studieschuld"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/schulden-uitgezonderd-studieschuld"^^xsd:anyURI ;
     mim:naam "Schulden uitgezonderd studieschuld"@nl ;
-    dcterms:identifier "EAID_bb2bd201_7000_476b_aedc_8b8f49ab7627" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_447E7F83_3960_44b8_914B_F0CA25B90BE7" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Schulden uitgezonderd studieschuld"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/studieschuld> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/studieschuld> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Studieschuld"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/studieschuld"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/studieschuld"^^xsd:anyURI ;
     mim:naam "Studieschuld"@nl ;
-    dcterms:identifier "EAID_2b6c58fc_fd95_4fa2_9a6a_639902ff4e39" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_F49E701F_7612_400b_A146_0AA681D8BD93" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Studieschuld"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/waardepapieren> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/waardepapieren> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     rdfs:label "Waardepapieren"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/waardepapieren"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/waardepapieren"^^xsd:anyURI ;
     mim:naam "Waardepapieren"@nl ;
-    dcterms:identifier "EAID_625be4c3_e2d9_475d_a772_fcf824d5ba3b" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    dcterms:identifier "EAID_40E1AA84_F414_4151_9953_71531C4AD4C7" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     skos:prefLabel "Waardepapieren"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/vermogenscomponent/code-soort-vermogenscomponent> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -1305,11 +1334,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Code soort vermogenscomponent"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> ;
     dcterms:identifier "EAID_E04DFEEA_A7A1_4fd9_A5AA_28A00017B396" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/vermogenscomponent> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/vermogenscomponent/datum-vaststelling-vermogencomponent> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1482,107 +1511,119 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/vermogenscomponent> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Rekeningtype"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype"^^xsd:anyURI ;
+    mim:naam "Rekeningtype"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype/betaalrekening>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype/deposito>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/rekeningtype/spaarrekening> ;
+    dcterms:identifier "EAID_26EDEDFD_5254_4A15_1FCD_27988F6C57B3" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Brontype"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype"^^xsd:anyURI ;
     mim:naam "Brontype"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/externe-bron>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/klant>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/professional>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/brontype/register> ;
-    dcterms:identifier "EAID_1597884a_a400_4cb5_a00a_00c5c47a5be8",
-        "EAID_673ab62b_fb64_48ed_96c4_4d195d6b2ba8" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/> ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/externe-bron>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/klant>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/professional>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/brontype/register> ;
+    dcterms:identifier "EAID_0DA8897C_3C14_4045_E2EE_26EBD163DD40" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/> ;
     rdfs:subClassOf skos:Concept .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "CdSrtVermogenscomponent"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent"^^xsd:anyURI ;
     mim:naam "CdSrtVermogenscomponent"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/aandeel-onverdeelde-boedel>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/aanspraak-op-erfenis-binnen-zes-maanden>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/antiek-sieraden>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/bank-girorekening>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/beleggingsproduct-aandeel-lease-effect-obligatie-e-d>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/caravans>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/contanten>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/digitale-valuta-cryptomunten>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/eigen-woning-huis-woonschip-woonwagen-in-eigendom>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/hypotheek-eigen-woning>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/leningen-aan-derden>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/levensverzekering>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/levensverzekering-belegging-gekoppeld-aan-hypotheek>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/levensverzekering-belegging-niet-gekoppeld-aan-hypotheek>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/motorvoertuigen>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/overig-onroerend-goed>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/overige-bezittingen>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/schulden>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/schulden-uitgezonderd-studieschuld>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/studieschuld>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/cdsrtvermogenscomponent/waardepapieren> ;
-    dcterms:identifier "EAID_12f80591_0066_44b0_9c71_c7e2e1310810" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/> ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/aandeel-onverdeelde-boedel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/aanspraak-op-erfenis-binnen-zes-maanden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/antiek-sieraden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/bank-girorekening>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/beleggingsproduct-aandeel-lease-effect-obligatie-e-d>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/caravans>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/contanten>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/digitale-valuta-cryptomunten>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/eigen-woning-huis-woonschip-woonwagen-in-eigendom>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/hypotheek-eigen-woning>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/leningen-aan-derden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/levensverzekering>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/levensverzekering-belegging-gekoppeld-aan-hypotheek>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/levensverzekering-belegging-niet-gekoppeld-aan-hypotheek>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/motorvoertuigen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/overig-onroerend-goed>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/overige-bezittingen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/schulden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/schulden-uitgezonderd-studieschuld>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/studieschuld>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/cdsrtvermogenscomponent/waardepapieren> ;
+    dcterms:identifier "EAID_051FB82B_E809_143E_3F7B_273ED24D1E2E" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/datatypes/> ;
     rdfs:subClassOf skos:Concept .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "CdSrtInkomstenverhouding"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding"^^xsd:anyURI ;
     mim:naam "CdSrtInkomstenverhouding"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/11-loon-of-salaris-ambtenaren-in-de-zin-van-de-ambtenarenwet>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/11-loon-of-salaris-ambtenaren-in-de-zin-van-de-ambtenarenwet-1929>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/12-loon-of-salaris-werknemers-van-gepremieerde-gesubsidieerde-of-gebudgetteerde-instellingen-inclusief-uitvoeringsorganen-sociale-zekerheden>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/13-loon-of-salaris-directeuren-van-een-nv-bv-wel-verzekerd-voor-de-werknemersverzekeringen>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/14-loon-of-salaris-overige-werknemers-niet-verzekerd-voor-de-wet-werk-en-inkomen-naar-arbeidsvermogen-wia-of-wao>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/15-loon-of-salaris-niet-onder-te-brengen-onder-11-13-of-17>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/15-loon-of-salaris-niet-onder-te-brengen-onder-11-tot-en-met-14-of-17>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/17-loon-of-salaris-directeuren-van-een-nv-bv-niet-verzekerd-voor-de-werknemersverzekeringen>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/18-wachtgeld-van-een-overheidsinstelling>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/21-overige-pensioenen-lijfrenten-enz-niet-23-oorlogs-en-verzetspensioenen>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/22-uitkering-in-het-kader-van-de-algemene-ouderdomswet-aow>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/23-oorlogs-en-verzetspensioenen>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/24-uitkering-in-het-kader-van-de-algemene-nabestaandenwet-anw>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/31-uitkering-in-het-kader-van-de-ziektewet-zw-en-vrijwillige-verzekering-ziektewet>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/32-uitkering-in-het-kader-van-de-wet-op-de-arbeids-ongeschiktheidsverzekering-wao-en-particuliere-verzekering-ziekte-invaliditeit-en-ongeval>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/33-uitkering-in-het-kader-van-de-nieuwe-werkloosheidswet-nww>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/34-uitkering-in-het-kader-van-de-wet-inkomensvoorziening-oudere-en-gedeeltelijk-arbeidsongeschikte-werkloze-werknemers-ioaw>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/35-vervolguitkering-in-het-kader-van-de-nieuwe-werkloosheidswet-nww>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/36-uitkering-in-het-kader-van-de-wet-arbeidsongeschiktheidsverzekering-zelfstandigen-waz>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/37-wet-arbeidsongeschiktheidsvoorziening-jonggehandicapten-wajong>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/37-wet-werk-en-ondersteuning-jonggehandicapten-wajong>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/38-samenloop-gelijktijdig-of-volgtijdelijk-van-uitkeringen-van-wajong-met-waz-wao-iva-of-wga>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/39-uitkering-in-het-kader-van-de-regeling-inkomensvoorziening-volledig-arbeidsongeschikten-iva>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/40-uitkering-in-het-kader-van-de-regeling-werkhervatting-gedeeltelijk-arbeidsgeschikten-wga>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/42-uitkering-in-het-kader-van-bijstandsbesluit-zelfstandigen-bbz>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/43-uitkering-in-het-kader-van-de-participatiewet>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/43-uitkering-in-het-kader-van-de-participatiewet-voorheen-wwb>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/44-uitkering-in-het-kader-van-de-wet-werk-en-inkomen-wwik>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/45-uitkering-in-het-kader-van-de-wet-inkomensvoorziening-oudere-en-gedeeltelijk-arbeidsongeschikte-gewezen-zelfstandigen-ioaz>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/46-uitkering-uit-hoofde-van-de-toeslagenwet>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/50-uitkeringen-in-het-kader-van-overige-sociale-verzekeringswetten-hieronder-vallen-tevens-ongevallenwet-1921-land-en-tuinbouwongevallenwet-1922-en-zeeongevallenwet-1919-niet-22-24-tot-en-met-45-51-of-52>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/50-uitkeringen-in-het-kader-van-overige-sociale-verzekeringswetten-hieronder-vallen-tevens-ongevallenwet-1921-land-en-tuinbouwongevallenwet-1922-en-zeeongevallenwet-1919-niet-22-of-24-tot-en-met-45>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/51-uitkering-in-het-kader-van-de-wet-investeren-in-jongeren-wij>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/52-uitkering-in-het-kader-van-de-wet-inkomensvoorziening-oudere-werklozen-iow>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/53-uitkering-in-het-kader-van-de-vitaliteitsregeling>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/54-opname-levenslooptegoed-door-een-werknemer-die-op-1-januari-61-jaar-of-ouder-is>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/55-uitkering-in-het-kader-van-de-algemene-pensioenwet-politieke-ambtsdragers-appa>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/56-ouderdomspensioen-dat-via-de-werkgever-is-opgebouwd>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/56-ouderdomspensioen-dat-via-de-werkgever-is-opgebouwd-of-ouderdomspensioen-opgebouwd-via-een-verplichte-beroepspensioenregeling-bedrijfstakpensioenregeling>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/57-nabestaandenpensioen-dat-via-de-werkgever-is-opgebouwd>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/57-nabestaandenpensioen-dat-via-de-werkgever-is-opgebouwd-of-nabestaandenpensioen-opgebouwd-via-een-verplichte-beroepspensioenregeling-bedrijfstakpensioenregeling>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/58-arbeidsongeschiktheidspensioen-dat-via-de-werkgever-is-opgebouwd>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/58-arbeidsongeschiktheidspensioen-dat-via-de-werkgever-is-opgebouwd-of-arbeidsongeschiktheidspensioen-opgebouwd-via-een-verplichte-beroepspensioenregeling-bedrijfstakpensioenregeling>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/59-lijfrenten-die-zijn-afgesloten-in-het-kader-van-een-individuele-of-collectieve-arbeidsovereenkomst>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/60-lijfrenten-die-niet-zijn-afgesloten-in-het-kader-van-een-individuele-of-collectieve-arbeidsovereenkomst>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/61-aanvulling-van-de-werkgever-aan-een-werknemer-op-een-uitkering-werknemersverzekeringen-terwijl-de-dienstbetrekking-is-be-indigd>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/62-ontslagvergoeding-transitievergoeding>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/cdsrtinkomstenverhouding/63-overige-niet-hiervoor-aangegeven-pensioenen-of-samenloop-van-meerdere-pensioenen-lijfrenten-of-een-betaling-op-grond-van-een-afspraak-na-einde-dienstbetrekking> ;
-    dcterms:identifier "EAID_8f2d5916_3ea9_446d_a346_fb95464659e2" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/> ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/11-loon-of-salaris-ambtenaren-in-de-zin-van-de-ambtenarenwet>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/11-loon-of-salaris-ambtenaren-in-de-zin-van-de-ambtenarenwet-1929>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/12-loon-of-salaris-werknemers-van-gepremieerde-gesubsidieerde-of-gebudgetteerde-instellingen-inclusief-uitvoeringsorganen-sociale-zekerheden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/13-loon-of-salaris-directeuren-van-een-nv-bv-wel-verzekerd-voor-de-werknemersverzekeringen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/14-loon-of-salaris-overige-werknemers-niet-verzekerd-voor-de-wet-werk-en-inkomen-naar-arbeidsvermogen-wia-of-wao>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/15-loon-of-salaris-niet-onder-te-brengen-onder-11-13-of-17>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/15-loon-of-salaris-niet-onder-te-brengen-onder-11-tot-en-met-14-of-17>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/17-loon-of-salaris-directeuren-van-een-nv-bv-niet-verzekerd-voor-de-werknemersverzekeringen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/18-wachtgeld-van-een-overheidsinstelling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/21-overige-pensioenen-lijfrenten-enz-niet-23-oorlogs-en-verzetspensioenen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/22-uitkering-in-het-kader-van-de-algemene-ouderdomswet-aow>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/23-oorlogs-en-verzetspensioenen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/24-uitkering-in-het-kader-van-de-algemene-nabestaandenwet-anw>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/31-uitkering-in-het-kader-van-de-ziektewet-zw-en-vrijwillige-verzekering-ziektewet>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/32-uitkering-in-het-kader-van-de-wet-op-de-arbeids-ongeschiktheidsverzekering-wao-en-particuliere-verzekering-ziekte-invaliditeit-en-ongeval>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/33-uitkering-in-het-kader-van-de-nieuwe-werkloosheidswet-nww>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/34-uitkering-in-het-kader-van-de-wet-inkomensvoorziening-oudere-en-gedeeltelijk-arbeidsongeschikte-werkloze-werknemers-ioaw>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/35-vervolguitkering-in-het-kader-van-de-nieuwe-werkloosheidswet-nww>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/36-uitkering-in-het-kader-van-de-wet-arbeidsongeschiktheidsverzekering-zelfstandigen-waz>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/37-wet-arbeidsongeschiktheidsvoorziening-jonggehandicapten-wajong>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/37-wet-werk-en-ondersteuning-jonggehandicapten-wajong>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/38-samenloop-gelijktijdig-of-volgtijdelijk-van-uitkeringen-van-wajong-met-waz-wao-iva-of-wga>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/39-uitkering-in-het-kader-van-de-regeling-inkomensvoorziening-volledig-arbeidsongeschikten-iva>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/40-uitkering-in-het-kader-van-de-regeling-werkhervatting-gedeeltelijk-arbeidsgeschikten-wga>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/42-uitkering-in-het-kader-van-bijstandsbesluit-zelfstandigen-bbz>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/43-uitkering-in-het-kader-van-de-participatiewet>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/43-uitkering-in-het-kader-van-de-participatiewet-voorheen-wwb>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/44-uitkering-in-het-kader-van-de-wet-werk-en-inkomen-wwik>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/45-uitkering-in-het-kader-van-de-wet-inkomensvoorziening-oudere-en-gedeeltelijk-arbeidsongeschikte-gewezen-zelfstandigen-ioaz>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/46-uitkering-uit-hoofde-van-de-toeslagenwet>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/50-uitkeringen-in-het-kader-van-overige-sociale-verzekeringswetten-hieronder-vallen-tevens-ongevallenwet-1921-land-en-tuinbouwongevallenwet-1922-en-zeeongevallenwet-1919-niet-22-24-tot-en-met-45-51-of-52>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/50-uitkeringen-in-het-kader-van-overige-sociale-verzekeringswetten-hieronder-vallen-tevens-ongevallenwet-1921-land-en-tuinbouwongevallenwet-1922-en-zeeongevallenwet-1919-niet-22-of-24-tot-en-met-45>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/51-uitkering-in-het-kader-van-de-wet-investeren-in-jongeren-wij>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/52-uitkering-in-het-kader-van-de-wet-inkomensvoorziening-oudere-werklozen-iow>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/53-uitkering-in-het-kader-van-de-vitaliteitsregeling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/54-opname-levenslooptegoed-door-een-werknemer-die-op-1-januari-61-jaar-of-ouder-is>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/55-uitkering-in-het-kader-van-de-algemene-pensioenwet-politieke-ambtsdragers-appa>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/56-ouderdomspensioen-dat-via-de-werkgever-is-opgebouwd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/56-ouderdomspensioen-dat-via-de-werkgever-is-opgebouwd-of-ouderdomspensioen-opgebouwd-via-een-verplichte-beroepspensioenregeling-bedrijfstakpensioenregeling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/57-nabestaandenpensioen-dat-via-de-werkgever-is-opgebouwd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/57-nabestaandenpensioen-dat-via-de-werkgever-is-opgebouwd-of-nabestaandenpensioen-opgebouwd-via-een-verplichte-beroepspensioenregeling-bedrijfstakpensioenregeling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/58-arbeidsongeschiktheidspensioen-dat-via-de-werkgever-is-opgebouwd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/58-arbeidsongeschiktheidspensioen-dat-via-de-werkgever-is-opgebouwd-of-arbeidsongeschiktheidspensioen-opgebouwd-via-een-verplichte-beroepspensioenregeling-bedrijfstakpensioenregeling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/59-lijfrenten-die-zijn-afgesloten-in-het-kader-van-een-individuele-of-collectieve-arbeidsovereenkomst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/60-lijfrenten-die-niet-zijn-afgesloten-in-het-kader-van-een-individuele-of-collectieve-arbeidsovereenkomst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/61-aanvulling-van-de-werkgever-aan-een-werknemer-op-een-uitkering-werknemersverzekeringen-terwijl-de-dienstbetrekking-is-be-indigd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/62-ontslagvergoeding-transitievergoeding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdsrtinkomstenverhouding/63-overige-niet-hiervoor-aangegeven-pensioenen-of-samenloop-van-meerdere-pensioenen-lijfrenten-of-een-betaling-op-grond-van-een-afspraak-na-einde-dienstbetrekking> ;
+    dcterms:identifier "EAID_1CFCC259_4648_55CC_95EC_273ED24D398A" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/> ;
     rdfs:subClassOf skos:Concept .
 

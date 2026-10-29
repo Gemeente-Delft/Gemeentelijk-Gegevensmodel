@@ -108,6 +108,9 @@ nav:
             - 'Inkomen: Terug- en invordering (GBI)': definities/definitie_Model Terug- en invordering.md
             - 'Inkomen: Normafwijking (GBI)': definities/definitie_Model Normafwijking.md
             - 'Inkomen: Dienstenmodel (GBI)': definities/definitie_Model Diensten.md
+            - 'Inkomen: Datatypes Dienstenmodel (GBI)': definities/definitie_Datatypes (Diensten).md
+            - 'Inkomen: Datatypes Reden aanvraag (GBI)': definities/definitie_Datatypes (Reden aanvraag).md
+            - 'Inkomen: Datatypes Terug- en invordering (GBI)': definities/definitie_Datatypes (Terug- en invordering).md
         - 'Wmo en Jeugd': definities/definitie_Model Jeugd en Wmo Generiek.md
         - 'Inburgering': definities/definitie_Model Inburgering.md
         - 'Schulden': 
@@ -121,10 +124,13 @@ nav:
             - 'Generieke definities Sociaal Domein': definities/definitie_Model Sociaal Domein Generiek.md
             - 'Generiek: Profiel inkomsten': definities/definitie_Model Inkomsten.md
             - 'Generiek: Profiel vermogen': definities/definitie_Model Vermogen.md
+            - 'Generiek: Datatypes profiel inkomsten': definities/definitie_Datatypes (Inkomsten).md
+            - 'Generiek: Datatypes profiel vermogen': definities/definitie_Datatypes (Vermogen).md
     - 'Volksgezondheid en milieu':
         - 'Afval': definities/definitie_Model Afval.md
     - 'Volkshuisvesting, leefomgeving en stedelijke vernieuwing':
         - 'Openbare ruimte': definities/definitie_Model Beheer Openbare Ruimte.md
+        - 'Openbare ruimte: Enumeraties (IMBOR)': definities/definitie_Enumeratiesoort (Model Basis IMBOR).md
         - 'Bouwen en Wonen': definities/definitie_Model Wonen.md
         - 'Omgevingswet': definities/definitie_Model Omgevingswet.md
     - 'Interne organisatie':
@@ -137,8 +143,10 @@ nav:
         - 'Financiën': definities/definitie_Model Financien.md
     - 'Dienstverlening': definities/definitie_Model Dienstverlening.md
     - 'Kern':
-        - 'RSGB': definities/definitie_Model Kern RSGB.md
+        - 'RSGB': definities/definitie_Model Kern RSGB (RSGB Model).md
         - 'RGBZ': definities/definitie_Model Kern RGBZ.md
+        - 'RSGB: Enumeraties': definities/definitie_Enumeratiesoort (RSGB Model).md
+        - 'RGBZ: Enumeraties': definities/definitie_Enumeratiesoort (Model RGBZ).md
         - 'BAG': definities/definitie_Model BAG.md
         - 'Generieke definities Kern': definities/definitie_Model Generiek.md
  # - Gebruik: gebruik.md
@@ -160,9 +168,11 @@ nav:
 
 not_in_nav: |
   /definities/definitie_Complex datatype.md
-  /definities/definitie_Datatypes.md
+  /definities/definitie_Datatypes (Normafwijking).md
   /definities/definitie_Diagram.md
-  /definities/definitie_Groepattribuutsoort.md
+  /definities/definitie_Groepattribuutsoort (Model RGBZ).md
+  /definities/definitie_Groepattribuutsoort (RSGB Model).md
+  /definities/definitie_Model Kern RSGB (archief).md
   /definities/definitie_Metagegevens.md
   /definities/definitie_Model Aanvragen en Meldingen.md
   /definities/definitie_Model IMBOR.md

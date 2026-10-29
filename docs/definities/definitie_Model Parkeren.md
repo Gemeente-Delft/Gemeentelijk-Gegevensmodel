@@ -597,43 +597,6 @@ Attributen van objecttype Voertuig
 ## Enumeraties Model Parkeren
 
 
-### Boolean
-Geen Definitie
-
-Het enumeratie Boolean kent de volgende waarden:
-
-* **Ja**: 
-* **Nee**: 
-* **Onbekend**: 
-* **Leeg**: 
-
-
-De enumeratie Boolean heeft de volgende kenmerken:
-
-??? info "Kenmerken Model Boolean"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | Boolean |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.10.0 |
-    | created | 2025-03-26 11:13:35 |
-    | modified | 2025-12-22 15:27:04 |
-    | id | EAID\_0e5893fa\_7712\_41ed\_87a1\_d9bacabbb660 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
 ### Doelgroepenplaatsen
 Geen Definitie
 

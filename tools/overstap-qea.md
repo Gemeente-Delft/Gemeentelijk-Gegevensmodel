@@ -192,19 +192,24 @@ views, definitiepagina's en ontologie zijn tussen twee runs byte-gelijk. Eenmali
 keer in de documentatie, bij haar eigen pakket. De diff-renderer kan daarnaast nog de typenaam tonen
 waar de typeklasse buiten de scope valt (`<onbekend:EAID_…>`); dat staat nog open.
 
-**Twee nieuwe aandachtspunten voor crunch_uml (gevonden bij de dubbele run).**
+**Twee aandachtspunten uit de dubbele run, opgelost in crunch_uml 0.8.4 (29 oktober 2026).**
 
 - Enumeraties in een pakket zonder klassen (de drie pakketten `Enumeratiesoort` onder RSGB, RGBZ en
-  Basis IMBOR en de `Datatypes`-pakketten, samen 98 enumeraties) krijgen in de LOD de verzamel-IRI
-  `enumeraties/<naam>` in plaats van het pad van hun pakket (`kern/rsgbplus/rsgb/enumeratiesoort/boolean`):
-  de LOD-renderer neemt alleen pakketten met klassen als model, en de rest valt in de
-  "wees"-namespace. Hetzelfde geldt voor de documentatie: de jinja2-renderer maakt alleen een pagina
-  per pakket met klassen, dus de enumeraties van die pakketten staan nergens meer (de pagina Model
-  Kern RSGB ging van 103 naar 47 enumeraties). Dat viel eerder niet op omdat elk model zijn eigen
-  kopieën had en die wél documenteerde. In deze set zijn er geen naamsbotsingen, maar de IRI's volgen
-  niet de pakketboom. Zolang dit open staat zijn de LOD en de documentatie van 0.8.3 niet gepubliceerd
-  en niet gecommit; de TaskFile is wel op 0.8.3 gepind.
-- Het shapes-bestand krijgt per run een andere volgorde van de property shapes: de blank nodes krijgen
-  willekeurige id's en rdflib sorteert daarop (ruim 28.000 verplaatste regels per run). Deterministische
-  blank-node-labels (afgeleid van de IRI van het pad) nemen dat weg. Het raakt alleen het bestand in
-  git, niet de views of de ontologie.
+  Basis IMBOR en vijf `Datatypes`-pakketten, samen 98 enumeraties) kregen in de LOD de wees-IRI
+  `enumeraties/<naam>` en stonden nergens in de documentatie: de renderers namen alleen pakketten met
+  klassen als model (`getModels()`), en de kopieën van vóór 0.8.3 verborgen dat. Sinds 0.8.4 is een
+  model een pakket met klassen óf enumeraties. Resultaat: 69 definitiepagina's (was 59), alle 388
+  enumeraties precies één keer gedocumenteerd (was 335 secties met kopieën, daarna 142), geen
+  wees-IRI's meer (`kern/rsgbplus/rsgb/enumeratiesoort/boolean`), de pakketten zijn `mim:Domein` in de
+  hiërarchie. Bijvangst: gelijknamige pakketten overschreven elkaars pagina. Een naam die vaker voorkomt
+  krijgt nu het bovenliggende pakket erachter: `Datatypes (Reden aanvraag)`, `Enumeratiesoort (RSGB
+  Model)`, `Groepattribuutsoort (Model RGBZ)` naast `(RSGB Model)`, en `Model Kern RSGB (RSGB Model)`
+  naast `Model Kern RSGB (archief)`: onder `RSGB Model` staat een pakket `archief` met een oude kopie
+  van Model Kern RSGB (14 klassen) die al sinds 0.8.0 in de LOD zit (`kern/rsgbplus/rsgb/archief/kern-rsgb/`).
+  De navigatie (`mkdocs.yml`) wijst naar de echte pagina en heeft nieuwe ingangen voor de
+  enumeratie- en datatypepagina's; de archiefpagina, de Groepattribuutsoort-pagina's en `Datatypes
+  (Normafwijking)` staan in `not_in_nav`. Of het archiefpakket uit docs en LOD moet
+  (`--output_exclude_package_names`), is een keuze voor de beheerder.
+- Het shapes-bestand kreeg per run een andere volgorde van de property shapes (willekeurige
+  blank-node-id's, rdflib sorteert erop). Sinds 0.8.4 dragen de blank nodes een label uit shape en pad;
+  ontologie, shapes, views en definities zijn tussen twee geforceerde runs byte-gelijk.

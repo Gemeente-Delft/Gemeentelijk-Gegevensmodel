@@ -217,6 +217,125 @@
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/andere-wet> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    rdfs:label "Andere wet"@nl ;
+    mim:code "3" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/andere-wet"^^xsd:anyURI ;
+    mim:naam "Andere wet"@nl ;
+    dcterms:identifier "EAID_F5C54F95_641F_4a5b_AAFF_3210423034CC" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "3" ;
+    skos:prefLabel "Andere wet"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/bijzondere-bijstand> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    rdfs:label "Bijzondere Bijstand"@nl ;
+    mim:code "6" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/bijzondere-bijstand"^^xsd:anyURI ;
+    mim:naam "Bijzondere Bijstand"@nl ;
+    dcterms:identifier "EAID_36E70B43_1CFA_4201_B747_89A381E33DA6" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "6" ;
+    skos:prefLabel "Bijzondere Bijstand"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/i-o-a-w-i-o-a-z> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    rdfs:label "I.O.A.W./I.O.A.Z."@nl ;
+    mim:code "5" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/i-o-a-w-i-o-a-z"^^xsd:anyURI ;
+    mim:naam "I.O.A.W./I.O.A.Z."@nl ;
+    dcterms:identifier "EAID_1470E5EF_B26A_4ba2_8190_2E5803ACA303" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "5" ;
+    skos:prefLabel "I.O.A.W./I.O.A.Z."@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/jeugdwet> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    rdfs:label "Jeugdwet"@nl ;
+    mim:code "2" ;
+    mim:definitie "dere"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/jeugdwet"^^xsd:anyURI ;
+    mim:naam "Jeugdwet"@nl ;
+    dcterms:identifier "EAID_9D7FFD3C_99F1_4170_9407_51C836617B41" ;
+    skos:definition "dere"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "2" ;
+    skos:prefLabel "Jeugdwet"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_3DE857DE_5AE1_4198_A779_57921204109F" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "-2" ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/niet-van-toepassing> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    rdfs:label "Niet van toepassing"@nl ;
+    mim:code "0" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/niet-van-toepassing"^^xsd:anyURI ;
+    mim:naam "Niet van toepassing"@nl ;
+    dcterms:identifier "EAID_6AA2A690_274B_4d98_9FEC_1BF082E06750" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "0" ;
+    skos:prefLabel "Niet van toepassing"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_CC25D5AB_9F57_49f9_B924_99821B0FA5E0" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "-1" ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/participatiewet-pw-i> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    rdfs:label "Participatiewet PW-I"@nl ;
+    mim:code "4" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/participatiewet-pw-i"^^xsd:anyURI ;
+    mim:naam "Participatiewet PW-I"@nl ;
+    dcterms:identifier "EAID_3300C780_B581_4660_A7E4_0624B30CCDC0" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "4" ;
+    skos:prefLabel "Participatiewet PW-I"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/wmo> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    rdfs:label "Wmo"@nl ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/wmo"^^xsd:anyURI ;
+    mim:naam "Wmo"@nl ;
+    dcterms:identifier "EAID_BE76A7E6_C025_4f0e_9178_95CABB0B7649" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "1" ;
+    skos:prefLabel "Wmo"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/component/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "bedrag"@nl ;
@@ -1052,11 +1171,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "wet"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
     dcterms:identifier "EAID_D78FB60C_F250_4f70_B8B9_9ED1B2578CA0" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/inkomensvoorzieningsoort> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/regeling/einddatum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1251,125 +1370,6 @@
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/uitkeringsrun> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/> ;
     rdfs:range xsd:string .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/andere-wet> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
-    rdfs:label "Andere wet"@nl ;
-    mim:code "3" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/andere-wet"^^xsd:anyURI ;
-    mim:naam "Andere wet"@nl ;
-    dcterms:identifier "EAID_0b1d6aaf_16c2_40bb_ac43_930ac6bcfc78" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
-    skos:notation "3" ;
-    skos:prefLabel "Andere wet"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/bijzondere-bijstand> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
-    rdfs:label "Bijzondere Bijstand"@nl ;
-    mim:code "6" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/bijzondere-bijstand"^^xsd:anyURI ;
-    mim:naam "Bijzondere Bijstand"@nl ;
-    dcterms:identifier "EAID_f31e33a3_12eb_4aa5_9b66_2995585ca1c7" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
-    skos:notation "6" ;
-    skos:prefLabel "Bijzondere Bijstand"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/i-o-a-w-i-o-a-z> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
-    rdfs:label "I.O.A.W./I.O.A.Z."@nl ;
-    mim:code "5" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/i-o-a-w-i-o-a-z"^^xsd:anyURI ;
-    mim:naam "I.O.A.W./I.O.A.Z."@nl ;
-    dcterms:identifier "EAID_124f3b2f_5d67_4670_b0b3_e2623dd35abb" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
-    skos:notation "5" ;
-    skos:prefLabel "I.O.A.W./I.O.A.Z."@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/jeugdwet> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
-    rdfs:label "Jeugdwet"@nl ;
-    mim:code "2" ;
-    mim:definitie "dere"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/jeugdwet"^^xsd:anyURI ;
-    mim:naam "Jeugdwet"@nl ;
-    dcterms:identifier "EAID_2b7ec78b_5993_4ae6_ab8e_1105f40760f8" ;
-    skos:definition "dere"@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
-    skos:notation "2" ;
-    skos:prefLabel "Jeugdwet"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/leeg> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
-    rdfs:label "Leeg"@nl ;
-    mim:code "-2" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/leeg"^^xsd:anyURI ;
-    mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_33fe0131_ace1_4b54_8dc4_ac85e4bec74a" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
-    skos:notation "-2" ;
-    skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/niet-van-toepassing> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
-    rdfs:label "Niet van toepassing"@nl ;
-    mim:code "0" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/niet-van-toepassing"^^xsd:anyURI ;
-    mim:naam "Niet van toepassing"@nl ;
-    dcterms:identifier "EAID_7c2cb752_6ce5_4d29_a8ba_f155ba4b226a" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
-    skos:notation "0" ;
-    skos:prefLabel "Niet van toepassing"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/onbekend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
-    rdfs:label "Onbekend"@nl ;
-    mim:code "-1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/onbekend"^^xsd:anyURI ;
-    mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_be9ff668_57aa_4e5d_ae60_443a6b90db2b" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
-    skos:notation "-1" ;
-    skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/participatiewet-pw-i> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
-    rdfs:label "Participatiewet PW-I"@nl ;
-    mim:code "4" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/participatiewet-pw-i"^^xsd:anyURI ;
-    mim:naam "Participatiewet PW-I"@nl ;
-    dcterms:identifier "EAID_61272644_15a5_4ed1_94c3_47aaafbba71d" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
-    skos:notation "4" ;
-    skos:prefLabel "Participatiewet PW-I"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/wmo> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
-    rdfs:label "Wmo"@nl ;
-    mim:code "1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/wmo"^^xsd:anyURI ;
-    mim:naam "Wmo"@nl ;
-    dcterms:identifier "EAID_fb64c363_3820_4a3e_b287_0f149ab8aa12" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
-    skos:notation "1" ;
-    skos:prefLabel "Wmo"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/code> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1602,22 +1602,22 @@ Dit is vergelijkbaar met **betaling- of payroll runs** in financiële systemen w
     rdfs:comment "Een voorziening die voorziet in inkomen conform landelijke wetgeving, zoals bijstand, bijzondere bijstand, IOAW of IOAZ. Een inkomensvoorziening is opgebouwd uit componenten en gekoppeld aan een cli&#235;nt via een regeling."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Wet"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet"^^xsd:anyURI ;
     mim:naam "Wet"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/andere-wet>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/bijzondere-bijstand>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/i-o-a-w-i-o-a-z>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/jeugdwet>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/niet-van-toepassing>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/onbekend>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/participatiewet-pw-i>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/wmo> ;
-    dcterms:identifier "EAID_0af44a30_18ca_4d66_9689_df9b89d7d264" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/> ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/andere-wet>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/bijzondere-bijstand>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/i-o-a-w-i-o-a-z>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/jeugdwet>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/niet-van-toepassing>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/onbekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/participatiewet-pw-i>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/wmo> ;
+    dcterms:identifier "EAID_3CDE785E_E631_4f94_A1A3_67F721140B1C" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> ;
     rdfs:subClassOf skos:Concept .
 
