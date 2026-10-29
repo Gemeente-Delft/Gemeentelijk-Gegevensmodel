@@ -48,9 +48,10 @@ vars:
   GGM_PREVIOUS_SCHEMA: "GGM_PREVIOUS_SCHEMA"
   CRUNCH_UML_DB: "./crunch_uml.db"
   # crunch_uml draait in een eigen venv, los van de homebrew-python, met een vaste versie per
-  # release (prepare:venv-crunch bouwt hem bij een versiewissel opnieuw op). Minimaal 0.8.1:
-  # deelmodellen per diagram, losse SHACL-shapes en IRI's langs de pakketboom.
-  CRUNCH_UML_VERSION: "0.8.1"
+  # release (prepare:venv-crunch bouwt hem bij een versiewissel opnieuw op). Minimaal 0.8.2:
+  # deelmodellen per diagram, losse SHACL-shapes, IRI's langs de pakketboom, en een qea-parser
+  # die typenamen, codes van enumeratiewaarden en rolnamen leest (nodig voor import uit de .qea).
+  CRUNCH_UML_VERSION: "0.8.2"
   CRUNCH_VENV: "tools/.venv-crunch"
   CRUNCH: "tools/.venv-crunch/bin/crunch_uml"
   # --- Linked Data -----------------------------------------------------------------------
