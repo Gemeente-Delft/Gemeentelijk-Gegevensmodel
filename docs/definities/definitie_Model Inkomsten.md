@@ -1383,6 +1383,10 @@ Geen Definitie
 
 Het enumeratie InkomstensoortAlimentatie kent de volgende waarden:
 
+* **Alimentatie ex-echtgenote/echtgenootg (geindexeerd)**: 
+* **Alimentatie ex-echtgenote/echtgenootg (niet geindexeerd)**: 
+* **Alimentatie kinderen (geindexeerd)**: 
+* **Alimentatie kinderen (niet geindexeerd)**: 
 
 
 De enumeratie InkomstensoortAlimentatie heeft de volgende kenmerken:
@@ -1400,7 +1404,7 @@ De enumeratie InkomstensoortAlimentatie heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:49 |
-    | id | EAID\_be024270\_87f2\_4c4f\_ab8e\_d9e95d1bbfe5 |
+    | id | EAID\_432ecd34\_d4d5\_4c3b\_80a4\_91dad4f391d3 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1416,6 +1420,8 @@ Geen Definitie
 
 Het enumeratie InkomstensoortBetaaldWerk kent de volgende waarden:
 
+* **Betaald werk**: 
+* **Zelfstandige / ZZP**: 
 
 
 De enumeratie InkomstensoortBetaaldWerk heeft de volgende kenmerken:
@@ -1433,7 +1439,7 @@ De enumeratie InkomstensoortBetaaldWerk heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:53 |
-    | id | EAID\_c9ab9d64\_516d\_4122\_bb54\_7b8fe693388e |
+    | id | EAID\_e9691822\_c6b1\_43cb\_922e\_7252aee667cb |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1449,6 +1455,16 @@ Geen Definitie
 
 Het enumeratie CdUitkeringsperiode kent de volgende waarden:
 
+* **2 weken**: 
+* **4 weken (13 maanden)**: 
+* **5 weken**: 
+* **dag**: 
+* **eenmalig**: 
+* **jaar**: 
+* **kwartaal**: 
+* **maand**: 
+* **niet van toepassing**: 
+* **week**: 
 
 
 De enumeratie CdUitkeringsperiode heeft de volgende kenmerken:
@@ -1466,7 +1482,7 @@ De enumeratie CdUitkeringsperiode heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:30 |
-    | id | EAID\_b7ba7de8\_d762\_47b1\_b9cb\_7ce80d3b8e42 |
+    | id | EAID\_202b3e26\_f5ce\_4375\_a7e6\_ba1fc68d9a75 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1482,6 +1498,11 @@ Geen Definitie
 
 Het enumeratie SoortContract kent de volgende waarden:
 
+* **0-uren contract**: 
+* **Op oproepbasis**: 
+* **Uitzendbureau**: 
+* **Vast contract**: 
+* **Voor bepaalde tijd**: 
 
 
 De enumeratie SoortContract heeft de volgende kenmerken:
@@ -1499,7 +1520,7 @@ De enumeratie SoortContract heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:37:29 |
-    | id | EAID\_643ecea0\_d6b0\_464b\_a984\_0e8637f21d8a |
+    | id | EAID\_cbdeb47e\_831e\_4b90\_8a47\_e1fe87da675f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1515,6 +1536,8 @@ Geen Definitie
 
 Het enumeratie BrutoNettoInkomsten kent de volgende waarden:
 
+* **Bruto**: 
+* **Netto**: 
 
 
 De enumeratie BrutoNettoInkomsten heeft de volgende kenmerken:
@@ -1532,7 +1555,7 @@ De enumeratie BrutoNettoInkomsten heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:15 |
-    | id | EAID\_91310d81\_8e50\_441c\_881f\_82da4aedeef5 |
+    | id | EAID\_afeab853\_61f5\_461d\_b094\_8dc32a2fe22e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1548,6 +1571,18 @@ Geen Definitie
 
 Het enumeratie Inkomstencomponenttype kent de volgende waarden:
 
+* **Alimentatie**: 
+* **Ander inkomen**: 
+* **Betaald werk**: 
+* **Eigen bedrijf**: 
+* **Heffingskorting**: 
+* **Hobby**: 
+* **Inkomstenvermindering**: 
+* **Pensioen**: 
+* **Stage**: 
+* **Studiefinanciering**: 
+* **Uitkering**: 
+* **Vergoeding**: 
 
 
 De enumeratie Inkomstencomponenttype heeft de volgende kenmerken:
@@ -1565,7 +1600,7 @@ De enumeratie Inkomstencomponenttype heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:42 |
-    | id | EAID\_25b94a6b\_5334\_4427\_bcc0\_4aaf8879ff61 |
+    | id | EAID\_0dac67f1\_c3fb\_4afa\_8ed0\_830851cb199e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1581,6 +1616,54 @@ Geen Definitie
 
 Het enumeratie CdSrtInkomstenverhouding kent de volgende waarden:
 
+* **11 Loon of salaris ambtenaren in de zin van de Ambtenarenwet**: 
+* **11 Loon of salaris ambtenaren in de zin van de Ambtenarenwet 1929**: 
+* **12 Loon of salaris werknemers van gepremieerde, gesubsidieerde of gebudgetteerde instellingen, inclusief uitvoeringsorganen sociale zekerheden**: 
+* **13 Loon of salaris directeuren van een nv/bv, wel verzekerd voor de werknemersverzekeringen**: 
+* **14 Loon of salaris overige werknemers niet verzekerd voor de Wet Werk en inkomen naar Arbeidsvermogen (WIA) of WAO**: 
+* **15 Loon of salaris niet onder te brengen onder 11 tot en met 14 of 17**: 
+* **15 Loon of salaris niet onder te brengen onder 11, 13 of 17**: 
+* **17 Loon of salaris directeuren van een nv/bv, niet verzekerd voor de werknemersverzekeringen**: 
+* **18 Wachtgeld van een overheidsinstelling**: 
+* **21 Overige pensioenen, lijfrenten, enz. (niet 23 (Oorlogs- en verzetspensioenen))**: 
+* **22 Uitkering in het kader van de Algemene Ouderdomswet (AOW)**: 
+* **23 Oorlogs- en verzetspensioenen**: 
+* **24 Uitkering in het kader van de Algemene nabestaandenwet (ANW)**: 
+* **31 Uitkering in het kader van de Ziektewet (ZW) en vrijwillige verzekering Ziektewet**: 
+* **32 Uitkering in het kader van de Wet op de Arbeids-ongeschiktheidsverzekering (WAO) en particuliere verzekering ziekte, invaliditeit en ongeval**: 
+* **33 Uitkering in het kader van de Nieuwe Werkloosheidswet (nWW)**: 
+* **34 Uitkering in het kader van de Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte werkloze werknemers (IOAW)**: 
+* **35 Vervolguitkering in het kader van de Nieuwe Werkloosheidswet (nWW)**: 
+* **36 Uitkering in het kader van de Wet arbeidsongeschiktheidsverzekering zelfstandigen (Waz)**: 
+* **37 Wet arbeidsongeschiktheidsvoorziening jonggehandicapten (Wajong)**: 
+* **37 Wet werk en ondersteuning jonggehandicapten (Wajong)**: 
+* **38 Samenloop (gelijktijdig of volgtijdelijk) van uitkeringen van Wajong met Waz, WAO/IVA of WGA**: 
+* **39 Uitkering in het kader van de Regeling inkomensvoorziening volledig arbeidsongeschikten (IVA)**: 
+* **40 Uitkering in het kader van de Regeling werkhervatting gedeeltelijk arbeidsgeschikten WGA)**: 
+* **42 Uitkering in het kader van bijstandsbesluit Zelfstandigen (Bbz)**: 
+* **43 Uitkering in het kader van de Participatiewet**: 
+* **43 Uitkering in het kader van de Participatiewet (voorheen WWB)**: 
+* **44 Uitkering in het kader van de Wet Werk en Inkomen (WWIK)**: 
+* **45 Uitkering in het kader van de Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte gewezen zelfstandigen (IOAZ)**: 
+* **46 Uitkering uit hoofde van de Toeslagenwet**: 
+* **50 Uitkeringen in het kader van overige sociale verzekeringswetten, hieronder vallen tevens: Ongevallenwet 1921, Land- en tuinbouwongevallenwet 1922 en Zeeongevallenwet 1919 (niet 22 of 24 tot en met 45)**: 
+* **50 Uitkeringen in het kader van overige sociale verzekeringswetten, hieronder vallen tevens: Ongevallenwet 1921, Land- en tuinbouwongevallenwet 1922 en Zeeongevallenwet 1919 (niet 22, 24 tot en met 45, 51 of 52)**: 
+* **51 Uitkering in het kader van de Wet Investeren in Jongeren (WIJ)**: 
+* **52 Uitkering in het kader van de wet Inkomensvoorziening Oudere Werklozen (IOW)**: 
+* **53 Uitkering in het kader van de vitaliteitsregeling**: 
+* **54 Opname levenslooptegoed door een werknemer die op 1 januari 61 jaar of ouder is**: 
+* **55 Uitkering in het kader van de Algemene Pensioenwet Politieke Ambtsdragers (APPA)**: 
+* **56 Ouderdomspensioen dat via de werkgever is opgebouwd**: 
+* **56 Ouderdomspensioen dat via de werkgever is opgebouwd of ouderdomspensioen opgebouwd via een verplichte beroepspensioenregeling/ bedrijfstakpensioenregeling**: 
+* **57 Nabestaandenpensioen dat via de werkgever is opgebouwd**: 
+* **57 Nabestaandenpensioen dat via de werkgever is opgebouwd of nabestaandenpensioen opgebouwd via een verplichte beroepspensioenregeling/ bedrijfstakpensioenregeling**: 
+* **58 Arbeidsongeschiktheidspensioen dat via de werkgever is opgebouwd**: 
+* **58 Arbeidsongeschiktheidspensioen dat via de werkgever is opgebouwd of arbeidsongeschiktheidspensioen opgebouwd via een verplichte beroepspensioenregeling/ bedrijfstakpensioenregeling**: 
+* **59 Lijfrenten die zijn afgesloten in het kader van een individuele of collectieve arbeidsovereenkomst**: 
+* **60 Lijfrenten die niet zijn afgesloten in het kader van een individuele of collectieve arbeidsovereenkomst**: 
+* **61 Aanvulling van de werkgever aan een werknemer op een uitkering werknemersverzekeringen, terwijl de dienstbetrekking is beëindigd**: 
+* **62 Ontslagvergoeding / transitievergoeding**: 
+* **63 Overige, niet hiervoor aangegeven, pensioenen of samenloop van meerdere pensioenen/lijfrenten of een betaling op grond van een afspraak na einde dienstbetrekking**: 
 
 
 De enumeratie CdSrtInkomstenverhouding heeft de volgende kenmerken:
@@ -1598,7 +1681,7 @@ De enumeratie CdSrtInkomstenverhouding heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:20 |
-    | id | EAID\_28f421a7\_135d\_4441\_bdd6\_96b2d5f4e2ab |
+    | id | EAID\_df0961dd\_77e2\_4b17\_b6bf\_413143db9fd9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1614,6 +1697,8 @@ Geen Definitie
 
 Het enumeratie Onderhoudsplichttype kent de volgende waarden:
 
+* **Kind**: 
+* **Partner**: 
 
 
 De enumeratie Onderhoudsplichttype heeft de volgende kenmerken:
@@ -1631,7 +1716,7 @@ De enumeratie Onderhoudsplichttype heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:37:20 |
-    | id | EAID\_a591922f\_665a\_450c\_a914\_6f3e60a22c2e |
+    | id | EAID\_30fb7747\_0db4\_4a9d\_9dfd\_fd22a06e5bcc |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1647,6 +1732,12 @@ Geen Definitie
 
 Het enumeratie InkomstensoortPensioen kent de volgende waarden:
 
+* **Bedrijfspensioen**: 
+* **Buitenlands pensioen**: 
+* **Invaliditeitspensioen**: 
+* **Nabestaandepensioen (weduwe/weduwnaar)**: 
+* **Nabestaandepensioen (wezen)**: 
+* **Pensioen ivm oorlog**: 
 
 
 De enumeratie InkomstensoortPensioen heeft de volgende kenmerken:
@@ -1664,7 +1755,7 @@ De enumeratie InkomstensoortPensioen heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:59 |
-    | id | EAID\_7b9288d5\_e81a\_4b3c\_a1a1\_541e793e4e55 |
+    | id | EAID\_dcde1ee5\_234a\_4396\_afaf\_9c8b16e37d76 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1680,6 +1771,16 @@ Geen Definitie
 
 Het enumeratie CdUitkeringsperiode kent de volgende waarden:
 
+* **2 weken**: 
+* **4 weken (13 maanden)**: 
+* **5 weken**: 
+* **dag**: 
+* **eenmalig**: 
+* **jaar**: 
+* **kwartaal**: 
+* **maand**: 
+* **niet van toepassing**: 
+* **week**: 
 
 
 De enumeratie CdUitkeringsperiode heeft de volgende kenmerken:
@@ -1697,7 +1798,7 @@ De enumeratie CdUitkeringsperiode heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:30 |
-    | id | EAID\_2286209b\_8951\_462e\_b68b\_f05523b7b682 |
+    | id | EAID\_0ec0cc90\_9060\_4aab\_80d8\_9aface58f60f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1713,6 +1814,16 @@ Geen Definitie
 
 Het enumeratie CdUitkeringsperiode kent de volgende waarden:
 
+* **2 weken**: 
+* **4 weken (13 maanden)**: 
+* **5 weken**: 
+* **dag**: 
+* **eenmalig**: 
+* **jaar**: 
+* **kwartaal**: 
+* **maand**: 
+* **niet van toepassing**: 
+* **week**: 
 
 
 De enumeratie CdUitkeringsperiode heeft de volgende kenmerken:
@@ -1730,7 +1841,7 @@ De enumeratie CdUitkeringsperiode heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:30 |
-    | id | EAID\_fb3824ce\_9f1a\_4206\_942b\_6a4093258bac |
+    | id | EAID\_d3df01ce\_0a17\_4cdb\_a527\_9384e535a090 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1746,6 +1857,8 @@ Geen Definitie
 
 Het enumeratie InkomstensoortStudiefinanciering kent de volgende waarden:
 
+* **WSF**: 
+* **WTOS**: 
 
 
 De enumeratie InkomstensoortStudiefinanciering heeft de volgende kenmerken:
@@ -1763,7 +1876,7 @@ De enumeratie InkomstensoortStudiefinanciering heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:37:04 |
-    | id | EAID\_a332250b\_4cce\_47ed\_acba\_c4229290b901 |
+    | id | EAID\_30830314\_5b3d\_45c8\_affb\_a31feb854f58 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1779,6 +1892,60 @@ Geen Definitie
 
 Het enumeratie CdSzWet kent de volgende waarden:
 
+* **(Tijdelijke Wet) Beperking Inkomensgevolgen Arbeidsongeschiktheidscriteria**: 
+* **(voormalige) Algemene Arbeidsongeschiktheidswet**: 
+* **(voormalige) Algemene Weduwen en Wezenwet**: 
+* **(voormalige) Rijksgroepregeling Werkloze Werknemers**: 
+* **Algemene bijstand (regeling)**: 
+* **Algemene Bijstandswet**: 
+* **Algemene Kinderbijslagwet**: 
+* **Algemene Nabestaandenwet**: 
+* **Algemene Ouderdomswet**: 
+* **Algemene Wet Bijzondere Ziektekosten**: 
+* **AOW-Overbruggingsregeling**: 
+* **AOW-Overbruggingsregeling**: 
+* **Besluit Bijstandverlening Zelfstandigen**: 
+* **Besluit Bijstandverlening Zelfstandigen – Bedrijfskapitaal**: 
+* **Besluit Bijstandverlening Zelfstandigen – Bijzondere Bijstand**: 
+* **Besluit Bijstandverlening Zelfstandigen – Levensonderhoud**: 
+* **Bijzondere Bijstand**: 
+* **Coördinatiewet Sociale Verzekering**: 
+* **Internationale wetten**: 
+* **Koninklijk besluit en aanverwante regelingen**: 
+* **Kopjesregeling**: 
+* **Organisatiewet Sociale Verzekering**: 
+* **Participatiewet Wajong**: 
+* **pensioenwetten**: 
+* **Regeling Inkomensvoorziening Volledig Arbeidsongeschikten**: 
+* **Regeling Werkhervatting Gedeeltelijk Arbeidsgeschikten**: 
+* **Remigratiewet**: 
+* **Tijdelijke Regeling Inkomensgevolgen herbeoordeelde arbeidsongeschikten**: 
+* **Toeslagenwet**: 
+* **VUT-regeling**: 
+* **Werkhervattingskas**: 
+* **Werkloosheidswet**: 
+* **Werkloosheidswet Faillissementen**: 
+* **Wet Arbeid en Zorg**: 
+* **Wet Arbeidsongeschiktheidsverzekering Zelfstandigen**: 
+* **Wet Arbeidsongeschiktheidsvoorziening Jonggehandicapten (WAJONG)**: 
+* **Wet Arbeidsongeschiktheidsvoorziening Militairen**: 
+* **Wet Inkomensvoorziening Oudere en gedeeltelijk Arbeidsongeschikte gewezen Zelfstandigen**: 
+* **Wet Inkomensvoorziening Oudere en gedeeltelijk Arbeidsongeschikte Werkloze Werknemers**: 
+* **Wet Inkomensvoorziening Oudere Werklozen**: 
+* **Wet Investeren in Jongeren**: 
+* **Wet Maatschappelijke Ondersteuning**: 
+* **Wet op de (RE)integratie Arbeidsgehandicapten**: 
+* **Wet op de Arbeidsongeschiktheidsverzekering**: 
+* **Wet Sociale Werkvooriening**: 
+* **Wet Voorzieningen Gehandicapten**: 
+* **Wet werk en arbeidsondersteuning jonggehandicapten (Wet Wajong)**: 
+* **Wet Werk en Arbeidsondersteuning Jonggehandicapten (Wet Wajong)**: 
+* **Wet Werk en Bijstand**: 
+* **Wet Werk en Inkomen Kunstenaars**: 
+* **Wet Werk en Inkomen naar Arbeidsvermogen**: 
+* **Ziekenfondswet**: 
+* **Ziektewet**: 
+* **Zorgverzekeringswet**: 
 
 
 De enumeratie CdSzWet heeft de volgende kenmerken:
@@ -1796,7 +1963,7 @@ De enumeratie CdSzWet heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:25 |
-    | id | EAID\_904b8f9d\_11e1\_461a\_ae7f\_d61f831050ce |
+    | id | EAID\_64124d38\_b59b\_431c\_97a3\_083c84d387f1 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1812,6 +1979,16 @@ Geen Definitie
 
 Het enumeratie CdUitkeringsperiode kent de volgende waarden:
 
+* **2 weken**: 
+* **4 weken (13 maanden)**: 
+* **5 weken**: 
+* **dag**: 
+* **eenmalig**: 
+* **jaar**: 
+* **kwartaal**: 
+* **maand**: 
+* **niet van toepassing**: 
+* **week**: 
 
 
 De enumeratie CdUitkeringsperiode heeft de volgende kenmerken:
@@ -1829,7 +2006,7 @@ De enumeratie CdUitkeringsperiode heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:30 |
-    | id | EAID\_2a3ff879\_08b0\_4635\_bc72\_1179f692a824 |
+    | id | EAID\_504520e3\_c0a8\_47c3\_8d33\_fb9d6c3e651d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1845,6 +2022,9 @@ Geen Definitie
 
 Het enumeratie JsonRuledGroupType kent de volgende waarden:
 
+* **allOf**: 
+* **anyOf**: 
+* **oneOf**: 
 
 
 De enumeratie JsonRuledGroupType heeft de volgende kenmerken:
@@ -1862,7 +2042,7 @@ De enumeratie JsonRuledGroupType heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:37:15 |
-    | id | EAID\_4169c8b2\_ec91\_4641\_8e9f\_bfdf5a7fcab6 |
+    | id | EAID\_f6608585\_3503\_489a\_9470\_c786a27d0ee0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1878,6 +2058,9 @@ Geen Definitie
 
 Het enumeratie CodeSoortVrijlating kent de volgende waarden:
 
+* **Inkomstenvrijlating 12,5% - Art. 31 lid 2r**: 
+* **Inkomstenvrijlating 15,0% - Art. 31 lid 2y**: 
+* **Inkomstenvrijlating 25,0% - Art. 31 lid 2n**: 
 
 
 De enumeratie CodeSoortVrijlating heeft de volgende kenmerken:
@@ -1895,7 +2078,7 @@ De enumeratie CodeSoortVrijlating heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:35 |
-    | id | EAID\_70761d1e\_b5e4\_4fac\_a13e\_4ce97f617239 |
+    | id | EAID\_1ff3978d\_8703\_44e0\_b147\_05c8c0888a04 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

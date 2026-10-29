@@ -279,6 +279,12 @@ Geen Definitie
 
 Het enumeratie CdSrtVoertuig kent de volgende waarden:
 
+* **Aanhangwagen**: 
+* **Bedrijfsauto**: 
+* **Bromfiets**: 
+* **Driewielig motorrijtuig**: 
+* **Motorfiets**: 
+* **Personenauto**: 
 
 
 De enumeratie CdSrtVoertuig heeft de volgende kenmerken:
@@ -296,7 +302,7 @@ De enumeratie CdSrtVoertuig heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:00 |
-    | id | EAID\_06302976\_a329\_4a51\_a1d4\_07c73c41cc31 |
+    | id | EAID\_35ae6700\_532a\_4fa9\_896c\_7d6e32887ae6 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -312,6 +318,27 @@ Geen Definitie
 
 Het enumeratie CdSrtVermogenscomponent kent de volgende waarden:
 
+* **Aandeel onverdeelde boedel**: 
+* **Aanspraak op erfenis binnen zes maanden**: 
+* **Antiek/sieraden**: 
+* **Bank-/Girorekening**: 
+* **Beleggingsproduct (Aandeel, Lease, Effect, Obligatie, e.d.)**: 
+* **Caravans**: 
+* **Contanten**: 
+* **Digitale valuta (cryptomunten)**: 
+* **Eigen woning (huis/woonschip/woonwagen in eigendom)**: 
+* **Hypotheek eigen woning**: 
+* **Leningen aan derden**: 
+* **Levensverzekering**: 
+* **Levensverzekering/belegging gekoppeld aan hypotheek**: 
+* **Levensverzekering/belegging niet gekoppeld aan hypotheek**: 
+* **Motorvoertuigen**: 
+* **Overig onroerend goed**: 
+* **Overige bezittingen**: 
+* **Schulden**: 
+* **Schulden uitgezonderd studieschuld**: 
+* **Studieschuld**: 
+* **Waardepapieren**: 
 
 
 De enumeratie CdSrtVermogenscomponent heeft de volgende kenmerken:
@@ -329,7 +356,7 @@ De enumeratie CdSrtVermogenscomponent heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:35:54 |
-    | id | EAID\_12465372\_fc19\_434b\_ab53\_28fabe194f0b |
+    | id | EAID\_f8017fe1\_9da8\_4a35\_9f88\_b964780040dc |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -345,6 +372,12 @@ Geen Definitie
 
 Het enumeratie CdSrtWaardeVermogenscomponent kent de volgende waarden:
 
+* **Banksaldo**: 
+* **Beleggingsproductsaldo**: 
+* **Cataloguswaarde**: 
+* **Hypotheekschuld**: 
+* **Marktwaarde**: 
+* **WOZwaarde**: 
 
 
 De enumeratie CdSrtWaardeVermogenscomponent heeft de volgende kenmerken:
@@ -362,7 +395,7 @@ De enumeratie CdSrtWaardeVermogenscomponent heeft de volgende kenmerken:
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-12-20 18:36:06 |
-    | id | EAID\_300d961b\_fc5b\_45c2\_b493\_ea0c2ad2fb09 |
+    | id | EAID\_d20b7c72\_2132\_4e4d\_b905\_2f5eafbcf339 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

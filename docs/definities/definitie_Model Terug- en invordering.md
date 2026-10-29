@@ -88,6 +88,10 @@ Attributen van objecttype Aflossing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Aflossingskenmerk | CharacterString |  |
+| Bedrag | CharacterString |  |
+| Boekingsdatum | CharacterString |  |
+| Ontvangstdatum | CharacterString |  |
 
 
 
@@ -123,6 +127,11 @@ Attributen van objecttype Aflossingsafspraak
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Bedrag | CharacterString |  |
+| Einddatum | CharacterString |  |
+| Indicatie inclusief vakantiegeld | StdIndJN |  |
+| Periodiek | CdPeriode |  |
+| Startdatum | CharacterString |  |
 
 
 
@@ -158,6 +167,9 @@ Attributen van objecttype Aflossingsplan
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Aflossingskenmerk | CharacterString |  |
+| Einddatum | CharacterString |  |
+| Startdatum | CharacterString |  |
 
 
 
@@ -193,6 +205,8 @@ Attributen van objecttype Afschrijving
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Aanmaakdatum | Date |  |
+| Reden afschrijving | CharacterString |  |
 
 
 
@@ -228,6 +242,8 @@ Attributen van objecttype Betaalcomponent
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Bedrag | bedrag |  |
+| Boekingsdatum | Date |  |
 
 
 
@@ -298,6 +314,8 @@ Attributen van objecttype Conservatoir beslag
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Aanvraagdatum | Date |  |
+| Toestemmingsdatum | Date |  |
 
 
 
@@ -333,6 +351,9 @@ Attributen van objecttype Correctie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Bedrag | Geldbedrag |  |
+| Boekingsdatum | Geldbedrag |  |
+| Reden | CdRedenAanvraagReden |  |
 
 
 
@@ -368,6 +389,9 @@ Attributen van objecttype Debiteur
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Eigen kenmerk | CharacterString |  |
+| Opvoerdatum | CharacterString |  |
+| Soort debiteur | CodeSoortDebiteur |  |
 
 
 
@@ -438,6 +462,9 @@ Attributen van objecttype Interventie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Beslisdatum | Date |  |
+| Ingangsdatum | Date |  |
+| Interventietype | CodeSoortInterventie |  |
 
 
 
@@ -473,6 +500,7 @@ Attributen van objecttype Interventieverzoek
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Verzoekdatum | CharacterString |  |
 
 
 
@@ -508,6 +536,13 @@ Attributen van objecttype Invorderingsbasis
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Aflossingscapaciteit | Geldbedrag |  |
+| Beslagvrije voet | Geldbedrag |  |
+| Invorderingsmogelijkheid | StdIndJN |  |
+| Type invorderingsmogelijkheid | CodeTypeInvorderingsmogelijkheid |  |
+| Vaststeldatum aflossingscapaciteit | Geldbedrag |  |
+| Vaststeldatum beslagvrije voet | Geldbedrag |  |
+| Vaststeldatum invorderingsmogelijkheid | Geldbedrag |  |
 
 
 
@@ -543,6 +578,8 @@ Attributen van objecttype Krediethypotheek
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Bedrag | Geldbedrag |  |
+| Vestigingsdatum | Geldbedrag |  |
 
 
 
@@ -613,6 +650,9 @@ Attributen van objecttype Kwijtschelding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Bedrag | Geldbedrag |  |
+| Boekingsdatum | Geldbedrag |  |
+| Reden | Geldbedrag |  |
 
 
 
@@ -648,6 +688,10 @@ Attributen van objecttype Leenbijstand
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Aflossingskenmerk | CharacterString |  |
+| Bedrag | CharacterString |  |
+| Boekingsdatum | CharacterString |  |
+| Ontvangstdatum | CharacterString |  |
 
 
 
@@ -753,6 +797,9 @@ Attributen van objecttype Rechtmaand
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Boekjaar | Integer |  |
+| Jaar | Integer |  |
+| Maand | Integer |  |
 
 
 
@@ -823,6 +870,9 @@ Attributen van objecttype Restitutie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Bedrag | Geldbedrag |  |
+| Betaaldatum | Geldbedrag |  |
+| Boekingsdatum | Geldbedrag |  |
 
 
 
@@ -858,6 +908,15 @@ Attributen van objecttype Terugvorderingsverzoek
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Aanmaakdatum | Date |  |
+| Behandelstatus verzoek | Verwerkingsstatus |  |
+| Categorie | CategorieVorderingCBS |  |
+| Fiscaal | StdIndJN |  |
+| Periode einddatum | Date |  |
+| Periode startdatum | Date |  |
+| Priotype | Date |  |
+| Regeling | Regeling |  |
+| Subcategorie | SubCategorieVordering |  |
 
 
 
@@ -893,6 +952,10 @@ Attributen van objecttype Uitstel aflossing
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Aanmaakdatum | Date |  |
+| Periode einddatum | Date |  |
+| Periode startdatum | Date |  |
+| Reden uitstel | DefaultEnumeratie |  |
 
 
 
@@ -928,6 +991,11 @@ Attributen van objecttype Vermindering terugvordering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Bedrag | Geldbedrag |  |
+| Boekingsdatum | Geldbedrag |  |
+| Motivatie vermindering | Geldbedrag |  |
+| Vaststeldatum | Geldbedrag |  |
+| Verminderingtype | Geldbedrag |  |
 
 
 
@@ -1033,6 +1101,18 @@ Attributen van objecttype Vordering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Categorie | CategorieAnderInkomen |  |
+| Fiscaal | StdIndJN |  |
+| Periode einddatum | CategorieAnderInkomen |  |
+| Periode startdatum | CategorieAnderInkomen |  |
+| Priotype | CategorieAnderInkomen |  |
+| Regeling | Regeling |  |
+| Stuitingsvoortgangsindicator | CategorieAnderInkomen |  |
+| Subcategorie | SubCategorieVordering |  |
+| Titel | StdIndJN |  |
+| Vaststeldatum terugvordering | CategorieAnderInkomen |  |
+| Verjaringsdatum | CategorieAnderInkomen |  |
+| Verwerkingsstatus | Verwerkingsstatus |  |
 
 
 
@@ -1068,7 +1148,9 @@ Attributen van objecttype Vorderingscomponent
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Priotype | Verwerkingsstatus |  |
+| Periode einddatum | Date |  |
+| Periode startdatum | Date |  |
+| Priotype | Date |  |
 
 
 
@@ -1078,11 +1160,288 @@ Attributen van objecttype Vorderingscomponent
 ## Enumeraties Model Terug- en invordering
 
 
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_83137701\_0e3a\_428d\_9ba9\_07c2c5456ab6 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdPeriode
+Geen Definitie
+
+Het enumeratie CdPeriode kent de volgende waarden:
+
+* **13 weken**: 
+* **2 weken**: 
+* **4 weken**: 
+* **5 weken**: 
+* **52 weken**: 
+* **Dag**: 
+* **Eenmalig**: 
+* **Geen**: 
+* **Halfjaar**: 
+* **Incidenteel**: 
+* **Jaar**: 
+* **Kwartaal**: 
+* **Maand**: 
+* **Minuut**: 
+* **Niet van toepassing**: 
+* **Overig**: 
+* **Uur**: 
+* **Week**: 
+
+
+De enumeratie CdPeriode heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdPeriode"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdPeriode |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_247c531c\_fad7\_47be\_bac9\_b0466fd5a9cb |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdRedenAanvraagReden
+Geen Definitie
+
+Het enumeratie CdRedenAanvraagReden kent de volgende waarden:
+
+* **(ex)Zelfstandige**: 
+* **Anders**: 
+* **Geen of te weinig inkomen**: 
+* **Ik kom vrij na gevangenisstraf**: 
+* **Verblijfsstatus**: 
+* **Wijziging gezin**: 
+
+
+De enumeratie CdRedenAanvraagReden heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdRedenAanvraagReden"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdRedenAanvraagReden |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_b0750789\_daf9\_4c6b\_a609\_77e533c1e819 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CodeSoortDebiteur
+Geen Definitie
+
+Het enumeratie CodeSoortDebiteur kent de volgende waarden:
+
+* **Hoofddebiteur**: 
+* **Meeprofiterende partner**: 
+* **Zuivere mededebiteur**: 
+
+
+De enumeratie CodeSoortDebiteur heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CodeSoortDebiteur"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CodeSoortDebiteur |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_61197cde\_c0f3\_4879\_8c83\_840d8bd30c19 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CodeSoortInterventie
+Geen Definitie
+
+Het enumeratie CodeSoortInterventie kent de volgende waarden:
+
+* **Aanmaning**: 
+* **Deurwaarder**: 
+* **Dwangbevel**: 
+* **Gijzelneming**: 
+* **Loonbeslag**: 
+
+
+De enumeratie CodeSoortInterventie heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CodeSoortInterventie"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CodeSoortInterventie |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_0ba189f7\_1aab\_4dae\_8a96\_cc7986318c51 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_43628040\_8f57\_482e\_974b\_cd2d3a57b5f7 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CodeTypeInvorderingsmogelijkheid
+Geen Definitie
+
+Het enumeratie CodeTypeInvorderingsmogelijkheid kent de volgende waarden:
+
+* **Crypto/Aandelenbezit**: 
+* **Inkomsten**: 
+* **Inschrijving handelsregister**: 
+* **Positief banksaldo**: 
+* **Voertuigenbezit**: 
+* **Woningbezit**: 
+
+
+De enumeratie CodeTypeInvorderingsmogelijkheid heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CodeTypeInvorderingsmogelijkheid"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CodeTypeInvorderingsmogelijkheid |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_96912fc4\_6f5c\_433e\_9565\_562c014be628 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
 ### Verwerkingsstatus
 Geen Definitie
 
 Het enumeratie Verwerkingsstatus kent de volgende waarden:
 
+* **Behandeld**: 
+* **In behandeling**: 
+* **In bewerking**: 
+* **Ingediend**: 
 
 
 De enumeratie Verwerkingsstatus heeft de volgende kenmerken:
@@ -1100,7 +1459,522 @@ De enumeratie Verwerkingsstatus heeft de volgende kenmerken:
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
     | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_d1a74ccb\_2f40\_49db\_b1d8\_ccce612ec485 |
+    | id | EAID\_602c13b4\_6011\_4dd4\_a1c9\_b43dc28bdba7 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CategorieVorderingCBS
+Geen Definitie
+
+Het enumeratie CategorieVorderingCBS kent de volgende waarden:
+
+* **Andere overtreding inlichtingenplicht**: 
+* **Boete wegens overtreding inlichtingenplicht met benadelingsbedrag**: 
+* **Boete wegens overtreding inlichtingenplicht zonder benadelingsbedrag**: 
+* **Krediethypotheek**: 
+* **Lening**: 
+* **Onverschuldigde betaling**: 
+* **Overige vorderingen**: 
+* **Overtreding inlichtingenplicht: onjuiste opgave samenstelling huishouden**: 
+* **Overtreding inlichtingenplicht: onjuiste opgave woonadres**: 
+* **Overtreding inlichtingenplicht: verzwijgen vermogen en/of inkomsten uit vermogen**: 
+* **Overtreding inlichtingenplicht: verzwijgen witte inkomsten**: 
+* **Overtreding inlichtingenplicht: verzwijgen zwarte inkomsten**: 
+* **Rente en incassokosten**: 
+* **Verhaal op onderhoudsplichtige voor ex-partner**: 
+* **Verhaal op onderhoudsplichtige voor kind**: 
+
+
+De enumeratie CategorieVorderingCBS heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CategorieVorderingCBS"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CategorieVorderingCBS |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_83c597a9\_307b\_4de5\_a393\_260823440e75 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_09ed96cb\_782c\_43b5\_8c35\_74da4b475980 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### Regeling
+Geen Definitie
+
+Het enumeratie Regeling kent de volgende waarden:
+
+* **BW**: 
+* **IAOW**: 
+* **IAOZ**: 
+* **Niet van toepassing**: 
+* **Participatiewet**: 
+
+
+De enumeratie Regeling heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Regeling"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Regeling |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_6d26419b\_1a6e\_4f19\_8bff\_a6b7a14360fc |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### SubCategorieVordering
+Geen Definitie
+
+Het enumeratie SubCategorieVordering kent de volgende waarden:
+
+* **Alimentatie ex-partner**: 
+* **Alimentatie kind**: 
+* **Bedrijfskrediet Bbz**: 
+* **bedrijfskrediet Bbz gevestigde**: 
+* **Bedrijfskrediet Bbz renteloos**: 
+* **bedrijfskrediet Bbz starter**: 
+* **Boete algemene bijstand met benadelingsbedrag**: 
+* **Boete algemene bijstand zonder benadelingsbedrag**: 
+* **Boete bijzondere bijstand met benadelingsbedrag**: 
+* **Boete bijzondere bijstand zonder benadelingsbedrag**: 
+* **Declaratie SVB**: 
+* **Declaratie UWV**: 
+* **Geldlening**: 
+* **Incassokosten civiel**: 
+* **Incassokosten deurwaarder**: 
+* **Kosten derdenbeslag**: 
+* **Kosten dwangbevel**: 
+* **Krediethypotheek**: 
+* **Niet verwijtbare vordering bijzonder bijstand**: 
+* **Niet verwijtbare vordering Ioaw**: 
+* **Niet verwijtbare vordering Ioaz**: 
+* **Niet verwijtbare vordering PW**: 
+* **Verhaal op nalatenschap**: 
+* **Verhaal op schenkingen**: 
+* **Verhaalsbijdrage ex-partner**: 
+* **Verhaalsbijdrage jongmeerderjarige**: 
+* **Verhaalsbijdrage kind**: 
+* **Verwijtbare vordering bijzonder bijstand inkomsten**: 
+* **Verwijtbare vordering bijzonder bijstand onjuiste opgave woonadres**: 
+* **Verwijtbare vordering bijzonder bijstand overig**: 
+* **Verwijtbare vordering bijzonder bijstand samenstelling huishouden**: 
+* **Verwijtbare vordering bijzonder bijstand vermogen**: 
+* **Verwijtbare vordering bijzonder bijstand witte inkomsten**: 
+* **Verwijtbare vordering Ioaw**: 
+* **Verwijtbare vordering Ioaw**: 
+* **Verwijtbare vordering Ioaw**: 
+* **Verwijtbare vordering Ioaw**: 
+* **Verwijtbare vordering Ioaw**: 
+* **Verwijtbare vordering Ioaw**: 
+* **Verwijtbare vordering Ioaz**: 
+* **Verwijtbare vordering Ioaz**: 
+* **Verwijtbare vordering Ioaz**: 
+* **Verwijtbare vordering Ioaz**: 
+* **Verwijtbare vordering Ioaz**: 
+* **Verwijtbare vordering Ioaz**: 
+* **Verwijtbare vordering onjuiste opgave woonadres**: 
+* **Verwijtbare vordering overig**: 
+* **Verwijtbare vordering samenstelling huishouden**: 
+* **Verwijtbare vordering vermogen**: 
+* **Verwijtbare vordering witte inkomsten**: 
+* **Verwijtbare vordering zwarte inkomsten**: 
+* **Voorschot**: 
+* **Vordering Tozo voorschot (voor ondernemers)**: 
+
+
+De enumeratie SubCategorieVordering heeft de volgende kenmerken:
+
+??? info "Kenmerken Model SubCategorieVordering"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | SubCategorieVordering |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_ae324ed0\_8b19\_4ca0\_9254\_8e37cba66295 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### DefaultEnumeratie
+Geen Definitie
+
+Het enumeratie DefaultEnumeratie kent de volgende waarden:
+
+* **Nader te bepalen**: 
+* **Nader te bepalen**: 
+* **Nader te bepalen**: 
+
+
+De enumeratie DefaultEnumeratie heeft de volgende kenmerken:
+
+??? info "Kenmerken Model DefaultEnumeratie"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | DefaultEnumeratie |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_82b5450b\_af3a\_4f87\_8c00\_4b6f3ccdff01 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CategorieAnderInkomen
+Geen Definitie
+
+Het enumeratie CategorieAnderInkomen kent de volgende waarden:
+
+* **Afkoopwaarde lijfrente**: 
+* **Anders**: 
+* **Giften**: 
+* **Huur of onderhuur**: 
+* **Inkomen uit buitenland**: 
+* **Toelagen**: 
+* **Vergoeding vrijwilligerswerk**: 
+* **Zorgpremie**: 
+
+
+De enumeratie CategorieAnderInkomen heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CategorieAnderInkomen"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CategorieAnderInkomen |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_90ce4306\_abb1\_4fdf\_9f49\_527ae94baab6 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_9c91cab1\_9532\_474f\_a6bc\_5f74dfff9293 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### Regeling
+Geen Definitie
+
+Het enumeratie Regeling kent de volgende waarden:
+
+* **BW**: 
+* **IAOW**: 
+* **IAOZ**: 
+* **Niet van toepassing**: 
+* **Participatiewet**: 
+
+
+De enumeratie Regeling heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Regeling"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Regeling |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_c724921b\_f1ec\_4b63\_83f9\_adad2af8b23c |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### SubCategorieVordering
+Geen Definitie
+
+Het enumeratie SubCategorieVordering kent de volgende waarden:
+
+* **Alimentatie ex-partner**: 
+* **Alimentatie kind**: 
+* **Bedrijfskrediet Bbz**: 
+* **bedrijfskrediet Bbz gevestigde**: 
+* **Bedrijfskrediet Bbz renteloos**: 
+* **bedrijfskrediet Bbz starter**: 
+* **Boete algemene bijstand met benadelingsbedrag**: 
+* **Boete algemene bijstand zonder benadelingsbedrag**: 
+* **Boete bijzondere bijstand met benadelingsbedrag**: 
+* **Boete bijzondere bijstand zonder benadelingsbedrag**: 
+* **Declaratie SVB**: 
+* **Declaratie UWV**: 
+* **Geldlening**: 
+* **Incassokosten civiel**: 
+* **Incassokosten deurwaarder**: 
+* **Kosten derdenbeslag**: 
+* **Kosten dwangbevel**: 
+* **Krediethypotheek**: 
+* **Niet verwijtbare vordering bijzonder bijstand**: 
+* **Niet verwijtbare vordering Ioaw**: 
+* **Niet verwijtbare vordering Ioaz**: 
+* **Niet verwijtbare vordering PW**: 
+* **Verhaal op nalatenschap**: 
+* **Verhaal op schenkingen**: 
+* **Verhaalsbijdrage ex-partner**: 
+* **Verhaalsbijdrage jongmeerderjarige**: 
+* **Verhaalsbijdrage kind**: 
+* **Verwijtbare vordering bijzonder bijstand inkomsten**: 
+* **Verwijtbare vordering bijzonder bijstand onjuiste opgave woonadres**: 
+* **Verwijtbare vordering bijzonder bijstand overig**: 
+* **Verwijtbare vordering bijzonder bijstand samenstelling huishouden**: 
+* **Verwijtbare vordering bijzonder bijstand vermogen**: 
+* **Verwijtbare vordering bijzonder bijstand witte inkomsten**: 
+* **Verwijtbare vordering Ioaw**: 
+* **Verwijtbare vordering Ioaw**: 
+* **Verwijtbare vordering Ioaw**: 
+* **Verwijtbare vordering Ioaw**: 
+* **Verwijtbare vordering Ioaw**: 
+* **Verwijtbare vordering Ioaw**: 
+* **Verwijtbare vordering Ioaz**: 
+* **Verwijtbare vordering Ioaz**: 
+* **Verwijtbare vordering Ioaz**: 
+* **Verwijtbare vordering Ioaz**: 
+* **Verwijtbare vordering Ioaz**: 
+* **Verwijtbare vordering Ioaz**: 
+* **Verwijtbare vordering onjuiste opgave woonadres**: 
+* **Verwijtbare vordering overig**: 
+* **Verwijtbare vordering samenstelling huishouden**: 
+* **Verwijtbare vordering vermogen**: 
+* **Verwijtbare vordering witte inkomsten**: 
+* **Verwijtbare vordering zwarte inkomsten**: 
+* **Voorschot**: 
+* **Vordering Tozo voorschot (voor ondernemers)**: 
+
+
+De enumeratie SubCategorieVordering heeft de volgende kenmerken:
+
+??? info "Kenmerken Model SubCategorieVordering"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | SubCategorieVordering |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_ce9021f5\_9e6c\_476f\_adce\_a421e638279e |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_38b5afc6\_32a1\_451c\_ab02\_4d0437af116a |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### Verwerkingsstatus
+Geen Definitie
+
+Het enumeratie Verwerkingsstatus kent de volgende waarden:
+
+* **Behandeld**: 
+* **In behandeling**: 
+* **In bewerking**: 
+* **Ingediend**: 
+
+
+De enumeratie Verwerkingsstatus heeft de volgende kenmerken:
+
+??? info "Kenmerken Model Verwerkingsstatus"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | Verwerkingsstatus |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:42 |
+    | id | EAID\_7f6b86c1\_ddac\_44e5\_86da\_1550133f748f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

@@ -83,6 +83,7 @@ Attributen van objecttype Andere reden afwijkende startdatum
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| omschrijvingBijzondereReden | CharacterString |  |
 
 
 
@@ -118,6 +119,8 @@ Attributen van objecttype Andere reden verzoek
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Opgave financiële ondersteuning | CharacterString |  |
+| Specificatie geldtekort | CharacterString |  |
 
 
 
@@ -223,6 +226,20 @@ Attributen van objecttype Gestopt betaald werk
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Afwijsreden WW-aanvraag | CdRedenAanvraagWwafgewezen |  |
+| Bedrijfsadres | CdRedenAanvraagWwafgewezen |  |
+| Bedrijfstelefoonnummer | CdRedenAanvraagWwafgewezen |  |
+| Contractperiode | CdRedenAanvraagContractperiode |  |
+| Laatste salarisdatum | CdRedenAanvraagWwafgewezen |  |
+| Minimaal 26 weken van 36 gewerkt | StdIndJN |  |
+| Naam bedrijf | CdRedenAanvraagWwafgewezen |  |
+| Ontslagbrief ontvangen | StdIndJN |  |
+| Ontslagvergoeding ontvangen | StdIndJN |  |
+| Reden einde werk | CdRedenAanvraagEindeWerk |  |
+| Specificatie reden einde werk | CdRedenAanvraagWwafgewezen |  |
+| Wettelijke stappen gezet | StdIndJN |  |
+| WW-uitkering aangevraagd | CdRedenAanvraagWWgevraagd |  |
+| Ziektewet-uitkering aangevraagd | StdIndJN |  |
 
 
 
@@ -258,6 +275,11 @@ Attributen van objecttype Gestopt of verkocht eigen bedrijf
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Datum gestopt met eigen bedrijf | Date |  |
+| KvK-inschrijfnummer | Date |  |
+| Reden eigen bedrijfs gestopt | CdRedenAanvraagEindeEigenBedrijf |  |
+| Uitgeschreven bij Kamer van Koophandel | StdIndJN |  |
+| Verkoopbedrag | Date |  |
 
 
 
@@ -293,6 +315,10 @@ Attributen van objecttype Gestopte bijstanduitkering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Reden einde bijstandsuitkering | CdRedenAanvraagEindeBijstand |  |
+| Situatie gewijzigd | StdIndJN |  |
+| Specificatie reden einde bijstand | CdRedenAanvraagEindeBijstand |  |
+| Specificatie wijziging situatie | CdRedenAanvraagEindeBijstand |  |
 
 
 
@@ -328,6 +354,11 @@ Attributen van objecttype Gestopte detentie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Duur detentie | StdIndJN |  |
+| Einddatum detentie | StdIndJN |  |
+| Soort uitkering voor detentie | StdIndJN |  |
+| Specificatie uitkering voor detentie | StdIndJN |  |
+| Uitkering voor detentie | StdIndJN |  |
 
 
 
@@ -363,6 +394,11 @@ Attributen van objecttype Gestopte of verlaagde alimentatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Einddatum alimentatie | Date |  |
+| LBIO ingeschakeld | StdIndJN |  |
+| Nabestaandeuitkering aangevraagd | CdRedenAanvraagANWaangevraagd |  |
+| Opgave financiële ondersteuning | Date |  |
+| Reden einde of verlaagde alimentatie | Date |  |
 
 
 
@@ -398,6 +434,8 @@ Attributen van objecttype Gestopte studiefinanciering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Einddatum studiefinanciering | Date |  |
+| Specificatie studiefinanciering | Date |  |
 
 
 
@@ -433,6 +471,18 @@ Attributen van objecttype Gestopte uitkering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Einddatum uitkering | Date |  |
+| Einde uitkering in bezwaar | StdIndJN |  |
+| Gedeeltelijk arbeidsongeschikt na 50e | StdIndJN |  |
+| Ingangsdatum WGA binnen periode | StdIndJN |  |
+| IOAW-uitkering ontvangen | StdIndJN |  |
+| minderDan35%AO | StdIndJN |  |
+| Reden einde uitkering | CdRedenAanvraagEindeUitkeringReden |  |
+| Specificatie andere uitkering | Date |  |
+| Specificatie reden einde uitkering | Date |  |
+| Startdatum WW- of WGA-uitkering | Date |  |
+| Uitkering | CdRedenAanvraagEindeUitkering |  |
+| Werkloosperiode | StdIndJN |  |
 
 
 
@@ -470,6 +520,10 @@ Attributen van objecttype Ingang bijstandsuitkering
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Afwijkende ingangsdatum | StdIndJN |  |
+| Datum melding bij gemeente | StdIndJN |  |
+| Gewenste startdatum uitkering | StdIndJN |  |
+| Na melding gemeente digitaal verwezen | StdIndJN |  |
 
 
 
@@ -540,6 +594,8 @@ Attributen van objecttype Opname instelling
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Einddatum opname | Date |  |
+| Startdatum opname | Date |  |
 
 
 
@@ -575,6 +631,9 @@ Attributen van objecttype Overleden partner
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Meer dan 45% arbeidsongeschikt | StdIndJN |  |
+| Nabestaandeuitkering aangevraagd | StdIndJN |  |
+| Reden ANW afgewezen | CdRedenAanvraagANWafgewezenReden |  |
 
 
 
@@ -610,6 +669,8 @@ Attributen van objecttype Reden aanvraag
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Diensttype | CharacterString |  |
+| Gewenste ingangsdatum | CharacterString |  |
 
 
 
@@ -645,6 +706,11 @@ Attributen van objecttype Reden aanvraag Levensonderhoud
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Onvoldoende inkomen | CdRedenAanvraagOnvoldoendeInkomen |  |
+| Reden | RedenKwijtscheldingVordering |  |
+| Verblijfstatus | CdRedenAanvraagVerblijfstatus |  |
+| Wijziging gezin | CdRedenAanvraagWijzigingGezin |  |
+| Zelfstandige | CdRedenAanvraagZelfstandige |  |
 
 
 
@@ -680,6 +746,9 @@ Attributen van objecttype Reden afwijkende startdatum
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Reden afwijking aanwezig | StdIndJN |  |
+| Reden Niet Eerder Aanvragen | StdIndJN |  |
+| RedenAfwijkendeStartdatumType | CodeRedenAfwijkendeStartdatum |  |
 
 
 
@@ -715,6 +784,10 @@ Attributen van objecttype Verbroken relatie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Afspraak onderhoudsbijdrage gemaakt | StdIndJN |  |
+| Datum relatie verbroken | StdIndJN |  |
+| Geregistreerde partner | StdIndJN |  |
+| Opgave financiële ondersteuning | StdIndJN |  |
 
 
 
@@ -750,6 +823,11 @@ Attributen van objecttype Vertrek uit asielzoekerscentrum
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Bedrag weekgeld COA | bedrag |  |
+| Einddatum weekgeld COA | bedrag |  |
+| Ingangsdatum huurcontract | bedrag |  |
+| Weekgeld COA | StdIndJN |  |
+| Weekgeld COA stopt | StdIndJN |  |
 
 
 
@@ -785,6 +863,7 @@ Attributen van objecttype Wachten beslissing instantie
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Ontvangstdatum beslissing instantie | Date |  |
 
 
 
@@ -820,7 +899,1482 @@ Attributen van objecttype Wachten DigiD
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
+| Aanvraagdatum DigiD | Date |  |
 
 
+
+
+
+
+## Enumeraties Reden aanvraag
+
+
+### CdRedenAanvraagWwafgewezen
+Geen Definitie
+
+Het enumeratie CdRedenAanvraagWwafgewezen kent de volgende waarden:
+
+* **Ik ben door eigen schuld ontslagen of heb zelf ontslag genomen**: 
+* **Ik ben minder dan 5 uren per week achteruit gegaan in uren**: 
+* **Ik ben niet voldoende beschikbaar voor werk**: 
+* **Ik heb in de periode ervoor onvoldoende gewerkt (wekeneis)**: 
+
+
+De enumeratie CdRedenAanvraagWwafgewezen heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdRedenAanvraagWwafgewezen"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdRedenAanvraagWwafgewezen |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:34:29 |
+    | id | EAID\_3adc114a\_22a1\_459c\_a631\_4cccb5a59800 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdRedenAanvraagContractperiode
+Geen Definitie
+
+Het enumeratie CdRedenAanvraagContractperiode kent de volgende waarden:
+
+* **Ik had een contract van 6 maanden of langer**: 
+* **Ik had een contract van minder dan 6 maanden**: 
+
+
+De enumeratie CdRedenAanvraagContractperiode heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdRedenAanvraagContractperiode"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdRedenAanvraagContractperiode |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:33:35 |
+    | id | EAID\_42f1691e\_d234\_40eb\_bfda\_0410a9087cbe |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_08cefa01\_c5f5\_4056\_9cee\_52b39a9f9256 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_c98f05d6\_e788\_45d6\_8b5b\_1402cf8ac04f |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_0afbbd2c\_2bbf\_49ea\_9137\_dfcddd2eaa1c |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdRedenAanvraagEindeWerk
+Geen Definitie
+
+Het enumeratie CdRedenAanvraagEindeWerk kent de volgende waarden:
+
+* **Andere reden**: 
+* **Faillissement bedrijf**: 
+* **Ontslagen**: 
+* **Ontslagen bij een reorganisatie**: 
+* **Tijdelijk contract is afgelopen**: 
+* **Zelf ontslag genomen**: 
+* **Ziekte**: 
+
+
+De enumeratie CdRedenAanvraagEindeWerk heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdRedenAanvraagEindeWerk"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdRedenAanvraagEindeWerk |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:34:07 |
+    | id | EAID\_c7c644dd\_6ccc\_4848\_9258\_b98796d29614 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_3421e120\_8591\_40f5\_b748\_814e0af360d6 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdRedenAanvraagWWgevraagd
+Geen Definitie
+
+Het enumeratie CdRedenAanvraagWWgevraagd kent de volgende waarden:
+
+* **Ja, ik ontvang nu een WW-uitkering**: 
+* **Ja, ik wacht nog op antwoord**: 
+* **Ja, maar mijn WW-aanvraag is afgewezen**: 
+* **Nee, ik heb geen WW-uitkering aangevraagd**: 
+
+
+De enumeratie CdRedenAanvraagWWgevraagd heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdRedenAanvraagWWgevraagd"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdRedenAanvraagWWgevraagd |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:34:36 |
+    | id | EAID\_0696d4a9\_ce36\_4761\_a83c\_a490bce61e63 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_7d4f0688\_e444\_4c68\_acc6\_32bc007e47f1 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdRedenAanvraagEindeEigenBedrijf
+Geen Definitie
+
+Het enumeratie CdRedenAanvraagEindeEigenBedrijf kent de volgende waarden:
+
+* **Andere reden**: 
+* **Bedrijf verkocht**: 
+* **Faillissement**: 
+* **Financiële redenen**: 
+* **Sluiting opgelegd door de gemeente**: 
+* **Zelf gestopt**: 
+
+
+De enumeratie CdRedenAanvraagEindeEigenBedrijf heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdRedenAanvraagEindeEigenBedrijf"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdRedenAanvraagEindeEigenBedrijf |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:33:48 |
+    | id | EAID\_92d7153a\_b36e\_4fd0\_9c37\_0b3c06587fc7 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_4871c7ab\_2506\_4fcf\_8191\_db4fab707e58 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdRedenAanvraagEindeBijstand
+Geen Definitie
+
+Het enumeratie CdRedenAanvraagEindeBijstand kent de volgende waarden:
+
+* **Aangaan relatie met nieuwe partner**: 
+* **Andere reden**: 
+* **Verhuizing vanuit andere gemeente**: 
+
+
+De enumeratie CdRedenAanvraagEindeBijstand heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdRedenAanvraagEindeBijstand"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdRedenAanvraagEindeBijstand |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:33:41 |
+    | id | EAID\_254c55be\_3233\_4682\_9a5a\_8c7fac62437c |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_be6822af\_12f5\_42a1\_a7ea\_636b3d4250f8 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_350af1d8\_1728\_409d\_9236\_d36cf1f06fdc |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_2dd4bf69\_7379\_411e\_b1a0\_19f7a090bfbd |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_bc9ba4df\_d855\_47da\_85ef\_eb8d21b8ad50 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdRedenAanvraagANWaangevraagd
+Geen Definitie
+
+Het enumeratie CdRedenAanvraagANWaangevraagd kent de volgende waarden:
+
+* **Ja, deze is afgewezen**: 
+* **Ja, deze is toegekend**: 
+* **Ja, ik wacht nog op een besluit**: 
+* **Nee**: 
+
+
+De enumeratie CdRedenAanvraagANWaangevraagd heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdRedenAanvraagANWaangevraagd"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdRedenAanvraagANWaangevraagd |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:33:23 |
+    | id | EAID\_1409c3b7\_d4fd\_4ade\_a1d5\_f37237a8019a |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_737f9815\_5636\_4c2c\_aa59\_9973a9fde069 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_1b2d30ec\_6127\_4bab\_8627\_e4314bf371e5 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_9e6e49f1\_1b5b\_4fee\_b4c4\_296ce162db73 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_eae3c722\_0ac2\_4dd5\_a385\_b02ca55757f3 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_770c34b6\_cd72\_4f95\_8230\_12203b7a5d46 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdRedenAanvraagEindeUitkeringReden
+Geen Definitie
+
+Het enumeratie CdRedenAanvraagEindeUitkeringReden kent de volgende waarden:
+
+* **Andere reden**: 
+* **Arbeidsgeschikt verklaard**: 
+* **Gedeeltelijk arbeidsgeschikt verklaard**: 
+* **Maximale duur uitkering bereikt**: 
+* **Opgelegde maatregel**: 
+
+
+De enumeratie CdRedenAanvraagEindeUitkeringReden heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdRedenAanvraagEindeUitkeringReden"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdRedenAanvraagEindeUitkeringReden |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:34:02 |
+    | id | EAID\_5cf8930d\_a572\_4d33\_9375\_f0c9344df557 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdRedenAanvraagEindeUitkering
+Geen Definitie
+
+Het enumeratie CdRedenAanvraagEindeUitkering kent de volgende waarden:
+
+* **Andere uitkering**: 
+* **Wao/Wia**: 
+* **Wga**: 
+* **WW**: 
+* **Ziektewet**: 
+
+
+De enumeratie CdRedenAanvraagEindeUitkering heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdRedenAanvraagEindeUitkering"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdRedenAanvraagEindeUitkering |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:33:56 |
+    | id | EAID\_c4de60f5\_c25a\_4193\_bf3b\_4520ebfa04ea |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_4ff87dc5\_c2df\_4c48\_ad07\_3a30263fe773 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_d2a7df03\_c361\_40cd\_bed7\_4aceb453733c |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_fb65f0f2\_b4c0\_4f86\_9730\_70fb0369525b |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_987f2f3a\_8c4e\_4ea3\_af44\_50e3d4a9fe34 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_53310184\_0521\_4232\_8596\_ea153e7d00b7 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdRedenAanvraagANWafgewezenReden
+Geen Definitie
+
+Het enumeratie CdRedenAanvraagANWafgewezenReden kent de volgende waarden:
+
+* **Ik ben minder dan 45% arbeidsongeschikt**: 
+* **Ik heb geen minderjarige kinderen**: 
+
+
+De enumeratie CdRedenAanvraagANWafgewezenReden heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdRedenAanvraagANWafgewezenReden"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdRedenAanvraagANWafgewezenReden |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:33:30 |
+    | id | EAID\_6c66c6fc\_9078\_43b6\_b641\_e908832bdd0d |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdRedenAanvraagOnvoldoendeInkomen
+Geen Definitie
+
+Het enumeratie CdRedenAanvraagOnvoldoendeInkomen kent de volgende waarden:
+
+* **Ik heb geen werk meer**: 
+* **Ik heb wel inkomsten, maar die zijn te laag**: 
+* **Mijn alimentatie is gestopt**: 
+* **Mijn bijstandsuitkering is stopgezet**: 
+* **Mijn eerdere bijstandsaanvraag is afgewezen of niet in behandeling genomen**: 
+* **Mijn studiefinanciering is gestopt**: 
+* **Mijn uitkering (geen bijstandsuitkering) is stopgezet**: 
+* **Van spaargeld geleefd**: 
+* **In staking bij werkgever of als groep uitgesloten voor werk**: 
+
+
+De enumeratie CdRedenAanvraagOnvoldoendeInkomen heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdRedenAanvraagOnvoldoendeInkomen"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdRedenAanvraagOnvoldoendeInkomen |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:34:12 |
+    | id | EAID\_69efe854\_3bb0\_45c1\_9e76\_eb552d1ff600 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### RedenKwijtscheldingVordering
+Geen Definitie
+
+Het enumeratie RedenKwijtscheldingVordering kent de volgende waarden:
+
+* **Ambtshalve**: 
+* **Beleid - Nette betaling gedurende afgesproken periode**: 
+* **Beleid - Overig**: 
+* **Externe reden (schuldsanering)**: 
+
+
+De enumeratie RedenKwijtscheldingVordering heeft de volgende kenmerken:
+
+??? info "Kenmerken Model RedenKwijtscheldingVordering"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | RedenKwijtscheldingVordering |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:34:52 |
+    | id | EAID\_2ddf2320\_ed54\_4a71\_84ee\_8d2d739e7afc |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdRedenAanvraagVerblijfstatus
+Geen Definitie
+
+Het enumeratie CdRedenAanvraagVerblijfstatus kent de volgende waarden:
+
+* **Ik heb een verblijfsvergunning gekregen**: 
+* **Ik heb een verblijfsvergunning gekregen en vertrek uit een asielzoekerscentrum**: 
+
+
+De enumeratie CdRedenAanvraagVerblijfstatus heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdRedenAanvraagVerblijfstatus"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdRedenAanvraagVerblijfstatus |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:34:19 |
+    | id | EAID\_c6fef965\_9ca1\_44a3\_97ee\_6be645c5ea63 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdRedenAanvraagWijzigingGezin
+Geen Definitie
+
+Het enumeratie CdRedenAanvraagWijzigingGezin kent de volgende waarden:
+
+* **Ik had een eigen uitkering, maar doe nu een nieuwe aanvraag samen met mijn partner**: 
+* **Mijn partner is overleden**: 
+* **Mijn relatie is verbroken**: 
+
+
+De enumeratie CdRedenAanvraagWijzigingGezin heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdRedenAanvraagWijzigingGezin"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdRedenAanvraagWijzigingGezin |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:34:24 |
+    | id | EAID\_8de97389\_6b8c\_4e7b\_be9a\_7bcfb59ce4d7 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CdRedenAanvraagZelfstandige
+Geen Definitie
+
+Het enumeratie CdRedenAanvraagZelfstandige kent de volgende waarden:
+
+* **Ik ben gestopt met mijn eigen bedrijf**: 
+* **Ik heb een eigen bedrijf, maar onvoldoende inkomen**: 
+
+
+De enumeratie CdRedenAanvraagZelfstandige heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CdRedenAanvraagZelfstandige"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CdRedenAanvraagZelfstandige |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:34:41 |
+    | id | EAID\_715cb53b\_1097\_49c6\_9f3f\_7fb4c00b6561 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_57bfdd75\_74e2\_451d\_b710\_a917be89f577 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### CodeRedenAfwijkendeStartdatum
+Geen Definitie
+
+Het enumeratie CodeRedenAfwijkendeStartdatum kent de volgende waarden:
+
+* **Andere reden afwijkende startdatum**: 
+* **Opname instelling**: 
+* **Wachten beslissing instantie**: 
+* **Wachten DigiD**: 
+
+
+De enumeratie CodeRedenAfwijkendeStartdatum heeft de volgende kenmerken:
+
+??? info "Kenmerken Model CodeRedenAfwijkendeStartdatum"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | CodeRedenAfwijkendeStartdatum |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:34:47 |
+    | id | EAID\_b6706174\_6477\_4978\_b997\_8e1fea933f2b |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_21e370b3\_aed5\_436c\_ba6a\_1ff932250886 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_de3e405f\_80ec\_40ae\_8a01\_f4ca066bde9e |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_07a9e625\_edb5\_45db\_ab72\_b2805244b4cc |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
+
+
+### StdIndJN
+Geen Definitie
+
+Het enumeratie StdIndJN kent de volgende waarden:
+
+* **Ja**: 
+* **Nee**: 
+
+
+De enumeratie StdIndJN heeft de volgende kenmerken:
+
+??? info "Kenmerken Model StdIndJN"
+
+    | Kenmerk | Waarde |
+    | :--- | :------ |
+    | name | StdIndJN |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | janbr |
+    | version | 1.1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-08-06 14:19:41 |
+    | id | EAID\_d66a956c\_937d\_494d\_9c14\_de4780200a1c |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam |  |
+    | gemma_type |  |
+    | gemma_url |  |
+    | gemma_definitie |  |
+    | gemma_toelichting |  |
+    
 
 

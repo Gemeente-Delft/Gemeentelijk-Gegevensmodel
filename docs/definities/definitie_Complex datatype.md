@@ -22,15 +22,19 @@
 
 Het model 'Complex datatype' kent de volgende objecttypen:
 
-* **BAGObjectnummering**: 
+* **BAGObjectnummering**: Unieke objectaanduiding van een object uit de BAG binnen een gemeente.
 * **CompositeID**: 
-* **TypeBedrag**: 
-* **TypeBreuk**: 
-* **TypeKadastraleAanduiding**: 
-* **TypeKoopsom**: 
-* **TypeLabel**: 
-* **TypeLabelpositie**: 
+> Unieke identificatie door het Kadaster toegekend. De identificatie heeft een opbouw conform NEN3610:2011 maar
+> namespaces zijn onder beheer van kadaster (CDMKAD, delen van IMKAD) of Geonovum/NEN3610 (IMKAD).
+* **TypeBedrag**: Een hoeveelheid geld in cijfers in een bepaalde valuta.
+* **TypeBreuk**: De uitkomst van een deling van een geheel getal (de teller) door een ander geheel getal (de noemer).
+* **TypeKadastraleAanduiding**: De typering van de kadastrale aanduiding van een onroerende zaak conform Kadaster.
+* **TypeKoopsom**: Hetbedrag, waarvoor één of meer onroerende zaken zijn verkregen, het koopjaar en een indicator of het meerdere onroerende goederen betreft.
+* **TypeLabel**: De tekst en positie van een label.
+* **TypeLabelpositie**: De positie van een label op de kaart, samengesteld uit plaatsingspunt en rotatiehoek.
 * **TypeLandinrichtingsrente**: 
+> De rente die berekend is over de percelen die in een herverkavelingblok van een landinrichtingsproject hebben
+> gelegen.
 
 
 ## Objecttypen Complex datatype
@@ -39,7 +43,7 @@ Het model 'Complex datatype' kent de volgende objecttypen:
 ### BAGObjectnummering
 > **Definitie BAGObjectnummering:** 
 >
-> Geen Definitie
+> Unieke objectaanduiding van een object uit de BAG binnen een gemeente.
 
 ??? info "Kenmerken Model BAGObjectnummering"
 
@@ -50,10 +54,10 @@ Het model 'Complex datatype' kent de volgende objecttypen:
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author |  |
-    | version |  |
-    | created |  |
-    | modified |  |
+    | author | Debat\_E |
+    | version | 1.0 |
+    | created | 2015-11-26 11:06:00 |
+    | modified | 2025-03-26 16:14:54 |
     | id | EAID\_AB8B30D0\_FD1F\_4c44\_9396\_BB05389EA20B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -77,7 +81,9 @@ Attributen van objecttype BAGObjectnummering
 ### CompositeID
 > **Definitie CompositeID:** 
 >
-> Geen Definitie
+> 
+> Unieke identificatie door het Kadaster toegekend. De identificatie heeft een opbouw conform NEN3610:2011 maar
+> namespaces zijn onder beheer van kadaster (CDMKAD, delen van IMKAD) of Geonovum/NEN3610 (IMKAD).
 
 ??? info "Kenmerken Model CompositeID"
 
@@ -88,10 +94,10 @@ Attributen van objecttype BAGObjectnummering
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author |  |
-    | version |  |
-    | created |  |
-    | modified |  |
+    | author | debat\_e |
+    | version | 1.0 |
+    | created | 2015-11-30 09:17:09 |
+    | modified | 2025-03-26 16:14:54 |
     | id | EAID\_D0110970\_3A90\_451c\_9EF3\_ABD4AD5AA82A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -115,7 +121,7 @@ Attributen van objecttype CompositeID
 ### TypeBedrag
 > **Definitie TypeBedrag:** 
 >
-> Geen Definitie
+> Een hoeveelheid geld in cijfers in een bepaalde valuta.
 
 ??? info "Kenmerken Model TypeBedrag"
 
@@ -126,10 +132,10 @@ Attributen van objecttype CompositeID
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author |  |
-    | version |  |
-    | created |  |
-    | modified |  |
+    | author | debat\_e |
+    | version | 1.0 |
+    | created | 2015-11-02 10:32:09 |
+    | modified | 2025-03-26 16:14:54 |
     | id | EAID\_510A0B01\_75F9\_430e\_9FF1\_99911FAA614E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -152,7 +158,7 @@ Attributen van objecttype TypeBedrag
 ### TypeBreuk
 > **Definitie TypeBreuk:** 
 >
-> Geen Definitie
+> De uitkomst van een deling van een geheel getal (de teller) door een ander geheel getal (de noemer).
 
 ??? info "Kenmerken Model TypeBreuk"
 
@@ -163,10 +169,10 @@ Attributen van objecttype TypeBedrag
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author |  |
-    | version |  |
-    | created |  |
-    | modified |  |
+    | author | debat\_e |
+    | version | 1.0 |
+    | created | 2015-11-02 08:29:23 |
+    | modified | 2025-03-26 16:14:54 |
     | id | EAID\_02C9FDB1\_0F08\_4cd9\_80FE\_319F83C26757 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -189,7 +195,7 @@ Attributen van objecttype TypeBreuk
 ### TypeKadastraleAanduiding
 > **Definitie TypeKadastraleAanduiding:** 
 >
-> Geen Definitie
+> De typering van de kadastrale aanduiding van een onroerende zaak conform Kadaster.
 
 ??? info "Kenmerken Model TypeKadastraleAanduiding"
 
@@ -200,10 +206,10 @@ Attributen van objecttype TypeBreuk
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author |  |
-    | version |  |
-    | created |  |
-    | modified |  |
+    | author | debat\_e |
+    | version | 1.0 |
+    | created | 2015-11-02 09:50:52 |
+    | modified | 2025-03-26 16:14:54 |
     | id | EAID\_DB619B91\_E690\_49c0\_88C0\_733F37C0357B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -228,7 +234,7 @@ Attributen van objecttype TypeKadastraleAanduiding
 ### TypeKoopsom
 > **Definitie TypeKoopsom:** 
 >
-> Geen Definitie
+> Hetbedrag, waarvoor één of meer onroerende zaken zijn verkregen, het koopjaar en een indicator of het meerdere onroerende goederen betreft.
 
 ??? info "Kenmerken Model TypeKoopsom"
 
@@ -239,10 +245,10 @@ Attributen van objecttype TypeKadastraleAanduiding
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author |  |
-    | version |  |
-    | created |  |
-    | modified |  |
+    | author | debat\_e |
+    | version | 1.0 |
+    | created | 2015-11-02 10:21:00 |
+    | modified | 2025-03-26 16:14:54 |
     | id | EAID\_72D99BCE\_F52F\_4a19\_90A6\_5813DB40066B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -266,7 +272,7 @@ Attributen van objecttype TypeKoopsom
 ### TypeLabel
 > **Definitie TypeLabel:** 
 >
-> Geen Definitie
+> De tekst en positie van een label.
 
 ??? info "Kenmerken Model TypeLabel"
 
@@ -277,10 +283,10 @@ Attributen van objecttype TypeKoopsom
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author |  |
-    | version |  |
-    | created |  |
-    | modified |  |
+    | author | debat\_e |
+    | version | 1.0 |
+    | created | 2015-11-02 14:28:43 |
+    | modified | 2025-03-26 16:14:54 |
     | id | EAID\_C74E1553\_32AE\_4fd8\_9796\_00C6E1C51A11 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -303,7 +309,7 @@ Attributen van objecttype TypeLabel
 ### TypeLabelpositie
 > **Definitie TypeLabelpositie:** 
 >
-> Geen Definitie
+> De positie van een label op de kaart, samengesteld uit plaatsingspunt en rotatiehoek.
 
 ??? info "Kenmerken Model TypeLabelpositie"
 
@@ -314,10 +320,10 @@ Attributen van objecttype TypeLabel
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author |  |
-    | version |  |
-    | created |  |
-    | modified |  |
+    | author | debat\_e |
+    | version | 1.0 |
+    | created | 2015-11-02 14:03:12 |
+    | modified | 2025-03-26 16:14:54 |
     | id | EAID\_5EEC2C27\_B576\_4f86\_9768\_5E785592FA4F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -340,7 +346,9 @@ Attributen van objecttype TypeLabelpositie
 ### TypeLandinrichtingsrente
 > **Definitie TypeLandinrichtingsrente:** 
 >
-> Geen Definitie
+> 
+> De rente die berekend is over de percelen die in een herverkavelingblok van een landinrichtingsproject hebben
+> gelegen.
 
 ??? info "Kenmerken Model TypeLandinrichtingsrente"
 
@@ -351,10 +359,10 @@ Attributen van objecttype TypeLabelpositie
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author |  |
-    | version |  |
-    | created |  |
-    | modified |  |
+    | author | debat\_e |
+    | version | 1.0 |
+    | created | 2015-11-02 11:08:40 |
+    | modified | 2025-03-26 16:14:54 |
     | id | EAID\_46A510E7\_E757\_4ad6\_B697\_DF79FE87F4F2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -411,7 +419,7 @@ De enumeratie typeObjectcode heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_f80eeb31\_703e\_45be\_893f\_0c3a317e13b1 |
+    | id | EAID\_0ded0498\_6504\_4028\_a298\_8619de684afd |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

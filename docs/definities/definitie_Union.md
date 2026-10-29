@@ -22,7 +22,7 @@
 
 Het model 'Union' kent de volgende objecttypen:
 
-* **MultiPuntLijn(Multi)Vlak**: 
+* **MultiPuntLijn(Multi)Vlak**: Een samengesteld geometrie datatype waarbij wordt afgedwongen dat één van de voorkomens van de attributen geometrieMultiPunt, geometrieLijn, geometrieVlak of geometrieMultivlak moet worden toegepast.
 
 
 ## Objecttypen Union
@@ -31,7 +31,7 @@ Het model 'Union' kent de volgende objecttypen:
 ### MultiPuntLijn(Multi)Vlak
 > **Definitie MultiPuntLijn(Multi)Vlak:** 
 >
-> Geen Definitie
+> Een samengesteld geometrie datatype waarbij wordt afgedwongen dat één van de voorkomens van de attributen geometrieMultiPunt, geometrieLijn, geometrieVlak of geometrieMultivlak moet worden toegepast.
 
 ??? info "Kenmerken Model MultiPuntLijn(Multi)Vlak"
 
@@ -42,10 +42,10 @@ Het model 'Union' kent de volgende objecttypen:
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author |  |
-    | version |  |
-    | created |  |
-    | modified |  |
+    | author | debat\_e |
+    | version | 1.0 |
+    | created | 2015-12-07 10:25:11 |
+    | modified | 2025-03-26 16:14:54 |
     | id | EAID\_3616725E\_8ABE\_4756\_9F76\_EF38A8E7CE3D |
     | domein_iv3 |  |
     | domein_dcat |  |

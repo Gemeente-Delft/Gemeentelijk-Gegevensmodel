@@ -42,10 +42,10 @@ Het model 'Datatypes' kent de volgende objecttypen:
     | synoniemen |  |
     | uri |  |
     | bron |  |
-    | author |  |
-    | version |  |
-    | created |  |
-    | modified |  |
+    | author | janbr |
+    | version | 1.0 |
+    | created | 2024-03-07 12:33:22 |
+    | modified | 2025-12-20 18:35:22 |
     | id | EAID\_1F00763C\_FD4B\_4229\_2CAA\_267F962CB1D1 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -74,6 +74,15 @@ Geen Definitie
 
 Het enumeratie CodeRedenMaatregel kent de volgende waarden:
 
+* **Agressief gedrag**: 
+* **niet (voldoende) nakomen van afspraken m.b.t. beheersing van de Nederlandse taal (art. 18b Participatiewet)**: 
+* **niet (voldoende) zoeken naar scholing in zoekperiode van 4 weken**: 
+* **niet (voldoende) zoeken naar werk in zoekperiode van 4 weken**: 
+* **niet nakomen tegenprestatie**: 
+* **niet nakomen verplichtingen plan van aanpak**: 
+* **oorzaak bij partner**: 
+* **reden op het vlak van plicht tot arbeidsinschakeling**: 
+* **tekortschietend besef van verantwoordelijkheid**: 
 
 
 De enumeratie CodeRedenMaatregel heeft de volgende kenmerken:
@@ -107,6 +116,8 @@ Geen Definitie
 
 Het enumeratie Predicaat kent de volgende waarden:
 
+* **Jonkheer**: 
+* **Jonkvrouw**: 
 
 
 De enumeratie Predicaat heeft de volgende kenmerken:
@@ -140,6 +151,8 @@ Geen Definitie
 
 Het enumeratie StdIndJN kent de volgende waarden:
 
+* **Ja**: 
+* **Nee**: 
 
 
 De enumeratie StdIndJN heeft de volgende kenmerken:
@@ -173,6 +186,9 @@ Geen Definitie
 
 Het enumeratie TypeMaatregel kent de volgende waarden:
 
+* **Afwijking maatregel**: 
+* **Boete**: 
+* **Maatregel op uitkering**: 
 
 
 De enumeratie TypeMaatregel heeft de volgende kenmerken:
@@ -206,6 +222,8 @@ Geen Definitie
 
 Het enumeratie TypeNormafwijking kent de volgende waarden:
 
+* **Afwikingstype 1**: 
+* **Afwikingstype 2**: 
 
 
 De enumeratie TypeNormafwijking heeft de volgende kenmerken:

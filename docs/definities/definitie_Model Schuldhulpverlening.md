@@ -29,27 +29,36 @@ Het model 'Model Schuldhulpverlening' kent de volgende objecttypen:
 * **Crisisinterventie**: 
 > Het afwenden van een crisis- of dreigende situatie om zo de mogelijkheid te creëren om de klant te helpen via de reguliere schuldhulpverlening.
 > Volgens de Wgs gaat het in elk geval om de volgende situaties:
-> ■ gedwongen woningontruiming;
-> ■ beëindiging van de levering van gas, water, elektriciteit of stadsverwarming;
-> ■ opzegging of ontbinding van de zorgverzekering.
+>
+> * gedwongen woningontruiming;
+> * beëindiging van de levering van gas, water, elektriciteit of stadsverwarming;
+> * opzegging of ontbinding van de zorgverzekering.
+>
 > Gemeenten kunnen extra situaties toevoegen aan hun crisisprotocol, zoals:
-> ■ aangekondigde boedelverkoop of verkoop van de eigen woning;
-> ■ loon- of bankbeslag;
-> ■ een faillissementsaanvraag.
+>
+> * aangekondigde boedelverkoop of verkoop van de eigen woning;
+> * loon- of bankbeslag;
+> * een faillissementsaanvraag.
+>
 > En voor ondernemers:
-> ■ beslag op (on)roerende zaken dat het voortbestaan van de onderneming bedreigt;
-> ■ opzegging van het bankkrediet.
+>
+> * beslag op (on)roerende zaken dat het voortbestaan van de onderneming bedreigt;
+> * opzegging van het bankkrediet.
 * **InformatieEnAdvies**: Het betreft hier de activiteiten die in het kader van Informatie en advies worden uitgevoerd. Het doel van Informatie en Advies is inwoners zelf in staat te stellen een duurzaam financieel evenwicht te bereiken. Het kan een beroep op uitgebreidere vormen van dienstverlening overbodig maken.
 * **Inkomen**: Inkomen dat door een persoon wordt verworven uit verschillende mogelijke inkomstenbronnen: inkomen uit arbeid, inkomen uit eigen onderneming, uitkering inkomensverzekeringen en uitkering sociale voorzieningen (m.u.v. kinderbijslag en kindgebonden budget). Premies inkomensverzekeringen (m.u.v. premies voor volksverzekeringen) zijn hierop in mindering gebracht.
 * **Intake**: Dit is de fase tussen het eerste gesprek en het Plan van Aanpak. Tijdens de intakefase wordt geinventariseerd welke instrumenten, ondersteuning, activiteiten en gegevens nodig zijn om een duurzaam financieel evenwicht te bereiken.
 * **Leefsituatie**: Leefsituatie is de combinatie van factoren zoals schulden, ondernemerschap, aanwezigheid van een partner, en inkomen, die samen de sociale en economische omstandigheden van een individu bepalen. Deze wordt in het kader van schuldhulpverlening gebruikt om alle relevante zaken van clienten aan te koppelen.
 * **Moratorium**: 
 > Het gaat hier om de datum waarop een verzoek tot een moratorium (ex art. 287 b Fw) is ingediend bij de rechter.
+>
 > Er kan een verzoek tot een moratorium bij de rechter worden gedaan om te voorkomen dat een schuldeiser zijn specifieke inningsmogelijkheden gebruikt, terwijl een aanvraag voor een minnelijke schuldregeling in behandeling is. Het moratorium is bedoeld om het minnelijke traject te kunnen voortzetten.
+>
 > Het moratorium kan in de volgende situaties worden ingezet:
-> - gedwongen woningontruiming;
-> - beëindiging van de levering van gas, water elektriciteit of stadsverwarming;
-> - opzegging dan wel ontbinding van de zorgverzekering.
+>
+> * gedwongen woningontruiming;
+> * beëindiging van de levering van gas, water elektriciteit of stadsverwarming;
+> * opzegging dan wel ontbinding van de zorgverzekering.
+>
 > Het moratorium duurt maximaal zes maanden.
 * **Nazorg**: Ondersteuning die een persoon ontvangt ná een schuldhulptraject, om zo bij de start van een schuldenvrij leven zelfredzaamheid verder te bevorderen én recidive (terugval) te voorkomen.
 * **Ondernemer**: Een ondernemer is een individu die die goederen of diensten levert aan anderen om winst te maken.
@@ -58,10 +67,12 @@ Het model 'Model Schuldhulpverlening' kent de volgende objecttypen:
 * **Partner**: Een partner is een persoon met wie iemand een romantische en vaak langdurige relatie heeft, gebaseerd op wederzijdse liefde, steun en commitment.
 * **PlanVanAanpak**: 
 > Een document waarin in elk geval het volgende staat:
-> ■ de hulpvraag van de persoon;
-> ■ de voorgestelde ondersteuning;
-> ■ eventueel de organisatie(s) waarnaar je hebt doorverwezen;
-> ■ de voorwaarden voor schuldhulpverlening (bijvoorbeeld dat de persoon geen nieuwe schulden mag maken).
+>
+> * de hulpvraag van de persoon;
+> * de voorgestelde ondersteuning;
+> * eventueel de organisatie(s) waarnaar je hebt doorverwezen;
+> * de voorwaarden voor schuldhulpverlening (bijvoorbeeld dat de persoon geen nieuwe schulden mag maken).
+>
 > De hoogte van beslagvrije voet voor de persoon (zie artikel 4a:5 van de Wgs) moet in acht worden genomen.
 * **Schuld**: Een schuld is een financiële verplichting waarbij een persoon nu of in de toekomst een bedrag moet betalen aan een derde. In het kader van schuldhulpverlening wordt over een schuld gesproken als de persoon niet aan deze verplichting kan voldoen. .
 * **Schuldeiser**: Een schuldeiser is bedrijf of persoon die recht heeft op een prestatie van een ander, de schuldenaar. In de meeste gevallen is de prestatie het betalen van geld. Dit geldbedrag is dan de schuld die de schuldenaar aan de schuldeiser moet betalen. De schuld is meestal het gevolg van het niet nakomen van een verplichting uit een overeenkomst tussen de partijen. De schuldeiser kan de schuldenaar dwingen om de schuld te voldoen.
@@ -125,7 +136,7 @@ Attributen van objecttype Aanmelding
 | :--- | :--- | :--- |
 | startdatum | Datum | Datum waarop een persoon met een hulpvraag komt rondom (dreigende) schulden, en het eerste contact met schuldhulpverlening is geweest. Dit kan een persoonlijke, schriftelijke, digitale of telefonische vraag zijn. |
 | einddatum | Datum |  |
-| crisisinterventie | boolean | Is er sprake van een crisisinterventie? Indicator crisisinterventie. "Het afwenden van een crisis- of dreigende situatie om zo de mogelijkheid te creëren om de klant te helpen via de reguliere schuldhulpverlening.<br>Volgens de Wgs gaat het in elk geval om de volgende situaties:<br>■ gedwongen woningontruiming;<br>■ beëindiging van de levering van gas, water, elektriciteit of stadsverwarming;<br>■ opzegging of ontbinding van de zorgverzekering.<br>Gemeenten kunnen extra situaties toevoegen aan hun crisisprotocol, zoals:<br>■ aangekondigde boedelverkoop of verkoop van de eigen woning;<br>■ loon- of bankbeslag;<br>■ een faillissementsaanvraag.<br>En voor ondernemers:<br>■ beslag op (on)roerende zaken dat het voortbestaan van de onderneming bedreigt;<br>■ opzegging van het bankkrediet." |
+| crisisinterventie | boolean | Is er sprake van een crisisinterventie? Indicator crisisinterventie. "Het afwenden van een crisis- of dreigende situatie om zo de mogelijkheid te creëren om de klant te helpen via de reguliere schuldhulpverlening.<br>Volgens de Wgs gaat het in elk geval om de volgende situaties:<br>- gedwongen woningontruiming;<br>- beëindiging van de levering van gas, water, elektriciteit of stadsverwarming;<br>- opzegging of ontbinding van de zorgverzekering.<br>Gemeenten kunnen extra situaties toevoegen aan hun crisisprotocol, zoals:<br>- aangekondigde boedelverkoop of verkoop van de eigen woning;<br>- loon- of bankbeslag;<br>- een faillissementsaanvraag.<br>En voor ondernemers:<br>- beslag op (on)roerende zaken dat het voortbestaan van de onderneming bedreigt;<br>- opzegging van het bankkrediet." |
 
 
 
@@ -248,16 +259,21 @@ Attributen van objecttype Contactpersoon
 > 
 > Het afwenden van een crisis- of dreigende situatie om zo de mogelijkheid te creëren om de klant te helpen via de reguliere schuldhulpverlening.
 > Volgens de Wgs gaat het in elk geval om de volgende situaties:
-> ■ gedwongen woningontruiming;
-> ■ beëindiging van de levering van gas, water, elektriciteit of stadsverwarming;
-> ■ opzegging of ontbinding van de zorgverzekering.
+>
+> * gedwongen woningontruiming;
+> * beëindiging van de levering van gas, water, elektriciteit of stadsverwarming;
+> * opzegging of ontbinding van de zorgverzekering.
+>
 > Gemeenten kunnen extra situaties toevoegen aan hun crisisprotocol, zoals:
-> ■ aangekondigde boedelverkoop of verkoop van de eigen woning;
-> ■ loon- of bankbeslag;
-> ■ een faillissementsaanvraag.
+>
+> * aangekondigde boedelverkoop of verkoop van de eigen woning;
+> * loon- of bankbeslag;
+> * een faillissementsaanvraag.
+>
 > En voor ondernemers:
-> ■ beslag op (on)roerende zaken dat het voortbestaan van de onderneming bedreigt;
-> ■ opzegging van het bankkrediet.
+>
+> * beslag op (on)roerende zaken dat het voortbestaan van de onderneming bedreigt;
+> * opzegging van het bankkrediet.
 
 ??? info "Kenmerken Model Crisisinterventie"
 
@@ -450,11 +466,15 @@ Attributen van objecttype Leefsituatie
 >
 > 
 > Het gaat hier om de datum waarop een verzoek tot een moratorium (ex art. 287 b Fw) is ingediend bij de rechter.
+>
 > Er kan een verzoek tot een moratorium bij de rechter worden gedaan om te voorkomen dat een schuldeiser zijn specifieke inningsmogelijkheden gebruikt, terwijl een aanvraag voor een minnelijke schuldregeling in behandeling is. Het moratorium is bedoeld om het minnelijke traject te kunnen voortzetten.
+>
 > Het moratorium kan in de volgende situaties worden ingezet:
-> - gedwongen woningontruiming;
-> - beëindiging van de levering van gas, water elektriciteit of stadsverwarming;
-> - opzegging dan wel ontbinding van de zorgverzekering.
+>
+> * gedwongen woningontruiming;
+> * beëindiging van de levering van gas, water elektriciteit of stadsverwarming;
+> * opzegging dan wel ontbinding van de zorgverzekering.
+>
 > Het moratorium duurt maximaal zes maanden.
 
 ??? info "Kenmerken Model Moratorium"
@@ -684,10 +704,12 @@ Attributen van objecttype Partner
 >
 > 
 > Een document waarin in elk geval het volgende staat:
-> ■ de hulpvraag van de persoon;
-> ■ de voorgestelde ondersteuning;
-> ■ eventueel de organisatie(s) waarnaar je hebt doorverwezen;
-> ■ de voorwaarden voor schuldhulpverlening (bijvoorbeeld dat de persoon geen nieuwe schulden mag maken).
+>
+> * de hulpvraag van de persoon;
+> * de voorgestelde ondersteuning;
+> * eventueel de organisatie(s) waarnaar je hebt doorverwezen;
+> * de voorwaarden voor schuldhulpverlening (bijvoorbeeld dat de persoon geen nieuwe schulden mag maken).
+>
 > De hoogte van beslagvrije voet voor de persoon (zie artikel 4a:5 van de Wgs) moet in acht worden genomen.
 
 ??? info "Kenmerken Model PlanVanAanpak"
@@ -1166,8 +1188,10 @@ Het enumeratie EnumBegeleidingssoort kent de volgende waarden:
 * **Budgetbeheer**: Het beheren van de inkomsten en het verrichten van betalingen. Dit met als doel om vaste lasten op tijd te betalen om zo te voorkomen dat schulden en betalingsachterstanden ontstaan en/of oplopen.
 * **Beschermingsbewind**: 
 > Beschermingsbewind is een wettelijke maatregel die bedoeld is om iemands financiële belangen, volledig of gedeeltelijk, te beschermen als diegene daar zelf niet toe in staat is. Het is bedoeld voor meerderjarigen die niet in staat zijn om hun eigen vermogen te beheren doordat ze:
-> ■ een lichamelijke of geestelijke beperking hebben;
-> ■ hun bezit (dreigen te) verkwisten of problematische schulden hebben.
+>
+> * een lichamelijke of geestelijke beperking hebben;
+> * hun bezit (dreigen te) verkwisten of problematische schulden hebben.
+>
 > De kantonrechter beslist of iemand beschermingsbewind nodig heeft. Na uitspraak van de kantonrechter wordt
 > een bewindvoerder verantwoordelijk om alle handelingen te verrichten die
 > aan een goed bewind bijdragen en om betrokkene in en buiten rechte te

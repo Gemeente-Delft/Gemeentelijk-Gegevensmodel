@@ -1487,7 +1487,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_32cca159\_cc60\_4d48\_89ba\_f44dbd1c6040 |
+    | id | EAID\_072aa20b\_e099\_43ad\_8a8b\_fac1dde6026a |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1524,7 +1524,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_0023c0a8\_8f5a\_4d76\_bed1\_f60a6e7c3615 |
+    | id | EAID\_f1e51012\_b977\_42df\_bcc3\_d7cb31ae824f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1563,7 +1563,7 @@ De enumeratie CodeNiveauOpleiding heeft de volgende kenmerken:
     | version | 1.9.0 |
     | created | 2025-06-17 16:01:14 |
     | modified | 2025-12-18 15:38:53 |
-    | id | EAID\_9254bca2\_3d24\_4927\_8af0\_b98d3b8fe409 |
+    | id | EAID\_fa31fb6b\_fad6\_4354\_ade8\_051dd2c53ab5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2142,6 +2142,12 @@ Geen Definitie
 
 Het enumeratie Subdoel betaald werken kent de volgende waarden:
 
+* **ik weet welk werk bij mij past**: 
+* **Ik heb mijn sollicitatievaardigheden ontwikkeld**: 
+* **Ik heb werk gevonden waarmee ik uit de bijstand ga**: 
+* **ik ben gestart met werken en behoud mijn werk succesvol**: 
+* **ik heb urenuitbreiding gekregen**: 
+* **ik weet wat mijn kwaliteiten zijn**: 
 
 
 De enumeratie Subdoel betaald werken heeft de volgende kenmerken:

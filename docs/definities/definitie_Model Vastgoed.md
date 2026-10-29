@@ -1178,7 +1178,7 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
     | version | 1.11.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_57be8fbf\_13c0\_4319\_bef5\_2b9adf3fbaa6 |
+    | id | EAID\_75215dea\_dbfc\_4b27\_86b3\_24bf67aa2e2d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1215,7 +1215,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_3c628c50\_1988\_497a\_9461\_a0412ebb406a |
+    | id | EAID\_d1992801\_6cff\_4c1e\_b017\_83f21b76c0ef |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1252,7 +1252,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_47c034ac\_5816\_4fd2\_886b\_ed7514c5d14d |
+    | id | EAID\_3a3b3230\_9bb2\_4646\_9170\_143960b68821 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1289,7 +1289,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_df7e89d8\_cd9e\_49b8\_9fd0\_0fc4f0af9506 |
+    | id | EAID\_1f9f1e5f\_f5c5\_45d6\_babc\_6c058bd7704b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1326,7 +1326,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_6fd774b9\_f8dc\_4359\_8baa\_2c996755b8ee |
+    | id | EAID\_496c5444\_b415\_4d8e\_97e4\_fda92e669450 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1365,7 +1365,7 @@ De enumeratie aanduidingEigenaarGebruiker heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_0205ca1f\_ed5d\_4ae6\_82c7\_1d68532cfb33 |
+    | id | EAID\_44cdfa85\_dd77\_4edb\_a889\_1ef4aaed022f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
