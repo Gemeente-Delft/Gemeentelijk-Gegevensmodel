@@ -176,9 +176,35 @@ de `.qea` als bron; de XMI in de release-map is alleen nog een download. Gedraai
 - `publish:local`: documentatie uit de `.qea` op de lokale gh-pages (v3.0.0 zonder alias, latest en
   standaard ongewijzigd).
 
-**Aandachtspunt voor crunch_uml (volgende release).** De kopie naar het wortelpakket geeft kopieën van
-enumeraties buiten scope een willekeurig id. Daardoor verschillen 73 van de 135 view-bestanden bij elke
-`generate:lod` alleen in `dcterms:identifier`, verschillen de definitiepagina's elke run in hun id's, en
-telt `generate:diff` die kopieën als verwijderd en toegevoegd. Deterministische id's voor die kopieën
-(bijvoorbeeld een hash van bron-id en doelpakket) nemen dat weg; de diff-renderer kan daarnaast de
-typenaam tonen waar de typeklasse buiten de scope valt (`<onbekend:EAID_…>`).
+**Aandachtspunt voor crunch_uml: opgelost in 0.8.3 (29 oktober 2026).** De kopie naar het wortelpakket
+gaf kopieën van enumeraties een willekeurig id; in werkelijkheid kreeg élk attribuut waarvan de enumeratie
+buiten het pakket van de eigen klasse lag een eigen kopie met een uuid4, ook binnen scope (210
+enumeraties en 1.905 waarden met per run een ander id). Daardoor verschilden 73 van de 135
+view-bestanden bij elke `generate:lod` alleen in `dcterms:identifier`, verschilden de definitiepagina's
+elke run in hun id's, en telde `generate:diff` die kopieën als verwijderd en toegevoegd. crunch_uml 0.8.3
+laat enumeraties binnen scope met de boom meekomen, kopieert een enumeratie buiten scope één keer met
+haar eigen id, en munt alleen nog een afgeleid id voor attributen die uit een superklasse worden
+gematerialiseerd (niet gebruikt in deze pijplijn). Resultaat in deze pijplijn (geforceerde import,
+twee runs): de kopie heeft 388 enumeraties, evenveel als de bron (was 598), en 2 Booleans (was 21);
+views, definitiepagina's en ontologie zijn tussen twee runs byte-gelijk. Eenmalig veranderden daardoor
+74 van de 135 views en 20 definitiepagina's: de tien Boolean-kopieën met IRI's als
+`dienstverlening/boolean` zijn twee Booleans geworden, en een gedeelde enumeratie staat nog maar één
+keer in de documentatie, bij haar eigen pakket. De diff-renderer kan daarnaast nog de typenaam tonen
+waar de typeklasse buiten de scope valt (`<onbekend:EAID_…>`); dat staat nog open.
+
+**Twee nieuwe aandachtspunten voor crunch_uml (gevonden bij de dubbele run).**
+
+- Enumeraties in een pakket zonder klassen (de drie pakketten `Enumeratiesoort` onder RSGB, RGBZ en
+  Basis IMBOR en de `Datatypes`-pakketten, samen 98 enumeraties) krijgen in de LOD de verzamel-IRI
+  `enumeraties/<naam>` in plaats van het pad van hun pakket (`kern/rsgbplus/rsgb/enumeratiesoort/boolean`):
+  de LOD-renderer neemt alleen pakketten met klassen als model, en de rest valt in de
+  "wees"-namespace. Hetzelfde geldt voor de documentatie: de jinja2-renderer maakt alleen een pagina
+  per pakket met klassen, dus de enumeraties van die pakketten staan nergens meer (de pagina Model
+  Kern RSGB ging van 103 naar 47 enumeraties). Dat viel eerder niet op omdat elk model zijn eigen
+  kopieën had en die wél documenteerde. In deze set zijn er geen naamsbotsingen, maar de IRI's volgen
+  niet de pakketboom. Zolang dit open staat zijn de LOD en de documentatie van 0.8.3 niet gepubliceerd
+  en niet gecommit; de TaskFile is wel op 0.8.3 gepind.
+- Het shapes-bestand krijgt per run een andere volgorde van de property shapes: de blank nodes krijgen
+  willekeurige id's en rdflib sorteert daarop (ruim 28.000 verplaatste regels per run). Deterministische
+  blank-node-labels (afgeleid van de IRI van het pad) nemen dat weg. Het raakt alleen het bestand in
+  git, niet de views of de ontologie.
